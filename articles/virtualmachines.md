@@ -1,4 +1,4 @@
-<properties pageTitle="Sample article" 
+<properties pageTitle="I can't connect to my Linux VM" 
 	description="This is an example article" 
 	services="microsoft.classiccompute, microsoft.compute" 
 	documentationCenter=""
