@@ -19,7 +19,6 @@ To resolve the most common issues, try one or more of the following steps.
 Click 'Size' in the Settings blade of the VM resource.
 6. Reset SSH configuration to fix any SSH issues.<br>
    [Reset SSH using CLI](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-classic-reset-access/#sshconfigresetcli)
-7. This is a test step
 
 ###Recommended documents
 [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-troubleshoot-ssh-connection/#detailed-troubleshooting-of-ssh-errors) <br>
