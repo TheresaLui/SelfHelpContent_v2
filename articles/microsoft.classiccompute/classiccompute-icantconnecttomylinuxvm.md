@@ -1,6 +1,6 @@
 <properties pageTitle="I can't connect to my Linux VM"
 	description="I can't connect to my Linux VM" 
-	services="Microsoft.ClassicCompute"
+	service="Microsoft.ClassicCompute"
 	resource="virtualMachines" 
 	documentationCenter=""
 	authors="aashu"
