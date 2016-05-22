@@ -1,6 +1,6 @@
 <properties pageTitle="I can't connect to my Linux VM"
 	description="I can't connect to my Linux VM" 
-	services="Microsoft.ClassicCompute"
+	services="Microsoft.Compute"
 	resource="virtualMachines" 
 	documentationCenter=""
 	authors="aashu"
@@ -14,12 +14,13 @@
 ## **Recommended steps**
 To resolve the most common issues, try one or more of the following steps.
 
-1. Review your VM's [console log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) or screenshot to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.
-3. [Reset Password](data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade) to address authentication errors.
+2. Review your VM's [console screenshot or logs](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.
+3. Reset Password to address authentication errors. <br>
+   [Reset Password using CLI or PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-troubleshoot-ssh-connection/#fix-common-ssh-errors)	
 4. Restart the Virtual Machine to address startup issues. <br>
    Click 'Restart' at the top of the VM resource blade.
-5. Resize the VM to fix host issues. <br>
-Click 'Size' in the Settings blade of the VM resource.
+5. Address any Azure host issues by redeploying, which will migrate the VM to a new Azure host.<br>
+   [Redeploy](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy)
 6. Reset SSH configuration to fix any SSH issues.<br>
    [Reset SSH using CLI](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-classic-reset-access/#sshconfigresetcli)
 
