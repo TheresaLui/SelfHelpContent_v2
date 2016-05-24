@@ -6,7 +6,8 @@
 	authors="aashu"
 	resourceTags="linux, windows"
 	selfHelpType="resource"
-	supportTopic=""
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="2" />
 
 # I can't create or add a new VM
