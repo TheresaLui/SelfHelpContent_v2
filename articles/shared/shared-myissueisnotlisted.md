@@ -6,8 +6,9 @@
 	authors="aashu"
 	resourceTags=""
 	selfHelpType="resource"
-	supportTopic=""
-	displayOrder="1" />
+	supportTopicIds=""
+	productPesIds=""
+	displayOrder="" />
 
 # My issue is not listed
 

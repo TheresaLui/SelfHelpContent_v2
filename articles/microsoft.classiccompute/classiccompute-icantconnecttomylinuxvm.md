@@ -6,7 +6,8 @@
 	authors="aashu"
 	resourceTags="linux"
 	selfHelpType="resource"
-	supportTopic=""
+	supportTopicIds=""
+	productPesIds=""
 	displayOrder="1" />
 
 # I can't connect to my Linux VM
