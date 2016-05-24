@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	displayOrder="" />
+	displayOrder="99" />
 
 # My issue is not listed
 
