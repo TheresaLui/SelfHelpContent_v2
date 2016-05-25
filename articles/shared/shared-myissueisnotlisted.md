@@ -9,7 +9,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	displayOrder="99" />
+	displayOrder="" />
 
 # My issue is not listed
 
