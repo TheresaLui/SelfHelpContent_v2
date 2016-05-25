@@ -1,6 +1,6 @@
 <properties 
     pageTitle="I can't create or add a new VM" 
-    description="I can't create or add a new VM" 
+    description="I can't create or add a new VM " 
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="kasparks"

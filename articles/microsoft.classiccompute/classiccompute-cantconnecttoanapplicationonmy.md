@@ -1,6 +1,6 @@
 <properties 
     pageTitle="I can't connect to an application on my VM"
-    description="I can't connect to an application on my VM"
+    description="I can't connect to an application on my VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="kasparks"

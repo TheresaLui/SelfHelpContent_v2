@@ -1,7 +1,7 @@
 
 <properties 
     pageTitle="I can't connect to my Windows VM"
-    description="I can't connect to my Windows VM"
+    description="I can't connect to my Windows VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="kasparks"

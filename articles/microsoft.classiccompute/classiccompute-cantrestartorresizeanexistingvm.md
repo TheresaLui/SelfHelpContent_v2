@@ -1,6 +1,6 @@
 <properties    
     pageTitle="I can't restart or resize an existing VM"
-    description="I can't restart or resize an existing VM"
+    description="I can't restart or resize an existing VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="kasparks"

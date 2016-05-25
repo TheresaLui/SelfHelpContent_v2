@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly"
+	description="My VM restarted unexpectedly "
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="kasparks"

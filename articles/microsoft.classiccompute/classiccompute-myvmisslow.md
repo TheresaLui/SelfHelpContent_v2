@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="My VM is slow"
-	description="My VM is slow"
+	description="My VM is slow "
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="kasparks"
