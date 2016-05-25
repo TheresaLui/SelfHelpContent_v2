@@ -1,6 +1,6 @@
 <properties 
 	pageTitle="My issue is not listed"
-	description="My issue is not listed" 
+	description="My issue is not listed " 
 	service="shared"
 	resource="issuenotlisted" 
 	documentationCenter=""
