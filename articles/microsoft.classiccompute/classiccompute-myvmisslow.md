@@ -1,14 +1,14 @@
 <properties 
-	pageTitle = "My VM is slow"
-	description = "My VM is slow"
-	service = "microsoft.classiccompute"
-	resource = "virtualmachines"
-	authors = "kasparks"
-	displayOrder = "7"
-	selfHelpType = "resource"
-	supportTopicIds = ""
-	resourceTags = "windows, linux"	
-	productPesIds = "" 
+	pageTitle="My VM is slow"
+	description="My VM is slow"
+	service="microsoft.classiccompute"
+	resource="virtualmachines"
+	authors="kasparks"
+	displayOrder="7"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="windows, linux"	
+	productPesIds="" 
 />
     
 # My VM is slow

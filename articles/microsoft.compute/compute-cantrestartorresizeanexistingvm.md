@@ -1,14 +1,14 @@
 <properties 
-	pageTitle = "I can't restart or resize an existing VM" 
-	description = "I can't restart or resize an existing VM" 
-	service = "microsoft.compute"
-	resource = "virtualmachines"
-	authors = "kasparks"
-	displayOrder = "5"
-	selfHelpType = "resource"
-	supportTopicIds = ""
-	resourceTags = "windows, linux"	
-	productPesIds = "" 
+	pageTitle="I can't restart or resize an existing VM" 
+	description="I can't restart or resize an existing VM" 
+	service="microsoft.compute"
+	resource="virtualmachines"
+	authors="kasparks"
+	displayOrder="5"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="windows, linux"	
+	productPesIds="" 
 />
 
 # I can't restart or resize an existing VM

@@ -1,14 +1,14 @@
 <properties 
-    pageTitle = "I can't connect to my Linux VM"
-    description = "I can't connect to my Linux VM"
-    service = "microsoft.classiccompute"
-    resource = "virtualmachines"
-    authors = "kasparks"
-    displayOrder = "2"
-    selfHelpType = "resource"
-    supportTopicIds = ""
-    resourceTags = " linux"
-    productPesIds = ""	 
+    pageTitle="I can't connect to my Linux VM"
+    description="I can't connect to my Linux VM"
+    service="microsoft.classiccompute"
+    resource="virtualmachines"
+    authors="kasparks"
+    displayOrder="2"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="linux"
+    productPesIds=""	 
  />
 
 # I can't connect to my Linux VM

@@ -1,14 +1,14 @@
 <properties 
-	pageTitle = "I can't connect to an application on my VM"
-	description = "I can't connect to an application on my VM"
-	service = "microsoft.compute"
-	resource = "virtualmachines"
-	authors = "kasparks"
-	displayOrder = "6"
-	selfHelpType = "resource"
-	supportTopicIds = ""
-	resourceTags = "windows, linux"	 
-	productPesIds = ""
+	pageTitle="I can't connect to an application on my VM"
+	description="I can't connect to an application on my VM"
+	service="microsoft.compute"
+	resource="virtualmachines"
+	authors="kasparks"
+	displayOrder="6"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="windows, linux"	 
+	productPesIds=""
 />
     
 # I can't connect to an application on my VM

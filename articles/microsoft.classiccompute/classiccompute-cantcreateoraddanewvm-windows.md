@@ -1,14 +1,14 @@
 <properties    
-    pageTitle = "I can't create or add a new VM"
-    description = "I can't create or add a new VM"
-    service = "microsoft.classiccompute"
-    resource = "virtualmachines"
-    authors = "kasparks"
-    displayOrder = "3"
-    selfHelpType = "resource"
-    supportTopicIds = ""
-    resourceTags = "windows"
-    productPesIds = ""	 
+    pageTitle="I can't create or add a new VM"
+    description="I can't create or add a new VM"
+    service="microsoft.classiccompute"
+    resource="virtualmachines"
+    authors="kasparks"
+    displayOrder="3"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="windows"
+    productPesIds=""	 
  />
     
 # I can't create or add a new VM

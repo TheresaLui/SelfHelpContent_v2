@@ -1,14 +1,14 @@
 <properties 
-	pageTitle = "My VM restarted unexpectedly"
-	description = "My VM restarted unexpectedly"
-	service = "microsoft.classiccompute"
-	resource = "virtualmachines"
-	authors = "kasparks"
-	displayOrder = "8"
-	selfHelpType = "resource"
-	supportTopicIds = ""
-	resourceTags = "windows, linux"	
-	productPesIds = "" 
+	pageTitle="My VM restarted unexpectedly"
+	description="My VM restarted unexpectedly"
+	service="microsoft.classiccompute"
+	resource="virtualmachines"
+	authors="kasparks"
+	displayOrder="8"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="windows, linux"	
+	productPesIds="" 
 />
     
 # My VM restarted unexpectedly
