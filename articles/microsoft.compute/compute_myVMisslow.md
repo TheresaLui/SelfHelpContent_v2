@@ -1,10 +1,9 @@
 <properties 
-	articleTitle = "My VM is slow"
 	pageTitle = "My VM is slow"
 	description = "My VM is slow"
 	service = "microsoft.compute"
 	resource = "virtualmachines"
-	articleAuthor = "kasparks"
+	authors = "kasparks"
 	displayOrder = "7"
 	selfHelpType = "resource"
 	supportTopicIds = ""
@@ -14,7 +13,7 @@
 
 # My VM is slow
 
-###**Recommended steps**
+## **Recommended steps**
 Try the following steps to diagnose and mitigate VM performance issues.
 
 1. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues <br>
@@ -28,5 +27,5 @@ On Windows, use the Perfmon tool. On Linux, use commands such as Top, VmStat, Ls
 6. Consider using a Premium Storage account if its an I/O intensive use-case <br>
 [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage-preview-portal/)
 
-###**Recommended documents**
+## **Recommended documents**
 [Detailed troubleshooting of Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
