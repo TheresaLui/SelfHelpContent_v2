@@ -12,7 +12,7 @@
 	productPesIds = "" 
 />
     
- # I can't connect to my Linux VM
+# I can't connect to my Linux VM
  
 ###**Recommended steps**
  To resolve common issues, try one or more of the following steps.
