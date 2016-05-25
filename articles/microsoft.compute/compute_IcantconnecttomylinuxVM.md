@@ -14,7 +14,7 @@
     
  # I can't connect to my Linux VM
  
- ###**Recommended steps**
+###**Recommended steps**
  To resolve common issues, try one or more of the following steps.
  
  1. Review your VM's [console screenshot or logs](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems. Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
