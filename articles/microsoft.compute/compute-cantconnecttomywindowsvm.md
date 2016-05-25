@@ -1,10 +1,9 @@
 <properties 
-	articleTitle = "I can't connect to my Windows VM" 
 	pageTitle = "I can't connect to my Windows VM" 
 	description = "I can't connect to my Windows VM" 
 	service = "microsoft.compute"
 	resource = "virtualmachines"
-	articleAuthor = "kasparks"
+	authors = "kasparks"
 	displayOrder = "1"
 	selfHelpType = "resource"
 	supportTopicIds = ""
@@ -17,7 +16,7 @@
 ###**Recommended steps**
 To resolve common issues, try one or more of the following steps.
 
-1. Review your VM's [console screenshot](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems
+1. Review your VM's [console screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems
 2. Reset Remote Access to address remote server issues <br>
 [Reset remote access using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
 3. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade

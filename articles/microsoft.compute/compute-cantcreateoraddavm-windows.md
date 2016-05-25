@@ -1,10 +1,9 @@
 <properties 
-	articleTitle = "I can't create or add a VM" 
 	pageTitle = "I can't create or add a VM" 
 	description = "I can't create or add a VM" 
 	service = "microsoft.compute"
 	resource = "virtualmachines"
-	articleAuthor = "kasparks"
+	authors = "kasparks"
 	displayOrder = "3"
 	selfHelpType = "resource"
 	supportTopicIds = ""
@@ -15,7 +14,7 @@
     
 # I can't create or add a VM
 
-###**Recommended steps**
+## **Recommended steps**
 To resolve common issues, try one or more of the following methods.
 
 1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason
@@ -26,5 +25,5 @@ To resolve common issues, try one or more of the following methods.
 4. If you're creating a new VM using a custom image, review the following article to verify that you followed the necessary steps <br>
 [How to capture a Windows virtual machine in the Resource Manager deployment model](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-capture-image-resource-manager/)
 
-###**Recommended documents**
+## **Recommended documents**
 [Troubleshooting allocation failure when you create, restart or resize a VM in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/)

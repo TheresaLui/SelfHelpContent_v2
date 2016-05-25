@@ -1,10 +1,9 @@
 <properties 
-	articleTitle = "I can't connect to my Linux VM" 
 	pageTitle = "I can't connect to my Linux VM" 
 	description = "I can't connect to my Linux VM" 
 	service = "microsoft.compute"
 	resource = "virtualmachines"
-	articleAuthor = "kasparks"
+	authors = "kasparks"
 	displayOrder = "2"
 	selfHelpType = "resource"
 	supportTopicIds = ""
@@ -14,7 +13,7 @@
     
 # I can't connect to my Linux VM
  
-###**Recommended steps**
+## **Recommended steps**
  To resolve common issues, try one or more of the following steps.
  
  1. Review your VM's [console screenshot or logs](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems. Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
@@ -25,6 +24,6 @@
  5. Reset the SSH connection and configuration to fix SSH issues <br>
  [Reset SSH connection using CLI or PowerShell](http://aka.ms/resetarmssh)
  
-###**Recommended documents**
+## **Recommended documents**
 [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors) <br>
 [Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
