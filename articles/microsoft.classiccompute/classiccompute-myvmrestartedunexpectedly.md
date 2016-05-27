@@ -8,7 +8,8 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="windows, linux"	
-	productPesIds="" 
+	productPesIds=""
+	cloudEnvironments="public" 
 />
     
 # My VM restarted unexpectedly

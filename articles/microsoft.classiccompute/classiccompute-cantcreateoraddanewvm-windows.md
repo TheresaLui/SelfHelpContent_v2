@@ -8,7 +8,8 @@
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="windows"
-    productPesIds=""	 
+    productPesIds=""
+	cloudEnvironments="public" 
  />
     
 # I can't create or add a new VM

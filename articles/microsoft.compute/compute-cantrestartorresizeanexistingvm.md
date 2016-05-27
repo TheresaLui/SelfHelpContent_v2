@@ -8,7 +8,8 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="windows, linux"	
-	productPesIds="" 
+	productPesIds=""
+	cloudEnvironments="public" 
 />
 
 # I can't restart or resize an existing VM

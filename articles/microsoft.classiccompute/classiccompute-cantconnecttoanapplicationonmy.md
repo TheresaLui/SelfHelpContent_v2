@@ -8,7 +8,8 @@
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
-    resourceTags="windows, linux"	 
+    resourceTags="windows, linux"
+	cloudEnvironments="public"	 
  />
 
 # I can't connect to an application on my VM
