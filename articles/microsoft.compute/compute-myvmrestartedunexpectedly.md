@@ -9,6 +9,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"	 
 	productPesIds=""
+	cloudEnvironments="public"
 />
 
     

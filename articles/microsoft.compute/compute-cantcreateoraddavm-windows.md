@@ -8,7 +8,8 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="windows"
-	productPesIds=""	 
+	productPesIds=""
+	cloudEnvironments="public"	 
 />
 
     

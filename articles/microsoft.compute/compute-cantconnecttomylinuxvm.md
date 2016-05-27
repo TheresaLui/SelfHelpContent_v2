@@ -8,7 +8,8 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="linux"	
-	productPesIds="" 
+	productPesIds=""
+	cloudEnvironments="public" 
 />
     
 # I can't connect to my Linux VM

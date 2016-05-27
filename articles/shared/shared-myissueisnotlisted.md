@@ -9,7 +9,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	displayOrder="" />
+	displayOrder=""
+	cloudEnvironments="public"
+ />
 
 # My issue is not listed
 

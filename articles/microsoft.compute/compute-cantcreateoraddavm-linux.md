@@ -9,6 +9,7 @@
 	supportTopicIds=""
 	resourceTags="linux"	 
 	productPesIds=""
+	cloudEnvironments="public"
 />
     
 # I can't create or add a VM
