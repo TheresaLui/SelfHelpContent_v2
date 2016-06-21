@@ -1,0 +1,32 @@
+<properties
+	pageTitle="My VM/Disk is slow"
+	description="My VM/Disk is slow"
+	service="microsoft.classicstorage"
+	resource="storageaccounts"
+	authors="kasparks"
+	displayOrder="3"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# My VM/Disk is slow
+
+## **Recommended steps**
+Try following steps to diagnose and mitigate VM performance issue.
+
+1. Review your application error logs, traces and metrics to find any bottlenecks causing performance issues.<br>
+Restart Application and machine as a quick way to recover from one-time issues.
+2. Review OS (Operating System) level metrics such as CPU, memory usage, IO and network to see if any resource has consistent high utilization.<br>
+For example on Windows use Perfmon.
+3. Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled.<br>
+[Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](http://aka.ms/azurevmperf)
+4. Scale up the Virtual Machine to a different VM type or series for increased performance<br>
+Click 'Size' in the Settings blade of the VM resource.
+5. Consider using Premium Storage account if its an I/O intensive use-case.<br>
+[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage-preview-portal/)
+
+## **Recommended documents**
+[Detailed troubleshooting of Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
