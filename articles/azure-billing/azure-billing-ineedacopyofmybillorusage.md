@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I need a copy of my bill or usage"
 	description="I need a copy of my bill or usage"
-	service="azure_billing"
+	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
 	displayOrder="1"

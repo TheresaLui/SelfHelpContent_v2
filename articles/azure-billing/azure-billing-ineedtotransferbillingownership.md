@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I need to transfer billing ownership"
 	description="I need to transfer billing ownership"
-	service="azure_billing"
+	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
 	displayOrder="3"
