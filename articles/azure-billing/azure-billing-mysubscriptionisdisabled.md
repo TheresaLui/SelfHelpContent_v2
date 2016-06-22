@@ -1,7 +1,7 @@
 <properties
 	pageTitle="My subscription is disabled"
 	description="My subscription is disabled"
-	service="azure_billing"
+	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
 	displayOrder="5"
