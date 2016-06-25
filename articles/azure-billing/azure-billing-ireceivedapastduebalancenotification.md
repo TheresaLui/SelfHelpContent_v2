@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I received a past due balance notification"
 	description="I received a past due balance notification"
-	service="azure_billing"
+	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
 	displayOrder="4"
