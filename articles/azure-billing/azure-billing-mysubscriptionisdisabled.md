@@ -22,6 +22,7 @@ Here are some common reasons a subscription can get disabled and how you can re-
 * A payment may be past due.<br>
 [Address past due balance](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)
 * Your Account Admin may have cancelled the subscription. To reactivate, please have the Account Admin open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade).
+
 ## **Recommended documents**
 [What do I do if my Azure subscription becomes disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
 [Address past due balance notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)
