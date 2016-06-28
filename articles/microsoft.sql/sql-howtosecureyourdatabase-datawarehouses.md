@@ -4,7 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="kasparks"
-	displayOrder="8"
+	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="datawarehouse"
