@@ -15,7 +15,7 @@ The slices could be in **Waiting** state due to a number of reasons and one of t
 
 See the following example for the usage of the **external** property. You can optionally specify **externalData*** when you set external to true.. 
 
-See [Datasets](data-factory-create-datasets.md) article for more details about this property.
+See [Datasets](https://azure.microsoft.com/en-us/documentation/articles/data-factory-create-datasets/) article for more details about this property.
 	
 	{
 	  "name": "CustomerTable",
