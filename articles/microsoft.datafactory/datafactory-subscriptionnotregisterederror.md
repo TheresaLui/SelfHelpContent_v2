@@ -2,10 +2,11 @@
 	pageTitle="Error: The subscription is not registered to use namespace Microsoft.DataFactory" 
 	description="I receive the error: The subscription is not registered to use namespace Microsoft.DataFactory" 
 	service="microsoft.datafactory" 
-    resource="datafactory"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="1"
-    selfHelpType="generic"
+    selfHelpType="resource"
+	cloudEnvironments="public"
 />
 
 # Error: The subscription is not registered to use namespace 'Microsoft.DataFactory'

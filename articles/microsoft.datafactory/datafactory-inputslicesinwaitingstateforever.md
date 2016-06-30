@@ -2,10 +2,11 @@
 	pageTitle="Input slices are in Waiting state for ever" 
 	description="Input slices are in waiting state for ever." 
 	service="microsoft.datafactory" 
-    resource="slices"
-    authors="spelluru"
-    displayOrder="2"
-    selfHelpType="generic"
+	resource="datafactories"
+	authors="spelluru"
+	displayOrder="2"
+	selfHelpType="resource"
+	cloudEnvironments="public"
 />
 
 # Input slices are in Waiting state for ever

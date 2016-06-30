@@ -2,10 +2,11 @@
 	pageTitle="Custom .NET activity fails" 
 	description="My custom activity does not work as expected or crashes." 
 	service="microsoft.datafactory" 
-    resource="customactivity"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="5"
-    selfHelpType="generic"
+    selfHelpType="resource"
+	cloudEnvironments="public"
 />
 
 # My custom activity does not work as expected or crashes

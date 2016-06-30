@@ -2,10 +2,11 @@
 	pageTitle="I cannot launch Data Management Gateway Express Setup" 
 	description="I cannot launch Data Management Gateway Express Setup." 
 	service="microsoft.datafactory" 
-    resource="gateway"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="3"
-    selfHelpType="generic"
+    selfHelpType="resource"
+	cloudEnvironments="public" 	
 />
 
 # I cannot launch Data Management Gateway Express Setup

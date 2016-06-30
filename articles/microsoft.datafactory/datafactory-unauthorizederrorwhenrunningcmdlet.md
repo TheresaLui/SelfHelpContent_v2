@@ -2,10 +2,11 @@
 	pageTitle="Unauthorized error when running a cmdlet" 
 	description="I receive an unauthorized error message when running a cmdlet." 
 	service="microsoft.datafactory" 
-    resource="powershell"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="7"
-    selfHelpType="generic"
+    selfHelpType="resource"
+    cloudEnvironments="public"
 />
 
 # Unauthorized error when running a cmdlet

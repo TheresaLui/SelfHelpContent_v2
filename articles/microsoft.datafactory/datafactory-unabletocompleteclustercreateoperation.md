@@ -2,10 +2,11 @@
 	pageTitle="Unable to complete the cluster create operation" 
 	description="Error while provisioning an on-demand HDInsight cluster: Unable to complete the cluster create operation.. Error code: 400" 
 	service="microsoft.datafactory" 
-    resource="ondemandhdinsight"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="6"
-    selfHelpType="generic"
+    selfHelpType="resource"
+    cloudEnvironments="public"
 />
 
 # Unable to complete the cluster create operation with error code 400

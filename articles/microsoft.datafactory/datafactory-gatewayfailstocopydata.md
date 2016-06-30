@@ -2,10 +2,11 @@
 	pageTitle="Data Management Gateway fails to copy data" 
 	description="Data Management Gateway fails to copy data to/from an on-premises data store" 
 	service="microsoft.datafactory" 
-    resource="gateway"
+    resource="datafactories"
     authors="spelluru"
     displayOrder="4"
-    selfHelpType="generic"
+    selfHelpType="resource"
+    cloudEnvironments="public"
 />
 
 # Data Management Gateway fails to copy data to/from an on-premises data store
