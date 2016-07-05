@@ -22,4 +22,4 @@
 - If you see data store connection or driver related errors, launch **Data Management Gateway Configuration Manager** on the gateway machine, switch to the **Diagnostics** tab, select/enter appropriate values for fields in the **Test connection to an on-premises data source using this gateway** group, and click **Test connection** to see if you can connect to on-premises data source  from the gateway machine using the connection information and credentials. If the test connection still fails after you install a driver, restart the gateway for it to pick up the latest change.  
 
 ## **Recommended documents**
-[Move data between on-premises and cloud with Data Management Gateway](https://azure.microsoft.com/en-us/documentation/articles/data-factory-move-data-between-onprem-and-cloud/)
+[Move data between on-premises and cloud with Data Management Gateway](https://azure.microsoft.com/documentation/articles/data-factory-move-data-between-onprem-and-cloud/)

@@ -26,4 +26,4 @@ The Express setup for the Data Management Gateway requires Internet Explorer or 
 - Use the **Manual Setup** link shown on the same blade in the portal to download installation file and run it manually. After the installation is successful, you will see the Data Management Gateway Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service. 
 
 ## **Recommended documents**
-[Move data between on-premises and cloud with Data Management Gateway](https://azure.microsoft.com/en-us/documentation/articles/data-factory-move-data-between-onprem-and-cloud/)
+[Move data between on-premises and cloud with Data Management Gateway](https://azure.microsoft.com/documentation/articles/data-factory-move-data-between-onprem-and-cloud/)

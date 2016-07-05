@@ -48,5 +48,5 @@ See [Datasets](https://azure.microsoft.com/en-us/documentation/articles/data-fac
 To resolve the error, add the **external** property and the optional **externalData** section to the JSON definition of the input table and recreate the table. 
 
 ## **Recommended documents**
-- [Monitor and Manage Azure Data Factory pipelines](https://azure.microsoft.com/en-us/documentation/articles/data-factory-monitor-manage-pipelines/)
-- [Scheduling and Execution](https://azure.microsoft.com/en-us/documentation/articles/data-factory-scheduling-and-execution/)
+- [Monitor and Manage Azure Data Factory pipelines](https://azure.microsoft.com/documentation/articles/data-factory-monitor-manage-pipelines/)
+- [Scheduling and Execution](https://azure.microsoft.com/documentation/articles/data-factory-scheduling-and-execution/)
