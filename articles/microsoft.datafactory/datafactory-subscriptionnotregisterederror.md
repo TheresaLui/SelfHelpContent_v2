@@ -18,7 +18,7 @@
 If you receive this error, the Azure Data Factory resource provider has not been registered on your machine. Please do the following: 
 
 1. Launch Azure PowerShell. 
-2. Login to your Azure account using the following command.
+2. Login to your Azure account using the following command: 
 		Login-AzureRmAccount 
 3. Run the following command to register the Azure Data Factory provider.
 		Register-AzureRmResourceProvider -ProviderNamespace Microsoft.DataFactory
