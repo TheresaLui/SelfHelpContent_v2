@@ -7,11 +7,14 @@
     displayOrder="7"
     selfHelpType="resource"
     cloudEnvironments="public"
+    supportTopicIds=""
+    productPesIds=""
+    resourceTags=""
 />
 
 # Unauthorized error when running a cmdlet
 
-## Recommended steps
+## **Recommended steps**
 You are probably not using the right Azure account or subscription with the Azure PowerShell. Use the following cmdlets to select the right Azure account and subscription to use with the Azure PowerShell. 
 
 1. Login-AzureRmAccount - Use the right user ID and password

@@ -7,11 +7,14 @@
     displayOrder="1"
     selfHelpType="resource"
 	cloudEnvironments="public"
+    supportTopicIds=""
+    productPesIds=""
+    resourceTags=""
 />
 
 # Error: The subscription is not registered to use namespace 'Microsoft.DataFactory'
 
-## Recommended steps
+## **Recommended steps**
 If you receive this error, the Azure Data Factory resource provider has not been registered on your machine. Please do the following: 
 
 1. Launch Azure PowerShell. 

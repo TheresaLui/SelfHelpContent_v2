@@ -7,11 +7,14 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	cloudEnvironments="public"
+    supportTopicIds=""
+    productPesIds=""
+    resourceTags=""
 />
 
 # Input slices are in Waiting state for ever
 
-## Recommended steps
+## **Recommended steps**
 The slices could be in **Waiting** state due to a number of reasons and one of the common reasons is that the **external** property is not set to **true**. Any dataset that is produced outside the scope of Azure Data Factory should be marked with **external** property . This indicates that the data is external and not backed by any pipelines within the data factory. The data slices are marked as **Ready** once the data is available in the respective store. 
 
 See the following example for the usage of the **external** property. You can optionally specify **externalData*** when you set external to true.. 
@@ -44,6 +47,6 @@ See [Datasets](https://azure.microsoft.com/en-us/documentation/articles/data-fac
 
 To resolve the error, add the **external** property and the optional **externalData** section to the JSON definition of the input table and recreate the table. 
 
-## Recommended documents
+## **Recommended documents**
 - [Monitor and Manage Azure Data Factory pipelines](https://azure.microsoft.com/en-us/documentation/articles/data-factory-monitor-manage-pipelines/)
 - [Scheduling and Execution](https://azure.microsoft.com/en-us/documentation/articles/data-factory-scheduling-and-execution/)

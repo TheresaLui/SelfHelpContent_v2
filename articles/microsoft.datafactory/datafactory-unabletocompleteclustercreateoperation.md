@@ -7,12 +7,15 @@
     displayOrder="6"
     selfHelpType="resource"
     cloudEnvironments="public"
+    supportTopicIds=""
+    productPesIds=""
+    resourceTags=""
 />
 
 # Unable to complete the cluster create operation with error code 400
-You may see this error when provisionig an on-demand HDInsight cluster fails. 
+You may see this error when provisioning an on-demand HDInsight cluster fails. 
 
-## Recommended steps
+## **Recommended steps**
 When using a linked service of type **HDInsightOnDemand**, you need to specify a linkedServiceName that points to an Azure Blob Storage. Data Factory service uses this storage to store logs and supporting files for your on-demand HDInsight cluster.  Sometimes provisioning of an on-demand HDInsight cluster fails with the following error:
 
 		Failed to create cluster. Exception: Unable to complete the cluster create operation. Operation failed with code '400'. Cluster left behind state: 'Error'. Message: 'StorageAccountNotColocated'.
@@ -21,5 +24,5 @@ This error usually indicates that the location of the storage account specified 
 
 Additionally, there is a second JSON property additionalLinkedServiceNames where additional storage accounts may be specified in on-demand HDInsight. Those additional linked storage accounts should be in the same location as the HDInsight cluster, or it will fail with the same error.
 
-## Recommended documents
+## **Recommended documents**
 [HDInsight on-demand linked service](https://azure.microsoft.com/en-us/documentation/articles/data-factory-compute-linked-services/#azure-hdinsight-on-demand-linked-service)

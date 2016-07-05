@@ -7,11 +7,14 @@
     displayOrder="5"
     selfHelpType="resource"
 	cloudEnvironments="public"
+    supportTopicIds=""
+    productPesIds=""
+    resourceTags=""
 />
 
 # My custom activity does not work as expected or crashes
 
-## Recommended steps
+## **Recommended steps**
 
 Debugging consists of a few basic techniques:
 
@@ -34,5 +37,5 @@ Debugging consists of a few basic techniques:
 
 	There is an easier workaround (but not a best practice): you can create a new **Azure SQL linked service** with connection string settings, create a dataset that uses the linked service, and chain the dataset as a dummy input dataset to the custom .NET activity. You can then access the linked service's connection string in the custom activity code and it should work fine at runtime.  
 
-## Recommended documents
+## **Recommended documents**
 [Use custom activities in an Azure Data Factory pipeline](https://azure.microsoft.com/en-us/documentation/articles/data-factory-use-custom-activities/)
