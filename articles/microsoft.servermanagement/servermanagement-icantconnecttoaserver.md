@@ -5,7 +5,7 @@
 	resource="nodes"
 	authors="jol"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
