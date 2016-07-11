@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32411877"
 	resourceTags="windows, linux"	
-	productPesIds=""
+	productPesIds="14749"
 	cloudEnvironments="public" 
 />
     
