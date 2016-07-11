@@ -1,6 +1,6 @@
 <properties
 	pageTitle="I can’t set up a connection to a Windows Server 2012 or 2012 R2 machine"
-	description="I can't set up a Server management node connection to a Windows Server 2012 or 2012 R2 machine"
+	description="I can't set up a Server management tools connection to a Windows Server 2012 or 2012 R2 machine"
 	service="microsoft.servermanagement"
 	resource="nodes"
 	authors="jol"

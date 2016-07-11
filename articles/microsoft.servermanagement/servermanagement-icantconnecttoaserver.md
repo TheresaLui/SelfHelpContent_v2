@@ -1,6 +1,6 @@
 <properties
 	pageTitle="I can’t connect to a server"
-	description="I can't connect to a Server management node"
+	description="I can't connect to a Server management tools node"
 	service="microsoft.servermanagement"
 	resource="nodes"
 	authors="jol"
