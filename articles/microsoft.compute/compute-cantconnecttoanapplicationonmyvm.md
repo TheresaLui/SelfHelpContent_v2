@@ -6,7 +6,7 @@
 	authors="kasparks"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32411838"
+	supportTopicIds=""
 	resourceTags="windows, linux"	 
 	productPesIds="14749"
 	cloudEnvironments="public"
