@@ -19,5 +19,5 @@ You can get help for many common problems from the Microsoft community or explor
 
 * Get answers from Azure experts through [Azure Forums](https://azure.microsoft.com/support/forums/)
 * Connect with [@AzureSupport](https://twitter.com/azuresupport) – the official Microsoft Azure account for improving customer experience by connecting the Azure community to the right resources: answers, support, and experts.
-* Check the status of Azure on the [Service Health Dashboard](https://azure.microsoft.com/status/)
+* Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
 * Browse [Azure documentation](https://azure.microsoft.com/documentation/)
