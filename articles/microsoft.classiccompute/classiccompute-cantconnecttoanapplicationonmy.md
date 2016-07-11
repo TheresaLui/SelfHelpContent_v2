@@ -6,8 +6,8 @@
     authors="kasparks"
     displayOrder="6"
     selfHelpType="resource"
-    supportTopicIds=""
-    productPesIds=""
+    supportTopicIds="32411838"
+    productPesIds="14749"
     resourceTags="windows, linux"
 	cloudEnvironments="public"	 
  />
