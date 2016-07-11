@@ -7,7 +7,7 @@
     displayOrder="6"
     selfHelpType="resource"
     supportTopicIds=""
-    productPesIds=""
+    productPesIds="14749"
     resourceTags="windows, linux"
 	cloudEnvironments="public"	 
  />
