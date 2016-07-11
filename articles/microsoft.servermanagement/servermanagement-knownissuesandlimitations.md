@@ -14,7 +14,9 @@
 
 # Known issues and limitations
 * Nano Server<br>
-Online domain join and online change in workgroup membership of Nano servers is not supported. See [Getting Started with Nano Server](https://technet.microsoft.com/en-us/library/mt126167.aspx) or [Nano Server Domain Join (Deployment-at-a-scale an introduction)](https://blogs.technet.microsoft.com/privatecloud/2016/05/02/nano-server-domain-join-deployment-at-a-scale-part-1-introduction/) for instructions on joining Nano Server to a domain.
+Online domain join and online change in workgroup membership of Nano servers is not supported. See below for instructions on joining Nano Server to a domain.<br>
+[Getting Started with Nano Server - Joining Nano Server to a domain](https://technet.microsoft.com/en-us/library/mt126167.aspx#Anchor_4)<br>
+[Nano Server Domain Join (Deployment-at-a-scale an introduction)](https://blogs.technet.microsoft.com/privatecloud/2016/05/02/nano-server-domain-join-deployment-at-a-scale-part-1-introduction/) 
 * Registry Editor<br>
 Editing Binary values is not supported.
 * Services<br>

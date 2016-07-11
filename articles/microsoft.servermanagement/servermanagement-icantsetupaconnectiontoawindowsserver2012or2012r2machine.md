@@ -21,6 +21,6 @@ In order to connect to a Windows Server 2012 or 2012 R2 machine using Server man
 Check the WMI and WMF installation logs on the **gateway machine** for any errors or details. These logs should be your first point of reference for troubleshooting and can be found in the path below. WMI installation logs are located in the Providers subfolder and WMF installation logs are located in the WMF5 subfolder.<br>
 **%windir%\ServiceProfiles\NetworkService\AppData\Local\Temp\Logs\ServerManagerPrerequisites**
 * Check the installation logs on the target machine<br>
-If you need more detailed logs for advanced troubleshooting, check the WMI and WMF installation logs on the **target machine**.
+If you need more detailed logs for advanced troubleshooting, check the WMI and WMF installation logs on the **target machine**.<br>
 **%systemdrive%\SMTInstallers\Logs**
 * If both packages are installed properly, but you still can’t connect to the target machine, see the additional troubleshooting steps in the “I can’t connect to a server” section above.
