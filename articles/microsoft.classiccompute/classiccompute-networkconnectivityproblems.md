@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder="9"
-	selfHelpType="resource"
+	selfHelpType="resource, generic"
 	supportTopicIds="32411838"
 	resourceTags="windows, linux"	
 	productPesIds="14749"
@@ -16,6 +16,6 @@
 
 
 ## **Recommended documents**
-[Quick steps to address common RDP connection issues ](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-troubleshoot-rdp-connection/#common-rdp-errors) <br>
-[Troubleshoot Application endpoint connectivity & access](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-troubleshoot-app-connection/)
+[Quick steps to address common RDP connection issues ](http://go.microsoft.com/fwlink/?LinkID=690601) <br>
+[Troubleshoot Application endpoint connectivity & access](http://go.microsoft.com/fwlink/?LinkId=698283)
  
