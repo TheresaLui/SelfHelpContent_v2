@@ -1,21 +1,19 @@
-<properties 
-	pageTitle="I have network connectivity problems"
-	description="I have network connectivity problems"
+<properties
+	pageTitle="connectivity/network connectivity problems"
+	description="connectivity/network connectivity problems"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="kasparks"
-	displayOrder="9"
-	selfHelpType="resource, generic"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32411838"
-	resourceTags="windows, linux"	
+	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public" 
+	cloudEnvironments="public"
 />
-    
-# I have network connectivity problems
 
+# connectivity/network connectivity problems
 
 ## **Recommended documents**
-[Quick steps to address common RDP connection issues ](http://go.microsoft.com/fwlink/?LinkID=690601) <br>
+[Quick steps to address common RDP connection issues](http://go.microsoft.com/fwlink/?LinkID=690601)<br>
 [Troubleshoot Application endpoint connectivity & access](http://go.microsoft.com/fwlink/?LinkId=698283)
- 
