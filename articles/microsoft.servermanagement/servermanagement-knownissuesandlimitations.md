@@ -21,3 +21,5 @@ Online domain join and online change in workgroup membership of Nano servers is 
 Editing Binary values is not supported.
 * Services<br>
 Any action taken on a service, such as Start or Stop service, will be reflected in the UI after 10 seconds.
+* Certificate Manager<br>
+Certificate import and export are not supported on the Nano Server version of Windows Server 2016 Technical Preview (TP) 5. You will get an error that 'CertPKICmdlet.dll' is missing. This will be fixed in the RTM version of Nano Server.

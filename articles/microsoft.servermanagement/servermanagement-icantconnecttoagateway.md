@@ -19,7 +19,8 @@ To resolve common issues, try one or more of the following methods.
 
 * Make sure the Health status on the gateway blade is displayed as “OK” and there aren’t any additional errors or warnings displayed.
 * Log on to the gateway machine and make sure it can connect to the public internet.
-* In the Windows Start menu, type and run “services.msc” to launch the Services MMC snap-in. Make sure the “Server management tools gateway” service is running. Also try restarting the service.
+* Run “services.msc” to launch the Services MMC snap-in and make sure the “ServerManagementToolsGateway” service is running. Also try restarting the service.
+* Make sure the system date/time on the gateway machine is correct. Gateway authorization will fail if the system time between the gateway and the Server management tools Azure service differ by more than 15 minutes.
 * You can try reinstalling the gateway deployment package. On the gateway machine, go to “Programs and Features” and uninstall “Server management tools gateway”. Generate a gateway deployment package, download and install it on the gateway machine.
 
 ## **Recommended documents**
