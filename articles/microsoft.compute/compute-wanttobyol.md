@@ -4,10 +4,10 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
-	displayOrder=""
+	displayOrder="28"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
