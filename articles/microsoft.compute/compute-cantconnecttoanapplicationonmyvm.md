@@ -7,7 +7,7 @@
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32411838"
-	resourceTags="windows, linux"	 
+	resourceTags="windows, linux, windowsSQL"	 
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
