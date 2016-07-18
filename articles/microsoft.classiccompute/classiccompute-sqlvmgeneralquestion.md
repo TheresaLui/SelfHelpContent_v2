@@ -14,6 +14,7 @@
     
 # I have a general question about SQL VM
 
+## **Recommended steps**
 1. The following topic provides answers to some of the most common questions about running SQL Server on Azure Virtual Machines.<br>
 [SQL Server on Azure Virtual Machines FAQ](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-iaas-faq/)
 
