@@ -4,12 +4,12 @@
     service="microsoft.machinelearning"
     resource="workspaces"
     authors="jajan"
-    displayOrder="2"
+    displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="workspace"
+    resourceTags=""
     productPesIds=""
-	cloudEnvironments="public"
+    cloudEnvironments="public"
  />
 
 # I have a question regarding billing for workspace
