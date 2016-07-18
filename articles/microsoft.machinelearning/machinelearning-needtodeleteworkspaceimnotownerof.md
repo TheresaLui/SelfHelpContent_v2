@@ -14,5 +14,5 @@
 
 # I need to delete a workspace that I'm not an owner of
 
-## **Recommended documents**
-[Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors)
+## **Recommended steps**
+Please create a support ticket to resolve this issue.
