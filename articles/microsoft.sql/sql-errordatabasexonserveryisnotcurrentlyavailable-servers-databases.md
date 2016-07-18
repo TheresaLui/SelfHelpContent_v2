@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Error: Database <x> on server <y> is not currently available"
-	description="Error: Database <x> on server <y> is not currently available"
+	pageTitle="Error: Database 'x' on server 'y' is not currently available"
+	description="Error: Database 'x' on server 'y' is not currently available"
 	service="microsoft.sql"
 	resource="servers"
 	authors="kasparks"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Error: Database <x> on server <y> is not currently available
+# Error: Database 'x' on server 'y' is not currently available
 
 ## **Recommended steps**
 The "unable to connect" message (error code 40613) occurs when the Azure SQL Database has been moved because of deployment, failover, or load balancing. This is a transient connectivity issue because reconfigurations are generally expected to complete in less than 60 seconds.
