@@ -15,6 +15,7 @@
 # I want to use my own SQL Server license in Azure VM
 Customers with SQL Server License Mobility have two options
 
+## **Recommended steps**
 1. Install SQL Server from the Installation Wizard<br>
 [Installing SQL Server from the Installation Wizard](https://msdn.microsoft.com/library/ms143219(v=sql.120).aspx)
 2. Convert to VM and upload to URL and deploy as new VM<br>
