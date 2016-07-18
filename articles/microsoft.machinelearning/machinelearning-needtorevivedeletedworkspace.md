@@ -4,7 +4,7 @@
     service="microsoft.machinelearning"
     resource="workspaces"
     authors="jajan"
-    displayOrder="1"
+    displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
