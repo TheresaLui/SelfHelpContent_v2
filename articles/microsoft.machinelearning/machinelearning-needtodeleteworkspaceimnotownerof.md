@@ -4,12 +4,12 @@
     service="microsoft.machinelearning"
     resource="workspaces"
     authors="jajan"
-    displayOrder="2"
+    displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="workspace"
+    resourceTags=""
     productPesIds=""
-	cloudEnvironments="public"
+    cloudEnvironments="public"
  />
 
 # I need to delete a workspace that I'm not an owner of
