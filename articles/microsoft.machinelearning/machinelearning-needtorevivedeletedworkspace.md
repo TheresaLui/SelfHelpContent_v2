@@ -15,4 +15,5 @@
 # I need to revive a worskspace I accidentally deleted
 
 ## **Recommended steps**
-Please create a support ticket to resolve this issue.
+Please create a [support ticket](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) to resolve this issue.
+Please include any available information on the deleted workspace in your support ticket. (i.e. workspace id, name, subscription name, subscription id, owner’s email address)”
