@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# I have a question regarding billing for workspace
+# I have a billing-related question specific to machine learning workspaces
 
 ## **Recommended documents**
 [Machine Learning pricing details](https://azure.microsoft.com/en-us/pricing/details/machine-learning/)
