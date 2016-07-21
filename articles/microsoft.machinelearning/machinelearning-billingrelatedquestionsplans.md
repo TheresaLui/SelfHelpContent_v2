@@ -4,7 +4,7 @@
     service="microsoft.machinelearning"
     resource="commitmentPlans"
     authors="jajan"
-    displayOrder="1"
+    displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
