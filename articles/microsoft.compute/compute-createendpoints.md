@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/create endpoints"
 	description="configuration and setup/create endpoints"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""

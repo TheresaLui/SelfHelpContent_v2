@@ -1,7 +1,7 @@
 <properties
 	pageTitle="management/virtual machine restarts"
 	description="management/virtual machine restarts"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""

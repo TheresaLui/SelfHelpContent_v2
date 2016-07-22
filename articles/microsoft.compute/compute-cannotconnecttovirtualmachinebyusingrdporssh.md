@@ -1,7 +1,7 @@
 <properties
 	pageTitle="connectivity/cannot connect to virtual machine by using rdp or ssh"
 	description="connectivity/cannot connect to virtual machine by using rdp or ssh"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""
