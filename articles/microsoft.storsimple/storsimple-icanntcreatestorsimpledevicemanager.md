@@ -2,7 +2,7 @@
 	pageTitle="I can't create a StorSimple Device Manager"
 	description="I can't create a StorSimple Device Manager"
 	service="microsoft.storsimple"
-	resource="storsimpledevicemanagers"
+	resource="managers"
 	authors="anbacker"
 	displayOrder="1"
 	selfHelpType="generic"
