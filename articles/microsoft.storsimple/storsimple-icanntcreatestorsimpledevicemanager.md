@@ -5,7 +5,7 @@
 	resource="managers"
 	authors="anbacker"
 	displayOrder="1"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
