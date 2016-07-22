@@ -2,7 +2,7 @@
 	pageTitle="My virtual array is offline"
 	description="My virtual array is offline"
 	service="microsoft.storsimple"
-	resource="storsimpledevicemanagers"
+	resource="managers"
 	authors="anbacker"
 	displayOrder="4"
 	selfHelpType="resource"
