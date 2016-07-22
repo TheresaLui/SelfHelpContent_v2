@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/configure or use iaas vm agent or vmaccess and bginfo extensions"
 	description="configuration and setup/configure or use iaas vm agent or vmaccess and bginfo extensions"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""

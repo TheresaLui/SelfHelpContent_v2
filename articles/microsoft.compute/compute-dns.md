@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/dns"
 	description="configuration and setup/dns"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""

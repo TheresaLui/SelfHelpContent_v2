@@ -1,7 +1,7 @@
 <properties
 	pageTitle="connectivity/network connectivity problems"
 	description="connectivity/network connectivity problems"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""
