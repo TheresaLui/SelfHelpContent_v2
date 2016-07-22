@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I can not register my virtual array
+# I can't register my virtual array
 If your registration fails, then this could due to one of the following reasons:
 
 ## **Recommended steps**
