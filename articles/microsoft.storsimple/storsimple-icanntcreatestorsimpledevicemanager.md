@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I can not create a StorSimple Device Manager
+# I can't create a StorSimple Device Manager
 Verify that you have a Microsoft Azure Enterprise Agreement or an MSDN subscription. StorSimple Device Managers are supported only for the Enterprise Agreement and MSDN subscriptions.<br>
 
 
