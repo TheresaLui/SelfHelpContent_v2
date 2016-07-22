@@ -5,7 +5,7 @@
 	resource="storsimpledevicemanagers"
 	authors="anbacker"
 	displayOrder="4"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
