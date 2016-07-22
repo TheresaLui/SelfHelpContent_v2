@@ -2,7 +2,7 @@
 	pageTitle="I can not register my virtual array"
 	description="I can not register my virtual array."
 	service="microsoft.storsimple"
-	resource="storsimpledevicemanagers"
+	resource="managers"
 	authors="anbacker"
 	displayOrder="3"
 	selfHelpType="generic"
