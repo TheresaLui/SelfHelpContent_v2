@@ -2,7 +2,7 @@
 	pageTitle="No bootable disk found when virtual array is turned on"
 	description="No bootable disk found when virtual array is turned on"
 	service="microsoft.storsimple"
-	resource="storsimpledevicemanagers"
+	resource="managers"
 	authors="anbacker"
 	displayOrder="2"
 	selfHelpType="generic"
