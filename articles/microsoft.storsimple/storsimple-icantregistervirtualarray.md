@@ -13,7 +13,7 @@
 />
 
 # I can't register my virtual array
-If your registration fails, it could be due to one of the following reasons.
+If your registration fails, do the following.
 
 ## **Recommended steps**
 1. Your registration key may be incorrect. Verify your registration key. Go to [**Management** > **Keys**](data-blade:Microsoft_Azure_StorSimple.RegistrationKeyBlade) to get the service registration key.
