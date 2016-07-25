@@ -1,6 +1,6 @@
 <properties
-	pageTitle="No bootable disk found when virtual array is turned on"
-	description="No bootable disk found when virtual array is turned on"
+	pageTitle="My virtual array isn't booting"
+	description="My virtual array isn't booting"
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="anbacker"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# No bootable disk found when virtual array is turned on.
+# My virtual array isn't booting.
 If you're not able to boot the Hyper-V virtual array due to the disk issue. Verify the version of the virtual disk image that you are using. <br>
 Common error messages: <br>
 	1. `Boot failure. Reboot and Select proper Boot device`<br>
