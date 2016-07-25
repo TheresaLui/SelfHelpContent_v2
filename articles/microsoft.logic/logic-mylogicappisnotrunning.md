@@ -3,7 +3,7 @@
 	description="My Logic App is not running"
 	service="microsoft.logic"
 	resource="workflows"
-	authors="jehollan"
+	authors="jeffhollan"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""

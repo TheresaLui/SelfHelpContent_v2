@@ -3,7 +3,7 @@
 	description="I am seeing run or trigger failures"
 	service="microsoft.logic"
 	resource="workflows"
-	authors="jehollan"
+	authors="jeffhollan"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
