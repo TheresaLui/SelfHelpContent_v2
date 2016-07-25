@@ -13,7 +13,7 @@
 />
 
 # I can't create a StorSimple Device Manager
-StorSimple Device Manager is supported only for Enterprise Agreement and MSDN subscriptions.  Pay-as-you-go, Prepaid and Azure in Open isn't supported.
+StorSimple Device Manager is supported only for Microsoft Azure Enterprise Agreements and MSDN subscriptions. Pay-as-you-go, Prepaid and Azure in Open are not supported.
 
 ## **Recommended steps**
 * Verify that you have a Microsoft Azure Enterprise Agreement or an MSDN subscription.
