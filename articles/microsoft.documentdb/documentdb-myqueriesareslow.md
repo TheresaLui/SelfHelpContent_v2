@@ -23,5 +23,5 @@ To resolve common slowness issues, try one or more of the following steps.
 * For partitioned collections, query in parallel to increase performance and leverage more throughput. [Example code](https://github.com/Azure/azure-documentdb-dotnet/blob/master/samples/code-samples/Queries/Program.cs#L664-L734) for .NET SDK 1.9.2 and above.
 
 ## **Recommended documents**
-[Performance Tips for Azure DocumentDB - Part 1](https://azure.microsoft.com/en-us/blog/performance-tips-for-azure-documentdb-part-1-2/)
+[Performance Tips for Azure DocumentDB - Part 1](https://azure.microsoft.com/en-us/blog/performance-tips-for-azure-documentdb-part-1-2/)<br>
 [SQL query and SQL syntax in DocumentDB](https://azure.microsoft.com/en-us/documentation/articles/documentdb-sql-query/)
