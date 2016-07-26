@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My Request Unit (RU) charging is unclear"
-	description="My Request Unit (RU) charging is unclear"
+	pageTitle="My request unit (RU) charging is unclear"
+	description="My request unit (RU) charging is unclear"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="AndrewHoh"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My Request Unit (RU) charging is unclear
+# My request unit (RU) charging is unclear
 
 ## **Recommended steps**
 Use one or more of these reference materials that may help better understand request unit charging.
