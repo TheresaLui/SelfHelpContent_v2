@@ -3,7 +3,7 @@
 	description="My queries are slow"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="anhoh"
+	authors="AndrewHoh"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""

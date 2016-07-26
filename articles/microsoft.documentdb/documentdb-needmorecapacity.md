@@ -3,7 +3,7 @@
 	description="I need more storage/throughput"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="anhoh"
+	authors="AndrewHoh"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""

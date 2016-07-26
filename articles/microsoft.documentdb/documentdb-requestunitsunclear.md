@@ -3,7 +3,7 @@
 	description="My Request Unit (RU) charging is unclear"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="anhoh"
+	authors="AndrewHoh"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
