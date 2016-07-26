@@ -7,7 +7,7 @@
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="databases"
+	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
 />
