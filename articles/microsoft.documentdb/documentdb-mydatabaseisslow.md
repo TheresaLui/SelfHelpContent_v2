@@ -3,7 +3,7 @@
 	description="My database is slow"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="anhoh"
+	authors="AndrewHoh"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
