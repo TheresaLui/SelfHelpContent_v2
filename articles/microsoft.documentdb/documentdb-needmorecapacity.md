@@ -1,0 +1,30 @@
+<properties
+	pageTitle="I need more storage/throughput"
+	description="I need more storage/throughput"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="anhoh"
+	displayOrder="3"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="databases"
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# I need more storage/throughput
+
+## **Recommended steps**
+Try one of the following recommendations best fitting with your current scenario.
+
+* I am using pre-defined performance collections and would like to move to user-defined performance.
+You can use the Portal to change the pricing tier to **STANDARD** by following these [instructions](https://azure.microsoft.com/documentation/articles/documentdb-performance-levels/#changing-performance-levels-using-the-azure-portal).
+* I am using single partition collections or pre-defined performance collections and would like to move to partitioned collections.
+You can use the DocumentDB Data Migration Tool to migrate the data from the single-partition collection (S1, S2, S3, or Standard) to a partitioned collection by following these [instructions](https://azure.microsoft.com/documentation/articles/documentdb-partition-data/#_migrating-from-single-partition-to-partitioned-collections).
+* I am looking to just increase the throughput of my current collection.
+You can use the Portal to change the throughput by following these [instructions](https://azure.microsoft.com/documentation/articles/documentdb-performance-levels/#changing-performance-levels-using-the-azure-portal).
+
+## **Recommended documents**
+[Migrating from single-partition to partitioned collections](https://azure.microsoft.com/documentation/articles/documentdb-partition-data/#_migrating-from-single-partition-to-partitioned-collections)
+[Modeling data in DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-modeling-data/)
+[Performance levels](https://azure.microsoft.com/documentation/articles/documentdb-performance-levels/)
