@@ -25,6 +25,6 @@ You can use the DocumentDB Data Migration Tool to migrate the data from the sing
 You can use the Portal to change the throughput by following these [instructions](https://azure.microsoft.com/documentation/articles/documentdb-performance-levels/#changing-performance-levels-using-the-azure-portal).
 
 ## **Recommended documents**
-[Migrating from single-partition to partitioned collections](https://azure.microsoft.com/documentation/articles/documentdb-partition-data/#_migrating-from-single-partition-to-partitioned-collections)
-[Modeling data in DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-modeling-data/)
+[Migrating from single-partition to partitioned collections](https://azure.microsoft.com/documentation/articles/documentdb-partition-data/#_migrating-from-single-partition-to-partitioned-collections)<br>
+[Modeling data in DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-modeling-data/)<br>
 [Performance levels](https://azure.microsoft.com/documentation/articles/documentdb-performance-levels/)
