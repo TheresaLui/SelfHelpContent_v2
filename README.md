@@ -1,6 +1,7 @@
-# Sample Content Repo
+# Self Help Content
 
-This repository is has some basic content that follows the requirements of  the Documentation Publishing Service (DPS) that is used for managing the azure.microsoft.com documentation. You can find a sample article within the /articles directory of this repository and a sample include in the /include firectory. 
+This respository is the self-help content that is used in the Ibiza portal for the troubleshoot blade and for case submission. 
 
-For more information about DPS please contact the [ACOM Web Team](mailto:winaz_webteam@microsoft.com).
+Read the [documentation](https://aka.ms/selfhelpguide) for how to author and edit this content.
 
+For more information about this process, contact the [CloudES Support Team](mailto:AzSFAdoption@microsoft.com)
