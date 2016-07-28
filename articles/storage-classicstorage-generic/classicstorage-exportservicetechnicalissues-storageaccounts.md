@@ -1,0 +1,18 @@
+<properties
+	pageTitle="configuration and setup/import/export service: technical issues"
+	description="configuration and setup/import/export service: technical issues"
+	service="microsoft.classicstorage"
+	resource="storageaccounts"
+	authors="aashu"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32436013"
+	resourceTags=""
+	productPesIds="15629"
+	cloudEnvironments="public"
+/>
+
+# configuration and setup/import/export service: technical issues
+
+## **Recommended documents**
+[How to prepare an Import/Export Job](http://go.microsoft.com/fwlink/?LinkId=785089)
