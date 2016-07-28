@@ -15,11 +15,12 @@
 # My request unit (RU) charging is unclear
 
 ## **Recommended steps**
-Use one or more of these reference materials that may help better understand request unit charging.
+Use one or more of these reference materials to help better understand request unit charging.
 
-* Learn more about request units (what they are, what they do, and how to code against them) - [Request Units in DocumentDB Documentation](https://azure.microsoft.com/documentation/articles/documentdb-request-units/)
-* Learn more about our pricing in relation to request units - [Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
-* Use the [Request Unit Calculator](https://www.documentdb.com/capacityplanner) to estimate the approximate request units usage and data storage for your application.
+* Learn more about request units (what they are, what they do, and how to code against them) - [Request Units](https://azure.microsoft.com/documentation/articles/documentdb-request-units/)
+* Learn how to measure request unit usage - [Measure Request Units](https://azure.microsoft.com/documentation/articles/documentdb-performance-tips/#measure-rus)
+* Use the Pricing Calculator to understand our pricing in relation to request units - [Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
+* Use the Capacity Planner to estimate the approximate request units usage and data storage for your application - [Capacity Planner](https://www.documentdb.com/capacityplanner)
 
 ## **Recommended documents**
-[Exceeding throughput needs](https://azure.microsoft.com/documentation/articles/documentdb-request-units/#exceeding-reserved-throughput-limits)
+[Request Units](https://azure.microsoft.com/documentation/articles/documentdb-request-units)
