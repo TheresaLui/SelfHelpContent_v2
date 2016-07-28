@@ -3,7 +3,7 @@
 	description="Site Recovery (VMware to Azure)/Reprotect VM after failover"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="ruturajd"
+	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536447"

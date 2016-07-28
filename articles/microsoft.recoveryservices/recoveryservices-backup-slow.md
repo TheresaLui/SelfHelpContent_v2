@@ -3,7 +3,7 @@
 	description="Windows Backup to Azure Backup/Schedule backup for a Windows Server or a client"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="ruturajd"
+	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32447383"

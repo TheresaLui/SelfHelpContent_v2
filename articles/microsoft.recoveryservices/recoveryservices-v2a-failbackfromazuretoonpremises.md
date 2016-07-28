@@ -3,7 +3,7 @@
 	description="Site Recovery (VMware to Azure)/Failback from Azure to on-premises"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="ruturajd"
+	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536408"
