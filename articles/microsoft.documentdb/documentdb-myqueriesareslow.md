@@ -21,7 +21,7 @@ To speed up queries, try one or more of the following steps.
 * Use direct mode as your connection mode when configuring your connection policy.<br>[Performance tips for DocumentDB - Direct Connectivity](https://azure.microsoft.com/documentation/articles/documentdb-performance-tips/#direct-connection)
 * Tune the page size for queries and read feeds for better performance using x-ms-max-item-count header.<br>[Performance tips for DocumentDB - Tune Page Size](https://azure.microsoft.com/documentation/articles/documentdb-performance-tips/#tune-page-size)
 * For partitioned collections, query in parallel to increase performance and leverage more throughput.<br>[
-GitHub DocumentDB .NET Sample Codefor .NET SDK 1.9.2 and above](https://github.com/Azure/azure-documentdb-dotnet/blob/master/samples/code-samples/Queries/Program.cs#L664-L734)
+GitHub DocumentDB .NET Sample Code for .NET SDK 1.9.2 and above](https://github.com/Azure/azure-documentdb-dotnet/blob/master/samples/code-samples/Queries/Program.cs#L664-L734)
 
 ## **Recommended documents**
 [Performance Tips for DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-performance-tips/)<br>
