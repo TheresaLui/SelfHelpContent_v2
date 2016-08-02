@@ -25,4 +25,4 @@ GitHub DocumentDB .NET Sample Code for .NET SDK 1.9.2 and above](https://github.
 
 ## **Recommended documents**
 [Performance Tips for DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-performance-tips/)<br>
-[SQL query and SQL syntax in DocumentDB](https://azure.microsoft.com/en-us/documentation/articles/documentdb-sql-query/)
+[SQL query and SQL syntax in DocumentDB](https://azure.microsoft.com/documentation/articles/documentdb-sql-query/)
