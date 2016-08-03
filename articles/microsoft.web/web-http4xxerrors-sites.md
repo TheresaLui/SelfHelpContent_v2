@@ -23,4 +23,5 @@ How do I troubleshoot 'Error 403 - This web app is stopped'? There are 3 conditi
 
 ## **Recommended documents**
 [Follow the steps in this article to check why you are getting a 403 and how to resolve the issue.](https://blogs.msdn.microsoft.com/waws/2016/01/05/azure-web-apps-error-403-this-web-app-is-stopped/)<br>
-[Quotas and Limits for various App Service plans](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/#app-service-limits)
+[Quotas and Limits for various App Service plans](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/#app-service-limits)<br>
+[HTTP Status Codes and Troubleshooting Tips](https://blogs.msdn.microsoft.com/waws/2016/06/22/troubleshooting-azure-app-service-apps-using-web-server-logs/)
