@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# I need to revive a worskspace I accidentally deleted
+# I need to revive a workspace I accidentally deleted
 
 ## **Recommended steps**
 To resolve this, try the following steps.
