@@ -28,4 +28,5 @@ Assess the HTTP errors impact using Live HTTP traffic chart
 [Remotely profile your .NET application running on App Service](https://azure.microsoft.com/blog/remote-profiling-support-in-azure-app-service/)<br>
 [How to set up auto-healing](http://azure.microsoft.com/blog/2014/02/06/auto-healing-windows-azure-web-sites/)<br>
 [Try Local Cache to reduce App Restarts due to Storage Failures](https://azure.microsoft.com/documentation/articles/app-service-local-cache/)<br>
-[Local Cache Video](https://channel9.msdn.com/Shows/Cloud+Cover/Episode-201-Azure-Web-App-Local-Cache-with-Cory-Fowler)
+[Local Cache Video](https://channel9.msdn.com/Shows/Cloud+Cover/Episode-201-Azure-Web-App-Local-Cache-with-Cory-Fowler)<br>
+[HTTP Status Codes and Troubleshooting Tips](https://blogs.msdn.microsoft.com/waws/2016/06/22/troubleshooting-azure-app-service-apps-using-web-server-logs/)

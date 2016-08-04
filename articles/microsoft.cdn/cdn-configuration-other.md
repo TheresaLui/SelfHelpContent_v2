@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration/other"
 	description="configuration/other"
-	service="microsoft.contentdeliverynetwork"
-	resource=""
-	authors=""
+	service="microsoft.cdn"
+	resource="profiles"
+	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32302794"

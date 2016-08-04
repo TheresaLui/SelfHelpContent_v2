@@ -1,8 +1,8 @@
 <properties 
-    pageTitle="I have a question regarding billing for workspace"
-    description="I have a question regarding billing for workspace"
+    pageTitle="I have a question regarding billing for machine learning web service plans"
+    description="I have a question regarding billing for machine learning web service plans"
     service="microsoft.machinelearning"
-    resource="workspaces"
+    resource="commitmentPlans"
     authors="jajan"
     displayOrder="1"
     selfHelpType="resource"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# I have a question regarding billing for workspace
+# I have a question regarding billing for machine learning web service plans
 
 ## **Recommended documents**
 [Machine Learning pricing details](https://azure.microsoft.com/en-us/pricing/details/machine-learning/)
