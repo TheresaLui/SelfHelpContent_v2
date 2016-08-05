@@ -3,7 +3,7 @@
 	description="azure iaas vm backup/register or back up a windows virtual machine"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="anuragm"
+	authors="kasparks"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32447379"
