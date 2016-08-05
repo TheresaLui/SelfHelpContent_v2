@@ -29,4 +29,3 @@ Try following steps to diagnose and mitigate SQL VM performance issues
 [Performance best practices for SQL Server in Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-performance/)<br>
 [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage/)<br>
 [SQL Server Performance: Approach and Tools](https://docs.com/ajith-krishnan/8919/sql-server-performance-troubleshooting-approach)<br>
-[Performance Guidance for SQL Server in Microsoft Azure Virtual Machines](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Performance Guidance for SQL Server in Windows Azure Virtual Machines.docx)
