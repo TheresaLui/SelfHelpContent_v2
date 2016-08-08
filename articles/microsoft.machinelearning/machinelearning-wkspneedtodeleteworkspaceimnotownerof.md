@@ -15,4 +15,4 @@
 # I need to delete a workspace that I'm not an owner of
 
 ## **Recommended steps**
-Please create a [support ticket](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) to resolve this issue.
+Please submit a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) to resolve this issue.
