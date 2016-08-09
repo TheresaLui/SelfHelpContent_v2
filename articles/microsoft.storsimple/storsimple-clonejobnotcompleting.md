@@ -16,7 +16,8 @@
 If your clone job is not completing, your device may not be configured properly.
 
 ## **Recommended steps**
-In the local web UI of the virtual array, go to Troubleshooting > Diagnostic tests and click Run diagnostic tests. Validate that the device is properly configured and resolve any reported issues. <br>
+* In the local web UI of the virtual array, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Validate that the device is properly configured and resolve any reported issues. <br>
+<br>
 *NOTE*: We recommend that you stop writing to the target volume or share to speed up the clone process.
 
 
