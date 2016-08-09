@@ -17,7 +17,6 @@
 
 ## **Recommended documents**
 [Can't use Azure Multi-Factor Authentication to sign in to cloud services after you lose your phone or the phone number changes](http://support.microsoft.com/kb/2834954)<br>
-[The secret key is invalid error message when you set up Azure Multi-Factor Authentication](http://support.microsoft.com/kb/2935790)<br>
 [Troubleshooting Azure Multi-Factor Authentication](http://msdn.microsoft.com/library/dn296526.aspx)<br>
 [Troubleshooting Azure Multi-Factor Authentication issues](http://support.microsoft.com/kb/2937344)<br>
 [You can't connect to Office 365, Azure, or Intune in the Azure Active Directory Module for Windows PowerShell](http://support.microsoft.com/kb/2937813)
