@@ -13,7 +13,7 @@
 />
 
 # My virtual array isn't booting.
-If you're not able to boot the Hyper-V virtual array due to the disk issue. Verify the version of the virtual disk image that you are using. <br>
+If you can't boot the virtual array that was provisioned, verify the version of the virtual disk image that you are using. <br>
 Common error messages: <br>
 	1. `Boot failure. Reboot and Select proper Boot device`<br>
 	2. `Insert Boot Media in selected Boot device`
