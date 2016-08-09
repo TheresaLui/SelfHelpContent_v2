@@ -1,6 +1,6 @@
 <properties
-	pageTitle="import\/export service/export"
-	description="import\/export service/export"
+	pageTitle="import/export service/export"
+	description="import/export service/export"
 	service="microsoft.sql"
 	resource="servers"
 	authors="aashu"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# import\/export service/export
+# import/export service/export
 
 ## **Recommended documents**
 [Exporting or moving data to Azure](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data/)

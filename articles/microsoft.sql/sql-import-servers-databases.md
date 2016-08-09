@@ -1,6 +1,6 @@
 <properties
-	pageTitle="import\/export service/import"
-	description="import\/export service/import"
+	pageTitle="import/export service/import"
+	description="import/export service/import"
 	service="microsoft.sql"
 	resource="servers"
 	authors="aashu"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# import\/export service/import
+# import/export service/import
 
 ## **Recommended documents**
 [Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
