@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Site Recovery (Hyper-V Site to Azure)/Add new servers to Hyper-V site"
-	description="Site Recovery (Hyper-V Site to Azure)/Add new servers to Hyper-V site"
+	pageTitle="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration"
+	description="Site Recovery (VMM to Azure)/Site Recovery provider setup and registration"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="anoopkv"
 	displayOrder=""
 	selfHelpType="resource"
-	supportTopicIds="32536385"
+	supportTopicIds="32536453"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
-# ** Site Recovery (Hyper-V Site to Azure)/Add new servers to Hyper-V site**
+# Site Recovery (VMM to Azure)/Site Recovery provider setup and registration
 
 Common issues during adding servers to Hyper-V Site
 
@@ -29,8 +29,5 @@ Common issues during adding servers to Hyper-V Site
 
 - Always choose the 'Connect to Azure Site Recovery using a proxy server' option if you know that the server on which you are installing **Microsoft Azure Site Recovery Provider** is behind a proxy server.
 
-- The **Microsoft Azure Site Recovery Provider** should not be installed on a Domain Controller
-
-
 ## Recommended  Documents
-[On-premises prerequisites](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-hyper-v-site-to-azure/#on-premises-prerequisites)
+[On-premises prerequisites](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-vmm-to-azure/#on-premises-prerequisites)
