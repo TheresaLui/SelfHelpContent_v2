@@ -25,5 +25,5 @@ This could be due to one of the following reasons:
 
 
 ## **Recommended documents**
-[Troubleshooting Hyper-V](https://technet.microsoft.com/en-us/library/cc742454.aspx)<br>
-[Troubleshooting VM failures on ESXi server](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1003976)
+[Troubleshooting Hyper-V](https://technet.microsoft.com/library/cc742454.aspx)<br>
+[Troubleshooting VM failures on ESXi server](https://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&externalId=1003976)
