@@ -27,4 +27,4 @@ Common error messages: <br>
 [Provision a virtual array in Hyper-V.](https://aka.ms/storsimple-troubleshoot-provisionarray)<br>
 [VHD for Hyper-V 2008 R2 and above](https://go.microsoft.com/fwLink/?LinkID=692085&clcid=0x409)<br>
 [VHDX for Hyper-V 2012 and above](https://go.microsoft.com/fwLink/?LinkID=724278&clcid=0x409)<br>
-[Generation 2 Virtual Machine Overview](https://technet.microsoft.com/en-us/library/dn282285.aspx)
+[Generation 2 Virtual Machine Overview](https://technet.microsoft.com/library/dn282285.aspx)
