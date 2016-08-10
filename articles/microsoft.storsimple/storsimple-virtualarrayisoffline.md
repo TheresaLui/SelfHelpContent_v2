@@ -26,4 +26,4 @@ If your virtual array is offline, this could be due to one of the following reas
 
 ## **Recommended documents**
 [Troubleshoot via the local web UI](https://aka.ms/storsimple-troubleshoot-diagnostics)<br>
-[Troubleshooting Hyper-V](https://technet.microsoft.com/en-us/library/cc742454.aspx)
+[Troubleshooting Hyper-V](https://technet.microsoft.com/library/cc742454.aspx)
