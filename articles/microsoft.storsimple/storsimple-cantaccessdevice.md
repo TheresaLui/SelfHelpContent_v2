@@ -25,5 +25,5 @@ If you can't access your device in File Explorer, do the following.
 
 ## **Recommended documents**
 [Troubleshoot via the local web UI](https://aka.ms/storsimple-troubleshoot-diagnostics)<br>
-[Troubleshooting Hyper-V](https://technet.microsoft.com/en-us/library/cc742454.aspx)<br>
+[Troubleshooting Hyper-V](https://technet.microsoft.com/library/cc742454.aspx)<br>
 [Troubleshooting VM failures on ESXi server](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1003976)
