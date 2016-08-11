@@ -1,5 +1,5 @@
 <properties
-	pageTitle="I can't register my virtual array"
+	pageTitle="I can't register my virtual array."
 	description="I can't register my virtual array."
 	service="microsoft.storsimple"
 	resource="managers"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I can't register my virtual array
+# I can't register my virtual array.
 If your registration fails, do the following.
 
 ## **Recommended steps**
