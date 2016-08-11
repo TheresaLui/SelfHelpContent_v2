@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I can't create a StorSimple Device Manager"
-	description="I can't create a StorSimple Device Manager"
+	pageTitle="I can't create a StorSimple Device Manager."
+	description="I can't create a StorSimple Device Manager."
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="anbacker"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I can't create a StorSimple Device Manager
+# I can't create a StorSimple Device Manager.
 StorSimple Device Manager for virtual arrays is supported only for Microsoft Azure Enterprise Agreements and MSDN subscriptions. <br>
 <br>
 StorSimple Device Manager for 8000 series is supported only for Microsoft Azure Enterprise Agreements. <br>
