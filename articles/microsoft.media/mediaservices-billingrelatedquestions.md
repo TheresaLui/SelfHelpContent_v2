@@ -15,5 +15,5 @@
 # I have a question regarding media services pricing
 
 ## **Recommended documents**
-[Media Services pricing details](https://azure.microsoft.com/en-us/pricing/details/media-services/)
+[Media Services pricing details](https://azure.microsoft.com/pricing/details/media-services/)
 
