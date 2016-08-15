@@ -15,4 +15,4 @@
 # I have a question regarding billing for machine learning workspaces
 
 ## **Recommended documents**
-[Machine Learning pricing details](https://azure.microsoft.com/en-us/pricing/details/machine-learning/)
+[Machine Learning pricing details](http://go.microsoft.com/fwlink/?LinkId=824637)
