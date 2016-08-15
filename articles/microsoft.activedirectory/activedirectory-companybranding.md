@@ -16,6 +16,6 @@
 
 
 ## **Recommended documents**
-[A company-branded picture in Microsoft Azure may seem to be clipped](http://support.microsoft.com/kb/2951270)<br>
+[A company-branded picture in Microsoft Azure may seem to be clipped](https://azure.microsoft.com/documentation/articles/active-directory-add-company-branding)<br>
 [Add company branding to your Sign In and Access Panel pages](http://msdn.microsoft.com/library/windowsazure/dn532270.aspx)<br>
 [There was an unexpected error while saving branding error when you save changes to your company branding in Microsoft Azure](http://support.microsoft.com/kb/2951275)
