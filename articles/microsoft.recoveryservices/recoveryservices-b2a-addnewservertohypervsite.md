@@ -16,7 +16,7 @@
 
 Common issues during adding servers to Hyper-V Site
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Ensure that the server on which you install the **Microsoft Azure Site Recovery Provider** has access to the following url's <br>
 	1. *.hypervrecoverymanager.windowsazure.com
@@ -32,5 +32,5 @@ Common issues during adding servers to Hyper-V Site
 * The **Microsoft Azure Site Recovery Provider** should not be installed on a Domain Controller
 
 
-## Recommended  Documents
+## **Recommended  Documents**
 [On-premises prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-hyper-v-site-to-azure/#on-premises-prerequisites)
