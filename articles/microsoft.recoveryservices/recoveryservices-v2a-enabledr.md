@@ -6,7 +6,7 @@
 	authors="asgang"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32536405"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 Common issues during Enable Replication**
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Ensure you have used the capacity planning tool to avoid replication misses and not meeting the SLAs <add link>
 
@@ -36,5 +36,5 @@ On the Windows Firewall of the machine you want to protect, select Allow an app 
 
 * Ensure that the account credentials that are passed have administrator privilege to the machine.
 
-## Recommended  Documents
+## **Recommended  Documents**
 [VMware to Azure](aka.ms/asrstv2a)

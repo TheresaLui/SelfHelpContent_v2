@@ -6,7 +6,7 @@
 	authors="asgang"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32536402"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 Common issues during Enable Replication**
 
-## Recommended Steps
+## **Recommended Steps**
 
 * Ensure you have used the capacity planning tool to avoid replication misses and not meeting the SLAs
 
@@ -31,5 +31,5 @@ Common issues during Enable Replication**
 
 * Hyper-V servers should have fixes mentioned in article 2961977 installed. https://support.microsoft.com/kb/2961977
 
-## Recommended  Documents
+## **Recommended  Documents**
 [VMM to Azure](http://aka.ms/asrste2a)
