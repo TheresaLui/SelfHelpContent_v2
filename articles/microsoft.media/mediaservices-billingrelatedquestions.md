@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="I have a question regarding media services pricing"
+    pageTitle="Explanation of media services pricing"
     description="I have a question regarding media services pricing"
     service="microsoft.media"
     resource="mediaservices"
@@ -12,8 +12,9 @@
     cloudEnvironments="public"
  />
 
-# I have a question regarding media services pricing
+# Explanation of media services pricing
 
 ## **Recommended documents**
+
 [Media Services pricing details](https://azure.microsoft.com/pricing/details/media-services/)
 
