@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 [Learn about Service Bus Quota and their throttling thresholds](https://azure.microsoft.com/documentation/articles/service-bus-quotas/)<br>
-[How to migrate SB namespace to other subscription](https://azure.microsoft.com/en-us/documentation/articles/service-bus-powershell-how-to-provision/#migrate-a-namespace-to-another-azure-subscription)
+[How to migrate SB namespace to other subscription](https://azure.microsoft.com/documentation/articles/service-bus-powershell-how-to-provision/#migrate-a-namespace-to-another-azure-subscription)
