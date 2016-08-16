@@ -5,7 +5,7 @@
 	resource="vaults"
 	authors="anoopkv"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32536387"
 	resourceTags=""
 	productPesIds="15207"
@@ -15,6 +15,7 @@
 
 Common issues during Setup & Registration of a Configuration Server
 
+## Recommended Steps
 * Ensure that the server on which you install the  **Configuration Server** has access to the following url's <br>
 	1. *.hypervrecoverymanager.windowsazure.com
 	2. *.accesscontrol.windows.net
@@ -51,6 +52,6 @@ Common issues during Setup & Registration of a Configuration Server
 * If after successful registration of your **Configuration Server**, you are unable to discovery your vCenter then ensure that you don't have other versions of Perl or PHP installed on the computer that is running the **Configuration Sever**
 
 ## Recommended Documents
-[Configuration Server prerequisites] prerequisites](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-vmware-to-azure/#configuration-server-prerequisites)
+[Configuration Server prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#configuration-server-prerequisites)
 <br>
-[VMware vCenter/vSphere host prerequisites](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-vmware-to-azure/#vmware-vcentervsphere-host-prerequisites)
+[VMware vCenter/vSphere host prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#vmware-vcentervsphere-host-prerequisites)

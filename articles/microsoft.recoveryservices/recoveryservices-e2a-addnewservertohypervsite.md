@@ -30,4 +30,4 @@ Common issues during adding servers to Hyper-V Site
 * Always choose the 'Connect to Azure Site Recovery using a proxy server' option if you know that the server on which you are installing **Microsoft Azure Site Recovery Provider** is behind a proxy server.
 
 ## Recommended  Documents
-[On-premises prerequisites](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-vmm-to-azure/#on-premises-prerequisites)
+[On-premises prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmm-to-azure/#on-premises-prerequisites)
