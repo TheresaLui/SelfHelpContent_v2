@@ -1,0 +1,22 @@
+<properties 
+	pageTitle="I am receiving a quota exceeded exception" 
+	description="I am receiving a quota exceeded exception" 
+	service="microsoft.servicebus"
+	resource="messaging"
+	authors="jtaubensee"
+	displayOrder="1"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags=""	
+	productPesIds=""
+	cloudEnvironments="public" 
+/>
+
+# I am receiving a quota exceeded exception
+
+## **Recommended steps**
+QuotaExceededException indicates that a quota for a specific entity has been exceeded. 
+* Look at the [Service Bus Messaging Exceptions](https://azure.microsoft.com/en-us/documentation/articles/service-bus-messaging-exceptions/#quotaexceededexception) article for more information about quota exceeded exceptions
+
+## **Recommended documents**
+[More information on the QuotaExceededException Class](https://msdn.microsoft.com/library/azure/microsoft.servicebus.messaging.quotaexceededexception.aspx)<br>
