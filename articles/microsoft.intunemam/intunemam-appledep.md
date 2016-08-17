@@ -3,7 +3,7 @@
     description="MAM policy is not working for Apple DEP devices"
     service="microsoft.intunemam"
     resource="mam"
-    authors="t-jowall"
+    authors="JordanWallach"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""

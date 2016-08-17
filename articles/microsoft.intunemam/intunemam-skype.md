@@ -3,7 +3,7 @@
     description="The MAM without enrollment policy is not working for Skype for Business on iOS and Android devices"
     service="microsoft.intunemam"
     resource="mam"
-    authors="t-jowall"
+    authors="JordanWallach"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""

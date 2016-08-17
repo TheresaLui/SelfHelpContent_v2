@@ -3,7 +3,7 @@
     description="App reporting by user does not show new targeted users for the MAM policy"
     service="microsoft.intunemam"
     resource="mam"
-    authors="t-jowall"
+    authors="JordanWallach"
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""

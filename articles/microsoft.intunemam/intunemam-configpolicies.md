@@ -3,7 +3,7 @@
     description="Admin is unable to configure MAM policies"
     service="microsoft.intunemam"
     resource="mam"
-    authors="t-jowall"
+    authors="JordanWallach"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""

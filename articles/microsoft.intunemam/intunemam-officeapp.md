@@ -3,7 +3,7 @@
     description="MAM without Enrollment policies are not working for any supported Office App for a user"
     service="microsoft.intunemam"
     resource="mam"
-    authors="t-jowall"
+    authors="JordanWallach"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
