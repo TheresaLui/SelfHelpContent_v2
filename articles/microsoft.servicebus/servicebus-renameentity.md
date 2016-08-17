@@ -4,7 +4,7 @@
 	service="microsoft.servicebus"
 	resource="messaging"
 	authors="jtaubensee"
-	displayOrder="1"
+	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	
