@@ -6,8 +6,6 @@
 	authors="locphan"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32302682"
-	resourceTags="notificationhubs"
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
