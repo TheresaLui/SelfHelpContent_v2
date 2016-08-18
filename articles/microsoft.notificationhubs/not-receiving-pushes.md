@@ -6,7 +6,9 @@
 	authors="locphan"
 	displayOrder="1"
 	selfHelpType="resource"
-	productPesIds="13491"
+	productPesIds=""
+	supportToicIds =""
+	resourceTags=""
 	cloudEnvironments="public"
 />
 
@@ -16,10 +18,14 @@
 
 * Verify notification hub names used for registration, sends, and notification hub settings matched.<br>
 * Verify the proper [SAS configuration strings](data-blade:Microsoft_Azure_NotificationHubs.AccessPolicyGridBlade) on client and backend.<br>
-* Verify Platform [Notification System credentials] (data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices) are correctly configured.<br>
-* [Verify registrations](http://go.microsoft.com/fwlink/?LinkID=824679&clcid=0x409) of all devices<br>
+* Verify [Platform Notification System](data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices) credentials are correctly configured.<br>
+* [Verify registrations](http://go.microsoft.com/fwlink/?LinkID=824679) of all devices.<br>
+* Verify devices are online via WiFi or data.<br>
+* [Test Send](data-blade:Microsoft_Azure_NotificationHubs.TestSendBlade)<br>
+* [Debug failed notifications](http://go.microsoft.com/fwlink/?LinkID=824680)<br>
+* Use [Per Message Telemetry](http://go.microsoft.com/fwlink/?LinkID=824689)<br>
 
 ## **Recommended documents**
-* [Diagnosis guidelines](http://go.microsoft.com/fwlink/?LinkID=824681&clcid=0x409)<br>
-* [Common error codes](http://go.microsoft.com/fwlink/?LinkID=824682&clcid=0x409)<br>
-* [Telemetry guide](http://go.microsoft.com/fwlink/?LinkID=824683&clcid=0x409)<br>
+* [Diagnosis guidelines](http://go.microsoft.com/fwlink/?LinkID=824681)<br>
+* [Common error codes](http://go.microsoft.com/fwlink/?LinkID=824682)<br>
+* [Telemetry guide](http://go.microsoft.com/fwlink/?LinkID=824683)<br>
