@@ -2,7 +2,7 @@
 	pageTitle="I am receiving a timeout exception" 
 	description="I am receiving a timeout exception" 
 	service="microsoft.servicebus"
-	resource="messaging"
+	resource="namespaces"
 	authors="jtaubensee"
 	displayOrder="1"
 	selfHelpType="resource"

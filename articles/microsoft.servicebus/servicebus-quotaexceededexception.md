@@ -2,7 +2,7 @@
 	pageTitle="I am receiving a quota exceeded exception" 
 	description="I am receiving a quota exceeded exception" 
 	service="microsoft.servicebus"
-	resource="messaging"
+	resource="namespaces"
 	authors="jtaubensee"
 	displayOrder="2"
 	selfHelpType="resource"
