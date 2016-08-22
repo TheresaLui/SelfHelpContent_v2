@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My virtual array is offline"
-	description="My virtual array is offline"
+	pageTitle="My virtual array is offline."
+	description="My virtual array is offline."
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="anbacker"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My virtual array is offline
+# My virtual array is offline.
 If your virtual array is offline, this could be due to one of the following reasons:
 
 ## **Recommended steps**

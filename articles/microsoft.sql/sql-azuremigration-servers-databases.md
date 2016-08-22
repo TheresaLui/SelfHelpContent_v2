@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="31980413"
 	resourceTags="servers, databases"
-	productPesIds=""
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
