@@ -15,6 +15,6 @@
 # errors and exceptions
 
 ## **Recommended documents**
-[Manage and Test your entities using Service Bus Explorer](https://code.msdn.microsoft.com/Service-Bus-Explorer-f2abca5a)<br>
+[Manage and test your entities using Service Bus Explorer](https://code.msdn.microsoft.com/Service-Bus-Explorer-f2abca5a)<br>
 [Need help in troubleshooting an exception?](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/)<br>
-[Check if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)
+[See if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)
