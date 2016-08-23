@@ -1,13 +1,13 @@
 <properties 
     pageTitle="Admin is unable to configure MAM policies"
     description="Admin is unable to configure MAM policies"
-    service="microsoft.intunemam"
-    resource="mam"
+    service="microsoft.intune"
+    resource="intune"
     authors="JordanWallach"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux"
+    resourceTags="mam"
     productPesIds=""
     cloudEnvironments="public"
  />

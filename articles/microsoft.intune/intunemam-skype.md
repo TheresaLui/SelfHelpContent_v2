@@ -1,13 +1,13 @@
 <properties 
     pageTitle="The MAM without enrollment policy is not working for Skype for Business on iOS and Android devices"
     description="The MAM without enrollment policy is not working for Skype for Business on iOS and Android devices"
-    service="microsoft.intunemam"
-    resource="mam"
+    service="microsoft.intune"
+    resource="intune"
     authors="JordanWallach"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux"
+    resourceTags="mam"
     productPesIds=""
     cloudEnvironments="public"
  />

@@ -1,13 +1,13 @@
 <properties 
     pageTitle="MAM policy is not working for Apple DEP devices"
     description="MAM policy is not working for Apple DEP devices"
-    service="microsoft.intunemam"
-    resource="mam"
+    service="microsoft.intune"
+    resource="intune"
     authors="JordanWallach"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux"
+    resourceTags="mam"
     productPesIds=""
     cloudEnvironments="public"
  />

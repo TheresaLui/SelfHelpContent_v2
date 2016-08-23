@@ -1,13 +1,13 @@
 <properties 
     pageTitle="App reporting by user does not show new targeted users for the MAM policy"
     description="App reporting by user does not show new targeted users for the MAM policy"
-    service="microsoft.intunemam"
-    resource="mam"
+    service="microsoft.intune"
+    resource="intune"
     authors="JordanWallach"
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux"
+    resourceTags="mam"
     productPesIds=""
     cloudEnvironments="public"
  />
