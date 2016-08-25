@@ -26,4 +26,4 @@ The admin must have one of the following roles:
 
 ## **Recommended documents**
 
-[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)

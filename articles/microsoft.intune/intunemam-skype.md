@@ -27,4 +27,4 @@ You have to set up Skype for Business with modern authentication. Follow these s
 
 [Skype for Business Online: Enable your tenant for modern authentication](http://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br>
 [Connecting to Skype for Business Online by using Windows PowerShell](https://aka.ms/SkypePowerShell) <br>
-[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)

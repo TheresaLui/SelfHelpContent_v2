@@ -19,4 +19,4 @@ Please ensure that you are using User Affinity with the Apple Device Enrollment 
 
 ## **Recommended documents**
 
-[Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/en-us/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
+[Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune)
