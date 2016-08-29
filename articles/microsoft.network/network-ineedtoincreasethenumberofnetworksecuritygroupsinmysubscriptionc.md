@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I need to increase the number of Network Security Groups in my subscription"
 	description="I need to increase the number of Network Security Groups in my subscription"
-	service="Virtual Network"
-	resource="Network security group"
+	service="microsoft.network"
+	resource="networksecuritygroups"
 	authors="radwiv"
 	displayOrder="3"
 	selfHelpType="resource"

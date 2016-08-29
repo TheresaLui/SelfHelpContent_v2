@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I am unable to connect to virtual machines in the same VNet when using an UDR."
 	description="Troubleshoot connectivity to VM in the same VNet when using an UDR"
-	service="Virtual Network"
-	resource="User Defined Routes"
+	service="microsoft.network"
+	resource="routetables"
 	authors="radwiv"
 	displayOrder="1"
 	selfHelpType="resource"

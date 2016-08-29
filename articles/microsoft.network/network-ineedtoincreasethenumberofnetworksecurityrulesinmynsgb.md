@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I need to increase the number of Network Security rules in my NSG"
 	description="How to increase the number of Network Security rules in NSG"
-	service="Virtual Network"
-	resource="Network security group"
+	service="microsoft.network"
+	resource="networksecuritygroups"
 	authors="radwiv"
 	displayOrder="2"
 	selfHelpType="resource"
