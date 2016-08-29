@@ -1,10 +1,9 @@
-<Do not merge yet!>
 <properties
 	pageTitle="I cannot connect to my public endpoint after associating NSG to my virtual machine"
 	description="Troubleshooting for connectivity issue to public endpoint after associating NSG to VM"
 	service="Virtual Network"
 	resource="Network security group"
-	authors="radwiv, narayan"
+	authors="radwiv"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
