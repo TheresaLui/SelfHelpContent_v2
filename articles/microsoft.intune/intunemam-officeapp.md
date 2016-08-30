@@ -1,13 +1,13 @@
 <properties 
-    pageTitle="MAM without enrollment policies are not working for any supported Office App for a user"
-    description="MAM without enrollment policies are not working for any supported Office App for a user"
+    pageTitle="MAM without enrollment policies are not working for any supported Office app for a user"
+    description="MAM without enrollment policies are not working for any supported Office app for a user"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="mam"
+    resourceTags="mam, mampolicy"
     productPesIds=""
     cloudEnvironments="public"
  />

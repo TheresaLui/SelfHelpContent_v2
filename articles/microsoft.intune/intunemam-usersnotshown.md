@@ -7,7 +7,7 @@
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="mam"
+    resourceTags="mam, mampolicy"
     productPesIds=""
     cloudEnvironments="public"
  />
