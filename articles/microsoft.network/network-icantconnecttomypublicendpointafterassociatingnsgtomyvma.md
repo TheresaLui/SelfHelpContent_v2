@@ -23,5 +23,5 @@ NSGs by default deny connections from Internet unless it is explicitly allowed. 
 
 ## **Recommended documents**
 
-[NSG rules for load balancer endpoints](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/#load-balancers)<br>
+[NSG rules for load balancer endpoints](https://azure.microsoft.com/documentation/articles/virtual-networks-nsg/#load-balancers)<br>
 [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/#error-string-lookup)

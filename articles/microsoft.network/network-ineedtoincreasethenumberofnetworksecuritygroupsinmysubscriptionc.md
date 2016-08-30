@@ -24,5 +24,5 @@ Default limit on the number of NSGs in a subscription is 100. This can be increa
 
 ## **Recommended documents**
 
-[Networking limits](https://azure.microsoft.com/en-us/documentation/articles/azure-subscription-service-limits/#networking-limits)<br>
+[Networking limits](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/#networking-limits)<br>
 [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/#error-string-lookup)
