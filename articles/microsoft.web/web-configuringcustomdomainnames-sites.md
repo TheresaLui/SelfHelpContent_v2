@@ -17,6 +17,6 @@
 ## **Recommended documents**
 [Buy and Configure a custom domain name in Azure App Service](https://azure.microsoft.com/en-us/documentation/articles/custom-dns-web-site-buydomains-web-app/)<br>
 [How to configure a custom domain name](https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/)<br>
-[Configure a custom domain name in Azure App Service (Purchased directly from GoDaddy)](https://azure.microsoft.com/documentation/articles/web-sites-godaddy-custom-domain-name/)<br>
 [Configuring a custom domain name for a web app in Azure App Service using Traffic Manager](https://azure.microsoft.com/en-us/documentation/articles/web-sites-traffic-manager-custom-domain-name/)<br>
-[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)
+[Configure a custom domain name in Azure App Service (Purchased directly from GoDaddy)](https://azure.microsoft.com/documentation/articles/web-sites-godaddy-custom-domain-name/)<br>
+[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)<br>
