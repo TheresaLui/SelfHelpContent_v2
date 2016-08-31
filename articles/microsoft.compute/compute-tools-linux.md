@@ -14,5 +14,5 @@
 
 # tools
 
-[Redeploy](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter)<br>
+[Redeploy](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy)<br>
 Redeploying your virtual machine will migrate it to a new Azure host.
