@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Windows Backup to Azure Backup/Install or register Azure Recovery Services Agent"
-	description="Azure Recovery Services Agent Installation or Registration issues"
+	description="Windows Backup to Azure Backup/Install or register Azure Recovery Services Agent"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
