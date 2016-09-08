@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Windows Backup to Azure Backup/Install or register Azure Recovery Services Agent"
-	description="Windows Backup to Azure Backup/Install or register Azure Recovery Services Agent"
+	pageTitle="Azure Recovery Services Agent installation or registration failures"
+	description="Azure Recovery Services Agent installation or registration failures"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32447374"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
@@ -34,9 +34,9 @@ Try the recommended steps below to resolve commonly observed issues with install
     4. *.microsoftonline.com
     5. *.windows.net
 
-* Ensure that the system clock on the server/client where you install Azure Recovery Services Agent has the correct time for the time zone that the server/client is configured for
+* Ensure that the **system clock** on the server/client where you install Azure Recovery Services Agent has the correct time for the time zone that the server/client is configured for
 
-* Ensure that .tmp files at **C:\Windows\Temp** directory have been deleted before registration
+* Ensure that .tmp files at **C:\Windows\Temp** directory have been cleaned up before registration
 
 * If you are **re-registering your Windows server/client** to a vault, ensure that the encryption passphrase provided, matches the passphrase provided during an earlier registration of the server/client to the same vault
  
