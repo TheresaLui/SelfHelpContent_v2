@@ -16,14 +16,18 @@
 # Azure IaaS VM Backup monitoring and reporting issues
 
 ## **Recommended steps**
-Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting<br>
-* Note that alerts are raised only for failed backups.
-* If the email did not reach your inbox, please check in the spam or junk folders.
-* Are there situations where email isn't sent even if notifications are configured? Below are situations where an alert is not raised and email is not sent to reduce alert-noise.<br>
-    - If notifications are configured to Hourly Digest, and an alert is raised and resolved within the hour
-    - The job is canceled
-    - A backup job is triggered and then fails, and another backup job is in progress
-    - A scheduled backup job for a Resource Manager-enabled VM starts, but the VM no longer exists
+Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
+
+* Note that alerts are raised only for failed backups
+
+* If the email did not reach your inbox, please check in the spam or junk folders
+
+* Are there situations where email isn't sent even if notifications are configured? Below are situations where an alert is not raised and email is not sent to reduce alert-noise<br>
+		- If notifications are configured to Hourly Digest, and an alert is raised and resolved within the hour<br>
+    - The job is canceled<br>
+    - A backup job is triggered and then fails, and another backup job is in progress<br>
+    - A scheduled backup job for a Resource Manager-enabled VM starts, but the VM no longer exists<br>
+		
 
 ##**Recommended documents**
 
