@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Recovery Services Agent installation or registration failures"
-	description="Azure Recovery Services Agent installation or registration failures"
+	pageTitle="Azure Recovery Services Agent installation or registration issues"
+	description="Azure Recovery Services Agent installation or registration issues"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Windows Backup to Azure Backup/Install or register Azure Recovery Services Agent
+# Azure Recovery Services Agent installation or registration issues
 
 ## **Recommended steps**
 Try the recommended steps below to resolve commonly observed issues with installation or registration of the **Microsoft Azure Recovery Services Agent**
