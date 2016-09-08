@@ -1,0 +1,19 @@
+
+<properties
+    pageTitle="ApplicationDependencyMonitor-Setup"
+    description="32536656"
+    service="microsoft.OperationalInsights"
+    resource="OperationalInsightsaccounts"
+    authors="adoyle"
+    displayorder=""
+    selfHelpType="generic"
+    supportTopicIds="32536656"
+    resourceTags=""
+    productPesIds="15725"
+    cloudEnvironments="public, Blackforest, Fairfax"
+/>
+
+# ApplicationDependencyMonitor-Setup
+
+
+## **Recommended documents**
