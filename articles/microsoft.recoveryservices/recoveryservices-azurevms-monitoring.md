@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Azure IaaS VM Backup monitoring and reporting issues"
-	description="Azure IaaS VM Backup monitoring and reporting issues"
+	pageTitle="Azure virtual machine backup monitoring and reporting issues"
+	description="Azure virtual machine backup monitoring and reporting issues"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
-	displayOrder=""
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32447361"
 	resourceTags=""
@@ -13,7 +13,7 @@
 />
 
 
-# Azure IaaS VM Backup monitoring and reporting issues
+# Azure virtual machine backup monitoring and reporting issues
 
 ## **Recommended steps**
 Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
