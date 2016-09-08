@@ -1,0 +1,23 @@
+
+<properties
+    pageTitle="portal"
+    description="32536499"
+    service="microsoft.operationalinsights"
+    resource="operationalinsightsaccounts"
+    authors="adoyle"
+    displayorder=""
+    selfHelpType="generic"
+    supportTopicIds="32536499"
+    resourceTags=""
+    productPesIds="15725"
+    cloudEnvironments="public, Blackforest, Fairfax"
+/>
+
+# portal
+
+
+## **Recommended documents**
+[How to troubleshoot Operations Management Suite onboarding issues]
+Get Started with Log Analytics
+(https://support.microsoft.com/kb/3126513) <br>
+(https://azure.microsoft.com/documentation/articles/log-analytics-get-started/)
