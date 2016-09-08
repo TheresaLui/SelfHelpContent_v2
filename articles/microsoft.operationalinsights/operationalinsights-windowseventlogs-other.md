@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Windows Event log data sources in Log Analytics]
-IIS Logs in Log Analytics
 (https://azure.microsoft.com/documentation/articles/log-analytics-data-sources-windows-events/) <br>
+[IIS Logs in Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-data-sources-iis-logs/)

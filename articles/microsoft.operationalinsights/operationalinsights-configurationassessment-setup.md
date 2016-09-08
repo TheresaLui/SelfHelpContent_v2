@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Use Microsoft OMS for configuration assessment]
-Configuration Assessment solution in Log Analytics
 (https://blogs.technet.microsoft.com/msoms/2016/01/15/use-microsoft-oms-for-configuration-assessment/) <br>
+[Configuration Assessment solution in Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-configuration-assessment/)

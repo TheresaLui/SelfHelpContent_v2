@@ -18,10 +18,10 @@
 
 ## **Recommended documents**
 [Analyze data usage in Log Analytics]
-Log Analytics FAQ
 (https://azure.microsoft.com/documentation/articles/log-analytics-usage/) <br>
-[What is my Microsoft OMS data usage?]
+[Log Analytics FAQ]
 (https://azure.microsoft.com/documentation/articles/log-analytics-faq/) <br>
-OMS Pricing
+[What is my Microsoft OMS data usage?]
 (https://blogs.technet.microsoft.com/msoms/2016/02/12/what-is-my-microsoft-operations-management-suite-data-usage/) <br>
+[OMS Pricing]
 (https://www.microsoft.com/cloud-platform/operations-management-suite-pricing)

@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Use Microsoft OMS to track changes]
-Change Tracking solution in Log Analytics
 (https://blogs.technet.microsoft.com/msoms/2016/01/19/use-microsoft-operations-management-suite-to-track-changes/) <br>
+[Change Tracking solution in Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-change-tracking/)

@@ -17,6 +17,6 @@
 
 
 ## **Recommended documents**
-Get Started with Log Analytics
 () <br>
+[Get Started with Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-get-started/)

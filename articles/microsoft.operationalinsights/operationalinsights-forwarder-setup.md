@@ -18,8 +18,8 @@
 
 ## **Recommended documents**
 [How to troubleshoot Operations Management Suite onboarding issues]
-Log Analytics FAQ
 (https://support.microsoft.com/kb/3126513) <br>
-[OMS Log Analytics Forwarder]
+[Log Analytics FAQ]
 (https://azure.microsoft.com/documentation/articles/log-analytics-faq/) <br>
+[OMS Log Analytics Forwarder]
 (https://blogs.technet.microsoft.com/msoms/2016/03/17/oms-log-analytics-forwarder/)

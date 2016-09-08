@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [OMS Pricing]
-Link an existing workspace to an Azure subscription
 (https://www.microsoft.com/cloud-platform/operations-management-suite-pricing) <br>
+[Link an existing workspace to an Azure subscription]
 (https://azure.microsoft.com/en-us/documentation/articles/log-analytics-manage-access/#link-an-existing-workspace-to-an-azure-subscription)

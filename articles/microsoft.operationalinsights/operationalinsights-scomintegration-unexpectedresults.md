@@ -18,10 +18,10 @@
 
 ## **Recommended documents**
 [How to troubleshoot Operations Management Suite onboarding issues]
-Log Analytics FAQ
 (https://support.microsoft.com/kb/3126513) <br>
-[Connect Operations Manager to Log Analytics]
+[Log Analytics FAQ]
 (https://azure.microsoft.com/documentation/articles/log-analytics-faq/) <br>
-Control management pack updates between Microsoft OMS and SCOM
+[Connect Operations Manager to Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-om-agents/) <br>
+[Control management pack updates between Microsoft OMS and SCOM]
 (https://blogs.technet.microsoft.com/msoms/2016/03/16/control-management-pack-updates-between-ms-oms-and-operations-manager/)
