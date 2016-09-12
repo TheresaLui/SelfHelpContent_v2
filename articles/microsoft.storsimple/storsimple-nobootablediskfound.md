@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My virtual array isn't booting"
-	description="My virtual array isn't booting"
+	pageTitle="My virtual array doesn't boot up."
+	description="My virtual array doesn't boot up."
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="anbacker"
@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# My virtual array isn't booting.
+# My virtual array doesn't boot up.
 If you can't boot the virtual array that was provisioned, verify the version of the virtual disk image that you are using. <br>
 Common error messages: <br>
-	1. `Boot failure. Reboot and Select proper Boot device`<br>
-	2. `Insert Boot Media in selected Boot device`
+	1. `Boot failure. Reboot and Select proper Boot device`.<br>
+	2. `Insert Boot Media in selected Boot device`.
 
 ## **Recommended steps**
 * If using a VHD for Windows Server 2008 R2 or later, you will need to create a **Generation 1** VM.
