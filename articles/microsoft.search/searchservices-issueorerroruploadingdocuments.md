@@ -3,7 +3,7 @@
 	description="Using Search Index/Issue or error uploading documents"
 	service="microsoft.search"
 	resource="searchservices"
-	authors="betorres"
+	authors="bernitorres"
 	selfHelpType="generic"
 	supportTopicIds="32335648"
 	resourceTags=""
@@ -14,9 +14,9 @@
 # Using Search Index/Issue or error uploading documents
  
 ## **Recommended documents**
-[How to import data into Azure Search - push and pull methods](https://azure.microsoft.com/en-us/documentation/articles/search-what-is-data-import/) <br>
-[How to upload documents using the REST API]([https://msdn.microsoft.com/en-us/library/azure/dn798930.aspx) <br>
-[How to upload documents using indexers](https://msdn.microsoft.com/en-us/library/azure/dn946891.aspx) <br>
-[How to upload documents using using indexers from the portal](https://azure.microsoft.com/en-us/documentation/articles/search-import-data-portal/) <br>
-[How to upload documents using the .NET SDK](https://azure.microsoft.com/en-us/documentation/articles/search-howto-dotnet-sdk/#core-scenarios) <br>
-[How to index complex data types](https://azure.microsoft.com/en-us/documentation/articles/search-howto-complex-data-types/)
+[How to import data into Azure Search - push and pull methods](https://azure.microsoft.com/documentation/articles/search-what-is-data-import/) <br>
+[How to upload documents using the REST API](https://msdn.microsoft.com/library/azure/dn798930.aspx) <br>
+[How to upload documents using indexers](https://msdn.microsoft.com/library/azure/dn946891.aspx) <br>
+[How to upload documents using using indexers from the portal](https://azure.microsoft.com/documentation/articles/search-import-data-portal/) <br>
+[How to upload documents using the .NET SDK](https://azure.microsoft.com/documentation/articles/search-howto-dotnet-sdk/#core-scenarios) <br>
+[How to index complex data types](https://azure.microsoft.com/documentation/articles/search-howto-complex-data-types/)
