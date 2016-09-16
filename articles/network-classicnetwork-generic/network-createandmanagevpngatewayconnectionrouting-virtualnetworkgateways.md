@@ -18,8 +18,8 @@
 [What are my cross-premises connection options?](https://azure.microsoft.com/documentation/articles/vpn-gateway-vpn-faq/#what-are-my-cross-premises-connection-options)<br>
 [Azure VPN Gateway connection topologies](https://azure.microsoft.com/documentation/articles/vpn-gateway-topology/)<br>
 [Create a Site-to-Site VPN](https://azure.microsoft.com/documentation/articles/vpn-gateway-multi-site/#1-create-a-site-to-site-vpn)<br>
+[Configure a local VPN device](https://azure.microsoft.com/en-us/documentation/articles/vpn-gateway-about-vpn-devices)<br>
 [Create a VNet with a Site-to-Site VPN connection using the Azure Portal and Azure Resource Manager](https://azure.microsoft.com/documentation/articles/vpn-gateway-howto-site-to-site-resource-manager-portal/)<br>
-[Configure ExpressRoute and Site-to-Site coexisting connections for the classic deployment model](https://azure.microsoft.com/documentation/articles/expressroute-howto-coexist-classic/)<br>
 [Configure a Point-to-Site connection to a virtual network using PowerShell](https://azure.microsoft.com/documentation/articles/vpn-gateway-howto-point-to-site-rm-ps/)<br>
 [Configure a VNet-to-VNet connection by using Azure Resource Manager and PowerShell](https://azure.microsoft.com/documentation/articles/vpn-gateway-vnet-vnet-rm-ps/)<br>
 [Connecting classic VNets to new VNets](https://azure.microsoft.com/documentation/articles/virtual-networks-arm-asm-s2s/)<br>
