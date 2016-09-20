@@ -3,7 +3,7 @@
 	description="setup and configuration/failure deploying new sql vm"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="ramakoni"
+	authors="ramakoni1"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32511139"
