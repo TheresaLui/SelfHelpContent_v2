@@ -8,7 +8,7 @@
     selfHelpType="resource"
     supportTopicIds="32411838"
     productPesIds="14749"
-    resourceTags="windows, linux, WindowsSQL"
+    resourceTags="windows, linux, WindowsSQL, redhat"
 	cloudEnvironments="public"	 
  />
 
