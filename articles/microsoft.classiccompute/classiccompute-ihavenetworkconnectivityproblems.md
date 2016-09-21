@@ -7,7 +7,7 @@
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="windows, linux, windowsSQL, redhat"	
+	resourceTags="windows, linux, windowsSQL"	
 	productPesIds=""
 	cloudEnvironments="public" 
 />
