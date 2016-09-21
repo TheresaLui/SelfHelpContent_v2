@@ -5,7 +5,7 @@
 	resource="sites"
 	authors="aashu"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32542216"
 	resourceTags=""
 	productPesIds="14748"
