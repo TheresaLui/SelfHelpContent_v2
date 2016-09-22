@@ -3,7 +3,7 @@
 	description="connectivity/cannot connect to a SQL Server"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="aashu"
+	authors="ramakoni1"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32511133"

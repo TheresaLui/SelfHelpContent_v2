@@ -3,7 +3,7 @@
 	description="connectivity/issue with SQL Auto Backup"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="aashu"
+	authors="ramakoni1"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32511145"
