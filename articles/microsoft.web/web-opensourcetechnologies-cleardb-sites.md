@@ -3,7 +3,7 @@
 	description="open source technologies/ClearDB"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32550703"
