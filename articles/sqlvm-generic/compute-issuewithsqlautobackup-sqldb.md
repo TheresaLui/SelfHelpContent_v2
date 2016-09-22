@@ -1,4 +1,4 @@
- <properties
+<properties
 	pageTitle="connectivity/issue with SQL Auto Backup"
 	description="connectivity/issue with SQL Auto Backup"
 	service="microsoft.compute"
