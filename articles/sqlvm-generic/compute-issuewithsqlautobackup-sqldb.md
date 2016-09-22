@@ -17,4 +17,4 @@
  
 ## **Recommended documents**
 
-[Automated Backup for SQL Server in Azure Virtual Machines (Resource Manager)](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-sql-automated-backup)
+[Automated Backup for SQL Server in Azure Virtual Machines (Resource Manager)](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-automated-backup)
