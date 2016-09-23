@@ -21,10 +21,9 @@ To resolve common issues, try one or more of the following steps.
 2. Reset Remote Access to address remote server issues <br>
 [Reset remote access using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
 3. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
-4. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
+4. RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
 5. To connect to your VM via RDP, please review [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists for RDP port(3389)
-6. RDP to your VM from Internet will not work with force tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade) <br>
-With force tunneling, all outbound traffic destined to Internet will be redirected to on-premises 
+6. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
 7. If you're getting an RDP license error, use 'mstsc/admin' as a work around. If needed, uninstall or buy an RDS license. <br>
 [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)
 
