@@ -27,20 +27,20 @@ Try the following steps to diagnose and mitigate VM performance issues.
 10. Once the job status changes to “Running”, depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
 11. If no output is obtained after the expected duration (based on the query), try the following: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. <br>
-	b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. <br>
-		i. If Input Events > 0, the ASA job is able to read data. If not, then the problems may be <br>
-			1. Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) <br>
-			2. Check if the Data serialization format and Encoding are as expected. <br>
-			3. If using Event Hub, the Body of the Message may be Null. <br>
-		ii. If Data Conversion Errors > 0 and climbing, that means: <br>
-			1. Job may not be able to deserialize the events. <br>
-			2. Events schema may not match the defined/expected schema of the events in the query. <br> 
-			3. DataType of some of the fields in the Event may not be what is expected. Test with sample data to confirm working. <br>
-		iii. If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on “Failed” status to find all these errors. <br>
-		iv. If InputEvents > 0 and OutputEvents = 0, means one of the following: <br>
-			1. Query processing resulted in zero output events. <br>
-			2. Events or its fields may be malformed, so resulted in zero output after query processing. 3. Unable to push data to Output Sink for connectivity/authentication reasons. <br>
-		v. In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads “Errors are happening too rapidly, these are being suppressed”. <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. If Input Events > 0, the ASA job is able to read data. If not, then the problems may be <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Check if the Data serialization format and Encoding are as expected. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. If using Event Hub, the Body of the Message may be Null. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. If Data Conversion Errors > 0 and climbing, that means: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Job may not be able to deserialize the events. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Events schema may not match the defined/expected schema of the events in the query. <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. DataType of some of the fields in the Event may not be what is expected. Test with sample data to confirm working. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on “Failed” status to find all these errors. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. If InputEvents > 0 and OutputEvents = 0, means one of the following: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Query processing resulted in zero output events. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Events or its fields may be malformed, so resulted in zero output after query processing. 3. Unable to push data to Output Sink for connectivity/authentication reasons. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads “Errors are happening too rapidly, these are being suppressed”. <br> 
 
 When outputs going to a specific output type are not seen, redirect the output to different output type that is less complex (such as Azure Blobs) and check if the output can be seen up there (using Storage Explorer). 
 
