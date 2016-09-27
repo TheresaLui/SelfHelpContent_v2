@@ -1,21 +1,22 @@
 
 <properties
-    pageTitle="azurenetworkinganalytics"
-    description="32536477"
+    pageTitle="portal-logonissues"
+    description="32536577"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="adoyle"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32536477"
+    supportTopicIds="32536577"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 />
 
-# azurenetworkinganalytics
+# portal-logonissues
 
 
 ## **Recommended documents**
-[Azure Networking Analytics (Preview) solution in Log Analytics]
-(https://azure.microsoft.com/en-us/documentation/articles/log-analytics-azure-networking-analytics/)
+() <br>
+[Get Started with Log Analytics]
+(https://azure.microsoft.com/documentation/articles/log-analytics-get-started/)
