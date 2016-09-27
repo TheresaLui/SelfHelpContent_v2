@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Syslog data sources in Log Analytics]
+Syslog collection in OMS
 (https://azure.microsoft.com/documentation/articles/log-analytics-data-sources-syslog/) <br>
-[Syslog collection in OMS]
 (https://blogs.technet.microsoft.com/msoms/2016/05/12/syslog-collection-in-operations-management-suite/)

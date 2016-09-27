@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [OMS Pricing]
+Upgrade a workspace to a paid data plan
 (https://www.microsoft.com/cloud-platform/operations-management-suite-pricing) <br>
-[Upgrade a workspace to a paid data plan]
 (https://azure.microsoft.com/en-us/documentation/articles/log-analytics-manage-access/#upgrade-a-workspace-to-a-paid-data-plan)

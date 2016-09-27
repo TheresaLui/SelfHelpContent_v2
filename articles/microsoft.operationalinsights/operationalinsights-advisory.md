@@ -18,12 +18,12 @@
 
 ## **Recommended documents**
 [How to troubleshoot Operations Management Suite onboarding issues]
+Log Analytics FAQ
 (https://support.microsoft.com/kb/3126513) <br>
-[Log Analytics FAQ]
-(https://azure.microsoft.com/documentation/articles/log-analytics-faq/) <br>
 [Data sources in Log Analytics]
+(https://azure.microsoft.com/documentation/articles/log-analytics-faq/) <br>
+Custom logs in Log Analytics
 (https://azure.microsoft.com/documentation/articles/log-analytics-data-sources/) <br>
-[Custom logs in Log Analytics]
-(https://azure.microsoft.com/documentation/articles/log-analytics-data-sources-custom-logs/) <br>
 [How to verify that your OMS agents are working]
+(https://azure.microsoft.com/documentation/articles/log-analytics-data-sources-custom-logs/) <br>
 (https://blogs.technet.microsoft.com/omsblog/2016/01/05/how-to-verify-that-your-microsoft-oms-agents-are-working-properly/)

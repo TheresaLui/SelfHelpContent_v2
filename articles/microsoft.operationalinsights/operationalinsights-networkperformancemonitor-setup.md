@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Introducing OMS Network Performance Monitor]
+Network Performance Monitor solution
 (https://blogs.technet.microsoft.com/msoms/2016/07/27/introducing-oms-network-performance-monitor/) <br>
-[Network Performance Monitor solution]
 (https://azure.microsoft.com/documentation/articles/log-analytics-network-performance-monitor/)

@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Manage access to Log Analytics]
+Get Started with Log Analytics
 (https://azure.microsoft.com/documentation/articles/log-analytics-manage-access/) <br>
-[Get Started with Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-get-started/)

@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [How to troubleshoot Operations Management Suite onboarding issues]
+Get Started with Log Analytics
 (https://support.microsoft.com/kb/3126513) <br>
-[Get Started with Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-get-started/)

@@ -18,12 +18,12 @@
 
 ## **Recommended documents**
 [How to troubleshoot Operations Management Suite onboarding issues]
+Connect Windows Computers to Log Analytics
 (https://support.microsoft.com/kb/3126513) <br>
-[Connect Windows Computers to Log Analytics]
-(https://azure.microsoft.com/documentation/articles/log-analytics-windows-agents/) <br>
 [Connect Azure virtual machines to Log Analytics]
+(https://azure.microsoft.com/documentation/articles/log-analytics-windows-agents/) <br>
+Connect Operations Manager to Log Analytics
 (https://azure.microsoft.com/documentation/articles/log-analytics-azure-vm-extension/) <br>
-[Connect Operations Manager to Log Analytics]
-(https://azure.microsoft.com/documentation/articles/log-analytics-om-agents/) <br>
 [How to verify that your OMS agents are working]
+(https://azure.microsoft.com/documentation/articles/log-analytics-om-agents/) <br>
 (https://blogs.technet.microsoft.com/omsblog/2016/01/05/how-to-verify-that-your-microsoft-oms-agents-are-working-properly/)

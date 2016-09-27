@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Monitor Active Directory Replication Status with OMS]
+Active Directory Replication Status solution in Log Analytocs
 (https://blogs.technet.microsoft.com/msoms/2016/02/23/monitor-active-directory-replication-status-with-oms/) <br>
-[Active Directory Replication Status solution in Log Analytics]
 (https://azure.microsoft.com/documentation/articles/log-analytics-ad-replication-status/)

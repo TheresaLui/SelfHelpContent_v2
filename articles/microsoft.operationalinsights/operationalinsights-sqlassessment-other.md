@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [SQL Assessment Solution]
+Log Analytics FAQ
 (https://azure.microsoft.com/documentation/articles/log-analytics-sql-assessment/) <br>
-[Log Analytics FAQ]
 (https://azure.microsoft.com/documentation/articles/log-analytics-faq/)

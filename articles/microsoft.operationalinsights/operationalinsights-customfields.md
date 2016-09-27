@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 [Custom fields in Log Analytics]
+OMS Custom Log Fields
 (https://azure.microsoft.com/documentation/articles/log-analytics-custom-fields/) <br>
-[OMS Custom Log Fields]
 (https://blogs.technet.microsoft.com/msoms/2016/05/02/operations-management-suite-custom-log-fields/)
