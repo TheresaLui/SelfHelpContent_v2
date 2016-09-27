@@ -11,12 +11,10 @@
 	productPesIds=""
 	cloudEnvironments="public"	 
 />
-
-    
+ 
 # I can't connect to my cluster
 
 ## **Connection failures using Service Fabric Explorer (SFX) or Powershell to the Management Endpoint**
-
 Try to browse to the SFX https endpoint (URL found on the Azure management portal, typically https://{clustername}.{region}.cloudapp.azure.com:19080/Explorer)
 
 1. If you get a connection failure it means https traffic cannot be made to port 19080.
@@ -28,16 +26,17 @@ Try to browse to the SFX https endpoint (URL found on the Azure management porta
    
 2. If you get a certificate related error it means you can connect to port 19080, but there may be a certificate problem
    + If you get a warning that the certificate is not trusted or the domain name does not match
-     i.You might be using a self-signed certificate which is not chained to a root CA.  You can either get a signed certificate from a certificate authority, or you can add your self-signed certificate to your trusted root store.
-     ii.You might be using a certificate with a different subject name than the DNS name you are browsing to.  You can setup a DNS mapping (CNAME, A record, or local hosts file) to map your certificates subject name (for example, servicefabric.mycompany.com) to the Service Fabric management endpoint (for example, mycluster.westus.cloudapp.azure.com), and then try browsing to your custom domain name (https://servicefabric.mycompany.com:19080/Explorer)
-     iii.	If you trust the server certificate that is presented, then you can just ignore the certificate warning in the browser and continue to the site.
+     + You might be using a self-signed certificate which is not chained to a root CA.  You can either get a signed certificate from a certificate authority, or you can add your self-signed certificate to your trusted root store.
+     + You might be using a certificate with a different subject name than the DNS name you are browsing to.  You can setup a DNS mapping (CNAME, A record, or local hosts file) to map your certificates subject name (for example, servicefabric.mycompany.com) to the Service Fabric management endpoint (for example, mycluster.westus.cloudapp.azure.com), and then try browsing to your custom domain name (https://servicefabric.mycompany.com:19080/Explorer)
+     +	If you trust the server certificate that is presented, then you can just ignore the certificate warning in the browser and continue to the site.
    + When connecting to a cluster which is secured by a certificate you must present a certificate in order to authenticate your client.  To do this make sure the cluster security certificate is in your personal certificate store.  When browsing to the management endpoint your web browser should prompt you to select a client certificate, at which time you can choose the cluster cert from your certificate store.
-   + If you are connecting with Powershell you need the cluster certificate in your personal certificate store, as above in (b), and you need to specify the client certificate in Powershell when connecting to the cluster.  See [Connect to a secure cluster] (https://azure.microsoft.com/documentation/articles/service-fabric-connect-to-secure-cluster/)
+   + If you are connecting with Powershell you need the cluster certificate in your personal certificate store, as above in (b), and you need to specify the client certificate in Powershell when connecting to the cluster.  See [Connect to a secure cluster](https://azure.microsoft.com/documentation/articles/service-fabric-connect-to-secure-cluster/)
  
 ## **Connection failures to applications deployed in a cluster**
-1. Verify that the Load Balancing Rules are mapping the exposed public port to the expected internal port and back end address pool. [Load Blancing Rules] (data-blade:loadblancing rule)
-2. Verify that the ServiceManifest.xml has an Endpoint defined with the correct protocol and port mapping.  See [Specify resources in a service manifest] (https://azure.microsoft.com/documentation/articles/service-fabric-service-manifest-resources/)
-3. Check for potential Network Security Group rules that could block traffic.  [Network Settings] (data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade)
+
+1. Verify that the Load Balancing Rules are mapping the exposed public port to the expected internal port and back end address pool [Load Blancing Rules](data-blade:loadblancing rule)
+2. Verify that the ServiceManifest.xml has an Endpoint defined with the correct protocol and port mapping.  See [Specify resources in a service manifest](https://azure.microsoft.com/documentation/articles/service-fabric-service-manifest-resources/)
+3. Check for potential Network Security Group rules that could block traffic [Network Settings](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade)
 4. Make sure the application is configured to listen on the correct port. Typically this is done in the CreateServiceInstanceListeners method by calling CodePackageActivationContext.GetEndpoint to get the endpoint configured in the service manifest.
 5. For HTTP endpoints, RDP to one of the nodes running the application and from a command prompt execute:
        netsh http show servicestate view=requestq : This will show the process IDs and registered URLs for all services registered with http.sys.
