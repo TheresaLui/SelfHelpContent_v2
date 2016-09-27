@@ -11,17 +11,18 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-
-# Deleting a Recovery Services vault
-## **Recommended steps**
+# Deleting a vault that stores all backup data
+There are two types of vaults- Recovery Services vault for Resources Manager deployments and Backup vault for Classic deployment.
+## Deleting a Recovery Services vault
+### **Recommended steps**
 1. Open Azure portal and select the vault you want to delete.
 2. In the vault view, look at the essentials pane and make sure all entries under Backup Items, Backup management Servers and Replicated Items are zero. If you see non zero, please follow [steps to remove all resources in the Recovery Services vault](https://azure.microsoft.com/documentation/articles/backup-azure-delete-vault/#deleting-a-recovery-services-vault).
 3. When there are no more items in the vault, click Delete.
 4. When asked to verify that you want to delete the vault, click Yes.
 The vault is deleted and the portal returns to the New service menu.
 
-# Deleting a Backup vault
-## **Recommended steps**
+## Deleting a Backup vault
+### **Recommended steps**
 1. Open Classic portaland select the vault you want to delete.
 2. Look at the number of Windows Servers and/or Azure virtual machines and total storage consumed associated with the vault and make sure the usage is zero. If you see non zero please follow [steps to delete all resources in the Backup vault](https://azure.microsoft.com/documentation/articles/backup-azure-delete-vault/#delete-a-backup-vault).
 3. When the usage is zero, click Delete.
