@@ -18,4 +18,4 @@
 
 ## **Recommended documents**
 [Azure Networking Analytics (Preview) solution in Log Analytics]
-(https://azure.microsoft.com/en-us/documentation/articles/log-analytics-azure-networking-analytics/)
+(https://azure.microsoft.com/documentation/articles/log-analytics-azure-networking-analytics/)

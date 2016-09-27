@@ -20,4 +20,4 @@
 [Monitor Container performance, events, log, and inventory]
 (https://blogs.technet.microsoft.com/msoms/2016/08/24/announcing-public-preview-oms-container-solution-for-linux/) <br>
 [Container monitoring]
-(https://azure.microsoft.com/en-us/documentation/articles/log-analytics-containers/)
+(https://azure.microsoft.com/documentation/articles/log-analytics-containers/)
