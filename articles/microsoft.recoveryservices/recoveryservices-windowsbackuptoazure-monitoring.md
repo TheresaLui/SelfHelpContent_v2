@@ -4,7 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="saurabhsensharma"
-	displayOrder=""
+	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32447364"
 	resourceTags=""
@@ -15,7 +15,9 @@
 
 # Windows Backup to Azure Backup monitoring and reporting issues
 
-##**Recommended steps for most common issues**
+##**Recommended steps**
+Follow these steps to resolve the most common Azure Backup monitoring and reporting issues.
+
 * Note that alerts are raised only for failed backups
 
 * If the email did not reach your inbox, please check in the spam or junk folders
