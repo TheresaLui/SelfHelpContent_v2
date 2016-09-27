@@ -66,30 +66,30 @@ In the job diagram, examine the following input metrics to help answer the follo
 
 If the preceding step is an input processor, use the input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
-1) How much data is actually being read? 
+_1) How much data is actually being read?_ 
 
 **InputEventsSourcesTotal** metric provides the number of data units read, eg number of blobs. <br>
 **InputEventsTotal** provides the number of events read. This metric is available per partition. <br>
 **InputEventsInBytesTotal** provides the number of bytes read. <br>
 **InputEventsLastArrivalTime** is updated with every received event's enqueued time 
 
-2) Is time moving forward? If actual events are read, punctuation might not be issued. 
+_2) Is time moving forward? If actual events are read, punctuation might not be issued._ 
 
 **InputEventsLastPunctuationTime** indicates when a punctuation was issued to keep time moving forward. Data flow can get blocked if punctuation is not issued. 
 
-3) Are there any errors in the input? 
+_3) Are there any errors in the input?_ 
 
 **InputEventsEventDataNullTotal** holds a count of events with null data <br>
 **InputEventsSerializerErrorsTotal** holds a count of events that could not be deserialized correctly <br>
 **InputEventsDegradedTotal** holds a count of events that had an issue other than deserialization problems
 
-4) Are events getting dropped/adjusted? 
+_4) Are events getting dropped/adjusted?_ 
 
 **InputEventsEarlyTotal** provides the number of events with an application timestamp before the high watermark. <br>
 **InputEventsLateTotal** provides the number of events with an application timestamp after the high watermark. <br>
 **InputEventsDroppedBeforeApplicationStartTimeTotal** provides the number events dropped before the job start time. 
 
-5) Are we following behind in reading data? 
+_5) Are we following behind in reading data?_ 
 
 **InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. 
 
