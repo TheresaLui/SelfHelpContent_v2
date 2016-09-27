@@ -26,7 +26,7 @@ Try the following steps to diagnose and mitigate VM performance issues.
 9. Start the Job and check if the job works as desired.  
 10. Once the job status changes to “Running”, depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
 11. If no output is obtained after the expected duration (based on the query), try the following: <br>
-	a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. <br>
 	b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. <br>
 		i. If Input Events > 0, the ASA job is able to read data. If not, then the problems may be <br>
 			1. Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) <br>
@@ -93,7 +93,7 @@ If the preceding step is an input processor, use the input metrics to help answe
 
 **InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. 
 
-## To open a Microsoft Support case 
+_To open a Microsoft Support case_
 
 If you are still not able to figure out what is going on, then go to operations log, select one of the latest entries and click Details button at the bottom of the screen and copy all the details on that page and use that info to supply to Microsoft Support. 
 
