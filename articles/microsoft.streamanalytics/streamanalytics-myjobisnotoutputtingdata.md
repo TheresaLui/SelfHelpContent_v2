@@ -25,22 +25,22 @@ Try the following steps to diagnose and mitigate VM performance issues.
 8. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser verses running the job for real. 
 9. Start the Job and check if the job works as desired.  
 10. Once the job status changes to “Running”, depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
-11. If no output is obtained after the expected duration (based on the query), try the following: 
-	a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. 
-	b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. 
-		i. If Input Events > 0, the ASA job is able to read data. If not, then the problems may be 
-			1. Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) 
-			2. Check if the Data serialization format and Encoding are as expected. 
-			3. If using Event Hub, the Body of the Message may be Null. 
-		ii. If Data Conversion Errors > 0 and climbing, that means: 
-			1. Job may not be able to deserialize the events.  
-			2. Events schema may not match the defined/expected schema of the events in the query.  
-			3. DataType of some of the fields in the Event may not be what is expected. Test with sample data to confirm working. 
-		iii. If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on “Failed” status to find all these errors.
-		iv. If InputEvents > 0 and OutputEvents = 0, means one of the following: 
-			1. Query processing resulted in zero output events. 
-			2. Events or its fields may be malformed, so resulted in zero output after query processing. 3. Unable to push data to Output Sink for connectivity/authentication reasons.
-		v. In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads “Errors are happening too rapidly, these are being suppressed”.  
+11. If no output is obtained after the expected duration (based on the query), try the following: <br>
+	a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. <br>
+	b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. <br>
+		i. If Input Events > 0, the ASA job is able to read data. If not, then the problems may be <br>
+			1. Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) <br>
+			2. Check if the Data serialization format and Encoding are as expected. <br>
+			3. If using Event Hub, the Body of the Message may be Null. <br>
+		ii. If Data Conversion Errors > 0 and climbing, that means: <br>
+			1. Job may not be able to deserialize the events. <br>
+			2. Events schema may not match the defined/expected schema of the events in the query. <br> 
+			3. DataType of some of the fields in the Event may not be what is expected. Test with sample data to confirm working. <br>
+		iii. If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on “Failed” status to find all these errors. <br>
+		iv. If InputEvents > 0 and OutputEvents = 0, means one of the following: <br>
+			1. Query processing resulted in zero output events. <br>
+			2. Events or its fields may be malformed, so resulted in zero output after query processing. 3. Unable to push data to Output Sink for connectivity/authentication reasons. <br>
+		v. In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads “Errors are happening too rapidly, these are being suppressed”. <br> 
 
 When outputs going to a specific output type are not seen, redirect the output to different output type that is less complex (such as Azure Blobs) and check if the output can be seen up there (using Storage Explorer). 
 
@@ -68,9 +68,9 @@ If the preceding step is an input processor, use the input metrics to help answe
 
 1) How much data is actually being read? 
 
-**InputEventsSourcesTotal** metric provides the number of data units read, eg number of blobs. 
-**InputEventsTotal** provides the number of events read. This metric is available per partition. 
-**InputEventsInBytesTotal** provides the number of bytes read. 
+**InputEventsSourcesTotal** metric provides the number of data units read, eg number of blobs. <br>
+**InputEventsTotal** provides the number of events read. This metric is available per partition. <br>
+**InputEventsInBytesTotal** provides the number of bytes read. <br>
 **InputEventsLastArrivalTime** is updated with every received event's enqueued time 
 
 2) Is time moving forward? If actual events are read, punctuation might not be issued. 
@@ -79,21 +79,21 @@ If the preceding step is an input processor, use the input metrics to help answe
 
 3) Are there any errors in the input? 
 
-**InputEventsEventDataNullTotal** holds a count of events with null data 
-**InputEventsSerializerErrorsTotal** holds a count of events that could not be deserialized correctly 
-**InputEventsDegradedTotal** holds a count of events that had an issue other than deserialization problems 
+**InputEventsEventDataNullTotal** holds a count of events with null data <br>
+**InputEventsSerializerErrorsTotal** holds a count of events that could not be deserialized correctly <br>
+**InputEventsDegradedTotal** holds a count of events that had an issue other than deserialization problems
 
 4) Are events getting dropped/adjusted? 
 
-**InputEventsEarlyTotal** provides the number of events with an application timestamp before the high watermark. 
-**InputEventsLateTotal** provides the number of events with an application timestamp after the high watermark. 
-**InputEventsDroppedBeforeApplicationStartTimeTotal** provides the number events dropped before the job start time 
+**InputEventsEarlyTotal** provides the number of events with an application timestamp before the high watermark. <br>
+**InputEventsLateTotal** provides the number of events with an application timestamp after the high watermark. <br>
+**InputEventsDroppedBeforeApplicationStartTimeTotal** provides the number events dropped before the job start time. 
 
 5) Are we following behind in reading data? 
 
 **InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. 
 
-To open a Microsoft Support case 
+## To open a Microsoft Support case 
 
 If you are still not able to figure out what is going on, then go to operations log, select one of the latest entries and click Details button at the bottom of the screen and copy all the details on that page and use that info to supply to Microsoft Support. 
 
