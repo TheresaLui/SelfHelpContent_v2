@@ -93,7 +93,7 @@ If the preceding step is an input processor, use the input metrics to help answe
 
 **InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. 
 
-_To open a Microsoft Support case**_
+_To open a Microsoft Support case_
 
 If you are still not able to figure out what is going on, then go to operations log, select one of the latest entries and click Details button at the bottom of the screen and copy all the details on that page and use that info to supply to Microsoft Support. 
 
