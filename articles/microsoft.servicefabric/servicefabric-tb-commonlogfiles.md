@@ -2,7 +2,7 @@
 	pageTitle="Common log files for Service Fabric nodes" 
 	description="Common log files for Service Fabric nodes" 
 	service="microsoft.servicefabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="1"
 	selfHelpType="resource"
