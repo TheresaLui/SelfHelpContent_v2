@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-+ System.FM "Partition is below target replica or instance count" : Commonly caused when your service is crashing on startup, either due to a missing dependency or a crash in RunAsync or OnActivateAsync.  Can also be caused temporarily by something like a node reboot or temporary failure.
++ System.FM  Partition is below target replica or instance count : Commonly caused when your service is crashing on startup, either due to a missing dependency or a crash in RunAsync or OnActivateAsync.  Can also be caused temporarily by something like a node reboot or temporary failure.
 + System.PLB ServiceReplicaUnplacedHealth:  Commonly caused when an application is requesting a higher replica count than there are nodes available in the cluster.  This could be because of a misconfigured application manifest, or a cluster node is unavailable due to scale down operations or unexpected node failures.
 + System.PLB MovementsDropped  : Commonly caused when the movement that PLB issued are dropped, and could be mitigated by restarting the replica of the partition
 + System.PLB NodeCapacityViolation : Commonly caused when the metrics consumption is over the node capacity, and could be mitigated by adding more nodes to the cluster
