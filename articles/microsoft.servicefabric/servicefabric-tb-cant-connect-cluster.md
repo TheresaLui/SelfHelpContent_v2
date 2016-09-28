@@ -26,7 +26,7 @@ Try to browse to the SFX https endpoint (URL found on the Azure management porta
   +	Check for client side networking issues such as a Proxy server that might be blocking traffic
 
 2.	If you get a certificate related error it means you can connect to port 19080, but there may be a certificate problem
-  - If you get a warning that the certificate is not trusted or the domain name does not match
+  + If you get a warning that the certificate is not trusted or the domain name does not match
     - You might be using a self-signed certificate which is not chained to a root CA.  You can either get a signed certificate from a certificate authority, or you can add your self-signed certificate to your trusted root store.
     - You might be using a certificate with a different subject name than the DNS name you are browsing to.  You can setup a DNS mapping (CNAME, A record, or local hosts file) to map your certificates subject name (for example, servicefabric.mycompany.com) to the Service Fabric management endpoint (for example, mycluster.westus.cloudapp.azure.com), and then try browsing to your custom domain name (https://servicefabric.mycompany.com:19080/Explorer).
     - If you trust the server certificate that is presented, then you can just ignore the certificate warning in the browser and continue to the site.
@@ -34,4 +34,4 @@ Try to browse to the SFX https endpoint (URL found on the Azure management porta
   +	If you are connecting with Powershell you need the cluster certificate in your personal certificate store, as above in (b), and you need to specify the client certificate in Powershell when connecting to the cluster. 
   
 ## **Recommended documents**
-   [Connect to a secure cluster](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-connect-to-secure-cluster/)
+   [Connect to a secure cluster](https://azure.microsoft.com/documentation/articles/service-fabric-connect-to-secure-cluster/)
