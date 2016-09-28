@@ -2,7 +2,7 @@
 	pageTitle="I am seeing System.XXX Errors in Service Fabric Explorer" 
 	description="I am seeing System.XXX Errors in Service Fabric Explorer" 
 	service="microsoft.servicefabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="3"
 	selfHelpType="resource"

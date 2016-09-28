@@ -2,7 +2,7 @@
 	pageTitle="My cluster is not starting or nodes are not displaying" 
 	description="My cluster is not starting or nodes are not displaying" 
 	service="microsoft.servicefabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="2"
 	selfHelpType="resource"

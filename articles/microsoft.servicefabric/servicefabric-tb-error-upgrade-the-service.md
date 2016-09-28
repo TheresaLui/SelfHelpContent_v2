@@ -2,7 +2,7 @@
 	pageTitle="Errors upgrading a service" 
 	description="Errors upgrading a service" 
 	service="microsoft.servicefabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="7"
 	selfHelpType="resource"

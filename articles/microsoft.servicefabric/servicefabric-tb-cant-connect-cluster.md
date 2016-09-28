@@ -2,7 +2,7 @@
 	pageTitle="Connection failures using Service Fabric Explorer (SFX) or PowerShell to the Management Endpoint " 
 	description="Connection failures using Service Fabric Explorer (SFX) or PowerShell to the Management Endpoint " 
 	service="microsoft.servicefabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="8"
 	selfHelpType="resource"

@@ -2,7 +2,7 @@
 	pageTitle="Common Failures and Troubleshooting Steps for Application/Service" 
 	description="Common Failures and Troubleshooting Steps for Application/Service" 
 	service="microsoft.ServiceFabric"
-	resource="servicefabric"
+	resource="clusters"
 	authors="pkcsf"
 	displayOrder="4"
 	selfHelpType="resource"
