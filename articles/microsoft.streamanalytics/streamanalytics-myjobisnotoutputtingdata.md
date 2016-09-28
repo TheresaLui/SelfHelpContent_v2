@@ -46,7 +46,7 @@ When outputs going to a specific output type are not seen, redirect the output t
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the “Job diagram” button in the “Settings” blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
-![Select job diagram](/Images/SelectingJobDiagram.png)
+![Select job diagram](Images/SelectingJobDiagram.png)
 
 Every input and output is color coded to indicate the current state of that component.  
 
