@@ -6,7 +6,8 @@
 	authors="kschaefer13"
 	displayOrder="3"
 	selfHelpType="resource"
-	productPesIds="32357244"
+	supportTopicIds=""
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
