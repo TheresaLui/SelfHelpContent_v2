@@ -15,16 +15,16 @@
 ## **Recommended steps**
 Try the following steps to diagnose and mitigate VM performance issues.
 
-1. Verify connectivity to inputs and outputs by using the “Test Connection” button for each of the inputs and outputs. 
-2. Use “Service Bus Explorer” to connect to Azure EventHub (if EventHub input is used) to verify that input data is flowing into EventHub.
-3. Use the “Sample Data” button for each of the inputs and download the input sample data. 
+1. Verify connectivity to inputs and outputs by using the "Test Connection" button for each of the inputs and outputs. 
+2. Use "Service Bus Explorer" to connect to Azure EventHub (if EventHub input is used) to verify that input data is flowing into EventHub.
+3. Use the "Sample Data" button for each of the inputs and download the input sample data. 
 4. Inspect the sample data to understand the shape of the data: the schema, and the data types. 
-5. On the Query tab, use the “Test” button to test the query and use the sample data downloaded to test the query. Examine any errors and attempt to remediate them.
+5. On the Query tab, use the "Test" button to test the query and use the sample data downloaded to test the query. Examine any errors and attempt to remediate them.
 6. If Timestamp By is used, make sure the events have timestamps greater than the job start time. 
 7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using WITH clause to build up the query logic, step by step. It's is possible that their query is functioning just fine but for example, a where clause in the query filtered out their events that prevented outputs from being generated. 
-8. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser verses running the job for real. 
+8. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the "Test" button is used to test the query. This is a difference between testing in browser verses running the job for real. 
 9. Start the Job and check if the job works as desired.  
-10. Once the job status changes to “Running”, depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
+10. Once the job status changes to "Running", depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
 11. If no output is obtained after the expected duration (based on the query), try the following: <br>
     * a. Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. <br>
     * b. Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. <br>
@@ -36,15 +36,15 @@ Try the following steps to diagnose and mitigate VM performance issues.
             * Job may not be able to deserialize the events. <br>
             * Events schema may not match the defined/expected schema of the events in the query. <br> 
             * DataType of some of the fields in the Event may not be what is expected. Test with sample data to confirm working. <br>
-        * If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on “Failed” status to find all these errors. <br>
+        * If Runtime Errors > 0, means that the ASA Job is able to receive the data but is getting errors while processing the query. Go to the Operation Logs and filter on "Failed" status to find all these errors. <br>
         * If InputEvents > 0 and OutputEvents = 0, means one of the following: <br>
             * Query processing resulted in zero output events. <br>
             * Events or its fields may be malformed, so resulted in zero output after query processing. 3. Unable to push data to Output Sink for connectivity/authentication reasons. <br>
-        * In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads “Errors are happening too rapidly, these are being suppressed”. <br> 
+        * In all these error cases, Operations Log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads "Errors are happening too rapidly, these are being suppressed". <br> 
 
 When outputs going to a specific output type are not seen, redirect the output to different output type that is less complex (such as Azure Blobs) and check if the output can be seen up there (using Storage Explorer). 
 
-If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the “Job diagram” button in the “Settings” blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
+If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
 Every input and output is color coded to indicate the current state of that component.  
 
@@ -97,5 +97,5 @@ _To open a Microsoft Support case_
 
 If you are still not able to figure out what is going on, then go to operations log, select one of the latest entries and click Details button at the bottom of the screen and copy all the details on that page and use that info to supply to Microsoft Support. 
 
-Additionally, if possible include sample data from a time when the job was expected to produce output.  
+Additionally, if possible, include sample data from a time when the job was expected to produce output.  
 
