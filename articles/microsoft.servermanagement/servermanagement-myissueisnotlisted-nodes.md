@@ -13,8 +13,10 @@
 />
 
 # My issue is not listed
+
 ##
-Please reach out to us if you have questions or feedback on Server management tools!<br>
+Please reach out to us if you have questions or feedback on Server management tools!
+
 * Send feature requests and bug reports to [UserVoice](https://aka.ms/smt-engage)
 * Connect with [@servermgmt](https://twitter.com/servermgmt) on Twitter and send us comments or questions
 * Visit our [blog](https://aka.ms/smt-blog) for news, updates and documentation
