@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My role is busy or recycling
+# My role is Busy or Recycling
 A role instance may loop between **Started**, **Initializing**, **Busy**, and **Stopped**. This condition could indicate a problem with your application code, package, or configuration file. <br>
 
 ## **Recommended steps**

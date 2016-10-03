@@ -19,4 +19,4 @@ Autoscale requires monitoring data from the role instances in order to scale. At
 2. Set your scaling **TimeWindow** (duration) to 30 minutes or higher.
 
 ## **Recommended documents**
-[About lack of monitoring data] (https://social.msdn.microsoft.com/Forums/azure/en-US/bc2048c4-8d49-4c54-b150-f263808c4b7a/notification-could-not-automatically-scale-xxx-because-monitoring-data-was-not-found?forum=windowsazuremanagement) <br>
+[About lack of monitoring data] (https://social.msdn.microsoft.com/Forums/azure/bc2048c4-8d49-4c54-b150-f263808c4b7a/notification-could-not-automatically-scale-xxx-because-monitoring-data-was-not-found?forum=windowsazuremanagement) <br>

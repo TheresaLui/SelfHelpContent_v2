@@ -25,6 +25,6 @@ This can determine if there are any application bottlenecks causing performance 
 These programs capture memory dumps and give pointers to where the problem might be in the application.
 
 ## **Recommended documents**
-[Troubleshoot using performance-analysis tool to isolate CPU- and memory-related performance issues](https://channel9.msdn.com/Series/PerfView-Tutorial)<br>
+[Troubleshoot using analysis tool to isolate CPU- and memory-related issues](https://channel9.msdn.com/Series/PerfView-Tutorial)<br>
 [Use Perfview to collect and analyze data for performance bottlenecks](http://www.microsoft.com/download/details.aspx?id=28567)<br>
-[Use the Debug Diagnostics tool to troubleshoot a process that has stopped responding](https://support.microsoft.com/kb/919792)
+[Use Debug Diagnostics to troubleshoot a process that has stopped responding](https://support.microsoft.com/kb/919792)

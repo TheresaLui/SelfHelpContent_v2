@@ -4,7 +4,7 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
-	displayOrder="6"
+	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
@@ -23,5 +23,5 @@ In this example, scaling will happen only when the average CPU value for *all* r
 This will cause scaling to happen more frequently. The default **TimeWindow/Duration** property is 30 minutes  (new portal) or 45 minutes (classic portal).
 
 ## **Recommended documents**
-[About autoscale best practices](https://azure.microsoft.com/en-us/documentation/articles/insights-autoscale-best-practices/) <br>
-[About scaling Cloud Services in Portal](https://azure.microsoft.com/en-us/documentation/articles/cloud-services-how-to-scale-portal/)
+[About autoscale best practices](https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/) <br>
+[About scaling Cloud Services in Portal](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale-portal/)

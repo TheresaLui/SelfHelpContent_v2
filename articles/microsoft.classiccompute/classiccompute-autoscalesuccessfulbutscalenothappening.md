@@ -4,7 +4,7 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="jluk"
-	displayOrder="7"
+	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	 
@@ -24,4 +24,4 @@ If your subscription has reached the maximum compute cores, you can increase the
     * Create a new host service and redeploy to it with the maximum instances needed. Scale down after the initial deployment if needed. Deploying with maximum instances ensures that the cluster has the capacity you may need. <br>
 
 ## **Recommended documents**
-[About Cloud Services allocation failures] (https://azure.microsoft.com/en-us/documentation/articles/cloud-services-allocation-failures/) <br>
+[About Cloud Services allocation failures] (https://azure.microsoft.com/documentation/articles/cloud-services-allocation-failures/) <br>
