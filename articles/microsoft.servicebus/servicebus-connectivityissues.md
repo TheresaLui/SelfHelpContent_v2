@@ -15,4 +15,4 @@
 # connectivity issues
 
 ## **Recommended documents**
-[Which Ports should I open for Service Bus communication?](https://msdn.microsoft.com/library/mt723402(Azure.100).aspx)
+[Which Ports should I open for Service Bus communication?](https://msdn.microsoft.com/library/mt723402.aspx)

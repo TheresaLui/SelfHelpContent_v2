@@ -1,15 +1,15 @@
 <properties
-	pageTitle="MANDATORY_title_of_your_solution"
-	description="MANDATORY_any_description"
-	service="MANDATORY_service_name"
-	resource="MANDATORY_resource_type"
-	authors="MANDATORY_who_wrote_the_document"
-	displayOrder="MANDATORY_order_to_display_in_list"
-	selfHelpType="MANDATORY_generic_or_resource"
+	pageTitle="This is the title of my solution"
+	description="This is the title of my solution"
+	service="Microsoft.serviceName"
+	resource="resourceName"
+	authors="githubName"
+	displayOrder="1"
+	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="optional"
 	productPesIds=""
-	cloudEnvironments="MANDATORY_clouds"
+	cloudEnvironments="public"
 />
 
 # This is the title of my solution

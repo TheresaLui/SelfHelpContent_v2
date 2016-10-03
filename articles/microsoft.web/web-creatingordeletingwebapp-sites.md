@@ -15,7 +15,9 @@
 # configuration and management/creating or deleting web app
 
 ## **Recommended steps**
-If you are unable to delete your App Service Plan please check if there are resources associated with the App Service Plan you are trying to delete.  Remove all the associated entities from the plan and this should allow you to delete. Another common issue is experiencing a “Provisioning failed” error while trying to create a web site with a name that had been previously deleted. Please follow the steps below to resolve the problem:
+If you are unable to delete your App Service Plan please check if there are resources associated with the App Service Plan you are trying to delete. Remove all the associated entities from the plan and this should allow you to delete.
+
+Another common issue is experiencing a 'Provisioning Failed' error while trying to create a web site with a name that had been previously deleted. Please follow the steps below to resolve the problem:
 
 1. Connect to the new portal (portal.azure.com) with the Subscription ID where you created the web site originally.
 2. Create a web site with the exact name that you are trying to create. This will connect a new website with the previously deleted site.
