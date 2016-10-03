@@ -3,7 +3,7 @@
     description="I have a question regarding billing for machine learning web service"
     service="microsoft.machinelearning"
     resource="webServices"
-    authors="jajan"
+    authors="jajan17"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
