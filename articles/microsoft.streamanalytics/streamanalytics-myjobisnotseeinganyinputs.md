@@ -34,6 +34,8 @@
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
+![Select the job diagram](Images\SelectDiagram.png)
+
 Every input and output is color coded to indicate the current state of that component.  
 
 To look at intermediate query steps to understand the data flow patterns inside stream analytics, the visualization tool provides a view of the breakdown of the query into its component steps and the flow sequence. Each logical node shows the number of partitions it has.  
