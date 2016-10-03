@@ -35,7 +35,9 @@ For example, in `Select count(*) from input group by clustered, tumblingwindow (
 In order to ameliorate issues caused by high carnality, scale out query by increasing partitions using the Partition By as shown: 
 
 ~~~~
-Select count(*) from input partition by clusterid group by clustered tumblingwindow (minutes, 5)
+Select count(*) from input 
+partition by clusterid 
+group by clustered tumblingwindow (minutes, 5)
 ~~~~
 the number of `clustered` 
 
