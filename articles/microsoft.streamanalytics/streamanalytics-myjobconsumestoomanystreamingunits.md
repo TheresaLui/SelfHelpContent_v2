@@ -18,7 +18,7 @@ Streaming units (SUs) represent the computing resources consumed to execute an A
 
 Choosing how many SUs are required for a particular job is depends on the on the partition configuration for the inputs and the query defined for the job. The Scale blade allows the setting of the right amount of Scale Units needed.  
 
-It is a best practice to allocate more Streaming Units than needed. The ASA processing engine optimizes for latency and throughput at the cost of using additional memory. [More about Scalability and configuring your job to scale](https://azure.microsoft.com/en-us/documentation/articles/stream-analytics-scale-jobs/) 
+It is a best practice to allocate more Streaming Units than needed. The ASA processing engine optimizes for latency and throughput at the cost of using additional memory. [More about Scalability and configuring your job to scale](https://azure.microsoft.com/documentation/articles/stream-analytics-scale-jobs/) 
 
 In general, it is a best practice to start with 6 Streaming Units for queries not using PARTITION BY, and determine the sweet-spot using a trial and error method by suitably modifying the number of streaming units after passing representative amounts of data and examining the SU %Utilization metric. 
 
@@ -30,11 +30,14 @@ _1) High cardinality for Group By_
 
 The cardinality of incoming events dictates memory usage for the job. 
 
-For example, in Select count(*) from input group by clustered, tumblingwindow (minutes, 5) the number associated with clustered is the cardinality of the query. 
+For example, in `Select count(*) from input group by clustered, tumblingwindow (minutes, 5)` the number associated with clustered is the cardinality of the query. 
 
 In order to ameliorate issues caused by high carnality, scale out query by increasing partitions using the Partition By as shown: 
 
-Select count(*) from input partition by clusterid group by clustered tumblingwindow (minutes, 5) the number of clustered 
+~~~~
+Select count(*) from input partition by clusterid group by clustered tumblingwindow (minutes, 5)
+~~~~
+the number of `clustered` 
 
 Once the query is partitioned out, it is spread out over multiple nodes. As a result, the number of events coming into each node is reduced thereby reducing the size of the reorder buffer.  
 
@@ -42,7 +45,12 @@ Eventhub partitions should be partitioned by partitionid.
 
 _2) High unmatched event count for Join_
 
-The number of unmatched events in the join affect the memory unitization for the query. The following query is looking to find the ad impressions that generate clicks: SELECT id from clicks INNER JOIN, impressions on impressions.id = clicks.id AND datediff(hour, impressions, clicks) between 0 AND 10 
+The number of unmatched events in the join affect the memory unitization for the query. The following query is looking to find the ad impressions that generate clicks: 
+
+~~~~
+SELECT id from clicks INNER JOIN,
+impressions on impressions.id = clicks.id AND datediff(hour, impressions, clicks) between 0 AND 10
+~~~~
 
 It is possible that lots of ads are shown and few people click on it and it is required to keep all the events in the timewindow. Memory consumed is proportional to the window size and event rate. 
 

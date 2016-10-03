@@ -22,7 +22,7 @@ Try the following steps to diagnose and mitigate VM performance issues.
 4. Inspect the sample data to understand the shape of the data: the schema, and the data types. 
 5. On the Query tab, use the "Test" button to test the query and use the sample data downloaded to test the query. Examine any errors and attempt to remediate them.
 6. If Timestamp By is used, make sure the events have timestamps greater than the job start time. 
-7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using WITH clause to build up the query logic, step by step. It's is possible that their query is functioning just fine but for example, a where clause in the query filtered out their events that prevented outputs from being generated. 
+7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using `WITH` clause to build up the query logic, step by step. It's is possible that their query is functioning just fine but for example, a where clause in the query filtered out their events that prevented outputs from being generated. 
 8. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the "Test" button is used to test the query. This is a difference between testing in browser verses running the job for real. 
 9. Start the Job and check if the job works as desired.  
 10. Once the job status changes to "Running", depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
