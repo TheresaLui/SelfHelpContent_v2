@@ -13,6 +13,27 @@
 />
 
 # app service environment
+## **Recommended steps**
+<b>In an App Service Environment (ASE) why can I only create one App Service Plan (ASP) even though I have 2 workers available?</b><br>
+In order to provide fault tolerance, an App Service Environment (ASE) requires that for each worker pool you have at least one additional compute resource allocated.<br>
+Please review the following article for more information:
+[Configuring ASE - Fault-tolerance considerations](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-configure-an-app-service-environment/)
+
+<b>ASE creation timing out</b><br>
+Sometimes creating an App Service Environment (ASE) will fail with the following error in the Activity logs:<br>
+    <i>ResourceID: /subscriptions/{SubscriptionID}/resourceGroups/Default-Networking/providers/Microsoft.Web/hostingEnvironments/{ASEname}<br>
+    Error:{"error":{"code":"ResourceDeploymentFailure","message":"The resource provision operation did not complete within the allowed timeout period.”}}</i><br>
+
+Make sure that NONE of the following are true:<br>
+    1. Subnet is too small <br>
+    2. Subnet is not empty <br>
+    3. ExpressRoute not allowing network connectivity requirements of an ASE <br>
+    4. Bad Network Security Group (NSG) not allowing network connectivity requirements of an ASE <br>
+    5. Forced Tunneling enabled <br>
+
+For more information, please review: <br>
+[How to Create an App Service Environment](https://azure.microsoft.com/documentation/articles/app-service-web-how-to-create-an-app-service-environment/#Overview) <br>
+[Most frequent issues when deploying (creating) a new Azure App Service Environment (ASE)](https://blogs.msdn.microsoft.com/waws/2016/05/13/most-frequent-issues-when-deploying-creating-a-new-azure-app-service-environment-ase/)
 
 ## **Recommended documents**
 [What is an App Service Environment?](https://azure.microsoft.com/documentation/articles/app-service-app-service-environment-intro/)<br>
