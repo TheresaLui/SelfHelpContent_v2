@@ -17,12 +17,14 @@
 <b>In an App Service Environment (ASE) why can I only create one App Service Plan (ASP) even though I have 2 workers available?</b><br>
 In order to provide fault tolerance, an App Service Environment (ASE) requires that for each worker pool you have at least one additional compute resource allocated.<br>
 Please review the following article for more information:
-[Configuring ASE - Fault-tolerance considerations](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-configure-an-app-service-environment/)
+[Configuring ASE - Fault-tolerance considerations](https://azure.microsoft.com/documentation/articles/app-service-web-configure-an-app-service-environment/)
 
 <b>ASE creation timing out</b><br>
 Sometimes creating an App Service Environment (ASE) will fail with the following error in the Activity logs:<br>
-    <i>ResourceID: /subscriptions/{SubscriptionID}/resourceGroups/Default-Networking/providers/Microsoft.Web/hostingEnvironments/{ASEname}<br>
-    Error:{"error":{"code":"ResourceDeploymentFailure","message":"The resource provision operation did not complete within the allowed timeout period.”}}</i><br>
+ 
+    ResourceID: /subscriptions/{SubscriptionID}/resourceGroups/Default-Networking/providers/Microsoft.Web/hostingEnvironments/{ASEname}<br>
+    Error:{"error":{"code":"ResourceDeploymentFailure","message":"The resource provision operation did not complete within the allowed timeout period."}}<br>
+
 
 Make sure that NONE of the following are true:<br>
     1. Subnet is too small <br>
