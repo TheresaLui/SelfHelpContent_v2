@@ -22,8 +22,8 @@ Please review the following article for more information:
 <b>ASE creation timing out</b><br>
 Sometimes creating an App Service Environment (ASE) will fail with the following error in the Activity logs:<br>
  
-    ResourceID: /subscriptions/{SubscriptionID}/resourceGroups/Default-Networking/providers/Microsoft.Web/hostingEnvironments/{ASEname}<br>
-    Error:{"error":{"code":"ResourceDeploymentFailure","message":"The resource provision operation did not complete within the allowed timeout period."}}<br>
+    ResourceID: /subscriptions/{SubscriptionID}/resourceGroups/Default-Networking/providers/Microsoft.Web/hostingEnvironments/{ASEname}
+    Error:{"error":{"code":"ResourceDeploymentFailure","message":"The resource provision operation did not complete within the allowed timeout period."}}
 
 
 Make sure that NONE of the following are true:<br>
