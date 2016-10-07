@@ -3,7 +3,7 @@
 	description="My issue is not listed"
 	service="microsoft.servermanagement"
 	resource="gateways"
-	authors="jol"
+	authors="danielleemsft"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
