@@ -34,7 +34,7 @@
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
-![Select the job diagram](Images\SelectDiagram.png)
+<img src="Images/SelectDiagram.png" alt="Select the job diagram" />
 
 Every input and output is color coded to indicate the current state of that component. 
 
