@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Backup of Windows VM fails with 'Could not communicate with the VM agent for snapshot status'"
+	pageTitle="Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'"
 	description="Windows VM Snapshot issues"
 	service="microsoft.recoveryservices"
 	resource="vaults"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Backup of Windows VM fails with 'Could not communicate with the VM agent for snapshot status'
+# Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'
 
 ## **Recommended steps**
 To resolve common isuess, try one or more of the following steps.
