@@ -1,18 +1,18 @@
 <properties
-	pageTitle="I can't delete my storage account"
-	description="I can't delete my storage account"
+	pageTitle="I can't delete my storage containers or VHDs"
+	description="I can't delete my storage containers or VHDs"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32551656"
+	supportTopicIds="32551657"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
-# I can't delete my storage account
+# I can't delete my storage containers or VHDs
 
 ## **Recommended steps**
 You might receive errors when you try to delete the Azure storage account, container, or VHD in the Azure portal or the Azure classic portal. The issues can be caused by the following circumstances:
