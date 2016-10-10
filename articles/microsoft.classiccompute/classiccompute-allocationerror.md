@@ -15,14 +15,14 @@
 # My deployment fails with allocation errors
 
 ## **Recommended steps**
-Your Cloud Service deployment (Staging or Production) can get pinned to a single cluster. When the cluster reaches its capacity, deployments will fail. Try the following steps.
+Your Cloud Service deployment (Staging or Production) can get pinned to a single cluster. Deployments fail when when the cluster reaches its capacity. Try the following steps:
 
 1. Wait and retry the deployment operation.<br>
 Resources may be freed up on the cluster after waiting that allow the deployment or scaling request to succeed.   
 2. Deploy your package to a new cloud service.<br>
-Deploying to a new cloud service will often go on a new cluster with enough capacity. If successful, update the DNS to point to the new cloud service. 
+Deploying to a new cloud service often goes on a new cluster with enough capacity. If successful, update the DNS to point to the new cloud service. 
 3. Delete both production and staging slots and redeploy to the existing cloud service.<br>
-The new deployment will go to a cluster that has enough capacity. However, this incurs downtime until the new deployment is ready. 
+The new deployment goes to a cluster that has enough capacity. However, redeploying incurs downtime until the new deployment is ready. 
 4. Remove the affinity group and [migrate to a Regional Virtual Network] (https://azure.microsoft.com/documentation/articles/virtual-networks-migrate-to-regional-vnet/)
  
 ## **Recommended documents**

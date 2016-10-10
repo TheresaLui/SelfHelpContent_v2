@@ -26,7 +26,7 @@ A role instance may loop between **Started**, **Initializing**, **Busy**, and **
   * [Failure to cleanup/delete file causing Role Recycle] (https://blogs.msdn.microsoft.com/kwill/2013/09/23/troubleshooting-scenario-6-role-recycling-after-running-for-some-time/) <br>
   * [Role returns from Run method when it should block indefinitely] (https://msdn.microsoft.com/library/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) <br>
 
-Refer to documentation below for more information on how to troubleshoot these types of problems. <br>
+For more information on how to troubleshoot these types of problems, see the following links:<br>
 
 ## **Recommended documents**
 [Azure PaaS Compute Diagnostics Data](http://blogs.msdn.com/b/kwill/archive/2013/08/09/windows-azure-paas-compute-diagnostics-data.aspx) <br>
