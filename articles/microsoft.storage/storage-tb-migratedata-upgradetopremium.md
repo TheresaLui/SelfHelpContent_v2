@@ -15,4 +15,4 @@
 # Migrating to Azure Premium Storage
 
 ## **Recommended documents**
-[Migrating to Azure Premium Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-migration-to-premium-storage/)
+[Migrating to Azure Premium Storage](https://azure.microsoft.com/documentation/articles/storage-migration-to-premium-storage/)
