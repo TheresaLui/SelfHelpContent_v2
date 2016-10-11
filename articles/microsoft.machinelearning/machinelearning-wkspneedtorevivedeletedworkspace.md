@@ -3,7 +3,7 @@
     description="I need to revive a workspace I accidentally deleted"
     service="microsoft.machinelearning"
     resource="workspaces"
-    authors="jajan"
+    authors="jajan17"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""

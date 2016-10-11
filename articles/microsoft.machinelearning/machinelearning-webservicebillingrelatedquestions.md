@@ -1,8 +1,8 @@
 <properties 
-    pageTitle="I have a question regarding billing for machine learning web service plans"
-    description="I have a question regarding billing for machine learning web service plans"
+    pageTitle="I have a question regarding billing for machine learning web services"
+    description="I have a question regarding billing for machine learning web service"
     service="microsoft.machinelearning"
-    resource="commitmentPlans"
+    resource="webServices"
     authors="jajan17"
     displayOrder="1"
     selfHelpType="resource"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# I have a question regarding billing for machine learning web service plans
+# I have a question regarding billing for machine learning web services
 
 ## **Recommended documents**
 [Machine Learning pricing details](http://go.microsoft.com/fwlink/?LinkId=824637)
