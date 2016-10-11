@@ -26,5 +26,5 @@ If a manual scale succeeds, it may indicate that the autoscale profile is config
 Deploying with maximum instances ensures the cluster has the capacity you may require. <br>
 
 ## **Recommended documents**
-[About autoscale best practices] (https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/#autoscale-best-practices)
+[About autoscale best practices] (https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/#autoscale-best-practices) <br>
 [About Cloud Services allocation failures] (https://azure.microsoft.com/documentation/articles/cloud-services-allocation-failures/) <br>
