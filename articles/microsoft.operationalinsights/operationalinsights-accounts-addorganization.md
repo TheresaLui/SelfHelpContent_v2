@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts-addorganization"
-    description="32536515"
+    description="Problems related to accounts add organization"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536515"

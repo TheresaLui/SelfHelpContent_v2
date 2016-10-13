@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts"
-    description="32536469"
+    description="Problems related to accounts"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536469"

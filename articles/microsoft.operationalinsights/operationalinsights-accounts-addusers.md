@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts-addusers"
-    description="32536516"
+    description="Problems related to accounts add users"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536516"

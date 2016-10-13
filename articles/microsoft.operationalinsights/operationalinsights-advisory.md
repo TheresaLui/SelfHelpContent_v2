@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="advisory"
-    description="32536472"
+    description="Problems related to advisory"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536472"

@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adassessment-setup"
-    description="32536653"
+    description="Problems related to ad assessment setup"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536653"

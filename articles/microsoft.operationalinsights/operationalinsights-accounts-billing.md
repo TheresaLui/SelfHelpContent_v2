@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts-billing"
-    description="32536517"
+    description="Problems related to accounts billing"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536517"

@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adreplicationstatus"
-    description="32536471"
+    description="Problems related to ad replication status"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536471"

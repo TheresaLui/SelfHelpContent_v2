@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adassessment-unexpectedresults"
-    description="32536680"
+    description="Problems related to ad assessment unexpected results"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536680"

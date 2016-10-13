@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adassessment-error"
-    description="32536529"
+    description="Problems related to ad assessment error"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536529"

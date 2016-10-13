@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adassessment-other"
-    description="32536581"
+    description="Problems related to ad assessment other"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536581"

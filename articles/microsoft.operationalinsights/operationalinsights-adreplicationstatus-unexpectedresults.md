@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="adreplicationstatus-unexpectedresults"
-    description="32536681"
+    description="Problems related to ad replication status unexpected results"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536681"

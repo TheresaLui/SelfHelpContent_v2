@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts-addadministrators"
-    description="32536513"
+    description="Problems related to accounts add administrators"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536513"

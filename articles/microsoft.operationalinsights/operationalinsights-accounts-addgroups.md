@@ -1,10 +1,10 @@
 
 <properties
     pageTitle="accounts-addgroups"
-    description="32536514"
+    description="Problems related to accounts add groups"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32536514"
