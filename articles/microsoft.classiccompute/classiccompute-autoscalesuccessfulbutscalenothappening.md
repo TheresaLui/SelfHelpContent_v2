@@ -21,7 +21,7 @@ Autoscale only happens if all roles are in Ready state. <br>
 * Try to scale manually.<br>
 If a manual scale succeeds, it may indicate that the autoscale profile is configured incorrectly. Multiple autoscale profiles can affect the behavior of autoscale. [Creating and managing autoscale profiles] (https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/#autoscale-concepts) should be done from the same portal as each portal has unique default autoscale profiles. <br>
 * Try to scale in smaller increments as the cluster where your application is deployed may not have enough free cores. <br>
-* Increase the subscription quota limit by [contacting Microsoft] (data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) as autosacle cannot succeed without sufficient compute quota. <br>
+* Increase the subscription quota limit by [contacting Microsoft] (data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) as autoscale cannot succeed without sufficient compute quota. <br>
 * Create a host service and redeploy to it with the maximum instances needed. Scale down afterwards if needed. <br>
 Deploying with maximum instances ensures the cluster has the capacity you may require. <br>
 

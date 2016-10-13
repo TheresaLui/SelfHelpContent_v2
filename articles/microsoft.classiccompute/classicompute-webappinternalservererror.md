@@ -13,9 +13,9 @@
 />
 
 # My web application shows Internal Server Error or Service Unavailable (50x)
+These errors are treated as application errors, so you should troubleshoot them like any on premise hosted application.  
 
 ## **Recommended steps**
-These errors are treated as application errors, so you should troubleshoot them like any on premise hosted application.  
 
 1.	Remote into the instances and check that you can access the web application locally. <br> 
 By checking locally, you can investigate and determine if the issue is only encountered on some, or all, of the instances.

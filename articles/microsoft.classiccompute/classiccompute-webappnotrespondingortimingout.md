@@ -22,4 +22,4 @@ If the **w3wp.exe** process does not show in Task Manager, go to [IIS Manager] (
 3.	Check the http response code you get in the browser. <br>
 **50x** errors are application-related issues, refer to the troubleshooting blade.
 4.	Check that the default ports **80** (for http) and **443** (for https) are accessible. Use **TELNET** or **TCPING** to ensure that the **w3wp.exe** process is listening on it. <br>
-If your web application is accessible locally but not externally, it could be a network-related issue. 
+If your web application is accessible locally but not externally, it could be a network-related issue. <br>

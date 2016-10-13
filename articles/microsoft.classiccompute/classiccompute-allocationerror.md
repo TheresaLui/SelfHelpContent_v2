@@ -13,9 +13,9 @@
 />
 
 # My deployment fails with allocation errors
+Your Cloud Service deployment (Staging or Production) can get pinned to a single cluster. Deployments fail when the cluster reaches its capacity. Try the following steps:
 
 ## **Recommended steps**
-Your Cloud Service deployment (Staging or Production) can get pinned to a single cluster. Deployments fail when the cluster reaches its capacity. Try the following steps:
 
 1. Wait and retry the deployment operation.<br>
 Resources may be freed up on the cluster after waiting that allow the deployment or scaling request to succeed.   
