@@ -1,12 +1,12 @@
 ﻿<properties
-	pageTitle="Site Recovery (VMware to Azure)/Enable Protection"
-	description="Site Recovery (VMware to Azure)/Common issues during Enable Protection"
+	pageTitle="Site Recovery (VMware to Azure)/Add vCenter"
+	description="Site Recovery (VMware to Azure)/Common issues during add vCenter"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="asgang"
+	authors="anoopkv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32536405"
+	supportTopicIds="32536386"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -30,7 +30,7 @@ Common issues during Add vCenter
  - Higher/Lower version of PowerCLI are not supported.
  - You can download PowerCLI 6.0 from https://developercenter.vmware.com/tool/vsphere_powercli/6.0
 
-* Ensure that the virtual hard disks(VMDK)of each virtual machine is stored in a separate sub-directory. The directory should have the **same name** as of the virtual machine. 
+* Ensure that the virtual hard disks(VMDK)of each virtual machine is stored in a separate sub-directory. The directory should have the **same name** as of the virtual machine.
 
 
 ## **Recommended  Documents**
