@@ -3,7 +3,7 @@
 	description="Site Recovery (VMM to Azure)/Not able to conect to VM after failover"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="pratshar"
+	authors="prateek9us"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536424"

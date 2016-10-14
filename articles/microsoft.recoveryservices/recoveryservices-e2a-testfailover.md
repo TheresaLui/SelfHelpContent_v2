@@ -3,7 +3,7 @@
 	description="Site Recovery (VMM to Azure)/Failover: Test failover"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="pratshar"
+	authors="prateek9us"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536461"
