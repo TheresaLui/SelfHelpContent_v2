@@ -4,10 +4,10 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
-	displayOrder="1"
+	displayOrder=""
 	selfHelpType="resource"
-	supportTopicIds="32551680"
-	resourceTags=""
+	supportTopicIds="32551680,32551672"
+	resourceTags="premium,migrate,migration"
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
