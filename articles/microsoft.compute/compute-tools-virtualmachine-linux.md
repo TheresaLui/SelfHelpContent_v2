@@ -2,7 +2,7 @@
 	pageTitle="tools for microsoft.compute linux virtual machines"
 	description="tools for microsoft.compute linux virtual machines"
 	service="microsoft.compute"
-	resource="virtualmachine"
+	resource="virtualmachines"
 	authors="tabrezm"
 	displayOrder=""
 	selfHelpType="tools"
