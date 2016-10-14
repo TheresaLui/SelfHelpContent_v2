@@ -27,5 +27,5 @@ Do you have baseline metrics? The performance of an application can be subjectiv
 For an in-depth look at troubleshooting performance issues, see the Performance section of the article [**Monitor, diagnose, and troubleshoot Microsoft Azure Storage**](http://go.microsoft.com/fwlink/?LinkId=785091)
 
 ## **Recommended documents**
-[How to troubleshoot Storage performance issue?](http://go.microsoft.com/fwlink/?LinkId=785091)
+[How to troubleshoot Storage performance issue?](http://go.microsoft.com/fwlink/?LinkId=785091)<br>
 [What are the Storage account scalability limits?](http://go.microsoft.com/fwlink/?LinkId=785092)
