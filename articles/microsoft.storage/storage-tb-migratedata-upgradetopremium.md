@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32551680,32551672"
 	resourceTags="premium,migrate,migration"
 	productPesIds="15629"

@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32551651"
 	resourceTags="azcopy"
 	productPesIds="15629"

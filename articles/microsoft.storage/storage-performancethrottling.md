@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32551679"
 	resourceTags="throttling"
 	productPesIds="15629"

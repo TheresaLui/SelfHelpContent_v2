@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32551661"
 	resourceTags="import,export,import/export,shipping"
 	productPesIds="15629"

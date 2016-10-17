@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32551652"
 	resourceTags=""
 	productPesIds="15629"
