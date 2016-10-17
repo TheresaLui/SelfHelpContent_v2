@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551651"
-	resourceTags="azcopy"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />

@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551679"
-	resourceTags="throttling"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />

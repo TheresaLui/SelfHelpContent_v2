@@ -7,7 +7,7 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32551646,32551651,32551652,32551660,32551670"
-	resourceTags="move,migrate,azcopy,cli"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />

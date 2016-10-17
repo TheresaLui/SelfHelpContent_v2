@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551664"
-	resourceTags="latency"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />

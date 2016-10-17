@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551680,32551672"
-	resourceTags="premium,migrate,migration"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />

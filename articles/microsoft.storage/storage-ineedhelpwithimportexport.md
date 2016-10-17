@@ -7,7 +7,7 @@
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="import,export,import/export"
+	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
 />

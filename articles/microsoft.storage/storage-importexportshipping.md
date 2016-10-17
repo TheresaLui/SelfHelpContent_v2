@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32551661"
-	resourceTags="import,export,import/export,shipping"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
@@ -22,7 +22,7 @@ The Import/Export service only works with Blob storage. You can import any type 
 3. [How to create an export job](https://azure.microsoft.com/documentation/articles/storage-import-export-service/#how-to-create-an-export-job)
 4. [How can I obtain the correct Import/Export shipping status?](http://go.microsoft.com/fwlink/?LinkId=785090)
 5. [Questions? Check the FAQ](https://azure.microsoft.com/documentation/articles/storage-import-export-service/#frequently-asked-questions)
-6. [Import Export Job Management through REST API](https://azure.microsoft.com/en-us/documentation/samples/storage-dotnet-import-export-job-management/)
+6. [Import Export Job Management through REST API](https://azure.microsoft.com/documentation/samples/storage-dotnet-import-export-job-management/)
 
 
 ## **Recommended documents**

@@ -7,7 +7,7 @@
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32551671,32551647"
-	resourceTags="performance,slow"
+	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
