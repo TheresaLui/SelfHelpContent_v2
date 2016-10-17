@@ -3,7 +3,7 @@
 	description="worker role (paas)/configuration and management/application management"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553310"

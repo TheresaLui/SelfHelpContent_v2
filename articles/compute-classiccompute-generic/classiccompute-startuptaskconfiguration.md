@@ -3,7 +3,7 @@
 	description="worker role (paas)/configration and management/startup task configuration"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553318"

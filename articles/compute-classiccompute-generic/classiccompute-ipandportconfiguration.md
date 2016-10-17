@@ -3,7 +3,7 @@
 	description="worker role (paas)/configuration and management/ip and port configuration"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553312"

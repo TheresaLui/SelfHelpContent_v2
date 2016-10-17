@@ -3,7 +3,7 @@
 	description="worker role (paas)/configuration and management/scaling and managing"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553317"
