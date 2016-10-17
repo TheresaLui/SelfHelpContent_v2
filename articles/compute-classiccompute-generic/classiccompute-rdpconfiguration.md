@@ -3,7 +3,7 @@
 	description="worker role (paas)/configuration and management/rdp configuration"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="aashu"
+	authors="SelfHelpContentByChiragPa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553316"
@@ -15,6 +15,6 @@
 # worker role (paas)/configuration and management/rdp configuration
 
 ## **Recommended documents**
-[How to enable Remote Desktop Connection for a Role in Cloud Services?](https://azure.microsoft.com/en-us/documentation/articles/cloud-services-role-enable-remote-desktop/) <br>
-[How to troubleshoot RDP connection issues?](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-troubleshoot-rdp-connection/#troubleshoot-specific-remote-desktop-connection-errors) <br>
+[How to enable Remote Desktop Connection for a Role in Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-role-enable-remote-desktop/) <br>
+[How to troubleshoot RDP connection issues?](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-troubleshoot-rdp-connection/#troubleshoot-specific-remote-desktop-connection-errors) <br>
 [How to Restrict RDP Access in an Azure PaaS Cloud Service?](https://blogs.msdn.microsoft.com/kwill/2014/12/16/how-to-restrict-rdp-access-in-an-azure-paas-cloud-service/)
