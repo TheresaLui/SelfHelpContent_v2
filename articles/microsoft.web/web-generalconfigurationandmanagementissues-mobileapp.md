@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32440111"
 	resourceTags="mobileapp"
-	productPesIds="15046"
+	productPesIds="15046, 16170"
 	cloudEnvironments="public"
 />
 
