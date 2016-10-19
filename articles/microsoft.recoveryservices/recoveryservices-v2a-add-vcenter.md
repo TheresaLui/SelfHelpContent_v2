@@ -3,7 +3,7 @@
 	description="Site Recovery (VMware to Azure)/Common issues during add vCenter"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="anoopkv83"
+	authors="AnoopVasudavan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536386"
