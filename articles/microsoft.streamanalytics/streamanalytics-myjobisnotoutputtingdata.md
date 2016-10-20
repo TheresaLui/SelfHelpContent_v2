@@ -14,7 +14,6 @@
 # My job is not outputting data
 
 ## **Recommended steps**
-Try the following steps to diagnose and mitigate VM performance issues.
 
 1. Verify connectivity to inputs and outputs by using the "Test Connection" button for each of the inputs and outputs. 
 2. Use "Service Bus Explorer" to connect to Azure EventHub (if EventHub input is used) to verify that input data is flowing into EventHub.
