@@ -47,35 +47,19 @@ When outputs going to a specific output type are not seen, redirect the output t
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
-![Select the job diagram](Images/SelectDiagram.png)
-
 Every input and output is color coded to indicate the current state of that component. 
-
-![Job diagram](Images/JobDiagram.png)  
 
 To look at intermediate query steps to understand the data flow patterns inside stream analytics, the visualization tool provides a view of the breakdown of the query into its component steps and the flow sequence. Each logical node shows the number of partitions it has.  
 
-![Job diagram query](Images/JobDiagramQuery.png)
-
 Clicking on each query step will show the corresponding section in a query editing pane as illustrated. A metrics chart for the step is also displayed in a lower pane. 
-
-![Job metrics chart](Images/JobDiagramMetrics.png)
 
 Clicking the … will pop up the context menu allowing the expansion of partitions showing the partitions of the Event Hub input in addition to the input merger. 
 
-![Expand partitions in job diagram](Images/ExpandDiagram.png)
-
 Clicking a single partition node will show the metrics chart only for that partition on the bottom. 
-
-![Metrics for expanded partitions](Images/JobDiagramExpandedMetrics.png) 
 
 Selecting the merger node will show the metrics chart for the merger. The chart below shows that no events got dropped or adjusted. 
 
-![Select merger in job diagram](Images/JobDiagramMerger.png) 
-
 Additionally, hovering on the chart will show details of the metric value and time.
-
-![Metric details](Images/JobDiagramMetricDetails.png)
 
 In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
