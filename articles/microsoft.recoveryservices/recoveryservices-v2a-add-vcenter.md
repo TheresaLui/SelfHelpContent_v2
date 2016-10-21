@@ -20,7 +20,7 @@ Common issues during Add vCenter
 
 * Ensure you have added an account in the **CSPSConfigtool.exe** to connect to the **VMware vCenter**.
 
-* Ensure that the account used to connect to the vCenter meets the following requirements[vCenter Account prerequisites] (http://aka.ms/vCenterAccountPrereq). Below are  steps to check if the account has sufficient privileges
+* Ensure that the account used to connect to the vCenter meets the following requirements [vCenter Account prerequisites](http://aka.ms/vCenterAccountPrereq). Below are  steps to check if the account has sufficient privileges
  - Launch the VMWare PowerCLI as administrator
  - Connect to your vCenter using the same **Username** and **Password** you provided in the **CSPSConfigtool.exe**
  - Enumerate the all virtual machines using the Get-VM command
@@ -34,4 +34,4 @@ Common issues during Add vCenter
 
 
 ## **Recommended  Documents**
-[VMware to Azure](aka.ms/asrstv2a)
+[VMware to Azure](https://aka.ms/asrstv2a)
