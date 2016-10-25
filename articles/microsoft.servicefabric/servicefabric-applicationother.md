@@ -3,7 +3,7 @@
 	description="application/other"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="aashu"
+	authors="cts-shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32449690"

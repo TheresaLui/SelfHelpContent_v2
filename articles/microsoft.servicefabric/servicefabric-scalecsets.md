@@ -3,7 +3,7 @@
 	description="cluster/scalesets"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="shrahman"
+	authors="cts-shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518065"

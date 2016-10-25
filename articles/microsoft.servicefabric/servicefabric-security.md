@@ -3,7 +3,7 @@
 	description="cluster/security"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="aashu"
+	authors="cts-shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518066"
