@@ -3,7 +3,6 @@
 	description="My issue is not listed"
 	service="microsoft.analysisservices"
 	resource="servers"
-	documentationCenter=""
 	authors="ashameer"
 	resourceTags=""
 	selfHelpType="resource"

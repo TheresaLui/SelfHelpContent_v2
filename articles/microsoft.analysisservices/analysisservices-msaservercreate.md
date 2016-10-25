@@ -3,7 +3,6 @@
 	description="Creating a server using a Microsoft account"
 	service="microsoft.analysisservices"
 	resource="servers"
-	documentationCenter=""
 	authors="ashameer"
 	resourceTags=""
 	selfHelpType="resource"
