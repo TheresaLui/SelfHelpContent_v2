@@ -11,7 +11,7 @@
 	productPesIds=""
 	displayOrder=""
 	cloudEnvironments="public"
-    issuNotListed="true"
+	issueNotListed="true"
  />
 
 # My issue is not listed
