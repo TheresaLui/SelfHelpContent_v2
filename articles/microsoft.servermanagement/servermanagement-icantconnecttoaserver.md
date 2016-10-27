@@ -22,7 +22,7 @@ On the Server management tools connection blade, go to the Overview menu, check 
 * Is the target server a workgroup (non-domain joined) machine?<br>
 If yes, you will need to add the target server to the Trusted Hosts list on the gateway machine. On the gateway machine, run the following command in PowerShell or Command Prompt as Administrator. `TargetMachineNameOrAddress` should be the NetBIOS name, FQDN or IP address (IPv4 or IPv6) that you’ve used when creating the Server management tools connection in Azure (which is also the name displayed at the top of the blade). You can also add multiple machines by separating them with commas.<br>
 **Command Prompt:** `winrm set winrm/config/client @{TrustedHosts=”TargetMachineNameOrAddress”}`<br>
-**PowerShell:** `winrm set winrm/config/client ‘@{TrustedHosts=”TargetMachineNameOrAddress”}’`<br>
+**PowerShell:** `winrm set winrm/config/client '@{TrustedHosts="TargetMachineNameOrAddress"}'`<br>
 **NOTE:** The commands above will replace any existing list of trusted hosts with the host(s) you specify in the command. You can use the following command in PowerShell with the `Concatenate` parameter to add a computer name to an existing list of trusted hosts.<br>
 `Set-Item wsman:\localhost\Client\TrustedHosts TargetMachineNameOrAddress –Concatenate`
 * Are you connecting with a local user account?<br>
