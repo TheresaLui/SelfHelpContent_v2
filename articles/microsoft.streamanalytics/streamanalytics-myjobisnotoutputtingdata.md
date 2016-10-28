@@ -49,6 +49,8 @@ When outputs going to a specific output type are not seen, redirect the output t
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the “Job diagram” button in the “Settings” blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
+Learn about the job diagram [here.](https://aka.ms/job_diagram)
+
 In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
 **QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step is a query step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 

@@ -34,6 +34,8 @@
 
 If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
 
+Learn about the job diagram [here.](https://aka.ms/job_diagram)
+
 In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
 _1) How much data is actually being read?_ 
