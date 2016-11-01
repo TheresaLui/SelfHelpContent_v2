@@ -1,24 +1,24 @@
 
 <properties
     pageTitle="runbook development/start or stop vms: how-to issues"
-    description="32501564RunbookDevelopmentstar"
+    description="Problems related to runbook development/start or stop vms: how-to issues"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32501564"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Blackforest, Fairfax"
 />
 
-# runbook development/start or stop vms: how-to issues
+#runbook development/start or stop vms: how-to issues
 
 
 ## **Recommended documents**
-[How to Start/Stop VM]
-(https://azure.microsoft.com/documentation/articles/automation-solution-startstopvm-psworkflow/) <br>
+[Start/Stop VMs during off-hours]
+(https://azure.microsoft.com/documentation/articles/automation-solution-vm-management/) <br>
 [Authenticating to Azure Using Azure Active Directory]
 (https://azure.microsoft.com/blog/azure-automation-authenticating-to-azure-using-azure-active-directory/) <br>
 [Data to gather when opening a case for Microsoft Azure Automation]
