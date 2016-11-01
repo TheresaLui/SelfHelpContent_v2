@@ -1,7 +1,7 @@
 <properties 
 	pageTitle="How do I know if I have any active listeners?" 
 	description="How do I know if I have any active listeners?" 
-	service="microsoft.servicebus"
+	service="microsoft.relay"
 	resource="namespaces"
 	authors="jtaubensee"
 	displayOrder="3"

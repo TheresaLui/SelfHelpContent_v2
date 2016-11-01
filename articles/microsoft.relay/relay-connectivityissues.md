@@ -1,10 +1,10 @@
 <properties
 	pageTitle="connectivity issues"
 	description="connectivity issues"
-	service="microsoft.servicebus"
+	service="microsoft.relay"
 	resource="namespaces"
 	authors="jtaubensee"
-	displayOrder=""
+	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32421022"
 	resourceTags=""

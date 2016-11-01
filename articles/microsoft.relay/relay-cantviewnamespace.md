@@ -4,7 +4,7 @@
 	service="microsoft.relay"
 	resource="namespaces"
 	authors="jtaubensee"
-	displayOrder="3"
+	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	
