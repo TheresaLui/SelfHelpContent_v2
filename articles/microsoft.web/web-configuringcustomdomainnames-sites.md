@@ -13,6 +13,8 @@
 />
 
 # configuration and management/configuring custom domain names
+## **Recommended steps**
+Take a look at this [short video clip](https://channel9.msdn.com/blogs/Azure-App-Service-Self-Help/Add-a-Custom-Domain-Name) that shows you how to add a custom domain name so that you can use your own URL instead of the AzureWebSites.net URL with your Web App. 
 
 ## **Recommended documents**
 [Buy and Configure a custom domain name in Azure App Service](https://azure.microsoft.com/documentation/articles/custom-dns-web-site-buydomains-web-app/)<br>
