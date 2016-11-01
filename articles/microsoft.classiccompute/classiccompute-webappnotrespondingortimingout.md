@@ -17,7 +17,7 @@
 ## **Recommended steps**
 1.	Check the Cloud Service availability on Azure portal. <br>
 Ensure that all role instances are in a **Ready** state. If they are not, refer to the troubleshooting blade.
-2.	RDP into the role instance and check the application process (**w3wp.exe**) in Task Manager is running. <br>
+2.	RDP into the role instance and check the IIS process (**w3wp.exe**) in Task Manager is running. <br>
 If the **w3wp.exe** process does not show in Task Manager, go to [IIS Manager] ( https://technet.microsoft.com/library/jj635847.aspx ) and restart the application.
 3.	Check the http response code you get in the browser. <br>
 **50x** errors are application-related issues, refer to the troubleshooting blade.
