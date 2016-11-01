@@ -18,5 +18,5 @@
 * While in the portal, check your Relay resource to see if your listener count is at least 1 to indicate if you have an active listener.
 
 ## **Recommended documents**
-[Common Relay Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-relay/relay-exceptions)<br>
-[Frequently Asked Questions](https://azure.microsoft.com/documentation/articles/service-bus-relay/relay-faq)
+[Common Relay Exceptions](https://azure.microsoft.com/documentation/articles/relay-exceptions)<br>
+[Frequently Asked Questions](https://azure.microsoft.com/documentation/articles/relay-faq)
