@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity issues"
-	description="connectivity issues"
+	pageTitle="Connectivity issues"
+	description="Connectivity issues"
 	service="microsoft.relay"
 	resource="namespaces"
 	authors="jtaubensee"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# connectivity issues
+# Connectivity issues
 
 ## **Recommended documents**
 [Which Ports should I open for Relay communication?](https://msdn.microsoft.com/library/mt723402.aspx)
