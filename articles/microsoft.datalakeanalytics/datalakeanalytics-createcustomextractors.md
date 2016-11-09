@@ -15,6 +15,6 @@
 # How do I create a custom extractor?
 
 ## **Recommended documents**
-[Creating custom extractors with examples for JSON and XML](https://github.com/Azure/usql/tree/master/Examples/DataFormats/Microsoft.Analytics.Samples.Formats)
-[Optimized Nested JSON Extractor](https://github.com/Azure/usql/tree/master/Examples/JsonSample)
+[Creating custom extractors with examples for JSON and XML](https://github.com/Azure/usql/tree/master/Examples/DataFormats/Microsoft.Analytics.Samples.Formats)<br>
+[Optimized Nested JSON Extractor](https://github.com/Azure/usql/tree/master/Examples/JsonSample)<br>
 [More Custom UDO Examples for Extractors and Outputters](https://github.com/Azure/usql/tree/master/Examples/Builtin-UDOs)

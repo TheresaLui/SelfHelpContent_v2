@@ -15,6 +15,6 @@
 # How do I do a federated query from other sources such as SQL DB or SQL DW?
 
 ## **Recommended documents**
-[Full Example with U-SQL Scripts](https:/github.com/Azure/usql/tree/master/Examples/AmbulanceDemos/AmbulanceDemos/6-Ambulance-FederatedQuery)
-[Create Credentials](https://msdn.microsoft.com/library/azure/mt763303.aspx)
+[Full Example with U-SQL Scripts](https://github.com/Azure/usql/tree/master/Examples/AmbulanceDemos/AmbulanceDemos/6-Ambulance-FederatedQuery)<br>
+[Create Credentials](https://msdn.microsoft.com/library/azure/mt763303.aspx)<br>
 [Create Data Source](https://msdn.microsoft.com/library/azure/mt763307.aspx)

@@ -15,4 +15,4 @@
 # How do I set up diagnostic logging for my Data Lake Analytics account?
 
 ## **Recommended documents**
-[Accessing diagnostic logs for Azure Data Lake Analytics](https:/azure.microsoft.com/documentation/articles/data-lake-analytics-diagnostic-logs/)
+[Accessing diagnostic logs for Azure Data Lake Analytics](https://azure.microsoft.com/documentation/articles/data-lake-analytics-diagnostic-logs/)
