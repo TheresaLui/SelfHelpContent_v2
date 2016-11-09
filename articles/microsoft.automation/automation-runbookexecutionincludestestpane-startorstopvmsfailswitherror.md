@@ -1,26 +1,26 @@
 
 <properties
     pageTitle="runbook execution (includes test pane)/start or stop vms: fails with error"
-    description="32501563RunbookExecutioninclud"
+    description="Problems related to runbook execution (includes test pane)/start or stop vms: fails with error"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="adoylemsft"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32501563"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Blackforest, Fairfax"
 />
 
-# runbook execution (includes test pane)/start or stop vms: fails with error
+#runbook execution (includes test pane)/start or stop vms: fails with error
 
 
 ## **Recommended documents**
 [Runbook Output and messages]
 (https://azure.microsoft.com/documentation/articles/automation-runbook-output-and-messages/) <br>
-[How to Start/Stop VM]
-(https://azure.microsoft.com/documentation/articles/automation-solution-startstopvm-psworkflow/) <br>
+[Start/Stop VMs during off-hours]
+(https://azure.microsoft.com/documentation/articles/automation-solution-vm-management/) <br>
 [Runbook testing and troubleshooting]
 (https://azure.microsoft.com/blog/azure-automation-controlling-runbook-streams-for-testing-and-troubleshooting/) <br>
 [Authenticating to Azure Using Azure Active Directory]
