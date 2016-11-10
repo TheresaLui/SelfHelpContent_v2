@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How do I authenticate my application with Data Lake Store?"
-	description="How do I authenticate my application with Data Lake Store?"
+	pageTitle="How do I build applications that interact with Data Lake Store?"
+	description="How do I build applications that interact with Data Lake Store?"
 	service="Microsoft.DataLakeStore"
 	resource="accounts"
 	authors="wmeng-msft"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How do I authenticate my application with Data Lake Store?
+# How do I build applications that interact with Data Lake Store?
 
 For identity management and authentication, Data Lake Store uses [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). The Data Lake Store language and development tools and APIs include interfaces for the authentication with Azure Active Directory for access to Data Lake Store.
 

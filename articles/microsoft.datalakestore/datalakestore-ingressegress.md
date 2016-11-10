@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I need help with ingress/egress"
-	description="I need help with ingress/egress"
+	pageTitle="I need help with moving data in and out of my Data Lake Store"
+	description="I need help with moving data in and out of my Data Lake Store"
 	service="Microsoft.DataLakeStore"
 	resource="accounts"
 	authors="wmeng-msft"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I need help with ingress/egress
+# I need help with moving data in and out of my Data Lake Store
 
 ## **Recommended documents**
 [Getting data into, visualizing data in, and exporting date from Azure Data Lake Store](https://azure.microsoft.com/documentation/articles/data-lake-store-data-scenarios/)<br>
