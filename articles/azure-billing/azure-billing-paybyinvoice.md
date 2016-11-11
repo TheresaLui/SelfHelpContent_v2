@@ -1,9 +1,9 @@
 <properties
 	pageTitle="pay by invoice"
 	description="pay by invoice"
-	service="azure_billing"
-	resource=""
-	authors=""
+	service="azure-billing"
+	resource="billing"
+	authors="jlian"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32454866"
@@ -13,7 +13,6 @@
 />
 
 # pay by invoice
-
 
 ## **Recommended documents**
 [Azure Invoicing](https://azure.microsoft.com/pricing/invoicing/)

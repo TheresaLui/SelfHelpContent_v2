@@ -19,8 +19,10 @@ Here are some common reasons a subscription can get disabled and how you can re-
 
 * You may have reached the spending limit. If your usage exceeds the monthly credit included in your offer, we disable service for the remainder of the billing month.<br>
 [Learn more about Spending Limit and how to remove it](https://azure.microsoft.com/pricing/spending-limits/)
+
 * A payment may be past due.<br>
 [Address past due balance](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)
+
 * Your Account Admin may have cancelled the subscription. To reactivate, please have the Account Admin open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade).
 
 ## **Recommended documents**
