@@ -20,13 +20,13 @@ You might receive errors when you try to delete the Azure storage account, conta
 - When you delete a VM, the disk and VHD are not automatically deleted. That might be the reason for failure on storage account deletion. We don’t delete the disk so that you can use the disk to mount another VM.
 - There is still a lease on a disk or the blob that's associated with the disk.
 
-If the storage account uses the Classic deployment model, you can remove the virtual machine disk by following these steps:
+If the storage account uses the ARM deployment model, you can remove the VHD by following these steps:
 
-1. Navigate to the [classic Azure portal](https://manage.windowsazure.com/)
-2. Select VIRTUAL MACHINE > DISKS.
-3. Locate the disks that are associated with the storage account, container, or VHD that you want to delete. When you check the location of the disk, you will find the associated storage account, container, or VHD.
-4. Select your data disk, then click Delete Disk.
-5. To delete disk images, navigate to the Images tab and delete any images that are stored in the account.
+1. Go to Storage Account | Blobs | vhds, and locate the VHD that you want to delete, or that is preventing deletion of the container or storage account.  If you click on this VHD, it will show as Locked/Leased.
+2. Determine which VM is currently using the leased VHD.  Generally, the name of the VHD will contain the name of the VM.
+3. Go to Virtual Machine | Disks for the VM that has a lease on the VHD.  
+4. Remove the VHD from the VM, which will allow the VHD to be deleted.  For OS Disks, you will need to delete the VM that is using the disk.  For Data Disks, click on the disk and select “Detach.”
+
 
 ## **Recommended documents**
-[I'm having problems deleting storage account](http://go.microsoft.com/fwlink/?LinkId=785085)
+[I'm having problems deleting storage account](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)
