@@ -14,6 +14,7 @@
 
 # Open Source Technologies/MySQL
 
+
 ## **Recommended documents**
 
 [Announcing Azure App Service MySQL in-app (preview)](https://azure.microsoft.com/blog/mysql-in-app-preview-app-service/)<br>
