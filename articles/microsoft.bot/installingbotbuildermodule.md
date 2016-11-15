@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Bot Builder module installation supported in StackOverflow
+# Installing Bot Builder Module
 
 ## **Recommended documents**
-[BotFramework](https://stackoverflow.com/questions/tagged/Bot Builder module installation supported in StackOverflow: BotFramework)
+[Bot Builder module installation supported in StackOverflow: BotFramework](https://stackoverflow.com/questions/tagged/Bot Builder module installation supported in StackOverflow: BotFramework)
