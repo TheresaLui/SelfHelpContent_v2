@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Installing Bot Builder Module"
 	description="Installing Bot Builder Module"
-	service="microsoft.bot"
-	resource="botapp"
+	service="Microsoft.bot"
+	resource="botservice"
 	authors="aarzh-AaronZhang"
 	displayOrder=""
 	selfHelpType="generic"
@@ -15,4 +15,4 @@
 # Installing Bot Builder Module
 
 ## **Recommended documents**
-[Bot Builder module installation supported in StackOverflow: BotFramework](https://stackoverflow.com/questions/tagged/Bot Builder module installation supported in StackOverflow: BotFramework)
+[Bot Builder module installation supported in StackOverflow: BotFramework](http://stackoverflow.com/questions/tagged/azure-bot-service)
