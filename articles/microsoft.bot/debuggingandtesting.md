@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Debugging and Testing"
 	description="Debugging and Testing"
-	service="microsoft.bot"
+	service="Microsoft.bot"
 	resource="botservice"
 	authors="aarzh-AaronZhang"
 	displayOrder=""
