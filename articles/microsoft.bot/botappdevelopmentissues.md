@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Bot App Development Issues"
 	description="Bot App Development Issues"
-	service="microsoft.bot"
-	resource="botapp"
+	service="Microsoft.bot"
+	resource="botservice"
 	authors="aarzh-AaronZhang"
 	displayOrder=""
 	selfHelpType="generic"
