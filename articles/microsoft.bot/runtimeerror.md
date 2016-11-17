@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Run-time error"
 	description="Run-time error"
-	service="microsoft.bot"
-	resource="botapp"
+	service="Microsoft.bot"
+	resource="botservice"
 	authors="aarzh-AaronZhang"
 	displayOrder=""
 	selfHelpType="generic"
@@ -15,4 +15,4 @@
 # Run-time error
 
 ## **Recommended documents**
-[Run-time error issues supported in StackOverflow: BotFramework](https://stackoverflow.com/questions/tagged/botframework)
+[Run-time error issues supported in StackOverflow: BotFramework](http://stackoverflow.com/questions/tagged/azure-bot-service)
