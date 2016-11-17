@@ -2,7 +2,7 @@
 	pageTitle="Debugging and Testing"
 	description="Debugging and Testing"
 	service="microsoft.bot"
-	resource="botapp"
+	resource="botservice"
 	authors="aarzh-AaronZhang"
 	displayOrder=""
 	selfHelpType="generic"
