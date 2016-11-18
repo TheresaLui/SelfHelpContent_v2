@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32551645,32551669"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
