@@ -14,11 +14,13 @@
 
 # Move Resources Between RG or Subscription
 
-## Call support when you need to**
+## **Recommended steps**
+
+**Call support when you need to**
 - Move your resources to a new Azure account (and [Active Directory tenant](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#services-that-enable-move)).
 - Move classic resources but are having trouble with the [limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).
 
-## Move Resources Between RG or Subscription**
+**Move Resources Between RG or Subscription**
 - Move Resource Manager resources.
 - Move classic resources according to the [classic deployment limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations)
 
