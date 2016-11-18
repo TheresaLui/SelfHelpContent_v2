@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Azure VM Restore Limitations"
 	description="Limitations when restoring an Azure VM from backup"
@@ -13,6 +14,8 @@
 />
 
 # Azure VM Restore Limitations
+
+## **Limitations when restoring a VM**
 Following limitations apply when restoring a Linux Azure VM from backup. 
 
 * Replacing an existing virtual machine during restore is not supported. Please create a new virtual machine from backup or restore disks from backup and use disks and configuration to create a new VM.
@@ -25,7 +28,9 @@ Following limitations apply when restoring a Linux Azure VM from backup.
 
 * To Restore a VM into a specific availability set, restore disks and configuration, and create a VM using PowerShell cmdlets. [Learn More](https://azure.microsoft.com/documentation/articles/backup-azure-vms-automation/#restore-an-azure-vm)
 
-* If you are facing issues restoring a virtual machine, please try restore disks and use restored disks to create a virtual machine. 
+* If you are facing issues restoring a virtual machine, please try restore disks and use restored disks to create a virtual machine.
+
+* Restore disks will restore all disks(OS and data disks attached to the VM). Individual disk restore is not possible using this option. 
 
 * In case of Azure Datacenter Disaster, Azure Backup restores VM in paired data center. [Learn More] (https://azure.microsoft.com/documentation/articles/backup-azure-restore-vms/#restoring-a-vm-during-azure-datacenter-disaster)
 
