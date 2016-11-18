@@ -30,7 +30,6 @@ If you see the replication pairs are progressing slowly then please make sure yo
 - Make sure that you are following [anti virus recommendation](https://support.microsoft.com/kb/3186955) for ASR.
 - In case of bytes read error, ensure that any sector on the source disk is not corrupt by running chkdsk (dd for linux) in read-only mode. After fixing errors with chkdsk disable/enable protection. 
 - Make sure you are not protecting a cloned server.
--http://social.technet.microsoft.com/wiki/contents/articles/32026.how-do-we-cleanup-duplicatestale-entries-in-asr-vmware-to-azure-scenario.aspx
 - Make sure that proxy if any is correctly set up
 
 **Data upload Blocked**
