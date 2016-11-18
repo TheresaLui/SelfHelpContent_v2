@@ -22,14 +22,15 @@ If you see the replication pairs are progressing slowly then please make sure yo
 
 - **Cache folder exceeding threshold** alert means default threshold limit on process server cache for replication is being hit.This is common during initial replication or during high churn and it should goes away if there is sufficient bandwidth.
 - Use [ASR capacity planner](http://aka.ms/azure-site-recovery-capacity-planner-guidelinesLink) to calculate the bandwidth required for replication 
-- [Configure max upload thread limit](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-vmware-to-azure/#network-bandwidth-considerations) to influence the bandwidth traffic. 
+- [Configure max upload thread limit](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#network-bandwidth-considerations) to influence the bandwidth traffic. 
 
 **Replication Stuck**
 
 - Make sure that inbound port 443 on configuration server is not blocked. It can be checked using telnet. [Read for more details about configuration server prerequisite](https://aka.ms/selfhelp_csprereqs) 
-- Make sure that you are following [anti virus recommendation](https://support.microsoft.com/en-in/kb/3186955) for ASR.
+- Make sure that you are following [anti virus recommendation](https://support.microsoft.com/kb/3186955) for ASR.
 - In case of bytes read error, ensure that any sector on the source disk is not corrupt by running chkdsk (dd for linux) in read-only mode. After fixing errors with chkdsk disable/enable protection. 
 - Make sure you are not protecting a cloned server.
+-http://social.technet.microsoft.com/wiki/contents/articles/32026.how-do-we-cleanup-duplicatestale-entries-in-asr-vmware-to-azure-scenario.aspx
 - Make sure that proxy if any is correctly set up
 
 **Data upload Blocked**
@@ -39,4 +40,4 @@ If you see the replication pairs are progressing slowly then please make sure yo
 - Check to see if the mobility service (InMage Scout VX Agent - Sentinel/Outpost, InMage Scout Application Service) is running on the source server
 
 ## **Recommended  Documents**
-[VMware to Azure](aka.ms/asrstv2a)
+[VMware to Azure](http://aka.ms/asrstv2a)
