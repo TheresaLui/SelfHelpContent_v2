@@ -1,4 +1,4 @@
-4<properties 
+<properties 
     pageTitle="I have a question regarding billing for machine learning web services"
     description="I have a question regarding billing for machine learning web service"
     service="microsoft.machinelearning"
