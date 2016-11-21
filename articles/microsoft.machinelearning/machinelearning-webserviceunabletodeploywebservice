@@ -1,0 +1,18 @@
+<properties 
+    pageTitle="Why am I unable to deploy my web service?"
+    description="Why am I unable to deploy my web service?"
+    service="microsoft.machinelearning"
+    resource="webServices"
+    authors="jajan17"
+    displayOrder="1"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="public"
+ />
+
+# Why am I unable to deploy my web service?
+
+## **Recommended documents**
+[Machine Learning pricing details](http://go.microsoft.com/fwlink/?LinkId=824637)
