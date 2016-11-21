@@ -2,7 +2,7 @@
     pageTitle="How do I see a list of running jobs against my web service and their status?"
     description="How do I see a list of running jobs against my web service and their status?"
     service="microsoft.machinelearning"
-    resource="workspaces"
+    resource="webServices"
     authors="jajan17"
     displayOrder="2"
     selfHelpType="resource"
