@@ -2,7 +2,7 @@
     pageTitle="How do I enable logging for my web service?"
     description="How do I enable logging for my web service?"
     service="microsoft.machinelearning"
-    resource="workspaces"
+    resource="webServices"
     authors="jajan17"
     displayOrder="3"
     selfHelpType="resource"
