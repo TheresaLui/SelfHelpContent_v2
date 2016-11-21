@@ -28,8 +28,8 @@
 ## **Recommended documents**
 
 [Sign up for an Azure Free Trial subscription](https://azure.microsoft.com/free/)<br>
-[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/en-in/pricing/free-trial-faq/)
+[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
 [Upgrade Free Trial to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
-[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits/)<br>
+[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
 [Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
 

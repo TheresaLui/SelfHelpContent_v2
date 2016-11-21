@@ -15,18 +15,25 @@
 # issues with an azure purchase
 
 ## **Recommended steps**
-1. Know more per Azure offer- what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
-[Azure Offers - benefits & limits, how to sign-up, purchase, upgrade or activate](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)
-2. The Account Admin can switch or change Azure offer on an existing subscription- visit 'Azure Account Center', select the subscription to change and then click 'Switch to another offer'.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
+
+* Know more per Azure offer - what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
+[Azure pricing and purchase options](https://azure.microsoft.com/en-us/pricing/)
+
+* If the subscription payment method is invoice (direct debit), please send your payment to the location listed at the bottom of your invoice.
+
+* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the [Azure Account Center](https://account.windowsazure.com/Subscriptions).<br>
+[How to update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)
+
+* The Account Admin can switch or change Azure offer on an existing subscription - visit **[Azure Account Center](https://account.windowsazure.com/Subscriptions)**, select the subscription to change and then click **Switch to another offer**.<br>
+[Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
+
+To determine the **Account Administrator** of your subscription - click **Subscriptions** on the left pane in Azure portal, select your subscription, under **Settings**, select **Properties** and scroll down on the properties blade to view the Account Admin's email address. <br>
+[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**
-[How to sign up for a free subscription, upgrade your subscription, or activate benefits](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)<br>
-[How to cancel your subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
-[Manage Azure Spending Limits](https://azure.microsoft.com/pricing/spending-limits/)<br>
-[Upgrade Azure Free Trial to Pay-As-You-Go offer](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/#upgrade-azure-free-trial-to-pay-as-you-go)<br>
-[Sign up for an Azure Free Trial subscription](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/#sign-up-for-an-azure-free-trial-subscription)<br>
-[Activation & benefits of 'MSDN Dev and Test Pay-As-You-Go' offer](https://azure.microsoft.com/offers/ms-azr-0023p/)<br>
-[Activate monthly Azure credit for Visual Studio Enterprise (BizSpark) subscribers](https://azure.microsoft.com/offers/ms-azr-0064p/)<br>
-[Microsoft Partner Network (MPN) - Benefits, requirements, enroll & manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
-[Switch, change or upgrade to a different Azure offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
+
+[Sign up for an Azure Free Trial subscription](https://azure.microsoft.com/free/)<br>
+[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
+[Upgrade Free Trial to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
+[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
+[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>

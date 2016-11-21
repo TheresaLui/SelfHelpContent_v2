@@ -23,7 +23,7 @@
 [Understand detailed usage charges](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/#understand-detailed-usage-charges)
 
 To validate a new credit card, Microsoft will charge your credit card $1 when signing up for the Free Trial Offer. This is only an authorization hold, the charge will be reversed within 3-5 business days.<br>
-[Azure Free Trial FAQ](https://azure.microsoft.com/en-in/pricing/free-trial-faq/)
+[Azure Free Trial FAQ](https://azure.microsoft.com/pricing/free-trial-faq/)
 
 To determine the **Account Administrator** of your subscription - click **Subscriptions** on the left pane in Azure portal, select your subscription, under **Settings**, select **Properties** and scroll down on the properties blade to view the Account Admin's email address. <br>
 [Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
