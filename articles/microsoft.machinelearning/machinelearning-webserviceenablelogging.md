@@ -16,7 +16,9 @@
 
 ## **Recommended steps**
 To enable logging for a web service, please refer to the following document.
+https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-web-services-logging
  
 ## **Recommended documents**
- 1. Gather any available information on the deleted workspace you wish to revive (i.e. workspace id, name, subscription name, subscription id, owner’s email address).
- 2. Submit a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) and include all the available information in the request.
+•	Web Services Mgmt - What’s new: https://azure.microsoft.com/en-us/documentation/articles/machine-learning-whats-new/
+•	ARM Web Service Management APIs: https://msdn.microsoft.com/en-us/library/mt767538.aspx 
+•	PowerShell cmldlets doc: https://msdn.microsoft.com/en-us/library/azure/mt767952.aspx
