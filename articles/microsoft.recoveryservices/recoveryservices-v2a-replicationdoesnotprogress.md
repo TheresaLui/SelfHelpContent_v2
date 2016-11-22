@@ -14,7 +14,9 @@
 
 # Site Recovery (VMware to Azure)/Replication does not progress
 
-## **Common issues during replication**
+Common issues during replication
+
+## **Recommended Steps**
 
 **Slow replication  / Data upload throttled**
 
