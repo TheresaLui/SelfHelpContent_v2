@@ -26,7 +26,7 @@
 
 7. Select **Download Usage** to download the daily usage data as a .CSV file.
 
-To determine the **Account Administrator** of your subscription - click **Subscriptions** on the left pane in Azure portal, select your subscription, under **Settings**, select **Properties** and scroll down on the properties blade to view the Account Admin's email address. <br>
+To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
 [Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**

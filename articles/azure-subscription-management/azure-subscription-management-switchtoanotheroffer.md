@@ -24,7 +24,7 @@ As a [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) customer,
 
 3. Click **Switch to another offer**. The button is only available if you're on Pay-As-You-Go and done with your first billing period.
 
-To determine the **Account Administrator** of your subscription - click **Subscriptions** on the left pane in Azure portal, select your subscription, under **Settings**, select **Properties** and scroll down on the properties blade to view the Account Admin's email address. <br>
+To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
 [Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended help**
