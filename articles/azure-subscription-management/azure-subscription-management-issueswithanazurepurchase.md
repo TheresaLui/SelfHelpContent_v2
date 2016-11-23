@@ -32,8 +32,8 @@ To determine the **Account Administrator** of your subscription - click **Subscr
 
 ## **Recommended documents**
 
-[Sign up for an Azure Free Trial subscription](https://azure.microsoft.com/free/)<br>
 [Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
-[Upgrade Free Trial to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
-[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
-[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
+[Monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
+[What to do if my subscription shows as disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
+[I got 'Past due balance' notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
+[Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)

@@ -15,15 +15,20 @@
 # switch to another offer
 
 ## **Recommended steps**
-You can switch your existing subscription to a another offer without any service downtime.
 
-1. The Account Admin can switch or change Azure offer on an existing subscription- visit 'Azure Account Center', select the subscription to change and then click 'Switch to another offer'.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
-2. Know more per Azure offer- what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
-[Azure Offers - benefits & limits, how to sign-up, purchase, upgrade or activate](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)
-3. To determine the 'Account Administrator' of your subscription - click on 'Subscriptions' on the left pane in Azure portal, select your subscription, click 'Settings', select 'Properties' and scroll down on the properties blade to view the Account Admin's email address.
+As a [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) customer, you might be able to switch your Azure subscription to another offer.
+
+1. Sign in at [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+
+2. Select your Pay-As-You-Go subscription.
+
+3. Click **Switch to another offer**. The button is only available if you're on Pay-As-You-Go and done with your first billing period.
+
+To determine the **Account Administrator** of your subscription - click **Subscriptions** on the left pane in Azure portal, select your subscription, under **Settings**, select **Properties** and scroll down on the properties blade to view the Account Admin's email address. <br>
+[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended help**
+
 [Switch, change or upgrade to a different Azure offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
 [Tutorial: Switch, change or upgrade to a different Azure offer](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
-[Azure Offers - benefits & limits, how to sign-up, purchase, upgrade or activate](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)<br>
+[Azure pricing and purchase options](https://azure.microsoft.com/pricing/)

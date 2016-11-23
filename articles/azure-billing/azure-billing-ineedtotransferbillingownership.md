@@ -30,4 +30,5 @@ To determine the **Account Administrator** of your subscription - select **Prope
 If your current Account Admin has left and you need to take over ownership, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can validate the transfer.
 
 ## **Recommended documents**
+
 [Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)

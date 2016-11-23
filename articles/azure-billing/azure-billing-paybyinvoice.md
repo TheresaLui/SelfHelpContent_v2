@@ -9,10 +9,11 @@
 	supportTopicIds="32454866"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
 # pay by invoice
 
-## **Recommended documents**
+## **Recommended help**
+
 [Azure Invoicing](https://azure.microsoft.com/pricing/invoicing/)

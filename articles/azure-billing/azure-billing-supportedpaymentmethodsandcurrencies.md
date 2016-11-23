@@ -14,9 +14,9 @@
 
 # supported payment methods and currencies
 
-
 ## **Recommended documents**
-[List of currencies that can be used, and countries in which Azure is available commerically](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
+
+[List of currencies that can be used, and countries in which Azure is available commercially](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
 [What payment options are supported in Azure?](https://azure.microsoft.com/documentation/articles/billing-subscription-faq/#what-payment-options-do-i-have-in-purchasing-azure)<br>
 [Update your subscription to use a different credit card](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
 [Azure Billing and Subscription FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-faq/)<br>

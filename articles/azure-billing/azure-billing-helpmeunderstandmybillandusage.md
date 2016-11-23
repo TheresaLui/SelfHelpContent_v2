@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 1. The Account Admin can download invoices and usage files (.CSV) from the [Azure Account Center](https://account.windowsazure.com/Subscriptions).<br>
-[Ddownload invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
+[Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
 
 2. In the .CSV file, the top section of the file shows services you are being billed for, and the next section has a daily breakdown of the same information.<br>
 [Understand detailed usage charges](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/#understand-detailed-usage-charges)
@@ -29,6 +29,7 @@ To determine the **Account Administrator** of your subscription - click **Subscr
 [Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**
+
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Address 'Past due balance' notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
 [Pricing FAQ - Spending Limit, SLA credits, optimize application for billing](https://azure.microsoft.com/pricing/faq/)

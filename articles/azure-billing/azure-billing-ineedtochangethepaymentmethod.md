@@ -30,6 +30,7 @@ To determine the **Account Administrator** of your subscription - select **Prope
 If you want to update payment method to 'invoice' (direct debit), please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can run a credit check before approving your request.
 
 ## **Recommended documents**
+
 [Update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
 [List of countries in which Azure is available and currencies that can be used to purchase Azure](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
