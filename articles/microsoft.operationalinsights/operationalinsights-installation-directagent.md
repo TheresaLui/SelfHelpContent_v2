@@ -1,7 +1,7 @@
 
 <properties
     pageTitle="installation-directagent"
-    description="Problems related to installation direct agent"
+    description="Problems related to agent for direct installation"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="adoylemsft"
