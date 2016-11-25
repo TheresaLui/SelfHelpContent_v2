@@ -53,7 +53,7 @@ Learn about the job diagram [here.](https://aka.ms/job_diagram)
 
 In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
-**QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step is a query step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 
+**QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 
 
 If the preceding step is an input processor, use the input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
