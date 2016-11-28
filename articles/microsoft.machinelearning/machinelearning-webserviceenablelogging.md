@@ -15,9 +15,4 @@
 # How do I enable logging for my web service?
 
 ## **Recommended steps**
-To enable logging for a web service, please refer to this [document](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-web-services-logging)
- 
-## **Recommended documents**
-[Web Services Management: What's new?](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-whats-new/)<br>
-[ARM Web Service Management APIs](https://msdn.microsoft.com/en-us/library/mt767538.aspx)<br>
-[PowerShell cmldlets doc](https://msdn.microsoft.com/en-us/library/azure/mt767952.aspx)<br>
+To enable logging for a web service, please refer to this [document](https://docs.microsoft.com/azure/machine-learning/machine-learning-web-services-logging)
