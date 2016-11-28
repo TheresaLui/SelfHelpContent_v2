@@ -17,7 +17,7 @@
 ## **Recommended steps**
 To get the list of running Batch web service jobs:
 
-1. log in to the Web Service Management Portal
+1. log in to the [Web Service Management Portal](https://services.azureml.net/)
 2. Navigate to the specific web service
 3. Click on the "Batch Request Log" tab.
 
