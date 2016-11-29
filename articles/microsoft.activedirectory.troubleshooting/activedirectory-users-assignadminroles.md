@@ -4,11 +4,11 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="curtand"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045782"
+	displayOrder="1"
+	selfHelpType="resource"
+	supportTopicIds=""
 	resourceTags="users-assignrole"
-	productPesIds="14785"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
