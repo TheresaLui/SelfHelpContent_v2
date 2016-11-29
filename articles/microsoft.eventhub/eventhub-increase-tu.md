@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds=""
-	cloudEnvironments="public" 
+	cloudEnvironments="public,BlackForest,MoonCake,Fairfax" 
 />
 
 # Can I have more than 20 throughput units? 
