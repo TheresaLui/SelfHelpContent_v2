@@ -6,8 +6,8 @@
 	authors="ruturaj"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
-	resourceTags="32536397, 32536398, 32536400"
+	supportTopicIds="32536397, 32536398, 32536400"
+	resourceTags=" "
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
