@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Assign an administrator role to a user"
 	description="Assign an administrator role to a user"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
 	authors="curtand"
 	displayOrder=""
 	selfHelpType="generic"
