@@ -9,7 +9,7 @@
 	supportTopicIds="32421025"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public,BlackForest,MoonCake,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # portal and powershell commands

@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds="16123"
-	cloudEnvironments="public,BlackForest,MoonCake,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # I can’t view my namespace here in the portal, but I can see it in the classic portal

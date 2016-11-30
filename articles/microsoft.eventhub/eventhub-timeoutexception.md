@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,MoonCake,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # I am receiving a timeout exception
