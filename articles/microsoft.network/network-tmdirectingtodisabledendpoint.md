@@ -1,8 +1,8 @@
-<properties
+s<properties
 	pageTitle="Traffic Manager is directing requests to disabled endpoint."
 	description="Traffic Manager is directing requests to disabled endpoint."
 	service="microsoft.network"
-	resource="trafficmanagerprofile"
+	resource="trafficmanagerprofiles"
 	authors="radwiv"
 	displayOrder="1"
 	selfHelpType="resource"
