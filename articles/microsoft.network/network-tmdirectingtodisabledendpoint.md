@@ -1,4 +1,4 @@
-s<properties
+<properties
 	pageTitle="Traffic Manager is directing requests to disabled endpoint."
 	description="Traffic Manager is directing requests to disabled endpoint."
 	service="microsoft.network"
@@ -17,6 +17,7 @@ s<properties
 ## **Recommended steps**
 
 1. Cached response might be the reason for directing requests to disabled endpoint. Setting Time to Live (TTL) to a lower value may resolve this issue. A lower TTL lets cached entries expire faster but this may result in more requests to the Traffic Manager service.<br>
+
 The default TTL value is 300 seconds which can be set to a minimum of 30 seconds.
 
 
