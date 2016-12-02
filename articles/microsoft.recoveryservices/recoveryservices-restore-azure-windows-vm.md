@@ -1,6 +1,6 @@
 
 <properties
-	pageTitle="Azure VM Restore Limitations"
+	pageTitle="Azure Windows VM Restore Limitations"
 	description="Limitations when restoring an Azure VM from backup"
 	service="microsoft.recoveryservices"
 	resource="vaults"
@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure VM Restore Limitations
+# Azure Windows VM Restore Limitations
 
 ## **Limitations when restoring a VM**
 Following limitations apply when restoring a Windows Azure VM from backup. 
@@ -24,14 +24,16 @@ Following limitations apply when restoring a Windows Azure VM from backup.
 
 * For Domain Controller VMs, we recommend using Restore Disks and creating a new VM from restored disks. 
 
-* To Restore a VM into a specific availability set, restore disks and configuration, and create a VM using PowerShell cmdlets. [Learn More](https://azure.microsoft.com/documentation/articles/backup-azure-vms-automation/#restore-an-azure-vm)
+* To Restore a VM into a specific availability set, restore disks and configuration, and create a VM using PowerShell cmdlets. [Learn More](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)
 
 * If you are facing issues restoring a virtual machine, please try restore disks and use restored disks to create a virtual machine. 
 
 * Restore disks will restore all disks(OS and data disks attached to the VM). Individual disk restore is not possible using this option. 
 
-* In case of Azure Datacenter Disaster, Azure Backup restores VM in paired data center. [Learn More] (https://azure.microsoft.com/documentation/articles/backup-azure-restore-vms/#restoring-a-vm-during-azure-datacenter-disaster)
+* In case of Azure Datacenter Disaster, Azure Backup restores VM in paired data center. [Learn More](https://docs.microsoft.com/azure/backup/backup-azure-restore-vms#restoring-a-vm-during-azure-datacenter-disaster)
 
  
 ## **Recommended documents**
 [Azure virtual machine restore troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)<br>
+[How to restore virtual machine using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
+[How to restore virtual machine using PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)<br>
