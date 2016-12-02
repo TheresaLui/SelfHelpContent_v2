@@ -36,5 +36,5 @@ Following limitations apply when restoring a Linux Azure VM from backup.
 
 ## **Recommended documents**
 [Azure virtual machine restore troubleshooting guide](https://docs.microsoft.comazure/backup/backup-azure-vms-troubleshoot/)<br>
-[How to restore virtual machines using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)
+[How to restore virtual machines using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
 [ How to restore virtual machines using PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)
