@@ -24,12 +24,10 @@ The Account Admin can add, update, or remove the payment information through the
 
 3. On the right side of the page, select **Manage payment methods**.
 
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
-
 ## **Recommended documents**
 
 [Update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
 [List of countries in which Azure is available and currencies that can be used to purchase Azure](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
 [Why my credit card doesn't go through when I try to sign up for Azure?](https://azure.microsoft.com/documentation/articles/billing-credit-card-fails-during-azure-sign-up/)

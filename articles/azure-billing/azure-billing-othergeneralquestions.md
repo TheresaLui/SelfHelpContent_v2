@@ -22,3 +22,4 @@
 [Update payment information](https://docs.microsoft.com/azure/billing-how-to-change-credit-card)<br>
 [Manage administrator roles](https://docs.microsoft.com/azure/billing-add-change-azure-subscription-administrator)<br>
 [Transfer subscription ownership](https://docs.microsoft.com/azure/billing-subscription-transfer)<br>
+[How to cancel your subscription](https://docs.microsoft.com/en-us/azure/billing-how-to-cancel-azure-subscription)

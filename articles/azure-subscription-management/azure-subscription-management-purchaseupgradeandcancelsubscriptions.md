@@ -22,14 +22,12 @@
 * You can upgrade your free Azure subscription to Pay-As-You-Go.
 [Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
 
-* The Account Admin change a Pay-As-You-Go subscription to another offer - visit [Azure Account Center](https://account.windowsazure.com/Subscriptions), select the subscription to change, and then click **Switch to another offer**.<br>
+* The Account Admin can change a Pay-As-You-Go subscription to another offer - visit Azure Account Center, select the subscription to change, and then click **Switch to another offer**.<br>
 [Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
-
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**
 
 [Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
 [Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Azure Billing and Subscription FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-faq/)<br>

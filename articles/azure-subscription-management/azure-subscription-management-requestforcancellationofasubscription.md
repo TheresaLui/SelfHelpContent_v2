@@ -14,18 +14,7 @@
 
 # request for cancellation of a subscription
 
-## **Recommended steps**
-The Account Administrator can cancel subscriptions using the Azure portal.
-
-1. Select **Subscriptions** from the left pane.
-
-2. Select the subscription to cancel, then click **Cancel Sub**.
-
-3. Enter the subscription name, choose a cancellation reason, then click the **Cancel Sub** button at the bottom of the cancel blade. 
-
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
-
-## **Recommended help**
+## **Recommended documents**
 
 [Self-serve: Cancel a subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)

@@ -23,13 +23,10 @@ Here are some common reasons a subscription can get disabled and how you can re-
 * A payment may be past due.<br>
 [Address past due balance](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)
 
-* Your Account Admin may have canceled the subscription. If it's a Pay-As-You-Go subscription, the Account Admin can reactivate it in the [Azure Account Center](https://account.windowsazure.com/Subscriptions). If it's not, please have the Account Admin open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade).
-[What do I do if my Azure subscription becomes disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
-
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
+* Your Account Admin may have canceled the subscription. If it's a Pay-As-You-Go subscription, the Account Admin can reactivate it in the Azure Account Center. If it's not, please continue to open a support request.
 
 ## **Recommended documents**
 
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [What do I do if my Azure subscription becomes disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
 [Address past due balance notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)

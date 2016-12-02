@@ -26,11 +26,10 @@
 
 7. Select **Download Usage** to download the daily usage data as a .CSV file.
 
-To determine the **Account Administrator** of your subscription - select **Properties** on the left and scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**
 
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)<br>
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Address past due balance notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>

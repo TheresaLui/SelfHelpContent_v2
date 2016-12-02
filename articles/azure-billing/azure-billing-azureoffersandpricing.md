@@ -22,7 +22,7 @@
 * Know more per Azure offer - what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
 [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 
-* The Account Admin can switch or change Azure offer on an existing subscription - visit [Azure Account Center](https://account.windowsazure.com/Subscriptions), select the subscription to change and then click **Switch to another offer**.<br>
+* The Account Admin can switch or change Azure offer on an existing subscription - visit Azure Account Center, select the subscription to change and then click **Switch to another offer**.<br>
 [Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
 
 ## **Recommended documents**

@@ -20,14 +20,12 @@ You may receive a past due balance email if payment has not been made or was dec
 
 * If the subscription payment method is invoice (direct debit), please send your payment to the location listed at the bottom of your invoice.
 
-* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the [Azure Account Center](https://account.windowsazure.com/Subscriptions).<br>
+* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the Azure Account Center.<br>
 [How to update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)
-
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
 
 ## **Recommended documents**
 
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Why my credit card doesn't go through when I try to sign up for Azure?](https://azure.microsoft.com/documentation/articles/billing-credit-card-fails-during-azure-sign-up/)<br>
 [What to do if my subscription shows as disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
 [I got 'Past due balance' notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>

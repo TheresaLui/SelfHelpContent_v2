@@ -16,20 +16,18 @@
 
 ## **Recommended steps**
 
-1. The Account Admin can download invoices and usage files (.CSV) from the [Azure Account Center](https://account.windowsazure.com/Subscriptions).<br>
+1. The Account Admin can download invoices and usage files (.CSV) from the Azure Account Center.<br>
 [Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
 
 2. In the .CSV file, the top section of the file shows services you are being billed for, and the next section has a daily breakdown of the same information.<br>
-[Understand detailed usage charges](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/#understand-detailed-usage-charges)
+[Understand detailed usage charges](https://docs.microsoft.com/en-us/azure/billing/billing-understand-your-bill#csv)
 
 To validate a new credit card, Microsoft will charge your credit card $1 when signing up for the Free Trial Offer. This is only an authorization hold, the charge will be reversed within 3-5 business days.<br>
 [Azure Free Trial FAQ](https://azure.microsoft.com/pricing/free-trial-faq/)
 
-To determine the Account Administrator of your subscription - click **Subscriptions** on the left pane, select your subscription, click **Properties** under Settings, then scroll down to view the Account Admin's email address. <br>
-[Azure Administrator roles - types, permissions, and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
-
 ## **Recommended documents**
 
+[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Address 'Past due balance' notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
 [Pricing FAQ - Spending Limit, SLA credits, optimize application for billing](https://azure.microsoft.com/pricing/faq/)
