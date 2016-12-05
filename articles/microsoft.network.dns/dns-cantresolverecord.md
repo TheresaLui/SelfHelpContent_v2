@@ -1,28 +1,16 @@
 <properties 
-
     pageTitle="I can't resolve my DNS record"
-
     description="I am unable to resolve a new DNS record in a DNS zone hosted in Azure DNS."
-
     service="microsoft.network"
-
     resource="dnszones"
-
     authors="jtuliani"
-
     displayOrder="3"
-
-    selfHelpType="generic"
-
+    selfHelpType="resource"
     supportTopicIds=""
-
     productPesIds=""
-
     resourceTags=""​
-
-    cloudEnvironments="public"  
-
- />
+    cloudEnvironments="public"
+/>
 
 # I can't resolve my DNS record
 

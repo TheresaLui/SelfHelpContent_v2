@@ -1,30 +1,20 @@
 <properties 
-
     pageTitle="I can't create a DNS record"
-
     description="I am unable to create a new DNS record in my DNS zone in Azure DNS."
-
     service="microsoft.network"
-
     resource="dnszones"
-
     authors="jtuliani"
-
     displayOrder="2"
-
-    selfHelpType="generic"
-
+    selfHelpType="resource"
     supportTopicIds=""
-
     productPesIds=""
-
     resourceTags=""​
-
-    cloudEnvironments="public"  
-
- />
+    cloudEnvironments="public"
+/>
 
 # I can't create a DNS record
+
+## Recommended steps
 
 To resolve common issues, try one or more of the following:
 
@@ -36,7 +26,7 @@ To resolve common issues, try one or more of the following:
 
 If the above steps don't resolve the issue, please open an Azure Support ticket.
 
-## Recommended steps
+## Recommended documents
 
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)
 <br>

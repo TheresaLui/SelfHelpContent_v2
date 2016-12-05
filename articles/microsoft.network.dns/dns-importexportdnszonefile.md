@@ -1,28 +1,16 @@
 <properties 
-
     pageTitle="How do I import or export a DNS zone file?"
-
     description="I want to migrate an existing DNS zone to Azure DNS by importing a DNS zone file, or export a DNS zone file from Azure DNS."
-
     service="microsoft.network"
-
     resource="dnszones"
-
     authors="jtuliani"
-
     displayOrder="4"
-
-    selfHelpType="generic"
-
+    selfHelpType="resource"
     supportTopicIds=""
-
     productPesIds=""
-
     resourceTags=""​
-
-    cloudEnvironments="public"  
-
- />
+    cloudEnvironments="public"
+/>
 
 # How do I import or export a DNS zone file?
 

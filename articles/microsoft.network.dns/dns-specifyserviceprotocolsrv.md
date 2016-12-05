@@ -1,28 +1,16 @@
 <properties 
-
     pageTitle="How do I specify the ‘service’ and ‘protocol’ for an SRV record?"
-
     description="How do I specify the ‘service’ and ‘protocol’ for an SRV record?"
-
     service="microsoft.network"
-
     resource="dnszones"
-
     authors="jtuliani"
-
     displayOrder="5"
-
-    selfHelpType="generic"
-
+    selfHelpType="resource"
     supportTopicIds=""
-
     productPesIds=""
-
     resourceTags=""​
-
-    cloudEnvironments="public"  
-
- />
+    cloudEnvironments="public"
+/>
 
 # How do I specify the ‘service’ and ‘protocol’ for an SRV record?
 
