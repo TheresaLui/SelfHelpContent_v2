@@ -14,7 +14,7 @@
 
 # I can't create a new DNS zone
 
-## Recommended steps
+## **Recommended steps**
 
 To resolve common issues, try one or more of the following:
 
@@ -23,10 +23,9 @@ To resolve common issues, try one or more of the following:
 3.	If you see an error "You have reached or exceeded the maximum number of zones in subscription {subscription id}", then either use a different Azure subscription, delete some zones, or contact Azure Support to raise your subscription limit, then try again.
 4.	If you see an error "The zone '{zone name}' is not available", this means Azure DNS was unable to allocate name servers for this DNS zone. Try using a different zone name. Alternatively, if you are the domain name owner, contact Azure Support, who can allocate name servers for you.
 
-If the above steps don't resolve the issue, please open an Azure Support ticket.
+If the above steps didn't resolve the issue, please post this issue to our [community support forum on MSDN](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WAVirtualMachinesVirtualNetwork) or open an Azure Support ticket.
 
-
-## Recommended documents
+## **Recommended documents**
 
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)
 <br>
