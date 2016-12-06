@@ -22,6 +22,6 @@ Zone file import and export are not yet available via the Azure Portal or Azure 
 
 ## **Recommended documents**
 
-[Install the Azure Command Line Interface (CLI)](https://docs.microsoft.com/en-gb/azure/xplat-cli-install)
+[Install the Azure Command Line Interface (CLI)](https://docs.microsoft.com/azure/xplat-cli-install)
 <br>
 [Import and export a DNS zone file using the Azure CLI](https://docs.microsoft.com/azure/dns/dns-import-export)
