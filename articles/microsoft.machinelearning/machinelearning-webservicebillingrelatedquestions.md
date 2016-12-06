@@ -4,7 +4,7 @@
     service="microsoft.machinelearning"
     resource="webServices"
     authors="jajan17"
-    displayOrder="1"
+    displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""

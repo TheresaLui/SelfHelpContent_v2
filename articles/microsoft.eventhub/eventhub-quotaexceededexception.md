@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds=""
-	cloudEnvironments="public" 
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # I am receiving a quota exceeded exception
