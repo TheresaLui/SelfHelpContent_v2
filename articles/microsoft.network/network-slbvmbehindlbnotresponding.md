@@ -39,8 +39,5 @@
     a.	If you have a VPN/ExpressRoute and [Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm) or a [Default Route](https://github.com/Azure/azure-content/blob/master/articles/expressroute/expressroute-routing.md) on the Vnet or LB subnet can cause asynchronous routing which will disrupt proper communication routing.
 
 ## **Recommended documents**
-[LB diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)<br>
-[Psping](https://technet.microsoft.com/sysinternals/psping.aspx)<br>
-[Network Monitor](https://www.microsoft.com/download/details.aspx?id=4865)<br>
-[Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)<br>
-[Default Route](https://github.com/Azure/azure-content/blob/master/articles/expressroute/expressroute-routing.md)
+Log Analytics for Azure Load Balancer [LB diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)<br>
+Configure [Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)
