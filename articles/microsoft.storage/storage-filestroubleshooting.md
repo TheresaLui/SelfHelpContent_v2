@@ -23,7 +23,7 @@ This article lists common problems and solutions that are related to Microsoft A
  
 **Windows client problems**
 - [Slow performance when you access Azure File storage from Windows 8.1 or Windows Server 2012 R2](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#windowsslow)<br>
-- [Error 53 attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#error53)<br>
+- [Error 53 or Error 67 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#error53)<br>
 - [Net use was successful but I don’t see the Azure file share mounted in Windows Explorer](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#netuse)<br>
 - [My storage account contains "/" and the net use command fails](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#slashfails)<br>
 - [My application/service cannot access mounted Azure Files drive](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#accessfiledrive)<br>
