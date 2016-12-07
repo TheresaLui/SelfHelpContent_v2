@@ -21,16 +21,16 @@
 3.	Check the LB Health Probe settings in the portal. If it is configured for HTTP change it to TCP, test and record results.
 4.	Choose a single VM behind the LB to test the following:<br>
 	a.	Open a command prompt and run the following to validate there is an application listening on the "probe port" and "data port: netstat -an"<br>
-	&ensp;i.	If the port is not showing listening on either configure the application on the VM to listen and respond on the probe port and data ports.<br>
+	i.	If the port is not showing listening on either configure the application on the VM to listen and respond on the probe port and data ports.<br>
     b.	Use [Psping](https://technet.microsoft.com/sysinternals/psping.aspx) from a Windows VM within the Vnet (not behind the LB) to test the probe port response (example: psping 10.0.0.4:80) and record results <br>
-        i.	If you do not receive a response <br>
-            i.	You may have an NSG/UDR block <br>
-            ii.	Configure the application on the VM to listen and respond on the probe port<br>
+  	i.	If you do not receive a response <br>
+	  i.	You may have an NSG/UDR block <br>
+	  ii.	Configure the application on the VM to listen and respond on the probe port<br>
     c.	Advanced:<br>
-        i.	Run a simultaneous network trace on the LB VM and the VNet test VM while you run [Psping](https://technet.microsoft.com/sysinternals/psping.aspx) then stop the Netsh trace. <br>
-            i.	Open cmd prompt on both VMs and run the following command: netsh trace start capture=yes tracefile=c:\server_IP.etl scenario=netconnection<br>
-            ii.	Use psping from the Vnet VM to the LB VM (example: psping 10.0.0.4:80)<br>
-                i.	Open the Netsh trace from the backend VM with [Network Monitor](https://www.microsoft.com/download/details.aspx?id=4865) and apply a display filter for the IP of the VM you ran PsPing from, such as, "IPv4.address==10.0.0.4"<br>
+	i.	Run a simultaneous network trace on the LB VM and the VNet test VM while you run [Psping](https://technet.microsoft.com/sysinternals/psping.aspx) then stop the Netsh trace. <br>
+	  i.	Open cmd prompt on both VMs and run the following command: netsh trace start capture=yes tracefile=c:\server_IP.etl scenario=netconnection<br>
+	  ii.	Use psping from the Vnet VM to the LB VM (example: psping 10.0.0.4:80)<br>
+	  	i.	Open the Netsh trace from the backend VM with [Network Monitor](https://www.microsoft.com/download/details.aspx?id=4865) and apply a display filter for the IP of the VM you ran PsPing from, such as, "IPv4.address==10.0.0.4"<br>
                 ii.	If you do not see the packets incoming to the backend VM trace, there is likely a NSG or UDR interfering<br>
                 iii.	If you do see the packets coming in but no response there is an issue with the VM application or firewall that has to be addressed<br>
             iii.	Manually check for a 'Deny All' NSG rule on the NIC of the VM or the subnet that has a higher priority that the default rule that allows LB probes & traffic (NSG must allow LB IP of 168.63.129.16 or LoadBalancer tag)<br>
