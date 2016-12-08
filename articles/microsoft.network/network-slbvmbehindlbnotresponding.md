@@ -19,8 +19,8 @@
 1.	For troubleshooting and configuration of the 3rd party network appliances contact the vendor of that appliance.
 2.	Enable [LB diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) for external LBs to determine if the Azure platform is detecting issues.
 3.	Check the LB Health Probe settings in the portal. If it is configured for HTTP change it to TCP, test and record results.
-4.	Choose a single VM behind the LB and test the probe and data port listener by opening command prompt and running the following: netstat -an<br>
-	This will validate if there is an application listening on the probe port and data port. If the TCP port isn't listed then you may need to configure the application on the VM to listen and respond on the probe port and data port.<br>
+4.	Remote into a VM behind the LB and run command "netstat -an" (for Windows) " " (for Linux)<br>
+	If you don't see TCP port listed in the results, you may need to configure the application on the VM to listen and respond on the probe and data ports.<br>
 	b. Use [Psping](https://technet.microsoft.com/sysinternals/psping.aspx) from a Windows VM within the VNet (not behind the LB) to test the probe port response (example: psping 10.0.0.4:80) and record results. If you do not receive a response you may have an NSG/UDR block for which you can configure the application on the VM to listen and respond on the probe port<br>
 	c. Advanced: For advanced testing steps please see [advanced](www.azure.com)<br>
 5.	Internal Load-Balancer (ILB): If issue only occurs from your on-premises network through VPN/ExpressRoute and doesn't reproduce from a VM within a Vnet, test communication from on-premises resources to another non-load balanced VM in the VNet over the VPN
