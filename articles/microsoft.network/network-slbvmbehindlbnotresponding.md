@@ -22,7 +22,7 @@
 4.	Remote into a VM behind the LB and run command "netstat -an" (for Windows) <forLinux>.<br>
 	If you don't see TCP port listed in the results, you may need to configure the application on the VM to listen and respond on the probe and data ports.<br>
 5.	Use [Psping](https://technet.microsoft.com/sysinternals/psping.aspx) for Windows VM <forLinux> within the VNet (not behind the LB) to test the probe and data ports response (example: psping 10.0.0.4:80). If you do not receive responses, check to ensure that a NSG/UDR isn't blocking.<br>
-6.	Run a simultaneous network trace on the LB VM and the VNet test VM while you run PsPing <forLinux> then stop the trace <linkstoNetshandTCPdump>.
+6.	Run a simultaneous network trace on the LB VM and the VNet test VM while you run PsPing <forLinux> then stop the trace <linkstoNetshandTCPdump>.<br>
 	a. For Windows, open command prompt on both VMs and run the following: netsh trace start capture=yes tracefile=c:\server_IP.etl scenario=netconnection<br>
 	b. Use psping from the Vnet VM to the LB VM (example: psping 10.0.0.4:80)<br>
 	c. Open the Netsh trace from the backend VM with Network Monitor and apply a display filter for the IP of the VM you ran PsPing from, such as, "IPv4.address==10.0.0.4"<br>
