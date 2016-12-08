@@ -26,11 +26,10 @@
 	a. For Windows, open command prompt on both VMs and run the following: netsh trace start capture=yes tracefile=c:\server_IP.etl scenario=netconnection<br>
 	b. Use psping from the Vnet VM to the LB VM (example: psping 10.0.0.4:80)<br>
 	c. Open the Netsh trace from the backend VM with Network Monitor and apply a display filter for the IP of the VM you ran PsPing from, such as, "IPv4.address==10.0.0.4"<br>
-	If you do not see the packets incoming to the backend VM trace, there is likely a NSG/UDR interfering. If you do see the packets coming in but no response, then you may need to address a VM application or a firewall issue.
-
-5.	Internal Load-Balancer (ILB): If issue only occurs from your on-premises network through VPN/ExpressRoute and doesn't reproduce from a VM within a Vnet, test communication from on-premises resources to another non-load balanced VM in the VNet over the VPN
-6.	External Load-Balancer (ELB/SLB): If the issue only occurs from on-premises network to the public IP address of the Load-Balancer, try a public IP of a VM in the same Vnet. Also try from home or coffee shop. If it works from other locations the issue lies on-premises. Likely a proxy or firewall setting needs to be addressed.<br>
-	a. If you have a VPN/ExpressRoute and [Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm) or a [Default Route](https://github.com/Azure/azure-content/blob/master/articles/expressroute/expressroute-routing.md) on the Vnet or LB subnet can cause asynchronous routing which will disrupt proper communication routing.
+	If you do not see the packets incoming to the backend VM trace, there is likely a NSG/UDR interfering. If you do see the packets coming in but no response, then you may need to address a VM application or a firewall issue.<br>
+7.	Internal Load-Balancer (ILB): If issue only occurs from your on-premises network through VPN/ExpressRoute and doesn't reproduce from a VM within a Vnet, test communication from on-premises resources to another non-load balanced VM in the VNet over the VPN/ExpressRoute.
+8.	External Load-Balancer (ELB/SLB): If the issue only occurs from on-premises network to the public IP address of the Load-Balancer and not another location (such as home or coffee shop), it is likely a proxy or firewall setting on-premises.<br>
+9.	External Load-Balancer (ELB/SLB): If you have a VPN/ExpressRoute and [Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm) or a [Default Route](https://github.com/Azure/azure-content/blob/master/articles/expressroute/expressroute-routing.md) on the Vnet or LB subnet can cause asynchronous routing which will disrupt proper communication routing.
 
 ## **Recommended documents**
 Log Analytics for Azure Load Balancer [LB diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)<br>
