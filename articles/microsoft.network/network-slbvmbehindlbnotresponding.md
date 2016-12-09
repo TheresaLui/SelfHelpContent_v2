@@ -2,7 +2,7 @@
 	pageTitle="VMs behind Load Balancer (LB) not responding to requests"
 	description="VMs behind Load Balancer (LB) not responding to requests"
 	service="microsoft.network"
-	resource="loadbalancer"
+	resource="loadbalancers"
 	authors="radwiv"
 	displayOrder="1"
 	selfHelpType="resource"
