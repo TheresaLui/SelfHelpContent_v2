@@ -2,7 +2,7 @@
 	pageTitle="Troubleshoot Application Gateway Load Balancer issue"
 	description="Troubleshoot Application Gateway Load Balancer issue"
 	service="microsoft.network"
-	resource="loadbalancer"
+	resource="loadbalancers"
 	authors="radwiv"
 	displayOrder="3"
 	selfHelpType="resource"
