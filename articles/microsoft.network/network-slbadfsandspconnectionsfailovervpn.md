@@ -2,7 +2,7 @@
 	pageTitle="ADFS & SharePoint connections fail behind Load Balancer over VPN"
 	description="ADFS & SharePoint connections fail behind Load Balancer over VPN"
 	service="microsoft.network"
-	resource="loadbalancer"
+	resource="loadbalancers"
 	authors="radwiv"
 	displayOrder="2"
 	selfHelpType="resource"
