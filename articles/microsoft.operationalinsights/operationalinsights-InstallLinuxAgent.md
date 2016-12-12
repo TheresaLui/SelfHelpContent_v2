@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="Install-Linux-Agent"
+    pageTitle="Install Linux Agent"
     description="Troubleshooting of issues with Install Linux Agent Install Linux Agent"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"

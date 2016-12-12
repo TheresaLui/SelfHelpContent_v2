@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="How-to-search-for-Performance-Data"
+    pageTitle="How to search for Performance Data"
     description="Troubleshooting of issues with How to search for Performance Data How to search for Performance Data"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"

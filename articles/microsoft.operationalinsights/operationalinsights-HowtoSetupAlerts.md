@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="How-to-Setup-Alerts"
+    pageTitle="How to Setup Alerts"
     description="Troubleshooting of issues with How to Setup Alerts How to Setup Alerts"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"

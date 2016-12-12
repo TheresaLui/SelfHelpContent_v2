@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="Install-Windows-Agent"
+    pageTitle="Install Windows Agent"
     description="Troubleshooting of issues with Install Windows Agent Install Windows Agent"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
