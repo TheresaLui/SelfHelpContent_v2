@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="Is my agent working"
+    pageTitle="Is-my-agent-working"
     description="Troubleshooting of issues with Is my agent working Is my agent working"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"

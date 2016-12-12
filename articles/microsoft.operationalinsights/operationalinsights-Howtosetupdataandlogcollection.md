@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="How to setup data and log collection"
+    pageTitle="How-to-setup-data-and-log-collection"
     description="Troubleshooting of issues with How to setup data and log collection How to setup data and log collection"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
