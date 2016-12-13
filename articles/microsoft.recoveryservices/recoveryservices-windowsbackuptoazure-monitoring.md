@@ -6,7 +6,7 @@
 	authors="saurabhsensharma"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32447364"
+	supportTopicIds="32553289"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
