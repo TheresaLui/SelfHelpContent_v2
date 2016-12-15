@@ -32,35 +32,3 @@
             * Check if the Data serialization format and Encoding are as expected. 
             * If using Event Hub, the Body of the Message may be Null. 
 
-If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the "Job diagram" button in the "Settings" blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
-
-Learn about the job diagram [here.](https://aka.ms/job_diagram)
-
-In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
-
-_1) How much data is actually being read?_ 
-
-**InputEventsSourcesTotal** metric provides the number of data units read, e.g. number of blobs. <br>
-**InputEventsTota**l provides the number of events read. This metric is available per partition. <br>
-**InputEventsInBytesTotal** provides the number of bytes read. <br>
-**InputEventsLastArrivalTime** is updated with every received event's enqueued time 
-
-_2) Is time moving forward? If actual events are read, punctuation might not be issued._ 
-
-**InputEventsLastPunctuationTime** indicates when a punctuation was issued to keep time moving forward. Data flow can get blocked if punctuation is not issued. <br>
-
-_3) Are there any errors in the input?_ 
-
-**InputEventsEventDataNullTotal** holds a count of events with null data <br>
-**InputEventsSerializerErrorsTotal** holds a count of events that could not be deserialized correctly <br>
-**InputEventsDegradedTotal** holds a count of events that had an issue other than deserialization problems 
-
-_4) Are events getting dropped/adjusted?_ 
-
-**InputEventsEarlyTotal** provides the number of events with an application timestamp before the high watermark. <br>
-**InputEventsLateTotal** provides the number of events with an application timestamp after the high watermark. <br>
-**InputEventsDroppedBeforeApplicationStartTimeTotal** provides the number events dropped before the job start time 
-
-_5) Are we following behind in reading data?_ 
-
-**InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. 
