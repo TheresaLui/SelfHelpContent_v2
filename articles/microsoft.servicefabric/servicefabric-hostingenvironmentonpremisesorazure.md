@@ -9,7 +9,7 @@
 	supportTopicIds="32449689"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"
 />
 
 # cluster/hosting environment (on premises or azure)

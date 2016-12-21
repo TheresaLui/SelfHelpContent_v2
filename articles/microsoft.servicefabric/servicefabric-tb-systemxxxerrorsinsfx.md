@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public"	 
+	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
 />
     
 # I am seeing System.XXX Errors in Service Fabric Explorer 
