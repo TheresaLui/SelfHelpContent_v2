@@ -22,6 +22,8 @@
 * Learn about Azure service pricing and purchase options.<br>
 [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 
+* Call 1-800-867-1389 in US or Canada, [or local number](https://azure.microsoft.com/overview/sales-number/). <br>
+
 ## **Recommended documents**
 
 [Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
