@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
 
-2. Sign in at [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+2. Sign in at [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin.
 
 3. Select your Pay-As-You-Go subscription.
 

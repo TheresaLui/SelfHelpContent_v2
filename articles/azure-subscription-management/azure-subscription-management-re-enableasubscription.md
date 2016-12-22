@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-* [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)
+* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
 
-* Your Account Admin may have canceled the subscription. If it's a Pay-As-You-Go subscription, the Account Admin can reactivate it in the Azure Account Center. <br>
+* Your Account Admin may have canceled the subscription. If it's a Pay-As-You-Go subscription, the Account Admin can reactivate it in the Account Center. <br>
 [Reactive a canceled subscription](https://docs.microsoft.com/azure/billing-subscription-become-disable#the-subscription-was-canceled-by-the-account-administrator)
 
 * You may have reached the spending limit. If your usage exceeds the monthly credit included in your offer, we disable service for the remainder of the billing month.<br>

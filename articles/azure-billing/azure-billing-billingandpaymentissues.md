@@ -18,11 +18,11 @@
 
 You may receive a past due balance email if payment has not been made or was declined by your bank. To resolve the issue, follow these steps.
 
-* [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
+* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
 
 * If the subscription payment method is invoice (direct debit), please send your payment to the location listed at the bottom of your invoice.
 
-* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the Azure Account Center.<br>
+* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the Account Center.<br>
 [How to update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)
 
 ## **Recommended documents**

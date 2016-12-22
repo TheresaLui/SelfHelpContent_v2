@@ -16,12 +16,12 @@
 
 ## **Recommended steps**
 
-* [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
+* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
 
-* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the Azure Account Center. <br>
+* The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The Account Admin can review and update the credit card in the Account Center. <br>
 [How to update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)
 
-If the bill notice was not received because the Account Administrator has left the company or changed roles, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can resolve the issue.
+If the bill notice was not received because the Account Admin has left the company or changed roles, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can resolve the issue.
 
 ## **Recommended documents**
 

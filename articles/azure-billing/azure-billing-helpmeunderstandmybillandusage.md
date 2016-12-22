@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
+1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
 
-2. The Account Admin can download invoices and usage files (.CSV) from the Azure Account Center.<br>
+2. The Account Admin can download invoices and usage files (.CSV) from the Account Center.<br>
 [Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
 
 3. In the .CSV file, the top section of the file shows services you are being billed for, and the next section has a daily breakdown of the same information.<br>
