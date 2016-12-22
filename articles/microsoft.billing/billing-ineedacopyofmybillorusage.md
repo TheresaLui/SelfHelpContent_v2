@@ -1,9 +1,9 @@
 <properties
 	pageTitle="I need a copy of my bill or usage"
 	description="I need a copy of my bill or usage"
-	service="azure-billing"
+	service="microsoft.billing"
 	resource="billing"
-	authors="kasparks"
+	authors="jlian"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -23,5 +23,5 @@
 
 ## **Recommended documents**
 
-[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
+[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>

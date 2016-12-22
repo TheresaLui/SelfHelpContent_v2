@@ -16,17 +16,16 @@
 
 ## **Recommended steps**
 
-As a [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) customer, you might be able to switch your Azure subscription to another offer.
+1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
 
-1. Sign in at [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+2. Sign in at [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
 
-2. Select your Pay-As-You-Go subscription.
+3. Select your Pay-As-You-Go subscription.
 
-3. Click **Switch to another offer**. The button is only available if you're on Pay-As-You-Go and done with your first billing period.
+4. Click **Switch to another offer**. The button is only available if you're on Pay-As-You-Go and done with your first billing period.
 
-## **Recommended help**
+## **Recommended documents**
 
-[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
-[Switch, change or upgrade to a different Azure offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
-[Tutorial: Switch, change or upgrade to a different Azure offer](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
+[Switch Azure subscription offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
+[Video: Switch Azure subscription offer](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
 [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)

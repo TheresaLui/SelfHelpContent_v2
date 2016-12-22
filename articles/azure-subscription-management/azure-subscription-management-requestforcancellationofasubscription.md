@@ -1,7 +1,7 @@
 <properties
 	pageTitle="request for cancellation of a subscription"
 	description="request for cancellation of a subscription"
-	service="azure_subscription_management"
+	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="jlian"
 	displayOrder=""
@@ -14,7 +14,9 @@
 
 # request for cancellation of a subscription
 
-## **Recommended documents**
+## **Recommended steps**
 
-[Self-serve: Cancel a subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
-[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)
+1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+
+2. The Account admin can cancel a subscription in the portal. <br>
+[Cancel Azure subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>

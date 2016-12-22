@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-The Account Admin can add, update, or remove the payment information through the Azure Account Center.
+The Account Admin can add, update, or remove the payment information through the Azure Account Center.[Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
 
-1. Sign in to the [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
 
 2. Select the subscription for which you want to change payment method.
 
@@ -27,7 +27,5 @@ The Account Admin can add, update, or remove the payment information through the
 ## **Recommended documents**
 
 [Update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
-[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
 [List of countries in which Azure is available and currencies that can be used to purchase Azure](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
-[Why my credit card doesn't go through when I try to sign up for Azure?](https://azure.microsoft.com/documentation/articles/billing-credit-card-fails-during-azure-sign-up/)

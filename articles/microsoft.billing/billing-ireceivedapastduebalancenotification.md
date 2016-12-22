@@ -1,9 +1,9 @@
 <properties
 	pageTitle="I received a past due balance notification"
 	description="I received a past due balance notification"
-	service="azure-billing"
+	service="microsoft.billing"
 	resource="billing"
-	authors="kasparks"
+	authors="jlian"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""

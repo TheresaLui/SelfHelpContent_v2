@@ -14,6 +14,6 @@
 
 # issues signing in or accessing my subscriptions
 
-## **Recommended help**
+## **Recommended documents**
 
 [I can't sign in to manage my Azure subscription](https://docs.microsoft.com/azure/billing-cannot-login-subscription)

@@ -14,6 +14,6 @@
 
 # third party services
 
-## **Recommended help**
+## **Recommended documents**
 
 [Understand your Azure third party service charges](https://docs.microsoft.com/azure/billing-understand-your-azure-marketplace-charges)

@@ -16,20 +16,12 @@
 
 ## **Recommended steps**
 
-1. Sign in to the [Azure Account Center](https://account.windowsazure.com/subscriptions) as the account administrator.
+1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
 
-2. Select the subscription for which you want the invoice and usage information.
-
-3. Select **BILLING HISTORY**. 
-
-6. Select **Download Invoice** to see a copy of your last bill. The invoice is not available if you're on a free subscription or if it's been less than 30 days since you signed up.
-
-7. Select **Download Usage** to download the daily usage data as a .CSV file.
+2. The Account Admin can download invoices and usage files.<br>
+[Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
 
 ## **Recommended documents**
 
-[Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)<br>
-[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
+[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
-[Address past due balance notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
-[Pricing FAQ - Spending Limit, SLA credits, optimize application for billing](https://azure.microsoft.com/pricing/faq/)

@@ -1,9 +1,9 @@
 <properties
 	pageTitle="My subscription is disabled"
 	description="My subscription is disabled"
-	service="azure-billing"
+	service="microsoft.billing"
 	resource="billing"
-	authors="kasparks"
+	authors="jlian"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""

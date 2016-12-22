@@ -16,8 +16,7 @@
 
 ## **Recommended steps**
 
-* Know more per Azure offer - what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
-[Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
+* [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
 
 * You can upgrade your free Azure subscription to Pay-As-You-Go.
 [Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
@@ -27,7 +26,6 @@
 
 ## **Recommended documents**
 
-[Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
-[Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
-[How to determine the Account Administrator for a subscription](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
-[Azure Billing and Subscription FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-faq/)<br>
+[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
+[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
+[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>

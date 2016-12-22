@@ -16,10 +16,11 @@
 
 ## **Recommended documents**
 
+[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 [Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Billing and subscription FAQ](https://docs.microsoft.com/azure/billing-subscription-faq)<br>
 [Azure limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 [Update payment information](https://docs.microsoft.com/azure/billing-how-to-change-credit-card)<br>
 [Manage administrator roles](https://docs.microsoft.com/azure/billing-add-change-azure-subscription-administrator)<br>
 [Transfer subscription ownership](https://docs.microsoft.com/azure/billing-subscription-transfer)<br>
-[How to cancel your subscription](https://docs.microsoft.com/en-us/azure/billing-how-to-cancel-azure-subscription)
+[How to cancel your subscription](https://docs.microsoft.com/azure/billing-how-to-cancel-azure-subscription)
