@@ -28,5 +28,5 @@ If your current Account Admin has left and you need to take over ownership, cont
 
 ## **Recommended documents**
 
-[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 [Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)<br>
+[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>

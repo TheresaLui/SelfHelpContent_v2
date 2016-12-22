@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)<br>
+1. [Find out who's the Account admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
 
 2. The Account Admin can download invoices and usage files (.CSV) from the Azure Account Center.<br>
 [Download invoice and usage](https://azure.microsoft.com/documentation/articles/billing-download-azure-invoice-daily-usage-date/)
@@ -26,6 +26,6 @@
 
 ## **Recommended documents**
 
-[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
+[Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
