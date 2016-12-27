@@ -1,9 +1,9 @@
 <properties
 	pageTitle="I need to change the payment method"
 	description="I need to change the payment method"
-	service="azure-billing"
+	service="microsoft.billing"
 	resource="billing"
-	authors="kasparks"
+	authors="jlian"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""

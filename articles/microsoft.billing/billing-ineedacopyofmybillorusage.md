@@ -1,18 +1,18 @@
 <properties
-	pageTitle="need a copy of my bill and usage"
-	description="need a copy of my bill and usage"
-	service="azure-billing"
+	pageTitle="I need a copy of my bill or usage"
+	description="I need a copy of my bill or usage"
+	service="microsoft.billing"
 	resource="billing"
-	authors="kasparks"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32454862"
+	authors="jlian"
+	displayOrder="1"
+	selfHelpType="resource"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15659"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
-# need a copy of my bill and usage
+# I need a copy of my bill or usage
 
 ## **Recommended steps**
 
