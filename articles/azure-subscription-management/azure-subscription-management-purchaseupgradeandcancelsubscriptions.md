@@ -27,5 +27,5 @@
 ## **Recommended documents**
 
 [Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
-[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
+[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://partner.microsoft.com/membership/core-benefits#Core benefits)<br>
 [Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
