@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
     
 # My cluster is not starting or nodes are not displaying

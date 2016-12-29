@@ -9,7 +9,7 @@
 	supportTopicIds="32449695"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # tools/service fabric explorer

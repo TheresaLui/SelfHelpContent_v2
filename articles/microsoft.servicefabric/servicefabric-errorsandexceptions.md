@@ -9,7 +9,7 @@
 	supportTopicIds="32449687"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # development/errors and exceptions

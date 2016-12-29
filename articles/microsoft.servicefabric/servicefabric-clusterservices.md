@@ -9,7 +9,7 @@
 	supportTopicIds="32449683"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # cluster/cluster services

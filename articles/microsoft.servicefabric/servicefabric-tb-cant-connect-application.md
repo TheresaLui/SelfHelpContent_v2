@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
  
 # Connection failures to applications deployed in a cluster 
