@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
  
 # Errors upgrading a service

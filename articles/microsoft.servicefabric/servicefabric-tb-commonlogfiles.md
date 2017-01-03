@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
     
 # Common log files for Service Fabric nodes
