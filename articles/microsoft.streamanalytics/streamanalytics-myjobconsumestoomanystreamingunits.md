@@ -52,7 +52,7 @@ The number of unmatched events in the join affect the memory unitization for the
 
 ~~~~
 SELECT id from clicks INNER JOIN,
-impressions on impressions.id = clicks.id AND datediff(hour, impressions, clicks) between 0 AND 10
+impressions on impressions.id = clicks.id AND DATEDIFF(hour, impressions, clicks) between 0 AND 10
 ~~~~
 
 It is possible that lots of ads are shown and few people click on it and it is required to keep all the events in the timewindow. Memory consumed is proportional to the window size and event rate. 
