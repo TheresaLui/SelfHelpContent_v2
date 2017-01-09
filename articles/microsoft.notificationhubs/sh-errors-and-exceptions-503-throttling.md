@@ -4,11 +4,11 @@
 	service="microsoft.notificationhubs"
 	authors="faridabharmal"
 	displayOrder=""
-	selfHelpType="Generic"
+	selfHelpType="generic"
 	resource="namespaces"
 	resourceTags="notificationHubs"
 	productPesIds="15973"
-	supportTopicIds ="32565580"
+	supportTopicIds="32565580"
 	cloudEnvironments="public"
 />
 
