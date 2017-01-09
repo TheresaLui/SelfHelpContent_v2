@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/400 Bad Request for Pricing Tier Update"
 	description="Errors and Exceptions/400 Bad Request for Pricing Tier Update"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

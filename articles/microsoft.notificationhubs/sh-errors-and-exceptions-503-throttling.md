@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/503 Throttling"
 	description="Errors and Exceptions/503 Throttling"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

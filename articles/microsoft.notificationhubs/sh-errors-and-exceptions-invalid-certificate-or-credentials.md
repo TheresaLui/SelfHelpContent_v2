@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/Invalid certificate or credentials"
 	description="Errors and Exceptions/Invalid certificate or credentials"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

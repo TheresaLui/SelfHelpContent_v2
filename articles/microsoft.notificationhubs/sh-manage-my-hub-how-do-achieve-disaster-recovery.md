@@ -2,7 +2,7 @@
 	pageTitle="Manage My Hub/How do I achieve disaster recovery"
 	description="Manage My Hub/How do I achieve disaster recovery"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

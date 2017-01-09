@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/500 Internal Server"
 	description="Errors and Exceptions500 Internal Server"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

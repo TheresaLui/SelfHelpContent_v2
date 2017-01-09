@@ -2,7 +2,7 @@
 	pageTitle="Issues with Devices or Notifications/Registration disappears"
 	description="Issues with Devices or Notifications/Registration disappears"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

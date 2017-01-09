@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/Channel disconnected error"
 	description="Errors and Exceptions/Channel disconnected error"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

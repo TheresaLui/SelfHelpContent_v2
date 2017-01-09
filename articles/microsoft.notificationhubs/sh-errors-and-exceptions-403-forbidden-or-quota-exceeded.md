@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/403 Forbidden or Quota Exceeded"
 	description="Errors and Exceptions/403 Forbidden or Quota Exceeded"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

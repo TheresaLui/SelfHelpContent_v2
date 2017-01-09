@@ -2,7 +2,7 @@
 	pageTitle="Issues with Devices or Notifications/Push notification not received"
 	description="Issues with Devices or Notifications/Push notification not received"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	selfHelpType="Generic"
 	resource="namespaces"
 	resourceTags="notificationHubs"

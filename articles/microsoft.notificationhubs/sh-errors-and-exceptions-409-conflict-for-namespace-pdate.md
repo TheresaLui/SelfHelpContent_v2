@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/409 Conflict for Namespace Update"
 	description="Errors and Exceptions/409 Conflict for Namespace Update"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

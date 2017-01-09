@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions/Invalid token or PNS handle"
 	description="Errors and Exceptions/Invalid token or PNS handle"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

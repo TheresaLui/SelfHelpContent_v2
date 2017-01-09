@@ -2,7 +2,7 @@
 	pageTitle="Issues with Devices or Notifications/Telemetric"
 	description="Issues with Devices or Notifications/Telemetric"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"

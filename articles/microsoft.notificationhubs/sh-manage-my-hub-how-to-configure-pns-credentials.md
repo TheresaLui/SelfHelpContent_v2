@@ -2,7 +2,7 @@
 	pageTitle="Manage My Hub/How to configure PNS credentials"
 	description="Manage My Hub/How to configure PNS credentials"
 	service="microsoft.notificationhubs"
-	authors="faridap"
+	authors="faridabharmal"
 	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"
