@@ -8,7 +8,7 @@
 	resource="namespaces"
 	resourceTags="notificationHubs"
 	productPesIds="15973"
-	supportToicIds ="32565575"
+	supportTopicIds ="32565575"
 	cloudEnvironments="public"
 />
 

@@ -8,7 +8,7 @@
 	resource="namespaces"
 	resourceTags="notificationHubs"
 	productPesIds="15973"
-	supportToicIds ="32565576"
+	supportTopicIds ="32565576"
 	cloudEnvironments="public"
 />
 
@@ -20,6 +20,6 @@
 
 
 ## **Recommended documents**
-* [Device Limits](https://azure.microsoft.com/en-us/pricing/details/notification-hubs)<br>
+* [Device Limits](https://azure.microsoft.com/pricing/details/notification-hubs)<br>
 * [Diagnosis guidelines](http://go.microsoft.com/fwlink/?LinkID=824681)<br>
 * [Common error codes](http://go.microsoft.com/fwlink/?LinkID=824682)<br>

@@ -8,7 +8,7 @@
 	resource="namespaces"
 	resourceTags="notificationHubs"
 	productPesIds="15973"
-	supportToicIds ="32565579"
+	supportTopicIds ="32565579"
 	cloudEnvironments="public"
 />
 
@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 Notification Hub is a multi-tenant environment. If there are very few errors, retry should help.<br>
-If there are lots of internal server errors, check the [dashboard](https://azure.microsoft.com/en-us/status) to see if there are any outages. <br>
+If there are lots of internal server errors, check the [dashboard](https://azure.microsoft.com/status) to see if there are any outages. <br>
 
 
 ## **Recommended documents**

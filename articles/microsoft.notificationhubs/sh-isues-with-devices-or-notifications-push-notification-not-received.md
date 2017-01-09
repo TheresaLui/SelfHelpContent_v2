@@ -3,11 +3,12 @@
 	description="Issues with Devices or Notifications/Push notification not received"
 	service="microsoft.notificationhubs"
 	authors="faridabharmal"
+	displayOrder=""
 	selfHelpType="Generic"
 	resource="namespaces"
 	resourceTags="notificationHubs"
 	productPesIds="15973"
-	supportToicIds ="32565573"
+	supportTopicIds ="32565573"
 	cloudEnvironments="public"
 />
 
