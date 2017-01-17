@@ -40,11 +40,9 @@ partition by clusterid
 group by clustered tumblingwindow (minutes, 5)
 ~~~~
 
-the number of `clustered` 
+The number of `clustered` is the cardinality of GROUP BY here.
 
-Once the query is partitioned out, it is spread out over multiple nodes. As a result, the number of events coming into each node is reduced thereby reducing the size of the reorder buffer.  
-
-Eventhub partitions should be partitioned by partitionid.
+Once the query is partitioned out, it is spread out over multiple nodes. As a result, the number of events coming into each node is reduced thereby reducing the size of the reorder buffer. Eventhub partitions should also be partitioned by partitionid.
 
 _2) High unmatched event count for Join_
 
