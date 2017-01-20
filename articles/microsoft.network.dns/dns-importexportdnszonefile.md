@@ -18,7 +18,7 @@
 
 Azure DNS supports import and export of standard DNS zone files via the [Azure Command Line Interface (CLI)](https://docs.microsoft.com/azure/xplat-cli-install), which is available for Windows, Mac and Linux. For further information, please see the documentation links below.
 
-Zone file import and export are not yet available via the Azure Portal or Azure PowerShell.
+Zone file import and export are not yet available via the Azure portal or Azure PowerShell.
 
 ## **Recommended documents**
 
