@@ -21,7 +21,7 @@
 5. On the Query tab, use the “Test” button to test the query and use the sample data downloaded to test the query. Examine any errors and attempt to remediate them.  
 6. If Timestamp By is used, make sure the events have timestamps greater than the job start time. 
 7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using WITH clause to build up the query logic, step by step.
-8. Watch out for common gotachas: <br>
+8. Watch out for common gotchas: <br>
     * It's is possible that your query is functioning just fine but for example, a where clause in the query filtered out their events that prevented outputs from being generated. <br>
     * It's is possible that your query is functioning just fine, but the window size is large enough that you’ll need to wait for the corresponding duration to see an output from the query. <br>
 9. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser versus running the job for real. 
@@ -53,7 +53,7 @@ Learn about the job diagram [here.](https://aka.ms/job_diagram)
 
 In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 
-**QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step is a query step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 
+**QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 
 
 If the preceding step is an input processor, use the input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
 

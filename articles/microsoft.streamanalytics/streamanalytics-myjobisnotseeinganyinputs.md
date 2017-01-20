@@ -26,7 +26,7 @@
 8. If no output is obtained after the expected duration (based on the query), try the following: 
     * Look at Monitoring Metrics on Monitor tab. The metrics here are delayed by about couple of minutes as they are aggregated values over last minute. 
     * Look at the metrics for Input Events, Runtime Errors, Data Conversion Errors. 
-        * If Input Events > 0, the ASA job is able to read data. If not, then the problems may be 
+        * If Input Events > 0, the ASA job is able to read data. If not, problems may be the following:
             * If Timestamp By is used, make sure the events have timestamps greater than the start time. 
             * Look at the data source and see if it has valid data for this job using Service Bus Explorer (if Event Hub is used as input) 
             * Check if the Data serialization format and Encoding are as expected. 
