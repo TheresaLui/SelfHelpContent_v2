@@ -17,7 +17,7 @@
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)<br>
 [How to manage DNS records using the Azure portal](https://docs.microsoft.com/azure/dns/dns-operations-recordsets-portal)<br>
 [Delegate your domain to Azure DNS](https://docs.microsoft.com/azure/dns/dns-domain-delegation)<br>
-[How to import and export a DNS zone file](https://docs.microsoft.com/en-us/azure/dns/dns-import-export)<br>
+[How to import and export a DNS zone file](https://docs.microsoft.com/azure/dns/dns-import-export)<br>
 [How to integrate Azure DNS with other Azure services](https://docs.microsoft.com/azure/dns/dns-for-azure-services)<br>
 [How to protect DNS zones and records](https://docs.microsoft.com/azure/dns/dns-protect-zones-recordsets)<br>
 [Azure DNS troubleshooting guide](https://docs.microsoft.com/azure/dns/dns-troubleshoot)
