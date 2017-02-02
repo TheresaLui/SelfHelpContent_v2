@@ -3,7 +3,7 @@
 	description="worker role (paas)/Deployment/Unable to update/deploy package files"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="chiragpa"
+	authors="SelfHelpContentByChiragPa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565479"
