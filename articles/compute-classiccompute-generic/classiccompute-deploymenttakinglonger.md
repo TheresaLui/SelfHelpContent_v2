@@ -3,7 +3,7 @@
 	description="worker role (paas)/Deployment/Deployment taking longer"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="chiragpa"
+	authors="SelfHelpContentByChiragPa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565476"
