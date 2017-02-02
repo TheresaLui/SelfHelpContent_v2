@@ -3,7 +3,7 @@
 	description="worker role (paas)/Deployment/Role recycles or stuck during deployment"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="chiragpa"
+	authors="SelfHelpContentByChiragPa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565478"
