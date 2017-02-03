@@ -3,7 +3,7 @@
 	description="worker role (paas)/Deployment/Virutal Machine Size Not Available"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565480"
