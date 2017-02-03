@@ -20,3 +20,4 @@
 [SQL Server connectivity drivers](https://msdn.microsoft.com/library/mt654049.aspx)<br>
 [Troubleshoot Remote Desktop connections to an Azure virtual machine running Windows](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-troubleshoot-rdp-connection/)<br>
 [Troubleshoot access to an application running on an Azure virtual machine](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-troubleshoot-app-connection/)
+
