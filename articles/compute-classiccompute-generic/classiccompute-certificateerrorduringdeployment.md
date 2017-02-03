@@ -3,7 +3,7 @@
 	description="worker role (paas)/Deployment/Certificate Error During Deployment"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="SelfHelpContentByChiragPa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565475"
