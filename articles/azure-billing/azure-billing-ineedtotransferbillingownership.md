@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32454918"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15660"
 	cloudEnvironments="public"
 />
 
