@@ -17,6 +17,7 @@
 ## **Recommended documents**
 
 [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
+[Purchase FAQ](https://azure.microsoft.com/pricing/faq/)<br> 
 [Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
 [Azure limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 [Update payment information](https://docs.microsoft.com/azure/billing-how-to-change-credit-card)<br>
