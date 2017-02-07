@@ -9,7 +9,7 @@
 	supportTopicIds="32421022"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # connectivity issues

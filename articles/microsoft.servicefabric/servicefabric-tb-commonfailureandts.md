@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
     
 # Common Failures and Troubleshooting Steps for Application/Service

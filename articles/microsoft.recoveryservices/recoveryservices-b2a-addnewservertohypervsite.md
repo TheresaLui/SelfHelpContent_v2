@@ -18,6 +18,7 @@ Common issues during adding servers to Hyper-V Site
 
 ## **Recommended Steps**
 
+*  Ensure that the installation is done using an account that is a **Local Administrator** on the server.
 * Ensure that the server on which you install the **Microsoft Azure Site Recovery Provider** has access to the following url's <br>
 	1. *.hypervrecoverymanager.windowsazure.com
 	2. *.accesscontrol.windows.net
