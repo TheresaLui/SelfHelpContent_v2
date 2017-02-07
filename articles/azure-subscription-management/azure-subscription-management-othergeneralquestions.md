@@ -17,7 +17,6 @@
 ## **Recommended documents**
 
 [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
-[Billing and subscription FAQ](https://docs.microsoft.com/azure/billing-subscription-faq)<br>
 [Subscription limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 [Manage administrator roles](https://docs.microsoft.com/azure/billing-add-change-azure-subscription-administrator)<br>
 [Transfer subscription ownership](https://docs.microsoft.com/azure/billing-subscription-transfer)<br>

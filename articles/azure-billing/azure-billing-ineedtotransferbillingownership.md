@@ -4,7 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
-	displayOrder="3"
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds="32454918"
 	resourceTags=""
@@ -24,7 +24,7 @@
 
 4. On the right side of the page, select **Transfer Subscription**.
 
-If your current Account Admin has left and you need to take over ownership, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can validate the transfer.
+If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer.
 
 ## **Recommended documents**
 

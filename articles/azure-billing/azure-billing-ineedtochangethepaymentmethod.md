@@ -4,7 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
-	displayOrder="2"
+	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32454858"
 	resourceTags=""
@@ -24,7 +24,7 @@
 
 4. On the right side of the page, select **Manage payment methods**.
 
-If you want to update payment method to 'invoice' (direct debit), please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can run a credit check before approving your request.
+If you want to update payment method to 'invoice' (direct debit), please open a support request so we can run a credit check before approving your request.
 
 ## **Recommended documents**
 

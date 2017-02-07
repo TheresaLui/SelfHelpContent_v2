@@ -4,7 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
-	displayOrder="5"
+	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32454933"
 	resourceTags=""
