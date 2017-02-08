@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa)
+* [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
 
 * You may have reached the spending limit. The Account Admin can remove the spending limit.<br>
 [Learn more about Spending Limit and how to remove it](https://azure.microsoft.com/pricing/spending-limits/)

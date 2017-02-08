@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
 2. Sign in at [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin.
 

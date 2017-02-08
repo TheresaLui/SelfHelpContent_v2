@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
+* [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).<br>
 
 * You can upgrade your free Azure subscription to Pay-As-You-Go.
 [Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>

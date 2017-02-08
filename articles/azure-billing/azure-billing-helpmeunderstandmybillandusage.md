@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).<br>
 
 2. Download your detail usage files (.CSV). <br>
 [Get invoice and usage](https://docs.microsoft.com/azure/billing-download-azure-invoice-daily-usage-date)

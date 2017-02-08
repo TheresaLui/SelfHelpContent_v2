@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
 2. The Account Admin can cancel a subscription in the portal. <br>
 [Cancel Azure subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
