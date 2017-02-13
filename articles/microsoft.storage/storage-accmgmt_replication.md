@@ -20,19 +20,27 @@ The data in your Microsoft Azure storage account is always replicated to ensure 
 Replication ensures that your storage account meets the [Service-Level Agreement (SLA) for Storage](https://azure.microsoft.com/support/legal/sla/storage/) even in the face of failures. See the SLA for information about Azure Storage guarantees for durability and availability. 
 
 When you create a storage account, you can select one of the following replication options: 
-- [LRS - Locally Redundant Storage](https://docs.microsoft.com/azure/storage/storage-redundancy#locally-redundant-storage)<br>    
-- [ZRS - Zone Redundant Storage](https://docs.microsoft.com/azure/storage/storage-redundancy#zone-redundant-storage)<br>
-- [GRS - Geo Redundant Storage](https://docs.microsoft.com/azure/storage/storage-redundancy#geo-redundant-storage)<br>     
-- [RA-GRS - Read-Access Geo Redundant Storage](https://docs.microsoft.com/azure/storage/storage-redundancy#read-access-geo-redundant-storage)
- 
-Read-access geo-redundant storage (RA-GRS) is the default option when you create a new storage account. 
+* [Locally redundant storage (LRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#locally-redundant-storage)
+* [Zone-redundant storage (ZRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#zone-redundant-storage)
+* [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#geo-redundant-storage)   
+* [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#read-access-geo-redundant-storage)
 
-The following table provides a quick overview of the differences between LRS, ZRS, GRS, and RA-GRS, while subsequent sections address each type of replication in more detail. 
-| **Replication strategy**        														| **LRS**		| **ZRS**	| **GRS**	| **RA-GRS**	|
-| ------------------------------------------------------------------------------------- |:-------------:| :--------:| :--------:| :------------:|
-| Data is replicated across multiple datacenters.										| No			| Yes		| Yes		| Yes			| 
-| Data can be read from the secondary location as well as from the primary location.	| No			| No		| No		| Yes			|
-| Number of copies of data maintained on separate nodes. 								| 3				| 3			| 6			| 6				|
+Read-access geo-redundant storage (RA-GRS) is the default option when you create a new storage account.
+
+The following table provides a quick overview of the differences between LRS, ZRS, GRS, and RA-GRS, while subsequent sections address each type of replication in more detail.
+
+| Replication strategy | LRS | ZRS | GRS | RA-GRS |
+|:--- |:--- |:--- |:--- |:--- |
+| Data is replicated across multiple datacenters. |No |Yes |Yes |Yes |
+| Data can be read from the secondary location as well as from the primary location. |No |No |No |Yes |
+| Number of copies of data maintained on separate nodes. |3 |3 |6 |6 |
+
+See [Azure Storage Pricing](https://azure.microsoft.com/pricing/details/storage/) for pricing information for the different redundancy options.
+
+> [!NOTE]
+> Premium Storage supports only locally redundant storage (LRS). For information about Premium Storage, see [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](storage-premium-storage.md).
+>
+>
 
 ## **Recommended documents**
 - [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
