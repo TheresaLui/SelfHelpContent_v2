@@ -22,7 +22,8 @@
 [How to update payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)
 
 ## **Recommended documents**
-
+[Update, change or remove payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
+[I got 'Past due balance' notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
 [Troubleshoot issues signing up for Azure](https://azure.microsoft.com/documentation/articles/billing-troubleshoot-azure-sign-up-issues/)<br>
 [Why my credit card doesn't go through when I try to sign up for Azure?](https://azure.microsoft.com/documentation/articles/billing-credit-card-fails-during-azure-sign-up/)<br>
 [What to do if my subscription shows as disabled?](https://azure.microsoft.com/documentation/articles/billing-subscription-become-disable/)<br>
