@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Identity Protection"
 	description="Identity Protection"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
+	service="microsoft.aad"
+	resource="Microsoft_AAD_ProtectionCenter"
 	authors="zhchia"
 	displayOrder=""
 	selfHelpType="generic"
