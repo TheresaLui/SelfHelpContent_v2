@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Site Recovery (VMware to Azure)/Add vCenter"
-	description="Site Recovery (VMware to Azure)/Common issues during add vCenter"
+	pageTitle="Site Recovery (VMware to Azure)/Process Server deployment issues"
+	description="Site Recovery (VMware to Azure)/Common issues during Process Server deplooyments"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="AnoopVasudavan"
