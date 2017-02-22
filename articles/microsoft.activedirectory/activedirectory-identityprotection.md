@@ -16,5 +16,5 @@
 
 
 ## **Recommended documents**
-[How to try Identity Protection](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial )
-[How do I enable Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-identityprotection-enable )
+[How to try Identity Protection](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial ) <br>
+[How do I enable Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable ) <br>
