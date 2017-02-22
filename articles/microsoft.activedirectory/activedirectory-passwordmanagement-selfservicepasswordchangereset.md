@@ -16,9 +16,9 @@
 
 
 ## **Recommended documents**
-[Azure AD Password Reset for IT Admins](https://docs.microsoft.com/azure/active-directory/active-directory-passwords)
-[How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#how-password-writeback-works)
-[How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works)
-[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
-[Deploying Password Management and training users to use it](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
-[How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password)
+[Azure AD Password Reset for IT Admins](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) <br>
+[How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#how-password-writeback-works) <br>
+[How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works) <br>
+[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) <br>
+[Deploying Password Management and training users to use it](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices) <br>
+[How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password) <br>
