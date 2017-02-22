@@ -6,7 +6,7 @@
 	authors="trinadhk"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553281"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
