@@ -29,7 +29,7 @@ To learn more about our automated recovery action please read the following arti
 	•	[Configure availability of virtual machines](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-how-to-configure-availability)
 	•	Understand and use Resource Health Center to troubleshoot this scenario in the future <insert link>
 
-## **We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you**
+## **We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you.**
 
 Regards,
 Microsoft Azure Team
