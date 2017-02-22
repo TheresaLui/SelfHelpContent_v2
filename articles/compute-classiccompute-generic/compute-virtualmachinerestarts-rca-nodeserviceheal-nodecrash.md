@@ -17,6 +17,7 @@
 
 #We ran diagnostics on your resource and found an issue
 
+
 ## **Microsoft Azure team has concluded our investigation of the reboot of your Virtual Machine [VM]<!--($vmname)-->** 
 
 We identified that your VM became unresponsive at <dynamic time_start> and was restored at <dynamic time_end>. This occurrence was triggered by hardware issue on the physical node where the virtual machine was hosted. As designed, this resulted in an automated recovery action for your VM where it was moved to a new physical node that does not have this problem. For more details on our auto recovery process, you can refer to the below content.
