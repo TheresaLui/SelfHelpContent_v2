@@ -43,4 +43,8 @@ Common issues during Add vCenter
 
 
 ## **Recommended  Documents**
-[VMware to Azure](https://aka.ms/asrstv2a)
+* [Prepare an account for Automatic discovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vCenter#prepare-an-account-for-automatic-discovery)
+* [Create an account in CSPSConfigtool to connect to a VMware vCenter Server / vSphere ESSi host](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vCenter#create-an-account-to-connect-to-vmware-vcenter-server-vmware-vsphere-exsi-host)
+* [Add vCenter / vSphere ESX Host to Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vCenter#associate-a-vmware-vcenter-vmware-vsphere-esx-host-add-vcenter)
+* [Change/Modify credentials to connect to vCenter/vSphere ESXi host] (https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vCenter#associate-a-vmware-vcenter-vmware-vsphere-esx-host-add-vcenter)
+* [Delete a vCenter from Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vCenter#delete-a-vcenter-in-azure-site-recovery)
