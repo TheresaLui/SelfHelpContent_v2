@@ -1,10 +1,10 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Service Heal - Node Crash
+	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="An RCA has been found"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scotro"
+	authors="ScottAzure"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_C9DA72E6-81B0-48D6-8CAC-1C7B2D3EAC08"
 	diagnosticScenario="UnexpectedVMReboot"
@@ -24,13 +24,13 @@ We identified that your VM became unresponsive at <dynamic time_start> and was r
 
 To learn more about our automated recovery action please read the following article: [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 
-## We recommend the following steps to better avoid this issue:
+## **Recommended steps to better avoid this issue:**
 
-	[Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
-	[Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
-	Understand and use Resource Health Center to troubleshoot this scenario in the future <insert link>
+* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
+* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/en-us/azure/resource-health/resource-health-overview)
 
-## **We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you**
+**We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you**
 
 Regards,
 Microsoft Azure Team
