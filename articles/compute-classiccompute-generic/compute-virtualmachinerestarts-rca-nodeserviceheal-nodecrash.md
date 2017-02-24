@@ -28,7 +28,7 @@ To learn more about our automated recovery action please read the following arti
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/en-us/azure/resource-health/resource-health-overview)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 
 **We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you**
 
