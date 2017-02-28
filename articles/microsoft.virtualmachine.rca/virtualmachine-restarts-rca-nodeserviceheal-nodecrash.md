@@ -16,7 +16,7 @@
 />
 
 #We ran diagnostics on your resource and found an issue
-fs
+
 ## **Microsoft Azure VM Availability incident diagnostic information for [VM]<!--($vmname)-->** 
 
 Microsoft Azure has concluded our investigation of your Virtual Machine (VM) [VM]fs<!--($vmname)--> in subscription [SubscriptionId]<!--($SubscriptionId)-->. We identified that your VM became unavailable at <!--($StartTime)--> (UTC) and availability was restored at <!--($EndTime)--> (UTC). This unexpected occurrence was caused by an Azure initiated auto-recovery action.
