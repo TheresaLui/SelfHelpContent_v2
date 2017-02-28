@@ -23,7 +23,7 @@ Microsoft Azure has concluded our investigation of your Virtual Machine (VM) [VM
 
 The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted. As designed, your VM was automatically moved to a different and healthy physical node to avoid further impact.
 
-To learn more about our automated recovery action, please read the following article: Auto-recovery of Virtual Machines
+To learn more about our automated recovery action, please read the following article: [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 
 To ensure high availability for your application in Azure it is recommended that you group two or more virtual machines in an availability set. This configuration ensures an increased level of protection and provides redundancy during either a planned or unplanned maintenance events. More information on managing and configuring availability of virtual machine can be found in the following articles:
 
