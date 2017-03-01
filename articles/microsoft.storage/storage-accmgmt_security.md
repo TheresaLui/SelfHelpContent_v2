@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to troubleshoot my connectivity or security issue"
-	description="How to troubleshoot my connectivity or security issue"
+	pageTitle="How to troubleshoot connectivity or security issue"
+	description="How to troubleshoot connectivity or security issue"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to troubleshoot my connectivity or security issue
+# How to troubleshoot connectivity or security issue
 ### **Access and Connectivity Options**
 - [User Policy to manage resources and control access](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy)
 - [Assign a user access to your Storage account](https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/)

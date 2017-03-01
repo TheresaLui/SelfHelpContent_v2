@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How does my Azure storage billing works"
-	description="How does my Azure storage billing works"
+	pageTitle="How does Azure storage billing works"
+	description="How does Azure storage billing works"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How does my Azure storage billing works
+# How does Azure storage billing works
 
 ## **Recommended documents**
 - [How to get Storage usage and capacity metrics](https://docs.microsoft.com/rest/api/storageservices/fileservices/enabling-storage-metrics-and-viewing-metrics-data)

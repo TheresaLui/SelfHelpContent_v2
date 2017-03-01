@@ -1,18 +1,18 @@
 <properties
-	pageTitle="How much Storage usage and capacity am I using?"
-	description="How much Storage usage and capacity am I using?"
+	pageTitle="How to get Azure Storage usage and capacity"
+	description="How to get Azure Storage usage and capacity"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551653"
+	supportTopicIds="32551681"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
-# HHow much Storage usage and capacity am I using?
+# How to get Azure Storage usage and capacity
 
 ## **Recommended documents**
 - [How to get your Azure billing invoice and daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)

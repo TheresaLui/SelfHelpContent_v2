@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Which Azure Backup components should I use"
-	description="Which Azure Backup components should I use"
+	pageTitle="Which Azure Backup components to use"
+	description="Which Azure Backup components to use"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Which Azure Backup components should I use
+# Which Azure Backup components to use
 
 ## **Recommended documents**
 - [Using Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup)<br>

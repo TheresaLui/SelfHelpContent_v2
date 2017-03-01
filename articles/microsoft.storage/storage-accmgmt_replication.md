@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Which account replication type do I need"
-	description="Which account replication type do I need"
+	pageTitle="Which account replication type to use"
+	description="Which account replication type to use"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Which account replication type do I need
+# Which account replication type to use
 
 ## **Recommended documents**
 - [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
