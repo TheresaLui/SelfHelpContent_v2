@@ -15,8 +15,6 @@
 # Azure storage account management
 
 ## **Recommended documents**
-- [Introduction to Microsoft Azure Storage](https://docs.microsoft.com/azure/storage/storage-introduction)<br>
-- [About Azure storage accounts](https://docs.microsoft.com/azure/storage/storage-create-storage-account)<br>
 - [Azure Storage Best Practices and Patterns](https://azure.microsoft.com/resources/videos/microsoft-storage-what-new-best-practices-and-patterns/)<br>
 - [Hot and cool storage tiers](https://docs.microsoft.com/azure/storage/storage-blob-storage-tiers)<br>
 - [Products available by region](https://azure.microsoft.com/regions/services/)<br>
