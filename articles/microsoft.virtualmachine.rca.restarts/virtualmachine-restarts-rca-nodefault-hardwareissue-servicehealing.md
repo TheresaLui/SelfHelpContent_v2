@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_C9DA72E6-81B0-48D6-8CAC-1C7B2D3EAC08"
+	articleId="UnexpectedVMReboot_BB115A36-167C-4908-8947-115C9E3C7759"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
@@ -15,23 +15,23 @@
 	cloudEnvironments="public"
 />
 
-#We ran diagnostics on your resource and found an issue
+#We ran diagnostics on your resource and found an issue#
 
-## **Microsoft Azure VM Availability incident diagnostic information for [VM]<!--($vmname)-->** 
+## **Microsoft Azure VM Availability incident diagnostic information for [VM]<!--($vmname)-->** ##
 
-Microsoft Azure has concluded our investigation of your Virtual Machine (VM) [VM]fs<!--($vmname)--> in subscription [SubscriptionId]<!--($SubscriptionId)-->. We identified that your VM became unavailable at <!--($StartTime)--> (UTC) and availability was restored at <!--($EndTime)--> (UTC). This unexpected occurrence was caused by an Azure initiated auto-recovery action.
+Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[VM]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at <!--($StartTime)--> (UTC)** and **availability was restored at <!--($EndTime)--> (UTC)**. This **unexpected occurrence** was **caused by an Azure initiated auto-recovery action**.
 
 The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted. As designed, your VM was automatically moved to a different and healthy physical node to avoid further impact.
 
 To learn more about our automated recovery action, please read the following article: [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 
-To ensure high availability for your application in Azure it is recommended that you group two or more virtual machines in an availability set. This configuration ensures an increased level of protection and provides redundancy during either a planned or unplanned maintenance events. More information on managing and configuring availability of virtual machine can be found in the following articles:
+*To ensure high availability for your application in Azure it is recommended that you group two or more virtual machines in an availability set. This configuration ensures an increased level of protection and provides redundancy during either a planned or unplanned maintenance events. More information on managing and configuring availability of virtual machine can be found in the following articles:*
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
 
 Microsoft Azure also provides access to resource health information in the Azure Portal via Azure Resource Health, a service that exposes the health of individual Azure resources and provides actionable guidance to troubleshoot problems. To learn more about Azure Resource Health, please refer to the following article: [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 
-We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you.
+We apologize for any inconvenience this may have caused to you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
 
 Regards, Microsoft Azure Team
