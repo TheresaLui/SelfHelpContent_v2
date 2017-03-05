@@ -5,7 +5,7 @@
 	resource="activedirectory"
 	authors="parja"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32416707"
 	resourceTags=""
 	productPesIds="14785"
