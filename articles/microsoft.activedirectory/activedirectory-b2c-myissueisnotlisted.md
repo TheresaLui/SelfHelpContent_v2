@@ -1,0 +1,20 @@
+ <properties
+	pageTitle="Business to Consumer (B2C)/My issue is not listed"
+	description="Business to Consumer (B2C) version of my issue is not listed"
+	service="microsoft.activedirectory"
+	resource="activedirectory"
+	authors="parja"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32416707"
+	resourceTags=""
+	productPesIds="14785"
+	cloudEnvironments="public"
+/>
+
+# Business to Consumer (B2C) / My issue is not listed
+
+You can get help for many common problems from the Microsoft community or exploring the following channels.
+
+* Post your question on [Stackoverflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'!
+* Browse [Azure AD B2C documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
