@@ -17,7 +17,11 @@
 
 ## **Recommended documents**
 [How to delete my B2C tenant](https://support.microsoft.com/help/3112170/-cannot-delete-error-when-you-try-to-delete-a-b2c-directory-in-azure-ad)<br>
-[How to link my Azure Subscription to my B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing) 
+[How to link my Azure Subscription to my B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing)
 <br>
 [Frequently asked questions](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-faqs)
+<br>
+[Stackoverflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c)
+<br>
+[UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)
 <br>
