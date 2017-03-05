@@ -14,7 +14,7 @@
 
 # Business to Consumer (B2C) / My issue is not listed
 
-You can get help for many common problems from the Microsoft community or exploring the following channels.
+You can get help for many common problems by exploring the following channels.
 
-* Post your question on [Stackoverflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'!
-* Browse [Azure AD B2C documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
+* Post your question on [Stackoverflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'
+* Browse [Azure AD B2C FAQ](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-faqs)
