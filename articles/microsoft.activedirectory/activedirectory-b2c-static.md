@@ -3,7 +3,7 @@
 	description="Business to Consumer (B2C)"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
-	authors="parja"
+	authors="parakhj"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32416703"

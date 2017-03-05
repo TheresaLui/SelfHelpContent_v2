@@ -3,7 +3,7 @@
 	description="Business to Consumer (B2C) version of my issue is not listed"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
-	authors="parja"
+	authors="parakhj"
 	displayOrder=""
 	selfHelpType="resource"
 	supportTopicIds="32416707"
