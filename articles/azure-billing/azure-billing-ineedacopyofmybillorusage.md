@@ -23,6 +23,6 @@
 
 ## **Recommended documents**
 
-[Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
+[Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)<br>
 [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 [Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
