@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Business to Consumer (B2C)/How to delete my tenant
+# I cannot delete my tenant
 
 
 ## **Recommended documents**

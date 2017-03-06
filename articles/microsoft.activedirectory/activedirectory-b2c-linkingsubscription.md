@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Business to Consumer (B2C)/How to link my subscription
+# How to link my subscription
 
 
 ## **Recommended documents**

@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Business to Consumer (B2C)/Creating or migrating users into Azure AD B2C
+# How to create or migrate users into Azure AD B2C
 
 The only way to create Azure AD B2C users that can sign in through your B2C integrated app is either:
 

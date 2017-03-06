@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Business to Consumer (B2C)/My issue is not listed
+# My issue is not listed
 
 You can get help for many common problems by exploring the following channels.
 
