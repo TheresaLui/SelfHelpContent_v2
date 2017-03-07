@@ -15,11 +15,11 @@
 	cloudEnvironments="public"
 />
 
-#We ran diagnostics on your resource and found an issue#
+#We ran diagnostics on your resource and found an issue
 
 ## **Microsoft Azure VM Availability incident diagnostic information for [VM]<!--($vmname)-->** ##
 
-Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[VM]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at <!--($StartTime)--> (UTC)** and **availability was restored at <!--($EndTime)--> (UTC)**. This **unexpected occurrence** was **caused by an Azure initiated temporary VM shutdown**.
+Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at [StartTime]<!--($StartTime)--> (UTC)** and **availability was restored at [EndTime]<!--($EndTime)--> (UTC)**. This **unexpected occurrence** was **caused by an Azure initiated temporary VM shutdown**.
 
 The temporary VM shutdown was triggered by our Azure monitoring systems detecting failed IO transaction between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. Once the node detected that conditions had improved, the VM was restarted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.   
 

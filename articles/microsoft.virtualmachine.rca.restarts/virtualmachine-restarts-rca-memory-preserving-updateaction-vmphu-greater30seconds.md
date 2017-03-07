@@ -15,11 +15,11 @@
 	cloudEnvironments="public"
 />
 
-#We ran diagnostics on your resource and found an issue#
+#We ran diagnostics on your resource and found an issue
 
 ## **Microsoft Azure VM Availability incident diagnostic information for [VM]<!--($vmname)-->** ##
 
-Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[VM]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at <!--($StartTime)--> (UTC)** and **availability was restored at <!--($EndTime)--> (UTC)**. This **expected occurrence** was **caused by an Azure initiated memory-preserving update action**.
+Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at [StartTime]<!--($StartTime)--> (UTC)** and **availability was restored at [EndTime]<!--($EndTime)--> (UTC)**. This **expected occurrence** was **caused by an Azure initiated memory-preserving update action**.
 
 The memory-preserving update action was performed on the physical node where the virtual machine was hosted. Due to update issues, the deployment was not progressing as fast as expected . The update process succeeded but your VM was unavailable longer than the expected maximum duration of 30 seconds. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
 
