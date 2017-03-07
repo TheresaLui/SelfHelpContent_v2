@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="craigwiand"
 	displayOrder="1"
-	articleId="cant-ssh<tbd>"
+	articleId="cant-ssh-tbd"
 	diagnosticScenario="CantSSH"
 	selfHelpType="resource"
 	supportTopicIds="32411835"
@@ -15,9 +15,9 @@
 	cloudEnvironments="public"
 />
 
-#We ran diagnostics on your Linux Virtual machine and found an issue#
+# We ran diagnostics on your Linux Virtual machine and found an issue
 
-## **Microsoft Azure VM diagnostic information for [VM]<!--($vmname)-->** ##
+## **Microsoft Azure VM diagnostic information for [VM]<!--($vmname)-->**
 
 Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can be caused by removing a data disk and restarting without updating the fstab file.  
 
