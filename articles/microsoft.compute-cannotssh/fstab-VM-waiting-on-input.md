@@ -21,9 +21,7 @@
 
 Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM is currently in a inaccessible state because it is waiting on user input to continue the boot process.  This problem is most commonly due to a problem in the file system table(fstab) file.  
 
-To view more detailed information, see the serial log output in the boot diagnostics blade by clicking
-
-> Virtual Machines > **[VMNAME]** > All settings > Boot diagnostics
+To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > **[VMNAME]** > **All settings** > **Boot diagnostics**
    
 ## Recovery steps ##
 To recover the virtual machine, follow these steps:
