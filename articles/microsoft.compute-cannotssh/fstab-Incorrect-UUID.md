@@ -30,8 +30,3 @@ To recover the VM, follow these steps:
 
 2. After you mount the OS disk as a data disk on the new VM, correct the fstab file using a text editor on the recovery VM. 
 3. After the fstab issues are resolved, return to [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks), and resume at the *Unmount and detach original virtual hard disk* section for steps to recreate the original VM.
-
-
-## More Information ##
-For more detailed information on correcting fstab issues in Azure Linux virtual machines see:
-[Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/en-us/help/3206699)
