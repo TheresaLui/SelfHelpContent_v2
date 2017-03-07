@@ -15,7 +15,7 @@
 
 # Synchronizing AD to Azure AD/Installation and upgrade
 
-## **Recommended documents for fresh installation**
+## **Recommended documents for new installation**
 [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites)
 <br>
 [Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-select-installation)
