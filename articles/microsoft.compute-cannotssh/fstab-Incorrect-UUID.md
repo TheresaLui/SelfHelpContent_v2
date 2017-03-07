@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-#We ran diagnostics on your Linux Virtual machine and found an issue
+#We ran diagnostics on your Linux Virtual machine and found an issue#
 
 ## **Microsoft Azure VM diagnostic information for [VM]<!--($vmname)-->** ##
 
