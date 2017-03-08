@@ -20,4 +20,4 @@ Currently, the combined "Sign-up or Sign-in policy" has a limitation that preven
 2. **Handle the error**: This requires the application to do some extra work. Clicking on "I forgot my password" redirects the user back to the application with an error code. The application needs to detect that the error code in the request and then further redirect the user to the Azure AD B2C password reset policy. The password reset policy can be customized extensively.
 
 ## **Recommended documents**
-[Sample using Sign-up or Sign-in policy](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-devquickstarts-web-dotnet-susi)
+[Sample using Sign-up or Sign-in policy](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-devquickstarts-web-dotnet-susi)
