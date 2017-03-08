@@ -26,10 +26,10 @@ Data backup:
 Data transfer:
 - [AzCopy](https://docs.microsoft.com/azure/storage/storage-use-azcopy)<br>
 - [Microsoft Azure Storage Explorer](http://storageexplorer.com)<br>
-- [Azure PowerShell](https://docs.microsoft.com/en-us/azure/storage/storage-powershell-guide-full#how-to-manage-azure-blobs)<br>
+- [Azure PowerShell](https://docs.microsoft.com/azure/storage/storage-powershell-guide-full#how-to-manage-azure-blobs)<br>
 
 Security and Encryption:
 - [Encryption](https://docs.microsoft.com/azure/storage/storage-service-encryption)<br>
-- [Azure Security Center FAQ](https://azure.microsoft.com/en-us/documentation/articles/security-center-faq/)<br>
+- [Azure Security Center FAQ](https://azure.microsoft.com/documentation/articles/security-center-faq/)<br>
 - [Azure Security Center - data collection and storage](https://docs.microsoft.com/azure/security-center/security-center-planning-and-operations-guide#data-collection-and-storage)<br>
 

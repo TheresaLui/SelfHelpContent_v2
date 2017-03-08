@@ -18,7 +18,7 @@
 - [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
 - [How to preform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
 - [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
-- [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/en-us/library/azure/ee460802.aspx)
+- [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/library/azure/ee460802.aspx)
 - [Designing highly available applications using RA-GRS](https://docs.microsoft.com/azure/storage/storage-designing-ha-apps-with-ragrs)
 
 ### **Replication options**
