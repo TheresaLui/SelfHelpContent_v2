@@ -14,6 +14,8 @@
 
 # My application is being throttled
 
+Throttling limits the number of concurrent calls to a service to prevent overuse of resources. Microsoft Graph is designed to handle a very high volume of requests. In the event of an overwhelming number of requests, throttling helps maintain optimal performance and reliability of the Microsoft Graph service.
+
 ## **Recommended steps**
 * Reduce the number of operations per request.
 * Reduce the frequency of calls.
