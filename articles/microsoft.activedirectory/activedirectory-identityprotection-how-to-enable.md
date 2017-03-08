@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-To enable Identity Protection, try the following steps.
+To enable Identity Protection, try the following steps.<br>
  
 1. Sign-on to your Azure portal as global administrator.<br>
 2. In the Azure portal, click Marketplace.<br>
