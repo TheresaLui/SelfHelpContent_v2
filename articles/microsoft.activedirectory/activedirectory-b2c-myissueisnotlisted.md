@@ -4,7 +4,7 @@
 	service="microsoft.activedirectory"
 	resource="activedirectory"
 	authors="parakhj"
-	displayOrder=""
+	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32416707"
 	resourceTags=""
