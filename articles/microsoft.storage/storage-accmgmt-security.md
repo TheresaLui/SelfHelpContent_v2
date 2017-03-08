@@ -13,6 +13,7 @@
 />
 
 # How to troubleshoot connectivity or security issue
+## **Recommended documents**
 ### **Access and Connectivity Options**
 - [User Policy to manage resources and control access](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-policy)
 - [Assign a user access to your Storage account](https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/)
