@@ -18,10 +18,10 @@
 
 To enable Identity Protection, try the following steps.
  
-1. Sign-on to your Azure portal as global administrator.
-2. In the Azure portal, click Marketplace.
-3. In the applications list, click Security + Identity.
-4. Click Azure AD Identity Protection.
+1. Sign-on to your Azure portal as global administrator.<br>
+2. In the Azure portal, click Marketplace.<br>
+3. In the applications list, click Security + Identity.<br>
+4. Click Azure AD Identity Protection.<br>
 5. On the Azure AD Identity Protection blade, click Create.
 
 ## **Recommended documents**
