@@ -16,8 +16,11 @@
 
 
 ## **Recommended documents**
+[Identity synchronization and duplicate attribute resiliency](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency)
+<br>
+[Azure AD Connect sync: Configure filtering](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering)
+<br>
 [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-object-not-syncing)
 <br>
 [Troubleshooting errors during synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors)
 <br>
-[Azure AD Connect sync: Configure filtering] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering)
