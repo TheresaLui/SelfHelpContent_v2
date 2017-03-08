@@ -6,9 +6,9 @@
     authors="jcardena"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32542231"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="14785"
+    productPesIds=""
     cloudEnvironments="public"
 />
 
