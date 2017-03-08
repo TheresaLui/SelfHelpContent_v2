@@ -16,9 +16,9 @@
 
 
 ## **Recommended documents**
-[Azure AD Connect: Accounts and permissions] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
+[Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 <br>
-[Azure AD Connect: Required Ports and Protocols] (https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-ports)
+[Azure AD Connect: Required Ports and Protocols](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports)
 <br>
 [Troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-connectivity)
 <br>
