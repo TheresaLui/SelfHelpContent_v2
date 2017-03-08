@@ -1,6 +1,6 @@
 <properties
 	pageTitle="My application is being throttled"
-	description="Guidance for avoiding throttling."
+	description="My application is being throttled"
 	service="Microsoft.graph"
 	resource="resourceName"
 	authors="PatAltimore"
