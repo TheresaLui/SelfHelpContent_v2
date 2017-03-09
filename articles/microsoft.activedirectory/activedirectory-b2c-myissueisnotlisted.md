@@ -6,9 +6,9 @@
 	authors="parakhj"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32416707"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
