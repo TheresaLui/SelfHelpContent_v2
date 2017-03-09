@@ -1,7 +1,8 @@
 <properties
     pageTitle="Why would you ever create a scale set with fewer than 2 VMs"
     description="Why would you ever create a scale set with fewer than 2 VMs"
-    service="microsoft.scalesets"
+    service="microsoft.compute"
+    resource="scalesets"
     author="negat"
     displayOrder="18"
     selfHelpType="resource"
