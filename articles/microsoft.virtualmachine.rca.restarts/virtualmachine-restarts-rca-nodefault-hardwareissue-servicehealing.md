@@ -17,9 +17,11 @@
 
 #We ran diagnostics on your resource and found an issue
 
+<!--issueDescription-->
 ## **Microsoft Azure VM Availability incident diagnostic information for [vmname]<!--($vmname)-->** ##
 
 Microsoft Azure has concluded our investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)--> in subscription **[SubscriptionId]**<!--($SubscriptionId)-->. We identified that your VM became **unavailable at [StartTime]<!--($StartTime)--> (UTC)** and **availability was restored at [EndTime]<!--($EndTime)--> (UTC)**. This **unexpected occurrence** was **caused by an Azure initiated auto-recovery action**.
+<!--/issueDescription-->
 
 The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted. As designed, your VM was automatically moved to a different and healthy physical node to avoid further impact.
 
