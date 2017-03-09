@@ -16,11 +16,10 @@
 Please bear with us as we develop our troubleshooting and support topics. We'll be adding troubleshooting content very soon, and right now we can offer you articles from our documentation library for your current context.
 
 ## Supporting documentation
-* [Add a custom domain name in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain)
-* [Delete a domain in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#delete-a-custom-domain-name)
-* [PowerShell for deleting a domain](https://docs.microsoft.com/powershell/msonline/v1/remove-msoldomain) 
-* [How to perform a DNS domain name takeover](https://docs.microsoft.com/azure/active-directory/active-directory-self-service-signup#how-to-perform-a-dns-domain-name-takeover)
-* [Manage the directory for your Office 365 subscription in Azure](https://docs.microsoft.com/azure/active-directory/active-directory-manage-o365-subscription)
-* [Federated and managed domain names](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#federated-and-managed-domain-names)
-* [Initial .onmicrosoft.com domain and custom domain names](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names)
-* [Add a subdomain to your custom domain](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain)
+* [Use your Azure subscription with the Azure AD that you use with Office 365](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-transfer)
+* [Adding B2B guests to your Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-admin-add-users) 
+* [Assign access to an Azure subscription or resource](https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-configure)
+* [Assign access to an Azure AD directory administration role](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-assign-admin-roles)
+* [Troubleshoot synchronization errs in Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors)
+* [Add a new user in the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-users-create-azure-portal)
+* [Restore a deleted user with PowerShell](https://docs.microsoft.com/en-us/powershell/msonline/v1/restore-msoluser)
