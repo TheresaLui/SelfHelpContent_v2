@@ -22,16 +22,16 @@ For more information, see [Autoscaling best practices](https://docs.microsoft.co
 
 Additional steps to try:<br>
 
-•	Ensure that all roles instances are in Ready state. Autoscaling only occurs if all roles are in Ready state.<br>
+* Ensure that all roles instances are in Ready state. Autoscaling only occurs if all roles are in Ready state.<br>
 
-•	Try to scale manually.<br>
-	If manual scaling succeeds, it may indicate that the autoscale profile is configured incorrectly. Multiple autoscale profiles can affect the behavior of autoscale. It is recommended to create and manage autoscale profiles from the [new portal](https://portal.azure.com).<br>
+* Try to scale manually.<br>
+  If manual scaling succeeds, it may indicate that the autoscale profile is configured incorrectly. Multiple autoscale profiles can affect the behavior of autoscale. It is recommended to create and manage autoscale profiles from the [new portal](https://portal.azure.com).<br>
 	
-•	Try scaling in smaller increments.<br> It may be successful if the cluster where your Cloud Service is deployed is low on resources. When scaling existing Cloud Services, the compute resources can be allocated only from the cluster where your service is deployed. For more information, see [Troubleshooting allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures).<br>
+* Try scaling in smaller increments.<br> It may be successful if the cluster where your Cloud Service is deployed is low on resources. When scaling existing Cloud Services, the compute resources can be allocated only from the cluster where your service is deployed. For more information, see    [Troubleshooting allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures).<br>
 
-•	Increase the subscription quota limit by contacting Microsoft, because autoscaling cannot succeed without sufficient compute quota.<br>
+* Increase the subscription quota limit by contacting Microsoft, because autoscaling cannot succeed without sufficient compute quota.<br>
 
-•	Create a host service and redeploy to it with the maximum instances required and scale down to a smaller number of instances if needed. Deploying with maximum instances ensures the cluster has the capacity you may require.<br>
+* Create a host service and redeploy to it with the maximum instances required and scale down to a smaller number of instances if needed. Deploying with maximum instances ensures the cluster has the capacity you may require.<br>
 
 
 ## **Recommended documents**
