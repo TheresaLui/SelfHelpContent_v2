@@ -2,7 +2,7 @@
 	pageTitle="Business to Consumer (B2C)"
 	description="Business to Consumer (B2C)"
 	service="microsoft.activedirectory"
-	resource="activedirectory"
+	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder=""
 	selfHelpType="generic"
@@ -16,7 +16,8 @@
 
 
 ## **Recommended documents**
-[How to delete my B2C tenant](https://support.microsoft.com/help/3112170/-cannot-delete-error-when-you-try-to-delete-a-b2c-directory-in-azure-ad)<br>
+[How to delete my B2C tenant](https://support.microsoft.com/help/3112170/-cannot-delete-error-when-you-try-to-delete-a-b2c-directory-in-azure-ad)
+<br>
 [How to link my Azure Subscription to my B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing)
 <br>
 [Frequently asked questions](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)

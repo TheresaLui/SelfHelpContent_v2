@@ -2,13 +2,13 @@
 	pageTitle="Business to Consumer (B2C)/How to link my subscription"
 	description="Business to Consumer (B2C)/How to link my subscription"
 	service="microsoft.activedirectory"
-	resource="activedirectory"
+	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="2"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32416703"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 

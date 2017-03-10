@@ -2,13 +2,13 @@
 	pageTitle="Business to Consumer (B2C)/Creating or migrating users into B2C"
 	description="Business to Consumer (B2C)/Creating or migrating users into B2C"
 	service="microsoft.activedirectory"
-	resource="activedirectory"
+	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32416703"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 

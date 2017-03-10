@@ -2,13 +2,13 @@
 	pageTitle="Business to Consumer (B2C)/Session token configuration not being enforced"
 	description="Business to Consumer (B2C)/Session token configuration not being enforced"
 	service="microsoft.activedirectory"
-	resource="activedirectory"
+	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="5"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32416703"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 

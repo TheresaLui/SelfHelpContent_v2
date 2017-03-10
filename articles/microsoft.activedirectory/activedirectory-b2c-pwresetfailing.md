@@ -2,13 +2,13 @@
 	pageTitle="Business to Consumer (B2C)/Password reset failing"
 	description="Business to Consumer (B2C)/Password reset failing"
 	service="microsoft.activedirectory"
-	resource="activedirectory"
+	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="4"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32416703"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
