@@ -16,10 +16,11 @@
 Please bear with us as we develop our troubleshooting and support topics. We'll be adding troubleshooting content very soon, and right now we can offer you articles from our documentation library for your current context.
 
 ## Supporting documentation
-* [Use your Azure subscription with the Azure AD that you use with Office 365](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-transfer)
-* [Adding B2B guests to your Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-admin-add-users) 
-* [Assign access to an Azure subscription or resource](https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-configure)
-* [Assign access to an Azure AD directory administration role](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-assign-admin-roles)
-* [Troubleshoot synchronization errs in Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors)
-* [Add a new user in the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-users-create-azure-portal)
-* [Restore a deleted user with PowerShell](https://docs.microsoft.com/en-us/powershell/msonline/v1/restore-msoluser)
+* [Steps to configure single-sign on to a specific SaaS application](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-tutorial-list)
+* [Steps to automate user provisioning and deprovisioning to a SaaS application](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-enterprise-apps-manage-provisioning)
+* [Frequently asked questions about application access management](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-faq#application-access)
+* [Steps to configure single sign-on to an application not listed in the Azure AD Gallery](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Steps to deploy applications to your users](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-appssoaccess-whatis#deploying-azure-ad-integrated-applications-to-users)
+* [Disable all sign ins to an application](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-disable-app-azure-portal)
+* [Assign users to an application](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-coreapps-assign-user-azure-portal)
+* [Enable self-service application access for your users](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-self-service-application-access)
