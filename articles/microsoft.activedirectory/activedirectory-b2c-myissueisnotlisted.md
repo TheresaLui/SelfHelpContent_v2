@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Business to Consumer (B2C)/My issue is not listed"
 	description="Business to Consumer (B2C) version of my issue is not listed"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="7"

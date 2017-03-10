@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Business to Consumer (B2C)/Creating or migrating users into B2C"
 	description="Business to Consumer (B2C)/Creating or migrating users into B2C"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="3"

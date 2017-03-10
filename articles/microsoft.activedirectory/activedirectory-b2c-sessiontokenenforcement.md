@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Business to Consumer (B2C)/Session token configuration not being enforced"
 	description="Business to Consumer (B2C)/Session token configuration not being enforced"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="5"

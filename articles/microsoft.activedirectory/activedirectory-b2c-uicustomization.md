@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Business to Consumer (B2C)/Unable to customize UI"
 	description="Business to Consumer (B2C)/Unable to customize UI"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="6"

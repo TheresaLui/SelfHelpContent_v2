@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Business to Consumer (B2C)/How to link my subscription"
 	description="Business to Consumer (B2C)/How to link my subscription"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
 	displayOrder="2"
