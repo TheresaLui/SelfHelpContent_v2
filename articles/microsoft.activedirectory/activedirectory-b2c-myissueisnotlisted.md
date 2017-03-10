@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	issueNotListed="true"
 />
 
 # My issue is not listed
