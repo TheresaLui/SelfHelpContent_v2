@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="craigwiand"
 	displayOrder="1"
-	articleId="VMCannotRDP_72059703-AD61-42AF-BF8A-991A7DEFA197"
+	articleId="VMCannotSSH_72059703-AD61-42AF-BF8A-991A7DEFA197"
 	diagnosticScenario="CantSSH"
 	selfHelpType="diagnostics"
 	supportTopicIds="32411835"
