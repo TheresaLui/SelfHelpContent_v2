@@ -14,7 +14,7 @@
 
 # What permissions do I need to access Identity Protection?
 
-Azure AD Identity Protection supports 3 directory roles.<br><br>
+Azure AD Identity Protection supports 3 directory roles.<br>
 
 1. **Global administrator:** Full access to Identity Protection<br>
 2. **Security admin:** Full access to Identity Protection except resetting password for a user.<br>
