@@ -15,7 +15,7 @@
 # You can't get there from here
 Please bear with us as we develop our troubleshooting and support topics. We'll be adding troubleshooting content very soon, and right now we can offer you articles from our documentation library for your current context.
 
-## Suggested documents
+## **Suggested documents**
 * [Add a custom domain name in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain)
 * [Delete a domain in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#delete-a-custom-domain-name)
 * [PowerShell for deleting a domain](https://docs.microsoft.com/powershell/msonline/v1/remove-msoldomain) 
