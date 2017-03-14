@@ -1,6 +1,6 @@
 <properties
-    pageTitle="How to get Identity Protection?"
-    description="How to get Identity Protection?"
+    pageTitle="How to get Identity Protection"
+    description="How to get Identity Protection"
     service="microsoft.aad"
     resource="Microsoft_AAD_ProtectionCenter"
     authors="jcardena"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# How to get Identity Protection?
+# How to get Identity Protection
 
 Azure AD Identity Protection is a feature of Enterprise Mobility + Security E5 edition.
 
@@ -21,5 +21,5 @@ Azure AD Identity Protection is a feature of Enterprise Mobility + Security E5 e
 * Sign-up for a free trial of Enterprise Mobility + Security. [Learn more](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial)
 
 ## **Recommended documents**
-[How to get Identity Protection?](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial) <br>
-[How to enable Identity Protection?](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)
+[How to get Identity Protection](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial) <br>
+[How to enable Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)
