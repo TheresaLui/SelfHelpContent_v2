@@ -1,6 +1,6 @@
 <properties
-    pageTitle="What permissions do I need to access Identity Protection?"
-    description="What permissions do I need to access Identity Protection?"
+    pageTitle="What permissions do I need to access Identity Protection"
+    description="What permissions do I need to access Identity Protection"
     service="microsoft.aad"
     resource="Microsoft_AAD_ProtectionCenter"
     authors="jcardena"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# What permissions do I need to access Identity Protection?
+# What permissions do I need to access Identity Protection
 
 Azure AD Identity Protection supports 3 directory roles.<br>
 
