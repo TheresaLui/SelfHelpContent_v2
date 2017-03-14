@@ -18,8 +18,8 @@ Azure AD Identity Protection is a feature of Enterprise Mobility + Security E5 e
 
 ## **Recommended steps**
 
-* Sign-up for a free trial of Enterprise Mobility + Security. [Learn more](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial)
+* Sign-up for a free trial of Enterprise Mobility + Security. [Learn more](https://aka.ms/emstrial)
 
 ## **Recommended documents**
-[How to get Identity Protection](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial) <br>
+[How to get Identity Protection](https://aka.ms/emstrial) <br>
 [How to enable Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)
