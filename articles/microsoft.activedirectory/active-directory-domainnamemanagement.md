@@ -1,19 +1,18 @@
 <properties
-	pageTitle="You can't get there from here"
-	description="Azure Active Directory troubleshooting"
+	pageTitle="Domain name management"
+	description="Azure Active Directory case submission self help"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="curtand"
-	displayOrder="10"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="directory_delete"
-	productPesIds=""
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32045771"
+	resourceTags=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
-# You can't get there from here
-Please bear with us as we develop our troubleshooting and support topics. We'll be adding troubleshooting content very soon, and right now we can offer you articles from our documentation library for your current context.
+# Domain name management
 
 ## **Suggested documents**
 * [Add a custom domain name in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain)

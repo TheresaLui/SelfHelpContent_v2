@@ -1,19 +1,18 @@
 <properties
-	pageTitle="You can't get there from here"
-	description="Azure Active Directory troubleshooting"
+	pageTitle="YApplication access management"
+	description="Azure Active Directory case submission self help"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="curtand"
-	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="userandgroups_user"
-	productPesIds=""
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32268132"
+	resourceTags=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
-# You can't get there from here
-Please bear with us as we develop our troubleshooting and support topics. We'll be adding troubleshooting content very soon, and right now we can offer you articles from our documentation library for your current context.
+# Application access management
 
 ## **Suggested documents**
 * [Steps to configure single-sign on to a specific SaaS application](https://docs.microsoft.com/azure/active-directory/active-directory-saas-tutorial-list)
