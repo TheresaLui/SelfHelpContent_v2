@@ -21,4 +21,4 @@ Azure AD Identity Protection supports 3 directory roles.<br>
 3. **Security reader:** Ready-only access to Identity Protection.<br>
 
 ## **Recommended documents**
-[How to assign roles in Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
+[How to assign roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
