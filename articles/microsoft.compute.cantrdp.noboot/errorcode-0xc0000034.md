@@ -19,10 +19,10 @@ cloudEnvironments="public"
 ## **VM boot error**
 Windows failed to boot with error code 0xc0000034. The issue occurs when there is an issue with the Boot Configuration data and the booting partition is unable to find the \windows folder.<br>
 
-## **We recommend the following steps to mitigate your VM boot issue**
+## **Recommended Steps**
 To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
 1.	Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
-2.	Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery for the article https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-vhd-copy.
+2.	Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery for the article https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy.
 3.	Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal.](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal)
 4.	Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 5.	Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
