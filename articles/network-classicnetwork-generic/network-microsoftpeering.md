@@ -3,7 +3,7 @@
 	description="connectivity/microsoft peering"
 	service="microsoft.network"
 	resource="expressroutecircuits"
-	authors="aashu"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32539954"
@@ -12,11 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# connectivity/microsoft peering
+# Connectivity/Microsoft Peering
 
 
 ## **Recommended documents**
-[ExpressRoute circuits and Routing domains](https://azure.microsoft.com/documentation/articles/expressroute-circuit-peerings/)<br>
-[Create and modify routing for an ExpressRoute circuit using Azure portal and Resource Manager deployment model](https://azure.microsoft.com/documentation/articles/expressroute-howto-routing-portal-resource-manager/)<br>
-[Create and modify routing for an ExpressRoute circuit using PowerShell and Resource Manager deployment model](https://azure.microsoft.com/documentation/articles/expressroute-howto-routing-arm/)<br>
-[Create and modify routing for an ExpressRoute circuit using PowerShell and the classic deployment model](https://azure.microsoft.com/documentation/articles/expressroute-howto-routing-classic/)
+[Verifying ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)<br>
+[Getting ARP tables in the Resource Manager Deployment Model](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-resource-manager)<br>
+[Getting ARP tables in the Classic Deployment Model](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-classic)
