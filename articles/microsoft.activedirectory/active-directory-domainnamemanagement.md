@@ -14,7 +14,7 @@
 
 # Domain name management
 
-## **Suggested documents**
+## **Recommended documents**
 * [Add a custom domain name in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain)
 * [Delete a domain in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#delete-a-custom-domain-name)
 * [PowerShell for deleting a domain](https://docs.microsoft.com/powershell/msonline/v1/remove-msoldomain) 

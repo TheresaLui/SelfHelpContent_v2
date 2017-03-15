@@ -14,7 +14,7 @@
 
 # Application access management
 
-## **Suggested documents**
+## **Recommended documents**
 * [Steps to configure single-sign on to a specific SaaS application](https://docs.microsoft.com/azure/active-directory/active-directory-saas-tutorial-list)
 * [Steps to automate user provisioning and deprovisioning to a SaaS application](https://docs.microsoft.com/azure/active-directory/active-directory-enterprise-apps-manage-provisioning)
 * [Frequently asked questions about application access management](https://docs.microsoft.com/azure/active-directory/active-directory-faq#application-access)
