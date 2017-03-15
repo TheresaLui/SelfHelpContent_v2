@@ -19,7 +19,7 @@ cloudEnvironments="public"
 ## **VM boot error**
 Windows failed to boot with error code 0xc000000e. The issue occurs when a device that doesn't exist is specified in the Boot Configuration data.<br>
 
-## **We recommend the following steps to mitigate your VM boot issue**
+## **Recommended Steps**
 To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
 1.	Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
 2.	Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery for the article https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-vhd-copy.
