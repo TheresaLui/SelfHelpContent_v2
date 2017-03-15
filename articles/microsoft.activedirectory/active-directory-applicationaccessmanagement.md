@@ -1,5 +1,5 @@
 <properties
-	pageTitle="YApplication access management"
+	pageTitle="Application access management"
 	description="Azure Active Directory case submission self help"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
