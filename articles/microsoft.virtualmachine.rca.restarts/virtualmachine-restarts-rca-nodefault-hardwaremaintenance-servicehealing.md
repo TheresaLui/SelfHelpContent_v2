@@ -1,7 +1,7 @@
 <properties
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
-	infoBubbleText="Found a recent reboot."
+	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
