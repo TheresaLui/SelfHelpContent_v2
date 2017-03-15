@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Where can I find details about the Graph API throttle limits"
 	description="Where can I find details about the Graph API throttle limits"
-	service="Microsoft.graph"
-	resource="resourceName"
+	service="microsoft.aad"
+	resource=""
 	authors="PatAltimore"
-	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="optional"
-	productPesIds=""
+	displayOrder="51"
+	selfHelpType="generic"
+	supportTopicIds="32134062"
+	resourceTags=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
