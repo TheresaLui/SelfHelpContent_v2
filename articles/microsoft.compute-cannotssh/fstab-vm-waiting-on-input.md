@@ -22,15 +22,15 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[v
 
 To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > **[VMNAME]** > **All settings** > **Boot diagnostics**
    
-## Recommended recovery steps ##
+## Recommended steps ##
 To recover the virtual machine, follow these steps:
 
-1. Attach the OS disk to a recovery VM. To do this, the following Azure article , and follow the steps from the beginning up to *Fix issues on original virtual hard disk* section: [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks)
+1. Attach the OS disk to a recovery VM. To do this, the following Azure article , and follow the steps from the beginning up to *Fix issues on original virtual hard disk* section: [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks)
 
 2. After you mount the OS disk as a data disk on the new VM, correct the fstab file using a text editor on the recovery VM. For more detailed information on correcting fstab issues in Azure Linux virtual machines see:
-[Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/en-us/help/3206699)
+[Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699)
 
-3. After the fstab issues are resolved, return to [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks), and resume at the *Unmount and detach original virtual hard disk* section for steps to recreate the original VM.
+3. After the fstab issues are resolved, return to [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks), and resume at the *Unmount and detach original virtual hard disk* section for steps to recreate the original VM.
 
 
 
