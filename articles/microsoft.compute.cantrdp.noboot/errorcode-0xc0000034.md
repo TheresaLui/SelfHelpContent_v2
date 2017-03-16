@@ -29,22 +29,26 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
   * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
   * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
 6. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). You will find the reference to the partition {bootmgr} is missing on the boot database. The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
-
-  <code>bcdedit /store [Boot partition]:\boot\bcd /enum</code>
+```
+  bcdedit /store [Boot partition]:\boot\bcd /enum
+```
 7. Repair the Boot Configuration data by running the following command lines. You must replace these placeholders by the actual values:
   * "Windows partition" is the partition that contains a folder named "Windows."
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
   <br>
-        <code> bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr} <br>
+  ```
+        bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr} <br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"<br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us<br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}<br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]<br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30<br>
-        </code>      <br>
+  ```
+    <br>
 
 8. Ensure the boot setup is setup properly by executing the command in step 6.<br>
-
-    <code>bcdedit /store [Boot partition]:\boot\bcd /enum</code>
+```
+    bcdedit /store [Boot partition]:\boot\bcd /enum
+```
 9. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
