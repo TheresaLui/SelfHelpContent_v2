@@ -19,7 +19,7 @@ cloudEnvironments="public"
 ## **VM boot error**
 Windows failed to boot with error code 0xc0000098. Windows failed to load because a required file is missing or corrupt.<br>
 
-## **We recommend the following steps to mitigate your VM boot issue**
+## **Recommended Steps**
 To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
 1.	Please make a note of the File name and the path from the screenshot.
 2.	Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
