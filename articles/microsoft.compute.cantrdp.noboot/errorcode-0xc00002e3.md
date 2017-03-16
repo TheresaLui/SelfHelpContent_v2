@@ -6,7 +6,7 @@ service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
 displayOrder=""
-articleId="VMCannotRDP_FFE84A13-177A-4524-8BD7-3D13E8048893"
+articleId="VMCannotRDP_388A3EDA-7F91-474F-85C3-50EAE3876329"
 diagnosticScenario="booterror"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
@@ -19,11 +19,11 @@ cloudEnvironments="public"
 ## **VM boot error**
 The virtual machine is in a reboot loop with an error code 0xC00002E3. The issue occurs when the SAM registry hive is missing or corrupt.<br>
 
-## **Recommended Steps**
+## **We recommend the following steps to mitigate your VM boot issue**
 To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
 1.	Please make a note of the File name and the path from the screenshot.
 2.	Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
-3.	Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery for the article https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy.
+3.	Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery for the article https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-vhd-copy.
 4.	Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal.](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 5.	Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 6.	Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
