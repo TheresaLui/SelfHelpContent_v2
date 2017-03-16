@@ -21,6 +21,7 @@ Windows failed to boot with error code 0xC0000359. The operating system couldnâ€
 
 ## **Recommended Steps**
 To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
+
 1. Please make a note of the File name and the path from the screenshot.
 2. Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
 3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)

@@ -21,6 +21,7 @@ Windows failed to boot with error code 0xc0000034. The issue occurs when there i
 
 ## **Recommended Steps**
 To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
+
 1. Delete the virtual machine $VMName. Make sure that you select the Keep the disks option when you do this.
 2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
 3. Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal.](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal)
@@ -36,7 +37,7 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
   * "Windows partition" is the partition that contains a folder named "Windows."
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
-  <br>
+
   ```
         bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr} <br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"<br>
@@ -45,9 +46,9 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]<br>
         bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30<br>
   ```
-    <br>
 
-8. Ensure the boot setup is setup properly by executing the command in step 6.<br>
+
+8. Ensure the boot setup is setup properly by executing the command in step 6.
 ```
     bcdedit /store [Boot partition]:\boot\bcd /enum
 ```
