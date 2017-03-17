@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **VM boot error**
-Windows failed to boot with error code 0xc0000098. Windows failed to load because a required file is missing or corrupt.<br
+Windows failed to boot with error code 0xc0000098. Windows failed to load because a required file is missing or corrupt.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
