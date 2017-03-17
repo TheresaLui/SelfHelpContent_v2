@@ -39,12 +39,12 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
   ```
-        bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr} <br>
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"<br>
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us<br>
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}<br>
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]<br>
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30<br>
+        bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr}
+        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"
+        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us
+        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}
+        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]
+        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30
   ```
 
 

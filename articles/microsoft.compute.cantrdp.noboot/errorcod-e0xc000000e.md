@@ -40,12 +40,12 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
         ```          
-          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:<br>
-          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable<br>
-          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:<br>
-          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable<br>
-          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off<br>
-          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:<br>
+          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]
+          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
+          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]
+          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
+          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
+          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]
           bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy
         ```
 
