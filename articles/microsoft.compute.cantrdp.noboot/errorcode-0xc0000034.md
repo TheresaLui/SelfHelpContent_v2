@@ -16,8 +16,10 @@ cloudEnvironments="public"
 />
 
 # VM boot error
+<!--issueDescription-->
 ## **VM boot error**
 Windows failed to boot with error code 0xc0000034. The issue occurs when there is an issue with the Boot Configuration data and the booting partition is unable to find the \windows folder.<br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
