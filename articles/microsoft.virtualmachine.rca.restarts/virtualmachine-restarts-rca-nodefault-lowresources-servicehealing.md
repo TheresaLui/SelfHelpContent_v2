@@ -16,7 +16,7 @@
 />
 
 #We ran diagnostics on your resource and found an issue
-
+ 
 <!--issueDescription-->
 ## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
 
