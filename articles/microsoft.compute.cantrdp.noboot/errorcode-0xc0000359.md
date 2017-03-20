@@ -16,8 +16,10 @@ cloudEnvironments="public"
 />
 
 # VM boot error
+<!--issueDescription-->
 ## **VM boot error**
 Windows failed to boot with error code 0xC0000359. The operating system couldn’t be loaded because a critical system driver is missing or corrupt.<br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
