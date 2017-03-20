@@ -19,3 +19,4 @@
 [Upload a VHD from on-premise to Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-createupload-vhd/)<br>
 [Common steps by error- try different VM size or a new cloud service](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-allocation-failure/#error-string-lookup)<br>
 [Troubleshoot issues creating, adding, deploying, resizing or restarting VMs](http://aka.ms/azCreateTroubleshoot)
+

@@ -14,24 +14,21 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-
 #We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for <!--($vmname)-->** ##
-
+## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+ 
 We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated memory-preserving update action**.
 <!--/issueDescription-->
 
 The memory-preserving update action was performed on the physical node where the virtual machine was hosted. During this update the VM rebooted unexpectedly due to a platform bug. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
 
 Our core platform engineers have identified the bug and are currently working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.  At the moment, we do not have a timeline for the fix to be deployed.
-
 To learn more about our memory-preserving updates, please refer to the following article:
 * [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)
 
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.
-
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. 
 To learn more about high availability options, please refer to the following articles:
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)

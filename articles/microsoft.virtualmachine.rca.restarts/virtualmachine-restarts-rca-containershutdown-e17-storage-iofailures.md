@@ -14,19 +14,17 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-
 #We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for <!--($vmname)-->** ##
-
+## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+ 
 We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated temporary VM shutdown**.
 <!--/issueDescription-->
 
 The temporary VM shutdown was triggered by our Azure monitoring systems detecting failed IO transaction between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. Once the node detected that conditions had improved, the VM was restarted. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.    
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.
-
 To learn more about high availability options, please refer to the following articles:
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
