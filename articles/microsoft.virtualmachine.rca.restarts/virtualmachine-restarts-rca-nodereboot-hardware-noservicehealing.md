@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
@@ -26,7 +25,7 @@ We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--
 
 The host node reboot was triggered by our Azure monitoring systems detecting a hardware issue with the physical node where the virtual machine was hosted. This caused your VM to get rebooted as well. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.
 
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. 
 To learn more about high availability options, please refer to the following articles:
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
