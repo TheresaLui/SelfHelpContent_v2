@@ -1,4 +1,4 @@
-roperties
+<properties
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."

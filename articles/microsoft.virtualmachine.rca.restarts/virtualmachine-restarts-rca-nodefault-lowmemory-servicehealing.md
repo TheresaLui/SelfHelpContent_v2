@@ -38,5 +38,4 @@ Microsoft Azure also provides access to resource health and troubleshooting info
 To learn more about Azure Resource Health, please refer to the following article:
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 
-
 We apologize for any inconvenience this may have caused to you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.

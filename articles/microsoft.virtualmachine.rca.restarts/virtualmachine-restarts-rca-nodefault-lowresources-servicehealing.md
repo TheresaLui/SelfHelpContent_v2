@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."
@@ -29,7 +29,7 @@ Our core platform engineers have identified the bug and are currently working on
 To learn more about our automated recovery action, please read the following article:
 * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. 
 To learn more about high availability options, please refer to the following articles:
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
