@@ -26,6 +26,7 @@ On Windows, use the Perfmon tool. On Linux, use commands such as Top, VmStat, Ls
 5. Scale up the virtual machine to a different VM type or series for increaed performance by clicking 'Size' in the Settings blade of the VM resource
 6. Consider using Premium Storage account if its an I/O intensive use-case <br>
 [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage-preview-portal/)
+7. Do you know PerfInsights can help you analyze Guest VM issues? Start here: [Download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True).<br> To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)

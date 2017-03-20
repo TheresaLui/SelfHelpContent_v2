@@ -1,4 +1,4 @@
-<properties
+perties
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."
@@ -24,6 +24,10 @@ We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--
 <!--/issueDescription-->
 
 The memory-preserving update action was performed on the physical node where the virtual machine was hosted. This caused your VM to be unavailable for less than 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
+To learn more about our memory-preserving updates, please refer to the following article:
+* [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)
+
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.
 To learn more about our memory-preserving updates, please refer to the following article:
 * [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)
 
