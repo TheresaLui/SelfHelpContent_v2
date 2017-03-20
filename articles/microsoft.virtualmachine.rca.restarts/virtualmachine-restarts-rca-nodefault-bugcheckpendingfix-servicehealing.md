@@ -26,7 +26,7 @@ The auto-recovery action was triggered by our Azure monitoring systems detecting
  
 Our core platform engineers have identified the bug and are currently working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes. 
 To learn more about our automated recovery action, please refer to the following article: 
-* [Auto-recovery of Virtual Machines](https://azure.microsoft.com/en-us/blog/service-healing-auto-recovery-of-virtual-machines)
+* [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. 
 To learn more about high availability options, please refer to the following articles:
