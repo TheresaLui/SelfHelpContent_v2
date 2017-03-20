@@ -14,7 +14,6 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-
 #We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
