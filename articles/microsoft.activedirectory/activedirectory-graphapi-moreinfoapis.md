@@ -2,7 +2,7 @@
 	pageTitle="Where can I find more information on calling Microsoft Graph APIs"
 	description="Where can I find more information on calling Microsoft Graph APIs"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

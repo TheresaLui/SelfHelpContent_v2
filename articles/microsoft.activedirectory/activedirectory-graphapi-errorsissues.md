@@ -2,7 +2,7 @@
 	pageTitle="Where can I find more information on errors and known issues"
 	description="Where can I find more information on errors and known issues"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

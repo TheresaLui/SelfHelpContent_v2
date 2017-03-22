@@ -2,7 +2,7 @@
 	pageTitle="I configured the app in my tenant with the permissions it needs, but I still get a 401 unauthorized error when trying to use it"
 	description="I configured the app in my tenant with the permissions it needs, but I still get a 401 unauthorized error when trying to use it"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

@@ -2,7 +2,7 @@
 	pageTitle="How do I authenticate and authorize Graph APIs"
 	description="How do I authenticate and authorize Graph APIs"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

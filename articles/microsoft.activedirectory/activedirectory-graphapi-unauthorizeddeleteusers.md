@@ -2,7 +2,7 @@
 	pageTitle="I tried to delete users or reset passwords but I get a 401 unauthorized"
 	description="I tried to delete users or reset passwords but I get a 401 unauthorized"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

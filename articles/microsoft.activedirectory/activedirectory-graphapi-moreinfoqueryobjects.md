@@ -2,7 +2,7 @@
 	pageTitle="Where can I find more information on querying objects in Microsoft Graph"
 	description="Where can I find more information on querying objects in Microsoft Graph"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

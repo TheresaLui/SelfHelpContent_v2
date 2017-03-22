@@ -2,7 +2,7 @@
 	pageTitle="Choosing required permissions for your app"
 	description="Choosing required permissions for your app"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"
@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 [Microsoft Graph permission scopes](https://developer.microsoft.com/en-us/graph/docs/authorization/permission_scopes)<br>
-[Permission scopes | Graph API concepts](https://msdn.microsoft.com/en-us/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
+[Azure AD Graph API permission scopes](https://msdn.microsoft.com/en-us/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)

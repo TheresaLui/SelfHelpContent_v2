@@ -2,7 +2,7 @@
 	pageTitle="Graph queries are not responsive enough"
 	description="Graph queries are not responsive enough"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"

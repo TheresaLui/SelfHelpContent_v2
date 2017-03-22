@@ -2,7 +2,7 @@
 	pageTitle="Where can I find samples to call Microsoft Graph"
 	description="Where can I find samples to call Microsoft Graph"
 	service="microsoft.aad"
-	resource=""
+	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
 	displayOrder=""
 	selfHelpType="generic"
