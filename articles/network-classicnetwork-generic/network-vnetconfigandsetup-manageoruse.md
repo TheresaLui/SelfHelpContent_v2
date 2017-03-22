@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/manageoruseavirtualnetwork"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547252"
