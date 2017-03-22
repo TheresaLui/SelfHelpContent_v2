@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/createaconnectionbetweentwovirtualnetworks"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547231"
@@ -15,4 +15,4 @@
 # virtualnetworkconfigurationandsetup/createaconnectionbetweentwovirtualnetworks
 
 ## **Recommended documents**
-[Configure a VNet-to-VNet connection by using Azure Resource Manager and PowerShell](https://azure.microsoft.com/documentation/articles/vpn-gateway-vnet-vnet-rm-ps/)
+[Configure a VNet-to-VNet connection by using Azure Resource Manager and PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps)
