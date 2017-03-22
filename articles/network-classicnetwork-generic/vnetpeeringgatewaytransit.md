@@ -15,4 +15,4 @@
 # vnetpeering/gatewaytransit
 
 ## **Recommended documents**
-[VNet Peering](https://azure.microsoft.com/documentation/articles/virtual-network-peering-overview/)
+[VNet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
