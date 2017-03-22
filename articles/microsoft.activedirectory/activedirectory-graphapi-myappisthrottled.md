@@ -1,14 +1,14 @@
 <properties
 	pageTitle="My application is being throttled"
 	description="My application is being throttled"
-	service="Microsoft.activedirectory"
-	resource="resourceName"
+	service="microsoft.aad"
+	resource=""
 	authors="PatAltimore"
-	displayOrder="1"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32134062"
-	resourceTags="optional"
-	productPesIds=""
+	resourceTags=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
