@@ -15,5 +15,5 @@
 # Where can I find more information on errors and known issues?
 
 ## **Recommended documents**
-[Microsoft Graph error responses and resource types](https://developer.microsoft.com/en-us/graph/docs/overview/errors)<br>
-[Known issues with Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/overview/release_notes)
+[Microsoft Graph error responses and resource types](https://developer.microsoft.com/graph/docs/overview/errors)<br>
+[Known issues with Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/release_notes)

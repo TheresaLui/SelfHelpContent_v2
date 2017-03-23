@@ -15,6 +15,6 @@
 # Where can I find more information on querying objects in Microsoft Graph?
 
 ## **Recommended documents**
-[Overview of Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs)<br>
-[Microsoft Graph optional query parameters](https://developer.microsoft.com/en-us/graph/docs/overview/query_parameters)<br>
-[Microsoft Graph Explorer - Experiment calling Microsoft Graph APIs](https://developer.microsoft.com/en-us/graph/graph-explorer)
+[Overview of Microsoft Graph](https://developer.microsoft.com/graph/docs)<br>
+[Microsoft Graph optional query parameters](https://developer.microsoft.com/graph/docs/overview/query_parameters)<br>
+[Microsoft Graph Explorer - Experiment calling Microsoft Graph APIs](https://developer.microsoft.com/graph/graph-explorer)

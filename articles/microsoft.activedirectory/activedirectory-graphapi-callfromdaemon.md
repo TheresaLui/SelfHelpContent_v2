@@ -17,4 +17,4 @@
 For service or daemon apps, your application should implement the OAuth 2.0 Client Credentials Grant Flow. Instead of impersonating a user, the app uses its own credentials, client ID, and application key to authenticate when calling the Microsoft Graph.
 
 ## **Recommended documents**
-[Call Microsoft Graph in a service or daemon app](https://developer.microsoft.com/en-us/graph/docs/authorization/app_only)
+[Call Microsoft Graph in a service or daemon app](https://developer.microsoft.com/graph/docs/authorization/app_only)
