@@ -1,12 +1,12 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Service Heal - Node Crash"
+	description="RCA - Planned Maintenance"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="ScottAzure"
+	authors="jozender"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_50785A25-6E80-457D-AAF2-E2E1377FA44F"
+	articleId="UnexpectedVMReboot_6F7CB386-C0FA-40F6-9E31-0E1F9608D9B4"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
@@ -18,11 +18,13 @@
 
 <!--issueDescription-->
 ## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
-
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
+ 
+We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This expected occurrence was caused by an **Azure initiated planned maintenance action**.
 <!--/issueDescription-->
 
-The host node reboot was triggered by our Azure monitoring systems detecting a potential failure condition with the physical node where the virtual machine was hosted. This caused your VM to get rebooted as well. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
+This planned maintenance update required a reboot of your virtual machines to apply the required updates to the infrastructure. The virtual machine was shut down while we patched the infrastructure, and then the virtual machine was restarted.<br> 
+To learn more about planned maintenance on Azure, please refer to the following article:<br>
+* [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
 To learn more about high availability options, please refer to the following articles:<br>
