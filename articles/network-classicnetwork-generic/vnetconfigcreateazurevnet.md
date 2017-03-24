@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/createanazurevirtualnetwork"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547237"
@@ -15,4 +15,4 @@
 # virtualnetworkconfigurationandsetup/createanazurevirtualnetwork
 
 ## **Recommended documents**
-[Create a virtual network using the Azure portal](https://azure.microsoft.com/documentation/articles/virtual-networks-create-vnet-arm-pportal/)
+[Create a virtual network using the Azure portal](https://docs.microsoft.com/azure/virtual-network/virtual-networks-create-vnet-arm-pportal)
