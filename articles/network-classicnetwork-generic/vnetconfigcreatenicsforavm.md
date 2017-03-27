@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/createmultiplenicsforavirtualmachine"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547239"
@@ -15,4 +15,4 @@
 # virtualnetworkconfigurationandsetup/createmultiplenicsforavirtualmachine
 
 ## **Recommended documents**
-[Create a VM with multiple NICs](https://azure.microsoft.com/documentation/articles/virtual-networks-multiple-nics/)
+[Create a VM with multiple NICs](https://docs.microsoft.com/azure/virtual-network/virtual-networks-multiple-nics)
