@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/dns"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547246"
@@ -15,5 +15,5 @@
 # virtualnetworkconfigurationandsetup/dns
 
 ## **Recommended documents**
-[Specifying DNS settings in a virtual network configuration file](https://azure.microsoft.com/documentation/articles/virtual-networks-specifying-a-dns-settings-in-a-virtual-network-configuration-file/)<br>
+[Specifying DNS settings in a virtual network configuration file](https://docs.microsoft.com/azure/virtual-network/virtual-networks-specifying-a-dns-settings-in-a-virtual-network-configuration-file)<br>
 [Configure DNS between two Azure virtual networks](https://azure.microsoft.com/documentation/articles/hdinsight-hbase-geo-replication-configure-dns/)
