@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_00F100A7-D2D8-4E74-91CA-C818126BF122"
+	articleId="UnexpectedVMReboot_33668E95-C74E-42EE-82F6-AFD3ACCC30BD"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
@@ -33,4 +33,4 @@ Microsoft Azure also provides access to resource health and troubleshooting info
 To learn more about Azure Resource Health, please refer to the following article:<br>
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
+We apologize for any inconvenience this may have caused to you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
