@@ -3,7 +3,7 @@
 	description="virtualnetworkconfigurationandsetup/manageoruseavirtualnetwork"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547252"
@@ -15,4 +15,4 @@
 # virtualnetworkconfigurationandsetup/manageoruseavirtualnetwork
 
 ## **Recommended documents**
-[Virtual Network FAQ](https://azure.microsoft.com/documentation/articles/virtual-networks-faq/)
+[Virtual Network FAQ](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq)

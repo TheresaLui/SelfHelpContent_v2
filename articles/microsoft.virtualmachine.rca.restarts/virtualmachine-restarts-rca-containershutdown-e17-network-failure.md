@@ -1,12 +1,12 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Service Heal - Node Crash"
+	description="RCA - Container shutdown - E17 Network failures"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="ScottAzure"
+	authors="jozender"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_50785A25-6E80-457D-AAF2-E2E1377FA44F"
+	articleId="UnexpectedVMReboot_0C6D008F-AFC1-41A1-9A54-0C64C109064F"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
@@ -18,11 +18,11 @@
 
 <!--issueDescription-->
 ## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
-
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
+ 
+We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated temporary VM shutdown**.
 <!--/issueDescription-->
 
-The host node reboot was triggered by our Azure monitoring systems detecting a potential failure condition with the physical node where the virtual machine was hosted. This caused your VM to get rebooted as well. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
+The temporary VM shutdown was triggered by our Azure monitoring systems detecting networking issues between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. Once the node detected that conditions had improved, the VM was restarted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.    
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
 To learn more about high availability options, please refer to the following articles:<br>
