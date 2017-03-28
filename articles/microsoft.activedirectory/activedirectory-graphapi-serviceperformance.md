@@ -22,7 +22,7 @@ Throttling limits the number of concurrent calls to a service to prevent overuse
 [Use delta query to track changes in Microsoft Graph data](https://developer.microsoft.com/graph/docs/concepts/delta_query_overview)<br>
 [Batch processing](https://msdn.microsoft.com/Library/Azure/Ad/Graph/howto/azure-ad-graph-api-batch-processing)
 
-# Where can I find details about the graph API throttle limits?
+## Where can I find details about the graph API throttle limits?
 
 Throttling behavior can be dependent on the type and number of requests. For example, if you have a very high volume of requests, all requests types are throttled. Threshold limits vary based on the request type. Therefore, you could encounter a scenario where writes are throttled but reads are still permitted. Because many factors can influence throttling behavior, specific throttling limits are not published. 
 
