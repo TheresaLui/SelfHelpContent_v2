@@ -14,7 +14,7 @@
 
 # I can't assign licenses to a user or group
 
-# **Recommended steps**
+## **Recommended steps**
 
 To manage user licenses, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
 
