@@ -5,7 +5,7 @@ I can’t delete a user from my directory
     description=" I can’t delete a user from my directory"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta"
+    authors="Jeffsta-MSFT"
     displayOrder="2570"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"

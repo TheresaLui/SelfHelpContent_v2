@@ -3,7 +3,7 @@
     description=" I can’t update the properties of a user in my directory"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta"
+    authors="Jeffsta-MSFT"
     displayOrder="2520"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"

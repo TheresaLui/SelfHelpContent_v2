@@ -3,7 +3,7 @@
     description="Problem creating, updating, or deleting a user in Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta"
+    authors="Jeffsta-MSFT"
     displayOrder="2500"
     selfHelpType="generic"
     supportTopicIds="32045780"
