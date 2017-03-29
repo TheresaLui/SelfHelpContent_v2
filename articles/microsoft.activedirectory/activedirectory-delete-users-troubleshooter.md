@@ -1,5 +1,3 @@
-I can’t delete a user from my directory
-
 <properties 
     pageTitle="I can’t delete a user from my directory"
     description=" I can’t delete a user from my directory"
