@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="A user doesn't have licenses that they should have"
-    description="A user doesn't have licenses that they should have"
+    pageTitle="A user doesn't have the right licensese"
+    description="A user doesn't have the right licenses"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# A user doesn't have licenses that they should have
+# A user doesn't have the right licenses
 
 The full information about user licenses and their status is available on the **Licenses** blade for that user. If you don't see the licenses that you expect, consider the following:
 
