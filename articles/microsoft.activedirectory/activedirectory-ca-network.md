@@ -16,7 +16,5 @@
 
 Trusted IP ranges and network conditions can be used to identify user locations where policy apply. <br>
 
-Conditional access can be applied to thousands of services that use Azure AD sign in. 
-
 ## **Recommended documents**
 [How location conditions work](http://aka.ms/calocation) <br>
