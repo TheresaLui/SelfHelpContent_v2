@@ -1,12 +1,12 @@
 <properties
 pageTitle="VM boot error"
-description="Virtual machine failed to boot with error code 0xC0000359"
+description="Virtual machine failed to boot with error code 0xc000007b"
 infoBubbleText="Boot error has been found."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
 displayOrder=""
-articleId="VMCannotRDP_A139226A-AD29-487A-80BE-4BD8CE6095CC"
+articleId="VMCannotRDP_D49207E5-874F-4731-B42C-354D8F386A47"
 diagnosticScenario="booterror"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine [vmname]<!--($vmname)-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000359**. The issue occurs because the binary file is the 32-bit version and it needs to be replaced by the 64-bit version.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc000007b**. The operating system couldn’t be loaded because a critical system driver is corrupt.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -39,7 +39,7 @@ To fix the issue, either replace the file from the C:\windows\WinSxS folder on t
 ```
 9. Choose the latest of the list and proceed to copy it to the windows\system32 folder path on the attached OS disk.
 ```
-  copy [drive]:\Windows\WinSxS\[directory_where_file_is]\[binary_with_extension] [drive]:\Windows\System32\Drivers\   
+  copy [drive]:\Windows\WinSxS\[directory_where_file_is]\[binary_with_extension] [drive]:\Windows\System32\Drivers\
 ```
-10. If another file cannot be found, then look for a machine with the same OS version and same patch level (if possible), locate the binary and replace the missing binary on the affected machine.
+10. If another file cannot be found, then look for a machine with the same OS version and same patch level (if possible), locate the binary and replace the corrupt binary on the affected machine.
 11. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
