@@ -7,7 +7,6 @@
     selfHelpType="faq"
     topics="ClearDB"
     keywords="Timezone, server time"
-    relatedSupportRequestIds="117021015299963, 117021015300006"
     resourceTags="windows, linux"   
     productPesIds="14748"
 />
