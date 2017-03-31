@@ -15,8 +15,13 @@
 # Where can I find samples to call Microsoft Graph?
 
 ## **Recommended documents**
-[Azure Active Directory developer's guide](https://docs.microsoft.com/azure/active-directory/develop/active-directory-developers-guide)<br>
+
+### Microsoft Graph
 [Getting started building Microsoft Graph apps](https://developer.microsoft.com/graph/docs/get-started/get-started)<br>
 [Microsoft Graph Code samples and SDKs](https://developer.microsoft.com/graph/code-samples-and-sdks)<br>
-[Choosing between Microsoft Graph or Azure AD Graph ](https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph)<br>
-[Microsoft Graph Explorer - Experiment calling Microsoft Graph APIs](https://developer.microsoft.com/graph/graph-explorer)
+[Microsoft Graph Explorer - Test Microsoft Graph APIs in your tenant or a demo tenant](https://developer.microsoft.com/graph/graph-explorer)
+
+### Azure Active Directory Graph
+[Azure Active Directory developer's guide](https://docs.microsoft.com/azure/active-directory/develop/active-directory-developers-guide)<br>
+[Choosing between Microsoft Graph or Azure AD Graph ](https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph)
+[Microsoft AD Graph Explorer - Test Azure AD Graph APIs in your tenant](https://graphexplorer.azurewebsites.net/)

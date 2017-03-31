@@ -27,13 +27,14 @@
 ## Choosing required permissions for your app
 
 [Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Azure AD Graph API permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
+[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
 
 ## I get a 403 forbidden, but I selected all permissions
 
 For delegated interactive code flows, Microsoft Graph evaluates if the request is allowed based on the permissions granted to the app and the permissions that the user has.  A 403 forbidden error indicates that the user is not privileged enough to perform the request.  Only users with the required permissions will be able to make the request successfully.
 
-[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)
+[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
+[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
 
 ## What do I do when I get a 401 unauthorized error, even though I selected all the permissions?
 
@@ -43,7 +44,7 @@ For delegated interactive code flows, Microsoft Graph evaluates if the request i
 [Using OAuth 2.0 Authorization Code Grant for delegated access of Directory via AAD Graph](https://blogs.msdn.microsoft.com/aadgraphteam/2013/05/16/using-oauth-2-0-authorization-code-grant-for-delegated-access-of-directory-via-aad-graph/)
 
 [Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Permission scopes | Graph API concepts](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
+[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
 
 ## I configured the app in my tenant with the permissions it needs, but I still get a 401 unauthorized error when trying to use it
 
@@ -59,3 +60,4 @@ For delegated interactive code flows, Microsoft Graph evaluates if the request i
 The application is using daemon service-to-service permissions that do not support these highly privileged operations today.  Please use the interactive code flows with a signed-in administrator.
 
 [Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
+[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
