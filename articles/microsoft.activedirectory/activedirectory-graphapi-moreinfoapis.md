@@ -16,5 +16,7 @@
 
 ## **Recommended documents**
 [Overview of Microsoft Graph](https://developer.microsoft.com/graph/docs)<br>
+[Azure Active Directory developer's guide](https://docs.microsoft.com/azure/active-directory/develop/active-directory-developers-guide)<br>
+[Choosing between Microsoft Graph or Azure AD Graph ](https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph)<br>
 [Getting started building Microsoft Graph apps](https://developer.microsoft.com/graph/docs/get-started/get-started)<br>
 [Microsoft Graph Explorer - Experiment calling Microsoft Graph APIs](https://developer.microsoft.com/graph/graph-explorer)
