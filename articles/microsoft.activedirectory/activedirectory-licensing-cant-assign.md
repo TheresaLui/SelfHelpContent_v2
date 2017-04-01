@@ -7,7 +7,7 @@
     displayOrder="1770"
     supportTopicIds=""
     selfHelpType="resource"
-    resourceTags=""
+    resourceTags="licensing_overview"
     productPesIds=""
     cloudEnvironments="public"
  />
