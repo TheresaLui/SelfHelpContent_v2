@@ -6,7 +6,7 @@
     authors="Jeffsta-MSFT"
     displayOrder="2500"
     selfHelpType="resource"
-    resourceTags=" userandgroups_overview"
+    resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="public"
  />
 # I can’t create a new user in my Azure AD
