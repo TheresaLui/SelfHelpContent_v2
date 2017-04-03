@@ -3,7 +3,7 @@
 	description="configuration and setup/virtual disk management"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scotroazure"
+	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411841"
