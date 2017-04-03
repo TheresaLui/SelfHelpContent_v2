@@ -20,6 +20,7 @@
 * [Review community tools for assisting with migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-community-tools?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Overview of platform-supported migration](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Technical deep dive on platform-supported migration](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-deep-dive?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
+* [Planning for migration of IaaS resources from classic to Azure Resource Manager](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the instructions on how to migrate using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the instructions on how to migrate using Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-cli?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 
