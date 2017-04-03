@@ -25,4 +25,4 @@ Both Microsoft Graph and Azure AD graph support several query options. For more 
 
 ### Azure Active Directory Graph
 [Azure AD Graph supported queries, filters, and paging options](https://msdn.microsoft.com/Library/Azure/Ad/Graph/howto/azure-ad-graph-api-supported-queries-filters-and-paging-options)<br>
-[Microsoft Graph Explorer - Test Azure AD Graph APIs in your tenant](https://graphexplorer.azurewebsites.net/)
+[Azure AD Graph Explorer - Test Azure AD Graph APIs in your tenant](https://graphexplorer.azurewebsites.net/)

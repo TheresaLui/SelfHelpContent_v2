@@ -14,7 +14,7 @@
 
 # Microsoft Graph authorization failures
 
-Authorization failures can be a result of several different issues. Your app's [authentication flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios), configured [permission scopes](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes), and [consent](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent) can influence authorization failures. This article highlights common authorization failures.
+Authorization failures can be a result of several different issues. Your app's [authentication flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios), configured [scopes](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes), and [consent](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent) can influence authorization failures. This article highlights common authorization failures.
 
 ## Understanding user and administrator consent for your apps
 
