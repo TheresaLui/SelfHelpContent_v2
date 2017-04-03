@@ -20,7 +20,7 @@ If you're having trouble creating an MFA provider, verify that you need one. In 
 
 If you're having trouble syncing users from Active Directory to MFA Server, use these steps:
 
-1. Check MultiFactorAuthSvc.log and MultiFactorAuthAdSyncScv.log. 
+1. Check MultiFactorAuthSvc.log and MultiFactorAuthAdSyncScv.log for errors. 
 2. Check the Directory Integration settings on the MFA Server that is running the AD sync service. If **Use specific LDAP directory** is selected, make sure that the bind username/DN and bind password are correct. Verify them with the **Test** button. 
 3. Make sure that **Use attribute scope queries** is unchecked. This option is not needed, and checking it can cause issues. 
 4. Go to the **Synchronization** tab and make sure that **Always perform a full synchronization** is selected. Delta sync is not recommended.
