@@ -21,4 +21,4 @@
 [Known issues with Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/release_notes)
 
 ### Azure Active Directory Graph
-[Azure AD Graph error codes and error handling](https://msdn.microsoft.com/en-us/Library/Azure/Ad/Graph/howto/azure-ad-graph-api-error-codes-and-error-handling)
+[Azure AD Graph error codes and error handling](https://msdn.microsoft.com/Library/Azure/Ad/Graph/howto/azure-ad-graph-api-error-codes-and-error-handling)
