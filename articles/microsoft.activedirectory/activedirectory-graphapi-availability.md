@@ -16,5 +16,5 @@
 
 The service availability and connectivity of the underlying services that can be accessed through Microsoft Graph and Azure AD Graph API could also impact the overall availability and performance Microsoft Graph and Azure AD Graph API.
 
-* For Azure Active Directory service health, check the status of **Security + Identity** services listed in the [Azure status page](https://azure.microsoft.com/en-us/status/)<br>
+* For Azure Active Directory service health, check the status of **Security + Identity** services listed in the [Azure status page](https://azure.microsoft.com/status/)<br>
 * For Office services that contribute to Microsoft Graph, check the status of services listed in the [Office Service Health Dashboard](https://portal.office.com/adminportal/home#/servicehealth)
