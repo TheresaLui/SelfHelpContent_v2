@@ -27,7 +27,7 @@ If you're having trouble syncing users from Active Directory to MFA Server, use 
 
 ## **Recommended documents**
 
-[Getting started with the Azure Multi-Factor Authentication Server] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server)  
-[Getting started with an Azure Multi-Factor Auth Provider] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-auth-provider)  
-[LDAP Authentication and Azure Multi-Factor Authentication Server] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-LDAP)  
-[Upgrade to the latest Azure Multi-Factor Authentication Server] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-server-upgrade)  
+[Getting started with the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server)  
+[Getting started with an Azure Multi-Factor Auth Provider](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-auth-provider)  
+[LDAP Authentication and Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-LDAP)  
+[Upgrade to the latest Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-server-upgrade)  
