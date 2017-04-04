@@ -16,9 +16,9 @@
 
 ## **Recommended documents**
 
-### Microsoft Graph
+Microsoft Graph<br>
 [Microsoft Graph error responses and resource types](https://developer.microsoft.com/graph/docs/overview/errors)<br>
 [Known issues with Microsoft Graph](https://developer.microsoft.com/graph/docs/overview/release_notes)
 
-### Azure Active Directory Graph
+Azure Active Directory Graph<br>
 [Azure AD Graph error codes and error handling](https://msdn.microsoft.com/Library/Azure/Ad/Graph/howto/azure-ad-graph-api-error-codes-and-error-handling)
