@@ -27,5 +27,5 @@ If you're troubleshooting the mobile app web service, test it by browsing to the
 
 ## **Recommended documents**
 
-[Deploy the user portal for the Azure Multi-Factor Authentication Server] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-portal)  
-[Enable mobile app authentication with Azure Multi-Factor Authentication Server] (https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-webservice)  
+[Deploy the user portal for the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-portal)  
+[Enable mobile app authentication with Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-webservice)  
