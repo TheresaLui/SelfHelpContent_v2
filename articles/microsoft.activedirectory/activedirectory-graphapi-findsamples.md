@@ -23,5 +23,5 @@ Microsoft Graph<br>
 
 Azure Active Directory Graph<br>
 [Azure Active Directory developer's guide](https://docs.microsoft.com/azure/active-directory/develop/active-directory-developers-guide)<br>
-[Choosing between Microsoft Graph or Azure AD Graph ](https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph)
+[Choosing between Microsoft Graph or Azure AD Graph ](https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph)<br>
 [Azure AD Graph Explorer - Test Azure AD Graph APIs in your tenant](https://graphexplorer.azurewebsites.net/)
