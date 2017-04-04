@@ -3,7 +3,7 @@
 	description="management/virtual machine restarts"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="kasparks"
+	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411816"
