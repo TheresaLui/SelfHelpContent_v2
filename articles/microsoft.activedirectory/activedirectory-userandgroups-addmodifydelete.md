@@ -15,7 +15,7 @@
 # Adding, modifying, deleting users
 
 ## **Recommended documents**
-* [Use your Azure subscription with the Azure AD that you use with  Office 365](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+* [Use your Azure subscription with the Azure AD that you use with Office 365](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 * [Adding B2B collaboration guests to your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users)
 * [Assign access to an Azure subscription or resource](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure)
 * [Assign access to an Azure AD directory administration role](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
