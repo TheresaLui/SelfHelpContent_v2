@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Adding, modifying, deleting users"
+	pageTitle="Azure AD roles and permissions"
 	description="Azure Active Directory case submission self help"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
@@ -12,13 +12,16 @@
 	cloudEnvironments="public"
 />
 
-# Adding, modifying, deleting users
+# Azure AD roles and permissions 
+ 
+## **Recommended steps** 
+1. Ensure you are assigned to a directory role that is authorized to manage roles in Azure AD. The roles authorized to manage roles for other users are global administrator, and privileged identity manager. Permissions to an Azure subscription do not convey permissions to manage the Azure AD that is associated with the subscription. Learn more about [Azure AD administrative roles].(https://docs.microsoft.com/azure/activedirectory/active-directory-assign-admin-roles) 
+2. Assign the role that corresponds to the permissions that the user needs in your Azure AD. To assign the role, navigate to the ‘directory role’ tab for the user. [Learn about the permissions of each Azure AD role](https://docs.microsoft.com/azure/activedirectory/active-directory-assign-admin-roles-azure-portal#administrator-permissions) .
+3. If you need to assign access to an Azure subscription, or a resource within a subscription such as a virtual machine, navigate to the Azure resource and assign access there. Azure AD role assignments do not convey access to manage Azure subscription resources. [Assign access to Azure resources in the Azure portal](https://docs.microsoft.com/azure/activedirectory/role-based-access-control-configure#add-access).
 
-## **Recommended documents**
-* [Use your Azure subscription with the Azure AD that you use with  Office 365](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
-* [Adding B2B collaboration guests to your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-admin-add-users)
-* [Assign access to an Azure subscription or resource](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure)
-* [Assign access to an Azure AD directory administration role](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
-* [Troubleshoot synchronization errs in Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors)
-* [Add a new user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal)
-* [Restore a deleted user with PowerShell](https://docs.microsoft.com/powershell/msonline/v1/restore-msoluser)
+## **Recommended documents** 
+ 
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directoryassign-admin-roles)
+* [How your Azure subscription is related to your Azure AD](https://docs.microsoft.com/azure/activedirectory/active-directory-how-subscriptions-associated-directory#how-an-azure-subscription-isrelated-to-azure-ad)
+* [Use PowerShell to add a user to an Azure AD role] (https://docs.microsoft.com/powershell/azuread/v2/add-azureaddirectoryrolemember)
+* [Use PowerShell to manage access to Azure subscription resources] (https://docs.microsoft.com/ azure/active-directory/role-based-access-control-manage-access-powershell) 
