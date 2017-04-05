@@ -3,7 +3,7 @@
     description="MFA Service (Cloud)/Other questions regarding MFA Service (cloud)"
     service="microsoft.multifactorauthentication"
     resource="Microsoft_AAD_IAM"
-    authors="tjwasser"
+    authors="yossib"
     selfHelpType="generic"
     supportTopicIds="32565587"
     productPesIds="14947"
