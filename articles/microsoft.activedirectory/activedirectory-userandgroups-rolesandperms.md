@@ -6,7 +6,7 @@
 	authors="Jeffsta-MSFT"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32045780"
+	supportTopicIds="32045782"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
@@ -22,4 +22,3 @@
 * [Troubleshoot synchronization errs in Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors)
 * [Add a new user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal)
 * [Restore a deleted user with PowerShell](https://docs.microsoft.com/powershell/msonline/v1/restore-msoluser)
-
