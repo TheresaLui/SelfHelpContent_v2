@@ -4,9 +4,8 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
 	authors="arluca"
+	displayOrder="100"
 	selfHelpType="resource"
-	supportTopicIds="32447390"
-	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
