@@ -22,7 +22,7 @@
 
 ## **Recommended documents**
 
-[Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
-[Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
-[Use the Azure portal to delete a user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
-[Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
+* [Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
+* [Use the Azure portal to delete a user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
+* [Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)

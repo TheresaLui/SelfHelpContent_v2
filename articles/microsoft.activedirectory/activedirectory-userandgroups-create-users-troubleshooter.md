@@ -18,7 +18,7 @@
 
 ## **Recommended documents**
 
-[Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
-[Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
-[Use Azure AD PowerShell to create a new user](https://docs.microsoft.com/powershell/azuread/v2/new-azureaduser)
+* [Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
+* [Use Azure AD PowerShell to create a new user](https://docs.microsoft.com/powershell/azuread/v2/new-azureaduser)
 

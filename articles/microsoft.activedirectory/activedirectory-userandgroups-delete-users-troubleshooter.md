@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 
-[Delete a user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
-[Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
-[Use Azure AD PowerShell to delete a user](https://docs.microsoft.com/powershell/azuread/v2/remove-azureaduser)
+* [Delete a user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+* [Use Azure AD PowerShell to delete a user](https://docs.microsoft.com/powershell/azuread/v2/remove-azureaduser)

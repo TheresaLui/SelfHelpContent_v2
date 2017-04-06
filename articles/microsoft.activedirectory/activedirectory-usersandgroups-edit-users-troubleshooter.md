@@ -8,7 +8,7 @@
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="public"
-/>
+    />
 
 
 # I can’t update the properties of a user in my directory 
@@ -19,6 +19,6 @@
 
 ## **Recommended documents**
 
-[Use the Azure portal to change profile information for a user](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal) 
-[Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
-[Use PowerShell to update profile properties for a user](https://docs.microsoft.com/powershell/azuread/v2/set-azureaduser) 
+* [Use the Azure portal to change profile information for a user](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal) 
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
+* [Use PowerShell to update profile properties for a user](https://docs.microsoft.com/powershell/azuread/v2/set-azureaduser) 

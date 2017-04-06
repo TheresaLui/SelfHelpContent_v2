@@ -19,8 +19,8 @@
 
 ## **Recommended documents**
 
-[Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
-[How your Azure subscription is related to your Azure AD tenant](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory#how-an-azure-subscription-is-related-to-azure-ad)
-[Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)
-[Use Azure AD PowerShell to manage groups](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#groups)
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+* [How your Azure subscription is related to your Azure AD tenant](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory#how-an-azure-subscription-is-related-to-azure-ad)
+* [Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)
+* [Use Azure AD PowerShell to manage groups](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#groups)
 
