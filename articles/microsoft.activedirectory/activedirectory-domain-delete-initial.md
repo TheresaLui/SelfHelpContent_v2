@@ -1,16 +1,16 @@
-<properties
-pageTitle="I want to delete the initial .onmicrosoft.com domain"
-description="Azure Active Directory domains troublehooter"
-service="microsoft.aad"
-resource="Microsoft_AAD_IAM"
-authors="curtand"
-displayOrder="4923"
-selfHelpType="resource"
-supportTopicIds=""
-resourceTags="directory_domain"
-productPesIds=""
-cloudEnvironments="public"
-/>
+<properties	
+    pageTitle="I want to delete the initial .onmicrosoft.com domain"
+    description="Azure Active Directory domains troublehooter"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder="4923"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="directory_domain"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
 # I want to delete the initial .onmicrosoft.com domain
 
