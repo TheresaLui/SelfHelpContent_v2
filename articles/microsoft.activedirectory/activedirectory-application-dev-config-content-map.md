@@ -5,7 +5,7 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds=""
+  supportTopicIds="32570262"
   productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="registeredapps_allapps_button,registeredapps_singleapp_properties"
