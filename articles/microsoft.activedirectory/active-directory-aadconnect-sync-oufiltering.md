@@ -28,4 +28,4 @@ Important points to consider when configuring OU-based filtering:
 * Changing the names of existing OUs may cause OU-based filtering to stop working correctly. If you need to change the names of existing OUs, you must reconfigure OU-based filtering on your Azure AD Connect server.
 
 ## **Recommended documents**
-[Azure AD Connect sync: Configure filtering - Organizational Unit-based filtering](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering#organizational-unitbased-filtering)  
+* [Azure AD Connect sync: Configure filtering - Organizational Unit-based filtering](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering#organizational-unitbased-filtering)  
