@@ -1,3 +1,14 @@
+<properties
+	pageTitle="Users are unable to sign in to the Azure AD Domain Services managed domain "
+	description="Azure AD Domain Services"
+	service="microsoft.aad"
+	resource="Microsoft_AAD_DomainServices"
+	authors="arluca"
+	selfHelpType="resource"
+	displayOrder="200"
+	cloudEnvironments="public"
+/>
+
 # Users are unable to sign in to the Azure AD Domain Services managed domain
 
 ## **Recommended steps**
