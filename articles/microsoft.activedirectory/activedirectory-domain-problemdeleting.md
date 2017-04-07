@@ -23,11 +23,11 @@
 
 ## **Recommended documents**
 
-[Manage your initial default .onmicrosoft.com domain name](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names) 
-[Deleting users from Azure AD]( https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
-[Removing an application in your directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
-[Resource dependencies on domains](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence) 
-[Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names) 
+* [Manage your initial default .onmicrosoft.com domain name](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names) 
+* [Deleting users from Azure AD]( https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
+* [Removing an application in your directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
+* [Resource dependencies on domains](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence) 
+* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names) 
 
 
 

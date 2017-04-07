@@ -23,6 +23,6 @@ the targeted tenant. [Learn more](https://support.microsoft.com/help/2787792/-do
 
 ## **Recommended documents**
 
-[Initial and custom domain names](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names)
-[Domain names in Azure AD and other Microsoft Online Services](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#domain-names-in-azure-ad-and-other-microsoft-online-services)
+* [Initial and custom domain names](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names)
+* [Domain names in Azure AD and other Microsoft Online Services](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#domain-names-in-azure-ad-and-other-microsoft-online-services)
 
