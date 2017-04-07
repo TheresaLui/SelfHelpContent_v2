@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Synchronization Service cannot import/export from Azure AD"
-    description="Synchronization Service cannot import/export from Azure AD"
+    pageTitle="Synchronization Service cannot import/export changes from Azure AD"
+    description="Synchronization Service cannot import/export changes from Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# Synchronization Service cannot import/export from Azure AD
+# Synchronization Service cannot import/export changes from Azure AD
 
 ## **Recommended steps**
 Common root causes include the following:
