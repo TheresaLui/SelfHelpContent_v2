@@ -22,5 +22,5 @@ There are two options to upgrade DirSync (Windows Azure Active Directory Sync) t
 For details on both options, refer to article [Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started).
 
 ## **Recommended documents**
-[Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started)  
-[Upgrade Windows Azure Active Directory Sync and Azure Active Directory Sync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-deprecated)
+* [Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started)  
+* [Upgrade Windows Azure Active Directory Sync and Azure Active Directory Sync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-deprecated)
