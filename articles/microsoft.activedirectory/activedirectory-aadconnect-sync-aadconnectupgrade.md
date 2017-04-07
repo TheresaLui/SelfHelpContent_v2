@@ -27,6 +27,6 @@
 * For details on the changes/improvements in the latest build of Azure AD Connect, refer to article [Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history).
 
 ## **Recommended documents**
-[Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version)  
-[Azure AD Connect download site](https://www.microsoft.com/download/details.aspx?id=47594)  
-[Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history)  
+* [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version)  
+* [Azure AD Connect download site](https://www.microsoft.com/download/details.aspx?id=47594)  
+* [Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history)  
