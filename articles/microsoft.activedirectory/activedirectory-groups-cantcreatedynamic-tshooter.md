@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="I can't create and populata a dynamic group"
+    pageTitle="I can't create and populate a dynamic group"
     description= "Trouble creating and populating a dynamic droup "
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -11,7 +11,7 @@
  />
 
 
-# I can't create and populata a dynamic group
+# I can't create and populate a dynamic group
 
 ## **Recommended steps**
 1.	If you cannot find the built-in User Attributes, ensure that the attribute is in the [list of supported properties] (https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#supported-properties).
