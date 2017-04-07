@@ -26,9 +26,7 @@ To view the list of all subscriptions present in your tenant, go to the [Office 
 
 Your ability to manage subscriptions depends on how they were originally purchased:
 
-1.  Paid or trial seat-based subscriptions like Office 365 Enterprise E3, EMS or Azure AD Premium can be managed via the Office 365 Admin portal. If you wish to cancel a subscription you can do so by the following: Navigate to the Admin portal, go to the **Subscriptions** page and find the subscription you wish to manage in the list, then select **Cancel**. Then select **Confirm Cancellation**.
-  
-  If you wish to expedite your subscription to immediate cancel *before* its natural subscription lifecycle to delete an Azure AD tenant you will need to escalate through Support. Learn more about [Azure billing or Office 365 Business support](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+1.  Paid or trial seat-based subscriptions like Office 365 Enterprise E3, EMS or Azure AD Premium can be managed via the Office 365 Admin portal. If you wish to cancel a subscription you can do so by the following: Navigate to the Admin portal, go to the **Subscriptions** page and find the subscription you wish to manage in the list, then select **Cancel**. Then select **Confirm Cancellation**. If you wish to expedite your subscription to immediate cancel *before* its natural subscription lifecycle to delete an Azure AD tenant you will need to escalate through Support. Learn more about [Azure billing or Office 365 Business support](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 2.  Purchases made with an Enterprise Agreement (EA) cannot be canceled in the Admin Center. Please contact your Account Manager to manage EA subscriptions. Learn more about [Enterprise Agreement enrollment](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer#can-i-migrate-from-pay-as-you-go-to-cloud-solution-provider)
 
