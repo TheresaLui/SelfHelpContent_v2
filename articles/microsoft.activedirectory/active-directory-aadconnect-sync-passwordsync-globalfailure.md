@@ -1,6 +1,6 @@
 <properties
     pageTitle="Password synchronization does not work – No passwords are synchronized"
-    description="I can’t find some actions that I performed in the Azure Active Directory activity log"
+    description="Password synchronization does not work – No passwords are synchronized"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
@@ -15,7 +15,7 @@
 # Password synchronization does not work – No passwords are synchronized
 
 ## **Recommended steps**
-* Common causes include:
+* Common root causes include:
 
   * The Active Directory account used by Azure AD Connect to communicate with on-premises Active Directory is not granted **Replicate Directory Changes** and **Replicate Directory Changes All** permissions, which are required for password synchronization.
 
