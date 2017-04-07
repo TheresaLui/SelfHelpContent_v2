@@ -11,8 +11,8 @@
 	productPesIds="14785"
 	cloudEnvironments="public"
 />
- 
- # Synchronizing AD to Azure AD/Password synchronization 
+
+# Synchronizing AD to Azure AD/Password synchronization 
 
 
 ## **Recommended documents**
