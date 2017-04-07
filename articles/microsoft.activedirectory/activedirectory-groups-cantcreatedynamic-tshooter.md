@@ -3,7 +3,7 @@
     description= "Trouble creating and populating a dynamic droup "
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="kcontrac"
+    authors="curtand"
     displayOrder="2519"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_group"
