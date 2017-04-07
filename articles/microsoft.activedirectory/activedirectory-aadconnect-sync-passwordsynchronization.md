@@ -11,6 +11,9 @@
 	productPesIds="14785"
 	cloudEnvironments="public"
 />
+ 
+ # Synchronizing AD to Azure AD/Password synchronization 
+
 
 ## **Recommended documents**
 [Implement password synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization)
