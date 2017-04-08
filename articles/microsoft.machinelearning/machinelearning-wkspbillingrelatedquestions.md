@@ -3,7 +3,7 @@
     description="I have a question regarding billing for machine learning workspace"
     service="microsoft.machinelearning"
     resource="workspaces"
-    authors="jajan"
+    authors="jajan17"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""

@@ -4,11 +4,11 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks"
-	displayOrder="4"
+	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32551671,32551647"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15629"
 	cloudEnvironments="public"
 />
 

@@ -15,7 +15,7 @@
 # How do I configure PNS credentials and get started?
 
 ## **Recommended steps**
-* Follow our [Get Started] tutorial series.</br>
+* Follow our [Get Started](http://go.microsoft.com/fwlink/?LinkID=824685) tutorial series.</br>
 * [Configure Push Notification Service credentials ](data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices).<br>
 
 ## **Recommended documents**

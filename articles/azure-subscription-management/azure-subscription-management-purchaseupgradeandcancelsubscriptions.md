@@ -1,6 +1,6 @@
 <properties
-	pageTitle="purchase, upgrade, and cancel subscriptions"
-	description="purchase, upgrade, and cancel subscriptions"
+	pageTitle="purchase and upgrade subscriptions"
+	description="purchase and upgrade subscriptions"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="aashu"
@@ -12,20 +12,20 @@
 	cloudEnvironments="public"
 />
 
-# purchase, upgrade, and cancel subscriptions
+# purchase and upgrade subscriptions
 
 ## **Recommended steps**
-1. Know more per Azure offer- what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
-[Azure Offers - benefits & limits, how to sign-up, purchase, upgrade or activate](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)
-2. The Account Admin can switch or change Azure offer on an existing subscription- visit 'Azure Account Center', select the subscription to change and then click 'Switch to another offer'.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
-3. If you cancel your subscription, all your services will be deleted immediately. Make sure you back up the data you want to save before you cancel. Only 'Account Adminstrator' can cancel a subscription by visiting 'Azure Account Center' and then clicking 'Cancel Subscription' on right panel.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
-4. To determine the 'Account Administrator' of your subscription - click on 'Subscriptions' on the left pane in Azure portal, select your subscription, click 'Settings', select 'Properties' and scroll down on the properties blade to view the Account Admin's email address.
+
+* [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).<br>
+
+* You can upgrade your free Azure subscription to Pay-As-You-Go.
+[Upgrade free subscription to Pay-As-You-Go](https://azure.microsoft.com/documentation/articles/billing-upgrade-azure-subscription/)<br>
+
+* The Account Admin can change a Pay-As-You-Go subscription to another offer - visit Account Center, select the subscription to change, and then click **Switch to another offer**.<br>
+[Change your subscription to a different offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
 
 ## **Recommended documents**
-[How to sign up for a free subscription, upgrade your subscription, or activate benefits](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)<br>
-[How to cancel your subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
-[Manage Azure Spending Limits](https://azure.microsoft.com/pricing/spending-limits/)<br>
-[Azure Billing and Subscription FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-faq/)<br>
-[Azure Pricing and Purchase FAQ](https://azure.microsoft.com/pricing/faq/)<br>
+
+[Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
+[Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://partner.microsoft.com/membership/core-benefits#Core benefits)<br>
+[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>

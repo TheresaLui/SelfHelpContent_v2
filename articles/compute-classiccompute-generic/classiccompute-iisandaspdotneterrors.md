@@ -16,4 +16,5 @@
 
 ## **Recommended documents**
 [ASP.NET Troubleshooting and Debugging](https://msdn.microsoft.com/library/ms178643.aspx)<br>
-[Use the Debug Diagnostics tool to troubleshoot a process that has stopped responding](http://blogs.msdn.com/b/debugdiag/)
+[Use the Debug Diagnostics tool to troubleshoot a process that has stopped responding](http://blogs.msdn.com/b/debugdiag/)<br>
+[How to install a chain SSL Certificate](https://blogs.msdn.microsoft.com/azuredevsupport/2010/02/24/how-to-install-a-chained-ssl-certificate/)
