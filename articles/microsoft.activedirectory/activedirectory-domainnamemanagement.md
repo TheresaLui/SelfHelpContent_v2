@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Domain name management"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="Jeffsta-MSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045771"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Domain name management"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32045771"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Domain name management
 
