@@ -28,7 +28,7 @@
   The following documents can help you to resolve some of the most common issues in this category.
   * [I saw an error when installing the application access panel browser extension](https://docs.microsoft.com/azure/active-directory/application-access-panel-extension-problem-installing/?WT.mc_id=UI_AAD_Enterprise_Apps_SupportOrTroubleshooting)
 
-3. I'm having problems with a feature on the application access panel
+4. I'm having problems with a feature on the application access panel
   The following documents can help you to resolve some of the most common issues in this category.
   * [I don't know how to use self-service application access](https://docs.microsoft.com/azure/active-directory/application-access-panel-self-service-applications-how-to/?WT.mc_id=UI_AAD_Enterprise_Apps_SupportOrTroubleshooting)
   * [I encountered a problem when using self-service application access](https://docs.microsoft.com/azure/active-directory/application-access-panel-self-service-applications-problem/?WT.mc_id=UI_AAD_Enterprise_Apps_SupportOrTroubleshooting)
