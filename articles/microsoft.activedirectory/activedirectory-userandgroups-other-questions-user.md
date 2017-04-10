@@ -3,7 +3,7 @@
     description="Other questions regarding user and group management"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta-MSFT"
+    authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32565604"
     productPesIds="14785"
