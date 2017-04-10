@@ -14,7 +14,7 @@
 
 # Why is my scale set not updating
 
-If you update your scale set but the running VMs don't update, this is likely because your upgrade policy mode is set to `Manual`. In this mode, changes to the scale set apply to new VMs immediately but are only applied to existing VMs when you call manual upgrade on an existing VM. You can do this programmatically or from the Azure Portal in the `Instances` blade of the scale set. If you wish for updates to automatically be applied to all VMs in the scale set in parallel, you can set the upgrade policy mode to `Automatic` instead.
+If you update your scale set but the running VMs don't update, this is likely because your upgrade policy mode is set to "Manual". In this mode, changes to the scale set apply to new VMs immediately but are only applied to existing VMs when you call manual upgrade on an existing VM. You can do this programmatically or from the Azure Portal in the "Instances" blade of the scale set. If you wish for updates to automatically be applied to all VMs in the scale set in parallel, you can set the upgrade policy mode to "Automatic" instead.
 
 ## Recommended Documents
 
