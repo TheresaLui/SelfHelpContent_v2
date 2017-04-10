@@ -22,7 +22,7 @@ Organizational subscriptions are related to products that require user-level lic
 * You transfer subscriptions to another tenant
 * You create a support request for immediate cancellation of your subscription. Learn more about [Subscription Lifecycle management and retention](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
-To view the list of all subscriptions present in your tenant, go to the [Office 365 Admin Center-&gt;Billing-&gt;Subscriptions](https://portal.office.com/adminportal/home#/subscriptions). You view each type of subscription offer (for example, trial or paid) as well astheir state (active or expiring).
+To view the list of all subscriptions present in your tenant, go to the [Office 365 Admin Center-&gt;Billing-&gt;Subscriptions](https://portal.office.com/adminportal/home#/subscriptions). You view each type of subscription offer (for example, trial or paid) as well as their state (active or expiring).
 
 Your ability to manage subscriptions depends on how they were originally purchased:
 
