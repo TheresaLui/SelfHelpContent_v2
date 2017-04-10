@@ -29,6 +29,6 @@
 
 ## **Recommended documents**
 
-[Why was I charged? Understand your Azure bill](https://azure.microsoft.com/documentation/articles/billing-understand-your-bill/)<br>
+[Why was I charged? Understand your Azure bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
 [Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
 

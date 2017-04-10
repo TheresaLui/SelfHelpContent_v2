@@ -30,4 +30,4 @@ If you want to update payment method to 'invoice' (direct debit), please open a 
 
 [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
-[List of countries in which Azure is available and currencies that can be used to purchase Azure](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
+[Supported countries and currencies](https://azure.microsoft.com/pricing/faq/)<br>

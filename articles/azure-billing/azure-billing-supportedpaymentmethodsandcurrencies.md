@@ -26,4 +26,4 @@
 
 [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
-[Learn more about the Account Admin, who can update payment method](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
+[Learn more about the Account Admin, who can update payment method](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator/)

@@ -25,7 +25,7 @@ If the bill notice was not received because the Account Admin has left the compa
 
 ## **Recommended documents**
 
-[Address past due balance notification](https://azure.microsoft.com/documentation/articles/billing-azure-subscription-past-due-balance/)<br>
+[Address past due balance notification](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance/)<br>
 [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 [Supported payment methods, currencies, and regions](https://docs.microsoft.com/azure/billing-countries-and-currencies)<br>
-[Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)
+[Transfer billing or account ownership - step by step guide & FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer/)

@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-[Administrator roles- Understand limits & permissions by role and how to update them](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)<br>
+[Administrator roles- Understand limits & permissions by role and how to update them](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator/)<br>

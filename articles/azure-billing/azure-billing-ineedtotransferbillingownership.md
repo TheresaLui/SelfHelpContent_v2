@@ -28,4 +28,4 @@ If your current Account Admin has left and you need to take over ownership, plea
 
 ## **Recommended documents**
 
-[Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)
+[Transfer billing or account ownership - step by step guide & FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer/)
