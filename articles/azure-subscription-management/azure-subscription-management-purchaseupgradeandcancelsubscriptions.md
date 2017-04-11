@@ -19,6 +19,7 @@
 * [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).<br>
 
 * You can upgrade your free Azure subscription to Pay-As-You-Go.
+
 [Upgrade free subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription/)<br>
 
 * The Account Admin can change a Pay-As-You-Go subscription to another offer - visit Account Center, select the subscription to change, and then click **Switch to another offer**.<br>
