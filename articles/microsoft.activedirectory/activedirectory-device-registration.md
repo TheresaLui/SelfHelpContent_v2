@@ -18,15 +18,15 @@
 ## **Recommended documents**
 ### Setup Azure AD ###
 
-[Setup to join Azure AD] (https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-overview) 
+[Setup to join Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-overview) 
 
 ### Setup device registration ###
 
-[Setup automatic registration for on premises Active Directory devices] (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup) 
+[Setup automatic registration for on premises Active Directory devices](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup) 
 
 ### Troubleshooting common issues for registration and managing devices ###
 
-[Troubleshooting Windows 10 and Windows Server 2016 registration] (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-troubleshoot-windows)  
-[Troubleshooting Windows 7 and non-Windows 10/Windows Server 2016 registrations] (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-troubleshoot-windows-legacy)  
-Frequently asked questions for device registration] (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-automatic-device-registration-faq) 
+[Troubleshooting Windows 10 and Windows Server 2016 registration](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-troubleshoot-windows)  
+[Troubleshooting Windows 7 and non-Windows 10/Windows Server 2016 registrations](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-troubleshoot-windows-legacy)  
+[Frequently asked questions for device registration](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-faq) 
 
