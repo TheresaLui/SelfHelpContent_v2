@@ -5,7 +5,6 @@
     resource="sites"
     authors="aashu"
     selfHelpType="faq"
-    topics="Timezone, Time Zone"
     keywords="Timezone, server time"
     resourceTags="windows, linux"   
     productPesIds="14748"
