@@ -1,10 +1,10 @@
 <properties
 	pageTitle="switch to another offer"
 	description="switch to another offer"
-	service="azure-subscription-management"
-	resource="subscription-management"
+	service="azure-billing"
+	resource="billing"
 	authors="aashu"
-	displayOrder="3"
+	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32454938"
 	resourceTags=""
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# switch to another offer
+# I need to change my subscription type or offer
 
 ## **Recommended steps**
 

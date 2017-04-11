@@ -1,10 +1,10 @@
 <properties
 	pageTitle="request for cancellation of a subscription"
 	description="request for cancellation of a subscription"
-	service="azure-subscription-management"
-	resource="subscription-management"
+	service="azure-billing"
+	resource="billing"
 	authors="jlian"
-	displayOrder="2"
+	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32454934"
 	resourceTags=""
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# request for cancellation of a subscription
+# I need to cancel my subscription
 
 ## **Recommended steps**
 

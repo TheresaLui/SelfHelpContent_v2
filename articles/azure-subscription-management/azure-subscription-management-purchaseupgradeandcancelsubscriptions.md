@@ -1,10 +1,10 @@
 <properties
 	pageTitle="purchase and upgrade subscriptions"
 	description="purchase and upgrade subscriptions"
-	service="azure-subscription-management"
-	resource="subscription-management"
+	service="azure-billing"
+	resource="billing"
 	authors="aashu"
-	displayOrder="1"
+	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32454931"
 	resourceTags=""
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# purchase and upgrade subscriptions
+# I need to purchase or upgrade my subscription
 
 ## **Recommended steps**
 
