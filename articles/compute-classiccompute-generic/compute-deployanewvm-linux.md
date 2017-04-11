@@ -3,7 +3,7 @@
 	description="configuration and setup/deploy a new vm"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="aashu"
+	authors="scottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411844"
@@ -15,7 +15,13 @@
 # configuration and setup/deploy a new vm
 
 ## **Recommended documents**
-[Diagnose & recover from boot failures](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
-[Upload a VHD from on-premise to Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-classic-create-upload-vhd/)<br>
-[Common steps by error- try different VM size or a new cloud service](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-allocation-failure/#error-string-lookup)<br>
-[Troubleshoot issues creating, adding, deploying, resizing or restarting VMs](http://aka.ms/azCreateTroubleshoot)
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
+* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-allocation-failure?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
+* [N-Series: General considerations for N-series VMs ](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-n-series-driver-setup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
+* [Understand the available sizes for Linux VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-sizes?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
+* [Understanding "Some SKU series are unavailable for the selected subscription for this region"?](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
+* [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-upload-vhd?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
+* [Diagnose & recover from boot failures](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2)<br>
+
+
+
