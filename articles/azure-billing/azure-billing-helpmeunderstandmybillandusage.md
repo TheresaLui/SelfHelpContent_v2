@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# help me understand my bill and usage
+# Help me understand my bill and usage
 
 ## **Recommended steps**
 
