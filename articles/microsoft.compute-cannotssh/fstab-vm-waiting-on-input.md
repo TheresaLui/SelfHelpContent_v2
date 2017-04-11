@@ -15,12 +15,12 @@
 	cloudEnvironments="public"
 />
 
-# Diagnostics on your Linux Virtual machine found a boot error 
+# Diagnostics on your Linux Virtual machine found a boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine [vmname]<!--($vmname)-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)-->. We identified that your VM is currently in a inaccessible state because it is waiting on user input to continue the boot process.  This problem is most commonly due to a problem in the file system table(fstab) file.  
+## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because it is waiting on user input to continue the boot process.  This problem is most commonly due to a problem in the file system table(fstab) file.  
 
-To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > **[vmname]**<!--($vmname)--> > **All settings** > **Boot diagnostics**
+To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > <!--$vmname-->**[vmname]**<!--/$vmname--> > **All settings** > **Boot diagnostics**
 <!--/issueDescription-->
    
 ## **Recommended Steps**
@@ -32,6 +32,3 @@ To recover the virtual machine, follow these steps:
 [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699).
 
 3. After the fstab issues are resolved, return to [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks), and resume at the *Unmount and detach original virtual hard disk* section for steps to recreate the original VM.
-
-
-
