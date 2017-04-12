@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
 2. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin.
 
@@ -28,4 +28,4 @@ If your current Account Admin has left and you need to take over ownership, plea
 
 ## **Recommended documents**
 
-[Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)
+[Transfer billing or account ownership - step by step guide & FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer/)

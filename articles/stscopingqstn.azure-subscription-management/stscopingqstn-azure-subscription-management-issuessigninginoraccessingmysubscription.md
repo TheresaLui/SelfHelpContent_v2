@@ -9,4 +9,4 @@
 />
 # Issues signing in or accessing my subscription
 *	Issue description
-*	Email address used during sign in
+*	Email address used during sign-in
