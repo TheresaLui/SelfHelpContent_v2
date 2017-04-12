@@ -1,5 +1,5 @@
 <properties
-	pageTitle="A user who has recently been assigned to a role or activated their role is not able to manage in some Microsoft Online Services portals"
+	pageTitle="Unable to manage role in a Microsoft Online Services portal after being assigned or activated"
 	description="A user who has recently been assigned to a role or activated their role is not able to manage in some Microsoft Online Services portals"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
