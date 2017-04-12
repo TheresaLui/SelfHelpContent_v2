@@ -17,9 +17,9 @@
 # We ran diagnostics on your resource and found an issue
  
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
 
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated unplanned maintenance action**.
+We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated unplanned maintenance action**.
 <!--/issueDescription-->
 
 The unplanned maintenance action was required in order to ensure the overall health of the Azure Platform. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time. <br>

@@ -9,4 +9,4 @@
 />
 # Change ownership of my subscription
 *	Issue description
-*	Email address to which you would like to transfer the subscription ownership
+*	Email address of the person to whom you want to transfer the subscription ownership

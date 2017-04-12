@@ -9,5 +9,5 @@
 />
 # Issue with Azure purchase
 *	Issue description
-*	Phone number used during sign up
-*	Email address used during sign up
+*	Phone number used during sign-up
+*	Email address used during sign-up
