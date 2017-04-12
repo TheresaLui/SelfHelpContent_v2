@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
-    displayOrder=""
+    displayOrder="221"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group"
