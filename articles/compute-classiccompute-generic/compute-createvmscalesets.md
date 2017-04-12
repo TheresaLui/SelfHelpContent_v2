@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/create vm scale sets (Windows)"
-	description="configuration and setup/create vm scale sets (Windows)"
+	pageTitle="configuration and setup/create vm scale sets (windows)"
+	description="configuration and setup/create vm scale sets (windows)"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Configuration and Setup/Create VM Scale Sets
+# Configuration and Setup/Create VM Scale Sets (Windows)
 
 ## **Recommended documents**
 * [Review the steps to automatically scale machines](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-windows-autoscale?toc=%2fazure%2fmonitoring-and-diagnostics%2ftoc.json)<br>
