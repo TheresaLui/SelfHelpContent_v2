@@ -17,10 +17,10 @@
 
 # Diagnostics on your Linux Virtual machine found a boot error 
 <!--issueDescription-->
-## **Boot error found for your virtual machine [vmname]<!--($vmname)-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.  
+## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.  
 
-To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > **[vmname]**<!--($vmname)--> > **All settings** > **Boot diagnostics**
+To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > <!--$vmname-->**[vmname]**<!--/$vmname--> > **All settings** > **Boot diagnostics**
 <!--/issueDescription-->
    
 ## **Recommended Steps**
