@@ -1,18 +1,18 @@
 <properties
-	pageTitle="configuration and setup/deploy vm scale sets"
-	description="configuration and setup/deploy vm scale sets"
+	pageTitle="configuration and setup/deploy vm scale sets (linux)"
+	description="configuration and setup/deploy vm scale sets (linux)"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32539972"
+	supportTopicIds="32539972,32449675"
 	resourceTags=""
 	productPesIds="15571,16080"
 	cloudEnvironments="public"
 />
 
-# Configuration and Setup/Deploy VM Scale Sets
+# Configuration and Setup/Deploy VM Scale Sets (Linux)
 
 ## **Recommended documents**
 * [Review the steps to automatically scale machines](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-linux-autoscale?toc=%2fazure%2fmonitoring-and-diagnostics%2ftoc.json)<br>
