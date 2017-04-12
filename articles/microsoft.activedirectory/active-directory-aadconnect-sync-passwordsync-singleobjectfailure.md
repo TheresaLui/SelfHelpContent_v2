@@ -1,10 +1,10 @@
-<properties
+1<properties
     pageTitle="Password synchronization does not work for specific user"
     description="Password synchronization does not work for specific user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
-    displayOrder=""
+    displayOrder="1222"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
