@@ -1,18 +1,18 @@
 <properties
-	pageTitle="configuration and setup/deploy a new vm"
-	description="configuration and setup/deploy a new vm"
+	pageTitle="configuration and setup/deploy a vm with managed disks"
+	description="configuration and setup/deploy a vm with managed disks"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411844"
+	supportTopicIds="32565832"
 	resourceTags="linux, redhat"
 	productPesIds="15571"
 	cloudEnvironments="public"
 />
 
-# configuration and setup/deploy a new vm
+# Configuration and Setup/Deploy a VM with managed disks
 
 ## **Recommended documents**
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
