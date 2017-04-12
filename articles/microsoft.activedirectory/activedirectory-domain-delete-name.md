@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="Jeffsta-MSFT"
-	displayOrder="4292"
+	displayOrder="4295"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="directory_domain"

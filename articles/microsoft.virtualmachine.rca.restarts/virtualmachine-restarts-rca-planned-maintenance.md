@@ -17,9 +17,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
  
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This expected occurrence was caused by an **Azure initiated planned maintenance action**.
+We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This expected occurrence was caused by an **Azure initiated planned maintenance action**.
 <!--/issueDescription-->
 
 This planned maintenance update required a reboot of your virtual machines to apply the required updates to the infrastructure. The virtual machine was shut down while we patched the infrastructure, and then the virtual machine was restarted.<br> 
