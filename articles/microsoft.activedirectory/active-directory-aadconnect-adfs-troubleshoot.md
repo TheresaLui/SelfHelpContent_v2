@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="anandy"
-    displayOrder=""
+    displayOrder="231"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
