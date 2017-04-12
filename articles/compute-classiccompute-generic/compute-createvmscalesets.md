@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/create vm scale sets (Linux)"
-	description="configuration and setup/create vm scale sets (Linux)"
+	pageTitle="configuration and setup/create vm scale sets (Windows)"
+	description="configuration and setup/create vm scale sets (Windows)"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
