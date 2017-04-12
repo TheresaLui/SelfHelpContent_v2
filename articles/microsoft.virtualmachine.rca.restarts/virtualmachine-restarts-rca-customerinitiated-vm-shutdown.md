@@ -17,9 +17,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
  
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)**. This expected occurrence was caused by a **user initiated shutdown action**.
+We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. This expected occurrence was caused by a **user initiated shutdown action**.
 <!--/issueDescription-->
 
 The shutdown was triggered by an authorized user or process via either Azure Portal or Azure Resource Manager interfaces. As a result, your VM was shut down and remained in this state until user action was taken to restart it.   
