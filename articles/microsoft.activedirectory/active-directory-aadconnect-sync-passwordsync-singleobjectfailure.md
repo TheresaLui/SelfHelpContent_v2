@@ -1,4 +1,4 @@
-1<properties
+<properties
     pageTitle="Password synchronization does not work for specific user"
     description="Password synchronization does not work for specific user"
     service="microsoft.aad"
