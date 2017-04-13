@@ -12,14 +12,13 @@
 
 # Problems developing my application
 
-## **Recommended steps**
-### I don't know how to configure my application
+## **I don't know how to configure my application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [I don't know how to change the token lifetime defaults for my application](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-change-token-lifetime-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
-### I don't know how to select or manage permissions for my application
+## **I don't know how to select or manage permissions for my application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 

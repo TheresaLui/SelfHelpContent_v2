@@ -12,9 +12,7 @@
 
 # Problems adding or configuring applications
 
-## **Recommended steps**
-
-### I don't know how to configure single sign-on to an application
+## **I don't know how to configure single sign-on to an application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
@@ -24,7 +22,7 @@ The following documents can help you to resolve some of the most common issues i
   * [I don't know how to configure password single sign-on for an Azure AD Gallery application](https://docs.microsoft.com/azure/active-directory/application-config-sso-how-to-configure-password-sso-gallery/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [I don't know how to determine what single-sign on method to use](https://docs.microsoft.com/azure/active-directory/application-config-sso-how-to-choose-sign-on-method/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
 
-### I'm having a problem when adding an application
+## **I'm having a problem when adding an application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
@@ -32,7 +30,7 @@ The following documents can help you to resolve some of the most common issues i
   * [I encountered a problem when adding a non-gallery application](https://docs.microsoft.com/azure/active-directory/application-config-add-app-problem-problem-adding-non-gallery-app/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [I encountered a problem when adding an Azure AD Gallery application](https://docs.microsoft.com/azure/active-directory/application-config-add-app-problem-problem-adding-gallery-app/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
 
-### I'm having a problem when configuring single sign-on for an application
+## **I'm having a problem when configuring single sign-on for an application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
