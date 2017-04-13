@@ -1,7 +1,7 @@
 <properties
     pageTitle="Tip 2: TESTING - Test with an end user, not an administrator, and pilot with a small set of users"
     description="Top Tips from customers - Tip 2"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="200"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **Tip 2: TESTING**
+# Tip 2: TESTING
 ## Test with an end user, not an administrator, and pilot with a small set of users
 When you test with an administrator, we enforce the administrator password reset policy, which is defined below.  This means that you will NOT see the expected results of the policy you have configured for your end users.
 

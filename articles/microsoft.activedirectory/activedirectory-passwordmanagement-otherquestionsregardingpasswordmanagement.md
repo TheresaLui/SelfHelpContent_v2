@@ -1,7 +1,7 @@
 <properties
    pageTitle="Password Management/Other questions regarding password management"
    description="Password Management/Other questions regarding password management"
-   service="microsoft.activedirectory"
+   service="microsoft.aad"
    resource="activedirectory"
    authors="gahug"
    displayOrder=""
@@ -40,13 +40,13 @@ For more detailed information check out the links below:
 
 
 ## **Recommended documents**
-[Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin) <br>
-[FAQ - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq) <br>
-[Troubleshoot - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot) <br>
-[Getting started - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) <br>
-[Best Practices - Password Management ](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices) <br>
-[Audit logs - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights) <br>
-[Password policies - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy) <br>
-[Learn more - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more) <br>
-[How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works) <br>
-[Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) <br>
+* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
+* [FAQ - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq)
+* [Troubleshoot - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot)
+* [Getting started - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
+* [Best Practices - Password Management ](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
+* [Audit logs - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights)
+* [Password policies - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy)
+* [Learn more - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more)
+* [How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) 

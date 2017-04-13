@@ -1,7 +1,7 @@
 <properties
     pageTitle="Tip 9: TROUBLESHOOT - If you still need help, include enough information for us to assist you"
     description="Top Tips from customers - Tip 9"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="900"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **Tip 9: TROUBLESHOOT**
+# Tip 9: TROUBLESHOOT
 ## If you still need help, include enough information for us to assist you
 If you still need help troubleshooting, we are here for you. You can either open a support case, or get in touch with your account management team to reach out to us directly. We'd love to hear from you!
 

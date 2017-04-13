@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Password Management/Self-service password change/reset"
 	description="Password Management/Self-service password change/reset"
-	service="microsoft.activedirectory"
+	service="microsoft.aad"
 	resource="activedirectory"
 	authors="zhchia"
 	displayOrder=""
@@ -37,20 +37,13 @@
 
 
 ## **Recommended documents**
-[Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin) <br>
-[FAQ - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset) <br>
-[FAQ - Password Reset Registration](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-passwords-faq#password-reset-registration) <br>
-[FAQ - Password Change](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-change) <br>
-[Troubleshoot - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal) <br>
-[Troubleshoot - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-registration-portal) <br>
-[How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password) <br>
-[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) <br>
-[Best Practices - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices) <br>
-[Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) <br>
-
-<!-- [Azure AD Password Reset for IT Admins](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) <br>
-[How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#how-password-writeback-works) <br>
-[How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works) <br>
-[Best Practices - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices) <br>
-[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) <br>
-[How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password) <br> -->
+* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
+* [FAQ - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset)
+* [FAQ - Password Reset Registration](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-passwords-faq#password-reset-registration)
+* [FAQ - Password Change](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-change)
+* [Troubleshoot - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal)
+* [Troubleshoot - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-registration-portal)
+* [How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password)
+* [Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
+* [Best Practices - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)

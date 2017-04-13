@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Password Management/Password Writeback"
 	description="Password Management/Password Writeback"
-	service="microsoft.activedirectory"
+	service="microsoft.aad"
 	resource="activedirectory"
 	authors="zhchia, gahug"
 	displayOrder=""
@@ -48,15 +48,9 @@
 
 
 ## **Recommended documents**
-[Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin) <br>
-[Troubleshoot Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback) <br>
-[Password Writeback Event Log Error Codes](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#password-writeback-event-log-error-codes) <br>
-[Troubleshoot Password Writeback Connectivity](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback-connectivity) <br>
-[FAQ - Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-writeback)
-[Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) <br>
-
-<!-- [Azure AD Password Reset for IT Admins](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) <br>
-[How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#how-password-writeback-works) <br>
-[Troubleshoot Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback) <br>
-[Troubleshoot Password Writeback Connectivity](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback-connectivity) <br>
-[Password Writeback Event Log Error Codes](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#password-writeback-event-log-error-codes) <br> -->
+* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
+* [Troubleshoot Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback)
+* [Password Writeback Event Log Error Codes](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#password-writeback-event-log-error-codes)
+* [Troubleshoot Password Writeback Connectivity](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback-connectivity)
+* [FAQ - Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-writeback)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)

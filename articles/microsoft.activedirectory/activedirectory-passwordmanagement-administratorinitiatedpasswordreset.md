@@ -1,7 +1,7 @@
  <properties
 	pageTitle="Password Management/Administrator-initiated password reset"
 	description="Password Management/Administrator-initiated password reset"
-	service="microsoft.activedirectory"
+	service="microsoft.aad"
 	resource="activedirectory"
 	authors="zhchia, gahug"
 	displayOrder=""
@@ -36,14 +36,8 @@
 
 
 ## **Recommended documents**
-[Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin) <br>
-[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords) <br>
-[Troubleshoot Administrator-initiated Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal) <br>
-[FAQ - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq) <br>
-[Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) <br>
-
-<!-- [Azure AD Password Reset for IT Admins](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) <br>
-[How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#how-password-writeback-works) <br>
-[How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works) <br>
-[Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) <br>
-[Troubleshoot Administrator-initiated Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal) <br> -->
+* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
+* [Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords)
+* [Troubleshoot Administrator-initiated Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal)
+* [FAQ - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)

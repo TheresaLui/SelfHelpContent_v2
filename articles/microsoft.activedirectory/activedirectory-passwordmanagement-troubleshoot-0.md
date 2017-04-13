@@ -1,7 +1,7 @@
 <properties
     pageTitle="Tip 1: LICENSING - Make sure you understand the licensing requirements"
     description="Top Tips from customers - Tip 1"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="100"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **Tip 1: LICENSING**
+# Tip 1: LICENSING
 ## Make sure you understand the licensing requirements
 
 

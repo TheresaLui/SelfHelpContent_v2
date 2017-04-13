@@ -1,7 +1,7 @@
 <properties
     pageTitle="PASSWORD RESET DOCUMENTATION NAVIGATION - Use our table of contents and your browser's find feature to find answers"
     description="How to navigate SSPR documentation"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="990"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **PASSWORD RESET DOCUMENTATION NAVIGATION**
+# PASSWORD RESET DOCUMENTATION NAVIGATION
 ## Use our table of contents and your browser's find feature to find answers
 If you are using any of our documentation, we have tried hard to provide quicklinks to all of the interesting places for administrators to learn from in our table of contents.
 

@@ -1,7 +1,7 @@
 <properties
     pageTitle="Tip 6: WRITEBACK - Ensure you enable the correct permissions, firewall rules, and connection settings for password writeback"
     description="Top Tips from customers - Tip 6"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="600"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **Tip 6: WRITEBACK**
+# Tip 6: WRITEBACK
 ## Ensure you enable the correct permissions, firewall rules, and connection settings for password writeback
 In order for writeback to work correctly, you must ensure:
 

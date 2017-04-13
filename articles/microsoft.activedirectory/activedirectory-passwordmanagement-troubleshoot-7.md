@@ -1,7 +1,7 @@
 <properties
     pageTitle="Tip 8: TROUBLESHOOT - Read our troubleshooting guide and FAQ to solve many issues"
     description="Top Tips from customers - Tip 8"
-    service="microsoft.activedirectory"
+    service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
     displayOrder="800"
@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# **Tip 8: TROUBLESHOOT**
+# Tip 8: TROUBLESHOOT
 ## Read our troubleshooting guide and FAQ to solve many issues
 Did you know that password reset has a rich set of troubleshooting guidance and a FAQ? Chances are, if you have a question, you can find the answer to it in the links below.
 
