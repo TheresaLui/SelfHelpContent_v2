@@ -3,7 +3,7 @@
   description="Problems adding or configuring applications"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570259"
   productPesIds="14785"

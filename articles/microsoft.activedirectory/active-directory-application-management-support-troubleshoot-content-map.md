@@ -3,7 +3,7 @@
   description="Resolve the most common issues related to Azure Active Directory Application Management"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32268132, 32570274"
   productPesIds="14785"

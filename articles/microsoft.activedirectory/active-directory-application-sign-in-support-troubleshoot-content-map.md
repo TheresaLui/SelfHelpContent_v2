@@ -3,7 +3,7 @@
   description="Problems when signing in to applications"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570264"
   productPesIds="14785"

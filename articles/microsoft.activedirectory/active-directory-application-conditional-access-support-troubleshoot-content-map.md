@@ -3,7 +3,7 @@
   description="Problems configuring conditional access to one of my applications"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32447987"
   productPesIds="14785"

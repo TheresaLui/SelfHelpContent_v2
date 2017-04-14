@@ -3,7 +3,7 @@
   description="Problems configuring and provisioning users to an application"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="resource"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"

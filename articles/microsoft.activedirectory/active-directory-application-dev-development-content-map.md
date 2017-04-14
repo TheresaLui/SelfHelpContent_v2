@@ -3,7 +3,7 @@
   description="Problems developing my application"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="resource"
   cloudEnvironments="public"
   resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties"

@@ -3,7 +3,7 @@
   description="Problems managing application access and permissions"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="asteen"
+  authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570263"
   productPesIds="14785"
