@@ -5,8 +5,6 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570259"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="107"
@@ -14,6 +12,7 @@
 
 # Problems adding or configuring applications
 
+## **Recommended steps**
 
 ## **I don't know how to configure single sign-on to an application**
 

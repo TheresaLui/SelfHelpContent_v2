@@ -12,6 +12,8 @@
 
 # Problems configuring and provisioning users to an application
 
+## **Recommended steps**
+
 ## **I want to know when provisioning will finish**
 
 The following documents can help you to resolve some of the most common issues in this category.

@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32447987"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="2507"
  />
 
 # Problems configuring conditional access to one of my applications
+
+## **Recommended steps**
 
 ## **I've set up conditional access, but something isn't working**
 

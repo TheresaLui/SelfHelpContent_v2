@@ -12,6 +12,8 @@
 
 # Problems when signing in to applications
 
+## **Recommended steps**
+
 ## **I can complete Azure AD sign in, but I'm seeing a prompt that I don't expect**
 
 The following documents can help you to resolve some of the most common issues in this category.

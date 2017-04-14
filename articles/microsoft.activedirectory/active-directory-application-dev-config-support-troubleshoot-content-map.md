@@ -12,6 +12,8 @@
 
 # Problems configuring or registering my application
 
+## **Recommended steps**
+
 ## **I don't know how to configure my application**
 
 The following documents can help you to resolve some of the most common issues in this category.

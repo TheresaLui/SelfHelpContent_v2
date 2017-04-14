@@ -12,14 +12,16 @@
 
 # Problems configuring conditional access to one of my applications
 
-## **I've set up conditional access, but something isn't working**
+## **Recommended steps**
+
+1. **I've set up conditional access, but something isn't working**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [Conditional Access isn't working because customer did not meet Device Registration pre-reqs](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [Tenant is getting blocked due to incorrect setting of Conditional Access policies](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-device-remediation/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
 
-## **I'm having problems setting up conditional access**
+2. **I'm having problems setting up conditional access**
 
 The following documents can help you to resolve some of the most common issues in this category.
 

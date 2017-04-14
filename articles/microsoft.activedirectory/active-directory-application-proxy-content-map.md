@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32369657"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview,enterpriseapps_singleapp"
   displayOrder="1507"
  />
 
 # Problems configuring the Azure AD Application Proxy
+
+## **Recommended steps**
 
 ## **I can load my application, but something on the page looks broken**
 

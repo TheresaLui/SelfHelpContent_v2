@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570262"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="registeredapps_allapps_button,registeredapps_singleapp_properties"
   displayOrder="108"
  />
 
 # Problems configuring or registering my application
+
+## **Recommended steps**
 
 ## **I don't know how to configure my application**
 

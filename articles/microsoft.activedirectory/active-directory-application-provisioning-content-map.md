@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570260"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="1107"
  />
 
 # Problems configuring and provisioning users to an application
+
+## **Recommended steps**
 
 ## **I want to know when provisioning will finish**
 

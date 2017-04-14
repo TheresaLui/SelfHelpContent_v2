@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570263"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="1707"
  />
 
 # Problems managing application access and permissions
+
+## **Recommended steps**
 
 ## **I'm having a problem assigning or removing users or groups to an application**
 

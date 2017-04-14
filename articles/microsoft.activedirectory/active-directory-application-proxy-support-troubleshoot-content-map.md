@@ -12,6 +12,8 @@
 
 # Problems configuring the Azure AD Application Proxy
 
+## **Recommended steps**
+
 ## **I can load my application, but something on the page looks broken**
 
 The following documents can help you to resolve some of the most common issues in this category.

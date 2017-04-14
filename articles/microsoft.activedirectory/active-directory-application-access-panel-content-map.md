@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570265"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="3507"
  />
 
 # Problems using the application access panel website or mobile application
+
+## **Recommended steps**
 
 ## **I do not see the applications I expect on the application access panel**
 

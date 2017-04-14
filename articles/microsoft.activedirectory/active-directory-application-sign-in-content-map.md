@@ -5,14 +5,14 @@
   resource="Microsoft_AAD_IAM"
   authors="asteen"
   selfHelpType="resource"
-  supportTopicIds="32570264"
-  productPesIds="14785"
   cloudEnvironments="public"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="507"
  />
 
 # Problems when signing in to applications
+
+## **Recommended steps**
 
 ## **I can complete Azure AD sign in, but I'm seeing a prompt that I don't expect**
 
