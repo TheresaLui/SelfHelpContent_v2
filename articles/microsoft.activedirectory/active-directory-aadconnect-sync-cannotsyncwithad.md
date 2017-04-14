@@ -4,10 +4,10 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="cychua"
-    displayOrder=""
+    displayOrder="225"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="225"
+    resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
 />
