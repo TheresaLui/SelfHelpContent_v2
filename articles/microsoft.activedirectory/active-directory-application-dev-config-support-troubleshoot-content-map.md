@@ -14,7 +14,7 @@
 
 ## **Recommended steps**
 
-## **I don't know how to configure my application**
+**I don't know how to configure my application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
@@ -22,20 +22,20 @@ The following documents can help you to resolve some of the most common issues i
   * [I don't know how to configure single sign-on to my application](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-sso-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
   * [I don't know how to fill out a specific field on the application object](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-specific-application-property-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
-## **I don't know how to create and configure a multi-tenant application**
+**I don't know how to create and configure a multi-tenant application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [I don’t know how to set up a multi-tenant application](https://docs.microsoft.com/azure/active-directory/application-dev-setup-multi-tenant-app/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
   * [I don't know how to add my multi-tenant application to the Azure AD application gallery](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-multi-tenant-application-add-to-gallery-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
-## **I don't know how to select or manage permissions for my application**
+**I don't know how to select or manage permissions for my application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [I don't know which permissions to select for a given API](https://docs.microsoft.com/azure/active-directory/application-dev-perms-for-given-api/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
-## **I'm having a problem using or finding a specific API**
+**I'm having a problem using or finding a specific API**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
