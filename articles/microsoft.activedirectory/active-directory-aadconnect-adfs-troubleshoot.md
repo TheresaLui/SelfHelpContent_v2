@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Synchronizing AD to Azure AD/Azure AD Connect AD FS Configuration"
-	description="Synchronizing AD to Azure AD/Azure AD Connect AD FS Configuration"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
-	authors="cychua"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32404463"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+    pageTitle="Synchronization Service cannot import/export changes from Azure AD"
+    description="Synchronization Service cannot import/export changes from Azure AD"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="anandy"
+    displayOrder="231"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="directory_overview"
+    productPesIds=""
+    cloudEnvironments="public"
 />
 
 # I have trouble configuring / managing federation with AD FS
@@ -26,7 +26,5 @@ You can use Add an additional Azure AD domain task in Azure AD Connect to federa
 3. Users are getting error “Requested federation realm object does not exist”.
 This error is usually thrown by Azure AD when the issuerID claim issued given by AD FS is incorrect. In some of the older versions of Azure AD Connect the issuance claims in multiple domain federation scenarios were not set correctly. Upgrading to latest Azure AD Connect will likely resolve the issue.
 
-
 ## **Recommended documents**
-[Azure AD Connect and Federation](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectfed-whatis)
-<br>
+[Azure AD Connect and federation](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectfed-whatis)  
