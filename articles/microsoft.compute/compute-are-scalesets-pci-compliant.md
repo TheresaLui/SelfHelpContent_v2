@@ -3,7 +3,7 @@
     description="Are scale sets PCI-compliant"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""

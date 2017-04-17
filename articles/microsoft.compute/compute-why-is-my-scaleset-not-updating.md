@@ -3,7 +3,7 @@
     description="Why is my scale set not updating"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""

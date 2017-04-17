@@ -3,7 +3,7 @@
     description="How do I reset the password or ssh key on my scale set VMs"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""

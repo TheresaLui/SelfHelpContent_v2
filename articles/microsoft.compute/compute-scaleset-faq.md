@@ -3,7 +3,7 @@
     description="Scale set FAQ"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="7"
     selfHelpType="resource"
     supportTopicIds=""

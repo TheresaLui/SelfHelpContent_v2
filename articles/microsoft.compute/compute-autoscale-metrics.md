@@ -3,7 +3,7 @@
     description="What metrics can I use to autoscale my scale set"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""

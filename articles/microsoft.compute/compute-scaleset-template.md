@@ -3,7 +3,7 @@
     description="How do I build a Resource Manager template to deploy scale sets"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    author="gatneil"
+    authors="gatneil"
     displayOrder="6"
     selfHelpType="resource"
     supportTopicIds=""
