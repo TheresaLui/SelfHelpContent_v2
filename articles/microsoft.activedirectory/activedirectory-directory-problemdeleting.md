@@ -1,16 +1,16 @@
- <properties
-	pageTitle="Problem deleting an Azure AD tenant"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="ElizavetaKuzmenko"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565595"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+<properties
+    pageTitle="Problem deleting an Azure AD tenant"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565595"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Problem deleting an Azure AD tenant 
 
