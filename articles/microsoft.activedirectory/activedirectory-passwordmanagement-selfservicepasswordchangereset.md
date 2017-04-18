@@ -39,7 +39,7 @@
 ## **Recommended documents**
 * [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
 * [FAQ - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset)
-* [FAQ - Password Reset Registration](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-passwords-faq#password-reset-registration)
+* [FAQ - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset-registration)
 * [FAQ - Password Change](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-change)
 * [Troubleshoot - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal)
 * [Troubleshoot - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-registration-portal)

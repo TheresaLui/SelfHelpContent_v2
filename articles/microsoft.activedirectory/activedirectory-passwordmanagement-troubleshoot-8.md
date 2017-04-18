@@ -9,14 +9,14 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 9: TROUBLESHOOT
+# Tip 9: TROUBLESHOOT - information we need
 ## If you still need help, include enough information for us to assist you
 If you still need help troubleshooting, we are here for you. You can either open a support case, or get in touch with your account management team to reach out to us directly. We'd love to hear from you!
 
 But, before you reach out, please **make sure you gather all of the information requested below** so that we can help you quickly!
 * [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)
 
-#### Ways to provide password reset feedback
+### Ways to provide password reset feedback
 * [Feature requests or troubleshooting - Post on the Azure AD MSDN forums](https://social.msdn.microsoft.com/Forums/azure/home?forum=WindowsAzureAD)
 * [Feature requests or troubleshooting - Post on StackOverflow](http://stackoverflow.com/questions/tagged/azure-active-directory)
 * [Feature requests or troubleshooting - Tweet @azuread!](https://twitter.com/azuread)

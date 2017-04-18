@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 6: WRITEBACK
+# Tip 6: WRITEBACK - configuration
 ## Ensure you enable the correct permissions, firewall rules, and connection settings for password writeback
 In order for writeback to work correctly, you must ensure:
 
@@ -18,7 +18,7 @@ In order for writeback to work correctly, you must ensure:
 3. The proper **firewall exceptions** have been made for key password reset service URLs, such as Service Bus
 4. Your **proxy and firewall are not killing idle outbound connections**, we recommend 10 minutes or longer
 
-For a full list of troubleshooting guidance and specific guidelines for configuring permissions and firewall rules for password writeback, see:
+For a full list of troubleshooting guidance and specific guidelines for configuring permissions and firewall rules for password writeback go [here](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords):
 
 
 
@@ -31,7 +31,7 @@ For a full list of troubleshooting guidance and specific guidelines for configur
 * [Troubleshoot - Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback)
 * [Password Writeback event log error codes](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#password-writeback-event-log-error-codes)
 * [Troubleshoot - Password Writeback connectivity](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback-connectivity)
-* [Writeback deployment - Step 3: Configure your firewall](#step-3-configure-your-firewall)
-* [Writeback deployment - Step 4: Set up the appropriate permissions](#step-4-set-up-the-appropriate-active-directory-permissions)
+* [Writeback deployment - Step 3: Configure your firewall](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#step-3-configure-your-firewall)
+* [Writeback deployment - Step 4: Set up the appropriate permissions](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#step-4-set-up-the-appropriate-active-directory-permissions)
 * [FAQ - Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-writeback)
 * [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)

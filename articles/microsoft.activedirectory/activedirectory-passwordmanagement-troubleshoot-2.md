@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 3: DEPLOYMENT
+# Tip 3: DEPLOYMENT - pre-populate data for users
 ## Pre-populate data for your users so they don't have to register
 Many folks don't realize that you do not have to have your users register for password reset in order use the feature.  By setting phone or email properties up for your users beforehand, you can immediately roll out password reset to your entire organization **without requiring your users to do anything!**
 

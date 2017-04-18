@@ -13,7 +13,7 @@
 />
 
 # Password Management/Other questions regarding password management
-### Pre-Requisites
+## Pre-Requisites
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -22,7 +22,7 @@
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
 
-#### Tips
+## Tips
 * [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the administrative UX ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure. <br>
 
 * [DEPLOYMENT](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-3-deployment---pre-populate-data-for-your-users-so-they-dont-have-to-register) - Pre-populate data for your users so they don't have to!
@@ -49,4 +49,4 @@ For more detailed information check out the links below:
 * [Password policies - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy)
 * [Learn more - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more)
 * [How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works)
-* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help) 
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)

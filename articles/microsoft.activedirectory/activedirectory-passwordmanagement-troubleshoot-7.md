@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 8: TROUBLESHOOT
+# Tip 8: TROUBLESHOOT - guidance
 ## Read our troubleshooting guide and FAQ to solve many issues
 Did you know that password reset has a rich set of troubleshooting guidance and a FAQ? Chances are, if you have a question, you can find the answer to it in the links below.
 

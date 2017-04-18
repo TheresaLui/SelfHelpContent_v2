@@ -23,7 +23,7 @@
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
 
-## How To
+## **Recommended steps**
 1. Sign in to the Azure portal with an account that is a global admin for the directory the user is in.
 2. Select **More Services**, enter **Users and groups** in the text box, and then select **Enter**
 3. On the **Users and groups** blade, select **Users**

@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 4: DEPLOYMENT
+# Tip 4: DEPLOYMENT - bypass temporary passwords
 ## Use password reset to obviate the need to communicate temporary passwords
 This is a tag-on to tip 3. Once you pre-configure your users for password reset, imagine a scenario where an employee joins your company for the first time. Instead of communicating the temporary password to him or her, you can now just have them navigate to the [Azure AD Password Reset Portal](https://passwordreset.microsoftonline.com) to reset their passwords.
 

@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 7: REPORTING
+# Tip 7: REPORTING - registration and reset audit logs
 ## See who is registering or resetting passwords with the Azure AD SSPR Audit Logs
 Once password reset is deployed and working, the next logical step is to see it working and analyze who still needs to register, the common issues your users face when resetting, and your return on investment for the feature.
 

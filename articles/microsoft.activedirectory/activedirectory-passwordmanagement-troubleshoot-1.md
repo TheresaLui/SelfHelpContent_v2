@@ -15,7 +15,7 @@ When you test with an administrator, we enforce the administrator password reset
 
 The policies configured in the administrative UX ONLY apply to end-users, not, administrators. Microsoft enforces strong default password reset policies for your administrators - which may be different than the policies you set for your end-users - in order to ensure your organization stays secure.
 
-#### Administrator password reset policy
+### Administrator password reset policy
 * **Applies to** - any administrator role (Global Administrator, Helpdesk Administrator, Password Administrator, etc.)
 * **One gate policy applies...**
  * ...for first 30 days after a trial is started created **OR**

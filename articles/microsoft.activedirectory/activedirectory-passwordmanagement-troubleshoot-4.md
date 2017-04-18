@@ -9,7 +9,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 5: WRITEBACK
+# Tip 5: WRITEBACK - AAD Connect application event log
 ## Look at the application event log on your AAD Connect machine to troubleshoot password writeback
 The Azure AD Connect Application Event log contains a rich set of logging information that describes much of what is occuring with the password writeback service, in real time. To get access to this log, follow the steps below:
 
