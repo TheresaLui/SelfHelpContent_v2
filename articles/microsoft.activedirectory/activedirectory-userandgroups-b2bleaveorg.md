@@ -12,7 +12,7 @@
     cloudEnvironments="public"
     />
 
-# My users were invited to another org and now want to leave that org.
+# My users were invited to another org and now want to leave that org
  
 ## **Recommended steps**
 Contact the admin of the directory they want to leave. If you can’t do that, file a support ticket with Microsoft Support.
