@@ -18,9 +18,9 @@
 1. For troubleshooting and configuration of the 3rd party network appliances contact the appliance vendor. 
 2. Enable LB diagnostics for external LBs to determine if the Azure platform is detecting issues. 
 3. Check if the Virtual Machines in the Load Balancer's Backend Pool are responding to Load Balancer Probe
-   a. Check if the Virtual Machines are up and available
+   a. Check if the Virtual Machines are up and available.
    b. Check if the Virtual Machines are listening on the probe port (use command "netstat -an" (Windows) or "netstat -l" (Linux)).
-   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-troubleshoot-portal)
+   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-troubleshoot-portal])
    d. Check if the effective User Defined Routes are interfering with probe packet routing (see https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
    e. If the Load Balancer Health Probe is configured for HTTP,  change it to TCP, and validate if it starts responding to probes. 
 4. Check if the Virtual Machines in the Load Balancer's Backend Pool are receiving and responding to traffic on data port
