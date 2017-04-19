@@ -9,7 +9,7 @@
 	supportTopicIds="32421024"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # advisory and development questions

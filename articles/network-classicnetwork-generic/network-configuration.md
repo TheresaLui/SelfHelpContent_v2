@@ -19,4 +19,6 @@
 [How to Configure Round Robin routing method](https://azure.microsoft.com/documentation/articles/traffic-manager-configure-round-robin-routing-method/)<br>
 [How to Configure Performance traffic routing method](https://azure.microsoft.com/documentation/articles/traffic-manager-configure-performance-routing-method/)<br>
 [Test your Traffic Manager settings](https://azure.microsoft.com/documentation/articles/traffic-manager-testing-settings/)<br>
-[How to Disable, Enable, or Delete a Profile](https://azure.microsoft.com/documentation/articles/disable-enable-or-delete-a-profile/)
+[How to Disable, Enable, or Delete a Profile](https://azure.microsoft.com/documentation/articles/disable-enable-or-delete-a-profile/)<br>
+[High availability cross-geographic AD FS deployment in Azure with Azure Traffic Manager](https://azure.microsoft.com/documentation/articles/active-directory-adfs-in-azure-with-azure-traffic-manager/)<br>
+[Traffic Manager endpoint monitoring and failover](https://azure.microsoft.com/documentation/articles/traffic-manager-monitoring/)<br>

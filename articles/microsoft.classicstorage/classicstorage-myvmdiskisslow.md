@@ -4,11 +4,11 @@
 	service="microsoft.classicstorage"
 	resource="storageaccounts"
 	authors="kasparks"
-	displayOrder="3"
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
@@ -27,6 +27,7 @@ For example on Windows use Perfmon.
 Click 'Size' in the Settings blade of the VM resource.
 5. Consider using Premium Storage account if its an I/O intensive use-case.<br>
 [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage-preview-portal/)
+6. Do you know PerfInsights can help you analyze Guest VM issues? Start here: [Download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True).<br> To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)

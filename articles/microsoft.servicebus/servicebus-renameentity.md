@@ -8,8 +8,8 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	
-	productPesIds=""
-	cloudEnvironments="public" 
+	productPesIds="13186"
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # How can I rename a queue/topic after I create it?

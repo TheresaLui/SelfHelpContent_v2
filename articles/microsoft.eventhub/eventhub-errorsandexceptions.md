@@ -9,7 +9,7 @@
 	supportTopicIds="32421023"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # errors and exceptions
