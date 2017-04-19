@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My Load Balancer VMs are not receiving traffic"
-	description="My Load Balancer VMs are not receiving traffic"
+	pageTitle="My Load Balanced VMs are not receiving traffic"
+	description="My Load Balanced VMs are not receiving traffic"
 	service="microsoft.network"
 	resource="loadbalancers"
 	authors="radwiv"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My Load Balancer VMs are not receiving traffic
+# My Load Balanced VMs are not receiving traffic
 
 ## **Recommended steps**
 If you have configured Load Balancer in your virtual network and have connectivity issues, try one or more of the below steps to resolve the issue.
