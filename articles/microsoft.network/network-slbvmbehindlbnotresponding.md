@@ -20,12 +20,12 @@
 3. Check if the Virtual Machines in the Load Balancer's Backend Pool are responding to Load Balancer Probe<br>
    a. Check if the Virtual Machines are up and available.<br>
    b. Check if the Virtual Machines are listening on the probe port (use command "netstat -an" (Windows) or "netstat -l" (Linux)).<br>
-   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [Troubleshoot Network Security groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal))<br>
+   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [Troubleshoot Network Security Groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal))<br>
    d. Check if the effective User Defined Routes are interfering with probe packet routing (see [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal))<br>
    e. If the Load Balancer Health Probe is configured for HTTP,  change it to TCP, and validate if it starts responding to probes.<br> 
 4. Check if the Virtual Machines in the Load Balancer's Backend Pool are receiving and responding to traffic on data port<br>
    a. Check if the Virtual Machines are listening on the data port (use command "netstat -an" (Windows) or "netstat -l" (Linux)).<br>
-   b. Check if the Network Security Group on load balancer'd backend pool VM allow traffic on data port (see [Troubleshoot NSG](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal))<br>
+   b. Check if the Network Security Group on load balancer'd backend pool VM allow traffic on data port (see [Troubleshoot Network Security Groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal))<br>
    c. Check if the effective User Defined Routes are interfering with data packet routing (see [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal))<br>
    d. Check if a participating VM from backend pool is trying to access the Internal Load Balancer VIP. This is an unsupported scenario.<br>
 5. Collect network capture to trace the data packet flow<br> 
