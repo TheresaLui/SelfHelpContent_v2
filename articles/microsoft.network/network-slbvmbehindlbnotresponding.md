@@ -20,13 +20,13 @@
 3. Check if the Virtual Machines in the Load Balancer's Backend Pool are responding to Load Balancer Probe
    a. Check if the Virtual Machines are up and available.
    b. Check if the Virtual Machines are listening on the probe port (use command "netstat -an" (Windows) or "netstat -l" (Linux)).
-   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-troubleshoot-portal])
-   d. Check if the effective User Defined Routes are interfering with probe packet routing (see https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
+   c. Check if the Network Security Groups on load balancer backend pool VM allow traffic on probe port (see [Troubleshoot Network Security groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal])
+   d. Check if the effective User Defined Routes are interfering with probe packet routing (see [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
    e. If the Load Balancer Health Probe is configured for HTTP,  change it to TCP, and validate if it starts responding to probes. 
 4. Check if the Virtual Machines in the Load Balancer's Backend Pool are receiving and responding to traffic on data port
    a. Check if the Virtual Machines are listening on the data port (use command "netstat -an" (Windows) or "netstat -l" (Linux)).
-   b. Check if the Network Security Group on load balancer'd backend pool VM allow traffic on data port (see https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-troubleshoot-portal)
-   c. Check if the effective User Defined Routes are interfering with data packet routing (see https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
+   b. Check if the Network Security Group on load balancer'd backend pool VM allow traffic on data port (see [Troubleshoot NSG](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal)
+   c. Check if the effective User Defined Routes are interfering with data packet routing (see [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
    d. Check if a participating VM from backend pool is trying to access the Internal Load Balancer VIP. This is an unsupported scenario.
 5. Collect network capture to trace the data packet flow      
    a. Run a simultaneous network trace on the Load Balancer VM and another test VM from the same Virtual network (For Windows, run: "netsh trace start capture=yes tracefile=c:\server_IP.etl scenario=netconnection" or for Linux, run: "sudo tcpdump -s0 -i eth0 -X -w vmtrace.cap")
@@ -39,5 +39,6 @@
    c. Check if you have Forced Tunneling configured, or a Default Route is applied on the Vnet or LB subnet. This can potentially disrupt proper routing.
 
 ## **Recommended documents**
+[Troubleshoot Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)
 Log Analytics for Azure Load Balancer [LB diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log)<br>
 Configure [Forced Tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)
