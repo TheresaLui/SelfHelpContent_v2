@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 3: DEPLOYMENT - Pre-populate data for your users so they don't have to register"
+    pageTitle="I want to pre-populate data for my users so they don't have to register"
     description="Top Tips from customers - Tip 3"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,8 +9,10 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 3: DEPLOYMENT - pre-populate data for users
-## Pre-populate data for your users so they don't have to register
+
+# I want to pre-populate data for users so my don't have to register
+
+## **Recommended steps**
 Many folks don't realize that you do not have to have your users register for password reset in order use the feature.  By setting phone or email properties up for your users beforehand, you can immediately roll out password reset to your entire organization **without requiring your users to do anything!**
 
 To learn how to do this using an API, PowerShell, or Azure AD Connect, take a read of the documentation below:

@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Password Management/Self-service password change/reset"
-	description="Password Management/Self-service password change/reset"
-	service="microsoft.aad"
-	resource="activedirectory"
-	authors="zhchia"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045826"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Password Management/Self-service password change/reset"
+    description="Password Management/Self-service password change/reset"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="zhchia"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32045826"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Password Management/Self-service password change/reset
-## Pre-Requisites
+## Prerequisites
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2

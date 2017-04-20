@@ -1,18 +1,18 @@
- <properties
-	pageTitle="Password Management/Password Writeback"
-	description="Password Management/Password Writeback"
-	service="microsoft.aad"
-	resource="activedirectory"
-	authors="zhchia, gahug"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565598"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+<properties
+    pageTitle="Password Writeback"
+    description="Password Management/Password Writeback"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="zhchia, gahug"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565598"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
-# Password Management/Password Writeback
+# I'm having a problem with Password Writeback
 ## Pre-Requisites
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
@@ -44,7 +44,7 @@
 		* servicebus.windows.networks
 4. Allow idle connections to persist for at least 2-3 minutes.
 
-\* *If you are still having difficulty try disabling and re-enabling the service in the Azure AD Connect tool*
+If you are still having difficulty, try disabling and re-enabling the service in the Azure AD Connect tool.
 
 
 ## **Recommended documents**

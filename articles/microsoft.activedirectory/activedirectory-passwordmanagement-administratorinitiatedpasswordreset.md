@@ -1,18 +1,18 @@
- <properties
-	pageTitle="Password Management/Administrator-initiated password reset"
-	description="Password Management/Administrator-initiated password reset"
-	service="microsoft.aad"
-	resource="activedirectory"
-	authors="zhchia, gahug"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045781"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+<properties
+    pageTitle="Administrator-initiated password reset"
+    description="Password Management/Administrator-initiated password reset"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="zhchia, gahug"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32045781"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
-# Password Management/Administrator-initiated password reset
+# Administrator-initiated password reset
 ## Pre-Requisites
 *  Ensure you are authorized to perform this operation. *Only global, password, and user administrators can reset user passwords.* Global administrators can also reset other privileged administrators passwords. If you are not authorized to perform this task, ask one of the above administrators or use the [self service password reset service](https://passwordreset.microsoftonline.com/)
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
