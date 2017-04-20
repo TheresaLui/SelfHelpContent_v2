@@ -1,16 +1,16 @@
 <properties
-	pageTitle="User and Group Management/Adding Users (B2B)"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="sasubram"
-	displayOrder=""
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
-	productPesIds=""
-	cloudEnvironments="public"
-/>
+    pageTitle="User and Group Management/Adding Users (B2B)"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="sasubram"
+    displayOrder="2072"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
 # I have invited guest users who can't redeem their invitations
  
