@@ -15,7 +15,7 @@
 # My Load Balanced VMs are not receiving traffic
 
 ## **Recommended steps**
-If you have configured Load Balancer in your virtual network and have connectivity issues, try one or more of the below steps to resolve the issue.<br>
+If you have configured Load Balancer in your virtual network and have connectivity issues, try one or more of the below steps to resolve the issue.<br><br>
 1. Check if the Virtual Machines in the Load Balancer's Backend Pool are responding to Load Balancer Probe<br>
 	a. Check if the Virtual Machines are up and available.<br>
 	b. Check if the Virtual Machines are listening on the probe port.<br>
