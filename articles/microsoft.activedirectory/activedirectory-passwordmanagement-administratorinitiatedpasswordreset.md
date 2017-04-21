@@ -13,7 +13,8 @@
     />
 
 # Administrator-initiated password reset
-## Pre-Requisites
+
+## **Recommended steps**
 *  Ensure you are authorized to perform this operation. *Only global, password, and user administrators can reset user passwords.* Global administrators can also reset other privileged administrators passwords. If you are not authorized to perform this task, ask one of the above administrators or use the [self service password reset service](https://passwordreset.microsoftonline.com/)
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
@@ -22,6 +23,8 @@
 	* Enterprise Mobility + Security E5
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
+
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 ## **Recommended steps**
 1. Sign in to the Azure portal with an account that is a global admin for the directory the user is in.

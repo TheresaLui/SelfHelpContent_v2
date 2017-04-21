@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Password Writeback"
+    pageTitle="I'm having a problem with password writeback"
     description="Password Management/Password Writeback"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -12,8 +12,8 @@
     cloudEnvironments="public"
     />
 
-# I'm having a problem with Password Writeback
-## Pre-Requisites
+# I'm having a problem with password writeback
+## **Recommended steps**
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -21,7 +21,8 @@
 	* Enterprise Mobility + Security E5
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
-
+  
+  The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 * You have at least one administrator account and one test user account with one of the aforementioned licenses.
 

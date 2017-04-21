@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-### Pre-Requisites
+### Prerequisites
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -24,6 +24,9 @@
 	* Enterprise Mobility + Security E5
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
+
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
+
 
 ### Tips
 * [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the administrative UX ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure. <br>

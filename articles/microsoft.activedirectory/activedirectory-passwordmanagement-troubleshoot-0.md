@@ -24,7 +24,7 @@ For Azure AD Password Reset to function, you must have at least once license ass
     * Secure Productive Enterprise E3
     * Secure Productive Enterprise E5
 
-The only reliably up-to-date source of information for Azure AD licensing is the 
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 [view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-1-licensing---make-sure-you-understand-the-licensing-requirements)
 

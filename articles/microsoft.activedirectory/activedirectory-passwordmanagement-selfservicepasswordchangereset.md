@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Password Management/Self-service password change/reset"
+    pageTitle="I'm having a problem with self-service password reset"
     description="Password Management/Self-service password change/reset"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -12,8 +12,8 @@
     cloudEnvironments="public"
     />
 
-# Password Management/Self-service password change/reset
-## Prerequisites
+# I'm having a problem with self-service password reset
+## **Recommended steps**
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -21,6 +21,8 @@
 	* Enterprise Mobility + Security E5
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
+
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 ## **Recommended steps**
 1. Have your users register additional security info for self service password reset by directing them to [aka.ms/ssprsetup](https://login.microsoftonline.com/common/oauth2/authorize?client_id=0000000c-0000-0000-c000-000000000000&redirect_uri=https%3A%2F%2Faccount.activedirectory.windowsazure.com%2F&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3D02LGeV2aaOpBfeyrPlPTVE9v9W3rf0E_VtBiNcjuL12zhaz8BdJ613HFOdYPXhNva7OX8tUieWVS1ldrysmNHg-XCO7bW8Pe82sA4RnjWozG43QBmckgtxvqZvUaty0ZNhBtzMtrjG5qW1v06t4jCAd03c-h0opfkRABw4Y2cvKoYnQy0tfpyRsC1KI3DngNKzhbtPXIYKjxHw02Ld-9RgJVjNxRrMppzhE6EJsjbfD0PpnwbwLp-tMnT5M3hS60SJwZQjvjfocM-x2EcXJhPhG1lfbSGIoZi3yHh12qyVI&nonce=1491428196.4kvRPWtSmTOR_qzakP8WpQ&nux=1).
