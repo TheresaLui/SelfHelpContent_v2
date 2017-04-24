@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 1: LICENSING - Make sure you understand the licensing requirements"
+    pageTitle="I don't think I have the right licenses"
     description="Top Tips from customers - Tip 1"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -8,12 +8,13 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
-# Tip 1: LICENSING
-## Make sure you understand the licensing requirements
+/>
 
+# I don't think I have the right licenses
 
-In order for Azure AD Password Reset to function, you must have at least once license assigned in your organization. We do not enforce per-user licensing on the password reset experience itself, however, if you make use of the feature without having a license assigned to a user, you will be considered out of compliance with your Microsoft licensing agreement and will need to assign licenses to those users.
+## **Recommended steps**
+
+For Azure AD Password Reset to function, you must have at least once license assigned in your organization. We do not enforce per-user licensing on the password reset experience itself, however, if you make use of the feature without having a license assigned to a user, you will be considered out of compliance with your Microsoft licensing agreement and will need to assign licenses to those users.
 
 *  Valid licenses to use Azure AD Self Service Password Reset:
     * Azure AD Premium 1
@@ -23,8 +24,7 @@ In order for Azure AD Password Reset to function, you must have at least once li
     * Secure Productive Enterprise E3
     * Secure Productive Enterprise E5
 
-
-
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 [view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-1-licensing---make-sure-you-understand-the-licensing-requirements)
 

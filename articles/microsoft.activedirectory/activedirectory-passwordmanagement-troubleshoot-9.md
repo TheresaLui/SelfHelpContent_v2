@@ -1,5 +1,5 @@
 <properties
-    pageTitle="PASSWORD RESET DOCUMENTATION NAVIGATION - Use our table of contents and your browser's find feature to find answers"
+    pageTitle="Browse password reset documentation to find answers"
     description="How to navigate SSPR documentation"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -8,16 +8,15 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
-# PASSWORD RESET DOCUMENTATION NAVIGATION
-## Use our table of contents and your browser's find feature to find answers
-If you are using any of our documentation, we have tried hard to provide quicklinks to all of the interesting places for administrators to learn from in our table of contents.
+    />
+
+# Browse password reset documentation to find answers
+
+## **Recommended steps**
+If you are using any of our documentation, we have tried hard to provide links to all of the interesting pasword reset information for administrators in our table of contents.
 
 Check out the table of contents below:
 * [Azure AD Password Reset: Documentation Table of Contents](https://docs.microsoft.com/azure/active-directory/active-directory-passwords)
-
-
-
 
 [view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tip-documentation-navigation---use-our-table-of-contents-and-your-browsers-find-feature-to-find-answers)
 

@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 2: TESTING - Test with an end user, not an administrator, and pilot with a small set of users"
+    pageTitle="I tested password reset with an administrator, and the results don't look right"
     description="Top Tips from customers - Tip 2"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -8,12 +8,14 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
-# Tip 2: TESTING
-## Test with an end user, not an administrator, and pilot with a small set of users
-When you test with an administrator, we enforce the administrator password reset policy, which is defined below.  This means that you will NOT see the expected results of the policy you have configured for your end users.
+/>
 
-The policies configured in the administrative UX ONLY apply to end-users, not, administrators. Microsoft enforces strong default password reset policies for your administrators - which may be different than the policies you set for your end-users - in order to ensure your organization stays secure.
+# I tested password reset with an administrator, and the results don't look right
+
+## **Recommended steps**
+When you test with an administrator, we enforce the administrator password reset policy, which is defined below. This means that you will not see the expected results of the policy you have configured for your end users.
+
+The policies configured in the Azure portal apply only to end-users, not administrators. Microsoft enforces strong default password reset policies for your administrators - which may be different than the policies you set for your end-users - in order to ensure that your organization is more secure.
 
 ### Administrator password reset policy
 * **Applies to** - any administrator role (Global Administrator, Helpdesk Administrator, Password Administrator, etc.)
@@ -26,10 +28,6 @@ The policies configured in the administrative UX ONLY apply to end-users, not, a
  * ...when a vanity domain is present **OR**
  * ... you have enabled Azure AD Connect to synchronize identities from your on-premises environment
  * _**Requires**_: any **two** of Authentication Email, Alternate Email, Authentication Phone, Mobile Phone, or Office Phone to have a value present
-
-
-
-
 
 [view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users)
 

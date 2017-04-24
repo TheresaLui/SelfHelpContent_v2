@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 9: TROUBLESHOOT - If you still need help, include enough information for us to assist you"
+    pageTitle="Gather the right information for communicating my problem to Microsoft"
     description="Top Tips from customers - Tip 9"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,11 +9,11 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 9: TROUBLESHOOT - information we need
-## If you still need help, include enough information for us to assist you
+# Gather the right information for communicating my problem to Microsoft
+## **Recommended steps**
 If you still need help troubleshooting, we are here for you. You can either open a support case, or get in touch with your account management team to reach out to us directly. We'd love to hear from you!
 
-But, before you reach out, please **make sure you gather all of the information requested below** so that we can help you quickly!
+But, before you reach out, please **make sure you gather the information requested below** so that we can help you quickly!
 * [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)
 
 ### Ways to provide password reset feedback

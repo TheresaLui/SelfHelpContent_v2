@@ -1,19 +1,22 @@
 <properties
-   pageTitle="Password Management/Other questions regarding password management"
-   description="Password Management/Other questions regarding password management"
-   service="microsoft.aad"
-   resource="activedirectory"
-   authors="gahug"
-   displayOrder=""
-   selfHelpType="generic"
-   supportTopicIds="32565599"
-   resourceTags=""
-   productPesIds="14785"
-   cloudEnvironments="public"
-/>
+    pageTitle="Other questions about password management"
+    description="Password Management/Other questions regarding password management"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="gahug"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565599"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
-# Password Management/Other questions regarding password management
-## Pre-Requisites
+# Other questions regarding password management
+
+## **Recommended steps**
+
+### Prerequisites
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -22,14 +25,16 @@
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
 
-## Tips
+The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
+
+
+### Tips
 * [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the administrative UX ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure. <br>
 
 * [DEPLOYMENT](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-3-deployment---pre-populate-data-for-your-users-so-they-dont-have-to-register) - Pre-populate data for your users so they don't have to!
 As an administrator you can set phone and email properties for your users before rolling out password reset to your organization. You can do this using an API, PowerShell, or Azure AD Connect. More information here:
   * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#deploying-password-reset-without-requiring-end-user-registration)
   * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#what-data-is-used-by-password-reset)
-
 
 * [REPORTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-7-reporting---see-who-is-registering-or-resetting-passwords-with-the-azure-ad-sspr-audit-logs) - See who is registering or resetting passwords with Azure AD Password Reset Audit Logs in the Azure portal under **Users and groups** <br>
 For more detailed information check out the links below:

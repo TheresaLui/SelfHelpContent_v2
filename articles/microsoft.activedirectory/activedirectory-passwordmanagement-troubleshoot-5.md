@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 6: WRITEBACK - Ensure you enable the correct permissions, firewall rules, and connection settings for password writeback"
+    pageTitle="I don't think I have the correct permissions, firewall rules, or connection settings for password writeback"
     description="Top Tips from customers - Tip 6"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,8 +9,9 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 6: WRITEBACK - configuration
-## Ensure you enable the correct permissions, firewall rules, and connection settings for password writeback
+# I don't think I have the correct permissions, firewall rules, or connection settings for password writeback
+
+## **Recommended steps**
 In order for writeback to work correctly, you must ensure:
 
 1. The proper **Active Directory permissions** have been set for users using the password writeback feature such that they have rights to modify their own passwords and account unlock flags in AD

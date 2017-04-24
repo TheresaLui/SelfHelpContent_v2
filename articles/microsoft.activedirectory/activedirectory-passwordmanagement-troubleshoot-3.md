@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 4: DEPLOYMENT - Use password reset to obviate the need to communicate temporary passwords"
+    pageTitle="I don't want to have to send out temporary passwords to users"
     description="Top Tips from customers - Tip 4"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,9 +9,11 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 4: DEPLOYMENT - bypass temporary passwords
-## Use password reset to obviate the need to communicate temporary passwords
-This is a tag-on to tip 3. Once you pre-configure your users for password reset, imagine a scenario where an employee joins your company for the first time. Instead of communicating the temporary password to him or her, you can now just have them navigate to the [Azure AD Password Reset Portal](https://passwordreset.microsoftonline.com) to reset their passwords.
+# I don't want to have to send out temporary passwords to users
+
+## **Recommended steps**
+
+Once you pre-configure your users for password reset, imagine a scenario where an employee joins your company for the first time. Instead of communicating the temporary password to him or her, you can now just have them navigate to the [Azure AD Password Reset Portal](https://passwordreset.microsoftonline.com) to reset their passwords.
 
 If the user is using a [Windows 10 Azure AD Domain-joined device](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-devices-group-policy), they can even do this right from the Windows 10 Out of Box sign in screen, allowing them to get access to a brand-new PC without you needing to lift a finger :).
 
