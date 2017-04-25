@@ -17,12 +17,14 @@
 
 ## **Recommended documents**
 Installation
+<br>
 * [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites)  
 * [Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-select-installation)  
 * [Getting started with Azure AD Connect using express settings](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-express)  
 * [Custom installation of Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom)  
 
 Upgrade
+<br>
 * [Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started)  
 * [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version)  
 * [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-feature-automatic-upgrade)  
