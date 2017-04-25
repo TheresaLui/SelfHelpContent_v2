@@ -1,19 +1,19 @@
- <properties
-	pageTitle="Password Management/Password Writeback"
-	description="Password Management/Password Writeback"
-	service="microsoft.aad"
-	resource="activedirectory"
-	authors="zhchia, gahug"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565598"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+<properties
+    pageTitle="I'm having a problem with password writeback"
+    description="Password Management/Password Writeback"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="zhchia, gahug"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565598"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
-# Password Management/Password Writeback
-## Pre-Requisites
+# I'm having a problem with password writeback
+## **Recommended steps**
 * Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
 	* Azure AD Premium 1
 	* Azure AD Premium 2
@@ -21,7 +21,8 @@
 	* Enterprise Mobility + Security E5
 	* Secure Productive Enterprise E3
 	* Secure Productive Enterprise E5
-
+  
+  The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
 * You have at least one administrator account and one test user account with one of the aforementioned licenses.
 
@@ -44,7 +45,7 @@
 		* servicebus.windows.networks
 4. Allow idle connections to persist for at least 2-3 minutes.
 
-\* *If you are still having difficulty try disabling and re-enabling the service in the Azure AD Connect tool*
+If you are still having difficulty, try disabling and re-enabling the service in the Azure AD Connect tool.
 
 
 ## **Recommended documents**

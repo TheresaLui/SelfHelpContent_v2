@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Tip 7: REPORTING - See who is registering or resetting passwords with the Azure AD SSPR Audit Logs"
+    pageTitle="I need to generate a report on who is registering or resetting passwords"
     description="Top Tips from customers - Tip 7"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,15 +9,12 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# Tip 7: REPORTING - registration and reset audit logs
-## See who is registering or resetting passwords with the Azure AD SSPR Audit Logs
-Once password reset is deployed and working, the next logical step is to see it working and analyze who still needs to register, the common issues your users face when resetting, and your return on investment for the feature.
+# I need to generate a report on who is registering or resetting passwords
 
-Using the Azure AD Password Reset Audit Logs, you can do this and much more from the Azure Portal, from PowerBI, from the Azure AD Reporting Events API, or from PowerShell.  To learn more about how to see **Recommended documents**:
+## **Recommneded steps**
+If password reset is deployed and working, you should see it working and analyze who still needs to register, the common issues your users face when resetting, and your return on investment for the feature.
 
-
-
-
+Using the Azure AD Password Reset Audit Logs, you can do this and much more in the Azure portal, from PowerBI, from the Azure AD Reporting Events API, or from PowerShell.  To learn more about the Azure AD Password Reset Audit Logs:
 
 [view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-7-reporting---see-who-is-registering-or-resetting-passwords-with-the-azure-ad-sspr-audit-logs)
 
