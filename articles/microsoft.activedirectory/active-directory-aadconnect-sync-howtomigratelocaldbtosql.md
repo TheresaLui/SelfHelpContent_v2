@@ -7,7 +7,7 @@
     displayOrder="2221"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="directory_ad_connect"
+    resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
 />
