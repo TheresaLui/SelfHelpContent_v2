@@ -7,7 +7,7 @@
     displayOrder="222"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group"
+    resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group, directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
 />
