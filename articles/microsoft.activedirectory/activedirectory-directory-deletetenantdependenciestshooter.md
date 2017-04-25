@@ -1,17 +1,17 @@
 <properties 
-    pageTitle="I want to delete an Azure AD tenant"
-    description="I want to delete an Azure AD tenant"
+    pageTitle="I'm having a problem deleting my Azure AD tenant"
+    description="I'm having a problem deleting my Azure AD tenant"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="ElizavetaKuzmenko"
     displayOrder="1875"
     supportTopicIds="32565594"
     selfHelpType="resource"
-    resourceTags="directory_delete"
+    resourceTags="directory_delete,directory_overview"
     productPesIds="14785" 
     cloudEnvironments="public"
     />
-# I want to delete an Azure AD tenant
+# I'm having a problem deleting my Azure AD tenant
 
 ## **Recommended steps**
 
