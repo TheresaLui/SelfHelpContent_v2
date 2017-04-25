@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
-	displayOrder="1"
+	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32570968"
 	resourceTags=""
@@ -16,10 +16,12 @@
 
 # I have AD FS installed and want to create federation with Azure Active Directory using PowerShell 
 
+## Recommended Steps
+
 It is recommended to use Azure Active Directory Connect (Azure AD Connect) to establish federation between Azure AD and AD FS. Azure AD Connect can perform all the federation related tasks automatically. You can read more about the possible operations here. In case creating federation trust with AD FS is not possible using Azure AD Connect, the you can use PowerShell to create the federation trust with Azure AD.
 Pre-requisite 
 
-## Follow the guidelines here and install Azure PowerShell on AD FS server. 
+### Follow the guidelines here and install Azure PowerShell on AD FS server. 
 Steps to create federation
 
 

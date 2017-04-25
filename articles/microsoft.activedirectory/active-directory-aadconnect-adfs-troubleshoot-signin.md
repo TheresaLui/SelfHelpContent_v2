@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
-	displayOrder="1"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32570971"
 	resourceTags=""
@@ -13,6 +13,8 @@
 />
 
 # I have configured federation with Azure AD using AD FS but sign-in is failing
+
+## Recommended Steps
 
 It is recommended to use Azure AD Connect to configure federation with Azure Active Directory. Azure AD Connect provides easy steps to configure and maintain federation. If user sign-in is failing, see if the below common resolution can help – 
 

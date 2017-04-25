@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
-	displayOrder="1"
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds="32570970"
 	resourceTags=""
@@ -13,4 +13,6 @@
 />
 
 # I want to configure federation with Azure AD using a third party federation solution
+
+## Recommended Steps
 For guidance on configuring single sign-on for Active Directory users with Microsoft Online services by using non-Microsoft identity providers check the [Azure Active Directory federation compatibility list](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility#azure-active-directory).
