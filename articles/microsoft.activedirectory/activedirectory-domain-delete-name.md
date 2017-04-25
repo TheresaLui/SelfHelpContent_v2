@@ -7,7 +7,7 @@
     displayOrder="4295"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="directory_domain,directory_delete"
+    resourceTags="directory_domain"
     productPesIds=""
     cloudEnvironments="public"
     />

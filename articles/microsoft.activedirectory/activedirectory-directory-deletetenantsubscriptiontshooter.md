@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="I can't delete an Azure AD tenant"
-    description="I can't delete an Azure AD tenant"
+    pageTitle="I have Microsoft Online Services blocking deletion of my Azure AD"
+    description="I have Microsoft Online Services blocking deletion of my Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -8,11 +8,11 @@
     supportTopicIds="32565594"
     selfHelpType="resource"
     resourceTags="directory_delete"
-    productPesIds="14785"
+    productPesIds="14785" 
     cloudEnvironments="public"
  />
 
-# I can't delete an Azure AD tenant because subscriptions still exist
+# I have Microsoft Online Services blocking deletion of my Azure AD
 
 ## **Recommended steps**
 
