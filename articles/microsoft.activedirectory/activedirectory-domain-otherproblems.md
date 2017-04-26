@@ -12,7 +12,7 @@
     cloudEnvironments="public"
     />
 
-#   I still have other problems related to domain name management
+# I still have other problems related to domain name management
  
 ## **Recommended steps** 
 
