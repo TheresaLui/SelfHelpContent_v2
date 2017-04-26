@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I tested password reset with an administrator, and the results don't look right"
+    pageTitle="I tested password reset with an administrative role and don't see the policy enforced"
     description="Top Tips from customers - Tip 2"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -10,10 +10,10 @@
     cloudEnvironments="public"
 />
 
-# I tested password reset with an administrator, and the results don't look right
+# I tested password reset with an administrative role and don't see the policy enforced
 
 ## **Recommended steps**
-When you test with an administrator, we enforce the administrator password reset policy, which is defined below. This means that you will not see the expected results of the policy you have configured for your end users.
+When you test with an administrator, we enforce the administrator password reset policy, which is defined below. This means that for this user you won't see the expected results of the policy you have configured for your end users.
 
 The policies configured in the Azure portal apply only to end-users, not administrators. Microsoft enforces strong default password reset policies for your administrators - which may be different than the policies you set for your end-users - in order to ensure that your organization is more secure.
 
