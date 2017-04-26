@@ -6,8 +6,8 @@
     authors="cychua"
     displayOrder="223"
     selfHelpType="resource"
-    supportTopicIds="directory_ad_connect"
-    resourceTags=""
+    supportTopicIds=""
+    resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
 />
