@@ -15,7 +15,7 @@
 ## **Recommended steps**
 When you test with an administrator, we enforce the administrator password reset policy, which is defined below. This means that for this user you won't see the expected results of the policy you have configured for your end users.
 
-The policies configured in the Azure portal apply only to end-users, not administrators. Microsoft enforces strong default password reset policies for your administrators - which may be different than the policies you set for your end-users - in order to ensure that your organization is more secure.
+The policies configured in the Azure portal apply only to end users, not administrators. Microsoft enforces stronger default password reset policies for your administrators (which might be different than the policies you set for your end-users) in order to ensure that your organization is more secure.
 
 ### Administrator password reset policy
 * **Applies to** - any administrator role (Global Administrator, Helpdesk Administrator, Password Administrator, etc.)
