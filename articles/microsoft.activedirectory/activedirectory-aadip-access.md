@@ -1,6 +1,6 @@
 <properties
-    pageTitle="What permissions do I need to access Identity Protection"
-    description="What permissions do I need to access Identity Protection"
+    pageTitle="I don’t have permissions to access Identity Protection"
+    description="I don’t have permissions to access Identity Protection"
     service="microsoft.aad"
     resource="Microsoft_AAD_ProtectionCenter"
     authors="jcardena"
@@ -12,13 +12,11 @@
     cloudEnvironments="public"
 />
 
-# What permissions do I need to access Identity Protection
+# I don’t have permissions to access Identity Protection
 
-Azure AD Identity Protection supports 3 directory roles.<br>
+## **Recommended steps**
 
-1. **Global administrator:** Full access to Identity Protection<br>
-2. **Security admin:** Full access to Identity Protection except resetting password for a user.<br>
-3. **Security reader:** Ready-only access to Identity Protection.<br>
+Ensure the user signs in with global administrator, security administrator or security reader permissions.
 
 ## **Recommended documents**
-[How to assign roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
+[Roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
