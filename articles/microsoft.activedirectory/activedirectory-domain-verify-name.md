@@ -6,9 +6,9 @@
     authors="ElizavetaKuzmenko"
     displayOrder="4291"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32045779"
     resourceTags="directory_domain,domain_directory"
-    productPesIds=""
+    productPesIds="14785"
     cloudEnvironments="public"
     />
 
