@@ -14,5 +14,5 @@
 
 # I want to configure federation with Azure AD using a third party federation solution
 
-## Recommended Steps
+## **Recommended steps**
 For guidance on configuring single sign-on for Active Directory users with Microsoft Online services by using non-Microsoft identity providers check the [Azure Active Directory federation compatibility list](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility#azure-active-directory).
