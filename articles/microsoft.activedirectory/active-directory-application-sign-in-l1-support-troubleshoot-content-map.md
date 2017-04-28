@@ -5,7 +5,7 @@
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
   selfHelpType="generic"
-  supportTopicIds=""
+  supportTopicIds="32570955"
   productPesIds="14785"
   cloudEnvironments="public"
  />
