@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Device registration"
-	description="Device registration"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="spunukol"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32392474"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+    pageTitle="Problems with device registrations and managing devices in Azure AD"
+    description="Device registration"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="spunukol"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32392474"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
 />
 
-# Device registration
+# Problems with device registrations and managing devices in Azure AD
 
 
 ## **Recommended documents**

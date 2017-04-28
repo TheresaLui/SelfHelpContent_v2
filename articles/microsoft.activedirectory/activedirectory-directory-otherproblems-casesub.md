@@ -5,9 +5,9 @@
     resource="Microsoft_AAD_IAM"
     authors="ElizavetaKuzmenko"
     displayOrder="4299"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32565596"
-    resourceTags="directory_domain,domain_directory,directory_delete"
+    resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
     />
