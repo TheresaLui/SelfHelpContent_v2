@@ -26,6 +26,3 @@ VNet peering is between two VNets, there is no derived transitive relationship a
 
 ### **How do I peer across subscriptions?**
 In order to peer across subscriptions, you need certain permissions over subscriptions. The [Peering across subscriptions](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-create-vnetpeering-arm-portal#a-namex-subapeering-across-subscriptions) article shows you how this can be done.
-
-
-
