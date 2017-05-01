@@ -26,7 +26,7 @@ To delete an Azure AD tenant, you must first remove any associations to your cus
 
 ## **Recommended documents** 
  
-* [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-transfer) 
+* [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) 
 * [Add subdomains of a custom domain name](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain)  
 * [Resource dependencies in Office 365 and Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence)  
 * [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names)  
