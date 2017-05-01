@@ -7,7 +7,7 @@
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="azureadreports_missingdata_download"
+    resourceTags="azureadreports_missingdata_download,azureadrreports_missingdata_audit"
     productPesIds=""
     cloudEnvironments="public"
 />
