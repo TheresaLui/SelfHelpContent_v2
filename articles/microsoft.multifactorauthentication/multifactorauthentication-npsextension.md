@@ -3,7 +3,7 @@
     description="Installing or configuring extensions for MFA service (cloud)" 
     service="microsoft.multifactorauthentication" 
     resource="Microsoft_AAD_IAM" 
-    authors="tjwasser" 
+    authors="yossib" 
     selfHelpType="generic" 
     supportTopicIds="32565586" 
     productPesIds="14947" 
