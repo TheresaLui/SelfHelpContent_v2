@@ -25,6 +25,6 @@
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
 
 * [Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
-* [Use Azure AD PowerShell to manage groups][https://docs.microsoft.com/powershell/module/Azuread/?view=azureadps-2.0#groups]
+* [Use Azure AD PowerShell to manage groups](https://docs.microsoft.com/powershell/module/Azuread/?view=azureadps-2.0#groups)
 
 * [Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)
