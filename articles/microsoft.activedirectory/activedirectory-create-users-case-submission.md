@@ -1,5 +1,5 @@
  <properties 
-    pageTitle="Problem creating, updating, or deleting a user in Azure AD"
+    pageTitle="Creating a user or group"
     description="Problem creating, updating, or deleting a user in Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -11,7 +11,7 @@
     cloudEnvironments="public"
 />
 
-# I can’t create a new user in my Azure AD
+# Creating a user or group
 
 ## **Recommended steps**
 
@@ -22,7 +22,9 @@
 
 ## **Recommended documents**
 
-* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
+* [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+
 * [Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal) 
-* [Use the Azure portal to delete a user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
+* [Use Azure AD PowerShell to manage groups][https://docs.microsoft.com/powershell/module/Azuread/?view=azureadps-2.0#groups]
+
 * [Use Azure AD PowerShell to manage users](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory#users)
