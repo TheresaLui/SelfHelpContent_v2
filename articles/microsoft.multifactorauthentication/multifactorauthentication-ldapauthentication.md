@@ -1,5 +1,5 @@
 <properties  
-    pageTitle="LDAP authentication" 
+    pageTitle="MFA Server (On-Premises)/LDAP authentication" 
     description=" LDAP authentication" 
     service="microsoft.multifactorauthentication" 
     resource="Microsoft_AAD_IAM" 
