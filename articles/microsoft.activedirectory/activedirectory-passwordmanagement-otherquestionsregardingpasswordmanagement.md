@@ -12,32 +12,26 @@
     cloudEnvironments="public"
     />
 
-# Other questions regarding password management
+# I'm having other problems with password reset
 
 ## **Recommended steps**
 
-### Prerequisites
-* Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
-	* Azure AD Premium 1
-	* Azure AD Premium 2
-	* Enterprise Mobility + Security E3
-	* Enterprise Mobility + Security E5
-	* Secure Productive Enterprise E3
-	* Secure Productive Enterprise E5
-
-The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
+**Before you start**
+* Make sure you have a [valid license](https://azure.microsoft.com/pricing/details/active-directory/) for Azure AD Password Reset.
 
 
-### Tips
-* [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the administrative UX ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure. <br>
+**I'm having an issue with Password Reset not covered in the other categories**
+
+*  [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the Azure portal ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure.
 
 * [DEPLOYMENT](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-3-deployment---pre-populate-data-for-your-users-so-they-dont-have-to-register) - Pre-populate data for your users so they don't have to!
 As an administrator you can set phone and email properties for your users before rolling out password reset to your organization. You can do this using an API, PowerShell, or Azure AD Connect. More information here:
   * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#deploying-password-reset-without-requiring-end-user-registration)
   * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#what-data-is-used-by-password-reset)
 
-* [REPORTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-7-reporting---see-who-is-registering-or-resetting-passwords-with-the-azure-ad-sspr-audit-logs) - See who is registering or resetting passwords with Azure AD Password Reset Audit Logs in the Azure portal under **Users and groups** <br>
-For more detailed information check out the links below:
+
+* [REPORTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-7-reporting---see-who-is-registering-or-resetting-passwords-with-the-azure-ad-sspr-audit-logs) - See who is registering or resetting passwords with Azure AD Password Reset Audit Logs in the Azure portal under **Users and groups**
+  * For more detailed information check out the links below:
 	* [Password management reports overview](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#overview-of-password-management-reports)
 	* [How to view password management reports in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-view-password-management-reports)
 	* [Self-service Password Management events from the Azure AD Reports and Events API](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-retrieve-password-management-events-from-the-azure-ad-reports-and-events-api)
