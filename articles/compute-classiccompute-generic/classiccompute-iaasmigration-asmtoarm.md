@@ -1,6 +1,6 @@
 <properties
-	pageTitle="management/IAAS Migration-ASM to ARM"
-	description="management/IAAS Migration-ASM to ARM"
+	pageTitle="Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)"
+	description="Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# management/IAAS Migration-ASM to ARM
+# Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)
 
 ## **Recommended documents**
 * [Frequently asked questions about migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-faq?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
@@ -23,5 +23,5 @@
 * [Planning for migration of IaaS resources from classic to Azure Resource Manager](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the instructions on how to migrate using Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-ps?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review the instructions on how to migrate using Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/migration-classic-resource-manager-cli?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
-
-
+* [Migrate ExpressRoute circuits and associated virtual network](https://docs.microsoft.com/azure/expressroute/expressroute-migration-classic-resource-manager)<br>
+* [Migrate your VPN Gateway classic to Resource Manager](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-classic-resource-manager-migration)<br>
