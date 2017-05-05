@@ -5,10 +5,10 @@
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
 	displayOrder="4"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32570970"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 

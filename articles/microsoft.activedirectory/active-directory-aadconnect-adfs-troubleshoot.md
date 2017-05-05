@@ -5,10 +5,10 @@
     resource="Microsoft_AAD_IAM"
     authors="anandy"
     displayOrder="231"
-    selfHelpType="resource"
-    supportTopicIds=""
+    selfHelpType="generic"
+    supportTopicIds="32565603"
     resourceTags="directory_overview, directory_ad_connect"
-    productPesIds=""
+    productPesIds="14785"
     cloudEnvironments="public"
 />
 
