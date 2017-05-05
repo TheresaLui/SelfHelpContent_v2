@@ -6,7 +6,7 @@
     authors="anandy"
     displayOrder="231"
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32565603"
     resourceTags="directory_overview, directory_ad_connect"
     productPesIds="14785"
     cloudEnvironments="public"
