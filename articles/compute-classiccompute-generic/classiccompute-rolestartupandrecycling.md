@@ -1,4 +1,4 @@
-of<properties
+<properties
 	pageTitle="worker role (paas)/application and service availability/role startup and recycling"
 	description="worker role (paas)/application and service availability/role startup and recycling"
 	service="microsoft.classiccompute"
