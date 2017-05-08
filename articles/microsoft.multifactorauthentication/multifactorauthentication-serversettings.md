@@ -1,9 +1,9 @@
 <properties
   pageTitle="MFA Server (On-Premises)/MFA server settings configuration"
   description="MFA server settings configuration"
-  service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="yossib"
+  service="microsoft.multifactorauthentication"
+  resource=""
+  authors="kgremban"
   selfHelpType="generic"
   supportTopicIds="32570988"
   productPesIds="14947"
