@@ -21,7 +21,6 @@ Conditional access policy that applies to 'all cloud apps' will be enforced for 
 *	When policy is applied to all clouds, make sure administrator accounts are excluded
 *	Ensure policy behaves as expected before applying to administrator accounts
 
-<br>
 For more details, see:
 <br>
 [How to avoid account lock out when setting conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal#what-you-should-avoid-doing)
