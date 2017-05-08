@@ -25,6 +25,6 @@ Not all applications support conditional access. Supporting conditional access r
 
 Conditional access policy is supported in the browser and using applications with modern authentication. Older versions of Office, like Office 2010 or Office 2013 without modern authentication use different security protocols that need to be locked down at ADFS. This is done by authoring ADFS issuance authorization rules.
 <br >
-The following document explains how to lock down older protocols with ADFS
+The following document explains how to lock down older protocols with ADFS:
 <br>
 [How to configure conditional access for Office 365 SharePoint and Exchange](http://aka.ms/csforexchange)
