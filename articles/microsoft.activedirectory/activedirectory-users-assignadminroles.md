@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Assign an administrator role to a user"
-	description="Assign an administrator role to a user"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="curtand"
-	displayOrder="2490"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="users-assignrole,userandgroups_overview,userandgroups_user"
-	productPesIds=""
-	cloudEnvironments="public"
-/>
+    pageTitle="Assign an administrator role to a user"
+    description="Assign an administrator role to a user"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="curtand"
+    displayOrder="2490"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="users-assignrole,userandgroups_overview,userandgroups_user"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
 # I want to assign an administrator role to a user
 
