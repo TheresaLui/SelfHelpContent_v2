@@ -5,10 +5,10 @@
     resource="Microsoft_AAD_IAM"
     authors="ElizavetaKuzmenko"
     displayOrder="4291"
-    selfHelpType="resource"
-    supportTopicIds=""
-    resourceTags="directory_domain,domain_directory"
-    productPesIds=""
+    selfHelpType="generic"
+    supportTopicIds="32045779"
+    resourceTags=""
+    productPesIds="14785"
     cloudEnvironments="public"
     />
 

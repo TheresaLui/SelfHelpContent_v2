@@ -1,17 +1,17 @@
 <properties  
-	pageTitle="I can't connect to my Windows VM" 
-	description="I can't connect to my Windows VM" 
+	pageTitle="I can't connect to my Windows VM"
+	description="I can't connect to my Windows VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32411835"
-	resourceTags="windows, windowsSQL"	
+	resourceTags="windows, windowsSQL"
 	productPesIds="14749"
-	cloudEnvironments="public" 
+	cloudEnvironments="public"
 />
-    
+
 # I can't connect to my Windows VM
 
 ###**Recommended steps**
@@ -21,8 +21,8 @@ To resolve common issues, try one or more of the following steps.
 2. Reset Remote Access to address remote server issues <br>
 [Reset remote access using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
 3. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
-4. RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises 
-5. To connect to your VM via RDP, please review [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists for RDP port(3389)
+4. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine. You can also review  [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists and is prioritized for RDP port(default 3389).
+5. RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
 6. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
 7. If you're getting an RDP license error, use 'mstsc/admin' as a work around. If needed, uninstall or buy an RDS license. <br>
 [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)

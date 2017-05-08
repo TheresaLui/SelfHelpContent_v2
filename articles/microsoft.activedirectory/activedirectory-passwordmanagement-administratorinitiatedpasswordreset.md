@@ -12,29 +12,22 @@
     cloudEnvironments="public"
     />
 
-# Administrator-initiated password reset
+# I'm having problems resetting a user's password
 
 ## **Recommended steps**
-*  Ensure you are authorized to perform this operation. *Only global, password, and user administrators can reset user passwords.* Global administrators can also reset other privileged administrators passwords. If you are not authorized to perform this task, ask one of the above administrators or use the [self service password reset service](https://passwordreset.microsoftonline.com/)
-* Ensure your tenant has a valid license to use Azure AD Self Service Password Reset:
-	* Azure AD Premium 1
-	* Azure AD Premium 2
-	* Enterprise Mobility + Security E3
-	* Enterprise Mobility + Security E5
-	* Secure Productive Enterprise E3
-	* Secure Productive Enterprise E5
+**Before you start**
+*  Make sure you are authorized to reset passwords. *Only global, password, and user administrators can reset user passwords.* Global administrators can also reset other privileged administrators passwords.
+* Make sure you have a [valid license](https://azure.microsoft.com/pricing/details/active-directory/) for Azure AD Password Reset.
 
-The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
-## **Recommended steps**
-1. Sign in to the Azure portal with an account that is a global admin for the directory the user is in.
-2. Select **More Services**, enter **Users and groups** in the text box, and then select **Enter**
-3. On the **Users and groups** blade, select **Users**
-4. On the **Users and groups - Users** blade, select a user from the list.
-5. On the blade for the selected user, select **Overview**, and then in the command bar, select **Reset password**.
-6. On the **Reset password** blade, select **Reset password** and follow the instructions on the screen.
 
-*Note: Password Writeback is not supported in the Office Admin portal/O365 admin mobile apps*
+**I want to reset a user's password**
+1. Sign in to the Azure portal as an appropriate admin.
+2. Go to the **Users and groups** blade, select **All Users**
+3. Select a user from the list.
+4. For the selected user, select **Overview**, and then in the command bar, select **Reset password**.
+5. Select the **Reset password** button and follow the instructions on the screen.
+  * Only resets performed through the **Azure portal** support password writeback.
 
 
 
