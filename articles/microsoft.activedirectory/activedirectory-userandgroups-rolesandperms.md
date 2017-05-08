@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Azure AD roles and permissions"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="Jeffsta-MSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045782"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Azure AD roles and permissions"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="Jeffsta-MSFT"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32045782"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Azure AD roles and permissions 
  
