@@ -2,8 +2,8 @@
     pageTitle="MFA Server (On-Premises)/LDAP authentication" 
     description=" LDAP authentication" 
     service="microsoft.multifactorauthentication" 
-    resource="Microsoft_AAD_IAM" 
-    authors="yossib" 
+    resource="" 
+    authors="kgremban" 
     selfHelpType="generic" 
     supportTopicIds="32336320" 
     productPesIds="14947" 
@@ -15,7 +15,8 @@
 
 Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
 
-In the Directory Integration section, ensure you have the target LDAP server configured properly:   
+In the Directory Integration section, ensure you have the target LDAP server configured properly:
+   
 - The server can be hostname or IP. If you want to specify multiple servers, then a back-up may be specified separated by a semicolon. 
 - The base DN should be where you want to query in the directory. For example, dc=domain,dc=com. 
 - If using SSL, test with simple or windows first to make sure communication is working.  If it works, then there may be an issue with the certificate you are using. Ensure it’s installed locally and trusted by your LDAP directory. 
