@@ -16,7 +16,7 @@
 
 **I don't know which applications support conditional access**
 
-Not all applications support conditional access. Supporting conditional access requires modern authentication and integration that allows device identites to be verified. We are continuing to increase the number of applications that are supported. The current list of applications can be found in the following documents.
+Not all applications support conditional access. Supporting conditional access requires modern authentication and integration that allows device identities to be verified. We are continuing to increase the number of applications that are supported. The current list of applications can be found in the following documents.
 <br>
 [Which cloud applications support conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-technical-reference)<br>
 [Which desktop and mobile applications support conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps)
