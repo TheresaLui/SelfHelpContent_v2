@@ -1,6 +1,6 @@
 <properties
-    pageTitle="How to configure location-based conditional access conditions"
-    description="How to configure location-based conditional access conditions"
+    pageTitle="Problems configuring location-based conditional access"
+    description="Problems configuring location-based conditional access"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="jcardena"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# How to configure location-based conditional access conditions
+# Problems configuring location-based conditional access
 
 You can tie conditional access policies to the location of the client you have used to connect to Azure Active Directory. The follow options are available: <br>
 
