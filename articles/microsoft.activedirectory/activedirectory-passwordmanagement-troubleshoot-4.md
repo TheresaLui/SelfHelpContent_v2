@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I want to look at an event log to troubleshoot password writeback"
+    pageTitle="Problems with A"
     description="Top Tips from customers - Tip 5"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"

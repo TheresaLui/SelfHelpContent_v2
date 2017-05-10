@@ -14,8 +14,21 @@
 
 # I'm having a problem with password writeback
 ## **Recommended steps**
-**Before you start**
-* Make sure your tenant has a [valid license](https://azure.microsoft.com/pricing/details/active-directory/) for password writeback.
+
+**I'm having problems configuring password writeback**
+
+* Password writeback is a premium feature.
+
+* Make sure you that you understand the licensing requirements:
+  * You must have at least one license assigned in your organization
+    * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
+    * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
+    * Click [here](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing) to read more about licensing requirements.
+
+<!-- *
+Have to talk to John and ask him where this information has been moved to.
+
+[link to password writeback configuration getting-strated DOC] -->
 
 * You have at least one administrator account and one test user account with one of the aforementioned licenses.
 
@@ -23,13 +36,20 @@
 
 * Password reset has been configured and enabled in your tenant. For more information, see [Enable users to reset their Azure AD passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords).
 
+<!-- *
+this is only referring to the cloud components of deploying SSPR need more specific guidance on on-prem components (doc where this original content came from) -->
+
 * Make sure that the administrator account being used to enable Password Writeback is a cloud administrator account (created in Azure AD not on-prem AD)
 
 * You have a single or multi-forest AD on-premises deployment running Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 with the latest service packs installed.
 
 * You have the Azure AD Connect tool installed and you have prepared your AD environment for synchronization to the cloud. *Before testing password writeback, make sure that you first complete a full import and full sync from both AD and Azure AD in Azure AD Connect*.
+  * Read more on how to do a [full sync and full import in Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-operations#staging-mode)
 
-**I'm having problems configuring password writeback**
+
+
+**I'm having a problem with password writeback connectivity**
+
 1. Download and enable the latest version of [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
 2. Firewall configuration:
 	* The Azure AD Connect tool (1.1.443 and above) will need **outbound HTTPS** access to:
@@ -37,13 +57,21 @@
 		* servicebus.windows.networks
     *  Allow idle connections to persist for at least 2-3 minutes.
 
-If you are still having difficulty, try disabling and re-enabling the service in the Azure AD Connect tool.
+
+**I'm still having problems with password writeback**
+
+If you are still having difficulty, try disabling and re-enabling the password writeback service in the Azure AD Connect tool.
+* Read more on how to [disable and re-enable password writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#disable-and-re-enable-the-password-writeback-feature).
+
 
 
 ## **Recommended documents**
-* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
+<!--
+ John Flores is working on a new version of this doc. Once that is live will reactivate/update link
+
+ * [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin) -->
 * [Troubleshoot Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback)
 * [Password Writeback Event Log Error Codes](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#password-writeback-event-log-error-codes)
 * [Troubleshoot Password Writeback Connectivity](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-password-writeback-connectivity)
 * [FAQ - Password Writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-writeback)
-* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#contact-microsoft-support)
