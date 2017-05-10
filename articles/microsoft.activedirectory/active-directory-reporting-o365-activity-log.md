@@ -20,6 +20,6 @@ Even though Office 365 activity and Azure AD activity logs share a lot of the di
 
 ## **Recommended documents**
 
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)  
-[Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance )
+- [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+- [Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance )
 

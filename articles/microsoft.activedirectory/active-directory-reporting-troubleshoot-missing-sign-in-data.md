@@ -23,6 +23,6 @@ Sign-ins don’t appear immediately in the sign-ins activity log. It can take an
 
 
 ## **Recommended documents**
-[Azure Active Directory reporting latencies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-latencies-azure-portal)  
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+- [Azure Active Directory reporting latencies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-latencies-azure-portal)  
+- [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
 

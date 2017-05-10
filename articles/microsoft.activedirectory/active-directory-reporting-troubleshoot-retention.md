@@ -30,7 +30,7 @@ Depending on your license, Azure Active Directory Actions stores activity report
 
 ## **Recommended documents**
 
-[Azure Active Directory report retention policies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
-[Getting started with the reporting API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started)  
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+- [Azure Active Directory report retention policies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
+- [Getting started with the reporting API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started)  
+- [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
 

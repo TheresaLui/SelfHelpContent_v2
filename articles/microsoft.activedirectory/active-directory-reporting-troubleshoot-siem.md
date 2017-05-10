@@ -26,8 +26,8 @@ There are two supported methods to accomplish this task:
 
 ## **Recommended documents**
 
-[Integrate Azure Active Directory Audit logs](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad)
-[Azure Active Directory report retention policies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
-[Getting started with the reporting API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started)  
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+- [Integrate Azure Active Directory Audit logs](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad)
+- [Azure Active Directory report retention policies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
+- [Getting started with the reporting API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started)  
+- [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
 
