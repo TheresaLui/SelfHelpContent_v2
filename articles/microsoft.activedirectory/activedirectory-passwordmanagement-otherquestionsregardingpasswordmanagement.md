@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Other questions about password management"
-    description="Password Management/Other questions regarding password management"
+    pageTitle="Other questions about password reset"
+    description="Password reset/Other questions regarding password reset"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="gahug"
@@ -16,36 +16,62 @@
 
 ## **Recommended steps**
 
-**Before you start**
-* Make sure you have a [valid license](https://azure.microsoft.com/pricing/details/active-directory/) for Azure AD Password Reset.
+**I'm having an issue with password reset not covered in the other categories**
 
+* Make sure you are authorized to reset passwords. *Only global, password, and user administrators can reset user passwords.* Global administrators can also reset other privileged administrator's passwords.
 
-**I'm having an issue with Password Reset not covered in the other categories**
+* Make sure you that you understand the licensing requirements:
+  * You must have at least one license assigned in your organization
+    * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
+    * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
+    * To read more about licensing requirements see the article [Licensing requirements for Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing)
 
-*  [TESTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-2-testing---test-with-an-end-user-not-an-administrator-and-pilot-with-a-small-set-of-users) - Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the Azure portal ONLY apply to end-users, not administrators.** Microsoft enforces strong default password reset policies for administrators in order to ensure your organization stays secure.
+**I'm having problems testing the password reset policy I set**
 
-* [DEPLOYMENT](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-3-deployment---pre-populate-data-for-your-users-so-they-dont-have-to-register) - Pre-populate data for your users so they don't have to!
-As an administrator you can set phone and email properties for your users before rolling out password reset to your organization. You can do this using an API, PowerShell, or Azure AD Connect. More information here:
-  * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#deploying-password-reset-without-requiring-end-user-registration)
-  * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#what-data-is-used-by-password-reset)
+* Recently applied policies can take several minutes to replicate across all data centers and end-points. Physical distance from the data center will also affect how quickly changes are applied.
 
+* Test with an end user, not an administrator, and pilot with a small set of users. The **policies configured in the Azure portal ONLY apply to end-users, not administrators.** Microsoft enforces a strong default **two gate** password reset policy for any Azure administrator role (Example: Global Administrator, Helpdesk Administrator, Password Administrator, etc.)
+   * Learn more about [policies for administrators](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy#administrator-password-policy-differences)
 
-* [REPORTING](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-7-reporting---see-who-is-registering-or-resetting-passwords-with-the-azure-ad-sspr-audit-logs) - See who is registering or resetting passwords with Azure AD Password Reset Audit Logs in the Azure portal under **Users and groups**
-  * For more detailed information check out the links below:
-	* [Password management reports overview](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#overview-of-password-management-reports)
-	* [How to view password management reports in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-view-password-management-reports)
-	* [Self-service Password Management events from the Azure AD Reports and Events API](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-retrieve-password-management-events-from-the-azure-ad-reports-and-events-api)
-	* [How to download password reset registration events quickly with PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-download-password-reset-registration-events-quickly-with-powershell)
+**I want to deploy password reset but I don't want to make my users register additional security info**
+
+* Pre-populate data for your users so they don't have to!
+   * As an administrator you can set phone and email properties for your users before rolling out password reset to your organization. You can do this using an API, PowerShell, or Azure AD Connect. More information here:
+     * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data#set-and-read-authentication-data-using-powershell)
+     * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data)
+
+**I'm having problems accessing password reset audit logs**
+
+* Make sure you are authorized to view audit logs. ONLY the following roles are authorized:
+  * Global administrator
+  * Security administrator
+  * Security reader
+
+**I want to see all password reset audit events from the time I initially deployed**
+
+* Up to 120,000 password reset/registration events are stored in the reports from the last 30 days. This maximum applies to the UI when downloading the CSV. 1 million events are available through PowerShell.
+* Learn more with the links below:
+  * [Self-service password reset events from the Azure AD Reports and Events API](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-retrieve-password-management-events-from-the-azure-ad-reports-and-events-api)
+  * [How to download password reset registration events quickly with PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-download-password-reset-registration-events-quickly-with-powershell)
+
+**I want to understand more about password reset reporting capabilities**
+
+* See who is registering for or resetting passwords with Azure AD password reset audit logs in the Azure portal under **Users and groups**
+  * For more detailed information check out the links that follow:
+    * [Password reset reports overview](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#overview-of-password-management-reports)
+    * [How to view password reset reports in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-view-password-management-reports)
+    * [Self-service password reset events from the Azure AD Reports and Events API](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-retrieve-password-management-events-from-the-azure-ad-reports-and-events-api)
+    * [How to download password reset registration events quickly with PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights#how-to-download-password-reset-registration-events-quickly-with-powershell)
 
 
 ## **Recommended documents**
-* [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
-* [FAQ - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq)
-* [Troubleshoot - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot)
-* [Getting started - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
-* [Best Practices - Password Management ](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
-* [Audit logs - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights)
-* [Password policies - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy)
-* [Learn more - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more)
-* [How Password Management Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works)
-* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#information-to-include-when-you-need-help)
+
+* [FAQ - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq)
+* [Troubleshoot - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot)
+* [Getting started - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
+* [Best Practices - Password Reset ](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
+* [Audit logs - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-get-insights)
+* [Password policies - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-policy)
+* [Learn more - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more)
+* [How Password Reset Works](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-how-it-works)
+* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#contact-microsoft-support)

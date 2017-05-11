@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I don't think I have the right licenses"
+    pageTitle="Problems with licensing"
     description="Top Tips from customers - Tip 1"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -10,25 +10,28 @@
     cloudEnvironments="public"
 />
 
-# I don't think I have the right licenses
+# Problems with licensing
 
 ## **Recommended steps**
+**I don't understand the licensing requirements**
+* Make sure you have a [valid license](https://azure.microsoft.com/pricing/details/active-directory/) for Azure AD Password Reset.
 
-For Azure AD Password Reset to function, you must have at least once license assigned in your organization. We do not enforce per-user licensing on the password reset experience itself, however, if you make use of the feature without having a license assigned to a user, you will be considered out of compliance with your Microsoft licensing agreement and will need to assign licenses to those users.
+* Azure AD password reset is available in 3 tiers:
+  * Azure AD Free - cloud administrations can reset their own passwords
+  * Azure AD Basic or any Paid O365 Subscription - cloud users and cloud administrators can reset their own passwords
+  * Azure AD Premium - any user or administrator (cloud, federated, password hash synced users) can reset passwords. Password writeback must be enabled to support some scenarios.
 
-*  Valid licenses to use Azure AD Self Service Password Reset:
-    * Azure AD Premium 1
-    * Azure AD Premium 2
+
+*  Premium features are also included in:
     * Enterprise Mobility + Security E3
     * Enterprise Mobility + Security E5
     * Secure Productive Enterprise E3
     * Secure Productive Enterprise E5
 
-The last word on Azure AD licensing (and always the most-recently-updated source) is the [Azure Active Directory Pricing page](https://azure.microsoft.com/pricing/details/active-directory/).
 
-[view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-1-licensing---make-sure-you-understand-the-licensing-requirements)
 
 ## **Recommended documents**
+* [Problems with licensing](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-1-licensing---make-sure-you-understand-the-licensing-requirements)
 * [General password reset licensing information](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-customize#what-customization-options-are-available)
 * [Per-feature password reset licensing information](https://docs.microsoft.com/azure/active-directory/active-directory-passwords#pricing-and-availability)
 * [Scenarios supported for password writeback](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#scenarios-supported-for-password-writeback)

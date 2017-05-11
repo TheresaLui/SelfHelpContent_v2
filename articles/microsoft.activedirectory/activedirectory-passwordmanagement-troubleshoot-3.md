@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I don't want to have to send out temporary passwords to users"
+    pageTitle="Problems with temporary passwords"
     description="Top Tips from customers - Tip 4"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -9,9 +9,11 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
  />
-# I don't want to have to send out temporary passwords to users
+
+# Problems with temporary passwords
 
 ## **Recommended steps**
+**I don't want to communicate temporary passwords to users**
 
 Once you pre-configure your users for password reset, imagine a scenario where an employee joins your company for the first time. Instead of communicating the temporary password to him or her, you can now just have them navigate to the [Azure AD Password Reset Portal](https://passwordreset.microsoftonline.com) to reset their passwords.
 
@@ -25,9 +27,9 @@ To learn how to do this using an API, PowerShell, or Azure AD Connect, take a re
 
 
 
-[view on DOCS.com](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-4-deployment---use-password-reset-to-obviate-the-need-to-communicate-temporary-passwords)
 
 ## **Recommended documents**
+* [Avoid temporary passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#tip-4-deployment---use-password-reset-to-obviate-the-need-to-communicate-temporary-passwords)
 * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#deploying-password-reset-without-requiring-end-user-registration)
 * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-learn-more#what-data-is-used-by-password-reset)
 * [Top Tips from our customers](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#top-tips-from-our-customers-to-read-before-you-begin)
