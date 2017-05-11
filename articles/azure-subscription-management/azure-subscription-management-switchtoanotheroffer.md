@@ -1,22 +1,22 @@
 <properties
 	pageTitle="switch to another offer"
 	description="switch to another offer"
-	service="azure-subscription-management"
-	resource="subscription-management"
+	service="azure-billing"
+	resource="billing"
 	authors="aashu"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="8"
+	selfHelpType="resource"
 	supportTopicIds="32454938"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
 />
 
-# switch to another offer
+# I need to change my subscription type or offer
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
 2. Sign in at [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin.
 
@@ -26,6 +26,6 @@
 
 ## **Recommended documents**
 
-[Tutorial: Switch Azure subscription offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
+[Tutorial: Switch Azure subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer/)<br>
 [Video: Switch Azure subscription offer](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
 [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
