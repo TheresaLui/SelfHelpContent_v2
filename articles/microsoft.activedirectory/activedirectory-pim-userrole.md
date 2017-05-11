@@ -5,7 +5,7 @@
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32462545"
 	resourceTags=""
 	productPesIds="14785"
