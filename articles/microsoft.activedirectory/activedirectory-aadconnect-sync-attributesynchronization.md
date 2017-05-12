@@ -1,4 +1,4 @@
-Certifi<properties
+<properties
 	pageTitle="Synchronizing AD to Azure AD/Synchronization problem for a specific attribute"
 	description="Synchronizing AD to Azure AD/Synchronization problem for a specific attribute"
 	service="microsoft.activedirectory"
