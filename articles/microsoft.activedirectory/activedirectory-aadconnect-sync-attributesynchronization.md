@@ -35,7 +35,7 @@ Important points to consider:
   * thumbnailPhoto
   * proxyAddresses
 
-* For userCertificate and userSMIMECertificate attributes, Azure AD enforces a maximum limit of 15 values on each attribute. For details on how to troubleshoot LargeObject errors related to userCertificate, refer to article [Handling LargeObject errors caused by userCertificate attribute](active-directory-aadconnectsync-largeobjecterror-usercertificate.md).
+* For userCertificate and userSMIMECertificate attributes, Azure AD enforces a maximum limit of 15 values on each attribute. For details on how to troubleshoot LargeObject errors related to userCertificate, refer to article [Handling LargeObject errors caused by userCertificate attribute](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-largeobjecterror-usercertificate).
 
 * For thumbnailPhoto attribute, Azure AD enforces a maximum size limit of 100KB.
 
