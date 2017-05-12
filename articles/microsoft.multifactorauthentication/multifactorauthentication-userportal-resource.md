@@ -1,18 +1,18 @@
 <properties
 	pageTitle="MFA Server (On-premises)/User portal"
 	description="MFA Server (On-premises)/User portal"
-	service="microsoft.multifactorauthentication"
-	resource=""
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
 	authors="kgremban"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32336324"
-	resourceTags=""
-	productPesIds="14947"
+	displayOrder="220"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="mfa_overview"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
-# User portal and mobile app web service
+# Troubleshoot the user portal and mobile app web service
 
 ## **Recommended steps**
 

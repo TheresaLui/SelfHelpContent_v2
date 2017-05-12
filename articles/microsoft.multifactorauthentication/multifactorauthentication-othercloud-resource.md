@@ -1,16 +1,18 @@
 <properties 
     pageTitle="MFA Service (Cloud)/Other questions regarding MFA Service (cloud)"
     description="MFA Service (Cloud)/Other questions regarding MFA Service (cloud)"
-    service="microsoft.multifactorauthentication"
-    resource=""
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
     authors="kgremban"
-    selfHelpType="generic"
-    supportTopicIds="32565587"
-    productPesIds="14947"
+    displayOrder="150"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTag="mfa_overview"
+    productPesIds=""
     cloudEnvironments="public"
  />
 
-# MFA Service (Cloud)/Other questions regarding MFA Service (cloud)
+# Other questions about Azure MFA in the cloud
 
 ## **Recommended steps**
 If you're having trouble creating an MFA provider, verify that you need one. In most cases, you don't. An Azure Multi-Factor Auth provider is for users who don't have licenses through Azure MFA, Azure AD Premium, or EMS but still want to take advantage of the features provided by the full version of Azure MFA. If you have these licenses that include the full version of Azure MFA by default, then you don't need an MFA provider.  
