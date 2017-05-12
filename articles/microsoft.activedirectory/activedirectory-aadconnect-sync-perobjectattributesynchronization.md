@@ -15,7 +15,6 @@
 
 # Synchronizing AD to Azure AD/Per object or attribute synchronization
 
-
 ## Recommended steps
 
 ### **Issue with synchronizing specific user, group or contact object**
@@ -28,6 +27,7 @@ If you have issues with synchronizing specific object:
 * Check for duplicate attribute errors under [Duplicate Attributes Resiliency](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency) feature.
 
 * If no error is found for this object, follow the troubleshooting steps described in article [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-object-not-syncing).
+
 
 ### **Synchronization issue with OU-based (Organizational Unit) filtering**
 Important points to consider when configuring OU-based filtering:
