@@ -12,8 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Synchronizing AD to Azure AD/Password synchronization 
-
+# Synchronizing AD to Azure AD/Password synchronization
 
 ## Recommended steps
 
