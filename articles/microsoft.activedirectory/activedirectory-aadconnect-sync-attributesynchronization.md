@@ -30,7 +30,7 @@ Important points to consider:
   
   * If you recently updated your on-premises AD schema with new AD attributes and you want those attributes to synchronize to Azure AD, you must first refresh the schema in Azure AD Connect before those attributes can be included for Directory Synchronization.
   
-  * If you have issues with synchronizing on-premises Exchange AD attributes (msExch*) to Azure AD for some User objects, be sure to check if mailNickname attribute on the User object is populated. By default, Exchange AD attributes are not flown unless the mailNickname attribute on the User object is assigned a value.
+  * If you have issues with synchronizing on-premises Exchange AD attributes (msExch-) to Azure AD for some User objects, be sure to check if mailNickname attribute on the User object is populated. By default, Exchange AD attributes are not flown unless the mailNickname attribute on the User object is assigned a value.
 
 **Issue with LargeObject errors**
 
