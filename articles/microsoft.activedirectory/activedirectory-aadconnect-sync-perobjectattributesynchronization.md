@@ -1,4 +1,4 @@
-<properties
+s<properties
 	pageTitle="Synchronizing AD to Azure AD/Per object or attribute synchronization"
 	description="Synchronizing AD to Azure AD/Per object or attribute synchronization"
 	service="microsoft.activedirectory"
@@ -21,8 +21,11 @@
 If you have issues with synchronizing specific object:
 
   * Check for any synchronization error which corresponds to this object. For details on common synchronization errors, refer to article [Troubleshooting Errors during synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors). Synchronization errors are available to customers in the following ways:
-    * Under Azure AD Connect Health [object-level sync error report](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-sync). This is currently available to selected customers only.   
+  
+    * Under Azure AD Connect Health [object-level sync error report](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-sync). This is currently available to selected customers only.
+    
     * Identity synchronization error report - this is an email notification that is sent to the Technical Notification contact for the tenant whenever Azure AD Connect completes a synchronization cycle with errors.
+    
     * Under the [Synchronization Service Manager Operation tab](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-service-manager-ui-operations).
     
   * Check for duplicate attribute errors under [Duplicate Attributes Resiliency](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency) feature.
@@ -42,4 +45,4 @@ Important points to consider when configuring OU-based filtering:
 
   * If you use **group-based filtering** in conjunction with OU-based filtering, the OU where the group and member objects are located must be included.
 
-  * Changing the names of existing OUs may cause OU-based filtering to stop working correctly. If you need to change the names of existing OUs, you must reconfigure OU-based filtering on your Azure AD Connect server.
+  * Renaming existing OUs may cause OU-based filtering to stop working correctly. If you need to change the names of existing OUs, you must reconfigure OU-based filtering on your Azure AD Connect server.
