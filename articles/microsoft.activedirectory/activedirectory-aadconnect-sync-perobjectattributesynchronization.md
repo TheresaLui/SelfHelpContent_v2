@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Synchronizing AD to Azure AD/Per object or attribute synchronization"
 	description="Synchronizing AD to Azure AD/Per object or attribute synchronization"
