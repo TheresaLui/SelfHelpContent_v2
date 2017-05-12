@@ -22,6 +22,6 @@
 
 ## **Recommended documents** 
 
-[Getting started with the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server)  
-[Configure Azure Multi-Factor Authentication Settings](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)  
-[Upgrade to the latest Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-server-upgrade) 
+- [Getting started with the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server)  
+- [Configure Azure Multi-Factor Authentication Settings](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)  
+- [Upgrade to the latest Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-server-upgrade) 
