@@ -1,12 +1,14 @@
 <properties  
     pageTitle="MFA Server (On-Premises)/LDAP authentication" 
-    description=" LDAP authentication" 
-    service="microsoft.multifactorauthentication" 
-    resource="" 
+    description="LDAP authentication" 
+    service="microsoft.aad" 
+    resource="Microsoft_AAD_IAM" 
     authors="kgremban" 
-    selfHelpType="generic" 
-    supportTopicIds="32336320" 
-    productPesIds="14947" 
+    displayOrder="240"
+    selfHelpType="resource" 
+    supportTopicIds="" 
+    resourceTag="mfa_overview"
+    productPesIds="" 
     cloudEnvironments="public" 
  /> 
 # LDAP authentication 
