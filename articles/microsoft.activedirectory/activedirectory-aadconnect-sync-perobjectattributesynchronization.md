@@ -17,7 +17,7 @@
 
 ## Recommended steps
 
-### Issue with synchronizing specific user, group or contact object
+### **Issue with synchronizing specific user, group or contact object**
 If you have issues with synchronizing specific object:
 1. Check for any synchronization error which corresponds to this object. For details on common synchronization errors, refer to article [Troubleshooting Errors during synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors). Synchronization errors are available to customers in the following ways:
     * Under Azure AD Connect Health [object-level sync error report](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-sync). This is currently available to selected customers only.
@@ -30,7 +30,7 @@ If you have issues with synchronizing specific object:
 
 3. If no error is found for this object, follow the troubleshooting steps described in article [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-object-not-syncing).
 
-### Synchronization issue with OU-based (Organizational Unit) filtering
+### **Synchronization issue with OU-based (Organizational Unit) filtering**
 Important points to consider when configuring OU-based filtering:
 * After setting up OU-based filtering, you must do a **Full import**, followed by **Delta synchronization** as detailed in article section [Configure filtering - Apply and verify changes](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-configure-filtering#apply-and-verify-changes).
 
