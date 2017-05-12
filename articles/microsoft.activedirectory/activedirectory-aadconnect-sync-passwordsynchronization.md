@@ -17,7 +17,7 @@
 
 ## Recommended steps
 
-### Password synchronization does not work – No passwords synchronized
+### **Password synchronization does not work – No passwords synchronized**
 Common root causes include:
 
 * The Active Directory account used by Azure AD Connect to communicate with on-premises Active Directory is not granted **Replicate Directory Changes** and **Replicate Directory Changes All** permissions, which are required for password synchronization.
@@ -31,7 +31,7 @@ Common root causes include:
 To troubleshoot the issue, follow the steps described in section [Troubleshoot password synchronization with Azure AD Connect sync - No passwords are synchronized](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-synchronization#no-passwords-are-synchronized).
 
 
-### Password synchronization does not work for specific user
+### **Password synchronization does not work for specific user**
 Common root causes include:
 
 * The on-premises Active Directory User object is enabled for **User must change password at next logon** option. When this option is enabled, the user is assigned a temporary password and will be prompted to change the password on next logon. Azure AD Connect does not synchronize temporary passwords to Azure AD. To resolve this issue, either:
