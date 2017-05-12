@@ -14,7 +14,6 @@
 
 # Synchronizing AD to Azure AD/Synchronization problem for a specific attribute
 
-
 ## Recommended steps
 
 ### **How to select specific attributes to synchronize to Azure AD**
