@@ -25,6 +25,6 @@ In the Directory Integration section, ensure you have the target LDAP server con
 
 ## **Recommended documents** 
   
-[LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap) 
-[Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint) 
-[Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server) 
+- [LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap) 
+- [Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint) 
+- [Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server) 

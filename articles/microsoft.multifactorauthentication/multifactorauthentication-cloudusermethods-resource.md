@@ -7,7 +7,7 @@
   displayOrder="120"
   selfHelpType="resource"
   supportTopicIds=""
-  resourceTag="mfa_overview"
+  resourceTags="mfa_overview"
   productPesIds=""
   cloudEnvironments="public"
 />
@@ -26,5 +26,5 @@ Ensure that your users configured more than one verification method, such as an 
 
 ## **Recommended documents**
 
-[Managing user settings with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices)  
-[Manage and support user accounts](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-faq#manage-and-support-user-accounts) 
+- [Managing user settings with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices)  
+- [Manage and support user accounts](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-faq#manage-and-support-user-accounts) 
