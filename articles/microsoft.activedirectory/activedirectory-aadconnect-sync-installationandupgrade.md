@@ -12,7 +12,6 @@
 	cloudEnvironments="public"
 />
 
-
 # Synchronizing AD to Azure AD/Installation and upgrade
 
 ## **Recommended steps**
