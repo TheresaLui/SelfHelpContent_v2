@@ -1,16 +1,18 @@
 <properties
   pageTitle="MFA Server (On-Premises)/MFA server settings configuration"
   description="MFA server settings configuration"
-  service="microsoft.multifactorauthentication"
-  resource=""
+  service="microsoft.aad"
+  resource="Microsoft_AAD_IAM"
   authors="kgremban"
-  selfHelpType="generic"
-  supportTopicIds="32570988"
-  productPesIds="14947"
+  displayOrder="210"
+  selfHelpType="resource"
+  supportTopicIds=""
+  resourceTags="mfa_overview"
+  productPesIds=""
   cloudEnvironments="public"
 />
 
-# MFA server settings configuration
+# Configure settings for Azure MFA Server
 
 ## **Recommended steps**
 
