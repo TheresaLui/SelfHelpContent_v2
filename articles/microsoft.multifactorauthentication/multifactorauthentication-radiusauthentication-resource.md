@@ -1,18 +1,18 @@
 <properties
 	pageTitle="MFA Server (On-Premises)/Installing or configuring RADIUS authentication"
 	description="MFA Server (On-Premises)/Installing or configuring RADIUS authentication"
-	service="microsoft.multifactorauthentication"
-	resource=""
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
 	authors="kgremban"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32336331"
-	resourceTags=""
-	productPesIds="14947"
+	displayOrder="250"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="mfa_overview"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
-# Installing or configuring RADIUS authentication
+# RADIUS authentication
 
 ## **Recommended steps**
 
