@@ -15,7 +15,7 @@
 # How to upgrade Azure AD Connect to the latest version
 
 ## **Recommended steps**
-* There are three options to upgrade DirSync (Windows Azure Active Directory Sync) to Azure AD Connect, including:
+* There are three options to upgrade Azure AD Connect to the latest version, including:
   * Automatic upgrade
   * In-place upgrade
   * Parallel deployment
