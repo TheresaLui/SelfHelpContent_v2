@@ -5,7 +5,7 @@
 	resource="Microsoft_AAD_DomainServices"
 	authors="arluca"
 	selfHelpType="generic"
-	supportTopicIds="32570967"
+	supportTopicIds="32570966"
 	productPesIds="14785"
 	cloudEnvironments="public"
 />
