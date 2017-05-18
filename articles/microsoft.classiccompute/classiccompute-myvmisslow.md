@@ -17,6 +17,7 @@
 ## **Recommended steps**
 Try the following steps to diagnose and mitigate VM performance issues
 
+1. **Do you know PerfInsights can help you analyze Guest VM issues?** Start here: [Download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True).<br> To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.
 2. Review your application error logs, traces, and metrics to determine if there are any application bottlenecks causing performance issues. As a quick way to recover from one-time issues, restart your application and machine.
 3. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. <br>
 On Windows, use the Perfmon tool. On Linux, use commands such as Top, VmStat, Lsof, and Tcpdump.
