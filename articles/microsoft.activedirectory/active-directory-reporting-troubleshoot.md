@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Azure AD reporting"
-	description="Azure AD reporting"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="MarkusVi"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32302996"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Azure AD audit Log and activity reports"
+    description="Azure AD reporting"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="MarkusVi"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32302996"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
-# Azure AD reporting
+# Azure AD audit Log and activity reports
 
 
 ## **Recommended documents**

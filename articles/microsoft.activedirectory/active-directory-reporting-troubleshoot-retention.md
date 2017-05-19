@@ -1,5 +1,5 @@
 <properties
-    pageTitle="How can I see more than 30 days of report data?"
+    pageTitle="I can't see more than 30 days of report data "
     description="How can I see more than 30 days of report data?"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# How can I see more than 30 days of report data?
+# I can't see more than 30 days of report data
 
 ## **Recommended steps**
 

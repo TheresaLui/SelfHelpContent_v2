@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Can I integrate Azure AD activity logs with my SIEM system?"
+    pageTitle="I can't integrate Azure AD activity logs with my SIEM system"
     description="Can I integrate Azure AD activity logs with my SIEM system?"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# Can I integrate Azure AD activity logs with my SIEM system?
+# I can't integrate Azure AD activity logs with my SIEM system
 
 ## **Recommended steps**
 
