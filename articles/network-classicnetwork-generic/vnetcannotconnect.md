@@ -18,5 +18,5 @@
 [Point-to-site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-classic-azure-portal#faq)<br>
 [Create or modify VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal)<br>
 [Validated on-premises VPN devices and Ipsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
-[Configure a VNet-to-VNet VPN gateway connection using the Azure portal]https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
+[Configure a VNet-to-VNet VPN gateway connection using the Azure portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
 [Virtual network peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering)
