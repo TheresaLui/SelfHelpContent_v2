@@ -21,4 +21,4 @@
 * [Automate management tasks on Azure Virtual Machines with the SQL Server Agent Extension (Resource Manager)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-agent-extension)
 * [Automated Patching for SQL Server in Azure Virtual Machines (Resource Manager)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-patching)<br>
 * [Configure Azure Key Vault Integration for SQL Server on Azure Virtual Machines (Resource Manager)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-ps-sql-keyvault)<br>
-* [Security Considerations for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-security)<br>
+* [Security Considerations for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-security)<br>
