@@ -15,7 +15,7 @@
 # connectivity/network connectivity problems
 
 ## **Recommended documents**
-[Azure Virtual Network frequently asked questions (FAQ)](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq)<br>
+[Azure Virtual Network frequently asked questions (FAQ)](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq)<br>
 [Verify your virtual network gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#a-nameverifyconnectiona8-verify-the-vpn-connection)<br>
 [Validate on-premises VPN devices and Ipsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
 [Diagnose on-premise connectivity via VPN gateways](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
