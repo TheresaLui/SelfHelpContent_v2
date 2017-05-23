@@ -17,7 +17,7 @@
 ## **Recommended documents**
 
 ### **Managing a VNet for VPN gateway**<br>
-[Create of modify VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal)<br>
+[Create or modify VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal)<br>
 [Validated on-premises VPN devices and Ipsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
 
 ### **Managing address spaces within a VNet**<br>
