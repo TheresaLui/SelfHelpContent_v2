@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-[Web application firewall logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview#logging)<br>
+[Web application firewall logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview#logging)
