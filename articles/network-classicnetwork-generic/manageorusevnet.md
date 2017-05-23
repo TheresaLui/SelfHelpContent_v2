@@ -29,4 +29,4 @@
 [Using effective routes to troubleshoot VM network traffic flow](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal#using-effective-routes-to-troubleshoot-vm-traffic-flow)
 
 ### **FAQ**<br>
-[Virtual network FAQ](hhttps://docs.microsoft.com/azure/virtual-network/virtual-networks-faq)
+[Virtual network FAQ](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq)
