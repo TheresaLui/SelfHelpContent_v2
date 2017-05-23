@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# virtualnetworkconfigurationandsetup/manageoruseavirtualnetwork
+# virtual network configuration and setup/manage or use a virtual network
 
 ## **Recommended documents**
 [Virtual Network FAQ](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq)
