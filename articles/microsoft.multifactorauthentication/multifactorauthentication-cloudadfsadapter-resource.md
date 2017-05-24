@@ -12,7 +12,7 @@
   cloudEnvironments="public"
 />
 
-# Configur the AD FS adapter for Azure MFA in the cloud
+# Configure the AD FS adapter for Azure MFA in the cloud
 
 ## **Recommended steps**
 
