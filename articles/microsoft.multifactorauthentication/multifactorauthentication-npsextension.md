@@ -8,7 +8,9 @@
     supportTopicIds="32565586" 
     productPesIds="14947" 
     cloudEnvironments="public" 
- /> 
+ />
+<!---Loc Comment: The matada seems to be incorrect--->
+ 
 # Installing or configuring extensions for MFA service (cloud)  
 ## **Recommended steps** 
 Follow these steps to troubleshoot common scenarios with the NPS Extension for Azure MFA: 
