@@ -15,7 +15,7 @@ productPesIds="15629"
 cloudEnvironments="public"
 />
 
-## **Running VM has been detected**
+# **Running VM has been detected**
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that the VM <!--$vmname-->[vmname]<!--/$vmname-->, is actively running that’s preventing it's deletion. You will have to stop & delete the VM before you can delete the storage account.<br>
+## **Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that the VM <!--$vmname-->[vmname]<!--/$vmname-->, is actively running that’s preventing it's deletion. You will have to stop & delete the VM before you can delete the storage account.<br>
 <!--/issueDescription-->

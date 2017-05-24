@@ -15,7 +15,7 @@ productPesIds="15629"
 cloudEnvironments="public"
 />
 
-## **An active lease has been detected**
+# **An active lease has been detected**
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that there is an active lease that’s preventing it's deletion. Please continue to submit your case.<br>
+## **Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that there is an active lease that’s preventing it's deletion. Please continue to submit your case.<br>
 <!--/issueDescription-->
