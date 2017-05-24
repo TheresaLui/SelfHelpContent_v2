@@ -18,5 +18,5 @@ cloudEnvironments="public"
 # **Running VM attached**
 <!--issueDescription-->
 
-# Microsoft Azure has concluded an investigation of your delete operation.You cannot delete the disk, <!--$disks-->[disks]<!--/$disks--> because it is attached to a running VM, <!--$vmname-->[vmname]<!--/$vmname-->. The VM has to be stopped and deleted before the disk can be deleted. <br>
+Microsoft Azure has concluded an investigation of your delete operation.You cannot delete the disk, <!--$disks-->[disks]<!--/$disks--> because it is attached to a running VM, <!--$vmname-->[vmname]<!--/$vmname-->. The VM has to be stopped and deleted before the disk can be deleted. <br>
 <!--/issueDescription-->
