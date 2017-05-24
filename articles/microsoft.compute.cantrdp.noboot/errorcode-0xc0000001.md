@@ -1,12 +1,12 @@
 <properties
 pageTitle="VM boot error"
-description="Virtual machine failed to boot with error code 0xc0000034"
+description="Virtual machine failed to boot with error code 0xc0000001"
 infoBubbleText="Boot error has been found."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="Ram-Kakani"
 displayOrder=""
-articleId="VMCannotRDP_E32BD6A1-9532-4AC6-835D-4ECB4A074CE5"
+articleId="VMCannotRDP-BootError-0xc0000001-BootBCD"
 diagnosticScenario="booterror"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000034**. The issue occurs when there is an issue with the Boot Configuration data and the booting partition is unable to find the \windows folder.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000001**. The issue occurs when a device that doesn't exist is specified in the Boot Configuration data.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -31,26 +31,24 @@ To fix the BCD store, follow the troubleshooting steps indicated below:
 5. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
   * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
   * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
-6. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). You will find the reference to the partition {bootmgr} is missing on the boot database. The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
-```
-  bcdedit /store [Boot partition]:\boot\bcd /enum
-```
+6. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+
+      ```
+      bcdedit /store [Boot partition]:\boot\bcd /enum
+      ```
 7. Repair the Boot Configuration data by running the following command lines. You must replace these placeholders by the actual values:
   * "Windows partition" is the partition that contains a folder named "Windows."
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
-  ```
-        bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr}
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30
-  ```
+        ```
+          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
+          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
+          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
+          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
+          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
+          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:
+          bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
+        ```
 
-8. Ensure the boot setup is setup properly by executing the command in step 6.
-```
-    bcdedit /store [Boot partition]:\boot\bcd /enum
-```
-9. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
+8. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)

@@ -22,7 +22,7 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
+To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps.
 
 1. Please make a note of the File name and the path from the screenshot.
 2. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.

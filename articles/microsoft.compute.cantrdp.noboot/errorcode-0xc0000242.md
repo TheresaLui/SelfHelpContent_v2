@@ -1,12 +1,12 @@
 <properties
 pageTitle="VM boot error"
-description="Virtual machine failed to boot with error code 0xc0000098"
+description="Virtual machine failed to boot with error code 0xc0000242"
 infoBubbleText="Boot error has been found."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
 displayOrder=""
-articleId="VMCannotRDP_14B92737-EB19-48C4-A136-D38E70C09FEC"
+articleId="VMCannotRDP-BootError-0xC0000242-MissingFile"
 diagnosticScenario="booterror"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **<!--$vmname-->[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000098**. Windows failed to load because a required file is missing or corrupt.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **<!--$vmname-->[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000242**. The operating system couldn’t be loaded because a critical system driver is missing or contains errors.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -36,7 +36,7 @@ To fix the issue, either replace the file from the C:\windows\WinSxS folder on t
 8. Now from an elevated command prompt, locate the volume holding your Windows directory, browse to \windows\winsxs and search for the binary displayed on your screenshot. The below commands will give you all the different versions file on the machine.
 ```
   dir [binary name without the extension]* /s
-```  
+```
 9. Choose the latest of the list and proceed to copy it to the windows\system32 folder path on the attached OS disk.
 ```
   copy [drive]:\Windows\WinSxS\[directory_where_file_is]\[binary_with_extension] [drive]:\Windows\System32\Drivers\
