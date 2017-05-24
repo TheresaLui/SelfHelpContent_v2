@@ -11,6 +11,7 @@
     productPesIds="" 
     cloudEnvironments="public" 
  /> 
+<!---Loc Comment: The matada seems to be incorrect--->
 
 # Install the Azure MFA NPS extension
 
