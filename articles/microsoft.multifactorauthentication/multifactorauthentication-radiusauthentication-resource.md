@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# RADIUS authentication
+# Troubleshoot RADIUS authentication configurations
 
 ## **Recommended steps**
 

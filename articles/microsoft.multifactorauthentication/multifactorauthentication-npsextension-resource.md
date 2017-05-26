@@ -12,7 +12,7 @@
     cloudEnvironments="public" 
  /> 
 
-# Install the Azure MFA NPS extension
+# Installation errors for the Azure MFA NPS extension
 
 ## **Recommended steps** 
 Follow these steps to troubleshoot common scenarios with the NPS Extension for Azure MFA: 
