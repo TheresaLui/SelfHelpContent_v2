@@ -6,7 +6,7 @@
 	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32436960"
+	supportTopicIds="32436960,32573481"
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
