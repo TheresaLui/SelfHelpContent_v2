@@ -6,7 +6,7 @@
 	authors="cychua"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32565604"
+	supportTopicIds="32570979"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
