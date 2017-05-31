@@ -12,7 +12,7 @@
   cloudEnvironments="public"
 />
 
-# Configure settings for Azure MFA Server
+# Problems with Azure MFA Server settings
 
 ## **Recommended steps**
 
