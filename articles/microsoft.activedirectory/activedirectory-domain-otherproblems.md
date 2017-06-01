@@ -16,8 +16,6 @@
  
 ## **Recommended steps** 
 
-## **Recommended steps** 
-
 1.	Ensure that your domain name hasn’t already been configured in another Azure AD tenant or in Office 365. If you have already configured your domain name in Office 365 and are trying to add it to another Azure AD tenant, verification will fail. If that happens, remove it from the Azure AD tenant where the domain name is already verified and add it to your Azure AD tenant. The same custom domain name cannot be verified by two different tenants.
 2.	If someone in your organization used self-service sign-up for PowerBI or Rights Management Services (RMS),they may have created an unmanaged tenant. You can manage this tenant with [admin takeover](https://docs.microsoft.com/azure/active-directory/active-directory-self-service-signup) or can proceed to add the domain with force takeover option in [PowerShell](https://docs.microsoft.com/powershell/msonline/v1/confirm-msoldomain).
 3.	If you are trying to configure a custom domain name for federated single sign-on, and you do not have ADFS set up, you must configure federation settings in your directory with the Azure AD Connect tool to use your custom domain name. 
