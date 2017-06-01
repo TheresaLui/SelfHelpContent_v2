@@ -16,19 +16,16 @@
  
 ## **Recommended steps** 
 
-To delete an Azure AD tenant, you must first remove any associations to your custom domain names in your directory, along with any users, groups, applications and your Azure and or Office 365 subscriptions in the directory. Deleting an Azure AD tenant is irreversible. Any data homed in the directory is permanently deleted. Learn more about [deleting a directory](https://docs.microsoft.com/azure/active-directory/active-directory-administer).
+1.	Ensure that your domain name hasn’t already been configured in another Azure AD tenant or in Office 365. If you have already configured your domain name in Office 365 and are trying to add it to another Azure AD tenant, verification will fail. If that happens, remove it from the Azure AD tenant where the domain name is already verified and add it to your Azure AD tenant. The same custom domain name cannot be verified by two different tenants.
+2.	If someone in your organization used self-service sign-up for PowerBI or Rights Management Services (RMS),they may have created an unmanaged tenant. You can manage this tenant with [admin takeover](active-directory-self-service-signup.md) or can proceed to add the domain with force takeover option in [PowerShell](https://docs.microsoft.com/powershell/msonline/v1/confirm-msoldomain).
+3.	If you are trying to configure a custom domain name for federated single sign-on, and you do not have ADFS set up, you must configure federation settings in your directory with the Azure AD Connect tool to use your custom domain name. 
+4.	If you are trying to delete an Azure AD tenant, there can be no active subscriptions for any Microsoft Online Services such as Microsoft Azure, Office 365, or Azure AD Premium associated with the tenant you're trying to delete. Transfer your subscriptions or expedite cancellation of active subscriptions by using [Azure Support and Billing](https://support.office.com/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-1. Ensure that you are are the global administrator for the directory and that you are the only user in the directory. Any other users must be deleted before the directory can be deleted. If users are synchronized from on-premises, then sync will need to be turned off, and the users must be deleted in the cloud directory by using the Azure portal or PowerShell. 
-2. There can be no applications in the directory. Any applications must be deleted before the directory can be deleted.
-3. There can be no subscriptions for any Microsoft Online Services such as Microsoft Azure, Office 365, or Azure AD Premium associated with the directory. For more information about Azure subscriptions, see [Cancel your Azure subscription](https://docs.microsoft.com/azure/active-directory/billing-how-to-cancel-azure-subscription).
-4. Ensure that if you are signed in with a work or school account, you must not be attempting to delete your home directory. For example, if you are is signed in as joe@contoso.onmicrosoft.com, you cannot delete the directory that has contoso.onmicrosoft.com as its default domain.  
-5. No multi-factor authentication providers can be linked to the directory.  
+## **Recommended documents**
 
-## **Recommended documents** 
- 
-* [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) 
-* [Add subdomains of a custom domain name](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain)  
-* [Resource dependencies in Office 365 and Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence)  
-* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names)  
- 
- 
+* [Add subdomains of a custom domain name](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain) 
+
+* [Resource dependencies in Office 365 and Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence) 
+
+* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names) 
+
