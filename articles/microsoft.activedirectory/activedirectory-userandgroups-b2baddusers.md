@@ -45,9 +45,11 @@ You can also add new guest users directly to an application by using the "invite
 If you are still unable to invite, please create a support ticket and let us know the details of the issue and we will be glad to help.
  
 ### **How can a guest leave the directory?**
+
 Currently the only way to do this to contact the other organization's administrator or to create a support ticket for Microsoft.
  
 ### **Unable to resend invite to user**
+
 If the guest user has not yet accepted their invitation, navigate to the user's profile and use the **Resend invitation** button. If the user has accepted the invitation already, you will not find this button there - in which case, just email them the link to the app or resource you want them to access.
  
 ### **How to add guest users without invitation**
