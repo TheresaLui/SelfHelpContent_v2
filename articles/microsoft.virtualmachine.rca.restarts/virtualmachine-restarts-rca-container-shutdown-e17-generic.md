@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="jozender"
 	displayOrder=""
-	articleId="UnexpectedReboot_E17Generic"
+	articleId="UnexpectedVMReboot_E17Generic"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds="32411816"
