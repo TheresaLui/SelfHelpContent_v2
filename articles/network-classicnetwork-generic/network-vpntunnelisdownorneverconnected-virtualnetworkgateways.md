@@ -21,4 +21,4 @@
 [IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)<br>
 
 ## **Recommmended service
-[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/en-us/services/network-watcher/)
+[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
