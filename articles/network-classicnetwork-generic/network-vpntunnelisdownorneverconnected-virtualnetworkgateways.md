@@ -18,4 +18,7 @@
 [Verify your connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-multi-site#7-verify-your-connections)<br>
 [Validated VPN devices and IPsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
 [Diagnose on-premises connectivity via VPN gateway](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
-[IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)
+[IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)<br>
+
+## **Recommmended service
+[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/en-us/services/network-watcher/)
