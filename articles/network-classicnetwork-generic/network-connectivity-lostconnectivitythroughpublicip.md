@@ -15,4 +15,7 @@
 # connectivity/lostconnectivitythroughpublicip
 
 ## **Recommended documents**
-[IP Allocation method](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#allocation-method)
+[IP Allocation method](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#allocation-method)<br>
+
+## **Recommmended service**
+[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
