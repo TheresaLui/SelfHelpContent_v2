@@ -17,16 +17,16 @@
 ## **Recommended steps**
 Try the following steps to diagnose and mitigate VM performance issues
 
-1. Review your application error logs, traces, and metrics to determine if there are any application bottlenecks causing performance issues. As a quick way to recover from one-time issues, restart your application and machine.
-2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. <br>
+1. **Do you know PerfInsights can help you analyze Guest VM issues?** Start here: [Download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True).<br> To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.
+2. Review your application error logs, traces, and metrics to determine if there are any application bottlenecks causing performance issues. As a quick way to recover from one-time issues, restart your application and machine.
+3. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization. <br>
 On Windows, use the Perfmon tool. On Linux, use commands such as Top, VmStat, Lsof, and Tcpdump.
-3. Use VM Diagnostics and Storage Diagnostics in the Azure portal to identify if any resource is being overutilized or throttled. <br>
+4. Use VM Diagnostics and Storage Diagnostics in the Azure portal to identify if any resource is being overutilized or throttled. <br>
 [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](http://aka.ms/azurevmperf)
-4. Restart the VM to address any VM operating system issues by clicking 'Restart' at the top of the VM resource blade
-5. Scale up the virtual machine to a different VM type or series for increaed performance by clicking 'Size' in the Settings blade of the VM resource
-6. Consider using Premium Storage account if its an I/O intensive use-case <br>
+5. Restart the VM to address any VM operating system issues by clicking 'Restart' at the top of the VM resource blade
+6. Scale up the virtual machine to a different VM type or series for increaed performance by clicking 'Size' in the Settings blade of the VM resource
+7. Consider using Premium Storage account if its an I/O intensive use-case <br>
 [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/documentation/articles/storage-premium-storage-preview-portal/)
-7. Do you know PerfInsights can help you analyze Guest VM issues? Start here: [Download PerfInsights](https://www.microsoft.com/en-us/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True).<br> To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)

@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Remove deleted Azure AD users from managed domain"
+	pageTitle="Problem removing deleted Azure AD users from your managed domain"
 	description="Azure AD Domain Services"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
@@ -9,7 +9,7 @@
 	cloudEnvironments="public"
 />
 
-# Remove deleted Azure AD users from managed domain
+# Problem removing deleted Azure AD users from your managed domain
 Azure AD protects you from accidental deletion of user objects. When you delete a user account from your Azure AD tenant, the corresponding user object is moved to the Recycle Bin. When this delete operation is synchronized to your managed domain, it causes the corresponding user account to be marked disabled, even if you re-create a user account with the same UPN in your Azure AD directory. 
 
 ## **Recommended steps**

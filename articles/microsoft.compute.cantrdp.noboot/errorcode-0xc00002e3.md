@@ -18,11 +18,11 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002E3**. The issue occurs when the SAM registry hive is missing or corrupt.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002e3**. The issue occurs when the SAM registry hive is missing or corrupt.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
+To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps.
 
 1. Please make a note of the File name and the path from the screenshot.
 2. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.

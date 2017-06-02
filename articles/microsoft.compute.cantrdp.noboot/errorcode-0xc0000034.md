@@ -22,7 +22,7 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
+To fix the BCD store, follow the troubleshooting steps indicated below:
 
 1. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.
 2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
