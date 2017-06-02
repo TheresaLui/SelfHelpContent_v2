@@ -1,17 +1,18 @@
 <properties
   pageTitle="Cloud-based MFA/Configuring Azure MFA Settings"
   description="Troubleshooting issues with Azure MFA Settings"
-  service="microsoft.multifactorauthentication"
-  resource=""
+  service="microsoft.aad"
+  resource="Microsoft_AAD_IAM"
   authors="kgremban"
-  selfHelpType="generic"
-  supportTopicIds="32570990"
-  productPesIds="14947"
+  displayOrder="110"
+  selfHelpType="resource"
+  supportTopicIds=""
+  resourceTags="mfa_overview"
+  productPesIds=""
   cloudEnvironments="public"
-
 />
 
-# Configuring Azure MFA Settings
+# Configure settings for Azure MFA in the cloud
 
 ## **Recommended steps**
 

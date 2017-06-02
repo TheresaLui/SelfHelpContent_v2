@@ -1,16 +1,18 @@
 <properties
   pageTitle="Cloud-based MFA/Installing or configuring cloud-based MFA AD FS adapter"
   description="Installing or configuring cloud-based MFA AD FS adapter"
-  service="microsoft.multifactorauthentication"
-  resource=""
+  service="microsoft.aad"
+  resource="Microsoft_AAD_IAM"
   authors="kgremban"
-  selfHelpType="generic"
-  supportTopicIds="32570991"
-  productPesIds="14947"
+  displayOrder="130"
+  selfHelpType="resource"
+  supportTopicIds=""
+  resourceTags="mfa_overview"
+  productPesIds=""
   cloudEnvironments="public"
 />
 
-# Installing or configuring cloud-based MFA AD FS adapter
+# Questions about the AD FS adapter for Azure MFA in the cloud
 
 ## **Recommended steps**
 

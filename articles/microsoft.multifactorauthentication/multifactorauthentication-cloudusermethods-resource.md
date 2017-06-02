@@ -1,16 +1,18 @@
 <properties
   pageTitle="Cloud-based MFA/User MFA methods issues (cloud)"
   description="User MFA methods issues"
-  service="microsoft.multifactorauthentication"
-  resource=""
+  service="microsoft.aad"
+  resource="Microsoft_AAD_IAM"
   authors="kgremban"
-  selfHelpType="generic"
-  supportTopicIds="32570992"
-  productPesIds="14947"
+  displayOrder="120"
+  selfHelpType="resource"
+  supportTopicIds=""
+  resourceTags="mfa_overview"
+  productPesIds=""
   cloudEnvironments="public"
 />
 
-# User MFA methods issues
+# Troubleshoot your users' authentication issues
 
 ## **Recommended steps**
 

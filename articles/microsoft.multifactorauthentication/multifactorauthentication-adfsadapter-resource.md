@@ -1,18 +1,18 @@
 <properties
 	pageTitle="MFA Server (On-Premises)/Installing or configuring AD FS adapter"
 	description="MFA Server (On-Premises)/Installing or configuring AD FS adapter"
-	service="microsoft.multifactorauthentication"
-	resource=""
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
 	authors="kgremban"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32336308"
-	resourceTags=""
-	productPesIds="14947"
+	displayOrder="230"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="mfa_overview"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
-# Installing or configuring AD FS adapter
+# Help installing the AD FS adapter for Azure MFA Server
 
 ## **Recommended steps**
 

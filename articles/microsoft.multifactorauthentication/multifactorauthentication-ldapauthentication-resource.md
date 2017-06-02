@@ -1,12 +1,14 @@
 <properties  
     pageTitle="MFA Server (On-Premises)/LDAP authentication" 
-    description=" LDAP authentication" 
-    service="microsoft.multifactorauthentication" 
-    resource="" 
+    description="LDAP authentication" 
+    service="microsoft.aad" 
+    resource="Microsoft_AAD_IAM" 
     authors="kgremban" 
-    selfHelpType="generic" 
-    supportTopicIds="32336320" 
-    productPesIds="14947" 
+    displayOrder="240"
+    selfHelpType="resource" 
+    supportTopicIds="" 
+    resourceTags="mfa_overview"
+    productPesIds="" 
     cloudEnvironments="public" 
  /> 
 # LDAP authentication 
@@ -25,6 +27,6 @@ In the Directory Integration section, ensure you have the target LDAP server con
 
 ## **Recommended documents** 
 
-- [LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap) 
-- [Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint) 
-- [Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server) 
+- [LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap)  
+- [Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint)  
+- [Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server)  
