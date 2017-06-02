@@ -38,6 +38,6 @@ Follow these steps to troubleshoot common scenarios with the NPS Extension for A
 1. Verify that https://adnotifications.windowsazure.com is reachable from the server running the NPS extension. 
 
 ## **Recommended documents** 
-  
-- [Integrate your existing NPS infrastructure with Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-nps-extension) 
+
+- [Integrate your existing NPS infrastructure with Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-nps-extension)
 - [Resolve error messages from the NPS extension for Azure Multi-Factor Authentication](https://review.docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-nps-errors?branch=pr-en-us-10717)
