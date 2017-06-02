@@ -10,7 +10,7 @@
     cloudEnvironments="public" 
  /> 
 # LDAP authentication 
-  
+
 ## **Recommended steps** 
 
 Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
