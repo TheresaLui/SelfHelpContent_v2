@@ -12,7 +12,7 @@
   cloudEnvironments="public"
 />
 
-# Helps your users with authentication issues
+# Troubleshoot your users' authentication issues
 
 ## **Recommended steps**
 

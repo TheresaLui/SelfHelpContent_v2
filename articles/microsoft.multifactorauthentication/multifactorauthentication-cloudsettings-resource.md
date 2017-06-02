@@ -10,7 +10,6 @@
   resourceTags="mfa_overview"
   productPesIds=""
   cloudEnvironments="public"
-
 />
 
 # Configure settings for Azure MFA in the cloud

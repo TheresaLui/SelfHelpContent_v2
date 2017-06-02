@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Install the AD FS adapter for Azure MFA Server
+# Help installing the AD FS adapter for Azure MFA Server
 
 ## **Recommended steps**
 
