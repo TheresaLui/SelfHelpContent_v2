@@ -1,16 +1,16 @@
-<properties  
-    pageTitle="Cloud-based MFA/Installing or configuring Azure MFA NPS extension" 
-    description="Installing or configuring extensions for MFA service (cloud)" 
-    service="microsoft.aad" 
-    resource="Microsoft_AAD_IAM" 
-    authors="kgremban" 
-    displayOrder="140"
-    selfHelpType="resource" 
-    supportTopicIds=""
-    resourceTags="mfa_overview"
-    productPesIds="" 
-    cloudEnvironments="public" 
- /> 
+<properties
+	pageTitle="Cloud-based MFA/Installing or configuring Azure MFA NPS extension"
+	description="Installing or configuring extensions for MFA service (cloud)"
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
+	authors="kgremban"
+	displayOrder="140"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="mfa_overview"
+	productPesIds=""
+	cloudEnvironments="public"
+/>
 
 # Installation errors for the Azure MFA NPS extension
 
