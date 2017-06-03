@@ -28,7 +28,7 @@ Azure Storage is a multitenant environment, which means there are multiple stora
 For more details on load balancing and partition server failures, refer to this document: <br>
 * [Microsoft Azure Storage architecture overview](https://blogs.msdn.microsoft.com/windowsazurestorage/2010/12/30/windows-azure-storage-architecture-overview/)<br>
  
-For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the [associated section in the Storage Performance and Scalability checklist] (https://docs.microsoft.com/en-us/azure/storage/storage-performance-checklist#subheading47).<br>
+For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the [associated section in the Storage Performance and Scalability checklist](https://docs.microsoft.com/en-us/azure/storage/storage-performance-checklist#subheading47).<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
 To learn more about high availability options, please refer to the following articles:<br>
