@@ -14,10 +14,11 @@
 
 # vnetpeering/managevnetpeering
 
-## **Recommended documents**
-[VNet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
+## Recommended documents
+[VNet Peering Overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
+[How to create, change, or delete VNet Peerings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering) 
 
-## **Frequently asked questions**
+## Frequently asked questions
 ### **I created a peering, why am I not able to ping the VM in the peer VNet?**
 Make sure the peering status says *Connected*. If the peering status is *Initiated*, only one link has been created. So successfully peer, you will need to establish two peering links. Read the [Create a virtual netwrok peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-create-vnetpeering-arm-portal) article to see a step by step tutorial on how this can be done.
 
