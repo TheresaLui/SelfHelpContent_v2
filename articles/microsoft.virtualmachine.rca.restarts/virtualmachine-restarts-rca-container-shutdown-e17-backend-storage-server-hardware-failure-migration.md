@@ -32,7 +32,7 @@ To ensure high availability for your application in Azure, it is recommended tha
 To learn more about high availability options, please refer to the following articles:<br>
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
-* [Managed Disks Overview] (https://docs.microsoft.com/azure/storage/storage-managed-disks-overview) <br>
+* [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview) <br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 To learn more about Azure Resource Health, please refer to the following article:<br>
