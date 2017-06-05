@@ -14,7 +14,7 @@
 
 # ipaddresses/ipaddresschangedafterreboot
 
-## Recommended documents
+## **Recommended documents**
 [IP Allocation method](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#allocation-method)
 [Add, change, or remove IP addresses](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface-addresses)
 
