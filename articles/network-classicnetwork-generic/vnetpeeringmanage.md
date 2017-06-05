@@ -14,7 +14,7 @@
 
 # vnetpeering/managevnetpeering
 
-## Recommended documents
+## **Recommended documents**
 [VNet Peering Overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
 [How to create, change, or delete VNet Peerings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering) 
 
