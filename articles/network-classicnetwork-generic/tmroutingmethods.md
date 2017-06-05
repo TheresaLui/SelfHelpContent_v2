@@ -15,4 +15,5 @@
 # routing methods
 
 ## **Recommended documents**
-[Geoogra](https://azure.microsoft.com/documentation/articles/traffic-manager-performance-considerations/)
+[Geographic traffic routing overview](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods#geographic-traffic-routing-method)<br>
+[Geographic traffic routing FAQ](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs#traffic-manager-geographic-traffic-routing-method)
