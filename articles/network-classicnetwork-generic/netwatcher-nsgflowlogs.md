@@ -15,4 +15,4 @@
 # securitygroupview
 
 ## **Recommended documents**
-[Flow logging for ne](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
+[Flow logging for network security groups](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
