@@ -15,4 +15,4 @@
 # securitygroupview
 
 ## **Recommended documents**
-[FlowIP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
+[Flow logging for ne](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview)
