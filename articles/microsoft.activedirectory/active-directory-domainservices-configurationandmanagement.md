@@ -22,7 +22,7 @@ Members of the 'AAD DC Administrators' group are granted the necessary privilege
 4.	Create and administer customer Organizational Units (OUs) on the managed domain.
 5.	Gain administrative access to computers joined to the managed domain. 
 
-For more information, please see [administrative privileges you do not have on a managed domain.](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-admin-guide-administer-domain#administrative-privileges-you-do-not-have-on-a-managed-domain)
+For more information, please see [administrative privileges you do not have on a managed domain.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-administer-domain#administrative-privileges-you-do-not-have-on-a-managed-domain)
 
 ## Administrator unable to sign in to the Azure AD Domain Services managed domain
 
