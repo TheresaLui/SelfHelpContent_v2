@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# This is the title of my solution
+# Intune Enrollment iOS and Mac
 
 ## **Recommended documents**
 
