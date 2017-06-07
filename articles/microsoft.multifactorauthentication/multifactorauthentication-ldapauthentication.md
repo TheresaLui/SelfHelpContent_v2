@@ -10,7 +10,7 @@
     cloudEnvironments="public" 
  /> 
 # LDAP authentication 
-  
+
 ## **Recommended steps** 
 
 Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
@@ -24,7 +24,7 @@ In the Directory Integration section, ensure you have the target LDAP server con
 - Use the test button to ensure communication.  This ensures you can bind.  You can also go to the users section and select a user to test against LDAP auth to test an auth for a specific user as well. 
 
 ## **Recommended documents** 
-  
-[LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap) 
-[Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint)  
-[Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server) 
+
+- [LDAP Authentication and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-ldap) 
+- [Directory Integration between Azure MFA Server and AD/LDAP](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-dirint) 
+- [Azure MFA Server Video Overview](https://azure.microsoft.com/resources/videos/multi-factor-authentication-server) 

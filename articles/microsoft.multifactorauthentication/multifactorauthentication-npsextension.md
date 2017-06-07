@@ -8,13 +8,14 @@
     supportTopicIds="32565586" 
     productPesIds="14947" 
     cloudEnvironments="public" 
- /> 
+ />
+ 
 # Installing or configuring extensions for MFA service (cloud)  
 ## **Recommended steps** 
 Follow these steps to troubleshoot common scenarios with the NPS Extension for Azure MFA: 
 
 **ADAL token error**
-
+<!---Loc Comment: The matada seems to be incorrect--->
 1. Restart your NPS Server. 
 2. Verify that the client cert is installed as expected. 
 3. Verify that the certificate is associated with your tenant on AzureAD. 

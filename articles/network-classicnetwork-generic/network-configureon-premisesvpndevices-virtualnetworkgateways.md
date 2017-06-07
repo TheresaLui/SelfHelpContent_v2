@@ -3,7 +3,7 @@
 	description="configure on-premises vpn devices"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
-	authors="aashu"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542246"
@@ -15,6 +15,4 @@
 # configure on-premises vpn devices
 
 ## **Recommended documents**
-[Validated VPN devices and Configuration Templates](https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpn-devices/#validated-vpn-devices)<br>
-[Non-validated VPN devices](https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpn-devices/#non-validated-vpn-devices)<br>
-[Supported VPN devices & configuration for Site-to-Site VPN Gateway connections](https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpn-devices)
+[Validated VPN devices and IPsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)

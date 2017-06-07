@@ -1,9 +1,9 @@
 <properties
 	pageTitle="setup and configuration/failure deploying sql alwayson ag template"
-	description="setup and configuration/failure deploying sql alwayson ag template"
+	description="setup and configuration/failure deploying sql always on ag template"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="aashu"
+	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32511140"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# setup and configuration/failure deploying sql alwayson ag template
+# setup and configuration/failure deploying sql always on ag template
 
 
 ## **Recommended documents**

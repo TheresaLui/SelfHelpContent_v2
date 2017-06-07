@@ -22,7 +22,7 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the BCD store, follow the troubleshooting steps indicated below by attaching your OS disk to another VM.
+To fix the BCD store, follow the troubleshooting steps indicated below:
 
 1. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.
 2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
@@ -42,13 +42,13 @@ To fix the BCD store, follow the troubleshooting steps indicated below by attach
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
         ```          
-          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]
+          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
           bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
-          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]
+          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
           bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
           bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
-          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]
-          bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy
+          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:
+          bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
         ```
 
 8. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)

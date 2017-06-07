@@ -3,7 +3,7 @@
 	description="unable to connect to vm or application via established vpn tunnel"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
-	authors="aashu"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542249"
@@ -15,6 +15,9 @@
 # unable to connect to vm or application via established vpn tunnel
 
 ## **Recommended documents**
-[Cross-premises connectivity and VMs](https://azure.microsoft.com/documentation/articles/vpn-gateway-vpn-faq/#cross-premises-connectivity-and-vms)<br>
-[Configure forced tunneling using the Azure Resource Manager deployment model](https://azure.microsoft.com/documentation/articles/vpn-gateway-forced-tunneling-rm/)<br>
-[Connecting to Virtual Networks](https://azure.microsoft.com/documentation/articles/vpn-gateway-vpn-faq/#connecting-to-virtual-networks)
+[Validated VPN devices and IPsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
+[Diagnose on-premises connectivity via VPN gateway with Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
+[IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-ip-flow-verify-overview)<br>
+
+## **Recommmended service**
+[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
