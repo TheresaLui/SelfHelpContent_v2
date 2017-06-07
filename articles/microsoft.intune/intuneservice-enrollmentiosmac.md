@@ -14,14 +14,19 @@
 
 # Intune Enrollment iOS and Mac
 
-## **Recommended documents**
+## **Recommended solution**
+
+[Troubleshoot device enrollment in Intune](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
+
+## **Configuring your Intune account**
 
 [Set up iOS and Mac device management](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)<br>
+
+## **Other possible solutions**
+
 [Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/en-us/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
 [Wi-Fi connections in Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/wi-fi-connections-in-microsoft-intune)<br>
 [Azure AD federation compatibility list](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility)<br>
 [Assign Intune licenses to your user accounts](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4)<br>
 [View licensed and unlicensed users with Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771772.aspx)<br>
 [Enroll your macOS device in Intune](https://docs.microsoft.com/en-us/intune-user-help/enroll-your-device-in-intune-macos)<br>
-[Troubleshoot device enrollment in Intune](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
-
