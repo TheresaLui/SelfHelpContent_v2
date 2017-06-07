@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I can’t find actions that haven been recently performed in Azure Active Directory in the activity logs"
+    pageTitle="I can’t find actions performed in Azure Active Directory in the activity logs"
     description="I can’t find actions that haven been recently performed in Azure Active Directory in the activity logs"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# I can’t find actions that haven been recently performed in Azure Active Directory in the activity logs
+# I can’t find actions performed in Azure Active Directory in the activity logs
 
 ## **Recommended steps**
 

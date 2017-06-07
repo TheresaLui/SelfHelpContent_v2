@@ -1,18 +1,18 @@
 <properties
 	pageTitle="MFA Server (On-Premises)/Other questions regarding MFA server (on-premises)"
 	description="MFA Server (On-Premises)/Other questions regarding MFA server (on-premises)"
-	service="microsoft.multifactorauthentication"
-	resource=""
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
 	authors="kgremban"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565585"
-	resourceTags=""
-	productPesIds="14947"
+	displayOrder="260"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="mfa_overview"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 
-# Other questions regarding MFA Server (on-premises)
+# Other questions about MFA Server
 
 ## **Recommended steps**
 
