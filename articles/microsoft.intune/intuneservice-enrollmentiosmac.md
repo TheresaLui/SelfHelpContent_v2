@@ -30,7 +30,6 @@
 [Assign Intune licenses to your user accounts](https://docs.microsoft.com/en-us/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4)<br>
 [View licensed and unlicensed users with Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771772.aspx)<br>
 [Enroll your macOS device in Intune](https://docs.microsoft.com/en-us/intune-user-help/enroll-your-device-in-intune-macos)<br>
-<<<<<<< HEAD
 [Troubleshoot device enrollment in Intune](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
-=======
->>>>>>> d43a65919c18d7e9cc53d7dc4bec3e13903446ae
+
+
