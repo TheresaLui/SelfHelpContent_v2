@@ -18,7 +18,7 @@
 
 [Troubleshoot device enrollment in Intune](https://docs.microsoft.com/en-us/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
 
-## **Configuring your Intune account**
+## **Configuring your Intune account for iOS and Mac management**
 
 [Set up iOS and Mac device management](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)<br>
 
