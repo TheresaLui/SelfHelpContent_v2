@@ -18,7 +18,7 @@
 
 The following is a list of errors that end users might see while enrolling iOS devices in Intune.
 
-# Error Message:  Device Cap Reached
+<b>Error Message:  Device Cap Reached<b/>
 
 * The user must remove one of his or her currently enrolled mobile devices from the Company Portal before enrolling another. 
 
