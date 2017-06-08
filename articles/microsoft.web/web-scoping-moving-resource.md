@@ -10,12 +10,6 @@
 />
 
 # Moving resources
-* Has the creation/deletion worked before? 
-* What is the error message? Does the error message help resolve the issue?
-* Did you try creation/deletion after clearing browser cache? 
-* Did you try a different browser (Edge / IE / Chrome)? 
-* Did you try InPrivate or InCognito mode?
-
 * Are you moving App Service resources in the same subscription; i.e. from one resource group to another, or from one subscription to another one? 
 * What is the combination of resources you are trying to move? Is it just App Services or are App Service Plans involved as well? 
 * How many resources are you trying to move? 
