@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Scoping questions for ASE creation"
-	description="ASE creation
+	description="ASE creation"
 	service="microsoft.web"
 	authors="shrahman"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32581608"
+	supportTopicIds="32581609"
 	productPesIds="14748"
 	cloudEnvironments="public"
 />
