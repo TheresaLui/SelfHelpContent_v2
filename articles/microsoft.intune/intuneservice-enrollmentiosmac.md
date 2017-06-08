@@ -18,31 +18,31 @@
 
 To resolve common issues, try one or more of the following methods.
 
-1.  Error Message:  No Enrollment Policy
+Error Message:  No Enrollment Policy
 
 * Check that all enrollment prerequisites, like the Apple Push Notification Service (APNs) certificate, have been set up and that "iOS as a platform" is enabled. 
 
-2.  Error Message:  Device Cap Reached
+Error Message:  Device Cap Reached
 
 * The user must remove one of his or her currently enrolled mobile devices from the Company Portal before enrolling another. 
 
-3.  Error Message:  APNSCertificateNotValid
+Error Message:  APNSCertificateNotValid
 
 * The Apple Push Notification Service (APNs) provides a channel to reach out to enrolled iOS devices. If the steps to get an APNs certificate were not performed, or if the APNs certificate has expired, then enrollment attempts will fail, and this message will appear.
 
-4.  Error Message:  AccountNotOnboarded
+Error Message:  AccountNotOnboarded
 
 * The Apple Push Notification Service (APNs) provides a channel to reach out to enrolled iOS devices. If the steps to get an APNs certificate were not performed, or if the APNs certificate has expired, then enrollment attempts will fail, and this message will appear.
 
-5.  Error Message:  DeviceTypeNotSupported
+Error Message:  DeviceTypeNotSupported
 
 * Ensure that your user's device is running iOS version 8.0 or later.
 
-6.  Error Message:  UserLicenseTypeInvalid
+Error Message:  UserLicenseTypeInvalid
 
 * Before users can enroll their devices, they must be members of the right user group. This message means that they have the wrong license type for the designated mobile device management authority. For example, if Intune has been designated as the mobile device management authority, and they are using a System Center 2012 R2 Configuration Manager license, they will see this error.
 
-7.  Error Message:  MdmAuthorityNotDefined
+Error Message:  MdmAuthorityNotDefined
 
 * The mobile device management authority has not been designated in Intune.
 
