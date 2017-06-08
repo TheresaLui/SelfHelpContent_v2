@@ -18,19 +18,19 @@
 
 The following is a list of errors that end users might see while enrolling iOS devices in Intune.
 
-<b>Error Message:  Device Cap Reached<b/>
+<b>Error Message:  Device Cap Reached
 
 * The user must remove one of his or her currently enrolled mobile devices from the Company Portal before enrolling another. 
 
-Error Message:  No Enrollment Policy, APNSCertificateNotValid or AccountNotOnboarded
+<b>Error Message:  No Enrollment Policy, APNSCertificateNotValid or AccountNotOnboarded
 
 * The Apple Push Notification Service (APNs) provides a channel to reach out to enrolled iOS devices. If the steps to get an APNs certificate were not performed, or if the APNs certificate has expired, then enrollment attempts will fail, and this message will appear.
 
-Error Message:  DeviceTypeNotSupported
+<b>Error Message:  DeviceTypeNotSupported
 
 * Ensure that your user's device is running iOS version 8.0 or later.
 
-Error Message:  MdmAuthorityNotDefined
+<b>Error Message:  MdmAuthorityNotDefined
 
 * The mobile device management authority has not been designated in Intune.
 
