@@ -30,7 +30,7 @@ Error Message:  DeviceTypeNotSupported
 
 * Ensure that your user's device is running iOS version 8.0 or later.
 
-Error Message:  MdmAuthorityNotDefined<br>
+Error Message:  MdmAuthorityNotDefined
 
 * The mobile device management authority has not been designated in Intune.
 
