@@ -18,9 +18,8 @@ If your volumes are offline, this could be due to one of the following reasons:
 
 ## **Recommended steps**
 
-*Storage account is deleted. Ensure that the Storage account still exists and the associated credentials are correct.
-*Storage account access keys have been regenerated. Ensure that you can access the storage account using the primary access key. If the keys have been regenerated, you will need to synchronize the new keys via the StorSimple Device Manager service. For detailed instructions, go to [Synchronize the keys for Storage accounts](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-storage-accounts#key-rotation-of-storage-accounts).
-
+* Storage account is deleted. Ensure that the Storage account still exists and the associated credentials are correct.
+* Storage account access keys have been regenerated. Ensure that you can access the storage account using the primary access key. If the keys have been regenerated, you will need to synchronize the new keys via the StorSimple Device Manager service. For detailed instructions, go to [Synchronize the keys for Storage accounts](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-storage-accounts#key-rotation-of-storage-accounts).
 
 ## **Recommended documents**
 

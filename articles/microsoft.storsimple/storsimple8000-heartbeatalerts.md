@@ -18,8 +18,8 @@ If you are receiving heart beat alerts, this may be because your device has Inte
 
 ## **Recommended steps**
 
-*In the Windows PowerShell interface of your device, run Test-HcsmConnection. Resolve the reported issues. For more information, go to [Troubleshoot with the Test-HcsmConnection cmdlet](https://docs.microsoft.com/azure/storsimple/storsimple-8000-troubleshoot-deployment#troubleshoot-with-the-test-hcsmconnection-cmdlet).
-*Run the diagnostics tool to troubleshoot network connectivity. For more information, go to [Use the Diagnostics tool to troubleshoot network connectivity](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics).
+* In the Windows PowerShell interface of your device, run Test-HcsmConnection. Resolve the reported issues. For more information, go to [Troubleshoot with the Test-HcsmConnection cmdlet](https://docs.microsoft.com/azure/storsimple/storsimple-8000-troubleshoot-deployment#troubleshoot-with-the-test-hcsmconnection-cmdlet).
+* Run the diagnostics tool to troubleshoot network connectivity. For more information, go to [Use the Diagnostics tool to troubleshoot network connectivity](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics).
 
 ## **Recommended documents**
 

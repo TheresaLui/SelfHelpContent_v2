@@ -18,11 +18,11 @@ When migrating the data from one StorSimple device to another device, consider t
 
 ## **Recommended steps**
 
-*If migrating data from 5000-7000 series to a StorSimple 8000 series device, for detailed instructions, go to [Microsoft Azure StorSimple 8000 Series Migration Guide](https://gallery.technet.microsoft.com/Azure-StorSimple-50007000-c1a0460b).
-*If you're migrating from other storage device, go to [Migrating data to Storsimple Guide](http://download.microsoft.com/download/9/4/A/94AB8165-CCC4-430B-801B-9FD40C8DA340/Migrating%20Data%20to%20StorSimple%20Volumes_09-02-15.pdf)
-*If using device failover to change the data ownership, be aware that:
-**Failover is not supported if the two devices are registered to different StorSimple Device Managers.
-**Failover is only possible when the two devices are registered to the same StorSimple Device Manager service.
+* If migrating data from 5000-7000 series to a StorSimple 8000 series device, for detailed instructions, go to [Microsoft Azure StorSimple 8000 Series Migration Guide](https://gallery.technet.microsoft.com/Azure-StorSimple-50007000-c1a0460b).
+* If you're migrating from other storage device, go to [Migrating data to Storsimple Guide](http://download.microsoft.com/download/9/4/A/94AB8165-CCC4-430B-801B-9FD40C8DA340/Migrating%20Data%20to%20StorSimple%20Volumes_09-02-15.pdf)
+* If using device failover to change the data ownership, be aware that:
+** Failover is not supported if the two devices are registered to different StorSimple Device Managers.
+** Failover is only possible when the two devices are registered to the same StorSimple Device Manager service.
 
 ## **Recommended documents**
 
