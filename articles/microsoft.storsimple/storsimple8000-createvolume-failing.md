@@ -18,7 +18,7 @@ If you cannot create volumes or volume containers, this could be due to one of t
 
 ## **Recommended steps**
 
-*Storage account is not set up properly. For detailed instructions, go to [Create a new storage account](https://docs.microsoft.com/azure/storage/storage-create-storage-account#create-a-storage-account).
+* Storage account is not set up properly. For detailed instructions, go to [Create a new storage account](https://docs.microsoft.com/azure/storage/storage-create-storage-account#create-a-storage-account).
 * Storage account is deleted. Ensure that the storage account still exists and the associated credentials are correct.
 * Storage account access keys have been regenerated. Ensure that you can access the storage account using the primary access key. If the keys have been regenerated, you will need to synchronize the new keys via the StorSimple Device Manager service. For detailed instructions, go to [Synchronize the keys for Storage accounts](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-storage-accounts#key-rotation-of-storage-accounts).
 
