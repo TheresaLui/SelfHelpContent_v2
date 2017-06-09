@@ -4,7 +4,7 @@
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="anbacker"
-	displayOrder="5"
+	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="8000Series"
