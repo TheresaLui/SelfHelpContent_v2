@@ -32,9 +32,9 @@ To learn more about kind of planned maintenance that can impact the availability
 * [Role Instance restarts due to Planned Maintenance](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
 
 To learn more about all the past Guest OS release and their corresponding Security updated, please refer to the following articles:<br>
-* [Guest OS Releases](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix#releases)<br>
-* [Security updates on Guest OS](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-msrc-releases)<br>
+* [Guest OS Releases](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix#releases)<br>
+* [Security updates on Guest OS](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-msrc-releases)<br>
 
-Subscribe to the [Guest OS Update RSS Feed](TBD) to receive the most timely notification on all Guest OS changes<br>
+Subscribe to the [Guest OS Update RSS Feed](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix) to receive the most timely notification on all Guest OS changes<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the Azure platform to increase the availability of your Cloud Services.
