@@ -7,7 +7,7 @@
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
 />
