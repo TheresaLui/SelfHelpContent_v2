@@ -1,11 +1,11 @@
-<properties 
+<properties
     pageTitle="I can't assign licenses to a user or group"
     description="I can't assign licenses to a user or group"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
     displayOrder="1770"
-    supportTopicIds="32570959"
+    supportTopicIds="32570958"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="14785"
@@ -31,4 +31,3 @@ Here are some helpful tips for diagnosing problems with license assignment:
 5. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that have dependencies.
 
 6. If you are trying to assign a license to a group and groups are not listed in the assignment pane, please note that [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently in Public Preview and available only in tenants with licenses for Azure AD Basic or above.
-
