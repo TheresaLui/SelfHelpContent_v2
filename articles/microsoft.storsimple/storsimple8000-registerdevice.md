@@ -24,7 +24,7 @@ If your registration fails, this may be due to one of the following reasons:
 * Your device time may be out of sync.
 ** In the Windows PowerShell interface of your device, run the *Set-HcsSystem -Timezone* command. Adjust the time zone. Ensure that the time zone input is in the appropriate case. Each initial letter needs to be capitalized, for instance, "Pacific Standard Time".
 ** Use the *Sync-HcsTime* cmdlet to display device time and force a time sync with the NTP server. For more information, go to [Troubleshoot with Sync-HcsTime cmdlet](https://docs.microsoft.com/azure/storsimple/storsimple-troubleshoot-deployment#troubleshoot-with-the-sync-hcstime-cmdlet).
-* Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your StorSimple device].(https://docs.microsoft.com/en-us/azure/storsimple/storsimple-configure-web-proxy).
+* Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your StorSimple device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-configure-web-proxy).
 * Ensure that firewall is configured to meet the [Networking requirements for your StorSimple device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-system-requirements#networking-requirements-for-your-storsimple-device)
 * If this is not the first device that you are registering with this service, verify that the service data encryption key is correct. This key is obtained when you registered the first physical device with your StorSimple Device Manager service.
 

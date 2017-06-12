@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I want to move my from classic portal
+# I want to move my StorSimple Device Manager from classic portal
 
 If you are on the Azure classic portal and want to move your StorSimple Device Manager to the new Azure portal, perform the following steps to transition to the new Azure portal.
 
