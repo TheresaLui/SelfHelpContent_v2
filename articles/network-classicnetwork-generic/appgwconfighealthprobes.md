@@ -14,7 +14,7 @@
 
 # configurationandsetup/confighealthprobes
 
-## **Recommended documents*
+## **Recommended documents**
 
 ### **Configure health probes**<br> 
 [Application gateway health monitoring overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview)<br>
