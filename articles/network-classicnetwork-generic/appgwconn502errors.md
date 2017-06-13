@@ -1,20 +1,22 @@
 <properties
-	pageTitle="connectivity"
-	description="connectivity"
+	pageTitle="connectivity/502errors"
+	description="connectivity/502errors"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="aashu"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32436961"
+	supportTopicIds="32573483"
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
 />
 
-# connectivity
+# connectivity/502errors
 
 ## **Recommended documents**
+
+### **502 Errors**
 [Troubleshoot Bad Gateway Errors (502) in Application Gateway](https://azure.microsoft.com/documentation/articles/application-gateway-troubleshooting-502/)<br>
 
 ## **Recommmended service**
