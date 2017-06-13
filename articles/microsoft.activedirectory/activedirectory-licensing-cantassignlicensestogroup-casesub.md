@@ -12,22 +12,20 @@
     cloudEnvironments="public"
  />
 
-# I can't assign licenses to a user or group
+# I can't assign licenses to a group
 
-## **Recommended steps**
+## **Things to check first**
+1. To manage licenses on groups, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
 
-To manage user licenses, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
+2. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-Here are some helpful tips for diagnosing problems with license assignment:
+3. Assigning licenses to groups is currently in [preview](https://blogs.technet.microsoft.com/enterprisemobility/2017/02/22/announcing-the-public-preview-of-azure-ad-group-based-license-management-for-office-365-and-more/); learn more about the limitations and known issues [here](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-advanced#limitations-and-known-issues). During preview, you will need an active subscription for Azure AD Basic (or above) - check if you have one by going to [Licenses/All products](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products) in the Azure portal.
 
-1. If you are using the Azure portal and license assignment is failing, select the notification in the upper-right corner. This opens a blade with details about what went wrong, including the common problem cases listed here.
+## **Common problems and solutions**
+1. If you cannot assign a license to a group, check if the group is a "security group". Office 365 groups and distribution groups are currently not supported.
 
-2. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** property on the user blade.
+2. When a license is assigned or modified on a group it may take a while for the changes to be reflected on the users. To [confirm the status of license processing](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-assignment-azure-portal#step-2-verify-that-the-initial-assignment-has-completed) vie the **Licenses** tab of the group.
 
-3. Make sure there are enough available licenses for the product you are trying to assign. You can see the number of available licenses in the Azure portal, at [Azure Active Directory-&gt;Licenses-&gt;All products](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products).
+3. [In certain situations](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-problem-resolution-azure-portal) licenses cannot be assigned or removed from users. When investigating a problem with a user, make sure to go to the user's **Licenses** tab to view the complete information about their state; in most cases that is enough to understand the problem and solve it.
 
-4. The user may already have another license whose services conflict with the those in the new license you are trying to assign. For example, if the user has the *Exchange Online (Plan 1)* service enabled, you won’t be able to assign a license with the *Exchange Online (Plan 2)*. One of the services must be disabled to allow the new license assignment. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that are causing the conflict.
-
-5. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that have dependencies.
-
-6. If you are trying to assign a license to a group and groups are not listed in the assignment pane, please note that [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently in Public Preview and available only in tenants with licenses for Azure AD Basic or above.
+4. If you want to understand why a license was added/removed from a user or a group (e.g. who else in your organization may have made changes) make sure to view the [audit logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Audit). Setting the filter to license activities will show all modifications including the "actor" that performed them.

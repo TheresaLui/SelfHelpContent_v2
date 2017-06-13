@@ -33,4 +33,7 @@
 
   To identify which users in your tenant contain the same proxy address, execute this Azure AD PowerShell cmdlet:
 ```
-Get-AzureAdUser -All | Where {$_.ProxyAddresses -match <proxy address>} | Format-List ObjectId,UserPrincipalName,ProxyAddresses```
+Get-AzureAdUser -All | Where {$_.ProxyAddresses -match <proxy address>} | Format-List ObjectId,UserPrincipalName,ProxyAddresses
+```
+
+6. If you want to understand why a license was added/removed from a user (e.g. who else in your organization may have made changes) make sure to view the [audit logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Audit). Setting the filter to license activities will show all modifications including the "actor" that performed them.
