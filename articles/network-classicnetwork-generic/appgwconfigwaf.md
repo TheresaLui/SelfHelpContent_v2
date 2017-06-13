@@ -1,0 +1,23 @@
+<properties
+	pageTitle="configurationandsetup/configwaf"
+	description="configurationandsetup/configwaf"
+	service="microsoft.network"
+	resource="applicationgateways"
+	authors="radwiv"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32582831"
+	resourceTags=""
+	productPesIds="15922"
+	cloudEnvironments="public"
+/>
+
+# configurationandsetup/configwaf
+
+## **Recommended documents**
+
+### **Configure web application firewall (WAF)**<br>
+[Web application firewall (WAF) overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview)<br>
+[List of web application firewall CRS rule groups and rules offered](https://docs.microsoft.com/azure/application-gateway/application-gateway-crs-rulegroups-rules)<br>
+[Create an application gateway with web application firewall using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-portal)<br>
+[Configure web application firewall on a new or existing application gateway using PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-powershell)
