@@ -33,4 +33,4 @@ If your registration fails, this may be due to one of the following reasons:
 [Troubleshoot errors during device registration](https://docs.microsoft.com/azure/storsimple/storsimple-8000-troubleshoot-deployment#errors-during-device-registration)<br>
 [Use Windows PowerShell for StorSimple to administer your device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration)<br>
 [Get a service registration key](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-service#get-the-service-registration-key)<br>
-[Networking requirements for your StorSimple device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-system-requirements#networking-requirements-for-your-storsimple-device)
+[Networking requirements for your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-system-requirements#networking-requirements-for-your-storsimple-device)
