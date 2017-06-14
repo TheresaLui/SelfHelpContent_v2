@@ -25,4 +25,4 @@ If you are not able to create the StorSimple Cloud Appliance in a specific regio
 ## **Recommended documents**
 
 [Deploy and manage a StorSimple virtual device in Azure](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-virtual-device-u2)<br>
-[Troubleshoot StorSimple virtual device internet connectivity errors](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-virtual-device-u2#troubleshoot-internet-connectivity-errors)
+[Troubleshoot StorSimple virtual device internet connectivity errors](https://docs.microsoft.com/azure/storsimple/storsimple-virtual-device-u2#troubleshoot-internet-connectivity-errors)
