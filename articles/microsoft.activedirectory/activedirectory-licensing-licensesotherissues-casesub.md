@@ -1,6 +1,6 @@
-<properties 
-    pageTitle="I can't assign licenses to a user or group"
-    description="I can't assign licenses to a user or group"
+<properties
+    pageTitle="Other issues with licenses"
+    description="Other issues with licenses"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -12,23 +12,17 @@
     cloudEnvironments="public"
  />
 
-# I can't assign licenses to a user or group
+# Other issues with licenses
 
-## **Recommended steps**
+## **Things to check first**
+1. Is your problem related to per-user subscriptions (e.g. Office 365, Enterprise Mobility + Security, Dynamics 365, etc.) or an Azure resource subscription (e.g. virtual machines, storage accounts)? For Azure resource subscription problems, make sure to open the support ticket under "Subscription problems".
 
-To manage user licenses, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
+2. To manage licenses on groups, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
 
-Here are some helpful tips for diagnosing problems with license assignment:
+3. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-1. If you are using the Azure portal and license assignment is failing, select the notification in the upper-right corner. This opens a blade with details about what went wrong, including the common problem cases listed here.
+## **Common problems and solutions**
 
-2. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** property on the user blade.
+1. If you are using the [Azure classic portal](https://manage.windowsazure.com/) and are having problems (such as not being able to access it due to lack of an Azure resource subscription), please consider using the modern [Azure portal](https://portal.azure.com/): it provides advanced license management capabilities and does not require an Azure resource subscription to access.
 
-3. Make sure there are enough available licenses for the product you are trying to assign. You can see the number of available licenses in the Azure portal, at [Azure Active Directory-&gt;Licenses-&gt;All products](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products).
-
-4. The user may already have another license whose services conflict with the those in the new license you are trying to assign. For example, if the user has the *Exchange Online (Plan 1)* service enabled, you won’t be able to assign a license with the *Exchange Online (Plan 2)*. One of the services must be disabled to allow the new license assignment. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that are causing the conflict.
-
-5. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that have dependencies.
-
-6. If you are trying to assign a license to a group and groups are not listed in the assignment pane, please note that [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently in Public Preview and available only in tenants with licenses for Azure AD Basic or above.
-
+2. If you are looking to create a report of how licenses are assigned to users in your tenant, you will need to use a PowerShell script to download individual user data and process it locally. You can use PowerShell cmdlets from version 1.0 (e.g. [Get-MsolUser](https://docs.microsoft.com/en-us/powershell/module/msonline/get-msoluser?view=azureadps-1.0)) or version 2.0 (e.g. [Get-​Azure​AD​User​License​Detail](https://docs.microsoft.com/en-us/powershell/module/azuread/Get-AzureADUserLicenseDetail?view=azureadps-2.0)).

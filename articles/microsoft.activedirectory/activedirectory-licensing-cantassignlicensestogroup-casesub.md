@@ -1,6 +1,6 @@
 <properties
-    pageTitle="I can't assign licenses to a user or group"
-    description="I can't assign licenses to a user or group"
+    pageTitle="I can't assign licenses to a group"
+    description="I can't assign licenses to a group"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -29,3 +29,5 @@
 3. [In certain situations](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-problem-resolution-azure-portal) licenses cannot be assigned or removed from users. When investigating a problem with a user, make sure to go to the user's **Licenses** tab to view the complete information about their state; in most cases that is enough to understand the problem and solve it.
 
 4. If you want to understand why a license was added/removed from a user or a group (e.g. who else in your organization may have made changes) make sure to view the [audit logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Audit). Setting the filter to license activities will show all modifications including the "actor" that performed them.
+
+5. PowerShell support for group-based licensing is currently limited, but some functionality is exposed via PowerShell v1.0 cmdlets. [See here for examples.](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-ps-examples)
