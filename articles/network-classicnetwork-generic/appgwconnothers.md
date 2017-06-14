@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-[Application Gateway FAQ for unsupported scenarios](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq#general)<br>
+[Application Gateway FAQ for unsupported backend scenarios incl. Azure Web Apps](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq#general)<br>
 [Application Gateway FAQ on NSG, UDR, Customer DNS blocking monitoring or real time traffic](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq#diagnostics-and-logging)
