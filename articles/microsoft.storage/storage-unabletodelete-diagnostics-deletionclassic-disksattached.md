@@ -17,6 +17,6 @@ cloudEnvironments="public"
 
 # **Classic Disk exists**
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. Storage account  has some active disk(s)<!--$disks-->[disks]<!--/$disks-->. Ensure these disk(s) are removed before deleting this storage account.For more information on troubleshooting this issue, see (https://docs.microsoft.com/en-us/azure/storage/storage-cannot-delete-storage-account-container-vhd)
+Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. Storage account  has some active disk(s)<!--$disks-->[disks]<!--/$disks-->. Ensure these disk(s) are removed before deleting this storage account.For more information on troubleshooting this issue, see (https://docs.microsoft.com/azure/storage/storage-cannot-delete-storage-account-container-vhd)
  <br>
 <!--/issueDescription-->
