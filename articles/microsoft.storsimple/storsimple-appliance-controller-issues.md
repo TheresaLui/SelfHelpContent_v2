@@ -1,4 +1,5 @@
 
+
 <properties
 	pageTitle="Appliance and Controller issues"
 	description="Appliance and Controller issues"
@@ -16,6 +17,7 @@
 # Appliance and Controller issues
 
 ## **Recommended documents**
+
 To resolve common isuess, try one or more of the following methods.
 - [Identify the active controller](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-controller-replacement#identify-the-active-controller-on-your-device)<br>
 - [Identify
