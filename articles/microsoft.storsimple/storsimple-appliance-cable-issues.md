@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Appliance and Cable issues"
 	description="Appliance and Cable issues"
@@ -15,6 +16,7 @@
 # Appliance and Cable issues
 
 ## **Recommended documents**
+
 To resolve common isuess, try one or more of the following methods.
 - [Cable
 your StorSimple 8100 device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8100-hardware-installation#cable-your-storsimple-8100-device)<br>
