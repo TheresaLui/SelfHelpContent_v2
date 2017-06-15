@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Appliance and Battery issues"
 	description="Appliance and Battery issues"
@@ -16,5 +15,4 @@
 # Appliance and METIS Battery issues
 
 ## **Recommended documents**
-
 - [Replace the backup battery](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-battery-replacement)<br>
