@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Device registration"
 	description="Device registration"
@@ -15,6 +16,7 @@
 # Device registration
 
 ## **Recommended documents**
+
 - [Errors during device registration](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-troubleshoot-deployment#errors-during-device-registration)<br>
 - [Troubleshoot registration failure](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-troubleshoot-deployment#step-by-step-storsimple-troubleshooting-example)<br>
 - [Reset the device to factory default settings](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-manage-device-controller#reset-the-device-to-factory-default-settings)
