@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Device configuration and settings"
 	description="Device configuration and settings"
@@ -15,4 +16,5 @@
 # Device configuration and settings
 
 ## **Recommended documents**
+
 - [Verify the health of your network interface]( https://docs.microsoft.com/en-us/azure/storsimple/storsimple-troubleshoot-deployment#troubleshoot-with-the-get-netadapter-cmdlet)
