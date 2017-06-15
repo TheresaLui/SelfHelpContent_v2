@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Accidental deletion and data recovery"
 	description="Accidental deletion and data recovery"
@@ -15,6 +16,7 @@
 # Accidental deletion and data recovery
 
 ## **Recommended documents**
+
 - [Fail over your device to recover data after a disaster]( https://docs.microsoft.com/en-us/azure/storsimple/storsimple-device-failover-disaster-recovery)<br>
 - [Clone  a volume to recover a deleted file](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-clone-volume)<br>
 - [
