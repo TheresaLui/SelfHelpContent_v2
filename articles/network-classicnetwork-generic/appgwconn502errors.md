@@ -19,5 +19,5 @@
 ### **502 Errors**
 [Troubleshoot Bad Gateway Errors (502) in Application Gateway](https://azure.microsoft.com/documentation/articles/application-gateway-troubleshooting-502/)<br>
 
-## **Recommmended service**
+## **Recommended service**
 [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)

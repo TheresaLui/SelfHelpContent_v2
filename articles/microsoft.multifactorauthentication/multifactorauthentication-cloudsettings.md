@@ -23,6 +23,6 @@
 
 ## **Recommended documents** 
 
-[Getting started with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud)
-[Multi-Factor Authentication registration policy](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection#multi-factor-authentication-registration-policy)
-[How to get Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-versions-plans#how-to-get-azure-multi-factor-authentication-1) 
+- [Getting started with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud)
+- [Multi-Factor Authentication registration policy](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection#multi-factor-authentication-registration-policy)
+- [How to get Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-versions-plans#how-to-get-azure-multi-factor-authentication-1) 
