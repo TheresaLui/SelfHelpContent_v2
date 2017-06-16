@@ -14,6 +14,6 @@
 
 # Intune Service Administration Provisioning
 
-## **Recommended documents**
+## **Recommended steps**
 
 Please open a service request if you're having issues accessing your account
