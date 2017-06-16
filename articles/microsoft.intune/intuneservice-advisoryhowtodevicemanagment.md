@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Microsoft Intune Documentation](https://docs.microsoft.com/intune/)<br>
+[What is Microsoft Intune device management?](https://docs.microsoft.com/intune/device-management)<br>
 
 
 

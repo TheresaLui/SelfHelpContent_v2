@@ -16,8 +16,8 @@
 
 ## **Recommended documents**
 
-[Add Apps in Microsoft Intune Azure Portal](https://docs.microsoft.com/en-us/intune/apps-add)<br>
+[Add Apps in Microsoft Intune Azure Portal](https://docs.microsoft.com/intune/apps-add)<br>
 [Add Apps in Microsoft Intune Silverlight Portal](https://docs.microsoft.com/intune/deploy-use/add-apps)<br>
-[What is Microsoft Intune app management?](https://docs.microsoft.com/en-us/intune/app-management)<br>
+[What is Microsoft Intune app management?](https://docs.microsoft.com/intune/app-management)<br>
 
 

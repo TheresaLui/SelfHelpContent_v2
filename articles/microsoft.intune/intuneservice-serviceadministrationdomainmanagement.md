@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-[How to add a domain to your Microsoft Intune service](https://support.office.com/en-us/article/Add-a-domain-and-users-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)<br>
+[How to add a domain to your Microsoft Intune service](https://support.office.com/article/Add-a-domain-and-users-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)<br>
 
