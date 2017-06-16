@@ -1,4 +1,4 @@
-)<properties
+<properties
 	pageTitle="configurationandsetup/configure SSL offload"
 	description="configurationandsetup/configure SSL offload"
 	service="microsoft.network"
