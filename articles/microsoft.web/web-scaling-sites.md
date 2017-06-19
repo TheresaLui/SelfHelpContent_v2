@@ -15,5 +15,7 @@
 # configuration and management/scaling
 
 ## **Recommended documents**
-[Scaling a Web App](https://azure.microsoft.com/documentation/articles/web-sites-scale/)<br>
-[How to configure auto-scale](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale/)
+1. [Scaling a Web App](https://azure.microsoft.com/documentation/articles/web-sites-scale/)<br>
+2. [How to configure auto-scale](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale/)
+3. [How to disable Session affinity cookie for Azure Web Apps](https://blogs.msdn.microsoft.com/appserviceteam/2016/05/16/disable-session-affinity-cookie-arr-cookie-for-azure-web-apps/)
+

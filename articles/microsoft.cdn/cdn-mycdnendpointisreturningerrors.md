@@ -7,8 +7,8 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
+    resourceTags="cdnakamai, cdnverizon"
+	productPesIds="15528"
 	cloudEnvironments="public"
 />
 
