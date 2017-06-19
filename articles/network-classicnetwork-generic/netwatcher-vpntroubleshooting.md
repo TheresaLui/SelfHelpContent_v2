@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# topologyview
+# vpntroubleshooting
 
 ## **Recommended documents**
-[Topology in Azure network watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-topology-overview)
+[Troubleshooting in Azure network watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-troubleshoot-overview)
