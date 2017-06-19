@@ -1,5 +1,5 @@
 
-<properties pageTitle<properties
+<properties 
 	pageTitle="Appliance and Hard Drive issues"
 	description="Appliance and Hard Drive issues"
 	service="microsoft.storsimple"
