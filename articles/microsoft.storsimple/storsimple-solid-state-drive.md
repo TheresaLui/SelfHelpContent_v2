@@ -17,6 +17,6 @@
 
 ## **Recommended documents**
 
-- [Identify a failed disk using monitoring indicator LEDs]( https://docs.microsoft.com/en-us/azure/storsimple/storsimple-monitoring-indicators#disk-drive-indicator-leds-for-the-primary-enclosure-and-ebod-enclosure)<br>
-- [Impending drive failure alert](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-manage-alerts#hardware-alerts)
-- [Replace a failed disk](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-disk-drive-replacement)
+- [Identify a failed disk using monitoring indicator LEDs]( https://docs.microsoft.com/azure/storsimple/storsimple-monitoring-indicators#disk-drive-indicator-leds-for-the-primary-enclosure-and-ebod-enclosure)<br>
+- [Impending drive failure alert](https://docs.microsoft.com/azure/storsimple/storsimple-manage-alerts#hardware-alerts)
+- [Replace a failed disk](https://docs.microsoft.com/azure/storsimple/storsimple-disk-drive-replacement)
