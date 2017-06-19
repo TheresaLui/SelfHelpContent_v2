@@ -10,8 +10,8 @@
 />
 
 # Creating or deleting resource
-* Has the creation/deletion worked before? 
-* What is the error message? Does the error message help resolve the issue?
-* Did you try creation/deletion after clearing browser cache? 
+* Have you ever been able to create or delete this type of resource before? 
+* What error message are you seeing, if any? 
 * Did you try a different browser (Edge / IE / Chrome)? 
-* Did you try InPrivate or InCognito mode?
+* Did you try using the InPrivate or Incognito mode of your browser?
+* Did you try clearing browser cache? 
