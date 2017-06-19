@@ -17,8 +17,8 @@
 
 ## **Recommended documents**
 
-- [Fail over your device to recover data after a disaster]( https://docs.microsoft.com/en-us/azure/storsimple/storsimple-device-failover-disaster-recovery)<br>
-- [Clone  a volume to recover a deleted file](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-clone-volume)<br>
+- [Fail over your device to recover data after a disaster]( https://docs.microsoft.com/azure/storsimple/storsimple-device-failover-disaster-recovery)<br>
+- [Clone  a volume to recover a deleted file](https://docs.microsoft.com/azure/storsimple/storsimple-clone-volume)<br>
 - [
-Restore a StorSimple volume from a backup set to recover deleted data](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-restore-from-backup-set-u2)
+Restore a StorSimple volume from a backup set to recover deleted data](https://docs.microsoft.com/azure/storsimple/storsimple-restore-from-backup-set-u2)
 
