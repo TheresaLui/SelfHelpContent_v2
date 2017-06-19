@@ -17,4 +17,4 @@
 
 ## **Recommended documents**
 
-- [Verify the health of your network interface]( https://docs.microsoft.com/en-us/azure/storsimple/storsimple-troubleshoot-deployment#troubleshoot-with-the-get-netadapter-cmdlet)
+- [Verify the health of your network interface]( https://docs.microsoft.com/azure/storsimple/storsimple-troubleshoot-deployment#troubleshoot-with-the-get-netadapter-cmdlet)
