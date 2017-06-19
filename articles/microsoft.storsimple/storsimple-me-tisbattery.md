@@ -15,4 +15,4 @@
 # Appliance and METIS Battery issues
 
 ## **Recommended documents**
-- [Replace the backup battery](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-battery-replacement)<br>
+- [Replace the backup battery](https://docs.microsoft.com/azure/storsimple/storsimple-battery-replacement)<br>
