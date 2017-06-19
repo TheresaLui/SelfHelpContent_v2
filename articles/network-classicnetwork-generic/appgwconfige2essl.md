@@ -15,7 +15,7 @@
 # configurationandsetup/configendtoendssl
 
 ## **Recommended documents**
-### **Configure end-to-end SSL**<br>
+
 [Overview of end to end SSL and SSL policy on application gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-ssl)<br>
 [Configure SSL policy and end to end SSL with application gateway using PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-end-to-end-ssl-powershell)<br>
 
