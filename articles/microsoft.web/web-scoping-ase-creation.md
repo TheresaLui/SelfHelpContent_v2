@@ -4,7 +4,7 @@
 	service="microsoft.web"
 	authors="shrahman"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32581609"
+	supportTopicIds="32581608"
 	productPesIds="14748"
 	cloudEnvironments="public"
 />
