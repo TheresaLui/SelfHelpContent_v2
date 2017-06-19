@@ -16,5 +16,4 @@
 
 ## **Recommended documents**
 
-### **disable rules/false positives**
 [Customize web application firewall rules through the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-portal)

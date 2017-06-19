@@ -15,8 +15,6 @@
 # connectivity/502errors
 
 ## **Recommended documents**
-
-### **502 Errors**
 [Troubleshoot Bad Gateway Errors (502) in Application Gateway](https://azure.microsoft.com/documentation/articles/application-gateway-troubleshooting-502/)<br>
 
 ## **Recommended service**

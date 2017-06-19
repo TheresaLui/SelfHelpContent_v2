@@ -16,5 +16,4 @@
 
 ## **Recommended documents**
 
-### **Cookie-based session affinity**
 [Create, start or delete application gateway by using Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-gateway-arm)
