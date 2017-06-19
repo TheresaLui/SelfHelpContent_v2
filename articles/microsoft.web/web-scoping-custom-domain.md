@@ -11,5 +11,6 @@
 
 # Configuring custom domain names
 * What is the custom domain that you are trying to add to your App Service?
+* Is this custom domain configured on your App Service? This would be under the Custom Domains blade for your App Service.
 * What is the name of the App Service you are adding the domain to?
 * Are there any errors when adding the custom domain? If yes, please include the error text. 
