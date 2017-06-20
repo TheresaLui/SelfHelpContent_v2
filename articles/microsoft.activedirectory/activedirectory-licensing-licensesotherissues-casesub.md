@@ -14,14 +14,14 @@
 
 # Other issues with licenses
 
-## **Things to check first**
+**Things to check first**
 1. Is your problem related to per-user subscriptions (e.g. Office 365, Enterprise Mobility + Security, Dynamics 365, etc.) or an Azure resource subscription (e.g. virtual machines, storage accounts)? For Azure resource subscription problems, make sure to open the support ticket under "Subscription problems".
 
 2. To manage licenses on groups, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
 
 3. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-## **Common problems and solutions**
+**Common problems and solutions**
 
 1. If you are using the [Azure classic portal](https://manage.windowsazure.com/) and are having problems (such as not being able to access it due to lack of an Azure resource subscription), please consider using the modern [Azure portal](https://portal.azure.com/): it provides advanced license management capabilities and does not require an Azure resource subscription to access.
 
