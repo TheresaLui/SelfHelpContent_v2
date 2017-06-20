@@ -12,6 +12,8 @@
 	cloudEnvironments="public"
 />
 
+# Connect Health for AD FS
+
 ## Troubleshooting registration failures
 1.	Ensure you are authorized to perform the operation. Global Admins have access by default. Additionally, you can use [Role Based Access Control](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-operations#manage-access-with-role-based-access-control) to delegate registration permission to Contributer.
 2.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/prereqs) section for details. 
