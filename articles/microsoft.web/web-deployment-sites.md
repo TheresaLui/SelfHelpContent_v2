@@ -20,4 +20,5 @@
 [Migrate IIS WebSites to WebApp](https://azure.microsoft.com/documentation/articles/web-sites-migration-from-iis-server/)<br>
 [Deploy with Kudu](https://channel9.msdn.com/Shows/Azure-Friday/What-is-Kudu-Azure-Web-Sites-Deployment-with-David-Ebbo)<br>
 [How to Enable and Disable Continuous Deployment to Azure App Service](https://azure.microsoft.com/documentation/articles/app-service-continous-deployment/)<br>
-[Troubleshooting Continuous Deployment](https://github.com/projectkudu/kudu/wiki/Investigating-continuous-deployment)
+[Troubleshooting Continuous Deployment](https://github.com/projectkudu/kudu/wiki/Investigating-continuous-deployment)<br>
+[How to provision and deploy an application composed of microservices in Azure App Service](https://azure.microsoft.com/documentation/articles/app-service-deploy-complex-application-predictably/)
