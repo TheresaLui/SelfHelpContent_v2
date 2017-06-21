@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Mobile Application Management - Client/Application policy enforcement
+# Mobile Application Management - Client Application policy enforcement
 
 ## **Recommended documents**
 

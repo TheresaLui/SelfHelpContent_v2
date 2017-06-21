@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Mobile Application Management - Application deployment"
-	description="Mobile Application Management - Application deployment"
+	pageTitle="Mobile Application Management Application deployment"
+	description="Mobile Application Management Application deployment"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Mobile Application Management - Application deployment
+# Mobile Application Management Application deployment
 
 ## **Recommended documents**
 

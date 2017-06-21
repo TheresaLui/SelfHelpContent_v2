@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Android Software Development Kit (SDK)
+# Android Software Development Kit 
 
 ## **Recommended documents**
 
