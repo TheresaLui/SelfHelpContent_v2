@@ -17,9 +17,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-## **Role Recycle incident diagnostic information for [RoleName]<!--($RoleName)-->RoleName<!--(/$RoleName)-->:** ##
+## **Role Recycle incident diagnostic information for <!--($RoleName)-->RoleName<!--(/$RoleName)-->:** ##
 
-Your role **[RoleName]<!--($RoleName)-->RoleName<!--(/$RoleName)-->** availability has been affected from **[StartTime]<!--($StartTime)-->StartTime<!--(/$StartTime)--> (UTC)**  to **[EndTime]<!--($EndTime)-->EndTime<!--(/$EndTime)--> (UTC)**.  The instance **[ListRoleInstanceName]<!--($ListRoleInstanceName)-->ListRoleInstanceName<!--(/$ListRoleInstanceName)-->**  were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
+Your role **<!--($RoleName)-->RoleName<!--(/$RoleName)-->** availability has been affected from **<!--($StartTime)-->StartTime<!--(/$StartTime)--> (UTC)**  to **<!--($EndTime)-->EndTime<!--(/$EndTime)--> (UTC)**.  The instance **<!--($ListRoleInstanceName)-->ListRoleInstanceName<!--(/$ListRoleInstanceName)-->**  were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
 
 <!--/issueDescription-->
 
