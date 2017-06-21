@@ -1,0 +1,44 @@
+{
+	"properties": {
+		"supportTopicIds":"32411877",
+		"productPesIds":"14749"
+	},
+	"scopingForm": [
+	{
+                "id": "adfs_configuration",
+                "order": 1,
+                "controlType": "dropdown",
+                "displayName": "AD FS Configuration",
+                "placeholderText": "enter configuration",
+                "dropdownOptions": [
+                    { "value": "value1", "text": "Test value 1" },
+                    { "value": "value2", "text": "Test value 2" }
+                ],
+                "infoBalloonText": "test",
+                "required": false
+            },
+            {
+                "id": "user_name",
+                "order": 2,
+                "controlType": "textbox",
+                "displayName": "User name experiencing this problem",
+                "placeholderText": "enter user name",
+                "infoBalloonText": "test",
+                "required": true
+            },
+            {
+                "id": "start_date",
+                "order": 3,
+                "controlType": "datetimepicker",
+                "displayName": "When did the problem start?",
+                "required": false
+            },
+            {
+                "id": "additional_details",
+                "order": 4,
+                "controlType": "multilinetextbox",
+                "displayName": "Additional details",
+                "required": false
+            }
+	]
+}
