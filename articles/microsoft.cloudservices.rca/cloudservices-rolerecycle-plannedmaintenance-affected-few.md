@@ -19,7 +19,7 @@
 <!--issueDescription-->
 ## **Role Recycle incident diagnostic information for [RoleName]<!--($RoleName)-->:** ##
 
-Your role **[RoleName]<!--($RoleName)--> availability has been partial affected from **[StartTime]<!--($StartTime)--> (UTC)**  to **[EndTime]<!--($EndTime)--> (UTC)**.  The instance **[ListRoleInstanceName]<!--($ListRoleInstanceName)-->  were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
+Your role **[RoleName]<!--($RoleName)-->RoleName<!--/$rolename-->** availability has been partial affected from **[StartTime]<!--($StartTime)-->StartTime<!--(/$StartTime)--> (UTC)**  to **[EndTime]<!--($EndTime)-->EndTime<!--(/$EndTime)--> (UTC)**.  The instance **[ListRoleInstanceName]<!--($ListRoleInstanceName)-->ListRoleInstanceName<!--(/$ListRoleInstanceName)-->**  were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
 
 <!--/issueDescription-->
 
