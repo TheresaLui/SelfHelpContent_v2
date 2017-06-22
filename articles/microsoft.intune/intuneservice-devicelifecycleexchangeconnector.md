@@ -16,7 +16,10 @@
 
 ## **Recommended documents**
 
+[Set up the Intune on-premises Exchange Connector in Microsoft Intune on Azure](https://docs.microsoft.com/intune/exchange-connector-install)<br>
+[Install the Intune On-premises Exchange Connector](https://docs.microsoft.com/intune-classic/deploy-use/intune-on-premises-exchange-connector)<br>
 [How to Manage Mobile Devices by Using Configuration Manager and Exchange](https://technet.microsoft.com/library/gg682001.aspx)<br>
+
 
 
 
