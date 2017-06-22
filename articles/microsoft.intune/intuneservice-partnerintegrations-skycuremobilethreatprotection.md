@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Skycure Mobile Threat Defense connector](https://docs.microsoft.com/en-us/intune/skycure-mobile-threat-defense-connector)<br>
+[Skycure Mobile Threat Defense connector](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)<br>
 [Mobile Threat Defense integration with Intune](https://docs.microsoft.com/intune/mobile-threat-defense)<br>
 
 
