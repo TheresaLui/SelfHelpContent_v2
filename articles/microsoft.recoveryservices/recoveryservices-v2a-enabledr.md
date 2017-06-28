@@ -14,9 +14,10 @@
 
 # Site Recovery (VMware to Azure)/Enable Protection
 
-![foo](../media/EnableReplication.jpg)
+![enableRep](../media/EnableReplication.jpg)
+![seventy](../media/70percent.jpg)
 
-Customers followed these **[Step-by-Step Troubleshooting instructions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot)** to resolve Enable Replication issues by
+Customers followed these **[Step-by-Step Troubleshooting instructions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot)** to resolve their common replication issues by
 * Fixing connectivity issue between Source Server and Configuration/Process server
 * Ensuring Services are up and running  in Source/Process Server
 * Ensuring Process Server is able to connect to Azure Public IP address using port 443
