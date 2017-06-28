@@ -1,4 +1,4 @@
-<properties
+.<properties
 	pageTitle="Site Recovery (VMware to Azure)/Replication does not progress"
 	description="Site Recovery (VMware to Azure)/Common issues during replication"
 	service="microsoft.recoveryservices"
@@ -37,7 +37,7 @@ If you see the replication pairs are progressing slowly then please make sure yo
 **Data upload Blocked**
 
 * Ensure that the network connectivity exists between the source machine and the process server
-- In case of VPN connection please ensure the connectivity
+- In case of VPN connection please ensure the connectivity.
 - Check to see if the mobility service (InMage Scout VX Agent - Sentinel/Outpost, InMage Scout Application Service) is running on the source server
 
 ## **Recommended  Documents**
