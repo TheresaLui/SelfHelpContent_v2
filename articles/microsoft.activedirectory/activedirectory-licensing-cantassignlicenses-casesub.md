@@ -19,7 +19,7 @@
 
 2. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-**Common problems and solutions**
+## **Recommended steps**
 
 1. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** tab on the user blade.
 
@@ -29,7 +29,7 @@
 
 4. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the error message will list the specific services that have dependencies.
 
-5. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/en-us/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem.
+5. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem.
 
   To identify which users in your tenant contain the same proxy address, execute this Azure AD PowerShell cmdlet:
 ```
