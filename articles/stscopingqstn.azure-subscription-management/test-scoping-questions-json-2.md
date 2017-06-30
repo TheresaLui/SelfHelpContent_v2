@@ -7,11 +7,11 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	resourceRequired="true"
 />
 # VM Performance
 ---
 {
+	"resourceRequired": true,
 	"title": "Problem with VM performance",
 	"fileAttachmentHint": "",
 	"scopingForm": [{
@@ -76,14 +76,6 @@
 				}
 			],
 			"required": false
-		}, {
-			"id": "user_name_test",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "User name experiencing this problem",
-			"watermarkText": "enter user name",
-			"infoBalloonText": "test",
-			"required": true
 		}, {
 			"id": "additional_details",
 			"order": 5,
