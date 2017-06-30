@@ -28,6 +28,9 @@
 					"value": "Another virtual machine in the subscription is faster",
 					"text": "Another virtual machine in the subscription is faster"
 				}, {
+					"value": "Benchmarking tests not meeting minimum Azure specifications",
+					"text": "Benchmarking tests not meeting minimum Azure specifications"
+				}, {
 					"value": "It's faster in a non-Azure environment",
 					"text": "It's faster in a non-Azure environment"
 				}
@@ -56,6 +59,21 @@
 				}, {
 					"value": "Oracle",
 					"text": "Oracle"
+				}, {
+					"value": "Remote Desktop Services",
+					"text": "Remote Desktop Services"
+				}, {
+					"value": "SAP Hanna",
+					"text": "SAP Hanna"
+				}, {
+					"value": "SharePoint",
+					"text": "SharePoint"
+				}, {
+					"value": "SQL",
+					"text": "SQL"
+				}, {
+					"value": "Other (describe below)",
+					"text": "Other"
 				}
 			],
 			"required": false
@@ -73,12 +91,18 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": false,
-			"useAsAdditionalDetails": true
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				}, {
+					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+				}
+			]
 		}, {
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "<a href='https://www.microsoft.com/'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}
 	]
 }
