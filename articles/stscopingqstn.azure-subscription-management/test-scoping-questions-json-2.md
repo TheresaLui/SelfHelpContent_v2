@@ -10,7 +10,6 @@
 	resourceRequired="true"
 />
 # VM Performance
-
 ---
 {
 	"title": "Problem with VM performance",
