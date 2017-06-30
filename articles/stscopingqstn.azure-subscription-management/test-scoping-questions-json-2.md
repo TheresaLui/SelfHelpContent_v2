@@ -14,7 +14,7 @@
 ---
 {
 	"title": "Problem with VM performance",
-	"fileAttachmentHint": "Upload your event log for your AD FS",
+	"fileAttachmentHint": "",
 	"scopingForm": [{
 			"id": "slow_vm_determination",
 			"order": 1,
