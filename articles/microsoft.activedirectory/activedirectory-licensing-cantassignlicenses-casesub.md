@@ -19,7 +19,7 @@
 
 2. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-**Common problems and solutions**
+## **Recommended steps**
 
 1. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** tab on the user blade.
 

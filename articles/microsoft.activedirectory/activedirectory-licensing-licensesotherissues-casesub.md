@@ -21,7 +21,7 @@
 
 3. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 
-**Common problems and solutions**
+## **Recommended steps**
 
 1. If you are using the [Azure classic portal](https://manage.windowsazure.com/) and are having problems (such as not being able to access it due to lack of an Azure resource subscription), please consider using the modern [Azure portal](https://portal.azure.com/): it provides advanced license management capabilities and does not require an Azure resource subscription to access.
 

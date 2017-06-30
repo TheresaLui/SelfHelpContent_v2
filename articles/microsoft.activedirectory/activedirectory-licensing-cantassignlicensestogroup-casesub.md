@@ -21,7 +21,7 @@
 
 3. Assigning licenses to groups is currently in [preview](https://blogs.technet.microsoft.com/enterprisemobility/2017/02/22/announcing-the-public-preview-of-azure-ad-group-based-license-management-for-office-365-and-more/); learn more about the limitations and known issues [here](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-advanced#limitations-and-known-issues). During preview, you will need an active subscription for Azure AD Basic (or above) - check if you have one by going to [Licenses/All products](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products) in the Azure portal.
 
-**Common problems and solutions**
+## **Recommended steps**
 1. If you cannot assign a license to a group, check if the group is a "security group". Office 365 groups and distribution groups are currently not supported.
 
 2. When a license is assigned or modified on a group it may take a while for the changes to be reflected on the users. To [confirm the status of license processing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal#step-2-verify-that-the-initial-assignment-has-completed) vie the **Licenses** tab of the group.

@@ -24,7 +24,7 @@
 
 3. PowerShell support for [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently limited, but some functionality is exposed via PowerShell v1.0 cmdlets. [See here for examples.](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-ps-examples)
 
-**Common problems and solutions**
+## **Recommended steps**
 
 1. In some cases license operations may fail because of existing licenses assigned to the user. When investigating a problem with a user, open the user's blade in the Azure portal and select the **Licenses** tab; it contains complete information about the user's state, showing all currently assigned licenses, including the ones inherited from groups.
 
