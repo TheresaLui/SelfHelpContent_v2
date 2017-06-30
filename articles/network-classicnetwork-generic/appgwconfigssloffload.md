@@ -1,4 +1,4 @@
-)<properties
+<properties
 	pageTitle="configurationandsetup/configure SSL offload"
 	description="configurationandsetup/configure SSL offload"
 	service="microsoft.network"
@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-### **Configure SSL offload**<br>
 [Configure an application gateway for SSL offload using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal)<br>
 [Configure an application gateway for SSL offload using Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm)
