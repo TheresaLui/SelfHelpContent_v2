@@ -14,7 +14,7 @@
 	"resourceRequired": true,
 	"title": "Problem with VM performance",
 	"fileAttachmentHint": "",
-	"scopingForm": [{
+	"formElements": [{
 			"id": "slow_vm_determination",
 			"order": 1,
 			"controlType": "dropdown",
