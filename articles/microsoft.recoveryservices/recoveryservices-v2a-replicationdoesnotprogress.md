@@ -12,6 +12,8 @@
 	cloudEnvironments="public"
 />
 
+# Site Recovery (VMware to Azure)/Replication does not progress
+
 ![replStuck](./ReplicationStuck.jpg)
 ![seventy](./70percent.jpg)
 
