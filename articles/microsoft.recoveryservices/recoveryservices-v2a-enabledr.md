@@ -14,8 +14,8 @@
 
 # Site Recovery (VMware to Azure)/Enable Protection
 
-![enableRep](../media/EnableReplication.jpg)
-![seventy](../media/70percent.jpg)
+![enableRep](./EnableReplication.jpg)
+![seventy](./70percent.jpg)
 
 Customers followed these **[Step-by-Step Troubleshooting instructions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot)** to resolve their common replication issues by
 * Fixing connectivity issue between Source Server and Configuration/Process server
@@ -24,4 +24,4 @@ Customers followed these **[Step-by-Step Troubleshooting instructions](https://d
 * Ensuring IP based firewall on Process Server was not blocking access
 * Ensuring URL based firewall on Process Server was not blocking access
 * Ensuring Proxy Setting on Process Server was not blocking access
-* Ensuring Throttle Bandwidth settings on Process Server was not constraining replication 
+* Ensuring Throttle Bandwidth settings on Process Server was not constraining replication
