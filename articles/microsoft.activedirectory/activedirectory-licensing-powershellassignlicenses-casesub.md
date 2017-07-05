@@ -1,6 +1,6 @@
-<properties 
-    pageTitle="I can't assign licenses to a user or group"
-    description="I can't assign licenses to a user or group"
+<properties
+    pageTitle="Issues managing licenses using PowerShell"
+    description="Issues managing licenses using PowerShell"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -12,23 +12,29 @@
     cloudEnvironments="public"
  />
 
-# I can't assign licenses to a user or group
+# Issues managing licenses using PowerShell
+
+**Things to check first**
+1. Is your problem related to per-user subscriptions (e.g. Office 365, Enterprise Mobility + Security, Dynamics 365, etc.) or an Azure resource subscription (e.g. virtual machines, storage accounts)? For Azure resource subscription problems, make sure to open the support ticket under "Subscription problems".
+
+2. There are two versions of PowerShell cmdlets for Azure AD that can be used for license management:
+  * V2.0 contains cmdlets such as [Set-​Azure​AD​User​License](https://docs.microsoft.com/powershell/module/azuread/set-azureaduserlicense) and [Get-​Azure​AD​User​License​Detail](https://docs.microsoft.com/powershell/module/azuread/get-azureaduserlicensedetail).
+  * V1.0 contains cmdlets such as [Set-​Msol​User​License](https://docs.microsoft.com/powershell/module/msonline/Set-MsolUserLicense) and [Get-​Msol​User](https://docs.microsoft.com/powershell/module/msonline/Get-MsolUser).
+  * Useful examples of Office 365 license management with PowerShell v1.0 can be found [here](https://technet.microsoft.com/library/dn771770.aspx).
+
+3. PowerShell support for [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently limited, but some functionality is exposed via PowerShell v1.0 cmdlets. [See here for examples.](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-ps-examples)
 
 ## **Recommended steps**
 
-To manage user licenses, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Administrator. You can check the user’s role in the **Directory role** tab on the user blade.
+1. In some cases license operations may fail because of existing licenses assigned to the user. When investigating a problem with a user, open the user's blade in the Azure portal and select the **Licenses** tab; it contains complete information about the user's state, showing all currently assigned licenses, including the ones inherited from groups.
 
-Here are some helpful tips for diagnosing problems with license assignment:
+2. If you are using [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) in your tenant, note that it is [not possible to remove or modify inherited licenses](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses) directly from a user. If you are getting an error when removing a license or disabling service plans on a license, view the user's **Licenses** tab to check if there is no inherited license on the user.
 
-1. If you are using the Azure portal and license assignment is failing, select the notification in the upper-right corner. This opens a blade with details about what went wrong, including the common problem cases listed here.
+3. If you want to understand why a license was added/removed from a user or a group (e.g. who else in your organization may have made changes) make sure to view the [audit logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Audit). Setting the filter to license activities will show all modifications including the "actor" that performed them.
 
-2. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** property on the user blade.
+4. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem.
 
-3. Make sure there are enough available licenses for the product you are trying to assign. You can see the number of available licenses in the Azure portal, at [Azure Active Directory-&gt;Licenses-&gt;All products](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products).
-
-4. The user may already have another license whose services conflict with the those in the new license you are trying to assign. For example, if the user has the *Exchange Online (Plan 1)* service enabled, you won’t be able to assign a license with the *Exchange Online (Plan 2)*. One of the services must be disabled to allow the new license assignment. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that are causing the conflict.
-
-5. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the problem details page lists the specific services that have dependencies.
-
-6. If you are trying to assign a license to a group and groups are not listed in the assignment pane, please note that [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) is currently in Public Preview and available only in tenants with licenses for Azure AD Basic or above.
-
+  To identify which users in your tenant contain the same proxy address, execute this Azure AD PowerShell cmdlet:
+```
+Get-AzureAdUser -All | Where {$_.ProxyAddresses -match <proxy address>} | Format-List ObjectId,UserPrincipalName,ProxyAddresses
+```
