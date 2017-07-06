@@ -14,7 +14,6 @@
 
 # Spark application failed with OutOfMemoryError
 
-## **Probable Cause**
 The most likely cause of this exception is not enough heap memory allocated to the Java Virtual Machine (JVM) that are launched as executors or driver as part of the Spark application.
 
 ## **Recommended Steps**
