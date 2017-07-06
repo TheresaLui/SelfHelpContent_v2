@@ -6,7 +6,7 @@
     authors="matt1883"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32511211"
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
