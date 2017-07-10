@@ -23,4 +23,4 @@
  4. **YARN ResourceManager UI**: Add /yarnui/hn/logs/ to the end of the cluster URL to view the YARN logs 
  
 ## **Recommended documents**
-[Access YARN application logs on Linux-based HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux)<br>
+[Access YARN application logs on Linux-based HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux)<br>
