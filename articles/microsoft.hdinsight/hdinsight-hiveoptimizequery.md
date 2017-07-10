@@ -24,4 +24,4 @@ The following Hive performance optimization methods can be applied to your cluse
  5. Enable vectorization to process multiple rows together.
 
 ## **Recommended documents**
-[Optimizing Hive Performance](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)<br>
+[Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)<br>
