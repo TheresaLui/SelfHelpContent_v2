@@ -6,9 +6,9 @@
     authors="bharathsreenivas"
     displayOrder="13"
     selfHelpType="resource"
-    supportTopicIds="32511183,32511184"
+    supportTopicIds="32511184"
     resourceTags=""
-    productPesIds=""
+    productPesIds="15078"
     cloudEnvironments="public"
 />
 
