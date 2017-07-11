@@ -6,9 +6,9 @@
     authors="matt1883"
     displayOrder="3"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32511188"
     resourceTags=""
-    productPesIds=""
+    productPesIds="15078"
     cloudEnvironments="public"
 />
 
