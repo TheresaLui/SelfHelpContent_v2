@@ -10,7 +10,7 @@
     cloudEnvironments="public"
     />
 
-# I can’t assign access to resources in my directory
+# Unable to assign access to resources in my directory
 
 ## **Recommended steps**
 1.	Sign in to [the Azure portal](https://portal.azure.com) with an account that is the subscription owner. 

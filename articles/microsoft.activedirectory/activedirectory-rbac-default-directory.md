@@ -10,11 +10,10 @@
     cloudEnvironments="public"
     />
 
-# How to change the default directory of a subscription
+# Unable to change the default directory of a subscription
 
 ## **Recommended steps**
 
-### To change the default directory of a subscription
 1.	Sign in to the [Azure subscription portal](https://account.azure.com/Subscriptions) with an account that is the Account Administrator for the subscription.
 2.	Open the subscription that you want to transfer.
 3.	Click **Transfer subscription**.

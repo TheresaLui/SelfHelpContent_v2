@@ -10,7 +10,7 @@
     cloudEnvironments="public"
     />
 
-# I can't transfer ownership of a subscription
+# Unable to transfer ownership of a subscription
 
 ## **Recommended steps**
 
