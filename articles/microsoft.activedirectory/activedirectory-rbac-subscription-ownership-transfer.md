@@ -3,14 +3,14 @@
     description="I can’t add or manage resources in my directory"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta-MSFT"
+    authors="Jeffsta-MSFT"
     displayOrder="1520"
     selfHelpType="resource"
     resourceTags="directory_overview"
     cloudEnvironments="public"
     />
 
-# How to transfer ownership of a subscription
+# I can't transfer ownership of a subscription
 
 ## **Recommended steps**
 
