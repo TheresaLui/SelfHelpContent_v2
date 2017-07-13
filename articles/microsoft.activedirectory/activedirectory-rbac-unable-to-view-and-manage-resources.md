@@ -4,9 +4,9 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
-    displayOrder="1520"
+    displayOrder="2523"
     selfHelpType="resource"
-    resourceTags="directory_overview "
+    resourceTags="directory_overview"
     cloudEnvironments="public"
     />
 

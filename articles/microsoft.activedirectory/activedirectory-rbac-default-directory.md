@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="zhchia-MSFT"
-    displayOrder="1520"
+    displayOrder="2520"
     selfHelpType="resource"
     resourceTags="directory_overview"
     cloudEnvironments="public"
