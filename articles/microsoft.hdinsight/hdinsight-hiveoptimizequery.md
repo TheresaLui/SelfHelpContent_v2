@@ -18,7 +18,7 @@
 The following Hive performance optimization methods can be applied to your cluser:
  
  1. Scale out your worker nodes to leverage more mappers and reducers to be run in parallel.
- 2. Enable Tex as the execution engine instead of MapReduce.
+ 2. Enable Tez as the execution engine instead of MapReduce.
  3. Review your partitioning scheme to consider cases where there are too few or too many partitions. Choose the scheme such that the partitions are evenly sized.
  4. Use the ORCFile format which is optimized for faster access to data.
  5. Enable vectorization to process multiple rows together.
