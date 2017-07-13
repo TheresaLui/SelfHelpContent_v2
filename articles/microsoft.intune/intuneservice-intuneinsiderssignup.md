@@ -18,4 +18,4 @@
 
 **Important Note:**  If you want to enable Apple DEP/VPP and Device Enrollment Manager(DEM) UI in Azure please open a case using "Flighting Request" under Category.<br>
 <br>
-The Intune Insider program is currently private.  We are not accepting applications to join the program at this time.  Do not submit a case unless you were instructed by your Microsoft Representative.<br>
+The Intune Insider program is currently private.  We are not accepting applications to join the program at this time.  Do not submit a case unless you were instructed to by your Microsoft Representative.<br>
