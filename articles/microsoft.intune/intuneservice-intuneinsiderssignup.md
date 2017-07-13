@@ -16,9 +16,7 @@
 
 ## **Recommended steps**
 
-The Intune Insider program is private.<br>
+Important Note:  If you want to enable Apple DEP/VPP and Device ENrollment Manager UI in Azure please open a case using the "Flighting Request" problem type.<br>
+<br>
+The Intune Insider program is currently private.  Do not submit a case unless you were instructed by your Microsoft Representative<br>
 We are not accepting applications to join the program at this time.<br>
-
-
-
-
