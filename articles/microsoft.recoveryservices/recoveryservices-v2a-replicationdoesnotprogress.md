@@ -12,16 +12,15 @@
 	cloudEnvironments="public"
 />
 
-# Site Recovery (VMware to Azure)/Replication does not progress
+# Replication Stuck? Replication not Progressing?
 
-![replStuck](./ReplicationStuck.jpg)
-![seventy](./70percent.jpg)
+**Most of our customers SELF-RESOLVED this issue by following this** **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
 
-Customers followed these **[Step-by-Step Troubleshooting instructions](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/)** to resolve Enable Replication issues by
-* Fixing connectivity issue between Source Server and Configuration/Process server
-* Ensuring Services are up and running  in Source/Process Server
-* Ensuring Process Server is able to connect to Azure Public IP address using port 443
-* Ensuring IP based firewall on Process Server was not blocking access
-* Ensuring URL based firewall on Process Server was not blocking access
-* Ensuring Proxy Setting on Process Server was not blocking access
-* Ensuring Throttle Bandwidth settings on Process Server was not constraining replication
+The troubleshooting guide will help you identify issues related to:
+* Connectivity issue between Source Server and Configuration/Process server
+* Services status issues in Source/Process Server
+* Process Server connectivity issues to Azure Public IP address using port 443
+* IP based firewall on Process Server blocking access
+* URL based firewall on Process Server blocking access
+* Proxy Setting on Process Server blocking access
+* Throttle Bandwidth settings on Process Server constraining replication
