@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-**Access to the Intune Insider program is invite only at this time.  We are currently not accepting applications to join the program**<br>
+Access to the Intune Insider program is invite only at this time.  We are currently not accepting applications to join the program<br>
 
 
 
