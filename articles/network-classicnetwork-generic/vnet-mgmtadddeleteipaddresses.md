@@ -15,7 +15,9 @@
 # management/addordeleteipaddressestoavnet
 
 ## **Recommended steps**
-You may not be able to add or delete IP addresses to a Vnet if it has peerings with other Vnet. See [additional details.](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-network#add-address-spaces)<br>
+You may not be able to add or delete IP addresses to a VNet if it has peerings with other VNet. Learn how to add or delete [here](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-network#add-address-spaces)<br>
+
+Unable to delete a VNet? Your VNet may be locked by your organization. [You can create or delete the lock.](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#who-can-create-or-delete-locks-in-your-organization)<br>
 
 ## **Recommended documents**
 [Create, change or delete a virtual network subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet)
