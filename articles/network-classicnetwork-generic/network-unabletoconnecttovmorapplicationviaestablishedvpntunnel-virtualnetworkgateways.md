@@ -26,5 +26,5 @@ Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gatew
 See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device<br>
 Diagnose [on-premises connectivity via VPN gateway with Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
 Check traffic with [IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)<br>
-Gain insights into your Azure Network with [Azure Network Watcher](https://azure.microsoft.com/en-us/services/network-watcher/)
+Gain insights into your Azure Network with [Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
 
