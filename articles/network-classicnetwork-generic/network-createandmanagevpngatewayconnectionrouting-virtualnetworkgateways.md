@@ -22,7 +22,7 @@ Configure a [VNet-to-VNet VPN gateway connection](https://docs.microsoft.com/azu
 Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-namedevicetableavalidated-vpn-devices-and-device-configuration-guides) to ensure your devices are configured and compatible<br>
 See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device <br>
 
-# BGP Routing issues:
+**BGP Routing issues**<br>
 Getting started with [BGP and Azure VPN Gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-bgp-overview)<br>
 Configure [BGP on Azure VPN gateways using PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-bgp-resource-manager-ps)
 
