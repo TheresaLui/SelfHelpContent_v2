@@ -21,3 +21,5 @@
 ## **Recommended documents**
 [Associating NSGs to VMs, NICs or subnets](https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg#associating-nsgs)<br>
 [Create NSGs](https://docs.microsoft.com/azure/virtual-network/virtual-networks-create-nsg-arm-pportal)
+[Create a DMZ in classic](https://docs.microsoft.com/azure/virtual-network/virtual-networks-dmz-nsg-asm)
+[Create a DMZ between Azure and the internet in ARM](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
