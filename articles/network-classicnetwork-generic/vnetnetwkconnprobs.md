@@ -21,4 +21,4 @@
 ## **Recommended documents**
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
 [Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
-[The secondary NIC is unable to connect to the network](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-multiple-nics#secondary-nics-access-to-other-subnets)
+[The secondary NIC is unable to connect to the network](https://docs.microsoft.com/azure/virtual-network/virtual-networks-multiple-nics#secondary-nics-access-to-other-subnets)<br>
