@@ -24,3 +24,4 @@
 [The secondary NIC is unable to connect to the network](https://docs.microsoft.com/azure/virtual-network/virtual-networks-multiple-nics#secondary-nics-access-to-other-subnets)<br>
 [Create a VM with a static IP](https://docs.microsoft.com/azure/virtual-network/virtual-network-deploy-static-pip-arm-portal)<br>
 [Make an existing IP static](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-addresses#a-namechange-ip-configachange-ip-address-settings)<br>
+[Add multiple IPs to a VM](https://docs.microsoft.com/azure/virtual-network/virtual-network-multiple-ip-addresses-portal)<br>
