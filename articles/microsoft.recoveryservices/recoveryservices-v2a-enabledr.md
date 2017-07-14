@@ -14,13 +14,7 @@
 
 # Can't Enable Replication? Initial Replication Failing?
 
-**Most of our customers SELF-RESOLVED this issue by following this** **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
-
-The troubleshooting guide will help you identify issues related to:
-* Connectivity issue between Source Server and Configuration/Process server
-* Services status issues in Source/Process Server
-* Process Server connectivity issues to Azure Public IP address using port 443
-* IP based firewall on Process Server blocking access
-* URL based firewall on Process Server blocking access
-* Proxy Setting on Process Server blocking access
-* Throttle Bandwidth settings on Process Server constraining replication
+**Initial Replication Failing? Replication Stuck at 0%?**<br>
+Many common causes of replication issues can be SELF-RESOLVED by following this **[Step-by-Step Troubleshooting guide](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/).**<br><br>
+**Having Mobility Service Push install issues?**<br>
+Follow these **[push install pre-requisites](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-by-push-installation-from-azure-site-recovery)** to address common push installation issues. 
