@@ -15,10 +15,10 @@
 # create and manage vpn gateway, connection, routing
 
 ## **Recommended documents**
-See [Planning and design considerations for VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-plan-design)<br>
+See [planning and design considerations for VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-plan-design)<br>
 Get started with [creating a Site-to-Site VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#a-namecreateconnectiona8-create-a-site-to-site-vpn-connection)<br>
-Add a [Site-to-Site connection to an existing VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-multi-site-to-site-resource-manager-portal)<br>
-Configure a [Vnet-to-Vnet VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
+Add a [site-to-site connection to an existing VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-multi-site-to-site-resource-manager-portal)<br>
+Configure a [VNet-to-VNet VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
 Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-namedevicetableavalidated-vpn-devices-and-device-configuration-guides) to ensure your devices are configured and compatible<br>
 See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device <br>
 
