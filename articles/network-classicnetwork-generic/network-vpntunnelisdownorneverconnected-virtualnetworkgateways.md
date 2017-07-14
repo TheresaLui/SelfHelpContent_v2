@@ -14,11 +14,15 @@
 
 # vpn tunnel is down or never connected
 
-## **Recommended documents**
-[Verify your connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-multi-site#7-verify-your-connections)<br>
-[Validated VPN devices and IPsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
-[Diagnose on-premises connectivity via VPN gateway](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
-[IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)<br>
+## **Recommended steps**
+Check Resource health of VPN connection <br>
+Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade)<br>
+Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
+Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from VM
 
-## **Recommended service**
-[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
+## **Recommended documents**
+Diagnose [on-premises connectivity via VPN gateway with Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
+Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-namedevicetableavalidated-vpn-devices-and-device-configuration-guides) to ensure your devices are configured and compatible<br>
+See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device<br>
+Gain insights into your Azure Network with [Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
+
