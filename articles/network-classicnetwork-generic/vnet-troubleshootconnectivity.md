@@ -23,4 +23,6 @@
 
 ## **Recommended documents**
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
-[Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
+[Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
+[VNet to VNet connectivity between ARM and classic through VPN](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-multi-site)<br>
+[VNet to VNet connectivity between ARM and classic through VNet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-create-peering#a-namedifferent-modelsapeer-virtual-networks-created-through-different-deployment-models)<br>
