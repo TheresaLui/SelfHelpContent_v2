@@ -22,3 +22,5 @@
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
 [Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
 [The secondary NIC is unable to connect to the network](https://docs.microsoft.com/azure/virtual-network/virtual-networks-multiple-nics#secondary-nics-access-to-other-subnets)<br>
+[Create a VM with a static IP](https://docs.microsoft.com/azure/virtual-network/virtual-network-deploy-static-pip-arm-portal)<br>
+[Make an existing IP static](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-addresses#a-namechange-ip-configachange-ip-address-settings)<br>
