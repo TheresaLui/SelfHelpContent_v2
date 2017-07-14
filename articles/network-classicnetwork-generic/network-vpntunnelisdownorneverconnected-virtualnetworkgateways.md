@@ -15,7 +15,7 @@
 # vpn tunnel is down or never connected
 
 ## **Recommended steps**
-Check Resource health of VPN connection <br>
+Check Resource health of [VPN connection](data-blade:microsoft_azure_network.connectionblade)<br>
 Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade)<br>
 Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
 Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from VM
