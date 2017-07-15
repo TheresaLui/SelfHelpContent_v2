@@ -20,7 +20,10 @@
 3. Use [Next hop](data-blade:microsoft_azure_network.getnexthopblade) for routes to find next hop type and IP address of packet from a specific VM and NIC<br>
 4. Use [NSG flow logs](data-blade:microsoft_azure_network.flowlogsblade) to view ingress and egress IP traffic through a Network Security Group<br>
 5. Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from a VM<br>
+6. Unable to delete a VNet? Your VNet may be locked by your organization. [You can create or delete the lock.](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources#who-can-create-or-delete-locks-in-your-organization)<br>
 
 ## **Recommended documents**
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
-[Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
+[Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
+[VNet to VNet connectivity between ARM and classic through VPN](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-multi-site)<br>
+[VNet to VNet connectivity between ARM and classic through VNet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-create-peering#a-namedifferent-modelsapeer-virtual-networks-created-through-different-deployment-models)<br>
