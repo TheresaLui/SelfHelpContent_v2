@@ -3,7 +3,7 @@
     description="How to change the default directory of a subscription"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="zhchia-MSFT"
+    authors="Jeffsta-MSFT"
     displayOrder="2520"
     selfHelpType="resource"
     resourceTags="directory_overview"
