@@ -11,4 +11,4 @@
 *  Issue description
 *  Make, model and OS version of device
 *  Attach Company Portal Logs
-*  Attach Screenshots and error messages<br>
+*  Attach screenshots and error messages<br>
