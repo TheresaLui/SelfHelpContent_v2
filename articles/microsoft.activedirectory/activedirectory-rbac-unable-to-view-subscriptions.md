@@ -26,6 +26,7 @@ If you have both Azure AD and Microsoft accounts, you might be signing in with a
 5.	Confirm that you have sufficient permissions to view the subscription. If you do not, contact your IT admin to receive permissions. 
 
 **Verify whether you are viewing the correct directory in the Azure Portal.**
+
 You might have selected the wrong directory in the Azure portal. 
 
 1.	To confirm, select your user profile at the top right hand corner in the Azure portal.
