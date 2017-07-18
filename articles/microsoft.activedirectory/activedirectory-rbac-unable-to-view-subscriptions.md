@@ -18,6 +18,7 @@
 If you have both Azure AD and Microsoft accounts, you might be signing in with a personal account instead of a work or school account. If this is the case, sign into the desired account and consider [renaming your personal account](https://support.microsoft.com/help/11545/microsoft-account-rename-your-personal-account).
 
 **Verify whether you have the appropriate permissions to view the subscription.**
+
 1.	Sign in to Azure AD with an account that is a global administrator for the directory.
 2.	Select **Users and groups**, and then either **All users** or **All groups**.
 3.	Search for the user and open the user blade.
@@ -26,6 +27,7 @@ If you have both Azure AD and Microsoft accounts, you might be signing in with a
 
 **Verify whether you are viewing the correct directory in the Azure Portal.**
 You might have selected the wrong directory in the Azure portal. 
+
 1.	To confirm, select your user profile at the top right hand corner in the Azure portal.
 2.	Verify whether the directory that you are in is the right directory. If not, switch to the directory you want. 
 
