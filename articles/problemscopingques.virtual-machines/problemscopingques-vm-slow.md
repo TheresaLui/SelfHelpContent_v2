@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VM performance is slow"
-	description="VM performance is slow"
+	pageTitle="Slow virtual machine"
+	description="Slow virtual machine"
 	authors="AlexKuriatnyk"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32411877"
@@ -12,7 +12,7 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Problem with VM performance",
+	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "slow_vm_determination",
