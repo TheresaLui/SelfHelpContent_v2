@@ -14,11 +14,12 @@
 
 ## **Recommended steps**
 
-1.	Sign in to the [Azure subscription portal](https://account.azure.com/Subscriptions) with an account that is the Account Administrator for the subscription.
+1.	Sign in to the [Azure subscription portal](https://account.azure.com/Subscriptions) with an account that is the Account Administrator for the subscription to transfer subscription ownership.
 2.	Open the subscription that you want to transfer.
 3.	Click **Transfer subscription**.
 4.	Specify the recipient. The recipient automatically gets an email with an acceptance link.
 5.	The recipient clicks the link and follows the instructions, including entering their payment information. When the recipient succeeds, the subscription is transferred. 
+6. Once ownership is transferred, you can change the default directory.
 
 
 ## **Recommended documents**
