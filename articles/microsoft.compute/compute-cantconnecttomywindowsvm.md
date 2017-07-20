@@ -18,7 +18,7 @@
 To resolve common issues, try one or more of the following steps.
 
 1. Review your VM's [console screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to correct boot problems
-2. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine. You can also review  [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists and is prioritized for RDP port(default 3389).
+2. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine. You can also review  [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists and is prioritized for RDP port(default 3389)
 3. Reset Remote Access to address remote server issues <br>
 [Reset remote access using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
 4. RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
