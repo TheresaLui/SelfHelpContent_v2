@@ -18,7 +18,7 @@ If your registration fails, this may be due to one of the following reasons:
 
 ## **Recommended steps**
 
-*Your registration key may be incorrect.
+* Your registration key may be incorrect.
  * Verify that you are using the registration key for the StorSimple Device Manager for Physical Series.
  * To get the service registration key, go to your StorSimple Device Manager blade and then go to **Management** > **Keys**. For detailed instructions, go to [Get a service registration key](https://aka.ms/ss8000-ts-regenkey).
 * Your device time may be out of sync.
