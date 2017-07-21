@@ -23,4 +23,4 @@ If you are receiving heart beat alerts, this may be because your device has Inte
 
 ## **Recommended documents**
 
-[Tools for troubleshooting StorSimple deployments](https://docs.microsoft.com/azure/storsimple/storsimple-8000-troubleshoot-deployment#tools-for-troubleshooting-storsimple-deployments)
+[Tools for troubleshooting StorSimple deployments](https://docs.microsoft.com/azure/storsimple/storsimple-8000-troubleshoot-deployment)
