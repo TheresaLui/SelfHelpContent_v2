@@ -14,7 +14,11 @@
 
 # Replication Stuck? Replication not Progressing?
 
-**Most of our customers SELF-RESOLVED this issue by following this** **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
+**Recommended Steps**
+<br> These self troubleshooting steps for addressing common replication issues can save you time.<br>
+
+**Replication Stuck? Replication not Progressing?** <br> 
+Most of our customers SELF-RESOLVED this issue by following this** **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
 
 The troubleshooting guide will help you identify issues related to:
 * Connectivity issue between Source Server and Configuration/Process server
