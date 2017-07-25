@@ -12,15 +12,13 @@
 	cloudEnvironments="public"
 />
 
-# Replication Stuck? Replication not Progressing?
-
-**Recommended Steps**
-<br> These self troubleshooting steps for addressing common replication issues can save you time.<br>
+# Recommended Steps
 
 **Replication Stuck? Replication not Progressing?** <br> 
-Most of our customers SELF-RESOLVED this issue by following this** **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
+Most of our customers SELF-RESOLVED this issue by following this **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
+<br>
 
-The troubleshooting guide will help you identify issues related to:
+This troubleshooting guide will help you identify issues related to: <br>
 * Connectivity issue between Source Server and Configuration/Process server
 * Services status issues in Source/Process Server
 * Process Server connectivity issues to Azure Public IP address using port 443
