@@ -12,7 +12,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 />
 
-# advisory and development questions
+# connectivity issues
 
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)
