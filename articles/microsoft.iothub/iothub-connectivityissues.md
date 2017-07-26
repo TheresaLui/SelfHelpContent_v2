@@ -15,5 +15,6 @@
 # advisory and development questions
 
 ## **Recommended documents**
-[Unable to connect a device to the cloud]()
-[Unable to connect a device from the cloud]()
+[Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)
+[Sending Messages to IoT Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-d2c)
+[Monitoring Device Connections](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-operations-monitoring)
