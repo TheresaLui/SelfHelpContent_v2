@@ -15,6 +15,7 @@
 # unable to connect to vm or application via established vpn tunnel
 
 ## **Recommended steps**
+
 1. Check Resource health of VPN connections
 2. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade)
 3. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
