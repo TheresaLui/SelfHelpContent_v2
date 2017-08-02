@@ -6,7 +6,7 @@
     authors="Jeffsta-MSFT"
     displayOrder="2521"
     selfHelpType="resource"
-    resourceTags="directory_overview"
+    resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     />
 
