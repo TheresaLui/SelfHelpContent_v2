@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/how to change bandwidth of an expressroutecircuit"
-	description="configuration and setup/how to change bandwidth of an expressroutecircuit "
+	pageTitle="management/how to change bandwidth of an expressroutecircuit"
+	description="management/how to change bandwidth of an expressroutecircuit "
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
