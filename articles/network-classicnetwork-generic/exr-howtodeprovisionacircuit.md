@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/how to de-provision a circuit"
-	description="configuration and setup/how to de-provision a circuit"
+	pageTitle="management/how to de-provision a circuit"
+	description="management/how to de-provision a circuit"
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# configuration and setup/how to de-provision a circuit
+# managment/how to de-provision a circuit
 
 ## **Recommended documents**
 [De-provision and delete an ExpressRoute circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#deprovisioning-and-deleting-an-expressroute-circuit)
