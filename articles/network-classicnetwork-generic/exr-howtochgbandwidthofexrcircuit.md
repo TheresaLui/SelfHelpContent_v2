@@ -15,5 +15,5 @@
 # management/how to change bandwidth of an expressroutecircuit
 
 ## **Recommended documents**
-Modify ExpressRoute circuit properties without impacting connectivity using [portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#modifying-an-expressroute-circuit), [PowerShell](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-arm#modify), or [Azure CLI](https://docs.microsoft.com/en-us/azure/expressroute/howto-circuit-cli#modify) <br>
+Modify ExpressRoute circuit properties without impacting connectivity using [portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#modifying-an-expressroute-circuit), [PowerShell](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-arm#modify), or [Azure CLI](https://docs.microsoft.com/azure/expressroute/howto-circuit-cli#modify) <br>
 Connect a virtual network to an ExpressRoute circuit using [portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager), [PowerShell](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-arm), or [Azure CLI](https://docs.microsoft.com/azure/expressroute/howto-linkvnet-cli)
