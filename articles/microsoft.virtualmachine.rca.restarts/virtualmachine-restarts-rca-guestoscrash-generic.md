@@ -30,9 +30,11 @@ More information on Windows stop errors and how to analyze them can be found her
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
 To learn more about high availability options, please refer to the following articles:<br>
+<br>
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 To learn more about Azure Resource Health, please refer to the following article:<br>
+<br>
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
