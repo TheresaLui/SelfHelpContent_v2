@@ -14,10 +14,10 @@
 
 # Can't Enable Replication? Initial Replication Failing?
 
-**Recommended Steps**
+## Recommended Steps
 <br> These self troubleshooting steps for addressing common replication issues can save you time.<br>
 
 **Initial Replication Failing? Replication Stuck at 0%?**<br>
-Many common causes of replication issues can be SELF-RESOLVED by following this **[Step-by-Step Troubleshooting guide](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/).**<br><br>
+Many common causes of replication issues can be SELF-RESOLVED by following this **[Step-by-Step Troubleshooting guide](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/).**<br><br>
 **Having Mobility Service Push install issues?**<br>
-Follow these **[push install pre-requisites](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-by-push-installation-from-azure-site-recovery)** to address common push installation issues. 
+Follow these **[push install pre-requisites](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-by-push-installation-from-azure-site-recovery)** to address common push installation issues. 
