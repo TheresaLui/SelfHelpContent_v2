@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity/networkconnectivityproblems"
-	description="connectivity/networkconnectivityproblems"
+	pageTitle="connectivity/othernetworkconnectivityproblems"
+	description="connectivity/othernetworkconnectivityproblems"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="radwiv"
@@ -12,18 +12,16 @@
 	cloudEnvironments="public"
 />
 
-# connectivity/networkconnectivityproblems
+# connectivity/othernetworkconnectivityproblems
+
+## **Recommended steps**
+1. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine<br>
+2. Use [Next hop](data-blade:microsoft_azure_network.getnexthopblade) for routes to find next hop type and IP address of packet from a specific VM and NIC<br>
 
 ## **Recommended documents**
-### **Connectivity within a VNet, Internet**<br>
-[Using effective security rules to troubleshoot VM network traffic flow](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal#using-effective-security-rules-to-troubleshoot-vm-traffic-flow)<br>
-[Using effective routes to troubleshoot VM network traffic flow](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal#using-effective-routes-to-troubleshoot-vm-traffic-flow)<br>
-
-### **Connectivity to/from on-premises**<br>
-[Verify your virtual network gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#a-nameverifyconnectiona8-verify-the-vpn-connection)<br>
-[Validated on-premises VPN devices and Ipsec/IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#validated-vpn-devices)<br>
-[Diagnose on-premises connectivity via VPN gateway](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
-[IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)<br>
-
-## **Recommmended service**
-[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
+[Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
+[Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
+[The secondary NIC is unable to connect to the network](https://docs.microsoft.com/azure/virtual-network/virtual-networks-multiple-nics#secondary-nics-access-to-other-subnets)<br>
+[Create a VM with a static IP](https://docs.microsoft.com/azure/virtual-network/virtual-network-deploy-static-pip-arm-portal)<br>
+[Make an existing IP static](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-addresses#a-namechange-ip-configachange-ip-address-settings)<br>
+[Add multiple IPs to a VM](https://docs.microsoft.com/azure/virtual-network/virtual-network-multiple-ip-addresses-portal)<br>

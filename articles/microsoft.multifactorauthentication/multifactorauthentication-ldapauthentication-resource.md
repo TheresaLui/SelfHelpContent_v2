@@ -1,19 +1,20 @@
 <properties  
-    pageTitle="MFA Server (On-Premises)/LDAP authentication" 
-    description="LDAP authentication" 
-    service="microsoft.aad" 
-    resource="Microsoft_AAD_IAM" 
-    authors="kgremban" 
+    pageTitle="MFA Server (On-Premises)/LDAP authentication" 
+    description="LDAP authentication" 
+    service="microsoft.aad" 
+    resource="Microsoft_AAD_IAM" 
+    authors="kgremban" 
     displayOrder="240"
-    selfHelpType="resource" 
-    supportTopicIds="" 
+    selfHelpType="resource" 
+    supportTopicIds="" 
     resourceTags="mfa_overview"
-    productPesIds="" 
-    cloudEnvironments="public" 
- /> 
+    productPesIds="" 
+    cloudEnvironments="public" 
+    /> 
 # LDAP authentication 
 
 ## **Recommended steps** 
+<!---Loc Comment: Could you help to review the metadata? It displays incorrectly.--->
 
 Ensure that the IP Address you entered in the MFA server when you added the LDAP client is the IP that requests are coming from, especially if there are multiple NICs/addresses on the device being secured.  A packet capture should allow you to see this information. The capture should also allow you to confirm that communication is occurring through the firewall. 
 

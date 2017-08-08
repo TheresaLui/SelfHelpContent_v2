@@ -1,14 +1,14 @@
 <properties  
-    pageTitle="MFA Server (On-Premises)/LDAP authentication" 
-    description=" LDAP authentication" 
-    service="microsoft.multifactorauthentication" 
-    resource="" 
-    authors="kgremban" 
-    selfHelpType="generic" 
-    supportTopicIds="32336320" 
-    productPesIds="14947" 
-    cloudEnvironments="public" 
- /> 
+    pageTitle="MFA Server (On-Premises)/LDAP authentication" 
+    description=" LDAP authentication" 
+    service="microsoft.multifactorauthentication" 
+    resource="" 
+    authors="kgremban" 
+    selfHelpType="generic" 
+    supportTopicIds="32336320" 
+    productPesIds="14947" 
+    cloudEnvironments="public" 
+    /> 
 # LDAP authentication 
 
 ## **Recommended steps** 

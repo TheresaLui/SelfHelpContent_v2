@@ -28,7 +28,7 @@ The impacted VM had VHDs on a backend storage node which experienced a hardware 
 For general information on Storage architecture and for more details on the particular reason of the connectivity loss, please refer to the Partition Server Failure section in this document:<br>
 * [Microsoft Azure Storage architecture overview](https://blogs.msdn.microsoft.com/windowsazurestorage/2010/12/30/windows-azure-storage-architecture-overview/)<br>
  
-To ensure high availability for your application in Azure, it is recommended that you group two or more virtual machines in an Availability Set and use Managed Disks. To learn more about high availability options, please refer to the following articles:<br>
+To ensure high availability for your application in Azure, it is recommended that you group two or more virtual machines in an Availability Set and use Managed Disks. <br>
 To learn more about high availability options, please refer to the following articles:<br>
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
