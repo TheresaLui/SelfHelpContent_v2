@@ -1,4 +1,4 @@
-<properties
+#<properties
 	pageTitle="Site Recovery (VMware to Azure)/Replication does not progress"
 	description="Site Recovery (VMware to Azure)/Common issues during replication"
 	service="microsoft.recoveryservices"
@@ -12,13 +12,14 @@
 	cloudEnvironments="public"
 />
 
-# Recommended Steps
+## Recommended Steps
 
 **Replication Stuck? Replication not Progressing?** <br> 
 Most of our customers SELF-RESOLVED this issue by following this **[Step-by-Step Troubleshooting guide](https://blogs.technet.microsoft.com/srinathv/2017/06/28/replication-stuck-replication-not-progressing/).**
 <br>
 
 This troubleshooting guide will help you identify issues related to: <br>
+
 * Connectivity issue between Source Server and Configuration/Process server
 * Services status issues in Source/Process Server
 * Process Server connectivity issues to Azure Public IP address using port 443
