@@ -14,5 +14,5 @@
 
 # configuration and setup/how to create a virtual network gateway for expressroute circuit
 
-### **Recommended Resources**
+## **Recommended documents**
 [How to create a connection between your VPN Gateway and ExpressRoute circuit](https://azure.microsoft.com/resources/videos/azure-expressroute-how-to-create-a-connection-between-your-vpn-gateway-and-expressroute-circuit/)
