@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="unable to connect to vm or application via established vpn tunnel"
 	description="unable to connect to vm or application via established vpn tunnel"
