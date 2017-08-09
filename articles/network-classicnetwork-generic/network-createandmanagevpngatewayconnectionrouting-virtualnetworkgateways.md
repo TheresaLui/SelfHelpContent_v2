@@ -21,6 +21,7 @@ Add a [site-to-site connection to an existing VPN gateway](https://docs.microsof
 Configure a [VNet-to-VNet VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
 Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-namedevicetableavalidated-vpn-devices-and-device-configuration-guides) to ensure your devices are configured and compatible<br>
 See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device <br>
+Configure and validate [VNet or VPN connections](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)<br>
 
 **BGP Routing issues**<br>
 Getting started with [BGP and Azure VPN Gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-bgp-overview)<br>
