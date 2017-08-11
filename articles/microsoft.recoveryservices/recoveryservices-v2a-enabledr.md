@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="Site Recovery (VMware to Azure)/Enable Protection"
 	description="Site Recovery (VMware to Azure)/Common issues during Enable Protection"
 	service="microsoft.recoveryservices"
@@ -14,7 +14,7 @@
 
 # Can't Enable Replication? Initial Replication Failing?
 
-## Recommended Steps
+## **Recommended Steps**
 <br> These self troubleshooting steps for addressing common replication issues can save you time.<br>
 
 **Initial Replication Failing? Replication Stuck at 0%?**<br>
