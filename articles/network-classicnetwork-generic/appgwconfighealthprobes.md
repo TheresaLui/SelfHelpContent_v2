@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-[Application gateway health monitoring overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview)<br>
-[Create a custom probe for application gateway using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal)<br>
-[Create a custom probe for application gateway using PowerShell for Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-ps)
+Application gateway [health monitoring](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview) overview<br>
+Create a custom probe using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-ps)
