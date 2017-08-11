@@ -15,7 +15,7 @@
 	"title": "Set up iOS and Mac device management",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "iOSMAC_determination",
+			"id": "iOSMAC_problem_determination",
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
