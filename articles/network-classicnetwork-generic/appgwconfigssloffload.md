@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-[Configure an application gateway for SSL offload using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal)<br>
-[Configure an application gateway for SSL offload using Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm)<br>
-[Troubleshoot "Data must be specified for Certificate" error](https://support.microsoft.com/help/4020051/data-must-be-specified-for-certificate-error-when-you-try-to-change-an)
+Configure an application gateway for SSL offload using the [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal) or [Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm)<br>
+Troubleshoot ["Data must be specified for Certificate"](https://support.microsoft.com/help/4020051/data-must-be-specified-for-certificate-error-when-you-try-to-change-an) error
