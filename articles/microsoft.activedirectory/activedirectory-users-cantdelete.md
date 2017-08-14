@@ -3,6 +3,7 @@
     description="Problem deleting a user or restoring a deleted user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
+    authors="Jeffsta-MSFT" 
     selfHelpType="generic"
     supportTopicIds="32586793"
     productPesIds="14785"
