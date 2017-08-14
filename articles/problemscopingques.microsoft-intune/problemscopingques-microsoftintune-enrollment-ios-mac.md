@@ -60,16 +60,5 @@
 					"text": "Attach screenshots if possible of the error message using the file uploader."
 				}
 			]
-		},  {
-			"id": "additional_details",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "What can we do to help expedite resolution of your issue?",
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"hints": [{
-					"text": "Let us know if you'd like to be contacted via email or phone, and what time works best for you."
-				}
-			]
 		}
 ---
