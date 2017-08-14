@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
-[Sending Messages to IoT Hubs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
-[Monitoring Device Connections](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-operations-monitoring)<br>
+[Sending Messages to IoT Hubs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
+[Monitoring Device Connections](https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring)<br>
