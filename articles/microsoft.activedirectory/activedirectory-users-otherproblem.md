@@ -14,6 +14,7 @@
 # I can't update the properties of a user in my directory 
 
 ## **Recommended steps**
+
 1.	Ensure that you are authorized to update user properties. Only a global administrator or user administrator of Azure AD can update user properties. If you are not in one of these roles, you must ask an administrator to update the user properties for you, or to add you to one of these roles. [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
 2.	Ensure that you are not updating a property that is synced from your on-premises AD. If the user is synced (that is, if Source = 'Windows Server AD'), then the only properties that can be managed in Azure AD are in the **Settings** and **Authentication** contact info sections. To change any other property, change it in your on premises directory. You czn see the updated property in the cloud after the next time sync runs.
 

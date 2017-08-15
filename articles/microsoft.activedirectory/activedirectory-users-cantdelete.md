@@ -14,6 +14,7 @@
 # I can't delete a user in my directory, or restore a deleted user 
 
 ## **Recommended steps**
+
 1.	Ensure that you are authorized to delete or restore a user. Only a global administrator or user administrator of Azure AD can perform these tasks. If you are not in one of these roles, you must ask an administrator to update the user properties for you, or to add you to one of these roles. [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
 
 ## **Recommended documents**

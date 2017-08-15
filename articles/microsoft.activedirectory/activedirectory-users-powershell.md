@@ -15,6 +15,6 @@
 
 ## **Recommended documents**
 
-* [User management cmdlets in Azure AD v2 PowerShell](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0#users)<br>
+* [User management cmdlets in Azure AD v2 PowerShell](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0#users)<br>
 * [Download Azure AD v2 PowerShell module](https://www.powershellgallery.com/packages/AzureAD/2.0.0.131)<br>
-* [About Azure AD v2 PowerShell](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) 
+* [About Azure AD v2 PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) 

@@ -10,7 +10,7 @@
     cloudEnvironments="public"
     />
 
-# **I can't update the properties of a user in my directory for developers**
+# I can't update the properties of a user in my directory for developers
 
 ## **Recommended documents**
 
