@@ -3,7 +3,7 @@
 	description="connectivity/lostconnectivitythroughpublicip"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547251"
@@ -15,4 +15,7 @@
 # connectivity/lostconnectivitythroughpublicip
 
 ## **Recommended documents**
-[IP Allocation method](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#allocation-method)
+[IP Allocation method](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#allocation-method)<br>
+
+## **Recommended service**
+[Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)

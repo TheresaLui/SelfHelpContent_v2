@@ -17,13 +17,14 @@ Common issues during Setup & Registration of a Configuration Server
 
 ## **Recommended Steps**
 * Ensure that the server on which you install the  **Configuration Server** has access to the following url's <br>
-	1. *.hypervrecoverymanager.windowsazure.com
-	2. *.accesscontrol.windows.net
-	3. *.backup.windowsazure.com
-	4. *.blob.core.windows.net
- 	5.*.store.core.windows.net
-	6. https://www.msftncsi.com/ncsi.txt
-	7. https://dev.mysql.com/get/archives/mysql-5.5/mysql-5.5.37-win32.msi
+	1. \*.hypervrecoverymanager.windowsazure.com
+	2. \*.accesscontrol.windows.net
+	3. \*.backup.windowsazure.com
+	4. \*.blob.core.windows.net
+ 	5. \*.store.core.windows.net
+	6. time.nist.gov
+	7. time.windows.com
+	8. https://dev.mysql.com/get/archives/mysql-5.5/mysql-5.5.37-win32.msi
 
 * Ensure that the system clock on the server where you install **Configuration Server** has the correct time for the time zone the server is configured for.
 
@@ -52,6 +53,10 @@ Common issues during Setup & Registration of a Configuration Server
 * If after successful registration of your **Configuration Server**, you are unable to discovery your vCenter then ensure that you don't have other versions of Perl or PHP installed on the computer that is running the **Configuration Sever**
 
 ## **Recommended Documents**
-[Configuration Server prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#configuration-server-prerequisites)
-<br>
-[VMware vCenter/vSphere host prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#vmware-vcentervsphere-host-prerequisites)
+* [Configuration Server hardware and software prerequisites](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#prerequisites)
+* [Installing & Registering a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#installing-and-registering-a-configuration-server-from-gui)
+* [How to register a Configuration Server with a different Vault](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#registering-a-configuration-server-with-a-different-recovery-services-vault)
+* [Renew Configuration Server SSL Certificate](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#renew-configuration-server-secure-socket-layerssl-certificates)
+* [Modifying Configuration Server's proxy settings](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#modifying-proxy-settings-for-configuration-server)
+* [Scale Limits for Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#sizing-requirements-for-a-configuration-server)
+* [Decommissioning a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#decommissioning-a-configuration-server)

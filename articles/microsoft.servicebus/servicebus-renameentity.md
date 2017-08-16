@@ -2,14 +2,14 @@
 	pageTitle="How can I rename a queue/topic after I create it?" 
 	description="How can I rename a queue/topic after I create it?" 
 	service="microsoft.servicebus"
-	resource="messaging"
+	resource="namespaces"
 	authors="jtaubensee"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	
-	productPesIds=""
-	cloudEnvironments="public" 
+	productPesIds="13186"
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # How can I rename a queue/topic after I create it?

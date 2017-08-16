@@ -9,10 +9,10 @@
 	supportTopicIds="32421022"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # connectivity issues
 
 ## **Recommended documents**
-[Which Ports should I open for Service Bus communication?](https://msdn.microsoft.com/library/mt723402(Azure.100).aspx)
+[Which Ports should I open for Service Bus communication?](https://msdn.microsoft.com/library/mt723402.aspx)

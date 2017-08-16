@@ -2,14 +2,14 @@
 	pageTitle="I am receiving a timeout exception" 
 	description="I am receiving a timeout exception" 
 	service="microsoft.servicebus"
-	resource="messaging"
+	resource="namespaces"
 	authors="jtaubensee"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""	
-	productPesIds=""
-	cloudEnvironments="public" 
+	productPesIds="13186"
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # I am receiving a timeout exception
