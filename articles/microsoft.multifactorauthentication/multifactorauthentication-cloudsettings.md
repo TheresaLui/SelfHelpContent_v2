@@ -1,15 +1,14 @@
-<properties
-  pageTitle="Cloud-based MFA/Configuring Azure MFA Settings"
-  description="Troubleshooting issues with Azure MFA Settings"
-  service="microsoft.multifactorauthentication"
-  resource=""
-  authors="kgremban"
-  selfHelpType="generic"
-  supportTopicIds="32570990"
-  productPesIds="14947"
-  cloudEnvironments="public"
-
-/>
+<properties  
+    pageTitle="Cloud-based MFA/Configuring Azure MFA Settings"
+    description="Troubleshooting issues with Azure MFA Settings"
+    service="microsoft.multifactorauthentication"
+    resource=""
+    authors="kgremban"
+    selfHelpType="generic"
+    supportTopicIds="32570990"
+    productPesIds="14947"
+    cloudEnvironments="public"
+    />
 
 # Configuring Azure MFA Settings
 

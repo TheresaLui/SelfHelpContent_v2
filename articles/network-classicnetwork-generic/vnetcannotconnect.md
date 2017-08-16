@@ -21,5 +21,5 @@
 [Configure a VNet-to-VNet VPN gateway connection using the Azure portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
 [Virtual network peering](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering)<br>
 
-## **Recommmended service**
+## **Recommended service**
 [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)

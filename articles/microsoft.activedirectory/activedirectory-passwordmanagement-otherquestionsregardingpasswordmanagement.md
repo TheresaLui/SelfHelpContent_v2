@@ -3,7 +3,7 @@
     description="Password reset/Other questions regarding password reset"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="gahug"
+    authors="zchia"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32565599"

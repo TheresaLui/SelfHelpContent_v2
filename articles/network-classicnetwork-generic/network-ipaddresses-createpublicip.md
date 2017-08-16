@@ -3,7 +3,7 @@
 	description="ipaddresses/createpublicip"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="viorican"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32547233"
@@ -15,4 +15,4 @@
 # ipaddresses/createpublicip
 
 ## **Recommended documents**
-[Public IP adresses](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#public-ip-addresses)
+[Public IP addresses](https://azure.microsoft.com/documentation/articles/virtual-network-ip-addresses-overview-arm/#public-ip-addresses)

@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="MAM without enrollment policies are not working for any supported Office app for a user"
-    description="MAM without enrollment policies are not working for any supported Office app for a user"
+    pageTitle="MAM policies are not working for any supported Office app for a user"
+    description="MAM policies are not working for any supported Office app for a user"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# MAM without Enrollment policies are not working for any [supported](https://www.microsoft.com/cloud-platform/microsoft-intune-partners) Office App for a user
+# MAM policies are not working for any [supported](https://www.microsoft.com/cloud-platform/microsoft-intune-partners) Office App for a user
 
 ## **Recommended steps**
 Confirm that the user is licensed for Intune.

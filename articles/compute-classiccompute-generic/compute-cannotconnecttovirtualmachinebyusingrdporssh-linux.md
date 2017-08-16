@@ -18,5 +18,5 @@
 ## **Recommended documents**
 [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 
-## **Recommmended service**
+## **Recommended service**
 [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
