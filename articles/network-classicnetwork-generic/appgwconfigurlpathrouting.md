@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-[URL path based routing overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-url-route-overview)<br>
-[Create path based rule for application gateway using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-portal)<br>
-[Create application gateway using path based routing PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-arm-ps)
+Create path based routing for application gateway using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-arm-ps)<br>
+[URL path based routing](https://docs.microsoft.com/azure/application-gateway/application-gateway-url-route-overview) overview
