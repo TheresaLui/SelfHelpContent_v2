@@ -20,7 +20,6 @@
 2. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade)
 3. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
 4. Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from VM
-5. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine
 
 ## **Recommended documents**
 
