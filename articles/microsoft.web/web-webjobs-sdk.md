@@ -3,7 +3,7 @@
 	description="Problems with WebJobs/WebJobs SDK"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32581612"
@@ -15,5 +15,6 @@
 #Problems with WebJobs/WebJobs SDK
 
 ## **Recommended documents**
+
 1. [WebJobs Wiki](https://github.com/projectkudu/kudu/wiki/Web-jobs)<br>
 2. [List of WebJobs Resources](https://azure.microsoft.com/documentation/articles/websites-webjobs-resources/)
