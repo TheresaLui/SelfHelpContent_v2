@@ -15,7 +15,7 @@
 # I can't connect to my Linux VM
 
 ## **Recommended steps**
-To resolve common isuess, try one or more of the following methods.
+To resolve common issues, try one or more of the following methods.
 
 1. Verify if your VM is running by viewing your VM's [console log or screenshot](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade). Review errors in logs such as FSTAB (file systems table), FSCK (file system consistency), or networking.
 2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
