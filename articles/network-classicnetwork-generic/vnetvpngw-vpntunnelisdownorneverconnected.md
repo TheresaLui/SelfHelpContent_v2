@@ -5,7 +5,7 @@
 	resource="virtualnetworks"
 	authors="radwiv"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32584882"
 	resourceTags=""
 	productPesIds="15526"
