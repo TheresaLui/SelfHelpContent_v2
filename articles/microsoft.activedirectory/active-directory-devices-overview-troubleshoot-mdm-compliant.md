@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="Why is there no MDM or Compliant status on my device?"
 	description="Azure AD Devices self help - MDM and Compliant fields"
 	service="microsoft.aad"
