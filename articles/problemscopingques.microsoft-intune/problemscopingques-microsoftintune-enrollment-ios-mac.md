@@ -11,7 +11,7 @@
 # Set up iOS and Mac device management
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Set up iOS and Mac device management",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -40,7 +40,7 @@
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "problem_start_date",
 			"order": 2,
