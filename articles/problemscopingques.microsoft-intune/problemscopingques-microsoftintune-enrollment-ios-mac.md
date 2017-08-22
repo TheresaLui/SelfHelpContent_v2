@@ -52,6 +52,7 @@
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Who is impacted?",
+			"useAsAdditionalDetails": false,
 			"required": true,
 			"hints": [{
 					"text": "What users are impacted?  Please provide UPNs of the impacted users."
