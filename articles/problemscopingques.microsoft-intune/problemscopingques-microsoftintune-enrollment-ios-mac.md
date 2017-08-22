@@ -48,16 +48,28 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "problem_details",
+			"id": "problem_who_is_impacted",
 			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Who is impacted?",
+			"required": true,
+			"hints": [{
+					"text": "What users are impacted?  Please provide UPNs of the impacted users."
+				}, {
+					"text": "What devices are impacted?  Please provide device type and OS version."
+				}
+			]
+		}, {
+			"id": "problem_details",
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please describe the problem in detail",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Provide device type, OS version and any error messages observed."
+					"text": "Provide any details to help support troubleshoot your issue.  The more details you can provide here will help support resolve your issue more quickly"
 				}, {
-					"text": "Attach screenshots if possible of the error message using the file uploader."
+					"text": "Attach screenshots if possible of the error message using the file uploader along with any logs or documentation you've gathered."
 				}
 			]
 		}
