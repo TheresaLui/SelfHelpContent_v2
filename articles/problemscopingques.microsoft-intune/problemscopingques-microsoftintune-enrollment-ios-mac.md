@@ -63,7 +63,7 @@
 			"id": "problem_details",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
 			"required": true,
 			"useAsAdditionalDetails": true,
