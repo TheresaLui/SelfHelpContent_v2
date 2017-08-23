@@ -68,7 +68,7 @@
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Provide any details to help support troubleshoot your issue.  Device names, error messages, the scenario that's failing, etc.  The more details you can provide here will help support resolve your issue more quickly"
+					"text": "Provide any details to help support troubleshoot your issue.  Device names, error messages, the scenario that's failing, etc."
 				}, {
 					"text": "Attach screenshots if possible of the error message using the file uploader along with any logs or documentation you've gathered."
 				}
