@@ -15,8 +15,11 @@
 # How to Generate and Transfer HSM-protected keys for Azure Key Vault
 
 ## **Recommended steps**
+
 * How to Import a key from a HSM<br>
-[HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-hsm-protected-keys)
+
+[HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)
+
 * Before importing a HSM-protected key to key vault you will need to have a key vault set up. This is how to create a key vault with a key and secret in it using Azure CLI 2.0.<br>
 
     ``` az login ```
@@ -33,6 +36,7 @@
 
  
 ## **Recommended documents**
-[Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2)<br>
-[Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started)<br>
-[How to Generate and Transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-hsm-protected-keys)
+
+[Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
+[Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+[How to Generate and Transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)

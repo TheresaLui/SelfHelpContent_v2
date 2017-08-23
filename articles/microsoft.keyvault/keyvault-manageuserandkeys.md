@@ -1,26 +1,27 @@
 <properties
-	pageTitle="Lost or Deleted Keys and Secrets in Key Vault"
-	description="Using Soft-Delete and Backup and Restore Behavior with Key Vault"
+	pageTitle="Managing Users and Keys in Key Vault"
+	description="Managing Users and Keys in Key Vault"
 	service="Microsoft.keyvault"
 	resource="keyvault"
 	authors="fhokholdMSFT"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32375295"
+	supportTopicIds="32375281"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
 />
 
-# Lost or Deleted Keys and Secrets in Key Vault
+# Managing Users and Keys in Key Vault
 
 ## **Recommended steps**
 
-* Using Soft-Delete with Key Vault<br>
+* Managing Users and Keys<br>
 
+[Using Managed Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)
 [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
 
-* Before using soft delete you will need to have a key vault set up. This is how to create a key vault with a key and secret in it using Azure CLI 2.0.<br>
+* Before using soft delete or managed storage account keys you will need to have a key vault set up. This is how to create a key vault with a key and secret in it using Azure CLI 2.0.<br>
 
     ``` az login ```
 
@@ -52,7 +53,10 @@
 
     ``` az keyvault key purge --name ContosoFirstKey --vault-name testVault  ```
 
+* The following are commands for 
+
 ## **Recommended documents**
 
 [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
-[Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
+[Create and Manage using CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
+[Security Worlds and Geographic Boundaries](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)

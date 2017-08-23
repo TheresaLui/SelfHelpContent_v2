@@ -15,8 +15,11 @@
 # How to Create and Manage a Key Vault
 
 ## **Recommended steps**
+
 * Create a New Key Vault<br>
+
 [Key Vault Getting Started Guide](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started)
+
 * This is how to create a key vault using Azure CLI 2.0.<br>
 
     ``` az login ```
@@ -28,10 +31,12 @@
     ``` az keyvault create --name "testVault" --resource-group "ContosoResourceGroup" --location "East Asia" --enable-soft-delete ```
 
 * You can also create a Key Vault using the Azure Portal.<br>
+
 [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
 
 ## **Recommended documents**
-[Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2)<br>
-[Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-get-started)
+
+[Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
+[Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
 
 
