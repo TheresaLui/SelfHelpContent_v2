@@ -70,7 +70,7 @@
 			"hints": [{
 					"text": "Issue description that includes device names, error message and scenario that is failing."
 				}, {
-					"text": "Using file upload on the left, attach a screenshot of the error message or any logs/documentation you’ve gathered."
+					"text": "Using file upload on the left, attach a screenshot of the error message or any logs/documentation you've gathered."
 				}
 			]
 		}
