@@ -68,7 +68,7 @@
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Issue description that includes device names, error message and scenario that is failing."
+					"text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
 				}, {
 					"text": "Using file upload on the left, attach a screenshot of the error message or any logs/documentation you've gathered."
 				}
