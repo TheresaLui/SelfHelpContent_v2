@@ -63,14 +63,14 @@
 			"id": "problem_details",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please describe the problem in detail",
+			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Provide any details to help support troubleshoot your issue.  Device names, error messages, the scenario that's failing, etc."
+					"text": "Issue description that includes device names, error message and scenario that is failing."
 				}, {
-					"text": "Attach screenshots if possible of the error message using the file uploader along with any logs or documentation you've gathered."
+					"text": "Using file upload on the left, attach a screenshot of the error message or any logs/documentation you’ve gathered."
 				}
 			]
 		}
