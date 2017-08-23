@@ -50,14 +50,13 @@
 		}, {
 			"id": "problem_who_is_impacted",
 			"order": 3,
-			"controlType": "multilinetextbox",
+			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
+			"watermarkText": "Enter UPN or E-Mail address here",
 			"useAsAdditionalDetails": false,
 			"required": true,
 			"hints": [{
 					"text": "What users are impacted?  Please provide UPNs of the impacted users."
-				}, {
-					"text": "What devices are impacted?  Please provide device type and OS version."
 				}
 			]
 		}, {
@@ -65,10 +64,11 @@
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please describe the problem in detail",
+			"watermarkText": "Enter details here",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Provide any details to help support troubleshoot your issue.  The more details you can provide here will help support resolve your issue more quickly"
+					"text": "Provide any details to help support troubleshoot your issue.  Device names, error messages, scenario that's failing, etc.  The more details you can provide here will help support resolve your issue more quickly"
 				}, {
 					"text": "Attach screenshots if possible of the error message using the file uploader along with any logs or documentation you've gathered."
 				}
