@@ -1,7 +1,7 @@
 <properties
 	pageTitle="How to Create and Manage a Key Vault"
 	description="Creating a New Key Vault"
-	service="Microsoft.keyvault"
+	service="vaults"
 	resource="keyvault"
 	authors="fhokholdMSFT"
 	displayOrder="1"

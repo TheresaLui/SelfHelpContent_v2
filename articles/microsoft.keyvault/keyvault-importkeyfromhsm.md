@@ -1,10 +1,10 @@
 <properties
 	pageTitle="How to Generate and Transfer HSM-protected keys for Azure Key Vault"
 	description="Importing a key from a HSM to Key Vault"
-	service="Microsoft.keyvault"
+	service="vaults"
 	resource="keyvault"
 	authors="fhokholdMSFT"
-	displayOrder="1"
+	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32375292"
 	resourceTags="optional"

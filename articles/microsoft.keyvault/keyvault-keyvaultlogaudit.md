@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Azure Key Vault Logging and Auditing"
 	description="Logging and Auditing with Azure Key Vault"
-	service="Microsoft.keyvault"
+	service="vaults"
 	resource="keyvault"
 	authors="fhokholdMSFT"
-	displayOrder="1"
+	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32375294"
 	resourceTags="optional"

@@ -1,10 +1,10 @@
 <properties
 	pageTitle="How to Use Key Vault from Web Application"
 	description="Using key vault from a web application"
-	service="Microsoft.keyvault"
+	service="vaults"
 	resource="keyvault"
 	authors="fhokholdMSFT"
-	displayOrder="1"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32375291"
 	resourceTags="optional"
