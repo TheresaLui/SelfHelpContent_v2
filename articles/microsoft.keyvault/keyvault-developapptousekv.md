@@ -6,7 +6,7 @@
 	authors="fhokholdMSFT"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32375291"
+	supportTopicIds="32382911"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
