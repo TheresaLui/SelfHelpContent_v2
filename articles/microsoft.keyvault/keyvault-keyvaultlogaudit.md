@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Azure Key Vault Logging and Auditing"
 	description="Logging and Auditing with Azure Key Vault"
-	service="vaults"
-	resource="keyvault"
+	service="Microsoft.Keyvault"
+	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="9"
 	selfHelpType="resource"
@@ -33,4 +33,3 @@
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 [Logging with Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)<br>
 [Set up Key Vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
-

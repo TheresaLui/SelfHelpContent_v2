@@ -1,8 +1,8 @@
 <properties
 	pageTitle="How to Create and Manage a Key Vault"
 	description="Creating a New Key Vault"
-	service="vaults"
-	resource="keyvault"
+	service="Microsoft.Keyvault"
+	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="1"
 	selfHelpType="resource"
@@ -29,5 +29,3 @@
 ## **Recommended documents**
 [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-
-

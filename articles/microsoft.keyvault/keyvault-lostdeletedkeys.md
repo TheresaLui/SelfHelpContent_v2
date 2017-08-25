@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Lost or Deleted Keys and Secrets in Key Vault"
 	description="Using Soft-Delete and Backup and Restore Behavior with Key Vault"
-	service="vaults"
-	resource="keyvault"
+	service="Microsoft.Keyvault"
+	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="3"
 	selfHelpType="resource"

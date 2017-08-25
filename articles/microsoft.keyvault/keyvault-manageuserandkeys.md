@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Managing Users and Keys in Key Vault"
 	description="Managing Users and Keys in Key Vault"
-	service="vaults"
-	resource="keyvault"
+	service="Microsoft.Keyvault"
+	resource="vaults"
 	authors="fhokholdMSFT"
 	displayOrder="4"
 	selfHelpType="resource"
