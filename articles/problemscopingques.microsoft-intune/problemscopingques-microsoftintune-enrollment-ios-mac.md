@@ -21,29 +21,17 @@
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll a BYOD iOS device",
-					"text": "Cannot enroll a BYOD iOS device"
+					"value": "Cannot enroll Apple device(s)",
+					"text": "Cannot enroll Apple device(s)"
 				}, {
-					"value": "Cannot enroll a DEP or Supervised iOS device",
-					"text": "Cannot enroll a DEP or Supervised iOS device"
-				}, {
-					"value": "Cannot enroll a Mac device",
-					"text": "Cannot enroll a Mac device"
-				}, {
-					"value": "Cannot setup my Apple MDM Push Certificate",
-					"text": "Cannot setup my Apple MDM Push Certificate"
-				}, {
-					"value": "Cannot setup my Apple DEP Token",
-					"text": "Cannot setup my Apple DEP Token"
+					"value": "Cannot configure an Apple Configurator Profile",
+					"text": "Cannot configure an Apple Configurator Profile"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}, {
-					"value": "Cannot enroll a Apple Configurator device",
-					"text": "Cannot enroll a Apple Configurator device"
-				}, {
-					"value": "Cannot configure an Apple Configurator Profile",
-					"text": "Cannot configure an Apple Configurator Profile"
+					"value": "Cannot setup my Apple DEP Token",
+					"text": "Cannot setup my Apple DEP Token"
 				}
 			],
 			"required": true
@@ -71,14 +59,11 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select the device types that are impacted",
 			"dropdownOptions": [{
-					"value": "iPhone",
-					"text": "iPhone"
-				}, {
 					"value": "iPad",
 					"text": "iPad"
 				}, {
-					"value": "iPod",
-					"text": "iPod"
+					"value": "iPhone",
+					"text": "iPhone"
 				}, {
 					"value": "Mac",
 					"text": "Mac"
@@ -86,8 +71,25 @@
 			],
 			"required": false
 		}, {
-			"id": "How many users are impacted?",
+			"id": "How are these devices managed?",
 			"order": 5,
+			"controlType": "multiselectdropdown",
+			"displayLabel": "How are these devices managed?",
+			"dropdownOptions": [{
+					"value": "BYOD",
+					"text": "BYOD"
+				}, {
+					"value": "DEP",
+					"text": "DEP"
+				}, {
+					"value": "Configurator",
+					"text": "Configurator"
+				}
+			],
+			"required": false
+		}, {
+			"id": "How many users are impacted?",
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"dropdownOptions": [{
@@ -107,7 +109,7 @@
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 6,
+			"order": 7,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
