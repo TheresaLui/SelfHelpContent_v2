@@ -38,7 +38,7 @@
         Permanently Delete Key:
         az keyvault key purge --name ContosoFirstKey --vault-name testVault 
     ```
-## **Recommended documents**
+## **Recommended Documents**
 [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
 [Create and Manage using CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Security Worlds and Geographic Boundaries](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)

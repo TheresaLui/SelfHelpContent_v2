@@ -12,8 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# How to Use Key Vault with an Application
-## **Recommended steps**
+# How to use Key Vault with an application
+## **Recommended Steps**
 
 * Use Key Vault with an Application<br>
 [Using Azure Key Vault from a Web Application](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
@@ -27,12 +27,12 @@
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
 	```
 * Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)
-* Then, authorize the Application to use secrets and keys.
+* Then, authorize the application to use secrets and keys.
     ``` 
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
     	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
 	```
-## **Recommended documents**
+## **Recommended Documents**
 [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 [Using Azure Key Vault from a Web Application](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)<br>

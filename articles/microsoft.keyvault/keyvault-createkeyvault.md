@@ -24,8 +24,8 @@
 		az provider register --namespace Microsoft.KeyVault 
 		az keyvault create --name "testVault" --resource-group "ContosoResourceGroup" --location "East Asia" --enable-soft-delete 
 	```
-* You can also create a Key Vault using the Azure Portal.<br>
+* You can also create a key vault using the Azure Portal.<br>
 [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
-## **Recommended documents**
+## **Recommended Documents**
 [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)

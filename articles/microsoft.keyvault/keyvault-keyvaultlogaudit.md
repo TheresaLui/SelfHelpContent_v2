@@ -13,7 +13,7 @@
 />
 
 # How to Logging and Auditing with Key Vault 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Logging with Azure Key Vault<br>
 [Using Logging with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)
@@ -27,9 +27,9 @@
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
 	``` 
 * Auditing with Key Vault<br>
-[Set up Key Vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
-## **Recommended documents**
+[Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
+## **Recommended Documents**
 [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 [Logging with Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)<br>
-[Set up Key Vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
+[Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)
