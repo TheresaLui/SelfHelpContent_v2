@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I am getting 401 errors for my API requests"
 	description="I am getting 401 errors for my API requests"
-	service="microsoft.locationbasedservices"
+	service="microsoft.locationservices"
 	resource="accounts"
 	authors="michael-falk"
     resourceTags=""
