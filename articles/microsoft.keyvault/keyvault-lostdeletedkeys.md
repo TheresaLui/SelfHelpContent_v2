@@ -26,7 +26,7 @@
         az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
     ```
-* The following are commands for Azure CLI 2.0 with Soft-Delete.
+* The following are commands for Azure CLI 2.0 with Soft-Delete.<br>
     ``` 
         Delete key:
         az keyvault key delete --name ContosoFirstKey --vault-name testVault  
@@ -37,6 +37,7 @@
         Permanently Delete Key:
         az keyvault key purge --name ContosoFirstKey --vault-name testVault 
     ```
+
 ## **Recommended Documents**
 [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
 [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
