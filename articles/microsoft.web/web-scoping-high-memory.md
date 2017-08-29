@@ -10,6 +10,7 @@
 />
 
 # High memory usage
+
 * Which indicators are you looking at for memory usage?
 * How much memory consumption are you seeing?
 * What framework(s) is your app using (e.g. ASP.NET, Node, Java, Python etc.)?

@@ -10,6 +10,7 @@
 />
 
 # Web app restarted
+
 * What framework is your app using (e.g. ASP.NET, Node, Java, Python etc.)?
 * Is the issue still occurring? If not, how was the issue resolved?
 * Have you seen any application errors during the restart timeframe? If so, what was the error?

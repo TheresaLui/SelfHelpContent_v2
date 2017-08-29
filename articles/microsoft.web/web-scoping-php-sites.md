@@ -10,6 +10,7 @@
 />
 
 # PHP
+
 * Have you enabled PHP error log?
 
 

@@ -10,6 +10,7 @@
 />
 
 # Configuring custom domain names
+
 * What is the name of the App Service?
 * What is the custom domain?
 * Is this an App Service Domain or an externally hosted domain?

@@ -10,6 +10,7 @@
 />
 
 # WordPress
+
 * Have you enabled WordPress debug.log and PHP error log?
 
 

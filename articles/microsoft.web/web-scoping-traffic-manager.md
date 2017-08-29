@@ -10,6 +10,7 @@
 />
 
 # Configuring Traffic Manager with App Service
+
 * What is the name of Traffic Manager Profile?
 * What is the name of the App Service(s) you are configuring Traffic Manager with?
 * Are you configuring the App Service(s) as Azure Endpoints or External Endpoints?

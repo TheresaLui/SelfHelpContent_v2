@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-#Problems with WebJobs/WebJobs SDK
+# Problems with WebJobs/WebJobs SDK
 
 ## **Recommended documents**
 
