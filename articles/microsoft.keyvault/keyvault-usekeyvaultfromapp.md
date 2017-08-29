@@ -26,7 +26,7 @@
         az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
 	```
-* Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)Then, authorize the Application to use secrets and keys.<br>
+* Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br> Then, authorize the Application to use secrets and keys.<br>
     ``` 
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign 
     	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
