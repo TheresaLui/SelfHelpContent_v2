@@ -15,6 +15,7 @@
 # availability, performance, and application issues/slow performance
 
 ## **Recommended documents**
+
 1. [Monitor, diagnose and troubleshoot performance issues](https://azure.microsoft.com/documentation/articles/app-service-web-troubleshoot-performance-degradation/)<br>
 2. [Troubleshoot memory leaks and CPU usage in Node.js](http://blogs.msdn.com/b/azureossds/archive/2015/08/23/troubleshoot-finding-memory-leaks-and-cpu-usage-in-node-js-azure-web-app.aspx)<br>
 3. [How to setup auto-healing](http://azure.microsoft.com/blog/2014/02/06/auto-healing-windows-azure-web-sites/)<br>
