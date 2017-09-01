@@ -18,13 +18,13 @@
  To resolve common issues, try one or more of the following steps.
 
  1. Verify if your VM is running by viewing your VM's [console screenshot or logs](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade). Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
- 2. Click here [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
- 3. Reset Password to address authentication errors <br>
+ 2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
+ 3.	Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port(default 22)
+ 4. Reset Password to address authentication errors <br>
  [Reset Password using CLI or PowerShell](http://aka.ms/resetarmpass)
- 4. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
- 5. Reset the SSH connection and configuration to fix SSH issues <br>
+ 5. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
+ 6. Reset the SSH connection and configuration to fix SSH issues <br>
  [Reset SSH connection using CLI or PowerShell](http://aka.ms/resetarmssh)
- 6. To connect to your VM via SSH, please review [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists for SSH port(22)
  7. SSH to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
  8. Address any Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
 
