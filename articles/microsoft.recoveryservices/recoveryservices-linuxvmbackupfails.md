@@ -6,9 +6,9 @@
 	authors="trinadhk"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553276"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
