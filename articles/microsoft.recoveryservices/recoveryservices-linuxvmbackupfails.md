@@ -17,10 +17,21 @@
 ## **Recommended steps**
 To resolve common isuess, try one or more of the following steps.
 
-1. Check Linux VM agent is [up-to-date](https://azure.microsoft.com/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-2-the-microsoft-azure-vm-agent-installed-in-the-vm-is-out-of-date-for-linux-vms)
-2. Check VM has access to internet for taking snapshot. Learn how to [enable internet access](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-1-the-vm-does-not-have-internet-access) if VM is behind NSG or Firewall. 
-3. Check VMSnapshotLinux (extension used by Backup) is [up-to-date](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-3-the-backup-extension-fails-to-update-or-load)
-4. Check that snapshot status is [retrievable.](https://azure.microsoft.com/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-4-the-snapshots-status-cannot-be-retrieved-or-the-snapshots-cannot-be-taken)
+**VM agent is unable to communicate with the Azure Backup Service?** <br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot1) to resolve communication issues <br>
+
+**Snapshot operation failed due to no network connectivity on the virtual machine?** <br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot2) to resolve snapshot failure issues <br>
+
+**VMSnapshot extension operation failed?**<br>
+This issue may occur if extensions cannot be loaded, Backup fails because a snapshot cannot be taken.<br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot3) to resolve extension operation failed issues.b
+
+**Unable to perform the operation as the VM Agent is not responsive?**<br>
+This issue may occur if the VM Agent might have been corrupted or the service might have been stopped. Follow the [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot4) to resolve this issue.<br>
+
+**Backup failed with an internal error - Please retry the operation in a few minutes. If the problem persists, contact Microsoft Support?**<br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot5) to resolve theses issues
 
 
 ## **Recommended documents**
