@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="connections"
 	authors="radwiv"
-	displayOrder=""
+	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32542246"
 	resourceTags=""
@@ -24,4 +24,3 @@ See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ab
 Check Azure [3rd Party device configuration](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-overview) to see if your device is available<br>
 For Cisco ASA configuration example see [Route Based IKEv2 with CISCO ASA](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-cisco-asa)<br>
 Diagnose [on-premise VPN connectivity issue via VPN gateways](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)
-
