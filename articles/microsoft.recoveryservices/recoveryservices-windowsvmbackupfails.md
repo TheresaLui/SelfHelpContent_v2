@@ -7,7 +7,7 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32553277"
-	resourceTags="Azure Backup, Virtual machine backup"
+	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
