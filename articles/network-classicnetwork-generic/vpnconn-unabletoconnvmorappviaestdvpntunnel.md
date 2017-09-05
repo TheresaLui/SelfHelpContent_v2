@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="connections"
 	authors="radwiv"
-	displayOrder=""
+	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32542249"
 	resourceTags=""
