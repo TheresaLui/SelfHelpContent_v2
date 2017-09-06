@@ -30,8 +30,8 @@
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}, {
-					"value": "Cannot setup my Apple DEP Token",
-					"text": "Cannot setup my Apple DEP Token"
+					"value": "Cannot setup my Apple DEP or Apple School Manager token",
+					"text": "Cannot setup my Apple DEP Apple School Manager token"
 				}
 			],
 			"required": true
@@ -40,7 +40,7 @@
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_who_is_impacted",
 			"order": 3,
@@ -48,7 +48,7 @@
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple seperate by semi-colon",
 			"useAsAdditionalDetails": false,
-			"required": true,
+			"required": false,
 			"hints": [{
 					"text": "What users are impacted?  Please provide UPNs of the impacted users."
 				}
@@ -118,7 +118,7 @@
 			"hints": [{
 					"text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
 				}, {
-					"text": "Using file upload on the left, attach a screenshot of the error message or any logs/documentation you've gathered."
+					"text": "Using file upload on the left, attach a screenshot of the error message(s) or any logs/documentation gathered."
 				}
 			]
 		}
