@@ -31,7 +31,7 @@
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}, {
 					"value": "Cannot setup my Apple DEP or Apple School Manager token",
-					"text": "Cannot setup my Apple DEP Apple School Manager token"
+					"text": "Cannot setup my Apple DEP or Apple School Manager token"
 				}
 			],
 			"required": true
