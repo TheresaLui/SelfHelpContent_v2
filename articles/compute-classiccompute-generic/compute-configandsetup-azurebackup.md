@@ -27,7 +27,7 @@
 * [How-to: Setup backup alerts for Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms )
 * [How-to: Manage backup Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)
 * [Frequently asked questions about Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
-*[Issue: VM Agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vm-agent-unable-to-communicate-with-azure-backup)
+* [Issue: VM Agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vm-agent-unable-to-communicate-with-azure-backup)
 * [Issue: Snapshot operation failed due to no network connectivity on the virtual machine](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#snapshot-operation-failed-due-to-no-network-connectivity-on-the-virtual-machine)
 * [Issue: VMSnapshot extension operation failed](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vmsnapshot-extension-operation-failed)
 * [Issue: Unable to perform the operation as the VM Agent is not responsive](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#unable-to-perform-the-operation-as-the-vm-agent-is-not-responsive)
