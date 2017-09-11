@@ -20,6 +20,6 @@
 ## **Recommended documents**
 
 * [Use PowerShell to delete a user](https://docs.microsoft.com/powershell/azuread/v2/set-azureaduser)<br>
-* [Use PowerShell to restore a deleted user] (https://docs.microsoft.com/powershell/module/msonline/restore-msoluser?view=azureadps-1.0)<br>
+* [Use PowerShell to restore a deleted user](https://docs.microsoft.com/powershell/module/msonline/restore-msoluser?view=azureadps-1.0)<br>
 * [Use PowerShell to permanently delete a user by removing the user from the recycle bin](https://docs.microsoft.com/powershell/module/MSOnline/Remove-MsolUser?view=azureadps-1.0#optional-parameters)<br>
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles) 
