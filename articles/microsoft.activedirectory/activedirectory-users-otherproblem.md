@@ -11,7 +11,7 @@
     />
 
 
-# I can't update the properties of a user in my directory 
+# I can't update the properties of a user in my Azure AD tenant 
 
 ## **Recommended steps**
 

@@ -10,7 +10,7 @@
     cloudEnvironments="public"
  />
 
-# I can't create a new user in my Azure AD
+# I can't create a new user in my Azure AD tenant
 
 ## **Recommended steps**
 
