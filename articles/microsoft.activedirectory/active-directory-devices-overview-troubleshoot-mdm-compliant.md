@@ -24,4 +24,4 @@ Device that Hybrid Azure AD joined and managed by SCCM will have a compliant sta
 The compliant status is marked as N/A in all other conditions not stated above.
 
 ## **Recommended documents**
-* [Devices Introduction](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction)
+* [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
