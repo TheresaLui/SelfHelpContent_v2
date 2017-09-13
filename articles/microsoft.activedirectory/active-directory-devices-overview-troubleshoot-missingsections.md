@@ -19,3 +19,4 @@ Please review the recommended documents. You may require a premium SKU before so
 ## **Recommended documents**
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
 * [Device Management](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
+<br>
