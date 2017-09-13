@@ -19,6 +19,5 @@ At this time, groups are not supported. You can only assign individual users.
 <br>Please note that Global Administrators are local administrators and do not need to be added again.
 
 ## **Recommended documents**
-* [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
+* [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)<br>
 * [Device Management](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
-<br>
