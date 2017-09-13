@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Why is there no MDM or Compliant status on my device?"
 	description="Azure AD Devices self help - MDM and Compliant fields"
@@ -6,11 +7,12 @@
 	authors="spunukol"
 	displayOrder="200"
 	selfHelpType="resource"
-	    supportTopicIDs=""
-	   resourceTags="devices_overview"
-	   productPesIds=""
+	supportTopicIDs=""
+	resourceTags="devices_overview"
+	productPesIds=""
 	cloudEnvironments="public"
 />
+
 # Why is there no MDM or Compliant status on my device?
 
 If a device has been enrolled for device management, MDM (Mobile Device Management) is updated with the management owner. 
