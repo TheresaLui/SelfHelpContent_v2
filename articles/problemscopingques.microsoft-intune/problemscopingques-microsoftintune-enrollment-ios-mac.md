@@ -30,6 +30,9 @@
 					"value": "Intune for Education",
 					"text": "Intune for Education"
 				}, {
+					"value": "Intune Insiders",
+					"text": "Intune Insiders"
+				}, {
 					"value": "Office 365 MDM",
 					"text": "Office 365 MDM"
 				}
