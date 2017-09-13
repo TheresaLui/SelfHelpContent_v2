@@ -21,3 +21,4 @@ At this time, groups are not supported. You can only assign individual users.
 ## **Recommended documents**
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
 * [Device Management](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
+<br>
