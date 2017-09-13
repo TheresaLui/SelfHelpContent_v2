@@ -25,3 +25,4 @@ The compliant status is marked as N/A in all other conditions not stated above.
 
 ## **Recommended documents**
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
+<br>
