@@ -17,8 +17,9 @@
 	"formElements": [{
 			"id": "What service are you having the issue with?",
 			"order": 1,
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
+			"watermarkText": "Choose your service",
 			"dropdownOptions": [{
 					"value": "Intune on Azure",
 					"text": "Intune on Azure"
