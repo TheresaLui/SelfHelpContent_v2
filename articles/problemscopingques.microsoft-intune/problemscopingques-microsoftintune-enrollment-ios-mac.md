@@ -15,8 +15,28 @@
 	"title": "Set up iOS and Mac device management",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "iOSMAC_problem_determination",
+			"id": "What service are you having the issue with?",
 			"order": 1,
+			"controlType": "multiselectdropdown",
+			"displayLabel": "Select the service impacted",
+			"dropdownOptions": [{
+					"value": "Intune on Azure",
+					"text": "Intune on Azure"
+				}, {
+					"value": "Config Manager + Intune",
+					"text": "Config Manager + Intune"
+				}, {
+					"value": "Intune for Education",
+					"text": "Intune for Education"
+				}, {
+					"value": "Office 365 MDM",
+					"text": "Office 365 MDM"
+				}
+			],
+			"required": true
+		},  {
+			"id": "iOSMAC_problem_determination",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
@@ -37,13 +57,13 @@
 			"required": true
 		}, {
 			"id": "problem_start_date",
-			"order": 2,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 3,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple seperate by semi-colon",
@@ -55,7 +75,7 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 4,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select the device types that are impacted",
 			"dropdownOptions": [{
@@ -72,7 +92,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 5,
+			"order": 6,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -89,7 +109,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 6,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"dropdownOptions": [{
@@ -109,7 +129,7 @@
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 7,
+			"order": 8,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
