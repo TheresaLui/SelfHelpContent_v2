@@ -72,8 +72,8 @@
 			"id": "iOSMAC_problem_determination_Other",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "If "other" please describe the problem you're having.",
-			"watermarkText": "Describe "other" problem here",
+			"displayLabel": "If other please describe the problem you're having.",
+			"watermarkText": "Describe other problem here",
 			"required": false
 		}, {
 			"id": "problem_start_date",
