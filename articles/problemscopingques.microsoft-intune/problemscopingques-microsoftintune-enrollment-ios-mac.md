@@ -69,24 +69,17 @@
 			],
 			"required": true
 		}, {
-			"id": "iOSMAC_problem_determination_Other",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "If other please describe the problem you're having.",
-			"watermarkText": "Describe other problem here",
-			"required": false
-		}, {
 			"id": "problem_start_date",
-			"order": 4,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 5,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
-			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple seperate by semi-colon",
+			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple separate by semi-colon",
 			"useAsAdditionalDetails": false,
 			"required": false,
 			"hints": [{
@@ -95,7 +88,7 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 6,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -112,7 +105,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 7,
+			"order": 6,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -129,7 +122,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 8,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -150,7 +143,7 @@
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 9,
+			"order": 8,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
