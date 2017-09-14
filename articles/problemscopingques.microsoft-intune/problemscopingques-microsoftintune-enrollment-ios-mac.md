@@ -79,7 +79,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
-			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple separate by semi-colon",
+			"watermarkText": "Enter UPN or e-mail addresses here, if multiple separate by semi-colon",
 			"useAsAdditionalDetails": false,
 			"required": false,
 			"hints": [{
