@@ -34,7 +34,7 @@
 					"text": "Intune Insiders"
 				}, {
 					"value": "Mobile Device Management for Office 365",
-					"text": "Mobile Device Management for Office 365
+					"text": "Mobile Device Management for Office 365"
 				}
 			],
 			"required": true
