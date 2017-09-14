@@ -14,7 +14,6 @@
 
 # configure idle timeout on load balancer
 ## **Recommended documents**
-Inbound connection timeout by default is 4 minutes, you can extend this timeout up to 30 mins by [configuring TCP idle timeout settings] (https://docs.microsoft.com/azure/load-balancer/load-balancer-tcp-idle-timeout)<br>
+Defuault timeout for Inbound connection is 4 minutes which can be extended up to 30 mins by [configuring TCP idle timeout settings] (https://docs.microsoft.com/azure/load-balancer/load-balancer-tcp-idle-timeout)<br>
 Outbound SNAT connections from the Azure VM have idle timeout of 10 mins.<br>
-Both idle timeouts can be extended using [keep-alive messages option] (https://msdn.microsoft.com/library/system.net.servicepoint.settcpkeepalive(v=vs.110).aspx)
-	
+Both the timeouts can be extended by using [keep-alive messages option](https://msdn.microsoft.com/library/system.net.servicepoint.settcpkeepalive(v=vs.110).aspx)<br>
