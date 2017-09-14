@@ -16,7 +16,7 @@
 ## **Recommended documents**
 Load balanced endpoints may not respond if the configure VMs for load balancing are detected as down. It is recommended that customers [enable load balancer logs](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) to help determine the root cause.<br>
  
-Follow [troubleshooting steps](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot) to ensure that:
+Follow [troubleshooting steps](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot) to ensure that:<br>
 - No network security group is blocking connectivity to the load balanced service from the expected clients and Azure load balancer probe IP 168.63.129.16.<br>
 - No OS level firewall or security software is blocking connectivity to the service from the expected clients and Azure load balancer probe IP 168.63.129.16.<br>
-- The service is running and listening on the port configured for the endpoint and the load balancer monitoring probe.<br>
+- The service is running and listening on the port configured for the endpoint and the load balancer monitoring probe.
