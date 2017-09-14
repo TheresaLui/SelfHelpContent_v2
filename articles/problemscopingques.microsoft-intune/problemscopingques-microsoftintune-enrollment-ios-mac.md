@@ -98,6 +98,9 @@
 					"value": "iPhone",
 					"text": "iPhone"
 				}, {
+					"value": "iPod",
+					"text": "iPod"
+				}, {
 					"value": "Mac",
 					"text": "Mac"
 				}
