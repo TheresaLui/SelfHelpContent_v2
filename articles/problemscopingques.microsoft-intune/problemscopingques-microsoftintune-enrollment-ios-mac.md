@@ -21,11 +21,11 @@
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
 			"dropdownOptions": [{
-					"value": "Intune on Azure",
-					"text": "Intune on Azure"
+					"value": "Intune Standalone",
+					"text": "Intune Standalone"
 				}, {
-					"value": "Config Manager + Intune",
-					"text": "Config Manager + Intune"
+					"value": "Intune Hybrid",
+					"text": "Intune Hybrid"
 				}, {
 					"value": "Intune for Education",
 					"text": "Intune for Education"
@@ -33,8 +33,8 @@
 					"value": "Intune Insiders",
 					"text": "Intune Insiders"
 				}, {
-					"value": "Office 365 MDM",
-					"text": "Office 365 MDM"
+					"value": "Mobile Device Management for Office 365",
+					"text": "Mobile Device Management for Office 365
 				}
 			],
 			"required": true
@@ -48,6 +48,9 @@
 					"value": "Cannot enroll Apple device(s)",
 					"text": "Cannot enroll Apple device(s)"
 				}, {
+					"value": "Cannot setup my Apple MDM Push Certificate",
+					"text": "Cannot setup my Apple MDM Push Certificate"
+				}, {
 					"value": "Cannot configure an Apple Configurator Profile",
 					"text": "Cannot configure an Apple Configurator Profile"
 				}, {
@@ -56,18 +59,30 @@
 				}, {
 					"value": "Cannot setup my Apple DEP or Apple School Manager token",
 					"text": "Cannot setup my Apple DEP or Apple School Manager token"
+				}, {
+					"value": "Cannot configure Enrollment Program Profile",
+					"text": "Cannot configure Enrollment Program Profile"
+				}, {
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": true
 		}, {
-			"id": "problem_start_date",
+			"id": "iOSMAC_problem_determination_Other",
 			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "If other please describe the problem you're having.",
+			"required": false
+		}, {
+			"id": "problem_start_date",
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 4,
+			"order": 5,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN or E-Mail addresses here, if multiple seperate by semi-colon",
@@ -79,9 +94,9 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 5,
+			"order": 6,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the device types that are impacted",
+			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
 					"value": "iPad",
 					"text": "iPad"
@@ -96,7 +111,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 6,
+			"order": 7,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -113,7 +128,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 7,
+			"order": 8,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"dropdownOptions": [{
@@ -133,7 +148,7 @@
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 8,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
