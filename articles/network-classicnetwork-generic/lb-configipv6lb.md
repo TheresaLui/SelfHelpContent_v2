@@ -14,6 +14,6 @@
 
 # configure IPv6 Load Balancer
 ## **Recommended documents**
-Create Internet facing load balancer with IPv6 using [PowerShell](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-ps), [CLI](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-cli), [Template](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-template)<br>
+Create Internet facing load balancer with IPv6 using [PowerShell](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-ps), [CLI](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-cli) or [Template](https://docs.microsoft.com/azure/load-balancer/load-balancer-ipv6-internet-template)<br>
  
 Note: IPv6 is supported for internet facing load balancers only.
