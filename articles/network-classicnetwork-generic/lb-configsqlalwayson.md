@@ -14,5 +14,5 @@
 
 # Configure SQL AlwaysOn
 ## **Recommended documents**
-SQL AlwaysOn running on IaaS VMs use an internal load balancer to achieve high availability. See [how to configuration load balancer for SQL always on](https://docs.microsoft.com/azure/load-balancer/load-balancer-configure-sqlao)<br>
-[Enable logging](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) to troubleshoot AlwaysOn
+SQL AlwaysOn running on IaaS VMs use an internal load balancer to achieve high availability. See [how to configure load balancer for SQL always on](https://docs.microsoft.com/azure/load-balancer/load-balancer-configure-sqlao)<br>
+See how to [enable logging](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) to troubleshoot SQL AlwaysOn
