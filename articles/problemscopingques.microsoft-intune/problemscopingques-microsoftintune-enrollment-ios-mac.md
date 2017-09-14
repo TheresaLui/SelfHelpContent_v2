@@ -73,6 +73,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "If other please describe the problem you're having.",
+			"watermarkText": "Describe problem here",
 			"required": false
 		}, {
 			"id": "problem_start_date",
@@ -131,6 +132,7 @@
 			"order": 8,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
+			"watermarkText": "Users impacted",
 			"dropdownOptions": [{
 					"value": "Single user",
 					"text": "Single user"
