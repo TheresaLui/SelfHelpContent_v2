@@ -15,7 +15,7 @@
 # How to Change Key Vault Type for Azure Key Vault
 ## **Recommended steps**
 
-* There are two different types of Key Vaults: "Premium" and "Standard". Here is an example of how to create a "Premium" and "Standard" key vault, respectively. One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys. Assume that your vault name is "myvault".<br>
+* There are two different types of Key Vaults: "Premium" and "Standard". Here is an example of how to create a "Premium" and "Standard" key vault, respectively. One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys. Assume that your vault name is "myvault" and your resource group name is "yourResourceGroup".<br>
 * Azure CLI 2.0:<br>
     ```
 		az keyvault create --name 'myvault' --resource-group 'yourResourceGroup' --location 'East Asia' --sku 'Premium'
