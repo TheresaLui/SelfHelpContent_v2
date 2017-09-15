@@ -1,0 +1,26 @@
+<properties
+	pageTitle="Database Connectivity issue due to login timeout detected"
+	description="IsSniReadTimeoutDuringXdbhostDuplication"
+	infoBubbleText="Found recent login failure. See details on the right."
+	service="microsoft.sql"
+	resource="servers"
+	authors="aamalvea"
+	displayOrder=""
+	articleId="IsSniReadTimeoutDuringXdbhostDuplication_8BDA22D6-4005-4359-94E6-D3C636CE99C6"
+	diagnosticScenario=""
+	selfHelpType="rca"
+	supportTopicIds="31980402"
+	resourceTags=""
+	productPesIds="13491"
+	cloudEnvironments="public"
+/>
+# We ran diagnostics on your resource and found an issue
+
+<!--issueDescription-->
+ {Insert short content on error/issue
+<!--/issueDescription-->
+
+[Insert step by step solution (if applicable]
+
+[Add any applicable links for further information]
+
