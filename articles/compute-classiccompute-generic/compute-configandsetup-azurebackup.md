@@ -12,6 +12,7 @@
 	cloudEnvironments="public"
 />
 # Configuration and Setup/Backup
+## **Recommended documents**
 * [Issue: VM Agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vm-agent-unable-to-communicate-with-azure-backup)<br> 
 * [Issue: Snapshot operation failed due to no network connectivity on the virtual machine](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#snapshot-operation-failed-due-to-no-network-connectivity-on-the-virtual-machine)<br> 
 * [Issue: VMSnapshot extension operation failed](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vmsnapshot-extension-operation-failed)<br> 
@@ -24,5 +25,4 @@
 * [How-to: Manage backup Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br> 
 * [How-to: Set up backup alerts for Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#how-do-i-find-information-about-the-alerts)<br> 
 * [Frequently asked questions about the Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)<br> 
-## **Recommended documents**
 
