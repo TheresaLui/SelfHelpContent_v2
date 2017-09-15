@@ -14,4 +14,4 @@
 
 # Configure Load distribution
 ## **Recommended documents**
-Azure supports hash-based (default) and source IP based load balancing algorithms. See how to configure [load balancing algorithms](https://docs.microsoft.com/azure/load-balancer/load-balancer-distribution-mode).
+Azure supports hash-based (default) and source IP based load balancing algorithms. See how to [configure load balancing algorithms](https://docs.microsoft.com/azure/load-balancer/load-balancer-distribution-mode).
