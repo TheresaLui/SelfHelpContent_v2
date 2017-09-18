@@ -69,26 +69,20 @@
 			],
 			"required": true
 		}, {
-			"id": "problem_start_date",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": false
-		}, {
 			"id": "problem_who_is_impacted",
-			"order": 4,
+			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
-			"watermarkText": "Enter UPN or e-mail addresses here, if multiple separate by semi-colon",
+			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
 			"useAsAdditionalDetails": false,
-			"required": false,
+			"required": true,
 			"hints": [{
-					"text": "What users are impacted?  Please provide UPNs of the impacted users."
+					"text": "For user based enrollment provide UPN or e-mail addresses.  For userless enrollment provide serial or IMEI numbers"
 				}
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 5,
+			"order": 4,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -108,7 +102,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 6,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -125,7 +119,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 7,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -145,13 +139,19 @@
 			],
 			"required": false
 		}, {
+			"id": "problem_start_date",
+			"order": 7,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": false
+		}, {
 			"id": "problem_details",
 			"order": 8,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
 			"required": true,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": false,
 			"hints": [{
 					"text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
 				}, {
