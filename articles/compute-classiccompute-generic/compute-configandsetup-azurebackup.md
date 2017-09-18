@@ -24,5 +24,4 @@
 * [How-to: Configure backup for Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br> 
 * [How-to: Manage backup Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br> 
 * [How-to: Set up backup alerts for Azure VM](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#how-do-i-find-information-about-the-alerts)<br> 
-* [Frequently asked questions about the Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)<br> 
-
+* [Frequently asked questions about the Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)
