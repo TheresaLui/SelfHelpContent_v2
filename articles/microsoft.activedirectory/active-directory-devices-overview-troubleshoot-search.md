@@ -14,6 +14,8 @@
 
 # Why can I not search by owner or other properties?
 
+## **Recommended steps**
+
 Search is only available for Device display NAME.
 
 ## **Recommended documents**
