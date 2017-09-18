@@ -14,6 +14,8 @@
 
 # I cannot see some settings here
 
+## **Recommended steps**
+
 Please review the recommended documents. You may require a premium SKU before some settings are visible.
 
 ## **Recommended documents**
