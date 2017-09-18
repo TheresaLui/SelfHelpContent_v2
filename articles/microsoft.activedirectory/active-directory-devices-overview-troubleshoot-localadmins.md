@@ -1,4 +1,4 @@
-<properties
+s<properties
 	pageTitle="I cannot add groups to additional local administrators"
 	description="Azure AD Devices self help - additional local administrators"
 	service="microsoft.aad"
@@ -14,7 +14,7 @@
 
 # I cannot add groups to additional local administrators
 
-## **Recommended Steps**
+## **Recommended steps**
 
 1. At this time, groups are not supported. You can only assign individual users. 
 2. Global Administrators are already local administrators and do not need to be added again.
