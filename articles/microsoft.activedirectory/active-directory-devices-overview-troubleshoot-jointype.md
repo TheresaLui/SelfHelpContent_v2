@@ -14,7 +14,9 @@
 
 # What is the difference between Join Type and Trust Type?
 
-Trust Type has been renamed to Join Type. There is no difference. Please do note that we have updated the naming convention for devices joined to Azure AD. We recommend you review the documentation to become familiar.
+## **Recommended Steps**
+
+Trust Type has been renamed to Join Type. There is no difference. We have updated the naming convention for devices joined to Azure AD. We recommend you review the documentation to become familiar.
 
 ## **Recommended documents**
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
