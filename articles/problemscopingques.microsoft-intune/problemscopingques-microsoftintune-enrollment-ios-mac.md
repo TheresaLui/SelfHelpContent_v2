@@ -142,7 +142,7 @@
 			"id": "problem_start_date",
 			"order": 7,
 			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
+			"displayLabel": "When did the problem start?",
 			"required": false
 		}, {
 			"id": "problem_details",
