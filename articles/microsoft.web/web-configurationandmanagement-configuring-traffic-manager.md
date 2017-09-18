@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-* [How to troubleshoot if the health of your Traffic Manager displays as Degraded Status](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)
+* [How to troubleshoot if the health of your Traffic Manager displays as Degraded Status](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)<br>
 * [Overview of Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview)

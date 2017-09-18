@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-1. [Things to take into consideration when moving resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-move-resources#app-service-limitations)
+1. [Things to take into consideration when moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#app-service-limitations)
