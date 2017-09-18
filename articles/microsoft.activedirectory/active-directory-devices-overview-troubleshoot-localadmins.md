@@ -1,4 +1,4 @@
-s<properties
+<properties
 	pageTitle="I cannot add groups to additional local administrators"
 	description="Azure AD Devices self help - additional local administrators"
 	service="microsoft.aad"
