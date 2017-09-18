@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="I cannot see some settings here"
 	description="Azure AD Devices self help - missing settings"
@@ -19,5 +20,6 @@
 Please review the recommended documents. You may require a premium SKU before some settings are visible.
 
 ## **Recommended documents**
+
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)<br>
 * [Device Management](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
