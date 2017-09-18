@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Why is there no MDM or Compliant status on my device?"
 	description="Azure AD Devices self help - MDM and Compliant fields"
@@ -22,4 +23,5 @@
 4. The compliant status is marked as N/A in all other conditions not stated above.
 
 ## **Recommended documents**
+
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
