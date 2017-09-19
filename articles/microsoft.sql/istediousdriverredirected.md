@@ -9,9 +9,9 @@
 	articleId="IsTediousDriverRedirected_3946B48A-B9F4-4A20-9AA3-5BEE3E1FCFED"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="31980402"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
