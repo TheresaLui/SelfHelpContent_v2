@@ -1,7 +1,7 @@
 <properties
 	pageTitle="My key has been compromised"
 	description="My key has been compromised"
-	service="microsoft.locationservices"
+	service="microsoft.locationbasedservices"
 	resource="accounts"
 	authors="michael-falk"
     resourceTags=""
