@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
- {Insert short content on error/issue
+ [Insert short content on error/issue]
 <!--/issueDescription-->
 
 [Insert step by step solution (if applicable]
