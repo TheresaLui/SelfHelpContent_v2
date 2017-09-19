@@ -9,9 +9,9 @@
 	articleId="IsSniReadTimeoutDuringXdbhostDuplication_8BDA22D6-4005-4359-94E6-D3C636CE99C6"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="31980402"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
