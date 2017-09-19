@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Why can I not search by owner or other properties?"
 	description="Azure AD Devices self help - Search"
@@ -19,5 +20,6 @@
 Search is only available for Device display NAME.
 
 ## **Recommended documents**
+
 * [Devices Introduction](https://docs.microsoft.com/azure/active-directory/device-management-introduction)<br>
 * [Device Management](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
