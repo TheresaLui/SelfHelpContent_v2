@@ -9,9 +9,9 @@
 	articleId="IsCustomerBypassingGW_6219D2CD-8D65-4F26-962D-B47F5B77F759"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="31980402"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
