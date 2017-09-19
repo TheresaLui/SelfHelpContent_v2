@@ -9,9 +9,9 @@
 	articleId="IsLogicalServerDisabled_56701EED-97BA-4BC5-A916-C4ECFD1C4F07"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="31980402"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
