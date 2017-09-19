@@ -9,9 +9,9 @@
 	articleId="IsBadPassword_FED3BCD4-BE62-45F4-9B0F-C8D8CFFDABD5"
 	diagnosticScenario=""
 	selfHelpType="rca"
-	supportTopicIds="31980402"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
