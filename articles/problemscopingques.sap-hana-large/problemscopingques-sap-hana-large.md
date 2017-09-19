@@ -8,7 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# SAP HANA LARGE INSTANCES
 ---
 {
 	"resourceRequired": false,
@@ -53,11 +53,11 @@
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
 			"id": "region_sap_hana",
 			"order": 3,
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "Select the SAP HANA Large Instances",
 			"dropdownOptions": 
 			[	{
