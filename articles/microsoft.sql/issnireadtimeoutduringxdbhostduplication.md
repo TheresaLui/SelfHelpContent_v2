@@ -17,10 +17,6 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
- [Insert short content on error/issue]
+Your application may have took too long to respond during the login request at [Insert Time], so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support. 
 <!--/issueDescription-->
-
-[Insert step by step solution (if applicable]
-
-[Add any applicable links for further information]
 
