@@ -17,10 +17,8 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
- Insert short content on error/issue
+Your database <!--$DBName--> Database Name <!--/$DBName--> experienced connectivity issues at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** due to a user-initiated database restore in progress. Please try again once the database restore completes. You will be able to see [Insert Database Name] showing in All resources, once the restore is completed. 
 <!--/issueDescription-->
 
-[Insert step by step solution (if applicable]
-
-[Add any applicable links for further information]
+For more information about database recovery time, see [Azure SQL Database Recovery](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-recovery-using-backups#recovery-time)
 
