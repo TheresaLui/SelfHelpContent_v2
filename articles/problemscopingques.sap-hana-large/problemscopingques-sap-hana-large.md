@@ -58,7 +58,7 @@
 			"id": "region_sap_hana",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Select the SAP HANA Large Instances",
+			"displayLabel": "Select the SAP HANA Large Instances Region",
 			"dropdownOptions": 
 			[	{
 					"value": "West US",
