@@ -18,33 +18,15 @@
 			"id": "configure_sap_hana",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "What size is the SAP HANA Large Instance Server?",
+			"displayLabel": "Is this an Azure VM or a HANA Large Instance",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": 
 			[	{
-					"value": "S384",
-					"text": "S384"
+					"value": "Azure VM",
+					"text": "Azure VM"
 				}, {
-					"value": "S384m",
-					"text": "S384m"
-				}, {
-					"value": "S384xm",
-					"text": "S384xm"
-				}, {
-					"value": "S576m",
-					"text": "S576m"
-				},
-					{
-					"value":"S768m"	
-					"text":"S768m"
-				},
-					{
-					"value":"S920m"
-					"text":"S920m"	
-				},
-					{
-					"value":"Other VM Size"
-					"text":"Other VM Size"
+					"value": "HANA Large Instance",
+					"text": "HANA Large Instance"
 				}
 			],
 			"required": true
@@ -95,9 +77,6 @@
 			"hints": [{
 					"text":"Name of the SAP HANA Large instance."
 				}, 
-				{
-					"text":"Subscription ID in which the SAP HANA Large instance resides"
-				},
 				{
 					"text":"Provide the IP address of the Large Instance"
 				}
