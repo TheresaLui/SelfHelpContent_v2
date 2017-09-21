@@ -18,15 +18,15 @@
 			"id": "configure_sap_hana",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Is this an Azure VM or a HANA Large Instance",
+			"displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": 
 			[	{
 					"value": "Azure VM",
-					"text": "Azure VM"
+					"text": "Azure VM(G-Series, M-Series,DS-Series etc)"
 				}, {
-					"value": "HANA Large Instance",
-					"text": "HANA Large Instance"
+					"value": "SAP HANA Large Instance",
+					"text": "SAP HANA Large Instance"
 				}
 			],
 			"required": true
@@ -71,16 +71,18 @@
 			"id": "large_instance_name",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide additional details",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text":"Name of the SAP HANA Large instance."
+					"text":"Names of the SAP HANA Large Instances."
 				}, 
 				{
-					"text":"Provide the IP address of the Large Instance"
+					"text":"The IP address of the SAP HANA Large Instance"
+				},
+				{
+					"text":"Note: Make sure you have selected the subscription which contains the SAP HANA Large Instance while creating this case"
 				}
-
 			]
 		}
 	]
