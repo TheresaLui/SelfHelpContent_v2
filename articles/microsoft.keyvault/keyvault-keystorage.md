@@ -16,25 +16,32 @@
 ## **Recommended steps**
 
 * Please make sure you have installed [PowerShell](https://www.powershellgallery.com/packages/AzureRM/4.1.0). Below are 4 methods for storing keys in a key vault.<br>
-* Import key into a key vault.
+* Import key into a key vault.<br>
     ```
         $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -KeyFilePath 'c:\softkey.pfx' -KeyFilePassword $securepfxpwd
     ```
-* Bring your own key (BYOK).
+* Bring your own key (BYOK).<br>
     ```
         $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMKey' -KeyFilePath 'c:\ITByok.byok' -Destination 'HSM'
     ```
-* Generate a key.
+* Generate a key.<br>
     ```
         $key = Add-AzureKeyVaultKey -VaultName 'ContosoKeyVault' -Name 'ContosoFirstKey' -Destination 'Software'
     ```
-* Backup a key using Key Vault backup capability and then restore a backed-up key.
+* Backup a key using Key Vault backup capability and then restore a backed-up key.<br>
     ```
         Backup-AzureKeyVaultKey -VaultName 'MyKeyVault' -Name 'MyKey' -OutputFile 'C:\Backup.blob'
         Restore-AzureKeyVaultKey -VaultName 'MyKeyVault' -InputFile "C:\Backup.blob"
     ```
 * Overview of basic commands for Key Vault<br>
 [Key Vault Getting Started Guide](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+
+##Troublshooting
+
+* My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
+[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
+[Grant permission to many applications to access a key vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 [Backup key with Key Vault](https://docs.microsoft.com/powershell/module/azurerm.keyvault/backup-azurekeyvaultkey?view=azurermps-4.3.1)<br>

@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Changing Key Vault Type for Azure Key Vault"
-	description="Changing Key Vault Type for Azure Key Vault"
+	pageTitle="Moving a Vault to Another Subscription"
+	description="Moving a Vault From One Subscription to Another"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
-	displayOrder="2"
+	displayOrder="12"
 	selfHelpType="resource"
-	supportTopicIds="32375286"
+	supportTopicIds="32375297"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
@@ -26,7 +26,7 @@
 		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Premium'
 		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Standard'
 	```
-	
+
 ##Troublshooting
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
@@ -35,6 +35,6 @@
 [Grant permission to many applications to access a key vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
-[Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
+
 [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 [How to Generate and Transfer HSM-protected Keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)

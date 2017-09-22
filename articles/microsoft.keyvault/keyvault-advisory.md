@@ -17,7 +17,7 @@
 
 * How to Create and Manage a Key Vault<br>
 [Key Vault Getting Started Guide in PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-* The following commands are for setting up a key vault with a key and secret in it using Azure CLI 2.0.<br>  
+* The following commands are for setting up a key vault with a key and secret in it using Azure CLI 2.0. Premium SKU<br>  
     ```
         az login 
         az group create --name "ContosoResourceGroup" --location "East Asia" 
@@ -50,6 +50,13 @@
         $kv = Get-AzureRmKeyVault -VaultName 'testVault'
         Set-AzureRmDiagnosticSetting -ResourceId $kv.ResourceId -StorageAccountId $sa.Id -Enabled $true -Categories AuditEvent 
 	```
+    
+##Troublshooting
+
+* My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
+[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
+[Grant permission to many applications to access a key vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
@@ -66,3 +73,4 @@
 [Set up key vault with end-to-end key rotation and auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)<br>
 [Key Vault Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
 [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
+[Secure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
