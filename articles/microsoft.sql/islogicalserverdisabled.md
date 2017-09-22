@@ -20,13 +20,13 @@
 The server <!--$ServerName--> ServerName <!--/$ServerName--> experienced connectivity issues at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** due to an issue with your billing information. 
 <!--/issueDescription-->
 
-This issue may have occurred because:
-	• You've reached your spending limit
-	• Your bill is past due
-	• The bill exceeds your credit card limit
-	• The subscription was accidentally cancelled
+This issue may have occurred because:<br> 
+	• You've reached your spending limit<br> 
+	• Your bill is past due<br> 
+	• The bill exceeds your credit card limit<br> 
+	• The subscription was accidentally cancelled<br> 
 
-To resolve this issue, please go to the [Account Center](https://account.azure.com/Subscriptions)
+To resolve this issue, please go to the [Account Center](https://account.azure.com/Subscriptions)<br> 
 
 For more information, refer to [Reactivate my Azure Subscription](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-become-disable)
 
