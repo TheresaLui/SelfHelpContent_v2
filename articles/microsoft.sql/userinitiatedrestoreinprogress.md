@@ -20,5 +20,5 @@
 Your database <!--$DBName--> Database Name <!--/$DBName--> experienced connectivity issues at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** due to a user-initiated database restore in progress. Please try again once the database restore completes. You will be able to see <!--$DBName--> Database Name <!--/$DBName--> showing in All resources, once the restore is completed. 
 <!--/issueDescription-->
 
-For more information about database recovery time, see [Azure SQL Database Recovery](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-recovery-using-backups#recovery-time)
+For more information about database recovery time, see [Azure SQL Database Recovery](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#recovery-time)
 
