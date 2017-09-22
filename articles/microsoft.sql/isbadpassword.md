@@ -33,9 +33,9 @@ Alter login <User name> enable
 ```
 <br> 
 4. If the SQL login user name does not exist, create it by using SSMS. To do this, follow these steps:<br> 
-	1. Double-click **Security** to expand it.<br> 
-	2. Right-click **Logins**, and then select **New login**.<br> 
-	3. In the generated script with placeholders, you can edit and run the following SQL query:<br> 
+	a. Double-click **Security** to expand it.<br> 
+	b. Right-click **Logins**, and then select **New login**.<br> 
+	c. In the generated script with placeholders, you can edit and run the following SQL query:<br> 
 	```SQL
 	CREATE LOGIN <SQL_login_name, sysname, login_name>
 	WITH PASSWORD = ‘<password, sysname, Change_Password>’
