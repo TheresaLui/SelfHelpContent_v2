@@ -13,6 +13,7 @@
 	cloudEnvironments="public"
 />
 
+# Questions on Scaling
  **Please find some guidance on frequently asked questions on scaling below**
 
 1. [How to Scale a Web App](https://azure.microsoft.com/documentation/articles/web-sites-scale/)<br>
