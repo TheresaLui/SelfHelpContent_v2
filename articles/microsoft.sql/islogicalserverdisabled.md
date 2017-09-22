@@ -28,5 +28,5 @@ This issue may have occurred because:<br> 
 
 To resolve this issue, please go to the [Account Center](https://account.azure.com/Subscriptions)<br> 
 
-For more information, refer to [Reactivate my Azure Subscription](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-become-disable)
+For more information, refer to [Reactivate my Azure Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
