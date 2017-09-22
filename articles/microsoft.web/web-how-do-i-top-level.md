@@ -14,4 +14,4 @@
 
 # How Do I 
 
-## **Please select the category on which you would like to get some guidance**
+### **Please select the category for which you would like to get some guidance**
