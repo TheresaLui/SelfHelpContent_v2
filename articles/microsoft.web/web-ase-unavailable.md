@@ -14,6 +14,8 @@
 
 # Problems with ASE/ASE is unavailable or unhealthy
 
+## **Recommended documents**
+
 An App Service Environment(ASE) will be marked as Unhealthy if any of its dependencies (inbound or outbound), are being blocked by either a bad NSG or a bad UDR or Force Tunneling being enabled. For more information:
 
 1. [Networking considerations for an App Service environment](https://docs.microsoft.com/azure/app-service/app-service-environment/network-info)<br>
