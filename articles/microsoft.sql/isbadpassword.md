@@ -24,12 +24,12 @@ Typically, the service administrator can use the following steps to add the logi
 
 1. Login to the server using SQL Server Management Studio (SSMS).<br> 
 2. Check whether the login name is disabled by using the following SQL query:<br> 
-```SQL
+```
 SELECT name, is_disabled FROM sys.sql_logins
 ```
 <br> 
 3. If the corresponding name is disabled, enable it by using the following statement:<br> 
-```SQL
+```
 Alter login <User name> enable
 ```
 <br> 
@@ -37,9 +37,15 @@ Alter login <User name> enable
 	a. Double-click **Security** to expand it.<br> 
 	b. Right-click **Logins**, and then select **New login**.<br> 
 	c. In the generated script with placeholders, you can edit and run the following SQL query:<br> 
-	```SQL
+	```
 	CREATE LOGIN <SQL_login_name, sysname, login_name>
+	```
+	<br>
+	```
 	WITH PASSWORD = ‘<password, sysname, Change_Password>’
+	```
+	<br>
+	```
 	GO
 	```
 	<br> 
@@ -48,18 +54,35 @@ Alter login <User name> enable
 7. Double-click **Security**.<br> 
 8. Right-click **Users**, and then select **New User**.<br> 
 9. In the generated script with placeholders, you can edit and run the following SQL query:<br> 
-```SQL
-CREATE USER <user_name, sysname, user_name>          
+```
+CREATE USER <user_name, sysname, user_name>
+```
+<br>
+```
 FOR LOGIN <login_name, sysname, login_name>
+```
+<br>
+```
 WITH DEFAULT_SCHEMA = <default_schema, sysname, dbo>
+```
+<br>
+```
 GO
-
+```
+<br>
+```
 -- Add user to the database owner role
+```
+<br>
+```
 EXEC sp_addrolemember N’db_owner’, N’<user_name, sysname, user_name>’
+```
+<br>
+```
 GO      
 ```
 <br> 
-**Note** that you can also use `sp_addrolemember` to map specific users to specific database roles.<br> 
+**Note** that you can also use ```sp_addrolemember``` to map specific users to specific database roles.<br> 
 
 For more information, refer to [Managing Databases and Logins in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)
 
