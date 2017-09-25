@@ -14,7 +14,6 @@
 />
 # Questions on Custom Domains and Certificates
 ## **Recommended documents**
- **Please find answers to many frequently asked questions on Custom Domains or SSL in the following links*
-[Frequently Asked Questions on Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/) 
-[Frequently Asked Questions on App Service Certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/) 
+[Frequently Asked Questions on Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/)<br>
+[Frequently Asked Questions on App Service Certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)<br>
 [How do I bind an existing custom SSL certificate to Azure Web Apps](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl/)
