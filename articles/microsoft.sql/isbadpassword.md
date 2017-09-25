@@ -32,7 +32,7 @@ SELECT name, is_disabled FROM sys.sql_logins
 ```
 Alter login <User name> enable
 ```
-<br> 
+<br>
 4. If the SQL login user name does not exist, create it by using SSMS. To do this, follow these steps:<br> 
 	a. Double-click **Security** to expand it.<br> 
 	b. Right-click **Logins**, and then select **New login**.<br> 
@@ -48,12 +48,12 @@ Alter login <User name> enable
 	```
 	GO
 	```
-	<br> 
-5. Double-click **Database**.<br> 
+	<br>
+5. Double-click **Database**.<br>
 6. Select the database to which you want to grant user the permission.<br> 
-7. Double-click **Security**.<br> 
-8. Right-click **Users**, and then select **New User**.<br> 
-9. In the generated script with placeholders, you can edit and run the following SQL query:<br> 
+7. Double-click **Security**.<br>
+8. Right-click **Users**, and then select **New User**.<br>
+9. In the generated script with placeholders, you can edit and run the following SQL query:<br>
 ```
 CREATE USER <user_name, sysname, user_name>
 ```
@@ -81,7 +81,8 @@ EXEC sp_addrolemember N’db_owner’, N’<user_name, sysname, user_name>’
 ```
 GO      
 ```
-<br> 
+<br>
+<br>
 **Note** that you can also use ```sp_addrolemember``` to map specific users to specific database roles.<br> 
 
 For more information, refer to [Managing Databases and Logins in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)
