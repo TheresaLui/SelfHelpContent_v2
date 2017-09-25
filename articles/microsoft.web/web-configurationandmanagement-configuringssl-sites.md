@@ -3,7 +3,7 @@
 	description="configuration and management/configuring ssl"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32440123"
@@ -16,7 +16,9 @@
 
 ## **Recommended documents**
 
-[How to configure a SSL certificate for your Web App](https://azure.microsoft.com/documentation/articles/web-sites-configure-ssl-certificate/)<br>
-[Buy and Configure an SSL Certificate for your Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/)<br>
-[Internals of App Service Certificate](https://azure.microsoft.com/blog/internals-of-app-service-certificate/)<br>
-[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)
+[Frequently Asked Questions on App Service Certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)
+
+How To:
+   - [Bind an existing custom SSL certificate to Azure Web Apps](https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-custom-ssl)
+   - [Buy and Configure an SSL Certificate for your Azure App Service](https://docs.microsoft.com/azure/app-service-web/web-sites-purchase-ssl-web-site)
+
