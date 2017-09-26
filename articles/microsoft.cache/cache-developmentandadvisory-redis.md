@@ -9,7 +9,7 @@
 	supportTopicIds="32421019"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # managed cache/development and advisory
