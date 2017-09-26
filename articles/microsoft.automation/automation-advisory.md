@@ -10,7 +10,7 @@
     supportTopicIds="32536799"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # advisory

@@ -1,21 +1,20 @@
 
 <properties
-    pageTitle="portal/monitoring"
-    description="32501555Portalmonitoring"
+    pageTitle="portal"
+    description="32501530Portal"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="adoyle"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501555"
+    supportTopicIds="32501530"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public, MoonCake"
 />
 
-# portal/monitoring
+# portal
 
 
 ## **Recommended documents**
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Data to gather when opening a case for Microsoft Azure Automation](https://support.microsoft.com/kb/3178510)

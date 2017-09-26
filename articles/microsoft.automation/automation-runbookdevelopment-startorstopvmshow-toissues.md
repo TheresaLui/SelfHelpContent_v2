@@ -10,7 +10,7 @@
     supportTopicIds="32501564"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, MoonCake"
 />
 
 #runbook development/start or stop vms: how-to issues
