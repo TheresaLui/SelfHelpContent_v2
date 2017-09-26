@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake" 
 />
 
 # How can I rename a queue/topic after I create it?
