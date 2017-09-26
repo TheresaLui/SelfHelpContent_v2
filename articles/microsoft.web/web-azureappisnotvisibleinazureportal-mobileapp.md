@@ -9,7 +9,7 @@
 	supportTopicIds="32440108"
 	resourceTags="mobileapp"
 	productPesIds="15046"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # configuration and management/azure app is not visible in azure portal
