@@ -22,4 +22,4 @@ SQL Data Warehouse automatically takes snapshots of your data warehouse so that 
 
 ## **Recommended documents**
 [Finalize your restored database](https://azure.microsoft.com/documentation/articles/sql-database-recovered-finalize/)<br>
-[More about data protection](https://docs.azure.cn/sql-database/sql-data-warehouse-restore-database-overview/)
+[More about data protection](https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-restore-database-overview/)
