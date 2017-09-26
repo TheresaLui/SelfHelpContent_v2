@@ -26,7 +26,6 @@
         az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
     ```
-
 * Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br> Then, authorize the Application to use secrets and keys.<br>
     ``` 
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign 
@@ -50,8 +49,7 @@
         $kv = Get-AzureRmKeyVault -VaultName 'testVault'
         Set-AzureRmDiagnosticSetting -ResourceId $kv.ResourceId -StorageAccountId $sa.Id -Enabled $true -Categories AuditEvent 
 	```
-    
-##Troublshooting
+**Troublshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)

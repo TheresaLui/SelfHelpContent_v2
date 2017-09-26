@@ -22,8 +22,7 @@
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
 		az keyvault set-policy --name 'ContosoKeyVault' --upn yourUPN --secret-permissions get 
 	```
-
-##Troublshooting
+**Troublshooting**
 
 * Are you not sure how to create a key vault? 
 Before creating keys you will need to have a key vault set up. This is how to create a key vault with a key and secret in it using Azure CLI 2.0.<br>

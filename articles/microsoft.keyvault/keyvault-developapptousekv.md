@@ -18,15 +18,14 @@
 * Use Key Vault with an Application<br>
 [Using Azure Key Vault from a Web Application](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
 > [!NOTE]
->* Currently, the new feature Managed Service Identity (MSI) is the easiest way to authenticate. Managed Service Identity (MSI) allows you to automatically provision AAD Identities. For further details please see the following link to the sample using [Key Vault with MSI in an application in .NET](https://github.com/Azure-Samples/app-service-msi-keyvault-dotnet/) and related [MSI with App Service and Functions tutorial](https://docs.microsoft.com/en-us/azure/app-service/app-service-managed-service-identity). 
+>* Currently, the new feature Managed Service Identity (MSI) is the easiest way to authenticate. Managed Service Identity (MSI) allows you to automatically provision AAD Identities. For further details please see the following link to the sample using [Key Vault with MSI in an application in .NET](https://github.com/Azure-Samples/app-service-msi-keyvault-dotnet/) and related [MSI with App Service and Functions tutorial](https://docs.microsoft.com/azure/app-service/app-service-managed-service-identity). 
 * Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
 * Then, authorize the application to use secrets and keys.<br>
     ``` 
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
     	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
 	```
-
-##Troublshooting
+**Troublshooting**
 
 * How do I associate a certificate with an Azure AD application?<br>
 	```

@@ -34,8 +34,7 @@
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
 	```
-	
-##Troublshooting
+**Troublshooting**
 
 * How do I associate a certificate with an Azure AD application?<br>
 	```

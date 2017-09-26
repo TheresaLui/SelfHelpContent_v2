@@ -6,7 +6,7 @@
 	authors="fhokholdMSFT"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32452742"
+	supportTopicIds="32382911"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
@@ -26,7 +26,6 @@
         az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
         az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
     ```
-
 * Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br> Then, authorize the Application to use secrets and keys.<br>
     ``` 
 		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign 
@@ -51,7 +50,7 @@
         Set-AzureRmDiagnosticSetting -ResourceId $kv.ResourceId -StorageAccountId $sa.Id -Enabled $true -Categories AuditEvent 
 	```
 
-## **Sample usage of Managed Storage Account Keys**
+**Sample usage of Managed Storage Account Keys**
 
 * We assume that our storage resource is located at the following. 
 Storage resource: /subscriptions/subscriptionId/resourceGroups/yourresgroup1/providers/Microsoft.Storage/storageAccounts/yourtest1
@@ -107,9 +106,8 @@ Also, let's assume that the name of our key vault is: yourtest1<br>
         Remove-AzureKeyVaultManagedStorageAccount
         Remove-AzureKeyVaultManagedStorageSasDefinition
         Set-AzureKeyVaultManagedStorageSasDefinition
-    ```
-    
-##Troublshooting
+    ```    
+**Troublshooting**
 
 * How do I associate a certificate with an Azure AD application?<br>
 	```

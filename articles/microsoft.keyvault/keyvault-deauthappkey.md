@@ -25,11 +25,10 @@
     ``` 
         az keyvault delete-policy --name 'ContosoKeyVault' --upn yourUPN
     ```
+**Troublshooting**
 
-##Troublshooting
-
-* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
-[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
+* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?
+[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)<br>
 
 ## **Recommended Documents**
 [Azure CLI 2.0 Documentation](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest#az_keyvault_delete_policy)<br>

@@ -26,8 +26,7 @@
 	```
         Add-AzureKeyVaultKey -VaultName 'ContosoKeyVaultHSM' -Name 'ContosoFirstHSMkey' -KeyFilePath 'c:\KeyTransferPackage-ContosoFirstHSMkey.byok' -Destination 'HSM'
 	``` 
-
-##Troublshooting
+**Troublshooting**
 
 * How to Setup a Key Vault for HSM-protected Keys?<br>
 * There are two different types of Key Vaults: "Premium" and "Standard". Here is an example of how to create a "Premium" and "Standard" key vault, respectively. One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys. Assume that your vault name is "myvault" and your resource group name is "yourResourceGroup".<br>

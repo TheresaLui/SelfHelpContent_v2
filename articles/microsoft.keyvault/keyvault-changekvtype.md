@@ -26,8 +26,7 @@
 		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Premium'
 		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Standard'
 	```
-	
-##Troublshooting
+**Troublshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
