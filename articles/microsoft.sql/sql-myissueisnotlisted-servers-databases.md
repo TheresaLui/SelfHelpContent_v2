@@ -9,7 +9,7 @@
 	supportTopicIds="32045132"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # import/export service/my issue is not listed
