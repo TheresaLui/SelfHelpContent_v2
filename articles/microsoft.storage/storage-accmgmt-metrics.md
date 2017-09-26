@@ -9,7 +9,7 @@
 	supportTopicIds="32551681"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # How to get Azure Storage usage and capacity
