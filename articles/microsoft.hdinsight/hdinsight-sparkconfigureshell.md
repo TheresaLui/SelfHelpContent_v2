@@ -9,7 +9,7 @@
     supportTopicIds="32511216"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Spark application configuration through Ambari

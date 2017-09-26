@@ -9,7 +9,7 @@
     supportTopicIds="32511212"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Spark application configuration
