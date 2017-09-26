@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="kasparks"
-	displayOrder="3"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
