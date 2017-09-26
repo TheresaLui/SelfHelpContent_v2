@@ -5,7 +5,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32551674"
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Storage Recover Deleted Account
