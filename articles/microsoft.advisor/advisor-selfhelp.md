@@ -14,7 +14,8 @@
 
 # Azure Advisor Self Help and Explanation
 
-Azure Advisor is a recommendation service for Azure best practices.  If you are having issues with the recommendations Advisor has provided please see the documentation below.
+Azure Advisor is a recommendation service for Azure best practices.  If you are having issues with the recommendations Azure Advisor has provided please see the documentation below.
+
 Note: This topic is not for receiving general advice about Azure products.
 
 ## **Recommended documents**
