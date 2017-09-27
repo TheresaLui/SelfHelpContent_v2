@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # tools
