@@ -39,7 +39,7 @@ Try the recommended steps below to resolve commonly observed issues with install
 * Ensure that .tmp files at **C:\Windows\Temp** directory have been cleaned up before registration
 
 * If you are **re-registering your Windows server/client** to a vault, ensure that the encryption passphrase provided, matches the passphrase provided during an earlier registration of the server/client to the same vault
- 
+
 ## **Recommended documents**
 [Azure Backup FAQs](https://docs.azure.cn/backup/backup-azure-backup-faq)<br>
 

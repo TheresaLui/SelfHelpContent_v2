@@ -32,7 +32,7 @@ Following limitations apply when restoring a Azure VM from backup.
 
 * In case of Azure Datacenter Disaster, Azure Backup restores VM in paired data center. [Learn More](https://docs.azure.cn/backup/backup-azure-restore-vms#restoring-a-vm-during-azure-datacenter-disaster)
 
- 
+
 ## **Recommended documents**
 [Azure virtual machine restore troubleshooting guide](https://docs.azure.cn/backup/backup-azure-vms-troubleshoot)<br>
 [How to restore virtual machine using portal](https://docs.azure.cn/backup/backup-azure-arm-restore-vms)<br>
