@@ -19,7 +19,7 @@
 [How to create an Internal Load Balancing (ILB) ASE?](https://docs.microsoft.com/azure/app-service-web/app-service-environment-with-internal-load-balancer)<br>
 **ASE Configuration and Management:**<br>
 [How to scale a Web App in an App Service Environment(ASE)?](https://docs.microsoft.com/azure/app-service-web/app-service-web-scale-a-web-app-in-an-app-service-environment)<br>  
-[How to auto-scale Web Apps in an App Service Environment( ASE)?](https://docs.microsoft.com/azure/app-service/app-service-environment-auto-scale) <br>
+[How to auto-scale Web Apps in an App Service Environment( ASE)?](https://docs.microsoft.com/azure/app-service/app-service-environment-auto-scale)<br>
 **ASE is unavailable or unhealthy:**<br>
 An App Service Environment(ASE) will be marked as Unhealthy if any of its dependencies (inbound or outbound), are being blocked by either a bad NSG or a bad UDR or Force Tunneling being enabled. For more information:<br>  
 [Networking considerations for an App Service environment](https://docs.microsoft.com/azure/app-service/app-service-environment/network-info)<br>

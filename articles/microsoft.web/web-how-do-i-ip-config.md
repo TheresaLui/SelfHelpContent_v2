@@ -13,7 +13,7 @@
 />
 # Questions on IP Configuration
 ## **Recommended documents** 
-<b>How to get reserved or dedicated Inbound IP Address for your Web Site?</b> <br><br>
+<b>How to get reserved or dedicated Inbound IP Address for your Web Site?</b> <br>
 If  you need to configure a dedicated\reserved IP address for inbound calls made to the azure web app site, you will need to install and configure an IP based SSL certificate.  Please note that in order to do this your App Service Plan should be in Basic or higher pricing tier. <br>
 <b>How to find the outbound IP addresses? </b><br>
 Please follow the steps listed below:
