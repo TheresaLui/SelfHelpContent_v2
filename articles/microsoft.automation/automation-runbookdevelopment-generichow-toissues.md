@@ -10,7 +10,7 @@
     supportTopicIds="32501546"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Blackforest, Fairfax, MoonCake"
+    cloudEnvironments="public, Blackforest, Fairfax"
 />
 
 #runbook development/generic: how-to issues
