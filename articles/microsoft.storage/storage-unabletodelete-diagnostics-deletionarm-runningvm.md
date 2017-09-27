@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32551656"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public, MoonCake"
+cloudEnvironments="public"
 />
 
 # **Running VM has been detected**
