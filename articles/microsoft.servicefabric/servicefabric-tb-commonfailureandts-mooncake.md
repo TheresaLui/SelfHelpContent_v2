@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"	 
 />
-    
+
 # Common Failures and Troubleshooting Steps for Application/Service
 
 ## **Recommended steps**
@@ -21,7 +21,7 @@
 4.	Make sure all application dependencies are included within your application package.
 5.	Common failures are exceptions in entry point methods - RunAsync, OnActivateAsync, CreateServiceReplicaListeners, CreateServiceInstanceListeners, OnCloseAsync, OnOpenAsync
 6.	Attach a debugger to your service.
-  
+
 ## **Recommended documents**
 1.	[Monitor and diagnose services in a local machine development setup](https://docs.azure.cn/service-fabric/service-fabric-diagnostics-how-to-monitor-and-diagnose-services-locally/) for how to configure ETW traces in your application
 2.	[Debug your Service Fabric application by using Visual Studio](https://docs.azure.cn/service-fabric/service-fabric-debugging-your-application/) for how to use Visual Studio to debug and view ETW traces for a remote Service Fabric app

@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"	 
 />
-    
+
 # My cluster is not starting or nodes are not displaying
 
 ## **Recommended steps**

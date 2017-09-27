@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"	 
 />
- 
+
 # Connection failures to applications deployed in a cluster 
 
 ## **Recommended steps**

@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"	 
 />
- 
+
 # Errors upgrading a service
 
 ## **Recommended steps**
@@ -21,5 +21,3 @@
 ## **Recommended documents**
 1. The upgrade process and common issues are documented at [Service Fabric application upgrade](https://docs.azure.cn/service-fabric/service-fabric-application-upgrade/)
 2. A detailed upgrade troubleshooting workflow can be found at [Troubleshoot application upgrades](https://docs.azure.cn/service-fabric/service-fabric-application-upgrade-troubleshooting/)
-
-
