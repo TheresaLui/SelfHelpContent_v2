@@ -6,7 +6,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32581617"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Metrics are not available or are incorrect

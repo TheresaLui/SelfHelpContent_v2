@@ -9,7 +9,7 @@
 	supportTopicIds="32542210"
 	resourceTags=""
 	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # configuration and management/ip configuration
