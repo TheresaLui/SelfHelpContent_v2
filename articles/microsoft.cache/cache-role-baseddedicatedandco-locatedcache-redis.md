@@ -9,7 +9,7 @@
 	supportTopicIds="32421010"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public"
 />
 
 # role-based (dedicated and co-located) cache

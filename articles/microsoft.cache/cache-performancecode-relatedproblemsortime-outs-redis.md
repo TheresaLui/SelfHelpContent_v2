@@ -9,7 +9,7 @@
 	supportTopicIds="32421018"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public"
 />
 
 # managed cache/performance, code-related problems, or time-outs
