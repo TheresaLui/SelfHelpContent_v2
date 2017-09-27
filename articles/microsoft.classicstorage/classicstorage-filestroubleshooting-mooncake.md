@@ -6,9 +6,9 @@
 	authors="passaree"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32551659,32551666"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
 
@@ -20,7 +20,7 @@ This article lists common problems and solutions that are related to Microsoft A
 **General problems (occur in both Windows and Linux clients)**
 - [Quota error when trying to open a file](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#quotaerror)<br>
 - [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#slowboth)<br>
- 
+
 **Windows client problems**
 - [Slow performance when you access Azure File storage from Windows 8.1 or Windows Server 2012 R2](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#windowsslow)<br>
 - [Error 53 attempting to mount an Azure File Share](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#error53)<br>

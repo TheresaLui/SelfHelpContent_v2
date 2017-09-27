@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32551645,32551669"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
 
