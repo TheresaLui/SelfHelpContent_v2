@@ -5,7 +5,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32454922"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 # Issues signing in or accessing my subscription
 *	Issue description
