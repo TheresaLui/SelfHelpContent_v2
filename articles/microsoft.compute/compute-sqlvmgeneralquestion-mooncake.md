@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I have a general question about SQL VM
 
 ## **Recommended steps**

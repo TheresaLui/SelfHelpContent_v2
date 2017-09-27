@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I want to use my own SQL Server license in Azure VM
 Customers with SQL Server License Mobility have two options
 

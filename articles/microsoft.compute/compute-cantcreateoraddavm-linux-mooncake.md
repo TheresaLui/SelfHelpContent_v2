@@ -6,12 +6,12 @@
 	authors="kasparks"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32411817,32449676"
+	supportTopicIds="32411817"
 	resourceTags="linux, redhat"	 
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I can't create or add a VM
 
 ## **Recommended steps**

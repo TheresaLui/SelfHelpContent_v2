@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I can't connect to an application on my VM
 
 ## **Recommended steps**

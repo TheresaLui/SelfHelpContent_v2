@@ -6,13 +6,12 @@
 	authors="kasparks"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32411817,32449676"
+	supportTopicIds=""
 	resourceTags="windows, windowsSQL"
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake"	 
 />
 
-    
 # I can't create or add a VM
 
 ## **Recommended steps**

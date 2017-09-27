@@ -12,7 +12,6 @@
 	cloudEnvironments="MoonCake"
 />
 
-    
 # My VM restarted unexpectedly
 
 ## **Recommended steps**

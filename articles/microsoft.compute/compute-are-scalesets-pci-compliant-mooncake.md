@@ -21,4 +21,4 @@ From a compliance perspective, virtual machine scale sets are a fundamental part
 
 ## Recommended Documents
 
-For more information, see [the Microsoft Trust Center](https://www.trustcenter.cn/zh-cn/default.html).
+For more information, see [the Microsoft Trust Center](https://www.trustcenter.cn/default.html).

@@ -8,10 +8,10 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I can't connect to SQL Server in my VM
 
 ## **Recommended steps**
