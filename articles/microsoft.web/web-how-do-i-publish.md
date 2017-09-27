@@ -15,13 +15,13 @@
 ## **Recommended documents** 
 **FTP:**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How do I deploy my app to Azure App Service using FTP/FTPS?](https://docs.microsoft.com/azure/app-service-web/app-service-deploy-ftp)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Deploy manually by uploading files with FTP](https://docs.microsoft.com/azure/app-service-web/web-sites-deploy?toc=%2fazure%2fapp-service%2ftoc.json#ftp) which also discusses the _Pros_ and _Cons_ of deploying manually.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Deploy manually by uploading files with FTP](https://docs.microsoft.com/azure/app-service-web/web-sites-deploy?toc=%2fazure%2fapp-service%2ftoc.json#ftp)<br>
 **Troubleshooting guidance for Git, GitHub, BitBucket, DropBox scenarios:**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Investigating Continuous deployment issues](https://github.com/projectkudu/kudu/wiki/Investigating-continuous-deployment)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Git Deployment and troubleshooting](https://docs.microsoft.com/azure/app-service-web/app-service-deploy-local-git?toc=%2fazure%2fapp-service%2ftoc.json)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Investigating Continuous deployment issues](https://github.com/projectkudu/kudu/wiki/Investigating-continuous-deployment)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Git Deployment and troubleshooting](https://docs.microsoft.com/azure/app-service-web/app-service-deploy-local-git?toc=%2fazure%2fapp-service%2ftoc.json)<br>
 **General Documentation for Continuous Deployment to Azure App Service:**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Continuous Deployment to Azure App Service - GitHub / BitBucket / Dropbox Deployment](https://docs.microsoft.com/azure/app-service-web/app-service-continuous-deployment)<br>
-**Visual Studio:**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Continuous Deployment to Azure App Service - GitHub / BitBucket / Dropbox Deployment](https://docs.microsoft.com/azure/app-service-web/app-service-continuous-deployment)<br>
+**Troubleshooting issues with Visual Studio deployments:**<br>
 To resolve the most common issues with Visual Studio deployments via Web Deploy, try one or more of the following methods:
 
 1.	Make sure that you have the latest version of the Azure SDK for the version of Visual Studio that you are using: [Download Location.](https://azure.microsoft.com/downloads) <br>
