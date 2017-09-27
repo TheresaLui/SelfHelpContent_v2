@@ -14,19 +14,18 @@
 
 # Can I restrict access to Devices in the Azure AD administration portal?
 
-## **Recommended steps**
-
-You can restrict access to Azure AD administation portal to administrators. 
+Yes, you can restrict access to the Azure AD administrtion portal to administrators.
 Non-administrators will not be able to access any Azure AD data in the administration portal.
+
+## **Recommended steps**
 
 1. Navigate to Users & Groups -> User Settings
 2. Select "Yes"
 3. Save the settings
 
-> [!NOTE]
-> You cannot limit the restiction to just Devices.
-> It does not restrict such access using PowerShell or another client such as Visual Studio.
+## **Remarks**
 
+You cannot limit the restiction to just Devices. It does not restrict such access using PowerShell or another client such as Visual Studio.
 
 ## **Recommended documents**
 
