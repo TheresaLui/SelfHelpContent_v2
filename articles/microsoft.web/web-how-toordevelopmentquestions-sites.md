@@ -9,7 +9,7 @@
 	supportTopicIds="32440117"
 	resourceTags=""
 	productPesIds="14748, 16170"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public"
 />
 
 # how-to or development questions
