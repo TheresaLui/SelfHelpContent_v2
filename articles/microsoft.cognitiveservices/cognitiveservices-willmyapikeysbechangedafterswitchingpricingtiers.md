@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Will my API keys be changed after switching pricing tiers?
