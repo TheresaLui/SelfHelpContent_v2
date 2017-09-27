@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I have a general question about SQL VM
 
 ## **Recommended steps**
@@ -21,4 +21,4 @@
 ## **Recommended documents**
 [SQL Server on Azure Virtual Machines overview](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview/)<br>
 [Migrate a database to SQL Server on an Azure VM](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql/)<br>
-[License Mobility to Azure](https://www.azure.cn/zh-cn/pricing/license-mobility/)
+[License Mobility to Azure](https://www.azure.cn/pricing/license-mobility/)

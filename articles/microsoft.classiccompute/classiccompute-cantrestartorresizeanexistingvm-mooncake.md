@@ -11,7 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake" 
  />
-    
+
 # I can't restart or resize an existing VM
 
 ## **Recommended steps**

@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
-    
+
 # I can't connect to SQL Server in my VM
 
 ## **Recommended steps**
@@ -21,7 +21,7 @@ Try following steps to diagnose and mitigate SQL Server connectivity issues
 [Connect to a SQL Server Virtual Machine in Azure](https://docs.azure.cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-connect/)
 
 2. Check the connection string used by your application<br>
-[SQL Server connectivity drivers](https://docs.microsoft.com/en-us/sql/connect/sql-connection-libraries)
+[SQL Server connectivity drivers](https://docs.microsoft.com/sql/connect/sql-connection-libraries)
 
 ## **Recommended documents**
 [Provision a SQL Server Virtual Machine in the Azure Portal](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)

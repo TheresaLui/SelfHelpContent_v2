@@ -7,9 +7,9 @@
     authors="kasparks"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32411835"
+    supportTopicIds=""
     resourceTags="windows, WindowsSQL"
-    productPesIds="14749"
+    productPesIds=""
     cloudEnvironments="MoonCake"
  />
 

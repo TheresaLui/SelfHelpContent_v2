@@ -6,8 +6,8 @@
     authors="kasparks"
     displayOrder="6"
     selfHelpType="resource"
-    supportTopicIds="32411838"
-    productPesIds="14749"
+    supportTopicIds=""
+    productPesIds=""
     resourceTags="windows, linux, WindowsSQL, redhat"
     cloudEnvironments="MoonCake"	 
  />

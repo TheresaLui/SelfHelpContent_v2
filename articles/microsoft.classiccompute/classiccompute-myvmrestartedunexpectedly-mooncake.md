@@ -6,12 +6,12 @@
 	authors="kasparks"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816"
+	supportTopicIds=""
 	resourceTags="windows, linux, windowsSQL, redhat"	
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="MoonCake" 
 />
-    
+
 # My VM restarted unexpectedly
 
 ## **Recommended steps**
