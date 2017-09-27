@@ -23,7 +23,7 @@ Non-administrators will not be able to access any Azure AD data in the administr
 2. Select "Yes"
 3. Save the settings
 
-## **Remarks**
+**Remarks**
 
 You cannot limit the restiction to just Devices. It does not restrict such access using PowerShell or another client such as Visual Studio.
 
