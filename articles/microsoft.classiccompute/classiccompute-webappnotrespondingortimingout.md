@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # My web application is not responding or timing out
