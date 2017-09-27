@@ -20,7 +20,11 @@ Note: This topic is not for receiving general advice about Azure products.
 
 ## **Recommended documents**
 [Learn more about Azure Advisor](https://docs.microsoft.com/en-us/azure/advisor/advisor-overview)
+
 [Understanding Cost Recommendations](https://docs.microsoft.com/en-us/azure/advisor/advisor-cost-recommendations)
+
 [Understanding Performance Recommendations](https://docs.microsoft.com/en-us/azure/advisor/advisor-performance-recommendations)
+
 [Understanding High Availability Recommendations](https://docs.microsoft.com/en-us/azure/advisor/advisor-high-availability-recommendations)
+
 [Understanding Security Recommendations](https://docs.microsoft.com/en-us/azure/advisor/advisor-security-recommendations)
