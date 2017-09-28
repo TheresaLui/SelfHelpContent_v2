@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Connections attempts to your database <!--$DatabaseName--> DatabaseName <!--/$DatabaseName--> have failed from **<!--$StartTime--> StartTime (UTC)<!--/$StartTime-->** to **<!--$EndTime--> EndTime (UTC)<!--/$EndTime-->** hours due invalid credentials. To resolve this issue, contact the service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
+Connections attempts to your database <!--$DatabaseName--> DatabaseName <!--/$DatabaseName--> have failed from **<!--$StartTime--> StartTime (UTC)<!--/$StartTime-->** to **<!--$EndTime--> EndTime (UTC)<!--/$EndTime-->** due invalid credentials. To resolve this issue, contact the service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
 <!--/issueDescription-->
 
 Typically, the service administrator can use the following steps to add the login:<br> 
