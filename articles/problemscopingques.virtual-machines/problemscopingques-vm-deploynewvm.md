@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Deploy a New VM"
 	description="Deploy a New VM"
-	authors="scotro"
+	authors="scottAzure"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32411844"
 	productPesIds="14749"
@@ -108,7 +108,7 @@
 			"id": "learn_more_text_4",
 			"order": 8,
 			"controlType": "infoblock",
-			"content": "Read more about best practices for <a href='https://docs.microsoft.com/en-us/azure/virtual-machines/capture-image-resource'>cloning a virtual machine</a>."
+			"content": "Read more about best practices for <a href='https://docs.microsoft.com/azure/virtual-machines/capture-image-resource'>cloning a virtual machine</a>."
 		}, {
 			"id": "additional_details",
 			"order": 9,
