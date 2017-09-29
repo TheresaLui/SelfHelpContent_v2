@@ -149,3 +149,4 @@ Also, let's assume that the name of our key vault is: yourtest1<br>
 [Key Vault Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
 [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
 [Secure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
+[Code Samples for Key Vault](https://azure.microsoft.com/resources/samples/?service=key-vault&sort=0)<br>
