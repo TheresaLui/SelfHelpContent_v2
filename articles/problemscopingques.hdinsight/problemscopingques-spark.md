@@ -3,7 +3,7 @@
 	description="HDInsight Spark Issue"
 	authors="bharathsreenivas"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32511173"
+	supportTopicIds="32511212,32511213,32511216,32511215"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
