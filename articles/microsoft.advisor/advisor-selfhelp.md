@@ -14,17 +14,12 @@
 
 # Azure Advisor Self Help and Explanation
 
-Azure Advisor is a recommendation service for Azure best practices.  If you are having issues with the recommendations Azure Advisor has provided please see the documentation below.
-
+Azure Advisor is a recommendation service for Azure best practices.  If you are having issues with the recommendations Azure Advisor has provided please see the documentation links below.<br><br>
 Note: This topic is not for receiving general advice about Azure products.
 
 ## **Recommended documents**
-[Learn more about Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview)
-
-[Understanding Cost Recommendations](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations)
-
-[Understanding Performance Recommendations](https://docs.microsoft.com/azure/advisor/advisor-performance-recommendations)
-
-[Understanding High Availability Recommendations](https://docs.microsoft.com/azure/advisor/advisor-high-availability-recommendations)
-
+[Learn more about Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview)<br>
+[Understanding Cost Recommendations](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations)<br>
+[Understanding Performance Recommendations](https://docs.microsoft.com/azure/advisor/advisor-performance-recommendations)<br>
+[Understanding High Availability Recommendations](https://docs.microsoft.com/azure/advisor/advisor-high-availability-recommendations)<br>
 [Understanding Security Recommendations](https://docs.microsoft.com/azure/advisor/advisor-security-recommendations)
