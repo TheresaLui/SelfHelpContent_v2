@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Connections attempts to your database <!--$DatabaseName--> DatabaseName <!--/$DatabaseName--> have failed from **<!--$StartTime--> StartTime (UTC)<!--/$StartTime-->** to **<!--$EndTime--> EndTime (UTC)<!--/$EndTime-->** due invalid credentials. To resolve this issue, contact the service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
+Connections attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** have failed from **<!--$StartTime--> StartTime (UTC)<!--/$StartTime-->** to **<!--$EndTime--> EndTime (UTC)<!--/$EndTime-->** due invalid credentials. To resolve this issue, contact the service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
 <!--/issueDescription-->
 
 Typically, the service administrator can use the following steps to add the login:<br> 
@@ -29,17 +29,17 @@ SELECT name, is_disabled FROM sys.sql_logins
 ```
 3. If the corresponding name is disabled, enable it by using the following statement: 
 ```
-Alter login <User name> enable
+Alter login (User name) enable
 ```
 4. If the SQL login user name does not exist, create it by using SSMS. To do this, follow these steps:<br> 
 	a. Double-click **Security** to expand it.<br> 
 	b. Right-click **Logins**, and then select **New login**.<br> 
 	c. In the generated script with placeholders, you can edit and run the following SQL query: 
 	```
-	CREATE LOGIN <SQL_login_name, sysname, login_name>
+	CREATE LOGIN (SQL_login_name, sysname, login_name)
 	```
 	```
-	WITH PASSWORD = ‘<password, sysname, Change_Password>’
+	WITH PASSWORD = ‘(password, sysname, Change_Password)’
 	```
 	```
 	GO
@@ -50,13 +50,13 @@ Alter login <User name> enable
 8. Right-click **Users**, and then select **New User**.<br>
 9. In the generated script with placeholders, you can edit and run the following SQL query:
 ```
-CREATE USER <user_name, sysname, user_name>
+CREATE USER (user_name, sysname, user_name)
 ```
 ```
-FOR LOGIN <login_name, sysname, login_name>
+FOR LOGIN (login_name, sysname, login_name)
 ```
 ```
-WITH DEFAULT_SCHEMA = <default_schema, sysname, dbo>
+WITH DEFAULT_SCHEMA = (default_schema, sysname, dbo)
 ```
 ```
 GO
@@ -65,7 +65,7 @@ GO
 -- Add user to the database owner role
 ```
 ```
-EXEC sp_addrolemember N’db_owner’, N’<user_name, sysname, user_name>’
+EXEC sp_addrolemember N’db_owner’, N’(user_name, sysname, user_name)’
 ```
 ```
 GO      
