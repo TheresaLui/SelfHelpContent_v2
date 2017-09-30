@@ -75,7 +75,7 @@
 			"id": "yarn_app_id",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "YARN Application Id",
+			"displayLabel": "YARN Application Id in case of job failure",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
