@@ -8,7 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# Spark Issue
 ---
 {
 	"resourceRequired": true,
@@ -50,8 +50,9 @@
 		}, {
 			"id": "spark_programminglanguage",
 			"order": 3,
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "What is the programming language used?",
+			
 			"dropdownOptions": [{
 					"value": "Python",
 					"text": "Python"
@@ -59,27 +60,43 @@
 					"value": "Scala",
 					"text": "Scala"
 				},{
+					"value": "R",
+					"text": "R"
+				},{
+					"value": "Java",
+					"text": "Java"
+				},{
 					"value": "Other (describe below)",
-					"text": "Other"
+					"text": "Other (mention below in the description)"
 				}
 			],
 			"required": false
-		}, {
-			"id": "executor_driver_details",
+		},{
+			"id": "yarn_app_id",
 			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "YARN Application Id",
+			"required": false,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "YARN Application Id in case of job failure"
+				}]
+		},{
+			"id": "sparkconfig_details",
+			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide details about executor and driver configuration",
+			"displayLabel": "Please provide these details.",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
 				}, {
-					"text": "Number of cores, memory etc."
+					"text": "Spark executor and driver configuration including number of cores, memory etc."
 				}
 			]
 		}, {
 			"id": "learn_more_text",
-			"order": 5,
+			"order": 6,
 			"controlType": "infoblock",
 			"content": "<a href='https://hdinsight.github.io/spark/spark-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
 		}
