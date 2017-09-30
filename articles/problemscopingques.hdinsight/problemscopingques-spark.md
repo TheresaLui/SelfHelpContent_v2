@@ -52,7 +52,7 @@
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "What is the programming language used?",
-			
+			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Python",
 					"text": "Python"
