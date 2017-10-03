@@ -20,7 +20,7 @@
 Connections attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$DatabaseName-->** have failed from **<!--$StartTime--> StartTime (UTC)<!--/$StartTime-->** to **<!--$EndTime--> EndTime (UTC)<!--/$EndTime-->** due invalid credentials. To resolve this issue, contact the service administrator for valid credentials. If this problem persists, share these troubleshooting steps with your service administrator.
 <!--/issueDescription-->
 
-Typically, the service administrator can use the following steps to add the login:<br> 
+Typically, the service administrator can use the following steps to add the login:<br>
 
 1. Login to the server using SQL Server Management Studio (SSMS).<br> 
 2. Check whether the login name is disabled by using the following SQL query:
