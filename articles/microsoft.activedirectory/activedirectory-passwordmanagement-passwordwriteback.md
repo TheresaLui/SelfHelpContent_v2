@@ -3,7 +3,7 @@
     description="Password reset/Password Writeback"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="zhchia, gahug"
+    authors="zhchia"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32565598"

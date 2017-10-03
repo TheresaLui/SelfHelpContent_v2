@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-[Access control for Office 365 email and documents](https://support.office.com/article/Capabilities-of-built-in-Mobile-Device-Management-for-Office-365-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_accesscontrol)<br>
+[Access control for Office 365 e-mail and documents](https://support.office.com/article/Capabilities-of-built-in-Mobile-Device-Management-for-Office-365-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_accesscontrol)<br>
