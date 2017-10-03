@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # tools

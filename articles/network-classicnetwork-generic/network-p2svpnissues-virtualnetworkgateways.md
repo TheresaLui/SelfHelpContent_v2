@@ -3,7 +3,7 @@
 	description="p2s vpn issues"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
-	authors="aashu"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542248"
@@ -15,6 +15,7 @@
 # p2s vpn issues
 
 ## **Recommended documents**
-[Point-to-Site connections](https://azure.microsoft.com/documentation/articles/vpn-gateway-vpn-faq/#point-to-site-connections)<br>
-[Configure a Point-to-Site connection to a virtual network using PowerShell](https://azure.microsoft.com/documentation/articles/vpn-gateway-howto-point-to-site-rm-ps/)<br>
-[Configure a Point-to-Site VPN connection to a VNet using the classic portal](https://azure.microsoft.com/documentation/articles/vpn-gateway-point-to-site-create/)
+Troubleshoot [point-to-site connection issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems)<br>
+Check [point-to-site connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) details<br>
+Configure a [point-to-site VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)<br>
+Generate and export [certificates for point-to-site connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site) for Windows 10

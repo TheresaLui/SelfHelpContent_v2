@@ -10,7 +10,7 @@
     supportTopicIds="32501558"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # portal/other

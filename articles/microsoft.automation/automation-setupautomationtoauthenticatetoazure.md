@@ -3,7 +3,7 @@
 	description="Set up Automation to authenticate to Azure"
 	service="microsoft.automation"
 	resource="automationaccounts"
-	authors="kasparks"
+	authors="adoylemsft"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -15,6 +15,5 @@
 # Set up Automation to authenticate to Azure
 
 ## **Recommended documents**
-[Learn how to set up your Automation account](http://aka.ms/getsetuptoautomate)<br>
-[Set up Azure Active Directory to authenticate to Azure from Automation](https://azure.microsoft.com/blog/azure-automation-authenticating-to-azure-using-azure-active-directory/)<br>
-[Troubleshoot common authentication errors](https://azure.microsoft.com/documentation/articles/automation-troubleshooting-automation-errors/#troubleshoot-authentication-errors-when-working-with-azure-automation-runbook)
+[Learn how to set up your Automation account](https://docs.microsoft.com/azure/automation/automation-offering-get-started)<br>
+[Set up Azure Active Directory to authenticate to Azure from Automation](https://docs.microsoft.com/azure/automation/automation-create-aduser-account)

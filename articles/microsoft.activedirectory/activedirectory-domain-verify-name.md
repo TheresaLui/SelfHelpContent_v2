@@ -1,16 +1,16 @@
 <properties
-	pageTitle="I can't verify my domain name even though I added it to Azure AD"
-	description="Azure Active Directory domains troublehooter"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="Jeffsta-MSFT"
-	displayOrder="4291"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="directory_domain"
-	productPesIds=""
-	cloudEnvironments="public"
-/>
+    pageTitle="I can't verify my domain name even though I added it to Azure AD"
+    description="Azure Active Directory domains troublehooter"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder="4291"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="directory_domain,domain_directory"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
 # I can't verify my domain name even though I added it to Azure AD
 

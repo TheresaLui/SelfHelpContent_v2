@@ -15,6 +15,7 @@
 # configuration and management/configuring ssl
 
 ## **Recommended documents**
+
 [How to configure a SSL certificate for your Web App](https://azure.microsoft.com/documentation/articles/web-sites-configure-ssl-certificate/)<br>
 [Buy and Configure an SSL Certificate for your Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/)<br>
 [Internals of App Service Certificate](https://azure.microsoft.com/blog/internals-of-app-service-certificate/)<br>

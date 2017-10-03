@@ -13,12 +13,12 @@
 />
 
 # configuration and management/configuring custom domain names
-## **Recommended steps**
-Take a look at this [short video clip](https://channel9.msdn.com/blogs/Azure-App-Service-Self-Help/Add-a-Custom-Domain-Name) that shows you how to add a custom domain name so that you can use your own URL instead of the AzureWebSites.net URL with your Web App. 
 
 ## **Recommended documents**
-[Buy and Configure a custom domain name in Azure App Service](https://azure.microsoft.com/documentation/articles/custom-dns-web-site-buydomains-web-app/)<br>
-[Map a custom domain name to an Azure app](https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/)<br>
-[Configuring a custom domain name for a Web App in Azure App Service using Traffic Manager](https://azure.microsoft.com/documentation/articles/web-sites-traffic-manager-custom-domain-name/)<br>
-[Configure a custom domain name in Azure App Service Purchased directly from GoDaddy](https://azure.microsoft.com/documentation/articles/web-sites-godaddy-custom-domain-name/)<br>
-[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)<br>
+1. [How to add a custom domain name: Short video](https://channel9.msdn.com/blogs/Azure-App-Service-Self-Help/Add-a-Custom-Domain-Name) 
+2. [Buy and Configure a custom domain name in Azure App Service](https://azure.microsoft.com/documentation/articles/custom-dns-web-site-buydomains-web-app/)<br>
+3. [Map a custom domain name to an Azure app](https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/)<br>
+4. [Configuring a custom domain name for a Web App in Azure App Service using Traffic Manager](https://azure.microsoft.com/documentation/articles/web-sites-traffic-manager-custom-domain-name/)<br>
+5. [Configure a custom domain name in Azure App Service Purchased directly from GoDaddy](https://azure.microsoft.com/documentation/articles/web-sites-godaddy-custom-domain-name/)<br>
+6. [FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)<br>
+7. [DNS Propagation Check](https://dnschecker.org/) 

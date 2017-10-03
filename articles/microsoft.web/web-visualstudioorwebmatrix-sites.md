@@ -15,6 +15,7 @@
 # Visual studio or Webmatrix Deployment
 
 ## **Recommended steps**
+
 To resolve the most common issues with Visual Studio deployments via Web Deploy, try one or more of the following methods:
 
 1.	Make sure that you have the latest version of the Azure SDK for the version of Visual Studio that you are using: [Download Location.](https://azure.microsoft.com/downloads) <br>

@@ -9,9 +9,9 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax"	 
+	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
 />
- 
+
 # Errors deleting a service 
 
 ## **Recommended steps**

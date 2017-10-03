@@ -1,6 +1,6 @@
 <properties
-    pageTitle="How to get Identity Protection"
-    description="How to get Identity Protection"
+    pageTitle="I don’t have the right license for Identity Protection"
+    description="I don’t have the right license for Identity Protection"
     service="microsoft.aad"
     resource="Microsoft_AAD_ProtectionCenter"
     authors="jcardena"
@@ -12,14 +12,12 @@
     cloudEnvironments="public"
 />
 
-# How to get Identity Protection
-
-Azure AD Identity Protection is a feature of Enterprise Mobility + Security E5 edition.
+# I don’t have the right license for Identity Protection
 
 ## **Recommended steps**
 
-* Sign-up for a free trial of Enterprise Mobility + Security. [Learn more](https://aka.ms/emstrial)
+Ensure that you have Azure AD Premium Plan 2 or Enterprise Mobility + Security E5.
 
 ## **Recommended documents**
-[How to get Identity Protection](https://aka.ms/emstrial) <br>
-[How to enable Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)
+[Azure AD Premium editions](https://docs.microsoft.com/azure/active-directory/active-directory-editions) <br>
+[Enable Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)

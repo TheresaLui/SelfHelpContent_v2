@@ -2,8 +2,8 @@
 	pageTitle="MFA Server (On-Premises)/Installing or configuring RADIUS authentication"
 	description="MFA Server (On-Premises)/Installing or configuring RADIUS authentication"
 	service="microsoft.multifactorauthentication"
-	resource="Microsoft_AAD_IAM"
-	authors="yossib"
+	resource=""
+	authors="kgremban"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32336331"
@@ -22,7 +22,7 @@
 
 ## **Recommended documents**
 
-[Integrate RADIUS authentication with Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-radius)  
-[Remote Desktop Gateway and Azure Multi-Factor Authentication Server using RADIUS](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-rdg)  
-[Advanced scenarios with Azure Multi-Factor Authentication and third-party VPN solutions](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-advanced-vpn-configurations)  
-[Integrate your existing NPS infrastructure with Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-nps-extension)  
+- [Integrate RADIUS authentication with Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-radius)  
+- [Remote Desktop Gateway and Azure Multi-Factor Authentication Server using RADIUS](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-rdg)  
+- [Advanced scenarios with Azure Multi-Factor Authentication and third-party VPN solutions](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-advanced-vpn-configurations)  
+- [Integrate your existing NPS infrastructure with Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-nps-extension)  
