@@ -21,7 +21,6 @@ Connections attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$
 <!--/issueDescription-->
 
 Typically, the service administrator can use the following steps to add the login:<br>
-
 1. Login to the server using SQL Server Management Studio (SSMS).<br> 
 2. Check whether the login name is disabled by using the following SQL query:
 ```
@@ -70,7 +69,6 @@ EXEC sp_addrolemember N’db_owner’, N’(user_name, sysname, user_name)’
 ```
 GO      
 ```
-**Note** that you can also use **sp_addrolemember** to map specific users to specific database roles.<br> 
-
+**Note** that you can also use **sp_addrolemember** to map specific users to specific database roles.<br>
 For more information, refer to [Managing Databases and Logins in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)
 
