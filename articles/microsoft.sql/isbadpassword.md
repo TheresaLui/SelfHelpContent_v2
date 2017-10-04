@@ -44,7 +44,7 @@ Alter login (User name) enable
 	GO
 	```
 5. Double-click **Database**.<br>
-6. Select the database to which you want to grant user the permission.<br> 
+6. Select the database to which you want to grant user the permission.<br>
 7. Double-click **Security**.<br>
 8. Right-click **Users**, and then select **New User**.<br>
 9. In the generated script with placeholders, you can edit and run the following SQL query:
