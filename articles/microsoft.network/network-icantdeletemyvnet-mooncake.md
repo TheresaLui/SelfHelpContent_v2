@@ -2,7 +2,7 @@
 	pageTitle="I can't delete my virtual network"
 	description="I can't delete my virtual network"
 	service="microsoft.network"
-	resource="virtualnetwork"
+	resource="virtualnetworks"
 	authors="anavin"
 	displayOrder="1"
 	selfHelpType="resource"
