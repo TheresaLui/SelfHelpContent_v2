@@ -42,7 +42,7 @@
 			]
 		},{
 			"id": "workloadmitigation_details",
-			"order": 3,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Did you take any steps to mitigate the problem?",
 			"required": false,
