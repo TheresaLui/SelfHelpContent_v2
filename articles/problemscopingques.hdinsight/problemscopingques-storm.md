@@ -44,25 +44,25 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Did you take any steps to mitigate the problem?",
 			"required": false,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": false,
 			"hints": [{
 					"text": "If so, describe the mitigation steps here."
 				}
 			]
 		},{
 			"id": "workloadcustomization_details",
-			"order": 3,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Are there any third party tools/extensions deployed on the cluster?",
 			"required": false,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": false,
 			"hints": [{
 					"text": "If so, list the tools/extensions here."
 				}
 			]
 		},{
 			"id": "learn_more_text",
-			"order": 4,
+			"order": 5,
 			"controlType": "infoblock",
 			"content": "<a href='https://hdinsight.github.io/storm/storm-landing'>Learn more</a> about commonly faced issues with using Storm on HDInsight"
 		}
