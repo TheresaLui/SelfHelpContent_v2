@@ -13,7 +13,7 @@
 
 # configuration and management of dns zone or record
 
-## **Recommended Zone and Records documents**
+## **Recommended Documents**
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)<br>
 [How to manage DNS records using the Azure portal](https://docs.microsoft.com/azure/dns/dns-operations-recordsets-portal)<br>
 [Azure DNS troubleshooting guide](https://docs.microsoft.com/azure/dns/dns-troubleshoot)<br>
