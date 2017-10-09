@@ -25,9 +25,9 @@
 			"id": "hostname",
 			"order": 2,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please ssh into the head node of the cluster and run the command: "hostname -f". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: "hostname -f". Paste the output below",
 			"required": false,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Command output"
 				}
@@ -36,9 +36,9 @@
 			"id": "nslookup",
 			"order": 3,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please ssh into the head node of the cluster and run the command: "nslookup <headnode_fqdn>". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: "nslookup <headnode_fqdn>". Paste the output below",
 			"required": false,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Command output"
 				}
@@ -47,9 +47,9 @@
 			"id": "nslookup",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please ssh into the head node of the cluster and run the command: "dig @168.63.129.16 <headnode_fqdn>". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: "dig @168.63.129.16 <headnode_fqdn>". Paste the output below",
 			"required": false,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Command output"
 				}
@@ -63,8 +63,6 @@
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
 				}
 			]
 		}, {
