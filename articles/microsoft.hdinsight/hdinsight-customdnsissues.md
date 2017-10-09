@@ -18,5 +18,5 @@
 * Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'Failed to connect to Azure Storage Account; Failed to connect to Azure SQL; HostName Resolution failed', Please follow https://go.microsoft.com/fwlink/?linkid=853974 to fix it.
 
 ## **Recommended Steps**
-The most likely cause for this failure is that Azure's recursive resolvers may be missing in your DNS chain. To fix this issue, please follow the steps in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns).
+The most likely cause for this failure is that Azure's recursive resolvers may be missing in your DNS chain. To fix this issue, please follow the steps in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html).
 
