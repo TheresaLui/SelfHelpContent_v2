@@ -1,15 +1,78 @@
 <properties
-   pageTitle="Scoping questions for HDInsight Custom DNS Issues"
-   description="Scoping questions for HDInsight Custom DNS Issues"
-   authors="ansiva"
-   selfHelpType="supportTopicBasedScopingQuestions"
-   supportTopicIds="32588502"
-  productPesIds="15078"
-  cloudEnvironments="public"
+	pageTitle="Custom DNS Issues"
+	description="Custom DNS Issues"
+	authors="ansiva"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588505"
+	productPesIds="15078"
+	cloudEnvironments="public"
+	schemaVersion="1"
 />
-# HDInsight Spark Issues
-* Did you follow the troubleshooting steps at ---?
-* What is the output for the following commands? (ssh into the cluster head node to run these):
-   1. `Hostname -f`
-   1. `nslookup <headnode_fqdn>` (e.g.nslookup hn1-hditest.5h6lujo4xvoe1kprq3azvzmwsd.hx.internal.cloudapp.net)
-   1. `dig @168.63.129.16 <headnode_fqdn>` (e.g.dig @168.63.129.16 hn1-hditest.5h6lujo4xvoe1kprq3azvzmwsd.hx.internal.cloudapp.net)
+# Custom DNS Issues
+---
+{
+	"resourceRequired": true,
+	"title": "Custom DNS Issues",
+	"fileAttachmentHint": "",
+	"formElements": [{
+			{
+			"id": "custom_dns_tsg",
+			"order": 1,
+			"controlType": "infoblock",
+			"displayLabel": Before submitting the case, please follow the steps on https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html to troubleshoot issues with custom DNS setup. Make sure that the Azure recursive resolver IP is in your DNS server list.",
+			"required": false
+		}, {
+			"id": "hostname",
+			"order": 2,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please ssh into the head node of the cluster and run the command: "hostname -f". Paste the output below",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"hints": [{
+					"text": "Command output"
+				}
+			]
+		}, {
+			"id": "nslookup",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please ssh into the head node of the cluster and run the command: "nslookup <headnode_fqdn>". Paste the output below",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"hints": [{
+					"text": "Command output"
+				}
+			]
+		}, {
+			"id": "nslookup",
+			"order": 4,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please ssh into the head node of the cluster and run the command: "dig @168.63.129.16 <headnode_fqdn>". Paste the output below",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"hints": [{
+					"text": "Command output"
+				}
+			]
+		}, {
+			"id": "additional_details",
+			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide these details",
+			"required": false,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				}, {
+					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+				}
+			]
+		}, {
+			"id": "learn_more_text",
+			"order": 6,
+			"controlType": "infoblock",
+			"content": "<a href='https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html'>Learn more</a> about about commonly faced issues with using Custom DNS on HDInsight"
+		}
+	]
+}
+
