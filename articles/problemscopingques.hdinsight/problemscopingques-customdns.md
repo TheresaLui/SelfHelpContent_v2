@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Custom DNS Issues"
 	description="Custom DNS Issues"
-	authors="ansiva"
+	authors="ansi12"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588505"
 	productPesIds="15078"
