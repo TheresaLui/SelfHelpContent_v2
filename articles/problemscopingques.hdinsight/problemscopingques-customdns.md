@@ -24,7 +24,7 @@
 			"id": "hostname",
 			"order": 2,
 			"controlType": "multilinetextbox",
-			"displayLabel": "ssh into the head node of the cluster and run the command: "hostname -f". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: 'hostname -f'. Paste the output below",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"hints": [{
@@ -35,7 +35,7 @@
 			"id": "nslookup",
 			"order": 3,
 			"controlType": "multilinetextbox",
-			"displayLabel": "ssh into the head node of the cluster and run the command: "nslookup <headnode_fqdn>". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: 'nslookup <headnode_fqdn>'. Paste the output below",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"hints": [{
@@ -46,7 +46,7 @@
 			"id": "dig",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "ssh into the head node of the cluster and run the command: "dig @168.63.129.16 <headnode_fqdn>". Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: 'dig @168.63.129.16 <headnode_fqdn>'. Paste the output below",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"hints": [{
