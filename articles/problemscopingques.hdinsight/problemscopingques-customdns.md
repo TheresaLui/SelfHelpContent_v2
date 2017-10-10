@@ -15,7 +15,6 @@
 	"title": "Custom DNS Issues",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			{
 			"id": "custom_dns_tsg",
 			"order": 1,
 			"controlType": "infoblock",
@@ -73,4 +72,4 @@
 		}
 	]
 }
-
+---
