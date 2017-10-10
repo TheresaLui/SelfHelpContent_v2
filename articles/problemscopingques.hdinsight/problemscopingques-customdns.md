@@ -58,7 +58,7 @@
 			"id": "additional_details",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide any other details relevant to the problem",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
