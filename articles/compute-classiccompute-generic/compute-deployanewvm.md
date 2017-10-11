@@ -22,6 +22,6 @@
 * [Understand the available sizes for Windows VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Understand how to use Windows client images in Azure for dev/test scenarios](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-client-images?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Understand Azure Hybrid Use Benefit for Windows Server](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hybrid-use-benefit-licensing?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
-* [Understanding SkuNotAvailable - Some SKU series are unavailable for the selected subscription for this region] (https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)<br>
+* [Understanding SkuNotAvailable - Some SKU series are unavailable for the selected subscription for this region](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)<br>
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-image)<br>
 * [Diagnose & recover from boot failures](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2)<br>
