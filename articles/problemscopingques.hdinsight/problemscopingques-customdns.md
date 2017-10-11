@@ -18,8 +18,7 @@
 			"id": "custom_dns_tsg",
 			"order": 1,
 			"controlType": "infoblock",
-			"displayLabel": "Before submitting the case, please follow the steps in the <a href='https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html'>Custom DNS trouble shooting guide</a> to troubleshoot issues with custom DNS setup. Make sure that the Azure recursive resolver IP is in your DNS server list.",
-			"required": false
+			"content": "Before submitting the case, please follow the steps in the <a href='https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html'>Custom DNS trouble shooting guide</a> to troubleshoot issues with custom DNS setup. Make sure that the Azure recursive resolver IP is in your DNS server list."
 		}, {
 			"id": "hostname",
 			"order": 2,
@@ -35,7 +34,7 @@
 			"id": "nslookup",
 			"order": 3,
 			"controlType": "multilinetextbox",
-			"displayLabel": "ssh into the head node of the cluster and run the command: 'nslookup <headnode_fqdn>'. Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: 'nslookup headnode_fqdn', where 'headnode_fqdn' is the fully qualified domain name of the headnode. Paste the output below",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"hints": [{
@@ -46,7 +45,7 @@
 			"id": "dig",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "ssh into the head node of the cluster and run the command: 'dig @168.63.129.16 <headnode_fqdn>'. Paste the output below",
+			"displayLabel": "ssh into the head node of the cluster and run the command: 'dig @168.63.129.16 headnode_fqdn', where 'headnode_fqdn' is the fully qualified domain name of the headnode. Paste the output below",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"hints": [{
