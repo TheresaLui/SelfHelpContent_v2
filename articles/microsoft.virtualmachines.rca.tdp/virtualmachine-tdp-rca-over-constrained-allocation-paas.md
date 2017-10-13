@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 #We detected a recent issue with your deployment attempt:
- 
+
 <!--issueDescription-->
 We identified that your deployment failed for <!--$csname-->Cloud Service<!--/$csname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in the cluster hosting your Cloud Service. If the requested virtual machine size is supported in the region, then the cluster where your Cloud Service is hosted does not support the VM Size you are trying to deploy.
 <!--/issueDescription-->
