@@ -9,7 +9,6 @@
 	schemaVersion="1"
 />
 # SAP HANA LARGE INSTANCES
----
 {
 	"resourceRequired": false,
 	"title": "Configure SAP HANA large instances",
@@ -20,15 +19,13 @@
 			"controlType": "dropdown",
 			"displayLabel": "Is this an Azure VM or a SAP HANA Large Instance",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": 
-			[	{
+			"dropdownOptions": [{
 					"value": "Azure VM",
 					"text": "Azure VM(G-Series, M-Series,DS-Series etc)"
-				}, {
+				},{
 					"value": "SAP HANA Large Instance",
 					"text": "SAP HANA Large Instance"
-				}
-			],
+				}],
 			"required": true
 		}, {
 			"id": "problem_start_date",
@@ -41,8 +38,7 @@
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Select the SAP HANA Large Instances Region",
-			"dropdownOptions": 
-			[	{
+			"dropdownOptions": [{
 					"value": "West US",
 					"text": "West US"
 				}, {
