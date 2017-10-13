@@ -22,10 +22,8 @@ We identified that your deployment failed for <!--$csname-->Cloud Service<!--/$c
 
 To self-mitigate, please deploy a new Cloud Service or change the VM Size for this Cloud Service.<br>
 
-To learn more about self-mitigatation:<br>
-* Products available by region, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
+To learn more about self-mitigatation, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
 
-To learn more about sizes supported in each region:<br>
-* Products available by region, [follow these instructions](https://azure.microsoft.com/regions/services)<br>
+To learn more about sizes supported in each region, [review this document](https://azure.microsoft.com/regions/services)<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>

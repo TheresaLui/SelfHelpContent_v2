@@ -23,7 +23,7 @@ We identified that your deployment failed for <!--$vmname-->Virtual machine<!--/
 Please configure the image and deploy the VM with the same method (both as generalized or both as specialized). Additionally, please review the below documentation on specialized and generalized images.<br>
 
 To learn more about generalized and specialized VMs for **Windows**:<br>
-* [Learn how to prepare a Windows VHD or VHDx to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
+* [Learn how to prepare a Windows VHD to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 * [Learn how to use a specialized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)<br>
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed)<br>
 * [Learn how to generalize your Windows VM and create an image from it.](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
