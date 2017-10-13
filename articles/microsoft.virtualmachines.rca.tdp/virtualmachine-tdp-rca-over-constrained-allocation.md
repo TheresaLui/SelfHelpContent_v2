@@ -14,10 +14,10 @@
 	productPesIds="14749,15571"  
 	cloudEnvironments="public"
 />
-#We detected a recent issue with your deployment attempt:
+# We detected a recent issue with your deployment attempt:
 
 <!--issueDescription-->
-We identified that your deployment failed for <!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in this region. 
+We identified that your deployment failed for **<!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in this region. 
 <!--/issueDescription-->
 
 This is not a quota issue. To self-mitigate, please use a different VM Size Family or a different region.<br>

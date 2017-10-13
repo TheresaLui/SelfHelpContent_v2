@@ -14,21 +14,23 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
-#We detected a recent issue with your deployment attempt:
+# We detected a recent issue with your deployment attempt:
 
 <!--issueDescription-->
-We identified that your deployment failed for <!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. Provisioning of the OS image failed. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
+We identified that your deployment failed for **<!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. Provisioning of the OS image failed. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
 <!--/issueDescription-->
 
 Please configure the image and deploy the VM with the same method (both as generalized or both as specialized). Additionally, please review the below documentation on specialized and generalized images.<br>
 
 To learn more about generalized and specialized VMs for **Windows**:<br>
+
 * [Learn how to prepare a Windows VHD to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 * [Learn how to use a specialized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)<br>
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed)<br>
 * [Learn how to generalize your Windows VM and create an image from it.](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 
 To learn more about generalized and specialized VMs for **Linux**:<br>
+
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Learn how to use a specialized image](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
 
