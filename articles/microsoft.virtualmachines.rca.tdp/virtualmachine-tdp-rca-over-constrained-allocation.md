@@ -17,10 +17,10 @@
 #We detected a recent issue with your deployment attempt:
 
 <!--issueDescription-->
-We identified that your deployment failed for <!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in the cluster hosting your Cloud Service. It is possible that the requested Virtual Machine size is not supported in the region.
+We identified that your deployment failed for <!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in this region. 
 <!--/issueDescription-->
 
-Please use a different VM Size or create a new Cloud Service with the desired VM Size.<br>
+This is not a quota issue. To self-mitigate, please use a different VM Size Family or a different region.<br>
 
 To learn more about sizes supported in each region:<br>
 * Products available by region, [follow these instructions](https://azure.microsoft.com/regions/services/)<br>
