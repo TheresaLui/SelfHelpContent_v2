@@ -27,4 +27,4 @@ An authentication related error occurred (during authentication or during access
 		* https://login.windows.net
 
 ## **Recommended documents**
-[Detailed security zone verification steps](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-analytics-troubleshooting#authentication)
+[Detailed security zone verification steps](https://docs.microsoft.com/azure/application-insights/app-insights-analytics-troubleshooting#authentication)
