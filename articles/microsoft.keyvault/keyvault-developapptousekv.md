@@ -27,25 +27,7 @@
 	```
 **Troublshooting**
 
-* How do I associate a certificate with an Azure AD application?<br>
-	```
-		$x509 = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
-		$x509.Import("C:\data\KVWebApp.cer")
-		$credValue = [System.Convert]::ToBase64String($x509.GetRawCertData())
-
-		# If you used different dates for makecert then adjust these values
-		$now = [System.DateTime]::Now
-		$yearfromnow = $now.AddYears(1)
-
-		$adapp = New-AzureRmADApplication -DisplayName "KVWebApp" -HomePage "http://kvwebapp" -IdentifierUris "http://kvwebapp" -CertValue $credValue -StartDate $now -EndDate $yearfromnow
-
-		$sp = New-AzureRmADServicePrincipal -ApplicationId $adapp.ApplicationId
-
-		Set-AzureRmKeyVaultAccessPolicy -VaultName 'contosokv' -ServicePrincipalName $sp.ServicePrincipalName -PermissionsToSecrets all -ResourceGroupName 'contosorg'
-
-		# get the thumbprint to use in your app settings
-		$x509.Thumbprint
-	```
+* To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)<br>
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
