@@ -12,11 +12,10 @@
     cloudEnvironments="public, MoonCake"
 />
 
-# Cluster Creation Fails Due To an Issue With Network Security Group Rules
-## Error codes: InvalidNetworkSecurityGroupSecurityRules or InvalidNetworkConfigurationErrorCode
-## You might see one of the following errors descriptions:
-* The security rules in the Network Security Group configured with subnet does not allow required inbound and/or outbound connectivity. For more information please visit http://go.microsoft.com/fwlink/?linkid=785236 or contact support.
-* Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'Failed to connect to Azure Storage Account; Failed to connect to Azure SQL; HostName Resolution failed', Please follow https://go.microsoft.com/fwlink/?linkid=853974 to fix it.
-
-## **Recommended Steps**
-If you have set up a Network Security Group for the cluster, please follow the steps listed in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-nsg.html) to make sure that these rules are set up correctly.
+# Cluster Creation Fails With InvalidNetworkSecurityGroupSecurityRules or InvalidNetworkConfigurationErrorCode
+## InvalidNetworkSecurityGroupSecurityRules
+* Error Description: The security rules in the Network Security Group configured with subnet does not allow required inbound and/or outbound connectivity.
+* Recommended Steps: Please follow this [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-nsg) to resolve your issue.
+## InvalidNetworkConfigurationErrorCode
+* Error Description: Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'Failed to connect to Azure Storage Account' or 'Failed to connect to Azure SQL'
+* Recommended Steps: Please follow this [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#2-errordescription-contains-failed-to-connect-to-azure-storage-account-or-failed-to-connect-to-azure-sql) to resolve your issue.
