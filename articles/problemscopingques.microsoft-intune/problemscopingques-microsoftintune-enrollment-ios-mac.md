@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<a href='https://aka.ms/intunetroubleshooting'>Click here</a> to troubleshoot your issue with the new Intune Troubleshooting Blade!"
+			"content": "<a href='https://aka.ms/intunetroubleshooting'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade","<a href='https://aka.ms/intunetroubleshooting'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
