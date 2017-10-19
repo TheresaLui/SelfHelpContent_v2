@@ -18,7 +18,7 @@
 
 <!--issueDescription-->
 $VM:
-$Recommendations
+The following issues were found that will cause your migration to fail: $Recommendations
 <!--/issueDescription-->
 
 To view these and other unsupported features and best-practices, [please visit this link](https://docs.microsoft.com/en-us/azure/virtual-machines/$OS/migration-classic-resource-manager-overview#unsupported-features-and-configurations)<br>
