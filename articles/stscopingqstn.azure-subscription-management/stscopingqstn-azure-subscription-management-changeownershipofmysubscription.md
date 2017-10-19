@@ -5,7 +5,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32454918"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 # Change ownership of my subscription
 *	Issue description

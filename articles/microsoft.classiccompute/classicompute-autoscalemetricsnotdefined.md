@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # When using Autoscale, I get an email stating 'metrics data not available'
