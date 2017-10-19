@@ -17,36 +17,14 @@
 
 * Create a New Key Vault<br>
 [Key Vault Getting Started Guide](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-* This is how to create a key vault using Azure CLI 2.0.<br>
-    ``` 
-		az login 
-		az group create --name "ContosoResourceGroup" --location "East Asia" 
-		az provider register --namespace Microsoft.KeyVault 
-		az keyvault create --name "testVault" --resource-group "ContosoResourceGroup" --location "East Asia" --enable-soft-delete 
-	```
 * You can also create a key vault using the Azure Portal.<br>
 [Create a Key Vault with Azure Portal](https://ms.portal.azure.com/#create/Microsoft.KeyVault)
+
 **Troublshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
-	```
-		# Connect to Azure AD 
-		Connect-AzureAD 
-
-		# Create Azure Active Directory Security Group 
-		$aadGroup = New-AzureADGroup -Description "Contoso App Group" -DisplayName "ContosoAppGroup" -MailEnabled 0 -MailNickName none -SecurityEnabled 1 
-
-		# Find and add your applications (ServicePrincipal ObjectID) as members to this group 
-		$spn = Get-AzureADServicePrincipal –SearchString "ContosoApp1" 
-		Add-AzureADGroupMember –ObjectId $aadGroup.ObjectId -RefObjectId $spn.ObjectId 
-
-		# You can add several members to this group, in this fashion. 
-
-		# Set the Key Vault ACLs 
-		Set-AzureRmKeyVaultAccessPolicy –VaultName ContosoVault –ObjectId $aadGroup.ObjectId -PermissionToKeys all –PermissionToSecrets all –PermissionToCertificates all 
-	```
 [Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**

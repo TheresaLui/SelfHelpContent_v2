@@ -1,18 +1,18 @@
 <properties
-	pageTitle="p2s vpn issues"
-	description="p2s vpn issues"
+	pageTitle="Point to site VPN connectivity issues"
+	description="Point to site VPN connectivity issues"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32542248"
+	supportTopicIds="32591156"
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
 />
 
-# p2s vpn issues
+# Point to site VPN connectivity issues
 
 ## **Recommended documents**
 Troubleshoot [point-to-site connection issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems)<br>
