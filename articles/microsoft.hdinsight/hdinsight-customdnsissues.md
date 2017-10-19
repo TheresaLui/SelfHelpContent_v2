@@ -12,11 +12,10 @@
     cloudEnvironments="public, MoonCake"
 />
 
-# Cluster Creation Fails Due To an Issue With Custom DNS Setup
-## Error code: InvalidNetworkConfigurationErrorCode
+# Cluster Creation Fails With InvalidNetworkConfigurationErrorCode
 ## ErrorDescription
-* Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'Failed to connect to Azure Storage Account; Failed to connect to Azure SQL; HostName Resolution failed', Please follow https://go.microsoft.com/fwlink/?linkid=853974 to fix it.
+Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'HostName Resolution failed'
 
-## **Recommended Steps**
-The most likely cause for this failure is that Azure's recursive resolvers may be missing in your DNS chain. To fix this issue, please follow the steps in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-customdns.html).
+## Recommended Steps
+The most likely cause for this failure is that Azure's recursive resolvers may be missing in your DNS chain. To fix this issue, please follow the steps in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#1-errordescription-contains-hostname-resolution-failed).
 
