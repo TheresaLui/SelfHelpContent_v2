@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Changing Key Vault Type for Azure Key Vault"
-	description="Changing Key Vault Type for Azure Key Vault"
+	pageTitle="How to Set Key Vault Type for Azure Key Vault"
+	description="Set Key Vault Type for Azure Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
@@ -12,20 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# How to Change Key Vault Type for Azure Key Vault
+# How to Set Key Vault Type for Azure Key Vault
 ## **Recommended steps**
 
-* There are two different types of Key Vaults: "Premium" and "Standard". Here is an example of how to create a "Premium" and "Standard" key vault, respectively. One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys. Assume that your vault name is "myvault" and your resource group name is "yourResourceGroup".<br>
-* Azure CLI 2.0:<br>
-    ```
-		az keyvault create --name 'myvault' --resource-group 'yourResourceGroup' --location 'East Asia' --sku 'Premium'
-		az keyvault create --name 'myvault' --resource-group 'yourResourceGroup' --location 'East Asia' --sku 'Standard'
-	```
-* Azure PowerShell:<br>
-	```
-		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Premium'
-		New-AzureRmKeyVault -VaultName 'myvault' -ResourceGroupName 'yourResourceGroup' -Location 'East Asia' -SKU 'Standard'
-	```
+* There are two different types of Key Vaults: "Premium" and "Standard". One example of a scenario where you would create a "Premium" vault would be if you have a vault subscription that supports creation of HSM-protected keys and you want to create HSM-protected keys.<br>
+
 **Troublshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>

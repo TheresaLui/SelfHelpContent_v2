@@ -17,40 +17,11 @@
 
 * How to Create and Manage a Key Vault<br>
 [Key Vault Getting Started Guide in PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)
-* The following commands are for setting up a key vault with a key and secret in it using Azure CLI 2.0. Premium SKU<br>  
-    ```
-        az login 
-        az group create --name "ContosoResourceGroup" --location "East Asia" 
-        az provider register --namespace Microsoft.KeyVault 
-        az keyvault create --name "testVault" --resource-group "ContosoResourceGroup" --location "East Asia" --enable-soft-delete 
-        az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
-        az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
-    ```
 * Next you need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br> Then, authorize the Application to use secrets and keys.<br>
-    ``` 
-		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign 
-    	az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --secret-permissions get 
-	```
-* The following are commands for Azure CLI 2.0 with Soft-Delete. Examples for Soft-Delete with PowerShell are in a link below.<br>
-    ``` 
-        Delete key:
-        az keyvault key delete --name ContosoFirstKey --vault-name testVault  
-        List deleted keys:
-        az keyvault key list-deleted --vault-name testVault  
-        Recover Key:
-        az keyvault key recover --name ContosoFirstKey --vault-name testVault  
-        Permanently Delete Key:
-        az keyvault key purge --name ContosoFirstKey --vault-name testVault 
-    ```
-* On an existing key vault you can enable logging with the following set of PowerShell commands. The first command is used to login via PowerShell to your Azure account.<br>
-    ``` 
-        Login-AzureRmAccount
-        $sa = New-AzureRmStorageAccount -ResourceGroupName 'ContosoResourceGroup' -Name '<yourStorageAccountName>' -Type Standard\_LRS -Location 'East US'
-        $kv = Get-AzureRmKeyVault -VaultName 'testVault'
-        Set-AzureRmDiagnosticSetting -ResourceId $kv.ResourceId -StorageAccountId $sa.Id -Enabled $true -Categories AuditEvent 
-	```
+
 **Troublshooting**
 
+* To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/) <br>
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 [Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 * I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
@@ -72,3 +43,4 @@
 [Key Vault Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
 [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
 [Secure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
+[Key Vault Throttling limits](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)<br>

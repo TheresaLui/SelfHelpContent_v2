@@ -15,23 +15,8 @@
 # Managing Users and Keys in Key Vault
 ## **Recommended steps**
 
-* Managing Users and Keys<br>
-* Authorize an application to use a key or secret. Assume for this example that the service principal name (spn) is "yourSPN" and that the user principal name is "yourUPN".<br>
-    ```
-        az keyvault set-policy --name 'ContosoKeyVault' --spn yourSPN --key-permissions decrypt sign
-        az keyvault set-policy --name 'ContosoKeyVault' --upn yourUPN --secret-permissions get
-    ```
-* The following are commands for Azure CLI 2.0 with Soft-Delete.<br>
-    ``` 
-        Delete key:
-        az keyvault key delete --name ContosoFirstKey --vault-name testVault  
-        List deleted keys:
-        az keyvault key list-deleted --vault-name testVault  
-        Recover Key:
-        az keyvault key recover --name ContosoFirstKey --vault-name testVault  
-        Permanently Delete Key:
-        az keyvault key purge --name ContosoFirstKey --vault-name testVault 
-    ```
+*Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+
 **Troublshooting**
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>

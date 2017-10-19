@@ -18,22 +18,11 @@
 * Authorizing Users to Create Keys<br>
 * You need to [Register the application in Azure Active Directory](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)
 * Then, authorize the Application to use secrets and keys.<br>
-    ``` 
-		az keyvault set-policy --name 'testVault' --spn yourApplicationClientId --key-permissions decrypt sign
-		az keyvault set-policy --name 'ContosoKeyVault' --upn yourUPN --secret-permissions get 
-	```
+
 **Troublshooting**
 
 * Are you not sure how to create a key vault? 
-Before creating keys you will need to have a key vault set up. This is how to create a key vault with a key and secret in it using Azure CLI 2.0.<br>
-    ```
-        az login 
-        az group create --name "ContosoResourceGroup" --location "East Asia" 
-        az provider register --namespace Microsoft.KeyVault 
-        az keyvault create --name "testVault" --resource-group "ContosoResourceGroup" --location "East Asia" --enable-soft-delete 
-        az keyvault key create --vault-name 'testVault' --name 'ContosoFirstKey' --protection software 
-        az keyvault secret set --vault-name 'testVault' --name 'SQLPassword' --value 'Pa$$w0rd' 
-	```
+[Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 > Having problems authenticating to your key vault?<br>
 >* Currently, the new feature Managed Service Identity (MSI) is the easiest way to authenticate. Managed Service Identity (MSI) allows you to automatically provision AAD Identities. For further details please see the following link to the sample using [Key Vault with MSI in an application in .NET](https://github.com/Azure-Samples/app-service-msi-keyvault-dotnet/) and related [MSI with App Service and Functions tutorial](https://docs.microsoft.com/azure/app-service/app-service-managed-service-identity).<br> 
 
