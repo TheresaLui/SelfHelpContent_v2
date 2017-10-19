@@ -1,12 +1,12 @@
 ﻿<properties
 	pageTitle="ASM to ARM Failure Health Check RCA"
 	description="RCA - ASM to ARM Failure Health Check RCA"
-	infoBubbleText="Found recent deployment failure. See details on the right."
+	infoBubbleText="Found recent deployment failure. See details on the right"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
 	displayOrder=""
-	articleId="ASM2ARM_RCA-migrationhealthchecks.md
+	articleId="ASM2ARM_RCA-migrationhealthchecks"
 	diagnosticScenario="ASM2ARMHealthChecks"
 	selfHelpType="rca"
 	supportTopicIds="32513964"
