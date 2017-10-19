@@ -15,8 +15,13 @@
 	"title": "Set up iOS and Mac device management",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "What service are you having the issue with?",
+			"id": "learn_more_text",
 			"order": 1,
+			"controlType": "infoblock",
+			"content": "<a href='https://aka.ms/intunetroubleshooting'>Click here</a> to troubleshoot your issue with the new Intune Troubleshooting Blade!"
+		},  {
+			"id": "What service are you having the issue with?",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
@@ -40,7 +45,7 @@
 			"required": true
 		},  {
 			"id": "iOSMAC_problem_determination",
-			"order": 2,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
@@ -70,7 +75,7 @@
 			"required": true
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 3,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
@@ -82,7 +87,7 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 4,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -102,7 +107,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 5,
+			"order": 6,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -119,7 +124,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 6,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -140,13 +145,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 7,
+			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 8,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
