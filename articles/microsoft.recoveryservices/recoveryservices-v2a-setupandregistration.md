@@ -61,6 +61,6 @@ Common issues during Setup & Registration of a Configuration Server
 * [Modifying Configuration Server's proxy settings](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#modifying-proxy-settings-for-configuration-server) <br>
 * [Scale Limits for Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#sizing-requirements-for-a-configuration-server) <br>
 * [Delete or Unregister a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server) <br>
-* [Foprce Delete or Unregister a Configuration Server using Azure PowerShell] (https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell) <br>
+* [Foprce Delete or Unregister a Configuration Server using Azure PowerShell](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell) <br>
 * [Renew Secure Socket Layer (SSL) Certificate on your Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#renew-configuration-server-secure-socket-layerssl-certificates)
 
