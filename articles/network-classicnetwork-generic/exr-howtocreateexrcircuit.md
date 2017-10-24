@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 Create and modify an ExpressRoute circuit using [portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager), [PowerShell](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-arm), or [Azure CLI](https://docs.microsoft.com/azure/expressroute/howto-circuit-cli)
-Configure CPE examples
+[Configure CPE examples]
 (https://docs.microsoft.com/azure/expressroute/expressroute-config-samples-routing)
