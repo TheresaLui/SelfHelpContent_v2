@@ -21,7 +21,7 @@ To resolve the most common issues, try one or more of the following methods.
 	* [Create a VM (Classic/RDFE) with multiple NICs](https://docs.microsoft.com/azure/virtual-network/virtual-network-deploy-multinic-classic-ps)
 	* [View network interfaces for a VM](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-view-nic)
 2. Azure does not assign a default gateway to additional (secondary) network interfaces attached to a virtual machine. Therefore, you are unable to communicate with resources outside the subnet that a secondary network interface is in, by default. Secondary network interfaces can, however, communicate with resources outside their subnet, though the steps outlined below to enable communication are different for different operating systems.
-	* [Windows](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface-vm#routing-within-a-virtual-machine-operating-system-with-multiple-network-interfaces)
+	* [Windows](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#routing-within-a-virtual-machine-operating-system-with-multiple-network-interfaces)
 	* [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/multiple-nics#configure-guest-os-for-multiple-nics)<br>
 
 ## **Recommended documents**
