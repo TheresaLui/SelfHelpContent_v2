@@ -58,7 +58,7 @@
 					"text": "Australia Southeast"
 				},
 				{
-					"value":"other"
+					"value":"other",
 					"text":"other"
 				}
 			],
