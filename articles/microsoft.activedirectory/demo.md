@@ -8,9 +8,9 @@
 	displayOrder="100"
 	cloudEnvironments="public"
 />
-     
-# Demo - Unable to enable Azure AD Domain Services for your Azure AD Directory
 
+# Demo - Unable to enable Azure AD Domain Services for your Azure AD Directory
+    
 ## **Recommended steps**
 Click the error message you encounter, for appropriate troubleshooting steps:
 
