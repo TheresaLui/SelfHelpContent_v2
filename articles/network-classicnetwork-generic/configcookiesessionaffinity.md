@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-[Create, start or delete](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-gateway-arm) an application gateway using Azure Resource Manager</br>
+[Create, start or delete](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-gateway-arm) an application gateway using Azure Resource Manager<br>
 [Troubleshoot](https://support.microsoft.com/help/4033827/troubleshooting-azure-application-gateway-session-affinity-issues) application gateway session affinity issues
