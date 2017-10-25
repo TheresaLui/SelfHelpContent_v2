@@ -12,7 +12,9 @@
 # Demo - Unable to enable Azure AD Domain Services for your Azure AD Directory
 
 ## **Recommended steps**
-Click the error message you encounter, for appropriate troubleshooting steps. It is recommended to use Azure AD Connect to configure federation with Azure Active Directory. Azure AD Connect provides easy steps to configure and maintain federation. If user sign-in is failing, see if the below common resolution can help.<br> 
+Click the error message you encounter, for appropriate troubleshooting steps. 
+
+It is recommended to use Azure AD Connect to configure federation with Azure Active Directory. Azure AD Connect provides easy steps to configure and maintain federation. If user sign-in is failing, see if the below common resolution can help.
 
 *	[The name contoso100.com is already in use on this network. Specify a name that is not in use.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#domain-name-conflict)
 *	[Domain Services could not be enabled in this Azure AD tenant. The service does not have adequate permissions to the application called 'Azure AD Domain Services Sync'. Delete the application called 'Azure AD Domain Services Sync' and then try to enable Domain Services for your Azure AD tenant.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#inadequate-permissions).  
