@@ -16,13 +16,6 @@
 
 ## **Recommended documents**
 
-[How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
-
-Documentation on how to configure authentication with various Identify providers <br>
-
-* [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)
-* [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)
-* [How to configure your app to use Google login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-google-authentication)
-* [How to configure your app to use Microsoft Account login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-microsoft-authentication)
-* [How to configure your app to use Twitter login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-twitter-authentication)
-
+[Azure Websites Authentication/Authorization](https://azure.microsoft.com/blog/azure-websites-authentication-authorization/)<br>
+[New identity providers, new sign-in options, and greater flexibility in access control](https://azure.microsoft.com/blog/announcing-app-service-authentication-authorization/)<br>
+[How To Configure TLS Mutual Authentication for Web App](https://azure.microsoft.com/documentation/articles/app-service-web-configure-tls-mutual-auth/)

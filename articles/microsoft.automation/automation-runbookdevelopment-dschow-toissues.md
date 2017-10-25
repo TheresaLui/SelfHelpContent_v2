@@ -10,7 +10,7 @@
     supportTopicIds="32501538"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # runbook development/dsc: how-to issues

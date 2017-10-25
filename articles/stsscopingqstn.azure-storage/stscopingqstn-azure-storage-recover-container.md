@@ -5,7 +5,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32551675"
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Storage Recover Deleted Container

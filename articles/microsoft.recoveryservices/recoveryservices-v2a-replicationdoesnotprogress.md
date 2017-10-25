@@ -9,7 +9,7 @@
 	supportTopicIds="32536441"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Replication does not progress

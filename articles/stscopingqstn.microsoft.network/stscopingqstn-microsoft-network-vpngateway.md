@@ -5,7 +5,7 @@
    selfHelpType="supportTopicBasedScopingQuestions"
    supportTopicIds="32542246,32542247,32542248,32542249,32542250,32542251"
   productPesIds="16094"
-  cloudEnvironments="public"
+  cloudEnvironments="public, MoonCake"
 />
 # VPN Gateway Issues
 *  Issue description
