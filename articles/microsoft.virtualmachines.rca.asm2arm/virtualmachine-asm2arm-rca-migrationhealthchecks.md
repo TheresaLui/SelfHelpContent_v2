@@ -17,7 +17,7 @@
 # We have run diagnostics on your VM Migration and the issue that is preventing your VM Migration:
 
 <!--issueDescription-->
-$VM:
+$vmname:
 The following issues were found that will cause your migration to fail: $Recommendations
 <!--/issueDescription-->
 
