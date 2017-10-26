@@ -15,7 +15,7 @@
 # Managing Users and Keys in Key Vault
 ## **Recommended steps**
 
-*Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
+* Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
 
 **Troublshooting**
 
