@@ -102,7 +102,7 @@
 			"id": "What Operating System(s) are impacted?",
 			"order": 7,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "Select device types that are impacted",
+			"displayLabel": "What Operating System(s) are impacted?",
 			"dropdownOptions": [{
 					"value": "Windows 10 1511 or Ealier",
 					"text": "Windows 10 1511 or Ealier"
