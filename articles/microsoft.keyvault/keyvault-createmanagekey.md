@@ -1,6 +1,6 @@
 <properties
 	pageTitle="How to Create and Manage Keys"
-	description="Creating a New Key Vault"
+	description="How to Create and Manage Keys"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Importing Existing Keys Into Key Vault"
-	description="Importing a key from a HSM to Key Vault"
+	description="Importing Existing Keys Into Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
