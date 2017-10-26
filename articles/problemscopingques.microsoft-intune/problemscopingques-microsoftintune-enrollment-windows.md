@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Intune Enrollment Android"
-	description="Intune Enrollment Android"
+	pageTitle="Intune Enrollment Windows"
+	description="Intune Enrollment Windows"
 	authors="mackie1604"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32530432"
+	supportTopicIds="32530438"
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Intune Enrollment Android
+# Intune Enrollment Windows
 ---
 {
 	"resourceRequired": false,
-	"title": "Intune Enrollment Android",
+	"title": "Intune Enrollment Windows",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "learn_more_text",
@@ -23,7 +23,7 @@
 			"id": "learn_more_text2",
 			"order": 2,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation"
+			"content": "<a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation"
 		},  {
 			"id": "learn_more_text3",
 			"order": 3,
@@ -42,6 +42,9 @@
 					"value": "Intune Hybrid",
 					"text": "Intune Hybrid"
 				}, {
+					"value": "Intune for Education",
+					"text": "Intune for Education"
+				}, {
 					"value": "Intune Insiders",
 					"text": "Intune Insiders"
 				}, {
@@ -51,23 +54,35 @@
 			],
 			"required": true
 		},  {
-			"id": "Android_problem_determination",
+			"id": "Windows_problem_determination",
 			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Android device(s)",
-					"text": "Cannot enroll Android device(s)"
+					"value": "Cannot enroll Windows device(s)",
+					"text": "Cannot enroll Windows device(s)"
 				}, {
-					"value": "Cannot enroll Android for Work",
-					"text": "Cannot enroll Android for Work"
+					"value": "Cannot setup Windows 10 automatic enrollment",
+					"text": "Cannot setup Windows 10 automatic enrollment"
 				}, {
-					"value": "Cannot setup Android for Work",
-					"text": "Cannot setup Android for Work"
+					"value": "Cannot setup bulk enrollment for Windows 10",
+					"text": "Cannot setup bulk enrollment for Windows 10"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
+				}, {
+					"value": "Cannot setup Windows AutoPilot Deployment Program",
+					"text": "Cannot setup Windows AutoPilot Deployment Program"
+				}, {
+					"value": "Cannot setup Windows Hello for Business",
+					"text": "Cannot setup Windows Hello for Business"
+				}, {
+					"value": "Cannot validate CNAME",
+					"text": "Cannot validate CNAME"
+				}, {
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": true
@@ -84,31 +99,28 @@
 				}
 			]
 		}, {
-			"id": "What device OEM is impacted?",
+			"id": "What Operating System(s) are impacted?",
 			"order": 7,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
-					"value": "Samsung",
-					"text": "Samsung"
+					"value": "Windows 10 1511 or Ealier",
+					"text": "Windows 10 1511 or Ealier"
 				}, {
-					"value": "Google",
-					"text": "Google"
+					"value": "Windows 10 1607",
+					"text": "Windows 10 1607"
 				}, {
-					"value": "Sony",
-					"text": "Sony"
+					"value": "Windows 10 1703",
+					"text": "Windows 10 1703"
 				}, {
-					"value": "LG",
-					"text": "LG"
+					"value": "Windows 10 1709 or greater",
+					"text": "Windows 10 1709 or greater"
 				}, {
-					"value": "HTC",
-					"text": "HTC"
+					"value": "Windows 8.1",
+					"text": "Windows 8.1"
 				}, {
-					"value": "Huawei",
-					"text": "Huawei"
-				}, {
-					"value": "Motorola",
-					"text": "Motorola"
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": false
@@ -121,8 +133,11 @@
 					"value": "BYOD",
 					"text": "BYOD"
 				}, {
-					"value": "Corporate",
-					"text": "Corporate"
+					"value": "EDU",
+					"text": "EDU"
+				}, {
+					"value": "AutoPilot",
+					"text": "AutoPilot"
 				}
 			],
 			"required": false
