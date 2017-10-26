@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Set up iOS and Mac device management"
-	description="Set up iOS and Mac device management"
+	pageTitle="Intune Enrollment Android"
+	description="Intune Enrollment Android"
 	authors="mackie1604"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32530435"
+	supportTopicIds="32530432"
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Set up iOS and Mac device management
+# Intune Enrollment Android
 ---
 {
 	"resourceRequired": false,
-	"title": "Set up iOS and Mac device management",
+	"title": "Intune Enrollment Android",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "learn_more_text",
@@ -23,7 +23,7 @@
 			"id": "learn_more_text2",
 			"order": 2,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/intune/ios-enroll'>Click here</a> to review our iOS and Mac enrollment documentation"
+			"content": "<a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation"
 		},  {
 			"id": "learn_more_text3",
 			"order": 3,
@@ -42,9 +42,6 @@
 					"value": "Intune Hybrid",
 					"text": "Intune Hybrid"
 				}, {
-					"value": "Intune for Education",
-					"text": "Intune for Education"
-				}, {
 					"value": "Intune Insiders",
 					"text": "Intune Insiders"
 				}, {
@@ -60,26 +57,17 @@
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Apple device(s)",
-					"text": "Cannot enroll Apple device(s)"
+					"value": "Cannot enroll Android device(s)",
+					"text": "Cannot enroll Android device(s)"
 				}, {
-					"value": "Cannot setup my Apple MDM Push Certificate",
-					"text": "Cannot setup my Apple MDM Push Certificate"
+					"value": "Cannot enroll Android for Work",
+					"text": "Cannot enroll Android for Work"
 				}, {
-					"value": "Cannot configure an Apple Configurator Profile",
-					"text": "Cannot configure an Apple Configurator Profile"
+					"value": "Cannot setup Android for Work",
+					"text": "Cannot setup Android for Work"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
-				}, {
-					"value": "Cannot setup my Apple DEP or Apple School Manager token",
-					"text": "Cannot setup my Apple DEP or Apple School Manager token"
-				}, {
-					"value": "Cannot configure Enrollment Program Profile",
-					"text": "Cannot configure Enrollment Program Profile"
-				}, {
-					"value": "Other",
-					"text": "Other"
 				}
 			],
 			"required": true
@@ -96,22 +84,31 @@
 				}
 			]
 		}, {
-			"id": "What devices types are impacted?",
+			"id": "What device OEM is impacted?",
 			"order": 7,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
-					"value": "iPad",
-					"text": "iPad"
+					"value": "Samsung",
+					"text": "Samsung"
 				}, {
-					"value": "iPhone",
-					"text": "iPhone"
+					"value": "Google",
+					"text": "Google"
 				}, {
-					"value": "iPod",
-					"text": "iPod"
+					"value": "Sony",
+					"text": "Sony"
 				}, {
-					"value": "Mac",
-					"text": "Mac"
+					"value": "LG",
+					"text": "LG"
+				}, {
+					"value": "HTC",
+					"text": "HTC"
+				}, {
+					"value": "Huawei",
+					"text": "Huawei"
+				}, {
+					"value": "Motorola",
+					"text": "Motorola"
 				}
 			],
 			"required": false
@@ -124,11 +121,8 @@
 					"value": "BYOD",
 					"text": "BYOD"
 				}, {
-					"value": "DEP",
-					"text": "DEP"
-				}, {
-					"value": "Configurator",
-					"text": "Configurator"
+					"value": "Corporate",
+					"text": "Corporate"
 				}
 			],
 			"required": false
