@@ -14,13 +14,12 @@
 	productPesIds="14749,15571"  
 	cloudEnvironments="public"
 />
-# We have run diagnostics on your VM Migration and the issue that is preventing your VM Migration:
+# We ran diagnostics on your resource and found an issue:
 
 <!--issueDescription-->
-$vmname:
-The following issues were found that will cause your migration to fail: $Recommendations
+We identified that your <!--$vmname-->Virtual machine<!--/$vmname--> or <!--$VNET-->VNET<!--/$VNET--> has issues that may cause your vm to fail migration:
+
+$Req
 <!--/issueDescription-->
 
-To view these and other unsupported features and best-practices, [please visit this link](https://docs.microsoft.com/azure/virtual-machines/$OS/migration-classic-resource-manager-overview#unsupported-features-and-configurations)<br>
-
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
+To view these and other unsupported features and best-practices, [please visit this link](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview#unsupported-features-and-configurations)<br>
