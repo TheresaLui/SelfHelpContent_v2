@@ -17,13 +17,17 @@
 # We detected a recent issue with your deployment attempt:
 
 <!--issueDescription-->
-We identified that your deployment failed for **<!--$csname-->Cloud Service<!--/$csname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in the cluster hosting your Cloud Service. If the requested virtual machine size is supported in the region, then the cluster where your Cloud Service is hosted does not have available capacity to complete your request.
+We identified that your deployment failed for **<!--$csname-->Cloud Service<!--/$csname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. 
 <!--/issueDescription-->
 
-To self-mitigate, please deploy a new Cloud Service or change the VM Size for this Cloud Service.<br>
-
-To learn more about self-mitigatation, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
+This can happen due to one of the following reasons:<br>
+* The Virtual Machine size requested is not supported in the region<br>
+* The cluster where your Cloud Service is hosted does not have available capacity to complete your request. 
 
 To learn more about sizes supported in each region, [review this document](https://azure.microsoft.com/regions/services)<br>
+
+If the size is available in the region, self-mitgate by either deploying a new Cloud Service or changing the VM size for this Cloud Service.<br>
+
+To learn more, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
