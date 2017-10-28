@@ -19,7 +19,7 @@
 <!--issueDescription-->
 We identified that your <!--$vmname-->Virtual machine<!--/$vmname--> or <!--$VNET-->VNET<!--/$VNET--> has issues that may cause your VM to fail migration:
 
-$Req
+<!--$Req-->Results<!--/$Req-->
 <!--/issueDescription-->
 
 To view these and other unsupported features and best-practices, [please visit this link](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-overview#unsupported-features-and-configurations)<br>
