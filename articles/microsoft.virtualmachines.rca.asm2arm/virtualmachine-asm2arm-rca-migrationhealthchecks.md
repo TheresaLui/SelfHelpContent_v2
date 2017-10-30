@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue:
 
 <!--issueDescription-->
-We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> or VNET <!--$VNET-->VNET<!--/$VNET--> has issues that may cause your VM to fail migration:
+We identified that your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** or virtual networking **<!--$VNET-->VNET<!--/$VNET-->** has issues that may cause migration to fail:
 
 <!--$Req-->Results<!--/$Req-->
 <!--/issueDescription-->
