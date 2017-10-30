@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Managing Users and Keys in Key Vault"
-	description="Managing Users and Keys in Key Vault"
+	pageTitle="Managing an Existing Key Vault"
+	description="Managing an Existing Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="fhokholdMSFT"
-	displayOrder="4"
+	displayOrder="17"
 	selfHelpType="resource"
-	supportTopicIds="32375281"
+	supportTopicIds="32375296"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
 />
 
-# Managing Users and Keys in Key Vault
+# Managing an Existing Key Vault
 ## **Recommended steps**
 
 * Authorize an application to use a key or secret with these steps for [creating and managing a key vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
