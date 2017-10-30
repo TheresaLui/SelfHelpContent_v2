@@ -18,17 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade"
-		},  {
-			"id": "learn_more_text2",
-			"order": 2,
-			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/intune/ios-enroll'>Click here</a> to review our iOS and Mac enrollment documentation"
-		},  {
-			"id": "learn_more_text3",
-			"order": 3,
-			"controlType": "infoblock",
-			"content": "<a href='https://social.technet.microsoft.com/Forums/home?forum=microsoftintuneprod'>Review our Intune TechNet forums</a> to find answers and solutions to common issues"
+			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/ios-enroll'>Click here</a> to review our iOS enrollment documentation</li>  <li><a href='https://docs.microsoft.com/intune/macos-enroll'>Click here</a> to review our mac OS enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 4,
