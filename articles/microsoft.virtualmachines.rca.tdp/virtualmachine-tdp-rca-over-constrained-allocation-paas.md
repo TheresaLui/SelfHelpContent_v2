@@ -26,8 +26,8 @@ This can happen due to one of the following reasons:<br>
 
 To learn more about sizes supported in each region, [review this document](https://azure.microsoft.com/regions/services)<br>
 
-If the size is available in the region, self-mitgate by either deploying a new Cloud Service or changing the VM size for this Cloud Service.<br>
+If the size is available in the region, you can self-mitigate by either deploying a new Cloud Service or changing the VM size for this Cloud Service.<br>
 
-To learn more, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
+To learn more, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions).<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
