@@ -18,20 +18,10 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade"
-		},  {
-			"id": "learn_more_text2",
-			"order": 2,
-			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation"
-		},  {
-			"id": "learn_more_text3",
-			"order": 3,
-			"controlType": "infoblock",
-			"content": "<a href='https://social.technet.microsoft.com/Forums/home?forum=microsoftintuneprod'>Review our Intune TechNet forums</a> to find answers and solutions to common issues"
+			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation</li>  <li><a href='https://social.technet.microsoft.com/Forums/home?forum=microsoftintuneprod'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
-			"order": 4,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
@@ -52,7 +42,7 @@
 			"required": true
 		},  {
 			"id": "Android_problem_determination",
-			"order": 5,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
@@ -79,7 +69,7 @@
 			"required": true
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 6,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
@@ -91,7 +81,7 @@
 			]
 		}, {
 			"id": "What device OEM is impacted?",
-			"order": 7,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -126,7 +116,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 8,
+			"order": 6,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -140,7 +130,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 9,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -161,7 +151,7 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 10,
+			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": false
