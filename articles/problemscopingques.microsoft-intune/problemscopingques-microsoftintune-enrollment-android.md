@@ -60,14 +60,20 @@
 					"value": "Cannot enroll Android device(s)",
 					"text": "Cannot enroll Android device(s)"
 				}, {
-					"value": "Cannot enroll Android for Work",
-					"text": "Cannot enroll Android for Work"
+					"value": "Cannot enroll Android for Work device(s)",
+					"text": "Cannot enroll Android for Work device(s)"
 				}, {
-					"value": "Cannot setup Android for Work",
-					"text": "Cannot setup Android for Work"
+					"value": "Cannot setup Android for Work binding",
+					"text": "Cannot setup Android for Work binding"
+				}, {
+					"value": "Cannot remove Android for Work binding",
+					"text": "Cannot remove Android for Work binding"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
+				}, {
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": true
@@ -89,8 +95,11 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
-					"value": "Samsung",
-					"text": "Samsung"
+					"value": "Samsung non-Knox",
+					"text": "Samsung non-Knox"
+				}, {
+					"value": "Samsung Knox",
+					"text": "Samsung Knox"
 				}, {
 					"value": "Google",
 					"text": "Google"
@@ -109,6 +118,9 @@
 				}, {
 					"value": "Motorola",
 					"text": "Motorola"
+				}, {
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": false
