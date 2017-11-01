@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDb Performance Issue"
-	description="CosmosDb Performance Issue"
+	pageTitle="CosmosDb Query Performance Issue"
+	description="CosmosDb Query Performance Issue"
 	authors="bharathsreenivas"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32574412"
@@ -8,11 +8,11 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# CosmosDb performance Issue
+# CosmosDb Query performance Issue
 ---
 {
 	"resourceRequired": true,
-	"title": "CosmosDb Performance Issue",
+	"title": "CosmosDb Query Performance Issue",
 	"fileAttachmentHint": "",
 	"formElements": [
 			{
