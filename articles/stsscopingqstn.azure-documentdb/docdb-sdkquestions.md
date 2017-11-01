@@ -8,5 +8,6 @@
   cloudEnvironments="public"
 />
 # DocumentDb SDK Issues
-* SDK Version
+* CosmosDb SDK Version
+* Framework Version
 * Host Environment (OS/VM Type)
