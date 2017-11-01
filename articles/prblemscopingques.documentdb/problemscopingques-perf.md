@@ -15,34 +15,42 @@
 	"title": "CosmosDb Performance Issue",
 	"fileAttachmentHint": "",
 	"formElements": [
-      {
-			"id": "problem_start_date",
+			{
+			"id": "learn_more_text",
 			"order": 1,
+			"controlType": "infoblock",
+			"content": "Use the <a href='https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips'>Performance Tuning Guide</a> to learn more about how you can improve the performance of your database"
+		},
+      		   {
+			"id": "problem_start_date",
+			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		  },
 		  {
-			"id": "performance_issue_details",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide details about the issue that you were facing.",
-			"required": false,
-			"useAsAdditionalDetails": true,
+			"id": "database_name",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Database name",
+			"required": true,
 			"hints": [{
-					"text": "Activity Id of the request."
-				}, {
-					"text": "Name of the collection"
-				}, {
-					"text": "Name of the database."
-				}, {
-					"text": "Details on the exact issue."
-				}
-			]
+					"text": "Database name"
+				}]
+		},
+		{
+			"id": "database_name",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Collection name",
+			"required": true,
+			"hints": [{
+					"text": "Collection name"
+				}]
 		},
 		{
 			"id": "sdk_type",
-			"order": 3,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "What is the client SDK used?",
 			"watermarkText": "Choose an option",
@@ -65,22 +73,32 @@
 			],
 			"required": false
 		},
-    		{
+		{
 			"id": "sdk_version",
-			"order": 4,
+			"order": 6,
 			"controlType": "textbox",
 			"displayLabel": "SDK Version",
 			"required": false,
-			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "SDK Version"
 				}]
 		},
-		{
-			"id": "learn_more_text",
-			"order": 5,
-			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips'>Learn more</a> about how to tune your the performance of your CosmosDb account"
+		  {
+			"id": "performance_issue_details",
+			"order": 7,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide additional details about the issue that you were facing.",
+			"required": false,
+			"useAsAdditionalDetails": true,
+			"hints": [
+				{
+					"text": "Details on the exact issue."
+				},{
+					"text": "Activity Id of the request (if available)."
+				},{
+					"text": "Read/Write regions"
+				}
+			]
 		}
 	]
 }
