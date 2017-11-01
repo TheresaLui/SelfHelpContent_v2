@@ -9,5 +9,5 @@
 />
 # DocumentDb SDK Issues
 * CosmosDb SDK Version
-* Framework Version
+* Platform Version (eg:- .NET 4.5/ Python 3.5/ Node.js v4.2/ JDK 7)
 * Host Environment (OS/VM Type)
