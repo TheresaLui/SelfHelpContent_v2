@@ -96,7 +96,7 @@
 				},{
 					"text": "Activity Id of the request (if available)."
 				},{
-					"text": "Read/Write regions"
+					"text": "Read/Write regions where the issue is being experienced."
 				}
 			]
 		}
