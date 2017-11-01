@@ -39,7 +39,7 @@
 				}]
 		},
 		{
-			"id": "database_name",
+			"id": "collection_name",
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Collection name",
