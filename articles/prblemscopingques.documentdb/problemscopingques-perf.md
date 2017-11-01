@@ -3,7 +3,7 @@
 	description="CosmosDb Performance Issue"
 	authors="bharathsreenivas"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32574375,32574400,32574404,32574304,32574412,32574419,32574426"
+	supportTopicIds="32574375,32574400,32574404,32574304,32574419,32574426"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
