@@ -21,40 +21,28 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
-		  },{
-			"id": "activity_id",
+		  },
+		  {
+			"id": "performance_issue_details",
 			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Activity Id of the request",
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide details about the issue that you were facing.",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Activity Id of the request"
-				}]
-		},{
-			"id": "db_id",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Collection Name",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
+					"text": "Activity Id of the request."
+				}, {
 					"text": "Name of the collection"
-				}]
-		},{
-			"id": "collection_id",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Database Name",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Name of the database"
-				}]
+				}, {
+					"text": "Name of the database."
+				}, {
+					"text": "Details on the exact issue."
+				}
+			]
 		},
-    {
+		{
 			"id": "sdk_type",
-			"order": 5,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "What is the client SDK used?",
 			"watermarkText": "Choose an option",
@@ -77,9 +65,9 @@
 			],
 			"required": false
 		},
-    {
+    		{
 			"id": "sdk_version",
-			"order": 6,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "SDK Version",
 			"required": false,
@@ -87,9 +75,10 @@
 			"hints": [{
 					"text": "SDK Version"
 				}]
-		},{
+		},
+		{
 			"id": "learn_more_text",
-			"order": 7,
+			"order": 5,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips'>Learn more</a> about how to tune your the performance of your CosmosDb account"
 		}
