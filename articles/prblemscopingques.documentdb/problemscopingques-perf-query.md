@@ -61,7 +61,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Collection Indexing Policy",
 			"required": false,
-			"useAsAdditionalDetails": true
+			"useAsAdditionalDetails": false
 		},
 		{
 			"id": "query_snippet",
@@ -69,7 +69,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Cosmos DB Query snippet",
 			"required": false,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": false,
 			"hints": [
 				{
 					"text": "Paste the query snippet which is experiencing issues."
