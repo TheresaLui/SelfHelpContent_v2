@@ -3,7 +3,7 @@
 	description="CosmosDb Performance Issue"
 	authors="bharathsreenivas"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32574375,32574400,32574404,32574304,32574419,32574426"
+	supportTopicIds="32574375,32574400,32574404,32574419,32574426"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -19,7 +19,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "Use the <a href='https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips'>Performance Tuning Guide</a> to learn more about how you can improve the performance of your database"
+			"content": "Use the <a href='https://docs.microsoft.com/azure/cosmos-db/performance-tips'>Performance Tuning Guide</a> to learn more about how you can improve the performance of your database"
 		},
       		   {
 			"id": "problem_start_date",
