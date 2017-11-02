@@ -15,4 +15,4 @@
 # Installing Bot Builder Module
 
 ## **Recommended documents**
-[Bot Builder module installation supported in StackOverflow: BotFramework](http://stackoverflow.com/questions/tagged/azure-bot-service)
+IMPORTANT INFORMATION REGARDING SUPPORT:  During Preview the Bot Framework does not have assisted support for all Problem Types.  Support incidents with this Problem Type will be directed to StackOverflow: BotFramework and the support incident will be closed.  We will provide full assisted support at General Availability (GA): [StackOverflow Link](http://stackoverflow.com/questions/tagged/azure-bot-service).
