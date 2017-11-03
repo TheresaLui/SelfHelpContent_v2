@@ -10,8 +10,8 @@
 	diagnosticScenario="DeploymentFailure,"
 	selfHelpType="rca"
 	supportTopicIds="32565644,32565474,32565475,32565476,32565478,32565479,32565480"
-	resourceTags=""   
-	productPesIds="13185"  
+	resourceTags=""
+	productPesIds="13185"
 	cloudEnvironments="public"
 />
 # We detected a recent issue with your deployment attempt:
@@ -22,7 +22,7 @@ We identified that your deployment failed for **<!--$csname-->Cloud Service<!--/
 
 This can happen due to one of the following reasons:<br>
 * The Virtual Machine size requested is not supported in the region<br>
-* The cluster where your Cloud Service is hosted does not have available capacity to complete your request. 
+* The cluster where your Cloud Service is hosted does not have available capacity to complete your request.<br> 
 
 To learn more about sizes supported in each region, [review this document](https://azure.microsoft.com/regions/services)<br>
 
