@@ -10,8 +10,8 @@
 	diagnosticScenario="ASM2ARMHealthChecks"
 	selfHelpType="rca"
 	supportTopicIds="32513964"
-	resourceTags="windows, linux"   
-	productPesIds="14749,15571"  
+	resourceTags="windows, linux"
+	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue:
