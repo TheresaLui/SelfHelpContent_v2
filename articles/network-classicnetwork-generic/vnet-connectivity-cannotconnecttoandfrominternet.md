@@ -22,7 +22,7 @@
 5. Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from a VM<br>
 
 ## **Recommended documents**
-[Troubleshoot Connectivity problems: Cannot connect to Internet] (https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
+[Troubleshoot Connectivity problems: Cannot connect to Internet](https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
 [Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
 [Routing/Connecting to secondary NICs - Windows](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#routing-within-a-virtual-machine-operating-system-with-multiple-network-interfaces)<br>
