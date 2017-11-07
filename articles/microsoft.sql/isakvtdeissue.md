@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Database Connectivity issue due to improperly configure permissions."
-	description="IsBadPassword"
+	description="IsAKVTDEIssue"
 	infoBubbleText="Placeholder text. Real Text has not been finalized!"
 	service="microsoft.sql"
 	resource="servers"
