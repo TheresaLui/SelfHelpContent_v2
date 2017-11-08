@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="I can't raise my App Insights daily cap above 0.0323 GB/day"
-    description="I can't raise my App Insights daily cap above 0.0323 GB/day"
+    pageTitle="I can't raise my daily cap above 0.0323 GB/day"
+    description="I can't raise my daily cap above 0.0323 GB/day"
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
