@@ -5,6 +5,7 @@
 	resource="Microsoft_AAD_DomainServices"
 	authors="arluca"
 	selfHelpType="resource"
+	displayOrder="200"
 	cloudEnvironments="public"
 />
 
