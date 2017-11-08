@@ -14,10 +14,12 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
-# We detected a recent issue with your deployment attempt:
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your deployment failed for **<!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. Provisioning of the OS image failed. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
+## **VM failed deployment incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
+
+We detected an issue with you your recent deployment attempt at **<!--$EndTime-->EndTime<!--/$EndTime--> (UTC)** due to the image failing to be provisioned. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
 <!--/issueDescription-->
 
 Please configure the image and deploy the VM with the same method (both as generalized or both as specialized). Additionally, please review the below documentation on specialized and generalized images.<br>
