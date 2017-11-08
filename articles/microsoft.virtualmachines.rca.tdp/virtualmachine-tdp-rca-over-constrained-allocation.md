@@ -19,7 +19,7 @@
 <!--issueDescription-->
 ## **VM failed deployment incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
 
-We detected an issue with you your recent deployment attempt at **<!--$EndTime-->EndTime<!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in this region. 
+We detected an issue with you your recent deployment attempt at **<!--$EndTime-->EndTime<!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in this region.
 <!--/issueDescription-->
 
 This is not a quota issue. To self-mitigate, please use a different VM Size Family or a different region.<br>
