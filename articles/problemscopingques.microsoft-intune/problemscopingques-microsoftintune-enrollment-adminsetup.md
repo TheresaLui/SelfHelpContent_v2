@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/enrollment-options'>Click here</a> to review our enrollment options documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li></ul>"
+			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/enrollment-options'>Click here</a> to review our enrollment options documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to check the status of the service and review other service alerts</li</ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
@@ -53,11 +53,11 @@
 					"value": "Cannot configure/deploy Terms and Conditions",
 					"text": "Cannot configure/deploy Terms and Conditions"
 				}, {
-					"value": "Cannot setup Enrollment restrictions",
-					"text": "Cannot setup Enrollment restrictions"
+					"value": "Cannot setup enrollment restrictions",
+					"text": "Cannot setup enrollment restrictions"
 				}, {
-					"value": "Cannot setup MFA for Enrollment",
-					"text": "Cannot setup MFA for Enrollment"
+					"value": "Cannot setup Multi-Factor Authentication for enrollment",
+					"text": "Cannot setup Multi-Factor Authentication for enrollment"
 				}, {
 					"value": "Cannot setup Device Enrollment Manager(s)",
 					"text": "Cannot setup Device Enrollment Manager(s)"
@@ -65,8 +65,8 @@
 					"value": "Cannot setup Device Categories",
 					"text": "Cannot setup Device Categories"
 				}, {
-					"value": "Cannot setup Corporate Device identifiers",
-					"text": "Cannot setup Corporate Device identifiers"
+					"value": "Cannot setup Corporate Device Identifiers",
+					"text": "Cannot setup Corporate Device Identifiers"
 				}, {
 					"value": "Other",
 					"text": "Other"

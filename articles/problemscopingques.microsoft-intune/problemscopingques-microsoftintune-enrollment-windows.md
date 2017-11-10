@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li></ul>"
+			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to check the status of the service and review other service alerts</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
@@ -74,6 +74,9 @@
 					"value": "Cannot validate CNAME",
 					"text": "Cannot validate CNAME"
 				}, {
+					"value": "Cannot configure Enrollment Status Screen",
+					"text": "Cannot configure Enrollment Status Screen"
+				}, {
 					"value": "Other",
 					"text": "Other"
 				}
@@ -97,8 +100,8 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "What Operating System(s) are impacted?",
 			"dropdownOptions": [{
-					"value": "Windows 10 1511 or Ealier",
-					"text": "Windows 10 1511 or Ealier"
+					"value": "Windows 10 1511 or earlier",
+					"text": "Windows 10 1511 or earlier"
 				}, {
 					"value": "Windows 10 1607",
 					"text": "Windows 10 1607"
