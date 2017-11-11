@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="I can't raise my App Insights daily cap above 0.0323 GB/day"
-    description="I can't raise my App Insights daily cap above 0.0323 GB/day"
+    pageTitle="I can't raise my daily cap above 0.0323 GB/day"
+    description="I can't raise my daily cap above 0.0323 GB/day"
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
@@ -8,7 +8,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
  />
-# I can't raise my App Insights daily cap above 0.0323 GB/day
+# I can't raise my daily cap above 0.0323 GB/day
 ## **Recommended steps**
 To raise your daily cap beyond 0.0323 GB/day, try the following steps:
 
