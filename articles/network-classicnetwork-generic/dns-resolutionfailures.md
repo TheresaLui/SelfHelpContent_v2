@@ -14,4 +14,4 @@
 # dns resolution failures
 
 ## **Recommended documents**
-[Troubleshooting steps](https://docs.microsoft.com/en-us/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record) for DNS resolution failures
+[Troubleshooting steps](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record) for DNS resolution failures
