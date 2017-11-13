@@ -14,4 +14,4 @@
 # automate dns operations
 
 ## **Recommended documents**
-Create DNS zones and record sets [using .Net SDK](https://docs.microsoft.com/en-us/azure/dns/dns-sdk)
+Create DNS zones and record sets [using .Net SDK](https://docs.microsoft.com/azure/dns/dns-sdk)
