@@ -18,6 +18,6 @@
 Configure [geographic](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-geographic-routing-method), [priority](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method), [weighted](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-weighted-routing-method) or [performance](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-performance-routing-method) traffic routing methods<br>
 [Test](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-testing-settings) Traffic Manager settings<br> 
 Add, disable, enable, or delete [endpoints](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-endpoints)<br>
-Traffic Manager endpoint [monitoring and failover](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-monitoring)<br>
+Traffic Manager endpoint [monitoring and failover](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-monitoring)<br>
 [Manage](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-profiles) Azure Traffic Manager profile<br>
 [High availability cross-geographic AD FS deployment](https://azure.microsoft.com/documentation/articles/active-directory-adfs-in-azure-with-azure-traffic-manager/) in Azure with Azure Traffic Manager
