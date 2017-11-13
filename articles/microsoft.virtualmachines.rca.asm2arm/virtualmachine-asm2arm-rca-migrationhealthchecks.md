@@ -14,10 +14,10 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue:
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** or virtual networking **<!--$VNET-->VNET<!--/$VNET-->** has issues that may cause migration to fail:
+We have determined that the following configuration settings in the virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** or  its virtual networking **<!--$VNET-->VNET<!--/$VNET-->** are preventing the migration to succeed::
 
 <!--$Req-->Results<!--/$Req-->
 <!--/issueDescription-->
