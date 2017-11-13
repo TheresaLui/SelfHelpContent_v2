@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have determined that the following configuration settings in the virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** or  its virtual networking **<!--$VNET-->VNET<!--/$VNET-->** are preventing the migration to succeed::
+We have determined that the following configuration settings in the virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** or  its virtual networking **<!--$VNET-->VNET<!--/$VNET-->** are preventing the migration to succeed:
 
 <!--$Req-->Results<!--/$Req-->
 <!--/issueDescription-->
