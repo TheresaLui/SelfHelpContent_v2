@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li></ul>"
+			"content": "b>Please review the resources listed below prior to opening a support case</b>  <ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
@@ -50,11 +50,8 @@
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Windows 10 Modern device(s)",
-					"text": "Cannot enroll Windows 10 Modern device(s)"
-				}, {
-					"value": "Cannot enroll Windows 10 Mobile device(s)",
-					"text": "Cannot enroll Windows 10 Mobile device(s)"
+					"value": "Cannot enroll Windows 10 device(s)",
+					"text": "Cannot enroll Windows 10 device(s)"
 				}, {
 					"value": "Cannot setup Windows 10 automatic enrollment",
 					"text": "Cannot setup Windows 10 automatic enrollment"
@@ -115,6 +112,12 @@
 					"value": "Windows 8.1",
 					"text": "Windows 8.1"
 				}, {
+					"value": "Windows 10 Mobile",
+					"text": "Windows 10 Mobile"
+				}, {
+					"value": "Windows 8 Mobile",
+					"text": "Windows 8 Mobile"
+				}, {
 					"value": "Other",
 					"text": "Other"
 				}
@@ -129,11 +132,14 @@
 					"value": "Bring your own device",
 					"text": "Bring your own device"
 				}, {
-					"value": "EDU",
-					"text": "EDU"
+					"value": "Corporate-owned",
+					"text": "Corporate-owned"
 				}, {
-					"value": "Co-Management",
-					"text": "Co-Management"
+					"value": "Intune for Education",
+					"text": "Intune for Education"
+				}, {
+					"value": "Co-management",
+					"text": "Co-management"
 				}, {
 					"value": "AutoPilot",
 					"text": "AutoPilot"

@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/ios-enroll'>Click here</a> to review our iOS enrollment documentation</li>  <li><a href='https://docs.microsoft.com/intune/macos-enroll'>Click here</a> to review our mac OS enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li</ul>"
+			"content": "b>Please review the resources listed below prior to opening a support case</b>  <ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/ios-enroll'>Click here</a> to review our iOS enrollment documentation</li>  <li><a href='https://docs.microsoft.com/intune/macos-enroll'>Click here</a> to review our mac OS enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li</ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 4,
@@ -53,17 +53,17 @@
 					"value": "Cannot enroll Apple device(s)",
 					"text": "Cannot enroll Apple device(s)"
 				}, {
-					"value": "Cannot setup my Apple MDM Push Certificate",
-					"text": "Cannot setup my Apple MDM Push Certificate"
+					"value": "Cannot setup Apple MDM Push Certificate",
+					"text": "Cannot setup Apple MDM Push Certificate"
 				}, {
-					"value": "Cannot configure an Apple Configurator Profile",
-					"text": "Cannot configure an Apple Configurator Profile"
+					"value": "Cannot configure Apple Configurator Profile",
+					"text": "Cannot configure Apple Configurator Profile"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}, {
-					"value": "Cannot setup my Apple DEP or Apple School Manager token",
-					"text": "Cannot setup my Apple DEP or Apple School Manager token"
+					"value": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token",
+					"text": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token"
 				}, {
 					"value": "Cannot configure Enrollment Program Profile",
 					"text": "Cannot configure Enrollment Program Profile"
@@ -111,17 +111,20 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "Bring your own device",
-					"text": "Bring your own device"
+					"value": "Bring-your-own-device (BYOD)",
+					"text": "Bring-your-own-device (BYOD)"
+				},, {
+					"value": "Corporate-owned",
+					"text": "Corporate-owned"
+				} {
+					"value": "Device Enrollment Program (DEP)",
+					"text": "Device Enrollment Program (DEP)"
 				}, {
-					"value": "Device Enrollment Program",
-					"text": "Device Enrollment Program"
+					"value": "Apple School Manager (ASM)",
+					"text": "Apple School Manager (ASM)"
 				}, {
-					"value": "Apple School Manager",
-					"text": "Apple School Manager"
-				}, {
-					"value": "Configurator",
-					"text": "Configurator"
+					"value": "Apple Configurator",
+					"text": "Apple Configurator"
 				}
 			],
 			"required": false
