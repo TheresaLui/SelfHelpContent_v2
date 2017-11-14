@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<b>Please review the resources listed below prior to opening a support case</b>"
+			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li><a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
