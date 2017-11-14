@@ -120,8 +120,8 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "BYOD",
-					"text": "BYOD"
+					"value": "Bring your own device",
+					"text": "Bring your own device"
 				}, {
 					"value": "Corporate",
 					"text": "Corporate"

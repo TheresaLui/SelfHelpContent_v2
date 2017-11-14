@@ -50,8 +50,8 @@
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Windows device(s)",
-					"text": "Cannot enroll Windows device(s)"
+					"value": "Cannot enroll Windows 10 Modern device(s)",
+					"text": "Cannot enroll Windows 10 Modern device(s)"
 				}, {
 					"value": "Cannot enroll Windows 10 Mobile device(s)",
 					"text": "Cannot enroll Windows 10 Mobile device(s)"
@@ -126,11 +126,14 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "BYOD",
-					"text": "BYOD"
+					"value": "Bring your own device",
+					"text": "Bring your own device"
 				}, {
 					"value": "EDU",
 					"text": "EDU"
+				}, {
+					"value": "Co-Management",
+					"text": "Co-Management"
 				}, {
 					"value": "AutoPilot",
 					"text": "AutoPilot"

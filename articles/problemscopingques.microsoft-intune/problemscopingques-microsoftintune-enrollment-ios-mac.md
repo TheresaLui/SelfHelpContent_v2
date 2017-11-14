@@ -111,14 +111,14 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "BYOD",
-					"text": "BYOD"
+					"value": "Bring your own device",
+					"text": "Bring your own device"
 				}, {
-					"value": "DEP",
-					"text": "DEP"
+					"value": "Device Enrollment Program",
+					"text": "Device Enrollment Program"
 				}, {
-					"value": "EDU",
-					"text": "EDU"
+					"value": "Apple School Manager",
+					"text": "Apple School Manager"
 				}, {
 					"value": "Configurator",
 					"text": "Configurator"
