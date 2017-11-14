@@ -14,4 +14,6 @@
 
 # My subscription has been suspended
 
-The included free quantity may not apply to subscriptions associated with Azure credit offers, and your account may be suspended if the spending limit is turned on. [Click here](https://docs.microsoft.com/en-us/azure/billing/billing-spending-limit) to learn more about the Azure spending limit and how to remove it.
+## **Recommended Steps**
+
+The included free quantity may not apply to subscriptions associated with Azure credit offers, and your account may be suspended if the spending limit is turned on. [Click here](https://docs.microsoft.com/azure/billing/billing-spending-limit) to learn more about the Azure spending limit and how to remove it.
