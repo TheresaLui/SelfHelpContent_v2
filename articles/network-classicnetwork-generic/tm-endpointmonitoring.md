@@ -18,5 +18,5 @@
 Traffic Manager [Endpoint Monitoring](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-monitoring)<br>
 Traffic Manager [Endpoints including Azure, External and Nested Endpoints](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-endpoint-types)<br>
 [Manage](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-endpoints) Endpoints<br>
-[Manage](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-profile) Traffic Manager profiles<br>
+[Manage](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-profiles) Traffic Manager profiles<br>
 Traffic Manager [FAQs](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-faqs)
