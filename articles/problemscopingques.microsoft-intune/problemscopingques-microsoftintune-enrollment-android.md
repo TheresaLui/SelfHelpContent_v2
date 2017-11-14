@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>   <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li></ul>"
+			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
