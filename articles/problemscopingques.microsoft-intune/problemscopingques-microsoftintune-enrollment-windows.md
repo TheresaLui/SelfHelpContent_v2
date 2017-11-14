@@ -18,7 +18,7 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "b>Please review the resources listed below prior to opening a support case</b>  <ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li></ul>"
+			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/windows-enroll'>Click here</a> to review our Windows enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
@@ -129,8 +129,8 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "Bring your own device",
-					"text": "Bring your own device"
+					"value": "Bring-your-own-device (BYOD)",
+					"text": "Bring-your-own-device (BYOD)"
 				}, {
 					"value": "Corporate-owned",
 					"text": "Corporate-owned"
