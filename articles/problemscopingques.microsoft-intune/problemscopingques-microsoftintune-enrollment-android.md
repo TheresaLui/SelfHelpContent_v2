@@ -18,7 +18,8 @@
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li><a href='https://aka.ms/intunetroubleshooting1'>Click here</a> to troubleshoot with the Intune Troubleshooting Blade</li>  <li><a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>  <li><a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Click here</a> to see the current status of the service</li</ul>"
+			"content": "<b>Please review the resources listed below prior to opening a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li><a href='https://docs.microsoft.com/intune/android-enroll'>Click here</a> to review our Android enrollment documentation</li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li><a href='https://aka.ms/intuneforums'>Review our Intune TechNet forums</a> to find answers and solutions to common issues</li>"
+
 		},  {
 			"id": "What service are you having the issue with?",
 			"order": 2,
