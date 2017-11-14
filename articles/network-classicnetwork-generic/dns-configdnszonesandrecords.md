@@ -15,5 +15,5 @@
 
 ## **Recommended documents**
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)<br>
-[Private](https://docs.microsoft.com/azure/private-dns-overview) DNS zones<br>
+[Private](https://docs.microsoft.com/azure/dns/private-dns-overview) DNS zones<br>
 [Reverse](https://docs.microsoft.com/azure/dns/dns-reverse-dns-overview) DNS zones
