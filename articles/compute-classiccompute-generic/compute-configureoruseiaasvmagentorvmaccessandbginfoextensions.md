@@ -19,7 +19,7 @@
 * [VM Agent and Extensions - get started](https://azure.microsoft.com/blog/vm-agent-and-extensions-part-1/)<br>
 * [How to troubleshoot extensions](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-troubleshoot)<br>
 
-## **Additional information for specific extensions:**
+**Additional information for specific extensions:**
 * [Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript)<br>
 * [OMS virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-oms)<br>
 * [Azure Desired State Configuration extension handler ](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-dsc-overview)<br>
