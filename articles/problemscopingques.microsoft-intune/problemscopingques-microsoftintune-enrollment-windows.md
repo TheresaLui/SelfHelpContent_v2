@@ -50,8 +50,8 @@
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Windows 10 device(s)",
-					"text": "Cannot enroll Windows 10 device(s)"
+					"value": "Cannot enroll Windows device(s)",
+					"text": "Cannot enroll Windows device(s)"
 				}, {
 					"value": "Cannot setup Windows 10 automatic enrollment",
 					"text": "Cannot setup Windows 10 automatic enrollment"
