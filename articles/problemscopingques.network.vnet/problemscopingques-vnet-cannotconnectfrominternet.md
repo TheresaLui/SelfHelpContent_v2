@@ -21,7 +21,7 @@
 			"displayLabel": "Please select the VM you are not able to connect to?",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/MicrosoftNetwork/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id"
