@@ -32,7 +32,7 @@
 				}
 			],
 			"required": false
-		}{
+		},{
 			"id": "to_vm",
 			"order": 1,
 			"controlType": "dropdown",
