@@ -12,10 +12,10 @@
 ## **Recommended steps**
 If you've instrumented your application to start sending data to Application Insights, but you aren't seeing the data you expect, try the following steps:
 
-1. If you aren't seeing any data at all, validate that your instrumentation key is set correctly through your code or configuration file
-2. Data is coming through, but occasionally (or often) the data doesn't match what you think is being sent, [double-check your sampling settings](https://docs.microsoft.com/azure/application-insights/app-insights-sampling).  Adaptive sampling only occurs at higher traffic volume.
+1. If you aren't seeing any data at all, validate that your instrumentation key is set correctly through your code or in your configuration file.
+2. If data is coming through, but occasionally (or often) the data doesn't match what you expect, [double-check your sampling settings](https://docs.microsoft.com/azure/application-insights/app-insights-sampling).  By default, adaptive sampling generally only occurs at higher traffic volumes.
 3. If you used to see data, but don't anymore, validate that a deployment has not modified or removed Application Insights configuration or dependencies.
-4. If you see data for a pre-production/development environment, but not your production environment, ensure that you have [configured your firewall to allow traffic through the ports required](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses) for Application Insights to send data.  In addition, if your instrumentation key is set programmatically or through a configuration file, validate that this has the same value between environments.
+4. If you see data for a pre-production/development environment, but not your production environment, ensure that you have [configured your firewall to allow traffic through the ports required](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses) for Application Insights to send data.  In addition, if your instrumentation key is set programmatically or through a configuration file, validate that these values are correct.
 
 If none of these simple steps resolve your issue, there are more detailed checklists to follow below depending on which SDK or method of application instrumentation you are using.
 
