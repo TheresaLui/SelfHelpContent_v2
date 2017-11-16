@@ -21,8 +21,8 @@
 
 Azure Files mounting error:<br>
 - [Step by step guided walkthrough for mounting errors on Windows and Linux](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
-- [Download and run troubleshooter tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
-- [Download and run troubleshooter tool for mounting errors on Linux](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
+- [Download and run troubleshooting tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
+- [Download and run troubleshooting tool for mounting errors on Linux](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
 
 Data backup:<br>
 - [Backup](https://azure.microsoft.com/services/backup/)<br>
