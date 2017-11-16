@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I need help troubleshooting Azure File issues"
 	description="Troubleshooting Azure File storage problems"
 	service="microsoft.storage"
@@ -20,6 +20,7 @@ This article lists common problems and solutions that are related to Microsoft A
 **Troubleshooter for mounting error**
 - [Step by step guided walkthrough for mounting errors on Windows and Linux](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
 - [Download and run trobleshooter tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
+- [Download and run trobleshooter tool for mounting errors on Linux](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
 
 **General problems (occur in both Windows and Linux clients)**
 - [Quota error when trying to open a file](https://docs.azure.cn/storage/storage-troubleshoot-file-connection-problems#quotaerror)<br>
