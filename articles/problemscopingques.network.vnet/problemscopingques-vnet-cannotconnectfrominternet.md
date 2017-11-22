@@ -18,7 +18,7 @@
 			"id": "cannot_connect_vm",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the VM you are not able to connect to?",
+			"displayLabel": "Please select the VM you are experiencing connectivity issues with",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
@@ -46,9 +46,9 @@
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Connectivity direction impacted."
+					"text": "Are you trying to connect to or from the internet?"
 				}, {
-					"text": "Are you able to communicate between Vm's within the VNET."
+					"text": "Are you able to connect or ping another VM in the same VNet?"
 				}
 			]
 		}

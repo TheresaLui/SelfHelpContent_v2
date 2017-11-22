@@ -64,9 +64,7 @@
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Are you able to connect out from the VM"
-				}, {
-					"text": "Is this issue still happening."
+					"text": "Are you able to connect or ping another VM/Resource on the Internet?"
 				}
 			]
 		}

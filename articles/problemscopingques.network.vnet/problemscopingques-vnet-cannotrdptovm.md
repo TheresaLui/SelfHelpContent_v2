@@ -46,11 +46,9 @@
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Are you able to do TCPing the VM."
+					"text": "Are you able to tcping the VM's IP address?"
 				}, {
-					"text": "Are you able to RDP/SSH to other VM's in the VNET ?"
-				},{
-					"text": "Is this issue still happening."
+					"text": "Are you able to RDP/SSH to other VMs in this VNet?"
 				}
 			]
 		}
