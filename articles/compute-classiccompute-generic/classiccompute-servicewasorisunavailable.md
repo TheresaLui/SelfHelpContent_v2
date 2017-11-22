@@ -1,4 +1,4 @@
-perties
+<properties
 	pageTitle="worker role (paas)/application and service availability/service was or is unavaiable"
 	description="worker role (paas)/application and service availability/service was or is unavaiable"
 	service="microsoft.classiccompute"
