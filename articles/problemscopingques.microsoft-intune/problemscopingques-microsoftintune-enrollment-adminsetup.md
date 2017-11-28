@@ -1,27 +1,27 @@
 <properties
-	pageTitle="Set up iOS and Mac device management"
-	description="Set up iOS and Mac device management"
+	pageTitle="Enrollment Options"
+	description="Enrollment Options"
 	authors="mackie1604"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32530435"
+	supportTopicIds="32530429"
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Set up iOS and Mac device management
+# Enrollment Options
 ---
 {
 	"resourceRequired": false,
-	"title": "Set up iOS and Mac device management",
+	"title": "Enrollment Options",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "learn_more_text",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li>Review enrollment documentation for <a href='https://docs.microsoft.com/intune/ios-enroll'>iOS</a> and <a href='https://docs.microsoft.com/intune/macos-enroll'>macOS</a></li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li>Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues</li></ul>"
+			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li>Review enrollment documentation for <a href='https://docs.microsoft.com/intune/enrollment-options'>Enrollment options</a></li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li>Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues</li></ul>"
 		},  {
 			"id": "What service are you having the issue with?",
-			"order": 4,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
@@ -44,29 +44,29 @@
 			],
 			"required": true
 		},  {
-			"id": "iOSMAC_problem_determination",
-			"order": 5,
+			"id": "EnrollmentOptions_problem_determination",
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
 			"dropdownOptions": [{
-					"value": "Cannot enroll Apple device(s)",
-					"text": "Cannot enroll Apple device(s)"
+					"value": "Cannot configure/deploy Terms and Conditions",
+					"text": "Cannot configure/deploy Terms and Conditions"
 				}, {
-					"value": "Cannot setup Apple MDM Push Certificate",
-					"text": "Cannot setup Apple MDM Push Certificate"
+					"value": "Cannot setup enrollment restrictions",
+					"text": "Cannot setup enrollment restrictions"
 				}, {
-					"value": "Cannot configure Apple Configurator Profile",
-					"text": "Cannot configure Apple Configurator Profile"
+					"value": "Cannot setup Multi-Factor Authentication for enrollment",
+					"text": "Cannot setup Multi-Factor Authentication for enrollment"
 				}, {
-					"value": "Cannot login to Company Portal application to enroll a device",
-					"text": "Cannot login to Company Portal application to enroll a device"
+					"value": "Cannot setup Device Enrollment Manager(s)",
+					"text": "Cannot setup Device Enrollment Manager(s)"
 				}, {
-					"value": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token",
-					"text": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token"
+					"value": "Cannot setup Device Categories",
+					"text": "Cannot setup Device Categories"
 				}, {
-					"value": "Cannot configure Enrollment Program Profile",
-					"text": "Cannot configure Enrollment Program Profile"
+					"value": "Cannot setup Corporate Device Identifiers",
+					"text": "Cannot setup Corporate Device Identifiers"
 				}, {
 					"value": "Other",
 					"text": "Other"
@@ -75,7 +75,7 @@
 			"required": true
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 6,
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
@@ -86,51 +86,28 @@
 				}
 			]
 		}, {
-			"id": "What devices types are impacted?",
-			"order": 7,
+			"id": "What platforms are impacted?",
+			"order": 5,
 			"controlType": "multiselectdropdown",
-			"displayLabel": "Select device types that are impacted",
+			"displayLabel": "What platforms are impacted?",
 			"dropdownOptions": [{
-					"value": "iPad",
-					"text": "iPad"
+					"value": "Apple",
+					"text": "Apple"
 				}, {
-					"value": "iPhone",
-					"text": "iPhone"
+					"value": "Android",
+					"text": "Android"
 				}, {
-					"value": "iPod",
-					"text": "iPod"
+					"value": "Windows",
+					"text": "Windows"
 				}, {
-					"value": "Mac",
-					"text": "Mac"
-				}
-			],
-			"required": false
-		}, {
-			"id": "How are these devices managed?",
-			"order": 8,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "How are these devices managed?",
-			"dropdownOptions": [{
-					"value": "Bring-your-own-device (BYOD)",
-					"text": "Bring-your-own-device (BYOD)"
-				}, {
-					"value": "Corporate-owned",
-					"text": "Corporate-owned"
-				}, {
-					"value": "Device Enrollment Program (DEP)",
-					"text": "Device Enrollment Program (DEP)"
-				}, {
-					"value": "Apple School Manager (ASM)",
-					"text": "Apple School Manager (ASM)"
-				}, {
-					"value": "Apple Configurator",
-					"text": "Apple Configurator"
+					"value": "Other",
+					"text": "Other"
 				}
 			],
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 9,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -151,13 +128,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 10,
+			"order": 7,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 11,
+			"order": 8,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
