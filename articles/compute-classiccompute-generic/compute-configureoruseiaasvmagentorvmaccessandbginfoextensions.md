@@ -20,6 +20,7 @@
 * [How to troubleshoot extensions](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-troubleshoot)<br>
 
 **Additional information for specific extensions:**<br>
+
 * [Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript)<br>
 * [OMS virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-oms)<br>
 * [Azure Desired State Configuration extension handler ](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-dsc-overview)<br>
