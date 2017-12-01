@@ -25,6 +25,7 @@ This issue may occur if the virtual machine has the disk size [greater than 1 TB
 
 We have a private preview to support backups for VMs with >1TB unmanaged disks. For details refer to [Private preview for large disk VM backup support](https://gallery.technet.microsoft.com/Instant-recovery-point-and-25fe398a)
 If you do not wish to join the preview or have managed disks, follow below steps to resolve this issue : <br>
+
 * If you have disks greater than 1 TB , [attach new disks](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal) which are less than 1 TB
 *	Then, copy the data from disk greater than 1TB into newly created disk(s) of size less than 1TB.
 * Ensure that all data has been copied and remove the disks greater than 1TB
