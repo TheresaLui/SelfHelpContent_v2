@@ -9,7 +9,7 @@
 />
 # Azure Security Center
 **Please note that Azure Security Center is a product**   
-Only open cases under this service when you **own** this service.   
+**Only** open cases under this service when you **own** this service.   
 For any other security issue in Azure please select the appropriate service.   
 **Example:** Suspicious activity on your VM -> COMPUTE -> Virtual Machine running...
 
