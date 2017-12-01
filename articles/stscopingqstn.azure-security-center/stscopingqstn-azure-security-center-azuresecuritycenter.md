@@ -8,8 +8,8 @@
 	cloudEnvironments="public"
 />
 # Azure Security Center
-**Please note that Azure Security Center is a product\n\n
-Only open cases under this service when you **own** this service.\n\n
-For any other security issue in Azure please select the appropriate service.\n\n
+**Please note that Azure Security Center is a product**   
+Only open cases under this service when you **own** this service.   
+For any other security issue in Azure please select the appropriate service.   
 **Example:** Suspicious activity on your VM -> COMPUTE -> Virtual Machine running...
 
