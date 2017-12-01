@@ -3,7 +3,7 @@
 	description="connectivity/cannotsendemail"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="anavin"
+	authors="anavinahar"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32592839"
