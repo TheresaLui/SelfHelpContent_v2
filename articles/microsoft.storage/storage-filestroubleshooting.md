@@ -25,7 +25,7 @@ This article lists common problems and solutions that are related to Microsoft A
 **General problems (occur in both Windows and Linux clients)**<br>
 - [Quota error when trying to open a file](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#quotaerror)<br>
 - [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#slowboth)<br>
- 
+
 **Windows client problems**<br>
 - [Slow performance when you access Azure File storage from Windows 8.1 or Windows Server 2012 R2](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#windowsslow)<br>
 - [Error Access Denied 53 or Error 67 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/storage-troubleshoot-file-connection-problems#error53)<br>
