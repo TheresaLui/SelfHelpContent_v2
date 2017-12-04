@@ -6,7 +6,7 @@
 	authors="v-bllydi"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32574719"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
