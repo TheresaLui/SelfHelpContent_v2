@@ -14,5 +14,5 @@
 
 # Delete a vault in A2A scenario
 ## **Recommended steps**
-- [How to **force delete the vault?**](https://docs.microsoft.com/en-us/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)
+- [How to **force delete the vault?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)
 </br> Note: Force delete will rapidly remove the vault and all its dependencies!
