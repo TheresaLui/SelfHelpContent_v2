@@ -14,16 +14,16 @@
 
 # Troubleshooting Azure Backup server Monitor Reporting issues?
 
-## **Recommended steps**
+## **Recommended steps**<br>
 
 
-To resolve common Alerts& Notifications issues, choose the symptom you are observing:
-- [Issues while setting up email notifications?](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#configure-email-notifications)
+To resolve common Alerts& Notifications issues, choose the symptom you are observing:<br>
+- [Issues while setting up email notifications?](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#configure-email-notifications)<br>
 
-## **Recommended documents**
-For information on pre-requisites, limitations and frequently asked questions, see:
-- [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)
-- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)
-- [Pricing details](https://azure.microsoft.com/pricing/details/backup/)
-- [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)
-- [How to Upgrade Backup Server to v2](https://docs.microsoft.com/azure/backup/backup-mabs-upgrade-to-v2#upgrade-backup-server-to-v2)
+## **Recommended documents**<br>
+For information on pre-requisites, limitations and frequently asked questions, see:<br>
+- [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
+- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
+- [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
+- [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
+- [How to Upgrade Backup Server to v2](https://docs.microsoft.com/azure/backup/backup-mabs-upgrade-to-v2#upgrade-backup-server-to-v2)<br>
