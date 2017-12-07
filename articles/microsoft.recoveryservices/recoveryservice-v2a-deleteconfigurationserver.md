@@ -15,10 +15,12 @@
 # Delete a configuration server
 
 ## **Recommended steps**
+
 - [How to delete or unregister a configuration server?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)<br>
 - [How to delete a configuration server using Powershell?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell)<br>
 
 
 ## **Recommended documents**
+
 - [How to disable replication/ASR components and delete a Site Recovery Vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
 - [How to **force delete the vault using powershell?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)
