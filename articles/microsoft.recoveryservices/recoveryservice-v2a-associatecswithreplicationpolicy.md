@@ -14,6 +14,7 @@
 # Associate Configuration Server to replication policy
 
 ## **Recommended steps**
+
 - [How to create a replication policy?](https://docs.microsoft.com/azure/site-recovery/site-recovery-setup-replication-settings-vmware#create-a-replication-policy)<br>
 - [How to associate configuration server with a replication policy?](https://docs.microsoft.com/azure/site-recovery/site-recovery-setup-replication-settings-vmware#associate-a-configuration-server-with-a-replication-policy)<br>
 - [How to edit a replication policy?](https://docs.microsoft.com/azure/site-recovery/site-recovery-setup-replication-settings-vmware#edit-a-replication-policy)<br>
