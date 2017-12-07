@@ -13,8 +13,8 @@
 />
 
 # Disable replication in V2A
-## **Recommended steps**
 
+## **Recommended steps**
 
 - **Protected servers:** [How to disable replication and remove VM that is protected under site recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-manage-registration-and-protection#disable-protection-for-a-vmware-vm-or-physical-server-vmware-to-azure)<br>
 - **Configuration server:**
@@ -23,5 +23,6 @@
 - **vCenter server:** [How to delete a vCenter server in Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vcenter#delete-a-vcenter-in-azure-site-recovery)<br>
 
 ## **Recommended documents**
+
 - [How to disable replication/ASR components and delete a Site recovery Vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
 - [How to **force delete the vault using powershell?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)
