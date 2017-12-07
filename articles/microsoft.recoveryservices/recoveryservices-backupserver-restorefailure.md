@@ -14,7 +14,7 @@
 
 # Troubleshooting Azure Backup Server restore failures issues
 
-## **Recommended steps**<br>
+## **Recommended steps**
 
 **Unable to Backup?**<br>
 To resolve common backup issues, choose the symptom you are observing:<br>
@@ -23,7 +23,7 @@ To resolve common backup issues, choose the symptom you are observing:<br>
 - [This server is not registered to the vault specified by the vault credential](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server#troubleshooting-error-messages)<br>
 
 
-## **Recommended documents**<br>
+## **Recommended documents**
 For information on pre-requisites, limitations and frequently asked questions, see:<br>
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
