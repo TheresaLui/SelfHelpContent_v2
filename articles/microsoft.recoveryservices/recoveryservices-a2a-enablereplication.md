@@ -23,6 +23,7 @@
 - [What charges do I incur while using Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)</br>
 
 ## **Recommended documents** 
+
 - Understand the [scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)</br>
 - [Steps to **enable replication** for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-enable-replication)</br>
 - [**Networking guidance** for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-network)</br>
