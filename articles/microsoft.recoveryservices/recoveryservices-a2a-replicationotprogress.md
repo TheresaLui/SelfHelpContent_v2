@@ -13,7 +13,7 @@
 />
 # Replication does not progress in A2A scenario
 
-## **Recommended steps**<br>
+## **Recommended steps**
 - [Troubleshooting common Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)<br>
 
 ## **Recommended documents**
