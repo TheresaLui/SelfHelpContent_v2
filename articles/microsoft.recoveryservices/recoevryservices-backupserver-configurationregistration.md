@@ -14,7 +14,7 @@
 
 # Troubleshooting Azure Backup Server Configuration/Registration issues
 
-## **Recommended steps**<br>
+## **Recommended steps**
 
 **Unable to Backup?**<br>
 To resolve common install and registration issues, choose the symptom you are observing:<br>
@@ -22,7 +22,7 @@ To resolve common install and registration issues, choose the symptom you are ob
 - [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
 
 
-## **Recommended documents**<br>
+## **Recommended documents**
 For information on pre-requisites, limitations and frequently asked questions, see:<br>
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
