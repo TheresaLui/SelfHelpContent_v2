@@ -15,7 +15,7 @@
 # Slow Backup/Restore Performance of Azure Backup Server
 
 
-## **Recommended steps**<br>
+## **Recommended steps**
 
 **Unable to Backup?**<br>
 To resolve common slow Backup/Restore, follow the below best practices:<br>
@@ -23,7 +23,7 @@ To resolve common slow Backup/Restore, follow the below best practices:<br>
 - [Steps to ensure there are no conflicts with another process or antivirus](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup)<br>
 - [Steps to understand bottlenecks in the case of large number of files](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-performance-bottlenecks-on-the-computer)<br>
 
-## **Recommended documents**<br>
+## **Recommended documents**
 For information on pre-requisites, limitations and frequently asked questions, see:<br>
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
