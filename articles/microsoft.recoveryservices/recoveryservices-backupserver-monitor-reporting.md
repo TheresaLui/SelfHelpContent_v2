@@ -14,13 +14,13 @@
 
 # Troubleshooting Azure Backup server Monitor Reporting issues?
 
-## **Recommended steps**<br>
-
+## **Recommended steps**
 
 To resolve common Alerts& Notifications issues, choose the symptom you are observing:<br>
 - [Issues while setting up email notifications?](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#configure-email-notifications)<br>
 
-## **Recommended documents**<br>
+## **Recommended documents**
+
 For information on pre-requisites, limitations and frequently asked questions, see:<br>
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
