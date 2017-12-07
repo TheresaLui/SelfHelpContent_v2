@@ -13,6 +13,7 @@
 />
 
 # Delete a vault in V2A scenario
+
 ## **Recommended steps**
 
 - [How to disable replication/ASR components and delete a Site recovery Vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
