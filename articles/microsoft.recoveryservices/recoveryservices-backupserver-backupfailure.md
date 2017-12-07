@@ -25,6 +25,7 @@ To resolve common backup issues, choose the symptom you are observing:<br>
 - [Setup could not update registry metadata](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#error-setup-could-not-update-registry-metadata)<br>
 
 ## **Recommended documents**
+
 For information on pre-requisites, limitations and frequently asked questions, see:<br>
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
