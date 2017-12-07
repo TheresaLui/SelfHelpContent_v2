@@ -22,6 +22,3 @@
 * [Understanding "Some SKU series are unavailable for the selected subscription for this region"?](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-upload-vhd?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
 * [Diagnose & recover from boot failures](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2)<br>
-
-
-
