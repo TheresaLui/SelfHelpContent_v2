@@ -13,7 +13,7 @@
 />
 # Networking concepts for Azure to Azure replication
 
-## **Recommended steps** <br>
+## **Recommended steps**
 - [List of **Supported/Not Supported** Network Configurations](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure#support-for-network-configuration)<br>
 - [**Networking guidance** for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-networking-guidance)<br>
 - [Steps to configure Network mapping between two Azure regions](https://docs.microsoft.com/azure/site-recovery/site-recovery-network-mapping-azure-to-azure)<br>
