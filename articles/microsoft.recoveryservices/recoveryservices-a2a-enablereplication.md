@@ -14,6 +14,7 @@
 # Replicate Azure VMs from one Azure region to another Azure region using Azure Site Recovery
 
 ## **Recommended steps**
+
 * **Unsupported Scenarios**</br>
 	-  Cross subscription migration and ASM to ARM, [here](https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-azure-to-azure) are the workarounds.</br>
 	- Migration of IAAS VMs between the same region.</br>
