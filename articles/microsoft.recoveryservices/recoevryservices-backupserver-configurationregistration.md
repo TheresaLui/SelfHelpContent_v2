@@ -3,7 +3,7 @@
 	description="Azure Backup server backup/register or back up a windows virtual machine"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="v-kkama"
+	authors="v-bllydi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570754"
