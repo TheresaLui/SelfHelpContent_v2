@@ -3,7 +3,7 @@
 	description="Azure Backup server restore failuers"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="v-kkama"
+	authors="v-bllydi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553295"
