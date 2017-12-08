@@ -3,7 +3,7 @@
 	description="Azure Backup server Monitor Reporting"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="v-kkama"
+	authors="v-bllydi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553288"
