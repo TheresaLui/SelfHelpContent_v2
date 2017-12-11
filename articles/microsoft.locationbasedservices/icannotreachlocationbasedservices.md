@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Our service is currently unavailable in below countries. Please check your current IP address and verify that your IP address' location is not in one of the unsupported countries below.
+Our service is currently unavailable in below countries. Please check your current IP address and verify that your IP address' location is not in one of the unsupported countries below.<br>
 * Argentina<br>
 * China<br>
 * India<br>
