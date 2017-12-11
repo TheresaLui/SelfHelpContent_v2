@@ -17,10 +17,10 @@
 ## **Recommended Steps**
 
 Our service is currently unavailable in below countries. Please check your current IP address and verify that your IP address' location is not in one of the unsupported countries below.
-* Argentina
-* China
-* India
-* Morrocco
-* Pakistan
-* South Korea
+* Argentina<br>
+* China<br>
+* India<br>
+* Morrocco<br>
+* Pakistan<br>
+* South Korea<br>
 
