@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Access HDFS from the cluster
