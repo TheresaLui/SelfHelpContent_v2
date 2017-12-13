@@ -17,4 +17,5 @@
 
 ## **Recommended documents**
 [Genomics FAQ](https://msgen.readthedocs.io/en/latest/faq.html)<br>
+[Test](https://msgen.readthedocs.io/en/latest/faq.html)<br>
 [Getting started with msgen](http://msgen.readthedocs.io/en/latest/)
