@@ -61,4 +61,4 @@ Set-AzureRmKeyVaultAccessPolicy -VaultName [KeyVaultName]  -ObjectId  $server.Id
 ```
 <br>
 
-For more information, please refer to [Transparent Database Encryption with Bring Your own Key Support](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption-byok-azure-sql)
+For more information, please refer to [Transparent Database Encryption with Bring Your own Key Support](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption-byok-azure-sql)
