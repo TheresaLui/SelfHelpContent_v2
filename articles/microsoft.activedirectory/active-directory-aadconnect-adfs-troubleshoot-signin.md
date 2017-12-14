@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="billmath"
-	displayOrder="5"
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32570971"
 	resourceTags=""
@@ -16,10 +16,10 @@
 
 ## **Recommended steps**
 
-It is recommended to use Azure AD Connect to configure federation with Azure Active Directory. Azure AD Connect provides easy steps to configure and maintain federation. If user sign-in is failing, see if the below common resolution can help – 
+Use [AD FS Help Troubleshooting Guides](https://aka.ms/adfshelp/troubleshooting) to quickly diagnose and resolve sign-in issues in AD FS. If you do not find a solution on AD FS Help, you may find the following resources helpful for an immediate resolution:
 
+1.	**Troubleshoot generic AD FS service / sign-in issues:** Use [AD FS Diagnostic module from AD FS Help](https://adfshelp.microsoft.com/Tools/DownloadableTools) to diagnose the AD FS server issues.
+2.	**Claims issuance related issues:** Use Claims X-Ray to debug claims issuance related issues. You can easily verify the final claims in a token using [Claims X-Ray](https://aka.ms/claimsxray)
+3.	**Issues with SSL certificate update:** Use [Azure AD Connect to update the SSL certificate](https://aka.ms/adfssslwithaadconnect) of your AD FS farm. For detailed steps and guidance refer to [Managing SSL Certificates in AD FS and WAP in Windows Server 2016](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-certificates-ad-fs-wap)
+4.	**Federation management with Azure AD Connect:** [Azure AD Connect](https://aka.ms/adfswithaadconnect) can help configure your federation trust with Azure AD correctly and resolve sign-in issues with Azure AD in a few simple clicks.
 
-1. [Repair trust with Azure AD using AAD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-management#repairthetrust)
-2. [Configure federation with multiple domains](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-management#addfeddomain)
-3. [Configure federation with alternate ID](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-management#federate-with-azure-ad-using-alternateid)
-4. [Configure WIA for users in browsers other than Internet Explorer](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-intranet-forms-based-authentication-for-devices-that-do-not-support-wia)

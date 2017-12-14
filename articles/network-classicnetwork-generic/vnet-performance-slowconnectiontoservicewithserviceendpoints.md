@@ -6,7 +6,7 @@
 	authors="anavinahar"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="	32589560"
+	supportTopicIds="32589560"
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"

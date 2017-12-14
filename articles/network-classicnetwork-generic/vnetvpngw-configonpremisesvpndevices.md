@@ -5,7 +5,7 @@
 	resource="virtualnetworks"
 	authors="radwiv"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=" 32584874"
 	resourceTags=""
 	productPesIds="15526"
@@ -13,11 +13,6 @@
 />
 
 # configure on-premises vpn devices
-
-## **Recommended steps**
-
-1. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade)
-2. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
 
 ## **Recommended documents**
 Check list of [validated VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-namedevicetableavalidated-vpn-devices-and-device-configuration-guides) to ensure your devices are configured and compatible<br>
