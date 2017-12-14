@@ -19,4 +19,6 @@
 2. Use [NSG flow logs](data-blade:microsoft_azure_network.flowlogsblade) to view ingress and egress IP traffic through a Network Security Group<br>
 
 ## **Recommended documents**
-[Create rules in an existing NSG](https://docs.microsoft.com/azure/virtual-network/virtual-networks-create-nsg-arm-pportal#create-rules-in-an-existing-nsg)
+[Create rules in an existing NSG](https://docs.microsoft.com/azure/virtual-network/virtual-networks-create-nsg-arm-pportal#create-rules-in-an-existing-nsg)<br>
+[Configure/Enable flow logs for NSG](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
+[Read NSG flow logs](https://docs.microsoft.com/azure/network-watcher/network-watcher-read-nsg-flow-logs)<br>
