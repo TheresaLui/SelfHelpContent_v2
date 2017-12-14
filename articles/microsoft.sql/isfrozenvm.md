@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Connection attempts to your database **<!--$ServerName--> ServerName <!--/$ServerName-->** have recently failed from <!--$StartTime--> StartTime <!--$StartTime--> UTC to <!--$EndTime--> EndTime <!--$EndTime--> UTC due to a frozen VM issue. The mitigation mechanism have kicked in and put the database back to a stable state. If you are still experiencing unavailability to your database, please proceed to create the ticket.
+Connection attempts to your database **<!--$ServerName--> ServerName <!--/$ServerName-->** have recently failed from <!--$StartTime--> StartTime <!--$StartTime--> UTC to <!--$EndTime--> EndTime <!--$EndTime--> UTC due to a frozen VM issue. The mitigation mechanism has kicked in and put the database back to a stable state. If you are still experiencing unavailability to your database, please proceed to create the ticket.
 <!--/issueDescription-->
 
 **Summary of impact**<br>
