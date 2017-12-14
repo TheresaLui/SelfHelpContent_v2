@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="tihsu"
+	authors="hsuyiting"
 	displayOrder=""
 	articleId="IsFrozenVm_A4F4CB4A-E3C6-4001-B3D3-278FD7FC70EA"
 	diagnosticScenario=""
