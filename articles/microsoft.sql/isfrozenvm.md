@@ -20,7 +20,7 @@
 Connection attempts to your database **<!--$ServerName--> ServerName <!--/$ServerName-->** have recently failed from <!--$StartTime--> StartTime <!--$StartTime--> UTC to <!--$EndTime--> EndTime <!--$EndTime--> UTC due to a frozen VM issue. The mitigation mechanism have kicked in and put the database back to a stable state. If you are still experiencing unavailability to your database, please proceed to create the ticket.
 <!--/issueDescription-->
 
-**RCA**<br>
+**Summary of impact**<br>
 Azure Virtual Machines powers our IaaS and PaaS offerings, including SQL DB and Cosmos DB. Starting approximately in March of this year, Azure noticed two new categories of availability degradation:<br>
   · Some virtual machines were rebooting.<br>
   · Read/write operations appeared frozen and I/O had come to a crawl.<br>
@@ -31,12 +31,12 @@ When a VM supporting SQL DB or Cosmos DB gets into this state, databases with pr
 
 There is a high priority Investigation into how VM’s are getting into this state. Teams are working around the clock to identify mitigations to prevent impact to customer databases, find the root cause, and apply remediations, so this issue no longer occurs.<br><br>
 
-**Investigation into the root cause**<br>
+**Root cause investigation**<br>
 Information from the VMs in this state and telemetry from the VMs when they reboot or suffer I/O freeze is being analyzed. So far, Azure believes the degradation started after a recent Host OS update, that caused the sudden increase since late October. When the update occurred, Azure did not have telemetry in place to catch the VM’s getting into this state. Azure has deployed a fix to reduce the occurrence of the problem.<br>
 
 Engineers continue to analyze telemetry, host dumps and logs to identify the root cause. Azure expects this will shortly lead to fixes to completely eradicate the problem.<br><br>
 
-**Plan to prevent additional instances while the investigation continues**<br>
+**Mitigation in progress**<br>
 Specific mitigation steps are being taken while the root cause and a fix is identified:<br>
 	1. A hardware level signal has been identified related to specific actions on the disk controller stack. These actions cause drives to be unavailable from some codepaths. Code is being deployed to detect this signal within seconds of occurrence and automatically restart frozen VMs. This signal is being refined to minimize false positives (currently about 50%). Once refined it is expected to deploy in 1-2 days.<br>
 	2. A signal to detect frozen operations, based on checking read/write operations on all disks at regular intervals is also being developed. This signal detects issues with a lower false positive rate (about 25%). However, the detection and automated mitigation takes 5 minutes. The system to detect the signal has been deployed worldwide to SQL DB VMs and is being refined.<br>
