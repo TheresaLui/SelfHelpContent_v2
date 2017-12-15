@@ -5,7 +5,7 @@
 	resource="servers"
 	authors="bnmaa"
 	displayOrder="3"
-	selfHelpType="tools"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
