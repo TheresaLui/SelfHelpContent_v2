@@ -15,4 +15,4 @@ The error ("protocol violation.. CR must be followed by LF") indicates an issue 
 Note: The URL may not fail in browsers most likely because they’re implemented with libraries which have a relaxed validation concerning HTTP headers. The blog post above shows examples of this.
 ## **Recommended documents**
 [Debug protocol violation errors](http://mehdi.me/a-tale-of-debugging-the-linkedin-api-net-and-http-protocol-violations/)
-[Understand common questions and problems with availability tests](https://go.microsoft.com/fwlink/?linkid=865227)
+<br>[Understand common questions and problems with availability tests](https://go.microsoft.com/fwlink/?linkid=865227)
