@@ -21,6 +21,7 @@ Connection attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$D
 <!--/issueDescription-->
 
 Your server lost access to the TDE protector due to one of the following root causes:
+
 1. The Key Vault or the Key Vault Key might have been deleted from your subscription. <br>
 2. The permissions required by the Key Vault Key might have been removed or updated.<br>
 3. Expired Key Vault Key: if a key already used as a TDE Protector for a server was accidentally configured with an expiration date in Azure Key Vault.<br>
