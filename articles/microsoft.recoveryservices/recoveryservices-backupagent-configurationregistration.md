@@ -15,6 +15,7 @@
 # Install and Registration failures for Files and Folders backup
 
 To resolve common install and registration issues, choose the symptom you are observing:
+
 - [Invalid vault credentials provided](https://aka.ms/invalidvaultcredentials)
 - Microsoft Azure subscription has expired
 
@@ -33,6 +34,7 @@ Wait for 30mins to check the status using the below commands -
 
 
 ## **Recommended documents**
+
 For information on pre-requisites, limitations and frequently asked questions, see:
 - [Step by step guide to setup files and folder backup using Azure Backup Agent](https://docs.microsoft.com/azure/backup/backup-configure-vault)
 - [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements)
