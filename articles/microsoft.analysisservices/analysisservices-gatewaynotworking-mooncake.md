@@ -14,7 +14,7 @@
 
 # On-premises data gateway is not working
 
-While processing, if you see an error like `Gateway on endpoint '<endpoint uri>' is unreachable`, make sure the gateway is configured correctly and it is associated with the AS server.
+While processing, if you see an error like **Gateway on endpoint '<endpoint uri>' is unreachable**, make sure the gateway is configured correctly and it is associated with the AS server.
 
 ## **Recommended steps**
 
