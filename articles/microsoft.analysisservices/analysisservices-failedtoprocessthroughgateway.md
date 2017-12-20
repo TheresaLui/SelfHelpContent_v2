@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. Open config file `Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config` under the installation directory of unified gateway, typically it's `%systemdrive%\Program Files\On-premises data gateway`.
-2. Find **SendTelemetry** setting in the config, change the value to **False**.
+1. Open the config file `Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config` under the installation directory of the unified gateway, typically it's `%systemdrive%\Program Files\On-premises data gateway`.
+2. Find the **SendTelemetry** setting in the config, change the value to **False**.
 3. Restart the gateway service **On-premise data gateway service**.
-4. If it's not the case, follow **My issue is not listed**.
+4. If processing continues to fail, follow **My issue is not listed**.
