@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-1. Open elevated cmd.exe and run `%windir%\system32\odbcad32.exe` to open 64bit ODBC Data Source Administrator.
-2. Go to **Drivers** tab, make sure desired ODBC driver shows up.
-3. If not, install 64-bit ODBC driver correctly.
+1. Open elevated cmd.exe (run as administrator) and run `%windir%\system32\odbcad32.exe` to open the 64bit ODBC Data Source Administrator.
+2. Go to **Drivers** tab, make sure the desired ODBC driver shows up.
+3. If not, install the 64-bit ODBC driver correctly.
 4. Restart the gateway service.
 
 ## **Recommended documents**
