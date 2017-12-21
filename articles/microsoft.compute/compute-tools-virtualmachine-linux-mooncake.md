@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="MoonCake"
 />
 
 # tools
@@ -17,7 +17,7 @@
 [Reset SSH public key or password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset)<br>
 Reset the SSH public key or password of the an account with sudo privileges<br>
 
-[View boot diagnostics](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel)<br>
+[View boot diagnostics](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade)<br>
 View the serial console output and a screenshot of this virtual machine to help diagnose startup issues<br>
 
 [Redeploy virtual machine](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy)<br>
