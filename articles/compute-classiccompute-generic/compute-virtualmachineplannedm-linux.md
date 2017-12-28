@@ -18,7 +18,7 @@
 
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
 
-**What are the different possible values for my virtual machine during planned maintenance?**
+**What are the different possible values for my virtual machine during planned maintenance?**<br>
 
 **Value**	| **Description**
 --- | ---
