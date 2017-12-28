@@ -36,7 +36,6 @@ Wait for 30mins to check the status using the below commands -
 ## **Recommended documents**
 
 For information on pre-requisites, limitations and frequently asked questions, see:
-
 - [Step by step guide to setup files and folder backup using Azure Backup Agent](https://docs.microsoft.com/azure/backup/backup-configure-vault)
 - [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements)
 - [Pricing details](https://azure.microsoft.com/pricing/details/backup/)
