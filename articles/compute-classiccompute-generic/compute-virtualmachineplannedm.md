@@ -18,13 +18,12 @@
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
 
 **What are the different possible values for my virtual machine?**
-
 **Value**	| **Description**
 --- | ---
-***Start now*** | The VM is in the self-service maintenance window which lets you initiate the maintenance yourself. See below on how to start maintenance on your VM
-***Scheduled*** |The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM
-***Empty or Completed*** |You have successfully initiated and completed maintenance on your VM.
-***Skipped***	|You have selected to initiate maintenance with no success. Azure has canceled the maintenance for your VM and will reschedule it in a later time
+***Start now*** | The VM is in the self-service maintenance window which lets you initiate the maintenance yourself.
+***Scheduled*** | The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM.
+***Empty or Completed*** |  Your VM does not require any maintenance and no maintenance reboot will occur.
+***Skipped***	| You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.
 
 ## **Recommended documents**
 [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#faq)<br>
