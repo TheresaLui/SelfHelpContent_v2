@@ -13,11 +13,9 @@
 />
 
 # Planned Maintenance/general questions or issues
-# Top question:
-**Question:**<br>
-I don't see any indication of planned maintenance in the portal, Powershell, or CLI, What is wrong?<br>
+***Top question(s):***<br>
+**I don't see any indication of planned maintenance in the portal, Powershell, or CLI, What is wrong?**<br>
 
-**Answer:**<br>
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
 
 ## **Recommended documents**
