@@ -20,12 +20,12 @@ Information related to planned maintenance is available during a planned mainten
 
 **What are the different possible values for my virtual machine?**
 
-Value	| Description
+**Value**	| **Description**
 --- | ---
-Start now |The VM is in the self-service maintenance window which lets you initiate the maintenance yourself. See below on how to start maintenance on your VM
-Scheduled	|The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM
-Empty or Completed |You have successfully initiated and completed maintenance on your VM.
-Skipped	|You have selected to initiate maintenance with no success. Azure has canceled the maintenance for your VM and will reschedule it in a later time
+***Start now*** | The VM is in the self-service maintenance window which lets you initiate the maintenance yourself. See below on how to start maintenance on your VM
+***Scheduled*** |The VM is scheduled for maintenance with no option for you to initiate maintenance. You can learn of the maintenance window by selecting the Auto-Scheduled window in this view or by clicking on the VM
+***Empty or Completed*** |You have successfully initiated and completed maintenance on your VM.
+***Skipped***	|You have selected to initiate maintenance with no success. Azure has canceled the maintenance for your VM and will reschedule it in a later time
 
 ## **Recommended documents**
 [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#faq)<br>
