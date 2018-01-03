@@ -47,7 +47,7 @@ The status as well as the maintenance window of the VMs can be checked in the Az
 This is likely due to a long running maintenance update that resulted in an incorrect VM status being shown. To update this status, please add a "Tag" to the VM and let the system update. The VM status should then reflect the correct status again and the tag can be removed
 
 ## Why do some or all of my VMs not show any maintenance status or schedule?
-VMs might not show a maintenance status or schedule in the portal or PowerShell/CLI due to one of the following reasons:
+VMs might not show a maintenance status or schedule in the portal or PowerShell/CLI due to one of the following reasons:<br>
 * VM is a Cloud Services or Virtual Machine Scale Set instance
 * VM is currently stopped/deallocated. Those VMs are not assigned to a host. Once they get started and a host is allocated it will reflect the maintenance status based on the then current host.
 * VMs are already on an updated host and therefore will not be impacted by this maintenance wave.
