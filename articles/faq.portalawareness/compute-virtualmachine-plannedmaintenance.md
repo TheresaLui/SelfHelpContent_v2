@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Azure Planned Maintenance Recommendations and FAQs"
+	pageTitle="FAQ for Azure Planned Maintenance"
 	description="FAQ for Azure Planned Maintenance"
 	service="microsoft.compute"
 	resource="virtualmachines"
