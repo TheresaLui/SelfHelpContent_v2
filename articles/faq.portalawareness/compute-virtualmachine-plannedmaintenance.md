@@ -29,7 +29,7 @@ We have since sent a follow up notification to customers' management portals to 
 We estimate completion with 30 - 45 minutes.
 
 ## Does the guest OS need to be updated?
-No, its not required this time. The current Host updates will mitigate  this vulnerability. But we always recommend that customers maintain the latest patch levels on the guest OS. Please consult with the vendor of your operating systems for updates and instructions, as needed. For Windows Server VM customers, guidance has now been published and is available [here](https://portal.msrc.microsoft.com/security-guidance/advisory/ADV180002).
+No, its not required this time. The current Host updates will mitigate  this vulnerability. But we always recommend that customers maintain the latest patch levels on the guest OS. Please consult with the vendor of your operating systems for updates and instructions, as needed. For Windows Server VM customers, guidance has now been published and is available [here](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002).
 
 ## If I follow your recommendations for High Availability by using an Availability Set, am I safe?
 Virtual machines deployed in an availability set or virtual machine scale sets have the notion of Update Domains (UD). When performing maintenance, Azure honors the UD constraint and will not reboot virtual machines from different UD (within the same availability set). Azure also waits for at least 30 minutes before moving to the next group of virtual machines.
