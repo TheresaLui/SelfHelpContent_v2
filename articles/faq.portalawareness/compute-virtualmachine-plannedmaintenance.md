@@ -1,5 +1,5 @@
 <properties
-	pageTitle="FAQ for Azure Planned Maintenance"
+	pageTitle="Azure Planned Maintenance Recommendations and FAQs"
 	description="FAQ for Azure Planned Maintenance"
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -11,8 +11,8 @@
 	productPesIds="99999"
 	cloudEnvironments="public"
 />
-
-# **Recommended documents**
+# **FAQs**
+## **Recommended documents**
 [Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/)
 [Understanding planned maintenance for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>
 [How to view notifications and alerts in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#notification-and-alerts-in-the-portal)<br>
