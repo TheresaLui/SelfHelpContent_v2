@@ -59,7 +59,7 @@ There are several use cases where you will see your VM scheduled for maintenance
 The majority of Azure customers should not see a noticeable performance impact with this update. We’ve worked to optimize the CPU and disk I/O path and are not seeing noticeable performance impact after the fix has been applied. A small set of customers may experience some networking performance impact. This can be addressed by turning on Azure Accelerated Networking (Windows, Linux), which is a free capability available to all Azure customers. We will continue to monitor performance closely and address customer feedback.
 
 ## **Recommended documents**
-[Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/)
+[Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/)
 [Understanding planned maintenance for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>
 [How to view notifications and alerts in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#notification-and-alerts-in-the-portal)<br>
 [How to view VMs scheduled for maintenance in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#view-vms-scheduled-for-maintenance-in-the-portal)<br>
