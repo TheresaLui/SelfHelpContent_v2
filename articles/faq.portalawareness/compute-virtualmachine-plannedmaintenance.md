@@ -14,6 +14,9 @@
 # **FAQs**
 ## What is the best place to find more details on the vulnerability?
 Please refer the Microsoft blog post [Securing Azure Customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/) for more details.
+Also please refer to the FAQs for the accelerated maintenance - [Windows VM FAQS](https://docs.microsoft.com/azure/virtual-machines/windows/accelerated-maintenance) and
+[Linux VM FAQs](https://docs.microsoft.com/azure/virtual-machines/linux/accelerated-maintenance)
+
 
 ## Is there a way to know when a particular VM will be rebooted?
 Unfortunately not. The best way to get an alert about the impending reboot is to configure [Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events). This will give a 15 minute notification of the VM going down due to maintenance. In addition, the activity log entry can be used to trigger Azure Monitor to send emails, SMS, or webhooks.
