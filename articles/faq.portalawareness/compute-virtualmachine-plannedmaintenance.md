@@ -13,10 +13,13 @@
 />
 # **FAQs**
 ## What is the best place to find more details on the vulnerability?
-Please refer the Microsoft blog post [Securing Azure Customers from CPU vulnerability](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/) for more details.
+Please refer the Microsoft blog post [Securing Azure Customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/) for more details.
+Also please refer to the FAQs for the accelerated maintenance - [Windows VM FAQS](https://docs.microsoft.com/azure/virtual-machines/windows/accelerated-maintenance) and
+[Linux VM FAQs](https://docs.microsoft.com/azure/virtual-machines/linux/accelerated-maintenance)
+
 
 ## Is there a way to know when a particular VM will be rebooted?
-Unfortunately not. The best way to get an alert about the impending reboot is to configure [Scheduled Events](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/scheduled-events). This will give a 15 minute notification of the VM going down due to maintenance. In addition, the activity log entry can be used to trigger Azure Monitor to send emails, SMS, or webhooks.
+Unfortunately not. The best way to get an alert about the impending reboot is to configure [Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events). This will give a 15 minute notification of the VM going down due to maintenance. In addition, the activity log entry can be used to trigger Azure Monitor to send emails, SMS, or webhooks.
 
 ## Were there notifications sent out about the scheduled maintenance?
 Yes, an email and an in-portal service health notification has been sent to all impacted subscriptions. The email went to subscription administrators and co-administrators. The in-portal service health notification resides in Azure Service Health and triggers any Azure Monitor alerts set to activate by the ‘service health’ category.
@@ -34,7 +37,7 @@ No, its not required this time. The current Host updates will mitigate  this vul
 ## If I follow your recommendations for High Availability by using an Availability Set, am I safe?
 Virtual machines deployed in an availability set or virtual machine scale sets have the notion of Update Domains (UD). When performing maintenance, Azure honors the UD constraint and will not reboot virtual machines from different UD (within the same availability set). Azure also waits for at least 30 minutes before moving to the next group of virtual machines.
 
-For more information about high availability, please refer [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability) and [Manage the availability of Linux virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/manage-availability).
+For more information about high availability, please refer [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) and [Manage the availability of Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability).
 
 ## I have architected my business continuity/disaster recovery plan using region pairs. Will reboots to my VMs occur in region pairs at the same time? 
 Normally, Azure planned maintenance events are rolled out to paired regions one at a time to minimize the risk of disruption in both regions. However, due to the urgent nature of this security update, we are rolling the update out to all regions concurrently
@@ -56,7 +59,7 @@ There are several use cases where you will see your VM scheduled for maintenance
 The majority of Azure customers should not see a noticeable performance impact with this update. We’ve worked to optimize the CPU and disk I/O path and are not seeing noticeable performance impact after the fix has been applied. A small set of customers may experience some networking performance impact. This can be addressed by turning on Azure Accelerated Networking (Windows, Linux), which is a free capability available to all Azure customers. We will continue to monitor performance closely and address customer feedback.
 
 ## **Recommended documents**
-[Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/)
+[Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/)
 [Understanding planned maintenance for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>
 [How to view notifications and alerts in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#notification-and-alerts-in-the-portal)<br>
 [How to view VMs scheduled for maintenance in the portal](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#view-vms-scheduled-for-maintenance-in-the-portal)<br>
