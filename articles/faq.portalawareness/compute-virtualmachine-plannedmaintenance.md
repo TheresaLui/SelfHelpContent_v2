@@ -12,14 +12,19 @@
 	cloudEnvironments="public"
 />
 # **FAQs**
-## What is the best place to find more details on the vulnerability?
-Please refer the Microsoft blog post [Securing Azure Customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/) for more details.
-Also please refer to the FAQs for the accelerated maintenance - [Windows VM FAQS](https://docs.microsoft.com/azure/virtual-machines/windows/accelerated-maintenance) and
-[Linux VM FAQs](https://docs.microsoft.com/azure/virtual-machines/linux/accelerated-maintenance)
+## An industry-wide, hardware-based security vulnerability was [disclosed on January 3](https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html). As part of Microsoft’s response to an industry-wide, hardware-based security vulnerability, keeping customers secure is always our top priority and we have taken steps to ensure that no Azure customer is exposed to these vulnerabilities. Part of this activity included accelerating our planned maintenance of customers which may have caused a reboot of some virtual machines. Microsoft Azure has now completed this maintenance activity and applied mitigation against these vulnerabilities to our entire fleet.
+## Additional guidance has been published to the blog which can be found here (https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/) <br>
+## Also please refer to the FAQs for the accelerated maintenance - [Windows VM FAQS](https://docs.microsoft.com/azure/virtual-machines/windows/accelerated-maintenance) and [Linux VM FAQs](https://docs.microsoft.com/azure/virtual-machines/linux/accelerated-maintenance)
 
+
+## How can I see which of my VMs are already updated?
+You can see the status of your VMs, and if the reboot completed, in the [VM list in the Azure portal] (https://aka.ms/T08tdc). Your VMs are listed as either “Already updated” if the update has been applied, or “Scheduled” if the update is still required. If you want to see just your VMs “Scheduled” refer to your [Azure Service Health](https://portal.azure.com/).
+
+## What if Service Health doesn’t show a VM, or is blank?
+The column can take some time to load, so customers should wait to ensure that the page is fully loaded. If there are still blank statuses, no reboot is needed.
 
 ## Is there a way to know when a particular VM will be rebooted?
-Unfortunately not. The best way to get an alert about the impending reboot is to configure [Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events). This will give a 15 minute notification of the VM going down due to maintenance. In addition, the activity log entry can be used to trigger Azure Monitor to send emails, SMS, or webhooks.
+Unfortunately not. The best way to get an alert about the impending reboot is to configure [Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events). This will give a 15 minute notification of the VM going down due to maintenance.
 
 ## Were there notifications sent out about the scheduled maintenance?
 Yes, an email and an in-portal service health notification has been sent to all impacted subscriptions. The email went to subscription administrators and co-administrators. The in-portal service health notification resides in Azure Service Health and triggers any Azure Monitor alerts set to activate by the ‘service health’ category.
@@ -34,19 +39,11 @@ We estimate completion with 30 - 45 minutes.
 ## Does the guest OS need to be updated?
 No, its not required this time. The current Host updates will mitigate  this vulnerability. But we always recommend that customers maintain the latest patch levels on the guest OS. Please consult with the vendor of your operating systems for updates and instructions, as needed. For Windows Server VM customers, guidance has now been published and is available [here](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002).
 
-## If I follow your recommendations for High Availability by using an Availability Set, am I safe?
-Virtual machines deployed in an availability set or virtual machine scale sets have the notion of Update Domains (UD). When performing maintenance, Azure honors the UD constraint and will not reboot virtual machines from different UD (within the same availability set). Azure also waits for at least 30 minutes before moving to the next group of virtual machines.
-
-For more information about high availability, please refer [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) and [Manage the availability of Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability).
-
 ## I have architected my business continuity/disaster recovery plan using region pairs. Will reboots to my VMs occur in region pairs at the same time? 
 Normally, Azure planned maintenance events are rolled out to paired regions one at a time to minimize the risk of disruption in both regions. However, due to the urgent nature of this security update, we are rolling the update out to all regions concurrently
 
 ## What is the experience in the case of Cloud Services (Web/Worker Role), Service Fabric, and Virtual Machine Scale Sets?
 While these platforms are impacted by planned maintenance, customers using these platforms are considered safe given that only VMs in a single Upgrade Domain (UD) will be impacted at any given time.
-
-## What if Service Health doesn’t show a VM, or is blank?
-The column can take some time to load, so customers should wait to ensure that the page is fully loaded. If there are still blank statuses, no reboot is needed. The experience has been changed for the scheduled maintenance starting today. VMs only have two possible statuses: “Scheduled” or “Already updated”. Scheduled means that the VM will be impacted by planned maintenance, so customers should expect that this VM will be rebooted during scheduled maintenance. “Already updated” means that the VM does not require maintenance – either because it has already been rebooted, or because the VM was allocated to an already-updated host.
 
 ## Why is my VM scheduled for maintenance for the second time
 There are several use cases where you will see your VM scheduled for maintenance after you have already completed your maintenance-redeploy:
