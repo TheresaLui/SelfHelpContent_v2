@@ -13,12 +13,12 @@
 />
 # **FAQs**
 ## An industry-wide, hardware-based security vulnerability was [disclosed on January 3](https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html). As part of Microsoft’s response to an industry-wide, hardware-based security vulnerability, keeping customers secure is always our top priority and we have taken steps to ensure that no Azure customer is exposed to these vulnerabilities. Part of this activity included accelerating our planned maintenance of customers which may have caused a reboot of some virtual machines. Microsoft Azure has now completed this maintenance activity and applied mitigation against these vulnerabilities to our entire fleet.
-## Additional guidance has been published to the blog which can be found here (https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/) <br>
+## Additional guidance has been published to the blog which can be found here (https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/) <br>
 ## Also please refer to the FAQs for the accelerated maintenance - [Windows VM FAQS](https://docs.microsoft.com/azure/virtual-machines/windows/accelerated-maintenance) and [Linux VM FAQs](https://docs.microsoft.com/azure/virtual-machines/linux/accelerated-maintenance)
 
 
 ## How can I see which of my VMs are already updated?
-You can see the status of your VMs, and if the reboot completed, in the [VM list in the Azure portal] (https://aka.ms/T08tdc). Your VMs are listed as either “Already updated” if the update has been applied, or “Scheduled” if the update is still required. If you want to see just your VMs “Scheduled” refer to your [Azure Service Health](https://portal.azure.com/).
+You can see the status of your VMs, and if the reboot completed, in the [VM list in the Azure portal](https://aka.ms/T08tdc). Your VMs are listed as either “Already updated” if the update has been applied, or “Scheduled” if the update is still required. If you want to see just your VMs “Scheduled” refer to your [Azure Service Health](https://portal.azure.com/).
 
 ## What if Service Health doesn’t show a VM, or is blank?
 The column can take some time to load, so customers should wait to ensure that the page is fully loaded. If there are still blank statuses, no reboot is needed.
