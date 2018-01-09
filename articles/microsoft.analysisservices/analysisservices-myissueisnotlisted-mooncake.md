@@ -20,3 +20,4 @@ You can get additional help by exploring the following channels:
 * Browse [Azure Operation Guidance](https://docs.azure.cn/articles/) to get help for common questions or problems
 * Check the [Help+Support](data-blade:Microsoft_Azure_Support.HelpAndSupportBlade)
 * Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
+* Make sure that the client tools ([SSMS](https://msdn.microsoft.com/en-us/library/mt238290.aspx) and/or  [SSDT](https://msdn.microsoft.com/en-us/library/mt204009.aspx)) are up-to-date.
