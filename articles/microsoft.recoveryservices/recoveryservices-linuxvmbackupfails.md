@@ -18,6 +18,9 @@
 To resolve common isuess, try one or more of the following steps.
 
 **VM agent is unable to communicate with the Azure Backup Service?** <br>
+If your Azure Linux VMs are failing with this error on or after Jan 4th, 2018, run the below command on the affected VMs and retry the backups
+` sudo rm -f /var/lib/waagent/*.[0-9]*.xml `
+
 Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot1) to resolve communication issues <br>
 
 **Snapshot operation failed due to no network connectivity on the virtual machine?** <br>
