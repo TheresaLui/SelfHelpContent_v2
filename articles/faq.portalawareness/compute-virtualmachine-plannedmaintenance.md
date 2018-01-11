@@ -11,6 +11,7 @@
 	productPesIds="99999"
 	cloudEnvironments="public"
 />
+# Planned Maintenance FAQ
 ## **Overview**
 An industry-wide, hardware-based security vulnerability was [disclosed on January 3](https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html). As part of Microsoft’s commitment to security, we are taking actions to ensure that no Azure customer is exposed to these vulnerabilities, including accelerating our execution of the January planned maintenance.
 
