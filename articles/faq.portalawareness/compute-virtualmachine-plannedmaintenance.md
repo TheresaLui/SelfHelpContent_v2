@@ -19,7 +19,7 @@ An industry-wide, hardware-based security vulnerability was [disclosed on Januar
 
 We encourage you to read [our blog] (https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/)  to learn more about our efforts to secure customers from the CPU vulnerabilities. 
 
-## Questions most frequently submitted to our support team
+## **Questions most frequently submitted to our support team**
 
 ### **How can I see which of my VMs are already updated?**
 You can see the status of your VMs, and if the reboot completed, in the [VM list in the Azure portal](https://aka.ms/T08tdc). Your VMs are listed as either “Already updated” if the update has been applied, or “Scheduled” if the update is still required. If you want to see just your VMs “Scheduled” refer to your [Azure Service Health](https://portal.azure.com/).
