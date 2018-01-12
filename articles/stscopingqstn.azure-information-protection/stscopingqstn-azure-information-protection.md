@@ -13,11 +13,10 @@ This Problem is only for Azure Information Protection (AIP) support.
 AIP is a cloud-based solution that helps an organization to classify, label, and protect its documents and emails. 
 If you need assistance with services below:
 
-Azure Active Directory (AAD)
+* Azure Active Directory (AAD) 
+* Multi-Factor Authentication (MFA)  
+* Intune
+* Cloud Application Security (CAS)
    
-Multi-Factor Authentication (MFA)
-   
-Intune
-Cloud Application Security (CAS)
-   
-Please return to Step 1 to choose the correct subscription, product and/or service for which you need assistance. 
+Please return to Step 1 to choose the correct subscription, product and/or service for which you need assistance.
+Have you tried our [chatBOT](http://aipbot.azurewebsites.net/)?
