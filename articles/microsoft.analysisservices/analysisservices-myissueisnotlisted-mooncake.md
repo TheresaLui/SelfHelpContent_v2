@@ -15,7 +15,7 @@
 
 # My issue is not listed
 
-You can get additional help by exploring the following channels: 
+You can get additional help by exploring the following channels:
 
 * Browse [Azure Operation Guidance](https://docs.azure.cn/articles/) to get help for common questions or problems
 * Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
