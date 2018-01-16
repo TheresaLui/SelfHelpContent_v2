@@ -50,14 +50,14 @@ $server = Get-AzureRmSqlServer -ResourceGroupName [SQLDatabaseResourceGroupName]
 $serverKey = Get-AzureRmSqlServerTransparentDataEncryptionProtector -ServerName $server.ServerName -ResourceGroupName $server.ResourceGroupName
 ```
 ```
-// Updates the Key Vault Key operation permission 
+// Updates the Key Vault Key operation permission
 $mykeyOps = @('wrapKey', 'unwrapKey')
 set-AzureKeyVaultKeyAttribute  -VaultName [VaultName]  -KeyName [KeyName]  -KeyOps $mykeyOps
 ```
 <br>
 3. Check if the Azure Active Directory Principal Id for the Server has permissions to the key. The server principal required permissions are get, wrapKey, and unwrapKey <br>
 ```
-// To grant permission to the principal 
+// To grant permission to the principal
 Set-AzureRmKeyVaultAccessPolicy -VaultName [KeyVaultName]  -ObjectId  $server.Identity.PrincipalId  -PermissionsToKeys get, wrapKey, unwrapKey
 ```
 <br>
