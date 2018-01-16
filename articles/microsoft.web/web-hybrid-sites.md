@@ -3,7 +3,7 @@
 	description="configuration and management/hybrid"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32581613"

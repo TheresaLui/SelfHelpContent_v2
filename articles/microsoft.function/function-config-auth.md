@@ -22,6 +22,6 @@ Documentation on how to configure authentication with various Identify providers
 * [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>
 * [How to configure your app to use Google login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-google-authentication)<br>
-* [How to configure your app to use Microsoft Account login](https://docs.microsoft.com/en-us/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication)<br>
+* [How to configure your app to use Microsoft Account login](https://docs.microsoft.com/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication)<br>
 * [How to configure your app to use Twitter login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-twitter-authentication)<br>
 
