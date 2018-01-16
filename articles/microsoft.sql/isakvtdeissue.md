@@ -42,7 +42,7 @@ Get-AzureRmSubscription -SubscriptionId [SubscriptionId]
 2. Get the current encryption protector on the Server to see the Azure Key Vault Key protecting the database(s). This will return the Azure Key Vault Uri.
 Check if the Key Vault Key has the right permissions. The required permissions on the key are wrapKey and unwrapKey.<br>
 ```
-// To get the server information 
+// To get the server information
 $server = Get-AzureRmSqlServer -ResourceGroupName [SQLDatabaseResourceGroupName]  -ServerName $server.ResourceGroupName
 ```
 ```
