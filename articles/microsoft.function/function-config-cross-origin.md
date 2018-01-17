@@ -17,5 +17,5 @@
 ## **Recommended documents**
 
 [Code and Test Functions Locally](https://docs.microsoft.com/azure/azure-functions/functions-run-local)<br>
-[Managing a Function App](How to manage a function app in the Azure portal)
+[Managing a Function App](https://docs.microsoft.com/azure/azure-functions/functions-how-to-use-azure-function-app-settings)
 
