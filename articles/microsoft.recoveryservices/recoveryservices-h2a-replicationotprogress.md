@@ -24,5 +24,5 @@
 
 
 ## **Recommended documents**
-- [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
-- Review the [**Support Requirements**](https://docs.microsoft.com/en-us/azure/site-recovery/support-matrix-hyper-v-to-azure) for all components <br>
+- [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
+- Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/support-matrix-hyper-v-to-azure) for all components <br>
