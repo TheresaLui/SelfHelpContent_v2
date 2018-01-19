@@ -15,11 +15,21 @@
 # Replication does not progress in H2A scenario
 
 ## **Recommended steps**
-
 - [Protection couldn't be configured for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
 - [Enabling protection couldn't be completed for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
 - [Enable replication job has failed](https://aka.ms/tshooth2areplicationissues)<br>
 - [The virtual machine couldn't be replicated](https://aka.ms/tshooth2areplicationissues)<br>
+- [Protection couldn't be configured for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
+- [Enabling protection couldn't be completed for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
+- [Enable replication job has failed](https://aka.ms/tshooth2areplicationissues)<br>
+- [The virtual machine couldn't be replicated](https://aka.ms/tshooth2areplicationissues)<br>
+
+## **Recommended documents**
+- [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
+- Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/support-matrix-hyper-v-to-azure) for all components. <br>
+- Ensure all the [Prerequisites to enable replication of on-premises Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-hyper-v-to-azure#prerequisites) are met.  <br>
+- Understand the [scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/concepts-hyper-v-to-azure-architecture) <br>
+- [Steps to enable replication for Hyper-V VMs](https://docs.microsoft.com/azure/site-recovery/tutorial-hyper-v-to-azure#set-up-the-source-environment) <br>
 
 ## **Recommended documents**
 - [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
