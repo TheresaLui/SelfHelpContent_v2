@@ -17,4 +17,4 @@
 - [What is resynchronization and why is it needed? How to do it?](https://docs.microsoft.com/azure/site-recovery/concepts-hyper-v-to-azure-architecture#resynchronization-process) <br> 
 
 ## **Recommended documents**
-- [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
+- [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
