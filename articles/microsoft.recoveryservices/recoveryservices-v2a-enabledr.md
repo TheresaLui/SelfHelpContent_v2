@@ -22,7 +22,7 @@
 - [Enable replication failing due to stale entries from previous installation](https://social.technet.microsoft.com/wiki/contents/articles/32026.asr-vmware-to-azure-how-to-cleanup-duplicatestale-entries.aspx) <br>
 - [Ensure your agents are up to date](https://social.technet.microsoft.com/wiki/contents/articles/38544.azure-site-recovery-service-updates.aspx) <br>
 
-## **Recommended Documents** 
+## **Recommended Documents**
 
 **How to Replicate on-premises VMware VMs to Azure?**
 - How to [Set up the source/VMWare environment](https://docs.microsoft.com/azure/site-recovery/site-recovery-set-up-vmware-to-azure)
