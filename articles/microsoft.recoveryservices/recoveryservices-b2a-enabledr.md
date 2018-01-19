@@ -16,10 +16,10 @@
 
 ## **Recommended steps**
 
-- [Protection couldn't be configured for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br> 
-- [Enabling protection couldn't be completed for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br> 
-- [Enable replication job has failed](https://aka.ms/tshooth2areplicationissues)<br> 
-- [The virtual machine couldn't be replicated](https://aka.ms/tshooth2areplicationissues)<br> 
+- [Protection couldn't be configured for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
+- [Enabling protection couldn't be completed for the virtual machine](https://aka.ms/tshooth2areplicationissues)<br>
+- [Enable replication job has failed](https://aka.ms/tshooth2areplicationissues)<br>
+- [The virtual machine couldn't be replicated](https://aka.ms/tshooth2areplicationissues)<br>
 
 ## **Recommended documents**
 - [Have you followed Deployment planner recommendations for a successful disaster recovery protections to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) <br>
