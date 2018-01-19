@@ -5,7 +5,7 @@
 	resource="vaults"
 	authors="pvrk"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType=""
 	supportTopicIds="32553275"
 	resourceTags=""
 	productPesIds="15207"
