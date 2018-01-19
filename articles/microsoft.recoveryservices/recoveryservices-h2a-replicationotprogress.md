@@ -15,7 +15,7 @@
 
 ## **Recommended steps**
 
-- [Replication not progressing? Replication Stuck?](https://aka.ms/tshooth2areplicationissues)<br> 
+- [Replication not progressing? Replication Stuck?](https://aka.ms/tshooth2areplicationissues)<br>
 - [The virtual machine couldn't be replicated?](https://aka.ms/tshooth2areplicationissues)<br>
 - [VM Replication health is in warning state?](https://aka.ms/tshooth2areplicationissues)<br>
 - [Replication is in critical stage?](https://aka.ms/tshooth2areplicationissues)<br>
