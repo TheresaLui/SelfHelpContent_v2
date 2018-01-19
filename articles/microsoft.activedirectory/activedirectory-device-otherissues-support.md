@@ -25,18 +25,18 @@
 
 ### Setup and manage device registrations ###
 
-* [Set up Azure AD registered Windows 10 devices](https://docs.microsoft.com/azure/active-directory/device-management-azuread-registered-devices-windows10-setup) 
+* [Set up Azure AD registered Windows 10 devices](https://aka.ms/support-devicemanagement-setup-azuread-registered) 
 
-* [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup)
+* [Set up Azure AD joined devices](https://aka.ms/support-devicemanagement-setup-azureadjoin)
 
-* [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://docs.microsoft.com/azure/active-directory/device-management-hybrid-azuread-joined-devices-setup)
+* [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://aka.ms/support-devicemanagement-setup-hybridazureadjoin)
 
-* [Manage devices using the Azure portal](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
+* [Manage devices using the Azure portal](https://aka.ms/support-devicemanagement-azureportal)
 
 ### Troubleshooting common issues for registration and managing devices ###
 
-* [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://docs.microsoft.com/azure/active-directory/device-management-troubleshoot-hybrid-join-windows-current)
+* [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-current)
 
-* [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://docs.microsoft.com/azure/active-directory/device-management-troubleshoot-hybrid-join-windows-legacy)
+* [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-legacy)
 
-* [Frequently asked questions for device registration](https://docs.microsoft.com/azure/active-directory/device-management-faq)
+* [Frequently asked questions for device registration](https://aka.ms/support-devicemanagement-faq)
