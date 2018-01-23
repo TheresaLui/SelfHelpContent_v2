@@ -18,6 +18,7 @@ Note:<br>
 - Peering status needs to show connected. If the status shows initiated, you may need to create another peering link<br>
 - Peerings are not transitive<br>
 
+Diagnose connectivity issues using [Network Watcher connectivity check](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade)<br>
 Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine<br>
 
 ## **Recommended documents**
