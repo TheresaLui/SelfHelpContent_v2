@@ -15,10 +15,9 @@
 # connectivity/cannotconnecttoanothervirtualmachineinthesamevnet
 
 ## **Recommended steps**
-1. Diagnose connectivity issues using [Network Watcher connectivity check](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade)<br> 
+1. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues<br> 
 2. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine<br>
-3. Use [Security group view](data-blade:microsoft_azure_network.networkwatchersecuritygroupviewblade) to see NSGs and rules associated at a NIC and subnet level for VM<br>
-4. Use [Next hop](data-blade:microsoft_azure_network.getnexthopblade) for routes to find next hop type and IP address of packet from a specific VM and NIC<br>
+3. Use [Next hop](data-blade:microsoft_azure_network.getnexthopblade) for routes to find next hop type and IP address of packet from a specific VM and NIC<br>
 
 ## **Recommended documents**
 [Troubleshoot Network Security Groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal)<br>
