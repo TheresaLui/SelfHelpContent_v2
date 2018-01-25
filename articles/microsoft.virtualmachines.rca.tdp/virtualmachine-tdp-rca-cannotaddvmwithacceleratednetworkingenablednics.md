@@ -23,5 +23,5 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 To work around this issue, please deploy the virtual machine into an Availability Set that has accelerated networking already enabled.<br>
 
 To learn more about Accelerated Networking, please refer to the following articles:<br>
-* [Create a virtual machine with Accelerated Networking](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-create-vm-accelerated-networking)<br>
+* [Create a virtual machine with Accelerated Networking](https://docs.microsoft.com/azure/virtual-network/virtual-network-create-vm-accelerated-networking)<br>
 * [Limitations with creating virtual machines with Accelerated Networking](https://docs.microsoft.com/azure/virtual-network/virtual-network-create-vm-accelerated-networking#Limitations)<br>
