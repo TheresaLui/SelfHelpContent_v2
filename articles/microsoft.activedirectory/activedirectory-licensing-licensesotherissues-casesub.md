@@ -23,6 +23,8 @@
 
 ## **Recommended steps**
 
-1. If you are using the [Azure classic portal](https://manage.windowsazure.com/) and are having problems (such as not being able to access it due to lack of an Azure resource subscription), please consider using the modern [Azure portal](https://portal.azure.com/): it provides advanced license management capabilities and does not require an Azure resource subscription to access.
+The [Azure portal](https://portal.azure.com/) does not require an Azure resource subscription to access.
 
-2. If you are looking to create a report of how licenses are assigned to users in your tenant, you will need to use a PowerShell script to download individual user data and process it locally. You can use PowerShell cmdlets from version 1.0 (e.g. [Get-MsolUser](https://docs.microsoft.com/powershell/module/msonline/get-msoluser?view=azureadps-1.0)) or version 2.0 (e.g. [Get-​Azure​AD​User​License​Detail](https://docs.microsoft.com/powershell/module/azuread/Get-AzureADUserLicenseDetail?view=azureadps-2.0)).
+- If you are looking to create a report of how licenses are assigned to users in your tenant, you must use a PowerShell script to download individual user data and process it locally. 
+
+- You can use PowerShell cmdlets from version 1.0 (e.g. [Get-MsolUser](https://docs.microsoft.com/powershell/module/msonline/get-msoluser?view=azureadps-1.0)) or version 2.0 (e.g. [Get-​Azure​AD​User​License​Detail](https://docs.microsoft.com/powershell/module/azuread/Get-AzureADUserLicenseDetail?view=azureadps-2.0)).

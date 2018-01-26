@@ -22,4 +22,4 @@
 
 ## **Recommended Documents**
 
-- Azure Location Based Services Documentation
+- [Azure Location Based Services Documentation](https://go.microsoft.com/fwlink/?linkid=862272) 

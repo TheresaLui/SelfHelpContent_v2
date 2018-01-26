@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I can't delete my classic storage account"
 	description="I can't delete my classic storage account"
 	service="microsoft.classicstorage"

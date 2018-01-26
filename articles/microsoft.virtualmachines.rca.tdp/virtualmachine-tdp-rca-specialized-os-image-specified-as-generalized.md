@@ -14,10 +14,10 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
-# We detected a recent issue with your deployment attempt:
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your deployment failed for **<!--$vmname-->Virtual machine<!--/$vmname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. Provisioning of the OS image failed. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** due to the image failing to be provisioned. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
 <!--/issueDescription-->
 
 Please configure the image and deploy the VM with the same method (both as generalized or both as specialized). Additionally, please review the below documentation on specialized and generalized images.<br>
@@ -34,4 +34,4 @@ To learn more about generalized and specialized VMs for **Linux**:<br>
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Learn how to use a specialized image](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.
+We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
