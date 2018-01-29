@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Guest VM Health Signal Insight
 <!--issueDescription-->
 ## **Static IP is set at the guest OS level**
-The virtual machine seems to have disabled DHCP disabled and IP address not equal to null. This indicates static IP is set at the Guest OS level.
+The virtual machine seems to have disabled DHCP and IP address not equal to null. This indicates static IP is set at the Guest OS level.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
