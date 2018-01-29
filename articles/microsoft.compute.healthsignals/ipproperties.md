@@ -24,4 +24,4 @@ The virtual machine seems to have disabled DHCP and IP address not equal to null
 ## **Recommended Steps**
 **Reset NIC**
 
-Please refer to steps on how to reset NIC in the public article: <br> https://docs.microsoft.com/en-us/azure/virtual-machines/windows/reset-network-interface
+Please refer to steps on how to [reset NIC](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface) in the public article.
