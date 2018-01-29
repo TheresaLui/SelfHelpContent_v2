@@ -6,7 +6,7 @@
   authors="billmath"
   displayOrder=""
   selfHelpType="generic"
-  supportTopicIds="32596867"
+  supportTopicIds="32596862"
   resourceTags="aadconnect,aadconnect_seamless_single_sign_on,managed_authentication"
   productPesIds="14785"
   cloudEnvironments="public"
