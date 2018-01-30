@@ -91,17 +91,26 @@
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
-					"value": "iPad",
-					"text": "iPad"
+					"value": "iMac",
+					"text": "iMac"
 				}, {
-					"value": "iPhone",
-					"text": "iPhone"
+					"value": "iMac Pro",
+					"text": "iMac Pro"
 				}, {
-					"value": "iPod",
-					"text": "iPod"
+					"value": "MacBook",
+					"text": "MacBook"
 				}, {
-					"value": "Mac",
-					"text": "Mac"
+					"value": "MacBook Air",
+					"text": "MacBook Air"
+				}, {
+					"value": "MacBook Pro",
+					"text": "MacBook Pro"
+				}, {
+					"value": "Mac Pro",
+					"text": "Mac Pro"
+				}, {
+					"value": "Mac Mini",
+					"text": "Mac Mini"
 				}
 			],
 			"required": false
