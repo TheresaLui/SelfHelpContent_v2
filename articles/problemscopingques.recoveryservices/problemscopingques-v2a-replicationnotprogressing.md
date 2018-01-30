@@ -22,7 +22,6 @@
 				<ul><li>Follow steps listed in this<a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'>article</a> to resolve common Replication issues.</li>
          <li> Run the<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-run'> Deployment planner</a> and review recommendations for<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#recommendations-with-available-bandwidth-as-input'> network</a> and <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#vm-storage-placement'> storage </a>). Check if you need to adjust the bandwidth and throttling as listed in this<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#control-network-bandwidth'> article.</a></li></ul>"
 		},  {
-
 			"id": "problem_os_version",
 			"order": 2,
 			"controlType": "textbox",
