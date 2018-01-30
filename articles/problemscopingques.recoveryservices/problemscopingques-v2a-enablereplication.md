@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "learn_more_text",
 			"order": 1,
-			"controlType": "infoblock",			
+			"controlType": "infoblock",
 			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  
 				<ul><li>Ensure all the prerequisites mentioned in <a href='https://aka.ms/v2asupportmatrix'>Support Matrix</a> are met</li> <li>On-premises VMs that you replicate to Azure must meet the <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#azure-vm-requirements'>Azure VM requirements</a></li></ul>"
 		},  {
