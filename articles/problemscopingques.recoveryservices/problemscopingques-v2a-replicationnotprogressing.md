@@ -19,8 +19,8 @@
 			"order": 1,
 			"controlType": "infoblock",
 			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>
-				<ul><li>Follow steps listed in this<a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'>article</a> to resolve common Replication issues.</li>
-         <li> Run the<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-run'> Deployment planner</a> and review recommendations for<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#recommendations-with-available-bandwidth-as-input'> network</a> and <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#vm-storage-placement'> storage </a>). Check if you need to adjust the bandwidth and throttling as listed in this<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#control-network-bandwidth'> article.</a></li></ul>"
+				<ul><li>Follow steps listed in this<a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'> article</a> to resolve common Replication issues.</li>
+         <li> Run the<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-run'> Deployment planner</a> and review recommendations for<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#recommendations-with-available-bandwidth-as-input'> network</a> and <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#vm-storage-placement'> storage </a>. Check if you need to adjust the bandwidth and throttling as listed in this<a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#control-network-bandwidth'> article.</a></li></ul>"
 		},  {
 			"id": "problem_os_version",
 			"order": 2,
@@ -59,11 +59,11 @@
           "value": "Replication is stuck at >0%",
           "text": "Replication is stuck at >0%"
           }, {
-          "value": "VM is protected > Replication health is critical",
-          "text": "VM is protected > Replication health is critical"
+          "value": "VM is protected,but Replication health is critical",
+          "text": "VM is protected, but Replication health is critical"
           }, {
-          "value": "Application/Crash Consistent snapshot are not latest",
-          "text": "Application/Crash Consistent snapshot are not latest"
+          "value": "Application Consistent Snapshot is missing/not latest",
+          "text": "Application Consistent Snapshot is missing/not latest"
           }, {
           "value": "My issue is not listed here",
           "text": "My issue is not listed here"
@@ -74,12 +74,12 @@
   				"id": "learn_more_text_5",
   				"order": 7,
   				"controlType": "infoblock",
-  				"content": "Follow steps listed in this<a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'>article</a> to resolve common Replication issue."
+  				"content": "Replication not progressing? try these <a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'> troubleshooting</a> steps."
       },  {
       			"id": "learn_more_text_5",
       			"order": 11,
       			"controlType": "infoblock",
-      			"content": "Follow steps listed in this<a href='https://blogs.technet.microsoft.com/srinathv/2018/01/11/troubleshooting-no-latest-app-consistent-snapshot-issues-for-vmware-to-azure-when-using-azure-site-recovery/'>article</a> to resolve Application/Crash consistent snapshot issues."
+      			"content": "Missing/No-latest Application Consistent Snapshot? try these <a href='https://aka.ms/tshootv2anoappconsistentsnapshot'> troubleshooting</a> steps."
       }, {
       "id": "problem_details",
       "order": 8,
