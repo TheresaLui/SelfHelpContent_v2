@@ -27,6 +27,7 @@ The virtual machine seems to have disabled RDP.
 Resetting RDP configuration will establish connectivity in scenarios where Remote Connections are disabled or Windows Firewall rules are blocking RDP.
 
 Steps:
+
 1. Select your VM in the Azure portal
 2. Scroll down the settings pane to the Support + Troubleshooting section near bottom of the list
 3. Click the Reset password button. Set the Mode to Reset configuration only and then click the Update button
