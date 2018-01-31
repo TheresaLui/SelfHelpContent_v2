@@ -11,14 +11,14 @@
 # V2A Replication not progressing
 ---
 {
-	"resourceRequired": false,
+	"resourceRequired": true,
 	"title": "V2A Replication not progressing",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_os_version",
 			"order": 1,
 			"controlType": "textbox",
-			"displayLabel": "What is the Operating System version (and kernel version for Linux) of the VM that you are trying to protect? <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'>See supported OS.</a>",
+			"displayLabel": "What is the Operating System version (and kernel version for Linux) of the VM that you are trying to protect?",
 			"watermarkText": "Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
 			"useAsAdditionalDetails": false,
 			"required": true
@@ -40,7 +40,7 @@
 			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false	
+			"required": false
 		}, {
       			"id": "Replication not progressing issues",
       			"order": 5,
