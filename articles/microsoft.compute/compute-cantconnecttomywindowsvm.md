@@ -19,7 +19,7 @@ To resolve common issues, try one or more of the following steps.
 
 1. Verify if your VM is running by viewing your VM's console screenshot or logs. These can be accessed by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine. Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
 2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
-3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying RDP/SSH from Azure
+3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying RDP from Azure
 4. Review [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade) to ensure inbound “Allow” NSG rule exists and is prioritized for RDP port(default 3389)
 5. Reset Remote Access to address remote server issues <br>
 [Reset remote access using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
