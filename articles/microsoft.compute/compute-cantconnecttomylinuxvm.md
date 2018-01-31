@@ -19,7 +19,7 @@
 
  1. Verify if your VM is running by viewing your VM's console screenshot or logs. These can be accessed by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine. Review errors in the logs such as FSTAB (file systems table), FSCK (file system consistency), or networking
  2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
- 3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying RDP/SSH from Azure
+ 3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying SSH from Azure
  4. Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port(default 22)
  5. Reset Password to address authentication errors <br>
  [Reset Password using CLI or PowerShell](http://aka.ms/resetarmpass)
