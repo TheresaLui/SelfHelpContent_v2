@@ -13,7 +13,7 @@
 />
 
 
-# Configuration and Setup/Backup<br> 
+# Configuration and Setup/Backup 
 ## **Recommended documents**<br> 
 * [Issue: Cannot find storage account to proceed](https://aka.ms/tshootAFSbackupblog)<br> 
 * [Issue: Inquiry failed after registration and cannot find file-shares](https://aka.ms/tshootAFSbackupblog)<br> 
