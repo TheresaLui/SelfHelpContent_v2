@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Manage volume-purchased apps and books with Microsoft Intune(https://docs.microsoft.com/intune/vpp-apps)<br>
+[Manage volume-purchased apps and books with Microsoft Intune](https://docs.microsoft.com/intune/vpp-apps)<br>
 [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/app-management)<br>
 [How to manage iOS apps purchased through a volume-purchase program with Microsoft Intune](https://docs.microsoft.com/intune/vpp-apps-ios)<br>
 [How to manage apps you purchased from the Microsoft Store for Business with Microsoft Intune](https://docs.microsoft.com/intune/windows-store-for-business)<br>

@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Manage volume-purchased apps and books with Microsoft Intune(https://docs.microsoft.com/intune/app-provisioning-profile-ios)<br>
+[Manage volume-purchased apps and books with Microsoft Intune](https://docs.microsoft.com/intune/app-provisioning-profile-ios)<br>
 [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/app-management)<br>
 
 

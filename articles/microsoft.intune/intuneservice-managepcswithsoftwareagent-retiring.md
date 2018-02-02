@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[Manage license agreements for Windows PC software in Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
+[Retire a Windows PC](https://docs.microsoft.com/intune-classic/deploy-use/retire-a-windows-pc-with-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
 [Manage Windows PCs as computers via Intune software client](https://docs.microsoft.com/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
 

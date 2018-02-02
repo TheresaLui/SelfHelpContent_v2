@@ -18,5 +18,5 @@
 
 [Set up Intune](https://docs.microsoft.com/intune/setup-steps)<br>
 [Supported devices and browsers](https://docs.microsoft.com/intune/supported-devices-browsers)<br>
-[Intune network bandwidth use](https://docs.microsoft.com/intune/network-bandwidth-use)<br>
+[Intune network configuration requirements and bandwidth](https://docs.microsoft.com/intune/network-bandwidth-use)<br>
 

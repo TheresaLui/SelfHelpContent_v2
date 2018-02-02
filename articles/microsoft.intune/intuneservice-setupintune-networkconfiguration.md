@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[Intune network setup and bandwidth use](https://docs.microsoft.com/intune/network-bandwidth-use)<br>
+[Intune network configuration requirements and bandwidth](https://docs.microsoft.com/intune/network-bandwidth-use)<br>
 
 

@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[Manage license agreements for Windows PC software in Microsoft Intune](https://docs.microsoft.com/intune-classic/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
+[Request and provide remote assistance for Windows PCs](https://docs.microsoft.com/intune-classic/deploy-use/request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
 [Manage Windows PCs as computers via Intune software client](https://docs.microsoft.com/intune-classic/deploy-use/manage-windows-pcs-with-microsoft-intune?toc=%2Fintune%2Ftoc.json&bc=%2Fenterprise-mobility%2Ftoc.json)<br>
 

@@ -16,6 +16,7 @@
 
 ## **Recommended documents**
 
+[Enrollment options for Intune](https://docs.microsoft.com/intune/enrollment-options)<br>
 [Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
 [Enroll Android devices](https://docs.microsoft.com/intune/android-enroll)<br>
 [Enroll iOS devices with Apple Configurator and direct enrollment](https://docs.microsoft.com/intune/apple-configurator-direct-enroll-ios)<br>

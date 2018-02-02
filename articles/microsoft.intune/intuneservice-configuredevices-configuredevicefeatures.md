@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[How to create device configuration profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-features-configure)<br>
+[How to configure device feature settings in Microsoft Intune](https://docs.microsoft.com/intune/device-features-configure)<br>
 [Troubleshooting device profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-troubleshoot)<br>
 

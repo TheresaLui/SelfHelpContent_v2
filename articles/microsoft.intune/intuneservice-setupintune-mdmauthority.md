@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-[Set the mobile device management authority](https://docs.microsoft.com/intune/mdm-authority-set\)<br>
+[Set the mobile device management authority](https://docs.microsoft.com/intune/mdm-authority-set)<br>
 
 
