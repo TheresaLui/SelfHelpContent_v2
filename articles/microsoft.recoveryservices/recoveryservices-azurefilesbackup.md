@@ -14,7 +14,8 @@
 
 
 # Configuration and Setup/Backup
-## **Recommended documents**<br>
+
+## **Recommended documents**
 * [Issue: Cannot find storage account to proceed](https://aka.ms/tshootAFSbackupblog)<br>
 * [Issue: Inquiry failed after registration and cannot find file-shares](https://aka.ms/tshootAFSbackupblog)<br>
 * [Issue: Cannot find file-share to protect](https://aka.ms/tshootAFSbackupblog)<br>
