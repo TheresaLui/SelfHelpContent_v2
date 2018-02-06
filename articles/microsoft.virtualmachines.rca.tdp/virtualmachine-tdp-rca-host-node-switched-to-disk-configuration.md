@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed or may have taken longer than expected due to disk configuration change that was performed on the Host during the provisioning phase, leading to the error OSProvisioningTimedOut.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed or may have taken longer than expected due to disk configuration change that was performed on the physical host (node) on which the VM was allocated to.This automated disk configuration change needs to be performed before the VM can be started and may take several minutes to complete. It is rare for a VM to land on nodes that require this change as the platform monitors and keeps nodes pre-configured. Our core platform engineers have been made aware of this issue and are currently evaluating performance improvements in this area.
 <!--/issueDescription-->
 
 To work around this issue, validate if the VM was deployed successfully in the portal. In most cases, the deployment will continue and complete successfully unless another issue is encountered.<br>
