@@ -26,7 +26,7 @@ The account you are using to for RDP connection, is currently disabled.
 
 Please note, if the Client OS machines is migrated from OnPrem or deployed from gallery, the built-in administrator account is sometimes not enabled by default in the image.
 
-Push the following script using [Custom Script Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
+Push the following script using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
 
  ```
 $adminAccount = Get-WmiObject Win32_UserAccount -filter "LocalAccount=True" | ? {$_.SID -Like "S-1-5-21-*-500"}

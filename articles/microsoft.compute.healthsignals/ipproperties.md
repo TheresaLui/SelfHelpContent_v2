@@ -15,8 +15,9 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
+
+# Static IP is set at the guest OS level
 <!--issueDescription-->
-## **Static IP is set at the guest OS level**
 The virtual machine seems to have disabled DHCP and IP address not equal to null. This indicates static IP is set at the Guest OS level.
 <!--/issueDescription-->
 
@@ -24,7 +25,7 @@ The virtual machine seems to have disabled DHCP and IP address not equal to null
 
 You cannot connect to Microsoft Azure Windows Virtual Machine (VM) after you disable the default Network Interface (NIC) or manually set a static IP for the NIC.
 
-Virtual Machine [screenshot](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/boot-diagnostics) will show that OS is fully loaded and waiting for the credentials. In order to regain access to the VM please go through the following steps:
+Virtual Machine [screenshot](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics) will show that OS is fully loaded and waiting for the credentials. In order to regain access to the VM please go through the following steps:
 
 1.	In Azure portal, go to [Network Interface](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2Fnetworkinterfaces) attached to the virtual machine
 2.	Select IP configuration and select the IP
