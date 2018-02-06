@@ -17,8 +17,8 @@
 ## **Recommended documents**
 
 - [How to configure Backup using Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
-- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure)<br>
-- [Pricing details for Azure Backup Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)<br>
+- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
+- [Pricing details for Azure Backup Server](https://azure.microsoft.com/pricing/details/backup/)<br>
 - [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
 - [How to Upgrade Backup Server to v2](https://docs.microsoft.com/azure/backup/backup-mabs-upgrade-to-v2#upgrade-backup-server-to-v2)<br>
 - [Frequently asked questions about Azure Backup server](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#azure-backup-server-and-system-center-data-protection-manager)<br>
