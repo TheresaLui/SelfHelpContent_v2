@@ -39,7 +39,8 @@ set-Service -Name termservice -StartupType automatic -status Running
 REG add "HKLM\SYSTEM\CurrentControlSet\services\netlogon" /v Start /t REG_DWORD /d 2 /f
   ```
 5. Alternatively you can run the command below using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
-```set-Service -Name termservice -StartupType automatic -status Running
+```
+set-Service -Name termservice -StartupType automatic -status Running
 ```
 6. Verify the VM now has the RDP connectivity.
 
