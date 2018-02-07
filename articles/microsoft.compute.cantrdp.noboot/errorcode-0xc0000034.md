@@ -23,8 +23,6 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--
 To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > <!--$vmname-->**[vmname]**<!--/$vmname--> > **All settings** > **Boot diagnostics**
 <!--/issueDescription-->
 
-<!--/issueDescription-->
-
 ## **Recommended Steps**
 To fix the BCD store, follow the troubleshooting steps indicated below:
 
