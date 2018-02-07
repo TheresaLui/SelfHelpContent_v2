@@ -15,17 +15,25 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Guest VM Health Signal Insight
+
+# Built-in Administrator account has issues
 <!--issueDescription-->
-## **Built-in Administrator account has issues**
 Built-in Administrator account is disabled
 <!--/issueDescription-->
 
-## **Recommended Steps - Internal**
-**Administrator account is disabled**
+## **Customer Ready RCA**
 
-The account customer is trying to use on the RDP connection, is currently disabled.
+The account you are using to for RDP connection, is currently disabled.
 
-Please note, if the Client OS machines is migrated from OnPrem or deployed from gallery, the built-in administrator account is not enabled by default in the image. Windows Client VL/CSP Customers who bring their own VHDs to Azure will face this issue.  
+Please note, if the Client OS machines is migrated from OnPrem or deployed from gallery, the built-in administrator account is sometimes not enabled by default in the image.
 
-Please refer to the steps in the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can’t_RDP-SSH/TSG/VM_Responding_Bucket/The_user_account_is_currently_disabled_and_cannot_be_used) to enable the local account.  
+Push the following script using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
+
+ ```
+$adminAccount = Get-WmiObject Win32_UserAccount -filter "LocalAccount=True" | ? {$_.SID -Like "S-1-5-21-*-500"}
+if($adminAccount.Disabled)
+{
+    $adminAccount.Disabled = $false
+    $adminAccount.Put()
+}
+ ```
