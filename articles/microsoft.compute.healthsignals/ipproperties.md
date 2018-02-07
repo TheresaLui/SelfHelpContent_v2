@@ -23,7 +23,7 @@ The virtual machine seems to have disabled DHCP and IP address not equal to null
 
 ## **Customer Ready RCA**
 
-You cannot connect to Microsoft Azure Windows Virtual Machine (VM) after you disable the default Network Interface (NIC) or manually set a static IP for the NIC.
+You cannot connect to the Virtual Machine after you disable the default Network Interface (NIC) or manually set a static IP for the NIC.
 
 Virtual Machine [screenshot](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics) will show that OS is fully loaded and waiting for the credentials. In order to regain access to the VM please go through the following steps:
 
