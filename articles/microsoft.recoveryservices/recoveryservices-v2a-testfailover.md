@@ -47,15 +47,15 @@
 - [Script to assign public IP address to failed over VM](https://github.com/Azure/azure-quickstart-templates/blob/master/asr-automation-recovery/scripts/ASR-AddPublicIp.ps1)<br>
 - [Script to update DNS records of the VM being failed over](https://github.com/Azure/azure-quickstart-templates/blob/master/asr-automation-recovery/scripts/ASR-DNS-UpdateIP.ps1)<br>
 
-**Failover**
+**Failover**<br>
 - [Step by step instruction on how to failover a Vmware VM to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover)<br>
 - [How to retain the fixed IP address while failing over to Azure](https://docs.microsoft.com/azure/site-recovery/concepts-on-premises-to-azure-networking#retaining-ip-addresses)<br>
 - [How to assign New IP address to a VM after failover](https://azure.microsoft.com/blog/networking-infrastructure-setup-for-microsoft-azure-as-a-disaster-recovery-site/)<br>
 - [How to preserve the drive letters of data disks when failed over to Azure](https://support.microsoft.com/help/3031135/how-to-preserve-the-drive-letter-for-protected-virtual-machines-that-a)<br>
 
-**Failback**
+**Failback**<br>
 - [Step by step instruction on how to failback from Azure to On-premises VMware site](https://docs.microsoft.com/azure/site-recovery/site-recovery-how-to-failback-azure-to-vmware)<br>
 
-**Protect AD DNS**
+**Protect AD DNS**<br>
 
 - [Protect Active Directory and DNS](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory)<br>
