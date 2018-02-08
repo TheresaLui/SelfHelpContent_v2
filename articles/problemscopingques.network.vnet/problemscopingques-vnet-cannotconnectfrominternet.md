@@ -24,7 +24,8 @@
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
 					"jTokenPath": "value",
 					"textProperty": "id",
-					"valueProperty": "id"
+					"valueProperty": "id",
+					 "textPropertyRegex": "[^/]+$"
 					},
 			"dropdownOptions": [{
 					"value": "Unable to get the list of VM's",
