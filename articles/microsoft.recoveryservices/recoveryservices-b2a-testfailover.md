@@ -20,7 +20,7 @@
 - [Test failover considerations to **Failover the VM into your production network**](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#test-failover-to-a-production-network-in-the-recovery-site)<br>
 - [How to run a **test failover for a single VM?**](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure#verify-vm-properties)<br>
 - [Test failover **considerations for Active Directory** to run a **failover for application testing**](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#test-failover-considerations)<br>
-- [How to **connect to VMs** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
+- [How to **connect to VM** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
 - [**Add a public IP address** to the VM after test failover](https://aka.ms/addpublicip)<br>
 - [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)<br>
 - [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)<br>
