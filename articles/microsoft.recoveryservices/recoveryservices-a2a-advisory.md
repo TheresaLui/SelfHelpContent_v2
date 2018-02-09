@@ -24,7 +24,7 @@
 - [What charges do I incur while using Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)<br>
 
 **How to Replicate IaaS VMs from one Azure region to another Azure region?**<br>
-- [Review the architecture for Azure VM replication between Azure regions]https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)<br>
+- [Review the architecture for Azure VM replication between Azure regions](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)<br>
 - [**Networking guidance** for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-networking-guidance)<br>
 - [How to **enable replication** for Azure VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication)<br>
 - [How to run a **test failover** for Azure VM replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill)<br>
