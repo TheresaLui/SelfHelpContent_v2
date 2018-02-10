@@ -17,13 +17,17 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to the VM size being requested not being available on the cluster where the availability set is pinned.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to the requested VM size not being available on the cluster where the availability set is pinned
 <!--/issueDescription-->
 
-This is not a quota issue. The servers in Azure datacenters are partitioned into clusters. Normally, an allocation request is attempted in multiple clusters, but it's possible that certain constraints from the allocation request force the Azure platform to attempt the request in only one cluster. In this case, as availability of free blades or free space within a blade in the cluster fluctuates, the constraints to find an allocation for the service may not be met.<br>
+It is important to **highlight this is not a quota issue.** The servers in Azure datacenters are partitioned into clusters. Normally, an allocation request is attempted in multiple clusters, but it's <b>possible that certain constraints<b>from the allocation request force the Azure platform to attempt the request in only one cluster. Due to the natural fluctuation of capacity within the cluster, it was not possible to meet the constraints defined for the availability set at the time the deployment was initiated.<br>
+
+To learn more about allocation failures including availability sets:<br>
+[Troubleshoot allocation failures for Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/allocation-failure)<br>
+[Troubleshoot allocation failures for Linux(https://docs.microsoft.com/en-us/azure/virtual-machines/linux/allocation-failure)<br>
 
 To learn more about resizing:<br>
-* [Resizing virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines)<br>
+[Resizing virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines)<br>
 
 To learn more about sizes supported in each region:<br>
 * Products available by region, [follow these instructions](https://azure.microsoft.com/regions/services/)<br>
