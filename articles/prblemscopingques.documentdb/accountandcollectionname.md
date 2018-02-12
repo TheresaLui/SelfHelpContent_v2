@@ -42,16 +42,6 @@
 				}]
 		},
 		{
-			"id": "collection_name",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Collection name",
-			"required": true,
-			"hints": [{
-					"text": "Name of the collection that is affected"
-				}]
-		},
-		{
 			"id": "issue-details",
 			"order": 4,
 			"controlType": "multilinetextbox",
