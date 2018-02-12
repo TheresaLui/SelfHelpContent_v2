@@ -26,7 +26,6 @@
 			"id": "learn_more_text_1",
 			"order": 2,
 			"controlType": "infoblock",
-			
 			"content": "To find the list of supported Operating System <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'>visit here</a>."
 		}, {
 			"id": "problem_source_machine_name",
