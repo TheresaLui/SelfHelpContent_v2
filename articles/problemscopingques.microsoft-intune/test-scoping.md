@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "problem_os_version",
 			"order": 1,
-			"controlType": "textbox",
+			"controlType": "textbox",       
 			"displayLabel": "What is the Operating System version (and kernel version for Linux) of the VM that you are trying to protect?",
 			"watermarkText": "Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
 			"useAsAdditionalDetails": false,
@@ -26,6 +26,7 @@
 			"id": "learn_more_text_1",
 			"order": 2,
 			"controlType": "infoblock",
+			
 			"content": "To find the list of supported Operating System <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'>visit here</a>."
 		}, {
 			"id": "problem_source_machine_name",
