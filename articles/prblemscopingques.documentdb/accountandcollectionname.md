@@ -40,6 +40,33 @@
 			"hints": [{
 					"text": "Name of the collection that is affected"
 				}]
+		},
+		{
+			"id": "collection_name",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Collection name",
+			"required": true,
+			"hints": [{
+					"text": "Name of the collection that is affected"
+				}]
+		},
+		{
+			"id": "issue-details",
+			"order": 4,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide additional details about the issue that you were facing",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"hints": [
+				{
+					"text": "More information on the exact issue."
+				},{
+					"text": "Read/Write regions where the issue is experienced"
+				},{
+					"text": "Activity Id of the request (if available)."
+				}
+			]
 		}
                 ]
                 }
