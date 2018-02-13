@@ -30,9 +30,10 @@ If the storage account uses the ARM deployment model, you can remove the VHD by 
 4. Remove the VHD from the VM, which will allow the VHD to be deleted.  For OS Disks, you will need to delete the VM that is using the disk.  For Data Disks, click on the disk and select “Detach.”
 
 ### Recovery of deleted objects
-- You may submit a support request to recover a deleted Storage Account | Blob Container within 14 days of deletion. We request that you do not attempt to recreate a storage account or blob container with the same name while we are attempting to recover.<br>
-- Recovery of deleted or older versions of Files, Blobs, Tables and Queues is not currently supported.<br>
 
+- Recovery of a deleted Storage Account may be attempted by submitting a support request within 14 days of deletion. There is no guarantee for recovery to be successful even if the request is submitted within the specified timeframe. We request that you do not attempt to recreate a Storage Account with the same name while we are attempting to recover.<br>
+- For Storage Accounts configured with replication option: Geographically Redundant Storage (GRS) or Read-Access Geographically Redundant Storage (RA-GRS), recovery of a deleted Blob Container may be attempted by submitting a support request within 14 days of deletion. There is no guarantee for recovery to be successful even if the request is submitted within the specified timeframe. We request that you do not attempt to recreate a Blob Container with the same name while we are attempting to recover.<br>
+- Recovery of deleted or older versions of Files, Blobs, Tables and Queues cannot be attempted.<br>
 
 ## **Recommended documents**
 [I'm having problems deleting storage account](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)
