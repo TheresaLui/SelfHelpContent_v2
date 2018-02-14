@@ -16,10 +16,10 @@
 
 **Review the resources listed as they may help you solve your issue without needing to open a support case**
 
-*[Diagnose end-user issues with the Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
-*[Review enrollment documentation for iOS](https://docs.microsoft.com/intune/ios-enroll)<br>
-*[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
-*[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Diagnose end-user issues with the Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+* [Review enrollment documentation for iOS](https://docs.microsoft.com/intune/ios-enroll)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
 
 ## **Recommended steps**
 
