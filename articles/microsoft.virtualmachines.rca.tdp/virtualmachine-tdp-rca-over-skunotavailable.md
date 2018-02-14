@@ -25,7 +25,7 @@ Over the past several months we have experienced unprecedented growth in Azure d
 
 For additional information, please read the following documents:<br>
 
-* Learn more about [resolving SKU Not Available errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)<br>
-* Additional information on resolving [not having access to a region or a VM SKU](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)
+* Learn more about [resolving SKU Not Available errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors).<br>
+* Additional information on resolving [not having access to a region or a VM SKU](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
