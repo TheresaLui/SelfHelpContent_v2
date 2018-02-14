@@ -16,6 +16,11 @@
 
 ## **Recommended steps**
 
+*[Diagnose end-user issues with the Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)
+*[Review enrollment documentation for iOS](https://docs.microsoft.com/intune/ios-enroll)
+*[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)
+*[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)
+
 The following is a list of errors that end users might see while enrolling iOS devices in Intune.
 
 **Error Message:  Device Cap Reached**
