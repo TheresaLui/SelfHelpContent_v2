@@ -35,7 +35,7 @@
 			"required": false
 		},{
 			"id": "to_vm",
-			"order": 1,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Please select the VM you are connecting to",
 			"watermarkText": "Choose an option",
