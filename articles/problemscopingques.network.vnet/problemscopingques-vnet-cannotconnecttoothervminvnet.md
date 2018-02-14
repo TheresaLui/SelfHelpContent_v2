@@ -54,7 +54,7 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 2,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
