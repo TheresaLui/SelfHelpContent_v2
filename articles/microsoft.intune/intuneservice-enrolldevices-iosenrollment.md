@@ -14,7 +14,7 @@
 
 # Enroll Devices - iOS Enrollment
 
-## **Review the resources listed as they may help you solve your issue without needing to open a support case**
+**Review the resources listed as they may help you solve your issue without needing to open a support case**
 
 *[Diagnose end-user issues with the Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
 *[Review enrollment documentation for iOS](https://docs.microsoft.com/intune/ios-enroll)<br>
