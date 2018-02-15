@@ -21,7 +21,6 @@ cloudEnvironments="public"
 The virtual machine seems to have disabled DHCP and IP address not equal to null. This indicates static IP is set at the Guest OS level.
 <!--/issueDescription-->
 
-## **Customer Ready RCA**
 
 You cannot connect to the Virtual Machine after you disable the default Network Interface (NIC) or manually set a static IP for the NIC.
 
