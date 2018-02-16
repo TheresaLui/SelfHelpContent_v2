@@ -18,7 +18,7 @@
 
 **Troubleshooting iOS enrollment issues in Microsoft Intune**
 
-* [Use our iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune)<br>
+* [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune)<br>
 
 **Diagnose issues with a user or device in the Troubleshooting Portal**
 
