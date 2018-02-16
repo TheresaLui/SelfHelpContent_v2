@@ -11,6 +11,7 @@
 # I am not getting debug snapshots
 ## **Recommended steps**
 To ensure that you are able to successfully get debug snapshots:
+
 1. Verify that the [snapshot collector is properly configured](https://go.microsoft.com/fwlink/?linkid=848053#configure-snapshot-collection-for-aspnet-applications).
 2. Ensure exceptions caught by the ASP.NET framework are being tracked. This requires an [implementation of error handlers](https://go.microsoft.com/fwlink/?linkid=867931#web-forms).
 3. Ensure exceptions caught by application code are [reported with TrackException()](https://go.microsoft.com/fwlink/?linkid=867931#reporting-exceptions-explicitly).
