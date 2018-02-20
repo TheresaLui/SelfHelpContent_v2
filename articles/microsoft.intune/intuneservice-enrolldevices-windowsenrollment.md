@@ -14,9 +14,17 @@
 
 # Enroll Devices - Windows Enrollment"
 
+## **Recommended steps**
+
+**Diagnose issues with a user or device in the Troubleshooting Portal**
+
+* [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+
 ## **Recommended documents**
 
 [Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
 [Enroll Windows devices](https://docs.microsoft.com/intune/windows-enroll)<br>
 [Turn on auto-MDM enrollment with Azure Active Directory (AD) and Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/08/14/windows-10-azure-ad-and-microsoft-intune-automatic-mdm-enrollment-powered-by-the-cloud/)<br>
 [Mobile Device Enrollment scenarions not supported](https://aka.ms/buvm2o)<br>
