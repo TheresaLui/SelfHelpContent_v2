@@ -3,7 +3,7 @@
     description="I am not getting profiler traces"
     service="microsoft.insights"
     resource="components"
-    authors="serviceprofiler"
+    authors="brahmnes"
     displayOrder="40"
     selfHelpType="resource"
     cloudEnvironments="public"

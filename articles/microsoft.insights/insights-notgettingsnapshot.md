@@ -3,7 +3,7 @@
     description="I am not getting debug snapshots"
     service="microsoft.insights"
     resource="components"
-    authors="snapshotdebuggerteam"
+    authors="brahmnes"
     displayOrder="41"
     selfHelpType="resource"
     cloudEnvironments="public"
