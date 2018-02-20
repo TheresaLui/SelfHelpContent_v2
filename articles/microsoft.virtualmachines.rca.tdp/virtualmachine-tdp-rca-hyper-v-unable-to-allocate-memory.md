@@ -17,9 +17,9 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** either took longer to deploy or may have reported a failure during provisioning. This is a result of a temporary memory pressure on the node where the WM was initially placed.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** either took longer to deploy or may have reported a failure during provisioning. This is a result of a temporary memory pressure on the node where the VM was initially placed.
 <!--/issueDescription-->
 
 To work around this issue, please redeploy your VM if a failure was encountered.<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to make sure that there are less frequent deployment failures specific to this issue.<br>

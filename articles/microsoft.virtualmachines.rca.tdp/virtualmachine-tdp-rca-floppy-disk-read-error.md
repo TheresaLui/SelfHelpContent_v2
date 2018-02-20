@@ -20,4 +20,4 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed. This problem occurs when there the Linux kernel doesn't have drivers for an attached floppy drive causing provisioning to time-out.
 <!--/issueDescription-->
 
-To self-mitigatend this issue, do not attach a floppy drive device to an image before you upload the image to Azure, upload a new version of the image, and then redeploy on the newer image.<br>
+To self-mitigat this issue, do not attach a floppy drive device to an image before you upload the image to Azure, upload a new version of the image, and then redeploy on the newer image.<br>

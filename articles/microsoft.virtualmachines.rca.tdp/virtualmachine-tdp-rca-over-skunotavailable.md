@@ -17,11 +17,11 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to a restriction on the SKU that you are trying to deploy. 
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you are trying to deploy. 
 * There are currently not enough cores of the VM Size Family you requested in this region.
 <!--/issueDescription-->
 
-Over the past several months we have experienced unprecedented growth in Azure demand in several Regions. While we have capacity to support this phenomenal expansion at a global level, sometimes a specific resource/region combination is not consistent across all active Azure Regions. In some Regions, the demand for a specific Azure resource may outstrip capacity, and while we are actively working to build out additional capacity, sometimes we have to make the difficult decision to restrict certain offer types in a few Regions. This temporary measure is to ensure the best possible experience for our customers as we work hard to alleviate a restriction situation. Also if you have more Subscriptions to whitelist, please share the subscription details and planned SKU size and numbers of VM’s / cores to deploy in the requested region.<br>
+Over the past several months, we have experienced unprecedented growth in Azure demand in several Regions. While we have capacity to support this phenomenal expansion at a global level, sometimes a specific resource/region combination is not consistent across all active Azure Regions. In some Regions, the demand for a specific Azure resource may outstrip capacity, and while we are actively working to build out additional capacity, sometimes we have to make the difficult decision to restrict certain offer types in a few Regions. This temporary measure is to make sure the best possible experience for our customers as we work hard to alleviate a restriction situation. Also, if you have more subscriptions to whitelist, please share the subscription details and planned SKU size and numbers of VM’s / cores to deploy in the requested region.<br>
 
 For additional information, please read the following documents:<br>
 

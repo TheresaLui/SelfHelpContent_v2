@@ -20,8 +20,8 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to issues with the guest getting a DHCP address. One common cause is that the image was configured improperly.
 <!--/issueDescription-->
 
-For Windows virtual machines, verify that the services are enabled using [this documentation.](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services) before creating or uploading the image.<br>
+For Windows virtual machines, verify that the correct services are enabled by using [this documentation.](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services) before creating or uploading the image.<br>
 
-For Linux virtual machines, verify that you have followed the documentation before uploading before [creating and uploading the image](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic) or [capturing the image.](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
+For Linux virtual machines, verify that you have followed the documentation before [creating and uploading the image](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic) or [capturing the image.](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 
-Microsoft also recommends updating any custom images that may be used in future deployments to avoid this issue.<br>
+We recommend that you update any custom images that may be used in future deployments to avoid this issue.<br>
