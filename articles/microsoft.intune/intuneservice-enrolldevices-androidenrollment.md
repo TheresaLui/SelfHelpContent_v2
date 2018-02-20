@@ -14,9 +14,8 @@
 
 # Enroll Devices - Android enrollment
 
-## **Recommended steps**
-
-# Troubleshoot issues with a user or device in the [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+## **Troubleshoot and Resolve issues with the Intune Troubleshooting Portal**
+[Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
 
 ## **Recommended documents**
 
