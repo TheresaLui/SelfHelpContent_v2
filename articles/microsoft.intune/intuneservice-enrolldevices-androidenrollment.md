@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Diagnose issues with a user or device in the [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+**Diagnose issues with a user or device in the [Intune Troubleshooting Portal]**(https://aka.ms/intunetroubleshooting1)<br>
 
 ## **Recommended documents**
 
