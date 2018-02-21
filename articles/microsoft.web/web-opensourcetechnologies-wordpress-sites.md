@@ -3,12 +3,12 @@
 	description="open source technologies/wordpress"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32444080"
 	resourceTags=""
-	productPesIds="14748,16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
 />
 

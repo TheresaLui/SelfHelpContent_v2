@@ -3,12 +3,12 @@
 	description="deployment/visual studio or webmatrix"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542216"
 	resourceTags=""
-	productPesIds="14748,16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
 />
 
