@@ -15,4 +15,4 @@
 # configuration and setup/setup npm for expressroute
 
 ## **Recommended documents**
-[Configure Network Perfomance Monitor for ExpressRoute](https://docs.microsoft.com/azure/expressroute/how-to-npm)
+[Configure Network Performance Monitor for ExpressRoute](https://docs.microsoft.com/azure/expressroute/how-to-npm)
