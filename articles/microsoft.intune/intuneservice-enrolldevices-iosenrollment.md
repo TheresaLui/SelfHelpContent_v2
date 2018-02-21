@@ -16,23 +16,26 @@
 
 ## **Recommended steps**
 
-**Troubleshooting iOS enrollment issues in Microsoft Intune**
+Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
 
-* [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune)<br>
+1.  **"This Service is not supported.  No Enrollment Policy"**  Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to setup your Intune account for Apple enrollment.
 
-**Diagnose issues with a user or device in the Troubleshooting Portal**
+2.  **"User License Type Invalid or User Name Not Recognized"**  The user does not have the appropriate Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center}(https://portal.office.com/adminportal/home#/homepage)
 
-* [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+If you're still blocked, try these tools to help unblock you:
+
+Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also provide resolutions for many common enrollment failures.
+
+The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment.  
 
 ## **Recommended documents**
 
-[Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Enroll iOS devices in Intune](https://docs.microsoft.com/intune/ios-enroll)<br>
 [Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
 [Assign Intune licenses to your user accounts](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4)<br>
-[View licensed and unlicensed users with Office 365 PowerShell](https://technet.microsoft.com/library/dn771772.aspx)<br>
+
 
 
 
