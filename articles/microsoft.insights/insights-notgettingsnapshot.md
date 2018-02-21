@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="I am not getting debug snapshots"
     description="I am not getting debug snapshots"
     service="microsoft.insights"
@@ -19,7 +19,7 @@ To ensure that you are able to successfully get debug snapshots:
 
 If debug snapshots are still not available, run through the steps outlined [here](https://go.microsoft.com/fwlink/?linkid=867932#is-the-snapshot-collector-working-properly).<br>
 ## **Known issues**
-For an application running in Azure App Service, if it's using version 1.1.0 or earlier of Microsoft.ApplicationInsights.SnapshotCollector nuget package, and it either uses no Application Insights site extension or versions 2.4.7 or earlier, snapshots may not be collected. The remedy is to use version 1.1.1 or above of Microsoft.ApplicationInsights.SnapshotCollector nuget package, or use version 2.4.8 or above of the Application Insights site extension. 
+For an application running in Azure App Service, if it's using version 1.1.0 or earlier of Microsoft.ApplicationInsights.SnapshotCollector nuget package, and it either uses no Application Insights site extension or versions 2.4.7 or earlier, snapshots may not be collected. The remedy is to use version 1.1.1 or above of Microsoft.ApplicationInsights.SnapshotCollector nuget package, or use version 2.4.8 or above of the Application Insights site extension.
 <br>
 ## **Recommended documents**
 [Debug snapshots on exceptions in .NET apps](https://go.microsoft.com/fwlink/?linkid=848053)<br>

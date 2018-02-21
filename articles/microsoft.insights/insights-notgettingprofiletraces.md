@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="I am not getting profiler traces"
     description="I am not getting profiler traces"
     service="microsoft.insights"
