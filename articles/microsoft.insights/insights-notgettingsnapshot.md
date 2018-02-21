@@ -17,8 +17,8 @@ To ensure that you are able to successfully get debug snapshots:
 3. Ensure exceptions caught by application code are [reported with TrackException()](https://go.microsoft.com/fwlink/?linkid=867931#reporting-exceptions-explicitly).
 4. Verify the latest version of [Microsoft.ApplicationInsights.SnapshotCollector nuget package](https://www.nuget.org/packages/Microsoft.ApplicationInsights.SnapshotCollector) is used.<br>
 
-If debug snapshots are still not available, run through the steps outlined [here](https://go.microsoft.com/fwlink/?linkid=867932#is-the-snapshot-collector-working-properly).<br>
-## **Known issues**
+If debug snapshots are still not available, run through the steps outlined [here](https://go.microsoft.com/fwlink/?linkid=867932#is-the-snapshot-collector-working-properly).<br><br>
+**Known issues**<br>
 For an application running in Azure App Service, if it's using version 1.1.0 or earlier of Microsoft.ApplicationInsights.SnapshotCollector nuget package, and it either uses no Application Insights site extension or versions 2.4.7 or earlier, snapshots may not be collected. The remedy is to use version 1.1.1 or above of Microsoft.ApplicationInsights.SnapshotCollector nuget package, or use version 2.4.8 or above of the Application Insights site extension.
 <br>
 ## **Recommended documents**
