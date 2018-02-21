@@ -18,15 +18,15 @@
 
 Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
 
-1.  **"This Service is not supported.  No Enrollment Policy"**  Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to setup your Intune account for Apple enrollment.
+1.  **"This Service is not supported.  No Enrollment Policy"**  Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up your Intune account for Apple enrollment.
 
-2.  **"User License Type Invalid or User Name Not Recognized"**  The user does not have the appropriate Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center}(https://portal.office.com/adminportal/home#/homepage)
+2.  **"User License Type Invalid or User Name Not Recognized"**  The user does not have the proper Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
 
-If you're still blocked, try these tools to help unblock you:
+If you're still blocked review these resources to help resolve your issues:
 
-Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also provide resolutions for many common enrollment failures.
+Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also give resolutions for many common enrollment failures.
 
-The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment.  
+The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
 ## **Recommended documents**
 
