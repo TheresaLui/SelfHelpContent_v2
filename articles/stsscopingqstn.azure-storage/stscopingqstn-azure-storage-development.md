@@ -3,8 +3,8 @@
 	description="Scoping questions for Storage/Development"
 	authors="Passaree"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32551645,32551654,32551658,32551659,32551669,32551673,32551677,32551678"
-	productPesIds="15629"
+	supportTopicIds="32602744,32602751,32602754,32602766,32602768,32602713,32602718,32602721,32602722,32602729,32602731"
+	productPesIds="16459,16460"
 	cloudEnvironments="public"
 />
 

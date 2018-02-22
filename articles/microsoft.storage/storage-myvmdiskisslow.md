@@ -6,7 +6,7 @@
 	authors="kasparks"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32551682"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
