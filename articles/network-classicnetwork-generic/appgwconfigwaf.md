@@ -9,7 +9,7 @@
 	supportTopicIds="32582831"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # configurationandsetup/configwaf

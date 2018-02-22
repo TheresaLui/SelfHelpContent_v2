@@ -9,7 +9,7 @@
 	supportTopicIds="32436962"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # performance
