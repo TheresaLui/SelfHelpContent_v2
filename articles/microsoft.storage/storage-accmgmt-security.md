@@ -30,6 +30,7 @@
 ### **Encryption**
 - [Encryption in Transit](https://docs.microsoft.com/azure/storage/storage-security-guide#encryption-in-transit)
 - [Encryption at Rest](https://docs.microsoft.com/azure/storage/storage-security-guide#encryption-at-rest)
+- [Use Azure Disk Encryption or Storage Service Encryption (SSE) for Disk Encryption](https://docs.microsoft.com/azure/storage/common/storage-security-guide#comparison-of-azure-disk-encryption-sse-and-client-side-encryption)
 
 ### **CORS**
 - [Enabling CORS so application can run under one domain](https://docs.microsoft.com/rest/api/storageservices/fileservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)

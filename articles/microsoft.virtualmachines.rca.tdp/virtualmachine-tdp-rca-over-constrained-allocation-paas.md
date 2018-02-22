@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$EndTime--> EndTime<!--/$EndTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions).
+We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions).
 <!--/issueDescription-->
 This issue is commonly caused by one of the following:<br>
 

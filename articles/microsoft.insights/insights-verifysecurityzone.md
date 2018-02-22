@@ -4,7 +4,7 @@
 	service="microsoft.insights"
 	resource="components"
 	authors="chlon"
-	displayOrder="1"
+	displayOrder="10"
 	selfHelpType="resource"
 	cloudEnvironments="public"
 />
