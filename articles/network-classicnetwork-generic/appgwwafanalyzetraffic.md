@@ -9,7 +9,7 @@
 	supportTopicIds="32565735"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # analyzeallowed/blockedtraffic
