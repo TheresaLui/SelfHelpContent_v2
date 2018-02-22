@@ -35,7 +35,7 @@
 ### **CORS**
 - [Enabling CORS so application can run under one domain](https://docs.microsoft.com/rest/api/storageservices/fileservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
 
-### **Azure Storage Firewalls and Virtual Networks
+### **Azure Storage Firewalls and Virtual Networks**
 - [Configuring Azure Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)<br>
 - [Granting access from a Virtual Network](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-a-virtual-network)<br>
 - [Granting access from an internet IP range](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range)<br>
