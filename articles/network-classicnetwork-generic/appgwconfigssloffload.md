@@ -9,7 +9,7 @@
 	supportTopicIds="32582828"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # configurationandsetup/configure SSL offload
