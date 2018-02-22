@@ -1,18 +1,18 @@
 <properties
-	pageTitle="What is Azure Premium Storage"
-	description="What is Azure Premium Storage"
+	pageTitle="What is Premium Storage"
+	description="What is Premium Storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551672"
+	supportTopicIds="32602705"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
-# What is Azure Premium Storage
+# What is Premium Storage
 
 ## **Recommended documents**
 - [Supported VMs for Premium Storage](https://docs.microsoft.com/azure/storage/storage-premium-storage#premium-storage-supported-vms)

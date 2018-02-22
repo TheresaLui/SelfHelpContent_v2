@@ -1,10 +1,10 @@
-<properties
+﻿<properties
 	pageTitle="I can't delete my classic storage account"
 	description="I can't delete my classic storage account"
 	service="microsoft.classicstorage"
 	resource="storageaccounts"
 	authors="passaree"
-	displayOrder="8"
+	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
