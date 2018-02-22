@@ -7,7 +7,7 @@
 	displayOrder="3"
 	selfHelpType="generic"
 	supportTopicIds="32599597"
-	resourceTags="intune_device_enrollment"
+	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
@@ -26,14 +26,16 @@ Let's take a look at a few common Android enrollment error messages and how to r
 
 If you're still blocked review these resources to help resolve your issues:
 
-Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also give resolutions for many common enrollment failures.
+[Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
 Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
+
+Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
 [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Enroll Android devices](https://docs.microsoft.com/intune/android-enroll)<br>
+[Learn how to Enroll Android devices](https://docs.microsoft.com/intune/android-enroll)<br>
 
 

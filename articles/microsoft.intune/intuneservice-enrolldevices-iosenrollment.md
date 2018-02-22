@@ -7,7 +7,7 @@
 	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32599644"
-	resourceTags="intune_device_enrollment"
+	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
@@ -24,11 +24,11 @@ Let's take a look at a couple common iOS enrollment error messages and how to re
 
 If you're still blocked review these resources to help resolve your issues:
 
-[Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also give resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+[Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
 The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-Below is a list of resources and documentation that may assist in resolving your issue.  Please review before opening a support case.
+Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 

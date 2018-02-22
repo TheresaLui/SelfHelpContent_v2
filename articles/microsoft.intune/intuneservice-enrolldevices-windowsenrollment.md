@@ -7,7 +7,7 @@
 	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32599687"
-	resourceTags="intune_device_enrollment"
+	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
@@ -26,10 +26,11 @@ Let's take a look at a few common Windows enrollment failure scenarios and how t
 
 If you're still blocked review these resources to help resolve your issues:
 
-Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also give resolutions for many common enrollment failures.
+The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.
 
 Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
+Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
