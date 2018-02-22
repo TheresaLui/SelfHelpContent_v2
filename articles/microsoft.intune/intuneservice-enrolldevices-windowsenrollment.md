@@ -16,13 +16,23 @@
 
 ## **Recommended steps**
 
-**Diagnose issues with a user or device in the Troubleshooting Portal**
+Let's take a look at a few common Windows enrollment failure scenarios messages and how to resolve them:
 
-* [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
+**"Installation of the PC client software fails with "?The software cannot be installed, 0x80cf4017"** - This error occurs when your account certificate has expired.  Re-download the PC Client software package in the Intune Admin Console.  For more information please review [this documentation](https://docs.microsoft.com/intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intunet)
+
+**"Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"** - The error can occur in the following scenarios.  1. Device cap reached.  Unenroll devices for the user and try again.  2. If "Allow Devices to join Azure AD" is set to none.  3. The device is already enrolled by another user. Confirm the if device is enrolled.  4. The device is Windows 10 Home.  Only Windows 10 Pro, Education and Enterprise sku's are allowed to join Azure Active Directory.  
+
+**"Enrolling Windows 10 PC via MDM fails with 0x80180014 and error message "There was a problem. Your organization does not support this version of Windows."** - This error occurs when device restrictions prevent the Windows 10 device from enrolling.  For more information on device restrictions and how to configure them please review [this documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set)
+
+If you're still blocked review these resources to help resolve your issues:
+
+Our [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also give resolutions for many common enrollment failures.
+
+Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
+
 
 ## **Recommended documents**
 
-[Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
 [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
 [Enroll Windows devices](https://docs.microsoft.com/intune/windows-enroll)<br>
