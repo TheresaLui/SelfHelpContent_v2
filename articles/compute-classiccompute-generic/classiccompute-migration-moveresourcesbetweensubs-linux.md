@@ -7,8 +7,8 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570117"
-	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	resourceTags="linux"
+	productPesIds="15571"
 	cloudEnvironments="public"
 />
 

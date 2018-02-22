@@ -6,7 +6,7 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411885"
+	supportTopicIds="32591160"
 	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"

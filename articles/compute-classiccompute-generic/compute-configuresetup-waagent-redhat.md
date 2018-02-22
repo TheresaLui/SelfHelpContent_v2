@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411845"
-	resourceTags="linux"
-	productPesIds="15571"
+	supportTopicIds="32450212"
+	resourceTags="redhat"
+	productPesIds="15797"
 	cloudEnvironments="public"
 />
 

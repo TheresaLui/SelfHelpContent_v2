@@ -6,7 +6,7 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32591320,32589415"
+	supportTopicIds="32591320, 32589415"
 	resourceTags="linux, redhat"
 	productPesIds="15571, 15797"
 	cloudEnvironments="public"

@@ -23,7 +23,7 @@
 * [Migrate to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)<br>
 * [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)<br>
 * [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)<br>  
-* [Review guidance for high-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/storage/storage-premium-storage)<br>
+* [Review guidance for high-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/storage/storage-premium-storage)
 
 
 

@@ -15,4 +15,4 @@
 # Suspected Malware, Safety Bulletins, and Security Bulletins
 
 ## **Recommended documents**
-* [Overview of Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-intro)<br>
+* [Overview of Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-intro)<br>
