@@ -4,10 +4,10 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	displayOrder=""
+	displayOrder="3"
 	selfHelpType="generic"
 	supportTopicIds="32599597"
-	resourceTags=""
+	resourceTags="intune_device_enrollment"
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
