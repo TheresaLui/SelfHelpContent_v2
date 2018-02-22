@@ -38,3 +38,5 @@ Security and Encryption:<br>
 - [Azure Security Center FAQ](https://azure.microsoft.com/documentation/articles/security-center-faq/)<br>
 - [Azure Security Center - data collection and storage](https://docs.microsoft.com/azure/security-center/security-center-planning-and-operations-guide#data-collection-and-storage)<br>
 
+Delete Storage:
+- [Failed to delete Storage account, container, or blob](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)<br>

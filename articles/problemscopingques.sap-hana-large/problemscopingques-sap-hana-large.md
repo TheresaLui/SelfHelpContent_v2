@@ -9,6 +9,7 @@
 	schemaVersion="1"
 />
 # SAP HANA LARGE INSTANCES
+---
 {
 	"resourceRequired": false,
 	"title": "Configure SAP HANA large instances",
