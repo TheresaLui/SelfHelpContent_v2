@@ -9,7 +9,7 @@
 	supportTopicIds="32582833"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
 # waf/disablerules/falsepositives
