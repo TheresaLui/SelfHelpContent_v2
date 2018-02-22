@@ -37,6 +37,6 @@ If the storage account uses the ARM deployment model, you can remove the VHD by 
 
 ## **Recommended documents**
 [I'm having problems deleting storage account](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)<br>
-[Delete Storage Account operation](https://msdn.microsoft.com/en-us/library/azure/hh264517.aspx)<br>
-[Delete Container operation](https://docs.microsoft.com/en-us/rest/api/storageservices/delete-container)<br>
+[Delete Storage Account operation](https://msdn.microsoft.com/library/azure/hh264517.aspx)<br>
+[Delete Container operation](https://docs.microsoft.com/rest/api/storageservices/delete-container)<br>
 

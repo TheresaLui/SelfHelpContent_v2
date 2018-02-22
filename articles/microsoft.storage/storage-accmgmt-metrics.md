@@ -15,8 +15,8 @@
 # How to get Azure Storage metrics and logs
 
 ## **Recommended documents**
-- [Storage Analytics - Log and Metrics](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics)<br>
-- [How to enabling storage metrics and viewing metrics data](https://docs.microsoft.com/en-us/rest/api/storageservices/enabling-storage-metrics-and-viewing-metrics-data)<br>
-- [How to enable storage logs and access log data](https://docs.microsoft.com/en-us/rest/api/storageservices/enabling-storage-logging-and-accessing-log-data)<br>
-- [Azure Storage metrics in Azure Monitors](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)<br>
+- [Storage Analytics - Log and Metrics](https://docs.microsoft.com/azure/storage/common/storage-analytics)<br>
+- [How to enabling storage metrics and viewing metrics data](https://docs.microsoft.com/rest/api/storageservices/enabling-storage-metrics-and-viewing-metrics-data)<br>
+- [How to enable storage logs and access log data](https://docs.microsoft.com/rest/api/storageservices/enabling-storage-logging-and-accessing-log-data)<br>
+- [Azure Storage metrics in Azure Monitors](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor)<br>
 

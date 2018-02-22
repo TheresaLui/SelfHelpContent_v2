@@ -15,7 +15,7 @@
 # How to create a Storage Account
 
 ## **Recommended documents**
-- [Storage Account Options](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-options)<br>
+- [Storage Account Options](https://docs.microsoft.com/azure/storage/common/storage-account-options)<br>
 - [Create Azure Storage account](https://docs.microsoft.com/azure/storage/storage-create-storage-account)<br>
-- [Storage Account Replication](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)<br>
+- [Storage Account Replication](https://docs.microsoft.com/azure/storage/common/storage-redundancy)<br>
 - [Storage products availability by region](https://azure.microsoft.com/regions/services/)
