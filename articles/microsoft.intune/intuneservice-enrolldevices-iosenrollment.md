@@ -28,7 +28,7 @@ If you're still blocked review these resources to help resolve your issues:
 
 The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-Below is a list of documentation that may assist in resolving your issue.  Please review before opening a support case.
+Below is a list of resources and documentation that may assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
