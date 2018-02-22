@@ -5,7 +5,7 @@
 	resource="intune"
 	authors="mackie1604"
 	displayOrder="7"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
