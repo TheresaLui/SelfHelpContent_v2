@@ -18,7 +18,12 @@
 
 Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
 
-**"This Service is not supported.  No Enrollment Policy"** - Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up your Intune account for Apple enrollment.
+**"Device Cap Reached"** - This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
+
+**DEP device unable to enroll** - Currently MFA(Multi-Factor Authentication) is not supported for DEP device enrollment.  Please disable MFA to allow users to enroll devices.
+
+
+**"This Service is not supported.  No Enrollment Policy"** - Apple Push Notification Service (APNS) has not been configured or has expired.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up or renew your Intune account for Apple enrollment.
 
 **"User License Type Invalid" or "User Name Not Recognized"** - The user is not assigned an Intune or EMS license.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal).  For more information on how to license users please review [Azure user licensing](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [Office 365 user licensing](https://docs.microsoft.com/intune/licenses-assign).
 
