@@ -4,7 +4,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	displayOrder="6"
+	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="device_enrollment_selfhelp"
