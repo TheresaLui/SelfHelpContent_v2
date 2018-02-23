@@ -20,7 +20,7 @@ Let's take a look at a couple common iOS enrollment error messages and how to re
 
 **"This Service is not supported.  No Enrollment Policy"** - Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up your Intune account for Apple enrollment.
 
-**"User License Type Invalid or User Name Not Recognized"** - The user does not have the proper Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [Azure Portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the Office 365 Admin Center](https://docs.microsoft.com/intune/licenses-assign).
+**"User License Type Invalid or User Name Not Recognized"** - The user does not have the proper Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal).  Review the user licensing documentation for the [Azure Portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the Office 365 Admin Center](https://docs.microsoft.com/intune/licenses-assign).
 
 If you're still blocked review these resources to help resolve your issues:
 
