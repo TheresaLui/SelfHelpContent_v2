@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
-	description="Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
+	pageTitle="Enrolling a Windows 10 PC via MDM fails with error code 801c0003"
+	description="Enrolling a Windows 10 PC via MDM fails with error code 801c0003"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
