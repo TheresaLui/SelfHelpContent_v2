@@ -24,6 +24,8 @@ Let's take a look at a few common Windows enrollment failure scenarios and how t
 
 **"Enrolling Windows 10 PC via MDM fails with 0x80180014 and error message "There was a problem. Your organization does not support this version of Windows."** - This error occurs when device restrictions prevent the Windows 10 device from enrolling.  For more information on device restrictions and how to configure them please review [this documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set).
 
+**"User License Type Invalid or User Name Not Recognized"** - The user does not have the proper Intune or EMS license assigned to a user.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [Azure Portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the Office 365 Admin Center](https://docs.microsoft.com/intune/licenses-assign).
+
 If you're still blocked review these resources to help resolve your issues:
 
 The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.
