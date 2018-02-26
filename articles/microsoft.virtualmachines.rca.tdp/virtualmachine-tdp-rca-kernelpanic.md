@@ -22,7 +22,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 If redeploying the VM does not resolve the issue, please read these additional documents:<br>
 
-* To understand how to understand the minimum kernel versions required, [please read this article](https://support.microsoft.com/help/4041171).<br>
+* To understand the minimum kernel versions required for a Linux VM in Azure, [please read this article](https://support.microsoft.com/help/4041171).<br>
 
 * To manually fix non-boot issues related to kernel panics, follow the directions in [this article](https://blogs.msdn.microsoft.com/linuxonazure/2016/10/09/linux-recovery-manually-fixing-non-boot-issues-related-to-kernel-problems/).<br>
 
