@@ -7,7 +7,7 @@
 	displayOrder="5"
 	selfHelpType="generic"
 	supportTopicIds="32599632"
-	resourceTags="intune_device_enrollment"
+	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
