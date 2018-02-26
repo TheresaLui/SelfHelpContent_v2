@@ -10,8 +10,8 @@
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds="32411844"
-	resourceTags="windows, linux"   
-	productPesIds="14749,15571"  
+	resourceTags="windows, linux"
+	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
