@@ -9,7 +9,7 @@
 	supportTopicIds="32582829"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public"
 />
 
 # configurationandsetup/configsslpolicy
