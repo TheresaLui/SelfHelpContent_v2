@@ -9,7 +9,7 @@
 	supportTopicIds="32573483"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public"
 />
 
 # connectivity/502errors
