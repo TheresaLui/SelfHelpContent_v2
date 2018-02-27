@@ -9,7 +9,7 @@
 	supportTopicIds="32582825"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public"
 />
 
 # configurationandsetup/configendtoendssl
