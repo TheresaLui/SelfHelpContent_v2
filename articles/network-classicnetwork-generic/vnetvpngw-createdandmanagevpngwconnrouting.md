@@ -16,6 +16,7 @@
 
 ## **Recommended documents**
 Add a [site-to-site connection to an existing VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-multi-site-to-site-resource-manager-portal)<br>
+Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
 Configure a [VNet-to-VNet VPN gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)<br>
 Check Azure [3rd Party device configuration](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-overview) to see if your device is available<br>
 See [IKE parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#a-nameipsecaipsecike-parameters) to determine tunnel settings for your device <br>
