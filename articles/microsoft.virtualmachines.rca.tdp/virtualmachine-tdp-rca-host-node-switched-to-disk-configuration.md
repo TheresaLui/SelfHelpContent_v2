@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="Deployment Failure RCA"
 	description="RCA - virtualmachine-tdp-rca-host-node-switched-to-disk-configuration"
 	infoBubbleText="Found recent deployment failure. See details on the right."
