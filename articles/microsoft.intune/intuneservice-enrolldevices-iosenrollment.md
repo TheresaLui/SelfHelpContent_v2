@@ -4,7 +4,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	displayOrder=""
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32599644"
 	resourceTags=""
@@ -16,34 +16,32 @@
 
 ## **Recommended steps**
 
-The following is a list of errors that end users might see while enrolling iOS devices in Intune.
+Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
 
-**Error Message:  Device Cap Reached**
+**"Device Cap Reached"** - This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
 
-* The user must remove one of his or her currently enrolled mobile devices from the Company Portal before enrolling another.
+**DEP device unable to enroll if MFA enabled** - Currently MFA(Multi-Factor Authentication) is not supported for DEP enrollment.  Please disable MFA to allow users to enroll devices.
 
-**Error Message:  No Enrollment Policy, APNSCertificateNotValid or AccountNotOnboarded**
+**"This Service is not supported.  No Enrollment Policy"** - Apple Push Notification Service (APNS) has not been configured or has expired.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up or renew your Intune account for Apple enrollment.
 
-* The Apple Push Notification Service (APNs) provides a channel to reach out to enrolled iOS devices. If the steps to get an APNs certificate were not performed, or if the APNs certificate has expired, then enrollment attempts will fail, and this message will appear.
+**"User License Type Invalid" or "User Name Not Recognized" error message during enrollment** - The user is not assigned an Intune or EMS license.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal).  For more information on how to license users please review [Azure user licensing](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [Office 365 user licensing](https://docs.microsoft.com/intune/licenses-assign).
 
-**Error Message:  DeviceTypeNotSupported**
+If you're still blocked review these resources to help resolve your issues:
 
-* Ensure that your user's device is running iOS version 8.0 or later.
+The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
-**Error Message:  MdmAuthorityNotDefined**
+The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-* The mobile device management authority has not been designated in Intune.
+Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
-[Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
-[Enroll iOS devices in Intune](https://docs.microsoft.com/intune/ios-enroll)<br>
-[Set up iOS and Mac device management](https://docs.microsoft.com/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune)<br>
-[Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
-[Wi-Fi connections in Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/wi-fi-connections-in-microsoft-intune)<br>
-[Azure AD federation compatibility list](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility)<br>
-[Assign Intune licenses to your user accounts](https://docs.microsoft.com/intune/get-started/start-with-a-paid-subscription-to-microsoft-intune-step-4)<br>
-[View licensed and unlicensed users with Office 365 PowerShell](https://technet.microsoft.com/library/dn771772.aspx)<br>
+[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+[Learn how to Enroll iOS devices in Intune](https://docs.microsoft.com/intune/ios-enroll)<br>
+[Learn how to Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
+
+
 
 
 

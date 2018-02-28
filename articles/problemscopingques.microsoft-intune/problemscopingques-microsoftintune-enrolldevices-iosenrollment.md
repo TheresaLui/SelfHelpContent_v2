@@ -15,13 +15,8 @@
 	"title": "Enroll Devices - iOS Enrollment",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "learn_more_text",
-			"order": 1,
-			"controlType": "infoblock",
-			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li>Review enrollment documentation for <a href='https://docs.microsoft.com/intune/ios-enroll'>iOS</a> and <a href='https://docs.microsoft.com/intune/macos-enroll'>macOS</a></li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li>Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues</li></ul>"
-		},  {
 			"id": "What service are you having the issue with?",
-			"order": 4,
+			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
@@ -45,7 +40,7 @@
 			"required": true
 		},  {
 			"id": "iOSMAC_problem_determination",
-			"order": 5,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
@@ -75,7 +70,7 @@
 			"required": true
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 6,
+			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
@@ -87,7 +82,7 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 7,
+			"order": 4,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -107,7 +102,7 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 8,
+			"order": 5,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
@@ -130,7 +125,7 @@
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 9,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -151,7 +146,7 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 10,
+			"order": 7,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": false
