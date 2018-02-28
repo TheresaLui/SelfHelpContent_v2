@@ -17,10 +17,10 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed or may have taken longer than expected due to disk configuration change that was performed on the physical host (node) on which the VM was allocated to.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed or may have taken longer than expected. This was due to a disk configuration change that was performed on the physical host during the provisioning of the VM.
 <!--/issueDescription-->
 
-This automated disk configuration change needs to be performed before the VM Starts and may take several minutes to complete. It is rare for a VM to land on nodes that require this change as the platform monitors and keeps nodes pre-configured. Our core platform engineers have been made aware of this issue and are currently evaluating performance improvements in this area.<br>
+This automated disk configuration change needs to be performed before the VM starts and may take several minutes to complete. It is rare for a VM to land on nodes that require this change as the platform monitors and keeps nodes pre-configured. Our core platform engineers have been made aware of this issue and are currently evaluating performance improvements in this area.<br>
 
 In most cases, the deployment will continue and complete successfully. Please validate if the VM was deployed successfully by navigating to the VM blade in the Portal. If the deployment didn’t complete start a new deployment.<br>
 
