@@ -23,8 +23,8 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 It is important to **highlight this is not a quota issue.** The servers in Azure datacenters are partitioned into clusters. Normally, an allocation request is attempted in multiple clusters, but it's possible that certain constraints from the allocation request force the Azure platform to attempt the request in only one cluster. Due to the natural fluctuation of capacity within the cluster, it was not possible to meet the constraints defined for the availability set at the time the deployment was initiated.<br>
 
 To learn more about allocation failures including availability sets:<br>
-* [Troubleshoot allocation failures for Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/allocation-failure)<br>
-* [Troubleshoot allocation failures for Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/allocation-failure)<br>
+* [Troubleshoot allocation failures for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/allocation-failure)<br>
+* [Troubleshoot allocation failures for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/allocation-failure)<br>
 
 To learn more about resizing:<br>
 * [Resizing virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines)<br>
