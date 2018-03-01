@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Site Recovery (VMware vCenter to Azure)/Add/register configuration server"
 	description="Site Recovery (VMware vCenter to Azure)/Add/register configuration server"
@@ -12,6 +13,8 @@
 	cloudEnvironments="public"
 />
 # Site Recovery (VMware vCenter to Azure)/Add/register configuration server
+
+## **Recommended Documents**
 
 - [[VMWare to Azure] How to **install** new instance of Configuration Server using OVF template for VMWare?](https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template)</br>
 - [[VMWare to Azure] How to **Manage** Configuration Server using OVF template for VMWare?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server)</br>
