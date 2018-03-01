@@ -2,7 +2,7 @@
 	pageTitle="My issue is not listed"
 	description="My issue is not listed" 
 	service="microsoft.intune"
-	resource="issuenotlisted" 
+	resource="intune" 
 	documentationCenter=""
 	authors="mackie1604"
 	resourceTags=""
