@@ -1,7 +1,7 @@
 <properties
 pageTitle="VM in reboot loop"
 description="Virtual machine failed to boot with error code 0xC00002E3"
-infoBubbleText="VM is found to be in a reboot loop."
+infoBubbleText="VM is in a reboot loop. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
