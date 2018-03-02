@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "app_gw_url",
 			"order": 1,
-			"controlType": "singlelinetext",
+			"controlType": "multilinetext",
 			"displayLabel": "Please provide the URL for Application Gateway.",
 			"watermarkText": "Enter full URL such as www.contoso.com",
 			"required": false
@@ -31,7 +31,7 @@
 			"id": "learn_more_text",
 			"order": 3,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			"content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway."
 		}
 	]
 }
