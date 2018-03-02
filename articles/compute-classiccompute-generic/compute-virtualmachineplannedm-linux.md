@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32591320,32589415"
+	supportTopicIds="32591320, 32589415"
 	resourceTags="linux, redhat"
-	productPesIds="15571"
+	productPesIds="15571, 15797"
 	cloudEnvironments="public"
 />
 
@@ -35,4 +35,4 @@ Information related to planned maintenance is available during a planned mainten
 [View VMs scheduled for maintenance in the portal](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#view-vms-scheduled-for-maintenance-in-the-portal)<br>
 [Find VMs scheduled for maintenance using CLI](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#find-vms-scheduled-for-maintenance-using-cli)<br>
 [Check maintenance status using CLI](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#check-maintenance-status-using-powershell)<br>
-[What about Classic deployments?](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#classic-deployments)<br>
+[What about Classic deployments?](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#classic-deployments)
