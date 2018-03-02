@@ -5,7 +5,7 @@
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
-	displayOrder=""
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32591157"
 	resourceTags=""
