@@ -18,8 +18,8 @@
 			"id": "app_gw_url",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the URL for Application Gateway.",
-			"watermarkText": "Provide full URL such as www.contoso.com",
+			"displayLabel": "Please provide the URL you are using to access the Application Gateway.",
+			"watermarkText": "Provide full URL such as http://www.contoso.com:8081/home.aspx",
 			"required": false
 		}, {
 			"id": "problem_start_date",
