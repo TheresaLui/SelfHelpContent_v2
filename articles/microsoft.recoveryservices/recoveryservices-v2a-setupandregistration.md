@@ -22,4 +22,4 @@
 - [[Physical to Azure] **Prerequisites** for installing Unified setup for configuration server](https://docs.microsoft.com/azure/site-recovery/site-recovery-set-up-vmware-to-azure#configuration-server-minimum-requirements)</br>
 - [[Physical to Azure] How to **install** new instance of Configuration Server using unified setup?](https://docs.microsoft.com/azure/site-recovery/site-recovery-set-up-physical-to-azure#set-up-the-source-environment)</br>
 - [How to **troubleshoot** common installation and registration issues of Configuration server?](https://docs.microsoft.com/azure/site-recovery/site-recovery-set-up-vmware-to-azure#common-issues)</br>
-- [[VMWare/Physical to Azure] How to **upgrade** existing instance of Configuration Server instance using unified setup?](https://social.technet.microsoft.com/wiki/contents/articles/38544.azure-site-recovery-service-updates.aspx)<br>
+- [[VMWare/Physical to Azure] How to **upgrade** existing instance of Configuration Server using unified setup?](https://social.technet.microsoft.com/wiki/contents/articles/38544.azure-site-recovery-service-updates.aspx)<br>
