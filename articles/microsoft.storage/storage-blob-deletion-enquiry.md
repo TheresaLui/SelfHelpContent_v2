@@ -1,10 +1,10 @@
 <properties
-pageTitle="Lease exists"
-description="Lease exists"
+pageTitle="Blob deletion enquiry RCA"
+description="Blob deletion enquiry RCA"
 infoBubbleText="An active lease has been detected"
 service="microsoft.storage"
 resource="storage"
-authors="divka78"
+authors="shines"
 displayOrder=""
 articleId="storagedeletionarm-existinglease"
 diagnosticScenario="An active lease has been detected"
@@ -15,7 +15,11 @@ productPesIds="15629"
 cloudEnvironments="public"
 />
 
-# **An active lease has been detected**
+# **Blob deletion RCA**
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account blah <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that there is an active lease that’s preventing it's deletion. Please continue to submit your case.<br>
+Microsoft Azure team has concluded the investigation of Blob | Container deletion issue for <Container | Blob name> on <DateTime>.Please see IP Address information for the entity that deleted the Blob | Container and the deletion timestamp.  
+IP Address: <Client IP Address> 
+Deletion Timestamp: <Deletion Timestamp> 
+Regards, 
+Microsoft Azure Team 
 <!--/issueDescription-->
