@@ -1,13 +1,13 @@
 <properties
-pageTitle="Lease exists"
-description="Lease exists"
+pageTitle="Clientside Latency"
+description="Clientside Latency"
 infoBubbleText="An active lease has been detected"
 service="microsoft.storage"
 resource="storage"
-authors="divka78"
+authors="shines"
 displayOrder=""
 articleId="storagedeletionarm-existinglease"
-diagnosticScenario="An active lease has been detected"
+diagnosticScenario="Clientside Latency"
 selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
@@ -15,7 +15,16 @@ productPesIds="15629"
 cloudEnvironments="public"
 />
 
-# **An active lease has been detected**
+# **Clientside Latency RCA**
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that there is an active lease that’s preventing it's deletion. Please continue to submit your case.<br>
+
+Microsoft Azure team has concluded the investigation of performance issue while accessing <Storage Account name> on <DateTime>. Your application is experiencing high end to end latency due to resource contention on client side. 
+
+The Azure Storage service side latency was <avg ms> but client perceived latency spiked to <avg ms> at or around <DateTime>. 
+Please refer to Performance Analysis and Troubleshooting guide on the client application to further investigate and mitigate the issue. 
+
+Regards,
+
+Microsoft Azure Team
+
 <!--/issueDescription-->
