@@ -19,7 +19,7 @@
 			"order": 1,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the URL for Application Gateway.",
-			"watermarkText": "Enter full URL such as www.contoso.com",
+			"watermarkText": "Provide full URL such as www.contoso.com",
 			"required": false
 		}, {
 			"id": "problem_start_date",
@@ -31,13 +31,14 @@
 			"id": "additional_details",
 			"order": 3,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide details of the issue",
+			"displayLabel": "Details of the issue.",
+			"watermarkText": "Provide additional information about your issue including error messages.",
 			"required": false
 		}, {
 			"id": "learn_more_text",
 			"order": 4,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway."
+			"content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
 		}
 	]
 }
