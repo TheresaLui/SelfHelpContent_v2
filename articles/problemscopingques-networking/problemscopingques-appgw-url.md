@@ -29,15 +29,13 @@
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 9,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide details of the issue",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": "text": "Issue description"
+			"required": false
 		}, {
 			"id": "learn_more_text",
-			"order": 3,
+			"order": 4,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway."
 		}
