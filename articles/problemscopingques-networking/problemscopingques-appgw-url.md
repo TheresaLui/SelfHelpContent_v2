@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "app_gw_url",
 			"order": 1,
-			"controlType": "multilinetext",
+			"controlType": "textbox",
 			"displayLabel": "Please provide the URL for Application Gateway.",
 			"watermarkText": "Enter full URL such as www.contoso.com",
 			"required": false
@@ -27,6 +27,14 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": false
+		}, {
+			"id": "additional_details",
+			"order": 9,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide details of the issue",
+			"required": false,
+			"useAsAdditionalDetails": true,
+			"hints": "text": "Issue description"
 		}, {
 			"id": "learn_more_text",
 			"order": 3,
