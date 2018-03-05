@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32436964, 32436960,32582828,32582829,32582830,32582825,32582826,32582827,32582831,32582832,32436961,32573483,32582834,32436962,32565734,32565735,32565736,32582833"
 	productPesIds="15922"
-	cloudEnvironments="Public"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
 # Application Gateway URL
@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "app_gw_url",
 			"order": 1,
-			"controlType": "textbox",
+			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the URL for Application Gateway.",
 			"watermarkText": "Enter full URL such as www.contoso.com",
 			"required": false
@@ -34,7 +34,7 @@
 			"displayLabel": "Please provide details of the issue",
 			"required": false,
 			"useAsAdditionalDetails": true,
-			"hints": "Issue description"
+			"hints": "text": "Issue description"
 		}, {
 			"id": "learn_more_text",
 			"order": 3,
