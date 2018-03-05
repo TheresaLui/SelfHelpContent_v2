@@ -34,7 +34,7 @@
 			"displayLabel": "Please provide details of the issue",
 			"required": false,
 			"useAsAdditionalDetails": true,
-			"hints": "text": "Issue description"
+			"hints": "Issue description"
 		}, {
 			"id": "learn_more_text",
 			"order": 3,
