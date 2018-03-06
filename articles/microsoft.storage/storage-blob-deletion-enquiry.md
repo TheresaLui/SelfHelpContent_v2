@@ -16,9 +16,10 @@ cloudEnvironments="public"
 
 # **Blob deletion RCA**
 <!--issueDescription-->
-Microsoft Azure team has concluded the investigation of Blob | Container deletion issue for <Container | Blob name> on <DateTime>. Please see IP Address information for the entity that deleted the Blob | Container and the deletion timestamp.  
-IP Address: <Client IP Address> 
-Deletion Timestamp: <Deletion Timestamp> 
-Regards,
+Microsoft Azure team has concluded the investigation of Blob | Container deletion issue for <!--$StorageObject-->Blob or Container<!--/$StorageObject--> on **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. Please see IP Address information for the entity that deleted the Blob | Container and the deletion timestamp.<br>  
+IP Address: <!--$ClientIp-->Client IP Address<!--/$ClientIp-->.<br>
+Deletion Timestamp: <!--$DeleteTimestamp-->Deletion timestamp<!--/$DeleteTimestamp-->.<br>
+<br>
+Regards,<br>
 Microsoft Azure Team 
 <!--/issueDescription-->
