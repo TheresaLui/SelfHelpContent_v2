@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
+[How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)
 
 <br>
 **Documentation on how to configure authentication with various Identify providers:** <br>
