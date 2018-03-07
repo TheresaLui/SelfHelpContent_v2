@@ -10,20 +10,18 @@
 	diagnosticScenario="DeploymentFailure,"
 	selfHelpType="rca"
 	supportTopicIds="32565644,32565474,32565475,32565476,32565478,32565479,32565480"
-	resourceTags=""   
-	productPesIds="13185"  
+	resourceTags=""
+	productPesIds="13185"
 	cloudEnvironments="public"
 />
-# We detected a recent issue with your deployment attempt:
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your deployment failed for **<!--$csname-->Cloud Service<!--/$csname-->:** at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. There are currently not enough cores of the VM Size Family you requested in the cluster hosting your Cloud Service. If the requested virtual machine size is supported in the region, then the cluster where your Cloud Service is hosted does not have available capacity to complete your request.
+We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions).
 <!--/issueDescription-->
+This issue is commonly caused by one of the following:<br>
 
-To self-mitigate, please deploy a new Cloud Service or change the VM Size for this Cloud Service.<br>
-
-To learn more about self-mitigatation, [follow these instructions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
-
-To learn more about sizes supported in each region, [review this document](https://azure.microsoft.com/regions/services)<br>
+* The virtual machine size requested in the deployment is not supported in the selected region: check if the [virtual machine sizes](https://azure.microsoft.com/regions/services) you selected are supported in the targeted region.<br>
+* If you are updating an existing deployment, the cluster where your cloud service is hosted may have ran out of available capacity to complete your request: Try starting a new deployment for a new cloud service or select a smaller VM size.<br> 
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>

@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32518038"
+	supportTopicIds="32518038,32518039"
 	resourceTags="linux, redhat"
-	productPesIds="15571"
+	productPesIds="15571, 15797"
 	cloudEnvironments="public"
 />
 # Configuration and Setup/Encrypt virtual machine disk

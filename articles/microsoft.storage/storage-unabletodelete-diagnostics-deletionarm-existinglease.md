@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 pageTitle="Lease exists"
 description="Lease exists"
 infoBubbleText="An active lease has been detected"
@@ -9,7 +9,7 @@ displayOrder=""
 articleId="storagedeletionarm-existinglease"
 diagnosticScenario="An active lease has been detected"
 selfHelpType="diagnostics"
-supportTopicIds="32551656"
+supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
 cloudEnvironments="public"

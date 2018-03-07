@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
+
 # Deploy a New VM
 ---
 {

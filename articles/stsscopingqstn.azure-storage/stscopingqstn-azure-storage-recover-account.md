@@ -3,7 +3,7 @@
 	description="Scoping questions for Storage/Delete and Recovery/Recover deleted account"
 	authors="Passaree"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32551674"
+	supportTopicIds="32602701"
 	productPesIds="15629"
 	cloudEnvironments="public, MoonCake"
 />
