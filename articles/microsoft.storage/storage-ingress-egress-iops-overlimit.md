@@ -23,8 +23,7 @@ Incident Title	<SR Title>.<br>
 Service(s) Impacted	<Blob, File, Table or Queue>.<br>
 
 Microsoft Azure team has concluded investigation of performance issue while accessing <Storage Account name> on <DateTime>. The performance issue was due to storage scalability limits being reached.<br>
-The storage account <Storage Account name> reached the following limits between <StartDateTime> and <EndDateTime>:
- 
+The storage account <Storage Account name> reached the following limits between <StartDateTime> and <EndDateTime>:.<br>
 <CHOOSE THE LIMIT TYPE>.<br>
 Limit type: [IOPS, Ingress, Egress].<br>
 <UPDATE THE LIMIT IMPOSED>.<br>
