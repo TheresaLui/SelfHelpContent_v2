@@ -3,7 +3,7 @@
 	description="Errors when connecting to vCenter server from the collector"
 	service="microsoft.migrate"
 	resource="projects"
-	authors="ruturajd"
+	authors="ruturaj"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593686, 32593696"
