@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 Troubleshoot 500 errors or Availability issues:<br>
-[Best Practices and Troubleshooting Guide](https://docs.microsoft.com/azure/app-service/app-service-web-nodejs-best-practices-and-troubleshoot-guide)<br>
+[Best Practices and Troubleshooting Guide][https://docs.microsoft.com/azure/app-service/app-service-web-nodejs-best-practices-and-troubleshoot-guide)<br>
 <br>
 Addressing Slow Performance: <br>
 	- Increase number of node.exe's per instance <br>
@@ -31,14 +31,14 @@ Check for error in deployment logs available at D:\home\site\deployment <br>
  - For general questions on how to [run different tasks during deployment](https://prmadi.com/azure-custom-deployment/) <br>
 
 Development Questions: <br>
- - [Nodejs App request Architecture]() <br>
- - [Nodejs and NPM Versions]() <br>
+ - [Nodejs App request Architecture](https://prmadi.com/nodejs-app-architecture-azure-app-services-windows/) <br>
+ - [Nodejs and NPM Versions](https://prmadi.com/nodejs-npm-versions-azure-webaps/) <br>
 
  Step-by-Step instructions for 
 
 [Running Sample Nodejs App on Azure App Services](https://blogs.msdn.microsoft.com/azureossds/2016/04/18/sample-nodejs-app-on-azure-app-services/)<br>
 [Running Meanjs on Azure App Services](https://prmadi.com/running-mean-js-app-on-azure-app-services/)<br>
 [Running Angularjs App on Azure App Services](https://prmadi.com/running-angular2-app-on-azure-app-services-with-ci-cd/)<br>
-[Running Ghost Blog on Azure App Services] (https://prmadi.com/ghost-blog-on-azure-app-services)<br>
+[Running Ghost Blog on Azure App Services](https://prmadi.com/ghost-blog-on-azure-app-services)<br>
 [Running Parse Server on Azure App Services](https://prmadi.com/parse-on-azure/)<br>
 [Running React + nodejs on Azure App Services](https://blogs.msdn.microsoft.com/reactjsnodejsazure/2017/08/01/reactjs-nodejs-express-azure-web-app/)
