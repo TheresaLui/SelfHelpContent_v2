@@ -14,7 +14,7 @@ productPesIds="16459"
 cloudEnvironments="public"
 />
 
-# **Blob deletion RCA**
+# **Blob | Container deletion RCA**
 <!--issueDescription-->
 Microsoft Azure team has concluded the investigation of Blob | Container deletion issue for **<!--$StorageObject-->Blob or Container<!--/$StorageObject-->** under **<!--$AccountName-->Storage Account<!--/$AccountName-->** on **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. Please see IP Address information for the entity that deleted the Blob | Container and the deletion timestamp.<br>  
 IP Address: **<!--$ClientIp-->Client IP Address<!--/$ClientIp-->**<br>
