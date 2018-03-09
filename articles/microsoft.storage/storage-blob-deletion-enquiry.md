@@ -8,9 +8,9 @@ displayOrder=""
 articleId="Storagev2insights_Blob_deletion_enquiry_RCA"
 diagnosticScenario="Blob Deletion"
 selfHelpType="diagnostics"
-supportTopicIds="32602730"
+supportTopicIds=""
 resourceTags="storage"
-productPesIds="16459"
+productPesIds=""
 cloudEnvironments="public"
 />
 

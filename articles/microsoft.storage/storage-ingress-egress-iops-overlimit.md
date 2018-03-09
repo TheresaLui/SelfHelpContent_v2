@@ -8,9 +8,9 @@ displayOrder=""
 articleId="Storagev2insights_ingress_egress_IOPS_overlimit"
 diagnosticScenario="Storage IOPS overlimit"
 selfHelpType="diagnostics"
-supportTopicIds="32602726,32602727,32602761,32602762,32602885"
+supportTopicIds=""
 resourceTags="storage"
-productPesIds="16459"
+productPesIds=""
 cloudEnvironments="public"
 />
 

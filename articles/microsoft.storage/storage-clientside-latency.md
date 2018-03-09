@@ -9,9 +9,9 @@ displayOrder=""
 articleId="Storagev2insights_Clientside_Latency"
 diagnosticScenario="Clientside Latency"
 selfHelpType="diagnostics"
-supportTopicIds="32602726,32602727,32602761,32602762,32602885"
+supportTopicIds=""
 resourceTags="windows"
-productPesIds="16459"
+productPesIds=""
 cloudEnvironments="public"
 />
 
