@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
+This issue occurs if the user tries to enroll more devices than they are allowed to.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If the user is at the maximum amount of devices enrolled, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
 
 
 
