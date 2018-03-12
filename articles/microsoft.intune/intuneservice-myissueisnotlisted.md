@@ -1,8 +1,8 @@
 ﻿<properties 
 	pageTitle="My issue is not listed"
-	description="My issue is not listed" 
+	description="My issue is not listed"
 	service="microsoft.intune"
-	resource="intune" 
+	resource="intune"
 	documentationCenter=""
 	authors="mackie1604"
 	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp"
