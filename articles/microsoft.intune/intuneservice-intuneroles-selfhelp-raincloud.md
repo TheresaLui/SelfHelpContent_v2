@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-Ensure the Intune role you are assigned has the “Organization | Read” permission.  For more information please review this [documentation](https://docs.microsoft.com/intune/role-based-access-control).
+Ensure the Intune role you are assigned has the "Organization | Read" permission.  For more information please review this [documentation](https://docs.microsoft.com/intune/role-based-access-control).
