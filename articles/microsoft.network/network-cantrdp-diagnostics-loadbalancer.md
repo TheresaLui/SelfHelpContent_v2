@@ -1,13 +1,13 @@
 <properties
-pageTitle="BlockAll"
-description="BlockAll"
-infoBubbleText="BlockAll"
+pageTitle="LoadBalancer"
+description="LoadBalancer"
+infoBubbleText="LoadBalancer"
 service="microsoft.network"
 resource="virtualnetworks"
 authors="chadmath"
 displayOrder=""
-articleId="CantRDP_BlockAll"
-diagnosticScenario="BlockAll"
+articleId="CantRDP_LoadBalancer"
+diagnosticScenario="LoadBalancer"
 selfHelpType="diagnostics"
 supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
@@ -15,8 +15,9 @@ productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
 cloudEnvironments="public"
 />
 # Connectivity Diagnostics Result
+
 <!--issueDescription-->
-Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because there is no security rule defined to allow this traffic. By default, security groups block all traffic when there is no security rule matching the traffic. If the access control (security rules) result is not desired, view the Effective Security Rules to determine if the addition or modification of a customer-defined security rule is required.
+## **Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is the Azure Load Balancer service. This rule is static in the Azure platform to allow the Azure Load Balancer service to communicate with VMs.
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
 2. Click Browse > Network Interface.
 3. Select the Network Interface of your VM
