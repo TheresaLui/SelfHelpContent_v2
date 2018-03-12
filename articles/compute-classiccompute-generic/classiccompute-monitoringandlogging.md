@@ -20,5 +20,5 @@
 [Activity Logs in the new portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs)<br> 
 [How to enable Crypto API logging to troubelshoot Certificate\SSL issues](https://blogs.msdn.microsoft.com/benjaminperkins/2013/09/30/enable-capi2-event-logging-to-troubleshoot-pki-and-ssl-certificate-issues/)<br> 
 [IIS Logs stops writing?](https://blogs.msdn.microsoft.com/cie/2013/12/21/iis-logs-stops-writing-in-cloud-service/)<br> 
-[How to archive the Activity Logs in Azure Portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-archive-activity-log#log-profile) 
+[How to archive the Activity Logs in Azure Portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-archive-activity-log#log-profile)<br>
 
