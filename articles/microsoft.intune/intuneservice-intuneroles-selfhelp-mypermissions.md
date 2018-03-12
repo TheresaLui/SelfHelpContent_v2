@@ -12,8 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# I seem to have too many permissions for the role I’m assigned in Intune
+# I seem to have too many permissions for the role I'm assigned in Intune
 
 ## **Recommended steps**
 
-To determine what permissions your user account has assigned to it please run the “My permissions” report.
+To determine what permissions your user account has assigned to it please run the "My permissions" report.
