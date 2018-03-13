@@ -17,7 +17,7 @@ cloudEnvironments="public"
 # Connectivity Diagnostics Result
 
 <!--issueDescription-->
-## **Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is the Azure Load Balancer service. This rule is static in the Azure platform to allow the Azure Load Balancer service to communicate with VMs.
+Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is the Azure Load Balancer service. This rule is static in the Azure platform to allow the Azure Load Balancer service to communicate with VMs.
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
 2. Click Browse > Network Interface.
 3. Select the Network Interface of your VM

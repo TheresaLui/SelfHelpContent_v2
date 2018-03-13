@@ -17,6 +17,6 @@ cloudEnvironments="public"
 # Connectivity Diagnostics Result
 
 <!--issueDescription-->
-## **Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is APIPA. This rule is static in the Azure platform to allow the APIPA address as a source for traffic to VMs and cannot be changed.
+Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is APIPA. This rule is static in the Azure platform to allow the APIPA address as a source for traffic to VMs and cannot be changed.
  <br>
 <!--/issueDescription-->

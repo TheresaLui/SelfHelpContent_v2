@@ -17,7 +17,7 @@ cloudEnvironments="public"
 # Connectivity Diagnostics Result
 
 <!--issueDescription-->
-## **Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> traffic at the routing layer using a default rule. If the routing result is not desired, view the Effective routes to determine which tunnel is advertising a CIDR prefix covering this source IP address. Tunnels may include: VPN tunnels, VNet Peering, VNet Service Tunneling, or Forced Tunneling (Default Route) configuration. To view the Effective routes: 
+Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> traffic at the routing layer using a default rule. If the routing result is not desired, view the Effective routes to determine which tunnel is advertising a CIDR prefix covering this source IP address. Tunnels may include: VPN tunnels, VNet Peering, VNet Service Tunneling, or Forced Tunneling (Default Route) configuration. To view the Effective routes: 
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
 2. Click Browse > Network Interface.
 3. Select the Network Interface of your VM

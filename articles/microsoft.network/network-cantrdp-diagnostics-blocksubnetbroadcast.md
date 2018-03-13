@@ -17,6 +17,6 @@ cloudEnvironments="public"
 # Connectivity Diagnostics Result
 
 <!--issueDescription-->
-## **Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is a broadcast to the subnet. Sending broadcast traffic is not supported in the Azure Platform. It cannot be enabled.
+Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is a broadcast to the subnet. Sending broadcast traffic is not supported in the Azure Platform. It cannot be enabled.
  <br>
 <!--/issueDescription-->
