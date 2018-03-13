@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 
