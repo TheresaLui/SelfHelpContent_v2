@@ -11,9 +11,9 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
-# Site Recovery (VMware vCenter to Azure)/Add/register configuration server <br>
+# Site Recovery (VMware vCenter to Azure)/Add/register configuration server
 
-## **Recommended Documents** <br>
+## **Recommended Documents**
 
 **VMware to Azure** </br>
 - [[VMWare to Azure] How to **install** new instance of Configuration Server using OVF template for VMWare?](https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template)</br>
