@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="Admin is unable to configure MAM policies"
-    description="Admin is unable to configure MAM policies"
+    pageTitle="Admin is unable to configure app protection policies"
+    description="Admin is unable to configure app protection policies"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# Admin is unable to configure MAM policies
+# Admin is unable to configure app protection policies
 
 ## **Recommended steps**
 The admin must have one of the following roles:
@@ -26,4 +26,4 @@ The admin must have one of the following roles:
 
 ## **Recommended documents**
 
-[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+[Get ready to configure App Protection policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)

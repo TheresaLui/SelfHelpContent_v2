@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="App reporting by user does not show new targeted users for the MAM policy"
-    description="App reporting by user does not show new targeted users for the MAM policy"
+    pageTitle="App reporting by user does not show new targeted users for the app protection policy"
+    description="App reporting by user does not show new targeted users for the app protection policy"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# App reporting by user does not show new targeted users for the MAM policy
+# App reporting by user does not show new targeted users for the app protection policy
 
 ## **Recommended steps**
 It can take up to 24 hours for a new targeted user to show up in reports. Policy changes/updates can take up to 8 hours to apply.<br>

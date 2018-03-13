@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="MAM policy is not working for Apple DEP devices"
-    description="MAM policy is not working for Apple DEP devices"
+    pageTitle="App protection policy is not working for Apple DEP devices"
+    description="App protection policy is not working for Apple DEP devices"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# MAM policy is not working for Apple DEP devices
+# App protection policy is not working for Apple DEP devices
 
 ## **Recommended steps**
 Please ensure that you are using User Affinity with the Apple Device Enrollment Program (DEP). User Affinity is required for any app that requires user authentication under DEP.

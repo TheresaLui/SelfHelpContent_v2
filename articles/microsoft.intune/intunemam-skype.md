@@ -1,6 +1,6 @@
-<properties 
-    pageTitle="MAM policies are not working for Skype for Business on iOS and Android devices"
-    description="MAM policies are not working for Skype for Business on iOS and Android devices"
+﻿<properties 
+    pageTitle="app protection policies are not working for Skype for Business on iOS and Android devices"
+    description="app protection policies are not working for Skype for Business on iOS and Android devices"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# MAM policies are not working for Skype for Business on iOS and Android devices
+# app protection policies are not working for Skype for Business on iOS and Android devices
 
 ## **Recommended steps**
 You have to set up Skype for Business with modern authentication. Follow these steps:

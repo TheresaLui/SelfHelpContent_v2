@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="MAM policies are not working for any supported Office app for a user"
-    description="MAM policies are not working for any supported Office app for a user"
+    pageTitle="App protection policies are not working for any supported Office App for a user"
+    description="App protection policies are not working for any supported Office App for a user"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,10 +12,10 @@
     cloudEnvironments="public"
  />
 
-# MAM policies are not working for any [supported](https://www.microsoft.com/cloud-platform/microsoft-intune-partners) Office App for a user
+# App protection policies are not working for any supported Office App for a user
 
 ## **Recommended steps**
-Confirm that the user is licensed for Intune.
+The user does not have the proper Intune or EMS license.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [Azure Portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the Office 365 Admin Center](https://docs.microsoft.com/intune/licenses-assign).
 
 ## **Recommended documents**
 
