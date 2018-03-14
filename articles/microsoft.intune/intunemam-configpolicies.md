@@ -17,12 +17,8 @@
 ## **Recommended steps**
 The admin must have one of the following roles:
 
-1. Global administrator<br>
-   Set up in [Office Portal](http://portal.office.com/)
-2. Owner<br>
-   Set up in [Azure Portal](https://portal.azure.com/)
-3. Contributor<br>
-   Set up in [Azure Portal](https://portal.azure.com/)
+Global administrator, Owner or Contributor.  You can configure these roles in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users)
+
 
 ## **Recommended documents**
 
