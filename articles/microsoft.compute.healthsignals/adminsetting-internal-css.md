@@ -16,14 +16,11 @@ cloudEnvironments="public"
 />
 
 
-# Built-in Administrator account has issues
+# Built-in Administrator account is disabled
+
 <!--issueDescription-->
-Built-in Administrator account is disabled
-<!--/issueDescription-->
-
-## **Customer Ready RCA**
-
 The account you are using to for RDP connection, is currently disabled.
+<!--/issueDescription-->
 
 Please note, if the Client OS machines is migrated from OnPrem or deployed from gallery, the built-in administrator account is sometimes not enabled by default in the image.
 
