@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# configuration and management/creating or deleting web app
+# Configuration and management/creating or deleting web app
 
 ## **Recommended documents**
 

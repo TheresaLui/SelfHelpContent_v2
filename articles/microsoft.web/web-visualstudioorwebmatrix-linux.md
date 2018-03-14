@@ -15,4 +15,5 @@
 # Visual studio
 
 ## **Recommended steps**
- [If you're deploying using Web Deploy, set WEBSITE_WEBDEPLOY_USE_SCM to false](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#NoSCMDeploy) 
+ 
+ If you're deploying using Web Deploy [set WEBSITE_WEBDEPLOY_USE_SCM to false](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#NoSCMDeploy)

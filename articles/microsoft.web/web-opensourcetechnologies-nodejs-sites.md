@@ -16,8 +16,9 @@
 
 ## **Recommended documents**
 Troubleshoot 500 errors or Availability issues:<br>
-[Best Practices and Troubleshooting Guide][https://docs.microsoft.com/azure/app-service/app-service-web-nodejs-best-practices-and-troubleshoot-guide)<br>
+* [Best Practices and Troubleshooting Guide](https://docs.microsoft.com/azure/app-service/app-service-web-nodejs-best-practices-and-troubleshoot-guide)<br>
 <br>
+
 Addressing Slow Performance: <br>
 	- Increase number of node.exe's per instance <br>
 	- Disable Session Affinity (Sharing load with all serves equally) <br>
