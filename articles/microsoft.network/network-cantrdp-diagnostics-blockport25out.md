@@ -8,11 +8,11 @@ authors="chadmath"
 displayOrder=""
 articleId="CantRDP_BlockPort25Out"
 diagnosticScenario="BlockPort25Out"
-selfHelpType="diagnostic"
+selfHelpType="Diagnostic"
 supportTopicIds=
 resourceTags="windows"
 productPesIds=
-cloudEnvironments="public"
+cloudEnvironments="Public"
 />
 # Connectivity Diagnostics Result
 <!--issueDescription-->
