@@ -8,11 +8,11 @@ authors="chadmath"
 displayOrder=""
 articleId="CantRDP_DefaultInDenyAll"
 diagnosticScenario="DefaultInDenyAll"
-selfHelpType="diagnostic"
+selfHelpType="Diagnostic"
 supportTopicIds=
 resourceTags="windows"
 productPesIds=
-cloudEnvironments="public"
+cloudEnvironments="Public"
 />
 # Connectivity Diagnostics Result
 
