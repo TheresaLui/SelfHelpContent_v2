@@ -8,11 +8,11 @@ authors="chadmath"
 displayOrder=""
 articleId="CantRDP_MAC REWRITE"
 diagnosticScenario="MAC REWRITE"
-selfHelpType="diagnostics"
-supportTopicIds="32511135, 32411835, 32584250, 32584252"
+selfHelpType="Diagnostic"
+supportTopicIds=""
 resourceTags="windows"
-productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
-cloudEnvironments="public"
+productPesIds=""
+cloudEnvironments="Public"
 />
 # Connectivity Diagnostics Result
 
