@@ -18,8 +18,8 @@
 
 Please note - MDM Authority can be changed without opening a support case.  Please review the following documentation to assist in changing your MDM authority.
 
-[Change MDM Authority from Config Manager to Intune standalone](https://docs.microsoft.com/sccm/mdm/deploy-use/migrate-change-mdm-authority)
-[Change MDM Authority from Intune standalone to Config Manager](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)
+[Change MDM Authority from Config Manager to Intune standalone](https://docs.microsoft.com/sccm/mdm/deploy-use/migrate-change-mdm-authority)<br>
+[Change MDM Authority from Intune standalone to Config Manager](https://docs.microsoft.com/intune-classic/deploy-use/prerequisites-for-enrollment#what-to-do-if-you-choose-the-wrong-mdm-authority-setting)<br>
 
 ## **Recommended documents**
 
