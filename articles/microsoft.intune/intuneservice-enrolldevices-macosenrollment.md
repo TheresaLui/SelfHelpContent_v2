@@ -20,6 +20,8 @@
 
 * [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1)<br>
 
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+
 ## **Recommended documents**
 
 [Troubleshoot device enrollment in Intune](https://docs.microsoft.com/intune/troubleshoot/troubleshoot-device-enrollment-in-intune)<br>
