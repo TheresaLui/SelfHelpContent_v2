@@ -15,7 +15,7 @@
 # Failover and Failback Azure VM between Azure regions.
 ## **Recommended steps**
 - [How to **Failover and Failback Azure VMs** between Azure regions?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)<br>
-- [How to **retain fixed IP address** after failover](https://docs.microsoft.com/azure/site-recovery/concepts-on-premises-to-azure-networking#retaining-ip-addresses)<br>
+- [How to **retain fixed IP address** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)<br>
 - [How to **assign new IP address** to a VM after failover](https://azure.microsoft.com/blog/networking-infrastructure-setup-for-microsoft-azure-as-a-disaster-recovery-site/)<br>
 - [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)<br>
 - [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)<br>
