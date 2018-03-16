@@ -34,7 +34,7 @@ The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/403980
 
 Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 

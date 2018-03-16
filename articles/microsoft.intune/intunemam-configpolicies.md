@@ -19,7 +19,7 @@ The admin must have one of the following roles:
 
 Global administrator, Owner or Contributor.  You can configure these roles in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users)
 
-Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
