@@ -1,13 +1,13 @@
 <properties
-pageTitle="VM Health Signal"
+pageTitle="Firewall Not running"
 description="Firewall Setting"
-infoBubbleText="Firewall"
+infoBubbleText="Firewall not running"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
 displayOrder=""
 articleId="vmhealthsignal_16f84eeb-3655-45bb-a60d-2839f159fbf4"
-diagnosticScenario="Firewall Setting"
+diagnosticScenario="Firewall Misconfigured"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
@@ -15,9 +15,9 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Guest VM Health Signal Insight
+# Windows Firewall is not running
+
 <!--issueDescription-->
-## **Windows Firewall is not running**
 Windows Firewall must be running to have connectivity to the virtual machine
 <!--/issueDescription-->
 
