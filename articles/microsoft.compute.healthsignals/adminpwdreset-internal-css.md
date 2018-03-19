@@ -26,8 +26,8 @@ Built-in Administrator account password has expired
 The password of the built-in administrator account has expired so RDP access using this account is unavailable.
 
 Below are articles with detailed steps to reset the password through Azure Portal/PowerShell:
-* [Reset RDP password](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/reset-rdp)
-* [Reset local password without Azure Guest agent](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/reset-local-password-without-agent)
+* [Reset RDP password](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp)
+* [Reset local password without Azure Guest agent](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)
 
 
 ## **Internal**
