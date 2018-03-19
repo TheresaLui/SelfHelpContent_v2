@@ -17,6 +17,7 @@ cloudEnvironments="public"
 
 
 # Built-in Administrator account has issues
+
 <!--issueDescription-->
 Built-in Administrator account is disabled
 <!--/issueDescription-->
@@ -25,7 +26,7 @@ Built-in Administrator account is disabled
 
 The user account being used for the RDP connection is currently disabled.
 
-In a few cases w.r.t VMs migrated from On-prem or created specialized disks, the built-in administrator account is sometimes disabled.
+Typically this has been observed in VMs migrated from On-prem or created from specialized disks.
 
 Push the following script using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
 
