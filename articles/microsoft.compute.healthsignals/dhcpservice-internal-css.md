@@ -1,5 +1,5 @@
 <properties
-pageTitle="VM Health Signal"
+pageTitle="DHCP not running"
 description="DHCP Service not running"
 infoBubbleText="DHCP Service not running"
 service="microsoft.compute"
@@ -15,20 +15,19 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Guest VM Health Signal Insight
+# DHCP Client service is not running
 <!--issueDescription-->
-## **DHCP Client service is not running and hence RDP connectivity is impacted**
 
-The DHCP service is not running on the Virtual Machine. This could  happen due to:
+The DHCP service is not running on the Virtual Machine. This could  happen due to one of the below reasons:
 
-1. DHCP service was set to disabled
-    <br> The VM screenshot shows the OS fully loaded and waiting for the credentials
+1. The service was set to disabled
 
-2. DHCP is crashing
-    <br> If you pull the Guest OS Logs, you'll see that the VM is not starting the DHCP service
+2. The service is crashing
 
-3. DHCP is hanging
-    <br> On the Guest OS logs, you could find that the DHCP service is hanging or crashing or evidence that some other services are failing to start due to the DHCP service is disabled
+3. The Service is hung
+
+4. A dependent service is crashing/hung due to which this service is impacted as well.
+
 <!--/issueDescription-->
 
 ## **Recommended Steps - Internal**

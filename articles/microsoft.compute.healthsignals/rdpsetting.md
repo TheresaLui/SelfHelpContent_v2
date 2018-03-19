@@ -1,7 +1,7 @@
 <properties
-pageTitle="VM Health Signal"
+pageTitle="RDP Disabled"
 description="RDP Setting"
-infoBubbleText="RDP"
+infoBubbleText="RDP Disabled"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -15,10 +15,11 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Guest VM Health Signal Insight
+# RDP Disabled
 <!--issueDescription-->
-## **RDP setting is not enabled**
-The virtual machine seems to have disabled RDP.
+The Remote Desktop has been set to disabled on the VM.
+
+The REG_DWORD value `fDenyTSConnections` of the registry key  `HKLM\System\CurrentControlSet\Control\Terminal Server` is set to 1.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -1,5 +1,5 @@
 <properties
-pageTitle="VM Health Signal"
+pageTitle="Admin Account Disabled"
 description="Administrator Setting"
 infoBubbleText="Administrator"
 service="microsoft.compute"
@@ -16,13 +16,17 @@ cloudEnvironments="public"
 />
 
 
-# Built-in Administrator account is disabled
+# Built-in Administrator account has issues
 
 <!--issueDescription-->
-The account you are using to for RDP connection, is currently disabled.
+Built-in Administrator account is disabled
 <!--/issueDescription-->
 
-Please note, if the Client OS machines is migrated from OnPrem or deployed from gallery, the built-in administrator account is sometimes not enabled by default in the image.
+## **Customer Ready RCA**
+
+The user account being used for the RDP connection is currently disabled.
+
+Typically this has been observed in VMs migrated from On-prem or created from specialized disks.
 
 Push the following script using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
 

@@ -1,7 +1,7 @@
 <properties
-pageTitle="VM Health Signal"
+pageTitle="RDP Licensing"
 description="RDP Licensing"
-infoBubbleText="RDP Licensing"
+infoBubbleText="RDP License grace period expired"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -15,17 +15,15 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Guest VM Health Signal Insight
+# RDS licensing grace period expired
 <!--issueDescription-->
-## **Grace period of RDS Client Access Licenses required to RDP has expired**
+Grace period of RDS Client Access Licenses required to RDP has expired
 
 Please check for following symptoms:
-1. The VM screenshot shows the OS fully loaded and waiting for the credentials
+1. Upon accessing the VM via below error is seen:<br>
+    `The remote session was disconnected because there are no remote desktop license servers available to provide a license`
 
-2. If you try to RDP the VM either internally or externally, you'll get the message:
-    <br>​The remote session was disconnected because there are no remote desktop license servers available to provide a license
-
-3. If use an administrative session, you are able to logging normally
+3. If use an administrative session `mstsc /admin`, you are able to log-in.
 <!--/issueDescription-->
 
 ## **Recommended Steps - Internal**
@@ -49,6 +47,6 @@ The Remote Desktop License server is unreachable to provide any license to start
 
 Windows Remote Desktop Service allows two concurrent remote administrative connections through the Windows built-in RDP which do not consume RD licenses.
 
-However, any connection through third party RDS protocol (for example, Citrix XenApp RDP proxy protocol extension) consumes a RD license, even though the connection is made using “mstsc /admin”.
+However, any connection through third party RDS protocol (for example, Citrix XenApp RDP proxy protocol extension) consumes a RD license, even though the connection is made using `mstsc /admin`.
 
 This is by design with Citrix XenApp using their own RDS protocol.
