@@ -25,7 +25,7 @@ Terminal Service is not running and hence RDP connectivity is impacted
 
 1. Before proceeding further please ensure to take a back up of the OS Disk. This will help if a rollback is required <br>
   * For managed disk VMs, please navigate to the [snapshots blade](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Compute%2Fsnapshots) to create a snapshot of the OS disk. For details instructions, see the article [Create a snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)<br>
-  * For unmanaged VMs save a copy of the OS disk by following the instructions at [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
+  * For unmanaged VMs save a copy of the OS disk by following the instructions at [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
 2. The VM should have network connectivity though the terminal service is not running.
 3. So to enable the terminal service and start it, connect to the VM from another VM in the same virtual network via [remote powershell](https://docs.microsoft.com/azure/virtual-machines/windows/winrm) or using [PsExec](https://docs.microsoft.com/sysinternals/downloads/pstools)
 4. The start mode of the term service needs to be changed to auto and the service need to be started.
