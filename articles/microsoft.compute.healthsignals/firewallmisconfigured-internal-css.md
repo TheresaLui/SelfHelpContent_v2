@@ -26,7 +26,7 @@ Guest OS firewall profiles were setup to block all inbound connections and this 
 ## **Customer Ready Mitigation Steps**
 
 1. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the keep the disks option when you do this.
-2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
+2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
 3. Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal.](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal)
 4. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 5. On the troubleshooting machine, start registry editor and locate the subtree `HKEY_LOCAL_MACHINE` and click it.
