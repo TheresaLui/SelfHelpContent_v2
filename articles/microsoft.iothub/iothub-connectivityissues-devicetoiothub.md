@@ -17,6 +17,5 @@
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
 [Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitor-resource-health)<br>
-[Send cloud-to-device messages from IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-c2d)<br>
-[IoT Hub operations monitoring](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-operations-monitoring)<br>
-[Requesting Public IP Address of the IoTHub (nslookup <IoTHubName>.azure-devices.net)](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-outbound-connections)
+[Send cloud-to-device messages from IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-c2d)
+
