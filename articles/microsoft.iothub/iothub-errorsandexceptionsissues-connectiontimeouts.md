@@ -2,7 +2,7 @@
 	pageTitle="Connection Timeout issues"
 	description="Connection Timeout issues"
 	service="microsoft.iothub"
-	resource="IoT Devices"
+	resource="IoTHub"
 	authors="v-sapsax"
 	displayOrder=""
 	selfHelpType="generic"

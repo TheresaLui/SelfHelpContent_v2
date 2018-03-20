@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions"
 	description="Errors and Exceptions"
 	service="microsoft.iothub"
-	resource="namespaces"
+	resource="IoTHub"
 	authors="v-sapsax"
 	displayOrder=""
 	selfHelpType="generic"

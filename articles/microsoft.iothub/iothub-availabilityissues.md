@@ -2,7 +2,7 @@
 	pageTitle="Availability issues"
 	description="Availability issues"
 	service="microsoft.iothub"
-	resource="namespaces"
+	resource="IoTHub"
 	authors="v-sapsax"
 	displayOrder=""
 	selfHelpType="generic"

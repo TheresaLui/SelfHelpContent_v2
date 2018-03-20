@@ -2,7 +2,7 @@
 	pageTitle="Problem related to a region issues"
 	description="Problem related to a region issues"
 	service="microsoft.iothub"
-	resource="Status Dashboard"
+	resource="IoTHub"
 	authors="v-sapsax"
 	displayOrder=""
 	selfHelpType="generic"

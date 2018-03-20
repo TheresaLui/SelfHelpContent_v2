@@ -2,7 +2,7 @@
 	pageTitle="Service unavailable issues"
 	description="Service unavailable issues"
 	service="microsoft.iothub"
-	resource="Service"
+	resource="IoTHub"
 	authors="v-sapsax"
 	displayOrder=""
 	selfHelpType="generic"
