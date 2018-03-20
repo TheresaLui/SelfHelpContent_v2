@@ -6,7 +6,7 @@
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551652"
+	supportTopicIds="32602699"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-**Call support when you need to**
+**Call support when you need to**<br>
 - Move your resources to a new Azure account (and [Active Directory tenant](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#services-that-enable-move)).<br>
-- Move classic resources but are having trouble with the [limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).
+- Move classic resources but are having trouble with the [limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).<br>
 
-**Move Resources Between RG or Subscription**
+**Move Resources Between RG or Subscription**<br>
 - Move Resource Manager resources.<br>
 - Move classic resources according to the [classic deployment limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations)<br>
 

@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565569"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Manage My Hub/How do I achieve disaster recovery

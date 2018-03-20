@@ -1,7 +1,7 @@
 <properties
 pageTitle="VM in reboot loop"
 description="Virtual machine failed to boot with error code 0xC00002E3"
-infoBubbleText="VM is found to be in a reboot loop."
+infoBubbleText="VM is in a reboot loop. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
@@ -17,15 +17,15 @@ cloudEnvironments="public"
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine [vmname]<!--($vmname)-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) **[vmname]**<!--($vmname)-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002E3**. The issue occurs when the SAM registry hive is missing or corrupt.<br>
+## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002e3**. The issue occurs when the SAM registry hive is missing or corrupt.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps to attach your OS disk to another VM.
+To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps.
 
 1. Please make a note of the File name and the path from the screenshot.
-2. Delete the virtual machine [vmname]<!--($vmname)-->. Make sure that you select the Keep the disks option when you do this.
+2. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the Keep the disks option when you do this.
 3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
 4. Attach the OS disk of the deleted VM <!--($vmname)--> as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 5. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.

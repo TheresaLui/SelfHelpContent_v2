@@ -2,8 +2,8 @@
 	pageTitle="MFA Server (On-premises)/User portal"
 	description="MFA Server (On-premises)/User portal"
 	service="microsoft.multifactorauthentication"
-	resource="Microsoft_AAD_IAM"
-	authors="yossib"
+	resource=""
+	authors="kgremban"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32336324"
@@ -27,5 +27,5 @@ If you're troubleshooting the mobile app web service, test it by browsing to the
 
 ## **Recommended documents**
 
-[Deploy the user portal for the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-portal)  
-[Enable mobile app authentication with Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-webservice)  
+- [Deploy the user portal for the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-portal)  
+- [Enable mobile app authentication with Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-server-webservice)  

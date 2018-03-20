@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I can't delete my storage account"
 	description="I can't delete my storage account"
 	service="microsoft.storage"
@@ -6,7 +6,7 @@
 	authors="passaree"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32551644,32551656,32551657,32551665"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"

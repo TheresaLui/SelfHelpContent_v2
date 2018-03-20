@@ -1,21 +1,19 @@
 <properties
-	pageTitle="worker role (paas)/configration and management/startup task configuration"
-	description="worker role (paas)/configration and management/startup task configuration"
+	pageTitle="worker role (paas)/development/visual studio, sdk and emulators"
+	description="worker role (paas)/development/visual studio, sdk and emulators"
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32553318"
+	supportTopicIds="32422596"
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
 />
 
-# worker role (paas)/configration and management/startup task configuration
+# worker role (paas)/development/visual studio, sdk and emulators
 
 ## **Recommended documents**
-[Read about StartUp tasks and their implementation parameters](https://azure.microsoft.com/documentation/articles/cloud-services-startup-tasks/)<br>
-[Most commonly used StartUp Tasks](https://azure.microsoft.com/documentation/articles/cloud-services-startup-tasks-common/)<br>
-[How to disable SSL\TLS via StartUp Task](https://azure.microsoft.com/blog/how-to-disable-ssl-3-0-in-azure-websites-roles-and-virtual-machines)
-
+[Supported Project Templates for Cloud Services](https://docs.microsoft.com/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service#supported-project-templates)<br>
+[Configure an Azure Cloud Service Project through Visual Studio](https://docs.microsoft.com/azure/vs-azure-tools-configuring-an-azure-project)

@@ -1,16 +1,16 @@
- <properties
-	pageTitle="Problem deleting an Azure AD tenant"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="ElizavetaKuzmenko"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565595"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+<properties
+    pageTitle="Problem deleting an Azure AD tenant"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565595"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Problem deleting an Azure AD tenant 
 
@@ -22,9 +22,13 @@
 
 ## **Recommended documents**
 
-* [How Azure subscriptions are associated with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory) 
+* [How Azure subscriptions are associated with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory)
+
 * [Deleting Users from Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal)
-* [Removing applications in the directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#removing-an-application) 
+
+* [Removing applications in the directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#removing-an-application)
+
 * [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+
 * [Additional information on deleting an Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administer#how-can-i-delete-an-azure-ad-directory) 
 

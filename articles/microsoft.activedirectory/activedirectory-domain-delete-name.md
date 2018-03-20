@@ -1,16 +1,16 @@
 <properties
-	pageTitle="I can't delete my domain name"
-	description="Azure Active Directory domains troublehooter"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="Jeffsta-MSFT"
-	displayOrder="4295"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="directory_domain"
-	productPesIds=""
-	cloudEnvironments="public"
-/>
+    pageTitle="I can't delete my domain name"
+    description="Azure Active Directory domains troublehooter"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder="4295"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="directory_domain,domain_directory"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
 # I can't delete my domain name
 

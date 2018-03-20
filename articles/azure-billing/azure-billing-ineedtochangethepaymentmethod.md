@@ -4,11 +4,11 @@
 	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
-	displayOrder="2"
+	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32454858"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15659"
 	cloudEnvironments="public"
 />
 
@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. [Find out who's the Account Admin](https://docs.microsoft.com/azure/billing-subscription-transfer#whoisaa).
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
 2. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin.
 
@@ -24,10 +24,10 @@
 
 4. On the right side of the page, select **Manage payment methods**.
 
-If you want to update payment method to 'invoice' (direct debit), please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can run a credit check before approving your request.
+If you want to update payment method to 'invoice' (direct debit), please open a support request so we can run a credit check before approving your request.
 
 ## **Recommended documents**
 
-[Update, change or remove payment info](https://azure.microsoft.com/documentation/articles/billing-how-to-change-credit-card/)<br>
+[Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
-[List of countries in which Azure is available and currencies that can be used to purchase Azure](https://azure.microsoft.com/documentation/articles/billing-countries-and-currencies/)<br>
+[Supported countries and currencies](https://azure.microsoft.com/pricing/faq/)<br>

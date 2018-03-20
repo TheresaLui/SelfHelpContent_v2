@@ -1,18 +1,18 @@
 <properties
-	pageTitle="User and Group Management/Adding Users (B2B)"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="sasubram"
-	displayOrder=""
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
-	productPesIds=""
-	cloudEnvironments="public"
-/>
+    pageTitle="B2B collaboration: I have invited guest users who can't redeem their invitations"
+    description="Azure Active Directory self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="sasubram"
+    displayOrder="786"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
+    productPesIds=""
+    cloudEnvironments="public"
+    />
 
-# I have invited guest users who can't redeem their invitations
+# B2B collaboration: I have invited guest users who can't redeem their invitations
  
 ## **Recommended steps**
 1. First, find out if they received their email. This should not happen very often, but perhaps the invitation email is stuck in their spam folder.
