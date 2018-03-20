@@ -1,4 +1,4 @@
-<properties
+properties
 	pageTitle="VMA RCA"
 	description="RCA - Live Migration"
 	infoBubbleText="Found recent reboot. See details on the right."
@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated Live Migration operation**.
 <!--/issueDescription-->
 
-TThis caused your VM to be unavailable for about 10 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.<br>
+This caused your VM to be unavailable for about 10 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.<br>
 To learn more about our memory-preserving operations, please refer to the following article:<br>
 * [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/)<br>
 
