@@ -13,8 +13,12 @@
 />
 # Configure Backup for Files &Folders using Azure Backup agent
 
-## **Recommended documents**
+## **Recommended Steps**
 
+**Azure Backup service and Microsoft Azure Recovery Services Agent versions do not match (0x1FBD3)**<br>
+If your backup jobs are failing with above error then [follow these steps](https://go.microsoft.com/fwlink/?linkid=229525) to resolve.<br>
+
+## **Recommended Documents**
 - [How to configure Backup for Files and Folders using Azure Backup Agent?](https://docs.microsoft.com/azure/backup/backup-configure-vault)<br>
 - [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements)<br>
 - [How to Restore files to a Windows server or Windows client machine?](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine)<br>
