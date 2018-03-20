@@ -18,7 +18,7 @@ properties
 
 <!--issueDescription-->
 ## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
- 
+
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated Live Migration operation**.
 <!--/issueDescription-->
 
