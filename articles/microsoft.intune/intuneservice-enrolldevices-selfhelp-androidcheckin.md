@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My Android device fails to check in with the Intune service or displays as unhealthy in the Intune admin console
+# My android device fails to check in with the intune service or displays as unhealthy in the intune admin console
 
 ## **Recommended steps**
 

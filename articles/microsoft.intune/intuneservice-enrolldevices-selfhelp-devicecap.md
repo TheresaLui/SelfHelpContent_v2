@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Device Cap Reached
+# Device cap reached
 
 ## **Recommended steps**
 

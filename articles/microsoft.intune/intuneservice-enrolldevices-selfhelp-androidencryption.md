@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My Android device is encrypted but Company Portal says it's not
+# My android device is encrypted but company portal says it's not
 
 ## **Recommended steps**
 

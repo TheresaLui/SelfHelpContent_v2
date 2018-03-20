@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I added a user to an Intune role but they still have full access to the Intune Admin Console
+# I added a user to an Intune role but they still have full access to the Intune admin console
 
 ## **Recommended steps**
 

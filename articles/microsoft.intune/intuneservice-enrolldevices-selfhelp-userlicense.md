@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# User License Type Invalid or User Name Not Recognized
+# User license type invalid or user name not recognized
 
 ## **Recommended steps**
 

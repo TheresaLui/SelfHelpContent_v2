@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
+# Enrolling a windows 10 pc via mdm fails with error code "0x801c0003"
 
 ## **Recommended steps**
 
