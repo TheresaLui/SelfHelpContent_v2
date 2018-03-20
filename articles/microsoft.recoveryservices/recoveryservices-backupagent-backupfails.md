@@ -18,7 +18,7 @@
 
 To resolve common isuess, try one or more of the following steps.
 
-## **Azure Backup service and Microsoft Azure Recovery Services Agent versions do not match (0x1FBD3)** <br>
+**Azure Backup service and Microsoft Azure Recovery Services Agent versions do not match (0x1FBD3)** <br>
 If your backup jobs are failing with above error then [follow these steps](https://go.microsoft.com/fwlink/?linkid=229525) to resolve.<br>
 
 ## **Scheduled backup failed** <br>
