@@ -23,5 +23,5 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 To work around this issue, please increase your quota or service limit using the instructions below:<br>
 
 To learn more about subscritions, please refer to the following articles:<br>
-* [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
-* [How to view your current quota increase your vCPU and Cores](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
+* [How to view your current quota increase your vCPU and Cores](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
+* [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
