@@ -49,5 +49,5 @@ To recover the virtual machine, follow these steps:
 3. In case serial console cannot be accessed, please follow the steps at article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
 
 ## **Recommended documents**
-[How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/boot-diagnostics)<br>
+[How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 [Azure Virtual Machine Serial Console](http://aka.ms/serialconsolehelp)
