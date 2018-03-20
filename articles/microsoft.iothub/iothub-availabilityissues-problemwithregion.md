@@ -3,7 +3,7 @@
 	description="Problem related to a region issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596657"
@@ -15,4 +15,4 @@
 # Problem related to a region issues
 
 ## **Recommended documents**
-[Azure Service Status Dashboard](https://azure.microsoft.com/en-us/status/)
+[Azure Service Status Dashboard](https://azure.microsoft.com/status/)

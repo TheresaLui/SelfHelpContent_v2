@@ -3,7 +3,7 @@
 	description="Availability issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596602"
@@ -15,4 +15,4 @@
 # Availability issues
 
 ## **Recommended documents**
-[Benefits of using the Azure IoT SDKs](https://azure.microsoft.com/en-us/blog/benefits-of-using-the-azure-iot-sdks-in-your-azure-iot-solution/)
+[Benefits of using the Azure IoT SDKs](https://azure.microsoft.com/blog/benefits-of-using-the-azure-iot-sdks-in-your-azure-iot-solution/)

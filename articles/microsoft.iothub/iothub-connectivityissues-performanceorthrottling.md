@@ -3,7 +3,7 @@
 	description="Performance or Throttling issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596652"
@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
-[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitor-resource-health)<br>
-[Scale your IoT hub solution](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-scaling)<br>
-[IoT Hub quotas and throttling](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-quotas-throttling)
+[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)<br>
+[Scale your IoT hub solution](https://docs.microsoft.com/azure/iot-hub/iot-hub-scaling)<br>
+[IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)

@@ -3,7 +3,7 @@
 	description="Setup and configuration issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596666"
@@ -15,4 +15,4 @@
 # Setup and configuration issues
 
 ## **Recommended documents**
-[Lock resources to prevent unexpected changes](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources)
+[Lock resources to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources)

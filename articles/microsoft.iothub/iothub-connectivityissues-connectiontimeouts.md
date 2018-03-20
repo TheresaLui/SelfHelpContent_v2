@@ -3,7 +3,7 @@
 	description="Connection Timeout issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596622"
@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
-[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitor-resource-health)
+[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)

@@ -3,7 +3,7 @@
 	description="Azure Monitor or Resource Health issues"
 	service="microsoft.iothub"
 	resource="IoTHub"
-	authors="v-sapsax"
+	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596615"
@@ -15,4 +15,4 @@
 # Azure Monitor / Resource Health issues
 
 ## **Recommended documents**
-[Understand the logs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitor-resource-health#understand-the-logs)
+[Understand the logs](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#understand-the-logs)
