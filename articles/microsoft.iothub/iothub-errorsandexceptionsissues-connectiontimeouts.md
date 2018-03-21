@@ -5,7 +5,7 @@
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32596620"
 	resourceTags=""
 	productPesIds="15946"
