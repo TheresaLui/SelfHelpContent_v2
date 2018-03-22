@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="VMA RCA"
 	description="RCA - Live Migration"
 	infoBubbleText="Found recent reboot. See details on the right."
