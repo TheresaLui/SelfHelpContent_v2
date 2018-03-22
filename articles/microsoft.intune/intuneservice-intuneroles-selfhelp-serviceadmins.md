@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-Verify the user is not a global administrator, Intune service administrator, sharepoint administrator, or service administrator in the Intune silverlight console.  These administrators have full permissions in the Intune azure portal.  You can check if a user is a Intune silverlight portal service administrator by logging into the [Intune classic portal](https://admin.manage.microsoft.com) and navigating to admin, service administrators.
+Verify the user is not a Global Administrator, Intune Service Administrator, SharePoint Administrator, or Service Administrator in the Intune Silverlight console.  These administrators have full permissions in the Intune Azure Portal.  You can check if a user is a Intune Silverlight Portal Service Administrator by logging into the [Intune Classic Portal](https://admin.manage.microsoft.com) and navigating to Admin, Service Administrators.
 
 

@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-To determine what permissions your user account has assigned to it please run the "my permissions" report.
+To determine what permissions your user account has assigned to it please run the "My permissions" report.

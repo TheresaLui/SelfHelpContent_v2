@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-This error occurs when device restrictions prevent the windows 10 device from enrolling.  For more information on device restrictions and how to configure them please review [this documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set).
+This error occurs when device restrictions prevent the Windows 10 device from enrolling.  For more information on device restrictions and how to configure them please review [this documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set).
 
 

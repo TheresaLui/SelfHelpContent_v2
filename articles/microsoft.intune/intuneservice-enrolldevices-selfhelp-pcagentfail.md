@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-This error occurs when your account certificate has expired.  The account certificate that is used to enroll PC clients last for one year.  Re-download the pc client software package in the Intune Admin Console and it will include an updated certificate.  For more information please review [this documentation](https://docs.microsoft.com/intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune).
+This error occurs when your account certificate has expired.  The account certificate that is used to enroll PC clients last for one year.  Re-download the PC Client software package in the Intune Admin Console and it will include an updated certificate.  For more information please review [this documentation](https://docs.microsoft.com/intune-classic/deploy-use/install-the-windows-pc-client-with-microsoft-intune).
 
 
 
