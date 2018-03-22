@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-The error can occur in the following scenarios.  **1.** Device cap reached.  Unenroll devices for the user and try again.  **2.** If "allow devices to join azure ad" is set to none.  **3.** The device is already enrolled by another user. Confirm if the device is enrolled.  **4.** The device is windows 10 home.  Only windows 10 pro, education and enterprise skus are allowed to join azure active directory.
+The error can occur in the following scenarios.  **1.** Device cap reached.  Unenroll devices for the user and try again.  **2.** If "allow devices to join azure ad" is set to none.  **3.** The device is already enrolled by another user. Confirm if the device is enrolled.  **4.** The device is Windows 10 Home.  Only windows 10 pro, education and enterprise skus are allowed to join azure active directory.
 
 
