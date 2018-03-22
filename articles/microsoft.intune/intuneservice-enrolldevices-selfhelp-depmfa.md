@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Currently MFA(Multi-Factor Authentication) is not supported for Apple DEP enrollment.  Please disable MFA to allow users to enroll devices.
+Currently mfa(multi-factor authentication) is not supported for apple dep enrollment.  Please disable mfa to allow users to enroll devices.
 
 
 
