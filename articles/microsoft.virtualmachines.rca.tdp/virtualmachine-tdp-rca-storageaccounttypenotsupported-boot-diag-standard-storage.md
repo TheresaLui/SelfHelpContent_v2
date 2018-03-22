@@ -17,9 +17,9 @@
 # We ran diagnostics and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the deployment had boot diagnostics enabled using a premium storage account.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because boot diagnostics were enabled and configured to use premium storage account.
 <!--/issueDescription-->
 
-When creating and deploying the virtual machine, verify that the storage account being used for boot diagnostics is standard storage. If multiple storage accounts are available, the action can default to using a storage account that is not of type standard.<br>
+When creating and deploying the virtual machine, verify that the storage account being used for boot diagnostics is standard storage.<br>
 
 For information about how to use boot diagnostics to troubleshoot virtual machines in Azure, see [Windows VM Boot Diagnostics](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics). For information specific to Linux, see [Linux VM Boot Diagnostics](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics).<br>
