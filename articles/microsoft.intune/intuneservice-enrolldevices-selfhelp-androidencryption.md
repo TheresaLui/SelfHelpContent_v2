@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Newer versions of android, particularly starting with v7.0, require a startup passcode to make sure that your device is fully encrypted. Different device manufacturers have varying descriptions and locations for the startup passcode. Most of the time, this setting is referred to as "Secure Startup."  Common solutions are to enable a startup pin or fully encrypt the device.  For more information review [this document](https://docs.microsoft.com/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise-android).
+Newer versions of android, particularly starting with v7.0, require a startup passcode to make sure that your device is fully encrypted. Different device manufacturers have varying descriptions and locations for the startup passcode. Most of the time this setting is referred to as secure startup.  Common solutions are to enable a startup pin or fully encrypt the device.  For more information review [this document](https://docs.microsoft.com/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise-android).
 
 
 

@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also provide resolutions for many common enrollment failures along with issues for policy, apps and other features.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+The [intune troubleshooting portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also provide resolutions for many common enrollment failures along with issues for policy, apps and other features.  Review the troubleshooting portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
 
 

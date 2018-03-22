@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. Ensure you have an Intune or EMS license assigned to the administrator's user account if they are a member of an Intune custom role.  You can assign licenses in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [azure portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the office 365 admin center](https://docs.microsoft.com/intune/licenses-assign).
+1. Ensure you have an Intune or EMS license assigned to the administrator's user account if they are a member of an Intune custom role.  You can assign licenses in the [azure portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [office 365 admin center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [azure portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the office 365 admin center](https://docs.microsoft.com/intune/licenses-assign).
 
 2. Confirm the user does not have a configuration manager license assigned to them.
 
