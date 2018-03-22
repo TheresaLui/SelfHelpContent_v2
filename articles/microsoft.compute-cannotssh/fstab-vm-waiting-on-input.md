@@ -1,7 +1,7 @@
 <properties
 	pageTitle="VM boot error"
 	description="Linux VM waiting on input"
-	infoBubbleText="fstab issue has been found"
+	infoBubbleText="Found a file system table related issue. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="craigwiand"

@@ -9,7 +9,7 @@
 	supportTopicIds="32302681"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # managing/geo-replication

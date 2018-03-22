@@ -3,13 +3,13 @@
 	description="open source technologies/php"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32444083"
 	resourceTags=""
-	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	productPesIds="14748"
+	cloudEnvironments="public, MoonCake"
 />
 
 # open source technologies/php

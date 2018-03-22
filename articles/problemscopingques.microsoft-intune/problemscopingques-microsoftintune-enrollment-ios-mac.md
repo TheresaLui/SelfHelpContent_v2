@@ -15,8 +15,13 @@
 	"title": "Set up iOS and Mac device management",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "What service are you having the issue with?",
+			"id": "learn_more_text",
 			"order": 1,
+			"controlType": "infoblock",
+			"content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li>Review enrollment documentation for <a href='https://docs.microsoft.com/intune/ios-enroll'>iOS</a> and <a href='https://docs.microsoft.com/intune/macos-enroll'>macOS</a></li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li>Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues</li></ul>"
+		},  {
+			"id": "What service are you having the issue with?",
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Select the service impacted",
 			"watermarkText": "Choose your service",
@@ -40,7 +45,7 @@
 			"required": true
 		},  {
 			"id": "iOSMAC_problem_determination",
-			"order": 2,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "What problem are you having?",
 			"watermarkText": "Choose a problem",
@@ -48,17 +53,17 @@
 					"value": "Cannot enroll Apple device(s)",
 					"text": "Cannot enroll Apple device(s)"
 				}, {
-					"value": "Cannot setup my Apple MDM Push Certificate",
-					"text": "Cannot setup my Apple MDM Push Certificate"
+					"value": "Cannot setup Apple MDM Push Certificate",
+					"text": "Cannot setup Apple MDM Push Certificate"
 				}, {
-					"value": "Cannot configure an Apple Configurator Profile",
-					"text": "Cannot configure an Apple Configurator Profile"
+					"value": "Cannot configure Apple Configurator Profile",
+					"text": "Cannot configure Apple Configurator Profile"
 				}, {
 					"value": "Cannot login to Company Portal application to enroll a device",
 					"text": "Cannot login to Company Portal application to enroll a device"
 				}, {
-					"value": "Cannot setup my Apple DEP or Apple School Manager token",
-					"text": "Cannot setup my Apple DEP or Apple School Manager token"
+					"value": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token",
+					"text": "Cannot setup Apple Device Enrollment (DEP) Program or Apple School Manager (ASM) token"
 				}, {
 					"value": "Cannot configure Enrollment Program Profile",
 					"text": "Cannot configure Enrollment Program Profile"
@@ -70,7 +75,7 @@
 			"required": true
 		}, {
 			"id": "problem_who_is_impacted",
-			"order": 3,
+			"order": 6,
 			"controlType": "textbox",
 			"displayLabel": "Who is impacted?",
 			"watermarkText": "Enter UPN, e-mail addresses, serial or IMEI numbers here, if multiple separate by semi-colon",
@@ -82,7 +87,7 @@
 			]
 		}, {
 			"id": "What devices types are impacted?",
-			"order": 4,
+			"order": 7,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select device types that are impacted",
 			"dropdownOptions": [{
@@ -102,24 +107,30 @@
 			"required": false
 		}, {
 			"id": "How are these devices managed?",
-			"order": 5,
+			"order": 8,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "How are these devices managed?",
 			"dropdownOptions": [{
-					"value": "BYOD",
-					"text": "BYOD"
+					"value": "Bring-your-own-device (BYOD)",
+					"text": "Bring-your-own-device (BYOD)"
 				}, {
-					"value": "DEP",
-					"text": "DEP"
+					"value": "Corporate-owned",
+					"text": "Corporate-owned"
 				}, {
-					"value": "Configurator",
-					"text": "Configurator"
+					"value": "Device Enrollment Program (DEP)",
+					"text": "Device Enrollment Program (DEP)"
+				}, {
+					"value": "Apple School Manager (ASM)",
+					"text": "Apple School Manager (ASM)"
+				}, {
+					"value": "Apple Configurator",
+					"text": "Apple Configurator"
 				}
 			],
 			"required": false
 		}, {
 			"id": "How many users are impacted?",
-			"order": 6,
+			"order": 9,
 			"controlType": "dropdown",
 			"displayLabel": "Select how many users are impacted",
 			"watermarkText": "Users impacted",
@@ -140,13 +151,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 7,
+			"order": 10,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": false
 		}, {
 			"id": "problem_details",
-			"order": 8,
+			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",

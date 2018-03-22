@@ -18,11 +18,11 @@
 - [Using Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup)<br>
 - [Back up Files and Folders](https://docs.microsoft.com/azure/backup/backup-try-azure-backup-in-10-mins)
 - [Backup Azure Virtual Machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look)
-- [Recovery Service for Azure Virtual Machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)
+- [Recovery Services for Azure Virtual Machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)
 - [Snapshot of a Blob](https://msdn.microsoft.com/library/azure/hh488361.aspx)<br>
 
 #### **For details about protecting other workloads, try one of these articles:**
-- [SQL Server Backup and Restore with Microsoft Azure Blob Storage Service](https://msdn.microsoft.com/library/jj919148.aspx)
-- [Back up your Windows Server](https://docs.microsoft.com/azure/backup/backup-configure-vault)
-- [Back up application workloads](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)
+- [SQL Server Backup and Restore with Microsoft Azure Blob Storage Service](https://msdn.microsoft.com/library/jj919148.aspx)<br>
+- [Back up your Windows Server](https://docs.microsoft.com/azure/backup/backup-configure-vault)<br>
+- [Back up application workloads](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 

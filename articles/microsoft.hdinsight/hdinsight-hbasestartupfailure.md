@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # HBase Master fails at startup

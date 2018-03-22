@@ -6,7 +6,7 @@
 	authors="rkessler"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32443900"
+	supportTopicIds="32596603"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"

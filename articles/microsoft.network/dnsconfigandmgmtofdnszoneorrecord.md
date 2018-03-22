@@ -17,3 +17,6 @@
 [DNS zones and records](https://docs.microsoft.com/azure/dns/dns-zones-records)<br>
 [How to manage DNS records using the Azure portal](https://docs.microsoft.com/azure/dns/dns-operations-recordsets-portal)<br>
 [Azure DNS troubleshooting guide](https://docs.microsoft.com/azure/dns/dns-troubleshoot)<br>
+[Reverse DNS overview](https://docs.microsoft.com/azure/dns/dns-reverse-dns-overview)<br>
+[Hosting reverse DNS lookup zones in Azure DNS](https://docs.microsoft.com/azure/dns/dns-reverse-dns-hosting)<br>
+[Manage reverse DNS records for Azure services](https://docs.microsoft.com/azure/dns/dns-reverse-dns-for-azure-services)<br>

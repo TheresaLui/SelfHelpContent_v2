@@ -9,7 +9,7 @@
 	supportTopicIds="32550703"
 	resourceTags=""
 	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Open Source Technologies/ClearDB

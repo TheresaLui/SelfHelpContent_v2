@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
+	pageTitle="Moving resources"
 	description="Moving resources"
 	service="microsoft.web"
 	resource="sites"
@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32581619"
-	productPesIds="14748"
+	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
 />
 
