@@ -17,5 +17,5 @@
 You can connect to your CosmosDB account (with MongoDB API) using: 
 
 * [Studio 3T](https://docs.microsoft.com/azure/cosmos-db/mongodb-mongochef)
-* [Robomongo](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-robomongo)
-* [Mongoose](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-mongoose)
+* [Robomongo](https://docs.microsoft.com/azure/cosmos-db/mongodb-robomongo)
+* [Mongoose](https://docs.microsoft.com/azure/cosmos-db/mongodb-mongoose)
