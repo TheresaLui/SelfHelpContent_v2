@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling Windows 10 PC via MDM fails with 0x80180014 and error message "There was a problem. Your organization does not support this version of Windows"
+# Enrolling windows 10 pc via mdm fails with 0x80180014 and error message "there was a problem. your organization does not support this version of windows"
 
 ## **Recommended steps**
 

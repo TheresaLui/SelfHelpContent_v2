@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I receive an "Access Denied" error while trying to launch a blade or section of the Microsoft Intune UI
+# I receive an "access denied" error while trying to launch a blade or section
 
 ## **Recommended steps**
 
