@@ -14,6 +14,7 @@
 
 # MongoDB connectors and tools
 
+## **Recommended documents**
 You can connect to your CosmosDB account (with MongoDB API) using: 
 
 * [Studio 3T](https://docs.microsoft.com/azure/cosmos-db/mongodb-mongochef)
