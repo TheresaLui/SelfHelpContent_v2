@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because a DVD drive wasn't presented to the VM. This issue is commonly caused when an older Linux kernels installed or the Linux Integration Service drivers are not installed or outdated. 
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because a DVD drive wasn't presented to the VM. This issue is commonly caused when an older Linux kernel is installed or the Linux Integration Service drivers are not installed or outdated. 
 <!--/issueDescription-->
 
 We recommend that you update any custom images that may be used in future deployments to avoid this issue. If this is a Marketplace image, we recommend reaching out to the publisher directly.<br>

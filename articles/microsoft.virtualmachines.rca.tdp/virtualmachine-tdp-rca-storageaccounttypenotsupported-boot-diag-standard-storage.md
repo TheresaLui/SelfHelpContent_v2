@@ -17,7 +17,7 @@
 # We ran diagnostics and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because boot diagnostics were enabled and configured to use premium storage account.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because boot diagnostics were enabled and configured to use a Premium Storage Account, which is not supported.
 <!--/issueDescription-->
 
 When creating and deploying the virtual machine, verify that the storage account being used for boot diagnostics is standard storage.<br>
