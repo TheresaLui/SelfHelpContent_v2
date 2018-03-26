@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Deployment Failure RCA"
-	description="RCA - max-quota-limit-exceede"
+	description="RCA - max-quota-limit-exceeded"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -21,8 +21,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 To work around this issue, please increase your quota or service limit using the instructions below:<br>
 
-To learn more about subscritions, please refer to the following articles:<br>
-* [How to view your current quota increase your vCPU and Cores](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
+To learn more about subscriptions, please refer to the following articles:<br>
+* [How to view and increase your current quota](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
+* [Learn about the new Subscription Usage + Quotas view that displays your current limits](https://blogs.msdn.microsoft.com/skeeler/2017/01/subscription-usage-and-quotas-in-the-azure-portal/)
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
-* [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
-* [Learn about the new Subscription Usage + Quotas view that displays a graphical view of your current limits](https://blogs.msdn.microsoft.com/skeeler/2017/01/subscription-usage-and-quotas-in-the-azure-portal/)
