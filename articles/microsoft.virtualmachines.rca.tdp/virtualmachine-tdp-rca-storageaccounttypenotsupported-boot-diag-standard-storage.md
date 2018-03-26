@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Deployment Failure RCA"
-	description="RCA - storageaccounttypenotsupported-boot-diag-standard-storage
+	description="RCA - storageaccounttypenotsupported-boot-diag-standard-storage"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
