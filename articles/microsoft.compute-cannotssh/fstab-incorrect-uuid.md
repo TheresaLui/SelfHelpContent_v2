@@ -18,7 +18,7 @@
 # Diagnostics on your Linux Virtual machine found a boot error 
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.  
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.
 
 To view more detailed information, see the [serial log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) output in the boot diagnostics blade.
 <!--/issueDescription-->
@@ -35,7 +35,7 @@ To view more detailed information, see the [serial log](data-blade:Microsoft_Azu
 	```
 	b. View and verify the contents of the fstab file `cat /etc/fstab`
 
-	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file.  
+	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file.
 
 	d. Edit the fstab file to remove or comment out using a # any incorrect entries using your favorite text editor, for example:
 `nano /etc/fstab` or `vi /etc/fstab`
