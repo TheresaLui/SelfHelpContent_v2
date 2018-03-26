@@ -37,7 +37,7 @@ To recover the virtual machine, follow these steps:
 	```
 	b. View and verify the contents of the fstab file `cat /etc/fstab`
 
-	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file.  
+	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file.
 
 	d. Edit the fstab file to remove or comment out using a # any incorrect entries using your favorite text editor, for example:
 `nano /etc/fstab` or `vi /etc/fstab`
