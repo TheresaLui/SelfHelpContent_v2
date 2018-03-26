@@ -22,7 +22,7 @@ Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--
 
 To view more detailed information, see the [serial log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) output in the boot diagnostics blade.
 <!--/issueDescription-->
-   
+
 ## **Recommended Steps**
 1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 
