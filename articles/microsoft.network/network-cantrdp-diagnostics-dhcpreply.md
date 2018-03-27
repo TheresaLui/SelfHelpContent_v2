@@ -1,7 +1,7 @@
 <properties
 pageTitle="DhcpReply"
 description="DhcpReply"
-infoBubbleText="DhcpReply"
+infoBubbleText="Issues with network traffic routing were detected. See details on the right."
 service="microsoft.network"
 resource="virtualnetworks"
 authors="chadmath"
@@ -9,12 +9,12 @@ displayOrder=""
 articleId="CantRDP_DhcpReply"
 diagnosticScenario="DhcpReply"
 selfHelpType="Diagnostic"
-supportTopicIds=
+supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
-productPesIds=
+productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
 cloudEnvironments="Public"
 />
-# Connectivity Diagnostics Result
+# We ran connectivity diagnostics on your resource and found an issue.
 
 <!--issueDescription-->
 Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the source is the Azure DHCP service. This rule is static in the Azure platform to allow the Azure DHCP service to respond to VMs' DHCP requests and cannot be changed.
