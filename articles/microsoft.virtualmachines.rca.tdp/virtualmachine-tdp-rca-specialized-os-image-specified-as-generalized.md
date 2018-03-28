@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** due to the image failing to be provisioned. One common cause is that the image was configured as generalized but the VM was deployed as specialized. Alternatively, the image was configured as specialized but the VM was deployed as generalized.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** encountered an issue due to the image not being provisioned correctly. One common cause is that the image was configured as specialized but the VM was deployed as generalized.
 <!--/issueDescription-->
 
 Please configure the image and deploy the VM with the same method (both as generalized or both as specialized). Additionally, please review the below documentation on specialized and generalized images.<br>

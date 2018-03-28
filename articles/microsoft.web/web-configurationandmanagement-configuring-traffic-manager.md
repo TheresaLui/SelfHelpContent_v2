@@ -3,17 +3,17 @@
 	description="Configuring Traffic Manager with App Service"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32581614"
 	resourceTags=""
-	productPesIds="14748, 16170"
+	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
 />
 
 # Configuring Traffic Manager with App Service
 
 ## **Recommended documents**
-[Controlling Azure web app traffic with Azure Traffic Manager](https://docs.microsoft.com/azure/app-service-web/web-sites-traffic-manager)<br>
-[Azure Traffic Manager integration with Azure Web sites](https://azure.microsoft.com/blog/azure-traffic-manager-can-now-integrate-with-azure-web-sites/)<br>
+* [How to troubleshoot if the health of your Traffic Manager displays as Degraded Status](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-troubleshooting-degraded)<br>
+* [Overview of Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview)<br>

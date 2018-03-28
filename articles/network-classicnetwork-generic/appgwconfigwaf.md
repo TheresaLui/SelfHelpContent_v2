@@ -16,7 +16,6 @@
 
 ## **Recommended documents**
 
-
 Create an application gateway with web application firewall using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-powershell)<br>
 List of web application firewall [CRS rule groups and rules offered](https://docs.microsoft.com/azure/application-gateway/application-gateway-crs-rulegroups-rules)<br>
 [Web application firewall](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview) overview<br>

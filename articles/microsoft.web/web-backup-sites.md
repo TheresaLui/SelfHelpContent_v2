@@ -3,12 +3,12 @@
 	description="configuration and management/backup"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542208"
 	resourceTags=""
-	productPesIds="14748, 16170"
+	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
 />
 

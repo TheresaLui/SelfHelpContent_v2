@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I need help troubleshooting Azure File issues"
 	description="Troubleshooting Azure File storage problems"
 	service="microsoft.classicstorage"
@@ -6,9 +6,9 @@
 	authors="passaree"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32551659,32551666"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="16460"
 	cloudEnvironments="public"
 />
 

@@ -4,11 +4,11 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="malihaqu"
-	displayOrder="1"
+	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551644,32551674,32551675"
+	supportTopicIds="32602689,32602694,32602701,32602712,32602730,32602738"
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="15629,16459"
 	cloudEnvironments="public,MoonCake"
 />
 
@@ -30,9 +30,13 @@ If the storage account uses the ARM deployment model, you can remove the VHD by 
 4. Remove the VHD from the VM, which will allow the VHD to be deleted.  For OS Disks, you will need to delete the VM that is using the disk.  For Data Disks, click on the disk and select “Detach.”
 
 ### Recovery of deleted objects
-- You may submit a support request to recover a deleted Storage Account | Blob Container within 14 days of deletion. We request that you do not attempt to recreate a storage account or blob container with the same name while we are attempting to recover.<br>
-- Recovery of deleted or older versions of Files, Blobs, Tables and Queues is not currently supported.<br>
 
+- Recovery of a deleted Storage Account may be attempted by submitting a support request immediately. There is no guarantee for recovery to be successful. We request that you do not attempt to recreate a Storage Account with the same name while we are attempting to recover.<br>
+- For Storage Accounts configured with replication option: Geographically Redundant Storage (GRS) or Read-Access Geographically Redundant Storage (RA-GRS), recovery of a deleted Blob Container may be attempted by submitting a support request immediately. There is no guarantee for recovery to be successful. We request that you do not attempt to recreate a Blob Container with the same name while we are attempting to recover.<br>
+- Recovery of deleted or older versions of Files, Blobs, Tables and Queues cannot be attempted.<br>
 
 ## **Recommended documents**
-[I'm having problems deleting storage account](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)
+[I'm having problems deleting storage account](https://azure.microsoft.com/documentation/articles/storage-resource-manager-cannot-delete-storage-account-container-vhd/)<br>
+[Delete Storage Account operation](https://msdn.microsoft.com/library/azure/hh264517.aspx)<br>
+[Delete Container operation](https://docs.microsoft.com/rest/api/storageservices/delete-container)<br>
+
