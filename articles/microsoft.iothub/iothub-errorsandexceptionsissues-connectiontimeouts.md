@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Connection Timeout issues"
 	description="Connection Timeout issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

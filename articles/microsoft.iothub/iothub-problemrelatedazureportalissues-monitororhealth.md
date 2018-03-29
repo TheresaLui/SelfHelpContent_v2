@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Monitor or Resource Health issues"
 	description="Azure Monitor or Resource Health issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

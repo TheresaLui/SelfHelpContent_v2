@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Setup and configuration issues"
 	description="Setup and configuration issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

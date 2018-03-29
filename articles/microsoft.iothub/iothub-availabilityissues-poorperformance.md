@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Poor performance issues"
 	description="Poor performance issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

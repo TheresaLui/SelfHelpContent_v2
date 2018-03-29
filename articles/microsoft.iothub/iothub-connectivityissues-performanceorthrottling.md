@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance or Throttling issues"
 	description="Performance or Throttling issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

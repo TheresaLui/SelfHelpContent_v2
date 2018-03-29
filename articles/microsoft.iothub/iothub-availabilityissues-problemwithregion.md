@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Problem related to a region issues"
 	description="Problem related to a region issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

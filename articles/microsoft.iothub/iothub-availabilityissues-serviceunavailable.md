@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Service unavailable issues"
 	description="Service unavailable issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""

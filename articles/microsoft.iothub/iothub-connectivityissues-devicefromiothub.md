@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Unable to connect a device from IoT Hub issues"
 	description="Unable to connect a device from IoT Hub issues"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""
