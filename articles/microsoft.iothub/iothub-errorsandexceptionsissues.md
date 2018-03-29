@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Errors and Exceptions"
 	description="Errors and Exceptions"
-	service="microsoft.iothub"
+	service="microsoft.devices"
 	resource="IoTHub"
 	authors="anusapan"
 	displayOrder=""
