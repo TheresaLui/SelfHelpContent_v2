@@ -26,7 +26,7 @@ To view more detailed information, see the [serial log](data-blade:Microsoft_Azu
 ## **Recommended Steps**
 To recover the virtual machine, follow these steps:
 
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
+1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 
 2. If the VM is configured, press M for manual recovery to enter single user mode or login as root.  If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key.  If you are presented with a grub prompt enter ‘c’ for command prompt.
 
