@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# "Site-to-Site VPN connectivity issues"
+# Site-to-Site VPN connectivity issues
 
 ## **Recommended steps**
 1. [VPN gateway reset](data-blade:microsoft_azure_network.VirtualNetworkGatewayResetBlade) may help if you lost cross-premises VPN connectivity on one or more site-to-site VPN tunnels<br>
