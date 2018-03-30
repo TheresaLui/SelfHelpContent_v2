@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Suspected Malware, Safety Bulletins, and Security Bulletins"
-	description="Suspected Malware, Safety Bulletins, and Security Bulletins"
+	pageTitle="Suspected Malware, Safety Bulletins, and Security Bulletins/Root cause investigation or advisory"
+	description="Suspected Malware, Safety Bulletins, and Security Bulletins/Root cause investigation or advisory"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32565553"
+	supportTopicIds="32565557"
 	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
 
-# Suspected Malware, Safety Bulletins, and Security Bulletins
+# Suspected Malware, Safety Bulletins, and Security Bulletins/Root cause investigation or advisory
 
 ## **Recommended documents**
 * [Overview of Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-intro)<br>
