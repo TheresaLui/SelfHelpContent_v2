@@ -1,0 +1,23 @@
+<properties
+	pageTitle="My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
+	description="My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
+	service="microsoft.intune"
+	resource="intune"
+	authors="mackie1604"
+	displayOrder="2"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags="ebooks_selfhelp"
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?
+
+## **Recommended steps**
+
+The end user must reinstall the iBooks app manually from the Apple App Store.  Intune cannot install built-in Apple apps.
+
+
+
+
