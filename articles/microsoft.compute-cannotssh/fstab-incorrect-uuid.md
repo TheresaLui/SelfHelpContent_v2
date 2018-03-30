@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Diagnostics on your Linux Virtual machine found a boot error 
+# Diagnostics on your Linux Virtual machine found a boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.
@@ -24,7 +24,7 @@ To view more detailed information, see the [serial log](data-blade:Microsoft_Azu
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
+1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 
 2. If the VM is configured, press M for manual recovery to enter single user mode or login as root.  If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key.  If you are presented with a grub prompt enter ‘c’ for command prompt.
 
