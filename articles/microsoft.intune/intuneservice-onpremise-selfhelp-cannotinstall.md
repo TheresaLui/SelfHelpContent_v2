@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-The Intune Exchange Connector has a few requirements to review prior to installation.  Review [this document](https://docs.microsoft.com/intune/exchange-connector-install) to ensure all requirements are met prior to attempting install.
+The Intune Exchange Connector has a few requirements to review prior to installation.  Review [this document](https://docs.microsoft.com/intune/exchange-connector-install) to ensure all requirements are met prior to attempting install.
 
 
 
