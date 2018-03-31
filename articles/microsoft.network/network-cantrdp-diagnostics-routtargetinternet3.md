@@ -1,7 +1,7 @@
 <properties
 pageTitle="Route Target Internet"
 description="Route Target Internet"
-infoBubbleText="Issues with network traffic routing were detected. See details on the right.
+infoBubbleText="Issues with network traffic routing were detected. See details on the right."
 service="microsoft.network"
 resource="virtualnetworks"
 authors="anavinahar"
