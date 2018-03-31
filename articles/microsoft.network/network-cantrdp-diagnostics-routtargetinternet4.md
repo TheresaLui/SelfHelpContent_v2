@@ -20,8 +20,8 @@ cloudEnvironments="Public"
 
 <!--issueDescription-->
 Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->.
-Routing <!--$action--> [action]<!--/$action--> this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic to route to the Internet.
-Access Control <!--$action--> [action]<!--/$action-->  this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic by default security rule: <!--$rule--> [rule]<!--/$rule-->
+Routing <!--$action-->[action]<!--/$action--> this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic to route to the Internet.
+Access Control <!--$action-->[action]<!--/$action-->  this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic by default security rule: <!--$rule-->[rule]<!--/$rule-->
 <!--/issueDescription-->
 
 If you do not wish traffic to this destination to be routed directly over the internet, either configure a route prefix covering this destination in your local VPN gateway, consult your network administrator to announce the prefix via BGP if you wish it to go over an ExpressRoute circuit or Site-to-Site VPN connection with BGP routing enabled, or add the prefix in a User Defined Route (UDR) if you wish to send the traffic to a Network Virtual Appliance (NVA).
