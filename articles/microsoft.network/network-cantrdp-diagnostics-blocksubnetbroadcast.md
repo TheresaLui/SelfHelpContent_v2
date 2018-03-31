@@ -17,6 +17,6 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue.
 
 <!--issueDescription-->
-Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is a broadcast to the subnet. Sending broadcast traffic is not supported in the Azure Platform. It cannot be enabled. More details [here](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq).
+Microsoft Azure has identified <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is a broadcast to the subnet. Sending broadcast traffic is not supported in the Azure Platform. It cannot be enabled. More details [here](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq).
  <br>
 <!--/issueDescription-->
