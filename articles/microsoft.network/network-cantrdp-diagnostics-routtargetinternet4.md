@@ -26,6 +26,6 @@ Access Control <!--$action-->[action]<!--/$action-->  this <!--$TrafficDirection
 
 If you do not wish traffic to this destination to be routed directly over the internet, either configure a route prefix covering this destination in your local VPN gateway, consult your network administrator to announce the prefix via BGP if you wish it to go over an ExpressRoute circuit or Site-to-Site VPN connection with BGP routing enabled, or add the prefix in a User Defined Route (UDR) if you wish to send the traffic to a Network Virtual Appliance (NVA).
 
-If the access control (security rules) result is not desired, view the [Effective Security Rules](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-nsg-troubleshoot-portal) to determine if the addition or modification of a customer-defined security rule is required. If this traffic should be allowed outbound, create a {trafficDirection} basic rule specifying port {this.destinationPort} and action Allow.
+If the access control (security rules) result is not desired, view the [Effective Security Rules](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal) to determine if the addition or modification of a customer-defined security rule is required. If this traffic should be allowed outbound, create a {trafficDirection} basic rule specifying port {this.destinationPort} and action Allow.
 
 
