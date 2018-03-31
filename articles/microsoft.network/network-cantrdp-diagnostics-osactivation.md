@@ -17,6 +17,6 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue.
 
 <!--issueDescription-->
-Microsoft Azure has identified <!--$StatelfulAction-->[StatelfulAction]<!--/$StatelfulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the destination is used for operating system activation. This rule is static in the Azure platform to allow operating system activation and cannot be changed.
+Microsoft Azure has identified <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the destination is used for operating system activation. This rule is static in the Azure platform to allow operating system activation and cannot be changed.
  <br>
 <!--/issueDescription-->
