@@ -3,7 +3,7 @@
     description="Synchronization Service cannot import/export changes from on-premises AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="nikallik"
+    authors="nitinkallikat"
     displayOrder="999"
     selfHelpType="resource"
     supportTopicIds=""
