@@ -1,7 +1,7 @@
 <properties
-	pageTitle="I cannot reach location based services"
-	description="I cannot reach location based services"
-	service="microsoft.locationbasedservices"
+	pageTitle="I cannot reach maps services"
+	description="I cannot reach maps services"
+	service="microsoft.maps"
 	resource="accounts"
 	authors="jingjing-zhang"
     resourceTags=""
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
  />
 
-# I cannot reach location based services 
+# I cannot reach maps services 
 
 ## **Recommended Steps**
 
