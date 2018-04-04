@@ -1,14 +1,14 @@
 <properties
 pageTitle="UserRule1"
 description="UserRule1"
-infoBubbleText= "Issues with network traffic routing were detected. See details on the right."
+infoBubbleText= "Issues with network traffic were detected. See details on the right."
 service="microsoft.network"
 resource="virtualnetworks"
-authors="anavinahar"
+authors="anavinahar, chadmath"
 displayOrder=""
 articleId="CantRDP_RouteTargetVNet"
 diagnosticScenario="Running VM attached"
-selfHelpType="Diagnostic"
+selfHelpType="Diagnostics"
 supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
 productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
@@ -17,7 +17,7 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue.
 
 <!--issueDescription-->
-Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> by security rule: <!--$RuleNameWithUserRule_RemovedFromBeginning-->[RuleNameWithUserRule_RemovedFromBeginning]<!--$RuleNameWithUserRule_RemovedFromBeginning-->. 
+Microsoft Azure has identified an issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> by security rule: <!--$RuleNameWithUserRule_RemovedFromBeginning-->[RuleNameWithUserRule_RemovedFromBeginning]<!--$RuleNameWithUserRule_RemovedFromBeginning-->. 
 <!--/issueDescription-->
 If the security rules result is not desired, view the [Effective Security Rules](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal) to view and modfiy the rule. If this traffic should be allowed, create a $TrafficDirection basic rule with a higher priority (lower number) than existing rules specifying port $port. If this traffic should not be allowed, create a $TrafficDirection advanced rule with a higher priority (lower number) than existing rules specifying the source and destination IPs desired, port $port, and action Deny.
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
