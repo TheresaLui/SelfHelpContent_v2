@@ -1,7 +1,7 @@
 <properties
 pageTitle="NSI service Not running"
 description="NSINotRunning"
-infoBubbleText="NSI service Not running"
+infoBubbleText="Network Store Interface Service (NSI) is not running"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ramakk"
