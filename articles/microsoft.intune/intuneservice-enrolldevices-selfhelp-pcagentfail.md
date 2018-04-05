@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Installation of the PC client software fails with "The software cannot be installed, 0x80cf4017"
+# Installation of the pc client software fails with "the software cannot be installed, 0x80cf4017"
 
 ## **Recommended steps**
 

@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Apple DEP device unable to enroll if Multi-Factor Authentication enabled
+# Apple DEP device is unable to enroll if multi-factor authentication is enabled
 
 ## **Recommended steps**
 

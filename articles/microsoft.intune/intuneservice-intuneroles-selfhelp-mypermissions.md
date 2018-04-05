@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I seem to have too many permissions for the role I’m assigned in Intune."
-	description="I seem to have too many permissions for the role I’m assigned in Intune."
+	pageTitle="I seem to have too many permissions for the role I'm assigned in Intune."
+	description="I seem to have too many permissions for the role I'm assigned in Intune."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"

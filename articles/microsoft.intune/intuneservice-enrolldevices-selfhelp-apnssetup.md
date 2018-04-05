@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# This Service is not supported.  No Enrollment Policy
+# This service is not supported. No enrollment policy
 
 ## **Recommended steps**
 
