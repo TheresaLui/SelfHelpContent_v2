@@ -18,7 +18,7 @@ To reset the password or ssh key used to authenticate to your scale set VMs, you
 
 ## Recommended Documents
 
-For more information, refer to [this document](https://azure.microsoft.com/blog/using-vmaccess-extension-to-reset-login-credentials-for-linux-vm/) that describes how to use the VMAccessForLinux extension for Linux-based scale sets. For Windows-based scale sets, here is sample powershell code:
+For more information, refer to [this document](https://docs.microsoft.com/azure/virtual-machines/linux/using-vmaccess-extension) that describes how to use the VMAccessForLinux extension for Linux-based scale sets. For Windows-based scale sets, here is sample powershell code:
 
 ```powershell
 $vmssName = "myvmss"
