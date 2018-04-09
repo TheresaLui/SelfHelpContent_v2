@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I tried to launch a blade or section and received an "Access denied - You do not have access" message."
-	description="I tried to launch a blade or section and received an "Access denied - You do not have access" message."
+	pageTitle="I tried to launch a blade or section and received an Access denied - You do not have access message."
+	description="I tried to launch a blade or section and received an Access denied - You do not have access message."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
