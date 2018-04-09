@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I cannot install the Intune Exchange Connector"
-	description="I cannot install the Intune Exchange Connector"
+	pageTitle="I cannot install the Microsoft Intune on-premises Exchange Connector"
+	description="I cannot install the Microsoft Intune on-premises Exchange Connector"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# I cannot install the Intune Exchange Connector
+# I cannot install the Microsoft Intune on-premises Exchange Connector
 
 ## **Recommended steps**
 
-The Intune Exchange Connector has a few requirements to review prior to installation.  Review [this document](https://docs.microsoft.com/intune/exchange-connector-install) to ensure all requirements are met prior to attempting install.
+Ensure that all requirements for Exchange Connector are met prior to installation. See all requirements in the [Intune documentation](https://docs.microsoft.com/intune/exchange-connector-install).
 
 
 

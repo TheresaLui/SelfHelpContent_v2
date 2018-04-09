@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How often does the Intune Exchange Connector sync?"
-	description="How often does the Intune Exchange Connector sync?"
+	pageTitle="How often does the Intune on-premises Exchange Connector sync?"
+	description="How often does the Intune on-premises Exchange Connector sync?"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,9 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# How often does the Intune Exchange Connector sync?
+# How often does the Intune on-premises Exchange Connector sync?
 
 ## **Recommended steps**
 
-The Intune Exchange Connector performs delta syncs every 6 hours and a full sync every 24 hours.  You can also kick off a manual sync at any time.
+Delta syncs occur every 6 hours and a full sync occurs every 24 hours. Go to Intune > On-premise access > Exchange On-premise access
+
 

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="The account I used for the Intune Exchange Connector cannot communicate with our exchange server"
-	description="The account I used for the Intune Exchange Connector cannot communicate with our exchange server"
+	pageTitle="The account used for the Exchange Connector cannot communicate with our Microsoft Exchange Server"
+	description="The account used for the Exchange Connector cannot communicate with our Microsoft Exchange Server"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,16 +12,16 @@
 	cloudEnvironments="public"
 />
 
-# The account I used for the Intune Exchange Connector cannot communicate with our exchange server
+# The account used for the Exchange Connector cannot communicate with our Microsoft Exchange Server.
 
 ## **Recommended steps**
 
-You must create an Active Directory user account that is used by the Intune Exchange Connector. The account must have permission to run the following required Windows PowerShell Exchange cmdlets:
+Create an Active Directory user account that is used by the Intune Exchange Connector. The account must have permission to run the following required Windows PowerShell Exchange cmdlets:
 
 * Get-ActiveSyncOrganizationSettings, Set-ActiveSyncOrganizationSettings
 * Get-CasMailbox, Set-CasMailbox
 * Get-ActiveSyncMailboxPolicy, Set-ActiveSyncMailboxPolicy, New-ActiveSyncMailboxPolicy, Remove-ActiveSyncMailboxPolicy
-* Get-ActiveSyncDeviceAccessRule, Set-ActiveSyncDeviceAccessRule, New-ActiveSyncDeviceAccessRule, Remove-*ActiveSyncDeviceAccessRule
+* Get-ActiveSyncDeviceAccessRule, Set-ActiveSyncDeviceAccessRule, New-ActiveSyncDeviceAccessRule, Remove-ActiveSyncDeviceAccessRule
 * Get-ActiveSyncDeviceStatistics
 * Get-ActiveSyncDevice
 * Get-ExchangeServer
@@ -30,7 +30,5 @@ You must create an Active Directory user account that is used by the Intune Exch
 * Clear-ActiveSyncDevice, Remove-ActiveSyncDevice
 * Set-ADServerSettings
 * Get-Command
-
-For more information please review [this document.](https://docs.microsoft.com/intune/exchange-connector-install#exchange-cmdlet-requirements)
 
 
