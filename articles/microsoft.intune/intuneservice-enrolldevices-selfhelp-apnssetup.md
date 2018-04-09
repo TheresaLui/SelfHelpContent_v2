@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-An Apple MDM push certificate is not configured on your account. See the [Intune documentation]document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for the steps to get an Apple MDM push certificate.
+An Apple MDM push certificate is not configured on your account. See the [Intune documentation](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for the steps to get an Apple MDM push certificate.
 
 

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="The PC client license software installation failed and said that "the software cannot be installed, 0x80cf4017"
-	description="The PC client license software installation failed and said that "the software cannot be installed, 0x80cf4017"
+	pageTitle="The PC client license software installation failed and said that the software cannot be installed, 0x80cf4017"
+	description="The PC client license software installation failed and said that the software cannot be installed, 0x80cf4017"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
