@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I deployed an ebook to a user but now I want to revoke it"
-	description="I deployed an ebook to a user but now I want to revoke it"
+	pageTitle="I assigned an ebook to a user's device, but now I want to unassign it"
+	description="I assigned an ebook to a user's device, but now I want to unassign it"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I deployed an ebook to a user but now I want to revoke it
+# I assigned an ebook to a user's device, but now I want to unassign it
 
 ## **Recommended steps**
 

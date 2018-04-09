@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I would like to deploy in house ebooks to iOS devices"
-	description="I would like to deploy in house ebooks to iOS devices"
+	pageTitle="I want to distribute my organization's in-house ebooks to iOS devices."
+	description="I want to distribute my organization's in-house ebooks to iOS devices."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# I would like to deploy in house ebooks to iOS devices
+# I want to distribute my organization's in-house ebooks to iOS devices.
 
 ## **Recommended steps**
 
-Intune today does not support deploying in house ebooks
+At this time, Intune does not support the distribution of in-house ebooks.
 
 
 
