@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-Hi {customerName}, 
+Hi {customerName},
 
 I have found some information regarding your service request [{srNumber}]. It looks like your domain name [{domain}] is verified in another email verified tenant [{holdingTenant}]. A domain name can be verified in a single directory at a time. The domain name is currently verified in a different directory (using Office 365 or other Azure services), it cannot be verified in your new directory until you perform internal or external takeover. 
 When a self-service user signs up for a cloud service that uses Azure AD, they are added to an unmanaged Azure AD directory based on their email domain. For more information about self-service or "viral" signup for a service, see [What is self-service signup for Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-self-service-signup) 
@@ -38,4 +38,3 @@ I will be more than happy to assist you with the steps if needed.
 
 Thank you,<br>
 {engineerName}
-

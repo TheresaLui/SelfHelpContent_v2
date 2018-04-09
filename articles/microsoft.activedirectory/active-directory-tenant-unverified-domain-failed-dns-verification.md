@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-Hi {customerName}, 
+Hi {customerName},
 
 I have found some information regarding your service request [{srNumber}]. We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at [{domain]} and did not find an entry matching the required verification record {txtRecord}].
 
