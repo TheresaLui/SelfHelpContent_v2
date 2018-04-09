@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-The iBooks app must be manually installed—by the user—from the Apple App Store. Intune is not able to install built-in Apple apps.
+The iBooks app must be manually installed-by the user-from the Apple App Store. Intune is not able to install built-in Apple apps.
 
 
 
