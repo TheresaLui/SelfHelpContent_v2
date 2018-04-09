@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I cannot install the Exchange Connector
+# I cannot install the Intune Exchange Connector
 
 ## **Recommended steps**
 

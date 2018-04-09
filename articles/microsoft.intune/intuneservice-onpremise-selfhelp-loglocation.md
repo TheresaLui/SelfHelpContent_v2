@@ -16,5 +16,5 @@
 
 ## **Recommended steps**
 
-The Intune Exchange Connector stores logs in the following location:  "c:\programdata\microsoft\windows intune exchange connector\logs"
+The Intune Exchange Connector logs are stored in the following location:  "c:\programdata\microsoft\windows intune exchange connector\logs"
 

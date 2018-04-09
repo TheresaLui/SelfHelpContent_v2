@@ -31,6 +31,6 @@ You must create an Active Directory user account that is used by the Intune Exch
 * Set-ADServerSettings
 * Get-Command
 
-For more infomration please review [this document](https://docs.microsoft.com/intune/exchange-connector-install#exchange-cmdlet-requirements).
+For more information please review [this document.](https://docs.microsoft.com/intune/exchange-connector-install#exchange-cmdlet-requirements)
 
 
