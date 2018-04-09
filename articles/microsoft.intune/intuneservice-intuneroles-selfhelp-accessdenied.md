@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I tried to launch a blade or section and received an "Access denied - You do not have access" message.
+# I tried to launch a blade or section and received an "Access denied - You do not have access" message
 
 ## **Recommended steps**
 

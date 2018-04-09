@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-Have your user export their permissions by running the "My Permissions" report in Intune roles > My permissions. To adjust their permissions please visit the Intune roles blade.
+Have the user export their permissions by running the "My Permissions" report in Intune roles > My permissions. To adjust their permissions please visit the Intune roles blade.
