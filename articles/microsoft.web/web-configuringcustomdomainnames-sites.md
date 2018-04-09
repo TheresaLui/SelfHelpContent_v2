@@ -15,5 +15,10 @@
 # configuration and management/configuring custom domain names
 
 ## **Recommended documents**
-1. [Frequently Asked Questions on Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/)<br>
-2. [Frequently Asked Questions on Configuration and Management](https://docs.microsoft.com/azure/app-service/app-service-web-configuration-and-management-faq) 
+* [Resolve 404 error when adding a custom domain?](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#resolve-404-error-web-site-not-found)
+* [Resolve custom domain validation failure for A record](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/#404error )
+* [Resolve adding Custom domain issues with mapping to an A record](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-an-a-record)
+* [Migrate an active domain to web app without downtime](https://docs.microsoft.com/azure/app-service/app-service-custom-domain-name-migrate)
+* [Adding a custom domain or subdomain to your web app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record)
+* [Moving a Web app with Custom Domain to another subscription or ASE V1 to ASE V2](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/#move-app-with-domain)
+* [Commonly asked questions about Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains)
