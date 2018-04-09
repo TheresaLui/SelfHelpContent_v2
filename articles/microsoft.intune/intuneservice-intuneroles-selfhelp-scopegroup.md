@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-Scope groups do not filter out users or devices.  Rather scope groups:?
+Scope groups do not filter out users or devices.  Rather scope groups:
 
-* Limit who users can assign policies or applications to?
-* Allow only specific users to run remote tasks on devices?
-?
+* Limit who users can assign policies or applications to
+* Allow only specific users to run remote tasks on devices
+
 If a security group is not within your scope group, the you will not be able to assign polices or applications to the group. For more information about scope groups see the Intune [documentation]?(https://docs.microsoft.com/intune/role-based-access-control).
 
 
