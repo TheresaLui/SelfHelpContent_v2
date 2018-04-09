@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
-	description="My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
+	pageTitle="A user in my organization doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
+	description="A user in my organization doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My user doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?
+# A user in my organization doesn't have the Apple iBooks app to view ebooks, can I use Intune to install it?
 
 ## **Recommended steps**
 
