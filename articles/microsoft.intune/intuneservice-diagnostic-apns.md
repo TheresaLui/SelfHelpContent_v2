@@ -6,7 +6,7 @@
 	resource="intune"
 	authors="mackie1604"
 	displayOrder=""
-	articleId="intune_configure_new_certificate"
+	articleId="IntuneCheckAPNSCert"
 	selfHelpType="diagnostic"
 	supportTopicIds="32530429,32530435"
 	resourceTags=""
