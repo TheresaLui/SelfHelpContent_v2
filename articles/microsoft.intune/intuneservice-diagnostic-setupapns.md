@@ -17,7 +17,7 @@
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
 <!--issueDescription-->
-Currently an Apple Push Notification service (APNs) certificate has not been configured on your subscription.  Without an APNs configured you'll be unable enroll iOS and MacOS devices.
+An Apple MDM Push certificate has not been configured on your subscription.  Without an Apple MDM Push certificate configured you'll be unable enroll iOS and MacOS devices.
 <!--/issueDescription-->
 
 Intune enables mobile device management (MDM) of iPads, iPhones, and Mac computers and gives users access to company email and apps. An MDM Push certificate is required for Intune to manage iOS and Mac devices. After you add the certificate to Intune, your users can install the Company Portal app to enroll their devices. You can also set up corporate-owned iOS device management with Apple's Device Enrollment Program or enroll devices using Apple Configurator, for example.
