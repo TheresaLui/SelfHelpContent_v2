@@ -16,16 +16,14 @@
 
 ## **Recommended steps**
 
-Verify that the user is not assigned to any of the following roles in the Azure portal:​
-​
-* Global administrator​
-* Intune service administrator​
-* SharePoint administrator​<br>
+Verify that the user is not assigned to any of the following roles in the Azure portal:
 
-Verify that the user is not assigned to the following role in the Intune classic portal:​
-​
-* Service administrator​
+* Global administrator
+* Intune service administrator
+* SharePoint administrator
 
-Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.​
+Verify that the user is not assigned to the following role in the Intune classic portal:
 
+* Service administrator
 
+Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.
