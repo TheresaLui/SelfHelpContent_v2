@@ -18,5 +18,5 @@ cloudEnvironments="Public"
 <!--issueDescription-->
 The Azure team has investigated and identified the source of your issue was maintenance of the network switch which connects the physical node running your VM.  Maintenance is performed to ensure the long term reliability, security, and integrity of the Azure platform.  We apologize for any inconvenience this may have caused. 
 <!--/issueDescription-->
-(Learn more)[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability] on ways to set up and manage multiple virtual machines to ensure high availability for your VM applications through maintenance and downtime events.
+[Learn more](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) on ways to set up and manage multiple virtual machines to ensure high availability for your VM applications through maintenance and downtime events.
  <br>
