@@ -5,7 +5,7 @@
 	resource="intune"
 	documentationCenter=""
 	authors="mackie1604"
-	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp"
+	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
@@ -14,7 +14,7 @@
 	issueNotListed="true"
  />
 
-# My issue is not listed
+# My problem is not listed here.
 
 Head over to the [Microsoft Technet community forums](https://aka.ms/intuneforums) to seek help for other common problems in Intune.
 
