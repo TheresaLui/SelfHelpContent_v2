@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I added a user to an Intune role but they still have full access to the Intune Admin Console"
 	description="I added a user to an Intune role but they still have full access to the Intune Admin Console"
 	service="microsoft.intune"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I added a user to an Intune role but they still have full access to the Intune admin console
+# I added a user to an Intune role but they still have full access to the Intune admin console.
 
 ## **Recommended steps**
 

@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# One of my users seems to have too many permissions for the role I've assigned them in Intune
+# One of my users seems to have too many permissions for the role I've assigned them in Intune.
 
 ## **Recommended steps**
 

@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I added a scope group to a role, but users in that role still see other users or devices
+# I added a scope group to a role, but users in that role still see other users or devices.
 
 ## **Recommended steps**
 
