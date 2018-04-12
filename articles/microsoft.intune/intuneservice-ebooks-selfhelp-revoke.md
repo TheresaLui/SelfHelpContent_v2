@@ -12,9 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I assigned an ebook to a user's device, but now I want to unassign it
-
-## **Recommended steps**
+# I assigned an e-book to a user's device, but now I want to unassign it.
 
 You cannot reclaim a license once the book has been assigned.
 

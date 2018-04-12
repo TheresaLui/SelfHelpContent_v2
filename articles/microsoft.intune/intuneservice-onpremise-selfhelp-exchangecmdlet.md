@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Create an Active Directory user account that is used by the Intune Exchange Connector. The account must have permission to run the following required Windows PowerShell Exchange cmdlets:
+Create an Active Directory user account for the Intune on-premises Exchange Connector.  The account must have permission to run the following required Windows PowerShell Exchange cmdlets:
 
 * Get-ActiveSyncOrganizationSettings, Set-ActiveSyncOrganizationSettings
 * Get-CasMailbox, Set-CasMailbox

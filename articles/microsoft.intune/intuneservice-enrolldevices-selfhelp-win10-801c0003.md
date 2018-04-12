@@ -19,8 +19,8 @@
 You may encounter this problem if:
 
 * The device cap is reached.  To enroll a new device, retire an existing one and try again.
-* If "Allow Devices to join Azure AD" is set to none.  To modify this setting open the Intune Azure portal > Azure Active Directory > Devices > Device Settings and change the value to all or selected.
-* The device has already been enrolled by another user. Go to Devices to verify that it does not already exist as an enrolled device.  
+* **Allow Devices to join Azure AD** is set to **None**.  To modify this setting open the Intune Azure portal > **Azure Active Directory** > **Devices** > **Device Settings** and change the value to **All** or **Selected**.
+* The device has already been enrolled by another user. Go to **Devices** to verify that it does not already exist as an enrolled device.  
 * The device is Windows 10 Home.  Azure Active Directory only supports the Windows 10 Pro, Education, and Enterprise editions. 
 
 

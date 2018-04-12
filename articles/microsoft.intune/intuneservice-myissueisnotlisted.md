@@ -20,6 +20,6 @@ Head over to the [Microsoft Technet community forums](https://aka.ms/intuneforum
 
 You can also:
 
-* Find out the health of your Intune Services in [Service Health](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
-* Get step-by-step procedures from the [Intune documentation](https://docs.microsoft.com/intune/)<br>
+* Find out the health of your Intune Services in [Service health](https://portal.office.com/AdminPortal/Home#/MessageCenter).<br>
+* Get step-by-step procedures from the [Intune documentation](https://docs.microsoft.com/intune/).<br>
 * [Submit design or feature feedback](https://microsoftintune.uservoice.com/) to the Microsoft Intune engineering team.

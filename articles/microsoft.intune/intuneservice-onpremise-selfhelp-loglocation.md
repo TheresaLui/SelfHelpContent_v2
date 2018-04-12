@@ -16,5 +16,5 @@
 
 ## **Recommended steps**
 
-Go to C:\ProgramData\Microsoft\Windows Intune Exchange Connector to access the log files for the Exchange Connector
+Go to C:\ProgramData\Microsoft\Windows Intune Exchange Connector to access the log files for the Exchange Connector.
 

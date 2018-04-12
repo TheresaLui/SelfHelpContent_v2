@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling a Windows 10 PC via mobile device management fails with error code 0x80180014 and the following message: "There was a problem. Your organization does not support this version of Windows"
+# Enrolling a Windows 10 PC via mobile device management fails with error code 0x80180014 and the following message: "There was a problem. Your organization does not support this version of Windows".
 
 ## **Recommended steps**
 

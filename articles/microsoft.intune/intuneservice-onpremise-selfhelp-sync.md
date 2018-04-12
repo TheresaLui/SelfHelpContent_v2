@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-Delta syncs occur every 6 hours and a full sync occurs every 24 hours. Go to Intune > On-premise access > Exchange On-premise access
+Delta syncs occur every 6 hours and a full sync occurs every 24 hours. Go to **Intune** > **On-premise access** > **Exchange On-premise access** to manually sync the connector.
 
 

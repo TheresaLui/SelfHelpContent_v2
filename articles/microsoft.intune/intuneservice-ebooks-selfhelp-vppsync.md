@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# My eBook is not showing up in the Intune portal
+# My e-book is not showing up in the Intune portal.
 
 ## **Recommended steps**
 

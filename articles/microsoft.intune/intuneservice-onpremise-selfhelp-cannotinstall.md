@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I cannot install the Microsoft Intune on-premises Exchange Connector
+# I cannot install the Microsoft Intune on-premises Exchange Connector.
 
 ## **Recommended steps**
 

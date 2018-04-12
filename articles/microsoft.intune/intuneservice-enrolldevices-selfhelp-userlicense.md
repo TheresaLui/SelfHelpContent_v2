@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Intune says that the license type is invalid and/or it cannot recognize the username
+# Intune says that the license type is invalid and/or it cannot recognize the username.
 
 ## **Recommended steps**
 

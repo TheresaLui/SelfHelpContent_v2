@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Company Portal says "This service is not supported. No enrollment policy"
+# I tried to enroll an iOS or MacOS device but the Company Portal says, "This service is not supported. No enrollment policy."
 
 ## **Recommended steps**
 

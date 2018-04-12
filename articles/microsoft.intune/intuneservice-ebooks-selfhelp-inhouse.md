@@ -12,11 +12,9 @@
 	cloudEnvironments="public"
 />
 
-# I want to distribute my organization's in-house ebooks to iOS devices.
+# I want to distribute my organization's in-house e-books to iOS devices.
 
-## **Recommended steps**
-
-At this time, Intune does not support the distribution of in-house ebooks.
+At this time, Intune does not support the distribution of in-house e-books.
 
 
 
