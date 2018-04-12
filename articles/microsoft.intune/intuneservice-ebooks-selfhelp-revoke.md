@@ -14,6 +14,8 @@
 
 # I assigned an e-book to a user's device, but now I want to unassign it.
 
+## **Recommended Steps**
+
 You cannot reclaim a license once the book has been assigned.
 
 
