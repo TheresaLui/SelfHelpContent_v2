@@ -28,7 +28,7 @@ The recommended steps for you are noted below:
 
 If you do not have access to update DNS records for the domain at the domain name registrar, share the DNS entry with the person or team at your organization who has this access, and ask them to add the DNS entry.
 
-Supporting Links: https://docs.microsoft.com/en-us/azure/active-directory/add-custom-domain#troubleshooting
+Supporting Links: https://docs.microsoft.com/azure/active-directory/add-custom-domain#troubleshooting
 
 I will be more than happy to assist you with the steps if needed.
 
