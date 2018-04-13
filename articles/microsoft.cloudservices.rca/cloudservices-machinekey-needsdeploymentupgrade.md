@@ -4,7 +4,7 @@
 	infoBubbleText="Found information related to Machine Key Status. See details on the right."
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="memccror"
+	authors="mmccrory"
 	displayOrder=""
 	articleId="MachineKey_NeedsDeploymentUpgrade"
     diagnosticScenario="MachineKeyUpdates"
