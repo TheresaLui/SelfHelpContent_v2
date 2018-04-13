@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-Your current device restrictions in Intune are set to prevent Windows 10 devices from enrolling. For information about how to configure device restrictions, see the [Intune documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set).
+Your current device restrictions in Intune are set to prevent Windows 10 devices from enrolling. For information about how to configure device restrictions, see the [Intune documentation.](https://docs.microsoft.com/intune/enrollment-restrictions-set)
 
 

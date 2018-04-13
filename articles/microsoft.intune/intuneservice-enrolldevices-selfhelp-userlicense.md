@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-The user account may be missing the appropriate Intune or EMS license. Assign licenses to each user in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage). For more information about how to license users in each location, see the [Azure documentation](https://docs.microsoft.com/azure/active-directory/license-users-groups) or the [Intune documentation](https://docs.microsoft.com/intune/licenses-assign).
+The user account may be missing the appropriate Intune or EMS license. Assign licenses to each user in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center.](https://portal.office.com/adminportal/home#/homepage) For more information about how to license users in each location, see the [Azure documentation](https://docs.microsoft.com/azure/active-directory/license-users-groups) or the [Intune documentation.](https://docs.microsoft.com/intune/licenses-assign)

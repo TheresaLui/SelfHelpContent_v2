@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Ensure that all requirements for Exchange Connector are met prior to installation. See all requirements in the [Intune documentation](https://docs.microsoft.com/intune/exchange-connector-install).
+Ensure that all requirements for Exchange Connector are met prior to installation. See all requirements in the [Intune documentation.](https://docs.microsoft.com/intune/exchange-connector-install)
 
 
 
