@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="microsoft.activedirectory"
 	resource=""
-	authors="bernaw"
+	authors="bernawy"
 	displayOrder="3"
 	articleId="Tenant_Unverified_Domain_Email_Verified_Takeover"
 	diagnosticScenario="EmailVerifiedTakeover"
@@ -14,7 +14,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-
+# Domain is verified in an email-verified directory
 Hi {customerName},
 
 I have found some information regarding your service request [{srNumber}]. It looks like your domain name [{domain}] is verified in another email verified tenant [{holdingTenant}]. A domain name can be verified in a single directory at a time. The domain name is currently verified in a different directory (using Office 365 or other Azure services), it cannot be verified in your new directory until you perform internal or external takeover. 
