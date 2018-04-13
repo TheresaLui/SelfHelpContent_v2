@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling a Windows 10 PC via mobile device management fails with a "0x801c0003" error code
+# Enrolling a Windows 10 PC via mobile device management fails with a "0x801c0003" error code.
 
 ## **Recommended steps**
 
