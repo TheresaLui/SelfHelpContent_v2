@@ -4,7 +4,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	displayOrder="4"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="ebooks_selfhelp"
