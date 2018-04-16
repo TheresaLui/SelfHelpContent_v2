@@ -15,9 +15,7 @@
 	cloudEnvironments="public"
 />
 # DNS Verification was not successful for the domain
-Hi {customerName},
-
-I have found some information regarding your service request [{srNumber}]. We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at [{domain]} and did not find an entry matching the required verification record {txtRecord}].
+We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at [{domain}] and did not find an entry matching the required verification record [{txtRecord}].
 
 The recommended steps for you are noted below: 
 1.	Please wait an hour. This will allow your DNS records to propagate at your domain name registrar (such as GoDaddy) before Azure AD can verify the domain. This process can take an hour or more.
@@ -29,8 +27,3 @@ The recommended steps for you are noted below:
 If you do not have access to update DNS records for the domain at the domain name registrar, share the DNS entry with the person or team at your organization who has this access, and ask them to add the DNS entry.
 
 Supporting Links: https://docs.microsoft.com/azure/active-directory/add-custom-domain#troubleshooting
-
-I will be more than happy to assist you with the steps if needed.
-
-Thank you,<br>
-{engineerName}
