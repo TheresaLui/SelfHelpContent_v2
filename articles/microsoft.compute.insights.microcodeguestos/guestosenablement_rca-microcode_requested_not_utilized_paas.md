@@ -1,12 +1,12 @@
 <properties
-pageTitle="Microcode requested, but not utilized  - Virtual Machines"
-description="Microcode requested, but not utilized  - Virtual Machines"
-infoBubbleText="Microcode requested, but not utilized - Virtual Machines"
+pageTitle="Microcode requested, but not utilized - Cloud Service"
+description="Microcode requested, but not utilized - Cloud Service"
+infoBubbleText="Microcode requested, but not utilized - Cloud Service"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"
 displayOrder=""
-articleId="guestosenablement_rca-microcode_requested_not_utilized"
+articleId="guestosenablement_rca-microcode_requested_not_utilized_paas"
 diagnosticScenario="guestosenablement"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
@@ -17,7 +17,7 @@ cloudEnvironments="public"
 
 # Microcode requested, but not utilized
 <!--issueDescription-->
-Customer **has requested** the microcode to be enabled through a tag but the BTI registry keys are **not set** in virtual machine  **<!--$vmname-->Virtual machine<!--/$vmname-->**.
+Customer **has requested** the microcode to be enabled through a tag but the BTI registry keys are **not set** in cloud service **<!--$cloudservicename-->Cloud Service<!--/$cloudservicename-->**
 <!--/issueDescription-->
 
 For additional information:<br>

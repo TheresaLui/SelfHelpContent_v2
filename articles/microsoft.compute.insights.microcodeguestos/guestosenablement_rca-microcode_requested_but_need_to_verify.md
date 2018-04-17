@@ -1,7 +1,7 @@
 <properties
-pageTitle="Microcode requested, but verify if the BTI registry keys are set"
-description="Microcode requested, but verify if the BTI registry keys are set"
-infoBubbleText="Microcode requested, but verify if the BTI registry keys are set"
+pageTitle="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
+description="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
+infoBubbleText="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"
@@ -17,7 +17,7 @@ cloudEnvironments="public"
 
 # Microcode requested, but verify if the BTI registry keys are set
 <!--issueDescription-->
-Customer **has requested** the microcode to be enabled through a tag but the BTI registry keys **could not be verified**.
+Customer **has requested** the microcode to be enabled through a tag but the BTI registry keys **could not be verified** in virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->**. Please verify manually.
 <!--/issueDescription-->
 
 For additional information:<br>
