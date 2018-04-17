@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Enroll Devices - iOS Enrollment."
+	pageTitle="Enroll Devices - iOS Enrollment"
 	description="Enroll Devices - iOS Enrollment"
 	service="microsoft.intune"
 	resource="intune"
