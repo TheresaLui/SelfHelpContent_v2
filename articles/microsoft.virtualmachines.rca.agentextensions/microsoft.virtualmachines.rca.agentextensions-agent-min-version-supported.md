@@ -1,5 +1,5 @@
 <properties
-pageTitle="Password Expired"
+pageTitle="Agent installed is below minimum version"
 description="Agent installed is below minimum version"
 infoBubbleText="Agent installed is below minimum version"
 service="microsoft.compute"
