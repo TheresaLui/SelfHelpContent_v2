@@ -12,9 +12,10 @@
 	cloudEnvironments="public"
 />
 
+# Advisory questions - VMware/Physical to Azure
 
 ## **Recommended documents**
-*  [Supported/Not-supported configurations](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-to-azure) for VMware/Physical machines to  Azure replication<br>
+* [Supported/Not-supported configurations](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-to-azure) for VMware/Physical machines to  Azure replication<br>
 * Ensure you run [**Deployment planner**](https://docs.microsoft.com/azure/site-recovery/site-recovery-deployment-planner) for capacity planning <br>
 * Start replicating [**VMware VMs to Azure**]( https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source) with ASR <br>
 * Start replicating [**Physical machines to Azure**]( https://docs.microsoft.com/azure/site-recovery/physical-azure-set-up-source) with ASR<br>
