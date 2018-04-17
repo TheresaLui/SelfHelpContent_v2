@@ -12,6 +12,8 @@
 	cloudEnvironments="public"
 />
 
+# Enable Protection - VMware/Physical to Azure
+
 ## **Recommended documents**
 * Troubleshoot [Enable replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/) <br>
 * Ensure push installation prerequisites for [Windows](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-windows-computer) and [Linux](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-linux-server) are met <br>
