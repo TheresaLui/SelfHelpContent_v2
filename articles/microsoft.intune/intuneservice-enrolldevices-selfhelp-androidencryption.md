@@ -12,11 +12,13 @@
 	cloudEnvironments="public"
 />
 
-# My android device is encrypted but company portal says it's not
+# My android device is encrypted but the Company Portal says it's not.
 
 ## **Recommended steps**
 
-Newer versions of Android, particularly starting with v7.0, require a startup passcode to make sure that your device is fully encrypted. Different device manufacturers have varying descriptions and locations for the startup passcode. Most of the time, this setting is referred to as "Secure Startup."  Common solutions are to enable a startup pin or fully encrypt the device.  For more information review [this document](https://docs.microsoft.com/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise-android).
+Android 7.0 and later require a startup passcode to make sure that the device is fully encrypted. The device setting is often called **Secure Startup**. However, descriptions and locations of startup passcodes vary between device manufacturers.
+
+To resolve, enable a startup pin or encrypt the entire device. For more information about each solution, see the [Intune documentation.](https://docs.microsoft.com/intune-user-help/your-device-appears-encrypted-but-cp-says-otherwise-android)
 
 
 

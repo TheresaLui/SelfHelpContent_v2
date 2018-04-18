@@ -12,10 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling windows 10 pc via mdm fails with 0x80180014 and error message "there was a problem. your organization does not support this version of windows"
+# Enrolling a Windows 10 PC via mobile device management fails with error code 0x80180014 and the following message: "There was a problem. Your organization does not support this version of Windows".
 
 ## **Recommended steps**
 
-This error occurs when device restrictions prevent the Windows 10 device from enrolling.  For more information on device restrictions and how to configure them please review [this documentation](https://docs.microsoft.com/intune/enrollment-restrictions-set).
+Your current device restrictions in Intune are set to prevent Windows 10 devices from enrolling. For information about how to configure device restrictions, see the [Intune documentation.](https://docs.microsoft.com/intune/enrollment-restrictions-set)
 
 

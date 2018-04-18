@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I added a scope group to a role, but administrators in that role still see other users or devices."
-	description="I added a scope group to a role, but administrators in that role still see other users or devices."
+	pageTitle="I added a scope group to a role, but users in that role still see other users or devices."
+	description="I added a scope group to a role, but users in that role still see other users or devices."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,10 +12,15 @@
 	cloudEnvironments="public"
 />
 
-# I added a scope group to a role, but administrators in that role still see other users or devices
+# I added a scope group to a role, but users in that role still see other users or devices.
 
 ## **Recommended steps**
 
-Scope groups do not filter out users or devices.  Rather, they limit the Security Groups or users you can assign policy or applications to, or which users can have remote tasks run on their devices.  Assigning policy or applications to a security group that is not in your Scope Groups will fail.  For more information on Scope groups please review this [documentation](https://docs.microsoft.com/intune/role-based-access-control).
+Scope groups do not filter out users or devices.  Rather scope groups:
+
+* Limit who users can assign policies or applications to
+* Allow only specific users to run remote tasks on devices
+
+If a security group is not within your scope group, you will not be able to assign polices or applications to the group. For more information about scope groups see the [Intune documentation.](https://docs.microsoft.com/intune/role-based-access-control)
 
 
