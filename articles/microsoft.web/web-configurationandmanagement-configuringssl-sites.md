@@ -16,8 +16,10 @@
 
 ## **Recommended documents**
 
-[Frequently Asked Questions on App Service Certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)<br>
-
-**How To:** <br>
-[Bind an existing custom SSL certificate to Azure Web Apps](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl)<br>
-[Buy and Configure an SSL Certificate for your Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/)
+* [Resolve HTTPS error or Certificate validation errors](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#https-fail)
+* [Resolve SSL binding issues](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#update-binding)
+* [Resolve Rekey and resync issues  with SSL](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-and-sync-the-certificate) 
+* [Configure TLS mutual authentication](https://docs.microsoft.com/azure/app-service/app-service-web-configure-tls-mutual-auth)
+* [Enforce and Test HTTPS](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl#enforce-https)  
+* [Export App Service certificate to PFX](https://azure.microsoft.com/updates/export-your-app-service-certificate-to-any-azure-service/)
+* [Commonly asked questions on SSL certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates) 
