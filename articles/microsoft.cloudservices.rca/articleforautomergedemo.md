@@ -6,7 +6,7 @@
 	resource="domainnames"
 	authors="chiragpa"
 	displayOrder=""
-	articleId="RoleRecycle_GuestOSUpdate_All_Instances_Down_Yanyantest"
+	articleId="RoleRecycle_GuestOSUpdate_All_Instances_Down_Yanyantest2"
   diagnosticScenario="CloudServiceRolecyle"
 	selfHelpType="rca"
 	supportTopicIds="32422590"
