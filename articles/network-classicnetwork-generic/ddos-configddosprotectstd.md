@@ -15,5 +15,4 @@
 ## **Recommended documents**
 Note: Exclusion of individual public IPs on a VNet is currently not supported.<br>
 Manage Azure DDoS Protection using the Azure [portal](https://docs.microsoft.com/azure/virtual-network/ddos-protection-manage-portal)<br>
-Azure DDoS Protection [overview](https://docs.microsoft.com/azure/virtual-network/ddos-protection-manage-portal)<br>
-Azure DDoS Protection [offerings](https://azure.microsoft.com/blog/azure-ddos-protection-service-preview/)
+Azure DDoS Protection [offerings](https://azure.microsoft.com/blog/azure-ddos-protection-for-virtual-networks-generally-available/)
