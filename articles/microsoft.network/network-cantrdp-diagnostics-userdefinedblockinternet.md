@@ -1,4 +1,4 @@
-c<properties
+<properties
 pageTitle="Route Blocked Internet"
 description="Route Blocked Internet"
 infoBubbleText="Issues with network traffic were detected. See details on the right."
