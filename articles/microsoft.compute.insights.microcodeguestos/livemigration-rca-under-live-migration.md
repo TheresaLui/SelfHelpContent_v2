@@ -17,7 +17,7 @@ cloudEnvironments="public"
 
 # Microcode requested, but not utilized
 <!--issueDescription-->
-The virtual name **<!--$VMName-->Virtual machine<!--/$VMName-->** is **currently undergoing** live migration and will be paused
+The virtual name **<!--$VMName-->Virtual machine<!--/$VMName-->** is **currently undergoing** live migration and will be paused for up to 20 seconds.
 <!--/issueDescription-->
 
 For additional information:<br>

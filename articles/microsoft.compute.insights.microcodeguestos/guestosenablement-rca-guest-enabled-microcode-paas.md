@@ -17,7 +17,7 @@ cloudEnvironments="public"
 
 # Guest OS has Microcode Enabled and is protected
 <!--issueDescription-->
-Customer **has requested** the microcode to be enabled through a tag and also the BTI registry keys **are set** cloud service **<!--$cloudservicename-->Cloud Service<!--/$cloudservicename-->**
+Customer **has requested** the microcode to be enabled through a tag and also the BTI registry keys **are set** in cloud service **<!--$cloudservicename-->Cloud Service<!--/$cloudservicename-->**
 <!--/issueDescription-->
 
 For additional information:<br>
