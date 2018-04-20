@@ -17,7 +17,7 @@
 # Can't connect PostgreSQL database server because of SSL connection errors
 
 <!--issueDescription-->
-Our internal service telemetry detected an usually high number (<!--$count-->count<!--$vmname-->) of SSL connection errors for your Azure Database for PostgreSQL database server. An unusually high number of SSL connection errors can have a negative performance on your database server. What this normally indications is that the database server is configured to require an SSL connection, but connection attempts to the server did not specify SSL resulting in a connection error and no connection.
+Thanks for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. During our investigation with you we determined that the database server was configured to require an SSL connection, but connection attempts to the server did not specify SSL resulting in a connection error and no connection.
 <!--/issueDescription-->
 
 ## **Recommended steps**
