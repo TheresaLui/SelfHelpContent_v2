@@ -1,4 +1,4 @@
-<properties  
+﻿<properties  
 	pageTitle="I can't connect to my Linux VM"
 	description="I can't connect to my Linux VM"
 	service="microsoft.compute"
@@ -25,7 +25,7 @@
  [Reset Password using CLI or PowerShell](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#fix-common-ssh-errors/)
  6. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
  7. Reset the SSH connection and configuration to fix SSH issues <br>
- [Reset SSH connection using CLI or PowerShell](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#fix-common-ssh-errors/)
+ [Reset SSH connection using CLI](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#fix-common-ssh-errors/)
  8. SSH to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
  9. Address any Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
 

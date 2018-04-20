@@ -16,6 +16,8 @@
 
 ## **Recommended documents**
 
+[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [How do I add devices to Intune for Education?](https://docs.microsoft.com/intune-education/how-do-i-add-devices)<br>
 [How do I use Take a Test profiles?](https://docs.microsoft.com/intune-education/take-a-test-profiles)<br>
 [How do I use remote actions?](https://docs.microsoft.com/intune-education/remote-actions)<br>
