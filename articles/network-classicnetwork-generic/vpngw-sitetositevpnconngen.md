@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# "Site-to-Site VPN connectivity issues"
+# Site-to-Site VPN connectivity issues
 
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
