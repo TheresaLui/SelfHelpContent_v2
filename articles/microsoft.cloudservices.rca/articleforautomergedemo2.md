@@ -6,7 +6,7 @@
 	resource="domainnames"
 	authors="chiragpa"
 	displayOrder=""
-	articleId="RoleRecycle_GuestOSUpdate_All_Instances_Down_Yanyantest2"
+	articleId="RoleRecycle_GuestOSUpdate_All_Instances_Down_Yanyantest3"
   diagnosticScenario="CloudServiceRolecyle"
 	selfHelpType="rca"
 	supportTopicIds="32422590"
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 ## **Role Recycle incident diagnostic information** ##
 
-Your role **<!--$RoleName-->RoleName<!--$RoleName-->** availability has been affected from **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  to **<!--$EndTime-->EndTime<!--/$EndTime--> (UTC)**.  The instance **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->**  was/were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
+Your role **<!--$RoleName-->RoleName<!--/$RoleName-->** availability has been affected from **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  to **<!--$EndTime-->EndTime<!--/$EndTime--> (UTC)**.  The instance **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->**  was/were down during this time frame. This expected occurrence was caused by an **Azure initiated planned maintenance action.**  
 
 <!--/issueDescription-->
 
