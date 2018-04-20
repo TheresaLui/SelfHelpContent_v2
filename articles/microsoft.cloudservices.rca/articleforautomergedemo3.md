@@ -24,14 +24,17 @@ Your role **<!--$RoleName-->RoleName<!--/$RoleName-->** availability has been af
 <!--/issueDescription-->
 
 This planned maintenance update required a reboot of your Role Instance to apply the required updates to the infrastructure. The Role Instance was shut down while we patched the infrastructure, and then the Role Instance was restarted.<br> 
-To learn more about planned maintenance on Azure, please refer to the following article:<br>
+To learn more about planned maintenance on Azure, please refer to the following article:
+
 * [Planned maintenance for Cloud Services in Azure ](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you have two or more instance for each of your Web\Worker Role.<br>
-To learn more about the kind of planned maintenance events that can impact the availability of your Cloud Service, their Notifications and mitigation strategy, please refer to the following articles:<br>
+To learn more about the kind of planned maintenance events that can impact the availability of your Cloud Service, their Notifications and mitigation strategy, please refer to the following articles:
+
 * [Role Instance restarts due to Planned Maintenance](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
 
-To learn more about all the past Guest OS release and their corresponding Security updated, please refer to the following articles:<br>
+To learn more about all the past Guest OS release and their corresponding Security updated, please refer to the following articles:
+
 * [Guest OS Releases](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix#releases)<br>
 * [Security updates on Guest OS](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-msrc-releases)<br>
 
