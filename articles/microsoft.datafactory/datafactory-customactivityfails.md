@@ -27,4 +27,4 @@ Debugging consists of a few basic techniques:
 7.	The custom activity does not use the **app.config** file from your package, so if your code reads any connection strings from the configuration file, it won't work at runtime. The best practice when using Azure Batch is to hold any secrets in a **Azure KeyVault**, use a certificate-based service principal to protect the **keyvault**, and distribute the certificate to Azure Batch pool. The .NET custom activity then can access secrets from the KeyVault at runtime. This is a generic solution and can scale to any type of secret, not just connection string.
 
 ## **Recommended documents**
-[Use custom activities in an Azure Data Factory pipeline](https://azure.microsoft.com/documentation/articles/data-factory-use-custom-activities/)
+[Use custom activities in an Azure Data Factory pipeline](https://docs.microsoft.com/azure/data-factory/v1/data-factory-use-custom-activities/)
