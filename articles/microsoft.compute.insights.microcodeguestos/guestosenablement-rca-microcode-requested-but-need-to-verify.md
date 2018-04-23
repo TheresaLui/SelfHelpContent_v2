@@ -1,7 +1,7 @@
 <properties
-pageTitle="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
-description="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
-infoBubbleText="Microcode requested, but verify if the BTI registry keys are set  - Virtual Machines"
+pageTitle="Microcode requested, BTI registry keys need manual verification - Virtual Machines"
+description="Microcode requested, BTI registry keys need manual verification - Virtual Machines"
+infoBubbleText="Microcode requested, BTI registry keys need manual verification - Virtual Machines"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"

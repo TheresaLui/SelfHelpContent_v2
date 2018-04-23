@@ -1,7 +1,7 @@
 <properties
-pageTitle="Microcode requested, but not utilized - Cloud Service"
-description="Microcode requested, but not utilized - Cloud Service"
-infoBubbleText="Microcode requested, but not utilized - Cloud Service"
+pageTitle="Microcode requested, BTI registry keys are not set - Cloud Service"
+description="Microcode requested, BTI registry keys are not set - Cloud Service"
+infoBubbleText="Microcode requested, BTI registry keys are not set - Cloud Service"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"

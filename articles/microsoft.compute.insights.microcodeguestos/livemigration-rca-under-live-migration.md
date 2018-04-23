@@ -1,7 +1,7 @@
 <properties
-pageTitle="This VM is currently undergoing live migration"
-description="This VM is currently undergoing live migration"
-infoBubbleText="This VM is currently undergoing live migration"
+pageTitle="VM is currently undergoing live migration"
+description="VM is currently undergoing live migration"
+infoBubbleText="VM is currently undergoing live migration"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"

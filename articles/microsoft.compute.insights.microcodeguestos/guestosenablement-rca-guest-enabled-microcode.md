@@ -1,7 +1,7 @@
 <properties
-pageTitle="Guest is enabled for the micro code  - Virtual Machines"
-description="Guest is enabled for the micro code  - Virtual Machines"
-infoBubbleText="Guest is enabled for the micro code - Virtual Machines"
+pageTitle="Guest is enabled for micro code and BTI is configured - Virtual Machines"
+description="Guest is enabled for micro code and BTI is configured - Virtual Machines"
+infoBubbleText="Guest is enabled for micro code and BTI is configured - Virtual Machines"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"
@@ -21,4 +21,4 @@ Customer **has requested** the microcode to be enabled through a tag and also th
 <!--/issueDescription-->
 
 For additional information:<br>
-* [Windows Server guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution)<br>
+* [Windows Server guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution)

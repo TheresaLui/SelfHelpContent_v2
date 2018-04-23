@@ -1,7 +1,7 @@
 <properties
-pageTitle="Agent installed is below minimum version"
-description="Agent installed is below minimum version"
-infoBubbleText="Agent installed is below minimum version"
+pageTitle="Agent installed is below minimum version supported"
+description="Agent installed is below minimum version supported"
+infoBubbleText="Agent installed is below minimum version supported"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"

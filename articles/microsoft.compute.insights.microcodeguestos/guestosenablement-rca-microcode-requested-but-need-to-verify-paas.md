@@ -1,7 +1,7 @@
 <properties
-pageTitle="Microcode requested, but verify if the BTI registry keys are set - Cloud Service"
-description="Microcode requested, but verify if the BTI registry keys are set - Cloud Service"
-infoBubbleText="Microcode requested, but verify if the BTI registry keys are set - Cloud Service"
+pageTitle="Microcode requested, BTI registry keys need manual verification - Cloud Service"
+description="Microcode requested, BTI registry keys need manual verification - Cloud Service"
+infoBubbleText="Microcode requested, BTI registry keys need manual verification - Cloud Service"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"

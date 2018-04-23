@@ -1,7 +1,7 @@
 <properties
-pageTitle="Microcode requested, but not utilized  - Virtual Machines"
-description="Microcode requested, but not utilized  - Virtual Machines"
-infoBubbleText="Microcode requested, but not utilized - Virtual Machines"
+pageTitle="Microcode requested, BTI registry keys are not set - Virtual Machines"
+description="Microcode requested, BTI registry keys are not set - Virtual Machines"
+infoBubbleText="Microcode requested, BTI registry keys are not set - Virtual Machines"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="scottAzure"
