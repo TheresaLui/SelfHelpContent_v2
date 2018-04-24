@@ -24,4 +24,4 @@ To provide layered security and service scalability connections from clients to 
 ## **Recommended documents**
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
-[Discussion forum](https://social.msdn.microsoft.com/Forums/azure/home?forum=ssdsgetstarted)
+[Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
