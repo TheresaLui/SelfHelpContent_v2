@@ -15,7 +15,7 @@
 # configuration and setup/deploy a new vm
 
 ## **Recommended documents**
-* Enhance your support ticket creation experience by deploying the VM with [boot diagnostics turned on](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostic)<br>
+* [Enhance your support ticket creation experience by deploying the VM with boot diagnostics turned on](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-image)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2fWindows%2ftoc.json)<br>
 * [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-allocation-failure?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
