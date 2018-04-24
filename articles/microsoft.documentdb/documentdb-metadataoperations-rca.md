@@ -6,7 +6,7 @@
 	resource="databaseAccounts"
 	authors="bharathb"
 	displayOrder=""
-	articleId="metadatacritical _43DFF466-CDE2-4319-95F7-92FF92B302A4"
+	articleId="metadatacritical_43DFF466-CDE2-4319-95F7-92FF92B302A4"
   diagnosticScenario="MachineKeyUpdates"
 	selfHelpType="rca"
 	supportTopicIds=""
