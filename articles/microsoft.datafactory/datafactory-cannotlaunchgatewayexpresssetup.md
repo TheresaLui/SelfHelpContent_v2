@@ -20,7 +20,7 @@ The Express setup for the self-hosted Integration Runtime (formerly called Data 
 - Please use Edge, Internet Explorer, or another Microsoft ClickOnce compatible web browser.
 
 	If you are using Chrome, go to the [Chrome web store](https://chrome.google.com/webstore/), search with "ClickOnce" keyword, choose one of the ClickOnce extensions, and install it. 
-	
+
 	You need to do the same for Firefox (install add-in). Click Open Menu button on the toolbar (three horizontal lines in the top-right corner), click Add-ons, search with "ClickOnce" keyword, choose one of the ClickOnce extensions, and install it. 
 
 - Use the **Manual Setup** link shown on the same blade in the portal to download installation file and run it manually. After the installation is successful, you will see the Integration Runtime Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service. 

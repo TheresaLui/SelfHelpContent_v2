@@ -27,14 +27,14 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "What is the region of the SSIS IR?",
-			"required": false,
+			"required": false
 		},
 		{
-			"id": "ir_name,
+			"id": "ir_name",
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What is the name of the SSIS IR?",
-			"required": true,
+			"required": true
 		},
 		{
 			"id": "using_vnet",

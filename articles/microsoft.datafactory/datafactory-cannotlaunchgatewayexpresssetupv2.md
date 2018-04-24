@@ -20,7 +20,7 @@ The Express setup for the Integration Runtime requires Edge or another Microsoft
 - Please use Edge or a Microsoft ClickOnce compatible web browser.
 
 	If you are using Chrome, go to the [Chrome web store](https://chrome.google.com/webstore/), search with "ClickOnce" keyword, choose one of the ClickOnce extensions, and install it. 
-	
+
 - Use the **Manual Setup** link shown on the same pane in the UI to download the installation file and run it manually. After the installation is successful, you will see the Integration Runtime Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service. 
 
 ## **Recommended documents**
