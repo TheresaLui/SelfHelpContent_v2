@@ -15,9 +15,11 @@
 
 # Cluster Scaling Fails With 'ScriptExecutionFailedDuringScale'.
 
-## **Recommended Steps**
-We noticed that the HDInsight cluster <!--$ClusterName--> ClusterName <!--/$ClusterName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptName--> ScriptName <!--$ScriptName--> uses a SAS key, which has expired.
+## Problem
 
+We noticed that the HDInsight cluster <!--$ClusterDnsName--> ClusterDnsName <!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptUri--> ScriptUri <!--$ScriptUri--> uses a SAS key, which has expired.
+
+## Recommended Mitigation Steps
 In order to scale up, the persisted script needs to be demoted, so that it does not run on the new node.
 
 There are 2 options to make persisted scripts work with scale ups:
