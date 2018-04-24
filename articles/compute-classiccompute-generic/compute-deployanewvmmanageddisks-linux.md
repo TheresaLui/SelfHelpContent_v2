@@ -15,6 +15,7 @@
 # Configuration and Setup/Deploy a VM with managed disks
 
 ## **Recommended documents**
+* [Enhance your support ticket creation experience by deploying the VM with boot diagnostics turned on](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
 * [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-allocation-failure?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
 * [N-Series: General considerations for N-series VMs ](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-n-series-driver-setup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
