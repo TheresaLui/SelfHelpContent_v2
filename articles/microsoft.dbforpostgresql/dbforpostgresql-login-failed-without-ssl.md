@@ -27,4 +27,4 @@ Thanks for contacting Microsoft support about your connection issues with Azure 
 ## **Recommended documents**
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
-[Discussion forum](https://social.msdn.microsoft.com/Forums/azure/home?forum=ssdsgetstarted)
+[Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
