@@ -17,12 +17,12 @@
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
-The cluster delete operation for <!--$ClusterDnsName-->Cluster Name<!--/$ClusterDnsName--> failed because there are locks on some of the resources in its resource group.
+The cluster delete operation for <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there are locks on some of the resources in its resource group.
 
 Since the delete did not succeed, a new cluster with the same name cannot be created in the same vNet.
 
 ## Locked Resources
-<!--$LockedResources-->Locked Resources<!--/$LockedResources-->  
+<!--$LockedResources-->[LockedResources]<!--/$LockedResources-->
 
 ## **Recommended steps**
 The locks on the above resources need to be removed before the delete can succeed. Please refer to [Using Azure Resource Locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) for instructions to remove these locks.
