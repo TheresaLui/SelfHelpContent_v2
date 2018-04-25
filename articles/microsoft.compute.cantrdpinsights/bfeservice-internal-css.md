@@ -18,17 +18,14 @@ cloudEnvironments="public"
 
 # Base Filtering Engine Service is not running
 <!--issueDescription-->
-Base Filtering Engine service is not running impacting network connectivity to the VM. This could  happen due to one of the below reasons:
-
-1. The service was set to disabled
-
-2. The service is crashing
-
-3. The Service is hung
-
-4. A dependent service is crashing/hung due to which this service is impacted as well.
+The Base Filtering Service (BFE) service is not running. This is preventing RDP connectivity to the VM. BFE controls operation of Windows Filtering Platform (WFP) which is a network traffic processing platform. If it is not running, it prevents network connectivity to the VM.
 <!--/issueDescription-->
 
-## **Recommended Steps - Internal**
+## **Recommended Steps**
+To mitigate the issue please try the below steps from [Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
+  * Query the state of the service by executing `sc query BFE`
+  * If the service is stopped, try starting the service by executing `sc start BFE`
+  * If the service is hung with a status starting or stopping, try to stop the service `sc stop NSI` and start it again using `sc start BFE`
+  * Once the service is started, set the service startup type to automatic by executing `sc config BFE start= auto`
 
-Please follow the guidance in the  [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can%E2%80%99t_RDP-SSH/TSG/Isolation_Bucket/Base_Filtering_Engine_service_is_not_starting) to investigate and resolve the issue.
+In case the service is not starting due to an error or due to an issue with the depending processes, a memory dump needs to be collected to investigate further. So please reach out to us approving the memory dump collection.

@@ -23,7 +23,7 @@ Guest OS firewall profiles were setup to block all inbound connections and this 
 
 <!--/issueDescription-->
 
-## **Customer Ready Mitigation Steps**
+## **Recommended Steps**
 
 1. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the keep the disks option when you do this.
 2. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm)
@@ -41,7 +41,3 @@ HKLM\ImpactedVM\ControlSet001\services\SharedAccess\Parameters\FirewallPolicy\St
 ```
 **Note**: If this machine has been boot up previously from the Last Known Good configuration, the ControlSet key may be different. To confirm from which ControlKey the machine is booting up check the value of the key `HKLM\BROKENSYSTEM\Select\Current`.
 10. Detach the repaired OS disk from the troubleshooting VM. Then [create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
-
-## **Internal**
-
-Please refer to the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can%E2%80%99t_RDP-SSH/TSG/Isolation_Bucket/GuestOS_firewall_blocking_inbound_traffic) to RCA and for more details.
