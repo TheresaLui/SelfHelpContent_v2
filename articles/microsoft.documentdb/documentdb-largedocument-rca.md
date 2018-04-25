@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Large documents - RCA"
 	description="RCA - High number operations inserting/updating large documents"
-	infoBubbleText="High number operations inserting/updating large documents."
+	infoBubbleText="High number operations inserting/updating large documents. See details on the right"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathb"
@@ -18,4 +18,4 @@
 <!--issueDescription-->
 We found a high number operations inserting/updating large documents
 <!--/issueDescription-->
-Inserting or updating large documents would require many RUs. If there are a large number of such operations, you might end up using most of your provisioned throughput. Please consider modelling your data to use smaller documents following this [link](https://docs.microsoft.com/en-us/azure/cosmos-db/modeling-data)
+Inserting or updating large documents would require many RUs. If there are a large number of such operations, you might end up using most of your provisioned throughput. Please consider modelling your data to use smaller documents following this [link](https://docs.microsoft.com/azure/cosmos-db/modeling-data)
