@@ -17,14 +17,14 @@
 # Can't connect PostgreSQL database server because of SSL connection errors
 
 <!--issueDescription-->
-Thanks for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. During our investigation with you we determined that the database server was configured to require an SSL connection, but connection attempts to the server did not specify SSL resulting in a connection error and no connection.
+Thanks for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. During our investigation we determined that the database server was configured to require an SSL connection, but connection attempts to the server did not specify SSL resulting in connection errors and failed connections.
 <!--/issueDescription-->
 
 ## **Recommended steps**
-1. To fix this issue please ensure SSL is configured correctly on the server, you can visit [this article](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) for assistance and that your clients are configured to connected to Azure Database for PostgreSQL using SSL. Some common application libraries and instructions to do this are located [here](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries). 
-2. You can also navigate to your database server on the [Azure Portal](https://portal.azure.com) and click on the **Connection Strings blade** to obtain some system generated connection strings for common application libraries
+1. To fix this issue please ensure SSL is configured correctly on the server. You can refer to [this article](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) for assistance with configuring your client applications to connect to Azure Database for PostgreSQL using SSL. You can download application libraries and connection instructions for many common languages [here](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries). 
+2. You can also obtain system-generated connection strings for common application libraries by navigating to your database server in the [Azure Portal](https://portal.azure.com) and click on the "**Connection Strings**" blade.
 
 ## **Recommended documents**
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
-[Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
+[PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
