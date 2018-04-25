@@ -1,7 +1,7 @@
 <properties
 pageTitle="BFE Service"
 description="BFE Service not running"
-infoBubbleText="BFE Service not running"
+infoBubbleText="Base Filtering Engine Service (BFE) is not running which may prevent RDP connectivity"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
@@ -16,7 +16,7 @@ cloudEnvironments="public"
 />
 
 
-# Base Filtering Engine Service is not running
+# Base Filtering Engine Service (BFE) is not running
 <!--issueDescription-->
 The Base Filtering Service (BFE) service is not running. This is preventing RDP connectivity to the VM. BFE controls operation of Windows Filtering Platform (WFP) which is a network traffic processing platform. If it is not running, it prevents network connectivity to the VM.
 <!--/issueDescription-->
