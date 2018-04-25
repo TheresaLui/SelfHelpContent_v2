@@ -1,6 +1,7 @@
 <properties
     pageTitle="Cluster Scaling Fails Due To Inaccessible Custom Script"
     description="Cluster Scaling Fails Due To Inaccessible Custom Script"
+    infoBubbleText="Found recent cluster scale failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
