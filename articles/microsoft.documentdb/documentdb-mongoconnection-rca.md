@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Mongo Connection Errors RCA"
 	description="RCA - Mongo Connection Errors"
-	infoBubbleText="Mongo connection closed on server side due to inactivity for account."
+	infoBubbleText="Mongo connection closed on server side due to inactivity for account. See details on the right"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathb"
