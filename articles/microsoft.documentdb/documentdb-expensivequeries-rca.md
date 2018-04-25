@@ -18,4 +18,4 @@
 <!--issueDescription-->
 We found a high number of expensive queries for your account
 <!--/issueDescription-->
-We found that a large percentage of the total RUs consumed for your account were due to expensive queries. You might want to consider rewriting the queries to consume fewer RUs. Additonally, you can follow this [link](https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips) for general performance guidelines.
+We found that a large percentage of the total RUs consumed for your account were due to expensive queries. You might want to consider rewriting the queries to consume fewer RUs. Additonally, you can follow this [link](https://docs.microsoft.com/azure/cosmos-db/performance-tips) for general performance guidelines.
