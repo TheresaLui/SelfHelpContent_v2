@@ -1,7 +1,7 @@
 <properties
 pageTitle="IP Hardcoded"
 description="Network Adapters"
-infoBubbleText="IP Hardcoded"
+infoBubbleText="A static IP has been set at the NIC level inside the guest OS preventing the RDP connectivity"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -18,24 +18,23 @@ cloudEnvironments="public"
 
 # Static IP is set at the guest OS level
 <!--issueDescription-->
-The virtual machine seems to have disabled DHCP and IP address not equal to null. This indicates static IP is set at the Guest OS level.
+A static IP has been set at the NIC level inside the guest OS preventing the RDP connectivity. 
 <!--/issueDescription-->
 
-
-You cannot connect to the Virtual Machine after you disable the default Network Interface (NIC) or manually set a static IP for the NIC.
+Setting a Static IP at the guest OS level is not recommended for Azure VMs not using the multiple IPs per NIC feature. To restore the connectivity, assign a new static IP at the NIC level from portal. 
 
 Virtual Machine [screenshot](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics) will show that OS is fully loaded and waiting for the credentials.
 
-## **Customer Ready Mitigation Steps**
+## **Recommended Steps**
 
-1.	In Azure portal, go to [Network Interface](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2Fnetworkinterfaces) attached to the virtual machine
+1.	In Azure portal, browse to [Network Interface](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2Fnetworkinterfaces) attached to the virtual machine
 2.	Select IP configuration and select the IP
 3.	If the Private IP assignment is not Static, change it to Static.
 4.	Change the IP address to another IP address that is available in the Subnet that you never used before
 5.	Click Save on the top left and the virtual machine will restart to initialize the new NIC to the system
-6.	Try to RDP to your machine and it should be working now
+6.	Try connecting to the VM via RDP to validate that the connectivity has been restored.
 
-After all of this, if you would like to use the old IP again, you must delete the old NICs to avoid the potential problem:
+In case you would like to use the old IP again, you must delete the old NICs in the guest to avoid the potential problem:
 
 1.	Open Device Manager
 2.	Select View > Show hidden devices
