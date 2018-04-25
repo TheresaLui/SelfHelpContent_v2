@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Expensive queries RCA"
 	description="RCA - expensive query operations on collection"
-	infoBubbleText="The cosmosdb account has expensive query operations."
+	infoBubbleText="The cosmosdb account has expensive query operations. See details on the right"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathb"
