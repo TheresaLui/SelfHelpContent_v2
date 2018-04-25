@@ -1,6 +1,7 @@
 <properties
     pageTitle="Cluster deletion failure due to resource locks"
     description="Cluster deletion failure due to locks on cluster resources"
+    infoBubbleText="Found recent cluster deletion failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
