@@ -1,0 +1,33 @@
+<properties
+	pageTitle="Mongo Connection Errors RCA"
+	description="RCA - Mongo Connection Errors"
+	infoBubbleText="Mongo connection closed on server side due to inactivity for account. See details on the right"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="bharathb"
+	displayOrder=""
+	articleId="mongoconnection_8C52AB01-61A4-4758-A14C-CC5702F83D3F"
+  diagnosticScenario="MachineKeyUpdates"
+	selfHelpType="rca"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds="15585"
+	cloudEnvironments="public"
+/>
+# We ran diagnostics on your resource and found an issue
+<!--issueDescription-->
+We found mongo connections being closed on your account
+<!--/issueDescription-->
+Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection.
+One of the connections is used to send regular periodic commands like isMaster, ping. 
+The other connections are used to issue user commands like query/insert/delete.
+It is possible that some of the connections in the connection pool would timeout (if that connection was not picked by driver to issue user commands for sometime).
+Because CosmosDB is a multi tenant service, we tear down TCP connections which are not used for sometime. 
+To avoid connectivity messages, the customer can change his connection string to set maxConnectionIdleTime and other values as follows (sample is only for nodejs)
+```
+MongoClientOptions.Builder optionsBuilder = new MongoClientOptions.Builder();
+optionsBuilder.socketTimeout(10000);
+optionsBuilder.maxConnectionIdleTime(60000);
+optionsBuilder.heartbeatConnectTimeout(5000);
+MongoClientURI mongoClientURI = new MongoClientURI(props.getMongoDbConnection(), optionsBuilder);
+```
