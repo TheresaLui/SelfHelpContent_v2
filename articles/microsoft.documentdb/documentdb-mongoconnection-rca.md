@@ -19,8 +19,7 @@
 We found mongo connections being closed on your account
 <!--/issueDescription-->
 Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection.
-One of the connections is used to send regular periodic commands like isMaster, ping.
- 
+One of the connections is used to send regular periodic commands like isMaster, ping. 
 The other connections are used to issue user commands like query/insert/delete.
 It is possible that some of the connections in the connection pool would timeout (if that connection was not picked by driver to issue user commands for sometime).
 Because CosmosDB is a multi tenant service, we tear down TCP connections which are not used for sometime. 
