@@ -6,20 +6,20 @@
     authors="ansi12"
     displayOrder="23"
     articleId="Hdi_ScaleFailure_SasKeyExpired"
-    selfHelpType="resource"
+    selfHelpType="rca"
     supportTopicIds="32588504, 32511179"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
 />
 
-# Cluster Scaling Fails With 'ScriptExecutionFailedDuringScale'.
+# We ran diagnostics on your resource and found an issue
 
 ## Problem
 
-We noticed that the HDInsight cluster <!--$ClusterDnsName--> ClusterDnsName <!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptUri--> ScriptUri <!--$ScriptUri--> uses a SAS key, which has expired.
+We noticed that the HDInsight cluster <!--$ClusterDnsName-->Cluster Name<!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptUri-->Script Uri<!--/$ScriptUri--> uses a SAS key, which has expired.
 
-## Recommended Mitigation Steps
+## **Recommended steps**
 In order to scale up, the persisted script needs to be demoted, so that it does not run on the new node.
 
 There are 2 options to make persisted scripts work with scale ups:
