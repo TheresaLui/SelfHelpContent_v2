@@ -1,7 +1,7 @@
 <properties
 pageTitle="Firewall Misconfigured"
 description="Firewall Misconfigured"
-infoBubbleText="Firewall Misconfigured"
+infoBubbleText="Guest OS firewall profiles were setup to block all inbound connections including the RDP traffic"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -19,7 +19,7 @@ cloudEnvironments="public"
 # Firewall is set to block all inbound connections
 <!--issueDescription-->
 
-Guest OS firewall profiles were setup to block all inbound connections and this includes the RDP traffic.
+Guest OS firewall profiles were setup to block all inbound connections including the RDP traffic
 
 <!--/issueDescription-->
 
