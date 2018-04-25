@@ -1,7 +1,7 @@
 <properties
 pageTitle="DHCP not running"
 description="DHCP Service not running"
-infoBubbleText="DHCP Service not running"
+infoBubbleText="DHCP Service not running on your VM preventing network connectivity"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
