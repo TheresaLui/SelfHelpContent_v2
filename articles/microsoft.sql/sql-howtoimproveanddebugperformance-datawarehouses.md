@@ -15,7 +15,7 @@
 # How to enhance and debug query performance
 
 ## **Recommended steps**
-To resolve the most common performance issues, try the following methods.
+The following are the most common issues for slow query performance:
 
 1. Ensure [table statistics are created and kept up to date](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-statistics#updating-statistics). SQL Data Warehouse does not currently support automatic creation or update of statistics. As you load data into your data warehouse, query plans can regress if statistics are not up to date.
 
