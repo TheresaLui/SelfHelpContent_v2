@@ -1,4 +1,4 @@
-<properties
+f<properties
 pageTitle="BFE Service"
 description="BFE Service not running"
 infoBubbleText="Base Filtering Engine Service (BFE) is not running which may prevent RDP connectivity"
@@ -28,4 +28,4 @@ To resolve the issue, please try the steps below using the Azure virtual machine
   * If the service is hung with a status starting or stopping, try to stop the service `sc stop NSI` and start it again using `sc start BFE`
   * Once the service is started, set the service startup type to automatic by executing `sc config BFE start= auto`
 
-In case the service is not starting due to an error or an issue with dependent processes, a memory dump needs to be collected to continue troubleshooting. If this is case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.  
+If the service is not starting due to an error or an issue with dependent processes, a memory dump needs to be collected to continue troubleshooting. If this is the case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.  
