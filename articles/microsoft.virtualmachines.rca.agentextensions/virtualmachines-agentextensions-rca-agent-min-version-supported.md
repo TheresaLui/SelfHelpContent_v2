@@ -32,5 +32,5 @@ Microsoft also recommends updating any custom images that may be used in future 
 
 ## **Recommended Documents**
 * [Minimum version support for virtual machine agents in Azure](https://support.microsoft.com/help/4049215/extensions-and-virtual-machine-agent-minimum-version-support)<br>
-* [Azure Virtual Machine Agent for Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/agent-user-guide)
-* [Azure Virtual Machine Agent for Windows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/agent-user-guide)
+* [Azure Virtual Machine Agent for Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/agent-user-guide)
+* [Azure Virtual Machine Agent for Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/agent-user-guide)
