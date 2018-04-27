@@ -15,14 +15,16 @@ productPesIds="14749,15797,15571"
 cloudEnvironments="public"
 />
 
-# Azure VM Agent installed is below minimum supported version
+# The installed Azure VM Agent is below the minimum supported version
 <!--issueDescription-->
-We have detected that the Azure VM Agent installed on your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** is below the minimum supported version for **<!--$ostype-->OS Type<!--/$ostype-->**: Detected version **<!--$agentversioninstalled-->Agent version<!--/$agentversioninstalled-->**, Minimum supported version **<!--$agentversionminimum-->Agent minimum version<!--/$agentversionminimum-->**
+We have detected that the Azure VM Agent installed on your virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** is below the minimum supported version for **<!--$ostype-->OS Type<!--/$ostype-->**<br> 
+Detected version **<!--$agentversioninstalled-->Agent version<!--/$agentversioninstalled-->**<br>
+Minimum supported version **<!--$agentversionminimum-->Agent minimum version<!--/$agentversionminimum-->**
 <!--/issueDescription-->
 
-The Microsoft Azure Virtual Machine Agent (VM Agent) is a secured, lightweight process that manages VM interaction with the Azure Fabric Controller. The VM Agent has a primary role in enabling and executing Azure virtual machine extensions.
+The Microsoft Azure Virtual Machine Agent (VM Agent) is a secured, lightweight process that manages VM interaction with the Azure Fabric Controller. The VM Agent has a primary role in enabling and executing Azure virtual machine extensions as well as enabling post-deployment configuration and recovery actions.
 
-The agent should be updated timely to receive fixes for the potential issues and to maintain compatibility with the Azure platform.
+The VM agent should be updated to the current version to ensure healthy operation of your virtual machine and to maintain compatibility with the Azure platform.
 
 Detailed instructions to update the agent can be found here:
 * [Upgrade the Linux Agent](https://docs.microsoft.com/azure/virtual-machines/linux/update-agent)
@@ -34,3 +36,4 @@ Microsoft also recommends updating any custom images that may be used in future 
 * [Minimum version support for virtual machine agents in Azure](https://support.microsoft.com/help/4049215/extensions-and-virtual-machine-agent-minimum-version-support)<br>
 * [Azure Virtual Machine Agent for Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/agent-user-guide)
 * [Azure Virtual Machine Agent for Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/agent-user-guide)
+
