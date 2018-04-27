@@ -1,4 +1,4 @@
-<properties
+properties
 pageTitle="NSI service Not running"
 description="NSINotRunning"
 infoBubbleText="Network Store Interface Service (NSI) is not running in your VM preventing network connectivity"
@@ -22,7 +22,7 @@ The NSI service is not running on the virtual machine, causing a loss of network
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide] (https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
 #### From the console: ####
   * Query the state of the service by executing `sc query NSI`
