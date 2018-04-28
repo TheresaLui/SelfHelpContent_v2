@@ -1,4 +1,4 @@
-properties
+<properties
 pageTitle="NSI service Not running"
 description="NSINotRunning"
 infoBubbleText="Network Store Interface Service (NSI) is not running in your VM preventing network connectivity"
