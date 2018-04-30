@@ -1,4 +1,4 @@
-properties
+<properties
 pageTitle="BFE Service"
 description="BFE Service not running"
 infoBubbleText="Base Filtering Engine Service (BFE) is not running which may prevent RDP connectivity"
