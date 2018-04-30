@@ -1,7 +1,7 @@
 <properties
 pageTitle="NSI service Not running"
 description="NSINotRunning"
-infoBubbleText="Network Store Interface Service (NSI) is not running in your VM preventing network connectivity"
+infoBubbleText="Network Store Interface Service (NSI) is not running in your VM preventing network connectivity. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
