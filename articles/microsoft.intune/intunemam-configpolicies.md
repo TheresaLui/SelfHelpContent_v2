@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# Admin is unable to configure app protection policies.
+# Admin is unable to configure app protection policies
 
 ## **Recommended steps**
 The admin must have one of the following roles:

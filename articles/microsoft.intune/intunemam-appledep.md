@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# App protection policy is not working for Apple DEP devices.
+# App protection policy is not working for Apple DEP devices
 
 ## **Recommended steps**
 

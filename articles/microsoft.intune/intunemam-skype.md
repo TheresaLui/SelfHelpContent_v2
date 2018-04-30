@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# App protection policies are not working for Skype for Business on iOS and Android devices.
+# app protection policies are not working for Skype for Business on iOS and Android devices
 
 ## **Recommended steps**
 
