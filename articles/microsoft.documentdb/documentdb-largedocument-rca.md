@@ -35,4 +35,4 @@ If there are properties/sections in your items that are not queried, and do not 
 If there are some keys with an uneven access pattern (e.g. super-users of your website who have a lot of activity events), consider the salting pattern so that their data can be spread across multiple partitions. See [Handling large partition keys](https://github.com/arramac/azure-documentdb-dotnet/tree/master/samples/Patterns/Patterns) for more details.
 
 ### Evaluate custom indexing policy
-If your items are dense in content (contain a larege number of properties), the RUs consumed for indexing may be high. Every property consumes about 0.15 RUs, and this can add up if you have 100s-1000s or RUs. See [Indexing policies](https://docs.microsoft.com/en-us/azure/cosmos-db/indexing-policies) for more details.
+If your items are dense in content (contain a larege number of properties), the RUs consumed for indexing may be high. Every property consumes about 0.15 RUs, and this can add up if you have 100s-1000s or RUs. See [Indexing policies](https://docs.microsoft.com/azure/cosmos-db/indexing-policies) for more details.
