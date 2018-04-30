@@ -26,4 +26,4 @@ The Cosmos DB SDK on initialization of the `DocumentClient` constructor fetches 
 ### Cache the names of databases/collections
 Retrieve the names of your databases and collections from configuration or cache them on start. Calls like `readDatabase` or `queryDatabases` will result in calls to the service, and will consume RUs. They must be performed infrequently, i.e. not on every call. 
 
-For other tips on performance and SDK best practices, please see [.NET tips](https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips) and [Java tips](https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips-java).
+For other tips on performance and SDK best practices, please see [.NET tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips) and [Java tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java).
