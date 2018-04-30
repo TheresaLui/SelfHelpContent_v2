@@ -1,7 +1,7 @@
 <properties
 pageTitle="Firewall Not running"
 description="Firewall Setting"
-infoBubbleText="Windows firewall service is not running in your VM preventing connectivity"
+infoBubbleText="Windows firewall service is not running in your VM preventing connectivity.  See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -22,10 +22,11 @@ The Windows firewall service is not running in your virtual machine. The service
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To mitigate the issue please try the below steps from [Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
+To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+#### From the console: ####
   * Query the state of the service by executing `sc query Mpssvc`
   * If the service is stopped, try starting the service by executing `sc start Mpssvc`
   * If the service is hung with a status starting or stopping, try to stop the service `sc stop Mpssvc` and start it again using `sc start Mpssvc`
   * Once the service is started, set the service startup type to automatic by executing `sc config Mpssvc start= auto`
 
-In case the service is not starting due to an error or due to an issue with the depending processes, a memory dump needs to be collected to investigate further. So please reach out to us approving the memory dump collection.
+If the service is not starting due to an error or an issue with a dependent process, a memory dump needs to be collected to continue troubleshooting. If this is the case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.  
