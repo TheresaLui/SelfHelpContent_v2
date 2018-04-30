@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="Admin is unable to configure app protection policies"
     description="Admin is unable to configure app protection policies"
     service="microsoft.intune"
