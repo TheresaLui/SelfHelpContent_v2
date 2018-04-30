@@ -1,7 +1,7 @@
 <properties
 pageTitle="BFE Service"
 description="BFE Service not running"
-infoBubbleText="Base Filtering Engine Service (BFE) is not running which may prevent RDP connectivity"
+infoBubbleText="Base Filtering Engine Service (BFE) is not running which may prevent RDP connectivity.  See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
