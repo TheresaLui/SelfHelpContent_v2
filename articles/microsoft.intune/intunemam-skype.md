@@ -1,6 +1,6 @@
 ﻿<properties
     pageTitle="App protection policies are not working for Skype for Business on iOS and Android devices"
-    description="App protection policies are not working for Skype for Business on iOS and Android devices"
+    description="App protection policies are not working for Skype for Business on iOS and Android devices"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
