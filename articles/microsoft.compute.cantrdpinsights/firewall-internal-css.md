@@ -1,7 +1,7 @@
 <properties
 pageTitle="Firewall Not running"
 description="Firewall Setting"
-infoBubbleText="Windows firewall service is not running in your VM preventing connectivity"
+infoBubbleText="Windows firewall service is not running in your VM preventing connectivity.  See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
