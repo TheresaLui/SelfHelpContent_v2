@@ -16,7 +16,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We found a high number operations inserting/updating large documents
+We found a high number operations inserting/updating large documents.
 <!--/issueDescription-->
 Inserting or updating large documents would require many RUs. If there are a large number of such operations, you might end up using most of your provisioned throughput. 
 
@@ -33,6 +33,3 @@ If there are properties/sections in your items that are not queried, and do not 
 
 ### For data skews, consider the salting pattern
 If there are some keys with an uneven access pattern (e.g. super-users of your website who have a lot of activity events), consider the salting pattern so that their data can be spread across multiple partitions. See [Handling large partition keys](https://github.com/arramac/azure-documentdb-dotnet/tree/master/samples/Patterns/Patterns) for more details.
-
-### Evaluate custom indexing policy
-If your items are dense in content (contain a larege number of properties), the RUs consumed for indexing may be high. Every property consumes about 0.15 RUs, and this can add up if you have 100s-1000s or RUs. See [Indexing policies](https://docs.microsoft.com/azure/cosmos-db/indexing-policies) for more details.
