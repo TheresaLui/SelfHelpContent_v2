@@ -14,8 +14,9 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
+# We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-# A large percentage of the total request units (RUs) consumed for your account were due to expensive queries.
+A large percentage of the total request units (RUs) consumed for your account were due to expensive queries.
 <!--/issueDescription--> 
 We found that one or more queries in your account are consuming an unusually high number of RUs.  You may be able to increase the efficiency of your Azure Cosmos DB queries using the following tips.  
 
