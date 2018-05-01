@@ -14,11 +14,10 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We found a high number operations inserting/updating large documents.
+# We found a high number of operations that are inserting or updating large documents.
 <!--/issueDescription-->
-Inserting or updating large documents would require many RUs. If there are a large number of such operations, you might end up using most of your provisioned throughput. 
+Inserting or updating large documents requires many request units (RUs). If there are a large number of such operations, you might end up using most of your provisioned throughput. You may be able to make better use of your available RUs using the tips below.  
 
 ### Prefer smaller documents over larger documents
 Writing a 1kb document = 5 RUs, 4kb document = 7 RUs, 64kb document = 48 RUs. Therefore, prefer smaller documents when possible. If your data can be subdivided into parts that are updated independently, consider breaking it up into smaller documents. 
