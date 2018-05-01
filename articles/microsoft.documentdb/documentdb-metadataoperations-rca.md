@@ -14,8 +14,9 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
+# We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-# We found a high number of metadata operations on your account.
+We found a high number of metadata operations on your account.
 <!--/issueDescription-->
 In Cosmos DB, data is distributed across partitions. This includes metadata about your databases/collections. Metadata for Cosmos DB has a system-reserved request unit (RU) limit. You can avoid rate limiting from metadata operations by following these patterns.
 

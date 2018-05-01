@@ -14,8 +14,9 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
+# We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-# We found a high number of operations that are inserting or updating large documents.
+We found a high number of operations that are inserting or updating large documents.
 <!--/issueDescription-->
 Inserting or updating large documents requires many request units (RUs). If there are a large number of such operations, you might end up using most of your provisioned throughput. You may be able to make better use of your available RUs using the tips below.  
 
