@@ -3,7 +3,7 @@
 	description="How to connect"
 	service="microsoft.sql"
 	resource="servers"
-	authors="kevin"
+	authors="kevinvngo"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32412144"
