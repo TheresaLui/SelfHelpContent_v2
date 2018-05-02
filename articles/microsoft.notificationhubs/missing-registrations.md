@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # My devices/registrations disappeared from my hub after push.

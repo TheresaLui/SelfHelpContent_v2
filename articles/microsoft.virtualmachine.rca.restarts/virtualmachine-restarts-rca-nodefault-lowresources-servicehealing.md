@@ -17,13 +17,13 @@
 # We ran diagnostics on your resource and found an issue
  
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for [vmname]<!--($vmname)-->:** ##
+## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
 
-We identified that your VM became unavailable at **[StartTime]<!--($StartTime)--> (UTC)** and availability was restored at **[EndTime]<!--($EndTime)--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated auto-recovery action**.
+We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated auto-recovery action**.
 <!--/issueDescription-->
 
-The auto-recovery action was triggered by our Azure monitoring systems after detecting that the physical node where the virtual machine was hosted was running low on resources. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time. 
- 
+The auto-recovery action was triggered by our Azure monitoring systems after detecting that the physical node where the virtual machine was hosted was running low on resources. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.
+
 Our core platform engineers have identified the bug and are currently working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.  At the moment, we do not have a timeline for the fix to be deployed.<br>
 To learn more about our automated recovery action, please read the following article:<br>
 * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)<br>

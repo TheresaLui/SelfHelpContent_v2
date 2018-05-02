@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="I can’t delete a user from my directory"
     description=" I can’t delete a user from my directory"
     service="microsoft.aad"
@@ -9,7 +9,7 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="public"
  />
-# I can’t delete a user from my directory 
+# I can’t delete a user from my directory
 
 ## **Recommended steps**
 
@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 
-* [Delete a user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
+* [Delete a user in the Azure portal](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal)
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
 * [Use Azure AD PowerShell to delete a user](https://docs.microsoft.com/powershell/azuread/v2/remove-azureaduser)

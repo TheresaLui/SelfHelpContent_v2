@@ -9,7 +9,7 @@
 	supportTopicIds="32558805"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Service Fabric Windows Server On-Premises

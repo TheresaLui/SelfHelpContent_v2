@@ -1,10 +1,10 @@
 <properties
-    pageTitle="Applying conditional access policy to 'all cloud apps'"
-    description="Applying conditional access policy to 'all cloud apps'"
+    pageTitle="Problems setting policy that applies to 'all cloud apps'"
+    description="Problems setting policy that applies to 'all cloud apps'"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="jcardena"
-    displayOrder="4"
+    displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="conditionalaccess_overview"
@@ -12,15 +12,15 @@
     cloudEnvironments="public"
 />
 
-# Applying conditional access policy to 'all cloud apps'
+# Problems setting policy that applies to 'all cloud apps'
 
-Conditional access policy can be applied to all cloud applications. If policy is applied incorrectly, access to policy management can be blocked. It is best to roll out the policy to a small set of users.
+Conditional access policy that applies to 'all cloud apps' will be enforced for any web site or web service. This includes the Azure Portal. Because the policy has a broad impact it is recommended that policy gets rolled out and verified with a small set of users before it is rolled out to all users.
 
 ## **Recommended steps**
 
 *	When policy is applied to all clouds, make sure administrator accounts are excluded
 *	Ensure policy behaves as expected before applying to administrator accounts
 
-
-## **Recommended documents**
-[What to avoid when setting conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal#what-you-should-avoid-doing) <br>
+For more details, see:
+<br>
+[How to avoid account lock out when setting conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal#what-you-should-avoid-doing)

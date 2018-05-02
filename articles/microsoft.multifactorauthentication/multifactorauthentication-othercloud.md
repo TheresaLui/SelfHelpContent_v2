@@ -2,8 +2,8 @@
     pageTitle="MFA Service (Cloud)/Other questions regarding MFA Service (cloud)"
     description="MFA Service (Cloud)/Other questions regarding MFA Service (cloud)"
     service="microsoft.multifactorauthentication"
-    resource="Microsoft_AAD_IAM"
-    authors="yossib"
+    resource=""
+    authors="kgremban"
     selfHelpType="generic"
     supportTopicIds="32565587"
     productPesIds="14947"
@@ -24,9 +24,9 @@ If you're trying to access the MFA Management Portal via the MFA Service Setting
 
 ## **Recommended documents**
  
-[Frequently asked questions about Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-faq)  
-[Getting started with the Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud)  
-[Getting started with an Azure Multi-Factor Auth Provider](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-auth-provider)  
-[Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)  
-[User States in Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-user-states)  
-[Azure Multi-Factor Authentication End User Guide](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/multi-factor-authentication-end-user)  
+- [Frequently asked questions about Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-faq)  
+- [Getting started with the Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud)  
+- [Getting started with an Azure Multi-Factor Auth Provider](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-auth-provider)  
+- [Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-whats-next)  
+- [User States in Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-user-states)  
+- [Azure Multi-Factor Authentication End User Guide](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/multi-factor-authentication-end-user)  

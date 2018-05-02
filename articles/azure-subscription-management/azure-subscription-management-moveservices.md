@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
+[Transferring ownership of an Azure subscription](https://docs.microsoft.com/azure/billing-subscription-transfer)<br>
 [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
-[Transferring ownership of an Azure subscription](https://docs.microsoft.com/azure/billing-subscription-transfer)

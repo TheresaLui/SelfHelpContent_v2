@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="1"
 	selfHelpType="resource"
+    resourceTags="cdnakamai, cdnverizon"
 	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
+	productPesIds="15528"
 	cloudEnvironments="public"
 />
 

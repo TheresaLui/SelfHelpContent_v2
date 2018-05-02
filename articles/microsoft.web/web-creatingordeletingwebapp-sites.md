@@ -8,21 +8,18 @@
 	selfHelpType="generic"
 	supportTopicIds="32542209"
 	resourceTags=""
-	productPesIds="14748, 16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
 />
 
 # configuration and management/creating or deleting web app
 
-## **Recommended steps**
-If you are unable to delete your App Service Plan please check if there are resources associated with the App Service Plan you are trying to delete. Remove all the associated entities from the plan and this should allow you to delete.
-
-Another common issue is experiencing a 'Provisioning Failed' error while trying to create a web site with a name that had been previously deleted. Please follow the steps below to resolve the problem:
-
-1. Connect to the new portal (portal.azure.com) with the Subscription ID where you created the web site originally.
-2. Create a web site with the exact name that you are trying to create. This will connect a new website with the previously deleted site.
-3. Go to the old portal (manage.windowsazure.com) and delete the site. This will delete whatever was left from the previous web site.
-4. In the old portal create the web site again.
-
 ## **Recommended documents**
-[The limits per App Service Plan are documented here](https://azure.microsoft.com/pricing/details/app-service/plans/)
+Things to consider if you are running into issues when creating resources: <br>
+1. [Ensure you are not running into any App Service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits#app-service-limits)<br>
+2. [App Services pricing](https://azure.microsoft.com/pricing/details/app-service/)<br>
+
+How-To: <br>
+1. [Quickstart: Create a Web App](https://azure.microsoft.com/get-started/web-app/) <br>
+2. [Create an app service plan](https://docs.microsoft.com/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview#create-an-app-service-plan-or-use-existing-one) <br>
+3. [Manage your application with PowerShell](https://docs.microsoft.com/azure/app-service/app-service-powershell-samples) <br>

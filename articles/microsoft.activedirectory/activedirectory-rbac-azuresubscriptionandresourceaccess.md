@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Azure subscription and resource access (RBAC)"
-	description="Azure Active Directory troubleshooting"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="Jeffsta-MSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32565605"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Azure subscription and resource access (RBAC)"
+    description="Azure Active Directory troubleshooting"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="Jeffsta-MSFT"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32565605"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Azure subscription and resource access (RBAC)
 

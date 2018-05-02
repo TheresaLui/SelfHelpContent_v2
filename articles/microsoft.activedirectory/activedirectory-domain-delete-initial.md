@@ -4,10 +4,10 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="ElizavetaKuzmenko"
-    displayOrder="4923"
+    displayOrder="4293"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="directory_domain"
+    resourceTags="directory_domain,domain_directory"
     productPesIds=""
     cloudEnvironments="public"
     />

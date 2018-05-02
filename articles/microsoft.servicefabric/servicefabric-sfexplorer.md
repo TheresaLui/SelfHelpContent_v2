@@ -9,7 +9,7 @@
 	supportTopicIds="32449695"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # tools/service fabric explorer

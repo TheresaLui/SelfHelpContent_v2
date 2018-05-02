@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Problem deleting a domain name"
-	description="Azure Active Directory case submission self help"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
-	authors="ElizavetaKuzmenko"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32045808"
-	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-/>
+    pageTitle="Problem deleting a domain name"
+    description="Azure Active Directory case submission self help"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ElizavetaKuzmenko"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32045808"
+    resourceTags=""
+    productPesIds="14785"
+    cloudEnvironments="public"
+    />
 
 # Problem deleting a domain name 
 

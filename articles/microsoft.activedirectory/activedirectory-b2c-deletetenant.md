@@ -14,6 +14,6 @@
 
 # I cannot delete my tenant
 
-
 ## **Recommended documents**
+
 [Steps on deleting an Azure AD B2C tenant.](https://support.microsoft.com/help/3112170/-cannot-delete-error-when-you-try-to-delete-a-b2c-directory-in-azure-ad)

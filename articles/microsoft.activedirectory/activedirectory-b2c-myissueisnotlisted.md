@@ -17,7 +17,7 @@
 
 You can get help for many common problems by exploring the following channels.
 
-* Post your question on [Stackoverflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'
+* Post your question on [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-ad-b2c) using the tag 'azure-ad-b2c'
 * Browse [Azure AD B2C FAQ](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-faqs)
 
 If you have a feature you would like to see, vote for it on [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/category/160596-b2c)!
