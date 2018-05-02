@@ -1,7 +1,7 @@
 <properties
 pageTitle="NSI service Not running"
 description="NSINotRunning"
-infoBubbleText="Network Store Interface Service (NSI) is not running"
+infoBubbleText="Network Store Interface Service (NSI) is not running in your VM preventing network connectivity. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
@@ -15,24 +15,19 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Network Store Interface Service (NSI) is not running
+# Network Store Interface (NSI) Service is not running
 
 <!--issueDescription-->
-The NSI service is not running on the Virtual Machine. This impacts the network connectivity of the VM. This could happen if the service is disabled accidentally or if the service is crashing or hung.
-
-* From [Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) `sc query NSI`
-  * If the service is stopped, try starting the service `sc start NSI`
-  * If the service is hung at starting to stopping try stopping the service `sc stop NSI` and try starting the service.
-  * If you the service is still hung, collect [procdump](https://docs.microsoft.com/sysinternals/downloads/procdump) to investigate further. Detailed process can be found in the internal article.
-  * In case the service is not starting due to an error or due to an issue with the depending processes, collect a memory dump to debug the issue.
-* Set the service status to auto start type using `sc config NSI start= auto`
-
-
-
-
+The NSI service is not running on the virtual machine, causing a loss of network connectivity. This could happen if the service is disabled accidentally or if the service is crashing or hung.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-**Check or set NSI Service**
+To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
-Refer to the steps in the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/CantRDPSSH/TSG/Isolation_Bucket/Network_Store_Interface_service_is_not_starting) for detailed troubleshooting steps.
+#### From the console: ####
+  * Query the state of the service by executing `sc query NSI`
+  * If the service is stopped, try starting the service by executing `sc start NSI`
+  * If the service is hung with a status starting or stopping, try to stop the service `sc stop NSI` and start it again using `sc start NSI`
+  * Once the service is started, set the service startup type to automatic by executing `sc config NSI start= auto`
+
+If the service is not starting due to an error or an issue with dependent processes, a memory dump needs to be collected to continue troubleshooting. If this is the case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.  
