@@ -24,4 +24,4 @@
 * [Guidance for performance and scaling](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json#scale-set-performance-and-scale-guidance)<br>
 * [Use Azure Monitor autoscaling to scale the number of running instances](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-common-metrics)<br>
 * [Advanced autoscale configuration using Resource Manager templates](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-advanced-autoscale-virtual-machine-scale-sets)<br>
-
+* [Low-priority VMs on scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-low-priority)
