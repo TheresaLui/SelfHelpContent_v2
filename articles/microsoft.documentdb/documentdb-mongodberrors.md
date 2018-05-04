@@ -12,7 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# MongoDB API - Common issues
+# Recommended Steps
+# Mongo API - Common errors
 
 ### Client connection errors
 Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection. On the server side, connections which are idle for more than 30 minutes are automatically closed down.
