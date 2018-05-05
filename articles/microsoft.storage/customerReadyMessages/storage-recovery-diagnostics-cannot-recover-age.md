@@ -19,7 +19,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 
-Microsoft Azure identified that <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is not recoverable since it was deleted for more than 14 days ago.<br>
+Microsoft Azure identified that <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is not recoverable because it was deleted for more than 14 days ago.<br>
 
 Regards,<br>
 Microsoft Azure Team
