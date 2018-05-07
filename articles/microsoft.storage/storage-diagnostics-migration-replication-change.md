@@ -15,10 +15,10 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **Replication type cannot change during account migration**
+ # **Cannot change replication type due to system maintenance**
 
 <!--issueDescription-->
-Microsoft Azure identified that maintenance operation is currently occuring in your account Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that prevents you from changing your replication type. We expect this maintenance operation to take a couple of days. Please feel free to retry replication type change again later, we sincerely apologize for this ongoing maintenance.<br>
+Microsoft Azure identified that a maintenance operation is occuring on your Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. This operation does not impact regular storage operations but prevents changing replication type on the Storage Account. It could take up to a week for this operation to complete, and we recommend retrying changing your replication type again later. We sincerely apologize for the inconvienence.<br>
 
 Regards,<br>
 Microsoft Azure Team

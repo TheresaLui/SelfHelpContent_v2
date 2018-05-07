@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # **Storage account recovered**
 
 <!--issueDescription-->
-Microsoft Azure is happy to inform you that the accidently deleted Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** has been recovered.<br>
+Microsoft Azure is happy to inform you that we were able to successfully recover the deleted storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. **recommendation**<br>
 
 Regards,<br>
 Microsoft Azure Team
