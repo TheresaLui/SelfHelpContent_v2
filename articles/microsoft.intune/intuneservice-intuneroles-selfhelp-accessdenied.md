@@ -22,7 +22,7 @@
 
 * Verify that you have been assigned the appropriate role-based administration control (RBAC) permissions in the Intune roles blade.
 
-* Verify the group used is not a distribution list". Intune in the Azure portal only supports user accounts that belong to Azure Active Directory security groups.  Review your groups in the Azure portal > **Intune** > **Groups** or in Azure portal > **Azure Active Directory**.
+* Verify the group used is not a distribution list. Intune in the Azure portal only supports user accounts that belong to Azure Active Directory security groups.  Review your groups in the Azure portal > **Intune** > **Groups** or in Azure portal > **Azure Active Directory**.
 
 
 

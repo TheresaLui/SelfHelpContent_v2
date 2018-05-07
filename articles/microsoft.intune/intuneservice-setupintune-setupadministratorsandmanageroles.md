@@ -24,7 +24,7 @@ Let's take a look at a couple common Intune Roles issues and how to resolve them
 
 * Verify that you have been assigned the appropriate role-based administration control (RBAC) permissions in the Intune roles blade.
 
-* Verify the group used is not a distribution list". Intune in the Azure portal only supports user accounts that belong to Azure Active Directory security groups.  Review your groups in the Azure portal > **Intune** > **Groups** or in Azure portal > **Azure Active Directory**.
+* Verify the group used is not a distribution list. Intune in the Azure portal only supports user accounts that belong to Azure Active Directory security groups.  Review your groups in the Azure portal > **Intune** > **Groups** or in Azure portal > **Azure Active Directory**.
 
 **One of my users seems to have too many permissions for the role I've assigned them in Intune.**
 
@@ -32,7 +32,7 @@ Advise the user to go to **Intune** > **Intune roles** > **My permissions** > **
 
 **I added a scope group to a role, but users in that role still see other users or devices.**
 
-Scope groups do not filter out users or devices.  Rather scope groups:
+	Scope groups do not filter out users or devices.  Rather scope groups:
 
 * Limit who users can assign policies or applications to
 * Allow only specific users to run remote tasks on devices
@@ -41,7 +41,7 @@ If a security group is not within your scope group, you will not be able to assi
 
 **I added a user to an Intune role but they still have full access to the Intune admin console.**
 
-Verify that the user is not assigned to any of the following roles in the Azure portal:
+	Verify that the user is not assigned to any of the following roles in the Azure portal:
 
 * Global administrator
 * Intune service administrator
@@ -51,9 +51,9 @@ Verify that the user is not assigned to the following role in the Intune classic
 
 * Service administrator
 
-Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.
+	Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.
 
-Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+	Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 [Role-based administration control with Microsoft Intune](https://docs.microsoft.com/intune/role-based-access-control)<br>
