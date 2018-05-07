@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Set up Intune - Setup administrators and manage roles"
-	description="Set up Intune - Setup administrators and manage roles"
+	pageTitle="Set up Intune - setup administrators and manage roles"
+	description="Set up Intune - setup administrators and manage roles"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
