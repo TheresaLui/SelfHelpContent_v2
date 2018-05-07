@@ -15,6 +15,7 @@
 # worker role (paas)/configuration and management/certificate management
 
 ## **Recommended documents**
+[Buy and Configure an SSL certificate from Azure App Service for Cloud Service](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site)<br>
 [How to configure and Upload an SSL Certificate for Cloud Services](https://azure.microsoft.com/documentation/articles/cloud-services-configure-ssl-certificate/) <br>
 [Upload a certificate to an Azure Cloud Service](https://docs.microsoft.com/powershell/module/azure/add-azurecertificate?view=azuresmps-4.0.0)<br>
 [How to enable Cloud Service SSL service for muti-domain configuration](https://blogs.msdn.microsoft.com/jianwu/2014/12/17/expose-ssl-service-to-multi-domains-from-the-same-cloud-service/) <br>
