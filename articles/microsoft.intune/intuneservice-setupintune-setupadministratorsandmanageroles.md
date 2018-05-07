@@ -56,6 +56,6 @@ Users in these roles have full access to Intune in the Azure portal. To check th
 Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
-[Role-based administration control (RBAC) with Microsoft Intune](https://docs.microsoft.com/intune/role-based-access-control)<br>
+[Role-based administration control with Microsoft Intune](https://docs.microsoft.com/intune/role-based-access-control)<br>
 [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
 [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
