@@ -14,13 +14,12 @@
 
 # Open Source Technologies/ClearDB
 
-ClearDB is a third-party service that provides the ability to use MySQL-as-a-service. Support for several ClearDB scenarios such as "My database is down" and "Error Establishing Database Connection"  is provided by ClearDB. Click [here](https://www.cleardb.com/developers/help/support) for ClearDB support contact information.<br>
+ClearDB is a third-party service that provides the ability to use MySQL-as-a-service. In order to better serve their customers, ClearDB will be retiring from Azure Marketplace but will continue to provide their MySQL services outside of Azure Marketplace. We encourage customers to transition to a direct account relationship with ClearDB. <br> 
 
-If you are looking for support with any portal related issues with ClearDB management,  then please continue to create a Microsoft support case. 
-Also please review the [FAQ](https://azure.microsoft.com/documentation/articles/store-cleardb-faq/) for ClearDB MySQL databases with Azure App Service to see if your question is already answered.
+Click [here](https://www.cleardb.com/developers/help/support) for ClearDB support contact information.<br>
 
 ## **Recommended documents**
-[ClearDB FAQ](https://azure.microsoft.com/documentation/articles/store-cleardb-faq/)<br>
-[Data Migration](https://blogs.msdn.microsoft.com/azureossds/tag/database-migration)<br>
-[How to Upgrade](https://blogs.msdn.microsoft.com/azureossds/tag/cleardb-upgrade/)<br>
-[Troubleshooting](https://blogs.msdn.microsoft.com/azureossds/tag/cleardb-troubleshooting/)
+* [Delete a resource in Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal#delete-resource-group-or-resources)
+* [Migrate database from ClearDB to Azure database for MySQL](https://azure.microsoft.com/blog/cleardb-migration-to-azure-database-for-mysql/)
+* [Import your database to MySQL in-app](https://blogs.msdn.microsoft.com/appserviceteam/2016/08/18/exporting-your-database-to-local-mysql/#import-db)<br>
+

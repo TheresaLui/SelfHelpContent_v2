@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My device failed to enroll.  How do I find out why?"
-	description="My device failed to enroll.  How do I find out why?"
+	pageTitle="A device failed to enroll - how do I find out why?"
+	description="A device failed to enroll - how do I find out why?"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# My device failed to enroll.  How do I find out why?
+# A device failed to enroll - how do I find out why?
 
 ## **Recommended steps**
 
-The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It will also provide resolutions for many common enrollment failures along with issues for policy, apps and other features.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+Go to [Troubleshoot](https://aka.ms/intunetroubleshooting1) to look up the details of a user's enrollment failures. Here you'll find resolutions for enrollment failures and resolutions for problems that have to do with policy, apps, and other Intune features. For more information about the troubleshooting portal see the [Intune documentation.](https://docs.microsoft.com/intune/help-desk-operators)
 
 
 

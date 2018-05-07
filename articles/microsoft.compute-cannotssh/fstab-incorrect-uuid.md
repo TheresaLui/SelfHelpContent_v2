@@ -15,21 +15,37 @@
 	cloudEnvironments="public"
 />
 
-# Diagnostics on your Linux Virtual machine found a boot error 
+# Diagnostics on your Linux Virtual machine found a boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.  
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.
 
-To view more detailed information, see the serial log output in the boot diagnostics blade in the following portal path: **Virtual Machines** > <!--$vmname-->**[vmname]**<!--/$vmname--> > **All settings** > **Boot diagnostics**
+To view more detailed information, see the [serial log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) output in the boot diagnostics blade.
 <!--/issueDescription-->
-   
+
 ## **Recommended Steps**
-To recover the virtual machine, follow these steps:
+1. Access [serial console](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 
-1. Attach the OS disk to a recovery VM. To do this, review the following Azure article and follow the steps from the beginning up to *Fix issues on original virtual hard disk* section: [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks).
+2. If the VM is configured, press M for manual recovery to enter single user mode or login as root.  If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key.  If you are presented with a grub prompt enter ‘c’ for command prompt.
 
-2. After you mount the OS disk as a data disk on the new VM, correct the fstab file using a text editor on the recovery VM. For more detailed information on correcting fstab issues in Azure Linux virtual machines see:
-[Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699).
+	a. Change into /etc directory and backup your fstab file.
+	```
+	cd /etc/
+	cp fstab fstab_orig
+	```
+	b. View and verify the contents of the fstab file `cat /etc/fstab`
 
-3. After the fstab issues are resolved, return to [Troubleshoot a Linux VM by attaching the OS disk to a recovery VM using the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-recovery-disks), and resume at the *Unmount and detach original virtual hard disk* section for steps to recreate the original VM.
+	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file.
 
+	d. Edit the fstab file to remove or comment out using a # any incorrect entries using your favorite text editor, for example:
+`nano /etc/fstab` or `vi /etc/fstab`
+
+	e. Validate that updates and test the syntax before initiating a reboot `$ sudo mount -a`
+
+	f. Reboot the VM and test SSH access.
+
+3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
+
+## **Recommended documents**
+[How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
+[Azure Virtual Machine Serial Console](http://aka.ms/serialconsolehelp)
