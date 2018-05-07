@@ -30,18 +30,18 @@ Let's take a look at a couple common Intune Roles issues and how to resolve them
 
 Advise the user to go to **Intune** > **Intune roles** > **My permissions** > **Export**. If needed, you can adjust their permissions in Intune roles. 
 
-**I added a scope group to a role, but users in that role still see other users or devices.**
+**I added a scope group to a role, but users in that role still see other users or devices.**<br>
 
-	Scope groups do not filter out users or devices.  Rather scope groups:
+Scope groups do not filter out users or devices.  Rather scope groups:
 
 * Limit who users can assign policies or applications to
 * Allow only specific users to run remote tasks on devices
 
 If a security group is not within your scope group, you will not be able to assign polices or applications to the group. For more information about scope groups see the [Intune documentation.](https://docs.microsoft.com/intune/role-based-access-control)
 
-**I added a user to an Intune role but they still have full access to the Intune admin console.**
+**I added a user to an Intune role but they still have full access to the Intune admin console.**<br>
 
-	Verify that the user is not assigned to any of the following roles in the Azure portal:
+Verify that the user is not assigned to any of the following roles in the Azure portal:
 
 * Global administrator
 * Intune service administrator
@@ -51,9 +51,9 @@ Verify that the user is not assigned to the following role in the Intune classic
 
 * Service administrator
 
-	Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.
+Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.<br>
 
-	Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 [Role-based administration control with Microsoft Intune](https://docs.microsoft.com/intune/role-based-access-control)<br>
