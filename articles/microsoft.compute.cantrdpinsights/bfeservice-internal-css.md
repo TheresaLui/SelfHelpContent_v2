@@ -22,7 +22,10 @@ The Base Filtering Service (BFE) service is not running on your virtual machine.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).   
+To resolve the issue, please try the steps below using the Azure virtual machine serial console tool.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+
+##### From the Serial Console:
+
   * Query the state of the service by executing `sc query BFE`
   * If the service is stopped, try starting the service by executing `sc start BFE`
   * If the service is hung with a status starting or stopping, try to stop the service `sc stop NSI` and start it again using `sc start BFE`
