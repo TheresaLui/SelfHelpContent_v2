@@ -14,7 +14,7 @@
 
 # Manage Apps - Work with volume purchased apps and books
 
-Let's take a look at a couple few common issues using e-books and how to resolve them:
+Let's take a look at a few common issues deploying e-books and how to resolve them:
 
 **A user in my organization doesn't have the Apple iBooks app to view e-books.  Can I use Intune to install it?**
 
