@@ -14,7 +14,7 @@
 
 # Set up Intune - Setup administrators and manage roles
 
-Let's take a look at a couple common Intune Roles issues and how to resolve them:
+Let's take a look at a couple few common issues using Intune Roles and how to resolve them:
 
 **I tried to access a section in the Intune portal and received an "Access denied" message.**
 
