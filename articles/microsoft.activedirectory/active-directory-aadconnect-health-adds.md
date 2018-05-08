@@ -16,11 +16,11 @@
 
 ## Troubleshooting registration failures
 1.	Ensure you are authorized to perform the operation. Global Admins have access by default. Additionally, you can use [Role Based Access Control](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-operations#manage-access-with-role-based-access-control) to delegate registration permission to Contributer.
-2.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/prereqs) section for details. 
+2.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/aadchprereqs) section for details. 
 3.	Registration can fail due to outbound communication being subjected to SSL inspection by the network layer. 
 
 ## Troubleshooting Health Service data not up to date.
-1.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/prereqs) section for details. 
+1.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/aadchprereqs) section for details. 
 2.	Data upload can fail due to outbound communication being subjected to SSL inspection by the network layer. 
 3.	You can use the [built-in agent connectivity tool](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-agent-install#test-connectivity-to-azure-ad-connect-health-service).
 4.	Ensure [proxy settings](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-agent-install##configure-azure-ad-connect-health-agents-to-use-http-proxy) have been properly configured if applicable.

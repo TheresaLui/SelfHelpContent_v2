@@ -3,12 +3,12 @@
 	description="How to connect"
 	service="microsoft.sql"
 	resource="servers"
-	authors="kasparks"
-	displayOrder="1"
+	authors="kevinvngo"
+	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32412144"
 	resourceTags="datawarehouse"
-	productPesIds=""
+	productPesIds="15818"
 	cloudEnvironments="public"
 />
 

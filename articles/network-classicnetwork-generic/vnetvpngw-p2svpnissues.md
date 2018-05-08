@@ -15,6 +15,7 @@
 # p2s vpn issues
 
 ## **Recommended documents**
-Check [point-to-site connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#a-namep2sapoint-to-site-connections) details<br>
+Troubleshoot [point-to-site connection issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems)<br>
+Check [point-to-site connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) details<br>
 Configure a [point-to-site VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)<br>
-Generate and export [certificates for point-to-site connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site)
+Generate and export [certificates for point-to-site connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site) for Windows 10

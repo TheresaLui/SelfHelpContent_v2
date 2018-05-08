@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
  [Troubleshoot allocation failures for Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures)<br>
- [Troubleshoot allocation failures for VMs](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/)<br>
- [Available sizes and options for Cloud Service role instances (web and worker roles](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs)
+ [Possible Solutions for Cloud Services Allocation Failures](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
+ [Available sizes and options for Cloud Service role instances (web and worker roles)](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs)

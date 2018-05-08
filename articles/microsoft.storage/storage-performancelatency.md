@@ -6,9 +6,9 @@
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551664"
+	supportTopicIds="32602726"
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="16459"
 	cloudEnvironments="public"
 />
 
@@ -22,7 +22,6 @@ Do you have baseline metrics? The performance of an application can be subjectiv
 1. [Metrics show high AverageE2ELatency and low AverageServerLatency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-high-AverageE2ELatency-and-low-AverageServerLatency)
 2. [Metrics show low AverageE2ELatency and low AverageServerLatency but the client is experiencing high latency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-low-AverageE2ELatency-and-low-AverageServerLatency)
 3. [Metrics show high AverageServerLatency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-high-AverageServerLatency)
-4. [You are experiencing unexpected delays in message delivery on a queue](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#you-are-experiencing-unexpected-delays-in-message-delivery)
 
 For an in-depth look at troubleshooting performance issues, see the Performance section of the article [**Monitor, diagnose, and troubleshoot Microsoft Azure Storage**](http://go.microsoft.com/fwlink/?LinkId=785091)
 

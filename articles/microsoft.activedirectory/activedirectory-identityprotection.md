@@ -18,7 +18,7 @@
 
 Try the following:
 
-* Ensure that the user signs in with global administrator, security administrator, or security reader permissions. These are the only roles that have permission to access identity Protection. for more informaiton, see [Assign admin roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+* Ensure that the user signs in with global administrator, security administrator, or security reader permissions. These are the only roles that have permission to access identity Protection. For more information, see [Assign admin roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
 * Ensure that you have Azure AD Premium P2 or Enterprise Mobility + Security E5.
 

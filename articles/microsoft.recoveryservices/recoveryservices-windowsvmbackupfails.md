@@ -1,25 +1,35 @@
 <properties
-	pageTitle="Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'"
-	description="Windows VM Snapshot issues"
+	pageTitle="Backup of Windows Azure virtual machine fails"
+	description="Top issues causing Windows Azure virtual machine backup failures"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="trinadhk"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553277"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
-# Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'
+# Backup of Windows Azure virtual machine fails
 
 ## **Recommended steps**
-To resolve common isuess, try one or more of the following steps.
+To resolve common issues, try one or more of the following steps.
 
-1. Check VM has access to internet for taking snapshot. Learn how to [enable internet access](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-1-the-vm-does-not-have-internet-access) if VM is behind NSG or Firewall. 
-2. Check VMSnapshot extension (extension used by Backup) is [up-to-date](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-3-the-backup-extension-fails-to-update-or-load)
-3. Check that snapshot status is [retrievable.](https://azure.microsoft.com/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-4-the-snapshots-status-cannot-be-retrieved-or-the-snapshots-cannot-be-taken)
+**VM agent is unable to communicate with the Azure Backup Service?** <br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot1) to resolve communication issues <br>
+
+**Snapshot operation failed due to no network connectivity on the virtual machine?** <br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot2) to resolve snapshot failure issues <br>
+
+**VMSnapshot extension operation failed?**<br>
+This issue may occur if extensions cannot be loaded, Backup fails because a snapshot cannot be taken.<br>
+Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot3) to resolve extension operation failed issues.
+
+**Unable to perform the operation as the VM Agent is not responsive?**<br>
+This issue may occur if the VM Agent might have been corrupted or the service might have been stopped. Follow the [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot4) to resolve this issue.<br>
+
 
 
 ## **Recommended documents**

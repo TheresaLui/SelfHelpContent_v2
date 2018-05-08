@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # I am getting 'Invalid credentials' or 'Failed to validate credentials' errors

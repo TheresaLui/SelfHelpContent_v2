@@ -6,7 +6,7 @@
     authors="MarkusVi"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32302996"
+    supportTopicIds="32574686"
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"

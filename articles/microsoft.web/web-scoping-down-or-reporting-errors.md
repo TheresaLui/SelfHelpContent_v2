@@ -6,7 +6,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32542218"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Web App Down or Reporting Errors

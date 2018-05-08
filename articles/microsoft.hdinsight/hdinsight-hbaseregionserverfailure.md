@@ -9,7 +9,7 @@
     supportTopicIds="32511184"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Restart operation on HBase Region Server fails to complete
