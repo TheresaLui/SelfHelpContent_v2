@@ -6,7 +6,7 @@ service="microsoft.storage"
 resource="storage"
 authors="passaree"
 displayOrder=""
-articleId="Storagev2insights_DeletionARM_Lease"
+articleId="Storagev2insights_all_DeletionARM_Lease"
 diagnosticScenario="An active non page blob lease has been detected"
 selfHelpType="diagnostics"
 supportTopicIds=""
@@ -21,6 +21,7 @@ cloudEnvironments="public"
 Microsoft Azure identified one or more active lease(s) associated with <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. All lease(s) listed below must be broken before deleting the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
 
 <!--$LeaseList-->[LeaseList]<!--/$LeaseList-->
+<br>
 
 To break a lease: <br>
 1. Sign into [Azure Portal](https://portal.azure.com) <br>

@@ -6,7 +6,7 @@ service="microsoft.storage"
 resource="storage"
 authors="passaree"
 displayOrder=""
-articleId="Storagev2insights_ContainerRecovery_ICM"
+articleId="Storagev2insights_css_blob_ContainerRecovery"
 diagnosticScenario="Container recovery"
 selfHelpType="diagnostics"
 supportTopicIds=""
@@ -21,5 +21,5 @@ cloudEnvironments="public"
 
 Diagnostics system has identified that recovery for container **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** may be possible. <br>
 
-Please file an ICM for Storage team to further investigate. <br>
+[Please file an IcM for Storage team]() to further investigate. <br>
 <!--/issueDescription-->

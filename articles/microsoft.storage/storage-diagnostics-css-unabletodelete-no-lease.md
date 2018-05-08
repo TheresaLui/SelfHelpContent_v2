@@ -6,7 +6,7 @@ service="microsoft.storage"
 resource="storage"
 authors="passaree"
 displayOrder=""
-articleId="Storagev2insights_UnableToDelete_NoLease"
+articleId="Storagev2insights_css_all_UnableToDelete_NoLease"
 diagnosticScenario="No lease on the storage resource"
 selfHelpType="diagnostics"
 supportTopicIds=""
@@ -20,5 +20,5 @@ cloudEnvironments="public"
 <!--issueDescription-->
 Diagnostics system could identify what is preventing deletion of <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. <br>
 
-Please file an ICM for Storage team to further investigate. <br>
+[Please file an IcM for Storage team]() to further investigate. <br>
 <!--/issueDescription-->
