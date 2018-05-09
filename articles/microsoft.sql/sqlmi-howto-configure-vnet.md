@@ -15,5 +15,5 @@
 # How-To Questions
 
 ## **Recommended documents**
-[Configure a VNet for Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
-[Connect your application to Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-connect-app/)
+[Configure a VNet for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
+[Connect your application to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app/)
