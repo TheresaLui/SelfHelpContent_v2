@@ -15,4 +15,4 @@
 # import/export service/export
 
 ## **Recommended documents**
-[Exporting or moving data to Azure](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data/)
+[Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)
