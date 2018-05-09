@@ -19,7 +19,6 @@
 - How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-recovery-services-vault-for-a-vm), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-backed-up-disks)<br>
 - How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-vm-backup-time) [Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time) <br>
 - How to stop/cancel backup job using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-5.1.1)?<br>
-- [Limitation] Backup of disks greater than 1TB (Managed and unmanaged) are not supported. [Sign up for preview](https://gallery.technet.microsoft.com/Instant-recovery-point-and-25fe398a).
 - [Limitation] More than 1 backup job per day is currently not supported for IaaS VM<br>
 
 **Common Issues**<br>
