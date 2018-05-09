@@ -47,5 +47,3 @@ Below is a list of additional resources and documentation that may also assist i
 [How to manage iOS apps purchased through a volume-purchase program with Intune](https://docs.microsoft.com/intune/vpp-apps-ios)<br>
 [How to manage apps you purchased from the Microsoft Store for Business with Intune](https://docs.microsoft.com/intune/windows-store-for-business)<br>
 [How to manage iOS eBooks you purchased through a volume-purchase program with Intune](https://docs.microsoft.com/intune/vpp-ebooks-ios)<br>
-
-
