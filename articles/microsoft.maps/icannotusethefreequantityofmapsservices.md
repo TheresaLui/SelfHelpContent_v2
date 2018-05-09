@@ -9,7 +9,7 @@
     selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	displayOrder="3"
+	displayOrder="4"
 	cloudEnvironments="public"
  />
 
