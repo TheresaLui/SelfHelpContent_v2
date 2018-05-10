@@ -23,7 +23,7 @@ Depending on your license, Azure Active Directory Actions stores activity report
 | Directory Audit  | &nbsp; |	7 days	   | 30 days             | 30 days             |
 | Sign-in Activity | &nbsp; | Not available*| 30 days	         | 30 days             |
 
-* Sign-in activity is available for 7 days from the individual user profile blade only. You can access individual user sign-ins. 
+*Sign-in activity is available for 7 days from the individual user profile blade only. You can access individual user sign-ins. 
 
 If you need data for duration that is longer than 30 days, you can pull the data programmatically using the reporting API and store it on your side. Alternatively, you can integrate audit logs into your SIEM systems.
 
