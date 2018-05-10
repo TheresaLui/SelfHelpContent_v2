@@ -18,10 +18,10 @@
 
 Depending on your license, Azure Active Directory Actions stores activity reports for the following durations:
 
-| Report           | Azure AD Free | Azure AD Premium P1 | Azure AD Premium P2 |
-| ---              | ---           | ---                 | ---                 |
-| Directory Audit  |	7 days	   | 30 days             | 30 days             |
-| Sign-in Activity | Not available*| 30 days	         | 30 days             |
+| Report           | &nbsp; |  Azure AD Free | Azure AD Premium P1 | Azure AD Premium P2 |
+| ---              | ----   |  ---           | ---                 | ---                 |
+| Directory Audit  | &nbsp; |	7 days	   | 30 days             | 30 days             |
+| Sign-in Activity | &nbsp; | Not available*| 30 days	         | 30 days             |
 
 * Sign-in activity is available for 7 days from the individual user profile blade only. You can access individual user sign-ins. 
 
