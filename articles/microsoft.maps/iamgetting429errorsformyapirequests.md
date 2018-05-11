@@ -16,9 +16,4 @@
 
 ## **Recommended Steps**
 
-
-Here are the usage constraints for the Azure Maps service. [Contact us](https://azure.microsoft.com/overview/sales-number/) to increase maximum request rate for your subscription.
-
-| Resource                              | Limit |
-|---------------------------------------|:-----:|
-| Maximum request rate per subscription |   50 requests per second  |
+For Azure Maps the maximum request rate per subscription is 50 requests per second. [Contact us](https://azure.microsoft.com/overview/sales-number/) to increase maximum request rate for your subscription.
