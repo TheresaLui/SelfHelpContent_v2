@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-[Create a Network Watcher instance with portal, PowerShell, Azure CLI or REST API](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)
+[Create an Azure Network Watcher instance with portal, PowerShell, Azure CLI or REST API](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)
