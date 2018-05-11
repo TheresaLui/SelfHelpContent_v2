@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configurationandsetup/networkwatcherconfigandsetup"
-	description="configurationandsetup/networkwatcherconfigandsetup"
+	pageTitle="nwsetupandmgmt/networkwatcherconfigandsetup"
+	description="nwsetupandmgmt/networkwatcherconfigandsetup"
 	service="microsoft.network"
 	resource="networkwatcher"
 	authors="radwiv"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# configurationandsetup/networkwatcherconfigandsetup
+# nwsetupandmgmt/networkwatcherconfigandsetup
 
 ## **Recommended documents**
 
