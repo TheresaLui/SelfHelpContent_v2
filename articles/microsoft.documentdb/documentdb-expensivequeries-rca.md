@@ -27,7 +27,7 @@ GET on a single partition key and item key is the most efficient operation in Co
 Queries with a filter clause on a single partition key value can be served from a single partition, and therefore consume fewer RUs and have lower latency. For example: `SELECT * FROM c WHERE c.<pk> = 'pk1' AND <filters>`
 
 ### Prefer filter operators that can utilize the index
-Query with a filter clause on a single partition key and another filter that can be served from the index (=, >=, <=, >, <, and built-in functions like *ARRAY_CONTAINS*, *STARTSWITH*, and geospatial filters).For example: `SELECT * FROM c WHERE c.<pk> = 'pk1' and c.id = 'id1' AND c.timestamp >= '2018-01-01T12:00Z'`. A corrolary is limiting/avoiding query without filters (scan) or using filters that cannot use the index (e.g. *ENDSWITH*, *CONTAINS*, !=). 
+Query with a filter clause on a single partition key and another filter that can be served from the index (=, >=, <=, >, <, and built-in functions like *ARRAY_CONTAINS*, *STARTSWITH*, and geospatial filters).For example: `SELECT * FROM c WHERE c.<pk> = 'pk1' and c.id = 'id1' AND c.timestamp >= '2018-01-01T12:00Z'`. A corollary is limiting/avoiding query without filters (scan) or using filters that cannot use the index (e.g. *ENDSWITH*, *CONTAINS*, !=). 
 
 ### Prefer paginated queries with limit operators
 Queries consume RUs based on the number of items returned. You can limit the RUs consumed by either paging through queries partially (you can resume using the continuation token) or by retrieving a subset of the total result set using the TOP operator, For example: `SELECT TOP 100 * FROM c WHERE <filter>`.
