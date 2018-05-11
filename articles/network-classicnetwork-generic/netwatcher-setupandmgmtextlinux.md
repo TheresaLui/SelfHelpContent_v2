@@ -1,6 +1,6 @@
 <properties
-	pageTitle="setupandmgmt/networkwatcherextensionforlinux"
-	description="setupandmgmt/networkwatcherextensionforlinux"
+	pageTitle="nwsetupandmgmt/networkwatcherextensionforlinux"
+	description="nwsetupandmgmt/networkwatcherextensionforlinux"
 	service="microsoft.network"
 	resource="networkwatcher"
 	authors="radwiv"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# setupandmgmt/networkwatcherextensionforlinux
+# nwsetupandmgmt/networkwatcherextensionforlinux
 
 ## **Recommended documents**
 
