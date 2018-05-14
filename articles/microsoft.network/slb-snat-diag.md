@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Source NAT (SNAT) Diagnostic Result
 <!--issueDescription-->
-Microsoft Azure has identified your virtual machine <!--$VirtualMachineName-->[VMName]<!--/$VirtualMachineName--> may be experiencing intermittent or unreliable connectivity with resources outside of Azure due to source NAT (SNAT) exhaustion as described [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections).
+Microsoft Azure has identified your virtual machine <!--$VirtualMachineName-->[VmName]<!--/$VirtualMachineName--> may be experiencing intermittent or unreliable connectivity with resources outside of Azure due to source NAT (SNAT) exhaustion as described [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections).
  <br>
 <!--/issueDescription-->
 ## **Recommended Steps**
