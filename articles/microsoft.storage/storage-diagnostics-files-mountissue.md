@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Troubleshoot Azure Files mounting errors"
 description="Customer to run script to troubleshoot Azure Files mounting errors"
-infoBubbleText=""
+infoBubbleText="Azure File mounting scripts"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"

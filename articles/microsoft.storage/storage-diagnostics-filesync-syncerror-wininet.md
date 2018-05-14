@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Sync error - wininet error"
 description="Sync error - wininet error"
-infoBubbleText="Sync error - wininet error"
+infoBubbleText="Azure File Sync error - wininet error"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"

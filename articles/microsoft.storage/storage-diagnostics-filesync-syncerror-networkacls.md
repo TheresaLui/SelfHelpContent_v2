@@ -1,7 +1,7 @@
 <properties
 pageTitle="Sync error - network ACLs"
 description="Sync error - network ACLs"
-infoBubbleText="Sync error - network ACLs"
+infoBubbleText="Azure File Sync error - network ACLs"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"

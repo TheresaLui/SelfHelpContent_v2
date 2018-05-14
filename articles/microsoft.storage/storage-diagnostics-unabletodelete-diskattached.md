@@ -1,7 +1,7 @@
 <properties
 pageTitle="Unable to delete storage resource due to disk(s) attached to a VM"
 description="There are OS and data disks in this storage resource that is attached to a VM"
-infoBubbleText=""
+infoBubbleText="Unable to delete due to OS and data disk(s) attached"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"

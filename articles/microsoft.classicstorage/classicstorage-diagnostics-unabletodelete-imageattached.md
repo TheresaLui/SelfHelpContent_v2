@@ -1,7 +1,7 @@
 <properties
 pageTitle="Classic Image attached message"
 description="Classic Image attached message"
-infoBubbleText="Classic Image attached message"
+infoBubbleText=“See details on the right”
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
