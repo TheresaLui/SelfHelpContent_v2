@@ -1,13 +1,13 @@
 ﻿<properties
-pageTitle="ARM lease exist"
-description="ARM lease exist"
-infoBubbleText="An active lease has been detected"
+pageTitle="Unable to delete due to active lease with no attached VM"
+description="Stray lease or CRP lock exists on Storage resource"
+infoBubbleText="An active lease with no attached VM has been detected"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
 displayOrder=""
-articleId="Storagev2insights_all_DeletionARM_Lease"
-diagnosticScenario="An active non page blob lease has been detected"
+articleId="Storagev2insights_UnableToDelete_Lease"
+diagnosticScenario="Leased page blobs without an attached VM"
 selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
@@ -15,19 +15,11 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **An active lease has been detected**
+# Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more active lease(s)
 
 <!--issueDescription-->
-Microsoft Azure identified one or more active lease(s) associated with <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. All lease(s) listed below must be broken before deleting the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more active lease(s) associated with it. In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first [break the lease(s)](https://azure.microsoft.com/updates/support-for-blob-storage-lease-management-from-azure-portal/) of resources listed below:<br>
 
-<!--$LeaseList-->[LeaseList]<!--/$LeaseList-->
-<br>
+<!--$LeasedResourcesList-->[LeasedResourcesList]<!--/$LeasedResourcesList-->
 
-To break a lease: <br>
-1. Sign into [Azure Portal](https://portal.azure.com) <br>
-2. Browse to each leased resource listed above and break its lease.<br>
-3. Retry delete operation after all leased object(s) listed above are broken. <br>
-
-Regards,<br>
-Microsoft Azure Team
 <!--/issueDescription-->

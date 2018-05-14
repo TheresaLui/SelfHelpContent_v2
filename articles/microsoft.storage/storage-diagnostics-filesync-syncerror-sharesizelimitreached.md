@@ -1,0 +1,25 @@
+<properties
+pageTitle="Sync error - share size limit reached"
+description="Sync error - share size limit reached"
+infoBubbleText="Sync error - share size limit reached"
+service="microsoft.storage"
+resource="storage"
+authors="sikoo"
+displayOrder=""
+articleId="FileSync_SyncError_ShareSizeLimitInsight"
+diagnosticScenario="Sync error - share size limit reached"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags="windows"
+productPesIds=""
+cloudEnvironments="public"
+/>
+
+# File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: the Azure File Share storage limit has been exceeded.
+
+<!--issueDescription-->
+Azure File Sync failed with error **<!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->**. The [Azure File Share storage limit](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits#azure-files-limits) has been exceeded. Please follow the steps below to avoid sync failures in the future:<br>
+1. Check if there is a quota set that restricts the File Share below the [current maximum size](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits#storage-limits). If so, increase the quota. <br>
+2. Consider making each subfolder you are currently syncing a Server Endpoint in a separate Sync Group. This way each subfolder will sync to individual Azure File Shares. 
+
+<!--/issueDescription-->

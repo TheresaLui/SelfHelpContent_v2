@@ -15,14 +15,12 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **Sync failed with error [<!--$ErrorString-->[ ErrorString]<!--/$ ErrorString -->  :Sync can't access the Azure File Share specified in the Cloud Endpoint.**
+# **File Sync failed with error <!--$ErrorString-->[ ErrorString]<!--/$ ErrorString -->Â  : File Share not found.**
 
 <!--issueDescription-->
+Azure File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: File Share not found.
 
 1. Make sure the Azure File Share still exists. 
-2. If the Azure File Share was deleted, you need to create a new file share and then recreate the sync group.
-
-Regards,<br>
-Microsoft Azure Team
+2. If the Azure File Share was deleted, create a new File Share and then recreate the sync group.
 
 <!--/issueDescription-->

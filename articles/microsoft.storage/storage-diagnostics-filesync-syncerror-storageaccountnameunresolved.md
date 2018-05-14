@@ -1,13 +1,13 @@
 <properties
-pageTitle="Sync error - storage account name resolution or ACLs issue"
-description="Sync error - storage account name resolution or ACLs issue"
-infoBubbleText="Sync error - storage account name resolution or ACLs issue"
+pageTitle="Sync error - storage account name resolution
+description="Sync error - storage account name resolution"
+infoBubbleText="Sync error - storage account name resolution"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
 displayOrder=""
 articleId="FileSync_SyncError_StorageAccountNameUnresolved"
-diagnosticScenario="Sync error - storage account name resolution or ACLs issue"
+diagnosticScenario="Sync error - storage account name resolution"
 selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
@@ -15,13 +15,11 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **Sync failed with error [<!--$ErrorString-->[ ErrorString]<!--/$ ErrorString -->.**
+# File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: The Storage Account name used could not be resolved
 
 <!--issueDescription-->
+Azure Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: The Storage Account name used could not be resolved.
 
-Ensure access from all networks to the storage account is allowed. Azure File Sync does not yet support firewalls and virtual networks for a storage account.<br>
-
-Regards,<br>
-Microsoft Azure Team
-
+1. Make sure the Storage Account still exists.
+2. In the Azure portal, check the Access Control (IAM) on the Storage Account and verify the Storage Sync Service role has access to the Storage Account.
 <!--/issueDescription-->
