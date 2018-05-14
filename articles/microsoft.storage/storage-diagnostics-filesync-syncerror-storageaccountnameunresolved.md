@@ -1,5 +1,5 @@
 <properties
-pageTitle="Sync error - storage account name resolution
+pageTitle="Sync error - storage account name resolution"
 description="Sync error - storage account name resolution"
 infoBubbleText="Sync error - storage account name resolution"
 service="microsoft.storage"
@@ -18,8 +18,9 @@ cloudEnvironments="public"
 # File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: The Storage Account name used could not be resolved
 
 <!--issueDescription-->
-Azure Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: The Storage Account name used could not be resolved.
+Azure File Sync failed on Server Endpoint **<!--$ServerEndpointName-->[ ServerEndpointName]<!--/$ ServerEndpointName -->** with error <!--$ErrorString-->[ErrorString]<!--/$ ErrorString -->: The Storage Account name used could not be resolved.
 
-1. Make sure the Storage Account still exists.
-2. In the Azure portal, check the Access Control (IAM) on the Storage Account and verify the Storage Sync Service role has access to the Storage Account.
+1. Make sure the Storage Account **<!--$StorageAccountName-->[ StorageAccountName]<!--/$ **ServerEndpointName** -->** still exists.
+2. In the Azure portal under the Storage Account, go to the 'Access Control (IAM)' tab and verify the Storage Sync Service role has access to the Storage Account. The scope for 'Hybrid File Sync Service' must be set to 'This Resource'.
+
 <!--/issueDescription-->

@@ -21,7 +21,6 @@ The Storage Account **<!--$AccountName-->[AccountName]<!--/$AccountName-->** exc
 The following limits were reached between **<!--$StartTime--> StartTime <!--/$StartTime-->** and **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**:<br>
 
 Limit type: **<!--$LimitType--> LimitType <!--/$LimitType-->**<br>
-Limit imposed: <UPDATE THE LIMIT IMPOSED>[US regions: 20 Gbps for RA-GRS/GRS/ZRS, 30 Gbps for LRS | non-US regions: 10 Gbps for RA-GRS/GRS/ZRS, 15 Gbps     for LRS | custom quota value]<UPDATE THE LIMIT IMPOSED><br>
 
 We recommended that you configure Storage Analytics to monitor throttling on your Storage Accounts. This will enable you to monitor your application's increase in transaction volume to prevent or mitigate similar issues in the future. For further information, please see [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting).<br>
 <!--/issueDescription-->
