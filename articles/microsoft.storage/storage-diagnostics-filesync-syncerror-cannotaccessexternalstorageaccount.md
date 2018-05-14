@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Sync error - cannot access external storage account"
 description="Sync error - cannot access external storage account"
-infoBubbleText="Cannot access external storage account - File Sync"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"

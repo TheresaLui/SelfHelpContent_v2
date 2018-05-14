@@ -1,7 +1,7 @@
 <properties
 pageTitle="Clientside Latency"
 description="Clientside Latency"
-infoBubbleText=“Storage detected client-side latency”
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="shines"

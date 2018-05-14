@@ -1,7 +1,7 @@
 <properties
 pageTitle="Cannot change Storage Account replication type due to system maintenance"
 description="Maintenance operation must be completed before changing replication type"
-infoBubbleText="Maintenance operation must be completed before changing Storage Account replication type"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"

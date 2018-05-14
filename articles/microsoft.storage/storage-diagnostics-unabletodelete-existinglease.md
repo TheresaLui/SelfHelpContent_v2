@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Unable to delete due to active lease with no attached VM"
 description="Stray lease or CRP lock exists on Storage resource"
-infoBubbleText="An active lease with no attached VM has been detected"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"

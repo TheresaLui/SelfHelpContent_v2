@@ -1,7 +1,7 @@
 <properties
 pageTitle="Storage Account was throttled due to a scalability limit being exceeded"
 description="Storage Account was throttled due to a scalability limit being exceeded"
-infoBubbleText="Storage IOPS overlimit"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="shines"

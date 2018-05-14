@@ -1,7 +1,7 @@
 <properties
 pageTitle="Sync error - share size limit reached"
 description="Sync error - share size limit reached"
-infoBubbleText="Azure File Sync error - share size limit reached"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"

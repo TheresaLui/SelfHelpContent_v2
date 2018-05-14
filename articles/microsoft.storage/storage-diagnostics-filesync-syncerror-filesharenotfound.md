@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Sync error - file share not found"
 description="Sync error - file share not found"
-infoBubbleText="Azure File Sync error - file share not found"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"

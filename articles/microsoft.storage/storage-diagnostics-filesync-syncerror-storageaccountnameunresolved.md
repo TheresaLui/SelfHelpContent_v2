@@ -1,7 +1,7 @@
 <properties
 pageTitle="Sync error - storage account name resolution"
 description="Sync error - storage account name resolution"
-infoBubbleText="Azure File Sync error - storage account name resolution"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
