@@ -22,6 +22,7 @@ Microsoft Azure identified one or more active image(s) associated with <!--$Reso
 <!--$ImageList-->[ImageList]<!--/$ImageList-->
 
 To delete a VM image: <br>
+
 1. Sign into [Azure Portal](https://portal.azure.com) <br>
 2. Search for "**VM images** (classic)" service and browse to it. <br>
 3. Browse to an image listed above and delete it. <br>
