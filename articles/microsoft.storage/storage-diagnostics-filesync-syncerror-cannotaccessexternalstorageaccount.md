@@ -15,7 +15,7 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# File Sync failed with error <!--$ErrorString-->[ ErrorString]<!--/$ ErrorString -->  : Sync cannot access the Azure File Share specified in the Cloud Endpoint.
+# File Sync failed with error <!--$ErrorString-->[ErrorString]<!--/$ErrorString-->  : Sync cannot access the Azure File Share specified in the Cloud Endpoint.
 
 <!--issueDescription-->
 Azure File Sync failed on Server Endpoint **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->** because it cannot access the Azure File Share  **<!--$ShareName-->[ShareName]<!--/$ShareName-->**.<br>

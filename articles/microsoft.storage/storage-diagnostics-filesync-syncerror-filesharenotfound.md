@@ -20,7 +20,6 @@ cloudEnvironments="public"
 <!--issueDescription-->
 Azure File Sync failed with error **<!--$ErrorString-->[ErrorString]<!--/$ErrorString-->** on Server Endpoint **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->**. <br>
 
-
 1. Make sure the Azure File Share  **<!--$ShareName-->[ShareName]<!--/$ShareName-->** still exists. <br>
 2. If the Azure File Share was deleted, create a new File Share and then recreate the Sync Group. <br>
     1. First delete the Server Endpoint and then the Cloud Endpoint within the existing Sync Group.<br>
