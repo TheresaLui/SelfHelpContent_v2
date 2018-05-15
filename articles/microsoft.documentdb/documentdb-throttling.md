@@ -1,0 +1,20 @@
+<properties
+	pageTitle="CosmosDB throttling"
+	description="CosmosDB throttling"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="bharathsreenivas"
+	displayOrder="5"
+	selfHelpType="resource"
+	supportTopicIds="32597563,32597562"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# Rate limiting in Cosmos DB
+To provide predictable performance, you need to reserve throughput in units of 100 RU/second. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
+
+## **Recommended documents**
+* [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)
+* [Exceeding reserved throughput limits](https://docs.microsoft.com/azure/cosmos-db/request-units#RequestRateTooLarge) 
