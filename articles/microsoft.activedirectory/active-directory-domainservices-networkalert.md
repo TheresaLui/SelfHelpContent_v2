@@ -31,15 +31,15 @@ While Microsoft is unable to reach the domain controllers, your managed domain m
 
 #### Service Information
 
-* Resource ID: <!--ResourceId-->[ResourceId]<!--/ResourceId-->
-* Virtual Network experiencing network problems: <!--virtualNetworkId-->[virtualNetworkId]<!--/virtualNetworkId-->
-* Subnet domain services is enabled in: <!--subnetName-->[subnetName]<!--/subnetName-->
-* Virtual Machine experiencing network problems: <!--primaryVirtualMachineIp-->[primaryVirtualMachineIp]<!--/primaryVirtualMachineIp-->, <!--secondaryVirtualMachineIp-->[secondaryVirtualMachineIp]<!--/secondaryVirtualMachineIp-->
+* Resource ID: <!--$resourceId-->[resourceId]<!--/$resourceId-->
+* Virtual Network experiencing network problems: <!--$virtualNetworkId-->[virtualNetworkId]<!--/$virtualNetworkId-->
+* Subnet domain services is enabled in: <!--$subnetName-->[subnetName]<!--/$subnetName-->
+* Virtual Machine experiencing network problems: <!--$primaryVirtualMachineIp-->[primaryVirtualMachineIp]<!--/$primaryVirtualMachineIp-->, <!--secondaryVirtualMachineIp-->[secondaryVirtualMachineIp]<!--/secondaryVirtualMachineIp-->
 
 #### Failed Network Diagnostics
 Below are network diagnostics tests that have failed when we ran them on your managed domain. These may help you better troubleshoot which parts of your network are blocked:
 
-<!--networkTestResults-->[networkTestResults]<!--/networkTestResults-->.
+<!--$networkTestResults-->[networkTestResults]<!--/$networkTestResults-->.
 
 Please let us know if you have any questions or concerns.
 
