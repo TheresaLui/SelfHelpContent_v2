@@ -17,7 +17,7 @@
 
 # Network Health Alert for Azure AD Domain Services
 
-Hello [**Customer Name**],
+Hello [Customer Name],
 
 We identified that your managed domain has an active Network Error alert. This means that Microsoft is unable to reach the domain controllers due to network rules you have set up on your domain.
 
@@ -31,18 +31,18 @@ While Microsoft is unable to reach the domain controllers, your managed domain m
 
 #### Service Information
 
-* Resource ID: <!--$resourceId-->[resourceId]<!--/$resourceId-->
-* Virtual Network experiencing network problems: <!--$virtualNetworkId-->[virtualNetworkId]<!--/$virtualNetworkId-->
-* Subnet domain services is enabled in: <!--$subnetName-->[subnetName]<!--/$subnetName-->
-* Virtual Machine experiencing network problems: <!--$primaryVirtualMachineIp-->[primaryVirtualMachineIp]<!--/$primaryVirtualMachineIp-->, <!--$secondaryVirtualMachineIp-->[secondaryVirtualMachineIp]<!--/$secondaryVirtualMachineIp-->
+* Resource ID: **<!--$ResourceId-->ResourceId<!--/$ResourceId-->**
+* Virtual Network experiencing network problems: **<!--$VirtualNetworkId-->VirtualNetworkId<!--/$VirtualNetworkId-->**
+* Subnet domain services is enabled in: **<!--$SubnetName-->SubnetName<!--/$SubnetName-->**
+* Virtual Machine experiencing network problems: **<!--$PrimaryVirtualMachineIp-->PrimaryVirtualMachineIp<!--/$PrimaryVirtualMachineIp-->, <!--$SecondaryVirtualMachineIp-->SecondaryVirtualMachineIp<!--/$SecondaryVirtualMachineIp-->**
 
 #### Failed Network Diagnostics
 Below are network diagnostics tests that have failed when we ran them on your managed domain. These may help you better troubleshoot which parts of your network are blocked:
 
-<!--$networkTestResults-->[networkTestResults]<!--/$networkTestResults-->.
+<!--$NetworkTestResults-->NetworkTestResults<!--/$NetworkTestResults-->.
 
 Please let us know if you have any questions or concerns.
 
 Thank you,
 
-[**Your Name**]
+[Your Name]
