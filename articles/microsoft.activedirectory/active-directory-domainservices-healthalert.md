@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Domain Services Health Alerts"
-	description="Health Alert Detected in Azure AD Domain Service"
+	description="Azure AD Domain Services"
 	infoBubbleText="See details on the right"
-	service="Microsoft.AAD"
-	resource="DomainServices"
+  service="microsoft.aad"
+	resource="Microsoft_AAD_DomainServices"
 	authors="jicha"
 	displayOrder="1"
 	articleId="DomainServices_HealthAlert"
@@ -23,8 +23,8 @@ We identified that there are one or more active alerts on your managed domain. P
 
 Information about the alert we found:
 
-* Title: <!--AlertTitle-->[AlertTitle]<!--/AlertTitle-->
-* Resolution Steps: <!--ResolutionLink-->[ResolutionLink]<!--/ResolutionLink-->
+* Title: <!--alertTitle-->[alertTitle]<!--/alertTitle-->
+* Resolution Steps: <!--resolutionLink-->[resolutionLink]<!--/resolutionLink-->
 
 We recommend that you check out your managed domain's health page to view your active alerts and keep updated on the synchronization of your managed domain. Usually, these alerts can explain why you might be experiencing problems or interruptions with Azure AD Domain Services, and ultimately help you resolve any issues. To learn more, refer to the following articles:
 
