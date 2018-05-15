@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB performance tips - dot net"
-	description="CosmosDB performance tips - dot net"
+	pageTitle="CosmosDB performance tips"
+	description="CosmosDB performance tips"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
