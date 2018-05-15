@@ -3,11 +3,11 @@ pageTitle="My VM is having outbound connectivity issues."
 description="VM is having outbound connectivity issues due to SNAT exhaustion."
 infoBubbleText="Issues with your VM outbound connections were detected. See details on the right."
 service="microsoft.network"
-resource="Software Load Balancer"
+resource="LoadBalancer"
 authors="chadmath"
 displayOrder="1"
-articleId="SlbSnatExhaustionDiag"
-diagnosticScenario="SlbSnatExhaustionDiag"
+articleId="NetworkingSNATExhaustion"
+diagnosticScenario="NetworkingSNATExhaustion"
 selfHelpType="resource"
 supportTopicIds=""
 resourceTags="windows"
@@ -20,8 +20,5 @@ Microsoft Azure has identified your virtual machine <!--$VirtualMachineName-->[V
  <br>
 <!--/issueDescription-->
 ## **Recommended Steps**
-Verify that customer observed impact was at the same time as the SNAT exhaustion time and has recovered via the 'troubleshooting' section of the [CSSWiki Workflow](https://www.csssupportwiki.com/index.php/curated:Troubleshooting_SNAT_Failures_(Outbound)) and [NetVMA]() for more details. Once verfied, send the customer the Customer Ready Content below.
-
-## Customer Ready Content
 The Azure team has investigated and identified the source of your issue was source NAT (SNAT) port exhaustion on your VM's outbound connections. You can find a full explanation of this issue in detail [here](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#snatexhaust) along with several ways to mitigate. We apologize for any inconvenience this may have caused. 
 
