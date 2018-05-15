@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-## Network Health Alert for Azure AD Domain Services
+# Network Health Alert for Azure AD Domain Services
 
 Hello [**Customer Name**],
 
