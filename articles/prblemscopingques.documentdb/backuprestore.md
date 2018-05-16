@@ -58,7 +58,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the restore request. In case you are testing for disaster recovery, you can use the [manual failover](https://docs.microsoft.com/azure/cosmos-db/regional-failover) capabilities of Cosmos DB",
 			"required": false,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [
 				{
 					"text": "Is the restore request to test the restore process?"
