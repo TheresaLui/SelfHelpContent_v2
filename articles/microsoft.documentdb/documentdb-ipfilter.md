@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# **Recommended Steps**
+## **Recommended documents**
 
 By default, an Azure Cosmos DB database account is accessible from public internet as long as the request is accompanied by a valid authorization token. To configure IP policy-based access control, the user must provide the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. Once this configuration is applied, all requests originating from machines outside this allowed list are blocked by the server. 
 Please follow this [link](https://docs.microsoft.com/azure/cosmos-db/firewall-support) for to update the IP access control policy
