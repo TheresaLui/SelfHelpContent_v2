@@ -52,7 +52,7 @@
 			"id": "data_type",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What is the type of data to be restored? (Production/UAT/Test/Demo?",
+			"displayLabel": "What is the type of data to be restored?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Production",
@@ -84,7 +84,7 @@
 					"text": "To test disaster recovery"
 				},{
 					"value": "To test restore process",
-					"text": "To test restore processAT"
+					"text": "To test restore process"
 				},{
 					"value": "To create a new environment (dev/test/staging/other)",
 					"text": "To create a new environment (dev/test/staging/other)"
