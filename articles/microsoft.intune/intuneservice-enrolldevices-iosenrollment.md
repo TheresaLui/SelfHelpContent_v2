@@ -42,7 +42,7 @@ Below is a list of additional resources and documentation that may also assist i
 [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Learn how to Enroll iOS devices in Intune](https://docs.microsoft.com/intune/ios-enroll)<br>
 [Learn how to Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
-
+[Intune Troubleshooting Blade](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade)
 
 
 
