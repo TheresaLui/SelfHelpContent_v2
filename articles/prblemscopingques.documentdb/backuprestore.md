@@ -8,25 +8,31 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# CosmosDb Backup and restoren Info
+# CosmosDb Backup and restore Info
 ---
 {
 	"resourceRequired": true,
-	"title": "CosmosDb Account and Collection Info",
+	"title": "CosmosDb Backup and Restore Info",
 	"fileAttachmentHint": "",
 	"formElements": [
+				{
+			"id": "learn_more_text",
+			"order": 1,
+			"controlType": "infoblock",
+			"content": "Cosmos DB has offers transparent regional failovers with multi-homing APIs. In case you are testing the backup/restore process for disaster recovery scenarios, you can use the <a href='https://docs.microsoft.com/azure/cosmos-db/regional-failover'>manual failover</a> capabilities of Cosmos DB"
+		},
 		 {
 			"id": "problem_start_date",
-			"order": 1,
+			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "In  did the problem begin?",
 			"required": false
 		  },
 		  {
 			"id": "database_name",
-			"order": 2,
+			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Databases",
+			"displayLabel": "Affected databases (separate with commas)",
 			"required": true,
 			"hints": [{
 					"text": "Affected databases (separate with commas)"
@@ -34,40 +40,80 @@
 		},
 		{
 			"id": "collection_name",
-			"order": 3,
+			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Collections",
+			"displayLabel": "Affected collections (separate with commas)",
 			"required": true,
 			"hints": [{
 					"text": "Affected collections (separate with commas)"
 				}]
 		},
-    {
+		{
 			"id": "data_type",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Type of data to be restored (Production/UAT/Test/Demo)",
-			"required": true,
-			"hints": [{
-					"text": "Type of data to be restored (Production/UAT/Test/Demo)"
-				}]
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "What is the type of data to be restored? (Production/UAT/Test/Demo?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Production",
+					"text": "Production"
+				},{
+					"value": "UAT",
+					"text": "UAT"
+				},{
+					"value": "Test",
+					"text": "Test"
+				},{
+					"value": "Demo",
+					"text": "Demo"
+				},{
+					"value": "Other (describe below in the description)",
+					"text": "Other (mention below in the description)"
+				}
+			],
+			"required": false
+		},
+		{
+			"id": "restore_objective",
+			"order": 6,
+			"controlType": "dropdown",
+			"displayLabel": "What purpose of the restore?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "To test disaster recovery",
+					"text": "To test disaster recovery"
+				},{
+					"value": "To test restore process",
+					"text": "To test restore processAT"
+				},{
+					"value": "To create a new environment (dev/test/staging/other)",
+					"text": "To create a new environment (dev/test/staging/other)"
+				},{
+					"value": "To recover from accidental deletion of Cosmos DB Account",
+					"text": "To recover from accidental deletion of Cosmos DB Account"
+				},{
+					"value": "To recover from accidental deletion of Cosmos DB Database",
+					"text": "To recover from accidental deletion of Cosmos DB Database"
+				},{
+					"value": "To recover from accidental deletion of Cosmos DB Collection",
+					"text": "To recover from accidental deletion of Cosmos DB Collection"
+				},{
+					"value": "To recover from accidental deletion or corruption of data in a Cosmos DB Collection",
+					"text": "To recover from accidental deletion or corruption of data in a Cosmos DB Collection"
+				},{
+					"value": "Other (describe below in the description)",
+					"text": "Other (mention below in the description)"
+				}
+			],
+			"required": false
 		},
 		{
 			"id": "issue-details",
-			"order": 5,
+			"order": 7,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide additional details about the restore request. In case you are testing for disaster recovery, you can use the [manual failover](https://docs.microsoft.com/azure/cosmos-db/regional-failover) capabilities of Cosmos DB",
+			"displayLabel": "Please provide additional details about the restore request. ",
 			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [
-				{
-					"text": "Is the restore request to test the restore process?"
-				},{
-					"text": "Is the restore request to recover from accidental deletion of database or collection?"
-				},{
-					"text": "Is the restore request to recover from accidental deletion/updation/insertion of data?"
-				}
-			]
+			"useAsAdditionalDetails": true
 		}
                 ]
                 }
