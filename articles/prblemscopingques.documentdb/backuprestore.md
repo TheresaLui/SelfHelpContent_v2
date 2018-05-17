@@ -3,7 +3,7 @@
 	description="CosmosDb Backup and Restore Info"
 	authors="bharathsreenivas"
 	selfHelpType="problemScopingQuestions" 
-  supportTopicIds="32597495"
+        supportTopicIds="32597495"
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
