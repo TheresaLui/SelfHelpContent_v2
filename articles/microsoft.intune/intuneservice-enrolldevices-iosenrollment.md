@@ -16,7 +16,9 @@
 
 ## **Recommended steps**
 
-Load up the user who's having issues in the [Intune Troubleshooting Portal.](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade) The Troubleshooting Portal allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+The first step in troubleshooting enrollment issues using the [Intune Troubleshooting Portal.](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade)<br>
+
+The Troubleshooting Portal allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
 Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
 
