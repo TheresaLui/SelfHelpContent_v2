@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-The first step in troubleshooting enrollment issues using the [Intune Troubleshooting Portal.](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade)<br>
+Start troubleshooting enrollment issues with the [Intune Troubleshooting Portal.](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade)<br>
 
-The Troubleshooting Portal allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+The Troubleshooting Portal helps you easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
 
-Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
+Let's take a look at a few common iOS enrollment error messages and how to resolve them:
 
 **"Device Cap Reached"** - This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
 
