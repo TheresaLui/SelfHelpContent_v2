@@ -36,6 +36,7 @@ To restore the virtual machine, follow the steps below:<br>
 * Create the VM from that image following the steps at [Create a VM from a managed  image.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 
 **VM is being started after a capture option has been selected but a Sysprep has not been run**<br>
+
 To restore the virtual machine, delete and recreate it from the same OS disk following instructions in the below articles.<br>
 * [Create a VM from a VHD using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized-portal)<br>
 * [Create a Windows VM from a specialized disk using PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)<br>
