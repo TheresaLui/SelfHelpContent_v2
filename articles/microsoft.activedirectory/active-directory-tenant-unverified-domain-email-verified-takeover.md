@@ -23,9 +23,10 @@ When a self-service user signs up for a cloud service that uses Azure AD, they a
 ## Recommended Steps
 
 During the process of admin takeover, you can prove ownership as described in [Add a custom domain name to Azure AD](https://docs.microsoft.com/azure/active-directory/add-custom-domain). The next sections explain the admin experience in more detail, but here's a summary: 
+
 - When you perform an ["internal" admin takeover](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover#internal-admin-takeover) of an unmanaged Azure directory, you are added as the global administrator of the unmanaged directory. No users, domains, or service plans are migrated to any other directory you administer.
 
--	When you perform an ["external" admin takeover](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover#external-admin-takeover) of an unmanaged Azure directory, you add the DNS domain name of the unmanaged directory to your managed Azure directory. When you add the domain name, a mapping of users to resources is created in your managed Azure directory so that users can continue to access services without interruption.
+- When you perform an ["external" admin takeover](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover#external-admin-takeover) of an unmanaged Azure directory, you add the DNS domain name of the unmanaged directory to your managed Azure directory. When you add the domain name, a mapping of users to resources is created in your managed Azure directory so that users can continue to access services without interruption.
 
 Supporting Links: https://docs.microsoft.com/azure/active-directory/domains-admin-takeover
 

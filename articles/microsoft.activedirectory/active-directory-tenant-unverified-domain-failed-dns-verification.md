@@ -20,9 +20,11 @@
 We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at <!--domain-->[domain]<!--/domain--> and did not find an entry matching the required verification record <!--txtRecord-->[txtRecord]<!--/txtRecord-->.
 
 The recommended steps for you are noted below: 
+
 1.	Please wait an hour. This will allow your DNS records to propagate at your domain name registrar (such as GoDaddy) before Azure AD can verify the domain. This process can take an hour or more.
 
 2.	Ensure the DNS record was entered, and that it is correct. Complete this step at the website for the domain name registrar for the domain (for example it may be a registrar like GoDaddy, Namecheap). Azure AD cannot verify the domain name if:
+
     - The DNS entry is not present in the DNS zone file.
     - It is not an exact match with the DNS entry that Azure AD provided you. 
 
