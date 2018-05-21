@@ -17,7 +17,7 @@
 
 # DNS Verification was not successful for the domain
 
-We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at <!--domain-->[domain]<!--/domain--> and did not find an entry matching the required verification record <!--txtRecord-->[txtRecord]<!--/txtRecord-->.
+We are unable to successfully confirm registration of the domain verification records in DNS. We queried DNS for the TXT record at <!--$domain-->[domain]<!--/$domain--> and did not find an entry matching the required verification record <!--$txtRecord-->[txtRecord]<!--/$txtRecord-->.
 
 The recommended steps for you are noted below: 
 
