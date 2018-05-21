@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="intune_setup_apns"
 	selfHelpType="diagnostics"
-	supportTopicIds="32599602,32599605,32599626,32599644,32599650,32599653,32599665"
+	supportTopicIds="32599602,32599605,32599626,32599644,32599650,32599653,32599665,32599632"
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
