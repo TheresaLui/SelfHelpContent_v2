@@ -5,7 +5,7 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="khughes"
-    displayOrder=""
+    displayOrder="10"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
