@@ -25,8 +25,8 @@
 			"id": "problem_start_date",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "In  did the problem begin?",
-			"required": false
+			"displayLabel": "What time did the problem begin?",
+			"required": true
 		  },
 		  {
 			"id": "database_name",
@@ -95,17 +95,17 @@
 					"value": "To recover from accidental deletion of Cosmos DB Database",
 					"text": "To recover from accidental deletion of Cosmos DB Database"
 				},{
-					"value": "To recover from accidental deletion of Cosmos DB Collection",
-					"text": "To recover from accidental deletion of Cosmos DB Collection"
+					"value": "To recover from accidental deletion of Cosmos DB Collection/Container",
+					"text": "To recover from accidental deletion of Cosmos DB Collection/Container"
 				},{
-					"value": "To recover from accidental deletion or corruption of data in a Cosmos DB Collection",
-					"text": "To recover from accidental deletion or corruption of data in a Cosmos DB Collection"
+					"value": "To recover from accidental deletion or updation of data in a Cosmos DB Collection/Container",
+					"text": "To recover from accidental deletion or updation of data in a Cosmos DB Collection/Container"
 				},{
 					"value": "Other (describe below in the description)",
 					"text": "Other (mention below in the description)"
 				}
 			],
-			"required": false
+			"required": true
 		},
 		{
 			"id": "issue-details",
