@@ -22,7 +22,7 @@ Users targeted with conditional access will receive a notification email if they
 * In the Azure portal go to **Intune > Device compliance**. Under **Monitor** click **Device compliance**. View your device compliance report to verify that the user's device is marked as compliant.
 * In the Azure portal go to **Intune > Device compliance**. Under **Manage**, click **Policies**. In the list of compliance policies, verify that a profile is assigned to your user's device. If no profile is assigned, then Intune will not be able to confirm the device's compliance status. 
 * Edit the user's conditional access assignment.
-	1. In the Azure portal go to **Intune > Conditional access > Policies**.
-	2. Select a policy from the list. 
-	3. Click **Users and groups**.
-	4. To target a certain policy at someone, add them to the **Include** list. To ensure that a person is omitted from the policy, add them to the **Exclude** list.
+    1.  In the Azure portal go to **Intune > Conditional access > Policies**.
+    2.  Select a policy from the list. 
+    3.  Click **Users and groups**.
+    4.  To target a certain policy at someone, add them to the **Include** list. To ensure that a person is omitted from the policy, add them to the **Exclude** list.
