@@ -19,4 +19,3 @@
 To learn how to configure these settings, see the following article:
 
 [How to configure Exchange Online conditional access policy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-mam#exchange-online-policy)
- 

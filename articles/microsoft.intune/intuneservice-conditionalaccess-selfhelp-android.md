@@ -20,6 +20,4 @@ After they've added an email app on their devices, users on Android devices with
 
 	1.  Sign in to their email from a PC. 
 	2.  Open the getting started email.
-	3.  Forward the email to a different account on their Android device. 
-
- 
+	3.  Forward the email to a different account on their Android device.
