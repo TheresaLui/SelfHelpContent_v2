@@ -19,7 +19,7 @@
 We have detected that your virtual machine **<!--$vmname-->[vmname]**<!--/$vmname--> failed to start with an error:
 "Operation 'start' is not allowed as the VM is generalized". 
 
-This error is caused by an incorrect attempt to run an image capture operation
+This error is caused by an incorrect attempt to run an image capture operation.
 
 <!--/issueDescription-->
 
