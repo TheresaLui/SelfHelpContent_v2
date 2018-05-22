@@ -1,6 +1,6 @@
 
 <properties
-    pageTitle="I could not enable Update Management, Change Tracking and Inventory, or Desired State Configuration"
+    pageTitle="I could not enable Update Management"
     description="Onboarding an automation account to a solution"
     service="microsoft.automation"
     resource="automationaccounts"
@@ -13,7 +13,7 @@
     cloudEnvironments="public, Fairfax"
 />
 
-# I could not enable Update Management, Change Tracking and Inventory, or Desired State Configuration
+# I could not enable Update Management
 
 ## **Recommended documents**
 [Troubleshooting solution onboarding issues](https://aka.ms/troubleshootsolutiononboarding)
