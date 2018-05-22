@@ -7,7 +7,7 @@
     displayOrder="10"
     selfHelpType="resource"
     cloudEnvironments="public"
-    supportTopicIds="32356640,32356646,32356647,32356648,32356669"
+    supportTopicIds="32356640,32356646,32356648,32356669"
     productPesIds="15613"
     resourceTags=""
 />
