@@ -1,0 +1,22 @@
+<properties
+    pageTitle="CDN cache refresh failed"
+    description="CDN cache refresh failed"
+    service="microsoft.cdn"
+    resource="cdn"
+    authors="huaiyizhu"
+    displayOrder="2"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="Mooncake"
+/>
+
+# CDN cache refresh failed
+
+## **Recommended steps**
+1. Check if there is local cache. Please check if the file has local cache through F12 shortcut function of your browser to avoid test results is affected by local cache.
+
+2. Check if cache refresh operation is successfully completed. A cache refresh request usually takes 5 to 10 minutes to complete, and it would take longer time for larger or more files.
+
+3. If there is no local cache and the cache refresh request is completed, please [contact support](https://www.azure.cn/support/contact/) for help.
