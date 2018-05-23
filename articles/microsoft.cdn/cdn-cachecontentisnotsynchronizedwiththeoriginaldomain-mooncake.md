@@ -2,7 +2,7 @@
     pageTitle="CDN cache content is not synchronized with the original domain"
     description="CDN cache content is not synchronized with the original domain"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="8"
     selfHelpType="resource"

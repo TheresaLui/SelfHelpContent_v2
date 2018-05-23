@@ -2,7 +2,7 @@
     pageTitle="How to download CDN log"
     description="How to download CDN log"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="5"
     selfHelpType="resource"

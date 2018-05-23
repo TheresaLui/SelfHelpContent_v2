@@ -2,7 +2,7 @@
     pageTitle="Files cannot be cached after configuring CDN"
     description="Files cannot be cached after configuring CDN"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="4"
     selfHelpType="resource"

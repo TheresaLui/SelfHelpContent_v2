@@ -2,7 +2,7 @@
     pageTitle="How does CDN accelerate storage"
     description="How does CDN accelerate storage"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="7"
     selfHelpType="resource"

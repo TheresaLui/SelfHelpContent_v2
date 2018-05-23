@@ -2,7 +2,7 @@
     pageTitle="Unable to access website after configuring CDN"
     description="Unable to access website after configuring CDN"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="3"
     selfHelpType="resource"

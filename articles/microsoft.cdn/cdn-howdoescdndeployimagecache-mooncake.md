@@ -2,7 +2,7 @@
     pageTitle="How does CDN deploy image cache"
     description="How does CDN deploy image cache"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="6"
     selfHelpType="resource"

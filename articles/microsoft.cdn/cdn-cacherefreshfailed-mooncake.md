@@ -2,7 +2,7 @@
     pageTitle="CDN cache refresh failed"
     description="CDN cache refresh failed"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="2"
     selfHelpType="resource"

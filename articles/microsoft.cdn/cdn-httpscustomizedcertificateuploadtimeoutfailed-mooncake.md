@@ -2,7 +2,7 @@
     pageTitle="HTTPS customized certificate upload timeout/failed"
     description="HTTPS customized certificate upload timeout/failed"
     service="microsoft.cdn"
-    resource="cdn"
+    resource="profiles"
     authors="huaiyizhu"
     displayOrder="1"
     selfHelpType="resource"
