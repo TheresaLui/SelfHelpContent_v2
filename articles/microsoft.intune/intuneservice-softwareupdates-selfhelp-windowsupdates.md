@@ -26,5 +26,5 @@ To avoid conflicts, delete your update settings in the classic portal and recrea
     6.  Select **OK**.
     7.  In **Create Update Ring**, select **Create**. 
 
-For additional details about the settings covered in these steps, see the article [Manage software updates in Intune.](https://docs.microsoft.com/en-us/intune/windows-update-for-business-configure)
+For additional details about the settings covered in these steps, see the article [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
