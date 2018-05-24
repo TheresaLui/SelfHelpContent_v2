@@ -7,7 +7,7 @@
     displayOrder="9"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags=""
+    resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
     productPesIds=""
     cloudEnvironments="public, Fairfax"
 />
