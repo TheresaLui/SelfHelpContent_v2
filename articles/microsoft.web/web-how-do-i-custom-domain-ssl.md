@@ -14,6 +14,8 @@
 />
 # Questions on Custom Domains and Certificates
 ## **Recommended documents**
-[Frequently Asked Questions on Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/)<br>
-[Frequently Asked Questions on App Service Certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/)<br>
-[How do I bind an existing custom SSL certificate to Azure Web Apps](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl/)
+* [Add a custom domain or subdomain to your web app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record) 
+* [Add SSL certificate to Azure Web Apps](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl)
+* [Enforce and Test HTTPS](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl#enforce-https) 
+* [Add a custom domain for web app using traffic manager](https://docs.microsoft.com/azure/app-service/web-sites-traffic-manager-custom-domain-name)  
+* [Migrate an active domain to web app without downtime](https://docs.microsoft.com/azure/app-service/app-service-custom-domain-name-migrate)

@@ -12,20 +12,20 @@
 	cloudEnvironments="public"
 />
 
-# Advisory questions for Enable Replication
+# Advisory questions - VMware/Physical to Azure
 
-## **Recommended Steps**
-**How to Replicate on-premises VMware VMs to Azure?**<br>
-- How to [Set up the source/VMWare environment](https://docs.microsoft.com/azure/site-recovery/site-recovery-set-up-vmware-to-azure)
-and [prepare the target/Azure environment?](https://docs.microsoft.com/azure/site-recovery/site-recovery-prepare-target-vmware-to-azure) <br>
-- What are the [**supported/not-supported configurations**](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-to-azure) for VMware to  Azure replicaton?<br>
-- What are the [**pre-checks**](https://docs.microsoft.com/azure/site-recovery/vmware-walkthrough-prerequisites)  required for VMware to Azure replication?<br>
-- What [**workloads**](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) can I protect with Site Recovery?<br>
-- [What charges do I incur while using Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing) <br>
-- Ensure you run [**Deployment planner**](https://docs.microsoft.com/azure/site-recovery/site-recovery-deployment-planner) for capacity planning to replicate VMware VMs to Azure<br>
-
-**Mobility Service agents can be deployed on source VM** using one of below methods:<br>
-- Manually install Agent using: [**GUI**](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-manually-by-using-the-gui), [**Command prompt**](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-manually-at-a-command-prompt), [**Software deployment tools**](https://docs.microsoft.com/azure/site-recovery/site-recovery-install-mobility-service-using-sccm), [**Azure Automation DSC**](https://docs.microsoft.com/azure/site-recovery/site-recovery-automate-mobility-service-install)<br>
-- [Push installation of mobility agents from Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#install-mobility-service-by-push-installation-from-azure-site-recovery) - must meet below prerequisites before you click 'Enable replication'. <br>
-  - [Push installation prerequisites for Windows machine](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-windows-computer) <br>
-  - [Push installation prerequisites for Linux machine](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-linux-server) <br>
+## **Recommended documents**
+* [Supported/Not-supported configurations](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-to-azure) for VMware/Physical machines to  Azure replication<br>
+* Ensure you run [**Deployment planner**](https://docs.microsoft.com/azure/site-recovery/site-recovery-deployment-planner) for capacity planning <br>
+* Start replicating [**VMware VMs to Azure**]( https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source) with ASR <br>
+* Start replicating [**Physical machines to Azure**]( https://docs.microsoft.com/azure/site-recovery/physical-azure-set-up-source) with ASR<br>
+* Install new instance of [Configuration Server using OVF template]( https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template)</br>
+* [[Video] Watch **step-by-step installation of Configuration Server using OVF** template](https://azure.microsoft.com/blog/announcing-a-new-simplified-onboarding-experience-for-azure-site-recovery-vmware-to-azure/)</br>
+* Install new instance of [Configuration Server using unified setup](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#download-the-latest-installation-file)</br>
+* [Upgrading existing instance of Configuration Server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#upgrade-a-configuration-server)</br>
+* [Techniques to deploy new instance of Mobility service](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service)
+* [Upgrading existing instance of Mobility service](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#update-mobility-service)</br>
+* Start replicating [**Workloads/Applications**](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with ASR<br>
+* [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)</br>
+* [Azure Site Recovery Pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)<br>
+* Any other question? check [FAQ on replicating VMware/Physical machines to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-common-questions)

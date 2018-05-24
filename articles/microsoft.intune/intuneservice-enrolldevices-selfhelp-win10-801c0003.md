@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Enrolling a Windows 10 PC via MDM fails with error code 801c0003"
-	description="Enrolling a Windows 10 PC via MDM fails with error code 801c0003"
+	pageTitle="Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
+	description="Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,10 +12,16 @@
 	cloudEnvironments="public"
 />
 
-# Enrolling a Windows 10 PC via MDM fails with error code 0x801c0003"
+# Enrolling a Windows 10 PC via mobile device management fails with a "0x801c0003" error code.
 
 ## **Recommended steps**
 
-The error can occur in the following scenarios.  **1.** Device cap reached.  Unenroll devices for the user and try again.  **2.** If "Allow Devices to join Azure AD" is set to none.  **3.** The device is already enrolled by another user. Confirm the if device is enrolled.  **4.** The device is Windows 10 Home.  Only Windows 10 Pro, Education and Enterprise skus are allowed to join Azure Active Directory.
+You may encounter this problem if:
+
+* The device cap is reached.  To enroll a new device, retire an existing one and try again.
+* **Allow Devices to join Azure AD** is set to **None**.  To modify this setting open the Intune Azure portal > **Azure Active Directory** > **Devices** > **Device Settings** and change the value to **All** or **Selected**.
+* The device has already been enrolled by another user. Go to **Devices** to verify that it does not already exist as an enrolled device.  
+* The device is Windows 10 Home.  Azure Active Directory only supports the Windows 10 Pro, Education, and Enterprise editions. 
+
 
 

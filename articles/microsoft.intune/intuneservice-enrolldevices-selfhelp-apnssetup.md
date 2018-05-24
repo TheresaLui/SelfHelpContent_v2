@@ -1,6 +1,6 @@
 <properties
-	pageTitle="This Service is not supported.  No Enrollment Policy"
-	description="This Service is not supported.  No Enrollment Policy"
+	pageTitle="Company Portal says This service is not supported. No enrollment policy"
+	description="Company Portal says This service is not supported. No enrollment policy"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,14 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# This Service is not supported.  No Enrollment Policy
+# I tried to enroll an iOS or MacOS device but the Company Portal says, "This service is not supported. No enrollment policy."
 
 ## **Recommended steps**
 
-Apple Push Notification Service (APNS) has not been configured.  Review [this document](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for details on how to set up your Intune account for Apple enrollment.
-
-
-
-
+An Apple MDM push certificate is not configured on your account. See the [Intune documentation](https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate) for the steps to get an Apple MDM push certificate.
 
 
