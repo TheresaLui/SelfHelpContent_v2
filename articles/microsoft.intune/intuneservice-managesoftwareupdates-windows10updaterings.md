@@ -18,13 +18,13 @@
 
 Let's take a look at a few common issues with Windows 10 update rings and how to resolve them:
 
-# I configured software updates through a Windows 10 update ring, but the updates are not being deployed.
+**I configured software updates through a Windows 10 update ring, but the updates are not being deployed.**
 
 * Consider changing Windows servicing from a **Semi-Annual Channel** release type to a stricter, more frequent release type. 
 
 * Check the deferral period for **Quality update** and **Feature update**. The deferral period could lead to delay in updates for up 180 days. For more information on these settings see [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
-# I configured Windows 10 update settings in the Intune classic portal. Should I migrate them to Intune in the Azure portal?
+**I configured Windows 10 update settings in the Intune classic portal. Should I migrate them to Intune in the Azure portal?**
 
 To avoid conflicts, delete your update settings in the classic portal and recreate them in the Azure portal.
 
@@ -38,7 +38,7 @@ To avoid conflicts, delete your update settings in the classic portal and recrea
 
 For additional details about the settings covered in these steps, see the article [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
-# The PCs in my organization are downloading updates individually. Is there a way they can download and then share updates?
+**The PCs in my organization are downloading updates individually. Is there a way they can download and then share updates?**
 
 Yes, Delivery Optimizations download mode setting enables sharing between multiple PCs. Available download modes include:
 
@@ -51,7 +51,7 @@ Yes, Delivery Optimizations download mode setting enables sharing between multip
 
 To configure Delivery Optimization see [Configure Delivery Optimization for Windows 10 updates.](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 
-# I want to defer the Windows 10 updates that are being pushed to users.
+**I want to defer the Windows 10 updates that are being pushed to users.**
 
     1.  Sign in to the Azure portal.
     2.  Select **Software updates > Windows 10 Update Rings**.
@@ -63,7 +63,7 @@ To configure Delivery Optimization see [Configure Delivery Optimization for Wind
 
 For more information about managing software updates, see the article [Manage software updates.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
-# My devices installed their scheduled updates, even though I issued a pause command.
+**My devices installed their scheduled updates, even though I issued a pause command.**
 
 When a pause command is issued, devices do not process the command until the next time they check in to Intune. Because of this, your devices may have:
 
