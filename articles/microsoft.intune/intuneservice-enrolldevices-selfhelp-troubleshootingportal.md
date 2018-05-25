@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Go to [Troubleshooting Portal](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade) to look up the details of a user's enrollment failures. Here you'll find resolutions for enrollment failures and resolutions for problems that have to do with policy, apps, and other Intune features. For more information about the troubleshooting portal see the [Intune documentation.](https://docs.microsoft.com/intune/help-desk-operators)
+Go to the [Intune Troubleshooting Portal](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade) to look up the details of a user's enrollment failures. Here you'll find resolutions for enrollment failures and resolutions for problems that have to do with policy, apps, and other Intune features. For more information about the troubleshooting portal see the [Intune documentation.](https://docs.microsoft.com/intune/help-desk-operators)
 
 
 
