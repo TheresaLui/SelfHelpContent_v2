@@ -1,3 +1,5 @@
+
+
 <properties
 	pageTitle="Deployment Failure RCA"
 	description="RCA - max-quota-limit-exceeded"
@@ -23,5 +25,6 @@ To deploy the desired VM, you must first increase your virtual CPU quota using t
 * [How to view and increase your current quota](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
 
 To learn more about how quotas are managed for Azure subscriptions, please refer to the following articles:<br>
+
 * [Learn about the new Subscription Usage + Quotas view that displays your current limits](https://blogs.msdn.microsoft.com/skeeler/2017/01/subscription-usage-and-quotas-in-the-azure-portal/)  
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
