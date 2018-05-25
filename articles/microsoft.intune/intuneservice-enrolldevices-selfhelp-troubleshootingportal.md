@@ -1,6 +1,6 @@
 <properties
-	pageTitle="A device failed to enroll - how do I find out why?"
-	description="A device failed to enroll - how do I find out why?"
+	pageTitle="A device failed to enroll - how do I find out why"
+	description="A device failed to enroll - how do I find out why"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
