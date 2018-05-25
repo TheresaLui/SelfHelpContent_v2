@@ -12,12 +12,12 @@
 	cloudEnvironments="public"
 />
 
-# Users on Android devices without Knox cannot access email after they’ve enrolled in Intune.
+# Users on Android devices without Knox cannot access email after they've enrolled in Intune.
 
 ## **Recommended documents**
 
 After they've added an email app on their devices, users on Android devices without Knox will receive a getting started email. Users must click the Getting started link inside this email to enable full access.  If the user is unable to receive or access the link on their phone, they should:
 
-    1.  Sign in to their email from a PC. 
-    2.  Open the getting started email.
-    3.  Forward the email to a different account on their Android device.
+  1.  Sign in to their email from a PC. 
+  2.  Open the getting started email.
+  3.  Forward the email to a different account on their Android device.
