@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Yes, Delivery Optimization’s download mode setting enables sharing between multiple PCs. Available download modes include:
+Yes, Delivery Optimizations download mode setting enables sharing between multiple PCs. Available download modes include:
 
 * HTTP Only
 * LAN
