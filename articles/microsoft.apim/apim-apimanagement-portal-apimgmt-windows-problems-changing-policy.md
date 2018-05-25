@@ -1,0 +1,20 @@
+<properties
+    pageTitle="Problems with Changing Policy"
+    description="Problems with Changing Policy"
+    service="microsoft.apim"
+    resource="apimanagement"
+    authors="jeremiahwalters"
+    displayOrder="5"
+    selfHelpType="generic"
+    supportTopicIds="32318310"
+    resourceTags=""
+    productPesIds="15551"
+    cloudEnvironments="public"
+/>
+
+# Problems with Changing Policy
+
+## **Recommended documents**
+* [API Management advanced policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-advanced-policies) 
+	
+* [API Management policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies)

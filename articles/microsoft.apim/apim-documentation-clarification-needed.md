@@ -1,0 +1,24 @@
+<properties
+    pageTitle="Clarification is needed"
+    description="Clarification is needed"
+    service="microsoft.apim"
+    resource="apimanagement"
+    authors="jeremiahwalters"
+    displayOrder="11"
+    selfHelpType="generic"
+    supportTopicIds="32318293"
+    resourceTags=""
+    productPesIds="15551"
+    cloudEnvironments="public"
+/>
+
+# Clarification is needed
+
+## **Recommended documents**
+* [Microsoft's API Management Documentation](https://docs.microsoft.com/en-us/azure/api-management/) 
+	
+* [MSDN Forum Documentation](https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=azureapimgmt)
+
+* [API Management FAQ](https://docs.microsoft.com/en-us/azure/api-management/api-management-faq)
+
+
