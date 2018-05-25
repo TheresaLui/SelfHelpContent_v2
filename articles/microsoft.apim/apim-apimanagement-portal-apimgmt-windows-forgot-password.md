@@ -15,7 +15,7 @@
 # Forgot Password
 
 ## **Recommended documents**
-* [Reset a user password](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-create-or-invite-developers) 
+* [Reset a user password](https://docs.microsoft.com/azure/api-management/api-management-howto-create-or-invite-developers) 
 	
 * [Request Password Reset](https://api4poc.portal.azure-api.net/account/password/forgot)
 

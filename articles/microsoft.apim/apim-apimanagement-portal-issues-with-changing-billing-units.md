@@ -15,8 +15,8 @@
 # Issues with changing billing units
 
 ## **Recommended documents**
-* [Pricing](https://azure.microsoft.com/en-us/pricing/details/api-management/) 
+* [Pricing](https://azure.microsoft.com/pricing/details/api-management/) 
 	
-* [Upgrade and scale](https://docs.microsoft.com/en-us/azure/api-management/upgrade-and-scale)
+* [Upgrade and scale](https://docs.microsoft.com/azure/api-management/upgrade-and-scale)
 
 

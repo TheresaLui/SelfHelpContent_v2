@@ -15,8 +15,8 @@
 # High latency
 
 ## **Recommended documents**
-* [Add caching to improve performance in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-cache)
+* [Add caching to improve performance in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-cache)
 	
-* [Upgrade and scale an API Management instance](https://docs.microsoft.com/en-us/azure/api-management/upgrade-and-scale)
+* [Upgrade and scale an API Management instance](https://docs.microsoft.com/azure/api-management/upgrade-and-scale)
 
 

@@ -15,10 +15,10 @@
 # API always returns cache values
 
 ## **Recommended documents**
-* [API Management caching policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-caching-policies) 
+* [API Management caching policies](https://docs.microsoft.com/azure/api-management/api-management-caching-policies) 
 	
-* [Custom caching in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-sample-cache-by-key)
+* [Custom caching in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-sample-cache-by-key)
 
-* [Add caching to improve performance in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-cache) 
+* [Add caching to improve performance in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-cache) 
 
 

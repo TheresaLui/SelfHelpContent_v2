@@ -15,6 +15,6 @@
 # Problems with Changing Policy
 
 ## **Recommended documents**
-* [API Management advanced policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-advanced-policies) 
+* [API Management advanced policies](https://docs.microsoft.com/azure/api-management/api-management-advanced-policies) 
 	
-* [API Management policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies)
+* [API Management policies](https://docs.microsoft.com/azure/api-management/api-management-policies)
