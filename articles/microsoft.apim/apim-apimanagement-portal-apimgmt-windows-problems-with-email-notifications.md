@@ -15,5 +15,6 @@
 #  Problems with Email notifications
 
 ## **Recommended documents**
+
 * [How to configure notifications and email templates in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-configure-notifications) 
 	

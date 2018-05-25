@@ -15,6 +15,7 @@
 # DNS Issues
 
 ## **Recommended documents**
+
 * [Azure DNS](https://docs.microsoft.com/rest/api/dns/)
 	
 * [How to use Azure API Management with virtual networks](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet)

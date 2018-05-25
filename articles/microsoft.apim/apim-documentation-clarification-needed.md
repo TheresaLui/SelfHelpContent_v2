@@ -15,6 +15,7 @@
 # Clarification is needed
 
 ## **Recommended documents**
+
 * [Microsoft's API Management Documentation](https://docs.microsoft.com/azure/api-management/) 
 	
 * [MSDN Forum Documentation](https://social.msdn.microsoft.com/Forums/azure/home?forum=azureapimgmt)

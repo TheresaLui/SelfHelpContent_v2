@@ -15,6 +15,7 @@
 # Password Reset Does not work
 
 ## **Recommended documents**
+
 * [How to manage user accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-or-invite-developers) 
 
 
