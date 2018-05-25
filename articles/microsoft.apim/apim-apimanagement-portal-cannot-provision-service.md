@@ -3,7 +3,7 @@
     description="Cannot provision service"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="7"
     selfHelpType="generic"
     supportTopicIds="32318290"

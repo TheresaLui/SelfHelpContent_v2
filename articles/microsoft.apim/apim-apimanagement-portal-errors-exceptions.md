@@ -3,7 +3,7 @@
     description="Error or exceptions"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="8"
     selfHelpType="generic"
     supportTopicIds="32318295"

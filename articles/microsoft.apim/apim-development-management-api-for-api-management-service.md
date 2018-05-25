@@ -3,7 +3,7 @@
     description="Management API for API management service"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="10"
     selfHelpType="generic"
     supportTopicIds="32318300"

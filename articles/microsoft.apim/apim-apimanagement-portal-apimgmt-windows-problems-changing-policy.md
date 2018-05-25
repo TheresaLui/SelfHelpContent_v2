@@ -3,7 +3,7 @@
     description="Problems with Changing Policy"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="5"
     selfHelpType="generic"
     supportTopicIds="32318310"

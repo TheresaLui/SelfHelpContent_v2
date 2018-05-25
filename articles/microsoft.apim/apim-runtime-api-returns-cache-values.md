@@ -3,7 +3,7 @@
     description="API always returns cache values"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="13"
     selfHelpType="generic"
     supportTopicIds="32318284"

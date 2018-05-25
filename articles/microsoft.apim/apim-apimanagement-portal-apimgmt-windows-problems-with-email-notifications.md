@@ -3,7 +3,7 @@
     description=" Problems with Email notifications"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="6"
     selfHelpType="generic"
     supportTopicIds="32318311"

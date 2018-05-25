@@ -3,7 +3,7 @@
     description="Cannot connect to an API endpoint"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="16"
     selfHelpType="generic"
     supportTopicIds="32318288"

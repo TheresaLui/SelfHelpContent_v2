@@ -3,7 +3,7 @@
     description="Cannot Add or Update API for product"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="1"
     selfHelpType="generic"
     supportTopicIds="32318287"

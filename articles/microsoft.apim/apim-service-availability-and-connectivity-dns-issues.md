@@ -3,7 +3,7 @@
     description="DNS Issues"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="17"
     selfHelpType="generic"
     supportTopicIds="32318294"

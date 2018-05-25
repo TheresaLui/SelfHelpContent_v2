@@ -3,7 +3,7 @@
     description="Issues with changing billing units"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="9"
     selfHelpType="generic"
     supportTopicIds="32318299"

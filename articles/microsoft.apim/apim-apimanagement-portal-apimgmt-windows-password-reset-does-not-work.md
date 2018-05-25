@@ -3,7 +3,7 @@
     description="Password Reset Does not work"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="4"
     selfHelpType="generic"
     supportTopicIds="32318308"

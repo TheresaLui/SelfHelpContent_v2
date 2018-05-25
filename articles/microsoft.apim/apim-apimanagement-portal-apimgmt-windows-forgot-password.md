@@ -3,7 +3,7 @@
     description="Forgot Password"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="3"
     selfHelpType="generic"
     supportTopicIds="32318296"

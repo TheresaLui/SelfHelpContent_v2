@@ -3,7 +3,7 @@
     description="Cannot Import APIs"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="2"
     selfHelpType="generic"
     supportTopicIds="32318289"

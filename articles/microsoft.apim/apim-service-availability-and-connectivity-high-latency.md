@@ -3,7 +3,7 @@
     description="High latency"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jeremiahwalters"
+    authors="jtwalters25"
     displayOrder="18"
     selfHelpType="generic"
     supportTopicIds="32318297"
