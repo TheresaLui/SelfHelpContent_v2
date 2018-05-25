@@ -18,13 +18,13 @@
 
 To avoid conflicts, delete your update settings in the classic portal and recreate them in the Azure portal.
 
-    1.  Go to the Azure portal and click **All Services**.
-    2.  In the **Filter** field, type **Intune**. In the results, click **Microsoft Intune**.  
-    3.  Click **Software updates > Windows 10 Update Rings > Create**. 
-    4.  Enter a name, description, and click **Configure**. 
-    5.  Configure your organizations software update settings.
-    6.  Select **OK**.
-    7.  In **Create Update Ring**, select **Create**. 
+  1.  Go to the Azure portal and click **All Services**.
+  2.  In the **Filter** field, type **Intune**. In the results, click **Microsoft Intune**.  
+  3.  Click **Software updates > Windows 10 Update Rings > Create**. 
+  4.  Enter a name, description, and click **Configure**. 
+  5.  Configure your organizations software update settings.
+  6.  Select **OK**.
+  7.  In **Create Update Ring**, select **Create**. 
 
 For additional details about the settings covered in these steps, see the article [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
