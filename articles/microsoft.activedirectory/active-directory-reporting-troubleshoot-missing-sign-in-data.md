@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="MarkusVi"
-    displayOrder="1"
+    displayOrder="1008"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_signin,directory_overview"
