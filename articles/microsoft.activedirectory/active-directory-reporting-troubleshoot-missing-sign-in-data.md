@@ -7,7 +7,7 @@
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="azureadrreports_missingdata_signin"
+    resourceTags="azureadrreports_missingdata_signin,directory_overview"
     productPesIds=""
     cloudEnvironments="public"
 />
