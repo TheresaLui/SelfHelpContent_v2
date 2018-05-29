@@ -35,6 +35,6 @@ If we are unable to reach the domain controllers, your managed domain may be neg
 * Virtual Machine experiencing network problems: **<!--$PrimaryVirtualMachineIp-->PrimaryVirtualMachineIp<!--/$PrimaryVirtualMachineIp-->, <!--$SecondaryVirtualMachineIp-->SecondaryVirtualMachineIp<!--/$SecondaryVirtualMachineIp-->**
 
 #### Failed Network Diagnostics
-Below are network diagnostics tests that have failed when we ran them on your managed domain. Each test included details a network rule that has been created that blocks service to the ports required for Azure AD Domain Services. These rules need to be modified for your managed domain to be synchronized. To learn more about resolving this alert, please visit https:/aka.ms/aadds-neterr
+Below are network diagnostics tests that have failed when we ran them on your managed domain. Each test included details a network rule that has been created that blocks service to the ports required for Azure AD Domain Services. These rules need to be modified for your managed domain to be synchronized.
 
 **<!--$NetworkTestResults-->NetworkTestResults<!--/$NetworkTestResults-->**
