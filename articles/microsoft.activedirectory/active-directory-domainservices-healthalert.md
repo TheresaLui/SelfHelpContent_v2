@@ -17,7 +17,7 @@
 
 # Health Alert for Azure AD Domain Services
 
-A health alert was detected for Azure AD Domain Services in the Azure portal. **<!--$AlertDescription-->AlertDescription<!--/$AlertDescription-->**
+A health alert was detected for Azure AD Domain Services in the Azure portal. <!--$AlertDescription-->AlertDescription<!--/$AlertDescription-->
 
 To resolve this issue, please refer to the following steps in this guide: **<!--$ResolutionLink-->ResolutionLink<!--/$ResolutionLink-->**
 
