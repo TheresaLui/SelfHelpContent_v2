@@ -7,7 +7,7 @@
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="conditional_access_selfhelp"
+	resourceTags="conditional_access_selfhelp,onpremise_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
 />
