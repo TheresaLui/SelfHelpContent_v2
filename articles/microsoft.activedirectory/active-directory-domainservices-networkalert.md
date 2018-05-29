@@ -17,15 +17,13 @@
 
 # Network Health Alert for Azure AD Domain Services
 
-Hello [Customer Name],
+We are unable to reach the domain controllers for your managed domain due to network rules configured within your Azure virtual network.
 
-We identified that your managed domain has an active Network Error alert. This means that Microsoft is unable to reach the domain controllers due to network rules you have set up on your domain.
-
-Azure AD Domain Services requires access to specific ports in order to service and maintain your managed domain. In order to ensure your managed domain works as expected, these ports must be open for access from Microsoft. To learn more about the networking requirements, refer to this article:
+Azure AD Domain Services requires access to specific ports in order to service and maintain your managed domain. To ensure that your managed domain works as expected, these ports must be open for access from Microsoft. To learn more about the networking requirements for managed domains please refer to this article:
 
 [Ports required for Azure AD Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-networking#ports-required-for-azure-ad-domain-services)
 
-While Microsoft is unable to reach the domain controllers, your managed domain may be negatively affected. We highly recommend you to edit your network settings to be compliant with our requirements. For steps to resolve the network error, refer to the following article:
+If we are unable to reach the domain controllers, your managed domain may be negatively affected, as Azure AD Domain Services will be unable to synchronize, and your users may have trouble signing-in. For help ensuring your network settings are configured to allow Microsoft to properly maintain your domain, please refer to the following article:
 
 [Troubleshooting invalid networking configuration for your managed domain](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshoot-nsg#alert-aadds104-network-error)
 
@@ -37,12 +35,6 @@ While Microsoft is unable to reach the domain controllers, your managed domain m
 * Virtual Machine experiencing network problems: **<!--$PrimaryVirtualMachineIp-->PrimaryVirtualMachineIp<!--/$PrimaryVirtualMachineIp-->, <!--$SecondaryVirtualMachineIp-->SecondaryVirtualMachineIp<!--/$SecondaryVirtualMachineIp-->**
 
 #### Failed Network Diagnostics
-Below are network diagnostics tests that have failed when we ran them on your managed domain. These may help you better troubleshoot which parts of your network are blocked:
+Below are network diagnostics tests that have failed when we ran them on your managed domain. Each test included details a network rule that has been created that blocks service to the ports required for Azure AD Domain Services. These rules need to be modified for your managed domain to be synchronized. To learn more about resolving this alert, please visit https:/aka.ms/aadds-neterr
 
-<!--$NetworkTestResults-->NetworkTestResults<!--/$NetworkTestResults-->.
-
-Please let us know if you have any questions or concerns.
-
-Thank you,
-
-[Your Name]
+**<!--$NetworkTestResults-->NetworkTestResults<!--/$NetworkTestResults-->**
