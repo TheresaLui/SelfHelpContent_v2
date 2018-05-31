@@ -1,10 +1,12 @@
 <properties 
 	pageTitle="BGP Peering Between MSEE and Microsoft Core Router Is Down"
 	description="BGP Peering Between MSEE and Microsoft Core Router Is Down"
+	infoBubbleText="BGP Peering issue found. See details on the right."
 	service="microsoft.network"
 	resource="ExpressRoute"
 	authors="krisney"
 	displayOrder=""
+	articleId="exrbgpmseecoredowndiag"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags="expressroute"
