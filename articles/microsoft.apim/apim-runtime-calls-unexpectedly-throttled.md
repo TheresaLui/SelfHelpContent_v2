@@ -15,7 +15,4 @@
 # Calls are being unexpectedly throttled
 
 ## **Recommended documents**
-
-* [Advanced request throttling with Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-sample-flexible-throttling) 
-	
-
+[Advanced request throttling with Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-sample-flexible-throttling)

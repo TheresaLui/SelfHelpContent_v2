@@ -15,7 +15,4 @@
 # Authorization errors
 
 ## **Recommended documents**
-
-* [API Management access restriction policies](https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies) 
-	
-
+[API Management access restriction policies](https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies)

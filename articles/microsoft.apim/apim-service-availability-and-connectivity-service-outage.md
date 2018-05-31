@@ -15,9 +15,5 @@
 # Service outage
 
 ## **Recommended documents**
-
-* [Products available by region](https://azure.microsoft.com/global-infrastructure/services/)
-
-* [This link shows the status of Azure including each service in each region](https://azure.microsoft.com/status/)
-
-
+[Products available by region](https://azure.microsoft.com/global-infrastructure/services/)
+[This link shows the status of Azure including each service in each region](https://azure.microsoft.com/status/)

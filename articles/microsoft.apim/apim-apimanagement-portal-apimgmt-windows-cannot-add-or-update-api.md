@@ -15,7 +15,5 @@
 # Cannot Add or Update API for product
 
 ## **Recommended documents**
-
-* [Add an API manually](https://docs.microsoft.com/azure/api-management/add-api-manually)
-* [Create a new Azure API Management service instance](https://docs.microsoft.com/azure/api-management/get-started-create-service-instance)
-
+[Add an API manually](https://docs.microsoft.com/azure/api-management/add-api-manually)
+[Create a new Azure API Management service instance](https://docs.microsoft.com/azure/api-management/get-started-create-service-instance)
