@@ -4,7 +4,7 @@
 	infoBubbleText="BGP Peering issue found. See details on the right."
 	service="microsoft.network"
 	resource="ExpressRoute"
-	authors="krisney"
+	authors="KristinaNeyens"
 	displayOrder=""
 	articleId="exrbgpmseecoredowndiag"
 	selfHelpType="diagnostics"
