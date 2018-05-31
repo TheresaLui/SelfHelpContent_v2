@@ -14,7 +14,7 @@
 
 # I tried to create a conditional access policy that blocks all mail apps on my organization's Windows computers. Currently, however, only native mail apps are being blocked. 
 
-## **Recommended documents**
+## **Recommended steps**
 
 On a Windows computer, conditional access only applies to:
 

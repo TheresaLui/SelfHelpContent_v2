@@ -16,7 +16,9 @@
 
 ## **Recommended steps**
 
-* Consider changing Windows servicing from a **Semi-Annual Channel** release type to a stricter, more frequent release type. 
+* Consider changing Windows servicing from a **Semi-Annual Channel** release type to a stricter, more frequent release type such as **Semi-Annual Channel Targeted**
 
-* Check the deferral period for **Quality update** and **Feature update**. The deferral period could lead to delay in updates for up 180 days. For more information on these settings see [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
+* Check the deferral period for **Quality update** and **Feature update**. The deferral period could lead to delay in updates for up 180 days. 
+
+For more information on these settings see [Manage software updates in Intune.](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 
