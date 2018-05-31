@@ -20,7 +20,6 @@
 * [Running custom Java web app on App Service](https://github.com/aelij/azure-content/blob/master/articles/app-service-web/web-sites-java-custom-upload.md)<br>
 * [Java on Azure](https://docs.microsoft.com/java/azure/) <br>
 * [Spring on Azure](https://docs.microsoft.com/java/azure/spring-framework/index)<br>
-* [Java Demos](http://aka.ms/java-demos)<br>
 * [Using Maven, Gradle and Jenkins for the new Tomcat in App Service Linux](https://github.com/Microsoft/todo-app-java-on-azure/tree/tomcat-on-azure-app-service-linux) 
 
 
