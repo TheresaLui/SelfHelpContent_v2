@@ -15,5 +15,5 @@
 # Management API for API management service
 
 ## **Recommended documents**
-[Debugging API](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)
+[Debugging API](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)<br>
 [API Management API](https://docs.microsoft.com/rest/api/apimanagement/api)
