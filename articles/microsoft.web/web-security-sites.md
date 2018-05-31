@@ -15,7 +15,7 @@
 # Malware, Virus, or Security Intrusion
 
 ## **Recommended documents**
-There is built-in security scanning that is always enabled: [Microsoft Antimalware for Azure Cloud Services and Virtual Machines](https://docs.microsoft.com/azure/security/azure-security-antimalware). <br>
+There is built-in security scanning that is always enabled: [Microsoft Antimalware for Azure Cloud Services and Virtual Machines](https://docs.microsoft.com/azure/security/azure-security-antimalware).<br>
 
 For Azure App Service, it only protects the App Service infrastructure.  There is no reporting as you, as a customer, have no way to access the infrastructure due to sandboxing. If we find a problem, we handle it transparently for you.<br>
  
