@@ -19,6 +19,6 @@ There is built-in security scanning that is always enabled: [Microsoft Antimalwa
 
 For Azure App Service, it only protects the App Service infrastructure.  There is no reporting as you, as a customer, have no way to access the infrastructure due to sandboxing. If we find a problem, we handle it transparently for you. <br>
  
-Tinfoil is a premium service you can use to scan the content of your site: [read more]( https://azure.microsoft.com/blog/web-vulnerability-scanning-for-azure-app-service-powered-by-tinfoil-security/).  
+Tinfoil is a premium service you can use to scan the content of your site: [read more](https://azure.microsoft.com/blog/web-vulnerability-scanning-for-azure-app-service-powered-by-tinfoil-security/).  
 
 
