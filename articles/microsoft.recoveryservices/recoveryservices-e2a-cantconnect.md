@@ -15,14 +15,12 @@
 # Site Recovery (VMM to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine
 
 **Connect button is grayed out on the virtual machine** <br/>
-
 - If the deployment model is Resource Manager <br/>
 Add a Public IP on the Network interface of the virtual machine. [See the steps to add a public ip here](https://aka.ms/asr-resourcemanager-vm-connect)<br/>
 - If the deployment model is Classic <br/>
 Add an endpoint on public port 3389 for RDP and on public port 22 for SSH. [See the steps to add an endpoint here](https://aka.ms/asr-classic-vm-connect)<br/>
 
 **Connect button is available on the virtual machine** <br/>
-
 - Look at the console screenshot of the virtual machine by going to **Boot diagnostics** in the virtual machine menu.  Boot diagnostics is enabled by default on a Resource Manager virtual machine. You need to manually enable it on a Classic virtual machine.<br/>
 	- Note that enabling any setting other than Boot Diagnostics would require Azure VM Agent to be installed in the virtual machine before the failover<br/>
 - If the virtual machine has not started, try failing over to an older recovery point<br/>
