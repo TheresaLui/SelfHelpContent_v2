@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536397, 32536398, 32536400"
 	resourceTags=" "
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="MoonCake"
 />
 
