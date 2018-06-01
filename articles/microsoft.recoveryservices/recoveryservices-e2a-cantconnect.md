@@ -14,6 +14,8 @@
 
 # Site Recovery (VMM to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine
 
+## **Recommended steps**
+
 **Connect button is grayed out on the virtual machine** <br/>
 - If the deployment model is Resource Manager <br/>
 Add a Public IP on the Network interface of the virtual machine. [See the steps to add a public ip here](https://aka.ms/asr-resourcemanager-vm-connect)<br/>
