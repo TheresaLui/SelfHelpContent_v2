@@ -14,7 +14,7 @@
 
 # Site Recovery (VMM to Azure)/Enable Protection
 
-## **Recommended Steps**</br>
+## **Recommended Steps**
 
 - Ensure you have used the capacity planning tool to avoid replication misses and not meeting the SLAs</br>
 - Ensure that the server that you are trying to protect meets the following requirements</br>
