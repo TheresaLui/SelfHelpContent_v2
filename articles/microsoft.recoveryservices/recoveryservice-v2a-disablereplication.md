@@ -20,7 +20,7 @@
 - **Configuration server:**
 	- [How to delete or unregister a configuration server?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)<br>
 	- [How to delete configuration server using PowerShell?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell)<br>
-- **vCenter server:** [How to delete a vCenter server in Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vcenter#delete-a-vcenter-in-azure-site-recovery)<br>
+- **vCenter server:** [How to delete a vCenter server in Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#delete-a-vcenter-server)<br>
 
 ## **Recommended documents**
 
