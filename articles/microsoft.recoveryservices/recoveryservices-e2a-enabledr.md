@@ -14,8 +14,6 @@
 
 # Site Recovery (VMM to Azure)/Enable Protection
 
-Common issues during Enable Replication </br>
-
 ## **Recommended Steps**</br>
 
 - Ensure you have used the capacity planning tool to avoid replication misses and not meeting the SLAs</br>
