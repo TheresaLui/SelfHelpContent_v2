@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32574718"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Replicate Azure VMs from one Azure region to another Azure region using Azure Site Recovery
