@@ -3,7 +3,7 @@
     description="I am getting 429 errors for my API requests"
     service="microsoft.maps"
     resource="accounts"
-    authors="jinzh-azureiot"
+    authors="jingjing-z"
     resourceTags=""
     selfHelpType="resource"
     supportTopicIds=""
