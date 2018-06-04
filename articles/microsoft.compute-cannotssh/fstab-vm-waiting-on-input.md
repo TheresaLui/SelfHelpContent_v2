@@ -22,7 +22,7 @@ Microsoft Azure has concluded an investigation of your  virtual machine. We iden
 
 You can use the Azure Portal to view the [serial log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) output of your VM in the boot diagnostics blade to detect connectivity issues due to similar boot failures in future. 
 
-More information on the fstab errors can be found in the article [Azure Linux VM cannot start because of fstab error](https://support.microsoft.com/en-us/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors)
+More information on the fstab errors can be found in the article [Azure Linux VM cannot start because of fstab error](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors)
 <!--/issueDescription-->
 
 ## **Recommended Steps**
