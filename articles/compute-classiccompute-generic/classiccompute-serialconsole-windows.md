@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 [Virtual machine serial console (preview)](https://docs.microsoft.com/azure/virtual-machines/Windows/serial-console)<br>
-[Special Administration Console (SAC)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc787940(v=ws.10))
+[Special Administration Console (SAC)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc787940(v=ws.10))<br>
 [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/Windows/boot-diagnostics)<br>
