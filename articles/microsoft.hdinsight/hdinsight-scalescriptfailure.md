@@ -18,7 +18,7 @@
 
 ## Problem
 
-We noticed that the HDInsight cluster <!--$ClusterDnsName-->Cluster Name<!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptUri-->Script Uri<!--/$ScriptUri--> uses a SAS key, which has expired.
+We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing a scale up operation. The failure is due to a persisted custom script that is inaccessible. This is because the script <!--$ScriptUri-->[ScriptUri]<!--/$ScriptUri--> uses a SAS key, which has expired.
 
 ## **Recommended steps**
 In order to scale up, the persisted script needs to be demoted, so that it does not run on the new node.

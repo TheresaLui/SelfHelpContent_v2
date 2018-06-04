@@ -16,6 +16,14 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We found a high number of metadata operations on your account
+We found a high number of metadata operations on your account.
 <!--/issueDescription-->
-The large number of metadata operations can possibly arise due to multiple initializations of the DocumentClient object which retrieves informations about the account and its collections. It is recommended to cache and reuse this instance within your application rather than creating a new instance for each operations. Please refer this [link](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient?view=azure-dotnet#remarks) for more details.
+In Cosmos DB, data is distributed across partitions. This includes metadata about your databases/collections. Metadata for Cosmos DB has a system-reserved request unit (RU) limit. You can avoid rate limiting from metadata operations by following these patterns.
+
+### Use static Cosmos DB client instances
+Upon initialization of the *DocumentClient* constructor, the Cosmos DB SDK fetches metadata about the account including consistency level, databases, collections, partitions, and offers. This initialization may consume a high number of RUs, and should be performed infrequently. Use a single DocumentClient instance and use it for the lifetime of your application.
+
+### Cache the names of databases/collections
+Retrieve the names of your databases and collections from configuration or cache them on start. Calls like *ReadDatabaseAsync*/*ReadDocumentCollectionAsync* or *CreateDatabaseQuery*/*CreateDocumentCollectionQuery* will result in calls to the service, and will consume RUs. They should be performed infrequently. 
+
+For other tips on performance and SDK best practices, please see [.NET tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips) and [Java tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java).

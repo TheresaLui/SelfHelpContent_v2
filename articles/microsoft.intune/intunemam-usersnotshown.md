@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="App reporting by user does not show new targeted users for the app protection policy"
     description="App reporting by user does not show new targeted users for the app protection policy"
     service="microsoft.intune"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# App reporting by user does not show new targeted users for the app protection policy
+# App reporting by user does not show new targeted users for the app protection policy.
 
 ## **Recommended steps**
 

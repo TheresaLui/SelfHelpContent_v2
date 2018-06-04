@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="App protection policies are not working for any supported Office App for a user"
     description="App protection policies are not working for any supported Office App for a user"
     service="microsoft.intune"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
  />
 
-# App protection policies are not working for any supported Office App for a user
+# App protection policies are not working for any supported Office App for a user.
 
 ## **Recommended steps**
 

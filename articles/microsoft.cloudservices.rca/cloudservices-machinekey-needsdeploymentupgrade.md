@@ -16,4 +16,8 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-**<!--$DeploymentName-->DeploymentName<!--/$DeploymentName-->** is not using the latest guest agent version. Please perform an [upgrade deployment](https://msdn.microsoft.com/en-us/library/azure/ee460793.aspx) so **<!--$DeploymentName-->DeploymentName<!--/$DeploymentName-->** will be on the latest guest agent, and we determine if your web roles are using the enhanced algorithm.
+As of <!--$LastRefreshTime-->LastRefreshTime<!--/$LastRefreshTime--> **<!--$DeploymentName-->DeploymentName<!--/$DeploymentName-->** is not using the latest guest agent version. Please perform an [upgrade deployment](https://msdn.microsoft.com/library/azure/ee460793.aspx) so **<!--$DeploymentName-->DeploymentName<!--/$DeploymentName-->** will be on the latest guest agent, and we determine if your web roles are using the enhanced algorithm.
+
+If there are any additional Cloud Service deployments under your subscription, they will be listed down here with their current MachineKey status as of <!--$LastRefreshTime-->LastRefreshTime<!--/$LastRefreshTime-->:
+## List of Azure Cloud Service deployments
+<!--$DeploymentList-->DeploymentList<!--/$DeploymentList-->
