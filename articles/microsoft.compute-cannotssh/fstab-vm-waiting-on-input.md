@@ -18,7 +18,7 @@
 # Diagnostics on your Linux Virtual machine found a boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in a inaccessible state because it is waiting on user input to continue the boot process. This problem is most commonly due to a problem in the file system table(fstab) file.
+Microsoft Azure has concluded an investigation of your  virtual machine. We identified that your VM is currently in a inaccessible state because it is waiting on user input to continue the boot process. This problem is most commonly due to a problem in the file system table(fstab) file.
 
 To view more detailed information, see the [serial log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) output in the boot diagnostics blade.
 <!--/issueDescription-->
