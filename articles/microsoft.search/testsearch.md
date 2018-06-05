@@ -12,7 +12,7 @@
 />
 
 # Using Search Index/Issue or error uploading documents
- 
+
 ## **Recommended documents**
 [How to import data into Azure Search - push and pull methods](https://azure.microsoft.com/documentation/articles/search-what-is-data-import/) <br>
 [How to upload documents using the REST API](https://msdn.microsoft.com/library/azure/dn798930.aspx) <br>
