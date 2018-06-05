@@ -27,7 +27,7 @@
  7. Reset the SSH connection and configuration to fix SSH issues <br>
  [Reset SSH connection using CLI](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#fix-common-ssh-errors/)
  8. SSH to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
- 9. Address any Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
+ 9. Address any Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel), which will migrate the VM to a new Azure host
 
 ## **Recommended documents**
 [Detailed troubleshooting of SSH errors](https://docs.azure.cn/virtual-machines/linux/detailed-troubleshoot-ssh-connection/) <br>
