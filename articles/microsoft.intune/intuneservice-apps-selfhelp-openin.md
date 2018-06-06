@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My iOS users are able to save corporate data outside of policy protected apps by using the Open In extension."
-	description="My iOS users are able to save corporate data outside of policy protected apps by using the Open In extension."
+	pageTitle="My iOS users are able to save corporate data outside of policy protected apps by using the Open In extension"
+	description="My iOS users are able to save corporate data outside of policy protected apps by using the Open In extension"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
