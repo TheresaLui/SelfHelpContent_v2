@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Setup Conditional Access - Exchange Onpremise Connector"
-	description="Setup Conditional Access - Exchange Onpremise Connector"
+	pageTitle="Setup Conditional Access - Exchange on-premise Connector"
+	description="Setup Conditional Access - Exchange on-premise Connector"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Setup Conditional Access - Exchange Onpremise Connector
+# Setup Conditional Access - Exchange on-premises Connector
 
 ## **Recommended steps**
 
