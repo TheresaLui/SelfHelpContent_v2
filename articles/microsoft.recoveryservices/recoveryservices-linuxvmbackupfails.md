@@ -21,7 +21,7 @@ Ensure your [**Linux VM agent**](https://docs.microsoft.com/azure/backup/backup-
 
 Ensure there is [**connectivity**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) between VM and Azure Storage endpoints <br>  
 
-Ensure the VM [**Linux OS version and Kernel version are compatible**](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for using Azure Backup. If your OS/Kernel version is not in the distribution list then it not supported for Azure Backup [**connectivity**] <br>  
+Ensure the VM [**Linux OS version and Kernel version are compatible**](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for using Azure Backup. If your OS/Kernel version is not in the distribution list then it not supported for Azure Backup <br>  
 
 Backup can fail due to Snapshot extension issues, [**uninstall the extension to force reload**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) and retry the operation <br>
 
