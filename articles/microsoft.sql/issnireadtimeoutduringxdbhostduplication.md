@@ -17,6 +17,6 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Your application may have took too long to respond during the login request at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**, so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support. 
+Your application may have taken too long to respond during the login request, so the login request was terminated. Please check your application's resource consumption for any spikes that would delay the login response and try again. If no irregularities are found and the issue persists, please contact support. 
 <!--/issueDescription-->
 

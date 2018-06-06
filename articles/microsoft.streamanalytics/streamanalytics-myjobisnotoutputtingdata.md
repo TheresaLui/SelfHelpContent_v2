@@ -22,9 +22,9 @@
 6. If Timestamp By is used, make sure the events have timestamps greater than the job start time. 
 7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using WITH clause to build up the query logic, step by step.
 8. Watch out for common gotachas where it is possible that your query is functioning just fine but: <br>
-    * A where clause in the query filtered out their events that prevented outputs from being generated. <br>
-    * The window size is large enough that you’ll need to wait for the corresponding duration to see an output from the query. <br>
-    * Timestamp for events is before the job start time and therefore events are being dropped. <br>
+  * A where clause in the query filtered out their events that prevented outputs from being generated. <br>
+  * The window size is large enough that you’ll need to wait for the corresponding duration to see an output from the query. <br>
+  * Timestamp for events is before the job start time and therefore events are being dropped. <br>
 9. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser versus running the job for real. 
 10. Start the Job and check if the job works as desired.  
 11. Once the job status changes to "Running", depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 

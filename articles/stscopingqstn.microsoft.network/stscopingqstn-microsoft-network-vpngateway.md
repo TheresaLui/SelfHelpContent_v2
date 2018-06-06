@@ -3,9 +3,9 @@
    description="Scoping questions for VPN Gateway Issues"
    authors="tatec,jwazurecloud"
    selfHelpType="supportTopicBasedScopingQuestions"
-   supportTopicIds="32542246,32542247,32542248,32542249,32542250,32542251"
-  productPesIds="16094"
-  cloudEnvironments="public, MoonCake"
+   supportTopicIds="32591152,32591149,32591148,32591150,32591151,32591158,32591156,32591159,32591155,32591154,32591157,32591153,32591147"
+   productPesIds="16094"
+   cloudEnvironments="public, MoonCake"
 />
 # VPN Gateway Issues
 *  Issue description

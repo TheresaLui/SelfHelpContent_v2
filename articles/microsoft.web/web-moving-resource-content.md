@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Scoping questions for Moving resources"
+	pageTitle="Moving resources"
 	description="Moving resources"
 	service="microsoft.web"
 	resource="sites"

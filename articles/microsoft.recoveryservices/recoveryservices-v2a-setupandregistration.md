@@ -53,10 +53,14 @@ Common issues during Setup & Registration of a Configuration Server
 * If after successful registration of your **Configuration Server**, you are unable to discovery your vCenter then ensure that you don't have other versions of Perl or PHP installed on the computer that is running the **Configuration Sever**
 
 ## **Recommended Documents**
-* [Configuration Server hardware and software prerequisites](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#prerequisites)
-* [Installing & Registering a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#installing-and-registering-a-configuration-server-from-gui)
-* [How to register a Configuration Server with a different Vault](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#registering-a-configuration-server-with-a-different-recovery-services-vault)
-* [Renew Configuration Server SSL Certificate](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#renew-configuration-server-secure-socket-layerssl-certificates)
-* [Modifying Configuration Server's proxy settings](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#modifying-proxy-settings-for-configuration-server)
-* [Scale Limits for Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#sizing-requirements-for-a-configuration-server)
-* [Decommissioning a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#decommissioning-a-configuration-server)
+* [Configuration Server hardware and software prerequisites](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#prerequisites) <br>
+* [Installing & Registering a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#installing-and-registering-a-configuration-server-from-gui) <br> 
+* [Upgrading a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#upgrading-a-configuration-server) <br>
+* [How to register a Configuration Server with a different Vault](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#registering-a-configuration-server-with-a-different-recovery-services-vault) <br>
+* [Renew Configuration Server SSL Certificate](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#renew-configuration-server-secure-socket-layerssl-certificates) <br>
+* [Modifying Configuration Server's proxy settings](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#modifying-proxy-settings-for-configuration-server) <br>
+* [Scale Limits for Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#sizing-requirements-for-a-configuration-server) <br>
+* [Delete or Unregister a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server) <br>
+* [Foprce Delete or Unregister a Configuration Server using Azure PowerShell](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell) <br>
+* [Renew Secure Socket Layer (SSL) Certificate on your Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#renew-configuration-server-secure-socket-layerssl-certificates)
+

@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The server <!--$ServerName--> ServerName <!--/$ServerName--> experienced connectivity issues at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** due to an issue with your billing information. 
+The server <!--$ServerName--> ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information. 
 <!--/issueDescription-->
 
 This issue may have occurred because:<br> 
