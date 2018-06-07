@@ -7,7 +7,7 @@
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags=""
+    resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
 />
