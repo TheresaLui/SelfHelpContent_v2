@@ -15,22 +15,18 @@
 # Backup of Windows Azure virtual machine fails
 
 ## **Recommended steps**
-To resolve common issues, try one or more of the following steps.
+Before filing support request validate below steps (these can potentially help resolve your issue): <br>
 
-**VM agent is unable to communicate with the Azure Backup Service?** <br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot1) to resolve communication issues <br>
+* Ensure your [**Windows VM Agent**](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) is up to date if auto upgrate is disabled.<br> 
 
-**Snapshot operation failed due to no network connectivity on the virtual machine?** <br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot2) to resolve snapshot failure issues <br>
+* Ensure there is [**connectivity**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) between VM and Azure Storage endpoints <br>   
 
-**VMSnapshot extension operation failed?**<br>
-This issue may occur if extensions cannot be loaded, Backup fails because a snapshot cannot be taken.<br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot3) to resolve extension operation failed issues.
+* Backup can fail due to Snapshot extension issues, [**uninstall the extension to force reload**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) and retry the operation <br> 
 
-**Unable to perform the operation as the VM Agent is not responsive?**<br>
-This issue may occur if the VM Agent might have been corrupted or the service might have been stopped. Follow the [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot4) to resolve this issue.<br>
-
-
+* Ensure the VM [**Windows OS version is compatible**](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for using Azure Backup (versions older than Windows Server 2008 R2 are not supported) <br>   
 
 ## **Recommended documents**
-[Azure virtual machine backup troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)<br>
+* [VM agent is unable to communicate with the Azure Backup Service?](https://aka.ms/iaasvmbackuptshoot1) <br>
+* [Snapshot operation failed due to no network connectivity on the virtual machine?](https://aka.ms/iaasvmbackuptshoot2) <br>
+* [VMSnapshot extension operation failed?](https://aka.ms/iaasvmbackuptshoot3) <br>
+* [Unable to perform the operation as the VM Agent is not responsive?](https://aka.ms/iaasvmbackuptshoot4) <br>
