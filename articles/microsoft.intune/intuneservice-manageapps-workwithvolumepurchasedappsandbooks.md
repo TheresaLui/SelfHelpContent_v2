@@ -36,7 +36,7 @@ Users receive varied VPP prompts based on:
 
 For a list of why your users are receiving VPP prompts, refer to the [End-User Prompts for VPP](https://docs.microsoft.com/intune/vpp-apps-ios#end-user-prompts-for-vpp) table in the Intune documentation.
 
-**e-books
+**E-books**
 
 **A user in my organization doesn't have the Apple iBooks app to view e-books.  Can I use Intune to install it?**
 
