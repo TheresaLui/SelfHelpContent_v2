@@ -14,7 +14,29 @@
 
 # Manage Apps - Work with volume purchased apps and books
 
-Let's take a look at a few common issues deploying e-books and how to resolve them:
+Let's take a look at a few common issues deploying VPP Apps and e-books and how to resolve them:
+
+**VPP Apps**
+
+**I assigned an iOS VPP app to my users, but the installation failed.**
+
+Installation failures will occur in either of the following scenarios.
+
+* A single VPP token is used across multiple mobile device management providers. VPP tokens from Apple may only be used with one provider. If you used a VPP token with multiple providers, you must re-upload the token to Intune. For more information about VPP apps [see the Intune documentation.](https://docs.microsoft.com/intune/vpp-apps-ios#before-you-start)  
+
+* The total number of installations exceed the number of licenses. To view a usage report for your licenses, go to the Intune **Mobile apps > App licenses** page.  To learn how to reclaim licenses in use, see the Intune documentation about [Revoking app licenses and deleting tokens.](https://docs.microsoft.com/intune/vpp-apps-ios#revoking-app-licenses-and-deleting-tokens)
+
+**Users receive various prompts when they attempt to install VPP apps.**
+
+Users receive varied VPP prompts based on:
+
+* Device enrollment type.
+* How the app is deployed.
+* If the device or user group is targeted.
+
+For a list of why your users are receiving VPP prompts, refer to the [End-User Prompts for VPP](https://docs.microsoft.com/intune/vpp-apps-ios#end-user-prompts-for-vpp) table in the Intune documentation.
+
+**e-books
 
 **A user in my organization doesn't have the Apple iBooks app to view e-books.  Can I use Intune to install it?**
 
