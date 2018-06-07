@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure Information Client - AIP Scanner
+# Azure Information Client - AIP Scanner 
 
 ## How to export Azure Information Protection scanner logs
 

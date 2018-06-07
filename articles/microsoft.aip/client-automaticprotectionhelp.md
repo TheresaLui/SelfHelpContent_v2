@@ -14,7 +14,7 @@
 
 # Azure Information Protection client - automatic protection 
 
-## Recommended troubleshoot steps
+## Recommended troubleshoot steps 
 
 1. If you used the built-in information types for your Azure Information Protection policy, verify that your content matches the expected format. For more information, see [What the sensitive information types look for](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b) from the Office documentation. 
 2. Verify that the label is appropriately configured for **Automatic** or **Recommended**.
