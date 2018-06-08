@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32593224"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Site Recovery (VMware vCenter to Azure)/Add/register configuration server
