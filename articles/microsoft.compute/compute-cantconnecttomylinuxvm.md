@@ -17,7 +17,7 @@
 ## **Recommended steps**
  To resolve common issues, try one or more of the following steps.
 
- 1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> and verify if your VM is running . If you prefer you can also see these by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine. Review errors in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> or in logs for errors such as FSTAB (file systems table), FSCK (file system consistency), or networking
+ 1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> and verify if your VM is running . If you prefer you can also see logs by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine. Review errors in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> or in logs for errors such as FSTAB (file systems table), FSCK (file system consistency), or networking
  2. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
  3. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying SSH from Azure
  4. Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port(default 22)
