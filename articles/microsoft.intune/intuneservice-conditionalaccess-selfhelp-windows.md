@@ -25,4 +25,4 @@ On a Windows computer, conditional access only applies to:
 To block Microsoft Office 2013 when modern authentication is disabled, an earlier version of Office, or to block all mail apps, you must:
 
   * Register the device in Azure Active Directory.
-  * Configure Azure Active Directory Federation Services (ADFS). To learn how to configure ADFS, see [Set up SharePoint Online and Exchange Online for Azure Active Directory conditional access.](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-no-modern-authentication)
+  * Configure Azure Active Directory Federation Services (ADFS). To learn how to configure ADFS, see [Set up SharePoint Online and Exchange Online for Azure Active Directory conditional access.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-no-modern-authentication)
