@@ -1,3 +1,4 @@
+<properties
 	pageTitle="Site Recovery (VMware to Azure)/Process Server deployment issues"
 	description="Site Recovery (VMware to Azure)/Common issues during Process Server deplooyments"
 	service="microsoft.recoveryservices"
