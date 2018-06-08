@@ -19,7 +19,4 @@
 * [Applying Azure Disk Encryption in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)<br>
 * [Understanding Azure Disk Encryption deployment scenarios and user experiences](https://docs.microsoft.com/azure/security/azure-security-disk-encryption?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json#disk-encryption-deployment-scenarios-and-user-experiences)<br>
 * [Explore Azure Disk Encryption with Azure Powershell](http://blogs.msdn.com/b/azuresecurity/archive/2015/11/16/explore-azure-disk-encryption-with-azure-powershell.aspx)<br>
-* [Explore Azure Disk Encryption with Azure Powershell - Part II](http://blogs.msdn.com/b/azuresecurity/archive/2015/11/21/explore-azure-disk-encryption-with-azure-powershell-part-2.aspx)<br>
-
-
-
+* [Explore Azure Disk Encryption with Azure Powershell - Part II](http://blogs.msdn.com/b/azuresecurity/archive/2015/11/21/explore-azure-disk-encryption-with-azure-powershell-part-2.aspx)
