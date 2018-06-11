@@ -22,6 +22,7 @@ We have identified that one of your Virtual Network Gateway instances for Vnet, 
 Azure Virtual Network Gateways are deployed in a high availability set to increase uptime. Issues like this, although not common, can occur and your VPN tunnel should remain working while the other instance is 'healed'. If this event has resulted in persistent tunnel establishment failure, attempt to [reset the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). If a Reset does not provide relief, consider deleting and re-creating the Gateway.
 ### Steps to recreate the Virtual Network Gateway
 Please Note: **REQUIRES up to 45 minutes of VPN DOWNTIME** and on-premises VPN device configuration updates.
+
 1. Open the **[Azure portal](http://portal.azure.com)**
 2. Find your Vnet Gateway for VNet: **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->**
 3. Open the **Overview** blade and press the **Delete** button at the top
