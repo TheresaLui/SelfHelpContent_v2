@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified the virtual network gateway has switched over to a backup instance
 <!--issueDescription-->
-We have identified that your Virtual Network Gateway for Vnet **<!--@virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has switched over to another instance. The most recent time reported: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
+We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has switched over to another instance. The most recent time reported: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
 <!--/issueDescription-->
 ## **More information about this issue**
 We are sorry for any inconvenience this may have caused. This behavior can be considered normal and typically occurs during planned maintenance of the VNet Gateway and should not impact active VPN workloads. If this failover event was unexpected and resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). 
