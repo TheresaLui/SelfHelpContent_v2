@@ -22,6 +22,7 @@ We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetw
 We are sorry for any inconvenience this may have caused. This behavior can be considered normal and typically occurs during planned maintenance of the VNet Gateway and should not impact active VPN workloads. If this failover event was unexpected and resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). 
 
 We recommend enabling **Virtual Network Gateway Metrics** as this issue may have occurred if your Virtual Network Gateway was over-utilized.
+
 1. Go to the [Azure portal](http://portal.azure.com)
 2. Find your Virtual Network Gateway
 3. Open the 'Metrics' blade
