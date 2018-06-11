@@ -17,7 +17,7 @@
 ## **Recommended steps**
 To resolve common issues, try one or more of the following steps.
 
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> and verify if your VM is running . Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM <!--$vmname-->[vmname]<!--/$vmname--> by going to command prompt.
+1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM and verify if your VM is running . Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade) of your VM  by going to command prompt.
 2. If you see RDP error due to CredSSP Encryption Oracle Remediation, please follow this [link](https://blogs.technet.microsoft.com/mckittrick/unable-to-rdp-to-virtual-machine-credssp-encryption-oracle-remediation/) for recovery steps.
 3. Click [here](data-blade:microsoft_azure_network.verifyipflowblade) to ensure that Network Security Group is allowing traffic
 4. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying RDP from Azure
