@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has detected the peering is missing between the VNet Gateway and the Microsoft Edge Router (MSEE)
 <!--issueDescription-->
-We have identified that your Virtual Network Gateway for Vnet, **<!--virtualNetworkName-->[virtualNetworkName]<!--/virtualNetworkName-->** with a VIP of: **<!--gatewayVip-->[gatewayVip]<!--/gatewayVip-->** has no peering established to the Microsoft Edge Router (MSEE) with a peer IP of: **<!--peerip-->[peerip]<!--/peerip-->**. The most recent time reported is: **<!--preciseTimestamp-->[preciseTimestamp]<!--/preciseTimestamp-->**.
+We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has no peering established to the Microsoft Edge Router (MSEE) with a peer IP of: **<!--$peerip-->[peerip]<!--/$peerip-->**. The most recent time reported is: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
 <!--/issueDescription-->
 
 ## **Issue Summary & Mitigation**
@@ -24,4 +24,4 @@ We have identified a potential configuration issue and are working with the appr
 
 Microsoft is continuously working to identify and resolve issues proactively.  We will contact you as soon as the issue is mitigated to ensure you're no longer impacted.  Please feel free to reach out with any questions in the meantime.  Again, we apologize for the inconvenience. 
 
-### For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitor-with-azure-automation).
+### For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation).
