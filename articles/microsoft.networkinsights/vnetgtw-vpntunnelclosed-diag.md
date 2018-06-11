@@ -21,6 +21,7 @@ We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNet
 We are reviewing the current connection state to verify the issue is still occurring. If you would prefer to forfeit a detailed root cause analysis and expedite the resolution of connectiviy consider removing and re-creating the VPN Connection in the [Azure portal](http://portal.azure.com) and [resetting the gateway/s](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic) on both sides of the tunnel. 
 
 We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect issues proactively. To enable Metrics: 
+
 1. Go to the [Azure portal](http://portal.azure.com)
 2. Find your Virtual Network Gateway
 3. Open the 'Metrics' blade
