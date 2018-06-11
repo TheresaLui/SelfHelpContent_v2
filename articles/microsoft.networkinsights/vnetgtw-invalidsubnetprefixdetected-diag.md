@@ -6,7 +6,7 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
 displayOrder="10"
-articleId="VNGTenantLogsInvalidSubnetPrefixInsight"
+articleId="VNGTenantLogsInvalidSubnetPrefixInsight2"
 diagnosticScenario="VNGTenantLogsInvalidSubnetPrefixInsight"
 selfHelpType="Diagnostics"
 supportTopicIds=""
@@ -16,9 +16,9 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an invalid subnet prefix
 <!--issueDescription-->
-We have identified your Virtual Network Gateway for Vnet, **<!--virtualNetworkName-->[virtualNetworkName]<!--/virtualNetworkName-->** with an IP of: **<!--gatewayVip-->[gatewayVip]<!--/gatewayVip-->** has detected invalid prefix specified for the subnet: **<!--subnet-->[subnet]<!--/subnet-->**.
+We have identified your Virtual Network Gateway for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with an IP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has detected invalid prefix specified for the subnet: **<!--$subnet-->[subnet]<!--/$subnet-->**.
 
 ## **Issue Summary & Mitigation**
-We recommend reviewing and correcting the IP address range (prefix) for subnet: **<!--subnet-->[subnet]<!--/subnet-->**.
+We recommend reviewing and correcting the IP address range (prefix) for subnet: **<!--$subnet-->[subnet]<!--/$subnet-->**.
 
-### For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitor-with-azure-automation).
+### For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation).
