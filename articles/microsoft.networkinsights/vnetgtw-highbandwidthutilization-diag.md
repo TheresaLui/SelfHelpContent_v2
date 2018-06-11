@@ -22,6 +22,7 @@ We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNet
 If your virtual network gateways become over utilized you may begin to see intermittent connection issues. We recommend scaling up to a larger SKU to match your peak bandwidth usage times. Gateway SKU throughput benchmarks can be reviewed [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku). Instructions on resizing your gateway can be found [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#resizechange).
 
 We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect issues like this proactively. To enable Metrics: 
+
 1. Go to the [Azure portal](http://portal.azure.com)
 2. Find your Virtual Network Gateway
 3. Open the 'Metrics' blade
