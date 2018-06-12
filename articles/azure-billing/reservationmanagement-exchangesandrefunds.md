@@ -14,9 +14,9 @@
 
 ## **Exchanges and Refunds**
 
-[Manage Azure Reserved Instances] (https://docs.microsoft.com/en-us/azure/billing/billing-manage-reserved-vm-instance/) <br>
+[Manage Azure Reserved Instances](https://docs.microsoft.com/en-us/azure/billing/billing-manage-reserved-vm-instance/)<br>
 
-[Azure Reserved VM Instances - pricing] (https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/) <br>
+[Azure Reserved VM Instances - pricing](https://azure.microsoft.com/en-us/pricing/reserved-vm-instances/)<br>
 
 [Understand how the Reserved Instance discount is applied](https://docs.microsoft.com/en-us/azure/billing/billing-understand-vm-reservation-charges/)<br>
 
