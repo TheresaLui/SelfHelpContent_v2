@@ -20,7 +20,7 @@
 
 [Understand how the Reserved Instance discount is applied](https://docs.microsoft.com/en-us/azure/billing/billing-understand-vm-reservation-charges/)<br>
 
-* Call 1-800-867-1389 in US or Canada, [or local number](https://azure.microsoft.com/overview/sales-number/). <br>
+*Call 1-800-867-1389 in US or Canada, [or local number](https://azure.microsoft.com/overview/sales-number/). <br>
 
 ## **Recommended documents**
 
