@@ -3,8 +3,8 @@
 	description="Scoping questions for Storage/Delete and Recovery/Recover deleted container"
 	authors="Passaree"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32551675"
-	productPesIds="15629"
+	supportTopicIds="32602730"
+	productPesIds="16459"
 	cloudEnvironments="public, MoonCake"
 />
 

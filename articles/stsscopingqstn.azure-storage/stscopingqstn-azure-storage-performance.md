@@ -3,8 +3,8 @@
 	description="Scoping questions for Storage/Performance"
 	authors="Passaree"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds="32551647,32551664,32551671,32551679,32551682"
-	productPesIds="15629"
+	supportTopicIds="32602747,32602761,32602762,32602715,32602726,32602727"
+	productPesIds="16459,16460"
 	cloudEnvironments="public"
 />
 

@@ -1,7 +1,7 @@
 <properties
 pageTitle="VM boot error"
 description="Virtual machine failed to boot with error code 0xc000000e"
-infoBubbleText="Boot error has been found."
+infoBubbleText="A boot error has been found. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
 authors="Ram-Kakani"

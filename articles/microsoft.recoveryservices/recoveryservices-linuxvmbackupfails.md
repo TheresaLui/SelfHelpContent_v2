@@ -17,22 +17,13 @@
 ## **Recommended steps**
 To resolve common isuess, try one or more of the following steps.
 
-**VM agent is unable to communicate with the Azure Backup Service?** <br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot1) to resolve communication issues <br>
+Ensure your [**Linux VM agent**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms) is up to date before troubleshooting further <br> 
 
-**Snapshot operation failed due to no network connectivity on the virtual machine?** <br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot2) to resolve snapshot failure issues <br>
+Ensure there is [**connectivity**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) between VM and Azure Storage endpoints <br>  
 
-**VMSnapshot extension operation failed?**<br>
-This issue may occur if extensions cannot be loaded, Backup fails because a snapshot cannot be taken.<br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot3) to resolve extension operation failed issues.b
+Ensure the VM [**Linux OS version and Kernel version are compatible**](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for using Azure Backup. If your OS/Kernel version is not in the distribution list then it not supported for Azure Backup <br>  
 
-**Unable to perform the operation as the VM Agent is not responsive?**<br>
-This issue may occur if the VM Agent might have been corrupted or the service might have been stopped. Follow the [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot4) to resolve this issue.<br>
-
-**Backup failed with an internal error - Please retry the operation in a few minutes. If the problem persists, contact Microsoft Support?**<br>
-Follow these [troubleshooting steps](https://aka.ms/iaasvmbackuptshoot5) to resolve theses issues
-
+Backup can fail due to Snapshot extension issues, [**uninstall the extension to force reload**](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) and retry the operation <br>
 
 ## **Recommended documents**
-[Azure virtual machine backup troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)<br>
+If above steps does not resolve your issue, check [Azure virtual machine backup troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout) for the error message, causes and solutions<br>

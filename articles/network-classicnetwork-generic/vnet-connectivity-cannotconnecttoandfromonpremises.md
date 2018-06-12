@@ -14,8 +14,9 @@
 
 # connectivity/cannotconnecttoandfromonpremises
 
-**Recommended service**
-Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine<br>
+## **Recommended steps**
+1. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues to the on-premises<br>
+2. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade) to check if traffic is allowed to or from a virtual machine<br>
 
 ## **Recommended documents**
 [Verify your VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-multi-site#7-verify-your-connections)<br>

@@ -11,7 +11,7 @@
  />
 # I need to generate a report on who is registering or resetting passwords
 
-## **Recommneded steps**
+## **Recommended steps**
 If password reset is deployed and working, you should see it working and analyze who still needs to register, the common issues your users face when resetting, and your return on investment for the feature.
 
 Using the Azure AD Password Reset Audit Logs, you can do this and much more in the Azure portal, from PowerBI, from the Azure AD Reporting Events API, or from PowerShell.  To learn more about the Azure AD Password Reset Audit Logs:

@@ -1,14 +1,14 @@
-<properties
+﻿<properties
 	pageTitle="I can't delete my classic storage account"
 	description="I can't delete my classic storage account"
 	service="microsoft.classicstorage"
 	resource="storageaccounts"
 	authors="passaree"
-	displayOrder="8"
+	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32602689,32602694,32602738,32602712"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15629,16459"
 	cloudEnvironments="MoonCake"
 />
 

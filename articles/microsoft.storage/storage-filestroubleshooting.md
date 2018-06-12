@@ -1,18 +1,18 @@
 ﻿<properties
-	pageTitle="I need help troubleshooting Azure File issues"
+	pageTitle="Troubleshooting Azure File issues"
 	description="Troubleshooting Azure File storage problems"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32551659,32551666"
+	supportTopicIds="32602741,32602759,32602770,32602763,32602765,32602747"
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="16460"
 	cloudEnvironments="public"
 />
 
-# I need help troubleshooting Azure File issues
+# Troubleshooting Azure File issues
 
 ## **Recommended steps**
 This article lists common problems and solutions that are related to Microsoft Azure File storage. 
