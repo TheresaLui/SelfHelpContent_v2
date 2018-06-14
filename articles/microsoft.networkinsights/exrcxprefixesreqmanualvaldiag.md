@@ -1,10 +1,12 @@
 <properties 
     pageTitle="Customer Prefixes Require Manual Validation"
     description="Customer Prefixes Require Manual Validation"
+    infoBubbleText="Customer Prefixes Require Manual Validation.  See details on right."
     service="microsoft.network"
     resource="ExpressRoute"
-    authors="krisney"
+    authors="KristinaNeyens"
     displayOrder=""
+    articleId="exrcxprefixesreqmanualvaldiag"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags="windows"
