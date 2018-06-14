@@ -14,4 +14,4 @@
 
 # configure zone-redundant Load Balancer
 ## **Recommended documents**
-Create Internet facing Load Balancer Standard using [Portal](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-public-zone-redundant-portal) or [CLI](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-public-zone-redundant-cli)
+Create Internet facing Load Balancer Standard across availability zones using [Portal](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-public-zone-redundant-portal) or [CLI](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-public-zone-redundant-cli)
