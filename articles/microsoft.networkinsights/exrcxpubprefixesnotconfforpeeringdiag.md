@@ -13,10 +13,12 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# Microsoft Azure is unable to detect the Peering prefixes intended to be advertised to Microsoft <br>
+# Microsoft Azure is unable to detect the Peering prefixes intended to be advertised to Microsoft
 A peering prefix is part of a BGP route used to advertise network reachability.
  
 ## Recommended steps
+
+
 We recommend that you recreate the peering and specify which public prefixes you intend to advertise to Microsoft. <br>
 In the Azure portal, select "All Resources" on the left-side-bar menu and then select the ExpressRoute circuit. <br>
 Selecting an ExpressRoute circuit listed under "All resources" will open the ExpressRoute circuit blade. <br> 
