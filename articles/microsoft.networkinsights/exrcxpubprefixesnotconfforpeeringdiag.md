@@ -13,7 +13,6 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
 # Microsoft Azure is unable to detect the Peering prefixes intended to be advertised to Microsoft <br>
 A peering prefix is part of a BGP route used to advertise network reachability.
  
