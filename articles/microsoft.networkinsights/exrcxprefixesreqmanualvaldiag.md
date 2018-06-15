@@ -24,4 +24,4 @@ Peering for ExpressRoute requires customer-supplied public prefixes are verified
 2.  To avoid this issue in the future, please consider updating your Organization information at <br>
 the registry so the OriginAS is populated with an appropriate ASN <br>
 ## Recommended document
-[Create and modify peering for an ExpressRoute circuit](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-routing-portal-resource-manager) <br>
+[Create and modify peering for an ExpressRoute circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-routing-portal-resource-manager) <br>
