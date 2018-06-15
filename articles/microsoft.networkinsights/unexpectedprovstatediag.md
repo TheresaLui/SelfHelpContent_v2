@@ -1,7 +1,6 @@
 <properties 
 pageTitle="UnexpectedProvState" 
 description="UnexpectedProvStateDiag"
-infoBubbleText="The Express Route Circuit is in an Unexpected Provisioning State"
 infoBubbleText="The Express Route Circuit is in an Unexpected Provisioning State.  See details on right." 
 service="microsoft.network" 
 resource="ExpressRoute" 
