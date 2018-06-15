@@ -14,7 +14,7 @@
     cloudEnvironments="public"
  />
 
-# Microsoft Azure has identified an issue regarding the MSEE (Microsoft Enterprise Edge router).<br>
+# Microsoft Azure has identified an issue regarding the MSEE (Microsoft Enterprise Edge router)
 An MSEE is the Microsoft Datacenter side of the network connection, which connects to the Gateway Manager.  A connectivity check between the MSEE and the Gateway Manager has failed, which results in a lack of network connectivity.
 
 ## **Recommended steps**
