@@ -21,6 +21,7 @@ Azure has run diagnostics and found an issue; the circuit is in an Unexpected Pr
 
 ## Some of the items to check (and correct) are: <br> 
 
+
 1. The peer address might be overlapped with the VNET address prefix
 2. There is a default route configured in the route table
 3. There may be a circuit capacity issue, or not enough physical capacity on the port pair
