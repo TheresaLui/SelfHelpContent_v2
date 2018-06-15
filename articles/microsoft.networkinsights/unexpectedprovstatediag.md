@@ -32,4 +32,4 @@ with your service provider to deprovision the circuit on their side. Once the se
 
 Reference link:
 Deprovisioning and deleting an ExpressRoute circuit
-https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete
+https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete
