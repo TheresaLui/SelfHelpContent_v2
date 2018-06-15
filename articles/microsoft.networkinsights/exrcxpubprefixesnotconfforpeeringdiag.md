@@ -26,4 +26,4 @@ In the "Overview" section of the blade, the ExpressRoute Essentials are shown.  
 From there you will be able to configure your peerings.
 
 ## Recommended document
-[Verifying Connectivity: Azure Express Route](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
+[Verifying Connectivity: Azure Express Route](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
