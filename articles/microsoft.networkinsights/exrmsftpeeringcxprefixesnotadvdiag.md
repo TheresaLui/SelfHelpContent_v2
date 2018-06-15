@@ -29,4 +29,4 @@ Get-AzureBGPPeering -AccessType Public -ServiceKey "****************************
 Get-AzureBGPPeering -AccessType Microsoft -ServiceKey "*********************************" <br>
  
 ## Recommended document
-[Verifying Connectivity: Azure Express Route](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
+[Verifying Connectivity: Azure Express Route](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
