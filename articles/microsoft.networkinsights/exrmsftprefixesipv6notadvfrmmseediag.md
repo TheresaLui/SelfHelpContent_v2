@@ -33,4 +33,4 @@ Please check for/create route filters that you wish to consume <br>
 Once route filters are created, prefixes should populate from the Microsoft edge to the your device.
 
 ## Recommended document
-[Configure route filters for Microsoft Peering](https://docs.microsoft.com/en-us/azure/expressroute/how-to-routefilter-portal) <br>
+[Configure route filters for Microsoft Peering](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) <br>
