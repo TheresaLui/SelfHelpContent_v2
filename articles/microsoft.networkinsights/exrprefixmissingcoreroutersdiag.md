@@ -8,7 +8,7 @@
     displayOrder=""
     articleId="exrprefixmissingcoreroutersdiag"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="32539943, 32539944, 32539963"
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public"
