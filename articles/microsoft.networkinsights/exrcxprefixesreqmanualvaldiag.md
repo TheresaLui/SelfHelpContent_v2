@@ -8,7 +8,7 @@
     displayOrder=""
     articleId="exrcxprefixesreqmanualvaldiag"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="32539943, 32586802, 32539944"
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public"
