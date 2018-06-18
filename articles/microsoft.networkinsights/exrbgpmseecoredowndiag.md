@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="exrbgpmseecoredowndiag"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32539944, 32539949, 32539954"
 	resourceTags="expressroute"
 	productPesIds="15480"
 	cloudEnvironments="public"
