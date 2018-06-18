@@ -7,8 +7,8 @@
     authors="KristinaNeyens"
     displayOrder=""
     articleId="exrunexpdefrtcountlearneddiag"
-    selfHelpType="diagnostics"
-    supportTopicIds=""
+    selfHelpType="diagnostics", 
+    supportTopicIds="32539963, 32539944"
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public"
