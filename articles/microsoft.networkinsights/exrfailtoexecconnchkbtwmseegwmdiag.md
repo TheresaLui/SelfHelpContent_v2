@@ -8,7 +8,7 @@
     displayOrder=""
     articleId="ExRFailToExecConnChkBtwMSEEGWMDiag"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="32539944"
     resourceTags="windows, Express Route"
     productPesIds="15480"
     cloudEnvironments="public"
