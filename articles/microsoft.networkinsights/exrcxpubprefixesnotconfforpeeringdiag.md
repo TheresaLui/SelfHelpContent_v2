@@ -8,7 +8,7 @@
     displayOrder=""
     articleId="ExRCxPubPrefixesNotConfForPeeringDiag"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954"
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public"
