@@ -1,35 +1,29 @@
-<properties
-	pageTitle="How to load data"
-	description="How to load data"
+  <properties
+	pageTitle="How to troubleshoot issues and follow best practices when loading data"
+	description="How to build and troubleshoot Extract, Load, Transform (ELT) pipelines"
 	service="microsoft.sql"
 	resource="servers"
-	authors="kasparks"
+	authors="kevinvngo"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32412150,32412152, 32412156,32412151"
 	resourceTags="datawarehouse"
-	productPesIds=""
+	productPesIds="15818"
 	cloudEnvironments="public"
 />
 
 # How to load data
 
 ## **Recommended steps**
-SQL Data Warehouse lets you use many familiar loading tools. If you're running into issues with loading, check out some of the below resources.
+1. Always leverage Polybase to batch load into your data warehouse and avoid singleton inserts.
 
-1. If you are seeing slow loads into SQL Data Warehouse or queries are not performing well on newly loaded data, there may be recommendations in our best practices that can help.<br>
-[SQL Data Warehouse Best Practices](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-best-practices/)
-2. If you're having trouble loading data with PolyBase check out some of the following:<br>
-[Additional PolyBase Guidance](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-polybase-guide/)
-3. If you're having trouble loading data with Azure Data Factory check out some of the following:<br>
-[Load data with Aure Data Factory](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-azure-blob-storage-with-data-factory/)
-4. If you're having trouble loading data with bcp check out some of the following:<br>
-[Load data with bcp](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-sql-server-with-bcp/)
-5. If you're having trouble loading data with SSIS check out some of the following:<br>
-[Load data with SSIS](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-sql-server-with-integration-services/)
+  * Use CTAS as opposed to INSERT INTO to avoid full logging into [staging heap tables](https://docs.microsoft.com/azure/sql-data-warehouse/design-elt-data-loading) (especially on Gen2) and consider [partition switching](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-partition) to optimize load performance.
+  * Make sure to co-locate your staging area (blob storage or data lake store) and your data warehouse to minimize latency.
+  * Maximize throughput when using gzip text files by splitting files up into 60 or more files to maximize parallelism.
+  * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL Data Warehouse increases the numbers of readers and writers for parallelism.
+
 
 ## **Recommended documents**
-[How to load with PolyBase](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-get-started-load-with-polybase/)<br>
-[How to load with ADF](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-get-started-load-with-azure-data-factory/)<br>
-[How to load with BCP](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-with-bcp/)<br>
-[How to load with SSIS](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-load-from-sql-server-with-integration-services/)
+
+[Best practices when loading into SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)<br>
+
