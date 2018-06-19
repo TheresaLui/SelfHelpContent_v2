@@ -17,4 +17,3 @@
 ## **Recommended steps**
 
 Sign in to Office 365 Admin center > [Service health](https://portal.office.com/adminportal/home#/servicehealth) to see the current health and advisories for your Intune services.
-
