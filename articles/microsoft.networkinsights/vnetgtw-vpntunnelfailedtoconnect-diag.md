@@ -34,8 +34,3 @@ We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect 
 **For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation)**.
 
 Microsoft is continuously working to identify and resolve issues proactively.  We will contact you as soon as the issue is mitigated to ensure you're no longer impacted.  Please feel free to reach out with any questions in the meantime.  Again, we apologize for the inconvenience. 
-
-<!--
-Comments: 
-
-<!--
