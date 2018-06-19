@@ -13,7 +13,6 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
- 
 # Microsoft Azure has identified an issue regarding the Microsoft Edge device
  
 ## **Recommended steps**
