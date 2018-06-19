@@ -14,11 +14,11 @@ resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
 />
-# Microsoft Azure has identified the Virtual Network Gateway has a low memory condition
+# The Virtual Network Gateway has a low memory condition
 <!--issueDescription-->
 We have identified that one of your Virtual Network Gateway instances for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has experienced a minimum available memory value of **<!--$minCounterValue-->[minCounterValue]<!--/$minCounterValue-->** MB. The most recent time reported: **<!--$timestamp-->[timestamp]<!--/$timestamp-->**.
 <!--/issueDescription-->
-## **Issue Summary & Mitigation**
+## **Issue Details & Mitigation**
 If your virtual network gateways become over utilized you may begin to see intermittent connection issues. If this occurs we recommend scaling up to a larger SKU to match your peak bandwidth usage times. Gateway SKU throughput benchmarks can be reviewed [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku). Instructions on resizing your gateway can be found [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#resizechange).
 
 We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect issues like this proactively. To enable Metrics: 
@@ -32,4 +32,4 @@ We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect 
    2. Make note of your gateways SKU from the 'Overview' blade
    3. Browse to the SKU benchmarks outlined [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku) and compare the Bandwidth metric in the 'Metrics' blade with your Virtual Network Gateway's SKU.
 
-### For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation).
+**For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation)**.
