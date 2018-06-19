@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to load data
+# How to troubleshoot issues and follow best practices when loading data
 
 ## **Recommended steps**
 1. Always leverage Polybase to batch load into your data warehouse and avoid singleton inserts.
