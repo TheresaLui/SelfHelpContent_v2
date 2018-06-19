@@ -28,4 +28,5 @@ Please Note: **REQUIRES up to 45 minutes of VPN DOWNTIME** and on-premises VPN d
 3. Open the **Overview** blade and press the **Delete** button at the top
    * **NOTE**: Your VPN connection to your Virtual Network, **<!--$vnetName-->[vnetName]<!--/$vnetName-->**, will go down at this point.
 4. Finish by creating a new Virtual Network Gateway and updating your on-premises device by following steps 4-8 [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#VNetGateway)
+
 **For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation).**
