@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-## How to troubleshoot connection and tooling issues with SQL Data Warehouse
+#How to troubleshoot connection and tooling issues with SQL Data Warehouse
 
 ## **Recommended steps**
 
