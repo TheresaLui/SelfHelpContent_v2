@@ -4,7 +4,7 @@
 	authors="srinathv"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32536441"
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
@@ -77,7 +77,7 @@
       "displayLabel": "Please provide additional details:",
       "watermarkText": "Paste error message(s), error code(s) and describe the scenario(s) that are failing.",
       "required": true,
-      "useAsAdditionalDetails": false
+      "useAsAdditionalDetails": True
     }
     ]}
 ---
