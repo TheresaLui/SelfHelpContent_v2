@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # The virtual network gateway is not started
 <!--issueDescription-->
-We have identified that one of your Virtual Network Gateway instances for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has not started the gateway service with a reason of: **<!--$reason-->[reason]<!--/$reason-->**. Your VPN connection could be impacted in the event the other gateway instance needs updating or you have a ['highly available VPN configuration'](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-highlyavailable).
+We have identified that one of your Virtual Network Gateway instances for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has not started the gateway service with a reason of: **<!--$reason-->[reason]<!--/$reason-->**. Your VPN connection could be impacted in the event the other gateway instance needs updating or you have a ['highly available VPN configuration'](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable).
 <!--/issueDescription-->
 ## **Issue Summary & Mitigation**
 Azure Virtual Network Gateways are deployed in a high availability set to increase uptime. Issues like this, although not common, can occur and your VPN tunnel should remain working while the other instance is 'healed'. If this event has resulted in persistent tunnel establishment failure, attempt to [reset the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). If a Reset does not provide relief, consider deleting and re-creating the Gateway.
