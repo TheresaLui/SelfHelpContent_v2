@@ -77,7 +77,7 @@
       "displayLabel": "Please provide additional details:",
       "watermarkText": "Paste error message(s), error code(s) and describe the scenario(s) that are failing.",
       "required": true,
-      "useAsAdditionalDetails": false
+      "useAsAdditionalDetails": True
     }
     ]}
 ---
