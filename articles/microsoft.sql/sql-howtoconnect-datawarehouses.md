@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to troubleshoot connection and tooling issues
+# How to troubleshoot connection and tooling issues with your data warehouse
 
 ## **Recommended steps**
 
