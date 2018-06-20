@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to enhance or troubleshoot query performance with your data warehouse
+# How to enhance or troubleshoot query performance
 
 ## **Recommended steps**
 The following are the most common issues for slow query performance:
