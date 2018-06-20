@@ -17,6 +17,7 @@ cloudEnvironments="Public"
 # The Virtual Network Gateway has disconnected
 <!--issueDescription-->
 We have identified that your Virtual Network Gateway for Vnet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of  **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** had the VPN tunnel to peer **<!--$match.IpAddress-->[match.IpAddress]<!--/$match.IpAddress-->** disconnected due to '**<!--$match.Reason-->[match.Reason]<!--/$match.Reason-->**'.
+<!--/issueDescription-->
 ## **Issue Details & Recommendations**
 We are reviewing the current connection state to verify the issue is still occurring. If you would prefer to forfeit a detailed root cause analysis and expedite the resolution of connectiviy consider removing and re-creating the VPN Connection in the [Azure portal](http://portal.azure.com) and [resetting the gateway/s](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic) on both sides of the tunnel. 
 
