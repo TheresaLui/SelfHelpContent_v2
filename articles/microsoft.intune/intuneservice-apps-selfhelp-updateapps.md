@@ -25,4 +25,4 @@ Sometimes apps fail-to-install because of device-side conditions. This can occur
 
 Also make sure that the app version you are installing is newer than the version that is currently on your devices. 
 
-See the Intune documentation [for more information about adding line-of-business apps.](https://docs.microsoft.com/intune/apps-add#next-steps) In the article, go to Next steps and click the LOB apps page specific to your device platform.  
+See the [Intune documentation for more information about adding line-of-business apps.](https://docs.microsoft.com/intune/apps-add#next-steps) In the article, go to Next steps and click the LOB apps page specific to your device platform.  
