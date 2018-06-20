@@ -24,7 +24,7 @@ Your role **<!--$RoleName-->RoleName<!--/$rolename-->** availability has been pa
 <!--/issueDescription-->
 
 This planned maintenance update required a reboot of your Role Instance to apply the required updates to the infrastructure. The Role Instance was shut down while we patched the infrastructure, and then the Role Instance was restarted. Please note that during this patching activity we preserve the disks on your VM, so you should not have any data loss.<br> To learn more about disk partition preservation, please refer to the following article:<br>
-*[Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
+* [Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
 
 To learn more about planned maintenance on Azure, please refer to the following article:<br>
 * [Planned maintenance for Cloud Services in Azure ](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
