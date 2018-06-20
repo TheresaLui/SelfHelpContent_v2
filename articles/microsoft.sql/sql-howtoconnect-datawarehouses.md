@@ -19,12 +19,9 @@
 Issues with connecting to SQL Data Warehouse can occur due to a number of issues including incorrect firewall configuration, connection strings, or maintenance periods.  If you are having issues with a client tool, please ensure you have the latest version of the tool and [visit the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot#tools). 
 
 1. Check the [Resource Health Check](https://docs.microsoft.com/azure/service-health/resource-health-overview) for this data warehouse and [Microsoft Azure Service Dashboard](https://azure.microsoft.com/status/) for any known issues.
-2. Set-up firewall rules to allow the client IP address.<br>
-  [Configure SQL Azure firewall rules](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-get-started-provision/#create-a-new-azure-sql-server-level-firewall)
-3. See how to discover connection string from the portal.<br>
-  [Connect to Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-connect-overview/)
-4. View connection string format.<br>
-  [Connection Strings](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-connection-strings/)
+2. [Set up firewall rules](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-server-level-firewall-rule) to allow the client IP address.
+3. See how to [find the connection string](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-connect-overview#find-your-server-name) from the portal.
+4. View the [connection string format](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-connection-strings).
 
 ## **Recommended documents**
 [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)
