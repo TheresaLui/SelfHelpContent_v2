@@ -24,7 +24,7 @@ Your role **<!--$RoleName-->RoleName<!--/$RoleName-->** availability has been af
 <!--/issueDescription-->
 
 This planned maintenance update required a reboot of your Role Instance to apply the required updates to the infrastructure. The Role Instance was shut down while we patched the infrastructure, and then the Role Instance was restarted. Please note that during this patching activity we preserve the disks on your VM, so you should not have any data loss.<br> To learn more about disk partition preservation, please refer to the following article:<br>
-*[Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
+* [Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you have two or more instance for each of your Web\Worker Role.<br>
 To learn more about the kind of planned maintenance events that can impact the availability of your Cloud Service, their Notifications and mitigation strategy, please refer to the following articles:<br>
