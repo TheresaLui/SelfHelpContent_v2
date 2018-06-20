@@ -6,13 +6,13 @@
 	authors="kevinvngo"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32412140, 32412141, 32412143, 32412144, 32412155, 32589561, 32412153, 32412154, 32412159"
+	supportTopicIds="32412140, 32412141, 32412143, 32412144, 32412155,32589561, 32412153, 32412154, 32412159"
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
 />
 
-#How to troubleshoot connection and tooling issues with SQL Data Warehouse
+# How to troubleshoot connection and tooling issues with SQL Data Warehouse
 
 ## **Recommended steps**
 
