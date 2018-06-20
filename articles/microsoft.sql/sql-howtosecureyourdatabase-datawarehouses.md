@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to secure
+# How to secure your data warehouse
 
 ## **Recommended steps**
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
