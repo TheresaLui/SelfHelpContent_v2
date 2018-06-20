@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to model and design SQL Data Warehouse
+# How to model and design
 
 ## **Recommended steps**
 The following details explain how to model and design your data warehouse.
