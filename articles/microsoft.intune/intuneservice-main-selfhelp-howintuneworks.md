@@ -16,4 +16,4 @@
 
 ## **Recommended steps**
 
-You can find technical information and how-to procedures in the [Microsoft Intune documentation.](https://docs.microsoft.com/intune/) Documentation is available for developers, IT administrators
+You can find technical information and how-to procedures in the [Microsoft Intune documentation.](https://docs.microsoft.com/intune/) Documentation is available for developers and IT administrators.
