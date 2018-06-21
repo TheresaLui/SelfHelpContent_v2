@@ -7,8 +7,8 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	cloudEnvironments="public"
-    supportTopicIds=""
-    productPesIds=""
+    supportTopicIds="32356674"
+    productPesIds="15613"
     resourceTags=""
 />
 
@@ -19,8 +19,8 @@ The slices could be in **Waiting** state due to a number of reasons and one of t
 
 See the following example for the usage of the **external** property. You can optionally specify **externalData*** when you set external to true.. 
 
-See [Datasets](https://azure.microsoft.com/en-us/documentation/articles/data-factory-create-datasets/) article for more details about this property.
-	
+See [Datasets](https://azure.microsoft.com/documentation/articles/data-factory-create-datasets/) article for more details about this property.
+
 	{
 	  "name": "CustomerTable",
 	  "properties": {
@@ -48,5 +48,5 @@ See [Datasets](https://azure.microsoft.com/en-us/documentation/articles/data-fac
 To resolve the error, add the **external** property and the optional **externalData** section to the JSON definition of the input table and recreate the table. 
 
 ## **Recommended documents**
-- [Monitor and Manage Azure Data Factory pipelines](https://azure.microsoft.com/documentation/articles/data-factory-monitor-manage-pipelines/)
-- [Scheduling and Execution](https://azure.microsoft.com/documentation/articles/data-factory-scheduling-and-execution/)
+[Monitor and Manage Azure Data Factory pipelines](https://azure.microsoft.com/documentation/articles/data-factory-monitor-manage-pipelines/)<br>
+[Scheduling and Execution](https://azure.microsoft.com/documentation/articles/data-factory-scheduling-and-execution/)

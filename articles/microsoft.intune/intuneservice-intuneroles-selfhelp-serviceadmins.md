@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="I added a user to an Intune role but they still have full access to the Intune Admin Console"
 	description="I added a user to an Intune role but they still have full access to the Intune Admin Console"
 	service="microsoft.intune"
@@ -12,10 +12,18 @@
 	cloudEnvironments="public"
 />
 
-# I added a user to an Intune role but they still have full access to the Intune admin console
+# I added a user to an Intune role but they still have full access to the Intune admin console.
 
 ## **Recommended steps**
 
-Verify the user is not a Global Administrator, Intune Service Administrator, SharePoint Administrator, or Service Administrator in the Intune Silverlight console.  These administrators have full permissions in the Intune Azure Portal.  You can check if a user is a Intune Silverlight Portal Service Administrator by logging into the [Intune Classic Portal](https://admin.manage.microsoft.com) and navigating to Admin, Service Administrators.
+Verify that the user is not assigned to any of the following roles in the Azure portal:
 
+* Global administrator
+* Intune service administrator
+* SharePoint administrator
 
+Verify that the user is not assigned to the following role in the Intune classic portal:
+
+* Service administrator
+
+Users in these roles have full access to Intune in the Azure portal. To check the role of a user in the Azure portal go to **Intune** > **Users**. To check the role of a user in the classic portal go to **Admin** > **Service Administrators**.

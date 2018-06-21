@@ -12,16 +12,15 @@
 	cloudEnvironments="public"
 />
 
-# My android device fails to check in with the Intune service or displays as unhealthy in the Intune admin console
+# My android device fails to check in with Intune, or it shows an unhealthy status in the Intune admin console.
 
 ## **Recommended steps**
 
-Some Samsung 4.4 and 5.5 devices may not check into the service.  There are 3 possible solutions to this issue:
+Samsung devices running Android 4.4.x and 5.5.x may not check in to the Intune service. There are 3 separate solutions we recommend:
 
-1. Manually open the Intune Company Portal app and perform a device sync.
-2. Update the device to Android 6.0 or higher
-3. Disable Samsung Smart Manager from managing the Intune Company Portal.  Review [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune#devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console) for further details on these issues and resolutions.
-
+* Manually open the Company Portal app, without Samsung Smart Manager. The device should check in with Intune.
+* Upgrade the device to Android 6.0 or later. This problem does not occur on Android 6.0 devices.
+* Exclude Smart Manager from the Company Portal app. For steps to do this, see the [Intune documentation.](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune#devices-fail-to-check-in-with-the-intune-service-and-display-as-unhealthy-in-the-intune-admin-console)
 
 
 
