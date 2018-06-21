@@ -6,9 +6,9 @@
 	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411835"
+	supportTopicIds="32411835,32602159"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571,16470,15797,15571"
 	cloudEnvironments="public"
 />
 

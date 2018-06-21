@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32411835"
+	supportTopicIds="32411835,32602159"
 	resourceTags="linux, redhat, Ubuntu"
-	productPesIds="14749"
+	productPesIds="14749,16470,15797,15571"
 	cloudEnvironments="public"
 />
 
