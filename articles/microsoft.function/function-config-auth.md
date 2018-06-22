@@ -18,7 +18,7 @@
 
 [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
 <br>
-Documentation on how to configure authentication with various Identify providers: <br>
+Documentation on how to configure authentication with various Identity providers: <br>
 * [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>
 * [How to configure your app to use Google login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-google-authentication)<br>

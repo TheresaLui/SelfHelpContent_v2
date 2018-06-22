@@ -16,13 +16,16 @@
 
 ## **Recommended steps**
 
+**Azure Backup service and Microsoft Azure Recovery Services Agent versions do not match (0x1FBD3)**<br>
+If your backup jobs are failing with above error then [follow these steps](https://go.microsoft.com/fwlink/?linkid=229525) to resolve.<br>
+
 **Unable to Backup?**<br>
 To resolve common backup issues, choose the symptom you are observing:<br>
-- [Online recovery point creation failed](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
-- [Replica is Inconsistent](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
-- [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#error-invalid-vault-credentials-provided-the-file-is-either-corrupted-or-does-not-have-the-latest-credentials-associated-with-recovery-service)<br>
-- [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
-- [Setup could not update registry metadata](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#error-setup-could-not-update-registry-metadata)<br>
+- [**Online recovery point creation failed**](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
+- [**Replica is Inconsistent**](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
+- [**Invalid vault credentials provided**](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#error-invalid-vault-credentials-provided-the-file-is-either-corrupted-or-does-not-have-the-latest-credentials-associated-with-recovery-service)<br>
+- [**The encryption passphrase stored for this computer is not correctly configured**](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
+- [**Setup could not update registry metadata**](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#error-setup-could-not-update-registry-metadata)<br>
 
 ## **Recommended documents**
 
