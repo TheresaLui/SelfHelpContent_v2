@@ -1,8 +1,8 @@
 <properties
 	pageTitle="API Management Portal (*.apimgmt.windows.net)/Cannot add or update API for product"
 	description="API Management Portal (*.apimgmt.windows.net)/Cannot add or update API for product"
-	service="API Management Service"
-	resource=""
+	service="Microsoft.ApiManagement/service"
+	resource="Microsoft.ApiManagement"
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"

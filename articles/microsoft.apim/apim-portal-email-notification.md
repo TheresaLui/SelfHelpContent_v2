@@ -1,8 +1,7 @@
 <properties
 	pageTitle="API Management Portal (*.apimgmt.windows.net)/Problems with email notifications"
-	description="API Management Portal (*.apimgmt.windows.net)/	Problems with email notifications"
-	service="API Management Service"
-	resource=""
+	description="API Management Portal (*.apimgmt.windows.net)/Problems with email notifications	service="Microsoft.ApiManagement/service"
+	resource="Microsoft.ApiManagement"
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"

@@ -1,8 +1,8 @@
 <properties
 	pageTitle="API Management Portal (*.apimgmt.windows.net)/My issue is not listed here"
 	description="API Management Portal (*.apimgmt.windows.net)/My issue is not listed here"
-	service="API Management Service"
-	resource=""
+	service="Microsoft.ApiManagement/service"
+	resource="Microsoft.ApiManagement"
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"

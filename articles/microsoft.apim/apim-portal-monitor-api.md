@@ -1,8 +1,8 @@
 <properties
 	pageTitle="API Management Portal (*.apimgmt.windows.net)/Questions about analytics or dashboard data"
 	description="API Management Portal (*.apimgmt.windows.net)/Questions about analytics or dashboard data"
-	service="API Management Service"
-	resource=""
+	service="Microsoft.ApiManagement/service"
+	resource="Microsoft.ApiManagement"
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"

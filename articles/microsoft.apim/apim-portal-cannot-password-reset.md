@@ -1,8 +1,8 @@
 <properties
 	pageTitle="API Management Portal (*.apimgmt.windows.net)/Password reset does not work"
 	description="API Management Portal (*.apimgmt.windows.net)/Password reset does not work"
-	service="API Management Service"
-	resource=""
+	service="Microsoft.ApiManagement/service"
+	resource="Microsoft.ApiManagement"
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
