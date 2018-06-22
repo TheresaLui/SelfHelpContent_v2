@@ -7,9 +7,9 @@
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds="32411835,32602159"
-    resourceTags="linux, redhat, Ubuntu"
-    productPesIds="14749,16470,15797,15571"
-	cloudEnvironments="public"
+    resourceTags="linux"
+    productPesIds="16470,15797,15571"
+    cloudEnvironments="public"
  />
 
 # I can't connect to my Linux VM

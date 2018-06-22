@@ -7,10 +7,10 @@
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux, redhat"
+    resourceTags="linux"
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+/>
 
 # I can't connect to my Linux VM
 
