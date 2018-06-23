@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000011**. The operating system couldn't be loaded because a critical system driver is missing or corrupt.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0xc0000011**. The operating system couldn't be loaded because a critical system driver is missing or corrupt.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
