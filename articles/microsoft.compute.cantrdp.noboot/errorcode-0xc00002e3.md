@@ -18,7 +18,9 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002e3**. The issue occurs when the SAM registry hive is missing or corrupt.<br>
+Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->. We identified that your VM is currently in an inaccessible state as it is in a reboot loop with an error code **0xC00002e3**. The issue occurs when the SAM registry hive is missing or corrupt.
+
+You can use the Azure Portal to view the screenshot output of your VM in the boot diagnostics blade to detect connectivity issues due to similar boot failures in the future.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
