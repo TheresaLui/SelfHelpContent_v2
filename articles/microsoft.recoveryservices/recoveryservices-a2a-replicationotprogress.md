@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32574722"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Replication does not progress in A2A scenario

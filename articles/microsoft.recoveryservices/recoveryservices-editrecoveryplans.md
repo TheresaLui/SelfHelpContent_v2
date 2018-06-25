@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536397, 32536398"
 	resourceTags=" "
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -19,6 +19,6 @@
 - [How to add Azure Automation runbook to recovery plan?](https://docs.microsoft.com/azure/site-recovery/site-recovery-runbook-automation) <br>
 
 ## **Recommended documents**
-- [How to run a Test failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure) <br>
-- [How to failover Hyper-V VM?](https://docs.microsoft.com/azure/site-recovery/tutorial-hyper-v-to-azure-failover-failback) <br>
-- [How to failback from Azure to Hyper-V site?](https://docs.microsoft.com/azure/site-recovery/tutorial-hyper-v-to-azure-failover-failback#fail-back-from-azure-to-on-premises) <br>
+- [How to run a Test failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#run-a-test-failover) <br>
+- [How to failover Hyper-V VM?](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover) <br>
+- [How to failback from Azure to Hyper-V site?](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failback) <br>
