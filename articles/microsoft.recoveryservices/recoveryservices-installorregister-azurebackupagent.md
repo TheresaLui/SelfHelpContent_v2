@@ -15,32 +15,14 @@
 # Azure Recovery Services Agent installation or registration issues
 
 ## **Recommended steps**
-Try the recommended steps below to resolve commonly observed issues with installation or registration of the **Microsoft Azure Recovery Services Agent**
 
-### **Installation**
-* Ensure that the user account installing the Azure Recovery Services Agent is a member of the **Local Administrators** group on the server/client or has been granted administrative privileges
-
-* Ensure that the installation directory for Azure Recovery Services Agent does not have the following attributes:<br>
-    1. System
-    2. Hidden
-    3. Compressed
-    4. Encrypted
-
-### **Registration**
-* Ensure that firewall settings on the Windows server/client with Azure Recovery Services Agent are configured to allow the following URLs: <br>
-    1. www.msftncsi.com
-    2. *.Microsoft.com
-    3. *.WindowsAzure.com
-    4. *.microsoftonline.com
-    5. *.windows.net
-
-* Ensure that the **system clock** on the server/client where you install Azure Recovery Services Agent has the correct time for the time zone that the server/client is configured for
-
-* Ensure that .tmp files at **C:\Windows\Temp** directory have been cleaned up before registration
-
-* If you are **re-registering your Windows server/client** to a vault, ensure that the encryption passphrase provided, matches the passphrase provided during an earlier registration of the server/client to the same vault
- 
-## **Recommended documents**
-[Azure Backup FAQs](https://azure.microsoft.com/documentation/articles/backup-azure-backup-faq/)<br>
-
-
+- [Ensure there is network connectivity between MARS agent and Azure](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup) <br>
+- Ensure **system clock** on the protected system is configured to correct time zone <br>
+- If you are trying to **re-register your server** to a vault, then 
+  - Ensure the agent is uninstalled on the server and it is deleted from portal <br> 
+  - Use the same passphrase that was initially used for registering the server <br>
+- [Invalid vault credentials provided. The file is either corrupted or does not have the latest...](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided-the-file-is-either-corrupted-or-does-not-have-the-latest-credentials-associated-with-recovery-service)
+- [The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup) <br>
+- [Failed to set the encryption key for secure backups](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#failed-to-set-the-encryption-key-for-secure-backups) <br>
+- [The encryption passphrase stored on this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#failed-to-set-the-encryption-key-for-secure-backups) <br>
+- Ensure your OS has the latest updates <br>
