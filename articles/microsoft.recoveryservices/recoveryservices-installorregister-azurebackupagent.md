@@ -15,7 +15,6 @@
 # Azure Recovery Services Agent installation or registration issues
 
 ## **Recommended steps**
-
 * [Ensure there is network connectivity between MARS agent and Azure](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup) <br>
 * Ensure **system clock** on the protected system is configured to correct time zone <br>
 * If you are trying to **re-register your server** to a vault, then <br>
