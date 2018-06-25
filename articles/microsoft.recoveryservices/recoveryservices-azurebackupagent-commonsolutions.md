@@ -21,4 +21,4 @@
 - [How to Monitor and Manage Backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#monitor-backup-jobs-and-alerts)<br>
 - [Pricing details for Azure Backup Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)<br>
 - [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#frequently-asked-questions)<br>
-- [issue] [Troubleshooting common Microsoft Recovery Services agent issues](https://docs.microsoft.com/en-us/azure/backup/backup-azure-mars-troubleshoot)
+- [issue] [Troubleshooting common Microsoft Recovery Services agent issues](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
