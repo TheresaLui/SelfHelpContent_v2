@@ -1,24 +1,24 @@
 <properties
-	pageTitle="Azure Information Client - Can't apply this label error"
-	description="Azure Information Client - Can't apply this label error"
+	pageTitle="Azure Information Client - Automatic protection"
+	description="Azure Information Client - Automatic protection"
 	service="microsoft.aip"
 	resource="aip"
 	authors="nihendle"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584334"
+	supportTopicIds="32584330"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
 />
 
-# Azure Information Protection client - can't apply this label error
+# Azure Information Protection client - automatic protection 
 
-## Recommended troubleshooting steps
+## Recommended troubleshoot steps
 
-If you created a new label that applies protection, it can take up to 15 minutes for a computer running the Azure Information Protection client to get these changed settings. Behind the scenes, this configuration creates a protection template. For information about how computers and services download and refresh templates, see [Refreshing templates for users and services](https://docs.microsoft.com/azure/information-protection/deploy-use/refresh-templates). 
-
-If you wait 15 minutes and still can't apply this label, select **Reset Settings** from the **Protect** button on the Office ribbon -> **Help and feedback**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service. 
+1. If you used the built-in information types for your Azure Information Protection policy, verify that your content matches the expected format. For more information, see [What the sensitive information types look for](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b) from the Office documentation. 
+2. Verify that the label is appropriately configured for **Automatic** or **Recommended**.
+3. Note that **Automatic** labeling is available for all Office apps, whereas **Recommended** is available for all Office apps except for Outlook.
 
 If you still experience the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
