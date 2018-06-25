@@ -11,7 +11,6 @@
 	productPesIds="14997"
 	cloudEnvironments="public"
 />
-
 # Azure Information Protection service - activating protection
 ## How to activate protection from the Azure portal
 1. If you haven't already done so, open a new browser window and [sign in to the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy#signing-in-to-the-azure-portal). Then navigate to the **Azure Information Protection** blade.
