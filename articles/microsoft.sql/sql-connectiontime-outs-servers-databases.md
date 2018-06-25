@@ -3,12 +3,12 @@
 	description="connectivity/connection time-outs"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980412"
+	supportTopicIds="31980412,32594710"
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds="13491,16259"
 	cloudEnvironments="public"
 />
 

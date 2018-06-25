@@ -3,12 +3,12 @@
 	description="tools/my issue is not listed"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32045131"
+	supportTopicIds="32045131,32594728"
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds="13491,16259"
 	cloudEnvironments="public"
 />
 

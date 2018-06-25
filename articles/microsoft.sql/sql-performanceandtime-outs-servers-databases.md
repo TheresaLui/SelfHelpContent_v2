@@ -3,12 +3,12 @@
 	description="query execution/performance and time-outs"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980430"
+	supportTopicIds="31980430,32608396"
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds="13491,16259"
 	cloudEnvironments="public"
 />
 

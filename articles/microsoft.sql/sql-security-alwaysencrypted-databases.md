@@ -3,12 +3,12 @@
 	description="security/always encrypted"
 	service="microsoft.sql"
 	resource="servers"
-	authors="ajayj"
+	authors="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32574326"
+	supportTopicIds="32574326,32594703"
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds="13491,16259"
 	cloudEnvironments="public"
 />
 
