@@ -1,7 +1,7 @@
 <properties
 	pageTitle="APNs Diagnostic Setup"
 	description="APNs Diagnostic Setup"
-	infoBubbleText="Found issue with APNs. See details on the right."
+	infoBubbleText="The Apple Push Notification certificate has not been setup.  Please review the steps on the right to set it up."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
