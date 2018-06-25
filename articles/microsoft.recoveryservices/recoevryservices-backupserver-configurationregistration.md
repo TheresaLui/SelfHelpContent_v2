@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 - Ensure the server on which you are trying to install Azure Backup Server is not already registered with another vault <br> 
-- [Push install failed? try manual install](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/hh758186(v=sc.12)#install-the-protection-agent-manually)<br>
+- [Push install failed? try manual install](https://aka.ms/marsmanualinstall)<br>
 - If Push install fails, check if DPM agent is already present. If yes, then uninstall the agent and retry the installation<br>
 - [Setup could not update registry metadata](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#installation-issues)<br>
 - [The agent operation failed because of a communication error with the DPM agent...](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#the-agent-operation-failed-because-of-a-communication-error-with-the-dpm-agent-coordinator-service-on-the-server)<br>
