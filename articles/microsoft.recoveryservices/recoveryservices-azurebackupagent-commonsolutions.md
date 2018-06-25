@@ -17,7 +17,7 @@
 
 - [How to configure Backup for Files and Folders using Azure Backup Agent?](https://docs.microsoft.com/azure/backup/backup-configure-vault)<br>
 - [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements)<br>
-- [How to Restore files to a Windows server or Windows client machine?](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine)<br>
+- How to restore files to: [**original location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine) (or) [**alternative location**?](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-restore-data-to-an-alternate-machine)<br>
 - [How to Monitor and Manage Backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#monitor-backup-jobs-and-alerts)<br>
 - [Pricing details for Azure Backup Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)<br>
 - [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#frequently-asked-questions)<br>
