@@ -5,11 +5,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602701"
 	productPesIds="15629"
-	cloudEnvironments=""
+	cloudEnvironments="Public,Blackforest,Fairfax,Mooncake"
 	schemaVersion="1"
 />
-# Recover deleted account
----
+
+# Recover deleted Storage Account
 {
 	"resourceRequired": false,
 	"title": "Recover deleted Storage Account",
