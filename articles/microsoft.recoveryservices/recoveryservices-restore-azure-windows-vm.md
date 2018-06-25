@@ -21,7 +21,7 @@
   * **Step 1** - [*Restore Disks*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration) functionality. 
   * **Step 2** - Use the disk that was restored to [*create a virtual machine*](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks).<br>
 * **Cross region and cross-subscription restore is not supported** i.e. if your VM which got backed up is in West Europe, you can only restore to West Europe in same subscription.<br>
-* [File/Folder restore limitation with special configuration - **Dynamic Disks, Storage Spaces, LVM/RAID arrays**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
+* [File/Folder restore limitation with special configuration - **Dynamic Disks, Storage Spaces**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
 * If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal.<br>
 * If you are **unable to see backup items** from the portal then ensure you have [required permission](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) to access backup vault. <br>
 * [Ensure you have appropriate Role Based Access controls in place.](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) <br>
