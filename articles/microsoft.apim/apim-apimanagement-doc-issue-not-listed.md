@@ -15,5 +15,5 @@
 
 ## **Recommended documents**
 [Microsoft's API Management Documentation](https://docs.microsoft.com/azure/api-management/)<br>
-[MSDN Forum Documentation](https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=azureapimgmt)<br>
+[MSDN Forum Documentation](https://social.msdn.microsoft.com/Forums/azure/home?forum=azureapimgmt)<br>
 [API Management FAQ](https://docs.microsoft.com/azure/api-management/api-management-faq)

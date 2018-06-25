@@ -21,4 +21,4 @@
 [Import a SOAP API](https://docs.microsoft.com/azure/api-management/import-soap-api)<br>
 [Import an API App](https://docs.microsoft.com/azure/api-management/import-api-app-as-api)<br>
 [Import a Function App](https://docs.microsoft.com/azure/api-management/import-function-app-as-api)<br>
-[Import a Logic App](https://docs.microsoft.com/en-us/azure/api-management/import-logic-app-as-api)
+[Import a Logic App](https://docs.microsoft.com/azure/api-management/import-logic-app-as-api)
