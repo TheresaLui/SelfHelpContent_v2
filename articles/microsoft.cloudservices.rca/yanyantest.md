@@ -7,7 +7,7 @@
 	authors="mmccrory"
 	displayOrder=""
 	articleId="MachineKey_MitigatedYanyanTest"
-    diagnosticScenario="MachineKeyUpdates"
+	diagnosticScenario="MachineKeyUpdates"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
