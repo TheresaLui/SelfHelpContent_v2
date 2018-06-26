@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "storage_account_name",
 			"order": 1,
-			"controlType": "multilinetextbox",
+			"controlType": "textbox",
 			"displayLabel": "Name of the deleted Storage Account",
 			"required": true
 		}, {
@@ -34,7 +34,7 @@
 					"text": "Classic"
 				}
 			],
-			"required": true
+			"required": flase
 		}, {
 			"id": "problem_start_date",
 			"order": 3,
@@ -45,7 +45,7 @@
 			"id": "additional_details",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel" "Provide any additional details",
+			"displayLabel": "Provide any additional details",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
@@ -56,7 +56,7 @@
 			]
 		}, {
 			"id": "learn_more_text",
-			"order": 5
+			"order": 5,
 			"controlType": "infoblock",
 			"content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
 		}
