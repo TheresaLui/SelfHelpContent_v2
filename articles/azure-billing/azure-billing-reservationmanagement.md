@@ -12,6 +12,7 @@
 	cloudEnvironments="public"
 />
 
+# Reservation Management
 
 Azure customers with these subscriptions types can purchase a reserved instance :
 
