@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="dushyantgill"
 	displayOrder=""
-	articleId="servicehealth-virtualmachines-impactedbyoutage"
+	articleId="ServiceHealth-VirtualMachines-ImpactedByOutage"
 	diagnosticScenario=""
 	selfHelpType=""
 	supportTopicIds=""
