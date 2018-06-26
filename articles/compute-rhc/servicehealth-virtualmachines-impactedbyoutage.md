@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="ServiceHealth-VirtualMachines-ImpactedByOutage"
 	diagnosticScenario=""
-	selfHelpType="Generic"
+	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
