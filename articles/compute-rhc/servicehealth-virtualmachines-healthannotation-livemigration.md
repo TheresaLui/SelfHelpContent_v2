@@ -23,6 +23,6 @@ Azure periodically performs updates to improve the reliability, performance, and
 
 These memory-preserving updates are accomplished with technology that enables in-place live migration. When it is being updated, the VM is placed in a paused state. This state preserves the memory in RAM while the underlying host operating system receives the necessary updates and patches. The VM is resumed within 30 seconds of being paused. After the VM is resumed, its clock is automatically synchronized. Multi-instance updates (for VMs in an availability set) are applied one update domain at a time.
 
-## **Recommended actions**
+## **Recommended steps**
 
 * **Configure your VMs for high availability**: the best way to protect an application that's running on Azure against virtual machine reboots and downtime is to configure the them for high availability. We recommend that you group two or more virtual machines in an availability set. This configuration ensures that during either a planned or unplanned maintenance event, at least one virtual machine is available and meets the 99.95 percent [Azure SLA](https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_5/).
