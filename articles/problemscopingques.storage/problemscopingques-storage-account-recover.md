@@ -34,7 +34,7 @@
 					"text": "Classic"
 				}
 			],
-			"required": flase
+			"required": false
 		}, {
 			"id": "problem_start_date",
 			"order": 3,
