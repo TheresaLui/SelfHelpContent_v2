@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="ServiceHealth-VirtualMachines-HealthAnnotation-LiveMigration"
 	diagnosticScenario=""
-	selfHelpType="Generic"
+	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
