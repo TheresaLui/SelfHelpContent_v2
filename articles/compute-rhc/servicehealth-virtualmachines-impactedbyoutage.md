@@ -15,6 +15,8 @@
 	cloudEnvironments="public"
 />
 
+# Azure service issue with your Virtual Machine
+
 At <!--$startTime--> startTime <!--/$startTime-->, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName-->, was impacted by an Azure service issue: <!--$eventTitle--> eventTitle <!--/$eventTitle-->. 
 
 Please view the latest information about the service issue in Azure service health: [<!--$outageTrackingId--> outageTrackingId <!--/$outageTrackingId-->: <!--$eventTitle--> eventTitle <!--/$eventTitle-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory/trackingId/<!--$outageTrackingId--> outageTrackingId <!--/$outageTrackingId-->). You may also download a PDF summary document for the service issue in Azure Service Health.
