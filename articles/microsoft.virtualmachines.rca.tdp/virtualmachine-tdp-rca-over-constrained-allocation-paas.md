@@ -23,6 +23,7 @@ Microsoft Azure partitions compute nodes in a datacenter into various clusters, 
 <!--/issueDescription-->
 
 This issue commonly happens in one of the following scenario:<br>
+
 * **Region Not Supported** - The virtual machine size requested in the deployment is not supported in the selected region. Check available VM sizes per region [here](https://azure.microsoft.com/global-infrastructure/services/)
 * **Updating Pinned Cloud Service** - If a cloud service has a deployment in either slot, then the entire cloud service is pinned to a specific cluster. This means that if a deployment already exists in the production slot, then a new staging deployment can only be allocated in the same cluster as the production slot.
 * **Scaling** - Adding new instances to an existing cloud service must allocate in the same cluster. Small scaling requests can usually be allocated, but not always.
