@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="dushyantgill"
 	displayOrder=""
-	articleId="servicehealth-virtualmachines-healthannotation-livemigration"
+	articleId="ServiceHealth-VirtualMachines-HealthAnnotation-LiveMigration"
 	diagnosticScenario=""
 	selfHelpType=""
 	supportTopicIds=""
