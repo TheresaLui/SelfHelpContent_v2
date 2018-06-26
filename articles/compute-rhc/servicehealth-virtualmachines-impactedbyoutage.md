@@ -22,7 +22,7 @@ At <!--$startTime--> startTime <!--/$startTime-->, your virtual machine <!--$res
 Please view the latest information about the service issue in Azure service health: [<!--$outageTrackingId--> outageTrackingId <!--/$outageTrackingId-->: <!--$eventTitle--> eventTitle <!--/$eventTitle-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory/trackingId/<!--$outageTrackingId-->outageTrackingId<!--/$outageTrackingId-->). You may also download a PDF summary document for the service issue in Azure Service Health.
 
 
-## **Recommended actions**
+## **Recommended steps**
 
 * **Create a Service Health alert**: the alert will notify you and your team the next time there is an issue in Azure services that is affecting you. [Stay in-the-know with Azure Service Health alerts](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-activity-log-alerts-on-service-notifications).
 
