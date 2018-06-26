@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="dugill"
+	authors="dushyantgill"
 	displayOrder=""
 	articleId="ServiceHealth-VirtualMachines-HealthAnnotation-LiveMigration"
 	diagnosticScenario=""
