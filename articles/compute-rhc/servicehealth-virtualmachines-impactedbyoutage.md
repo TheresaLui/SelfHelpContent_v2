@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure service issue with your Virtual Machine
+# Your resource was impacted by an Azure service issue
 
 At <!--$startTime--> startTime <!--/$startTime-->, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName-->, was impacted by an Azure service issue: <!--$eventTitle--> eventTitle <!--/$eventTitle-->. 
 
