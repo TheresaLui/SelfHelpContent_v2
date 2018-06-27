@@ -1,19 +1,18 @@
 <properties
-    pageTitle="Calls are being unexpectedly throttled"
-    description="Calls are being unexpectedly throttled"
+    pageTitle="Other"
+    description="Other"
     service="microsoft.apim"
     resource="apimanagement"
     authors="shrahman"
-    displayOrder="14"
     selfHelpType="generic"
-    supportTopicIds="32318286"
+    supportTopicIds="32373948"
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
 />
 
-# Calls are being unexpectedly throttled
+# My issue is not listed here
 
 ## **Recommended documents**
 [Debugging your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)<br>
-[Advanced request throttling with Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-sample-flexible-throttling)
+[How to use Azure API Management with virtual networks - Common Network Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)
