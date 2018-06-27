@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Your resource was impacted by an Azure service issue"
 	description=""
-	infoBubbleText=""
+	infoBubbleText="Your resource was impacted. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="dushyantgill"
