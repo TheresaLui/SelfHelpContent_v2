@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="MachineKey_MitigatedYanyanTest"
 	diagnosticScenario="MachineKeyUpdates"
-	selfHelpType=""
+	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="13185"
@@ -16,7 +16,7 @@
 />
 # We ran diagnostics on your resource
 
-**<!--$DeploymentName-->[DeploymentName]<!--/$DeploymentName-->** is using the enhanced algorithm. No further action is required. You can read more about MachineKey in this [advisory](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory/trackingId/<!--$outageTrackingId-->outageTrackingId<!--/$outageTrackingId-->). 
+**<!--$DeploymentName-->[DeploymentName]<!--/$DeploymentName-->** is using the enhanced algorithm. No further action is required. You can read more about MachineKey in this [advisory](<!--$outageTrackingId-->outageTrackingId<!--/$outageTrackingId-->). 
 
 If there are any additional Cloud Service deployments under your subscription, they will be listed down here with their current MachineKey status as of <!--$LastRefreshTime-->LastRefreshTime<!--/$LastRefreshTime-->:
 ## List of Azure Cloud Service deployments
