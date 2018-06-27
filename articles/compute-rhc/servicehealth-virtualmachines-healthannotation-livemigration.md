@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Your virtual machine was paused for a memory-preserving update"
 	description=""
-	infoBubbleText=""
+	infoBubbleText="Your virtual machine was paused. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="dushyantgill"
