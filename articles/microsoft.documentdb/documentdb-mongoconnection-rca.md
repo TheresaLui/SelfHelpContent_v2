@@ -9,7 +9,7 @@
 	articleId="mongoconnection_8C52AB01-61A4-4758-A14C-CC5702F83D3F"
   diagnosticScenario="MachineKeyUpdates"
 	selfHelpType="rca"
-	supportTopicIds=""
+	supportTopicIds="32597502"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
