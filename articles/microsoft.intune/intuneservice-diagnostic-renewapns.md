@@ -16,7 +16,7 @@
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
-## The Apple MDM Push certificate has expired.
+## Recommended steps
 
 <!--issueDescription-->
 The Apple MDM Push certificate has expired or is about to expire.  If your Apple MDM Push certificate expires you'll be unable enroll iOS and MacOS devices and your existing devices will be unable to check-in to the Intune service.

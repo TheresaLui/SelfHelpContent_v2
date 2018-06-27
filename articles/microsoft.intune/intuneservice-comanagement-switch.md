@@ -14,9 +14,7 @@
 
 # Comanagement - Prepare
 
-## **Recommended steps**
-
-Let's review a few helpful documents to assist Co-Management migration:
+## **Recommended documents**
 
 **What are the prerequisites for migrating from Config Manager Hybrid to Intune?**
 

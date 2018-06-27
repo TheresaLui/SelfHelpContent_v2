@@ -16,7 +16,7 @@
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
-## The Apple MDM Push certificate has not been configured.
+## Recommended steps
 
 <!--issueDescription-->
 An Apple MDM Push certificate has not been configured on your subscription.  Without an Apple MDM Push certificate configured you'll be unable enroll iOS and MacOS devices.
