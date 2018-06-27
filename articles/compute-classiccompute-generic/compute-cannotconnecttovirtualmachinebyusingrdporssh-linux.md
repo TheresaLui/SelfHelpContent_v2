@@ -19,5 +19,5 @@
 [Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)<br>
 [Azure Serial Console for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#accessing-serial-console-for-linux)<br>
 
-**Recommended service**
+**Recommended service**<br>
 [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)<br>
