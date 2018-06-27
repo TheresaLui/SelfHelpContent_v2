@@ -24,7 +24,7 @@ To resolve common issues, try one or more of the following methods.
 5. Restart the virtual machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
 6. Resize the VM to fix host issues by clicking 'Size' in the Settings blade of the VM resource
 7. Reset the SSH configuration to fix any SSH issues <br>
-[Reset SSH using CLI](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-use-vmaccess-reset-password-or-ssh/#sshconfigresetcli)
+[Reset SSH using CLI](https://docs.microsoft.com/azure/virtual-machines/linux/classic/reset-access-classic#sshconfigresetcli)
 
 ## **Recommended documents**
 [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors) <br>
