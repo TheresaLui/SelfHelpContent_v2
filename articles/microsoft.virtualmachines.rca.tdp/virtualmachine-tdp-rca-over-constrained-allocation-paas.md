@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions). 
+We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures). 
 
 Microsoft Azure partitions compute nodes in a datacenter into various clusters, with each cluster containing about a thousand nodes/blades. The cloud services when deployed get pinned to a single cluster, and don’t currently span across multiple clusters. In some cases, as availability of free blades or free space within a blade in a cluster fluctuates, the constraints to find an allocation for the service may not be not met. When these constraints are not satisfied, we return back the request as a Service Allocation failure. 
 <!--/issueDescription-->
@@ -29,7 +29,7 @@ This issue commonly happens in one of the following scenario:<br>
 * **Scaling** - Adding new instances to an existing cloud service must allocate in the same cluster. Small scaling requests can usually be allocated, but not always.
 * **Changing VM size or Adding new VM size** - The cluster your Cloud Service is pinned to might not have the required combination of VM sizes.
 
-Following are few possible options that you can try to get around with Allocation Failures:
+The following are a few possible solutions you can try when encountering an allocation failure:
 
 For "Region Not Supported" try deploying in a different region or use VM sizes which are supported in the desired region. <br>
 
