@@ -16,10 +16,10 @@ cloudEnvironments="Public"
 />
 # Virtual network gateway has switched over to a backup instance
 <!--issueDescription-->
-We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has switched over to another instance. The most recent time reported: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**. This behavior can be considered normal and typically occurs during planned maintenance of the VNet Gateway and should not impact active VPN workloads.
+We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has switched over to another instance. The most recent time reported: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**. This behavior can be considered normal and typically occurs during planned maintenance of the VNet Gateway and should not impact active VPN workloads using active-passive gateway deployments. You are affected by this if you are using an active-active VPN deployment. If configured properly your VPN connection to your Vnet will remain but you may have noticed sone sessions disconnected at the above time. You were also without VPN Tunnel redundancy during this time.
 <!--/issueDescription-->
 ## **Mitigation**
- If this failover event resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). We are sorry for any inconvenience this may have caused. 
+ If this failover event resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).  
 
 We recommend enabling **Virtual Network Gateway Metrics** as this issue may have occurred if your Virtual Network Gateway was over-utilized.
 
