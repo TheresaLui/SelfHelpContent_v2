@@ -33,3 +33,5 @@ We recommend enabling **Virtual Network Gateway Metrics** to monitor your VPN Ga
    3. Browse to the SKU benchmarks outlined [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku) and compare the Bandwidth metric in the 'Metrics' blade with your Virtual Network Gateway's SKU.
 
 **For mission-critical workloads we recommend setting up monitoring alerts for Virtual Network Gateways. More can be read on this [here](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitor-with-azure-automation).**
+
+Microsoft is continuously working to identify and resolve issues proactively. Please feel free to reach out with any questions in the meantime.
