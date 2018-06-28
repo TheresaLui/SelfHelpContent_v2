@@ -16,14 +16,14 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We found mongo connections being closed on your account
+Some of the mongo connections to your account were closed due to timeouts.
 <!--/issueDescription-->
 Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection.
-One of the connections is used to send regular periodic commands like isMaster, ping. 
-The other connections are used to issue user commands like query/insert/delete.
-It is possible that some of the connections in the connection pool would timeout (if that connection was not picked by driver to issue user commands for sometime).
+One of the connections is used to send regular periodic commands like isMaster and ping. 
+The other connections are used to issue user commands like query, insert and delete.
+If a connection in the connection pool is not picked by a driver to issue user commands, the connection will timeout when it reaches the timeout limit set in the configuration". Once a connection times out, it well be removed from the pool.
 Because CosmosDB is a multi tenant service, we tear down TCP connections which are not used for sometime. 
-To avoid connectivity messages, the customer can change his connection string to set maxConnectionIdleTime and other values as follows (sample is only for nodejs)
+To avoid connectivity problems, increase the value for the maxConnectionIdleTime properties and for the other properties listed in the nodejs example below
 ```
 MongoClientOptions.Builder optionsBuilder = new MongoClientOptions.Builder();
 optionsBuilder.socketTimeout(10000);
