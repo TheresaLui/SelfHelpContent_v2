@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Mongo Connection Errors RCA"
-	description="RCA - Mongo Connection Errors"
-	infoBubbleText="Mongo connection closed on server side due to inactivity for account. See details on the right"
+	pageTitle="MongoDB Connection Errors RCA"
+	description="RCA - MongoDB Connection Errors"
+	infoBubbleText="MongoDB connections to your account were closed due to timeouts. See the details on the right."
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathb"
@@ -16,9 +16,9 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-Some of the mongo connections to your account were closed due to timeouts.
+Some of the MongoDB connections to your account were closed due to timeouts.
 <!--/issueDescription-->
-Mongo client drivers use “connection pooling”. Whenever a mongo client is initialized to a remote address, the driver establishes more than one connection.
+MongoDB client drivers use “connection pooling”. Whenever a MongoDB client is initialized to a remote address, the driver establishes more than one connection.
 One of the connections is used to send regular periodic commands like isMaster and ping. 
 The other connections are used to issue user commands like query, insert and delete.
 If a connection in the connection pool is not picked by a driver to issue user commands, the connection will timeout when it reaches the timeout limit set in the configuration". Once a connection times out, it well be removed from the pool.
