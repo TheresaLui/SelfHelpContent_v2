@@ -18,7 +18,7 @@ cloudEnvironments="Public"
 <!--issueDescription-->
 We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of: **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** has switched over to another instance. The most recent time reported: **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**. This behavior can be considered normal and typically occurs during planned maintenance of the VNet Gateway and should not impact active VPN workloads using active-passive gateway deployments. You are affected by this if you are using an active-active VPN deployment. If configured properly your VPN connection to your Vnet will remain but you may have noticed some sessions disconnected at the above time. You were also without VPN Tunnel redundancy during this time.
 <!--/issueDescription-->
-## **Mitigation**
+## **Details & Mitigation**
  If this failover event resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).  
 
 We recommend enabling **Virtual Network Gateway Metrics** to monitor your VPN Gateways pro-actively.
