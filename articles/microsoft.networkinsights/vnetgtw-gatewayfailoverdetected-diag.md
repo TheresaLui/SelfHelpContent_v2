@@ -21,7 +21,7 @@ We have identified that your Virtual Network Gateway for Vnet **<!--$virtualNetw
 ## **Mitigation**
  If this failover event resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).  
 
-We recommend enabling **Virtual Network Gateway Metrics** as this issue may have occurred if your Virtual Network Gateway was over-utilized.
+We recommend enabling **Virtual Network Gateway Metrics** to monitor your VPN Gateways pro-actively.
 
 1. Go to the [Azure portal](http://portal.azure.com)
 2. Find your Virtual Network Gateway
