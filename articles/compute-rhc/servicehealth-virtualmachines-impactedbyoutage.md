@@ -21,7 +21,7 @@
 At <!--$startTime--> startTime <!--/$startTime-->, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName-->, was impacted by an Azure service issue. 
 <!--/issueDescription-->
 
-Please view the latest information about the service issue in Azure service health: [<!--$outageTrackingId--> outageTrackingId <!--/$outageTrackingId-->: <!--$eventTitle--> eventTitle <!--/$eventTitle-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document for the service issue in Azure Service Health.
+Please view the latest information about the service issue in Azure service health: [Tracking ID <!--$outageTrackingId--> outageTrackingId <!--/$outageTrackingId-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document for the service issue in Azure Service Health.
 
 
 ## **Recommended steps**
