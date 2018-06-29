@@ -23,5 +23,5 @@ Selecting an ExpressRoute circuit listed under "All resources" will open the Exp
 In the "Overview" section of the blade, the ExpressRoute Essentials are shown.  <br>
 From there you will be able to configure your peerings.
 
-## Recommended document
+## **Recommended document**
 [Verifying Connectivity: Azure Express Route](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br
