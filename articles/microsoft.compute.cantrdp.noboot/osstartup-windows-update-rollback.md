@@ -4,7 +4,7 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="Alberto Balderas, Timothy Basham"
+    authors="timbasham"
     displayOrder=""
     articleId="OSStartUp-WINDOWS_UPDATE_ROLLBACK"
     diagnosticScenario="booterror"

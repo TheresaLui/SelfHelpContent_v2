@@ -4,7 +4,7 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="Timothy Basham"
+    authors="timbasham"
     displayOrder=""
     articleId="VMCannotRDP-BootError-0xC000000F-BootBCDorWinLoadexe"
     diagnosticScenario="booterror"
