@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Apple DEP device unable to enroll if Multi-Factor Authentication enabled"
-	description="Apple DEP device unable to enroll if Multi-Factor Authentication enabled"
+	pageTitle="Users cannot enroll their Apple DEP devices when multi-factor authentication is enabled."
+	description="Users cannot enroll their Apple DEP devices when multi-factor authentication is enabled."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# Apple DEP device is unable to enroll if multi-factor authentication is enabled
+# Users cannot enroll their Apple DEP devices when multi-factor authentication is enabled.
 
 ## **Recommended steps**
 
-Currently MFA(Multi-Factor Authentication) is not supported for Apple DEP enrollment.  Please disable MFA to allow users to enroll devices.
+At this time, multi-factor authentication is not supported for Apple DEP devices. To allow users to enroll their devices, please disable multi-factor authentication.
 
 
 

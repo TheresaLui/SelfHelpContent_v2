@@ -1,6 +1,6 @@
 <properties
-	pageTitle="User License Type Invalid or User Name Not Recognized"
-	description="User License Type Invalid or User Name Not Recognized"
+	pageTitle="Intune says that the license type is invalid and/or it cannot recognize the username."
+	description="Intune says that the license type is invalid and/or it cannot recognize the username."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,12 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# User license type invalid or user name not recognized
+# Intune says that the license type is invalid and/or it cannot recognize the username.
 
 ## **Recommended steps**
 
-The user does not have the proper Intune or EMS license.  You can assign licenses to each of your users in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).  Review the user licensing documentation for the [Azure Portal here](https://docs.microsoft.com/azure/active-directory/license-users-groups) or [here for the Office 365 Admin Center](https://docs.microsoft.com/intune/licenses-assign).
-
-
-
-
+The user account may be missing the appropriate Intune or EMS license. Assign licenses to each user in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users) or the [Office 365 Admin Center.](https://portal.office.com/adminportal/home#/homepage) For more information about how to license users in each location, see the [Azure documentation](https://docs.microsoft.com/azure/active-directory/license-users-groups) or the [Intune documentation.](https://docs.microsoft.com/intune/licenses-assign)

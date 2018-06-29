@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# "Site-to-Site VPN connectivity issues"
+# Site-to-Site VPN connectivity issues
 
 ## **Recommended steps**
 

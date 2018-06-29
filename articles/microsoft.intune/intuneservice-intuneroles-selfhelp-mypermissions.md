@@ -1,6 +1,6 @@
 <properties
-	pageTitle="I seem to have too many permissions for the role I'm assigned in Intune."
-	description="I seem to have too many permissions for the role I'm assigned in Intune."
+	pageTitle="One of my users seems to have too many permissions for the role I've assigned them in Intune"
+	description="One of my users seems to have too many permissions for the role I've assigned them in Intune"
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -12,8 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# I seem to have too many permissions for the role I'm assigned in Intune
+# One of my users seems to have too many permissions for the role I've assigned them in Intune.
 
 ## **Recommended steps**
 
-To determine what permissions your user account has assigned to it please run the "My permissions" report.
+Advise the user to go to **Intune** > **Intune roles** > **My permissions** > **Export**. If needed, you can adjust their permissions in Intune roles. 
