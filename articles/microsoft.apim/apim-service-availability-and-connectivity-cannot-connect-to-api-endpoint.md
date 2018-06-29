@@ -3,7 +3,7 @@
     description="Cannot connect to an API endpoint"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jtwalters25"
+    authors="shrahman"
     displayOrder="16"
     selfHelpType="generic"
     supportTopicIds="32318288"
@@ -15,6 +15,6 @@
 # Cannot connect to an API endpoint
 
 ## **Recommended documents**
-[How can I secure the connection between the API Management gateway and my back-end services?](https://docs.microsoft.com/azure/api-management/api-management-faq)<br>
-[API Manager API no longer connecting to backend systems](https://social.msdn.microsoft.com/Forums/azure/6d3e9b1c-308d-4d5d-a972-4ff32a7ce290/api-manager-api-no-longer-connecting-to-backend-systems?forum=azureapimgmt)<br>
-[This link is for API debugging ](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)
+[Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)<br>
+[API Management - Diagnostic Logs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#diagnostic-logs)<br>
+[API Management in Virtual Network - Common Network Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)

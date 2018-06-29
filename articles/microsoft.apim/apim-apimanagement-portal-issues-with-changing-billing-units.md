@@ -3,7 +3,7 @@
     description="Issues with changing billing units"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jtwalters25"
+    authors="shrahman"
     displayOrder="9"
     selfHelpType="generic"
     supportTopicIds="32318299"
@@ -15,5 +15,5 @@
 # Issues with changing billing units
 
 ## **Recommended documents**
-[Pricing](https://azure.microsoft.com/pricing/details/api-management/)<br>
-[Upgrade and scale](https://docs.microsoft.com/azure/api-management/upgrade-and-scale)
+[Upgrade and scale](https://docs.microsoft.com/azure/api-management/upgrade-and-scale)<br>
+[Pricing](https://azure.microsoft.com/pricing/details/api-management/)
