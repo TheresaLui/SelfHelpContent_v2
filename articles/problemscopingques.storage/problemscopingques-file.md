@@ -15,13 +15,13 @@
 	"title": "Storage File Share scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "blob_container",
+			"id": "file_share",
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "File Share name",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/$ref?api-version=2018-03-28",
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/$ref?api-version=2017-09-01",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",
@@ -36,8 +36,8 @@
 		}, {
 			"id": "problem_start_date",
 			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Date and time that the account was deleted",
+			"controlType": "datetimepicker",
+			"displayLabel": "Date and time that the issue occured",
 			"required": false
 		}, {
 			"id": "additional_details",
