@@ -22,7 +22,7 @@ MongoDB client drivers use “connection pooling”. Whenever a MongoDB client i
 One of the connections is used to send regular periodic commands like isMaster and ping. 
 The other connections are used to issue user commands like query, insert and delete.
 If a connection in the connection pool is not used by a driver to issue user commands, the connection will timeout based on the configured timeout limit. Once a connection times out, it is removed from the pool.
-Because CosmosDB is a multi tenant service, we tear down TCP connections which are not used within default timeout period. 
+Because CosmosDB is a multi tenant service, we tear down TCP connections which are not used within the default timeout period. 
 To avoid connectivity problems, increase the value of maxConnectionIdleTime property and other properties listed in the nodejs example below
 ```
 MongoClientOptions.Builder optionsBuilder = new MongoClientOptions.Builder();
