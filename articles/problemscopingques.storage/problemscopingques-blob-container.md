@@ -3,7 +3,7 @@
 	description="Storage Blob Container required scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602726,32602727"
+	supportTopicIds="32602725,32602728,32602734,32602735"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -43,7 +43,7 @@
 			"id": "problem_start_date",
 			"order": 3,
 			"controlType": "datetimepicker",
-			"displayLabel": "Date and time the issue occured",
+			"displayLabel": "Approximate date and time the issue occured",
 			"required": false
 		}, {
 			"id": "additional_details",

@@ -30,7 +30,7 @@
 			"id": "problem_start_date",
 			"order": 3,
 			"controlType": "datetimepicker",
-			"displayLabel": "Date and time when account creation failed",
+			"displayLabel": "Approximate date and time when account creation failed",
 			"required": false
 		}, {
 			"id": "additional_details",
