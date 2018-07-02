@@ -31,7 +31,7 @@ To fix the issue, either replace the file from the C:\windows\WinSxS folder on t
 3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
 4. Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 5. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
-6. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
+6. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
   * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
   * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
 7. In the attached OS Disk, browse to the file path noted in Step 1 and rename the file as [BINARY.SYS].OLD.
