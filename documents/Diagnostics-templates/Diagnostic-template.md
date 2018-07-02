@@ -11,16 +11,16 @@
 	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14749"​
-	cloudEnvironments="public"
+	productPesIds=""​
+	cloudEnvironments=""
 />
 
 # <-- This is the title of my solution - This is not presented in the portal --> 
 <!--issueDescription-->
 ## ** <-- Diagnostic Title --> **
-This is text with a replacement token <!--$tokenname-->**[tokenname]**<!--/$tokenname-->. There can be more text and another replacement token <!--$tokenname2-->**[tokenname2]**<!--/$tokenname2-->
-<br>
+This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token **<!--$tokenname2-->[tokenname2]<!--/$tokenname2-->**. Note that the double asterisk used to demark bold text should be added before and after the tags demarking the replacement token.
 <!--/issueDescription-->
+
 ## **Recommended steps**
 
 1. This is a step with a link to an external article.<br>
@@ -29,12 +29,11 @@ This is text with a replacement token <!--$tokenname-->**[tokenname]**<!--/$toke
 These are how-to instructions for this step
 3. This is a step with a link to a blade.<br>
 [This is a link to a blade](data-blade:<replace this with blade details>)
-4. This is a step with no link, blade, or instructions.
+4. This is a step with no link, blade, or instructions. Note that because the next line is a new bullet in the numbered list, no <br> is needed.
 5. This is a step with code :<br>
 ```
 SELECT name, is_disabled FROM sys.sql_logins
 ```
-
 
 ## **Recommended documents**
 
