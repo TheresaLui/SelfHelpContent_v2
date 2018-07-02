@@ -20,7 +20,7 @@ cloudEnvironments="public"
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> in an inaccessible state because windows failed to boot with error code **0xc0000098**. This error code indicates that Windows failed to load because a required file is missing or corrupt.
 
-You can use the Azure Portal to view the screenshot output of your VM in the boot diagnostics blade to detect connectivity issues due to similar boot failures in the future.
+If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
