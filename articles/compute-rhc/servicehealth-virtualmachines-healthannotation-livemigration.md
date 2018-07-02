@@ -7,11 +7,11 @@
 	authors="dushyantgill"
 	displayOrder=""
 	articleId="ServiceHealth-VirtualMachines-HealthAnnotation-LiveMigration"
-	diagnosticScenario=""
+	diagnosticScenario="ash_vm_livemigration"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32411809,32604406,32411835,32549257,32549256,32411875,32565496,32549259,32411877,32608639,32589415,32591320,32591160,32411817"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15797,15571,16215,16065,16470,14749,16080"
 	cloudEnvironments="public"
 />
 
