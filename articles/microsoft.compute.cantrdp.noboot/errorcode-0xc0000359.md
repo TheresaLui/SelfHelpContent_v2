@@ -18,9 +18,9 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000359**. The issue occurs because the binary file is the 32-bit version and it needs to be replaced by the 64-bit version.
+We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000359**. This issue occurs because the binary file is the 32-bit version and it needs to be replaced by the 64-bit version.
 
-You can use the Azure Portal to view the screenshot output of your VM in the boot diagnostics blade to detect connectivity issues due to similar boot failures in the future.
+If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
