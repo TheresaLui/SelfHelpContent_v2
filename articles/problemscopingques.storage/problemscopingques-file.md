@@ -37,7 +37,7 @@
 			"id": "problem_start_date",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Date and time that the issue occured",
+			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
 			"id": "additional_details",

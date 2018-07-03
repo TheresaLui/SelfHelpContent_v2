@@ -8,14 +8,9 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Recover deleted Storage Account
+# Recover deleted Blob Container
 ---
 {
-	"resourceRequired": true,
-	"title": "Storage Blob Container recovery scoping question",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			{
 	"resourceRequired": true,
 	"title": "Storage Blob Container recovery scoping question",
 	"fileAttachmentHint": "",
@@ -25,32 +20,6 @@
 			"controlType": "infoblock",
 			"content": "Do not recreate Blob container with the same name while we attempt to recover"
 		}, {
-			"id": "blob_container",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Blob Container name",
-			"required": true
-		}, {
-			"id": "problem_start_date",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate date and time the Blob Container was deleted",
-			"required": false
-		}, {
-			"id": "additional_details",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}, {
-			"id": "learn_more_text",
-			"order": 5,
-			"controlType": "infoblock",
-			"content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
-		}
-	]
-}
 			"id": "blob_container",
 			"order": 2,
 			"controlType": "textbox",

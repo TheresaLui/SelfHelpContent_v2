@@ -17,7 +17,7 @@
 	"formElements": [{
 			{
 	"resourceRequired": true,
-	"title": "Storage Blob Container recovery scoping question",
+	"title": "Storage Account recovery scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "warning_same_name",
