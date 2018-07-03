@@ -1,7 +1,7 @@
 <properties
 pageTitle="Admin Account Disabled"
 description="Administrator Setting"
-infoBubbleText="Administrator"
+infoBubbleText="Built-in Administrator account is disabled"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
@@ -15,21 +15,15 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-
-# Built-in Administrator account has issues
-
+# Built-in Administrator account is disabled
 <!--issueDescription-->
-Built-in Administrator account is disabled
+We have investigated and detected that the built-in administrator account has been disabled which may prevent your connectivity to the VM via RDP.
+
+Typically this issue has been seen in the VMs migrated from on-premises or have been created from specialized images.
 <!--/issueDescription-->
 
-## **Customer Ready RCA**
-
-The user account being used for the RDP connection is currently disabled.
-
-Typically this has been observed in VMs migrated from On-prem or created from specialized disks.
-
-Push the following script using [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript) to enable the user account:
-
+## **Recommended Steps**
+In order to enable the user account, please run the below script on the VM via [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript):
  ```
 $adminAccount = Get-WmiObject Win32_UserAccount -filter "LocalAccount=True" | ? {$_.SID -Like "S-1-5-21-*-500"}
 if($adminAccount.Disabled)
