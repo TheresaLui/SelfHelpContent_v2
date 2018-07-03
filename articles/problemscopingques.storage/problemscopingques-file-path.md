@@ -3,12 +3,12 @@
 	description="Storage File path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602759,32602770,32602758,32602760"
+	supportTopicIds="32602759,32602770,32602758"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# File path
+# Storage File path scoping question
 ---
 {
 	"resourceRequired": true,

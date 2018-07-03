@@ -3,12 +3,12 @@
 	description="Storage File Share scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602761,32602762"
+	supportTopicIds="32602761,32602762,32602760"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Recover deleted Storage Account
+# Storage File Share scoping question
 ---
 {
 	"resourceRequired": true,
@@ -45,11 +45,6 @@
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					},
-			"dropdownOptions": [{
-					"value": "Unable to get the list of File Share",
-					"text": "Unable to get the list of File Share"
-				}
-			],
 			"required": false
 		}, {
 			"id": "problem_start_date",

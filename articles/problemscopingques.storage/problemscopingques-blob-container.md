@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Storage Blob Container"
-	description="Storage Blob Container required scoping question"
+	pageTitle="Storage Blob Container name and path"
+	description="Storage Blob Container name and path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602725,32602728,32602734,32602735"
@@ -8,15 +8,33 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Recover deleted Storage Account
+# Storage Blob Container name and path scoping question
 ---
 {
 	"resourceRequired": true,
-	"title": "Storage Blob Container scoping question",
+	"title": "Storage Blob Container name and path scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "blob_container",
+			"id": "new_or_recurring_issue",
 			"order": 1,
+			"controlType": "dropdown",
+			"displayLabel": "New or recurring issue",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "new_issue",
+					"text": "New issue"
+				}, {
+					"value": "recurring_issue",
+					"text": "Recurring issue"
+				}, {
+					"value": "advisory",
+					"text": "Advisory"
+				}
+			],
+			"required": false
+		}, {
+			"id": "blob_container",
+			"order": 2,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Blob Container",
 			"watermarkText": "Choose an option",
@@ -27,27 +45,22 @@
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					},
-			"dropdownOptions": [{
-					"value": "all",
-					"text": "All Blob Containers in Storage Account"
-				}
-			],
 			"required": false
 		}, {
 			"id": "blob_name",
-			"order": 2,
+			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Blob name",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 3,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate date and time the issue occured",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
