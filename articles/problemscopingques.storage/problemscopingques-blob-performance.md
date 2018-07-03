@@ -8,7 +8,6 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
 # Blob performance issue
 ---
 {

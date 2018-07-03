@@ -11,11 +11,6 @@
 # Recover deleted Storage Account
 ---
 {
-	"resourceRequired": false,
-	"title": "Recover deleted Storage Account",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			{
 	"resourceRequired": true,
 	"title": "Storage Account recovery scoping question",
 	"fileAttachmentHint": "",
