@@ -15,7 +15,7 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# Safe Mode
+# Diagnostics on your virtual machine found an issue
 <!--issueDescription-->
 ## **Your virtual machine <!--$vmname-->[vmname]<!--/$vmname--> was started in Safe Mode**
 We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because its started in Safe Mode.
