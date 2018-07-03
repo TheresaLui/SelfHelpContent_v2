@@ -26,6 +26,9 @@
 				}, {
 					"value": "recurring_issue",
 					"text": "Recurring issue"
+				}, {
+					"value": "advisory",
+					"text": "Advisory"
 				}
 			],
 			"required": false

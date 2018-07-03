@@ -18,7 +18,7 @@
 			"id": "storage_account_name",
 			"order": 1,
 			"controlType": "textbox",
-			"displayLabel": "Name of Storage Account",
+			"displayLabel": "Name of Storage Account that failed to create",
 			"required": true
 		}, {
 			"id": "storage_account_region",

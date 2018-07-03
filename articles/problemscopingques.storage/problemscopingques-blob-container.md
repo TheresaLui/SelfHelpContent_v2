@@ -17,27 +17,27 @@
 	"formElements": [{
 			"id": "blob_container",
 			"order": 1,
-			"controlType": "dropdown",
+			"controlType": "multiselectdropdown",
 			"displayLabel": "Blob Container",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2017-09-01",
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2018-03-28",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					},
 			"dropdownOptions": [{
-					"value": "All Blob Containers",
-					"text": "All Blob Containers"
+					"value": "all",
+					"text": "All Blob Containers in Storage Account"
 				}
 			],
 			"required": false
 		}, {
-			"id": "blob_path",
+			"id": "blob_name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Blob path",
+			"displayLabel": "Blob name",
 			"required": false
 		}, {
 			"id": "problem_start_date",
