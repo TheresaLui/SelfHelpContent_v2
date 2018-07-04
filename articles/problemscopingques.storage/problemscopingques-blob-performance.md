@@ -49,7 +49,7 @@
 			"id": "request_id",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Request ID",
+			"displayLabel": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Request ID</a>",
 			"required": false
 		}, {
 			"id": "additional_details",
@@ -62,7 +62,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot peformance issues."
+			"content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot peformance issues."
 		}
 	]
 }
