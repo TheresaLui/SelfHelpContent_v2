@@ -49,7 +49,7 @@
 			"id": "request_id",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Request ID</a>",
+			"displayLabel": "Request ID",
 			"required": false
 		}, {
 			"id": "additional_details",
