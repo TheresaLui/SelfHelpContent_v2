@@ -33,35 +33,21 @@
 			],
 			"required": false
 		}, {
-			"id": "storage_account_from",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Storage Account migrating from",
-			"watermarkText": "From StorageAccountName",
-			"required": true
-		}, {
-			"id": "storage_account_from",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Storage Account migrating to",
-			"watermarkText": "To StorageAccountName",
-			"required": true
-		}, {
 			"id": "file_share_or_path",
-			"order": 4,
+			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "File share or file path migrating to",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 5,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 6,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
