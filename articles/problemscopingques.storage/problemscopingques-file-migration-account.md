@@ -3,7 +3,7 @@
 	description="Storage File path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602759,32602770,32602758,32602761,32602762,32602760,32602743"
+	supportTopicIds="32602760"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -33,21 +33,35 @@
 			],
 			"required": false
 		}, {
-			"id": "file_share_or_path",
+			"id": "storage_account_from",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "File share or file path",
+			"displayLabel": "Storage Account migrating from",
+			"watermarkText": "From StorageAccountName",
+			"required": true
+		}, {
+			"id": "storage_account_to",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Storage Account migrating to",
+			"watermarkText": "To StorageAccountName",
+			"required": true
+		}, {
+			"id": "file_share_or_path",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "File share or file path migrating to",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 3,
+			"order": 5,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 4,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

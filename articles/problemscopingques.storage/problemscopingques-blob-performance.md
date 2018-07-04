@@ -50,7 +50,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Server request ID of the most recent occurance</a>",
-			"watermarkText":"Server request ID"
+			"watermarkText":"Server request ID",
 			"required": false
 		}, {
 			"id": "additional_details",
