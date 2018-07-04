@@ -3,7 +3,7 @@
 	description="Storage Blob Container name and path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
+	supportTopicIds="32602725,32602728,32602734,32602735"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -33,34 +33,21 @@
 			],
 			"required": false
 		}, {
-			"id": "blob_container",
+			"id": "blob_container_or_path",
 			"order": 2,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Blob Container",
-			"watermarkText": "Choose an option",
-			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2018-03-28",
-					"jTokenPath": "value",
-					"textProperty": "id",
-					"valueProperty": "id",
-					"textPropertyRegex": "[^/]+$"
-					},
-			"required": false
-		}, {
-			"id": "blob_name",
-			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Blob name",
+			"displayLabel": "Container name or blob path",
+			"watermarkText": "'ContainerName' or 'ContainerName/BlobName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 4,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

@@ -3,7 +3,7 @@
 	description="Storage File Share scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602761,32602762,32602760"
+	supportTopicIds=""
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -35,7 +35,7 @@
 		}, {
 			"id": "file_share",
 			"order": 2,
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "File Share name",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {

@@ -15,7 +15,7 @@
 	"title": "Unable to delete Blob or Container scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "blob_path_or_container_name",
+			"id": "blob_container_or_path",
 			"order": 1,
 			"controlType": "textbox",
 			"displayLabel": "Container name or blob path",

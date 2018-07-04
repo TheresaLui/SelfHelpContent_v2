@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Storage Blob Container name and path"
-	description="Storage Blob Container name and path scoping question"
+	pageTitle="Storage File path"
+	description="Storage File path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
-	productPesIds="16459"
+	supportTopicIds="32602759,32602770,32602758,32602761,32602762,32602760,32602743"
+	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Storage Blob Container name and path scoping question
+# Storage File path scoping question
 ---
 {
 	"resourceRequired": true,
-	"title": "Storage Blob Container name and path scoping question",
+	"title": "Storage File path scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "new_or_recurring_issue",
@@ -33,34 +33,21 @@
 			],
 			"required": false
 		}, {
-			"id": "blob_container",
+			"id": "file_share_or_path",
 			"order": 2,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Blob Container",
-			"watermarkText": "Choose an option",
-			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2018-03-28",
-					"jTokenPath": "value",
-					"textProperty": "id",
-					"valueProperty": "id",
-					"textPropertyRegex": "[^/]+$"
-					},
-			"required": false
-		}, {
-			"id": "blob_name",
-			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Blob name",
+			"displayLabel": "File share or file path",
+			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 4,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

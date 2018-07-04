@@ -37,7 +37,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Container name or blob path",
-			"watermarkText": "Enter details when issue occur on specific blob or container",
+			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
 			"required": false
 		}, {
 			"id": "problem_start_date",
@@ -49,7 +49,8 @@
 			"id": "request_id",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Request ID</a>",
+			"displayLabel": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Server request ID of the most recent occurance</a>",
+			"watermarkText":"Server request ID"
 			"required": false
 		}, {
 			"id": "additional_details",

@@ -24,6 +24,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Name of the deleted Storage Account",
+			"watermarkText": "StorageAccountName",
 			"required": true
 		}, {
 			"id": "storage_account_type",
@@ -45,6 +46,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Region of Storage Account",
+			"watermarkText": "Region",
 			"required": false
 		}, {
 			"id": "problem_start_date",
