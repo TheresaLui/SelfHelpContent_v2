@@ -25,7 +25,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Error code and/or message",
-			termarkText": "Error code: error message",
+			"watermarkText": "Error code: error message",
 			"required": false
 		}, {
 			"id": "blob_or_container",

@@ -25,7 +25,7 @@
 			"id": "problem_start_date",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate date and time of the most recent occurance",
+			"displayLabel": "Approximate date and time of the most recent occurence",
 			"required": false
 		}, {
 			"id": "additional_details",

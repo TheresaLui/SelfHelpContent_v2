@@ -3,7 +3,7 @@
 	description="Performance issue on blob scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602726,32602727,32602725,32602734,32602735"
+	supportTopicIds="32602725,32602734,32602735,32602726,32602727"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"

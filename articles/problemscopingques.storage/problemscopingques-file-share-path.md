@@ -3,7 +3,7 @@
 	description="Storage File share or path scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602743,32602758"
+	supportTopicIds="32602758"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
