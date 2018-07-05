@@ -15,30 +15,30 @@
 	"title": "Unable to delete Blob or Container scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "blob_container_or_path",
+			"id": "learn_more_text",
 			"order": 1,
+			"controlType: "infoblock",
+			"content": "Please ensure that there is no lease or <a href='https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors'>VM attached to the blob or container</a> you are trying to delete."
+		}, {
+			"id": "blob_container_or_path",
+			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Container name or blob path",
+			"displayLabel": "Container or Blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/BlobName'",
 			"required": true
 		}, {
 			"id": "problem_start_date",
-			"order": 2,
+			"order": 3,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate date and time of the latest deletion attempt",
+			"displayLabel": "Approximate time of the last deletion attempt",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 3,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
 			"useAsAdditionalDetails": true
-		}, {
-			"id": "learn_more_text",
-			"order": 4,
-			"controlType": "infoblock",
-			"content": "Please ensure that there is no lease or <a href='https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors'>VM attached to the blob or container</a> you are trying to delete."
 		}
 	]
 }

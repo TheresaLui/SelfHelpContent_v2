@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Storage File path"
-	description="Storage File path scoping question"
+	pageTitle="Storage File migration between Storage Accounts"
+	description="Storage File migration between Storage Accounts scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602760"
@@ -8,60 +8,42 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Storage File path scoping question
+# Storage File migration between Storage Accounts
 ---
 {
 	"resourceRequired": true,
-	"title": "Storage File path scoping question",
+	"title": "Storage File migration between Storage Accounts scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "new_or_recurring_issue",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "New or recurring issue",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "new_issue",
-					"text": "New issue"
-				}, {
-					"value": "recurring_issue",
-					"text": "Recurring issue"
-				}, {
-					"value": "advisory",
-					"text": "Advisory"
-				}
-			],
-			"required": false
-		}, {
 			"id": "storage_account_from",
-			"order": 2,
+			"order": 1,
 			"controlType": "textbox",
-			"displayLabel": "Storage Account migrating from",
+			"displayLabel": "Source Storage Account",
 			"watermarkText": "From StorageAccountName",
 			"required": true
 		}, {
 			"id": "storage_account_to",
-			"order": 3,
+			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Storage Account migrating to",
+			"displayLabel": "Destination Storage Account",
 			"watermarkText": "To StorageAccountName",
 			"required": true
 		}, {
 			"id": "file_share_or_path",
-			"order": 4,
+			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "File share or file path migrating to",
+			"displayLabel": "File Share or File path migrating to",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 5,
+			"order": 4,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approx date and time of the most recent occurance",
+			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 6,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

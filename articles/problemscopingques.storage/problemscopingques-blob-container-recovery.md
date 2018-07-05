@@ -18,19 +18,19 @@
 			"id": "warning_same_name",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "Do not recreate Blob Container with the same name while we attempt to recover it."
+			"content": "WARNING: Do not recreate Container with the same name while we attempt to recover it."
 		}, {
 			"id": "blob_container",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Name of Blob Container to recover",
+			"displayLabel": "Name of Container to recover",
 			"watermarkText": "ContainerName",
 			"required": true
 		}, {
 			"id": "problem_start_date",
 			"order": 3,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate date and time the Blob Container was deleted",
+			"displayLabel": "Approximate time the Container was deleted",
 			"required": false
 		}, {
 			"id": "additional_details",

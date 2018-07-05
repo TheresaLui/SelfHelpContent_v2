@@ -18,7 +18,7 @@
 			"id": "warning_same_name",
 			"order": 1,
 			"controlType": "infoblock",
-			"content": "Do not recreate Storage Account with the same name while we attempt to recover it."
+			"content": "WARNING: Do not recreate Storage Account with the same name while we attempt to recover it."
 		}, {
 			"id": "storage_account_name",
 			"order": 2,
