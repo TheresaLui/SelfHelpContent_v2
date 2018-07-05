@@ -27,13 +27,13 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 
 ## **Recommended Steps**
 To restore the VM please follow the steps below:
-1. Stop de-allocate and start the Virtual Machine <!--$vmname-->[vmname]<!--/$vmname--> to check if issue persists.
+1. Stop/deallocate and start the Virtual Machine <!--$vmname-->[vmname]<!--/$vmname-->. Check the console screenshot to see if the VM has boot up or if issue persists.
 2. If the VM still fails to boot, delete the VM selecting the Keep the disks option.
-3. Before proceeding further save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
+3. Before proceeding further save a copy of the OS disk, this will help in case a rollback is needed. Please follow the steps in the article [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
 4. Attach the copy/snapshot of the OS disk of the VM as a data disk to another VM (a troubleshooting VM) that is using Azure Disk Encryption Extension. For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 5. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
-6. Now to unlock the encrypted drive follow the steps in this  [article](https://blogs.msdn.microsoft.com/mast/2016/11/27/azure-disk-encryption-how-to-recover-bek-file-from-azure-key-vault/).
-7. If desired now is a good time to enable your Windows VM to use Azure Serial Console which can help in diagnosing and resolving future issues. [Virtual machine serial console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console), otherwise skip to the step 11 to restore the VM with the unlocked OS disk.
+6. Now to unlock the encrypted drive follow the steps in this [article](https://blogs.msdn.microsoft.com/mast/2016/11/27/azure-disk-encryption-how-to-recover-bek-file-from-azure-key-vault/).
+7. If desired, now is a good time to enable your VM to use [serial console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 11 to restore the VM with the unlocked OS disk.
 8. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
