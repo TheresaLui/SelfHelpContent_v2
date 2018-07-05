@@ -17,13 +17,13 @@
 	"formElements": [{
 			"id": "learn_more_text",
 			"order": 1,
-			"controlType: "infoblock",
+			"controlType": "infoblock",
 			"content": "Please ensure that there is no lease or <a href='https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors'>VM attached to the blob or container</a> you are trying to delete."
 		}, {
 			"id": "blob_container_or_path",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Container or Blob path",
+			"displayLabel": "Container name or Blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/BlobName'",
 			"required": true
 		}, {

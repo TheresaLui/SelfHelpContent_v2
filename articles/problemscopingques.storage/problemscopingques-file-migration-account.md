@@ -32,7 +32,7 @@
 			"id": "file_share_or_path",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "File Share or File path migrating to",
+			"displayLabel": "Destination File Share or File path",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {

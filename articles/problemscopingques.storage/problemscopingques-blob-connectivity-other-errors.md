@@ -15,26 +15,27 @@
 	"title": "Blob connectivity other blob service errors scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{	
-			"id": "error_code_message",
+			"id": "problem_start_date",
 			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabe": "Approximate start time of the most recent occurrence",
+			"required": true
+		}, {
+			"id": "error_code_message",
+			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Error code and/or message",
 			termarkText": "Error code: error message",
 			"required": false
 		}, {
 			"id": "blob_or_container",
-			"order": 2,
+			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Container or Blob path",
+			"displayLabel": "Container name or Blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
 			"required": false
 		}, {
-			"id": "problem_start_date",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate start time of the most recent occurrence",
-			"required": true
-		}, {
+			
 			"id": "additional_details",
 			"order": 4,
 			"controlType": "multilinetextbox",

@@ -24,7 +24,7 @@
 			"id": "blob_or_container",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Container or Blob path",
+			"displayLabel": "Container name or Blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
 			"required": false
 		}, {

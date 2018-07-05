@@ -19,7 +19,7 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate time Blob was deleted",
-			"required": false
+			"required": true
 		}, {
 			"id": "additional_details",
 			"order": 2,
