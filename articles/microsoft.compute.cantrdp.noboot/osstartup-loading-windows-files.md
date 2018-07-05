@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows OS is at **Getting Windows Ready** state. This occurs when there was a configuration change applied via Windows Update or Windows roles/features and the OS is attempting to apply the changes upon the following boot.
+We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because Windows OS is at **Getting Windows Ready** state. This occurs when there was a configuration change applied via Windows Update or Windows roles/features and the OS is attempting to apply the changes upon the following boot.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
