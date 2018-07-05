@@ -26,7 +26,7 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To restore the VM please follow the steps below:
+To restore the access to the VM please follow the steps below:
 1. Stop/deallocate and start the Virtual Machine <!--$vmname-->[vmname]<!--/$vmname-->. Check the console screenshot to see if the VM has boot up or if issue persists.
 2. If the VM still fails to boot, delete the VM selecting the Keep the disks option.
 3. Before proceeding further save a copy of the OS disk, this will help in case a rollback is needed. Please follow the steps in the article [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
