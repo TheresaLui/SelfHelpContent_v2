@@ -9,13 +9,13 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public"	 
+	cloudEnvironments="public,BlackForest,Fairfax"	 
 />
     
 # Common log files for Service Fabric nodes
 
 ## **Recommended steps**
-You can easily capture all of the most common log files from a Service Fabric node with a single command.  This will create a ZIP file that you can then save offline for post-mortem analysis.  To create the ZIP file, [RDP](https://azure.microsoft.com/documentation/articles/service-fabric-cluster-nodetypes/#remote-connect-to-a-vm-scale-set-instance-or-a-cluster-node) to a node and run CollectGuestLogs.exe.  CollectGuestLogs.exe can be found in the Azure Guest Agent folder (C:\WindowsAzure\Packages\CollectGuestLogs.exe). Among the files collected, these are most commonly used to troubleshoot problems:
+You can easily capture all of the most common log files from a Service Fabric node with a single command.  This will create a ZIP file that you can then save offline for post-mortem analysis.  To create the ZIP file, [RDP](https://azure.microsoft.com/documentation/articles/service-fabric-cluster-nodetypes/#remote-connect-to-a-vm-scale-set-instance-or-a-cluster-node) to a node and run CollectGuestLogs.exe.  CollectGuestLogs.exe can be found in the Azure Guest Agent folder (C:\WindowsAzure\GuestAgent_x.x.xxxxx.xxx\CollectGuestLogs.exe). Among the files collected, these are most commonly used to troubleshoot problems:
  
  - Event Logs
    - Service Fabric Event Logs

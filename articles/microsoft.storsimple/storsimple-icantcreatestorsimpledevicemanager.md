@@ -7,21 +7,21 @@
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
 />
 
 # I can't create a StorSimple Device Manager.
-StorSimple Device Manager for virtual arrays is supported only for Microsoft Azure Enterprise Agreements and MSDN subscriptions. <br>
+StorSimple Device Manager for virtual arrays (1200 series) is supported for Microsoft Azure Enterprise Agreements, MSDN, Pay-as-you-go, and other subscriptions. <br>
 <br>
-StorSimple Device Manager for 8000 series is supported only for Microsoft Azure Enterprise Agreements. <br>
-<br>
-Pay-as-you-go, Prepaid, and Azure in Open are not supported.
+StorSimple Device Manager for physical devices (8000 series) is supported only for Microsoft Azure Enterprise Agreements. Pay-as-you-go, Prepaid, and Azure in Open are not supported. <br>
+
 
 ## **Recommended steps**
 * Verify that you have a Microsoft Azure Enterprise Agreement or an MSDN subscription.
 
 ## **Recommended documents**
 [Create a StorSimple Device Manager.](https://aka.ms/storsimple-troubleshoot-createmanager)<br>
+[Expanded subscription offers for StorSimple Virtual Array.](https://azure.microsoft.com/blog/storsimple-new-offers/)<br>
 [Microsoft Azure - Purchase options](https://azure.microsoft.com/pricing/purchase-options/)

@@ -3,18 +3,25 @@
 	description="configuration and management/authentication and authorization"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32542207"
+	supportTopicIds="32606474"
 	resourceTags=""
-	productPesIds="14748, 16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
 />
 
 # configuration and management/authentication and authorization
 
 ## **Recommended documents**
-[Azure Websites Authentication/Authorization](https://azure.microsoft.com/blog/azure-websites-authentication-authorization/)<br>
-[New identity providers, new sign-in options, and greater flexibility in access control](https://azure.microsoft.com/blog/announcing-app-service-authentication-authorization/)<br>
-[How To Configure TLS Mutual Authentication for Web App](https://azure.microsoft.com/documentation/articles/app-service-web-configure-tls-mutual-auth/)
+
+[Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)
+
+How to configure authentication with various Identity providers: <br>
+
+* [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
+* [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>
+* [How to configure your app to use Google login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-google-authentication)<br>
+* [How to configure your app to use Microsoft Account login](https://docs.microsoft.com/azure/app-service/app-service-mobile-how-to-configure-microsoft-authentication)<br>
+* [How to configure your app to use Twitter login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-twitter-authentication)<br>

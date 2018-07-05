@@ -3,19 +3,23 @@
 	description="configuration and management/configuring ssl"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32440123"
 	resourceTags=""
-	productPesIds="14748, 16170"
+	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
 />
 
 # configuration and management/configuring ssl
 
 ## **Recommended documents**
-[How to configure a SSL certificate for your Web App](https://azure.microsoft.com/documentation/articles/web-sites-configure-ssl-certificate/)<br>
-[Buy and Configure an SSL Certificate for your Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/)<br>
-[Internals of App Service Certificate](https://azure.microsoft.com/blog/internals-of-app-service-certificate/)<br>
-[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)
+
+* [Resolve HTTPS error or Certificate validation errors](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#https-fail)
+* [Resolve SSL binding issues](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#update-binding)
+* [Resolve Rekey and resync issues  with SSL](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-and-sync-the-certificate) 
+* [Configure TLS mutual authentication](https://docs.microsoft.com/azure/app-service/app-service-web-configure-tls-mutual-auth)
+* [Enforce and Test HTTPS](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-ssl#enforce-https)  
+* [Export App Service certificate to PFX](https://azure.microsoft.com/updates/export-your-app-service-certificate-to-any-azure-service/)
+* [Commonly asked questions on SSL certificates](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates) 

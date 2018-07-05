@@ -6,7 +6,7 @@
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551652"
+	supportTopicIds="32602699"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
@@ -14,13 +14,15 @@
 
 # Move Resources Between RG or Subscription
 
-## Call support when you need to**
-- Move your resources to a new Azure account (and [Active Directory tenant](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#services-that-enable-move)).
-- Move classic resources but are having trouble with the [limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).
+## **Recommended steps**
 
-## Move Resources Between RG or Subscription**
-- Move Resource Manager resources.
-- Move classic resources according to the [classic deployment limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations)
+**Call support when you need to**<br>
+- Move your resources to a new Azure account (and [Active Directory tenant](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#services-that-enable-move)).<br>
+- Move classic resources but are having trouble with the [limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).<br>
+
+**Move Resources Between RG or Subscription**<br>
+- Move Resource Manager resources.<br>
+- Move classic resources according to the [classic deployment limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations)<br>
 
 There are some important steps to perform before moving a resource. By verifying these conditions, you can avoid errors.
 
@@ -33,4 +35,3 @@ There are some important steps to perform before moving a resource. By verifying
 
 ## **Recommended documents**
 [Move Resources to New Resource Group or Subscription](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/)
-

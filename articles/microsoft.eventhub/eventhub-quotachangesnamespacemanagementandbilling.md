@@ -9,7 +9,7 @@
 	supportTopicIds="32421026"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # quota changes, namespace management, and billing

@@ -10,7 +10,7 @@
     supportTopicIds="32501562"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # portal/source control integration

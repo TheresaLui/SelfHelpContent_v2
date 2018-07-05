@@ -6,7 +6,7 @@
 	authors="kasparks"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32447383"
+	supportTopicIds="32553280"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -14,21 +14,12 @@
 
 # Windows Backup to Azure Backup/Schedule backup for a Windows Server or a client
 
-If you are facing issues with your Windows server files and folders backups being very slow, please try one or more of the below steps
-
 ## **Recommended steps**
-
-* Server being backed up is facing  performance limitations causing backup to be slow <br>
-[Performance counters and recommended ranges for optimal backup](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-slow-backup-performance-issue#cause1)
-
-* Another process or antivirus interfering with Azure Backup causing backup to be slow or even fail <br>
-[Steps to ensure there are no conflicts with another process or antivirus](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-slow-backup-performance-issue/#cause2)
-
-* Backing up individual files and folders in an Azure IaaS VM is very slow <br>
-[Steps to optimize performance for Azure VM](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-slow-backup-performance-issue/#cause3)
-
-* Backup large number (multi-million) of small files is very slow <br>
-[Steps to understand bottlenecks in the case of large number of files](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-slow-backup-performance-issue/#cause4)
-
-## **Recommended documents**
-[Step by step guide to setup files and folder backup using Azure Backup Agent](https://azure.microsoft.com/en-us/documentation/articles/backup-configure-vault/)
+* How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-vm-backup-time) [ Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time) <br>
+* [Ensure another process or antivirus is not interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) <br>
+* [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder-br)<br>
+* [Check throttling controls on how network bandwidth is used during data transfer](https://docs.microsoft.com/azure/backup/backup-configure-vault#enable-network-throttling) <br>
+* [Ensure unsupported file & folders are excluded from backup ](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr)<br>
+* [MARS agent backup of files and folders in Azure IaaS VM is slow](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backup-agent-running-on-an-azure-virtual-machine) <br>
+* [Backing up large number (multi-million) of small files is very slow](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-backing-up-a-large-number-millions-of-files) <br>
+* [Bottlenecks on system being backed-up that could impact backup performance](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-performance-bottlenecks-on-the-computer) <br>

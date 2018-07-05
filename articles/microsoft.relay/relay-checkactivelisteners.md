@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds="16123"
-	cloudEnvironments="public" 
+	cloudEnvironments="public,BlackForest,Fairfax" 
 />
 
 # How do I know if I have any active listeners?

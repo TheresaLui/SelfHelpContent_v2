@@ -1,18 +1,18 @@
 <properties
-	pageTitle="azure iaas vm backup/register or back up a linux virtual machine"
-	description="azure iaas vm backup/register or back up a linux virtual machine"
+	pageTitle="Azure iaas vm backup/register or back up a linux virtual machine"
+	description="Azure iaas vm backup/register or back up a linux virtual machine"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="kasparks"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32447378"
+	supportTopicIds="32553276"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
-# azure iaas vm backup/register or back up a linux virtual machine
+# Azure iaas vm backup/register or back up a linux virtual machine
 ## **Recommended steps**
 To resolve the most common issues, try one or more of the following steps
 * Check VM agent installed is up to date. <br>

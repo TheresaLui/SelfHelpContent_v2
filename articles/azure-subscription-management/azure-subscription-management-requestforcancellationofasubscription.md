@@ -1,25 +1,22 @@
 <properties
 	pageTitle="request for cancellation of a subscription"
 	description="request for cancellation of a subscription"
-	service="azure_subscription_management"
-	resource=""
-	authors=""
-	displayOrder=""
-	selfHelpType="generic"
+	service="azure-billing"
+	resource="billing"
+	authors="jlian"
+	displayOrder="9"
+	selfHelpType="resource"
 	supportTopicIds="32454934"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 />
 
-# request for cancellation of a subscription
+# I need to cancel my subscription
 
 ## **Recommended steps**
-If you cancel your subscription, all your services will be deleted immediately. Make sure you back up the data you want to save before you cancel.
 
-1. Only 'Account Adminstrator' can cancel a subscription by visiting 'Azure Account Center' and then clicking 'Cancel Subscription' on right panel.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
-2. To determine the 'Account Administrator' of your subscription - click on 'Subscriptions' on the left pane in Azure portal, select your subscription, click 'Settings', select 'Properties' and scroll down on the properties blade to view the Account Admin's email address.
+1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
-## **Recommended documents**
-[Self-serve: Cancel a subscription](https://azure.microsoft.com/documentation/articles/billing-how-to-cancel-azure-subscription/)<br>
+2. The Account Admin can cancel a subscription in the portal. <br>
+[Cancel Azure subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription/)<br>

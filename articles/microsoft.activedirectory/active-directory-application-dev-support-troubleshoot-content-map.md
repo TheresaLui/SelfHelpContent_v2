@@ -1,0 +1,20 @@
+<properties
+  pageTitle="Issues that are related to Azure Active Directory Application Development"
+  description="Resolve the most common issues related to Azure Active Directory Application Development"
+  service="microsoft.aad"
+  resource="Microsoft_AAD_IAM"
+  authors="ajamess"
+  selfHelpType="generic"
+  supportTopicIds="32570266"
+  productPesIds="14785"
+  cloudEnvironments="public"
+ />
+
+# Issues that are related to Azure Active Directory Application Development
+
+## **Recommended Steps**
+
+The following links will bring you to a content map which will help you to resolve some of the most common issues with application developement with the **Application Registry** in Azure Active Directory.
+
+* [Issues that are related to Application Configuration and Registration](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-config-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)
+* [Issues that are related to Application Development](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)

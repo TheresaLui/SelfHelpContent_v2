@@ -6,52 +6,34 @@
 	authors="anoopkv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32536387"
+	supportTopicIds="32593224"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Site Recovery (VMware vCenter to Azure)/Add/register configuration server
 
-Common issues during Setup & Registration of a Configuration Server
-
-## **Recommended Steps**
-* Ensure that the server on which you install the  **Configuration Server** has access to the following url's <br>
-	1. *.hypervrecoverymanager.windowsazure.com
-	2. *.accesscontrol.windows.net
-	3. *.backup.windowsazure.com
-	4. *.blob.core.windows.net
- 	5.*.store.core.windows.net
-	6. https://www.msftncsi.com/ncsi.txt
-	7. https://dev.mysql.com/get/archives/mysql-5.5/mysql-5.5.37-win32.msi
-
-* Ensure that the system clock on the server where you install **Configuration Server** has the correct time for the time zone the server is configured for.
-
-* Ensure you choose the **'Connect to Azure Site Recovery using a proxy server'** option if you know that the server on which you are installing  **Configuration Server**  is behind a proxy server.<br>
-	1. This setting can be changed at any point of time by running the **CSPSConfigtool.exe** and re-registering the Microsoft Azure Site Recovery Provider.
-	2. The **CSPSConfigtool.exe** can be found at [Install Location]\home\svsystems\bin folder in the Configuration Server.
-
-* Ensure that the server on which you plan to install the Configuration Sever has PowerCLI version 6.0 installed on it.<br>
-	1. Higher/Lower version of PowerCLI are not supported.
-	2. You can download PowerCLI 6.0 from https://developercenter.vmware.com/tool/vsphere_powercli/6.0
-
-* Ensure that the following Group policies are not enabled for the user running setup.<br>
-	1. Prevent access to the command prompt
-	2. Prevent access to registry editing tools
-	3. Trust logic for file attachments
-	4. Turn on Script Execution
-
-* Ensure that the server on which **Configuration Server** will be installed has TLS1.0 enabled.
-
-* Ensure that the computer on which the **Configuration Server** is being installed does not have the following configured for the IIS Services.<br>
-	1. More than one websites already configured
-	2. FastCGISettings are already configured
-	3. Port 443 is already bound as the "Default Web Site" secure Port
-	4. Anonymous Authentication is disabled
-
-* If after successful registration of your **Configuration Server**, you are unable to discovery your vCenter then ensure that you don't have other versions of Perl or PHP installed on the computer that is running the **Configuration Sever**
-
 ## **Recommended Documents**
-[Configuration Server prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#configuration-server-prerequisites)
-<br>
-[VMware vCenter/vSphere host prerequisites](https://azure.microsoft.com/documentation/articles/site-recovery-vmware-to-azure/#vmware-vcentervsphere-host-prerequisites)
+
+**VMware to Azure**
+
+* Install new instance of [Configuration Server using OVF template](https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template)</br>
+* [Video] Watch [step-by-step installation of Configuration Server using OVF template](https://azure.microsoft.com/blog/announcing-a-new-simplified-onboarding-experience-for-azure-site-recovery-vmware-to-azure/)</br>
+* Changing [proxy settings to connect configuration server to the internet](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#modify-proxy-settings)</br>
+* [Registering configuration server to same vault](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#reregister-a-configuration-server-in-the-same-vault)</br>
+
+**Physical to Azure**
+
+* [**Prerequisites** to install Unified setup on configuration server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#prerequisites)</br>
+* Install new instance of [Configuration Server using unified setup](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#download-the-latest-installation-file)</br>
+* Changing [proxy settings to connect configuration server to the internet](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#modify-proxy-settings)</br>
+* [Registering Configuration Server(unified setup) to the same vault](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#reregister-a-configuration-server-with-the-same-vault)</br>
+* [Registering Configuration Server(unified setup) to a different vault](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#register-a-configuration-server-with-a-different-vault)</br>
+* [**Troubleshoot** common installation and registration issues of Configuration server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#common-issues)
+
+**Common information**
+
+* [**Upgrade** existing instance of Configuration Server](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#upgrade-the-configuration-server)</br>
+* [**Adding network adapter** to the configuration server](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#add-a-network-adapter)<br>
+* [**Renew SSL certificates** on existing instance of Configuration Server](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#renew-ssl-certificates)</br>
+

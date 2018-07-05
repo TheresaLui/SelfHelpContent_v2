@@ -8,7 +8,7 @@
     selfHelpType="resource"
 	supportTopicIds=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # My job is not outputting data
@@ -21,10 +21,11 @@
 5. On the Query tab, use the “Test” button to test the query and use the sample data downloaded to test the query. Examine any errors and attempt to remediate them.  
 6. If Timestamp By is used, make sure the events have timestamps greater than the job start time. 
 7. Re-build the query progressively from simple select statement to more complex aggregates using steps. Using WITH clause to build up the query logic, step by step.
-8. Watch out for common gotachas: <br>
-    * It's is possible that your query is functioning just fine but for example, a where clause in the query filtered out their events that prevented outputs from being generated. <br>
-    * It's is possible that your query is functioning just fine, but the window size is large enough that you’ll need to wait for the corresponding duration to see an output from the query. <br>
-9. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy is configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser versus running the job for real. 
+8. Watch out for common gotachas where it is possible that your query is functioning just fine but: <br>
+  * A where clause in the query filtered out their events that prevented outputs from being generated. <br>
+  * The window size is large enough that you’ll need to wait for the corresponding duration to see an output from the query. <br>
+  * Timestamp for events is before the job start time and therefore events are being dropped. <br>
+9. If all these steps worked fine, go to Settings blade and pick event ordering. Make sure this policy configuration makes sense for your job. It should be noted that this policy is not applied when the “Test” button is used to test the query. This is a difference between testing in browser versus running the job for real. 
 10. Start the Job and check if the job works as desired.  
 11. Once the job status changes to "Running", depending on the duration stipulated in the query, the output can be seen in the Sink data-source. 
 12. If no output is obtained after the expected duration (based on the query), try the following: <br>
@@ -46,43 +47,6 @@
             * In all of these error cases, operations log messages explain additional details (including what is happening), except for the cases the query logic filtered out all events. If the processing of multiple events generates errors, Stream Analytics logs the first 3 error messages of the same type within 10 minutes to Operations logs and then suppress additional identical errors with a message that reads "Errors are happening too rapidly, these are being suppressed". <br>
 
 When outputs going to a specific output type are not seen, redirect the output to different output type that is less complex (such as Azure Blobs) and check if the output can be seen up there (using Storage Explorer). 
-
-If there are no issues, the data flow will need to be analyzed. Analyzing the data flow systematically can be done with the job diagram that shows a visual representation of the job by clicking on the “Job diagram” button in the “Settings” blade of the of the Stream Analytics job. For existing jobs, it is necessary to restart the job first. 
-
-Learn about the job diagram [here.](https://aka.ms/job_diagram)
-
-In the job diagram, examine the following input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
-
-**QueryLastProcessedTime** This metric indicates when a particular step received data. Based on the topology, work backwards from the output processor to see which step is not receiving data. If a step is not getting data, go to the preceding step is a query step, check if it has a time window and if enough time has passed for it to output data (Note that time windows are snapped to the hour). 
-
-If the preceding step is an input processor, use the input metrics to help answer the following targeted questions about jobs getting data from its input sources. If the query is partitioned, examine each partition.  
-
-_1) How much data is actually being read?_ 
-
-**InputEventsSourcesTotal** metric provides the number of data units read, eg number of blobs. <br>
-**InputEventsTotal** provides the number of events read. This metric is available per partition. <br>
-**InputEventsInBytesTotal** provides the number of bytes read. <br>
-**InputEventsLastArrivalTime is updated with every received event's enqueued time.
-
-_2) Is time moving forward? If actual events are read, punctuation might not be issued._ 
-
-**InputEventsLastPunctuationTime** indicates when a punctuation was issued to keep time moving forward. Data flow can get blocked if punctuation is not issued.
-
-_3) Are there any errors in the input?_ 
-
-**InputEventsEventDataNullTotal** holds a count of events with null data. <br>
-**InputEventsSerializerErrorsTotal** holds a count of events that could not be deserialized correctly. <br>
-**InputEventsDegradedTotal** holds a count of events that had an issue other than deserialization problems.
-
-_4) Are events getting dropped/adjusted?_ 
-
-**InputEventsEarlyTotal** provides the number of events with an application timestamp before the high watermark. <br>
-**InputEventsLateTotal** provides the number of events with an application timestamp after the high watermark. <br>
-**InputEventsDroppedBeforeApplicationStartTimeTotal** provides the number events dropped before the job start time.
-
-_5) Are we following behind in reading data?_ 
-
-**InputEventsSourcesBackloggedTotal** tells us how many more messages need to be read for EventHub and IoTHub inputs. <br>
 
 _To open a Microsoft Support case_
 
