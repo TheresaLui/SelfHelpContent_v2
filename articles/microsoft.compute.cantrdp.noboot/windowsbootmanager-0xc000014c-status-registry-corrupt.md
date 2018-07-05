@@ -18,7 +18,7 @@
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname-->. We have identified that your VM is currently in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contain Registry data is corrupt, or the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  This can be detected using the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade).<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM, for this issue the screenshot would reflect the error code **0xC000014C**.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -32,14 +32,14 @@ To fix the VM, please follow the troubleshooting steps indicated below:
   * Click on **HKEY_LOCAL_MACHINE** and from the **File** menu select **Load Hive...**.
   * Browse to the the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk.
   * When prompted for a name, use **BROKENSYSTEM**.
-6. Determine state of SYSTEM hive.
+6. Determine state of the SYSTEM hive.
     a. If the hive fails to open with the following error, open a support case.
     ```
     Cannot Load C:\<path to hive>\SYSTEM: Error while loading the hive.
     ```
-    b. If the hive opens up with no issues, then likely the hive was not closed properly, proceed with the next step.
+    b. If the hive opens up with no issues then the hive may not have been closed properly.  Proceed with the next step.
 7. Unload the SYSTEM hive
-8. If as an extra, you want to enable Azure Serial Console then identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
+8. At this time you may want to enable Azure Serial Console, this will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
     * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
     * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
 9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
