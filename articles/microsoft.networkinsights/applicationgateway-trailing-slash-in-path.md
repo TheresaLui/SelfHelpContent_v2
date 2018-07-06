@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Application Gateway - invalid path rule detected"
-	description="Application Gateway - Invalid path rule detected.  Trailing slash detected in path rule"
-	infoBubbleText="Invalid path rule detected.  Trailing slash detected in path rule. See details on the right."
+	pageTitle="Application Gateway - potential issue with path rule detected"
+	description="Application Gateway - potential issue with path rule detected.  Trailing slash detected in path rule"
+	infoBubbleText="Potential issue with path rule detected.  Trailing slash detected in path rule. See details on the right."
 	service="microsoft.network"
 	resource="Application Gateway"
 	authors="cgeisbush"
@@ -14,29 +14,18 @@
 	productPesIds="15922"
 	cloudEnvironments="public"
 />
-#PLACEHOLDER ONLY - REPLACE ALL CONTENT BELOW
-# We have detected degraded back-end server health for your Application Gateway
+
+# We have detected a potential issue with a path-based rule configured on your Application Gateway
 
 <!--issueDescription-->
-Your Azure services appear to be running normally, however we have detected degraded health in the back-end server pool behind your Application Gateway **<!--$GatewayName-->Application Gateway<!--/$GatewayName-->** at **<!--$CurrentTime-->CurrentTime<!--/$CurrentTime--> (UTC)** 
+We have detected a potential issue with a path-based routing rule configured on your Application Gateway.<br>
+- **Application Gateway:** <!--$GatewayName-->Application Gateway<!--/$GatewayName-->
 
-- **Impacted Server:** <!--$BackendSeverAddress-->BackendSeverAddress<!--/$BackendSeverAddress--> 
-- **Health Status:** <!--$HealthStatus-->HealthStatus<!--/$HealthStatus-->
-- **Error Message:** <!--$ErrorDetails-->ErrorDetails<!--/$ErrorDetails-->  
+A rule exists for path **<!--$Path-->Path<!--/$Path-->**, however the Application Gateway URL provided upon creation of your support request contains path **<!--$UrlPath-->UrlPath<!--/$UrlPath-->**.
 
-The Application Gateway cannot reliably load balance requests when the back-end servers experience health issues.  When this occurs, you may not be able to reach the applications serviced by this gateway.
+The presence of a trailing slash (/) in your path may cause undesired path routing.
 <!--/issueDescription-->
 
-In order to FOO, you'll need to BAR.  You can use the following steps to help BLAH. 
+If you experience path-routing issues, try removing the trailing slash from your path-based rule.
 
-
-
-1. Ensure your back-end server is up and running properly. (Exact steps will depend on the OS and service)
-2. Check to ensure that the service can respond with HTTP 200 via alternate paths
-3. If the service cannot respond with HTTP 200 to the Application Gateway probe, troubleshoot network connectivity including:  
-    - Network Security Groups
-    - Route tables
-    - Network performance
-    - General TCP connectivity troubleshooting
-
-For additional help, you can refer to the article [Troubleshooting bad gateway errors in Application Gateway](http://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502)
+For help on creating and editing path-based routing rules, you can refer to the article "[Create an application gateway with path-based routing rules using the Azure portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-portal)"
