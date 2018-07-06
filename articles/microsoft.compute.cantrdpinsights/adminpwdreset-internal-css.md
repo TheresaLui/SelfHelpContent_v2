@@ -26,6 +26,7 @@ Resetting the built-in account password may restore your RDP connectivity to the
 
 * First, ensure that you have the [latest PowerShell module installed and configured](https://docs.microsoft.com/powershell/azure/overview) and are signed in to your Azure subscription with the ```Connect-AzureRmAccount``` cmdlet.
 * Now validate the VM has the VM agent in Ready state by executing the below commands via PowerShell.
+
   ```
   PS C:\WINDOWS\system32> $vm=Get-AzureRmVM -ResourceGroupName MyRG -Name MyVM -Status
   PS C:\WINDOWS\system32> $vm.VMAgent.Statuses
@@ -36,6 +37,7 @@ Resetting the built-in account password may restore your RDP connectivity to the
   Message       : GuestAgent is running and accepting new configurations.
   Time          : 7/3/2018 7:44:45 AM
   ```
+
 * Based on the Agent status, you have 2 options:
 
   * If agent is ready, reset the password via Azure Portal or PowerShell by following the instructions in the article [Reset RDP password](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp).
