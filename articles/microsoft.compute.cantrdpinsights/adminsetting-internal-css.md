@@ -25,6 +25,7 @@ Typically this issue has been seen in the VMs migrated from on-premises or have 
 ## **Recommended Steps**
 * Re-enabling the built-in admin account may restore your RDP connectivity to the VM.
 * In order to enable the built-in admin account, please run the below script on the VM via [Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript):
+
  ```
 $adminAccount = Get-WmiObject Win32_UserAccount -filter "LocalAccount=True" | ? {$_.SID -Like "S-1-5-21-*-500"}
 if($adminAccount.Disabled)
