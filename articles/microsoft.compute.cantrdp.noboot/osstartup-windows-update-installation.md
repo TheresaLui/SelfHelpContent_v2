@@ -36,7 +36,7 @@ If the issue persists, follow the mitigation steps below to recover the VM:
    * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
    * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 6. Ensure there is a 'temp' folder in C:\ drive by executing `C:\dir`, else create one using `C:\md temp`.
-7. Using [DISM](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows) query the updates that are currently installed and pending installation:
+7. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows) query the updates that are currently installed and pending installation:
 
     ```
     dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt
