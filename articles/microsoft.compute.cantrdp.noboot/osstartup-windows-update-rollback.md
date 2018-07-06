@@ -32,16 +32,19 @@ If the issue continues even after a restart please follow the mitigation below:
 4. Identify the boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
 
     *  The Windows partition contains a folder named **Windows**, and this partition is typically larger than the others.
+
 6. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism), query the updates that are currently installed and pending installation:
 
     ```
     dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt
     ```
+
 7. Open the file c:\temp\Patch_level.txt and read it starting from the bottom to the top.  The Windows Update impacting the virtual machine will be listed with the status **Install Pending** or **Uninstall Pending**.
 8. Remove the problematic Windows Updates by performing the following commands for each of the Windows Updates that are in status **Install Pending / Uninstall Pending**.
 
     ```
     dism /Image:<drive letter>:\ /Remove-Package /PackageName:<package to be removed>
-    ```    
+    ```
+
 9. Detach the repaired OS disk from the troubleshooting VM. [Then, swap the OS disk with the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
-10. Start the VM and verify if you are able to connect via RDP.  
+10. Start the VM and verify if you are able to connect via RDP.
