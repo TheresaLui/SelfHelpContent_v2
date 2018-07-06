@@ -37,10 +37,13 @@ Once a Sysprep has been run on a VM, it is considered generalized and it is irre
 7. Ensure the VM is up and is responding to RDP.
 8. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 12 to restore the VM.
 9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
-11. Enable Azure Serial Console by running the following command lines:
+      
+10. Enable Azure Serial Console by running the following command lines:
+
     ```
     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} displaybootmenu yes
     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} timeout 5
@@ -48,5 +51,6 @@ Once a Sysprep has been run on a VM, it is considered generalized and it is irre
     bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
     bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
     ```
-12. Detach the OS disk snapshot from the rescue VM and [swap with the OS disk of the original VM.](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
-13. Ensure the VM is now responding to RDP connectivity.
+
+11. Detach the OS disk snapshot from the rescue VM and [swap with the OS disk of the original VM.](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
+12. Ensure the VM is now responding to RDP connectivity.
