@@ -1,9 +1,9 @@
 <properties
-	pageTitle="How to secure your database"
-	description="How to secure your database"
+	pageTitle="How to secure your data warehouse"
+	description="How to secure your data warehouse"
 	service="microsoft.sql"
 	resource="servers"
-	authors="kasparks"
+	authors="kevinvngo"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# How to secure your database
+# How to secure your data warehouse
 
 ## **Recommended steps**
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.

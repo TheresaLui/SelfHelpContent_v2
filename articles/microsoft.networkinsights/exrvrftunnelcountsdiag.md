@@ -19,5 +19,5 @@ Azure has run diagnostics for this Express Route circuit and found an issue <br>
 An unexpected number of Private VRF tunnel counts are showing on the circuit <br>
 This means...
 
-## Recommended Action
+## **Recommended Action**
 The Azure team found and auto-resolved an issue regarding an unexpected number of Private VRF tunnels on this circuit.

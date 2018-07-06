@@ -16,7 +16,6 @@ productPesIds="15480"
 cloudEnvironments="public" 
 /> 
 # Express Route Circuit Diagnostic Result 
-<!--issueDescription--> 
 Azure has run diagnostics and found an issue; the circuit is in an Unexpected Provisioning State. 
 
 ## Some of the items to check (and correct) are: <br> 

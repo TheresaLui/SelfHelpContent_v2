@@ -21,7 +21,7 @@
 In Intune in the Azure portal, go to either of the following pages to see the status of the wipe:
 
 * Mobile apps > App selective wipe
-* Mobile Apps > Audit log 
+* Mobile apps > Audit log 
 
 Remember, app selective wipes remove data associated to the corporate account. They do not uninstall Office apps. 
 

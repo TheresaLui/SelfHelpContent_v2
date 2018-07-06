@@ -24,10 +24,10 @@ A route filter lets you identify services you want to consume through your Expre
 <br>
 Once a route filter resource is defined and attached to an ExpressRoute circuit, all prefixes that map to the BGP community values are advertised to your network.
  
-## Recommended steps
+## **Recommended steps**
 This is likely failing due to missing route filters <br>
 Please check for/create route filters that you wish to consume <br>
 Once route filters are created, prefixes should populate from the Microsoft edge to the your device.
 
-## Recommended document
+## **Recommended document**
 [Configure route filters for Microsoft Peering](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) <br>

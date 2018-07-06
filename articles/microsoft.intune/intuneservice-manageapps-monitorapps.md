@@ -20,7 +20,7 @@ Let's review a couple common mobile application installation/deployment issues.
 
 **I've made updates to apps but I'm not seeing them in the Company portal app or on the device.**
 
-Sometimes apps fail-to-install because of device-side conditions. This can occur even when the deployment and installation commands work correctly. To ensure the device is in a state to install an app, verify that the device is:
+Sometimes apps fail to install because of device-side conditions. This can occur even when the deployment and installation commands work correctly. To ensure the device is in a state to install an app, verify that the device is:
 
 * Turned on.
 * Charged.
