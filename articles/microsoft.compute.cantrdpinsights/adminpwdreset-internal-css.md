@@ -23,6 +23,7 @@ We have investigated and detected that the built-in administrator account passwo
 
 ## **Recommended Steps**
 Resetting the built-in account password may restore your RDP connectivity to the VM.
+
 * First, ensure that you have the [latest PowerShell module installed and configured](https://docs.microsoft.com/powershell/azure/overview) and are signed in to your Azure subscription with the ```Connect-AzureRmAccount``` cmdlet.
 * Now validate the VM has the VM agent in Ready state by executing the below commands via PowerShell.
   ```
