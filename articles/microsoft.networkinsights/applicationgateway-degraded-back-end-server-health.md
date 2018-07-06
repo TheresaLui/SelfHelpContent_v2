@@ -38,4 +38,4 @@ In order to restore functionality, you'll need to first determine the cause of t
     - Network performance
     - General TCP connectivity troubleshooting
 
-For additional help, you can refer to the article [Troubleshooting bad gateway errors in Application Gateway](http://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502 "Troubleshooting bad gateway errors in Application Gateway")
+For additional help, you can refer to the article [Troubleshooting bad gateway errors in Application Gateway](http://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502)
