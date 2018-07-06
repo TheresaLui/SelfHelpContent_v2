@@ -22,4 +22,4 @@ We have investigated and determined that your virtual machine <!--$vmname-->**[v
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the issue you must rebuild the image and redeploy the VM.  For details on how to do this please refer to [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image), and [Create a managed image of a generalized VM in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource).<br>
+To resolve the issue you must rebuild the image and redeploy the VM.  For details on how to do this please refer to [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image), and [Create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).<br>
