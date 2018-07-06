@@ -32,7 +32,7 @@ To restore connectivity to the VM via RDP, please try the below steps via PowerS
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"```<br>
   ```icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"```<br>
   ```Restart-Service TermService -Force```
-  
+
 * Now ensure that the self-signed certificate is renewed by executing the below commands in the given order.
 
   ```Import-Module PKI```<br>
