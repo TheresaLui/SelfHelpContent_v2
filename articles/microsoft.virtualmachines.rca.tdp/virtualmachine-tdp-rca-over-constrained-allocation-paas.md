@@ -19,7 +19,7 @@
 <!--issueDescription-->
 We have detected that the deployment for cloud service **<!--$csname-->cloud service<!--/$csname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to an [allocation failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures). 
 
-Microsoft Azure partitions compute nodes in a datacenter into various clusters, with each cluster containing about a thousand nodes/blades. The cloud services when deployed get pinned to a single cluster, and don’t currently span across multiple clusters. In some cases, as availability of free blades or free space within a blade in a cluster fluctuates, the constraints to find an allocation for the service may not be not met. When these constraints are not satisfied, we return back the request as a Service Allocation failure. 
+Microsoft Azure partitions compute nodes in a datacenter into various clusters, with each cluster containing about a thousand nodes/blades. The cloud services when deployed get pinned to a single cluster, and don’t currently span across multiple clusters. In some cases, as availability of free blades or free space within a blade in a cluster fluctuates, the constraints to find an allocation for the service may not be not met. When these constraints are not satisfied, we return back the request as a service allocation failure. 
 <!--/issueDescription-->
 
 This issue commonly happens in one of the following scenario:<br>
@@ -37,6 +37,6 @@ For all other causes try these options: <br>
 1. **The ideal solution with zero downtime is to create a new cloud service in the same region and then deploy your service into that new cloud service. See [here](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions) for more details.**<br>
 2. Retry the deployment later. There might have been enough resources freed up on the cluster to allow the deployment or scaling request to succeed. This is the easiest option, but there is no assurance that the deployment will succeed later. <br>
 3. Delete both the production and staging slots from your cloud service, which will unpin the cloud service from a cluster, and then redeploy into that same cloud service. This will incur down time.<br>
-4. If redeploying doesn't work then you may be trying to deploy a combination of VM sizes that aren't supported in a single cluster. In this case you should try to use the VM size supported by cluster where your Cloud Service is pinned. <br>
+4. If redeploying doesn't work then you may be trying to deploy a combination of VM sizes that aren't supported in a single cluster. In this case you should try to use the VM size supported by cluster where your cloud service is pinned. <br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
