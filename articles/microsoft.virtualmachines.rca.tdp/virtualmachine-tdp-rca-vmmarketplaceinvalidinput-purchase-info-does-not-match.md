@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to the plan information specified during deployment was configured but does not match with what was expected for that image.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the plan information specified during deployment was configured but does not match with what was expected for that image.
 <!--/issueDescription-->
 
 To learn more about deploying an image with Marketplace terms and plan:<br>
