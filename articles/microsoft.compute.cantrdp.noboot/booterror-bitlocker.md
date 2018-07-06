@@ -36,10 +36,13 @@ To restore the access to the VM please follow the steps below:
 6. Now to unlock the encrypted drive follow the steps in this [article](https://blogs.msdn.microsoft.com/mast/2016/11/27/azure-disk-encryption-how-to-recover-bek-file-from-azure-key-vault/).
 7. If desired, now is a good time to enable your VM to use [serial console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 11 to restore the VM with the unlocked OS disk.
 8. Run the following command line as an administrator, and then record the identifier of 'Windows Boot Loader' (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
+      
 9. Enable Azure Serial Console by running the following command lines:
+
     ```
     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} displaybootmenu yes
     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} timeout 5
@@ -47,5 +50,6 @@ To restore the access to the VM please follow the steps below:
     bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
     bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
     ```
+    
 10. Detach the repaired OS disk from the troubleshooting VM and [swap with the OS disk of the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
 11. Ensure the VM is now responding to RDP connectivity.
