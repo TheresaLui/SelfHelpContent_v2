@@ -24,8 +24,9 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Windows update installation can take time depending on the number or size of the updates being installed. Allow the VM to go through the process without interruption.
+Windows Update installation can take time depending on the number or size of the updates being installed. Allow the VM to go through the process without interruption.
 * If the VM is in this state for several hours, attempt to restart the VM from the Azure portal.
-* Validate via Boot Diagnostics screenshot if the VM has boot up and you are able to connect to the VM via RDP.<br>
+* Ensure the VM has booted up via the Boot Diagnostics screenshot.
+* Validate if you are able to connect to the VM via RDP.<br>
 
 If the issue persists, a memory dump needs to be collected to continue troubleshooting. If this is the case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.
