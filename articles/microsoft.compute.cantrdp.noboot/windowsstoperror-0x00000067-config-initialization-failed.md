@@ -26,7 +26,7 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 ## **Recommended Steps**
 To recover the VM and restore connectivity, please follow the troubleshooting steps indicated below:
 
-1. Stop/deallocate the VM and save a copy of the OS disk or create a snapshot. Please follow the steps at [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm).
+1. Stop/deallocate the VM and save a copy of the OS disk or create a snapshot. Please follow the steps at [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm).
 2. Attach the copy/snapshot of the OS disk of the VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the Boot partition and the Windows partition.
@@ -68,6 +68,7 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       nx                      OptOut
       bootstatuspolicy        IgnoreAllFailures
       ```
+
 6. Remove the Initial Machine Configuration (IMC) references in the BCD store by executing the below commands. You must replace these placeholders by the actual values:
 
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
@@ -77,6 +78,7 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imcdevice
       bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imchivename
       ```
+
 7. If desired now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 10 to restore the VM.
 8. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
 
