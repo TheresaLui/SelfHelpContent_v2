@@ -40,7 +40,7 @@ To restore the access to the VM please follow the steps below:
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
-      
+ 
 9. Enable Azure Serial Console by running the following command lines:
 
     ```
@@ -50,6 +50,6 @@ To restore the access to the VM please follow the steps below:
     bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
     bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
     ```
-    
+
 10. Detach the repaired OS disk from the troubleshooting VM and [swap with the OS disk of the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
 11. Ensure the VM is now responding to RDP connectivity.
