@@ -41,7 +41,7 @@ Once a Sysprep has been run on a VM, it is considered generalized and it is irre
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
-      
+
 10. Enable Azure Serial Console by running the following command lines:
 
     ```
