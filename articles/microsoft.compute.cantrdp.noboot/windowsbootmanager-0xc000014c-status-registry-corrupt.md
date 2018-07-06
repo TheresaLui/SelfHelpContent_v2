@@ -18,13 +18,13 @@
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM, for this issue the screenshot would reflect the error code **0xC000014C**.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 To fix the VM, please follow the troubleshooting steps indicated below:
-1. Please make a note of the File name and the path from the screenshot from the Virtual Machine <!--$vmname-->[vmname]<!--/$vmname-->
-2. If the File name refers to the file *\Windows\system32\config\SYSTEM* then save a copy of the OS disk, see [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy).
+1. Please make a note of the file name and the path from the screenshot from the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->
+2. If the file name refers to the file *\Windows\system32\config\SYSTEM* then save a copy of the OS disk.  (See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy))
 3. Attach the copy/snapshot of the OS disk of the VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 4. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 5. Mount the SYSTEM hive of your VM. 
