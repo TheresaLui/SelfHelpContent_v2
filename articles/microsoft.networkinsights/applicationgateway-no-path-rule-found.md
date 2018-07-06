@@ -18,7 +18,8 @@
 # We have detected a potential issue with a path-based rule configured on your Application Gateway
 
 <!--issueDescription-->
-We have detected a potential issue with a path-based routing rule configured on your Application Gateway.<br>
+We have detected a potential issue with a path-based routing rule configured on your Application Gateway.
+
 - **Application Gateway:** <!--$GatewayName-->Application Gateway<!--/$GatewayName-->
 - **Rule Name:** <!--$RuleName-->Rule Name<!--/$RuleName-->
 - **URL Path:** <!--$UrlPath-->URL Path<!--/$UrlPath-->
