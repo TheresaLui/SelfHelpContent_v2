@@ -26,7 +26,7 @@ Depending on the number of updates that are installing or going through rollback
 
 If the issue continues even after a restart please follow the mitigation below:
 
-1. Stop/deallocate the VM and save a copy of the OS disk or create a snapshot.  (See [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm))
+1. Stop/deallocate the VM and save a copy of the OS disk or create a snapshot.  (See [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm))
 2. Attach the copy/snapshot of the OS disk as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal)
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 4. Identify the boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
@@ -40,5 +40,5 @@ If the issue continues even after a restart please follow the mitigation below:
     ```
     dism /Image:<drive letter>:\ /Remove-Package /PackageName:<package to be removed>
     ```    
-9. Detach the repaired OS disk from the troubleshooting VM. [Then, swap the OS disk with the original VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/os-disk-swap)
+9. Detach the repaired OS disk from the troubleshooting VM. [Then, swap the OS disk with the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
 10. Start the VM and verify if you are able to connect via RDP.  
