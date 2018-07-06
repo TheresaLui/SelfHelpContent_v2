@@ -25,9 +25,12 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 
 ## **Recommended Steps**
 To restart the VM in normal mode, please try the below steps using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+
 ##### From the Serial Console:
+
 * Query the boot configuration data `bcdedit /enum`
 * The Windows Boot Loader section will show an additional option 'safeboot' indicating its either 'Minimal' or 'Networking' similar to the below output:
+
   ```
   C:\Users\Administrator>bcdedit /enum
 
@@ -63,8 +66,8 @@ To restart the VM in normal mode, please try the below steps using the [serial c
   safeboot                Minimal
   bootstatuspolicy        IgnoreAllFailures
   ems                     Yes
-
   ```
+
 * Remove the flag "safeboot" from this partition by executing `bcdedit /deletevalue {current} safeboot`
 * Exit from the Serial Console and Restart the VM.
-* Verify if you are able to connect via RDP.<br>
+* Verify if you are able to connect via RDP.
