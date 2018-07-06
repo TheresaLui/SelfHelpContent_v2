@@ -26,14 +26,14 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 ## **Recommended Steps**
 Sysprep prepares the VM to be used as an image by removing all your personal and account information from the virtual machine. For details about Sysprep, see [How to Use Sysprep: An Introduction.](http://technet.microsoft.com/library/bb457073.aspx)<br>
 Once a Sysprep has been run on a VM, it is considered generalized and it is irreversible. To restore the virtual machine, follow the steps below:<br>
-1. Delete the VM selecting the Keep the disks option.<br>
-2. Navigate to the image "Images" section in portal, to find the image that was created as a result of the prior capture operation.<br>
+1. Delete the VM selecting the 'Keep the disks' option.<br>
+2. Navigate to the image in the "Images" section in the portal to find the image that was created as a result of the prior capture operation.<br>
 3. Create the VM from that image following the steps at [Create a VM from a managed  image.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 4. Connect to the VM via RDP to see if the issue is resolved.
-5. If the VM still fails to boot with the same error, save a copy of the OS disk, this will help in case of a rollback for recovery, see [Create a copy of a specialized Windows VM running in Azure.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)
+5. If the VM still fails to boot with the same error, save a copy of the OS disk. This will help in case of a rollback for recovery. Follow the steps in the article [Create a copy of a specialized Windows VM running in Azure.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)
 6. Now [create a nested virtualization environment](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/troubleshoot-vm-by-use-nested-virtualization) to mount the OS disk snapshot to complete the user settings and proceed with the next steps as guided by the Sysprep wizard.
 7. Ensure the VM is up and is responding to RDP.
-8. If desired now is a good time to enable your Windows VM to use Azure Serial Console which can help in diagnosing and resolving future issues. [Virtual machine serial console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console), otherwise skip to the step 12 to restore the VM.
+8. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 12 to restore the VM.
 9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
