@@ -18,11 +18,10 @@ cloudEnvironments="public"
 
 # Built-in Administrator account password has expired
 <!--issueDescription-->
-We have investigated and detected that the built-in administrator account password has expired which may prevent RDP onnectivity to the VM.
+We have investigated and detected that the built-in administrator account password has expired which may prevent RDP connectivity to the VM.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-You can use either the Azure portal or the Azure PowerShell to reset the password by following the instructions below:
 * Ensure that you have the [latest PowerShell module installed and configured](https://docs.microsoft.com/powershell/azure/overview) and are signed in to your Azure subscription with the ```Connect-AzureRmAccount``` cmdlet.
 * Now validate the VM has the VM agent in Ready state by executing the below commands via PowerShell.
   ```
