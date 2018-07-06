@@ -37,9 +37,11 @@ If the issue persists, follow the mitigation steps below to recover the VM:
    * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 6. Ensure there is a 'temp' folder in C:\ drive by executing `C:\dir`, else create one using `C:\md temp`.
 7. Using [DISM](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows) query the updates that are currently installed and pending installation:
+
     ```
     dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt
     ```
+
 7. Open the file c:\temp\Patch_level.txt and read it starting from the bottom to the top. The Windows Update impacting the virtual machine will be listed with the status **Install Pending** or **Uninstall Pending**.
 8. Remove the problematic Windows Updates by performing the following commands for each of the Windows Updates that are in status **Install Pending / Uninstall Pending**.
 
