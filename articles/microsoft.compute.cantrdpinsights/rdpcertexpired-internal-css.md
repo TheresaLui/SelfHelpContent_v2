@@ -32,11 +32,11 @@ To restore connectivity to the VM via RDP, please try the below steps via PowerS
   Restart-Service TermService -Force
   ```
 * Now ensure that the self-signed certificate is renewed by executing the below commands in the given order.
-```
-Import-Module PKI
-Set-Location Cert:\LocalMachine
-$RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)
-Remove-Item -Path $RdpCertThumbprint
-Stop-Service -Name "SessionEnv"
-Start-Service -Name "SessionEnv"
-```
+  ```
+  Import-Module PKI
+  Set-Location Cert:\LocalMachine
+  $RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)
+  Remove-Item -Path $RdpCertThumbprint
+  Stop-Service -Name "SessionEnv"
+  Start-Service -Name "SessionEnv"
+  ```
