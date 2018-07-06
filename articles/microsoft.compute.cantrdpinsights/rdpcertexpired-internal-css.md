@@ -22,21 +22,26 @@ We have investigated and detected that the self-signed certificate associated wi
 
 ## **Recommended Steps**
 To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+
 ##### From the Serial Console:
+
 * Execute the following set of commands in the given order to reset the permission levels on the MachineKey folder and the RSA files to default. This folder is used to store certificate key pairs for the system and its users :
+
   ```
-  takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r
-  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"
-  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"
-  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"
-  Restart-Service TermService -Force
+  takeown /f "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /a /r<br>
+  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\System:(F)"<br>
+  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "NT AUTHORITY\NETWORK SERVICE:(R)"<br>
+  icacls C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys /t /c /grant "BUILTIN\Administrators:(F)"<br>
+  Restart-Service TermService -Force<br>
   ```
+  
 * Now ensure that the self-signed certificate is renewed by executing the below commands in the given order.
+
   ```
-  Import-Module PKI
-  Set-Location Cert:\LocalMachine
-  $RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)
-  Remove-Item -Path $RdpCertThumbprint
-  Stop-Service -Name "SessionEnv"
-  Start-Service -Name "SessionEnv"
+  Import-Module PKI<br>
+  Set-Location Cert:\LocalMachine<br>
+  $RdpCertThumbprint = 'Cert:\LocalMachine\Remote Desktop\'+((Get-ChildItem -Path 'Cert:\LocalMachine\Remote Desktop\').thumbprint)<br>
+  Remove-Item -Path $RdpCertThumbprint<br>
+  Stop-Service -Name "SessionEnv"<br>
+  Start-Service -Name "SessionEnv"<br>
   ```
