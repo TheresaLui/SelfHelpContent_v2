@@ -31,7 +31,7 @@ If the issue continues even after a restart please follow the mitigation below:
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 4. Identify the boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is both the Boot partition and the Windows partition.
     *  The Windows partition contains a folder named **Windows**, and this partition is typically larger than the others.
-6. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism) query the updates that are currently installed and pending installation:
+6. Using [DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism), query the updates that are currently installed and pending installation:
     ```
     dism /image:<drive letter>:\ /get-packages > c:\temp\Patch_level.txt
     ```
