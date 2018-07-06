@@ -40,7 +40,7 @@ To restore the access to the VM please follow the steps below:
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
- 
+
 9. Enable Azure Serial Console by running the following command lines:
 
     ```
