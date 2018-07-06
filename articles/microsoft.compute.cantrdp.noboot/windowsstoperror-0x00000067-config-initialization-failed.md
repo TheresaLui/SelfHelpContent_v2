@@ -25,6 +25,7 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 
 ## **Recommended Steps**
 To recover the VM and restore connectivity, please follow the troubleshooting steps indicated below:
+
 1. Stop/deallocate the VM and save a copy of the OS disk or create a snapshot. Please follow the steps at [Create a copy or snapshot of the OS disk of an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/create-vm-specialized#option-3-copy-an-existing-azure-vm).
 2. Attach the copy/snapshot of the OS disk of the VM as a data disk to another VM (a troubleshooting VM). For more information, see [How to attach a data disk to a Windows VM in the Azure portal](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal).
 3. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned.
