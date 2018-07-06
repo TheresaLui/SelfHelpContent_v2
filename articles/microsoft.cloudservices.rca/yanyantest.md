@@ -37,10 +37,12 @@ Once a Sysprep has been run on a VM, it is considered generalized and it is irre
 7. Ensure the VM is up and is responding to RDP.
 8. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 12 to restore the VM.
 9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
 11. Enable Azure Serial Console by running the following command lines:
+
      ```
      bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} displaybootmenu yes
      bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} timeout 5
