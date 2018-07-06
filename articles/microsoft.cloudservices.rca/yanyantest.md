@@ -1,13 +1,13 @@
 <properties
-pageTitle="VM boot error"
-description="Virtual machine failed as it is expecting 'user inputs' on the console screen"
-infoBubbleText="A boot error has been found. See details on the right."
+pageTitle="Password Expired"
+description="Administrator account password expired"
+infoBubbleText="Built-in Administrator account password has expired"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
 displayOrder=""
-articleId="OSStartUp-OOBE-yanyanTest"
-diagnosticScenario="booterror"
+articleId="vmhealthsignal_e78569b2-cde5-488b-acc4-c79a307c12c9"
+diagnosticScenario="Admini password expired"
 selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
@@ -15,40 +15,28 @@ productPesIds="14749"
 cloudEnvironments="public"
 />
 
-# VM boot error
-<!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state due to windows failing to boot and the OS is waiting for user inputs on the screen. This issue occurs due to an incorrect or unsuccessful attempt to generalize the VM via Sysprep.
 
-If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
+# Built-in Administrator account password has expired
+<!--issueDescription-->
+We have investigated and detected that the built-in administrator account password has expired which may prevent RDP connectivity to the VM.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
+Resetting the built-in account password may restore your RDP connectivity to the VM.
 
-Sysprep prepares the VM to be used as an image by removing all your personal and account information from the virtual machine. For details about Sysprep, see [How to Use Sysprep: An Introduction.](http://technet.microsoft.com/library/bb457073.aspx)<br>
-Once a Sysprep has been run on a VM, it is considered generalized and it is irreversible. To restore the virtual machine, follow the steps below:
+* First, ensure that you have the [latest PowerShell module installed and configured](https://docs.microsoft.com/powershell/azure/overview) and are signed in to your Azure subscription with the ```Connect-AzureRmAccount``` cmdlet.
+* Now validate the VM has the VM agent in Ready state by executing the below commands via PowerShell.
 
-1. Delete the VM selecting the 'Keep the disks' option.<br>
-2. Navigate to the image in the "Images" section in the portal to find the image that was created as a result of the prior capture operation.
-3. Create the VM from that image following the steps at [Create a VM from a managed  image.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)
-4. Connect to the VM via RDP to see if the issue is resolved.
-5. If the VM still fails to boot with the same error, save a copy of the OS disk. This will help in case of a rollback for recovery. Follow the steps in the article [Create a copy of a specialized Windows VM running in Azure.](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized)
-6. Now [create a nested virtualization environment](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/troubleshoot-vm-by-use-nested-virtualization) to mount the OS disk snapshot to complete the user settings and proceed with the next steps as guided by the Sysprep wizard.
-7. Ensure the VM is up and is responding to RDP.
-8. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 12 to restore the VM.
-9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+  ```
+  PS C:\WINDOWS\system32> $vm=Get-AzureRmVM -ResourceGroupName MyRG -Name MyVM -Status
+  PS C:\WINDOWS\system32> $vm.VMAgent.Statuses
 
-      ```
-      bcdedit /store [Boot partition]:\boot\bcd /enum
-      ```
-11. Enable Azure Serial Console by running the following command lines:
-
-     ```
-     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} displaybootmenu yes
-     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} timeout 5
-     bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} bootems yes
-     bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
-     bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
-     ```
-12. Detach the OS disk snapshot from the rescue VM and [swap with the OS disk of the original VM.](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap)
-13. Ensure the VM is now responding to RDP connectivity.
+  Code          : ProvisioningState/succeeded
+  Level         : Info
+  DisplayStatus : Ready
+  Message       : GuestAgent is running and accepting new configurations.
+  Time          : 7/3/2018 7:44:45 AM
+  ```
+* Based on the Agent status, you have 2 options:
+  * If agent is ready, reset the password via Azure Portal or PowerShell by following the instructions in the article [Reset RDP password](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp).
+  * In case the agent is not ready, follow the instructions at [Reset local password without Azure Guest agent](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)
