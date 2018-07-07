@@ -19,18 +19,15 @@
 
 ## **Role Recycle incident diagnostic information** ##
 
-We attempt to start **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->** instance of your role **<!--$RoleName-->RoleName<!--/$RoleName-->** last at  **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  but it failed. 
-We ran diagnostic on your resource and found that the **Startup task <!--$StartupTaskName-->StartupTaskName<!--/$StartupTaskName--> is exiting with nonzero error level** which is blocking the Role to be in Ready state. 
-To learn more about this problem and how to troubleshoot it please refer to the following link.
-[Role Recycling due to error in Startup task](https://blogs.msdn.microsoft.com/kwill/2013/08/26/troubleshooting-scenario-2-role-recycling-after-running-fine-for-2-weeks/).<br>
+We attempted to start **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->** instance of your role **<!--$RoleName-->RoleName<!--/$RoleName-->** at  **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  and it failed to start.
+We ran diagnostic on your resource and found that the **Startup task <!--$StartupTaskName-->StartupTaskName<!--/$StartupTaskName--> is exiting with nonzero error level** which is blocking the Role to be in Ready state.
 
 <!--/issueDescription-->
-
 Startup tasks are actions taken before your roles begin and are defined in the ServiceDefinition.csdef file by using the \<Task\> element within the \<Startup\> element. Startup tasks must end with an errorlevel (or exit code) of zero for the startup process to complete. If a startup task ends with a non-zero errorlevel, the role will not start.<br>
 
-To learn more about this problem and how to troubleshoot it please refer to the following link.<br>
+To learn more about this problem and how to troubleshoot it please refer to the following article.<br>
 * [Role recycling due to error in startup task](https://blogs.msdn.microsoft.com/kwill/2013/08/26/troubleshooting-scenario-2-role-recycling-after-running-fine-for-2-weeks/).<br>
-<!--/issueDescription-->
+
 
 To learn more about Startup Tasks, please refer to the following articles:<br>
 * [Cloud Services Startup tasks](https://docs.microsoft.com/azure/cloud-services/cloud-services-startup-tasks)<br>
@@ -38,4 +35,3 @@ To learn more about Startup Tasks, please refer to the following articles:<br>
 
 To learn more about Startup tasks best practices, please refer to the following article:<br>
 * [Startup tasks best practices](https://docs.microsoft.com/azure/cloud-services/cloud-services-startup-tasks-common#task-best-practices)<br>
-
