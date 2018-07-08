@@ -6,7 +6,7 @@
     resource="virtualmachines"
     authors="ram-kakani"
     displayOrder=""
-    articleId="BootError-BITLOCKER"
+    articleId="BootError--BITLOCKER"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
@@ -17,8 +17,8 @@
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because windows failed to boot with error code **Plug in the USB drive that has the Bitlocker key**.
+## **Boot error found for your virtual machine**
+We have investigated and identified that your VM is in an inaccessible state because windows failed to boot with error code **Plug in the USB drive that has the Bitlocker key**.
 
 This behavior is observed if the process of retrieving the BEK files from the BEK volume on the Azure platform has encountered issues while starting a VM using the [Azure Disk Encryption extension](https://docs.microsoft.com/azure/security/azure-security-disk-encryption).
 
