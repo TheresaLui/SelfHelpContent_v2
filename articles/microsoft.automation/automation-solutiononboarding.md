@@ -6,7 +6,7 @@
     resource="automationaccounts"
     authors="khughes"
     displayOrder=""
-    selfHelpType=""
+    selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""

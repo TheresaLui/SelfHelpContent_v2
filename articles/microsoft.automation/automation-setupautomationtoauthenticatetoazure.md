@@ -5,6 +5,7 @@
 	resource="automationaccounts"
 	authors="adoylemsft"
 	displayOrder=""
+    selfHelpType="resource"
 	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""

@@ -5,6 +5,7 @@
 	resource="automationaccounts"
 	authors="kasparks"
 	displayOrder=""
+    selfHelpType="resource"
 	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
