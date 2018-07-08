@@ -4,8 +4,8 @@
 	service="microsoft.automation"
 	resource="automationaccounts"
 	authors="kasparks"
-	displayOrder="1"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
@@ -16,5 +16,4 @@
 
 ## **Recommended documents**
 [About DSC](https://azure.microsoft.com/documentation/articles/automation-dsc-overview/)<br>
-[DSC Gotchas](https://azure.microsoft.com/documentation/articles/automation-dsc-overview/#gotchas-known-issues)<br>
-[Troubleshoot common errors when using DSC](https://azure.microsoft.com/documentation/articles/automation-troubleshooting-automation-errors/#troubleshoot-common-errors-when-working-with-desired-state-configuration-dsc)
+[Troubleshoot common errors when using DSC](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/desired-state-configuration)
