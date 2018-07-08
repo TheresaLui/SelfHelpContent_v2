@@ -19,8 +19,8 @@
 
 ## **Role Recycle incident diagnostic information** ##
 
-We attempted to start **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->** instance of your role **<!--$RoleName-->RoleName<!--/$RoleName-->** at  **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  and it failed to start.
-We ran diagnostic on your resource and found that the **Startup task <!--$StartupTaskName-->StartupTaskName<!--/$StartupTaskName--> is exiting with nonzero error level** which is blocking the Role to be in Ready state.
+We attempted to start **<!--$ListRoleInstanceName-->ListRoleInstanceName<!--/$ListRoleInstanceName-->** instance of your Cloud Service role **<!--$RoleName-->RoleName<!--/$RoleName-->** at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)**  and it failed to start.
+We ran diagnostics on your resource and found that the **Startup task <!--$StartupTaskName-->StartupTaskName<!--/$StartupTaskName--> is exiting with non-zero error level** which is blocking the role to be in ready state.
 
 <!--/issueDescription-->
 Startup tasks are actions taken before your roles begin and are defined in the ServiceDefinition.csdef file by using the \<Task\> element within the \<Startup\> element. Startup tasks must end with an errorlevel (or exit code) of zero for the startup process to complete. If a startup task ends with a non-zero errorlevel, the role will not start.<br>
