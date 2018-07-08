@@ -29,7 +29,7 @@ To learn more about this problem and how to troubleshoot it please refer to the 
 * [Role recycling due to error in startup task](https://blogs.msdn.microsoft.com/kwill/2013/08/26/troubleshooting-scenario-2-role-recycling-after-running-fine-for-2-weeks/).<br>
 
 
-To learn more about Startup Tasks, please refer to the following articles:<br>
+To learn more about Startup tasks, please refer to the following articles:<br>
 * [Cloud Services Startup tasks](https://docs.microsoft.com/azure/cloud-services/cloud-services-startup-tasks)<br>
 * [Commonly used Startup tasks](https://docs.microsoft.com/azure/cloud-services/cloud-services-startup-tasks-common)
 
