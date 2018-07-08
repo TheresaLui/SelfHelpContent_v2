@@ -6,7 +6,6 @@
 	authors="adoylemsft"
 	displayOrder=""
     selfHelpType="resource"
-	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""

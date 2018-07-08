@@ -6,7 +6,6 @@
 	authors="kasparks"
 	displayOrder=""
     selfHelpType="resource"
-	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
