@@ -15,5 +15,5 @@
 # Problems working with PowerShell modules
 
 ## **Recommended documents**
-[Troubleshoot common errors when importing modules](https://docs.microsoft.com/en-us/azure/automation/automation-troubleshooting-automation-errors#common-errors-when-importing-modules)<br>
-[Overview of modules in Automation](https://docs.microsoft.com/en-us/azure/automation/automation-integration-modules)
+[Troubleshoot common errors when importing modules](https://docs.microsoft.com/azure/automation/automation-troubleshooting-automation-errors#common-errors-when-importing-modules)<br>
+[Overview of modules in Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)
