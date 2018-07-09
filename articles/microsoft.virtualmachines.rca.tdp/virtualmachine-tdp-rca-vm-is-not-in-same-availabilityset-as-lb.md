@@ -21,8 +21,10 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 <!--/issueDescription-->
 
 For additional information regarding load balancers, please read the following document:<br>
-* [Using Azure Resource Manager Support with Azure Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-arm)<br>
 
-For additional ARM template examples, please read the following articles:<br>
-* [Two VMs in VNET - Internal Load Balancer and LB rules](https://azure.microsoft.com/en-us/resources/templates/201-2-vms-loadbalancer-lbrules/)<br>
-* [2 VMs in VNET - Internal Load Balancer and LB rules](https://azure.microsoft.com/en-us/resources/templates/201-2-vms-internal-load-balancer/)
+* [Using Azure Resource Manager Support with Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-arm)<br>
+
+For additional ARM template examples, please review the following templates:<br>
+
+* [Load Balancer with two VIPs, each with one LB rule](https://azure.microsoft.com/resources/templates/101-loadbalancer-with-multivip/)<br>
+* [Two VMs in VNET - Internal Load Balancer and LB rules](https://azure.microsoft.com/resources/templates/201-2-vms-loadbalancer-lbrules/)

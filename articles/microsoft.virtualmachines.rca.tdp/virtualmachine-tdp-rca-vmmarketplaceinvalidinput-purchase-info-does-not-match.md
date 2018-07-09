@@ -21,5 +21,6 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 <!--/issueDescription-->
 
 To learn more about deploying an image with Marketplace terms and plan:<br>
+
 * Understanding how to configure Marketplace plan information correctly for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#deploy-an-image-with-marketplace-terms) and [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#deploy-an-image-with-marketplace-terms)<br>
-* Learn more about how to set Plan Information [via the ARM API](https://docs.microsoft.com/rest/api/compute/virtualmachines/createorupdate#plan)
+* Learn more about how to set Marketplace plan information [via the ARM API](https://docs.microsoft.com/rest/api/compute/virtualmachines/createorupdate#plan)
