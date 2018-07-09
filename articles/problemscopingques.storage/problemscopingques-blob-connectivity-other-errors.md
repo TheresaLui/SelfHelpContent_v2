@@ -35,7 +35,6 @@
 			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
 			"required": false
 		}, {
-			
 			"id": "additional_details",
 			"order": 4,
 			"controlType": "multilinetextbox",

@@ -45,6 +45,11 @@
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					},
+			"dropdownOptions": [{
+					"value": "NoFileShare",
+					"text": "Not specific to a File Share"
+				}
+			],	
 			"required": false
 		}, {
 			"id": "problem_start_date",
