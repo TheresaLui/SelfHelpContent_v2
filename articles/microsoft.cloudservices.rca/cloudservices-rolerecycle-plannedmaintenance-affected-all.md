@@ -27,7 +27,7 @@ This planned maintenance update required a reimage of your role instance to appl
 * [Windows Azure Disk Partition Preservation](https://blogs.msdn.microsoft.com/kwill/2012/10/05/windows-azure-disk-partition-preservation/)<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you have two or more instances for each of your web\worker roles.<br>
-To learn more about planned maintenance events that can impact the availability of your Cloud Service, their Notifications and mitigation strategy, please refer to the following article:<br>
+To learn more about planned maintenance events that can impact the availability of your Cloud Service, receiving notifications when these events occur, and mitigation strategies to minimize their impact on your Cloud Services, please refer to the following article:<br>
 * [Role Instance restarts due to Planned Maintenance](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
 
 To learn more about all the past guest OS releases and their corresponding security updates, please refer to the following articles:<br>
