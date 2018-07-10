@@ -16,11 +16,11 @@
 />
 # We ran diagnostics on your resource and found an ongoing scale issue.
 
-**Summary of issue**
+**Summary of issue**<br>
 You have initiated an scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
 This operation is proceeding slowly due to user workload on the database.
 
-**Root cause investigation**
+**Root cause investigation**<br>
 Slow copy can be due to various factors, like database size or database having too high CPU/IO. The scale process is implemented as a copy between instances with different resource allocations, and that copy depends on CPU and IO resources on the source database. If the database is under high resource utilization from user workload, then the copy proceeds very slowly. The copy is designed to not interfere with user workload and thus throttles its rate in this situation. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
 
 ## **Recommended steps**
