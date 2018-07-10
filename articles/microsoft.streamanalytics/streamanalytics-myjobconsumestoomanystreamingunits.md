@@ -4,7 +4,7 @@
 	service="microsoft.streamanalytics"
 	resource="streamingjobs"
 	authors="samacha"
-	displayOrder="3"
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""

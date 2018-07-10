@@ -9,7 +9,7 @@
     supportTopicIds="32511221"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Storm binaries and configuration files

@@ -9,7 +9,7 @@
     supportTopicIds="32511189"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Exporting Hive metastore and importing it on another cluster

@@ -6,7 +6,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32542209"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Creating or deleting resource

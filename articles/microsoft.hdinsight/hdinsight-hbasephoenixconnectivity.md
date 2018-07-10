@@ -9,7 +9,7 @@
     supportTopicIds="32511183"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Unable to connect to Apache Phoenix

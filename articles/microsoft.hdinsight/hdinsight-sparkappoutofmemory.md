@@ -9,7 +9,7 @@
     supportTopicIds="32511213"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # Spark application failed with OutOfMemoryError

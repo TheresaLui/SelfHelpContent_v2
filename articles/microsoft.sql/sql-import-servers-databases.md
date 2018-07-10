@@ -15,4 +15,4 @@
 # import/export service/import
 
 ## **Recommended documents**
-[Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
+[Import a BACPAC file to a new Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-import)

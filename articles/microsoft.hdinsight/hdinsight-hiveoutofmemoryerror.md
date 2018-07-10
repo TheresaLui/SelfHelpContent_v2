@@ -9,7 +9,7 @@
     supportTopicIds="32511188"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # I see 'Out of Memory' errors when using Hive

@@ -9,7 +9,7 @@
 	supportTopicIds="32392789"
 	resourceTags=""
 	productPesIds="15614"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # client sdk issues/rest api
