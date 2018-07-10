@@ -14,15 +14,20 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an ongoing scale issue.
 
-<!--issueDescription-->
+## **Summary of issue**
 You have initiated an scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
+This operation is proceeding slowly due to user workload on the database.
 
-This operation is proceeding very slowly. Slow copy can be due to various factors, like database size or database having too high CPU/IO. The scale process is implemented as a copy between instances with different resource allocations, and that copy depends on CPU and IO resources on the source database. If the database is under high resource utilization from user workload, then the copy proceeds very slowly. The copy is designed to not interfere with user workload and thus throttles its rate in this situation. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
+## **Root cause investigation**
+Slow copy can be due to various factors, like database size or database having too high CPU/IO. The scale process is implemented as a copy between instances with different resource allocations, and that copy depends on CPU and IO resources on the source database. If the database is under high resource utilization from user workload, then the copy proceeds very slowly. The copy is designed to not interfere with user workload and thus throttles its rate in this situation. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
 
 ## **Recommended steps**
 Please reduce the workload on your database to reduce throttling of the scale operation. </br>
 
 ## **Recommended documents**
-[Azure SQL database DTU resource limits](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dtu-resource-limits/)<br>
+[Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
+[Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)<br>
+[Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
+[Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)<br>
