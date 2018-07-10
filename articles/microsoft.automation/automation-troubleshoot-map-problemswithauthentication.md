@@ -4,7 +4,7 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand"
-    displayOrder="4"
+    displayOrder="14"
     selfHelpType="resource"
     productPesIds=""
     supportTopicIds=""
