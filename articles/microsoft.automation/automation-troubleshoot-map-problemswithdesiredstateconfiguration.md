@@ -32,3 +32,4 @@ The following documents can help you to resolve some of the most common issues i
 
 ## **Recommended documents**
 [Desired State Configuration (DSC) overview](https://docs.microsoft.com/azure/automation/automation-dsc-overview)
+

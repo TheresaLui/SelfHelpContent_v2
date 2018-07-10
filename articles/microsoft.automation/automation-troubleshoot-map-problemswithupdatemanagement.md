@@ -36,3 +36,4 @@ The following documents can help you to resolve some of the most common issues i
 [Enable Update Management for Azure virtual machines](https://docs.microsoft.com/azure/automation/manage-update-multi#enable-update-management-for-azure-virtual-machines)<br>
 [Enable Update Management for non-Azure machines](https://docs.microsoft.com/azure/automation/manage-update-multi#enable-update-management-for-non-azure-virtual-machines-and-computers)
 
+

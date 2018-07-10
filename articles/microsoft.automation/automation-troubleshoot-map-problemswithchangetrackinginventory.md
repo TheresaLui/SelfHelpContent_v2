@@ -35,3 +35,4 @@ The following documents can help you to resolve some of the most common issues i
 [Change Tracking overview](https://docs.microsoft.com/azure/automation/automation-change-tracking)<br>
 [Inventory overview](https://docs.microsoft.com/azure/automation/automation-vm-inventory)<br>
 [Enable Change Tracking and Inventory](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account)
+
