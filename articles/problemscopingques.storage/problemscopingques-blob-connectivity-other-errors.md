@@ -14,7 +14,7 @@
 	"resourceRequired": true,
 	"title": "Blob connectivity other blob service errors scoping question",
 	"fileAttachmentHint": "",
-	"formElements": [{	
+	"formElements": [{
 			"id": "problem_start_date",
 			"order": 1,
 			"controlType": "datetimepicker",

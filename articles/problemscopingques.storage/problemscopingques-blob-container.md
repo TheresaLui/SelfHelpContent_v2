@@ -49,7 +49,7 @@
 					"value": "NoBlobContainer",
 					"text": "Not specific to a Container"
 				}
-			],		
+			],
 			"required": false
 		}, {
 			"id": "blob_name",
