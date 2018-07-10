@@ -18,7 +18,7 @@
 			"id": "problem_start_date",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabe": "Approximate start time of the most recent occurrence",
+			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": true
 		}, {
 			"id": "error_code_message",
