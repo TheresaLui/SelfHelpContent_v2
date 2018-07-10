@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Performance issue on blob"
-	description="Performance issue on blob scoping question"
+	pageTitle="Connectivity issue on blob"
+	description="Connectivity issue on blob scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602726,32602727"
+	supportTopicIds="32602725,32602734,32602735"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Blob performance issue
+# Blob connectivity issue
 ---
 {
 	"resourceRequired": true,
-	"title": "Performance issue on blob scoping question",
+	"title": "Connectivity issue on blob scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_date",
