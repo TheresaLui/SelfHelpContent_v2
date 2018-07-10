@@ -3,7 +3,7 @@
     description="Problems working with hybrid runbook workers"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="105"
     selfHelpType="resource"
     productPesIds=""

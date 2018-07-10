@@ -3,7 +3,7 @@
     description="Problems enabling or using Change Tracking and Inventory"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="106"
     selfHelpType="resource"
     productPesIds=""

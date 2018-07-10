@@ -3,7 +3,7 @@
     description="Problems working with PowerShell modules"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="103"
     selfHelpType="resource"
     productPesIds=""

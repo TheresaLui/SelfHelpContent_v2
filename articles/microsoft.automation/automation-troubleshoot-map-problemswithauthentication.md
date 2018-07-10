@@ -3,7 +3,7 @@
     description="Problems with Run As accounts and authentication in runbooks"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="104"
     selfHelpType="resource"
     productPesIds=""

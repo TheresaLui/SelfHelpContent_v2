@@ -3,7 +3,7 @@
     description="Problems enabling or using Desired State Configuration (DSC)"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="107"
     selfHelpType="resource"
     productPesIds=""

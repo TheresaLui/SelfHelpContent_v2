@@ -3,7 +3,7 @@
     description="Problems enabling or using Update Management"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="102"
     selfHelpType="resource"
     productPesIds=""

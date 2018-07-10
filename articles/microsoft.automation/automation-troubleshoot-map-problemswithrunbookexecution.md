@@ -3,7 +3,7 @@
     description="Problems with runbook jobs that fail or suspend"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand"
+    authors="csand-msft"
     displayOrder="101"
     selfHelpType="resource"
     productPesIds=""
