@@ -18,7 +18,7 @@
 # Your virtual machine was paused for a memory-preserving update
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime-->, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName--> was paused for a memory-preserving update.
+At <!--$startTime--> startTime <!--/$startTime--> UTC, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName--> was paused for a memory-preserving update.
 <!--/issueDescription-->
 
 Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. These updates range from patching software components in the hosting environment (like operating system, hypervisor, and various agents deployed on the host), upgrading networking components, to hardware decommissioning. The majority of these updates do not require a restart of the virtual machine. Instead, they are applied by simply pausing the virtual machines for a few seconds.
