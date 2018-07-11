@@ -16,6 +16,7 @@
 # Recover deleted Container
 ## **Recommended steps**
 Container recovery is only possible on Container deleted less than 14 days ago and the Storage Account is configured with the following replication option:<br>
+
 - [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs)<br>
 - [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage)<br>
 
