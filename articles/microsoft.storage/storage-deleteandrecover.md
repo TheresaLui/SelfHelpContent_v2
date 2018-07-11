@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="malihaqu"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
