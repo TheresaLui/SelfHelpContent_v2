@@ -22,10 +22,12 @@ We have detected that your SQL Data Warehouse instance (server **<!--$ServerName
 
 We estimate the rollback should complete in **<!--$RecoveryEstimate--> RecoveryEstimate <!--/$RecoveryEstimate-->** hours from now, and your instance will be available again. 
 
-If desired, we can restore a parallel instance from a backup taken prior to the large transaction. You can use this second instance in a temporary manner, or rollback your workload and permanently use it. Please restore documentation for the required steps:
+### **Recommended documents**
 
-> [Restore Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-database-portal)
+We recommend allowing existing transactions to finish before you initiate a pause or scale operation. 
 
-One of the ways to avoid this in the future is to ensure that there are no long running transactions before you start a scale operation. Also, we suggest you to review transaction optimization guidance to minimize logging and thus avoid long running recovery: 
+> [Pausing and resuming compute](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-compute-overview#pausing-and-resuming-compute)
+
+Optimizing your transactions will also help to minimize logging and avoid long running recovery.
 
 > [Optimizing transactions in Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-best-practices-transactions) 
