@@ -8,4 +8,5 @@
 	cloudEnvironments="public"
 />
 # Exchanges and Refunds
-*	Note: Exchange and Refund requests are managed via the Reservation overview blade to capture reservation details accurately. Please raise service request from <a href="https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=Reservations&Microsoft_Azure_Reservations=true#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade">Reservation Blade</a>.
+*	**Note:** Exchange and Refund requests are managed via the Reservation overview blade to capture reservation details accurately. Please raise service request from [Reservation Blade](https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=Reservations&Microsoft_Azure_Reservations=true#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)<br>
+More information on how to raise Exchange and Refund requests can be found [here](https://docs.microsoft.com/en-us/partner-center/azure-reservations-manage)
