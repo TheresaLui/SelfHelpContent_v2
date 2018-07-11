@@ -6,9 +6,9 @@
 	authors="malihaqu"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602689,32602694,32602701,32602712"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15629,16459"
+	productPesIds=""
 	cloudEnvironments="public,MoonCake"
 />
 
