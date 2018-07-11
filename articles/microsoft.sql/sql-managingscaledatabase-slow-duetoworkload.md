@@ -8,7 +8,7 @@
 	displayOrder="16"
 	articleId="UpdaSloKillLongRunningTransactions_A5D06371-7DA1-4999-B474-9B020FEB9071"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="Diagnostics"
 	supportTopicIds="32574333"
 	resourceTags="servers, databases"
 	productPesIds="13491"
