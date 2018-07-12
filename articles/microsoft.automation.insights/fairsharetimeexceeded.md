@@ -2,7 +2,7 @@
 <!-- This is the title of my solution - This is not presented in the portal -->
 # Runbook failed because it exceeded the fair share time limit
 <!--issueDescription-->
-## **Runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, exceeded the fair share time limit**
+## **A runbook failed after exceeding the fair share time limit**
 We have investigated and identified that your runbook <!--$RunbookName-->[RunbookName]<!--/$RunbookName--> failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the last 5 days. It exceeded the 180 min fair share time limit.<br>
 ### ***Recommended Steps***
 #### ***Execute the runbook using a Hybrid Worker***
