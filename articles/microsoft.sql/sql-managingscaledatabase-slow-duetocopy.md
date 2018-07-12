@@ -18,10 +18,10 @@
 
 **Summary of issue**<br>
 You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. <br>
-This operation is proceeding slowly due to slow copy. 
+This operation is delayed due to slow copy of data between source and target performance tiers. 
 
 **Root cause investigation**<br>
-The change of performance tier operation takes variable amount of time depending on the mechanism used for the change. In some cases, the change can be done without copying data, which is very quick - takes less than 5 minutes. In others, unfortunately, it requires a copy, which proportional to the database size. Please refer links below, which document the maximum expected duration as 6 hours for Standard tier  operations, which is how long a copy of the largest allowed database size on the smallest / least performant performance tier would take. For scale-up operations within Premium tiers, you can expect copying to last upto 3 hours. We are working on several improvements including a) reducing how often copy is required, and b) introducing pause/resume capability which can be used instead of scale, and is expected to take less than 5 minutes in all cases.
+The time required to complete an operation to change the performance tier of an Azure SQL Database depends on the mechanism used for the change. In some cases, the change can be done in as little as five minutes without copying data. In other cases unfortunately, it requires a copy, which may take longer depending on the size of the database. The maximum expected duration for even the largest databases is 6 hours for a Standard tier database on the smallest / least performant tier. For scale-up operations within Premium tiers, you can expect copying to last up to 3 hours. We are working on several improvements including a) reducing how often a copy is required, and b) introducing pause/resume capability which can be used instead of scaling, and is expected to take less than 5 minutes in all cases. For more information please refer to the links below.
 
 ## **Recommended documents**
 [Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
