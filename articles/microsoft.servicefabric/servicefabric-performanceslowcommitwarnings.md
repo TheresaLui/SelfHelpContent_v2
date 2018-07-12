@@ -15,3 +15,4 @@
 # performance/slowcommitwarnings
 
 ## **Recommended documents**
+[Service Fabric Performance Metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-event-generation-perf)<br>
