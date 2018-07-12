@@ -6,7 +6,7 @@
 	authors="passaree"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32602741,32602759,32602770,32602763,32602765,32602747"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="MoonCake"
