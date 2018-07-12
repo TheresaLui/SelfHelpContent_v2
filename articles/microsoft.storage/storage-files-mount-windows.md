@@ -13,6 +13,7 @@
 />
 
 # Troubleshooting Azure File Mount issues on Windows
+
 ## **Recommended documents**
 
 **Troubleshooter for mounting errors**

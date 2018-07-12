@@ -13,6 +13,7 @@
 />
 
 # Troubleshooting Azure File dropped or terminated connections
+
 ## **Recommended documents**
 
 **Re-run troubleshooting script for mounting errors**
