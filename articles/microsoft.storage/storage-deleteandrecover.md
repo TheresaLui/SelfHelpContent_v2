@@ -5,10 +5,10 @@
 	resource="storageaccounts"
 	authors="malihaqu"
 	displayOrder=""
-	selfHelpType=""
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15629"
 	cloudEnvironments="public,MoonCake"
 />
 
