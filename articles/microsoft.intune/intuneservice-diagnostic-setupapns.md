@@ -1,7 +1,7 @@
 <properties
 	pageTitle="APNs Diagnostic Setup"
 	description="APNs Diagnostic Setup"
-	infoBubbleText="The Apple Push Notification certificate has not been setup.  Please review the steps on the right to set it up."
+	infoBubbleText="The Apple Push certificate has not been setup.  Please review the steps on the right to set it up."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -19,12 +19,12 @@
 ## Recommended steps
 
 <!--issueDescription-->
-An Apple MDM Push certificate has not been configured on your subscription.  Without an Apple MDM Push certificate configured you'll be unable enroll iOS and MacOS devices.
+An Apple MDM Push certificate has not been configured on your subscription.  Without an Apple MDM Push certificate configured you'll be unable to enroll iOS and MacOS devices.
 <!--/issueDescription-->
 
 Intune enables mobile device management (MDM) of iPads, iPhones, and Mac computers and gives users access to company email and apps. An MDM Push certificate is required for Intune to manage iOS and Mac devices. After you add the certificate to Intune, your users can install the Company Portal app to enroll their devices. You can also set up corporate-owned iOS device management with Apple's Device Enrollment Program or enroll devices using Apple Configurator, for example.
 
-In the [Azure portal](https://portal.azure.com/), choose Device enrollment > Apple Enrollment > Apple MDM Push Certificate, and then follow these steps:
+In the [Azure portal](https://portal.azure.com/), choose Device enrollment > Apple enrollment > Apple MDM Push certificate, and then follow these steps:
 
 **Step 1.** Grant Microsoft permission to send user and device information to Apple.  Select **"I agree."** to give Microsoft permission to send data to Apple.
 

@@ -1,7 +1,7 @@
 <properties
 	pageTitle="APNs Diagnostic Renew"
 	description="APNs Diagnostic Renew"
-	infoBubbleText="Your Apple Push Notification certificate has expired.  Please review steps on the right how to renew it."
+	infoBubbleText="Your Apple Push certificate has expired.  Please review steps on the right how to renew it."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
@@ -26,7 +26,7 @@ The Apple MDM push certificate is valid for one year and must be renewed annuall
 
 The certificate is associated with the Apple ID used to create it. Renew the MDM push certificate with the same Apple ID used to create it.
 
-**Step 1.** In the [Azure portal](https://portal.azure.com/), choose **Device enrollment > Apple Enrollment**, and then **choose the Apple MDM Push Certificate** tile in the details area.  
+**Step 1.** In the [Azure portal](https://portal.azure.com/), choose **Device enrollment > Apple enrollment**, and then **choose the Apple MDM Push certificate** tile in the details area.  
 
 **Step 2.** Choose **Download your CSR** to download and save the request file locally. The file is used to request a trust relationship certificate from the Apple Push Certificates Portal.
 
