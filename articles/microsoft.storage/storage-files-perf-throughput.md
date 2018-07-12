@@ -14,6 +14,7 @@
 
 # Troubleshooting Azure File throughput issues
 ## **Recommended documents**<br>
+
 - [Azure Files scalability and performance targets](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets#azure-files-scale-targets)
 - [Azure Files scalability and performance FAQ](https://docs.microsoft.com/azure/storage/files/storage-files-faq#scale-and-performance)
 
