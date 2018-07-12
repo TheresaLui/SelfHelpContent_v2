@@ -13,13 +13,14 @@
 />
 
 # Troubleshooting Azure File Mount issues on Windows
-## **Recommended documents**<br>
-**Troubleshooter for mounting errors**<br>
+## **Recommended documents**
+
+**Troubleshooter for mounting errors**
 
 - [Step by step guided walkthrough for mounting errors on Windows and Linux](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
 - [Download and run troubleshooting tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
 
-**Windows client problems**<br>
+**Windows client problems**
 
 - [Error Access Denied 53 or Error 67 when attempting to mount an Azure File Share](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-53-error-67-or-error-87-when-you-mount-or-unmount-an-azure-file-share)<br>
 - [Net use was successful but I don’t see the Azure file share mounted in Windows Explorer](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#no-folder-with-a-drive-letter-in-my-computer)<br>

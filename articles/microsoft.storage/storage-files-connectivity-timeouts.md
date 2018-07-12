@@ -14,7 +14,7 @@
 
 # Troubleshooting Azure File timeout issues
 
-## **Recommended documents**<br>
+## **Recommended documents**
 
 - [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#slow-file-copying-to-and-from-azure-files-in-windows)<br>
 - ["Host is down" error on existing file shares, or the shell hangs when doing list commands on the mount point](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error115-operation-now-in-progress-when-you-mount-azure-files-by-using-smb-30)<br>

@@ -13,7 +13,7 @@
 />
 
 # Troubleshooting Azure File latency issues
-## **Recommended documents**<br>
+## **Recommended documents**
 
 - [Files scale and performance FAQ](https://docs.microsoft.com/azure/storage/files/storage-files-faq#scale-and-performance)
 - [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#slow-file-copying-to-and-from-azure-files-in-windows)<br>
