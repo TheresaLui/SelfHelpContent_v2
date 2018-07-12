@@ -36,7 +36,7 @@ We recommend enabling **Virtual Network Gateway Metrics** to monitor and detect 
 
 Microsoft is continuously working to identify and resolve issues proactively.  We will contact you as soon as the issue is mitigated to ensure you're no longer impacted.  Please feel free to reach out with any questions in the meantime.  Again, we apologize for the inconvenience. 
 
-<!--
+<!--$
 ### Yu-shun Comments: 
 * Needs more detail in this one!
 * Closed should be disconnected -- Changed
