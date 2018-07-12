@@ -3,15 +3,15 @@ Title="Runbook Failed"
 description="Runbook failed because fair share time limit was exceeded"
 infoBubbleText="We have detected that your runbook failed because the fair share time limit was exceeded"
 service="microsoft.automation"
-resource="automation"
+resource="runbooks"
 authors="stevechi"
 displayOrder=""
 articleId="fair-share-time-limit-d99142cd-50b0-43af-acec-db23da3f4cbf"
-diagnosticScenario="Runbook Execution"
+diagnosticScenario="RRunbook Execution"
 selfHelpType="diagnostics"
 supportTopicIds="32599859,32599860,32599853"
 resourceTags="windows"
-productPesIds="15607"c
+productPesIds="15607"
 loudEnvironments="public"/>
 <!--This is the title of my solution - This is not presented in the portal-->
 # Runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed because it exceeded the fair share time limit
