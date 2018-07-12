@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an ongoing scale issue.
 
 **Summary of issue**<br>
-You have initiated an scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
+You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
 This operation is proceeding slowly due to user workload on the database.
 
 **Root cause investigation**<br>
