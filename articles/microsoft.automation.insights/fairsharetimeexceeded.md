@@ -1,22 +1,23 @@
-﻿﻿﻿﻿﻿﻿﻿﻿<properties
-pageTitle="Runbook Failed"
-description="Runbook failed because fair share time limit was exceeded"
+<properties
+pageTitle="Runbook failed because it exceeded the fair share time limit"
+description="Runbook failed because it exceeded the fair share time limit"
 infoBubbleText="We have detected that your runbook failed because the fair share time limit was exceeded"
 service="microsoft.automation"
 resource="runbooks"
 authors="stevechi"
 displayOrder=""
 articleId="fair-share-time-limit-d99142cd-50b0-43af-acec-db23da3f4cbf"
-diagnosticScenario="RRunbook Execution"
+diagnosticScenario="Runbook Execution"
 selfHelpType="diagnostics"
 supportTopicIds="32599859,32599860,32599853"
 resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"/>
+
 <!--This is the title of my solution - This is not presented in the portal-->
-# Runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed because it exceeded the fair share time limit
+# Runbook failed because it exceeded the fair share time limit
 <!--issueDescription-->
-## **A runbook failed after exceeding the fair share time limit**
+## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->,  failed after exceeding the fair share time limit**
 We have investigated and identified that your runbook <!--$RunbookName-->[RunbookName]<!--/$RunbookName--> failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the last 5 days. It exceeded the 180 minute fair share time limit.<br>
 ### ***Recommended Steps***
 #### ***Execute the runbook using a Hybrid Worker***
