@@ -5,8 +5,8 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="Anvesha4"
-	displayOrder="16"
-	articleId="UpdaSloKillLongRunningTransactions_A5D06371-7DA1-4999-B474-9B020FEB9071"
+	displayOrder="17"
+	articleId="UpdateSloSlowDuetoWorkload_3208A0BE-EA03-4A0E-B7C9-0A2219299B4F"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	supportTopicIds="32574333"
@@ -17,17 +17,17 @@
 # We ran diagnostics on your resource and found an ongoing scale issue.
 
 **Summary of issue**<br>
-You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
+You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. <br>
 This operation is proceeding slowly due to user workload on the database.
 
 **Root cause investigation**<br>
-Slow copy can be due to various factors, like database size or database having too high CPU/IO. The scale process is implemented as a copy between instances with different resource allocations, and that copy depends on CPU and IO resources on the source database. If the database is under high resource utilization from user workload, then the copy proceeds very slowly. The copy is designed to not interfere with user workload and thus throttles its rate in this situation. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
+The scale operation is implemented as a copy of data between instances with different resource allocations, and it can depend on factors like database size and CPU/IO resources on the source database. The copy operation is designed to not interfere with user workload and thus is significantly throttled when there is user workload on the database. If the database is under high resource utilization from user workload, then copy proceeds very slowly. The scale operation will proceed more rapidly if the user workload is reduced. We are working on improvements to be able to scale up/down a database in a short (minutes) and constant time regardless of workload.
 
 ## **Recommended steps**
-Please reduce the workload on your database to reduce throttling of the scale operation. </br>
+Please reduce the workload on your database to reduce throttling of the scale operation. <br>
 
 ## **Recommended documents**
 [Azure SQL scale single DB resources](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale)<br>
 [Azure SQL scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale)<br>
 [Azure SQL database DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits/)<br>
-[Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)<br>
+[Azure SQL database vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-single-databases/)
