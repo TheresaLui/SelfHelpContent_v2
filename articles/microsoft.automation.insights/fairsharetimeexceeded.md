@@ -14,9 +14,7 @@ supportTopicIds="32599859,32599860,32599853"
 productPesIds="15607"
 cloudEnvironments="public"/>
 
-<!--This is the title of my solution - This is not presented in the portal-->
 # Runbook failed because it exceeded the fair share time limit
-<!--issueDescription-->
 ## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->,  failed after exceeding the fair share time limit**
 We have investigated and identified that your runbook <!--$RunbookName-->[RunbookName]<!--/$RunbookName--> failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the last 5 days. It exceeded the 180 minute fair share time limit.<br>
 ### ***Recommended Steps***
