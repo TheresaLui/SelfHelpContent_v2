@@ -3,7 +3,7 @@
 	description="connectivity/server is unavailable"
 	service="microsoft.sql"
 	resource="servers"
-	authors="rohitna"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980434,32594730"

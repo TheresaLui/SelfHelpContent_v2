@@ -3,7 +3,7 @@
 	description="query execution/performance and time-outs"
 	service="microsoft.sql"
 	resource="servers"
-	authors="rohitna"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980430,32608396"

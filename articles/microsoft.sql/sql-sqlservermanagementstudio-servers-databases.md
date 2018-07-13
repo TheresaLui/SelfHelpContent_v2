@@ -3,7 +3,7 @@
 	description="tools/sql server management studio"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980435,32594736"

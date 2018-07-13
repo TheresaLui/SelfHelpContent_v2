@@ -3,7 +3,7 @@
 	description="connectivity/connection time-outs"
 	service="microsoft.sql"
 	resource="servers"
-	authors="rohitna"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980412,32594710"

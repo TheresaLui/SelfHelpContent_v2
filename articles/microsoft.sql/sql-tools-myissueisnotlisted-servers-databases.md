@@ -3,7 +3,7 @@
 	description="tools/my issue is not listed"
 	service="microsoft.sql"
 	resource="servers"
-	authors="rohitna"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32045131,32594728"

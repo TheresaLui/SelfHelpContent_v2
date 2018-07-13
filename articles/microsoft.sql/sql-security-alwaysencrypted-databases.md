@@ -3,7 +3,7 @@
 	description="security/always encrypted"
 	service="microsoft.sql"
 	resource="servers"
-	authors="rohitna"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574326,32594703"
