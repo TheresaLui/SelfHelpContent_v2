@@ -17,5 +17,5 @@
 ## **Recommended steps**
 Follow steps below and retry Storage Account deletion:
 
-1. [Delete any OS disk(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk) in the Storage Account
+1. [Delete any OS disk(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk) in the Storage Account<br>
 2. [Detach any data disk(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm) in the Storage Account<br> 
