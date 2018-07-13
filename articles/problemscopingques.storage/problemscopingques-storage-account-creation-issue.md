@@ -25,7 +25,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Region for Storage Account",
-			"required": false
+			"required": true
 		}, {
 			"id": "problem_start_date",
 			"order": 3,
