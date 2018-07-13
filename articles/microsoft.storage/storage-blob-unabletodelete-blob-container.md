@@ -15,7 +15,7 @@
 
 # Unable to delete Blob or Container
 ## **Recommended steps**
-Storage Blob or Container deletion is only possible if it is not leased. Before deleting Blob or Container, please ensure that:
+Storage Blob or Container deletion is **NOT** possible if is leased. Before deleting Blob or Container, please ensure that:
 
 1. [VM(s) with attached OS disk are deleted](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk) 
 2. [Data disk(s) are not attached to a VM](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm)<br> 
