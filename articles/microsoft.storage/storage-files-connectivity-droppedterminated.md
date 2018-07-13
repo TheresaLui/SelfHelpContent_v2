@@ -26,5 +26,5 @@
 
 **Linux client problems**
 
-- Troubleshoot ["Host is down" error on existing file shares, or the shell hangs when doing list commands on the mount point](https://docs.microsoft.com/en-us/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error112-host-is-down-because-of-a-reconnection-time-out)<br>
+- Troubleshoot ["Host is down" error on existing file shares, or the shell hangs when doing list commands on the mount point](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems#mount-error112-host-is-down-because-of-a-reconnection-time-out)<br>
 
