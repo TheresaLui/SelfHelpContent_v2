@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup failure for Linux"
          description="Scoping questions for Azure VM backup failure for Linux"
-         authors= "srinathv"
+         authors="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553276"
          productPesIds="15207"
@@ -15,7 +15,7 @@
          "title": "Azure VM backup failure for Linux",
          "fileAttachmentHint": "",
          "formElements": [{
-						  "id": "using_VM",
+	                  "id": "using_VM",
                           "order": 1,
                           "controlType": "textbox",
                  		  "displayLabel": "Which virtual machine(s) is experiencing the problem?",
@@ -40,25 +40,25 @@
 						  "displayLabel": "Select the error message that you are seeing?",
                           "watermarkText": "Select",
                           "dropdownOptions": [{
-          				  "value": "VM Agent is unable to communicate with azure backup service",
-          			      "text": "VM Agent is unable to communicate with azure backup service"
-                                   },{
-						  "value": "Could not communicate with the VM agent for snapshot status",
-						  "text": "Could not communicate with the VM agent for snapshot status"
-                                   },{
-						  "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-						  "text": "Snapshot operation failed due to no network connectivity on the virtual machine"
-								},{
+          				"value": "VM Agent is unable to communicate with azure backup service",
+          			      	"text": "VM Agent is unable to communicate with azure backup service"
+                                },{
+					"value": "Could not communicate with the VM agent for snapshot status",
+					"text": "Could not communicate with the VM agent for snapshot status"
+                                },{
+					  "value": "Snapshot operation failed due to no network connectivity...",
+					  "text": "Snapshot operation failed due to no network connectivity..."
+				},{
      					  "value": "Could not copy the snapshot of the virtual machine...",
     					  "text": "Could not copy the snapshot of the virtual machine..."
                                    },{
     					  "value": "Could not communicate with the VM agent for snapshot status",
     					  "text": "Could not communicate with the VM agent for snapshot status"
                                    },{
-						 "value": "VM is in Failed Provisioning State",
+					 "value": "VM is in Failed Provisioning State",
     					 "text": "VM is in Failed Provisioning State"
                                    },{
-						 "value": "Currently Azure Backup does not support disk sizes greater than 1023GB",
+					 "value": "Currently Azure Backup does not support disk sizes greater than 1023GB",
     					 "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
                                    },{
     					 "value": "My error message is not listed here",
@@ -74,12 +74,12 @@
 							"displayLabel": "Select the troubleshooting steps you have completed",
 							"watermarkText": "Multi-select option you have completed",
 							"dropdownOptions": 
-							[	{
+							[{
 								"value": "VM Agent (WA Agent) has latest version",
 								"text": "VM Agent (WA Agent) has latest version"
 								},{
-								"value": "​VM OS version is supported",
-								"text": "​VM OS version is supported"
+								"value": "VM OS version is supported",
+								"text": "VM OS version is supported"
 								},{
 								"value": "VM has Internet connectivity",
 								"text": "VM has Internet connectivity"
@@ -92,14 +92,12 @@
 								}
                           ],
                           "required": false
-						},
-						{	
+			},{	
                          "id": "problem_start_date",
                           "order": 6,
                           "controlType": "datetimepicker",
                           "displayLabel": "When did the problem begin?",
                           "required": false
-                 
-						}
-						]}
+			}
+		]}
 ---
