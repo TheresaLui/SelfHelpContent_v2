@@ -14,7 +14,6 @@
 />
 
 # Unable to delete Storage Account
-## **Recommended documents**
-[Troubleshoot Storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors)<br>
-[Delete Storage Account operation](https://msdn.microsoft.com/library/azure/hh264517.aspx)<br>
-[Delete Container operation](https://docs.microsoft.com/rest/api/storageservices/delete-container)<br>
+Storage Account deletion is only possible if it does not contain any disk(s) that are attached to VM(s). Before deleting Storage Account, please ensure that:
+1. [VM(s) with attached OS disk are deleted](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk)
+2. [Data disk(s) are detached from its VM(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm)

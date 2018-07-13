@@ -15,4 +15,6 @@
 
 # Recover deleted Blob
 ## **Recommended steps**
-Recovery of deleted Blob is not possible without [Soft Delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete). Please enable [Soft Delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that your deleted data will be recoverable in the future.
+Recovery of deleted Blob is not possible.<br>
+
+Please enable [Soft Delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that your deleted data can be recovered in the future.

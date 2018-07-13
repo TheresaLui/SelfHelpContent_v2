@@ -15,15 +15,8 @@
 
 # Unable to delete Blob or Container
 ## **Recommended steps**
-You might receive an error when you try to delete the Azure Storage Account, Container, or Blob. This issue may occur under the following circumstances:
+Storage Blob or Container deletion is only possible if it is not leased. Before deleting Blob or Container, please ensure that:
 
-- When you delete a VM, the disk and VHD are not automatically deleted. That might be the reason for deletion failure. We don’t delete the disk so that you can use the disk to mount another VM.<br>
-- There is a lease on the object you are trying to delete<br>
-
-If this Blob or Container was attached to a VM, follow steps in [troubleshoot Storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors) to delete the object.
-
-## **Recommended documents**
-[Troubleshoot Storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors)<br>
-[Delete Storage Account operation](https://msdn.microsoft.com/library/azure/hh264517.aspx)<br>
-[Delete Container operation](https://docs.microsoft.com/rest/api/storageservices/delete-container)<br>
-
+1. [VM(s) with attached OS disk are deleted](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk) 
+2. [Data disk(s) are not attached to a VM](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm)<br> 
+3. There is no [lease on Blob](https://docs.microsoft.com/rest/api/storageservices/Lease-Blob?redirectedfrom=MSDN) or Container<br>
