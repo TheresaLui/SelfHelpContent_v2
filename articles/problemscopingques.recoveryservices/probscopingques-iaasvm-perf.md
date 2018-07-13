@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup or restore performance"
          description="Scoping questions for Azure VM backup or restore performance"
-         authors= "srinathv"
+         authors="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281"
          productPesIds="15207"
@@ -15,52 +15,51 @@
          "title": "Azure VM backup or restore performance",
          "fileAttachmentHint": "",
          "formElements": [{
-						  "id": "using_VM",
-                          "order": 1,
-                          "controlType": "textbox",
-                 	  	  "displayLabel": "Which virtual machine(s) is experiencing problem?",
-                          "watermarkText": "Enter the name of the virtual machine(s)",
-        	         	  "required": true	
-						},{
-						
-						  "id": "Issue_Type",
+			"id": "using_VM",
+                        "order": 1,
+                        "controlType": "textbox",
+                 	"displayLabel": "Which virtual machine(s) is experiencing problem?",
+                        "watermarkText": "Enter the name of the virtual machine(s)",
+        	        "required": true	
+			},{
+			  "id": "Issue_Type",
                           "order": 2,
                           "controlType": "dropdown",
-                 	  	  "displayLabel": "Which type of performance issue you are facing",
+                 	  "displayLabel": "Which type of performance issue you are facing",
                           "watermarkText": "Select",
-        	         	  "required": true	
-						  "dropdownOptions":[{
-												"Value": "Slow backup during initial (first) backup"
-												"Text": "Slow backup during initial (first) backup"
-											 },{
-												"Value": "Slow backup during incremental backup"
-												"Text": "Slow backup during incremental backup"
-											 },{
-												"Value": "Slow restore"
-												"Text": "Slow restore"
-											 }
-											 ],		
-							"required": True										
-						 },{
-                          "id": "JobID_Name",
+        	          "required": true	
+			  "dropdownOptions":[{
+				"Value": "Slow backup during initial (first) backup"
+				"Text": "Slow backup during initial (first) backup"
+			 },{
+				"Value": "Slow backup during incremental backup"
+				"Text": "Slow backup during incremental backup"
+			 },{
+				"Value": "Slow restore"
+				"Text": "Slow restore"
+			 }
+		 ],		
+		"required": True										
+		 },{
+                         "id": "JobID_Name",
                           "order": 3,
                           "controlType": "textbox",
-						  "displayLabel": "Enter the long running job activity ID:",
+			  "displayLabel": "Enter the long running job activity ID:",
                     	  "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
                           "required": true
-					   },{
+	   },{
                           "id": "learn_more_text",
                           "order": 4,
                           "controlType": "infoblock",
                           "content": " Microsoft can provide a solution to your problem faster if you can provide the long running Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-						},{
-					  "id": "job_Running_Time",
-                      "order": 5,
-                      "controlType": "textbox",
-         		      "displayLabel": "Since how long the job is running?",
-					  "watermarkText": "Enter time in hours ex. 18hrs",
-                      "required": true
-					}
-			]
+	},{
+	  		"id": "job_Running_Time",
+                      	"order": 5,
+                      	"controlType": "textbox",
+         		"displayLabel": "Since how long the job is running?",
+			"watermarkText": "Enter time in hours ex. 18hrs",
+                      	"required": true
+	}
+	]
 }
 ---
