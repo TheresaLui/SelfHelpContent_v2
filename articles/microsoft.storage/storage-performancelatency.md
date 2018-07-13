@@ -13,11 +13,7 @@
 />
 
 # Troubleshoot latency issues
-The performance of an application can be subjective; therefore, it is important to have baseline metrics available to help you identify where there might be a performance issue. 
+## **Recommended steps**
 
-1. [Metrics show high AverageE2ELatency and low AverageServerLatency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-high-AverageE2ELatency-and-low-AverageServerLatency)
-2. [Metrics show low AverageE2ELatency and low AverageServerLatency but the client is experiencing high latency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-low-AverageE2ELatency-and-low-AverageServerLatency)
-3. [Metrics show high AverageServerLatency](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-high-AverageServerLatency)
-
-## **Recommended documents**
-[How to troubleshoot Storage performance issue?](http://go.microsoft.com/fwlink/?LinkId=785091)
+1. [Monitor Storage performance using Azure Monitor](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#monitoring-performance) to identify increase in latency when compared to your baseline<br>
+2. [Troubleshoot latency increase](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#troubleshooting-guidance) when using Azure Storage
