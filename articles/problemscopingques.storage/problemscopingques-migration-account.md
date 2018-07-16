@@ -35,15 +35,8 @@
 			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": true
 		}, {
-			"id": "blob_or_container",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Container name or Blob path",
-			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
-			"required": false
-		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
