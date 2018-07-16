@@ -74,7 +74,6 @@
 						"order": 5,
 						"controlType": "multiselectdropdown",
 						"displayLabel": "Select the troubleshooting steps you have completed:",
-						"watermarkText": "Multi-select option you have completed",
 						"dropdownOptions": [{
 								"value": "VM Agent (WA Agent) has latest version",
 								"text": "VM Agent (WA Agent) has latest version"
