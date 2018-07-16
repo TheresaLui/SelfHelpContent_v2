@@ -5,7 +5,7 @@
 	resource="intune"
 	documentationCenter=""
 	authors="mackie1604"
-	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp"
+	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp, main_selfhelp, apps_selfhelp, conditional_access_selfhelp, software_updates_selfhelp"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
