@@ -37,17 +37,17 @@
 			  "id": "Restoration_Type",
                           "order": 4,
                           "controlType": "dropdown",
-         	 	  "displayLabel": "Which type of restore you are performing?",
+         	 	  "displayLabel": "Which type of restore are you performing?",
                           "watermarkText": "Select",
                           "dropdownOptions": [{
-                                        "Value": "Restoring VMs in Azure Portal",
-     					"Text": "Restoring VMs in Azure Portal"
+                                        "value": "Restoring VMs in Azure Portal",
+     					"text": "Restoring VMs in Azure Portal"
 				},{
-					"Value": "Recovering files from Azure VMs backups",
-					"Text": "Recovering files from Azure VMs backups"
+					"value": "Recovering files from Azure VMs backups",
+					"text": "Recovering files from Azure VMs backups"
 				},{
-					"Value": "Restore encrypted VMs",
-					"Text": "Restore encrypted VMs"
+					"value": "Restore encrypted VMs",
+					"text": "Restore encrypted VMs"
 				}
 			],
 				"required": true
