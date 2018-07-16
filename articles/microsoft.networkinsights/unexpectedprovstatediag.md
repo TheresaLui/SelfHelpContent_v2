@@ -26,8 +26,7 @@ Azure has run diagnostics and found an issue; the circuit is in an Unexpected Pr
 5. If attempting to delete/deprovision a circuit, a virtual network may still be linked to the circuit.  Unlink all virtual networks from the Express Route circuit for the delete operation to succeed
 6. If attempting to delete/deprovision a circuit and the circuit service provider provisioning state is 'Provisioning' or 'Provisioned', you must work 
 with your service provider to deprovision the circuit on their side. Once the service provider has deprovisioned the circuit 
-(the service provider provisioning state is set to Not provisioned), you can delete the circuit. This stops billing for the circuit.
+(the service provider provisioning state is set to Not Provisioned), you can delete the circuit. This stops billing for the circuit.
 
 Reference link:
-Deprovisioning and deleting an ExpressRoute circuit
-https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete
+[Deprovisioning and deleting an ExpressRoute circuit](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete)
