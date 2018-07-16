@@ -15,8 +15,14 @@
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "slow_vm_determination",
+			"id": "problem_start_date",
 			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, {
+			"id": "slow_vm_determination",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "How did you determine that your virtual machine was slow?",
 			"watermarkText": "Choose an option",
@@ -34,12 +40,6 @@
 					"text": "It's faster in a non-Azure environment"
 				}
 			],
-			"required": false
-		}, {
-			"id": "problem_start_date",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
 			"id": "applications_on_vm",
@@ -75,6 +75,13 @@
 					"text": "Other"
 				}
 			],
+			"required": false
+		}, {
+			"id": "disk_path",
+			"order": 4,
+			"controlTye": "textbox",
+			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
+			"watermarkText": "StorageAccount/Container/DiskName.vhd",
 			"required": false
 		}, {
 			"id": "additional_details",
