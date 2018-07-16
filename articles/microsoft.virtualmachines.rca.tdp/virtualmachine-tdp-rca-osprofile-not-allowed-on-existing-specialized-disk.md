@@ -17,10 +17,32 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed as OSProfile was defined as part of the deployment but the VM has been classified as specialized.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to  [OSProfile](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile) present as part of the deployment action and is not allowed to be defined when the image is being deployed as specialized.
 <!--/issueDescription-->
 
-Possible solutions:<br>
+## Possible solutions:
 
-* Remove *[osProfile](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile)* from your deployment as this is only required if the VHD has been generalized for either [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic) or [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).<br>
-* Verify that your deployment is using *"createOption": "fromImage"* and not *"createOption": "Attach"* if you are provisioning a generalized image.
+* If the image being deployed has been specialized, or captured from an image, for either [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic) or [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource) operating systems, ***[osProfile](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile)***  must be removed from the deployment action. For additional info about *osProfile*, refer to this [document](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile).<br>
+
+		"osProfile": {
+			 "computerNamePrefix": "myvmss",
+			 "adminUsername": "azureuser",
+			 "adminPassword": "P@ssw0rd!"
+		 }
+
+* Verify that your deployment is consuming the correct value for *createoption* when using a generalized image *("createOption": "fromImage")* versus specialized image *("createOption": "Attach")*. For more information to understand the correct parameter, refer to this [document](https://docs.microsoft.com/powershell/module/azurerm.compute/set-azurermvmosdisk).<br>
+
+		Powershell:
+			Set-AzureRmVMOSDisk -VM $VirtualMachine -Name "osDisk.vhd" -SourceImageUri ]"<path to vhd>" -VhdUri "<vhd uri>" ***-CreateOption fromImage*** -Linux<br>
+
+		Template:
+			"osDisk": {
+					"name": "[concat(parameters('vmName'), 'OSDisk')]",
+					"caching": "ReadWrite",
+					"createOption": "FromImage",
+					"managedDisk": {
+							storageAccountType": "[parameters('storageType')]"
+							}
+					}<br>
+
+To perform any of the above solutions, review the deployment template, PowerShell, or CLI for issues outlined above.<br>

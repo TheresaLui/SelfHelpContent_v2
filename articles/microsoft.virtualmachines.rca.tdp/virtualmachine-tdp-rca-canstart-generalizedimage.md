@@ -14,10 +14,10 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your VM **<!--$vmname-->[vmname]**<!--/$vmname--> and found a start failure
+# We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We have detected that your virtual machine **<!--$vmname-->[vmname]**<!--/$vmname--> failed to start with an error:
-"Operation 'start' is not allowed as the VM is generalized". 
+"Operation 'start' is not allowed as the VM is generalized".
 
 This error is caused by an incorrect attempt to run an image capture operation.
 

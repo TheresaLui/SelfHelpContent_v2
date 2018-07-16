@@ -20,9 +20,8 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to issues with the guest getting a DHCP address. One common cause is that the image did not have 'sysprep' correctly run.
 <!--/issueDescription-->
 
-Please configure the base image and redeploy the VM with the same method. Additionally, please review the below documentation on specialized and generalized images.<br>
-
-We recommend that you update any base images that may be used in future deployments to avoid this issue. If this is a Marketplace image, we recommend reaching out to the publisher directly.<br>
+## When to use Sysprep
+Sysprep is a process that is run where  windows installation will reset the installation of the system and will provide an “out of the box experience” by removing all personal data and resetting several components. For details about Sysprep, see [How to Use Sysprep: An Introduction.](http://technet.microsoft.com/library/bb457073.aspx) for instructions on how to generalize an image.
 
 To learn more about generalized and specialized VMs for **Windows**:<br>
 
@@ -31,4 +30,6 @@ To learn more about generalized and specialized VMs for **Windows**:<br>
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed)<br>
 * [Learn how to generalize your Windows VM and create an image from it.](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.
+Once the original image has been fixed to have Sysprep properly completed, remember to update the image in Azure being referenced for the deployment.
+
+If this is a Marketplace image, we recommend reaching out to the publisher directly.<br>
