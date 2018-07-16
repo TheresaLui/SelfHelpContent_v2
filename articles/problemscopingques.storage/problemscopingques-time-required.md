@@ -1,35 +1,28 @@
 <properties
-	pageTitle="Storage Blob recovery"
-	description="Storage Blob recovery scoping question"
+	pageTitle="Storage issue with date time"
+	description="Storage issue with date time scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32608638"
+	supportTopicIds="32602737"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Recover deleted Blob
+# Storage issue with date time
 ---
 {
 	"resourceRequired": true,
-	"title": "Storage Blob recovery scoping question",
+	"title": "Datetime required scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_date",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time Blob was deleted",
-			"required": false
-		}, {
-			"id": "blob_path",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Blob path",
-			"watermarkText": "ContainerName/BlobName",
-			"required": false
+			"displayLabel": "Approximate start time of the most recent occurrence",
+			"required": true
 		}, {
 			"id": "additional_details",
-			"order": 3,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
