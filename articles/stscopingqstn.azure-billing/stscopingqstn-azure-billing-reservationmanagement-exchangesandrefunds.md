@@ -8,4 +8,4 @@
 	cloudEnvironments="public"
 />
 # Exchanges and Refunds
-*	Note: Exchange and Refund requests are managed via the Reservation overview blade to capture reservation details accurately. Please raise service request from Reservation Blade. <br>
+*	Note: Exchange and Refund requests are managed via the Reservation overview blade to capture reservation details accurately. Please raise service request from Reservation Blade.
