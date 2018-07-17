@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32411877"
 	productPesIds="15571,15797,16454"
-	cloudEnvironments=""
+	cloudEnvironments="Public"
 	schemaVersion="1"
 />
 # VM Performance
