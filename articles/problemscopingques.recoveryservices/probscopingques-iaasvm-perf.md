@@ -37,7 +37,7 @@
 					"value": "Slow restore",
 					"text": "Slow restore"
 			 	}
-		 	],		
+		 	],
 			"required": true										
 		 },{
                          "id": "JobID_Name",
