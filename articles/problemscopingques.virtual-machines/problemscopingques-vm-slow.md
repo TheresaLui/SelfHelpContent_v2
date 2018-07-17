@@ -42,15 +42,8 @@
 			],
 			"required": false
 		}, {
-			"id": "disk_path",
-			"order": 3,
-			"controlTye": "textbox",
-			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
-			"watermarkText": "StorageAccount/Container/DiskName.vhd",
-			"required": false
-		}, {
 			"id": "applications_on_vm",
-			"order": 4,
+			"order": 3,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select the applications running on your virtual machine",
 			"dropdownOptions": [{
@@ -82,6 +75,13 @@
 					"text": "Other"
 				}
 			],
+			"required": false
+		}, {
+			"id": "disk_path",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
+			"watermarkText": "StorageAccount/Container/DiskName.vhd",
 			"required": false
 		}, {
 			"id": "additional_details",

@@ -23,7 +23,7 @@
 		}, {
 			"id": "disk_path",
 			"order": 2,
-			"controlTye": "textbox",
+			"controlType": "textbox",
 			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
 			"watermarkText": "StorageAccount/Container/DiskName.vhd",
 			"required": false
