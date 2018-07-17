@@ -29,20 +29,14 @@
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
-				}
-			]
+			"useAsAdditionalDetails": true
 		}, {
 			"id": "learn_more_text",
-			"order": 6,
+			"order": 4,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/linux/sizes'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}

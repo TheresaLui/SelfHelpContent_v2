@@ -28,10 +28,10 @@
 					"text": "Other Azure or Microsoft Services not working"
 				}, {
 					"value": "Azure_ThirdParty",
-					"text": "Third party services running in Azure VM not working"
+					"text": "3rd party services running in Azure not working"
 				}, {
 					"value": "External_ThirdParty",
-					"text": "Third party services running outside Azure not working"
+					"text": "3rd party services running outside Azure not working"
 				}
 			],
 			"required": false
@@ -39,8 +39,8 @@
 			"id": "application_name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Name of impacted service/application",
-			"watermarkText": "service/application name",
+			"displayLabel": "Name(s) of impacted service(s)/application(s)",
+			"watermarkText": "service1;service2;service3",
 			"required": false
 		}, {
 			"id": "additional_details",
