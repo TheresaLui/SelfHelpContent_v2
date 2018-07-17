@@ -18,7 +18,7 @@
 			"id": "problem_start_date",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
+			"displayLabel": "Start time of most recent occurrence",
 			"required": true
 		}, {
 			"id": "slow_vm_determination",
