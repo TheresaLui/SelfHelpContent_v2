@@ -85,7 +85,7 @@
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": false,
@@ -98,7 +98,7 @@
 			]
 		}, {
 			"id": "learn_more_text",
-			"order": 6,
+			"order": 7,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}

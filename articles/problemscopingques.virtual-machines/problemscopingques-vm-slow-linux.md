@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Slow virtual machine - Linux"
 	description="Slow virtual machine - Linux"
-	authors="AlexKuriatnyk"
+	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32411877"
 	productPesIds="15571,15797,16454"
@@ -29,7 +29,7 @@
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 3,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": false,
@@ -42,7 +42,7 @@
 			]
 		}, {
 			"id": "learn_more_text",
-			"order": 4,
+			"order": 5,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/linux/sizes'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}
