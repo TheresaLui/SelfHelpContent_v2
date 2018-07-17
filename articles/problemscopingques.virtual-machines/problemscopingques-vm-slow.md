@@ -42,8 +42,15 @@
 			],
 			"required": false
 		}, {
-			"id": "applications_on_vm",
+			"id": "disk_path",
 			"order": 3,
+			"controlTye": "textbox",
+			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
+			"watermarkText": "StorageAccount/Container/DiskName.vhd",
+			"required": false
+		}, {
+			"id": "applications_on_vm",
+			"order": 4,
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Select the applications running on your virtual machine",
 			"dropdownOptions": [{
@@ -77,15 +84,8 @@
 			],
 			"required": false
 		}, {
-			"id": "disk_path",
-			"order": 4,
-			"controlTye": "textbox",
-			"displayLabel": "If the performance issue is specific to a disk, provide disk path",
-			"watermarkText": "StorageAccount/Container/DiskName.vhd",
-			"required": false
-		}, {
 			"id": "additional_details",
-			"order": 6,
+			"order": 7,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": false,
@@ -98,7 +98,7 @@
 			]
 		}, {
 			"id": "learn_more_text",
-			"order": 7,
+			"order": 8,
 			"controlType": "infoblock",
 			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}
