@@ -88,7 +88,7 @@
 								"text": "Another backup service is not running"
 							}],
                         "required": false
-					},{	
+					},{
                         "id": "problem_start_date",
 						"order": 6,
                         "controlType": "datetimepicker",
