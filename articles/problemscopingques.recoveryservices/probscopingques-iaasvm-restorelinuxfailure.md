@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM Restore failure for Linux"
          description="Scoping questions for Azure VM Restore failure for Linux"
-         authors="srinathv"
+         authors="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553297"
          productPesIds="15207"
