@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup or restore performance"
          description="Scoping questions for Azure VM backup or restore performance"
-         authors="srinathv"
+         authors="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281"
          productPesIds="15207"
@@ -38,7 +38,7 @@
 					"text": "Slow restore"
 			 	}
 		 	],
-			"required": true							
+			"required": true					
 		 },{
                          "id": "JobID_Name",
                           "order": 3,
