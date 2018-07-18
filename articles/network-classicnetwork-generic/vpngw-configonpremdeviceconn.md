@@ -18,5 +18,6 @@
 
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
-Check Azure [3rd Party device configuration](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-overview) to see if your device is available<br>
+Check Azure [Validated VPN Devices List](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices) to verify whether your 3rd party device is listed<br>
+Check Azure [3rd party device configuration](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-3rdparty-device-config-overview) for an overview of partner device configurations<br>
 Check [Community suggested solutions](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-third-party-settings) for third-party VPN or firewall devices used with Azure VPN gateway
