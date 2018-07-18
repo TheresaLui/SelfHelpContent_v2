@@ -38,7 +38,7 @@
 					"text": "Slow restore"
 			 	}
 		 	],
-			"required": true									
+			"required": true							
 		 },{
                          "id": "JobID_Name",
                           "order": 3,
