@@ -32,7 +32,8 @@ For more information, see [Autoscaling best practices](https://docs.microsoft.co
 
 ## **Recommended documents**
 [How to Scale your Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale/) <br>
+[How to change the VM size of an existing role](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs#changing-the-size-of-an-existing-role)<br>
 [Not able to scale more than 25 instances?](https://azure.microsoft.com/documentation/articles/vs-azure-tools-debug-cloud-services-virtual-machines/#limitations-of-remote-debugging-in-azure)<br>
 [Auto-Scaling isn't happening as expected?](https://blogs.msdn.microsoft.com/cie/2017/01/03/troubleshooting-azure-auto-scale-profile-does-not-change/)<br>
-[Auto-Scale Notifications about "Metrics data not available"](https://social.msdn.microsoft.com/Forums/bc2048c4-8d49-4c54-b150-f263808c4b7a/notification-could-not-automatically-scale-xxx-because-monitoring-data-was-not-found?forum=windowsazuremanagement)
+
 
