@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup failure for windows"
          description="Scoping questions for Azure VM backup failure for windows"
-         authors="srinathv"
+         authors="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553277"
          productPesIds="15207"
