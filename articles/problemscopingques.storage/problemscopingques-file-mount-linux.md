@@ -3,7 +3,7 @@
 	description="Storage File Share mounting issues - Linux"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602763,32602764"
+	supportTopicIds="32602763"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
