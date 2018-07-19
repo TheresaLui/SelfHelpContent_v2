@@ -1,0 +1,25 @@
+<properties
+pageTitle="FileSync older Agent Version"
+description="One or more servers have an older version of the file sync agent installed"
+infoBubbleText="One or more servers have an older version of the file sync agent installed"
+service="microsoft.storage"
+resource="storage"
+authors="sikoo"
+displayOrder=""
+articleId="FileSync_OlderAgentVersion"
+diagnosticScenario="FileSync older Agent Version"
+selfHelpType="diagnostics"
+supportTopicIds=""
+resourceTags="windows"
+productPesIds=""
+cloudEnvironments="public"
+/>
+
+# **One or more servers registered under the Storage Sync Service <!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$ StorageSyncServiceName --> have an older version of the Azure File Sync agent installed**
+
+<!--issueDescription-->
+The following servers registered under the storage sync service <!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$ StorageSyncServiceName --> have an older version of the Azure File Sync agent installed. The agent should be updated to the latest version for these servers: <br><!--$ServerNameList-->[ServerNameList]<!--/$ServerNameList -->.
+<br><br>
+[This document](https://docs.microsoft.com/azure/storage/files/storage-files-release-notes) covers which versions of the Azure File Sync agent are supported as well as release notes for each agent. Note that older versions of the agent may not function as expected, and that support for non-GA agents will soon expire.
+<br>
+<!--/issueDescription-->
