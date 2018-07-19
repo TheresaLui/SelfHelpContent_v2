@@ -6,13 +6,14 @@ service="microsoft.storage"
 resource="storage"
 authors="passaree"
 displayOrder=""
-articleId="Storagev2insights_blob_container_recovery_maybe"
+articleId="Storagev2insights_blobContainer_recovery_maybe"
 diagnosticScenario="Storage Blob Container maybe recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="public"
 />
+# Blob Container may be recoverable
 
 ## Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** recovered
 
