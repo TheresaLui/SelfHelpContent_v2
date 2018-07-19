@@ -8,7 +8,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 />
-# Questions Azure VM backup or restore performance 
+# Questions Azure VM backup or restore performance
 ---
 {
          "resourceRequired": true,
@@ -38,7 +38,7 @@
 					"text": "Slow restore"
 			 	}
 		 	],
-			"required": true			
+			"required": true
 		 },{
                          "id": "JobID_Name",
                           "order": 3,
