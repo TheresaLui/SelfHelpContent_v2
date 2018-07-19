@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Sync error - invalid characters"
-description="Sync error - invalid characters"
-infoBubbleText="Sync error - invalid characters"
+description="Sync is failing for some files because they contain unsupported characters"
+infoBubbleText="Sync is failing for some files because they contain unsupported characters"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
@@ -15,12 +15,12 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ ErrorCount -->  files as they contain one or more unsupported characters for Server Endpoint <!--$ServerEndpointName-->[ServerEndpointName]<!--/$ ServerEndpointName -->**
+# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ ErrorCount-->  files as they contain one or more unsupported characters for Server Endpoint <!--$ServerEndpointName-->[ServerEndpointName]<!--/$ ServerEndpointName-->**
 
 <!--issueDescription-->
 These Server Endpoints are failing to upload files as they contain one or more unsupported characters: 
 <br>
-<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ ServerEndpointName -->: <!--$ErrorCount-->[ErrorCount]<!--/$ ErrorCount --> files failing to sync
+<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ ServerEndpointName-->: <!--$ErrorCount-->[ErrorCount]<!--/$ ErrorCount--> files failing to sync
 <br>
 
 For these files to sync, you must remove or rename the characters at fault from the respective files. 
