@@ -15,12 +15,12 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> files due to unsupported characters for Server Endpoint <!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->**
+# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> file(s) due to unsupported characters for Server Endpoint <!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->**
 
 <!--issueDescription-->
 These Server Endpoints failed to upload files that contain one or more unsupported characters: 
 <br>
-<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->: <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> files failing to sync
+<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->: <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> file(s) failing to sync
 <br>
 
 For these files to sync, you must remove or rename the files with unsupported characters. 
