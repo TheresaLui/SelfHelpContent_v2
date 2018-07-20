@@ -1,7 +1,7 @@
 <properties
 pageTitle="FileSync broken ghosts"
 description="There are broken ghosts on the server endpoint"
-infoBubbleText="There are broken ghosts on the server endpoint"
+infoBubbleText="See details on right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
