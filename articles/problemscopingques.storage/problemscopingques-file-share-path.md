@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "file_share_or_path",
 			"order": 1,
-			"controlTye": "textbox",
+			"controlType": "textbox",
 			"displayLabel": "File Share or File path",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": true
