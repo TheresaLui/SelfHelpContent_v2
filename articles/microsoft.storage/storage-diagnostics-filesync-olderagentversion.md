@@ -1,7 +1,7 @@
 <properties
 pageTitle="FileSync older Agent Version"
 description="One or more servers have an older version of the file sync agent installed"
-infoBubbleText="One or more servers have an older version of the file sync agent installed"
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
