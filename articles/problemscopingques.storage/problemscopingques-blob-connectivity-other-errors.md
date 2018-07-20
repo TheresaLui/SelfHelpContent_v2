@@ -1,6 +1,7 @@
 <properties
 	pageTitle="Blob connectivity other blob service errors"
 	description="Blob connectivity other blob service errors scoping question"
+	<!-- This sentence was translated as "Blob connectivity and other blob service errors scoping question". Could you please confirm if it is fine? -->
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602728"
