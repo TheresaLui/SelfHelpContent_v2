@@ -3,12 +3,12 @@
     description="Password synchronization does not work for specific user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="cychua"
-    displayOrder="1222"
+    authors="billmath"
+    displayOrder="1221"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32596863"
     resourceTags="directory_ad_connect"
-    productPesIds=""
+    productPesIds="14785"
     cloudEnvironments="public"
 />
 
