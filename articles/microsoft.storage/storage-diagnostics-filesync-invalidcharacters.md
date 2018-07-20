@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Sync error - invalid characters"
 description="Sync is failing for some files because they contain unsupported characters"
-infoBubbleText="We have detected that sync is failing for some files because they contain unsupported characters. See details on the right."
+infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="sikoo"
