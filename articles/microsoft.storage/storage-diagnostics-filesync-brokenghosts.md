@@ -15,9 +15,9 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> broken tiered files for Server Endpoint '<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->'**
+# **File Sync failed to upload <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> broken tiered file(s) for Server Endpoint '<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->'**
 
 <!--issueDescription-->
-Server Endpoint **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->** contains <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> broken tiered files. These tiered files have been rendered non-functional due to this server endpoint having been deleted without first recalling all the tiered data to the server. These files cannot be synced, and must be deleted. Please use the attached script and instructions to remove these broken tiered files.
+Server Endpoint **<!--$ServerEndpointName-->[ServerEndpointName]<!--/$ServerEndpointName-->** contains <!--$ErrorCount-->[ErrorCount]<!--/$ErrorCount--> broken tiered file(s). These tiered files have been rendered non-functional due to this server endpoint having been deleted without first recalling all the tiered data to the server. These files cannot be synced, and must be deleted. Please use the attached script and instructions to remove these broken tiered files.
 <br> 
 <!--/issueDescription-->
