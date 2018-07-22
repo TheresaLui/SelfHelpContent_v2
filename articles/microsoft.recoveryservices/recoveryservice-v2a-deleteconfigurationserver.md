@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32592047"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -16,8 +16,11 @@
 
 ## **Recommended steps**
 
-- [How to delete or unregister a configuration server?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)<br>
-- [How to delete a configuration server using Powershell?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell)<br>
+- [[VMware to Azure]How to delete or unregister a configuration server?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)<br>
+- [[VMware to Azure]How to delete a configuration server using Powershell?](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#delete-with-powershell)<br>
+
+- [[Physical to Azure]How to delete or unregister a configuration server?](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#delete-or-unregister-a-configuration-server)<br>
+- [[Physical to Azure]How to delete a configuration server using Powershell?](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#delete-or-unregister-a-configuration-server-powershell)<br>
 
 
 ## **Recommended documents**

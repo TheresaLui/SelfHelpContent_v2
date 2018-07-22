@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Lease exists"
 description="Lease exists"
-infoBubbleText="An active lease has been detected"
+infoBubbleText="An active lease has been detected. See details on the right."
 service="microsoft.storage"
 resource="storage"
 authors="divka78"

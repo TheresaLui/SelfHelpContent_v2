@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# Device Cap Reached
+# What does "device cap reached" mean?
 
 ## **Recommended steps**
 
-This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
+This notification is received when a user tries to enroll more devices than they are allowed. Go to **Device enrollment** > **Enrollment restrictions** to modify the number of devices a user can enroll. If a user has reached the device cap, retire a device to make room for a new one. For more information see how to remove devices in the [Intune documentation.](https://docs.microsoft.com/intune/devices-wipe)
 
 
 

@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536464"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -33,7 +33,7 @@
 **Active directory and DNS**<br>
 - [Issue] [VM-Generation ID has changed post Failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)<br>
 - [Issue] [Invocation ID has changed post failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)<br>
-- [Issue] [Sysvol and Netlogon shares are not available post failover?]((https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)<br>
+- [Issue] [Sysvol and Netlogon shares are not available post failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)<br>
 - [Issue] [Unable to find DFSR databases post failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#issues-caused-by-virtualization-safeguards)
 - [Issue] [How to troubleshoot domain controller issues during test failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory#troubleshoot-domain-controller-issues-during-test-failover)<br>
 

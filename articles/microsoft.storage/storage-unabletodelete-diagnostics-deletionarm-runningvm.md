@@ -1,7 +1,7 @@
 <properties
 pageTitle="Running VM attached message"
 description="Running VM attached message"
-infoBubbleText="Running VM has been detected."
+infoBubbleText="A running VM is attached to the disk. See details on the right."
 service="microsoft.storage"
 resource="storage"
 authors="divka78, passaree"

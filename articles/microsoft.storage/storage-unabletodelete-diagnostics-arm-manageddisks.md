@@ -1,7 +1,7 @@
 <properties
 pageTitle="Running VM attached"
 description="Running VM attached"
-infoBubbleText="Running VM attached"
+infoBubbleText="A running VM is attached to the disk. See details on the right."
 service="microsoft.storage"
 resource="storage"
 authors="divka78"

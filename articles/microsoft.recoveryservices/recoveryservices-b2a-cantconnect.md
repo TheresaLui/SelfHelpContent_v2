@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536423"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -19,7 +19,7 @@
 - [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)<br>
 - [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)<br>
 - [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
-- [How to] [troubleshoot SSH connection to? Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
+- [How to] [troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
 
 
 ## **Recommended Documents**

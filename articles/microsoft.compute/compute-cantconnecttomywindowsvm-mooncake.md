@@ -1,4 +1,4 @@
-<properties  
+﻿<properties  
 	pageTitle="I can't connect to my Windows VM"
 	description="I can't connect to my Windows VM"
 	service="microsoft.compute"
@@ -25,7 +25,7 @@ To resolve common issues, try one or more of the following steps.
 [Reset remote access using PowerShell or CLI](https://docs.azure.cn/virtual-machines/windows/troubleshoot-rdp-connection#fix-common-remote-desktop-errors)
 6. If you are using VPN S2S, RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises
 7. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
-8. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeploy), which will migrate the VM to a new Azure host
+8. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel), which will migrate the VM to a new Azure host
 9. If you're getting an RDP license error, use 'mstsc/admin' as a work around. If needed, uninstall or buy an RDS license. <br>
 [Address Remote Desktop License Server error](https://docs.azure.cn/virtual-machines/windows/troubleshoot-specific-rdp-errors#rdplicense)
 

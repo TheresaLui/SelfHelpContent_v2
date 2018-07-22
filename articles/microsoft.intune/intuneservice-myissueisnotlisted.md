@@ -1,11 +1,11 @@
 ﻿<properties 
 	pageTitle="My issue is not listed"
-	description="My issue is not listed" 
+	description="My issue is not listed"
 	service="microsoft.intune"
-	resource="intune" 
+	resource="intune"
 	documentationCenter=""
 	authors="mackie1604"
-	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac"
+	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp, main_selfhelp, apps_selfhelp, conditional_access_selfhelp, software_updates_selfhelp"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
@@ -14,10 +14,12 @@
 	issueNotListed="true"
  />
 
-# My issue is not listed
+# My problem is not listed here.
 
-You can get help for many common problems from the [Microsoft Intune TechNet community](https://aka.ms/intuneforums) or exploring the following channels:
+Head over to the [Microsoft Technet community forums](https://aka.ms/intuneforums) to seek help for other common problems in Intune.
 
-* Check the [Service Health](https://portal.office.com/AdminPortal/Home#/MessageCenter) of Microsoft Intune<br>
-* Browse the [Microsoft Intune documentation](https://docs.microsoft.com/intune/)<br>
-* [Submit a UserVoice](https://microsoftintune.uservoice.com/) if you have a feature or design change request
+You can also:
+
+* Find out the health of your Intune Services in [Service health.](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* Get step-by-step procedures from the [Intune documentation.](https://docs.microsoft.com/intune/)<br>
+* [Submit design or feature feedback](https://microsoftintune.uservoice.com/) to the Microsoft Intune engineering team.

@@ -16,6 +16,8 @@
 
 ## **Recommended documents**
 
+[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Automate actions for noncompliance](https://docs.microsoft.com/intune/actions-for-noncompliance)<br>
 [Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
 

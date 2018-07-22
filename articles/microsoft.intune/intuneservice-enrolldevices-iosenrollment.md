@@ -16,7 +16,11 @@
 
 ## **Recommended steps**
 
-Let's take a look at a couple common iOS enrollment error messages and how to resolve them:
+Start troubleshooting enrollment issues with the [Intune Troubleshooting Portal.](data-blade:Microsoft_Intune_DeviceSettings.TroubleshootBlade)<br>
+
+The Troubleshooting Portal helps you easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
+
+Let's take a look at a few common iOS enrollment error messages and how to resolve them:
 
 **"Device Cap Reached"** - This issue occurs if the user tries to enroll more devices than the device enrollment limit.  You can modify how many devices a user can enroll [here](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/OverviewBlade/enrollmentRules).  If at the max, [retire a device](https://docs.microsoft.com/intune/devices-wipe) so a new one can be enrolled.
 
@@ -28,11 +32,11 @@ Let's take a look at a couple common iOS enrollment error messages and how to re
 
 If you're still blocked review these resources to help resolve your issues:
 
-The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.  Review the Troubleshooting Portal documentation [here](https://docs.microsoft.com/intune/help-desk-operators).
-
 The [Intune iOS Troubleshooting Guide](https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
+
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
@@ -40,7 +44,6 @@ Below is a list of resources and documentation that may also assist in resolving
 [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
 [Learn how to Enroll iOS devices in Intune](https://docs.microsoft.com/intune/ios-enroll)<br>
 [Learn how to Enroll corporate-owned Device Enrollment Program iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune#steps-to-enroll-ios-devices-by-using-apple-dep-management)<br>
-
 
 
 

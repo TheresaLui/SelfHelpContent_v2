@@ -15,6 +15,7 @@
 # ALL self-help topics System State backup
 
 ## **Recommended Steps**
+
 - [How to backup Windows System State using azure backup?](https://docs.microsoft.com/azure/backup/backup-azure-system-state)<br>
 - [How to Recover System State files to the same server?](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#recover-system-state-files-to-the-same-server)<br>
 - [How to Recover System State files to the alternate server?](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#recover-system-state-files-to-an-alternate-server)<br>

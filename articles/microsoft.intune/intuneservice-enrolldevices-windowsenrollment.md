@@ -30,9 +30,11 @@ If you're still blocked review these resources to help resolve your issues:
 
 The [Intune Troubleshooting Portal](https://aka.ms/intunetroubleshooting1) allows you to easily look up detailed information on a user's enrollment issue.  It also provides resolutions for many common enrollment failures.
 
+The [Intune Windows Troubleshooting Guide](https://support.microsoft.com/help/4089533/troubleshooting-windows-device-enrollment-problems-in-microsoft-intune) has a list of common errors that prevent enrollment and resolutions to each.
+
 Lasty, [this document](https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune) has a list of common errors that prevent enrollment and resolutions to each.
 
-Below is a list of resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
