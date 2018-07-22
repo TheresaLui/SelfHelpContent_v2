@@ -12,7 +12,7 @@
     supportTopicIds="32592254"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments=""
+    cloudEnvironments="Public, Fairfax"
 />
 
 # Moving workspace to a different subscription
