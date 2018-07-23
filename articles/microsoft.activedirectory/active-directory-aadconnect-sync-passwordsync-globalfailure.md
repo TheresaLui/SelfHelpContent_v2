@@ -12,9 +12,9 @@
     cloudEnvironments="public"
 />
 
-# Synchronizing AD to Azure AD/Password synchronization
+# Password synchronization does not work – No passwords are synchronized
 
-## Recommended steps
+## **Recommended steps**
 
 **Password synchronization does not work – No passwords synchronized**
 
@@ -27,6 +27,7 @@ Common root causes include:
   * There is connectivity issue with on-premises Active Directory. For example, some domain controllers are not accessible by Azure AD Connect or [ports required](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports#table-1---azure-ad-connect-and-on-premises-ad) are blocked by Firewall.
 
   * The Azure AD Connect server is currently in staging mode.
+
 
 To troubleshoot the issue, follow the steps described in section [Troubleshoot password synchronization with Azure AD Connect sync - No passwords are synchronized](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-synchronization#no-passwords-are-synchronized).
 
