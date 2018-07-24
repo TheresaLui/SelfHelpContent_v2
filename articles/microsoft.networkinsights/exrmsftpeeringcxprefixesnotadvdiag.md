@@ -17,8 +17,12 @@
 A peering prefix is part of a BGP route used to advertise network reachability <br>
  
 ## **Recommended steps**
-We recommend to check your peering status: <br>
-In the Azure portal, the status of an ExpressRoute circuit can be checked by selecting "All Resources" on the left-side-bar menu and then selecting the ExpressRoute circuit. Selecting an ExpressRoute circuit listed under "All resources" will open the ExpressRoute circuit blade. In the "Overview" section of the blade, the ExpressRoute Essentials are shown, including Peerings.  <br>
+We recommend to check your peering status, you can check this in the portal or using PowerShell: <br>
+Using Portal:<br>
+1)  In the Azure portal select "All Resources" <br>
+2)  Select the "ExpressRoute circuits" to launch the ExpressRoute circuit blade <br>
+3)  In the "Overview" section of the blade, the ExpressRoute Essentials are shown <br>
+4)  Click on "Peerings" to check the status of the peering <br>
 
 Using PowerShell <br>
 Get-AzureBGPPeering -AccessType Private -ServiceKey "*********************************" <br>
