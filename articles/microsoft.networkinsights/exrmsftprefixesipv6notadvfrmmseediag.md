@@ -14,7 +14,7 @@
     cloudEnvironments="public"
  />
 # Microsoft IPv6 Peering Prefixes are not Advertised
-Many services are accessible through peering configured on an Express Route circuit.  The prefixes related to those services are advertised through Border Gateway Protocol (BGP) session that are established.  A BGP community value is attached to every prefix to identify the service that is offered through the prefix.  <br> 
+Many services are accessible through peering configured on an ExpressRoute circuit.  The prefixes related to those services are advertised through Border Gateway Protocol (BGP) session that are established.  A BGP community value is attached to every prefix to identify the service that is offered through the prefix.  <br> 
 <br>
 When peering is configured on your ExpressRoute circuit, the Microsoft edge routers establish a pair of BGP sessions with the edge routers (yours or your connectivity provider's). No routes are advertised to your network. <br> 
 <br>
