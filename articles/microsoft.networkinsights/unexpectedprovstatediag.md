@@ -23,7 +23,7 @@ Azure has run diagnostics and found an issue; the circuit is in an "Unexpected" 
 2. There is a default route configured in the route table
 3. There may be a circuit capacity issue, or not enough physical capacity on the port pair
 4. The NAT pool has no resources left
-5. If attempting to delete/deprovision a circuit, a virtual network may still be linked to the circuit.  Unlink all virtual networks from the Express Route circuit for the delete operation to succeed
+5. If attempting to delete/deprovision a circuit, a virtual network may still be linked to the circuit.  Unlink all virtual networks from the ExpressRoute circuit for the delete operation to succeed
 6. If attempting to delete/deprovision a circuit and the circuit service provider provisioning state is 'Provisioning' or 'Provisioned', you must work 
 with your service provider to deprovision the circuit on their side. Once the service provider has deprovisioned the circuit 
 (the service provider provisioning state is set to Not Provisioned), you can delete the circuit. This stops billing for the circuit.
