@@ -14,7 +14,7 @@
     cloudEnvironments="public"
  />
 # Microsoft Azure is unable to detect the Peering prefixes intended to be advertised to Microsoft
-A peering prefix is part of a BGP route used to advertise network reachability.
+Peering is an agreement to interconnect and exchange routing information.  A peering prefix is part of a BGP route used to advertise network reachability.  When a peering session cannot be established, routing information cannot be exchanged and data cannot transit the connection.  
  
 ## **Recommended steps**
 We recommend that you recreate the peering and specify which public prefixes you intend to advertise to Microsoft. <br>
