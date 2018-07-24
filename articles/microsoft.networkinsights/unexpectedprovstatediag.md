@@ -19,7 +19,7 @@ cloudEnvironments="public"
 Azure has run diagnostics and found an issue; the circuit is in an "Unexpected" Provisioning State.  Provisioning an ExpressRoute circuit establishes a Layer 2 connection.  In the ExpressRoute Essentials the circuit status must be "Enabled" and the Provider Status "Provisioned" in order to be used.
 
 ## Below is a list of potential items to check (and rectify): <br> 
-1. The peer address might be overlapped with the VNET address prefix
+1. The peer address might be overlapped with the Vnet address prefix
 2. There is a default route configured in the route table
 3. There may be a circuit capacity issue, or not enough physical capacity on the port pair
 4. The NAT pool has no resources left
