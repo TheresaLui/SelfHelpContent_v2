@@ -17,7 +17,7 @@
 Peering for ExpressRoute requires customer-supplied public prefixes are verified against a registrar, such as ARIN.  This is a standard practice to verify identity and ownership of IP address space.
 
 ## Recommended steps
-1.  This likely failed due to the **OriginAS** property being null at the registry. <br>
+1.  This likely failed due to the **OriginAS** property being null at the registry <br>
 2.  To avoid this issue in the future, please consider updating your Organization information at the registry so the OriginAS is populated with an appropriate ASN <br>
 
 ## **Recommended documents**
