@@ -1,23 +1,19 @@
-
 <properties
-    pageTitle="assets/module"
-    description="32501554Assetsmodule"
+    pageTitle="Azure Automation - Integration Modules"
+    description="Azure Automation - Integration Modules"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501554"
+    supportTopicIds="32599914,32599915,32599916"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets/module
-
+# Azure Automation - Integration Modules
 
 ## **Recommended documents**
-[Azure Automation Integration Modules]
-(https://azure.microsoft.com/documentation/articles/automation-integration-modules/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Azure Automation integration modules](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
