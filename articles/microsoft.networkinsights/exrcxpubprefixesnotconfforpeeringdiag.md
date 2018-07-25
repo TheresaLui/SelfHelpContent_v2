@@ -18,7 +18,7 @@ Peering is an agreement to interconnect and exchange routing information.  A pee
  
 ## **Recommended steps**
 We recommend that you recreate the peering and specify which public prefixes you intend to advertise to Microsoft. <br>
-1)  In the Azure portal, select "All Resources" on the left-side-bar menu and then select the ExpressRoute circuit. <br>
+1)  In the Azure portal, select "All resources" on the left-side-bar menu and then select the ExpressRoute circuit. <br>
 2)  Selecting an ExpressRoute circuit listed under "All resources" will open the ExpressRoute circuit blade. <br> 
 3)  In the "Overview" section of the blade, the ExpressRoute Essentials are shown.  <br>
 4)  Click on "Peerings" to configure peerings for your ExpressRoute circuit.
