@@ -3,7 +3,7 @@
 	description="Performance/Write Accelerator"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608639"
