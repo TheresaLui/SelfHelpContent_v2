@@ -1,0 +1,118 @@
+<properties pageTitle = "Problem with ADFS sign in" 
+description = "Problem with ADFS sign in" 
+authors = "anmalath" 
+selfHelpType = "adfssignindatacollectiondoc" 
+supportTopicIds = "32570971" 
+productPesIds = "14785" 
+cloudEnvironments = "public" 
+schemaVersion = "1"/>
+
+{
+  "resourceRequired": true,
+  "title": "Problem with ADFS sign in",
+  "fileAttachmentHint": null,
+  "formElements": [
+    {
+      "id": "userUPN",
+      "visibility": null,
+      "order": 1,
+      "controlType": "multilinetextbox",
+      "displayLabel": "UPN of one of the affected users?",
+      "content": null,
+      "watermarkText": "Example: user@contoso.com",
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 2
+    },
+    {
+      "id": "isMultipleDomain",
+      "visibility": null,
+      "order": 2,
+      "controlType": "dropdown",
+      "displayLabel": "Are multiple domains federated with the AD FS farm?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "allUsersImpacted",
+      "visibility": null,
+      "order": 3,
+      "controlType": "dropdown",
+      "displayLabel": "Are all users impacted?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "AreaOfImpact",
+      "visibility": null,
+      "order": 4,
+      "controlType": "dropdown",
+      "displayLabel": "Internal / external authentication impacted?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "whereIsError",
+      "visibility": null,
+      "order": 5,
+      "controlType": "dropdown",
+      "displayLabel": "Where is the error reported during sign-in?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+    {
+      "id": "adfssignindatacollectiondocadditionalDetails",
+      "visibility": null,
+      "order": 6,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Please provide additional details",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": true,
+      "numberOfLines": 0
+    }
+  ]
+}
