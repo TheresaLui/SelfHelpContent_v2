@@ -11,7 +11,7 @@
 # Storage File migration between Storage Accounts
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage File migration between Storage Accounts scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
