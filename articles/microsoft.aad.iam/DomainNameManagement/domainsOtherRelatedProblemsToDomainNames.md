@@ -1,11 +1,11 @@
-<properties pageTitle = "Other related problem with Domain Names" 
-description = "Other related problem with Domain Names" 
-authors = "anmalath" 
-selfHelpType = "domainsOtherRelatedProblemsToDomainNames" 
-supportTopicIds = "32565597" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Other related problem with Domain Names" 
+description="Other related problem with Domain Names" 
+authors="anmalath" 
+selfHelpType="domainsotherrelatedproblemstodomainnames" 
+supportTopicIds="32565597" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

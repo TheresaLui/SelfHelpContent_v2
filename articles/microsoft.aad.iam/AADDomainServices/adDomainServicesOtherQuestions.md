@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD Domain services other questions" 
-description = "Problem with AAD Domain services other questions" 
-authors = "anmalath" 
-selfHelpType = "adDomainServicesOtherQuestions" 
-supportTopicIds = "32565593" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD Domain services other questions" 
+description="Problem with AAD Domain services other questions" 
+authors="anmalath" 
+selfHelpType="addomainservicesotherquestions" 
+supportTopicIds="32565593" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

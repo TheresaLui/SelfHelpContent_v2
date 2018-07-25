@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD Domain services ldaps" 
-description = "Problem with AAD Domain services ldaps" 
-authors = "anmalath" 
-selfHelpType = "adDomainServicesIssuesLDAPS" 
-supportTopicIds = "32570967" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD Domain services ldaps" 
+description="Problem with AAD Domain services ldaps" 
+authors="anmalath" 
+selfHelpType="addomainservicesissuesldaps" 
+supportTopicIds="32570967" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

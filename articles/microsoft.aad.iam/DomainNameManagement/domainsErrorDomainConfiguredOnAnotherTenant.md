@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Domains Name configured on another tenant" 
-description = "Problem with Domains Name configured on another tenant" 
-authors = "anmalath" 
-selfHelpType = "domainsErrorDomainConfiguredOnAnotherTenant" 
-supportTopicIds = "32570974" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Domains Name configured on another tenant" 
+description="Problem with Domains Name configured on another tenant" 
+authors="anmalath" 
+selfHelpType="domainserrordomainconfiguredonanothertenant" 
+supportTopicIds="32570974" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

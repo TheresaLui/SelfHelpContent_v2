@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD B2C developer libraries" 
-description = "Problem with AAD B2C developer libraries" 
-authors = "anmalath" 
-selfHelpType = "aadB2CDeveloperLibraries" 
-supportTopicIds = "32548152" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD B2C developer libraries" 
+description="Problem with AAD B2C developer libraries" 
+authors="anmalath" 
+selfHelpType="aadb2cdeveloperlibraries" 
+supportTopicIds="32548152" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

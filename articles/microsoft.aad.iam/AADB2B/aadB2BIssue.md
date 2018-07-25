@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD B2B" 
-description = "Problem with AAD B2B" 
-authors = "anmalath" 
-selfHelpType = "aadB2BIssue" 
-supportTopicIds = "32565671" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD B2B" 
+description="Problem with AAD B2B" 
+authors="anmalath" 
+selfHelpType="aadb2bissue" 
+supportTopicIds="32565671" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD B2C policy management" 
-description = "Problem with AAD B2C policy management" 
-authors = "anmalath" 
-selfHelpType = "aadB2CPolicyManagement" 
-supportTopicIds = "32422332" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD B2C policy management" 
+description="Problem with AAD B2C policy management" 
+authors="anmalath" 
+selfHelpType="aadb2cpolicymanagement" 
+supportTopicIds="32422332" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

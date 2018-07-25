@@ -1,11 +1,11 @@
-<properties pageTitle = "" 
-description = "" 
-authors = "anmalath" 
-selfHelpType = "UserSigninWHFBScopingQuestions" 
-supportTopicIds = "32596873" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="" 
+description="" 
+authors="anmalath" 
+selfHelpType="usersigninwhfbscopingquestions" 
+supportTopicIds="32596873" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

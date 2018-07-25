@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with ADFS sign in" 
-description = "Problem with ADFS sign in" 
-authors = "anmalath" 
-selfHelpType = "adfssignindatacollectiondoc" 
-supportTopicIds = "32570971" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with ADFS sign in" 
+description="Problem with ADFS sign in" 
+authors="anmalath" 
+selfHelpType="adfssignindatacollectiondoc" 
+supportTopicIds="32570971" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

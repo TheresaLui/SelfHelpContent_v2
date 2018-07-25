@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application provisioning issue" 
-description = "Active Directory application provisioning issue" 
-authors = "anmalath" 
-selfHelpType = "appsProvisioningDataCollectionDoc" 
-supportTopicIds = "32570260" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application provisioning issue" 
+description="Active Directory application provisioning issue" 
+authors="anmalath" 
+selfHelpType="appsprovisioningdatacollectiondoc" 
+supportTopicIds="32570260" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

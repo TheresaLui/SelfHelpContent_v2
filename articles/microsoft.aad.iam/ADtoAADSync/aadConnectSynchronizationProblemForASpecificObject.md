@@ -1,11 +1,11 @@
-<properties pageTitle = "AAD Connect synchronization problem for a specific object" 
-description = "AAD Connect synchronization problem for a specific object" 
-authors = "anmalath" 
-selfHelpType = "aadConnectSynchronizationProblemForASpecificObject" 
-supportTopicIds = "32570979,32570976,32586796" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="AAD Connect synchronization problem for a specific object" 
+description="AAD Connect synchronization problem for a specific object" 
+authors="anmalath" 
+selfHelpType="aadconnectsynchronizationproblemforaspecificobject" 
+supportTopicIds="32570979,32570976,32586796" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

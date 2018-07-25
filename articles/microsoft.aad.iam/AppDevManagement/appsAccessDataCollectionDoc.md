@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application access issue" 
-description = "Active Directory application access issue" 
-authors = "anmalath" 
-selfHelpType = "appsAccessDataCollectionDoc" 
-supportTopicIds = "32570263" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application access issue" 
+description="Active Directory application access issue" 
+authors="anmalath" 
+selfHelpType="appsaccessdatacollectiondoc" 
+supportTopicIds="32570263" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

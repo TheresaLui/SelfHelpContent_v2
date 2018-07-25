@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application proxy issue" 
-description = "Active Directory application proxy issue" 
-authors = "anmalath" 
-selfHelpType = "appsAppProxyDataCollectionDoc" 
-supportTopicIds = "32369657,32570275" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application proxy issue" 
+description="Active Directory application proxy issue" 
+authors="anmalath" 
+selfHelpType="appsappproxydatacollectiondoc" 
+supportTopicIds="32369657,32570275" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

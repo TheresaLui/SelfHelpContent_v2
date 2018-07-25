@@ -1,11 +1,11 @@
-<properties pageTitle = "AAD Connect Synchronization - Other questions" 
-description = "AAD Connect Synchronization - Other questions" 
-authors = "anmalath" 
-selfHelpType = "aadConnectOtherQuestionsRegardingActiveDirectoryToAzureADSynchronization" 
-supportTopicIds = "32404465" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="AAD Connect Synchronization - Other questions" 
+description="AAD Connect Synchronization - Other questions" 
+authors="anmalath" 
+selfHelpType="aadconnectotherquestionsregardingactivedirectorytoazureadsynchronization" 
+supportTopicIds="32404465" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

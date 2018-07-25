@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application dev development issue" 
-description = "Active Directory application dev development issue" 
-authors = "anmalath" 
-selfHelpType = "appsDevDevelopDataCollectionDoc" 
-supportTopicIds = "32570261" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application dev development issue" 
+description="Active Directory application dev development issue" 
+authors="anmalath" 
+selfHelpType="appsdevdevelopdatacollectiondoc" 
+supportTopicIds="32570261" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

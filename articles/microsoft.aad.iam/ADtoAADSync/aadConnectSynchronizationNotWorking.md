@@ -1,11 +1,11 @@
-<properties pageTitle = "AAD Connect synchronization not working" 
-description = "AAD Connect synchronization not working" 
-authors = "anmalath" 
-selfHelpType = "aadConnectSynchronizationNotWorking" 
-supportTopicIds = "32565591" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="AAD Connect synchronization not working" 
+description="AAD Connect synchronization not working" 
+authors="anmalath" 
+selfHelpType="aadconnectsynchronizationnotworking" 
+supportTopicIds="32565591" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

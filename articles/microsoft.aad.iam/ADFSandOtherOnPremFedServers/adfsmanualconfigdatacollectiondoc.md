@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with ADFS manual configeration" 
-description = "Problem with ADFS manual configeration" 
-authors = "anmalath" 
-selfHelpType = "adfsmanualconfigdatacollectiondoc" 
-supportTopicIds = "32570968" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with ADFS manual configeration" 
+description="Problem with ADFS manual configeration" 
+authors="anmalath" 
+selfHelpType="adfsmanualconfigdatacollectiondoc" 
+supportTopicIds="32570968" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

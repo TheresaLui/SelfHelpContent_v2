@@ -1,11 +1,11 @@
-<properties pageTitle = "Conditional Access issue" 
-description = "Conditional Access issue" 
-authors = "anmalath" 
-selfHelpType = "appsConditionalAccessDataCollectionDoc" 
-supportTopicIds = "32570276,32596842,32596872,32596859,32596896,32596903" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Conditional Access issue" 
+description="Conditional Access issue" 
+authors="anmalath" 
+selfHelpType="appsconditionalaccessdatacollectiondoc" 
+supportTopicIds="32570276,32596842,32596872,32596859,32596896,32596903" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

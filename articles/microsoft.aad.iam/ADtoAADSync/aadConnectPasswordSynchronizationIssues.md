@@ -1,11 +1,11 @@
-<properties pageTitle = "Azure AD Connect password synchronization issue" 
-description = "Azure AD Connect password synchronization issue" 
-authors = "anmalath" 
-selfHelpType = "aadConnectPasswordSynchronizationIssues" 
-supportTopicIds = "32142240" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Azure AD Connect password synchronization issue" 
+description="Azure AD Connect password synchronization issue" 
+authors="anmalath" 
+selfHelpType="aadconnectpasswordsynchronizationissues" 
+supportTopicIds="32142240" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

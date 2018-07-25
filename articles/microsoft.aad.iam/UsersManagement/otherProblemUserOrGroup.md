@@ -1,11 +1,11 @@
-<properties pageTitle = "Other problem with user or group" 
-description = "Other problem with user or group" 
-authors = "anmalath" 
-selfHelpType = "otherProblemUserOrGroup" 
-supportTopicIds = "32586794" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Other problem with user or group" 
+description="Other problem with user or group" 
+authors="anmalath" 
+selfHelpType="otherproblemuserorgroup" 
+supportTopicIds="32586794" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

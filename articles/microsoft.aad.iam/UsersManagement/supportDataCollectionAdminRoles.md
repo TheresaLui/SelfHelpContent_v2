@@ -1,11 +1,11 @@
-<properties pageTitle = "Other problem with Azure AD admin role" 
-description = "Other problem with Azure AD admin role" 
-authors = "anmalath" 
-selfHelpType = "supportDataCollectionAdminRoles" 
-supportTopicIds = "32045782" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Other problem with Azure AD admin role" 
+description="Other problem with Azure AD admin role" 
+authors="anmalath" 
+selfHelpType="supportdatacollectionadminroles" 
+supportTopicIds="32045782" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

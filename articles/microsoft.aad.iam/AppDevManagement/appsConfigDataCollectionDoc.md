@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Active Directory application config" 
-description = "Problem with Active Directory application config" 
-authors = "anmalath" 
-selfHelpType = "appsConfigDataCollectionDoc" 
-supportTopicIds = "32570259" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Active Directory application config" 
+description="Problem with Active Directory application config" 
+authors="anmalath" 
+selfHelpType="appsconfigdatacollectiondoc" 
+supportTopicIds="32570259" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

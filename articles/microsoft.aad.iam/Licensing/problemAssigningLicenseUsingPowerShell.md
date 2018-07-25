@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with licenses using powershell" 
-description = "Problem with licenses using powershell" 
-authors = "anmalath" 
-selfHelpType = "problemAssigningLicenseUsingPowerShell" 
-supportTopicIds = "32570960" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with licenses using powershell" 
+description="Problem with licenses using powershell" 
+authors="anmalath" 
+selfHelpType="problemassigninglicenseusingpowershell" 
+supportTopicIds="32570960" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

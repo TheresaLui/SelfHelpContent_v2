@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Activity logs in Azure AD" 
-description = "Problem with Activity logs in Azure AD" 
-authors = "anmalath" 
-selfHelpType = "activityLogsIssue" 
-supportTopicIds = "32574686,32574683" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Activity logs in Azure AD" 
+description="Problem with Activity logs in Azure AD" 
+authors="anmalath" 
+selfHelpType="activitylogsissue" 
+supportTopicIds="32574686,32574683" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with ADFS AD connect configeration" 
-description = "Problem with ADFS AD connect configeration" 
-authors = "anmalath" 
-selfHelpType = "adfsaadconnectconfigdatacollectiondoc" 
-supportTopicIds = "32570969" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with ADFS AD connect configeration" 
+description="Problem with ADFS AD connect configeration" 
+authors="anmalath" 
+selfHelpType="adfsaadconnectconfigdatacollectiondoc" 
+supportTopicIds="32570969" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

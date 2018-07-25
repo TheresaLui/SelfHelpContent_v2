@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Domains Name domains delete" 
-description = "Problem with Domains Name domains delete" 
-authors = "anmalath" 
-selfHelpType = "domainsDeleteDomainName" 
-supportTopicIds = "32045808" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Domains Name domains delete" 
+description="Problem with Domains Name domains delete" 
+authors="anmalath" 
+selfHelpType="domainsdeletedomainname" 
+supportTopicIds="32045808" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

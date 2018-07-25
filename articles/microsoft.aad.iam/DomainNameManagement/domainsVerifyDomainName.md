@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Domains Name verify domain name" 
-description = "Problem with Domains Name verify domain name" 
-authors = "anmalath" 
-selfHelpType = "domainsVerifyDomainName" 
-supportTopicIds = "32045779" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Domains Name verify domain name" 
+description="Problem with Domains Name verify domain name" 
+authors="anmalath" 
+selfHelpType="domainsverifydomainname" 
+supportTopicIds="32045779" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

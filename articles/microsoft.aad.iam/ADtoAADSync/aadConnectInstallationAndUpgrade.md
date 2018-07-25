@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD Connect install/upgrade" 
-description = "Problem with AAD Connect install/upgrade" 
-authors = "anmalath" 
-selfHelpType = "aadConnectInstallationAndUpgrade" 
-supportTopicIds = "32404460" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD Connect install/upgrade" 
+description="Problem with AAD Connect install/upgrade" 
+authors="anmalath" 
+selfHelpType="aadconnectinstallationandupgrade" 
+supportTopicIds="32404460" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

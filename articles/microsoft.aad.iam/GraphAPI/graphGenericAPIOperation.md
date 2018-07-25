@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with grpah API generic" 
-description = "Problem with grpah API generic" 
-authors = "anmalath" 
-selfHelpType = "graphGenericAPIOperation" 
-supportTopicIds = "32586797,32134056,32134057,32134059,32134060,32134061,32134062,32134063,32134064" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with grpah API generic" 
+description="Problem with grpah API generic" 
+authors="anmalath" 
+selfHelpType="graphgenericapioperation" 
+supportTopicIds="32586797,32134056,32134057,32134059,32134060,32134061,32134062,32134063,32134064" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

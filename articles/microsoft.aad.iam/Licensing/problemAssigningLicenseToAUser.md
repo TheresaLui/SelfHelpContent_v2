@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem assigning licenses to a user" 
-description = "Problem assigning licenses to a user" 
-authors = "anmalath" 
-selfHelpType = "problemAssigningLicenseToAUser" 
-supportTopicIds = "32570959" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem assigning licenses to a user" 
+description="Problem assigning licenses to a user" 
+authors="anmalath" 
+selfHelpType="problemassigninglicensetoauser" 
+supportTopicIds="32570959" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

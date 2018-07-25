@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application sign in L1 issue" 
-description = "Active Directory application sign in L1 issue" 
-authors = "anmalath" 
-selfHelpType = "appsSignInL1DataCollectionDoc" 
-supportTopicIds = "32596848,32596837,32570955" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application sign in L1 issue" 
+description="Active Directory application sign in L1 issue" 
+authors="anmalath" 
+selfHelpType="appssigninl1datacollectiondoc" 
+supportTopicIds="32596848,32596837,32570955" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

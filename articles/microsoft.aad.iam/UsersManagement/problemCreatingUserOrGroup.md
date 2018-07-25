@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem creating a user or group" 
-description = "Problem creating a user or group" 
-authors = "anmalath" 
-selfHelpType = "problemCreatingUserOrGroup" 
-supportTopicIds = "32586792" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem creating a user or group" 
+description="Problem creating a user or group" 
+authors="anmalath" 
+selfHelpType="problemcreatinguserorgroup" 
+supportTopicIds="32586792" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

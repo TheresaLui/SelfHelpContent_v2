@@ -1,11 +1,11 @@
-<properties pageTitle = "Azure AD Connect synchronization issue with specific attribute" 
-description = "Azure AD Connect synchronization issue with specific attribute" 
-authors = "anmalath" 
-selfHelpType = "aadConnectSynchronizationProblemForASpecificAttribute" 
-supportTopicIds = "32565590" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Azure AD Connect synchronization issue with specific attribute" 
+description="Azure AD Connect synchronization issue with specific attribute" 
+authors="anmalath" 
+selfHelpType="aadconnectsynchronizationproblemforaspecificattribute" 
+supportTopicIds="32565590" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

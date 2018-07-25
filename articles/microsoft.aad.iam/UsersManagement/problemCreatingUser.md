@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem creating a user" 
-description = "Problem creating a user" 
-authors = "anmalath" 
-selfHelpType = "problemCreatingUser" 
-supportTopicIds = "32045780" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem creating a user" 
+description="Problem creating a user" 
+authors="anmalath" 
+selfHelpType="problemcreatinguser" 
+supportTopicIds="32045780" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

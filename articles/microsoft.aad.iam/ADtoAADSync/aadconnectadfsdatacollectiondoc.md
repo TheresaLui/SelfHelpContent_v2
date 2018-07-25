@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD Connect ADFS" 
-description = "Problem with AAD Connect ADFS" 
-authors = "anmalath" 
-selfHelpType = "aadconnectadfsdatacollectiondoc" 
-supportTopicIds = "32404463" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD Connect ADFS" 
+description="Problem with AAD Connect ADFS" 
+authors="anmalath" 
+selfHelpType="aadconnectadfsdatacollectiondoc" 
+supportTopicIds="32404463" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

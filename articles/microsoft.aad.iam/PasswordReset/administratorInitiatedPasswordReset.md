@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with administrator initiated password reset" 
-description = "Problem with administrator initiated password reset" 
-authors = "anmalath" 
-selfHelpType = "administratorInitiatedPasswordReset" 
-supportTopicIds = "32045781" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with administrator initiated password reset" 
+description="Problem with administrator initiated password reset" 
+authors="anmalath" 
+selfHelpType="administratorinitiatedpasswordreset" 
+supportTopicIds="32045781" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

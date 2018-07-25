@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem deleting a user" 
-description = "Problem deleting a user" 
-authors = "anmalath" 
-selfHelpType = "problemDeletingUser" 
-supportTopicIds = "32586793" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem deleting a user" 
+description="Problem deleting a user" 
+authors="anmalath" 
+selfHelpType="problemdeletinguser" 
+supportTopicIds="32586793" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with passowrd write back" 
-description = "Problem with passowrd write back" 
-authors = "anmalath" 
-selfHelpType = "passwordWriteBack" 
-supportTopicIds = "32565598" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with passowrd write back" 
+description="Problem with passowrd write back" 
+authors="anmalath" 
+selfHelpType="passwordwriteback" 
+supportTopicIds="32565598" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

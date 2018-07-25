@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD B2C create directory" 
-description = "Problem with AAD B2C create directory" 
-authors = "anmalath" 
-selfHelpType = "aadB2CCreateDirectory" 
-supportTopicIds = "32444951" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD B2C create directory" 
+description="Problem with AAD B2C create directory" 
+authors="anmalath" 
+selfHelpType="aadb2ccreatedirectory" 
+supportTopicIds="32444951" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

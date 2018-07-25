@@ -1,11 +1,11 @@
-<properties pageTitle = "Other problems with ADFS" 
-description = "Other problems with ADFS" 
-authors = "anmalath" 
-selfHelpType = "otherquestionsfederationdatacollectiondoc" 
-supportTopicIds = "32565603" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Other problems with ADFS" 
+description="Other problems with ADFS" 
+authors="anmalath" 
+selfHelpType="otherquestionsfederationdatacollectiondoc" 
+supportTopicIds="32565603" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

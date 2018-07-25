@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application user group issue" 
-description = "Active Directory application user group issue" 
-authors = "anmalath" 
-selfHelpType = "appsUserGroupDataCollectionDoc" 
-supportTopicIds = "32570977" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application user group issue" 
+description="Active Directory application user group issue" 
+authors="anmalath" 
+selfHelpType="appsusergroupdatacollectiondoc" 
+supportTopicIds="32570977" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

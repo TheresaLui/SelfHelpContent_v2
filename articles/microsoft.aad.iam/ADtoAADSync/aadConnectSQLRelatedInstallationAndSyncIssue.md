@@ -1,11 +1,11 @@
-<properties pageTitle = "Azure AD Connect issue with database" 
-description = "Azure AD Connect issue with database" 
-authors = "anmalath" 
-selfHelpType = "aadConnectSQLRelatedInstallationAndSyncIssue" 
-supportTopicIds = "32565592" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Azure AD Connect issue with database" 
+description="Azure AD Connect issue with database" 
+authors="anmalath" 
+selfHelpType="aadconnectsqlrelatedinstallationandsyncissue" 
+supportTopicIds="32565592" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

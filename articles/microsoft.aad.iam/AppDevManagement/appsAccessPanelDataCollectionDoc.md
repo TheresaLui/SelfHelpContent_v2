@@ -1,11 +1,11 @@
-<properties pageTitle = "Active Directory application access panel issue" 
-description = "Active Directory application access panel issue" 
-authors = "anmalath" 
-selfHelpType = "appsAccessPanelDataCollectionDoc" 
-supportTopicIds = "32570265" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Active Directory application access panel issue" 
+description="Active Directory application access panel issue" 
+authors="anmalath" 
+selfHelpType="appsaccesspaneldatacollectiondoc" 
+supportTopicIds="32570265" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

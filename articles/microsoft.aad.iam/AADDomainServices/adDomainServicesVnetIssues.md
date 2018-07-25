@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with AAD Domain services vnet" 
-description = "Problem with AAD Domain services vnet" 
-authors = "anmalath" 
-selfHelpType = "adDomainServicesVnetIssues" 
-supportTopicIds = "32570966" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with AAD Domain services vnet" 
+description="Problem with AAD Domain services vnet" 
+authors="anmalath" 
+selfHelpType="addomainservicesvnetissues" 
+supportTopicIds="32570966" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with grpah API authentication" 
-description = "Problem with grpah API authentication" 
-authors = "anmalath" 
-selfHelpType = "graphAuthenticationIssues" 
-supportTopicIds = "32134055" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with grpah API authentication" 
+description="Problem with grpah API authentication" 
+authors="anmalath" 
+selfHelpType="graphauthenticationissues" 
+supportTopicIds="32134055" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

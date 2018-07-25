@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Deleting Azure AD" 
-description = "Problem with Deleting Azure AD" 
-authors = "anmalath" 
-selfHelpType = "ProblemDeletingAzureAD" 
-supportTopicIds = "32565595" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Deleting Azure AD" 
+description="Problem with Deleting Azure AD" 
+authors="anmalath" 
+selfHelpType="problemdeletingazuread" 
+supportTopicIds="32565595" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

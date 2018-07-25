@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem updating a user" 
-description = "Problem updating a user" 
-authors = "anmalath" 
-selfHelpType = "problemUpdatingUser" 
-supportTopicIds = "32565604" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem updating a user" 
+description="Problem updating a user" 
+authors="anmalath" 
+selfHelpType="problemupdatinguser" 
+supportTopicIds="32565604" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

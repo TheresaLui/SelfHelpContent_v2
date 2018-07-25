@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem with Self service passowrd change reset" 
-description = "Problem with Self service passowrd change reset" 
-authors = "anmalath" 
-selfHelpType = "selfServicePasswordChangeReset" 
-supportTopicIds = "32045826" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem with Self service passowrd change reset" 
+description="Problem with Self service passowrd change reset" 
+authors="anmalath" 
+selfHelpType="selfservicepasswordchangereset" 
+supportTopicIds="32045826" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,

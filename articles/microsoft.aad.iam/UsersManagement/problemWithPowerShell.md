@@ -1,11 +1,11 @@
-<properties pageTitle = "Problem using a PowerShell cmdlet" 
-description = "Problem using a PowerShell cmdlet" 
-authors = "anmalath" 
-selfHelpType = "problemWithPowerShell" 
-supportTopicIds = "32586798" 
-productPesIds = "14785" 
-cloudEnvironments = "public" 
-schemaVersion = "1"/>
+<properties pageTitle="Problem using a PowerShell cmdlet" 
+description="Problem using a PowerShell cmdlet" 
+authors="anmalath" 
+selfHelpType="problemwithpowershell" 
+supportTopicIds="32586798" 
+productPesIds="14785" 
+cloudEnvironments="public" 
+schemaVersion="1"/>
 
 {
   "resourceRequired": true,
