@@ -25,10 +25,12 @@ If you would like to execute the runbook in the cloud rather than using a Hybrid
 ##### *Create child runbooks*
 If your runbook loops through the same function on a number of resources, such as some database operation on several databases. You can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks will execute in parallel in separate processes decreasing the total amount of time for the parent runbook.
 ###### The powershell cmdlets that enable this scenario are:
-- [Start-AzureRMAutomationRunbook](https://docs.microsoft.com/en-us/powershell/module/azurerm.automation/start-azurermautomationrunbook) This cmdlet will allow you to start a runbook and pass parameters to the runbook.
+
+- [Start-AzureRMAutomationRunbook](https://docs.microsoft.com/powershell/module/azurerm.automation/start-azurermautomationrunbook) This cmdlet will allow you to start a runbook and pass parameters to the runbook.
 - [Get-AzureRmAutomationJob](https://docs.microsoft.com/powershell/module/azurerm.automation/Get-AzureRmAutomationJob) This cmdlet will allow you to check the job status for each child if there are operations that need to be performed after the child runbook completes.
 
 ### ***Additional references***
+
 - [Fair Share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)
 - [Runbook Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)
