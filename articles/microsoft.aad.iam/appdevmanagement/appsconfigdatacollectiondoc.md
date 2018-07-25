@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with Active Directory application config" 
-description="Problem with Active Directory application config" 
-authors="anmalath" 
-selfHelpType="appsconfigdatacollectiondoc" 
-supportTopicIds="32570259" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with Active Directory application config" 
+	 authors="anupnadigm" 
+	 selfHelpType="appsconfigdatacollectiondoc" 
+	 supportTopicIds="32570259" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with Active Directory application config 
+---
 {
   "resourceRequired": true,
   "title": "Problem with Active Directory application config",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

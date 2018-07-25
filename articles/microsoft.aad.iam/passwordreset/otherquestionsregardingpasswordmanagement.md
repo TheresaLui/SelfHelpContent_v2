@@ -1,12 +1,14 @@
 <properties pageTitle="Other problems with password reset" 
-description="Other problems with password reset" 
-authors="anmalath" 
-selfHelpType="otherquestionsregardingpasswordmanagement" 
-supportTopicIds="32565599" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other problems with password reset" 
+	 authors="anupnadigm" 
+	 selfHelpType="otherquestionsregardingpasswordmanagement" 
+	 supportTopicIds="32565599" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other problems with password reset 
+---
 {
   "resourceRequired": true,
   "title": "Other problems with password reset",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

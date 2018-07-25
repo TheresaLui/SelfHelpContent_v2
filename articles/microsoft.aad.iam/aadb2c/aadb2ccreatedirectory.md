@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD B2C create directory" 
-description="Problem with AAD B2C create directory" 
-authors="anmalath" 
-selfHelpType="aadb2ccreatedirectory" 
-supportTopicIds="32444951" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD B2C create directory" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadb2ccreatedirectory" 
+	 supportTopicIds="32444951" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD B2C create directory 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD B2C create directory",
@@ -99,3 +101,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

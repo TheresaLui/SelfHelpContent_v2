@@ -1,12 +1,14 @@
 <properties pageTitle="Active Directory application other issue" 
-description="Active Directory application other issue" 
-authors="anmalath" 
-selfHelpType="appsotherdatacollectiondoc" 
-supportTopicIds="32369672,32570274" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Active Directory application other issue" 
+	 authors="anupnadigm" 
+	 selfHelpType="appsotherdatacollectiondoc" 
+	 supportTopicIds="32369672,32570274" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Active Directory application other issue 
+---
 {
   "resourceRequired": true,
   "title": "Active Directory application other issue",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

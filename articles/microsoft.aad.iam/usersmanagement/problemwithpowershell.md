@@ -1,12 +1,14 @@
 <properties pageTitle="Problem using a PowerShell cmdlet" 
-description="Problem using a PowerShell cmdlet" 
-authors="anmalath" 
-selfHelpType="problemwithpowershell" 
-supportTopicIds="32586798" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem using a PowerShell cmdlet" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemwithpowershell" 
+	 supportTopicIds="32586798" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem using a PowerShell cmdlet 
+---
 {
   "resourceRequired": true,
   "title": "Problem using a PowerShell cmdlet",
@@ -303,3 +305,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

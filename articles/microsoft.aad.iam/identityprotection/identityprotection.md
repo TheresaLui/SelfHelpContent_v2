@@ -1,12 +1,14 @@
 <properties pageTitle="Problem in Identity Protection users risk events" 
-description="Problem in Identity Protection users risk events" 
-authors="anmalath" 
-selfHelpType="identityprotection" 
-supportTopicIds="32542231" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem in Identity Protection users risk events" 
+	 authors="anupnadigm" 
+	 selfHelpType="identityprotection" 
+	 supportTopicIds="32542231" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem in Identity Protection users risk events 
+---
 {
   "resourceRequired": true,
   "title": "Problem in Identity Protection users risk events",
@@ -133,3 +135,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

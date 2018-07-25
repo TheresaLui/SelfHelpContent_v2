@@ -1,12 +1,14 @@
 <properties pageTitle="Azure AD Connect issue with database" 
-description="Azure AD Connect issue with database" 
-authors="anmalath" 
-selfHelpType="aadconnectsqlrelatedinstallationandsyncissue" 
-supportTopicIds="32565592" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Azure AD Connect issue with database" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectsqlrelatedinstallationandsyncissue" 
+	 supportTopicIds="32565592" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Azure AD Connect issue with database 
+---
 {
   "resourceRequired": true,
   "title": "Azure AD Connect issue with database",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

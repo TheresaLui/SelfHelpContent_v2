@@ -1,12 +1,14 @@
 <properties pageTitle="Problem assigning licenses to a user" 
-description="Problem assigning licenses to a user" 
-authors="anmalath" 
-selfHelpType="problemassigninglicensetoauser" 
-supportTopicIds="32570959" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem assigning licenses to a user" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemassigninglicensetoauser" 
+	 supportTopicIds="32570959" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem assigning licenses to a user 
+---
 {
   "resourceRequired": true,
   "title": "Problem assigning licenses to a user",
@@ -133,3 +135,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

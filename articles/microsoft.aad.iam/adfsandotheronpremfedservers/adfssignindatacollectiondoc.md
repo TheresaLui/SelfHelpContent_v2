@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with ADFS sign in" 
-description="Problem with ADFS sign in" 
-authors="anmalath" 
-selfHelpType="adfssignindatacollectiondoc" 
-supportTopicIds="32570971" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with ADFS sign in" 
+	 authors="anupnadigm" 
+	 selfHelpType="adfssignindatacollectiondoc" 
+	 supportTopicIds="32570971" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with ADFS sign in 
+---
 {
   "resourceRequired": true,
   "title": "Problem with ADFS sign in",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

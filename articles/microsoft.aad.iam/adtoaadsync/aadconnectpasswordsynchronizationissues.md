@@ -1,12 +1,14 @@
 <properties pageTitle="Azure AD Connect password synchronization issue" 
-description="Azure AD Connect password synchronization issue" 
-authors="anmalath" 
-selfHelpType="aadconnectpasswordsynchronizationissues" 
-supportTopicIds="32142240" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Azure AD Connect password synchronization issue" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectpasswordsynchronizationissues" 
+	 supportTopicIds="32142240" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Azure AD Connect password synchronization issue 
+---
 {
   "resourceRequired": true,
   "title": "Azure AD Connect password synchronization issue",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

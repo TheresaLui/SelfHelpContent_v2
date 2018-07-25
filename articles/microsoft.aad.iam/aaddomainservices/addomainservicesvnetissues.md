@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD Domain services vnet" 
-description="Problem with AAD Domain services vnet" 
-authors="anmalath" 
-selfHelpType="addomainservicesvnetissues" 
-supportTopicIds="32570966" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD Domain services vnet" 
+	 authors="anupnadigm" 
+	 selfHelpType="addomainservicesvnetissues" 
+	 supportTopicIds="32570966" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD Domain services vnet 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD Domain services vnet",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

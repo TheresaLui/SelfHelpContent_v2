@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD Connect install/upgrade" 
-description="Problem with AAD Connect install/upgrade" 
-authors="anmalath" 
-selfHelpType="aadconnectinstallationandupgrade" 
-supportTopicIds="32404460" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD Connect install/upgrade" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectinstallationandupgrade" 
+	 supportTopicIds="32404460" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD Connect install/upgrade 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD Connect install/upgrade",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

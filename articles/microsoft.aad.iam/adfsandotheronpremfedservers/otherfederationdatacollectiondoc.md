@@ -1,12 +1,14 @@
 <properties pageTitle="Other Problem with ADFS federation" 
-description="Other Problem with ADFS federation" 
-authors="anmalath" 
-selfHelpType="otherfederationdatacollectiondoc" 
-supportTopicIds="32570970" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other Problem with ADFS federation" 
+	 authors="anupnadigm" 
+	 selfHelpType="otherfederationdatacollectiondoc" 
+	 supportTopicIds="32570970" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other Problem with ADFS federation 
+---
 {
   "resourceRequired": true,
   "title": "Other Problem with ADFS federation",
@@ -65,3 +67,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

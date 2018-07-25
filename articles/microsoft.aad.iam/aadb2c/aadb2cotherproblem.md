@@ -1,12 +1,14 @@
 <properties pageTitle="Other Problem with AAD B2C" 
-description="Other Problem with AAD B2C" 
-authors="anmalath" 
-selfHelpType="aadb2cotherproblem" 
-supportTopicIds="32570973" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other Problem with AAD B2C" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadb2cotherproblem" 
+	 supportTopicIds="32570973" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other Problem with AAD B2C 
+---
 {
   "resourceRequired": true,
   "title": "Other Problem with AAD B2C",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

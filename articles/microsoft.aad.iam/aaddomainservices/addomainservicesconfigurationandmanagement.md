@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD Domain services configuration management" 
-description="Problem with AAD Domain services configuration management" 
-authors="anmalath" 
-selfHelpType="addomainservicesconfigurationandmanagement" 
-supportTopicIds="32447390" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD Domain services configuration management" 
+	 authors="anupnadigm" 
+	 selfHelpType="addomainservicesconfigurationandmanagement" 
+	 supportTopicIds="32447390" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD Domain services configuration management 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD Domain services configuration management",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

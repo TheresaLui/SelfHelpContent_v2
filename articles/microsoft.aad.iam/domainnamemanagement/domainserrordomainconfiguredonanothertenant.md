@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with Domains Name configured on another tenant" 
-description="Problem with Domains Name configured on another tenant" 
-authors="anmalath" 
-selfHelpType="domainserrordomainconfiguredonanothertenant" 
-supportTopicIds="32570974" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with Domains Name configured on another tenant" 
+	 authors="anupnadigm" 
+	 selfHelpType="domainserrordomainconfiguredonanothertenant" 
+	 supportTopicIds="32570974" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with Domains Name configured on another tenant 
+---
 {
   "resourceRequired": true,
   "title": "Problem with Domains Name configured on another tenant",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

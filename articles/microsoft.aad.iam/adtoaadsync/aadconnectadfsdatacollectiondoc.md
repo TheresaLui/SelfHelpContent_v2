@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD Connect ADFS" 
-description="Problem with AAD Connect ADFS" 
-authors="anmalath" 
-selfHelpType="aadconnectadfsdatacollectiondoc" 
-supportTopicIds="32404463" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD Connect ADFS" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectadfsdatacollectiondoc" 
+	 supportTopicIds="32404463" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD Connect ADFS 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD Connect ADFS",
@@ -99,3 +101,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

@@ -1,12 +1,14 @@
 <properties pageTitle="Problem assigning licenses to a group" 
-description="Problem assigning licenses to a group" 
-authors="anmalath" 
-selfHelpType="problemassigninglicensetoagroup" 
-supportTopicIds="32570958" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem assigning licenses to a group" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemassigninglicensetoagroup" 
+	 supportTopicIds="32570958" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem assigning licenses to a group 
+---
 {
   "resourceRequired": true,
   "title": "Problem assigning licenses to a group",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

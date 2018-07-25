@@ -1,12 +1,14 @@
 <properties pageTitle="Problem creating a user or group" 
-description="Problem creating a user or group" 
-authors="anmalath" 
-selfHelpType="problemcreatinguserorgroup" 
-supportTopicIds="32586792" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem creating a user or group" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemcreatinguserorgroup" 
+	 supportTopicIds="32586792" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem creating a user or group 
+---
 {
   "resourceRequired": true,
   "title": "Problem creating a user or group",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

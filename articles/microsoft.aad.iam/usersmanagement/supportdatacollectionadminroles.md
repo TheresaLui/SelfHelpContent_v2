@@ -1,12 +1,14 @@
 <properties pageTitle="Other problem with Azure AD admin role" 
-description="Other problem with Azure AD admin role" 
-authors="anmalath" 
-selfHelpType="supportdatacollectionadminroles" 
-supportTopicIds="32045782" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other problem with Azure AD admin role" 
+	 authors="anupnadigm" 
+	 selfHelpType="supportdatacollectionadminroles" 
+	 supportTopicIds="32045782" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other problem with Azure AD admin role 
+---
 {
   "resourceRequired": true,
   "title": "Other problem with Azure AD admin role",
@@ -507,3 +509,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

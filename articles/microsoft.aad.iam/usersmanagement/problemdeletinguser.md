@@ -1,12 +1,14 @@
 <properties pageTitle="Problem deleting a user" 
-description="Problem deleting a user" 
-authors="anmalath" 
-selfHelpType="problemdeletinguser" 
-supportTopicIds="32586793" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem deleting a user" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemdeletinguser" 
+	 supportTopicIds="32586793" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem deleting a user 
+---
 {
   "resourceRequired": true,
   "title": "Problem deleting a user",
@@ -388,3 +390,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

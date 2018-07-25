@@ -1,12 +1,14 @@
 <properties pageTitle="Other related problem with Domain Names" 
-description="Other related problem with Domain Names" 
-authors="anmalath" 
-selfHelpType="domainsotherrelatedproblemstodomainnames" 
-supportTopicIds="32565597" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other related problem with Domain Names" 
+	 authors="anupnadigm" 
+	 selfHelpType="domainsotherrelatedproblemstodomainnames" 
+	 supportTopicIds="32565597" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other related problem with Domain Names 
+---
 {
   "resourceRequired": true,
   "title": "Other related problem with Domain Names",
@@ -99,3 +101,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

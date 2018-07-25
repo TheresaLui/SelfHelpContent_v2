@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD B2C developer libraries" 
-description="Problem with AAD B2C developer libraries" 
-authors="anmalath" 
-selfHelpType="aadb2cdeveloperlibraries" 
-supportTopicIds="32548152" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD B2C developer libraries" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadb2cdeveloperlibraries" 
+	 supportTopicIds="32548152" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD B2C developer libraries 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD B2C developer libraries",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

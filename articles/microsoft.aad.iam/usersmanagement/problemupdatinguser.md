@@ -1,12 +1,14 @@
 <properties pageTitle="Problem updating a user" 
-description="Problem updating a user" 
-authors="anmalath" 
-selfHelpType="problemupdatinguser" 
-supportTopicIds="32565604" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem updating a user" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemupdatinguser" 
+	 supportTopicIds="32565604" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem updating a user 
+---
 {
   "resourceRequired": true,
   "title": "Problem updating a user",
@@ -184,3 +186,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

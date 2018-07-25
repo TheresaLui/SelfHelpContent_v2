@@ -1,12 +1,14 @@
 <properties pageTitle="AAD Connect Synchronization - Other questions" 
-description="AAD Connect Synchronization - Other questions" 
-authors="anmalath" 
-selfHelpType="aadconnectotherquestionsregardingactivedirectorytoazureadsynchronization" 
-supportTopicIds="32404465" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="AAD Connect Synchronization - Other questions" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectotherquestionsregardingactivedirectorytoazureadsynchronization" 
+	 supportTopicIds="32404465" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# AAD Connect Synchronization - Other questions 
+---
 {
   "resourceRequired": true,
   "title": "AAD Connect Synchronization - Other questions",
@@ -82,3 +84,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

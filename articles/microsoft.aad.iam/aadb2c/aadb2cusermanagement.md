@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD B2C user management" 
-description="Problem with AAD B2C user management" 
-authors="anmalath" 
-selfHelpType="aadb2cusermanagement" 
-supportTopicIds="32570972" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD B2C user management" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadb2cusermanagement" 
+	 supportTopicIds="32570972" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD B2C user management 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD B2C user management",
@@ -150,3 +152,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

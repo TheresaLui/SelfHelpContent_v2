@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with Activity logs in Azure AD" 
-description="Problem with Activity logs in Azure AD" 
-authors="anmalath" 
-selfHelpType="activitylogsissue" 
-supportTopicIds="32574686,32574683" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with Activity logs in Azure AD" 
+	 authors="anupnadigm" 
+	 selfHelpType="activitylogsissue" 
+	 supportTopicIds="32574686,32574683" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with Activity logs in Azure AD 
+---
 {
   "resourceRequired": true,
   "title": "Problem with Activity logs in Azure AD",
@@ -167,3 +169,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

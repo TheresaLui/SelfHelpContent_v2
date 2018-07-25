@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with AAD Domain services user sign in" 
-description="Problem with AAD Domain services user sign in" 
-authors="anmalath" 
-selfHelpType="addomainservicesusersigninissues" 
-supportTopicIds="32570965" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with AAD Domain services user sign in" 
+	 authors="anupnadigm" 
+	 selfHelpType="addomainservicesusersigninissues" 
+	 supportTopicIds="32570965" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with AAD Domain services user sign in 
+---
 {
   "resourceRequired": true,
   "title": "Problem with AAD Domain services user sign in",
@@ -133,3 +135,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

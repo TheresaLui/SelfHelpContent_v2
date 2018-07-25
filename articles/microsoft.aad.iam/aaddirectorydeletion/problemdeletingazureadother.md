@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with Deleting directory other problem" 
-description="Problem with Deleting directory other problem" 
-authors="anmalath" 
-selfHelpType="problemdeletingazureadother" 
-supportTopicIds="32565596" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with Deleting directory other problem" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemdeletingazureadother" 
+	 supportTopicIds="32565596" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with Deleting directory other problem 
+---
 {
   "resourceRequired": true,
   "title": "Problem with Deleting directory other problem",
@@ -82,3 +84,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

@@ -1,12 +1,14 @@
 <properties pageTitle="AAD Connect synchronization problem for a specific object" 
-description="AAD Connect synchronization problem for a specific object" 
-authors="anmalath" 
-selfHelpType="aadconnectsynchronizationproblemforaspecificobject" 
-supportTopicIds="32570979,32570976,32586796" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="AAD Connect synchronization problem for a specific object" 
+	 authors="anupnadigm" 
+	 selfHelpType="aadconnectsynchronizationproblemforaspecificobject" 
+	 supportTopicIds="32570979,32570976,32586796" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# AAD Connect synchronization problem for a specific object 
+---
 {
   "resourceRequired": true,
   "title": "AAD Connect synchronization problem for a specific object",
@@ -133,3 +135,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

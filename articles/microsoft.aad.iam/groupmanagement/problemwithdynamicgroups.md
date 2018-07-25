@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with dynamic groups" 
-description="Problem with dynamic groups" 
-authors="anmalath" 
-selfHelpType="problemwithdynamicgroups" 
-supportTopicIds="32570978" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with dynamic groups" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemwithdynamicgroups" 
+	 supportTopicIds="32570978" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with dynamic groups 
+---
 {
   "resourceRequired": true,
   "title": "Problem with dynamic groups",
@@ -116,3 +118,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

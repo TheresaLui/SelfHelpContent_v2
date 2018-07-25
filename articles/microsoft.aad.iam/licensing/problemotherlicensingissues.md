@@ -1,12 +1,14 @@
 <properties pageTitle="Other problem with licenses" 
-description="Other problem with licenses" 
-authors="anmalath" 
-selfHelpType="problemotherlicensingissues" 
-supportTopicIds="32570962" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Other problem with licenses" 
+	 authors="anupnadigm" 
+	 selfHelpType="problemotherlicensingissues" 
+	 supportTopicIds="32570962" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Other problem with licenses 
+---
 {
   "resourceRequired": true,
   "title": "Other problem with licenses",
@@ -133,3 +135,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---

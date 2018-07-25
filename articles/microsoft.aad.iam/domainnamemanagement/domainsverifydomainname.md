@@ -1,12 +1,14 @@
 <properties pageTitle="Problem with Domains Name verify domain name" 
-description="Problem with Domains Name verify domain name" 
-authors="anmalath" 
-selfHelpType="domainsverifydomainname" 
-supportTopicIds="32045779" 
-productPesIds="14785" 
-cloudEnvironments="public" 
-schemaVersion="1"/>
-
+	 description="Problem with Domains Name verify domain name" 
+	 authors="anupnadigm" 
+	 selfHelpType="domainsverifydomainname" 
+	 supportTopicIds="32045779" 
+	 productPesIds="14785" 
+	 cloudEnvironments="public" 
+	 schemaVersion="1"
+/> 
+# Problem with Domains Name verify domain name 
+---
 {
   "resourceRequired": true,
   "title": "Problem with Domains Name verify domain name",
@@ -99,3 +101,4 @@ schemaVersion="1"/>
     }
   ]
 }
+---
