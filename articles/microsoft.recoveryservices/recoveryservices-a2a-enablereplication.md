@@ -20,6 +20,6 @@
 - [Issue] [Unable to replicate due to connectivity issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)</br>
 - [What are the supported Azure regions to which I can replicate my VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#region-support)</br>
 - [Site Recovery operating systems support updates](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#support-for-replicated-machine-os-versions)</br>
-- [What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/pricing/details/site-recovery/)</br>
 - Review the [Support Requirements](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components</br>
- - [Troubleshooting common Azure to Azure VM replication Errors](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)</br>
+ - [Troubleshooting common Azure to Azure - VM replication Errors](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)</br>
+ - [What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/pricing/details/site-recovery/)</br>
