@@ -21,5 +21,5 @@ An MSEE is the Microsoft Datacenter side of the network connection, which connec
 We are actively working to resolve the issue and you can receive updates by subscribing to Service Health Alerts using [service health alerts documentation](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-activity-log-alerts-on-service-notifications?toc=%2fazure%2fservice-health%2ftoc.json), or view your peering status from the portal following below steps: <br>
 
 1. On the left pane choose All Services <br>
-2. In the middle choose Express Route circuits <br>
+2. In the middle choose ExpressRoute circuits <br>
 3. Once the circuit is selected, you can check your Peerings on the bottom left
