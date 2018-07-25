@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/azure backup"
 	description="configuration and setup/azure backup"
-	service="microsoft.compute"
+	service="microsoft.recoveryservices"
 	resource="virtualmachines"
-	authors="aashu"
+	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411842"
@@ -15,4 +15,4 @@
 # configuration and setup/azure backup
 
 ## **Recommended documents**
-[Azure Backup service- FAQ](https://azure.microsoft.com/documentation/articles/backup-azure-backup-faq/)
+* [Azure Backup service- FAQ](https://azure.microsoft.com/documentation/articles/backup-azure-backup-faq/)

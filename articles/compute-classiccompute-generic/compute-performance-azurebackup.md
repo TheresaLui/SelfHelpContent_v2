@@ -1,7 +1,7 @@
 <properties
 	pageTitle="performance/backup"
 	description="performance/backup"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/configure dns settings for virtual network or virtual machine"
 	description="configuration and setup/configure dns settings for virtual network or virtual machine"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="radwiv"
 	displayOrder=""
@@ -15,5 +15,5 @@
 # configuration and setup/configure dns settings for virtual network or virtual machine
 
 ## **Recommended documents**
-[Azure DNS Troubleshooting Guide](https://docs.microsoft.com/azure/dns/dns-troubleshoot)<br>
-[Azure DNS FAQs](https://docs.microsoft.com/azure/dns/dns-faq)
+* [Azure DNS Troubleshooting Guide](https://docs.microsoft.com/azure/dns/dns-troubleshoot)<br>
+* [Azure DNS FAQs](https://docs.microsoft.com/azure/dns/dns-faq)

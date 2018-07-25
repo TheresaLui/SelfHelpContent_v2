@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Management/Service Identity"
 	description="Management/Service Identity"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

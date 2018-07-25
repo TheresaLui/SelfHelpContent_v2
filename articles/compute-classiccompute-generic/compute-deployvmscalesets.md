@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/deploy vm scale sets (windows)"
 	description="configuration and setup/deploy vm scale sets (windows)"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -25,4 +25,3 @@
 * [Use Azure Monitor autoscaling to scale the number of running instances](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-common-metrics)<br>
 * [Advanced autoscale configuration using Resource Manager templates](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-advanced-autoscale-virtual-machine-scale-sets)<br>
 * [Low-priority VMs on scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-low-priority)
-

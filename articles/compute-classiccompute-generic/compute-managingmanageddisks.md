@@ -1,7 +1,7 @@
 <properties
 	pageTitle="management/managing managed disks"
 	description="management/managing managed disks"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -21,5 +21,3 @@
 * [Migrate a single Azure VM from classic to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-single-classic-to-resource-manager)<br>
 * [Create managed disks from unmanaged disks in a storage account](https://docs.microsoft.com/azure/storage/storage-faq-for-disks?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Create a copy of a VHD stored as an Azure Managed Disk by using Managed Snapshots](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)<br>
-
-

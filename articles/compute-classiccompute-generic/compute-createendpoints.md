@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/create endpoints"
 	description="configuration and setup/create endpoints"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="kasparks"
 	displayOrder=""
@@ -15,4 +15,4 @@
 # configuration and setup/create endpoints
 
 ## **Recommended documents**
-[How to setup endpoints classic Windows VM?](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-setup-endpoints/)
+* [How to setup endpoints classic Windows VM?](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-setup-endpoints/)

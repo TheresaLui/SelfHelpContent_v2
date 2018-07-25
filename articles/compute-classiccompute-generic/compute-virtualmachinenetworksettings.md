@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/virtual machine network settings"
 	description="configuration and setup/virtual machine network settings"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="kasparks"
+	authors="scottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411840"

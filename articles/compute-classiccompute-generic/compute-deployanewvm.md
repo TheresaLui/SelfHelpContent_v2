@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/deploy a new vm"
 	description="configuration and setup/deploy a new vm"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

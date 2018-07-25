@@ -1,7 +1,7 @@
 <properties
 	pageTitle="management/backup"
 	description="management/backup"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

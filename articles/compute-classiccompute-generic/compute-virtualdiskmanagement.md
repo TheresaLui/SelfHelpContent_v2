@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/virtual disk management"
 	description="configuration and setup/virtual disk management"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -23,4 +23,4 @@
 * [Migrate to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)<br>
 * [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks)<br>
 * [Understanding the temporary drive on your VM](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines)<br>  
-* [Review guidance for high-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/storage/storage-premium-storage)<br>
+* [Review guidance for high-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/storage/storage-premium-storage)

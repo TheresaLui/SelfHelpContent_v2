@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Advisory"
 	description="Advisory"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

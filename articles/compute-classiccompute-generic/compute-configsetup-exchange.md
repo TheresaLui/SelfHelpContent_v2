@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Configuration and Setup/Configure an Exchange Server"
 	description="Configuration and Setup/Configure an Exchange Server"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

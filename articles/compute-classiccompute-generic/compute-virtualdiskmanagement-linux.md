@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/virtual disk management"
 	description="configuration and setup/virtual disk management"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -24,6 +24,3 @@
 * [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)<br>
 * [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)<br>
 * [Review guidance for high-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/storage/storage-premium-storage)
-
-
-

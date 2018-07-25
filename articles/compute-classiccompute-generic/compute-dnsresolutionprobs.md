@@ -1,7 +1,7 @@
 <properties
 	pageTitle="connectivity/dns resolution problem"
 	description="connectivity/dns resolution problem"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="radwiv"
 	displayOrder=""
@@ -15,4 +15,4 @@
 # connectivity/dns resolution problem
 
 ## **Recommended documents**
-[Resolve DNS Record](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record)
+* [Resolve DNS Record](https://docs.microsoft.com/azure/dns/dns-troubleshoot#i-cant-resolve-my-dns-record)

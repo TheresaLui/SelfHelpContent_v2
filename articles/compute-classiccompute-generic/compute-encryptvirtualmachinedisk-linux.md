@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/encrypt virtual machine disk"
 	description="configuration and setup/encrypt virtual machine disk"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
