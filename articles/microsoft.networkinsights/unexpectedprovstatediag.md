@@ -16,7 +16,7 @@ productPesIds="15480"
 cloudEnvironments="public" 
 /> 
 # Express Route Circuit Diagnostic Result 
-Azure has run diagnostics and found an issue; the circuit is in an "Unexpected" Provisioning State.  Provisioning an ExpressRoute circuit establishes a Layer 2 connection.  In the ExpressRoute Essentials the circuit status must be "Enabled" and the Provider Status "Provisioned" in order to be used.
+Azure has run diagnostics and found an issue:  the circuit is in an "Unexpected" Provisioning State.  Provisioning an ExpressRoute circuit establishes a Layer 2 connection.  In the ExpressRoute Essentials blade, the "Circuit Status must be "Enabled" and the Provider Status "Provisioned" in order to be used.
 
 ## Below is a list of potential items to check (and rectify): <br> 
 1. The peer address might be overlapped with the Vnet address prefix
