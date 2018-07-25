@@ -20,9 +20,7 @@ When peering is configured on your ExpressRoute circuit, the Microsoft edge rout
 <br>
 To enable route advertisements to your network, you must associate a route filter. <br>
 <br>
-A route filter lets you identify services you want to consume through your ExpressRoute circuit's Microsoft peering. It is essentially a white list of all the BGP community values. <br> 
-<br>
-Once a route filter resource is defined and attached to an ExpressRoute circuit, all prefixes that map to the BGP community values are advertised to your network.
+A route filter lets you identify services you want to consume through your ExpressRoute circuit's Microsoft peering. It is essentially a white list of all the BGP community values.  Once a route filter resource is defined and attached to an ExpressRoute circuit, all prefixes that map to the BGP community values are advertised to your network.
  
 ## **Recommended steps**
 Please check for/create route filters that you wish to consume <br>
