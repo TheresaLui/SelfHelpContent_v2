@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the deployment is using a extra-small size for the deployment and Windows is not able to complete the initial provisioning successfully.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the deployment is using extra-small size for the deployment and Windows is unable to complete the initial provisioning successfully due to the resource limitations of an extra-small instance.
 <!--/issueDescription-->
 
 ## Resolution
@@ -25,4 +25,4 @@ When creating and deploying the virtual machine, please specify a larger size in
 
 For information about other VM types and sizes in Azure for Windows, see [Windows VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/sizes).<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.
+We apologize for any inconvenience this may have caused you.<br>
