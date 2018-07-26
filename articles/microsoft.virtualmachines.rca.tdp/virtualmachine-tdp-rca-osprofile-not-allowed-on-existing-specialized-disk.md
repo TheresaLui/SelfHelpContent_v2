@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to  [OSProfile](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile) present as part of the deployment action and is not allowed to be defined when the image is being deployed as specialized.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to  [OSProfile](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines#OSProfile) was present as part of the deployment action. OSProfile cannot be defined when the image is being deployed as specialized.
 <!--/issueDescription-->
 
 ## Possible solutions:
@@ -33,7 +33,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 * Verify that your deployment is consuming the correct value for *createoption* when using a generalized image *("createOption": "fromImage")* versus specialized image *("createOption": "Attach")*. For more information to understand the correct parameter, refer to this [document](https://docs.microsoft.com/powershell/module/azurerm.compute/set-azurermvmosdisk).<br>
 
 		Powershell:
-			Set-AzureRmVMOSDisk -VM $VirtualMachine -Name "osDisk.vhd" -SourceImageUri ]"<path to vhd>" -VhdUri "<vhd uri>" ***-CreateOption fromImage*** -Linux<br>
+			Set-AzureRmVMOSDisk -VM $VirtualMachine -Name "osDisk.vhd" -SourceImageUri ]"<path to vhd>" -VhdUri "<vhd uri>" -CreateOption fromImage -Linux
 
 		Template:
 			"osDisk": {
@@ -43,6 +43,4 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 					"managedDisk": {
 							storageAccountType": "[parameters('storageType')]"
 							}
-					}<br>
-
-To perform any of the above solutions, review the deployment template, PowerShell, or CLI for issues outlined above.<br>
+					}
