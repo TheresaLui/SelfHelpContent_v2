@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Management/Capacity issues that are related to SAP HANA large instances"
 	description="Management/Capacity issues that are related to SAP HANA large instances"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottAzure"
 	displayOrder=""
