@@ -18,7 +18,6 @@
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
 * [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
 * [Manage the availability of Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/Linux/manage-availability)<br>
-* [Configure availability sets for Linux virtual machines in classic deployments](https://docs.microsoft.com/azure/virtual-machines/linux/classic/configure-availability)<br>
 * [Configure availability sets for Linux virtual machines using Resource Manager deployments](https://docs.microsoft.com/azure/virtual-machines/azure-cli-arm-commands#azure-availset-commands-to-manage-your-availability-sets)<br>
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 * [Understand planned maintenance and how it is communicated for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)<br>

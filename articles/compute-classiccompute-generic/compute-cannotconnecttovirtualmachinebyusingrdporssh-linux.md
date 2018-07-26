@@ -3,7 +3,7 @@
     description="connectivity/cannot connect to virtual machine by using rdp or ssh"
     service="microsoft.classiccompute"
     resource="virtualmachines"
-  	authors="ram-kakani"
+    authors="ram-kakani"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32411835,32602159"
