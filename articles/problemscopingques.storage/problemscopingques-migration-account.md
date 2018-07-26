@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Storage File migration between Storage Accounts"
-	description="Storage File migration between Storage Accounts scoping question"
+	pageTitle="Storage migration between Storage Accounts"
+	description="Storage migration between Storage Accounts scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602760"
-	productPesIds="16460"
+	supportTopicIds="32602736"
+	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Storage File migration between Storage Accounts
+# Storage migration between Storage Accounts
 ---
 {
 	"resourceRequired": false,
-	"title": "Storage File migration between Storage Accounts scoping question",
+	"title": "Storage migration between Storage Accounts scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "storage_account_from",
@@ -29,21 +29,14 @@
 			"watermarkText": "To StorageAccountName",
 			"required": true
 		}, {
-			"id": "file_share_or_path",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Destination File Share or File path",
-			"watermarkText": "'FileShare' or 'FileShare/FileName'",
-			"required": false
-		}, {
 			"id": "problem_start_date",
-			"order": 4,
+			"order": 3,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate start time of the most recent occurrence",
-			"required": false
+			"required": true
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

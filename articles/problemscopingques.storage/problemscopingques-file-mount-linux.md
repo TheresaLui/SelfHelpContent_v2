@@ -39,13 +39,13 @@
 			"displayLabel": "Linux version where File Share is being mounted",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "windows7",
+					"value": "Ubuntu_below1404",
 					"text": "Ubuntu Server below 14.04"
 				}, {
-					"value": "windows8",
+					"value": "Ubuntu_1404_1510",
 					"text": "Ubuntu Server 14.04 - 15.10"
 				}, {
-					"value": "server2008R2",
+					"value": "Ubuntu_above1604",
 					"text": "Ubuntu Server 16.04 or above"
 				}, {
 					"value": "rhel_below7",
