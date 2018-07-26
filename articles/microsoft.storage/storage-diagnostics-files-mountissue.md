@@ -9,9 +9,9 @@ displayOrder=""
 articleId="Storagev2insights_files_mountIssues"
 diagnosticScenario="Troubleshoot Azure Files mounting errors"
 selfHelpType="diagnostics"
-supportTopicIds=""
+supportTopicIds="32602763,32602764,32602765"
 resourceTags="windows"
-productPesIds=""
+productPesIds="16460"
 cloudEnvironments="public"
 />
 

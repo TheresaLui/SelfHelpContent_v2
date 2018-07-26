@@ -45,7 +45,3 @@ RDP-TCP listener is misconfigured impacting RDP connectivity to the VM. Reconfig
 
  ```
 4. Verify the VM now has the RDP connectivity.
-
-## **Internal**
-
-For more details, refer to the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can%E2%80%99t_RDP-SSH/TSG/VM_Responding_Bucket/TermService_service_is_not_starting).
