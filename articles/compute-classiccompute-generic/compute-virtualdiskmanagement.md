@@ -15,6 +15,7 @@
 # configuration and setup/virtual disk management
 
 ## **Recommended documents**
+
 * [Frequently Asked Questions about Azure IaaS VM Disks](https://docs.microsoft.com/azure/storage/storage-faq-for-disks?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [About disks and VHDs for Azure Windows VMs](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-windows)<br>
 * [How to attach a data disk to a VM in the Azure portal?](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-attach-disk-portal/)<br>

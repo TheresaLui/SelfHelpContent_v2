@@ -15,6 +15,7 @@
 # Configuration and setup of VM Agent and Extensions
 
 ## **Recommended documents:**
+
 * [**Known issue:** CustomScript extension reruns a command in Azure Linux](https://support.microsoft.com/help/4054277/)<br>
 * [Overview of virtual machine extensions and features for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-features)<br>
 * [VM Agent and Extensions - get started](https://azure.microsoft.com/blog/vm-agent-and-extensions-part-1/)<br>

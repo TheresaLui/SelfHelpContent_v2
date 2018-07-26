@@ -15,5 +15,6 @@
 # worker role (paas)/application and service availability/allocation failure error
 
 ## **Recommended documents**
+
 * [Troubleshoot allocation failures for VMs](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/)<br>
 * [Troubleshooting allocation failure when you deploy Cloud Services in Azure](https://azure.microsoft.com/documentation/articles/cloud-services-allocation-failures/)

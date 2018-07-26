@@ -14,7 +14,8 @@
 
 # worker role (paas)/configuration and management/monitoring and logging
 
-## **Recommended documents**  
+## **Recommended documents**
+
 * [Troubleshooting guidance on Azure Diagnostics](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics-troubleshooting)<br>
 * [How to configure monitoring for Cloud Services and receive alerts](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-monitor/)<br>
 * [Activity Logs in the new portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs)<br>

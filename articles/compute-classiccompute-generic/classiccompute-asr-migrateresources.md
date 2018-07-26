@@ -15,6 +15,7 @@
 # Migration and Move/Migrate resources using Azure Site Recovery
 
 ## **Recommended documents**
+
 * [Learn more about migration](https://docs.microsoft.com/azure/site-recovery/migrate-overview)<br>
 * [Migrate on-premises machines to Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure)<br>
 * [Migrate VMs from one Azure region to another](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-migrate)<br>

@@ -15,6 +15,7 @@
 # performance/slow virtual machine
 
 ## **Recommended documents**
+
 * [Analyze & resolve common performance issues for VMs](https://support.microsoft.com/kb/3150851)<br>
 * [Troubleshoot common performance root cause - Storage IO](http://go.microsoft.com/fwlink/?LinkId=698284)<br>
 * [Configure VMs for optimal Storage performance](http://go.microsoft.com/fwlink/?LinkId=698475)

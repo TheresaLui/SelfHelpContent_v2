@@ -15,6 +15,7 @@
 # management/virtual machine restarts
 
 ## **Recommended documents**
+
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
 * [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
 * [Manage the availability of Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/Linux/manage-availability)<br>

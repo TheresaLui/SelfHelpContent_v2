@@ -15,6 +15,7 @@
 # worker role (paas)/Connectivity/Problem accessing Cloud Services
 
 ## **Recommended documents**
+
 * [Cloud Services connectivity may get interrupted during  Guest/Host updates](https://blogs.msdn.microsoft.com/kwill/2012/09/19/role-instance-restarts-due-to-os-upgrades/)<br>
 * [Check the Current and Historical Service Status](https://azure.microsoft.com/status/)<br>
 * [Why is Azure Load Balancer not balancing traffic equally?](https://docs.microsoft.com/azure/cloud-services/cloud-services-connectivity-and-networking-faq#why-is-azure-load-balancer-not-balancing-traffic-equally)<br>

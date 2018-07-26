@@ -15,5 +15,6 @@
 # worker role (paas)/application and service availability/notification by the azure portal of a service interruption
 
 ## **Recommended documents**
+
 * [Azure service health dashboard](https://azure.microsoft.com/status/)<br>
 * [Alerts received through Application Insight - Smart Detection](https://docs.microsoft.com/azure/application-insights/app-insights-proactive-failure-diagnostics)

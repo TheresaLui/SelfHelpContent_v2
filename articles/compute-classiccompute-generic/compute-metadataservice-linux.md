@@ -15,5 +15,6 @@
 # Management/Instance Metadata Service
 
 ## **Recommended documents**
+
 * [Overview of Azure Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service)<br>
 * [Frequently Asked Questions managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service#faq)

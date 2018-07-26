@@ -15,4 +15,5 @@
 # worker role (paas)/configuration and management/application management
 
 ## **Recommended documents**
+
 * [How do I get the package and config file of my application?](https://msdn.microsoft.com/library/azure/jj154121.aspx)

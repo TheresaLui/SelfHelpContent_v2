@@ -28,6 +28,7 @@ Information related to planned maintenance is available during a planned mainten
 ***Skipped***	| You have selected to initiate maintenance with no success. You will not be able to utilize the Customer Initiated Maintenance option. Your VM will be rebooted by Azure during the scheduled maintenance phase.
 
 ## **Recommended documents**
+
 * [In-depth FAQ for planned maintenance](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications#faq)<br>
 * [Understanding planned maintenance for Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates)<br>
 * [Handling planned maintenance notifications for Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-notifications)<br>

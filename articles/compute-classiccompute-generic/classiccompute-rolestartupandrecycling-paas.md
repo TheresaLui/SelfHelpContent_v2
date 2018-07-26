@@ -32,6 +32,7 @@ A role instance may loop between **Started**, **Initializing**, **Busy**, and **
 For more information on how to troubleshoot these types of problems, see the following links:<br>
 
 ## **Recommended documents**
+
 * [Common issues that cause roles to recycle](https://azure.microsoft.com/documentation/articles/cloud-services-troubleshoot-common-issues-which-cause-roles-recycle/)<br>
 * [Common steps to troubleshoot & address Cloud Service roles that fail to start](https://azure.microsoft.com/documentation/articles/cloud-services-troubleshoot-roles-that-fail-start/)<br>
 * [Troubleshoot Cloud Services common issues - role recycling & startup](http://blogs.msdn.com/b/kwill/archive/2013/08/09/windows-azure-paas-compute-diagnostics-data.aspx)<br>

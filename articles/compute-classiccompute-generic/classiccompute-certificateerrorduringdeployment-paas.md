@@ -15,6 +15,7 @@
 # worker role (paas)/Deployment/Certificate Error During Deployment
 
 ## **Recommended documents**
+
 * [Common issues with Cloud Service Certificates](https://docs.microsoft.com/azure/cloud-services/cloud-services-faq#certificates)<br>
 * [Certificate without Private key would cause your Role to restart](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-common-issues-which-cause-roles-recycle#exported-certificate-does-not-include-private-key)<br>
 * [How to upload certificate for a Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy#how-to-upload-a-certificate-for-a-cloud-service)

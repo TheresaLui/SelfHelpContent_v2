@@ -15,4 +15,5 @@
 # worker role (paas)/application and service availability/rdp
 
 ## **Recommended documents**
+
 * [Troubleshooting RDP Issues](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-detailed-troubleshoot-rdp/)

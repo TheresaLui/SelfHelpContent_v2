@@ -15,6 +15,7 @@
 # worker role (paas)/configuration and management/rdp configuration
 
 ## **Recommended documents**
+
 * [Can't RDP to VMs with OS Family 5](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix#family-5-releases)<br>
 * [How do I RDP when I am using NSG?](https://docs.microsoft.com/azure/cloud-services/cloud-services-connectivity-and-networking-faq#how-do-i-use-remote-desktop-when-i-have-an-nsg)<br>
 * [How to enable Remote Desktop Connection for a Role in Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-role-enable-remote-desktop/) <br>

@@ -15,6 +15,7 @@
 # Configuration and Setup/Create a Windows failover cluster
 
 ## **Recommended documents**
+
 * [Windows Server Failover Cluster on Azure IAAS VM – Part 1](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
 * [Building Windows Server Failover Cluster on Azure IAAS VM – Part 2 (Network and Creation)](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
 * [Deploying IaaS VM Guest Clusters in Microsoft Azure](https://blogs.msdn.microsoft.com/clustering/2017/02/14/deploying-an-iaas-vm-guest-clusters-in-microsoft-azure/)<br>

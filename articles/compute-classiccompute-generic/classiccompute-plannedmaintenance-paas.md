@@ -15,6 +15,7 @@
 # worker role (paas)/Planned Maintenance(Azure Platform)
 
 ## **Recommended documents**
+
 * [Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/blog/securing-azure-customers-from-cpu-vulnerability/)<br>
 * [FAQ on Planned Maintenance](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-notifications#faq)<br>
 * [Prepare for Planned Maintenance using Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)<br>

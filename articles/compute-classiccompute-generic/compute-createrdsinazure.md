@@ -15,6 +15,7 @@
 # configuration and setup/create rds in azure
 
 ## **Recommended documents**
+
 * [Step-by-Step: Remote Desktop Services on Windows Azure Service ( Part 1 )](https://blogs.technet.microsoft.com/keithmayer/2013/08/27/step-by-step-remote-desktop-services-on-windows-azure-a-cost-effective-alternative-to-desktop-as-a-service-part-1/)<br>
 * [Step-by-Step: Remote Desktop Services on Windows Azure Service ( Part 2 )](https://blogs.technet.microsoft.com/keithmayer/2013/09/19/step-by-step-remote-desktop-services-on-windows-azure-a-cost-effective-alternative-to-desktop-as-a-service-part-2/)<br>
 * [Understanding Remote Desktop Services (RDS) for WIndows](https://technet.microsoft.com/windows-server-docs/compute/remote-desktop-services/welcome-to-rds)<br>

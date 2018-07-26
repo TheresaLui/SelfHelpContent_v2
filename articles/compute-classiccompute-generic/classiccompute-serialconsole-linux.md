@@ -15,6 +15,7 @@
 # Connectivity/Azure Serial Console
 
 ## **Recommended documents**
+
 * [Virtual machine serial console (preview)](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console)<br>
 * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 * [Linux on distributions endorsed by Azure](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)

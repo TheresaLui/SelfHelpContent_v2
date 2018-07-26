@@ -15,4 +15,5 @@
 # worker role (paas)/machinekey certificate update
 
 ## **Recommended documents**
+
 * [Read Microsoft Advisory on Machine Key update](https://aka.ms/azuremachinekeyinfo)

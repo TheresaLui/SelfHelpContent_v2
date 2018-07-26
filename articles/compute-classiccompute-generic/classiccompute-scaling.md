@@ -31,6 +31,7 @@ Recommended steps to try:<br>
 For more information, see [Autoscaling best practices](https://docs.microsoft.com/azure/best-practices-auto-scaling).<br>
 
 ## **Recommended documents**
+
 * [How to Scale your Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale/) <br>
 * [How to change the VM size of an existing role](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs#changing-the-size-of-an-existing-role)<br>
 * [Not able to scale more than 25 instances?](https://azure.microsoft.com/documentation/articles/vs-azure-tools-debug-cloud-services-virtual-machines/#limitations-of-remote-debugging-in-azure)<br>

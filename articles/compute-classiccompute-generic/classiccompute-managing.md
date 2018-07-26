@@ -15,6 +15,7 @@
 # worker role (paas)/configuration and management/managing
 
 ## **Recommended documents**
+
 * [How to manage (swap/delete deployment, link to a resource) Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-manage/) <br>
 * [How to move the Cloud Services between Resource Groups and what are the limitations?](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations)<br>
 * [Manage Azure subscription Admins/Co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#add-or-change-co-administrator)<br>

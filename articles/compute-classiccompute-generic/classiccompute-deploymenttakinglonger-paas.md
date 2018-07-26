@@ -15,5 +15,6 @@
 # worker role (paas)/Deployment/Deployment taking longer
 
 ## **Recommended documents**
+
 * [Understand what happen when you deploy on Windows Azure](http://stackoverflow.com/questions/30270136/why-azure-deployment-from-visual-studio-takes-so-long)<br>
 * [Frequently Asked Questions on Cloud Services Deployment](https://docs.microsoft.com/azure/cloud-services/cloud-services-deployment-faq)

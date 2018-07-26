@@ -15,6 +15,7 @@
 # worker role (paas)/Deployment/Others
 
 ## **Recommended documents**
+
 * [VIP swap issues during Deployment](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-deployment-problems#problem-i-cannot-do-a-vip-swap-and-receive-an-error)<br>
 * [How to swap between staging and production](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-manage#how-to-swap-deployments-to-promote-a-staged-deployment-to-production)<br>
 * [Cannot deploy with Reserved IP](https://social.msdn.microsoft.com/Forums/136c7681-ee47-4dd9-9882-b22684c095a7/problem-with-reserved-ip-for-cloud-service?forum=windowsazuredevelopment)<br>

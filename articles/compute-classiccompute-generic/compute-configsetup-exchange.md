@@ -15,6 +15,7 @@
 # Configuration and Setup/Configure an Exchange Server
 
 ## **Recommended documents**
+
 * [How to install Exchange in Azure](https://technet.microsoft.com/library/mt733070.aspx)<br>
 * [Using the Exchange Deployment Assistant](https://technet.microsoft.com/office/dn756393.aspx)<br>
-* [Enhanced Azure Security for sending emails](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/)<br>
+* [Enhanced Azure Security for sending emails](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/)

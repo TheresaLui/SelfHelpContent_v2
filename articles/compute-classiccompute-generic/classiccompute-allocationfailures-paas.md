@@ -15,6 +15,7 @@
 # worker role (paas)/Deployment/Allocation Failures
 
 ## **Recommended documents**
+
 * [Troubleshoot allocation failures for Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures)<br>
 * [Possible Solutions for Cloud Services Allocation Failures](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
 * [Available sizes and options for Cloud Service role instances (web and worker roles)](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs)
