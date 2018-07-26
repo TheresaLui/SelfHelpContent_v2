@@ -1,7 +1,7 @@
 <properties
 	pageTitle="APNs Diagnostic Renew"
 	description="APNs Diagnostic Renew"
-	infoBubbleText="Your Apple Push certificate has expired.  Please review steps on the right how to renew it."
+	infoBubbleText="Your Apple Push certificate has expired.  Please review the steps on the right for how to renew it."
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
