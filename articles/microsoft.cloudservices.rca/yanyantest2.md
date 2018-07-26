@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# DNS\Connectivity (VNet or On-Prem)
+# DNS\Connectivity (VNet or On-Prem) test
 
 ## **Recommended documents**
 [Outbound Connectivity and DNS Requirements](https://docs.microsoft.com/azure/app-service/environment/app-service-app-service-environment-securely-connecting-to-backend-resources#outbound-connectivity-and-dns-requirements)
