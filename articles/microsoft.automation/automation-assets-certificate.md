@@ -1,4 +1,3 @@
-
 <properties
     pageTitle="Azure Automation - Assets - Certificates"
     description="Azure Automation - Assets - Certificates"

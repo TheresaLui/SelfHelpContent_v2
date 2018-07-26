@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 [Credential assets in Azure Automation](https://docs.microsoft.com/azure/automation/automation-credentials) <br>
-[Introduction to authentication in Azure Automation](https://docs.microsoft.com/en-us/azure/automation/automation-security-overview) <br>
+[Introduction to authentication in Azure Automation](https://docs.microsoft.com/azure/automation/automation-security-overview) <br>
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
