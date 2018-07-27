@@ -16,5 +16,4 @@
 
 ## **Recommended documents**
 
-* [My App Service certificate is flagged for fraud. How do I resolve this?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates#my-app-service-certificate-is-flagged-for-fraud-how-do-i-resolve-this)
- 
+* [My App Service certificate is flagged for fraud. How do I resolve this?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates#my-app-service-certificate-is-flagged-for-fraud-how-do-i-resolve-this) 

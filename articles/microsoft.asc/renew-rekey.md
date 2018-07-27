@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-* [How can I Rekey and/or ReSync my app service certificate?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#rekeyandsyn)
-* [When does my certificate get renewed?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#renew)
- 
+* [How can I Rekey and/or ReSync my app service certificate?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#rekeyandsyn) <br>
+* [When does my certificate get renewed?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#renew) 

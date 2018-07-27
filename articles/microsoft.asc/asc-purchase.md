@@ -6,7 +6,7 @@
 	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32604392"
+	supportTopicIds="32604397"
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
