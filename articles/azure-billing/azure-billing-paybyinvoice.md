@@ -20,7 +20,7 @@ You can change the payment method for your subscription to invoice by submitting
 
 **How to request pay by Invoice**
 
-1. Sign into the Azure portal. Select Help + support > New support request.
+1. Sign into the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade). Select Help + support > New support request.
 
 2. Select **Billing** as the issue type, select the subscription for which you want to pay by invoice, select a support plan, and then select **Next**.
 
@@ -31,13 +31,13 @@ You can change the payment method for your subscription to invoice by submitting
 
 ## **Recommended documents**
 
-* [Request/Download/View your Azure billing ivoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to email Azure invoices directly to your inbox](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [Understand detailed usage charges](https://docs.microsoft.com/azure/billing/billing-understand-your-bill#csv)
 * [Understand terms on your invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
 * [Understand terms on your detailed usage](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 * [How to Transfer ownership](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 * [How to Reactivate subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
-* [How to cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
+* [How to Cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
 * [Azure subscription and service limits, quotas and constraints](https://docs.microsoft.com/azure/azure-subscription-service-limits)
 * [Azure spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
