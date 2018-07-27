@@ -20,10 +20,12 @@ cloudEnvironments="public"
 ## Your virtual machine **<!--$vmname-->[vmname]<!--/$vmname-->** was started in Safe Mode
 We have investigated and identified that your VM *<!--$vmname-->vmnamedfsfblahblah<!--/$vmname-->* is currently in an inaccessible state because its started in Safe Mode.
 
+If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause [reset password](data-blade:Microsoft_Azure_Support.TroubleshootV2Blade.assetId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/resetPassword) and click [troubleshoot blade](data-blade:Microsoft_Azure_Support.TroubleshootV2Blade.assetId.$resourceId;data-blade-uri:{$domain}/#blade/Microsoft_Azure_Support/TroubleshootV2Blade/assetId/{$resourceId}) for more information.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
+To restart the VM in normal mode, please try the below steps using the serial-console.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 ##### From the Serial Console:
 * Query the boot configuration data `bcdedit /enum`
 * The Windows Boot Loader section will show an additional option 'safeboot' indicating its either 'Minimal' or 'Networking' similar to the below output:
