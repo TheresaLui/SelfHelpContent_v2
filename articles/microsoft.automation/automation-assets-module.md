@@ -15,5 +15,6 @@
 # Azure Automation - Integration Modules
 
 ## **Recommended documents**
-[Azure Automation integration modules](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
+[Integration modules in Azure Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
+[Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
