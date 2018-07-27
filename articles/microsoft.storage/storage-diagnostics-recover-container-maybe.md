@@ -17,10 +17,7 @@ cloudEnvironments="public"
 
 ## Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** recovered
 
-We were able to successfully recover Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** that was deleted:
-
-- **<!--$ClientIp-->[ClientIp]<!--/$ClientIp-->**
-- **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->**
+We were able to successfully recover Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
 
 Microsoft may not always be able  to recover your data. You can follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that your deleted data will be recoverable in the future. 
 
