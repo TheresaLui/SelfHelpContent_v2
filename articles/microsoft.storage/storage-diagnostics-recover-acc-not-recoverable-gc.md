@@ -16,10 +16,7 @@ cloudEnvironments="public"
 
 # Unable to recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
 
-Microsoft Azure sincerely apologizes that we are unable to recover the Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:
-
-- **<!--$ClientIp-->[ClientIp]<!--/$ClientIp-->**
-- **<!--$DeletionTime-->[DeletionTime]<!--/$DeletionTime-->**
+Microsoft Azure sincerely apologizes that we are unable to recover the Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Storage Account and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 

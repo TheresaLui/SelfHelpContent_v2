@@ -14,8 +14,8 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Unable to create Storage Account name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
+# Unable to create Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
 
 <!--issueDescription-->
-Unable to create Storage Account name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at this time because another Storage Account with the same name was recently deleted. You can either create a Storage Account with a different name now or wait up to 14 days for our system to clean up deleted Storage Account and retry creating a Storage Account with name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. 
+Unable to create Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at this time because another Storage Account with the same name was recently deleted. You can either create a Storage Account with a different name now or wait up to 14 days for our system to clean up deleted Storage Account and retry the account creation.
 <!--/issueDescription-->

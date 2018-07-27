@@ -7,7 +7,7 @@ resource="storage"
 authors="passaree"
 displayOrder=""
 articleId="Storagev2insights_files_replicationRAGRS"
-diagnosticScenario="Replication type RA-GRS is nor fully supported on Azure Files"
+diagnosticScenario="Replication type RA-GRS is not fully supported on Azure Files"
 selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
@@ -18,6 +18,6 @@ cloudEnvironments="public"
 # Replication type RA-GRS is unsupported on Azure Files
 
 <!--issueDescription-->
-Currently, Azure Files supports locally redundant storage (LRS), zone redundant storage (ZRS), and geo-redundant storage (GRS). It is possible to use read-access geo-redundant (RA-GRS) with Azure Files, but it is not possible to read from secondary. Read from secondardy will be available in the future, but we don't have timelines to share at this time.
+Azure Files is supported only on locally redundant storage (LRS), zone redundant storage (ZRS), and geo-redundant storage (GRS) accounts. We plan to support read-access geo-redundant (RA-GRS) storage in the future, but we don't have a timeline to share.For further information, please see [FAQ about Azure Files](https://docs.microsoft.com/azure/storage/files/storage-files-faq#general).
 <!--/issueDescription-->
 
