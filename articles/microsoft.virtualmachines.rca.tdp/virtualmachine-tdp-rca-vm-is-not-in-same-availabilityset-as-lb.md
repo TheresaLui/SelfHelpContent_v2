@@ -27,7 +27,7 @@ Possible solutions:<br>
 
 For additional information regarding load balancers, please read the following document:<br>
 
-* [What is Azure Load Balancer?](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
+* [What is Azure Load Balancer?](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview)
 * [Using Azure Resource Manager Support with Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-arm)<br>
 
 For additional ARM template examples, please review the following templates:<br>
