@@ -24,14 +24,14 @@
 ## **Recommended documents**
 
 * Check the list of supported countries/regions and currencies in the Purchase FAQ : [Supported countries/regions and currencies](https://azure.microsoft.com/pricing/faq/)
-* [Manage payment - Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+* [Manage payment - update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
 * [How to request copy of Azure invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Understand detailed usage charges](https://docs.microsoft.com/azure/billing/billing-understand-your-bill#csv)
 * [Understand terms on your invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
 * [Understand terms on your detailed usage](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 * [How to edit profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
-* [Manage (Reactivate/cancel/Switch) subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
+* [Manage (Reactivate/Cancel/Switch) subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 * [How to Transfer ownership](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 * [Azure offer details](https://azure.microsoft.com/support/legal/offer-details/)
 * [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
