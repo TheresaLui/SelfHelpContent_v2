@@ -52,6 +52,6 @@ To learn more about deploying an image with Marketplace terms and plan informato
 
 Additional Info:<br>
 
-If the image publisher provides additional license and purchase terms, you must accept those terms and enable programmatic deployment. You also need to supply purchase plan parameters when deploying a VM programmatically. See Deploy an image with Marketplace terms.<br>
+If the image publisher provides additional license and purchase terms, you must accept those terms and enable programmatic deployment. You also need to supply purchase plan parameters when deploying a VM programmatically.<br>
 
 To *accept the publisher terms*, refer to the [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/cli-ps-findimage#accept-the-terms) and [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/cli-ps-findimage#accept-the-terms) documentation.<br>
