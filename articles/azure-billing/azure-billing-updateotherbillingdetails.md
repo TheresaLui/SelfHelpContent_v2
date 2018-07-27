@@ -14,8 +14,6 @@
 
 # update other billing details
 
-## **Recommended steps**
-
 **How to change/update your profile information?**
 
 1. Sign in to the [Azure Account Center](https://account.azure.com/Profile).
@@ -24,8 +22,8 @@
 
 ## **Recommended documents**
 
-* [How to manage payment - Update, change or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [ow to request copy of Azure invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [How to manage payment - Update, Change or Remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+* [How to request copy of Azure invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [How to read your monthly Azure CSP invoice](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-invoice)
 * Check the list of supported countries/regions and currencies in the Purchase FAQ - [Supported countries/regions and currencies](https://azure.microsoft.com/pricing/faq/)
