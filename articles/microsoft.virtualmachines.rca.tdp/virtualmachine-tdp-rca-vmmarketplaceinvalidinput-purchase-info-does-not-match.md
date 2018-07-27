@@ -20,7 +20,7 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the plan information specified during deployment was configured but does not match with what was expected for that image during the validation phase.
 <!--/issueDescription-->
 
-A Marketplace image, or an image associated to a publisher, in Azure has the following attributes:
+A Marketplace image, or an image associated to a publisher, in Azure has the following attributes:<br>
 
 | Term 				  | Definition    |
 |:-------------:|-------------	|
@@ -29,7 +29,7 @@ A Marketplace image, or an image associated to a publisher, in Azure has the fol
 | SKU 					| An instance of an offer, such as a major release of a distribution. Examples: 16.04-LTS, 2016-Datacenter |
 |  Version 			|The version number of an image SKU|
 
-To view an image's purchase plan information, run  [*Get-AzureRMVMImage*](https://docs.microsoft.com/powershell/module/azurerm.compute/get-azurermvmimage)(PS) or [*az vm image show *](https://docs.microsoft.com/cli/azure/image#az_image_show)(CLI) to obtain the above properties.
+To view an image's purchase plan information, run  [*Get-AzureRMVMImage*](https://docs.microsoft.com/powershell/module/azurerm.compute/get-azurermvmimage)(PS) or [*az vm image show *](https://docs.microsoft.com/cli/azure/image#az_image_show)(CLI) to obtain the above properties.<br>
 
 Example:<br>
 

@@ -20,7 +20,7 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the plan information required deployment was not present and the image referenced requires Marketplace plan information to be present.
 <!--/issueDescription-->
 
-A Marketplace image, or an image associated to a publisher, in Azure has the following attributes:
+A Marketplace image, or an image associated to a publisher, in Azure has the following attributes:<br>
 
 | Term 				  | Definition    |
 |:-------------:|-------------	|
