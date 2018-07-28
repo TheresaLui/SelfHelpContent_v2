@@ -101,7 +101,7 @@
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": "Microsoft can provide a solution to your problem faster if you can provide the support code found at the bottom-right of the password reset page",
-      "content": null,
+      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#contact-microsoft-support'>Microsoft can provide a solution to your problem faster if you can provide the support code found at the bottom-right of the password reset page</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

@@ -71,7 +71,7 @@
       "order": 3,
       "controlType": "infoblock",
       "displayLabel": "All Azure AD B2C applications need to be registered through the Azure portal.",
-      "content": null,
+      "content": "<a href=''>All Azure AD B2C applications need to be registered through the Azure portal.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

@@ -58,7 +58,7 @@
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": "You are currently using Azure portal",
-      "content": null,
+      "content": "<a href=''>You are currently using Azure portal</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
@@ -130,12 +130,12 @@
       "numberOfLines": 0
     },
     {
-      "id": "dataretention",
+      "id": "dataretention2",
       "visibility": "tenantSubscription!=yes",
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": "Check out the frequently asked questions about Activity logs here.",
-      "content": null,
+      "content": "<a href=''>Check out the frequently asked questions about Activity logs here.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

@@ -129,7 +129,7 @@
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": "Please provide a copy of the '%programdata%\\AADConnect' folder from the Azure AD Connect server. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
-      "content": null,
+      "content": "<a href=''>Please provide a copy of the '%programdata%\\AADConnect' folder from the Azure AD Connect server. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

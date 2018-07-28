@@ -20,7 +20,7 @@
       "order": 1,
       "controlType": "infoblock",
       "displayLabel": "If this is a Microsoft Graph documentation issue, you should file the issue in Github here: https://github.com/microsoftgraph/microsoft-graph-docs/issues or even suggest a Pull Request fix.",
-      "content": null,
+      "content": "<a href=''>If this is a Microsoft Graph documentation issue, you should file the issue in Github here: https://github.com/microsoftgraph/microsoft-graph-docs/issues or even suggest a Pull Request fix.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
