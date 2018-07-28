@@ -23,7 +23,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "ADFSDeployed"
+        },
+        {
+          "text": "No",
+          "value": "ADFSNotDeployed"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -40,7 +49,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Server 2016",
+          "value": "version2016"
+        },
+        {
+          "text": "Server 2012 R2",
+          "value": "version2012R2"
+        },
+        {
+          "text": "Server 2012",
+          "value": "version2012"
+        },
+        {
+          "text": "Server 2008 R2",
+          "value": "version2008R2"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +83,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "MultiDomainFederation"
+        },
+        {
+          "text": "No",
+          "value": "SingleDomainFederation"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

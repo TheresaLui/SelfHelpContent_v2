@@ -40,7 +40,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Belongs to my organization",
+          "value": "member"
+        },
+        {
+          "text": "Is an external user (guest/B2B user)",
+          "value": "externalUser"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +83,32 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal",
+          "value": "azurePortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "B2B API",
+          "value": "invitationAPI"
+        },
+        {
+          "text": "Access panel",
+          "value": "accessPanel"
+        },
+        {
+          "text": "Other Application",
+          "value": "otherApp"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

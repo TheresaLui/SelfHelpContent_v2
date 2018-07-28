@@ -23,7 +23,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Single user",
+          "value": "single"
+        },
+        {
+          "text": "Multiple users",
+          "value": "multiple"
+        },
+        {
+          "text": "Problem updating any user in my directory",
+          "value": "all"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +91,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "classic Azure portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -91,7 +125,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I don't know how to update this property of a user",
+          "value": "cantFind"
+        },
+        {
+          "text": "The controls to update the user are not enabled",
+          "value": "notEnabled"
+        },
+        {
+          "text": "I get an error when I try to update the user",
+          "value": "error"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

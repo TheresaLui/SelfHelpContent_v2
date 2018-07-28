@@ -40,7 +40,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "Azure classic portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "cantAssign"
+        },
+        {
+          "text": "Other, don't know, or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

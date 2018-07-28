@@ -23,7 +23,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Delete a user from Azure AD",
+          "value": "delete"
+        },
+        {
+          "text": "Restore a deleted user",
+          "value": "restore"
+        },
+        {
+          "text": "Remove a deleted user from the Azure AD recycle bin",
+          "value": "empty"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -40,7 +57,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "classic Azure portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +91,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I don't know how to delete a user",
+          "value": "cantFind"
+        },
+        {
+          "text": "The controls to delete the user are not enabled",
+          "value": "notEnabled"
+        },
+        {
+          "text": "I get an error when I try to delete the user",
+          "value": "error"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -108,7 +159,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Single user",
+          "value": "single"
+        },
+        {
+          "text": "Multiple users",
+          "value": "multiple"
+        },
+        {
+          "text": "Any user in my directory",
+          "value": "all"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -159,7 +227,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I don't know how to restore a user",
+          "value": "cantFind"
+        },
+        {
+          "text": "I get an error when I try to restore the user",
+          "value": "error"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -210,7 +291,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Single user",
+          "value": "single"
+        },
+        {
+          "text": "Multiple users",
+          "value": "multiple"
+        },
+        {
+          "text": "Any user in my directory",
+          "value": "all"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -261,7 +359,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I don't know how to remove a user from the recycle bin",
+          "value": "cantFind"
+        },
+        {
+          "text": "I get an error when I try to remove the user from the recylce bin",
+          "value": "error"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -312,7 +423,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Single user",
+          "value": "single"
+        },
+        {
+          "text": "Multiple users",
+          "value": "multiple"
+        },
+        {
+          "text": "Any user in my directory",
+          "value": "all"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

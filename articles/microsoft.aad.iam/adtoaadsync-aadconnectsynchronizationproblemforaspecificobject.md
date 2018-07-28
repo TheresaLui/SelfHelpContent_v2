@@ -74,7 +74,32 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "User",
+          "value": "user"
+        },
+        {
+          "text": "Group",
+          "value": "group"
+        },
+        {
+          "text": "Contact",
+          "value": "contact"
+        },
+        {
+          "text": "Computer/Device",
+          "value": "device"
+        },
+        {
+          "text": "Mail-Enabled Public Folder",
+          "value": "publicFolder"
+        },
+        {
+          "text": "Other",
+          "value": "otherObjectType"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -91,7 +116,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Don't know",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

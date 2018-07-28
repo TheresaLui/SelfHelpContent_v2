@@ -23,7 +23,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I don't know how to assign an Azure AD role",
+          "value": "howTo"
+        },
+        {
+          "text": "I don't know which Azure AD role to assign",
+          "value": "whichRole"
+        },
+        {
+          "text": "Azure AD does not allow me (or someone else) to assign an Azure AD role",
+          "value": "cantAssign"
+        },
+        {
+          "text": "A user does not have expected access to manage Azure AD resources",
+          "value": "noAccess"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +95,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "Azure classic portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "Other",
+          "value": "other"
+        },
+        {
+          "text": "Don't know or not applicable",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -159,7 +201,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Full control of all resources and features in Azure AD",
+          "value": "global"
+        },
+        {
+          "text": "Partial control of Azure AD resources and features",
+          "value": "partial"
+        },
+        {
+          "text": "One specific resource in Azure AD, such as an application or a group",
+          "value": "oneResource"
+        },
+        {
+          "text": "Other",
+          "value": "other"
+        },
+        {
+          "text": "Don't know, or not applicable",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -295,7 +358,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "Azure classic portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "Other",
+          "value": "other"
+        },
+        {
+          "text": "Don't know or not applicable",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -380,7 +464,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Full control of all resources and features in Azure AD",
+          "value": "global"
+        },
+        {
+          "text": "Partial control of Azure AD resources and features",
+          "value": "partial"
+        },
+        {
+          "text": "One specific resource in Azure AD, such as an application or a group",
+          "value": "oneResource"
+        },
+        {
+          "text": "Other",
+          "value": "other"
+        },
+        {
+          "text": "Don't know, or not applicable",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

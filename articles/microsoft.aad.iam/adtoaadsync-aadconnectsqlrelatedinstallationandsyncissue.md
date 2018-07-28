@@ -40,7 +40,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "LocalDB",
+          "value": "localDB"
+        },
+        {
+          "text": "Full SQL installed on the same server as Azure AD Connect",
+          "value": "fullSQLLocal"
+        },
+        {
+          "text": "Full SQL installed on a different server than Azure AD Connect",
+          "value": "fullSQLRemote"
+        },
+        {
+          "text": "Other",
+          "value": "otherDBConfig"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

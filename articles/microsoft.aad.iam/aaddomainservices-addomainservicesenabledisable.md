@@ -23,7 +23,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Enable Azure AD Domain Services",
+          "value": "enable"
+        },
+        {
+          "text": "Disable Azure AD Domain Services",
+          "value": "disable"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -40,7 +49,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Classic Azure Portal",
+          "value": "enable"
+        },
+        {
+          "text": "New Azure Portal",
+          "value": "disable"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

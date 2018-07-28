@@ -23,7 +23,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I haven't setup WHfB and need help getting started.",
+          "value": "whfbPrbsetup"
+        },
+        {
+          "text": "I've set up WHfB but isn't working.",
+          "value": "whfbPrbnotworking"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "ptother"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +70,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I need general help getting started.",
+          "value": "whfbsetupgeneral"
+        },
+        {
+          "text": "I have specific questions not covered in documentation.",
+          "value": "whfbsetupspecific"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbsetupother"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -108,7 +134,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I do not get prompted to register for a PIN",
+          "value": "nopinprompt"
+        },
+        {
+          "text": "I experience failures during PIN enrollment",
+          "value": "pinenrollfail"
+        },
+        {
+          "text": "My biometrics or PIN are not working for Sign-in",
+          "value": "biometric"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbfailother"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -125,7 +168,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Cloud ONLY",
+          "value": "whfbdetaildeploymentcloud"
+        },
+        {
+          "text": "Hybrid (Cloud AND On-premises)",
+          "value": "whfbdetaildeploymenthybrid"
+        },
+        {
+          "text": "On-Premises ONLY",
+          "value": "whfbdetaildeploymentonprem"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetaildeploymentunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -142,7 +202,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Key Trust (group policy managed)",
+          "value": "whfbdetailhybridtrustkeygp"
+        },
+        {
+          "text": "Key Trust (MDM managed)",
+          "value": "whfbdetailhybridtrustkeymdm"
+        },
+        {
+          "text": "Certificate Trust (MDM managed)",
+          "value": "whfbdetailhybridtrustcertmdm"
+        },
+        {
+          "text": "Certificate Trust (mixed managed)",
+          "value": "whfbdetailhybridtrustcertmixed"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailhybridtrustunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -159,7 +240,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure MFA",
+          "value": "whfbdetailhybridmfaazuremfa"
+        },
+        {
+          "text": "AD FS with Azure MFA Adapter",
+          "value": "whfbdetailhybridmfaadfsmfaserver"
+        },
+        {
+          "text": "AD FS with Azure MFA Server",
+          "value": "whfbdetailhybridmfaadfsmfaadapter"
+        },
+        {
+          "text": "AD FS with 3rd Party MFA Adapter",
+          "value": "whfbdetailhybridmfaadfs3rdpartyadapter"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailhybridmfaunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,
@@ -176,7 +278,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Key Trust (group policy managed)",
+          "value": "whfbdetailonpremtrustkeygp"
+        },
+        {
+          "text": "Certificate Trust (group policy managed)",
+          "value": "whfbdetailonpremtrustcertgp"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailonpremtrustunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -193,7 +308,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "AD FS with Azure MFA Server",
+          "value": "whfbdetailonpremmfaadfsmfaserver"
+        },
+        {
+          "text": "AD FS with 3rd Party MFA Adapter",
+          "value": "whfbdetailonpremmfaadfs3rdparty"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailonpremmfaunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,
@@ -210,7 +338,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Key Trust (MDM managed)",
+          "value": "whfbdetailcloudtrustkeymdm"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailcloudtrustunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -227,7 +364,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure MFA",
+          "value": "whfbdetailcloudmfaazuremfa"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "whfbdetailcloudmfaunknown"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,

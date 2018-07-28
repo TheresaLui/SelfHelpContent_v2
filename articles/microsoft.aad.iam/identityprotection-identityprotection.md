@@ -23,7 +23,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Users flagged for risk",
+          "value": "riskyUsers"
+        },
+        {
+          "text": "Risk events",
+          "value": "riskEvents"
+        },
+        {
+          "text": "Vulnerabilities",
+          "value": "Vulnerabilities"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -91,7 +108,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Multi-factor authentication registration not configured",
+          "value": "noMFA"
+        },
+        {
+          "text": "Unmanaged cloud apps",
+          "value": "umCloudApps"
+        },
+        {
+          "text": "Security Alerts from Privileged Identity Management",
+          "value": "PIM"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -108,7 +142,36 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Users with leaked credentials ",
+          "value": "leaked"
+        },
+        {
+          "text": "Sign-ins from anonymous IP addresses",
+          "value": "anonymous"
+        },
+        {
+          "text": "Impossible travel to atypical locations ",
+          "value": "impTravel"
+        },
+        {
+          "text": "Sign-ins from unfamiliar locations ",
+          "value": "Unfamiliar"
+        },
+        {
+          "text": "Sign-ins from infected devices  ",
+          "value": "Infected"
+        },
+        {
+          "text": "Sign-ins from IP addresses with suspicious activity  ",
+          "value": "Suspicious"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

@@ -57,7 +57,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Password reset reports/audit logs",
+          "value": "audit"
+        },
+        {
+          "text": "Password reset registration",
+          "value": "register"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "na"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,
@@ -74,7 +87,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,

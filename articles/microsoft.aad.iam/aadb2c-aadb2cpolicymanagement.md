@@ -23,7 +23,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Built-in Policy",
+          "value": "no"
+        },
+        {
+          "text": "Custom Policy",
+          "value": "yes"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

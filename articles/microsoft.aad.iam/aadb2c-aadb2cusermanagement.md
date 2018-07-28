@@ -40,7 +40,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Via the Azure AD B2C 'Users and groups' menu",
+          "value": "IAM"
+        },
+        {
+          "text": "Through a sign-up process (via a policy)",
+          "value": "Policy"
+        },
+        {
+          "text": "Using the Graph API",
+          "value": "Graph"
+        },
+        {
+          "text": "Other or don't know",
+          "value": "Other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,

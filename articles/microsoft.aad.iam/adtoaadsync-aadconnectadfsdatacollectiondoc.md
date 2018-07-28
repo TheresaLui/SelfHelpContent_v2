@@ -23,7 +23,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "ADFSDeployed"
+        },
+        {
+          "text": "No",
+          "value": "ADFSNotDeployed"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -40,7 +49,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Server 2016",
+          "value": "version2016"
+        },
+        {
+          "text": "Server 2012 R2",
+          "value": "version2012R2"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +75,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "MultiDomainFederation"
+        },
+        {
+          "text": "No",
+          "value": "SingleDomainFederation"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +101,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Deploy AD FS using Azure AD Connect",
+          "value": "DeployADFS"
+        },
+        {
+          "text": "Add additional AD FS / WAP Server",
+          "value": "AddADFSServer"
+        },
+        {
+          "text": "Add federation for another domain in Azure AD",
+          "value": "FederateMultipleDomain"
+        },
+        {
+          "text": "Other",
+          "value": "OtherFederationTask"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

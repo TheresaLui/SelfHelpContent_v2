@@ -57,7 +57,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Worked previously",
+          "value": "no"
+        },
+        {
+          "text": "New configuration",
+          "value": "yes"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,

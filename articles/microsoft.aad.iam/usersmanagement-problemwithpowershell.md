@@ -23,7 +23,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "cmdlet is not working or is returning unexpected results",
+          "value": "notWorking"
+        },
+        {
+          "text": "I don't know which PowerShell cmdlet to use",
+          "value": "whichCmdlet"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -142,7 +155,36 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Enumerate users in my Azure AD",
+          "value": "enumerate"
+        },
+        {
+          "text": "Get data about a particular user in my Azure AD",
+          "value": "read"
+        },
+        {
+          "text": "Create a user",
+          "value": "create"
+        },
+        {
+          "text": "Delete a user",
+          "value": "delete"
+        },
+        {
+          "text": "Update a property of a user",
+          "value": "update"
+        },
+        {
+          "text": "Add or remove access for a user",
+          "value": "access"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

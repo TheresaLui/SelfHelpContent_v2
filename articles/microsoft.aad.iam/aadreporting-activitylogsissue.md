@@ -23,7 +23,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure Portal",
+          "value": "AP"
+        },
+        {
+          "text": "O365 Admin Portal",
+          "value": "O365"
+        },
+        {
+          "text": "Microsoft Graph APIs",
+          "value": "API"
+        },
+        {
+          "text": "Azure AD Power BI Content Pack",
+          "value": "PBI"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +74,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Don't know",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +104,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Sign-ins",
+          "value": "signins"
+        },
+        {
+          "text": "Audit",
+          "value": "audit"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -91,7 +130,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I can't find all the activity logs in my downloaded/exported file",
+          "value": "missingdatadownload"
+        },
+        {
+          "text": "I can't find actions that have been recently performed in Azure AD through activity logs",
+          "value": "latencydata"
+        },
+        {
+          "text": "I can't find activity logs beyond 30 days (Premium tenants) or 7 days (free/basic tenants)",
+          "value": "dataretentionFree"
+        },
+        {
+          "text": "Other issues",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

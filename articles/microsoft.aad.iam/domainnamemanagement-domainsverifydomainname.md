@@ -74,7 +74,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "No additional tenants",
+          "value": "None"
+        },
+        {
+          "text": "Yes we have an additional Azure AD for Office 365",
+          "value": "ContainsMultipleO365"
+        },
+        {
+          "text": "Yes we have an additional Azure AD without Office 365",
+          "value": "ContainsMultiple"
+        },
+        {
+          "text": "Don't know/other",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

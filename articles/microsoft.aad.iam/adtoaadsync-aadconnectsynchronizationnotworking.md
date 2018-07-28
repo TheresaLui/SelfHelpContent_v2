@@ -74,7 +74,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Don't know",
+          "value": "dontKnow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

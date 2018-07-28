@@ -23,7 +23,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure AD PowerShell v1 (e.g. Set-​Msol​User​License)",
+          "value": "v1"
+        },
+        {
+          "text": "Azure AD PowerShell v2 (e.g. Set-​Azure​AD​User​License)",
+          "value": "v2"
+        },
+        {
+          "text": "Microsoft Graph APIs",
+          "value": "msGraph"
+        },
+        {
+          "text": "Not sure",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -40,7 +57,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Not sure",
+          "value": "dontknow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

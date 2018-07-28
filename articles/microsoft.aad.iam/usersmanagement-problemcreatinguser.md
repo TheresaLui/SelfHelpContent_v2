@@ -40,7 +40,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal (portal.azure.com)",
+          "value": "azurePortal"
+        },
+        {
+          "text": "classic Azure portal (manage.windowsazure.com)",
+          "value": "classicPortal"
+        },
+        {
+          "text": "PowerShell",
+          "value": "powerShell"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +74,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "I can't find where to add a new user to Azure AD",
+          "value": "cantFind"
+        },
+        {
+          "text": "The 'new' button isn't enabled",
+          "value": "notEnabled"
+        },
+        {
+          "text": "Error during creation of a user",
+          "value": "serverError"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -108,7 +142,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Me",
+          "value": "self"
+        },
+        {
+          "text": "Another administrator",
+          "value": "otherUser"
+        },
+        {
+          "text": "Other, don't know or not applicable",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

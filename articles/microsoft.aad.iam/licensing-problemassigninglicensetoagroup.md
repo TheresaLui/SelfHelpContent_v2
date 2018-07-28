@@ -23,7 +23,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        },
+        {
+          "text": "Not sure",
+          "value": "dontknow"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +70,28 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Azure portal",
+          "value": "azurePortal"
+        },
+        {
+          "text": "Office portal",
+          "value": "officePortal"
+        },
+        {
+          "text": "PowerShell cmdlets",
+          "value": "powerShell"
+        },
+        {
+          "text": "Microsoft Graph APIs",
+          "value": "msGraph"
+        },
+        {
+          "text": "Not sure",
+          "value": "other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

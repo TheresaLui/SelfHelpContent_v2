@@ -74,7 +74,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Configuration change made in Azure AD Connect wizard",
+          "value": "configChangeInWizard"
+        },
+        {
+          "text": "Changes made to synchronization rules",
+          "value": "syncRuleChange"
+        },
+        {
+          "text": "Don't know / Other",
+          "value": "dontKnowOrOther"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

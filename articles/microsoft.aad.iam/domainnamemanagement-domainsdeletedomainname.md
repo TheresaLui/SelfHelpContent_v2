@@ -74,7 +74,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "No additional directories",
+          "value": "None"
+        },
+        {
+          "text": "Yes we have an additional Azure AD or use Office 365",
+          "value": "ContainsMultiple"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

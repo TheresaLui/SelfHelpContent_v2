@@ -23,7 +23,48 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "New installation",
+          "value": "installation"
+        },
+        {
+          "text": "Uninstallation",
+          "value": "uninstallation"
+        },
+        {
+          "text": "Automatic Upgrade",
+          "value": "autoUpgrade"
+        },
+        {
+          "text": "Upgrade from previous version (in-place upgrade)",
+          "value": "upgradeInplace"
+        },
+        {
+          "text": "Upgrade from previous version (swing or side-by-side migration)",
+          "value": "upgradeSwing"
+        },
+        {
+          "text": "Upgrade from DirSync (in-place upgrade)",
+          "value": "upgradeDirSyncInplace"
+        },
+        {
+          "text": "Upgrade from DirSync (parallel deployment)",
+          "value": "upgradeDirSyncParallel"
+        },
+        {
+          "text": "Upgrade from Azure AD Sync (in-place upgrade)",
+          "value": "upgradeAADSyncInPlace"
+        },
+        {
+          "text": "Upgrade from Azure AD Sync (swing or side-by-side migration)",
+          "value": "upgradeAADSyncSwing"
+        },
+        {
+          "text": "Other",
+          "value": "otherProblem"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

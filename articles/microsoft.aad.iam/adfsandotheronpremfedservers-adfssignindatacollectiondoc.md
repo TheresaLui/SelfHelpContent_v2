@@ -40,7 +40,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "MultiDomainFederation"
+        },
+        {
+          "text": "No",
+          "value": "SingleDomainFederation"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -57,7 +66,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "AllUsersImpacted"
+        },
+        {
+          "text": "No",
+          "value": "SingleOrSelectedUsersImpacted"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -74,7 +92,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Internal (within corpnet)",
+          "value": "Internal"
+        },
+        {
+          "text": "External (via WAP)",
+          "value": "External"
+        },
+        {
+          "text": "Both Internal and External",
+          "value": "BothInternalExternal"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
@@ -91,7 +122,20 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "At AD FS Sign-in Page",
+          "value": "ErrorOnAdfsPage"
+        },
+        {
+          "text": "Somewhere in the Application",
+          "value": "ErrorOnApplicationPage"
+        },
+        {
+          "text": "I don't know",
+          "value": "NotSureErrorLocation"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

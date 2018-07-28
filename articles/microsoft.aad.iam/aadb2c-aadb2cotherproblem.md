@@ -40,7 +40,24 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Via the Azure AD B2C Applications Menu",
+          "value": "B2CPortal"
+        },
+        {
+          "text": "Via PowerShell",
+          "value": "Powershell"
+        },
+        {
+          "text": "Through identity.microsoft.com",
+          "value": "ARP"
+        },
+        {
+          "text": "Don't know",
+          "value": "Other"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": false,

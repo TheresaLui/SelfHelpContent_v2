@@ -74,7 +74,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Issue is specific to a particular user",
+          "value": "specificObject"
+        },
+        {
+          "text": "Password Synchronization process is not working and is affecting many or all users",
+          "value": "global"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,

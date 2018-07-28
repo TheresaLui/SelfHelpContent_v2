@@ -40,7 +40,16 @@
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Synced",
+          "value": "Synced"
+        },
+        {
+          "text": "Cloud-only",
+          "value": "CloudOnly"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
