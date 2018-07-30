@@ -35,7 +35,7 @@ Only an [Owner](https://docs.microsoft.com/azure/role-based-access-control/buil
 
 ## **Recommended docunents**
 
-* [How to request copy of Azure invoice via email](https://azure.microsoft.com/en-us/blog/azure-email-invoices/)
+* [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [How to add, update or remove a credit or debit card from Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
 * [Manage (Reactivate/cancel/Switch) subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 * [How to Edit profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
