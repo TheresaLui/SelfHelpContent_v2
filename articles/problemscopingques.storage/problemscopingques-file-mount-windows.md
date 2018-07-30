@@ -22,13 +22,13 @@
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "same_region",
-					"text": "Azure VM in same region as the Azure File Share"
+					"text": "Azure VM is in same region as the Azure File Share"
 				}, {
 					"value": "different_region",
-					"text": "Azure VM in different region than the Azure File Share"
+					"text": "Azure VM is in different region than the Azure File Share"
 				}, {
 					"value": "on_premises",
-					"text": "On-premises or other"
+					"text": "Client is outside Azure"
 				}
 			],
 			"required": true
