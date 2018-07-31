@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Azure Automation - Portal - Unlink Workspace
+    pageTitle="Azure Automation - Portal - Unlink Workspace"
     description="Azure Automation - Portal - Unlink Workspace"
     service="microsoft.automation"
     resource="automationaccounts"
