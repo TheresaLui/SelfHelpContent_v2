@@ -11,7 +11,7 @@
 # Storage File Share mounting issues - Linux
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage File Share mounting issues - Linux",
 	"fileAttachmentHint": "",
 	"formElements": [{

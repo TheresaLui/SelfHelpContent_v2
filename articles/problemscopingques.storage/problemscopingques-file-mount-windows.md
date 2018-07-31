@@ -11,7 +11,7 @@
 # Storage File Share mounting issues - Windows
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage File Share mounting issues - Windows",
 	"fileAttachmentHint": "",
 	"formElements": [{
