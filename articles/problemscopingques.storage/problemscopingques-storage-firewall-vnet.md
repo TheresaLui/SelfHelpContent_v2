@@ -11,7 +11,7 @@
 # Storage Firewall and VNet
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage Firewall and VNet scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
