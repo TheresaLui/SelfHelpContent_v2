@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed for the following reason: enabling the availability set for accelerated networking is not possible as the cluster does not support that functionality.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed for the following reason: enabling the availability set for accelerated networking is not possible as the cluster does not support that functionality..
 <!--/issueDescription-->
 
 When enabling Accelerated Networking for an availability set, the *availability set* must be deployed on an ***Accelerated Networking enabled cluster***. If you are creating a VM with *Accelerated Networking* and encounter this issue, all VMs in an availability set or VMSS must be stopped/deallocated before enabling Accelerated Networking on any NIC. For additional information, refer to [Enable Accelerated Networking on existing VMs using CLI](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms) and [PowerShell](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-powershell)<br>

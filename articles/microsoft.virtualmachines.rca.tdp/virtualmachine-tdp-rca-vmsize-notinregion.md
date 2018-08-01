@@ -27,7 +27,7 @@ To learn more about resizing:<br>
 * [Resizing virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines)<br>
 
 To learn more about sizes supported in each region:<br>
-* Check the Products available by region, [here](https://azure.microsoft.com/regions/services/)<br>
+* Products available by region, [follow these instructions](https://azure.microsoft.com/regions/services/)<br>
 
 To learn more about allocation failures:<br>
 * [Troubleshoot allocation failures for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/allocation-failure)<br>
