@@ -16,12 +16,12 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Application Gateway backend pool
 <!--issueDescription-->
-We have identified that your Application Gateway, **'<!--Gatewayname-->[GatewayName]<!--/Gatewayname-->'**, has a backend address pool, '**<!--BackendPool-->[BackendAddressPoolName]<!--/BackendPool-->'**, that is empty. The resources in your Application Gateway's backend address pool are the resources hosting your web solutions. With an empty backend address pool there are no resources to respond to the Application Gateway's health probes and no way to serve your solution to your end users. You can check the health of your backend pools using the 'Backend Health' blade for your Application Gateway. Here, you will receive the status of your backend pools and detailed descriptions, if health issues are detected, and what you can do to resolve.
+We have identified that your Application Gateway, **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**, has a backend address pool, '**<!--$BackendPool-->[BackendAddressPoolName]<!--/$BackendPool-->'**, that is empty. The resources in your Application Gateway's backend address pool are the resources hosting your web solutions. With an empty backend address pool there are no resources to respond to the Application Gateway's health probes and no way to serve your solution to your end users. You can check the health of your backend pools using the 'Backend Health' blade for your Application Gateway. Here, you will receive the status of your backend pools and detailed descriptions, if health issues are detected, and what you can do to resolve.
 <!--/issueDescription-->
 ## **Steps to resolve**
-1. Find your Application Gateway: '<!--Gatewayname-->[GatewayName]<!--/Gatewayname-->' in the [Azure portal](http://portal.azure.com).
+1. Find your Application Gateway: '<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->' in the [Azure portal](http://portal.azure.com).
 2. Select the 'Backend Pools' blade
-3. Select the backend pool: '<!--BackendPool-->[BackendAddressPoolName]<!--/BackendPool-->'
+3. Select the backend pool: '<!--$BackendPool-->[BackendAddressPoolName]<!--/$BackendPool-->'
 4. Select the drop down and select IP Address or FDQN, Virtual Machine, or VMSS
 5. Complete the remaining fields and Save.
 
