@@ -17,6 +17,6 @@ cloudEnvironments="public"
 # Deleted blob can be recover within <!--$SoftDeleteRetenionDays-->[SoftDeleteRetenionDays]<!--/$SoftDeleteRetenionDays--> days after deletion
 
 <!--issueDescription-->
-The deleted storage blob **<!--$BlobPath-->[BlobPath]<!--/$BlobPath-->** is recoverable within <!--$SoftDeleteRetentionDays-->[SoftDeleteRetentionDays]<!--/$SoftDeleteRetentionDays--> days after deletion. Please use the [Undelete Blob API](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete#recovery) to perform recovery. 
+The deleted storage blob **<!--$BlobPath-->[BlobPath]<!--/$BlobPath-->** is recoverable within <!--$SoftDeleteRetentionDays-->[SoftDeleteRetentionDays]<!--/$SoftDeleteRetentionDays--> days after deletion because soft delete is enabled for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. Please use the [Undelete Blob API](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete#recovery) to perform recovery. 
 
 <!--/issueDescription-->
