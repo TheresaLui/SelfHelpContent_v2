@@ -80,7 +80,7 @@
       "order": 4,
       "controlType": "infoblock",
       "displayLabel": "Microsoft can provide a solution to your problem faster if you can provide a client request ID and timestamp. You can find this info either in the HTTP response header or in the error response.",
-      "content": "<a href=''>Microsoft can provide a solution to your problem faster if you can provide a client request ID and timestamp. You can find this info either in the HTTP response header or in the error response.</a>",
+      "content": "<a href='#'>Microsoft can provide a solution to your problem faster if you can provide a client request ID and timestamp. You can find this info either in the HTTP response header or in the error response.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

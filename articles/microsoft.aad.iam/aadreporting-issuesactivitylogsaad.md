@@ -1,4 +1,4 @@
-<properties pageTitle="" 
+<properties pageTitle="Problem with Activity logs in Azure AD" 
 	 description="issuesactivitylogsaad" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
@@ -7,11 +7,11 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-#  
+# Problem with Activity logs in Azure AD 
 ---
 {
   "resourceRequired": true,
-  "title": null,
+  "title": "Problem with Activity logs in Azure AD",
   "fileAttachmentHint": null,
   "formElements": [
     {
@@ -58,7 +58,7 @@
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": "You are currently using Azure portal",
-      "content": "<a href=''>You are currently using Azure portal</a>",
+      "content": "<a href='#'>You are currently using Azure portal</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
@@ -135,7 +135,7 @@
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": "Check out the frequently asked questions about Activity logs here.",
-      "content": "<a href=''>Check out the frequently asked questions about Activity logs here.</a>",
+      "content": "<a href='#'>Check out the frequently asked questions about Activity logs here.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
@@ -181,7 +181,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "symptoms",
+      "id": "symptoms2",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

@@ -105,7 +105,7 @@
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": "Please provide a copy of the Windows Event logs (Application and System) during when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
-      "content": "<a href=''>Please provide a copy of the Windows Event logs (Application and System) during when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.</a>",
+      "content": "<a href='#'>Please provide a copy of the Windows Event logs (Application and System) during when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

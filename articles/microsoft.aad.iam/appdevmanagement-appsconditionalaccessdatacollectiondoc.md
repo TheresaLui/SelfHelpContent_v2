@@ -152,7 +152,7 @@
       "order": 8,
       "controlType": "infoblock",
       "displayLabel": "If the user is getting blocked during sign in, collect the correlation ID and timestamp from they are shown under ''More details'''.'",
-      "content": "<a href=''>If the user is getting blocked during sign in, collect the correlation ID and timestamp from they are shown under ''More details'''.'</a>",
+      "content": "<a href='#'>If the user is getting blocked during sign in, collect the correlation ID and timestamp from they are shown under ''More details'''.'</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

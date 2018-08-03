@@ -50,7 +50,7 @@
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": "If the problem has to do with inviting guest users to collaborate with your organization, please go to the previous step and select the category 'Adding a guest user(B2B)'.'",
-      "content": "<a href=''>If the problem has to do with inviting guest users to collaborate with your organization, please go to the previous step and select the category 'Adding a guest user(B2B)'.'</a>",
+      "content": "<a href='#'>If the problem has to do with inviting guest users to collaborate with your organization, please go to the previous step and select the category 'Adding a guest user(B2B)'.'</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

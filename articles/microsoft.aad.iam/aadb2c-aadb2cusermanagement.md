@@ -71,7 +71,7 @@
       "order": 3,
       "controlType": "infoblock",
       "displayLabel": "Users created through the 'Users and groups' menu do not have the ability to sign in through a policy.",
-      "content": "<a href=''>Users created through the 'Users and groups' menu do not have the ability to sign in through a policy.</a>",
+      "content": "<a href='#'>Users created through the 'Users and groups' menu do not have the ability to sign in through a policy.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
