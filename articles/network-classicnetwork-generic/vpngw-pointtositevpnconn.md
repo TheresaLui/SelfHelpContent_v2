@@ -15,9 +15,19 @@
 # Point to site VPN connectivity issues
 
 ## **Recommended steps**
-Note: Effective July 01' 2018, we'll be supporting only TLS 1.2 from Azure VPN Gateway. TLS 1.0 and 1.1 will not be supported. To maintain TLS support and connectivity for your point-to-site clients using TLS, please install both of the below updates on Windows 7 and Windows 8 (no action required for Windows 10):<br>
-[Microsoft EAP implementation that enables use of TLS](https://support.microsoft.com/help/2977292/microsoft-security-advisory-update-for-microsoft-eap-implementation-th)<br>
-[Enable TLS 1.1 and TLS 1.2 as default secure protocols in WinHTTP](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)
+If you are having problems connecting to your VPN from Windows 7 and Windows 8.1, you may need to enable support for TLS 1.2. If that is the case, please follow the steps below:<br>
+1.  Install the following updates:<br>
+[KB3140245](https://www.catalog.update.microsoft.com/search.aspx?q=kb3140245)<br>
+[KB2977292](https://www.microsoft.com/en-us/download/details.aspx?id=44342)<br>
+
+2.  Open an admin command prompt by right-clicking on “Command Prompt” and selecting “Run as administrator”<br>
+
+3.  Type and run the following commands from the admin command prompt:<br>
+C:\> reg add HKLM\SYSTEM\CurrentControlSet\Services\RasMan\PPP\EAP\13 /v TlsVersion /t REG_DWORD /d 0xfc0<br>
+C:\> reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0<br>
+C:\> if %PROCESSOR_ARCHITECTURE% EQU AMD64 reg add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0<br>
+4.  Reboot the computer<br>
+5.  Connect to the VPN<br>
 
 ## **Recommended documents**
 Troubleshoot [point-to-site connection issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems)<br>
