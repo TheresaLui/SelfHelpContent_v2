@@ -1,5 +1,5 @@
 ﻿<properties
-pageTitle="Unable to delete File due to open handles"
+pageTitle="Unable to delete file due to open handles"
 description="File handles must be closed before deletion"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
@@ -15,8 +15,9 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Unable to delete File due to open handles
+# Unable to delete <!--$FileType-->[FileType]<!--/$FileType--> due to open handles
 
 <!--issueDescription-->
-Storage <!--$FileType-->[FileType]<!--/$FileType--> **<!--$FileName-->[FileName]<!--/$FileName-->** cannot be deleted because it contains <!--$FileHandleCount-->[FileHandleCount]<!--/$FileHandleCount--> open handles. Please close all handles on the <!--$FileType-->[FileType]<!--/$FileType--> and retry deletion. Our support team has the ability to force close all handles in a <!--$FileType-->[FileType]<!--/$FileType-->. Let your support engineer know if you would like all file handles to be force closed.<br>
+The storage <!--$FileType-->[FileType]<!--/$FileType--> **<!--$FileName-->[FileName]<!--/$FileName-->** cannot be deleted because it contains <!--$FileHandleCount-->[FileHandleCount]<!--/$FileHandleCount--> open handles. Before you can delete an Azure Storage <!--$FileType-->[FileType]<!--/$FileType--> all handles need to be closed. Usually you can close these on the client side by closing all open instances of the file. However, if needed, we can force close these for you from the server side. If you need our assistance with this, please let us know.   
+
 <!--/issueDescription-->
