@@ -6,13 +6,13 @@
 	authors="scottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32549257"
+	supportTopicIds="32549259"
 	resourceTags="linux"
 	productPesIds="15571"
 	cloudEnvironments="public"
 />
 
-# Connectivity/Connectivity issues that are related to SAP HANA large instances
+# Performance/Performance issues that are related to SAP HANA large instances
 
 ## **Recommended documents**
 
