@@ -1,7 +1,7 @@
 <properties
 	pageTitle="configuration and setup/backup"
 	description="configuration and setup/backup"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -23,4 +23,4 @@
 * [Troubleshoot slow backup of files and folders in Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
 * [Review the features of Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)<br>
 * [Understand how to back up Azure virtual machines to Recovery Services vaults](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>
-* [Understand how to use Premium Storage with Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)<br>
+* [Understand how to use Premium Storage with Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)
