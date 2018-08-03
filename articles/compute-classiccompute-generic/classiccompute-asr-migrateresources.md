@@ -3,7 +3,7 @@
 	description="Migration and Move/Migrate resources using Azure Site Recovery"
 	service="microsoft.recoveryservices"
 	resource="virtualmachines"
-	authors="scotro"
+	authors="scotroAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570111,32570112,32570113"
