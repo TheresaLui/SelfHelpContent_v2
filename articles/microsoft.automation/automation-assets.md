@@ -1,21 +1,19 @@
-
 <properties
-    pageTitle="assets"
-    description="32501525Assets"
+    pageTitle="Azure Automation - Assets"
+    description="Azure Automation - Assets"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501525"
+    supportTopicIds="32599854,32599872,32599917"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets
-
+# Azure Automation - Assets
 
 ## **Recommended documents**
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Learn about using Azure Automation assets](https://docs.microsoft.com/azure/automation/automation-variables)<br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

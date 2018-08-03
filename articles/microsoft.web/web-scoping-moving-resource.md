@@ -6,7 +6,7 @@
 	selfHelpType="supportTopicBasedScopingQuestions"
 	supportTopicIds="32581619"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Moving resources

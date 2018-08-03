@@ -9,7 +9,7 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, MoonCake"
 />
 
 # What metrics can I use to autoscale my scale set

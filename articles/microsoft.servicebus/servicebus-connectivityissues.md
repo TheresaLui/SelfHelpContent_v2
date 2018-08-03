@@ -9,7 +9,7 @@
 	supportTopicIds="32421022"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 />
 
 # connectivity issues

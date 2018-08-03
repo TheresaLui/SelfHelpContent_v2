@@ -14,8 +14,12 @@
 
 # configurationandsetup/confighealthprobes
 
-## **Recommended documents**
 
-[Application gateway health monitoring overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview)<br>
-[Create a custom probe for application gateway using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal)<br>
-[Create a custom probe for application gateway using PowerShell for Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-ps)
+## **Recommended steps**
+To find number of probes per interval, use below formula: <br>
+Probes per Interval = Backend Servers * Rules
+
+## **Recommended documents**
+Create a custom probe using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-ps)<br>
+Application gateway [health monitoring](https://docs.microsoft.com/azure/application-gateway/application-gateway-probe-overview) overview
+

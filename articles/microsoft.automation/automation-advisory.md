@@ -1,21 +1,19 @@
-
 <properties
-    pageTitle="advisory"
-    description="32536799Advisory"
+    pageTitle="Azure Automation - Advisory"
+    description="Azure Automation - Advisory"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32536799"
+    supportTopicIds="32599853"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# advisory
-
+# Azure Automation - Advisory
 
 ## **Recommended documents**
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Learn about using Azure Automation](https://docs.microsoft.com/azure/automation/)<br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

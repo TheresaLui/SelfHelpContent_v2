@@ -6,7 +6,7 @@
     authors="Jeffsta-MSFT"
     displayOrder="2521"
     selfHelpType="resource"
-    resourceTags="directory_overview"
+    resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     />
 
@@ -18,7 +18,7 @@
 3.	Open the blade for the subscription you're changing.
 4.	On the **Subscriptions** blade, select **Access Control (IAM)**.
 5.  On the **Access control (IAM)** blade, select **Add** in the command bar. 
-6.	On the **Add permissions** blade, select a role.
+6.	On the **Add permissions** blade, select [the appropriate role](https://docs.microsoft.com/azure/active-directory/role-based-access-built-in-roles).
 7.	Then search for the user by name or email address (or a device name), select the user or device and select **Save**.
 
 

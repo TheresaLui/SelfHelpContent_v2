@@ -6,7 +6,7 @@
     authors="Jeffsta-MSFT"
     displayOrder="2522"
     selfHelpType="resource"
-    resourceTags="directory_overview"
+    resourceTags="Azure_RBAC"
     cloudEnvironments="public"
     />
 
@@ -21,7 +21,7 @@
 5.	The recipient clicks the link and follows the instructions, including entering their payment information. When the recipient succeeds, the subscription is transferred. 
 
 ## **Recommended documents**
-[Transfer ownership of an Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#faq)
-[Understanding resource access in Azure](https://docs.microsoft.com/azure/active-directory/active-directory-understanding-resource-access)
+* [Transfer ownership of an Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#faq)
+* [Understanding resource access in Azure](https://docs.microsoft.com/azure/active-directory/active-directory-understanding-resource-access)
 * [Add or change Azure Administrator roles that manage subscriptions](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator) 
 * [Types of Azure admin accounts](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#types-of-azure-admin-accounts)

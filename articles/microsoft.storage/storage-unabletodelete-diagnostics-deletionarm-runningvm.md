@@ -1,21 +1,31 @@
 <properties
 pageTitle="Running VM attached message"
 description="Running VM attached message"
-infoBubbleText="Running VM has been detected."
+infoBubbleText="A running VM is attached to the disk. See details on the right."
 service="microsoft.storage"
 resource="storage"
-authors="divka78"
+authors="divka78, passaree"
 displayOrder=""
 articleId="StorageDeletionARM_RunningVM"
 diagnosticScenario="Running VM attached"
 selfHelpType="diagnostics"
-supportTopicIds="32551656"
+supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
 cloudEnvironments="public"
 />
 
 # **Running VM has been detected**
+
 <!--issueDescription-->
-Microsoft Azure has concluded an investigation of your delete operation against your storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. We identified that the VM <!--$vmname-->[vmname]<!--/$vmname-->, is actively running , which is preventing it's deletion. You will have to stop & delete the VM before you can delete the storage account.<br>
+Microsoft Azure identified one or more virtual machines that are actively using disks hosted in the storage account <!--$StorageAccountName-->[StorageAccountName]<!--/$StorageAccountName-->. The following actions must be completed for all disk(s) listed below before deleting the storage account: 
+
+1. <strong>OS Disk:</strong> stop and deleted the virtual machine
+2. <strong>Data Disk:</strong> detach the disk from the virtual machine
+
+Here is the list of all impacted virtual machines and the corresponding disks:
+
+<!--$ResourceList-->[ResourceList]<!--/$ResourceList-->
+
 <!--/issueDescription-->
+

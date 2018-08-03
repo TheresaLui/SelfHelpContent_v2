@@ -16,5 +16,4 @@
 
 ## **Recommended documents**
 
-[Configure an application gateway for SSL offload using the portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal)<br>
-[Configure an application gateway for SSL offload using Azure Resource Manager](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm)
+Configure an application gateway for SSL offload using the [Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm) or [CLI](https://docs.microsoft.com/azure/application-gateway/quick-create-cli)

@@ -9,10 +9,10 @@
 	supportTopicIds="32558805"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Service Fabric Windows Server On-Premises
 
-* Support for Service Fabric OnPremise is separate from Service Fabric for Azure. Get Assisted support for stand-alone OnPremise [here](https://social.msdn.microsoft.com/Forums/azure/home?forum=AzureServiceFabric).<br>
-* Forum support is also available [here](http://support.microsoft.com/oas/default.aspx?prid=16146).
+* Support for Service Fabric OnPremise is separate from Service Fabric for Azure. Get Assisted support for stand-alone OnPremise [here](http://support.microsoft.com/oas/default.aspx?prid=16146).<br>
+* Forum support is also available [here](https://social.msdn.microsoft.com/Forums/azure/home?forum=AzureServiceFabric).

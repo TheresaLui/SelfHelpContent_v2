@@ -9,7 +9,7 @@
 	supportTopicIds="32444077"
 	resourceTags=""
 	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # Open Source Technologies/MySQL

@@ -6,7 +6,7 @@
   authors="ajamess"
   selfHelpType="resource"
   cloudEnvironments="public"
-  resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties"
+  resourceTags="registeredapps_allapps_button, registeredapps_singleapp_properties,directory_overview"
   displayOrder="2508"
  />
 

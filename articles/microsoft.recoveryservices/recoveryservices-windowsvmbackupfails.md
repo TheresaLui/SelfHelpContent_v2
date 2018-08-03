@@ -1,26 +1,27 @@
 <properties
-	pageTitle="Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'"
-	description="Windows VM Snapshot issues"
+	pageTitle="Backup of Windows Azure virtual machine fails"
+	description="Top issues causing Windows Azure virtual machine backup failures"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="trinadhk"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32553277"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
-# Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'
+# Backup of Windows Azure virtual machine fails
 
 ## **Recommended steps**
-To resolve common isuess, try one or more of the following steps.
-
-1. Check VM has access to internet for taking snapshot. Learn how to [enable internet access](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-1-the-vm-does-not-have-internet-access) if VM is behind NSG or Firewall. 
-2. Check VMSnapshot extension (extension used by Backup) is [up-to-date](https://azure.microsoft.com/en-us/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-3-the-backup-extension-fails-to-update-or-load)
-3. Check that snapshot status is [retrievable.](https://azure.microsoft.com/documentation/articles/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout/#cause-4-the-snapshots-status-cannot-be-retrieved-or-the-snapshots-cannot-be-taken)
-
+- [Ensure your Windows VM agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) <br>
+- [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) <br>
+- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) <br>
+- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) <br>
 
 ## **Recommended documents**
-[Azure virtual machine backup troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)<br>
+- [VM agent is unable to communicate with the Azure Backup Service?](https://aka.ms/iaasvmbackuptshoot1) <br>
+- [Snapshot operation failed due to no network connectivity on the virtual machine?](https://aka.ms/iaasvmbackuptshoot2) <br>
+- [VMSnapshot extension operation failed?](https://aka.ms/iaasvmbackuptshoot3) <br>
+- [Unable to perform the operation as the VM Agent is not responsive?](https://aka.ms/iaasvmbackuptshoot4) <br>

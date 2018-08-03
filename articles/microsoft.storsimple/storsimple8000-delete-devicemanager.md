@@ -29,4 +29,4 @@ Once the device is deactivated, you can delete the device. This will allow you t
 ## **Recommended documents**
 
 [Delete a StorSimple Device Manager service](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-service#delete-a-service)<br>
-[Deactivate and delete a StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deactivate-and-delete-device#deactivate-and-delete-data)
+[Deactivate and delete a StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deactivate-and-delete-device)
