@@ -7,7 +7,7 @@
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32411816"
-	resourceTags="windows, linux, windowsSQL, redhat"	 
+	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
 />
