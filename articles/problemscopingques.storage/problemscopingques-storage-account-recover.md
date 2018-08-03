@@ -12,23 +12,29 @@
 ---
 {
 	"resourceRequired": false,
-	"title": "Recover deleted Storage Account",
+	"title": "Storage Account recovery scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "storage_account_name",
+			"id": "warning_same_name",
 			"order": 1,
+			"controlType": "infoblock",
+			"content": "WARNING: Do not recreate Storage Account with the same name while we attempt to recover it."
+		}, {
+			"id": "storage_account_name",
+			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Name of the deleted Storage Account",
+			"watermarkText": "StorageAccountName",
 			"required": true
 		}, {
 			"id": "storage_account_type",
-			"order": 2,
+			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Deployment type of Storage Account?",
+			"displayLabel": "Deployment model",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "ARM",
-					"text": "Resource Manager"
+					"text": "Resource Manager (ARM)"
 				}, {
 					"value": "Classic",
 					"text": "Classic"
@@ -36,27 +42,28 @@
 			],
 			"required": false
 		}, {
+			"id": "storage_account_region",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Region of Storage Account",
+			"watermarkText": "Region",
+			"required": false
+		}, {
 			"id": "problem_start_date",
-			"order": 3,
+			"order": 5,
 			"controlType": "datetimepicker",
-			"displayLabel": "Date and time that the issue occured?",
+			"displayLabel": "Date and time that the account was deleted",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 4,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Additional details."
-				}
-			]
+			"useAsAdditionalDetails": true
 		}, {
 			"id": "learn_more_text",
-			"order": 5,
+			"order": 7,
 			"controlType": "infoblock",
 			"content": "You can follow our <a href='https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data'>best practices for protecting your data</a> to ensure that your deleted data will be recoverable in the future."
 		}

@@ -1,25 +1,20 @@
-
 <properties
-    pageTitle="assets/credentials"
-    description="32501536Assetscredentials"
+    pageTitle="Azure Automation - Assets - Credentials"
+    description="Azure Automation - Assets - Credentials"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501536"
+    supportTopicIds="32599881"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets/credentials
-
+# Azure Automation - Assets - Credentials
 
 ## **Recommended documents**
-[Credential Assets in Azure Automation]
-(https://azure.microsoft.com/documentation/articles/automation-credentials/) <br>
-[Authenticating to Azure Using Azure Active Directory]
-(https://azure.microsoft.com/blog/azure-automation-authenticating-to-azure-using-azure-active-directory/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Credential assets in Azure Automation](https://docs.microsoft.com/azure/automation/automation-credentials) <br>
+[Introduction to authentication in Azure Automation](https://docs.microsoft.com/azure/automation/automation-security-overview) <br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
