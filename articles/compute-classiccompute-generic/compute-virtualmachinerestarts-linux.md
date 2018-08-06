@@ -3,12 +3,12 @@
 	description="management/virtual machine restarts"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="scottazure,timbasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411816"
+	supportTopicIds="32411816, 32602160"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571, 15797, 16470"
 	cloudEnvironments="public"
 />
 
