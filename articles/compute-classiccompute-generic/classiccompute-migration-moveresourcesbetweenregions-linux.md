@@ -3,12 +3,12 @@
 	description="Migration and Move/ Move resources between regions"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570114"
-	resourceTags="windows"
-	productPesIds="15571"
+	resourceTags="Linux"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 
