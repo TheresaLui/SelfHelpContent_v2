@@ -83,7 +83,7 @@
       "visibility": "gblUse!=no",
       "order": 3,
       "controlType": "infoblock",
-      "displayLabel": "Group-based licensing is currently in preview and has limited support via PowerShell and Graph APIs. Click here to read more about how PowerShell v1 cmdlets can be used with this feature.",
+      "displayLabel": null,
       "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-ps-examples'>Group-based licensing is currently in preview and has limited support via PowerShell and Graph APIs. Click here to read more about how PowerShell v1 cmdlets can be used with this feature.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
