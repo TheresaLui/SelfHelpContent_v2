@@ -1,27 +1,22 @@
-
 <properties
-    pageTitle="runbook development"
-    description="32501531RunbookDevelopment"
+    pageTitle="Azure Automation - Runbook Development"
+    description="Azure Automation - Runbook Development"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501531"
+    supportTopicIds="32599859,32599862,32599876,32599904,32599905,32599922"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public"
 />
 
-# runbook development
-
+# Azure Automation - Runbook Development
 
 ## **Recommended documents**
-[Azure Automation 101]
-(https://azure.microsoft.com/documentation/videos/azure-automation-101-with-powershell-and-eamon-o-reilly/) <br>
-[Azure Automation first runbook tutorial]
-(https://azure.microsoft.com/documentation/articles/automation-first-runbook-textual-powershell/) <br>
-[Runbook testing and troubleshooting]
-(https://azure.microsoft.com/blog/azure-automation-controlling-runbook-streams-for-testing-and-troubleshooting/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Automation runbook types](https://docs.microsoft.com/azure/automation/automation-runbook-types)<br>
+[Creating or importing a runbook](https://docs.microsoft.com/azure/automation/automation-creating-importing-runbook)<br>
+[Quickstart create a runbook](https://docs.microsoft.com/azure/automation/automation-quickstart-create-runbook)<br>
+[Troubleshoot errors with runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
