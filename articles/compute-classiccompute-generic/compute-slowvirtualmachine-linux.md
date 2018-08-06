@@ -3,7 +3,7 @@
 	description="performance/slow virtual machine"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411877, 32602158"
