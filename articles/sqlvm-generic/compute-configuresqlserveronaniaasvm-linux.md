@@ -18,6 +18,4 @@
 
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
 * [SQL Server on Azure Virtual Machines FAQ](https://docs.microsoft.com/azure/virtual-machines/linux/sql/sql-server-linux-faq)<br>
-* [Understand and configure high availability and disaster recovery for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-high-availability-dr)<br>
-* [Provision a SQL Server virtual machine in the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/Linux/sql/virtual-machines-windows-portal-sql-server-provision)<br>
-* [Provision a SQL Server virtual machine using Azure PowerShell (Resource Manager)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-ps-sql-create)
+* [Understand and configure high availability and disaster recovery for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-high-availability-dr)
