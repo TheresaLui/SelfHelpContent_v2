@@ -14,6 +14,7 @@
 	productPesIds="14749,16470,15571,16035"​
 	cloudEnvironments="public"
 />
+# You have Azure Advisor recommendations
 
 [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) has identified best practice recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> <!--$resourceName-->resourceName<!--/$resourceName-->. Advisor is a free offering that analyzes your usage and provides recommendations on how you can save money, improve performance, be more secure, and improve the reliability of the solutions you already have running on Azure.
 
