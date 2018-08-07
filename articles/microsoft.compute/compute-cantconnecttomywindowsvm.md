@@ -6,9 +6,9 @@
 	authors="ram-kakani"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32411835"
-	resourceTags="windows, windowsSQL"
-	productPesIds="14749"
+	supportTopicIds="32511135"
+	resourceTags=""
+	productPesIds="14749,14745"
 	cloudEnvironments="public"
 />
 

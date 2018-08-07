@@ -3,12 +3,12 @@
 	description="My VM restarted unexpectedly"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="kasparks"
+	authors="ScottAzure"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816"
-	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
-	productPesIds="14749"
+	supportTopicIds="32411816,32602160,32593740"
+	resourceTags=""
+	productPesIds="14749,15797,15571,16470,16454,16342,14745"
 	cloudEnvironments="public"
 />
 

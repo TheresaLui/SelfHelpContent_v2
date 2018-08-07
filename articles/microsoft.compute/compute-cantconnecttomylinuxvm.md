@@ -3,12 +3,12 @@
     description="I can't connect to my Linux VM"
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="kasparks"
+    authors="ScottAzure"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32411835,32602159"
-    resourceTags="linux, redhat, Ubuntu"
-    productPesIds="16470,15797,15571"
+    supportTopicIds="32411835,32602159,32547979"
+    resourceTags=""
+    productPesIds="16470,15797,15571,16342,16065,16454"
     cloudEnvironments="public"
 />
 
