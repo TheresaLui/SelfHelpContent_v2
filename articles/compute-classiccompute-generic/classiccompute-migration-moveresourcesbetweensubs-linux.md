@@ -3,12 +3,12 @@
 	description="Migration and Move/Move resources between subscriptions"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570117"
 	resourceTags="linux"
-	productPesIds="15571"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 

@@ -7,8 +7,8 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32568520"
- 	resourceTags=""
-	productPesIds="14749"
+ 	resourceTags="Windows,Linux"
+	productPesIds="14749,15571,15797"
 	cloudEnvironments="public"
 />
 

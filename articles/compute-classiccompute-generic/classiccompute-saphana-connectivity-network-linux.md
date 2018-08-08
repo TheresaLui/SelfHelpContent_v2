@@ -3,12 +3,12 @@
 	description="Connectivity/Network issues that are related to SAP HANA large instances"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549256"
 	resourceTags="linux"
-	productPesIds="15571"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 

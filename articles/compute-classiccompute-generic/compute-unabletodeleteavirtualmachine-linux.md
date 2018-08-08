@@ -3,12 +3,12 @@
 	description="Management/Unable to delete a virtual machine"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32573480"
 	resourceTags=""
-	productPesIds="15571"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 
