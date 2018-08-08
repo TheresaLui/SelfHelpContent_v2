@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32450212"
-	resourceTags="redhat"
-	productPesIds="15797"
+	supportTopicIds="32450212,32602162"
+	resourceTags="redhat,ubuntu"
+	productPesIds="15797,16470"
 	cloudEnvironments="public"
 />
 
@@ -22,6 +22,7 @@
 * [How to troubleshoot extensions](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-features#troubleshoot-vm-extensions)<br>
 
 **Additional information for specific extensions:**<br>
+
 * [Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-customscript)<br>
 * [OMS virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-oms)<br>
 * [Linux Diagnostic Extension](https://docs.microsoft.com/azure/virtual-machines/linux/diagnostic-extension)<br>
