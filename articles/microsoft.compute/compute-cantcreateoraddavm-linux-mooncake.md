@@ -6,9 +6,9 @@
 	authors="kasparks"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32411817"
-	resourceTags="linux, redhat"	 
-	productPesIds="14749"
+	supportTopicIds=""
+	resourceTags="linux, redhat, Ubuntu"	 
+	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
 
