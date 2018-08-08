@@ -3,7 +3,7 @@
 	description="Storage File Share mounting issues - macOS"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602765"
+	supportTopicIds="32602764"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
