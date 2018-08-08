@@ -18,7 +18,6 @@
 
 A role instance may loop between **Started**, **Initializing**, **Busy**, and **Stopped**. This condition could indicate a problem with your application code, package, or configuration file. <br>
 
-## **Recommended steps**
 1. Check the detailed error message of Role Instances which are not in Ready state from the Overview blade of your Cloud Service. <br>
 
 2. Check if your detailed error message matches common issues that cause roles to be **Busy** or **Recycling**: <br>
