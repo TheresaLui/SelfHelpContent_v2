@@ -22,7 +22,7 @@
 			"watermarkText": "Choose what was impacted",
 			"dropdownOptions": [{
 					"value": "Azure_Storage",
-					"text": "Azure Storage operations not working, e.g. Disk import/export"
+					"text": "Azure Storage operations not working, e.g. copy, Disk import/export"
 				}, {
 					"value": "Azure_Internal",
 					"text": "Other Azure or Microsoft Services not working"
@@ -43,15 +43,8 @@
 			"watermarkText": "service1;service2;service3",
 			"required": false
 		}, {
-			"id": "ip_ranges",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "IP(s) of impacted service(s)/application(s)",
-			"watermarkText": "###.###.###.### - ###.###.###.###",
-			"required": false
-		}, {
 			"id": "additional_details",
-			"order": 4,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
