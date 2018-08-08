@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="tools"
 	supportTopicIds=""
-	resourceTags="linux"
+	resourceTags="linux, redhat, Ubuntu"	
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 />
