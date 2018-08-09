@@ -20,4 +20,4 @@
 [How do I RDP when I am using NSG?](https://docs.microsoft.com/azure/cloud-services/cloud-services-connectivity-and-networking-faq#how-do-i-use-remote-desktop-when-i-have-an-nsg)<br>
 [How to configure monitoring for Cloud Services and receive alerts](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-monitor/) <br> 
 [Migrate from Managed Cache to Redis Cache](https://docs.microsoft.com/azure/redis-cache/cache-migrate-to-redis)<br>
-[FAQs on Cloud Services Configuration and Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq)
+[FAQs on Cloud Services Configuration and Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq)<br>
