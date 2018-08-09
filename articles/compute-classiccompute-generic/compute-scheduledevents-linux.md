@@ -3,7 +3,7 @@
 	description="Management/Scheduled events"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591160,32607855"
