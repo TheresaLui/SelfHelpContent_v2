@@ -15,7 +15,7 @@
 # advisory
 
 ## **Recommended documents**
-[Scaling up primary node type of Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-primary-nodetype-vm)<br>
+[Scaling up primary node type of Cluster](https://docs.microsoft.com/azure/service-fabric/virtual-machine-scale-set-scale-node-type-scale-out)<br>
 [Service Fabric Performance Metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-event-generation-perf)<br>
 [Application Performance Metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-event-generation-perf#net-applications-and-services)<br>
 [Adding a secondary certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure#add-a-secondary-certificate-using-resource-manager-powershell)<br>
