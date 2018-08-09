@@ -1,21 +1,21 @@
 <properties 
-	pageTitle="I can't create or add a VM" 
-	description="I can't create or add a VM" 
+	pageTitle="I can't create or add a VM"
+	description="I can't create or add a VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags="linux, redhat, Ubuntu"	 
+	resourceTags="linux, redhat, Ubuntu"
 	productPesIds=""
 	cloudEnvironments="public"
 />
-    
+
 # I can't create or add a VM
 
 ## **Recommended steps**
-To resolve most common issues, try one or more of the following steps.
+To resolve most common issues, try one or more of the following steps.<br>
 
 1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason
 2. Look up suggested actions by error code <br>
