@@ -3,12 +3,12 @@
 	description="I can't create or add a VM" 
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="kasparks"
+	authors="ScottAzure"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32411817,32449676"
+	supportTopicIds=""
 	resourceTags="linux, redhat, Ubuntu"	 
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="public"
 />
     

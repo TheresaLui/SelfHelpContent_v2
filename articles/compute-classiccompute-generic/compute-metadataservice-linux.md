@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Management/Instance Metadata Service"
 	description="Management/Instance Metadata Service"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32583111"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
 />
 

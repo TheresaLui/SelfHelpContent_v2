@@ -1,9 +1,9 @@
 <properties
 	pageTitle="management/cannot stop, start, or restart a vm"
 	description="management/cannot stop, start, or restart a vm"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411817"

@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Migration and Move/Migrate resources using Azure Site Recovery"
 	description="Migration and Move/Migrate resources using Azure Site Recovery"
-	service="microsoft.recoveryservices"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""

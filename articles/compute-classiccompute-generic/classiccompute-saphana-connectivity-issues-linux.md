@@ -1,13 +1,13 @@
 <properties
 	pageTitle="Connectivity/Connectivity issues that are related to SAP HANA large instances"
 	description="Connectivity/Connectivity issues that are related to SAP HANA large instances"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549257"
-	resourceTags="linux"
+	resourceTags="linux,redhat"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
