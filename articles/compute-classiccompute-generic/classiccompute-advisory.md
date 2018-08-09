@@ -20,4 +20,4 @@
 [How to disable SSL\TLS via StartUp Task](https://azure.microsoft.com/blog/how-to-disable-ssl-3-0-in-azure-websites-roles-and-virtual-machines)
 [How to configure monitoring for Cloud Services and receive alerts](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-monitor/)<br> 
 [How to install .Net on Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-dotnet-install-dotnet)<br>
-[FAQs on Cloud Services Configuration and Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq)
+[FAQs on Cloud Services Configuration and Management](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq)<br>
