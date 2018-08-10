@@ -6,9 +6,9 @@
     authors="ScottAzure"
     displayOrder="4"
     selfHelpType="resource"
-    supportTopicIds="32411817,32593722"
+    supportTopicIds=""
     resourceTags="windows,windowsSQL"
-    productPesIds="14749,14745"
+    productPesIds=""
     cloudEnvironments="MoonCake"
  />
 
