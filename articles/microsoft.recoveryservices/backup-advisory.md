@@ -14,7 +14,7 @@
 
 # Azure Backup Advisory Queries
 
-## **Recommended Links**
+## **Recommended Documents**
 
 **For IaaS VM Backup**
 
