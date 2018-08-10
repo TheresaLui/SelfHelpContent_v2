@@ -6,9 +6,9 @@
 	authors="ScottAzure"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816"
-	resourceTags=""
-	productPesIds="14749"
+	supportTopicIds="32593740,32411816"
+	resourceTags="windows,windowsSQL"
+	productPesIds="14749,14745"
 	cloudEnvironments="public"
 />
 

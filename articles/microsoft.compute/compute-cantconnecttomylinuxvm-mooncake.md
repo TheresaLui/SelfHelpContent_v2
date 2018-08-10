@@ -6,9 +6,9 @@
     authors="ScottAzure"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32411835,32602159"
-    resourceTags="linux, redhat, Ubuntu"
-    productPesIds="16470,15797,15571"
+    supportTopicIds="332511135,32547978,32547979,32411835"
+    resourceTags="linux,redhat,Ubuntu"
+    productPesIds="16342,16065,15797,16454,16470"
     cloudEnvironments="MoonCake"
 />
 

@@ -32,5 +32,5 @@ The following is a collection of solutions and explanations for why scaling may 
 
 ## **Recommended documents**
 
-* [About autoscale best practices] (https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/#autoscale-best-practices)<br>
-* [About Cloud Services allocation failures] (https://azure.microsoft.com/documentation/articles/cloud-services-allocation-failures/)
+* [About autoscale best practices](https://azure.microsoft.com/documentation/articles/insights-autoscale-best-practices/#autoscale-best-practices)<br>
+* [About Cloud Services allocation failures](https://azure.microsoft.com/documentation/articles/cloud-services-allocation-failures/)

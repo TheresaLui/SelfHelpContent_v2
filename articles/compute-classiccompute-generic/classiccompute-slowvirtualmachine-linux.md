@@ -6,9 +6,9 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411877, 32602158"
-	resourceTags="linux, redhat, ubuntu"
-	productPesIds="15571, 15797, 16470"
+	supportTopicIds="32411877,32511162,32602158"
+	resourceTags=""
+	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
 />
 

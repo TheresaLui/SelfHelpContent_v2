@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Migration and Move/Move resources between regions"
 	description="Migration and Move/ Move resources between regions"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""

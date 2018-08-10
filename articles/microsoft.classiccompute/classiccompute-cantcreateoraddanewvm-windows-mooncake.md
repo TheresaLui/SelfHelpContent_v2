@@ -6,9 +6,9 @@
     authors="ScottAzure"
     displayOrder="4"
     selfHelpType="resource"
-    supportTopicIds=""
-    resourceTags="linux, redhat"
-    productPesIds=""
+    supportTopicIds="32411817,32593722"
+    resourceTags="windows,windowsSQL"
+    productPesIds="14749,14745"
     cloudEnvironments="MoonCake"
  />
 

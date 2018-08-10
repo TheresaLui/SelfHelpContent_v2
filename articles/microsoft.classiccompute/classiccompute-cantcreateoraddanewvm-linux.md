@@ -7,9 +7,9 @@
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="linux, redhat"
+    resourceTags="linux,redhat"
     productPesIds=""
-    cloudEnvironments="MoonCake"
+    cloudEnvironments="public"
  />
 
 # I can't create or add a new VM

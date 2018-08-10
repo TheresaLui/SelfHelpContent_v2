@@ -23,4 +23,4 @@ Autoscale requires monitoring data from the role instances to scale. At times, t
 
 ## **Recommended documents**
 
-* [About lack of monitoring data] (https://social.msdn.microsoft.com/Forums/azure/bc2048c4-8d49-4c54-b150-f263808c4b7a/notification-could-not-automatically-scale-xxx-because-monitoring-data-was-not-found?forum=windowsazuremanagement).
+* [About lack of monitoring data](https://social.msdn.microsoft.com/Forums/azure/bc2048c4-8d49-4c54-b150-f263808c4b7a/notification-could-not-automatically-scale-xxx-because-monitoring-data-was-not-found?forum=windowsazuremanagement).
