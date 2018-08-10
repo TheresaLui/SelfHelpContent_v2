@@ -33,5 +33,5 @@
 
 **For Recovery Service Vault**
 
-- [How to delete Recovery Service Vault?](https://docs.microsoft.com/en-us/azure/backup/backup-azure-delete-vault)<br>
+- [How to delete Recovery Service Vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
 - [How to Delete Backup or Protected Server from vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#remove-vault-dependencies-and-delete-vault)<br>
