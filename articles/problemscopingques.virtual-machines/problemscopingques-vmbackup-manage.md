@@ -114,7 +114,7 @@
                                    				  },{
 														"value": "Another backup service is not running",
 														"text": "Another backup service is not running"
-													},
+													}
         					                  ],
                    					"required": true
 						},{
