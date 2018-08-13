@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup management issues"
          description="Scoping questions for Azure VM backup management issues"
-         authors= "srinathvasireddy"
+         authors="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565495"
          productPesIds="14749"
