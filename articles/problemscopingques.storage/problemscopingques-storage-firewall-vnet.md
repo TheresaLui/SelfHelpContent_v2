@@ -11,7 +11,7 @@
 # Storage Firewall and VNet
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage Firewall and VNet scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -22,7 +22,7 @@
 			"watermarkText": "Choose what was impacted",
 			"dropdownOptions": [{
 					"value": "Azure_Storage",
-					"text": "Azure Storage operations not working, e.g. copy, Disk import/export"
+					"text": "Azure Storage operations not working, e.g. disk import/export"
 				}, {
 					"value": "Azure_Internal",
 					"text": "Other Azure or Microsoft Services not working"

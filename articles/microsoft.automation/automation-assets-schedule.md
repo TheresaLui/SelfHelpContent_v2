@@ -1,23 +1,19 @@
-
 <properties
-    pageTitle="assets/schedule"
-    description="32501560Assetsschedule"
+    pageTitle="Azure Automation - Schedules"
+    description="Azure Automation - Schedules"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501560"
+    supportTopicIds="32599926,32599927"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets/schedule
-
+# Azure Automation - Schedules
 
 ## **Recommended documents**
-[Schedules in Azure Automation]
-(https://azure.microsoft.com/documentation/articles/automation-schedules/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Scheduling a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/automation-schedules) <br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

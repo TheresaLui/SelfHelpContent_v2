@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Advisory"
 	description="Advisory"
-	service="microsoft.compute"
+	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -15,4 +15,5 @@
 # Advisory
 
 ## **Recommended documents**
-* [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)<br>
+
+* [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)

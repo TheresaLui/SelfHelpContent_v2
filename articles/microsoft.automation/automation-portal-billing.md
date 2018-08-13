@@ -1,23 +1,19 @@
-
 <properties
-    pageTitle="portal/billing"
-    description="32501533Portalbilling"
+    pageTitle="Azure Automation - Portal - Billing"
+    description="Azure Automation - Portal - Billing"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501533"
+    supportTopicIds="32599871"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# portal/billing
-
+# Azure Automation - Portal - Billing
 
 ## **Recommended documents**
-[Automation Pricing Details]
-(https://azure.microsoft.com/pricing/details/automation/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>
+[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
