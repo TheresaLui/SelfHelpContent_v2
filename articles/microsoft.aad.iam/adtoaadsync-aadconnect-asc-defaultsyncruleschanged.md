@@ -6,12 +6,12 @@
 	resource="aadconnect"
 	authors="neliceat"
 	displayOrder="1"
-	articleId=""
+	articleId="AADtoADSync_AADConnect_ASC_Default_Sync_Rules_Changed"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32404459"
 	resourceTags=""
-	productPesIds="14785"​
+	productPesIds="14785"
 	cloudEnvironments="public"
 />
 
