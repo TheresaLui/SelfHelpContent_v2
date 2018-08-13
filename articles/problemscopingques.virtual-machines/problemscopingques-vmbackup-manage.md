@@ -15,10 +15,10 @@
          "title": "Azure VM backup or restore failure",
          "fileAttachmentHint": "",
          "formElements": [{
-						  "id": "vm_facing_issue",
+		          "id": "vm_facing_issue",
                           "order": 1,
                           "controlType": "textbox",
-                 	  	  "displayLabel": "Which virtual machine(s) is experiencing problem?",
+                 	  "displayLabel": "Which virtual machine(s) is experiencing problem?",
                           "watermarkText": "Enter the name of the virtual machine(s)",
         	         	  "required": true
 						},{
@@ -27,22 +27,21 @@
                           "controlType": "dropdown",
                  	  	  "displayLabel": "Which type of issue you are facing?",
                           "watermarkText": "Choose an option",
-        	         	  "required": true
-						  "dropdownOptions":[{
-												"value": "Backup failure",
-												"text": "Backup failure"
-											 },{
-												"value": "Restore failure",
-												"text": "Restore failure"
-											   }
-											 ],
-							"required": true
-						 },{
-						  "id": "backup_JobID_Name",
+			"dropdownOptions":[{
+				"value": "Backup failure",
+				"text": "Backup failure"
+			 },{
+			        "value": "Restore failure",
+				"text": "Restore failure"
+			   }
+			   ],
+			   "required": true
+			 },{
+			  "id": "backup_JobID_Name",
                           "order": 3,
-						  "visibility": "issue_Type == Backup failure",
+			  "visibility": "issue_Type == Backup failure",
                           "controlType": "textbox",
-                  		  "displayLabel": "Enter the failed backup job Activity ID:",
+                          "displayLabel": "Enter the failed backup job Activity ID:",
                           "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
                           "required": true
 						},{
