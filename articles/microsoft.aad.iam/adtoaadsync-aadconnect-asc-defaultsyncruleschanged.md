@@ -24,13 +24,13 @@ We noticed that one or more default synchronization rules in your Azure AD Conne
 ## **Recommended steps**
 
 1. If you need to change the way a synchronization rule behaves, you should instead create a clone of the default synchronization rule and modify that cloned copy. This article provides details about how to modify synchronization rules in a supported manner: <br>
-[Best practices changing default configuration - Changes to synchronization rules](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-best-practices-changing-default-configuration#changes-to-synchronization-rules) <br>
+[Best practices changing default configuration - Changes to synchronization rules](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-best-practices-changing-default-configuration#changes-to-synchronization-rules) <br>
 2. Synchronization rules are implemented through a declarative provisioning  model, and you can read more about this model in this article: <br>
-[Understanding declarative provisioning](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-understanding-declarative-provisioning)<br>
+[Understanding declarative provisioning](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-understanding-declarative-provisioning)<br>
 3. To recover from this issue, you must clone the modified rule. By doing so, their changes will not be overwritten when the AADConnect deployment is upgraded to a new version. This document describes in detail how to do this: <br>
-[Best practices changing default configuration - Changes an out-of-box rule](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-best-practices-changing-default-configuration#change-an-out-of-box-rule) <br>
+[Best practices changing default configuration - Changes an out-of-box rule](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-best-practices-changing-default-configuration#change-an-out-of-box-rule) <br>
 
 
 ## **Recommended documents**
 
-* [Learn more about the Default Synchronization Rules in Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-understanding-default-configuration#synchronization-rule)<br>
+* [Learn more about the Default Synchronization Rules in Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-understanding-default-configuration#synchronization-rule)<br>
