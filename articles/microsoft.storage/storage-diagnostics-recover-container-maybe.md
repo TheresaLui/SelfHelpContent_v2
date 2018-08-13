@@ -15,6 +15,7 @@ cloudEnvironments="public"
 />
 # Blob Container may be recoverable
 
+<!--issueDescription-->
 ## Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** recovered
 
 We were able to successfully recover Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
@@ -30,3 +31,4 @@ Microsoft Azure sincerely apologizes that we are unable to recover the Blob Cont
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Blob Container and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 
 Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidently deleted content can be recovered in the future.
+<!--/issueDescription-->
