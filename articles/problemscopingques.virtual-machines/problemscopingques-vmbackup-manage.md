@@ -65,7 +65,7 @@
                           "controlType": "dropdown",
                   	  	  "displayLabel": "Select the error message that you are seeing?",
                           "watermarkText": "Select",
-                          "droupdownOptions": [
+                          "dropdownOptions": [
 							{
 							  "value": "VM Agent is unable to communicate with azure backup service",
 							  "text": "VM Agent is unable to communicate with Azure Backup service"
