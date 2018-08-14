@@ -3,7 +3,7 @@
 	description="namespace management"
 	service="microsoft.eventhub"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32589220"
