@@ -3,7 +3,7 @@
 	description="portal and powershell commands"
 	service="microsoft.eventhub"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32548805"
