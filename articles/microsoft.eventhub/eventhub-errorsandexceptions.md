@@ -3,7 +3,7 @@
 	description="errors and exceptions"
 	service="microsoft.eventhub"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32548804"
@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 [Event Hub Messaging exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
-[See if you can find the answer in our FAQ section!](https://azure.microsoft.com/en-us/documentation/articles/event-hubs-availability-and-support-faq/)<br>
+[See if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/event-hubs-availability-and-support-faq/)<br>
 [Guidance on Timeout Exceptions](https://azure.microsoft.com/en-us/documentation/articles/service-bus-messaging-exceptions/#timeoutexception)<br>
-[Guidance on Quota Exceed Exceptions](https://azure.microsoft.com/en-us/documentation/articles/service-bus-messaging-exceptions/#quotaexceededexception)<br>
+[Guidance on Quota Exceed Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#quotaexceededexception)<br>
