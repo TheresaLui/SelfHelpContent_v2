@@ -15,6 +15,7 @@
 # security/azureadconfiguration
 
 ## **Recommended documents**
+[Troubleshooting guides for AAD Configuration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/README.md#aad-configuration)<br>
 [Set up AAD for Client Authentication](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-via-arm#set-up-azure-active-directory-for-client-authentication)<br>
 [Troubleshooting help in setting up Azure Active Directory](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-via-arm)<br> 
 [Assign users to Role](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-via-arm#assign-users-to-roles )<br>
