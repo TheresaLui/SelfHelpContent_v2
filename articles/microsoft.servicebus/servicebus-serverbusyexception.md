@@ -3,7 +3,7 @@
 	description="errors and exceptions/server busy exception"
 	service="microsoft.servicebus"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32571948"
