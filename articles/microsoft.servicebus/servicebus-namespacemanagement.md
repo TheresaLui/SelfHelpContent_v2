@@ -3,7 +3,7 @@
 	description="namespace management"
 	service="microsoft.servicebus"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32588980"
