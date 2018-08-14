@@ -23,6 +23,7 @@
         	         	  "required": true
 						},{
 						  "id": "issue_Type",
+						  "visibility": "null",
                           "order": 2,
                           "controlType": "dropdown",
                  	  	  "displayLabel": "Which type of issue you are facing?",
