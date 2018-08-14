@@ -5,7 +5,7 @@
 	resource="namespaces"
 	authors="chiragpa"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32588979"
 	resourceTags=""	
 	productPesIds="13186"
