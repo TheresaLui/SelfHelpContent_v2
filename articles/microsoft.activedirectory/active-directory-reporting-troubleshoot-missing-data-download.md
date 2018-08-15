@@ -18,7 +18,8 @@
 
 When you download activity logs in the Azure portal, we limit the scale to 120K records, sorted by most recent.
 
-- You can use the [Azure AD Reporting APIs](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started) to fetch up to a million records at any given point. Our recommended approach is to run a script on a scheduled basis that calls the reporting APIs to fetch records in an incremental fashion over a period of time (e.g., daily or weekly).
+* You can use the [Azure AD Reporting APIs](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-getting-started) to fetch up to a million records at any given point. Our recommended approach is to run a script on a scheduled basis that calls the reporting APIs to fetch records in an incremental fashion over a period of time (e.g., daily or weekly).
 
 ## **Recommended documents**
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+
+* [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
