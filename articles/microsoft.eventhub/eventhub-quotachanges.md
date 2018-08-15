@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 [Learn about Event Hubs quota and throttling thresholds](https://azure.microsoft.com/documentation/articles/service-bus-quotas/)<br>
-[How to migrate Event Hubs namespaces to another subscription](https://azure.microsoft.com/documentation/articles/service-bus-powershell-how-to-provision/#migrate-a-namespace-to-another-azure-subscription)
+[How to migrate Event Hubs namespaces to another subscription](https://azure.microsoft.com/documentation/articles/service-bus-powershell-how-to-provision/#migrate-a-namespace-to-another-azure-subscription)<br>
 [Service Bus Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
 [Check Service Bus Metrics on the Portal](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-metrics-azure-monitor#access-metrics-in-the-portal)
