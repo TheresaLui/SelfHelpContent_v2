@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Performance/Performance issues that are related to SAP HANA large instances"
 	description="Performance/Performance issues that are related to SAP HANA large instances"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549259"
 	resourceTags="linux"
-	productPesIds="15571"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 

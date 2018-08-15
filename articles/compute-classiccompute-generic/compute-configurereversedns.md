@@ -1,13 +1,13 @@
 <properties
 	pageTitle="configuration and setup/configure reverse DNS"
 	description="configuration and setup/configure reverse DNS"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32568520"
- 	resourceTags="Windows,Linux"
+ 	resourceTags="Windows,Linux,Redhat"
 	productPesIds="14749,15571,15797"
 	cloudEnvironments="public"
 />

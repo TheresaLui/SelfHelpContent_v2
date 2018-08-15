@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32583111"
-	resourceTags="Windows"
-	productPesIds="14749"
+	supportTopicIds="32583111,32587973,32584393"
+	resourceTags=""
+	productPesIds="14749,16215,14745"
 	cloudEnvironments="public"
 />
 
