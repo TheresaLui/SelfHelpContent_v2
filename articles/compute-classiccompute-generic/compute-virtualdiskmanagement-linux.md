@@ -1,14 +1,14 @@
 <properties
 	pageTitle="configuration and setup/virtual disk management"
 	description="configuration and setup/virtual disk management"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411841"
+	supportTopicIds="32411841,32602153,326021534"
 	resourceTags="linux, redhat"
-	productPesIds="15571,15797"
+	productPesIds="15571,15797",16470
 	cloudEnvironments="public"
 />
 

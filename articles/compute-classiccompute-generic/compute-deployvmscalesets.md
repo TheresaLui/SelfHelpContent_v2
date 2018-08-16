@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/deploy vm scale sets (windows)"
 	description="configuration and setup/deploy vm scale sets (windows)"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32539973"

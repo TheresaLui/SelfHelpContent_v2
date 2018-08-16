@@ -1,9 +1,9 @@
 <properties
 	pageTitle="management/manage or use a cluster in Azure"
 	description="management/manage or use a cluster in Azure"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411818"

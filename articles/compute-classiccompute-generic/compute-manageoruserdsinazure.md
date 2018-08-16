@@ -1,9 +1,9 @@
 <properties
 	pageTitle="management/manage or use rds in azure"
 	description="management/manage or use rds in azure"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411819"

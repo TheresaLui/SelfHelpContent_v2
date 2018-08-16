@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Advisory"
 	description="Advisory"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411885"
-	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	resourceTags="linux"
+	productPesIds="15571"
 	cloudEnvironments="public"
 />
 

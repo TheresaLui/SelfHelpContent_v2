@@ -1,14 +1,14 @@
 <properties
 	pageTitle="performance/slow virtual machine"
 	description="performance/slow virtual machine"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411877,32511162,32602158"
+	supportTopicIds="32411877,32511162"
 	resourceTags=""
-	productPesIds="15571,16342,15797,16454,16470"
+	productPesIds="14749,14745"
 	cloudEnvironments="public"
 />
 
