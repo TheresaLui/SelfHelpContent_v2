@@ -28,12 +28,12 @@
 
 **I'm getting an error message**
 
-* Review the [Troubleshoot self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-troubleshoot) article to find common problems and their solutions.
+Review this article to find common errors and their solutions: [Troubleshoot self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-troubleshoot)
 
 **I'm having a problem with my password reset policy**
 
 * If your password reset policy is not behaving as expected, or if you have questions about password reset policies, review this article: [Password policies and restrictions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy)
-  * Password reset policies **do not** apply to administrators. Microsoft enforces a strong default two-gate password reset policy for any Azure administrator role. Make sure that you are testing with a user who is not an administrator. For more information on the administrator reset policy, see this article: [Administrator reset policy differences](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#administrator-reset-policy-differences)
+* Password reset policies **do not** apply to administrators. Microsoft enforces a strong default two-gate password reset policy for any Azure administrator role. Make sure that you are testing with a user who is not an administrator. For more information on the administrator reset policy, see this article: [Administrator reset policy differences](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#administrator-reset-policy-differences)
 
 **I don't want my users to register additional security info for password reset**
 
