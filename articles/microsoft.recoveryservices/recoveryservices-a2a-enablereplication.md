@@ -17,7 +17,7 @@
 
 - [Issue] [Unable to see Azure VM for selection in "Enable replication"](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-see-the-azure-vm-for-selection-in-enable-replication)</br>
 - [Issue] [Virtual machine is greyed out (or) Unable to select VM to enable replication](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-select-virtual-machine-for-protection)</br>
-- [Issue] [Unable to replicate due to connectivity issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)</br>
+- [Issue] [Unable to replicate due to connectivity issues (Error code 151037 or 151072)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)</br>
 [Issue] [Unable to select Target virtual network - network selection tab is grayed out](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-select-target-virtual-network---network-selection-tab-is-grayed-out)</br>
 - [What are the supported Azure regions to which I can replicate my VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#region-support)</br>
 - [Site Recovery operating systems support updates](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#support-for-replicated-machine-os-versions)</br>
