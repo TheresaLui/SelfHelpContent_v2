@@ -24,4 +24,5 @@
 
 ## **Recommended documents**
 [Troubleshoot your Network Virtual Appliance (NVA)](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-Consider these [constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#a-nameabout-peeringaabout-peering) in peering virtual networks
+Consider these [constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#a-nameabout-peeringaabout-peering) in peering virtual networks <br>
+Find answers in [FAQ for Vnet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)
