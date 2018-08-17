@@ -6,7 +6,7 @@
     authors="mcosner"
     displayOrder="50"
     selfHelpType="resource"
-    supportTopicIds=""
+    supportTopicIds="32402605,32402602"
     productPesIds="15693"
     cloudEnvironments="public"
  />
