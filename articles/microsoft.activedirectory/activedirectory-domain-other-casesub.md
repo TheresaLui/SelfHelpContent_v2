@@ -3,7 +3,7 @@
     description="Azure Active Directory domains troublehooter"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="curtand"
     displayOrder="4297"
     selfHelpType="generic"
     supportTopicIds="32565597"
