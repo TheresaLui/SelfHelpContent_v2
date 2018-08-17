@@ -27,4 +27,5 @@
 * [How to perform a DNS domain name takeover]( https://docs.microsoft.com/azure/active-directory/active-directory-self-service-signup#how-to-perform-a-dns-domain-name-takeover)<br>
 [Add subdomains of a custom domain name](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain)<br>
 * [Resource dependencies in Office 365 and Azure AD tenants](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence)<br>
-* [Verify the Azure AD domain configured for federation](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom#verify-the-azure-ad-domain-selected-for-federation)
+* [Verify the Azure AD domain configured for federation](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom#verify-the-azure-ad-domain-selected-for-federation)<br>
+* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names)
