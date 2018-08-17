@@ -6,6 +6,7 @@
     authors="mcosner"
     displayOrder="14"
     selfHelpType="resource"
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # My web test is intermittently failing with a protocol violation error

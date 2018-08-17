@@ -6,6 +6,7 @@
     authors="mcosner"
     displayOrder="13"
     selfHelpType="resource"
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # I can't move an Application Insights resource

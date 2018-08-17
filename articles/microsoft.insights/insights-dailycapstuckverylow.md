@@ -6,6 +6,7 @@
     authors="mcosner"
     displayOrder="11"
     selfHelpType="resource"
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # I can't raise my daily cap above 0.0323 GB/day

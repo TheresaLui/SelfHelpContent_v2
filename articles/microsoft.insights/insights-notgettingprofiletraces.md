@@ -6,6 +6,7 @@
     authors="brahmnes"
     displayOrder="40"
     selfHelpType="resource"
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # I am not getting profiler traces
