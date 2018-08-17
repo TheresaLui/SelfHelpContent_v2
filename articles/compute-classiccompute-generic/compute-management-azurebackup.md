@@ -1,9 +1,9 @@
 <properties
 	pageTitle="management/backup"
 	description="management/backup"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565495"

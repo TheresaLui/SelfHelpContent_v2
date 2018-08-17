@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/VM Agent and Extensions"
 	description="configuration and setup/VM Agent and Extensions"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32450212,32602162"

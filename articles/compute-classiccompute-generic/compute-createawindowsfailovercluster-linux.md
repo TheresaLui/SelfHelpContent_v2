@@ -1,7 +1,7 @@
 ﻿<properties
 	pageTitle="configuration and setup/create a cluster"
 	description="configuration and setup/create a cluster"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""

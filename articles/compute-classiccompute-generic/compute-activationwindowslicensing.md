@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Configuration and Setup/Issues that are related to activating a Windows license in Azure"
 	description="Configuration and Setup/Issues that are related to activating a Windows license in Azure"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570109,32570108"
