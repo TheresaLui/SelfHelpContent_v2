@@ -5,7 +5,7 @@
 	resource="costmanagement"
 	authors="justinwb"
 	displayOrder="1"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
