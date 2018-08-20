@@ -15,11 +15,7 @@
 	cloudEnvironments=""
 />
 
-# <-- This is the title of my solution - This is not presented in the portal --> 
-<!--issueDescription-->
-## ** <-- Diagnostic Title --> **
-This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token **<!--$tokenname2-->[tokenname2]<!--/$tokenname2-->**. Note that the double asterisk used to demark bold text should be added before and after the tags demarking the replacement token.
-<!--/issueDescription-->
+# <-- This is the title of the article - This is not presented in the portal --> 
 
 ## **Recommended steps**
 
