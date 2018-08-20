@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    displayOrder="10"
+    displayOrder="5"
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
