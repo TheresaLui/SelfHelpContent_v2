@@ -4,7 +4,7 @@
 	service="microsoft.costmanagement"
 	resource="costmanagement"
 	authors="justinwb"
-	displayOrder="6"
+	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
