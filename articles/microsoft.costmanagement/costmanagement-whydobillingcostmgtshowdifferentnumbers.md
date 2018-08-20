@@ -20,4 +20,4 @@ This is expected behavior based on the way the two values are computed.
 
 ## **Recommended documents**
 
-[Azure Cost Management Documentation](https://docs.microsoft.com/en-us/azure/cost-management/)
+[Azure Cost Management Documentation](https://docs.microsoft.com/azure/cost-management/)
