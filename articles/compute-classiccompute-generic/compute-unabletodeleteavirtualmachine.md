@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Management/Unable to delete a virtual machine"
 	description="Management/Unable to delete a virtual machine"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32573480"

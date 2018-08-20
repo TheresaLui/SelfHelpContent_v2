@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Migration and Move/Move resources between storage accounts"
 	description="Migration and Move/Move resources between storage accounts"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570116"

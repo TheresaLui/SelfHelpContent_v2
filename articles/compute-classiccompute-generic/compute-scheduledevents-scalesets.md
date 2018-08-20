@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Management/Scheduled events"
 	description="Management/Scheduled events"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""

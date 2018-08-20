@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/create rds in azure"
 	description="configuration and setup/create rds in azure"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411854"

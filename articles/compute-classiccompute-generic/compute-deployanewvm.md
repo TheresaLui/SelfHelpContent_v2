@@ -3,7 +3,7 @@
 	description="configuration and setup/deploy a new vm"
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411844"

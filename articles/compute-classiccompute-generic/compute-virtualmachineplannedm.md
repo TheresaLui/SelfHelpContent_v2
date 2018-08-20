@@ -1,7 +1,7 @@
 <properties
 	pageTitle="planned maintenance/general questions or issues"
 	description="planned maintenance/general questions or issues"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""
@@ -13,6 +13,7 @@
 />
 
 # Planned Maintenance/general questions or issues
+
 **I don't see any indication of planned maintenance in the portal, Powershell, or CLI.**<br>
 
 Information related to planned maintenance is available during a planned maintenance wave only for the VMs which are going to be impacted by it. In other words, if you see no data, it could be that the maintenance wave has already completed (or not started) or that your virtual machine is already hosted in an updated server.<br>
