@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Why Do Billing and Cost Management show Different Numbers?
+# Why do Billing and Cost Management show different numbers?
 
 It's possible that the total displayed on the Billing overview tab and the total displayed on the Cost Management tab will be different.
 
