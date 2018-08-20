@@ -14,6 +14,9 @@
 
 # Azure Backup SQL Restore failures
 
-## **Recommended Documents**
+## **Recommended steps**
+- [**UserErrorRestoreFailedDatabaseCannotBeOfflined** - Restore failed as the database could not be brought offline](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorrestorefaileddatabasecannotbeofflined)</br>
+- [Troubleshooting restore issues for Backup of SQL Server on Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#restore-failures)</br>
 
-**For configuration failures**
+## **Recommended Documents**
+- [FAQs](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#faq)</br>
