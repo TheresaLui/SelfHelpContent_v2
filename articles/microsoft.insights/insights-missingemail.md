@@ -3,7 +3,7 @@
     description="General troubleshooting guide for missing e-mail from alerts."
     service="microsoft.insights"
     resource="components"
-    authors="jamdavi"
+    authors="debugthings"
     displayOrder="10"
     selfHelpType="resource"
     cloudEnvironments="public"
