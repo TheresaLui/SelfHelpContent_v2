@@ -17,3 +17,7 @@
 It's possible that the total displayed on the Billing overview tab and the total displayed on the Cost Management tab will be different.
 
 This is expected behavior based on the way the two values are computed.
+
+## **Recommended documents**
+
+[Azure Cost Management Documentation](https://docs.microsoft.com/en-us/azure/cost-management/)
