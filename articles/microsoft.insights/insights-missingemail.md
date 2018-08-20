@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="Missing Alert E-Mail"
+    pageTitle="I should have received an E-mail for an alert that fired"
     description="General troubleshooting guide for missing e-mail from alerts."
     service="microsoft.insights"
     resource="components"
@@ -10,7 +10,7 @@
     productPesIds="15693" 
     supportTopicIds="32546625"
  />
-# Missing Alert E-Mail
+# I should have received an E-mail for an alert that fired
 ## **Recommended steps**
 If you're certain that an alert has generated an event but has not sent an e-mail notification you should check the following:
 
