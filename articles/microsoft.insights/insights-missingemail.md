@@ -23,15 +23,15 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 
 ## **Recommended documents**
 ### E-Mail Client
-[Outlook SPAM Settings](https://support.office.com/en-us/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)<br>
+[Outlook SPAM Settings](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)<br>
 [Gmail SPAM Settings](https://support.google.com/mail/answer/6579?hl=en)<br>
 ### E-Mail Server
-[O365 Safe Sender](https://docs.microsoft.com/en-us/office365/SecurityCompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)<br>
-[Exchange SPAM Quarantine](https://docs.microsoft.com/en-us/Exchange/antispam-and-antimalware/antispam-protection/spam-quarantine)<br>
-[Exchange Sender Filtering](https://docs.microsoft.com/en-us/Exchange/antispam-and-antimalware/antispam-protection/sender-filtering)<br>
-[G Suite Approved Sender Settings](https://support.google.com/a/answer/2368132?hl=en)<br>
+[O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)<br>
+[Exchange SPAM Quarantine](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/spam-quarantine)<br>
+[Exchange Sender Filtering](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/sender-filtering)<br>
+[G Suite Approved Sender Settings](https://support.google.com/a/answer/2368132)<br>
 ### Distribution List
-[Exchange Delivery Restrictions](https://docs.microsoft.com/en-us/Exchange/recipients/user-mailboxes/message-delivery-restrictions#use-the-eac-to-place-message-delivery-restrictions)<br>
+[Exchange Delivery Restrictions](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/message-delivery-restrictions#use-the-eac-to-place-message-delivery-restrictions)<br>
 [G Suite Groups External Members](https://support.google.com/a/answer/167097)<br>
 ### Security Appliance
 [Barracuda Whitelist Settings](https://campus.barracuda.com/product/websecurityservice/doc/6553671/whitelist-and-blacklist-rules/)<br>
