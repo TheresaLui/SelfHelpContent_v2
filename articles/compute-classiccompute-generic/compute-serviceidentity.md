@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Management/Service Identity"
 	description="Management/Service Identity"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32604337"

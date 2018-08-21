@@ -1,7 +1,7 @@
 <properties
 	pageTitle="planned maintenance/general questions or issues"
 	description="planned maintenance/general questions or issues"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottazure"
 	displayOrder=""

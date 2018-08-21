@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Management/Scheduled events"
 	description="Management/Scheduled events"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591376,32591375,32591160"

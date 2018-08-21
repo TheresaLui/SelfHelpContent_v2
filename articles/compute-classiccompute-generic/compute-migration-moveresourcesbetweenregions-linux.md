@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Migration and Move/Move resources between resource groups"
-	description="Migration and Move/Move resources between resource groups"
-	service="microsoft.classiccompute"
+	pageTitle="Migration and Move/Move resources between regions"
+	description="Migration and Move/ Move resources between regions"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32570115"
-	resourceTags="linux"
-	productPesIds="15571"
+	supportTopicIds="32570114"
+	resourceTags="Linux,Redhat"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 
-# Migration and Move/Move resources between resource groups
+# Migration and Move/ Move resources between regions
 
 ## **Recommended documents**
 

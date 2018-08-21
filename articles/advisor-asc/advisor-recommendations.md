@@ -16,9 +16,9 @@ supportTopicIds="32411835,32411844,32411877,32411817,32411885,32411841,32411816,
 />
 # You have Azure Advisor recommendations
 
-[Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) has identified best practice recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> <!--$resourceName-->resourceName<!--/$resourceName-->. Advisor is a free offering that analyzes resource configuration and usage telemetry to recommend solutions that can improve cost effectivness, performance, high availability, and security of Azure resources.
+[Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) has identified best practice recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> **<!--$resourceName-->resourceName<!--/$resourceName-->**. Advisor is a free offering that analyzes resource configuration and usage to recommend solutions that can improve cost effectiveness, performance, high availability, and security of Azure resources.
 
-We have found the following recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> <!--$resourceName-->resourceName<!--/$resourceName-->
+We have found the following recommendations for your <!--$resourceType-->resourceType<!--/$resourceType--> **<!--$resourceName-->resourceName<!--/$resourceName-->**
 
 <!--$recommendationsList-->recommendationsList<!--/$recommendationsList-->
 
@@ -26,6 +26,6 @@ View your full list of Advisor recommendations across all of your subscriptions 
 
 1. Visit [Advisor](https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade/source/AzureSupportCenter) in the Azure portal
 2. Review your complete list of recommendations
-3. Follow the recommended actions provided for each recommendations
+3. Follow the recommended actions provided for each recommendation
 
 To learn more about Azure Advisor, visit our [documentation](https://docs.microsoft.com/azure/advisor/advisor-overview). 

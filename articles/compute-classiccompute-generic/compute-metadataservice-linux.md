@@ -3,7 +3,7 @@
 	description="Management/Instance Metadata Service"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584393,32587972,32583111,32607854"

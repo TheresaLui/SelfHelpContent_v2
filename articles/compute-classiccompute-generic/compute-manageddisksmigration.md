@@ -1,9 +1,9 @@
 <properties
 	pageTitle="management/managed disks migration"
 	description="management/managed disks migration"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565835"

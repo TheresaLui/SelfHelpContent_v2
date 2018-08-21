@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Migration and Move/Move resources between regions"
-	description="Migration and Move/Move resources between regions"
-	service="microsoft.classiccompute"
+	pageTitle="Migration and Move/Move resources between subscriptions"
+	description="Migration and Move/Move resources between subscriptions"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32570114"
+	supportTopicIds="32570117"
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
 
-# Migration and Move/Move resources between regions
+# Migration and Move/Move resources between subscriptions
 
 ## **Recommended documents**
 
