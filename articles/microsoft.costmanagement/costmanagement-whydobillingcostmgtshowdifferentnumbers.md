@@ -20,4 +20,4 @@ One-time and recurring fees (e.g. reservations and support) are not currently in
 
 ## **Recommended documents**
 
-[Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)
+* [Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)

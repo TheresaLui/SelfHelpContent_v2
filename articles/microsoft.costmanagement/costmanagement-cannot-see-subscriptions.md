@@ -32,4 +32,4 @@ The following are coming soon:
 
 ## **Recommended documents**
 
-[Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)
+* [Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)
