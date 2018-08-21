@@ -3,7 +3,7 @@
 	description="worker role (paas)/application and service availability/performance"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="ChiragPavecha"
+	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32422588"
@@ -15,8 +15,9 @@
 # worker role (paas)/application and service availability/performance
 
 ## **Recommended documents**
-
-* [Data Collection for all kind of Performance issues with Cloud Services](https://blogs.msdn.microsoft.com/cie/2018/01/17/troubleshooting-performance-issues-with-cloud-services-paas-data-collection/)<br>
-* [Troubleshoot using performance-analysis tool to isolate CPU- and memory-related performance issues](https://channel9.msdn.com/Series/PerfView-Tutorial)<br>
-* [Use Perfview to collect and analyze data for performance bottlenecks](http://www.microsoft.com/download/details.aspx?id=28567)<br>
-* [Use the Debug Diagnostics tool to troubleshoot a process that has stopped responding](https://support.microsoft.com/kb/919792)
+[Data Collection for all kind of Performance issues with Cloud Services](https://blogs.msdn.microsoft.com/cie/2018/01/17/troubleshooting-performance-issues-with-cloud-services-paas-data-collection/)<br>
+[High CPU on PaaS Roles](https://blogs.msdn.microsoft.com/cie/2015/02/17/troubleshooting-scenario-high-cpu-usage-on-paas-roles-with-the-same-load-after-a-running-for-a-few-hours/)<br>
+[Use Perfview to collect and analyze data for performance bottlenecks](http://www.microsoft.com/download/details.aspx?id=28567)<br>
+[Use the Debug Diagnostics tool to troubleshoot Performance issue](https://blogs.msdn.microsoft.com/cie/2015/06/27/installing-debugdiag-and-importing-rules-thru-azure-cloud-services-startup-tasks/)<br>
+[How to change the VM size of Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs#configure-sizes-for-cloud-services)<br>
+[Common causes of Role Recycle](http://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-common-issues-which-cause-roles-recycle#role-throws-unhandled-exceptions-while-initializing-or-stopping)

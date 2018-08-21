@@ -1,9 +1,9 @@
 <properties
-	pageTitle="worker role (paas)/application and service availability/service was or is unavailable"
-	description="worker role (paas)/application and service availability/service was or is unavailable"
+	pageTitle="worker role (paas)/application and service availability/service was or is unavaiable"
+	description="worker role (paas)/application and service availability/service was or is unavaiable"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="chiragpavecha"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591241"
@@ -12,9 +12,13 @@
 	cloudEnvironments="public"
 />
 
-# worker role (paas)/application and service availability/service was or is unavailable
+# worker role (paas)/application and service availability/service was or is unavaiable
 
 ## **Recommended documents**
-
-* [Check for current and recent events which may impact your service availability](https://azure.microsoft.com/status/history)<br>
-* [Check region wise status for all Azure Services](https://azure.microsoft.com/status/)
+[Check for current and recent events which may impact your service availability](https://azure.microsoft.com/status/history)<br>
+[Check region wise status for all Azure Services](https://azure.microsoft.com/status/)<br>
+[A recent Guest OS update might have affected the availability of your Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix)<br>
+[Check compatibility between Guest OS and .Net framework](https://docs.microsoft.com/azure/cloud-services/cloud-services-guestos-update-matrix#family-3-releases)<br>
+[Performance issue with Cloud Services? Capture this data for timely troubleshooting](https://blogs.msdn.microsoft.com/cie/2018/01/17/troubleshooting-performance-issues-with-cloud-services-paas-data-collection/)<br>
+[Move resources across Subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#classic-deployment-limitations)<br>
+[How to assign a Static IP to your Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq#how-do-i-associate-a-static-ip-address-to-my-cloud-service)
