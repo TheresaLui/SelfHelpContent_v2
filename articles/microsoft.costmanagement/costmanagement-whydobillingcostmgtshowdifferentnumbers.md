@@ -12,12 +12,12 @@
 	cloudEnvironments="public"
 />
 
-# Why do Billing and Cost Management show different numbers?
+# Why does Cost Management have different numbers than my invoice?
 
-It's possible that the total displayed on the Billing overview tab and the total displayed on the Cost Management tab will be different.
+Cost Management currently includes usage and Marketplace charges.
 
-This is expected behavior based on the way the two values are computed.
+One-time and recurring fees (e.g. reservations and support) are not currently included. 
 
 ## **Recommended documents**
 
-[Azure Cost Management Documentation](https://docs.microsoft.com/azure/cost-management/)
+[Azure Cost Management documentation](https://docs.microsoft.com/azure/cost-management/)
