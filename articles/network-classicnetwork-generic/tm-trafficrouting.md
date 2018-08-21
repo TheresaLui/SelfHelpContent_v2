@@ -3,7 +3,7 @@
 	description="traffic routing"
 	service="microsoft.network"
 	resource="trafficmanagerprofiles"
-	authors="radwiv"
+	authors="radwiv,ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593302,32411851"
