@@ -6,9 +6,9 @@
 	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32593302"
+	supportTopicIds="32593302,32411851"
 	resourceTags=""
-	productPesIds="15400"
+	productPesIds="15400,15797"
 	cloudEnvironments="public"
 />
 
