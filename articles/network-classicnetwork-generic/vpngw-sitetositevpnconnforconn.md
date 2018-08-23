@@ -15,7 +15,7 @@
 # Site-to-Site VPN connectivity issues
 
 ## **Recommended steps**
-4 out of 5 customres resolve their Site-to-Site VPN connectivity issues using below steps<br>
+4 out of 5 customers resolve their Site-to-Site VPN connectivity issues using below steps<br>
 1. [VPN gateway reset](data-blade:microsoft_azure_network.VirtualNetworkGatewayResetBlade) may help if you lost cross-premises VPN connectivity on one or more site-to-site VPN tunnels<br>
 2. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId)<br>
 3. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
