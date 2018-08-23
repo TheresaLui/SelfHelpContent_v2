@@ -16,7 +16,7 @@
 If you are having problems connecting to your VPN from Windows 7 and Windows 8.1 such as VPN error 812 "The connection was prevented because of a policy configured on your RAS/VPN server" you may need to enable support for TLS 1.2. If that is the case, please follow the steps below:<br>
 1.  Install the following updates:<br>
 [KB3140245](https://www.catalog.update.microsoft.com/search.aspx?q=kb3140245)<br>
-[KB2977292](https://www.microsoft.com/en-us/download/details.aspx?id=44342)<br>
+[KB2977292](https://www.catalog.update.microsoft.com/search.aspx?q=kb2977292)<br>
 
 2.  Open an admin command prompt by right-clicking on “Command Prompt” and selecting “Run as administrator”<br>
 
