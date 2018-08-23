@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # ExpressRoute Configuration Issue Detected
 <!--issueDescription-->
-We have identified an Azure platform configuration issue for your private peering ExpressRoute connection to virtual network ID: **<!--$VNetId-->**[VNetId]**<!--/$VNetId-->**. The initial diagnosis is showing that your Virtual Network Gateway '**<!--$GatewayId-->[GatewayId]<!--/$GatewayId-->**' is missing prefixes from the Microsoft Edge Router. See below for more details and steps to mitigate.
+We have identified an Azure platform configuration issue for your private peering ExpressRoute connection to virtual network ID: **<!--$VNetId-->[VNetId]<!--/$VNetId-->**. The initial diagnosis is showing that your Virtual Network Gateway '**<!--$GatewayId-->[GatewayId]<!--/$GatewayId-->**' is missing prefixes from the Microsoft Edge Router. See below for more details and steps to mitigate.
 <!--/issueDescription-->
 ## **Issue Details & Mitigation**
 We have identified a platform configuration issue and are working with the appropriate teams to mitigate this issue as quickly as possible and return you to normal operations. If you would prefer to forfeit a detailed root cause analysis and expedite the resolution of connectivity consider removing and re-creating the ExpressRoute Connection in the [Azure portal](http://portal.azure.com) and [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic). 
