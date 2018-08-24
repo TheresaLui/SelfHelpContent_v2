@@ -18,15 +18,14 @@
 
 The following documents can help you to resolve some of the most common issues in this category.
 
-  * [I am confused about how application consent works](https://docs.microsoft.com/en-us/azure/active-directory/application-dev-consent-framework?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
-  * [I don’t understand the different types of consent (admin consent, static user consent, dynamic user consent)](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-permissions-and-consent)
-  * [I don't know how to grant consent for my application](https://docs.microsoft.com/en-us/azure/active-directory/application-dev-registration-config-grant-permissions-how-to?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+  * [I am confused about how application consent works](https://docs.microsoft.com/azure/active-directory/application-dev-consent-framework?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+  * [I don’t understand the different types of consent (admin consent, static user consent, dynamic user consent)](https://docs.microsoft.com/azure/active-directory/develop/v1-permissions-and-consent)
+  * [I don't know how to grant consent for my application](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-grant-permissions-how-to?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
 **I don't know how to select or manage permissions for my application**
 
 The following documents can help you to resolve some of the most common issues in this category.
 
-  * [I don’t know how to configure my application to request permissions](https://microsoft-my.sharepoint-df.com/personal/lenalepa_microsoft_com/Documents/•%09https:/docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#updating-an-application)
-  * [I don’t understand the different types of permissions (delegated, application, effective)](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-permissions-and-consent)
-  * [I don’t know what the best practices are for requesting permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-permissions-and-consent#best-practices)
-  * [I can’t find the API I need to use for my application](https://docs.microsoft.com/en-us/azure/active-directory/application-dev-api-find-an-api-how-to?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+  * [I don’t understand the different types of permissions (delegated, application, effective)](https://docs.microsoft.com/azure/active-directory/develop/v1-permissions-and-consent)
+  * [I don’t know what the best practices are for requesting permissions](https://docs.microsoft.com/azure/active-directory/develop/v1-permissions-and-consent#best-practices)
+  * [I can’t find the API I need to use for my application](https://docs.microsoft.com/azure/active-directory/application-dev-api-find-an-api-how-to?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
