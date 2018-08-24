@@ -17,6 +17,8 @@ cloudEnvironments="public"
 
 We have detected that an Update run has failed to query Windows Update for the patches in an update deployment. Without being able to query Windows Update, we can not determine what patches are needed to be installed.
 
+## Recommended action
+
 You can search for the HRESULT <!--$HRESULTCode-->[HRESULTCode]<!--/$HRESULTCode--> in the [Windows Update error code list](https://support.microsoft.com/help/938205/windows-update-error-code-list) to find the description of the failure. This description provides insight into the possible problem with updates.
 
 To learn more on how to be notified on the status of an update deployment in the future by using Azure Monitor, see [Configure alerts for update deployments](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#configure-alerts)
