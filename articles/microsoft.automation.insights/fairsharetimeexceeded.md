@@ -1,7 +1,7 @@
 ﻿<properties
 pageTitle="Runbook failed because it exceeded the fair share time limit"
 description="Runbook failed because it exceeded the fair share time limit"
-infoBubbleText="We have detected that your runbook failed because the fair share time limit was exceeded"
+infoBubbleText="Found a failed runbook due to exceeding the fair share time limit. See details on the right."
 service="microsoft.automation"
 resource="runbooks"
 authors="stevechi"
