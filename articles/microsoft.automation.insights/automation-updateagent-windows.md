@@ -17,6 +17,10 @@ cloudEnvironments="public"
 
 We have detected that you have machines that do not have the latest Windows Microsoft Monitoring Agent installed on them. Update Management uses these agents to perform update assessments and to orchestrate the patching of your systems.
 
+The following is a list of machines missing the latest Windows Microsoft Monitoring Agent:
+
+<!--$computerList-->[computerList]<!--/$computerList-->
+
 It is recommended that you update the agent on your machines to the latest version: <!--$LatestVersionofAgent-->[LatestVersionofAgent]<!--/$LatestVersionofAgent-->.
 
 To update the agent on your machines refer to the steps found at [Install a Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#install-a-hybrid-runbook-worker).
