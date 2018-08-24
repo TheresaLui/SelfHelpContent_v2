@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411853"
+	supportTopicIds="32411853,32610793"
 	resourceTags=""
 	productPesIds="15571"
 	cloudEnvironments="public"
