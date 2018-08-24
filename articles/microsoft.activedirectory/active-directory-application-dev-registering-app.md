@@ -19,8 +19,8 @@
 The following documents can help you to resolve some of the most common issues in this category.
 
   * [I don’t know how to integrate my application with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad)
-  * [I don’t know how to update my application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#updating-an-application)
-  * [I don’t know how to remove my application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#removing-an-application)
-  * [I don’t know how authentication works in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios)
-  * [I don’t know how to make my application multi-tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant)
+  * [I don’t know how to update my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#updating-an-application)
+  * [I don’t know how to remove my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#removing-an-application)
+  * [I don’t know how authentication works in Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-scenarios)
+  * [I don’t know how to make my application multi-tenant](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant)
 
