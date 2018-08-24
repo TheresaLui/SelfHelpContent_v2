@@ -3,7 +3,7 @@
   description="Problems troublshooting consent"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="lenalepa"
+  authors="lnalepa"
   selfHelpType="generic"
   supportTopicIds="32596874"
   productPesIds="14785"
