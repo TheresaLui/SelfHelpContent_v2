@@ -3,7 +3,7 @@
   description="Problems acquiring tokens to access a resource"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="lenalepa"
+  authors="lnalepa"
   selfHelpType="generic"
   supportTopicIds="32596835"
   productPesIds="14785"
