@@ -15,7 +15,7 @@ cloudEnvironments="public"
 />
 # Microsoft Monitoring Agent needs to be upgraded
 
-We have detected that an Update run has failed to query Windows Update for the patches in an update deployment. Without being able to query Windows Update, we can not determine what patches are needed to be installed.
+We have detected that an update run has failed to query Windows Update for the patches in an update deployment. Without being able to query Windows Update, we can not determine what patches are needed to be installed.
 
 ## Recommended action
 

@@ -13,13 +13,13 @@ supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,
 productPesIds="15607"
 cloudEnvironments="public"
 />
-# Update Management solution failed to deploy correctly
+# Update management solution failed to deploy correctly
 
-We have detected that Update Management solution didn't properly deploy on the following machines:
+We have detected that update management solution didn't properly deploy on the following machines:
 
 <!--$computerList-->[computerList]<!--/$computerList-->
 
-Because the machines don't have the Update Management solution deployed, they are unable to perform scans or patching.
+Because the machines don't have the update management solution deployed, they are unable to perform scans or patching.
 
 ## Recommended action
 

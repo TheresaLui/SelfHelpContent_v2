@@ -15,9 +15,9 @@ cloudEnvironments="public"
 />
 # Microsoft Monitoring Agent needs to be upgraded
 
-We have detected that you have machines that do not have the latest Windows Microsoft Monitoring Agent installed on them. Update Management uses these agents to perform update assessments and to orchestrate the patching of your systems.
+We have detected that you have machines that do not have the latest Microsoft Monitoring Agent installed on them. Update Management uses these agents to perform update assessments and to orchestrate the patching of your systems.
 
-The following is a list of machines missing the latest Windows Microsoft Monitoring Agent:
+The following is a list of machines missing the latest Microsoft Monitoring Agent:
 
 <!--$computerList-->[computerList]<!--/$computerList-->
 
