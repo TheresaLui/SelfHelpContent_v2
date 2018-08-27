@@ -20,11 +20,11 @@ We have investigated and identified that your runbook, <!--$RunbookName-->[Runbo
 ### Recommended Steps
 In order to avoid runbook failures caused by fair share consumption, we recommend one of the following methods to resolve this problem:
 #### 1) Execute the runbook using a Hybrid Worker
-For long running tasks, it is recommended to use a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid Runbook Workers are not limited by fair share, and do not have a limitation on how long a runbook can execute.
+For long-running tasks, it is recommended to use a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid Runbook Workers are not limited by fair share, and do not have a limitation on how long a runbook can execute.
 #### 2) Optimize the runbook
 If you would like to execute the runbook in the cloud rather than using a Hybrid Worker, you need to optimize the runbook.
 
-One option, is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks execute in parallel in separate processes decreasing the total amount of time for the parent runbook to complete running.
+One option is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks executes in parallel in separate processes decreasing the total amount of time for the parent runbook to complete running.
 
 The PowerShell cmdlets that enable this scenario are:
 
