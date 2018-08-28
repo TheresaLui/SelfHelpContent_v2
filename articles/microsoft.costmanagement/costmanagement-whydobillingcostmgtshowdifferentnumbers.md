@@ -3,7 +3,7 @@
 	description="different total numbers in the cost management interface"
 	service="microsoft.costmanagement"
 	resource="costmanagement"
-	authors="justinwb"
+	authors="woodbridge"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -16,7 +16,7 @@
 
 Cost Management currently includes usage and Marketplace charges.
 
-One-time and recurring fees (e.g. reservations and support) are not currently included. 
+One-time and recurring fees (e.g. reservations and support) are not currently included.
 
 ## **Recommended documents**
 

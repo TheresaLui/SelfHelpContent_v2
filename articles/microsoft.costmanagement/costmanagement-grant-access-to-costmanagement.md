@@ -3,7 +3,7 @@
 	description="grant access to cost management"
 	service="microsoft.costmanagement"
 	resource="costmanagement"
-	authors="justinwb"
+	authors="woodbridge"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""

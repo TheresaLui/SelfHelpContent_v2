@@ -3,7 +3,7 @@
 	description="can't see subscriptions"
 	service="microsoft.costmanagement"
 	resource="costmanagement"
-	authors="justinwb"
+	authors="woodbridge"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
