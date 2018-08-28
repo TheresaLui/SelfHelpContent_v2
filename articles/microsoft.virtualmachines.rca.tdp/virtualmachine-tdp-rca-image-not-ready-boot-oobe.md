@@ -21,7 +21,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 <!--/issueDescription-->
 
 ## When to use Sysprep
-Sysprep is a process that is run where  windows installation will reset the installation of the system and will provide an “out of the box experience” by removing all personal data and resetting several components. For details about Sysprep, see [How to Use Sysprep: An Introduction.](http://technet.microsoft.com/library/bb457073.aspx) for instructions on how to generalize an image.<br>
+Sysprep is a process that can be run by an administrator where windows installation will reset the installation of the system and will provide an "Out-Of-Box Experience (OOBE)". This experience is provided by removing all personal data and resetting several components. For details about Sysprep, see [How to Use Sysprep: An Introduction.](http://technet.microsoft.com/library/bb457073.aspx) for instructions on how to generalize an image.<br>
 
 To learn more about generalized and specialized VMs for **Windows**:<br>
 
