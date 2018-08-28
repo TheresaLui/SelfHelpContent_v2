@@ -22,7 +22,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 It is important to **highlight this is not a quota issue.** The servers in Azure datacenters are partitioned into clusters. Normally, an allocation request is attempted within a datecenter with no issues, but it's possible that certain constraints from the allocation request force the Azure platform to attempt the request in a specific set of clusters. Due to the natural fluctuation of capacity within a datacenter, it was not possible to meet the constraints defined at the time the deployment was initiated.<br>
 
-To learn more about allocation failures including availability sets:<br>
+To learn more about allocation failures:<br>
 
 * [Troubleshoot allocation failures for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/allocation-failure)<br>
 * [Troubleshoot allocation failures for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/allocation-failure)
