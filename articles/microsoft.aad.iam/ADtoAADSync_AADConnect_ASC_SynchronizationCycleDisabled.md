@@ -6,7 +6,7 @@
 	resource="aadconnect"
 	authors="jecheria"
 	displayOrder="1"
-	articleId="ADtoAADSync_AADConnect_ASC_SynchronizationCycleDisabled"
+	articleId="adtoaadsync_aadconnect_asc_synchronizationcycledisabled"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
