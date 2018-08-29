@@ -13,6 +13,7 @@
 # Enabling and Disabling Azure AD Domain Services
 
 ## Unable to enable AAD-DS or deployment is failing
+
 1.	If you are using an already existing Virtual Network, check your NSG for rules that block ports needed to synchronize in Azure AD Domain Services: https://aka.ms/aadds-networking
 2.	Check to see if your error message is answered in this troubleshooting guide: https://aka.ms/aadds-troubleshoot-enable
 3.	Try deploying Azure AD Domain Services in a new Virtual Network.

@@ -13,6 +13,7 @@
 # Issues configuring LDAPS
 
 ## **Recommended Steps**
+
 1.	Check your domain’s health on the Azure portal: https://aka.ms/aadds-health
 2.	Ensure a valid Azure AD subscription is available and Azure AD Domain Services has been enabled.
 3.	The certificate required to enable secure LDAP must be obtained from a trusted public certification authority or be a self-signed certificate.

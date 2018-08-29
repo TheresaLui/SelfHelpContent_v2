@@ -13,6 +13,7 @@
 # User sign-in/domain join issues
 
 ## **Recommended Steps**
+
 1.	Try to sign in using the UPN format (for example, 'joeuser@contoso.com') instead of the SAMAccountName format ('CONTOSO\joeuser').
 2.	Ensure that you have enabled password synchronization in accordance with the steps outlined in the Getting Started guide:
 3.	Ensure that the affected user account is not an external account in the Azure AD tenant. External users cannot sign in to the managed domain, since Azure AD Domain Services does not have credentials for such user accounts.

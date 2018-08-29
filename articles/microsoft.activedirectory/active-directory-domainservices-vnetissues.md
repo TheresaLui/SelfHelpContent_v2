@@ -13,6 +13,7 @@
 # Virtual Network selection and configuration issue
 
 ## Network connection issues
+
 1.	Check your domain’s health on the Azure portal: https://aka.ms/aadds-health
 2.	Check your NSG for rules that block ports needed to synchronize in Azure AD Domain Services: https://aka.ms/aadds-networking
 3.	Make sure your virtual network is deployed in the same Azure Region as your Azure AD Domain Services managed domain
