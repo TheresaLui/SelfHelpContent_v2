@@ -1,7 +1,7 @@
 <properties
 	pageTitle="AAD Connect server(s) did not sync passwords in the last 3 hours"
 	description="No password sync in last 3 hours"
-	infoBubbleText="No password sync in last 3 hours"
+	infoBubbleText="No password sync in last 3 hours. See details on the right"
 	service="microsoft.aad.iam"
 	resource="aadconnect"
 	authors="jecheria"
