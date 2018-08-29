@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 <!--issueDescription-->
-## Export deletion threshold has been reached
+# Export deletion threshold has been reached
 When installing Azure AD Connect, "*prevent accidental deletes*" is enabled by default and configured to not allow an export with more than 500 deletes. This feature is designed to protect you from accidental configuration changes and changes to your on-premises directory that would affect many users and other objects.
 
 What is *prevent accidental deletes*? Common scenarios when you see many deletes in Azure AD Connect include:
