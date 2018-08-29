@@ -20,6 +20,7 @@
 4.	Ensure the certificate follows the required guidelines: https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-configure-secure-ldap#requirements-for-the-secure-ldap-certificate
 
 ## Invalid Certificate
+
 1.	To renew a certificate, follow the steps to create a new certificate and reupload: https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-configure-secure-ldap
 2.	Check to see if your certificate follows the required guidelines: https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-configure-secure-ldap#requirements-for-the-secure-ldap-certificate
 
