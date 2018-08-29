@@ -14,7 +14,8 @@
 
 ## **Recommended steps**
 
-If the problem you are experiencing is not found in the other cateogries, you can explore the following channels as well:
+If the problem you are experiencing is not found in the other categories, you can explore the following channels as well:
+
 1.	Browse the [Azure AD Domain Services troubleshooting guide](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
 2.	Browse the [Azure AD Domain Services FAQ list](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-faqs)
 3.	Post your question on [Stack Overflow](https://stackoverflow.com/questions/tagged/azure-ad-domain-services) using the tag 'azure-ad-domain-services'
