@@ -24,5 +24,5 @@ For any new features, please post and/or vote for it on [UserVoice!](https://fee
 ## **Recommended Documents**
 
 -	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
--	[Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-faqs)
--	[Pricing]( https://azure.microsoft.com/en-us/pricing/details/active-directory-ds/)
+-	[Frequently Asked Questions](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-faqs)
+-	[Pricing]( https://azure.microsoft.com/pricing/details/active-directory-ds/)

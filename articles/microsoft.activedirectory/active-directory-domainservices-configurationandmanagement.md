@@ -16,6 +16,6 @@
 
 ## **Recommended Documents**
 
-*	[How to use Azure AD Domain Services with a CSP subscription](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-csp)
-*	[Administering DNS on a managed domain]( https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-admin-guide-administer-dns)
+*	[How to use Azure AD Domain Services with a CSP subscription](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-csp)
+*	[Administering DNS on a managed domain]( https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-administer-dns)
 *	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
