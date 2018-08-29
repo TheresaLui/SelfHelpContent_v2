@@ -3,7 +3,7 @@
 	description="Advisory"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411885"
@@ -15,4 +15,5 @@
 # Advisory
 
 ## **Recommended documents**
-* [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)<br>
+
+* [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)

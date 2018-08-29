@@ -3,27 +3,24 @@
     description="I can't create or add a new VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
-    authors="kasparks"
+    authors="ScottAzure"
     displayOrder="3"
     selfHelpType="resource"
-    supportTopicIds="32411817,32449676"
+    supportTopicIds=""
     resourceTags="windows, windowsSQL"
-    productPesIds="14749"
-	cloudEnvironments="public" 
- />
-    
-# I can't create or add a new VM
-    
-## **Recommended steps**
-To resolve common issues, try one or more of the following methods.
+    productPesIds=""
+    cloudEnvironments="public"
+/>
 
-1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason
-2. Look up suggested actions by error code <br>
-[Troubleshoot error codes for create or add a new VM](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/#error-string-lookup)
-3. Try your request using a smaller VM size or a different cloud service. Use the following article if you're using a different cloud service. <br>
-[Configure regional Virtual Network to connect Cloud services](https://azure.microsoft.com/blog/vnet-to-vnet-connecting-virtual-networks-in-azure-across-different-regions/)
-4. If you're creating a new VM using a custom image, review the following article to verify that you followed the necessary steps to create the image
-[Capture an image of an Azure Windows virtual machine created with the classic deployment model](https://azure.microsoft.com/documentation/articles/virtual-machines-capture-image-windows-server/)
+# I can't create or add a new VM
+
+## **Recommended steps**
+
+1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason.<br>
+2. Look up suggested actions and [troubleshoot error codes](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/#error-string-lookup).<br>
+3. [Try your request using a smaller VM size or a different cloud service](https://azure.microsoft.com/blog/vnet-to-vnet-connecting-virtual-networks-in-azure-across-different-regions).<br>
+4. When creating a new VM using a custom image, review [how to capture a classic Linux virtual machine as an image](https://azure.microsoft.com/documentation/articles/virtual-machines-capture-image-windows-server)
 
 ## **Recommended documents**
-[Troubleshooting allocation failure when you create, restart or resize a VM in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/)
+
+* [Troubleshooting allocation failure when you create, restart or resize a VM in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-allocation-failure/)

@@ -18,9 +18,9 @@
 
 Actions don’t appear immediately in the audit activity log. It can take anywhere from 30 minutes to an hour to see the audit logs in the Azure portal from the time the operation is performed.
 
-- Wait for 30 minutes to an hour and see if the actions appear in the activity log. 
+* Wait for 30 minutes to an hour and see if the actions appear in the activity log.
 
 ## **Recommended documents**
-[Azure Active Directory reporting latencies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-latencies-azure-portal)  
-[Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
+* [Azure Active Directory reporting latencies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-latencies-azure-portal)  
+* [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
 
