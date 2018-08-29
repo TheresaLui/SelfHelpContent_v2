@@ -20,5 +20,6 @@
 
 
 ## **Recommended Documents**
+
 -	[Selecting a virtual network]( https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-networking)
--	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
+-	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)

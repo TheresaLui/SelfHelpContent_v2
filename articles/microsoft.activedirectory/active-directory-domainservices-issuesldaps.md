@@ -24,6 +24,7 @@
 
 
 ## **Recommended Documents**
+
 -	[Configuring Secure LDAP](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-admin-guide-configure-secure-ldap)
 -	[Troubleshooting LDAPs configuration](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshoot-ldaps)
--	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
+-	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)

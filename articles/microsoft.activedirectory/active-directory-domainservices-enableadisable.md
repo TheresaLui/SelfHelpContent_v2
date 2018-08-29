@@ -23,5 +23,6 @@
 Azure AD Domain Services is unable to be paused. If you wish to stop using your managed domain, it must be deleted.
 
 ## **Recommended Documents**
+
 -	[Troubleshooting enabling Azure AD Domain Services](https://aka.ms/aadds-troubleshoot-enable)
--	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
+-	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
