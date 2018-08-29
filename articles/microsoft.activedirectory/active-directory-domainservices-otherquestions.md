@@ -3,7 +3,7 @@
 	description="Azure AD Domain Services"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
-	authors="arluca"
+	authors="eringreenlee"
 	selfHelpType="generic"
 	supportTopicIds="32565593"
 	productPesIds="14785"
@@ -21,6 +21,7 @@ If the problem you are experiencing is not found in the other cateogries, you ca
 
 For any new features, please post and/or vote for it on [UserVoice!](https://feedback.azure.com/forums/169401-azure-active-directory/category/160593-domain-services)
 
-## **Recommended documents**
-* [Azure AD Domain Services troubleshooting guide](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting) 
-* [Azure AD Domain Services FAQs](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-faqs)
+## **Recommended Documents**
+-	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
+-	[Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-faqs)
+-	[Pricing]( https://azure.microsoft.com/en-us/pricing/details/active-directory-ds/)

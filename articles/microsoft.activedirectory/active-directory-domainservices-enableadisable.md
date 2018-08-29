@@ -3,7 +3,7 @@
 	description="Azure AD Domain Services"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
-	authors="arluca"
+	authors="eringreenlee"
 	selfHelpType="generic"
 	supportTopicIds="32447391"
 	productPesIds="14785"
@@ -12,15 +12,16 @@
 
 # Enabling and Disabling Azure AD Domain Services
 
-## Unable to enable Azure AD Domain Services for your Azure AD Directory. 
+## Unable to enable AAD-DS or deployment is failing
+1.	If you are using an already existing Virtual Network, check your NSG for rules that block ports needed to synchronize in Azure AD Domain Services: https://aka.ms/aadds-networking
+2.	Check to see if your error message is answered in this troubleshooting guide: https://aka.ms/aadds-troubleshoot-enable
+3.	Try deploying Azure AD Domain Services in a new Virtual Network.
+4.	Follow the Getting Started guide on how to deploy AAD-DS: https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-getting-started
 
-Click the error message you encounter, for appropriate troubleshooting steps:
 
-*	[The name contoso100.com is already in use on this network. Specify a name that is not in use.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#domain-name-conflict)
-*	[Domain Services could not be enabled in this Azure AD tenant. The service does not have adequate permissions to the application called 'Azure AD Domain Services Sync'. Delete the application called 'Azure AD Domain Services Sync' and then try to enable Domain Services for your Azure AD tenant.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#inadequate-permissions)
-*	[Domain Services could not be enabled in this Azure AD tenant. The Domain Services application in your Azure AD tenant does not have the required permissions to enable Domain Services. Delete the application with the application identifier d87dcbc6-a371-462e-88e3-28ad15ec4e64 and then try to enable Domain Services for your Azure AD tenant.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#invalid-configuration)
-*	[Domain Services could not be enabled in this Azure AD tenant. The Microsoft Azure AD application is disabled in your Azure AD tenant. Enable the application with the application identifier 00000002-0000-0000-c000-000000000000 and then try to enable Domain Services for your Azure AD tenant.](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshooting#microsoft-graph-disabled.)
+## Unable to disable AAD-DS
+Azure AD Domain Services is unable to be paused. If you wish to stop using your managed domain, it must be deleted.
 
-## **Recommended documents**
-* [Administrative privileges you do not have on a managed domain](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-admin-guide-administer-domain#administrative-privileges-you-do-not-have-on-a-managed-domain)
-* [Azure AD Domain Services FAQs](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-faqs)
+## **Recommended Documents**
+-	[Troubleshooting enabling Azure AD Domain Services](https://aka.ms/aadds-troubleshoot-enable)
+-	[Azure AD Domain Services Troubleshooting](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-troubleshooting)
