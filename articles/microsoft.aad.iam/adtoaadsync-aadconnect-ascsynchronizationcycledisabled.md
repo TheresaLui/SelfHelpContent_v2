@@ -1,7 +1,7 @@
 <properties
-	pageTitle="The Azure AD Sync scheduler is disabled"
-	description="The Azure AD Sync scheduler is disabled"
-	infoBubbleText="The Azure AD Sync scheduler is disabled. See details on the right."
+	pageTitle="AAD Connect synchronization cycle is disabled"
+	description="AAD Connect synchronization cycle is disabled"
+	infoBubbleText="AAD Connect synchronization cycle is disabled. See details on the right."
 	service="microsoft.aad.iam"
 	resource="aadconnect"
 	authors="jecheria"
