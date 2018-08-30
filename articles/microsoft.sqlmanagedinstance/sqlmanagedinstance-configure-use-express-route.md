@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Configure or use Express Route
 ## **Recommended steps**
 *Configure Site-to-Site connection between the application and the Managed Instance VNet per process outlined in<br>  
 [Connect an on-premises application](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-connect-app#connect-an-on-premises-application)<br>

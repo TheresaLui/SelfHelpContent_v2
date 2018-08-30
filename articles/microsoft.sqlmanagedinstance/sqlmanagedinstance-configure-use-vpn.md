@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Connectivity/Configure or use VPN
 ## **Recommended steps**
 *Configure a Point-to-Site connection to a VNet per process outlined in<br>  
 [Connect an application on the developers box](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-connect-app#connect-an-application-on-the-developers-box )<br>

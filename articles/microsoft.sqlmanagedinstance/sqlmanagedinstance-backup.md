@@ -11,6 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
+# Back up a managed instance database
 
 ## **Recommended steps**
 *SQL Managed Instance and SQL Database platform automatically creates and manages database backups<br>

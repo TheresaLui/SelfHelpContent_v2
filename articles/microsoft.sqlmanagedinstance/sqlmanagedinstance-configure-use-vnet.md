@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Configure or use VNets
 ## **Recommended documents**
 [Troubleshooting access to VNet hosted resources](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet#troubleshooting)<br>
 [Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-connectivity-architecture)

@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Client API driver issues
 ## **Recommended steps**
 * SQL Managed Instance requires update of client drivers to fully function.<br> 
 * Here is a list with minimal driver versions<br>  

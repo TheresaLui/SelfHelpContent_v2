@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# SQL CLR development
 ## **Recommended steps**
 * Managed Instance cannot access file shares and Windows folders, so the following constraints apply:<br>
 	Only CREATE ASSEMBLY FROM BINARY is supported. See [CREATE ASSEMBLY FROM BINARY](https://docs.microsoft.com/sql/t-sql/statements/create-assembly-transact-sql)<br>

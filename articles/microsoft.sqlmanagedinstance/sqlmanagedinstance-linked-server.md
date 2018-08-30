@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Linked server connectivity and provider errors
 ## **Recommended steps**
 * At this time SQL Managed Instance only supports SQL Server/SQL Database as target/source. 
 

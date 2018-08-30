@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Firewall issues
 ## **Recommended steps**
 * SQL Managed Instance does not have a built in firewall. However you can configure Network Security Groups(NSGs) for the subnet where SQL Managed Instance resides. For more information about NSGs refer to <br>
 [Create, change, or delete a network security group](https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group)

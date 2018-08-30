@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# Create a managed instance
 ## **Recommended steps**
 * Create SQL Managed Instance fom Portal <br>
 [Create an Azure SQL Database Managed Instance in the Azure portal](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-create-tutorial-portal)<br>

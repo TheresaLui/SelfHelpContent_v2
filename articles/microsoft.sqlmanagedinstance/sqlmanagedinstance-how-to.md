@@ -11,7 +11,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 />
-
+# How-To Questions
 ## **Recommended steps**
 * For an overview of SQL Managed instance refer to<br>
  [What is a Managed Instance (preview)?](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance)<br>
