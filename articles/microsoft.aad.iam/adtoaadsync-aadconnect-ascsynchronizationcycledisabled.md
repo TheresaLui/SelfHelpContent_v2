@@ -32,5 +32,5 @@ To enable the synchronization cycle, execute the following PowerShell cmdlet on 
 
 This cmdlet will enable the synchronization cycle and synchronization will resume at the configured interval.
 
-For more information about stopping, starting, enabling and disabling the synchronization cycle please refer to this article: [https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview ](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview) 
+For more information about stopping, starting, enabling and disabling the synchronization cycle please refer to this article: [https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#overview) 
 
