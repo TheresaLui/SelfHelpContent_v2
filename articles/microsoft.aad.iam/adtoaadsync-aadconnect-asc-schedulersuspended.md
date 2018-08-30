@@ -16,7 +16,7 @@
 # The Azure AD Sync scheduler is suspended
 <!--issueDescription-->
 ## The Azure AD Sync scheduler is suspended
-We have detected synchronization cycle is suspended on server(s) for your tenant.
+We have detected the synchronization cycle is suspended on server(s) for your tenant.
 
 When the synchronization cycle is suspended on an Azure AD Connect server, the synchronization process will no longer synchronize data between the on-premises Active Directory and Azure Active Directory. The scheduler is suspended by Connect during an upgrade to temporarily block the scheduler from running. Normally, the upgrade process will re-enable the scheduler to run as scheduled after the upgrade process completes. Under some circumstances this does not happen correctly, causing the scheduler to be suspended.
 
