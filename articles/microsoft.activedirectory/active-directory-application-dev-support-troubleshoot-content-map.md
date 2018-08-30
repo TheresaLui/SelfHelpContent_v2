@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-The following links will bring you to a content map which will help you to resolve some of the most common issues with application developement with the **Application Registry** in Azure Active Directory.
+The following links will bring you to a content map which will help you to resolve some of the most common issues faced during application development and managing **App Registrations** in Azure Active Directory.
 
 * [Issues that are related to Application Configuration and Registration](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-config-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)
 * [Issues that are related to Application Development](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)

@@ -7,7 +7,7 @@
 	authors="bharathb"
 	displayOrder=""
 	articleId="ipfilter_1FCDCD2C-E096-49C4-8A50-C53020F79757"
-        diagnosticScenario="MachineKeyUpdates"
+        diagnosticScenario="CosmosDBIpFilterInsight"
 	selfHelpType="rca"
 	supportTopicIds="32597522"
 	resourceTags=""

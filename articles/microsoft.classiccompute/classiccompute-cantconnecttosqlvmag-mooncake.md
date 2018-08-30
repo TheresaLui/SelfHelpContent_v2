@@ -15,10 +15,11 @@
 # I can't connect to SQL Server Availability Group
 
 ## **Recommended steps**
-Try following steps to diagnose and mitigate Availability Group connectiviy issues
 
-1. Troubleshoot Availability Group connectivity <br>
-[Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
+Try following steps to diagnose and mitigate Availability Group connectivity issues:<br>
+
+1. [Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
 
 ## **Recommended documents**
-[Configure an Availability Group Listener in Azure](https://docs.azure.cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-portal-sql-alwayson-availability-groups/)
+
+* [Configure an Availability Group Listener in Azure](https://docs.azure.cn/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-portal-sql-alwayson-availability-groups/)

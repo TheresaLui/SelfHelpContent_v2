@@ -19,10 +19,17 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate time Blob was deleted",
-			"required": true
+			"required": false
+		}, {
+			"id": "blob_path",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "Blob path",
+			"watermarkText": "ContainerName/BlobName",
+			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 2,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

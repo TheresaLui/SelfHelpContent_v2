@@ -16,10 +16,9 @@
 
 ## **Recommended steps**
 
-Even though Office 365 activity and Azure AD activity logs share a lot of the directory resources, if you want a full view of the Office 365 activity logs, you should go to the Office 365 Admin Center to get Office 365 Activity log information. 
+Even though Office 365 activity and Azure AD activity logs share a lot of the directory resources, if you want a full view of the Office 365 activity logs, you should go to the Office 365 Admin Center to get Office 365 Activity log information.
 
 ## **Recommended documents**
 
 - [Azure Active Directory reporting FAQ](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq)
-- [Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance )
-
+- [Office 365 Admin Center](https://portal.office.com/AdminPortal/Home#/reportsSecurityAndCompliance)
