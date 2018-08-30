@@ -15,8 +15,8 @@ productPesIds="15607"
 cloudEnvironments="public"
 />
 # Runbook failed because it exceeded the fair share time limit
-## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->,  failed after exceeding the fair share time limit**
-We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the last 5 days. It exceeded the 3 hour [fair share](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) time limit.
+## **The runbook, <!--$RunbookName-->RunbookName<!--/$RunbookName-->,  failed after exceeding the fair share time limit**
+We have investigated and identified that your runbook, <!--$RunbookName-->RunbookName<!--/$RunbookName-->, failed <!--$FailedJobs-->FailedJobs<!--/$FailedJobs--> times in the last 5 days. It exceeded the 180-minute [fair share](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share).
 ### Recommended Steps
 In order to avoid runbook failures caused by fair share consumption, we recommend one of the following methods to resolve this problem:
 #### 1) Execute the runbook using a Hybrid Worker
