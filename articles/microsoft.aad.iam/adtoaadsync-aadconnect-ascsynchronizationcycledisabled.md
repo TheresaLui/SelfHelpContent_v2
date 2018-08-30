@@ -6,7 +6,7 @@
 	resource="aadconnect"
 	authors="aditis"
 	displayOrder="1"
-	articleId="ADtoAADSync_AADConnect_ASC_SynchronizationCycleDisabledd"
+	articleId="ADtoAADSync_AADConnect_ASC_SynchronizationCycleDisabled"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
