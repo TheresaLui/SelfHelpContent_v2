@@ -14,12 +14,12 @@
 # How-To Questions
 ## **Recommended steps**
 * For an overview of SQL Managed instance refer to<br>
- [What is a Managed Instance (preview)?](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance)<br>
+ [What is a Managed Instance (preview)?](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance)<br>
 
 * Understand connectivity architecture via<br> 
-[Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-connectivity-architecture)<br>
+[Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture)<br>
 
 * For database migration check out<br> 
 [SQL Server instance migration to Azure SQL Database Managed Instance]
-(https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-migrate)<br>
+(https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)<br>
 
