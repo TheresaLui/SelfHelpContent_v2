@@ -4,7 +4,7 @@
 	infoBubbleText="AAD Connect synchronization cycle is disabled. See details on the right."
 	service="microsoft.aad.iam"
 	resource="aadconnect"
-	authors="jecheria"
+	authors="aditis"
 	displayOrder="1"
 	articleId="ADtoAADSync_AADConnect_ASC_SynchronizationCycleDisabledd"
 	diagnosticScenario=""
