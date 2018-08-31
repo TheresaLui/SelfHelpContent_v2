@@ -6,7 +6,7 @@
 	resource="aadconnect"
 	authors="aditis"
 	displayOrder="1"
-	articleId="ADtoAADSync_AADConnect_ASC_No_ADDSConnectAcctPwdStatus"
+	articleId="ADtoAADSync_AADConnect_ASC_No_ADDSConnectorAcctPwdStatus"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
