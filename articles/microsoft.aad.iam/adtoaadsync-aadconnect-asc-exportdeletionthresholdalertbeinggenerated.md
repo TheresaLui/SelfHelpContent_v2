@@ -30,8 +30,8 @@ Common scenarios when you see many deletes in Azure AD Connect include:
 
 Depending on your specific issue, there may be one of two situations:
 
-- The deletes were accidental and you did not want these deletions to take place. In that case, you should undo the accidental changes that triggered the deletions. AADConnect will resume its normal operation after the accidental changes have been mitigated.
-- You intended to delete more objects than the threshold allows. In this case you can disable the deletion threshold by issuing the following PowerShell cmdlet:
+- The deletes were accidental and you did not want these deletions to take place. In that case, you should undo the accidental changes that triggered the deletions. Azure AD Connect will resume its normal operation after the accidental changes have been mitigated.
+- You intended to delete more objects than the threshold allows. In this case, you can disable the deletion threshold by issuing the following PowerShell cmdlets:
 
 `Import-Module ADSync`
 
@@ -42,7 +42,6 @@ After issuing this cmdlet the pending objects will be deleted in Azure AD.
 Note: You should re-enable the deletion threshold after the objects are deleted from Azure AD, using this cmdlet:
 
 `Enable-ADSyncExportDeletionThreshold`
-
 
 ## **Recommended documents**
 * [AADConnect sync feature - Prevent accidental deletes](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-prevent-accidental-deletes)<br>
