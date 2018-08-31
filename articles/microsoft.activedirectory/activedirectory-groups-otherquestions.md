@@ -12,11 +12,11 @@
     
 # Other questions about managing groups
 
-## **Things to check first**
+## **Recommended steps**
 
 **Disabling welcome notification for new Office 365 group members**<br>
 The welcome notification sent to users who are added to Office 365 groups can be disabled by setting the UnifiedGroupWelcomeMessageEnabled to False in Powershell. Learn about this setting [here](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/Set-UnifiedGroup?view=exchange-ps).
-	
+
 **Manage Group creation permissions**<br>
 * Global administrators can manage group creation permissions for security or Office 365 groups in the Azure portal or Access Panel, by setting "Users can create security groups in Azure portals" or "Users can create Office 365 groups in Azure portals" settings in **All groups > General (Settings)**. 
 * You can also restrict group creation to select a group of users if you have an Azure Active Directory P1 Premium license.
@@ -25,7 +25,7 @@ The welcome notification sent to users who are added to Office 365 groups can be
 1. Currently, nesting a group as member of another group is only supported for security groups, it is not supported for Office 365 groups at this time.<br>
 2. Nested group memberships are not supported for group-based assignment to applications at this time. Learn more about SaaS application support [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-saasapps).<br>
 3. [Group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-group-advanced#limitations-and-known-issues) currently does not support groups that contain other groups (nested groups). If you apply a license to a nested group, only the immediate first-level user members of the group have the licenses applied.<br>
-	
+
 **Unable to restore a deleted group**<br>
 * If an Office 365 group is deleted, admins it can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-restore-azure-portal).<br>
 * This functionality is not supported for security groups and distribution groups.<br>
