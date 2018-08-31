@@ -19,7 +19,6 @@
 * Understand connectivity architecture via<br> 
 [Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture)<br>
 
-* For database migration check out<br> 
-[SQL Server instance migration to Azure SQL Database Managed Instance]
-(https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)<br>
+* For database migration check out<br>
+[SQL Server instance migration to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)
 

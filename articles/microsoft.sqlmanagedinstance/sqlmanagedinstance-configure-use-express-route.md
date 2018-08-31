@@ -13,7 +13,7 @@
 />
 # Configure or use Express Route
 ## **Recommended steps**
-*Configure Site-to-Site connection between the application and the Managed Instance VNet per process outlined in<br>  
+* Configure Site-to-Site connection between the application and the Managed Instance VNet per process outlined in<br>  
 [Connect an on-premises application](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app#connect-an-on-premises-application)<br>
 [Connect a virtual network to an ExpressRoute circuit using the portal](https://docs.microsoft.com/azure/expressroute/expressroute-howto-linkvnet-portal-resource-manager)<br>
 
