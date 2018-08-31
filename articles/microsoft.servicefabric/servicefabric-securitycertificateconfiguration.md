@@ -15,7 +15,7 @@
 # security/certificateconfiguration
 
 ## **Recommended documents**
-[Troubleshooting guides on Certificate Configuration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/README.md#certificate-configuration)<br>
+[Common questions and solutions on Certificate Configuration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/README.md#certificate-configuration)<br>
 [Change cluster from certificate thumbprint to common name](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-change-cert-thumbprint-to-cn)<br>
 [Add or remove certificates for a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure)<br>
 [Adding a secondary certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure#add-a-secondary-certificate-using-resource-manager-powershell)<br>

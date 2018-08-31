@@ -15,7 +15,9 @@
 # cluster/clusterupgrade
 
 ## **Recommended documents**
+[Common questions and solutions on Cluster Upgrade](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
 [How to troubleshoot Cluster Upgrade issues](https://blogs.msdn.microsoft.com/huizhu/2018/05/04/troubleshoot-service-fabric-cluster-upgrade-issues)<br>
+[Upgrade Service Unreachable](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Cluster%20Not%20Reachable%20%20UpgradeServiceNotreachable.md)<br>
 [Service Fabric Cluster Upgrade Concepts and Settings](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade)<br>
 [Service Fabric Standalone Cluster Upgrade](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-windows-server)<br>
 [Tutorial: Upgrade the runtime of a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-upgrade-cluster)<br>
