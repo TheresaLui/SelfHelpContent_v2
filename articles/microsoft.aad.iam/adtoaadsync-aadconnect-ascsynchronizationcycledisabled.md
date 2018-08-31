@@ -16,7 +16,7 @@
 # The Azure AD Sync scheduler is disabled
 <!--issueDescription-->
 ## The Azure AD Sync scheduler is disabled
-We have detected synchronization cycle is disabled on server(s) for your tenant.
+We have detected that the synchronization cycle is disabled on server(s) for your tenant.
 
 When the synchronization cycle is disabled on an Azure AD Connect server, the synchronization process will no longer synchronize data between the on-premises Active Directory and Azure Active Directory. Please enable the synchronization cycle on each affected Azure AD Connect server.
 <!--/issueDescription-->
