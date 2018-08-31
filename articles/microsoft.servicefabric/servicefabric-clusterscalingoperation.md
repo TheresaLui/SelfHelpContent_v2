@@ -20,6 +20,6 @@
 [Understand how Auto Scaling works in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-autoscaling)<br>
 [Scaling Cluster through Auto-Scale rules or manually](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-scale-up-down)<br>
 [Scaling Cluster Programmatically](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-programmatic-scaling)<br>
-[Scaling up primary node type of Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-primary-nodetype-vm)<br>
+[Scaling up primary node type of Cluster](https://docs.microsoft.com/azure/service-fabric/virtual-machine-scale-set-scale-node-type-scale-out)<br>
 [Scalability of Applications](https://docs.microsoft.com/azure/service-fabric/service-fabric-concepts-scalability)<br>
 [Tutorial: Scale a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-scale-cluster)<br>
