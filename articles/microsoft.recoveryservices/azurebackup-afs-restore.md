@@ -6,7 +6,7 @@
                 authors="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
-                supportTopicIds="32599714,32599715,32599716"
+                supportTopicIds="32599716"
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"

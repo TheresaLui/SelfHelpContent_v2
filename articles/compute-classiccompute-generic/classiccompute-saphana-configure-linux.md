@@ -1,14 +1,14 @@
 <properties
 	pageTitle="Configuration and Setup/Configure SAP HANA large instances"
 	description="Configuration and Setup/Configure SAP HANA large instances"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549255"
 	resourceTags="linux"
-	productPesIds="15571"
+	productPesIds="15571,16454"
 	cloudEnvironments="public"
 />
 

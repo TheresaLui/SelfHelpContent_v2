@@ -3,12 +3,12 @@
 	description="planned maintenance/general questions or issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591320, 32589415"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571, 15797, 16454"
 	cloudEnvironments="public"
 />
 

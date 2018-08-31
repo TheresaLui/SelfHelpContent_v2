@@ -16,14 +16,24 @@
 
 ## **Recommended steps**
 
-**I'm having trouble deploying password reset to my organization**
+**I'm having trouble configuring password reset**
 
+* To learn how to configure password reset for your organization, review this article: [Quick Start: Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
 * Make sure you that you understand the licensing requirements:
   * You must have at least one license assigned in your organization
     * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
     * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
     * To read more about licensing requirements see the article [Licensing requirements for Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing)
-* [Quick Start: Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
+* If you have a question about self-service password reset, review this article: [Password management frequently asked questions](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-faq)
+
+**I'm getting an error message**
+
+Review this article to find common errors and their solutions: [Troubleshoot self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-troubleshoot)
+
+**I'm having a problem with my password reset policy**
+
+* If your password reset policy is not behaving as expected, or if you have questions about password reset policies, review this article: [Password policies and restrictions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy)
+* Password reset policies **do not** apply to administrators. Microsoft enforces a strong default two-gate password reset policy for any Azure administrator role. Make sure that you are testing with a user who is not an administrator. For more information on the administrator reset policy, see this article: [Administrator reset policy differences](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#administrator-reset-policy-differences)
 
 **I don't want my users to register additional security info for password reset**
 
