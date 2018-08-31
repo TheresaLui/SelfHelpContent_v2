@@ -6,7 +6,7 @@
 	authors="parakhj"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32548152"
+	supportTopicIds="32596836"
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
