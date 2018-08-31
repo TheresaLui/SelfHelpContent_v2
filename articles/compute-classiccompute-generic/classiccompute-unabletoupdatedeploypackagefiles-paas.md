@@ -19,5 +19,5 @@
   [Allocation Failure possible solutions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
   [How to create and deploy a Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy)<br>
   [Troubleshoot Common Deployment Problems](https://docs.microsoft.com/azure/cloud-services/cloud-services-troubleshoot-deployment-problems)<br>
-  [How to download cspkg file using REST API](http://www.learningsharepoint.com/2015/11/20/download-cloud-service-package-cspkg-from-azure-with-rest-api/)<br>
+  [How to download cspkg file using REST API](https://stackoverflow.com/questions/12516983/download-uploaded-cspkg-file-from-azure)<br>
   [How to publish Cloud Service from VS](https://docs.microsoft.com/azure/cloud-services/cloud-services-dotnet-get-started#create-a-cloud-service-visual-studio-solution)

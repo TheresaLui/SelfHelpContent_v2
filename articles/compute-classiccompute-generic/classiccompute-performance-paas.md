@@ -3,7 +3,7 @@
 	description="worker role (paas)/application and service availability/performance"
 	service="microsoft.classiccompute"
 	resource="domainnames"
-	authors="aashu"
+	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32422588"
