@@ -20,7 +20,7 @@ The welcome notification sent to users who are added to Office 365 groups can be
 **Manage Group creation permissions**<br>
 * Global administrators can manage group creation permissions for security or Office 365 groups in the Azure portal or Access Panel, by setting "Users can create security groups in Azure portals" or "Users can create Office 365 groups in Azure portals" settings in **All groups > General (Settings)**. 
 * You can also restrict group creation to select a group of users if you have an Azure Active Directory P1 Premium license.
-	
+
 **Troubleshooting Nested groups**<br>
 1. Currently, nesting a group as member of another group is only supported for security groups, it is not supported for Office 365 groups at this time.<br>
 2. Nested group memberships are not supported for group-based assignment to applications at this time. Learn more about SaaS application support [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-saasapps).<br>
