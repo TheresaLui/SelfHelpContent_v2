@@ -9,7 +9,7 @@
     productPesIds="14785"
     cloudEnvironments="public"
 />
-    
+  
 # Other questions about managing groups
 
 ## **Recommended steps**
