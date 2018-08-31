@@ -16,7 +16,7 @@
 
 **Manage Group creation permissions**<br>
 1. Ensure you are authorized to create a new group. A global administrator of Azure AD can disable the ability to create a new group in the Azure portal or Access Panel. If you are not an administrator, you may need an administrator create the new group for you, or give you appropriate permissions.<br>
-2. Global administrators can manage group creation permissions for security or Office 365 groups in the Azure portal or Access Panel, by setting "Users can create security groups in Azure portals" or "Users can create Office 365 groups in Azure portals" settings in All groups > General (Settings).<br>
+2. Global administrators can manage group creation permissions for security or Office 365 groups created in the Azure portal or Access Panel, by setting "Users can create security groups in Azure portals" or "Users can create Office 365 groups in Azure portals" settings in **All groups > General (Settings)**.<br>
 3. You can also restrict group creation to select a group of users if you have an Azure Active Directory P1 Premium license.<br>
 
 **Disabling welcome notification for new Office 365 group members**<br>
