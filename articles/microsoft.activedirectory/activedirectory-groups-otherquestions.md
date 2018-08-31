@@ -3,11 +3,12 @@
     description="Other questions about managing groups"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
+    authors="krbain"
     selfHelpType="generic"
     supportTopicIds="32586794"
     productPesIds="14785"
     cloudEnvironments="public"
-    />
+/>
     
 # Other questions about managing groups
 
