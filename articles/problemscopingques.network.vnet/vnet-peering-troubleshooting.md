@@ -11,21 +11,21 @@
 # VNET Peering Troubleshooting
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "VM Information",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "source_vm IP address",
+			"id": "source_vm internal IP address",
 			"order": 1,
 			"controlType": "textbox",
-			"displayLabel": "Please provide the source Virtual Machine IP address",
+			"displayLabel": "Please provide the source Virtual Machine internal IP address",
 			"watermarkText": "Provide source Virtual Machine",
 			"required": false
 		}, {
-			"id": "destination_vm IP address",
+			"id": "destination_vm internal IP address",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please provide the destination Virtual Machine IP address",
+			"displayLabel": "Please provide the destination Virtual Machine internal IP address",
 			"required": false
 		}, {
 			"id": "destination_port",
