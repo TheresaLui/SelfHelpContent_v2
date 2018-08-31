@@ -21,7 +21,7 @@ We have detected synchronization cycle is disabled on server(s) for your tenant.
 When the synchronization cycle is disabled on an Azure AD Connect server, the synchronization process will no longer synchronize data between the on-premises Active Directory and Azure Active Directory. Please enable the synchronization cycle on each affected Azure AD Connect server.
 <!--/issueDescription-->
 ## **Recommended steps**
-To enable the synchronization cycle, execute the following PowerShell cmdlet on the AADConnect server: 
+To enable the synchronization cycle, execute the following PowerShell cmdlet on the Azure AD Connect server: 
 
 `Set-ADSyncScheduler -SyncCycleEnabled $true` 
 
