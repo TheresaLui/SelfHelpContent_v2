@@ -21,4 +21,4 @@ If your devices use Microsoft Intune Exchange On-premises or Exchange Online Ded
   1.	Deploy an email profile for the Gmail or Nine Work for Android Enterprise app.
   2.	Deploy those apps as a required installation.
 
-For more information about configuring policies for devices that use these environments, see the Intune documentation.
+For more information about configuring policies for devices that use these environments, see the [Intune](https://docs.microsoft.com/en-us/intune/device-profile-create) documentation.
