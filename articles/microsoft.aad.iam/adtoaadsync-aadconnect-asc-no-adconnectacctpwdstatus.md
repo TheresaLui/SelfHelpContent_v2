@@ -25,4 +25,4 @@ You may see the following:
 <!--/issueDescription-->
 ## **Recommended steps**
 
-To resolve the issue, update the Active Directory user account using the steps as show in [this article](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-service-manager-ui-connectors#changing-the-ad-ds-account-password)
+To resolve the issue, update the Active Directory user account using the steps as shown in [this article](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-service-manager-ui-connectors#changing-the-ad-ds-account-password)
