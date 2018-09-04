@@ -16,10 +16,11 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified that your Application Gateway is missing a frontend port
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Frontend Port **<!--$FrondEndPort-->[FrontEndPort]<!--/$FrontEndPort-->** configured.
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Frontend Port **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->** configured.
 <!--/issueDescription--> 
 ## **Steps to resolve**
+
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
-3. Select the 'Frontend IP Configurations' blade and configure a Frontend Port <!--$FrondEndPort-->[FrontEndPort]<!--/$FrontEndPort--> 
+3. Select the 'Frontend IP Configurations' blade and configure a Frontend Port <!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort--> 
 4. Select the 'Listeners' blade. Use the Frontend created in step 3 in the Http Listener
