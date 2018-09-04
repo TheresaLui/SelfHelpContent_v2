@@ -22,5 +22,3 @@ We have identified that your gateway subnet for virtual network ID **<!--$VNetId
 
 1. Use Network Watcher [Next Hop](https://docs.microsoft.com/azure/network-watcher/diagnose-vm-network-routing-problem) to verify subnet next hop is expected.
 2. Remove the route and test traffic flows
-
- 
