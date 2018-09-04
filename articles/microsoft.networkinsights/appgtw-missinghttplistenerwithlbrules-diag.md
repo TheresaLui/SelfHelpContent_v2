@@ -18,6 +18,7 @@ cloudEnvironments="Public"
 We have identified your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Http Listeners with Load Balancing Rules associated. The Application Gateway will not function until at least one Http Listener has Load Balancing Rules associated.
 <!--/issueDescription--> 
 ## **Steps to resolve**
+
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Go to the 'Listeners' blade to identify the desired listener. (Create one if one does not exist)
