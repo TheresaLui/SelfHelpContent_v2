@@ -6,7 +6,7 @@ service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
 displayOrder="10"
-articleId=""
+articleId="AppGwInVnetWithCustomDns"
 diagnosticScenario=""
 selfHelpType="Diagnostics"
 supportTopicIds=""
@@ -19,6 +19,7 @@ cloudEnvironments="Public"
 We have identified that your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->** in VNet: **<!--$VnetName-->[VnetName]<!--/$VnetName-->** has custom DNS servers defined. Your Application Gateway may not be able to resolve the names of your backend pool resources.
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
+
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->**
 3. Open the 'Backend Pools' blade, then click on the backend pool. Make note of the IP address or URL.
