@@ -13,9 +13,9 @@
 	productPesIds="14785"
 	cloudEnvironments="public"
 />
-# The AD DS account password has been changed but it has not been updated on the Synchronization Service AD DS Connector
+# The Active Directory account password has been changed but it has not been updated on the Synchronization Service AD DS Connector
 <!--issueDescription-->
-## The AD DS account password has been changed but it has not been updated on the Synchronization Service AD DS Connector
+## The Active Directory account password has been changed but it has not been updated on the Synchronization Service AD DS Connector
 We have detected that the Active Directory account password on your Azure AD Connect server has been changed but it has not been updated on the Synchronization Service AD DS Connector. As a consequence, the Synchronization Service will no longer be able to import/export changes to on-premises.
 
 You may see the following:
