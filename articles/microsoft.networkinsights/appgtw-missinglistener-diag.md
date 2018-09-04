@@ -19,6 +19,7 @@ cloudEnvironments="Public"
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Frontend Port **<!--$FrondEndPort-->[FrontEndPort]<!--/$FrontEndPort-->** configured.
 <!--/issueDescription--> 
 ## **Steps to resolve**
+
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Configure a new Http listener for port: <!--$FrondEndPort-->[FrontEndPort]<!--/$FrontEndPort-->, protocol: <!--$Protocol-->[Protocol]<!--/$Protocol--> and <!--$FrondEndIp-->[FrontEndIp]<!--/$FrontEndIp-->.
