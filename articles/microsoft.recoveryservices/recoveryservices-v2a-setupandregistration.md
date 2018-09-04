@@ -13,13 +13,13 @@
 />
 # Site Recovery (VMware vCenter to Azure)/Add/register configuration server
 
-## **Recommended Actions**
+## **Recommended Steps**
 
 **VMware to Azure**
 
 * Deploy Configuration Server using OVF template - [tutorial](https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template) and [video](https://azure.microsoft.com/blog/announcing-a-new-simplified-onboarding-experience-for-azure-site-recovery-vmware-to-azure/)</br>
 * Change [proxy settings to connect configuration server to the internet](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#modify-proxy-settings)</br>
-* Manage the configuration server - [apply licence](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#update-windows-licence), [upgrade](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#upgrade-the-configuration-server) and  [delete/unregister](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)</br>
+* Manage the configuration server - [apply licence](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#update-windows-licence), [upgrade](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#upgrade-the-configuration-server) and  [delete/unregister](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)</br>
 * [Register the configuration server to same vault](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#reregister-a-configuration-server-in-the-same-vault)</br>
 
 **Physical to Azure**
