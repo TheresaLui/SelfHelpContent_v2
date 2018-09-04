@@ -1,0 +1,22 @@
+<properties
+pageTitle="My Application Gateway backendpool has both IP addresses and FQDN."
+description="My Application Gateway backendpool has both IP addresses and FQDN."
+infoBubbleText="Issues with your Application Gateway were detected. See details on the right."
+service="microsoft.network"
+resource="ApplicationGateway"
+authors="chadmath"
+displayOrder="10"
+articleId="AppGwBackendAddressPoolIpAndFdqn"
+diagnosticScenario="AppGwBackendAddressPoolIpAndFdqn"
+selfHelpType="Diagnostics"
+supportTopicIds="32436961,32573483,32582834,32436964,32436960,32582828,32582829,32582830,32582825,32582826,32582827,32582831,32582832,32436961,32573483,32582834,32436962,32565734,32565735,32565736,32582833"
+resourceTags="windows"
+productPesIds="15922"
+cloudEnvironments="Public"
+/>
+# Microsoft Azure has identified an issue with your Application Gateway's backend address pool
+<!--issueDescription-->
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'s** backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->**, contains IP Addresses and FQDNs. This could be an issue if the **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->** is using HTTPS as the resources with IP addresses will fail. 
+<!--/issueDescription-->
+## **Steps to resolve**
+If backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->** is utilizing HTTPS, update resources with IP to have FQDNs so HTTPS will succeed.
