@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Application Gateway's backend address pool
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'s** backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->**, contains IP Addresses and FQDNs. This could be an issue if the **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->** is using HTTPS as the resources with IP addresses will fail. 
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'s** backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->**, contains IP Addresses and FQDNs. This could be an issue if the **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->** is using HTTPS as the resources with IP addresses will fail. 
 <!--/issueDescription-->
 ## **Steps to resolve**
-If backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--$BackendAddressPool-->** is utilizing HTTPS, update resources with IP to have FQDNs so HTTPS will succeed.
+If backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->** is utilizing HTTPS, update resources with IP to have FQDNs so HTTPS will succeed.
