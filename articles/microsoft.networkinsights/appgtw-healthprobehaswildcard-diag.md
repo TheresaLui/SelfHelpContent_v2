@@ -19,6 +19,7 @@ cloudEnvironments="Public"
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** has a wildcard path **<!--$Path-->[Path]<!--/$Path-->**. Probe path should be a specific page on the backend server.
 <!--/issueDescription--> 
 ## **Steps to resolve**
+
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Select the 'Health Probes' blade
