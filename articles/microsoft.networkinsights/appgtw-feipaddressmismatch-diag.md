@@ -20,10 +20,8 @@ We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayN
 <!--/issueDescription--> 
 ## **Steps to resolve**
 If you are **NOT** using a DNS CNAME or Azure Traffic Manager, ensure that the host '<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->' will eventually resolve to the IP '<!--$FrontEndIP-->[FrontEndIp]<!--/$FrontEndIp-->'.
-
-[comment]:<> (Not sure on resolution steps. Wouldn't it be updating your DNS providers records?)
-
 To validate the host to IP resolution, do the following:
+
 1. Open a command prompt
 2. Type nslookup
 3. Type the host '<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->'
