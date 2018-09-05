@@ -1,4 +1,4 @@
-<properties pageTitle="" 
+<properties pageTitle="Problem with Activity logs in Azure AD" 
 	 description="issuesactivitylogsaad" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
@@ -7,11 +7,11 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-#  
+#  Problem with Activity logs in Azure AD
 ---
 {
   "resourceRequired": false,
-  "title": null,
+  "title": "Problem with Activity logs in Azure AD",
   "fileAttachmentHint": null,
   "formElements": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "id": "dataretention",
-      "visibility": "whichenv=AP",
+      "visibility": "whichenv==AP",
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": null,
@@ -181,7 +181,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "symptoms",
+      "id": "symptoms2",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

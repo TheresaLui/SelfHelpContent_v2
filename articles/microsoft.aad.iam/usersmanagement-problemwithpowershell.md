@@ -135,7 +135,7 @@
       "order": 7,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "In the ‘Problem’ pane to the left, please upload the debug log for the PowerShell session where the problem occurred. For Azure AD PowerShell, this file is in %LOCALAPPDATA%\\Microsoft\\AzureAD\\Powershell. To find the logs for another PowerShell module, please refer to the documentation for that modules.",
+      "content": "In the ‘Problem’ pane to the left, please upload the debug log for the PowerShell session where the problem occurred. For Azure AD PowerShell, this file is in %LOCALAPPDATA%\\\\Microsoft\\\\AzureAD\\\\Powershell. To find the logs for another PowerShell module, please refer to the documentation for that modules.",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
