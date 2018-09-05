@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-#  Problem with Activity logs in Azure AD
+# Problem with Activity logs in Azure AD
 ---
 {
   "resourceRequired": false,
@@ -130,7 +130,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "dataretention",
+      "id": "dataretention2",
       "visibility": "tenantSubscription!=yes",
       "order": 5,
       "controlType": "infoblock",
