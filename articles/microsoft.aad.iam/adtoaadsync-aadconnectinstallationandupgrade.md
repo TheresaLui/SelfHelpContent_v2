@@ -10,7 +10,7 @@
 # Problem with AAD Connect install/upgrade 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Connect install/upgrade",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [
@@ -129,7 +129,7 @@
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "Please provide a copy of the '%programdata%\\\\AADConnect' folder from the Azure AD Connect server. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+      "content": "Please provide a copy of the '%programdata%\\AADConnect' folder from the Azure AD Connect server. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

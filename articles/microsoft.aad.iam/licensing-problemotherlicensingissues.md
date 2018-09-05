@@ -10,7 +10,7 @@
 # Other problem with licenses 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with licenses",
   "fileAttachmentHint": null,
   "formElements": [
@@ -20,7 +20,7 @@
       "order": 1,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory'>Note that this problem type is about per-user subscriptions such as Office 365, Azure AD Premium, Enterprise Mobility + Security, etc. If your issue is related to Azure resourec subscriptions (e.g. granting access to Azure resources in a subscription), please choose Problem type: Subscription problems.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-how-subscriptions-associated-directory'>Note that this problem type is about per-user subscriptions such as Office 365, Azure AD Premium, Enterprise Mobility + Security, etc. If your issue is related to Azure resourec subscriptions (e.g. granting access to Azure resources in a subscription), please choose Problem type: Subscription problems.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
@@ -105,7 +105,7 @@
       "order": 4,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses'>When users inherit licenses from groups it may not be possible to modify or remove the license from a user. Azure portal displays useful error details in such cases - make sure to click the error notification when your operation fails to find out more. Click here to read about group-based licensing.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses'>When users inherit licenses from groups it may not be possible to modify or remove the license from a user. Azure portal displays useful error details in such cases - make sure to click the error notification when your operation fails to find out more. Click here to read about group-based licensing.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

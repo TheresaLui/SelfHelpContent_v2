@@ -10,7 +10,7 @@
 # Problem with AAD Connect ADFS 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Connect ADFS",
   "fileAttachmentHint": null,
   "formElements": [

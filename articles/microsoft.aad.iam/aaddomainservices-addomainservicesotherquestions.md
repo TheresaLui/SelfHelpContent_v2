@@ -10,7 +10,7 @@
 # Problem with AAD Domain services other questions 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services other questions",
   "fileAttachmentHint": null,
   "formElements": [

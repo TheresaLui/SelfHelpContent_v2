@@ -1,4 +1,4 @@
-<properties pageTitle="Problem with User sign-in WHFB" 
+<properties pageTitle="" 
 	 description="usersigninwhfbscopingquestions" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
@@ -7,11 +7,11 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-# Problem with User sign-in WHFB 
+#  
 ---
 {
-  "resourceRequired": true,
-  "title": "Problem with User sign-in WHFB",
+  "resourceRequired": false,
+  "title": null,
   "fileAttachmentHint": null,
   "formElements": [
     {

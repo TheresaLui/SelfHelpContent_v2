@@ -10,7 +10,7 @@
 # Problem with Domains Name configured on another tenant 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Domains Name configured on another tenant",
   "fileAttachmentHint": null,
   "formElements": [

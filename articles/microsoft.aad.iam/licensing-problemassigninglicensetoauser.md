@@ -10,7 +10,7 @@
 # Problem assigning licenses to a user 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem assigning licenses to a user",
   "fileAttachmentHint": null,
   "formElements": [
@@ -88,7 +88,7 @@
       "order": 3,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses'>When users inherit licenses from groups it may not be possible to modify or remove the license from a user. Azure portal displays useful error details in such cases - make sure to click the error notification when your operation fails to find out more. Click here to read about group-based licensing.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses'>When users inherit licenses from groups it may not be possible to modify or remove the license from a user. Azure portal displays useful error details in such cases - make sure to click the error notification when your operation fails to find out more. Click here to read about group-based licensing.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

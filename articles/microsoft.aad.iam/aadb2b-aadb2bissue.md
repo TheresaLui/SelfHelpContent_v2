@@ -10,7 +10,7 @@
 # Problem with AAD B2B 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2B",
   "fileAttachmentHint": null,
   "formElements": [

@@ -10,7 +10,7 @@
 # Active Directory application dev development issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application dev development issue",
   "fileAttachmentHint": null,
   "formElements": [

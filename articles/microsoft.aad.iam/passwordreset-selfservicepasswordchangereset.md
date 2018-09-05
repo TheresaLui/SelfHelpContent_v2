@@ -10,7 +10,7 @@
 # Problem with Self service passowrd change reset 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Self service passowrd change reset",
   "fileAttachmentHint": null,
   "formElements": [

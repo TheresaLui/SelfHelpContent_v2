@@ -10,7 +10,7 @@
 # Problem with Activity logs in Azure AD 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Activity logs in Azure AD",
   "fileAttachmentHint": null,
   "formElements": [
@@ -50,7 +50,7 @@
     },
     {
       "id": "dataretention",
-      "visibility": "whichenv==AP",
+      "visibility": "whichenv=AP",
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": null,
@@ -161,7 +161,7 @@
       "order": 6,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-reporting-faq'>Check out the frequently asked questions about Activity logs here.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-faq'>Check out the frequently asked questions about Activity logs here.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

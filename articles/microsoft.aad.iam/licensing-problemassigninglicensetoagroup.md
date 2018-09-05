@@ -10,7 +10,7 @@
 # Problem assigning licenses to a group 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem assigning licenses to a group",
   "fileAttachmentHint": null,
   "formElements": [
@@ -50,7 +50,7 @@
       "order": 2,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory->Licenses->All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory->Licenses->All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,
@@ -105,7 +105,7 @@
       "order": 4,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal'>Assigning licenses to groups is only available through the Azure portal. Open the group in the portal, go to the Licenses tab to view or modify a license on a group. Click here to find out more.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-group-assignment-azure-portal'>Assigning licenses to groups is only available through the Azure portal. Open the group in the portal, go to the Licenses tab to view or modify a license on a group. Click here to find out more.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

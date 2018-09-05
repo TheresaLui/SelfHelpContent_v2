@@ -10,7 +10,7 @@
 # Problem with licenses using powershell 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with licenses using powershell",
   "fileAttachmentHint": null,
   "formElements": [
@@ -84,7 +84,7 @@
       "order": 3,
       "controlType": "infoblock",
       "displayLabel": null,
-      "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-ps-examples'>Group-based licensing is currently in preview and has limited support via PowerShell and Graph APIs. Click here to read more about how PowerShell v1 cmdlets can be used with this feature.</a>",
+      "content": "<a href='https://docs.microsoft.com/en-us/azure/active-directory/active-directory-licensing-ps-examples'>Group-based licensing is currently in preview and has limited support via PowerShell and Graph APIs. Click here to read more about how PowerShell v1 cmdlets can be used with this feature.</a>",
       "watermarkText": null,
       "infoBalloonText": null,
       "dropdownOptions": null,

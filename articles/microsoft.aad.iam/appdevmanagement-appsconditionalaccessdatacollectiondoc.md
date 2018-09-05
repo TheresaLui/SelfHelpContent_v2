@@ -10,7 +10,7 @@
 # Conditional Access issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Conditional Access issue",
   "fileAttachmentHint": "Screenshot of problem",
   "formElements": [

@@ -10,7 +10,7 @@
 # Active Directory application proxy issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application proxy issue",
   "fileAttachmentHint": null,
   "formElements": [

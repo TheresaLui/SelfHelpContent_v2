@@ -10,7 +10,7 @@
 # Problem with passowrd write back 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with passowrd write back",
   "fileAttachmentHint": null,
   "formElements": [
