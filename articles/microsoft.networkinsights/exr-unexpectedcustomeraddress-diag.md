@@ -26,5 +26,5 @@ We have identified a platform configuration issue for your private peering Expre
 3. Wait approximately 15 minutes to ensure platform clean up tasks complete
 4. Re-create the ExpressRoute VNet Gateway
 5. Finally re-create the circuit link (connection).
- 
- Microsoft is continuously working to identify and resolve issues proactively. Please feel free to reach out with any questions. Again, we apologize for the inconvenience. 
+<br>
+Microsoft is continuously working to identify and resolve issues proactively. Please feel free to reach out with any questions. Again, we apologize for the inconvenience. 
