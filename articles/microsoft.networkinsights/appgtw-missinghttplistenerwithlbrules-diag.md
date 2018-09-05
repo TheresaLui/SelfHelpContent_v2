@@ -1,6 +1,7 @@
 <properties
 pageTitle="My Application Gateway is missing a Http listener with load balancing rules."
 description="My Application Gateway is missing a Http listener with load balancing rules."
+infoBubbleText="Issues with your Application Gateway were detected. See details on the right."
 service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
