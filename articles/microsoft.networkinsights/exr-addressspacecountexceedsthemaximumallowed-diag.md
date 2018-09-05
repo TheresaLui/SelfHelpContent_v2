@@ -20,5 +20,3 @@ We have identified your private peering ExpressRoute connection to virtual netwo
 <!--/issueDescription-->
 ## **Steps to resolve this issue**
  Please reduce the VNet address space count to less than 200 prefixes for VNetId: **<!--$VNetId-->[VNetId]<!--/$VNetId-->**. You may refer to the following for reference: [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings)
-
-
