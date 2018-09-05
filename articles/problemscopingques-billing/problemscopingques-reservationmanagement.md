@@ -17,7 +17,7 @@
 	"title": "Reservation Management",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "reservation_management_instance_determination",
+			"id": "reservation_instance_determination",
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Choose the type of Reservation Instance",
