@@ -27,7 +27,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Properties".
 
-**Step4**: Set the value of the "Enabled for user to sign-in" property to Yes.
+**Step4**: Set the value of the "Enabled for user to sign-in" property to "Yes".
 
 Your application should now be available for user sign-in.
 
