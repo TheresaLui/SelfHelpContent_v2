@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Application is not configured with the right Identifier URL"
-    description="Application is not configured with the right Identifier URL"
+    pageTitle="Enterprise Application - Config issue preventing user sign-in"
+    description="Enterprise Application - Config issue preventing user sign-in"
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
@@ -14,7 +14,9 @@
     cloudEnvironments="public"
 />
 
-# <!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for users sign-in. This will prevent any user from accessing this application.
+# Enterprise Application - Config issue preventing user sign-in
+
+<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for users sign-in. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -29,4 +31,4 @@ In order to enable user sign-in for this application, please follow the steps be
 
 Your application should now be available for user sign-in.
 
-Please refer to this doc for common application related issues: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
+Please refer to this doc for common application related issues: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/AppSignInErrorHelpPage-->
