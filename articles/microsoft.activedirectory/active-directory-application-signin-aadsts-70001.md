@@ -16,7 +16,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for users sign-in. This will prevent any user from accessing this application.
+<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for user sign-in. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
