@@ -31,4 +31,4 @@ In order to enable user sign-in for this application, please follow the steps be
 
 Your application should now be available for user sign-in.
 
-Please refer to this doc for common application related issues: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/AppSignInErrorHelpPage-->
+Please refer to this doc for common application related issues: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
