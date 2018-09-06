@@ -20,7 +20,7 @@
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Sign-in into Azure Portal as a global administrator or another role that is able to manage this application.
+**Step1**: Sign-in to Azure Portal as a global administrator or another role that is able to manage this application.
 
 **Step2**: Navigate to Azure Active Directory, and on the list of Enterprise applications, find the application for which you want to
            enable federated single sign-on.
