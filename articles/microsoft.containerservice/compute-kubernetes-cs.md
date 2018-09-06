@@ -16,6 +16,7 @@
 
 ## **Recommended documents**
 
+* [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
 * [Create an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/create-cluster)<br>
@@ -24,6 +25,5 @@
 * [Create persistent volumes with Azure disks for Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/azure-disks-dynamic-pv)<br>
 * [Network configuration in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/networking-overview)<br>
 * [Frequently asked questions about Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/faq)<br>
-* [Designing, building, and operating microservices on Azure](https://azure.microsoft.com/blog/microservices-on-azure-kubernetes-guidance/)<br>
 * [New AKS cluster unreachable via network (including dashboard)](https://stackoverflow.com/questions/49560394/new-aks-cluster-unreachable-via-network-including-dashboard)<br>
 * [Kubernetes: AKS unable to view the site](https://stackoverflow.com/questions/51531561/kubernetes-aks-unable-to-view-the-site)
