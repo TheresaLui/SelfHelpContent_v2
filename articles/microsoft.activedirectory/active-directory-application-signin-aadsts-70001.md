@@ -6,7 +6,7 @@
     resource=""
     authors="sridhara"
     displayOrder="1"
-    articleId="Application_SignIn_AADSTS_70001"
+    articleId="Applicatin_SignIn_ADSTS_70001"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
