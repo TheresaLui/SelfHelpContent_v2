@@ -30,6 +30,6 @@ To learn more about generalized and specialized VMs for **Windows**:<br>
 * [Learn how to use a generalized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed)<br>
 * [Learn how to generalize your Windows VM and create an image from it](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)
 
-Once the original image has been fixed to have Sysprep properly completed, remember to update the image in Azure being referenced for the deployment.<br>
+Once the original image has been fixed to have Sysprep properly completed, remember to update the image in Azure that is being referenced for the deployment.<br>
 
 If this is a Marketplace image, we recommend reaching out to the publisher directly.<br>
