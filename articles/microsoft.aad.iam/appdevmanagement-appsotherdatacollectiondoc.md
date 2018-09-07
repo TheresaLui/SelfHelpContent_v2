@@ -10,7 +10,7 @@
 # Active Directory application other issue 
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "title": "Active Directory application other issue",
   "fileAttachmentHint": null,
   "formElements": [
