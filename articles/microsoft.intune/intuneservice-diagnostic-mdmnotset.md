@@ -19,12 +19,12 @@
 ## Recommended steps
  
 <!--issueDescription-->
-The mobile device management (MDM) authority of this tenant is not set. Without setting the MDM Authority you won't be able to use Intune's MDM features. 
+The mobile device management (MDM) authority of this tenant is not set. Without setting the MDM authority you won't be able to use Intune's MDM features. 
 <!--/issueDescription-->
 
 The MDM authority setting determines how you manage your devices. As an IT admin, you must set an MDM authority before enrolling and managing devices through Intune MDM. 
 To review the different MDM authority options, please refer to the article [Set the mobile device management authority](https://docs.microsoft.com/intune/mdm-authority-set). After determining the appropriate MDM authority, follow the steps below to set your Intune MDM authority configuration.
  
-**Step 1.** Navigate to the [Choose MDM authority](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) blade.
+**Step 1.** Navigate to the [Choose MDM authority](https://portal.azure.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) blade in the Azure Portal.
  
 **Step 2.** Choose the appropriate authority based on your adminstrative needs. For more information on the options listed, reivew how to [Set the mobile device management authority](https://docs.microsoft.com/intune/mdm-authority-set).
