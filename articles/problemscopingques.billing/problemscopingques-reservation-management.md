@@ -35,7 +35,7 @@ Folder : /problemscopingques.billing/problemscopingques-reservation-management.m
 					"value": "SUSE Software",
 					"text": "SUSE Software"
 				}
-				],
+				]
 			"required": true
 		}
 	]
