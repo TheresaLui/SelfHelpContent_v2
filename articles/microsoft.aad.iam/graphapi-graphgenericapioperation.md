@@ -10,7 +10,7 @@
 # Problem with grpah API generic 
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "title": "Problem with grpah API generic",
   "fileAttachmentHint": null,
   "formElements": [
