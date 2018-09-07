@@ -31,8 +31,8 @@
 				},{
 					"value": "SUSE Software",
 					"text": "SUSE Software"
-				},
-				]
+				}
+				],
 			"required": true
 		}
 	]
