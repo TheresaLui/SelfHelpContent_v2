@@ -1,6 +1,3 @@
-Folder : /problemscopingques.billing/problemscopingques-reservation-management.md
-
-
 <properties
 	pageTitle="Reservation Management"
 	description="Reservation Management"
