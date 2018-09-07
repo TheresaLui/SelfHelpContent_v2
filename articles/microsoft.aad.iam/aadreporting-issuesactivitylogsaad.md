@@ -7,10 +7,10 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-# Problem with Activity logs in Azure AD
+# Problem with Activity logs in Azure AD 
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "title": "Problem with Activity logs in Azure AD",
   "fileAttachmentHint": null,
   "formElements": [

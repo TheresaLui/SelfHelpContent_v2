@@ -10,7 +10,7 @@
 # Problem with grpah API documentation 
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "title": "Problem with grpah API documentation",
   "fileAttachmentHint": null,
   "formElements": [
