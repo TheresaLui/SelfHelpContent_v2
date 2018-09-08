@@ -10,7 +10,7 @@
 # Active Directory application dev config issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application dev config issue",
   "fileAttachmentHint": null,
   "formElements": [

@@ -10,7 +10,7 @@
 # Azure AD Connect password synchronization issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Azure AD Connect password synchronization issue",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

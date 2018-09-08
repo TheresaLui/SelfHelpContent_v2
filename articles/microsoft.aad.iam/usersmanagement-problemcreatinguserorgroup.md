@@ -10,7 +10,7 @@
 # Problem creating a user or group 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem creating a user or group",
   "fileAttachmentHint": "Screenshot of problem",
   "formElements": [

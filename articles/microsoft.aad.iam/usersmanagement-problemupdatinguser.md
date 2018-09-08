@@ -10,7 +10,7 @@
 # Problem updating a user 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem updating a user",
   "fileAttachmentHint": null,
   "formElements": [

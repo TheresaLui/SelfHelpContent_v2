@@ -10,7 +10,7 @@
 # Azure AD Connect synchronization issue with specific attribute 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Azure AD Connect synchronization issue with specific attribute",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

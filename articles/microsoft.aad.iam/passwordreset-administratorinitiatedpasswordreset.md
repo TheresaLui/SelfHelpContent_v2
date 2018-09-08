@@ -10,7 +10,7 @@
 # Problem with administrator initiated password reset 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with administrator initiated password reset",
   "fileAttachmentHint": null,
   "formElements": [

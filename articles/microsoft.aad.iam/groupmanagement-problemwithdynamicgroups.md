@@ -10,7 +10,7 @@
 # Problem with dynamic groups 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with dynamic groups",
   "fileAttachmentHint": null,
   "formElements": [

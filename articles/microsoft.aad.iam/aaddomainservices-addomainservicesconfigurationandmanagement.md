@@ -10,7 +10,7 @@
 # Problem with AAD Domain services configuration management 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services configuration management",
   "fileAttachmentHint": null,
   "formElements": [

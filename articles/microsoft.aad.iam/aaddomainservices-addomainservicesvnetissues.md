@@ -10,7 +10,7 @@
 # Problem with AAD Domain services vnet 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services vnet",
   "fileAttachmentHint": null,
   "formElements": [

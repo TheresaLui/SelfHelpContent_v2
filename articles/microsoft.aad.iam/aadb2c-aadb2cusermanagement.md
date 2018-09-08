@@ -10,7 +10,7 @@
 # Problem with AAD B2C user management 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2C user management",
   "fileAttachmentHint": null,
   "formElements": [

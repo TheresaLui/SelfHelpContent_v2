@@ -10,7 +10,7 @@
 # Problem with Domains Name verify domain name 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Domains Name verify domain name",
   "fileAttachmentHint": null,
   "formElements": [
