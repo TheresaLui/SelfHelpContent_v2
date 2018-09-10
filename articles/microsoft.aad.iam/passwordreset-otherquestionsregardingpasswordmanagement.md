@@ -10,7 +10,7 @@
 # Other problems with password reset 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problems with password reset",
   "fileAttachmentHint": null,
   "formElements": [

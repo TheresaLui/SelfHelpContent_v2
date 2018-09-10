@@ -10,7 +10,7 @@
 # AAD Connect synchronization problem for a specific object 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "AAD Connect synchronization problem for a specific object",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

@@ -10,7 +10,7 @@
 # Problem with AAD B2C policy management 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2C policy management",
   "fileAttachmentHint": null,
   "formElements": [

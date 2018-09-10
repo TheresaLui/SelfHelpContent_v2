@@ -10,7 +10,7 @@
 # Problem deleting a user 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem deleting a user",
   "fileAttachmentHint": null,
   "formElements": [

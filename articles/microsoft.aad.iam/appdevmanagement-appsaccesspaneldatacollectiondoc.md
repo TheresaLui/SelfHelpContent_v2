@@ -10,7 +10,7 @@
 # Active Directory application access panel issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application access panel issue",
   "fileAttachmentHint": null,
   "formElements": [

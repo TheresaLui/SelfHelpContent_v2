@@ -10,7 +10,7 @@
 # Other Problem with ADFS federation 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other Problem with ADFS federation",
   "fileAttachmentHint": null,
   "formElements": [

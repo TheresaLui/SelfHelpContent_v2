@@ -7,10 +7,10 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-# Problem with User sign-in WHFB 
+#  Problem with User sign-in WHFB
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with User sign-in WHFB",
   "fileAttachmentHint": null,
   "formElements": [

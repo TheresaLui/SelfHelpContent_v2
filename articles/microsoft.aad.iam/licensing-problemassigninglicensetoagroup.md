@@ -10,7 +10,7 @@
 # Problem assigning licenses to a group 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem assigning licenses to a group",
   "fileAttachmentHint": null,
   "formElements": [

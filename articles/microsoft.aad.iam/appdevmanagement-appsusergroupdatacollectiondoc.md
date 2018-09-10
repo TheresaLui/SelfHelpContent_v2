@@ -10,7 +10,7 @@
 # Active Directory application user group issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application user group issue",
   "fileAttachmentHint": null,
   "formElements": [

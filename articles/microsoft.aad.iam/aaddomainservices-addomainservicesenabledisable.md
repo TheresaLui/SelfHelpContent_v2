@@ -10,7 +10,7 @@
 # Problem with AAD Domain services enable disable 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services enable disable",
   "fileAttachmentHint": null,
   "formElements": [

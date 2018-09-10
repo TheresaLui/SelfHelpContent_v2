@@ -10,7 +10,7 @@
 # Problem with ADFS AD connect configeration 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with ADFS AD connect configeration",
   "fileAttachmentHint": null,
   "formElements": [

@@ -10,7 +10,7 @@
 # AAD Connect Synchronization - Other questions 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "AAD Connect Synchronization - Other questions",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

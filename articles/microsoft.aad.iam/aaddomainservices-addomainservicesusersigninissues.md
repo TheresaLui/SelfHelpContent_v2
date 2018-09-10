@@ -10,7 +10,7 @@
 # Problem with AAD Domain services user sign in 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services user sign in",
   "fileAttachmentHint": null,
   "formElements": [

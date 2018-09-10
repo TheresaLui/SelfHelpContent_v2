@@ -6,11 +6,11 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-/> 
+/>
 # Problem with AAD B2B 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2B",
   "fileAttachmentHint": null,
   "formElements": [

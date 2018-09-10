@@ -10,7 +10,7 @@
 # Active Directory application provisioning issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application provisioning issue",
   "fileAttachmentHint": null,
   "formElements": [
