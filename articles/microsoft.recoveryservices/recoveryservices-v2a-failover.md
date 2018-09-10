@@ -26,19 +26,24 @@
 
 
 ## **Recommended documents**
-### Automation
+
+**Automation**<br>
+
 - [Sample scripts to Automate different operations during failover](https://github.com/Azure/azure-quickstart-templates/tree/master/asr-automation-recovery/scripts)<br>
 - [Script to assign public IP address to failed over VM](https://github.com/Azure/azure-quickstart-templates/blob/master/asr-automation-recovery/scripts/ASR-AddPublicIp.ps1)<br>
 - [Script to update DNS records of the VM being failed over](https://github.com/Azure/azure-quickstart-templates/blob/master/asr-automation-recovery/scripts/ASR-DNS-UpdateIP.ps1)<br>
 
-### Test Failover
+**Test Failover**<br>
+
 - [How to Run a Test Failover to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure)<br>
 - [Create a network for test failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#create-a-network-for-test-failover)<br>
 - [Test failover considerations to failover the VM into production recovery network](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#test-failover-to-a-production-network-in-the-recovery-site)<br>
 - [Add a public IP address to the VM after test failover](https://aka.ms/addpublicip)<br>
 
-### Failback
+**Failback**<br>
+
 - [How to failback from Azure to On-premises VMware site (step-by-step)](https://docs.microsoft.com/azure/site-recovery/site-recovery-how-to-failback-azure-to-vmware)<br>
 
-### Protect AD DNS
+**Protect AD DNS**<br>
+
 - [Protect Active Directory and DNS](https://docs.microsoft.com/azure/site-recovery/site-recovery-active-directory)<br>

@@ -25,4 +25,4 @@
 
 - [How to exclude a disk from replication?](https://docs.microsoft.com/azure/site-recovery/site-recovery-exclude-disk#how-to-exclude-disks-from-replication)<br>
 - [SLA information for Site Recovery](https://azure.microsoft.com/support/legal/sla/site-recovery/v1_2/)<br>
-- Reduce Recovery time objective (RTO) by [using Azure Traffic Manager with Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/concepts-traffic-manager-with-site-recovery#recovery-time-objective-rto-considerations)
+- Reduce Recovery time objective (RTO) by [using Azure Traffic Manager with Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-traffic-manager-with-site-recovery#recovery-time-objective-rto-considerations)
