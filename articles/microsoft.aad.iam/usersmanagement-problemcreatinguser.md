@@ -10,7 +10,7 @@
 # Problem creating a user 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem creating a user",
   "fileAttachmentHint": "Screenshot of problem",
   "formElements": [

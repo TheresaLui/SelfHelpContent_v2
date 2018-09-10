@@ -10,7 +10,7 @@
 # Problem with Active Directory application config 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Active Directory application config",
   "fileAttachmentHint": null,
   "formElements": [

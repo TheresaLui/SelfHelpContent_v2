@@ -10,7 +10,7 @@
 # Azure AD Connect issue with database 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Azure AD Connect issue with database",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

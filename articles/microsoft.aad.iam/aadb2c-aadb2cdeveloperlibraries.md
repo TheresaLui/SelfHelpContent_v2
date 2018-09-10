@@ -10,7 +10,7 @@
 # Problem with AAD B2C developer libraries 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2C developer libraries",
   "fileAttachmentHint": null,
   "formElements": [

@@ -10,7 +10,7 @@
 # Active Directory application access issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application access issue",
   "fileAttachmentHint": null,
   "formElements": [

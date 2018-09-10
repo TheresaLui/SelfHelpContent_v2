@@ -10,7 +10,7 @@
 # Problem assigning licenses to a user 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem assigning licenses to a user",
   "fileAttachmentHint": null,
   "formElements": [

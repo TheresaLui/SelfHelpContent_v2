@@ -10,7 +10,7 @@
 # Problem with AAD B2C create directory 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD B2C create directory",
   "fileAttachmentHint": null,
   "formElements": [

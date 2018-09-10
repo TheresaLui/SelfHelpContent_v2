@@ -10,7 +10,7 @@
 # Problem in Identity Protection users risk events 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem in Identity Protection users risk events",
   "fileAttachmentHint": null,
   "formElements": [

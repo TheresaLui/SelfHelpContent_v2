@@ -7,8 +7,8 @@
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds="32411835,32602159"
-    resourceTags="linux"
-    productPesIds="16470,15797,15571"
+    resourceTags="linux,redhat,Ubuntu"
+    productPesIds="16470,15797,15571,16454"
     cloudEnvironments="public"
  />
 
