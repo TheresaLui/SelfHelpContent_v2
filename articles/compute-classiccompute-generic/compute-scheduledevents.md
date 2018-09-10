@@ -20,5 +20,5 @@
 * [Watch a Scheduled Events Demo](https://channel9.msdn.com/Shows/Azure-Friday/Using-Azure-Scheduled-Events-to-Prepare-for-VM-Maintenance)<br>
 * [Review the Scheduled Events code samples](https://github.com/Azure-Samples/virtual-machines-scheduled-events-discover-endpoint-for-non-vnet-vm)<br>
 * [Read more about the APIs available in the Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service)<br>
-* [Learn about planned maintenance for Windows virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/planned-maintenance)
+* [Learn about planned maintenance for Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)
 
