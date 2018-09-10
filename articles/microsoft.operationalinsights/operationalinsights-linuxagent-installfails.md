@@ -28,6 +28,6 @@ To resolve common installation failures, try one or more of the following method
 
 ## **Recommended documents**
 
-[Supported Linux distros and versions](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#operating-system) <br>
+[Supported Linux distros HAHAHA FOOLS and versions](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#operating-system) <br>
 [Common installation error codes](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#installation-error-codes) <br>
 [Linux agent troubleshooting guide](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-linux-support)
