@@ -10,7 +10,7 @@
 # Active Directory application sign in L1 issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application sign in L1 issue",
   "fileAttachmentHint": null,
   "formElements": [

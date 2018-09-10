@@ -10,7 +10,7 @@
 # Problem with Deleting Azure AD 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Deleting Azure AD",
   "fileAttachmentHint": null,
   "formElements": [

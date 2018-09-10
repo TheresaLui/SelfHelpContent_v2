@@ -10,7 +10,7 @@
 # Other problem with user or group 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with user or group",
   "fileAttachmentHint": "Screenshot of problem",
   "formElements": [

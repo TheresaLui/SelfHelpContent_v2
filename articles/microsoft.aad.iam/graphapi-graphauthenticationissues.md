@@ -10,7 +10,7 @@
 # Problem with grpah API authentication 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with grpah API authentication",
   "fileAttachmentHint": null,
   "formElements": [

@@ -10,7 +10,7 @@
 # Problem with AAD Domain services ldaps 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Domain services ldaps",
   "fileAttachmentHint": null,
   "formElements": [

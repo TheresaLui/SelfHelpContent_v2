@@ -10,7 +10,7 @@
 # Problem with Deleting directory other problem 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Deleting directory other problem",
   "fileAttachmentHint": null,
   "formElements": [

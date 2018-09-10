@@ -10,7 +10,7 @@
 # Problem with Domains Name domains delete 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Domains Name domains delete",
   "fileAttachmentHint": null,
   "formElements": [

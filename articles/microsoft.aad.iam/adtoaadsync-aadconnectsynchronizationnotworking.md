@@ -10,7 +10,7 @@
 # AAD Connect synchronization not working 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "AAD Connect synchronization not working",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

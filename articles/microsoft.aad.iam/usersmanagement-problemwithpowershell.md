@@ -10,7 +10,7 @@
 # Problem using a PowerShell cmdlet 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem using a PowerShell cmdlet",
   "fileAttachmentHint": "Debug log for PowerShell session",
   "formElements": [

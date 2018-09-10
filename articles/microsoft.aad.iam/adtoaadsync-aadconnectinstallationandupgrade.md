@@ -10,7 +10,7 @@
 # Problem with AAD Connect install/upgrade 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Connect install/upgrade",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

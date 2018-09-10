@@ -10,7 +10,7 @@
 # Problem with ADFS sign in 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with ADFS sign in",
   "fileAttachmentHint": null,
   "formElements": [
