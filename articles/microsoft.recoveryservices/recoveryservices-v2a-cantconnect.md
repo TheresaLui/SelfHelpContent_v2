@@ -23,7 +23,6 @@
 
 ## **Recommended documents**
 
-### Automation
 - [Orchestrate failover with recovery plans](https://docs.microsoft.com/azure/site-recovery/site-recovery-create-recovery-plans) and [run automation scripts as part of failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-runbook-automation)<br>
 - [Sample scripts to Automate different operations during failover](https://github.com/Azure/azure-quickstart-templates/tree/master/asr-automation-recovery/scripts)<br>
 - [Script to assign public IP address to failed over VM](https://github.com/Azure/azure-quickstart-templates/blob/master/asr-automation-recovery/scripts/ASR-AddPublicIp.ps1)<br>
