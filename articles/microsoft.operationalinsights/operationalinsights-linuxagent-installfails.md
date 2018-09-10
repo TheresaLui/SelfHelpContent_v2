@@ -25,7 +25,7 @@ To resolve common installation failures, try one or more of the following method
     b. Ensure that the workspace ID and workspace key you provided are correct and up to date.
 * Review the [list of installation error codes](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#installation-error-codes) for common installation issues .
 * Review the output of the installation script and check the [agent log files](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#important-log-locations-and-log-collector-tool) to identify any other errors.
- 
+
 ## **Recommended documents**
 
 [Supported Linux distros and versions](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#operating-system) <br>
