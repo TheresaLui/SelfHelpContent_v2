@@ -14,10 +14,11 @@
 
 # How can I grant access to Cost Management?
 
-Cost Management is available to the following roles:
+Azure uses [Role-Based Access Control (RBAC)][1] to determine who can perform actions like creating and deleting budgets at different scopes (e.g. management groups, subscriptions, resource groups).
+
+Grant access to Cost Management by adding users to the following roles for a given scope:
 
 * Billing Reader
-* Billing Contributor
 * Reader
 * Contributor
 * Owner
@@ -28,3 +29,5 @@ Cost Management is available to the following roles:
 
 * [Role-based access control](https://docs.microsoft.com/azure/role-based-access-control/)
 * [Azure Cost Management ](https://docs.microsoft.com/azure/cost-management/)
+
+[1]: https://docs.microsoft.com/azure/role-based-access-control/
