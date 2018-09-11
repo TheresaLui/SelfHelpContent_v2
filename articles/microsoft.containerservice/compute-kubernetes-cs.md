@@ -17,6 +17,7 @@
 ## **Recommended documents**
 
 * [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
+* [kube-advisor is a diagnostic tool for Kubernetes clusters](https://github.com/Azure/kube-advisor)<br>
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
 * [Create an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/create-cluster)<br>
