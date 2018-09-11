@@ -20,5 +20,5 @@ We have identified that your gateway subnet for virtual network ID **<!--$VNetId
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
 
- 1. [Delete the NSG](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#delete-a-network-security-group) from the Application Gateway subnet and test communication.
+1. [Delete the NSG](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#delete-a-network-security-group) from the Application Gateway subnet and test communication.
 2. Use [IP Flow](https://docs.microsoft.com/azure/network-watcher/network-watcher-ip-flow-verify-overview) to verify NSG rules allow traffic flow in both directions.
