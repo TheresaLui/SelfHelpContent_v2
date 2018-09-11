@@ -49,7 +49,6 @@ Both API v1 and v2 do not have one-time charges enabled. The product team is con
 
 ## **Recommended documents**
 
-* [Frequently asked questions](https://bit.ly/2QkXJPo)
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
 * [Partner solution - Cloud Cruiser](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-partner-solution-cloudcruiser)
 * [Get consumption data for an Azure subscription](https://docs.microsoft.com/previous-versions/azure/reference/mt219001(v=azure.100)#frequently-asked-questions)
