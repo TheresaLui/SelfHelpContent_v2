@@ -22,7 +22,6 @@ Azure Billing APIs can be used to pull usage and resource data into your preferr
 
 ## **Recommended documents**
 
-* [Frequently asked questions](https://docs.microsoft.com/previous-versions/azure/reference/mt219001(v=azure.100)#frequently-asked-questions)
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
 * [Partner solution - Cloud Cruiser](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-partner-solution-cloudcruiser)
 * [Get consumption data for an Azure subscription](https://docs.microsoft.com/previous-versions/azure/reference/mt219001(v=azure.100)#frequently-asked-questions)
