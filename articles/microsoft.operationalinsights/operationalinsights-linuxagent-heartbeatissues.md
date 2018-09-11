@@ -18,7 +18,7 @@
 ## **Recommended steps**
 If you are not seeing any heartbeat data in Log Analytics, try the following:
 
-* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
+* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
 * Ensure that you have [properly configured your proxy settings](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#im-unable-to-connect-through-my-proxy-to-oms).
 * Ensure that the agent successfully onboarded to the OMS Service by verifying that this file exists: `/etc/opt/microsoft/omsagent/<workspace id>/conf/omsadmin.conf`. The file will only exist if the agent successfully onboarded. If the file does not exist, review the [common onboarding error codes](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#onboarding-error-codes) and attempt to re-onboard the agent:
 ```

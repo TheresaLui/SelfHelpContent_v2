@@ -18,7 +18,7 @@
 ## **Recommended steps**
 If you notice that the OMI process is consuming a high amount of CPU resources, try the following:
 
-* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
+* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
 * Restart the OMI server daemon on the machine by running `sudo /opt/omi/bin/service_control restart`
 * Restart the OMS agent on the machine by running `sudo /opt/microsoft/omsagent/bin/service_control restart`
 * Restart the machine.
