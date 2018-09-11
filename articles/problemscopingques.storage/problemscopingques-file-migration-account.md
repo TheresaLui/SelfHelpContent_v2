@@ -29,21 +29,36 @@
 			"watermarkText": "To StorageAccountName",
 			"required": true
 		}, {
-			"id": "file_share_or_path",
+			"id": "file_share",
 			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "File Share",
+			"watermarkText": "Choose an option",
+			"dynamicDropdownOptions": {
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/$ref?api-version=2017-09-01",
+					"jTokenPath": "value",
+					"textProperty": "id",
+					"valueProperty": "id",
+					"textPropertyRegex": "[^/]+$"
+					}
+			],
+			"required": false
+		}, {
+			"id": "file_share_or_path",
+			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Destination File Share or File path",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
-			"order": 4,
+			"order": 5,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

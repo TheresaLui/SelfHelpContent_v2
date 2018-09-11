@@ -21,15 +21,34 @@
 			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": true
 		}, {
-			"id": "file_share_or_path",
+			"id": "file_share",
 			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "File Share name",
+			"watermarkText": "Choose an option",
+			"dynamicDropdownOptions": {
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/$ref?api-version=2017-09-01",
+					"jTokenPath": "value",
+					"textProperty": "id",
+					"valueProperty": "id",
+					"textPropertyRegex": "[^/]+$"
+					},
+			"dropdownOptions": [{
+					"value": "NoFileShare",
+					"text": "Not specific to a File Share"
+				}
+			],
+			"required": false
+		}, {
+			"id": "file_name",
+			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "File Share or File path",
-			"watermarkText": "'FileShare' or 'FileShare/FileName'",
+			"displayLabel": "File name",
+			"watermarkText": "FileName",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 3,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
