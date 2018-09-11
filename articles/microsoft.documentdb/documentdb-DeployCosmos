@@ -1,0 +1,33 @@
+<properties
+	pageTitle="Deploy Cosmos DB using ARM Template"
+  description="Cosmos DB via ARM Template"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="balakrishnan Shankar"
+	displayOrder="15"
+	selfHelpType="resource"
+	supportTopicIds="32597489"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+# Deploy Cosmos DB using ARM Template
+
+## **Recommended documents**
+
+The Azure Cosmos DB resources are classified namely  Account, Database,  Collection and so on.  
+Please refer this "https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-resources" for complete resource model.
+The Database, Collection/Tales/graphs, Users, Permissions, documents/items/nodes/edges, attachments  resources types are all runtime
+resources. You manage (CURD/query) these resources using SKDs and REST APIs. For instance, you can use any of the MongoDB client drivers to 
+program against databases, collections, documents etc. Likewise, you can use a Gremlin clients to query/CRUD the graph, nodes and
+edges and so on. All of the “runtime resources” can be accessed at low latency around the globe and are meant to  be used by the
+developers directly inside their applications.
+
+The only resource which is meant for administrative purposes is the “database account”. This resource is exposed via ARM.  Please refer
+the Cosmos DB Template references from this https://docs.microsoft.com/en-us/azure/templates/microsoft.documentdb/databaseaccounts
+
+Please refer the below sample template for references.
+
+Create an Azure Cosmos DB API account  -https://azure.microsoft.com/en-us/resources/templates/101-cosmosdb-create-arm-template/
+
+Create a Multi-Region Azure Cosmos DB Database Account  - https://azure.microsoft.com/en-us/resources/templates/101-cosmosdb-create-multi-region-account/
