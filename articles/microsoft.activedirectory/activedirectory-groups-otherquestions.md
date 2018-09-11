@@ -27,7 +27,7 @@ The welcome notification sent to users who are added to Office 365 groups can be
 3. [Group-based licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-group-advanced#limitations-and-known-issues) currently does not support groups that contain other groups (nested groups). If you apply a license to a nested group, only the immediate first-level user members of the group have the licenses applied.<br>
 
 **Unable to restore a deleted group**<br>
-1. If an Office 365 group is deleted, admins it can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-restore-azure-portal).<br>
+1. If an Office 365 group is deleted, it can only be restored up to 30 days before permanent deletion occurs. Once permanently deleted, the group can no longer be restored. Learn more about restoring groups [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-restore-azure-portal).<br>
 2. This functionality is not supported for security groups and distribution groups.<br>
 3. Ensure you are authorized to restore an Office 365 group, only Global administrators, User account administrators, Intune service administrators, Partner Tier1 or Tier2 support and the owner of the group are able to restore a group.<br>
 
