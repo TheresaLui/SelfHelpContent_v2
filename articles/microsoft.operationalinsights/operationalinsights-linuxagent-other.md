@@ -18,7 +18,7 @@
 ## **Recommended steps**
 If you are experiencing an issue with the OMS Agent for Linux, try the following:
 
-* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
+* Ensure that you are running the [latest version of the agent](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#agent-and-vm-extension-version). You can see if you have the latest version by running `sudo sh ./omsagent-*.universal.x64.sh --version-check` on the machine. If you are not running the latest version, you can run `sudo sh ./omsagent-*.universal.x64.sh --upgrade` to upgrade.
 * Restart the OMS agent on the machine by running `sudo /opt/microsoft/omsagent/bin/service_control restart`
 * Restart the machine.
 * Run the [log collector tool](https://github.com/Microsoft/OMS-Agent-for-Linux/blob/master/docs/Troubleshooting.md#important-log-locations-and-log-collector-tool) and identify any useful records in the logs.
