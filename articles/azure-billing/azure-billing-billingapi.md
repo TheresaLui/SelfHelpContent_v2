@@ -27,7 +27,7 @@ Sources for parameters for Ratecard : There are presently no APIs which will get
   * Region Info <br>
 Learn more : [Azure Resource RateCard API](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview#azure-resource-ratecard-api-preview)
 
-* **UsageAggregates**: The [UsageAggregates API](https://docs.microsoft.com/previous-versions/azure/reference/mt219003(v=azure.100)) allows you get consumption data for an Azure subscription. It returns all the usage data incurred on an Azure subscription and NOT JUST the usage data that was considered for billing – this might include any usage at the end of the billing cycle that was discarded due to lateness. It allows you to query aggregate Azure subscription consumption data by:
+* **UsageAggregates**: The UsageAggregates API allows you get consumption data for an Azure subscription. It returns all the usage data incurred on an Azure subscription and NOT JUST the usage data that was considered for billing – this might include any usage at the end of the billing cycle that was discarded due to lateness. It allows you to query aggregate Azure subscription consumption data by:
   * Start and end date/time
   * Aggregation granularity (ie: daily, hourly)
   * Instance level detail (ie: for multiple instances of the same resource)<br>
@@ -40,5 +40,4 @@ Learn more: [Azure Resource Usage API](https://docs.microsoft.com/azure/billing/
 
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
 * [Partner solution - Cloud Cruiser](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-partner-solution-cloudcruiser)
-* [Get consumption data for an Azure subscription](https://docs.microsoft.com/previous-versions/azure/reference/mt219001(v=azure.100)#frequently-asked-questions)
 * [Billing- Invoices](https://docs.microsoft.com/rest/api/billing/invoices)
