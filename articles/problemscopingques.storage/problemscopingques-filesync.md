@@ -33,9 +33,9 @@
 			],
 			"required": false
 		}, {
-			"id": "file_share",
+			"id": "file_sync",
 			"order": 2,
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "File Sync resource",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
