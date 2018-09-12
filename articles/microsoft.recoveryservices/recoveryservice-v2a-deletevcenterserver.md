@@ -20,5 +20,5 @@
 
 ## **Recommended documents**
 
-- [How to disable replication/ASR components and delete a Site recovery Vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
+- [How to disable replication/ASR components and delete a Recovery Services vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
 - [How to **force delete the vault using powershell?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)
