@@ -47,7 +47,7 @@
 					},
 			"dropdownOptions": [{
 					"value": "NoFileSync",
-					"text": "Not specific to a File Share"
+					"text": "Not specific to a File Sync"
 				}
 			],
 			"required": false

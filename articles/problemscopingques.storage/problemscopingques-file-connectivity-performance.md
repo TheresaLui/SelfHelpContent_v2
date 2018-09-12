@@ -23,8 +23,8 @@
 		}, {
 			"id": "file_share",
 			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "File Share name",
+			"controlType": "multiselectdropdown",
+			"displayLabel": "File Share",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/default/$ref?api-version=2017-09-01",
@@ -44,7 +44,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "File name",
-			"watermarkText": "FileName",
+			"watermarkText": "'FileName' of 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "additional_details",

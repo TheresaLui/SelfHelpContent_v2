@@ -32,23 +32,27 @@
 			"id": "file_share",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "File Share",
+			"displayLabel": "Destination File Share",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/$ref?api-version=2017-09-01",
+					"uri": "/{resourcename}.file.core.windows.net/?comp=list",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					}
+			"dropdownOptions": [{
+					"value": "NoFileShare",
+					"text": "Not specific to a File Share"
+				}
 			],
 			"required": false
 		}, {
 			"id": "file_share_or_path",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Destination File Share or File path",
-			"watermarkText": "'FileShare' or 'FileShare/FileName'",
+			"displayLabel": "Destination File Name",
+			"watermarkText": "'FileName' of 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",
