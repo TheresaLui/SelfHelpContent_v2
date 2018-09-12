@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="VMA RCA"
 	description="RCA - Container shutdown - E17 Partition Server Failure"
 	infoBubbleText="Found recent reboot. See details on the right."
@@ -29,7 +29,7 @@ For more details on load balancing and partition server failures, refer to this 
 
 * [Microsoft Azure Storage architecture overview](https://blogs.msdn.microsoft.com/windowsazurestorage/2010/12/30/windows-azure-storage-architecture-overview/)
 
-For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the [associated section in the Storage Performance and Scalability checklist](https://docs.microsoft.com/en-us/azure/storage/storage-performance-checklist#subheading47).<br>
+For details on how your partition naming convention can be designed to enable optimal load-balancing, please refer to the [associated section in the Storage Performance and Scalability checklist](https://docs.microsoft.com/azure/storage/storage-performance-checklist#subheading47).<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
 
