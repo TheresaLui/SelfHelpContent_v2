@@ -18,6 +18,6 @@ cloudEnvironments="public"
 # Unable to delete <!--$FileType-->[FileType]<!--/$FileType--> due to open handles
 
 <!--issueDescription-->
-The storage <!--$FileType-->[FileType]<!--/$FileType--> **<!--$FileName-->[FileName]<!--/$FileName-->** cannot be deleted because it contains <!--$FileHandleCount-->[FileHandleCount]<!--/$FileHandleCount--> open handles. Before you can delete an Azure Storage <!--$FileType-->[FileType]<!--/$FileType--> all handles need to be closed so please close all open instances of the file. If you need our assistance closing these open handles from the Azure Files service, please let us know.<br>
+The storage <!--$FileType-->[FileType]<!--/$FileType--> **<!--$FileName-->[FileName]<!--/$FileName-->** cannot be deleted because it contains <!--$FileHandleCount-->[FileHandleCount]<!--/$FileHandleCount--> open handles. Before you can delete an Azure Storage <!--$FileType-->[FileType]<!--/$FileType--> all handles need to be closed. Usually you can close these on the client side by closing all open instances of the file. However, if needed, we can force close these for you from the server side. If you need our assistance with this, please let us know.   
 
 <!--/issueDescription-->

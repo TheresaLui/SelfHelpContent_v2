@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more disk(s) that are attached to a VM
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more disk(s) that are attached to a virtual machine (VM). In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first perform the following actions: <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more disk(s) that are attached to a Virtual Machine (VM). In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first perform the following actions: <br>
 
 1. [Delete the following VM(s) with attached OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk): <br>
 <!--$VMList-->[VMList]<!--/$VMList--> <br>

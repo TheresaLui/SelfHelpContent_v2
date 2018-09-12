@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more OS disk(s) that are attached to a Classic VM
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more OS disk(s) that are attached to a virtual machine (VM). Please stop and delete the following VM(s) with attached OS disk before deleting the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more OS disk(s) that are attached to a Virtual Machine (VM). Please stop and delete the following VM(s) with attached OS disk before deleting the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
 
 <!--$VMList-->[VMList]<!--/$VMList--> <br>
 
