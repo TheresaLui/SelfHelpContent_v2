@@ -35,7 +35,6 @@
 			"displayLabel": "Destination File Share",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices?api-version=2018-03-28",
 					"jTokenPath": "value",
 					"textProperty": "id",
