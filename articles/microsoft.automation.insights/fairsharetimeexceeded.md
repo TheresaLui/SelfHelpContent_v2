@@ -31,7 +31,7 @@ One optimization option is to create child runbooks. If your runbook loops throu
 
 The PowerShell cmdlets that enable this scenario are:
 
-- [Start-AzureRMAutomationRunbook](https://docs.microsoft.com/powershell/module/azurerm.automation/start-azurermautomationrunbook) This cmdlet allows you to start a runbook and pass parameters to the runbook.
+- [Start-AzureRMAutomationRunbook](https://docs.microsoft.com/powershell/module/azurerm.automation/start-azurermautomationrunbook) This cmdlet allows you to start a runbook and pass parameters to the runbook
 - [Get-AzureRmAutomationJob](https://docs.microsoft.com/powershell/module/azurerm.automation/Get-AzureRmAutomationJob) This cmdlet allows you to check the job status for each child if there are operations that need to be performed after the child runbook completes.
 
 ### Additional references
@@ -39,12 +39,18 @@ The PowerShell cmdlets that enable this scenario are:
 - [Fair Share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share)
 - [Create a PowerShell workflow runbook](https://docs.microsoft.com/azure/automation/automation-powershell-workflow)
  - [Learning PowerShell Workflow](https://docs.microsoft.com/azure/automation/automation-powershell-workflow)
+
+
 - [Hybrid Runbook Worker overview](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
  - [Deploy Windows Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install)
  - [Deploy Linux Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-linux-hrw-install)
  - [Run runbooks on a Hybrid  Worker](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks)
+
+
 - [Child runbooks](https://docs.microsoft.com/azure/automation/automation-child-runbooks)
  - [Get-AzureRmAutomationJob](https://docs.microsoft.com/powershell/module/azurerm.automation/Get-AzureRmAutomationJob)
  - [Start-AzureRMAutomationRunbook](https://docs.microsoft.com/powershell/module/azurerm.automation/start-azurermautomationrunbook)
+
+
 - [Runbook Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)
