@@ -7,6 +7,7 @@
                 authors="rciliax"
                 displayOrder=""
                 articleId="intune_set_mdm_authority"
+		diagnosticScenario="IntuneCheckTenantEnrollment"
                 selfHelpType="diagnostics"
                 supportTopicIds="32599580,32599582,32599583,32599591,32599653,32599665"
                 resourceTags=""
