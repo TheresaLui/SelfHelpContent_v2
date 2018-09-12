@@ -19,5 +19,4 @@
 - [I am unable to delete the recovery service vault](https://aka.ms/Delete_RecoveryService_Vault) </br>
 - [I want to forcefully delete the recovery service vault](https://aka.ms/ForceDelete_RecoveryService_Vault) </br>
 Note: Force delete will rapidly remove the vault and all its dependencies!<br>
-- I want to delete the resource group <br>
-NOTE: Moving Recovery services vault to different subscription is not supported.
+- Moving Recovery services vault to different subscription is not supported.
