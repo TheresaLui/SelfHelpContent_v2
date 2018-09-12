@@ -40,7 +40,7 @@
 					"textProperty": "id",
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
-					}
+					},
 			"dropdownOptions": [{
 					"value": "NoFileShare",
 					"text": "Not specific to a File Share"
