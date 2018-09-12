@@ -15,14 +15,14 @@
 
 ## **Recommended steps**
 
-### VMware to Azure
+**VMware to Azure**<br>
 
 * Deploy Configuration Server using OVF template - [**tutorial**](https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template) and [**video**](https://azure.microsoft.com/blog/announcing-a-new-simplified-onboarding-experience-for-azure-site-recovery-vmware-to-azure/)</br>
 * Change [**proxy settings** to connect configuration server to the internet](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#modify-proxy-settings)</br>
 * Manage the configuration server - [apply licence](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#update-windows-licence), [upgrade](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#upgrade-the-configuration-server) and  [delete/unregister](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#delete-or-unregister-a-configuration-server)</br>
 - Re-register the configuration server - [to the **same vault**](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#reregister-a-configuration-server-in-the-same-vault) or [to a **different vault**](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#register-a-configuration-server-with-a-different-vault)<br>
 
-### Physical to Azure
+**Physical to Azure**<br>
 
 * [**Check prerequisites** to install Unified setup on configuration server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#prerequisites)</br>
 * Install new instance of [Configuration Server using unified setup](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#download-the-latest-installation-file)</br>
@@ -31,7 +31,7 @@
 * [Register Configuration Server(unified setup) to a different vault](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#register-a-configuration-server-with-a-different-vault)</br>
 * [**Troubleshoot** common installation and registration issues of Configuration server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#common-issues)</br>
 
-### Common information
+**Common information**<br>
 
 * [**Upgrade** existing instance of Configuration Server](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#upgrade-the-configuration-server)</br>
 * [**Add network adapter** to the configuration server](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-configuration-server#add-a-network-adapter)<br>
