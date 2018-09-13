@@ -10,7 +10,7 @@
     cloudEnvironments="public"
 />
 
-# Problems testing password rest policy
+# Problems testing password reset policy
 
 ## **Recommended steps**
 **I reset my password but it used a different policy from the one I set in the portal**
