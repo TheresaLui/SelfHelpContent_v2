@@ -22,5 +22,5 @@ We have identified your Application Gateway: **<!--$Gatewayname-->[GatewayName]<
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
-3. Go to the 'Listeners' blade to identify the desired listener. (Create one if one does not exist)
+3. Go to the 'Listeners' blade to identify the desired listener (Create one if one does not exist)
 4. Go to the 'Rules' blade and create a rule that references the listener from step #3
