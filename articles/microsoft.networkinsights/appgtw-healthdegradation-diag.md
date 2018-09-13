@@ -20,8 +20,7 @@ We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayN
 <!--/issueDescription--> 
 ## **Steps to resolve**
 
-1. Review role instance health history for performance issues. 
-2. Consider stopping and starting the Application Gateway to recover impacted services via the following powershell commandlets: <br>
+1. Consider stopping and starting the Application Gateway to recover impacted services via the following PowerShell commandlets: <br>
 `Stop-AzureRmApplicationGateway YourAppGtwName` <br>
 `Start-AzureRmApplicationGateway YourAppGtwName`
 </code>
