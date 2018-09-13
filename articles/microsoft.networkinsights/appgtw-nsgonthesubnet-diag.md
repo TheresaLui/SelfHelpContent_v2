@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Application Gateway Subnet Has NSG Applied
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->** in Subnet: **<!--$SubnetName-->[SubnetName]<!--/$SubnetName-->** has the following NSG associated: **<!--$NSGName-->[NSGName]<!--/$NSGName-->**. If the NSG has not been carefully configured health probe traffic from the Application Gateway can be blocked from reaching the backend resources. This will cause the Application Gateway to mark the backend resources as unhealthy and not route traffic to them. NSGs can also block legitimate traffic coming from the Applicaiton Gateway causing issues with the solution hosted on by the backend resources. 
+We have identified that your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->** in Subnet: **<!--$SubnetName-->[SubnetName]<!--/$SubnetName-->** has the following NSG associated: **<!--$NSGName-->[NSGName]<!--/$NSGName-->**. If the NSG has not been carefully configured health probe traffic from the Application Gateway can be blocked from reaching the backend resources. This will cause the Application Gateway to mark the backend resources as unhealthy and not route traffic to them. NSGs can also block legitimate traffic coming from the Application Gateway causing issues with the solution hosted on by the backend resources as well as diagnostic logging disruptions. 
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
 
