@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Application Gateway Performance Affected by Too Few Instances Running
 <!--issueDescription-->
-Found **<!--$InstanceCount-->[InstanceCount]<!--/$InstanceCount-->** application gateway instances running. The suggested number is at least 2 for load balancing and fault tolerance. Application Gateway supports high availability scenarios when you have two or more instances deployed. Azure distributes these instances across update and fault domains to ensure that all instances do not fail at the same time. Application Gateway supports scalability by adding multiple instances of the same gateway to share the load. 
+We found **<!--$InstanceCount-->[InstanceCount]<!--/$InstanceCount-->** Application Gateway instances running. Application Gateway supports high availability scenarios when you have two or more instances deployed. Azure distributes these instances across update and fault domains to ensure that all instances will not fail at the same time.
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
 Add at least one additional Application Gateway instance in the 'Configuration' blade of your Application Gateway.
