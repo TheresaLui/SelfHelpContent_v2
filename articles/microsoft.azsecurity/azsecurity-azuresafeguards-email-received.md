@@ -17,4 +17,7 @@
 ## **Recommended documents**
 * [Overview of Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-intro)<br>
 * [Overview of Security Bulletins](https://technet.microsoft.com/security/bulletins)<br>
-* [Microsoft Azure Service Agreement & Terms](http://azure.microsoft.com/support/legal)
+* [Microsoft Azure Service Agreement & Terms](http://azure.microsoft.com/support/legal)<br>
+* [Managing and responding to security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts)<br>
+* [Safeguarding your cloud resources with azure security services](https://azure.microsoft.com/blog/safeguarding-your-cloud-resources-with-azure-security-services/)<br>
+* [Azure Data Security and Encryption Best Practices](https://docs.microsoft.com/azure/security/azure-security-data-encryption-best-practices)
