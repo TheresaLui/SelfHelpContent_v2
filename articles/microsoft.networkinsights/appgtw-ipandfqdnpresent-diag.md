@@ -19,4 +19,10 @@ cloudEnvironments="Public"
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'s** backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->**, contains IP Addresses and FQDNs. This could be an issue if the **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->** is using HTTPS as the resources with IP addresses will fail. 
 <!--/issueDescription-->
 ## **Steps to resolve**
-If backend address pool, **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->** is utilizing HTTPS, update resources with IP to have FQDNs so HTTPS will succeed.
+
+1. Open the [Azure Portal](https://portal.azure.com) 
+2. Go to your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**
+3. Go to the 'backend pools' blade and choose **<!--$BackendAddressPool-->[BackendAddressPool]<!--/$BackendAddressPool-->**. 
+4. Select the associated rule
+5. Select the HTTP setting
+6. If it is utilizing HTTPS update the 'Host Name' field to have FQDNs so HTTPS will succeed.
