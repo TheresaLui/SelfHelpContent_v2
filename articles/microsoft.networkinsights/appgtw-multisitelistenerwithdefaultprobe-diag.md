@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Application Gateway's multi-site listener
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a multisite listener **<!--$ListenerName-->[ListenerName]<!--/$ListenerName-->** that is configured with Default Probe configured in the Backend Http Settings **<!--$BackendHttpSettingName-->[BackendHttpSettingsName]<!--/$BackendHttpSettingName-->**. 
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a multisite listener **<!--$ListenerName-->[ListenerName]<!--/$ListenerName-->** that is configured with default probe configured in the Backend Http Settings **<!--$BackendHttpSettingName-->[BackendHttpSettingsName]<!--/$BackendHttpSettingName-->**. Using host headers with default probes can cause backend health probe disruptions. See below to resolve.
 <!--/issueDescription--> 
 ## **Steps to resolve**
 If the backend server requires a host header, you should [configure a custom probe](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-probe-portal).
