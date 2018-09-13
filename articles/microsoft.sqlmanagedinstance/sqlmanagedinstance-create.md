@@ -14,7 +14,7 @@
 # Create a managed instance
 ## **Recommended steps**
 * Create SQL Managed Instance fom Portal <br>
-[Create an Azure SQL Database Managed Instance in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-tutorial-portal)<br>
+[Create an Azure SQL Database Managed Instance in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started)<br>
 * Create SQL Managed Instance using Resource Manager template<br>
 [Create an Azure SQL Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started)<br>
 
