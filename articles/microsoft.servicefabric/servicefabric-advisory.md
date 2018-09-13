@@ -19,5 +19,5 @@
 [Service Fabric Performance Metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-event-generation-perf)<br>
 [Application Performance Metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-diagnostics-event-generation-perf#net-applications-and-services)<br>
 [Adding a secondary certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security-update-certs-azure#add-a-secondary-certificate-using-resource-manager-powershell)<br>
-[Service Fabric Common Networking Scenarios](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)
+[Service Fabric Common Networking Scenarios](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)<br>
 [Service Fabric Production Ready Checklist](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)<br>
