@@ -6,7 +6,7 @@
 	authors="timbasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32595634, 32595635, 32595636, 32595637, 32595638, 32595639, 32595640"
+	supportTopicIds="32595634, 32595635, 32595636, 32595637, 32595638, 32595639, 32595640, 32613313"
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
