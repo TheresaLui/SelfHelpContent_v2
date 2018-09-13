@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified an issue with your Application Gateway listeners
 <!--issueDescription-->
-We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'** has a basic listener, **'<!--$basiclistener-->[ListenerName]<!--/$basiclistener-->'**, with a higher priority than a multisite listener for the same port with a rule **'<!--$rulename-->[RuleName]<!--/$rulename-->'** associated. Configure your multi-site listeners first prior to configuring a basic listener. This will ensure that traffic gets routed to the right back end. If a basic listener is listed first and matches an incoming request, it gets processed by that listener.
+We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'** has a basic listener, **'<!--$basiclistener-->[ListenerName]<!--/$basiclistener-->'**, with a higher priority than a multi-site listener for the same port with a rule **'<!--$rulename-->[RuleName]<!--/$rulename-->'** associated. Configure your multi-site listeners first prior to configuring a basic listener. This will ensure that traffic gets routed to the right back end. If a basic listener is listed first and matches an incoming request, it gets processed by that listener.
 <!--/issueDescription-->
 ## **Steps to resolve**
 
