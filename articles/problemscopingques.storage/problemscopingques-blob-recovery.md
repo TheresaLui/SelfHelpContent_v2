@@ -25,7 +25,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Blob path",
-			"watermarkText": "ContainerName/BlobName",
+			"watermarkText": "'ContainerName/.../BlobName'",
 			"required": false
 		}, {
 			"id": "additional_details",

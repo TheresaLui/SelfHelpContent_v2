@@ -23,7 +23,7 @@
 		}, {
 			"id": "blob_container",
 			"order": 2,
-			"controlType": "dropdown",
+			"controlType": "multiselectdropdown",
 			"displayLabel": "Blob Container",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
@@ -40,11 +40,11 @@
 			],
 			"required": false
 		}, {
-			"id": "blob_name",
+			"id": "blob_path",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Blob name",
-			"watermarkText": "'ContainerName/BlobName' if specific to a blob",
+			"displayLabel": "Blob Path",
+			"watermarkText": "'ContainerName/.../BlobName' if specific to a blob",
 			"required": false
 		}, {
 			"id": "additional_details",
