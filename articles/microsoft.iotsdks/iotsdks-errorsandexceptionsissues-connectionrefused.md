@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 [Detect and troubleshoot disconnects](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-connectivity)<br>
-[IoT Hub SDK reference](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks)<br> 
+[IoT Hub SDK reference](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks)<br>
 [Reliability features in the device SDK](https://docs.microsoft.com/azure/iot-hub/iot-hub-reliability-features-in-sdks)
