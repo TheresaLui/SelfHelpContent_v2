@@ -19,4 +19,21 @@ You can refer Collection Creation Sample(https://docs.microsoft.com/azure/cosmos
 
 
 ## **Recommended documents**
-Refer the [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
+
+
+
+# Could not find command-lets to create cosmos db collection in Powerhshell
+
+The Azure Cosmos DB Powershell does not have command-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments 
+
+You can use the below approaches to manage the runtime resources.
+
+* Using the C# Console Application
+Use the Powershell to create the account
+Use the Sample C# code to create database and collection using https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101
+
+*Using the Azure CLI
+
+Use the Azure cli command create account, database and collection. Refer https://docs.microsoft.com/azure/cosmos-db/cli-samples
+
+
