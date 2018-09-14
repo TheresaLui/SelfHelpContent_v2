@@ -32,6 +32,7 @@ Create an Azure Cosmos DB API account  -https://azure.microsoft.com/resources/te
 Create a Multi-Region Azure Cosmos DB Database Account  - https://azure.microsoft.com/resources/templates/101-cosmosdb-create-multi-region-account/
 
 You can use the below approaches to create the Collection
+
 Using the C# Console Application
 1. Use the above template to create the account
 2. Use the Sample C# code to create database and collection using  https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101
