@@ -16,9 +16,8 @@
 
 ## **Recommended documents**
 
-* [How to use the self-help diagnostic tool - PerfInsights](https://docs.microsoft.com/azure/virtual-machines/linux/how-to-use-perfinsights)<br>
 * [Scalability and performance targets for VM disks on Linux](https://docs.microsoft.com/azure/virtual-machines/linux/disk-scalability-targets)<br>
 * [High-performance Premium Storage and managed disks for VM](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage)<br>
-* [Azure Performance Diagnostics VM Extension for linux](https://docs.microsoft.com/azure/virtual-machines/linux/performance-diagnostics-vm-extension)<br>
+* [Tutorial: Monitor and update a Linux virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/tutorial-monitoring)<br>
 * [Azure Premium Storage: Design for High Performance](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage-performance)<br>
 * [Configure VMs for optimal Storage performance](https://blogs.msdn.microsoft.com/mast/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance/)
