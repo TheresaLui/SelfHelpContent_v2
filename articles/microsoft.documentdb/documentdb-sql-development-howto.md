@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Tutorials and Samples for Azure Cosmos DB: SQL API
+# Introduction to Azure Cosmos DB: SQL API
 
 ## **Recommended documents**
 
