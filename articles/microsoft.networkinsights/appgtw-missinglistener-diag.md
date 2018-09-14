@@ -16,10 +16,10 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified that your Application Gateway is missing a 'Http Listener' 
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Frontend Port **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->** configured.
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Http Listener configured for Frontend port: **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->**, protocol: **<!--$Protocol-->[Protocol]<!--/$Protocol-->** Frontend IP: **<!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->**.
 <!--/issueDescription--> 
 ## **Steps to resolve**
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
-3. Configure a new Http listener for port: <!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->, protocol: <!--$Protocol-->[Protocol]<!--/$Protocol--> and <!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->.
+3. Configure a new Http listener for port: **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->**, protocol: **<!--$Protocol-->[Protocol]<!--/$Protocol-->**, Frontend IP: **<!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->**.
