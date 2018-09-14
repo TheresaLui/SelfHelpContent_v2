@@ -21,4 +21,4 @@
 * [Azure Performance Diagnostics VM Extension for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/performance-diagnostics-vm-extension)<br>
 * [Azure Premium Storage: Design for High Performance](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)<br>
 * [Configure VMs for optimal Storage performance](https://blogs.msdn.microsoft.com/mast/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance/)<br>
-* [Performance guidelines for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance)<br>
+* [Performance guidelines for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-performance)

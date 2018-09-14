@@ -16,6 +16,9 @@
 
 ## **Recommended documents**
 
-* [Analyze & resolve common performance issues for VMs](https://support.microsoft.com/kb/3150851)<br>
-* [Troubleshoot common performance root cause - Storage IO](http://go.microsoft.com/fwlink/?LinkId=698284)<br>
-* [Configure VMs for optimal Storage performance](http://go.microsoft.com/fwlink/?LinkId=698475)
+* [How to use the self-help diagnostic tool - PerfInsights](https://docs.microsoft.com/azure/virtual-machines/linux/how-to-use-perfinsights)<br>
+* [Scalability and performance targets for VM disks on Linux](https://docs.microsoft.com/azure/virtual-machines/linux/disk-scalability-targets)<br>
+* [High-performance Premium Storage and managed disks for VM](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage)<br>
+* [Azure Performance Diagnostics VM Extension for linux](https://docs.microsoft.com/azure/virtual-machines/linux/performance-diagnostics-vm-extension)<br>
+* [Azure Premium Storage: Design for High Performance](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage-performance)<br>
+* [Configure VMs for optimal Storage performance](https://blogs.msdn.microsoft.com/mast/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance/)
