@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified that your Application Gateway has a health probe path with a wildcard
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** that has a wildcard path **<!--$Path-->[Path]<!--/$Path-->**. Probe path should be a specific page on the backend server.
+We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has a health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** that has a wildcard in the path **<!--$Path-->[Path]<!--/$Path-->**. Probe path should be a specific path on the backend server.
 <!--/issueDescription--> 
 ## **Steps to resolve**
 
@@ -24,4 +24,4 @@ We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayN
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Select the 'Health Probes' blade
 4. Select the health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** 
-5. Remove the * from the end of the path and save
+5. Include a specifi path value
