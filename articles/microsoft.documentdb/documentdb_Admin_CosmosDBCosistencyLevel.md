@@ -18,4 +18,3 @@
 Cosmos DB offer multiple consistency level which can be tuned to accomodate the application and business requirement.
 
 [Tunable data consistency levels in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/consistency-levels)
-
