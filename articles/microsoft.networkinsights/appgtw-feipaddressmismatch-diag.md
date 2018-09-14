@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has identified that your Application Gateway has a mismatched frontend IP address
 <!--issueDescription-->
-We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'** with the IP address in the URL **'<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->'** does not match the **'<!--$FrontEndType-->[FrontEndType]<!--/$FrontEndType-->'** IP of the Application Gateway **'<!--$FrontEndIP-->[FrontEndIp]<!--/$FrontEndIp-->'**. This may be normal if a DNS CNAME or Azure Traffic Manager is being used to direct traffic to the Application Gateway IP address. 
+We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'** with the IP address in the URL **'<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->'** does not match the **'<!--$FrontEndType-->[FrontEndType]<!--/$FrontEndType-->'** IP of the Frontend IP **'<!--$FrontEndIP-->[FrontEndIp]<!--/$FrontEndIp-->'**. This may be normal if a DNS CNAME or Azure Traffic Manager is being used to direct traffic to the Application Gateway IP address. 
 <!--/issueDescription--> 
 ## **Steps to resolve**
 If you are **NOT** using a DNS CNAME or Azure Traffic Manager, ensure that the host '<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->' will eventually resolve to the IP '<!--$FrontEndIP-->[FrontEndIp]<!--/$FrontEndIp-->'.
