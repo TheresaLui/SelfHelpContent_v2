@@ -29,9 +29,12 @@ The Azure Cosmos DB Powershell does not have command-lets to manage the runtime 
 You can use the below approaches to manage the runtime resources.
 
 * Using the C# Console Application
+
 Use the Powershell to create the account
+
 Use the Sample C# code to create database and collection using https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101
 
-* Use the Azure cli command create account, database and collection. Refer https://docs.microsoft.com/azure/cosmos-db/cli-samples
+
+* Use the Azure cli command to create account, database and collection. Refer https://docs.microsoft.com/azure/cosmos-db/cli-samples
 
 
