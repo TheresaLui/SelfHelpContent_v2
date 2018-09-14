@@ -25,11 +25,11 @@
 	 - IoTHub could be down. Check for outages [here](https://azure.microsoft.com/status/)<br>
    * Run diagnostics (need NPM capability) <br>
      [https://github.com/Azure/iothub-diagnostics](https://github.com/Azure/iothub-diagnostics)<br>
-	 
-	 Additional reading<br>
-	 [https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
-	 [https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring](https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring)
-	 
+
+Additional reading<br>
+[https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
+[https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring](https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring)
+
 ## **Recommended documents**
 [Use the device SDK for connecting to IoT Hub](https://azure.microsoft.com/blog/benefits-of-using-the-azure-iot-sdks-in-your-azure-iot-solution)<br>
 [Reliability features in the device SDK](https://docs.microsoft.com/azure/iot-hub/iot-hub-reliability-features-in-sdks)<br>
