@@ -1,0 +1,21 @@
+<properties
+	pageTitle="Cosmos Db Consistency Level"
+	description="Cosmos DB Consistency"
+	service="microsoft.documentdb"
+	resource="databaseAccounts"
+	authors="balakrishnanshankar"
+	displayOrder="7"
+	selfHelpType="resource"
+	supportTopicIds="32597504"
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# Cosmos Consistency Levels
+
+## **Recommended documents**
+Cosmos DB offer multiple consistency level which can be tuned to accomodate the application and business requirement.
+
+[Tunable data consistency levels in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/consistency-levels)
+
