@@ -20,9 +20,9 @@ You can refer Collection Creation Sample(https://docs.microsoft.com/azure/cosmos
 
 ## **Recommended documents**
 
-Refer [Azure Cosmos Cli Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
+[Azure Cosmos Cli Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
-Refer [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
+[Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
 
 
 # Could not find command-lets to create cosmos db collection in Powerhshell
