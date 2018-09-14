@@ -19,7 +19,7 @@ cloudEnvironments="Public"
 We have identified a platform configuration issue for your private peering ExpressRoute connection that uses ServiceKey: **<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**. The initial diagnosis is showing that the virtual network gateway, which is a BGP peer of the Microsoft Edge router, has an unexpected IP address. See below for steps to resolve the issue.
 <!--/issueDescription-->
 ## **Steps to resolve this issue**
-**Note:** VNet Gateways **MUST** use the default Vnet IPs assigned on the gateway subnet. The following steps will resolve the issue:
+**Note:** VNet Gateways **MUST** use the default Vnet IPs assigned on the gateway subnet. The following steps will resolve the issue by decommissioning the current VPN gateways and provisioning new VPN gateways with the appropriate IP address.
 
 1. Remove the VNet circuit link (connection)
 2. Delete the ExpressRoute VNet gateway
