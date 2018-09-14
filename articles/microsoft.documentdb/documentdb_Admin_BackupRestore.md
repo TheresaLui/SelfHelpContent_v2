@@ -1,6 +1,6 @@
 <properties
 	pageTitle="CosmosDB Backup and Restore" 
-	description="CosmosDB Backup and Restore""
+	description="CosmosDB Backup and Restore"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balakrishnanshankar"
