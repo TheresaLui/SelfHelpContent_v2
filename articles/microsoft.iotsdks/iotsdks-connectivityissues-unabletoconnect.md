@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 1. Prove IoTHub is available
-   * Use latest [DeviceExplorer](https://github.com/Azure/azure-iot-sdks/tree/master/tools/DeviceExplorer)<br>
+   * Use latest [DeviceExplorer](https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer)<br>
    * Enter IoTHub connection string in Device Explorer<br>
    * List devices <br>
      Note: If customer cannot get the list of devices one of the following could be the issue:<br>
