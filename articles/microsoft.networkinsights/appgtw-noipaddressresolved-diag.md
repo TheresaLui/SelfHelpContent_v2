@@ -16,8 +16,7 @@ cloudEnvironments="Public"
 />
 # Application Gateway Diagnostic Result
 <!--issueDescription-->
-Microsoft Azure has identified Application Gateway: 
-The host <!--$HostUrl-->[HostUrl]<!--/$HostUrl--> does not resolve to any IP Address.
+Microsoft Azure has identified Application Gateway: **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'** with the host <!--$HostUrl-->[HostUrl]<!--/$HostUrl--> that does not resolve to any IP Address.
 <!--/issueDescription-->
 ## **Steps to resolve this issue**
 Make sure DNS records are configured correctly for the host <!--$HostUrl-->[HostUrl]<!--/$HostUrl-->. In case this is a private frontend, make sure that the DNS server is able to resolve the host correctly.
