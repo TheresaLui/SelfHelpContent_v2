@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Application Gateway Rediection Loop Detected
 <!--issueDescription-->
-We have identified that your Application Gateway, **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**, has a loop in redirection. Redirection setting **'<!--$RedirectionSetting-->[RedirectionSetting]<!--/$RedirectionSetting-->'** has a target listener, **<!--$TargetListener-->[TargetListener]<!--/$TargetListener-->**, which has protocol of **<!--$Protocol-->[Protocol]<!--/$Protocol-->**, site of **<!--$Site-->[Site]<!--/$Site-->** and port of **<!--$Port-->[Port]<!--/$Port-->**. The redirected url **'<!--$Url-->[Url]<!--/$Url-->'** has already been visited.
+We have identified that your Application Gateway, **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**, has a loop in redirection. Redirection setting **'<!--$RedirectionSetting-->[RedirectionSetting]<!--/$RedirectionSetting-->'** has a target listener, **<!--$TargetListener-->[TargetListener]<!--/$TargetListener-->**, which has protocol of **<!--$Protocol-->[Protocol]<!--/$Protocol-->**, site of **<!--$Site-->[Site]<!--/$Site-->** and port of **<!--$Port-->[Port]<!--/$Port-->**. The redirected url **'<!--$Url-->[Url]<!--/$Url-->'** has already been visited. This effectively 'black holes' your network traffic breaking your solution.
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
 Review your listener and redirection configuration ensuring that your redirect listeners and target listeners are not redirecting to previous URLs or listeners in the redirection chain. 
