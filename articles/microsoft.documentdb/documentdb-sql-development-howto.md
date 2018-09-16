@@ -16,7 +16,7 @@ Please refer to the below documentation links which includes introduction, quick
 
 ## **Recommended documents**
 
-[Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction)<br /><br />
-[Quickstarts](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet)<br /><br />
-[Tutorials](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)<br /><br />
-[Samples](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-samples)
+* [Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction)
+* [Quickstarts](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet)
+* [Tutorials](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)
+* [Samples](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-samples)
