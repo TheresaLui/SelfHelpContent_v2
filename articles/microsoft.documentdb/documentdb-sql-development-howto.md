@@ -12,13 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# Introduction to Azure Cosmos DB: SQL API
-
-Please refer to our [online documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction#develop) which includes links to various SDKs and corresponding documentation links.
+Please refer to the below documentation links which includes introduction, quickstarts, samples and tutorials for the Azure Cosmos DB SQL API.
 
 ## **Recommended documents**
 
-[Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction)
-[Quickstarts](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet)
-[Tutorials](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)
+[Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction)<br /><br />
+[Quickstarts](https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet)<br /><br />
+[Tutorials](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)<br /><br />
 [Samples](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-samples)
