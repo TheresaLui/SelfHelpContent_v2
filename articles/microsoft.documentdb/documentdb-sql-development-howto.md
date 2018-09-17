@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Development How-to"
-  description="Development How-to for SQL API"
+  	description="Development How-to for SQL API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
