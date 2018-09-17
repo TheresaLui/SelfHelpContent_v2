@@ -17,4 +17,4 @@
 
 ## **Recommended documents**
 
-[Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/use-metrics)
+[Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/use-metrics)
