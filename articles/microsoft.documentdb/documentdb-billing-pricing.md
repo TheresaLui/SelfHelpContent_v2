@@ -20,4 +20,4 @@ Please refer to the below documentation links which includes information about h
 
 * [Azure Cosmos DB pricing](https://azure.microsoft.com/pricing/details/cosmos-db/)
 * [Estimate Request Units and Data Storage](https://www.documentdb.com/capacityplanner)
-* [Estimating throughput needs](https://docs.microsoft.com/en-us/azure/cosmos-db/request-units#estimating-throughput-needs)
+* [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)
