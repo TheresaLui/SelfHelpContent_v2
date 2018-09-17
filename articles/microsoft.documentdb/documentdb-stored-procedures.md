@@ -14,6 +14,8 @@
 
 # Introduction to server side programming in Azure Cosmos DB
 
+Please refer to below documents for an overview of server side programming in Azure Cosmos DB which includes samples on how to write stored procedures.
+
 ## **Recommended documents**
 
-Please refer to our [online documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/programming) for an overview of server side programming in Azure Cosmos DB which includes samples on how to write stored procedures.
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/programming)
