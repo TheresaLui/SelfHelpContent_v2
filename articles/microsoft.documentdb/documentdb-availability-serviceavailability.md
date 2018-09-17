@@ -3,7 +3,7 @@
   description="Cosmos DB Service Unavailable"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnan Shankar"
+	authors="balaksms"
 	displayOrder="15"
 	selfHelpType="resource"
 	supportTopicIds="32597558"
