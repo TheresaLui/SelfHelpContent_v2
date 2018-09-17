@@ -10,13 +10,9 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"/>
-	
+
 # Cosmos Table Development - How To
 
 ## **Recommended documents**
-Introduction to Azure Cosmos DB: Table API(https://docs.microsoft.com/azure/cosmos-db/table-introduction)
+Introduction to Azure Cosmos DB: Table API(https://docs.microsoft.com/azure/cosmos-db/table-introduction)<br>
 Get Started(https://docs.microsoft.com/azure/cosmos-db/table-introduction#get-started)
-
-
-
-
