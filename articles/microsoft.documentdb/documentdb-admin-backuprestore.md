@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
-	displayOrder="6"
+	displayOrder="75"
 	selfHelpType="resource"
 	supportTopicIds="32597495"
 	resourceTags=""
@@ -19,6 +19,7 @@ You can use the Cosmos DB GeoReplication feature instead of taking a backup and 
 
 
 ## **Recommended documents**
+
 Refer the [Cosmos DB Backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap)
 
 Refer the [Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
