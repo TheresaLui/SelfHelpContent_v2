@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
-	displayOrder="15"
+	displayOrder="80"
 	selfHelpType="resource"
 	supportTopicIds="32597525"
 	resourceTags=""
@@ -20,5 +20,5 @@ adding and removing a region dynamically.
 
 ## **Recommended documents**
 
-https://docs.microsoft.com/en-us/azure/cosmos-db/regional-failover
+https://docs.microsoft.com/azure/cosmos-db/regional-failover
 
