@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Deploy Cosmos DB from Azure CLI & PowerShell" 
+	pageTitle="Deploy Cosmos DB from Azure CLI & PowerShell"
 	description="Deploy Cosmos DB from Azure CLI & PowerShell"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -13,7 +13,7 @@
 	
 # Unable to create collection with Unique Key from CLI
 
-The Azure Cli does not have option to create collection with Unique Key yet.  We would be enchacing the cli command to include the Unique Key option in coming months.  However, for now you can use the Cosmos DB SDKs to create the collection with Unique Key. You can refer Collection Creation Sample(https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample)
+The Azure Cli does not have option to create collection with Unique Key yet.  We would be enchacing the cli command to include the Unique Key option in coming months.  However, for now you can use the Cosmos DB SDKs to create the collection with Unique Key. Please refer [Collection Creation Sample](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample)
 
 
 ## Could not find command-lets to create cosmos db collection in Powerhshell
@@ -24,12 +24,12 @@ You can use the below approaches to manage the runtime resources.
 
 ## Using the C# Console Application
 
-1. Use Powershell to create the account
-2. [Use Sample C# code to create database and collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
+* Use Powershell to create the account
+* [Use Sample C# code to create database and collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
 
 ## Using the Azure CLI 
 
-1. Use the Azure cli command create database and collection.  Refer https://docs.microsoft.com/azure/cosmos-db/cli-samples
+* [Use the Azure cli command create database and collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
 
 
