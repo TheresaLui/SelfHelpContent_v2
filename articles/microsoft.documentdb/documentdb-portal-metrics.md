@@ -13,11 +13,7 @@
 />
 
 
-# Monitor CosmosDB with Alerts
-
-You can create alert using Classic Alerts or New Alerts.  Please refer https://docs.microsoft.com/azure/cosmos-db/monitor-accounts
-or https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitor-alerts-unified-usage
-
+# Monitor CosmosDB with Metrics
 
 ## Recommended documents
 
