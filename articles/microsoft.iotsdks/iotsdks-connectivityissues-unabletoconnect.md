@@ -16,17 +16,17 @@
 
 ## **Recommended steps**
 
-1. Prove IoTHub is available
+1. Validate IoTHub is available
    * Use latest [DeviceExplorer](https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer)<br>
    * Enter IoTHub connection string in Device Explorer<br>
    * List devices <br>
-     Note: If customer cannot get the list of devices one of the following could be the issue:<br>
-     - AMQP Ports could be blocked. Run DeviceExplorer from MS network if possible to rule out.<br>
+     Note: If you are unable to get the list of devices , then, one of the following could be the issue :<br>
+     - AMQP Ports could be blocked.<br>
 	 - IoTHub could be down. Check for outages [here](https://azure.microsoft.com/status/)<br>
    * Run diagnostics (need NPM capability) <br>
      [https://github.com/Azure/iothub-diagnostics](https://github.com/Azure/iothub-diagnostics)<br>
 
-Additional reading<br>
+For more information on IoT monitoring, you can refer the following documents:<br>
 [https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messages-d2c)<br>
 [https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring](https://docs.microsoft.com/azure/iot-hub/iot-hub-operations-monitoring)
 
