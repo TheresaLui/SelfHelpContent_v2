@@ -20,6 +20,6 @@ You can use the Cosmos DB GeoReplication feature instead of taking a backup and 
 
 ## **Recommended documents**
 
-[Cosmos DB Backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap)
+* [Cosmos DB Backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap)
 
-[Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+* [Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
