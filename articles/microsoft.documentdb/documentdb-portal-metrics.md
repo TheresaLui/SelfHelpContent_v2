@@ -15,6 +15,6 @@
 
 # Monitor CosmosDB with Metrics
 
-## Recommended documents
+## **Recommended documents**
 
 [Monitoring and debugging with metrics in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/use-metrics)
