@@ -4,11 +4,11 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
-	displayOrder="15"
+	displayOrder="111"
 	selfHelpType="resource"
 	supportTopicIds="32597522, 32597544"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 
@@ -23,4 +23,4 @@ Also look is any of our existing FAQs address the issue for you.
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
 * [Python SDK](https://github.com/Azure/azure-documentdb-python/issues)
-* [FAQ](https://docs.microsoft.com/en-us/azure/cosmos-db/faq#sql-api)
+* [FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
