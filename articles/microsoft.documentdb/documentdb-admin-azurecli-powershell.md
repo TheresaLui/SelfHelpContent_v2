@@ -24,17 +24,14 @@ You can use the below approaches to manage the runtime resources.
 
 ## Using the C# Console Application
 
-* Use Powershell to create the account
+* [Use Powershell to create the account](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
 * [Use Sample C# code to create database and collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
 
 ## Using the Azure CLI 
 
 * [Use the Azure cli command create database and collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
-
-
 ## **Recommended documents**
+* [Azure Cosmos Cli Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
-[Azure Cosmos Cli Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
-
-[Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
+* [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
