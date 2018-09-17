@@ -18,7 +18,7 @@ Azure Cosmos DB delivers fast, predictable performance by reserving resources to
 
 ## **Recommended documents**
 
-[Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
-[Request unit calculator](https://www.documentdb.com/capacityplanner)
-[Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
-[Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
+* [Request units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)
+* [Request unit calculator](https://www.documentdb.com/capacityplanner)
+* [Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
+* [Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
