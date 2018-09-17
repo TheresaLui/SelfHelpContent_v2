@@ -13,8 +13,6 @@
 />
 # Deploy Cosmos DB using ARM Template
 
-## **Recommended documents**
-
 The Azure Cosmos DB resources are classified namely  Account, Database,  Collection and so on.  
 Please refer this "https://docs.microsoft.com/azure/cosmos-db/sql-api-resources" for complete resource model.
 The Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges, attachments  resources types are all runtime
@@ -41,5 +39,9 @@ Using the Azure CLI
 1. Use the above template to create the account or use the Azure CLI to create the account
 2. Use the Azure cli command create database and collection.  Refer https://docs.microsoft.com/azure/cosmos-db/cli-samples
 
+## **Recommended documents**
 
+[Azure CLI samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
+
+[Azure Cosmos DB hierarchical resource model and core concepts](https://docs.microsoft.com/azure/cosmos-db/sql-api-resources)
 
