@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Authetication in Azure Cosmos DB
+# Authentication in Azure Cosmos DB
 
 Please refer to the below documentation links which includes information about various authentication related concepts in Azure Cosmos DB.
 
