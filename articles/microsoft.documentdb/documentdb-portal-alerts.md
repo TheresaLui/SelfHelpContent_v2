@@ -3,7 +3,7 @@
   description="Cosmos DB via ARM Template"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnanShankar"
+	authors="balakrishnanshankar"
 	displayOrder="15"
 	selfHelpType="resource"
 	supportTopicIds="32597488"
