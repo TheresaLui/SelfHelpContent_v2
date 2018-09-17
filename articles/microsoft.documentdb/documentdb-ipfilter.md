@@ -4,11 +4,11 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
-	displayOrder="15"
+	displayOrder="83"
 	selfHelpType="resource"
 	supportTopicIds="32597559"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 
