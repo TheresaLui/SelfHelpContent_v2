@@ -3,7 +3,7 @@
 	description="Request Timeout"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnanshankar"
+	authors="balaksms"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32597555"
