@@ -1,9 +1,9 @@
 <properties
-	pageTitle="Cosmos DB Alerts"
+	pageTitle="CosmosDBAlerts"
   description="Cosmos DB via ARM Template"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnan Shankar"
+	authors="balakrishnanShankar"
 	displayOrder="15"
 	selfHelpType="resource"
 	supportTopicIds="32597488"
