@@ -3,7 +3,7 @@
 	description="CosmosDB Backup and Restore"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnanshankar"
+	authors="balaksms"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32597495"
