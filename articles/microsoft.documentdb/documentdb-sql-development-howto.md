@@ -12,6 +12,8 @@
 	cloudEnvironments="public"
 />
 
+# Introduction to Azure Cosmos DB: SQL API
+
 Please refer to the below documentation links which includes introduction, quickstarts, samples and tutorials for the Azure Cosmos DB SQL API.
 
 ## **Recommended documents**
