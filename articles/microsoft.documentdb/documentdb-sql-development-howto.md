@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Development How-to"
+	pageTitle="Development How-to for SQL API"
   	description="Development How-to for SQL API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
-	displayOrder="15"
+	displayOrder="100"
 	selfHelpType="resource"
 	supportTopicIds="32597516"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 
