@@ -25,7 +25,7 @@ You can refer Collection Creation Sample(https://docs.microsoft.com/azure/cosmos
 [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
 
 
-# Could not find command-lets to create cosmos db collection in Powerhshell
+## Could not find command-lets to create cosmos db collection in Powerhshell
 
 The Azure Cosmos DB Powershell does not have command-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments 
 
