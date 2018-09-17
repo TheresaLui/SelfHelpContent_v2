@@ -14,10 +14,7 @@
 
 # Bulk Delete operation fails with request timeouts
 
-You are getting a request timeout exception when calling a server side procedure which deletes documents in a loop.  The procedure does 
-not implement batching rather it just deletes the document in a loop.  
-
-The best practice is to batch the delete using some top 100 or 1000 document by checking the deleted count and return the response to the
+You are getting a request timeout exception when calling a server side procedure which deletes documents in a loop.  The best practice is to batch the delete using some top 100 or 1000 document by checking the deleted count and return the response to the
 client. The client application can then call the procedure again in a loop to complete the deletion of documents.
 
 Example:
