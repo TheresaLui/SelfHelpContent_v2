@@ -12,6 +12,9 @@
     cloudEnvironments="public"
 />
 # Configure a Site-to-Site connection
+## **Recommended steps**
+Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template <br>
+
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
 Step by step guide to [configuring and validating VNet or VPN connections](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)<br>
