@@ -14,8 +14,12 @@
 
 # SQL queries for Azure Cosmos DB
 
+Please refer to below documents for an overview on how to perform and troubleshoot SQL queries in Azure Cosmos DB.
+
 ## **Recommended documents**
 
-Please refer to our [online documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-sql-query) for an overview on how to perform SQL queries in Azure Cosmos DB.
+* [Query Azure Cosmos DB data with SQL queries](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query)
+* [Tuning query performance with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
+* [How does Azure Cosmos DB index data](https://docs.microsoft.com/azure/cosmos-db/indexing-policies)
 
-Also, refer to [this](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-sql-query-metrics) artcile on tips about query performance.
+
