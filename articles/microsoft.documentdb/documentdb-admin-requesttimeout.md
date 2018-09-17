@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
-	displayOrder="6"
+	displayOrder="85"
 	selfHelpType="resource"
 	supportTopicIds="32597555"
 	resourceTags=""
@@ -34,5 +34,15 @@ if(responseBody.deleted <1000)
 The above method would avoid the timeout and ensure all the documents are deleted.
 
 Please contact support if you are getting timeout other than the above scenario
+
+
+## **Recommended documents**
+
+[Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
+
+[Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
+
+[Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)
+
 
 
