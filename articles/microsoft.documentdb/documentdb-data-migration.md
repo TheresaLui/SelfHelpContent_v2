@@ -14,8 +14,9 @@
 
 # Introduction to Azure Cosmos DB: SQL API
 
+Please refer to below documents to migrate the data from other sources to Azure Cosmos DB. You can also use Azure Data Factory v2 to copy data into Azure Cosmos DB.
+
 ## **Recommended documents**
 
-Please refer to our [online documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/import-data) to migrate the data from other sources to Azure Cosmos DB.
-
-You can also use Azure Data Factory v2 to copy data into Azure Cosmos DB. Please refer to [this](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db?toc=/azure/cosmos-db/toc.json) article for more info.
+* [Use Data migration tool to migrate your data to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
+* [Copy data to or from Azure Cosmos DB using Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-azure-cosmos-db?toc=/azure/cosmos-db/toc.json)
