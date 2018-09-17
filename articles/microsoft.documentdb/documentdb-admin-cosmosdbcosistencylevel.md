@@ -3,7 +3,7 @@
 	description="Cosmos DB Consistency"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balakrishnanshankar"
+	authors="balaksms"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32597504"
