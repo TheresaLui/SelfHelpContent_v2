@@ -1,6 +1,6 @@
 <properties
 	pageTitle="SQL query"
-  description="SQL query"
+  	description="SQL query"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
