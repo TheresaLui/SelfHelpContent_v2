@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Partitioning"
-  description="Partitioning"
+  	description="Partitioning"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"

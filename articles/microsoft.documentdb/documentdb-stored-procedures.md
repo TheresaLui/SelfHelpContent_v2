@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Stored procedure programming"
-  description="Stored Procedure programming"
+  	description="Stored Procedure programming"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"

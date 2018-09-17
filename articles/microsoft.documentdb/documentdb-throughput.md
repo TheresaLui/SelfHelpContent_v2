@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Collection throughput"
-  description="Collection throughput"
+  	description="Collection throughput"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"

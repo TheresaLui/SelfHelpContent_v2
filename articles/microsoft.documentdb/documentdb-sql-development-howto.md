@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Development How-to"
-  description="Development How-to for SQL API"
+  	description="Development How-to for SQL API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -11,6 +11,8 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
+
+# Introduction to Azure Cosmos DB: SQL API
 
 Please refer to the below documentation links which includes introduction, quickstarts, samples and tutorials for the Azure Cosmos DB SQL API.
 

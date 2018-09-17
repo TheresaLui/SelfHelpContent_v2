@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Authentication"
-  description="Authentication"
+	description="Authentication"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"

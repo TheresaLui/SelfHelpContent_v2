@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Data Migration"
-  description="Data Migration"
+  	description="Data Migration"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
