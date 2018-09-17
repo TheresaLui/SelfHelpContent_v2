@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Connectivity"
-  description="Conectivity"
+  	description="Conectivity"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
