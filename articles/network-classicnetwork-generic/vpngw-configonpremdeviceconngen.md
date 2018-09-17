@@ -11,7 +11,10 @@
     productPesIds="16094"
     cloudEnvironments="public"
 />
-# Configure my on-premises VPN device 
+# Configure my on-premises VPN device
+## **Recommended steps**
+Download [VPN device configuration](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) template <br>
+
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
 Check Azure [Validated VPN Devices List](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices) to verify whether your 3rd party device is listed<br>
