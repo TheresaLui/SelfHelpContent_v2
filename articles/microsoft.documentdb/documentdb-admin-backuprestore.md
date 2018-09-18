@@ -14,7 +14,7 @@
 
 # Request for Backup to Configure Disaster recovery.
 
-You can use the Cosmos DB GeoReplication feature instead of taking a backup and creating a work flow to restore or load the data to a new location for configuring disaster recovery. The GeoReplication feature would help you to handle High Availability and DR scenarios.  Please review topic "High availability with Cosmos DB" from the Cosmos DB Backup and Restore page[https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap]
+You can use the Cosmos DB GeoReplication feature instead of taking a backup and creating a work flow to restore or load the data to a new location for configuring disaster recovery. The GeoReplication feature would help you to handle High Availability and DR scenarios.  Please review topic [High availability with Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap).
 
 
 
