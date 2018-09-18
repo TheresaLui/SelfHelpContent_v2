@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32597525"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # How to test the BCDR or HADR with Cosmos DB
