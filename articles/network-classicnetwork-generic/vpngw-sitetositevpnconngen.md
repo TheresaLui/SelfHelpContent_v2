@@ -13,6 +13,7 @@
 />
 
 # Site-to-Site VPN connectivity issues
+Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template <br>
 
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
