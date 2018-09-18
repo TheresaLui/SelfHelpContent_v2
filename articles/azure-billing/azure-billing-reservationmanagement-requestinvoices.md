@@ -19,6 +19,7 @@
 You can download your invoice or have it sent in email
 
 **To download your invoice**
+
 * Find out who's the [Account Admin](https://ms.portal.azure.com/#).
 * The Account Admin can download PDF invoice and CSV usage, or configure to get PDF invoice over email. <br>
 [Download or view your billing invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#download-invoice-from-azure-portal-pdf)
@@ -26,6 +27,7 @@ You can download your invoice or have it sent in email
 **Why don't I see an invoice for the last billing period?** <br>
 
 There could be several reasons that you don't see an invoice:
+
 * You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money.
 * It's less than 30 days from the day you subscribed to Azure.
 * The invoice isn't generated yet. Wait until the end of the billing period.
