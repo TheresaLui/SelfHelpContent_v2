@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
-	displayOrder="15"
+	displayOrder="69"
 	selfHelpType="resource"
 	supportTopicIds="32597493"
 	resourceTags=""
@@ -18,9 +18,8 @@
 
 To resolve common issues, try one or more of the following methods
 
-1. Validate the connection string from the Azure Portal- Cosmos DB Connection string tab and compare with string in the applicaiton.
-
-2. Carefully review the secret key and remove any spaces at the start or end of the string.
+** Validate the connection string from the Azure Portal- Cosmos DB Connection string tab and compare with string in the applicaiton.
+** Carefully review the secret key and remove any spaces at the start or end of the string.
 
 
 ## **Recommended documents**
