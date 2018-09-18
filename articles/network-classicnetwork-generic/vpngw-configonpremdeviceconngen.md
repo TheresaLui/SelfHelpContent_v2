@@ -13,7 +13,7 @@
 />
 # Configure my on-premises VPN device
 ## **Recommended steps**
-Download [VPN device configuration](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) template <br>
+Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template <br>
 
 ## **Recommended documents**
 Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
