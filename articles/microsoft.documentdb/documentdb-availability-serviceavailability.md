@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32597558"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # Cosmos DB is responding Service Unavailable
