@@ -17,7 +17,7 @@
 ## **Recommended documents**
 
 * [Overview of Azure Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service)<br>
-* [Frequently Asked Questions managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service#faq)<br>
+* [Frequently Asked Questions (FAQ) Metadata service](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service#faq)<br>
 * [Example scenarios for usage](https://docs.microsoft.com/azure/virtual-machines/windows/instance-metadata-service#example-scenarios-for-usage)<br>
 * [Announcing General Availability of Instance Metadata Service](https://azure.microsoft.com/blog/announcing-general-availability-of-azure-instance-metadata-service/)<br>
 * [Overview of Azure Instance Metadata Service (video)](https://azure.microsoft.com/resources/videos/azure-friday-azure-instance-metadata-service-jayaraman/)<br>

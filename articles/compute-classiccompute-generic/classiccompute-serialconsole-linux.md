@@ -17,5 +17,10 @@
 ## **Recommended documents**
 
 * [Virtual machine serial console (preview)](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console)<br>
-* [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
-* [Linux on distributions endorsed by Azure](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)
+* [Get started with Serial Console](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#get-started-with-serial-console)<br>
+* [Prerequisites for serial console](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#prerequisites)<br>
+* [Common scenarios for accessing serial console](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#common-scenarios-for-accessing-serial-console)<br>
+* [Use Serial Console to access GRUB and Single User Mode](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console-grub-single-user-mode)<br>
+* [Use Serial Console for SysRq and NMI calls](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console-nmi-sysrq)<br>
+* [Serial Console Linux distro availability](https://azure.microsoft.com/blog/virtual-machine-serial-console-access/)<br>
+* [Linux on distributions endorsed by Azure](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#serial-console-linux-distro-availability)
