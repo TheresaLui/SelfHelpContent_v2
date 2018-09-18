@@ -24,6 +24,5 @@ During graph design, the decision of modelling an entity as a vertex of its own,
 The main driver for this decision relies on how the data is going to be queried, as well as the scalability of the model itself.
 
 ## **Recommended Documents**
-[Development using the Gremlin API](https://docs.microsoft.com/azure/cosmos-db/graph-introduction#get-started)
-
-[Supported Gremlin operators](https://docs.microsoft.com/azure/cosmos-db/gremlin-support)
+* [Development using the Gremlin API](https://docs.microsoft.com/azure/cosmos-db/graph-introduction#get-started)
+* [Supported Gremlin operators](https://docs.microsoft.com/azure/cosmos-db/gremlin-support)
