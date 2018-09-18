@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32597494"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"/>
 
 # Unable to create collection with Unique Key from CLI
