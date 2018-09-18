@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32597489"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # Deploy Cosmos DB using ARM Template
