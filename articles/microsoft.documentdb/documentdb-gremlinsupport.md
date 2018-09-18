@@ -12,6 +12,7 @@
 	cloudEnvironments="public"
 />
 # Gremlin - Supported operators
+Please review your use case against the list of supported Gremlin operators listed below. If you need help rewriting a Gremlin query, file a support ticket with the query and operator you need.
 
 ## **Recommended Documents**
 [Supported Gremlin operators](https://docs.microsoft.com/azure/cosmos-db/gremlin-support)
