@@ -16,5 +16,5 @@
 
 ## **Recommended documents**    
 
-- [How to back up and restore Azure file shares](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files)<br>
-- [Backup Azure Files FAQ](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files-faq)
+- [How to back up and restore Azure file shares](https://docs.microsoft.com/azure/backup/backup-azure-files)<br>
+- [Backup Azure Files FAQ](https://docs.microsoft.com/azure/backup/backup-azure-files-faq)
