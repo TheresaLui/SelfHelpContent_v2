@@ -14,10 +14,11 @@
 
 # Other Issues or Requests
 
+* Exchanges and Refunds - [Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#cancellations-and-exchanges), [SUSE Software](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges#cancellation-and-exchanges-not-allowed), [SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity#cancellations-and-exchanges) <br>
+* Learn more on Pricing Details : [Azure Pricing](https://azure.microsoft.com/pricing/) <br>
+* Learn more on supported regions here : [Supported list of countries and regions](https://azure.microsoft.com/pricing/faq/) <br>
 * [Azure Reserved VM Instances (RIs) - FAQ](https://azure.microsoft.com/pricing/reserved-vm-instances/#faq) <br>
-* [Azure Pricing](https://azure.microsoft.com/pricing/reserved-vm-instances/) <br>
 * [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/) <br>
-* [Prepay for Virtual Machines with reserved instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances) <br>
 * [Understand how the reserved instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges) <br>
 
 
