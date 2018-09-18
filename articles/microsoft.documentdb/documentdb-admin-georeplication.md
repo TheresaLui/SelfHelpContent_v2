@@ -20,5 +20,4 @@ adding and removing a region dynamically.
 
 ## **Recommended documents**
 
-https://docs.microsoft.com/azure/cosmos-db/regional-failover
-
+* https://docs.microsoft.com/azure/cosmos-db/regional-failover
