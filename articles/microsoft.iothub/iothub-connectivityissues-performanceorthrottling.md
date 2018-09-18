@@ -2,7 +2,7 @@
 	pageTitle="Performance or Throttling issues"
 	description="Performance or Throttling issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

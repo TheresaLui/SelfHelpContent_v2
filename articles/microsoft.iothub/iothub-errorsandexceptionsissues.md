@@ -2,7 +2,7 @@
 	pageTitle="Errors and Exceptions"
 	description="Errors and Exceptions"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

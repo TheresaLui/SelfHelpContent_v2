@@ -2,7 +2,7 @@
 	pageTitle="Service unavailable issues"
 	description="Service unavailable issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

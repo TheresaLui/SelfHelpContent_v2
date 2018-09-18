@@ -2,7 +2,7 @@
 	pageTitle="Azure Monitor or Resource Health issues"
 	description="Azure Monitor or Resource Health issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

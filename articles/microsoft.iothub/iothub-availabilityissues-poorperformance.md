@@ -2,7 +2,7 @@
 	pageTitle="Poor performance issues"
 	description="Poor performance issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

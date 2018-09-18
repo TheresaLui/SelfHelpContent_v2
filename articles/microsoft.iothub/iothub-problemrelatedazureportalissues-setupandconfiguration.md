@@ -2,7 +2,7 @@
 	pageTitle="Setup and configuration issues"
 	description="Setup and configuration issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

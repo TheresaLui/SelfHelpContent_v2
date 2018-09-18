@@ -2,7 +2,7 @@
 	pageTitle="Unable to connect a device to IoT Hub issues"
 	description="Unable to connect a device to IoT Hub issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"

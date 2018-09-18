@@ -2,7 +2,7 @@
 	pageTitle="connectivity issues"
 	description="connectivity issues"
 	service="microsoft.iothub"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="rkessler"
 	displayOrder=""
 	selfHelpType="generic"

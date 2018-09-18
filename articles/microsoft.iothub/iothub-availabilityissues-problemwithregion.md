@@ -2,7 +2,7 @@
 	pageTitle="Problem related to a region issues"
 	description="Problem related to a region issues"
 	service="microsoft.devices"
-	resource="IoTHub"
+	resource="iothubs"
 	authors="anusapan"
 	displayOrder=""
 	selfHelpType="generic"
