@@ -21,7 +21,7 @@ We have investigated and identified that your runbook, <!--$RunbookName-->[Runbo
 In order to avoid runbook failures caused by exceeding the fair share time limit, we recommend one of the following methods to resolve this problem:
 #### 1) [Fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share)
 
-- The [documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) describes using [powershell workflow](https://docs.microsoft.com/azure/automation/automation-powershell-workflow) to checkpoint the runbook. This will allow the runbook to be restarted.
+- The [documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) describes using [PowerShell workflow](https://docs.microsoft.com/azure/automation/automation-powershell-workflow) to checkpoint the runbook. This will allow the runbook to be restarted.
 - The [documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) also describes executing the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers do not impose a time limit on job execution.
 
 #### 2) Optimize the runbook
