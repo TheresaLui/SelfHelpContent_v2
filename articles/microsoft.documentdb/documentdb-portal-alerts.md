@@ -14,9 +14,7 @@
 
 # Monitor CosmosDB with Alerts
 
-You can create alert using Classic Alerts or New Alerts.  Please refer https://docs.microsoft.com/azure/cosmos-db/monitor-accounts
-or https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitor-alerts-unified-usage
-
-
 ## **Recommended documents**
-Monitor CosmosDB with Alerts(https://docs.microsoft.com/azure/cosmos-db/monitor-accounts#set-up-alerts-in-the-portal)
+* Monitor CosmosDB with Alerts(https://docs.microsoft.com/azure/cosmos-db/monitor-accounts#set-up-alerts-in-the-portal)
+* [Monitor Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/monitor-accounts)
+* [Create, view, and manage alerts using Azure Monitor](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitor-alerts-unified-usage)
