@@ -8,11 +8,12 @@
 	selfHelpType="resource"
 	supportTopicIds="32597513"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"/>
 
 # Cosmos Table Development - How To
 
 ## **Recommended documents**
-* [Introduction to Azure Cosmos DB: Table API](https://docs.microsoft.com/azure/cosmos-db/table-introduction)<br>
+* [Introduction to Azure Cosmos DB: Table API](https://docs.microsoft.com/azure/cosmos-db/table-introduction)
+
 * [Get Started](https://docs.microsoft.com/azure/cosmos-db/table-introduction#get-started)
