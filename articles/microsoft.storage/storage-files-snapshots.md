@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="Azure Files Snapshots"
 	description="Azure Files Snapshots"
 	service="microsoft.storage"
