@@ -6,7 +6,7 @@
 	authors="balaksms"
 	displayOrder="66"
 	selfHelpType="resource"
-	supportTopicIds="32597548"
+	supportTopicIds="32597562"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
@@ -29,4 +29,3 @@ workload or query.
 * [Exceeding reserved throughput limits](https://docs.microsoft.com/azure/cosmos-db/request-units#RequestRateTooLarge) 
 * [Set and get throughput for Azure Cosmos DB containers and database](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
 * [Partition and scale in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/partition-data)
-
