@@ -13,7 +13,6 @@
     />
     
 # My user is having a problem changing or resetting their password
- 
  ## **Recommended steps**
  
  **How do my users reset their passwords?**
