@@ -23,7 +23,7 @@ Please proceed to create the Support Ticket if you are getting timeout other tha
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://github.com/balaksms/SelfHelpContent/edit/master/articles/microsoft.documentdb/documentdb-admin-requesttimeout.md)
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/programming)
 
 * [Bounded execution](https://docs.microsoft.com/en-us/azure/cosmos-db/programming#bounded-execution)
 
