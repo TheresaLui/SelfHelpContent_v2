@@ -20,12 +20,10 @@ In order to achieve the best performance for Cosmos DB Table API, there are a fe
 2. Collocate clients in same Azure region for performance
 3. Increase parallelism and connection count in the client
 4. Use singleton Azure Cosmos DB Table API client for the lifetime of your application
-5. Excluse unused paths from indexing for faster writes
+5. Exclude unused paths from indexing for faster writes
 5. Design for smaller documents for higher throughput
 
 ## **Recommended documents**
-* [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips) 
-* [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
-* [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java) 
+* [Table offerings](https://docs.microsoft.com/en-us/azure/cosmos-db/table-introduction)
 
 * Note: OpenAsync is not available for Table API
