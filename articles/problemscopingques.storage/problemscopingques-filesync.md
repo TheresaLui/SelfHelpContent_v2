@@ -19,7 +19,7 @@
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "File Sync resource",
-			"watermarkText": "Choose an option",
+			"watermarkText": "Choose a File Sync",
 			"dynamicDropdownOptions": {
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
 					"jTokenPath": "value",
@@ -27,7 +27,7 @@
 					"valueProperty": "id",
 					"textPropertyRegex": "[^/]+$"
 					},
-			"dropdownOptions": [{
+			"DropdownOptions": [{
 					"value": "NoFileSync",
 					"text": "Not specific to a File Sync"
 				}
