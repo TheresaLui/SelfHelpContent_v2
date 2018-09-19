@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Cosmos DB is responding Service Unavailable"
+	pageTitle="Cosmos DB returns Service Unavailable"
   description="Cosmos DB Service Unavailable"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -11,13 +11,11 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
-# Cosmos DB is responding Service Unavailable
+# Cosmos DB returns Service Unavailable
 
-The Service Unavailable error is thrown by the client SDK and it could be that the Cosmos Service is functioning fine.  
-Please review the Metric Tab for the Availability SLA for the given Cosmos Account. Please reach out to Support if the metric tab does 
-reflect the availability the availability issue. 
+Service unavailable may be returned due to client issues, Service issues, or Environment (network) issues.  If you don't see a Service advisory in Azure portal, a common reason for seeing this error is from client load from CPU, Memory, or Network exhaustion at the client side. 
 
-Otherwise, ensure the application has implemented the [Peformance Tips with respect to Networking and SDKs](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking). Also, review the client resource such as CPU memory pressure on the client machine.
+Please ensure the application has implemented the [Performance Tips with respect to Networking and SDKs](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking). Also, review the client resource such as CPU/Memory pressure on the client machine.
 
 ## **Recommended documents**
 
