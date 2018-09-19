@@ -25,7 +25,7 @@ Please proceed to create the Support Ticket if you are getting timeout other tha
 
 * [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/programming)
 
-* [Bounded execution](https://docs.microsoft.com/en-us/azure/cosmos-db/programming#bounded-execution)
+* [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/programming#bounded-execution)
 
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 
