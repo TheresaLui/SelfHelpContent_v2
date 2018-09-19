@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDBAlerts"
-  description="Cosmos DB via ARM Template"
+	pageTitle="Monitor Cosmos with DB Alerts"
+  description="Configure Cosmos DB Alerts"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -12,9 +12,12 @@
 	cloudEnvironments="public"
 />
 
-# Monitor CosmosDB with Alerts
+# Monitor Cosmos DB with Alerts
+
+Cosmos DB provides option to setup Alerts from the Azure Portal Alerts Blade. The Alerts are triggerred based on the Metrics exposed by Cosmos DB.
+
 
 ## **Recommended documents**
-* Monitor CosmosDB with Alerts(https://docs.microsoft.com/azure/cosmos-db/monitor-accounts#set-up-alerts-in-the-portal)
+* [Monitor CosmosDB with Alerts](https://docs.microsoft.com/azure/cosmos-db/monitor-accounts#set-up-alerts-in-the-portal)
 * [Monitor Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/monitor-accounts)
 * [Create, view, and manage alerts using Azure Monitor](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitor-alerts-unified-usage)
