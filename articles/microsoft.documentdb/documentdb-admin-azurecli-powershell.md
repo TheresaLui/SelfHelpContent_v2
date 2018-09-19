@@ -11,27 +11,28 @@
 	productPesIds="15585"
 	cloudEnvironments="public"/>
 
-# Unable to create collection with Unique Key from CLI
+# Unable to create Collection with Unique Key from CLI
 
-The Azure Cli does not have option to create collection with Unique Key yet.  We would be enchacing the cli command to include the Unique Key option in coming months.  However, for now you can use the Cosmos DB SDKs to create the collection with Unique Key. Please refer [Collection Creation Sample](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample)
+Use [Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) to setup Unique Keys per Collection.  Support for Unique Key definition in the Azure CLI is in our Roadmap.
 
 
-## Could not find command-lets to create cosmos db collection in Powerhshell
 
-The Azure Cosmos DB Powershell does not have command-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments
+## Could not find Cmd-lets to create Cosmos DB Collection in PowerhShell
+
+The Azure Cosmos DB PowerShell does not have Cmd-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments
 
 You can use the below approaches to manage the runtime resources.
 
 ## Using the C# Console Application
 
-* [Use Powershell to create the account](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
-* [Use Sample C# code to create database and collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
+* [Use PowerShell to create the account](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
+* [Use Sample C# code to create Database and Collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
 
 ## Using the Azure CLI 
 
-* [Use the Azure cli command create database and collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
+* [Use the Azure CLI command to create Database and Collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
 ## **Recommended documents**
-* [Azure Cosmos Cli Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
+* [Azure Cosmos CLI Samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
 * [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
