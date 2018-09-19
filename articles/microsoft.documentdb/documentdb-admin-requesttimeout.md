@@ -12,31 +12,20 @@
 	cloudEnvironments="public"
 />
 
-# Bulk Delete operation fails with request timeouts
+# Stored Procedure execution returns timeouts
 
-You are getting a request timeout exception when calling a server side procedure which deletes documents in a loop.  The best practice is to batch the delete using some top 100 or 1000 document by checking the deleted count and return the response to the
-client. The client application can then call the procedure again in a loop to complete the deletion of documents.
+Cosmos DB has a timeout limit for all operation and has to complete within in the timeout duration.  The application is returned with timeout if the given operation did not complete within the timeout period.  All Server Side execution has to check for the return value "isAccepted" and handle based on the returned value.  
 
-Example:
-if(responseBody.deleted <1000)
-                {   
-                    console.log("Call to trydelete")
-                    tryDelete(documents);
-                }
-                else
-                {
-                    console.log("Call to Response")
-                    response.setBody(responseBody);    
-                }
+The best practice for any bulk operation using Server Side programming is to implement batching using top 100 or 1000. The Server Side call  should be returned as soon the batch limit are reached. The client application can then call the Server Side code again in a loop to complete the bulk process.
 
-
-
-The above method would avoid the timeout and ensure all the documents are deleted.
-
-Please contact support if you are getting timeout other than the above scenario
+Please proceed to create the Support Ticket if you are getting timeout other than the above scenario
 
 
 ## **Recommended documents**
+
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://github.com/balaksms/SelfHelpContent/edit/master/articles/microsoft.documentdb/documentdb-admin-requesttimeout.md)
+
+* [Bounded execution](https://docs.microsoft.com/en-us/azure/cosmos-db/programming#bounded-execution)
 
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 
