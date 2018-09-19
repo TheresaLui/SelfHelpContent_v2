@@ -22,7 +22,7 @@ To learn more about password reset auditing and reporting, see this article: [Re
 
 **I'm looking for an audit and reporting feature that isn't available**
 
-* To submit a feature request, go to [aka.ms/sspruservoice](aka.ms/sspruservoice)
+To submit a feature request, go to [aka.ms/sspruservoice](aka.ms/sspruservoice)
 
 ## **Recommended documents**
 
