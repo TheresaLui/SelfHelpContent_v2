@@ -58,7 +58,7 @@
 						"displayLabel": "Select the troubleshooting steps you have completed:",
 						"dropdownOptions": [{
 								"value": "MARS agent is latest",
-								"text": "MARS agent is uptodate"
+								"text": "MARS agent is latest"
 						  },{
 								"value": "CBEngine Service is running",
 								"text": "CBEngine Service is running"
@@ -71,7 +71,7 @@
 						  },{
 								"value": "Antivirus software is running on the machine",
 								"text": "Antivirus software is running on the machine"
-							}{
+						  },{
 								"value": "Using Proxy server",
 								"text": "Using Proxy server"
 							}
@@ -90,4 +90,4 @@
 								  "content": "Microsoft can provide a solution to your problem faster if you can attach the latest CBEngine Logs. You can find this from C:\Program Files\Microsoft Azure Recovery Services Agent\Temp"
 								}
 						]}
---- 
+---
