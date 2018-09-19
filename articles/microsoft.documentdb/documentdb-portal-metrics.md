@@ -13,7 +13,9 @@
 />
 
 
-# Monitor CosmosDB with Metrics
+# Monitor Cosmos DB with Metrics
+
+Cosmos DB provides a number of metrics in the Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and storage growth.
 
 ## **Recommended documents**
 
