@@ -12,7 +12,7 @@
     cloudEnvironments="public"
     />
     
- # My user is having a problem changing or resetting their password
+# My user is having a problem changing or resetting their password
  
  ## **Recommended steps**
  
