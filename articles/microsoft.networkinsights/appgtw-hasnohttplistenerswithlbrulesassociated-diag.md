@@ -22,6 +22,6 @@ We have found that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<
 
 1. Open the [Azure portal](https://portal.azure.com)
 2. Browse to your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**
-3. Select the 'Listners' blade
+3. Select the 'Listeners' blade
 4. Selet the Listener you wish to use or create one if you do not have one listed
 5. Associate associate a LoadBalancingRule with the Listener from step #4
