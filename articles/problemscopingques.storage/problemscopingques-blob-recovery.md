@@ -11,7 +11,7 @@
 # Recover deleted Blob
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage Blob recovery scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{

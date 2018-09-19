@@ -15,26 +15,8 @@
 	"title": "Storage File Sync scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "new_or_recurring_issue",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "New or recurring issue",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "new_issue",
-					"text": "New issue"
-				}, {
-					"value": "recurring_issue",
-					"text": "Recurring issue"
-				}, {
-					"value": "advisory",
-					"text": "Advisory"
-				}
-			],
-			"required": false
-		}, {
 			"id": "file_sync",
-			"order": 2,
+			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "File Sync resource",
 			"watermarkText": "Choose an option",
@@ -50,16 +32,10 @@
 					"text": "Not specific to a File Sync"
 				}
 			],
-			"required": false
-		}, {
-			"id": "problem_start_date",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate date and time of the most recent occurance",
-			"required": false
+			"required": true
 		}, {
 			"id": "additional_details",
-			"order": 4,
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,

@@ -20,31 +20,12 @@
 			"controlType": "infoblock",
 			"content": "Please ensure that there is no lease or <a href='https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors'>VM attached to the blob or container</a> you are trying to delete."
 		}, {
-			"id": "blob_container",
-			"order": 2,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Container with deletion issue",
-			"watermarkText": "Choose an option",
-			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2018-03-28",
-					"jTokenPath": "value",
-					"textProperty": "id",
-					"valueProperty": "id",
-					"textPropertyRegex": "[^/]+$"
-					},
-			"dropdownOptions": [{
-					"value": "NoBlobContainer",
-					"text": "Not specific to a Container"
-				}
-			],
-			"required": false
-		}, {
-			"id": "blob_path",
+			"id": "blob_or_container",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Blob Path",
-			"watermarkText": "'ContainerName/.../BlobName' if specific to a blob",
-			"required": true
+			"displayLabel": "Container name or Blob path",
+			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
+			"required": false
 		}, {
 			"id": "problem_start_date",
 			"order": 4,

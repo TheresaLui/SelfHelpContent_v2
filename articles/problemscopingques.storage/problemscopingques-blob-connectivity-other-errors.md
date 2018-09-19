@@ -32,7 +32,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Container name or Blob path",
-			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
+			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
 			"id": "additional_details",

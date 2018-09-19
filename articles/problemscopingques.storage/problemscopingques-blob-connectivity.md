@@ -21,30 +21,11 @@
 			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": true
 		}, {
-			"id": "blob_container",
-			"order": 2,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Blob Container",
-			"watermarkText": "Choose an option",
-			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-03-01-preview",
-					"jTokenPath": "value",
-					"textProperty": "id",
-					"valueProperty": "id",
-					"textPropertyRegex": "[^/]+$"
-					},
-			"dropdownOptions": [{
-					"value": "NoBlobContainer",
-					"text": "Not specific to a blob container"
-				}
-			],
-			"required": false
-		}, {
-			"id": "blob_path",
+			"id": "blob_or_container",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Blob Path",
-			"watermarkText": "'ContainerName/.../BlobName' if specific to a blob",
+			"displayLabel": "Container name or Blob path",
+			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
 			"id": "additional_details",
