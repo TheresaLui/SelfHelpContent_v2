@@ -24,6 +24,6 @@ In order to achieve the best performance for Cosmos DB Table API, there are a fe
 5. Design for smaller documents for higher throughput
 
 ## **Recommended documents**
-* [Table offerings](https://docs.microsoft.com/en-us/azure/cosmos-db/table-introduction)
+* [Table offerings](https://docs.microsoft.com/azure/cosmos-db/table-introduction)
 
 * Note: OpenAsync is not available for Table API
