@@ -6,7 +6,7 @@
 	authors="aashu"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32549158"
+	supportTopicIds="32549157,32549158"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
