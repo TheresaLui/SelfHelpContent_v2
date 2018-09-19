@@ -3,7 +3,7 @@
 	description="issues signing in or accessing my subscriptions"
 	service="azure-subscription-management"
 	resource="subscription-management"
-	authors="jlian"
+	authors="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32454922"
@@ -13,6 +13,10 @@
 />
 
 # issues signing in or accessing my subscriptions
+
+## **Recommended steps**
+
+To manage access to Azure resources, you must have the appropriate administrator role.
 
 ## **Recommended documents**
 
