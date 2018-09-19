@@ -18,9 +18,7 @@
 
 **Error UnhandledException Internal error occured: System.IO.FileNotFoundException**
 
-This is an issue seen on Collector versions less than 1.0.9.5. If you are on a Collector version 1.0.9.2 or pre-GA versions like 1.0.8.59, you will face this issue. Follow the [link given here to the forums for a detailed answer](https://social.msdn.microsoft.com/Forums/azure/c1f59456-7ba1-45e7-9d96-bae18112fb52/azure-migrate-connect-to-vcenter-server-error?forum=AzureMigrate).
-
-[Upgrade your Collector to fix the issue](https://aka.ms/migrate/col/checkforupdates).
+If you are not on the latest collector version, please update the collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector
 
 **Error UnableToConnectToServer**
 
