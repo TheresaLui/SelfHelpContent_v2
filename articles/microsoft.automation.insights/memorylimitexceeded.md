@@ -26,7 +26,7 @@ In order to avoid runbook failures caused by exceeding the <!--$MemoryLimit-->[M
 #### 2) Optimize the runbook
 If the methods described in the [memory limit troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#job-attempted-3-times) are not acceptable you will need to optimize the runbook.
 
-One optimization option is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks executes in parallel in separate processes decreasing the total amount of time for the parent runbook to complete.
+One optimization option is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks executes in parallel in separate processes decreasing the total amount of memory necessary for each runbook.
 
 The PowerShell cmdlets that enable this scenario are:
 
