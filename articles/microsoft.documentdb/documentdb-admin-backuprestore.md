@@ -14,9 +14,9 @@
 
 # Request for Backup to Configure Disaster recovery.
 
-You can use the Cosmos DB GeoReplication feature instead of taking a backup and creating a work flow to restore or load the data to a new location for configuring disaster recovery. The GeoReplication feature would help you to handle High Availability and DR scenarios.  Please review topic [High availability with Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap).
+Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're looking for DR purposes, please enable a second geo-replicated region as it is provides the same advantage as backups. Please review [Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
 
-
+Please continue to file a Support Ticket if you need help restoring an accidentally deleted account.
 
 ## **Recommended documents**
 
