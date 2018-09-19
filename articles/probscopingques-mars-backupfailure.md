@@ -14,8 +14,7 @@
          "resourceRequired": true,
          "title": "MARS backup failure",
          "fileAttachmentHint": "",
-         "formElements": [
-					 {
+         "formElements": [{
 							"id": "os_version",
 							"order": 1,
 							"controlType": "textbox",
@@ -23,20 +22,18 @@
 							"watermarkText": "Provide the OS version of the impacted system",
 							"required": true
 					 },{
-                          "id": "lastbackup_successful",
-                          "order": 2,
-                          "controlType": "datetimepicker",
-						  "displayLabel": "When did the last backup successfully completed?",
-						  "required": false
+                         				 "id": "lastbackup_successful",
+                         				 "order": 2,
+                          				"controlType": "datetimepicker",
+						        "displayLabel": "When did the last backup successfully completed?",
+						        "required": false
 					 },{
 						"id": "Select_ErrorMessage",
 						"order": 3,
 						"controlType": "dropdown",
 						"displayLabel": "Select the error message that you are seeing?",
 						"watermarkText": "Select",
-						"dropdownOptions":
-						[
-							{
+						"dropdownOptions": [{
 							  "value": "Invalid vault credentials provided. The file is either corrupted...",
 							  "text": "Invalid vault credentials provided. The file is either corrupted..."
 							},{
@@ -58,7 +55,7 @@
 						"displayLabel": "Select the troubleshooting steps you have completed:",
 						"dropdownOptions": [{
 								"value": "MARS agent is latest",
-								"text": "MARS agent is latest"
+								"text": "MARS agent is uptodate"
 						  },{
 								"value": "CBEngine Service is running",
 								"text": "CBEngine Service is running"
@@ -71,7 +68,7 @@
 						  },{
 								"value": "Antivirus software is running on the machine",
 								"text": "Antivirus software is running on the machine"
-						  },{
+							}{
 								"value": "Using Proxy server",
 								"text": "Using Proxy server"
 							}
@@ -90,4 +87,4 @@
 								  "content": "Microsoft can provide a solution to your problem faster if you can attach the latest CBEngine Logs. You can find this from C:\Program Files\Microsoft Azure Recovery Services Agent\Temp"
 								}
 						]}
----
+--- 
