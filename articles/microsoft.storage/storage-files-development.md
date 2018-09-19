@@ -6,7 +6,7 @@
 	authors="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602751, 32602754, 32602766, 32602766"
+	supportTopicIds="32602751, 32602754, 32602766, 32602768"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
