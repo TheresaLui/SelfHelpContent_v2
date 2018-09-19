@@ -13,9 +13,7 @@
 />
 # Deploy Cosmos DB using ARM Template
 
-The Azure Cosmos DB resources are classified namely  Account, Database,  Collection and so on. Please review [Cosmos DB Resource model](https://docs.microsoft.com/azure/cosmos-db/sql-api-resources) for complete list. The Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges, attachments  resources types are all runtime resources. You manage (CRUD/query) these resources using SDKs and REST APIs. For instance, you can use any of the MongoDB client drivers to  program against databases, collections, documents etc. Likewise, you can use a Gremlin clients to query/CRUD the graph, nodes and edges and so on. All of the “runtime resources”are meant to  be used by the developers directly inside their applications.
-
-In the Azure Cosmos DB resource hierarchy, you have a database account, which contains databases, which contains containers (collections). Only the database account is an ARM (control plane) resource, and databases/collections/other resources are run-time/data plane resources.
+Cosmos DB Supports Creation and Management of Accounts via ARM. To automate Databases, Collections, and other resources, please use one of the Supported SDKs based on your chosen API kind.
 
 Please refer the below sample template for references.
 
