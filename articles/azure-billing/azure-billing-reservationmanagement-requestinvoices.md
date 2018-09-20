@@ -21,10 +21,12 @@ You can download your invoice or have it sent in email
 **To download your invoice**
 
 * Find out who's the account admin. If you're not sure who the account administrator is for a subscription, use the following steps to find out.
+
 	* Visit the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
 	* Select the subscription you want to check, and then look under Settings.
 	* Select Properties. The account administrator of the subscription is displayed in the Account Admin box.
-* TThe account admin can download a PDF invoice or CSV file of daily usage details. They can also configure additional recipients to receive copies of the PDF invoice over email.. <br>
+	
+* The account admin can download a PDF invoice or CSV file of daily usage details. They can also configure additional recipients to receive copies of the PDF invoice over email.. <br>
 [Download or view your billing invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#download-invoice-from-azure-portal-pdf)
 
 **Why don't I see an invoice for the last billing period?** <br>
@@ -35,7 +37,6 @@ There could be several reasons that you don't see an invoice:
 * It's less than 30 days from the day you subscribed to Azure.
 * The invoice isn't generated yet. Wait until the end of the billing period.
 * If you're not the Account Administrator, older invoices may not be available to you.
-
 
 ## **Recommended documents**
 
