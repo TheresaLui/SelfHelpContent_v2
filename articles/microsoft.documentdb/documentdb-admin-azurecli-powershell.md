@@ -32,6 +32,6 @@ You can use the below approaches to manage the runtime resources.
 
 * [Use the Azure CLI command to create Database and Collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
-### **Recommended documents**
+## **Recommended documents**
 
 * [Unique keys in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/unique-keys)
