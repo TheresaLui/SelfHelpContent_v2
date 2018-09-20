@@ -13,9 +13,9 @@
 />
 # Deploy Cosmos DB using ARM Template
 
-Cosmos DB Supports Creation and Management of Accounts via ARM. To automate Databases, Collections, and other resources, please use one of the Supported SDKs based on your chosen API kind.
+Cosmos DB supports creation and management of Accounts via ARM. To automate Databases, Collections, and other resources, please use one of the supported SDKs based on your chosen API kind.
 
-Please refer the below sample template for references.
+Please refer the below sample template for reference.
 
 [Create an Azure Cosmos DB API account](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/)
 
@@ -38,5 +38,4 @@ Using the Azure CLI
 ## **Recommended documents**
 
 * [Azure CLI samples for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
-
 * [Azure Cosmos DB hierarchical resource model and core concepts](https://docs.microsoft.com/azure/cosmos-db/sql-api-resources)
