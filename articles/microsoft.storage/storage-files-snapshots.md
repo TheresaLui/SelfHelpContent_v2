@@ -3,7 +3,7 @@
 	description="Azure Files Snapshots"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="jeffpatt"
+	authors="jeffpatt24"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32603551,32602753"
