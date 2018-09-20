@@ -18,7 +18,7 @@
 
 **Error UnhandledException Internal error occured: System.IO.FileNotFoundException**
 
-If you are not on the latest collector version, please update the collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector
+If you are not on the latest collector version, please update the collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector)
 
 **Error UnableToConnectToServer**
 
