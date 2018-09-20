@@ -84,7 +84,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "Microsoft can provide a solution to your problem faster if you can attach the latest CBEngine Logs. You can find this from C:\Program Files\Microsoft Azure Recovery Services Agent\Temp"
+			"content": "Microsoft can provide a solution to your problem faster if you can attach the latest CBEngine Logs to find this go to C drive then go to Program Files go to Microsoft Azure Recovery Services Agent and then go to Temp folder"
 		}
 	]
 }
