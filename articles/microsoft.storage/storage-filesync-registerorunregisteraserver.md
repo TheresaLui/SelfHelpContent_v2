@@ -3,7 +3,7 @@
 	description="Troubleshoot server (un)registration issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="sibonay"
+	authors="SibonayK"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602767"
