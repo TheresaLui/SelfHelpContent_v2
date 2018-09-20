@@ -14,7 +14,7 @@
 
 # Errors for SQL API in Azure Cosmos DB
 
-Please check if you are on the latest SDK version as they get bug fixes. Also, review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the azure Cosmos DB team.
+Please check if you are on the latest SDK version as they get bug fixes. Also, review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team.
 
 ## **Recommended documents**
 
