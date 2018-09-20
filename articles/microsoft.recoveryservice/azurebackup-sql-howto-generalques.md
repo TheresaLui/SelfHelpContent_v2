@@ -14,7 +14,7 @@
 
 # Advisory questions related to SQL server in Azure VM backup
 
-## **Recomended documents**
+## **Recommended documents**
 **Common Questions**<br>
 - Supported [Azure geos,](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#support-for-operating-systems-and-sql-server-versions) [Operating systems,](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-operating-systems) [SQL Server versions](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-sql-server-versions-and-editions) for SQL server in Azure VM backup<br>
 - [Prerequisites for SQL server in Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#prerequisites)<br>
