@@ -13,7 +13,8 @@
 />
 
 # Rate limiting in Azure Cosmos DB
-To get predictable performance and avoid rate limiting errors, you need to reserve appropriate throughput(RUs) in units of 100 RU/second. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
+
+Common reasons for rate-limiting are (a) insufficient RUs (b) skew within certain partitions/time durations or (c) inefficient operations like scans or inserts of very large documents. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
 
 ## **Recommended documents**
 * [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)
