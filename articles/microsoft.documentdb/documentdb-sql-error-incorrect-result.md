@@ -1,6 +1,6 @@
 <properties
 	pageTitle="SQL - Error or incorrect result"
-  description="SQL - Error or incorrect result"
+	description="SQL - Error or incorrect result"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -14,8 +14,7 @@
 
 # Errors for SQL API in Azure Cosmos DB
 
-Please refer to out Github repos for individual SDKs to see if the error you are seeing is a known issue or already fixed in a later release.
-Also look is any of our existing FAQs address the issue for you.
+Please check if you are on the latest SDK version as they get bug fixes. Also, review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the azure Cosmos DB team.
 
 ## **Recommended documents**
 
