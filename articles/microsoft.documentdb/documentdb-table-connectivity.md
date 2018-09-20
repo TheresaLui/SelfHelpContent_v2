@@ -16,7 +16,7 @@
 
 To resolve common isuses, try one or more of the following methods.
 
-1. Review your Account Firewall configuration for Cosmos DB Account and confirm the client public ip is added to the exception list.
+1. Review your Account Firewall configuration for Cosmos DB Account and confirm the client public IP is added to the approved list of IPs.
 
 2. Test the Gateway mode connection if the connection is failing for the direct mode or Test Direct mode if its failing with Gateway mode.
 
