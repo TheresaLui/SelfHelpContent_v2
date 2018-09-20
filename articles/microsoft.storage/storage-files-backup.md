@@ -3,7 +3,7 @@
 	description="Back up and restore Azure file shares"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="jeffpatt"
+	authors="jeffpatt24"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602752"
