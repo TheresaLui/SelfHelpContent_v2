@@ -5,9 +5,9 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	articleId="servicehealth-microsoft.compute-virtualmachines-healthannotation_virtualmachinestopinitiatedbycontrolplane"
+	articleId="servicehealthinsights-microsoft.compute-virtualmachines-healthannotation_virtualmachinestopinitiatedbycontrolplane"
 	diagnosticScenario="health_diagnostic"
-	selfHelpType="servicehealth"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_virtualmachinestopinitiatedbycontrolplane"
 />

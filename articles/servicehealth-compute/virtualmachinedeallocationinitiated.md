@@ -5,9 +5,9 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	articleId="servicehealth-microsoft.compute-virtualmachines-healthannotation_virtualmachinedeallocationinitiated"
+	articleId="servicehealthinsights-microsoft.compute-virtualmachines-healthannotation_virtualmachinedeallocationinitiated"
 	diagnosticScenario="health_diagnostic"
-	selfHelpType="servicehealth"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_virtualmachinedeallocationinitiated"
 />

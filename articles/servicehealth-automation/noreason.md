@@ -5,9 +5,9 @@
 	service="Microsoft.Automation"
 	resource="automationAccounts"
 	authors="csand-msft"
-	articleId="servicehealth-microsoft.automation-automationaccounts-healthannotation_no_reason"
+	articleId="servicehealthinsights-microsoft.automation-automationaccounts-healthannotation_no_reason"
 	diagnosticScenario="health_diagnostic"
-	selfHelpType="servicehealth"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_no_reason"
 />

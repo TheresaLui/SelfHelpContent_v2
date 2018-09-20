@@ -5,9 +5,9 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	articleId="servicehealth-microsoft.compute-virtualmachines-healthannotation_livemigrationcompleted"
+	articleId="servicehealthinsights-microsoft.compute-virtualmachines-healthannotation_livemigrationcompleted"
 	diagnosticScenario="health_diagnostic"
-	selfHelpType="servicehealth"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_livemigrationcompleted"
 />

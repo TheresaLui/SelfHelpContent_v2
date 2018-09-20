@@ -5,9 +5,9 @@
 	service="microsoft.sql"
 	resource="server/database"
 	authors="aamalvea"
-	articleId="servicehealth-microsoft.sql-server/database-healthannotation_sql_reconfigurations_standard"
+	articleId="servicehealthinsights-microsoft.sql-server/database-healthannotation_sql_reconfigurations_standard"
 	diagnosticScenario="health_diagnostic"
-	selfHelpType="servicehealth"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
 	articleTags="healthannotation_sql_reconfigurations_standard"
 />
