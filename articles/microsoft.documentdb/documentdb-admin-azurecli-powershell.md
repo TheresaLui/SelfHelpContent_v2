@@ -13,13 +13,13 @@
 
 # Unable to create Collection with Unique Key from CLI
 
-Use [Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) to create Unique Keys per Collection.  Support for Unique Key definition in the Azure CLI is in our Roadmap.
+Use [Cosmos DB SDKs/Various APIs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) to create Unique Keys per Collection.  Support for Unique Key definition in the Azure CLI is in our Roadmap.
 
 
 
 # Could not find Cmd-lets to create Cosmos DB Collection in PowerShell
 
-The Azure Cosmos DB PowerShell does not have Cmd-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments
+The Azure Cosmos DB PowerShell does not have Cmd-lets to manage the runtime resource such as Database, Collection/Tables/Graphs, Users, Permissions, documents/items/nodes/edges/Triggers/Stored Procedure/User Defined Function and attachments
 
 You can use the below approaches to manage the runtime resources.
 
