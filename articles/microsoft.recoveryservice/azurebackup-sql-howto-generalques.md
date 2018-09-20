@@ -21,7 +21,7 @@
 - [Prerequisite before triggering a restore](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#pre-requisite-before-triggering-a-restore)<br>
 - [Public preview limitations](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#public-preview-limitations)<br>
 - [Network connectivity requirement](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#establish-network-connectivity)<br>
-- How to: [Backup SQL database?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#create-a-recovery-services-vault), [Restore a SQL database?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#restore-a-sql-database)
+- How to: [Backup SQL database?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#create-a-recovery-services-vault), [Restore a SQL database?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#restore-a-sql-database)<br>
 - [How to monitor backup jobs?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#monitor-backup-jobs)<br>
 - [How to stop protection for a SQL server database?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#stop-protection-for-a-sql-server-database)<br>
 - [How to Unregister a SQL server instance?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#unregister-a-sql-server-instance)<br>
