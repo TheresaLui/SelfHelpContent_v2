@@ -17,7 +17,7 @@ Use [Cosmos DB SDKs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-
 
 
 
-### Could not find Cmd-lets to create Cosmos DB Collection in PowerShell
+# Could not find Cmd-lets to create Cosmos DB Collection in PowerShell
 
 The Azure Cosmos DB PowerShell does not have Cmd-lets to manage the runtime resource such as Database, Collection/Tables/graphs, Users, Permissions, documents/items/nodes/edges and attachments
 
