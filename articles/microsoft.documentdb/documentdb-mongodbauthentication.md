@@ -16,8 +16,7 @@
 ## **Recommended Steps**
 
 ### **Connect a MongoDB application to Azure Cosmos DB**
-Use the Cosmos DB Account connection string to connect a MongoDB application to Azure Cosmos DB. Azure Cosmos DB supports the standard MongoDB connection string URI format, with a few specific requirements. 
-Azure Cosmos DB accounts require authentication and secure communication via SSL.
+You can connect to Cosmos DB just like local Mongo using the connection string from the Azure Portal. Note that Cosmos DB only supports connection via SSL, so you may need to update your tool/connection defaults for enabling secure communication via SSL.
 
 ## **Recommended Documents**
 Use [this document](https://docs.microsoft.com/azure/cosmos-db/connect-mongodb-account#connection-string-requirements) to validate the connection string requirements for a MongoDB application.
