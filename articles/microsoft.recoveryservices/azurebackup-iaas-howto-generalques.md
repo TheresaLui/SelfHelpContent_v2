@@ -11,10 +11,10 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
-
 # Advisory questions related to IaaS VM Backup and Restore
 
-## **Common Questions**
+## **Recommended documents**
+**Common Questions**<br>
 - [Support matrix](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for Azure IAAS VM backup<br>
 - How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-recovery-services-vault-for-a-vm), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-backed-up-disks), [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-vm-backup-time) [Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time)<br>
