@@ -25,13 +25,13 @@ You can use the below approaches to manage runtime resources (database/collectio
 
 ### Using the C# Console Application
 
-* Use the [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-templat) to create the account
+* Use the [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account
 
 * Use the [Sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101) to create database and collection
 
 ### Using the Azure CLI
 
-* Use the above [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-templat) to create the account or use the [Azure CLI](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create the account
+* Use the above [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account or use the [Azure CLI](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create the account
 
 * Use the [Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create database and collection.  
 
