@@ -21,13 +21,13 @@
 							"displayLabel": "What is the OS version of the impacted system?",
 							"watermarkText": "Provide the OS version of the impacted system",
 							"required": true
-					 },{
+					 }, {
                          				 "id": "lastbackup_successful",
                          				 "order": 2,
                           				"controlType": "datetimepicker",
 						        "displayLabel": "When did the last backup successfully completed?",
 						        "required": false
-					 },{
+					 }, {
 						"id": "Select_ErrorMessage",
 						"order": 3,
 						"controlType": "dropdown",
@@ -36,13 +36,13 @@
 						"dropdownOptions": [{
 							  "value": "Invalid vault credentials provided. The file is either corrupted...",
 							  "text": "Invalid vault credentials provided. The file is either corrupted..."
-							},{
+					}, {
 							   "value": "The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup",
 							   "text": "The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup"
-							},{
+					}, {
 							   "value": "(407) Proxy Authentication Required",
 							   "text": "(407) Proxy Authentication Required"
-							},{
+					}, {
 								"value": "The encryption passphrase stored on this computer is not correctly configured",
 								"text": "The encryption passphrase stored on this computer is not correctly configured"
 							}
@@ -55,26 +55,26 @@
 						"displayLabel": "Select the troubleshooting steps you have completed:",
 						"dropdownOptions": [{
 								"value": "MARS agent is latest",
-								"text": "MARS agent is uptodate"
-						  },{
+								"text": "MARS agent is latest"
+					}, {
 								"value": "CBEngine Service is running",
 								"text": "CBEngine Service is running"
-						  },{
+					}, {
 								"value": "Machine has Internet connectivity",
 								"text": "Machine has Internet connectivity"
-						  },{
+					}, {
 								"value": "5-10% free volume space is available on scratch folder location",
 								"text": "5-10% free volume space is available on scratch folder location"
-						  },{
+					}, {
 								"value": "Antivirus software is running on the machine",
 								"text": "Antivirus software is running on the machine"
-							}{
+					}, {
 								"value": "Using Proxy server",
 								"text": "Using Proxy server"
 							}
 						  ],
 						"required": true
-							},{
+					}, {
 								"id": "problem_start_date",
 								 "order": 5,
 								 "controlType": "datetimepicker",
