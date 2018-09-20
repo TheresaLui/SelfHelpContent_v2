@@ -14,7 +14,7 @@
 
 # Connection Failure after VNET Service Endpoint Configuration
 
-Please wait for 15-20 minutes before testing the connection through the VNET. You have to re-enable the IP Firewall rule after you enable the Azure Virtual Network Service Endpoint
+Please wait for 15-20 minutes before testing the connection through the VNET. You have to re-enable the IP Firewall rule after you enable the Azure Virtual Network Service Endpoint.
 
 ## **Recommended documents**
 * Review [Secure access to an Azure Cosmos DB account by using Azure Virtual Network service endpoint](https://docs.microsoft.com/azure/cosmos-db/vnet-service-endpoint) for detail configuration setups and Frequently Asked Questions.
