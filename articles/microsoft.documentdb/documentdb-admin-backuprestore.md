@@ -14,11 +14,11 @@
 
 # Request for Backup to Configure Disaster recovery
 
-Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're looking for DR purposes, please enable a second geo-replicated region as it is provides the same advantage as backups. Please review [Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+Azure Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're looking for DR purposes, please enable a second geo-replicated region as it is provides the same advantage as backups. Please review [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
 
-Please continue to file a Support Ticket if you need help restoring an accidentally deleted account.
+Please continue to file a Support Ticket if you need help restoring an accidentally deleted Account/Database/Collection/Document.
 
 ## **Recommended documents**
 
-* [Cosmos DB Backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap)
-* [Distribute data Globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+* [Azure Cosmos DB Backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#high-availability-with-cosmos-db---a-recap)
+* [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
