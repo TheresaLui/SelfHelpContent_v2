@@ -12,10 +12,9 @@
 	cloudEnvironments="public"
 />
 
-# Cosmos DB Consistency Levels
-Cosmos DB Support five consistency levels.  We recommend using Session consistency for most application.  Please review the below document for tradeoffs between consistency, latency, throughput and availability across these consistency levels
+# Azure Cosmos DB Consistency Levels
+Azure Cosmos DB Supports five consistency levels.  We recommend using Session consistency for most application.  Please review the below document for tradeoffs between consistency, latency, throughput and availability across these consistency levels
 
 ## **Recommended documents**
-Cosmos DB offer multiple consistency level which can be tuned to accomodate the application and business requirement.
 
 * [Tunable data consistency levels in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/consistency-levels)
