@@ -14,10 +14,10 @@
 
 # Connectivity in Azure Cosmos DB
 
-Many times the connectivity related errors are due to client side issues, so ensure that there is no client side resource constraint like high CPU or memory that could result in some of the requests gettign timed out before reaching our service.
-Follow the tips in the below documents to avoid such issues.
+You may get connectivity errors due to client, server, or environment (network) issues. If you see no service advisory, the most common reasons for connectivity failures are high resource contention on the client machine e.g. high CPU, network exhaustion, or high memory utilization. Also, if the Cosmos DB account you are connecting to has an IP policy-based access control setup, only allowed list of client IPs will be able to connect to it, so if just one of your machine is having connectivity issues to the Cosmos DB account this might be one of the reasons. Follow the tips in the below documentation links to avoid such issues.
 
 ## **Recommended documents**
 
 * [Connection mode](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking)
 * [SDK usage](https://docs.microsoft.com/azure/cosmos-db/performance-tips#sdk-usage)
+* [Azure Cosmos DB firewall support](https://docs.microsoft.com/azure/cosmos-db/firewall-support)
