@@ -9,6 +9,7 @@
     articleId="Hdi_Ambari_ClientMode"
     selfHelpType="rca"
     supportTopicIds=""
+    diagnosticScenario=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
