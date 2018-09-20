@@ -14,7 +14,7 @@
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB
 
-Please refer to below documents for an overview of Partitioning and Scale in Azure Cosmos DB.
+Azure Cosmos DB automatically scales out your collections based on it's storage growth or provisioned throughput. To use all provisioned throughput, you must avoid skews by choosing a good partition key. To learn more about partition allocation and partition key selection, see links below.
 
 ## **Recommended documents**
 
