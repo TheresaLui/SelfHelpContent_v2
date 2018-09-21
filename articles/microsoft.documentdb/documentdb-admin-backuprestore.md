@@ -12,9 +12,9 @@
 	cloudEnvironments="public"
 />
 
-# If you are requesting backup to configure disaster recovery
+# If you are requesting backups to test disaster recovery
 
-Azure Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're planning to capture backup or designing a strategy  to handle future disaster recovery, please enable a second geo-replicated region as it is provides the same advantage as backups. Please review [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+Azure Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're requesting backup to test disaster recovery, please enable a second geo-replicated region as it is provides the manual or automatic failover. Please review [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
 
 Please continue to file a Support Ticket if you need help restoring an accidentally deleted account/database/collection/document.
 
