@@ -7,6 +7,7 @@
     authors="nealbh"
     displayOrder="25"
     articleId="Hdi_Ambari_ClientMode"
+    diagnosticScenario="HDInsightClientModeInsight"
     selfHelpType="rca"
     supportTopicIds="32588427, 32588422, 32588445"
     resourceTags=""
