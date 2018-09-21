@@ -17,9 +17,9 @@ Use [Cosmos DB SDKs/Various APIs](https://docs.microsoft.com/azure/cosmos-db/uni
 
 
 
-## Could not find Cmd-lets to create Cosmos DB Collection in PowerShell
+## Could not find Cmdlets to create Cosmos DB Collection in PowerShell
 
-The Azure Cosmos DB PowerShell does not have Cmd-lets to manage the runtime resource such as Database, Collection/Tables/Graphs, Users, Permissions, documents/items/nodes/edges/Triggers/Stored Procedure/User Defined Function and attachments
+The Azure Cosmos DB PowerShell does not yet support cmdlets to manage the runtime resource such as Database, Collection/Tables/Graphs, Users, Permissions, documents/items/nodes/edges/Triggers/Stored Procedure/User Defined Function and attachments
 
 You can use the below approaches to manage the runtime resources.
 
