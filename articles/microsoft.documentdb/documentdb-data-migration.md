@@ -14,7 +14,7 @@
 
 # Migrating data to Azure Cosmos DB
 
-You can use the bulk executor library to author fast import applications, use the ADF v2 service, or use the data migration tool for importing data to Azure Cosmos DB. Also, it's a good idea to increase the throughput of your collection temporarily while performing the migration, so that it finishes faster.
+You can migrate data to Azure Cosmos DB by using the Bulk Executor library (to author fast import applications), or the ADF v2 service, or the data migration tool. It is recommended to increase the throughput of your collection for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate data in less time.
 
 ## **Recommended documents**
 

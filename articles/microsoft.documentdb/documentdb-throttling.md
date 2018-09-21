@@ -14,7 +14,7 @@
 
 # Rate limiting in Azure Cosmos DB
 
-Common reasons for rate-limiting are (a) insufficient RUs (b) skew within certain partitions/time durations or (c) inefficient operations like scans or inserts of very large documents. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
+Common reasons for rate-limiting are (a) insufficient RUs (b) skew within certain partitions or for specific time duration, or (c) operations like scans or inserts of very large documents which are inefficient. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
 
 ## **Recommended documents**
 * [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)

@@ -16,7 +16,7 @@
 
 Azure Cosmos DB delivers fast, predictable performance by reserving resources to satisfy the throughput needs of your application. Application load and access patterns change over time. Azure Cosmos DB can help you easily increase or decrease the amount of reserved throughput available to your application.
 
-You can provision throughput on the database or collection level in Azure Cosmos DB in terms of RU/s. This can be done programmatically or via the portal. See links to measure RU per request, and how to provision throughput for your collection.
+In Azure Cosmos DB, you can provision throughput at the database level or at the collection level . You can provision throughput by using the Azure portal, or programmatically by using different SDKs.
 
 ## **Recommended documents**
 
