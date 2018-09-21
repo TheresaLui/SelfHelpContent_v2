@@ -7,7 +7,7 @@
     authors="nealbh"
     displayOrder="25"
     articleId="Hdi_Ambari_ClientMode"
-    selfHelpType="resource"
+    selfHelpType="rca"
     supportTopicIds="32588427, 32588422, 32588445"
     resourceTags=""
     productPesIds="15078"
