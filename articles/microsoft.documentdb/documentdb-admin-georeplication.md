@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
-# How to Test the BCDR or HADR with Cosmos DB
+# How to Test the BCDR (Business Continuity and Disaster Recovery) or HADR (High Availability and Disaster Recovery) with Cosmos DB
 
 Most enterprise applications include business continuity tests as part of their development and release process. BCDR and HADR testing 
 is often an important step in compliance certifications and guaranteeing service availability in the case of regional outages.
