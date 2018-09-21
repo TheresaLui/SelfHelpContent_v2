@@ -18,4 +18,7 @@
 
 * [Learn more about Citrix on Azure](https://azure.microsoft.com/partners/directory/citrix/)<br>
 * [XenDesktop Essentials Service – Frequently Asked Questions](https://www.citrix.com/global-partners/microsoft/resources/xendesktop-essentials-faq.html)<br>
-* [Support forum for XendDesktop Essentials](https://discussions.citrix.com/forum/1667-xendesktop-essentials/)
+* [VDI with Citrix Cloud](https://www.citrix.com/global-partners/microsoft/azure.html)<br>
+* [Support forum for XendDesktop Essentials](https://discussions.citrix.com/forum/1667-xendesktop-essentials/)<br>
+* [Citrix Virtual Desktops Essentials Service – Frequently Asked Questions](https://www.citrix.com/global-partners/microsoft/resources/citrix-virtual-desktops-essentials-faq.html)<br>
+* [Citrix Virtual Apps Essentials](https://docs.citrix.com/citrix-cloud/citrix-virtual-apps-essentials)
