@@ -13,5 +13,5 @@
 />
 # Connectivity Issues to VNet Service Endpoints
 ## **Recommended documents**
-[Troubleshoot Vnet Service Endpoint connectivity](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview#logging-and-troubleshooting) <br>
-[Virtual Network Service Endpoint Overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview)
+[Troubleshoot VNet Service Endpoint connectivity](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview#logging-and-troubleshooting) <br>
+[Virtual Network Service Endpoint overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview)
