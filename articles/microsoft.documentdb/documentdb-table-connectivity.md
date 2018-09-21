@@ -16,12 +16,11 @@
 
 To resolve common isuses, try one or more of the following methods.
 
-1. Review your Account Firewall configuration for Cosmos DB Account and confirm the client public IP is added to the approved list of IPs.
+1. Review your Account Firewall configuration for Cosmos DB Account and confirm that the client public IP is added to the approved list of IPs.
 
-2. Test the Gateway mode connection if the connection is failing for the direct mode or Test Direct mode if its failing with Gateway mode.
+2. Test the Gateway mode connection if the connection fails for the direct mode or Test Direct mode if the connection fails with Gateway mode.
 
-3. Test the connection from outside of your network to eliminate any network restrictions causing the failure.  You can test the application by
-   deploying a Azure Virtual machine and running the application from the Azure VM which would help you to eliminate any network restriction.  
+3. Test the connection by accessing it from a location external to your network, this check eliminates any network restrictions causing the failure. You can test the application by  deploying an Azure virtual machine and running the application from the Azure VM which would help you to eliminate any network restriction.  
 
 4. Renabled the Firewall rule exception if you have recently enabled the Cosmos DB Virtual Network Service Endpoint.
 
