@@ -22,7 +22,7 @@ To resolve common isuses, try one or more of the following methods.
 
 3. Test the connection by accessing it from a location external to your network, this check eliminates any network restrictions causing the failure. You can test the application by  deploying an Azure virtual machine and running the application from the Azure VM which would help you to eliminate any network restriction.  
 
-4. Renabled the Firewall rule exception if you have recently enabled the Cosmos DB Virtual Network Service Endpoint.
+4. Renable the Firewall rule exception if you have recently enabled the Cosmos DB Virtual Network Service Endpoint.
 
 
 ## **Recommended documents**
