@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Cluster Failure due to Spark Application running in Client Mode"
-    description="Cluster Failure due to Spark Application running in Client Mode"
+    pageTitle="Cluster Failure due to Spark application running in client mode"
+    description="Cluster Failure due to Spark application running in client mode"
     infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
@@ -19,16 +19,14 @@
 
 ## Problem
 
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high CPU usage on the headnode because of Spark Applications running in client mode.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high CPU usage on the headnode because of Spark applications running in client mode. Spark application running in client mode utilizes resources on the head node where applications running on cluster mode do not utilize head node resources. Modifying the application to use cluster mode would reduce the stress on the head node and decrease head node loss.
 
-## Applications running in Client Mode
+## Applications running in client mode
 <!--$Parameters-->[Parameters]<!--/$Parameters-->
 
 ## **Recommended steps**
-In order to reduce stress on the head node please update the Spark Applications running in Client Mode and change them to Cluster mode using the following steps:
+In order to reduce stress on the head node please update the Spark Applications running in client mode and change them to cluster mode using the following steps:
 
-1. Identify the Spark Applications running in Client Mode, listed above
+1. Identify the Spark Applications running in client mode, listed above
 
-1. Update the [Spark Application Deployment](https://spark.apache.org/docs/latest/submitting-applications.html#launching-applications-with-spark-submit) to use cluster mode by explictly stating 'deploy-mode cluster' 
-
-1. Restart the gateway node for the action to take effect.
+1. Update the [Spark application deployment](https://spark.apache.org/docs/latest/submitting-applications.html#launching-applications-with-spark-submit) to use cluster mode by explictly stating 'deploy-mode cluster' 
