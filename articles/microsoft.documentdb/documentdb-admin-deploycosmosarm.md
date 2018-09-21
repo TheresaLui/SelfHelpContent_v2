@@ -13,7 +13,7 @@
 />
 # Deploy Cosmos DB using ARM Template
 
-Cosmos DB supports creation and management of Accounts via ARM. To automate Databases, Collections, and other resources, please use one of the supported SDKs based on your chosen API kind.
+You can create and manage Azure Cosmos DB Accounts from Azure Resource Manager Template. To automate Databases, Collections, and other resources, please use one of the supported SDKs based on your chosen API kind.
 
 Please refer the below sample template for reference.
 
