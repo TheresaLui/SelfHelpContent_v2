@@ -15,8 +15,7 @@
 
 Most enterprise applications include business continuity tests as part of their development and release process. BCDR and HADR testing 
 is often an important step in compliance certifications and guaranteeing service availability in the case of regional outages.
-You can test the BCDR readiness of your applications that use Cosmos DB for storage by triggering a manual failover of your Cosmos DB account and/or
-adding and removing a region dynamically.
+You can test the BCDR readiness of your applications that use Azure Cosmos DB by triggering a manual failover of your Cosmos DB account and/or adding and removing a region dynamically.
 
 ## **Recommended documents**
 
