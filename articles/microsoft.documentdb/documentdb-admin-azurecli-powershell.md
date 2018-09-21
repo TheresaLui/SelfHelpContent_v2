@@ -13,7 +13,7 @@
 
 # Unable to create Collection with Unique Key from CLI
 
-Use [Cosmos DB SDKs/Various APIs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) to create Unique Keys per Collection.  Support for Unique Key definition in the Azure CLI is in our Roadmap.
+Currently Azure Cosmos DB CLI does not support creating Unique Keys.  Support for Unique Key creation in Azure Cosmos DB CLI is in our Roadmap. Use [Cosmos DB SDKs/Various APIs](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) to create Unique Keys per Collection.
 
 
 
