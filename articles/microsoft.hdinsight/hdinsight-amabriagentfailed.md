@@ -22,7 +22,7 @@
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has high disk usage on the headnode. Please ssh into the headnode and clean up any files that you placed there that are not needed.
 
 ## **Recommended steps**
-1. [SSH](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix) into the node
+1. [SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix) into the node
 
 1. Run 'du -h --max-depth=1 /'
 
