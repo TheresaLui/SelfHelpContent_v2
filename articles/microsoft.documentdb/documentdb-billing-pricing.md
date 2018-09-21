@@ -14,7 +14,8 @@
 
 # Pricing in Azure Cosmos DB
 
-Azure Cosmos DB billing is based on the consumed storage per GB and the provisioned throughput in terms of request units per second(RU/s) per collection. Refer to the below documentation on how pricing in Azure Cosmos DB works in detail.
+Azure Cosmos DB resources are charged based on the storage consumed(GB) and the throughput provisioned(RU/s) for a container.
+To learn more about pricing in Azure Cosmos DB, see the following documentation:
 
 ## **Recommended documents**
 
