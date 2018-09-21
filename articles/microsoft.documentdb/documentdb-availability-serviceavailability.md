@@ -13,7 +13,7 @@
 />
 # Cosmos DB returns Service Unavailable
 
-Service unavailable may be returned due to client issues, Service issues, or Environment (network) issues.  If you don't see a Service advisory in Azure portal, a common reason for seeing this error is from client load from CPU, Memory, or Network exhaustion at the client side. 
+Service unavailable may be returned due to client issues, Service issues, or Environment (network) issues.  If you don't see a Service health issue in Azure portal, a common reason for seeing this error is due to High CPU, Low Memory, or Network exhaustion at the client side. 
 
 Please ensure the application has implemented the [Performance Tips with respect to Networking and SDKs](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking). Also, review the client resource such as CPU/Memory pressure on the client machine.
 
