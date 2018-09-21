@@ -24,4 +24,4 @@ There are two ways you can configure your assessment for right Azure VM size. Yo
 [Learn more](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#sizing) Azure Migrate sizing.
 
 ### **Can I specify Enterprise Agreement(EA) subscriptions in assessment properties?**
-No, Azure Migrate currently does not support Enterprise Agreement(EA) based offers. The workaround is to use select ‘Pay-As-You-Go’ offer and use the ‘Discount’ property to specify any custom discounts. [Learn more](https://docs.microsoft.com/en-us/azure/migrate/how-to-modify-assessment) these assessment properties. 
+No, Azure Migrate currently does not support Enterprise Agreement(EA) based offers. The workaround is to use select ‘Pay-As-You-Go’ offer and use the ‘Discount’ property to specify any custom discounts. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) these assessment properties. 
