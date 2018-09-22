@@ -26,4 +26,4 @@ To achieve the best performance for Cosmos DB Table API, there are a few aspects
 ## **Recommended documents**
 * [Table offerings](https://docs.microsoft.com/azure/cosmos-db/table-introduction)
 
-* Note: OpenAsync is not available for Table API
+   Note: OpenAsync is not available for Table API
