@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Cosmos Db Consistency Level"
+	pageTitle="Cosmos Db consistency level"
 	description="Cosmos DB Consistency"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -12,8 +12,8 @@
 	cloudEnvironments="public"
 />
 
-# Azure Cosmos DB Consistency Levels
-Azure Cosmos DB Supports five consistency levels.  We recommend using Session consistency for most application.  Please review the below document for tradeoffs between consistency, latency, throughput and availability across these consistency levels
+# Azure Cosmos DB consistency levels
+Azure Cosmos DB supports five consistency levels.  We recommend using session consistency for most application.  Please review the below document for tradeoffs between consistency, latency, throughput and availability across these consistency levels
 
 ## **Recommended documents**
 
