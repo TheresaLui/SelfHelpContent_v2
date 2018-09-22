@@ -16,7 +16,7 @@
 
 In order to achieve the best performance for Cosmos DB Table API, there are a few aspects you can configure: 
 
-1. Use Direct Connection mode and TCP protocol whenever possible
+1. Use direct connection mode and TCP protocol whenever possible
 2. Collocate clients in same Azure region for performance
 3. Increase parallelism and connection count in the client
 4. Use singleton Azure Cosmos DB Table API client for the lifetime of your application
