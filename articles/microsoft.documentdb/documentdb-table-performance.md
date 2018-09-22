@@ -14,7 +14,7 @@
 
 # Performance tips for Azure Cosmos DB - Table API
 
-In order to achieve the best performance for Cosmos DB Table API, there are a few aspects you can configure: 
+To achieve the best performance for Cosmos DB Table API, there are a few aspects you can configure: 
 
 1. Use direct connection mode and TCP protocol whenever possible
 2. Collocate clients in same Azure region for performance
