@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Azure CosmosDB Table Authentication"
+	pageTitle="Azure CosmosDB table authentication"
 	description="Authentication"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I am getting Authentication failure to my Azure Cosmos DB Table collection
+# I am getting authentication failure to my Azure Cosmos DB table collection
 
 ## **Recommended Steps**
 
