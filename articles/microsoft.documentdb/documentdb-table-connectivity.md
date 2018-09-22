@@ -14,7 +14,7 @@
 
 # Unable to connect to Cosmos DB Table API collection
 
-To resolve common isuses, try one or more of the following methods.
+To resolve common issues, try one or more of the following methods.
 
 1. Review your account firewall configuration for Cosmos DB Account and confirm that the client public IP is added to the approved list of IPs.
 
