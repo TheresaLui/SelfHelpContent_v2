@@ -14,7 +14,7 @@
 
 # Server-side (stored procedure/triggers/UDFs) returns timeouts
 
-The application should check for the return value and handle the timeout.  All server-side execution has to check for the return value "isAccepted" and handle based on the return value.  
+The application should check for the return value and handle the timeout.  All server-side execution must check for the return value "isAccepted" and handle based on the return value.  
 
 The best practice for any bulk operation using server-side programming is to implement batching using top 100 or 1000. The server-side call  should be returned as soon the batch limit are reached. The client application can then call the server-side code again in a loop to complete the bulk process.
 
