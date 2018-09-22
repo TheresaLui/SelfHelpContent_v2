@@ -28,11 +28,11 @@ You can use any of one of the below given approaches to create database or colle
 
  1. Use the [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account.
 
- 2. Use the [Sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101) to create database and collection.
+ 2. Use the [Sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101) to create the database and collection.
 
 ### Using the Azure CLI
 
- 1. Use the [Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create account, database and collection.  
+ 1. Use the [Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create the account, database and collection.  
 
 ## **Recommended documents**
 
