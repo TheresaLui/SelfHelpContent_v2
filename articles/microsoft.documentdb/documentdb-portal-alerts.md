@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Monitor Cosmos with DB alerts"
-  description="Configure Cosmos DB Alerts"
+  description="Configure Cosmos DB alerts"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Monitor Cosmos DB with Alerts
+# Monitor Cosmos DB with alerts
 
 Cosmos DB provides option to setup alerts from the Azure Portal. The alerts are triggered  based on the metrics exposed by Cosmos DB.
 
