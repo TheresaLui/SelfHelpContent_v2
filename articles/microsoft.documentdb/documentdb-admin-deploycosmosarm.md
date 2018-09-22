@@ -22,19 +22,17 @@ Please use the below sample template for creating Cosmos DB account.
 
 [Create a multi-region Azure Cosmos DB database account](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-multi-region-account/)  
 
-You can use the below approaches to create database or collection.
+You can use any of one of the below given approaches to create database or collection.
 
 ### Using the C# console application
 
-* Use the [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account
+ 1. Use the [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account.
 
-* Use the [Sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101) to create database and collection
+ 2. Use the [Sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101) to create database and collection.
 
 ### Using the Azure CLI
 
-* Use the above [template](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/) to create the account or use the [Azure CLI](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create the account
-
-* Use the [Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create database and collection.  
+ 1. Use the [Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples) to create account, database and collection.  
 
 ## **Recommended documents**
 
