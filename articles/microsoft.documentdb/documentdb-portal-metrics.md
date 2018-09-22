@@ -15,7 +15,7 @@
 
 # Monitor Cosmos DB with metrics
 
-Cosmos DB provides a number of metrics in the Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
+Cosmos DB provides several metrics in the Azure Portal to help monitor the health of your Cosmos DB account including request volume, throughput utilization, and increase in storage growth.
 
 ## **Recommended documents**
 
