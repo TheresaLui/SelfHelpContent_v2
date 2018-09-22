@@ -12,13 +12,13 @@
 	cloudEnvironments="public"
 />
 
-# Stored Procedure execution returns timeouts
+# Server side (stored procedure/triggers/UDFs) returns timeouts
 
 The application should check for the return value and handle the timeout.  All server side execution have to check for the return value "isAccepted" and handle based on the returned value.  
 
-The best practice for any bulk operation using server side programming is to implement batching using top 100 or 1000. The Server Side call  should be returned as soon the batch limit are reached. The client application can then call the server side code again in a loop to complete the bulk process.
+The best practice for any bulk operation using server side programming is to implement batching using top 100 or 1000. The server side call  should be returned as soon the batch limit are reached. The client application can then call the server side code again in a loop to complete the bulk process.
 
-Please proceed to create the Support Ticket if you are getting timeout other than the above scenario.
+Please proceed to create the support ticket if you are getting timeout other than the above scenario.
 
 
 ## **Recommended documents**
