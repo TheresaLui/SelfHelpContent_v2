@@ -13,7 +13,7 @@
 />
 
 # Azure Cosmos DB consistency levels
-Azure Cosmos DB supports five consistency levels.  We recommend using session consistency for most applications.  Please review the below document for tradeoffs between consistency, latency, throughput and availability across these consistency levels.
+Azure Cosmos DB supports five consistency levels.  We recommend using session consistency for most applications.  Please review the following document for tradeoffs between consistency, latency, throughput and availability across these consistency levels.
 
 ## **Recommended documents**
 
