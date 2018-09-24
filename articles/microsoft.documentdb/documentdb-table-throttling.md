@@ -16,7 +16,7 @@
 # Rate limiting or throttling in Cosmos DB
 
 The Cosmos DB collections are provisioned with a reserved throughput. The application would get a response code 429 (throttling) when the 
-workload is consuming more then the provisioned throughput.  The request unit consumptions are evaluated on per second and the response 
+workload consumes more then the provisioned throughput.  The request unit consumptions are evaluated on per second and the response 
 contains the duration to wait before retyring the request. Use the below documents to estimate your throughput needs for a given 
 workload or query.
 
