@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Application Gateway Subnet Has User-defined Route Applied
 <!--issueDescription-->
-We have identified that your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->** in Subnet: **<!--$SubnetName-->[SubnetName]<!--/$SubnetName-->** has the following User-defined Route (UDR) associated: **<!--$UDRName-->[UDRName]<!--/$UDRName-->**. If the UDR has not been carefully configured health probe traffic from the Application Gateway can be rerouted and will not reach the backend resources. This will cause the Application Gateway to mark the backend resources as unhealthy and not route traffic to them. UDRs can also reroute legitimate traffic coming from the Applicaiton Gateway causing issues with the solution hosted on by the backend resources. 
+We have identified that your Application Gateway: **<!--$GatewayName-->[GatewayName]<!--/$GatewayName-->** in Subnet: **<!--$SubnetName-->[SubnetName]<!--/$SubnetName-->** has the following User-defined Route (UDR) associated: **<!--$UDRName-->[UDRName]<!--/$UDRName-->**. If the UDR has not been carefully configured, health probe traffic from the Application Gateway can be rerouted and will not reach the backend resources. This will cause the Application Gateway to mark the backend resources as unhealthy and not route traffic to them. UDRs can also reroute legitimate traffic coming from the Application Gateway causing issues with the solution hosted by the backend resources. 
 <!--/issueDescription-->
 ## **Steps to resolve the issue**
 
