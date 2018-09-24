@@ -22,6 +22,4 @@ We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayN
 
 1. Consider stopping and starting the Application Gateway to recover impacted services via the following PowerShell commandlets: <br>
 Stop-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname--> <br>
-
 Start-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->
-
