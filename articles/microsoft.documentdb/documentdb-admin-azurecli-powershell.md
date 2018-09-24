@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Deploy Cosmos DB from Azure CLI & PowerShell"
-	description="Deploy Cosmos DB from Azure CLI & PowerShell"
+	pageTitle="Deploy Azure Cosmos DB from Azure CLI & PowerShell"
+	description="Deploy Azure Cosmos DB from Azure CLI & PowerShell"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -13,15 +13,15 @@
 
 # Unable to create a collection with unique key from Azure CLI
 
-Currently you cannot use Azure CLI to create unique keys with Azure Cosmos DB. However, support for unique key creation is in our roadmap. Use [.Net SDKs for SQL API](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) and [Mongo API for Mongo](https://docs.microsoft.com/azure/cosmos-db/unique-keys#mongodb-api-sample) to create unique keys per collection.  The Table API and Gremlin API do not support unique keys at the moment.
+The Azure CLI does not yet support commands to create unique keys with Azure Cosmos DB. However, support for unique key creation is in our roadmap. Use [.Net SDKs for SQL API](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) and [Mongo API for Mongo](https://docs.microsoft.com/azure/cosmos-db/unique-keys#mongodb-api-sample) to create unique keys per collection.  The Table API and Gremlin API do not support unique keys at the moment.
 
 
 
 ## Could not find cmdlets to create Azure Cosmos DB collection in PowerShell
 
-The Azure Cosmos DB PowerShell does not yet support cmdlets to manage the runtime resource such as database, collection/tables/graphs, users, permissions, documents/items/nodes/edges/triggers/stored procedure/user defined function and attachments
+The Azure PowerShell does not yet support cmdlets to manage Azure Cosmos DB runtime resource such as database, collection/tables/graphs, users, permissions, documents/items/nodes/edges/triggers/stored procedure/user defined function and attachments.
 
-You can use the below approaches to manage the runtime resources.
+You can use the following approaches to manage the runtime resources.
 
 ### Using the C# console application
 
