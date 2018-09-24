@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"/>
 
-# Unable to create collection with unique key from CLI
+# Unable to create a collection with unique key from Azure CLI
 
 Currently Azure Cosmos DB CLI does not support creating unique keys. However, support for unique key creation is in our roadmap. Use [.Net SDKs for SQL API](https://docs.microsoft.com/azure/cosmos-db/unique-keys#sql-api-sample) and [Mongo API for Mongo](https://docs.microsoft.com/azure/cosmos-db/unique-keys#mongodb-api-sample) to create unique keys per collection.  The Table API and Gremlin API do not support unique keys at the moment.
 
