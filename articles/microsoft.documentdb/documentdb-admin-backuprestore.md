@@ -14,9 +14,9 @@
 
 # Requesting backups to test disaster recovery
 
-Azure Cosmos DB automatically backs up data to guard against regional failures or accidental deletion. If you're requesting backup to test disaster recovery, please enable a second geo-replicated region which would provide the option for manual or automatic failover. Please review [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally).
+Azure Cosmos DB automatically backs up your data to guard against regional failures or accidental deletion. If you're requesting a backup to test disaster recovery, please enable a second geo-replicated region which would provide the option for manual or automatic failover. Please review [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally) document.
 
-Please continue to file a support ticket if you need help restoring an accidentally deleted account, database, collection or document.
+Please continue to file a support ticket if you need help to restore an accidentally deleted account, database, collection or document.
 
 ## **Recommended documents**
 
