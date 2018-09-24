@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"/>
 
-# Cosmos DB Table API development - How To
+# How to develop application with Azure Cosmos DB Table API
 
 Cosmos DB Table API offers premium capabilities which an existing Azure Table application can seamlessly consume without any modification. The Table API has client SDKs available for .NET, Java, Python, and Node.js.
 
