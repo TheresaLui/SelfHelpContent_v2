@@ -10,11 +10,13 @@
 />
 # General Guidance or Advisory
 Please provide details on the scope of your request for advisory guidance.
+
 Examples of advisory services include, but are not limited to:  
 * 	Plan for deployments and migrations
 * 	Plan for hybrid cloud solutions
 * 	Boost performance
 * 	Improve reliability and recoverability
 * 	Enhance security
+
 You should not select Advisory when you have an immediate issue that requires troubleshooting support. 
 Please select a different problem type from the drop down list above for faster assistance resolving a problem. 
