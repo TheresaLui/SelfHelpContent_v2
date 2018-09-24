@@ -12,6 +12,7 @@
 Please provide details on the scope of your request for advisory guidance.
 
 Examples of advisory services include, but are not limited to:  
+
 * 	Plan for deployments and migrations
 * 	Plan for hybrid cloud solutions
 * 	Boost performance
