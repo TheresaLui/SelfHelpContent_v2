@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="exrcxprefixesreqmanualvaldiag"
+    articleId="ExRMicrosoftPeeringCustomerPrefixesRequireValidationInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539943, 32586802, 32539944"
     resourceTags="windows"
