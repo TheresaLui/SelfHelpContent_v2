@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB Table API throttling"
-	description="CosmosDB Table API throttling"
+	pageTitle="Azure Cosmos DB Table API throttling"
+	description="Azure Cosmos DB Table API throttling"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -13,13 +13,10 @@
 />
 
 
-# Rate limiting or throttling in Cosmos DB
+# Rate limiting or throttling in Azure Cosmos DB
 
-The Cosmos DB collections are provisioned with a reserved throughput. The application would get a response code 429 (throttling) when the 
-workload consumes more then the provisioned throughput.  The request unit consumptions are evaluated on per second and the response 
-contains the duration to wait before retyring the request. Use the below documents to estimate your throughput needs for a given 
+The Azure Cosmos DB collections are provisioned with a reserved throughput. The application would get a response code 429 (throttling) when the workload consumes more then the provisioned throughput.  The request unit consumptions are evaluated on per second and the response contains the duration to wait before retyring the request. Use the below documents to estimate your throughput needs for a given 
 workload or query.
-
 
 ## **Recommended documents**
 
