@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-To resolve common issues, try one or more of the following methods
+To resolve this issues, try one or more of the following methods
 
 * Verify the correct secret key is used by the application
 * Validate the connection string from the Azure Portal - Cosmos DB Connection string tab and compare with string in the application.
