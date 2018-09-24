@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Deploy Cosmos DB using ARM Template"
-  description="Cosmos DB via ARM Template"
+	pageTitle="Deploy Azure Cosmos DB using Azure Resource Manager template"
+  description="Azure Cosmos DB via ARM Template"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -11,18 +11,18 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
-# Deploy Cosmos DB using ARM template
+# Deploy Azure Cosmos DB using Azure Resource Manager template
 
-You can create and manage Azure Cosmos DB accounts from Azure Resource Manager template. But the Azure Resource Manager template does not support creating database and collection.  However, you can use any of the approaches given below to create database and collection.
+You can create and manage Azure Cosmos DB accounts from ARM template. But the ARM template does not support creating database and collection.  However, you can use any of the approaches given below to create database and collection.
 
 
-Please use the below sample template for creating Cosmos DB account.
+Please use the following sample template for creating Cosmos DB account.
 
 [Create an Azure Cosmos DB API account](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/)
 
 [Create a multi-region Azure Cosmos DB database account](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-multi-region-account/)  
 
-You can use any of one of the below given approaches to create a database or collection.
+You can use any of one of the following approaches to create a database or collection.
 
 ### Using the C# console application
 
