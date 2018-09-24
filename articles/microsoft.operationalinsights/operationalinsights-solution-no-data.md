@@ -4,7 +4,7 @@
 	infoBubbleText="New solution missing data. See details on the right."
 	service="Microsoft.OperationalInsights"
 	resource="Microsoft.OperationalInsights/workspaces"
-	authors="prdeva"
+	authors="slamirault"
 	displayOrder=""
 	articleId="newLogAnSolnDataMissing"
 	diagnosticScenario=""
