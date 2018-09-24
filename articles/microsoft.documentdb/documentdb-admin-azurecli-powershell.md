@@ -17,7 +17,7 @@ Currently you cannot use Azure CLI to create unique keys with Azure Cosmos DB. H
 
 
 
-## Could not find Cmdlets to create Cosmos DB collection in PowerShell
+## Could not find cmdlets to create Azure Cosmos DB collection in PowerShell
 
 The Azure Cosmos DB PowerShell does not yet support cmdlets to manage the runtime resource such as database, collection/tables/graphs, users, permissions, documents/items/nodes/edges/triggers/stored procedure/user defined function and attachments
 
