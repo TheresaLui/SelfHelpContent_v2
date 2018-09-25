@@ -8,7 +8,8 @@
     supportTopicIds="32565594"
     selfHelpType="resource"
     resourceTags="directory_delete,directory_overview"
-    productPesIds="14785" 
+# Problem deleting an Azure AD tenant 
+    productPesIds="14785"
     cloudEnvironments="public"
     />
 # I'm having a problem deleting my Azure AD tenant
