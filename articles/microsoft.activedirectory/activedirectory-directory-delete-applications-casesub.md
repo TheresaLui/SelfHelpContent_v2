@@ -3,7 +3,7 @@
     description="Azure Active Directory case submission self help"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="Elkuzmen-MSFT"
+    authors="ElizavetaKuzmenko"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615412"
