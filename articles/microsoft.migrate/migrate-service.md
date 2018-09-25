@@ -21,10 +21,10 @@ Use 'Migrate' service only if your issue or query is related to the Azure Migrat
 
 Below is a list of sample scenarios and the corresponding service type to be used for raising a support ticket.
 
-**Migrate from ASM to ARM
+**Migrate from ASM to ARM**
 Based on resources to be migrated to ARM use the corresponding service. For example, if you are migrating a Linux VM from ASM to ARM, file a support ticket on 'Virtual Machines running Linux' 
 
-**Any issue in a VM migration using Azure Site Recovery **
+**Any issue in a VM migration using Azure Site Recovery**
 Use 'Site Recovery' Service.
 
 **Migrate an application to Azure as a PaaS service** 
@@ -34,7 +34,7 @@ Use corresponsing PaaS service. For example, if you are migrating an Active Dire
 Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service
 
 **Migrate databases to Azure** 
- Use 'Database Migration Service' service.
+Use 'Database Migration Service' service.
  
 **Migrate Managed disks to Unmanaged disks or Unmanaged disks to Managed disks in Azure** 
 Use 'Storage Account Management' service.
