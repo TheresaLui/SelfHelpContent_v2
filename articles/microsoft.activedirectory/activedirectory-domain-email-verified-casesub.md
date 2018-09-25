@@ -21,6 +21,5 @@
 3. If you are trying to verify a sub-domain of an existing verified domain in another Azure AD with a different authentication type than the parent domain, you will need to remove it before proceeding to change the authentication type.  [Adding a sub-domain if root domain is already verified](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#add-subdomains-of-a-custom-domain).
 
 ## **Recommended documents**
-
 * [How to takeover domain verified in another Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 * [Understanding self-service sign-up and why a domain already exists in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-self-service-signup#how-to-perform-a-dns-domain-name-takeover)
