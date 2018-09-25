@@ -16,28 +16,31 @@
 
 ## **Recommended steps**
 
-### **Is your issue or query related to [Azure Migrate](https://azure.microsoft.com/en-in/services/azure-migrate) Service?**
-You are seeing this page as you have selected 'Migrate' serive to create a support ticket. Use 'Migrate' service only if your issue or query is related to Azure Migrate service such as on  Azure Migrate collector and its configuration or assessment or discovery. For any other type of issue, use correspoding service to find solution or raise a support ticket. 
-Below is the list few examples describes the type of solution you are looking for and correct corresponding service type.
+### **Is your issue or query related to the [Azure Migrate](https://azure.microsoft.com/services/azure-migrate) Service?**
+Use 'Migrate' service only if your issue or query is related to the Azure Migrate service such as issues related to Azure Migrate discovery, assessment or dependency visualization. If you are not using Azure Migrate, use the respective service to find solution or raise a support ticket. 
 
-**MIgrate Database to Azure** 
- Use 'Data Migration Service' service.
- 
-**Migrate an application to Azure as PaaS service** 
-Use corresponsing PaaS service.
+Below is a list of sample scenarios and the corresponding service type to be used for raising a support ticket.
+
+**Migrate from ASM to ARM
+Based on resources to be migrated to ARM use the corresponding service. For example, if you are migrating a Linux VM from ASM to ARM, file a support ticket on 'Virtual Machines running Linux' 
+
+**Any issue in a VM migration using Azure Site Recovery **
+Use 'Site Recovery' Service.
+
+**Migrate an application to Azure as a PaaS service** 
+Use corresponsing PaaS service. For example, if you are migrating an Active Directory, use 'Azure Active Directory' service.
 
 **Migrate resources from one subscription to other subscription**
-Use resource corresponding service. For example  to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service
+Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service
 
-**Migrate Managed disk to Unmanged disk or Unmanaged disk to Managed disk in Azure** 
+**Migrate databases to Azure** 
+ Use 'Database Migration Service' service.
+ 
+**Migrate Managed disks to Unmanaged disks or Unmanaged disks to Managed disks in Azure** 
 Use 'Storage Account Management' service.
 
 **Migrate Managed disk to different subscription**
 Use 'Storage Account Management' service.
 
-**Any issue in a VM migration using Azure Site Recovery **
-Use 'Site Recovery' Service.
 
-**Migrate from ASM to ARM
-Based on resources to be migrated to ARM use corresponding service.
 
