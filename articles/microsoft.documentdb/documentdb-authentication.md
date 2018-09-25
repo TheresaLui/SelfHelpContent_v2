@@ -14,7 +14,7 @@
 
 # Authentication in Azure Cosmos DB
 
-Azure Cosmos DB uses Hash-based message authentication code (HMAC) for authorization. You can use either a master key, or a resource token to allow fine-grained access to a resource such as a document. For authentication related concepts in Azure Cosmos DB, see the following documentation:
+Azure Cosmos DB uses Hash-based Message Authentication Code (HMAC) for authorization. You can use either a master key, or a resource token to allow fine-grained access to a resource such as a document. For authentication related concepts in Azure Cosmos DB, see the following documentation:
 
 ## **Recommended documents**
 
