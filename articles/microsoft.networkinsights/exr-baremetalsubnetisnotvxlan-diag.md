@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # ExpressRoute Platform Configuration Issues Detected
 <!--issueDescription-->
-We have identified an Azure platform configuration issue for your private peering ExpressRoute connection to virtual network ID: **<!--$VNetId-->[VNetId]<!--/$VNetId-->**. The initial diagnosis is showing that the subnet encapsulation key does not match the vxlan key. See below for more details and steps for mitigation.
+We have identified an Azure platform configuration issue for your private peering ExpressRoute connection to virtual network ID: **<!--$VNetId-->[VNetId]<!--/$VNetId-->**. The initial diagnosis is showing that the subnet encapsulation key does not match the VxLAN key. 
 <!--/issueDescription-->
 
 ## **Additional Details**
