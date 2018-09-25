@@ -22,4 +22,4 @@
 
 ## **Recommended documents**
 * [How to takeover domain verified in another Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
-* [Understanding self-service sign-up and why a domain already exists in Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-self-service-signup#how-to-perform-a-dns-domain-name-takeover)
+* [Understanding self-service sign-up and why a domain already exists in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-self-service-signup#how-to-perform-a-dns-domain-name-takeover)

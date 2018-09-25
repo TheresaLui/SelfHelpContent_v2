@@ -20,5 +20,5 @@
 3. Azure AD deletion will be blocked if you have active subscriptions on any Microsoft Online Services, such as Microsoft Azure, Office 365 or Azure AD Premium associated on the directory you are trying to delete. You will need to transfer your subscriptions or expedite cancellation of active subscriptions via Azure Support and Billing.   [Cancel an Office 365 subscription](https://support.office.com/en-us/article/Contact-Office-365-for-business-support-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US).
 
 ## **Recommended documents**
-* [How to delete and Azure AD tenant](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-delete-howto)
+* [How to delete an Azure AD tenant](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-delete-howto)
 * [Using PowerShell to delete apps](https://docs.microsoft.com/powershell/module/azuread/remove-azureadapplication?view=azureadps-2.0)
