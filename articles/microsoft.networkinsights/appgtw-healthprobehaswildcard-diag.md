@@ -24,4 +24,4 @@ We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayN
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
 3. Select the 'Health Probes' blade
 4. Select the health probe **<!--$ProbeName-->[ProbeName]<!--/$ProbeName-->** 
-5. Include a specifi path value
+5. Include a specific path value
