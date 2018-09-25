@@ -5,7 +5,7 @@
 	resource="iothubs"
 	authors="jlian"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32596634,32596649"
 	resourceTags=""
 	productPesIds="15946"

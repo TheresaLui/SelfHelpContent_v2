@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. To upgrade IoT hub to a higher tier, go to [Pricing and scale](data-blade:Microsoft_Azure_IotHub.IotHubPricingAndScaleBlade.Id.$resourceId), and choose a tier. <br>
+1. To upgrade IoT hub to a higher tier, go to [Pricing and scale](data-blade:Microsoft_Azure_IotHub.IotHubPricingAndScaleBlade.id.$resourceId), and choose a tier. <br>
 [Choose the right IoT Hub tier for your solution](https://docs.microsoft.com/azure/iot-hub/iot-hub-scaling)
 
 1. If you're looking to upgrade from IoT Hub free edition (F1) to one of the paid editions, it's [unfortunately not possible](https://azure.microsoft.com/pricing/details/iot-hub/). For a workaround, use ARM templates to create a paid IoT hub with the same settings, and import device identities from the free IoT hub with our bulk device management API.<br>

@@ -5,7 +5,7 @@
 	resource="iothubs"
 	authors="jlian"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32596615"
 	resourceTags=""
 	productPesIds="15946"
@@ -20,8 +20,8 @@
 [IoT Hub diagnostic logs and schema](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health#understand-the-logs) <br>
 [IoT Hub platform metrics](https://docs.microsoft.com/azure/iot-hub/iot-hub-metrics)
 
-1. Looking to add metric alerts? Go to [Alerts](data-blade:Microsoft_Azure_Monitoring.AlertsManagementSummaryBlade.Id.$resourceId), then click "View classic alerts".<br>
-[Alternatively, click here to go to classic alerts directly](data-blade:Microsoft_Azure_Monitoring.AlertsBlade.Id.$resourceId)
+1. Looking to add metric alerts? Go to [Alerts](data-blade:Microsoft_Azure_Monitoring.AlertsManagementSummaryBlade.id.$resourceId), then click "View classic alerts".<br>
+[Alternatively, click here to go to classic alerts directly](data-blade:Microsoft_Azure_Monitoring.AlertsBlade.id.$resourceId)
 
 ## **Recommended documents**
 [Azure Monitor overview](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview) <br>

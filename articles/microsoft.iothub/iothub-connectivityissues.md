@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.Id.$resourceId).
+1. Make sure the device isn't accidentally disabled in [IoT Devices tab](data-blade:Microsoft_Azure_IotHub.DeviceExplorerBlade.id.$resourceId).
 
 1. If you're having trouble connecting your device to IoT Hub for the first time, try testing the connection with a default sample and running our diagnostic tool. <br>
 [Tutorial: use a simulated device to test connectivity](https://docs.microsoft.com/azure/iot-hub/tutorial-connectivity)<br>
