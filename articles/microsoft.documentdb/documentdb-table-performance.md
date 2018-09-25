@@ -21,7 +21,7 @@ To achieve the best performance for Cosmos DB Table API, there are a few aspects
 3. Increase parallelism and connection count (MaxConnectionLimit) in the client
 4. Use singleton Azure Cosmos DB Table API client for the lifetime of your application
 5. Exclude unused paths from indexing for faster writes
-5. Design for smaller documents for higher throughput
+5. Design for smaller documents and for higher throughput
 
 ## **Recommended documents**
 * [Table offerings](https://docs.microsoft.com/azure/cosmos-db/table-introduction)
