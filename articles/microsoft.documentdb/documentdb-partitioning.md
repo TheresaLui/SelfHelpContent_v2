@@ -14,7 +14,7 @@
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB
 
-Azure Cosmos DB will automatically scale the number of physical partitions based on your workload. To use all provisioned throughput, you must avoid skews by choosing a good partition key. To learn more about partitioning and partition key selection, see links below.
+Azure Cosmos DB will automatically scale the number of physical partitions based on your workload. To use all provisioned throughput, you must avoid skews by choosing a good partition key. To learn more about partitioning and partition key selection, see links below:
 
 ## **Recommended documents**
 

@@ -16,9 +16,9 @@
 
 In order to achieve the best performance for applications using Azure Cosmos DB, ensure that you are following below tips:
 
-1. For .NET clients use Direct/TCP connectivity mode and for Java client use Direct/HTTPS connectivity mode for best performance.
+1. For .NET clients use Direct/TCP connectivity mode and for Java clients use Direct/HTTPS connectivity mode for best performance.
 2. For .NET clients, call OpenAsync() to avoid increased latency for first few requests due to warm up time.
-3. Collocate clients in same Azure region for best latency.
+3. Collocate clients in same Azure region for better performance.
 4. For high transaction workloads, increase the number of threads/connection pool size to maximize concurrency of requests.
 5. Use singleton client instance for the lifetime of your application.
 6. Review your indexing policy and explicitly include paths you need for queries (if possible).
