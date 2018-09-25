@@ -13,7 +13,7 @@
 />
 # Azure Cosmos DB Spark Connector
 
-## **Azure Cosmos DB Spark Connector**
+## **Recommended Steps**
 The Apache Spark to Azure Cosmos DB connector enables Azure Cosmos DB to be an input or output for Apache Spark jobs. 
 The connector efficiently uses the native Azure Cosmos DB managed indexes. The indexes enable updateable columns when you perform analytics and push-down predicate filtering against fast-changing, globally distributed data. 
 You can use the Python or Java-based connector to author Spark jobs.
