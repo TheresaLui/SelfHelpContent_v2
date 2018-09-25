@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB throttling"
-	description="CosmosDB throttling"
+	pageTitle="Azure Cosmos DB throttling"
+	description="Azure Cosmos DB throttling"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Rate limiting in Cosmos DB
+# Rate limiting or throttling in Azure Cosmos DB
 To provide predictable performance, you need to reserve throughput in units of 100 RU/second. Use the below documents to estimate your throughput needs and handle rate limiting effectively.
 
 ## **Recommended documents**
