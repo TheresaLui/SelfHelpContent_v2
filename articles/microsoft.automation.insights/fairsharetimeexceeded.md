@@ -37,7 +37,7 @@ The PowerShell cmdlets that enable this scenario are:
 ### Additional references
 
 - [Fair Share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share)
-- [Create a PowerShell workflow runbook](https://docs.microsoft.com/azure/automation/automation-powershell-workflow)
+- [Create a PowerShell workflow runbook](https://docs.microsoft.com/azure/automation/automation-first-runbook-textual-powershell)
 - [Learning PowerShell Workflow](https://docs.microsoft.com/azure/automation/automation-powershell-workflow)
 - [Hybrid Runbook Worker overview](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
 - [Deploy Windows Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install)
