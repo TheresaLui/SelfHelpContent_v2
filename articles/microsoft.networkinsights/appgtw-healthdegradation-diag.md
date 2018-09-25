@@ -19,7 +19,6 @@ cloudEnvironments="Public"
 We have identified that your Application Gateway **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->' health is degraded** for metric '<!--$MetricName-->[MetricName]<!--/$MetricName-->'. This was most recently reported at <!--$PreciseTimeStamp-->[PreciseTimeStamp]<!--/$PreciseTimeStamp--> UTC.
 <!--/issueDescription--> 
 ## **Steps to resolve**
-
-1. Consider stopping and starting the Application Gateway to recover impacted services via the following PowerShell commandlets: <br>
+Consider stopping and starting the Application Gateway to recover impacted services via the following PowerShell commandlets: <br>
 Stop-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname--> <br>
 Start-AzureRmApplicationGateway <!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->
