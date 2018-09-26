@@ -13,7 +13,7 @@
 />
 # Deploy Azure Cosmos DB using Azure Resource Manager template
 
-You can create and manage Azure Cosmos DB accounts from an ARM template. Please use the following sample template for creating a Cosmos DB account.
+You can create and manage Azure Cosmos DB accounts from an ARM template. Please use the following sample template for creating your Cosmos DB account.
 
 [Create an Azure Cosmos DB account](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/)
 
