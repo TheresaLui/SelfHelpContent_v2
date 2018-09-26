@@ -19,18 +19,19 @@ The Azure CLI does not yet support commands to create unique keys with Azure Cos
 
 ## Could not find cmdlets to create Azure Cosmos DB collection in PowerShell
 
-The Azure PowerShell does not yet support cmdlets to manage Azure Cosmos DB runtime resource such as database, collection/tables/graphs, users, permissions, documents/items/nodes/edges/triggers/stored procedure/user defined function and attachments.
+The Azure PowerShell does not yet support cmdlets to manage Azure Cosmos DB runtime resource such as databases, collections, tables, graphs, users, permissions, documents, items, nodes, edges, triggers, stored procedures, user defined functions and attachments.
 
-You can use the following approaches to manage the runtime resources.
+However, you can use a C# console application or the Azure CLI to manage runtime resources following the examples below.
 
-### Using the C# console application
+### Managing resources with a C# console application
 
-* [Use PowerShell to create the account](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
-* [Use Sample C# code to create database and collection](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
+* [Create your account using PowerShell](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
+* [Create your database and collection using this sample C# code](https://github.com/Azure/azure-cosmosdb-dotnet/blob/89670bc8aefd9bdd932db7f9b6d2fcb9b6acf35e/samples/code-samples/CollectionManagement/Program.cs#L101)
 
-### Using the Azure CLI 
+### Managing resources using the Azure CLI
 
-* [Use the Azure CLI command to create database and collection](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
+* [Create your account using PowerShell](https://docs.microsoft.com/azure/cosmos-db/powershell-samples)
+* [Create your database and collection using these Azure CLI command](https://docs.microsoft.com/azure/cosmos-db/cli-samples)
 
 ## **Recommended documents**
 
