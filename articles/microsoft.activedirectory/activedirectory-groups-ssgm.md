@@ -13,7 +13,7 @@
 # Self-service group management
 
 ## **Recommended steps**
-	
+
 **Manage access to Access Panel portal**<br>
 1. Global administrators can manage access to groups features in the Access Panel, by setting "Restrict access to Groups in the Access Panel" in **All groups > General (Settings)**.<br>
 2. Global administrators can also manage the "Owners can manage group membership requests in the Access Panel" setting, if you have an Azure Active Directory P1 Premium license.<br>
