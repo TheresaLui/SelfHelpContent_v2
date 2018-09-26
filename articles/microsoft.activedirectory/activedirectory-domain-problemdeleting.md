@@ -3,7 +3,7 @@
     description="Azure Active Directory case submission self help"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="elkuzmen"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32045808"
@@ -12,7 +12,7 @@
     cloudEnvironments="public"
     />
 
-# Problem deleting a domain name 
+# Problem deleting a domain name
 
 ## **Recommended steps**
 1.	To delete a custom domain name, ensure you have removed all users, groups and applications dependent on the custom domain name. If there are any existing resources using the domain name, the deletion will not succeed. 
@@ -22,12 +22,8 @@
 
 
 ## **Recommended documents**
-
-* [Manage your initial default .onmicrosoft.com domain name](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names) 
-* [Deleting users from Azure AD]( https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal) 
-* [Removing an application in your directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
-* [Resource dependencies on domains](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence) 
-* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names) 
-
-
-
+* [Manage your initial default .onmicrosoft.com domain name](https://docs.microsoft.com/azure/active-directory/active-directory-add-domain-concepts#initial-and-custom-domain-names)<br>
+* [Deleting users from Azure AD]( https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal)<br>
+* [Removing an application in your directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)<br>
+* [Resource dependencies on domains](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-directory-independence)<br>
+* [Use PowerShell or Graph API to manage domain names](https://docs.microsoft.com/azure/active-directory/active-directory-domains-manage-azure-portal#use-powershell-or-graph-api-to-manage-domain-names)
