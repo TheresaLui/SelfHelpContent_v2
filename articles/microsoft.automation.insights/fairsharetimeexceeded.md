@@ -18,14 +18,11 @@ cloudEnvironments="public"
 ## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped and evicted after exceeding the fair share time limit**
 We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped and evicted <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$TimeLimit-->[TimeLimit]<!--/$TimeLimit--> minute [fair share](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share).
 ### Recommended Steps
-To avoid runbook failures caused by exceeding the fair share time limit, we recommend one of the following methods to resolve this problem:
-#### 1) Look at the [fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share)
-
-- The [fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) describes how to use [PowerShell workflow](https://docs.microsoft.com/azure/automation/automation-powershell-workflow) to checkpoint the runbook. This allows the runbook to be restarted.
-- The [fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) also explains executing the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers do not impose a time limit on job execution.
+To avoid runbook failures caused by exceeding the fair share time limit, please refer to the following information for methods to solve this problem:
+#### 1) The [fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) contains methods to solve this problem.
 
 #### 2) Optimize the runbook
-If the methods described in the [fair share documentation](https://docs.microsoft.com/azure/automation/automation-runbook-execution#fair-share) do not help, you'll need to optimize the runbook.
+Another option is to optimize the runbook.
 
 One optimization option is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks executes in parallel in separate processes decreasing the total amount of time for the parent runbook to complete.
 
@@ -36,4 +33,6 @@ The PowerShell cmdlets that enable this scenario are:
 
 ### Additional references
 
+- [Hybrid Runbook Worker overview](https://docs.microsoft.com/en-us/azure/automation/automation-hybrid-runbook-worker)
+- [Powershell Workflow runbook](https://docs.microsoft.com/en-us/azure/automation/automation-first-runbook-textual)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)
