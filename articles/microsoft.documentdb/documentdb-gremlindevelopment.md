@@ -16,7 +16,7 @@
 ## **Recommended Steps**
 
 ### **Getting started**
-You can use the Azure command-line interface (CLI), Azure PowerShell, or the Azure portal to create and access Azure Cosmos DB Gremlin API accounts.
+You can use the Azure command-line interface (CLI), Azure PowerShell, or the Azure portal to create and access data from Azure Cosmos DB Gremlin API accounts.
 After you create an account, you can access the graph databases within that account by using a Gremlin API service endpoint https://[YOUR_ACCOUNT].gremlin.cosmosdb.azure.com, that provides a WebSocket frontend for Gremlin.
 
 You can configure your TinkerPop-compatible tools, like the Gremlin Console, to connect to this endpoint and build applications in Java, Node.js, or any Gremlin client driver.
