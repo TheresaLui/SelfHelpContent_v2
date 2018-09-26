@@ -11,7 +11,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
-# Gremlin - Development - How to
+# Gremlin - How to develop apps to manage data in Gremlin API?
 
 ## **Recommended Steps**
 
