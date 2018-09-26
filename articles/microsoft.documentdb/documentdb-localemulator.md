@@ -21,9 +21,9 @@ Using the Azure Cosmos DB Emulator, you can develop and test your application lo
 
 ### **Troubleshooting**
 
-* If you installed a new version of the Emulator and are experiencing errors, ensure you reset your data. You can reset your data by right-clicking the Azure Cosmos DB Emulator icon on the system tray, and then clicking Reset Data…. If that does not fix the errors, you can uninstall and reinstall the app.
+* If you installed a new version of the Emulator and are experiencing connectivity errors, ensure you reset your data. You can reset your data by right-clicking the Azure Cosmos DB Emulator icon on the system tray, and then clicking 'Reset Data'. If that does not fix the errors, you can uninstall and reinstall the app.
 * If you experience crashes in CosmosDB.StartupEntryPoint.exe, run the following command from an admin command prompt: lodctr /R
-* If you receive a Service Unavailable message, the emulator might be failing to initialize the network stack. Check to see if you have the Pulse secure client or Juniper networks client installed, as their network filter drivers may cause the problem. Uninstalling third-party network filter drivers typically fixes the issue.
+* If you receive a Service Unavailable message, the emulator might have failed to initialize the network stack. Check to see if you have the Pulse secure client or Juniper networks client installed. The network filter drivers of these clients may cause issues. Uninstalling third-party network filter drivers typically fixes the issue.
 * Collect trace files and attach them to the support case for crashes or connectivity issues 
 
 ## **Recommended Documents**
