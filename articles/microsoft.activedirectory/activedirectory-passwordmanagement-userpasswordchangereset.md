@@ -6,7 +6,7 @@
     authors="sahenry"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32615416"
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
