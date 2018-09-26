@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# Server-side stored procedure/triggers/UDFs returns timeouts
+# Server-side stored procedure, triggers, or UDFs returns timeouts
 
 The application should check for the return value of the operation and handle any timeouts appropriately.  All server-side execution must check for the return value "isAccepted" and handle based on the return value.  
 
