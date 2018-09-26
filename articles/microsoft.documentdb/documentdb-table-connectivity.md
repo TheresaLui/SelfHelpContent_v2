@@ -16,7 +16,7 @@
 
 To resolve this issue, try one or more of the following methods.
 
-1. Review your account firewall configuration for Cosmos DB account and confirm that the client public IP is added to the approved list of IPs.
+1. Review the firewall configuration for your Cosmos DB account and confirm that the list of approved IP addresses includes that of the client attempting to connect to your Cosmos DB Table account.
 
 2. Test the gateway mode connection if the connection fails for the direct connection mode or test direct connection mode if the connection fails with gateway connection mode.
 
