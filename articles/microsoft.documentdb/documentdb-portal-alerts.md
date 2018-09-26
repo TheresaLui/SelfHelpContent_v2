@@ -14,7 +14,7 @@
 
 # Monitor Cosmos DB with alerts
 
-Cosmos DB provides option to setup alerts from the Azure Portal. The alerts are triggered  based on the metrics exposed by Cosmos DB.
+Cosmos DB provides the option to set up alerts from the Azure Portal. The alerts are triggered  based on the metrics exposed by Cosmos DB.
 
 
 ## **Recommended documents**
