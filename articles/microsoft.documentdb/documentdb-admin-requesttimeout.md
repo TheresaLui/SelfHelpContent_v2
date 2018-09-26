@@ -18,7 +18,7 @@ The application should check for the return value of the operation and handle an
 
 The best practice for any bulk operation using server-side programming is to implement batching using top 100 or 1000. The server-side call  should be returned as soon as the batch limits is reached. The client application can then call the server-side code again in a loop to complete the bulk process.
 
-Please proceed to create a support ticket if you are getting timeout for non bulk operation.
+Please proceed to create a support ticket if you are getting timeout for non bulk operations.
 
 
 ## **Recommended documents**
