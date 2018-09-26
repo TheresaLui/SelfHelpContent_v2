@@ -9,7 +9,7 @@
 	articleId="newLogAnSolnDataMissing"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
-	supportTopicIds="32592241,32592228,32592242,32592268"
+	supportTopicIds="32592241, 32592228, 32592242, 32592268"
 	resourceTags=""
 	productPesIds="15725"​
 	cloudEnvironments="public"
@@ -17,7 +17,7 @@
 
 # A solution has been added to this workspace which has not received data
 <!--issueDescription-->
-## ** A new solution has not received data **
+## **A new solution has not received data**
 We have dectected that you recently added the **<!--$solution-->[solution]<!--/$solution-->** solution to your workspace and that no data has been received. While most solutions start collecting data shortly after being added, there are some assessments which will take several days. We recommend that you review your solution data again after the initial data collection timeframe.
 <!--/issueDescription-->
 
