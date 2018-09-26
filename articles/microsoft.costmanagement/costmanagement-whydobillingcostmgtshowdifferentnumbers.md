@@ -14,7 +14,7 @@
 
 # Why does Cost Management have different numbers than my invoice?
 
-The numbers on your invoice differ because Cost Management does not currently include one-item and recurring fees (e.g. reservations and support).
+The numbers on your invoice differ because Cost Management does not currently include one-time and recurring fees (e.g. reservations and support).
 
 Cost Management currently includes all usage and Marketplace charges.
 

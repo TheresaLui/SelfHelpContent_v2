@@ -20,7 +20,7 @@ For more information about conditional access setup, check out the following art
 
 [Get started with conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)<br>
 [Azure Active Directory conditional access FAQs](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-faqs)<br>
-[Best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-best-practices)<br>
+[Best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)<br>
 [Azure Active Directory conditional access what if tool - preview](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif)<br>
 [Create a conditional access policy for Exchange on-premises and legacy Exchange Online Dedicated](https://docs.microsoft.com/intune/conditional-access-exchange-create)<br>
 [Troubleshoot the Exchange Connector](https://docs.microsoft.com/intune-classic/Troubleshoot/troubleshoot-exchange-connector)<br>
