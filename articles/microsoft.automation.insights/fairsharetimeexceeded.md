@@ -33,6 +33,6 @@ The PowerShell cmdlets that enable this scenario are:
 
 ### Additional references
 
-- [Hybrid Runbook Worker overview](https://docs.microsoft.com/en-us/azure/automation/automation-hybrid-runbook-worker)
-- [Powershell Workflow runbook](https://docs.microsoft.com/en-us/azure/automation/automation-first-runbook-textual)
+- [Hybrid Runbook Worker overview](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
+- [Powershell Workflow runbook](https://docs.microsoft.com/azure/automation/automation-first-runbook-textual)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)
