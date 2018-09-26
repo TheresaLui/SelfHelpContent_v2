@@ -6,7 +6,7 @@
   authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570274"
-  productPesIds="14785"
+  productPesIds="14785,16575"
   cloudEnvironments="public"
  />
 
