@@ -1,18 +1,18 @@
 <properties
-	pageTitle="A solution has been added to this workspace which has not received data"
-	description="A new solution has not received data"
-	infoBubbleText="New solution missing data. See details on the right."
-	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationalInsights/workspaces"
-	authors="slamirault"
-	displayOrder=""
-	articleId="newLogAnSolnDataMissing"
-	diagnosticScenario=""
-	selfHelpType="diagnostics"
-	supportTopicIds="32592241, 32592228, 32592242, 32592268"
-	resourceTags=""
-	productPesIds="15725"​
-	cloudEnvironments="public"
+    pageTitle="A solution has been added to this workspace which has not received data"
+    description="A new solution has not received data"
+    infoBubbleText="New solution missing data. See details on the right."
+    service="Microsoft.OperationalInsights"
+    resource="Microsoft.OperationalInsights/workspaces"
+    authors="slamirault"
+    displayOrder=""
+    articleId="newLogAnSolnDataMissing"
+    diagnosticScenario=""
+    selfHelpType="diagnostics"
+    supportTopicIds="32592241, 32592228, 32592242, 32592268"
+    resourceTags=""
+    productPesIds="15725"
+    cloudEnvironments="public"
 />
 
 # A solution has been added to this workspace which has not received data
