@@ -11,7 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# Data migration tool
+# Data Migration tool
 
 ## **Recommended Steps**
 Using the Azure Cosmos DB Data Migration tool, you can import data from various sources into Azure Cosmos DB SQL API collections and tables.
