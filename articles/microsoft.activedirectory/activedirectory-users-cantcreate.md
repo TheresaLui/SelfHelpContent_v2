@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
-    selfHelpType="generic" 
+    selfHelpType="generic"
     supportTopicIds="32045780"
     productPesIds="14785,16578"
     cloudEnvironments="public"
@@ -20,7 +20,7 @@
 
 ### **Recommended tools**
 * See the [Azure AD roles and administrators](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RolesAndAdministrators) for your Azure AD.<br>
-* See the [domain names](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) for your Azure AD.<br>
+* See the [domain names](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) for your Azure AD.
 
 ## **Recommended documents**
 * [Use the Azure portal to create a new user in your Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-users-create-azure-portal)<br>

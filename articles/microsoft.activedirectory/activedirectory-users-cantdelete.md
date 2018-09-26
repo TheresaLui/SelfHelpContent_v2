@@ -3,7 +3,7 @@
     description="Problem deleting a user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="Jeffsta-MSFT" 
+    authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32586793"
     productPesIds="14785,16578"
