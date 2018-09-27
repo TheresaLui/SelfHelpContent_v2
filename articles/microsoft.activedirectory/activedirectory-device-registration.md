@@ -25,7 +25,7 @@
 
 ### Setup and manage device registrations ###
 
-* [Set up Azure AD registered Windows 10 devices](https://docs.microsoft.com/azure/active-directory/device-management-azuread-registered-devices-windows10-setup) 
+* [Set up Azure AD registered Windows 10 devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
 * [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/device-management-azuread-joined-devices-setup)
 

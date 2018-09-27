@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authors="ElizavetaKuzmenko"
     displayOrder="1875"
-    supportTopicIds="32565594"
+    supportTopicIds="32565595"
     selfHelpType="resource"
     resourceTags="directory_delete,directory_overview"
     productPesIds="14785" 
