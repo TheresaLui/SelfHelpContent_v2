@@ -15,6 +15,7 @@
 # Rate limiting in Azure Cosmos DB
 
 Common reasons for rate limiting are:
+
 * Insufficient RUs. 
 * Skew within certain partitions or for specific time duration.
 * Operations like scans or inserts of very large documents which are inefficient. 
