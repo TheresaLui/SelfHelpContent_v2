@@ -14,7 +14,7 @@
 
 # Synchronizing AD to Azure AD/Synchronization not working
 
-## Recommended steps
+## **Recommended steps**
 
 **Cannot start Azure AD Connect Synchronization Service**
 

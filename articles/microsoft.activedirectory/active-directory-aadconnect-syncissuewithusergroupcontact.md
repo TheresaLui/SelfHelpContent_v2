@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Synchronization issue with specific user, group or contact object"
-	description="Synchronization issue with specific user, group or contact object"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
-	authors="cychua"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32570979"
-	resourceTags=""
-	productPesIds="14785,16578"
-	cloudEnvironments="public"
-/>
+    pageTitle="Synchronization issue with specific user, group or contact object"
+    description="Synchronization issue with specific user, group or contact object"
+    service="microsoft.activedirectory"
+    resource="activedirectory"
+    authors="cychua"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32570979"
+    resourceTags=""
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    />
 
 # Synchronization issue with specific user, group or contact object
 
