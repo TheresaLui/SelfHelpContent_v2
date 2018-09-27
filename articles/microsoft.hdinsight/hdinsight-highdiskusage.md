@@ -7,7 +7,7 @@
     authors="nealbh"
     displayOrder="27"
     articleId="Hdi_DiskFull"
-    diagnosticScenario="HDInsightAmbariAgentNotStartingInsight"
+    diagnosticScenario="HDInsightDiskUsageInsight"
     selfHelpType="rca"
     supportTopicIds="32588422, 32588427"
     resourceTags=""
@@ -24,6 +24,9 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended steps**
 1. [SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix) into the node
 
-1. Run 'du -h --max-depth=1 /'
+1. Run 'du -h --max-depth=1 / | sort -h'
 
 1. Clean up the largest files that you placed there
+
+## Nodes with high disk usage
+<!--$NodeInformation-->[NodeInformation]<!--/$NodeInformation-->

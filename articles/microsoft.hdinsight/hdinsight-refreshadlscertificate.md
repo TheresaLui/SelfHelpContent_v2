@@ -21,7 +21,7 @@
 
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only ADLS as storage which is accessed via a certificate. This certificate has expired and needs to be refreshed in order to access storage.
 
-## Thumbprints of expired certificates
+## Thumbprint of expired certificates
 <!--$Details-->[Details]<!--/$Details-->
 
 ## **Recommended steps**
