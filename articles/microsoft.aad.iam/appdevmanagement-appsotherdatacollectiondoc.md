@@ -1,13 +1,16 @@
-<properties pageTitle="Active Directory application other issue" 
-	 description="appsotherdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32369672,32570274" 
-	 productPesIds="14785,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application other issue 
+<properties
+    pageTitle="Active Directory application other issue"
+    description="appsotherdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32369672,32570274"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Active Directory application other issue
+
 ---
 {
   "resourceRequired": true,

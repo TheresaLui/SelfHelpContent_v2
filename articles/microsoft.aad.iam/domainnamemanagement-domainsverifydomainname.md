@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with Domains Name verify domain name" 
-	 description="domainsverifydomainname" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045779" 
-	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with Domains Name verify domain name 
+<properties
+    pageTitle="Problem with Domains Name verify domain name"
+    description="domainsverifydomainname"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045779"
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with Domains Name verify domain name
+
 ---
 {
   "resourceRequired": false,

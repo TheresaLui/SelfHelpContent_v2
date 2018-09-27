@@ -1,13 +1,16 @@
-<properties pageTitle="Active Directory application provisioning issue" 
-	 description="appsprovisioningdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570260" 
-	 productPesIds="14785,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application provisioning issue 
+<properties
+    pageTitle="Active Directory application provisioning issue"
+    description="appsprovisioningdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570260"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Active Directory application provisioning issue
+
 ---
 {
   "resourceRequired": false,

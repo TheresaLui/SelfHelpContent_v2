@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with Domains Name domains delete" 
-	 description="domainsdeletedomainname" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045808" 
-	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with Domains Name domains delete 
+<properties
+    pageTitle="Problem with Domains Name domains delete"
+    description="domainsdeletedomainname"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045808"
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with Domains Name domains delete
+
 ---
 {
   "resourceRequired": false,

@@ -1,13 +1,16 @@
-<properties pageTitle="Problem in Identity Protection users risk events" 
-	 description="identityprotection" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32542231" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem in Identity Protection users risk events 
+<properties
+    pageTitle="Problem in Identity Protection users risk events"
+    description="identityprotection"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32542231"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem in Identity Protection users risk events
+
 ---
 {
   "resourceRequired": false,

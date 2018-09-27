@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with Self service passowrd change reset" 
-	 description="selfservicepasswordchangereset" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045826" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with Self service passowrd change reset 
+<properties
+    pageTitle="Problem with Self service passowrd change reset"
+    description="selfservicepasswordchangereset"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045826"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with Self service passowrd change reset
+
 ---
 {
   "resourceRequired": false,

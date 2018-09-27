@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with grpah API authentication" 
-	 description="graphauthenticationissues" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32134055" 
-	 productPesIds="14785,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with grpah API authentication 
+<properties
+    pageTitle="Problem with grpah API authentication"
+    description="graphauthenticationissues"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32134055"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with grpah API authentication
+
 ---
 {
   "resourceRequired": false,

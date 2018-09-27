@@ -1,13 +1,14 @@
-<properties pageTitle="AAD Connect synchronization not working" 
-	 description="aadconnectsynchronizationnotworking" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32565591" 
-	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# AAD Connect synchronization not working 
+<properties 
+    pageTitle="AAD Connect synchronization not working"
+    description="aadconnectsynchronizationnotworking"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32565591"
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+# AAD Connect synchronization not working
 ---
 {
   "resourceRequired": false,

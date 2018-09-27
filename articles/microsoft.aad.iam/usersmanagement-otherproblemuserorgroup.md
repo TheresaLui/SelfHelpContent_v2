@@ -1,13 +1,16 @@
-<properties pageTitle="Other problem with user or group" 
-	 description="otherproblemuserorgroup" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32586794" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Other problem with user or group 
+<properties
+    pageTitle="Other problem with user or group"
+    description="otherproblemuserorgroup"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32586794"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Other problem with user or group
+
 ---
 {
   "resourceRequired": false,

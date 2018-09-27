@@ -1,18 +1,16 @@
-<properties pageTitle="Problem with graph API generic" 
-	 description="graphgenericapioperation" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-<<<<<<< HEAD
-	 supportTopicIds="32586797,32134056,32134057,32134059,32134060,32134061,32134062,32134063,32134064" 
-	 productPesIds="14785,16578,16575" 
-=======
-	 supportTopicIds="32596839, 32596841, 32596852, 32596853, 32596854, 32596855, 32596860" 
-	 productPesIds="14785" 
->>>>>>> 94caefc24e8169c7d28e1143d6dc38057cd876eb
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with graph API generic 
+<properties
+    pageTitle="Problem with graph API generic"
+    description="graphgenericapioperation"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32596839, 32596841, 32596852, 32596853, 32596854, 32596855, 32596860"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with graph API generic
+
 ---
 {
   "resourceRequired": true,

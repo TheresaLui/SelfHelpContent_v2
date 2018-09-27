@@ -1,13 +1,16 @@
-<properties pageTitle="Active Directory application access issue" 
-	 description="appsaccessdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570263" 
-	 productPesIds="14785,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application access issue 
+<properties 
+    pageTitle="Active Directory application access issue"
+    description="appsaccessdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570263"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Active Directory application access issue
+
 ---
 {
   "resourceRequired": false,

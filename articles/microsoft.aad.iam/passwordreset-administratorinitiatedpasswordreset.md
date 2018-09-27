@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with administrator initiated password reset" 
-	 description="administratorinitiatedpasswordreset" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045781" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with administrator initiated password reset 
+<properties
+    pageTitle="Problem with administrator initiated password reset"
+    description="administratorinitiatedpasswordreset"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045781"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with administrator initiated password reset
+
 ---
 {
   "resourceRequired": false,

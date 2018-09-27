@@ -1,13 +1,16 @@
-<properties pageTitle="Problem with passowrd write back" 
-	 description="passwordwriteback" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32565598" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with passowrd write back 
+<properties
+    pageTitle="Problem with passowrd write back"
+    description="passwordwriteback"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32565598"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem with passowrd write back
+
 ---
 {
   "resourceRequired": false,

@@ -1,13 +1,16 @@
-<properties pageTitle="Active Directory application dev config issue" 
-	 description="appsdevconfigdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570262" 
-	 productPesIds="14785,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application dev config issue 
+<properties
+    pageTitle="Active Directory application dev config issue"
+    description="appsdevconfigdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570262"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Active Directory application dev config issue
+
 ---
 {
   "resourceRequired": false,

@@ -1,13 +1,16 @@
-<properties pageTitle="Problem assigning licenses to a group" 
-	 description="problemassigninglicensetoagroup" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570958" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem assigning licenses to a group 
+<properties
+    pageTitle="Problem assigning licenses to a group"
+    description="problemassigninglicensetoagroup"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570958"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem assigning licenses to a group
+
 ---
 {
   "resourceRequired": false,

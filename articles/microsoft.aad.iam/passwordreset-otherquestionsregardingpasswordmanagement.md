@@ -1,13 +1,16 @@
-<properties pageTitle="Other problems with password reset" 
-	 description="otherquestionsregardingpasswordmanagement" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32565599" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Other problems with password reset 
+<properties
+    pageTitle="Other problems with password reset"
+    description="otherquestionsregardingpasswordmanagement"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32565599"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Other problems with password reset
+
 ---
 {
   "resourceRequired": false,

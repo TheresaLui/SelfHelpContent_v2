@@ -1,13 +1,16 @@
-<properties pageTitle="Problem creating a user or group" 
-	 description="problemcreatinguserorgroup" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32586792" 
-	 productPesIds="14785,16578,16575" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem creating a user or group 
+<properties
+    pageTitle="Problem creating a user or group"
+    description="problemcreatinguserorgroup"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32586792"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    />
+
+# Problem creating a user or group
+
 ---
 {
   "resourceRequired": false,
