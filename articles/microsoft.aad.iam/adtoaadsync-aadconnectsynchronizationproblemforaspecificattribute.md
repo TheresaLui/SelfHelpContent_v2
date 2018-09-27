@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="Azure AD Connect synchronization issue with specific attribute"
     description="aadconnectsynchronizationproblemforaspecificattribute"
     authors="anupnadigm"

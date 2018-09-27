@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="AAD Connect synchronization not working"
     description="aadconnectsynchronizationnotworking"
     authors="anupnadigm"
@@ -8,7 +8,9 @@
     cloudEnvironments="public"
     schemaVersion="1"
     />
+
 # AAD Connect synchronization not working
+
 ---
 {
   "resourceRequired": false,

@@ -12,6 +12,7 @@
 # Problem assigning licenses to a group
 
 ---
+
 {
   "resourceRequired": false,
   "title": "Problem assigning licenses to a group",
