@@ -20,8 +20,7 @@
 You can customize your assessment by changing the assessment properties. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) about how to edit the assessment properties.
 
 ### **How is Azure VM sizing determined by Azure Migrate?**
-There are two ways you can configure your assessment for right Azure VM size. You can do assessment based on either performance-based sizing or size the VMs as on-premises, without considering the performance history.
-[Learn more](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#sizing) Azure Migrate sizing.
+There are two ways you can configure your assessment to determine the best Azure VM size for your migration. The first is "performance-based" sizing. With this method, Azure Migrate will attempt to determine the best VM size for you based on the performance characteristics of your on-prem VM. The second method, "on-premises" sizing, does not take performance history into consideration and will select an Azure VM size for you that most closely matches that of your on-prem VM. [Learn more](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#sizing) about how Azure Migrate determines the right Azure VM sizing.
 
 ### **Can I specify Enterprise Agreement(EA) subscriptions in assessment properties?**
 No, Azure Migrate currently does not support Enterprise Agreement(EA) based offers. The workaround is to use select ‘Pay-As-You-Go’ offer and use the ‘Discount’ property to specify any custom discounts. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) these assessment properties. 
