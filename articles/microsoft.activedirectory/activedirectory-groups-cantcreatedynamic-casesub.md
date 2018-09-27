@@ -1,6 +1,6 @@
-<properties 
+<properties
     pageTitle="I can't create and populate a dynamic group"
-    description= "Trouble creating and populating a dynamic droup "
+    description= "Trouble creating and populating a dynamic droup"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="piotrci"
@@ -12,11 +12,10 @@
     cloudEnvironments="public"
     />
 
-
 # I can't create and populate a dynamic group
 
 ## **Recommended steps**
-1.	If you cannot find the built-in User Attributes, ensure that the attribute is in the [list of supported properties] (https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#supported-properties).
+1.	If you cannot find the built-in User Attributes, ensure that the attribute is in the [list of supported properties](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#supported-properties).
 2.	If you are looking for built-in Device Attributes, ensure that the attribute is in the list of [device attributes](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#using-attributes-to-create-rules-for-device-objects).
 3.	If the attribute is not found in Simple Rule drop-down, you could also use the Advanced Rule to construct the body of an Advanced Rule. Ensure that the syntax is accurate and that the property type and value match. Also ensure that you have added the appropriate object prefix to select the property; for example, user.country, device.deviceOSType.
 Learn about the [guidelines on how to create an Advanced Rule](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal#constructing-the-body-of-an-advanced-rule). 
