@@ -20,6 +20,8 @@ We have investigated and identified that your runbook, <!--$RunbookName-->[Runbo
 ### Recommended Steps
 To avoid runbook failures caused by exceeding the <!--$MemoryLimit-->[MemoryLimit]<!--/$MemoryLimit--> Mbyte memory limit, please refer to the following information for methods to solve this problem:
 #### 1) The [memory limit troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#job-attempted-3-times) contains methods to solve this problem.
+ 
+- Execute the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers do not impose a memory limit.
 
 #### 2) Optimize the runbook
 Another option is to optimize the runbook.
@@ -33,6 +35,4 @@ The PowerShell cmdlets that enable this scenario are:
 
 ### Additional references
 
-- [Hybrid Runbook Worker overview](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
-- [Powershell Workflow runbook](https://docs.microsoft.com/azure/automation/automation-first-runbook-textual)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)

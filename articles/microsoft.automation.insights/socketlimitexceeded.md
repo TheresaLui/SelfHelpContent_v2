@@ -22,9 +22,11 @@ To avoid runbook failures caused by exceeding the <!--$SocketLimit-->[SocketLimi
 
 #### 1) The [Socket limit troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#job-attempted-3-times) contains methods to solve this problem.
 
+- Execute the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers do not impose a socket limit.
+
 #### 2) Another technique to solve this problem is to:
 
-- Modify the runbook to release socket connections, and socket pools as soon as possible. This will keep the number of open sockets at any time to a minimum. The [Sysinternals TCPView to monitor socket usage](https://docs.microsoft.com/sysinternals/downloads/tcpview) is a valuable tool to monitor socket usage when executing the PowerShell cmdlets in a local PowerShell IDE.
+- Modify the runbook to release socket connections, and connection pools as soon as possible. This will keep the number of open sockets to a minimum. [Sysinternals TCPView](https://docs.microsoft.com/sysinternals/downloads/tcpview), to monitor socket usage, is a valuable tool when debugging the PowerShell cmdlets to reduce socket consumption on a local PowerShell IDE.
 
 #### 3) Optimize the runbook
 Another option is to optimize the runbook.
@@ -38,6 +40,4 @@ The PowerShell cmdlets that enable this scenario are:
 
 ### Additional references
 
-- [Hybrid Runbook Worker overview](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
-- [Powershell Workflow runbook](https://docs.microsoft.com/azure/automation/automation-first-runbook-textual)
 - [Automation Service Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits)
