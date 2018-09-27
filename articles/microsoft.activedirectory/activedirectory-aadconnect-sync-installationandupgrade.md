@@ -19,7 +19,6 @@
 **Where to get the latest build of Azure AD Connect**
 
 * To download the latest build of Azure AD Connect, click [here](https://www.microsoft.com/download/details.aspx?id=47594).
-
 * For details on the changes/improvements in the latest build of Azure AD Connect, refer to article [Azure AD Connect: Version release history](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-version-history).
 
 **How to install Azure AD Connect sync**
@@ -35,23 +34,24 @@
   * Automatic upgrade
   * In-place upgrade
   * Swing migration
-  
-* For details on Automatic upgrade, see the article [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-feature-automatic-upgrade).
 
+* For details on Automatic upgrade, see the article [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-feature-automatic-upgrade).
 * For details on In-place upgrade and Swing migration, see the article [Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version).
 
 **How to upgrade DirSync to Azure AD Connect**
 
 * There are two options to upgrade DirSync (Windows Azure Active Directory Sync) to Azure AD Connect, including:
+
   * In-place upgrade
   * Parallel deployment
-  
+
 * For details on both options, refer to article [Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started).
 
 **How to upgrade Azure AD Sync to Azure AD Connect**
 
 * There are two options to upgrade Azure AD Sync to Azure AD Connect, including:
+
   * In-place upgrade
   * Swing migration
-  
+
 * For details on both options, refer to article [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version).
