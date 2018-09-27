@@ -3,7 +3,7 @@
     description="I'm having a problem deleting my Azure AD tenant"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="elkuzmen"
     displayOrder="1875"
     supportTopicIds="32565595"
     selfHelpType="resource"
