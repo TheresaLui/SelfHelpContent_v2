@@ -20,7 +20,6 @@
 * [Service Trust Portal - FAQ](https://servicetrust.microsoft.com/ViewPage/FAQ)<br>
 * [Licensing terms](https://www.microsoft.com/licensing/product-licensing)<br>
 * [Microsoft’s Online Services and terms](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)<br>
-* Download the Online service terms [here](https://www.microsoft.com/licensing/product-licensing)<br>
 * [More information regarding GDPR and user data export](https://servicetrust.microsoft.com/)<br>
 * Interested in viewing or deleting personal data -[Azure Data Subject Requests for the GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure)<br>
 * General Information about GDPR - [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)<br>
