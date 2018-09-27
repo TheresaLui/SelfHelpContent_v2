@@ -15,13 +15,15 @@ cloudEnvironments="public"/>
 
 ## **Recommended Steps**
 
-To resolve this issue, try one or more of the following methods
+You can use Azure Portal or C# console application to modify the scale setting following the example below
 
-* Browse to Azure Portal 
-* Suffix the Tag “?feature.enableSettingsBlade=true” at the end of the URL and hit enter
-* Change the Scale Setting as needed.
+### Change scale setting from Azure Portal
 
-Or
+1. Browse to Azure Portal 
+2. Suffix the Tag “?feature.enableSettingsBlade=true” at the end of the URL and hit enter
+3. Change the Scale Setting and click save.
+
+### Change scale seeting with a C# console application
 
 * [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet) to change the scale setting.
 
