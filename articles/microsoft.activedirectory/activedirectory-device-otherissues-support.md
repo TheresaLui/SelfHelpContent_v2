@@ -21,13 +21,14 @@
 
 ## **Recommended documents**
 
-### Setup and manage device registrations 
-* [Set up Azure AD registered Windows 10 devices](https://aka.ms/support-devicemanagement-setup-azuread-registered) <br>
-* [Set up Azure AD joined devices](https://aka.ms/support-devicemanagement-setup-azureadjoin)<br>
+### Set up and manage device registrations
+
+* [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)<br>
 * [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://aka.ms/support-devicemanagement-setup-hybridazureadjoin)<br>
 * [Manage devices using the Azure portal](https://aka.ms/support-devicemanagement-azureportal)
 
 ### Troubleshooting common issues for registration and managing devices
+
 * [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-current)<br>
 * [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-legacy)<br>
 * [Frequently asked questions for device registration](https://aka.ms/support-devicemanagement-faq)

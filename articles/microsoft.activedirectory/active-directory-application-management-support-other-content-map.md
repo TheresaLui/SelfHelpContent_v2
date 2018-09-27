@@ -1,14 +1,14 @@
 <properties
-  pageTitle="Issues that are related to Azure Active Directory Application Management"
-  description="Resolve the most common issues related to Azure Active Directory Application Management"
-  service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="ajamess"
-  selfHelpType="generic"
-  supportTopicIds="32570274"
-  productPesIds="14785,16575"
-  cloudEnvironments="public"
- />
+    pageTitle="Issues that are related to Azure Active Directory Application Management"
+    description="Resolve the most common issues related to Azure Active Directory Application Management"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ajamess"
+    selfHelpType="generic"
+    supportTopicIds="32570274"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    />
 
 # Issues that are related to Azure Active Directory Application Management
 
