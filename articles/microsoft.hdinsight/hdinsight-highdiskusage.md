@@ -6,7 +6,7 @@
     resource="clusters"
     authors="nealbh"
     displayOrder="27"
-    articleId="Hdi_DiskFull"
+    articleId="Hdi_HighDiskUsage"
     diagnosticScenario="HDInsightDiskUsageInsight"
     selfHelpType="rca"
     supportTopicIds="32588422, 32588427"
