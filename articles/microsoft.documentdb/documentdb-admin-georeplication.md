@@ -17,5 +17,4 @@ is often an important step in compliance certifications and guarantees service a
 You can test the BCDR readiness of your applications that use Azure Cosmos DB by triggering a manual failover of your Cosmos DB account and/or by adding and removing a region dynamically.
 
 ## **Recommended documents**
-
 * [Automatic regional failover for business continuity in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/regional-failover)
