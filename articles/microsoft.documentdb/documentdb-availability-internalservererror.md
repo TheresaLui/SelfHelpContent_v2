@@ -17,17 +17,18 @@ cloudEnvironments="public"/>
 
 You can use Azure Portal or C# console application to modify the scale setting following the example below
 
-### Change scale setting from Azure Portal
+### Change scale setting using Azure Portal
 
 1. Browse to Azure Portal 
 2. Suffix the Tag “?feature.enableSettingsBlade=true” at the end of the URL and hit enter
-3. Change the Scale Setting and click save.
+3. Browse to the Azure Cosmos database account and choose scale blade
+4. Update the throughput value and save
 
-### Change scale seeting with a C# console application
+### Change scale setting using C# console application
 
 * [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet) to change the scale setting.
 
-# I am getting an internal server error when using Azure Cosmos DB data Explorer
+# I am getting an internal server error when using Azure Cosmos DB data explorer
 
 ## **Recommended Steps**
 
