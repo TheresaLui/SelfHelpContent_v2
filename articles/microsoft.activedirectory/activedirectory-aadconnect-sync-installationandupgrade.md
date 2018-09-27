@@ -24,38 +24,34 @@
 
 **How to install Azure AD Connect sync**
 
-* If you are new to Azure AD Connect and would like to learn more about it, start with article [Connect Active Directory with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
-
-* Azure AD Connect provides two options for new installation, including:
-    * Express
-    * Custom
-  
-* For details on both options, refer to article [Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-select-installation).
-
+* If you are new to Azure AD Connect and would like to learn more about it, start with the article [Connect Active Directory with Azure Active Directory].(https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+* Azure AD Connect provides two options for new installation, Express or Custom. For details on both options, see [Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-select-installation).
 * To understand the pre-requisites for installing Azure AD Connect, refer to article [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites).
 
 **How to upgrade Azure AD Connect to the latest version**
 
-* There are three options to upgrade Azure AD Connect to the latest version, including:
-    * Automatic upgrade
-    * In-place upgrade
-    * Swing migration
-  
-* For details on Automatic upgrade, refer to article [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-feature-automatic-upgrade).
+* There are three options to upgrade Azure AD Connect to the latest version:
 
-* For details on In-place upgrade and Swing migration, refer to article [Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version).
+  * Automatic upgrade
+  * In-place upgrade
+  * Swing migration
+  
+* For details on Automatic upgrade, see the article [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-feature-automatic-upgrade).
+
+* For details on In-place upgrade and Swing migration, see the article [Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version).
 
 **How to upgrade DirSync to Azure AD Connect**
 
 * There are two options to upgrade DirSync (Windows Azure Active Directory Sync) to Azure AD Connect, including:
-    * In-place upgrade
-    * Parallel deployment
+  * In-place upgrade
+  * Parallel deployment
   
 * For details on both options, refer to article [Azure AD Connect: Upgrade from DirSync](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-dirsync-upgrade-get-started).
 
 **How to upgrade Azure AD Sync to Azure AD Connect**
+
 * There are two options to upgrade Azure AD Sync to Azure AD Connect, including:
-    * In-place upgrade
-    * Swing migration
+  * In-place upgrade
+  * Swing migration
   
 * For details on both options, refer to article [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-upgrade-previous-version).
