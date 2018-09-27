@@ -24,9 +24,9 @@
 
 **How to install Azure AD Connect sync**
 
-* If you are new to Azure AD Connect and would like to learn more about it, start with the article [Connect Active Directory with Azure Active Directory].(https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
+* If you are new to Azure AD Connect and would like to learn more about it, see [Connect Active Directory with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 * Azure AD Connect provides two options for new installation, Express or Custom. For details on both options, see [Select which installation type to use for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-select-installation).
-* To understand the pre-requisites for installing Azure AD Connect, refer to article [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites).
+* To understand the pre-requisites for installing Azure AD Connect, see [Prerequisites for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites).
 
 **How to upgrade Azure AD Connect to the latest version**
 
