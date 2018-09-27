@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Azure Cosmos DB error in Data Explorer"
+	pageTitle="Azure Cosmos DB error in data explorer"
 	description="Error in Data Explorer"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I am getting error when access Azure Cosmos Data Explorer
+# I am getting error when access Azure Cosmos data explorer
 
 ## **Recommended Steps**
 
