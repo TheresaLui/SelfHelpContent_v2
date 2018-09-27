@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Synchronizing AD to Azure AD/Password synchronization"
-	description="Synchronizing AD to Azure AD/Password synchronization"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
-	authors="cychua"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32142240"
-	resourceTags=""
-	productPesIds="14785,16578"
-	cloudEnvironments="public"
-/>
+    pageTitle="Synchronizing AD to Azure AD/Password synchronization"
+    description="Synchronizing AD to Azure AD/Password synchronization"
+    service="microsoft.activedirectory"
+    resource="activedirectory"
+    authors="cychua"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32142240"
+    resourceTags=""
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    />
 
 # Synchronizing AD to Azure AD/Password synchronization
 
@@ -28,7 +28,7 @@ Common root causes include:
 
   * The Azure AD Connect server is currently in staging mode.
 
-To troubleshoot the issue, follow the steps described in section [Troubleshoot password synchronization with Azure AD Connect sync - No passwords are synchronized](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-synchronization#no-passwords-are-synchronized).
+To troubleshoot the issue, follow the steps described in section [Troubleshoot password synchronization with Azure AD Connect sync - No passwords are synchronized](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#no-passwords-are-synchronized-troubleshoot-by-using-the-troubleshooting-task).
 
 
 **Password synchronization does not work for specific user**
@@ -43,4 +43,4 @@ Common root causes include:
 
   * The on-premises Active Directory User object is not correctly configured for object synchronization or password synchronization.
 
-To troubleshoot the issue, follow the steps described in the article section [Troubleshoot password synchronization with Azure AD Connect sync - One object is not synchronizing passwords](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-synchronization#one-object-is-not-synchronizing-passwords).
+To troubleshoot the issue, follow the steps described in the article section [Troubleshoot password synchronization with Azure AD Connect sync - One object is not synchronizing passwords](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#one-object-is-not-synchronizing-passwords-troubleshoot-by-using-the-troubleshooting-task).

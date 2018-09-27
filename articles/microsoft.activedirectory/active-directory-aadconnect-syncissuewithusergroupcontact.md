@@ -14,7 +14,7 @@
 
 # Synchronization issue with specific user, group or contact object
 
-## Recommended steps
+## **Recommended steps**
 
 **Issue with synchronizing specific user, group or contact object**
 

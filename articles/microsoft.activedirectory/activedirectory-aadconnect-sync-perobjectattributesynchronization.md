@@ -1,16 +1,15 @@
 <properties
-	pageTitle="Synchronizing AD to Azure AD/Per object or attribute synchronization"
-	description="Synchronizing AD to Azure AD/Per object or attribute synchronization"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
-	authors="cychua"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32570976"
-	resourceTags=""
-	productPesIds="14785,16578"
-	cloudEnvironments="public"
-/>
+    pageTitle="Synchronizing AD to Azure AD/Per object or attribute synchronization"
+    description="Synchronizing AD to Azure AD/Per object or attribute synchronization"  service="microsoft.activedirectory"
+    resource="activedirectory"
+    authors="cychua"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32570976"
+    resourceTags=""
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    />
 
 # Synchronizing AD to Azure AD/Per object or attribute synchronization
 

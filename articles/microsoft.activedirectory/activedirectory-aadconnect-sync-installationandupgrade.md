@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Synchronizing AD to Azure AD/Installation and upgrade"
-	description="Synchronizing AD to Azure AD/Installation and upgrade"
-	service="microsoft.activedirectory"
-	resource="activedirectory"
-	authors="cychua"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32404460"
-	resourceTags=""
-	productPesIds="14785,16578"
-	cloudEnvironments="public"
-/>
+    pageTitle="Synchronizing AD to Azure AD/Installation and upgrade"
+    description="Synchronizing AD to Azure AD/Installation and upgrade"
+    service="microsoft.activedirectory"
+    resource="activedirectory"
+    authors="cychua"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32404460"
+    resourceTags=""
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    />
 
 # Synchronizing AD to Azure AD/Installation and upgrade
 

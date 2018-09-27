@@ -44,4 +44,4 @@ Common root causes include:
 
   * The on-premises Active Directory User object is not correctly configured for object synchronization or password synchronization.
 
-To troubleshoot the issue, follow the steps described in the article section [Troubleshoot password synchronization with Azure AD Connect sync - One object is not synchronizing passwords](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-troubleshoot-password-synchronization#one-object-is-not-synchronizing-passwords).
+To troubleshoot the issue, follow the steps described in the article [Troubleshoot password hash synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization).
