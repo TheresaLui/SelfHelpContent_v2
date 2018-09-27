@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I am getting error when access Azure Cosmos data explorer
+# I am getting error when browsing data through Azure Cosmos db data explorer
 
 ## **Recommended Steps**
 
