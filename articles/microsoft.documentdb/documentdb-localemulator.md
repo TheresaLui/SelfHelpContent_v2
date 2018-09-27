@@ -17,7 +17,7 @@
 ## **Recommended Steps**
 
 The Azure Cosmos DB Emulator provides a local environment that emulates the Azure Cosmos DB service for development purposes.
-Using the Azure Cosmos DB Emulator, you can develop and test your application locally, without creating an Azure subscription or incurring any costs.
+By using the Azure Cosmos DB Emulator, you can develop and test your application locally, without creating an Azure subscription or incurring any costs.
 
 ### **Troubleshooting**
 
