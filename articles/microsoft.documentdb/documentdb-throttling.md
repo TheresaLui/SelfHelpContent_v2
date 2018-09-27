@@ -19,7 +19,7 @@ Common reasons for rate limiting are:
 * Skew within certain partitions or for specific time duration.
 * Operations like scans or inserts of very large documents which are inefficient. 
 
-Use the below documents to estimate your throughput needs and handle rate limiting effectively:
+Use the documents below to estimate your throughput needs and handle rate limiting effectively:
 
 
 ## **Recommended documents**
