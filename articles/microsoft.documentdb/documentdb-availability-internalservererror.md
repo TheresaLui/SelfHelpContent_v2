@@ -1,15 +1,15 @@
-<	properties
-	pageTitle="Azure Cosmos DB internal server error"
-	description="Internal server Error"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="balaksms"
-	displayOrder="87"
-	selfHelpType="resource"
-	supportTopicIds="32597529"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public"/>
+<properties
+pageTitle="Azure Cosmos DB internal server error"
+description="Internal server Error"
+service="microsoft.documentdb"
+resource="databaseAccounts"
+authors="balaksms"
+displayOrder="87"
+selfHelpType="resource"
+supportTopicIds="32597529"
+resourceTags=""
+productPesIds="15585"
+cloudEnvironments="public"/>
 
 # I am getting an internal server error when changing the scale setting in Azure Portal
 
