@@ -11,7 +11,7 @@
 # Storage File Sync scoping question
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage File Sync scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
