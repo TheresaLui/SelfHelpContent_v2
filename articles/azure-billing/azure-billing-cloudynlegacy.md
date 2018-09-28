@@ -6,7 +6,7 @@
 	authors="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615277,32615279,32615288,32615289,32615291,32615290,32615292,32615293,32615294,32615295,32615296,32615299,32615300,32615301,32615302,32615304,32615305,32615303"
+	supportTopicIds="32615277"
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
