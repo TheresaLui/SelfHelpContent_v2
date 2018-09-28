@@ -21,7 +21,7 @@
 If you have issues with synchronizing specific object:
 
 * Check for any synchronization error which corresponds to this object. For details on common synchronization errors, refer to article [Troubleshooting Errors during synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sync-errors). Synchronization errors are available to customers in the following ways:
-  
+
   * Under Azure AD Connect Health [object-level sync error report](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-sync). This is currently available to selected customers only.
 
   * Identity synchronization error report - this is an email notification that is sent to the Technical Notification contact for the tenant whenever Azure AD Connect completes a synchronization cycle with errors.
