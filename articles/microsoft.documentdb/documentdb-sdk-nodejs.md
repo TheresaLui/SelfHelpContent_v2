@@ -12,10 +12,12 @@
 	cloudEnvironments="public"
 />
 
-## **Introduction to Azure Cosmos DB Node.js SDK**
+# **Introduction to Azure Cosmos DB Node.js SDK**
+
 Please refer to below documents for a complete reference for using Node.js with Azure Cosmos DB.
 
 ## **Recommended documents**
+
 * [Azure Cosmos DB: Build a Node.js app using JavaScript SDK to manage Azure Cosmos DB SQL API data](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-nodejs)
 * [Azure Cosmos DB: Migrate an existing Node.js MongoDB web app](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-nodejs)
 * [Azure Cosmos DB: Build a Node.js application by using Gremlin API](https://docs.microsoft.com/azure/cosmos-db/create-graph-nodejs)
