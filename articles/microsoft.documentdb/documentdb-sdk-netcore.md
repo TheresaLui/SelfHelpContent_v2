@@ -17,4 +17,5 @@
 Please refer to below documents for a complete reference for using .NET Core SDK with Azure Cosmos DB.
 
 ## **Recommended documents**
+
 * [Azure Cosmos DB .NET Core SDK for SQL API: Release notes and resources](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-core)
