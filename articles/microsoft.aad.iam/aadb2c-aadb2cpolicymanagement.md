@@ -1,12 +1,14 @@
-<properties pageTitle="Problem with AAD B2C policy management" 
-	 description="aadb2cpolicymanagement" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32422332" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
+<properties 
+    pageTitle="Problem with AAD B2C policy management"
+    description="aadb2cpolicymanagement"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32422332"
+    productPesIds="14785,16580"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
+    />
 # Problem with AAD B2C policy management 
 ---
 {
