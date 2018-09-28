@@ -6,6 +6,7 @@
 	 productPesIds="14785,16580" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+   articleId="fa43dca5-4fec-4ee1-903a-9c56604f0798"
 /> 
 # Problem with AAD B2C create directory 
 ---

@@ -6,6 +6,7 @@
 	 productPesIds="14785,16576" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="55a6eeda-9d80-41bb-aabc-88a98677b559"
 /> 
 # Problem with AAD Domain services vnet 
 ---

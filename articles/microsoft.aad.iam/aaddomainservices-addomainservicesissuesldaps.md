@@ -6,6 +6,7 @@
 	 productPesIds="14785,16576" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="4acea5d7-d1e9-4952-9203-69852f19542a"
 /> 
 # Problem with AAD Domain services ldaps 
 ---

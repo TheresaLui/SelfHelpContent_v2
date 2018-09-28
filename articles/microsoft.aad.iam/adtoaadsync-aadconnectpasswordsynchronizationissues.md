@@ -6,6 +6,7 @@
 	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="7270fcb1-252a-4ff9-ad8c-e4a58a978d55"
 /> 
 # Azure AD Connect password synchronization issue 
 ---

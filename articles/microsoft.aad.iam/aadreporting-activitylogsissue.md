@@ -6,6 +6,7 @@
 	 productPesIds="14785,16577" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="1387d93d-ec85-45fa-9463-efaf4c3a8855"
 /> 
 # Problem with Activity logs in Azure AD 
 ---
