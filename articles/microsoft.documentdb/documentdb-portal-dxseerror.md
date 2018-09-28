@@ -14,12 +14,11 @@
 
 # I am getting error when browsing data through Azure Cosmos DB data explorer
 
+The data explorer uses the native SDK based on the Cosmos DB Account API type to access the data from the Azure Cosmos DB.  Using a Azure Cosmos DB - SQL API SDK to perform CRUD operation against Mongo API account would not generate any error.  However, this would make the data explorer to fail when reading the data due to mismatch in the data formats.
+
 ## **Recommended Steps**
 
-The data explorer uses the respective SDK i.e. SQL API or Mongo API to access the data from the Azure Cosmos DB.  Using a Azure Cosmos DB - SQL API SDK to perform CRUD operation against Mongo API account 
-would not generate any error.  However, this would make the data explorer to fail when reading the data due to structure mismatch.
-
-Please use the Mongo SDKs to perform CRUD operation against Azure Cosmos DB Mongo API account.
+Using the native Mongo SDKs to perform CRUD operation against Azure Cosmos DB Mongo API account would help you to resolve this issue.
 
 ## **Recommended documents**
 
