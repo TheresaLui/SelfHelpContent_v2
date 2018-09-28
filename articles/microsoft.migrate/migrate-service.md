@@ -34,11 +34,11 @@ Use 'Site Recovery' Service.
 Use corresponsing PaaS service. For example, if you are migrating an Active Directory, use 'Azure Active Directory' service.
 
 **Migrate resources from one subscription to other subscription**
-Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service
+Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service.
 
 **Migrate databases to Azure**
 Use 'Database Migration Service' service.
- 
+
 **Migrate Managed disks to Unmanaged disks or Unmanaged disks to Managed disks in Azure**
 Use 'Storage Account Management' service.
 
