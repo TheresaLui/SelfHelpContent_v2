@@ -6,7 +6,7 @@
 	authors="nsoneji"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32593695"
+	supportTopicIds="32593695, 32593691"
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
