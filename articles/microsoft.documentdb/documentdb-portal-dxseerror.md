@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# I am getting error when browsing data through Azure Cosmos DB data explorer
+# I am getting an error when browsing data through Azure Cosmos DB data explorer
 The data explorer uses the native SDK based on the Cosmos DB Account API type to access the data from the Azure Cosmos DB. Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against Mongo API account would not generate any error. However, this would make the data explorer produce the internal server error when reading the data due to a mismatch in the data formats.
 
 ## **Recommended Steps**
