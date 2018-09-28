@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# **Introduction to Azure Cosmos DB .NET SDK**
+# Introduction to Azure Cosmos DB .NET SDK
 
 Please refer to below documents for a complete reference for using .NET SDK with Azure Cosmos DB.
 
