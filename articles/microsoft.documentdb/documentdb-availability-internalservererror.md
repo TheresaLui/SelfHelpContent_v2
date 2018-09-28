@@ -15,7 +15,7 @@ cloudEnvironments="public"/>
 
 ## **Recommended Steps**
 
-You can use Azure Portal or C# console application to modify the scale setting following the example below.
+You can use the Azure Portal or C# console application to modify the scale setting following the example below.
 
 ### Change the scale setting using Azure Portal
 
@@ -24,7 +24,7 @@ You can use Azure Portal or C# console application to modify the scale setting f
 3. Browse to the Azure Cosmos database account and choose scale blade
 4. Update the throughput value and save
 
-### Change scale setting using C# console application
+### Change scale setting using a C# console application
 
 * [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet)
 
