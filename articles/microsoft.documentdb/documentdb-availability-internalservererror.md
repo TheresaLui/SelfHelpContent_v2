@@ -18,12 +18,14 @@ cloudEnvironments="public"/>
 You can use the Azure Portal or C# console application to modify the scale setting following the example below.
 
 ### Change the scale setting using Azure Portal
+
 1. Browse to Azure Portal 
 2. Add “?feature.enableSettingsBlade=true” at the end of the URL and click enter
 3. Browse to the Azure Cosmos database account and choose scale blade
 4. Update the throughput value and save
 
 ### Change scale setting using a C# console application
+
 * [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet)
 
 ## I am getting an internal server error when using Azure Cosmos DB data explorer
@@ -36,6 +38,7 @@ Using Mongo SDK to perform CRUD operation against Azure Cosmos DB Mongo API acco
 
 
 ## **Recommended documents**
+
 * [Retiring the S1, S2, and S3 performance levels]( https://docs.microsoft.com/azure/cosmos-db/performance-levels)
 * [Set and get throughput for Azure Cosmos DB containers and database]( https://docs.microsoft.com/azure/cosmos-db/set-throughput)
 * [Get started with Azure Cosmos DB Mongo API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started)
