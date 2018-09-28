@@ -22,7 +22,7 @@ The Azure Migrate Collector works in a fire and forget model, which means that t
 **What version of .NET is required to run dependency agent?**
 Microsoft .NET Framework 3.5 or later.
 
-**My Azure Migrate Collector Windows license will be expired soon. Do I need to activate Windows?
+**My Azure Migrate Collector Windows license will be expired soon. Do I need to activate Windows?**
 Azure Migrate Collector VM comes with Windows evaluation license and will be valid for six months. Before expiration, we recommend you to download the new Collector from the portal and deploy it. You can use either existing Azure Migrate project or create a new porject for the new Collector. Once your new collector is deployed, you can decommission the old collector by simply deleting the old Collector VM. 
 Also note that your collector must be with the latest Windows update. If it is not updated for 60 days, the Collect VM will be shutdown. [Learn more](https://docs.microsoft.com/azure/migrate/concepts-collector#updating-the-collector-vm) about updating the collector VM.
 
