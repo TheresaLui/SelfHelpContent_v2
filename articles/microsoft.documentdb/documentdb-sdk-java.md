@@ -16,12 +16,9 @@
 
 ## **Introduction to Azure Cosmos DB Java SDK**
 
-Please refer to below documents for complete reference for using Java SDK with Azure Cosmos DB.
-
-
+Please refer to below documents for complete a reference for using Java SDK with Azure Cosmos DB.
 
 ## **Recommended documents**
-
 * [Azure Cosmos DB: Create a document database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-java)
 * [Azure Cosmos DB: Build a MongoDB API console app with Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-java)
 * [Azure Cosmos DB: Create a graph database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-graph-java)
