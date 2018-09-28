@@ -11,7 +11,7 @@ resourceTags=""
 productPesIds="15585"
 cloudEnvironments="public"/>
 
-# Why getting Internal Server Error
+# Why getting internal server error
 
 ## I am getting an internal server error when changing the scale setting in Azure Portal
 
