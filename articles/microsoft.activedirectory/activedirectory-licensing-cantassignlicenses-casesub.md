@@ -3,7 +3,7 @@
     description="I can't assign licenses to a user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="piotrci"
+    authors="SumitParikh"
     displayOrder="1770"
     supportTopicIds="32570959"
     selfHelpType="generic"
@@ -29,11 +29,9 @@
 
 4. If you are trying to remove a license and that is failing, the user might have other licenses with services that depend on the services you are trying to remove. If you are using the Azure portal or PowerShell cmdlets, the error message will list the specific services that have dependencies.
 
-5. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem,  including information on [how to connect to Exchange Online using remote PowerShell](https://technet.microsoft.com/library/jj984289.aspx).
+5. If you want to understand why a license was added/removed from a user (e.g. who else in your organization may have made changes) make sure to view the audit logs. Setting the filter to license activities will show all modifications including the "actor" that performed them. 
 
-  To identify which users in your tenant contain the same proxy address, execute this Exchange Online cmdlet:
+6. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem,  including information on [how to connect to Exchange Online using remote PowerShell](https://technet.microsoft.com/library/jj984289.aspx). To identify which users in your tenant, contain the same proxy address, execute this Exchange Online cmdlet:
 ```
 Run Get-Recipient | where {$_.EmailAddresses -match <user principal name>} | fL Name, RecipientType,emailaddresses
 ```
-
-6. If you want to understand why a license was added/removed from a user (e.g. who else in your organization may have made changes) make sure to view the [audit logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Audit). Setting the filter to license activities will show all modifications including the "actor" that performed them.
