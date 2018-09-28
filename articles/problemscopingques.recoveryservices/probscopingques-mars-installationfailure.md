@@ -90,7 +90,7 @@
 												"text": "Ensure c:/windows/temp folder has less than 60,000 files"
 										}
 									],
-										"required": true			
+										"required": true
 					  }
 			]
 }
