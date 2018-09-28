@@ -13,11 +13,9 @@
 />
 
 ## **Introduction to Azure Cosmos DB Python SDK**
-
 Please refer to below documents for a complete reference for using Python with Azure Cosmos DB.
 
 ## **Recommended documents**
-
 * [Azure Cosmos DB Python examples](https://docs.microsoft.com/azure/cosmos-db/sql-api-python-samples)
 * [Azure Cosmos DB: Build a Flask app with the MongoDB API](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-flask)
 * [Azure Cosmos DB: Create a graph database using Python and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-graph-python)
