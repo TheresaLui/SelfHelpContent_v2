@@ -1,4 +1,4 @@
-## <properties
+<properties
 	pageTitle="Dependency visualization in Azure Migrate"
 	description="Issues and guidance regarding dependency visualization in Azure Migrate"
 	service="microsoft.migrate"
@@ -40,4 +40,6 @@ Typically, the dependencies start showing up after 15-20 minutes of installing t
 ### **What is the supported OS matrix for the Microsoft Monitoring Agent (MMA) and dependency agent?**
 Refer to the support matrix document [MMA agent] and [dependency agent](https://docs.microsoft.com/en-us/azure/monitoring/monitoring-service-map-configure#supported-windows-operating-systems) for details.
 
+### **Can I export the dependency visualization report?**
+No, the dependency visualization cannot be exported. However, since Azure Migrate uses Service Map for dependency visualization, you can use the [Service Map REST APIs](https://docs.microsoft.com/rest/api/servicemap/machines/listconnections) to get the dependencies in a json format.
 
