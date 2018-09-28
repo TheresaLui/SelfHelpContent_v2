@@ -30,20 +30,17 @@ Based on resources to be migrated to ARM use the corresponding service. For exam
 **Any issue in a VM migration using Azure Site Recovery**
 Use 'Site Recovery' Service.
 
-**Migrate an application to Azure as a PaaS service** 
+**Migrate an application to Azure as a PaaS service**
 Use corresponsing PaaS service. For example, if you are migrating an Active Directory, use 'Azure Active Directory' service.
 
 **Migrate resources from one subscription to other subscription**
 Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service
 
-**Migrate databases to Azure** 
+**Migrate databases to Azure**
 Use 'Database Migration Service' service.
  
-**Migrate Managed disks to Unmanaged disks or Unmanaged disks to Managed disks in Azure** 
+**Migrate Managed disks to Unmanaged disks or Unmanaged disks to Managed disks in Azure**
 Use 'Storage Account Management' service.
 
 **Migrate Managed disk to different subscription**
 Use 'Storage Account Management' service.
-
-
-
