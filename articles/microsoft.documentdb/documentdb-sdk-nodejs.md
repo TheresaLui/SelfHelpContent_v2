@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# **Introduction to Azure Cosmos DB Node.js SDK**
+# Introduction to Azure Cosmos DB Node.js SDK
 
 Please refer to below documents for a complete reference for using Node.js with Azure Cosmos DB.
 
