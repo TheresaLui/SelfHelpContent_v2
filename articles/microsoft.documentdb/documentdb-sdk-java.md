@@ -12,10 +12,7 @@
 	cloudEnvironments="public"
 />
 
-
-
 ## **Introduction to Azure Cosmos DB Java SDK**
-
 Please refer to below documents for a complete reference for using Java SDK with Azure Cosmos DB.
 
 ## **Recommended documents**
