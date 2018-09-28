@@ -21,7 +21,7 @@
 Please follow these steps to resolve the error:
 1. If you are not on the latest Collector version, upgrade the Collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector) and check if the issue is resolved.
 2. If you already have the latest Collector version, manually install [VMware PowerCLI 6.5](https://www.powershellgallery.com/packages/VMware.PowerCLI/6.5.2.6268016) and check if the issue is resoloved.
-3. If that does not work, remove VMware.Vim.dll and VimService65.dll dlls present in 'C:\Program Files\ProfilerService' folder and restrat the Azure Migrate Collector service.
+3. If that does not work, remove VMware.Vim.dll and VimService65.dll dlls present in 'C:\Program Files\ProfilerService' folder and restart the Azure Migrate Collector service.
 
 **Error UnableToConnectToServer**
 
