@@ -17,25 +17,25 @@ cloudEnvironments="public"/>
 
 You can use Azure Portal or C# console application to modify the scale setting following the example below.
 
-### Change scale setting using Azure Portal
+### Change the scale setting using Azure Portal
 
 1. Browse to Azure Portal 
-2. Suffix the Tag “?feature.enableSettingsBlade=true” at the end of the URL and hit enter
+2. Add “?feature.enableSettingsBlade=true” at the end of the URL and click enter
 3. Browse to the Azure Cosmos database account and choose scale blade
 4. Update the throughput value and save
 
 ### Change scale setting using C# console application
 
-* [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet) to change the scale setting.
+* [Change the scale setting using this sample code](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.documentclient.replaceofferasync?view=azure-dotnet)
 
 # I am getting an internal server error when using Azure Cosmos DB data explorer
 
+The data explorer uses the respective SDK i.e. SQL API or Mongo API to access the data from the Azure Cosmos DB.  Using a Azure Cosmos DB - SQL API SDK to perform CRUD operation against Mongo API account 
+would not generate any error.  However, this would make the data explorer to fail when reading the data due to mismatch in the data structure.
+
 ## **Recommended Steps**
 
-The data explorer uses the respective SDK i.e. SQL API or Mongo API to access the data from the Azure Cosmos DB.  Using a Azure Cosmos DB - SQL API SDK to perform CRUD operation against Mongo API account 
-would not generate any error.  However, this would make the data explorer to fail when reading the data due to structure mismatch.
-
-Please use the Azure Cosmos DB - Mongo API to perform CRUD operation against Azure Cosmos DB  - Mongo API account.
+Using Mongo SDK to perform CRUD operation against Azure Cosmos DB Mongo API account would help you to resolve this issue.
 
 
 ## **Recommended documents**
