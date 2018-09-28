@@ -30,8 +30,7 @@ You can use Azure Portal or C# console application to modify the scale setting f
 
 # I am getting an internal server error when using Azure Cosmos DB data explorer
 
-The data explorer uses the respective SDK i.e. SQL API or Mongo API to access the data from the Azure Cosmos DB.  Using a Azure Cosmos DB - SQL API SDK to perform CRUD operation against Mongo API account 
-would not generate any error.  However, this would make the data explorer to fail when reading the data due to mismatch in the data structure.
+The data explorer uses the native SDK based on the Cosmos DB Account API type to access the data from the Azure Cosmos DB. Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against Mongo API account would not generate any error. However, this would make the data explorer produce the internal server error when reading the data due to a mismatch in the data formats.
 
 ## **Recommended Steps**
 
