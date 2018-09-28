@@ -16,7 +16,7 @@
 ## **Recommended Steps**
 
 ### **Using the Azure Cosmos DB connection string**
-When using the .NET SDK, you can find the connection string in the Azure Cosmos DB account Overview blade, under the URI property. The .NET SDK URI (https://[YOUR-ACCOUNT].documents.azure.com:443/) is used to connect using the Microsoft.Azure.Graphs library. The same blade also shows the Gremlin Endpoint (https://[YOUR-ACCOUNT].gremlin.cosmosdb.azure.com:443/) which is used to connect using the Gremlin.Net library.
+When using the .NET SDK, you can find the connection string in the Azure Cosmos DB account Overview blade, under the URI property. The .NET SDK URI (ends with "documents.azure.com:443") is used to connect using the Microsoft.Azure.Graphs library. The same blade also shows the Gremlin Endpoint (ends with "gremlin.cosmosdb.azure.com:443") which is used to connect using the Gremlin.Net library.
 
 For Java, Python, Node.js SDKs - use the Keys page to retrieve the endpoint and the connection string for your Gremlin endpoint.
 
