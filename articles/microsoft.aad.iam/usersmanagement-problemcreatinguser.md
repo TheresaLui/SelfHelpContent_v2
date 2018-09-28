@@ -7,6 +7,7 @@
     productPesIds="14785,16578,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="9622567f-5c02-46c3-81f0-d3275b513214"
     />
 
 # Problem creating a user

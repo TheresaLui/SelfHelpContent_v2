@@ -7,6 +7,7 @@
     productPesIds="14785,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="32aa0b19-fee7-4350-af1c-9dffba151bd6"
     />
 
 # Active Directory application dev development issue

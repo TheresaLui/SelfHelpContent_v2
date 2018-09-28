@@ -7,6 +7,7 @@
     productPesIds="14785,16578,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="7a7a3d35-6f8b-4f79-8b95-ef0c1f5709e4"
     />
 
 # Problem with graph API generic

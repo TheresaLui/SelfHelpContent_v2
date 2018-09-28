@@ -7,6 +7,7 @@
     productPesIds="14785,16578,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="3ef55133-23fb-428a-93c3-a29aa9a53154"
     />
 
 # Problem with administrator initiated password reset

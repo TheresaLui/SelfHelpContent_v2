@@ -7,6 +7,7 @@
     productPesIds="14785,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="c7c6531f-d630-40d7-8340-4274ddc404f7"
     />
 
 # Active Directory application provisioning issue

@@ -7,6 +7,7 @@
     productPesIds="14785,16578,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="9591fe2f-c0a6-46fb-a394-2fe12162d648"
     />
 
 # Problem deleting a user

@@ -7,6 +7,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="7bdfd9ca-1211-4c53-a115-02bc4d049b77"
     />
 
 # Problem with Domains Name verify domain name

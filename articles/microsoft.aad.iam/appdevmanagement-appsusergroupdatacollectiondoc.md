@@ -6,6 +6,7 @@
 	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="8c3526fd-c247-4c2e-937e-c925ba5b797d"
 /> 
 # Active Directory application user group issue 
 ---

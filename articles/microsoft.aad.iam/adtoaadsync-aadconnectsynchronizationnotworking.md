@@ -7,6 +7,7 @@
     productPesIds="14785,16578"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="1081c592-989c-4a7f-bf06-7438278335e7"
     />
 
 # AAD Connect synchronization not working

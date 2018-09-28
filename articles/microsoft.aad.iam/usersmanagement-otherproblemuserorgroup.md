@@ -7,6 +7,7 @@
     productPesIds="14785,16578,16575"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="3e0776b4-a7da-4b66-8018-2eee9634af9b"
     />
 
 # Other problem with user or group
