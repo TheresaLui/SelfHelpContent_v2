@@ -1,5 +1,5 @@
-<properties pageTitle="Problem with grpah API documentation" 
-	 description="graphdocumentationissue" 
+<properties pageTitle="Problem with Graph API documentation" 
+	 description="Problem with Graph API documentation" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32134058" 
@@ -7,7 +7,7 @@
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
 /> 
-# Problem with grpah API documentation 
+# Problem with Graph API documentation 
 ---
 {
   "resourceRequired": true,
