@@ -20,7 +20,6 @@
 2. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
 3. Learn more about how to Assign or remove Azure Active Directory licenses [here](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups?).
 4. Learn more about what Azure Active Directory features are available for different Azure Active Directory editions [here](https://azure.microsoft.com/pricing/details/active-directory/)
- 
 
 ## **Recommended steps**
 
