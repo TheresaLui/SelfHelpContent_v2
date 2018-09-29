@@ -8,7 +8,7 @@
     supportTopicIds="32570959"
     selfHelpType="generic"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="16578"
     cloudEnvironments="public"
  />
 
@@ -31,7 +31,8 @@
 
 5. If you want to understand why a license was added/removed from a user (e.g. who else in your organization may have made changes) make sure to view the audit logs. Setting the filter to license activities will show all modifications including the "actor" that performed them. 
 
-6. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem,  including information on [how to connect to Exchange Online using remote PowerShell](https://technet.microsoft.com/library/jj984289.aspx). To identify which users in your tenant, contain the same proxy address, execute this Exchange Online cmdlet:
+6. If you are using Exchange Online, some users in your tenant may be incorrectly configured with the same proxy address value. In such cases you may see generic error messages when license operation fails. [This article](https://support.microsoft.com/help/3042584/-proxy-address-address-is-already-being-used-error-message-in-exchange-online) contains more information about this problem,  including information on [how to connect to Exchange Online using remote PowerShell](https://technet.microsoft.com/library/jj984289.aspx). 
+To identify which users in your tenant, contain the same proxy address, execute this Exchange Online cmdlet:
 ```
 Run Get-Recipient | where {$_.EmailAddresses -match <user principal name>} | fL Name, RecipientType,emailaddresses
 ```
