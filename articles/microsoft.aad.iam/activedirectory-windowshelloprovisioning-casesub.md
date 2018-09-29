@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authors="curtand"
     displayOrder="1770"
-    supportTopicIds="32596873,32615436"
+    supportTopicIds="32615436"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
