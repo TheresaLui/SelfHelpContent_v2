@@ -21,6 +21,7 @@
 
 
 ## **Recommended steps**
+
 1. Azure Active Directory (Azure AD) comes in four editions: Free, Basic, Premium P1, and Premium P2. Details of the features included in each Azure AD edition can be found on the [Azure Active Directory pricing](https://azure.microsoft.com/pricing/details/active-directory/) page.
 2. There are several different features that make up self-service password reset, including change, reset, unlock, and writeback, that are available in the different editions of Azure Active Directory. To learn more, see [Licensing requirements for Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-licensing?).
 3. To learn how to get Azure Multi-Factor Authentication see [here](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-licensing).

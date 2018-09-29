@@ -21,6 +21,7 @@
 
 
 ## **Recommended steps**
+
 1. For specific information about each Azure Active Directory product edition and how to purchase/upgrade see [Azure Active Directory pricing](https://azure.microsoft.com/pricing/details/active-directory/) page.
 2. To purchase licenses from Azure portal, click “Try/Buy” from “All products” blade in Licenses blade under Azure Active Directory in Azure portal.
 3. To associate or add an Azure subscription to Azure Active Directory see [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).

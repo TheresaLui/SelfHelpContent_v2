@@ -26,6 +26,7 @@
  
 
 ## **Recommended steps**
+
 1. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the **Profile** tab on the user blade.
 2. In some cases, license operations may fail because of existing licenses assigned to the user. When investigating a problem with a user, open the user's blade in the Azure portal and select the **Licenses** tab; it contains complete information about the user's state, showing all currently assigned licenses, including the ones inherited from groups.
 3. If you are using [group-based licensing](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal) in your tenant, note that it is [not possible to remove or modify inherited licenses](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-advanced#direct-licenses-coexist-with-group-licenses) directly from a user. If you are getting an error when removing a license or disabling service plans on a license, view the user's **Licenses** tab to check if there is no inherited license on the user.
