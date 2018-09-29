@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Azure Multi-Factor Authentication is available as a stand-alone service with per-user and per-authentication billing options, or bundled with [Azure Active Directory Premium](https://azure.microsoft.com/pricing/details/active-directory/), [Enterprise Mobility Suite](https://azure.microsoft.com/pricing/details/active-directory/), and [Enterprise Cloud Suite](https://www.microsoft.com/Licensing/licensing-programs/enterprise.aspx).
+Azure Multi-Factor Authentication is available as a stand-alone service with per-user and per-authentication billing options, or bundled with [Azure Active Directory Premium](https://azure.microsoft.com/pricing/details/active-directory/), [Enterprise Mobility Suite](https://azure.microsoft.com/pricing/details/active-directory/), and [Enterprise Cloud Suite](https://www.microsoft.com/en-us/Licensing/licensing-programs/enterprise.aspx).
 
 ## **Recommended documents**
 
