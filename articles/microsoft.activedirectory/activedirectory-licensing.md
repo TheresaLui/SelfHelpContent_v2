@@ -24,7 +24,5 @@
 
 ## **Recommended steps**
 1. Is your problem related to per-user subscriptions (e.g. Office 365, Enterprise Mobility + Security, Dynamics 365, etc.) or an Azure resource subscription (e.g. virtual machines, storage accounts)? For Azure resource subscription problems, make sure to open the support ticket under "Subscription problems".
-
 2. If you are using dynamic groups to manage your user’s membership, verify that the user is part of the group, which is necessary for license assignment. If not, [check processing status for the membership rule](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule#check-processing-status-for-a-membership-rule) of the dynamic group. If there is processing problem, make sure to open the support ticket under Group Management.
-
 3. Before a license can be assigned to a user, the Usage Location property must be set for the user. Verify the user has that property set by viewing the Profile tab on the user blade.
