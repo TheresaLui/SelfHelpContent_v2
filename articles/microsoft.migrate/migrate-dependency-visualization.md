@@ -20,7 +20,7 @@
 When you configure your OMS workspace first time for a Azure Migrate project, you can either create new or use existing OMS workspace. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies#associate-a-log-analytics-workspace) about how to configure OMS workspace.
 
 ### **Can I change existing project to use a different OMS workspace?**
-No, you cann't change the OMS workspace once it is configured.
+No, you cannot change the OMS workspace once it is configured.
 
 ### **How can I automate installation of Microsoft Monitoring Agent (MMA) and dependency agent?**
 You can use [script for dependency](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#installation-script-examples) and [script for MMA](https://gallery.technet.microsoft.com/scriptcenter/Install-OMS-Agent-with-2c9c99ab). In addition to scripts, you can also leverage deployment tools like System Center Configuration Manager (SCCM), [Intigua](https://www.intigua.com/getting-started-intigua-for-azure-migration) etc., to deploy the agents.
