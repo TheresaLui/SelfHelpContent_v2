@@ -21,7 +21,7 @@
 			"displayLabel": "File Sync resource",
 			"watermarkText": "Choose a File Sync",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
+					"uri": "/subscriptions/{subscriptionid}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",

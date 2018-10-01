@@ -3,10 +3,11 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32565595" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-/> 
+    articleId="a1fcf8f5-2de0-4b84-8280-3e56722dd303"
+    /> 
 # Problem with Deleting Azure AD 
 ---
 {
