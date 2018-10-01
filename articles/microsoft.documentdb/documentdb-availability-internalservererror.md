@@ -11,13 +11,13 @@ resourceTags=""
 productPesIds="15585"
 cloudEnvironments="public"/>
 
-# Why getting internal server error
+# Getting internal server error
 
 ## I am getting an internal server error when changing the scale setting in Azure Portal
 
 ## **Recommended Steps**
 
-You can use the Azure Portal or C# console application to modify the scale setting following the example below.
+You can use the Azure Portal or C# console application to modify the scale setting using following the steps.
 
 ### Change the scale setting using Azure Portal
 
@@ -32,11 +32,11 @@ You can use the Azure Portal or C# console application to modify the scale setti
 
 ## I am getting an internal server error when using Azure Cosmos DB data explorer
 
-The data explorer uses the native SDK based on the Cosmos DB Account API type to access the data from the Azure Cosmos DB. Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against Mongo API account would not generate any error. However, this would make the data explorer produce the internal server error when reading the data due to a mismatch in the data formats.
+The data explorer uses the SDK that corresponds to each Azure Cosmos DB API account to access the data from the Azure Cosmos DB. Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against MongoDB API account would not generate any error. However, this would make the data explorer produce the internal server error when reading the data due to a mismatch in the data formats.
 
 ## **Recommended Steps**
 
-Using Mongo SDK to perform CRUD operation against Azure Cosmos DB Mongo API account would help you to resolve this issue.
+Using MongoDB SDK to perform CRUD operations against Azure Cosmos DB MongoDB API account would help you to resolve this issue.
 
 
 ## **Recommended documents**
