@@ -3,7 +3,7 @@
   description="Problems registering my application"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
-  authors="dadobali"
+  authors="danieldobalian"
   selfHelpType="generic"
   supportTopicIds="32596861"
   productPesIds="14785"
