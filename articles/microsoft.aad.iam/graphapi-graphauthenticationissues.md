@@ -1,13 +1,17 @@
-<properties pageTitle="Problem with grpah API authentication" 
-	 description="graphauthenticationissues" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32134055" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with grpah API authentication 
+<properties
+    pageTitle="Problem with grpah API authentication"
+    description="graphauthenticationissues"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32134055"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleID="9f90a783-6756-40a9-8231-b754e048c31f"
+    />
+
+# Problem with grpah API authentication
+
 ---
 {
   "resourceRequired": false,

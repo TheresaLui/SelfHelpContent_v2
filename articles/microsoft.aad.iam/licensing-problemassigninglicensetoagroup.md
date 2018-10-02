@@ -1,14 +1,19 @@
-<properties pageTitle="Problem assigning licenses to a group" 
-	 description="problemassigninglicensetoagroup" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570958" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem assigning licenses to a group 
+<properties
+    pageTitle="Problem assigning licenses to a group"
+    description="problemassigninglicensetoagroup"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570958"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="23c1cf4d-6fdd-475b-ba06-87595b53195b"
+    />
+
+# Problem assigning licenses to a group
+
 ---
+
 {
   "resourceRequired": false,
   "title": "Problem assigning licenses to a group",
