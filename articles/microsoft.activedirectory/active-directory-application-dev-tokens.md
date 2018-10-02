@@ -14,6 +14,8 @@
 
 ## **Recommended steps**
 
+Want an answer now? [Check Stackoverflow for issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory) or post a [question on StackOverflow with tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+
 **I don't know how to request and use tokens**
 
 The following documents can help you to resolve some of the most common issues in this category.
