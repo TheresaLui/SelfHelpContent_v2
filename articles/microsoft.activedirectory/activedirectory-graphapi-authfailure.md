@@ -1,66 +1,51 @@
 <properties
-    pageTitle="Microsoft Graph authorization failures"
-    description="Microsoft Graph authorization failures"
-    service="microsoft.aad"
-    resource="Microsoft_AAD_IAM"
-    authors="PatAltimore"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32134056"
-    resourceTags=""
-    productPesIds="14785,16575"
-    cloudEnvironments="public"
-    />
+	pageTitle="Troubleshooting 401 and 403 authorization errors"
+	description="How to resolve Microsoft Graph 401 and 403 authorization errors"
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
+	authors="DanKershaw"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32134056"
+	resourceTags=""
+	productPesIds="14785"
+	cloudEnvironments="public"
+/>
 
-# Microsoft Graph authorization failures
+# Troubleshooting 401 and 403 authorization failures
+
+Authorization failures can be a result of several different issues, and generally your app will receive either a 401 or 403 error. Incorrect [access token acquisition flows](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios), poorly configured [permission scopes](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes), and lack of [consent](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent), can all lead to authorization errors.
 
 ## **Recommended steps**
-Authorization failures can be a result of several different issues. Your app's [authentication flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios), configured [scopes](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes), and [consent](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent) can influence authorization failures. This article highlights common authorization failures.
 
-### Understanding user and administrator consent for your apps
+To resolve common authorization error, try one of the following steps that most closely matches your error and scenario.  More than one may apply.
 
-[How to sign in any Azure Active Directory (AD) user using the multi-tenant application pattern](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent)<br>
-[Scopes, permissions, and consent in the Azure Active Directory v2.0 endpoint](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-scopes)<br>
-[Deciding between the Azure AD and Azure AD v2.0 endpoints](https://developer.microsoft.com/graph/docs/authorization/auth_overview#deciding-between-the-azure-ad-and-azure-ad-v20-endpoints)
+1. `401 unauthorized error`: **Has consent been granted**? <br>
+   Make sure that your application has been granted permission to access Microsoft Graph resources.  This either happens through a user or admin granting consent through a consent page or by granting permissions using the Azure Portal application registration blade. From the **Settings** blade for the application, click **Required Permissions** and click on the **Grant Permissions** button. <br>
+   [Understanding Azure AD permissions and consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) <br>
+2. `401 unauthorized error`: **Have you chosen the right set of permissions?**
+   <br> Check that you have requested the correct set of permissions based on the Microsoft Graph APIs your app calls. Recommended least privileged permissions are provided in all the Microsoft Graph reference method topics. <br>
+   [Microsoft Graph permissions](https://developer.microsoft.com/graph/docs/authorization/permission_scopes) <br>
+   [An example method topic - list users](https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/api/user_list) <br>
+3. `401 unauthorized error`: **Did your app acquire a token to match chosen permissions?** <br>
+   Make sure that the type of permissions requested or granted matches the type of access token that your app acquires. You might be requesting and granting application permissions, but acquiring delegated interactive code flow tokens, instead of client credential flow tokens.  Or you might be requesting and granting delegated permissions, but acquiring client credential flow tokens, instead of delegated code flow tokens. <br>
+[Get access on behalf of users - and delegated permissions](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_user)<br>
+[Get access without a user (daemon service) - and application permissions](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_service)
+1. `401 unauthorized error`: **Resetting password or adding a user to a directory role**? <br>
+   Currently there are no application permission daemon service-to-service permissions that allow resetting user passwords or directory role membership changes (or other highly privileged operations today). These APIs are only supported using the interactive delegated code flows with a signed-in administrator. <br>
+[Microsoft Graph permissions](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
+1. `403 Forbidden`: **Does the user have access?**<br>
+   For delegated interactive code flows, Microsoft Graph evaluates if the request is allowed based on the permissions granted to the app and the permissions that the signed-in user has. Generally this error indicates that the user is not privileged enough to perform the request **or** the user is not licensed for the data being accessed. Only users with the required permissions or licensed will be able to make the request successfully.
+2. `400 Bad Request` or `403 Forbidden`: **Does the user comply with their organization's conditional access (CA) policies?**<br>
+   Based on an organization's CA policies, a user accessing Microsoft Graph resources via your app may need to be challenged for additional information that is not present in the access token your app originally acquired. In this case your app will recieve a 400 with an `interaction_required` error or a 403 with `insufficient_claims` error, and additional information that can be presented to the authorize endpoint to challenge the user for additional information (like multi-factor authentication).<br>
+   [Developer guidance for Azure Active Directory conditional access](https://docs.microsoft.com/en-us/azure/active-directory/develop/conditional-access-dev-guide)
 
-### How do my apps get access to customer data using consent? What is a multi-tenant app?
+## **Recommended documents**
 
-[How to sign in any Azure Active Directory (AD) user using the multi-tenant application pattern](https://docs.microsoft.com/azure/active-directory/develop/active-directory-devhowto-multi-tenant-overview#understanding-user-and-admin-consent)
-
-### Choosing required permissions for your app
-
-[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
-
-### I get a 403 forbidden, but I selected all permissions
-
-For delegated interactive code flows, Microsoft Graph evaluates if the request is allowed based on the permissions granted to the app and the permissions that the user has. A 403 forbidden error indicates that the user is not privileged enough to perform the request. Only users with the required permissions will be able to make the request successfully.
-
-[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
-
-### What do I do when I get a 401 unauthorized error, even though I selected all the permissions?
-
-* If you grant application permissions but use the delegated interactive code flow to acquire a token, you may receive an unauthorized error. If you are granting application permissions to your app, use client credentials daemon service-to-service flow to acquire token.<br>
-[Azure Active Directory v2.0 and the OAuth 2.0 client credentials flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)<br>
-* If you grant delegated permissions but use the client credentials daemon service-to-service flow to acquire a token, you may receive an unauthorized error. If you are granting delegated permissions to your app, use delegated interactive code flow to acquire token.<br>
-[Using OAuth 2.0 Authorization Code Grant for delegated access of Directory via AAD Graph](https://blogs.msdn.microsoft.com/aadgraphteam/2013/05/16/using-oauth-2-0-authorization-code-grant-for-delegated-access-of-directory-via-aad-graph/)
-
-[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
-
-### I configured the app in my tenant with the permissions it needs, but I still get a 401 unauthorized error when trying to use it
-
-1. On your web client application’s configuration page in the Azure portal, set the permissions your application requires by using the menus in the **Required Permissions** section.<br>
-2. When the app authenticates to Azure AD if consent has not already been granted, Azure AD will prompt the user for consent and will display the required permissions it needs to function.
-3. Administrators can consent to an application's delegated permissions on behalf of all the users in the tenant. An administrator can do this from the Azure portal. From the **Settings** blade for the application, click **Required Permissions** and click on the **Grant Permissions** button.
-
-[Overview of the consent framework](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#overview-of-the-consent-framework)<br>
-[Integrating applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
-
-### I tried to delete users or reset passwords but I get a 401 unauthorized
-
-The application is using daemon service-to-service permissions that do not support these highly privileged operations today.  Please use the interactive code flows with a signed-in administrator.
-
-[Microsoft Graph permission scopes](https://developer.microsoft.com/graph/docs/authorization/permission_scopes)<br>
-[Azure AD Graph permission scopes](https://msdn.microsoft.com/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes)
+[Azure Active Directory permissions and consent](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) <br>
+[Understanding the Azure AD application consent experiences](https://docs.microsoft.com/en-us/azure/active-directory/application-consent-experience) <br>
+[Get access on behalf of users](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_user) <br>
+[Azure AD v2.0 - OAuth 2.0 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) <br>
+[Get access without a user](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_service) <br>
+[Azure AD v2.0 - OAuth 2.0 client credentials flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow) <br>
+[Microsoft Graph permissions](https://developer.microsoft.com/graph/docs/authorization/permission_scopes) <br>
