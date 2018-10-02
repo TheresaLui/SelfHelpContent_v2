@@ -3,9 +3,10 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570965" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16576" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="c6907ac8-9424-45b2-9a8e-5432c51fe44c"
 /> 
 # Problem with AAD Domain services user sign in 
 ---

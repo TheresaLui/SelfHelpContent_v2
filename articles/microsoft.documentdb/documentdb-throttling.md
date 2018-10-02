@@ -1,6 +1,6 @@
 <properties
-	pageTitle="CosmosDB throttling"
-	description="CosmosDB throttling"
+	pageTitle="Azure Cosmos DB throttling"
+	description="Azure Cosmos DB throttling"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
@@ -15,11 +15,13 @@
 # Rate limiting in Azure Cosmos DB
 
 Common reasons for rate limiting are:
+
 * Insufficient RUs. 
 * Skew within certain partitions or for specific time duration.
 * Operations like scans or inserts of very large documents which are inefficient. 
 
-Use the below documents to estimate your throughput needs and handle rate limiting effectively:
+Use the documents below to estimate your throughput needs and handle rate limiting effectively:
+
 
 ## **Recommended documents**
 * [Estimating throughput needs](https://docs.microsoft.com/azure/cosmos-db/request-units#estimating-throughput-needs)

@@ -21,6 +21,7 @@
 
 ## **Recommended documents**
 
+
 ### Set up and manage device registrations
 
 * [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)<br>
