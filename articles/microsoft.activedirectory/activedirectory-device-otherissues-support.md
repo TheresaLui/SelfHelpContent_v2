@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32596857"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
 />
 
@@ -25,9 +25,9 @@
 
 ### Setup and manage device registrations ###
 
-* [Set up Azure AD registered Windows 10 devices](https://aka.ms/support-devicemanagement-setup-azuread-registered) 
+* [Set up Azure AD registered Windows 10 devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
-* [Set up Azure AD joined devices](https://aka.ms/support-devicemanagement-setup-azureadjoin)
+* [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan)
 
 * [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://aka.ms/support-devicemanagement-setup-hybridazureadjoin)
 

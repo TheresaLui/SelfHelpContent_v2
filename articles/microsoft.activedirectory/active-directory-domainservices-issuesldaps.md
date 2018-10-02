@@ -6,7 +6,7 @@
 	authors="arluca"
 	selfHelpType="generic"
 	supportTopicIds="32570967"
-	productPesIds="14785"
+	productPesIds="14785,16576"
 	cloudEnvironments="public"
 />
 
