@@ -20,7 +20,7 @@ The following documents can help you to resolve some of the most common issues i
 
 **I'm having issues coding my app and getting started**
   * [I don’t know how authentication works in Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-scenarios)
-  * [I'm having problems setting up a dev environment](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant)
+  * [I'm having problems setting up a dev environment](https://docs.microsoft.com/azure/active-directory/develop/quickstart-create-new-tenant)
   * [I don’t know how to make my application multi-tenant](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant)
 
 **I don't know how to register or manage my application**
@@ -30,10 +30,10 @@ The following documents can help you to resolve some of the most common issues i
   * [I don’t know how to remove my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#removing-an-application)
 
 **I'm encountering errors in my app**
-  * [I'm getting an Auth error from Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes)
+  * [I'm getting an Auth error from Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
   * [I'm getting exceptions with ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Exceptions-in-ADAL.NET)
 
 
 ## **Recommended documents**
-* [Azure AD Developer Basics](https://docs.microsoft.com/en-us/azure/active-directory/develop/)  
-* [What's the difference between v1.0 and v2.0?](https://docs.microsoft.com/en-us/azure/active-directory/develop/about-microsoft-identity-platform)  
+* [Azure AD Developer Basics](https://docs.microsoft.com/azure/active-directory/develop/)  
+* [What's the difference between v1.0 and v2.0?](https://docs.microsoft.com/azure/active-directory/develop/about-microsoft-identity-platform)  
