@@ -4,9 +4,9 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
-	displayOrder="65"
+	displayOrder="401"
 	selfHelpType="resource"
-	supportTopicIds="32597513"
+	supportTopicIds="32615110"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"/>
