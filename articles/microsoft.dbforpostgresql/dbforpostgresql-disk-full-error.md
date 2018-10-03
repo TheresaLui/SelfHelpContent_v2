@@ -17,7 +17,7 @@
 # Orcas Postgres Server marked readonly As Server Storage Is Full
 
 <!--issueDescription-->
-During our investigation we determined that the database server was marked as read only. When a server is marked as read only all transactions that makes an attempt to write (Insert/Update/Delete) to the server is expected to fail.
+During our investigation we determined that the database server was marked as read only. When a server is marked as read only all transactions that makes an attempt to write (Insert/Update/Delete) to the server are expected to fail.
 
 <!--/issueDescription-->
 
