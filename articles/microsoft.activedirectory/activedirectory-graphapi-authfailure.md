@@ -27,13 +27,12 @@ Make sure that your application has been granted permission to access Microsoft 
 
 **`401 unauthorized error`: Have you chosen the right set of permissions?**<br>
 
-Check that you have requested the correct set of permissions based on the Microsoft Graph APIs your app calls. Recommended least privileged permissions are provided in all the Microsoft Graph reference method topics. <br>
+Check that you have requested the correct set of permissions based on the Microsoft Graph APIs your app calls. Recommended least privileged permissions are provided in all the Microsoft Graph API reference method topics. <br>
 [Microsoft Graph permissions](https://developer.microsoft.com/graph/docs/authorization/permission_scopes) <br>
-[An example method topic - list users](https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/api/user_list) <br>
 
 **`401 unauthorized error`: Did your app acquire a token to match chosen permissions?** <br>
 
-Make sure that the type of permissions requested or granted matches the type of access token that your app acquires. You might be requesting and granting application permissions, but acquiring delegated interactive code flow tokens, instead of client credential flow tokens.  Or you might be requesting and granting delegated permissions, but acquiring client credential flow tokens, instead of delegated code flow tokens. <br>
+Make sure that the type of permissions requested or granted matches the type of access token that your app acquires. You might be requesting and granting application permissions, but using delegated interactive code flow tokens, instead of client credential flow tokens.  Or you might be requesting and granting delegated permissions, but using client credential flow tokens, instead of delegated code flow tokens. <br>
 [Get access on behalf of users - and delegated permissions](https://developer.microsoft.com/graph/docs/concepts/auth_v2_user) <br>
 [Azure AD v2.0 - OAuth 2.0 authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow) <br>
 [Get access without a user (daemon service) - and application permissions](https://developer.microsoft.com/graph/docs/concepts/auth_v2_service) <br>
