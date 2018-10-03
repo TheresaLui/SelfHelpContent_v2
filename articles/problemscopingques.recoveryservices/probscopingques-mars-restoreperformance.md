@@ -51,7 +51,7 @@
 												"text": "Volume"
 											  }
 											],
-											 "required": false
+											 "required": true
 					},{
 							"id": "job_time",
 							"order": 4,
