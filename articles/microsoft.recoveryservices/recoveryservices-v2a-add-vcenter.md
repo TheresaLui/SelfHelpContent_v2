@@ -14,7 +14,7 @@
 
 # Site Recovery (VMware to Azure)/Add vCenter
 
-## **Recommended Steps**
+## **Recommended steps**
 
 - [How do I manage VMware vCenter server in Azure site recovery?](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter)<br>
 - [How to prepare an account for automatic discovery?](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#set-up-an-account-for-automatic-discovery)<br>

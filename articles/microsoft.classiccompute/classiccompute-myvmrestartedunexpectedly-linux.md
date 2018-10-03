@@ -1,0 +1,37 @@
+<properties
+	pageTitle="My VM restarted unexpectedly"
+	description="My VM restarted unexpectedly "
+	service="microsoft.classiccompute"
+	resource="virtualmachines"
+	authors="ScottAzure"
+	displayOrder="8"
+	selfHelpType="resource"
+	supportTopicIds="32411816,32593740,32602160"
+	resourceTags="linux,redhat,suse,ubuntu,linuxsql"
+	productPesIds="15571,16342,15797,16454,16470"
+	cloudEnvironments="public"
+/>
+
+# My VM restarted unexpectedly
+
+## **Recommended steps**
+
+The common reasons for a VM restarting are:
+
+* Azure caused (planned or unplanned maintenance or outage) or issues with the operating system or application.
+
+The following are steps to find out the reason for a restart in the past and to mitigate for future occurrences:
+
+1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) for the time period of the restart to determine the reason.<br>
+2. [Understand, manage, anand use 'Availability Sets' to reduce the impact of downtime events](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/)<br>
+
+## **Recommended documents**
+
+* [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
+* [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
+* [Manage the availability of Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/Linux/manage-availability)<br>
+* [Configure availability sets for Linux virtual machines using Resource Manager deployments](https://docs.microsoft.com/azure/virtual-machines/azure-cli-arm-commands#azure-availset-commands-to-manage-your-availability-sets)<br>
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
+* [Understand planned maintenance and how it is communicated for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)<br>
+* [Service Healing - Auto-recovery of virtual machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)<br>
+* [Use Azure redeploy functionality to transfer virtual machines to a new host](https://azure.microsoft.com/updates/use-azure-redeploy-functionality-to-transfer-virtual-machines-to-a-new-host/)
