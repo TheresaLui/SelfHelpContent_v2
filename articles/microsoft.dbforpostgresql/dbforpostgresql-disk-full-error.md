@@ -17,7 +17,9 @@
 # Orcas Postgres Server marked readonly As Server Storage Is Full
 
 <!--issueDescription-->
-During our investigation we determined that the database server was marked as read only. All transactions that makes an attempt to write (Insert/Update/Delete) to the server is expected to fail.
+During our investigation we determined that the database server was marked as read only. When a server is marked as read only all transactions that makes an attempt to write (Insert/Update/Delete) to the server is expected to fail.
+
+<!--/issueDescription-->
 
 While the service attempts to make the server read-only, all new write transaction requests are blocked and existing active transactions will continue to execute. When the server is set to read-only, all subsequent write operations and transaction commits fail. Read queries will continue to work uninterrupted. After you increase the provisioned storage, the server will be ready to accept write transactions again.
 
@@ -27,8 +29,6 @@ a) If you have provisioned 100 GB of storage, and the actual utilization goes ov
 
 b) Alternatively, if you have provisioned 5 GB of storage, the server is marked read-only when the free storage reaches less than 250 MB.
 
-
-<!--/issueDescription-->
 
 ## **Recommended steps**
 1. To fix this issue please increase the storage size using the portal as described in [Reaching storage limit](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers).
