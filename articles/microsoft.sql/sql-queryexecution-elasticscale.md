@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-[Elastic query overview](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-overview/)<br>
-[Query vertically partitioned data](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-getting-started-vertical/)<br>
-[Report across scaled-out data tier](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-horizontal-partitioning/)<br>
-[Query across tables with different schemas](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-query-vertical-partitioning/)
+[Elastic query overview](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-overview/)<br>
+[Query vertically partitioned data](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-getting-started-vertical/)<br>
+[Report across scaled-out data tier](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-horizontal-partitioning/)<br>
+[Query across tables with different schemas](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-vertical-partitioning/)

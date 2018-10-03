@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[PowerShell samples](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-powershell-samples/)
+[PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples/)

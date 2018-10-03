@@ -15,5 +15,5 @@
 
 ## **Recommended documents**
 
-[Query editor considerations](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-portal#query-editor-considerations/)<br>
-[Intelligent query processing in Azure SQL Database](https://docs.microsoft.com/en-us/sql/relational-databases/performance/intelligent-query-processing?toc=%2Fazure%2Fsql-database%2Ftoc.json&view=sql-server-2017/)
+[Query editor considerations](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-portal#query-editor-considerations/)<br>
+[Intelligent query processing in Azure SQL Database](https://docs.microsoft.com/sql/relational-databases/performance/intelligent-query-processing?toc=%2Fazure%2Fsql-database%2Ftoc.json&view=sql-server-2017/)

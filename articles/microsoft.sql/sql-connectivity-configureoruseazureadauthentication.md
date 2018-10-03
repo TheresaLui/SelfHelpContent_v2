@@ -15,10 +15,10 @@
 
 ## **Recommended steps**
 
-1. [Configure Azure Active Directory authentication](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-aad-authentication-configure/)
+1. [Configure Azure Active Directory authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure/)
 
 ## **Recommended documents**
 
-[Azure Active Directory authentication libraries](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries/)<br>
-[Connectivity architecture](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-architecture/)<br>
-[Methods available for authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/overview-authentication/)
+[Azure Active Directory authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries/)<br>
+[Connectivity architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture/)<br>
+[Methods available for authentication](https://docs.microsoft.com/azure/active-directory/authentication/overview-authentication/)
