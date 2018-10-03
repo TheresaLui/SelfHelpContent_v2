@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. If you got an error similar to NoRegisteredProviderFound or MissingSubscriptionRegistration, the issue might be due to the IoT Hub resource provider (Microsoft.Devices) not being registered to your subscription. [Register the **Microsoft.Devices** resource provider](data-blade:Hubs.RPStatusBlade.subscriptionId.$subscriptionId) then try again. <br>
+1. If you got an error similar to NoRegisteredProviderFound or MissingSubscriptionRegistration, the issue might be due to the IoT Hub resource provider (Microsoft.Devices) not being registered to your subscription. [Register the **Microsoft.Devices** resource provider](data-blade:HubsExtension.RPStatusBlade.subscriptionId.$subscriptionId) then try again. <br>
 [Resolve errors for resource provider registration](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
 
 1. If it is already registered and still you cannot create an Iot hub, see if you can create it via Azure CLI or PowerShell. <br>
