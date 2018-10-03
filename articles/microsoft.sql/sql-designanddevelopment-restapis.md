@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[REST operation groups](https://docs.microsoft.com/en-us/rest/api/sql/)
+[REST operation groups](https://docs.microsoft.com/rest/api/sql/)
