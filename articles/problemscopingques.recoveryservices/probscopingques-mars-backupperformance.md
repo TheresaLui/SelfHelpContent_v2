@@ -12,7 +12,7 @@
 # Questions MARS backup performance
 ---
 {
-         "resourceRequired": true,
+         "resourceRequired": false,
          "title": "MARS backup performance",
          "fileAttachmentHint": "",
          "formElements": [{
