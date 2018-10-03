@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[Auditing - servers, pools, and databases](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing/)
+[Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)

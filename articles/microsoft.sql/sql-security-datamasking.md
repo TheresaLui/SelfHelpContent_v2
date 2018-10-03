@@ -15,8 +15,8 @@
 
 ## **Recommended steps**
 
-1. [Configure Azure SQL Database dynamic masking in the Azure portal](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dynamic-data-masking-get-started-portal/)
+1. [Configure Azure SQL Database dynamic masking in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started-portal/)
 
 ## **Recommended documents**
 
-[Dynamic data masking](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dynamic-data-masking-get-started/)
+[Dynamic data masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started/)
