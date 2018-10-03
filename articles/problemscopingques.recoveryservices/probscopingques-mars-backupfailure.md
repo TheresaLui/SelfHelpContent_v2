@@ -12,7 +12,7 @@
 # Questions MARS backup failure
 ---
 {
-         "resourceRequired": true,
+         "resourceRequired": false,
          "title": "MARS backup failure",
          "fileAttachmentHint": "",
          "formElements":[{
