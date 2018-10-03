@@ -25,7 +25,7 @@ While the service attempts to make the server read-only, all new write transacti
 <!--/issueDescription-->
 
 ## **Recommended steps**
-1. To fix this issue please increase the storage size using the portal. You can refer to [this article](https://docs.microsoft.com/en-us/azure/mysql/concepts-pricing-tiers) for additional information - Refer the "Reaching Storage Limit" section.  
+1. To fix this issue please increase the storage size using the portal. You can refer to [this article](https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers) for additional information - Refer the "Reaching Storage Limit" section.  
 2. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement. 
 
 ## **Recommended documents**
