@@ -18,10 +18,10 @@ Users need to register for self-service password reset at [aka.ms/ssprsetup](aka
 
  **How do my users change their passwords?**
  Users can follow the steps in this article to change their passwords: [How to change your password](https://docs.microsoft.com/azure/active-directory/user-help/user-help-reset-password#how-to-change-your-password)
- 
+
  **My user is getting an error when changing or resetting their pasword**
  To learn about common problems and solutions, see this article: [Common problems and their solutions](https://docs.microsoft.com/azure/active-directory/user-help/user-help-reset-password#common-problems-and-their-solutions)
- 
+
  **I'm looking for a password change or reset feature that isn't available**
  To submit a feature request, go to [aka.ms/sspruservoice](aka.ms/sspruservoice)
  ## **Recommended documents**
