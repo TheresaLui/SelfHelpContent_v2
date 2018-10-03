@@ -12,7 +12,7 @@
     cloudEnvironments="public"
     />
 # My user is having a problem changing or resetting their password
- ## **Recommended steps**
+## **Recommended steps**
  **How do my users reset their passwords?**
 Users need to register for self-service password reset at [aka.ms/ssprsetup](aka.ms/ssprsetup) before they can reset their passwords. Once a user has registered, the can follow the instructions in this article to reset their password: [Reset your work or school password](https://docs.microsoft.com/azure/active-directory/user-help/user-help-reset-password#how-to-reset-or-unlock-your-password-for-a-work-or-school-account)
  
