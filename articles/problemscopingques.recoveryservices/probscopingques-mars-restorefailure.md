@@ -12,7 +12,7 @@
 # Questions MARS restore failure
 ---
 {
-         "resourceRequired": true,
+         "resourceRequired": false,
          "title": "MARS restore failure",
          "fileAttachmentHint": "",
          "formElements": [{
