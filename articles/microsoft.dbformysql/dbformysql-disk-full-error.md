@@ -25,9 +25,9 @@ While the service attempts to make the server read-only, all new write transacti
 
 The server is marked read-only when the amount of free storage reaches less than 5 GB or 5% of provisioned storage, whichever is less. For example:
 
-a) If you have provisioned 100 GB of storage, and the actual utilization goes over 95 GB, the server is marked read-only. 
+1. If you have provisioned 100 GB of storage, and the actual utilization goes over 95 GB, the server is marked read-only. 
 
-b) Alternatively, if you have provisioned 5 GB of storage, the server is marked read-only when the free storage reaches less than 250 MB.
+2. Alternatively, if you have provisioned 5 GB of storage, the server is marked read-only when the free storage reaches less than 250 MB.
 
 
 ## **Recommended steps**
