@@ -3,7 +3,7 @@
     description="Password Management/Self-service password change/reset"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="zhchia"
+    authors="sahenry"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32045826"
