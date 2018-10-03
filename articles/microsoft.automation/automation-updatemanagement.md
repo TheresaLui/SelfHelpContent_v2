@@ -19,4 +19,5 @@
 [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)<br>
 [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)<br>
 [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)<br>
+<br>
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
