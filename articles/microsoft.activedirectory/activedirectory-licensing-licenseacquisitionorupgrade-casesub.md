@@ -14,14 +14,11 @@
 
 # Acquire or upgrade licenses
 
-**Things to check first**
+## **Recommended steps**
+
 
 1. If you are using the Azure portal and want to know what Azure Active Directory edition you have in your tenant, make sure to check the Overview blade. The edition information is below the Directory name on the blade.
 2. You can view your available products, including the individual licenses by checking Licenses blade under Azure Active Directory in Azure portal.
-
-
-## **Recommended steps**
-
-1. For specific information about each Azure Active Directory product edition and how to purchase/upgrade see [Azure Active Directory pricing](https://azure.microsoft.com/pricing/details/active-directory/) page.
-2. To purchase licenses from Azure portal, click “Try/Buy” from “All products” blade in Licenses blade under Azure Active Directory in Azure portal.
-3. To associate or add an Azure subscription to Azure Active Directory see [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+3. For specific information about each Azure Active Directory product edition and how to purchase/upgrade see [Azure Active Directory pricing](https://azure.microsoft.com/pricing/details/active-directory/) page.
+4. To purchase licenses from Azure portal, click “Try/Buy” from “All products” blade in Licenses blade under Azure Active Directory in Azure portal.
+5. To associate or add an Azure subscription to Azure Active Directory see [here](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
