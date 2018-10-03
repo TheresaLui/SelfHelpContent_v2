@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574327"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[Auditing - Servers, pools, and databases](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing/)
+[Auditing - servers, pools, and databases](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing/)

@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574331"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -20,7 +20,7 @@
 
 [Security overview](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview/)<br>
 [Create and manage firewall rules](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure/)<br>
-[Virtual network enpoints and rules](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview/)<br>
+[Virtual network endpoints and rules](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview/)<br>
 [Control access](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-control-access/)<br>
 [Manage logins and users](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-manage-logins/)<br>
 [Conditional access (MFA)](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-conditional-access/)<br>

@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980423"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[REST Operation Groups](https://docs.microsoft.com/en-us/rest/api/sql/)
+[REST operation groups](https://docs.microsoft.com/en-us/rest/api/sql/)

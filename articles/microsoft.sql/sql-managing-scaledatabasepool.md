@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574333"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -15,8 +15,8 @@
 
 ## **Recommended steps**
 
-1. [Use PowerShell to monitor and scale a single Azure SQL database](https://docs.microsoft.com/en-us/azure/sql-database/scripts/sql-database-monitor-and-scale-database-powershell/)<br>
-2. [Use CLI to monitor and scale a single Azure SQL database](https://docs.microsoft.com/en-us/azure/sql-database/scripts/sql-database-monitor-and-scale-database-cli)<br>
+1. [Use PowerShell to monitor and scale a single Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/scripts/sql-database-monitor-and-scale-database-powershell/)<br>
+2. [Use CLI to monitor and scale a single Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/scripts/sql-database-monitor-and-scale-database-cli)<br>
 
 ## **Recommended documents**
 

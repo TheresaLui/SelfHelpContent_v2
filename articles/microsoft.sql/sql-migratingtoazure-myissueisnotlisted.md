@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32045129"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -16,4 +16,4 @@
 ## **Recommended documents**
 
 [Migrate to Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-cloud-migrate/)<br>
-[Manage SQL Database after migration](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-manage-after-migration/)
+[Manage Azure SQL Database after migration](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-manage-after-migration/)

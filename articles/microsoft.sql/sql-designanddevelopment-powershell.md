@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574332"
-	productPesIds="13491"​
+	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
@@ -15,4 +15,4 @@
 
 ## **Recommended documents**
 
-[PowerShell Samples](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-powershell-samples/)
+[PowerShell samples](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-powershell-samples/)
