@@ -27,7 +27,7 @@ You must have active virtual machines with at least 14 days of activity.
 
 **How to view cost optimization recommendations**
 
-  1. Sign into [Azure portal](https://portal.azure.com.)
+  1. Sign into [Azure portal](https://portal.azure.com)
   2. Click Cost Management + Billing in the list of services. Then in the list under Cost Management, select Advisor Recommendations.
   3. This will show the Advisor cost recommendations
 
