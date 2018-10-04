@@ -45,6 +45,7 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
 
   * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
   * The boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
+
 9. Run the following command line as an administrator to gather the BCD store information.
 
       ```
