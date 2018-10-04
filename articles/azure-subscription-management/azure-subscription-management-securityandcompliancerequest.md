@@ -14,7 +14,7 @@
 
 # Security and Compliance Request
 
-## **Recommended documents**
+## Recommended documents
 
 * [Export or delete settings in the Azure portal](https://docs.microsoft.com/azure/azure-portal/azure-portal-export-delete-settings)<br>
 * [Find activity reports in the Azure portal](https://docs.microsoft.com/azure/active-directory/reports-monitoring/howto-find-activity-reports)<br>
