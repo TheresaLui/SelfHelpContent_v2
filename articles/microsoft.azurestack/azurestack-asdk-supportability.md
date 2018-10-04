@@ -1,9 +1,9 @@
 <properties
-    pageTitle="performance/backup"
-    description="performance/backup"
+    pageTitle="ASDK - Azure Stack Developers Kit\ASDK"
+    description="Supportability statement and self-help content for ASDK"
     service="microsoft.azurestack"
-    resource="virtualmachines"
-    authors="Alexsmit"
+    resource="azurestack"
+    authors="alexsmithMSFT"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615117"
