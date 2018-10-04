@@ -26,7 +26,6 @@ Budgets reset automatically at the end of a period (monthly, quarterly, or annua
   * Owner – Can create, modify, or delete budgets for a subscription.
   * Contributor – Can create, modify, or delete their own budgets. Can modify the budget amount for budgets created by others.
   * Reader – Can view budgets that they have permission to.
-
 Learn more on how to create a budget or edit a budget  : [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets)
 	
 
