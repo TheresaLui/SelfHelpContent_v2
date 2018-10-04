@@ -14,7 +14,7 @@
 
 # Setup help for Memory Metrics
 
-## **Recommended documents**
+## Recommended documents
 
 * [Add extended metrics for Azure virtual machines](https://docs.microsoft.com/azure/cost-management/azure-vm-extended-metrics)<br>
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
