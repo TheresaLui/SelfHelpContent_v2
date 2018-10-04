@@ -15,7 +15,7 @@
 # Setup help for AWS Account
 
 
-## **Recommended documents**
+## Recommended documents
 
 * [Understanding Cloudyn cost management reports](https://docs.microsoft.com/azure/cost-management/understanding-cost-reports)<br>
 * [Use Cloudyn reports](https://docs.microsoft.com/azure/cost-management/use-reports)<br>
