@@ -17,11 +17,13 @@ Daily recurring tasks can be created that automatically exports the Cost Managem
 
 **Prerequisites**<br>
 Data export is available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) customers. The following Azure permissions are supported per subscription for data export by user and group:
+
 * Owner – Can create, modify, or delete scheduled exports for a subscription.<br>
 * Contributor – Can create, modify, or delete their own scheduled exports. Can modify the name of scheduled exports created by others.<br>
 * Reader – Can schedule exports that they have permission to.<br>
 
 For Azure Storage accounts:<br>
+
 * Write permissions are required to change the configured storage account, regardless of permissions on the export.<br>
 * Your Azure storage account must be configured for blob or file storage.<br>
   
