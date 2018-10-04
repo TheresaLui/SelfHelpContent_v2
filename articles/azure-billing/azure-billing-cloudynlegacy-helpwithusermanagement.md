@@ -19,9 +19,8 @@ Access to Cloudyn data is provided by user or entity management. Cloudyn user ac
 **Prerequisites**
 
 * You must have an Azure account.
-* You must have either a trial registration or paid subscription for Cloudyn.
-	
-	
+* You must have either a trial registration or paid subscription for Cloudyn.<br>
+
 Refer to the tutorial [Assign access to Cloudyn data](https://docs.microsoft.com/azure/cost-management/tutorial-user-access) to learn more on :
 
 * Create a user with admin access
@@ -29,7 +28,6 @@ Refer to the tutorial [Assign access to Cloudyn data](https://docs.microsoft.com
 * Delete a user
 * Delete or export personal data
 * Create and manage entities
-
 
 ## **Recommended documents**
 
