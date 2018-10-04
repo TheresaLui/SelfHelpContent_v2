@@ -14,7 +14,7 @@
 
 # Setup help for Google Account
 
-## **Recommended documents**
+## Recommended documents
 
 * [Connect a Google Cloud Platform account](https://docs.microsoft.com/azure/cost-management/connect-google-account)<br>
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
