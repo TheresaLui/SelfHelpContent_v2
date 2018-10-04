@@ -1,13 +1,17 @@
-<properties pageTitle="Problem with dynamic groups" 
-	 description="problemwithdynamicgroups" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570978" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with dynamic groups 
+<properties
+    pageTitle="Problem with dynamic groups"
+    description="problemwithdynamicgroups"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570978"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+     articleId="aa2fdaba-eb64-4593-bf36-ae4f4a212c8c"
+    />
+
+# Problem with dynamic groups
+
 ---
 {
   "resourceRequired": false,

@@ -3,9 +3,10 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32404463" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="22605ab0-3d0b-454c-ac3a-e44d1c57086b"
 /> 
 # Problem with AAD Connect ADFS 
 ---

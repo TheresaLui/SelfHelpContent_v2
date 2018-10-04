@@ -39,7 +39,7 @@
 			"displayLabel": "Blob Container",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/$ref?api-version=2018-03-28",
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-03-01-preview",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",
@@ -47,7 +47,7 @@
 					},
 			"dropdownOptions": [{
 					"value": "NoBlobContainer",
-					"text": "Not specific to a Container"
+					"text": "Not specific to a blob container"
 				}
 			],
 			"required": false

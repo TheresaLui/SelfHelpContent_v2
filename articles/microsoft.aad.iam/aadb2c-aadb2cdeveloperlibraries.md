@@ -3,10 +3,12 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32548152" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16580" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-/> 
+   articleId="74bb6c16-6466-495c-a460-bc8fa2effaf8"
+    /> 
+
 # Problem with AAD B2C developer libraries 
 ---
 {

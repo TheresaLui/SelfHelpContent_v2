@@ -1,13 +1,17 @@
-<properties pageTitle="Active Directory application sign in L1 issue" 
-	 description="appssigninl1datacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32596848,32596837,32570955" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application sign in L1 issue 
+<properties
+    pageTitle="Active Directory application sign in L1 issue"
+    description="appssigninl1datacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32596848,32596837,32570955"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
+    />
+
+# Active Directory application sign in L1 issue
+
 ---
 {
   "resourceRequired": false,

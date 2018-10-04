@@ -3,9 +3,10 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32596873" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="7262a9ca-3a86-4f67-9acf-b702dd50f0e9"
 /> 
 #  Problem with User sign-in WHFB
 ---

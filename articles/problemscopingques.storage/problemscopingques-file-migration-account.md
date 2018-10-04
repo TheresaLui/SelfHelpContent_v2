@@ -32,8 +32,8 @@
 			"id": "file_share_or_path",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Destination File Share or File path",
-			"watermarkText": "'FileShare' or 'FileShare/FileName'",
+			"displayLabel": "Destination File Name",
+			"watermarkText": "'FileName' of 'FileShare/FileName'",
 			"required": false
 		}, {
 			"id": "problem_start_date",

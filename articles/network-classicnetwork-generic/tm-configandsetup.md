@@ -15,7 +15,7 @@
 # configuration
 
 ## **Recommended documents**
-Configure [geographic](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-geographic-routing-method), [priority](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method), [weighted](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-weighted-routing-method) or [performance](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-performance-routing-method) traffic routing methods<br>
+Configure [geographic](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-geographic-routing-method), [priority](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method), [weighted](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-weighted-routing-method), [performance](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-performance-routing-method), [multivalue](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods#multivalue), or [subnet](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-routing-methods#subnet) traffic routing methods<br>
 [Test](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-testing-settings) Traffic Manager settings<br> 
 Add, disable, enable, or delete [endpoints](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-manage-endpoints)<br>
 Traffic Manager endpoint [monitoring and failover](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-monitoring)<br>

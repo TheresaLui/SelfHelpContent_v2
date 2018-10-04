@@ -1,13 +1,17 @@
-<properties pageTitle="Active Directory application access panel issue" 
-	 description="appsaccesspaneldatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570265" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application access panel issue 
+<properties
+    pageTitle="Active Directory application access panel issue"
+    description="appsaccesspaneldatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570265"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleID="59f008b6-1525-48d0-aded-235559b387b3"
+    />
+
+# Active Directory application access panel issue
+
 ---
 {
   "resourceRequired": false,

@@ -6,7 +6,7 @@
 	authors="eringreenlee"
 	selfHelpType="generic"
 	supportTopicIds="32565593"
-	productPesIds="14785"
+	productPesIds="14785,16576"
 	cloudEnvironments="public"
 />
 
