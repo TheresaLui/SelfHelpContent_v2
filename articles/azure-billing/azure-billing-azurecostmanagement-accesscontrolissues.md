@@ -14,7 +14,7 @@
 
 # Acess Control Issues
 
-## **Recommended steps**
+## Recommended steps
 
 You can grant access for Azure billing information to members of your team by assigning one of the following user roles to your subscription: Account Administrator, Service Administrator, Co-administrator, Owner, Contributor, Reader, and Billing Reader. They would have access to billing information in the [Azure portal](https://portal.azure.com), and they can use the Billing APIs to programmatically get invoices (once opted-in) and usage details.
 
@@ -34,7 +34,7 @@ You can grant access for Azure billing information to members of your team by as
 5. Follow instructions in the invite email to log in as a Billing Reader.<br>
 Learn more : [Grant access to Billing](https://docs.microsoft.com/azure/billing/billing-manage-access#opt-in)
 
-## **Recommended documents**
+## Recommended documents
 
 * [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
