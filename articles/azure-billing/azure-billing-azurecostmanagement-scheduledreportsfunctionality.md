@@ -23,9 +23,10 @@ Data export is available to all [Enterprise Agreement (EA)](https://azure.micro
 * Reader – Can schedule exports that they have permission to.<br>
 
 For Azure Storage accounts:
+
 * Write permissions are required to change the configured storage account, regardless of permissions on the export.<br>
 * Your Azure storage account must be configured for blob or file storage.<br>
-  
+
 **How to create a daily report ?**
 
 1. Sign in to [Azure portal](azure-billing-azurecostmanagement-scheduledreportsfunctionality.md)<br>
