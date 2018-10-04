@@ -40,7 +40,7 @@ List of Unsupported Subscription Types
 * MS-AZR-0144P (DreamSpark)<br>  
 Learn more : [Azure Consumption REST API documentation](https://docs.microsoft.com/rest/api/consumption/)<br>
 
-## Recommended documents
+## **Recommended documents**
 
 * [Azure Cost Management REST API](https://docs.microsoft.com/rest/api/cost-management/)<br>
 * [Azure Consumption Python SDK](https://docs.microsoft.com/python/api/overview/azure/consumption?view=azure-python)<br>
