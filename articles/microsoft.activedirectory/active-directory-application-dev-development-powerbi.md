@@ -14,9 +14,7 @@
 
 ## **Recommended steps**
 
-Want an answer now? [Check Stackoverflow for issues building apps that call PowerBI](https://stackoverflow.com/questions/tagged/powerbi+azure-active-directory) or post a [question on StackOverflow with tags `powerbi` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
-
-The following documents cover the most common issues when building an app to call PowerBI:
+Below you will find help and links for the most common problems when building Azure Active Directory apps that call PowerBI.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps that call PowerBI](https://stackoverflow.com/questions/tagged/powerbi+azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tags `powerbi` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
 
 **I'm having issues getting started building against PowerBI**
     * [I'm having trouble getting started building an app to call PowerBI](https://docs.microsoft.com/power-bi/developer/what-can-you-do)

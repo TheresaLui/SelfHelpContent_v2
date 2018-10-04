@@ -14,9 +14,8 @@
 
 ## **Recommended steps**
 
-Want an answer now? [Check Stackoverflow for issues building apps that call Exchange Online](https://stackoverflow.com/questions/tagged/exchangewebservices+azure-active-directory) or post a [question on StackOverflow with tags `exchangewebservices` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Below you will find help and links for the most common problems when building Azure Active Directory apps that call Exchange Online.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps that call Exchange Online](https://stackoverflow.com/questions/tagged/exchangewebservices+azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tags `exchangewebservices` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
 
-The following documents cover the most common issues when building an app to call Exchange:
 
 **I'm having issues getting started building against Exchange Online**
     * [I'm having trouble getting started building an app to call Exchange](https://docs.microsoft.com/exchange/client-developer/exchange-server-development)

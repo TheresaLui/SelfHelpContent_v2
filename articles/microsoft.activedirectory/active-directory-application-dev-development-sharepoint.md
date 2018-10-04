@@ -14,9 +14,7 @@
 
 ## **Recommended steps**
 
-Want an answer now? [Check Stackoverflow for issues building apps that call SharePoint](https://stackoverflow.com/questions/tagged/sharepoint+azure-active-directory) or post a [question on StackOverflow with tags `sharepoint` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
-
-The following documents cover the most common issues when building an app to call SharePoint:
+Below you will find help and links for the most common problems when building Azure Active Directory apps that call SharePoint.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps that call SharePoint](https://stackoverflow.com/questions/tagged/sharepoint+azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tags `sharepoint` and `azure-active-directory`](https://stackoverflow.com/questions/ask).
 
 **I'm having issues getting started building against SharePoint**
     * [I'm having trouble getting started building an app to call SharePoint](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part)

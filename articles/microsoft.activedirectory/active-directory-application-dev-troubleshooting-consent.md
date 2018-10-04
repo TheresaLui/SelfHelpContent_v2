@@ -14,11 +14,9 @@
 
 ## **Recommended steps**
 
-Want an answer now? [Check Stackoverflow for issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory) or post a [question on StackOverflow with tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
 
 **I don't know how to grant consent for my application**
-
-The following documents can help you to resolve some of the most common issues in this category.
 
   * [I am confused about how application consent works](https://docs.microsoft.com/azure/active-directory/application-dev-consent-framework?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
   * [I don’t understand the different types of consent (admin consent, static user consent, dynamic user consent)](https://docs.microsoft.com/azure/active-directory/develop/v1-permissions-and-consent)
