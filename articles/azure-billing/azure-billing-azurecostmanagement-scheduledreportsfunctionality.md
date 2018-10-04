@@ -22,20 +22,17 @@ Data export is available to all [Enterprise Agreement (EA)](https://azure.micro
 
   * Owner – Can create, modify, or delete scheduled exports for a subscription.
   * Contributor – Can create, modify, or delete their own scheduled exports. Can modify the name of scheduled exports created by others.
-  * Reader – Can schedule exports that they have permission to.
-  
+  * Reader – Can schedule exports that they have permission to.  
 For Azure Storage accounts:
 
   * Write permissions are required to change the configured storage account, regardless of permissions on the export.
-  * Your Azure storage account must be configured for blob or file storage.
-	
+  * Your Azure storage account must be configured for blob or file storage.	
 **How to create a daily report ?**
 
 1. Sign in to [Azure portal](azure-billing-azurecostmanagement-scheduledreportsfunctionality.md)
 2. Select Cost Management + Billing > select a subscription or resource group in a subscription > Export > **Add**.
 3. Type a name for the export and specify the subscription, Azure storage account, container, and the file storage directory or blob container, then click **Create**.
-4. The new export will appear in the list of exports. <br>
-	
+4. The new export will appear in the list of exports. <br>	
 *Note:* By default, new exports are enabled, and they run daily. If you want to disable or delete a scheduled export, click any item in the list and then click either Disable or Delete. Initially, it can take one to two hours before the export runs. However, it can take up to four hours before data is shown in exported files.
 	
 **How to verify that the data is collected ?**
@@ -43,8 +40,7 @@ For Azure Storage accounts:
 1. In the export list, click the storage account name.
 2. On the storage account page, click Open in Explorer. If you see a confirmation box, click **Yes** to open the file in Azure Storage Explorer.
 3. In Storage Explorer, navigate to the container that you want to open and select the folder corresponding to the current month. A list of CSV files is shown. Select one and then click **Open**.
-4. The file opens with the program or application that's set to open CSV file extensions.	
-
+4. The file opens with the program or application that's set to open CSV file extensions.
 
 ## **Recommended documents**
 
