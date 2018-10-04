@@ -19,5 +19,5 @@ Cosmos DB Cassandra API offers many benefits which an existing Cassandra applica
 * [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
 * [Get Started with .Net](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-dotnet)
 * [Get Started with Java](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java)
-* [Get Started with Node.js](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cassandra-nodejs)
-* [Get Started with Python](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cassandra-python)
+* [Get Started with Node.js](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-nodejs)
+* [Get Started with Python](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-python)
