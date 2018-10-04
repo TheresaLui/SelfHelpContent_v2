@@ -26,6 +26,7 @@ For Azure Storage accounts:<br>
 * Your Azure storage account must be configured for blob or file storage.<br>
   
 **How to create a daily report ?**
+
 1. Sign in to [Azure portal](azure-billing-azurecostmanagement-scheduledreportsfunctionality.md)<br>
 2. Select Cost Management + Billing > select a subscription or resource group in a subscription > Export > **Add**.<br>
 3. Type a name for the export and specify the subscription, Azure storage account, container, and the file storage directory or blob container, then click **Create**.<br>
@@ -34,6 +35,7 @@ For Azure Storage accounts:<br>
 *Note:* By default, new exports are enabled, and they run daily. If you want to disable or delete a scheduled export, click any item in the list and then click either Disable or Delete. Initially, it can take one to two hours before the export runs. However, it can take up to four hours before data is shown in exported files.<br>
 	
 **How to verify that the data is collected ?**
+
 1. In the export list, click the storage account name.<br>
 2. On the storage account page, click Open in Explorer. If you see a confirmation box, click **Yes** to open the file in Azure Storage Explorer.<br>
 3. In Storage Explorer, navigate to the container that you want to open and select the folder corresponding to the current month. A list of CSV files is shown. Select one and then click **Open**.<br>
