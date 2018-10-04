@@ -14,7 +14,7 @@
 
 # Privacy Blade and GDPR requests
 
-## **Recommended documents**
+## Recommended documents
 
 * [Microsoft’s GDPR Commitments to Customers](https://docs.microsoft.com/legal/gdpr)<br>
 * [Service Trust Portal - FAQ](https://servicetrust.microsoft.com/ViewPage/FAQ)<br>
