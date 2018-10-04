@@ -16,6 +16,7 @@
 The Azure Consumption APIs give you programmatic access to cost and usage data for your Azure resources. These APIs currently only support Enterprise Enrollments and Web Direct Subscriptions (with a few exceptions). The APIs are continually updated to support other types of Azure subscriptions.<br>
 
 Azure Consumption APIs provide access to:
+
 * Enterprise Customers Only<br>
 * Price sheet<br>
 * Budgets<br>
@@ -31,14 +32,14 @@ Azure Consumption APIs provide access to:
 * Reservation Recommendations<br>
 
 List of Unsupported Subscription Types
+
 * MS-AZR-0145P (CSP)<br>
 * MS-AZR-0146P (CSP)<br>
 * MS-AZR-159P (CSP)<br>
 * MS-AZR-0036P (sponsored)<br>
 * MS-AZR-0143P (sponsored)<br>
 * MS-AZR-0015P (internal)<br>
-* MS-AZR-0144P (DreamSpark)<br>
-  
+* MS-AZR-0144P (DreamSpark)<br>  
 Learn more : [Azure Consumption REST API documentation](https://docs.microsoft.com/rest/api/consumption/)<br>
 
 ## **Recommended documents**
