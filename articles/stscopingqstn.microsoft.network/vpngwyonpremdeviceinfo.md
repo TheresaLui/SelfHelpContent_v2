@@ -3,9 +3,10 @@
 	description="Provide On Prem Device"
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
+	articleid="ProvideOnPremDevice"
 	supportTopicIds="32591152, 32591149, 32591158,"
 	productPesIds="16094"
-	cloudEnvironments=""
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
 # VPN Gwy On Prem Device
@@ -118,7 +119,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices>Learn more</a> about Validated VPN Devices and our device configuration guides"
+			"content": "<a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices>Learn more</a> about Validated VPN Devices and our device configuration guides"
 		}
 	]
 }
