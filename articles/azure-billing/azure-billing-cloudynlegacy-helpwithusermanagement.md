@@ -16,10 +16,10 @@
 
 To use Cloudyn you must have an Azure account and either a trial registration or paid subscription for Cloudyn.There two types of access:
 
-* Admin: Allows a user unrestricted use of all functions in the Cloudyn portal, including: user management, recipient lists management and root entity access to all entity data.
-* User: Intended for end users to view reports and create reports using the access they have to entity data. 
+* **Admin:** Allows a user unrestricted use of all functions in the Cloudyn portal, including: user management, recipient lists management and root entity access to all entity data.
+* **User:** Intended for end users to view reports and create reports using the access they have to entity data. 
 
-## **Recommended documents**
+## Recommended documents
 
 * How to [Assign access to Cloudyn data](https://docs.microsoft.com/azure/cost-management/tutorial-user-access)
 * [Video: Adding Users to Cloudyn](https://youtu.be/Nzn7GLahx30)<br>
