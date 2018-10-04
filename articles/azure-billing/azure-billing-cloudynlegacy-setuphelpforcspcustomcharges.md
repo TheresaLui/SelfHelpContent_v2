@@ -14,7 +14,7 @@
 
 # Setup help for CSP Custom Charges
 
-## **Recommended documents**
+## Recommended documents
 
 * [Video: Defining Custom Charges in Cloudyn](https://youtu.be/3HcgkGPQjXE)<br>
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
