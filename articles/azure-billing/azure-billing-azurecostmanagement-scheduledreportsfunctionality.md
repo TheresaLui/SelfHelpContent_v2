@@ -33,8 +33,9 @@ For Azure Storage accounts:
 2. Select Cost Management + Billing > select a subscription or resource group in a subscription > Export > **Add**.<br>
 3. Type a name for the export and specify the subscription, Azure storage account, container, and the file storage directory or blob container, then click **Create**.<br>
 4. The new export will appear in the list of exports.<br>
+
 *Note:* By default, new exports are enabled, and they run daily. If you want to disable or delete a scheduled export, click any item in the list and then click either Disable or Delete. Initially, it can take one to two hours before the export runs. However, it can take up to four hours before data is shown in exported files.<br>
-	
+
 **How to verify that the data is collected ?**
 
 1. In the export list, click the storage account name.<br>
