@@ -31,7 +31,7 @@ Learn how to act on a recommendation : [Act on recommendations](https://docs.mic
 
 Learn how to verify the action : [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
 
-## **Recommended documents**
+## Recommended documents
 
 * [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
