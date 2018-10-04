@@ -13,13 +13,11 @@
 />
 
 # Budget functionality
-
 Budgets in Cost Management help you plan for and drive organizational accountability. With budgets, you can account for the Azure services you consume or subscribe to during a specific period.
 Budgets reset automatically at the end of a period (monthly, quarterly, or annually) for the same budget amount when you select an expiration date in future. Because they reset with the same budget amount, you need to create separate budgets when budgeted currency amounts differ for future periods.
 
 
 **Prerequisites**
-
 * Budgets are available to all Azure EA customers. You must have read access to an Azure EA subscription to create and manage budgets. EA billing accounts are not supported by budgets.<br>
 * Budgets are created at either the subscription or resource group level, individually. The following Azure permissions are supported per subscription for budgets by user and group:<br>
 
