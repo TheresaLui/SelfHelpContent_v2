@@ -20,7 +20,7 @@ Cloudyn can help you optimize your reserved instance costs and utilization for A
 
 * You must have an Azure account.
 * You must have either a trial registration or paid subscription for Cloudyn.
-* You must have purchased RIs in Azure or AWS.
+* You must have purchased RIs in Azure or AWS.<br>
 	
 Refer to the tutorial [Optimize reserve instance](https://docs.microsoft.com/azure/cost-management/tutorial-optimize-reserved-instances) to learn more on :
 
@@ -31,8 +31,7 @@ Refer to the tutorial [Optimize reserve instance](https://docs.microsoft.com/azu
 * Assess Azure RI cost effectiveness
 * Optimize AWS RI costs
 * Buy recommended RIs
-* Modify unused reservations
-
+* Modify unused reservations<br>
 
 ## **Recommended documents**
 
