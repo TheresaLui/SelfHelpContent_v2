@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Cassandra Tools"
-	description="Cassandra Tools"
+	pageTitle="Azure Cosmos DB Cassandra Tools"
+	description="Azure Cosmos DB Cassandra Tools"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
