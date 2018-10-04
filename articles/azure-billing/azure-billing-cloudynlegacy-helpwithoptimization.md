@@ -22,7 +22,7 @@ Prerequisites
 * You must have either a trial registration or paid subscription for Cloudyn.
 * You must have purchased RIs in Azure or AWS.<br>
 
-## **Recommended documents**
+## Recommended documents
 
 * Learn more on [Optimize reserve instance](https://docs.microsoft.com/azure/cost-management/tutorial-optimize-reserved-instances) 
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
