@@ -14,7 +14,7 @@
 
 # Setup help for Azure CSP
 
-## **Recommended documents**
+## Recommended documents
 
 * [Register with CSP Partner program and view cost data](https://docs.microsoft.com/azure/cost-management/quick-register-csp)<br>
 * [Activate Azure subscriptions and accounts with Cloudyn](https://docs.microsoft.com/azure/cost-management/activate-subs-accounts)<br>
