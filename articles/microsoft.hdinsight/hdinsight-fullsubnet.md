@@ -24,9 +24,9 @@ Scaling of the HDInsight cluster failed within subscription <!--$SubscriptionId-
 ## **Recommended steps**
 In order to create space on the virtual network please do **one** of the two steps below:
 
-1. [Add a subnet](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet) to the existing virtual network
+1. [Add a subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet) to the existing virtual network
 
-1. [Change subnet settings](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network.
+1. [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network.
 
 ## Subnets at capacity
 <!--$Subnet-->[Subnet]<!--/$Subnet-->
