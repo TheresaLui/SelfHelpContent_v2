@@ -32,7 +32,7 @@ Refer [Review usage and Costs](https://docs.microsoft.com/azure/cost-management/
 ## **Recommended documents**
 
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
-* [Video: Defining a Cost Allocation Model in Cloudyn](https://youtu.be/FJzof_agKHY)<br>
+* [Video: Defining a Cost Allocation Model in Cloudyn](https://www.youtube.com/watch?v=FJzof_agKHY&feature=youtu.be)<br>
 * [FAQ: Azure Cost Management by Cloudyn](https://social.msdn.microsoft.com/Forums/231bf072-2c71-4121-8339-ac9d868137b9/faqs-for-azure-cost-management-by-cloudyn?forum=Cloudyn)<br>
 * [FAQ: How to get to Cloudyn from Azure Cost Management](https://social.msdn.microsoft.com/Forums/345be5a8-34fb-4343-9c28-41d87e8fb2ff/faq-how-to-get-to-cloudyn-from-azure-cost-management?forum=Cloudyn)<br>
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
