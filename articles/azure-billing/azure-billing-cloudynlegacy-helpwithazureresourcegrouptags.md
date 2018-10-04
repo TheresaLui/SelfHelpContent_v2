@@ -17,7 +17,6 @@
 
 ## **Recommended documents**
 
-* [FAQ: How to group resources in Cloudyn by Azure Resource Group tags](https://social.msdn.microsoft.com/Forums/8f3e94dd-2db6-49ca-9f7e-2db7d5e0e99f/faq-how-to-group-resources-in-cloudyn-by-azure-resource-group-tags?forum=Cloudyn)<br>
 * [Video: Connecting to Azure Resource Manager with Cloudyn](https://www.youtube.com/watch?v=oCIwvfBB6kk&feature=youtu.be)<br>
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Cloudyn pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
