@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Connectivity Azure Cosmos DB Cassandra API"
-  	description="Conectivity TabAzure Cosmos DB Cassandra API"
+	pageTitle="Connectivity to Azure Cosmos DB Cassandra API"
+  	description="Conectivity to Azure Cosmos DB Cassandra API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
