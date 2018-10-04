@@ -20,7 +20,7 @@ You can grant access for Azure billing information to members of your team by as
 
 **How to allow additional users to access invoices**
 
-1. As the Account Administrator, select your subscription from the [Subscriptions blade]<br>(https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in Azure portal
+1. As the Account Administrator, select your subscription from the [Subscriptions blade](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in Azure portal<br>
 2. Select Invoices and then Access to invoices.<br>
 3. Turn On the access followed by saving the changes, to allow users in subscription scoped roles to download invoice.<br>
 4. The Account Administrator can also configure to have invoices sent via email. To learn more, see [Get your invoice in email](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date).<br>
