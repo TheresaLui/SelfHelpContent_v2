@@ -14,7 +14,7 @@
 
 # Setup help for Azure EA
 
-## **Recommended documents**
+## Recommended documents
 
 * [Register an Azure Enterprise Agreement and view cost data](https://docs.microsoft.com/azure/cost-management/quick-register-ea)<br>
 * [Video: How to Find Your EA Enrollment ID and API Key for use in Cloudyn](https://youtu.be/u_phLs_udig)<br>
