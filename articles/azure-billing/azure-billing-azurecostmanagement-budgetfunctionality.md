@@ -20,13 +20,14 @@ Budgets reset automatically at the end of a period (monthly, quarterly, or annua
 
 **Prerequisites**
 
-* Budgets are available to all Azure EA customers. You must have read access to an Azure EA subscription to create and manage budgets. EA billing accounts are not supported by budgets.
-* Budgets are created at either the subscription or resource group level, individually. The following Azure permissions are supported per subscription for budgets by user and group:
+* Budgets are available to all Azure EA customers. You must have read access to an Azure EA subscription to create and manage budgets. EA billing accounts are not supported by budgets.<br>
+* Budgets are created at either the subscription or resource group level, individually. The following Azure permissions are supported per subscription for budgets by user and group:<br>
 
-  * Owner – Can create, modify, or delete budgets for a subscription.
-  * Contributor – Can create, modify, or delete their own budgets. Can modify the budget amount for budgets created by others.
-  * Reader – Can view budgets that they have permission to.
-Learn more on how to create a budget or edit a budget  : [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets)
+	* Owner – Can create, modify, or delete budgets for a subscription.<br>
+  	* Contributor – Can create, modify, or delete their own budgets. Can modify the budget amount for budgets created by others.<br>
+  	* Reader – Can view budgets that they have permission to.<br>
+	
+Learn more on how to create a budget or edit a budget: [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets)
 	
 
 ## **Recommended documents**
