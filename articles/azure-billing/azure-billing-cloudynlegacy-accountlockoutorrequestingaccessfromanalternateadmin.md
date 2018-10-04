@@ -17,8 +17,8 @@
 ## **Recommended documents**
 
 * [FAQ: How to enable additional Azure users to use Cloudyn and resolve account lockout issues](https://social.msdn.microsoft.com/Forums/30afd40c-2a1d-44a7-b8d3-bc788ce36229/faq-how-to-enable-additional-azure-users-to-use-cloudyn-and-resolve-account-lockout-issues?forum=Cloudyn)<br>
-* [FAQ - Cloudyn](https://docs.microsoft.com/azure/cost-management/cost-mgt-faq)<br>
-* [FAQs for Azure Cost Management by Cloudyn](https://social.msdn.microsoft.com/Forums/231bf072-2c71-4121-8339-ac9d868137b9/faqs-for-azure-cost-management-by-cloudyn?forum=Cloudyn)<br>
+* [FAQ: Cloudyn](https://docs.microsoft.com/azure/cost-management/cost-mgt-faq)<br>
+* [FAQ: Azure Cost Management by Cloudyn](https://social.msdn.microsoft.com/Forums/231bf072-2c71-4121-8339-ac9d868137b9/faqs-for-azure-cost-management-by-cloudyn?forum=Cloudyn)<br>
 * [FAQ: How to get to Cloudyn from Azure Cost Management](https://social.msdn.microsoft.com/Forums/345be5a8-34fb-4343-9c28-41d87e8fb2ff/faq-how-to-get-to-cloudyn-from-azure-cost-management?forum=Cloudyn)<br>
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
