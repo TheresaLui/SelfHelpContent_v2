@@ -13,9 +13,7 @@
 />
 
 # Azure Usage details API Issues
-The Azure Consumption APIs give you programmatic access to cost and usage data for your Azure resources. These APIs currently only support Enterprise Enrollments and Web Direct Subscriptions (with a few exceptions). The APIs are continually updated to support other types of Azure subscriptions.<br>
-
-Azure Consumption APIs provide access to:
+The Azure Consumption APIs give you programmatic access to cost and usage data for your Azure resources. Azure Consumption APIs provide access to:
 
 * Enterprise Customers Only<br>
 * Price sheet<br>
@@ -52,5 +50,3 @@ Learn more : [Azure Consumption REST API documentation](https://docs.microsoft.c
 * [Azure Consumption Ruby SDK](https://rubygems.org/gems/azure_mgmt_consumption)<br>
 * [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
-* [Explore and analyze costs with Cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
-* [Azure Cost Management - Pricing](https://azure.microsoft.com/pricing/details/cost-management/)<br>
