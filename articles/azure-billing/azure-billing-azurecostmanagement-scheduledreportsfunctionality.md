@@ -41,7 +41,6 @@ For Azure Storage accounts:
 2. On the storage account page, click Open in Explorer. If you see a confirmation box, click **Yes** to open the file in Azure Storage Explorer.
 3. In Storage Explorer, navigate to the container that you want to open and select the folder corresponding to the current month. A list of CSV files is shown. Select one and then click **Open**.
 4. The file opens with the program or application that's set to open CSV file extensions.
-
 ## **Recommended documents**
 
 * [Create and Manage exported data](https://docs.microsoft.com/azure/cost-management/tutorial-export-acm-data)<br>
