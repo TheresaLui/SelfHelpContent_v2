@@ -22,8 +22,7 @@ Data export is available to all [Enterprise Agreement (EA)](https://azure.micro
 * Contributor – Can create, modify, or delete their own scheduled exports. Can modify the name of scheduled exports created by others.<br>
 * Reader – Can schedule exports that they have permission to.<br>
 
-For Azure Storage accounts:<br>
-
+For Azure Storage accounts:
 * Write permissions are required to change the configured storage account, regardless of permissions on the export.<br>
 * Your Azure storage account must be configured for blob or file storage.<br>
   
@@ -33,7 +32,6 @@ For Azure Storage accounts:<br>
 2. Select Cost Management + Billing > select a subscription or resource group in a subscription > Export > **Add**.<br>
 3. Type a name for the export and specify the subscription, Azure storage account, container, and the file storage directory or blob container, then click **Create**.<br>
 4. The new export will appear in the list of exports.<br>
-
 *Note:* By default, new exports are enabled, and they run daily. If you want to disable or delete a scheduled export, click any item in the list and then click either Disable or Delete. Initially, it can take one to two hours before the export runs. However, it can take up to four hours before data is shown in exported files.<br>
 	
 **How to verify that the data is collected ?**
