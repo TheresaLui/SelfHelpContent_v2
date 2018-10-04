@@ -17,7 +17,7 @@ cloudEnvironments="public"/>
 
 ## **Recommended Steps**
 
-You can use the Azure Portal or C# console application to modify the scale setting using following the steps.
+You can use the Azure Portal or C# console application to modify the scale setting using following the steps:
 
 ### Change the scale setting using Azure Portal
 
