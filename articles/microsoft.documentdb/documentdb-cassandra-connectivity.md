@@ -27,7 +27,7 @@ To resolve this issue, try one or more of the following methods.
 
 ## **Recommended documents**
 
-* [Connect to Azure Cosmos DB Cassandra API using .Net][Azure Cosmos DB Cassandra API FAQ](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-dotnet#review-the-code)
+* [Connect to Azure Cosmos DB Cassandra API using .Net](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-dotnet#review-the-code)
 * [Connect to Azure Cosmos DB Cassandra API using Java](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java#review-the-code)
 * [Connect to Azure Cosmos DB Cassandra API using Node.js](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-nodejs#review-the-code)
 * [Connect to Azure Cosmos DB Cassandra API using Python](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-python#review-the-code)
