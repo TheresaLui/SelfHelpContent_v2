@@ -33,10 +33,12 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       ```
       git clone https://github.com/Azure/azure-support-scripts $home/CloudDrive/azure-support-scripts
       ```
+
 5. Switch into the folder by running:
       ```
       cd $home/CloudDrive/azure-support-scripts/VMRecovery/Resource Manager
       ```
+
 6. Run the command <!--$createrescuevm-->[createrescuevm]<!--/$createrescuevm--> to create a new "rescue VM" and attach the OS disk of the problem VM to the rescue VM as a data disk.   
 7. Connect to the rescue VM to ensure the newly attached OS disk is online and has a drive letter assigned.
 8. Identify the boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the boot partition and the Windows partition.
@@ -77,6 +79,7 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       nx                      OptOut
       bootstatuspolicy        IgnoreAllFailures
       ```
+
 10. Remove the Initial Machine Configuration (IMC) references in the BCD store by executing the below commands. You must replace these placeholders by the actual values:
 
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
@@ -86,12 +89,14 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imcdevice
       bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imchivename
       ```
+
 11. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 14 to restore the VM.
 12. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
 
       ```
       bcdedit /store [Boot partition]:\boot\bcd /enum
       ```
+
 13. Enable Azure Serial Console by running the following command lines:
 
     ```
@@ -101,5 +106,6 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
     bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
     bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
     ```
+
 14. To restore the VM from the OS disk attached to the rescue VM, run <!--$restorevm-->[restorevm]<!--/$restorevm--> script
 15. Ensure the VM is now responding to RDP connectivity.
