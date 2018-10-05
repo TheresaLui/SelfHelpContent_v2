@@ -18,4 +18,4 @@ Please refer to the following document for a complete reference for using .NET C
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB .NET Core SDK for SQL API: Release notes and resources](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-core)
+[Azure Cosmos DB .NET Core SDK for SQL API: Release notes and resources](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-core)
