@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Subscription payment instrument has expired which may disrupt service"
-	description="Subscription charges fail when expired payment instrument is billed"
+	description="Subscription charges fail when expired payment instrument is billed"
 	infoBubbleText="Subscription payment instrument has expired. See details on the right."
 	service="azure-billing"
 	resource="billing"
@@ -17,14 +17,14 @@
 
 # Subscription payment instrument has expired.
 
-We notice that your subscription has an expired payment instrument and will not charge your next invoice. The payment instrument must be updated before the next due date, or services may be suspended.
+The payment instrument on file for your subscription has expired and we will be unable to charge your next invoice. The payment instrument must be updated before the due date of your next invoice or services may be suspended.
 
 ## **Recommended steps**
 
-To update/change the Payment Instrument, the account owner should the perform below steps in account center. 
-* Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+To update your existing payment instrument or add a new one, the account owner should perform the following steps in Account Center.
+* Sign in to [Account Center](https://account.windowsazure.com/Subscriptions)�as the account administrator.
 * Select a subscription.
-* On the right side of the page,select **Manage payment methods**.
-* Select "+" to add a card or select "Edit" to update the details.
+* On the right side of the page, select **Manage payment methods**.
+* Select "+" to add a new credit or debit card, or select "Edit" to update the details of your existing card.
 * Enter credit or debit card details.
 * Select **Save**.

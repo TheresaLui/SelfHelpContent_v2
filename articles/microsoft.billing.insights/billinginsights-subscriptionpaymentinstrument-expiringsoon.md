@@ -15,16 +15,16 @@
 	cloudEnvironments="public"
 />
 
-# Subscription payment Instrument is expiring soon.
+# Subscription payment instrument is expiring soon.
 
-We notice that the payment instrument, {PIDescription} associated to the subscription {SubscriptionId} is expiring soon.
+The payment instrument, {PIDescription}, associated with the subscription {SubscriptionId} is expiring soon. If this payment instrument expires, we won't be able to process payment for future invoices and services may be suspended.
 
 ## **Recommended steps**
 
-To update/change the Payment Instrument, the account owner should the perform below steps in account center. 
-* Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Administrator.
+To update your existing payment instrument or add a new one, the account owner should perform the following steps in Account Center.
+* Sign in to [Account Center](https://account.windowsazure.com/Subscriptions)�as the account administrator.
 * Select a subscription.
-* On the right side of the page,select **Manage payment methods**.
-* Select "+" to add a card or select "Edit" to update the details.
+* On the right side of the page, select **Manage payment methods**.
+* Select "+" to add a new credit or debit card, or select "Edit" to update the details of your existing card.
 * Enter credit or debit card details.
 * Select **Save**.
