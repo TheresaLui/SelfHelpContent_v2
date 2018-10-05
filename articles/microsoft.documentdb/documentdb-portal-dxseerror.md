@@ -19,4 +19,4 @@ The data explorer uses the native SDK based on the Cosmos DB Account API type to
 Using the native Mongo SDKs to perform CRUD operations against Azure Cosmos DB Mongo API account would help you to resolve this issue.
 
 ## **Recommended documents**
-* [Get started with Azure Cosmos DB Mongo API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started)
+[Get started with Azure Cosmos DB Mongo API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction#how-to-get-started)
