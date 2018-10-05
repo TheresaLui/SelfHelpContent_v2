@@ -19,7 +19,7 @@ cloudEnvironments="public"/>
 
 You can use the Azure Portal or C# console application to modify the scale setting using following the steps:
 
-### Change the scale setting using Azure Portal
+### Change the Scale setting using Azure Portal
 
 1. Browse to Azure Portal 
 2. Add “?feature.enableSettingsBlade=true” at the end of the URL and click enter
@@ -28,7 +28,7 @@ You can use the Azure Portal or C# console application to modify the scale setti
 
 ### Change scale setting using a C# console application
 
-* [Change the scale setting using this sample code](https://github.com/Azure/azure-documentdb-dotnet/blob/95521ff51ade486bb899d6913880995beaff58ce/samples/code-samples/CollectionManagement/Program.cs#L198)
+[Change the scale setting using this sample code](https://github.com/Azure/azure-documentdb-dotnet/blob/95521ff51ade486bb899d6913880995beaff58ce/samples/code-samples/CollectionManagement/Program.cs#L198)
 
 ## I am getting an internal server error when using Azure Cosmos DB data explorer
 
