@@ -13,18 +13,16 @@
     />
 
 # I'm having a problem with self-service password reset
+There are many reasons that password resets could fail. Below is a list of the most common problems and steps to solve them. 
 
 ## **Recommended steps**
 
 **I'm having trouble configuring password reset**
 
-* To learn how to configure password reset for your organization, review this article: [Quick Start: Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
-* Make sure you that you understand the licensing requirements:
-  * You must have at least one license assigned in your organization
-    * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
-    * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
-    * To read more about licensing requirements see the article [Licensing requirements for Azure AD self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing)
-* If you have a question about self-service password reset, review this article: [Password management frequently asked questions](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-faq)
+* [Learn how](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) to configure password reset for your organization. You may also want to review the [licensing requirements](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing). You must have at least one license assigned in your organization.
+  * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
+  * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
+* For additional questions about self-service password reset, review [our FAQ](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-faq)
 
 **I'm getting an error message**
 
@@ -51,16 +49,3 @@ Review this article to find common errors and their solutions: [Troubleshoot sel
 * For more information on Password Writeback configuration read:
   * [How to enable users to reset their Azure AD passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords)
   * [How to enable users to reset or change their on-premises Active Directory passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-or-change-their-ad-passwords)
-
-
-## **Recommended documents**
-
-* [FAQ - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset)
-* [FAQ - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-reset-registration)
-* [FAQ - Password Change](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-faq#password-change)
-* [Troubleshoot - Password Reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-portal)
-* [Troubleshoot - Password Reset Registration](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#troubleshoot-the-password-reset-registration-portal)
-* [How to update your own password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password)
-* [Getting Started with Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)
-* [Best Practices - Password Management](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-best-practices)
-* [Information to include when you need help](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-troubleshoot#contact-microsoft-support)
