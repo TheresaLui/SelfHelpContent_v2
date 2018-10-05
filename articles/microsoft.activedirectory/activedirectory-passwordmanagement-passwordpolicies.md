@@ -16,11 +16,13 @@
 ## **Recommended steps**
 
 **I'm having problems with the password policy for a user**
+
 * The password policy for a user depends on whether the user is cloud only or on-premises.
 * Cloud only users must choose a password that meets the requirements in this article: [Password policies that only apply to cloud user accounts](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)
 * On-premises users must choose a password that meets the on-premises requirements. If an on-premises user is unable to set their password, check your on-premises requirements.
 
 **I don't know how to set or check password expiration policies**
+
 * You can set and check the expiration policy for cloud users in your tenant by using PowerShell. Follow the instructions in this article: [Set or check the password policies by using PowerShell](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#set-or-check-the-password-policies-by-using-powershell)
 * The password expiration policy for on-premises users is set in your on-premises AD. 
 
