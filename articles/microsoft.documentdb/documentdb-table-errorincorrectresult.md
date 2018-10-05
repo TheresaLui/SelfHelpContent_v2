@@ -14,7 +14,7 @@
 
 # Errors for table API in Azure Cosmos DB
 
-Please check if you are on the latest SDK version as they get bug fixes. 
+Please check if you are on the latest SDK version as they get bug fixes which might resolve your issue. 
 
 ## **Recommended documents**
 
