@@ -14,7 +14,7 @@
 
 # Introduction to Azure Cosmos DB REST API
 
-Please refer to below document for a complete reference for using REST API with Azure Cosmos DB.
+Please refer to the following document for a complete reference for using REST API with Azure Cosmos DB.
 
 ## **Recommended documents**
 
