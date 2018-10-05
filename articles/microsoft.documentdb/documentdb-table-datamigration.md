@@ -18,4 +18,4 @@ You can migrate data to Azure Cosmos DB using the data migration tool. It is rec
 
 ## **Recommended documents**
 
-* [Use Data migration tool to migrate your data to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
+[Use Data migration tool to migrate your data to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
