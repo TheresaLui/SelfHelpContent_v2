@@ -35,7 +35,8 @@ Review this article to find common errors and their solutions: [Troubleshoot sel
 
 **I don't want my users to register additional security info for password reset**
 
-* You can pre-populate data (email and phone attributes) for your users using an API, Powershell, or Azure AD Connect. To learn how read:
+You can pre-populate data (email and phone attributes) for your users using an API, Powershell, or Azure AD Connect. To learn how read:
+
   * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data#set-and-read-authentication-data-using-powershell)
   * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data)
 
@@ -46,6 +47,8 @@ Review this article to find common errors and their solutions: [Troubleshoot sel
 2. After data is populated for the user (by the user or by the admin), direct your user to [aka.ms/sspr](https://passwordreset.microsoftonline.com/) so your users can be empowered to reset their own passwords.
 
 3. If users are still experiencing problems they are most likely **federated** or **password hash synched** users. This means there is likely a problem with the Password Writeback service.
-* For more information on Password Writeback configuration read:
+
+For more information on Password Writeback configuration read:
+
   * [How to enable users to reset their Azure AD passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-their-azure-ad-passwords)
   * [How to enable users to reset or change their on-premises Active Directory passwords](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started#enable-users-to-reset-or-change-their-ad-passwords)
