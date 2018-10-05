@@ -21,7 +21,7 @@
 
 <!--issueDescription-->
 
-Connections for database originating from  Subnet : *<!--$SubNetID--> SubNetID <!--/$SubNetID-->**}  has SQL Endpoints <Enabled> but there is no VNet firewall rules on the target, causing the failure for the given duration.<br>
+Connections for database originating from  Subnet : {SubNetID} has SQL Endpoints <Enabled> but there is no VNet firewall rules on the target, causing the failure for the given duration.<br>
  
  ENVIRONMENT: <br>
  ServerName : {ServerName} <br>
