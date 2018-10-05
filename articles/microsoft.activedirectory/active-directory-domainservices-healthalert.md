@@ -11,7 +11,7 @@
 	selfHelpType="diagnostics"
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="14785,16577"
 	cloudEnvironments="public"
 />
 

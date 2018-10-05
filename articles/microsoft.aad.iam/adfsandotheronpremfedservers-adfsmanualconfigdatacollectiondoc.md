@@ -10,7 +10,7 @@
 # Problem with ADFS manual configeration 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with ADFS manual configeration",
   "fileAttachmentHint": null,
   "formElements": [

@@ -1,16 +1,20 @@
-<properties pageTitle="Other problems with password reset" 
-	 description="otherquestionsregardingpasswordmanagement" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32565599" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Other problems with password reset 
+<properties
+    pageTitle="Other problems with password reset"
+    description="otherquestionsregardingpasswordmanagement"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32565599"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="4077bf1c-7ac9-4eb2-8a44-152c9f92d9c5"
+    />
+
+# Other problems with password reset
+
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problems with password reset",
   "fileAttachmentHint": null,
   "formElements": [

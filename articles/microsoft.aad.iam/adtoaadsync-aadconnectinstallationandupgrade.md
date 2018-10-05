@@ -3,14 +3,15 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32404460" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="d57b0cb3-558b-4448-a05e-ad09318d72b4"
 /> 
 # Problem with AAD Connect install/upgrade 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with AAD Connect install/upgrade",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

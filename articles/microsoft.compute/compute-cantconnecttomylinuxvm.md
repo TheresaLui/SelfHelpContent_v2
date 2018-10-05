@@ -6,9 +6,9 @@
     authors="ScottAzure"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32411835,32602159,32547979"
-    resourceTags="linux, redhat, Ubuntu"
-    productPesIds="16470,15797,15571,16342,16065,16454"
+    supportTopicIds="32511135,32547978,32547979,32411835"
+    resourceTags="linux,redhat,Ubuntu"
+    productPesIds="16342,16065,15797,16454,16470"
     cloudEnvironments="public"
 />
 
@@ -30,5 +30,6 @@
  9. Address any Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId), which will migrate the VM to a new Azure host
 
 ## **Recommended documents**
-[Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors) <br>
-[Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
+
+* [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors) <br>
+* [Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)

@@ -3,14 +3,15 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570979,32570976,32586796" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="cfb77bcc-9d23-4a17-8235-0bdbeede9949"
 /> 
 # AAD Connect synchronization problem for a specific object 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "AAD Connect synchronization problem for a specific object",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

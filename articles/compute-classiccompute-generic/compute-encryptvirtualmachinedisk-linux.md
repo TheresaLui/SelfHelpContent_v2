@@ -1,14 +1,14 @@
 <properties
 	pageTitle="configuration and setup/encrypt virtual machine disk"
 	description="configuration and setup/encrypt virtual machine disk"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518038,32518039"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571,15797,16454"
 	cloudEnvironments="public"
 />
 # Configuration and Setup/Encrypt virtual machine disk

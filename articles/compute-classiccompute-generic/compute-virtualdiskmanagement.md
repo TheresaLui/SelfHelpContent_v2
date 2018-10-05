@@ -1,9 +1,9 @@
 <properties
 	pageTitle="configuration and setup/virtual disk management"
 	description="configuration and setup/virtual disk management"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411841"

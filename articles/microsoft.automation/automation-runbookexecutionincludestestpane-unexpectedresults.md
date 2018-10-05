@@ -15,8 +15,8 @@
 # Azure Automation - Runbook Execution (Includes Test Pane and Hybrid Runbook Worker) - Unexpected Results
 
 ## **Recommended documents**
-[Runbook execution](https://docs.microsoft.com/azure/automation/automation-runbook-execution)<br>
-[Troubleshoot runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
-[Troubleshoot runbooks in hybrid runbook workers](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)<br>
-[Add runbook output to help troubleshoot](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Runbook execution](https://docs.microsoft.com/azure/automation/automation-runbook-execution)<br>
+[Issues] [Troubleshoot runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
+[Issues] [Troubleshoot runbooks in hybrid runbook workers](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)<br>
+[How to] [Add runbook output to help troubleshoot](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages)<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

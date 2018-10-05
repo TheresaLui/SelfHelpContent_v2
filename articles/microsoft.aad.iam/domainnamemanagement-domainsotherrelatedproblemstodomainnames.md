@@ -10,7 +10,7 @@
 # Other related problem with Domain Names 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other related problem with Domain Names",
   "fileAttachmentHint": null,
   "formElements": [

@@ -1,12 +1,12 @@
 ﻿<properties
 	pageTitle="Citrix Help"
 	description="Citrix Help"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottAzure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32609703,32567269,32567274,32567278,32567282,32567270,32567275,32567279,32567283,32587973,32567271,32591375,32567276,32567280,32567285,32567272,32567277,32567281,32567286"
+	supportTopicIds="32567269,32567274,32567278,32567282,32567270,32567275,32567279,32567283,32567271,32567276,32567280,32567285,32567272,32567277,32567281,32567286"
 	resourceTags=""
 	productPesIds="16215"
 	cloudEnvironments="public"
@@ -18,4 +18,7 @@
 
 * [Learn more about Citrix on Azure](https://azure.microsoft.com/partners/directory/citrix/)<br>
 * [XenDesktop Essentials Service – Frequently Asked Questions](https://www.citrix.com/global-partners/microsoft/resources/xendesktop-essentials-faq.html)<br>
-* [Support forum for XendDesktop Essentials](https://discussions.citrix.com/forum/1667-xendesktop-essentials/)
+* [VDI with Citrix Cloud](https://www.citrix.com/global-partners/microsoft/azure.html)<br>
+* [Support forum for XendDesktop Essentials](https://discussions.citrix.com/forum/1667-xendesktop-essentials/)<br>
+* [Citrix Virtual Desktops Essentials Service – Frequently Asked Questions](https://www.citrix.com/global-partners/microsoft/resources/citrix-virtual-desktops-essentials-faq.html)<br>
+* [Citrix Virtual Apps Essentials support documentation](https://docs.citrix.com/en-us/citrix-cloud/citrix-virtual-apps-essentials)

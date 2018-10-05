@@ -1,16 +1,20 @@
-<properties pageTitle="Active Directory application dev config issue" 
-	 description="appsdevconfigdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570262" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application dev config issue 
+<properties
+    pageTitle="Active Directory application dev config issue"
+    description="appsdevconfigdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570262"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="2f4fd762-6cfe-4aef-9a03-4d8acce3f857"
+    />
+
+# Active Directory application dev config issue
+
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application dev config issue",
   "fileAttachmentHint": null,
   "formElements": [

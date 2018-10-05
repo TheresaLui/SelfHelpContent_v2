@@ -1,16 +1,20 @@
-<properties pageTitle="Problem deleting a user" 
-	 description="problemdeletinguser" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32586793" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem deleting a user 
+<properties
+    pageTitle="Problem deleting a user"
+    description="problemdeletinguser"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32586793"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="9591fe2f-c0a6-46fb-a394-2fe12162d648"
+    />
+
+# Problem deleting a user
+
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem deleting a user",
   "fileAttachmentHint": null,
   "formElements": [

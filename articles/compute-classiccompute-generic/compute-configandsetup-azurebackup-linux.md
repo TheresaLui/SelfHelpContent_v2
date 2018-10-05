@@ -1,14 +1,14 @@
 <properties
 	pageTitle="configuration and setup/backup"
 	description="configuration and setup/backup"
-	service="microsoft.classiccompute"
+	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565494"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571,15797,16454"
 	cloudEnvironments="public"
 />
 # Configuration and Setup/Backup
