@@ -21,7 +21,7 @@ The payment instrument on file for your subscription has expired and we will be 
 
 ## **Recommended steps**
 
-To update your existing payment instrument or add a new one, the account owner should perform the following steps in Account Center.
+To update your existing payment instrument or add a new one, the account owner should perform the following steps in [Account Center](https://account.windowsazure.com/Subscriptions).
 * Sign in to [Account Center](https://account.windowsazure.com/Subscriptions) as the account administrator.
 * Select a subscription.
 * On the right side of the page, select **Manage payment methods**.
