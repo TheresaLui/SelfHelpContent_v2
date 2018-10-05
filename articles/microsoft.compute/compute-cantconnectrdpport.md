@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="manavis"
-	displayOrder="1"
+	displayOrder="30"
 	selfHelpType="resource"
 	supportTopicIds="32615526"
 	resourceTags="windows, windowsSQL"

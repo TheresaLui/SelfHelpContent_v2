@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="manavis"
-	displayOrder="1"
+	displayOrder="38"
 	selfHelpType="resource"
 	supportTopicIds="32615534"
 	resourceTags="windows, windowsSQL"
@@ -17,6 +17,7 @@
 ## **Recommended steps**
 
 Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) and open a CMD instance to query the current status
+
 1. Query the firewall rules using any of the following methods:
 
 	* Using the Display Name as a parameter:

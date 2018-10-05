@@ -4,7 +4,7 @@
               service="microsoft.compute"
               resource="virtualmachines"
               authors="tiag"
-              displayOrder="1"
+              displayOrder="33"
               selfHelpType="resource"
               supportTopicIds="32615529"
               resourceTags="linux,redhat,Ubuntu"
