@@ -32,6 +32,7 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 	```
 	netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
 	```   
+
 2. If you see the rule disabled, then you can enable it as the following:
 ```
 netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
