@@ -18,8 +18,8 @@ Please refer to the following documents for a complete reference for using Node.
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB: Build a Node.js app using JavaScript SDK to manage Azure Cosmos DB SQL API data](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-nodejs)
-* [Azure Cosmos DB: Migrate an existing Node.js MongoDB web app](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-nodejs)
-* [Azure Cosmos DB: Build a Node.js application by using Gremlin API](https://docs.microsoft.com/azure/cosmos-db/create-graph-nodejs)
-* [Quickstart: Build a Table API app with Node.js and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-table-nodejs)
-* [Quickstart: Build a Cassandra app with Node.js and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-nodejs)
+[Azure Cosmos DB: Build a Node.js app using JavaScript SDK to manage Azure Cosmos DB SQL API data](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-nodejs)
+[Azure Cosmos DB: Migrate an existing Node.js MongoDB web app](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-nodejs)
+[Azure Cosmos DB: Build a Node.js application by using Gremlin API](https://docs.microsoft.com/azure/cosmos-db/create-graph-nodejs)
+[Quickstart: Build a Table API app with Node.js and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-table-nodejs)
+[Quickstart: Build a Cassandra app with Node.js and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-nodejs)
