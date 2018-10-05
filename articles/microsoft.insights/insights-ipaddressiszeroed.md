@@ -6,6 +6,8 @@
     authors="mcosner"
     displayOrder="15"
     selfHelpType="resource"
+    productPesIds="15693"
+    supportTopicIds=""
     cloudEnvironments="public"
  />
 # IP addresses my app sends are all 0.0.0.0

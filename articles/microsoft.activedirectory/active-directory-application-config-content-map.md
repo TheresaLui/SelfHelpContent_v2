@@ -6,7 +6,7 @@
   authors="ajamess"
   selfHelpType="resource"
   cloudEnvironments="public"
-  resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
+  resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
   displayOrder="107"
  />
 
