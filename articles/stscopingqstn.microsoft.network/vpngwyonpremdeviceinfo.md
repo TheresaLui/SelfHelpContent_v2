@@ -90,9 +90,7 @@
 				}, {
 					"value": "Other - Please Specify",
 					"text": "Other - Please Specify"
-
 				}
-
 			],
 			"required": true
 		}, {
@@ -101,7 +99,6 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-		
 		}, {
 			"id": "additional_details",
 			"order": 5,
