@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent login failures. See details on the right."
 	service="microsoft.adfs"
 	resource="Tenant"
-	authors="madpatel"
+	authors="madhavpatel6"
 	displayOrder="1"
 	articleId="adfs_invalid_issuerid_regex"
 	selfHelpType="diagnostics"
@@ -14,7 +14,6 @@
 	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 />
 
-<!-- This does not get displayed in ASC -->
 # Sign-In issues into Azure AD with AD FS due to improper IssuerID claim rule
 
 ## What is the issue?
