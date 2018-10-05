@@ -3,9 +3,10 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32565592" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="5ce95b3b-058d-4b0f-b1f6-539bc069294a"
 /> 
 # Azure AD Connect issue with database 
 ---

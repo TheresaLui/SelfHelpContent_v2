@@ -16,5 +16,9 @@
 
 ## **Recommended documents**
 
-* [Overview of Azure Metadata Service for **Linux**: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)
-* [Overview of Azure Metadata Service for **Windows**: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)
+* [Overview of Azure Metadata Service: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
+* [Enabling and Disabling Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events#enabling-and-disabling-scheduled-events)<br>
+* [Watch a Scheduled Events Demo](https://channel9.msdn.com/Shows/Azure-Friday/Using-Azure-Scheduled-Events-to-Prepare-for-VM-Maintenance)<br>
+* [Review the Scheduled Events code samples](https://github.com/Azure-Samples/virtual-machines-scheduled-events-discover-endpoint-for-non-vnet-vm)<br>
+* [Read more about the APIs available in the Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service)<br>
+* [Learn about planned maintenance for Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/planned-maintenance)

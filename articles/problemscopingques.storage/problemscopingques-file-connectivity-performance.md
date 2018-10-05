@@ -26,7 +26,7 @@
 			"controlType": "textbox",
 			"displayLabel": "File Share or File path",
 			"watermarkText": "'FileShare' or 'FileShare/FileName'",
-			"required": false
+			"required": true
 		}, {
 			"id": "additional_details",
 			"order": 3,

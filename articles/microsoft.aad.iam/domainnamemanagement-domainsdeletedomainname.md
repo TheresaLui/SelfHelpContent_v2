@@ -1,13 +1,17 @@
-<properties pageTitle="Problem with Domains Name domains delete" 
-	 description="domainsdeletedomainname" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045808" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with Domains Name domains delete 
+<properties
+    pageTitle="Problem with Domains Name domains delete"
+    description="domainsdeletedomainname"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045808"
+    productPesIds="14785,16578"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="a8f4e38a-eaf1-43c4-b846-bd216f8631f0"
+    />
+
+# Problem with Domains Name domains delete
+
 ---
 {
   "resourceRequired": false,

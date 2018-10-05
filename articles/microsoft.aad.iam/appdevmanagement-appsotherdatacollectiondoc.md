@@ -1,13 +1,17 @@
-<properties pageTitle="Active Directory application other issue" 
-	 description="appsotherdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32369672,32570274" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application other issue 
+<properties
+    pageTitle="Active Directory application other issue"
+    description="appsotherdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570274"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="9e77fb24-54b8-4ce3-9855-cf722faf17b0"
+    />
+
+# Active Directory application other issue
+
 ---
 {
   "resourceRequired": true,

@@ -6,7 +6,7 @@
 	authors="timbasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32595634, 32595635, 32595636, 32595637, 32595638, 32595639, 32595640"
+	supportTopicIds="32595634, 32595635, 32595636, 32595637, 32595638, 32595639, 32595640, 32613313"
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
@@ -17,6 +17,7 @@
 ## **Recommended documents**
 
 * [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
+* [kube-advisor is a diagnostic tool for Kubernetes clusters](https://github.com/Azure/kube-advisor)<br>
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
 * [Create an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/create-cluster)<br>
