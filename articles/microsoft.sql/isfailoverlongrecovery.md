@@ -1,7 +1,7 @@
 ```javascript
 <properties
 	pageTitle="Database connectivity - Failover downtime LongRecovery"
-	description="IsFronzenVM"
+	description="failoverlongrecovery"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
