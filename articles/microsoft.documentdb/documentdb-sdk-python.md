@@ -14,7 +14,7 @@
 
 # Introduction to Azure Cosmos DB Python SDK
 
-Please refer to below documents for a complete reference for using Python with Azure Cosmos DB.
+Please refer to the following documents for a complete reference for using Python with Azure Cosmos DB.
 
 ## **Recommended documents**
 
