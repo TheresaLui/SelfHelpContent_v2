@@ -18,4 +18,4 @@ Please refer to the following document for a complete reference for using REST A
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB: REST API Reference](https://docs.microsoft.com/rest/api/cosmos-db/)
+[Azure Cosmos DB: REST API Reference](https://docs.microsoft.com/rest/api/cosmos-db/)
