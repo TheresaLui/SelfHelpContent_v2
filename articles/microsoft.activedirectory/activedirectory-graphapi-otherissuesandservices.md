@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Other Microsoft Graph issues"
-	description="More information about calling Microsoft Graph directory APIs and some of the common problems that developers encounter."
+	description="More information about calling Microsoft Graph APIs and some of the common problems that developers encounter."
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
