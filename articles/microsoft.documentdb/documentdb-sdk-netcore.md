@@ -14,7 +14,7 @@
 
 # Introduction to Azure Cosmos DB .NET Core SDK
 
-Please refer to below document for a complete reference for using .NET Core SDK with Azure Cosmos DB.
+Please refer to the following document for a complete reference for using .NET Core SDK with Azure Cosmos DB.
 
 ## **Recommended documents**
 
