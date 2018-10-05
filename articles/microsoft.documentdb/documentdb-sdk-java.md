@@ -18,8 +18,8 @@ Please refer to the following documents for a complete reference for using Java 
 
 ## **Recommended documents**
 
-[Azure Cosmos DB: Create a document database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-java)
-[Azure Cosmos DB: Build a MongoDB API console app with Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-java)
-[Azure Cosmos DB: Create a graph database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-graph-java)
-[Quickstart: Build a Table API app with Java and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-table-java)
+[Azure Cosmos DB: Create a document database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-java)<br>
+[Azure Cosmos DB: Build a MongoDB API console app with Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-java)<br>
+[Azure Cosmos DB: Create a graph database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-graph-java)<br>
+[Quickstart: Build a Table API app with Java and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-table-java)<br>
 [Quickstart: Build a Cassandra app with Java and Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java)
