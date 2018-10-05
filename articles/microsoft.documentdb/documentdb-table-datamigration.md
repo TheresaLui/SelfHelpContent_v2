@@ -14,7 +14,7 @@
 
 # Migrating data to Azure Cosmos DB Table API
 
-You can migrate data to Azure Cosmos DB using the data migration tool. It is recommended to increase the throughput of your collection for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate data in less time.
+You can migrate data to Azure Cosmos DB using the data migration tool. It is recommended to increase the throughput of your collection for the duration of migration. With higher throughput, you can avoid rate limiting and migrate data in less time.
 
 ## **Recommended documents**
 
