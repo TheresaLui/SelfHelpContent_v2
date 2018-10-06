@@ -1,11 +1,10 @@
-```javascript
 <properties
 	pageTitle="Database connectivity - Failover downtime"
 	description="failoverdowntimeshort"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="hsuyiting"
+	authors="subbu-kandhaswamy"
 	displayOrder=""
 	articleId="FailoverDowntimePlanned_DDE3C31F-19D2-473F-9DDF-5AB905E1F0B0"
 	diagnosticScenario=""
@@ -15,7 +14,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
-```
+
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
