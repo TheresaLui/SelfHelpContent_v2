@@ -1,11 +1,10 @@
-```javascript
 <properties
 	pageTitle="Database connectivity - Failover downtime LongRecovery"
 	description="failoverlongrecovery"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="hsuyiting"
+	authors="subbu-kandhaswamy"
 	displayOrder=""
 	articleId="PlanedFailoverLR_1FBC4A97-DC3A-4DF9-86C0-46B00AF0F733"
 	diagnosticScenario=""
@@ -15,7 +14,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
-```
+
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
