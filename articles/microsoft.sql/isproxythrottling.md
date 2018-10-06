@@ -1,4 +1,3 @@
-```javascript
 <properties
 	pageTitle="Database connectivity - Proxy Throttling issue"
 	description="Proxythrottle"
@@ -15,7 +14,6 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
-```
 
 # We ran diagnostics on your resource and found an issue
 
