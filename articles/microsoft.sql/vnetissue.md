@@ -1,4 +1,19 @@
-
+<properties
+	pageTitle="Database Connectivity issue due VNet Rules"
+	description="VNetRuleIssue"
+	infoBubbleText="Found recent connectivity issue. See details on the right."
+	service="microsoft.sql"
+	resource="servers"
+	authors="subbu-kandhaswamy"
+	displayOrder=""
+	articleId="vNetIssue_96EAE137-BB69-4B9E-863A-72D23CBFE32F"
+	diagnosticScenario=""
+	selfHelpType="rca"
+	supportTopicIds="32589555"
+	resourceTags=""
+	productPesIds="13491"
+	cloudEnvironments="public"
+/>
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
