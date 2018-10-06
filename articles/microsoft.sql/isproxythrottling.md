@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="hsuyiting"
+	authors="subbu-kandhaswamy"
 	displayOrder=""
 	articleId="IsProxyThrottling_0A86E0B4-1C26-4ACD-9B95-C6296829B8D8"
 	diagnosticScenario=""
