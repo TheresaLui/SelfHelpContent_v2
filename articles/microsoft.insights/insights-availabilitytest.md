@@ -1,6 +1,7 @@
 <properties 
     pageTitle="I am having problems with my Availability Tests"
     description="General troubleshooting guide for Availability Tests."
+    infoBubbleText="Some suggestions have been found to help solve your availability test issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -33,5 +34,4 @@
 4. Is the issue intermittent?
 
 ## **Known issues**
-1. You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more.
-2. 
+1. You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.

@@ -1,6 +1,7 @@
 <properties 
     pageTitle="I am having problems with my JavaScript SDK data"
     description="General troubleshooting guide for JavaScript SDK."
+    infoBubbleText="Some suggestions have been found to help solve your JavaScript SDK issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"

@@ -1,6 +1,7 @@
 <properties 
     pageTitle="I should have received an E-mail for an alert that fired"
     description="General troubleshooting guide for missing e-mail from alerts."
+    infoBubbleText="Some suggestions have been found to help solve your missing e-mail issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -9,7 +10,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32422336"
+    supportTopicIds="32546625"
  />
 # I should have received an E-mail for an alert that fired
 ## **Recommended steps**
