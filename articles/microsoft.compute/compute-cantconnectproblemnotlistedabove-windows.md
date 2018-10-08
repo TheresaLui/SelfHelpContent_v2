@@ -5,7 +5,7 @@
               resource=""
               authors="tiag"
               displayOrder="35"
-              selfHelpType="resource"
+              selfHelpType="generic"
               supportTopicIds="32615531"
               resourceTags=""
               productPesIds="14749"
