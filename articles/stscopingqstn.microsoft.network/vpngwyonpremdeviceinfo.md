@@ -4,7 +4,7 @@
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
 	articleid="ProvideOnPremDevice"
-	supportTopicIds="32591152, 32591149, 32591158,"
+	supportTopicIds="32591152, 32591149, 32591158"
 	productPesIds="16094"
 	cloudEnvironments="public"
 	schemaVersion="1"
