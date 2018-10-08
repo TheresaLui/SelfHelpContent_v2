@@ -5,14 +5,10 @@
 	service=""
 	resource=""
 	authors=""
-	displayOrder=""
 	articleId=""
-	diagnosticScenario=""
-	selfHelpType=""
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""​
-	cloudEnvironments=""
+	diagnosticScenario="health_diagnostic"
+	selfHelpType="health"
+	cloudEnvironments="public"
 />
 
 # <-- This is the title of the article - This is not presented in the portal --> 
