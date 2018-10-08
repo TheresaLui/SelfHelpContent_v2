@@ -13,9 +13,9 @@
     productPesIds="15693" 
     supportTopicIds="32402632"
  />
- # I am having problems with my Java SDK data
- 
- ## **Recommended steps**
+# I am having problems with my Java SDK data
+
+## **Recommended steps**
 1. Review the Java SDK [troubleshooting guide](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot)
   * Specifically the [No Data](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot#no-data) guide
 2. Enable the [SDK Logs](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) for errors
