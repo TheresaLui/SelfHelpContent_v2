@@ -21,3 +21,6 @@ Connections for database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> o
 
 We identified that connections from client(s) in one or more Subnets are failing to connect to the database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->. This is caused by the VNet firewall rules for the {Server Name} not being configured for the Subnet(s) where the client is connecting from.  To properly allow connections from a VNet you will need to enable a firewall rule for the VNet/SubNet from which the client(s) are connecting. This is in addition to the SQL Endpoints that were enabled already for the respective subnet(s).
 <!--/issueDescription-->
+
+## **Recommended Documents**
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview
