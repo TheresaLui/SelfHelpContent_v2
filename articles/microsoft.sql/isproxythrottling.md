@@ -24,3 +24,9 @@ When using the proxy method, only the 1433 outbound port from the clients networ
 
 If this is causing issues for your application workload you can force all connections to your database to use the redirect method to connect, avoiding the potential of this scenario occurring.
 <!--/issueDescription-->
+
+## **Recommended Documents**
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-architecture
+
+This article discusses the port ranges for connections inside and outside of Azure due to the connection policy. 
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12
