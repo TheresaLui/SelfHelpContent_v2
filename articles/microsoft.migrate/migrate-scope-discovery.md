@@ -20,7 +20,7 @@
 Azure Migrate allows you to split the discovery of your VMs to ensure that VMs of one tenant are not discovered in another tenant's subscription. [Learn more](https://docs.microsoft.com/azure/migrate/resources-faq#how-can-i-discover-a-multi-tenant-environment-in-azure-migrate) about how you can split the discovery in Azure Migrate.
 
 ### **How can I discover a large environment in Azure Migrate?**
-Azure Migrate allows you to discover upto 1500 VMs in a single discovery. To discover a large environment, you can split your discoveries into multiple projects. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-scale-assessment) about how you can discover a large environment. 
+Azure Migrate allows you to discover up to 1500 VMs in a single discovery. To discover a large environment, you can split your discoveries into multiple projects. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-scale-assessment) about how you can discover a large environment. 
 
 ### **What data is collected by Azure Migrate?**
 Azure Migrate supports two kinds of discovery, appliance-based discovery and agent-based discovery. The appliance-based discovery collects metadata about the on-premises VMs, the complete list of metadata collected by the appliance is listed [here](https://docs.microsoft.com/azure/migrate/resources-faq#what-data-is-collected-by-azure-migrate).
