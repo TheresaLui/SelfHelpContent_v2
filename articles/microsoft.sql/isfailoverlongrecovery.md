@@ -28,8 +28,6 @@ In this scenario, the large part of the reconfiguration duration totaling <!--$R
 In addition, building in resiliency to your application to account for these situations can help create transparency to the end user when these transient scenarios occur. For  information about connectivity in Azure SQL DB, how to implement Retry Logic, and to understand common errors in Azure SQL DB refer - https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors.  Our product team is constantly working to minimize these situations and their impact to your database availability.
 
 ## **Recommended Documents**
-https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors
-
-https://docs.microsoft.com/en-us/azure/sql-database/sql-database-use-batching-to-improve-performance 
-
-https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-issues
+* [Database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors)
+* [How to use batching to improve SQL Database application performance](https://docs.microsoft.com/azure/sql-database/sql-database-use-batching-to-improve-performance)
+* [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues) 
