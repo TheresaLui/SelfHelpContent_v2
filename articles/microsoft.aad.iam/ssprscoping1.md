@@ -22,14 +22,14 @@
       "controlType": "textbox",
       "displayLabel": "What is the username of the admin who is resetting the user's password?",
       "content": null,
-      "watermarkText": "For example 'sarah@contoso.com'.",
+      "watermarkText": "For example 'sarah@contoso.com'",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
       "required": true,
       "maxLength": 0,
-      "useAsAdditionalDetails": false,
+      "useAsAdditionalDetails": true,
       "numberOfLines": 0
     },
   {
