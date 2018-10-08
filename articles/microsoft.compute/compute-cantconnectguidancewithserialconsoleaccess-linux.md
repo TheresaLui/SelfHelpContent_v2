@@ -1,14 +1,14 @@
 <properties  
               pageTitle="I can't connect to my Linux VM"
               description="I can't connect to my Linux VM"
-              service="microsoft.compute"
-              resource="virtualmachines"
+              service=""
+              resource=""
               authors="tiag"
               displayOrder="32"
-              selfHelpType="resource"
+              selfHelpType="generic"
               supportTopicIds="32615528"
-              resourceTags="linux,redhat,Ubuntu"
-              productPesIds="14749"
+              resourceTags=""
+              productPesIds="15571,16215,16065,15797,16454,16470"
               cloudEnvironments="public"
 />
 
