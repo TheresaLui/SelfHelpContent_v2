@@ -29,5 +29,7 @@ In addition, building in resiliency to your application to account for these sit
 
 ## **Recommended Documents**
 https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors
+
 https://docs.microsoft.com/en-us/azure/sql-database/sql-database-use-batching-to-improve-performance 
+
 https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-issues
