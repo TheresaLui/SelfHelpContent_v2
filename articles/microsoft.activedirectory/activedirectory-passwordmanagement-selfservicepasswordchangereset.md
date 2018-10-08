@@ -20,6 +20,7 @@ There are many reasons that password resets could fail. Below is a list of the m
 **I'm having trouble configuring password reset**
 
 * [Learn how](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started) to configure password reset for your organization. You may also want to review the [licensing requirements](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-licensing). You must have at least one license assigned in your organization.
+
   * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
   * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
 * For additional questions about self-service password reset, review [our FAQ](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-faq)
