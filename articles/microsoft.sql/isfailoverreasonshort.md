@@ -23,6 +23,4 @@ Between <!--$StartTime-->StartTime<!--/$startTime--> and <!--$EndTime-->EndTime<
 The Azure infrastructure has the ability to dynamically reconfigure servers for planned operations such as load balancing and updates or unplanned occurrences such as health recoveries from software or hardware issues. In this scenario this was due to planned operation(s) specifically related to <!--$FailoverPlannedReason-->FailoverPlannedReason<!--/$FailoverPlannedReason-->.  In general, reconfigurations are short in duration and below 60 seconds.
 <!--/issueDescription-->
 
-<!--additionalInfo-->
 Building in resiliency to your application to account for these situations can help create transparency to the end user when these transient scenarios occur. For  information about connectivity in Azure SQL DB, how to implement Retry Logic, and to understand common errors in Azure SQL DB refer - https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors. Meanwhile our product team is constantly working to minimize these situations and their impact to your database availability.
-<!--/additionalInfo-->
