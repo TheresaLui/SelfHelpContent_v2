@@ -8,7 +8,7 @@
     articleId="insights_javasdk"
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
-    selfHelpType="resource"
+    selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
     supportTopicIds="32402632"
@@ -37,3 +37,8 @@
 
 ## **Known issues**
 1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine looses connectivity
+
+## Recommended Documents
+[Getting Started](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br/>
+[Java SDK GitHub](https://github.com/Microsoft/ApplicationInsights-Java)<br/>
+[Troubleshooting](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)<br/>

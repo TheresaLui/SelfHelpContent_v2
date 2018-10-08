@@ -7,7 +7,7 @@
     authors="debugthings"
     articleId="insights_availabilitytests"
     displayOrder="8"
-    selfHelpType="resource"
+    selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
     supportTopicIds="32422336"
