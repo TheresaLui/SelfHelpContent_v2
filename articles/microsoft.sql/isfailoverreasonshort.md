@@ -27,6 +27,6 @@ Building in resiliency to your application to account for these situations can h
 
 ## **Recommended Documents**
 
-https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-issues
- 
-https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors
+* [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)
+
+* [Database-connection-errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors) 
