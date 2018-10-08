@@ -1,0 +1,18 @@
+<properties
+    pageTitle="General Guidance or Advisory"
+    description="General Guidance or Advisory"
+    service="microsoft.afd"
+    resource="afd"
+    authors="jtwalters25"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32614233"
+    resourceTags=""
+    productPesIds="16611"
+    cloudEnvironments="public"
+/>
+
+# General Guidance or Advisory
+
+## **Recommended documents**
+[Azure Front Door Service Documentation (Preview)](https://docs.microsoft.com/en-us/azure/frontdoor/)<br>
