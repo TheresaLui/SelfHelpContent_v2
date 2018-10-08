@@ -24,3 +24,9 @@ The Azure infrastructure has the ability to dynamically reconfigure servers for 
 <!--/issueDescription-->
 
 Building in resiliency to your application to account for these situations can help create transparency to the end user when these transient scenarios occur. For  information about connectivity in Azure SQL DB, how to implement Retry Logic, and to understand common errors in Azure SQL DB refer - https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors. Meanwhile our product team is constantly working to minimize these situations and their impact to your database availability.
+
+## **Recommended Documents**
+
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-issues
+ 
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors
