@@ -34,5 +34,5 @@ Please follow below steps to check connection:
 
 1. Try to ping the Servername.com from the Collector machine.
 2. If step 1 fails, try to connect to the vCenter server over IP address.
-3. if vCenter server is configured with non-default port, identify the correct port number to connect to the vCenter.
+3. If vCenter server is configured with non-default port, identify the correct port number to connect to the vCenter.
 4. Finally check if the vCenter server is up and running.
