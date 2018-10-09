@@ -7,7 +7,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 />
-# Exchanges and Refunds
+# Azure Cost Management
 * Subscription ID: <br>
 * Email ID accessing the subscription: <br>
 * Screenshot of the error: <br>
