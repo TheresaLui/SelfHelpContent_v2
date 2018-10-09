@@ -4,7 +4,7 @@
     infoBubbleText="Found recent kafka cluster scale down failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="v-anreg"
+    authors="anirudhrege"
     displayOrder="30"
     articleId="Hdi_Kafka_ScaleDownFailure"
     diagnosticScenario="HDInsightKafkaScaleDownInsight"
