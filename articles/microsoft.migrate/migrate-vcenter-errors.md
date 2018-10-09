@@ -21,7 +21,7 @@
 When you get this error follow below steps to resolve the error. 
 
 1. If you are not on the latest Collector version, upgrade the Collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector) and check if the issue is resolved.
-2. If you already have the latest Collector version, then manually install [VMware PowerCLI 6.5.2](https://www.powershellgallery.com/packages/VMware.PowerCLI/6.5.2.6268016) and check if the issue is resoloved.
+2. If you already have the latest Collector version, then manually install [VMware PowerCLI 6.5.2](https://www.powershellgallery.com/packages/VMware.PowerCLI/6.5.2.6268016) and check if the issue is resolved.
 3. If that does not work, remove VMware.Vim.dll and VimService65.dll dlls present in the 'C:\Program Files\ProfilerService' folder and restart the Azure Migrate Collector service.
 
 **Unable to connect to vCenter Server "Servername.com:9443**
