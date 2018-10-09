@@ -7,24 +7,25 @@
     authors="maha-arun"
     displayOrder="29"
     articleId="Hdi_NetworkConnectivity_NodeLost"
-    selfHelpType="resource"
+    diagnosticScenario="HDInsightNetworkConnectivityInsight"
+    selfHelpType="diagnostics"
     supportTopicIds="32588427"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public"
 />
 
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
 
- Following nodes of your cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed to respond to ping.
+ We pinged all the nodes in your HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> and the nodes listed below consistently failed to respond.
 
 ### Failing nodes
 <!--$FailedNodeInformation-->[FailedNodeInformation]<!--/$FailedNodeInformation-->
 
 ## **Recommended steps**
- To start troubleshooting this connectivity failure with the nodes, we need the following log files from the failing nodes. Run the following commands to collect and compress the logs to root directory and send the compressed files to the support professional.
+ To start troubleshooting this connectivity failure with the nodes, we need the following log files from the failing nodes. Run the following commands to collect and compress the logs to home directory and send the compressed files to the support professional.
 
 1. tar czvf ~/syslog.tgz /var/log/syslog*
 2. tar czvf ~/kernlog.tgz /var/log/kern.log*
