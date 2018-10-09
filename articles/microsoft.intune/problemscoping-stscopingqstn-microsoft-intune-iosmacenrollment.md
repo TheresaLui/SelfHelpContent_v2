@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
+   pageTitle="Scoping questions for Enrollment Issues"
+   description="Scoping questions for Enrollment Issues"
    authors="mackie1604"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
+   supportTopicIds="32530435"
   productPesIds="15584"
   cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="7c2c7e53-695a-431b-ae06-93e7d4f153f8"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# Intune iOS/Mac Enrollment Issues
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,16 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Issue description"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Make, model and OS version of device"
+                },
+                {
+                    "text": "Attach Company Portal Logs"
+                },
+                {
+                    "text": "Attach screenshots and error messages<br>"
                 }
             ]
         },

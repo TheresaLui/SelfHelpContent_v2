@@ -1,15 +1,17 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Configuring custom domain names"
+	description="Configuring custom domain names"
+	service="microsoft.web"
+	authors="shrahman"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32440122"
+	productPesIds="14748"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="9314bc56-da73-49ab-951c-93cba03e0ab2"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
+
+# Configuring custom domain names
 
 ---
 {
@@ -24,10 +26,16 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "What is the name of the App Service?"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "What is the custom domain?"
+                },
+                {
+                    "text": "Is this an App Service Domain or an externally hosted domain?"
+                },
+                {
+                    "text": "What error are you seeing and when are you seeing it?"
                 }
             ]
         },

@@ -1,16 +1,17 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for IP configuration"
+	description="IP configuration"
+	service="microsoft.web"
+	authors="shrahman"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32542210"
+	productPesIds="14748"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="1b5ede53-d34b-4f95-933f-92355b9f7e7f"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
 
+# IP configuration
 ---
 {
     "resourceRequired": false,
@@ -24,10 +25,13 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "What is the name of your App Service?"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Does your App Service have a custom domain with an IP-based SSL binding on it?"
+                },
+                {
+                    "text": "Are you looking to set up IP restrictions or are the current settings not working?"
                 }
             ]
         },

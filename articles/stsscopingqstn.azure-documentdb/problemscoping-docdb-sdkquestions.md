@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+   pageTitle="Scoping questions for DocumentDb SDK issues"
+   description="Scoping questions for DocumentDb SDK issues"
+   authors="bharathsreenivas"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
+   supportTopicIds="32597483,32597486,32597487,32597530,32597534,32597543,32597553"
+  productPesIds="15585"
   cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="71e1d3f8-711d-471d-97ef-b6a99e84e2df"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# DocumentDb SDK Issues
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,13 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Cosmos DB SDK Version"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Platform Version (eg:- .NET 4.5/ Python 3.5/ Node.js v4.2/ JDK 7)"
+                },
+                {
+                    "text": "Host Environment (OS/ VM Type)"
                 }
             ]
         },

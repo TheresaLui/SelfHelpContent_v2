@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Other General Subscription Questions"
+	description="Scoping questions for Other General Subscription Questions"
+	authors="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32454929"
+	productPesIds="15660"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="e5b28325-284e-40ce-aa2b-d182995f93ea"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# Other General Subscription Questions
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,7 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
-                },
-                {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "If you would like to increase your compute cores subscription limit quota, please select the problem type \"Compute/VM (cores/vCPUs) subscription limit increases\" instead.   This will allow our support team to more efficiently process your request."
                 }
             ]
         },

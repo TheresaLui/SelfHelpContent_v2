@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+   pageTitle="Scoping questions for VPN Gateway Issues under VNet ticket path"
+   description="Scoping questions for VPN Gateway Issues under VNet ticket path"
+   authors="radwiv"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+   supportTopicIds="32584874,32584876,32584878,32584880,32584881,32584882"
+   productPesIds="15526"
+   cloudEnvironments="public, MoonCake"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="fb9dcbb1-f15b-4f2b-b9f4-913cac1534a3"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# VPN Gateway Issues under Virtual Network ticket path
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,13 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Issue description"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
+                },
+                {
+                    "text": "Upload your configuration file to speed the support process"
                 }
             ]
         },

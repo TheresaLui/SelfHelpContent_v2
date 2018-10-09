@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+   pageTitle="Scoping questions for HDInsight Spark Issues"
+   description="Scoping questions for HDInsight Spark Issues"
+   authors="bharathb"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
+   supportTopicIds="32511173,32511212,32511213,32511216"
+  productPesIds="15078"
   cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="c6ed4f84-9229-42a6-9adb-220a0d6acd12"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# HDInsight Spark Issues
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,16 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "How was the Spark job submitted? (Jupyter/Livy/Command Line)"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "What is the programming language used? (PySpark/Scala)"
+                },
+                {
+                    "text": "What Spark Components were in use? (Streaming, MLLib, SQL, GraphX)"
+                },
+                {
+                    "text": "Details about executor and driver configuration (Number of cores, memory)"
                 }
             ]
         },

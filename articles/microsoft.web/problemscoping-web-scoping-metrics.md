@@ -1,16 +1,17 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Metrics are not available or are incorrect"
+	description="Configuration and Management/Metrics are not available or are incorrect"
+	service="microsoft.web"
+	authors="shrahman"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32581617"
+	productPesIds="14748"
+	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="bf000ecb-9268-4834-bb7f-6eced0867ded"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
 
+# Metrics are not available or are incorrect
 ---
 {
     "resourceRequired": false,
@@ -24,10 +25,10 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Which metric is not being shown or is incorrect?"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Is the metric only missing for a specific \"Time range\" view (i.e past hour, past 24 hours etc.)?"
                 }
             ]
         },

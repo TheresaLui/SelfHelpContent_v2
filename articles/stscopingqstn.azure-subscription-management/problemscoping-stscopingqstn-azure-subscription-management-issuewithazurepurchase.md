@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Issue with Azure purchase"
+	description="Scoping questions for Subscription Management/Issue with Azure purchase"
+	authors="AlexKuriatnyk"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32454924,32549154,32549157,32549161,32549160,32454931,32549155,32549158,32549162,32549159"
+	productPesIds="15660"
+	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="8297852a-5e4f-41d8-ae24-9e37aaa5714a"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# Issue with Azure purchase
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,13 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Issue description"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Phone number used during sign-up"
+                },
+                {
+                    "text": "Email address used during sign-up"
                 }
             ]
         },

@@ -1,15 +1,19 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for PHP"
+	description="PHP"
+	service="microsoft.web"
+	authors="shrahman"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32444083"
+	productPesIds="14748"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="793d003c-aff7-4810-9edf-8bbeccf38e7c"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
+
+# PHP
+
+
 
 ---
 {
@@ -24,10 +28,7 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
-                },
-                {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Have you enabled PHP error log?"
                 }
             ]
         },

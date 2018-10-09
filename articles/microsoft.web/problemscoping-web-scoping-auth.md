@@ -1,15 +1,18 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Authentication and authorization"
+	description="Authentication and authorization"
+	service="microsoft.web"
+	authors="shrahman"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32542207"
+	productPesIds="14748"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="0b0cb739-3aa0-45da-91c5-17e78c0b33b4"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
+
+# Authentication and authorization
+
 
 ---
 {
@@ -24,10 +27,13 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Are you using ADAL?"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Is this a problem managing the App in the Portal?"
+                },
+                {
+                    "text": "Are you configuring your application for authentication\\authorization using the Portal configuration in Azure App Service?"
                 }
             ]
         },

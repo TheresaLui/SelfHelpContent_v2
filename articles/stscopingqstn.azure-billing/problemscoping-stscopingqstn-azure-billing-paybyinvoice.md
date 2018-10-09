@@ -1,15 +1,16 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Pay by InvoiceStorage/Development"
+	description="Scoping questions for Pay by Invoice"
+	authors="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32454866"
+	productPesIds="15659"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="10ced282-0269-4229-86c4-5cdb943f83dd"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
+
+# Pay by Invoice
 
 ---
 {
@@ -23,11 +24,17 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": [
+		{
+		    "text": "Enter the following information"
+		},
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Company name"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Billing address"
+                },
+                {
+                    "text": "[Account administrator's email address](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#check-the-account-administrator-of-the-subscription)"
                 }
             ]
         },

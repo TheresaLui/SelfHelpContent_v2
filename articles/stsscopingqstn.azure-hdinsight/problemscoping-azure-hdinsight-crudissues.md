@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+   pageTitle="Scoping questions for HDInsight CRUD Issues"
+   description="Scoping questions for HDInsight CRUD Issues"
+   authors="ansi12"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
+   supportTopicIds="32588502"
+  productPesIds="15078"
   cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="903e6d9f-d245-4e84-be5e-7d5c6b947da6"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# HDInsight CRUD Issues
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,10 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Indicate how the create request was submitted (Portal/Powershell/SDK/CLI)"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Upload your ARM template after redacting any sensitive data"
                 }
             ]
         },

@@ -1,16 +1,15 @@
 <properties
-   pageTitle="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   description="Scoping questions for Intune Insider Sign up your tenant to receive pre-release features"
-   authors="mackie1604"
+	pageTitle="Scoping questions for Exchanges and RefundsIssues signing in or accessing my subscription"
+	description="Scoping questions for Billing/Reservation Management/Exchanges and Refunds"
+	authors="prdasneo"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32582824"
-  productPesIds="15584"
-  cloudEnvironments="public"
+	supportTopicIds="32593227,32593228,32593229"
+	productPesIds="15659"
+	cloudEnvironments="public"
    schemaVersion="1"
-   articleId="ec652a88-f330-447e-8a28-e6019ed56aa1"
+   articleId="bc4d84e7-f7a9-4c35-90ae-7697772b40bc"
 />
-# Scoping questions for Intune Insider Sign up your tenant to receive pre-release features
-
+# Exchanges and Refunds
 ---
 {
     "resourceRequired": false,
@@ -24,10 +23,10 @@
             "required": true,
             "hints": [
                 {
-                    "text": "The Intune Insiders Program is \"Invite Only\" at this time"
+                    "text": "Type of Reservation : SUSE Linux, SQL Database, Virtual Machines RI <br>"
                 },
                 {
-                    "text": "Please do not create a ticket unless you have been invited by a Microsoft Representative to do so"
+                    "text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). <br>"
                 }
             ]
         },
