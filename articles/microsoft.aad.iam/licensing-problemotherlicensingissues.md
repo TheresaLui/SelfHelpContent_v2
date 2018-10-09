@@ -10,7 +10,7 @@
 # Other problem with licenses 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with licenses",
   "fileAttachmentHint": null,
   "formElements": [

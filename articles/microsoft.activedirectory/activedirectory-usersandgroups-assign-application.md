@@ -6,8 +6,8 @@
  authors="ajamess"
  selfHelpType="generic"
  supportTopicIds="32570977"
- productPesIds="14785"
- cloudEnvironments="public" 
+ productPesIds="14785,16578"
+ cloudEnvironments="public"
 />
 
 # Problems assigning users or groups to an application

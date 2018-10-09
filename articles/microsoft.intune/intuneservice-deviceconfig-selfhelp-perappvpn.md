@@ -16,6 +16,6 @@
 
 ## **Recommended steps**
 
-Per-App VPN for iOS devices in Intune is currently only available to a specific (list of providers and partners)[https://docs.microsoft.com/intune/vpn-setting-configure-per-app]. You also must meet the certificate prerequisites before configuring a Per-App VPN. 
+Per-App VPN for iOS devices in Intune is currently only available to a specific [list of providers and partners](https://docs.microsoft.com/intune/vpn-setting-configure-per-app). You also must meet the certificate prerequisites before configuring a Per-App VPN. 
 
-See the (Intune documentation)[https://docs.microsoft.com/intune/vpn-settings-configure] for information about all VPN connection types in Intune.
+See the [Intune documentation](https://docs.microsoft.com/intune/vpn-settings-configure) for information about all VPN connection types in Intune.

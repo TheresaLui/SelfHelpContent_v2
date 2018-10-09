@@ -20,3 +20,4 @@
 [Connecting to other Services](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connecting-to-other-services)<br>
 [Connecting from external Clients](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connections-from-external-clients)<br>
 [Configure Reverse Proxy](https://docs.microsoft.com/azure/service-fabric/service-fabric-reverseproxy-configure-secure-communication)<br>
+[Common Networking Scenario for Service Fabric](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)<br>

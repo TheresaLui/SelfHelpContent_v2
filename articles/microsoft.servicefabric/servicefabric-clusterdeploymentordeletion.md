@@ -15,6 +15,7 @@
 # cluster/deploymentordeletion
 
 ## **Recommended documents**
+[Common questions and solutions on Cluster nodes](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster#nodes)<br>
 [How to create Service Fabric Cluster through Azure portal](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-via-portal)<br>
 [How to create Service Fabric Cluster through ARM](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-via-arm)<br>
 [How to create Standalone Service Fabric Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-creation-for-windows-server)<br>

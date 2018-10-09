@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411853,32610793"
+	supportTopicIds="32610793"
 	resourceTags=""
 	productPesIds="15571"
 	cloudEnvironments="public"
@@ -17,8 +17,8 @@
 ## **Recommended documents**
 
 * [SQL Server on Linux Frequently Asked Questions (FAQ)](https://docs.microsoft.com/sql/linux/sql-server-linux-faq)<br>
-* [Troubleshoot SQL Server on Linux](Troubleshoot SQL Server on Linux)<br>
-* [Configure failover cluster instance - SQL Server on Linux](https://docs.microsoft.com/sql/linux/sql-server-linux-shared-disk-cluster-configure)
+* [Troubleshoot SQL Server on Linux](https://docs.microsoft.com/sql/linux/sql-server-linux-troubleshooting-guide?view=sql-server-2017)<br>
+* [Configure failover cluster instance - SQL Server on Linux](https://docs.microsoft.com/sql/linux/sql-server-linux-shared-disk-cluster-configure)<br>
 * [Configure failover cluster instance - **iSCSI**](https://docs.microsoft.com/sql/linux/sql-server-linux-shared-disk-cluster-configure-iscsi)<br>
 * [Configure failover cluster instance - **NFS**](https://docs.microsoft.com/sql/linux/sql-server-linux-shared-disk-cluster-configure-nfs)<br>
 * [Configure failover cluster instance - **SMB**](https://docs.microsoft.com/sql/linux/sql-server-linux-shared-disk-cluster-configure-smb)

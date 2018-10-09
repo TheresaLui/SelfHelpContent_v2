@@ -19,3 +19,5 @@
 [Deploy a Service Fabric cluster to an existing VNET](https://amolenk.wordpress.com/2016/06/23/Deploying-a-Service-Fabric-cluster-in-an-existing-VNET/)<br>
 [Service Fabric Common Networking Scenarios](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)<br>
 [Tutorial: Deploy a Service Fabric Windows cluster into an Azure virtual network](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/service-fabric/service-fabric-tutorial-create-vnet-and-windows-cluster.md)<br> 
+[Open ports for a Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/create-load-balancer-rule)<br> 
+[Required Ports for Service Fabric](https://brentdacodemonkey.wordpress.com/2016/08/01/network-isolationsecurity-with-azure-service-fabric/)<br>

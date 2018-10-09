@@ -22,21 +22,21 @@
 			"required": true
 		}, {
 			"id": "blob_or_container",
-			"order": 2,
+			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Container name or Blob path",
-			"watermarkText": "'ContainerName' or 'ContainerName/BlobName' if specific to a container or blob",
+			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"order": 3,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": false,
 			"useAsAdditionalDetails": true
 		}, {
 			"id": "learn_more_text",
-			"order": 4,
+			"order": 5,
 			"controlType": "infoblock",
 			"content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot peformance issues."
 		}

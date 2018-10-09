@@ -10,7 +10,7 @@
 # Other problem with Azure AD admin role 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with Azure AD admin role",
   "fileAttachmentHint": "Screenshot that shows the problem",
   "formElements": [

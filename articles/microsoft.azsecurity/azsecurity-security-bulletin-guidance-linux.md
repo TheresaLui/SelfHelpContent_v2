@@ -18,4 +18,7 @@
 
 * [Overview of Security Bulletins](https://technet.microsoft.com/security/bulletins)<br>
 * [MSRC Blog](https://blogs.technet.microsoft.com/msrc/)<br>
-* [Azure Security Blog](https://blogs.msdn.microsoft.com/azuresecurity/)<
+* [Azure Security Blog](https://blogs.msdn.microsoft.com/azuresecurity/)<br>
+* [Best Practices for Securing Active Directory - Introduction](https://docs.microsoft.com/windows-server/identity/ad-ds/manage/component-updates/introduction)<br>
+* [Best Practices for Securing Active Directory - Avenues to compromise](https://docs.microsoft.com/windows-server/identity/ad-ds/plan/security-best-practices/avenues-to-compromise)<br>
+* [Best Practices for Securing Active Directory - Reducing attack surface](https://docs.microsoft.com/windows-server/identity/ad-ds/plan/security-best-practices/reducing-the-active-directory-attack-surface)
