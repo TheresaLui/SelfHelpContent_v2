@@ -19,14 +19,16 @@
 
 ## Problem
 
-Scaling of the HDInsight cluster failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because of subnet being full.
+Scaling of the HDInsight cluster failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because the subnet in which this HDInsight cluster is deployed does not have sufficient free IP addresses to match the number of nodes you would like to scale up the cluster.
 
 ## **Recommended steps**
-In order to create space on the virtual network please do **one** of the two steps below:
+In order to create space on the virtual network please do **one** of the three steps below:
 
-1. [Add a subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet) to the existing virtual network
+* Delete un-used resources within the subnet opening up IP addresses that can be utilized for the cluster scaling.
 
-1. [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network.
+* [Add a subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet) and create a new HDInsight cluster within the newly created subnet.
+
+* [Change subnet settings](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#change-subnet-settings) to the existing virtual network to include a larger address space.
 
 ## Subnets at capacity
 <!--$Subnet-->[Subnet]<!--/$Subnet-->
