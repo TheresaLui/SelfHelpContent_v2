@@ -14,7 +14,6 @@
 
 # Help with Azure Resource Group Tags
 
-
 ## **Recommended documents**
 
 * [Video: Connecting to Azure Resource Manager with Cloudyn](https://www.youtube.com/watch?v=oCIwvfBB6kk&feature=youtu.be)<br>
