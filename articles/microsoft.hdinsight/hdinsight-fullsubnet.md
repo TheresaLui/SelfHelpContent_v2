@@ -15,7 +15,7 @@
     cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found the following issue
 
 ## Problem
 
