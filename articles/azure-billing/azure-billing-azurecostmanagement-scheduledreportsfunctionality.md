@@ -13,6 +13,7 @@
 />
 
 # Scheduled reports functionality
+
 Daily recurring tasks can be created that automatically exports the Cost Management data to Azure storage. Exported data is in CSV format and it contains all the information that's collected by Cost Management. This exported data can then be combined with other data and integrated into external systems like a dashboard or other financial system
 
 Prerequisites: Data export is available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) customers. The following permissions are required to export billing data:
