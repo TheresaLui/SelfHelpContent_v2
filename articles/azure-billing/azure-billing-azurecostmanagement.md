@@ -18,7 +18,7 @@ What is Azure Cost Management?
 
 Azure Cost Management is a cost management solution that helps you monitor and control your Azure spending and optimize resource use.<br>
 
-Learn more : [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
+Learn more : [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 
 Tutorials
 
