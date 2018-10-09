@@ -13,10 +13,10 @@
 
 # query execution/In-memory OLTP
 
-## **Recommended steps**
-1. [Install the in-memory OLTP sample](https://docs.microsoft.com/azure/sql-database/sql-database-in-memory#1-install-the-in-memory-oltp-sample/)
+## **Recommended step**
+* [Install the in-memory OLTP sample](https://docs.microsoft.com/azure/sql-database/sql-database-in-memory#1-install-the-in-memory-oltp-sample/)
 
 ## **Recommended documents**
 
-[OLTP overview](https://docs.microsoft.com/azure/architecture/data-guide/relational-data/online-transaction-processing/)<br>
-[Use in-memory OLTP to improve your application performance](https://docs.microsoft.com/azure/sql-database/sql-database-in-memory-oltp-migration)
+* [OLTP overview](https://docs.microsoft.com/azure/architecture/data-guide/relational-data/online-transaction-processing/)<br>
+* [Use in-memory OLTP to improve your application performance](https://docs.microsoft.com/azure/sql-database/sql-database-in-memory-oltp-migration)

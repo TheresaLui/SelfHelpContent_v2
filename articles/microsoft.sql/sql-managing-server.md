@@ -13,11 +13,11 @@
 
 # managing/server
 
-## **Recommended steps**
+## **Recommended step**
 
-1. [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall/)
+* [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall/)
 
 ## **Recommended documents**
 
-[Define a server-level auditing policy](https://docs.microsoft.com/azure/sql-database/sql-database-auditing#subheading-8/)<br>
-[SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
+* [Define a server-level auditing policy](https://docs.microsoft.com/azure/sql-database/sql-database-auditing#subheading-8/)<br>
+* [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)

@@ -15,6 +15,6 @@
 
 ## **Recommended documents**
 
-[Configure a VNET](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
-[Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli/)<br>
-[Configure a VNET-to-VNET connection using PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps/)
+* [Configure a VNET](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
+* [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli/)<br>
+* [Configure a VNET-to-VNET connection using PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps/)

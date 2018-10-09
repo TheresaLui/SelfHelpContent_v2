@@ -13,6 +13,6 @@
 
 # design and development/REST APIs
 
-## **Recommended documents**
+## **Recommended document**
 
-[REST operation groups](https://docs.microsoft.com/rest/api/sql/)
+* [REST operation groups](https://docs.microsoft.com/rest/api/sql/)

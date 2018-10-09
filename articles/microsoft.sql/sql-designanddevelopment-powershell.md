@@ -13,6 +13,6 @@
 
 # design and development/PowerShell
 
-## **Recommended documents**
+## **Recommended document**
 
-[PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples/)
+* [PowerShell samples](https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples/)

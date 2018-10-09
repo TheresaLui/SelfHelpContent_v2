@@ -15,5 +15,5 @@
 
 ## **Recommended documents**
 
-[Migrate to Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate/)<br>
-[Manage Azure SQL Database after migration](https://docs.microsoft.com/azure/sql-database/sql-database-manage-after-migration/)
+* [Migrate to Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate/)<br>
+* [Manage Azure SQL Database after migration](https://docs.microsoft.com/azure/sql-database/sql-database-manage-after-migration/)

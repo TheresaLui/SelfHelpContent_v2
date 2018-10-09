@@ -13,14 +13,14 @@
 
 # managing/elastic pools
 
-## **Recommended steps**
+## **Recommended step**
 
-1. [Create and manage elastic pools in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage/)
+* [Create and manage elastic pools in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage/)
 
 ## **Recommended documents**
 
-[Overview of elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool/)<br>
-[Elastic pools REST API](https://docs.microsoft.com/rest/api/sql/elasticpools/)<br>
-[Scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale/)<br>
-[vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools/)<br>
-[DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools/)<br>
+* [Overview of elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool/)<br>
+* [Elastic pools REST API](https://docs.microsoft.com/rest/api/sql/elasticpools/)<br>
+* [Scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale/)<br>
+* [vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools/)<br>
+* [DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools/)<br>
