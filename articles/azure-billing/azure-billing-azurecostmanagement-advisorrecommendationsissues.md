@@ -16,7 +16,7 @@
 
 Azure Cost Management works with Azure Advisor to provide cost optimization recommendations
 
-Prerequisites: Recommendations are available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement) customers. You must have active virtual machines with at least 14 days of activity along with at least read access to one or more of the following scopes to view cost data.
+**Prerequisites:** Recommendations are available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement) customers. You must have active virtual machines with at least 14 days of activity along with at least read access to one or more of the following scopes to view cost data.
 
 * Subscription
 * Resource group
@@ -27,9 +27,10 @@ How to view cost optimization recommendations<br>
 2. Click Cost Management + Billing in the list of services. Then in the list under Cost Management, select Advisor Recommendations.
 3. This will show the Advisor cost recommendations
 
-Learn how to act on a recommendation : [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)<br>
+Learn how to [Act on recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#act-on-a-recommendation)<br>
 
-Learn how to verify the action : [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
+Learn how to [Verify the action](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations#verify-the-action)<br>
+
 
 ## **Recommended documents**
 
