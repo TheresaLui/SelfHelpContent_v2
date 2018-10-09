@@ -14,7 +14,7 @@
 
 # Setup help for Azure Web Direct
 
-## Recommended documents
+## **Recommended documents**
 
 * [Register an individual Azure subscription and view cost data](https://docs.microsoft.com/azure/cost-management/quick-register-azure-sub)<br>
 * [Video: Finding your Directory GUID and Rate ID for use in Cloudyn](https://youtu.be/PaRjnyaNGMI)<br>
