@@ -24,4 +24,4 @@
 * [Manage costs by using Cloudyn](https://docs.microsoft.com/azure/cost-management/tutorial-manage-costs)<br>
 * [Cloudyn Overview](https://docs.microsoft.com/azure/cost-management/overview)<br>
 * [Cloudyn Pricing](https://azure.microsoft.com/pricing/details/cost-management)<br>
-* [Use Azure Cost Management for free](https://azure.microsoft.com/blog/use-azure-cost-management-for-free/)<br>
+
