@@ -21,7 +21,7 @@ Azure Cost Management works with Azure Advisor to provide cost optimization reco
 * Subscription
 * Resource group
 
-How to view cost optimization recommendations: <br>
+**How to view cost optimization recommendations:** <br>
 
 1. Sign into [Azure portal](https://portal.azure.com)
 2. Click Cost Management + Billing in the list of services. Then in the list under Cost Management, select Advisor Recommendations.
