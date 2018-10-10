@@ -25,6 +25,5 @@
 * [Microsoft Azure HIPAA/HITECH Act Implementation Guidance](https://gallery.technet.microsoft.com/Azure-HIPAAHITECH-Act-1d27efb0)<br>
 * [Microsoft and HIPAA and the HITECH Act](https://www.microsoft.com/trustcenter/compliance/hipaa)<br>
 * [US Department of Defense (DoD) Provisional Authorization documentation on IL4](https://www.microsoft.com/trustcenter/compliance/disa)<br>
-* [Information on FedRAMP](https://www.microsoft.com/trustcenter/compliance/fedramp)<br>
 * [Access System Security Plan for government](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)<br>
 * [Penetration testing](https://docs.microsoft.com/azure/security/azure-security-pen-testing)<br>
