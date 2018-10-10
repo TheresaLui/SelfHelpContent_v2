@@ -13,12 +13,13 @@
 
 # connectivity/Configure or use Azure Active Directory authentication
 
-## **Recommended step**
+## **Recommended steps**
 
-* [Configure Azure Active Directory authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure/)
+* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure/)<br>
+* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)
 
 ## **Recommended documents**
 
-* [Azure Active Directory authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries/)<br>
-* [Connectivity architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture/)<br>
-* [Methods available for authentication](https://docs.microsoft.com/azure/active-directory/authentication/overview-authentication/)
+* [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication/)<br>
+* [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication/)<br>
+* [Azure AD authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries/)
