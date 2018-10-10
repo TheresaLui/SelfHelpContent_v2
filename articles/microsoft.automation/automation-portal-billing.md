@@ -15,5 +15,6 @@
 # Azure Automation - Portal - Billing
 
 ## **Recommended documents**
-[Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
