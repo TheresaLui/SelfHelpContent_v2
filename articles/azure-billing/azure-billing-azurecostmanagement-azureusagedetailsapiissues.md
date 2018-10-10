@@ -29,7 +29,7 @@ The Azure Consumption APIs give you programmatic access to cost and usage data f
 * Usage Details<br>
 * Reservation Recommendations<br>
 
-List of Unsupported Subscription Types
+List of Unsupported Subscription Types:
 
 * MS-AZR-0145P (CSP)<br>
 * MS-AZR-0146P (CSP)<br>
