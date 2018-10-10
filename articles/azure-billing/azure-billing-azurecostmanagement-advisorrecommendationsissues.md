@@ -34,7 +34,7 @@ Learn how to [Verify the action](https://docs.microsoft.com/azure/cost-managemen
 
 ## **Recommended documents**
 
-* [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
+* [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
 * [Explore and analyze costs with Cost Analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
 * [Advisor recommendations](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations)<br>
