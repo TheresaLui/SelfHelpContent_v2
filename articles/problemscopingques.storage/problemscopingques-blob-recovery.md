@@ -11,7 +11,7 @@
 # Recover deleted Blob
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Storage Blob recovery scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -25,7 +25,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Blob path",
-			"watermarkText": "ContainerName/BlobName",
+			"watermarkText": "'ContainerName/.../BlobName'",
 			"required": false
 		}, {
 			"id": "additional_details",

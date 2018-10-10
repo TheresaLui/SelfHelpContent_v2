@@ -1,14 +1,19 @@
-<properties pageTitle="Active Directory application dev development issue" 
-	 description="appsdevdevelopdatacollectiondoc" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570261" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Active Directory application dev development issue 
+<properties
+    pageTitle="Active Directory application dev development issue"
+    description="appsdevdevelopdatacollectiondoc"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32570261"
+    productPesIds="14785,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="32aa0b19-fee7-4350-af1c-9dffba151bd6"
+    />
+
+# Active Directory application dev development issue
+
 ---
+
 {
   "resourceRequired": false,
   "title": "Active Directory application dev development issue",

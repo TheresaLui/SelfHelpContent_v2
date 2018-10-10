@@ -22,16 +22,21 @@ This unexpected occurrence was caused by an **Azure initiated VM shutdown** trig
 <!--/issueDescription-->
 
 Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)<br> 
+
 Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists.<br>
- 
+
 To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
+
 To learn more about high availability options, please refer to the following articles:<br>
+
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
-* [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)<br>
+* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
-To learn more about Azure Resource Health, please refer to the following article:<br>
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
+To learn more about Azure Resource Health, please refer to the following article:<br>
+
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+
+We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.<br>
