@@ -14,6 +14,7 @@
 # query execution/In-memory OLTP
 
 ## **Recommended step**
+
 * [Install the in-memory OLTP sample](https://docs.microsoft.com/azure/sql-database/sql-database-in-memory#1-install-the-in-memory-oltp-sample/)
 
 ## **Recommended documents**

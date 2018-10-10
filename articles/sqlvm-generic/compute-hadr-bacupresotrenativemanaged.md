@@ -16,4 +16,4 @@
 
 ## **Recommended document**
 
-* [Automated backups for SQL VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-backup-v2/)
+* [Automated backups for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-backup-v2/)

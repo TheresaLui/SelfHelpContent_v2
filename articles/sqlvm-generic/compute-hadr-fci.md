@@ -16,4 +16,4 @@
 
 ## **Recommended step**
 
-* [Configure failover cluster instance](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-create-failover-cluster/)
+* [Configure failover cluster instance](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-create-failover-cluster/)
