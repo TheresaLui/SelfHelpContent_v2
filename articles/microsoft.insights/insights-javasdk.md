@@ -16,9 +16,9 @@
 # I am having problems with my Java SDK data
 
 ## **Recommended steps**
-1. Review the Java SDK [troubleshooting guide](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot)
-  * Specifically the [No Data](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot#no-data) guide
-2. Enable the [SDK Logs](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) for errors
+1. Review the Java SDK [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)
+  * Specifically the [No Data](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#no-data) guide
+2. Enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) for errors
 3. Search the [Java SDK Issues](https://github.com/Microsoft/ApplicationInsights-Java/issues)
 4. Check the [Java SDK Releases](https://github.com/Microsoft/ApplicationInsights-Java/releases) page for a comprehensive list of known issues
 
@@ -38,7 +38,7 @@
 ## **Known issues**
 1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine looses connectivity
 
-## Recommended Documents
-[Getting Started](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br/>
+## **Recommended Documents**
+[Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br/>
 [Java SDK GitHub](https://github.com/Microsoft/ApplicationInsights-Java)<br/>
-[Troubleshooting](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)<br/>
+[Troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)<br/>
