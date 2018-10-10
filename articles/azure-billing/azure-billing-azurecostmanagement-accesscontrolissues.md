@@ -16,7 +16,7 @@
 
 You can grant access for Azure billing information to members of your team by assigning one of the following user roles to your subscription: Account Administrator, Service Administrator, Co-administrator, Owner, Contributor, Reader, and Billing Reader. They would have access to billing information in the [Azure portal](https://portal.azure.com), and they can use the Billing APIs to programmatically get invoices (once opted-in) and usage details.
 
-**How to allow additional users to access invoices**
+**How to allow additional users to access invoices :**
 
 1. As the Account Administrator, select your subscription from the [Subscriptions blade](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in Azure portal<br>
 2. Select Invoices and then Access to invoices.<br>
