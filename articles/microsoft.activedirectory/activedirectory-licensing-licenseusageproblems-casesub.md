@@ -18,7 +18,7 @@
 
 1. Is your problem related to per-user subscriptions (e.g. Office 365, Enterprise Mobility + Security, Dynamics 365, etc.) or an Azure resource subscription (e.g. virtual machines, storage accounts)? For Azure resource subscription problems, make sure to open the support ticket under "Subscription problems".
 2. To manage licenses, you must use an account with one of the required [administrator roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles): Global Administrator or User Account Administrator. You can check the user’s role in the **Roles and administrators** tab on the Overview blade.
-3. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases that is enough to understand and resolve the problem.
+3. If you are using the Azure portal and license assignment is failing, make sure to click the notification in the upper-right corner. This opens a blade with details about what went wrong. In most cases, the information in the notification pop-up window should be sufficient to understand the underlying problem and implement a solution.
 4. There are two versions of PowerShell cmdlets for Azure AD that can be used for license management:
 
  * V2.0 contains cmdlets such as [Set-​Azure​AD​User​License](https://docs.microsoft.com/powershell/module/azuread/set-azureaduserlicense) and [Get-​Azure​AD​User​License​Detail](https://docs.microsoft.com/powershell/module/azuread/get-azureaduserlicensedetail).
