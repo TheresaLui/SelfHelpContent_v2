@@ -19,7 +19,9 @@
 
 ## Problem
 
-Scale down of disks or nodes is not supported for any milestone. 
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> was attempted to be scaled down on <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp-->.
+
+Scale down of disks or nodes is not supported for Kafka clusters with managed disks. 
 
 Kafka is a technology used for data ingestion and retention. 
 Due to the storage heavy nature of the technology, it is not recommended to scale down Kafka clusters as customers risk data-loss. 
