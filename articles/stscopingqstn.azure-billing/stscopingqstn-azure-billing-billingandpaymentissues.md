@@ -3,8 +3,8 @@
 	description="Scoping questions for Billing and Payment issues"
 	authors="prdasneo"
 	selfHelpType="supportTopicBasedScopingQuestions"
-	supportTopicIds=""
-	productPesIds="32454856"
+	supportTopicIds="32454856"
+	productPesIds="15659"
 	cloudEnvironments="public"
 />
 # Billing and Payment Issues
