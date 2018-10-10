@@ -40,5 +40,5 @@
 1. You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
 
 ## **Recommended Documents**
-[Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br/>
+[Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br>
 [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)
