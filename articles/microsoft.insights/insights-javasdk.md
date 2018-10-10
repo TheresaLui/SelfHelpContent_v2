@@ -16,6 +16,7 @@
 # I am having problems with my Java SDK data
 
 ## **Recommended steps**
+
 1. Review the Java SDK [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)
   * Specifically the [No Data](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#no-data) guide
 2. Enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) for errors
@@ -23,7 +24,8 @@
 4. Check the [Java SDK Releases](https://github.com/Microsoft/ApplicationInsights-Java/releases) page for a comprehensive list of known issues
 
 
-## **Please provide following information to help the team investigate issue**
+**Please provide following information to help the team investigate issue**
+
 1.	Describe the actual behavior.
 2.	Describe the expected behavior.
 3.	What SDK version are you using? 
@@ -35,7 +37,8 @@
 6.	Provide iKey and subscription ID and duration since issue started
 7.	Provide SDK logs
 
-## **Known issues**
+**Known issues**
+
 1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine looses connectivity
 
 ## **Recommended Documents**
