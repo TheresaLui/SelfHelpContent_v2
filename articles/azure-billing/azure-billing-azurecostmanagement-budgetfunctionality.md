@@ -20,7 +20,7 @@ Learn how to [Create and manage budgets](https://docs.microsoft.com/azure/cost-m
 **Prerequisites**
 
 * Budgets are available to all Azure [EA customers](https://azure.microsoft.com/pricing/enterprise-agreement). You must have read access to an Azure EA subscription to create and manage budgets. EA billing accounts are not supported by budgets.<br>
-* Budgets are created at either the subscription or resource group level, individually. The following Azure permissions are supported per subscription for budgets by user and group:<br>
+* Budgets are created at either the subscription or resource group level. The following Azure permissions are supported for budgets per subscription:<br>
 
 	* Owner – Can create, modify, or delete budgets for a subscription.<br>
   	* Contributor – Can create, modify, or delete their own budgets. Can modify the budget amount for budgets created by others.<br>
