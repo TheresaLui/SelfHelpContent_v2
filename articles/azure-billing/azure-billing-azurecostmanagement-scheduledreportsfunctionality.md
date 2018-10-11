@@ -18,14 +18,14 @@ Daily recurring tasks can be created that automatically exports the Cost Managem
 
 Please note that export is available to all [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) customers
 
-## **Prerequisites:**
+## Prerequisites:
 Add all users who will be setting up recurrent export tasks to one of the following roles:
 
 * Subscription Owner – Can create, modify, or delete scheduled exports for a subscription.
 * Subscription Contributor – Can create, modify, or delete their own scheduled exports. Can modify the name of scheduled exports created by others.
 * Subscription Reader – Can schedule exports that they have permission to.
 
-## **How to create a daily report?**
+## How to create a daily report?
 
 1. Sign in to [Azure portal](https://portal.azure.com)<br>
 2. Select **Cost Management + Billing** and select a subscription or a resource group in the subscription. Then click **Export** and **Add**.<br>
@@ -34,7 +34,7 @@ Add all users who will be setting up recurrent export tasks to one of the follow
 
 *Note:* By default, new exports are enabled, and they run daily. If you want to disable or delete a scheduled export, click any item in the list and then click either **Disable** or **Delete**. Initially, it can take one to two hours before the export runs. However, it can take up to four hours before data is shown in exported files.<br>
 
-## **How to verify that the data is collected?**
+## How to verify that the data is collected?
 
 1. In the export list, click the storage account name.<br>
 2. On the storage account page, click **Open** in Explorer. If you see a confirmation box, click **Yes** to open the file in Azure Storage Explorer. Download [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)<br>
