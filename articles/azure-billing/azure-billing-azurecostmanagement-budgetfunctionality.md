@@ -17,7 +17,7 @@ Budgets in Cost Management help you plan for and drive organizational accountabi
 
 Learn how to [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets)	
 
-**Prerequisites**
+## **Prerequisites**
 
 * Budgets are available to all Azure [EA customers](https://azure.microsoft.com/pricing/enterprise-agreement). You must have read access to an Azure EA subscription to create and manage budgets. EA billing accounts are not supported by budgets.<br>
 * Budgets are created at either the subscription or resource group level. The following Azure permissions are supported for budgets per subscription:<br>
@@ -28,7 +28,7 @@ Learn how to [Create and manage budgets](https://docs.microsoft.com/azure/cost-m
 
 ## **Recommended documents**
 
-* [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
+* [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
 * [Analyze your costs and spending](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
 * [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
 * [Explore and analyze costs with Cost analysis](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)<br>
