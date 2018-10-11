@@ -23,6 +23,7 @@ There are many reasons that password resets could fail. Below is a list of the m
 
   * **Cloud only users** - Any Office 365 (O365) paid SKU, or Azure AD Basic
   * **Cloud and/or on-premises users** - Azure AD Premium P1 or P2, Enterprise Mobility + Security (EMS), or Secure Productive Enterprise (SPE)
+
 * For additional questions about self-service password reset, review [our FAQ](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-faq)
 
 **I'm getting an error message**
