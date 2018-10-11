@@ -14,10 +14,9 @@
 
 # Help with Cost Allocation
 
-Cloudyn shows you usage and costs so that you can track trends, detect inefficiencies, and create alerts. All usage and cost data is displayed in Cloudyn dashboards and reports
+Cloudyn provides usage and costs data so that you can track trends, detect inefficiencies and even create alerts. You can either download the data or review it using the Cloudyn dashboards and reports.
 
-
-**Prerequisites**
+## **Prerequisites**
 
 * You must have an Azure account.
 * You must have either a trial registration or paid subscription for Cloudyn.
