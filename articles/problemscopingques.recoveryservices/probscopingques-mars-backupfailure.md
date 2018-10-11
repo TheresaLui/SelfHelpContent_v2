@@ -93,14 +93,14 @@
 							"order": 7,
 							"controlType": "textbox",
 							"displayLabel": "Provide the MachineId:",
-							"watermarkText": "Find this from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+							"watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
 							"required": false
 					},{
 							"id": "get_resourceId",
 							"order": 8,
 							"controlType": "textbox",
 							"displayLabel": "Please provide the ResourceId:",
-							"watermarkText": "Find this from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+							"watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
 							"required": false
 					},{
 							"id": "problem_start_date",
