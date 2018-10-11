@@ -16,7 +16,7 @@
 
 Cloudyn helps forecast future spending using historical usage and spending data. Cloudyn reports can be used to view all cost projection data.
 
-## **Prerequisites:**
+## Prerequisites:
 
   * You must have an Azure account.
   * You must have either a trial registration or paid subscription for Cloudyn.
