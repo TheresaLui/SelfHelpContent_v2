@@ -19,19 +19,21 @@
 
 ## Problem
 
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> was attempted to be scaled down on <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp-->.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed to scale down on <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp-->.
 
-Scale down of disks or nodes is not supported for Kafka clusters with managed disks. 
+Scaling down of disks or nodes is not supported for Kafka clusters with managed disks. 
 
-Kafka is a technology used for data ingestion and retention. 
+Apache Kafka is a technology used for data ingestion and retention. 
 Due to the storage heavy nature of the technology, it is not recommended to scale down Kafka clusters as customers risk data-loss. 
 
-Due to this, scale down is explicitly disallowed on HDInsight Kafka.
+Due to this, scaling down a cluster is explicitly disallowed on HDInsight Kafka.
+
+Visit https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability for storage and scalability configuration for Kafka on HDInsight
 
 ## **Recommended steps**
 
 The issue can be resolved by deleting the existing cluster and creating a new cluster with desired configuration. 
-Refer https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-get-started for getting started with HDInsight Kafka Cluster.
+Refer https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started for getting started with HDInsight Kafka Cluster.
 
 Please provide feedback at https://feedback.azure.com/forums/217335-hdinsight
 
