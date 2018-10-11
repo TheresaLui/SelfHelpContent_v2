@@ -14,6 +14,7 @@
 # I'm having a problem with password reset registration
 ## **Recommended steps**
 **How do my users register for self-service password reset?**
+
 * Users can follow the steps in this article to register for self-service password reset: [Register for self-service password reset](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-reset-register)
 * If your users are enabled for converged registration, they can follow the tutorials listed in this article: [Security info (preview) overview](https://docs.microsoft.com/azure/active-directory/user-help/user-help-security-info-overview)
 
