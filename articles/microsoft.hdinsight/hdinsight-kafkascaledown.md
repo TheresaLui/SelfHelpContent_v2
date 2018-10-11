@@ -29,7 +29,9 @@ Due to the storage heavy nature of the technology, it is not recommended to scal
 Due to this, scale down is explicitly disallowed on HDInsight Kafka.
 
 ## **Recommended steps**
-Delete and recreate the cluster.
+
+The issue can be resolved by deleting the existing cluster and creating a new cluster with desired configuration. 
+Refer https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-get-started for getting started with HDInsight Kafka Cluster.
 
 Please provide feedback at https://feedback.azure.com/forums/217335-hdinsight
 
