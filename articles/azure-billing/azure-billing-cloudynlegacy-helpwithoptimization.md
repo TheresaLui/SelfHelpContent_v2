@@ -14,9 +14,9 @@
 
 # Help with Optimization
 
-To use Cloudyn you must have an Azure account, a trial registration or paid subscription for Cloudyn and must have purchased Reserved Instances (RI) in Azure or AWS 
+To use Cloudyn you must have an Azure account, a trial registration or paid subscription for Cloudyn and must have purchased Reserved Instances (RI) in Azure or AWS.
 
-**Prerequisites**
+## **Prerequisites**
 
 * You must have an Azure account.
 * You must have either a trial registration or paid subscription for Cloudyn.
