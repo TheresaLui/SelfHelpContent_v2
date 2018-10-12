@@ -15,6 +15,6 @@
 # Configure routing rules
 
 ## **Recommended documents**
-[How Front Door matches requests to a routing rule](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-route-matching?branch=master)<br>
-[Enable Azure managed ruleset for Front Door](https://azure.microsoft.com/en-us/resources/templates/201-front-door-managed-waf-ruleset/)<br>
+How Front Door matches requests to a [routing rule](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-route-matching?branch=master)<br>
+This [template](https://azure.microsoft.com/en-us/resources/templates/201-front-door-managed-waf-ruleset/)configures Front Door to enable Azure managed application firewall ruleset<br>
 

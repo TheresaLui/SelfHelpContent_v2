@@ -15,4 +15,4 @@
 # Metrics and Logs
 
 ## **Recommended documents**
-[Monitoring metrics for Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-diagnostics)<br>
+Learn more about [Monitoring metrics for Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-diagnostics)<br>

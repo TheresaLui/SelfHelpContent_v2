@@ -15,4 +15,4 @@
 # Analyze allowed or blocked traffic
 
 ## **Recommended documents**
-[Configure client IP whitelisting or blacklisting](https://azure.microsoft.com/en-us/resources/templates/201-front-door-waf-clientip/)<br>
+This [template](https://azure.microsoft.com/en-us/resources/templates/201-front-door-waf-clientip/) configures Front Door for client IP whitelisting or blacklisting<br>

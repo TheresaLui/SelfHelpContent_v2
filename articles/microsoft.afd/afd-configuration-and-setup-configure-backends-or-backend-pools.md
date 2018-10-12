@@ -15,6 +15,6 @@
 # Configure backends or backend pools
 
 ## **Recommended documents**
-[Backends and backend pools in Azure Front Door Service](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool?branch=master)<br>
-[Create a Front Door with multiple backends and backend pools](https://azure.microsoft.com/en-us/resources/templates/101-front-door-create-multiple-backends/)<br>
+How to configure[Backends and backend pools in Azure Front Door Service](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool?branch=master)<br>
+Getting started with [Front Door with multiple backends and backend pools](https://azure.microsoft.com/en-us/resources/templates/101-front-door-create-multiple-backends/)<br>
 

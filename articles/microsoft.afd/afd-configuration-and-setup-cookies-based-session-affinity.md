@@ -15,6 +15,6 @@
 # Cookies-based session affinity
 
 ## **Recommended documents**
-[Configure Session Affinity for your Front Door host names](https://azure.microsoft.com/en-us/resources/templates/201-front-door-session-affinity/)<br>
-[Session Affinity](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods#latency)<br>
+This [template](https://azure.microsoft.com/en-us/resources/templates/201-front-door-session-affinity/) updates a Front Door to enable session affinity for your frontend host, thereby, sending subsequent traffic from the same user session to the same backend.<br>
+Learn about [Session Affinity.](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods#a-name--affinityasession-affinity)<br>
 

@@ -15,5 +15,5 @@
 # 4xx and 5xx errors
 
 ## **Recommended documents**
-[Troubleshooting common routing issues](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-troubleshoot-routing)<br>
+Troubleshooting common routing issues for [4xx and 5xx errors](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-troubleshoot-routing)<br>
 

@@ -15,6 +15,6 @@
 # Configure URL path-based routing
 
 ## **Recommended documents**
-[URL-based routing](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-overview?branch=master#url-based-routing)<br>
-[Route matching](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-route-matching#route-matching)<br>
+Learn more about [URL-based routing.](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-overview?branch=master#url-based-routing)<br>
+How we match to a given Front Door [routing rule.](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-route-matching#route-matching)<br>
 

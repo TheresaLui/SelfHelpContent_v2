@@ -15,6 +15,6 @@
 # Configure caching
 
 ## **Recommended documents**
-[Caching with Azure Front Door Service](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-caching)<br>
-[Create Front Door with caching enabled for certain routes](https://azure.microsoft.com/en-us/resources/templates/201-front-door-create-caching/)<br>
+How to configure [Caching with Azure Front Door Service](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-caching)<br>
+How to [Create Front Door with caching enabled for certain routes](https://azure.microsoft.com/en-us/resources/templates/201-front-door-create-caching/)<br>
 

@@ -15,6 +15,6 @@
 # Configure health probes
 
 ## **Recommended documents**
-[Health probes](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-health-probes)<br>
-[Control Health Probes for your backends on Front Door](https://azure.microsoft.com/en-us/resources/templates/201-front-door-health-probes/)<br>
+Learn more about Health probes [here.](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-health-probes)<br>
+This [template](https://azure.microsoft.com/en-us/resources/templates/201-front-door-health-probes/) updates your Front Door to change the health probe settings by setting the probe path and also the intervals in which the probes will be sent.<br>
 
