@@ -15,5 +15,5 @@
 # Configure URL rewrite
 
 ## **Recommended documents**
-How to configure [URL rewrites (custom forwarding path)](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-url-rewrite)<br>
+How to configure [URL rewrites (custom forwarding path)](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite)<br>
 

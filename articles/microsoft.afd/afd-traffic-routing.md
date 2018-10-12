@@ -15,5 +15,5 @@
 # Traffic Routing
 
 ## **Recommended documents**
-View [Front Door routing methods](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods?branch=master) here.<br>
+View [Front Door routing methods](https://review.docs.microsoft.com/azure/frontdoor/front-door-routing-methods?branch=master) here.<br>
 

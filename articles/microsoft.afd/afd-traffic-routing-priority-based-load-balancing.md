@@ -15,5 +15,5 @@
 # Priority based load balancing
 
 ## **Recommended documents**
-[Load-balancing with Azure’s application delivery suite](https://review.docs.microsoft.com/en-us/azure/frontdoor/front-door-lb-with-azure-app-delivery-suite?branch=master)<br>
+[Load-balancing with Azure’s application delivery suite](https://review.docs.microsoft.com/azure/frontdoor/front-door-lb-with-azure-app-delivery-suite?branch=master)<br>
 

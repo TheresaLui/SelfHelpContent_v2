@@ -15,5 +15,5 @@
 # URL rewrite
 
 ## **Recommended documents**
-[URL rewrite (custom forwardeing path)](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-url-rewrite)<br>
+[URL rewrite (custom forwardeing path)](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite)<br>
 
