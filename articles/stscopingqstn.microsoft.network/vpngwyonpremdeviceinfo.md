@@ -14,12 +14,12 @@
 {
 	"resourceRequired": false,
 	"title": "VPN Gwy On Prem Device",
-	"fileAttachmentHint": "",
+	"fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
 	"formElements": [{
-			"id": "Provide VPN On Premise Device",
+			"id": "Provide VPN On Premise device",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please provide VPN On Premise Device you are using",
+			"displayLabel": "Choose the device you are using",
 			"watermarkText": "Choose a device",
 			"dropdownOptions": [{
 					"value": "A10 Networks",
@@ -94,24 +94,18 @@
 			],
 			"required": true
 		}, {
-			"id": "problem_start_date",
+			"id": "When did the problem start?",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "additional_details",
+			"id": "Additional details",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide device Model and iOS/firmware version",
 			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Example: Cisco ASA 5525 V.9.3"
-				}, {
-					"text": "Upload your configuration file to speed the support process; please edit or remove any pre-shared keys or secrets from the configuration information"
-				}
-			]
+			"useAsAdditionalDetails": true,			
 		}, {
 			"id": "learn_more_text",
 			"order": 6,
