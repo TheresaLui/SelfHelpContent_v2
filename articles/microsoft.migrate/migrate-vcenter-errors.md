@@ -16,19 +16,23 @@
 
 ## **Recommended steps**
 
-**Error UnhandledException Internal error occured: System.IO.FileNotFoundException**
+**Error: UnhandledException. Description: Internal error occured: System.IO.FileNotFoundException Message**
 
-This is an issue seen on Collector versions less than 1.0.9.5. If you are on a Collector version 1.0.9.2 or pre-GA versions like 1.0.8.59, you will face this issue. Follow the [link given here to the forums for a detailed answer](https://social.msdn.microsoft.com/Forums/azure/c1f59456-7ba1-45e7-9d96-bae18112fb52/azure-migrate-connect-to-vcenter-server-error?forum=AzureMigrate).
+When you get this error follow below steps to resolve the error. 
 
-[Upgrade your Collector to fix the issue](https://aka.ms/migrate/col/checkforupdates).
+1. If you are not on the latest Collector version, upgrade the Collector to the [latest version](https://docs.microsoft.com/azure/migrate/concepts-collector#how-to-upgrade-collector) and check if the issue is resolved.
+2. If you already have the latest Collector version, then manually install [VMware PowerCLI 6.5.2](https://www.powershellgallery.com/packages/VMware.PowerCLI/6.5.2.6268016) and check if the issue is resolved.
+3. If that does not work, remove VMware.Vim.dll and VimService65.dll dlls present in the 'C:\Program Files\ProfilerService' folder and restart the Azure Migrate Collector service.
 
-**Error UnableToConnectToServer**
+**Unable to connect to vCenter Server "Servername.com:9443**
 
 Unable to connect to vCenter Server "Servername.com:9443" due to error: There was no endpoint listening at https://Servername.com:9443/sdk that could accept the message.
 
-This happens when the Collector machine is unable to resolve the vCenter server name specified or the port speficified is wrong. By default, if the port is not specified, Collector will try to connect to the port number 443.
+This happens when the Collector machine is unable to resolve the vCenter server name specified or the port specified is wrong. By default, if the port is not specified, the Collector will try to connect to the port number 443.
+
+Please follow below steps to check connection:
 
 1. Try to ping the Servername.com from the Collector machine.
 2. If step 1 fails, try to connect to the vCenter server over IP address.
-3. Identify the correct port number to connect to the vCenter.
+3. If vCenter server is configured with non-default port, identify the correct port number to connect to the vCenter.
 4. Finally check if the vCenter server is up and running.

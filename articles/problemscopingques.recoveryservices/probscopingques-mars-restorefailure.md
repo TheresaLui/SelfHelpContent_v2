@@ -12,7 +12,7 @@
 # Questions MARS restore failure
 ---
 {
-         "resourceRequired": true,
+         "resourceRequired": false,
          "title": "MARS restore failure",
          "fileAttachmentHint": "",
          "formElements": [{
@@ -41,14 +41,14 @@
 							"order": 4,
 							"controlType": "textbox",
 							"displayLabel": "Provide the MachineId:",
-							"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
+							"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
 							"required": false
 					},{
 					    "id": "get_resourceId",
 							"order": 5,
 							"controlType": "textbox",
 							"displayLabel": "Provide the ResourceId:",
-							"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
+							"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
 							"required": false
 	 				},{
 						 	  "id": "recoverymode_type",
@@ -113,7 +113,7 @@
 							"id": "learn_more_text",
 							"order": 10,
 							"controlType": "infoblock",
-							"content": "Please upload all CBEngine log files located at C:\\Program Files\\Microsoft Azure Recovery Services Agent\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+							"content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
 					}
 			]
 }
