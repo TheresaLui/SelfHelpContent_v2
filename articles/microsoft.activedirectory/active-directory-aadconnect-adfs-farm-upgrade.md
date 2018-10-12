@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32615383"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="16579"
 	cloudEnvironments="public"
 />
 
@@ -23,12 +23,12 @@
 
     then get help [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/migrate-ad-fs-role-services-to-windows-server-2012).
 
-2. If you are upgrading to ADFS 2016 using a WID database, troubleshoot [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
-3. If you are upgrading to ADFS 2016 with a SQL database, troubleshoot [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
+2. If you are upgrading to ADFS 2016 using a WID database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
+3. If you are upgrading to ADFS 2016 with a SQL database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
 4. For other issues, visit [ADFS Help](https://adfshelp.microsoft.com/) for additional support.
 5. Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.
 
 ## **Recommended Documents**
-[Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
-[Upgrading to ADFS using a SQL database](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
+[Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
+[Upgrading to ADFS using a SQL database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
 [ADFS Help](https://adfshelp.microsoft.com/)

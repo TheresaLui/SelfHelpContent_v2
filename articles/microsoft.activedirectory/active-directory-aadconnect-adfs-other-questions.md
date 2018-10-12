@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32615405"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="16579"
 	cloudEnvironments="public"
 />
 
@@ -23,4 +23,4 @@
 
 ## **Recommended Documents**
 [ADFS Help](https://adfshelp.microsoft.com/)
-[ADFS Troubleshooting Docs](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-overview)
+[ADFS Troubleshooting Docs](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-overview)

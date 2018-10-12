@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32615434"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="16579"
 	cloudEnvironments="public"
 />
 
@@ -22,5 +22,5 @@
 
 ## **Recommended Documents**
 [ADFS Help](https://adfshelp.microsoft.com/)
-[Troubleshooting Integrated Windows Authentication](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-iwa)
-[Configuring Authentication Policies](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/configure-authentication-policies)
+[Troubleshooting Integrated Windows Authentication](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-iwa)
+[Configuring Authentication Policies](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-authentication-policies)

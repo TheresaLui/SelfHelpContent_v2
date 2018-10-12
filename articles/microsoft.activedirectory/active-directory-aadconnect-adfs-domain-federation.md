@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32615375"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="16579"
 	cloudEnvironments="public"
 />
 
@@ -16,7 +16,7 @@
 # Domain Federation with Azure Active Directory
 
 ## **Recommended Steps**
-1. For domain federation with AD Connect, troubleshoot using the documentation [here](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-fed-management).
+1. For domain federation with AD Connect, troubleshoot using the documentation [here](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management).
 2. If not, use powershell for federation.
     * Connect to Microsoft Online Services with the credential variable set previously
     `Connect-MsolService –Credential $cred`
@@ -35,4 +35,4 @@
 [Troubleshooting ADFS with Azure AD](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-azure)
 [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)
 [ADFS Help](https://adfshelp.microsoft.com/)
-[AD Connect Information](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-fed-management)
+[AD Connect Information](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)
