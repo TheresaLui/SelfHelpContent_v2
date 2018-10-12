@@ -28,3 +28,4 @@ Problems with additional server docs, WAD server (couldn't find these docs)
 ## **Recommended Documents**
 [Farm Deployment Checklist](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/deploying-a-federation-server-farm)
 [ADFS Help](https://adfshelp.microsoft.com/)
+<br>

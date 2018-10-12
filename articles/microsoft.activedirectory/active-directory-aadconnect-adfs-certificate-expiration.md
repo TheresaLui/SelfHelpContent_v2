@@ -29,3 +29,4 @@
 [Certificate Troubleshooting](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-certs)
 [Updating SSL Certificates](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update)
 [ADFS Help](https://adfshelp.microsoft.com/)
+<br>

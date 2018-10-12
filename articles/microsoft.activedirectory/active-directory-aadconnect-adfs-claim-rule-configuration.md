@@ -26,3 +26,4 @@
 [Troubleshooting Claims Syntax](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-claims-rules)
 [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest)
 [ADFS Help](https://adfshelp.microsoft.com/)
+<br>

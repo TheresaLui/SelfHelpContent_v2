@@ -32,3 +32,4 @@
 [Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
 [Upgrading to ADFS using a SQL database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
 [ADFS Help](https://adfshelp.microsoft.com/)
+<br>

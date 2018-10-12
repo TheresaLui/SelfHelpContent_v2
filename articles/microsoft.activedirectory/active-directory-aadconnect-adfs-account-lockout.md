@@ -24,3 +24,4 @@
 [ADFS Extranet Smart Lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)
 [Password Spray Protection](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)
 [ADFS Help](https://adfshelp.microsoft.com/)
+<br>

@@ -36,3 +36,4 @@
 [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)
 [ADFS Help](https://adfshelp.microsoft.com/)
 [AD Connect Information](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)
+<br>
