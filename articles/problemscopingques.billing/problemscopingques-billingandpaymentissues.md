@@ -1,6 +1,7 @@
 <properties
 	pageTitle="Billing and Payment Issues"
 	description="Billing and Payment Issues"
+	articleId="billingandpaymentissues"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454856"
