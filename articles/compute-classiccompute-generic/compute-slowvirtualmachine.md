@@ -17,6 +17,7 @@
 ## **Recommended documents**
 
 * [Troubleshoot common performance root cause - Storage IO](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
+* [Performance diagnostics for Azure virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)<br>
 * [How to use the self-help diagnostic tool - PerfInsights](https://docs.microsoft.com/azure/virtual-machines/windows/how-to-use-perfinsights)<br>
 * [Azure Performance Diagnostics VM Extension for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/performance-diagnostics-vm-extension)<br>
 * [Azure Premium Storage: Design for High Performance](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)<br>
