@@ -29,6 +29,6 @@ Click "New," click "Data and Storage," click "SQL Database,"  and then select "B
 [How to restore a single table from an Azure SQL Database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
 
 ## **Recommended documents**
-[Restore a database to a previous point in time, restore a deleted database, or recover from a data center outage](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-backup-and-restore/)<br>
+[Restore a database to a previous point in time, restore a deleted database, or recover from a data center outage](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups)<br>
 [Business Continuity Overview](https://azure.microsoft.com/documentation/articles/sql-database-business-continuity/)<br>
-[Design for business continuity](https://azure.microsoft.com/documentation/articles/sql-database-business-continuity-design/)
+[Learn about automatic SQL database backup](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)

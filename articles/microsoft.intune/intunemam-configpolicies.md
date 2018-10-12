@@ -1,6 +1,6 @@
-<properties 
-    pageTitle="Admin is unable to configure MAM policies"
-    description="Admin is unable to configure MAM policies"
+<properties
+    pageTitle="Admin is unable to configure app protection policies"
+    description="Admin is unable to configure app protection policies"
     service="microsoft.intune"
     resource="intune"
     authors="JordanWallach"
@@ -12,18 +12,17 @@
     cloudEnvironments="public"
  />
 
-# Admin is unable to configure MAM policies
+# Admin is unable to configure app protection policies.
 
 ## **Recommended steps**
 The admin must have one of the following roles:
 
-1. Global administrator<br>
-   Set up in [Office Portal](http://portal.office.com/)
-2. Owner<br>
-   Set up in [Azure Portal](https://portal.azure.com/)
-3. Contributor<br>
-   Set up in [Azure Portal](https://portal.azure.com/)
+Global administrator, Owner or Contributor.  You can configure these roles in the [Azure Portal](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/All users)
+
+Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
 
 ## **Recommended documents**
 
-[Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
+[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+[Get ready to configure App Protection policies with Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)

@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32462545"
 	resourceTags="privilegedidentitymanagement_overview"
-	productPesIds="14785"
+	productPesIds="14785,16577"
 	cloudEnvironments="public"
 />
 

@@ -1,14 +1,14 @@
 <properties
-	pageTitle="deployment/visual studio or webmatrix"
-	description="deployment/visual studio or webmatrix"
+	pageTitle="deployment/visual studio"
+	description="deployment/visual studio"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32542216"
+	supportTopicIds="32588774"
 	resourceTags=""
-	productPesIds="14748,16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
 />
 

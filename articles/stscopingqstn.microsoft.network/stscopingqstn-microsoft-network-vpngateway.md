@@ -11,3 +11,4 @@
 *  Issue description
 *  Make, model and OS version of on-premises VPN device(s) (for example, "Cisco ASA 5505 OS version 8.3")
 *  Upload your configuration file to speed the support process
+*  For security purposes, please edit or remove the pre-shared key field from the configuration information

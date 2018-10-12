@@ -3,7 +3,7 @@
    description="Scoping questions for DocumentDb SDK issues"
    authors="bharathsreenivas"
    selfHelpType="supportTopicBasedScopingQuestions"
-   supportTopicIds="32574351,32574383,32574389,32574403,32574409,32574410,32574420"
+   supportTopicIds="32597483,32597486,32597487,32597530,32597534,32597543,32597553"
   productPesIds="15585"
   cloudEnvironments="public"
 />
