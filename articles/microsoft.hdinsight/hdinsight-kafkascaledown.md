@@ -17,6 +17,7 @@
 
 # We ran diagnostics on your resource and found an issue
 
+<!--issueDescription-->
 ## Problem
 
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed to scale down on <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp-->.
@@ -28,7 +29,8 @@ Due to the storage heavy nature of the technology, it is not recommended to scal
 
 Due to this, scaling down a cluster is explicitly disallowed on HDInsight Kafka.
 
-Visit https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability for storage and scalability configuration for Kafka on HDInsight
+Visit https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability for storage and scalability configuration for Kafka on HDInsight.
+<!--/issueDescription-->
 
 ## **Recommended steps**
 
