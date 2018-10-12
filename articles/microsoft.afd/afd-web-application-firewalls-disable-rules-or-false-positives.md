@@ -15,5 +15,5 @@
 # Disable rules or false positives
 
 ## **Recommended documents**
-Guide to [Enable Azure managed ruleset for Front Door](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)<br>
+Guide to [Enabling Azure managed ruleset for Front Door](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)<br>
 
