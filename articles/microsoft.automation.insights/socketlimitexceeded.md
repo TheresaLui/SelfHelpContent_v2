@@ -1,10 +1,10 @@
 ﻿<properties
-pageTitle="Runbook was suspended because it exceeded the open socket limit"
-description="Runbook was suspended because it exceeded the open socket limit"
-infoBubbleText="Found a suspended runbook that exceeded the open socket limit. See details on the right."
+pageTitle="Runbook was stopped because it exceeded the open socket limit"
+description="Runbook was stopped because it exceeded the open socket limit"
+infoBubbleText="A stopped runbook was found that exceeded the open socket limit. See details on the right."
 service="microsoft.automation"
 resource="runbooks"
-authors="stevechi"
+authors="stevechi,csand-msft"
 displayOrder=""
 articleId="socket-limit-48a86414-6e14-4785-8beb-33269666cc3f"
 diagnosticScenario="AARunbookFailedInsights"
@@ -14,19 +14,19 @@ resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"
 />
-# Runbook was suspended because it exceeded the open socket limit
-## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was suspended after exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit**
-We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was suspended <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
+# Runbook was stopped because it exceeded the open socket limit
+## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped after exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit**
+We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
 ### Recommended Steps
 To avoid runbook failures caused by exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit, please refer to the following information for methods to solve this problem:
 
 #### 1) Implement the recommendations in the [Socket Limit troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#job-attempted-3-times) including:
 
-- Execute the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers do not impose a socket limit.
+- Execute the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). Hybrid workers typically have a much larger limit on the number of sockets.
 
 #### 2) Another technique to solve this problem is to:
 
-- Modify the runbook to release socket connections, and connection pools as soon as possible. This will keep the number of open sockets to a minimum. [Sysinternals TCPView](https://docs.microsoft.com/sysinternals/downloads/tcpview), to monitor socket usage, is a valuable tool when debugging the PowerShell cmdlets to reduce socket consumption on a local PowerShell IDE.
+- Modify the runbook to release socket connections and connection pools as soon as possible. This will keep the number of open sockets to a minimum. [Sysinternals TCPView](https://docs.microsoft.com/sysinternals/downloads/tcpview), to monitor socket usage, is a valuable tool when debugging the PowerShell cmdlets to reduce socket consumption on a local PowerShell IDE.
 
 #### 3) Optimize the runbook
 Another option is to optimize the runbook.
