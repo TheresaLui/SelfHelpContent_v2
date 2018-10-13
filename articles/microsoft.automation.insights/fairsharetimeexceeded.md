@@ -29,7 +29,7 @@ To avoid runbook failures caused by exceeding the fair share time limit, follow 
 #### 2) Optimize the runbook
 Another option is to optimize the runbook.
 
-One optimization is to start child runbooks from the parent runbook. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/en-us/azure/automation/automation-child-runbooks#starting-a-child-runbook-using-cmdlet). Each of these child runbooks will execute in parallel in separate processes, thereby decreasing the total amount of time for the parent runbook to complete.
+One optimization is to start child runbooks from the parent runbook. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks#starting-a-child-runbook-using-cmdlet). Each of these child runbooks will execute in parallel in separate processes, thereby decreasing the total amount of time for the parent runbook to complete.
 
 The PowerShell cmdlets that enable this scenario are:
 
