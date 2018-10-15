@@ -27,5 +27,4 @@ Problems with additional server docs, WAD server (couldn't find these docs)
 3. Verify the federation server is operational [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/verify-that-a-federation-server-is-operational).
 ## **Recommended Documents**
 [Farm Deployment Checklist](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/deploying-a-federation-server-farm)
-[ADFS Help](https://adfshelp.microsoft.com/)
-<br>
+[ADFS Help](https://adfshelp.microsoft.com/)<br>

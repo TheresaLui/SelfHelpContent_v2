@@ -21,7 +21,7 @@
     * ADFS AD FS 1.1 Windows token-based agent and AD FS 1.1 claims-aware agent installed with Windows Server 2008 or Windows Server 2008 R2
     * AD FS 2.0 federation server and AD FS 2.0 federation server proxy installed on Windows Server 2008 or Windows Server 2008 R2
 
-    then get help [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/migrate-ad-fs-role-services-to-windows-server-2012).
+    then get help [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/migrate-ad-fs-role-services-to-windows-server-2012).
 
 2. If you are upgrading to ADFS 2016 using a WID database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
 3. If you are upgrading to ADFS 2016 with a SQL database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
@@ -31,5 +31,4 @@
 ## **Recommended Documents**
 [Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)
 [Upgrading to ADFS using a SQL database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)
-[ADFS Help](https://adfshelp.microsoft.com/)
-<br>
+[ADFS Help](https://adfshelp.microsoft.com/)<br>
