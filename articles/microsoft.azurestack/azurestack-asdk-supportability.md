@@ -1,15 +1,15 @@
 <properties
-    pageTitle="ASDK - Azure Stack Developers Kit\ASDK"
-    description="Supportability statement and self-help content for ASDK"
-    service="microsoft.azurestack"
-    resource="azurestack"
-    authors="alexsmithMSFT"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32615117"
-    resourceTags=""
-    productPesIds="16226"
-    cloudEnvironments="public"
+    pageTitle="ASDK - Azure Stack Developers Kit Supportability"
+    description="Supportability statement and self-help content for ASDK"
+    service="microsoft.azurestack"
+    resource="azurestack"
+    authors="alexsmithMSFT"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32615117"
+    resourceTags=""
+    productPesIds="16226"
+    cloudEnvironments="public"
 />
 
 # Azure Stack Development Kit (ASDK) Support Statement
