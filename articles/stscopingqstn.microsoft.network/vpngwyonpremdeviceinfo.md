@@ -110,7 +110,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-deviceshttps://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2Fazure%2Fvpn-gateway%2F%2Ftoc.json'>Learn more</a> about Validated VPN Devices and our device configuration guides"
+			"content": "<a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-deviceshttps://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2Fazure%2Fvpn-gateway%2F%2Ftoc.json'>Learn more</a> about Validated VPN Devices and our device configuration guides"
 		}
 	]
 }
