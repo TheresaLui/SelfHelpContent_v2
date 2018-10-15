@@ -30,4 +30,4 @@ Steps to create federation
 2. Run Microsoft Azure Active Directory PowerShell as administrator
 3. Connect to Microsoft Online Services using GA credentials: `Convert-MsolService`
 4. Set the MSOL AD FS Context server, to the AD FS server (optional): If you are not running the PowerShell module on the primary AD FS server, then set the right AD FS primary server as the context server:  `Set-MsolADFSConect -Computer <adfs_server.contoso.com>`
-5. Now you can convert the domain(s) from managed to federated. If only one domain is to be federated, then the SupportMultipleDomain flag needs to be set as false while creating the trust, otherwise it needs to be set as true:  `Convert-MsoldomainToFederated -DomainName contoso.com -SupportMultipleDomain <$false/$true>`<br>
+5. Now you can convert the domain(s) from managed to federated. If only one domain is to be federated, then the SupportMultipleDomain flag needs to be set as false while creating the trust, otherwise it needs to be set as true:  `Convert-MsoldomainToFederated -DomainName contoso.com -SupportMultipleDomain <$false/$true>`
