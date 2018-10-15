@@ -105,7 +105,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide device Model and iOS/firmware version",
 			"required": false,
-			"useAsAdditionalDetails": true,			
+			"useAsAdditionalDetails": true
 		}, {
 			"id": "learn_more_text",
 			"order": 6,
