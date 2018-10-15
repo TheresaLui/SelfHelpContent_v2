@@ -16,11 +16,11 @@
 
 Thank you for your interest in Azure Stack. As outlined in [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting), the Azure Stack Development Kit is offered as an evaluation environment with no support available through Microsoft Customer Support Services. Please understand, support cases opened for ASDK will be redirected to the MSDN Forum and closed.
 
-## **Recommended Steps**
+## **Recommended steps**
 
 * If you are experiencing an issue not already documented, make sure to check the [Azure Stack MSDN Forum](https://social.msdn.microsoft.com/Forums/home?forum=azurestack) for further assistance and information.
 
-## **Recomended Documents**
+## **Recommended documents**
 
 * [Microsoft Azure Stack Troubleshooting](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting)- Provides common troubleshooting information and Known Issues for Azure Stack Dev Kit
 * [ASDK Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-asdk-release-notes)- Includes known issues for current released build
