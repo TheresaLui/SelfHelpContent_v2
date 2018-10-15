@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # One of more Azure File Sync registered servers are not reporting health status. 
 
 <!--issueDescription-->
-The following Azure File Sync registered servers under the Storage Sync Service **<!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$StorageSyncServiceName-->** are not reporting health status: <br><!--$ServerNameList-->[ServerNameList]<!--/$ServerNameList-->
+The following Azure File Sync registered server(s) under the Storage Sync Service **<!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$StorageSyncServiceName-->** are not reporting health status: <br><!--$ServerNameList-->[ServerNameList]<!--/$ServerNameList-->
 <!--/issueDescription-->
 
 This issue occurs if the Storage Sync Monitor process is not running or the server is unable to communicate with the Azure File Sync service.
