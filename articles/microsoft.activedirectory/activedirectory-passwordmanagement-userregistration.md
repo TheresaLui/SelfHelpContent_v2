@@ -18,7 +18,7 @@
 * Users can follow the steps in this article to register for self-service password reset: [Register for self-service password reset](https://docs.microsoft.com/azure/active-directory/user-help/active-directory-passwords-reset-register)
 * If your users are enabled for converged registration, they can follow the tutorials listed in this article: [Security info (preview) overview](https://docs.microsoft.com/azure/active-directory/user-help/user-help-security-info-overview)
 
-**How do I enabled converged registration for self-service password reset and Multi-Factor Authentication?**
+**How do I enable converged registration for self-service password reset and Multi-Factor Authentication?**
 
 To learn more about converged registration and how to enable it for your users, see this article: [Converged registration for self-service password reset and Azure Multi-Factor Authentication (public preview)](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) 
 
