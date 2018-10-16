@@ -29,13 +29,11 @@ Due to the storage heavy nature of the technology, it is not recommended to scal
 
 Due to this, scaling down a cluster is explicitly disallowed on HDInsight Kafka.
 
-Visit https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability for storage and scalability configuration for Kafka on HDInsight.
+[Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
 <!--/issueDescription-->
 
 ## **Recommended steps**
 
 The issue can be resolved by deleting the existing cluster and creating a new cluster with desired configuration. 
-Refer https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started for getting started with HDInsight Kafka Cluster.
-
-Please provide feedback at https://feedback.azure.com/forums/217335-hdinsight
+[Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
 
