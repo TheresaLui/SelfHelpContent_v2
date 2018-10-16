@@ -21,5 +21,5 @@
 2. Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
 3. Verify the federation server is operational [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/verify-that-a-federation-server-is-operational).<br>
 ## **Recommended Documents**
-[Farm Deployment Checklist](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/deploying-a-federation-server-farm)
+[Farm Deployment Checklist](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/deploying-a-federation-server-farm)<br>
 [ADFS Help](https://adfshelp.microsoft.com/)
