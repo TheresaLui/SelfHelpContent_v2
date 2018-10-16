@@ -13,7 +13,7 @@
 
 # managing/elastic pools
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Create and manage elastic pools in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage/)
 

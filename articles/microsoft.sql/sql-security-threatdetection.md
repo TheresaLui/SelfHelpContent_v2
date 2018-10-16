@@ -13,7 +13,7 @@
 
 # security/threat detection
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Vulnerability assessment](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment/)
 

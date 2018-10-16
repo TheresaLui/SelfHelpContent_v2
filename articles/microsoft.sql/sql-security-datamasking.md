@@ -13,10 +13,10 @@
 
 # security/data masking
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Configure Azure SQL Database dynamic masking in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started-portal/)
 
-## **Recommended document**
+## **Recommended documents**
 
 * [Dynamic data masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started/)

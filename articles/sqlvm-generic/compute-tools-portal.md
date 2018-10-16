@@ -14,6 +14,6 @@
 
 # tools/portal
 
-## **Recommended document**
+## **Recommended documents**
 
 * [How to provision a SQL VM on the portal](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)

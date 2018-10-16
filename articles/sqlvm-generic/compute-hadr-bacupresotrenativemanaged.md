@@ -14,6 +14,6 @@
 
 # high availability and disaster recovery/ Backup and restore - SQL native, automated or managed
 
-## **Recommended document**
+## **Recommended documents**
 
 * [Automated backups for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-backup-v2/)

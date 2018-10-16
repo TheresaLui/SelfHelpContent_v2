@@ -13,7 +13,7 @@
 
 # managing/server
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall/)
 

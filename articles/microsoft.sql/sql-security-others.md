@@ -13,7 +13,7 @@
 
 # security/others
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Configure multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)
 

@@ -14,6 +14,6 @@
 
 # sql administration/upgrades and security patches
 
-## **Recommended document**
+## **Recommended documents**
 
 * [Automated patching for SQL VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-patching/)

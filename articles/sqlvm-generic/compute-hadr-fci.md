@@ -14,6 +14,6 @@
 
 # high availability and disaster recovery/ fci
 
-## **Recommended step**
+## **Recommended steps**
 
 * [Configure failover cluster instance](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-create-failover-cluster/)

@@ -13,6 +13,6 @@
 
 # tools/azure management portal
 
-## **Recommended document**
+## **Recommended documents**
 
 * [Query editor considerations](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-portal#query-editor-considerations/)
