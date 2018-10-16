@@ -16,17 +16,16 @@
 # Certificate Expiration
 
 ## **Recommended Steps**
-1. If your certificate has expired, update your certificate through the [AD Connect tool](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update).
-2. For general certificate issues, use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) which provides a list of potential issues to help troubleshoot.
-3. If you are unable to run the Diagnostics Analyzer:
-    *  Make sure that the certificate is trusted, as SSL certs need to be trusted by the clients and token signing certificates need to be trusted by relying parties.
+1. If your certificate has expired, update your certificate through the [AD Connect tool](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update).<br>
+2. For general certificate issues, use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) which provides a list of potential issues to help troubleshoot.<br>
+3. If you are unable to run the Diagnostics Analyzer:<br>
+    *  Make sure that the certificate is trusted, as SSL certs need to be trusted by the clients and token signing certificates need to be trusted by relying parties.<br>
     * Check the trust chain, every certificate in the chain needs to be valid.
-    * Check the certificate expiration date.
-    * Check certificate revocation list (CRL) accessibility, making sure the CDP field is populated.
-    * Finally, check to make sure the certificate has not been revoked.
+    * Check the certificate expiration date.<br>
+    * Check certificate revocation list (CRL) accessibility, making sure the CDP field is populated.<br>
+    * Finally, check to make sure the certificate has not been revoked.<br>
 
 ## **Recommended Documents**
-[Certificate Troubleshooting](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-certs)
-[Updating SSL Certificates](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update)
+[Certificate Troubleshooting](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-certs)<br>
+[Updating SSL Certificates](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update)<br>
 [ADFS Help](https://adfshelp.microsoft.com/)
-<br>
