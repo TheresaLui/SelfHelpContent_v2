@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32565496"
 	resourceTags="linux, redhat"
-	productPesIds="15571, 15797"
+	productPesIds="15571, 15797, 16454"
 	cloudEnvironments="public"
 />
 # Performance/Backup
