@@ -36,8 +36,10 @@ DHCP sever role is installed on the VM impacting connectivity. As mentioned in o
 ```
 get-windowsfeature DHCP
 ```
+
 2. Remove the DHCP role executing the below command and restart the virtual machine.
 ```
 dism /online /disable-feature:DHCP
 ```
+
 3. Now check if the connectivity to the VM is restored.
