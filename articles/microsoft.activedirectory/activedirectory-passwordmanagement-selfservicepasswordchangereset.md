@@ -37,7 +37,7 @@ Review this article to find common errors and their solutions: [Troubleshoot sel
 
 **I don't want my users to register additional security info for password reset**
 
-You can pre-populate data (email and phone attributes) for your users using an API, Powershell, or Azure AD Connect. To learn how read:
+You can pre-populate data (email and phone attributes) for your users using an API, PowerShell, or Azure AD Connect. To learn how read:
 
   * [Deploying password reset without requiring users to register](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data#set-and-read-authentication-data-using-powershell)
   * [What data is used by password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-data)
