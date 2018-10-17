@@ -1,18 +1,17 @@
 <properties
-	pageTitle="migrating to azure/planning a migration"
-	description="migrating to azure/planning a migration"
+	pageTitle="query execution/my issue is not listed"
+	description="query execution/my issue is not listed"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980431"
-	resourceTags=""
+	supportTopicIds="32045130"
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# migrating to azure/planning a migration
+# query execution/my issue is not listed
 
 ## **Recommended documents**
 
