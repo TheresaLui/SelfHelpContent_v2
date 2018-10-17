@@ -31,6 +31,7 @@ DHCP sever role is installed on the VM impacting connectivity. As mentioned in o
 2. To resolve the issue, please try the steps below using the Azure virtual machine serial console.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
 #### From the console: ####
+
 1. From the powershell prompt, query the roles of the machine to confirm DHCP role is installed.
 ```
 get-windowsfeature DHCP
