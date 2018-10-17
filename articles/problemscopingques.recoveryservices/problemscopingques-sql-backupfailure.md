@@ -7,7 +7,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="d73dbe86-4f8e-414d-8963-7d22d012b671"
+	 articleId="d73dbe86-4f8e-414d-8963-7d22d012b671"
 />
 # Questions SQL database backup failure
 ---
@@ -68,7 +68,7 @@
 							"displayLabel": "Enter the failed backup job Activity ID",
 							"watermarkText": "Enter the failed backup Job Activity ID that is experiencing the problem",
 							"required": true
-					 },{	  
+					 },{
 							"id": "learn_more_text",
 							"order": 7,
 							"controlType": "infoblock",
@@ -84,7 +84,7 @@
 							"id": "prerequisites_links",
 							"order": 9,
 							"controlType": "infoblock",
-							"content": "To ensure SQL database successful backup, refer to these prerequisites and dependencies:, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-operating-systems'>supported OS version</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-sql-server-versions-and-editions'>supported SQL server versions and editions</a>, <a href='https://docs.microsoft.com/en-us/azure/backup/backup-azure-sql-database#prerequisites'>permission required on VM.</a>"
+							"content": "To ensure SQL database successful backup, refer to these prerequisites and dependencies:, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-operating-systems'>supported OS version</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-sql-server-versions-and-editions'>supported SQL server versions and editions</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#prerequisites'>permission required on VM.</a>"
 					},{
 							"id": "basic_troubleshooting_multiselect",
 							"order": 10,
@@ -101,7 +101,7 @@
 												"text": "Machine has Internet connectivity"
 										},{
 												"value": "SQL server vm has required permission for backup",
-												"text": "SQL server vm has required permission for backup"	
+												"text": "SQL server vm has required permission for backup"
 										}
 									],
 										"required": true
@@ -111,13 +111,11 @@
 							"controlType": "datetimepicker",
 							"displayLabel": "When did the problem begin?",
 							"required": false
-							
 					 },{
 							"id": "learn_more_text",
 							"order": 12,
 							"controlType": "infoblock",
 							"content": "Please upload SQL Server logs located at default installation path C:\\\\Program Files\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
-					 
 					}
 			]
 }
