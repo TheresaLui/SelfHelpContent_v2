@@ -46,7 +46,7 @@
 					 },{
 							"id": "backup_Type",
 							"order": 5,
-							"controlType": "dropdownOptions",
+							"controlType": "dropdown",
 							"displayLabel": "Is it Full/Log/Differential backup failure?",
 							"watermarkText": "Select",
 							"dropdownOptions": [{
@@ -112,7 +112,7 @@
 							"displayLabel": "When did the problem begin?",
 							"required": false
 					 },{
-							"id": "learn_more_text",
+							"id": "learn_more_text1",
 							"order": 12,
 							"controlType": "infoblock",
 							"content": "Please upload SQL Server logs located at default installation path C:\\\\Program Files\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
