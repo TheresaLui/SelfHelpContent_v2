@@ -25,7 +25,7 @@ We recommend using [Azure AD Connect](https://docs.microsoft.com/azure/active-di
 `If you have custom claim rules in your federation trust with Azure AD, they will get overwritten by Azure AD Connect. If custom claims rules are present, before repairing the federation trust using Azure AD Connect you can export the claims rules and then import them anew after the repair.`
 
 ### Alternative solution
-If you are not managing AD FS with Azure AD Connect, we recommend that you use: [Azure AD RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).
+If you are not managing AD FS with Azure AD Connect, we recommend that you use [Azure AD RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator):
 
 1. To generate the right set of claims for your organization, it will ask you a few questions about your AAD Connect configuration.
 
