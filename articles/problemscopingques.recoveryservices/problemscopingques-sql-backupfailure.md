@@ -117,6 +117,6 @@
 							"controlType": "infoblock",
 							"content": "Please upload SQL Server logs located at default installation path C:\\\\Program Files\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
 					}
-			]
+	               		]
 }
 ---
