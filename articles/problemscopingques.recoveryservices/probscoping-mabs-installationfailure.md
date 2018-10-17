@@ -78,7 +78,7 @@
 				"id": "prerequisites_links",
 				"order": 5,
 				"controlType": "infoblock",
-				"content": "To ensure successful installation and configuration, refer to these prerequisites and dependencies: <a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#which-operating-systems-does-azure-backup-support-br'>supported OS</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://www.microsoft.com/download/details.aspx?id=53345'>.net framework version requirements</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites.</a>"		
+				"content": "To ensure successful installation and configuration, refer to these prerequisites and dependencies: <a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#which-operating-systems-does-azure-backup-support-br'>supported OS</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://www.microsoft.com/download/details.aspx?id=53345'>.net framework version requirements</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites.</a>"	
 					},{
 				"id": "basic_troubleshooting_multiselect",
 				"order": 6,
