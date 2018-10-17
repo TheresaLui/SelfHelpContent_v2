@@ -9,7 +9,7 @@
          schemaVersion="1"
 	 articleId="26a0819f-c924-4d9a-9735-818aac4dc67e"
 />
-# Questions Azure backup server - Installation or Configuration Failures
+# Questions Azure backup server Installation or Configuration Failures
 ---
 {
          "resourceRequired": true,
@@ -46,7 +46,7 @@
 						     "text": "SQL components failed to install"
 					},{
 						    "value": "Microsoft Azure backup(DPM) software failed to install",
-						    "text": "Microsoft Azure backup(DPM) software failed to install
+						    "text": "Microsoft Azure backup(DPM) software failed to install"
 					}
 				  ],
 				     "required": true
@@ -120,7 +120,7 @@
 							"order": 8,
 							"visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install || issue_Type == SQL components failed to install || issue_Type == Microsoft Azure backup(DPM) software failed to install",
 							"controlType": "infoblock",
-							"content": "Please upload  DPMSetup.txt file located at "C:\\\\Program Files\\\\Microsoft Azure Backup Server\\\\DPM\\\\DPMLogs\\\\" using 'File upload' on the left."
+							"content": "Please upload  DPMSetup.txt file located at C:\\\\Program Files\\\\Microsoft Azure Backup Server\\\\DPM\\\\DPMLogs\\\\ using 'File upload' on the left."
 				},{
 							"id": "error_message",
 							"order": 9,
