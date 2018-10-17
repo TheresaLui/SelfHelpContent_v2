@@ -16,9 +16,10 @@
 
 # User Authentication
 
-## **Recommended Steps**
-1. See [ADFS Help](https://adfshelp.microsoft.com/) which provides effective tools in one place that makes it easier for users and administrators to resolve authentication issues at a quicker pace.<br>
-2. Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
+
+- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
+- See [ADFS Help](https://adfshelp.microsoft.com/) which provides effective tools in one place that makes it easier for users and administrators to resolve authentication issues at a quicker pace.<br>
+
 
 ## **Recommended Documents**
 [ADFS Help](https://adfshelp.microsoft.com/)<br>

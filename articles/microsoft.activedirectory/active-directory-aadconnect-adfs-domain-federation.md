@@ -15,9 +15,8 @@
 
 # Domain Federation with Azure Active Directory
 
-## **Recommended Steps**
-1. For domain federation with AD Connect, troubleshoot using the documentation [here](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management).<br>
-2. If not, use powershell for federation.<br>
+- For domain federation with AD Connect, use the [troubleshooting documentation](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management).<br>
+- If not, use powershell for federation.<br>
     * Connect to Microsoft Online Services with the credential variable set previously<br>
     `Connect-MsolService –Credential $cred`<br>
     * Set the MSOL ADFS Context server, to the ADFS server
@@ -28,8 +27,7 @@
     `Successfully updated ‘domain_name.com‘ domain.`<br>
     * Verify federation
     `Get-MsolFederationProperty –DomainName domain_name.com`<br>
-
-3. For new claims, utilize the [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).<br>
+- For new claims, utilize the [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).<br>
 
 ## **Recommended Documents**
 [Troubleshooting ADFS with Azure AD](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-azure)<br>

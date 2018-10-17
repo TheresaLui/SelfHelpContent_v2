@@ -15,10 +15,12 @@
 
 # Certificate Expiration
 
-## **Recommended Steps**
-1. If your certificate has expired, update your certificate through the [AD Connect tool](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update).<br>
-2. For general certificate issues, use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) which provides a list of potential issues to help troubleshoot.<br>
-3. If you are unable to run the Diagnostics Analyzer:<br>
+
+
+
+- If your certificate has expired, update your certificate through the [AD Connect tool](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update).<br>
+- For general certificate issues, use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) which provides a list of potential issues to help troubleshoot.<br>
+- If you are unable to run the Diagnostics Analyzer:<br>
     *  Make sure that the certificate is trusted, as SSL certs need to be trusted by the clients and token signing certificates need to be trusted by relying parties.<br>
     * Check the trust chain, every certificate in the chain needs to be valid.
     * Check the certificate expiration date.<br>

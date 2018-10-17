@@ -15,11 +15,12 @@
 
 # Other Questions Related to AD FS
 
-## **Recommended Steps**
-1. Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [ADFS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance.<br>
-2. For help generating claims and verifying if they are correct, use our [RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) tool.<br>
-3.  Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
-4. See [ADFS Help](https://adfshelp.microsoft.com/) which provides effective tools in one place that makes it easier for users and administrators to resolve authentication issues at a quicker pace.<br>
+
+
+- Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [ADFS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance.<br>
+- For help generating claims and verifying if they are correct, use our [RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) tool.<br>
+- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
+
 
 ## **Recommended Documents**
 [ADFS Help](https://adfshelp.microsoft.com/)<br>

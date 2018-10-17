@@ -17,10 +17,9 @@
 
 # Claim Rule Configuration
 
-## **Recommended Steps**
-1. Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [ADFS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance.<br>
-2. Ensure you have the right claims for your federation trust between Azure AD and ADFS with our [online claims generation tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).<br>
-3. For additional troubleshooting for the claims issuance process use [Fiddler](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-fiddler).<br>
+- Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [AD FS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance.<br>
+- Ensure you have the right claims for your federation trust between Azure AD and AD FS with our [online claims generation tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).<br>
+- For additional troubleshooting for the claims issuance process use [Fiddler](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-fiddler).<br>
 
 ## **Recommended Documents**
 [Troubleshooting Claims Syntax](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-claims-rules)<br>
