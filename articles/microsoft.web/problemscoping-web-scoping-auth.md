@@ -33,7 +33,7 @@
                     "text": "Is this a problem managing the App in the Portal?"
                 },
                 {
-                    "text": "Are you configuring your application for authentication\\authorization using the Portal configuration in Azure App Service?"
+                    "text": "Are you configuring your application for authentication\\\\authorization using the Portal configuration in Azure App Service?"
                 }
             ]
         },
