@@ -18,5 +18,5 @@
 
 * [Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings)
 * [Manage user settings with Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings)
-* [Frequently asked questions about Azure Multi-Factor Authentication](ps://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-faq)
+* [Frequently asked questions about Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-faq)
 * [Authentication methods](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods)
