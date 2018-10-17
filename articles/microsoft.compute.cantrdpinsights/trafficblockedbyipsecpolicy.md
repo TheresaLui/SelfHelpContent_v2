@@ -31,12 +31,15 @@ An IPSec policy is configured on this virtual machine which can potentially impa
 2. To resolve the issue, please try the steps below using the Azure virtual machine serial console.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
 #### From the console: ####
+
 1. From the command prompt, query the IPSEC Enforcement configuration to validate if 'IPsec Relying Party client' enforcement is enabled
-```
-netsh nap client show configuration
-```
+ ```
+ netsh nap client show configuration
+ ```
+
 2. Disable the policy by executing the below command
-```
-netsh nap client set enforcement ID = 79619 ADMIN = "DISABLE"
-```
+ ```
+ netsh nap client set enforcement ID = 79619 ADMIN = "DISABLE"
+ ```
+
 3. Now check if the connectivity to the VM is restored.
