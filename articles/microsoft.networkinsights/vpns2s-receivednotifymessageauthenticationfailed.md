@@ -29,6 +29,7 @@ Verify the pre-shared key for the VPN connection matches what you have configure
 6. If this is a VNet-to-VNet connection, verify the pre-shared key against the matching connection from the target VNet to this VNet.
 
 ## Recommended documents
+
 * [Create and manage S2S VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-tutorial-vpnconnection-powershell)
 * [Create and manage VNet-to-VNet connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal)
 * [About on-premises VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#devicetable)
