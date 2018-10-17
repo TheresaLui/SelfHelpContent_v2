@@ -1,7 +1,7 @@
 ﻿<properties
-pageTitle="Runbook was stopped because it exceeded the open socket limit"
-description="Runbook was stopped because it exceeded the open socket limit"
-infoBubbleText="A stopped runbook was found that exceeded the open socket limit. See details on the right."
+pageTitle="Runbook failed because it exceeded the open socket limit"
+description="Runbook failed because it exceeded the open socket limit"
+infoBubbleText="A runbook was found that failed because it exceeded the open socket limit. See details on the right."
 service="microsoft.automation"
 resource="runbooks"
 authors="stevechi,csand-msft"
@@ -14,9 +14,9 @@ resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"
 />
-# Runbook was stopped because it exceeded the open socket limit
-## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped after exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit**
-We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, was stopped <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
+# Runbook failed because it exceeded the open socket limit
+## **The runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed after exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit**
+We have investigated and identified that your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
 ### Recommended Steps
 To avoid runbook failures caused by exceeding the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit, please refer to the following information for methods to solve this problem:
 
