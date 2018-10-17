@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Test DDoS mitigation"
-    description="Test DDoS mitigation"
+    pageTitle="General Guidance or Advisory"
+    description="General Guidance or Advisory"
     service="microsoft.network"
     resource="ddosProtectionPlans"
     authors="radwiv"
