@@ -24,9 +24,7 @@ To avoid runbook failures caused by exceeding the <!--$MemoryLimit-->[MemoryLimi
 - Execute the runbook on a [Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). The memory on hybrid workers is limited only by the amount of memory on the machine that is hosting the hybrid worker, and this is typically much larger than the memory limit for Automation sandboxes.
 
 #### 2) Optimize the runbook
-Another option is to optimize the runbook.
-
-One optimization option is to create child runbooks. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks). Each of these child runbooks executes in parallel in separate processes decreasing the total amount of memory necessary for each runbook.
+Another option is to optimize the runbook by starting child runbooks from the parent runbook. If your runbook loops through the same function on a number of resources, such as a database operation on several databases, you can move that function to a [child runbook](https://docs.microsoft.com/azure/automation/automation-child-runbooks#starting-a-child-runbook-using-cmdlet). Each of these child runbooks will execute in parallel in separate processes, and thereby decrease the total amount of time for the parent runbook to complete.
 
 The PowerShell cmdlets that enable this scenario are:
 
