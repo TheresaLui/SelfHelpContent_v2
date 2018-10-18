@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # Possible impact to inbound traffic by an IPSec policy
 <!--issueDescription-->
-An IPSec policy is configured on this virtual machine which can potentially impact the inbound connectivity.
+We have investigated and identified that an IPSec policy is configured on this virtual machine which can potentially impact the inbound connectivity.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
