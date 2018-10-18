@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # Terminal Service is not running
 <!--issueDescription-->
-We have investigated and identified that the Terminal Service is not running and hence RDP connectivity is impacted
+We have investigated and identified that the Terminal Service is not running on this virtual machine <!--$vmname-->[vmname]<!--/$vmname--> impacting the RDP connectivity.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
