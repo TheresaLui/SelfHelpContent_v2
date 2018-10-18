@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # Unsupported DHCP server role installed on the VM
 <!--issueDescription-->
-DHCP sever role is installed on the VM impacting connectivity. As mentioned in our [public documentation](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines?wa=wsignin1.0) DHCP server role is not supported on Azure virtual machines.
+We have investigated and identified that DHCP sever role is installed on this VM <!--$vmname-->[vmname]<!--/$vmname--> impacting connectivity. As mentioned in our [public documentation](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines?wa=wsignin1.0) DHCP server role is not supported on Azure virtual machines.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
