@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # No inbound traffic detected to the virtual machine
 <!--issueDescription-->
-No inbound traffic detected to the virtual machine. This usually occurs if the incoming traffic is being blocked from within the guest OS due to an issue with the NIC or some software/policy blocking the incoming traffic.
+We have investigated and have detected no inbound traffic to this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. This usually occurs if the incoming traffic is being blocked from within the guest OS due to an issue with the NIC or some software/policy blocking the incoming traffic.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
