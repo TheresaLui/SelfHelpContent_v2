@@ -32,7 +32,7 @@ To fix the VM, please follow the troubleshooting steps indicated below:
 
   * Open **Regedit.exe**.
   * Click on **HKEY_LOCAL_MACHINE** and from the **File** menu select **Load Hive...**.
-  * Browse to the the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk.
+  * Browse to the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk.
   * When prompted for a name, use **BROKENSYSTEM**.
 
 6. Determine state of the SYSTEM hive.
@@ -44,7 +44,7 @@ To fix the VM, please follow the troubleshooting steps indicated below:
     b. If the hive opens up with no issues then the hive may not have been closed properly.  Proceed with the next step.
 
 7. Unload the SYSTEM hive
-8. At this time you may want to enable Azure Serial Console, this will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
+8. At this time, you may want to enable Azure Serial Console. This will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
 
     * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
     * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
