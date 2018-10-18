@@ -6,7 +6,7 @@
     authors="krbain"
     selfHelpType="generic"
     supportTopicIds="32586794"
-    productPesIds="14785,16578"
+    productPesIds="16578"
     cloudEnvironments="public"
 />
 
