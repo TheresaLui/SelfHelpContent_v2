@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Netlogon Service is not running
 
 <!--issueDescription-->
-We have investigated and identified that the Workstation service is not running on the virtual machine causing a loss of network connectivity.
+We have investigated and identified that the Workstation service is not running on this virtual machine <!--$vmname-->[vmname]<!--/$vmname--> causing a loss of network connectivity.
 
 Workstation service creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.
 
