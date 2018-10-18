@@ -9,7 +9,7 @@
 	supportTopicIds="32411877"
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds="14749"
-	cloudEnvironments="MoonCake" 
+	cloudEnvironments="MoonCake"
 />
 
 # My VM is slow

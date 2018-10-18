@@ -22,7 +22,7 @@ As a quick way to recover from one-time issues, restart your application and vir
 
 1. **Did you know PerfInsights can help you analyze Windows guest VM issues?**
 
-	Start here: [Download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on the VM. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)<br>
+	Start here: [Download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on the VM. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)<br> 
 
 	*To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.*<br>
 2. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues.<br>
