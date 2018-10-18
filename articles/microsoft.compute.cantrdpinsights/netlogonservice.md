@@ -18,7 +18,7 @@ cloudEnvironments="public"
 # Netlogon Service is not running
 
 <!--issueDescription-->
-The Netlogon service is not running on the virtual machine, causing a loss of network connectivity. This could happen if the service is disabled accidentally or if the service is crashing or hung.
+We have investigated and identified that the Netlogon service is not running on the virtual machine, causing a loss of network connectivity. This could happen if the service is disabled accidentally or if the service is crashing or hung.
 
 <!--/issueDescription-->
 
