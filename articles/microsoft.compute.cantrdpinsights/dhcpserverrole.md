@@ -32,7 +32,7 @@ DHCP sever role is installed on the VM impacting connectivity. As mentioned in o
 
 #### From the console: ####
 
-1. From the powershell prompt, query the roles of the machine to confirm DHCP role is installed.
+1. From the PowerShell prompt, query the roles of the machine to confirm DHCP role is installed.
 ```
 get-windowsfeature DHCP
 ```
