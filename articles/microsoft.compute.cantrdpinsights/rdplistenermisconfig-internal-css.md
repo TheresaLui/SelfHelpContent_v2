@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # RDP-TCP listener is misconfigured
 <!--issueDescription-->
-RDP-TCP listener is misconfigured impacting RDP connectivity to the VM. Reconfigure the listener via serial console or other remote management options described below to regain RDP connectivity
+We have investigated and identified that the RDP-TCP listener is misconfigured impacting RDP connectivity to the VM. Reconfigure the listener via serial console or other remote management options described below to regain RDP connectivity
 <!--/issueDescription-->
 
 ## **Recommended Steps**
