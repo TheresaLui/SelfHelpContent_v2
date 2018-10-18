@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Virtual network gateway was reset
 <!--issueDescription-->
-A Virtual Network Gateway in Azure Subscription: {customerSubscriptionId} was recently upgraded around {preciseTimeStamp}. The VPN connection to your Vnet will remain but you may have noticed some sessions disconnected at the above time. You were also without VPN Tunnel redundancy during this time.
+A Virtual Network Gateway in Azure Subscription: {customerSubscriptionId} was recently upgraded around {preciseTimeStamp}. The VPN connection to your VNet will remain but you may have noticed some sessions disconnected at the above time. Also, the VPN Tunnel was not redundant during this time.
 <!--/issueDescription-->
 ## **Details & Mitigation**
  If this upgrade resulted in persistent tunnel establishment failure, consider [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).
