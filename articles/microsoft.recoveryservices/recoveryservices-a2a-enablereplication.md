@@ -8,24 +8,19 @@
 	selfHelpType="generic"
 	supportTopicIds="32574718"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Replicate Azure VMs from one Azure region to another Azure region using Azure Site Recovery
 
 ## **Recommended steps**
 
-* **Unsupported Scenarios**</br>
-	-  Cross subscription migration and ASM to ARM, [here](https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-azure-to-azure) are the workarounds.</br>
-	- Migration of IAAS VMs between the same region.</br>
-	- Workloads in Azure to Azure scenario must be migrated as an entire VM</br>
-- Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components.</br>
-- [Troubleshooting common Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)</br>
-- [What charges do I incur while using Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)</br>
-
-## **Recommended documents** 
-
-- Understand the [scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)</br>
-- [Steps to **enable replication** for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-enable-replication)</br>
-- [**Networking guidance** for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-network)</br>
-- [Steps to configuring outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)
+- [Issue] [Unable to see Azure VM for selection in "Enable replication"](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-see-the-azure-vm-for-selection-in-enable-replication)</br>
+- [Issue] [Virtual machine is greyed out (or) Unable to select VM to enable replication](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-select-virtual-machine-for-protection)</br>
+- [Issue] [Unable to replicate due to connectivity issues (Error code 151037 or 151072)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)</br>
+- [Issue] [Unable to select Target virtual network - network selection tab is grayed out](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-select-target-virtual-network---network-selection-tab-is-grayed-out)</br>
+- [What are the supported Azure regions to which I can replicate my VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#region-support)</br>
+- [Site Recovery operating systems support updates](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#support-for-replicated-machine-os-versions)</br>
+- Review the [Support Requirements](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components</br>
+ - [Troubleshooting common Azure to Azure - VM replication Errors](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)</br>
+ - [What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/pricing/details/site-recovery/)</br>

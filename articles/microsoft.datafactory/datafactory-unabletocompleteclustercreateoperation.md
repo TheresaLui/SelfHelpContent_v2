@@ -25,4 +25,4 @@ This error usually indicates that the location of the storage account specified 
 Additionally, there is a second JSON property additionalLinkedServiceNames where additional storage accounts may be specified in on-demand HDInsight. Those additional linked storage accounts should be in the same location as the HDInsight cluster, or it will fail with the same error.
 
 ## **Recommended documents**
-[HDInsight on-demand linked service](https://azure.microsoft.com/documentation/articles/data-factory-compute-linked-services/#azure-hdinsight-on-demand-linked-service)
+[HDInsight on-demand linked service](https://docs.microsoft.com/azure/data-factory/v1/data-factory-compute-linked-services#azure-hdinsight-on-demand-linked-service)

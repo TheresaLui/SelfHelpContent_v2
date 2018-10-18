@@ -8,15 +8,20 @@
 	selfHelpType="generic"
 	supportTopicIds="32574724"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
 # Run a test failover from  Azure to Azure
 ## **Recommended steps**
 
-- [Doing a test failover for the first time and need guidance? Follow this link where all steps are explained in sequence](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill#run-a-test-failover)<br>
-- [Do you have questions around how test failover works? Follow  this link for details](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure)<br>
-- [Unable to connect to your VM after test failover?](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)<br>
-- **Connect button greyed out?** If the Connect button in the portal is dimmed, and you are not connected to Azure via an Express Route or Site-to-Site VPN connection, you need to create and assign your virtual machine a public IP address before you can use Remote Desktop/Shared Shell. You can then add a Public IP on the network interface of the virtual machine.[Details](https://docs.microsoft.com/azure/site-recovery/site-recovery-monitoring-and-troubleshooting#adding-a-public-ip-on-a-resource-manager-virtual-machine)<br>
-- **Unable to RDP into the failed over VM?** [Use these troubleshooting steps](https://social.technet.microsoft.com/wiki/contents/articles/31666.troubleshooting-remote-desktop-connection-after-failover-using-asr.aspx) 
+- [How to run a **Test Failover of Azure VM** to secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill#run-a-test-failover)<br>
+- [Test Failover overwiew](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure)<br>
+- [What IP address is assigned to a VM during Test Failover?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-network-mapping#ip-assignment-behavior-during-test-failover)
+- [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletordpssh)<br>
+- [Issue] [*Connect button available and unable to RDP/SSH to VM*](https://aka.ms/unabletordpssh)<br>
+- [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
+- [How to] [troubleshoot SSH connection to? Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
+- [Issue] [*There aren't sufficient cores available to failover?* Follow these steps to increase the quota ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
+- [Issue] [*The selected target location is not enabled for VM creation in your subscription.* Change location or follow these instructions to enable VM creation ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
+- [Issue] Troubleshooting Failover error codes with: [Error ID 28031](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031), [Error ID 28092](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28092), [Error ID 70038](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-70038)<br>

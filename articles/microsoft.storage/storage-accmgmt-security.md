@@ -1,31 +1,25 @@
 <properties
-	pageTitle="How to troubleshoot connectivity or security issue"
-	description="How to troubleshoot connectivity or security issue"
+	pageTitle="How to troubleshoot access or security issue"
+	description="How to troubleshoot access or security issue"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32551655"
+	supportTopicIds="32602691,32602695,32602697,32602698"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
 />
 
-# How to troubleshoot connectivity or security issue
+# How to troubleshoot access or security issue
 ## **Recommended documents**
-### **Access and Connectivity Options**
+### **Access Options**
 - [User Policy to manage resources and control access](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-policy)
 - [Assign a user access to your Storage account](https://azure.microsoft.com/documentation/articles/role-based-access-control-configure/)
-- Connect to a storage account to store images:
-   - [Microsoft Azure Storage Explorer](http://storageexplorer.com)
-   - [PowerShell](https://azure.microsoft.com/documentation/articles/storage-powershell-guide-full/)
+- [Microsoft Azure Storage Explorer](http://storageexplorer.com)
+- [PowerShell](https://azure.microsoft.com/documentation/articles/storage-powershell-guide-full/)
 - [Azure Storage Connection Strings](https://docs.microsoft.com/azure/storage/storage-configure-connection-string)
-
-### **Azure Files mounting error**
-- [Step by step guided walkthrough for mounting errors on Windows and Linux](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
-- [Download and run troubleshooting tool for mounting errors on Windows](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)<br>
-- [Download and run troubleshooting tool for mounting errors on Linux](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)<br>
 
 ### **Shared Access Signature (SAS)**
 - [When to Shared Access Signature (SAS)?](https://docs.microsoft.com/azure/storage/storage-dotnet-shared-access-signature-part-1#when-should-you-use-a-shared-access-signature)
@@ -40,3 +34,9 @@
 
 ### **CORS**
 - [Enabling CORS so application can run under one domain](https://docs.microsoft.com/rest/api/storageservices/fileservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
+
+### **Azure Storage Firewalls and Virtual Networks**
+- [Configuring Azure Storage Firewalls and Virtual Networks](https://docs.microsoft.com/azure/storage/common/storage-network-security)<br>
+- [Granting access from a Virtual Network](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-a-virtual-network)<br>
+- [Granting access from an internet IP range](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range)<br>
+- [Changing default network access rules](https://docs.microsoft.com/azure/storage/common/storage-network-security#change-the-default-network-access-rule)<br>

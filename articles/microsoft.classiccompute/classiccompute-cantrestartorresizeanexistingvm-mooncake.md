@@ -3,13 +3,13 @@
     description="I can't restart or resize an existing VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
-    authors="kasparks"
+    authors="ScottAzure"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="windows, linux, windowsSQL, redhat"	
+    resourceTags="windows, linux, windowsSQL, redhat"
     productPesIds=""
-    cloudEnvironments="MoonCake" 
+    cloudEnvironments="MoonCake"
  />
 
 # I can't restart or resize an existing VM
