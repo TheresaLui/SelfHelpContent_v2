@@ -23,12 +23,7 @@
             "required": true,
             "hints": [
 		{
-		    "text": "Please note that Azure Security Center is a product   
-  
-For any other security issue in Azure please select the appropriate service.   
-Example: Suspicious activity on your VM -> COMPUTE -> Virtual Machine running...
-
-Delays to resolve non Azure Security Center issues will occur if you use this service to open a support case."
+		    "text": "Please note that Azure Security Center is a product for any other security issue in Azure please select the appropriate service. Example: Suspicious activity on your VM -> COMPUTE -> Virtual Machine running...Delays to resolve non Azure Security Center issues will occur if you use this service to open a support case."
 		}
 		]
         },
