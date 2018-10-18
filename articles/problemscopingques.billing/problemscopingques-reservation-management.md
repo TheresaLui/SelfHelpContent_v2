@@ -34,7 +34,23 @@
 				}
 				],
 			"required": true
-		}
+		},
+		{
+            	"id": "problem_description",
+            	"order": 2,
+            	"controlType": "multilinetextbox",
+            	"displayLabel": "Additional details",
+            	"watermarkText": "Provide additional information about your issue",
+            	"required": true,
+            	"hints": [
+                	{
+                    	"text": "Type of Reservation : SUSE Linux, SQL Database, Virtual Machines RI"
+                	},
+                	{
+                    	"text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the [Reservation Blade]				(https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)."
+               	 	}
+            	]
+        	}
 	]
 }
 ---
