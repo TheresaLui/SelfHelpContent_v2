@@ -3,7 +3,7 @@
    description="Scoping questions for HDInsight Spark Issues"
    authors="bharathb"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32511173,32511212,32511213,32511216"
+   supportTopicIds="32511173"
   productPesIds="15078"
   cloudEnvironments="public"
    schemaVersion="1"
