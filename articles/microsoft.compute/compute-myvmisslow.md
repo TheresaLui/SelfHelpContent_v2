@@ -25,6 +25,7 @@ As a quick way to recover from one-time issues, restart your application and vir
 2. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues.<br>
 3. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>
 
+
 	* Use the Perfmon tool.<br>
 
 4. Use VM Diagnostics and Storage Diagnostics in the Azure portal to identify if any resource is being overutilized or throttled <br>
