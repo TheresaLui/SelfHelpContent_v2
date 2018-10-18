@@ -18,14 +18,14 @@ cloudEnvironments="public"
 # Netlogon Service is not running
 
 <!--issueDescription-->
-The Workstation service is not running on the virtual machine, causing a loss of network connectivity.
+We have identified that the Workstation service is not running on the virtual machine causing a loss of network connectivity.
 
 Workstation service creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.
 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the issue, please try the steps below using the Azure virtual machine serial console.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+To resolve this issue, please try the steps below using the Azure virtual machine serial console.  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
 
 #### From the console: ####
   * Query the state of the service by executing `sc query LanmanWorkstation`
