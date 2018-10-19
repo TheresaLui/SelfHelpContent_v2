@@ -23,14 +23,14 @@
 			"displayLabel": "Please provide these details",
 			"required": false,
 			"useAsAdditionalDetails": true,
-			"hints" [{
-					"text": "Subscription ID:"
+			"hints": [{
+					"text": "Subscription ID"
 				}, {
 					"text": "Payment method: Invoice or CC"
 				}, {
-					"text": "Invoice ID related to the issue:"
+					"text": "Invoice ID related to the issue"
 				}, {
-					"text": "Notifications received regarding billing and payment issues:"
+					"text": "Notifications received regarding billing and payment issues"
 				}
 			]
 		}
