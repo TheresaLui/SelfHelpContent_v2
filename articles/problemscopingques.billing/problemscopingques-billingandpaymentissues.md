@@ -23,7 +23,7 @@
 			"displayLabel": "Please provide these details",
 			"required": false,
 			"useAsAdditionalDetails": true,
-			"hints": [{
+			"hints" [{
 					"text": "Subscription ID:"
 				}, {
 					"text": "Payment method: Invoice or CC"
