@@ -22,7 +22,7 @@ We have investigated and determined that your virtual machine (VM) <!--$vmname--
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the VM, please follow the troubleshooting steps indicated below:
+To restore the connetivity to the VM, please follow the troubleshooting steps indicated below:
 
 1. Please make a note of the file name and the path from the screenshot from the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->
 2. If the file name refers to the file *\Windows\system32\config\SYSTEM* then save a copy of the OS disk.  (See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy))
