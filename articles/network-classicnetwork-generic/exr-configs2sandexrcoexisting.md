@@ -14,7 +14,9 @@
 
 # How to configure ExpressRoute and site-to-site coexisting connections
 ## **Recommended documents**
+
 Configuring Site-to-Site VPN and ExpressRoute coexisting connections has several advantages:<br>
+
 * You can configure a Site-to-Site VPN as a secure failover path for ExpressRoute.<br>
 * Alternatively, you can use Site-to-Site VPNs to connect to sites that are not connected through ExpressRoute.<br> 
 
