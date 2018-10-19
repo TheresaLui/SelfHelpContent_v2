@@ -14,4 +14,8 @@
 
 # How to configure ExpressRoute and site-to-site coexisting connections
 ## **Recommended documents**
-[Configure site-to-site and ExpressRoute coexisting connections](https://docs.microsoft.com/azure/expressroute/expressroute-howto-coexist-resource-manager)
+Configuring Site-to-Site VPN and ExpressRoute coexisting connections has several advantages:<br>
+* You can configure a Site-to-Site VPN as a secure failover path for ExpressRoute.<br>
+* Alternatively, you can use Site-to-Site VPNs to connect to sites that are not connected through ExpressRoute.<br> 
+
+You can follow [step by step instructions to configure these scenarios](https://docs.microsoft.com/azure/expressroute/expressroute-howto-coexist-resource-manager).
