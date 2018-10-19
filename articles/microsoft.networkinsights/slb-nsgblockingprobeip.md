@@ -27,7 +27,7 @@ To resolve this issue:
 3. Add an Allow rule for IP addrses **168.63.129.16** that has a lower number (higher priority) than the Block rule.
 4. Save changes and check the Health Probe Status by going to Load Balancer Monitoring blade to view the backend pool health.
 
-Learn more about [Load Balancer health probes](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-custom-probe-overview) and the [probe source IP address](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#probesource).
+Learn more about [Load Balancer health probes](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview) and the [probe source IP address](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#probesource).
 
-Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-diagnostics).
+Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics).
 
