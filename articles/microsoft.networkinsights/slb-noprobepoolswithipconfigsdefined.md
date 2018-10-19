@@ -24,6 +24,6 @@ To resolve this issue:
 
 Add one or more Virtual Machines or Virtual Machine Scale Set Instances in the backend pool of your load balancer, and make sure the instances are configured to respond to the load balancer health probe as well as over the service port(s).
 
-Learn more about [Load Balancer configuration](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-load-balancer-standard-manage-portal) and the [Load Balancer health probes](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-custom-probe-overview).
+Learn more about [Load Balancer configuration](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-manage-portal) and the [Load Balancer health probes](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview).
 
-Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-diagnostics).
+Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics).
