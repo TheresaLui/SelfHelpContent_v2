@@ -28,3 +28,4 @@ We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!-
 
 * [Reset a VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic)
 * [Troubleshoot VPN gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot)
+* [Troubleshoot VPN connectivity with Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-troubleshoot-overview)
