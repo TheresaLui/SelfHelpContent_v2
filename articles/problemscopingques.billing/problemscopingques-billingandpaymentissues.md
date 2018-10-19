@@ -30,7 +30,7 @@
 				}, {
 					"text": "Invoice ID related to the issue:"
 				}, {
-					"text": "Please provide any notification received regarding billing and payment issues:"
+					"text": "Notifications received regarding billing and payment issues:"
 				}
 			]
 		}
