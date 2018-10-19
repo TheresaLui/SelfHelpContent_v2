@@ -24,9 +24,9 @@ Verify the pre-shared key for the VPN connection matches what you have configure
 1. Go to the [Azure portal](http://portal.azure.com)
 2. Find your VPN connection: **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**
 3. Open the "Shared key" page of the VPN connection
-4. Verify and update the pre-shared key if necessary. The pre-shared key must be a string of printable ASCII characters of lenngth between 1 and 128 characters.
-5. Consult your on-premises VPN device configuration instructions to check and update the pre-shared key for this connection if needed.
-6. If this is a VNet-to-VNet connection, verify the pre-shared key against the matching connection from the target VNet to this VNet.
+4. Verify and update the pre-shared key if necessary. The pre-shared key must be a string of printable ASCII characters of lenngth between 1 and 128 characters
+5. Consult your on-premises VPN device configuration instructions to check and update the pre-shared key for this connection if needed
+6. If this is a VNet-to-VNet connection, verify the pre-shared key against the matching connection from the target VNet to this VNet
 
 ## Recommended documents
 
