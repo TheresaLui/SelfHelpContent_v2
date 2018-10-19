@@ -28,6 +28,8 @@
     * Finally, check to make sure the certificate has not been revoked.<br>
 
 ## **Recommended Documents**
-[Certificate Troubleshooting](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-certs)<br>
-[Updating SSL Certificates](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update)<br>
-[ADFS Help](https://adfshelp.microsoft.com/)
+
+
+- [Certificate Troubleshooting](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-certs)<br>
+- [Updating SSL Certificates](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-ssl-update)<br>
+- [AD FS Help](https://adfshelp.microsoft.com/)

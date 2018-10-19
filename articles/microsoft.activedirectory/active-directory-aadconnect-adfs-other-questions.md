@@ -23,5 +23,7 @@
 
 
 ## **Recommended Documents**
-[ADFS Help](https://adfshelp.microsoft.com/)<br>
-[ADFS Troubleshooting Docs](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-overview)
+
+
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [AD FS Troubleshooting Docs](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-overview)

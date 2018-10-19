@@ -30,7 +30,9 @@
 - For new claims, utilize the [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator).<br>
 
 ## **Recommended Documents**
-[Troubleshooting ADFS with Azure AD](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-azure)<br>
-[ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)<br>
-[ADFS Help](https://adfshelp.microsoft.com/)<br>
-[AD Connect Information](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)
+
+
+- [Troubleshooting AD FS with Azure AD](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-azure)<br>
+- [AD FS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)<br>
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [AD Connect Information](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)

@@ -22,6 +22,8 @@
 - For additional troubleshooting for the claims issuance process use [Fiddler](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-fiddler).<br>
 
 ## **Recommended Documents**
-[Troubleshooting Claims Syntax](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-claims-rules)<br>
-[Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest)<br>
-[ADFS Help](https://adfshelp.microsoft.com/)
+
+
+- [Troubleshooting Claims Syntax](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-claims-rules)<br>
+- [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest)<br>
+- [AD FS Help](https://adfshelp.microsoft.com/)
