@@ -1,26 +1,26 @@
 <properties
-	pageTitle="Databricks Delta"
-	description="Databricks Delta"
+	pageTitle="Databricks Delta feature issues"
+	description="Databricks Delta feature issues"
 	service="microsoft.Databricks"
-	resource="servers"
+	resource="clusters"
 	authors="bprakash"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32612196"
-	resourceTags="databricks"
-	productPesIds="15818"
+	resourceTags=""
+	productPesIds="16432"
 	cloudEnvironments="public"
 />
 
 # Azure Databricks Delta
 
 ## **Recommended steps**
-The following details explain how to set up and update common access and permissions rules in Azure Databricks.
+The following details explain how to set up and use Delta feature in Azure Databricks.
 
-1. Connect and manage your data warehouse through the [Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-data-warehouse).
-2. You can monitor your data warehouse through [T-SQL using Dynamic Management Views](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor).
-3. Ensure you have the [latest PowerShell module](https://docs.microsoft.com/powershell/azure/install-azurerm-ps?view=azurermps-6.3.0) and view the [available PowerShell commands](https://docs.microsoft.com/powershell/module/azurerm.sql/?view=azurermps-6.3.0#sql).
-4. For any other additional issues, please post on [stackoverflow](https://stackoverflow.com/).
+1. Create a Premium SKU of Azure Databricks workspace through the [Azure portal](https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal). Delta feature is only available in premium SKU.
+2. Create a Spark cluster with Databricks Runtime 4.1 or above through the [Databricks Workspace](https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal#create-a-spark-cluster-in-databricks) 
+3. You can now create [Delta table](https://docs.azuredatabricks.net/delta/index.html) to take advantage of faster analytics and consistent data view. 
 
 ## **Recommended documents**
-[SQL Data Warehouse Cheat Sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet)
+[Azure Databricks Delta FAQ](https://docs.azuredatabricks.net/delta/delta-intro.html#frequently-asked-questions-faq)
+[Azure Databricks Delta Webinar](https://info.microsoft.com/ww-ondemand-registration-SimplifyDataAccess-webinar.html)
