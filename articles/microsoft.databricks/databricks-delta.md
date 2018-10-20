@@ -22,5 +22,5 @@ The following details explain how to set up and use Delta feature in Azure Datab
 3. You can now create [Delta table](https://docs.azuredatabricks.net/delta/index.html) to take advantage of faster analytics and consistent data view. 
 
 ## **Recommended documents**
-[Azure Databricks Delta FAQ](https://docs.azuredatabricks.net/delta/delta-intro.html#frequently-asked-questions-faq)
-[Azure Databricks Delta Webinar](https://info.microsoft.com/ww-ondemand-registration-SimplifyDataAccess-webinar.html)
+1. [Azure Databricks Delta FAQ](https://docs.azuredatabricks.net/delta/delta-intro.html#frequently-asked-questions-faq)
+2. [Azure Databricks Delta Webinar](https://info.microsoft.com/ww-ondemand-registration-SimplifyDataAccess-webinar.html)
