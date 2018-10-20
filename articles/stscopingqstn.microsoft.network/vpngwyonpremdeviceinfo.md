@@ -105,7 +105,21 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide device Model and iOS/firmware version",
 			"required": false,
-			"useAsAdditionalDetails": true
+			"useAsAdditionalDetails": true,
+			"hints": [
+                {
+                    "text": "Issue description"
+                },
+                {
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
+                },
+                {
+                    "text": "Upload your configuration file to speed the support process"
+                },
+                {
+                    "text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"
+                }
+            ]
 		}, {
 			"id": "learn_more_text",
 			"order": 6,
