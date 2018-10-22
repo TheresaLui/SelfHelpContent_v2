@@ -6,8 +6,8 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="yushwang"
 displayOrder="10"
-articleId="TimedRWithErrorNegotiationNegotiationOut"
-diagnosticScenario="TimedRWithErrorNegotiationNegotiationOut"
+articleId="IkeTunnelClosedWithStatusNegotiationTimedOut"
+diagnosticScenario="IkeTunnelClosedWithStatusNegotiationTimedOut"
 selfHelpType="Diagnostics"
 supportTopicIds="32591145,32591158,32591149,32591152,32591155"
 resourceTags="windows"
@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has detected connection timeout on your VPN connection
 <!--issueDescription-->
-We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because the IKE negotiation timed out. The Azure VPN gateway, **<!--$VpnGatewayName-->[VpnGatewayName]<!--/$VpnGatewayName-->**, could not receive the IKE packets sent from your VPN device, or your VPN device is not responding to the Azure VPN gateway. There may be network connectivity issues between your VPN device and your Azure VPN gateway, or misconfigurations either on your VPN device or the Azure VPN connections.
+We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because the IKE negotiation timed out. The Azure VPN gateway, **<!--$VpnGatewayName-->[VpnGatewayName]<!--/$VpnGatewayName-->**, could not receive the IKE packets sent from your VPN device, or your VPN device is not responding to the Azure VPN gateway. There may be network connectivity issues between your VPN device and your Azure VPN gateway, or misconfigurations either on your VPN device or the Azure VPN connection.
 
 ## Recommended steps
 
