@@ -3,14 +3,15 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570259" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16575" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleID="790714af-4ac4-496b-a7bd-9b293abfac11"
 /> 
 # Problem with Active Directory application config 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Active Directory application config",
   "fileAttachmentHint": null,
   "formElements": [

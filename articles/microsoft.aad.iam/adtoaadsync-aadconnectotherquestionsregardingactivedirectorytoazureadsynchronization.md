@@ -3,14 +3,15 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32404465" 
-	 productPesIds="14785" 
+	 productPesIds="14785,16578" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+    articleId="095dbb8e-e043-4913-b187-7b83597ad012"
 /> 
 # AAD Connect Synchronization - Other questions 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "AAD Connect Synchronization - Other questions",
   "fileAttachmentHint": "Upload the ZIP file",
   "formElements": [

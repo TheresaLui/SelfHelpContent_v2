@@ -1,17 +1,21 @@
-<properties pageTitle="Problem with grpah API generic" 
-	 description="graphgenericapioperation" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32586797,32134056,32134057,32134059,32134060,32134061,32134062,32134063,32134064" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with grpah API generic 
+<properties
+    pageTitle="Problem with graph API generic"
+    description="graphgenericapioperation"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32596839,32596841,32596852,32596853,32596854,32596855,32134056,32596860"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="7a7a3d35-6f8b-4f79-8b95-ef0c1f5709e4"
+    />
+
+# Problem with graph API generic
+
 ---
 {
-  "resourceRequired": true,
-  "title": "Problem with grpah API generic",
+  "resourceRequired": false,
+  "title": "Problem with graph API generic",
   "fileAttachmentHint": null,
   "formElements": [
     {

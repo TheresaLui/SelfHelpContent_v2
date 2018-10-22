@@ -1,16 +1,20 @@
-<properties pageTitle="Problem with Self service passowrd change reset" 
-	 description="selfservicepasswordchangereset" 
-	 authors="anupnadigm" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045826" 
-	 productPesIds="14785" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
-/> 
-# Problem with Self service passowrd change reset 
+<properties
+    pageTitle="Problem with Self service passowrd change reset"
+    description="selfservicepasswordchangereset"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32045826"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="63487143-7efc-435c-8f63-5368a8162be5"
+    />
+
+# Problem with Self service passowrd change reset
+
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with Self service passowrd change reset",
   "fileAttachmentHint": null,
   "formElements": [

@@ -35,11 +35,11 @@
 		}, {
 			"id": "file_share",
 			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "File Share name",
+			"controlType": "multiselectdropdown",
+			"displayLabel": "File Share",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices//$ref?api-version=2018-03-28",
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/fileServices/list?api-version=2018-07-01",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",

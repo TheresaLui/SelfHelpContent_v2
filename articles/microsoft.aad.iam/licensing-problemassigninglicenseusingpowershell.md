@@ -10,7 +10,7 @@
 # Problem with licenses using powershell 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Problem with licenses using powershell",
   "fileAttachmentHint": null,
   "formElements": [
