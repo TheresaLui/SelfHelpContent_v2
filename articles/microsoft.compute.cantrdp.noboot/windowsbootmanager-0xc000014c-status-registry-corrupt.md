@@ -18,7 +18,7 @@
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
