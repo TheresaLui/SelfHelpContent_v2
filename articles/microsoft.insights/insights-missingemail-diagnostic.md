@@ -37,5 +37,5 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 [G Suite Groups External Members](https://support.google.com/a/answer/167097)<br>
 ### Security Appliance
 [Barracuda Whitelist Settings](https://campus.barracuda.com/product/websecurityservice/doc/6553671/whitelist-and-blacklist-rules/)<br>
-[Cisco Whitelist Settings](https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118585-qa-esa-00.html)<br>
+[Cisco Whitelist Settings](https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118585-qa-esa-00.html)
 
