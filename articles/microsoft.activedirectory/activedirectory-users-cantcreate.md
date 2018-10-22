@@ -4,6 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authorAlias="Jeffsta-MSFT"
+    authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32045780"
     productPesIds="16578"
