@@ -23,9 +23,4 @@ We have dectected that you recently added the **<!--$solution-->[solution]<!--/$
 
 ## **Recommended steps**
 
-1. For more information, please refer to the ‘Collection frequency’ column in the article here.
-
-
-## **Recommended documents**
-
-[https://docs.microsoft.com/en-us/azure/monitoring/monitoring-solutions-inventory](https://docs.microsoft.com/en-us/azure/monitoring/monitoring-solutions-inventory)
+For more information, please refer to the ‘Collection frequency’ column in the article [here](https://docs.microsoft.com/en-us/azure/monitoring/monitoring-solutions-inventory).
