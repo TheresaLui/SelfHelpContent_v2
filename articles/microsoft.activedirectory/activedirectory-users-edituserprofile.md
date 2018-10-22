@@ -3,14 +3,14 @@
     description="I can't edit a user profile in my Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="Jeffsta-MSFT"
-    selfHelpType="generic" 
+    authorAlias="Jeffsta-MSFT"
+    selfHelpType="generic"
     supportTopicIds="32615378"
     productPesIds="16578"
     cloudEnvironments="public"
  />
 
-# I can't restore a deleted user in my Azure AD
+# I can't edit a user profile in my Azure AD
 
 ## **Recommended steps**
 
