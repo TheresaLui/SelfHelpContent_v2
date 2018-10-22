@@ -1,18 +1,18 @@
 <properties
-	pageTitle="query execution/performance and time-outs"
-	description="query execution/performance and time-outs"
+	pageTitle="query time out"
+	description="query time out"
 	service="microsoft.sql"
 	resource="servers"
 	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980430,32608396"
+	supportTopicIds="32608396"
 	resourceTags=""
-	productPesIds="13491,16259"
+	productPesIds="16259"
 	cloudEnvironments="public"
 />
 
-# query execution/performance and time-outs
+# query time out
 
 ## **Recommended documents**
 [Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)
