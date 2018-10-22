@@ -18,11 +18,11 @@
 
 Let's review a couple common device inventory issues.
 
-**Why are phone numbers not collected from all devices?
+**Why are phone numbers not collected from all devices?**
 
 Phones that are categorized as corporate devices in Intune are not identified with their full phone number when, for example, you run a mobile device inventory report. Bring-you-own-device phone numbers are always partially masked with asterisks (****), and only show the last 4 digits.
 
-**I am not receiving a full inventory list of applications present on Intune-enrolled Windows devices. Why?
+**I am not receiving a full inventory list of applications present on Intune-enrolled Windows devices. Why?**
 
 Only modern apps are listed for Windows 10 PCs that are identified as corporate devices. Intune doesn't collect information about Win32 apps installed on these devices.
 

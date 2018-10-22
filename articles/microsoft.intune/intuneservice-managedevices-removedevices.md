@@ -18,7 +18,7 @@
 
 Let's review a couple common issues when removing devices.
 
-**I issued a remote action to remove company data from a device, and now it's stuck in a pending state. 
+**I issued a remote action to remove company data from a device, and now it's stuck in a pending state.**
 
 For a remote action to successfully complete, the targeted device must be online and healthy. In the following situations, the remote action will stay in a pending state for 30 days, or until the device acknowledges the command:
 	

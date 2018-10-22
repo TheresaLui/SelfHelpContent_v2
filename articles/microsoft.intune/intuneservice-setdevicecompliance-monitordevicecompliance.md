@@ -18,19 +18,19 @@
 
 Let's review a couple common device compliance issues.
 
-**A BitLocker-encrypted Windows 10 device shows as not compliant in Intune.
+**A BitLocker-encrypted Windows 10 device shows as not compliant in Intune.**
 
 The problem occurs when BitLocker encryption isn't finished, and based on factors such as the disk size, number of files, and BitLocker settings. BitLocker encryption might take longer to complete than a scheduled sync. After encryption is complete, the device will update to a compliant status. 
 
 To check the local status of a BitLocker encryption, run the command **manage-bde-status** from an elevated PowerShell window. Encryption is complete when you see "Percentage Encrypted: 100%" for all drives. For more information about BitLocker management, see the article [BitLocker: Management for Enterprises](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-management-for-enterprises) in the Windows documentation.
 
-**Users with Windows devices are not being prompted for password compliance.
+**Users with Windows devices are not being prompted for password compliance.**
 
 Password compliance policies only apply to local accounts. Azure Active Directory (Azure AD) users are subject to Azure AD password requirements and are not evaluated for conditional access.
 
 For local accounts, this behavior is expected. The new password compliance rules will be enforced the next time the user signs out or signs in, or when they press **Ctrl-Alt-Del** and change their password. 
 
-**In Intune in the Azure portal > Compliance policies > Device Compliance, I see "iOS device is currently busy" in my list of policies.
+**In Intune in the Azure portal > Compliance policies > Device Compliance, I see "iOS device is currently busy" in my list of policies.**
 
 Review the following options to determine how to troubleshoot the device error.
 
@@ -40,7 +40,7 @@ Review the following options to determine how to troubleshoot the device error.
 
 * If the user is unavailable, you can force a device sync from the **Azure Portal > Devices > All devices**.  Simply select the affected device **> Sync**. However, the forced sync might be susceptible to the same busy message for the reasons stated above. 
 
-**I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.
+**I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.**
 
 Complete the following steps to make sure Jamf is integrated with Intune.
 
@@ -51,11 +51,11 @@ Complete the following steps to make sure Jamf is integrated with Intune.
 
 2. Tell the device owner to go to the Jamf self-service portal and re-run the device registration policy.  The Mac OS should now appear under the Intune device list in the Azure portal as well as in Azure AD.
 
-**Something is requiring Android Enterprise devices to be encrypted. However, our organization does not have a policy that enforces encryption on these devices.
+**Something is requiring Android Enterprise devices to be encrypted. However, our organization does not have a policy that enforces encryption on these devices.**
 
 This behavior is expected. Google requires all devices enrolled with Android Enterprise to be encrypted.
 
-**The Android Enterprise devices in my organization are compliant with all of our policies, but they are still showing as not compliant.
+**The Android Enterprise devices in my organization are compliant with all of our policies, but they are still showing as not compliant.**
 
 If your devices use Microsoft Intune Exchange On-premises or Exchange Online Dedicated, you must:
 

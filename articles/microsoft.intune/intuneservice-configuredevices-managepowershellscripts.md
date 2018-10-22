@@ -18,11 +18,11 @@
 
 Let's review a couple common PowerShell script issues.
 
-**The Intune Management Extension is not installing or downloading.
+**The Intune Management Extension is not installing or downloading.**
 
 Check and make sure that you've assigned a user group and not a device group. Devices within the group must be auto-enrolled or bulk auto-enrolled. Other enrollment types are not supported.
 
-**PowerShell script extensions are installed, but scripts are not running or they have errors.
+**PowerShell script extensions are installed, but scripts are not running or they have errors.**
 
 Follow one or both of these suggested steps to help pinpoint the cause of error.
 

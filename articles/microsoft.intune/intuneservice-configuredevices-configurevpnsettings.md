@@ -18,13 +18,13 @@
 
 Let's review a couple common VPN configuration issues.
 
-**When I configure a custom VPN for iOS, the per-app VPN feature isn't made available.
+**When I configure a custom VPN for iOS, the per-app VPN feature isn't made available.**
 
 Per-App VPN for iOS devices in Intune is currently only available to a specific [list of providers and partners](https://docs.microsoft.com/intune/vpn-setting-configure-per-app). You also must meet the certificate prerequisites before configuring a Per-App VPN. 
 
 See the [Intune documentation](https://docs.microsoft.com/intune/vpn-settings-configure) for information about all VPN connection types in Intune.
 
-**I deployed a VPN profile to a device. Intune is showing that it was successful, but the device is not connecting to the VPN.
+**I deployed a VPN profile to a device. Intune is showing that it was successful, but the device is not connecting to the VPN.**
 
 A successful status means that Intune has successfully deployed the profile as configured. However, these configurations may not match your network and/or authentication requirements. Review logs in the infrastructure and authentication service for more details about the attempted connection. You may need to work with your network infrastructure team, or the third-party VPN vendor, to gather and review logs.
 

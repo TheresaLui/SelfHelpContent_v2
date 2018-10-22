@@ -16,7 +16,7 @@
 
 Let's review a couple common issues that appear when configuring device features.
 
-**I'm deploying a Windows 10 policy and it's not applying to the device.
+**I'm deploying a Windows 10 policy and it's not applying to the device.**
 
 Follow one or more of these suggested steps help pinpoint why your Windows 10 policy isn't applying:
  
@@ -24,7 +24,7 @@ Follow one or more of these suggested steps help pinpoint why your Windows 10 po
 * Go to [Troubleshoot](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/troubleshooting) to make sure the configuration profile is correctly assigned.
 * Go to **Device configuration** to view the status of the deployment, and check for failures and errors. To learn how to collect logs and diagnose errors, view the [Intune documentation](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).   
 
-**I'm deploying an iOS or Android policy and it's not applying to the device.
+**I'm deploying an iOS or Android policy and it's not applying to the device.**
 
 Follow one or more of these suggestions to help pinpoint why your iOS or Android policy isn't applying:
 

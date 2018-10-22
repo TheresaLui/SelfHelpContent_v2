@@ -18,7 +18,7 @@
 
 Let's review a couple common macOS policy setup issues.
 
-**I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.
+**I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.**
 
 Complete the following steps to make sure Jamf is integrated with Intune.
 
@@ -29,14 +29,14 @@ Complete the following steps to make sure Jamf is integrated with Intune.
 
 2. Tell the device owner to go to the Jamf self-service portal and re-run the device registration policy.  The Mac OS should now appear under the Intune device list in the Azure portal as well as in Azure AD.
 
-**My devices show as not compliant, but I didn't assign a compliance policy to them.
+**My devices show as not compliant, but I didn't assign a compliance policy to them.**
 
 By default, Intune looks at policy deployment and device health to determine if a device is compliant. In some cases, if no policy is assigned, the device may show as not compliant. Use the following steps to help you determine why they appear this way.
 
 * If you've configured conditional access, specify your compliance requirements by deploying a compliance policy to the groups that have been assigned a conditional access policy. 
 * If you don't intend to use conditional access and want the devices to report as compliant, regardless if a compliance policy is assigned or not, go to **Device compliance > Compliance policy settings**. Next to **Mark devices with no compliance policy assigned as** select **Compliant**.
 
-**My devices show as not compliant, even though all devices are enrolled and have compliance policies assigned to them.
+**My devices show as not compliant, even though all devices are enrolled and have compliance policies assigned to them.**
 
 * Go to **Device Compliance > Compliance policy settings** and check what's set for the **Compliance Status Validity period**. The default value is 30 days. Devices become non-compliant when they don't report to Intune within the specified period of days.
 * Go to **Device Compliance > Compliance policy settings**. If **Enhanced Jailbreak Detection** is enabled, make sure device users have:

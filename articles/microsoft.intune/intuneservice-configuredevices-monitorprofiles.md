@@ -16,7 +16,7 @@
 
 Let's review a couple common issues that appear when monitoring profiles.
 
-**I'm deploying a Windows 10 policy and it's not applying to the device.
+**I'm deploying a Windows 10 policy and it's not applying to the device.**
 
 Follow one or more of these suggested steps help pinpoint why your Windows 10 policy isn't applying:
  
@@ -24,7 +24,7 @@ Follow one or more of these suggested steps help pinpoint why your Windows 10 po
 * Go to [Troubleshoot](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/troubleshooting) to make sure the configuration profile is correctly assigned.
 * Go to **Device configuration** to view the status of the deployment, and check for failures and errors. To learn how to collect logs and diagnose errors, view the [Intune documentation](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).   
 
-**I'm deploying an iOS or Android policy and it's not applying to the device.
+**I'm deploying an iOS or Android policy and it's not applying to the device.**
 
 Follow one or more of these suggestions to help pinpoint why your iOS or Android policy isn't applying:
 
@@ -32,7 +32,7 @@ Follow one or more of these suggestions to help pinpoint why your iOS or Android
 * Make sure the policy is correctly targeted to the user or device.
 * Use the Troubleshoot blade to look for errors and other problems. More information on using the Troubleshooting blade for policy issues can be found [here](https://aka.ms/policy_troubleshooting).
 
-**I'm creating and applying custom Windows 10 policies, but they're not working.
+**I'm creating and applying custom Windows 10 policies, but they're not working.**
 
 Windows 10 OMA-URI settings need to be entered exactly as the Windows CSP expects, meaning that:
 

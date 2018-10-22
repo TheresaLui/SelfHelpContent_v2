@@ -18,7 +18,7 @@
 
 Let's review a couple common Wifi configuration issues.
 
-**I'm deploying a Wi-Fi profile that is dependent on a deployed certificate specified in the Wi-Fi profile. However, the configuration profiles are showing an error status.
+**I'm deploying a Wi-Fi profile that is dependent on a deployed certificate specified in the Wi-Fi profile. However, the configuration profiles are showing an error status.**
 Check that your device received the certificate.
 
 1.	In Intune, go to **All Devices** and select the device > **Device configuration**. 
@@ -28,7 +28,7 @@ If you have intermediate certificates in your certificate chain, make sure those
 
 If you continue to see errors, review the procedures and troubleshooting sections in the Intune [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) or [PKCS](https://docs.microsoft.com/intune/certficates-pfx-configure) documentation.
 
-**I deployed a Wi-Fi profile to a device. Intune is showing that it was successful, but the device is not connecting to Wi-Fi.
+**I deployed a Wi-Fi profile to a device. Intune is showing that it was successful, but the device is not connecting to Wi-Fi.**
 A successful status means that Intune has successfully deployed the profile as configured. However, these settings may not match your network and/or authentication requirements. Review the logs in the infrastructure and authentication service for more details about the attempted deployment. You may need to work with your network infrastructure team, or the third-party equipment vendor, to gather and review logs.
 
 ## **Recommended documents**
