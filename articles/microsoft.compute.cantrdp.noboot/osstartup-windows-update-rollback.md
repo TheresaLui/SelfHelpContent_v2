@@ -18,7 +18,7 @@
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to install one or more Windows Updates with error code **Failure configuring Windows updates - Reverting changes**. The issue occurs when a there are a high number of pending updates to be installed or one of the updates has become corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM.  For this issue, the screenshot would reflect that the VM is reverting changes.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to install one or more Windows Updates with error code **Failure configuring Windows updates - Reverting changes**. The issue occurs when a there are a high number of pending updates to be installed or one of the updates has become corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId) to see the current state of your VM.  For this issue, the screenshot would reflect that the VM is reverting changes.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 pageTitle="VM boot error"
 description="Virtual machine was started in Safe Mode"
 infoBubbleText="We have detected that your VM was started in safe mode. See details on the right."
@@ -24,7 +24,7 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To restart the VM in normal mode, please try the below steps using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+To restart the VM in normal mode, please try the below steps using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
 ##### From the Serial Console:
 
