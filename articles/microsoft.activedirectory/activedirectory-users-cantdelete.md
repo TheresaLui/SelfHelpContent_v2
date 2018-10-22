@@ -6,7 +6,7 @@
     authorAlias="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32586793"
-    productPesIds="14785,16578"
+    productPesIds="16578"
     cloudEnvironments="public"
     />
 # I can't delete a user in my directory
