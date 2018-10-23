@@ -2,6 +2,7 @@
 	pageTitle="Storage File Sync"
 	description="Storage File Sync scoping question"
 	authors="Passaree"
+	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
 	productPesIds="16460"
