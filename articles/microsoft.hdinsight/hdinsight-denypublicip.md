@@ -15,7 +15,7 @@
     cloudEnvironments="public"
 />
 
-## Problem
+# We ran diagnostics on your resource and found the following issue
 
 We determined that creation of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there is a public policy in place to deny the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
