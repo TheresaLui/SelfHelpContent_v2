@@ -18,6 +18,7 @@ cloudEnvironments="public"
 
 <!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account which does not support all object types. To use other storage services, please create:
+
 1. [File Storage account](https://azure.microsoft.com/blog/premium-files-pushes-azure-files-limits-by-100x/) for premium files data
 2. [Block Blob account]( https://azure.microsoft.com/blog/introducing-azure-premium-blob-storage-limited-public-preview/) for premium block and append blob data
 3. [General-purpose v2 premium account](https://docs.microsoft.com/azure/storage/common/storage-account-overview#general-purpose-v2-accounts) for premium disk and page-blob data
