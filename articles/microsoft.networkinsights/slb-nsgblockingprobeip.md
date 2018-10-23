@@ -16,14 +16,14 @@ cloudEnvironments="Public"
 />
 # Your Load Balancer probes are blocked by a Network Security Group
 <!--issueDescription-->
-We have found that the  NSG **'<!--$nsg-->[nsg]<!--/$nsg-->'** applied on your backend address pool **'<!--$backendpool-->[backendpool]<!--/$backendpool-->'** for your loadbalancer **'<!--$loadbalancer-->[loadbalancer]<!--/$loadbalancer-->'** is **blocking the load balancer probe IP 168.63.129.16** to your backend address pool resources. This has caused your load balancer to mark the backend pool resources as unhealthy and remove them from rotation.
+We have found that the  NSG **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'** applied on your backend address pool **'<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->'** for your loadbalancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** has a rule **'<!--$NetworkSecurityRuleName-->[NetworkSecurityRuleName]<!--/$NetworkSecurityRuleName-->'** that is **blocking the load balancer probe IP 168.63.129.16** to your backend address pool resources. This has caused your load balancer to mark the backend pool resources as unhealthy and remove them from rotation.
 <!--/issueDescription-->
 
 ## **Mitigation & More Information**
 To resolve this issue:
 
 1. Open the [Azure portal](https://portal.azure.com)
-2. Browse to your Network Security Group **'<!--$nsg-->[nsg]<!--/$nsg-->'**
+2. Browse to your Network Security Group **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'**
 3. Add an Allow rule for IP addrses **168.63.129.16** that has a lower number (higher priority) than the Block rule.
 4. Save changes and check the Health Probe Status by going to Load Balancer Monitoring blade to view the backend pool health.
 
