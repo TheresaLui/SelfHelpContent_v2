@@ -21,4 +21,5 @@ Try following steps to diagnose and mitigate Availability Group connectiviy issu
 [Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
 
 ## **Recommended documents**
-[Configure an Availability Group Listener in Azure](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)
+
+* [Configure an Availability Group Listener in Azure](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)

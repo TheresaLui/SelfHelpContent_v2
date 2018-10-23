@@ -22,4 +22,5 @@ Error code 429: Rate limit is exceeded. Try again or upgrade to a higher pricing
 2. Review the specific API documentation to find more details on specific error codes.
 
 ## **Recommended documents**
-[Cognitive Services documentation](https://docs.azure.cn/cognitive-services/)
+
+* [Cognitive Services documentation](https://docs.azure.cn/cognitive-services/)

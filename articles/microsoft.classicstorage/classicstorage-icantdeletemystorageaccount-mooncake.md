@@ -29,4 +29,5 @@ If the storage account uses the Classic deployment model, you can remove the vir
 5. To delete disk images, navigate to the Images tab and delete any images that are stored in the account.
 
 ## **Recommended documents**
-[I'm having problems deleting classic storage account](https://docs.azure.cn/storage/common/storage-resource-manager-cannot-delete-storage-account-container-vhd)
+
+* [I'm having problems deleting classic storage account](https://docs.azure.cn/storage/common/storage-resource-manager-cannot-delete-storage-account-container-vhd)

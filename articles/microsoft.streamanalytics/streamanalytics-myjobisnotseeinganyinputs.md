@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public"
 />
 
 # My job is not seeing any inputs

@@ -16,7 +16,5 @@
 
 ## **Recommended documents**
 
-[Media Encoder Standard Formats and Codecs](https://docs.azure.cn/media-services/media-services-media-encoder-standard-formats/)
-
-[How to encode an asset using Media Encoder Standard](https://docs.azure.cn/media-services/media-services-dotnet-encode-with-media-encoder-standard/)
-
+* [Media Encoder Standard Formats and Codecs](https://docs.azure.cn/media-services/media-services-media-encoder-standard-formats/)
+* [How to encode an asset using Media Encoder Standard](https://docs.azure.cn/media-services/media-services-dotnet-encode-with-media-encoder-standard/)

@@ -26,5 +26,6 @@ The Import/Export service only works with Blob storage. You can import any type 
 
 
 ## **Recommended documents**
-[How to prepare an Import/Export Job?](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)<br>
-[Why is my Import/Export shipping status incorrect?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
+
+* [How to prepare an Import/Export Job?](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)<br>
+* [Why is my Import/Export shipping status incorrect?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
