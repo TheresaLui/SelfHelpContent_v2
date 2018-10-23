@@ -1,20 +1,21 @@
 <properties
-	pageTitle="I'm experiencing performance issues"
-	description="I'm experiencing performance issues"
-	service="microsoft.network"
-	resource="applicationgateways"
-	authors="kasparks"
-	displayOrder="8"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="I'm experiencing performance issues"
+    description="I'm experiencing performance issues"
+    service="microsoft.network"
+    resource="applicationgateways"
+    authors="kasparks"
+    displayOrder="8"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # I'm experiencing performance issues
 
 ## **Recommended steps**
+
 To resolve the most common issues, try one or more of the following methods.
 
 1. Enable server performance logs to check latency and throughput performance. See below link for steps to enable performance logs.<br>
@@ -25,4 +26,5 @@ To resolve the most common issues, try one or more of the following methods.
 If latency or throughput is higher than expected, consider increasing size of Application Gateway or the number of instances.
 
 ## **Recommended documents**
-[For additional details, see Application Gateway documentation.](https://docs.azure.cn/application-gateway/)
+
+*[For additional details, see Application Gateway documentation.](https://docs.azure.cn/application-gateway/)

@@ -1,20 +1,21 @@
 <properties
-	pageTitle="I want to configure my ExpressRoute circuit"
-	description="I want to configure my ExpressRoute circuit"
-	service="microsoft.network"
-	resource="expressroutecircuits"
-	authors="kasparks"
-	displayOrder="14"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="I want to configure my ExpressRoute circuit"
+    description="I want to configure my ExpressRoute circuit"
+    service="microsoft.network"
+    resource="expressroutecircuits"
+    authors="kasparks"
+    displayOrder="14"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # I want to configure my ExpressRoute circuit
 
 ## **Recommended steps**
+
 To resolve the most common issues, try one or more of the following methods.
 
 1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason.
@@ -28,4 +29,5 @@ Check with your connectivity provider if they have completed configuration.
 Check routing configuration topics for routing related issues.
 
 ## **Recommended documents**
-[For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
+
+* [For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
