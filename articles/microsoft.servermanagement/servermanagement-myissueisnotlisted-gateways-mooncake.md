@@ -1,22 +1,24 @@
 <properties
-	pageTitle="My issue is not listed"
-	description="My issue is not listed"
-	service="microsoft.servermanagement"
-	resource="gateways"
-	authors="danielleemsft"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
-	issueNotListed="true"
+    pageTitle="My issue is not listed"
+    description="My issue is not listed"
+    service="microsoft.servermanagement"
+    resource="gateways"
+    authors="daniellee-msft"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
+    issueNotListed="true"
 />
 
 # My issue is not listed
 
-##
-Please reach out to us if you have questions or feedback on Server management tools
+## **Recommended steps**
 
-* Send feature requests and bug reports to [UserVoice](https://aka.ms/smt-engage)
+You can get additional help by exploring the following channels:
 
-* Visit our [blog](https://aka.ms/smt-blog) for news, updates and documentation
+* Browse [Azure Operation Guidance](https://docs.azure.cn/articles/) to get help for common questions or problems
+* Check the [Help+Support](data-blade:Microsoft_Azure_Support.HelpAndSupportBlade)
+* Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
+* Browse [Azure documentation](https://docs.azure.cn/)

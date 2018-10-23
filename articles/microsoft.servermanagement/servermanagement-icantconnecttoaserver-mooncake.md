@@ -1,20 +1,21 @@
 <properties
-	pageTitle="I can’t connect to a server"
-	description="I can't connect to a Server management tools node"
-	service="microsoft.servermanagement"
-	resource="nodes"
-	authors="daniellee-msft"
-	displayOrder="1"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="I can’t connect to a server"
+    description="I can't connect to a Server management tools node"
+    service="microsoft.servermanagement"
+    resource="nodes"
+    authors="daniellee-msft"
+    displayOrder="1"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # I can’t connect to a server
 
 ## **Recommended steps**
+
 To resolve common issues, try one or more of the following methods.
 
 * Is the gateway’s health status displayed as “OK”?<br>
@@ -36,3 +37,6 @@ If you get a “CANNOT CONNECT” error when entering credentials in the “Mana
 * Are you having a problem only when connecting to a Windows Server 2012 or 2012 R2 machine?<br>
 If you can connect to a Windows Server 2016 machine, but not to a 2012 or 2012 R2 machine, also check the “I can’t set up a connection to a Windows Server 2012 or 2012 R2 machine” section below.
 
+## **Recommended documents**
+
+* [Server management tools Setup Guide](https://blogs.technet.microsoft.com/servermanagement/2016/08/17/deploy-setup-server-management-tools/)
