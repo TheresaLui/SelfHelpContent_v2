@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # You are exhausting the SNAT ports available to your instances
 <!--issueDescription-->
-We have found that some instances in the backend pool **'<!--$backendpool-->[backendpool]<!--/$backendpool-->'** of your load balancer **'<!--$loadbalancer-->[loadbalancer]<!--/$loadbalancer-->'** have exhausted the allocated SNAT ports for initiating outbound connections and might be experiencing outbound connection failures as a result.
+We have found that some instances in the backend pool **'<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->'** of your load balancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** have exhausted the allocated SNAT ports for initiating outbound connections and might be experiencing outbound connection failures as a result.
 <!--/issueDescription-->
 
 ## **Mitigation & More Information**
