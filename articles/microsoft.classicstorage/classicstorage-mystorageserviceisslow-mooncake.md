@@ -1,20 +1,21 @@
 <properties
-	pageTitle="My storage service is slow"
-	description="My storage service is slow"
-	service="microsoft.classicstorage"
-	resource="storageaccounts"
-	authors="kasparks,passaree"
-	displayOrder="5"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds="15629"
-	cloudEnvironments="MoonCake"
+    pageTitle="My storage service is slow"
+    description="My storage service is slow"
+    service="microsoft.classicstorage"
+    resource="storageaccounts"
+    authors="kasparks,passaree"
+    displayOrder="5"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds="15629"
+    cloudEnvironments="MoonCake"
 />
 
 # My storage service is slow
 
 ## **Recommended steps**
+
 Diagnosing and troubleshooting issues in a distributed application hosted in a cloud environment can be complex. Here are some common scenarios your metrics may turn up, and how to troubleshoot them. 
 
 Do you have baseline metrics? The performance of an application can be subjective, especially from a user perspective. Therefore, it is important to have baseline metrics available to help you identify where there might be a performance issue. 
@@ -31,4 +32,5 @@ Do you have baseline metrics? The performance of an application can be subjectiv
 For an in-depth look at troubleshooting performance issues, see the Performance section of the article [**Monitor, diagnose, and troubleshoot Microsoft Azure Storage**](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
 
 ## **Recommended documents**
-[How to troubleshoot Storage performance issue?](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
+
+* [How to troubleshoot Storage performance issue?](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
