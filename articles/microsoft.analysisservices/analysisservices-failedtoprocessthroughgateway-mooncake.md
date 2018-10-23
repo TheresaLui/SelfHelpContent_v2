@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Failed to process model with data source through gateway"
-	description="Failed to process model with data source through gateway"
-	service="microsoft.analysisservices"
-	resource="servers"
-	authors="bnmaa"
-	displayOrder="3"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="Failed to process model with data source through gateway"
+    description="Failed to process model with data source through gateway"
+    service="microsoft.analysisservices"
+    resource="servers"
+    authors="bnmaa"
+    displayOrder="3"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # Failed to process model with data source through gateway
