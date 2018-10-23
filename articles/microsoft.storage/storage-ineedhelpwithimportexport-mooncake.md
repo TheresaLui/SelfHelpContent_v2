@@ -1,20 +1,21 @@
 <properties
-	pageTitle="I need help with Import/Export"
-	description="I need help with Import/Export"
-	service="microsoft.storage"
-	resource="storageaccounts"
-	authors="kasparks"
-	displayOrder="3"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="I need help with Import/Export"
+    description="I need help with Import/Export"
+    service="microsoft.storage"
+    resource="storageaccounts"
+    authors="kasparks"
+    displayOrder="3"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # I need help with Import/Export
 
 ## **Recommended steps**
+
 The Import/Export service only works with Blob storage. You can import any type of blob data using the import/export service, including VHD images. The following links will help make sure you are following the proper steps and answer common questions.
 
 1. [Make sure you have met the prerequisites](https://docs.azure.cn/storage/common/storage-import-export-service#pre-requisites)
@@ -24,7 +25,7 @@ The Import/Export service only works with Blob storage. You can import any type 
 5. [How can I obtain the correct Import/Export shipping status?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
 6. [Questions? Check the FAQ](https://docs.azure.cn/storage/common/storage-import-export-service#frequently-asked-questions)
 
-
 ## **Recommended documents**
-[How to prepare an Import/Export Job?](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)<br>
-[Why is my Import/Export shipping status incorrect?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
+
+* [How to prepare an Import/Export Job?](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)
+* [Why is my Import/Export shipping status incorrect?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
