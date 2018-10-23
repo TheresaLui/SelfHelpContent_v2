@@ -5,11 +5,11 @@
     resource="servers"
     authors="binf"
     resourceTags=""
-    selfHelpType="resource"
-    supportTopicIds=""
-    productPesIds=""
-    displayOrder="1"
-    cloudEnvironments="MoonCake"
+	  selfHelpType="resource"
+	  supportTopicIds=""
+	  productPesIds=""
+	  displayOrder="1"
+	  cloudEnvironments="MoonCake"
  />
 
 # Memory error: You have reached the maximum allowable memory allocation for your tier.

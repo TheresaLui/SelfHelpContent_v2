@@ -15,7 +15,6 @@
 # I am unable to connect to virtual machines in the same VNet when using an UDR.
 
 ## **Recommended steps**
-
 If you are using User defined routes in your virtual network subnets and have connectivity issues, try one or more of the below steps to resolve the issue.<br>
 
 1. Check the route entries to ensure the destination address you are having issues with is covered by one or more routes. Communication within the Virtual network, to on-premises and to Internet is covered by system routes.<br>
@@ -27,4 +26,4 @@ If you are using User defined routes in your virtual network subnets and have co
 
 ## **Recommended documents**
 
-* [User defined routes design considerations](https://azure.microsoft.com/documentation/articles/best-practices-network-security/#examples-building-security-boundaries-with-azure-virtual-networks)
+[User defined routes design considerations](https://azure.microsoft.com/documentation/articles/best-practices-network-security/#examples-building-security-boundaries-with-azure-virtual-networks)

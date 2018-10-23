@@ -15,7 +15,6 @@
 # I can't create an ExpressRoute circuit
 
 ## **Recommended steps**
-
 To resolve the most common issues, try one or more of the following methods.
 
 1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the reason of failure.
@@ -24,5 +23,4 @@ To resolve the most common issues, try one or more of the following methods.
 3. Check your subscription permissions to make sure you're allowed to create resources in the region you want the ExpressRoute circuit.
 
 ## **Recommended documents**
-
-* [For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
+[For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)

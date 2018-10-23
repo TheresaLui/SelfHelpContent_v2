@@ -15,7 +15,6 @@
 # I don't see any errors but my devices are not receiving pushes
 
 ## **Recommended steps**
-
 * Verify notification hub names used for registration, sends, and notification hub settings matched.<br>
 * Verify the proper [SAS configuration strings](data-blade:Microsoft_Azure_NotificationHubs.AccessPolicyGridBlade) on client and backend.<br>
 * Verify [Platform Notification System](data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices) credentials are correctly configured.<br>
@@ -26,7 +25,6 @@
 * Use [Per Message Telemetry](https://msdn.microsoft.com/library/azure/mt608135.aspx)<br>
 
 ## **Recommended documents**
-
 * [Diagnosis guidelines](https://docs.azure.cn/notification-hubs/notification-hubs-push-notification-fixer)<br>
 * [Common error codes](https://msdn.microsoft.com/library/dn530751.aspx)<br>
 * [Telemetry guide](https://msdn.microsoft.com/library/dn458821.aspx)<br>

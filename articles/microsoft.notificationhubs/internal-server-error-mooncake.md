@@ -15,5 +15,4 @@
 # I am getting 'Internal server' error
 
 ## **Recommended steps**
-
 * [Check Azure status](https://www.azure.cn/support/service-dashboard/) to see if it is a known issue.<br>
