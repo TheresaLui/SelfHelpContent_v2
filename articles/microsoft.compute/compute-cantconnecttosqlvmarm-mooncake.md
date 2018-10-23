@@ -23,4 +23,5 @@ Try following steps to diagnose and mitigate SQL Server connectiviy issues
 [SQL Server connectivity drivers](https://msdn.microsoft.com/library/mt654049.aspx)
 
 ## **Recommended documents**
-[Provision a SQL Server Virtual Machine in the Azure Portal](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)
+
+* [Provision a SQL Server Virtual Machine in the Azure Portal](https://docs.azure.cn/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-server-provision/)

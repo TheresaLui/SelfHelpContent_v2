@@ -15,8 +15,9 @@
 
 # My issue is not listed
 
-You can get additional help by exploring the following channels:
+You can get help for many common problems from the Microsoft community or exploring the following channels:
 
-* Browse [Azure Operation Guidance](https://docs.azure.cn/articles/) to get help for common questions or problems
+* Get answers from Azure experts through [Azure Forums](https://azure.microsoft.com/support/forums/)
+* Connect with [@AzureSupport](https://www.azure.cn/support/contact/) – the official Microsoft Azure account for improving the customer experience by connecting the Azure community to the right resources: answers, support, and experts.
 * Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
 * Make sure that the client tools ([SSMS](https://msdn.microsoft.com/library/mt238290.aspx) and/or [SSDT](https://msdn.microsoft.com/library/mt204009.aspx)) are up-to-date.

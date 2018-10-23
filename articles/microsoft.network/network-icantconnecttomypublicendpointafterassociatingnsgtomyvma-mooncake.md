@@ -15,6 +15,7 @@
 # I cannot connect to my public endpoint after associating NSG to my virtual machine.
 
 ## **Recommended steps**
+
 NSGs by default deny connections from Internet unless it is explicitly allowed. To resolve this issue, try one or more of the below steps.<br>
 
 1. Review the security rules in your NSG.<br>
@@ -23,5 +24,5 @@ NSGs by default deny connections from Internet unless it is explicitly allowed. 
 
 ## **Recommended documents**
 
-[NSG rules for load balancer endpoints](https://docs.azure.cn/virtual-network/virtual-networks-nsg#load-balancers)<br>
-[Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)
+* [NSG rules for load balancer endpoints](https://docs.azure.cn/virtual-network/virtual-networks-nsg#load-balancers)<br>
+* [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)

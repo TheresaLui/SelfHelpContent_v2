@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-[Media Services pricing details](https://www.azure.cn/pricing/details/media-services/)
+* [Media Services pricing details](https://www.azure.cn/pricing/details/media-services/)
 

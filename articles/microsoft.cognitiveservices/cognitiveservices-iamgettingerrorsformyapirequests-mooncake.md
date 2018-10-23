@@ -24,4 +24,5 @@ Click on "Subscriptions" to see the Subscription blade and check the status.
 3. Review the specific API documentation to find details on specific error codes.
 
 ## **Recommended documents**
-[Cognitive Services documentation](https://docs.azure.cn/cognitive-services/)
+
+* [Cognitive Services documentation](https://docs.azure.cn/cognitive-services/)

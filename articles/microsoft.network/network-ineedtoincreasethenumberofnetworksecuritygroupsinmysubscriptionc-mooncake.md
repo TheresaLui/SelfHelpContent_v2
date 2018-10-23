@@ -15,6 +15,7 @@
 # I need to increase the number of Network Security Groups in my subscription.
 
 ## **Recommended steps**
+
 Default limit on the number of NSGs in a subscription is 100. This can be increased upto 200 (classic) or 400 (Azure Resource Manager) by raising a support ticket. If you need to increase the number of NSGs in your subscription follow the steps below.<br>
 
 1. Create New Support Request<br>
@@ -24,5 +25,5 @@ Default limit on the number of NSGs in a subscription is 100. This can be increa
 
 ## **Recommended documents**
 
-[Networking limits](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)<br>
-[Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)
+* [Networking limits](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)<br>
+* [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)
