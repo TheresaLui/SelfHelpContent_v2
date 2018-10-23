@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # Your Load Balancer has no backend pools with IP Configs defined
 <!--issueDescription-->
-We have found that the your load balancer **'<!--$loadbalancer-->[loadbalancer]<!--/$loadbalancer-->'** has no backend pool resources with valid IP configuration, and the backend pools will be marked unavailable.
+We have found that the your load balancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** has no backend pool resources with valid IP configuration, and the backend pools will be marked unavailable.
 <!--/issueDescription-->
 
 ## **Mitigation & More Information**
