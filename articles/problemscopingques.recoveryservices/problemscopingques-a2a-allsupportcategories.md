@@ -20,7 +20,7 @@
                           "id": "learn_more_text",
                           "order": 1,
                           "controlType": "infoblock",
-                          "content": "Microsoft can provide solution to your problem faster if you can export and attach the failed job information. To export the failed job go to Recovery Services Vault > Site recovery Jobs > click the failed Job > 'Export job' from left corner of blade. Upload using file upload tab"
+                          "content": "Microsoft can provide solution to your problem faster if you can export and attach the failed job information. To export the failed job go to Recovery Services Vault > Site Recovery Jobs > click on the failed Job > 'Export job' from left corner of blade and upload this file using the file upload tab"
 						 }
 					]}
 ---
