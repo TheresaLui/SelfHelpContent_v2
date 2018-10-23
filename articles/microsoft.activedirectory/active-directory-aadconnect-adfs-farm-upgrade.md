@@ -1,0 +1,36 @@
+<properties
+	pageTitle="AD FS Farm upgrade issues"
+	description="Troubleshoot issues with upgrading an AD FS farm."
+	service="microsoft.aad"
+	resource="Microsoft_AAD_IAM"
+	authors="billmath"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32615383"
+	resourceTags=""
+	productPesIds="16579"
+	cloudEnvironments="public"
+/>
+
+
+
+# Farm Upgrade Issues
+
+
+- If you are migrating to Windows Server 2012 from
+    * ADFS AD FS 1.1 Windows token-based agent and AD FS 1.1 claims-aware agent installed with Windows Server 2008 or Windows Server 2008 R2<br>
+    * AD FS 2.0 federation server and AD FS 2.0 federation server proxy installed on Windows Server 2008 or Windows Server 2008 R2<br>
+
+   then get see [upgrading to AD FS on Windows Server 2012](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/migrate-ad-fs-role-services-to-windows-server-2012).<br>
+
+- If you are upgrading to ADFS 2016 using a WID database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)<br>
+- If you are upgrading to ADFS 2016 with a SQL database, troubleshoot [here](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)<br>
+- For other issues, visit [ADFS Help](https://adfshelp.microsoft.com/) for additional support.<br>
+- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
+
+## **Recommended Documents**
+
+
+- [Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)<br>
+- [Upgrading to ADFS using a SQL database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)<br>
+- [AD FS Help](https://adfshelp.microsoft.com/)
