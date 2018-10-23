@@ -22,7 +22,7 @@ To resolve common authorization errors, try the steps provided below that most c
 
 **`401 unauthorized error`: Has consent been granted**? <br>
 
-Make sure that your application has been granted permission to access Microsoft Graph resources.  This either happens through a user or admin granting consent through a consent page or by granting permissions using the Azure Portal application registration blade. From the **Settings** blade for the application, click **Required Permissions** and click on the **Grant Permissions** button. <br>
+Make sure that your application has been granted permission to access Microsoft Graph resources and that you are presenting a valid access token to Microsoft Graph as part of the request. Granting permissions normally happens through a user or admin granting consent through a consent page or by granting permissions using the Azure Portal application registration blade. From the **Settings** blade for the application, click **Required Permissions** and click on the **Grant Permissions** button. <br>
 [Understanding Azure AD permissions and consent](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) <br>
 
 **`401 unauthorized error`: Have you chosen the right set of permissions?**<br>
@@ -40,18 +40,18 @@ Make sure that the type of permissions requested or granted matches the type of 
 
 **`401 unauthorized error`: Resetting password or adding a user to a directory role**? <br>
 
-Currently there are no application permission daemon service-to-service permissions that allow resetting user passwords or directory role membership changes (or other highly privileged operations today). These APIs are only supported using the interactive delegated code flows with a signed-in administrator. <br>
+Currently, there are no application permission daemon service-to-service permissions that allow resetting user passwords or directory role membership changes (or other highly privileged operations today). These APIs are only supported using the interactive delegated code flows with a signed-in administrator. <br>
 [Microsoft Graph permissions](https://developer.microsoft.com/graph/docs/authorization/permission_scopes) <br>
 
 **`403 Forbidden`: Does the user have access?** <br>
 
-For delegated interactive code flows, Microsoft Graph evaluates if the request is allowed based on the permissions granted to the app and the permissions that the signed-in user has. Generally this error indicates that the user is not privileged enough to perform the request **or** the user is not licensed for the data being accessed. Only users with the required permissions or licensed will be able to make the request successfully.
+For delegated interactive code flows, Microsoft Graph evaluates if the request is allowed based on the permissions granted to the app and the permissions that the signed-in user has. Generally, this error indicates that the user is not privileged enough to perform the request **or** the user is not licensed for the data being accessed. Only users with the required permissions or licensed will be able to make the request successfully.
 
 **`403 Forbidden`: Did you select the correct resource API?** <br>
 
-API services like Microsoft Graph check that the `aud` claim (audience) in the received access token matches the value it expects for itself, and if not it will result in a 403 Forbidden error. A common mistake resulting in this error, is trying to use a token aquired for Azure AD Graph API, to call Microsoft Graph (or vice versa). Ensure that the resource your app is acquiring a token for matches the API that the app is calling.
+API services like Microsoft Graph check that the `aud` claim (audience) in the received access token matches the value it expects for itself, and if not, it will result in a 403 Forbidden error. A common mistake resulting in this error is trying to use a token acquired for Azure AD Graph API, to call Microsoft Graph (or vice versa). Ensure that the resource your app is acquiring a token for matches the API that the app is calling.
 
 **`400 Bad Request` or `403 Forbidden`: Does the user comply with their organization's conditional access (CA) policies?**<br>
 
-Based on an organization's CA policies, a user accessing Microsoft Graph resources via your app may need to be challenged for additional information that is not present in the access token your app originally acquired. In this case your app will recieve a 400 with an `interaction_required` error or a 403 with `insufficient_claims` error, and additional information that can be presented to the authorize endpoint to challenge the user for additional information (like multi-factor authentication).<br>
+Based on an organization's CA policies, a user accessing Microsoft Graph resources via your app may need to be challenged for additional information that is not present in the access token your app originally acquired. In this case, your app will receive a 400 with an `interaction_required` error or a 403 with `insufficient_claims` error, and additional information that can be presented to the authorize endpoint to challenge the user for additional information (like multi-factor authentication).<br>
 [Developer guidance for Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/develop/conditional-access-dev-guide)
