@@ -3,7 +3,7 @@
 	description="My request unit (RU) charging is unclear"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas"
+	authors="AndrewHoh"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -23,5 +23,4 @@ Use one or more of these reference materials to help better understand request u
 * Use the Capacity Planner to estimate the approximate request units usage and data storage for your application.<br>[DocumentDB Capacity Planner](https://www.documentdb.com/capacityplanner)
 
 ## **Recommended documents**
-
-* [Request Units in DocumentDB](https://docs.azure.cn/cosmos-db/request-units)
+[Request Units in DocumentDB](https://docs.azure.cn/cosmos-db/request-units)

@@ -15,7 +15,7 @@
 # My issue is not listed
 
 ##
-Please reach out to us if you have questions or feedback on Server management tools!
+Please reach out to us if you have questions or feedback on Server management tools
 
 * Send feature requests and bug reports to [UserVoice](https://aka.ms/smt-engage)
 * Visit our [blog](https://aka.ms/smt-blog) for news, updates and documentation

@@ -22,5 +22,5 @@
 
 ## **Recommended documents**
 
-* [Traffic Manager Endpoints](https://docs.azure.cn/traffic-manager/traffic-manager-endpoint-types)<br>
-* [Traffic Manager Endpoint Monitoring and Failover](https://docs.azure.cn/traffic-manager/traffic-manager-monitoring)
+[Traffic Manager Endpoints](https://docs.azure.cn/traffic-manager/traffic-manager-endpoint-types)<br>
+[Traffic Manager Endpoint Monitoring and Failover](https://docs.azure.cn/traffic-manager/traffic-manager-monitoring)

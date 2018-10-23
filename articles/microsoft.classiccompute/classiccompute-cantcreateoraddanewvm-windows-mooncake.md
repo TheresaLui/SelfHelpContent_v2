@@ -7,10 +7,10 @@
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="windows, windowsSQL"
+    resourceTags="windows,windowsSQL"
     productPesIds=""
     cloudEnvironments="MoonCake"
-/>
+ />
 
 # I can't create or add a new VM
 

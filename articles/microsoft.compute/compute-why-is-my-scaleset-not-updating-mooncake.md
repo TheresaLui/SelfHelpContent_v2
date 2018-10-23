@@ -18,6 +18,6 @@ If you update your scale set but the running VMs don't update, this is likely be
 
 ## Recommended Documents
 
-* For more information about updating a scale set, see [this doc](https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app) that describes how to deploy, manage, and upgrade an app on a scale set.
+For more information about updating a scale set, see [this doc](https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app) that describes how to deploy, manage, and upgrade an app on a scale set.
 
 

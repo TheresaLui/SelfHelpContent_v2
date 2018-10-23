@@ -15,7 +15,6 @@
 # My database is slow
 
 ## **Recommended steps**
-
 To speed up your database, try one or more of the following steps.
 
 * Install the latest DocumentDB SDK. DocumentDB SDKs are constantly being improved to provide the best performance.<br>
@@ -27,5 +26,4 @@ To speed up your database, try one or more of the following steps.
 * Try increasing the allocated Request Units (RUs) for your collection.<br>[Performance levels in DocumentDB - Changing the throughput of a collection](https://docs.azure.cn/cosmos-db/performance-levels#change-throughput)
 
 ## **Recommended documents**
-
-* [Performance and scale testing with Azure DocumentDB](https://docs.azure.cn/cosmos-db/performance-testing)
+[Performance and scale testing with Azure DocumentDB](https://docs.azure.cn/cosmos-db/performance-testing)

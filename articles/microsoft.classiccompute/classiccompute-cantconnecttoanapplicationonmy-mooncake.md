@@ -3,7 +3,7 @@
     description="I can't connect to an application on my VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
-    authors="ScottAzure"
+    authors="kasparks"
     displayOrder="6"
     selfHelpType="resource"
     supportTopicIds=""
@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-First ensure you are able to RDP or SSH to the VM, and then try the following steps:
+First ensure you are able to RDP or SSH to the VM, and then try the following steps:<br>
 
 1. Verify the application is listening on the expected ports and endpoints.<br>
 
