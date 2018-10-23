@@ -22,17 +22,9 @@ To get an overview of Media Analitics, see [this](https://docs.azure.cn/media-se
 
 The following articles give details about analytics media processors:
 
-[Indexer](https://docs.azure.cn/media-services/media-services-index-content/)
-
-[Hyperlapse](https://docs.azure.cn/media-services/media-services-hyperlapse-content/)
-
-[Face Detector](https://docs.azure.cn/media-services/media-services-face-and-emotion-detection/)
-
-[Motion Detector](https://docs.azure.cn/media-services/media-services-motion-detection/)
-
-[Video Thumbnails](https://docs.azure.cn/media-services/media-services-video-summarization/)
-
-[OCR (optical character recognition)](https://docs.azure.cn/media-services/media-services-video-optical-character-recognition/)
-
-
-
+* [Indexer](https://docs.azure.cn/media-services/media-services-index-content/)
+* [Hyperlapse](https://docs.azure.cn/media-services/media-services-hyperlapse-content/)
+* [Face Detector](https://docs.azure.cn/media-services/media-services-face-and-emotion-detection/)
+* [Motion Detector](https://docs.azure.cn/media-services/media-services-motion-detection/)
+* [Video Thumbnails](https://docs.azure.cn/media-services/media-services-video-summarization/)
+* [OCR (optical character recognition)](https://docs.azure.cn/media-services/media-services-video-optical-character-recognition/)
