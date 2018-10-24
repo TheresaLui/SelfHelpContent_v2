@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-1. Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template
-2. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId)
-3. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
+* Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template
+* Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId)
+* Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
 
 ## **Recommended documents**
 
