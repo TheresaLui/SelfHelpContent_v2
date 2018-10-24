@@ -16,10 +16,8 @@
 
 ## **Recommended steps**
 
-1. Confirm that the your connection strings are configured properly<br>
-[Getting started: Setting connection strings](https://docs.azure.cn/power-bi-workspace-collections/get-started)
-2. Confirm that you can configured credentials properly for e report<br>
-[Getting started: Setting credentials](https://docs.azure.cn/power-bi-workspace-collections/get-started#view-power-bi-api-access-keys)
+1. Confirm that the your connection strings are configured properly <br>[Getting started: Setting connection strings](https://docs.azure.cn/power-bi-workspace-collections/get-started)
+2. Confirm that you can configured credentials properly for e report <br>[Getting started: Setting credentials](https://docs.azure.cn/power-bi-workspace-collections/get-started#view-power-bi-api-access-keys)
 
 ## **Recommended documents**
 
