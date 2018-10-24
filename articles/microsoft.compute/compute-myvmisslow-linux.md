@@ -16,9 +16,7 @@
 
 ## **Recommended steps**
 
-Try the following steps to diagnose and mitigate VM performance issues.
-
-As a quick way to recover from one-time issues, restart your application and virtual machine.
+As a quick way to recover from one-time issues, restart your application and virtual machine. Try the following steps to diagnose and mitigate VM performance issues.
 
 1. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues.<br>
 2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>

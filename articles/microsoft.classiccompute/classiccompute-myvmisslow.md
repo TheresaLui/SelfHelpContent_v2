@@ -21,7 +21,7 @@ Try the following steps to diagnose and mitigate VM performance issues
 
 1. **Did you know PerfInsights can help you analyze Windows guest VM issues?**
 
-	Start here: [Install Azure Performance Diagnostics VM Extension](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics-vm-extension) directly from Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run on the VM. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)<br> 
+	[Install Azure Performance Diagnostics VM Extension](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics-vm-extension) directly from Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run on the VM. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)<br> 
 
 	*To ensure a speedy resolution, you can also provide us the PerfInsights logs if you create a support case.*<br>
 
@@ -29,8 +29,8 @@ Try the following steps to diagnose and mitigate VM performance issues
 
 3. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>
 
-	On **Windows**, use the Perfmon tool.<br>
-	On **Linux**, use commands such as Top, VmStat, Lsof, and Tcpdump.<br>
+	On **Windows**, use the [Perfmon](https://docs.microsoft.com/windows-server/administration/windows-commands/perfmon) tool<br>
+	On **Linux**, use commands such as Top, VmStat, Lsof, and Tcpdump<br>
 
 4. Use VM Diagnostics and Storage Diagnostics in the Azure portal to identify if any resource is being overutilized or throttled.<br>
 
