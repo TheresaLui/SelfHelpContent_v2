@@ -16,10 +16,8 @@
 
 ## **Recommended steps**
 
-1. Check status of circuit.<br>
-Ask the circuit owner to validate status of circuit.
-2. Check Authorizations.<br>
-Ask the circuit owner to check status of authorization.
+1. Check status of circuit. <br>Ask the circuit owner to validate status of circuit.
+2. Check Authorizations. <br>Ask the circuit owner to check status of authorization.
 
 ## **Recommended documents**
 

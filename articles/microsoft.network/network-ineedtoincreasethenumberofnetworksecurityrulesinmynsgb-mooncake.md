@@ -16,14 +16,13 @@
 
 ## **Recommended steps**
 
-Default limit on the number of NSG rules is 200. This can be raised up to 400 (Classic) or 500 (Azure Resource Manager) by raising a support ticket. If you need to increase the number of security rules in your NSG follow the steps below.<br>
+Default limit on the number of NSG rules is 200. This can be raised up to 400 (Classic) or 500 (Azure Resource Manager) by raising a support ticket. If you need to increase the number of security rules in your NSG follow the steps below.
 
-1. Create New Support Request<br>
-[New Support Request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade)
-2. Select the Issue type as Quota.<br>
-3. Select the Quota type as Networking: Classic (or Networking: ARM) and enter details of the NSG in details section.<br>
+1. Create New Support Request <br>[New Support Request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade)
+2. Select the Issue type as Quota.
+3. Select the Quota type as Networking: Classic (or Networking: ARM) and enter details of the NSG in details section.
 
 ## **Recommended documents**
 
-* [Networking limits](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)<br>
+* [Networking limits](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)
 * [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)

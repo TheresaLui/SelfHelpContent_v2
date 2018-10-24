@@ -19,8 +19,7 @@
 To resolve the most common issues, try one or more of the following methods.
 
 1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the reason of failure.
-2. Check if you are hitting the subscription limits and if it is the reason for not able to create the circuit.<br>
-[Check default subscription limits for ExpressRoute resources.](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)
+2. Check if you are hitting the subscription limits and if it is the reason for not able to create the circuit. <br>[Check default subscription limits for ExpressRoute resources.](https://docs.azure.cn/azure-subscription-service-limits#networking-limits)
 3. Check your subscription permissions to make sure you're allowed to create resources in the region you want the ExpressRoute circuit.
 
 ## **Recommended documents**

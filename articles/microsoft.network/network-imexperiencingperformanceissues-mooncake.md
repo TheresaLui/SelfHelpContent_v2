@@ -18,12 +18,9 @@
 
 To resolve the most common issues, try one or more of the following methods.
 
-1. Enable server performance logs to check latency and throughput performance. See below link for steps to enable performance logs.<br>
-[Enable performance logs](https://docs.azure.cn/application-gateway/application-gateway-diagnostics/)
-2. Check throughput limits to ensure that throughput is within acceptable limits.<br>
-[Check throughput guidance for application gateway](https://docs.azure.cn/application-gateway/application-gateway-introduction/)
-3. Increase Application Gateway size or number of instances.<br>
-If latency or throughput is higher than expected, consider increasing size of Application Gateway or the number of instances.
+1. Enable server performance logs to check latency and throughput performance. See below link for steps to enable performance logs. <br>[Enable performance logs](https://docs.azure.cn/application-gateway/application-gateway-diagnostics/)
+2. Check throughput limits to ensure that throughput is within acceptable limits. <br>[Check throughput guidance for application gateway](https://docs.azure.cn/application-gateway/application-gateway-introduction/)
+3. Increase Application Gateway size or number of instances. <br>If latency or throughput is higher than expected, consider increasing size of Application Gateway or the number of instances.
 
 ## **Recommended documents**
 

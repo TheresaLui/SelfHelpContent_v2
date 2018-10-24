@@ -18,8 +18,7 @@
 
 Default limit on the number of NSGs in a subscription is 100. This can be increased upto 200 (classic) or 400 (Azure Resource Manager) by raising a support ticket. If you need to increase the number of NSGs in your subscription follow the steps below.<br>
 
-1. Create New Support Request<br>
-[New Support Request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade)
+1. Create New Support Request <br>[New Support Request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade)
 2. Select the Issue type as Quota.<br>
 3. Select the Quota type as Networking: Classic (or Networking: ARM) and enter details of the NSG in details section.<br>
 

@@ -40,10 +40,8 @@ To resolve the most common issues, try one or more of the following methods.
     1. Check NAT samples on Azure.com
     2. Check your NAT configuration.
 
-4. Check Firewall. <br>
-Check on-premises Firewall Configuration.
-5. Check routing. <br>
-Check routing within your on-premises network to ensure that the routes are propagated appropriately.
+4. Check Firewall. <br>Check on-premises Firewall Configuration.
+5. Check routing. <br>Check routing within your on-premises network to ensure that the routes are propagated appropriately.
 
 ## **Recommended documents**
 

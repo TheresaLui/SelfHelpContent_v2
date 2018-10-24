@@ -18,10 +18,8 @@
 
 To resolve the most common issues, try one or more of the following methods.
 
-1. Check if a VPN Gateway is created.<br>
-[Check if a VPN Gateway is created (type = ExpressRoute) for the virtual network](https://docs.azure.cn/expressroute/expressroute-howto-add-gateway-resource-manager/)
-2. Check connection between the VNet and the ExpressRoute circuit.<br>
-Check if you have a connection between the VNet and the ExpressRoute circuit. Check if the connection is enabled.
+1. Check if a VPN Gateway is created. <br>[Check if a VPN Gateway is created (type = ExpressRoute) for the virtual network](https://docs.azure.cn/expressroute/expressroute-howto-add-gateway-resource-manager/)
+2. Check connection between the VNet and the ExpressRoute circuit. <br>Check if you have a connection between the VNet and the ExpressRoute circuit. Check if the connection is enabled.
 3. Check layer 3 connectivity between your network and Microsoft.
 
     1. Get the route table summary for Azure private peering.
