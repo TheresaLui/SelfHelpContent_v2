@@ -17,7 +17,7 @@
 ## **Recommended steps**
 - [Ensure there is network connectivity between MARS agent and Azure](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup) <br>
 - Ensure **system clock** on the protected system is configured to correct time zone <br>
-- If you are trying to **Reregister your server** to a vault, then <br>
+- If you are trying to **reregister your server** to a vault, then: <br>
   - Ensure the agent is uninstalled on the server and it is deleted from portal <br> 
   - Use the same passphrase that was initially used for registering the server <br>
 - Ensure your OS has the latest updates <br>
