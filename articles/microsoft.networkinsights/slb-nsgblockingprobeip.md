@@ -19,15 +19,13 @@ cloudEnvironments="Public"
 We have found that the  NSG **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'** applied on your backend address pool **'<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->'** for your loadbalancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** has a rule **'<!--$NetworkSecurityRuleName-->[NetworkSecurityRuleName]<!--/$NetworkSecurityRuleName-->'** that is **blocking the load balancer probe IP 168.63.129.16** to your backend address pool resources. This has caused your load balancer to mark the backend pool resources as unhealthy and remove them from rotation.
 <!--/issueDescription-->
 
-## **Mitigation & More Information**
-To resolve this issue:
-
-1. Open the [Azure portal](https://portal.azure.com)
+## **Recommended steps**
+1. Open the [Azure portal](https://portal.azure.com) and browse to [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups).
 2. Browse to your Network Security Group **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'**
 3. Add an Allow rule for IP addrses **168.63.129.16** that has a lower number (higher priority) than the Block rule.
 4. Save changes and check the Health Probe Status by going to Load Balancer Monitoring blade to view the backend pool health.
 
-Learn more about [Load Balancer health probes](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview) and the [probe source IP address](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#probesource).
-
-Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics).
+## **Recommended documents**
+* Learn more about [Load Balancer health probes](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview) and the [probe source IP address](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview#probesource).
+* Learn more about [Load Balancer Monitoring](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics).
 
