@@ -49,5 +49,4 @@
 ## **Recommended documents**
 
 * [Troubleshoot Azure Load Balancer](https://docs.azure.cn/load-balancer/load-balancer-troubleshoot)<br>
-* Log Analytics for Azure Load Balancer [LB diagnostics](https://docs.azure.cn/load-balancer/load-balancer-monitor-log)<br>
 * Configure [Forced Tunneling](https://docs.azure.cn/vpn-gateway/vpn-gateway-forced-tunneling-rm)
