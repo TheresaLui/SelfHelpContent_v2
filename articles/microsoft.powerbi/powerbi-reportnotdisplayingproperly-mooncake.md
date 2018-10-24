@@ -17,10 +17,10 @@
 ## **Recommended steps**
 
 1. Confirm that the your connection strings are configured properly<br>
-[Getting started: Setting connection strings](https://docs.azure.cn/power-bi-embedded/power-bi-embedded-get-started)
+[Getting started: Setting connection strings](https://docs.azure.cn/power-bi-workspace-collections/get-started)
 2. Confirm that you can configured credentials properly for e report<br>
-[Getting started: Setting credentials](https://docs.azure.cn/power-bi-embedded/power-bi-embedded-troubleshooting#setting-sql-server-connection-strings)
+[Getting started: Setting credentials](https://docs.azure.cn/power-bi-workspace-collections/get-started#view-power-bi-api-access-keys)
 
 ## **Recommended documents**
 
-[Getting started with Power BI Embedded](http://go.microsoft.com/fwlink/?LinkID=787532)
+[Getting started with Power BI Workspace Collections](https://docs.azure.cn/power-bi-workspace-collections/faq)

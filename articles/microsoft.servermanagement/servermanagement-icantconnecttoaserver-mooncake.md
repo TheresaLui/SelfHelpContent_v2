@@ -36,7 +36,3 @@ In order to connect to a workgroup machine which is not on the same subnet as th
 If you get a “CANNOT CONNECT” error when entering credentials in the “Manage as” popup dialog box, make sure the credentials are correct and the user is a member of the target server’s local administrators group. In some cases, WinRM also requires that the user additionally be a member of the Remote Management Users group.
 * Are you having a problem only when connecting to a Windows Server 2012 or 2012 R2 machine?<br>
 If you can connect to a Windows Server 2016 machine, but not to a 2012 or 2012 R2 machine, also check the “I can’t set up a connection to a Windows Server 2012 or 2012 R2 machine” section below.
-
-## **Recommended documents**
-
-* [Server management tools Setup Guide](https://blogs.technet.microsoft.com/servermanagement/2016/08/17/deploy-setup-server-management-tools/)
