@@ -4,7 +4,7 @@
     infoBubbleText="Some suggestions have been found to help solve your Java SDK issue quicker."
     service="microsoft.insights"
     resource="components"
-    authors="debugthings"
+    authors="jpiyali"
     articleId="insights_javasdk"
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
@@ -17,12 +17,16 @@
 
 ## **Recommended steps**
 
-1. Review the Java SDK [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)
-  * Specifically the [No Data](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#no-data) guide
-2. Enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) for errors
-3. Search the [Java SDK Issues](https://github.com/Microsoft/ApplicationInsights-Java/issues)
-4. Check the [Java SDK Releases](https://github.com/Microsoft/ApplicationInsights-Java/releases) page for a comprehensive list of known issues
+The most common types of issues are related to the configuration of the SDK, or a network configuration issue such as a proxy or firewall. Here is a list of recommended items to review to ensure your application is configured correctly. Our [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) has a list of the most common concerts with problems using the Java SDK.
 
+1. First, review the Java SDK [getting started guide](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-java-get-started?toc=/azure/azure-monitor/toc.json) and check the default configuration
+2. If you're configuration looks correct, enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) and search for errors prefixed with to `AI`
+4. If you spot an exception or strange error ensure the java version you're using does not have any known issues by checking the [Java SDK Releases](https://github.com/Microsoft/ApplicationInsights-Java/releases) page
+5. Most errors have been reported on GitHub and you can search the [Java SDK Issues](https://github.com/Microsoft/ApplicationInsights-Java/issues) for existing solutions
+6. Lastly, review the [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) for other possible areas to troubleshoot
+
+**Spring Boot Starter**
+Recently we've released the [Spring Boot Starter](https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-boot-java-applicationinsights?view=azure-java-stable) for Application Insights that will help simplify the process of instrumenting your Spring Boot applications.
 
 **Please provide following information to help the team investigate issue**
 
@@ -35,11 +39,11 @@
   *	J2EE (with version for servlet specifically)
 5.	What version of Java SDK customer is using?
 6.	Provide iKey and subscription ID and duration since issue started
-7.	Provide SDK logs
+7.	Provide [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk)
 
 **Known issues**
 
-1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine looses connectivity
+1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
 
 ## **Recommended Documents**
 [Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br>

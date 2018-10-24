@@ -21,7 +21,7 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 3. Any e-mail security appliances (Barracuda, Cisco)
 4. If the e-mail is a distribution list, make sure it can receive external e-mails
 5. Look for any unsubscribe e-mail notifications
-  * If this goes to a distribution list ask your colleagues with access to check as well
+6. If this goes to a distribution list ask your colleagues with access to check as well
 
 ## **Recommended documents**
 ### E-Mail Client
