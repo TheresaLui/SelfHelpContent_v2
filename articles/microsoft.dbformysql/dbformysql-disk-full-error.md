@@ -18,7 +18,6 @@
 
 <!--issueDescription-->
 During our investigation we determined that the database server was marked as read only. When a server is marked as read only all transactions that makes an attempt to write (Insert/Update/Delete) to the server are expected to fail.
-
 <!--/issueDescription-->
 
 While the service attempts to make the server read-only, all new write transaction requests are blocked and existing active transactions will continue to execute. When the server is set to read-only, all subsequent write operations and transaction commits fail. Read queries will continue to work uninterrupted. After you increase the provisioned storage, the server will be ready to accept write transactions again.
