@@ -20,8 +20,7 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 2. The e-mail server SPAM/quarantine settings (Exchange, O365, G Suite)
 3. Any e-mail security appliances (Barracuda, Cisco)
 4. If the e-mail is a distribution list, make sure it can receive external e-mails
-5. Look for any unsubscribe e-mail notifications
-6. If this goes to a distribution list ask your colleagues with access to check as well
+5. Look for any unsubscribe e-mail notifications, check with colleagues if the e-mail is a distribution list
 
 ## **Recommended documents**
 ### E-Mail Client

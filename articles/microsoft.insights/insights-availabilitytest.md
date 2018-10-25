@@ -15,18 +15,13 @@
 # I am having problems with my Availability Tests
 ## **Recommended Steps**
 
-1. Check the [FAQ](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna) for answers to common questions.
-2. Verify you have the test running in multiple geo-locations
-  * If not, it’s strongly recommended to run at least from two locations. Web communication fails for multiple reasons from time to time. Having only 1 location enabled will considerably increase the likelihood of false-positives.
-3. Check server side logs for the failure, especially if the answer to #2 is yes.
+1. Check the [FAQ](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability#qna) for answers to common questions
+2. Verify you have the test running in multiple geo-locations. It is strongly recommended to run at least from two locations. Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives
+3. Check server side logs for the failure, especially if the answer to #2 is yes
 4. Determine if the issue present in all geo-locations
-5. Verify the issue intermittent or persistent. 
-  * If so, is it possible the URL being tested hits a load balancer, with multiple machines serving the request. In this case, do all machines have the same exact configuration?
-6. Do you have parse-dependent requests enabled?
-  * If so, it’s possible the issue is being caused by a dependent resource provider (e.g. CDN’s). 
-  * Have you investigated that possibility?
-7. Ping tests will follow redirects (configurable for multi-step). 
-  * Is it possible the redirect is failing.
+5. Verify if you're using a load balancer and that all the machines behind the load balancer have the same configuration
+6. If you have parse-dependent requests enabled the issue could be caused by a dependent resource provider (e.g. CDN’s)
+7. Please validate that the redirect is not failing
 
 **Please provide following information to help the team investigate issue**
 

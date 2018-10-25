@@ -4,7 +4,7 @@
     infoBubbleText="Some suggestions have been found to help solve your Java SDK issue quicker."
     service="microsoft.insights"
     resource="components"
-    authors="jpiyali"
+    authors="dhaval24"
     articleId="insights_javasdk"
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
@@ -25,13 +25,12 @@ The most common types of issues are related to the configuration of the SDK, or 
 5. Most errors have been reported on GitHub and you can search the [Java SDK Issues](https://github.com/Microsoft/ApplicationInsights-Java/issues) for existing solutions
 6. Lastly, review the [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) for other possible areas to troubleshoot
 
-**Spring Boot Starter**
-Recently we've released the [Spring Boot Starter](https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-boot-java-applicationinsights?view=azure-java-stable) for Application Insights that will help simplify the process of instrumenting your Spring Boot applications.
+**Spring Boot Starter:** We recently released the [Spring Boot Starter](https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-boot-java-applicationinsights?view=azure-java-stable) for Application Insights that will help simplify the process of instrumenting your Spring Boot applications.
 
 **Please provide following information to help the team investigate issue**
 
-1.	Describe the actual behavior.
-2.	Describe the expected behavior.
+1.	Describe the actual behavior
+2.	Describe the expected behavior
 3.	What SDK version are you using? 
 4.	What kind of application it is: 
   *	SpringBoot (Along with framework version) - > If yes -> Are they using ApplicationInsights SpringBoot Starter -> If yes which version of starter?
@@ -42,8 +41,7 @@ Recently we've released the [Spring Boot Starter](https://docs.microsoft.com/en-
 7.	Provide [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk)
 
 **Known issues**
-
-1.	SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
+SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
 
 ## **Recommended Documents**
 [Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br>
