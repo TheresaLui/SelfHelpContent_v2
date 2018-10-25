@@ -14,14 +14,8 @@
     cloudEnvironments="public"
  />
 # MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found
-
-ExpressRoute uses mappings from RNM (Regional Network Manager) for PA-to-CA translation. The mappings are not found in GWM and need to be refreshed and set. 
-
+ExpressRoute uses mappings from RNM (Regional Network Manager) for PA-to-CA translation. The mappings are not found in GWM and need to be refreshed and set. <br><br>
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 VNetID: '**<!--$VNetID-->[VNetID]<!--/$VNetID-->**'  <br>
-
-
- 
 ## **Recommended steps**
-
 + Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for VNetId: '**<!--$VNetID-->[VNetID]<!--/$VNetID-->**'

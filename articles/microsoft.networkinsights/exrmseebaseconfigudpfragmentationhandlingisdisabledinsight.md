@@ -14,15 +14,10 @@
     cloudEnvironments="public"
  />
 # UDP Fragmentation Is Not Enabled
-
-A device-wide configuration is missing that is used for communication between the MSEE and the Gateway Tenants (GWTs). This will cause communication to fail, including datapath and BGP.
-
+A device-wide configuration is missing that is used for communication between the MSEE and the Gateway Tenants (GWTs). This will cause communication to fail, including datapath and BGP.<br><br>
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
-
- 
 ## **Recommended steps**
-
 + Contact a TA for approval for **Sev 2** ICM to **ExpressRoute Operations** asking to update the **base configuration on MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**'**. 
  + The ExpressRoute team scans for these issues, so they should be rare. 
  + When they occur, we need to raise awareness quickly, which is why we are using **Sev 2** for the ICM to **ExpressRoute Operations**.

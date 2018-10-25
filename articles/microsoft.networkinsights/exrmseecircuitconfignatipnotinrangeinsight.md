@@ -14,21 +14,14 @@
     cloudEnvironments="public"
  />
 # The NAT IP Address Is Not In The Expected NAT IP Address Range
-
-Public peering on ExpressRoute utilizes NAT to translate private IP space into public IP space. ExpressRoute by default allocates a single unique public IP address on each MSEE device, which corresponds with the public peering configuration that the customer has configured. 
-
-*Private and Microsoft peering do not apply to this insight.*
-
+Public peering on ExpressRoute utilizes NAT to translate private IP space into public IP space. ExpressRoute by default allocates a single unique public IP address on each MSEE device, which corresponds with the public peering configuration that the customer has configured. <br>
+*Private and Microsoft peering do not apply to this insight.*<br>
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
 MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
 VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
-
- 
 ## **Recommended steps**
-The NAT IP addresses are allocated dynamically at the time of public peering creation and do not change during the lifecycle of the public peering on the circuit. At times, the device configuration may differ than the state in Gateway Manager (GWM).
-
-Execute **Jarvis Actions** operation: **Brooklyn->ExR Service Operations->Force Apply Device Configuration** for ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'
-
+The NAT IP addresses are allocated dynamically at the time of public peering creation and do not change during the lifecycle of the public peering on the circuit. At times, the device configuration may differ than the state in Gateway Manager (GWM).<br><br>
+Execute **Jarvis Actions** operation: **Brooklyn->ExR Service Operations->Force Apply Device Configuration** for ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'<br>
 ## **Recommended document**
-[ExpressRoute NAT requirements](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-nat#nat-requirements-for-azure-public-peering) <br>
+[ExpressRoute NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat#nat-requirements-for-azure-public-peering) <br>
