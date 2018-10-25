@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **ExpressRoute Gateway Configuration Is Null**
+# **ExpressRoute Gateway Configuration Is Null**
 
 '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
 ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>

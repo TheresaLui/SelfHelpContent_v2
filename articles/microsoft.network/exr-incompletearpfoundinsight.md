@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **Incomplete ARP entry found**
+# **Incomplete ARP entry found**
 ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**' 
 Incomplete ARP Entry found 
  

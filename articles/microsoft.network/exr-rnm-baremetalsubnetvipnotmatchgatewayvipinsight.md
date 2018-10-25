@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
+# **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
 
 '**<!--$Message--> [Message] <!--/$Message-->**' <br />
  '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**' 

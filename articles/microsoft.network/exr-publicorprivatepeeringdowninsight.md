@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **Express Route Circuit Private or Public Peering is down**
+# **Express Route Circuit Private or Public Peering is down**
 ExpressRoute circuit: '**<!--$CircuitName--> [CircuitName] <!--/$CircuitName-->**', Public and/or Private peering exists, but could be down (status:Idle)
 
 

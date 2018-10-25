@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **ExpressRoute NAT Translation Count Is Too High**
+# **ExpressRoute NAT Translation Count Is Too High**
 
 '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
 ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>

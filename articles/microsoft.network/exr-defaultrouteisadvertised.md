@@ -13,7 +13,7 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-## **Default Routes Advertised**
+# **Default Routes Advertised**
 ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**' 
 Default Route is advertised
  
