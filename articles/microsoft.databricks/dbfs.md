@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-The folllowing details refer to the Databricks File System (DBFS)
+The folllowing details refer to the Databricks File System (DBFS).
 
 (1) Create a mount point on DBFS for Azure Blob Store or Azure Data Lake Store Gen 1 to avoid having to provide credentials every time on access.  
 (2) Create a mount point only if you want ALL users in the Azure Databricks workspace to have access to the mounted storage.  
