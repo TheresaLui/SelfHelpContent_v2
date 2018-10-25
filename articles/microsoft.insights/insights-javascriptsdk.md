@@ -34,6 +34,6 @@
 Auto collection of page duration is not applicable for single page applications. Please use custom [startTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#starttrackpage), [stopTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#stoptrackpage) to instrument scenarios.
 
 ## **Recommended Documents**
-[Getting Started](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-javascript)<br>
+[Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-javascript)<br>
 [JavaScript SDK GitHub](https://github.com/Microsoft/ApplicationInsights-JS/issues)<br>
 [Angular Application Example](https://blogs.msdn.microsoft.com/premier_developer/2017/05/11/add-application-insights-to-an-angular-spa/)
