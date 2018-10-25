@@ -20,4 +20,4 @@ An operation failed causing the state of the cricuit to become **Failed**. Traff
 1. From the portal, navigate to the circuit blade and click *Refresh*. This will make no changes to the circuit itself, but will move the state from **Failed**. 
 2. From PowerShell, follow the instructions in the recommended document. 
 ## **Recommended document**
-[Reset ExpressRoute peerings](https://docs.microsoft.com/azure/expressroute/expressroute-howto-reset-peering) <br>
+[Reset ExpressRoute peerings](https://docs.microsoft.com/azure/expressroute/expressroute-howto-reset-peering)
