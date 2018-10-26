@@ -26,4 +26,4 @@ Currently, performing an in-place upgrade on an Azure VM is not supported.  Howe
 
 1. Stop/deallocate the Virtual Machine <!--$vmname-->[vmname]<!--/$vmname--> and save a copy of the OS disk.  (See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy))
 2. Complete the setup using the copy of the OS disk in a *Nested Hyper-v Environment*. Please refer to [Troubleshoot a problem Azure VM by using nested virtualization in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-vm-by-use-nested-virtualization) and complete the setup process for the *in-place upgrade*.
-3. Once the disk is fixed, detach the repaired OS disk from the troubleshooting VM that was created in step 2. [Then, swap the OS disk from the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap).
+3. Once the disk is fixed, detach the repaired OS disk from the troubleshooting VM that was created in step 2. [Then, swap the OS disk from the original VM](https://docs.microsoft.com/azure/virtual-machines/windows/os-disk-swap). 
