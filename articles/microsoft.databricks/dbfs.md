@@ -16,13 +16,13 @@
 
 ## **Recommended steps**
 
-The folllowing details refer to the Databricks File System (DBFS).
+Below are the details of the Databricks File System (DBFS).
 
-(1) Create a mount point on DBFS for Azure Blob Store or Azure Data Lake Store Gen 1 to avoid having to provide credentials every time on access.  
-(2) Create a mount point only if you want ALL users in the Azure Databricks workspace to have access to the mounted storage.  
-(3) Databricks Runtime 4.0 or higher is required to use this functionality.  
-(4) Access DBFS using the Databricks CLI, DBFS API, Databricks Utilities, Spark APIs or local file APIs.  
-(5) Note: ADLS Gen 2 mount points are not supported as of yet  
+* Create a [Azure Blob Store mount point](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-storage.html) or [Azure Data Lake Store Gen 1 mount point](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake.html) on DBFS for Azure Blob Store to avoid having to provide credentials every time on access.  
+* Create a mount point only if you want ALL users in the Azure Databricks workspace to have access to the mounted storage.  
+* Databricks Runtime 4.0 or higher is required to use this functionality.  
+* Access DBFS using the Databricks CLI, DBFS API, Databricks Utilities, Spark APIs or local file APIs.  
+* Note: ADLS Gen 2 mount points are not supported as of yet  
 
 ## **Recommended documents**
 1. [Databricks File System](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html)  
