@@ -24,5 +24,5 @@ In most cases end users will find a review pending their response in the [Access
 
 
 ## **Recommended documents**
-* [Perform an access review of my Azure AD directory roles in PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-how-to-perform-security-review/)
-* [Perform an access review of my Azure resource roles in PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-resource-roles-perform-access-review/)
+* [Perform an access review of my Azure AD directory roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-perform-security-review/)
+* [Perform an access review of my Azure resource roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-perform-access-review/)
