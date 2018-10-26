@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 pageTitle="VM boot error"
 description="Virtual machine was started in Safe Mode"
 infoBubbleText="We have detected that your VM was started in safe mode. See details on the right."
