@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-- If you are trying to execute python code make sure you are either running in a python cluster or you specify "%py" as the first line in the cell.
+- If you are trying to execute python code make sure you are either running in a python notebook or you specify "%py" as the first line in the cell.
 - You cannot use both Python 2 and 3 in the same cluster it is a cluster wide setting, not per notebook.
 - Databricks Python runtime is not an Anaconda distribution. If you want to install an Anaconda distribution on your cluster, follow [this guide](https://docs.azuredatabricks.net/user-guide/faq/anaconda-environment.html).
 
