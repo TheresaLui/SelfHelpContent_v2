@@ -13,10 +13,12 @@
 /> 
 
 # Azure Databricks Logging
- 
- ## Recommended steps 
+
+## **Recommended steps**
+
 - You can find Driver logs and Event logs in the cluster settings page. You can find Executor logs in the Spark UI.
- 
-## Recommended documents 
+
+## **Recommended documents**
+
 1. If you need more verbose logging [following these instructions](https://docs.azuredatabricks.net/user-guide/clusters/tips/set-executor-log-level.html).
 2. To find where your logs are saved after cluster termination, [check the cluster log path](https://docs.databricks.com/user-guide/clusters/log-delivery.html).
