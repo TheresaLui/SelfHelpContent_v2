@@ -24,5 +24,5 @@
 
 1. [Azure Databricks FAQ](https://docs.microsoft.com/en-us/azure/azure-databricks/frequently-asked-questions-databricks)
 2. [Databricks administration guide](https://docs.databricks.com/administration-guide/index.html)
-3. [Manage access using RBAC and the Azure Portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal).
+3. [Manage access using RBAC and the Azure Portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 4. [Manage Azure Databricks account settings](https://docs.azuredatabricks.net/administration-guide/account-settings/account.html)
