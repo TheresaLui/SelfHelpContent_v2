@@ -17,23 +17,27 @@
 
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
 ## Problem
 
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed to scale down on <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp-->.
-
-Scaling down of disks or nodes is not supported for Kafka clusters with managed disks. 
-
-Apache Kafka is a technology used for data ingestion and retention. 
-Due to the storage heavy nature of the technology, it is not recommended to scale down Kafka clusters as customers risk data-loss. 
-
-Due to this, scaling down a cluster is explicitly disallowed on HDInsight Kafka.
-
-[Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
+<!--issueDescription-->
+On <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp--> an operation to scale down the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> 
+failed as scaling down of disks or nodes is not supported for HDInsight Kafka clusters.
 <!--/issueDescription-->
+
+Apache Kafka on HDInsight uses Azure Managed Disks. Since Kafka is very I/O heavy, Azure Managed Disks are used to provide high throughput and provide more storage per node. 
+If traditional virtual hard drives (VHD) were used for Kafka, each node is limited to 1 TB. With managed disks, you can use multiple disks to achieve 16 TB for each node in the cluster. 
+Reducing the number of nodes will lead to data loss on the managed disk attached to the nodes.
+
+To prevent data loss, **scale down operations are explicitly disallowed on HDInsight clusters**. 
+
+
+
 
 ## **Recommended steps**
 
-The issue can be resolved by deleting the existing cluster and creating a new cluster with desired configuration. 
-[Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
+The only way to reduce the size of a cluster is to delete the existing cluster and create a new, smaller cluster. 
 
+
+## **Recommended Documents**
+[Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
+[Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
