@@ -24,10 +24,7 @@ Customers with Azure Stack environments connected to the internet will automatic
 
 1. Check the release notes for the specific update package, listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)<br>
 2. Perform a pre-check on the health of your environment by running Test-AzureStack according to the steps under [Plan for Updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#plan-for-updates).<br>
-```PowerShell
-Test-AzureStack -Include AzsControlPlane, AzsDefenderSummary, AzsHostingInfraSummary, AzsHostingInfraUtilization, AzsInfraCapacity, AzsInfraRoleSummary, AzsPortalAPISummary, AzsSFRoleSummary, AzsStampBMCSummary
-```
-3. Resolve any operational issues found in Test-AzureStack output, including all warnings and failures. Also review active alerts, and resolve any that require action.
+3. Resolve any operational issues found in Test-AzureStack output, including all warnings and failures. Also review active alerts, and resolve any that require action.<br>
 
 ### **If you are monitoring an on-going update:**
 
