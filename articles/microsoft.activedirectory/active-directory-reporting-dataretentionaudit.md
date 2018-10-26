@@ -21,7 +21,7 @@
 
 ### **Troubleshooting issues with Sign-ins**
 
-* If you are a P1 tenant and can't see the Audit logs, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencie) and file a support ticket if the delay exceeds the documented latency
+* If you are a P1 tenant and can't see the Audit logs, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency
 
 ## **Recommended documents**
 

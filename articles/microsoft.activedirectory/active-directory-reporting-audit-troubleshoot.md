@@ -20,7 +20,7 @@
 
 * If you are having issues seeing some audit activities and the  missing Activity is in this [list](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-audit-activities), please file a support ticket
 * If you are having issues seeing any Audit logs in your tenant, please file a support ticket
-* If you are audit activities are not showing up immediately in the Azure Portal, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencie) and file a support ticket if the delay exceeds the documented latency
+* If you are audit activities are not showing up immediately in the Azure Portal, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency
 
 
 ## **Recommended documents**
