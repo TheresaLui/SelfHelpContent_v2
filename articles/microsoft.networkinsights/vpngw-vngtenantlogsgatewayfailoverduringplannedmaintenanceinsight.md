@@ -17,7 +17,7 @@ cloudEnvironments="Public"
 # The Virtual Network Gateway is disconnected
 <!--issueDescription-->
 We have identified that your Virtual Network Gateway for VNet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of  **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** failed over to the passive instance due to a planned maintenance around {preciseTimeStamp}.
-## **Issue Details & Mitigation**
+## **Issue Details**
 During the planned maintenance, the VPN connection to your Vnet will remain but you may have noticed some sessions disconnected at the above time. You were also without VPN Tunnel redundancy during this time.
 
 
