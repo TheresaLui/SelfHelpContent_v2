@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="VM boot error"
 	description="Linux VM waiting on input"
 	infoBubbleText="Found a file system table related issue. See details on the right."
