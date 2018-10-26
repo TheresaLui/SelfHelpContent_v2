@@ -1,4 +1,4 @@
-﻿<properties  
+<properties  
 	pageTitle="I can't connect to my Linux VM"
 	description="I can't connect to my Linux VM"
 	service=""
