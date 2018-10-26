@@ -19,7 +19,7 @@ Your Azure resources may be protected from accidental deletion with a policy tha
 ## **Recommended steps**
 
 
-1. Remove the lock to continue using PIM. Use the following document to remove the resource lock and continue using PIM. [Remove Azure resource locks](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources).
+1. Remove the lock to continue using PIM. Use the following document to remove the resource lock and continue using PIM. [Remove Azure resource locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources).
 
 
 2. Make the user permanent or use a break-glass account. In the event you want to keep the resource lock, you should change your assignment to permanent or use a break-glass account until the resource lock is removed.  
