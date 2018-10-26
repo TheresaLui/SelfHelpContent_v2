@@ -29,6 +29,6 @@ Antivirus, backup, and other applications that read large numbers of files cause
 
 Consult with your software vendor to learn how to configure their solution to skip reading offline files.
 
-Unintended recalls also might occur in other scenarios, like when you are browsing files in File Explorer. Opening a folder that has cloud-tiered files in File Explorer on the server might result in unintended recalls. This is even more likely if an antivirus solution is enabled on the server. 
+Unintended recalls might also occur in other scenarios, like when you are browsing files in File Explorer. Opening a folder that has cloud-tiered files in File Explorer on the server might result in unintended recalls. This is even more likely if an antivirus solution is enabled on the server. 
 
 To help identify the application that's causing recalls on the server, use [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon).
