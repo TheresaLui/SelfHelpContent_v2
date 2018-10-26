@@ -29,8 +29,7 @@
 4.	URL of instrumented site if issue can be easily retried in client
 5.	Browser version if issue in specific browser only
 
-**Known issues**
-
+**Known issues**<br>
 Auto collection of page duration is not applicable for single page applications. Please use custom [startTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#starttrackpage), [stopTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#stoptrackpage) to instrument scenarios.
 
 ## **Recommended Documents**

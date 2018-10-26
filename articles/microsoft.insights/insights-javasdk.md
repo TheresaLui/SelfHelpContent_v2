@@ -40,7 +40,7 @@ The most common types of issues are related to the configuration of the SDK, or 
 6.	Provide iKey and subscription ID and duration since issue started
 7.	Provide [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk)
 
-**Known issues**
+**Known issues**<br>
 SDK versions prior to 2.0.0 have a bug where telemetry will not be persisted or sent if the machine loses connectivity
 
 ## **Recommended Documents**

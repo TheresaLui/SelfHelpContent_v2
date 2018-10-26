@@ -30,9 +30,8 @@
 3. Is the issue present in all geo-locations?
 4. Is the issue intermittent?
 
-**Known issues**
-
-1. You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
+**Known issues**<br>
+You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
 
 ## **Recommended Documents**
 [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br>
