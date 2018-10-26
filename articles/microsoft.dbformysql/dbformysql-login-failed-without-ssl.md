@@ -11,7 +11,7 @@
 	selfHelpType="rca"
 	supportTopicIds="32569392"
 	resourceTags="windows, linux"
-	productPesIds="16222"
+	productPesIds="16221"
 	cloudEnvironments="public"
 />
 # Can't connect MySQL database server because of SSL connection errors

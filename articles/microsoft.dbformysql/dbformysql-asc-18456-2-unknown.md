@@ -7,11 +7,11 @@
 	authors="janeng"
 	displayOrder="100"
 	articleId="dbformysql-asc-18456-2-unknown"
-	diagnosticScenario=""
+	diagnosticScenario="OrcasMySQLBackendErrorUnKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds=""
+	supportTopicIds="32568704, 32568709"
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="16221"
 	cloudEnvironments="public"
 />
 # Can't connect MySQL database server

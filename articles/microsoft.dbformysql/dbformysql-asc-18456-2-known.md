@@ -7,14 +7,14 @@
 	authors="janeng"
 	displayOrder="100"
 	articleId="dbformysql-asc-18456-2-known"
-	diagnosticScenario=""
+	diagnosticScenario="OrcasMySQLBackendErrorKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds=""
+	supportTopicIds="32568704, 32568709"
 	resourceTags="windows, linux"
-	productPesIds=""
+	productPesIds="16221"
 	cloudEnvironments="public"
 />
-# Can't connect MySQL database server
+# Can't connect to MySQL database server
 
 <!--issueDescription-->
 Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we determined that the server was restarted between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->, causing <!--$Count-->Count<!--/$Count--> connection attempts to fail. The server restarted because <!--$FailureCause-->FailureCause<!--/$FailureCause-->.
