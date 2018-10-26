@@ -28,3 +28,17 @@ Your Azure resources may be protected from accidental deletion with a policy tha
 ## **Recommended documents**
 * [Troubleshooting Elevated Permissions with Azure AD Privileged Identity Management](https://social.technet.microsoft.com/wiki/contents/articles/37568.troubleshooting-elevated-permissions-with-azure-ad-privileged-identity-management.aspx)<br>
 * [Administrator roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+
+# Permissions not granted after activating a role in Azure AD PIM
+
+After activating a role in Azure AD PIM, it takes at least ten minutes before you can access the desired administrative portal or perform functions within a specific administrative workload. Follow the steps below before opening a support ticket.
+
+## **Recommended steps**
+
+
+1. Use the Application access tab in the left navigation menu to access the specific workload. From the Activate blade, back up to the primary PIM blade where you can see the left navigation menu. In the Tasks section, locate and select the Application access tab. Once the page loads choose either the Azure AD administration portal or Azure resource portal. Using these links will invalidate your current token, forcing the client to obtain a new token that should contian your updated permissions.
+
+
+## **Recommended documents**
+* [Troubleshooting Elevated Permissions with Azure AD Privileged Identity Management](https://social.technet.microsoft.com/wiki/contents/articles/37568.troubleshooting-elevated-permissions-with-azure-ad-privileged-identity-management.aspx)<br>
+* [Administrator roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
