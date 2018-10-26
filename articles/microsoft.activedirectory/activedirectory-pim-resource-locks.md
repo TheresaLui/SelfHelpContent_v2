@@ -25,10 +25,6 @@ Your Azure resources may be protected from accidental deletion with a policy tha
 2. Make the user permanent or use a break-glass account. In the event you want to keep the resource lock, you should change your assignment to permanent or use a break-glass account until the resource lock is removed.  
 
 
-## **Recommended documents**
-* [Troubleshooting Elevated Permissions with Azure AD Privileged Identity Management](https://social.technet.microsoft.com/wiki/contents/articles/37568.troubleshooting-elevated-permissions-with-azure-ad-privileged-identity-management.aspx)<br>
-* [Administrator roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
-
 ## Permissions not granted after activating a role in Azure AD PIM
 
 After activating a role in Azure AD PIM, it takes at least ten minutes before you can access the desired administrative portal or perform functions within a specific administrative workload. Follow the steps below before opening a support ticket.
