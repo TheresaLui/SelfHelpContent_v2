@@ -5,12 +5,12 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    articleId="insights_missingemail"
-    displayOrder="5"
-    selfHelpType="resource"
-    cloudEnvironments="public"
+    articleId="insights_missingemail_diagnostic"
+    diagnosticScenario="ApplicationInsightsMissingEmailDiagnostic"
+    selfHelpType="diagnostics"
     productPesIds="15693" 
     supportTopicIds="32546625"
+    cloudEnvironments="public"
  />
 # I should have received an E-mail for an alert that fired
 ## **Recommended steps**
