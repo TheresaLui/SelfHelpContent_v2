@@ -6,7 +6,7 @@
 	resource="dbformysql"
 	authors="janeng"
 	displayOrder="100"
-	articleId="dbformysql-asc-18456-102"
+	articleId="dbformysql-asc-18470-4"
 	diagnosticScenario="OrcasMySQLServerNotFoundInBackend"
 	selfHelpType="rca"
 	supportTopicIds="32568715, 32568711"
