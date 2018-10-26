@@ -18,12 +18,12 @@
 
 ### **Availability of Updates**
 
-Customers with Azure Stack environments connected to the internet will automatically see "Update Available" in the Admin Portal. For disconnected customers, update releases notifications are available vis RSS feed at [Support Content Updates](https://support.microsoft.com/en-us/help/4089498/support-content-updates), select Product as *Azure Stack* and choose ATOM or RSS.
+Customers with Azure Stack environments connected to the internet will automatically see "Update Available" in the Admin Portal. For disconnected customers, update releases notifications are available vis RSS feed at [Support Content Updates](https://support.microsoft.com/help/4089498/support-content-updates), select Product as *Azure Stack* and choose ATOM or RSS.
 
 ### **If you are preparing to apply an Azure Stack update:**
 
 1. Check the release notes for the latest package, listed under [Update Package Release Cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)<br>
-2. Perform a pre-check on the health of your environment by running Test-AzureStack according to the steps under [Plan for Updates](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-updates#plan-for-updates).<br>
+2. Perform a pre-check on the health of your environment by running Test-AzureStack according to the steps under [Plan for Updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#plan-for-updates).<br>
 
 ```PowerShell
 Test-AzureStack -Include AzsControlPlane, AzsDefenderSummary, AzsHostingInfraSummary, AzsHostingInfraUtilization, AzsInfraCapacity, AzsInfraRoleSummary, AzsPortalAPISummary, AzsSFRoleSummary, AzsStampBMCSummary
