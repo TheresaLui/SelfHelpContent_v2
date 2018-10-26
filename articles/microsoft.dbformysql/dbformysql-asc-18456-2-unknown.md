@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Server unavailable"
 	description="RCA - Server unavailable"
-	infoBubbleText=""
+	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbformysql"
 	resource="dbformysql"
 	authors="janeng"
