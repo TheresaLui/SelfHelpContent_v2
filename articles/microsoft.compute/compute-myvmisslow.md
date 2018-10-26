@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Try the following steps to diagnose and mitigate VM performance issues.
+Try the following steps to diagnose and mitigate VM performance issues:
 
 
 1. **Did you know Performance diagnostics can help you analyze guest VM issues?**  

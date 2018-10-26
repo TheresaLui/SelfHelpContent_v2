@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Try the following steps to diagnose and mitigate VM performance issues.
+Try the following steps to diagnose and mitigate VM performance issues:
 
 1. **Did you know PerfInsights can help you analyze Windows guest VM issues?**  
 	[Download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on the VM. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)
