@@ -17,8 +17,6 @@
 
 # We ran diagnostics on your resource and found an issue
 
-## Problem
-
 <!--issueDescription-->
 On <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp--> an operation to scale down the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> 
 failed as scaling down of disks or nodes is not supported for HDInsight Kafka clusters.
