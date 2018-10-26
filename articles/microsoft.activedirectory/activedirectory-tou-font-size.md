@@ -25,4 +25,4 @@ When an end user is signing into an application and a conditional access policy 
 
 
 ## **Recommended documents**
-* [Terms of Use Documentation](https://docs.microsoft.com/en-us/azure/active-directory/governance/active-directory-tou#terms-of-use-document)
+* [Terms of Use Documentation](https://docs.microsoft.com/azure/active-directory/governance/active-directory-tou#terms-of-use-document)
