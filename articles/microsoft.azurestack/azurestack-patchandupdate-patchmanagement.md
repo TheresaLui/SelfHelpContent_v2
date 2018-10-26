@@ -39,4 +39,4 @@ Check the status of the update using the steps to [Monitor updates in Azure Stac
 
 * [Azure Stack servicing policy - Recent Update](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)<br>
 * [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates)<br>
-* [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-monitor-update)<br>
+* [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update)<br>
