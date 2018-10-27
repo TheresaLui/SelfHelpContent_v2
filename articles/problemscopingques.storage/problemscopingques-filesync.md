@@ -2,6 +2,7 @@
 	pageTitle="Storage File Sync"
 	description="Storage File Sync scoping question"
 	authors="Passaree"
+	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
 	productPesIds="16460"
@@ -11,7 +12,7 @@
 # Storage File Sync scoping question
 ---
 {
-	"resourceRequired": false,
+	"resourceRequired": true,
 	"title": "Storage File Sync scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -21,7 +22,7 @@
 			"displayLabel": "File Sync resource",
 			"watermarkText": "Choose a File Sync",
 			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
+					"uri": "/subscriptions/{subscriptionid}/providers/Microsoft.StorageSync/storageSyncServices?api-version=2018-04-02",
 					"jTokenPath": "value",
 					"textProperty": "id",
 					"valueProperty": "id",
