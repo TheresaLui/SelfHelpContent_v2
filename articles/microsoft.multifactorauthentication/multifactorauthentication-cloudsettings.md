@@ -6,7 +6,7 @@
     authors="kgremban"
     selfHelpType="generic"
     supportTopicIds="32570990"
-    productPesIds="14947"
+    productPesIds="14947,16579"
     cloudEnvironments="public"
     />
 

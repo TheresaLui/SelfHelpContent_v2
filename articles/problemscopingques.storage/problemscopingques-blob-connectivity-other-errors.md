@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Blob connectivity other blob service errors"
-	description="Blob connectivity other blob service errors scoping question"
+	description="Blob connectivity and other blob service errors scoping question"
 	authors="Passaree"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602728"
