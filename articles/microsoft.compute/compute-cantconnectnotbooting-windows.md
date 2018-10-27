@@ -16,6 +16,5 @@
 
 ## **Recommended documents**
 
-1. Click [here](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics?branch=pr-en-us-54175) for more information on using boot diagnostics to troubleshoot your VM.
-2. Click [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error) for more information on BitLocker errors that you may encounter when you start your VM.
-3. Click [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error) for more information on “Checking file system” error that you may encounter when you start your VM.
+1. Troubleshoot common boot errors [Check Disk Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error), [Bitlocker Boot Error](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-bitlocker-boot-error), [Boot Configuration Update](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update), [Common Blue Screen Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-common-blue-screen-error), [Critical Service Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-critical-service-failed-boot-error), [Updating Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error), [Reboot loop](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-reboot-loop)
+2. To troubleshoot other boot errors, please refer to the complete list [here](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)
