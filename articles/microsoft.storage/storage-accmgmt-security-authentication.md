@@ -6,9 +6,9 @@
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602695,32602717,32602750"
+	supportTopicIds="32602695,32602717"
 	resourceTags=""
-	productPesIds="15629,16459,16460"
+	productPesIds="15629,16459"
 	cloudEnvironments="public"
 />
 

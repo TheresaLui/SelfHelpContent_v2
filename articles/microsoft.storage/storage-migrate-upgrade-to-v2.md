@@ -17,5 +17,5 @@
 
 ## **Recommended documents**
 - [General-purpose v2 accounts overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview#general-purpose-v2-accounts)
-- [Upgrade to a general-purpose v2 storage account](https://docs.microsoftcom/azure/storage/common/storage-account-upgrade)
+- [Upgrade to a general-purpose v2 storage account](https://docs.microsoft.com/azure/storage/common/storage-account-upgrade)
 - [Pricing and billing](https://docs.microsoft.com/azure/storage/common/storage-account-upgrade?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#pricing-and-billing)

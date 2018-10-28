@@ -1,15 +1,15 @@
 <properties
 	pageTitle="Convert to ZRS replication type"
 	description="Self-help guide on how to convert to ZRS replication"
-    service="microsoft.storage"
-    resource="storage"
-	authors="artek,passaree"
+	service="microsoft.storage"
+	resource="storageaccounts"
+	authors="passaree"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32605567"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public"
 />
 
 # Change to ZRS replication type
@@ -17,6 +17,7 @@ Changing redundancy type to ZRS involves the physical data movement from a singl
 
 ## **Recommended steps**
 Consider the following prior to submitting a request for live migration to ZRS:
+
 - Changing replication type from ZRS to LRS/GRS/RA-GRS is currently not supported. You will need to create a new storage account and manually migrate the data.
 - Blob and GPv1 accounts will automatically be upgraded to GPv2 once the migration is complete. Make sure you review the [differences between the account types including billing](https://docs.microsoft.com/azure/storage/common/storage-account-overview).
 - You must [manually convert your RA-GRS account(s) to GRS or LRS](https://docs.microsoft.com/azure/storage/common/storage-redundancy#changing-replication-strategy) before requesting live migration to ZRS.
