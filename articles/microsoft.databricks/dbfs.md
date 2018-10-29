@@ -25,7 +25,7 @@ Below are the details of the Databricks File System (DBFS).
 * Note: ADLS Gen 2 mount points are not supported as of yet  
 
 ## **Recommended documents**
-1. [Databricks File System](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html)  
-2. [Mount Azure Blob Storage containers with DBFS](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-storage.html)  
-3. [Mount Azure Data Lake Store with DBFS](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake.html)  
+* [Databricks File System](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html)  
+* [Mount Azure Blob Storage containers with DBFS](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-storage.html)  
+* [Mount Azure Data Lake Store with DBFS](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/azure-datalake.html)  
 
