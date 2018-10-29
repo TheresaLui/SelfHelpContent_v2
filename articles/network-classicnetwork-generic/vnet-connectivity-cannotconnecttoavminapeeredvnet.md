@@ -23,8 +23,7 @@
 2. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to check if traffic is allowed to or from a virtual machine<br>
 
 ## **Recommended documents**
-* Can't connect to a gateway via virtual networks that are globally peered? Virtual networks that are globally peered do not currenly support gateway transit. Read about [VNet peering and Global VNet Peering constraints here](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints) <br> 
-* Can't connect to a load balancer in a globally peered virtual network? This is not currently supported across virtual networks that are globally peered. Read about [VNet peering and Global VNet Peering constraints here](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints) <br> 
+* Can't connect to a gateway via VNets that are globally peered? Globally peered VNets do not currenly support gateway transit. Read about [VNet peering and Global VNet Peering constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints) <br>
+* Can't connect to a load balancer in a globally peered virtual network? This is not currently supported across virtual networks that are globally peered. Read about [VNet peering and Global VNet Peering constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints) <br>
 * [Troubleshoot your Network Virtual Appliance (NVA)](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-* Consider these [constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#a-nameabout-peeringaabout-peering) in peering virtual networks <br>
-* Find answers in [FAQ for Vnet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)
+* Find answers in [FAQ for VNet Peering](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)
