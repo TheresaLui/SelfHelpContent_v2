@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-- The admin console is where you can manage access controls. Find the admin console with the person icon on the top right of your workspace.
+- You can manage access controls through the Admin Console. You can open the admin console at the top right of the product by clicking the user account icon and selecting Admin Console.
 - If you see an error that your account has not been registered in Databricks, then you need to ask the owner of the workspace to add you as a user.
 - If you still see the same error, go to the Azure portal and select Initialize Workspace to try again.
 
