@@ -17,9 +17,9 @@
 
 ## **Recommended steps**
 
-**Note:** Starting 1st November, 2018, some customers may see issues in loading the data in Azure Backup App in Power BI, saying “We found extra characters at the end of JSON input. The exception was raised by the IDataReader interface.”
+**Note:** From 1st November, 2018, some customers may see issues in loading the data in Azure Backup App in Power BI, saying “We found extra characters at the end of JSON input. The exception was raised by the IDataReader interface.” This is due to a change in the format in which data is loaded into the storage account. 
 
-This is due to a change in the format in which data is loaded into the storage account. In order to fix the issue, please upgrade the App to the latest version.
+Please upgrade the App to the latest version to avoid facing the issue.
 
 Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
 
