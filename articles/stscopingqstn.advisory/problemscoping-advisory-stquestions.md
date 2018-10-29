@@ -10,12 +10,6 @@
    articleId="906fafad-fa6c-4065-8d40-ad5081ffb24c"
 />
 # General Guidance or Advisory
-Please provide details on the scope of your request for advisory guidance.<br>
-Examples of advisory services include, but are not limited to:  
-<br>
-<br>
-You should not select Advisory when you have an immediate issue that requires troubleshooting support. 
-Please select a different problem type from the drop down list above for faster assistance resolving a problem. 
 ---
 {
     "resourceRequired": false,

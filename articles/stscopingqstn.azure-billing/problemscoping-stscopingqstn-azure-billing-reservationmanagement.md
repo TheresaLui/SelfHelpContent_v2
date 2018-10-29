@@ -24,13 +24,13 @@ Please provide the reservation type: <br>
             "required": true,
             "hints": [
                 {
-                    "text": "Virtual machine - [Learn more about Azure RIs](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances?toc=/azure/billing/TOC.json)"
+                    "text": "Virtual machine - <a href='https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances?toc=/azure/billing/TOC.json'>Learn more about Azure RIs</a>"
                 },
                 {
-                    "text": "SQL Database - [Learn more about SQL Reserved Instance](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity?toc=/azure/billing/TOC.json)"
+                    "text": "SQL Database - <a href='https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity?toc=/azure/billing/TOC.json'>Learn more about SQL Reserved Instance</a>"
                 },
                 {
-                    "text": "SUSE Linux - [Learn more about SUSE Linux](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges?toc=/azure/billing/TOC.json)"
+                    "text": "SUSE Linux - <a href='https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges?toc=/azure/billing/TOC.json'>Learn more about SUSE Linux</a>"
                 }
             ]
         },

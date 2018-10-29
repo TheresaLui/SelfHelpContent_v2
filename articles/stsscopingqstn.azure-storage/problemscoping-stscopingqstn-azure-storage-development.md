@@ -27,7 +27,7 @@
                     "text": "Date and time of the most recent occurrence (best estimate)"
                 },
                 {
-                    "text": "[Request ID](https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id)"
+                    "text": "<a href='https://docs.microsoft.com/azure/storage/storage-monitoring-diagnosing-troubleshooting#server-request-id'>Request ID</a>[]()"
                 }
             ]
         },
