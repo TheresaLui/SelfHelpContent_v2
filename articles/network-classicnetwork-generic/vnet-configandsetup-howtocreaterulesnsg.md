@@ -25,4 +25,4 @@
 * [Azure Security best practices](https://docs.microsoft.com/azure/security/azure-security-network-security-best-practices)<br>
 * [Azure Network Security overview](https://docs.microsoft.com/azure/security/azure-network-security)<br>
 * [Microsoft cloud services and network security](https://docs.microsoft.com/azure/best-practices-network-security?toc=%2fazure%2fsecurity%2ftoc.json)<br>
-* [Reference Architecture: Secure DMZ](https://docs.microsoft.com/en-gb/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
+* [Reference Architecture: Secure DMZ](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
