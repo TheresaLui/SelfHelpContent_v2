@@ -17,4 +17,4 @@
 ## **Recommended documents**
 
 - [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)<br>
-- [Azure CLI Commands](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
+- [Azure CLI Commands](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest)
