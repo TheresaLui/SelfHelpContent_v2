@@ -15,7 +15,7 @@
 # Azure Databricks Access Control
 
 ## **Recommended steps**
-Please follow these steps to configure Access Control in Azure Databricks
+Please follow these steps to configure Access Control in Azure Databricks:
 
 1. As Access Control feature is only available in Premium SKU, please create a Premium SKU of Azure Databricks workspace through the [Azure portal](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal)
 2. Launch the workspace and go to [Admin Console](https://docs.azuredatabricks.net/administration-guide/admin-settings/index.html#admin-console) to enable/disable access control at various levels - Workspace, Cluster, Job, Table
