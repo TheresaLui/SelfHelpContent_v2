@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-- If you are trying to execute scala code make sure you are either running in a scala notebook or you specify "%scala" as the first line in the cell.
+- If you are trying to execute Scala code make sure you are either running in a Scala notebook or you specify "%Scala" as the first line in the cell.
 - Scala case classes [should be defined](https://docs.databricks.com/spark/latest/faq/common-errors-in-notebooks.html) in a cell of it's own otherwise you may encounter java.lang.NoClassDefFoundError: Could not initialize class line
 
 ## **Recommended documents**
 
 1. [7 Tips to Debug Apache Spark Code Faster with Databricks](https://databricks.com/blog/2016/10/18/7-tips-to-debug-apache-spark-code-faster-with-databricks.html)
 2. [Understanding your Apache Spark Application Through Visualization](https://databricks.com/blog/2015/06/22/understanding-your-spark-application-through-visualization.html)
-3. [Databricks Scala DataFrames](https://docs.azuredatabricks.net/spark/latest/dataframes-datasets/introduction-to-dataframes-scala.html#dataframes-scala).
+3. [Databricks Scala DataFrames](https://docs.azuredatabricks.net/spark/latest/dataframes-datasets/introduction-to-dataframes-scala.html#dataframes-scala)
