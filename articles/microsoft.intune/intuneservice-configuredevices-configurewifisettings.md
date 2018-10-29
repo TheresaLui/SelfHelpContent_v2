@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common Wifi configuration issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **I'm deploying a Wi-Fi profile that is dependent on a deployed certificate specified in the Wi-Fi profile. However, the configuration profiles are showing an error status.**
 Check that your device received the certificate.
@@ -33,11 +33,11 @@ A successful status means that Intune has successfully deployed the profile as c
 
 ## **Recommended documents**
 
-[How to configure Wi-Fi settings in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-configure)<br>
-[Troubleshooting device profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-troubleshoot)<br>
-[Wi-Fi settings for Android and Android for Work devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-android)<br>
-[Wi-Fi settings for iOS devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-ios)<br>
-[Wi-Fi settings for macOS devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-macos)<br>
-[How to import Wi-Fi settings for Windows 8.1 and later devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-import-windows-8-1)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [How to configure Wi-Fi settings in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-configure)<br>
+* [Troubleshooting device profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-troubleshoot)<br>
+* [Wi-Fi settings for Android and Android for Work devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-android)<br>
+* [Wi-Fi settings for iOS devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-ios)<br>
+* [Wi-Fi settings for macOS devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-macos)<br>
+* [How to import Wi-Fi settings for Windows 8.1 and later devices in Microsoft Intune](https://docs.microsoft.com/intune/wi-fi-settings-import-windows-8-1)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

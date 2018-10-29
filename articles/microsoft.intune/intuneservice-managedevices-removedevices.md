@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common issues when removing devices.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **I issued a remote action to remove company data from a device, and now it's stuck in a pending state.**
 
@@ -29,6 +29,6 @@ If you think a device is no longer checking in, and that it won't be able to rem
 
 ## **Recommended documents**
 
-[Remove devices by using factory reset or remove company data](https://docs.microsoft.com/intune/devices-wipe)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [Remove devices by using factory reset or remove company data](https://docs.microsoft.com/intune/devices-wipe)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

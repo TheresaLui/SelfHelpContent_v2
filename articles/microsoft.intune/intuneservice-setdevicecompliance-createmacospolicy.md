@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common macOS policy setup issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.**
 
@@ -49,7 +49,7 @@ By default, Intune looks at policy deployment and device health to determine if 
 
 ## **Recommended documents**
 
-[Create a device compliance policy for macOS devices with Intune](https://docs.microsoft.com/intune/compliance-policy-create-mac-os)<br>
-[Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [Create a device compliance policy for macOS devices with Intune](https://docs.microsoft.com/intune/compliance-policy-create-mac-os)<br>
+* [Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

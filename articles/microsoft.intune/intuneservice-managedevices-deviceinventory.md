@@ -16,11 +16,11 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common device inventory issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **Why are phone numbers not collected from all devices?**
 
-Phones that are categorized as corporate devices in Intune are not identified with their full phone number when, for example, you run a mobile device inventory report. Bring-you-own-device phone numbers are always partially masked with asterisks (****), and only show the last 4 digits.
+Phones that are categorized as corporate devices in Intune are not identified with their full phone number when, for example, you run a mobile device inventory report. Bring-you-own-device phone numbers are always partially masked with asterisks (****), and only show the last 4 digits. For more information on data your company can see when devices are enrolled go [here](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
 
 **I am not receiving a full inventory list of applications present on Intune-enrolled Windows devices. Why?**
 
@@ -28,6 +28,6 @@ Only modern apps are listed for Windows 10 PCs that are identified as corporate 
 
 ## **Recommended documents**
 
-[How to view Intune device inventory](https://docs.microsoft.com/intune/device-inventory)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [How to view Intune device inventory](https://docs.microsoft.com/intune/device-inventory)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

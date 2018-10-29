@@ -16,11 +16,9 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common iOS policy setup issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **In Intune in the Azure portal > Compliance policies > Device Compliance, I see "iOS device is currently busy" in my list of policies.**
-
-Review the following options to determine how to troubleshoot the device error.
 
 * If the device is locked or in low battery mode during check-in, the iOS mobile device management (MDM) agent might notify you that the device is busy. Tell the device user to unlock the device, open the Company Portal app, and force the device to sync or check in with Intune.
 
@@ -48,7 +46,7 @@ By default, Intune looks at policy deployment and device health to determine if 
 
 ## **Recommended documents**
 
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
-[How to create a device compliance policy for iOS devices in Intune](https://docs.microsoft.com/intune/compliance-policy-create-ios)<br>
-[Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [How to create a device compliance policy for iOS devices in Intune](https://docs.microsoft.com/intune/compliance-policy-create-ios)<br>
+* [Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>

@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common device compliance issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **A BitLocker-encrypted Windows 10 device shows as not compliant in Intune.**
 
@@ -31,8 +31,6 @@ Password compliance policies only apply to local accounts. Azure Active Director
 For local accounts, this behavior is expected. The new password compliance rules will be enforced the next time the user signs out or signs in, or when they press **Ctrl-Alt-Del** and change their password. 
 
 **In Intune in the Azure portal > Compliance policies > Device Compliance, I see "iOS device is currently busy" in my list of policies.**
-
-Review the following options to determine how to troubleshoot the device error.
 
 * If the device is locked or in low battery mode during check-in, the iOS mobile device management (MDM) agent might notify you that the device is busy. Tell the device user to unlock the device, open the Company Portal app, and force the device to sync or check in with Intune.
 
@@ -66,7 +64,7 @@ For more information about configuring policies for devices that use these envir
 
 ## **Recommended documents**
 
-[Monitor Intune Device compliance policies](https://docs.microsoft.com/intune/compliance-policy-monitor)<br>
-[Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [Monitor Intune Device compliance policies](https://docs.microsoft.com/intune/compliance-policy-monitor)<br>
+* [Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

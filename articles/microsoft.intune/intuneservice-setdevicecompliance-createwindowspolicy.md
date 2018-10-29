@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-Let's review a couple common winodws policy setup issues.
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
 **My devices show as not compliant, but I didn't assign a compliance policy to them.**
 
@@ -50,7 +50,7 @@ For local accounts, this behavior is expected. The new password compliance rules
 
 ## **Recommended documents**
 
-[How to create a device compliance policy for Windows devices in Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows)<br>
-[Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
+* [How to create a device compliance policy for Windows devices in Intune](https://docs.microsoft.com/intune/compliance-policy-create-windows)<br>
+* [Get started with Intune device compliance policies](https://docs.microsoft.com/intune/device-compliance-get-started)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
