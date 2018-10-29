@@ -22,18 +22,17 @@ On <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp--> an operation to scale down the
 failed as scaling down of disks or nodes is not supported for HDInsight Kafka clusters.
 <!--/issueDescription-->
 
-Apache Kafka on HDInsight uses Azure Managed Disks. Since Kafka is very I/O heavy, Azure Managed Disks are used to provide high throughput and provide more storage per node. 
-If traditional virtual hard drives (VHD) were used for Kafka, each node is limited to 1 TB. With managed disks, you can use multiple disks to achieve 16 TB for each node in the cluster. 
-Reducing the number of nodes will lead to data loss on the managed disk attached to the nodes.
+Apache Kafka on HDInsight is a technology used for data ingestion and retention.
+Scaling down an HDInsight Kafka cluster is not supported because the data in the nodes that are removed will be lost.
 
-To prevent data loss, **scale down operations are explicitly disallowed on HDInsight clusters**. 
+To prevent data loss, **scale down operations are explicitly disallowed on HDInsight clusters**.
 
 
 
 
 ## **Recommended steps**
 
-The only way to reduce the size of a cluster is to delete the existing cluster and create a new, smaller cluster. 
+The only way to reduce the size of a cluster is to delete the existing cluster and create a new, smaller cluster.
 
 
 ## **Recommended Documents**
