@@ -25,14 +25,14 @@ Follow the instruction manual of your VPN device to check if it received any IKE
 1. If there is no packet received from your Azure VPN gateway:
 
    * Verify if there is [network connectivity issues](https://azure.microsoft.com/status/) between your on-premises network and the Azure region of your gateway
-   * Check if the [local network gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) resource representing your on-premises network containts the correct public IP address of your VPN device
+   * Check if the [local network gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) resource representing your on-premises network contains the correct public IP address of your VPN device
    * Check if your Azure VPN gateway is working correctly by navigating to the "Resource health" page of your Azure VPN gateway on the [Azure Portal](https://portal.azure.com)
 
 2. If the packets from your Azure VPN gateway were detected:
 
    * Refer to your VPN device manual to verify your device IPsec/IKE policy is configured correctly for this VPN connection
    * Verify your [Azure VPN connection parameters](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec) can work with your IPsec/IKE configuration
-   * If necessary, specifcy a [custom IPsec/IKE policy](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell) that meet your on-premises VPN device settings
+   * If necessary, specify a [custom IPsec/IKE policy](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell) that meet your on-premises VPN device settings
 
 ## Recommended documents
 
