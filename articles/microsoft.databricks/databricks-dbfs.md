@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-- Run this command to see all the commands to manage your Databricks File System (DBFS): dbutils.fs.help()
-- When using Spark APIs, reference files with "/mnt/training/file.csv" or "dbfs:/mnt/training/file.csv". 
-- When using local file APIs, you must provide the path under /dbfs, for example: "/dbfs/mnt/training/file.csv".
+- Run the [following command](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html#access-dbfs-with-dbutils) in your notebook to see all the commands available to manage your Databricks File System (DBFS): dbutils.fs.help() 
+- When using [Spark APIs](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html#access-dbfs-using-spark-apis), reference files with "/mnt/training/file.csv" or "dbfs:/mnt/training/file.csv". 
+- When using [local file APIs](https://docs.azuredatabricks.net/user-guide/dbfs-databricks-file-system.html#access-dbfs-using-local-file-apis), you must provide the path under /dbfs, for example: "/dbfs/mnt/training/file.csv".
 - Local file I/O APIs only support files less than 2GB in size. Access files larger than 2GB using the DBFS CLI, dbutils.fs, or Spark APIs.
 - If you write a file using the local file I/O APIs and then immediately try to access it using the DBFS CLI, dbutils.fs, or Spark APIs, you might encounter a FileNotFoundException, a file of size 0, or stale file contents. To force those writes to be flushed to persistent storage (in our case DBFS), use the standard Unix system call sync
 
