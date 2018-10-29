@@ -22,5 +22,5 @@ Follow below steps to resolve common networking related RDP or SSH issues:<br>
 4. RDP or SSH to your VM from Internet may not work with forced tunneling enabled. With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises. Review effective routes.<br>
 
 ## **Recommended documents**
-[Steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
-[Steps to address common SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshoot-ssh-connection)
+* [Steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
+* [Steps to address common SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshoot-ssh-connection)
