@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-- [Blob Service Error Codes](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-error-codes)<br>
+- [Blob Service Error Codes](https://docs.microsoft.com/rest/api/storageservices/blob-service-error-codes)<br>
 
