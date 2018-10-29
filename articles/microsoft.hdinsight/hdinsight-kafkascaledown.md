@@ -25,7 +25,7 @@ failed as scaling down of disks or nodes is not supported for HDInsight Kafka cl
 Apache Kafka on HDInsight is a technology used for data ingestion and retention.
 Scaling down an HDInsight Kafka cluster is not supported because the data in the nodes that are removed will be lost.
 
-To prevent data loss, **scale down operations are explicitly disallowed on HDInsight clusters**.
+To prevent data loss, **scale down operations are explicitly disallowed on HDInsight Kafka clusters**.
 
 
 
