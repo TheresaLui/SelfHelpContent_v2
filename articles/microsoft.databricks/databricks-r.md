@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-- If you are trying to execute R code, make sure you are either running in an R notebook or you specify "%R" as the first line in the cell.
+- If you are trying to execute R code, make sure you are either running in an R notebook or you specify "%R" as the first line in the cell
 - If you have trouble installing an rJava or RJDBC package, see [this guide](https://docs.databricks.com/spark/latest/sparkr/tips/install-rjava-rjdbc-libraries.html)
-- R execution is limited to a single-threaded runtime and memory of a single machine. Use [SparkR](https://databricks.com/blog/2015/06/09/announcing-sparkr-r-on-spark.html) to scale your jobs and maximize performance in Spark.
+- R execution is limited to a single-threaded runtime and memory of a single machine. Use [SparkR](https://databricks.com/blog/2015/06/09/announcing-sparkr-r-on-spark.html) to scale your jobs and maximize performance in Spark
 
 ## **Recommended documents**
 
