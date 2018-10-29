@@ -15,7 +15,7 @@
 # Azure Databricks Documentation
 
 ## **Recommended steps**
-The following details shares the documenation link for Azure Databricks
+For information on Azure Databricks, please review the following documentation:
 
 1. [Azure Databricks documenation](https://docs.azuredatabricks.net/)
 2. [Azure Databricks pricing](https://azure.microsoft.com/pricing/details/databricks/) 
