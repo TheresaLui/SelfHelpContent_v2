@@ -23,7 +23,5 @@
 ## **Recommended documents**
 * [Troubleshoot Connectivity problems: Cannot connect to Internet](https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
 * [Fix your Network Virtual Appliance (NVA)](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-* [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
-* [Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)<br>
-* [Routing/Connecting to secondary NICs - Windows](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#routing-within-a-virtual-machine-operating-system-with-multiple-network-interfaces)<br>
-* [Routing/Connecting to secondary NICs - Linux](https://docs.microsoft.com/azure/virtual-machines/linux/multiple-nics#configure-guest-os-for-multiple-nics)
+* Routing/Connecting to secondary NICs - [Windows](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#routing-within-a-virtual-machine-operating-system-with-multiple-network-interfaces), [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/multiple-nics#configure-guest-os-for-multiple-nics)<br>
+* [Understanding outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
