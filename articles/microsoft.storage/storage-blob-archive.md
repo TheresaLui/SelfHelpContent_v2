@@ -2,7 +2,7 @@
 	pageTitle="Archive Storage Tier"
     description="Archive Storage Tier"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="storage"
 	authors=""
 	displayOrder=""
 	selfHelpType="generic"

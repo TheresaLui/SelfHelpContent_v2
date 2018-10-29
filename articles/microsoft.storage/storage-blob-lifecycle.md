@@ -2,7 +2,7 @@
 	pageTitle="Blob Storage Lifecycle"
     description="Self-help for Blob Storage Lifecycle"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="storage"
 	authors=""
 	displayOrder=""
 	selfHelpType="generic"
