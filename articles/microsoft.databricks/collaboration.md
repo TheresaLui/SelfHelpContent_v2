@@ -18,10 +18,11 @@
 
 Below are details on how to setup Azure Databricks with Github and Bitbucket.
 
+* Important: Please note that Github Enteprise is not supported yet. 
 * Go to [Github setup](https://docs.azuredatabricks.net/user-guide/notebooks/github-version-control.html) to link your Azure Databricks notebook to Github.  
 * If you are not able to connect to Github, you might not have setup the access token.  
 * Go to [Bitbucket setup](https://docs.azuredatabricks.net/user-guide/notebooks/bitbucket-cloud-version-control.html) to link your Azure Databricks notebook to Bitbucket.  
-* Important: Please note that Github Enteprise is not supported yet.  
+ 
 
 ## **Recommended documents**
 * [Github setup](https://docs.azuredatabricks.net/user-guide/notebooks/github-version-control.html)  
