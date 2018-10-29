@@ -15,7 +15,7 @@
 # Azure Databricks Delta
 
 ## **Recommended steps**
-The following details explain how to set up and use Delta feature in Azure Databricks
+The following details explain how to set up and use Delta feature in Azure Databricks:
 
 1. Create a Premium SKU of Azure Databricks workspace through the [Azure portal](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal). Delta feature is only available in premium SKU
 2. Create a Spark cluster with Databricks Runtime 4.1 or above through the [Databricks Workspace](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal#create-a-spark-cluster-in-databricks) 
