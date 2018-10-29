@@ -4,7 +4,7 @@
 	service="microsoft.databricks"
 	resource="clusters"
 	authors="mspreshah"
-	displayOrder="7"
+	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32612188"
 	resourceTags=""
