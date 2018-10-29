@@ -18,7 +18,7 @@ cloudEnvironments="Public"
 # Microsoft Azure has detected your S2S tunnel disconnected due to IKE Security Association expiration or deletion
 
 <!--issueDescription-->
-We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because the tunnel state (IKE SA or Security Association) is either timed out or deleted. This could happen when the on-premises VPN device and your Azure VPN gateway are trying to rekay at the same time, resulting in a short interruption of your VPN connection.
+We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because the tunnel state (IKE SA or Security Association) is either timed out or deleted. This could happen when the on-premises VPN device and your Azure VPN gateway are trying to rekey at the same time, resulting in a short interruption of your VPN connection.
 
 ## Recommended steps
 
