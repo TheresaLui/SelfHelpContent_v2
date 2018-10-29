@@ -18,8 +18,10 @@ cloudEnvironments="public"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more classic disk(s)
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more classic disk(s) that are not attached to a VM. In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first [delete the following disk(s)](): <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more classic disk(s) that are not attached to a VM. In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first delete the following disk(s):<br>
 
 <!--$DiskList-->[DiskList]<!--/$DiskList-->
+
+Alternatively, these disks can be deleted during storage account deletion using [Azure Portal](https://portal.azure.com) with the _'Automatically delete unattached disks and images'_ option.
 
 <!--/issueDescription-->

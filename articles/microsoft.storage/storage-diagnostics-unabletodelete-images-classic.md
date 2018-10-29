@@ -18,8 +18,10 @@ cloudEnvironments="public"
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more classic image(s)
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more classic image(s). In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first [delete the following image(s)](): <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be deleted because it contains one or more classic image(s). In order to delete the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first delete the following image(s): <br>
 
 <!--$ImageList-->[ImageList]<!--/$ImageList-->
+
+Alternatively, these images can be deleted during storage account deletion using [Azure Portal](https://portal.azure.com) with the _'Automatically delete unattached disks and images'_ option.
 
 <!--/issueDescription-->
