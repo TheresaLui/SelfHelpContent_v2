@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 - Make sure your library is attached to the cluster you are attempting to use it on by [following these instructions](https://docs.databricks.com/user-guide/libraries.html#attach-a-library-to-a-cluster).
-- Check if you locked the version of the library you are using. 3rd party packages may update frequently if you do not specify which version you want to take a dependency on.
+- Make sure to lock the version of the library you are using to protect against a third party update introducing a breaking change.
 - If your libraries are out of sync between the UI and the API, follow instructions in [this document](https://docs.databricks.com/user-guide/faq/library-install-uninstall.html).
 - If you are using the CosmosDB-Spark Connector Library, you may experience a library conflict. [Refer to this solution](https://docs.databricks.com/user-guide/faq/cosmosdb-connector-lib-conf.html).
 
