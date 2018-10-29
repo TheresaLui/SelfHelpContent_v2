@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-- If you are trying to execute Scala code make sure you are either running in a Scala notebook or you specify "%Scala" as the first line in the cell.
+- If you are trying to execute Scala code make sure you are either running in a Scala notebook or you specify "%Scala" as the first line in the cell
 - Scala case classes [should be defined](https://docs.databricks.com/spark/latest/faq/common-errors-in-notebooks.html) in a cell of it's own otherwise you may encounter java.lang.NoClassDefFoundError: Could not initialize class line
 
 ## **Recommended documents**
