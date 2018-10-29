@@ -22,7 +22,7 @@ hank you for contacting Microsoft support about your connection issues with Azur
 
 ## **Recommended steps**
 
-1. Because the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement re-try logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-high-availability) for more details.
+Because the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement re-try logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-high-availability) for more details.
 
 ## **Recommended documents**
 
