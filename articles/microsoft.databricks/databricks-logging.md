@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-- You can [find Driver logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#driver-logs) for exception stack traces and DStream DAG prints.
-- You can find [Event logs](https://docs.databricks.com/user-guide/clusters/event-log.html#event-log) in the cluster settings page to understand cluster lifecycle events.
-- You can find [Executor logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#executor-logs) in the Spark UI to help diagnose why a certain task may be misbehaving.
+- You can [find Driver logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#driver-logs) for exception stack traces and DStream DAG prints
+- You can find [Event logs](https://docs.databricks.com/user-guide/clusters/event-log.html#event-log) in the cluster settings page to understand cluster lifecycle events
+- You can find [Executor logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#executor-logs) in the Spark UI to help diagnose why a certain task may be misbehaving
 
 ## **Recommended documents**
 
-1. If you need more verbose logging [following these instructions](https://docs.azuredatabricks.net/user-guide/clusters/tips/set-executor-log-level.html).
-2. To find where your logs are saved after cluster termination, [check the cluster log path](https://docs.databricks.com/user-guide/clusters/log-delivery.html).
+1. If you need more verbose logging [following these instructions](https://docs.azuredatabricks.net/user-guide/clusters/tips/set-executor-log-level.html)
+2. To find where your logs are saved after cluster termination, [check the cluster log path](https://docs.databricks.com/user-guide/clusters/log-delivery.html)
