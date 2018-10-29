@@ -20,7 +20,7 @@ We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!-
 
 ## Recommended steps
 
-1. Check if your VPN connection is working correctly. You can also check the Resource health of your gateway and connection. From the [Azure Portal](https://portal.azure.com), navigate to your VPN gateway or your connection resource, and click "Resource health". Resource healh page contains the current status, and the health history for the last 2 weeks.
+1. Check if your VPN connection is working correctly. You can also check the Resource health of your gateway and connection. From the [Azure Portal](https://portal.azure.com), navigate to your VPN gateway or your connection resource, and click "Resource health". Resource health page contains the current status, and the health history for the last 2 weeks.
 
 2. If the VPN connection is still broken, you can reset the VPN gateway by clicking the "Reset" link on your VPN gateway page in the portal.
 
