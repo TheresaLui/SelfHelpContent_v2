@@ -15,7 +15,7 @@
 # Azure Databricks quickstart
 
 ## **Recommended steps**
-The following details explain how to get started on Azure Databricks
+The following details explain how to get started on Azure Databricks:
 
 1. Login to [Azure portal](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal#log-in-to-the-azure-portal)
 2. Create an Azure Databricks workspace from [Azure portal](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal#create-an-azure-databricks-workspace)
