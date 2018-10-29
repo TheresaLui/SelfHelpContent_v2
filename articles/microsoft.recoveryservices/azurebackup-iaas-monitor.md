@@ -17,12 +17,9 @@
 
 ## **Recommended steps**
 
-**Note 1:** Certain customers may be unable to download Azure Backup App due to certain issues in Power BI Service. We are fixing the issue, and the App can be downloaded again after 29th October, 2018.
+**Note:** Starting 1st November, 2018, some customers may see issues in loading the data in Azure Backup App in Power BI, saying “We found extra characters at the end of JSON input. The exception was raised by the IDataReader interface.”
 
-**Note 2:** Starting 1st November, 2018, some customers may see issues in loading the data in Azure Backup App in Power BI, saying “We found extra characters at the end of JSON input. The exception was raised by the IDataReader interface.”
-This is due to a change in the format in which data is loaded into the storage account.
-In order to fix the issue, please upgrade the App to the latest version, which will be available on 29th October, 2018
-
+This is due to a change in the format in which data is loaded into the storage account. In order to fix the issue, please upgrade the App to the latest version.
 
 Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
 
