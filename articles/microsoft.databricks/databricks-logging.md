@@ -16,7 +16,9 @@
 
 ## **Recommended steps**
 
-- You can find Driver logs and Event logs in the cluster settings page. You can find Executor logs in the Spark UI.
+- You can [find Driver logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#driver-logs) for exception stack traces and DStream DAG prints.
+- You can find [Event logs](https://docs.databricks.com/user-guide/clusters/event-log.html#event-log) in the cluster settings page to understand cluster lifecycle events.
+- You can find [Executor logs](https://docs.databricks.com/spark/latest/rdd-streaming/debugging-streaming-applications.html#executor-logs) in the Spark UI to help diagnose why a certain task may be misbehaving.
 
 ## **Recommended documents**
 
