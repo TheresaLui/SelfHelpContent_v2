@@ -20,4 +20,4 @@
 3. Use [Security group view](data-blade:microsoft_azure_network.networkwatchersecuritygroupviewblade.id.$subscriptionId) to see NSGs and rules associated at a NIC and subnet level for VM<br>
 
 ## **Recommended documents**
-[Understand outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
+* [Understand outbound connections in Azure](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections)
