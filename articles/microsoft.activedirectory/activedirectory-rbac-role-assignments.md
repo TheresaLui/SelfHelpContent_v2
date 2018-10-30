@@ -19,6 +19,6 @@
 
 ## **Recommended steps**
 
-**Unable to create a role assignment - "No more role assignments can be created" error?**
+**Error: No more role assignments can be created**
 
 Azure supports up to 2000 role assignments per subscription. One way to address this issue is to reduce the number of role assignments by assigning roles to groups. [Learn more](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
