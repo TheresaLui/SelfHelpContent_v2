@@ -38,6 +38,7 @@ The data explorer uses the SDK that corresponds to each Azure Cosmos DB API acco
 
 Delete the documents created through SQL API from the Mongo Collection using Document Studio. Using MongoDB SDK to perform CRUD operations against Azure Cosmos DB MongoDB API account would help you to resolve this issue. 
 
+Please open a support ticket including the activity ID and timestamp of the request if your scenario for internal server error does not match with any of the cases mentioned above.
 
 ## **Recommended documents**
 
