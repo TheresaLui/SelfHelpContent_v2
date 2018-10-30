@@ -13,7 +13,7 @@
 />
 # Migrate data to Azure Cosmos DB Cassandra API
 
-You can migrate data to Azure Cosmos DB Cassandra API using cqlsh or Spark. Please review the document below for understanding prerequisites and plan the migration.
+Review the following document to learn how prerequisites for migration and how to migrate data.
 
 
 
