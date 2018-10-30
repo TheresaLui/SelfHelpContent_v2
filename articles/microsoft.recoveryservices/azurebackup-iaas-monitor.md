@@ -16,7 +16,12 @@
 # Azure virtual machine backup monitoring and reporting issues
 
 ## **Recommended steps**
-Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting
+
+**Note:** From 1st November, 2018, some customers may see issues in loading the data in Azure Backup App in Power BI, saying “We found extra characters at the end of JSON input. The exception was raised by the IDataReader interface.” This is due to a change in the format in which data is loaded into the storage account.
+
+Please upgrade the App to the latest version to avoid facing the issue using [link](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#view-reports-in-power-bi)<br>
+
+Try the recommended steps below to resolve common issues with Azure IaaS VM Backup monitoring and reporting:
 
 * Note that alerts are raised only for failed backups
 
@@ -28,6 +33,6 @@ Try the recommended steps below to resolve common issues with Azure IaaS VM Back
 	3. A backup job is triggered and then fails, and another backup job is in progress <br>
 	4. A scheduled backup job for a Resource Manager-enabled VM starts, but the VM no longer exists <br>
 
-##**Recommended documents**
+## **Recommended documents**
 
  [Azure virtual machine backup monitoring guide](https://azure.microsoft.com/documentation/articles/backup-azure-monitor-vms/)<br>

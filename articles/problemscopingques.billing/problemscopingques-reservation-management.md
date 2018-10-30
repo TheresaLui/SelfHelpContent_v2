@@ -48,7 +48,7 @@
                     	"text": "Type of Reservation : SUSE Linux, SQL Database, Virtual Machines RI"
                 	},
                 	{
-                    	"text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)."
+                    	"text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
                	 	}
             	]
         	}
