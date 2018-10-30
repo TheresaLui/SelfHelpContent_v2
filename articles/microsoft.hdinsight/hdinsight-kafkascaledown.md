@@ -22,20 +22,16 @@ On <!--$TimeStamp-->[TimeStamp]<!--/$TimeStamp--> an operation to scale down the
 failed as scaling down of disks or nodes is not supported for HDInsight Kafka clusters.
 <!--/issueDescription-->
 
-Apache Kafka on HDInsight is a technology used for data ingestion and retention.
-Scaling down an HDInsight Kafka cluster is not supported because the data in the nodes that are removed will be lost.
+Apache Kafka on HDInsight is a technology used for data ingestion and retention. Data is stored in each node of the cluster. Scaling down an HDInsight Kafka cluster would result in the removal of nodes from the cluster. All the data stored in the removed nodes will be lost.
 
 To prevent data loss, **scale down operations are explicitly disallowed on HDInsight Kafka clusters**.
-
-
-
 
 ## **Recommended steps**
 
 The only way to reduce the size of a cluster is to delete the existing cluster and create a new, smaller cluster.
 
-
 ## **Recommended Documents**
-[Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
 
-[Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
+* [Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
+
+* [Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
