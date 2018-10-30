@@ -36,7 +36,7 @@ The data explorer uses the SDK that corresponds to each Azure Cosmos DB API acco
 
 ## **Recommended Steps**
 
-Using MongoDB SDK to perform CRUD operations against Azure Cosmos DB MongoDB API account would help you to resolve this issue.
+You have to remove the document created through SQL API from the Mongo Collection. Using MongoDB SDK to perform CRUD operations against Azure Cosmos DB MongoDB API account would help you to resolve this issue. 
 
 
 ## **Recommended documents**
