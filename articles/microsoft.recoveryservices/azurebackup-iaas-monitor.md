@@ -33,6 +33,6 @@ Try the recommended steps below to resolve common issues with Azure IaaS VM Back
 	3. A backup job is triggered and then fails, and another backup job is in progress <br>
 	4. A scheduled backup job for a Resource Manager-enabled VM starts, but the VM no longer exists <br>
 
-##**Recommended documents**
+## **Recommended documents**
 
  [Azure virtual machine backup monitoring guide](https://azure.microsoft.com/documentation/articles/backup-azure-monitor-vms/)<br>
