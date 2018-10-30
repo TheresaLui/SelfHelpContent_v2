@@ -19,7 +19,7 @@
 
 ## **Recommended steps**
 
-**Error: Role definition limit exceeded. No more role definitions can be created**
+**Role definition limit exceeded. No more role definitions can be created**
 
 Azure supports up to 2000 custom roles in a tenant. [Learn more](https://docs.microsoft.com/azure/role-based-access-control/custom-roles)
 

@@ -14,9 +14,10 @@
 
 # Azure subscription and resource access (RBAC)
 
-This section describes common solutions related to role based access control (RBAC) for Azure resources. For common solutions related to Azure Active Directory, see the **Azure AD Roles and Administrators** section.
+This section describes common solutions related to role-based access control (RBAC) for Azure resources. For common solutions related to Azure Active Directory, see the **Azure AD Roles and Administrators** section.
 
 ## **Recommended documents**
+
 * [Getting started with access management in Azure](https://docs.microsoft.com/azure/active-directory/role-based-access-control-what-is)
 * [Use role assignments to manage access to your Azure resources](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure)
 * [Add or change Azure Administrator roles that manage subscriptions](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator) 
