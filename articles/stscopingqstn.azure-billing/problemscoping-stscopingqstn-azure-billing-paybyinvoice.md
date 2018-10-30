@@ -34,7 +34,7 @@
                     "text": "Billing address"
                 },
                 {
-                    "text": "[Account administrator's email address](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#check-the-account-administrator-of-the-subscription)"
+                    "text": "<a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#check-the-account-administrator-of-the-subscription'>Account administrator's email address</a>"
                 }
             ]
         },
