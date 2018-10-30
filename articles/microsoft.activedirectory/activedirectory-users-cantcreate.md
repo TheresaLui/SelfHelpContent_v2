@@ -15,9 +15,9 @@
 
 ## **Recommended steps**
 
-1. Ensure that you are authorized to create a new standard user. Only the Global Administrator or User Account Administrator role in Azure AD can create a new standard user. If you are not in one of these roles, ask an administrator create the new user for you or add you to one of these roles.<br>  
-2. Ensure that the user name is in a domain that is verified in your Azure AD. If you do not have any verified custom domain names in your Azure AD, you can add a with a user name in your initial domain name, which ends with *.onmicrosoft.com.<br>
-3. Ensure that the user name is in a domain that is not federated to Azure AD from your on-premises AD. Users cannot be added in the cloud with domain names that are federated with your Azure AD.<br>
+1. Ensure that you are authorized to create a new standard user. Only the Global administrator or User administrator role in Azure AD can create a new standard user. If you are not in one of these roles, ask an administrator to add you to one of these roles or to create the new user account for you.<br>  
+2. Ensure that the user name is in a domain that is verified in your Azure AD. If you do not have any verified custom domain names in your Azure AD, you can use your Azure AD initial domain, which ends with *.onmicrosoft.com.<br>
+3. Ensure that the user name is in a domain that is not federated to Azure AD from your on-premises AD. Users cannot be added in the cloud with domain names that are federated from on-premises.<br>
 4. Ensure that no other user or contact already has the user name that you want to assign to the new user. User names must be unique across Azure AD.<br>
 
 ### **Recommended tools**

@@ -16,8 +16,8 @@
 ## **Recommended steps**
 
 1. For a user whose source of authority is Windows Server AD, update [synchronized properties](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) for the user in Windows Server AD, and wait for the next synchronization cycle to complete. Then the updated properties will be visible in Azure AD.<br>
-2. Only a global administrator or user administrator of Azure AD can update most properties of a user in Azure AD. If you are not in one of these roles, you must have an administrator update the properties for you, or add you to one of these roles.<br>
-3. Only a global administrator can update authentication contact info for another user. A user can update their own authentication contact info on their [Access Panel Profile](https://account.activedirectory.windowsazure.com/r/#/profile).<br>
+2. Only a Global administrator or User administrator of Azure AD can update most properties of a user in Azure AD. If you are not in one of these roles, you must have an administrator update the properties for you or add you to one of these roles.<br>
+3. Only a Global administrator can update authentication contact info for another user. A user can update their own authentication contact info on their [Access Panel Profile](https://account.activedirectory.windowsazure.com/r/#/profile).<br>
 
 ## **Recommended documents**
 

@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authorAlias="Jeffsta-MSFT"
     authors="Jeffsta-MSFT"
-    selfHelpType="generic" 
+    selfHelpType="generic"
     supportTopicIds="32615430"
     productPesIds="16578"
     cloudEnvironments="public"
@@ -15,8 +15,8 @@
 
 ## **Recommended steps**
 
-1. For a user whose source of authority is Windows Server AD, restore the deleted user from the recycle bin in Windows Server AD, and wait for the next synchronization cycle to complete.If recycle bin is not enabled for your Windows Server AD, restore the user from backup or using adrestore.<br>
-2. For a user whose source of authority is Azure AD, you can restore a deleted user on the [deleted users](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/DeletedUsers) page of the Azure portal for up to 30 days after the user was deleted. After 30 days, or after the user is permanently deleted by an administrator, neither an administrator nor Microsoft Customer Support can restore the user. Only a global administrator or user administrator of Azure AD can restore a deleted user. If you are not in one of these roles, you must have an administrator restore the user for you, or add you to one of these roles.<br>
+1. For a user whose source of authority is Windows Server AD, restore the deleted user from the recycle bin in Windows Server AD, and wait for the next synchronization cycle to complete. If Recycle bin is not enabled for your Windows Server AD, restore the user from backup and perform an authoritative restore on the object (if all attribute values are needed) or restore using the Sysinternal's tool AdRestore.exe [according to the  documentation](https://support.microsoft.com/help/840001/how-to-restore-deleted-user-accounts-and-their-group-memberships-in-ac).
+2. For a user whose source of authority is Azure AD, you can restore a deleted user on the [deleted users](https://portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/DeletedUsers) page of the Azure portal for up to 30 days after the user was deleted. After 30 days, or after the user is permanently deleted by an administrator, neither an administrator nor Microsoft Customer Support can restore the user. Only a Global administrator or User administrator of Azure AD can restore a deleted user. If you are not in one of these roles, you must have an administrator restore the user for you, or add you to one of the required roles.<br>
 
 ### **Recommended tools**
 
