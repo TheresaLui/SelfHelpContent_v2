@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Issues with service admins or co-admins"
+    pageTitle="Issues with service admins or co admins"
     description="Azure Active Directory troubleshooting"
     infoBubbleText=""
     service="microsoft.aad"
@@ -15,8 +15,8 @@
     cloudEnvironments="public"
 />
 
-# Issues with service admins or co-admins 
+# Issues with service admins or co admins
 
 ## **Recommended documents**
 
-* [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+[Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
