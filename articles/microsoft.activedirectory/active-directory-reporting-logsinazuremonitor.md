@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-* Sign-ins are available only for Azure AD Premium-licensed tenants. It's not available for Free- or Basic-licensed tenants.
+* Sign-ins are available only for Azure AD Premium-licensed tenants. It's not available for Free- or Basic-licensed tenants.<br>
 * Audit and Sign-ins logs are only available from the time you have configured the logs to be routed through Azure Monitor Diagnostics. There's no backfilling of the logs.
 
 ### **Troubleshooting issues with sign-ins**
