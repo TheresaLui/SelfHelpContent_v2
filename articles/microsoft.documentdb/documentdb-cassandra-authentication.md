@@ -12,15 +12,15 @@
 	cloudEnvironments="public"
 />
 
-# I am getting authentication failure to my Azure Cosmos DB Cassandra collection
+# Authentication failure error when connecting to Azure Cosmos DB Cassandra collection
 
 ## **Recommended Steps**
 
-To resolve this issue, try the following methods
+To resolve this issue, try the following methods:
 
-* Validate that the connection string listed in the Cosmos DB Connection string tab of the Azure Portal matches with the string in your application.
-* Carefully review the secret key and remove any spaces at the start or at the end of the string.
-* Ensure SSL is enabled in the connection options.
+* Validate that the connection string specified in your application matches with the Azure Cosmos DB connection string retrieved from the Connection string tab of the Azure Portal.
+* Review the secret key and remove any spaces at the start or at the end of the string.
+* Ensure that SSL is enabled in the connection options.
 
 
 
