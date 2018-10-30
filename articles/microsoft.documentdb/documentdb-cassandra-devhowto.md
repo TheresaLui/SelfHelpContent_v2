@@ -13,7 +13,7 @@
 
 # How to develop applications with Azure Cosmos DB Cassandra API
 
-Cosmos DB Cassandra API offers many benefits which an existing Cassandra application can seamlessly take advantage with little modification. The Cassandra API enables you to interact with data stored in Azure Cosmos DB using the Cassandra Query Language.
+Azure Cosmos DB Cassandra API offers many benefits which an existing Cassandra application can seamlessly take advantage with little modification. The Cassandra API enables you to interact with data stored in Azure Cosmos DB using the Cassandra Query Language.
 
 ## **Recommended documents**
 * [Introduction to the Azure Cosmos DB Cassandra API](https://docs.microsoft.com/azure/cosmos-db/cassandra-introduction)
