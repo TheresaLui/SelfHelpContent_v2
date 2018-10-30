@@ -15,6 +15,5 @@
 # Azure Cosmos DB Cassandra API tools
 
 ## **Recommended documents**
-You can connect to your Azure CosmosDB Cassandra API account using cqlsh which uses the CQLv4 protocol.
+You can connect to your Azure CosmosDB Cassandra API account by using [CQL Shell](https://docs.microsoft.com/azure/cosmos-db/cassandra-support#tools) which uses the CQLv4 protocol.
 
-* [CQL Shell](https://docs.microsoft.com/azure/cosmos-db/cassandra-support#tools)
