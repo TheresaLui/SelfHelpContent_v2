@@ -6,7 +6,7 @@
     resource=""
     authors="asbh"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_70001"
+    articleId="Application_SignIn_ADSTS_Disabled_70001"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -16,7 +16,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not configured with the right Identifier URL. This will prevent any user from accessing this application.
+<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for user sign-in. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -25,9 +25,9 @@ In order to enable user sign-in for this application, please follow the steps be
 **Step2**: Navigate to Azure Active Directory, and on the list of Enterprise applications, find the application for which you want to
            enable federated single sign-on.
 
-**Step3**: Click on the application name to open it.Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Properties".
 
-**Step4**:  Under Domain and URLs section, replace the current identifier value current identifier with <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl-->.
+**Step4**: Set the value of the "Enabled for user to sign-in" property to "Yes".
 
 Your application should now be available for user sign-in.
 

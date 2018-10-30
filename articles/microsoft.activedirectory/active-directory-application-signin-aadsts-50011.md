@@ -6,7 +6,7 @@
     resource=""
     authors="asbh"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_70001"
+    articleId="Application_SignIn_ADSTS_50011"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -16,7 +16,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not configured with the right Identifier URL. This will prevent any user from accessing this application.
+Authentication request (SAML request) doesnt have the correct reply url. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -27,7 +27,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step3**: Click on the application name to open it.Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step4**:  Under Domain and URLs section, replace the current identifier value current identifier with <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl-->.
+**Step4**: Under Domain and URLs section, update or enter the Reply URL (ACS URL) in Azure AD with the correct value <!--$ReplyUrl-->ReplyUrl<!--/$ReplyUrl-->. If you don’t see a Reply URL field, pleaes check the "Show Advance URL settings" section.
 
 Your application should now be available for user sign-in.
 

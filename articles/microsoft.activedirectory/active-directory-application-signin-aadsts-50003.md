@@ -6,7 +6,7 @@
     resource=""
     authors="asbh"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_70001"
+    articleId="Application_SignIn_ADSTS_50003"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -16,7 +16,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-<!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not configured with the right Identifier URL. This will prevent any user from accessing this application.
+Application certificate is not valid. New certificate should be created or the existing certificate should be made active. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -27,7 +27,13 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step3**: Click on the application name to open it.Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step4**:  Under Domain and URLs section, replace the current identifier value current identifier with <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl-->.
+**Step4**: Click Create new certificate under the SAML signing Certificate section. Select Expiration date. Click Save.
+
+**Step5**: Select the checkbox and make new certificate active to replace the old certificate. Then please click Save at the top of the pane and accept to activate the rollover certificate..
+
+**Step6**: Under the SAML Sign-in Certificate section, click Remove to remove the Unused certificate.
+
+**Step7**: Download the new active certificate and update it in the software vendor application.
 
 Your application should now be available for user sign-in.
 
