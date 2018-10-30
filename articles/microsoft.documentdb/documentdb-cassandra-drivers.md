@@ -15,4 +15,4 @@
 # Azure Cosmos DB Cassandra API drivers
 
 ## **Recommended documents**
-Azure Cosmos DB Cassandra API Supports open source drivers listed in [Cassandra driver](https://docs.microsoft.com/azure/cosmos-db/cassandra-support#cassandra-driver).
+Azure Cosmos DB Cassandra API supports open source drivers listed in [Cassandra driver document](https://docs.microsoft.com/azure/cosmos-db/cassandra-support#cassandra-driver).
