@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1. If you see a cloud image with a single blue raindrop,  happens when partially cached version of page is being rendered in the browser.<!-- requires clarification -->  To resolve this issue, try clearing browser cache and cookies, then refresh the page.
+1. If you see a cloud image with a single blue raindrop, this happens when partially cached version of page is being rendered in the browser. To resolve this issue, try clearing browser cache and cookies, then refresh the page.
 
 1. If that didn't resolve the issue, try restarting the browser.
 
