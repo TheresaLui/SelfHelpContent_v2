@@ -14,7 +14,7 @@
 
 # End users cannot locate a pending review in the access panel.
 
-In most cases end users will find a review pending their response in the [Access Panel](https://myapps.microsoft.com/). This is only applicable to reviews of Groups and Applications, not Roles. For all Access Reviews of roles end users must navigate to PIM to complete their review.
+In most cases end users will find a review pending their response in the [Access Panel](https://myapps.microsoft.com/). This is only applicable to reviews of Groups and Applications, not Roles. For all Access Reviews of roles, end users must navigate to Azure AD Privileged Identity Management (PIM) to complete their review.
 
 ## **Recommended steps**
 
