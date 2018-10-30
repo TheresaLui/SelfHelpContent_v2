@@ -1,9 +1,11 @@
 <properties 
     pageTitle="I should have received an E-mail for an alert that fired"
     description="General troubleshooting guide for missing e-mail from alerts."
+    infoBubbleText="Some suggestions have been found to help solve your missing e-mail issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    articleId="insights_missingemail"
     displayOrder="5"
     selfHelpType="resource"
     cloudEnvironments="public"
@@ -18,8 +20,7 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 2. The e-mail server SPAM/quarantine settings (Exchange, O365, G Suite)
 3. Any e-mail security appliances (Barracuda, Cisco)
 4. If the e-mail is a distribution list, make sure it can receive external e-mails
-5. Look for any unsubscribe e-mail notifications
-  * If this goes to a distribution list ask your colleagues with access to check as well
+5. Look for any unsubscribe e-mail notifications, check with colleagues if the e-mail is a distribution list
 
 ## **Recommended documents**
 ### E-Mail Client
@@ -35,5 +36,5 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 [G Suite Groups External Members](https://support.google.com/a/answer/167097)<br>
 ### Security Appliance
 [Barracuda Whitelist Settings](https://campus.barracuda.com/product/websecurityservice/doc/6553671/whitelist-and-blacklist-rules/)<br>
-[Cisco Whitelist Settings](https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118585-qa-esa-00.html)<br>
+[Cisco Whitelist Settings](https://www.cisco.com/c/en/us/support/docs/security/email-security-appliance/118585-qa-esa-00.html)
 
