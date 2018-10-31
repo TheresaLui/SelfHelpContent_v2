@@ -18,11 +18,7 @@
 
 To resolve common issues that can lead to 403/429 errors for your Cognitive Services API calls, please follow these options:
 
-1. Check the API request status code description.
-
-    Error code 403: Out of call volume quota. Upgrade to a higher pricing tier or wait for your quota to be replenished in the next billing cycle.
-
-    Error code 429: Rate limit is exceeded. Try again or upgrade to a higher pricing tier with higher rate limit.
+1. The 403/429 error codes means your quota is exceeded, in order to resolve this issue, our recommendation is to upgrade to higher pricing tier or wait for the quota period to elapse.
 
 2. Review the specific API documentation to find more details on specific error codes.
 
