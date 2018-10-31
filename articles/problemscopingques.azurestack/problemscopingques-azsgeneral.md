@@ -84,13 +84,13 @@
             "displayLabel": "Region Name",
             "required": false,
             "hints": [{
-                    "text": "If you have more than one Azure Stack environment, Ex: <region> from https://adminportal.<region>.<FQDN>"
+                    "text": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
                 }]
         },{
             "id": "initial_data_collection",
             "order": 4,
             "controlType": "infoblock",
-            "content": "To help the support agent identify your issue, please run Test-AzureStack and collect Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>"
+            "content": "To help the support agent identify your issue, please run Test-AzureStack and collect Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>"
         }
     ]
 }
