@@ -3,7 +3,7 @@
     description="Additional details for on-premises Azure Stack issue"
     authors="alexsmithMSFT"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds=""
+    supportTopicIds="32567908,32567920,32567910,32591348,32567913,32567919,32567961,32567916,32567929,32567930"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
