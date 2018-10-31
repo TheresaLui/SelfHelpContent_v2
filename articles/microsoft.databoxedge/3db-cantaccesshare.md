@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can’t access my shares."
 	description="I can’t access my shares."
-	service="microsoft.databoxedge"
+	service="Microsoft.DataBoxEdge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	displayOrder="3"

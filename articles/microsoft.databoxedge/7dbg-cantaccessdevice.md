@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can’t access my device in File Explorer."
 	description="I can’t access my device in File Explorer."
-	service="microsoft.databoxedge"
+	service="Microsoft.DataBoxEdge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	displayOrder="7"

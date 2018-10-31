@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can't create a Data Box Edge resource."
 	description="I can't create a Data Box Edge resource."
-	service="microsoft.databoxedge"
+	service="Microsoft.DataBoxEdge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	displayOrder="1"
