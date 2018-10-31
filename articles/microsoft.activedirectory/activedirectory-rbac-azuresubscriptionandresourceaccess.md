@@ -14,7 +14,7 @@
 
 # Azure subscription and resource access (RBAC)
 
-Choose the **RBAC** problem type for common solutions related to managing access control for Azure resources. For common solutions related to Azure Active Directory, see the **Azure AD Roles and Administrators** problem type.
+Choose the **RBAC** problem type for issues related to managing access control for Azure resources. For issues related to Azure Active Directory, see the **Azure AD Roles and Administrators** problem type.
 
 ## **Recommended documents**
 

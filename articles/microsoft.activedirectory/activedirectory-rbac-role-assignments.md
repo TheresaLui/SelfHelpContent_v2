@@ -17,7 +17,7 @@
 
 # Problems with RBAC role assignments
 
-Choose this category for problems related to creating, reading, updating, or deleting role assignments in Azure RBAC.
+Choose this category for issues related to creating, reading, updating, or deleting role assignments in Azure RBAC.
 
 **No more role assignments can be created**
 

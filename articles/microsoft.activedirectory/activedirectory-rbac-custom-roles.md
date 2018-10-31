@@ -17,7 +17,7 @@
 
 # Problems with custom roles 
 
-Choose this category for problems related to creating, reading, updating, or deleting custom roles in Azure RBAC.
+Choose this category for issues related to creating, reading, updating, or deleting custom roles in Azure RBAC.
 
 **Role definition limit exceeded. No more role definitions can be created**
 
