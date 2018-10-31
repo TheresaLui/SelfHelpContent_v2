@@ -15,5 +15,5 @@
 # General Guidance or Advisory
 
 ## **Recommended documents**
-[Azure Front Door Service Documentation](https://docs.microsoft.com/azure/frontdoor/)<br>
-[Overview Page](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)<br>
+* [Azure Front Door Service Documentation](https://docs.microsoft.com/azure/frontdoor/)<br>
+* [Overview Page](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)<br>

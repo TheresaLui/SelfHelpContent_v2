@@ -15,5 +15,5 @@
 # Configure custom domains
 
 ## **Recommended documents**
-Tutorial for [Adding a custom domain to your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)<br>
+* Tutorial for [Adding a custom domain to your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)<br>
 

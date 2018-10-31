@@ -12,8 +12,5 @@
     cloudEnvironments="public"
 />
 
-# Failover performance
- All Front Door configurations include monitoring of backend health and automated instant global failover.
-
 ## **Recommended documents**
- Front Door provides a range of [Traffic-routing methods](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods) and [Backend health monitoring](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-health-probes) options to suit different application needs and automatic failover models. Similar to [Traffic Manager](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview), Front Door is resilient to failures, including the failure of an entire Azure region.
+ * Front Door provides a range of [Traffic-routing methods](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods) and [Backend health monitoring](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-health-probes) options to suit different application needs and automatic failover models. Similar to [Traffic Manager](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview), Front Door is resilient to failures, including the failure of an entire Azure region.

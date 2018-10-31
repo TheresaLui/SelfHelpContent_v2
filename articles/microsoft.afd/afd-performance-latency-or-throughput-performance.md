@@ -15,4 +15,4 @@
 # Latency or throughput performance
 
 ## **Recommended documents**
-[Lowest latencies based on traffic-routing](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods#a-name--latencyalowest-latencies-based-traffic-routing)<br>
+* [Lowest latencies based on traffic-routing](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods#a-name--latencyalowest-latencies-based-traffic-routing)<br>

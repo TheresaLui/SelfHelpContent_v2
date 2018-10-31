@@ -15,4 +15,4 @@
 # Session Affinity
 
 ## **Recommended documents**
-Learn more about [Session Affinity](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods)<br>
+* Learn more about [Session Affinity](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods)<br>
