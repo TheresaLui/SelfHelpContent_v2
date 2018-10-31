@@ -7,6 +7,7 @@
     authors="jaredro"
     displayOrder=""
     articleId="ExRMseeBaseConfigDummyL2TunnelUdpPortFoundInsight"
+    diagnosticScenario="ExRMseeBaseConfigDummyL2TunnelUdpPortFoundInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
