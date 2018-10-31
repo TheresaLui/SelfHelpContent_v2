@@ -13,7 +13,14 @@
 />
 
 # I can't create a Data Box Edge resource.
-If you can't create an Azure Resource Manager (ARM) resource to manage Data Box Edge, do the following.
 
 ## **Recommended steps**
-You've to [sign-up](https://aka.ms/databox-edge) for the Data Box Edge. A device will be allocated after approval. If you've already signed up for a device, wait till your request get approved. Once the device is ready for allocation product team will reach out to you via the email used for sign up.
+If you can't create a Data Box Edge resource, do the following:
+1. Use your Microsoft Azure credentials to log into Azure preview portal at this URL: [https://aka.ms/databox-edge](https://aka.ms/databox-edge).
+2. Pick the subscription that you want to use for Data Box Edge preview. 
+3. Select the region where you want to deploy the Data Box Edge resource. In the Data Box Edge option, click **Create**. If you do not see the region where you want to deploy the service, **Submit a request**.
+3. Create the resource for Data Box Edge. Once approved, a device is allocated.
+4. If you've already created, wait until your request is approved. Once the device is ready for allocation, Microsoft contacts you via the email used for sign up.
+
+## **Recommended documents**
+[Create a new Data Box Edge resource](https://docs.microsoft.com/azure/databox-online/data-box-edge-deploy-prep#create-a-new-resource)<br>
