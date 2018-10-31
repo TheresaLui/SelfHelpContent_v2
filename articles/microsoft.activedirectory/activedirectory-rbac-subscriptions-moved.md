@@ -17,8 +17,6 @@
 
 # Recover RBAC when subscriptions are moved across tenants
 
-Choose this category for problems related to RBAC when transferring a subscription to a different tenant.
-
-**Problems with role assignments after transferring a subscription to a different tenant**
+**Issues with role assignments after transferring a subscription to a different tenant**
 
 If you transfer a subscription to a new Azure AD tenant, all role assignments in RBAC are permanently deleted from the source tenant and are not migrated to the target tenant. You must re-create the role assignments in the target tenant. [Learn more](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
