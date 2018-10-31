@@ -31,4 +31,4 @@ If the storage account uses the Classic deployment model, you can remove the vir
 
 ## **Recommended documents**
 
-* [I'm having problems deleting classic storage account](https://docs.azure.cn/storage/common/storage-resource-manager-cannot-delete-storage-account-container-vhd)
+* [I'm having problems deleting classic storage account](https://docs.azure.cn/zh-cn/storage/blobs/storage-troubleshoot-vhds)
