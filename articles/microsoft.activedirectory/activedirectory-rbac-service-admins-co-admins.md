@@ -17,6 +17,6 @@
 
 # Issues with service admins or co-admins
 
-## **Recommended documents**
+Choose this category for problems related to updating the classic Service Administrator or Co-Administrator roles for a subscription.
 
 * [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
