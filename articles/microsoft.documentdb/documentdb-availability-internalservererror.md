@@ -21,7 +21,7 @@ You can use the Azure Portal or C# console application to modify the scale setti
 
 ### 1. Change the Scale setting using Azure Portal
 
-1. Browse to Azure Portal 
+1. Browse to [Azure Portal](https://ms.portal.azure.com) 
 2. Add “?feature.enableSettingsBlade=true” at the end of the URL and click enter
 3. Browse to the Azure Cosmos DB account and choose Scale blade
 4. Update the throughput value and save
@@ -30,7 +30,7 @@ You can use the Azure Portal or C# console application to modify the scale setti
 
 [Change the scale setting using this sample code](https://github.com/Azure/azure-documentdb-dotnet/blob/95521ff51ade486bb899d6913880995beaff58ce/samples/code-samples/CollectionManagement/Program.cs#L198)
 
-## I am getting an internal server error when using Azure Cosmos DB data explorer
+## I am getting an internal server error when using Azure Cosmos DB Data Explorer
 
 The Data Explorer uses the SDK that corresponds to each Azure Cosmos DB API account to access the data from the Azure Cosmos DB. Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against MongoDB API account would not generate any error. However, this would make the data explorer produce an internal server error when reading the data due to a mismatch in the data formats.
 
