@@ -22,10 +22,11 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended steps**
 
-1. Errors like the above are transient in nature and your database server will come back online automatically. If you have not yet, please try to re-connect to your server.
-2. Because the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement re-try logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-high-availability) for more details.
+1. Errors like the above are transient in nature and your database server will come back online automatically. Please try to reconnect to your server to see if the server is back online.
+2. As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-high-availability) for more details.
 
 ## **Recommended documents**
 
 [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
+
 [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)

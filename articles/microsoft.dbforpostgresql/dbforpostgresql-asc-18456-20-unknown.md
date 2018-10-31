@@ -22,9 +22,10 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended steps**
 
-Because the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement re-try logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-high-availability) for more details.
+As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-high-availability) for more details.
 
 ## **Recommended documents**
 
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
+
 [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)

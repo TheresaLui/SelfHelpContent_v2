@@ -14,6 +14,7 @@
 	productPesIds="16221"
 	cloudEnvironments="public"
 />
+
 # Can't connect MySQL database server because IP address is not configured in firewall
 
 <!--issueDescription-->
@@ -27,4 +28,5 @@ To fix this issue please ensure your client IP address is configured in the fire
 ## **Recommended documents**
 
 [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
+
 [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)
