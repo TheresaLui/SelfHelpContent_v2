@@ -17,6 +17,7 @@
 
 ## **Recommended steps**
 If you can't access your device in File Explorer, do the following.
+
 1. In the Azure portal, check if your device shows offline.
 2. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
 3. If accessing your device via the IP, check if you have used DHCP instead of a static IP. Your IP may have changed.

@@ -16,6 +16,7 @@
 
 ## **Recommended steps**
 If you can't create a Data Box Edge resource, do the following:
+
 1. Use your Microsoft Azure credentials to log into Azure preview portal at this URL: [https://aka.ms/databox-edge](https://aka.ms/databox-edge).
 2. Pick the subscription that you want to use for Data Box Edge preview. 
 3. Select the region where you want to deploy the Data Box Edge resource. In the Data Box Edge option, click **Create**. If you do not see the region where you want to deploy the service, **Submit a request**.

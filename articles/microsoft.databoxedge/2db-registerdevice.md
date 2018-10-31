@@ -16,7 +16,9 @@
 
 ## **Recommended steps**
 If your activation fails, this may be due to one of the following reasons:
+
 * Your activation key may be incorrect.
+
  * Verify that you are using the activation key for the respective solutions. A Data Box Edge device only works with an activation key corresponding to a Data Box Edge resource. The same is true for Data Box Gateway.
  * To get the activation key, go to **Overview** for your Data Box Edge resource in the Azure portal.
 * Your device time may be out of sync. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.

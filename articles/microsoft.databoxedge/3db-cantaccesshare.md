@@ -17,6 +17,7 @@
 
 ## **Recommended steps**
 If you are facing share access issues, do the following.
+
 1. From the Azure portal of your device,  go to **Monitoring** > **Device events**. Check the reported events. Resolve the reported issues.
 2. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
 3. Storage account is deleted. Ensure that the storage account still exists and the associated credentials are correct.
