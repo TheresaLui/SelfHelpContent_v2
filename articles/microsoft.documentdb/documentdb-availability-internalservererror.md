@@ -19,14 +19,14 @@ cloudEnvironments="public"/>
 
 You can use the Azure Portal or C# console application to modify the scale setting using following the steps:
 
-### Change the Scale setting using Azure Portal
+### **Change the Scale setting using Azure Portal
 
 1. Browse to Azure Portal 
 2. Add “?feature.enableSettingsBlade=true” at the end of the URL and click enter
 3. Browse to the Azure Cosmos DB account and choose Scale blade
 4. Update the throughput value and save
 
-### Change the Scale setting using a C# console application
+### **Change the Scale setting using a C# console application
 
 [Change the scale setting using this sample code](https://github.com/Azure/azure-documentdb-dotnet/blob/95521ff51ade486bb899d6913880995beaff58ce/samples/code-samples/CollectionManagement/Program.cs#L198)
 
