@@ -33,5 +33,4 @@ The only way to reduce the size of a cluster is to delete the existing cluster a
 ## **Recommended Documents**
 
 * [Getting started with HDInsight Kafka Cluster](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
-
 * [Storage and Scalability for Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-scalability)
