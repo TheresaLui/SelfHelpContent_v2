@@ -17,7 +17,7 @@ cloudEnvironments="public"
 # Upgrade scenario not supported for storage account type
 
 <!--issueDescription-->
-Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account which does not support all object types. To use other storage services, please create:
+Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** is a **<!--$ResourceKind-->[ResourceKind]<!--/$ResourceKind-->** account which only supports <!--$SupportedServices-->[SupportedServices]<!--/$SupportedServices-->. To use other storage services, please create:
 
 1. [File Storage account](https://azure.microsoft.com/blog/premium-files-pushes-azure-files-limits-by-100x/) for premium files data
 2. [Block Blob account]( https://azure.microsoft.com/blog/introducing-azure-premium-blob-storage-limited-public-preview/) for premium block and append blob data
