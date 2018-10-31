@@ -23,4 +23,5 @@ Low-priority virtual machines take advantage of surplus capacity in Azure to run
 Before you decide to use low-priority virtual machines for your scenario, make sure that any work lost due to preemption will be minimal and easy to recreate.
 
 ## Recommended steps
-* **Learn more about use cases for low-priority virtual machines**: please refer to the following article: [use low-priority VMs with Batch](https://docs.microsoft.com/en-us/azure/batch/batch-low-pri-vms).
+
+* **Learn more about use cases for low-priority virtual machines**: please refer to the following article: [use low-priority VMs with Batch](https://docs.microsoft.com/azure/batch/batch-low-pri-vms).
