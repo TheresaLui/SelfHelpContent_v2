@@ -51,6 +51,9 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1807 if your build number is 1.1807.0.76.",
             "dropdownOptions": [{
+                    "value": "1810",
+                    "text": "1810"
+                },{
                     "value": "1809",
                     "text": "1809"
                 },{
@@ -84,7 +87,7 @@
                     "text": "If you have more than one Azure Stack environment, Ex: <region> from https://adminportal.<region>.<FQDN>"
                 }]
         },{
-            "id": "learn_more_text",
+            "id": "initial_data_collection",
             "order": 4,
             "controlType": "infoblock",
             "content": "To help the support agent identify your issue, please run Test-AzureStack and collect Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>"
