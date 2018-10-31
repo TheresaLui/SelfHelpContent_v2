@@ -14,7 +14,7 @@
 
 # Introduction to Azure Cosmos DB Indexing
 
-Azure Cosmos DB will automatically creates indexes on all properties and no index management is needed.  Please refer to below documents for a complete reference to Azure Cosmos DB Indexing policy.
+Azure Cosmos DB will automatically create indexes on all properties and no index management is needed.  Please refer to below documents for a complete reference to Azure Cosmos DB Indexing policy.
 
 ## **Recommended documents**
 
