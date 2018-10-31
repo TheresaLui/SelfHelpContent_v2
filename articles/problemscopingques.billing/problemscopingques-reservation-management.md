@@ -7,6 +7,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4353"
 />
 
 
@@ -34,7 +35,23 @@
 				}
 				],
 			"required": true
-		}
+		},
+		{
+            	"id": "problem_description",
+            	"order": 2,
+            	"controlType": "multilinetextbox",
+            	"displayLabel": "Additional details",
+            	"watermarkText": "Provide additional information about your issue",
+            	"required": true,
+            	"hints": [
+                	{
+                    	"text": "Type of Reservation : SUSE Linux, SQL Database, Virtual Machines RI"
+                	},
+                	{
+                    	"text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+               	 	}
+            	]
+        	}
 	]
 }
 ---
