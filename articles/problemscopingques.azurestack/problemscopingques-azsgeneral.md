@@ -93,7 +93,7 @@
             "controlType": "MultiLineTextBox",
             "displayLabel": "Problem Details",
             "watermarkText": "Briefly describe your problem",
-            "required": false,
+            "required": true,
             "hints": [{
                     "text": "Briefly describe your problem"
                 }]
