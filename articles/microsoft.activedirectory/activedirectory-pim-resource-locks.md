@@ -14,7 +14,7 @@
 
 # Unable to activate roles due to Azure resource locks
 
-Your Azure resources may be protected from accidental deletion with a policy that prohibits users from performing the delete action. If a policy is applied to a resource that prevents delete, it also prevents deleteion of role assignments in that resource. Privileged Identity Management is designed to provide zero-standing admin access and with delete locks enabled PIM is unable to remove role assignments at the end of the activation period. Since PIM is unable to funtion properly when a resource lock is applied, PIM prohibits users from activating roles until the delete lock is removed from the resource.
+Your Azure resources may be protected from accidental deletion with a policy that prohibits users from performing the delete action. If a policy is applied to a resource that prevents delete, it also prevents deletion of role assignments in that resource. Privileged Identity Management (PIM) is designed to provide zero-standing admin access and with delete locks enabled PIM is unable to remove role assignments at the end of the activation period. Since PIM is unable to function properly when a resource lock is applied, PIM prohibits users from activating roles until the delete lock is removed from the resource.
 
 ## **Recommended steps**
 
@@ -32,7 +32,7 @@ After activating a role in Azure AD PIM, it takes at least ten minutes before yo
 ## **Recommended steps**
 
 
-1. Use the Application access tab in the left navigation menu to access the specific workload. From the Activate blade, back up to the primary PIM blade where you can see the left navigation menu. In the Tasks section, locate and select the Application access tab. Once the page loads choose either the Azure AD administration portal or Azure resource portal. Using these links will invalidate your current token, forcing the client to obtain a new token that should contian your updated permissions.
+Use the Application access tab in the left navigation menu to access the specific workload. From the Activate blade, back up to the primary PIM blade where you can see the left navigation menu. In the Tasks section, locate and select the Application access tab. Once the page loads choose either the Azure AD administration portal or Azure resource portal. Using these links will invalidate your current token, forcing the client to obtain a new token that should contian your updated permissions.
 
 
 ## **Recommended documents**
