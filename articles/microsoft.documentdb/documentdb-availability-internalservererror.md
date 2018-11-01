@@ -13,7 +13,7 @@ cloudEnvironments="public"/>
 
 # Getting internal server error
 
-## I am getting an internal server error when changing the scale setting in Azure Portal
+## I am getting an internal server error when changing the Scale setting in Azure Portal
 
 ## **Recommended Steps**
 
