@@ -3,7 +3,7 @@
     description="Additional details for on-premises Azure Stack issue"
     authors="alexsmithMSFT"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32567908,32567920,32567910,32591348,32567913,32567919,32567961,32567916,32567929,32567930"
+    supportTopicIds="32567908,32567920"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -82,13 +82,24 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Region Name",
+            "watermarkText": "Name of your Azure Stack region",
             "required": false,
             "hints": [{
                     "text": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
                 }]
         },{
-            "id": "initial_data_collection",
+            "id": "problem_details",
             "order": 4,
+            "controlType": "MultiLineTextBox",
+            "displayLabel": "Problem Details",
+            "watermarkText": "Briefly describe your problem",
+            "required": false,
+            "hints": [{
+                    "text": "Briefly describe your problem"
+                }]
+        },{
+            "id": "initial_data_collection",
+            "order": 5,
             "controlType": "infoblock",
             "content": "To help the support agent identify your issue, please run Test-AzureStack and collect Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>"
         }
