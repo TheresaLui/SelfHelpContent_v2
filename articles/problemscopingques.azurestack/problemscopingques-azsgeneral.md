@@ -7,6 +7,7 @@
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
+    articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
 />
 # Azure Stack Environment Details
 ---
