@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="How to Configure Immutable Blob Storage"
-	description="How to Configure Immutable Blob Storage"
+	pageTitle="How to configure Immutable Blob Storage"
+	description="How to configure Immutable Blob Storage"
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
@@ -12,12 +12,12 @@
 	cloudEnvironments="public,MoonCake"
 />
 
-# How to Configure Immutable Blob Storage
+# How to configure Immutable Blob Storage
 
 ## **Recommended documents**
 
 - [Overview of immutable blob storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#overview)<br>
 - [Client libraries for immutable blob storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#client-libraries)<br>
-- [Azure CLI for for immutable blob storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#azure-cli)<br>
+- [Azure CLI for immutable blob storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#azure-cli)<br>
 - [PowerShell for immutable blob storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#powershell)
 

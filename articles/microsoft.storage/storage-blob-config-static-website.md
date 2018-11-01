@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="How to Configure a Static Website"
-	description="How to Configure a Static Website"
+	pageTitle="How to configure a Static Website"
+	description="How to configure a Static Website"
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
@@ -12,7 +12,7 @@
 	cloudEnvironments="public,MoonCake"
 />
 
-# How to Configure a Static Website
+# How to configure a Static Website
 
 ## **Recommended documents**
 

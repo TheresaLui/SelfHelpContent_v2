@@ -13,7 +13,7 @@
 />
 
 # Change to ZRS replication type
-Changing redundancy type to ZRS involves the physical data movement from a single storage stamp to multiple stamps within a region. For the list of regions where ZRS is available see the following [article](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability). You have two primary options for converting to ZRS. You can manually copy or move data to a new ZRS account from your existing account. You can also request a live migration.
+Changing redundancy type to zone-redundant storage (ZRS) involves the physical data movement from a single storage stamp to multiple stamps within a region. For the list of regions where ZRS is available see the following [article](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs#support-coverage-and-regional-availability). You have two primary options for converting to ZRS. You can manually copy or move data to a new ZRS account from your existing account. You can also request a live migration.
 
 ## **Recommended steps**
 Consider the following prior to submitting a request for live migration to ZRS:
