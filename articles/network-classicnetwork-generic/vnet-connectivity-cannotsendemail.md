@@ -15,5 +15,4 @@
 # connectivity/cannotsendemail
 
 ## **Recommended documents**
-
-[Limitations & recommendations for sending outbound email over port 25](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/)<br>
+* [Limitations & recommendations for sending outbound email over port 25](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/)<br>
