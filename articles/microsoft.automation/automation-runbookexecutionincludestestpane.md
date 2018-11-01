@@ -6,7 +6,7 @@
     authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599860,32599877,32599923"
+    supportTopicIds="32599860,32599923"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -20,4 +20,5 @@
 [Troubleshoot runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
 [Troubleshoot runbooks in hybrid runbook workers](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)<br>
 [Add runbook output to help troubleshoot](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages)<br>
+<br>
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

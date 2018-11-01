@@ -4,11 +4,11 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
-	displayOrder="92"
+	displayOrder="95"
 	selfHelpType="resource"
 	supportTopicIds="32597560"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # Azure Cosmos DB ODBC Connector
