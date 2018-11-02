@@ -31,7 +31,7 @@ Ambari server running on the headnodehost can receive heartbeats from all machin
 
 * Connect to Ambari service using Secure Shell (SSH). 
 	
-	**<clustername\>-ssh.azurehdinsight.net**
+	**ssh <clustername\>-ssh.azurehdinsight.net**
 
 * Open host file /etc/host on one of the headnodes using Vi
 	
