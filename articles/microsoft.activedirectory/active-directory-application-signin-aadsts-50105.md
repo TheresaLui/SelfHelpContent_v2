@@ -7,6 +7,7 @@
     authors="asbh"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_50105"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -32,7 +33,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 Azure AD is signing the user to another instance of the application. It happens because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
 
-**Step1**: Get a SAML request from the application, and copy the value of the \"Issuer\" property. To get a SAML request, and find the value of the \"Issuer\" property, please follow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/AppSAMLDebugDoc-->
+**Step1**: Get a SAML request from the application, and copy the value of the \"Issuer\" property. To get a SAML request, and find the value of the \"Issuer\" property, please follow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
 **Step2**: Sign-in to Azure Portal as a global administrator or another role that is able to manage this application.
 
@@ -43,7 +44,7 @@ Azure AD is signing the user to another instance of the application. It happens 
 
 **Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID)'. Please check if the 'Issuer' value matches the 'Identifier (Entity ID)' configured for that instance.
 
-If it matches, you can do one of the below : 
+If it matches, you can do one of the below:
 				
     **StepA**: Use the current application to enable single sign-on and assign the users or groups
 	**StepB**: Update the configuration on the software vendor to provide a different identifier. Use this value as the 'Identifier (Entity ID)' to enable single sign-on with the application you were configuring at first.

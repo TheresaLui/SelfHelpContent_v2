@@ -7,6 +7,7 @@
     authors="asbh"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_75005"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
