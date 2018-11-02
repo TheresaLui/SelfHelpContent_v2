@@ -44,11 +44,11 @@ If you have already assigned the user to the application but the problem continu
 **Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID)'. Please check if the 'Issuer' value matches the 'Identifier (Entity ID)' configured for that instance.
 
 If it matches, you can do one of the below:
-				
      **StepA**: Use the current application to enable single sign-on and assign the users or groups
 	 **StepB**: Update the configuration on the software vendor to provide a different identifier. Use this value as the 'Identifier (Entity ID)' to enable single sign-on with the application you were configuring at first.
 
-Your application should now be available for user sign-in.		
+Your application should now be available for user sign-in.
+		
 For future sign-in problems with SAML based applications, we recommend using the testing feature with My Apps secure Sign-in Extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
 For more information on common application-related issues, please refer to the following document: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
