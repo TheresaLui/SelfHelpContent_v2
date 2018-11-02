@@ -14,8 +14,8 @@
 
 # I am getting heart beat alert emails
 
-
 ## **Recommended steps**
+
 If you are receiving heart beat alerts, this may be because your device has Internet connectivity issues.
 
 * The Internet connectivity is broken. Check your internet connection. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
@@ -23,4 +23,5 @@ If you are receiving heart beat alerts, this may be because your device has Inte
 * If you've installed a device update. Your device could have rebooted due to an update. Wait a few minutes and try to reconnect.
 
 ## **Recommended documents**
-[Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)<br>
+
+* [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)

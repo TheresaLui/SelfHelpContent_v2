@@ -12,10 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# I can’t access my shares.
-
+# I can’t access my shares
 
 ## **Recommended steps**
+
 If you are facing share access issues, do the following.
 
 1. From the Azure portal of your device,  go to **Monitoring** > **Device events**. Check the reported events. Resolve the reported issues.
@@ -27,4 +27,5 @@ If you are facing share access issues, do the following.
 7. Check if there was some network latency introduced to the Azure by contacting your local network administrator.
 
 ## **Recommended documents**
-[Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)<br>
+
+* [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)

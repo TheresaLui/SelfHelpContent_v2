@@ -14,8 +14,8 @@
 
 # I can’t access my device in File Explorer.
 
-
 ## **Recommended steps**
+
 If you can't access your device in File Explorer, do the following.
 
 1. In the Azure portal, check if your device shows offline.
@@ -24,4 +24,5 @@ If you can't access your device in File Explorer, do the following.
 4. Check the Hyper-V or ESX host for your VM to make sure that the VM is turned on and running.
 
 ## **Recommended documents**
-[Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)<br>
+
+* [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)

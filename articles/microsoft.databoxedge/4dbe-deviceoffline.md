@@ -12,10 +12,10 @@
 	cloudEnvironments="public"
 />
 
-# My device appears offline in the portal.
-
+# My device appears offline in the portal
 
 ## **Recommended steps**
+
 If your device is offline, this could be due to one of the following reasons:
 
 * Your device time may be out of sync with the Internet time. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
@@ -23,4 +23,5 @@ If your device is offline, this could be due to one of the following reasons:
 * Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your device](https://aka.ms/dbe-device-local-mgmt).
 
 ## **Recommended documents**
-[Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)<br>
+
+* [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)
