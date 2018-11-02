@@ -25,13 +25,13 @@ All Ambari agents in the cluster will send heartbeats to only one headnode which
 
 **headnodehost** is the default headnode on which ambari server is started.
 
-This is the reason why the Ambari server running on the headnodehost can receive heartbeats from all machines and display the corresponding metrics correctly while the Ambari server running on the other headnode cannot receive those metrics.
+Ambari server running on the headnodehost can receive heartbeats from all machines and display the corresponding metrics correctly while the Ambari server running on the other headnode cannot receive those metrics.
 
 ## **Recommended steps**
 
 * Connect to Ambari service using Secure Shell (SSH). 
 	
-	**<clustername>-ssh.azurehdinsight.net**
+	**</clustername/>-ssh.azurehdinsight.net**
 
 * Open host file /etc/host on one of the headnodes using Vi
 	
