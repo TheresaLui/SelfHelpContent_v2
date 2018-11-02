@@ -32,9 +32,11 @@ Ambari server running on the headnodehost can receive heartbeats from all machin
 * Connect to Ambari service using Secure Shell (SSH). 
 	
 		ssh <clustername>-ssh.azurehdinsight.net
+		
 * Open host file /etc/host on one of the headnodes using Vi
 
 		vi /etc/hosts/
+		
 * Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node.
 
 * The other headnode which does not have **headnodehost** mentioned is the standby node.
@@ -42,6 +44,7 @@ Ambari server running on the headnodehost can receive heartbeats from all machin
 * Stop Ambari service on the standby node
 
 		sudo ambari-server stop
+		
 ## **Recommended Documents**
 
 * [Connect to HDInsight using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)
