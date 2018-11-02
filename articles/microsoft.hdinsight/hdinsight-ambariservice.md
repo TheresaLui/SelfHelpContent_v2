@@ -27,24 +27,22 @@ All Ambari agents in the cluster will send heartbeats to only one headnode which
 
 Ambari server running on the headnodehost can receive heartbeats from all machines and display the corresponding metrics correctly while the Ambari server running on the other headnode cannot receive those metrics.
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* Connect to Ambari service using Secure Shell (SSH). 
-	
+1. Connect to Ambari service using Secure Shell (SSH).<br>
+```	
 		ssh <clustername>-ssh.azurehdinsight.net
-		
-* Open host file /etc/host on one of the headnodes using Vi
-
+```
+2. Open host file /etc/host on one of the headnodes using Vi.<br>
+```
 		vi /etc/hosts/
-		
-* Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node.
-
-* The other headnode which does not have **headnodehost** mentioned is the standby node.
-
-* Stop Ambari service on the standby node
-
+```
+3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node. The other headnode which does not have **headnodehost** mentioned is the standby node.
+4. Stop Ambari service on the standby node.<br>
+```
 		sudo ambari-server stop
-		
+```
+
 ## **Recommended Documents**
 
 * [Connect to HDInsight using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)
