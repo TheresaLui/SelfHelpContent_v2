@@ -19,10 +19,12 @@
 This could be due to one of the following reasons:
 
 1. The host on which the Data Box Gateway is provisioned has run out of disk space. If running Hyper-V, create additional space by doing the following:
+
     1. Launch Hyper-V Manager. Go to **Tools** > **Server Manager** > **Hyper-V Manager**.
     2. From the **Virtual Machines** list, identify the Data Box Gateway in a  `Paused-Critical` state.
     3. Free up resources so that the Data Box Gateway can be booted. For example, you can free up the disk space on corresponding hard drives.
     4. Right-click each Data Box Gateway, then click **Resume**. This returns the virtual machine to a running state.
+
 2. If the Data Box Gateway has not run out of disk space, then try to turn it on.
 
 ## **Recommended documents**
