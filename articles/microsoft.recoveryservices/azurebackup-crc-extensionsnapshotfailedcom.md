@@ -7,7 +7,6 @@
 	resource="backup"
 	authors="srinathv"
 	articleId="azurebackup-crc-extensionsnapshotfailedcom"
-	diagnosticScenario="azurebackup-crc-extensionsnapshotfailedcom"
 	selfHelpType="diagnostics"
 	supportTopicIds="32553276,32553277"
 	productPesIds="15207"
@@ -15,7 +14,6 @@
 />
 
 # ExtensionSnapshotFailedCOM
-We have investigated and detected there could be an issue from Windows service **COM+ System Application** which may prevent your backup installation/operation.
 
 ## **Recommended Steps**
 To resolve this issue we recommend you to try the below steps. <br>
