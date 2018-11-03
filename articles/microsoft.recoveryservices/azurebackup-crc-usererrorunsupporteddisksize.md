@@ -16,7 +16,7 @@
 # UserErrorUnsupportedDiskSize
 
 <!--issueDescription-->
-## Backup operation was failing due to the disk size limit
+## Backup operation was failing due to the disk size limit.
 <!--/issueDescription-->
 
 ## **Recommended steps**
