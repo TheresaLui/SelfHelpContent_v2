@@ -1,6 +1,7 @@
 <properties
 	          pageTitle="usererrorunsupporteddisksize"
 	          description="usererrorunsupporteddisksize"
+		  infoBubbleText="Backup operation was failing due to the disk size limit"
 	          service="microsoft.recoveryservices"
 	          resource="backup"
 	          authors="srinathv"
