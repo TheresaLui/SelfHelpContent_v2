@@ -15,8 +15,6 @@
 />
 
 # ExtensionSnapshotFailedCOM
-
-## **Snapshot operation failed due to COM+ error**
 We have investigated and detected there could be an issue from Windows service **COM+ System Application** which may prevent your backup installation/operation.
 
 ## **Recommended Steps**
