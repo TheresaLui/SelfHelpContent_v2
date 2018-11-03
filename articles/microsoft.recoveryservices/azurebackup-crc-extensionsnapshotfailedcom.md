@@ -37,4 +37,4 @@ To resolve this issue we recommend you to try the below steps. <br>
 **Cause 2**: **Error due to IaaS VM provider Service<br>**
 If iaasvm provider service is not installed properly then you might encounter this issue. To resolve this issue set the following 2 Reg-Keys as false and trigger a backup.
 * **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgent -> IsProviderInstalled**
-* **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled**
+* **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled** 
