@@ -19,7 +19,7 @@
   "fileAttachmentHint": null,
   "formElements": [
     {
-      "id": "userNameOrId",
+      "id": "whichUser",
       "visibility": null,
       "order": 1,
       "controlType": "textbox",
@@ -30,24 +30,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-	{
-      "id": "timestamp",
-      "visibility": null,
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "Timestamp from Error message:",
-      "content": null,
-      "watermarkText": "Copy the timestamp from the error message and paste it here",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
@@ -55,7 +38,7 @@
     {
       "id": "whichApp",
       "visibility": null,
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Which application is the problem related to?",
       "content": null,
@@ -64,7 +47,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
@@ -72,7 +55,7 @@
     {
       "id": "problem",
       "visibility": null,
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What is the user or admin trying to accomplish?",
       "content": null,
@@ -81,7 +64,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
@@ -89,7 +72,7 @@
     {
       "id": "whereProblem",
       "visibility": null,
-      "order": 5,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "Where is the user or admin trying to accomplish this task?",
       "content": null,
@@ -98,7 +81,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
@@ -106,7 +89,7 @@
     {
       "id": "symptoms",
       "visibility": null,
-      "order": 6,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "What are the symptoms of the problem?",
       "content": null,
@@ -115,7 +98,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
@@ -123,7 +106,7 @@
     {
       "id": "appsProvisioningDataCollectionDocadditionalDetails",
       "visibility": null,
-      "order": 7,
+      "order": 6,
       "controlType": "multilinetextbox",
       "displayLabel": "Please provide additional details",
       "content": null,
@@ -132,7 +115,7 @@
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": null,
-      "required": false,
+      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": true,
       "numberOfLines": 0

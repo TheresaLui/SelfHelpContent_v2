@@ -16,7 +16,7 @@
   "fileAttachmentHint": null,
   "formElements": [
     {
-      "id": "adminUserNameOrId",
+      "id": "whichAdmin",
       "visibility": null,
       "order": 1,
       "controlType": "textbox",
@@ -32,8 +32,8 @@
       "useAsAdditionalDetails": true,
       "numberOfLines": 0
     },
-	{
-      "id": "userNameOrId",
+  {
+      "id": "whichUser",
       "visibility": null,
       "order": 2,
       "controlType": "textbox",
@@ -50,26 +50,9 @@
       "numberOfLines": 0
     },
     {
-      "id": "timestamp",
-      "visibility": null,
-      "order": 3,
-      "controlType": "textbox",
-      "displayLabel": "Timestamp from Error message:",
-      "content": null,
-      "watermarkText": "Copy the timestamp from the error message and paste it here",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    }
-    {
       "id": "symptomType",
       "visibility": null,
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
       "displayLabel": "What is the error that you are receiving?",
       "content": null,
@@ -82,7 +65,7 @@
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
-    }
+    },
   ]
 }
 ---
