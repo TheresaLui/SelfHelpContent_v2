@@ -4,7 +4,7 @@
 	infoBubbleText="The Restore Point collection maximum limit has reached"
 	service="microsoft.recoveryservices"
 	resource="backup"
-	authors="srinathvasireddy"
+	authors="srinathv"
 	articleId="azurebackup-crc-usererrorrpcollectionlimitreached"
 	diagnosticScenario="azurebackup-crc-usererrorrpcollectionlimitreached"
 	selfHelpType="diagnostics"
