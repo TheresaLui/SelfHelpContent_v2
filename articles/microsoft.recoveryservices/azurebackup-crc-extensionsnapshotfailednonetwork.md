@@ -5,7 +5,7 @@
 	infoBubbleText: "Backup operation failed due to network connectivity issues or restricted access to your Azure storage account."
 	service: "microsoft.recoveryservices"
 	resource: "backup"
-	authors: "srinathvasireddy"
+	authors: "srinathv"
 	articleId: "azurebackup-crc-extensionsnapshotfailednonetwork"
 		selfHelpType: "diagnostics"
 	supportTopicIds: "32553276,32553277,32553285"
