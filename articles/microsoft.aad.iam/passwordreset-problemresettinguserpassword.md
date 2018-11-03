@@ -2,11 +2,10 @@
 	 description="Password Management/Administrator-initiated password reset" 
 	 authors="sahenry" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045781" 
+	 supportTopicIds="32045781, 32615432" 
 	 productPesIds="16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-    articleId="5b936215-dc2e-45df-b66d-d2214ae748a5"
 /> 
 # Problem with administrator-initiated password reset 
 ---
@@ -16,42 +15,51 @@
   "fileAttachmentHint": null,
   "formElements": [
     {
-      "id": "adminUserNameOrId",
+      "id": "hasErrorData",
       "visibility": null,
       "order": 1,
-      "controlType": "textbox",
-      "displayLabel": "What is the username of the admin who is resetting the user's password?",
+      "controlType": "dropdown",
+      "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
       "content": null,
-      "watermarkText": "For example 'sarah@contoso.com'",
+      "watermarkText": null,
       "infoBalloonText": null,
-      "dropdownOptions": null,
+      "dropdownOptions": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        }
+      ],
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": true,
-      "numberOfLines": 0
-    },
-	{
-      "id": "userNameOrId",
-      "visibility": null,
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "What is the username of the user whose password the admin is trying to reset?",
-      "content": null,
-      "watermarkText": "For example 'joe@contoso.com'.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
+      "required": false,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
     },
-    {
+	{
+      "id": "correlationId",
+      "visibility": "hasErrorData==yes",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Correlation ID from Error message:",
+      "content": null,
+      "watermarkText": "Copy the correlation ID from the error message and paste it here",
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": [],
+      "required": false,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+	{
       "id": "timestamp",
-      "visibility": null,
+      "visibility": "hasErrorData==yes || hasErrorData==no",
       "order": 3,
       "controlType": "textbox",
       "displayLabel": "Timestamp from Error message:",
@@ -65,15 +73,15 @@
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
-    }
-    {
-      "id": "symptomType",
-      "visibility": null,
+    },
+	{
+      "id": "userNameOrId",
+      "visibility": "hasErrorData==no",
       "order": 4,
-      "controlType": "multilinetextbox",
-      "displayLabel": "What is the error that you are receiving?",
+      "controlType": "textbox",
+      "displayLabel": "What is the username of the user whose password the admin is trying to reset?",
       "content": null,
-      "watermarkText": null,
+      "watermarkText": "For example 'joe@contoso.com'.",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
@@ -81,7 +89,24 @@
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
-      "numberOfLines": 2
+      "numberOfLines": 0
+    },
+	{
+      "id": "errorMessageAdditionalDetails",
+      "visibility": null,
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "displayLabel": "If you received an error, please provide the error message details:",
+      "content": null,
+      "watermarkText":  "AADSTSXXXXX: error message, Error message from the application, etc... ",
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": null,
+      "required": false,
+      "maxLength": 0,
+      "useAsAdditionalDetails": true,
+      "numberOfLines": 3
     }
   ]
 }
