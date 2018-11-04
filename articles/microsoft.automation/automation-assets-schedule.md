@@ -15,5 +15,6 @@
 # Azure Automation - Schedules
 
 ## **Recommended documents**
-[Scheduling a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/automation-schedules) <br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Scheduling a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/automation-schedules) <br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

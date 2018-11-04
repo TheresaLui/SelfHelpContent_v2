@@ -15,9 +15,11 @@
 # Azure Automation - Hybrid Runbook Worker
 
 ## **Recommended documents**
-[Automation Hybrid Runbook Workers](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)<br>
-[Deploy Windows Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install)<br>
-[Deploy Linux Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-linux-hrw-install)<br>
-[Run runbooks on Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks)<br>
-[Troubleshoot Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[Issue] [Troubleshoot Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)<br>
+<br>
+[How to] [Automation Hybrid Runbook Workers](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)<br>
+[How to] [Deploy Windows Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install)<br>
+[How to] [Deploy Linux Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-linux-hrw-install)<br>
+[How to] [Run runbooks on Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

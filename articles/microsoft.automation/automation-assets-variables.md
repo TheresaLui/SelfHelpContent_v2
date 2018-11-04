@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Assets - Variables"
-    description="Azure Automation - Assets - Variables"
+    pageTitle="Azure Automation - Shared Resources - Variables"
+    description="Azure Automation - Shared Resources - Variables"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -12,8 +12,9 @@
     cloudEnvironments="public"
 />
 
-# Azure Automation - Assets - Variables
+# Azure Automation - Shared Resources - Variables
 
 ## **Recommended documents**
-[Variable assets in Azure Automation](https://azure.microsoft.com/documentation/articles/automation-variables/) <br>
-[Data to gather when opening a case for  Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Variables in Azure Automation](https://azure.microsoft.com/documentation/articles/automation-variables/) <br>
+<br>
+[Data we need] [Data to gather when opening a case for  Azure Automation](https://support.microsoft.com/kb/3178510)

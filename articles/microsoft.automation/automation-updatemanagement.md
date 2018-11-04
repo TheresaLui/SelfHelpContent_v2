@@ -17,6 +17,7 @@
 ## **Recommended documents**
 [Issue] [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)<br>
 [Issue] [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)<br>
+[Issue] [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)<br>
 <br>
 [How to] [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)<br>
 [How to] [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)<br>

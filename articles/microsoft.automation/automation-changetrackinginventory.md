@@ -15,7 +15,10 @@
 # Azure Automation - Change Tracking and Inventory
 
 ## **Recommended documents**
-[Change Tracking Overview](https://docs.microsoft.com/azure/automation/automation-change-tracking)<br>
-[Inventory Overview](https://docs.microsoft.com/azure/automation/automation-vm-inventory)<br>
-[Troubleshoot issues onboarding Change Tracking and Inventory](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[Issue] [Troubleshoot issues onboarding Change Tracking and Inventory](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)<br>
+[Issue] [Troubleshoot Change Tracking and Inventory](https://docs.microsoft.com/azure/automation/troubleshoot/change-tracking)<br>
+<br>
+[How to] [Change Tracking Overview](https://docs.microsoft.com/azure/automation/automation-change-tracking)<br>
+[How to] [Inventory Overview](https://docs.microsoft.com/azure/automation/automation-vm-inventory)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
