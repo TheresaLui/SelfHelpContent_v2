@@ -22,7 +22,7 @@
                   "displayLabel": "Please select the Operation name you are experiencing a deployment failure with",
                   "watermarkText": "Choose an option",
                   "dynamicDropdownOptions": {
-                    uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Resources/deployments/?$filter=provisioningState eq 'Failed'&$top=5&api-version=2018-02-01",
+                    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Resources/deployments/?$filter=provisioningState eq 'Failed'&$top=5&api-version=2018-02-01",
                     "jTokenPath": "value",
                     "textProperty": "id",
                     "valueProperty": "id",
