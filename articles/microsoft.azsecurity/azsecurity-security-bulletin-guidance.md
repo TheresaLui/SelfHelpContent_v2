@@ -3,7 +3,7 @@
 	description="Suspected Malware, Safety Bulletins, and Security Bulletins/Security bulletin guidance"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32583097"
@@ -15,6 +15,7 @@
 # Suspected Malware, Safety Bulletins, and Security Bulletins/Security bulletin guidance
 
 ## **Recommended documents**
+
 * [Overview of Security Bulletins](https://technet.microsoft.com/security/bulletins)<br>
 * [MSRC Blog](https://blogs.technet.microsoft.com/msrc/)<br>
 * [Azure Security Blog](https://blogs.msdn.microsoft.com/azuresecurity/)<br>
