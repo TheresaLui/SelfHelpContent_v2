@@ -1,7 +1,6 @@
 <properties
 	pageTitle="extensionsnapshotfailedcom"
 	description="extensionsnapshotfailedcom"
-	service="microsoft.recoveryservices"
 	infoBubbleText="Snapshot operation failed due to COM+ error"
 	service="microsoft.recoveryservices"
 	resource="backup"
