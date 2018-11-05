@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
-    supportTopicIds="32045776"
+    supportTopicIds="32615470"
     productPesIds="16578"
     cloudEnvironments="public"
  />
