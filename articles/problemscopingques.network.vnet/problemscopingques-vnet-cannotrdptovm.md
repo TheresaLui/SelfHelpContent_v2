@@ -28,8 +28,8 @@
 					 "textPropertyRegex": "[^/]+$"
 					},
 			"dropdownOptions": [{
-					"value": "Unable to get the list of VMs",
-					"text": "Unable to get the list of VMs"
+					"value": "Unable to get the list of VM's",
+					"text": "Unable to get the list of VM's"
 				}
 			],
 			"required": false
