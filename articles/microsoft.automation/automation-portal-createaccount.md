@@ -17,4 +17,5 @@
 ## **Recommended documents**
 [Quickstart create Automation account](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account)<br>
 [Create standalone Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)<br>
+<br>
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

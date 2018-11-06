@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds="32597560,32597526"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # Azure Cosmos DB Spark Connector
