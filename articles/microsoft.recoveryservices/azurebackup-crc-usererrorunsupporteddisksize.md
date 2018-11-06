@@ -17,8 +17,11 @@
 # UserErrorUnsupportedDiskSize
 
 <!--issueDescription-->
-## Backup operation was failing due to the disk size limit.
+The backup operation failed because the disk exceeds the maximum allowed size by the VM Backup Stack v1. For disks bigger than 1023GB you need to upgrade to VM Backup stack V2. To avoid failures in the future, upgrade to Azure VM Backup stack V2.
 <!--/issueDescription-->
 
 ## **Recommended steps**
-Your backup operation could fail when backing up VM with disk size greater than 1023GB since your vault is not upgraded to Azure VM Backup stack V2. Upgrading to Azure VM Backup stack V2 will provide support up to 4TB. Review these [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade), and then proceed to upgrade by following these [instructions](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#upgrade).
+
+* Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
+* Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
+* Complete the upgrade following these [instructions](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#upgrade).
