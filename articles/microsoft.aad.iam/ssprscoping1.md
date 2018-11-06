@@ -1,11 +1,12 @@
-<properties pageTitle="Administrator-initiated password reset" 
-	 description="Password Management/Administrator-initiated password reset" 
-	 authors="sahenry" 
-	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32045781" 
-	 productPesIds="16579" 
-	 cloudEnvironments="public" 
-	 schemaVersion="1"
+<properties 
+    pageTitle="Administrator-initiated password reset" 
+	description="Password Management/Administrator-initiated password reset" 
+	authors="sahenry" 
+	selfHelpType="problemScopingQuestions" 
+	supportTopicIds="32045781" 
+	productPesIds="16579" 
+	cloudEnvironments="public" 
+	schemaVersion="1"
     articleId="5b936215-dc2e-45df-b66d-d2214ae748a5"
 /> 
 # Problem with administrator-initiated password reset 
@@ -65,7 +66,7 @@
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
-    }
+    },
     {
       "id": "symptomType",
       "visibility": null,
