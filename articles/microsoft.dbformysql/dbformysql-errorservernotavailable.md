@@ -6,7 +6,7 @@
 	authors="ankam"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32568704, 32568709"
+	supportTopicIds="32628385"
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
