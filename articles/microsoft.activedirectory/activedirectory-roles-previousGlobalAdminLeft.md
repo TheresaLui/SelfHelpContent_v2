@@ -3,7 +3,7 @@
     description="Azure AD Roles and administration"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="jeffsta@microsoft.com"
+    authors="Jeffsta-MSFT"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615407"
