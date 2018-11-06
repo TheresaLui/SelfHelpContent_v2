@@ -22,6 +22,6 @@
 
 ## **Recommended documents**
 
-* [Azure AD role permissions reference](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br>
+* [Azure AD role permissions reference](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br>
 * [Understand the difference between Azure AD roles and Azure RBAC roles](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles)<br>
 * [Assign an Azure AD role to a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
