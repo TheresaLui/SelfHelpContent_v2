@@ -4,7 +4,7 @@
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570260"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="c7c6531f-d630-40d7-8340-4274ddc404f7"
