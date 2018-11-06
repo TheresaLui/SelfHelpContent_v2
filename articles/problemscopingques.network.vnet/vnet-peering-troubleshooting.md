@@ -3,6 +3,7 @@
 	description="VNET Peering Troubleshooting"
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
+	articleid="cannotconnectVMinapeeredVNET"
 	supportTopicIds="32584249"
 	productPesIds="15526"
 	cloudEnvironments="public"
