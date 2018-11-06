@@ -18,14 +18,12 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has Ambari server running on both headnodes <!--$Host-->[Host]<!--/$Host-->
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has Ambari server running on both headnodes: <!--$Host-->[Host]<!--/$Host-->
+Ambari server running on the headnode other than the **headnodehost** will not display any metrics on the Ambari portal.
 <!--/issueDescription-->
 
-All Ambari agents in the cluster will send heartbeats to only one headnode which is the **headnodehost**.
-
-**headnodehost** is the default headnode on which ambari server is started.
-
-Ambari server running on the headnodehost can receive heartbeats from all machines and display the corresponding metrics correctly while the Ambari server running on the other headnode cannot receive those metrics.
+In an HDInsight cluster, the **headnodehost** is the default headnode on which ambari server is started. All Ambari agents in the cluster will send heartbeats to only one headnode which is the **headnodehost**.
+Since the **headnodehost** is receiving heartbeats from all machines, it can display the corresponding metrics correctly. Other instances of the Ambari server running on the other headnode cannot receive the heartbeats, thus they cannot display the metrics.
 
 ## **Recommended Steps**
 
