@@ -20,13 +20,14 @@
 			"order": 1,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the source Virtual Machine internal IP address",
-			"watermarkText": "Provide source Virtual Machine",
+			"watermarkText": "Enter source Virtual Machine",
 			"required": true
 		}, {
 			"id": "destination_vm internal IP address",
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the destination Virtual Machine internal IP address",
+			"watermarkText": "Enter destination Virtual Machine",
 			"required": true
 		}
 	]
