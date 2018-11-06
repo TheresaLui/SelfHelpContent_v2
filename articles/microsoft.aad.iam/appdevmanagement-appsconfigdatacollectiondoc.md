@@ -2,7 +2,7 @@
 	 description="appsconfigdatacollectiondoc" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32570259" 
+	 supportTopicIds="" 
 	 productPesIds="14785,16575" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"

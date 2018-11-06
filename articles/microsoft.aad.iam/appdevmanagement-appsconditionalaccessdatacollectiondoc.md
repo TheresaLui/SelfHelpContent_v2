@@ -3,7 +3,7 @@
     description="appsconditionalaccessdatacollectiondoc"
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596842,32596872,32596859"
+    supportTopicIds="32596872,32596859"
     productPesIds="14785,16579"
     cloudEnvironments="public"
     schemaVersion="1"

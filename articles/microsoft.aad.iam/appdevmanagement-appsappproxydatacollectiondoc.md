@@ -2,7 +2,7 @@
 	 description="appsappproxydatacollectiondoc" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32369657,32570275" 
+	 supportTopicIds="32369657" 
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
