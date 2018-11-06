@@ -6,7 +6,7 @@
 	authors="passaree"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602691,32602695,32602697,32602698"
+	supportTopicIds="32602691,32602697"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
