@@ -1,7 +1,7 @@
 <properties
 	pageTitle="usererrorstandardssdnotsupported"
 	description="usererrorstandardssdnotsupported"
-	infoBubbleText="Currently Azure Backup does not support Standard SSD disks"
+	infoBubbleText="Currently Azure Backup does not support Standard SSD disks. See details on the right."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
@@ -18,7 +18,7 @@
 # UserErrorStandardSSDNotSupported
 
 <!--issueDescription-->
-## Currently Azure Backup does not support Standard SSD disks
+Currently Azure Backup does not support Standard SSD disks
 <!--/issueDescription-->
 
 ## **Recommended Steps**
