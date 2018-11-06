@@ -1,7 +1,7 @@
 <properties
 	pageTitle="extensionsnapshotfailedcom"
 	description="extensionsnapshotfailedcom"
-	infoBubbleText=" VM Snapshot operation failed due to COM+ error"
+	infoBubbleText="VM Snapshot operation failed due to COM+ error. See details on the right."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
@@ -15,7 +15,7 @@
 
 # ExtensionSnapshotFailedCOM
 <!--issueDescription-->
-## **Snapshot operation failed due to COM+ error**
+Snapshot operation failed due to COM+ error.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
