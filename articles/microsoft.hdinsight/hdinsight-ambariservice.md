@@ -29,19 +29,25 @@ Since the **headnodehost** is receiving heartbeats from all machines, it can dis
 
 1. Connect to Ambari service using Secure Shell (SSH).<br>
 ```	
+
 		ssh <clustername>-ssh.azurehdinsight.net
+		
 ```
 
 2. Open host file /etc/host on one of the headnodes using Vi.<br>
 ```
+
 		vi /etc/hosts/
+		
 ```
 
 3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node. The other headnode which does not have **headnodehost** mentioned is the standby node.
 
 4. Stop Ambari service on the standby node.<br>
 ```
+
 		sudo ambari-server stop
+		
 ```
 
 ## **Recommended Documents**
