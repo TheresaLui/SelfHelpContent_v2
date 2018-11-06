@@ -7,7 +7,7 @@
 	resource="backup"
 	authors="srinathv"
 	articleId="azurebackup-crc-extensionsnapshotfailednonetwork"
-	diagnosticScenario="azurebackup-crc-extensionsnapshotfailednonetwork"
+	diagnosticScenario=""
 	selfHelpType="diagnostics"
 	supportTopicIds="32553276,32553277,32553285"
 	resourceTags=""
