@@ -15,17 +15,14 @@
 # Connection issues to Azure Databases for PostgreSQL
 
 ## **Recommended steps**
-Persistent connection issues to Azure Databases for PostgreSQL can occur due to incorrect firewall configuration, incorrect connection string and other causes.
+Persistent connection issues to Azure Databases for PostgreSQL can occur due to incorrect firewall configuration, incorrect connection string and other causes.<br>
 
-* Set up firewall rules to allow the client IP address <br>
-[Configure PostgreSQL Azure firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules/)
+* [Set up firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules/) to allow the client IP address <br>
 
-* Follow connection recommendations on computers that host your client program <br>
-[Connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries)
+* Follow [connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) on computers that host your client program <br>
 
-* Fix incorrect connection strings in your application <br>
-[Connection strings to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-high-availability)
+* Fix [incorrect connection](https://docs.microsoft.com/azure/postgresql/concepts-high-availability) strings in your application <br>
 
 ## **Recommended documents**
-[Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-high-availability/)<br>
-[Connecting to PostgreSQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-portal/)
+* [Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-high-availability/)<br>
+* [Connecting to PostgreSQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-portal/)

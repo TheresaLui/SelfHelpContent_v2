@@ -15,10 +15,9 @@
 # Error: Server not available 
 
 ## **Recommended steps**
-The "Can't connect to MySQL server on.." message or other connection errors occurs when the MySQL server has been moved because of deployment, failover, scaling or load balancing. This is a transient connectivity issue because reconfigurations are generally expected to complete in less than 60 seconds.
+The "Can't connect to MySQL server on.." message or other connection errors occurs when the MySQL server has been restarted because of deployment, failover, scaling or load balancing. This is a transient connectivity issue as reconfigurations are generally expected to complete in less than 60 seconds.
 
-* Applications that are connecting to cloud services should be coded to catch periodic connection errors and should implement retry logic.<br>
-[Retry logic for transient errors](https://docs.microsoft.com/azure/mysql/concepts-high-availability#application-retry-logic-is-essential)
+Applications that are connecting to cloud services [should be coded](https://docs.microsoft.com/azure/mysql/concepts-high-availability#application-retry-logic-is-essential) to catch periodic connection errors and should implement retry logic.<br>
 
 ## **Recommended documents**
-[Troubleshoot Database unavailability related errors](https://docs.microsoft.com/azure/mysql/concepts-high-availability)
+* [Troubleshoot Database unavailability related errors](https://docs.microsoft.com/azure/mysql/concepts-high-availability)
