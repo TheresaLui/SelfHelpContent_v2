@@ -6,7 +6,7 @@
     resource=""
     authors="sadiehenry"
     displayOrder="1"
-    articleId="User_Locked_Out"
+    articleId="User_Blocked"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
