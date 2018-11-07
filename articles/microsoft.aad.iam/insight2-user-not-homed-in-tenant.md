@@ -4,7 +4,7 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
-    authors="sahenry"
+    authors="sadiehenry"
     displayOrder="1"
     articleId="User_Not_Homed_In_Tenant"
     selfHelpType="diagnostics"
