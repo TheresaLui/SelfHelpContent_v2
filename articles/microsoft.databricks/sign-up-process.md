@@ -2,7 +2,7 @@
 	pageTitle="Sign up process"
 	description="Sign up process"
 	service="microsoft.databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="bprakash"
 	displayOrder="7"
 	selfHelpType="resource"
