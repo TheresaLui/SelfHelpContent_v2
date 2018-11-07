@@ -13,7 +13,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "I received an allocation failure",
                 "fileAttachmentHint": "",
                 "formElements": [{
                   "id": "selectfailedoperation",
@@ -34,17 +34,7 @@
                     }
                     ],
                     "required": false
-                },{
-                  "id": "deployment_marketplaceimage",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
-                  "required": false,
-                  "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
-                    }]
-                  }
-                  ]
+                }
+                ]
 }
 ---

@@ -13,7 +13,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "Troubleshoot my ARM template error",
                 "fileAttachmentHint": "",
                 "formElements": [{
                   "id": "selectfailedoperation",
@@ -34,17 +34,25 @@
                     }
                     ],
                     "required": false
-                },{
-                  "id": "deployment_marketplaceimage",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
-                  "required": false,
-                  "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
-                    }]
-                  }
-                  ]
+                    },{
+                      "id": "deployment_manageddisks",
+                      "order": 2,
+                      "controlType": "dropdown",
+                      "displayLabel": "Are you deploying with managed disks?",
+                      "watermarkText": "Choose an option",
+                      "dropdownOptions": [{
+                        "value": "Yes",
+                        "text": "Yes"
+                        },{
+                          "value": "No",
+                          "text": "No"
+                          },{
+                            "value": "I do not know",
+                            "text": "I do not know"
+                          }
+                          ],
+                          "required": false
+                        }
+                        ]
 }
 ---

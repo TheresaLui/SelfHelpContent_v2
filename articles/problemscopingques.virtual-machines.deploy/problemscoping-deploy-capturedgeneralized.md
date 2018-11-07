@@ -13,7 +13,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "I am unable to deploy a captured or generalized image",
                 "fileAttachmentHint": "",
                 "formElements": [{
                   "id": "selectfailedoperation",
@@ -34,17 +34,25 @@
                     }
                     ],
                     "required": false
-                },{
-                  "id": "deployment_marketplaceimage",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
-                  "required": false,
-                  "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
-                    }]
-                  }
-                  ]
+                    },{
+                      "id": "deployment_isrunning",
+                      "order": 2,
+                      "controlType": "dropdown",
+                      "displayLabel": "Is your image started and running?",
+                      "watermarkText": "Choose an option",
+                      "dropdownOptions": [{
+                        "value": "Is started running",
+                        "text": "Is started running"
+                        },{
+                          "value": "Is not started",
+                          "text": "Is not started"
+                          },{
+                            "value": "I do not know",
+                            "text": "I do not know"
+                          }
+                          ],
+                          "required": false
+                        }
+                        ]
 }
 ---

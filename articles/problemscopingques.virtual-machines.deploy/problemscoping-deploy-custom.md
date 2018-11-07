@@ -13,7 +13,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "Troubleshoot custom image deployment failures",
                 "fileAttachmentHint": "",
                 "formElements": [{
                   "id": "selectfailedoperation",
@@ -38,11 +38,11 @@
                   "id": "deployment_marketplaceimage",
                   "order": 2,
                   "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
+                  "displayLabel": "What is the distribution and version of OS?",
                   "required": false,
                   "useAsAdditionalDetails": true,
                   "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
+                    "text": "Distribution and version of the operating system."
                     }]
                   }
                   ]

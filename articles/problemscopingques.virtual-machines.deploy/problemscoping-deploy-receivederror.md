@@ -13,7 +13,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "I received a provisioning or deployment timeout error",
                 "fileAttachmentHint": "",
                 "formElements": [{
                   "id": "selectfailedoperation",
@@ -35,16 +35,42 @@
                     ],
                     "required": false
                 },{
-                  "id": "deployment_marketplaceimage",
+                  "id": "deployment_imagetype",
                   "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
-                  "required": false,
-                  "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
-                    }]
-                  }
-                  ]
+                  "controlType": "dropdown",
+                  "displayLabel": "Choose the type of image deployment",
+                  "watermarkText": "Choose an option",
+                  "dropdownOptions": [{
+                    "value": "Custom Image",
+                    "text": "Custom Image"
+                    },{
+                      "value": "Marketplace Image",
+                      "text": "Marketplace Image"
+                      },{
+                        "value": "I do not know",
+                        "text": "I do not know"
+                      }
+                      ],
+                      "required": false
+                      },{
+                        "id": "deployment_isrunning",
+                        "order": 3,
+                        "controlType": "dropdown",
+                        "displayLabel": "Is your image started and running?",
+                        "watermarkText": "Choose an option",
+                        "dropdownOptions": [{
+                          "value": "Is started running",
+                          "text": "Is started running"
+                          },{
+                            "value": "Is not started",
+                            "text": "Is not started"
+                            },{
+                              "value": "I do not know",
+                              "text": "I do not know"
+                            }
+                            ],
+                            "required": false
+                          }
+                          ]
 }
 ---
