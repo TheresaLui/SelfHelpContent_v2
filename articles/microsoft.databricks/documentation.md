@@ -2,7 +2,7 @@
 	pageTitle="Documentation"
 	description="Documentation"
 	service="microsoft.databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="bprakash"
 	displayOrder="7"
 	selfHelpType="resource"
