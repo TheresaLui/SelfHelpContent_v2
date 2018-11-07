@@ -16,8 +16,14 @@
                 "title": "I need guidance preparing an image",
                 "fileAttachmentHint": "",
                 "formElements": [{
-                  "id": "deployment_isfollowingchecklist",
+                  "id": "problem_end_date",
                   "order": 1,
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the last reported time of the problem?",
+                  "required": false
+                  },{
+                  "id": "deployment_isfollowingchecklist",
+                  "order": 2,
                   "controlType": "dropdown",
                   "displayLabel": "Have you followed <a href='https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image'>the checklist for uploading a VM</a>?",
                   "watermarkText": "Choose an option",

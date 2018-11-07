@@ -16,8 +16,14 @@
                 "title": "I need guidance deploying with managed disks",
                 "fileAttachmentHint": "",
                 "formElements": [{
-                  "id": "deployment_item",
+                  "id": "problem_end_date",
                   "order": 1,
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the last reported time of the problem?",
+                  "required": false
+                  },{
+                  "id": "deployment_item",
+                  "order": 2,
                   "controlType": "dropdown",
                   "displayLabel": "Are you trying to create a managed OS disk, a managed data disk or a VM?",
                   "watermarkText": "Choose an option",
@@ -35,7 +41,7 @@
                       "required": false
                       },{
                         "id": "deployment_vhdsnapshot",
-                        "order": 2,
+                        "order": 3,
                         "controlType": "dropdown",
                         "displayLabel": "Are you creating from a VHD file or a snapshot?",
                         "watermarkText": "Choose an option",

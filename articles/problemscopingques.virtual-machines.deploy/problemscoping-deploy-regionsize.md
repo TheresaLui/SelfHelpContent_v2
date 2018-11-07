@@ -16,56 +16,14 @@
                 "title": "My desired region or VM size is unavailable",
                 "fileAttachmentHint": "",
                 "formElements": [{
-                  "id": "selectfailedoperation",
+                  "id": "problem_end_date",
                   "order": 1,
-                  "controlType": "dropdown",
-                  "displayLabel": "Please select the operation name you are experiencing a deployment failure with",
-                  "watermarkText": "Choose an option",
-                  "dynamicDropdownOptions": {
-                    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Resources/deployments/?$filter=provisioningState eq 'Failed'&$top=5&api-version=2018-02-01",
-                    "jTokenPath": "value",
-                    "textProperty": "id",
-                    "valueProperty": "id",
-                    "textPropertyRegex": "[^/]+$"
-                    },
-                    "dropdownOptions": [{
-                      "value": "Unable to get the list of operation failures or no exist for this resource group.",
-                      "text": "Unable to get the list of operation failures or no exist for this resource group.",
-                    }
-                    ],
-                    "required": false
-                },
-                {
-                  "id": "selectregion",                  
-                  "order": 2,                  
-                  "controlType": "dropdown",                  
-                  "displayLabel": "What is the region you are deploying in?",                  
-                  "watermarkText": "Choose an option",                  
-                  "dropdownOptions": [{                    
-                    "value": "It's slower that it typically is",
-                    "text": "It's slower that it typically is"                    
-                    }, {
-                      "value": "Another virtual machine in the subscription is faster",                      
-                      "text": "Another virtual machine in the subscription is faster"                      
-                      }, {
-                        "value": "Benchmarking tests not meeting minimum Azure specifications",
-                        "text": "Benchmarking tests not meeting minimum Azure specifications"
-                        }, {
-
-                          "value": "It's faster in a non-Azure environment",
-
-                          "text": "It's faster in a non-Azure environment"
-
-                        }
-
-                        ],
-
-                        "required": false
-                      }
-
-                {
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the last reported time of the problem?",
+                  "required": false
+                },{
                   "id": "deployment_size",
-                  "order": 3,
+                  "order": 2,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the size of the VM you are trying to deploy?",
                   "required": false,
@@ -75,7 +33,7 @@
                     }]
                   },{
                     "id": "deployment_isinavailabilityset",
-                    "order": 4,
+                    "order": 3,
                     "controlType": "dropdown",
                     "displayLabel": "Are you deploying your VM in an availability set?",
                     "watermarkText": "Choose an option",

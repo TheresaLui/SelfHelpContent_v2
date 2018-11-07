@@ -16,24 +16,11 @@
                 "title": "I received an allocation failure",
                 "fileAttachmentHint": "",
                 "formElements": [{
-                  "id": "selectfailedoperation",
+                  "id": "problem_end_date",
                   "order": 1,
-                  "controlType": "dropdown",
-                  "displayLabel": "Please select the operation name you are experiencing a deployment failure with",
-                  "watermarkText": "Choose an option",
-                  "dynamicDropdownOptions": {
-                    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Resources/deployments/?$filter=provisioningState eq 'Failed'&$top=5&api-version=2018-02-01",
-                    "jTokenPath": "value",
-                    "textProperty": "id",
-                    "valueProperty": "id",
-                    "textPropertyRegex": "[^/]+$"
-                    },
-                    "dropdownOptions": [{
-                      "value": "Unable to get the list of operation failures or no exist for this resource group.",
-                      "text": "Unable to get the list of operation failures or no exist for this resource group.",
-                    }
-                    ],
-                    "required": false
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the last reported time of the problem?",
+                  "required": false
                 }
                 ]
 }
