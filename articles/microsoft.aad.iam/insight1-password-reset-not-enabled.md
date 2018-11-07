@@ -4,7 +4,7 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
-    authors="sahenry"
+    authors="sadiehenry"
     displayOrder="1"
     articleId="Password_Reset_Not_Enabled"
     selfHelpType="diagnostics"
