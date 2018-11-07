@@ -1,6 +1,6 @@
 <properties
-pageTitle="ExpressRoute Circuit De-provisioning Incomplete"
-description="ExpressRoute Circuit De-provisioning Incomplete"
+pageTitle="ExpressRoute Circuit Deprovisioning Incomplete"
+description="ExpressRoute Circuit Deprovisioning Incomplete"
 infoBubbleText="Issues with your ExpressRoute were detected. See details on the right."
 service="microsoft.network"
 resource="ExpressRoute"
@@ -14,7 +14,7 @@ resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
 />
-# ExpressRoute Circuit De-provisioning Incomplete
+# ExpressRoute Circuit Deprovisioning Incomplete
 <!--issueDescription-->
 We have identified a platform configuration issue for your private peering ExpressRoute connection named **<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->** that uses service key: **<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**. The initial diagnosis is that the service provider has not updated the status to reflect that it has been decommissioned. See below for steps to resolve the issue.
 <!--/issueDescription-->
