@@ -1,14 +1,14 @@
 <properties
 	pageTitle="SeedNodeDeleted"
-	description="detected one or more missing seed nodes"
-	infoBubbleText=""
+	description="Detected one or more missing seed nodes"
+	infoBubbleText="Detected one or more missing seed nodes. See details on the right."
 	service="microsoft.servicefabric"
 	resource="clusters"
 	authors="a-santamaria"
 	displayOrder=""
 	articleId="SFSeedNodeInsightArticle"
 	diagnosticScenario="SFSeedNodeInsight"
-	selfHelpType="generic"
+	selfHelpType="Diagnostics"
 	supportTopicIds="32608928,32608936,32608960,32608935"
 	resourceTags=""
 	productPesIds="15842"​
