@@ -8,6 +8,7 @@
     displayOrder="1"
     articleId="User_Not_Homed_In_Tenant"
     selfHelpType="diagnostics"
+    diagnosticScenario="health_diagnostic"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
