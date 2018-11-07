@@ -1,18 +1,18 @@
 <properties
-	pageTitle="SeedNodeDeleted"
-	description="Detected one or more missing seed nodes"
-	infoBubbleText="Detected one or more missing seed nodes. See details on the right."
-	service="microsoft.servicefabric"
-	resource="clusters"
-	authors="a-santamaria"
-	displayOrder=""
-	articleId="SFSeedNodeInsightArticle"
-	diagnosticScenario="SFSeedNodeInsight"
-	selfHelpType="Diagnostics"
-	supportTopicIds="32608928,32608936,32608960,32608935"
-	resourceTags=""
-	productPesIds="15842"​
-	cloudEnvironments="public"
+    pageTitle="SeedNodeDeleted"
+    description="Detected one or more missing seed nodes"
+    infoBubbleText="Detected one or more missing seed nodes. See details on the right."
+    service="microsoft.servicefabric"
+    resource="clusters"
+    authors="a-santamaria"
+    displayOrder=""
+    articleId="SFSeedNodeInsightArticle"
+    diagnosticScenario="SFSeedNodeInsight"
+    selfHelpType="Diagnostics"
+    supportTopicIds="32608928,32608936,32608960,32608935"
+    resourceTags=""
+    productPesIds="15842"
+    cloudEnvironments="public"
 />
 
 # Detected one or more missing seed nodes
@@ -33,16 +33,6 @@ This issue commonly happens in one of the following scenarios:
 2. Configuring Auto-scale on clusters with [Bronze durability](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-capacity#the-durability-characteristics-of-the-cluster). Silver or Gold durability is required if you want to use Auto-scale with a Service Fabric cluster.
 
 3. Improperly removing VM's from the primary nodetype without calling [Disable-ServiceFabricNode](https://docs.microsoft.com/powershell/module/servicefabric/disable-servicefabricnode?view=azureservicefabricps) with -Intent ‘**RemoveNode**’ to disable the node you’re going to remove and replace it with a new seednode.  This command is what tells the Service Fabric Resource Provider to elect a new seed node.  **Note:** There needs to be at least one 'non-seed node' in the VMMS available to be promoted to the new seednode.
-
-## **Recommended steps**
-
-1. This is a step with a link to an [external article](https://).
-2. This is a step with no link, blade, or instructions. Note that because the next line is a new bullet in the numbered list, no <br> is needed.
-3. This is a step with a [link to a blade](data-blade:extensionName.bladeName.nameOfInputParam.valueOfInputParam)<br>. 
-4. This is a step with code :<br>
-```
-	SELECT name, is_disabled FROM sys.sql_logins
-```
 
 ## Suggested Mitigation
 [Missing seed nodes with automated script](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/How%20to%20fix%20missing%20seednodes%20with%20Automated%20script.md)
