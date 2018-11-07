@@ -18,6 +18,6 @@ cloudEnvironments="Public"
 <!--issueDescription-->
 We have identified that your Virtual Network Gateway for VNet, **<!--$virtualNetworkName-->[virtualNetworkName]<!--/$virtualNetworkName-->** with a VIP of  **<!--$gatewayVip-->[gatewayVip]<!--/$gatewayVip-->** failed over to the passive instance due to a planned maintenance around {preciseTimeStamp}.
 ## **Issue Details**
-During the planned maintenance, the VPN connection to your Vnet will persist but you may have noticed some sessions disconnected at the above time. You were also without VPN Tunnel [redundancy](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-highlyavailable) during this time.
+During the planned maintenance, the VPN connection to your Vnet will persist but you may have noticed some sessions disconnected at the above time. You were also without VPN Tunnel [redundancy](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable) during this time.
 
 
