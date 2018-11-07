@@ -16,6 +16,6 @@
 />
 # User is blocked
  
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been from signing into the tenant. The password for this user cannot be reset until their account is unblocked. 
+We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been blocked from signing into the tenant. The password for this user cannot be reset until their account is unblocked. 
  
 Please let me know if you have any questions or concerns.
