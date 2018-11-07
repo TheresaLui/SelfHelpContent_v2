@@ -2,7 +2,7 @@
 	pageTitle="Databricks Delta feature issues"
 	description="Databricks Delta feature issues"
 	service="microsoft.databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="bprakash"
 	displayOrder="7"
 	selfHelpType="resource"
