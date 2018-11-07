@@ -1,4 +1,4 @@
-<properties
+﻿<properties
 	pageTitle="Shared Image Gallery"
 	description="Shared Image Gallery"
 	service="microsoft.compute"
@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615272,32615273,32615274,32615275"
+	supportTopicIds="32615272,32615273,32615274"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
