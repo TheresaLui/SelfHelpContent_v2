@@ -8,6 +8,7 @@
     displayOrder="1"
     articleId="Password_Reset_Not_Enabled"
     selfHelpType="diagnostics"
+    diagnosticScenario="health_diagnostic"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
