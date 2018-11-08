@@ -30,7 +30,7 @@ The server will automatically be set to read/write again, when at least 5 GB of 
 
 ## **Recommended steps**
 
-1. To fix this issue, please increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/postgrsql/concepts-pricing-tiers).
+1. To fix this issue, please increase the storage size using the portal as described in [reaching storage limit](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers).
 2. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement.
 
 ## **Recommended documents**
