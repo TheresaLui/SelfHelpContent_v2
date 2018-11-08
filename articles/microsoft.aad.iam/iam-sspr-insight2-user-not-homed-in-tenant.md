@@ -17,7 +17,7 @@
 
 # User is not homed in your tenant
 
-We have determined that your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> is not the home directory for <!--$UserId-->[UserId]<!--/$UserId-->. This means that you cannot reset the password for <!--$UserId-->[UserId]<!--/$UserId-->.
+We have determined that your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> is not the home directory for <!--$UserId-->[UserId]<!--/$UserId-->. This means that you cannot change or reset the password for <!--$UserId-->[UserId]<!--/$UserId-->.
 
 If <!--$UserId-->[UserId]<!--/$UserId--> is a Microsoft account, <!--$UserId-->[UserId]<!--/$UserId--> can change or reset their password by following [these instructions](https://support.microsoft.com/help/4026971/microsoft-account-how-to-reset-your-password).
 
