@@ -23,4 +23,4 @@ We determined that creation of the HDInsight cluster <!--$ClusterDnsName-->[Clus
 Please remove the policy <!--$policyDefinitionName-->[policyDefinitionName]<!--/$policyDefinitionName--> to allow public IP creation and then reattempt creation of the HDInsight cluster. The policy can be populated after cluster creation.
 
 ## Further reading
-Please refer to this [create and manage policies](https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage) article for more information regarding subscription level policies.
+Please refer to this [create and manage policies](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage) article for more information regarding subscription level policies.
