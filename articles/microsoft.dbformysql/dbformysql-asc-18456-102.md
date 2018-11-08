@@ -23,7 +23,7 @@ Thank you for contacting Microsoft support about your connection issues with Azu
 
 ## **Recommended steps**
 
-To fix this issue please ensure your client IP address is configured in the firewall of the server. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) for assistance with configuring your firewall for your Azure Database for MySQL sever.
+To fix this issue please ensure your client IP address is configured in the firewall of the server. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) for assistance with configuring your firewall for your Azure Database for MySQL server.
 
 ## **Recommended documents**
 

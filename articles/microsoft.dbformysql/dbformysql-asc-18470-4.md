@@ -22,7 +22,7 @@ Thank you for contacting Microsoft support about your connection issues with Azu
 
 ## **Recommended steps**
 
-To fix this issue, please ensure that the server name you specify as part of the user name is correct and matches the server name in the host name. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-connection-string) for assistance with constructing a connection string for your Azure Database for MySQL sever.
+To fix this issue, please ensure that the server name you specify as part of the user name is correct and matches the server name in the host name. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-connection-string) for assistance with constructing a connection string for your Azure Database for MySQL server.
 
 ## **Recommended documents**
 

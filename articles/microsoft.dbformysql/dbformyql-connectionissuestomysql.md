@@ -24,7 +24,6 @@ Persistent connection issues to Azure Databases for MySQL can occur due to incor
 
 ## **Recommended documents**
 
-[Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/en-us/azure/mysql/howto-troubleshoot-common-connection-issues)
+[Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)
 
 [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
-
