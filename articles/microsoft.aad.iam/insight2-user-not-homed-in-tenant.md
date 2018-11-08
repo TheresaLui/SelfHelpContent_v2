@@ -24,5 +24,3 @@ If <!--$UserId-->[UserId]<!--/$UserId--> is a Microsoft account, <!--$UserId-->[
 If <!--$UserId-->[UserId]<!--/$UserId--> is a Google account, <!--$UserId-->[UserId]<!--/$UserId--> can change or reset their password by following [these instructions](https://support.google.com/accounts/answer/41078).
 
 If <!--$UserId-->[UserId]<!--/$UserId--> is homed in another Azure Active Directory tenant, <!--$UserId-->[UserId]<!--/$UserId--> will need to contact their administrator to reset their password.
-
-Please let me know if you have any questions or concerns.
