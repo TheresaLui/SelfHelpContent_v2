@@ -23,5 +23,3 @@ We have determined that self-service password reset is not enabled for your tena
 2. From the *Properties* page, under the option *Self Service Password Reset Enabled*, choose *Selected* or *All*.
 
 For more guidance on configuring self-service password reset, review the [Quickstart for self-service password reset](https://docs.microsoft.com/azure/active-directory/authentication/quickstart-sspr).
-
-Please let me know if you have any questions or concerns.
