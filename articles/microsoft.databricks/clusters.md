@@ -2,7 +2,7 @@
 	pageTitle="Databricks cluster creation, terminating or sizing issues"
 	description="Databricks cluster creation, terminating or sizing issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="mspreshah"
 	displayOrder="9"
 	selfHelpType="resource"
