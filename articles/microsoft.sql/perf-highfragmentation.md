@@ -22,4 +22,4 @@ Your pool has more than 100GB of disused storage space.  File space allocated is
 
 #### **Recommended documents**
 
-If this space is no longer needed, you can reclaim it by following suggestions detailed in the [Manage file space in Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-file-space-management) in the Reclaim unused allocated space section.
+If this space is no longer needed, you can reclaim it by following suggestions detailed in the [Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management) in the Reclaim unused allocated space section.
