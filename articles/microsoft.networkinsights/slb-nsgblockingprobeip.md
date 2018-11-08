@@ -22,7 +22,7 @@ We have found that the  NSG **'<!--$NetworkSecurityGroupName-->[NetworkSecurityG
 ## **Recommended steps**
 1. Open the [Azure portal](https://portal.azure.com) and browse to [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups).
 2. Browse to your Network Security Group **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'**
-3. Add an Allow rule for IP addrses **168.63.129.16** that has a lower number (higher priority) than the Block rule.
+3. Add an Allow rule for IP address **168.63.129.16** that has a lower number (higher priority) than the Block rule.
 4. Save changes and check the Health Probe Status by going to Load Balancer Monitoring blade to view the backend pool health.
 
 ## **Recommended documents**
