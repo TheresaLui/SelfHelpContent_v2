@@ -9,7 +9,7 @@
 	articleId="dbformysql-asc-18456-2-unknown"
 	diagnosticScenario="OrcasMySQLBackendErrorUnKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds="32568704, 32568709"
+	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public"

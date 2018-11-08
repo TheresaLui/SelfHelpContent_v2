@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-login-failed-without-ssl"
 	diagnosticScenario="OrcasPostgresSSLNotSpecified"
 	selfHelpType="rca"
-	supportTopicIds="32569392"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"

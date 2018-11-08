@@ -9,7 +9,7 @@
 	articleId="dbformysql-login-failed-without-ssl"
 	diagnosticScenario="OrcasMySQLSSLNotSpecified"
 	selfHelpType="rca"
-	supportTopicIds="32569392"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public"

@@ -9,7 +9,7 @@
 	articleId="dbformysql-asc-18470-4"
 	diagnosticScenario="OrcasMySQLServerNotFoundInBackend"
 	selfHelpType="rca"
-	supportTopicIds="32568715, 32568711"
+	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public"

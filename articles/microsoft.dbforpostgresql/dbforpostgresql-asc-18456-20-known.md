@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-18456-20-known"
 	diagnosticScenario="OrcasPostgresBackendErrorKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds="32569389, 32569392, 32569390"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"

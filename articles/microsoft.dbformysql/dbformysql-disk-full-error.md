@@ -9,9 +9,9 @@
 	articleId="dbformysql-disk-full-error"
 	diagnosticScenario="OrcasMySQLServerNotWritable"
 	selfHelpType="rca"
-	supportTopicIds="32568707"
+	supportTopicIds="32628367, 32628369"
 	resourceTags="windows, linux"
-	productPesIds="16221" 
+	productPesIds="16221"
 	cloudEnvironments="public"
 />
 

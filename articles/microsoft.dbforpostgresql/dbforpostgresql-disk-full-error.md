@@ -9,9 +9,9 @@
 	articleId="dbforpostgresql-disk-full-error"
 	diagnosticScenario="OrcasPostgresServerNotWritable"
 	selfHelpType="rca"
-	supportTopicIds="32569395"
+	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
-	productPesIds="16222" 
+	productPesIds="16222"
 	cloudEnvironments="public"
 />
 

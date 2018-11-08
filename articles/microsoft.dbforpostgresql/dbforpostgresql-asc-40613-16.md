@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-40613-16"
 	diagnosticScenario="OrcasPostgresGatewayCannotStartProxyConneciton"
 	selfHelpType="rca"
-	supportTopicIds="32569391, 32569392"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"

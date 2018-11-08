@@ -6,7 +6,7 @@
 	authors="ankam"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32628413"
+	supportTopicIds="32628463, 32628440    "
 	productPesIds="16221"
 	cloudEnvironments="public"
 />
