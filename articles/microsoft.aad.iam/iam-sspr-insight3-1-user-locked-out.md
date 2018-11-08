@@ -17,4 +17,4 @@
 
 # User is locked out
 
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been locked out. The password for this user cannot be reset until their account is unlocked. Please wait until the user's account has been unlocked before trying to change or reset their password.
+We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been locked out. The password for this user cannot be changed or reset until their account is unlocked. Please wait until the user's account has been unlocked before trying to change or reset their password.
