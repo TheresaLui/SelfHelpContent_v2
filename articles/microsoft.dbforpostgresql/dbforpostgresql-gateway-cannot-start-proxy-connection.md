@@ -25,4 +25,4 @@ To provide layered security and service scalability connections from clients to 
 
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
-[Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)
+[Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
