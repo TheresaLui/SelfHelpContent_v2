@@ -7,7 +7,7 @@
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32411816,32593740,32602160"
-	resourceTags="linux,redhat,suse,ubuntu,linuxsql"
+	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
 />
@@ -22,7 +22,7 @@ The common reasons for a VM restarting are:
 
 The following are steps to find out the reason for a restart in the past and to mitigate for future occurrences:
 
-1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) for the time period of the restart to determine the reason.<br>
+1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason.<br>
 2. [Understand, manage, anand use 'Availability Sets' to reduce the impact of downtime events](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/)<br>
 
 ## **Recommended documents**
