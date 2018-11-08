@@ -27,7 +27,7 @@ There are multiple options for you to implement based on the application and exh
 * Modify your application to use connection pooling.
 * Modify your application to use less aggressive retry logic.
 * Scale out by adding more instances in the backend pool of the load balancer if the instances are less than the pool size boundary as specified in the [Load Balancer Outbound connections](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-connections#preallocatedports).
-* If it is a Standartd SKU Load Balancer, then try adding more frontend IP Addresses to increase the SNAT Port allocation.
+* If it is a Standard SKU Load Balancer, then try adding more front-end IP Addresses to increase the SNAT Port allocation.
 * Use [Outbound Rules](https://docs.microsoft.com/azure/load-balancer/load-balancer-outbound-rules-overview) for a more customized SNAT port allocation to the instances.
 * Use [Instance Level Public IPs](https://docs.microsoft.com/azure/virtual-network/virtual-networks-instance-level-public-ip) for the instances that need to make exceptionally large number of outbound connections.
 
