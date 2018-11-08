@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
-    supportTopicIds="32045776"
+    supportTopicIds="32615470"
     productPesIds="16578"
     cloudEnvironments="public"
  />
@@ -14,7 +14,7 @@
 
 ## **Recommended steps**
 
-1. Use the Azure AD PowerShell v2 cmdlet "Get-AzureADUser" with the Format-List parameter to see the value of all properties for a user in Azure AD, including properties which are not displayed in the Azure AD administration portal experience. For example, `Get-AzureADUser -objectId alice@contoso.com | Format-List`.
+1. Use the Azure AD PowerShell v2 cmdlet "Get-AzureADUser" with the Format-List parameter to see the value of all properties for a user in Azure AD, including properties which are not displayed in the Azure AD administration portal experience. For example, `Get-AzureADUser -ObjectId alice@contoso.com | Format-List`.
 2. Use the Azure AD PowerShell v2 cmdlet "Get-AzureADUser" with the parameter -ExpandProperty to see all the value of all extension properties for a user. For example, `Get-AzureADUser -ObjectId alice@contoso.com | Select -ExpandProperty ExtensionProperty`.
 
 ## **Recommended documents**
