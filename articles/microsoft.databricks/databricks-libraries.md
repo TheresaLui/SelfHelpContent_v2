@@ -2,7 +2,7 @@
 	pageTitle="Databricks Library Installation Issues"
 	description="Databricks Library Installation Issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="kywe665"
 	displayOrder="8"
 	selfHelpType="resource"
