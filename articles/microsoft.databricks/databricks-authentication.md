@@ -2,7 +2,7 @@
 	pageTitle="Databricks User Authentication and Management Issues"
 	description="Databricks User Authentication and Management Issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="kywe665"
 	displayOrder="8"
 	selfHelpType="resource"
