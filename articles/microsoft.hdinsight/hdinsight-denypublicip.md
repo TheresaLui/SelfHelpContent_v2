@@ -1,6 +1,6 @@
 <properties
-    pageTitle="HDInsight failure due to public policy in place denying public IP creation"
-    description="HDInsight failure due to public policy in place denying public IP creation"
+    pageTitle="HDInsight failure due to policy in place denying public IP creation"
+    description="HDInsight failure due to policy in place denying public IP creation"
     infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
@@ -20,4 +20,7 @@
 We determined that creation of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there is a public policy in place to deny the creation of public IPs. HDInsight cluster creation requires two public IPs.
 
 ## **Recommended steps**
-Modify the public policy <!--$policyDefinitionName-->[policyDefinitionName]<!--/$policyDefinitionName--> to allow public IP creation and then reattempt creation of the HDInsight cluster.
+Please remove the policy <!--$policyDefinitionName-->[policyDefinitionName]<!--/$policyDefinitionName--> to allow public IP creation and then reattempt creation of the HDInsight cluster. The policy can be populated after cluster creation.
+
+## Further reading
+Please refer to this [create and manage policies](https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage) article for more information regarding subscription level policies.
