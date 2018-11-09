@@ -14,5 +14,4 @@
 # Configure Automation
 ## **Recommended documents**
 Learn how to deploy Azure Firewall sandbox testing environment using a template or a PowerShell script.<br>
-* Deploy Azure Firewall using a [template](https://docs.microsoft.com/azure/firewall/deploy-template)<br>
-* Sample [PowerShell script](https://docs.microsoft.com/azure/firewall/scripts/sample-create-firewall-test#sample-script)
+* Use [template](https://docs.microsoft.com/azure/firewall/deploy-template) or [PowerShell sample script](https://docs.microsoft.com/azure/firewall/scripts/sample-create-firewall-test#sample-script) to create Azure Firewall and a test network environment
