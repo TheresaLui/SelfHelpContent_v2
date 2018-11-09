@@ -7,6 +7,7 @@
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
+	 articleId="c86cc70c-b23a-411a-8131-0e1545144999"
 />
 # Questions Azure site recovery - Vmware to Azure Enable replication
 ---
