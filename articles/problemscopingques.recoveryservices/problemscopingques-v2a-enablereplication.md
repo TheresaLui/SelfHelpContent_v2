@@ -75,19 +75,19 @@
 			   		],
 			   			"required": true
             			},{
-			        "id": "learn_more_text",
+			        "id": "learn_more_text1",
                           	"order": 5,
 			  	"visibility": "issue_Type == Push installation failed due to connectivity errors",
                          	"controlType": "infoblock",
                           	"content": "Most of the Push installation issues get resolved using our troubleshooting article, Try these <a href='https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install'> troubleshooting steps</a> to self-resolve the issue."
             			},{
-			        "id": "learn_more_text",
+			        "id": "learn_more_text2",
                           	"order": 6,
 			  	"visibility": "issue_Type == Push installation failure due to unsupported version",
                           	"controlType": "infoblock",
                           	"content": "Ensure source machine has the <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'> supported Operating System/Kernel version</a> for successful installation of Mobility service."
             			},{
-			        "id": "learn_more_text",
+			        "id": "learn_more_text3",
                           	"order": 7,
 			  	"visibility": "issue_Type == My initial replication is stuck",
                           	"controlType": "infoblock",
