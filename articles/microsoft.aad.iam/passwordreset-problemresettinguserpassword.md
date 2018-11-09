@@ -2,7 +2,7 @@
 	 description="Password Management/User-initiated password reset" 
 	 authors="sahenry" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32615432" 
+	 supportTopicIds="32615416,32615432" 
 	 productPesIds="16579" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
