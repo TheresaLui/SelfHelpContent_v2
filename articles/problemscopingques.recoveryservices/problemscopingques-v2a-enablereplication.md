@@ -21,7 +21,7 @@
 			      "visibility": "null",
                           "controlType": "textbox",
                           "displayLabel": "What is the OS version of the impacted Server?",
-                          "watermarkText": ""Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
+                          "watermarkText": "Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
                           "required": true
                         },{
 			                "id": "learn_more_text_1",
