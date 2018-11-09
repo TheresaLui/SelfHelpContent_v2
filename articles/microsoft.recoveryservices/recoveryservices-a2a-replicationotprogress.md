@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="A2A replication does not progress"
 	description="A2A  replication does not progress"
 	service="microsoft.recoveryservices"
