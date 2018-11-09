@@ -1,4 +1,4 @@
-<properties
+properties
 	pageTitle="A2A replication does not progress"
 	description="A2A  replication does not progress"
 	service="microsoft.recoveryservices"
@@ -14,11 +14,16 @@
 # Replication does not progress in A2A scenario
 
 ## **Recommended steps**
-- [Troubleshooting common Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)<br>
+- [Troubleshooting common Azure to Azure VM ongoing replication issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication)<br>
+- [Recovery points are not getting generated for the replicated VM?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#recovery-points-not-getting-generated)
+- [Understand and resolve high data change rate(churn) on the source virtual machine](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine)
+- [Troubleshoot COM+/Volume Shadow Copy service error (error code 151025)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#comvolume-shadow-copy-service-error-error-code-151025)
+- [Check outbound connectivity to Site Recovery URLs or IP ranges from the VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors?#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
 
 ## **Recommended documents**
+
+- [Steps to configuring outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)<br>
 - Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components <br>
 - [Steps to **enable replication** for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-enable-replication)<br>
 - [**Networking guidance** for replicating Azure virtual machines](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-network)<br>
-- [Steps to configuring outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)<br>
 - Understand the [scenario architecture and components](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture) <br>
