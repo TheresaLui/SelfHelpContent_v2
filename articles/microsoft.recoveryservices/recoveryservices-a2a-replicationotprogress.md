@@ -14,9 +14,9 @@
 # Replication does not progress in A2A scenario
 
 ## **Recommended steps**
-- [Troubleshooting common Azure to Azure VM ongoing replication issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication)<br>
-- [Recovery points are not getting generated for the replicated VM?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#recovery-points-not-getting-generated)
-- [Understand and resolve high data change rate(churn) on the source virtual machine](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine)
+- [Troubleshoot common Azure to Azure VM ongoing replication issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication)<br>
+- [Recovery points are not generating for the replicated VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#recovery-points-not-getting-generated)
+- [Understand and resolve high data change rate/churn issue on the source virtual machine](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication#high-data-change-rate-on-the-source-virtal-machine)
 - [Troubleshoot COM+/Volume Shadow Copy service error (error code 151025)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#comvolume-shadow-copy-service-error-error-code-151025)
 - [Check outbound connectivity to Site Recovery URLs or IP ranges from the VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors?#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
 
