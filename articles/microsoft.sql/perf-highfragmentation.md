@@ -7,11 +7,11 @@
     authors="zhimwang" 
     displayOrder="" 
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
-    diagnosticScenario="" 
-    selfHelpType="rca" 
-    supportTopicIds="" 
+    diagnosticScenario="HighFragmentation" 
+    selfHelpType="diagnostics" 
+    supportTopicIds="31980401,32511226" 
     resourceTags="" 
-    productPesIds="" 
+    productPesIds="13491" 
     cloudEnvironments="public" 
 /> 
 # We ran diagnostics on your resource and found an issue 
