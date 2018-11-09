@@ -85,7 +85,7 @@
                           	"order": 6,
 			  	"visibility": "issue_Type == Push installation failure due to unsupported version",
                           	"controlType": "infoblock",
-                          	"content": "<b>Ensure source machine has the <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'> supported Operating System/Kernel version</a> for successful installation of Mobility service."
+                          	"content": "Ensure source machine has the <a href='https://docs.microsoft.com/azure/site-recovery/support-matrix-vmware-to-azure#replicated-machines'> supported Operating System/Kernel version</a> for successful installation of Mobility service."
             			},{
 			        "id": "learn_more_text",
                           	"order": 7,
