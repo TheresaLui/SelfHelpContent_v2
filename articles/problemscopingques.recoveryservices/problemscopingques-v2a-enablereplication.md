@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Vmware to Azure enable replication"
          description="Scoping questions for Vmware to Azure enable replication"
-         authors="Rajeswari-mamilla"
+         authors="Rajeswarimamilla"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536405"
          productPesIds="16370"
