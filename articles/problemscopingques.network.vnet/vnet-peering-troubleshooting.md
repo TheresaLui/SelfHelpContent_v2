@@ -18,21 +18,9 @@
 	"formElements": [{
 			"id": "source_vm internal IP address",
 			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Please select the source Virtual Machine",
-			"watermarkText": "Choose and option",
-			"dynamicDropdownOptions": {
-					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
-					"jTokenPath": "value",
-					"textProperty": "id",
-					"valueProperty": "id",
-					 "textPropertyRegex": "[^/]+$"
-					},
-			"dropdownOptions": [{
-					"value": "Unable to get the list of VMs",
-					"text": "Unable to get the list of VMs"
-				}
-			],
+			"controlType": "textbox",
+			"displayLabel": "Please provide the source Virtual Machine IP address",
+			"watermarkText": "Enter source Virtual Machine",
 			"required": true
 		}, {
 			"id": "destination_vm internal IP address",
