@@ -19,7 +19,7 @@
 			"id": "source_vm internal IP address",
 			"order": 1,
 			"controlType": "textbox",
-			"displayLabel": "Please provide the source Virtual Machine IP address",
+			"displayLabel": "Please provide the source Virtual Machine internal IP address",
 			"watermarkText": "Enter source Virtual Machine",
 			"required": true
 		}, {
