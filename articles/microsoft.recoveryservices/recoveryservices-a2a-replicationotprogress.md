@@ -11,7 +11,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public"
 />
-# Replication does not progress in A2A scenario
+# Replication does not progress in Azure to Azure (A2A) scenario
 
 ## **Recommended steps**
 - [Troubleshoot common Azure to Azure VM ongoing replication issues](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-replication)<br>
