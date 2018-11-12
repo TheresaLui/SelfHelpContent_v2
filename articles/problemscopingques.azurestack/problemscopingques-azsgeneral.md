@@ -14,12 +14,12 @@
 {
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "To help the support agent identify your issue, collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
     "formElements": [{
             "id": "hardware_partner",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Azure Stack Hardware Partner",
+            "displayLabel": "Azure Stack hardware partner",
             "watermarkText": "Choose a partner name",
             "dropdownOptions": [{
                     "value": "Avanade",
@@ -91,11 +91,6 @@
             "hints": [{
                     "text": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
                 }]
-        },{
-            "id": "initial_data_collection",
-            "order": 4,
-            "controlType": "infoblock",
-            "content": "To help the support agent identify your issue, please run Test-AzureStack and collect Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>"
         }
     ]
 }
