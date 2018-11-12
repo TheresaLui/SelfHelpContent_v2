@@ -17,18 +17,18 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-Authentication request (SAML request) doesnt have the correct reply url. This will prevent any user from accessing this application.
+The Authentication request (SAML request) that you are sending doesnt have the correct reply url. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Sign-in to Azure Portal as a global administrator or another role that is able to manage this application.
+**Step1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step2**: Navigate to Azure Active Directory, and on the list of Enterprise applications, find the application for which you want to
+**Step2**: Navigate to the Azure Active Directory, and on the list of Enterprise applications blade, find the application for which you want to
            enable federated single sign-on.
 
-**Step3**: Click on the application name to open it.Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step4**: Under Domain and URLs section, update or enter the Reply URL (ACS URL) in Azure AD with the correct value <!--$ReplyUrl-->ReplyUrl<!--/$ReplyUrl-->. If you don’t see a Reply URL field, pleaes check the "Show Advance URL settings" section.
+**Step4**: Under the Domain and URLs section, update or enter the Reply URL (ACS URL) in Azure AD with the correct value <!--$ReplyUrl-->ReplyUrl<!--/$ReplyUrl-->. If you don’t see a Reply URL field, pleaes check the "Show Advance URL settings" section.
 
 Your application should now be available for user sign-in.
 

@@ -17,7 +17,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-User was not able to Sign-in as we were not able to process authentication/SAML request. The SAML request was invalid or it was missing properties.
+The authentication/SAML request that you are sending is malformed. The SAML request was invalid or it was missing properties.
 
 In order to enable user sign-in for this application, please follow the steps below:
 

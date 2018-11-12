@@ -17,18 +17,18 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-User was not able to Sign-in because the application does not exit in the directory that was sent in the authentication/SAML request. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
+The application you were trying to sign in does not exit in the Azure Active Directory. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
 **Step1**: Please refer to the SAML request provided at the end.
 
-**Step2**: Sign-in to Azure Portal as a global administrator or another role that is able to manage this application.
+**Step2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step3**: Navigate to Azure Active Directory, and on the list of Enterprise applications, find the application for which you want to
+**Step3**: Navigate to the Azure Active Directory, and go to Enterprise applications blade, search for the application for which you want to
            enable federated single sign-on.
 
-**Step4**: Click on the application name to open it.Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
 **Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
 
