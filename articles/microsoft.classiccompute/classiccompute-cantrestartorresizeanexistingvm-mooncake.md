@@ -17,7 +17,7 @@
 ## **Recommended steps**
 To resolve common issues, try one or more of the following methods.
 
-1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason
+1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) to determine the failure reason
 2. Look up suggested actions by error code <br>
 [Troubleshoot error codes for resize & restart](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)
 3. Try your request using a smaller VM size or using a different cloud service. Use the following article if you're using a different cloud service. <br>

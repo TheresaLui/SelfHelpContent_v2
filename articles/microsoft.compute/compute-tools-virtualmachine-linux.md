@@ -14,10 +14,10 @@
 
 # tools
 
-[Reset SSH public key or password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset)<br>
+[Reset SSH public key or password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)<br>
 Reset the SSH public key or password of the an account with sudo privileges<br>
 
-[Serial Console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade)<br>
+[Serial Console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.id.$resourceId)<br>
 Log on to Virtual Machines serial console<br>
 
 View boot diagnostics<br>

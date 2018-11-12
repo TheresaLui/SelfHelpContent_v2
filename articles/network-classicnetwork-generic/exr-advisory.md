@@ -15,5 +15,5 @@
 # advisory
 
 ## **Recommended documents**
-Check how to [create ExpressRoute and setup configurations](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager)<br>
-Check [frequentaly asked questions](https://docs.microsoft.com/azure/expressroute/expressroute-faqs) on ExpressRoute
+* Check how to [create ExpressRoute and setup configurations](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager)<br>
+* Check [frequently asked questions](https://docs.microsoft.com/azure/expressroute/expressroute-faqs) on ExpressRoute
