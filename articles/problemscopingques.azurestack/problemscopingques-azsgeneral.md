@@ -31,6 +31,9 @@
                     "value": "Dell-EMC",
                     "text": "Dell-EMC"
                 },{
+                    "value": "Fujitsu",
+                    "text": "Fujitsu"
+                },{
                     "value": "Huawei",
                     "text": "Huawei"
                 },{
