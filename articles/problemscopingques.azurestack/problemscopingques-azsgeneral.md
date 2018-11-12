@@ -55,6 +55,9 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1807 if your build number is 1.1807.0.76.",
             "dropdownOptions": [{
+                    "value": "1811",
+                    "text": "1809"
+                },{
                     "value": "1810",
                     "text": "1810"
                 },{
