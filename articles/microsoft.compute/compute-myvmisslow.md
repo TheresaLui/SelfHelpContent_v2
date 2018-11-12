@@ -31,4 +31,4 @@ Try the following steps to diagnose and mitigate VM performance issues:
 
 ## **Recommended documents**
 
-* [Detailed troubleshooting of Azure Storage](https://docs.azure.cn/storage/storage-monitoring-diagnosing-troubleshooting/)
+* [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
