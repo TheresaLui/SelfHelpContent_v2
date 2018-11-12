@@ -17,36 +17,35 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-The user who is trying to login doesnt have permissions to access the application. There are two possible scenarios for this problem. The most common is that user hasn't been assigned to the application.
+The user who is trying to log in does not have permissions to access the application. There are two possible scenarios for this problem. The most common is that user hasn't been assigned to the application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step2**: Navigate to the Azure Active Directory, and go to the Enterprise applications blade, search for the application to which you want to enable federated single sign on.
+**Step 2**: Navigate to the Azure Active Directory and go to the Enterprise applications blade, search for the application for which you want to enable federated single sign on.
 
-**Step3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step4**: In the Users and groups section, click on Add user to assign the user to the application.
+**Step 4**: In the Users and groups section, click on Add user to assign the user to the application.
 
 <i><h6>If you have already assigned the user to the application but the problem continues.</h6></i>
 
-Azure AD is signing the user to another instance of the application. It happens because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
+Azure AD is trying to log in the user into another instance of the application. It happens because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
 
-**Step1**: Get a SAML request from the application, and copy the value of the \"Issuer\" property. To get a SAML request, and find the value of the \"Issuer\" property, please follow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
+**Step 1**: Get a SAML request from the application, and copy the value of the \"Issuer\" property. To get a SAML request, and find the value of the \"Issuer\" property, please follow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
-**Step2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step3**: Navigate to Azure Active Directory, and on the list of Enterprise applications, find the application for which you want to
-           enable federated single sign-on.
+**Step 3**: Navigate to Azure Active Directory and go to the Enterprise applications blade, search for the application for which you want to enable federated single sign-on.
 
-**Step4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID)'. Please check if the 'Issuer' value matches the 'Identifier (Entity ID)' configured for that instance.
+**Step 5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID)'. Please check if the 'Issuer' value matches the 'Identifier (Entity ID)' configured for that instance.
 
 If it matches, you can do one of the following listed below:
-    **StepA**: Use the current application to enable single sign-on and assign the users or group to the application.
-	**StepB**: Update the configuration on the software vendor to provide a different identifier. Use this value as the 'Identifier (Entity ID)' to enable single sign-on with the application you were configuring at first.
+    **Step A**: Use the current application to enable single sign-on and assign the users or group to the application.
+	**Step B**: Update the configuration on the software vendor to provide a different identifier. Use this value as the 'Identifier (Entity ID)' to enable single sign-on with the application you were configuring at first.
 
 Your application should now be available for user sign-in.
 

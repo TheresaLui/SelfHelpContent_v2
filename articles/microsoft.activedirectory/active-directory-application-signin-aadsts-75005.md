@@ -21,9 +21,9 @@ The authentication/SAML request that you are sending is malformed. The SAML requ
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Please follow this <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc--> to learn how to capture the SAML request.
+**Step 1**: Please follow this <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc--> to learn how to capture the SAML request.
 
-**Step2**: Share the SAML request and Azure AD single sign-on SAML protocol requirements with the software vendor or developer of the application. SAML protocol requirements link <!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->.
+**Step 2**: Share the SAML request and Azure AD single sign-on SAML protocol requirements with the software vendor or developer of the application. SAML protocol requirements link <!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->.
 
 Your application should be available for user sign-in once the authentication request contains the required fields.
 

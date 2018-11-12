@@ -17,20 +17,19 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-The application you were trying to sign in does not exit in the Azure Active Directory. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
+The application you were trying to sign in does not exist in the Azure Active Directory. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**:  Get a SAML request from the application, and copy the value of the \"Issuer\" property. For instructions on how to get a SAML request, and find the value of the \"Issuer\" property, foloow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->.
+**Step 1**:  Get a SAML request from the application, and copy the value of the \"Issuer\" property. For instructions on how to get a SAML request, and find the value of the \"Issuer\" property, follow this document: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->.
 
-**Step2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step3**: Navigate to Azure Active Directory, and go to the Enterprise applications blade, find the application for which you want to
-           enable federated single sign-on.
+**Step 3**: Navigate to Azure Active Directory and go to the Enterprise applications blade, find the application for which you want to enable federated single sign-on.
 
-**Step4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
+**Step 5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
 
 Your application should be available for user sign-in.
 

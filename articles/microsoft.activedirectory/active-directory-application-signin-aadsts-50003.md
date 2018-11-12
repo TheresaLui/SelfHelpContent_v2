@@ -17,24 +17,23 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-The certificate for you application is not valid or is either expired. A new certificate should be created or the existing certificate should be made active. An Invalid certificate will prevent any user from accessing this application.
+The certificate for your application is  invalid or  expired. A new certificate should be created or the existing certificate should be made active. An Invalid certificate will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step2**: Navigate to the Azure Active Directory, and on the list of Enterprise applications blade, search the application for which you want to
-           enable federated single sign-on.
+**Step 2**: Navigate to the Azure Active Directory and go the Enterprise applications blade, search for the application for which you want to enable federated single sign-on.
 
-**Step3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step4**: Click on "Create new certificate" button under the SAML signing Certificate section. Select the expiration date and finally, click Save.
+**Step 4**: Click on the "Create new certificate" button under the SAML signing Certificate section. Select the expiration date and click Save.
 
-**Step5**: Select the checkbox and make new certificate active to replace the old certificate. Then please click Save at the top of the pane and this will make your new certificate active.
+**Step 5**: Select the checkbox to make the new certificate active and then click Save to replace the old certificate with this new one.
 
-**Step6**: Under the SAML Sign-in Certificate section, click Remove to remove the unused certificate.
+**Step 6**: Under the SAML Sign-in Certificate section, click Remove to remove the unused certificate.
 
-**Step7**: Download the new active certificate and update it in your application.
+**Step 7**: Download the new active certificate and update it in your application.
 
 Your application should now be available for user sign-in.
 

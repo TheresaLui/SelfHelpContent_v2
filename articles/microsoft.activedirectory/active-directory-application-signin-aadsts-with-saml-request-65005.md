@@ -21,16 +21,15 @@ The application you were trying to sign in does not exit in the Azure Active Dir
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step1**: Please refer to the SAML request provided at the end.
+**Step 1**: Please refer to the SAML request provided at the end.
 
-**Step2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step3**: Navigate to the Azure Active Directory, and go to Enterprise applications blade, search for the application for which you want to
-           enable federated single sign-on.
+**Step 3**: Navigate to the Azure Active Directory, and go to Enterprise applications blade, search for the application for which you want to enable federated single sign-on.
 
-**Step4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
+**Step 5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
 
 Your application should be available for user sign-in.
 
@@ -38,5 +37,5 @@ For future sign-in problems with SAML based applications, we recommend using the
 
 For more information on common application-related issues, please refer to the following document: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
 
-<h4>SAML Request Recieved:</h4>				
+<h4>SAML Request Received:</h4>				
 <!--$SAMLRequestFormatted-->SAMLRequestFormatted<!--/$SAMLRequestFormatted-->	
