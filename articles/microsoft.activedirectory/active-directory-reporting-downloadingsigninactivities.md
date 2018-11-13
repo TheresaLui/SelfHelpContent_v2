@@ -18,8 +18,8 @@
 
 ### **Troubleshooting download issues**
 
-* If you don't see all the sign-ins for the date range you selected, please note that you can download up to 5000 rows (sorted by most recent) of sign-ins from Azure Portal.<br>
-* If you want to download more, you can use the "Script" option in the Sign-ins blade to download a PowerShell Script and run the same to get the results in .csv format
+* If you don't see all the sign-ins for the date range you selected, you can download up to 5000 rows (sorted by most recent) of sign-ins from the Azure portal.<br>
+* If you want to download more, open the Sign-ins blade and select the **Script** option to download a PowerShell script that can give you the results in .csv format
 
 ## **Recommended documents**
 

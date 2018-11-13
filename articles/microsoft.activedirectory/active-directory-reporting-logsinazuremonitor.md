@@ -16,12 +16,12 @@
 
 ## **Recommended steps**
 
-* Sign-ins are available only for Azure AD Premium-licensed tenants. It's not available for Free- or Basic-licensed tenants.<br>
-* Audit and Sign-ins logs are only available from the time you have configured the logs to be routed through Azure Monitor Diagnostics. There's no backfilling of the logs.
+* Sign-ins are available only for Azure AD Premium-licensed tenants. It's not available for Free or Basic licensed tenants.<br>
+* Audit and Sign-in logs are available only from the time you have configured the logs to be routed through Azure Monitor Diagnostics. There's no backfilling of the logs.
 
 ### **Troubleshooting issues with sign-ins**
 
-If you are a P1 tenant and can't see the sign-ins within 15 mins in the destination you configured (Storage Account or Event Hub or Log Analytics WOrkspace), file a support ticket if the delay exceeds the documented latency
+If you are a P1 tenant and can't see the sign-ins within 15 mins in the destination you configured (Storage Account or Event Hub or Log Analytics WOrkspace), file a support ticket if the delay exceeds the documented latency.
 
 ## **Recommended documents**
 

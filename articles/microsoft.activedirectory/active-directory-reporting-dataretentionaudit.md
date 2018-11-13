@@ -16,12 +16,12 @@
 
 ## **Recommended steps**
 
-* You can only see the last 30 days of data if you are Premium tenant (Azure AD P1 or P2) or last 7 days of data if you are Free or Basic tenant.<br>
-* Sign-ins are available only for Azure AD Premium tenants. It's not available for free or Basic licensed Tenants.
+* You can only see the last 30 days of data if your tenant has an Azure AD Premium license (Azure AD P1 or P2) or last 7 days of data if your tenant has an Azure AD Free or Basic license.<br>
+* Sign-ins are available only for Azure AD Premium tenants. It's not available for Free or Basic licensed tenants.
 
 ### **Troubleshooting issues with Sign-ins**
 
-* If you are a P1 tenant and can't see the Audit logs, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency
+* If you can't see audit logs in your Azure AD Premium P1 tenant, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency.
 
 ## **Recommended documents**
 

@@ -16,11 +16,11 @@
 
 ## **Recommended steps**
 
-* Sign-ins are available only for Azure AD Premium tenants. It's not available for free or Basic licensed tenants
+* Sign-ins are available only for Azure AD Premium tenants. They're not available for Bree or Basic licensed tenants.
 
 ### **Troubleshooting issues with Sign-ins**
 
-* If you are a P1 tenant and can't see the sign-ins, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency
+* If you are a P1 tenant and can't see the sign-ins, check out our [latency information](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies) and file a support ticket if the delay exceeds the documented latency.
 
 ## **Recommended documents**
 
