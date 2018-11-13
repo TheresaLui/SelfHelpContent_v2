@@ -18,7 +18,7 @@
 
 ### **Troubleshooting issues with sign-ins**
 
-* If you have a CorrelationId or RequestId, visit the [Sign-ins blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/SignIns) in the Azure portal, filter by "CorrelationId" and look at the Error code and failure reasons.
+* If you have a CorrelationId or RequestId, visit the [Sign-ins blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/SignIns) in the Azure portal, filter by "CorrelationId" and look at the error code and failure reasons.
 * If you have the error code, check out the [error description and resolution](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-sign-ins-error-codes#error-codes) documentation to determine the cause of the issue.
 * If you have issues with multiple sign-in requests, visit the [Sign-ins blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/SignIns) in the Azure portal and try filtering by user or application to determine the scope of the issue before filing a support ticket.
 

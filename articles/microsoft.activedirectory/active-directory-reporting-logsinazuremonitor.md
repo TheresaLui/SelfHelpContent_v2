@@ -21,7 +21,7 @@
 
 ### **Troubleshooting issues with sign-ins**
 
-If you are a P1 tenant and can't see the sign-ins within 15 mins in the destination you configured (Storage Account or Event Hub or Log Analytics WOrkspace), file a support ticket if the delay exceeds the documented latency.
+If you are a P1 tenant and can't see the sign-ins within 15 mins in the destination you configured (Storage Account or Event Hub or Log Analytics Workspace), file a support ticket if the delay exceeds the documented latency.
 
 ## **Recommended documents**
 
