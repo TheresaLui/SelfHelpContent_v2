@@ -20,7 +20,7 @@ We have found that your load balancer **'<!--$LoadBalancerName-->[LoadBalancerNa
 <!--/issueDescription-->
 
 ## **Recommended steps**
-* Add one or more Virtual Machines or Virtual Machine Scale Set Instances in the backend pool of your load balancer 
+* Add one or more Virtual Machines or Virtual Machine Scale Set instances in the backend pool of your load balancer 
 * Make sure the instances are configured to respond to the load balancer health probe as well as over the service port(s)
 
 ## **Recommended documents**
