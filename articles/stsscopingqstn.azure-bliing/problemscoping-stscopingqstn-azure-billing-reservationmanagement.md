@@ -10,7 +10,6 @@
    articleId="2c14140e-abca-4ef8-8c67-f5ebd7974567"
 />
 # Reservation Management
-Please provide the reservation type: <br>
 ---
 {
     "resourceRequired": false,
