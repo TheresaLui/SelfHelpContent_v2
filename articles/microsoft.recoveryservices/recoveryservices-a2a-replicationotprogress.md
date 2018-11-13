@@ -21,7 +21,6 @@
 - [Check outbound connectivity to Site Recovery URLs or IP ranges from the VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors?#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
 
 ## **Recommended documents**
-
 - [Steps to configuring outbound network connectivity](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication#configure-outbound-network-connectivity)<br>
 - Review the [**Support Requirements**](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components <br>
 - [Steps to **enable replication** for Azure VMs](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-enable-replication)<br>
