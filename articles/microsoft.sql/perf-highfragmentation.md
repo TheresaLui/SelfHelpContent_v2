@@ -30,3 +30,6 @@ Monitoring file space usage and shrinking data files may be necessary in the fol
 
 * If this space will be used soon, disregard this insight.
 * If this space is no longer needed, you can reclaim it by following suggestions detailed in the [Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management) in the Reclaim unused allocated space section.
+
+## **Recommended Documents**
+[Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management)
