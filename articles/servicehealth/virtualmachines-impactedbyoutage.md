@@ -1,28 +1,23 @@
 <properties
-	pageTitle="Your resource was impacted by an Azure service issue"
-	description=""
-	infoBubbleText="Your resource was impacted. See details on the right."
+	pageTitle="Your virtual machine was impacted by an Azure service issue"
+	description="Your virtual machine was impacted by an Azure service issue"
+	infoBubbleText="Your virtual machine was impacted by an Azure service issue"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="dushyantgill"
-	displayOrder=""
-	articleId="ServiceHealth-VirtualMachines-ImpactedByOutage"
-	diagnosticScenario="ash_vm_outage"
-	selfHelpType="diagnostics"
-	supportTopicIds="32411809,32604406,32411835,32549257,32549256,32411875,32565496,32549259,32411877,32608639,32589415,32591320,32591160,32411817"
-	resourceTags=""
-	productPesIds="15797,15571,16215,16065,16470,14749,16080"
+	articleId="servicehealth-virtualmachines-impactedbyoutage"
+	diagnosticScenario="health_diagnostic"
+	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
+	articleTags="healthannotation_impactedbyoutage"
 />
 
-# Your resource was impacted by an Azure service issue
-
-<!--issueDescription-->
+# Your virtual machine was impacted by an Azure service issue
+ <!--issueDescription-->
 At <!--$startTime-->startTime<!--/$startTime--> UTC, your virtual machine <!--$resourceName-->resourceName<!--/$resourceName-->, was impacted by an Azure service issue. 
 <!--/issueDescription-->
 
 Please view the latest information about the service issue in Azure service health: [Tracking ID <!--$outageTrackingId-->outageTrackingId<!--/$outageTrackingId-->](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthHistory). You may also download a PDF summary document for the service issue in Azure Service Health.
-
 
 ## **Recommended steps**
 

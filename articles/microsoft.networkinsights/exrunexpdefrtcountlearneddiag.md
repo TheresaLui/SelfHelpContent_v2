@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="exrunexpdefrtcountlearneddiag"
+    articleId="ExRCoreRouterUnexpectedLearnedDefaultRouteCountInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539963, 32539944"
     resourceTags="windows"

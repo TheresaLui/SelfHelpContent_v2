@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="ExRFailToExecConnChkBtwMSEEGWMDiag"
+    articleId="ExRGwmConnectivityReachabilityStatusInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539944"
     resourceTags="windows, Express Route"

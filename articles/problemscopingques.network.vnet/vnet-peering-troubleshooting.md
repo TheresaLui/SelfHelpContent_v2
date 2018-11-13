@@ -3,6 +3,7 @@
 	description="VNET Peering Troubleshooting"
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
+	articleid="cannotconnectVMinapeeredVNET"
 	supportTopicIds="32584249"
 	productPesIds="15526"
 	cloudEnvironments="public"
@@ -19,20 +20,15 @@
 			"order": 1,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the source Virtual Machine internal IP address",
-			"watermarkText": "Provide source Virtual Machine",
-			"required": false
+			"watermarkText": "Enter source Virtual Machine",
+			"required": true
 		}, {
 			"id": "destination_vm internal IP address",
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the destination Virtual Machine internal IP address",
-			"required": false
-		}, {
-			"id": "destination_port",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Please provide the destination port",
-			"required": false
+			"watermarkText": "Enter destination Virtual Machine",
+			"required": true
 		}
 	]
 }
