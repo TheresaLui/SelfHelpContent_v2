@@ -8,7 +8,7 @@ symptomID=""
 infoBubbleText=""
 authors="yossiy"
 displayorder=""
-selfHelpType="resource"
+selfHelpType="generic"
 supportTopicIds="32612455"
 resourceTags=""
 productPesIds="15725"
@@ -31,6 +31,6 @@ Follow the steps below to view, or change the data retention period in your work
 **Important:**<br>
 * If you are on the free pricing plan, you will not be able to modify the data retention period. To change the retention period, upgrade to a paid plan first.
 * Data retention policy applies to all the data in the workspace except *AzureActivity* table, which has a minimum retention period of 90 days.<br>
-## **Recommended documents**<br>
+## **Recommended documents**
 * [Change the data retention period](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-cost-storage#change-the-data-retention-period)
 * [Manage cost by controlling data volume and retention in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-cost-storage)
