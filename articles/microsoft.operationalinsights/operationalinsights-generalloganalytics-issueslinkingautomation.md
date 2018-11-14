@@ -34,7 +34,7 @@ To link an Automation account to a Log Analytics workspace, follow these steps:<
 
 **Important:** The removal of Automation & Control solution from workspace doesn't remove the link to the Automation account. To remove the link, follow the steps in 'Automation account link verification' above.
 
-## **Recommended documents**<br>
+## **Recommended documents**
 * [Unlink workspace](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace)
 * [Azure Automation User Documentation](https://docs.microsoft.com/azure/automation/)
 * [Forward job status and job streams from Automation to Log Analytics](https://docs.microsoft.com/azure/automation/automation-manage-send-joblogs-log-analytics)
