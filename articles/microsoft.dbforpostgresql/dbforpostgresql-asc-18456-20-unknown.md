@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-18456-20-unknown"
 	diagnosticScenario="OrcasPostgresBackendErrorUnKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds="32569389, 32569392, 32569390"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"
@@ -22,7 +22,7 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended steps**
 
-As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-high-availability) for more details.
+As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) for more details.
 
 ## **Recommended documents**
 

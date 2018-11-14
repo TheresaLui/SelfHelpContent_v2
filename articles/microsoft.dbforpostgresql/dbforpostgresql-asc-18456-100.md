@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-18456-100"
 	diagnosticScenario="OrcasPostgresSSLNotSpecified"
 	selfHelpType="rca"
-	supportTopicIds="32569392, 32569391"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"

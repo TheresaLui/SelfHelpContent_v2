@@ -6,7 +6,7 @@
 	authors="ankam"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32628413"
+	supportTopicIds="32628413, 32628390, 32628414"
 	productPesIds="16221"
 	cloudEnvironments="public"
 />
@@ -15,6 +15,8 @@
 
 ## **Recommended documents**
 
-* [Use Virtual Network service endpoints and rules for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet/)<br>
-* [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli/)<br>
-* [Configure a VNET-to-VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
+[Use Virtual Network service endpoints and rules for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet/)<br>
+
+[Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli/)<br>
+
+[Configure a VNET-to-VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)

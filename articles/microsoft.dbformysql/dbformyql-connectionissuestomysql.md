@@ -15,14 +15,15 @@
 # Connection issues to Azure Databases for MySQL
 
 ## **Recommended steps**
-Persistent connection issues to Azure Databases for MySQL can occur due to incorrect firewall configuration, incorrect connection string and other causes.<br>
 
-* [Set up firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow the client IP address <br>
+Persistent connection issues to Azure Databases for MySQL can occur due to incorrect firewall configuration, incorrect connection string and other causes. Work through the following checklist to assure you are not hitting a misconfiguration problem:
 
-* Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers that host your client program <br>
-
-* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/concepts-high-availability/) in your application <br>
+* [Set up firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow the client IP address
+* Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers that host your client program
+* Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application
 
 ## **Recommended documents**
-* [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/concepts-high-availability/)<br>
-* [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)<br>
+
+[Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
+
+[Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)

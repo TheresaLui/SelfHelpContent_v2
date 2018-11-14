@@ -9,7 +9,7 @@
 	articleId="dbformysql-asc-18456-2-unknown"
 	diagnosticScenario="OrcasMySQLBackendErrorUnKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds="32568704, 32568709"
+	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public"
@@ -22,7 +22,7 @@ Thank you for contacting Microsoft support about your connection issues to your 
 
 ## **Recommended steps**
 
-As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-high-availability) for more details.
+As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/mysql/concepts-connectivity) for more details.
 
 ## **Recommended documents**
 
