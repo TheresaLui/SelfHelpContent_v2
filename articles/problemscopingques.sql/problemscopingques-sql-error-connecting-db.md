@@ -19,7 +19,7 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please enter the approximate time when you encountered the error.",
+			"displayLabel": "Please enter the approximate time when the error started occurring.",
 			"required": true
 		}, {
 			"id": "problem_end_time",
@@ -38,7 +38,7 @@
 					"text": "-1: A network-related or instance-specific error has occurred..."
 				}, {
 					"value": "Error_10928",
-					"text": "10928: The session limit for the database is X and has been reached"
+					"text": "10928: Resource ID: X. The Y limit for the database is Z and has been reached"
 				}, {
 					"value": "Error_18456",
 					"text": "18456: Login failed for user X"
@@ -62,7 +62,7 @@
 			"visibility": "error_dropdown == Error_10928",
 			"order": 100,
 			"controlType": "infoblock",
-			"content": "This error specifies a resource type that indicates which resource governance limit is being hit.  A value of 1 is a limit fonor worker threads; a value of 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier."
+			"content": "The Resource ID value in this error indicates which resource governance limit is being hit.  A value of 1 is a limit on worker threads; 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier.  Refer to the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-query-performance'>Query Performance Insight</a> feature for assistance analyzing and tuning your workload."
 		}, {
 			"id": "info_error_18456",
 			"visibility": "error_dropdown == Error_18456",
@@ -74,7 +74,7 @@
 			"visibility": "error_dropdown == Error_40613",
 			"order": 400,
 			"controlType": "infoblock",
-			"content": "This is a common transient error when you database is undergoing a reconfiguration, and generally lasts less than 60 seconds.  <a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about how to handle this error."
+			"content": "This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds.  <a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about how to handle this."
 		},{
 			"id": "info_error_40615",
 			"visibility": "error_dropdown == Error_40615",
@@ -86,14 +86,14 @@
 			"visibility": "error_dropdown == Error_Login_Timeout",
 			"order": 700,
 			"controlType": "infoblock",
-			"content": "Ensure you are using a login timeout of at least 15 seconds.  Also, confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>DTU limits</a> of your selected service tier."
+			"content": "Ensure your application is using a login timeout of at least 15 seconds.  Also confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>limits</a> of your selected service tier."
 		}, {
 			"id": "error_details",
 			"order": 1000,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional context for the error message you are encountering.",
 			"required": true,
-			"watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient) instead of the general error from the client application.  If available, include the client stack trace as well.",
+			"watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well.",
 			"useAsAdditionalDetails": true
 		}
 	]
