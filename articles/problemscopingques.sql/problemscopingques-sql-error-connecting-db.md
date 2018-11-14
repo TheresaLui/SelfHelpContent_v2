@@ -7,6 +7,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="EF3EB923-28C0-48F6-B545-B7C5833862AF"
 />
 # VM Performance
 ---
