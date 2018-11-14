@@ -62,19 +62,19 @@
 			"visibility": "error_dropdown == Error_10928",
 			"order": 100,
 			"controlType": "infoblock",
-			"content": "This error message includes a resource type that indicates which resource governance limit is being hit.  A value of 1 is a limit for worker threads; a value of 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier."
+			"content": "This error specifies a resource type that indicates which resource governance limit is being hit.  A value of 1 is a limit fonor worker threads; a value of 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier."
 		}, {
 			"id": "info_error_18456",
 			"visibility": "error_dropdown == Error_18456",
 			"order": 200,
 			"controlType": "infoblock",
-			"content": "You can troubleshoot this error using the <a href='https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database '>Azure SQL Database troubleshooter</a>."
+			"content": "Troubleshoot this error using the <a href='https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database '>Azure SQL Database troubleshooter</a>."
 		}, {
 			"id": "info_error_40613",
 			"visibility": "error_dropdown == Error_40613",
 			"order": 400,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about this common transient error.  If the issue duration is less than 60 seconds, this is typically expected behavior."
+			"content": "This is a common transient error when you database is undergoing a reconfiguration, and generally lasts less than 60 seconds.  <a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about how to handle this error."
 		},{
 			"id": "info_error_40615",
 			"visibility": "error_dropdown == Error_40615",
