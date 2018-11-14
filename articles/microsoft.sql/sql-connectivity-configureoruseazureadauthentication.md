@@ -1,6 +1,6 @@
 <properties
-	pageTitle="availibility and connectivity/Configure or use Azure Active Directory authentication"
-	description="availibility and connectivity/Configure or use Azure Active Directory authentication"
+	pageTitle="availability and connectivity/Configure or use Azure Active Directory authentication"
+	description="availability and connectivity/Configure or use Azure Active Directory authentication"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
@@ -11,7 +11,7 @@
 	cloudEnvironments="public"
 />
 
-# availibility and connectivity/Configure or use Azure Active Directory authentication
+# availability and connectivity/Configure or use Azure Active Directory authentication
 
 ## **Recommended steps**
 
