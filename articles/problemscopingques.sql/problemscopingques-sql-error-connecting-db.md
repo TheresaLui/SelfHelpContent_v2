@@ -53,14 +53,12 @@
 			"required": true
 		}, {
 			"id": "activity_id",
-			"visibility": "error_selection == Error_40613"
 			"order": 10,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"visibility": "error_selection == Error_Other"
 			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details",
