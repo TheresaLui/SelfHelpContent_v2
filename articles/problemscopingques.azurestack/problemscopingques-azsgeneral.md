@@ -3,7 +3,7 @@
     description="Additional details for on-premises Azure Stack issue"
     authors="alexsmithMSFT"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32567908,32567920"
+    supportTopicIds="32567908,32567920,32567910,32591343,32567944,32591348,32591349"
     productPesIds="16226"
     cloudEnvironments="public"
     schemaVersion="1"
@@ -14,7 +14,7 @@
 {
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "To help the support agent identify your issue, collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and Azure Stack seed ring logs according to the article: <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
+    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>run a validation test for Azure Stack</a>",
     "formElements": [{
             "id": "hardware_partner",
             "order": 1,
