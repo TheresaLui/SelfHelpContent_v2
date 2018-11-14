@@ -12,7 +12,6 @@
 	cloudEnvironments="public"
 />
 
-
 # availability and connectivity/other issue not listed
 
 ## **Recommended steps**
