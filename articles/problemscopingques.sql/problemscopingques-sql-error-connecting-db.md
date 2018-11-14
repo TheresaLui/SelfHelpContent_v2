@@ -52,16 +52,29 @@
 			],
 			"required": true
 		}, {
+			"id": "info_error_40613",
+			"visibility": "error_dropdown == Error_40613",
+			"order": 400,
+			"controlType": "infoblock",
+			"content": "Here is some sample text for error 40613.  We can add a hyperlink in here for common solutions"
+		}, {
 			"id": "activity_id",
 			"visibility": "error_dropdown == Error_40613",
-			"order": 10,
+			"order": 401,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
 			"required": false
 		}, {
+			"id": "info_login_timeout",
+			"visibility": "error_dropdown == Error_Login_Timeout",
+			"order": 700,
+			"controlType": "infoblock",
+			"displayLabel": "Please ensure you use a login timeout of at least 15 seconds.",
+			"required": false
+		}, {
 			"id": "additional_details",
 			"visibility": "error_dropdown == Error_Other",
-			"order": 11,
+			"order": 800,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details",
 			"required": false,
@@ -71,12 +84,6 @@
 					"text": "Always provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
 				}
 			]
-		}, {
-			"id": "more_info_40613",
-			"visibility": "error_dropdown == Error_40613",
-			"order": 50,
-			"controlType": "infoblock",
-			"content": "Here is some sample text.  We can add a hyperlink in here for common solutions"
 		}
 	]
 }
