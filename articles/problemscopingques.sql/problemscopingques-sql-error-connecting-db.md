@@ -79,23 +79,21 @@
 			"id": "info_error_40615",
 			"visibility": "error_dropdown == Error_40615",
 			"order": 500,
-			"controlType": "textbox",
-			"displayLabel": "To resolve this error, please create a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>.",
-			"required": false
+			"controlType": "infoblock",
+			"content": "To resolve this error, please create a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>."
 		}, {
 			"id": "info_login_timeout",
 			"visibility": "error_dropdown == Error_Login_Timeout",
 			"order": 700,
 			"controlType": "infoblock",
-			"displayLabel": "Ensure you are using a login timeout of at least 15 seconds.  Also, confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>DTU limits</a> of your selected service tier.",
-			"required": false
+			"content": "Ensure you are using a login timeout of at least 15 seconds.  Also, confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>DTU limits</a> of your selected service tier."
 		}, {
-			"id": "additional_details",
+			"id": "error_details",
 			"order": 1000,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional context for the error message you are encountering.",
-			"required": false,
-			"watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from the client application.  Please include the client stack trace if available.",
+			"required": true,
+			"watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient) instead of the general error from the client application.  If available, include the client stack trace as well.",
 			"useAsAdditionalDetails": true
 		}
 	]
