@@ -2,16 +2,15 @@
 	 description="appsappproxydatacollectiondoc" 
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32574685" 
-	 productPesIds="15441" 
+	 supportTopicIds="32369657,32570275" 
+	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
-	 articleId="dca3fd01-4d13-4b5d-8bf3-a8dfb7656fed"
 /> 
 # Active Directory application proxy issue 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application proxy issue",
   "fileAttachmentHint": null,
   "formElements": [

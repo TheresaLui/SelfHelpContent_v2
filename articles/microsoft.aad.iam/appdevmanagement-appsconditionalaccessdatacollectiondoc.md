@@ -3,8 +3,8 @@
     description="appsconditionalaccessdatacollectiondoc"
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615362"
-    productPesIds="15441"
+    supportTopicIds="32596842,32596872,32596859"
+    productPesIds="14785,16579"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="17f35c58-24cd-4be7-b90f-fe6f7b64def5"
@@ -14,7 +14,7 @@
 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Conditional Access issue",
   "fileAttachmentHint": "Screenshot of problem",
   "formElements": [

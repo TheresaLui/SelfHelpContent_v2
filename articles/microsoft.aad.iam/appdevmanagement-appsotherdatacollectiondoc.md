@@ -3,8 +3,8 @@
     description="appsotherdatacollectiondoc"
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615382"
-    productPesIds="15441"
+    supportTopicIds="32570274"
+    productPesIds="14785,16575"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="9e77fb24-54b8-4ce3-9855-cf722faf17b0"
@@ -14,7 +14,7 @@
 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Active Directory application other issue",
   "fileAttachmentHint": null,
   "formElements": [
