@@ -22,26 +22,26 @@
 			"displayLabel": "Please select the error message you need assistance with.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "-1: A network-related or instance-specific error has occurred...",
-					"text": "Error_Minus_1"
+					"value": "Error_Minus_1",
+					"text": "-1: A network-related or instance-specific error has occurred..."
 				}, {
-					"value": "10928: The session limit for the database is X and has been reached",
-					"text": "Error_10928"
+					"value": "Error_10928",
+					"text": "10928: The session limit for the database is X and has been reached"
 				}, {
-					"value": "18456: Login failed for user X",
-					"text": "Error_18456"
+					"value": "Error_18456",
+					"text": "18456: Login failed for user X"
 				}, {
-					"value": "40613: Database X on server Y is not currently available",
-					"text": "Error_40613"
+					"value": "Error_40613",
+					"text": "40613: Database X on server Y is not currently available"
 				}, {
-					"value": "40615: Cannot open server X requested by the login",
-					"text": "Error_40615"
+					"value": "Error_40615",
+					"text": "40615: Cannot open server X requested by the login"
 				}, {
-					"value": "Login/connection timeouts",
-					"text": "Error_Login_Timeout"
+					"value": "Error_Login_Timeout",
+					"text": "Login/connection timeouts"
 				}, {
-					"value": "Other error not listed ",
-					"text": "Error_Other"
+					"value": "Error_Other",
+					"text": "Other error not listed"
 				}
 			],
 			"required": true
