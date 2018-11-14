@@ -49,8 +49,29 @@
 			"id": "problem_start_date",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please select the approximate time when the error was occurring, specified as UTC.",
+			"displayLabel": "Please select the approximate time when the error was occurring (specified as your local time).",
 			"required": true
+		}, {
+			"id": "activity_id",
+			"visibility": "error_selection == Error_40613"
+			"order": 10,
+			"controlType": "textbox",
+			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
+			"required": false
+		}, {
+			"id": "additional_details",
+			"visibility": "error_selection == Error_Other"
+			"order": 11,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide additional details",
+			"required": false,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				}, {
+					"text": "Please provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
+				}
+			]
 		}
 	]
 }
