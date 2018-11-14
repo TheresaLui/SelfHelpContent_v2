@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32628800"
 	productPesIds="13491"
-	cloudEnvironments=""
+	cloudEnvironments="Public"
 	schemaVersion="1"
 />
 # Error When Connecting to my Database
