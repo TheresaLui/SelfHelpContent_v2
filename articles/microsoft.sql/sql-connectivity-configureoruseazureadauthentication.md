@@ -1,17 +1,17 @@
 <properties
-	pageTitle="connectivity/Configure or use Azure Active Directory authentication"
-	description="connectivity/Configure or use Azure Active Directory authentication"
+	pageTitle="availibility and connectivity/Configure or use Azure Active Directory authentication"
+	description="availibility and connectivity/Configure or use Azure Active Directory authentication"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32568891"
+	supportTopicIds="32628798"
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# connectivity/Configure or use Azure Active Directory authentication
+# availibility and connectivity/Configure or use Azure Active Directory authentication
 
 ## **Recommended steps**
 
