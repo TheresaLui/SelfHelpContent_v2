@@ -62,7 +62,7 @@
 			"visibility": "error_dropdown == Error_10928",
 			"order": 100,
 			"controlType": "infoblock",
-			"content": "The Resource ID value in this error indicates which resource governance limit is being hit.  A value of 1 is a limit on worker threads; 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier.  Refer to the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-query-performance'>Query Performance Insight</a> feature for assistance analyzing and tuning your workload."
+			"content": "The Resource ID indicates which resource governance limit is being hit.  A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections).  For short term mitigation, increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database; longer term, tune the workload so it better fits the selected tier.  Refer to the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-query-performance'>Query Performance Insight</a> feature for assistance analyzing and tuning your workload."
 		}, {
 			"id": "info_error_18456",
 			"visibility": "error_dropdown == Error_18456",
@@ -80,7 +80,7 @@
 			"visibility": "error_dropdown == Error_40615",
 			"order": 500,
 			"controlType": "infoblock",
-			"content": "To resolve this error, please create a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>."
+			"content": "Resolve this error by creating a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>."
 		}, {
 			"id": "info_login_timeout",
 			"visibility": "error_dropdown == Error_Login_Timeout",
