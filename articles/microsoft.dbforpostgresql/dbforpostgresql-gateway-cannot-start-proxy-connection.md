@@ -20,8 +20,8 @@
 To provide layered security and service scalability connections from clients to your database server are made via a Gateway. Our internal service telemetry detected an usually high number(<!--$count-->count<!--/$count-->) of login attempted failures indicating that a Gateway process was failing to make a proxy connection to your host database server. Our support engineering team restarted the process and observed connections succeeding as expected. Our engineering team has been made aware of the failed process and will monitor Gateways to determine a permanent fix.
 <!--/issueDescription-->
 
-
 ## **Recommended documents**
+
 [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
 
 [Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforPostgreSQL)

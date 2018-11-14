@@ -65,7 +65,7 @@
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 2
-    },
+    }
   ]
 }
 ---
