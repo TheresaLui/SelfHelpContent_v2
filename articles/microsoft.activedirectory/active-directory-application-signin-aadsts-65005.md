@@ -17,7 +17,7 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-The application you were trying to sign in does not exist in the Azure Active Directory. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
+The application you were trying to sign into does not exist in the Azure Active Directory. The application may not be configured properly in Azure AD. The Issuer value that is coming in the sign in request (SAML request) does not match the application Identifier.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -25,7 +25,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step 3**: Navigate to Azure Active Directory and go to the Enterprise applications blade, find the application for which you want to enable federated single sign-on.
+**Step 3**: Navigate to Azure Active Directory and go to the Enterprise applications blade. Search for the application for which you want to enable federated single sign-on.
 
 **Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
@@ -33,6 +33,6 @@ In order to enable user sign-in for this application, please follow the steps be
 
 Your application should be available for user sign-in.
 
-For future sign in problems with SAML based applications, we recommend using the testing feature with My Apps secure Sign-in Extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
+For future sign in problems with SAML based applications, we recommend using the testing feature with the My Apps secure sign-in extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
 For more information on common application-related issues, please refer to the following document: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->

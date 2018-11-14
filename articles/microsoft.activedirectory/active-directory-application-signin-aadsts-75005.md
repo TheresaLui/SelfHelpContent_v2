@@ -23,10 +23,10 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 1**: Please follow this <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc--> to learn how to capture the SAML request.
 
-**Step 2**: Share the SAML request and Azure AD single sign-on SAML protocol requirements with the software vendor or developer of the application. SAML protocol requirements link <!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->.
+**Step 2**: Share the SAML request and Azure AD single sign-on SAML protocol requirements with the owner or developer of the application. SAML protocol requirements link <!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->.
 
 Your application should be available for user sign-in once the authentication request contains the required fields.
 
-For future sign-in problems with SAML based applications, we recommend using the testing feature with My Apps secure Sign-in Extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
+For future sign-in problems with SAML based applications, we recommend using the testing feature with the My Apps secure sign-in extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
 For more information on common application-related issues, please refer to the following document: <!--$AppSignInErrorHelpPage-->AppSignInErrorHelpPage<!--/$AppSignInErrorHelpPage-->
