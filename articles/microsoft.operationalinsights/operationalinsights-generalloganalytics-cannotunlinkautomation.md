@@ -17,7 +17,7 @@ cloudEnvironments="Public, Fairfax"
 
 # Cannot unlink Automation account
 You need Contributor permission in the Resource Group level to perform this operation.
-## **Recommended steps**<br>
+## **Recommended steps**
 To unlink an Automation account from a Log Analytics workspace you must first remove all solutions from the workspace that have dependencies on the Automation account, including:<br>
 * Update Management
 * Change Tracking
