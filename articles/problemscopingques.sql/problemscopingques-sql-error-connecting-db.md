@@ -15,17 +15,23 @@
 	"resourceRequired": false,
 	"title": "Error When Connecting to my Database",
 	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "problem_start_date",
+"formElements": [{
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please enter the approximate time when the error was occurring (specify as your local time).",
+			"displayLabel": "Please enter the approximate time when you encountered the error.",
 			"required": true
 		}, {
-			"id": "error_dropdown",
+			"id": "problem_end_time",
 			"order": 2,
+			"controlType": "datetimepicker",
+			"displayLabel": "Please enter the approximate time when the error stopped occurring. If the issue is ongoing, leave this field blank.",
+			"required": false
+		}, {
+			"id": "error_dropdown",
+			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What error were you seeing?",
+			"displayLabel": "What error are you seeing?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Error_Minus_1",
@@ -52,38 +58,45 @@
 			],
 			"required": true
 		}, {
+			"id": "info_error_10928",
+			"visibility": "error_dropdown == Error_10928",
+			"order": 100,
+			"controlType": "infoblock",
+			"content": "This error message includes a resource type that indicates which resource governance limit is being hit.  A value of 1 is a limit for worker threads; a value of 2 indicates a limit on sessions (connections) to the database.  Either increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database, or tune the workload so that it fits within your selected tier."
+		}, {
+			"id": "info_error_18456",
+			"visibility": "error_dropdown == Error_18456",
+			"order": 200,
+			"controlType": "infoblock",
+			"content": "You can troubleshoot this error using the <a href='https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database '>Azure SQL Database troubleshooter</a>."
+		}, {
 			"id": "info_error_40613",
 			"visibility": "error_dropdown == Error_40613",
 			"order": 400,
 			"controlType": "infoblock",
-			"content": "Here is some sample text for error 40613.  We can add a hyperlink in here for common solutions"
-		}, {
-			"id": "activity_id",
-			"visibility": "error_dropdown == Error_40613",
-			"order": 401,
+			"content": "<a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about this common transient error.  If the issue duration is less than 60 seconds, this is typically expected behavior."
+		},{
+			"id": "info_error_40615",
+			"visibility": "error_dropdown == Error_40615",
+			"order": 500,
 			"controlType": "textbox",
-			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
+			"displayLabel": "To resolve this error, please create a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>.",
 			"required": false
 		}, {
 			"id": "info_login_timeout",
 			"visibility": "error_dropdown == Error_Login_Timeout",
 			"order": 700,
 			"controlType": "infoblock",
-			"displayLabel": "Please ensure you use a login timeout of at least 15 seconds.",
+			"displayLabel": "Ensure you are using a login timeout of at least 15 seconds.  Also, confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>DTU limits</a> of your selected service tier.",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"visibility": "error_dropdown == Error_Other",
-			"order": 800,
+			"order": 1000,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide additional details",
+			"displayLabel": "Please provide additional context for the error message you are encountering.",
 			"required": false,
-			"watermarkText": "Please describe in detail the issue you need assistance with.",
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Always provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
-				}
-			]
+			"watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from the client application.  Please include the client stack trace if available.",
+			"useAsAdditionalDetails": true
 		}
 	]
 }
