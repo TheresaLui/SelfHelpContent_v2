@@ -59,6 +59,7 @@
 			"required": false
 		}, {
 			"id": "additional_details",
+			"visibility": "error_selection == Other error not listed"
 			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details",
