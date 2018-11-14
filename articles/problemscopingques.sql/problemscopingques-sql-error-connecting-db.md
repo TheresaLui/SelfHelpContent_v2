@@ -1,77 +1,99 @@
 <properties
-	pageTitle="Error When Connecting to my Database"
-	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
-	authors="keithelm"
+	pageTitle="Slow virtual machine"
+	description="Slow virtual machine"
+	authors="AlexKuriatnyk"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32628800"
-	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Error When Connecting to my Database
+# VM Performance
 ---
 {
-	"resourceRequired": false,
-	"title": "Error When Connecting to my Database",
+	"resourceRequired": true,
+	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "error_selection",
+			"id": "slow_vm_determination",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the error message you need assistance with.",
+			"displayLabel": "How did you determine that your virtual machine was slow?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "-1: A network-related or instance-specific error has occurred...",
-					"text": "Error_Minus_1"
+					"value": "It's slower that it typically is",
+					"text": "It's slower that it typically is"
 				}, {
-					"value": "10928: The session limit for the database is X and has been reached",
-					"text": "Error_10928"
+					"value": "Another virtual machine in the subscription is faster",
+					"text": "Another virtual machine in the subscription is faster"
 				}, {
-					"value": "18456: Login failed for user X",
-					"text": "Error_18456"
+					"value": "Benchmarking tests not meeting minimum Azure specifications",
+					"text": "Benchmarking tests not meeting minimum Azure specifications"
 				}, {
-					"value": "40613: Database X on server Y is not currently available",
-					"text": "Error_40613"
-				}, {
-					"value": "40615: Cannot open server X requested by the login",
-					"text": "Error_40615"
-				}, {
-					"value": "Login/connection timeouts",
-					"text": "Error_Login_Timeout"
-				}, {
-					"value": "Other error not listed ",
-					"text": "Error_Other"
+					"value": "It's faster in a non-Azure environment",
+					"text": "It's faster in a non-Azure environment"
 				}
 			],
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_start_date",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please select the approximate time when the error was occurring, specified as UTC.",
-			"required": true
+			"displayLabel": "When did the problem begin?",
+			"required": false
 		}, {
-			"id": "activity_id",
-			"visibility": "error_selection == Error_40613"
-			"order": 10,
-			"controlType": "textbox",
-			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
+			"id": "applications_on_vm",
+			"order": 3,
+			"controlType": "multiselectdropdown",
+			"displayLabel": "Select the applications running on your virtual machine",
+			"dropdownOptions": [{
+					"value": "CRM Dynamics",
+					"text": "CRM Dynamics"
+				}, {
+					"value": "IIS / Web Front end",
+					"text": "IIS / Web Front end"
+				}, {
+					"value": "MySQL",
+					"text": "MySQL"
+				}, {
+					"value": "Oracle",
+					"text": "Oracle"
+				}, {
+					"value": "Remote Desktop Services",
+					"text": "Remote Desktop Services"
+				}, {
+					"value": "SAP Hanna",
+					"text": "SAP Hanna"
+				}, {
+					"value": "SharePoint",
+					"text": "SharePoint"
+				}, {
+					"value": "SQL",
+					"text": "SQL"
+				}, {
+					"value": "Other (describe below)",
+					"text": "Other"
+				}
+			],
 			"required": false
 		}, {
 			"id": "additional_details",
-			"visibility": "error_selection == Error_Other"
-			"order": 11,
+			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide additional details",
+			"displayLabel": "Please provide these details",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
 				}, {
-					"text": "Please provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
+					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
 				}
 			]
+		}, {
+			"id": "learn_more_text",
+			"order": 6,
+			"controlType": "infoblock",
+			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
 		}
 	]
 }
