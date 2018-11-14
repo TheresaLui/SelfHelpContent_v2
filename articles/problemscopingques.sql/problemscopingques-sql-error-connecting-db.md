@@ -16,10 +16,16 @@
 	"title": "Error When Connecting to my Database",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "error_selection",
+			"id": "problem_start_date",
 			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "Please enter the approximate time when the error was occurring (specify as your local time).",
+			"required": true
+		}, {
+			"id": "error_dropdown",
+			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the error message you need assistance with.",
+			"displayLabel": "What error were you seeing?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Error_Minus_1",
@@ -46,32 +52,31 @@
 			],
 			"required": true
 		}, {
-			"id": "problem_start_date",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Please select the approximate time when the error was occurring (specified as your local time).",
-			"required": true
-		}, {
 			"id": "activity_id",
-			"visibility": "error_selection == Error_40613",
+			"visibility": "error_dropdown == Error_40613",
 			"order": 10,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
 			"required": false
 		}, {
 			"id": "additional_details",
-			"visibility": "error_selection == Error_Other",
+			"visibility": "error_dropdown == Error_Other",
 			"order": 11,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details",
 			"required": false,
+			"watermarkText": "Please describe in detail the issue you need assistance with.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Please provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
+					"text": "Always provide the error text from the underlying client library (e.g., SqlClient), as well as a client stack trace when the error occurred."
 				}
 			]
+		}, {
+			"id": "more_info_40613",
+			"visibility": "error_dropdown == Error_40613",
+			"order": 50,
+			"controlType": "infoblock",
+			"content": "Here is some sample text.  We can add a hyperlink in here for common solutions"
 		}
 	]
 }
