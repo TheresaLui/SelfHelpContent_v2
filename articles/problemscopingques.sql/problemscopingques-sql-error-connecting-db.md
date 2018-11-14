@@ -17,7 +17,7 @@
 	"formElements": [{
 			"id": "error_selection",
 			"order": 1,
-			"controlType": "DropDown",
+			"controlType": "dropdown",
 			"displayLabel": "Please select the error message you need assistance with.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
@@ -54,7 +54,7 @@
 			"id": "activity_id",
 			"visibility": "error_selection == Error_40613"
 			"order": 10,
-			"controlType": "TextBox",
+			"controlType": "textbox",
 			"displayLabel": "Please provide the session tracing ID (only the GUID) from the text of the 40613 error message.",
 			"required": false
 		}, {
