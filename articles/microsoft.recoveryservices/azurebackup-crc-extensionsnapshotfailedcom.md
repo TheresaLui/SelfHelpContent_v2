@@ -41,7 +41,7 @@ There are two common causes for this issue. Follow the steps outlined in the **E
 * Login to the impacted VM and open the **Registry Editor** by typing **regedit** in the **Run** window
 * Set the following 2 Reg-Keys to false <br>
 
-	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgent -> IsProviderInstalled**
-	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled**
+	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgent -> IsProviderInstalled** <br>
+	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled** <br>
 	
 * Trigger the backup operation from Azure Portal
