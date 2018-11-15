@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="What are the capabilities of Media Analytics?"
     description="What are the capabilities of Media Analytics?"
     service="microsoft.media"
@@ -18,7 +18,7 @@
 
 Azure Media Services offers Media Analytics, a collection of speech and vision components (at enterprise scale, compliance, security and global reach) that make it easier for organizations and enterprises to derive actionable insights from their video files.
 
-To get an overview of Media Analitics, see [this](https://docs.azure.cn/media-services/media-services-analytics-overview/) topic.
+To get an overview of Media Analytics, please refer to this [article](https://docs.azure.cn/media-services/media-services-analytics-overview/) topic.
 
 The following articles give details about analytics media processors:
 
