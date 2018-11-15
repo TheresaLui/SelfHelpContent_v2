@@ -139,7 +139,7 @@
 			"displayLabel": "Please provide these details:",
 			"watermarkText": "Enter details here",
 			"required": true,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description that includes device names, error message(s) and scenario(s) that are failing."
 				}, {
