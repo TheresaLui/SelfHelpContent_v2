@@ -12,11 +12,11 @@
 	cloudEnvironments="public"
 />
 
-# availability and connectivity/other issue not listed
-
-Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
+# Availability and Connectivity/other
 
 ## **Recommended steps**
+
+Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
 
 * Set up firewall rules to allow the client IP address.<br>
 [Configure SQL Azure firewall rules](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)
