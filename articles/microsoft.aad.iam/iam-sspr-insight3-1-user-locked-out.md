@@ -6,7 +6,7 @@
     resource=""
     authors="sadiehenry"
     displayOrder="1"
-    articleId="User_Locked_Out"
+    articleId="IAM_SSPR_User_Locked_Out"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
