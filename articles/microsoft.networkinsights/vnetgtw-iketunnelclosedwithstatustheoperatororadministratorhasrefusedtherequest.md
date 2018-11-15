@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # VPN Tunnel Connection Was Disconnected
 <!--issueDescription-->
-We have identified that tunnel {TunnelId} was disconnected because the Gateway received a connect request on an alreading connecting/connected state tunnel or the Connection request was received on a secondary gateway instance.
+We have identified that tunnel {TunnelId} was disconnected because the Gateway received a connection request on a tunnel that is already in connecting/connected state or the connection request was received on a secondary gateway instance. 
 ## **Mitigation Steps**
 If the tunnel reconnects in a few minutes then no action is necessary, otherwise try [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).
 
