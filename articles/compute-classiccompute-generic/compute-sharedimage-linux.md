@@ -27,8 +27,9 @@ If you run into issues while performing any operations on shared image galleries
 5. [Unable to share resources](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshooting-shared-images#unable-to-share-resources)
 
 ## **Recommended documents**
+
 * [Announcing the public preview of Shared Image Gallery](https://azure.microsoft.com/blog/announcing-the-public-preview-of-shared-image-gallery/)<br>
 * [Troubleshooting shared image galleries](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshooting-shared-images)<br>
 * [Shared Image Gallery overview for *Linux*](https://docs.microsoft.com/azure/virtual-machines/linux/shared-image-galleries)<br>
 * [Using Shared Image Gallery with CLI](https://docs.microsoft.com/azure/virtual-machines/linux/shared-images)<br>
-* [Create a VM from Shared Image Gallery](http://docs.microsoft.com/azure/virtual-machines/linux/shared-images#create-a-vm)<br>
+* [Create a VM from Shared Image Gallery](http://docs.microsoft.com/azure/virtual-machines/linux/shared-images#create-a-vm)

@@ -7,7 +7,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565494"
-	resourceTags="linux, redhat"
+	resourceTags=""
 	productPesIds="15571,15797,16454,14749"
 	cloudEnvironments="public"
 />
@@ -24,5 +24,5 @@ Use Azure Backup to protect the data for on-premises servers, virtual machines, 
 * [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
 * [Troubleshoot slow backup of files and folders in Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
 * [Review the features of Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)<br>
-* [Understand how to back up Azure virtual machines to Recovery Services vaults](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
+* [Understand how to backup Azure virtual machines to Recovery Services vaults](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
 * [Understand how to use Premium Storage with Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)
