@@ -22,7 +22,7 @@
 			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resources?api-version=2017-06-01&%24filter=tagname%20eq%20'hidden-link%3A%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2FMicrosoft.Insights%2Fcomponents%2F{resourcename}'%20and%20tagvalue%20eq%20'Resource'",
+                "uri": "/subscriptions/{subscriptionid}/resources?api-version=2017-06-01&$filter=tagname+eq+'hidden-link:/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Insights/components/{resourcename}'+and+tagvalue+eq+'Resource'",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
