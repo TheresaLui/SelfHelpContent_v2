@@ -6,7 +6,7 @@
     resource=""
     authors="sadiehenry"
     displayOrder="1"
-    articleId="Password_Reset_Not_Enabled"
+    articleId="IAM_SSPR_Password_Reset_Not_Enabled"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
