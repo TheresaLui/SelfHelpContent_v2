@@ -15,7 +15,7 @@
     cloudEnvironments="public"
 />
 
- # User is not enabled for self-service password reset
+# User is not enabled for self-service password reset
  
  We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has not been enabled for self-service password reset. To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset, do the following: 
 
