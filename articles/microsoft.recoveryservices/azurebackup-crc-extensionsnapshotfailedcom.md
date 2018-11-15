@@ -42,6 +42,7 @@ There are two common causes for this issue. Follow the steps outlined in the **E
 * Set the following 2 Reg-Keys to false <br>
 
 	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgent -> IsProviderInstalled** <br>
+	
 	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled** <br>
 	
 * Trigger the backup operation from Azure Portal
