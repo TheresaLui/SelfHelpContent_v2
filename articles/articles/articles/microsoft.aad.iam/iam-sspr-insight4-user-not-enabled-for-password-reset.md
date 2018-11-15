@@ -6,7 +6,7 @@
     resource=""
     authors="sadiehenry"
     displayOrder="1"
-    articleId="User_Not_Enabled_For_Password_Reset"
+    articleId="IAM_SSPR_User_Not_Enabled_For_Password_Reset"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
@@ -14,6 +14,7 @@
     productPesIds=""
     cloudEnvironments="public"
 />
+
  # User is not enabled for self-service password reset
  
  We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has not been enabled for self-service password reset. To enable <!--$UserId-->[UserId]<!--/$UserId--> for self-service password reset, do the following: 
