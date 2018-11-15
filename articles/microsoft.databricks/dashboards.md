@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Databricks DBFS"
-	description="Databricks DBFS"
+	pageTitle="Databricks Dashboards"
+	description="Databricks Dashboards"
 	service="microsoft.databricks"
 	resource="workspaces"
 	authors="mspreshah"
