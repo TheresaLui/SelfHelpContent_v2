@@ -6,7 +6,7 @@
     resource=""
     authors="sadiehenry"
     displayOrder="1"
-    articleId="User_Not_Homed_In_Tenant"
+    articleId="IAM_SSPR_User_Not_Homed_In_Tenant"
     selfHelpType="diagnostics"
     diagnosticScenario="health_diagnostic"
     supportTopicIds=""
