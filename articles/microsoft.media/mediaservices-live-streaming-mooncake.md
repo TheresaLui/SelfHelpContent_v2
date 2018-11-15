@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="How to configure live streaming?"
     description="How to configure live streaming?"
     service="microsoft.media"
@@ -16,7 +16,7 @@
 
 ## **Recommended documents**
 
-It might be useful to first read the article that gives an overview of live steaming using Azure Media Services.
+It might be useful to first read the article that gives an overview of live streaming using Azure Media Services.
 
 [Overview](https://docs.azure.cn/media-services/media-services-manage-channels-overview/)
 
