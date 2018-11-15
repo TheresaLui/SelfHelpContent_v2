@@ -7,7 +7,7 @@
 	authors="vitomaz"
 	displayOrder=""
 	articleId="sql_datasync_loginfailedinmember"
-	diagnosticScenario=""
+	diagnosticScenario="SqlDataSync"
 	selfHelpType="diagnostics"
 	supportTopicIds="32574329"
 	resourceTags=""
