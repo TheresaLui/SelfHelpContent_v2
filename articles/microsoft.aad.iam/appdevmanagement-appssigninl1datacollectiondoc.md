@@ -3,8 +3,8 @@
     description="appssigninl1datacollectiondoc"
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596848,32596837,32570955"
-    productPesIds="14785,16575"
+    supportTopicIds="32570955,32596851,32596848,32596856,32596837,32268132,32570275,32570259,32570274,32596862,32615379,32615388,32615397,32615424,32596867,32615381,32615390,32615398,32447987,32596842,32596872,32615399,32615515,32615516,32615400,32615519"
+    productPesIds="16575,16579"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
@@ -86,22 +86,18 @@
         {
           "text": "No",
           "value": "no"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
         }
       ],
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": true,
+      "required": false,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
     },
     {
-      "id": "getCorrelationIdOther",
-      "visibility": "hasErrorData==other",
+      "id": "getCorrelationId",
+      "visibility": "hasErrorData==no",
       "order": 5,
       "controlType": "infoblock",
       "displayLabel": null,
@@ -117,13 +113,30 @@
       "numberOfLines": 0
     },
     {
-      "id": "getCorrelationId",
-      "visibility": "hasErrorData==no",
+      "id": "correlationId",
+      "visibility": "hasErrorData==yes",
       "order": 6,
-      "controlType": "infoblock",
-      "displayLabel": null,
-      "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
-      "watermarkText": null,
+      "controlType": "textbox",
+      "displayLabel": "Correlation ID from Error message:",
+      "content": null,
+      "watermarkText": "Copy the correlation ID from the error message and paste it here",
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": [],
+      "required": false,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+    },
+	{
+      "id": "timestamp",
+      "visibility": "hasErrorData==yes || hasErrorData==no",
+      "order": 7,
+      "controlType": "textbox",
+      "displayLabel": "Timestamp from Error message:",
+      "content": null,
+      "watermarkText": "Copy the timestamp from the error message and paste it here",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
@@ -134,137 +147,35 @@
       "numberOfLines": 0
     },
     {
-      "id": "timestamp",
-      "visibility": "hasErrorData==yes",
-      "order": 7,
-      "controlType": "textbox",
-      "displayLabel": "Timestamp from Error message:",
-      "content": null,
-      "watermarkText": "Copy the timestamp from the error message and paste it here",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "correlationId",
-      "visibility": "hasErrorData==yes",
+      "id": "appNameOrId",
+      "visibility": "hasErrorData==no",
       "order": 8,
-      "controlType": "textbox",
-      "displayLabel": "Correlation ID from Error message:",
+      "controlType": "multilinetextbox",
+      "displayLabel": "What is the Application name or Application ID experiencing this problem?",
       "content": null,
-      "watermarkText": "Copy the correlation ID from the error message and paste it here",
+      "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": true,
+      "required": false,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
-      "numberOfLines": 0
+      "numberOfLines": 2
     },
     {
-      "id": "error",
+      "id": "userNameOrId",
       "visibility": "hasErrorData==no",
       "order": 9,
-      "controlType": "multilinetextbox",
-      "displayLabel": "If you received an error, please provide the error message details:",
-      "content": null,
-      "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "appId",
-      "visibility": "hasErrorData==no",
-      "order": 10,
-      "controlType": "multilinetextbox",
-      "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-      "content": null,
-      "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 2
-    },
-    {
-      "id": "whichUser",
-      "visibility": "hasErrorData==no",
-      "order": 11,
       "controlType": "textbox",
-      "displayLabel": "Which user or admin is experiencing this problem?",
+      "displayLabel": "Which user is experiencing this problem?",
       "content": null,
-      "watermarkText": "Enter user name or Object ID of the user in Azure Active Directory",
+      "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "errorOther",
-      "visibility": "hasErrorData==other",
-      "order": 12,
-      "controlType": "multilinetextbox",
-      "displayLabel": "If you received an error, please provide the error message details:",
-      "content": null,
-      "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "appIdOther",
-      "visibility": "hasErrorData==other",
-      "order": 13,
-      "controlType": "multilinetextbox",
-      "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-      "content": null,
-      "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 2
-    },
-    {
-      "id": "whichUserOther",
-      "visibility": "hasErrorData==other",
-      "order": 14,
-      "controlType": "textbox",
-      "displayLabel": "Which user or admin is experiencing this problem?",
-      "content": null,
-      "watermarkText": "Enter user name or Object ID of the user in Azure Active Directory",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
+      "required": false,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
       "numberOfLines": 0
@@ -272,19 +183,19 @@
     {
       "id": "appsSignInL1DataCollectionDocadditionalDetails",
       "visibility": null,
-      "order": 15,
+      "order": 10,
       "controlType": "multilinetextbox",
-      "displayLabel": "Please provide additional details",
+      "displayLabel": "If you received an error, please provide the error message details:",
       "content": null,
-      "watermarkText": null,
+      "watermarkText":  "AADSTSXXXXX: error message, Error message from the application, etc... ",
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
       "hints": null,
-      "required": true,
+      "required": false,
       "maxLength": 0,
       "useAsAdditionalDetails": true,
-      "numberOfLines": 0
+      "numberOfLines": 3
     }
   ]
 }
