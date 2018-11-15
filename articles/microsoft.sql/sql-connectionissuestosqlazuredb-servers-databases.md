@@ -14,7 +14,7 @@
 
 # availability and connectivity/other issue not listed
 
-## **Recommended steps**
+## **Recommended documents**
 Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
 
 * Set up firewall rules to allow the client IP address.<br>
