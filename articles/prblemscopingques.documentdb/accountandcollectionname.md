@@ -47,7 +47,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the issue that you were facing",
 			"required": false,
-			"useAsAdditionalDetails": false,
+			"useAsAdditionalDetails": true,
 			"hints": [
 				{
 					"text": "More information on the exact issue."
