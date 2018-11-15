@@ -7,6 +7,7 @@
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="problemscopingques-classicalert"
 />
 # Metrics Alert (Classic)
 ---
