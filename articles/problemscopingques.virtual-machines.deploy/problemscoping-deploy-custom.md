@@ -22,7 +22,7 @@
                   "displayLabel": "When was the last reported time of the problem?",
                   "required": false
                 },{
-                  "id": "deployment_marketplaceimage",
+                  "id": "deployment_os",
                   "order": 2,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the distribution and version of OS?",
