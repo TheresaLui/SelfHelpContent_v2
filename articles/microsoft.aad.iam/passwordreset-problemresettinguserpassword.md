@@ -15,36 +15,10 @@
   "title": "Problem with password management user-initiated",
   "fileAttachmentHint": null,
   "formElements": [
-    {
-      "id": "hasErrorData",
-      "visibility": null,
-      "order": 1,
-      "controlType": "dropdown",
-      "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "Yes",
-          "value": "yes"
-        },
-        {
-          "text": "No",
-          "value": "no"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
 	{
       "id": "correlationId",
-      "visibility": "hasErrorData==yes",
-      "order": 2,
+      "visibility": null,
+      "order": 1,
       "controlType": "textbox",
       "displayLabel": "Correlation ID from Error message:",
       "content": null,
@@ -60,8 +34,8 @@
     },
 	{
       "id": "timestamp",
-      "visibility": "hasErrorData==yes || hasErrorData==no",
-      "order": 3,
+      "visibility": null,
+      "order": 2,
       "controlType": "textbox",
       "displayLabel": "Timestamp from Error message:",
       "content": null,
@@ -77,8 +51,8 @@
     },
 	{
       "id": "userNameOrId",
-      "visibility": "hasErrorData==no",
-      "order": 4,
+      "visibility": null,
+      "order": 3,
       "controlType": "textbox",
       "displayLabel": "Which user is experiencing this problem?",
       "content": null,
@@ -95,7 +69,7 @@
 	{
       "id": "errorMessageAdditionalDetails",
       "visibility": null,
-      "order": 5,
+      "order": 4,
       "controlType": "multilinetextbox",
       "displayLabel": "If you received an error, please provide the error message details:",
       "content": null,
