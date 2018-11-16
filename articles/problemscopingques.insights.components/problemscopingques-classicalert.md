@@ -22,7 +22,7 @@
 			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/resources?api-version=2018-09-01&$filter=resourcetype+eq+'microsoft.insights%2Falertrules'",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/resources?api-version=2018-09-01&$filter=resourcetype eq'microsoft.insights%2Falertrules'",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
