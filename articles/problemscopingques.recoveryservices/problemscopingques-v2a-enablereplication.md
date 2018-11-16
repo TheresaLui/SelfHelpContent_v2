@@ -34,7 +34,7 @@
 			                "order": 3,
                    			"visibility": "null",
 			                "controlType": "textbox",
-			                "displayLabel": "Provide the host name of the VM (or) failed Job Id:",
+			                "displayLabel": "Provide the host name of the VM (or) failed Job Id",
 			                "watermarkText": "Get failed Job Id from (Using new browser tab): Recovery Services Vault > Jobs > Site Recovery Jobs",
 					"required": true
                        		 },{
