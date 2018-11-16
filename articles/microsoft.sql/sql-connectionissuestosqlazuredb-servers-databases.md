@@ -1,20 +1,21 @@
 <properties
-	pageTitle="Connection issues to SQL Azure DB"
-	description="Connection issues to SQL Azure DB"
+	pageTitle="availability and connectivity/other issue not listed"
+	description="availability and connectivity/other issue not listed"
 	service="microsoft.sql"
 	resource="servers"
-	authors="kasparks"
+	authors="emlisa"
 	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds="31980428, 31980412, 31980414, 31980421"
-	resourceTags="servers, databases"
+	selfHelpType="generic"
+	supportTopicIds="32628803"
+	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# Connection issues to SQL Azure DB
+# Availability and Connectivity/other
 
 ## **Recommended steps**
+
 Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
 
 * Set up firewall rules to allow the client IP address.<br>
@@ -25,5 +26,5 @@ Persistent connection issues to Azure SQL Database can occur due to incorrect fi
 [Connection strings to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/#connections-to-azure-sql-database)
 
 ## **Recommended documents**
-[Troubleshoot common connectivity issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)
+* [Troubleshoot common connectivity issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)

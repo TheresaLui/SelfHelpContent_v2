@@ -19,5 +19,5 @@
 
 ## **Recommended documents**
 
-* [Define a server-level auditing policy](https://docs.microsoft.com/azure/sql-database/sql-database-auditing#subheading-8/)<br>
+* [Define a server-level auditing policy](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)<br>
 * [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
