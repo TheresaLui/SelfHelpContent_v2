@@ -18,7 +18,7 @@ If none of the other support topic categories quite fit your issue, then please 
 
 ## **Recommended steps**
 
-You can check the answers already available in StackOverflow for [Microsoft Graph](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  `microsoft-graph`.
+You can check the answers already available in StackOverflow for [Microsoft Graph](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  *microsoft-graph*.
 
 **Authentication or authorization issues** <br>
 
@@ -39,7 +39,7 @@ You can find more information on some of the other services and features in Micr
 
 **When I query for data it seems like I get an incomplete data set back** <br>
 
-If you are querying a collection (like `users`), Microsoft Graph uses server-side page limits, so result are always returned with a default page-size.  Your app should always expect to page through collections returned from the service.
+If you are querying a collection (like *users*), Microsoft Graph uses server-side page limits, so result are always returned with a default page-size.  Your app should always expect to page through collections returned from the service.
 
 [Microsoft Graph best practices](https://developer.microsoft.com/graph/docs/concepts/best-practices-concept) <br>
 [Paging Microsoft Graph data in your app](https://developer.microsoft.com/graph/docs/concepts/paging) <br>

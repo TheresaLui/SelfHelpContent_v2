@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-You can check the answers already available in StackOverflow for [Microsoft Graph SDK](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+SDK+isanswered%3Ayes+views%3A50) and [Microsoft Graph samples](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+samples+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  `microsoft-graph`.
+You can check the answers already available in StackOverflow for [Microsoft Graph SDK](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+SDK+isanswered%3Ayes+views%3A50) and [Microsoft Graph samples](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+samples+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  *microsoft-graph*.
 
 **Microsoft Graph Client Libraries (SDKs) and associated libraries**<br>
 

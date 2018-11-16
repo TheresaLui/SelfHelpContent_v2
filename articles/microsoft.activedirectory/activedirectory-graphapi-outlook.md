@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-You can check the answers already available in StackOverflow for [Microsoft Graph and Outlook](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+Outlook+isanswered%3Ayes+views%3A50), [Messages](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+messages+isanswered%3Ayes+views%3A50), [Contacts](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+contacts+isanswered%3Ayes+views%3A50), [Calendar](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+calendar+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  `microsoft-graph`.
+You can check the answers already available in StackOverflow for [Microsoft Graph and Outlook](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+Outlook+isanswered%3Ayes+views%3A50), [Messages](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+messages+isanswered%3Ayes+views%3A50), [Contacts](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+contacts+isanswered%3Ayes+views%3A50), [Calendar](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+calendar+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  *microsoft-graph*.
 
 **Authentication or authorization issues** <br>
 
