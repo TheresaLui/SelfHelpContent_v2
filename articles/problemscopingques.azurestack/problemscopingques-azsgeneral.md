@@ -81,9 +81,7 @@
                 }
                 ],
             "required": false,
-            "hints": [{
-                    "text": "Example: 1807 if your build number is 1.1807.0.76."
-                }]
+            "infoBalloonText": "Example: 1807 if your build number is 1.1807.0.76."
         },{
             "id": "region_name",
             "order": 3,
@@ -91,9 +89,7 @@
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
             "required": false,
-            "hints": [{
-                    "text": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
-                }]
+            "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
         }
     ]
 }
