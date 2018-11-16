@@ -12,15 +12,27 @@
 # VNET Peering Troubleshooting
 ---
 {
-	"resourceRequired": false,
+	"resourceRequired": true,
 	"title": "VM Information",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "source_vm internal IP address",
 			"order": 1,
-			"controlType": "textbox",
-			"displayLabel": "Please provide the source Virtual Machine internal IP address",
-			"watermarkText": "Enter source Virtual Machine",
+			"controlType": "dropdown",
+			"displayLabel": "Please select the source virtual machine",
+			"watermarkText": "Choose an option",
+			"dynamicDropdownOptions": {
+					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
+					"jTokenPath": "value",
+					"textProperty": "id",
+					"valueProperty": "id",
+					 "textPropertyRegex": "[^/]+$"
+					},
+			"dropdownOptions": [{
+					"value": "Unable to get the list of VM's",
+					"text": "Unable to get the list of VM's"
+				}
+			],
 			"required": true
 		}, {
 			"id": "destination_vm internal IP address",
