@@ -20,8 +20,8 @@ You can check the answers already available in StackOverflow for [Microsoft Grap
 
 **Authentication or authorization issues** <br>
 
-* If your app is **unable to acquire tokens** to call Microsoft Graph Outlook APIs you should pick the **Authentication token issues** Graph API category, to get more specific help and support on this topic.
-* If your app is **receiving authorization errors** when calling Microsoft Graph Outlook APIs, you should pick the **Authentication token issues** Graph API category, to get more specific help and support on this topic.
+* If your app is **unable to acquire tokens** to call Microsoft Graph OneDrive APIs you should pick the **Authentication token issues** Graph API category, to get more specific help and support on this topic.
+* If your app is **receiving authorization errors** when calling Microsoft Graph OneDrive APIs, you should pick the **Authentication token issues** Graph API category, to get more specific help and support on this topic.
 
 **Find out more about OneDrive in Microsoft Graph** <br>
 
