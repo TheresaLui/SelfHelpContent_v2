@@ -31,6 +31,7 @@
 			"id": "additional_details",
 			"order": 3,
 			"controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
 			"displayLabel": "Details of the issue.",
 			"watermarkText": "Provide additional information about your issue including error messages.",
 			"required": false

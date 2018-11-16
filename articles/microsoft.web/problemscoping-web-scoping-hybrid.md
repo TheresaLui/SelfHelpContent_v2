@@ -22,6 +22,7 @@
             "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
