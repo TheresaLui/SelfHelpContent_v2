@@ -16,10 +16,10 @@
 	"title": "VM Information",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "cannot_connect_vm",
+			"id": "source_vm internal IP address",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the VM you are not able to RDP or SSH to?",
+			"displayLabel": "Please select the source virtual machine",
 			"watermarkText": "Choose an option",
 			"dynamicDropdownOptions": {
 					"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/virtualNetworks/{resourcename}/virtualMachines/$ref?api-version=2017-09-01",
