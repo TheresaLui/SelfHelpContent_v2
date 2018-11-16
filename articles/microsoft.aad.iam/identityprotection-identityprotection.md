@@ -184,7 +184,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "identityProtectionadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",

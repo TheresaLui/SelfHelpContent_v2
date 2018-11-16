@@ -66,7 +66,7 @@
       "numberOfLines": 1
     },
     {
-      "id": "otherquestionsfederationdatacollectiondocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 4,
       "controlType": "multilinetextbox",

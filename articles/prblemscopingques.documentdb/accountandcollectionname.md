@@ -42,7 +42,7 @@
 				}]
 		},
 		{
-			"id": "issue-details",
+			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the issue that you were facing",

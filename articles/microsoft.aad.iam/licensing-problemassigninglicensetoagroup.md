@@ -173,7 +173,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "problemAssigningLicenseToAGroupadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

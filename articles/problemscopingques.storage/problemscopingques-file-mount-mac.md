@@ -30,7 +30,7 @@
 			],
 			"required": true
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

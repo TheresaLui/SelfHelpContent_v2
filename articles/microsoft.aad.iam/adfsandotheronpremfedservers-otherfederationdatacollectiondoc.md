@@ -49,7 +49,7 @@
       "numberOfLines": 1
     },
     {
-      "id": "otherfederationdatacollectiondocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 3,
       "controlType": "multilinetextbox",

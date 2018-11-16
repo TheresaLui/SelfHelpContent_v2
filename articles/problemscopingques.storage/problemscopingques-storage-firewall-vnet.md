@@ -43,7 +43,7 @@
 			"watermarkText": "service1;service2;service3",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

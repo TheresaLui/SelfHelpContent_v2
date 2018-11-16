@@ -194,7 +194,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "administratorInitiatedPasswordResetadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 10,
       "controlType": "multilinetextbox",

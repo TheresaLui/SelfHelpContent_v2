@@ -151,7 +151,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "problemAssigningLicenseToAUseradditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",

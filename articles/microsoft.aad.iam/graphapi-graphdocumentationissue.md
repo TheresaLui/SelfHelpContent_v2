@@ -84,7 +84,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "graphDocumentationIssueadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

@@ -164,7 +164,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "otherQuestionsRegardingPasswordManagementadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

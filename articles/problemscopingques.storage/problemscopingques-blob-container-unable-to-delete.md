@@ -33,7 +33,7 @@
 			"displayLabel": "Approximate time of the last deletion attempt",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

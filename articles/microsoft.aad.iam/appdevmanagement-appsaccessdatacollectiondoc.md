@@ -104,7 +104,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "appsAccessDataCollectionDocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

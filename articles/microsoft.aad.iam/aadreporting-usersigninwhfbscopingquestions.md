@@ -400,7 +400,7 @@
       "numberOfLines": 1
     },
     {
-      "id": "UserSigninWHFBScopingQuestionsadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 15,
       "controlType": "multilinetextbox",

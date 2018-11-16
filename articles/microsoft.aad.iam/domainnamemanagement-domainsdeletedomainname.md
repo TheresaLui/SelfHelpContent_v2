@@ -96,7 +96,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "domainsDeleteDomainNameadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

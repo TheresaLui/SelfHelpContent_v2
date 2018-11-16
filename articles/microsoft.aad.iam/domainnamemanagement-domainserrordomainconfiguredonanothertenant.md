@@ -109,7 +109,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "domainsErrorDomainConfiguredOnAnotherTenantadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

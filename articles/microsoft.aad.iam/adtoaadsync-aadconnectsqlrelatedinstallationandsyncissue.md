@@ -118,7 +118,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadConnectSQLRelatedInstallationAndSyncIssueadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

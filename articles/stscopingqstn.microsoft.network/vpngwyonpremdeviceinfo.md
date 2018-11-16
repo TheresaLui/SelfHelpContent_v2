@@ -100,7 +100,7 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "Additional details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide device Model and iOS/firmware version",

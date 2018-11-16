@@ -147,7 +147,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "otherProblemUserOrGroupadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",

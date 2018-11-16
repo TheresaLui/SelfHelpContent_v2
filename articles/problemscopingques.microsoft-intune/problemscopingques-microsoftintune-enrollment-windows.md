@@ -174,7 +174,7 @@
 			"displayLabel": "When did the problem start?",
 			"required": false
 		}, {
-			"id": "problem_details",
+			"id": "problem_description",
 			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details:",

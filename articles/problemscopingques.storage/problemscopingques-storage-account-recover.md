@@ -55,7 +55,7 @@
 			"displayLabel": "Date and time that the account was deleted",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

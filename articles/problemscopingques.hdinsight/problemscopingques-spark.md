@@ -72,7 +72,7 @@
 			],
 			"required": false
 		},{
-			"id": "yarn_app_id",
+			"id": "problem_description",
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "YARN Application Id in case of job failure",

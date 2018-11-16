@@ -504,7 +504,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "problemDeletingUseradditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 22,
       "controlType": "multilinetextbox",

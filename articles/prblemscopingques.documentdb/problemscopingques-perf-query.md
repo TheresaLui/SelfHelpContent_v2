@@ -101,7 +101,7 @@
 			"required": false
 		},
 		  {
-			"id": "performance_issue_details",
+			"id": "problem_description",
 			"order": 9,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the issue that you were facing.",

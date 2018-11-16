@@ -101,7 +101,7 @@
       "numberOfLines": 2
     },
     {
-      "id": "appsUserGroupDataCollectionDocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

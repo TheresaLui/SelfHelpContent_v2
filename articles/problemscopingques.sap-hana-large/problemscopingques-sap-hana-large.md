@@ -67,7 +67,7 @@
 			],
 			"required": true
 		}, {
-			"id": "large_instance_name",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details",

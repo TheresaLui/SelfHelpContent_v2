@@ -134,7 +134,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadConnectSynchronizationProblemForASpecificAttributeadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",

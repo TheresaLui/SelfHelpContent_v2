@@ -17,7 +17,7 @@
   "fileAttachmentHint": null,
   "formElements": [
     {
-      "id": "adminUserNameOrId",
+      "id": "problem_description",
       "visibility": null,
       "order": 1,
       "controlType": "textbox",

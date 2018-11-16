@@ -198,7 +198,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "graphGenericAPIOperationadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 11,
       "controlType": "multilinetextbox",

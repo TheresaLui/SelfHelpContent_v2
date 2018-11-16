@@ -108,7 +108,7 @@
 			"required": true
 		},
 		{
-			"id": "issue-details",
+			"id": "problem_description",
 			"order": 7,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the restore request. ",

@@ -202,7 +202,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "problemCreatingUseradditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 9,
       "controlType": "multilinetextbox",

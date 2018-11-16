@@ -22,7 +22,7 @@
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		  },{
-			"id": "stormworkload_details",
+			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details about the topology and the issue you are facing.",
