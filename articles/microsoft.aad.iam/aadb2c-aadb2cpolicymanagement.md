@@ -111,7 +111,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadB2CPolicyManagementadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

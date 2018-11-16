@@ -128,7 +128,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadconnectadfsdatacollectiondocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

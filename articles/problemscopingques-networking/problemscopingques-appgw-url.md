@@ -28,7 +28,7 @@
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 3,
 			"controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,

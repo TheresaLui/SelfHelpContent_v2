@@ -596,7 +596,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "supportDataCollectionAdminRolesadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 29,
       "controlType": "multilinetextbox",

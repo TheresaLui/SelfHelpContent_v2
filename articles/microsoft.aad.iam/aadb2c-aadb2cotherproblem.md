@@ -153,7 +153,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadB2COtherProblemadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

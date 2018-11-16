@@ -118,7 +118,7 @@
       "numberOfLines": 1
     },
     {
-      "id": "adfsmanualconfigdatacollectiondocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

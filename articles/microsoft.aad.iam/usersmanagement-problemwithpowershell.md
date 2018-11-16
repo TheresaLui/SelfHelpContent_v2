@@ -329,7 +329,7 @@
       "numberOfLines": 6
     },
     {
-      "id": "problemWithPowerShelladditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 17,
       "controlType": "multilinetextbox",

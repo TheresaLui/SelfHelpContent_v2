@@ -67,7 +67,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadConnectOtherQuestionsRegardingActiveDirectoryToAzureADSynchronizationadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 4,
       "controlType": "multilinetextbox",

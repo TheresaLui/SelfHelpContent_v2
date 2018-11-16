@@ -28,7 +28,7 @@
 			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

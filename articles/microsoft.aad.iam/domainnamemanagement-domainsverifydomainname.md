@@ -104,7 +104,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "domainsVerifyDomainNameadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

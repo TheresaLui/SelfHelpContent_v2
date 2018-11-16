@@ -64,7 +64,7 @@
 			"displayLabel": "Approx date and time of the most recent occurance",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

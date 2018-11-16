@@ -104,7 +104,7 @@
       "numberOfLines": 4
     },
     {
-      "id": "problemWithDynamicGroupsadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

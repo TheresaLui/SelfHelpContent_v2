@@ -28,7 +28,7 @@
 			"displayLabel": "Approximate start time of the most recent occurrence",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

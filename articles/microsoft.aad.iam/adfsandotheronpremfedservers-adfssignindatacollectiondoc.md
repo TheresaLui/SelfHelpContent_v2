@@ -144,7 +144,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "adfssignindatacollectiondocadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

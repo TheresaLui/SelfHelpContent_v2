@@ -71,7 +71,7 @@
 			"controlType": "infoblock",
 			"content": "<b>Most of the support requests get resolved using below troubleshooting articles. Try them to self-resolve and save time</b><ul><li>Replication not progressing? try these <a href='https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot'> troubleshooting</a> steps.</li><li> Missing/No-latest Application Consistent Snapshot? try these <a href='https://aka.ms/tshootv2anoappconsistentsnapshot'> troubleshooting</a> steps.</li><li> Is current churn/bandwidth meeting recommendations? Run the <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-run'> Deployment planner</a> and review recommendations for <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#recommendations-with-available-bandwidth-as-input'> network</a> and <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-deployment-planner-analyze-report#vm-storage-placement'> storage </a>. Check if you need to adjust the bandwidth and throttling as listed in this <a href= 'https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#control-network-bandwidth'>article</a>.</li></ul>"
       }, {
-      "id": "problem_details",
+      "id": "problem_description",
       "order": 7,
       "controlType": "multilinetextbox",
       "displayLabel": "Please provide additional details:",

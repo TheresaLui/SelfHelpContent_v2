@@ -127,7 +127,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "adDomainServicesUserSignInIssuesadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",

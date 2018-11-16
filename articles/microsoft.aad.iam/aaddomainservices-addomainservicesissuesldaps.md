@@ -101,7 +101,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "adDomainServicesIssuesLDAPSadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 6,
       "controlType": "multilinetextbox",

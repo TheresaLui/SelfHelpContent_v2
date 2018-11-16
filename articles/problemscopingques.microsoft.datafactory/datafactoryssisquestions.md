@@ -81,7 +81,7 @@
 			"required": false
 		},
 		{
-			"id": "issue-details",
+			"id": "problem_description",
 			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide additional details about the issue",

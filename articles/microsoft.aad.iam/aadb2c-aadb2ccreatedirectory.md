@@ -101,7 +101,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadB2CCreateDirectoryadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",

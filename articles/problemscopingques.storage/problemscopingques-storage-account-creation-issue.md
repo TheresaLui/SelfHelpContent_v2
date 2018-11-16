@@ -33,7 +33,7 @@
 			"displayLabel": "Approximate time when account creation failed",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",

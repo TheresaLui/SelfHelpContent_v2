@@ -219,7 +219,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "problemUpdatingUseradditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 10,
       "controlType": "multilinetextbox",

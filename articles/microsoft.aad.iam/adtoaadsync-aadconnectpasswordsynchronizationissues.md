@@ -144,7 +144,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "aadConnectPasswordSynchronizationIssuesadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 8,
       "controlType": "multilinetextbox",

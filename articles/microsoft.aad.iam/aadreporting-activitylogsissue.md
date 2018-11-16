@@ -208,7 +208,7 @@
       "numberOfLines": 4
     },
     {
-      "id": "activityLogsIssueadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 9,
       "controlType": "multilinetextbox",

@@ -53,7 +53,7 @@
 				}
 			]
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide any other details relevant to the problem",

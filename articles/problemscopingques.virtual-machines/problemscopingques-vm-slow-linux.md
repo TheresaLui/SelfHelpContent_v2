@@ -28,7 +28,7 @@
 			"watermarkText": "StorageAccount/Container/DiskName.vhd",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",

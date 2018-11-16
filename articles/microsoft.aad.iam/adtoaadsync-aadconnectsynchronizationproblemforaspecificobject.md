@@ -156,7 +156,7 @@
       "numberOfLines": 1
     },
     {
-      "id": "aadConnectSynchronizationProblemForASpecificObjectadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 7,
       "controlType": "multilinetextbox",
