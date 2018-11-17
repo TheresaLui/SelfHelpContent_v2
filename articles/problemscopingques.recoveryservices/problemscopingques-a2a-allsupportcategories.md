@@ -12,15 +12,26 @@
 # Questions Azure to Azure disaster recovery 
 ---
 {
-         "resourceRequired": true,
-         "title": "Azure to Azure disaster recovery_Failed Job ID",
-         "fileAttachmentHint": "",
-         "formElements": [
-					 {
-                          "id": "learn_more_text",
-                          "order": 1,
-                          "controlType": "infoblock",
-                          "content": "Microsoft can provide solution to your problem faster if you can export and attach the failed job information. To export the failed job go to Recovery Services Vault > Site Recovery Jobs > click on the failed Job > 'Export job' from left corner of blade and upload this file using the file upload tab"
-						 }
-					]}
+    "resourceRequired": true,
+    "title": "Azure to Azure disaster recovery_Failed Job ID",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "learn_more_text",
+            "order": 1,
+            "controlType": "infoblock",
+            "content": "Microsoft can provide solution to your problem faster if you can export and attach the failed job information. To export the failed job go to Recovery Services Vault > Site Recovery Jobs > click on the failed Job > 'Export job' from left corner of blade and upload this file using the file upload tab"
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "hints": []
+        }
+    ]
+}
 ---

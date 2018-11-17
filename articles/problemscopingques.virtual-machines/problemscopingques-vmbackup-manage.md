@@ -1,4 +1,4 @@
-<properties
+﻿<properties
          pageTitle="Scoping questions for Azure VM backup management issues"
          description="Scoping questions for Azure VM backup management issues"
          authors="srinathvasireddy"
@@ -137,6 +137,15 @@
 											}
 							],
 							"required": true
-						}
+						},
+		{
+		"id": "problem_description",
+	 	"order": 9, 
+	 	"controlType": "multilinetextbox", 
+	 	"useAsAdditionalDetails": true, 
+	 	"displayLabel": "Additional details", 
+	 	"watermarkText": "Provide additional information about your issue", 
+	 	"required": true, "hints": []
+		}
 				]}
 ---
