@@ -65,7 +65,7 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
+            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "required": false
         },
         {
@@ -74,7 +74,7 @@
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
+            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "required": false
         },
         {
@@ -166,7 +166,7 @@
             "order": 11,
             "visibility": "issue_Type == Restore from cloud",
             "controlType": "infoblock",
-            "content": "Please upload CBEngine log files located at %ProgramFiles%\\Microsoft Azure Recovery Services Agent\\Temp. Put all the contents to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "content": "Please upload CBEngine log files located at %ProgramFiles%\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the contents to be shared into a single ZIP file and upload the file using 'File upload' on the left."
         },
         {
             "id": "problem_description",

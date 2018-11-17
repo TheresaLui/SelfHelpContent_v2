@@ -45,7 +45,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
+            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "required": false
         },
         {
@@ -53,7 +53,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
+            "watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "required": false
         },
         {
@@ -132,7 +132,7 @@
             "id": "learn_more_text",
             "order": 10,
             "controlType": "infoblock",
-            "content": "Please upload all CBEngine log files located at C:\\Program Files\\Microsoft Azure Recovery Services Agent\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
         },
         {
             "id": "problem_description",
