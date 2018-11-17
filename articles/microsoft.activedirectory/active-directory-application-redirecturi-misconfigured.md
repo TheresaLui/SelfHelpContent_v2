@@ -1,17 +1,17 @@
-< properties
-  pageTitle="Invalid or Misconfigured Redirect (Reply) URI"
-  description="The application has tried a request with a redirect (reply) uri that is    different than the one configured on the Azure portal."
-  infoBubbleText="Found recent login failures. See details on the right."
-  service="microsoft.aad"
-  resource="MICROSOFT_AAD_IAM"
-  authors="abhidnyapatil"
-  articleId="active-directory-application-redirecturi-misconfigured"
-  diagnosticScenario=""
-  selfHelpType="diagnostics"
-  supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
-  resourceTags="appdev"
-  productPesIds="16575"​
-  cloudEnvironments="public"
+<properties
+	pageTitle="Invalid or Misconfigured Redirect (Reply) URI"
+	description="The application has tried a request with a redirect uri that is different than the one configured on the Azure portal."
+	infoBubbleText="Found recent login failures. See details on the right."
+	service="microsoft.aad"
+	resource="MICROSOFT_AAD_IAM"
+	authors="abhidnyapatil"
+	articleId="active-directory-application-redirecturi-misconfigured"
+	diagnosticScenario=""
+	selfHelpType="diagnostics"
+	supportTopicIds="32570266,32596845,32596846,32596844,32570262,32596835,32596874,32570261,32596864,32596861"
+	resourceTags="appdev"
+	productPesIds="16575"
+	cloudEnvironments="public"
 />
 
 # <-- Invalid or Misconfigured Redirect (Reply) URI -->
