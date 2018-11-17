@@ -140,6 +140,7 @@
 						},
 		{
 		"id": "problem_description",
+	 	"order": 9, 
 	 	"controlType": "multilinetextbox", 
 	 	"useAsAdditionalDetails": true, 
 	 	"displayLabel": "Additional details", 
