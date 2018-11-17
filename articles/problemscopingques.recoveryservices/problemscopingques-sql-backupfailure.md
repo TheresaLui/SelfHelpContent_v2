@@ -134,7 +134,7 @@
             "id": "learn_more_text1",
             "order": 12,
             "controlType": "infoblock",
-            "content": "Please upload SQL Server logs located at %ProgramFiles%\\Microsoft SQL Server\\MSSQL11.MSSQLSERVER\\MSSQL\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "content": "Please upload SQL Server logs located at %ProgramFiles%\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
         },
         {
             "id": "problem_description",
