@@ -1,6 +1,6 @@
 ﻿<properties
 pageTitle="Unable to delete storage account because it was not successfully created"
-description="Cannot delete storage account because it was not successfully created"
+description="Cannot delete storage account that was not successfully created"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
@@ -14,7 +14,7 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Unable to delete storage account **<!--$ResourceName-->ResourceName<!--/$ResourceName-->** because it was not successfully created
+# Unable to delete storage account that was not successfully created
 
 <!--issueDescription-->
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** could not be deleted because it was not successfully created due to a platform issue. The issue is now resolved, and you can retry account creation with the same name if required.
