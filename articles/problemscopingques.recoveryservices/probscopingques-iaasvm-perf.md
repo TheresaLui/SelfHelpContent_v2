@@ -76,6 +76,13 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
+        },
+        {
+            "id": "problem_start_time",
+            "order": 7,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
         }
     ]
 }
