@@ -11,104 +11,111 @@
 # Problem with user-initiated password reset 
 ---
 {
-  "resourceRequired": false,
-  "title": "Problem with password management user-initiated",
-  "fileAttachmentHint": null,
-  "formElements": [
-    {
-      "id": "hasErrorData",
-      "visibility": null,
-      "order": 1,
-      "controlType": "dropdown",
-      "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
+    "resourceRequired": false,
+    "title": "Problem with password management user-initiated",
+    "fileAttachmentHint": null,
+    "formElements": [
         {
-          "text": "Yes",
-          "value": "yes"
+            "id": "hasErrorData",
+            "visibility": null,
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Yes",
+                    "value": "yes"
+                },
+                {
+                    "text": "No",
+                    "value": "no"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
-          "text": "No",
-          "value": "no"
+            "id": "correlationId",
+            "visibility": "hasErrorData==yes",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID from Error message:",
+            "content": null,
+            "watermarkText": "Copy the correlation ID from the error message and paste it here",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "timestamp",
+            "visibility": "hasErrorData==yes || hasErrorData==no",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Timestamp from Error message:",
+            "content": null,
+            "watermarkText": "Copy the timestamp from the error message and paste it here",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "userNameOrId",
+            "visibility": "hasErrorData==no",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Which user is experiencing this problem?",
+            "content": null,
+            "watermarkText": "For example 'joe@contoso.com'.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "If you received an error, please provide the error message details:",
+            "content": null,
+            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 3
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
         }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-	{
-      "id": "correlationId",
-      "visibility": "hasErrorData==yes",
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "Correlation ID from Error message:",
-      "content": null,
-      "watermarkText": "Copy the correlation ID from the error message and paste it here",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-	{
-      "id": "timestamp",
-      "visibility": "hasErrorData==yes || hasErrorData==no",
-      "order": 3,
-      "controlType": "textbox",
-      "displayLabel": "Timestamp from Error message:",
-      "content": null,
-      "watermarkText": "Copy the timestamp from the error message and paste it here",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-	{
-      "id": "userNameOrId",
-      "visibility": "hasErrorData==no",
-      "order": 4,
-      "controlType": "textbox",
-      "displayLabel": "Which user is experiencing this problem?",
-      "content": null,
-      "watermarkText": "For example 'joe@contoso.com'.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-	{
-      "id": "problem_description",
-      "visibility": null,
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "displayLabel": "If you received an error, please provide the error message details:",
-      "content": null,
-      "watermarkText":  "AADSTSXXXXX: error message, Error message from the application, etc... ",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": null,
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": true,
-      "numberOfLines": 3
-    }
-  ]
+    ]
 }
 ---
