@@ -10,54 +10,60 @@
 # CosmosDb Account and Collection Info
 ---
 {
-	"resourceRequired": true,
-	"title": "CosmosDb Account and Collection Info",
-	"fileAttachmentHint": "",
-	"formElements": [
-		 {
-			"id": "problem_start_date",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": false
-		  },
-		  {
-			"id": "database_name",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Database name",
-			"required": true,
-			"hints": [{
-					"text": "Name of the database that is affected"
-				}]
-		},
-		{
-			"id": "collection_name",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Collection name",
-			"required": true,
-			"hints": [{
-					"text": "Name of the collection that is affected"
-				}]
-		},
-		{
-			"id": "issue-details",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide additional details about the issue that you were facing",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [
-				{
-					"text": "More information on the exact issue."
-				},{
-					"text": "Read/Write regions where the issue is experienced"
-				},{
-					"text": "Activity Id of the request (if available)."
-				}
-			]
-		}
-                ]
+    "resourceRequired": true,
+    "title": "CosmosDb Account and Collection Info",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": false
+        },
+        {
+            "id": "database_name",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Database name",
+            "required": true,
+            "hints": [
+                {
+                    "text": "Name of the database that is affected"
                 }
+            ]
+        },
+        {
+            "id": "collection_name",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Collection name",
+            "required": true,
+            "hints": [
+                {
+                    "text": "Name of the collection that is affected"
+                }
+            ]
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional details about the issue that you were facing",
+            "required": false,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "More information on the exact issue."
+                },
+                {
+                    "text": "Read/Write regions where the issue is experienced"
+                },
+                {
+                    "text": "Activity Id of the request (if available)."
+                }
+            ]
+        }
+    ]
+}
 ---
