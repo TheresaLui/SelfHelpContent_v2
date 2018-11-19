@@ -3,21 +3,22 @@
 	description="configuration and management/configuring custom domain names"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32440122"
 	resourceTags=""
-	productPesIds="14748"
+	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
 />
 
 # configuration and management/configuring custom domain names
 
-## **Recommended steps**
-1. You can run the Custom Domain Verification tool from Settings -> Troubleshoot -> “Verify Custom Domain Name configuration”
-
 ## **Recommended documents**
-[How to configure a custom domain name](https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/)<br>
-[Configure a custom domain name in Azure App Service (Purchased directly from GoDaddy)](https://azure.microsoft.com/documentation/articles/web-sites-godaddy-custom-domain-name/)<br>
-[FAQ on App Service Certificates and Custom Domains](https://social.msdn.microsoft.com/Forums/azure/f3e6faeb-5ed4-435a-adaa-987d5db43b80/faq-on-app-service-certificates-and-custom-domains?forum=windowsazurewebsitespreview)
+* [Resolve 404 error when adding a custom domain?](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#resolve-404-error-web-site-not-found)
+* [Resolve custom domain validation failure for A record](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/#404error )
+* [Resolve adding Custom domain issues with mapping to an A record](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-an-a-record)
+* [Migrate an active domain to web app without downtime](https://docs.microsoft.com/azure/app-service/app-service-custom-domain-name-migrate)
+* [Adding a custom domain or subdomain to your web app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record)
+* [Moving a Web app with Custom Domain to another subscription or ASE V1 to ASE V2](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/#move-app-with-domain)
+* [Commonly asked questions about Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains)

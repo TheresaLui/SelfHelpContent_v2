@@ -9,7 +9,7 @@
 	supportTopicIds="31980411"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # design and development/client drivers and apis

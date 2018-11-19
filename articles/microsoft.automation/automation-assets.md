@@ -1,21 +1,20 @@
-
 <properties
-    pageTitle="assets"
-    description="32501525Assets"
+    pageTitle="Azure Automation - Shared Resources"
+    description="Azure Automation - Shared Resources"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501525"
+    supportTopicIds="32599854,32599917"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets
-
+# Azure Automation - Shared Resources
 
 ## **Recommended documents**
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[How to] [Learn about using Azure Automation shared resources](https://docs.microsoft.com/azure/automation/automation-variables)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

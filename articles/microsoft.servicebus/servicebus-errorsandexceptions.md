@@ -9,12 +9,15 @@
 	supportTopicIds="32421023"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
 # errors and exceptions
 
 ## **Recommended documents**
-[Manage and Test your entities using Service Bus Explorer](https://code.msdn.microsoft.com/Service-Bus-Explorer-f2abca5a)<br>
+[Guidance on Timeout Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#timeoutexception)<br>
+[Guidance on Quota Exceed Exceptions](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/#quotaexceededexception)<br>
 [Need help in troubleshooting an exception?](https://azure.microsoft.com/documentation/articles/service-bus-messaging-exceptions/)<br>
-[Check if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)
+[Check if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)<br>
+[Manage and Test your entities using Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer)<br>
+[Internal Server Error when receiving messages from Persistent queue](https://github.com/Azure/azure-sdk-for-python/issues/493)<br>

@@ -3,25 +3,17 @@
 	description="deployment/ftp"
 	service="microsoft.web"
 	resource="sites"
-	authors="aashu"
+	authors="shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542213"
 	resourceTags=""
-	productPesIds="14748"
-	cloudEnvironments="public"
+	productPesIds="14748, 16170, 16333"
+	cloudEnvironments="public, MoonCake"
 />
 
 # deployment/ftp
 
-## **Recommended steps**
-Issue: FTP to Website fails
-
-1. Please check that you are entering the correct host name and credentials
-2. Please check that the ports are not blocked by a firewall
-	1. FTP control connection port: 21  
-	2. FTP data connection port: 989 , 10001-10300
-
 ## **Recommended documents**
-[Accessing Files via FTP](https://github.com/projectkudu/kudu/wiki/Accessing-files-via-ftp)<br>
-[File structure on azure](https://github.com/projectkudu/kudu/wiki/File-structure-on-azure)
+1. [How do I deploy my app to Azure App Service using FTP/FTPS?](https://docs.microsoft.com/azure/app-service-web/app-service-deploy-ftp)<br>
+2. [How to Deploy manually by uploading files with FTP](https://docs.microsoft.com/azure/app-service/app-service-deploy-local-git?toc=%2Fazure%2Fapp-service%2Ftoc.json#ftp)

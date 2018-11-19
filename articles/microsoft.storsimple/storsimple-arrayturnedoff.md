@@ -7,7 +7,7 @@
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
 />
@@ -21,7 +21,7 @@ This could be due to one of the following reasons:
 	2. From the **Virtual Machines** list, identify the virtual array(s) in a  `Paused-Critical` state.<br>
 	3. Free up resources so that the virtual array(s) can be booted. For example, you can free up the disk space on corresponding hard drives.<br>
 	4. Right-click each virtual array, then click **Resume**. This returns the virtual machine to a running state.<br>
-2. If the virtual array(s) has not run out of disk space, then try to turn it on.
+2. If the virtual array has not run out of disk space, then try to turn it on.
 
 
 ## **Recommended documents**

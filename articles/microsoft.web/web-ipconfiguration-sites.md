@@ -8,14 +8,19 @@
 	selfHelpType="generic"
 	supportTopicIds="32542210"
 	resourceTags=""
-	productPesIds="14748"
-	cloudEnvironments="public"
+	productPesIds="14748, 16170"
+	cloudEnvironments="public, MoonCake"
 />
 
 # configuration and management/ip configuration
 
 ## **Recommended steps**
-One of the common questions is how to get reserved or dedicated Inbound IP Address for your Web Site. If  you need to configure a dedicated\reserved IP address for inbound calls made to the azure web app site, you will need to install and configure an IP based SSL certificate.  Please note that in order to do this your App Service Plan should be in Basic or higher pricing tier. Another common questions is how to get your website IP Address. To find the outbound IP addresses, please follow the steps listed below:
+<b>How to get reserved or dedicated Inbound IP Address for your Web Site?</b> <br><br>
+If  you need to configure a dedicated\reserved IP address for inbound calls made to the azure web app site, you will need to install and configure an IP based SSL certificate.  Please note that in order to do this your App Service Plan should be in Basic or higher pricing tier. <br>
+
+<b>How to find the outbound IP addresses? </b><br>
+
+Please follow the steps listed below:
 
 1. Browse to the details of your specific web app using the new portal at portal.azure.com
 2. Towards the top of the details for your web app, there is a link for "All settings". Click the link.

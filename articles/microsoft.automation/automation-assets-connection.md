@@ -1,23 +1,20 @@
-
 <properties
-    pageTitle="assets/connection"
-    description="32501535Assetsconnection"
+    pageTitle="Azure Automation - Shared Resources - Connections"
+    description="Azure Automation - Shared Resources - Connections"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="adoyle"
+    authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32501535"
+    supportTopicIds="32599880"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
-# assets/connection
-
+# Azure Automation - Shared Resources - Connections
 
 ## **Recommended documents**
-[Connection Assets in Azure Automation]
-(https://azure.microsoft.com/documentation/articles/automation-connections/) <br>
-[Data to gather when opening a case for Microsoft Azure Automation]
-(https://support.microsoft.com/kb/3178510)
+[How to] [Connections in Azure Automation](https://docs.microsoft.com/azure/automation/automation-connections) <br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

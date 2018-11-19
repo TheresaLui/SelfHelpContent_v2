@@ -8,8 +8,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32444084"
 	resourceTags=""
-	productPesIds="14748"
-	cloudEnvironments="public"
+	productPesIds="14748,16170"
+	cloudEnvironments="public, MoonCake"
 />
 
 # open source technologies/python

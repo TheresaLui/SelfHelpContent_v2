@@ -9,11 +9,12 @@
 	supportTopicIds="32449689"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
-# cluster/hosting environment (on premises or azure)
+# Cluster/hosting environment (on premises or azure)
+Support for Service Fabric OnPremise is separate from Service Fabric for Azure. Get Assisted support for stand-alone OnPremise [here](http://support.microsoft.com/oas/default.aspx?prid=16146).<br>
+Forum support is also available [here](https://social.msdn.microsoft.com/Forums/azure/home?forum=AzureServiceFabric).
 
 ## **Recommended documents**
-[On-Premise only supported in MSDN Forum: Azure Service Fabric](https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=AzureServiceFabric)<br>
 [Create standalone Service Fabric clusters on Windows Server or Linux](https://azure.microsoft.com/documentation/articles/service-fabric-deploy-anywhere/)

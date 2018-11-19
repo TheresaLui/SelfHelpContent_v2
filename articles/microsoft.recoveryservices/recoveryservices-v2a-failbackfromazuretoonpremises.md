@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536408"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -16,6 +16,9 @@
 
 Common issues during failback or reprotect
 ## **Recommended steps**
+
+* Site-to-site VPN or express route over private peering is required for failback
+Before you failback, you need to ensure a Site to Site VPN is available such that the failed over VMs in Azure have a line of sight to the Configuration server on-premises. Replication from Azure to On-premises happens only over VPN/ER(private peering). For more details look at [failback documentation](https://aka.ms/asrsupv2afailback).
 
 * Storage vMotion should not be enabled on the Master Target <br>
 Boot of the virtual machines can fail with error like "VMware ESX cannot find the virtual disk "DRIVE0.vmdk". Verify the path is valid and try again." You can find the disks from the datastores and attach it to the VM after which the VM will boot successfully.
@@ -25,10 +28,7 @@ Boot of the virtual machines can fail with error like "VMware ESX cannot find th
 
 * vCenter license should not be a free license - it should be either evaluation or Licensed. <br>
 On your ESXi host node in vCenter, navigate to Configuration tab -> Licensed features. vSphere API should be listed under the product features
-Failed over VM should be in the correct network
 
-* VM should be running and be in a network to be able to communicate back to the configuration server and process server. <br>
-Check if the VM is in your ExpressRoute or VPN attached Azure Network.
 
 * The datastores that contain the VM's disk should be mounted onto the Master Targets ESXi host<br>
 Make sure that the datastore is mounted as read write and is of VMFS type. Other datastore types are not supported currently.
