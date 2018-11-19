@@ -16,9 +16,9 @@ cloudEnvironments="public"
 />
 
 # There are Automation Core Modules that need updating.
-## Automation Modules that are older or out of date can cause unforseen issues
+## Automation Modules that are older or out of date can cause unforeseen issues
 
-We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
+We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforeseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
 [Modules Out of date]
 
 Resolution
