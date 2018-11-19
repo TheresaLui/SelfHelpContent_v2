@@ -142,7 +142,7 @@
             "order": 8,
             "visibility": "issue_Type == Microsoft Azure Recovery Service agents failed to install || issue_Type == SQL components failed to install || issue_Type == Microsoft Azure backup(DPM) software failed to install",
             "controlType": "infoblock",
-            "content": "Please upload  DPMSetup.txt file located at C:\\Program Files\\Microsoft Azure Backup Server\\DPM\\DPMLogs\\ using 'File upload' on the left."
+            "content": "Please upload  DPMSetup.txt file located at C:\\\\Program Files\\\\Microsoft Azure Backup Server\\\\DPM\\\\DPMLogs\\\\ using 'File upload' on the left."
         },
         {
             "id": "error_message",
