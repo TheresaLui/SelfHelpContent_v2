@@ -11,63 +11,74 @@
 # Kafka Issue
 ---
 {
-	"resourceRequired": true,
-	"title": "HDInsight Kafka Issue",
-	"fileAttachmentHint": "",
-	"formElements": [
-      {
-			"id": "problem_start_date",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": false
-		  },{
-			"id": "problem_description",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details about the workload and the issue you are facing.",
-			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Number of topics and partitions per topic."
-				}, {
-					"text": "Number of producers and consumers."
-				}, {
-					"text": "Default replication factor."
-				}, {
-					"text": "Average number of messages per second and average message size."
-				}
-			]
-		},{
-			"id": "workloadmitigation_details",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Did you take any steps to mitigate the problem?",
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"hints": [{
-					"text": "If so, describe the mitigation steps here."
-				}
-			]
-		},{
-			"id": "workloadcustomization_details",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Are there any third party tools/extensions deployed on the cluster?",
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"hints": [{
-					"text": "If so, list the tools/extensions here."
-				}
-			]
-		},{
-			"id": "learn_more_text",
-			"order": 5,
-			"controlType": "infoblock",
-			"content": "<a href='https://hdinsight.github.io/kafka/kafka-landing'>Learn more</a> about commonly faced issues with using Kafka on HDInsight"
-		}
-	]
+    "resourceRequired": true,
+    "title": "HDInsight Kafka Issue",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide these details about the workload and the issue you are facing.",
+            "required": false,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Issue description."
+                },
+                {
+                    "text": "Number of topics and partitions per topic."
+                },
+                {
+                    "text": "Number of producers and consumers."
+                },
+                {
+                    "text": "Default replication factor."
+                },
+                {
+                    "text": "Average number of messages per second and average message size."
+                }
+            ]
+        },
+        {
+            "id": "workloadmitigation_details",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Did you take any steps to mitigate the problem?",
+            "required": false,
+            "useAsAdditionalDetails": false,
+            "hints": [
+                {
+                    "text": "If so, describe the mitigation steps here."
+                }
+            ]
+        },
+        {
+            "id": "workloadcustomization_details",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Are there any third party tools/extensions deployed on the cluster?",
+            "required": false,
+            "useAsAdditionalDetails": false,
+            "hints": [
+                {
+                    "text": "If so, list the tools/extensions here."
+                }
+            ]
+        },
+        {
+            "id": "learn_more_text",
+            "order": 5,
+            "controlType": "infoblock",
+            "content": "<a href='https://hdinsight.github.io/kafka/kafka-landing'>Learn more</a> about commonly faced issues with using Kafka on HDInsight"
+        }
+    ]
 }
 ---

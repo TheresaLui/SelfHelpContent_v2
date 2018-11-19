@@ -11,30 +11,33 @@
 # Recover deleted Blob
 ---
 {
-	"resourceRequired": false,
-	"title": "Storage Blob recovery scoping question",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "problem_start_date",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time Blob was deleted",
-			"required": false
-		}, {
-			"id": "blob_path",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Blob path",
-			"watermarkText": "'ContainerName/.../BlobName'",
-			"required": false
-		}, {
-			"id": "problem_description",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}
-	]
+    "resourceRequired": false,
+    "title": "Storage Blob recovery scoping question",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time Blob was deleted",
+            "required": false
+        },
+        {
+            "id": "blob_path",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "'ContainerName/.../BlobName'",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": false,
+            "useAsAdditionalDetails": true
+        }
+    ]
 }
 ---
