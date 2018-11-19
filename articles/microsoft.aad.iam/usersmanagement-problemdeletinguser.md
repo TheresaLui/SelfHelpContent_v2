@@ -14,512 +14,512 @@
 
 ---
 {
-  "resourceRequired": false,
-  "title": "Problem deleting a user",
-  "fileAttachmentHint": null,
-  "formElements": [
-    {
-      "id": "whatProblem",
-      "visibility": null,
-      "order": 1,
-      "controlType": "dropdown",
-      "displayLabel": "What are you trying to do?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
+    "resourceRequired": false,
+    "title": "Problem deleting a user",
+    "fileAttachmentHint": null,
+    "formElements": [
         {
-          "text": "Delete a user from Azure AD",
-          "value": "delete"
+            "id": "whatProblem",
+            "visibility": null,
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "What are you trying to do?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Delete a user from Azure AD",
+                    "value": "delete"
+                },
+                {
+                    "text": "Restore a deleted user",
+                    "value": "restore"
+                },
+                {
+                    "text": "Remove a deleted user from the Azure AD recycle bin",
+                    "value": "empty"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
-          "text": "Restore a deleted user",
-          "value": "restore"
+            "id": "whereProblemOccurs",
+            "visibility": null,
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Where does the problem occur?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Azure portal (portal.azure.com)",
+                    "value": "azurePortal"
+                },
+                {
+                    "text": "classic Azure portal (manage.windowsazure.com)",
+                    "value": "classicPortal"
+                },
+                {
+                    "text": "PowerShell",
+                    "value": "powerShell"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
-          "text": "Remove a deleted user from the Azure AD recycle bin",
-          "value": "empty"
+            "id": "whatSymptom",
+            "visibility": "whatProblem==delete",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What is the problem?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "I don't know how to delete a user",
+                    "value": "cantFind"
+                },
+                {
+                    "text": "The controls to delete the user are not enabled",
+                    "value": "notEnabled"
+                },
+                {
+                    "text": "I get an error when I try to delete the user",
+                    "value": "error"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
+            "id": "otherSymptoms",
+            "visibility": "whatSymptom==other",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What are the symptoms of the problem?",
+            "content": null,
+            "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "errorDetails",
+            "visibility": "whatSymptom==error",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error details",
+            "content": null,
+            "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "whatScope",
+            "visibility": "whatProblem==delete",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Is the problem with a single user, or multiple users?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Single user",
+                    "value": "single"
+                },
+                {
+                    "text": "Multiple users",
+                    "value": "multiple"
+                },
+                {
+                    "text": "Any user in my directory",
+                    "value": "all"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "targetName",
+            "visibility": "whatScope==single",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "User name",
+            "content": null,
+            "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be deleted.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 1
+        },
+        {
+            "id": "exampleTargetName",
+            "visibility": "whatScope==multiple",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Example user",
+            "content": null,
+            "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be deleted.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 1
+        },
+        {
+            "id": "restoreWhatSymptom",
+            "visibility": "restoreWhatScope==single",
+            "order": 9,
+            "controlType": "dropdown",
+            "displayLabel": "What is the problem?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "I don't know how to restore a user",
+                    "value": "cantFind"
+                },
+                {
+                    "text": "I get an error when I try to restore the user",
+                    "value": "error"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "restoreOtherSymptoms",
+            "visibility": "restoreWhatSymptom==other",
+            "order": 10,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Symptoms - details",
+            "content": null,
+            "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "restoreErorDetails",
+            "visibility": "restoreWhatSymptom==error",
+            "order": 11,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error details",
+            "content": null,
+            "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "restoreWhatScope",
+            "visibility": "whatProblem==restore",
+            "order": 12,
+            "controlType": "dropdown",
+            "displayLabel": "Is the problem with a single user, or multiple users?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Single user",
+                    "value": "single"
+                },
+                {
+                    "text": "Multiple users",
+                    "value": "multiple"
+                },
+                {
+                    "text": "Any user in my directory",
+                    "value": "all"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "restoreTargetName",
+            "visibility": "restoreWhatScope==single",
+            "order": 13,
+            "controlType": "multilinetextbox",
+            "displayLabel": "User name",
+            "content": null,
+            "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be restored.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 1
+        },
+        {
+            "id": "restoreExampleTargetName",
+            "visibility": "restoreWhatScope==multiple",
+            "order": 14,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Example user",
+            "content": null,
+            "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be restored.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 1
+        },
+        {
+            "id": "emptyWhatSymptom",
+            "visibility": "whatProblem==empty",
+            "order": 15,
+            "controlType": "dropdown",
+            "displayLabel": "What is symptom of the problem?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "I don't know how to remove a user from the recycle bin",
+                    "value": "cantFind"
+                },
+                {
+                    "text": "I get an error when I try to remove the user from the recylce bin",
+                    "value": "error"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "emptyOtherSymptoms",
+            "visibility": "emptyWhatSymptom==other",
+            "order": 16,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What are the symptoms of the problem?",
+            "content": null,
+            "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "errorDetails2",
+            "visibility": "emptyWhatSymptom==error",
+            "order": 17,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error details",
+            "content": null,
+            "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "emptyWhatScope",
+            "visibility": "whatProblem==empty",
+            "order": 18,
+            "controlType": "dropdown",
+            "displayLabel": "Is the problem with a single user, or multiple users?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Single user",
+                    "value": "single"
+                },
+                {
+                    "text": "Multiple users",
+                    "value": "multiple"
+                },
+                {
+                    "text": "Any user in my directory",
+                    "value": "all"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "emptyTargetName",
+            "visibility": "emptyWhatScope==single",
+            "order": 19,
+            "controlType": "multilinetextbox",
+            "displayLabel": "User name",
+            "content": null,
+            "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be removed from the recycle bin.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "emptyExampleTargetName",
+            "visibility": "emptyWhatScope==multiple",
+            "order": 20,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Example user",
+            "content": null,
+            "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be removed from the recycle bin.",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 21,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem occur (or begin)?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 22,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional details",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
         }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "whereProblemOccurs",
-      "visibility": null,
-      "order": 2,
-      "controlType": "dropdown",
-      "displayLabel": "Where does the problem occur?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "Azure portal (portal.azure.com)",
-          "value": "azurePortal"
-        },
-        {
-          "text": "classic Azure portal (manage.windowsazure.com)",
-          "value": "classicPortal"
-        },
-        {
-          "text": "PowerShell",
-          "value": "powerShell"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "whatSymptom",
-      "visibility": "whatProblem==delete",
-      "order": 3,
-      "controlType": "dropdown",
-      "displayLabel": "What is the problem?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "I don't know how to delete a user",
-          "value": "cantFind"
-        },
-        {
-          "text": "The controls to delete the user are not enabled",
-          "value": "notEnabled"
-        },
-        {
-          "text": "I get an error when I try to delete the user",
-          "value": "error"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "otherSymptoms",
-      "visibility": "whatSymptom==other",
-      "order": 4,
-      "controlType": "multilinetextbox",
-      "displayLabel": "What are the symptoms of the problem?",
-      "content": null,
-      "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "errorDetails",
-      "visibility": "whatSymptom==error",
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Error details",
-      "content": null,
-      "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "whatScope",
-      "visibility": "whatProblem==delete",
-      "order": 6,
-      "controlType": "dropdown",
-      "displayLabel": "Is the problem with a single user, or multiple users?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "Single user",
-          "value": "single"
-        },
-        {
-          "text": "Multiple users",
-          "value": "multiple"
-        },
-        {
-          "text": "Any user in my directory",
-          "value": "all"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "targetName",
-      "visibility": "whatScope==single",
-      "order": 7,
-      "controlType": "multilinetextbox",
-      "displayLabel": "User name",
-      "content": null,
-      "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be deleted.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 1
-    },
-    {
-      "id": "exampleTargetName",
-      "visibility": "whatScope==multiple",
-      "order": 8,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Example user",
-      "content": null,
-      "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be deleted.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 1
-    },
-    {
-      "id": "restoreWhatSymptom",
-      "visibility": "restoreWhatScope==single",
-      "order": 9,
-      "controlType": "dropdown",
-      "displayLabel": "What is the problem?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "I don't know how to restore a user",
-          "value": "cantFind"
-        },
-        {
-          "text": "I get an error when I try to restore the user",
-          "value": "error"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "restoreOtherSymptoms",
-      "visibility": "restoreWhatSymptom==other",
-      "order": 10,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Symptoms - details",
-      "content": null,
-      "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "restoreErorDetails",
-      "visibility": "restoreWhatSymptom==error",
-      "order": 11,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Error details",
-      "content": null,
-      "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "restoreWhatScope",
-      "visibility": "whatProblem==restore",
-      "order": 12,
-      "controlType": "dropdown",
-      "displayLabel": "Is the problem with a single user, or multiple users?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "Single user",
-          "value": "single"
-        },
-        {
-          "text": "Multiple users",
-          "value": "multiple"
-        },
-        {
-          "text": "Any user in my directory",
-          "value": "all"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "restoreTargetName",
-      "visibility": "restoreWhatScope==single",
-      "order": 13,
-      "controlType": "multilinetextbox",
-      "displayLabel": "User name",
-      "content": null,
-      "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be restored.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 1
-    },
-    {
-      "id": "restoreExampleTargetName",
-      "visibility": "restoreWhatScope==multiple",
-      "order": 14,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Example user",
-      "content": null,
-      "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be restored.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 1
-    },
-    {
-      "id": "emptyWhatSymptom",
-      "visibility": "whatProblem==empty",
-      "order": 15,
-      "controlType": "dropdown",
-      "displayLabel": "What is symptom of the problem?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "I don't know how to remove a user from the recycle bin",
-          "value": "cantFind"
-        },
-        {
-          "text": "I get an error when I try to remove the user from the recylce bin",
-          "value": "error"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "emptyOtherSymptoms",
-      "visibility": "emptyWhatSymptom==other",
-      "order": 16,
-      "controlType": "multilinetextbox",
-      "displayLabel": "What are the symptoms of the problem?",
-      "content": null,
-      "watermarkText": "Please describe the symptoms of the problem, such as error messages, or other unexpected behaviors.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "errorDetails2",
-      "visibility": "emptyWhatSymptom==error",
-      "order": 17,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Error details",
-      "content": null,
-      "watermarkText": "Provide any data you can about the error, such as the text of the error message, or a correlation ID",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 3
-    },
-    {
-      "id": "emptyWhatScope",
-      "visibility": "whatProblem==empty",
-      "order": 18,
-      "controlType": "dropdown",
-      "displayLabel": "Is the problem with a single user, or multiple users?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": [
-        {
-          "text": "Single user",
-          "value": "single"
-        },
-        {
-          "text": "Multiple users",
-          "value": "multiple"
-        },
-        {
-          "text": "Any user in my directory",
-          "value": "all"
-        },
-        {
-          "text": "Other, don't know or not applicable",
-          "value": "other"
-        }
-      ],
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "emptyTargetName",
-      "visibility": "emptyWhatScope==single",
-      "order": 19,
-      "controlType": "multilinetextbox",
-      "displayLabel": "User name",
-      "content": null,
-      "watermarkText": "Enter the user name ('alice@contoso.com') of the user that needs to be removed from the recycle bin.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 2
-    },
-    {
-      "id": "emptyExampleTargetName",
-      "visibility": "emptyWhatScope==multiple",
-      "order": 20,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Example user",
-      "content": null,
-      "watermarkText": "Enter a user name ('alice@contoso.com') for one of the users that needs to be removed from the recycle bin.",
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 2
-    },
-    {
-      "id": "whenBegan",
-      "visibility": null,
-      "order": 21,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem occur (or begin)?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-    },
-    {
-      "id": "problem_description",
-      "visibility": null,
-      "order": 22,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Please provide additional details",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": true,
-      "numberOfLines": 0
-    }
-  ]
+    ]
 }
 ---

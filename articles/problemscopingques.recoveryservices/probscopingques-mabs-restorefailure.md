@@ -154,7 +154,7 @@
             "required": false
         },
         {
-            "id": "problem_start_date",
+            "id": "problem_start_time",
             "order": 10,
             "visibility": "issue_Type == Restore from cloud || issue_Type == Restore from disk",
             "controlType": "datetimepicker",
