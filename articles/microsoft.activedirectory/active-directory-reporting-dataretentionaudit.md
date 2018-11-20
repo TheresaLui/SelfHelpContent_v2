@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 * You can only see the last 30 days of data if your tenant has an Azure AD Premium license (Azure AD P1 or P2) or last 7 days of data if your tenant has an Azure AD Free or Basic license.<br>
-* Sign-ins are available only for Azure AD Premium tenants. It's not available for Free or Basic licensed tenants.
+* Sign-in logs are available only for Azure AD Premium tenants. They're not available for Free or Basic licensed tenants.
 
 ### **Troubleshooting issues with Sign-ins**
 

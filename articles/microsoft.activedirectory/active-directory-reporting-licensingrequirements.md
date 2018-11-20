@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-* Sign-ins are available only for Azure AD Premium tenants. They're not available for Bree or Basic licensed tenants.
+* Sign-ins are available only for Azure AD Premium tenants. They're not available for Free or Basic licensed tenants.
 
 ### **Troubleshooting issues with Sign-ins**
 
