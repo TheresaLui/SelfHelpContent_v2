@@ -41,13 +41,13 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 	```
 2. If you see the rule disabled, then you can enable it as the following:
 
-```
-netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
-```
+  ```
+  netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
+  ```
 3. For troubleshooting purposes in case you need to turn the firewall profiles OFF:
 
-```
-netsh advfirewall set allprofiles state off
-```
+  ```
+  netsh advfirewall set allprofiles state off
+  ```
 
 **Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to kick in.
