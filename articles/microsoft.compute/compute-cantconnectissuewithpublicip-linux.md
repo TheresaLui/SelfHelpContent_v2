@@ -20,7 +20,7 @@
 
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
-* [Validate effective routes and if forced tunneling is enabled ](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId)
+* [Validate effective routes and if forced tunneling is enabled](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId)
 
 **Additional documents**<br>
 
