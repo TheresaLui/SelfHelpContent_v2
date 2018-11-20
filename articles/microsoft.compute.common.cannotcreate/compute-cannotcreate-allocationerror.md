@@ -17,7 +17,8 @@
 4 out of 5 customers resolved their allocation failure issue using below steps:<br>
 
 ## **Recommended Steps**
-Review the below scenarios to troubleshoot and understand allocation failures:
+
+Review the below scenarios to troubleshoot and understand allocation failures:<br>
 
 1. [Scenario 1: Resizing a VM or add VMs to an existing availability set](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#resize-a-vm-or-add-vms-to-an-existing-availability-set)<br>
 2. [Scenario 2: Restarting a partially stopped (deallocated) VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#restart-partially-stopped-deallocated-vms)<br>
@@ -26,4 +27,6 @@ Review the below scenarios to troubleshoot and understand allocation failures:
 5. [Scenario 5: Allocation failures for large deployments (more than 500 cores)](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#allocation-failures-for-large-deployments-more-than-500-cores)
 
 ## **Recommended documents**
-* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)
+
+* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.comazure/virtual-machines/troubleshooting/allocation-failure)<br>
+* [Classic Deployments: Troubleshoot allocation failures](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure-classic)
