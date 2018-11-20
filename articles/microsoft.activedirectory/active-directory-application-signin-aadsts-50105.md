@@ -31,7 +31,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 If you have already assigned the user to the application but the problem still continues then the problem is that the Azure AD is trying to log the user into another instance of the application. This can occur because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
 
-**Step 1**: Identify the value of the "Issuer" property in the SAML request from the application. Follow  the instructions in this document to obtain a SAML reques: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
+**Step 1**: Identify the value of the "Issuer" property in the SAML request from the application. Follow  the instructions in this document to obtain a SAML request: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
 **Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
