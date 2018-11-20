@@ -23,11 +23,11 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step 2**: Navigate to the Azure Active Directory, and go to the Enterprise applications blade. Search for the application for which you want to enable federated single sign-on.
+**Step 2**: Select Azure Active Directory, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
 
 **Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step 4**: Under the Domain and URLs section, update or enter the Reply URL (ACS URL) in Azure AD with the correct value <!--$ReplyUrl-->ReplyUrl<!--/$ReplyUrl-->. If you don’t see a Reply URL field, please check the "Show Advance URL settings" section.
+**Step 4**: Within the Basic SAML Configuration, select the edit pencil. Update or enter the Reply URL (Assertion Consumer Service URL) with the correct value and select Save.
 
 Your application should now be available for user sign-in.
 

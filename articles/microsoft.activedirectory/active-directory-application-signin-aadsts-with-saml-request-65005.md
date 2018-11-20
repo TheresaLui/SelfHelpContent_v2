@@ -25,11 +25,11 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step 3**: Navigate to the Azure Active Directory, and go to the Enterprise applications blade. Search for the application for which you want to enable federated single sign-on.
+**Step 3**: Select Azure Active Directory, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
 
 **Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step 5**: In the Domain and URLs section, find the property labeled 'Identifier (Entity ID). Paste the 'Issuer' value (from Step 1) into the 'Identifier (Entity ID)' field.
+**Step 5**: Within the 'Basic SAML Configuration' section, select the edit pencil.  Enter 'Issuer' value into the 'Identifier (Entity ID)' property and select Save. 
 
 Your application should be available for user sign-in.
 

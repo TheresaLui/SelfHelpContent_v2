@@ -23,15 +23,15 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
-**Step 2**: Navigate to the Azure Active Directory and go the Enterprise applications blade. Search for the application for which you want to enable federated single sign-on.
+**Step 2**: Select Azure Active Directory and go the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
 
-**Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
+**Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click 'Single Sign-On'.
 
-**Step 4**: Click on the "Create new certificate" button under the SAML signing Certificate section. Select the expiration date and click Save.
+**Step 4**: Select the 'Create new certificate' button under the SAML signing Certificate section. Enter an expiration date and click Save.
 
 **Step 5**: Select the checkbox to make the new certificate active and then click Save to replace the old certificate with this new one.
 
-**Step 6**: Under the SAML Sign-in Certificate section, click Remove to remove the unused certificate.
+**Step 6**: Under the 'SAML Sign-in Certificate' section, click Remove to remove the unused certificate.
 
 **Step 7**: Download the new active certificate and update it in your application.
 
