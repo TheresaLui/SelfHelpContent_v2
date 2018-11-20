@@ -1,18 +1,20 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
+              pageTitle="My VM is not booting"
+              description="My VM is not booting"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="36"
+              displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615532"
               resourceTags=""
-              productPesIds="15571,16215,16065,15797,16454,16470"
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# My VM is not booting
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 

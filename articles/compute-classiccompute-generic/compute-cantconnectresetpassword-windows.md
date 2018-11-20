@@ -14,6 +14,8 @@
 
 # I need to reset my password
 
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
+
 ## **Recommended documents**
 
 * [How to reset the Remote Desktop service or its login password in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp)<br>

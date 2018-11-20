@@ -1,18 +1,20 @@
 <properties  
-	pageTitle="I can't connect to my Windows VM"
-	description="I can't connect to my Windows VM"
-	service=""
-	resource=""
-	authors="manavis"
-	displayOrder="30"
-	selfHelpType="generic"
-	supportTopicIds="32615526"
-	resourceTags=""
-	productPesIds="14749"
-	cloudEnvironments="public"
+              pageTitle="Failure to connect using RDP or SSH port"
+              description="Failure to connect using RDP or SSH port"
+              service=""
+              resource=""
+              authors="manavis"
+              displayOrder=""
+              selfHelpType="generic"
+              supportTopicIds="32615526"
+              resourceTags=""
+              productPesIds="14749"
+              cloudEnvironments="public"
 />
 
-# I can't connect to my Windows VM
+# Failure to connect using RDP or SSH port
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 

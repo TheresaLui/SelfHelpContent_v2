@@ -6,13 +6,15 @@
     authors="ScottAzure"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32411835"
+    supportTopicIds="32411835,32615531"
     resourceTags="windows, WindowsSQL"
     productPesIds="14749"
     cloudEnvironments="public"
  />
 
 # I can't connect to my Windows VM
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended steps**
 

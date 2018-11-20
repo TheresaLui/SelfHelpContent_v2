@@ -6,13 +6,15 @@
 	authors="ram-kakani"
 	displayOrder="1"
 	selfHelpType="resource"
-	supportTopicIds="32411835,32511135"
+	supportTopicIds="32411835,32511135,32615531"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
 />
 
 # I can't connect to my Windows VM
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended steps**
 To resolve common issues, try one or more of the following steps.

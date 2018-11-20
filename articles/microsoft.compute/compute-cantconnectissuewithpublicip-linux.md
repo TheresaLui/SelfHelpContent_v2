@@ -1,22 +1,30 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
+              pageTitle="I have an issue with my public IP"
+              description="I have an issue with my public IP"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="31"
+              displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615527"
               resourceTags=""
-              productPesIds="15571,16215,16065,15797,16454,16470"
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# I have an issue with my public IP
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 
-1. Click [here](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address) for guidelines on how to create, change or delete a public IP address.
-2. Click [here]( https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix1) for guidelines on how to create, change or delete a public IP address prefix.
-3. SSH to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises.
-4. Click [here](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection?branch=pr-en-us-54175) for detailed guidelines to troubleshoot SSH connection issues.
+* [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
+* [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
+* [Validate effective routes and if forced tunneling is enabled ](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId)
+
+**Additional documents**<br>
+
+* [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
+* [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
+* [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)<br>
+* [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)

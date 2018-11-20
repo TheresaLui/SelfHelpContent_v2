@@ -1,20 +1,23 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
+              pageTitle="I need guidance with serial console access"
+              description="I need guidance with serial console access"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="32"
+              displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615528"
               resourceTags=""
-              productPesIds="15571,16215,16065,15797,16454,16470"
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# I need guidance with serial console access
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 
-1. [Serial Console guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)
-2. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify if your VM is running . Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM by going to command prompt.
+* [Understand how to use Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)<br>
+* [Access the serial console of your VM directly](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)<br>
+* [Review the  network state and system state via the serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)

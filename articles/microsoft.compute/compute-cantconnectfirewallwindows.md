@@ -1,18 +1,20 @@
 <properties  
-	pageTitle="I can't connect to my Windows VM"
-	description="I can't connect to my Windows VM"
-	service=""
-	resource=""
-	authors="manavis"
-	displayOrder="38"
-	selfHelpType="generic"
-	supportTopicIds="32615534"
-	resourceTags=""
-	productPesIds="14749"
-	cloudEnvironments="public"
+              pageTitle="Troubleshoot my VM firewall"
+              description="Troubleshoot my VM firewall"
+              service=""
+              resource=""
+              authors="manavis"
+              displayOrder=""
+              selfHelpType="generic"
+              supportTopicIds="32615534"
+              resourceTags=""
+              productPesIds="14749"
+              cloudEnvironments="public"
 />
 
-# I can't connect to my Windows VM
+# Troubleshoot my VM firewall
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended steps**
 

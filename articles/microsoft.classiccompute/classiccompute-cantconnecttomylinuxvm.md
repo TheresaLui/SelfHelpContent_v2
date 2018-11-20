@@ -6,13 +6,15 @@
     authors="ScottAzure"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32411835,32602159"
+    supportTopicIds="32411835,32602159,32615531"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="16470,15797,15571,16454"
     cloudEnvironments="public"
  />
 
 # I can't connect to my Linux VM
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended steps**
 
