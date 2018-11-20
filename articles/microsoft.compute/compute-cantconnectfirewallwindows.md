@@ -34,7 +34,7 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
         netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalPort.*<APPLICAITON PORT>)" -context 9,4 | more
         ```
 
-    * Using the Local IP the application is using:
+    * Using the Local IP the application is using:<br>
 
         ```
         netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
