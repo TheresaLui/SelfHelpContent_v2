@@ -15,13 +15,13 @@
 # Monitoring for Azure Databricks
 
 ## **Recommended steps**
-The following details explain how to manage Azure Databricks workspace:
+The following details explain how to monitor Azure Databricks resources:
 
-1. Users that have Contributor or Owner role on the Azure Databricks workspace in the Azure Portal can sign in as account admins by clicking Launch Workspace
-2. As an account owner, you can delete the Azure Databricks workspace [Delete operation](https://docs.azuredatabricks.net/administration-guide/account-settings/account.html#delete-an-azure-databricks-service) 
-3. You can use tags to [chargeback](https://docs.azuredatabricks.net/user-guide/clusters/tags.html#cluster-tags) based on the usage
+1. Azure Databricks resources are auto-monitored by the service to provide an [SLA](https://azure.microsoft.com/support/legal/sla/databricks/v1_0/)
+2. You can configure a location to get [cluster logs](https://docs.azuredatabricks.net/user-guide/clusters/event-log.html#event-log)
+3. You can use [Datadog](https://docs.azuredatabricks.net/user-guide/clusters/metrics.html#datadog-metrics) to monitor the performance of clusters
 
 ## **Recommended documents**
-1. [Manage Azure Databricks](https://docs.azuredatabricks.net/administration-guide/account-settings/account.html)
-2. [Account Admin](https://docs.azuredatabricks.net/administration-guide/index.html#account-admins)
-3. [Upgrade or Downgrade workspace](https://docs.azuredatabricks.net/administration-guide/account-settings/upgrade-downgrade.html)
+1. [Metrics](https://docs.azuredatabricks.net/user-guide/clusters/metrics.html#datadog-metrics)
+2. [Cluster log](https://docs.azuredatabricks.net/user-guide/clusters/log-delivery.html#id1)
+
