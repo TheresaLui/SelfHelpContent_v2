@@ -24,21 +24,21 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 
     * Using the Display Name as a parameter:<br>
 
-    ```
-    netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(DisplayName.*<FIREWALL RULE NAME>)" -context 9,4 | more
+        ```
+        netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(DisplayName.*<FIREWALL RULE NAME>)" -context 9,4 | more
         ```
 
     * Using the Local Port the application is using:<br>
 
-      ```
-      netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalPort.*<APPLICAITON PORT>)" -context 9,4 | more
-      ```
+        ```
+        netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalPort.*<APPLICAITON PORT>)" -context 9,4 | more
+        ```
 
     * Using the Local IP the application is using:
 
-    ```
-  	netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
-  	```
+        ```
+        netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
+        ```
 2. If you see the rule disabled, then you can enable it as the following:
 
     ```
