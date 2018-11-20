@@ -1,6 +1,6 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
+              pageTitle="Troubleshoot my network security group (NSG)"
+              description="Troubleshoot my network security group (NSG)"
               service=""
               resource=""
               authors="tiag"
@@ -8,11 +8,13 @@
               selfHelpType="generic"
               supportTopicIds="32615533"
               resourceTags=""
-              productPesIds="15571,16215,16065,15797,16454,16470"
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# Troubleshoot my network security group (NSG)
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 

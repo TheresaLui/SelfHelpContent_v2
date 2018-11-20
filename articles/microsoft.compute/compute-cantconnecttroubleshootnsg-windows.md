@@ -1,10 +1,10 @@
 <properties  
-              pageTitle="I can't connect to my Windows VM"
-              description="I can't connect to my Windows VM"
+              pageTitle="Troubleshoot my network security group (NSG)"
+              description="Troubleshoot my network security group (NSG)"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="37"
+              displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615533"
               resourceTags=""
@@ -13,6 +13,8 @@
 />
 
 # I can't connect to my Windows VM
+
+4 out of 5 customers resolved their connectivity issue using below steps:<br>
 
 ## **Recommended documents**
 

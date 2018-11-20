@@ -43,4 +43,5 @@ netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
 ```
 netsh advfirewall set allprofiles state off
 ```   
+
 **Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to kick in.

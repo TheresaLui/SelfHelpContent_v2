@@ -21,7 +21,7 @@
 * [Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)<br>
 * [Understanding how to reset the network interface for Windows VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-network-interface)<br>
 * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
-* [Follow the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br><br>
+* [Follow the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 * [Troubleshooting specific RDP error messages to a Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-specific-rdp-errors)
 
 **Additional documents**<br>
