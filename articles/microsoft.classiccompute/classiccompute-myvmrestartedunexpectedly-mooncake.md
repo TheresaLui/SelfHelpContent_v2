@@ -17,7 +17,7 @@
 ## **Recommended steps**
 The common reasons for a VM restarting are: Azure caused (planned or unplanned maintenance or outage) or issues with the operating system or application. The following are steps to find out the reason for a restart in the past and to mitigate for future occurrences.
 
-1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) for the time period of the restart to determine the reason
+1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason
 2. [Understand, manage, and use 'Availability Sets' to reduce the impact of downtime events](https://docs.azure.cn/virtual-machines/windows/manage-availability/)
 
 ## **Recommended documents**

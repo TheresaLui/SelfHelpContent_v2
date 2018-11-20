@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Portal - Unlink Workspace"
-    description="Azure Automation - Portal - Unlink Workspace"
+    pageTitle="Azure Automation - Automation Account - Unlink Workspace"
+    description="Azure Automation - Automation Account - Unlink Workspace"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -12,8 +12,9 @@
     cloudEnvironments="public"
 />
 
-# Azure Automation - Portal - Unlink Workspace
+# Azure Automation - Automation Account - Unlink Workspace
 
 ## **Recommended documents**
-[Unlink Automation account from Log Analytics workspace](https://docs.microsoft.com/azure/automation/automation-unlink-from-log-analytics)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Unlink Automation account from Log Analytics workspace](https://docs.microsoft.com/azure/automation/automation-unlink-from-log-analytics)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
