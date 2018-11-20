@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-Below are details on how to setup a dashboard for your notebook.  
+Below are details on how to setup a dashboard for your notebook:   
 
 * Note: Dashboards do not live refresh when you present them from the dashboard view. To schedule a dashboard to refresh at a specific interval, [schedule](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#schedule-notebook) the notebook that generates the dashboard graphs.  
 * You can [create](https://docs.databricks.com/user-guide/notebooks/dashboards.html#dashboards) a dashboard from an Azure Databricks notebook.  
