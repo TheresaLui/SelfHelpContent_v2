@@ -19,7 +19,7 @@ NSGs by default deny connections from Internet unless it is explicitly allowed. 
 
 1. Review the security rules in your NSG.<br>
 2. Check if the backend port used in the load balancer rule configuration is in the allow list.<br>
-3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to backend port, with source being 'Internet', '*' or a specific public IP address.<br>
+3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to backend port with source being 'Internet', '\*', or a specific public IP address.<br>
 
 ## **Recommended documents**
 
