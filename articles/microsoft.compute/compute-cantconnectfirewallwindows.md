@@ -24,13 +24,13 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 
 	* Using the Display Name as a parameter:
 
-  ```   
+  ```
 	netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(DisplayName.*<FIREWALL RULE NAME>)" -context 9,4 | more
-	```  
+	```
 
 	* Using the Local Port the application is using:
 
-  ```   
+  ```
 	netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalPort.*<APPLICAITON PORT>)" -context 9,4 | more
 	```
 
@@ -38,16 +38,16 @@ Use [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 
   ```
 	netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
-	```   
+	```
 2. If you see the rule disabled, then you can enable it as the following:
 
 ```
 netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
-```   
+```
 3. For troubleshooting purposes in case you need to turn the firewall profiles OFF:
 
 ```
 netsh advfirewall set allprofiles state off
-```   
+```
 
 **Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to kick in.
