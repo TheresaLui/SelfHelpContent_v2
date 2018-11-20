@@ -26,8 +26,8 @@
 **Additional information for specific extensions:**<br>
 
 * [Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript)<br>
-* [OMS virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-oms)<br>
-* [Azure Desired State Configuration extension handler ](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-dsc-overview)<br>
+* [OMS Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-oms)<br>
+* [Azure Desired State Configuration](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-dsc-overview)<br>
 * [Azure Log Collector Extension](https://docs.microsoft.com/azure/virtual-machines/windows/log-collector-extension)<br>
 * [Azure Diagnostic Extension](https://docs.microsoft.com/azure/virtual-machines/linux/diagnostic-extension)<br>
 * [Network Watcher Agent](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-nwa)<br>
