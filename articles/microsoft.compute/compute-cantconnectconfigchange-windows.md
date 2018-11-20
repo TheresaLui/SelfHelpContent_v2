@@ -26,7 +26,7 @@
 
 **Additional documents**<br>
 
+* [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset the Remote Desktop service or its login password in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp)<br>
 * [Reset local Windows password for Azure VM offline](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)<br>
-* [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset network interface for Azure Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface)
