@@ -17,13 +17,13 @@
 # <-- Invalid or Misconfigured Redirect (Reply) URI -->
 
 <!--issueDescription-->
-## Invalid or Misconfigured Redirect (Reply) URI 
+## Invalid or Misconfigured Redirect (Reply) URI
 The application has tried a request with a redirect uri (reply url) that is different than the one configured on the Azure portal. The details of the request made are as follows: <br><br> Client(Application) Id: **<!--$applicationId-->[applicationId]<!--/$applicationId-->** <br> Timestamp: **<!--$envTime-->[envTime]<!--/$envTime-->** <br> Redirect (Reply) URI (from request): **<!--$redirectURI-->[redirectURI]<!--/$redirectURI-->**
 <!--/issueDescription-->
 
 ## **Recommended steps**
 
-1. Open Azure Portal and navigate to Azure Active Directory.
+1. Open **Azure Portal** and navigate to **Azure Active Directory**.
 2. From here go to [App registrations (Preview)](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview) and select the application facing this issue.
-3. Navigate to Authentication.
-4. Make sure the redirect uri configured for your application is same as that mentioned above.
+3. Navigate to **Authentication**.
+4. Make sure the **Redirect URI** configured for your application is same as that mentioned above.
