@@ -1,20 +1,20 @@
 <properties
 	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly "
-	service="microsoft.classiccompute"
+	description="My VM restarted unexpectedly"
+	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816,32593740,32602160,32628269,32628280,32628287"
-	resourceTags="linux,redhat,ubuntu"
-	productPesIds="15571,16342,15797,16454,16470"
+	supportTopicIds="32411816,32593740,32628269,32628280,32628287"
+	resourceTags="linux, redhat, Ubuntu"
+	productPesIds="15797,15571,16470,16454,16342"
 	cloudEnvironments="public"
 />
 
 # My VM restarted unexpectedly
 
-4 out of 5 customers resolved their restart issue using below steps:<br>
+4 out of 5 customers resolved their restart issue using below steps:
 
 ## **Recommended steps**
 

@@ -14,6 +14,8 @@
 
 # management/virtual machine restarts
 
+4 out of 5 customers resolved their restart issue using below steps:<br>
+
 ## **Recommended documents**
 
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
