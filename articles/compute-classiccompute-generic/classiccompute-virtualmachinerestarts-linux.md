@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# management/virtual machine restarts
+# My VM restarted unexpectedly
 
 4 out of 5 customers resolved their restart issue using below steps:<br>
 

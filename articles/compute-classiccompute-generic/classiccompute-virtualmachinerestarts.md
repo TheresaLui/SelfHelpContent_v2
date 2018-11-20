@@ -6,13 +6,13 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32593740,32411816"
+	supportTopicIds="32593740"
 	resourceTags=""
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
 />
 
-# management/virtual machine restarts
+# My VM restarted unexpectedly
 
 4 out of 5 customers resolved their restart issue using below steps:<br>
 
