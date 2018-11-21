@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-* Make sure to send the invitation to an email address that matches the user name that the user signs in with. An invitation sent to a user's proxy email address cannot be redeemed.
+* Make sure to send a user's invitation to the email address that matches the name the user signs in with. If you send the invitation to a user's proxy email address, the user can not redeem it.
 
 ## **Recommended documents**
 
