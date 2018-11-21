@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder="10"
 	selfHelpType="resource"
-	supportTopicIds="32411877,32511162"
+	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"

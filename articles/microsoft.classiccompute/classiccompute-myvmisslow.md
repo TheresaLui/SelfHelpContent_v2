@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32411877"
+	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds="14749"
 	cloudEnvironments="public"
