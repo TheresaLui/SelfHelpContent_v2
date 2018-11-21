@@ -94,13 +94,25 @@
 			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
-		},  {
-			"id": "additional_details",
+			"required": true
+		},{
+			"id": "problem_start_time",
 			"order": 5,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		},{
+			"id": "problem_description",
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
-			"required": false,
+			"required": true
+		}, {
+			"id": "additional_details",
+			"order": 6,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Please provide these details",
+			"required": true,
 			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
