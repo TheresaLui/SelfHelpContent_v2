@@ -21,7 +21,7 @@ cloudEnvironments="public"
 We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforeseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
 [Modules Out of date]
 
-#Resolution
+##Resolution
 
 ##In your Automation Account> click Modules> > click Update Azure modules.
 The update takes roughly 15 minutes to complete. Once it has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
