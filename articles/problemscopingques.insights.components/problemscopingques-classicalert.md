@@ -109,7 +109,7 @@
 			"required": true
 		}, {
 			"id": "additional_details",
-			"order": 6,
+			"order": 7,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
