@@ -90,26 +90,14 @@
 			"displayLabel": "Please enter a semi-colon delimited list of e-mail addresses that are affected by this problem",
 			"required": true
 		},{
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		},{
-			"id": "problem_start_time",
-			"order": 5,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		},{
 			"id": "problem_description",
-			"order": 6,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
-			"required": true
-		}, {
-			"id": "additional_details",
-			"order": 7,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
