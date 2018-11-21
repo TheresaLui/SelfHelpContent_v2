@@ -3,11 +3,10 @@
 	description="Slow virtual machine"
 	authors="AlexKuriatnyk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
+	supportTopicIds="32411877"
 	productPesIds="14749"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="9dcd2d5f-3519-49c2-97bc-7595e2864854"
 />
 # VM Performance
 ---
