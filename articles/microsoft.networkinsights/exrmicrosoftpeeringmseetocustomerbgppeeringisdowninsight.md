@@ -32,5 +32,6 @@ and Message contains '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
 | order by PreciseTimeStamp asc nulls last
 * Engage with the customer and their service provider to inspect BGP logging on the customer edge. <br>
 * Check the peering configuration (i.e. - STag, CTag, Peer IPs, shared keys) and compare the settings with the peering configuration settings on the customer edge to ensure the required values match.
+
 ## **Recommended document**
 [Verifying ExpressRoute connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
