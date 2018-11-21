@@ -11,8 +11,9 @@
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
 />
+# My VM is slow
 
-# performance/slow virtual machine
+4 out of 5 customers resolved their performance issue using below steps:<br>
 
 ## **Recommended documents**
 
