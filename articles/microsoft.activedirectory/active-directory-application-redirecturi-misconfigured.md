@@ -24,6 +24,6 @@ The application has tried a request with a redirect uri (reply url) that is diff
 ## **Recommended steps**
 
 1. Open **Azure Portal** and navigate to **Azure Active Directory**.
-2. From here go to [App registrations (Preview)](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview) and select the application facing this issue.
+2. From here go to [App registrations (Preview)](https://aka.ms/RegisteredAppsProd) and select the application facing this issue.
 3. Navigate to **Authentication**.
 4. Make sure the **Redirect URI** configured for your application is same as that mentioned above.
