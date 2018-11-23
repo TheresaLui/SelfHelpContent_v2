@@ -3,7 +3,7 @@
                 description="Cannot Deploy a Virtual Machine"
                 authors="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32411844"
+                supportTopicIds="32628252,32628253"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
