@@ -38,16 +38,16 @@
 					"text": "-1: A network-related or instance-specific error has occurred..."
 				}, {
 					"value": "Error_10928",
-					"text": "10928: Resource ID: X. The Y limit for the database is Z and has been reached"
+					"text": "10928: Resource ID: <id>. The <resource type> limit for the database is <value> and has been reached"
 				}, {
 					"value": "Error_18456",
-					"text": "18456: Login failed for user X"
+					"text": "18456: Login failed for user <user name>"
 				}, {
 					"value": "Error_40613",
-					"text": "40613: Database X on server Y is not currently available"
+					"text": "40613: Database <database name> on server <server name> is not currently available"
 				}, {
 					"value": "Error_40615",
-					"text": "40615: Cannot open server X requested by the login"
+					"text": "40615: Cannot open server <server name> requested by the login"
 				}, {
 					"value": "Error_Login_Timeout",
 					"text": "Login/connection timeouts"
