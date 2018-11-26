@@ -30,8 +30,9 @@
 5.	Browser version if issue in specific browser only
 
 **Known issues**<br>
-Auto collection of page duration is not applicable for single page applications. Please use custom [startTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#starttrackpage), [stopTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#stoptrackpage) to instrument scenarios.<br>
-Automatic injection of the JavaScript SDK using the App Service extension can cause page rendering issues and server side errors. Disable this injection by removing the `APPINSIGHTS_JAVASCRIPT_ENABLED` application setting. See [this page](https://azure.microsoft.com/blog/enable-client-side-monitoring-in-azure-with-application-insights/) for more information.
+* Auto collection of page duration is not applicable for single page applications. Please use custom [startTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#starttrackpage), [stopTrackPage](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#stoptrackpage) to instrument scenarios.
+
+* Automatic injection of the JavaScript SDK using the App Service extension can cause page rendering issues and server side errors. Disable this injection by removing the `APPINSIGHTS_JAVASCRIPT_ENABLED` application setting. See [this page](https://azure.microsoft.com/blog/enable-client-side-monitoring-in-azure-with-application-insights/) for more information.
 
 ## **Recommended Documents**
 [Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-javascript)<br>
