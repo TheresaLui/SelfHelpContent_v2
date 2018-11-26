@@ -18,7 +18,7 @@
     "formElements": [{
             "id": "hardware_partner",
             "order": 1,
-            "controlType": "dropdown",
+            "controlType": "DropDown",
             "displayLabel": "Azure Stack hardware partner",
             "watermarkText": "Choose a partner name",
             "dropdownOptions": [{
@@ -51,7 +51,7 @@
         },{
             "id": "patch_level",
             "order": 2,
-            "controlType": "dropdown",
+            "controlType": "DropDown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1807 if your build number is 1.1807.0.76.",
             "dropdownOptions": [{
@@ -85,11 +85,24 @@
         },{
             "id": "region_name",
             "order": 3,
-            "controlType": "textbox",
+            "controlType": "Textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
             "required": false,
             "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
+        },{
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "DateTimePicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },{
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "MultiLineTextBox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true
         }
     ]
 }
