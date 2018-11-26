@@ -81,7 +81,7 @@
                 }
                 ],
             "required": false,
-            "infoBalloonText": "Example: 1807 if your build number is 1.1807.0.76."
+            "infoBalloonText": "Example: Select 1807 if your build number is 1.1807.0.76."
         },{
             "id": "region_name",
             "order": 3,
