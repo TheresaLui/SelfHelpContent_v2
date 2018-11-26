@@ -14,7 +14,7 @@
 
 # My guest OS is causing restarts
 
-4 out of 5 customers resolved their restart issue using below steps:<br>
+4 out of 5 customers resolved their restart issue using the below steps.<br>
 
 ## **Recommended documents**
 
