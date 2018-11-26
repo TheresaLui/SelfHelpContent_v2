@@ -14,7 +14,7 @@
 
 # My VM is slow
 
-Try the following steps to diagnose and mitigate VM performance issues:<br>
+Try the following steps to diagnose and mitigate VM performance issues.<br>
 
 ## **Recommended steps**
 
