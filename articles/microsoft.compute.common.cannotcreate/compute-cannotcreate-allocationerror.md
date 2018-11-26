@@ -14,7 +14,7 @@
 
 # I received an allocation failure
 
-4 out of 5 customers resolved their allocation failure issue using below steps:<br>
+4 out of 5 customers resolved their allocation failure issue using the below steps.<br>
 
 ## **Recommended Steps**
 

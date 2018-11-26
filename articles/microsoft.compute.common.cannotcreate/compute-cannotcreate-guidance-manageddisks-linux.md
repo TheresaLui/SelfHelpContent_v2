@@ -14,7 +14,7 @@
 
 # I need guidance deploying with managed disks
 
-4 out of 5 customers resolved their managed disk issue using below steps:<br>
+4 out of 5 customers resolved their managed disk issue using the below steps.<br>
 
 ## **Recommended documents**
 
