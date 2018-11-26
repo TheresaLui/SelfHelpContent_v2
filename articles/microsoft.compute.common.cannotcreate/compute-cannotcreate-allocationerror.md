@@ -28,5 +28,5 @@ Review the below scenarios to troubleshoot and understand allocation failures:<b
 
 ## **Recommended documents**
 
-* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.comazure/virtual-machines/troubleshooting/allocation-failure)<br>
+* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
 * [Classic Deployments: Troubleshoot allocation failures](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure-classic)
