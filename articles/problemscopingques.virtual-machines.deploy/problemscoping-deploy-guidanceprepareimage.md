@@ -22,6 +22,16 @@
                   "displayLabel": "When was the last reported time of the problem?",
                   "required": false
                   },{
+                  "id": "deployment_os",
+                  "order": 2,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "What is the distribution and version of OS?",
+                  "required": false,
+                  "useAsAdditionalDetails": true,
+                  "hints": [{
+                    "text": "Distribution and version of the operating system."
+                    }]
+                  },{
                   "id": "deployment_isfollowingchecklist",
                   "order": 2,
                   "controlType": "dropdown",
