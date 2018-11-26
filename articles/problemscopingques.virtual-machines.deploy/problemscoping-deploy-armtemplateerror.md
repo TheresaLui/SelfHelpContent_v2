@@ -12,40 +12,45 @@
 # Deploy a VM
 ---
 {
-                "resourceRequired": true,
-                "title": "Troubleshoot my ARM template error",
-                "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": false
-                    },{
-                      "id": "deployment_manageddisks",
-                      "order": 2,
-                      "controlType": "dropdown",
-                      "displayLabel": "Are you deploying with managed disks?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [{
-                        "value": "Yes",
-                        "text": "Yes"
-                        },{
-                          "value": "No",
-                          "text": "No"
-                          },{
-                            "value": "I do not know",
-                            "text": "I do not know"
-                          }
-                          ],
-                          "required": false
-                    },{
-                      "id": "learn_more_text",
-                      "order": 3,
-                      "controlType": "infoblock",
-                      "content": "<a href='https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors'>Learn more</a> about troubleshooting common Azure deployment errors with Azure Resource Manager",
-                      "required": false
-                    }
-                    ]
+    "resourceRequired": true,
+    "title": "Troubleshoot my ARM template error",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_end_date",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When was the last reported time of the problem?",
+            "required": false
+        },
+        {
+            "id": "deployment_manageddisks",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Are you deploying with managed disks?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "learn_more_text",
+            "order": 3,
+            "controlType": "infoblock",
+            "content": "<a href='https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors'>Learn more</a> about troubleshooting common Azure deployment errors with Azure Resource Manager"
+        }
+    ]
 }
 ---
