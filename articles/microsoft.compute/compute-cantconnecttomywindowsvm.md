@@ -14,7 +14,7 @@
 
 # I can't connect to my Windows VM
 
-4 out of 5 customers resolved their connectivity issue using below steps:<br>
+4 out of 5 customers resolved their connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 To resolve common issues, try one or more of the following steps.

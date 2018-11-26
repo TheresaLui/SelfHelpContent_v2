@@ -14,7 +14,7 @@
 
 # Troubleshoot my VM firewall
 
-4 out of 5 customers resolved their connectivity issue using below steps:<br>
+4 out of 5 customers resolved their connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 
