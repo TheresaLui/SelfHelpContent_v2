@@ -18,7 +18,7 @@
 
 <!--issueDescription-->
 ## Invalid or Misconfigured Redirect (Reply) URI
-The application has tried a request with a redirect uri (reply url) that is different than the one configured on the Azure portal. The details of the request made are as follows: <br><br> Client(Application) Id: **<!--$applicationId-->[applicationId]<!--/$applicationId-->** <br> Timestamp: **<!--$envTime-->[envTime]<!--/$envTime-->** <br> Redirect (Reply) URI (from request): **<!--$redirectURI-->[redirectURI]<!--/$redirectURI-->**
+The application has tried a request with a Redirect URI (Reply URL) that is different than the one configured on the Azure portal. The details of the request made are as follows: <br><br> Client(Application) Id: **<!--$applicationId-->[applicationId]<!--/$applicationId-->** <br> Timestamp: **<!--$envTime-->[envTime]<!--/$envTime-->** <br> Redirect (Reply) URI (from request): **<!--$redirectURI-->[redirectURI]<!--/$redirectURI-->**
 <!--/issueDescription-->
 
 ## **Recommended steps**
