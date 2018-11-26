@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
-	ms.author="subbuk"
+	authorAlias="subbuk"
 	displayOrder=""
 	articleId="PlanedFailoverLR_1FBC4A97-DC3A-4DF9-86C0-46B00AF0F733"
 	diagnosticScenario="crc_sqldb_connectivity"
