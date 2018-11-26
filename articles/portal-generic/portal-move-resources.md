@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal Resource Move Documentation"
-	description="Azure Portal"
+	description="Azure Portal Move Resources"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"

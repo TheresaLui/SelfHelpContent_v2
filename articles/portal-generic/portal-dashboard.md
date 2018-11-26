@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal Dashboard Related Documentation"
-	description="Azure Portal"
+	description="Azure Portal Dashboard"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"

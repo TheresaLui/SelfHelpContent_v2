@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal Support Ticket Experience"
-	description="Azure Portal"
+	description="Azure Portal Support Ticket Experience"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"

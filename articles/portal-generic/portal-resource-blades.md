@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal"
-	description="Azure Portal"
+	description="Azure Portal Resource Blades"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"

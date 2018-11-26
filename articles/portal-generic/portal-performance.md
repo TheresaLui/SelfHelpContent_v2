@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal Performance Related Documents"
-	description="Azure Portal"
+	description="Azure Portal Performance"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"

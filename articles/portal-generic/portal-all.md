@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Azure Portal"
-	description="Azure Portal"
+	description="Azure Portal Generic"
 	service="microsoft.Portal"
 	resource=""
 	authors="scottAzure"
