@@ -39,7 +39,12 @@
                           }
                           ],
                           "required": false
-                        }
-                        ]
+                    },{
+                      "id": "learn_more_text",
+                      "order": 3,
+                      "controlType": "infoblock",
+                      "content": "<a href='https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors'>Learn more</a> about troubleshooting common Azure deployment errors with Azure Resource Manager"
+                    }
+                    ]
 }
 ---
