@@ -33,7 +33,7 @@
                     }]
                   },{
                   "id": "deployment_isfollowingchecklist",
-                  "order": 2,
+                  "order": 3,
                   "controlType": "dropdown",
                   "displayLabel": "Have you followed <a href='https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image'>the checklist for uploading a VM</a>?",
                   "watermarkText": "Choose an option",
