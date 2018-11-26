@@ -16,7 +16,7 @@
 
 ## **Recommended steps**
 
-1.  Please look through [these common issues and solutions](https://docs.microsoft.com/azure/application-insights/app-insights-usage-troubleshoot) and see if they resolve your issue.
+1.  Please look through [these common issues and solutions](https://docs.microsoft.com/azure/application-insights/app-insights-usage-troubleshoot) and see if they resolve your issue
 2.	Please verify you are using recommended mechanisms of loading the JavaScript SDK, documented here: [Getting Started: Application Insights JavaScript SDK](https://github.com/Microsoft/ApplicationInsights-JS#get-started)
 3.	Please verify you have added the Application Insights instrumentation key to the code in your app that initializes Application Insights
 4.  Please verify the instrumentation key in the code of your app matches the instrumentation key of the Application Insights resource in which you expect to see data. To see the instrumentation key for an Application Insights resource, go the Overview page of the Application Insights resource in the Azure portal and look in the Essentials section at the top of the page
