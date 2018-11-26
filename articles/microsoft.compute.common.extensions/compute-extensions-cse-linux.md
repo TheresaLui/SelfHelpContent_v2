@@ -14,7 +14,7 @@
 
 # Azure Custom Script (CSE) extension issue
 
-4 out of 5 customers resolved their extension issue using below steps:<br>
+4 out of 5 customers resolved their extension issue using the below steps.<br>
 
 ## **Recommended documents:**
 
