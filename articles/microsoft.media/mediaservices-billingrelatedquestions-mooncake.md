@@ -12,8 +12,8 @@
     cloudEnvironments="MoonCake"
  />
 
-# Explanation of media services pricing
+# Media Services Pricing
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Media Services pricing details](https://www.azure.cn/pricing/details/media-services/)
