@@ -2,6 +2,7 @@
     pageTitle="Azure Stack Environment Details"
     description="Additional details for on-premises Azure Stack issue"
     authors="alexsmithMSFT"
+    authorAlias="alexsmit"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32567908,32567920,32567910,32591343,32567944,32591348,32591349"
     productPesIds="16226"
@@ -18,7 +19,7 @@
     "formElements": [{
             "id": "hardware_partner",
             "order": 1,
-            "controlType": "DropDown",
+            "controlType": "dropdown",
             "displayLabel": "Azure Stack hardware partner",
             "watermarkText": "Choose a partner name",
             "dropdownOptions": [{
@@ -51,7 +52,7 @@
         },{
             "id": "patch_level",
             "order": 2,
-            "controlType": "DropDown",
+            "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1807 if your build number is 1.1807.0.76.",
             "dropdownOptions": [{
@@ -85,7 +86,7 @@
         },{
             "id": "region_name",
             "order": 3,
-            "controlType": "Textbox",
+            "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
             "required": false,
@@ -93,15 +94,16 @@
         },{
             "id": "problem_start_time",
             "order": 4,
-            "controlType": "DateTimePicker",
+            "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },{
             "id": "problem_description",
             "order": 5,
-            "controlType": "MultiLineTextBox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
+            "useAsAdditionalDetails": true,
             "required": true
         }
     ]
