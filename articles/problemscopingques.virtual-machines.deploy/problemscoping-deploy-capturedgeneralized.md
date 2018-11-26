@@ -39,7 +39,25 @@
                           }
                           ],
                           "required": false
-                        }
+                      },{
+                        "id": "deployment_vhdsnapshot",
+                        "order": 3,
+                        "controlType": "dropdown",
+                        "displayLabel": "Are you creating from a VHD file, a snapshot, or a captured image?",
+                        "watermarkText": "Choose an option",
+                        "dropdownOptions": [{
+                          "value": "VHD file",
+                          "text": "VHD file"
+                          },{
+                            "value": "Snapshot",
+                            "text": "Snapshot"
+                          },{
+                            "value": "Captured image",
+                            "text": "Captured image"
+                            }
+                            ],
+                            "required": false
+                          }
                         ]
 }
 ---
