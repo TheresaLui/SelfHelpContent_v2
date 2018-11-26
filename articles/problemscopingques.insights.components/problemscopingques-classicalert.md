@@ -104,9 +104,9 @@
 			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Detailed scenario of the error condition"
+					"text": "Expected behavior, actual behavior"
 				}, {
-					"text": "Troubleshooting done so far and how you determined this is incorrect behavior"
+					"text": "Troubleshooting done so far"
 				}, {
 					"text": "Log Files"
 				}, {
@@ -114,7 +114,6 @@
 				}, {
 					"text": "Screenshots"
 				}
-
 			]
 		}
 	]
