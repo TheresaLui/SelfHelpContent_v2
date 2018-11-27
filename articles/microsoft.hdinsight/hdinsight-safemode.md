@@ -19,13 +19,13 @@
 # We ran diagnostics on your resource and found the following issue
 
 ## Problem
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is running in safemode causing storage access such as read/write operations to fail. 
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is running in safe mode causing storage access, such as read/write operations, to fail. 
 
 ## **Recommended steps**
-* Log onto cluster
+* Log onto your HDInsight cluster
 
-* Disable safemode
+* Execute this command to disable safe mode
 hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
 
 ## Further Reading
-Please refer to this [blog post](https://blogs.msdn.microsoft.com/bigdatasupport/2016/03/16/hdinsight-hdfs-can-stay-in-safe-mode-after-a-scale-down/) for more information regarding HDFS in safemode 
+For more information regarding HDFS in safe mode please refer to this [blog post](https://blogs.msdn.microsoft.com/bigdatasupport/2016/03/16/hdinsight-hdfs-can-stay-in-safe-mode-after-a-scale-down/) 
