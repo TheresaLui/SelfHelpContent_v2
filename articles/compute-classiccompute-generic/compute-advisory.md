@@ -23,5 +23,5 @@
 * [Reset local Windows password for Azure VM offline](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)<br>
 * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset network interface for Azure Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface)<br>
-* [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting)<br>
+* [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/restart-resize-error-troubleshooting)<br>
 * [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)
