@@ -4,6 +4,7 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
+    authorAlias="sahenry"
     authors="sadiehenry"
     displayOrder="1"
     articleId="IAM_SSPR_User_Not_Registered_For_Password_Reset"
