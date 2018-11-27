@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="73"
 	selfHelpType="resource"
 	supportTopicIds="32597519"
@@ -14,9 +15,9 @@
 
 # Errors for Table API in Azure Cosmos DB
 
-Please check if you are on the latest SDK version as they get bug fixes which might resolve your issue. 
+Please ensure you are on the latest SDK version as they get bug fixes which might resolve your issue. 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Cosmos DB Table .NET API](https://docs.microsoft.com/azure/cosmos-db/table-sdk-dotnet)
 * [Azure Cosmos DB Table Java API](https://docs.microsoft.com/azure/cosmos-db/table-sdk-java)
