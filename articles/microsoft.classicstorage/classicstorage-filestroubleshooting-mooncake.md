@@ -4,6 +4,7 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="passaree"
+    authoralias="passap"
     displayOrder="7"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,11 +15,11 @@
 
 # I need help troubleshooting Azure File issues
 
-## **Recommended steps**
+## **Recommended Steps**
 
 This article lists common problems and solutions that are related to Microsoft Azure File storage. 
 
-### **General problems (occur in both Windows and Linux clients)**
+### **General problems for both Windows and Linux client)**
 
 * [Quota error when trying to open a file](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#quotaerror)<br>
 * [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#slowboth)<br>
