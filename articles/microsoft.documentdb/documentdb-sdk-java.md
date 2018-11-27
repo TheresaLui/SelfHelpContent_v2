@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="304"
 	selfHelpType="resource"
 	supportTopicIds="32597530"
@@ -16,7 +17,7 @@
 
 Please refer to the following documents for a complete reference for using Java SDK with Azure Cosmos DB.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Azure Cosmos DB: Create a document database using Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-java)<br>
 [Azure Cosmos DB: Build a MongoDB API console app with Java and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-java)<br>
