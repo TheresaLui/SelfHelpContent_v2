@@ -1,0 +1,21 @@
+<properties
+    pageTitle="Configuring Conditional Access for MFA"
+    description="Configuring Conditional Access for MFA"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="curtand"
+    displayOrder=""
+    supportTopicIds="32615516"
+    selfHelpType="generic"
+    resourceTags=""
+    productPesIds="16579"
+    cloudEnvironments="public"
+ />
+
+# Configuring Conditional Access for MFA
+
+## **Recommended documents**
+
+* [Require multi-factor authentication for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)<br>
+* [Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)<br>
+* [Require MFA for access attempts from untrusted networks](https://docs.microsoft.com/azure/active-directory/conditional-access/untrusted-networks)
