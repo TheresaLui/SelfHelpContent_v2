@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="303"
 	selfHelpType="resource"
 	supportTopicIds="32597486"
@@ -16,6 +17,6 @@
 
 Please refer to the following document for a complete reference for using .NET Core SDK with Azure Cosmos DB.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Azure Cosmos DB .NET Core SDK for SQL API: Release notes and resources](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-core)
