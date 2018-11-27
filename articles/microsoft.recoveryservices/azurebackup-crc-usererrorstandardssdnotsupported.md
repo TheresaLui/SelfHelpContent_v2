@@ -5,6 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
+	authorAlias="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorstandardssdnotsupported"
 	diagnosticScenario="azurebackup-crc-usererrorstandardssdnotsupported"
