@@ -17,9 +17,9 @@
 
 ## **Recommended Steps**
 
-This article lists common problems and solutions that are related to Microsoft Azure File storage. 
+This article lists some common problems and solutions related to Microsoft Azure File storage. 
 
-### **General problems for both Windows and Linux client)**
+### **General problems for both Windows and Linux clients**
 
 * [Quota error when trying to open a file](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#quotaerror)<br>
 * [Slow performance when you access Azure File storage from Windows or from Linux](https://docs.azure.cn/storage/files/storage-troubleshoot-windows-file-connection-problems#slowboth)<br>
