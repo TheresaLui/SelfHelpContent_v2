@@ -15,5 +15,4 @@
 # General Guidance or Advisory
 
 ## **Recommended documents**
-* [Azure Front Door Service Documentation](https://docs.microsoft.com/azure/frontdoor/)<br>
-* [Overview Page](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)<br>
+* Here is a [5-minute Quickstart along with step by step tutorials ](https://docs.microsoft.com/azure/frontdoor/) for configuring a Front Door Service for your needs.<br>

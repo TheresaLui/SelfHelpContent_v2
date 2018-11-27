@@ -15,6 +15,6 @@
 # Configure URL path-based routing
 
 ## **Recommended documents**
-* Learn more about [URL-based routing.](https://review.docs.microsoft.com/azure/frontdoor/front-door-overview?branch=master#url-based-routing)<br>
-* How we match to a given Front Door [routing rule.](https://docs.microsoft.com/azure/frontdoor/front-door-route-matching#route-matching)<br>
+* Learn [how to enforce URL-based routing.](https://review.docs.microsoft.com/azure/frontdoor/front-door-overview?branch=master#url-based-routing) which  allows you to route traffic to backend pools based on URL paths of the request.<br>
+* This section will focus on  [how to match to a given Front Door routing rule.](https://docs.microsoft.com/azure/frontdoor/front-door-route-matching#route-matching) The basic concept is that we always match to the most-specific match first looking only at the "left-hand side". We first match based on HTTP protocol, then Frontend host, then the Path.<br>
 

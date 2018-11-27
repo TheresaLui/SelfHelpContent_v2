@@ -15,5 +15,5 @@
 # 4xx and 5xx errors
 
 ## **Recommended documents**
-* Troubleshooting common routing issues for [4xx and 5xx errors](https://docs.microsoft.com/azure/frontdoor/front-door-troubleshoot-routing)<br>
+* This article describes  [how to troubleshoot some of the common routing issues](https://docs.microsoft.com/azure/frontdoor/front-door-troubleshoot-routing) you may face for your Azure Front Door Service configuration<br>
 

@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-* [Caching with Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor/front-door-caching)<br>
-* How to [Create Front Door with caching enabled for certain routes](https://azure.microsoft.com/resources/templates/201-front-door-create-caching/)<br>
+* Here is an explanation around [caching with Azure Front Door Service.](https://docs.microsoft.com/azure/frontdoor/front-door-caching) This article describes the delivery of large files, file compression query string behavior and more!<br>
+* Learn [how to create a Front Door with caching enabled](https://azure.microsoft.com/resources/templates/201-front-door-create-caching/) for the defined routing configuration thus caching any static assets for your work.<br>
 

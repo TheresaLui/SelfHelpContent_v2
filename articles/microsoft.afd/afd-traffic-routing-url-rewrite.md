@@ -15,5 +15,5 @@
 # URL rewrite
 
 ## **Recommended documents**
-* [URL rewrite (custom forwardeing path)](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite)<br>
+* [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.<br>
 

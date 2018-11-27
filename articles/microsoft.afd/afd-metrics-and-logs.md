@@ -15,4 +15,4 @@
 # Metrics and Logs
 
 ## **Recommended documents**
-* Learn more about [Monitoring metrics for Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-diagnostics)<br>
+* Listed here is ways that you can [monitor your key metrics](https://docs.microsoft.com/azure/frontdoor/front-door-diagnostics) to validate the Front Door configuration, along with usage, health, and performance or your Front Door.<br>

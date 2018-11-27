@@ -15,7 +15,6 @@
 # Configure web application firewall (WAF)
 
 ## **Recommended documents**
-* How to configure a [Web application firewall (WAF)](https://docs.microsoft.com/azure/application-gateway/waf-overview)<br>
-* How to [Enable Azure managed ruleset for Front Door](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)<br>
-* How to configure network waf-policy custom-rules with [Azure CLI](https://docs.microsoft.com/cli/azure/ext/front-door/network/waf-policy/custom-rule?view=azure-cli-latest)<br>
-* How to configure network front-door routing-rule using [Azure CLI](https://docs.microsoft.com/cli/azure/ext/front-door/network/front-door/routing-rule?view=azure-cli-latest)<br>
+* Learn more about the benefits features and pricing of the  [Web application firewall (WAF)](https://docs.microsoft.com/azure/application-gateway/waf-overview)<br>
+* Here you can learn how to enable Azure managed ruleset for Front Door. Click on the link to view a template that shows you how to  [configure Front Door to enable Azure managed application firewall rules.](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)<br>
+* Learn how to manage the  [ WAF policy custom rules.](https://docs.microsoft.com/cli/azure/ext/front-door/network/waf-policy/custom-rule?view=azure-cli-latest)<br>
