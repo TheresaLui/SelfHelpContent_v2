@@ -4,6 +4,7 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
+    authoralias="scotro
     displayOrder="8"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,18 +15,18 @@
 
 # My VM restarted unexpectedly
 
-## **Recommended steps**
+## **Recommended Steps**
 
 The common reasons for a VM restarting are:
 
-* Azure caused (planned or unplanned maintenance or outage) or issues with the operating system or application.
+* Azure caused (planned or unplanned maintenance or outage) or issues with the operating system or application
 
 The following are steps to find out the reason for a restart in the past and to mitigate for future occurrences:
 
-1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason.<br>
+1. Review [Audit Logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason
 2. [Understand, manage, and use 'Availability Sets' to reduce the impact of downtime events](https://docs.azure.cn/virtual-machines/windows/manage-availability)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
 * [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
