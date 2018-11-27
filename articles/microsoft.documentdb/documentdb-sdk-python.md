@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB Python SDK"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="306"
 	selfHelpType="resource"
 	supportTopicIds="32597553"
