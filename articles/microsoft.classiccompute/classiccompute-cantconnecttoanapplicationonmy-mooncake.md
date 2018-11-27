@@ -14,7 +14,7 @@
 
 # I can't connect to an application on my VM
 
-## **Recommended steps**
+## **Recommended Steps**
 
 First ensure you are able to RDP or SSH to the VM, and then try the following steps:
 
@@ -30,7 +30,7 @@ First ensure you are able to RDP or SSH to the VM, and then try the following st
 
     Try to access the application from a computer outside the virtual network. If you cannot access it, check the external load balancer configuration, endpoint (TCP or UDP), network security group, and NAT configuration.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [About network security groups](https://docs.azure.cn/virtual-network/virtual-networks-nsg/)<br>
 * [Troubleshoot access to an application running on an azure virtual machine](https://docs.azure.cn/virtual-machines/linux/troubleshoot-app-connection/)
