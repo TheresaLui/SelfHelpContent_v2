@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="306"
 	selfHelpType="resource"
 	supportTopicIds="32597553"
@@ -16,7 +17,7 @@
 
 Please refer to the following documents for a complete reference for using Python with Azure Cosmos DB.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Azure Cosmos DB Python examples](https://docs.microsoft.com/azure/cosmos-db/sql-api-python-samples)<br>
 [Azure Cosmos DB: Build a Flask app with the MongoDB API](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-flask)<br>
