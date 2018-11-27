@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB REST API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="301"
 	selfHelpType="resource"
 	supportTopicIds="32597556"
