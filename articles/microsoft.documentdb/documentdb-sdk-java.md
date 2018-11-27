@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB Java SDK"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="304"
 	selfHelpType="resource"
 	supportTopicIds="32597530"
