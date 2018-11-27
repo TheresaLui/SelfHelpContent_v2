@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="70"
 	selfHelpType="resource"
 	supportTopicIds="32597528"
@@ -14,9 +15,9 @@
 
 # Introduction to Azure Cosmos DB Indexing
 
-Azure Cosmos DB will automatically create indexes on all properties and no index management is needed.  Please refer to below documents for a complete reference to Azure Cosmos DB Indexing policy.
+Azure Cosmos DB will automatically create indexes on all properties and no index management is needed. Please refer to below documents for a complete reference to Azure Cosmos DB Indexing policy.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How does Azure Cosmos DB index data?](https://docs.microsoft.com/azure/cosmos-db/indexing-policies)
 * [Introduction to Azure Cosmos DB: Table API](https://docs.microsoft.com/azure/cosmos-db/table-introduction)
