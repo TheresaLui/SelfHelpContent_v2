@@ -24,8 +24,7 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended steps**
 * Log onto your HDInsight cluster
 
-* Execute this command to disable safe mode
-hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
+* Execute this command to disable safe mode : hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
 
 ## Further Reading
 For more information regarding HDFS in safe mode please refer to this [blog post](https://blogs.msdn.microsoft.com/bigdatasupport/2016/03/16/hdinsight-hdfs-can-stay-in-safe-mode-after-a-scale-down/) 
