@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB Table - Error or incorrect result"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="73"
 	selfHelpType="resource"
 	supportTopicIds="32597519"
