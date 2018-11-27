@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB .NET Core SDK"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="303"
 	selfHelpType="resource"
 	supportTopicIds="32597486"
