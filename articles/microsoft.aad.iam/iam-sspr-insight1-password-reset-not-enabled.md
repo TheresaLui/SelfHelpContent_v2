@@ -4,6 +4,7 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
+    authorAlias="sahenry"
     authors="sadiehenry"
     displayOrder="1"
     articleId="IAM_SSPR_Password_Reset_Not_Enabled"
