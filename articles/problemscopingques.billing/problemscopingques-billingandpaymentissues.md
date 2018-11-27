@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Billing and Payment Issues"
-        description="Billing and Payment Issues"
-        articleId="billingandpaymentissues"
-        authors="prdasneo"
-        selfHelpType="problemScopingQuestions"
-        supportTopicIds="32454856"
-        productPesIds="15659"
-        cloudEnvironments="public"
-        schemaVersion="1"
+    pageTitle="Billing and Payment Issues"
+    description="Billing and Payment Issues"
+    authors="prdasneo"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32454856"
+    productPesIds="15659"
+    articleId="billingandpaymentissues"
+    cloudEnvironments="public"
+    schemaVersion="1"
 />
 
 # Billing and Payment Issues
