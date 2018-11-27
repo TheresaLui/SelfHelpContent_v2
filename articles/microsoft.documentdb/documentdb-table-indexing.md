@@ -3,7 +3,7 @@
   	description="Indexing"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="70"
 	selfHelpType="resource"
 	supportTopicIds="32597528"
