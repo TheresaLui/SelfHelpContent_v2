@@ -43,7 +43,7 @@ If you have already assigned the user to the application but the problem still c
 
 **Step 6**: If the ‘Issuer’ value does not match the ‘Identifier (Entity ID)’ then update the ‘Identifier (Entity ID) value to match. 
 
-If the ‘Issuer’ value matches the Identifier (Entity ID) then there are two options::
+If the ‘Issuer’ value matches the Identifier (Entity ID) then there are two options:
     **Option A**: Use the current application to enable single sign-on and assign the users or group to the application.
 	**Option B**: Update the application to provide a different ‘Issuer’ value in the SAML request.  Use this new value as the ‘Identifier (Entity ID)’ to enable single sign-on with the application you were configuring at first.
 

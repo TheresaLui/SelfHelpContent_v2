@@ -29,9 +29,9 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 4**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
 
-**Step 5**: Within the 'Basic SAML Configuration' section, select the edit pencil.  Enter ‘Issuer’ value into the 'Identifier (Entity ID)' property and select Save.  
+**Step 5**: Within the 'Basic SAML Configuration' section, select the edit pencil.  Enter the Issuer value into the 'Identifier (Entity ID)' property and select Save.  
 
-Your application should be available for user sign-in.
+Your application should now be available for user sign-in.
 
 For future sign in problems with SAML based applications, we recommend using the testing feature with the My Apps secure sign-in extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 

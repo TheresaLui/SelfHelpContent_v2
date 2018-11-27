@@ -27,7 +27,7 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Properties".
 
-**Step 4**: Within the 'Basic SAML Configuration' section, select the edit pencil. Enter <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl--> value into the 'Identifier (Entity ID)' property and select Save.  
+**Step 4**: Within the 'Basic SAML Configuration' section, select the edit pencil. Enter <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl--> into the 'Identifier (Entity ID)' property and select Save.  
 
 Your application should now be available for user sign-in.
 

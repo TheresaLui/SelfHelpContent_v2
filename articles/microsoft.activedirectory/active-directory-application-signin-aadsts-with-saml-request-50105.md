@@ -17,11 +17,11 @@
 
 # Enterprise Application - Config issue preventing user sign-in
 
-The user who is trying to log in doesnt have permissions to access the application. There are two possible scenarios for this problem. The most common is that user hasn't been assigned to the application.
+The user who is trying to log in doesn't have permissions to access the application. There are two possible scenarios for this problem. The most common is that user hasn't been assigned to the application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step 1**: Sign in to Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
 **Step 2**: Select Azure Active Directory, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
 
@@ -29,11 +29,11 @@ In order to enable user sign-in for this application, please follow the steps be
 
 **Step 4**: In the 'Users and groups' section, click on Add user to assign the user to the application.
 
-If you have already added and assigned a role to the user in the application but the problem continues then the problem is that the Azure AD is signing the user to another instance of the application. This can occur because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
+If you have already added and assigned a role to the user in the application but the problem continues, then the problem is that the Azure AD is signing the user into another instance of the application. This can occur because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
 
-**Step 1**: Please refer to the SAML request provided at the end of the Resolution Steps under the title "SAML Request Received" and copy the value of the \"Issuer\" property value.
+**Step 1**: Please refer to the SAML request provided at the end of this list under the title "SAML Request Received" and copy the value of the \"Issuer\" property value.
 
-**Step 2**: Signin to the Azure Portal as a global administrator or another role that is able to manage this application.
+**Step 2**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
 
 **Step 3**: Select Azure Active Directory, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
 
