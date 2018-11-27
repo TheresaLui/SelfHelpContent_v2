@@ -4,6 +4,7 @@ description="Internal server Error"
 service="microsoft.documentdb"
 resource="databaseAccounts"
 authors="balaks"
+authoralias="balaks"
 displayOrder="87"
 selfHelpType="resource"
 supportTopicIds="32597529"
@@ -12,7 +13,7 @@ productPesIds="15585"
 cloudEnvironments="public"
 />
 
-# Getting internal server error
+# Internal Server Errors
 
 ## I am getting an internal server error when changing the Scale setting in Azure Portal
 
@@ -41,7 +42,7 @@ Delete the documents created through SQL API from the MongoDB Collection using D
 
 Please open a support ticket including the activity ID and timestamp of the request if your scenario for internal server error does not match with any of the cases mentioned above.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Retiring the S1, S2, and S3 performance levels]( https://docs.microsoft.com/azure/cosmos-db/performance-levels)
 * [Set and get throughput for Azure Cosmos DB containers and database]( https://docs.microsoft.com/azure/cosmos-db/set-throughput)
