@@ -16,9 +16,8 @@
     cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found the following issue
+# <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> running in safe mode
 
-## Problem
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is running in safe mode causing storage access, such as read/write operations, to fail. 
 
 ## **Recommended steps**
