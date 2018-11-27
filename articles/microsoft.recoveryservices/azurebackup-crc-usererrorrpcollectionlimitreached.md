@@ -5,6 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
+	authorAlias="srinathv"
 	articleId="azurebackup-crc-usererrorrpcollectionlimitreached"
 	diagnosticScenario="azurebackup-crc-usererrorrpcollectionlimitreached"
 	selfHelpType="diagnostics"
