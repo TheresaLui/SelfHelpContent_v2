@@ -3,15 +3,14 @@
     description="Azure Automation - Update Management"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand-msft"
+    authors="zjalexander"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228"
+    supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228,32612529"
     resourceTags=""
-    productPesIds="15607"
+    productPesIds="15607,15725"
     cloudEnvironments="public"
 />
-
 # Azure Automation - Update Management
 
 ## **Recommended documents**
