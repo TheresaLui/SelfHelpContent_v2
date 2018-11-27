@@ -3,7 +3,7 @@
 	description="Azure Cosmos DB Node.js SDK"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="305"
 	selfHelpType="resource"
 	supportTopicIds="32597534"
