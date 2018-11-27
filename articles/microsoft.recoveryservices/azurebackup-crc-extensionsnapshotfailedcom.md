@@ -5,6 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
+	authorAlias="srinathv"
 	articleId="azurebackup-crc-extensionsnapshotfailedcom"
 	diagnosticScenario="azurebackup-crc-extensionsnapshotfailedcom"
 	selfHelpType="diagnostics"
@@ -19,7 +20,7 @@ We have investigated and detected that there could be an issue from Windows serv
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the backup failure due to **Com+ Systme Application**, perform the steps in the **Error due to COM+ System Application** section and if the backup fail due to **IaaS VM provider service** then perform the steps in the **Error due to IaaS VM provider Service** section.<br>
+To resolve the backup failure due to **Com+ System Application**, perform the steps in the **Error due to COM+ System Application** section and if the backup fail due to **IaaS VM provider service** then perform the steps in the **Error due to IaaS VM provider Service** section.<br>
 
 **Error due to COM+ System Application**
 
