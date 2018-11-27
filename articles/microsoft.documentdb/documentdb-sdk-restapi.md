@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="301"
 	selfHelpType="resource"
 	supportTopicIds="32597556"
@@ -16,6 +17,6 @@
 
 Please refer to the following document for a complete reference for using REST API with Azure Cosmos DB.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Azure Cosmos DB: REST API Reference](https://docs.microsoft.com/rest/api/cosmos-db/)
