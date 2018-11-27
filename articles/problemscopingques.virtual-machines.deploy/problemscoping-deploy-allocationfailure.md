@@ -58,7 +58,7 @@
                         ],
                         "required": false
                   },{
-                      "id": "learn_more_allocation",
+                      "id": "learn_more_text",
                       "order": 4,
                       "controlType": "infoblock",
                       "content": "<a href='https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure'>Learn more</a> about troubleshooting allocation failures when you create, restart, or resize VMs in Azure"
