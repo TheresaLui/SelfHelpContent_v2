@@ -3,7 +3,7 @@
 	description="Error in Data Explorer"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
+	authors="balaks"
 	displayOrder="307"
 	selfHelpType="resource"
 	supportTopicIds="32597505,32597510,32597517,32597518"
