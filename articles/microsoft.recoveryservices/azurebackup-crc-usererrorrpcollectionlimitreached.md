@@ -15,9 +15,9 @@
 
 # UserErrorRpCollectionLimitReached
 <!--issueDescription-->
-We identified that your backup operation was failing due the lock on the recovery point resource group. The lock might have been applied on the recovery point resource group from your end for some security reason. The presence of a lock prevents the execution of automatic cleanup, which can result in the recovery point reaching the maximum limit.
+We identified that your backup operation was failing due the presence of a lock on the recovery point resource group. The lock might have been applied by an authorized user for security reason. The presence of a lock prevents the execution of automatic cleanup, which can result in the recovery point reaching the maximum limit.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To remove the existing lock and to cleanup the recovery point collection, follow the steps listed in the [article](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached).
+To remove the existing lock and to cleanup the recovery point collection, follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorrpcollectionlimitreached---the-restore-point-collection-max-limit-has-reached).
