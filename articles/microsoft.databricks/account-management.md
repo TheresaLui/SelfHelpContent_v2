@@ -18,7 +18,7 @@
 The following details explain how to manage Azure Databricks workspace:
 
 1. Users that have Contributor or Owner role on the Azure Databricks workspace in the Azure Portal can sign in as account admins by clicking Launch Workspace
-2. As an account owner, you can [delete](https://docs.azuredatabricks.net/administration-guide/account-settings/account.html#delete-an-azure-databricks-service)the Azure Databricks workspace
+2. As an account owner, you can [delete](https://docs.azuredatabricks.net/administration-guide/account-settings/account.html#delete-an-azure-databricks-service) the Azure Databricks workspace
 3. You can use tags to [chargeback](https://docs.azuredatabricks.net/user-guide/clusters/tags.html#cluster-tags) teams or users based on the usage
 
 ## **Recommended documents**
