@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    authorAlias="nebhatta"
     displayOrder="33"
     articleId="Hdi_Crud_Safemode"
     diagnosticScenario="HDInsightSafeModeInsight"
@@ -27,4 +28,4 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
 
 ## Further Reading
-Please refer to this [blog post]](https://blogs.msdn.microsoft.com/bigdatasupport/2016/03/16/hdinsight-hdfs-can-stay-in-safe-mode-after-a-scale-down/) for more information regarding HDFS in safemode 
+Please refer to this [blog post](https://blogs.msdn.microsoft.com/bigdatasupport/2016/03/16/hdinsight-hdfs-can-stay-in-safe-mode-after-a-scale-down/) for more information regarding HDFS in safemode 
