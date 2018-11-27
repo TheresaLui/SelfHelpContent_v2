@@ -3,7 +3,7 @@
   	description="Table Data Migration"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
+	authors="balaks"
 	displayOrder="71"
 	selfHelpType="resource"
 	supportTopicIds="32597506"
