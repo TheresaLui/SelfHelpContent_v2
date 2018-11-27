@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="302"
 	selfHelpType="resource"
 	supportTopicIds="32597487"
@@ -16,7 +17,7 @@
 
 Please refer to the following documents for a complete reference for using .NET SDK with Azure Cosmos DB.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Azure Cosmos DB .NET SDK for SQL API](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)<br>
 [Azure Cosmos DB: Build a MongoDB API web app with .NET and the Azure portal](https://docs.microsoft.com/azure/cosmos-db/create-mongodb-dotnet)<br>
