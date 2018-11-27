@@ -14,7 +14,7 @@
 
 # Unable to connect to Azure Cosmos DB Cassandra API 
 
-To resolve this issue, try one or more of the following methods.
+To resolve this issue, try one or more of the following methods:
 
 * Review the firewall configuration for your Cosmos DB account and confirm that the list of approved IP addresses includes that of the client attempting to connect to your Cosmos DB Cassandra account.
 
