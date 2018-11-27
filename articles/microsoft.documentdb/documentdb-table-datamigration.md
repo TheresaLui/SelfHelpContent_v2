@@ -4,6 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
+	authoralias="balaks"
 	displayOrder="71"
 	selfHelpType="resource"
 	supportTopicIds="32597506"
@@ -16,6 +17,6 @@
 
 You can migrate data to Azure Cosmos DB using the data migration tool. It is recommended to increase the throughput of your collection for the duration of migration. With higher throughput, you can avoid rate limiting and migrate data in less time.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Use Data migration tool to migrate your data to Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
