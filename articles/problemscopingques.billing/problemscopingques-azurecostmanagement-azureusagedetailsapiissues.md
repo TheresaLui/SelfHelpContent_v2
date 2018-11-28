@@ -2,7 +2,7 @@
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Management"
 	articleId="azurecostmanagement"
-	authors="prdasneo"
+	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615282,32615297"
 	productPesIds="15659"
@@ -35,11 +35,11 @@
       "numberOfLines": 0
   },
   {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Browser network trace – [how to](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/)"
