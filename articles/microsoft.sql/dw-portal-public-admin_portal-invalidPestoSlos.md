@@ -25,4 +25,3 @@ In some Azure regions, the Portal will allow one to select a SLO below DW500c.  
 [Memory and concurrency limits](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/memory-and-concurrency-limits)<br>
 
 
-
