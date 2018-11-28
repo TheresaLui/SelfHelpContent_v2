@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-Diagnosing and troubleshooting issues in a distributed application hosted in a cloud environment can be complex. Having baseline metrics available will help you identify where a performance issue may lie. Here are some common scenarios your metrics may turn up, and how to troubleshoot them. 
+Diagnosing and troubleshooting issues in a distributed application hosted in a cloud environment can be complex. Having [baseline metrics](https://docs.azure.cn/zh-cn/monitoring-and-diagnostics/) available will help you identify where a performance issue may lie. Here are some common scenarios your metrics may turn up, and how to troubleshoot them. 
 
 1. [Metrics show high AverageE2ELatency and low AverageServerLatency](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-high-AverageE2ELatency-and-low-AverageServerLatency)
 2. [Metrics show low AverageE2ELatency and low AverageServerLatency but the client is experiencing high latency](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-low-AverageE2ELatency-and-low-AverageServerLatency)
