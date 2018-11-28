@@ -3,6 +3,7 @@
 	description="Can't scale Gen2 DW below DW500c"
 	service="microsoft.sql"
 	resource="servers"
+	authors="tomfalko"
 	authorAlias="tomfalko"
 	displayOrder="11"
 	selfHelpType="resource"
@@ -12,14 +13,15 @@
 	cloudEnvironments="public"
 />
 
-# Gen2 SLOs
+# Gen2 Service Level Objectives (SLO)
 
-## Gen2 SLOs below DW500c not available
-DW500c is the smallest Gen2 SLO one can use.  
+## Error: Gen2 SLOs below DW500c not available
 
-In some Azure regions, the Portal will allow one to select a SLO below DW500c.  This is a bug that is being corrected.  If one selects an SLO smaller than DW500c, the scale operation will fail.
+DW500c is the smallest Gen2 SLO available. 
 
-## **Recommended documents**
+In some Azure regions, the Portal will allow you to select a SLO below DW500c. This is a bug that is being corrected. If an SLO smaller than DW500c is selected, the scale operation will fail.
 
-[Gen2 SLOs](https://azure.microsoft.com/pricing/details/sql-data-warehouse/gen2/)<br>
-[Memory and concurrency limits](https://docs.microsoft.com/azure/sql-data-warehouse/memory-and-concurrency-limits)
+## **Recommended Documents**
+
+* [Gen2 SLOs](https://azure.microsoft.com/pricing/details/sql-data-warehouse/gen2/)
+* [Memory and concurrency limits for Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/memory-and-concurrency-limits)
