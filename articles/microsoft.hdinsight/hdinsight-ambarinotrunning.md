@@ -1,4 +1,5 @@
 <properties
+    authorAlias="v-anreg"
     pageTitle="Ambari service not running"
     description="AmbariPortalIssue"
     infoBubbleText="Ambari service is not running. See details on the right."
@@ -29,15 +30,20 @@ Since the **headnodehost** is not running ambari server, it cannot display the c
 
 1. Connect to Ambari service using Secure Shell (SSH).<br>
 ```	
+
 		ssh <clustername>-ssh.azurehdinsight.net
 ```
 2. Open host file /etc/host on one of the headnodes using Vi.<br>
+
 ```
+
 		vi /etc/hosts/	
 ```
 3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node.<br>
+
 4. Start Ambari service on the **headnodehost**.<br>
 ```
+
 		sudo ambari-server start
 ```
 
