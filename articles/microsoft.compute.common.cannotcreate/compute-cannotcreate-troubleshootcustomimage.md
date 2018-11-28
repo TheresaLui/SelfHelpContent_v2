@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628262"
@@ -14,9 +15,9 @@
 
 # Troubleshoot custom image deployment failures
 
-4 out of 5 customers resolved their issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Review how to prepare a Windows VHD or VHDX to upload to Azure ](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 * [Create a new VM from a VHD by using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-specialized-portal)<br>
