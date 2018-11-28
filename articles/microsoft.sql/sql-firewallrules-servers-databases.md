@@ -1,18 +1,18 @@
 <properties
-	pageTitle="connectivity/firewall rules"
-	description="connectivity/firewall rules"
+	pageTitle="availability and connectivity/firewall rules"
+	description="availability and connectivity/firewall rules"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980421"
+	supportTopicIds="32628799"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# connectivity/firewall rules
+# availability and connectivity/firewall rules
 
 ## **Recommended documents**
 [How to: Configure firewall settings on SQL Database using the Azure Portal](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)

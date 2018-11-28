@@ -3,7 +3,7 @@
 	description="Site Recovery (VMware to Azure)/Common issues during Enable Protection"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="asgang"
+	authors="Rajeswari-Mamilla"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536405"
@@ -15,11 +15,16 @@
 # Enable Protection - VMware/Physical to Azure
 
 ## **Recommended documents**
-* Troubleshoot [Enable replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/) <br>
-* Ensure push installation prerequisites for [Windows](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-windows-computer) and [Linux](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-install-mob-svc#prepare-for-a-push-installation-on-a-linux-server) are met <br>
-* Troubleshoot common [Mobility service push install failures](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes) <br>
-* Mobility service push install not successful? Try the [Manual installation](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prerequisites) of agents </br>
-* Troubleshoot [Initial replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-protection-troubleshoot/) <br>
-* [Enable replication failing due to stale entries from previous installation?](https://social.technet.microsoft.com/wiki/contents/articles/32026.asr-vmware-to-azure-how-to-cleanup-duplicatestale-entries.aspx) <br>
-* [Ensure ASR agents are up to date](https://social.technet.microsoft.com/wiki/contents/articles/38544.azure-site-recovery-service-updates.aspx) <br>
-* **Protection could not enabled**  error codes:<br>[Error 95105 (EP0856)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95105---protection-could-not-be-enabled-ep0856)<br>[Error 95107 (EP0858)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95107---protection-could-not-be-enabled-ep0858)<br>[Error 95117 (EP0865)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95117---protection-could-not-be-enabled-ep0865)<br>[Error 95103  (EP0854)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95103---protection-could-not-be-enabled-ep0854)<br>[Error 95213  (EP0874)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95213---protection-could-not-be-enabled-ep0874)<br>[Error 95108 (EP0859)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95108---protection-could-not-be-enabled-ep0859)<br>[Error 95265 (EP0902)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95265---protection-could-not-be-enabled-ep0902)<br>[Error 95224  (EP0883)](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-push-install-error-codes#error-95224---protection-could-not-be-enabled-ep0883)<br>
+
+- If you have received an error stating that *Enable Replication failed* due to **push installation of mobility service failure**, refer to the following links of troubleshooting steps for the most common causes: <br>
+	-	[Credential/privilege errors](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#credentials-check-errorid-95107--95108) <br>
+	-	[Connectivity errors](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#connectivity-check-errorid-95117--97118) <br>
+	-	[File sharing, printer/WMI configuration errors](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#file-and-printer-sharing-services-check-errorid-95105--95106) <br>
+	-	[Unsupported operating system errors](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#unsupported-operating-systems) <br>
+	-	[VSS installation failures](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
+
+- To quickly **unblock Mobility Service push installation failure**, ensure push installation prerequisites for [Windows](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-windows-computer) and [Linux](https://docs.microsoft.com/azure/site-recovery/vmware-azure-install-mobility-service#prepare-for-a-push-installation-on-a-linux-server) are met. <br>
+- Replication issues due to high churn? Read the [capacity planning document](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#capacity-considerations) to verify your configurations. <br>
+- Troubleshoot [initial replication issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication).<br>
+- [Upgrading to the latest version provides fix to the known issues](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#download-latest-azure-site-recovery-components). <br>
+- To resolve **Enable replication** failure due to stale entries from previous installation, follow this [link](https://social.technet.microsoft.com/wiki/contents/articles/32026.asr-vmware-to-azure-how-to-cleanup-duplicatestale-entries.aspx). <br>

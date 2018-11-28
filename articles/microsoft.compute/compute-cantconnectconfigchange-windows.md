@@ -1,13 +1,13 @@
 <properties  
               pageTitle="I can't connect to my Windows VM"
               description="I can't connect to my Windows VM"
-              service="microsoft.compute"
-              resource="virtualmachines"
+              service=""
+              resource=""
               authors="tiag"
               displayOrder="34"
-              selfHelpType="resource"
+              selfHelpType="generic"
               supportTopicIds="32615530"
-              resourceTags="windows, windowsSQL"
+              resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
 />
