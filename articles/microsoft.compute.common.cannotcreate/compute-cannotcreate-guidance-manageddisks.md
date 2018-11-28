@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628271"
@@ -14,9 +15,9 @@
 
 # I need guidance deploying with managed disks
 
-4 out of 5 customers resolved their managed disk issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Convert a Windows virtual machine from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks)
 * [Create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
