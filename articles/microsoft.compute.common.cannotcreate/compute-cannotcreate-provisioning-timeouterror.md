@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-image)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)<br>
