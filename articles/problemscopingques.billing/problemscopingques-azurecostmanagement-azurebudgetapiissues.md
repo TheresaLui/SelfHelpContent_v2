@@ -2,7 +2,7 @@
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Managements"
 	articleId="azurecostmanagement"
-	authors="prdasneo"
+	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615281,32615284"
 	productPesIds="15659"
@@ -35,7 +35,7 @@
       "numberOfLines": 0
   },
   {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
