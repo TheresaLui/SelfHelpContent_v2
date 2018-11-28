@@ -28,5 +28,5 @@ The Azure Import/Export service only works with [Blob Storage](https://docs.azur
 
 ## **Recommended Documents**
 
-* [How to prepare an Import/Export Job?](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)<br>
+* [How to prepare an Import/Export Job](https://docs.azure.cn/storage/common/storage-import-export-service#create-an-import-job-in-the-classic-portal)<br>
 * [Why is my Import/Export shipping status incorrect?](https://docs.azure.cn/storage/common/storage-import-export-service#track-job-status-in-the-classic-portal)
