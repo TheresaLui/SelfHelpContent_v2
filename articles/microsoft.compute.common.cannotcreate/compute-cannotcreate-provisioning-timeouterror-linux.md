@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628279"
@@ -14,9 +15,9 @@
 
 # I received a provisioning or deployment timeout error
 
-4 out of 5 customers resolved their provisioning timeout issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot deployment issues with creating a new Linux virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deployment-new-vm-linux)<br>
 * [Verify that your VM was properly created and uploaded to Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
