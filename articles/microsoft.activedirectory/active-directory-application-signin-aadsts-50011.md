@@ -22,8 +22,8 @@ The Authentication request (SAML request) that you are sending does not have the
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-1. Sign in to the Azure Portal as a global administrator or any other role with permission to manage this application
-2. Select **Azure Active Directory**, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
+1. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
+2. Select **Azure Active Directory** and go the "Enterprise applications" blade. Search for the application for which you want to enable federated single sign-on.
 3. Click on the application name to open it, then click "Single Sign-On" in the application's left-hand navigation menu
 4. Within the Basic SAML Configuration, click the edit pencil and update or enter the appropriate Reply URL (Assertion Consumer Service URL), then click Save
 
