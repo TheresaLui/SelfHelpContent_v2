@@ -1,20 +1,24 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
-              service="microsoft.compute"
-              resource="virtualmachines"
+              pageTitle="I need to reset my password"
+              description="I need to reset my password"
+              service=""
+              resource=""
               authors="tiag"
-              displayOrder="33"
-              selfHelpType="resource"
+              authoralias="scotro"
+              displayOrder=""
+              selfHelpType="generic"
               supportTopicIds="32615529"
-              resourceTags="linux,redhat,Ubuntu"
-              productPesIds="14749"
+              resourceTags=""
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# I need to reset my password
+
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended documents**
 
-1. [Reset VM password](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection?branch=pr-en-us-54175) via Azure Portal or CLI
-2. [Offline password reset](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password?branch=pr-en-us-54175)
+1. [Reset VM password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)
+2. Click [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection) for guidelines to reset your VM password via Azure Portal or CLI
+3. [Offline password reset](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password)

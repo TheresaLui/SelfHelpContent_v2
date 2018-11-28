@@ -1,20 +1,33 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
-              service="microsoft.compute"
-              resource="virtualmachines"
+              pageTitle="I need guidance with serial console access"
+              description="I need guidance with serial console access"
+              service=""
+              resource=""
               authors="tiag"
-              displayOrder="32"
-              selfHelpType="resource"
+              authorAlias="scotro"
+              displayOrder=""
+              selfHelpType="generic"
               supportTopicIds="32615528"
-              resourceTags="linux,redhat,Ubuntu"
-              productPesIds="14749"
+              resourceTags=""
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# I need guidance with Serial console access
+
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended documents**
 
-1. [Serial Console guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)
-2. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify if your VM is running . Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM by going to command prompt.
+* [Access the Serial console of your VM directly](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)<br>
+* [Understand how to use Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)<br>
+* [Prerequisites for Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#prerequisites)<br>
+* [Get started with Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#get-started-with-the-serial-console)<br>
+* [Use Serial console to access GRUB and Single User Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-single-user-mode)<br>
+* [Use Serial console for SysRq and NMI calls](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-nmi-sysrq)
+
+**Additional documents**<br>
+
+* [Common scenarios for accessing Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#common-scenarios-for-accessing-the-serial-console)<br>
+* [Serial console Linux distro availability](https://azure.microsoft.com/blog/virtual-machine-serial-console-access/)<br>
+* [Linux on distributions endorsed by Azure](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console#serial-console-linux-distro-availability)
