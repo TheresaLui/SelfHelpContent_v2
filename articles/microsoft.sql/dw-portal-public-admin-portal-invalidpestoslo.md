@@ -3,8 +3,8 @@
 	description="Can't scale Gen2 DW below DW500c"
 	service="microsoft.sql"
 	resource="servers"
-	authors="tomfalko"
-	displayOrder="1"
+	authorAlias="tomfalko"
+	displayOrder="11"
 	selfHelpType="resource"
 	supportTopicIds="32412136"
 	resourceTags="datawarehouse"
@@ -21,6 +21,4 @@ In some Azure regions, the Portal will allow one to select a SLO below DW500c.  
 
 ## **Recommended documents**
 
-[Gen2 SLOs](https://azure.microsoft.com/en-us/pricing/details/sql-data-warehouse/gen2/)<br>
-[Memory and concurrency limits](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/memory-and-concurrency-limits)
-
+[Gen2 SLOs](https://azure.microsoft.com/en-us/pricing/details/sql-data-warehouse/gen2/)
