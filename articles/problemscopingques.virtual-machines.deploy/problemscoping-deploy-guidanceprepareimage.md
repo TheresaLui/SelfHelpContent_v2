@@ -31,22 +31,7 @@
                   "hints": [{
                     "text": "Distribution and version of the operating system."
                     }]
-                  },{
-                  "id": "deployment_isfollowingchecklist",
-                  "order": 3,
-                  "controlType": "dropdown",
-                  "displayLabel": "Have you followed <a href='https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image'>the checklist for uploading a VM</a>?",
-                  "watermarkText": "Choose an option",
-                  "dropdownOptions": [{
-                    "value": "Yes",
-                    "text": "Yes"
-                    },{
-                      "value": "No",
-                      "text": "No"
-                      }
-                      ],
-                      "required": false
-                    }
-                    ]
+                  }
+              ]
 }
 ---
