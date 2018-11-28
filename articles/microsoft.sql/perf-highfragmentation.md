@@ -17,7 +17,7 @@
 # We ran diagnostics on your resource and found an issue 
 
 <!--issueDescription--> 
-We detected that your pool has more than 100GB of disused storage space in the past 30 minutes. This condition can occur when space used increases and data is subsequently deleted. File space allocated is not automatically reclaimed when data is deleted. 
+We detected that your elastic pool has more than 100GB of disused storage space in the past 30 minutes. This condition can occur when space used increases and data is subsequently deleted. Additional file space allocated is not automatically reclaimed when data is deleted. 
 
 Monitoring file space usage and shrinking data files may be necessary in the following scenarios:
 
@@ -28,7 +28,7 @@ Monitoring file space usage and shrinking data files may be necessary in the fol
 
 ## **Recommended steps**
 
-* If this space will be used soon, disregard this insight.
+* If expect to use this space soon, you can disregard this information.
 * If this space is no longer needed, you can reclaim it by following suggestions detailed in the [Manage file space in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management) in the Reclaim unused allocated space section.
 
 ## **Recommended Documents**
