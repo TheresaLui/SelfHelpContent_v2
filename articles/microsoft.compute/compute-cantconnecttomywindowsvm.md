@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ram-kakani"
+	authoralias="scotro"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32511135,32615531"
@@ -14,7 +15,7 @@
 
 # I can't connect to my Windows VM
 
-4 out of 5 customers resolved their connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 To resolve common issues, try one or more of the following steps.
