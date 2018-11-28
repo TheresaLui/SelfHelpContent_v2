@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-The Azure Import/Export service only works with Blob Storage. You can import any type of blob data using the import/export service, including VHD images. The following links provide instructions for using Import/Export, and answer common questions about the service.
+The Azure Import/Export service only works with [Blob Storage](https://docs.azure.cn/zh-cn/storage/blobs/storage-blobs-introduction). You can import any type of blob data using the import/export service, including VHD images. The following links provide instructions for using Import/Export, and answer common questions about the service.
 
 1. [Make sure you have met the prerequisites](https://docs.azure.cn/storage/common/storage-import-export-service#pre-requisites)
 2. If you are using a Windows 10 machine to prepare your hard drive, please download the [latest version of the Azure Import/Export Tool](http://go.microsoft.com/fwlink/?LinkID=301900&clcid=0x409)
