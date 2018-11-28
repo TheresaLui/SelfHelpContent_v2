@@ -23,6 +23,8 @@ To view the status of a scale unit:<br>
 2. On the left, under Infrastructure Resources, select Scale Units.
 3. In the results, select the Scale Unit.
 
+See your vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system.
 
 ## **Recommended documents**
-[Scale unit node actions in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
+[Scale unit node actions in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)<br>
+[Replace a hardware component on an Azure Stack scale unit node](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-component)
