@@ -4,6 +4,7 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
+    authorAlias="scotro"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32615531,32615526"
@@ -14,7 +15,7 @@
 
 # I can't connect to my Windows VM
 
-4 out of 5 customers resolved their connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 

@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615531,32615526"
@@ -14,7 +15,7 @@
 
 # connectivity/cannot connect to virtual machine by using rdp or ssh
 
-4 out of 5 customers resolved their connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended documents**
 

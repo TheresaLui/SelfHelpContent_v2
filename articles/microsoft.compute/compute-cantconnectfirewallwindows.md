@@ -4,6 +4,7 @@
               service=""
               resource=""
               authors="manavis"
+              authorAlias="scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615534"
@@ -14,7 +15,7 @@
 
 # Troubleshoot my VM firewall
 
-4 out of 5 customers resolved their connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 
