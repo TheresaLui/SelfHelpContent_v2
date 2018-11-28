@@ -53,7 +53,7 @@
       }, {
         "text": "Notifications received regarding billing and payment issues"
       }
-    ]
+    ],
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": true,
