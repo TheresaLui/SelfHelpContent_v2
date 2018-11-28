@@ -15,5 +15,5 @@
 # connectivity/cannotsendemail
 
 ## **Recommended documents**
+* [Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>
 
-[Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>

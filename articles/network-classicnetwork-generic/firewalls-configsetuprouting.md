@@ -13,6 +13,7 @@
 />
 # Setup routing
 ## **Recommended documents**
-Create a [default route](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#create-a-default-route)<br>
-Create [user defined routes](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview#user-defined)<br>
-[Deploy and configure Azure Firewall](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#create-a-default-route)
+Learn how to forward traffic to Azure Firewall using User Defined Routes.<br>
+* Create a [default route](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#create-a-default-route)<br>
+* Create [user defined routes](https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview#user-defined)<br>
+* Deploy and configure [Azure Firewall](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#create-a-default-route)

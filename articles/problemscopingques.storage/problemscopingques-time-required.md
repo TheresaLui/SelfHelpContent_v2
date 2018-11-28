@@ -11,23 +11,25 @@
 # Storage issue with date time
 ---
 {
-	"resourceRequired": true,
-	"title": "Datetime required scoping question",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "problem_start_date",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate start time of the most recent occurrence",
-			"required": true
-		}, {
-			"id": "additional_details",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}
-	]
+    "resourceRequired": true,
+    "title": "Datetime required scoping question",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate start time of the most recent occurrence",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": false,
+            "useAsAdditionalDetails": true
+        }
+    ]
 }
 ---

@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 1. Cached response might be the reason for directing requests to disabled endpoint. Setting Time to Live (TTL) to a lower value may resolve this issue. A lower TTL lets cached entries expire faster but this may result in more requests to the Traffic Manager service.<br>
-   The default TTL value is 300 seconds which can be set to a minimum of 30 seconds.
+   The default TTL value is 60 seconds which can be set to a minimum of 0 seconds.
 
 
 ## **Recommended documents**

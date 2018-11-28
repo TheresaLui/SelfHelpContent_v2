@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32596840"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
 />
 
@@ -24,9 +24,9 @@
 
 ### Plan, setup and manage Azure AD joined devices ###
 
-* [Plan Azure AD Join ](https://aka.ms/support-plan-azureadjoin)
+* [Plan Azure AD Join](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)
 
-* [Set up Azure AD joined devices](https://aka.ms/support-devicemanagement-setup-azureadjoin)
+* [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)
 
 * [Set up Azure AD joined devices during Windows 10 first-run experience](https://aka.ms/support-devicemanagement-azureadjoin-frx)
 

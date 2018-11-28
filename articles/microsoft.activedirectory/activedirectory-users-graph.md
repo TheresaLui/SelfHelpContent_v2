@@ -6,7 +6,7 @@
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32586797"
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
     />
 
