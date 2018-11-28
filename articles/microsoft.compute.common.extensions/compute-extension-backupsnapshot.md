@@ -15,15 +15,15 @@
 
 # VM Snapshot (Azure Backup) extension issue
 
-4 out of 5 customers resolved their extension issue using the below steps.<br>
+4 out of 5 customers resolved their extension issue using the guides listed below.<br>
 
-## **Recommended documents:**
+## **Recommended Documents:**
 
 * [Overview of VM Snapshot Windows extension for Azure Backup](https://docs.microsoft.com/azure/virtual-machines/extensions/vmsnapshot-windows)<br>
 * [Understanding how to troubleshoot Azure Virtual Machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
 * [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)
 
-**Additional information**<br>
+**Additional Information**<br>
 
 * [Frequently asked questions about Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)<br>
 * [Troubleshoot Azure Virtual Machine backup in Azure Portal](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
