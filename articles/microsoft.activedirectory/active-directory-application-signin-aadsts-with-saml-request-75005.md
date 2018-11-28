@@ -5,6 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="asbh"
+    authoralias="asbh"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_With_SAML_Request_75005"
     diagnosticScenario="EnterpriseApps"
@@ -15,17 +16,16 @@
     cloudEnvironments="public"
 />
 
-# Enterprise Application - Config issue preventing user sign-in
+# Configuration Issue Preventing User Sign-In
 
-The authentication/SAML request that you are sending is malformed. The SAML request was invalid or it was missing properties.
+The authentication/SAML request that you are sending is invalid or missing properties.
 
-In order to enable user sign-in for this application, please follow the steps below:
+To resolve this issue, please follow the steps below:
 
-**Step 1**: Please refer to the SAML request provided at the end of this list under the title "SAML Request Received".
+1. Refer to and make note of the SAML request provided at the end of this list under the title "SAML Request Received"
+2. Share the SAML request and Azure AD single sign-on SAML protocol requirements (<!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->) with the owner or developer of the application
 
-**Step 2**: Share the SAML request and Azure AD single sign-on SAML protocol requirements with the owner or developer of the application. SAML protocol requirements link <!--$AppSSOSAMLProtocolPage-->AppSSOSAMLProtocolPage<!--/$AppSSOSAMLProtocolPage-->.
-
-Your application should now be available for user sign-in once the authentication request contains the required fields.
+Your application should be available for user sign-in once the authentication request contains the required fields.
 
 For future sign-in problems with SAML based applications, we recommend using the testing feature with the My Apps secure sign-in extension to get better and automatic self diagnosis and resolution steps. For more information see: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 
