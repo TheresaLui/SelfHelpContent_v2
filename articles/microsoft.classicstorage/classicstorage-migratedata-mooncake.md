@@ -4,6 +4,7 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="passaree"
+    authoralias="passap"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,7 +15,7 @@
 
 # Move Data to, from, or within Azure Storage
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Data Migration Overview](https://docs.azure.cn/storage/common/storage-moving-data/)<br>
 * [Quickly viewing/interacting with your data](https://docs.azure.cn/storage/common/storage-explorers?toc=%2fstorage%2ffiles%2ftoc.json/)<br>
