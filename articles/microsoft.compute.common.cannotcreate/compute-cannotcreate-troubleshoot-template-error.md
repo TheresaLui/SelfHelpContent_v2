@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628255"
@@ -14,8 +15,8 @@
 
 # Troubleshoot my ARM template error
 
-4 out of 5 customers resolved their issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Resolve errors for invalid template](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-invalid-template-errors)
