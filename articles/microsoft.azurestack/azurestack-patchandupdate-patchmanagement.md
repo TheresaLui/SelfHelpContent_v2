@@ -6,7 +6,7 @@
     authors="alexsmithMSFT"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32567910, 32567944"
+    supportTopicIds="32567910, 32567944, 32629180, 32629240"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
