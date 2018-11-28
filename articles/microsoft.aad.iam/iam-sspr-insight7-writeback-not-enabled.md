@@ -5,6 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
+    authorAlias="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_Writeback_Not_Enabled"
     selfHelpType="diagnostics"
