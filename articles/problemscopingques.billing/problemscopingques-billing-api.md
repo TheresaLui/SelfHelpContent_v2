@@ -2,7 +2,7 @@
 	pageTitle="Billing API"
 	description="Billing API"
 	articleId="billingapi"
-	authors="prdasneo"
+	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599495"
 	productPesIds="15659"
@@ -35,11 +35,11 @@
       "numberOfLines": 0
   },
   {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Subscription ID"
