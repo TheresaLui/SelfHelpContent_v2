@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
 
-## **Recommended Documents:**
+## **Recommended Documents**
 
 * [Overview of Azure Disk Encryption extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/azure-disk-enc-linux)<br>
 * [Understanding prerequisites for Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-prerequisites)<br>
