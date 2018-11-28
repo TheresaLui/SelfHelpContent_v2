@@ -5,17 +5,18 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32454856"
     productPesIds="15659"
-    articleId="billingandpaymentissues"
+    articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
     schemaVersion="1"
 />
 
 # Billing and Payment Issues
+---
 {
-                "resourceRequired": false,
-                "title": "Billing and Payment Issues",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": false,
+    "title": "Billing and Payment Issues",
+    "fileAttachmentHint": "",
+    "formElements": [
     {
       "id": "problem_start_time",
       "visibility": null,
@@ -44,20 +45,25 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-      "hints": [{
-        "text": "Subscription ID"
-      }, {
-        "text": "Payment method: Invoice or CC"
-      }, {
-        "text": "Invoice ID related to the issue"
-      }, {
-        "text": "Notifications received regarding billing and payment issues"
-      }
-    ],
-      "required": true,
+	  "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": true,
-      "numberOfLines": 0
+      "numberOfLines": 0,
+      "hints": [
+      {
+        "text": "Subscription ID"
+      },
+      {
+        "text": "Payment method: Invoice or CC"
+      },
+      {
+        "text": "Invoice ID related to the issue"
+      },
+      {
+        "text": "Notifications received regarding billing and payment issues"
+      }
+    ]
   }
-                ]
+ ]
 }
+---
