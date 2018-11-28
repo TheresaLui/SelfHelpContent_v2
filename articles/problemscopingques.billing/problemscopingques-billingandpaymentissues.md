@@ -1,7 +1,7 @@
 <properties
     pageTitle="Billing and Payment Issues"
     description="Billing and Payment Issues"
-    authors="prdasneo"
+    authors="prdasneo, sischleg, dsmith"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32454856"
     productPesIds="15659"
@@ -45,10 +45,6 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-	  "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": true,
-      "numberOfLines": 0,
       "hints": [
       {
         "text": "Subscription ID"
@@ -62,7 +58,11 @@
       {
         "text": "Notifications received regarding billing and payment issues"
       }
-    ]
+    ],
+     "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": true,
+      "numberOfLines": 0
   }
  ]
 }
