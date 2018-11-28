@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628271"
@@ -14,9 +15,9 @@
 
 # I need guidance deploying with managed disks
 
-4 out of 5 customers resolved their managed disk issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Learn more about Managed Disks ](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)<br>
 * [Convert VMs in Availability Set to use Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability#use-managed-disks-for-vms-in-an-availability-set)<br>
