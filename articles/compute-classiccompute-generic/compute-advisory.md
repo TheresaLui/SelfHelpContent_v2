@@ -15,7 +15,7 @@
 
 # Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
 * [Detailed steps for troubleshooting RDP connections](https://docs.microsoft.com/azure/virtual-machines/windows/detailed-troubleshoot-rdp)<br>
