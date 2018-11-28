@@ -2,7 +2,7 @@
 	pageTitle="Azure Offers and Pricing"
 	description="Azure Offers and Pricing"
 	articleId="azureoffersandpricing"
-	authors="prdasneo"
+	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32549152,32549153,32599496,32454860,32454864,32454870,32454872"
 	productPesIds="15659"
@@ -34,7 +34,7 @@
       "numberOfLines": 0
   },
   {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
