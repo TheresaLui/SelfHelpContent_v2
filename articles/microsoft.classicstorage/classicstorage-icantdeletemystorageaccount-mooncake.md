@@ -32,4 +32,4 @@ If the storage account uses the Classic deployment model, you can remove the vir
 
 ## **Recommended Documents**
 
-* [I'm having problems deleting classic storage account](https://docs.azure.cn/zh-cn/storage/blobs/storage-troubleshoot-vhds)
+* [Troubleshooting disks attached to Azure VM](https://docs.azure.cn/zh-cn/storage/blobs/storage-troubleshoot-vhds)
