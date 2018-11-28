@@ -21,7 +21,7 @@
 
 * [Understanding **FSTAB errors** and mitigation steps](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors)<br>
 * [Resolve boot errors when starting your VM **after applying specific kernel changes**](https://support.microsoft.com/help/4091524/how-recovery-azure-linux-vm-from-kernel-related-boot-related-issues)<br>
-* [Use **Serial Console** to access **GRUB** to modify boot configuration Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-single-user-mode)<br>
+* [Use **Serial console** to access **GRUB** to modify boot configuration Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-single-user-mode)<br>
 * [How to use **boot diagnostics** to **troubleshoot** Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 * [**Quick steps** to **diagnose** & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 * [**Detailed SSH troubleshooting steps** for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
