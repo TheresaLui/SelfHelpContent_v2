@@ -19,4 +19,4 @@
 ## **Recommended documents:**
 
 * [Overview of Azure Custom Script Extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux)<br>
-* [Troubleshoot Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux#troubleshoot-and-support)
+* [Troubleshoot Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux#troubleshooting)

@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628288"
@@ -19,11 +20,11 @@
 ## **Recommended documents:**
 
 * [Overview of VM Snapshot Windows extension for Azure Backup](https://docs.microsoft.com/azure/virtual-machines/extensions/vmsnapshot-windows)<br>
-* [Understanding how to troubleshoot Azure virtual machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
+* [Understanding how to troubleshoot Azure Virtual Machine backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
 * [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)
 
 **Additional information**<br>
 
 * [Frequently asked questions about Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)<br>
-* [Troubleshoot Azure virtual machine backup in Azure Portal](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
+* [Troubleshoot Azure Virtual Machine backup in Azure Portal](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
 * [Troubleshoot Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot)
