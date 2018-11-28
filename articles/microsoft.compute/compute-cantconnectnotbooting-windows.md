@@ -20,6 +20,7 @@
 ## **Recommended documents**
 
 1. [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
+
 2. Troubleshoot specific common boot errors:
 
   * [Check Disk Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error)<br>
