@@ -1,7 +1,7 @@
 <properties
     pageTitle="Billing and Payment Issues"
     description="Billing and Payment Issues"
-    authors="prdasneo, simonschlegel, dsmith"
+    authors="prdasneo, sischleg, dsmith"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32454856"
     productPesIds="15659"
@@ -17,24 +17,7 @@
     "title": "Billing and Payment Issues",
     "fileAttachmentHint": "",
     "formElements": [
-    {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 4,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [],
-      "required": false,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
+     {
       "id": "problem_description",
       "visibility": null,
       "order": 5,
