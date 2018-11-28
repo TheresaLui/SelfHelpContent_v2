@@ -1,13 +1,13 @@
 <properties  
-              pageTitle="I have an issue with my public IP"
-              description="I have an issue with my public IP"
+              pageTitle="Troubleshoot my VM firewall"
+              description="Troubleshoot my VM firewall"
               service=""
               resource=""
-              authors="tiag"
-              authoralias="scotro"
+              authors="manavis"
+              authorAlias="scotro"
               displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615527"
+              supportTopicIds="32615534"
               resourceTags=""
               productPesIds="15571,15797,16454"
               cloudEnvironments="public"
@@ -19,9 +19,8 @@
 
 ## **Recommended documents**
 
-* [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
-* [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
-* [Validate effective routes and if forced tunneling is enabled](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId)
+* [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)<br>
+* [Troubleshoot application connectivity issues on virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-app-connection)
 
 **Additional documents**<br>
 
