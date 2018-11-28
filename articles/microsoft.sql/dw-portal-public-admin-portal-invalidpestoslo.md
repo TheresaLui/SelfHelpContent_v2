@@ -21,4 +21,5 @@ In some Azure regions, the Portal will allow one to select a SLO below DW500c.  
 
 ## **Recommended documents**
 
-[Gen2 SLOs](https://azure.microsoft.com/en-us/pricing/details/sql-data-warehouse/gen2/)
+[Gen2 SLOs](https://azure.microsoft.com/pricing/details/sql-data-warehouse/gen2/)
+[Memory and concurrency limits](https://docs.microsoft.com/azure/sql-data-warehouse/memory-and-concurrency-limits)
