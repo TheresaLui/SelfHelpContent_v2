@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628262"
@@ -14,9 +15,9 @@
 
 # Troubleshoot custom image deployment failures
 
-4 out of 5 customers resolved their issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)<br>
 * [Prepare an **Ubuntu** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
