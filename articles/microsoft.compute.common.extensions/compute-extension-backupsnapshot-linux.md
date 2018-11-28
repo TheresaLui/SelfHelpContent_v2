@@ -15,7 +15,7 @@
 
 # VM Snapshot (Azure Backup) extension issue
 
-4 out of 5 customers resolved their extension issue using guides listed below.<br>
+4 out of 5 customers resolved their extension issue using the guides listed below.<br>
 
 ## **Recommended Documents:**
 
