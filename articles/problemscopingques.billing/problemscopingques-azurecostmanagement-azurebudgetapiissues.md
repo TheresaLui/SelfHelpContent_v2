@@ -48,7 +48,7 @@
 				}, {
 					"text": "Screenshot of the error"
 				}, {
-					"text": "Browser network trace – [how to](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/)"
+					"text": "Browser network trace – <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to</a>
 				}
 			]
 		}
