@@ -12,7 +12,7 @@
     cloudEnvironments="public"
 />
 
-# Configure web application firewall (WAF)
+# Configure Web Application Firewall (WAF)
 
 ## **Recommended documents**
 * Learn more about the benefits features and pricing of the  [Web application firewall (WAF)](https://docs.microsoft.com/azure/application-gateway/waf-overview)<br>
