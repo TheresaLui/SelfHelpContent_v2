@@ -30,17 +30,17 @@ Since the **headnodehost** is not running ambari server, it cannot display the c
 
 1. Connect to Ambari service using Secure Shell (SSH).	
 
-		ssh <clustername>-ssh.azurehdinsight.net
+	ssh <clustername>-ssh.azurehdinsight.net
 		
 2. Open host file /etc/host on one of the headnodes using Vi.
 
-		vi /etc/hosts/	
+	vi /etc/hosts/	
 
 3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node.
 
 4. Start Ambari service on the **headnodehost**.
 
-		sudo ambari-server start
+	sudo ambari-server start
 
 ## **Recommended Documents**
 
