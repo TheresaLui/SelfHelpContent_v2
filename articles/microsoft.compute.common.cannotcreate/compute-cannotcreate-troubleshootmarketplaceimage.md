@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628274"
@@ -14,9 +15,9 @@
 
 # Troubleshoot marketplace image deployment failures
 
-4 out of 5 customers resolved their marketplace image deployment issue using the below steps.<br>
+4 out of 5 customers resolved their marketplace image deployment issue using the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)<br>
 * [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-allocation-failure)<br>
