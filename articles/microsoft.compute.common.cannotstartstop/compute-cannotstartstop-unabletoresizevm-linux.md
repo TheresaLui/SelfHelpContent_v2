@@ -1,6 +1,6 @@
 <properties
 	pageTitle="I am unable to resize my VM"
-	description=I am unable to resize my VM"
+	description="I am unable to resize my VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -14,7 +14,7 @@
 
 # I am unable to resize my VM
 
-4 out of 5 customers resolved their start issue using the below steps.<br>
+4 out of 5 customers resolved their VM resize issue using the below steps.<br>
 
 ## **Recommended documents**
 

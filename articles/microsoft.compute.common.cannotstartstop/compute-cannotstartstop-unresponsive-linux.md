@@ -14,7 +14,7 @@
 
 # My VM is unresponsive to start or stop operations
 
-4 out of 5 customers resolved their start issue using the below steps.<br>
+4 out of 5 customers resolved their VM start issue using the below steps.<br>
 
 ## **Recommended documents**
 
