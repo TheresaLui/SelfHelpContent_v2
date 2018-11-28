@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628286"
