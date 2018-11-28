@@ -5,6 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="asbh"
+    authoralias="asbh"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_50011"
     diagnosticScenario="EnterpriseApps"
@@ -15,19 +16,16 @@
     cloudEnvironments="public"
 />
 
-# Enterprise Application - Config issue preventing user sign-in
+# Configuration issue preventing user sign-in
 
 The Authentication request (SAML request) that you are sending does not have the correct reply URL. This will prevent any user from accessing this application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
-**Step 1**: Sign in to the Azure Portal as a global administrator or another role that is able to manage this application.
-
-**Step 2**: Select Azure Active Directory, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
-
-**Step 3**: Click on the application name to open it. Then, on the application's left-hand navigation menu, click "Single Sign-On".
-
-**Step 4**: Within the Basic SAML Configuration, select the edit pencil. Update or enter the Reply URL (Assertion Consumer Service URL) with the correct value and select Save.
+1. Sign in to the Azure Portal as a global administrator or any other role with permission to manage this application
+2. Select **Azure Active Directory**, and go to the 'Enterprise applications' blade. Search for the application for which you want to enable federated single sign-on.
+3. Click on the application name to open it, then click "Single Sign-On" in the application's left-hand navigation menu
+4. Within the Basic SAML Configuration, click the edit pencil and update or enter the appropriate Reply URL (Assertion Consumer Service URL), then click Save
 
 Your application should now be available for user sign-in.
 
