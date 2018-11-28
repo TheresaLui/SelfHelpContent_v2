@@ -1,11 +1,13 @@
 <properties
-	pageTitle="Slow virtual machine"
-	description="Slow virtual machine"
-	authors="AlexKuriatnyk"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32411877"
-	productPesIds="14749"
-	cloudEnvironments="public"
+	articleId=""
+	pageTitle=""
+	description=""
+	authors=""
+	authoralias=""
+	selfHelpType=""
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments=""
 	schemaVersion="1"
 />
 # VM Performance
