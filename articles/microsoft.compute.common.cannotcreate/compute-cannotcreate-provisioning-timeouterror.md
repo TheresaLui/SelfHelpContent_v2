@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628279"
@@ -14,7 +15,7 @@
 
 # I received a provisioning or deployment timeout error
 
-4 out of 5 customers resolved their allocation failure issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
 ## **Recommended documents**
 
