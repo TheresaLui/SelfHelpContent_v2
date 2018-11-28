@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628272"
@@ -14,9 +15,9 @@
 
 # I need guidance preparing an image
 
-4 out of 5 customers resolved their issue using the below steps.<br>
+4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 * [Create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
