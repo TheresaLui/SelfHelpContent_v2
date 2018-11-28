@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack disks"
-    description=""
+    description="Azure Stack Physical Disks"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -12,23 +12,17 @@
     cloudEnvironments="public"
 />
 
-# Azure Stack disks
-
-As a cloud operator, you have a limited amount of storage to work with. The amount of storage is defined by the solution you implement. Your solution is provided by your OEM vendor when you use a multi-node solution.<br>
-
-When a share is 100% utilized, the storage service no longer functions for that share.<br>
+# Azure Stack Disks
 
 ## **Recommended steps**
 
-1. Monitor the available storage to ensure efficient operations are maintained.<br>
-2. Plan to manage space to prevent the shares from running out of capacity.<br>
-    Options to manage capacity include:<br>
-    - Reclaim capacity<br>
-    - Migrate a container<br>
-3. To increase the total available memory capacity for Azure Stack, you can add additional memory. In Azure Stack your physical server is also referred to as a scale unit node. All scale unit nodes that are members of a single scale unit must have the same amount of memory. For more information, see [Manage physical memory capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-physical-memory-capacity).<br>
+1. When a disk fails, you receive an alert that tells you that connectivity has been lost to a physical disk
+2. The alert description contains the scale unit node and the exact physical slot location for the disk that you must replace
+2. Follow your OEM hardware vendor’s FRU instructions for physical disk replacement.
+3. [Monitor the status of virtual disk repair](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-replace-disk#check-the-status-of-virtual-disk-repair)
+
+**Note:** Actual disk replacement steps will vary based on your original equipment manufacturer (OEM) hardware vendor. See your vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your system. 
 
 ## **Recommended documents**
 
-[Manage storage capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares)<br>
-[Add additional scale unit nodes in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-scale-node)<br>
-[Manage physical memory capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-physical-memory-capacity)
+[Replace a Physical Disk in Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-replace-disk)
