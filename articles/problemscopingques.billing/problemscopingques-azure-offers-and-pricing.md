@@ -9,7 +9,6 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
 # Azure Offers and Pricing
 ---
 {
