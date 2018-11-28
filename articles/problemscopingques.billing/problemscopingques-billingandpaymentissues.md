@@ -11,7 +11,6 @@
 />
 
 # Billing and Payment Issues
----
 {
                 "resourceRequired": false,
                 "title": "Billing and Payment Issues",
@@ -62,5 +61,3 @@
   }
                 ]
 }
-
----
