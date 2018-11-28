@@ -4,6 +4,7 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks,passaree"
+    authoralias="kasparks,passap"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,11 +15,9 @@
 
 # My storage service is slow
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Diagnosing and troubleshooting issues in a distributed application hosted in a cloud environment can be complex. Here are some common scenarios your metrics may turn up, and how to troubleshoot them. 
-
-Do you have baseline metrics? The performance of an application can be subjective, especially from a user perspective. Therefore, it is important to have baseline metrics available to help you identify where there might be a performance issue. 
+Diagnosing and troubleshooting issues in a distributed application hosted in a cloud environment can be complex. Having baseline metrics available will help you identify where a performance issue may lie. Here are some common scenarios your metrics may turn up, and how to troubleshoot them. 
 
 1. [Metrics show high AverageE2ELatency and low AverageServerLatency](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-high-AverageE2ELatency-and-low-AverageServerLatency)
 2. [Metrics show low AverageE2ELatency and low AverageServerLatency but the client is experiencing high latency](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-low-AverageE2ELatency-and-low-AverageServerLatency)
@@ -31,6 +30,6 @@ Do you have baseline metrics? The performance of an application can be subjectiv
 
 For an in-depth look at troubleshooting performance issues, see the Performance section of the article [**Monitor, diagnose, and troubleshoot Microsoft Azure Storage**](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [How to troubleshoot Storage performance issue?](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
+* [How to troubleshoot Storage performance issues](https://docs.azure.cn/storage/common/storage-monitoring-diagnosing-troubleshooting)
