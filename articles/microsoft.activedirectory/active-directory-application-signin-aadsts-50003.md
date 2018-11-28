@@ -23,19 +23,12 @@ The certificate for your application is invalid or expired. Please activate the 
 In order to enable user sign-in for this application, please follow these steps:
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
-
 2. Select **Azure Active Directory** and go the "Enterprise applications" blade. Search for the application for which you want to enable federated single sign-on.
-
 3. Click on the application name to open it, then click "Single Sign-On" on the application's left-hand navigation menu
-
 4. Click the "Create new certificate" button under the SAML signing Certificate section
-
 5. Enter a valid expiration date and click Save
-
 6. Select the checkbox to make the new certificate active, then click Save to replace the old certificate with the new one
-
 7. Under "SAML Sign-in Certificate", click "Remove" to remove the unused certificate
-
 8. Download the new active certificate and update it in your application
 
 Your application should now be available for user sign-in.
