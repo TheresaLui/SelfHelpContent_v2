@@ -18,7 +18,7 @@
 
 # Configuration Issue Preventing User Sign-In
 
-The user who is trying to log in does not have permission to access the application. There are two possible reasons for this, with the most common scenario being the user has not been assigned to the application.
+The user who is trying to log in does not have permission to access the application. There are two possible reasons for this, with the most common scenario being that the user has not been assigned to the application.
 
 In order to enable user sign-in for this application, please follow the steps below:
 
@@ -27,7 +27,7 @@ In order to enable user sign-in for this application, please follow the steps be
 3. Click on the application name to open it, then click "Single Sign-On" on the application's left-hand navigation menu
 4. In the "Users and groups" section, click on **Add User** to assign the user to the application
 
-If you have already assigned the user to the application but the problem still continues, then the likely problem is Azure AD trying to log the user into another instance of the application. This can occur because the 'Issuer' value in the sign-in request (SAML request) matches the 'Identifier' configured for other instance of the application. Please follow the steps below to resolve the issue:
+If you have already assigned the user to the application but the problem still continues, then the likely problem is Azure AD trying to log the user into another instance of the application. This can occur because the "Issuer" value in the sign-in request (SAML request) matches the "Identifier" configured for other instance of the application. Please follow the steps below to resolve the issue:
 
 1. Identify the value of the "Issuer" property in the SAML request from the application. Follow  the instructions in this document to obtain a SAML request: <!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->
 2. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
