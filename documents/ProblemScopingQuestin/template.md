@@ -79,10 +79,11 @@
 			],
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
