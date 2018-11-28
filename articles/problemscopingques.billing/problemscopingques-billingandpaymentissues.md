@@ -17,7 +17,24 @@
     "title": "Billing and Payment Issues",
     "fileAttachmentHint": "",
     "formElements": [
-     {
+    {
+      "id": "problem_start_time",
+      "visibility": null,
+      "order": 4,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": [],
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+  },
+    {
       "id": "problem_description",
       "visibility": null,
       "order": 5,
@@ -41,7 +58,7 @@
       {
         "text": "Notifications received regarding billing and payment issues"
       }
-    ],
+    ], 
      "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": true,
