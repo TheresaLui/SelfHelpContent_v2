@@ -20,7 +20,7 @@
                   "order": 1,
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the last reported time of the problem?",
-                  "required": false
+                  "required": true
                 },{
                     "id": "create_or_resize",
                     "order": 2,
@@ -57,7 +57,22 @@
                         }
                         ],
                         "required": false
-                  }
+                  },{
+                    "id": "deployment_isinavailabilityset",
+                    "order": 4,
+                    "controlType": "dropdown",
+                    "displayLabel": "Are you deploying your VM in an availability set?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [{
+                      "value": "Yes",
+                      "text": "Yes"
+                      },{
+                        "value": "No",
+                        "text": "No"
+                        }
+                        ],
+                        "required": false
+                }
                 ]
 }
 ---
