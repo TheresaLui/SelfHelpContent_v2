@@ -3,6 +3,7 @@
 	description="Change Payment Method"
 	articleId="changepaymentmethod"
 	authorAlias="prdasneo"
+	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454858"
 	productPesIds="15659"
