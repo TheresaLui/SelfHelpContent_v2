@@ -16,7 +16,7 @@
 />
 
 # Alerting
-The Azure portal both surface key performance metrics that can be used to monitor and troubleshoot your query and job performance. To learn more, see the following documentation:
+The Azure portal both surfaces key performance metrics that can be used to monitor and allows you to troubleshoot your query and job performance. To learn more, see the following documentation:
 
 
 ## **Recommended documents**
