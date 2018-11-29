@@ -15,9 +15,9 @@
 
 # My VM is not booting
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the guides listed below.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understanding **FSTAB errors** and mitigation steps](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors)<br>
 * [Resolve boot errors when starting your VM **after applying specific kernel changes**](https://support.microsoft.com/help/4091524/how-recovery-azure-linux-vm-from-kernel-related-boot-related-issues)<br>
