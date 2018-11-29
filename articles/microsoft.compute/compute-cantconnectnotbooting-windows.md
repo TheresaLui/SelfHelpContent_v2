@@ -7,7 +7,7 @@
               authoralias="scotro"
               displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615532"
+              supportTopicIds="32615532,32628284"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
@@ -15,9 +15,9 @@
 
 # My VM is not booting
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the steps listed below.
 
-## **Recommended documents**
+## **Recommended Steps**
 
 1. [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
 
@@ -31,7 +31,7 @@
   * [Updating Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)<br>
   * [Reboot loop](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-reboot-loop)
 
-**Additional documents**
+**Recommended Documents**
 
   * [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
   * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
