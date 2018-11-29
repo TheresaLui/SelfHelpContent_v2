@@ -47,4 +47,4 @@ To resolve the most common issues, try one or more of the following methods:
 
 ## **Recommended Documents**
 
-* [For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
+* [ExpressRoute Troubleshooting](https://docs.azure.cn/expressroute/)
