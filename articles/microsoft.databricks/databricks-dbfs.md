@@ -2,7 +2,7 @@
 	pageTitle="Databricks DBFS and Database Issues"
 	description="Databricks DBFS and Database Issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="kywe665"
 	displayOrder="8"
 	selfHelpType="resource"

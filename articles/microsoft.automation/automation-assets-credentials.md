@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Assets - Credentials"
-    description="Azure Automation - Assets - Credentials"
+    pageTitle="Azure Automation - Shared Resources - Credentials"
+    description="Azure Automation - Shared Resources - Credentials"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -12,9 +12,10 @@
     cloudEnvironments="public"
 />
 
-# Azure Automation - Assets - Credentials
+# Azure Automation - Shared Resources - Credentials
 
 ## **Recommended documents**
-[Credential assets in Azure Automation](https://docs.microsoft.com/azure/automation/automation-credentials) <br>
-[Introduction to authentication in Azure Automation](https://docs.microsoft.com/azure/automation/automation-security-overview) <br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Credentials in Azure Automation](https://docs.microsoft.com/azure/automation/automation-credentials) <br>
+[How to] [Introduction to authentication in Azure Automation](https://docs.microsoft.com/azure/automation/automation-security-overview) <br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

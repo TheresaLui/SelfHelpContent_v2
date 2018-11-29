@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411885"
@@ -14,7 +15,7 @@
 
 # Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
 * [Detailed steps for troubleshooting RDP connections](https://docs.microsoft.com/azure/virtual-machines/windows/detailed-troubleshoot-rdp)<br>
@@ -23,5 +24,5 @@
 * [Reset local Windows password for Azure VM offline](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)<br>
 * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset network interface for Azure Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface)<br>
-* [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting)<br>
+* [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/restart-resize-error-troubleshooting)<br>
 * [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)

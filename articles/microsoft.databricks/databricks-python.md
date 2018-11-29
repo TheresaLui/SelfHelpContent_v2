@@ -2,7 +2,7 @@
 	pageTitle="Databricks Python Issues"
 	description="Databricks Python Issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="kywe665"
 	displayOrder="8"
 	selfHelpType="resource"

@@ -4,15 +4,18 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
+    authorAlias="scotro"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32411835"
+    supportTopicIds="32615531,32615526"
     resourceTags="windows, WindowsSQL"
     productPesIds="14749"
     cloudEnvironments="public"
  />
 
 # I can't connect to my Windows VM
+
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 

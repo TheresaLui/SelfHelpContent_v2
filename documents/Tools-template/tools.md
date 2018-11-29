@@ -1,15 +1,16 @@
 <properties
-	pageTitle="tools for servicename"
-	description="tools for servicename"
-	service="Microsoft.servicename"
-	resource="resourceName"
-	authors="githubName"
+	pageTitle=""
+	description=""
+	service=""
+	resource=""
+	authors=""
+	authoralias=""
 	displayOrder=""
-	selfHelpType="tools"
+	selfHelpType=""
 	supportTopicIds=""
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments=""
 />
 
 # tools

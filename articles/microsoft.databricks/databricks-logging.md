@@ -2,7 +2,7 @@
 	pageTitle="Databricks Logging Issues"
 	description="Databricks Logging Issues"
 	service="microsoft.Databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="kywe665"
 	displayOrder="8"
 	selfHelpType="resource"

@@ -2,7 +2,7 @@
 	pageTitle="Databricks DBFS"
 	description="Databricks DBFS"
 	service="microsoft.databricks"
-	resource="clusters"
+	resource="workspaces"
 	authors="mspreshah"
 	displayOrder="9"
 	selfHelpType="resource"

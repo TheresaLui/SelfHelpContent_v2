@@ -1,11 +1,13 @@
 <properties
-	pageTitle="Slow virtual machine"
-	description="Slow virtual machine"
-	authors="AlexKuriatnyk"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32411877"
-	productPesIds="14749"
-	cloudEnvironments="public"
+	articleId=""
+	pageTitle=""
+	description=""
+	authors=""
+	authoralias=""
+	selfHelpType=""
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments=""
 	schemaVersion="1"
 />
 # VM Performance
@@ -77,10 +79,11 @@
 			],
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
 			"required": false,
 			"useAsAdditionalDetails": true,
 			"hints": [{
