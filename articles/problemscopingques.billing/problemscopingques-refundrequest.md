@@ -3,6 +3,7 @@
 	description="Refund Request"
 	articleId="refundrequest"
 	authorAlias="prdasneo"
+	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454868"
 	productPesIds="15659"
