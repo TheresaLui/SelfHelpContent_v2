@@ -18,5 +18,4 @@
 
 # User did not meet cloud password policy
  
- We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> attempted to set their password to something that doesn't meet the [cloud user password policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts). Please review the [cloud user password policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) and ensure <!--$UserId-->[UserId]<!--/$UserId--> chooses a password that meets the policy. 
- 
+ We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> attempted to set their password to something that doesn't meet the [cloud user password policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts). Please review the [cloud user password policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) and ensure <!--$UserId-->[UserId]<!--/$UserId--> chooses a password that meets the policy.
