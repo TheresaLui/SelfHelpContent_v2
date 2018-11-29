@@ -6,7 +6,7 @@
   authors="ajamess"
   selfHelpType="generic"
   supportTopicIds="32570266"
-  productPesIds="14785"
+  productPesIds="14785,16575"
   cloudEnvironments="public"
  />
 
@@ -14,7 +14,9 @@
 
 ## **Recommended Steps**
 
-The following links will bring you to a content map which will help you to resolve some of the most common issues with application developement with the **Application Registry** in Azure Active Directory.
+Want an answer now? [Check Stackoverflow for issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory) or post a [question on StackOverflow with tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
+
+The following links will bring you to a content map which will help you to resolve some of the most common issues faced during application development and managing **App Registrations** in Azure Active Directory.
 
 * [Issues that are related to Application Configuration and Registration](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-config-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)
 * [Issues that are related to Application Development](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map/?WT.mc_id=UI_AAD_Registered_Apps_Support_L1_Overview)

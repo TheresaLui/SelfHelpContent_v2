@@ -6,6 +6,7 @@
 	authors="chlon"
 	displayOrder="10"
 	selfHelpType="resource"
+	productPesIds="15693"
 	cloudEnvironments="public"
 />
 

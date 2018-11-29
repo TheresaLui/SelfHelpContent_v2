@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32574720"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 # Networking concepts for Azure to Azure replication

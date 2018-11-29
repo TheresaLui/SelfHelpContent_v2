@@ -3,7 +3,7 @@
 	description="configuration and setup/deploy vm scale sets (linux)"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="scottazure"
+	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32539972"
@@ -15,6 +15,7 @@
 # Configuration and Setup/Deploy VM Scale Sets (Linux)
 
 ## **Recommended documents**
+
 * [Review the steps to automatically scale machines](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-linux-autoscale?toc=%2fazure%2fmonitoring-and-diagnostics%2ftoc.json)<br>
 * [Troubleshooting autoscale with Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot)
 * [Frequently asked questions for scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json#frequently-asked-questions-for-scale-sets)<br>
@@ -25,4 +26,3 @@
 * [Use Azure Monitor autoscaling to scale the number of running instances](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-common-metrics)<br>
 * [Advanced autoscale configuration using Resource Manager templates](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-advanced-autoscale-virtual-machine-scale-sets)<br>
 * [Low-priority VMs on scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-use-low-priority)
-

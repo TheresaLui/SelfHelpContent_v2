@@ -1,4 +1,4 @@
-<properties
+﻿<properties
     pageTitle="B2B collaboration: My users want to leave the org they were invited to"
     description="Azure Active Directory self help"
     service="microsoft.aad"
@@ -7,7 +7,7 @@
     displayOrder="792"
     selfHelpType="resource"
     supportTopicIds=""
-    resourceTags="userandgroups_user"
+    resourceTags="userandgroups_user,companyRelationships_overview"
     productPesIds=""
     cloudEnvironments="public"
     />

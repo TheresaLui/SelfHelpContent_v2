@@ -3,7 +3,7 @@
     description="DNS Issues"
     service="microsoft.apim"
     resource="apimanagement"
-    authors="jtwalters25"
+    authors="shrahman"
     displayOrder="17"
     selfHelpType="generic"
     supportTopicIds="32318294"
@@ -15,5 +15,6 @@
 # DNS Issues
 
 ## **Recommended documents**
-[Azure DNS](https://docs.microsoft.com/rest/api/dns/)<br>
-[How to use Azure API Management with virtual networks](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet)
+* [How to use Azure API Management with virtual networks - Common Network Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)<br>
+* [Using Azure API Management service with an internal virtual network - DNS Configuration](https://docs.microsoft.com/azure/api-management/api-management-using-with-internal-vnet#apim-dns-configuration)<br>
+* [API Management - Diagnostic Logs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#diagnostic-logs)

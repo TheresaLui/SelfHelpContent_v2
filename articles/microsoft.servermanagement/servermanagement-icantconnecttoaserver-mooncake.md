@@ -3,7 +3,7 @@
 	description="I can't connect to a Server management tools node"
 	service="microsoft.servermanagement"
 	resource="nodes"
-	authors="danielleemsft"
+	authors="daniellee-msft"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""

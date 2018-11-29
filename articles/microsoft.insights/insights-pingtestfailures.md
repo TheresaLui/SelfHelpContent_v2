@@ -6,6 +6,8 @@
     authors="mcosner"
     displayOrder="14"
     selfHelpType="resource"
+    supportTopicIds=""
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # My web test is intermittently failing with a protocol violation error
@@ -14,5 +16,5 @@ The error ("protocol violation.. CR must be followed by LF") indicates an issue 
 <br><br>
 Note: The URL may not fail in browsers most likely because they’re implemented with libraries which have a relaxed validation concerning HTTP headers. The blog post above shows examples of this.
 ## **Recommended documents**
-[Debug protocol violation errors](http://mehdi.me/a-tale-of-debugging-the-linkedin-api-net-and-http-protocol-violations/)
-<br>[Understand common questions and problems with availability tests](https://go.microsoft.com/fwlink/?linkid=865227)
+[Debug protocol violation errors](http://mehdi.me/a-tale-of-debugging-the-linkedin-api-net-and-http-protocol-violations/)<br>
+[Understand common questions and problems with availability tests](https://go.microsoft.com/fwlink/?linkid=865227)

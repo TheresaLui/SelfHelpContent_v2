@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32536429"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -23,9 +23,6 @@ Common issues during Process Server deployment
 
 ## **Recommended Documents**
 * [Deploy a Process Server(Resource Manager) in Azure for Failback](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-setup-azure-ps-resource-manager)
-* [Deploy a Process Server(Classic) in Azure for Failback](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-setup-azure-ps-classic)
 * [Deploy a on-premises Scale-out Process Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-scaleout-process-server)
 * [Registering a Process Server (running in Azure) to a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-setup-azure-ps-resource-manager#registering-the-process-server-running-in-azure-to-a-configuration-server-running-on-premises)
-* [Re-registering a Scale-out Process Server (running on-premises) to a Configuration Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-scaleout-process-server#re-registering-a-scale-out-process-server)
-* [Decommissioning a Scale-out Process Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-scaleout-process-server#decommissioning-a-scale-out-process-server)
-* [Unregistering a disconnected Process Server](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-scaleout-process-server#unregistering-a-disconnected-scale-out-process-server-from-a-configuration-server)
+
