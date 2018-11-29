@@ -39,7 +39,7 @@
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Brief description of the issue."
