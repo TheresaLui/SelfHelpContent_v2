@@ -18,5 +18,4 @@
 
 # User did not meet on-premises password policy
  
- We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> attempted to set their password to something that doesn't meet your on-premises password policy. Please review your on-premises password policy and ensure <!--$UserId-->[UserId]<!--/$UserId--> chooses a password that meets the policy. 
- 
+ We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> attempted to set their password to something that doesn't meet your on-premises password policy. Please review your on-premises password policy and ensure <!--$UserId-->[UserId]<!--/$UserId--> chooses a password that meets the policy.
