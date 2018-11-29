@@ -16,7 +16,7 @@
 />
 
 # Getting started with ASA
-Azure Stream Analytics is an event-processing engine that allows you to examine high volumes of data streaming from devices. Incoming data can be from devices, sensors, web sites, social media feeds, applications, and more. It also supports extracting information from data streams, identifying patterns, and relationships. You can then use these patterns to trigger other actions downstream, like alerts, feed information to a reporting tool, or store it for later use.
+Azure Stream Analytics is an event-processing engine that allows you to examine high volumes of data streaming from devices. Incoming data can be from devices, sensors, websites, social media feeds, applications, and more. It also supports extracting information from data streams, identifying patterns, and relationships. You can then use these patterns to trigger other actions downstream, like alerts, feed information to a reporting tool, or store it for later use.
 
 To learn more, see the following documentation:
 
