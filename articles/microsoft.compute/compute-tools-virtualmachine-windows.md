@@ -14,10 +14,10 @@
 
 # tools
 
-[Reset password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset)<br>
+[Reset password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)<br>
 Reset the password of the built-in administrator account<br>
 
-[Serial Console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade)<br>
+[Serial Console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.id.$resourceId)<br>
 Log on to Virtual Machines serial console<br>
 
 View boot diagnostics<br>

@@ -4,6 +4,7 @@
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
+    authoralias="juliako"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
@@ -12,9 +13,8 @@
     cloudEnvironments="MoonCake"
  />
 
-# Explanation of media services pricing
+# Media Services Pricing
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Media Services pricing details](https://www.azure.cn/pricing/details/media-services/)
-
+* [Media Services pricing details](https://www.azure.cn/pricing/details/media-services/)

@@ -1,21 +1,27 @@
 <properties  
-              pageTitle="I can't connect to my Linux VM"
-              description="I can't connect to my Linux VM"
+              pageTitle="My VM is not booting"
+              description="My VM is not booting"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="36"
+              authoralias="scotro"
+              displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615532"
+              supportTopicIds="32615532,32628284"
               resourceTags=""
-              productPesIds="15571,16215,16065,15797,16454,16470"
+              productPesIds="15571,15797,16454"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Linux VM
+# My VM is not booting
 
-## **Recommended documents**
+4 out of 5 customers resolved their VM connectivity issue using the guides listed below.
 
-1. Click [here](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors) for more information on fstab errors that you may encounter when you start your VM.
-2. Click [here](https://support.microsoft.com/help/4091524/how-recovery-azure-linux-vm-from-kernel-related-boot-related-issues) for more information on boot errors that you may encounter when you start your VM after applying certain kernel changes to your VM.
-3. Click [here](https://docs.microsoft.com/azure/virtual-machines/linux/serial-console-grub-single-user-mode) for more information on using serial console to access GRUB (GRand Unified Bootloader) in order to modify your boot configuration.
+## **Recommended Documents**
+
+* [Understanding **FSTAB errors** and mitigation steps](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors)<br>
+* [Resolve boot errors when starting your VM **after applying specific kernel changes**](https://support.microsoft.com/help/4091524/how-recovery-azure-linux-vm-from-kernel-related-boot-related-issues)<br>
+* [Use **Serial console** to access **GRUB** to modify boot configuration Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-single-user-mode)<br>
+* [How to use **boot diagnostics** to **troubleshoot** Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
+* [**Quick steps** to **diagnose** & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
+* [**Detailed SSH troubleshooting steps** for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)

@@ -1,21 +1,38 @@
 <properties  
-              pageTitle="I can't connect to my Windows VM"
-              description="I can't connect to my Windows VM"
+              pageTitle="My VM is not booting"
+              description="My VM is not booting"
               service=""
               resource=""
               authors="tiag"
-              displayOrder="36"
+              authoralias="scotro"
+              displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615532"
+              supportTopicIds="32615532,32628284"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
 />
 
-# I can't connect to my Windows VM
+# My VM is not booting
 
-## **Recommended documents**
+4 out of 5 customers resolved their VM connectivity issue using the steps listed below.
 
-1. Click [here](https://review.docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics?branch=pr-en-us-54175) for more information on using boot diagnostics to troubleshoot your VM.
-2. Click [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error) for more information on BitLocker errors that you may encounter when you start your VM.
-3. Click [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error) for more information on “Checking file system” error that you may encounter when you start your VM.
+## **Recommended Steps**
+
+1. [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
+
+2. Troubleshoot specific common boot errors:
+
+  * [Check Disk Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-check-disk-boot-error)<br>
+  * [BitLocker Boot Error](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-bitlocker-boot-error)<br>
+  * [Boot Configuration Update](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-vm-boot-configure-update)<br>
+  * [Common Blue Screen Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-common-blue-screen-error)<br>
+  * [Critical Service Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-critical-service-failed-boot-error)<br>
+  * [Updating Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)<br>
+  * [Reboot loop](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-reboot-loop)
+
+**Recommended Documents**
+
+  * [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
+  * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
+  * [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)

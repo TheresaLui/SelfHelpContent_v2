@@ -18,7 +18,6 @@
 * [Frequently asked questions about Azure Backup service](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq)<br>
 * [Troubleshoot slow backup of files and folders in Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
 * [Troubleshoot Azure virtual machine backup in Azure Portal](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
-* [Troubleshoot Azure virtual machine backup in classic portal](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot-classic)<br>
 * [Troubleshoot Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot)<br>
 * [Troubleshoot Azure Backup failure: Snapshot VM sub task timed out](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
 * [Review the features of Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup#using-premium-storage-vms-with-azure-backup)<br>
