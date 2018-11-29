@@ -35,4 +35,4 @@ Step 3.  Click the Application and then click Properties from the Management men
 
 Step 4.  Set the enabled for sign on value to YES and hit save.
 
-Step 5.  Open the Intune application in the Azure portal.
+Step 5.  Navigate back to the Intune application in the Azure portal and confirm the application is working as expected.
