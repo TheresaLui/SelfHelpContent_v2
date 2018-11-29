@@ -31,6 +31,12 @@
                   "hints": [{
                     "text": "Distribution and version of the operating system."
                     }]
+                  },{
+                  "id": "problem_description",
+                  "order": 3,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "Description",
+                  "required": true
                   }
               ]
 }
