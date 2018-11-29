@@ -1,8 +1,9 @@
 <properties
-    pageTitle="I am getting 'Invalid registration' error"
-    description="I am getting 'Invalid registration' error"
+    pageTitle="I am getting an 'Invalid registration' error"
+    description="I am getting an 'Invalid registration' error"
     service="microsoft.notificationhubs"
     authors="locphan"
+    authoralias="locphan"
     displayOrder="2"
     selfHelpType="resource"
     resource="namespaces"
@@ -12,9 +13,9 @@
     cloudEnvironments="MoonCake"
 />
 
-# I am getting 'Invalid registration' error
+# I am getting an 'Invalid registration' error
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* Verify the device token obtained from Platform Notification Systems on your client.<br>
-* [Verify registrations](https://docs.azure.cn/notification-hubs/notification-hubs-push-notification-fixer#self-diagnose-tips) of all devices.<br>
+* Verify the device token obtained from Platform Notification Systems on your client
+* [Verify registration](https://docs.azure.cn/notification-hubs/notification-hubs-push-notification-fixer#self-diagnose-tips) of all devices
