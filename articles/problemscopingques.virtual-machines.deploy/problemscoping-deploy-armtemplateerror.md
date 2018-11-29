@@ -21,7 +21,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When was the last reported time of the problem?",
-            "required": false
+            "required": true
         },
         {
             "id": "deployment_manageddisks",
