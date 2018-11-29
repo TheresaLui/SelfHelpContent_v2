@@ -76,6 +76,7 @@
                   "id": "problem_description",
                   "order": 5,
                   "controlType": "multilinetextbox",
+                  "displayLabel": "Description",
                   "required": true
                   }
                 ]
