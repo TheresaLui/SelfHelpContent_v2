@@ -23,4 +23,5 @@
 ## **Recommended Documents**
 
 - [Farm Deployment Checklist](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/deploying-a-federation-server-farm)<br>
-- [AD FS Help](https://adfshelp.microsoft.com/)
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)

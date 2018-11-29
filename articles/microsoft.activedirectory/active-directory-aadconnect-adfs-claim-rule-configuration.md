@@ -26,4 +26,5 @@
 
 - [Troubleshooting Claims Syntax](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-claims-rules)<br>
 - [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest)<br>
-- [AD FS Help](https://adfshelp.microsoft.com/)
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)

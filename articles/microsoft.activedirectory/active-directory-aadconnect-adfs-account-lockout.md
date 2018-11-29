@@ -26,4 +26,5 @@
 
 - [AD FS Extranet Smart Lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)<br>
 - [Password Spray Protection](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)<br>
-- [AD FS Help](https://adfshelp.microsoft.com/)
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)

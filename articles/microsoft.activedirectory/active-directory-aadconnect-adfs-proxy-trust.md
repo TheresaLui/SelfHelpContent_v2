@@ -23,4 +23,5 @@
 ## **Recommended Documents**
 
 
-- [AD FS Help](https://adfshelp.microsoft.com/)
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)

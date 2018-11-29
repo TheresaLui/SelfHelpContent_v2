@@ -33,4 +33,5 @@
 
 - [Upgrading to ADFS 2016 using a WID database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server)<br>
 - [Upgrading to ADFS using a SQL database](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/upgrading-to-ad-fs-in-windows-server-sql)<br>
-- [AD FS Help](https://adfshelp.microsoft.com/)
+- [AD FS Help](https://adfshelp.microsoft.com/)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)
