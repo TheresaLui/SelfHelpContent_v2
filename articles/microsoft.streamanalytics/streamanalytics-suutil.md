@@ -8,7 +8,7 @@
 	articleId="streamanalytics-suutil"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32628786"
+	supportTopicIds="32628786,32357228"
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public"
