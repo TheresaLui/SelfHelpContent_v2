@@ -1,8 +1,9 @@
 <properties
-    pageTitle="I am getting 'Internal server' error"
-    description="I am getting 'Internal server' error"
+    pageTitle="I am getting an 'Internal server' error"
+    description="I am getting an 'Internal server' error"
     service="microsoft.notificationhubs"
     authors="locphan"
+    authoralias="locphan"
     displayOrder="4"
     selfHelpType="resource"
     resource="namespaces"
@@ -12,8 +13,8 @@
     cloudEnvironments="MoonCake"
 />
 
-# I am getting 'Internal server' error
+# I am getting an 'Internal server' error
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* [Check Azure status](https://www.azure.cn/support/service-dashboard/) to see if it is a known issue.<br>
+* [Check Azure status](https://www.azure.cn/support/service-dashboard/) to see if it is a known issue
