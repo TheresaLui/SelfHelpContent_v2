@@ -4,6 +4,7 @@
     service="microsoft.network"
     resource="virtualnetworks"
     authors="anavin"
+    authoralias="anavin"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,13 +15,13 @@
 
 # I can't delete my virtual network
 
-## **Recommended steps**
+## **Recommended Steps**
 
-To resolve the most common issues, try one or more of the following methods.
+To resolve most common issues, try one or more of the following steps:
 
 1. Check your [Connected devices](data-blade:Microsoft_Azure_Network.ConnectionInfoBlade) blade of the virtual network. Make sure to delete all the connected devices. If there are any connected devices, deletion of the virtual network will fail.
 2. Make sure you have followed all the steps outlined in the [Troubleshooting: Failed to delete a virtual network](https://docs.azure.cn/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet#troubleshooting-guidance) document.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting: Failed to delete a virtual network](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)<br>
