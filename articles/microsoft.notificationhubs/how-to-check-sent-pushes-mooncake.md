@@ -1,8 +1,9 @@
 <properties
-    pageTitle="How do i check pushes I have sent?"
-    description="How do i check pushes I have sent?"
+    pageTitle="How do I check pushes I have sent?"
+    description="How do I check pushes I have sent?"
     service="microsoft.notificationhubs"
     authors="locphan"
+    authoralias="locphan"
     displayOrder="7"
     selfHelpType="resource"
     resource="namespaces"
@@ -12,15 +13,15 @@
     cloudEnvironments="MoonCake"
 />
 
-# How do i check pushes I have sent?
+# How do I check pushes I have sent?
 
-## **Recommended steps**
+## **Recommended Steps**
 
-* Review hub telemetry in [Azure classic portal](https://manage.windowsazure.cn/)<br>
-* Enable [Per Message Telemetry](https://msdn.microsoft.com/library/azure/mt608135.aspx)<br>
-* Enable [Platform Notification System Feedback](http://go.microsoft.com/fwlink/?LinkID=824688)<br>
+* Review hub telemetry in [Azure classic portal](https://manage.windowsazure.cn/)
+* Enable [Per Message Telemetry](https://msdn.microsoft.com/library/azure/mt608135.aspx)
+* Enable [Platform Notification System Feedback](http://go.microsoft.com/fwlink/?LinkID=824688)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Programatic access to telemetry](https://msdn.microsoft.com/library/azure/dn458823.aspx)<br>
 * [Per Message Telemetry](https://msdn.microsoft.com/library/azure/mt608135.aspx)<br>
