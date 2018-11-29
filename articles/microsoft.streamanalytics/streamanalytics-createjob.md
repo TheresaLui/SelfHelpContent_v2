@@ -7,10 +7,10 @@
 	authors="sidramadoss"
 	articleId="streamanalytics-createjob"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32357230"
 	resourceTags=""
-	productPesIds="15663"​
+	productPesIds="15663"
 	cloudEnvironments="public"
 	authorAlias="sidram"
 />
