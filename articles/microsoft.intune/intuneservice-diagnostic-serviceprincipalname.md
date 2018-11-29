@@ -4,6 +4,7 @@
 	infoBubbleText="The Intune Service Principal has been disabled.  Please review the steps on the right for how to re-enable."
 	service="microsoft.intune"
 	resource="intune"
+	authorAlias="jlynn"
 	authors="mackie1604"
 	displayOrder=""
 	articleId="service_principal_disabled"
