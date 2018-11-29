@@ -40,26 +40,8 @@
                       ],
                       "required": false
                       },{
-                        "id": "deployment_isrunning",
-                        "order": 3,
-                        "controlType": "dropdown",
-                        "displayLabel": "Is your image started and running?",
-                        "watermarkText": "Choose an option",
-                        "dropdownOptions": [{
-                          "value": "Is started running",
-                          "text": "Is started running"
-                          },{
-                            "value": "Is not started",
-                            "text": "Is not started"
-                            },{
-                              "value": "I do not know",
-                              "text": "I do not know"
-                            }
-                            ],
-                            "required": false
-                      },{
                   "id": "deployment_error",
-                  "order": 4,
+                  "order": 3,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the error you received?",
                   "required": false,
