@@ -2,6 +2,7 @@
 	pageTitle="Azure Offers and Pricing"
 	description="Azure Offers and Pricing"
 	articleId="azureoffersandpricing"
+	authorAlias="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32549152,32549153,32599496,32454860,32454864,32454870,32454872"
@@ -9,19 +10,36 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
 # Azure Offers and Pricing
 ---
 {
 	"resourceRequired": false,
 	"title": "Azure Offers and Pricing",
 	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "additional_details",
-			"order": 1,
+	"formElements": [
+  {
+      "id": "problem_start_time",
+      "visibility": null,
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "content": null,
+      "watermarkText": null,
+      "infoBalloonText": null,
+      "dropdownOptions": null,
+      "dynamicDropdownOptions": null,
+      "hints": [],
+      "required": true,
+      "maxLength": 0,
+      "useAsAdditionalDetails": false,
+      "numberOfLines": 0
+  },
+  {
+			"id": "problem_description",
+			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Brief description of the issue."
