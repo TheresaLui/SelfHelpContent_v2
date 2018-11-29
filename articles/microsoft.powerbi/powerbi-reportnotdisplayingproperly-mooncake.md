@@ -4,6 +4,7 @@
     service="microsoft.powerbi"
     resource="workspacecollections"
     authors="kasparks"
+    authoralias="kasparks"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,11 +15,11 @@
 
 # Report not displaying properly
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Confirm that the your connection strings are configured properly <br>[Getting started: Setting connection strings](https://docs.azure.cn/power-bi-workspace-collections/get-started)
-2. Confirm that you can configured credentials properly for e report <br>[Getting started: Setting credentials](https://docs.azure.cn/power-bi-workspace-collections/get-started#view-power-bi-api-access-keys)
+1. Confirm that your [connection strings are configured properly](https://docs.azure.cn/power-bi-workspace-collections/get-started)
+2. Confirm that your [credentials are configured properly](https://docs.azure.cn/power-bi-workspace-collections/get-started#view-power-bi-api-access-keys) for reporting
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Getting started with Power BI Workspace Collections](https://docs.azure.cn/power-bi-workspace-collections/faq)
