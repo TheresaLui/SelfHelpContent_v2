@@ -20,28 +20,10 @@
                   "order": 1,
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the last reported time of the problem?",
-                  "required": false
+                  "required": true
                     },{
-                      "id": "deployment_isrunning",
-                      "order": 2,
-                      "controlType": "dropdown",
-                      "displayLabel": "Is your image started and running?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [{
-                        "value": "Is started running",
-                        "text": "Is started running"
-                        },{
-                          "value": "Is not started",
-                          "text": "Is not started"
-                          },{
-                            "value": "I do not know",
-                            "text": "I do not know"
-                          }
-                          ],
-                          "required": false
-                      },{
                         "id": "deployment_vhdsnapshot",
-                        "order": 3,
+                        "order": 2,
                         "controlType": "dropdown",
                         "displayLabel": "Are you creating from a VHD file, a snapshot, or a captured image?",
                         "watermarkText": "Choose an option",
