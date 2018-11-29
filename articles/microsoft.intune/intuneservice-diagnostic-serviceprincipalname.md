@@ -27,7 +27,12 @@ Please re-enable sign on for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$Intun
 
 To remediate this situation we advise:
 
-Step 1. In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, and then choose Application type of All Applications and hit apply.
+Step 1.  In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, and then choose Application type of All Applications and hit apply.
+
 Step 2.  Search for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames -->**.
+
 Step 3.  Click the Application and then click Properties from the Management menu.
+
 Step 4.  Set the enabled for sign on value to YES and hit save.
+
+Step 5.  Open the Intune application in the Azure portal.
