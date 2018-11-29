@@ -20,12 +20,12 @@
                   "order": 1,
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the last reported time of the problem?",
-                  "required": false
+                  "required": true
                   },{
                   "id": "deployment_item",
                   "order": 2,
                   "controlType": "dropdown",
-                  "displayLabel": "Are you trying to create a managed OS disk, a managed data disk or a VM?",
+                  "displayLabel": "Which type of disk are you trying to create?",
                   "watermarkText": "Choose an option",
                   "dropdownOptions": [{
                     "value": "Managed OS disk",
@@ -40,10 +40,10 @@
                       ],
                       "required": false
                       },{
-                        "id": "deployment_vhdsnapshot",
+                        "id": "deployment_from",
                         "order": 3,
                         "controlType": "dropdown",
-                        "displayLabel": "Are you creating from a VHD file, a snapshot, or a captured image?",
+                        "displayLabel": "What are you trying to create from?",
                         "watermarkText": "Choose an option",
                         "dropdownOptions": [{
                           "value": "VHD file",
@@ -54,10 +54,27 @@
                           },{
                             "value": "Captured image",
                             "text": "Captured image"
-                            }
-                            ],
-                            "required": false
+                            },{
+                            "value": "Backup",
+                            "text": "Backup"
                           }
-                          ]
+                          ],
+                            "required": false
+                          },{
+                  "id": "problem_restore_date",
+                  "order": 4,
+                  "visibility": "deployment_from == Backup",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted backup?",
+                  "required": true
+                  },{
+                  "id": "problem_snapshot_date",
+                  "order": 5,
+                  "visibility": "deployment_from == Snapshot",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted snapshot?",
+                  "required": true
+                  }
+                  ]
 }
 ---
