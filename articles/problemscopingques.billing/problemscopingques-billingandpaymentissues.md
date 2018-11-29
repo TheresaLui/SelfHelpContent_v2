@@ -2,6 +2,7 @@
     pageTitle="Billing and Payment Issues"
     description="Billing and Payment Issues"
     authorAlias="prdasneo"
+    authors="prdasneo"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32454856"
     productPesIds="15659"
