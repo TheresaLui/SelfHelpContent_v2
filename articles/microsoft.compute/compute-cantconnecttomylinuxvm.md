@@ -24,7 +24,7 @@ To resolve common issues, try one or more of the following:
 1. Access [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM  and verify if your VM is running. If you prefer, you can also see logs by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine. 
 2. Review errors in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM or in logs for errors such as FSTAB (file systems table), FSCK (file system consistency), or networking
 3. [Validate your Network Security Group is allowing traffic](data-blade:microsoft_azure_network.verifyipflowblade.vmId.$resourceId)
-4. [Troubleshoot connectivity issues when trying SSH from Azure](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade.id.$resourceId) to 
+4. [Troubleshoot connectivity issues when trying SSH from Azure](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade.id.$resourceId)
 5. Review effective security group rules to ensure inbound “Allow” NSG rule exists and is prioritized for SSH port (default 22)
 6. [Reset Password using CLI or PowerShell](http://aka.ms/resetarmpass)
 7. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade
