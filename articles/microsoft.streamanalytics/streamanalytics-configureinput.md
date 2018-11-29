@@ -21,6 +21,6 @@ Stream Analytics has first-class integration with Azure data streams as inputs f
 
 ## **Recommended documents**
 
-[Different types of streaming input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#clean-up-resources)<br>
+[Different types of streaming input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-inputs)<br>
 [Configuring reference data](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)<br>
 [How to parse array and record data types](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parsing-json)
