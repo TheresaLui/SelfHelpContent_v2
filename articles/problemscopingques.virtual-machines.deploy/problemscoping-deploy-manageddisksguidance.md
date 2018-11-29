@@ -33,9 +33,6 @@
                     },{
                       "value": "Managed data disk",
                       "text": "Managed data disk"
-                      },{
-                        "value": "Virtual machine",
-                        "text": "Virtual machine"
                       }
                       ],
                       "required": false
