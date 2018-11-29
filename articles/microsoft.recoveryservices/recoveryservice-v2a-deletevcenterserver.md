@@ -8,7 +8,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32592048"
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
@@ -16,9 +16,9 @@
 
 ## **Recommended steps**
 
-- [How to Delete a vCenter server in Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/site-recovery-vmware-to-azure-manage-vcenter#delete-a-vcenter-in-azure-site-recovery)<br>
+- [How to Delete a vCenter server in Azure Site Recovery?](https://docs.microsoft.com/azure/site-recovery/vmware-azure-manage-vcenter#delete-a-vcenter-server)<br>
 
 ## **Recommended documents**
 
-- [How to disable replication/ASR components and delete a Site recovery Vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
+- [How to disable replication/ASR components and delete a Recovery Services vault?](https://docs.microsoft.com/azure/site-recovery/delete-vault#delete-a-site-recovery-vault-1)<br>
 - [How to **force delete the vault using powershell?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault)

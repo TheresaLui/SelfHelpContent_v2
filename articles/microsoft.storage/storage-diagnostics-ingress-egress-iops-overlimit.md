@@ -23,5 +23,5 @@ The following limits were reached between **<!--$StartTime--> StartTime <!--/$St
 
 Limit type: **<!--$LimitType--> LimitType <!--/$LimitType-->**<br><br>
 
-We recommended that you configure Storage Analytics to monitor throttling on your Storage Accounts. This will enable you to monitor your application's increase in transaction volume to prevent or mitigate similar issues in the future. For further information, please see [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting).<br>
+We recommended that you configure Storage Analytics to monitor throttling on your Storage Account. This will enable you to monitor your application's increase in transaction volume to prevent or mitigate similar issues in the future. For further information, please see [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-an-increase-in-PercentThrottlingError).
 <!--/issueDescription-->

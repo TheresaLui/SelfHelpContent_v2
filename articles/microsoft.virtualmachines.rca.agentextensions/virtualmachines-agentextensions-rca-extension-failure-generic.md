@@ -24,8 +24,7 @@ We have detected that **<!--$extensionname-->Extension Name<!--/$extensionname--
 
 The extension has encountered an error and is displayed above.
 
-For internal troubleshooting guidance, [Click here](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Deploy_a_new_VM/Guest_Agent_and_Extensions_Workflow)
-
 For additional information regarding extensions and how to troubleshoot:<br>
+
 * [Windows extensions overview and troubleshooting ](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-features)<br>
 * [Linux extensions overview and troubleshooting ](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-features)

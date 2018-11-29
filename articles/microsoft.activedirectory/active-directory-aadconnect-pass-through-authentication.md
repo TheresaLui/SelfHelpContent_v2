@@ -8,7 +8,7 @@
   selfHelpType="generic"
   supportTopicIds="32596862"
   resourceTags="aadconnect,aadconnect_pass_through_authentication,managed_authentication"
-  productPesIds="14785"
+  productPesIds="14785,16579"
   cloudEnvironments="public"
 />
 

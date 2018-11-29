@@ -16,11 +16,12 @@
 
 The Azure Cost Management APIs provide the ability to explore cost and usage data via multidimensional analysis, where creating customized filters and expressions allow you to answer consumption related questions for your Azure resources. These APIs are currently available for Azure Enterprise customers.
 
+Please refer to the following information on the REST API options:
+
 **REST Operation Groups**
 
   * [Dimensions](https://docs.microsoft.com/rest/api/cost-management/dimensions): Provides operations to get supported dimensions for your usage under a variety of scopes. Using the Dimensions API, you can retrieve a list of dimensions that can be used as inputs for generating queries with the Query API.<br>
-  * [Query](https://docs.microsoft.com/rest/api/cost-management/query): Provides operations to get aggregated cost and usage data based on the query you supply. Using the Query API, you can specify your desired filtering, sorting and grouping on all available dimensions (which are accessed from the Dimensions API).<br>
-  
+  * [Query](https://docs.microsoft.com/rest/api/cost-management/query): Provides operations to get aggregated cost and usage data based on the query you supply. Using the Query API, you can specify your desired filtering, sorting and grouping on all available dimensions (which are accessed from the Dimensions API).<br>  
 
 ## **Recommended documents**
 

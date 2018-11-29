@@ -3,12 +3,12 @@
 	description="connectivity/server is unavailable"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="rohitnayakmsft"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="31980434"
+	supportTopicIds="31980434,32594730"
 	resourceTags=""
-	productPesIds="13491"
+	productPesIds="13491,16259"
 	cloudEnvironments="public"
 />
 

@@ -1,0 +1,205 @@
+<properties
+    pageTitle="Problem in Identity Protection users risk events"
+    description="identityprotection"
+    authors="anupnadigm"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32542231"
+    productPesIds="14785,16578,16575"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
+    />
+
+# Problem in Identity Protection users risk events
+
+---
+{
+    "resourceRequired": false,
+    "title": "Problem in Identity Protection users risk events",
+    "fileAttachmentHint": null,
+    "formElements": [
+        {
+            "id": "ProblemAreas",
+            "visibility": null,
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Problem Areas",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Users flagged for risk",
+                    "value": "riskyUsers"
+                },
+                {
+                    "text": "Risk events",
+                    "value": "riskEvents"
+                },
+                {
+                    "text": "Vulnerabilities",
+                    "value": "Vulnerabilities"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "symptoms",
+            "visibility": null,
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What are the symptoms of the problem?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 3
+        },
+        {
+            "id": "ObjectIDs",
+            "visibility": "ProblemAreas==riskyUsers",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Object IDs of impacted users",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 1
+        },
+        {
+            "id": "problem_start_time",
+            "visibility": null,
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "VulnerabilityType",
+            "visibility": "ProblemAreas==Vulnerabilities",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Vulnerability type",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Multi-factor authentication registration not configured",
+                    "value": "noMFA"
+                },
+                {
+                    "text": "Unmanaged cloud apps",
+                    "value": "umCloudApps"
+                },
+                {
+                    "text": "Security Alerts from Privileged Identity Management",
+                    "value": "PIM"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "riskEventType",
+            "visibility": "ProblemAreas==riskEvents",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Risk event type",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Users with leaked credentials ",
+                    "value": "leaked"
+                },
+                {
+                    "text": "Sign-ins from anonymous IP addresses",
+                    "value": "anonymous"
+                },
+                {
+                    "text": "Impossible travel to atypical locations ",
+                    "value": "impTravel"
+                },
+                {
+                    "text": "Sign-ins from unfamiliar locations ",
+                    "value": "Unfamiliar"
+                },
+                {
+                    "text": "Sign-ins from infected devices  ",
+                    "value": "Infected"
+                },
+                {
+                    "text": "Sign-ins from IP addresses with suspicious activity  ",
+                    "value": "Suspicious"
+                },
+                {
+                    "text": "Other, don't know or not applicable",
+                    "value": "other"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide additional details",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
+        }
+    ]
+}
+---

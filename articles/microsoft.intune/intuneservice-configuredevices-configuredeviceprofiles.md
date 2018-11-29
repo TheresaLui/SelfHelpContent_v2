@@ -3,7 +3,7 @@
 	description="Configure Devices - Configure device profiles"
 	service="microsoft.intune"
 	resource="intune"
-	authors="mackie1604"
+	authors="rciliax"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32599608"
@@ -14,18 +14,23 @@
 
 # Configure Devices - Configure device profiles
 
-## **Recommended Steps**
+Depending on your scenario, follow the appropriate troubleshooting steps outlined below. 
 
-Please follow the resolution steps listed below for this message:
+**I'm deploying a Windows 10 policy and it's not applying to the device.**
+ 
+* Check to make sure that the policy is compatible with the Windows 10 build (such as 1709 and 1803) and version (such as Pro and Enterprise) that's on the device. For more information about specific policies and their supported Windows 10 products, see the [configuration service provider reference](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference).
+* Go to [Troubleshoot](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/troubleshooting) to make sure the configuration profile is correctly assigned.
+* Go to **Device configuration** to view the status of the deployment, and check for failures and errors. To learn how to collect logs and diagnose errors, view the [Intune documentation](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).   
 
-**"Warning: You need to open the Company Portal to guarantee future app access. Press OK to exit the app, and then open the Company Portal."**  This prompt appears on an end-user device managed by Microsoft Intune when using Outlook or OneDrive apps to renew a certificate used for secure communication between the device and the service.  Please ask end-users to click OK on the prompt and open the Company Portal app to allow the app to renew the certificate.  Doing so will ensure the device continues to be managed by Microsoft Intune and have access to company resources.  Please refer to [this](https://blogs.technet.microsoft.com/intunesupport/2018/03/13/support-tip-company-portal-prompt/) blog for more information.
+**I'm deploying an iOS or Android policy and it's not applying to the device.**
 
-Below is a list of additional resources and documentation that may also assist in resolving your issue.  Please review before opening a support case.
+* Check that the policy is compatible with the OS version and device type. For example, policies for iOS Supervised devices will not work on non-Supervised devices. Likewise, policies intended for Android 8.0+ will not work for older devices.  
+* Make sure the policy is correctly targeted to the user or device.
+* Use the Troubleshoot blade to look for errors and other problems. More information on using the Troubleshooting blade for policy issues can be found [here](https://aka.ms/policy_troubleshooting).
 
 ## **Recommended documents**
 
-[Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
-[Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>
-[How to create device configuration profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-create)<br>
-[Troubleshooting device profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-troubleshoot)<br>
-
+* [How to create device configuration profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-create)<br>
+* [Troubleshooting device profiles in Microsoft Intune](https://docs.microsoft.com/intune/device-profile-troubleshoot)<br>
+* [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
+* [Check out Service Health to see current status of the service](https://portal.office.com/AdminPortal/Home#/MessageCenter)<br>

@@ -1,0 +1,18 @@
+<properties
+	pageTitle="Networking\Connectivity (VNet or On-Prem)"
+	description="Networking\Connectivity (VNet or On-Prem)"
+	service="microsoft.ase"
+	resource="ase"
+	authors="shrahman"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32608427"
+	resourceTags=""
+	productPesIds="16533"
+	cloudEnvironments="public"
+/>
+
+# Networking\Connectivity (VNet or On-Prem)
+
+## **Recommended documents**
+[Securely Connecting to Backend Resources from an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/app-service-app-service-environment-securely-connecting-to-backend-resources)
