@@ -1,4 +1,5 @@
 <properties
+    authorAlias="v-anreg"
     pageTitle="LDAP certificate invalid"
     description="InvalidLdapCertificateIssue"
     infoBubbleText="Found recent LDAP certificate issue. See details on the right."
