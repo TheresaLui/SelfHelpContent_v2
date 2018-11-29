@@ -18,11 +18,11 @@
 # VM boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->**[vmname]**<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt.  You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the VM, please follow the troubleshooting steps indicated below:
+To restore the connetivity to the VM, please follow the troubleshooting steps indicated below:
 
 1. Please make a note of the file name and the path from the screenshot from the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->
 2. If the file name refers to the file *\Windows\system32\config\SYSTEM* then save a copy of the OS disk.  (See [Create a copy of a specialized Windows VM running in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy))
@@ -32,7 +32,7 @@ To fix the VM, please follow the troubleshooting steps indicated below:
 
   * Open **Regedit.exe**.
   * Click on **HKEY_LOCAL_MACHINE** and from the **File** menu select **Load Hive...**.
-  * Browse to the the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk.
+  * Browse to the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk.
   * When prompted for a name, use **BROKENSYSTEM**.
 
 6. Determine state of the SYSTEM hive.
@@ -44,7 +44,7 @@ To fix the VM, please follow the troubleshooting steps indicated below:
     b. If the hive opens up with no issues then the hive may not have been closed properly.  Proceed with the next step.
 
 7. Unload the SYSTEM hive
-8. At this time you may want to enable Azure Serial Console, this will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
+8. At this time, you may want to enable Azure Serial Console. This will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
 
     * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
     * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
