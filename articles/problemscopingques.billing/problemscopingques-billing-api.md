@@ -3,6 +3,7 @@
 	description="Billing API"
 	articleId="billingapi"
 	authorAlias="prdasneo"
+	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599495"
 	productPesIds="15659"
