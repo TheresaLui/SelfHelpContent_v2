@@ -22,10 +22,10 @@
                   "displayLabel": "When was the last reported time of the problem?",
                   "required": true
                     },{
-                        "id": "deployment_vhdsnapshot",
+                        "id": "deployment_from",
                         "order": 2,
                         "controlType": "dropdown",
-                        "displayLabel": "Are you creating from a VHD file, a snapshot, or a captured image?",
+                        "displayLabel": "What are you trying to create from?",
                         "watermarkText": "Choose an option",
                         "dropdownOptions": [{
                           "value": "VHD file",
@@ -36,10 +36,27 @@
                           },{
                             "value": "Captured image",
                             "text": "Captured image"
-                            }
-                            ],
-                            "required": false
+                            },{
+                            "value": "Backup",
+                            "text": "Backup"
                           }
+                          ],
+                            "required": false
+                          },{
+                  "id": "problem_restore_date",
+                  "order": 3,
+                  "visibility": "deployment_from == Backup",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted backup?",
+                  "required": true
+                  },{
+                  "id": "problem_snapshot_date",
+                  "order": 4,
+                  "visibility": "deployment_from == Snapshot",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted snapshot?",
+                  "required": true
+                  }
                         ]
 }
 ---
