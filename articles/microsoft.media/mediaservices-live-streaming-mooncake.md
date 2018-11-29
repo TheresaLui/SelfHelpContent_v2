@@ -1,9 +1,10 @@
-<properties 
-    pageTitle="How to configure live streaming?"
-    description="How to configure live streaming?"
+<properties
+    pageTitle="How do I configure live streaming?"
+    description="How do I configure live streaming?"
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
+    authoralias="juliako"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
@@ -12,18 +13,16 @@
     cloudEnvironments="MoonCake"
  />
 
-# How to configure live streaming?
+# How do I configure live streaming?
 
-## **Recommended documents**
+## **Recommended Documents**
 
-It might be useful to first read the article that gives an overview of live steaming using Azure Media Services.
+We highly recommend that you first review the documentation for live streaming using Azure Media Services:
 
-[Overview](https://docs.azure.cn/media-services/media-services-manage-channels-overview/)
+* [Overview of streaming video streams in real time using Azure Media Services](https://docs.azure.cn/media-services/media-services-manage-channels-overview/)
 
-The following articles show how to configure live streaming.
+The following articles provide configuration steps for live streaming with Azure Media Services:
 
-[Working with Channels that Receive Multi-bitrate Live Stream from On-premises Encoders](https://docs.azure.cn/media-services/media-services-live-streaming-with-onprem-encoders/)
-
-[Live streaming using Azure Media Services to create multi-bitrate streams](https://docs.azure.cn/media-services/media-services-manage-live-encoder-enabled-channels/)
-
-[How to configure on-premise encoders when using Azure Media Services to create multi-bitrate streams](https://docs.azure.cn/media-services/media-services-live-encoders-overview/)
+* [Working with Channels that Receive Multi-bitrate Live Stream from On-premises Encoders](https://docs.azure.cn/media-services/media-services-live-streaming-with-onprem-encoders/)
+* [Live streaming using Azure Media Services to create multi-bitrate streams](https://docs.azure.cn/media-services/media-services-manage-live-encoder-enabled-channels/)
+* [How to configure on-premise encoders when using Azure Media Services to create multi-bitrate streams](https://docs.azure.cn/media-services/media-services-live-encoders-overview/)
