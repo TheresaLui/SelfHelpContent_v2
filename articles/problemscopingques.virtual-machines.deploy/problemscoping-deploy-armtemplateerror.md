@@ -44,7 +44,12 @@
                 }
             ],
             "required": false
-        }
+        },{
+                  "id": "problem_description",
+                  "order": 3,
+                  "controlType": "multilinetextbox",
+                  "required": true
+          }
     ]
 }
 ---
