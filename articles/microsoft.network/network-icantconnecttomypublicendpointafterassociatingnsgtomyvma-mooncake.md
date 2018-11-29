@@ -4,6 +4,7 @@
     service="microsoft.network"
     resource="networksecuritygroups"
     authors="radwiv"
+    authoralias="radwiv"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,15 +15,15 @@
 
 # I cannot connect to my public endpoint after associating NSG to my virtual machine.
 
-## **Recommended steps**
+## **Recommended Steps**
 
-NSGs by default deny connections from Internet unless it is explicitly allowed. To resolve this issue, try one or more of the below steps.<br>
+By default, Network Security Groups (NSGs) deny connections from the Internet unless it is explicitly allowed. To resolve this issue, try one or more of the following steps:
 
-1. Review the security rules in your NSG.<br>
-2. Check if the backend port used in the load balancer rule configuration is in the allow list.<br>
-3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to backend port, with source being 'Internet', '*' or a specific public IP address.<br>
+1. Review the security rules in your NSG
+2. Check if the backend port used in the load balancer rule configuration is in the allow list
+3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to backend port, with the source being "Internet", "*", or a specific public IP address.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [NSG rules for load balancer endpoints](https://docs.azure.cn/virtual-network/virtual-networks-nsg#load-balancers)<br>
 * [Troubleshoot deployment issues for creating a new Virtual machine in Azure](https://docs.azure.cn/virtual-machines/windows/classic/troubleshoot-deployment-new-vm#error-string-lookup)
