@@ -4,7 +4,7 @@
 	description=""
 	authors=""
 	authoralias=""
-	selfHelpType=""
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
 	productPesIds=""
 	cloudEnvironments=""
