@@ -20,7 +20,7 @@
                   "order": 1,
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the last reported time of the problem?",
-                  "required": false
+                  "required": true
                 },{
                   "id": "deployment_marketplaceimage",
                   "order": 2,
@@ -31,6 +31,21 @@
                   "hints": [{
                     "text": "Name of the marketplace image you are trying to deploy."
                     }]
+                  },{
+                        "id": "is_publisher",
+                        "order": 3,
+                        "controlType": "dropdown",
+                        "displayLabel": "Are you a publisher of this image?",
+                        "watermarkText": "Choose an option",
+                        "dropdownOptions": [{
+                          "value": "Yes",
+                          "text": "Yes"
+                          },{
+                            "value": "No",
+                            "text": "No"
+                          }
+                          ],
+                            "required": false
                   }
                   ]
 }
