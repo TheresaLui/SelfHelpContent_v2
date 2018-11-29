@@ -15,7 +15,7 @@
 	authorAlias="sidram"
 />
 
-# Billing and Pricing 
+# Billing and Pricing information
 Azure Stream Analytics is priced by the number of streaming units required to process the data into the service. Each streaming unit providing is billed on an hourly basis. To learn more about pricing in Azure Stream Analytics, see the following documentation:
 
 
