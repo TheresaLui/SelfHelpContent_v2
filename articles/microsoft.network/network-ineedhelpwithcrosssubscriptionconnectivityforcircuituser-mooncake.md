@@ -4,6 +4,7 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
+    authoralias="kasparks"
     displayOrder="10"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,11 +15,11 @@
 
 # I need help with cross-subscription connectivity (for Circuit User)
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Check status of circuit. <br>Ask the circuit owner to validate status of circuit.
-2. Check Authorizations. <br>Ask the circuit owner to check status of authorization.
+1. Check status of circuit, or ask the circuit owner to validate status of circuit
+2. Ask the circuit owner to check status of authorizations
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
+* [ExpressRoute Documentation](https://docs.azure.cn/expressroute/)
