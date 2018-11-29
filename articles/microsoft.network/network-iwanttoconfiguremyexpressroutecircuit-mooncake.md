@@ -23,7 +23,7 @@ To resolve most common issues, try one or more of the following:
 2. Review [ExpressRoute workflows for circuit provisioning and circuit states](https://docs.azure.cn/expressroute/expressroute-workflows/)
 3. [Check if your circuit is in the correct provisioning state](https://docs.azure.cn/expressroute/expressroute-workflows#expressroute-circuit-provisioning-states)
 4. Check with your connectivity provider if they have completed configuration
-5. Check [routing configuration requirements]https://docs.azure.cn/zh-cn/expressroute/expressroute-routing to ensure the prerequisites are met
+5. Check [routing configuration requirements](https://docs.azure.cn/zh-cn/expressroute/expressroute-routing) to ensure the prerequisites are met
 
 ## **Recommended Documents**
 
