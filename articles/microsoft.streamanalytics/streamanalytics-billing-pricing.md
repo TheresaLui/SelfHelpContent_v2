@@ -7,7 +7,7 @@
 	authors="sidramadoss"
 	articleId="streamanalytics-billing-pricing"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32628958"
 	resourceTags=""
 	productPesIds="15663"​
