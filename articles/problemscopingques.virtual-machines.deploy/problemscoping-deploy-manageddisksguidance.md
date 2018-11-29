@@ -74,6 +74,12 @@
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the time of the attempted snapshot?",
                   "required": true
+                  },{
+                  "id": "problem_description",
+                  "order": 6,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "Description",
+                  "required": true
                   }
                   ]
 }
