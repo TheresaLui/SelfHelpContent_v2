@@ -49,6 +49,12 @@
                   "hints": [{
                     "text": "Copy and paste the specific error from the activity log."
                     }]
+                  },{
+                  "id": "problem_description",
+                  "order": 4,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "Description",
+                  "required": true
                   }
                   ]
 }
