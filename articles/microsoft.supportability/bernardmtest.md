@@ -2,8 +2,8 @@
 	articleId="bernardmtest"
 	pageTitle="bernardmtest"
 	description="bernardmtest"
-	authors="Bernardo"AMunoz
-	authoralias="bernardm"
+	authors="BernardoAMunoz"
+	authorAlias="bernardm"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="150781111"
 	productPesIds="15078"
