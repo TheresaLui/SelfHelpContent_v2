@@ -46,6 +46,12 @@
                           }
                           ],
                             "required": false
+                  },{
+                  "id": "problem_description",
+                  "order": 4,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "Description",
+                  "required": true
                   }
                   ]
 }
