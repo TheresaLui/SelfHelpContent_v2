@@ -5,6 +5,7 @@
 	service=""
 	resource=""
 	authors=""
+	authoralias=""
 	articleId=""
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="health"
