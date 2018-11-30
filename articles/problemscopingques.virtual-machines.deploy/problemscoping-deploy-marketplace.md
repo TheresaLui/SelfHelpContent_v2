@@ -1,8 +1,8 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
-                authorAlias="summertgu"
+                authors="summertgu"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628274"
                 productPesIds="14749"
@@ -23,8 +23,8 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What Marketplace image are you trying to deploy?",
                   "useAsAdditionalDetails": true,
-                  "required": false,
-                  },{
+                  "required": false
+                },{
                   "id": "is_publisher",
                   "order": 2,
                   "controlType": "dropdown",
@@ -39,21 +39,21 @@
                       }
                       ],
                   required": false
-                  },{
+                },{
                   "id": "correlation_id",
                   "order": 3,
                   "controlType": "textbox",
                   "displayLabel": "Correlation ID",
                   "useAsAdditionalDetails": false,
                   "required": false
-                  },{
+                },{
                   "id": "problem_description",
                   "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
-                  }
-                  ]
+                }
+                ]
 }
 ---
