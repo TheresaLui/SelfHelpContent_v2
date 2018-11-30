@@ -42,9 +42,6 @@
                   "displayLabel": "What is the error you received?",
                   "required": false,
                   "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Copy and paste the specific error from the activity log."
-                    }]
                   },{
                     "id": "deployment_operation",
                     "order": 3,
