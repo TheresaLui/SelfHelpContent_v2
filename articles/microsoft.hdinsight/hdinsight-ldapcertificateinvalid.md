@@ -23,13 +23,13 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 failed to deploy as the LDAP certificate is not configured correctly.
 <!--/issueDescription-->
 
-To secure the communication with active directory, configuration of secure LDAP is required for an Azure Active Directory Domain Services managed domain.
+To secure the communication with  Azure Active Directory, configuration of secure LDAP is required for an Azure Active Directory Domain Services managed domain.
 
 ## **Recommended Steps**
 
-Create a self-signed certificate for secure LDAP
+**Create a self-signed certificate for secure LDAP**
 
-1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands, to create a new self-signed certificate. 
+1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands, to create a new self-signed certificate
    
    $lifetime=Get-Date
    
@@ -38,7 +38,7 @@ Create a self-signed certificate for secure LDAP
    -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
    
    -Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName--> <br>
- 2. The newly created self-signed certificate is placed in the local machine's certificate store.
+ 2. The newly created self-signed certificate is placed in the local machine's certificate store
 
 ## **Recommended Documents**
 
