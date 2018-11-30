@@ -16,14 +16,13 @@
 
 # Account Lockout
 
-* Configure an [ADFS extranet lockout or an extranet smart lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection).<br>
+* Configure an [ADFS extranet lockout or an extranet smart lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)
 
-* Protect against [password sprays or for urgent handling if under attack](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection).<br>
+* Protect against [password sprays or for urgent handling if under attack](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)
 
-* For general help and troubleshooting tools, see [ADFS Help](https://adfshelp.microsoft.com/).<br>
+* For general help and troubleshooting tools, see [ADFS Help](https://adfshelp.microsoft.com/)
 
 ## **Recommended Documents**
-
 
 - [AD FS Extranet Smart Lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)<br>
 - [Password Spray Protection](https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/ad-fs-password-protection)<br>
