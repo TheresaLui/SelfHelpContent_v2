@@ -13,8 +13,9 @@
     authorAlias="billmath"
 />
 
-
 # Account Lockout
+
+To resolve or prevent account lockouts, we recommend the following steps:
 
 * Configure an [ADFS extranet lockout or an extranet smart lockout](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection)
 
