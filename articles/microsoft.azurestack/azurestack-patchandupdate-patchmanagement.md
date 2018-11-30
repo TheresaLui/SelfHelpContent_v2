@@ -7,7 +7,7 @@
     authorAlias="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32567910, 32567944, 32629180, 32629240"
+    supportTopicIds="32629180, 32629240"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
@@ -27,7 +27,7 @@ Customers with Azure Stack environments connected to the internet will automatic
 2. Perform a pre-check on the health of your environment by running Test-AzureStack according to the steps under [Plan for Updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#plan-for-updates).<br>
 3. Resolve any operational issues found in Test-AzureStack output, including all warnings and failures. Also review active alerts and resolve any that require action.<br>
 
-### **If you are monitoring an on-going update:**
+### **If you are monitoring an ongoing update:**
 
 Check the status of the update using the steps to [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets)<br>
 
