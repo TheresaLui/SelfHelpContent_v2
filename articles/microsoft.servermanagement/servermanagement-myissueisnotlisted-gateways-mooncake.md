@@ -4,6 +4,7 @@
     service="microsoft.servermanagement"
     resource="gateways"
     authors="daniellee-msft"
+    authoralias="jol"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
@@ -14,7 +15,7 @@
 
 # My issue is not listed
 
-## **Recommended steps**
+## **Recommended Steps**
 
 You can get additional help by exploring the following channels:
 
