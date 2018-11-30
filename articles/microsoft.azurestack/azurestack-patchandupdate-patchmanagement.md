@@ -4,6 +4,7 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
+    authorAlias="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567910, 32567944, 32629180, 32629240"
