@@ -26,9 +26,9 @@ Check the answers already available in StackOverflow for [Microsoft Graph and Ou
 
 **Find out more about Outlook APIs in Microsoft Graph**
 
-* [Calendar API Overview](https://developer.microsoft.com/graph/docs/concepts/outlook-calendar-concept-overview)
-* [Mail API overview](https://developer.microsoft.com/graph/docs/concepts/outlook-mail-concept-overview) 
-* [Personal contacts API overview](https://developer.microsoft.com/graph/docs/concepts/outlook-contact-concept-overview) 
+* [Calendar API Overview](https://docs.microsoft.com/en-us/graph/outlook-calendar-concept-overview?view=graph-rest-1.0)
+* [Mail API overview](https://docs.microsoft.com/en-us/graph/outlook-mail-concept-overview?view=graph-rest-1.0) 
+* [Personal contacts API overview](https://docs.microsoft.com/en-us/graph/outlook-contacts-concept-overview?view=graph-rest-1.0) 
 
 * [Calendar API reference](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/calendar) 
 * [Mail API reference](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/mail_api_overview)
