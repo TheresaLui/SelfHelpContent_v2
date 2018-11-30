@@ -24,9 +24,6 @@
                   "displayLabel": "What is the size of the VM you are trying to deploy?",
                   "required": false,
                   "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Size of the virtual machine you are trying to deploy."
-                    }]
                   },{
                     "id": "deployment_isinavailabilitysetzone",
                     "order": 2,
