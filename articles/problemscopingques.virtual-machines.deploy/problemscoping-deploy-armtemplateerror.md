@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628255"
                 productPesIds="14749"
@@ -17,15 +17,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_end_date",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When was the last reported time of the problem?",
-            "required": true
-        },
-        {
             "id": "deployment_manageddisks",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Are you deploying with managed disks?",
             "watermarkText": "Choose an option",
@@ -45,12 +38,70 @@
             ],
             "required": false
         },{
+            "id": "deployment_method",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "How are you deploying your template?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "ARM",
+                    "text": "ARM"
+                },
+                {
+                    "value": "Powershell",
+                    "text": "Powershell"
+                },
+                {
+                    "value": "CLI",
+                    "text": "CLI"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ],
+            "required": false
+        },{
+            "id": "deployment_fromgithub",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Is your template from github?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },{
                   "id": "problem_description",
-                  "order": 3,
+                  "order": 4,
+                  "visibility": "deployment_fromgithub == Yes",
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "Link to template on github",
+                  "useAsAdditionalDetails": true,
+                  "required": true
+                  },{
+                  "id": "correlation_id",
+                  "order": 5,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "problem_description",
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
-          }
+                  }
     ]
 }
 ---
