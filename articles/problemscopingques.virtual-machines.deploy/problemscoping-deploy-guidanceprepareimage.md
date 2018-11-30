@@ -1,8 +1,8 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"                
-                authorAlias="summertgu"
+                authors="summertgu"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628272"
                 productPesIds="14749"
