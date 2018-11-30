@@ -5,6 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
+    authorAlias="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_Security_Questions_Enabled_For_Password_Reset"
     selfHelpType="diagnostics"
