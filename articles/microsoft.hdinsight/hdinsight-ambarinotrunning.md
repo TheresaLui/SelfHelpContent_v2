@@ -23,19 +23,19 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 Ambari server has to run on the **headnodehost** to display any metrics.
 <!--/issueDescription-->
 
-In an HDInsight cluster, the **headnodehost** is the default headnode on which ambari server is started. All Ambari agents in the cluster will send heartbeats to the **headnodehost**.
-Since the **headnodehost** is not running ambari server, it cannot display the corresponding metrics correctly.
+In an HDInsight cluster, the **headnodehost** is the default headnode on which Ambari server is started. All Ambari agents in the cluster will send heartbeats to the **headnodehost**.
+Since the **headnodehost** is not running Ambari server, it cannot display the corresponding metrics correctly.
 
 ## **Recommended Steps**
 
-1. Connect to Ambari service using Secure Shell (SSH).	
+1. You can connect to Ambari service using Secure Shell (SSH)
 
 	ssh \<clustername>\-ssh.azurehdinsight.net <br>		
-2. Open host file /etc/host on one of the headnodes using Vi.
+2. Run the following command to open host file /etc/host on one of the headnodes using Vi
 
 	vi /etc/hosts/	<br>
-3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node. <br>
-4. Start Ambari service on the **headnodehost**.
+3. Look up for the headnode which has **headnodehost** mentioned next to it to verify that this headnode is the active node <br>
+4. Run the following command to start Ambari service on the **headnodehost**
 
 	sudo ambari-server start <br>
 ## **Recommended Documents**
