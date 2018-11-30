@@ -2,7 +2,7 @@
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
                 authors="tiag"
-                authorAlias="tiag"
+                authorAlias="summertgu"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628271"
                 productPesIds="14749"
