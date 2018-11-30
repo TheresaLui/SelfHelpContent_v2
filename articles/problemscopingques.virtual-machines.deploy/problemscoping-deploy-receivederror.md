@@ -54,7 +54,7 @@
                     "dropdownOptions": [{
                       "value": "Create",
                       "text": "Create"
-                      }，{
+                      },{
                       "value": "Start",
                       "text": "Start"
                       },{
