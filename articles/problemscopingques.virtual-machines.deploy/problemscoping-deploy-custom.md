@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628262"
                 productPesIds="14749"
@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "Troubleshoot custom image deployment failures",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                },{
+                "formElements": [
+                {
                   "id": "deployment_os",
-                  "order": 2,
+                  "order": 1,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the distribution and version of OS?",
                   "required": false,
@@ -32,10 +27,18 @@
                     "text": "Distribution and version of the operating system."
                     }]
                   },{
+                  "id": "correlation_id",
+                  "order": 2,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
                   "id": "problem_description",
                   "order": 3,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
