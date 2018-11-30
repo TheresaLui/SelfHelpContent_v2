@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "I received an allocation failure",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                },{
+                "formElements": [
+                {
                     "id": "deployment_operation",
-                    "order": 2,
+                    "order": 1,
                     "controlType": "dropdown",
                     "displayLabel": "What is the operation you are trying to do?",
                     "watermarkText": "Choose an option",
@@ -47,7 +42,7 @@
                       "required": false
                   },{
                     "id": "deployment_scenario",
-                    "order": 3,
+                    "order": 2,
                     "controlType": "dropdown",
                     "displayLabel": "Which of the following describes your scenario?",
                     "watermarkText": "Choose an option",
@@ -68,7 +63,7 @@
                         "required": false
                   },{
                     "id": "deployment_isinavailabilitysetzone",
-                    "order": 4,
+                    "order": 3,
                     "controlType": "dropdown",
                     "displayLabel": "Are you deploying your VM in an availability set or zone?",
                     "watermarkText": "Choose an option",
@@ -82,12 +77,33 @@
                         ],
                         "required": false
                 },{
+                    "id": "deployment_operation",
+                    "order": 4,
+                    "controlType": "dropdown",
+                    "displayLabel": "What operation are you trying to do?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [{
+                      "value": "Create",
+                      "text": "Create"
+                      }，{
+                      "value": "Start",
+                      "text": "Start"
+                      },{
+                      "value": "Resize",
+                      "text": "Resize"
+                      },{
+                      "value": "Redeploy",
+                      "text": "Redeploy"
+                      },{
+                      "value": "I don't know",
+                      "text": "I don't know"
+                      },{
                   "id": "correlation_id",
                   "order": 5,
                   "controlType": "textbox",
                   "displayLabel": "Correlation ID",
                   "useAsAdditionalDetails": false,
-                  "required": fales
+                  "required": false
                   },{
                   "id": "problem_description",
                   "order": 6,
