@@ -18,12 +18,12 @@
 
 To resolve issues with domain federation, try the following steps:
 
-- For domain federation with AD Connect, use the [troubleshooting documentation](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)
+- For domain federation with AD Connect, review the [troubleshooting documentation](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-management)
 
 - For other domain federation issues, use powershell for the following:
     1. Connect to Microsoft Online Services with the credential variable set previously<br>
     `Connect-MsolService –Credential $cred`<br>
-    2. Set the MSOL ADFS Context server to the ADFS server
+    2. Set the MSOL ADFS Context server to the ADFS server<br>
     `Set-MsolADFSContext –Computer adfs_servername.domain_name.com`<br>
     3. Convert the domain to a federated domain
    ` Convert-MsolDomainToFederated –DomainName domain_name.com`<br>
