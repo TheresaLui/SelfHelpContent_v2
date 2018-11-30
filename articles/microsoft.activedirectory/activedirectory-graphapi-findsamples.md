@@ -4,6 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="PatAltimore"
+	authoralias="patricka"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596841"
@@ -12,19 +13,19 @@
 	cloudEnvironments="public"
 />
 
-# Microsoft Graph client libraries and samples
+# Microsoft Graph Client Libraries and Samples
 
-## **Recommended steps**
+## **Recommended Steps**
 
-You can check the answers already available in StackOverflow for [Microsoft Graph SDK](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+SDK+isanswered%3Ayes+views%3A50) and [Microsoft Graph samples](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+samples+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  *microsoft-graph*.
+Check the answers already available in StackOverflow for [Microsoft Graph SDK](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+SDK+isanswered%3Ayes+views%3A50) and [Microsoft Graph samples](https://stackoverflow.com/search?q=%5Bmicrosoft-graph%5D+samples+isanswered%3Ayes+views%3A50) or craft your own, more specific search query. If you can't find a solution to your problem, [ask a new question on StackOverflow](https://stackoverflow.com/questions/ask) and tag with  *microsoft-graph*.
 
-**Microsoft Graph Client Libraries (SDKs) and associated libraries**<br>
+**Microsoft Graph Client Libraries (SDKs) and Associated Libraries**
 
-[Microsoft Graph Code samples and SDKs](https://developer.microsoft.com/graph/code-samples-and-sdks) <br>
-[Microsoft Authentication Library](https://docs.microsoft.com/azure/active-directory/develop/reference-v2-libraries) <br>
+* [Microsoft Graph Code samples and SDKs](https://developer.microsoft.com/graph/code-samples-and-sdks)
+* [Microsoft Authentication Library](https://docs.microsoft.com/azure/active-directory/develop/reference-v2-libraries)
 
-**Microsoft Graph samples** <br>
+**Microsoft Graph Samples** 
 
-[Getting started building Microsoft Graph apps](https://developer.microsoft.com/graph/get-started) <br>
-[Microsoft Graph Code samples and SDKs](https://developer.microsoft.com/graph/code-samples-and-sdks) <br>
-[Microsoft Graph Explorer - Test Microsoft Graph APIs in your tenant or a demo tenant](https://developer.microsoft.com/graph/graph-explorer)
+* [Getting started building Microsoft Graph apps](https://developer.microsoft.com/graph/get-started) 
+* [Microsoft Graph Code samples and SDKs](https://developer.microsoft.com/graph/code-samples-and-sdks) 
+* [Microsoft Graph Explorer - Test Microsoft Graph APIs in your tenant or a demo tenant](https://developer.microsoft.com/graph/graph-explorer)
