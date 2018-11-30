@@ -18,22 +18,15 @@
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
-## Recommended steps
-
 <!--issueDescription-->
-Microsoft Intune has a dependency on specific Service Principals to function correctly. We allow the ability to disable these Intune SPN's in Azure Active Directory for customers that would like to do so.  We have detected that you are using Intune and that these SPN's are disabled which will prevent Intune from functioning correctly.  Please follow the steps below to enable the Intune SPN's.
+Microsoft Intune has a dependency on specific Service Principals (SPNs) to function correctly. We allow the ability to disable these Intune SPNs in Azure Active Directory for customers that would like to do so. We have detected that you are using Intune and that these SPNs are disabled, which will prevent Intune from functioning correctly. Please re-enable sign on for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**.
 <!--/issueDescription-->
 
-Please re-enable sign on for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**.
+## Recommended Steps
 
-To remediate this situation we advise:
-
-Step 1.  In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, and then choose Application type of All Applications and hit apply.
-
-Step 2.  Search for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**.
-
-Step 3.  Click the Application and then click Properties from the Management menu.
-
-Step 4.  Set the enabled for sign on value to YES and hit save.
-
-Step 5.  Navigate back to the Intune application in the Azure portal and confirm it's working as expected.
+1. In the [Azure portal](https://portal.azure.com/), choose Azure Active Directory > Enterprise Applications, then choose the Application type of "All Applications" and click apply
+2. Search for **<!--$IntuneAppNames-->[IntuneAppNames]<!--/$IntuneAppNames-->**
+3. Click the application, then click "Properties" from the Management menu
+4. Set the "enabled for sign on" value to YES
+5. Click Save
+6. Return to the Intune application in the Azure portal and confirm it's working as expected
