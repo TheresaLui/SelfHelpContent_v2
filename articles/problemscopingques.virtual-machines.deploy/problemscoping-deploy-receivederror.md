@@ -80,7 +80,13 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
-                  }
-                  ]
+                  },{
+                  "id": "problem_start_time",
+                  "order": 6,
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When did the problem start?",
+                  "required": true
+                }
+                ]
 }
 ---
