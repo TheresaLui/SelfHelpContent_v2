@@ -4,6 +4,7 @@
     service="microsoft.servermanagement"
     resource="nodes"
     authors="daniellee-msft"
+    authoralias="jol"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,9 +15,9 @@
 
 # I can’t connect to a server
 
-## **Recommended steps**
+## **Recommended Steps**
 
-To resolve common issues, try one or more of the following methods.
+To resolve common issues, try one or more of the following:
 
 * Is the gateway’s health status displayed as “OK”?
 
