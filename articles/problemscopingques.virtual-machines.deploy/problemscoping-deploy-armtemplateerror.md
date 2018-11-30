@@ -80,7 +80,7 @@
             ],
             "required": false
         },{
-                  "id": "problem_description",
+                  "id": "github_link",
                   "order": 4,
                   "visibility": "deployment_fromgithub == Yes",
                   "controlType": "multilinetextbox",
