@@ -70,6 +70,7 @@
                   "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
