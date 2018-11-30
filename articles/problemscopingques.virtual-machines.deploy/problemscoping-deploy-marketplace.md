@@ -2,7 +2,7 @@
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
                 authors="tiag"
-                authorAlias="tiag"
+                authorAlias="summertgu"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628274"
                 productPesIds="14749"
@@ -14,31 +14,31 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Troubleshoot marketplace image deployment failures",
+                "title": "Troubleshoot Marketplace image deployment failures",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
                   "id": "deployment_marketplaceimage",
                   "order": 1,
                   "controlType": "multilinetextbox",
-                  "displayLabel": "What Marketplace image are you trying to deploy? ",
-                  "required": false,
+                  "displayLabel": "What Marketplace image are you trying to deploy?",
                   "useAsAdditionalDetails": true,
+                  "required": false,
                   },{
-                        "id": "is_publisher",
-                        "order": 2,
-                        "controlType": "dropdown",
-                        "displayLabel": "Are you a publisher of this image?",
-                        "watermarkText": "Choose an option",
-                        "dropdownOptions": [{
-                          "value": "Yes",
-                          "text": "Yes"
-                          },{
-                            "value": "No",
-                            "text": "No"
-                          }
-                          ],
-                          required": false
+                  "id": "is_publisher",
+                  "order": 2,
+                  "controlType": "dropdown",
+                  "displayLabel": "Are you a publisher of this image?",
+                  "watermarkText": "Choose an option",
+                  "dropdownOptions": [{
+                      "value": "Yes",
+                      "text": "Yes"
+                      },{
+                      "value": "No",
+                      "text": "No"
+                      }
+                      ],
+                  required": false
                   },{
                   "id": "correlation_id",
                   "order": 3,
