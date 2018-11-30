@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "Troubleshoot marketplace image deployment failures",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                },{
+                "formElements": [
+                {
                   "id": "deployment_marketplaceimage",
-                  "order": 2,
+                  "order": 1,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What marketplace image are you trying to deploy? ",
                   "required": false,
@@ -33,7 +28,7 @@
                     }]
                   },{
                         "id": "is_publisher",
-                        "order": 3,
+                        "order": 2,
                         "controlType": "dropdown",
                         "displayLabel": "Are you a publisher of this image?",
                         "watermarkText": "Choose an option",
@@ -45,12 +40,20 @@
                             "text": "No"
                           }
                           ],
-                            "required": false
+                          required": false
+                  },{
+                  "id": "correlation_id",
+                  "order": 3,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
                   },{
                   "id": "problem_description",
                   "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
