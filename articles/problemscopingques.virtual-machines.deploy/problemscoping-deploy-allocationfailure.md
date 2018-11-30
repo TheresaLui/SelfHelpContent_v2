@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628252"
                 productPesIds="14749"
@@ -67,10 +67,10 @@
                         ],
                         "required": false
                   },{
-                    "id": "deployment_isinavailabilityset",
+                    "id": "deployment_isinavailabilitysetzone",
                     "order": 4,
                     "controlType": "dropdown",
-                    "displayLabel": "Are you deploying your VM in an availability set?",
+                    "displayLabel": "Are you deploying your VM in an availability set or zone?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [{
                       "value": "Yes",
@@ -82,8 +82,15 @@
                         ],
                         "required": false
                 },{
-                  "id": "problem_description",
+                  "id": "correlation_id",
                   "order": 5,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": fales
+                  },{
+                  "id": "problem_description",
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
