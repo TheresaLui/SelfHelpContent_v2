@@ -3,7 +3,7 @@
 	description="Where can I find samples to call Microsoft Graph, and information on any SDKs"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
-	authors="PatAltimore"
+	authors="dkershaw10"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596841"

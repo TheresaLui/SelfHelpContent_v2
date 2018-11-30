@@ -3,7 +3,7 @@
 	description="Microsoft Graph authentication token issues"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
-	authors="PatAltimore"
+	authors="dkershaw10"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32134055"
