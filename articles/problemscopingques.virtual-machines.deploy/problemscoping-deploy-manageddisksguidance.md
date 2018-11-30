@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "I need guidance deploying with managed disks",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                  },{
+                "formElements": [
+                {
                   "id": "deployment_item",
-                  "order": 2,
+                  "order": 1,
                   "controlType": "dropdown",
                   "displayLabel": "Which type of disk are you trying to create?",
                   "watermarkText": "Choose an option",
@@ -38,7 +33,7 @@
                       "required": false
                       },{
                         "id": "deployment_from",
-                        "order": 3,
+                        "order": 2,
                         "controlType": "dropdown",
                         "displayLabel": "What are you trying to create from?",
                         "watermarkText": "Choose an option",
@@ -58,24 +53,39 @@
                           ],
                             "required": false
                           },{
-                  "id": "problem_restore_date",
-                  "order": 4,
-                  "visibility": "deployment_from == Backup",
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the time of the attempted backup?",
-                  "required": true
-                  },{
                   "id": "problem_snapshot_date",
-                  "order": 5,
+                  "order": 3,
                   "visibility": "deployment_from == Snapshot",
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the time of the attempted snapshot?",
                   "required": true
                   },{
-                  "id": "problem_description",
+                  "id": "problem_caputre_date",
+                  "order": 4,
+                  "visibility": "deployment_from == Captured image",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the image capture?",
+                  "required": true
+                  },{
+                  "id": "problem_restore_date",
+                  "order": 5,
+                  "visibility": "deployment_from == Backup",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted backup?",
+                  "required": true
+                  },{
+                  "id": "correlation_id",
                   "order": 6,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "problem_description",
+                  "order": 7,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
