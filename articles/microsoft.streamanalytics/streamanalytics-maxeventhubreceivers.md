@@ -24,4 +24,4 @@ To learn more about how to address this issue, see the following documentation:
 
 ## **Recommended documents**
 
-[Add a consumer group in Event Hubs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#job-exceeds-maximum-event-hub-receivers)<br>
+[Job exceeds maximum event hub receivers](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#job-exceeds-maximum-event-hub-receivers)<br>
