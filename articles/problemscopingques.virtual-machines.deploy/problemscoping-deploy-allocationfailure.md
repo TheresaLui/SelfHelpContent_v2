@@ -22,20 +22,29 @@
                   "displayLabel": "When was the last reported time of the problem?",
                   "required": true
                 },{
-                    "id": "create_or_resize",
+                    "id": "deployment_operation",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Are you trying to create or resize the VM?",
+                    "displayLabel": "What is the operation you are trying to do?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [{
                       "value": "Create",
                       "text": "Create"
+                      }，{
+                      "value": "Start",
+                      "text": "Start"
                       },{
-                        "value": "Resize",
-                        "text": "Resize"
-                        }
-                        ],
-                        "required": false
+                      "value": "Resize",
+                      "text": "Resize"
+                      },{
+                      "value": "Redeploy",
+                      "text": "Redeploy"
+                      },{
+                      "value": "I don't know",
+                      "text": "I don't know"
+                      }
+                      ],
+                      "required": false
                   },{
                     "id": "deployment_scenario",
                     "order": 3,
@@ -77,6 +86,7 @@
                   "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                 ]
