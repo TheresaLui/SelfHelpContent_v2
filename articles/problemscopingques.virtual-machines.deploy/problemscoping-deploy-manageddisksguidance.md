@@ -36,7 +36,7 @@
                         "id": "deployment_from",
                         "order": 2,
                         "controlType": "dropdown",
-                        "displayLabel": "What are you trying to create from?",
+                        "displayLabel": "What are you trying to create your VM from?",
                         "watermarkText": "Choose an option",
                         "dropdownOptions": [{
                           "value": "VHD file",
