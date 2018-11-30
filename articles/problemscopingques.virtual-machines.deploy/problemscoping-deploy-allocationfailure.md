@@ -20,7 +20,7 @@
                     "id": "deployment_operation",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "What is the operation you are trying to do?",
+                    "displayLabel": "What operation are you trying to do?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [{
                       "value": "Create",
@@ -77,36 +77,15 @@
                         ],
                         "required": false
                 },{
-                    "id": "deployment_operation",
-                    "order": 4,
-                    "controlType": "dropdown",
-                    "displayLabel": "What operation are you trying to do?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [{
-                      "value": "Create",
-                      "text": "Create"
-                      }，{
-                      "value": "Start",
-                      "text": "Start"
-                      },{
-                      "value": "Resize",
-                      "text": "Resize"
-                      },{
-                      "value": "Redeploy",
-                      "text": "Redeploy"
-                      },{
-                      "value": "I don't know",
-                      "text": "I don't know"
-                      },{
                   "id": "correlation_id",
-                  "order": 5,
+                  "order": 4,
                   "controlType": "textbox",
                   "displayLabel": "Correlation ID",
                   "useAsAdditionalDetails": false,
                   "required": false
                   },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
