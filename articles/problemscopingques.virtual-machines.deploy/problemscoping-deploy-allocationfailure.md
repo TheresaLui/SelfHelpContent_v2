@@ -35,8 +35,8 @@
                       "value": "Redeploy",
                       "text": "Redeploy"
                       },{
-                      "value": "I don't know",
-                      "text": "I don't know"
+                      "value": "I do not know",
+                      "text": "I do not know"
                       }
                       ],
                       "required": false
