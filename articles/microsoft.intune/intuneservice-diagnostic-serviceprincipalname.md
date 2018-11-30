@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Service Principal Name disabled"
 	description="Service Principal Name disabled"
-	infoBubbleText="The Intune Service Principal has been disabled.  Please review the steps on the right for how to re-enable."
+	infoBubbleText="The Intune Service Principal has been disabled. Please review and complete the steps on the right to re-enable."
 	service="microsoft.intune"
 	resource="intune"
 	authorAlias="jlynn"
