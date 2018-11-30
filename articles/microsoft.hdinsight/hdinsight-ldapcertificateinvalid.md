@@ -31,13 +31,13 @@ To secure the communication with  Azure Active Directory, configuration of secur
 
 1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands, to create a new self-signed certificate
    
-   $lifetime=Get-Date
+   **$lifetime=Get-Date**
    
-   New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName--> `
+   **New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName-->** `
    
-   -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
+   **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment**  `
    
-   -Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName--> <br>
+   __-Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName-->__ <br>
  2. The newly created self-signed certificate is placed in the local machine's certificate store
 
 ## **Recommended Documents**
