@@ -25,10 +25,10 @@ To resolve issues with domain federation, try the following steps:
     `Connect-MsolService –Credential $cred`<br>
     2. Set the MSOL ADFS Context server to the ADFS server<br>
     `Set-MsolADFSContext –Computer adfs_servername.domain_name.com`<br>
-    3. Convert the domain to a federated domain
+    3. Convert the domain to a federated domain<BR>
    ` Convert-MsolDomainToFederated –DomainName domain_name.com`<br>
     4. If it is successful, you will see `Successfully updated ‘domain_name.com‘ domain.`<br>
-    5. Verify federation
+    5. Verify federation<BR>
     `Get-MsolFederationProperty –DomainName domain_name.com`<br>
 
 - For new claims, use the [ADFS RPT Claims Tool](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)
