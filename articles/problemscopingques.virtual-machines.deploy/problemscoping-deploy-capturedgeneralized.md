@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628259"
                 productPesIds="14749"
@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "I am unable to deploy a captured or generalized image",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                    },{
+                "formElements": [
+                {
                         "id": "deployment_from",
-                        "order": 2,
+                        "order": 1,
                         "controlType": "dropdown",
                         "displayLabel": "What are you trying to create from?",
                         "watermarkText": "Choose an option",
@@ -43,22 +38,36 @@
                           ],
                             "required": false
                           },{
-                  "id": "problem_restore_date",
-                  "order": 3,
-                  "visibility": "deployment_from == Backup",
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the time of the attempted backup?",
-                  "required": true
-                  },{
                   "id": "problem_snapshot_date",
-                  "order": 4,
+                  "order": 2,
                   "visibility": "deployment_from == Snapshot",
                   "controlType": "datetimepicker",
                   "displayLabel": "When was the time of the attempted snapshot?",
                   "required": true
                   },{
-                  "id": "problem_description",
+                  "id": "problem_caputre_date",
+                  "order": 3,
+                  "visibility": "deployment_from == Captured image",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the image capture?",
+                  "required": true
+                  },{
+                  "id": "problem_restore_date",
+                  "order": 4,
+                  "visibility": "deployment_from == Backup",
+                  "controlType": "datetimepicker",
+                  "displayLabel": "When was the time of the attempted backup?",
+                  "required": true
+                  },{
+                  "id": "correlation_id",
                   "order": 5,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "problem_description",
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "required": true
