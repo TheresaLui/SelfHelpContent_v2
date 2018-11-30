@@ -16,11 +16,9 @@
 
 # Other Questions Related to AD FS
 
-
-
-- Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [ADFS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance.<br>
-- For help generating claims and verifying if they are correct, use our [RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) tool.<br>
-- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
+- Use the [Claims X-ray](https://adfshelp.microsoft.com/ClaimsXray/TokenRequest) service within  [ADFS Help](https://adfshelp.microsoft.com/) to debug and troubleshoot problems with claims issuance
+- For help generating claims and verifying if they are correct, use our [RPT Claim Rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) tool
+- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from
 
 
 ## **Recommended Documents**
