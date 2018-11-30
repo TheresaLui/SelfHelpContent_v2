@@ -3,7 +3,7 @@
     description="URL rewrite"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25"
+    authors="jtwalters25" authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614257"
