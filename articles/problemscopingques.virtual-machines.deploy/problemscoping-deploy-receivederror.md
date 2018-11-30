@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628279"
                 productPesIds="14749"
@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "I received a provisioning or deployment timeout error",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                },{
+                "formElements": [
+                {
                   "id": "deployment_imagetype",
-                  "order": 2,
+                  "order": 1,
                   "controlType": "dropdown",
                   "displayLabel": "Choose the type of image deployment",
                   "watermarkText": "Choose an option",
@@ -39,9 +34,9 @@
                       }
                       ],
                       "required": false
-                      },{
+                  },{
                   "id": "deployment_error",
-                  "order": 3,
+                  "order": 2,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the error you received?",
                   "required": false,
@@ -50,10 +45,42 @@
                     "text": "Copy and paste the specific error from the activity log."
                     }]
                   },{
-                  "id": "problem_description",
+                    "id": "deployment_operation",
+                    "order": 3,
+                    "controlType": "dropdown",
+                    "displayLabel": "What operation are you trying to do?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [{
+                      "value": "Create",
+                      "text": "Create"
+                      }，{
+                      "value": "Start",
+                      "text": "Start"
+                      },{
+                      "value": "Resize",
+                      "text": "Resize"
+                      },{
+                      "value": "Redeploy",
+                      "text": "Redeploy"
+                      },{
+                      "value": "I do not know",
+                      "text": "I do not know"
+                      }
+                      ],
+                      "required": false
+                  },{
+                  "id": "correlation_id",
                   "order": 4,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "problem_description",
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
