@@ -23,9 +23,6 @@
                   "displayLabel": "What is the distribution and version of OS?",
                   "required": false,
                   "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Distribution and version of the operating system."
-                    }]
                   },{
                   "id": "correlation_id",
                   "order": 2,
