@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
-                authors="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628263"
                 productPesIds="14749"
@@ -15,15 +15,10 @@
                 "resourceRequired": true,
                 "title": "My desired region or VM size is unavailable",
                 "fileAttachmentHint": "",
-                "formElements": [{
-                  "id": "problem_end_date",
-                  "order": 1,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When was the last reported time of the problem?",
-                  "required": true
-                },{
+                "formElements": [
+                {
                   "id": "deployment_size",
-                  "order": 2,
+                  "order": 1,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the size of the VM you are trying to deploy?",
                   "required": false,
@@ -32,10 +27,10 @@
                     "text": "Size of the virtual machine you are trying to deploy."
                     }]
                   },{
-                    "id": "deployment_isinavailabilityset",
-                    "order": 3,
+                    "id": "deployment_isinavailabilitysetzone",
+                    "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Are you deploying your VM in an availability set?",
+                    "displayLabel": "Are you deploying your VM in an availability set or zone?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [{
                       "value": "Yes",
@@ -47,10 +42,18 @@
                         ],
                         "required": false
                   },{
+                  "id": "correlation_id",
+                  "order": 3,
+                  "controlType": "textbox",
+                  "displayLabel": "Correlation ID",
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
                   "id": "problem_description",
                   "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
+                  "useAsAdditionalDetails": false,
                   "required": true
                   }
                   ]
