@@ -21,12 +21,9 @@
                   "id": "deployment_marketplaceimage",
                   "order": 1,
                   "controlType": "multilinetextbox",
-                  "displayLabel": "What marketplace image are you trying to deploy? ",
+                  "displayLabel": "What Marketplace image are you trying to deploy? ",
                   "required": false,
                   "useAsAdditionalDetails": true,
-                  "hints": [{
-                    "text": "Name of the marketplace image you are trying to deploy."
-                    }]
                   },{
                         "id": "is_publisher",
                         "order": 2,
