@@ -16,10 +16,10 @@
 />
 
 # Alerting
-The Azure portal both surfaces key performance metrics that can be used to monitor and allows you to troubleshoot your query and job performance. To learn more, see the following documentation:
+The Azure portal both surfaces key performance metrics that can be used to monitor and allows you to troubleshoot your query and job performance. To learn more, see the recommended documents.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Monitoring your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-monitoring)<br>
-[Setting up alerts for your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-set-up-alerts)
+* [Monitoring your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-monitoring)
+* [Setting up alerts for your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-set-up-alerts)
