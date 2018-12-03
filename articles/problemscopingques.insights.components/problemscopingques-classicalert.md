@@ -2,7 +2,7 @@
 	articleId="problemscopingques-classicalert"
 	pageTitle="Metrics Alert (Classic)"
 	description="Metrics Alert (Classic)"
-	authors="jamdavi"
+	authors="debugthings"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629552"
 	productPesIds="15693"
@@ -20,7 +20,7 @@
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
-			"watermarkText": "Choose an option",
+			"watermarkText": "Choose an alert",
             "dynamicDropdownOptions": {
 				"uri":"/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/alertRules?api-version=2016-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}"
                 "jTokenPath": "value",
@@ -38,6 +38,7 @@
 			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "What is the primary issue with this alert rule?",
+			"watermarkText": "What is the primary issue?",
 			"dropdownOptions": [
 				{
 					"value": "Automation: Issues with REST API or Azure command line interface (CLI)",

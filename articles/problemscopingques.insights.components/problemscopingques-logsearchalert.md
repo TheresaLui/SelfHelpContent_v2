@@ -2,7 +2,7 @@
 	articleId="problemscopingques-logsearchalert"
 	pageTitle="Log Search Alert"
 	description="Log Search Alert"
-	authors="jamdavi"
+	authors="debugthings"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613003"
 	productPesIds="15693"

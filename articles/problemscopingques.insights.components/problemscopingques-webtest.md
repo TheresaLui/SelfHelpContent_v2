@@ -2,7 +2,7 @@
 	articleId="problemscopingques-webtest"
 	pageTitle="Availability Test"
 	description="Availability Test"
-	authors="jamdavi"
+	authors="debugthings"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32422336"
 	productPesIds="15693"
