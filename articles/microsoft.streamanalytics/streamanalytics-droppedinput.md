@@ -15,12 +15,11 @@
 	authorAlias="sidram"
 />
 
-# Dropped inputs
-Azure Stream Analytics will drop any output event that results in a data conversion error. The dropped events cannot be recovered for reprocessing later. To learn more, see the following documentation:
+# Dropped Inputs
+Azure Stream Analytics will drop any output event that results in a data conversion error. The dropped events cannot be recovered for reprocessing later. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Monitor jobs using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-monitoring)<br>
-[Output error policy](https://docs.microsoft.com/azure/stream-analytics/output-error-policy)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Monitor jobs using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-monitoring)
+* [Output error policy](https://docs.microsoft.com/azure/stream-analytics/output-error-policy)
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
