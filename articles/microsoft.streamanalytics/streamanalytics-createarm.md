@@ -17,7 +17,7 @@
 
 # Create a Job with ARM
 
-Azure Stream Analytics jobs can be easily created using an Azure Resource Manager(ARM)  template. To learn more, see the recommended documents.
+Azure Stream Analytics jobs can be easily created using an Azure Resource Manager (ARM) template. To learn more, see the recommended documents.
 
 
 ## **Recommended Documents**
