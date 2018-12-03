@@ -15,15 +15,14 @@
 	authorAlias="sidram"
 />
 
-# Debug Job
-Azure Stream Analytics provides activity logs, diagnostics logs, job diagram and other metrics and tools to help debug your job. To learn more, see the following documentation:
+# Debug a Job
+Azure Stream Analytics provides activity logs, diagnostics logs, job diagrams, and other metrics and tools to help debug your job. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Troubleshoot input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input)<br>
-[Troubleshoot output](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output)<br>
-[Troubleshoot query logic](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-query)<br>
-[Troubleshoot using diagnostic logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs)<br>
-[Debug using job diagram](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Troubleshoot input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input)
+* [Troubleshoot output](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output)
+* [Troubleshoot query logic](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-query)
+* [Troubleshoot using diagnostic logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs)
+* [Debug using job diagram](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics)
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
