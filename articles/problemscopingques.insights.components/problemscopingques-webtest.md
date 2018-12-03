@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Metrics Alert (Classic)"
-	description="Metrics Alert (Classic)"
-	authors="debugthings"
+	articleId="problemscopingques-webtest"
+	pageTitle="Availability Test"
+	description="Availability Test"
+	authors="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32422336"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-webtest"
 />
 # Metrics Alert (Classic)
 ---

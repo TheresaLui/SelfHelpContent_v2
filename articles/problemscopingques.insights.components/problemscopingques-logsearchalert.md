@@ -1,13 +1,13 @@
 <properties
+	articleId="problemscopingques-logsearchalert"
 	pageTitle="Log Search Alert"
 	description="Log Search Alert"
-	authors="debugthings"
+	authors="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613003"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-logsearchalert"
 />
 # Metrics Alert (Classic)
 ---
