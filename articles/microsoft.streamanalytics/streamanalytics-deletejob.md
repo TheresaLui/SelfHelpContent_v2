@@ -15,11 +15,10 @@
 	authorAlias="sidram"
 />
 
-# Delete job 
-Deleting the Azure Stream Analytics job avoids billing the streaming units consumed by the job. You can delete an existing job from the portal or PowerShell. To learn more about how to delete your Azure Stream Analytics job, see the following documentation:
+# Delete Job 
+Deleting the Azure Stream Analytics job avoids billing the streaming units consumed by the job. You can delete an existing job from the portal or PowerShell. To learn more about how to delete your Azure Stream Analytics job, see the recommended documents:
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Delete a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#clean-up-resources)<br>
-[Delete a job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell#clean-up-resources)
+* [Delete a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#clean-up-resources)
+* [Delete a job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell#clean-up-resources)
