@@ -16,10 +16,9 @@
 />
 
 # Troubleshoot Metrics
-Azure Stream Analytics provides many metrics which can be used for monitoring and debugging. To learn more about troubleshooting using metrics, see the following documentation:
+Azure Stream Analytics provides many metrics that can be used for monitoring and debugging. To learn more about troubleshooting using metrics, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Debug using job diagram](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Debug using job diagram](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics)
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
