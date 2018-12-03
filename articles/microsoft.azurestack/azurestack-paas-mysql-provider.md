@@ -1,0 +1,32 @@
+<properties
+    pageTitle="Azure Stack MySQL resource provider"
+    description="Azure Stack MySQL deployment, update or operational issues"
+    service="microsoft.azurestack"
+    resource="azurestack"
+    authors="alexsmithMSFT"
+    authorAlias="alexsmit"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32629227,32629228"
+    resourceTags=""
+    productPesIds="16226"
+    cloudEnvironments="public"
+/>
+
+# Azure Stack MySQL resource provider
+
+Use the MySQL Server resource provider to expose MySQL databases as an Azure Stack service. The MySQL resource provider runs as a service on Windows Server virtual machines hosted on Azure Stack.
+
+## **Recommended steps**
+
+1. [Deploy the MySQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-deploy) on Azure Stack
+2. [Add hosting servers for the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-hosting-servers) so that users can create databases
+3. [Update the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-update) when updated resource providers are released
+
+## **Recommended documents**
+
+[Deploy the MySQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-deploy)
+
+[Add hosting servers for the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-hosting-servers)
+
+[Update the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-update)
