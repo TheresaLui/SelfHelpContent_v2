@@ -24,10 +24,9 @@ The hyper-converged configuration of Azure Stack allows for the sharing of physi
 ## **Recommended steps**
 
 1. Monitor the available storage and memory to ensure sufficient capacity is maintained
-2. [Manage storage capacity](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares) to prevent the storage shares from running out of capacity<br>
-    Options to manage capacity include:
-    - Reclaim capacity
-    - Migrate a container
+2. [Manage storage capacity](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares#manage-available-spaces) to prevent the storage shares from running out of capacity, including:
+    - Reclaim capacity from deleted VMs
+    - Migrate a container between volumes
 3. [Manage physical memory capacity](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-physical-memory-capacity) to ensure there is enough for tenant VM deployments<br>
 4. To increase the total available memory capacity for Azure Stack, you can add additional memory to as a scale unit node by working with your hardware vendor<br>
 **Note:** All scale nodes that are members of a single scale unit must have the same amount of memory.
