@@ -13,7 +13,7 @@
     cloudEnvironments="public"
 />
 
-# Azure Stack SQL resource provider
+# Azure Stack SQL Resource Provider
 
 Use the SQL Server resource provider adapter to offer SQL databases as a service of Azure Stack. After you install the resource provider and connect it to one or more SQL Server instances, you and your users can create:
 
@@ -21,14 +21,14 @@ Use the SQL Server resource provider adapter to offer SQL databases as a service
 - Websites that use SQL databases
 - Workloads that use SQL databases
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Deploy the SQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-deploy) on Azure Stack
 2. [Add hosting servers for the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-hosting-servers) so that users can create databases
 3. [Update the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-update) when new versions of the resource provider is released
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Deploy the SQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-deploy)<br>
-[Add hosting servers for the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-hosting-servers)<br>
-[Update the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-update)
+* [Deploy the SQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-deploy)
+* [Add hosting servers for the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-hosting-servers)
+* [Update the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-update)
