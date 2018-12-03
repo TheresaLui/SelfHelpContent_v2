@@ -15,12 +15,12 @@
 	authorAlias="sidram"
 />
 
-# Billing and Pricing 
-Azure Stream Analytics allows you to create a job using the portal, PowerShell and Visual Studio. To learn more about how to create your Azure Stream Analytics job, see the following documentation:
+# Create Stream Analytics Jobs
 
+Azure Stream Analytics allows you to create a job using the portal, PowerShell, and Visual Studio. To learn more about how to create your Azure Stream Analytics job, see the recommended documents.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Create a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal)<br>
-[Create a job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell)<br>
-[Create a job using Visual Studio](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs)
+* [Create a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal)
+* [Create a job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell)
+* [Create a job using Visual Studio](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs)
