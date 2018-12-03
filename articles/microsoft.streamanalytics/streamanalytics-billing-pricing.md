@@ -10,7 +10,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32628958"
 	resourceTags=""
-	productPesIds="15663"​
+	productPesIds="15663"
 	cloudEnvironments="public"
 	authorAlias="sidram"
 />
