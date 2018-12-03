@@ -15,11 +15,11 @@
 	authorAlias="sidram"
 />
 
-# Delayed output
-When a Stream Analytics job is started, the input events are read, but there can be a delay in the output being produced in certain circumstances. To learn more, see the following documentation:
+# Delayed Output
+When a Stream Analytics job is started, the input events are read, but there can be a delay in the output being produced in certain circumstances. To learn more, see the recommended documents:
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Job output is delayed](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output#job-output-is-delayed)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Job output is delayed](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output#job-output-is-delayed)
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
