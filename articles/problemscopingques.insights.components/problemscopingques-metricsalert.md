@@ -3,6 +3,7 @@
 	pageTitle="Metrics Alert"
 	description="Metrics Alert"
 	authors="debugthings"
+	authoralias="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613002"
 	productPesIds="15693"
@@ -22,7 +23,7 @@
 			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/metricAlerts?api-version=2018-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}",
+                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/metricAlerts?api-version=2018-03-01&%24filter=targetResource%20eq%20'%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}'",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
