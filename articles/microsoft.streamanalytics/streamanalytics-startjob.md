@@ -15,12 +15,11 @@
 	authorAlias="sidram"
 />
 
-# Start job
-You can start your Azure Stream Analytics job from the portal, PowerShell or Visual Studio. To learn more about how to start your Azure Stream Analytics job, see the following documentation:
+# Start a Job
+You can start your Azure Stream Analytics job from the portal, PowerShell, or Visual Studio. To learn more about how to start your Azure Stream Analytics job, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Starting job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#start-the-stream-analytics-job-and-check-the-output)<br>
-[Starting job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell#start-the-stream-analytics-job-and-check-the-output)<br>
-[Starting job using Visual Studio](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs#start-the-stream-analytics-job-and-check-output)
+* [Starting job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#start-the-stream-analytics-job-and-check-the-output)
+* [Starting job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell#start-the-stream-analytics-job-and-check-the-output)
+* [Starting job using Visual Studio](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs#start-the-stream-analytics-job-and-check-output)
