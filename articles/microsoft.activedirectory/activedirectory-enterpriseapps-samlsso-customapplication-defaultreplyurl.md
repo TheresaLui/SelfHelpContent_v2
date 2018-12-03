@@ -16,12 +16,14 @@
     articleId="enterpriseapps_samlsso_invalid_replyUrl"
     />
 
-# Saml request is being sent to reply url https://127.0.0.1:444/applications/default.aspx
+# SAML Request is being sent to Reply URL https://127.0.0.1:444/applications/default.aspx
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1.	Sign-in into Azure portal as a Global administrator or another role that is able to manage this application.
-2.	Navigate to Azure Active Directory, and click on App registrations
-3.	Select All Apps view and search for your application. Then, on the application page click on Settings.
-4.	On the menu, click on Reply URLs to view all the reply URLs configured for the application.
-5.	Delete the https://127.0.0.1:444 URL and save.
+1. Sign in to [Azure portal](https://portal.azure.com) as a Global administrator or any other role that is able to manage this application
+2. Navigate to Azure Active Directory and click on "App registrations"
+3. Change your view to "All Apps" and search for your application
+4. Click "Settings" on your application page
+5. In the menu, click on "Reply URLs" to view all the reply URLs configured for the application
+6. Locate the https://127.0.0.1:444 URL and delete it
+7. Click "Save"
