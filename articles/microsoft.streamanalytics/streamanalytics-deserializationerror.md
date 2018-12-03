@@ -15,11 +15,12 @@
 	authorAlias="sidram"
 />
 
-# Malformed input events causes deserialization errors
-Deserialization issues are caused when the input stream of your Stream Analytics job contains malformed messages. To learn how to address this issue, see the following documentation:
+# Malformed Input Event Causes Deserialization Errors
+
+Deserialization issues are caused when the input stream of your Stream Analytics job contains malformed messages.To address this issue, see the recommended documents.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Deserialization errors caused by malformed input events](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#malformed-input-events-causes-deserialization-errors)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Deserialization errors caused by malformed input events](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#malformed-input-events-causes-deserialization-errors)<br>
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
