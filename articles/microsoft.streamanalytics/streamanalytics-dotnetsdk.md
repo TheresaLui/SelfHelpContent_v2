@@ -16,9 +16,9 @@
 />
 
 # Automate with .NET SDK
-You can use .NET SDK to create and manage resources in Azure Stream Analytics. To learn more, see the following documentation:
+You can use .NET SDK to create and manage resources in Azure Stream Analytics. To learn more, see the recommended documents.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[.NET SDK for Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-dotnet-management-sdk)<br>
+* [.NET SDK for Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-dotnet-management-sdk)<br>
