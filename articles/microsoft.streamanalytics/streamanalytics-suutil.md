@@ -15,14 +15,13 @@
 	authorAlias="sidram"
 />
 
-# SU Util
-Streaming Units (SUs) represents the computing resources that are allocated to execute a job. The higher the number of SUs, the more CPU and memory resources are allocated for your job. This capacity lets you focus on the query logic and abstracts the need to manage the hardware to run your Stream Analytics job in a timely manner. To achieve low latency stream processing, Azure Stream Analytics jobs perform all processing in memory. When running out of memory, the streaming job fails. As a result, for a production job, it’s important to monitor a streaming job’s resource usage, and make sure there is enough resource allocated to keep the jobs running 24/7.
+# Streaming Units Utilities
+Streaming Units (SUs) represent the computing resources that are allocated to execute a job. The higher the number of SUs, the more CPU and memory resources are allocated for your job. This capacity allows you to focus on the query logic and removes the need to manage the hardware to run your Stream Analytics job. To achieve low latency stream processing, Azure Stream Analytics jobs perform all processing in memory. When it is out of memory, the streaming job will fail. As a result, for a production job it’s important to monitor a streaming job’s resource usage and ensure there are enough resources allocated to keep the jobs running 24/7.
 
-There are multiple factors that affect streaming unit utilization. To learn more, see the following documentation:
+There are multiple factors that affect streaming unit utilization. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Factors that increase SU% utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)<br>
-[Query parallelization to optimize SU % utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parallelization)<br>
-[Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Factors that increase SU% utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
+* [Query parallelization to optimize SU % utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parallelization)
+* [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
