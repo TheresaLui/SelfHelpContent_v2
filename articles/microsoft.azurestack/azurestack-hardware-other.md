@@ -20,9 +20,9 @@ In the administrator portal, you can easily view the status of a scale unit and 
 ## **Recommended steps**
 To view the status of a scale unit:<br>
 
-1. On the Region Management tile, select the region.
-2. On the left, under Infrastructure Resources, select Scale Units.
-3. In the results, select the Scale Unit.
+1. On the Region Management tile, select the region
+2. On the left, under Infrastructure Resources, select Scale Units
+3. In the results, select the Scale Unit
 
 See your vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system.
 
