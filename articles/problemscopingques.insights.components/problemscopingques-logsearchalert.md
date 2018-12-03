@@ -22,7 +22,7 @@
 			"displayLabel": "Please select the affected Log Search Alert resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/metricAlerts?api-version=2018-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/scheduledqueryrules?api-version=2018-04-16&%24filter=targetResourceUri%20eq%20'%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}'",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
