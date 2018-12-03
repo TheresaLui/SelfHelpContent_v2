@@ -16,9 +16,8 @@
 />
 
 # Automate with PowerShell
-You can use PowerShell Cmdlets to create and manage resources in Azure Stream Analytics. To learn more, see the following documentation:
+You can use PowerShell Cmdlets to create and manage resources in Azure Stream Analytics. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[PowerShell Cmdlets for Azure Stream Analytics](https://docs.microsoft.com/powershell/module/azurerm.streamanalytics/?view=azurermps-6.13.0&viewFallbackFrom=azurermps-6.11.0)<br>
+* [PowerShell Cmdlets for Azure Stream Analytics](https://docs.microsoft.com/powershell/module/azurerm.streamanalytics/?view=azurermps-6.13.0&viewFallbackFrom=azurermps-6.11.0)<br>
