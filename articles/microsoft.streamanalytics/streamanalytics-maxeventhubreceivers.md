@@ -19,9 +19,8 @@
 The Stream Analytics job exceeding maximum Event Hub Receivers is a common issue with Event Hub input connections. The error shown when the number of receivers exceeds the maximum is:
 `The streaming job failed: Stream Analytics job has validation errors: Job will exceed the maximum amount of Event Hub Receivers.`
 
-To learn more about how to address this issue, see the following documentation:
+To learn more about how to address this issue,  see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Job exceeds maximum event hub receivers](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#job-exceeds-maximum-event-hub-receivers)<br>
+* [Job exceeds maximum event hub receivers](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input#job-exceeds-maximum-event-hub-receivers)<br>
