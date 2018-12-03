@@ -15,7 +15,7 @@
 	authorAlias="sidram"
 />
 
-# Getting Started with ASA
+# Getting Started with Azure Stream Analytics
 Azure Stream Analytics (ASA) is an event-processing engine that allows you to examine high volumes of data incoming from devices, sensors, websites, social media feeds, applications, and more. It also supports extracting information from data streams, identifying patterns, and relationships. You can then use these patterns to trigger other actions downstream such as alerts, feed information to a reporting tool, or store it for later use.
 
 To learn more, see the recommended documents.
