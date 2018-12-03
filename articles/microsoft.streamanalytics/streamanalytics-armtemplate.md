@@ -16,9 +16,9 @@
 />
 
 # Automate with ARM
-You can use Azure Resource Manager (ARM) templates to create and manage resources in Azure Stream Analytics. To learn more, see the following documentation:
+You can use Azure Resource Manager (ARM) templates to create and manage resources in Azure Stream Analytics. To learn more, see the recommended documents.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[ARM template for Azure Stream Analytics](https://docs.microsoft.com/azure/templates/microsoft.streamanalytics/2016-03-01/streamingjobs)<br>
+* [ARM template for Azure Stream Analytics](https://docs.microsoft.com/azure/templates/microsoft.streamanalytics/2016-03-01/streamingjobs)
