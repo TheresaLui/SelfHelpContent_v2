@@ -18,7 +18,7 @@
 # Connectivity
 Under some circumstances, you might notice issues with input and output connections. To learn more about how to troubleshoot these issues, see the recommended documents.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Troubleshoot input connections](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-input)
 * [Troubleshoot output connections](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output)
