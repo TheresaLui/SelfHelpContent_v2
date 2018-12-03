@@ -26,14 +26,12 @@ An Azure Stack operator can sign in with an Azure Stack subscription, create a v
 
 ## **Recommended steps**
 
-1. To create a Key Vault or manage keys and secrets in the portal, refer to [manage Key Vault in Azure Stack by using the portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-portal)
-2. To enable tenant subscriptions for Key Vault operations, or to authorize an application to use a key or secret, refer to [manage Key Vault in Azure Stack using PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-powershell)
+1. To create a Key Vault or manage keys and secrets in the portal, refer to [manage Key Vault in Azure Stack by using the portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-portal)<br>
+2. To enable tenant subscriptions for Key Vault operations, or to authorize an application to use a key or secret, refer to [manage Key Vault in Azure Stack using PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-powershell)<br>
 3. Compare your usage to a [sample application that uses keys and secrets stored in a key vault](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-sample-app)
 
 ## **Recommended documents**
 
-[Manage Key Vault in Azure Stack by using the portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-portal)
-
-[Manage Key Vault in Azure Stack using PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-powershell)
-
+[Manage Key Vault in Azure Stack by using the portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-portal)<br>
+[Manage Key Vault in Azure Stack using PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-manage-powershell)<br>
 [Sample application that uses keys and secrets stored in a key vault](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-kv-sample-app)

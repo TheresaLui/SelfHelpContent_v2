@@ -15,11 +15,11 @@
 
 # Azure Stack App Service resource provider
 
-Azure App Service on Azure Stack is a platform-as-a-service (PaaS) offering of Microsoft Azure available to Azure Stack. The service enables your internal or external customers to create web, API, and Azure Functions applications for any platform or device. They can integrate your apps with on-premises applications and automate their business processes. Azure Stack cloud operators can run customer apps on fully managed virtual machines (VMs), with their choice of shared VM resources or dedicated VMs.
+Azure App Service on Azure Stack is a platform-as-a-service (PaaS) offering that enables your customers to create web, API, and Azure Functions applications for any platform or device. They can integrate your apps with on-premises applications and automate their business processes. Azure Stack cloud operators can run customer apps on fully managed virtual machines (VMs), with their choice of shared VM resources or dedicated VMs.
 
 ## **Recommended steps**
 
-1. To set up a production ready deployment, first perform [capacity planning for Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-capacity-planning)
+1. To set up a production ready deployment, first perform [capacity planning for Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-capacity-planning)<br>
 2. Complete the App Service resource provider deployment prerequisite steps
 3. Ensure you have the required [Azure Stack App Service certificates](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-before-you-get-started#get-certificates) required for deployment
 4. [Deploy the App Service resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-deploy) following instructions (optional offline steps are provided)
@@ -28,14 +28,9 @@ Azure App Service on Azure Stack is a platform-as-a-service (PaaS) offering of M
 
 ## **Recommended documents**
 
-[Capacity planning for Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-capacity-planning)
-
-[Before you get started with App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-before-you-get-started)
-
-[Deploy the App Service resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-deploy)
-
-[Deploy the App Service resource provider offline](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-deploy-offline)
-
-[Update Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update)
-
+[Capacity planning for Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-capacity-planning)<br>
+[Before you get started with App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-before-you-get-started)<br>
+[Deploy the App Service resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-deploy)<br>
+[Deploy the App Service resource provider offline](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-deploy-offline)<br>
+[Update Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update)<br>
 [Update Azure App Service offline](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update-offline)

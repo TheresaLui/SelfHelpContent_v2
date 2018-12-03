@@ -25,8 +25,6 @@ Use the MySQL Server resource provider to expose MySQL databases as an Azure Sta
 
 ## **Recommended documents**
 
-[Deploy the MySQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-deploy)
-
-[Add hosting servers for the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-hosting-servers)
-
+[Deploy the MySQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-deploy)<br>
+[Add hosting servers for the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-hosting-servers)<br>
 [Update the MySQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-mysql-resource-provider-update)
