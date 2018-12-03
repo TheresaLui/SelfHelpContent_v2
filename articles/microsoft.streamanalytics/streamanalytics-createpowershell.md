@@ -15,10 +15,9 @@
 	authorAlias="sidram"
 />
 
-# Create job using PowerShell
-Azure Stream Analytics job can be easily created using PowerShell. To learn more, see the following documentation:
+# Create Stream Analytics Jobs using PowerShell
+Azure Stream Analytics jobs can be easily created using PowerShell. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Create job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell)
+* [Create a job using PowerShell](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-powershell)
