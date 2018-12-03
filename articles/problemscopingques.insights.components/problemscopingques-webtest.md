@@ -3,11 +3,11 @@
 	description="Metrics Alert (Classic)"
 	authors="debugthings"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629552"
+	supportTopicIds="32422336"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-classicalert"
+	articleId="problemscopingques-webtest"
 />
 # Metrics Alert (Classic)
 ---
@@ -22,8 +22,8 @@
 			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-				"uri":"/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/alertRules?api-version=2016-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}"
-                "jTokenPath": "value",
+				"uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",
+                "jTokenPath": "properties",
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"

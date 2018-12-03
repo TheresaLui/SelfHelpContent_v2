@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Metrics Alert (Classic)"
-	description="Metrics Alert (Classic)"
+	pageTitle="Log Search Alert"
+	description="Log Search Alert"
 	authors="debugthings"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629552"
+	supportTopicIds="32613003"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-classicalert"
+	articleId="problemscopingques-logsearchalert"
 />
 # Metrics Alert (Classic)
 ---
@@ -19,10 +19,10 @@
 			"id": "classic_alert_id",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
+			"displayLabel": "Please select the affected Log Search Alert resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-				"uri":"/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/alertRules?api-version=2016-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}"
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/metricAlerts?api-version=2016-03-01&%24filter=targetResourceUri%20eq%20%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
