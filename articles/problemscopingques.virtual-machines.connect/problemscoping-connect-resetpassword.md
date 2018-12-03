@@ -1,7 +1,7 @@
 <properties
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
-                authors="tiag"
+                authors="summertgu"
                 authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615529"
