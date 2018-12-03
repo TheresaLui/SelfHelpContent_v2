@@ -23,7 +23,7 @@
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",
-                "jTokenPath": "properties",
+                "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
