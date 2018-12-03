@@ -15,10 +15,9 @@
 	authorAlias="sidram"
 />
 
-# Create job from portal
-Azure Stream Analytics job can be easily created from the portal. To learn more, see the following documentation:
+# Create a Stream Analytics Job from Azure Portal
+Azure Stream Analytics jobs can be easily created from Azure Portal. To learn more, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Create job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#create-a-stream-analytics-job)<br>
+* [Create a job using Azure portal](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-portal#create-a-stream-analytics-job)<br>
