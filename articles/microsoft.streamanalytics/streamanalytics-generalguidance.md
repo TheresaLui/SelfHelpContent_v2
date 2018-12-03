@@ -16,10 +16,9 @@
 />
 
 # General Guidelines
-For general guidelines on using Azure Stream Analytics, see the following documentation:
+For general guidelines on using Azure Stream Analytics, see the recommended documents.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Overview](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-introduction)<br>
-[Create and manage job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-manage-job)
+* [Stream Analytics Overview](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
+* [Create and manage jobs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-manage-job)
