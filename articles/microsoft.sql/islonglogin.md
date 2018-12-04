@@ -19,11 +19,11 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that logging to <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than usual time.
+We identified that logging to <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than the usual time.
 
-This typically means that logins are taking longer than 14 seconds. The most likely cause is either SQL server is having issues with performance or xdbhost is having issues in duplicating the socket to SQL, or both.
+This typically means that logins are taking longer than 14 seconds. The most likely cause is either SQL server is having issues with performance, xdbhost is having issues in duplicating the socket to SQL, or both.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
 * [Azure SQL Database Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
-* [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12)  discusses the port ranges for connections inside and outside of Azure due to the connection policy.   
+* [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12)  discusses the port ranges for connections inside and outside of Azure due to the connection policy   
