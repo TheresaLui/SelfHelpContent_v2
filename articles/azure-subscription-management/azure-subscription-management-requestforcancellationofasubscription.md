@@ -15,25 +15,23 @@
 
 # I need to cancel my subscription
 
-## **Recommended steps**
+## **Recommended Steps**
 
-The Account Admin can cancel a subscription in the portal
+The account administrator can cancel a subscription in the Azure portal using the following steps:
 
-1. Find out who's the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-
-2. Select the subscription from the [Subscriptions page](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in the [Azure portal](https://ms.portal.azure.com)<br>
-
+1. Log into the [Azure portal](https://portal.azure.com) as a global administrator 
+2. Select the subscription from the [Subscriptions page](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) in the [Azure portal](https://ms.portal.azure.com)
 3. Select the subscription that you want to cancel and click **Cancel subscription**
+4. Follow the prompts to finish the cancellation
 
-4. Follow the prompts and finish cancellation
+## **Recommended Documents**
 
-## **Recommended documents**
-
-* [Cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)<br>
-* [What happens after I cancel my subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)<br>
-* [Reactivate subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#reactivate-subscription)<br>
-* [Switch subscription](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
-* [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)<br>
-* [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)<br>
-* [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
-* [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)<br>
+* [Cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
+* [What happens after I cancel my subscription?](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)
+* [Reactivate subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#reactivate-subscription)
+* [Switch subscription](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+* [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
+* [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+* [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+* Locate the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
