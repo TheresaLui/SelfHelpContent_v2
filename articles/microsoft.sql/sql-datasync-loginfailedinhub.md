@@ -24,12 +24,14 @@ We were able to detect a login failure in the following Hub Database(s):<br>
 
 Please update the credentials for this hub(s).<br>
 
-Using the portal you can:<br>
-1. Navigate to the hub database<br>
-2. Select 'Sync to other databases'<br>
-3. Select the sync group<br>
-4. Click on 'Databases'<br>
-5. Select the Hub Database<br>
-6. Update the Username, Password and save<br>
-<br>
-Based on your goal you may retry the operation now or wait for it to be automatically triggered by Data Sync if applicable.​
+## **Recommended Steps**
+
+1. Navigate to the hub database
+2. Select "Sync to other databases"
+3. Select the sync group
+4. Click on "Databases"
+5. Select the Hub Database
+6. Update the username and password
+7. Click save
+
+You may now retry the operation now or wait for it to be automatically triggered by Data Sync if applicable.​
