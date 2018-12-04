@@ -8,9 +8,8 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="otherissuesorrequests"
+	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4369"
 />
-
 
 # OTHER ISSUES OR REQUESTS
 ---
@@ -49,14 +48,14 @@
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": [{
-					"text": "Reservation Order ID"
-				},
-				{
-					"text": "Reservation ID"
-				}
-				
-			]
+            "hints": [
+	    	{
+			"text": "Reservation Order ID"
+		},
+		{
+			"text": "Reservation ID"
+		}
+	  ]
         },
         {
             "id": "problem_start_time",
