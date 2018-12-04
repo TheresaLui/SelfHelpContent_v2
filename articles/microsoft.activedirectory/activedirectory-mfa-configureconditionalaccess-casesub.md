@@ -15,8 +15,8 @@
 
 # Configuring Conditional Access for MFA
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Require multi-factor authentication for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)<br>
-* [Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)<br>
+* [Require multi-factor authentication for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
+* [Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)
 * [Require MFA for access attempts from untrusted networks](https://docs.microsoft.com/azure/active-directory/conditional-access/untrusted-networks)
