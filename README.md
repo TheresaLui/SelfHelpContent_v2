@@ -2,6 +2,8 @@
 	pageTitle="Azure Self Help Content"
 	description="Azure Self Help Content"
 	service="Azure"
+	selfHelpType="Generic"
+	cloudEnvironments="Public"
 	authors="kasparks"
 	authorAlias="kasparks"
 />
