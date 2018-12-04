@@ -23,6 +23,6 @@
 
 ## **Recommended Documents**
 
-* [Programatic access to telemetry](https://msdn.microsoft.com/library/azure/dn458823.aspx)<br>
+* [Programmatic access to telemetry](https://msdn.microsoft.com/library/azure/dn458823.aspx)<br>
 * [Per Message Telemetry](https://msdn.microsoft.com/library/azure/mt608135.aspx)<br>
 * [Platform Notification System Feedback](https://msdn.microsoft.com/library/azure/mt705560.aspx)<br>

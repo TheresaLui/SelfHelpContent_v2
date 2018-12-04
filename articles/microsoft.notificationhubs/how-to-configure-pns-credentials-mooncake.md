@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 * Follow the [Using the Azure Notification Center to push notifications to iOS apps](https://docs.azure.cn/notification-hubs/notification-hubs-ios-apple-push-notification-apns-get-started) tutorial series
-* [Configure Push Notification Service credentials ](data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices)
+* [Configure Push Notification Service credentials](data-blade:Microsoft_Azure_NotificationHubs.NotificationHubServices)
 
 ## **Recommended Documents**
 
