@@ -1,6 +1,7 @@
 <properties pageTitle="User-initiated password reset" 
 	 description="Password Management/User-initiated password reset" 
 	 authors="sahenry" 
+	 authorAlias="sahenry"
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615416,32615432" 
 	 productPesIds="16579" 
@@ -80,7 +81,7 @@
       "hints": null,
       "required": false,
       "maxLength": 0,
-      "useAsAdditionalDetails": false,
+      "useAsAdditionalDetails": true,
       "numberOfLines": 3
     }
   ]

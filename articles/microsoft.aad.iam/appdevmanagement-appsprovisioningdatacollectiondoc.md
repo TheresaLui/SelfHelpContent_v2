@@ -1,7 +1,8 @@
 <properties
     pageTitle="Active Directory application provisioning issue"
     description="appsprovisioningdatacollectiondoc"
-    authors="anupnadigm"
+    authors="ashish-009"
+	authorAlias="asbh"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570260"
     productPesIds="16575"
@@ -121,7 +122,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "problem_description",
+            "id": "errorMessageAdditionalDetails",
             "visibility": null,
             "order": 7,
             "controlType": "multilinetextbox",
@@ -134,7 +135,7 @@
             "hints": null,
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "numberOfLines": 0
         },
         {
