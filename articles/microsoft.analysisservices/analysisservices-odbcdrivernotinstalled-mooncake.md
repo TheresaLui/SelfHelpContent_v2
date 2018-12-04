@@ -1,15 +1,15 @@
 <properties
-	pageTitle="'Driver' property doesn't correspond to an installed ODBC driver"
-	description="'Driver' property doesn't correspond to an installed ODBC driver"
-	service="microsoft.analysisservices"
-	resource="servers"
-	authors="bnmaa"
-	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="'Driver' property doesn't correspond to an installed ODBC driver"
+    description="'Driver' property doesn't correspond to an installed ODBC driver"
+    service="microsoft.analysisservices"
+    resource="servers"
+    authors="bnmaa"
+    displayOrder="2"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # 'Driver' property doesn't correspond to an installed ODBC driver
@@ -23,5 +23,5 @@
 
 ## **Recommended documents**
 
-[ODBC Data Source Administrator](https://docs.microsoft.com/sql/odbc/admin/odbc-data-source-administrator) <br />
-[Viewing ODBC Drivers](https://docs.microsoft.com/sql/odbc/admin/viewing-drivers)
+* [ODBC Data Source Administrator](https://docs.microsoft.com/sql/odbc/admin/odbc-data-source-administrator)
+* [Viewing ODBC Drivers](https://docs.microsoft.com/sql/odbc/admin/viewing-drivers)

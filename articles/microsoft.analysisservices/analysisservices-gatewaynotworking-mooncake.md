@@ -1,15 +1,15 @@
 <properties
-	pageTitle="On-premises data gateway is not working"
-	description="On-premises data gateway is not working"
-	service="microsoft.analysisservices"
-	resource="servers"
-	authors="bnmaa"
-	displayOrder="4"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="On-premises data gateway is not working"
+    description="On-premises data gateway is not working"
+    service="microsoft.analysisservices"
+    resource="servers"
+    authors="bnmaa"
+    displayOrder="4"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
 />
 
 # On-premises data gateway is not working

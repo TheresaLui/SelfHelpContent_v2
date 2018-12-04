@@ -1,16 +1,16 @@
 <properties
-        pageTitle="Processing of partition is sequential"
-        description="Processing of partition is sequential"
-        service="microsoft.analysisservices"
-        resource="servers"
-        authors="bnmaa"
-        resourceTags=""
-        selfHelpType="resource"
-        supportTopicIds=""
-        productPesIds=""
-        displayOrder="6"
-        cloudEnvironments="MoonCake"
-        issueNotListed="true"
+    pageTitle="Processing of partition is sequential"
+    description="Processing of partition is sequential"
+    service="microsoft.analysisservices"
+    resource="servers"
+    authors="bnmaa"
+    resourceTags=""
+    selfHelpType="resource"
+    supportTopicIds=""
+    productPesIds=""
+    displayOrder="6"
+    cloudEnvironments="MoonCake"
+    issueNotListed="true"
  />
 
 # Processing of partition is sequential
