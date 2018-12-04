@@ -80,7 +80,7 @@
       "hints": null,
       "required": false,
       "maxLength": 0,
-      "useAsAdditionalDetails": true,
+      "useAsAdditionalDetails": false,
       "numberOfLines": 3
     }
   ]
