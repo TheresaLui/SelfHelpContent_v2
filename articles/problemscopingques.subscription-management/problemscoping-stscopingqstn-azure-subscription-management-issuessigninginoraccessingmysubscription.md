@@ -24,11 +24,14 @@
             "required": true,
             "hints": [
                 {
-                    "text": "Issue description"
+                    "text": "Subscription ID"
                 },
                 {
-                    "text": "Email address used during sign-in"
-                }
+                    "text": "Email ID signing in/accessing the subscription"
+                },
+		{
+		 "text": "Error message/Screenshot of the error"
+		}
             ]
         },
         {
