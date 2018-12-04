@@ -15,7 +15,7 @@
 
 # Azure AD Password Protection
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Eliminate bad passwords in your organization](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)<br>
+* [Eliminate bad passwords in your organization](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)
 * [Enforce Azure AD password protection for Windows Server Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
