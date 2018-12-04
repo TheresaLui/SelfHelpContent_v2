@@ -1,4 +1,10 @@
-<properties></properties>
+<properties
+	pageTitle="Azure Self Help Content"
+	description="Azure Self Help Content"
+	service="Azure"
+	authors="kasparks"
+	authorAlias="kasparks"
+/>
 
 # Self Help Content
 
