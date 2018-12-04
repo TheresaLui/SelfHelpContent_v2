@@ -13,8 +13,8 @@
     cloudEnvironments="public"
  />
 
-# Enabling password hash synchronization
+# Enabling Password Hash Synchronization
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Enabling Password Hash sync authentication](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-getting-started-password-sync)
