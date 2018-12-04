@@ -34,4 +34,4 @@ Please update the credentials for this hub(s).<br>
 6. Update the username and password
 7. Click save
 
-You may now retry the operation now or wait for it to be automatically triggered by Data Sync if applicable.​
+You may now retry the operation, or wait for it to be automatically triggered by Data Sync (if applicable).
