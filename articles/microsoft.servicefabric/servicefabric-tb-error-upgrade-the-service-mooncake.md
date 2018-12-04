@@ -17,7 +17,7 @@
 ## **Recommended steps**
 
 1. Make sure Cluster is in healthy state by checking Service Fabric Explorer, and if there are any warnings/Error investigate and fix those first.
-2. Make sure version numbers updated in the service manifest file.
+2. Make sure version numbers are updated in the service manifest file.
 
 ## **Recommended documents**
 
