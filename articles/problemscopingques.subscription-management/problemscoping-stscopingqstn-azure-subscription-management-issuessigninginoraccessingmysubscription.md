@@ -1,7 +1,8 @@
 <properties
 	pageTitle="Scoping questions for Issues signing in or accessing my subscription"
 	description="Scoping questions for Subscription Management/Issues signing in or accessing my subscription"
-	authors="AlexKuriatnyk"
+	authorAlias="prdasneo"
+	authors="prdasneo"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454922"
 	productPesIds="15660"
