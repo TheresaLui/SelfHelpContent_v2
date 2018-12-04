@@ -19,7 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that logging to <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than the usual time.
+We identified that logging into <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than usual.
 
 This typically means that logins are taking longer than 14 seconds. The most likely cause is either SQL server is having issues with performance, xdbhost is having issues in duplicating the socket to SQL, or both.
 <!--/issueDescription-->
