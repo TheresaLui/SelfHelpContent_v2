@@ -57,7 +57,7 @@
             "visibility": null,
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which application is the problem related to?",
+            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
             "content": null,
             "watermarkText": "If the problem is with a specific application, enter its display name or object ID here. Or enter 'All apps' or 'Not applicable', if appropriate.",
             "infoBalloonText": null,

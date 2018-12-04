@@ -38,7 +38,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "What is the username of the user whose password the admin is trying to reset?",
+            "displayLabel": "Which user is experiencing this problem?",
             "content": null,
             "watermarkText": "For example 'joe@contoso.com'.",
             "infoBalloonText": null,

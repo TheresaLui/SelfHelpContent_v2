@@ -17,7 +17,7 @@
   "formElements": [
 	{
       "id": "correlationId",
-      "visibility": null,
+      "visibility": false,
       "order": 1,
       "controlType": "textbox",
       "displayLabel": "Correlation ID from Error message:",
