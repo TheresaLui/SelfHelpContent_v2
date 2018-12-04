@@ -22,7 +22,7 @@ We were able to detect a login failure in the following Hub Database(s):<br>
 **<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**
 <!--/issueDescription-->
 
-Please update the credentials for this hub(s).<br>
+Please update the credentials for the hub(s).<br>
 
 ## **Recommended Steps**
 
