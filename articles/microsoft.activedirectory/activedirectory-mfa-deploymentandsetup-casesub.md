@@ -15,9 +15,9 @@
 
 # Deployment and Setup
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings)<br>
-* [Manage user settings with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings)<br>
-* [Frequently asked questions about Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-faq)<br>
+* [Configure Azure Multi-Factor Authentication settings](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings)
+* [Manage user settings with Azure Multi-Factor Authentication in the cloud](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userdevicesettings)
+* [Frequently asked questions about Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-faq)
 * [What are authentication methods?](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods)
