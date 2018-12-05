@@ -5,6 +5,7 @@ infoBubbleText="Issues with your S2S VPN connection were detected. See details o
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="yushwang"
+authorAlias="yushwang"
 displayOrder="10"
 articleId="IkeTunnelClosedWithStatusInvalidPayloadReceived"
 diagnosticScenario="IkeTunnelClosedWithStatusInvalidPayloadReceived"
@@ -24,7 +25,7 @@ We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!-
 
 2. If there is no matching policy that works with your VPN device, or you need a specific algorithm or key strength due to compliance requirements, configure a custom policy on the connection as described in this [document](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)
 
-3. If the connectivity issue persists, consult the instruction manual of your VPN device to check the logs for more detailed information.
+3. If the connectivity issue persists, consult the instruction manual of your VPN device to check the logs for more detailed information
 
 ## Recommended documents
 
