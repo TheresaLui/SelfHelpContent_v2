@@ -40,7 +40,7 @@
       "visibility": null,
       "order": 5,
       "controlType": "multilinetextbox",
-      "displayLabel": "Please provide additional details",
+      "displayLabel": "Please provide the following:",
       "content": null,
       "watermarkText": null,
       "infoBalloonText": null,
