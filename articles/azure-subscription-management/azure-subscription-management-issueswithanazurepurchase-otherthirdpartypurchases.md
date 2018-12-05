@@ -13,9 +13,9 @@
 	cloudEnvironments="public"
 />
 
-# azure subscriptions
+# Azure Subscription Management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
