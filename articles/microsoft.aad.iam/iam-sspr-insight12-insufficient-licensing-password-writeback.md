@@ -18,6 +18,6 @@
 
 # Insufficient licensing for password writeback
  
- We have determined that your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> does not have the licensing needed for password writeback. Because <!--$UserId-->[UserId]<!--/$UserId--> is a hybrid user, password writeback must be enabled and licensing before they can change or reset their password.
+We have determined that your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> does not have the licensing needed for password writeback. <!--$UserId-->[UserId]<!--/$UserId--> is a hybrid user, therefore, password writeback must be enabled and licensing acquired before they can change or reset their password.
  
- Review the [password reset licensing requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-licensing) to determine which licenses you need.
+Review the [password reset licensing requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-licensing) to determine which licenses you need.
