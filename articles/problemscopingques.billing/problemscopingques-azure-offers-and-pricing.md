@@ -38,11 +38,11 @@
 			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide details about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Brief description of the issue."
+					"text": "Describe your problem, providing as much detail as possible."
 				}
 			]
 		}
