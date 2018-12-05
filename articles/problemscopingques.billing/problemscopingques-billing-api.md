@@ -39,13 +39,13 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Subscription ID"
 				}, {
-					"text": "Email ID accessing the data"
+					"text": "Email ID attempting to access the data"
 				}, {
 					"text": "Error message"
 				}
