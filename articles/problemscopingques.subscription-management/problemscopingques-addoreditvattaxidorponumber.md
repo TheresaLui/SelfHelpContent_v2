@@ -39,11 +39,11 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Please proivde the VAT, TAX ID, or PO Number"
+					"text": "Please enter your VAT, TAX ID, or PO Number"
 				}
 			]
 		}
