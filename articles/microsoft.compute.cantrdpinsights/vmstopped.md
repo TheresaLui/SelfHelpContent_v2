@@ -8,7 +8,7 @@
     authorAlias="tibasham"
     displayOrder=""
     articleId="VMStopped"
-    diagnosticScenario=""
+    diagnosticScenario="VM deallocated"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags="windows"
