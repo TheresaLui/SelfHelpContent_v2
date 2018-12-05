@@ -1,9 +1,10 @@
 <properties
 	pageTitle="I am getting heart beat alert emails"
 	description="I am getting heart beat alert emails"
-	service="Microsoft.DataBox"
+	ms.service="Microsoft.DataBox"
 	resource="databoxedgedevices"
 	authors="anbacker"
+	authoralias="anbacker"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -14,14 +15,14 @@
 
 # I am getting heart beat alert emails
 
-## **Recommended steps**
+## **Recommended Steps**
 
-If you are receiving heart beat alerts, this may be because your device has Internet connectivity issues.
+If you are receiving heart beat alerts, this may be because your device has Internet connectivity issues. Try the following steps to resolve the issue:
 
-* The Internet connectivity is broken. Check your internet connection. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
-* The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://aka.ms/dbe-device-local-mgmt)
-* If you've installed a device update. Your device could have rebooted due to an update. Wait a few minutes and try to reconnect.
+* The Internet connectivity is broken. Check your internet connection. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve any reported issues.
+* The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://aka.ms/dbe-device-local-mgmt).
+* Your device could have rebooted due to an update. Wait for a few minutes, then try to reconnect.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)
