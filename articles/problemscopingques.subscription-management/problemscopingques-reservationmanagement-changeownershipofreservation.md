@@ -12,7 +12,7 @@
 />
 
 
-# CHANGE OWNERSHIP OF RESERVATION
+# Change Ownership of Reservation
 ---
 {
     "resourceRequired": false,
@@ -47,7 +47,7 @@
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Please provide additional information about your issue:",
             "required": true,
             "hints": [{
 					"text": "Reservation Order ID"
