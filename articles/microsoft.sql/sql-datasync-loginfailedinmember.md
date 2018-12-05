@@ -26,7 +26,7 @@ Please update the credentials for the member(s).<br>
 
 ## **Recommended Steps**
 
-1. In [Azure Portal](https://portal.azure.com], navigate to the hub database
+1. In [Azure Portal](https://portal.azure.com), navigate to the hub database
 2. Select "Sync to other databases"
 3. Select the sync group
 4. Click on "Databases"
