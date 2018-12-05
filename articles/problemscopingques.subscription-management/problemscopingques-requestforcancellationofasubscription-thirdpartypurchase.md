@@ -11,7 +11,7 @@
 	schemaVersion="1"
 />
 
-# Thirdparty purchase
+# Third Party Purchase
 ---
 {
 	"resourceRequired": false,
@@ -29,7 +29,6 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-      "hints": [],
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
@@ -39,11 +38,11 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Name of the service"
+					"text": "Name of service"
 				}, {
 					"text": "Error message encountered while cancelling the subscription"
 				}, {
