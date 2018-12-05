@@ -5,6 +5,7 @@ infoBubbleText="Issues with your S2S VPN connection were detected. See details o
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="yushwang"
+authorAlias="yushwang"
 displayOrder="10"
 articleId="ReceivedNotifyMessageTrafficSelectorsUnacceptable"
 diagnosticScenario="ReceivedNotifyMessageTrafficSelectorsUnacceptable"
@@ -16,7 +17,7 @@ cloudEnvironments="Public"
 />
 # Microsoft Azure has detected an IPsec/IKE traffic selectors mismatch on your VPN connection
 <!--issueDescription-->
-We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because your on-premises VPN deivce rejected the traffic selectors proposed by your Azure VPN gateway. Azure VPN gateways by default use any-to-any (wildcard) traffic selectors in a route-based configuration; or you can enable ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, where Azure gateways will use the combinations of your virtual network prefixes and your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) as the traffic selectors.
+We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because your on-premises VPN device rejected the traffic selectors proposed by your Azure VPN gateway. Azure VPN gateways by default use any-to-any (wildcard) traffic selectors in a route-based configuration; or you can enable ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, where Azure gateways will use the combinations of your virtual network prefixes and your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) as the traffic selectors.
 
 ## Recommended steps
 
