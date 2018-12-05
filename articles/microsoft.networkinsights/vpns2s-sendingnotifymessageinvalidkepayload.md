@@ -5,6 +5,7 @@ infoBubbleText="Issues with your S2S VPN connection were detected. See details o
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="yushwang"
+authorAlias="yushwang"
 displayOrder="10"
 articleId="SendingNotifyMessageInvalidKEPayload"
 diagnosticScenario="SendingNotifyMessageInvalidKEPayload"
