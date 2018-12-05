@@ -11,7 +11,7 @@
 	schemaVersion="1"
 />
 
-# Azure subscriptions
+# Azure Subscription Cancellation
 ---
 {
 	"resourceRequired": false,
@@ -29,7 +29,6 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-      "hints": [],
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
@@ -39,7 +38,7 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
