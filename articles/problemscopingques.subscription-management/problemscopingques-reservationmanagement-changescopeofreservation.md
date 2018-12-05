@@ -12,7 +12,7 @@
 />
 
 
-# CHANGE SCOPE OF RESERVATION
+# Change Scope of Reservation
 ---
 {
     "resourceRequired": false,
@@ -47,10 +47,10 @@
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Please provide additional information about your issue",
             "required": true,
             "hints": [{
-					"text": "This can be Self served .For any other concern, please provide a brief description in the details section."
+					"text": "Please provide a brief description in the details section."
 				}
 			]
         },
