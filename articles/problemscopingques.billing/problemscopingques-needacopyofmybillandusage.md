@@ -39,13 +39,13 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Email ID used to download report"
 				}, {
-					"text": "Error message"
+					"text": "Error message (if applicable)"
 				}
 			]
 		}
