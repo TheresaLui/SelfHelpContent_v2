@@ -4,19 +4,19 @@
 	authors="prdasneo"
 	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32593227,32593228,32593229"
-	productPesIds="15659"
+	supportTopicIds="32593232"
+	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4353"
+	articleId="changescopeofreservation"
 />
 
 
-# RESERVATION MANAGEMENT
+# Change Scope of Reservation
 ---
 {
     "resourceRequired": false,
-    "title": "Reservation Management",
+    "title": "Change scope of reservation",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -47,16 +47,12 @@
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Please provide additional information about your issue",
             "required": true,
-            "hints": [
-                {
-                    "text": "Type of Reservation : SUSE Linux, SQL Database, Virtual Machines RI"
-                },
-                {
-                    "text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
-                }
-            ]
+            "hints": [{
+					"text": "Please provide a brief description in the details section."
+				}
+			]
         },
         {
             "id": "problem_start_time",
