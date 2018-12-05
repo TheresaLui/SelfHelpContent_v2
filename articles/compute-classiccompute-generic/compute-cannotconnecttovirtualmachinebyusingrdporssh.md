@@ -41,6 +41,6 @@
 * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset network interface for Azure Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface)
 
-## **Recommended service**
+## Recommended service
 
 * [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
