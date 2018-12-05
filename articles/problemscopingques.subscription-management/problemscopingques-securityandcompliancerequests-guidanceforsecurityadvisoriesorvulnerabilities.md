@@ -8,7 +8,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="guidanceforsecurityadvisoriesorvulnerabilities"
+	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4796"
 />
 
 
@@ -62,7 +62,7 @@
 									"valueProperty": "id",
 									"textPropertyRegex": "[^/]+$"
 								}
-						}	
+						}
 					]
 					
 }
