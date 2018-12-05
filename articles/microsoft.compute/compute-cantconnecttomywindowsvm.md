@@ -3,8 +3,8 @@
 	description="I can't connect to my Windows VM"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="ram-kakani"
-	authoralias="scotro"
+	authors="ram-kakani,timbasham"
+	authorAlias="scotro,tibasham,ramakk"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32511135,32615531,32615526"
@@ -15,9 +15,9 @@
 
 # I can't connect to my Windows VM
 
-4 out of 5 customers resolved their VM connectivity issue using the steps listed below.
+4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
-## **Recommended Steps**
+## **Recommended steps**
 
 1. Access [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify it is running. Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM by going to command prompt.<br>
 2. [Identify common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
@@ -32,6 +32,7 @@
 
 ## **Recommended Documents**
 
+* [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 * [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
 * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
 * [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)
