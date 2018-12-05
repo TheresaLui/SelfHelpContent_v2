@@ -1,9 +1,10 @@
 <properties
 	pageTitle="My device appears offline in the portal"
 	description="My device appears offline in the portal"
-	service="Microsoft.DataBox"
+	ms.service="Microsoft.DataBox"
 	resource="databoxedgedevices"
 	authors="anbacker"
+	authoralias="anbacker"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -14,14 +15,14 @@
 
 # My device appears offline in the portal
 
-## **Recommended steps**
+## **Recommended Steps**
 
-If your device is offline, this could be due to one of the following reasons:
+If your device is offline, it could be due to one of the following:
 
-* Your device time may be out of sync with the Internet time. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve the reported issues.
+* Your device time may be out of sync with the Internet time. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve any reported issues.
 * The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://aka.ms/dbe-device-local-mgmt)
 * Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your device](https://aka.ms/dbe-device-local-mgmt).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)
