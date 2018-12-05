@@ -3,7 +3,7 @@
               description="My configuration change impacted connectivity"
               service=""
               resource=""
-              authors="tiag"
+              authors="ScottAzure,timbasham"
               authorAlias="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
