@@ -19,3 +19,5 @@
 # User is blocked
  
  We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has been blocked from signing into the tenant. The password for this user cannot be changed or reset until their account is unblocked. 
+ 
+ To unblock this user, follow the instructions listed in [this article](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-unblock-user).
