@@ -12,7 +12,7 @@
 />
 
 
-# OTHER SECURITY AND COMPLIANCE REQUESTS
+# Other Security and Compliance Requests
 ---
 {
     "resourceRequired": false,
@@ -30,7 +30,6 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-      "hints": [],
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
@@ -40,7 +39,7 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
