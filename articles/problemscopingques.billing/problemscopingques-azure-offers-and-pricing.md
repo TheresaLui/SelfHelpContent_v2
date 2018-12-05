@@ -28,7 +28,6 @@
       "infoBalloonText": null,
       "dropdownOptions": null,
       "dynamicDropdownOptions": null,
-      "hints": [],
       "required": true,
       "maxLength": 0,
       "useAsAdditionalDetails": false,
