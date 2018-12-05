@@ -39,11 +39,11 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Error message if you have received any errors"
+					"text": "Error message (if applicable)"
 				}
 			]
 		}
