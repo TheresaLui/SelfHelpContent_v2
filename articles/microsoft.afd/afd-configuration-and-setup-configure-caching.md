@@ -14,7 +14,7 @@
 
 # Configure caching
 
-* This documets below describe the delivery of large files, file compression query string behavior and more.
+* This documents below describe the delivery of large files, file compression query string behavior and more.
 
 ## **Recommended documents**
 
