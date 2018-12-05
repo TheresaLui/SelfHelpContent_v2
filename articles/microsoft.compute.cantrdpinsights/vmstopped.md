@@ -23,4 +23,4 @@ We have detected that the Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmnam
 <!--/issueDescription-->
 
 ## Recommended steps
-Please [start](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceid;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) the Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->, so that we may run additional diagnostic tests.
+Please [start](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) the Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->, so that we may run additional diagnostic tests.
