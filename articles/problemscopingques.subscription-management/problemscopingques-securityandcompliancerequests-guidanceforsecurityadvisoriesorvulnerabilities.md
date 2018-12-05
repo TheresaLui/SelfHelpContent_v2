@@ -22,7 +22,7 @@
       {
       "id": "problem_start_time",
       "visibility": null,
-      "order": 2,
+      "order": 1,
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "content": null,
@@ -38,18 +38,33 @@
   },
   {
 			"id": "problem_description",
-			"order": 1,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "Subscription ID"
-				}, {
 					"text": "Azure Service impacted"
 				}
 			]
-		}
+		},
+{
+    "resourceRequired": true,
+    "title": "Guidance for security advisories or vulnerabilities",
+    "fileAttachmentHint": "",
+    "formElements": [{
+        "id": "subscription_id_determination",
+        "order": 2,
+        "controlType": "dropdown",
+        "displayLabel": "Please select the subscription id",
+        "watermarkText": "Choose an option",
+        "dynamicDropdownOptions": {
+            "uri": "/subscriptions?api-version=2014-04-01?",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": "[^/]+$"
+   }
 	]
 }
 ---
