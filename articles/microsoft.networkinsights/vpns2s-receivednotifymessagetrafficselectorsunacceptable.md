@@ -23,7 +23,7 @@ We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!-
 
 1. Verify if the traffic selectors configured on [your VPN device](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#devicetable) accept the wildcard (any-to-any) traffic selectors proposed by your Azure VPN gateway. Some VPN devices use "access lists" to define traffic selectors
 
-2. If your VPN device does **not** accept wildcard or any-to-any traffic selectors, enable the ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, and configure traffic selectors on your device with the combinations of your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) to your Azure virtual network address range
+2. If your VPN device does **not** accept wildcard (any-to-any) traffic selectors, enable the ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, and configure traffic selectors on your device with the combinations of your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) to your Azure virtual network address range
 
 ## Recommended documents
 
