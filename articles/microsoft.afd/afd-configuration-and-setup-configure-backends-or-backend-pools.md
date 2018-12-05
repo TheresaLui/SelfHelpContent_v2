@@ -3,7 +3,8 @@
     description="Configure backends or backend pools"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25"
+    authors="jtwalters25" 
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614240"
@@ -13,6 +14,8 @@
 />
 
 # Configure backends or backend pools
+
+* A backend pool in Front Door refers to the set of equivalent backends that can receive the same type of traffic for their application. In other words, it is a logical grouping of your application instances throughout the world that can receive the same traffic and can respond with the expected behavior.
 
 ## **Recommended documents**
 * This selection will explain the different terms in Front Door configuration, how to map your application deployment and concepts around the application backend such as [backends and backend pools](https://review.docs.microsoft.com/azure/frontdoor/front-door-backend-pool?branch=master)<br>

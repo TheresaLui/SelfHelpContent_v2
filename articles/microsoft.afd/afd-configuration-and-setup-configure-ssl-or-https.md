@@ -3,7 +3,7 @@
     description="Configure SSL or HTTPS "
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25"
+    authors="jtwalters25" authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614245"
@@ -13,6 +13,8 @@
 />
 
 # Configure SSL or HTTPS 
+
+* To enable the HTTPS protocol for securely delivering content on a Front Door custom domain, you must use an SSL certificate. You can choose to use a certificate that is managed by Azure Front Door Service or use your own certificate.
 
 ## **Recommended documents**
 * Tutorial and explanation on [how to configure HTTPS on a Front Door custom domain onboarded on Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https?tabs=option-1-default-enable-https-with-an-afd-managed-certificate)<br>

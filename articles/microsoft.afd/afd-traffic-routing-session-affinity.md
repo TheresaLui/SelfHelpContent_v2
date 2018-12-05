@@ -3,7 +3,8 @@
     description="Session Affinity"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25" 
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614256"
@@ -14,7 +15,7 @@
 
 # Session Affinity
 
-* You can configure session affinity for your frontend hosts or domains when you want that subsequent requests from a user are sent to the same backend as long as the user session is still active and the backend instance still reports healthy based on health probes.
+* You can configure session affinity for your front end hosts or domains when you want that subsequent requests from a user are sent to the same backend as long as the user session is still active and the backend instance still reports healthy based on health probes.
 
 ## **Recommended documents**
 * Here is more information on [session affinity and Front door routing methods.](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods)<br>

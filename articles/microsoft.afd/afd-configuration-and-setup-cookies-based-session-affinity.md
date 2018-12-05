@@ -3,7 +3,7 @@
     description="Cookies-based session affinity"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25"
+    authors="jtwalters25" authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614249"
@@ -14,7 +14,9 @@
 
 # Cookies-based session affinity
 
+* The cookie-based session affinity feature is useful when you want to keep a user session on the same application backend. 
+
 ## **Recommended documents**
-* Here is more information on [session affinity and Front door routing methods](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods#latency)<br>
-* Learn how to update a Front Door to enable  [session affinity for your frontend host](https://azure.microsoft.com/resources/templates/201-front-door-session-affinity/) thereby, sending subsequent traffic from the same user session to the same backend.<br>
+* Here is more information on [session affinity and Front door routing methods](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods#latency)<br>
+* Learn how to update a Front Door to enable  [session affinity for your Front End host](https://azure.microsoft.com/resources/templates/201-front-door-session-affinity/) thereby, sending subsequent traffic from the same user session to the same backend.<br>
 
