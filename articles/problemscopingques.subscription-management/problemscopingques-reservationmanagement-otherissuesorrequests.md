@@ -11,7 +11,7 @@
 	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4369"
 />
 
-# OTHER ISSUES OR REQUESTS
+# Other Issues or Requests
 ---
 {
     "resourceRequired": false,
@@ -46,7 +46,7 @@
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Please provide additional information about your issue",
             "required": true,
             "hints": [
 	    	{
