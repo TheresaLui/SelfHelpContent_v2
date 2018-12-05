@@ -1,9 +1,10 @@
 <properties
 	pageTitle="Data Box Gateway has turned off"
 	description="Data Box Gateway has turned off"
-	service="Microsoft.DataBox"
+	ms.service="Microsoft.DataBox"
 	resource="databoxedgedevices"
 	authors="anbacker"
+	authoralias="anbacker"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -14,20 +15,21 @@
 
 # Data Box Gateway has turned off
 
-## **Recommended steps**
+## **Recommended Steps**
 
-This could be due to one of the following reasons:
+This could be due to one of the following:
 
 1. The host on which the Data Box Gateway is provisioned has run out of disk space. If running Hyper-V, create additional space by doing the following:
 
-    1. Launch Hyper-V Manager. Go to **Tools** > **Server Manager** > **Hyper-V Manager**.
-    2. From the **Virtual Machines** list, identify the Data Box Gateway in a  `Paused-Critical` state.
-    3. Free up resources so that the Data Box Gateway can be booted. For example, you can free up the disk space on corresponding hard drives.
-    4. Right-click each Data Box Gateway, then click **Resume**. This returns the virtual machine to a running state.
+    1. Launch Hyper-V Manager
+    2. Go to **Tools** > **Server Manager** > **Hyper-V Manager**
+    3. From the **Virtual Machines** list, identify the Data Box Gateway in a  `Paused-Critical` state
+    4. Free up resources so that the Data Box Gateway can be booted (i.e. free up disk space on corresponding hard drives)
+    4. Right-click each Data Box Gateway, then click **Resume** to return the virtual machine to a running state
 
-2. If the Data Box Gateway has not run out of disk space, then try to turn it on.
+2. If the Data Box Gateway has not run out of disk space, ensure that it is running
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot your Azure Data Box Gateway issues](https://docs.microsoft.com/azure/databox-online/data-box-gateway-troubleshoot)
 * [Troubleshooting Hyper-V](https://technet.microsoft.com/library/cc742454.aspx)
