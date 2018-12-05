@@ -1,6 +1,6 @@
 <properties
-	pageTitle="ReEnable a Subscription"
-	description="ReEnable a Subscription"
+	pageTitle="Reenable a Subscription"
+	description="Reenable a Subscription"
 	articleId="reenableasubscription"
 	authorAlias="prdasneo"
 	authors="prdasneo"
@@ -11,11 +11,11 @@
 	schemaVersion="1"
 />
 
-# ReEnable a Subscription
+# Reenable a Subscription
 ---
 {
 	"resourceRequired": false,
-	"title": "ReEnable a Subscription",
+	"title": "Reenable a Subscription",
 	"fileAttachmentHint": "",
 	"formElements": [
       {
@@ -39,7 +39,7 @@
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
+			"displayLabel": "Please provide the following:",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
