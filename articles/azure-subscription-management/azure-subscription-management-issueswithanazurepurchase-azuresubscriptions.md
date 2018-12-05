@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure Subscriptions
+# Azure Subscription Management
 
 ## **Recommended Documents**
 
