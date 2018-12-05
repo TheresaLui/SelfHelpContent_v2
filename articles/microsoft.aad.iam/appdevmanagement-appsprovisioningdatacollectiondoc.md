@@ -122,7 +122,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "errorMessageAdditionalDetails",
+            "id": "problem_description",
             "visibility": null,
             "order": 7,
             "controlType": "multilinetextbox",
