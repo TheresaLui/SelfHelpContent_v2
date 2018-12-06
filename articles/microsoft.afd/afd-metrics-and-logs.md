@@ -3,7 +3,8 @@
     description="Metrics and Logs"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25"
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614234"
@@ -14,7 +15,8 @@
 
 # Metrics and Logs
 
-* Metrics are a feature for certain Azure resources where you can view performance counters in the portal. For Front Door, the following metrics are available:
+With Azure Front Door Service, you can monitor your key metrics to validate the Front Door configuration, along with usage, health, and performance of your Front Door.
 
-## **Recommended documents**
-* Listed here is ways that you can [monitor your key metrics](https://docs.microsoft.com/azure/frontdoor/front-door-diagnostics) to validate the Front Door configuration, along with usage, health, and performance or your Front Door.<br>
+## **Recommended Documents**
+
+* [Monitor key Front Door metrics](https://docs.microsoft.com/azure/frontdoor/front-door-diagnostics)
