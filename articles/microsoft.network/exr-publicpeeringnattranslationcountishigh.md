@@ -5,6 +5,8 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
+    diagnosticScenario=""
     displayOrder=""
     articleId="ExpressRouteNATTranslationCountIsTooHigh"
     selfHelpType="diagnostics"
@@ -13,15 +15,14 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# **ExpressRoute NAT Translation Count Is Too High**
+ 
+# **ExpressRoute NAT Translation Count is Too High**
 
 '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
 ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
 MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
 VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
-
-
  
-## **Recommended steps**
+## **Recommended Steps**
 
-Utilize the **Run Show Command** Jarvis Actions operation to run: **'sh ip nat statistics'** on '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'  to obtain NAT counters.
+* Use the **Run Show Command** Jarvis Actions operation to run: **'sh ip nat statistics'** on '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'  to obtain NAT counters
