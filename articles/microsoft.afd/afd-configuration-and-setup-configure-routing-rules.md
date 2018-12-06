@@ -15,10 +15,9 @@
 
 # Configure Routing Rules
 
-If there are no routing rules for an exact-match front end host with a catch-all route Path (/*), there will be no match to any routing rule.
+After establishing a connection and doing an SSL handshake, Front Door will determine which particular routing rule to match the incoming request to. If there are no routing rules for an exact match front end host with a catch-all route Path, there will be no match to any routing rule.
 
 ## **Recommended Documents**
 
-* Front Door route configuration and how [Front Door matches requests to a routing rule](https://review.docs.microsoft.com/azure/frontdoor/front-door-route-matching?branch=master)
-* Configuring  [Front Door to enable Azure managed application firewall ruleset](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)configures Front Door to enable Azure managed application firewall ruleset<br>
-
+* Front Door route configuration and how [Front Door matches requests to a routing rule](https://docs.microsoft.com/azure/frontdoor/front-door-route-matching)
+* Configuring [Front Door to enable Azure managed application firewall ruleset](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)
