@@ -13,10 +13,11 @@
     cloudEnvironments="public"
 />
 
-# URL rewrite
+# URL Rewrite
 
-* Azure Front Door Service supports URL rewrite by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.
+Azure Front Door Service supports URL rewrite by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.
 
-## **Recommended documents**
-* [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.<br>
+## **Recommended Documents**
+
+* [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) 
 
