@@ -19,4 +19,4 @@ Front Door supports different load balancing algorithms to better manage your ba
 
 ## **Recommended Documents**
 
-* [Front Door load-balancing with Azure's application delivery suite](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-lb-with-azure-app-delivery-suite) 
+* [Front Door load-balancing with Azure's application delivery suite](https://docs.microsoft.com/azure/frontdoor/front-door-lb-with-azure-app-delivery-suite) 
