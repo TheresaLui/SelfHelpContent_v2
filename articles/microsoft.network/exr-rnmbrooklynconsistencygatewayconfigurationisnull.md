@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="pareshmu"
     authoralias="pareshmu"
-    diagnosticScenario=""
+    diagnosticScenario="ExRRnmBrooklynConsistencyGatewayConfigurationIsNullInsight"
     displayOrder=""
     articleId="ExRRnmBrooklynConsistencyGatewayConfigurationIsNullInsight"
     selfHelpType="diagnostics"
@@ -27,3 +27,7 @@ VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
 ## **Recommended Steps**
 
 + Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
+
+
+## **Recommended Documents**
+* [Configure a virtual network gateway for ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-add-gateway-portal-resource-manager)
