@@ -3,7 +3,8 @@
     description="4xx and 5xx errors"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25" 
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614238"
@@ -14,8 +15,9 @@
 
 # 4xx and 5xx errors
 
-* You have created a Front Door but a request to the Frontend host is returning an HTTP 400 status code.
+Read the document linked below for steps on how to troubleshoot some of the common routing issues you may face for your Azure Front Door Service configuration.
 
-## **Recommended documents**
-* This article describes  [how to troubleshoot some of the common routing issues](https://docs.microsoft.com/azure/frontdoor/front-door-troubleshoot-routing) you may face for your Azure Front Door Service configuration<br>
+## **Recommended Documents**
+
+* [How to troubleshoot some common routing issues](https://docs.microsoft.com/azure/frontdoor/front-door-troubleshoot-routing)
 
