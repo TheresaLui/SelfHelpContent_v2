@@ -15,7 +15,7 @@
 
 # Configure SSL or HTTPS 
 
-To enable the HTTPS protocol for securely delivering content on a Front Door custom domain, you must use an SSL certificate. You can choose to use a certificate that is managed by Azure Front Door Service or use your own certificate.
+To enable the HTTPS protocol for securely delivering content on a Front Door custom domain, you must use an SSL certificate. You can choose to use a certificate that is managed by Azure Front Door Service, or import your own.
 
 ## **Recommended Documents**
 
