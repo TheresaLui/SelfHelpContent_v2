@@ -23,7 +23,8 @@ Default Route is advertised
 Review '**<!--$$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for further details. 
 
 * Customer advertising default routes causes all traffic from Azure to go back to customer on-premises
-* Ensure the traffic behavior of peering(s) for which the default route is advertised is not adversely affected by the route advertisement * If the route advertisement is causing undesirable traffic behavior, ask the customer to consider removing the route advertisement
+* Ensure the traffic behavior of peering(s) for which the default route is advertised is not adversely affected by the route advertisement
+* If the route advertisement is causing undesirable traffic behavior, ask the customer to consider removing the route advertisement
 
 ## **Recommended Document**
 [Advertising Default Routes](https://docs.microsoft.com/azure/expressroute/expressroute-routing#advertising-default-routes) <br>
