@@ -5,6 +5,8 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
+    diagnosticScenario=""
     displayOrder=""
     articleId="ExRRnmBrooklynConsistencyGatewayConfigurationIsNullInsight"
     selfHelpType="diagnostics"
@@ -13,15 +15,15 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# **ExpressRoute Gateway Configuration Is Null**
+ 
+# **ExpressRoute Gateway Configuration is Null**
 
 '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
 ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
 MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
 VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
 
-
  
-## **Recommended steps**
+## **Recommended Steps**
 
 + Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
