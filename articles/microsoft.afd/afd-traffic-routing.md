@@ -19,4 +19,4 @@ Azure Front Door Service supports various traffic-routing methods to determine h
 
 ## **Recommended Documents**
 
-* [Front Door Traffic Routing Methods](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods) 
+* [Front Door Traffic Routing Methods](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods) 
