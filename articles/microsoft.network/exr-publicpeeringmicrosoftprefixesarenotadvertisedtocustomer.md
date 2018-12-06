@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="pareshmu"
     authoralias="pareshmu"
-    diagnosticScenario=""
+    diagnosticScenario="ExRPublicPeeringMicrosoftPrefixesNotAdvertisedInsight"
     displayOrder=""
     articleId="ExRPublicPeeringMicrosoftPrefixesNotAdvertisedInsight"
     selfHelpType="diagnostics"
@@ -28,3 +28,7 @@
 + **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' is not configured to advertise Public peering prefixes to the customer
 + Check the health of the Public peering between both the MSEEs and the customer edge
 + Check to ensure the customer has configured appropriate route filters in Azure to allow the desired Public peering prefixes to flow to the customer edge
+
+
+## **Recommended Documents**
+* [ExpressRoute circuits and peering](https://docs.microsoft.com/azure/expressroute/expressroute-circuit-peerings)
