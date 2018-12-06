@@ -13,9 +13,10 @@
     cloudEnvironments="public"
 />
 
-# Latency or throughput performance
+# Latency or Throughput Performance
 
-* The latency-based routing ensures that requests are sent to the lowest latency backends acceptable within a sensitivity range. Basically, your user requests are sent to the "closest" set of backends with respect to network latency
+Latency-based routing ensures that requests are sent to the lowest latency backends acceptable within a sensitivity range. Your user requests are sent to the "closest" set of backends with respect to network latency.
 
-## **Recommended documents**
-* [Lowest latencies based on traffic-routing](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods#a-name--latencyalowest-latencies-based-traffic-routing)<br>
+## **Recommended Documents**
+
+* [Lowest latencies based on traffic-routing](https://docs.microsoft.com/azure/frontdoor/front-door-routing-methods#a-name--latencyalowest-latencies-based-traffic-routing)
