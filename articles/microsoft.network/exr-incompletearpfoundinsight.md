@@ -20,11 +20,11 @@ ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**'
 Incomplete ARP Entry found 
  
 ## **Recommended Steps**
-Review '**<!--$$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for details and follow the TSG.
+Review '**<!--$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for details and follow the TSG.
 
 In most cases, an Incomplete ARP is an issue with the service provider. Please contact your Service provider and let them know that you are experiencing an incomplete ARP issue with Microsoft Azure ExpressRoute.
 
-## **Recommended document**
+## **Recommended Document**
 
 * [Verify ARP between Microsoft and the service provider](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview#validate-arp-between-microsoft-and-the-service-provider) <br>
 
