@@ -15,7 +15,7 @@
 
 # Configure Caching
 
-* The documents below describe the delivery of large files, file compression query string behavior, and more.
+Azure Front Door Service can deliver large files without a cap on file size using a technique called "object chunking". When a large file is requested, Front Door retrieves smaller pieces of the file from the backend. After receiving a full or byte-range file request, a Front Door environment requests the file from the backend in chunks of 8 MB. The recommended documents listed below will provide instructions on configuring caching for your Front Door service.
 
 ## **Recommended Documents**
 
