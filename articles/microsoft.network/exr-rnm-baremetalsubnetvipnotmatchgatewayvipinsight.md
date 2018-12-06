@@ -5,6 +5,8 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
+    diagnosticScenario=""
     displayOrder=""
     articleId="ExRRnmBrooklynConsistencyBaremetalSubnetVipNotMatchGatewayVipInsight"
     selfHelpType="diagnostics"
@@ -13,11 +15,12 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
+ 
 # **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
 
 '**<!--$Message--> [Message] <!--/$Message-->**' <br />
  '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**' 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 + Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
