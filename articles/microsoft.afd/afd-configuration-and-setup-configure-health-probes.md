@@ -13,11 +13,14 @@
     cloudEnvironments="public"
 />
 
-# Configure health probes
+# Configure Health Probes
 
-* Front Door supports sending probes over either HTTP or HTTPS protocols. These probes are sent over the same TCP ports configured for routing client requests, and cannot be overridden.
+In order to determine the health of each backend, each Front Door environment periodically sends a synthetic HTTP/HTTPS request to your configured backends. Front Door then uses responses from these probes to determine the "best" backends to which it should route real client requests.
 
-## **Recommended documents**
-* Learn how to [control Health Probes](https://docs.microsoft.com/azure/frontdoor/front-door-health-probes)<br>
-* This article gives a brief explanation around [Azure Front Door's health probe](https://azure.microsoft.com/resources/templates/201-front-door-health-probes/) concept and the supported protocols. It also elaborates on the three-step process that Front Door uses across all algorithms to determine health.<br>
+Front Door supports sending probes over HTTP or HTTPS protocols. These probes are sent over the same TCP ports configured for routing client requests, and cannot be overridden.
+
+## **Recommended Documents**
+
+* [Control Health Probes](https://docs.microsoft.com/azure/frontdoor/front-door-health-probes)
+* A brief explanation of [Azure Front Door's health probe](https://azure.microsoft.com/resources/templates/201-front-door-health-probes/) concept and the supported protocols
 
