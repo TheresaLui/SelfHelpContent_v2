@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their VM virtual disk issue using the below steps.<br>
 
-**Need help wth attaching or detaching disks**<br>
+**Need help with attaching or detaching disks**<br>
 
 * Learn how to **attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/linux/attach-disk-portal#attach-a-new-disk) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/add-disk#attach-a-new-disk-to-a-vm)<br>
 * Learn how to **attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/linux/attach-disk-portal#attach-an-existing-disk) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/add-disk#attach-an-existing-disk)<br>
