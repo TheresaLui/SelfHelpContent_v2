@@ -57,9 +57,9 @@
 								{
 									"uri": "/subscriptions?api-version=2014-04-01?",
 									"jTokenPath": "value",
-									"textProperty": "name",
+									"textProperty": "subscriptionId",
 									"valueProperty": "id",
-									"textPropertyRegex": "[^/]+$"
+									"textPropertyRegex": ""
 								}
 						}
 					]
