@@ -7,6 +7,7 @@
     authors="pareshmu"
     authoralias="pareshmu"
     displayOrder=""
+    diagnosticScenario="ExRPrivateVrfCustomerPrefixesInGatewayAdjacencyTableInsight"
     articleId="ExRPrivateVrfCustomerPrefixesInGatewayAdjacencyTableInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
@@ -34,4 +35,4 @@
 + **Note:** Set customer expectations that downtime is expected during a Gateway Reset operation
 
 ## **Recommended Documents**
-[Verify ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
+* [Verify ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
