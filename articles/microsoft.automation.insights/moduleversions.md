@@ -23,7 +23,7 @@ We have detected that there are older versions of core Azure modules than what i
 
 ## Resolution
 
-In your Automation Account> click Modules> click Update Azure modules.
+In your "Automation Account"> click "Modules"> click "Update Azure modules"
 
 The update takes roughly 15 minutes to complete. Once it has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
 
