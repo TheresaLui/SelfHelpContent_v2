@@ -19,6 +19,6 @@ A backend pool in Front Door refers to the set of equivalent backends that can r
 
 ## **Recommended Documents**
 
-* [Backends and backend pools](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool)
+* [Backends and backend pools](https://docs.microsoft.com/azure/frontdoor/front-door-backend-pool)
 * Template for [a Front Door with multiple backends and backend pools](https://azure.microsoft.com/resources/templates/101-front-door-create-multiple-backends/)
 
