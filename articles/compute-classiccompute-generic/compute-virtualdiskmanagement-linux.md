@@ -40,7 +40,7 @@
 **Need help with Managed Disks or conversion from unmanaged**<br>
 
 * [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)<br>
-* [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/migrate-to-managed-disks)<br>
+* [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)<br>
 * [Plan for the conversion to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-for-the-conversion-to-managed-disks)<br>
 * [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)<br>
 * [FAQ for migrating to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/faq-for-disks#migrate-to-managed-disks)
