@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411841"
@@ -33,6 +34,8 @@
 
 **Issue with increasing the size or resize a disk attached to the VM (OS or data disk)**<br>
 
+* [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
+* [How to expand the OS drive of a virtual machine](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)
 * [Resize data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)<br>
 * [Expand the disk partition after expanding the virtual hard disk](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)<br>
 
@@ -41,11 +44,10 @@
 * [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview)<br>
 * [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)<br>
 * [Plan for the conversion to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/migrate-to-managed-disks#plan-for-the-conversion-to-managed-disks)<br>
-* [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/linux/convert-unmanaged-to-managed-disks)<br>
+* [Convert a VM from unmanaged disks to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks#plan-for-the-conversion-to-managed-disks)<br>
 * [FAQ for migrating to Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks#migrate-to-managed-disks)
 
 ## **Other Recommended Documents**
 
 * [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
-* [Learn how to resize a VM](https://docs.microsoft.com/azure/virtual-machines/windows/change-vm-size)<br>
 * [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)
