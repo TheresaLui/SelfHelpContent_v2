@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="pareshmu"
     authoralias="pareshmu"
-    diagnosticScenario=""
+    diagnosticScenario="ExpressRouteUnexpectedPrivateVRFTunnelCount"
     displayOrder=""
     articleId="ExpressRouteUnexpectedPrivateVRFTunnelCount"
     selfHelpType="diagnostics"
@@ -24,3 +24,6 @@ ExpressRoute circuit: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
 
 * Execute Jarvis Actions operation: 
 **Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
+
+## **Recommended Documents**
+* [Create and modify peering for an ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-routing-portal-resource-manager)
