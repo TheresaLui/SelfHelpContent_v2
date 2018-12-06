@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="pareshmu"
     authoralias="paresmhu"
-    diagnosticScenario=""
+    diagnosticScenario="ExpressRoutePublicPrivatePeeringDownInsight"
     displayOrder=""
     articleId="ExpressRoutePublicPrivatePeeringDownInsight"
     selfHelpType="diagnostics"
