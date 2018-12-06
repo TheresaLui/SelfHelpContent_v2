@@ -5,24 +5,26 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
     displayOrder=""
     articleId="ExpressRouteIncompleteArpFoundInsight"
     selfHelpType="diagnostics"
+    diagnosticScenario=""
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# **Incomplete ARP entry found**
+# **Incomplete ARP Entry Found**
 ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**' 
 Incomplete ARP Entry found 
  
-## **Recommended steps**
+## **Recommended Steps**
 Review '**<!--$$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for details and follow the TSG.
 
-Incomplete ARP in most cases is an issue with the service provider. Please contact your Service provider and let them know that you are experiencing an incomplete ARP issue with Microsoft Azure ExpressRoute.
-
+In most cases, an Incomplete ARP is an issue with the service provider. Please contact your Service provider and let them know that you are experiencing an incomplete ARP issue with Microsoft Azure ExpressRoute.
 
 ## **Recommended document**
-[Verify ARP between Microsoft and the service provider](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview#validate-arp-between-microsoft-and-the-service-provider) <br>
+
+* [Verify ARP between Microsoft and the service provider](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview#validate-arp-between-microsoft-and-the-service-provider) <br>
 
