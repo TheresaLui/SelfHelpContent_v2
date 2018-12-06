@@ -5,6 +5,7 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
     displayOrder=""
     articleId="ExRPrivateVrfCustomerPrefixesInGatewayAdjacencyTableInsight"
     selfHelpType="diagnostics"
@@ -13,8 +14,8 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
+ 
 # **Customer Prefixes Missing From VNet Gateway Adjacency Table**
-
 
 **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' 
 
@@ -25,12 +26,12 @@
 **VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**' 
 
 
-## **Recommended steps**
+## **Recommended Steps**
 
-+ Ensure BGP peering is up between customer edge and MSEEs and also between MSEEs and VNet Gateway.
-+ If all peerings are up, investigate route filtering on the MSEEs and the VNet Gateway and check if customer routes are dropped on MSEE due to ASN issues or some other reason.
-+ Consider a VNet Gateway reset using Jarvis Actions.
-+ **Note:** Set customer expectations that downtime is expected during a Gateway Reset operation.
++ Ensure BGP peering is up between customer edge and MSEE, and between MSEEs and VNet Gateway
++ If all peerings are up, investigate route filtering on the MSEEs and the VNet Gateway, and check if customer routes are dropped on MSEE due to ASN issues or some other reason
++ Consider a VNet Gateway reset using Jarvis Actions
++ **Note:** Set customer expectations that downtime is expected during a Gateway Reset operation
 
-## **Recommended Documentation**
-[Verify ExpressRoute Connectivity](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
+## **Recommended Documents**
+[Verify ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
