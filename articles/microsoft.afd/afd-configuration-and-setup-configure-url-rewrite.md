@@ -3,7 +3,8 @@
     description="Configure URL rewrite"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25" 
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614247"
@@ -12,10 +13,12 @@
     cloudEnvironments="public"
 />
 
-# Configure URL rewrite
+# Configure URL Rewrite
 
-* Azure Front Door Service supports URL rewrite by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.
+Azure Front Door Service supports URL rewrite, allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend. By default, if no custom forwarding path is provided, then Front Door will copy the incoming URL path to the URL used in the forwarded request. The Host header used in the forwarded request is as configured for the selected backend.
 
-## **Recommended documents**
-* [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) by allowing you to configure an optional custom forwarding path to use when constructing the request to forward to the backend.<br>
+## **Recommended Documents**
+
+* [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) 
+* [Backend Host Header](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool#hostheader)
 
