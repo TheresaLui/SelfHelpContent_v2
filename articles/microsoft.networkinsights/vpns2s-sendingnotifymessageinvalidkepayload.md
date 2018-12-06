@@ -15,17 +15,18 @@ resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
 />
+
 # Microsoft Azure has detected an IPsec/IKE Diffie-Hellman (DH) group mismatch on your VPN connection
 <!--issueDescription-->
-We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because of mismatch of the IKE Diffie-Hellman (DH) group setting between your on-premises VPN device and your Azure VPN gateway. You can ignore this warning if the VPN tunnel is connected and working as it could recover automatically during the subsequent IKE negotiation.
+We have identified that your VPN connection, **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->**, is disconnected because of mismatch of the IKE Diffie-Hellman (DH) group setting between your on-premises VPN device and your Azure VPN gateway. You can ignore this warning if the VPN tunnel is connected and working, as it could recover automatically during the subsequent IKE negotiation.
 
-## Recommended steps
+## Recommended Steps
 
-1. Verify the IPsec/IKE algorithms and parameters, specifically the Diffie-Hellman group setting, configured on your VPN device match the policies supported by the Azure VPN gateways as listed [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec)
+1. Verify the IPsec/IKE algorithms and parameters, specifically the Diffie-Hellman group setting, configured on your VPN device match the policies supported by the [Azure VPN gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec)
 
-2. If there is no matching policy that works with your VPN device, or you require a specific Diffie-Hellman group due to compliance requirements, configure a custom policy on the connection as described in this [document](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)
+2. If there is no matching policy that works with your VPN device, or you require a specific Diffie-Hellman group due to compliance requirements, configure a [custom policy on the connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)
 
-## Recommended documents
+## Recommended Documents
 
 * [Supported IPsec/IKE algorithms and policies on Azure VPN gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec)
 * [About cryptographic requirements](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-compliance-crypto)
