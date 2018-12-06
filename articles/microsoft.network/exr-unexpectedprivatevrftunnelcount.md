@@ -5,6 +5,8 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
+    diagnosticScenario=""
     displayOrder=""
     articleId="ExpressRouteUnexpectedPrivateVRFTunnelCount"
     selfHelpType="diagnostics"
@@ -13,11 +15,12 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
+ 
 # **Express Route Circuit Private VRF Tunnel Count**
 ExpressRoute circuit: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' 
 
- 
-## **Recommended steps**
 
-Execute Jarvis Actions operation: 
+## **Recommended Steps**
+
+* Execute Jarvis Actions operation: 
 **Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
