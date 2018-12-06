@@ -62,7 +62,7 @@ Connect-MsolService
     }
     ```
 
-    Run the Snippet 2 to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all of your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
+    Run Snippet 2 to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all of your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
 
     #### Snippet 2
     ```
