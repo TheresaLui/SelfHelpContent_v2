@@ -55,7 +55,7 @@
 							"watermarkText": "Choose an option",
 							"dynamicDropdownOptions": 
 								{
-									"uri": "/subscriptions?api-version=2014-04-01?",
+									"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Capacity/appliedReservations/$ref?api-version=2017-11-01?",
 									"jTokenPath": "value",
 									"textProperty": "subscriptionId",
 									"valueProperty": "id",
