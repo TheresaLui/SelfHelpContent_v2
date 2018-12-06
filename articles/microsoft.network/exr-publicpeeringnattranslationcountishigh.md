@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="pareshmu"
     authoralias="pareshmu"
-    diagnosticScenario=""
+    diagnosticScenario="ExpressRouteNATTranslationCountIsTooHigh"
     displayOrder=""
     articleId="ExpressRouteNATTranslationCountIsTooHigh"
     selfHelpType="diagnostics"
@@ -26,3 +26,7 @@ VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
 ## **Recommended Steps**
 
 * Use the **Run Show Command** Jarvis Actions operation to run: **'sh ip nat statistics'** on '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'  to obtain NAT counters
+
+
+## **Recommended Documents**
+* [ExpressRoute NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat)
