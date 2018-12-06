@@ -3,7 +3,8 @@
     description="Configure custom domains"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25"
+    authorAlias="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614242"
@@ -12,10 +13,11 @@
     cloudEnvironments="public"
 />
 
-# Configure custom domains
+# Configure Custom Domains
 
-*  Having a visible domain name can be convenient for your customers and useful for branding purposes.  The document below helps you configure your custom domain,
+Having a visible domain name can be convenient for your customers and useful for branding purposes. The document below is a tutorial that walks you through the process of configuring a custom domain for your Front Door. 
 
-## **Recommended documents**
-* Click here to view this tutorial on [Adding a custom domain to your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)<br>
+## **Recommended Documents**
+
+* [Add a custom domain to your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain)
 
