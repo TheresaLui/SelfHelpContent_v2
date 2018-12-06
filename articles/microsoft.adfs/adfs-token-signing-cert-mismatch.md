@@ -18,7 +18,9 @@
 
 # Sign-In issues into Azure AD with AD FS due a mismatch of the token signing certificate
 
-We have detected sign-in issues for one or more of your federated domains. This is occurring due to a mismatch between the token signing certificate that AD FS is using to issue authentication tokens and the public key that Azure AD is using to validate the tokens. This error could occur due to your federation metadata not being available externally. In addition to the steps below, verify that the metadata is available by using the [Federation Metadata Explorer](https://adfshelp.microsoft.com/MetadataExplorer/GetFederationMetadata) tool. We detected the following domains that are experiencing these failures: <!--$Domains-->Domains<!--/$Domains-->
+We have detected sign-in issues for one or more of your federated domains. This is occurring due to a mismatch between the token signing certificate that AD FS is using to issue authentication tokens and the public key that Azure AD is using to validate the tokens. This error could occur due to your federation metadata not being available externally. In addition to the steps below, verify that the metadata is available by using the [Federation Metadata Explorer](https://adfshelp.microsoft.com/MetadataExplorer/GetFederationMetadata) tool.
+
+We detected the following domains that are experiencing these failures: <!--$Domains-->Domains<!--/$Domains-->
 
 ### Recommended solution
 We recommend using PowerShell to easily resolve this issue. Follow the steps below to resolve your issue:
@@ -69,7 +71,7 @@ Connect-MsolService
     ```
     Get-MsolDomain -Authentication Federated | Foreach {
         Write-Host "Checking domain" $_.Name
-        Get-MsolFederationProperty -DomainName $_.Name | Format-List Source, TokenSigningCertificate
+        Get-MsolFederationProperty -DomainName $_.Name | Format-List Source, FederationServiceDisplayName, TokenSigningCertificate
     }
     ```
 
