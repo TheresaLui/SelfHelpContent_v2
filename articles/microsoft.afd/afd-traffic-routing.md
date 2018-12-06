@@ -15,8 +15,8 @@
 
 # Traffic Routing
 
-* Azure Front Door Service supports various traffic-routing methods to determine how to route your HTTP/HTTPS traffic to the various service endpoints.  
+Azure Front Door Service supports various traffic-routing methods to determine how to route your HTTP/HTTPS traffic to various service endpoints.  
 
-## **Recommended documents**
-* Listed [here](https://review.docs.microsoft.com/azure/frontdoor/front-door-routing-methods?branch=master) are four main concepts to traffic routing available in Front Door.<br>
+## **Recommended Documents**
 
+* [Front Door Traffic Routing Methods](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-routing-methods) 
