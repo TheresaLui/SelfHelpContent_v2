@@ -20,5 +20,5 @@ Azure Front Door Service supports URL rewrite, allowing you to configure an opti
 ## **Recommended Documents**
 
 * [Create a URL rewrite](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite) 
-* [Backend Host Header](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-backend-pool#hostheader)
+* [Backend Host Header](https://docs.microsoft.com/azure/frontdoor/front-door-backend-pool#hostheader)
 
