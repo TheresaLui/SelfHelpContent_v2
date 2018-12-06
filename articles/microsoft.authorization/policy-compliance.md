@@ -4,6 +4,7 @@
     service="microsoft.authorization"
     resource="policyAssignments"
     authors="robga"
+    authoralias="robga"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32599711"
