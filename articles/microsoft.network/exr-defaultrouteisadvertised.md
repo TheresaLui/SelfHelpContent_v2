@@ -20,7 +20,7 @@ ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**'
 Default Route is advertised
  
 ## **Recommended Steps**
-Review '**<!--$$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for further details. 
+Review '**<!--$DumpRoutingInfo-->[Dump Routing Info]<!--/$DumpRoutingInfo-->**' for further details. 
 
 * Customer advertising default routes causes all traffic from Azure to go back to customer on-premises
 * Ensure the traffic behavior of peering(s) for which the default route is advertised is not adversely affected by the route advertisement
