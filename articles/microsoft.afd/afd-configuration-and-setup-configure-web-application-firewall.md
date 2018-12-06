@@ -15,9 +15,10 @@
 
 # Configure Web Application Firewall (WAF)
 
-* Azure Front Door allows you to author custom web application firewall (WAF) rules for access control to protect your HTTP/HTTPS workload from exploitation based on client IP addresses, country code, and http parameters. 
+Azure Front Door allows you to author custom web application firewall (WAF) rules for access control, protecting your HTTP/HTTPS workload from exploitation based on client IP addresses, country code, and http parameters. 
 
-## **Recommended documents**
-* Learn more about the benefits features and pricing of the  [Web application firewall (WAF)](https://docs.microsoft.com/azure/application-gateway/waf-overview)<br>
-* Here you can learn how to enable Azure managed ruleset for Front Door. Click on the link to view a template that shows you how to  [configure Front Door to enable Azure managed application firewall rules.](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)<br>
-* Learn how to manage the  [ WAF policy custom rules.](https://docs.microsoft.com/cli/azure/ext/front-door/network/waf-policy/custom-rule?view=azure-cli-latest)<br>
+## **Recommended Documents**
+
+* Benefits, features, and pricing for [Web application firewall (WAF)](https://docs.microsoft.com/azure/application-gateway/waf-overview)
+* [Configure Front Door to enable Azure managed application firewall rules](https://azure.microsoft.com/resources/templates/201-front-door-managed-waf-ruleset/)
+* Manage [ WAF policy custom rules](https://docs.microsoft.com/cli/azure/ext/front-door/network/waf-policy/custom-rule?view=azure-cli-latest)
