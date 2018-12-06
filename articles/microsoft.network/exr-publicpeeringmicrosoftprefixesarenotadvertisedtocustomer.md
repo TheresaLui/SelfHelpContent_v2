@@ -5,6 +5,8 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
+    authoralias="pareshmu"
+    diagnosticScenario=""
     displayOrder=""
     articleId="ExRPublicPeeringMicrosoftPrefixesNotAdvertisedInsight"
     selfHelpType="diagnostics"
@@ -13,15 +15,16 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# **Microsoft Public Prefixes Are Not Advertised From the MSEE to the Customer Edge**
+ 
+# **Microsoft Public Prefixes are Not Advertised from the MSEE to the Customer Edge**
 
 **Message:** '**<!--$Message--> [Message] <!--/$Message-->**'
 **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
 **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
 **VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
 
-## **Recommended steps**
+## **Recommended Steps**
 
-+ **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' is not configured to advertise Public peering prefixes to the customer.
-+ First, check the health of the Public peering between both the MSEEs and the customer edge.
-+ Finally, check to ensure the customer has configured appropriate route filters in Azure to allow the desired Public peering prefixes to flow to the customer edge.
++ **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' is not configured to advertise Public peering prefixes to the customer
++ Check the health of the Public peering between both the MSEEs and the customer edge
++ Check to ensure the customer has configured appropriate route filters in Azure to allow the desired Public peering prefixes to flow to the customer edge
