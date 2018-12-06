@@ -15,13 +15,13 @@
 {
     "resourceRequired": false,
     "title": "Azure Stack Environment Details",
-    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>run a validation test for Azure Stack</a>",
+    "fileAttachmentHint": "To help the support agent identify your issue, please collect and upload the output of Test-AzureStack, Get-AzureStackStampInformation, and/or Azure Stack seed ring logs by following the steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test'>Run a validation test for Azure Stack</a>",
     "formElements": [{
             "id": "hardware_partner",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Azure Stack hardware partner",
-            "watermarkText": "Choose a partner name",
+            "watermarkText": "Azure Stack OEM Name",
             "dropdownOptions": [{
                     "value": "Avanade",
                     "text": "Avanade"
@@ -34,6 +34,9 @@
                 },{
                     "value": "Fujitsu",
                     "text": "Fujitsu"
+                },{
+                    "value": "HPE",
+                    "text": "HPE"
                 },{
                     "value": "Huawei",
                     "text": "Huawei"
@@ -48,7 +51,8 @@
                     "text": "Other"
                 }
                 ],
-            "required": false
+            "required": false,
+            "infoBalloonText": "Choose the partner or OEM for the hardware your Azure Stack stamp is running on"
         },{
             "id": "patch_level",
             "order": 2,
