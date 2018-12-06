@@ -9,7 +9,7 @@
     displayOrder=""
     articleId="ExRPrivateVrfCustomerPrefixesOverlapVNetAddressSpaceInsight"
     selfHelpType="diagnostics"
-    diagnosticScenario=""
+    diagnosticScenario="ExRPrivateVrfCustomerPrefixesOverlapVNetAddressSpaceInsight"
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
@@ -29,3 +29,9 @@
 
 + The customer should stop advertising the overlapping prefixes, or consider modifying the VNet address space
 + If left as-is, the customer will experience unexpected routing behavior
+
+
+## **Recommended Documents**
+
+* [Microsoft cloud services and network security best practices](https://docs.microsoft.com/azure/best-practices-network-security)
+* [Optimize ExpressRoute Routing](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing)
