@@ -15,7 +15,7 @@
 
 # Kubernetes Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot common issues with the Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
