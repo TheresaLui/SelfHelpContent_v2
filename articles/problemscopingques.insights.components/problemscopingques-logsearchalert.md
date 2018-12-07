@@ -87,7 +87,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please enter a semi-colon delimited list of e-mail addresses that are affected by this problem",
 			"required": true
-		},{
+		}, {
 			"id": "action_group",
 			"order": 4,
 			"visibility": "classic_alert_reason == Notifications: Not receiving notification from action group || classic_alert_reason == Notifications: Delivered to unexpected set of recipients",
