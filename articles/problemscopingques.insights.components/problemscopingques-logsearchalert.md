@@ -90,7 +90,7 @@
 		},{
 			"id": "action_group",
 			"order": 4,
-			"visibility": "classic_alert_reason == Notifications: Not receiving notification from action group || classic_alert_reason == Notifications: Delivered to unexpected set of 
+			"visibility": "classic_alert_reason == Notifications: Not receiving notification from action group || classic_alert_reason == Notifications: Delivered to unexpected set of recipients",
 			"controlType": "multiselectdropdown",
 			"displayLabel": "Please select the affected Log Search Alert resource name.",
 			"watermarkText": "Choose an option",
