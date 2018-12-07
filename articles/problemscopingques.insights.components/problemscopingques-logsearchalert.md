@@ -50,20 +50,17 @@
 					"value": "Configuration: Issues with Azure resource manager (ARM) templates",
 					"text": "Configuration: Issues with Azure resource manager (ARM) templates"
 				}, {
+					"value": "Configuration: Log search query does not behave as expected",
+					"text": "Configuration: Log search query does not behave as expected"
+				}, {
 					"value": "Detection: Alert fires when it should NOT",
 					"text": "Detection: Alert fires when it should NOT"
 				}, {
 					"value": "Detection: Alert doesn’t fire when it should",
 					"text": "Detection: Alert doesn’t fire when it should"
 				}, {
-					"value": "Notifications: Not receiving web hook",
-					"text": "Notifications: Not receiving web hook"
-				}, {
-					"value": "Notifications: Not receiving e-mail",
-					"text": "Notifications: Not receiving e-mail"
-				}, {
-					"value": "Notifications: Receiving with delay",
-					"text": "Notifications: Receiving with delay"
+					"value": "Notifications: Not receiving notification from action group",
+					"text": "Notifications: Not receiving notification from action group"
 				}, {
 					"value": "Notifications: Unexpected content",
 					"text": "Notifications: Unexpected content"
@@ -91,14 +88,33 @@
 			"displayLabel": "Please enter a semi-colon delimited list of e-mail addresses that are affected by this problem",
 			"required": true
 		},{
-			"id": "problem_start_time",
+			"id": "action_group",
 			"order": 4,
+			"visibility": "classic_alert_reason == Notifications: Not receiving notification from action group || classic_alert_reason == Notifications: Delivered to unexpected set of 
+			"controlType": "multiselectdropdown",
+			"displayLabel": "Please select the affected Log Search Alert resource name.",
+			"watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/actionGroups?api-version=2017-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+			"dropdownOptions": [{
+					"value": "Unable to get the list of Action Groups",
+					"text": "Unable to get the list of Action Groups"
+				}],
+			"required": false
+		},{
+			"id": "problem_start_time",
+			"order": 5,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
