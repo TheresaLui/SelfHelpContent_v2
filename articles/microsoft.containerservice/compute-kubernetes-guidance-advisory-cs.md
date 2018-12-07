@@ -15,7 +15,7 @@
 
 # Kubernetes Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Create an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/create-cluster)<br>
 * [Scale an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/scale-cluster)<br>
