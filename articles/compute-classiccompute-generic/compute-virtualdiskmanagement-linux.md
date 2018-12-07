@@ -32,12 +32,12 @@
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage#supported-vms)
 * [FAQ for Premium disks: Managed and unmanaged](https://docs.microsoft.com/azure/virtual-machines/linux/faq-for-disks#premium-disks-managed-and-unmanaged)
 
-**Issue with increasing the size or resize a disk attached to the VM (OS or data disk)**
+**Increase or resize a disk attached to the VM (OS or data disk)**
 
 * [Expand virtual hard disks with Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/expand-disks)
 * [Expand a disk partition and filesystem after expanding the virtual hard disk](https://docs.microsoft.com/azure/virtual-machines/linux/expand-disks#expand-a-disk-partition-and-filesystem)
 
-**Need help with Managed Disks or conversion from unmanaged**
+**Managed Disks or conversion from unmanaged**
 
 * [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)
 * [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)
