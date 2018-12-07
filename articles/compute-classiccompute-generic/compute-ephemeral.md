@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authoralias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628040,32628041"
@@ -14,10 +15,10 @@
 
 # Ephemeral OS Disk Issue
 
-4 out of 5 customers resolve their Ephemeral OS Disk issues using the below documents.<br>
+4 out of 5 customers resolve their Ephemeral OS Disk issues using the below documents.
 
 Ephemeral OS Disk is a new virtual machine (VM) and virtual machine scale set (VMSS) feature that allows you to create an OS disk directly on the host node, providing local disk performance and faster VM/VMSS reimage time. To enroll in the limited public preview, you will need to [submit this form](https://aka.ms/ephemeralpreviewform).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Ephemeral OS Disk in limited preview](https://azure.microsoft.com/blog/ephemeral-os-disk-limited-public-preview/)
