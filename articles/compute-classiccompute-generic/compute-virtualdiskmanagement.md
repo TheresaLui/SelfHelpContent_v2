@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/virtual disk management"
-	description="configuration and setup/virtual disk management"
+	pageTitle="Virtual Disk Management"
+	description="Virtual Disk Management"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
