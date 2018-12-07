@@ -15,7 +15,7 @@
 
 # Kubernetes Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
