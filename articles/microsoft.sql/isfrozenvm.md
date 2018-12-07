@@ -23,7 +23,7 @@ Connection attempts to your database **<!--$DatabaseName--> DatabaseName <!--/$D
 
 **Summary of Impact**
 
-Azure Virtual Machines powers our IaaS and PaaS offerings, including SQL DB and Cosmos DB. We have detected two issues that degrate the availablity of VMs:
+Azure Virtual Machines powers our IaaS and PaaS offerings, including SQL DB and Cosmos DB. We have detected two issues that degrade the availability of VMs:
 
   * Unexpected reboots
   * Read/write operations appeared frozen and I/O had come to a crawl
