@@ -20,4 +20,4 @@ can not be increased above the default, so please check the documentation linked
 - If you hit the bytes per object for pipeline objects limit, the recommended approach is to split the pipeline into several smaller pipelines.
 
 ## **Recommended documents**
-[Data Factory Limits (see the Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)
+[Data Factory Limits (see Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)
