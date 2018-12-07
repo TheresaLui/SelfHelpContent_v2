@@ -66,7 +66,7 @@
 		}, {
 			"id": "affected_region",
 			"order": 3,
-			controlType": "multiselectdropdown",
+			"controlType": "multiselectdropdown",
 			"visibility": "availability_test_reason == Detection: Availability test consistently shows error across one or more specific regions",
 			"displayLabel": "Please select the region(s) showing the error.",
 			"dropdownOptions": [
