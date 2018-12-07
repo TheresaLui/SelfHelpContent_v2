@@ -47,6 +47,6 @@
 
 ## **Other Recommended Documents**
 
-* [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com//azure/virtual-machines/troubleshooting/allocation-failure)
+* [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com//azure/virtual-machines/troubleshooting/allocation-failure)<br>
 * [Learn how to resize a VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size)<br>
 * [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)<br>
