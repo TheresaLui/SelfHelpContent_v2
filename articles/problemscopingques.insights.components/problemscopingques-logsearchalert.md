@@ -91,8 +91,8 @@
 			"id": "action_group",
 			"order": 4,
 			"visibility": "classic_alert_reason == Notifications: Not receiving notification from action group || classic_alert_reason == Notifications: Delivered to unexpected set of recipients",
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Please select the affected Log Search Alert resource name.",
+			"controlType": "dropdown",
+			"displayLabel": "Please select the affected Action Group.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/actionGroups?api-version=2017-04-01",
