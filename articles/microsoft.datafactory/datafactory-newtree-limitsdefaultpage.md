@@ -1,15 +1,20 @@
 <properties
-    pageTitle = "Data Factory Limits"
-    description = "Default limits for Data Factory V2"
-    service = "microsoft.datafactory"
-    resource = "factories"
-    authors = "chez"
-    selfHelpType = "resource"
-    cloudEnvironments = "public"
-    supportTopicIds = "32629435, 32629525"
-    productPesIds = "15613"
-    resourceTags = ""
->
+	pageTitle="Data Factory V2 Limits"
+	description="Default limits for Data Factory V2"
+	infoBubbleText=""
+	service="microsoft.datafactory"
+	resource="factories"
+	authors="Chenye Charlie Zhu"
+	authoralias="chez"
+	displayOrder=""
+	articleId=""
+	diagnosticScenario=""
+	selfHelpType="resource"
+	supportTopicIds="32629435, 32629525"
+	resourceTags=""
+	productPesIds="15613"​
+	cloudEnvironments="public"
+/>
 
 # Data Factory Limits
 
