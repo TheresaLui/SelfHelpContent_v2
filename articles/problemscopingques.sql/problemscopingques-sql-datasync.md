@@ -17,12 +17,12 @@
 	"title": "SQL Data Sync",
 	"fileAttachmentHint": "",
 	"formElements": [
-        { 
-            "id": "problem_start_time", //This is a required value
-            "order": 1, 
-            "controlType": "datetimepicker", 
-            "displayLabel": "When did the problem start?", 
-            "required": true 
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
         },{
 			"id": "sync_group_name",
 			"order": 2,
@@ -31,9 +31,9 @@
             "watermarkText": "Sync group name",
             "infoBalloonText": "Name of the Sync Group facing the issue (if applicable)",
 			"required": false,
-			"useAsAdditionalDetails": false			
+			"useAsAdditionalDetails": false
 		},{
-            "id": "problem_description", //This is a required value
+            "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
