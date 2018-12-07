@@ -14,13 +14,13 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Metrics Alert (Classic)",
+	"title": "Availability Tests",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "classic_alert_id",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
+			"displayLabel": "Please select the affected Availability Tests resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",

@@ -14,7 +14,7 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Metrics Alert (Classic)",
+	"title": "Log Search Alert",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "classic_alert_id",

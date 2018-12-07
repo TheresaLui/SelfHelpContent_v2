@@ -14,13 +14,13 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Metrics Alert (Classic)",
+	"title": "Metrics Alert",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "classic_alert_id",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the affected Metrics Alert (Classic) resource name.",
+			"displayLabel": "Please select the affected Metrics Alert resource name.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/metricAlerts?api-version=2018-03-01&%24filter=targetResource%20eq%20'%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}'",
