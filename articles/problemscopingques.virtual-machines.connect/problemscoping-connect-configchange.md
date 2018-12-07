@@ -28,20 +28,20 @@
                     "id": "connect_config",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "What was your configuration change prior to the issue started?",
+                    "displayLabel": "What was your configuration change prior to the issue starting?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "I pushed an update on my machine",
-                            "text": "I pushed an update on my machine"
+                            "value": "I pushed an update to my machine",
+                            "text": "I pushed an update to my machine"
                         },
                         {
                             "value": "I changed my firewall configuration",
                             "text": "I changed my firewall configuration"
                         },
                         {
-                            "value": "I installed a third-party app",
-                            "text": "I installed a third-party app"
+                            "value": "I installed a third party app",
+                            "text": "I installed a third party app"
                         },{
                             "value": "Other",
                             "text": "Other"
@@ -53,7 +53,7 @@
                 "order": 3,
                 "visibility": "connect_config == Other",
                 "controlType": "multilinetextbox",
-                "displayLabel": "Please specify your configuration change prior to the issue started.",
+                "displayLabel": "Please specify your configuration change prior to the issue starting.",
                 "required": false,
                 "useAsAdditionalDetails": true,
                 },{
