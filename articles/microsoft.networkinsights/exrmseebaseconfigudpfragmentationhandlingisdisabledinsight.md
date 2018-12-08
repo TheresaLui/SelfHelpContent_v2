@@ -16,7 +16,7 @@
     cloudEnvironments="public"
  />
 
-# UDP Fragmentation Is Not Enabled
+# UDP Fragmentation is not Enabled
 
 A device-wide configuration used for communication between the MSEE and the Gateway Tenants (GWTs) is missing. This will cause communication to fail, including datapath and BGP.
 
