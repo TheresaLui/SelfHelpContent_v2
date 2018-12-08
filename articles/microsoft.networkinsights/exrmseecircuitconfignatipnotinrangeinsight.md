@@ -20,7 +20,8 @@
 
 Public peering on ExpressRoute uses the NAT to translate private IP space into public IP space. ExpressRoute by default allocates a single unique public IP address on each MSEE device, which corresponds with the public peering configuration that the customer has configured.
 
-*Private and Microsoft peering do not apply to this insight.*<br>
+**Note**: Private and Microsoft peering do not apply to this insight.*
+
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
 MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
