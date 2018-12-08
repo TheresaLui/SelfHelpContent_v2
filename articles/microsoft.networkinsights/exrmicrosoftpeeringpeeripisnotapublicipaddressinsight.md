@@ -27,7 +27,7 @@ VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
 
 ## **Recommended Steps**
 
-* Recommend that the customer change the peer IPs from private IPs to public IPs. This may cause the creation to fail if the IP addresses overlap with other customers on the same device.
+* Recommend that the customer change the peer IPs from private IPs to public IPs. The creation may fail if the IP addresses overlap with other customers on the same device.
 
 ## **Recommended Documenst**
 * [ExpressRoute circuits and routing domains](https://docs.microsoft.com/azure/expressroute/expressroute-circuit-peerings#routing-domain-comparison)
