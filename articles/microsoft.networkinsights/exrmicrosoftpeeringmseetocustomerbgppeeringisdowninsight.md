@@ -30,6 +30,7 @@ VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
 1. Check **Syslog** entries for MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**', looking for issues while establishing a BGP peering to the customer edge:
 
 **Syslog Query Sample:**
+
 cluster('Aznw').database('aznwmds').Syslog <br>
 | where PreciseTimeStamp >= ago(12h)
 and Device contains '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**'
