@@ -1,10 +1,11 @@
-<properties 
+<properties
     pageTitle="NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning differ"
     description="NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning differ"
     infoBubbleText="NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning differ.  See details on right."
     service="microsoft.network"
     resource="ExpressRoute"
     authors="jaredro"
+    authoralias="jaredr80"
     displayOrder=""
     articleId="ExpressRouteCircuitProvisioningDifferInsight"
     diagnosticScenario="ExpressRouteCircuitProvisioningDifferInsight"
@@ -14,11 +15,18 @@
     productPesIds="15480"
     cloudEnvironments="public"
  />
-# NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning differ
-ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**' NRP Service Provider Provisioning State is:  '**<!--$NrpServiceProviderProvisioningState-->[NrpServiceProviderProvisioningState]<!--/$NrpServiceProviderProvisioningState-->**' while Brooklyn shows Service Provider Provisioning State as:  '**<!--$BrooklynServiceProviderProvisioningState-->[BrooklynServiceProviderProvisioningState]<!--/$BrooklynServiceProviderProvisioningState-->**'.<br> 
-## **Recommended steps**
-An operation failed causing the state of the cricuit to become **Failed**. Traffic is not impacted in this scenario, but no further operations can be conducted on the circuit until it is no longer in a **Failed** state.<br>
-1. From the portal, navigate to the circuit blade and click *Refresh*. This will make no changes to the circuit itself, but will move the state from **Failed**. 
-2. From PowerShell, follow the instructions in the recommended document.
-## **Recommended document**
-[Reset ExpressRoute peerings](https://docs.microsoft.com/azure/expressroute/expressroute-howto-reset-peering)
+
+# **NRP Service Provider Provisioning and Brooklyn Service Provider Provisioning Differ**
+
+An operation failed, changing the state of the circuit **Failed**. Traffic is not impacted in this scenario, but no further operations can be conducted on the circuit until it is no longer in a **Failed** state.
+
+ExpressRoute circuit: '**<!--$CircuitName-->[CircuitName]<!--/$CircuitName-->**'
+NRP Service Provider Provisioning State is:  '**<!--$NrpServiceProviderProvisioningState-->[NrpServiceProviderProvisioningState]<!--/$NrpServiceProviderProvisioningState-->**' while Brooklyn shows Service Provider Provisioning State as:  '**<!--$BrooklynServiceProviderProvisioningState-->[BrooklynServiceProviderProvisioningState]<!--/$BrooklynServiceProviderProvisioningState-->**'.<br>
+
+## **Recommended Steps**
+
+1. From the [Azure portal](https://portal.azure.com), navigate to the circuit blade and click *Refresh*. This will make no changes to the circuit itself, but will move the state from **Failed**.
+2. From PowerShell, follow the instructions in the document below.
+
+## **Recommended Document**
+* [Reset ExpressRoute peerings](https://docs.microsoft.com/azure/expressroute/expressroute-howto-reset-peering)

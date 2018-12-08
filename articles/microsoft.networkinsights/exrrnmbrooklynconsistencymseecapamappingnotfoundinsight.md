@@ -1,10 +1,11 @@
-<properties 
+<properties
     pageTitle="MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found"
     description="MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found"
     infoBubbleText="MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found.  See details on right."
     service="microsoft.network"
     resource="ExpressRoute"
     authors="jaredro"
+    authoralias="jaredr80"
     displayOrder=""
     articleId="ExRRnmBrooklynConsistencyMseeCaPaMappingNotFoundInsight"
     diagnosticScenario="ExRRnmBrooklynConsistencyMseeCaPaMappingNotFoundInsight"
@@ -15,8 +16,11 @@
     cloudEnvironments="public"
  />
 # MSEE Provider Address-To-Customer Address (PA-to-CA) Mapping Not Found
-ExpressRoute uses mappings from RNM (Regional Network Manager) for PA-to-CA translation. The mappings are not found in GWM and need to be refreshed and set. <br><br>
+
+ExpressRoute uses mappings from RNM (Regional Network Manager) for PA-to-CA translation. The mappings are not found in GWM, and need to be refreshed and set.
+
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 VNetID: '**<!--$VNetID-->[VNetID]<!--/$VNetID-->**'  <br>
-## **Recommended steps**
-+ Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for VNetId: '**<!--$VNetID-->[VNetID]<!--/$VNetID-->**'
+
+## **Recommended Steps**
+* Execute **Jarvis Actions** operation: **Brooklyn->ExR Diagnostic Operations->Fix Vnet Config in Goalstate** for VNetId: '**<!--$VNetID-->[VNetID]<!--/$VNetID-->**'
