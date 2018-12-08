@@ -19,6 +19,7 @@
 # ExpressRoute BGP Peering from MSEE to Customer Edge is Down
 
 ExpressRoute utilizes dual/redundant BGP sessions for each peering that the customer has configured (Private/Public/Microsoft peering). One or more BGP sessions are currently down, as shown below:
+
 '**<!--$Message-->[Message]<!--/$Message-->**' <br>
 ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
 MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
@@ -40,4 +41,5 @@ and Message contains '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
 3. Check the peering configuration (i.e. - STag, CTag, Peer IPs, shared keys) and compare the settings with the peering configuration settings on the customer edge to ensure the required values match
 
 ## **Recommended Documents**
-[Verifying ExpressRoute connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
+
+* [Verifying ExpressRoute connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview) <br>
