@@ -54,6 +54,7 @@ If your query is valid but it does not return the log records you expect, consid
 * Logs are being ingested to Log Analytics all the time. While this process is relatively short, it may take a while during the initial ingestion, when tables are being generated and populated for the first time.
 
 ## **Recommended documents and links**
+
 * [Getting started with queries](https://docs.microsoft.com/azure/log-analytics/query-language/get-started-queries)
 * [Writing search queries](https://docs.microsoft.com/azure/log-analytics/query-language/search-queries)
 * [Query examples](https://docs.microsoft.com/azure/log-analytics/query-language/examples)
