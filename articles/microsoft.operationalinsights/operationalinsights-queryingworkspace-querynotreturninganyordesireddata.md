@@ -38,6 +38,7 @@ If your query is valid but does not return the log records you expect, consider 
 	* Drilling in to Log Analytics from a dashboard tile or a customer view created through the view designer - if some or all log records are not showing, review the applied time range. If the time range is set to a specific custom range in the past, it may be querying a time period outside your retention limit. Instead, it is recommended that you apply a relative time range (e.g. "Last 24 hours").
 
 ## **Recommended documents and links**
+
 * [Overview of common data sources](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources)
 * [Getting started with queries](https://docs.microsoft.com/azure/log-analytics/query-language/get-started-queries)
 * [Writing search queries](https://docs.microsoft.com/azure/log-analytics/query-language/search-queries)
