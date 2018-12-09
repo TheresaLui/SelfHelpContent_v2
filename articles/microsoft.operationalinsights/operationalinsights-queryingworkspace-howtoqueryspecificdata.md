@@ -22,6 +22,7 @@ The first approach is preferable, since it's scoped to a relevant data source an
 
 1. Querying a specific table
    If you know the name of the relevant table, querying it is as easy as writing its name in the Log Analytics query editor. <br/>
+
    * Everything in a specific table<br/>
    To review all log records in a table, simply write the name of the table:<br/>
    ```Perf```
@@ -47,6 +48,7 @@ The first approach is preferable, since it's scoped to a relevant data source an
 
 ## Can't find your data?
 If your query is valid but it does not return the log records you expect, consider the following:<br/>
+
 * By default, the Log Analytics query editor applies a "last 24 hours" time range. You can use the time picker (located next to the *Run* button) to set a different time range.
 * The Log Analytics query editor displays up to 10,000 log records, unsorted. This means you may see partial data, and not necessarily the latest records. To assure you're seeing the latest records, apply conditions to filter out irrelevant log records, and use the *top* operator as shown in the example above.
 * Logs are being ingested to Log Analytics all the time. While this process is relatively short, it may take a while during the initial ingestion, when tables are being generated and populated for the first time.
