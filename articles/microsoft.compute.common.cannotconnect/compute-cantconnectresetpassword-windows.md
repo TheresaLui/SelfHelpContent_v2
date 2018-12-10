@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
-## Recommended Steps
+## **Recommended Steps**
 
 If you can't connect to a Windows virtual machine (VM) and suspect the issue would be resolved by resetting the local administrator password, you can reset your local administrator password or reset the Remote Desktop Services (RDS) configuration (not supported on Windows domain controllers). To reset the password, use either the Azure portal or the VM Access extension in Azure PowerShell. After you've signed in to the VM, reset the password for that local administrator.
 
