@@ -47,7 +47,7 @@ Connect-MsolService
 
 5. We will need to make sure we update all of your federated domains that are having this issue. There are two options on how to get the misconfigured domains:
 
-    i. Run Snippet 1 to automatically check that the token signing certificate matches for all of your federated domains. Upon completion, you will have a list of all of the domains that have a mismatch.
+    * Run **Snippet 1** to automatically check that the token signing certificate matches for all of your federated domains. Upon completion, you will have a list of all of the domains that have a mismatch.
    
    ### Snippet 1
     ```
@@ -66,7 +66,7 @@ Connect-MsolService
     }
     ```
 
-    ii. Run Snippet 2 to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all of your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
+    * Run **Snippet 2** to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all of your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
 
     ### Snippet 2
     ```
