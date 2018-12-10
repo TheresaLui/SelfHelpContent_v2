@@ -1,7 +1,6 @@
 <properties 
     pageTitle="What are Community Supported SDKs?"
     description="Explain the current community SDKs and where to get support"
-    infoBubbleText="Some suggestions have been found to help solve your missing e-mail issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -10,7 +9,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32546625"
+    supportTopicIds="32402637"
  />
 # What are Community Supported SDKs?
 
