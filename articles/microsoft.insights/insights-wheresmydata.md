@@ -7,7 +7,7 @@
     displayOrder="1"
     selfHelpType="resource"
     productPesIds="15693"
-    supportTopicIds="32402629,32402626"
+    supportTopicIds="32402629,32402626,32602225"
     cloudEnvironments="public"
  />
 # Where's my data?

@@ -10,7 +10,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32546625"
+    supportTopicIds="32546625,32613002"
  />
 # I should have received an E-mail for an alert that fired
 ## **Recommended steps**
@@ -21,8 +21,11 @@ If you're certain that an alert has generated an event but has not sent an e-mai
 3. Any e-mail security appliances (Barracuda, Cisco)
 4. If the e-mail is a distribution list, make sure it can receive external e-mails
 5. Look for any unsubscribe e-mail notifications, check with colleagues if the e-mail is a distribution list
+6. Review your contact information for your [Azure account profile](https://account.azure.com/Profile)
 
 ## **Recommended documents**
+### Azure Account Profile
+[Edit Azure Contact Information](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
 ### E-Mail Client
 [Outlook SPAM Settings](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)<br>
 [Gmail SPAM Settings](https://support.google.com/mail/answer/6579?hl=en)<br>

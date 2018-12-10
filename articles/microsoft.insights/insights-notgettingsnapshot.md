@@ -5,7 +5,7 @@
     resource="components"
     authors="brahmnes"
     displayOrder="41"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32602205"
     producePesIds="15693"
     cloudEnvironments="public"
