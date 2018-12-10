@@ -20,8 +20,8 @@ The Status Monitor is an on-premises Windows application that helps with the con
 1. First, review the [troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights) document for common issues
 2. Please check to see if the Azure user has access to the subscription you are connecting to
 3. Please check to see if the local user has access to: IIS, the registry, and the application folder
-4. Please check to see if the local machine is connected to the internet, or has a proxy connection, and that the user has access to the proxy
-5. Lastly, if you can edit the project in Visual Studio, see if you can install the SDK via NuGet packages as outline [here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-asp-net?toc=/azure/azure-monitor/toc.json)
+4. Please check to see if the local machine is connected to the internet, or has a proxy connection, and that the local user has access to the proxy
+5. Lastly, if you can edit the project in Visual Studio, see if you can install the SDK via NuGet packages as outlined [here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-asp-net?toc=/azure/azure-monitor/toc.json)
 
 **Known issues**<br>
 The Status Monitor will attempt to update the assemblies every time the editor UI is started. If you are unable to connect to the internet it can appear as if the UI is locked up.<br>
