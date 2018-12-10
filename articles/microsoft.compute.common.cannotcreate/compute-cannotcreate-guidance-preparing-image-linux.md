@@ -17,6 +17,10 @@
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
 
+**Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
+
+Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
+
 ## **Recommended Documents**
 
 * [Prepare an **Ubuntu** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>

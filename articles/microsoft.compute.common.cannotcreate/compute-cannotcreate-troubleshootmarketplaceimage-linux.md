@@ -17,6 +17,10 @@
 
 4 out of 5 customers resolved their marketplace image deployment issue using guides listed below.<br>
 
+**Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
+
+Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
+
 ## **Recommended Documents**
 
 * [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors)<br>
