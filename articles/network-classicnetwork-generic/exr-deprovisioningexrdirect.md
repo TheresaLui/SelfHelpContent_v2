@@ -1,9 +1,10 @@
 <properties
-	pageTitle="Deprovisioning ExpressRoute Direct"
-	description="Deprovisioning ExpressRoute Direct"
+	pageTitle="Deprovisioning Issues"
+	description="Deprovisioning Issues"
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
+	authoralias="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627990, 32627989, 32627992, 32627991, 32627993"
