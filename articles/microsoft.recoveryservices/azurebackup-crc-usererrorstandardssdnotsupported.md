@@ -24,6 +24,8 @@ Azure Backup currently supports Standard SSD disks only for vaults that are upgr
 
 ## **Recommended Steps**
 
-* Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
-* Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
-* Complete the upgrade by following these [instructions](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#upgrade).
+To solve this problem you will need to upgrade to the [Azure VM Backup Stack V2](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2). <br>
+Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
+
+## **Recommended Documents**
+Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
