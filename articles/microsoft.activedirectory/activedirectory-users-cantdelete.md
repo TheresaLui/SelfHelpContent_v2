@@ -3,10 +3,11 @@
     description="Problem deleting a user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
+    authorAlias="Jeffsta-MSFT"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32586793"
-    productPesIds="14785,16578"
+    productPesIds="16578"
     cloudEnvironments="public"
     />
 # I can't delete a user in my directory
