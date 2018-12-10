@@ -15,7 +15,7 @@
 
 # I need to reset my password
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM reset password issue using the below steps.<br>
 
 ## **Recommended Steps**
 
