@@ -25,9 +25,16 @@ If you're using PowerShell, make sure that you have the [latest PowerShell modul
 
 You can reset **Remote Desktop Services** and **credentials** in the following ways:
 
-* [Reset the local administrator account password by using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-the-local-administrator-account-password)<br>
-* [Reset the Remote Desktop Services (RDS) configuration by using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-the-remote-desktop-services-configuration)<br>
-* [Reset the local administrator account password or RDS configuration by using PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-by-using-the-vmaccess-extension-and-powershell)
+1. Reading the online documentation:<br>
+
+  * [Resetting the local administrator account password by using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-the-local-administrator-account-password)<br>
+  * [Resetting the Remote Desktop Services (RDS) configuration by using the Azure portal](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-the-remote-desktop-services-configuration)<br>
+
+
+2. Connect to the Azure Portal and **[perform the reset action using the Password Reset Blade](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)**<br>
+
+3. Alternatively, [reset the local administrator account password or RDS configuration by using PowerShell](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-rdp#reset-by-using-the-vmaccess-extension-and-powershell)
+
 
 If the above fails, you can also use the offline method of [resetting the password by attaching the source OS virtual disk to another VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-local-password-without-agent). Only use this process as a last resort. Always try to reset a password using the Azure portal or Azure PowerShell first.
 
