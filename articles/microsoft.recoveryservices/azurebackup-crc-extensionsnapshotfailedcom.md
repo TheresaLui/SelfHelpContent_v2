@@ -16,25 +16,32 @@
 
 # ExtensionSnapshotFailedCOM
 <!--issueDescription-->
-We have investigated and detected that there could be an issue from Windows service **COM+ System Application** or due to and issue with the IaaS VM provider service preventing your backup installation/operation.
+We have identified a problem that is preventing the successful installation or operation of your backup. This problem can be caused by an issue in either a Windows service called  **COM+ System Application** or in the **IaaS VM provider service**. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve the backup failure due to **Com+ System Application**, perform the steps in the **Error due to COM+ System Application** section and if the backup fail due to **IaaS VM provider service** then perform the steps in the **Error due to IaaS VM provider Service** section.<br>
+To resolve this issue, first complete the steps outlined in the section **Error due to COM+ System Application**. If you continue to experience issues with your backup then complete the steps in the section **Error due to IaaS VM provider service**. <br>
 
 **Error due to COM+ System Application**
 
-* Login to the impacted VM and try starting/restarting Windows service **COM+ System Application** (from an elevated command prompt **- net start COMSysApp**).
-* Open VM services using services.msc and ensure the **Distributed Transaction Coordinator** service is running in the VM services as **Network Service**. If not, change it to run as **Network Service** and then restart the **COM+ System Application** service.
-* If unable to restart the service, then uninstall/install service **Distributed Transaction Coordinator** service by following below steps:
+* In the **Run** window, enter **services.msc** and click **enter**.
+* Double-click on the service called **Distributed Transaction Coordinator**. Go to the **Log on** tab and verify that the service is running under the account **Network Service**. If this is not the case, then:
+
+	* Click **Browse** to open the **Select User dialog**.
+	* Enter **Network Service** and click **Check Names**. The name of the account will be underlined.
+	* Click **OK** to get back to the service dialog.
+	* Click on the **General** tab and restart the service and click **OK**.
+	* Back in the Services window, right click on the **COM+ System Application service** and select **Restart**.
+	
+*  Go back to the Services window and start the **Distributed Transaction Coordinator** service by performing the below steps:
 
 	* Stop the MSDTC service
 	* Open a command prompt (cmd)
 	* Run command **msdtc -uninstall**
 	* Run command **msdtc -install**
 	* Start the MSDTC service
-	* After completing above troubleshooting steps, trigger an ad-hoc backup from [portal.azure.com](https://portal.azure.com) to see if the backup operation succeeds.<br>
-
+	* After completing above troubleshooting steps, trigger an ad-hoc backup from the [portal.azure.com](https://portal.azure.com) to see if the backup operation succeeds. *If the operation fails, then complete the steps in the following section.*<br>
+	
 **Error due to IaaS VM provider Service<br>**
 
 * Login to the impacted VM and open the **Registry Editor** by typing **regedit** in the **Run** window
@@ -44,4 +51,4 @@ To resolve the backup failure due to **Com+ System Application**, perform the st
 	
 	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled** <br>
 	
-* Trigger the backup operation from Azure Portal
+* Trigger the backup operation from the [Azure Portal](https://portal.azure.com).
