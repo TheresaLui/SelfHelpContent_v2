@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="raddwiv"
+	authoralias="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627976"
