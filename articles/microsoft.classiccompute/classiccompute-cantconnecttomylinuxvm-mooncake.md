@@ -3,7 +3,8 @@
     description="I can't connect to my Linux VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
-    authors="kasparks"
+    authors="ScottAzure"
+    authoralias="scotro
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,7 +15,7 @@
 
 # I can't connect to my Linux VM
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve common issues, try one or more of the following methods:<br>
 
@@ -27,9 +28,9 @@ To resolve common issues, try one or more of the following methods:<br>
 4. [Reset password](data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade.id.$resourceId) to address authentication errors.<br>
 5. Restart the virtual machine to address startup issues by clicking 'Restart' at the top of the VM resource blade.<br>
 6. Resize the VM to fix host issues by clicking 'Size' in the Settings blade of the VM resource.<br>
-7. Reset the SSH configuration using [using CLI](https://docs.azure.cn/virtual-machines/linux/classic/reset-access-classic#sshconfigresetcli).<br>
+7. Reset the SSH configuration to fix any SSH issues [using CLI](https://docs.azure.cn/virtual-machines/linux/classic/reset-access-classic#sshconfigresetcli).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Detailed troubleshooting of SSH errors](https://docs.azure.cn/virtual-machines/linux/troubleshoot-ssh-connection#detailed-troubleshooting-of-ssh-errors)<br>
 * [Automate Linux VM Customization Tasks Using CustomScript Extension](https://www.azure.cn/blog/2014/09/11/automate-linux-vm-customization-tasks-using-customscript-extension/)
