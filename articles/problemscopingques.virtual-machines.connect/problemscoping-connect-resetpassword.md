@@ -21,16 +21,16 @@
                     "id": "idlocaldomain",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "Is this a local or domain ID?",
+                    "displayLabel": "Is this for a local user account or a domain user account",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Local ID",
-                            "text": "Local ID"
+                            "value": "Local user account",
+                            "text": "Local user account"
                         },
                         {
-                            "value": "Domain ID",
-                            "text": "Domain ID"
+                            "value": "Domain user account",
+                            "text": "Domain user account"
                         }
                     ],
                     "required": false
