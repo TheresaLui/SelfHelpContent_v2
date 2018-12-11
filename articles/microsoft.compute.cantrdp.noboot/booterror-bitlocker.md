@@ -26,5 +26,5 @@ You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute
 
 ## **Recommended Steps**
 
-To restore access to the VM, please follow the steps in this [BitLocker boot errors on an Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error) troubleshooting guide.
+To restore access to the VM, please follow the steps in this [BitLocker boot errors on an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error) troubleshooting guide.
 
