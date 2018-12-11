@@ -70,15 +70,32 @@
                 "required": false,
                 "useAsAdditionalDetails": false,
                 },{
+                    "id": "connect_ifinternet",
+                    "order": 5,
+                    "controlType": "dropdown",
+                    "displayLabel": "Do you have Internet connectivity issues from this VM?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
                   "id": "problem_description",
-                  "order": 5,
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 6,
+                  "order": 7,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
