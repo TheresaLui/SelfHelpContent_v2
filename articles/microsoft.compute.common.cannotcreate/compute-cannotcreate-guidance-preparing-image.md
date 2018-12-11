@@ -34,13 +34,13 @@ Before you upload a Windows virtual machines (VM) from on-premises to Microsoft 
 
 2. [Verify that your image was properly prepared:](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 
-	-	\[ ][Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
-	- \[ ] [Set Windows configurations for Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#set-windows-configurations-for-azure)<br>
-	- \[ ] [Check the Windows services](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services)<br>
-	- \[ ] [Update Remote Desktop registry settings](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#update-remote-desktop-registry-settings)<br>
-	- \[ ] [Configure Windows Firewall Rules](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#configure-windows-firewall-rules)<br>
-	- \[ ] [Verify VM is healthy, secure, and accessible with RDP](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#verify-vm-is-healthy-secure-and-accessible-with-rdp)<br>
-	- \[ ] [Complete recommended configurations](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#complete-recommended-configurations)<br>
+	-	[Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
+	- [Set Windows configurations for Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#set-windows-configurations-for-azure)<br>
+	- [Check the Windows services](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services)<br>
+	- [Update Remote Desktop registry settings](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#update-remote-desktop-registry-settings)<br>
+	- [Configure Windows Firewall Rules](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#configure-windows-firewall-rules)<br>
+	- [Verify VM is healthy, secure, and accessible with RDP](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#verify-vm-is-healthy-secure-and-accessible-with-rdp)<br>
+	- [Complete recommended configurations](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#complete-recommended-configurations)<br>
 
 
 3. [Upload the VHD to your storage account](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed#upload-the-vhd-to-your-storage-account)<br>
