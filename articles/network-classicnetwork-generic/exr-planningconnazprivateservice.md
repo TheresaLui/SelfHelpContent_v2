@@ -17,8 +17,8 @@
 
 Use below documents to learn about ExpressRoute and how to plan connectivity to Azure Private Services.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-*	Check [ExpressRoute overview](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) to learn about ExpressRoute features and benefits<br>
-* Learn about [ExpressRoute circuits and routing domains](https://docs.microsoft.com/azure/expressroute/expressroute-circuit-peerings)<br>
-*	[Optimize ExpressRoute routing](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing) to lower latency when there are multiple paths connecting to Microsoft
+* [ExpressRoute overview](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) to learn about ExpressRoute features and benefits
+* [ExpressRoute circuits and routing domains](https://docs.microsoft.com/azure/expressroute/expressroute-circuit-peerings)
+* [Optimize ExpressRoute routing](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing) to lower latency when there are multiple paths connecting to Microsoft
