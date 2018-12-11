@@ -72,12 +72,12 @@
                     "order": 4,
                     "visibility": "connect_from == On premise || connect_from == From another cloud provider",
                     "controlType": "dropdown",
-                    "displayLabel": "Was this using Azure site recovery?",
+                    "displayLabel": "Was this using Azure Site Recovery?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "I used Azure site recovery",
-                            "text": "I used Azure site recovery"
+                            "value": "I used Azure Site Recovery",
+                            "text": "I used Azure Site Recovery"
                         },
                         {
                             "value": "I used a third-party migration tool",
