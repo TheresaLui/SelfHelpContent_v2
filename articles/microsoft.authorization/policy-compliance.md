@@ -17,7 +17,7 @@
 
 ## **Recommended steps**
 
-### **How do I view the ‘last evaluated’ timestamp?**
+**How do I view the ‘last evaluated’ timestamp?**
 Click onto an assignment under Compliance. The ‘last evaluated’ timestamp is viewable as the last column of ‘Resource Compliance’ tab. For an initiative assignment, you will need to drill-down to a single policy to view the timestamp, because the evaluation timestamp is at per policy per resource granularity.
 
 ## **Recommended documents**
