@@ -31,7 +31,7 @@
 
 	-	[Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
 	- [Set Windows configurations for Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#set-windows-configurations-for-azure)<br>
-	- [Check the Windows services](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services)<br>
+	- [Check the Windows services](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services)<br>
 	- [Update Remote Desktop registry settings](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#update-remote-desktop-registry-settings)<br>
 	- [Configure Windows Firewall Rules](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#configure-windows-firewall-rules)<br>
 	- [Verify VM is healthy, secure, and accessible with RDP](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#verify-vm-is-healthy-secure-and-accessible-with-rdp)<br>
