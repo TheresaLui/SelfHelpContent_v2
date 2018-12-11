@@ -31,15 +31,13 @@ You can **reset or restart the SSH Service** and **reset credentials** in the fo
   * [Reset SSH configuration and restart SSH service](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#reset-the-ssh-configuration)<br>
   * [Update SSH key](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#use-the-azure-portal)
 
-
 2. Connect to the Azure Portal and **[perform the reset actions using the Password Reset Blade](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)**<br>
-
 3. Alternatively, [perform the reset actions using CLI and VMAccess extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/vmaccess#ways-to-use-the-vmaccess-extension)
 
 If the above fails, you can also use the offline method of [resetting the password by attaching the source OS virtual disk to another VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password). Only use this process as a last resort. Always try to reset a password using the Azure portal or Azure CLI first.
 
 
-**Note:** *If you use the VMAccess Extension to reset the password of your VM after installing the AAD Login Extension you will need to rerun the AAD Login Extension to re-enable AAD Login for your machine.*
+**Note:** If you use the VMAccess Extension to reset the password of your VM after installing the AAD Login Extension, you will need to rerun the AAD Login Extension to re-enable AAD Login for your machine.
 
 ## **Recommended Documents**
 
