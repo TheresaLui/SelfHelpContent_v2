@@ -138,50 +138,21 @@
                             "text": "Android or iOS"
                         },
                         {
-                            "value": "Other",
-                            "text": "Other"
-                        }
-                    ],
-                    "required": false
-                },{
-                "id": "machinetype_other",
-                "order": 7,
-                "visibility": "machinetype == Other",
-                "controlType": "textbox",
-                "displayLabel": "Please specify the type of machine you are trying to RDP into.",
-                "useAsAdditionalDetails": false,
-                "required": false
-                },{
-                    "id": "iscitrixrds",
-                    "order": 8,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is this machine a Citrix or RDS VM?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Citrix VM",
-                            "text": "Citrix VM"
-                        },
-                        {
-                            "value": "RDS VM",
-                            "text": "RDS VM"
-                        },
-                        {
-                            "value": "I do not know",
-                            "text": "I do not know"
+                            "value": "Citrix or RDS",
+                            "text": "Citrix or RDS"
                         }
                     ],
                     "required": false
                 },{
                   "id": "problem_description",
-                  "order": 9,
+                  "order": 8,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 10,
+                  "order": 9,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
