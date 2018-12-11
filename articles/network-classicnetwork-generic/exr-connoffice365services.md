@@ -15,14 +15,16 @@
 
 # Connectivity to Office 365 Services
 
-Note: ARP entries can help validate layer 2 configuration and help troubleshoot basic layer 2 connectivity issues.<br>
+ARP entries can help validate layer 2 configuration and help troubleshoot basic layer 2 connectivity issues.
 
-If there is only one entry in the ARP table, or the on-premise MAC address shows 'incomplete', first open a support request with your connectivity provider to resolve ARP issues.<br>
-*	Verify ARP entries in [Resource Manager](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-resource-manager) or [Classic](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-classic) Deployment models<br>
+## **Recommended Steps**
 
-## **Recommended documents**
+ * If there is only one entry in the ARP table or the on-premise MAC address shows 'incomplete', first open a support request with your connectivity provider to resolve ARP issues
+* Verify ARP entries in [Resource Manager](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-resource-manager) or [Classic](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-arp-classic) Deployment models
 
-*	[Configure route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) to consume a subset of services through Microsoft Peering<br>
-*	Learn about [asymmetric routing](https://docs.microsoft.com/azure/expressroute/expressroute-asymmetric-routing) issues with multiple network paths<br>
-*	[NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat) for ExpressRoute setup<br>
-*	[Verifying ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
+## **Recommended Documents**
+
+* [Configure route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) to consume a subset of services through Microsoft Peering
+* Learn about [asymmetric routing](https://docs.microsoft.com/azure/expressroute/expressroute-asymmetric-routing) issues with multiple network paths
+* [NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat) for ExpressRoute setup
+* [Verifying ExpressRoute Connectivity](https://docs.microsoft.com/azure/expressroute/expressroute-troubleshooting-expressroute-overview)
