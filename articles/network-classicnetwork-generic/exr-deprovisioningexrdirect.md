@@ -13,14 +13,15 @@
 	cloudEnvironments="public"
 />
 
-# Connectivity to Azure Private, Azure Public or Dynamics 365 Services
+# Connectivity to Azure Private, Azure Public, or Dynamics 365 Services
 
-You can delete your ExpressRoute circuit by selecting the delete icon. Note the following information:<br>
-1. You must unlink all virtual networks from the ExpressRoute circuit.<br>
-2. You or your service provider must delete all the BGP Peerings on the circuit.<br>
-3. If the ExpressRoute circuit service provider provisioning state is Provisioning or Provisioned you must work with your service provider to deprovision the circuit on their side.<br>
-4. If the service provider has deprovisioned the circuit (the service provider provisioning state is set to Not provisioned), you can delete the circuit. This stops billing for the circuit.<br>
+You can delete your ExpressRoute circuit by selecting the delete icon. Please note the following information:
 
-## **Recommended documents**
+1. You must unlink all virtual networks from the ExpressRoute circuit
+2. You or your service provider must delete all the BGP Peerings on the circuit
+3. If the ExpressRoute circuit service provider provisioning state is Provisioning or Provisioned, you must work with your service provider to deprovision the circuit on their side
+4. If the service provider has deprovisioned the circuit (the service provider provisioning state is set to **Not Provisioned**), you can delete the circuit. This stops billing for the circuit.
 
-[De-provision and delete](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete) an ExpressRoute circuit
+## **Recommended Documents**
+
+* [Deprovision and delete](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-portal-resource-manager#delete) an ExpressRoute circuit
