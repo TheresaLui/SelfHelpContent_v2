@@ -25,7 +25,7 @@ To resolve this issue, first complete the steps outlined in the section **Error 
 **Error due to COM+ System Application**
 
 * In the **Run** window, enter **services.msc** and click **enter**.
-* Double-click on the service called **Distributed Transaction Coordinator**. Go to the **Log on** tab and verify that the service is running under **This account** > **Network Service**. If this is not the case, then:
+* Double-click on the service called **Distributed Transaction Coordinator**. Go to the **Log on** tab and verify that the service is running as **Network Service**. If this is not the case, then:
 
 	* Click **Browse** to open the **Select User** dialog.
 	* Enter **Network Service** and click **Check Names**. The name of the account will be underlined.
@@ -33,14 +33,15 @@ To resolve this issue, first complete the steps outlined in the section **Error 
 	* Click on the **General** tab and restart the service and click **OK**.
 	* Back in the Services window, right click on the **COM+ System Application service** and select **Restart**.
 	
-*  Go back to the Services window and start the **Distributed Transaction Coordinator** service by performing the below steps:
+* If unable to restart the **COM+ System Application service** then uninstall/install Distributed Transaction Coordinator service performing the below steps:
 
 	* Stop the MSDTC service
 	* Open a command prompt (cmd)
 	* Run command **msdtc -uninstall**
 	* Run command **msdtc -install**
 	* Start the MSDTC service
-	* After completing above troubleshooting steps, trigger an ad-hoc backup from the [portal.azure.com](https://portal.azure.com) to see if the backup operation succeeds. *If the operation fails, then complete the steps in the following section.*<br>
+	
+* After completing above troubleshooting steps, trigger an ad-hoc backup from the [portal.azure.com](https://portal.azure.com) to see if the backup operation succeeds. *If the operation fails, then complete the steps in the following section.*<br>
 	
 **Error due to IaaS VM provider Service<br>**
 
@@ -50,5 +51,5 @@ To resolve this issue, first complete the steps outlined in the section **Error 
 	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgent -> IsProviderInstalled** <br>
 	
 	- **HKEY_LOCAL_MACHINE -> SOFTWARE -> Microsoft -> BCDRAgentPersistentKeys -> IsCommonProviderInstalled** <br>
-	
+		
 * Trigger the backup operation from the [Azure Portal](https://portal.azure.com).
