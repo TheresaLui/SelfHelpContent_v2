@@ -17,13 +17,28 @@
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
 
+## **Recommended Steps**
+
+Azure supports various Linux distributions (see Endorsed Distributions).
+
+1. Following the instructions based on Distro to prepare your image prior to upload.<br>
+
+	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
+	-	[CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
+	- [Red Hat-based](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
+	-  [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
+	- [Debian](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [SLES and openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [Others: Non-Endorsed Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
+
+
+2. [Upload the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#option-1-upload-a-vhd)<br>
+
+3. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#create-the-vm)
+
+4. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#next-steps)
+
 ## **Recommended Documents**
 
-* [Prepare an **Ubuntu** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
-* [Prepare a **CentOS-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
-* [Prepare a **Red Hat-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
-* [Prepare a **Debian** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
-* [Prepare a **SLES** or **openSUSE** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
-* [Understand how to prepare a non-endorsed image for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)<br>
 * [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)
