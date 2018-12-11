@@ -13,11 +13,11 @@
 	cloudEnvironments="public"
 />
 
-# connectivity/cannot connect to virtual machine by using rdp or ssh
+# connectivity/cannot connect to virtual machine using rdp or ssh
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the steps below steps.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 
@@ -32,7 +32,7 @@
   * [Remote Desktop Services is not starting on an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-remote-desktop-services-issues)<br>
   * [Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Detailed steps for troubleshooting RDP connections](https://docs.microsoft.com/azure/virtual-machines/windows/detailed-troubleshoot-rdp)<br>
 * [Troubleshooting specific RDP error messages for a Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-specific-rdp-errors)<br>
@@ -41,6 +41,6 @@
 * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
 * [How to reset network interface for Azure Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-network-interface)
 
-## Recommended service
+## Recommended Service
 
 * [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)
