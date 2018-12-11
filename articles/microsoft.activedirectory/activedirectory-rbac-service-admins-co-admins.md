@@ -17,6 +17,11 @@
 
 # Issues with service admins or co-admins
 
-Choose this category for issues related to updating the classic Service Administrator or Co-Administrator roles for a subscription.
+## Recommended steps
 
-* [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+- If you are having issues with service admin or co-admins, see the recommended documentation.
+
+## Recommended documentation
+
+- [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+- [Classic subscription administrator roles, Azure RBAC roles, and Azure AD administrator roles](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles)
