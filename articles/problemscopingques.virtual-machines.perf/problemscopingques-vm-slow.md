@@ -1,12 +1,14 @@
 <properties
-	pageTitle="Slow virtual machine"
-	description="Slow virtual machine"
-	authors="AlexKuriatnyk"
+	pageTitle="VM Performance"
+	description="VM Performance"
+	authors="AlexKuriatnyk,scottAzure"
+	authorAlias="scotro"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32411877"
+	supportTopicIds="32411877,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	productPesIds="14749"
 	cloudEnvironments="Public"
 	schemaVersion="1"
+  articleId="42a96780-78a9-4ba7-9e84-85277f503f64"
 />
 # VM Performance
 ---
@@ -106,7 +108,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide these details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
