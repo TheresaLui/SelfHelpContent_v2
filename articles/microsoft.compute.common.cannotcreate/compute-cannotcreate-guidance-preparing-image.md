@@ -17,22 +17,17 @@
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
 
-For more information about the support policy for Azure VM, see [Microsoft server software support for Microsoft Azure VMs](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines).
-
 ## **Recommended Steps**
-
-**Note:** If capturing an image already in Azure, follow the instructions for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
-
-Before you upload a Windows virtual machines (VM) from on-premises to Microsoft Azure, you must prepare the virtual hard disk (VHD or VHDX).<br>
 
 1. Review the following documents:<br>
 
-	- [Microsoft server software support for Microsoft Azure virtual machines](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines))<br>
+	- [Microsoft server software support for Microsoft Azure virtual machines](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines)<br>
 	- [Support for 32-bit operating systems in Azure](https://support.microsoft.com/help/4021388/support-for-32-bit-operating-systems-in-azure-virtual-machines)<br>
 	- [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
+	- [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
 
 
-2. [Verify that your image was properly prepared:](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
+2. Verify that your image was properly prepared:<br>
 
 	-	[Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
 	- [Set Windows configurations for Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#set-windows-configurations-for-azure)<br>
@@ -50,6 +45,8 @@ Before you upload a Windows virtual machines (VM) from on-premises to Microsoft 
 5. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
 
 6. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)
+
+**Note:** If capturing an image already in Azure, follow the guidance for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 
 ## **Recommended Documents**
 
