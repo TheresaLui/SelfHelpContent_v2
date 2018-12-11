@@ -5,6 +5,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"
+    authorAlias="rolyon"
     displayOrder=""
     articleId=""
     diagnosticScenario=""
@@ -17,11 +18,11 @@
 
 # Issues with service admins or co-admins
 
-## Recommended steps
+## **Recommended steps**
 
-- If you are having issues with service admin or co-admins, see the recommended documentation.
+- If you are having issues with service admin or co-admins, see the recommended documents.
 
-## Recommended documentation
+## **Recommended documents**
 
 - [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
 - [Classic subscription administrator roles, Azure RBAC roles, and Azure AD administrator roles](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles)
