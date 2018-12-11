@@ -1,7 +1,6 @@
 <properties
     pageTitle="Issues with service admins or co-admins"
     description="Azure Active Directory troubleshooting"
-    infoBubbleText=""
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"

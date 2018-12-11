@@ -1,7 +1,6 @@
 <properties
     pageTitle="Problems with custom roles"
     description="Azure Active Directory troubleshooting"
-    infoBubbleText=""
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"

@@ -1,7 +1,6 @@
 <properties
     pageTitle="Recover RBAC when subscriptions are moved across tenants"
     description="Azure Active Directory troubleshooting"
-    infoBubbleText=""
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"
