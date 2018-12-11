@@ -17,10 +17,10 @@
 
 ## **Recommended steps**
 
-**Issues with tagging or location policy**
+* **Issues with tagging or location policy**
 Please ensure that the policy definition has ‘mode=indexed’. [Learn more](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#mode)
 
 ## **Recommended documents**
 
-[How frequently does Compliance evaluation run?](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#evaluation-triggers)<br>
-[How to] [Trigger the re-evaluation](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#on-demand-evaluation-scan)
+* [How frequently does Compliance evaluation run?](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#evaluation-triggers)
+* [Trigger the re-evaluation](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#on-demand-evaluation-scan)
