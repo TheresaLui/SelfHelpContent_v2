@@ -24,9 +24,9 @@ Azure supports various Linux distributions (see Endorsed Distributions).
 1. Following the instructions based on Distro to prepare your image prior to upload.<br>
 
 	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
-	-	[CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
+	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
 	- [Red Hat-based](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
-	-  [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
+	- [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
 	- [Debian](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
 	- [SLES and openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
 	- [Others: Non-Endorsed Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
