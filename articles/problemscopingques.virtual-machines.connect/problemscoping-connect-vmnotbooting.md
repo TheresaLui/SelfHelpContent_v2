@@ -24,8 +24,8 @@
                     "displayLabel": "What do you need help with?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [{
-                      "value": "Mitigate my non-booting problem",
-                      "text": "Mitigate my non-booting problem"
+                      "value": "Recover my VM from a boot failure",
+                      "text": "Recover my VM from a boot failure"
                       },{
                       "value": "Recreate the Virtual Machine",
                       "text": "Recreate the Virtual Machine"
