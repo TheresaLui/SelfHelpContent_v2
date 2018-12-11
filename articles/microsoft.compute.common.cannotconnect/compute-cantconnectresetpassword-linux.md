@@ -15,7 +15,7 @@
 
 # I need to reset my password
 
-4 out of 5 customers resolved their VM reset password issue using the below steps.<br>
+4 out of 5 customers resolved their VM reset password issue using the steps below.<br>
 
 ## **Recommended Steps**
 
@@ -25,7 +25,7 @@ If you're using Azure CLI, make sure that you have the latest [latest CLI module
 
 You can **reset or restart the SSH Service** and **reset credentials** in the following ways:<br>
 
-1. Reading the online documentation:<br>
+1. Read the online documentation:<br>
 
   * [Reset SSH credentials for a user](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#reset-ssh-credentials-for-a-user)<br>
   * [Reset SSH configuration and restart SSH service](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#reset-the-ssh-configuration)<br>
