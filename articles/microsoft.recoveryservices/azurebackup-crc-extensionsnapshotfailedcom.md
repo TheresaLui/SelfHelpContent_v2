@@ -25,9 +25,9 @@ To resolve this issue, first complete the steps outlined in the section **Error 
 **Error due to COM+ System Application**
 
 * In the **Run** window, enter **services.msc** and click **enter**.
-* Double-click on the service called **Distributed Transaction Coordinator**. Go to the **Log on** tab and verify that the service is running under the account **Network Service**. If this is not the case, then:
+* Double-click on the service called **Distributed Transaction Coordinator**. Go to the **Log on** tab and verify that the service is running under **This account** > **Network Service**. If this is not the case, then:
 
-	* Click **Browse** to open the **Select User dialog**.
+	* Click **Browse** to open the **Select User** dialog.
 	* Enter **Network Service** and click **Check Names**. The name of the account will be underlined.
 	* Click **OK** to get back to the service dialog.
 	* Click on the **General** tab and restart the service and click **OK**.
