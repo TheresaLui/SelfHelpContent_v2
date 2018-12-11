@@ -174,15 +174,32 @@
                         ],
                         "required": false
                     },{
-                    "id": "problem_description",
+                    "id": "connect_ifinternet",
                     "order": 9,
+                    "controlType": "dropdown",
+                    "displayLabel": "Do you have Internet connectivity issues from this VM?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "problem_description",
+                    "order": 10,
                     "controlType": "multilinetextbox",
                     "displayLabel": "Description",
                     "useAsAdditionalDetails": false,
                     "required": true
                     },{
                     "id": "problem_start_time",
-                    "order": 10,
+                    "order": 11,
                     "controlType": "datetimepicker",
                     "displayLabel": "When did the problem start?",
                     "required": true
