@@ -18,7 +18,7 @@ Here are some common issues with executing runbooks in Azure Automation and how 
 
 ## **Recommended Steps**
 
-Specific problems and their solutions are listed below, but we highly recommend you try these two steps before moving to the next section:
+Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
 
 * Try running the runbook locally before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
