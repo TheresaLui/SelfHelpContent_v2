@@ -16,11 +16,10 @@
 # I am unable to deploy a captured or generalized image
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
+
 ## **Recommended Steps**
 
-Azure supports various Linux distributions (see Endorsed Distributions).
-
-1. Following the instructions based on your Distro and prepare your image prior to upload.<br>
+1. Follow the instructions based on your Distro for preparing your image prior to upload.<br>
 
 	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
 	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
