@@ -13,8 +13,11 @@
 	cloudEnvironments="public"
 />
 
-# Partner or provider related help
-## **Recommended documents**
+# Partner or Provider Related Help
+
 Partners and providers can use below documents to learn about Circuit provisioning steps and how to setup and manage routing for ExpressRoute.<br>
-*	[ExpressRoute workflows](https://docs.microsoft.com/azure/expressroute/expressroute-workflows) for circuit provisioning and circuit states<br>
-*	[Routing configuration samples](https://docs.microsoft.com/azure/expressroute/expressroute-config-samples-routing) to setup and manage routing
+
+## **Recommended Documents**
+
+* [ExpressRoute workflows](https://docs.microsoft.com/azure/expressroute/expressroute-workflows) for circuit provisioning and circuit states
+* [Routing configuration samples](https://docs.microsoft.com/azure/expressroute/expressroute-config-samples-routing) to setup and manage routing
