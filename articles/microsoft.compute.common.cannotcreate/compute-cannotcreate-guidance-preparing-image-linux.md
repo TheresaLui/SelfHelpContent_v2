@@ -21,7 +21,7 @@
 
 Azure supports various Linux distributions (see Endorsed Distributions).
 
-1. Following the instructions based on Distro to prepare your image prior to upload.<br>
+1. Following the instructions based on your Distro and prepare your image prior to upload.<br>
 
 	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
 	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
