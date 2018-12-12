@@ -11,7 +11,7 @@
     selfHelpType="generic"
     supportTopicIds="32615422"
     resourceTags=""
-    productPesIds="16578"​
+    productPesIds="16578"
     cloudEnvironments="public"
 />
 
