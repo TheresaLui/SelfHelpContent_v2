@@ -24,37 +24,37 @@ Querying data can be done in two ways: directly querying a specific table, or se
 
 If you know the name of the relevant table, querying it is simple:
 
-   * **Everything in a specific table**
+* **Everything in a specific table**
    
-   To review all log records in a table, write the name of the table:
+To review all log records in a table, write the name of the table:
    
    ```Perf```
    
-   This query returns everything in the *Perf* table, which holds performance-related logs.
+This query returns everything in the *Perf* table, which holds performance-related logs.
    
-   * **Get the latest logs**
+* **Get the latest logs**
    
-   To get the latest records, use the *top* operator. For example:
+To get the latest records, use the *top* operator. For example:
    
-   ```SecurityEvent | top 10 by TimeGenerated```
+```SecurityEvent | top 10 by TimeGenerated```
    
-   This query returns the latest 10 records logged in the *SecurityEvent* table.
+This query returns the latest 10 records logged in the *SecurityEvent* table.
    
-   * **Filter records**
+* **Filter records**
    
-   To review only logs that match a given condition, use the *where* operator:<br/>
+To review only logs that match a given condition, use the *where* operator:<br/>
    
-   ``` SecurityEvent | where Level == 8```
+``` SecurityEvent | where Level == 8```
    
-   This query returns only records in which the Level column holds the value 8.
+This query returns only records in which the Level column holds the value 8.
    
-   * **Search for a term**
+* **Search for a term**
    
-   To search for a term across all columns of a table for an interesting term, use *search*:<br/>
+To search for a term across all columns of a table for an interesting term, use *search*:<br/>
    
-   ``` search in (Event) "timeout"```
+``` search in (Event) "timeout"```
    
-   This query searches the *Event* table for any record that contains the term "timeout".
+This query searches the *Event* table for any record that contains the term "timeout".
 
 ## **Searching through your data set**
 
