@@ -1,5 +1,4 @@
 <properties
-    authorAlias="v-anreg"
     pageTitle="LDAP certificate invalid"
     description="InvalidLdapCertificateIssue"
     infoBubbleText="Found recent LDAP certificate issue. See details on the right."
@@ -35,16 +34,18 @@ To secure the communication with Azure Active Directory, configuration of secure
 1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
 
 ```
-   **$lifetime=Get-Date**
+   $lifetime=Get-Date
    
-   **New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName-->** `
+   New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName--> `
    
-   **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment** `
+   -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
    
-   __-Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName-->__
+   -Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName-->
 ```
    
  2. The newly created self-signed certificate is placed in the local machine's certificate store.
+ 
+ 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled.
 
 ## **Recommended Documents**
 
