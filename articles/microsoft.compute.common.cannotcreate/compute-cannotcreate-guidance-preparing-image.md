@@ -29,7 +29,7 @@
 
 2. Verify that your image was properly prepared:<br>
 
-	-	[Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
+	- [Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
 	- [Set Windows configurations for Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#set-windows-configurations-for-azure)<br>
 	- [Check the Windows services](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#check-the-windows-services)<br>
 	- [Update Remote Desktop registry settings](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#update-remote-desktop-registry-settings)<br>
@@ -48,11 +48,16 @@
 
 **Note:** If capturing an image already in Azure, follow the guidance for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 
+**Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
+
+Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
+
 ## **Recommended Documents**
 
+* [Deploy or create Windows client operating systems in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/client-images)
 * [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)<br>
 * [Use Windows client in Azure for dev/test scenarios](https://docs.microsoft.com/azure/virtual-machines/windows/client-images)
 * [Create a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
-* [Create a VM from a generalized image](https://docs.microsoft.com/azure/virtual-machines/windows/create-vm-generalized-managed)<br>
+* [Create or clone a managed image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 * [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)
