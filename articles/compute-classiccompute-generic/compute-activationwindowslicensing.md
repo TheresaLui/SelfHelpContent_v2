@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1668**).
+Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1668**).<br>
 
 **You are using the Azure KMS Service and VM is not configured correctly**
 
@@ -65,7 +65,7 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 
 	In the second-to-last line of the output, make sure that you see: *Sent = 4, Received = 4, Lost = 0 (0% loss).*<br>
 
-5. Verify that the guest firewall has not been configured in a manner that would block activation attempts.
+5. Verify that the guest firewall has not been configured in a manner that would block activation attempts.<br>
 
 	After you verify successful connectivity to **kms.core.windows.net**, run the following command at that elevated Windows PowerShell prompt. This command tries activation multiple times.<br>
 
@@ -76,7 +76,6 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 
 	Activating Windows(R), ServerDatacenter edition (12345678-1234-1234-1234-12345678) … Product activated successfully.<br>
 
-
 **If you are using a site-to-site VPN and forced tunneling**, see [Use Azure custom routes to enable KMS activation with forced tunneling](https://blogs.msdn.com/b/mast/archive/2015/05/20/use-azure-custom-routes-to-enable-kms-activation-with-forced-tunneling.aspx).<br>
 
 **If you are using Express Route and you have a default route published**, see [Azure VM may fail to activate over Express Route](https://blogs.msdn.com/b/mast/archive/2015/12/01/azure-vm-may-fail-to-activate-over-expressroute.aspx).<br>
@@ -86,6 +85,6 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 * [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)<br>
 * [Understanding Azure KMS endpoints for Windows product activation of Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems#understanding-azure-kms-endpoints-for-windows-product-activation-of-azure-virtual-machines)<br>
 * [Use Azure custom routes to enable KMS activation with forced tunneling](http://blogs.msdn.com/b/mast/archive/2015/05/20/use-azure-custom-routes-to-enable-kms-activation-with-forced-tunneling.aspx)<br>
-* [Azure VM may fail to activate over Express oute](https://blogs.technet.microsoft.com/jpaztech/2016/05/16/azure-vm-may-fail-to-activate-over-expressroute)<br>
+* [Azure VM may fail to activate over Express Route](https://blogs.technet.microsoft.com/jpaztech/2016/05/16/azure-vm-may-fail-to-activate-over-expressroute)<br>
 * [Need to convert an existing VM to use Azure Hybrid Benefit (HUB) for Windows Server?](https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing#convert-an-existing-vm-using-azure-hybrid-benefit-for-windows-server)<br>
 * [How to verify if your VM is utilizing the HUB license](https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing#how-to-verify-your-vm-is-utilizing-the-licensing-benefit)
