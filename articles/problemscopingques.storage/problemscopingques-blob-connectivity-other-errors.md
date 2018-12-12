@@ -2,7 +2,9 @@
 	pageTitle="Blob connectivity other blob service errors"
 	description="Blob connectivity and other blob service errors scoping question"
 	authors="Passaree"
+	authorAlias="passap"
 	selfHelpType="problemScopingQuestions"
+	articleId="StorageScoping_blob_connectivity_otherErrors"
 	supportTopicIds="32602728"
 	productPesIds="16459"
 	cloudEnvironments="public"
@@ -15,7 +17,7 @@
 	"title": "Blob connectivity other blob service errors scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate local start time of the latest occurrence",
@@ -92,11 +94,11 @@
 			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true
 		}
 	]
