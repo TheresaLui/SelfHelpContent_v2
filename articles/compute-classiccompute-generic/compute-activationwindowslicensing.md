@@ -36,7 +36,8 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 
 	cscript c:\windows\system32\slmgr.vbs /ato
 	```
-For example, for Windows Server 2016 Datacenter, you would look up the correct key found in the [KMS client setup key guide](https://technet.microsoft.com/library/jj612867%28v=ws.11%29.aspx?f=255&MSPPError=-2147217396) and run the following command:<br>
+
+	For example, for Windows Server 2016 Datacenter, you would look up the correct key found in the [KMS client setup key guide](https://technet.microsoft.com/library/jj612867%28v=ws.11%29.aspx?f=255&MSPPError=-2147217396) and run the following command:<br>
 
 	```
 	cscript c:\windows\system32\slmgr.vbs /ipk CB7KF-BWN84-R7R2Y-793K2-8XDDG
