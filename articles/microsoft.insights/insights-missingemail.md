@@ -1,7 +1,7 @@
 <properties 
     pageTitle="I should have received email for an alert that fired"
-    description="General troubleshooting guide for missing e-mail from alerts."
-    infoBubbleText="Some suggestions have been found to help solve your missing e-mail issue quicker."
+    description="General troubleshooting guide for missing email from alerts."
+    infoBubbleText="Some suggestions have been found to help solve your missing email issue quicker."
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -15,15 +15,16 @@
  />
  
 # I should have received email for an alert
+
 ## **Recommended Steps**
 
-If you're certain that an alert has generated an event but has not sent an e-mail notification, please check the following:
+If you're certain that an alert has generated an event but has not sent an email notification, please check the following:
 
 1. The e-mail client SPAM settings (Outlook, Gmail)
 2. The e-mail server SPAM/quarantine settings (Exchange, O365, G Suite)
 3. Any e-mail security appliances (Barracuda, Cisco)
-4. If the e-mail is a distribution list, make sure it can receive external e-mails
-5. Look for any unsubscribe e-mail notifications, and check with colleagues if the e-mail is a distribution list
+4. If the e-mail is a distribution list, make sure it can receive external email
+5. Look for any unsubscribe e-mail notifications, and check with colleagues if the email is a distribution list
 6. Review your contact information for your [Azure account profile](https://account.azure.com/Profile)
 
 ## **Recommended Documents**
