@@ -122,6 +122,12 @@
 			],
 			"required": true
 		},{
+			"id": "problem_start_time",
+			"order": 4,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, {
 			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
