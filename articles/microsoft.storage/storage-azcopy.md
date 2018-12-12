@@ -1,9 +1,10 @@
 <properties
-	pageTitle="Transfer Data with AzCopy Utility"
-	description="Transfer Data with AzCopy Utility"
+	pageTitle="Transfer Data with AzCopy v10"
+	description="Transfer Data with AzCopy v10"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="passaree"
+	authors="Sijia"
+	authorAlias="siz"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602696"
