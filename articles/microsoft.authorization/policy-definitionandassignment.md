@@ -15,7 +15,7 @@
 
 # Azure Policy - Defining and Assigning Policies
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * **Issues with assigning the policy definition cross-subscription**
 The ‘[definition location](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#definition-location)’ must be either same or parent level of the assignment. 
@@ -23,7 +23,7 @@ The ‘[definition location](https://docs.microsoft.com/azure/governance/policy/
 * **Issues with Management Group**
 You can leverage [Management Group](https://docs.microsoft.com/azure/governance/management-groups/) to assign the same definition across multiple subscriptions.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Remediate the non-compliant resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources) 
 * [Disable a policy without deleting the assignment](https://docs.microsoft.com/azure/governance/policy/concepts/effects#disabled)
