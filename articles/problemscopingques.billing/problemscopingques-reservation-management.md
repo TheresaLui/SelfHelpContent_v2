@@ -2,6 +2,7 @@
 	pageTitle="Reservation Management"
 	description="Reservation Management"
 	authors="prdasneo"
+	authorAlias="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593227,32593228,32593229"
 	productPesIds="15659"
