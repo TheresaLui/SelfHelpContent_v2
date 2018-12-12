@@ -19,7 +19,7 @@
 
 * **Issues with tagging or location policy**
 
-Please ensure that the policy definition has ‘[mode=indexed](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#mode)'
+Please ensure that the policy definition has ‘[mode=indexed](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#mode)'.
 
 ## **Recommended Documents**
 
