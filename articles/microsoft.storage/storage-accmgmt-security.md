@@ -4,11 +4,12 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	authorAlias="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602691,32602697"
+	supportTopicIds="32602691,32602697,32602775"
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="15629,16461,16462"
 	cloudEnvironments="public"
 />
 
