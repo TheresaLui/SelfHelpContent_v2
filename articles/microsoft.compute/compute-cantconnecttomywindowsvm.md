@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-** Note**: It is recommended to follow the troubleshooting steps below to first identify the problem, then perform the remediation step(s) before opening a support ticket.
+**Note**: It is recommended to follow the troubleshooting steps below to first identify the problem, then perform the remediation step(s) before opening a support ticket.
 
 If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, you can start by accessing the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBladeViewModel.id.$resourceId) for your VM and determine if the VM is experiencing a boot error.<br>
 
