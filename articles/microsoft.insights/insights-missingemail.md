@@ -20,11 +20,11 @@
 
 If you're certain that an alert has generated an event but has not sent an email notification, please check the following:
 
-1. The e-mail client SPAM settings (Outlook, Gmail)
-2. The e-mail server SPAM/quarantine settings (Exchange, O365, G Suite)
-3. Any e-mail security appliances (Barracuda, Cisco)
-4. If the e-mail is a distribution list, make sure it can receive external email
-5. Look for any unsubscribe e-mail notifications, and check with colleagues if the email is a distribution list
+1. The email client SPAM settings (Outlook, Gmail)
+2. The email server SPAM/quarantine settings (Exchange, O365, G Suite)
+3. Any email security appliances (Barracuda, Cisco)
+4. If the email is a distribution list, make sure it can receive external email
+5. Look for any unsubscribe email notifications, and check with colleagues if the email is a distribution list
 6. Review your contact information for your [Azure account profile](https://account.azure.com/Profile)
 
 ## **Recommended Documents**
