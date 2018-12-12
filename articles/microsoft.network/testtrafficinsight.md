@@ -5,6 +5,7 @@ infoBubbleText= "Issues with network traffic routing were detected. See details 
 service="microsoft.network"
 resource="virtualnetworks"
 authors="chadmath"
+authorAlias="chadmat"
 displayOrder=""
 articleId="TestTrafficGeneral"
 diagnosticScenario="TestTrafficGeneral"
