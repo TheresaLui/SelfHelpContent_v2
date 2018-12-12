@@ -16,7 +16,7 @@ cloudEnvironments="Public" />
 <!--issueDescription-->
 We have identified an issue which is preventing you from being able to remote into your VM **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**. We identified that <!--$InsightDescription-->[InsightDescription]<!--/$InsightDescription-->
 <!--/issueDescription-->
-## Recommented Actions:
+## Recommended Actions:
 <!--$InsightRecommendedSteps-->[InsightRecommendedSteps]<!--/$InsightRecommendedSteps-->
-## Tests Execeuted: 
+## Tests Executed: 
 <!--$TestTrafficExecutionDetails-->[TestTrafficExecutionDetails]<!--/$TestTrafficExecutionDetails-->
