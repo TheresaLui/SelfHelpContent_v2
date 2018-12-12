@@ -7,6 +7,7 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="noakup"
+authoralias="noakuper"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612464"
@@ -23,35 +24,51 @@ Querying data can be done in two ways: directly querying a specific table, or se
 
 If you know the name of the relevant table, querying it is simple:
 
-   * Everything in a specific table
+   * **Everything in a specific table**
+   
    To review all log records in a table, write the name of the table:
+   
    ```Perf```
+   
    This query returns everything in the *Perf* table, which holds performance-related logs.
    
-   * Get the latest logs
+   * **Get the latest logs**
+   
    To get the latest records, use the *top* operator. For example:
+   
    ```SecurityEvent | top 10 by TimeGenerated```
+   
    This query returns the latest 10 records logged in the *SecurityEvent* table.
    
-   * Filter records<br/>
+   * **Filter records**
+   
    To review only logs that match a given condition, use the *where* operator:<br/>
+   
    ``` SecurityEvent | where Level == 8```
+   
    This query returns only records in which the Level column holds the value 8.
    
-   * Search for a term<br/>
+   * **Search for a term**
+   
    To search for a term across all columns of a table for an interesting term, use *search*:<br/>
+   
    ``` search in (Event) "timeout"```
+   
    This query searches the *Event* table for any record that contains the term "timeout".
 
-2. Searching through your data set <br/>
+2. Searching through your data set 
 
-   If you don't know which table to query, or intentionally want to query across all tables - you can run an open search query:<br/>
+   If you don't know which table to query or intentionally want to query across all tables, you can run an open search query:
+   
    ``` search "error"```
-   The query returns every log records the contains the term "error". <br/>
-   This type of query may be easier to start with if you're not familiar with the schema of tables, but is less recommended since it may take a longer time to run, and may return too many results.
+   
+   The query returns every log records the contains the term "error".
+   
+This type of query may be easier to start with if you're not familiar with the schema of tables, but is less recommended since it may take a longer time to run, and may return too many results.
 
 ## Can't find your data?
-If your query is valid but it does not return the log records you expect, consider the following:<br/>
+
+If your query is valid but it does not return the log records you expect, consider the following:
 
 * By default, the Log Analytics query editor applies a "last 24 hours" time range. You can use the time picker (located next to the *Run* button) to set a different time range.
 * The Log Analytics query editor displays up to 10,000 log records, unsorted. This means you may see partial data, and not necessarily the latest records. To assure you're seeing the latest records, apply conditions to filter out irrelevant log records, and use the *top* operator as shown in the example above.
