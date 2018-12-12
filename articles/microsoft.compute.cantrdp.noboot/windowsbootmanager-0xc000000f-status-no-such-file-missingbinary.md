@@ -5,7 +5,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="Ram-Kakani,timbasham"
-    authorAlias="ramak,tibasham
+    authorAlias="ramak,tibasham"
     displayOrder=""
     articleId="WindowsBootManager-0xC000000F-STATUS_NO_SUCH_FILE-MissingBinary"
     diagnosticScenario="booterror"

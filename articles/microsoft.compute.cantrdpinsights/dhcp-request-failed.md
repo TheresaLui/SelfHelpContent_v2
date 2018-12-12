@@ -23,6 +23,6 @@ We have investigated and detected that the virtual machine (VM) <!--$vmname-->[v
 
 ## **Recommended Steps**
 
-* Redploy to a new host by accessing the [VM properties blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) in the Azure portal and clicking `Redeploy`.<br>
+* Redeploy to a new host by accessing the [VM properties blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/overview) in the Azure portal and clicking `Redeploy`.<br>
 * Resetting the guest NIC may restore RDP connectivity to the VM, please find instructions for mitigating this issue [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-network-interface).<br>
-* Check that the DHCP client service is enabled, please find instructions for mitigating this issue [here](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-dhcp-disabled).
+* Check that the DHCP client service is enabled, please find instructions for mitigating this issue [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-dhcp-disabled).
