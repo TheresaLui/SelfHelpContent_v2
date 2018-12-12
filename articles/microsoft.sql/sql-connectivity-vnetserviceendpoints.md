@@ -1,17 +1,17 @@
 <properties
-	pageTitle="connectivity/VNET service endpoints"
-	description="connectivity/VNET service endpoints"
+	pageTitle="availability and connectivity/VNET service endpoints"
+	description="availability and connectivity/VNET service endpoints"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32589555"
+	supportTopicIds="32628804"
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# connectivity/VNET service endpoints
+# availability and connectivity/VNET service endpoints
 
 ## **Recommended documents**
 

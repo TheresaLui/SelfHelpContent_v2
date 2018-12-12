@@ -9,7 +9,7 @@
 	articleId="dbformysql-asc-18470-4"
 	diagnosticScenario="OrcasMySQLServerNotFoundInBackend"
 	selfHelpType="rca"
-	supportTopicIds="32568715, 32568711"
+	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
 	cloudEnvironments="public"
@@ -22,7 +22,7 @@ Thank you for contacting Microsoft support about your connection issues with Azu
 
 ## **Recommended steps**
 
-To fix this issue, please ensure that the server name you specify as part of the user name is correct and matches the server name in the host name. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-connection-string) for assistance with constructing a connection string for your Azure Database for MySQL sever.
+To fix this issue, please ensure you use {user_name}@{server_name} as the format for your user name. The {server_name} must be the name of the server you are trying to connect to. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-connection-string) for assistance with constructing a connection string for your Azure Database for MySQL server.
 
 ## **Recommended documents**
 

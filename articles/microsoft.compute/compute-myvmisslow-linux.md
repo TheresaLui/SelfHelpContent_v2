@@ -4,9 +4,10 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder="10"
 	selfHelpType="resource"
-	supportTopicIds="32411877,32511162"
+	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
@@ -14,9 +15,9 @@
 
 # My VM is slow
 
-## **Recommended steps**
+Try the following steps to diagnose and mitigate VM performance issues.<br>
 
-Try the following steps to diagnose and mitigate VM performance issues:
+## **Recommended steps**
 
 1. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
 2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>

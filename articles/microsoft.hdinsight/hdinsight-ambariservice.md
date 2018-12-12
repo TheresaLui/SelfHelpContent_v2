@@ -1,4 +1,5 @@
 <properties
+    authorAlias="v-anreg"
     pageTitle="Ambari service running on both headnodes"
     description="AmbariPortalIssue"
     infoBubbleText="Ambari service is running on both headnodes. See details on the right."
@@ -27,29 +28,16 @@ Since the **headnodehost** is receiving heartbeats from all machines, it can dis
 
 ## **Recommended Steps**
 
-1. Connect to Ambari service using Secure Shell (SSH).<br>
-```	
+1. You can connect to Ambari service using Secure Shell (SSH)
 
-		ssh <clustername>-ssh.azurehdinsight.net
-		
-```
-
-2. Open host file /etc/host on one of the headnodes using Vi.<br>
-```
-
-		vi /etc/hosts/
-		
-```
-
-3. Look up for the headnode which has **headnodehost** mentioned next to it. This headnode is the active node. The other headnode which does not have **headnodehost** mentioned is the standby node.
-
-4. Stop Ambari service on the standby node.<br>
-```
-
-		sudo ambari-server stop
-		
-```
-
+	**ssh \<clustername>\-ssh.azurehdinsight.net** <br>	
+2. Run the following command to open host file /etc/host on one of the headnodes using Vi
+	
+	**vi /etc/hosts/** <br>
+3. Look up for the headnode which has **headnodehost** mentioned next to it to verify that this headnode is the active node. The other headnode which does not have **headnodehost** mentioned is the standby node
+4. Run the following command to stop Ambari service on the standby node
+	
+	**sudo ambari-server stop** <br>
 ## **Recommended Documents**
 
 * [Connect to HDInsight using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)

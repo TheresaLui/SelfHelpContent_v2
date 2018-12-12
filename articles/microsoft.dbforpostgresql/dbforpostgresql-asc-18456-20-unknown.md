@@ -9,7 +9,7 @@
 	articleId="dbforpostgresql-asc-18456-20-unknown"
 	diagnosticScenario="OrcasPostgresBackendErrorUnKnownReasons"
 	selfHelpType="rca"
-	supportTopicIds="32569389, 32569392, 32569390"
+	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
 	cloudEnvironments="public"
@@ -17,12 +17,12 @@
 # Can't connect PostgreSQL database server
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our initial investigation we determined that the server was restarted between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->, causing <!--$Count-->Count<!--/$Count--> connection attempts to fail. We have forwarded the issue to the MySQL engineering team for further investigation. We will reach back out to you with more information shortly.
+Thank you for contacting Microsoft support about your connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our initial investigation we determined that the server was restarted between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->, causing <!--$Count-->Count<!--/$Count--> connection attempts to fail. We have forwarded the issue to the PostgreSQL engineering team for further investigation. We will reach back out to you with more information shortly.
 <!--/issueDescription-->
 
 ## **Recommended steps**
 
-As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-high-availability) for more details.
+As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) for more details.
 
 ## **Recommended documents**
 
