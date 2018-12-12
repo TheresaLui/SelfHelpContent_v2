@@ -7,7 +7,7 @@
     authors="nealbh"
     authorAlias="nebhatta"
     displayOrder="33"
-    articleId="Hdi_Crud_Checkpoint"
+    articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"
     selfHelpType="rca"
     supportTopicIds="32588504"
@@ -27,6 +27,6 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 <!--$listhosts-->[listhosts]<!--/$listhosts-->
 
 * Once both Namenodes are running to get rid of the NameNode Last Checkpoint Alert run the following commands
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode enter
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -saveNamespace
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
+  - hdfs dfsadmin -safemode enter
+  - hdfs dfsadmin -saveNamespace
+  - hdfs dfsadmin -safemode leave
