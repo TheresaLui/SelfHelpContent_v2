@@ -18,13 +18,14 @@
 			"id": "problem_start_date",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate start time of the most recent occurrence",
+			"displayLabel": "Approximate local start time of the latest occurrence",
 			"required": true
 		}, {
 			"id": "error_code_dropdown",
 			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Error code",
+			"watermarkText": "HTTP error of failed operation",
 			"dropdownOptions": [{
 					"value": "HTTP_304",
 					"text": "HTTP 304"
