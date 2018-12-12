@@ -5,6 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    authorAlias="jamdavi"
     articleId="insights_missingemail"
     displayOrder="5"
     selfHelpType="resource"

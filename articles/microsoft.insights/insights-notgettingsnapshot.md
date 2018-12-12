@@ -4,10 +4,11 @@
     service="microsoft.insights"
     resource="components"
     authors="brahmnes"
+    authorAlias="brahmnes"
     displayOrder="41"
     selfHelpType="generic"
+    productPesIds="15693"
     supportTopicIds="32602205"
-    producePesIds="15693"
     cloudEnvironments="public"
  />
 # I am not getting debug snapshots
