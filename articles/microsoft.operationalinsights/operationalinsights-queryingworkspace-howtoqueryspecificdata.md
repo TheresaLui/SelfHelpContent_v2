@@ -20,7 +20,7 @@ cloudEnvironments="Public, Fairfax"
 
 Querying data can be done in two ways: directly querying a specific table, or searching through your entire set of data. The first approach is preferable, since it's scoped to a relevant data source and therefore more efficient.
 
-## **Querying a specific table**
+### **Querying a specific table**
 
 If you know the name of the relevant table, querying it is simple:
 
@@ -56,7 +56,7 @@ To search for a term across all columns of a table for an interesting term, use 
    
 This query searches the *Event* table for any record that contains the term "timeout".
 
-## **Searching through your data set**
+### **Searching through your data set**
 
 If you don't know which table to query or intentionally want to query across all tables, you can run an open search query:
    
@@ -66,7 +66,7 @@ The query returns every log records the contains the term "error".
    
 This type of query may be easier to start with if you're not familiar with the schema of tables, but is less recommended since it may take a longer time to run, and may return too many results.
 
-## Can't find your data?
+### **Can't find your data?**
 
 If your query is valid but it does not return the log records you expect, consider the following:
 
