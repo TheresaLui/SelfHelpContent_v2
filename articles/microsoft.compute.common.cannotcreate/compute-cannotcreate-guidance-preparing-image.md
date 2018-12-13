@@ -26,7 +26,6 @@
 	- [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
 	- [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
 
-
 2. Verify that your image was properly prepared:<br>
 
 	- [Convert the virtual disk to VHD and fixed size disk](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#convert-the-virtual-disk-to-vhd-and-fixed-size-disk)<br>
@@ -37,16 +36,12 @@
 	- [Verify VM is healthy, secure, and accessible with RDP](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#verify-vm-is-healthy-secure-and-accessible-with-rdp)<br>
 	- [Complete recommended configurations](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image#complete-recommended-configurations)<br>
 
-
 3. [Upload the VHD to your storage account](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed#upload-the-vhd-to-your-storage-account)<br>
-
 4. [Create a managed image from the uploaded VHD](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed#create-a-managed-image-from-the-uploaded-vhd)<br>
-
 5. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
-
 6. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)
 
-**Note:** If capturing an image already in Azure, follow the guidance for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
+**Note:** If capturing an image already in Azure, follow the instructions for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).<br>
 
 **Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
 
