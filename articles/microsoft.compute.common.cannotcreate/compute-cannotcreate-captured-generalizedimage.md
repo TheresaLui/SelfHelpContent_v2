@@ -21,10 +21,10 @@
 
 1. Review the following documents:<br>
 
-- [Microsoft server software support for Microsoft Azure virtual machines](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines)<br>
-- [Support for 32-bit operating systems in Azure](https://support.microsoft.com/help/4021388/support-for-32-bit-operating-systems-in-azure-virtual-machines)<br>
-- [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
-- [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
+	- [Microsoft server software support for Microsoft Azure virtual machines](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines)<br>
+	- [Support for 32-bit operating systems in Azure](https://support.microsoft.com/help/4021388/support-for-32-bit-operating-systems-in-azure-virtual-machines)<br>
+	- [Upload a generalized VHD and use it to create new VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
+	- [Prepare a Windows VHD or VHDX to upload to Azure](https://docs.microsoft.com/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
 
 
 2. Verify that your image was properly prepared:<br>
@@ -39,14 +39,11 @@
 
 
 3. [Upload the VHD to your storage account](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed#upload-the-vhd-to-your-storage-account)<br>
-
 4. [Create a managed image from the uploaded VHD](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed#create-a-managed-image-from-the-uploaded-vhd)<br>
-
 5. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/windows/upload-generalized-managed)
-
 6. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)
 
-**Note:** If capturing an image already in Azure, follow the guidance for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
+**Note:** If capturing an image already in Azure, follow the instructions for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource)<br>
 
 ## **Recommended Documents**
 
