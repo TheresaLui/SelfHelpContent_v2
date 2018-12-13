@@ -15,12 +15,11 @@
 
 # My configuration change impacted connectivity
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the steps below.<br>
 
 ## **Recommended Steps**
 
 1. [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
-
 2. Refer to these articles to troubleshoot common errors:
 
    * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
@@ -38,19 +37,19 @@
    * [VM guest network cable disconnected (Windows 10 or Windows Server 2016)](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc)<br>
    * [Network Security Group misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem)
   
-    Common guest OS firewall issues:
+### **Common guest OS firewall issues**:
   
      * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
      * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
      * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
      * [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)
 
-**Recommended Documents**
+## **Recommended Documents**
 
   * [Understanding how to reset the network interface for Windows VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-network-interface)<br>
   * [Troubleshooting specific RDP error messages for a Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-specific-rdp-errors)
 
-**Additional Documents**<br>
+### **Additional Documents**<br>
 
   * [How to use boot diagnostics to troubleshoot Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/boot-diagnostics)<br>
   * [How to reset the Remote Desktop service or its login password in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp)<br>
