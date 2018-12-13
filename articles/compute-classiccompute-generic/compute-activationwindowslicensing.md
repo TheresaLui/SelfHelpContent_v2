@@ -13,9 +13,9 @@
 	cloudEnvironments="public"
 />
 
-# Issues that are related to activating a Windows license in Azure
+# Issues related to activating a Windows license in Azure
 
-4 out of 5 customers resolved their VM Windows Activation issue using the below steps.<br>
+4 out of 5 customers resolved their VM Windows Activation issue using the steps below.
 
 ## **Recommended Steps**
 
@@ -23,9 +23,9 @@ Generally, Azure VM activation issues occur if the Windows VM is not configured 
 
 **You are using the Azure KMS Service and VM is not configured correctly**
 
-The guidance outlined below can be found **[here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems#step-1-configure-the-appropriate-kms-client-setup-key-for-windows-server-2016-and-windows-server-2012-r2)**
+The guidance outlined below can be found **[here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems#step-1-configure-the-appropriate-kms-client-setup-key-for-windows-server-2016-and-windows-server-2012-r2)**.
 
-1. Run slmgr.vbs /dlv at an elevated command prompt (run as Administrator). Check the *Description value* in the *output*, and then determine whether it was created from retail (RETAIL channel) or volume (VOLUME_KMSCLIENT) license media:<br>
+1. Run (as Administrator) ```slmgr.vbs /dlv``` at an elevated command prompt. Check the *Description value* in the *output*, then determine whether it was created from retail (RETAIL channel) or volume (VOLUME_KMSCLIENT) license media:<br>
 
 	```
 	cscript c:\windows\system32\slmgr.vbs /dlv
@@ -47,8 +47,8 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 
 **Verify the connectivity between the VM and Azure KMS service**<br>
 
-1. Download and extract the [PSping](http://technet.microsoft.com/sysinternals/jj729731.aspx) tool to a local folder in the VM that does not activate.<br>
-2. Go to Start, search on Windows PowerShell, right-click Windows PowerShell, and then select *Run as administrator*.<br>
+1. Download and extract the [PSping](http://technet.microsoft.com/sysinternals/jj729731.aspx) tool to a local folder in the VM that does not activate
+2. Go to Start, search on Windows PowerShell, right-click Windows PowerShell, and then select *Run as administrator*
 3. Make sure that the VM is configured to use the correct Azure KMS server. To do this, run the following command:<br>
 
 	```
