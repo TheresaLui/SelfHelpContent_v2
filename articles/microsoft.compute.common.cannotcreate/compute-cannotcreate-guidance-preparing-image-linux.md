@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-1. Follow the instructions based on your Distro for preparing your image prior to upload.<br>
+1. Follow the instructions based on your distribution for preparing your image prior to upload.<br>
 
 	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
 	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
@@ -35,16 +35,13 @@
 
 4. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#next-steps)
 
-## **Recommended Documents**
-
-* [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
-
 **Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
 
 Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
 
 ## **Recommended Documents**
 
+* [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Prepare an **Ubuntu** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)
 * [Prepare a **CentOS-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)
 * [Prepare a **Red Hat-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)
