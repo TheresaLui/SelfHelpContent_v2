@@ -22,4 +22,5 @@ We have investigated and detected that the virtual machine (VM) <!--$vmname-->[v
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-[Activating or resetting the guest NIC](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled) may restore RDP connectivity to the VM <!--$vmname-->[vmname]<!--/$vmname-->
+
+* [Activating or resetting the guest NIC](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled) may restore RDP connectivity to the VM <!--$vmname-->[vmname]<!--/$vmname-->
