@@ -20,7 +20,7 @@
 
 We have detected sign-in issues for one or more of your federated domains. This is caused by a mismatch between the token signing certificate that AD FS is using to issue authentication tokens and the public key that Azure AD is using to validate the tokens. This error could occur due to your federation metadata not being available externally. In addition to the steps below, verify that the metadata is available by using the [Federation Metadata Explorer](https://adfshelp.microsoft.com/MetadataExplorer/GetFederationMetadata) tool.
 
-We detected the following domains that are experiencing these failures: <!--$Domains-->Domains<!--/$Domains-->
+We detected the following domains that are experiencing these failures: **<!--$Domains-->Domains<!--/$Domains-->**
 
 ## **Recommended Steps**
 
