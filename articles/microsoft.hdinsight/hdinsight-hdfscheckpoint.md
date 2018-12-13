@@ -24,7 +24,7 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 * Log onto your HDInsight cluster
 
 * Restart Ambari service, on the nodes listed below, using this command :  
-  *sudo service ambari-agent restart*
+  *sudo service ambari-agent restart*  
   Note : If the following list is empty this step can be skipped  
   <!--$listhosts-->[listhosts]<!--/$listhosts-->
 
