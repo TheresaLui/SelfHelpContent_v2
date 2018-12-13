@@ -1,0 +1,18 @@
+<properties
+	pageTitle="security, privacy and compliance/auditing"
+	description="security, privacy and compliance/auditing"
+	service="microsoft.sql"
+	resource="servers"
+	authors="emlisa"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32574327"
+	resourceTags=""
+	productPesIds="13491"
+	cloudEnvironments="public"
+/>
+
+# security, privacy and compliance/auditing
+
+## **Recommended documents**
+* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)<br>

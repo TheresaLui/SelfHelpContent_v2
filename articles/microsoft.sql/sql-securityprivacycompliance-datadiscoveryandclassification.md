@@ -1,0 +1,19 @@
+<properties
+	pageTitle="security, privacy and compliance/data discovery and classification"
+	description="security, privacy and compliance/data discovery and classification"
+	service="microsoft.sql"
+	resource="servers"
+	authors="emlisa"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32629699"
+	resourceTags=""
+	productPesIds="13491"
+	cloudEnvironments="public"
+/>
+
+# security, privacy and compliance/data discovery and classification
+
+## **Recommended documents**
+* [Data discovery and classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification/)<br>
+* [Advanced Threat Protection](https://docs.microsoft.com/azure/sql-database/sql-advanced-threat-protection)
