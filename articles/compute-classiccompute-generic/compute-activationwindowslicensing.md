@@ -31,7 +31,7 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 	cscript c:\windows\system32\slmgr.vbs /dlv
 	```
 
-2. If *slmgr.vbs /dlv* shows RETAIL channel, run the following commands to set the [KMS client setup key](https://technet.microsoft.com/library/jj612867%28v=ws.11%29.aspx?f=255&MSPPError=-2147217396) for the version of Windows Server being used, and force it to retry activation:<br>
+2. If ```slmgr.vbs /dlv``` shows RETAIL channel, run the following commands to set the [KMS client setup key](https://technet.microsoft.com/library/jj612867%28v=ws.11%29.aspx?f=255&MSPPError=-2147217396) for the version of Windows Server being used, and force it to retry activation:<br>
 
 	```
 	cscript c:\windows\system32\slmgr.vbs /ipk <KMS client setup key>
@@ -54,8 +54,9 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 	```
 	iex "$env:windir\system32\cscript.exe $env:windir\system32\slmgr.vbs /skms kms.core.windows.net:1688"
 
-	The command should return: *Key Management Service machine name set to kms.core.windows.net:1688 successfully.*<br>
 	```
+
+	The command should return: *Key Management Service machine name set to kms.core.windows.net:1688 successfully.*<br>
 
 4. Verify by using **Psping** that you have connectivity to the KMS server. Switch to the folder where you extracted the Pstools.zip download, and then run the following:<br>
 
@@ -72,6 +73,7 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 	```
 	1..12 | % { iex “$env:windir\system32\cscript.exe $env:windir\system32\slmgr.vbs /ato” ; start-sleep 5 }
 	```
+	
 	A successful activation returns information that resembles the following:<br>
 
 	Activating Windows(R), ServerDatacenter edition (12345678-1234-1234-1234-12345678) … Product activated successfully.<br>
