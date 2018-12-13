@@ -15,7 +15,7 @@
 
 # Azure Backup - Configuration and Setup
 
-4 out of 5 customers resolve their Azure Backup issues using the below steps.<br>
+4 out of 5 customers resolve their Azure Backup issues using the steps below.<br>
 
 ## **Recommended Steps**
 
@@ -36,7 +36,7 @@
 		- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 		- [Restore Key Vault key and secret for encrypted VMs using Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)
 
-2. Troubleshoot Azure Backup issues by reviewing the top issues customers are encountering.<br>
+2. Troubleshoot Azure Backup issues by reviewing the top issues customers are encountering:<br>
 	- [Review failure scenarios specific to virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)<br>
 	- [Troubleshoot Azure Backup issues from the perspective of the agent and  extension](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)<br>
 	- [Troubleshoot slow backup of files and folders in Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue)<br>
