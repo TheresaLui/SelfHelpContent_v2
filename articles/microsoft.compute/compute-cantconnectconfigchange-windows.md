@@ -37,7 +37,7 @@
    * [VM guest network cable disconnected (Windows 10 or Windows Server 2016)](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc)<br>
    * [Network Security Group misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem)
   
-### **Common guest OS firewall issues**:
+### **Common guest OS firewall issues**
   
 * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
