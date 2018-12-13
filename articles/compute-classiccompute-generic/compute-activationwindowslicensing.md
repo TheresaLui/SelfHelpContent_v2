@@ -74,9 +74,7 @@ The guidance outlined below can be found **[here](https://docs.microsoft.com/azu
 	1..12 | % { iex “$env:windir\system32\cscript.exe $env:windir\system32\slmgr.vbs /ato” ; start-sleep 5 }
 	```
 	
-	A successful activation returns information that resembles the following:<br>
-
-	Activating Windows(R), ServerDatacenter edition (12345678-1234-1234-1234-12345678) … Product activated successfully.<br>
+	A successful activation returns information that resembles the following: *Activating Windows(R), ServerDatacenter edition (12345678-1234-1234-1234-12345678) … Product activated successfully*.<br>
 
 **If you are using a site-to-site VPN and forced tunneling**, see [Use Azure custom routes to enable KMS activation with forced tunneling](https://blogs.msdn.com/b/mast/archive/2015/05/20/use-azure-custom-routes-to-enable-kms-activation-with-forced-tunneling.aspx).<br>
 
