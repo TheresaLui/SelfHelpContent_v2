@@ -35,13 +35,14 @@
 
 4. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#next-steps)
 
+**Note:** If capturing an image already in Azure, follow the instructions for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).<br>
+
 **Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
 
 Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
 
 ## **Recommended Documents**
 
-* [Create an image of a generalized VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image)<br>
 * [Prepare an **Ubuntu** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)
 * [Prepare a **CentOS-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)
 * [Prepare a **Red Hat-based** virtual machine for Azure](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)
