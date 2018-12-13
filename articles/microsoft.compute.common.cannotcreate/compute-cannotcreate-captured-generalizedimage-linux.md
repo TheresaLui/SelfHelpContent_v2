@@ -21,13 +21,13 @@
 
 1. Follow the instructions based on your distribution for preparing your image prior to upload:
 
-- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
-- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
-- [Red Hat-based](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
-- [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
-- [Debian](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
-- [SLES and openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
-- [Others: Non-Endorsed Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
+	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
+	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
+	- [Red Hat-based](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
+	- [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
+	- [Debian](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [SLES and openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [Others: Non-Endorsed Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
 
 2. [Upload the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#option-1-upload-a-vhd)<br>
 3. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#create-the-vm)
