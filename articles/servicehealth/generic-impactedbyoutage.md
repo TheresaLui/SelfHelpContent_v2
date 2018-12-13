@@ -4,7 +4,7 @@
 	infoBubbleText="Your resource may be impacted by an Azure service issue"
 	service="microsoft.resourcehealth"
 	resource="resourcehealth"
-	authors="stbaron"
+	authors="stephbaron"
 	articleId="Service-healthevent-article-id"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
