@@ -17,6 +17,26 @@
 
 4 out of 5 customers resolved their issue with the guides listed below.<br>
 
+## **Recommended Steps**
+
+1. Follow the instructions based on your distribution for preparing your image prior to upload.<br>
+
+	- [Ubuntu](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)<br>
+	- [CentOS-based](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)<br>
+	- [Red Hat-based](https://docs.microsoft.com/azure/virtual-machines/linux/redhat-create-upload-vhd)<br>
+	- [Oracle](https://docs.microsoft.com/azure/virtual-machines/linux/oracle-create-upload-vhd)<br>
+	- [Debian](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [SLES and openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/debian-create-upload-vhd)<br>
+	- [Others: Non-Endorsed Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic)
+
+2. [Upload the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#option-1-upload-a-vhd)<br>
+
+3. [Create the VM](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#create-the-vm)
+
+4. [Open any ports or endpoints](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd#next-steps)
+
+**Note:** If capturing an image already in Azure, follow the instructions for [capturing a VM to image in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/capture-image-resource).<br>
+
 **Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
 
 Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
