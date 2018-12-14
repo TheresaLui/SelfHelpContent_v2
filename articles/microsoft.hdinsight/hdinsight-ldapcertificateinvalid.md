@@ -29,19 +29,19 @@ To secure the communication with Azure Active Directory, configuration of secure
 
 **Create a self-signed certificate for secure LDAP**
 
-**Note:** Please make sure you are using <!--$DomainName-->[DomainName]<!--/$DomainName--> and not using <!--$IpAddress-->[IpAddress]<!--/$IpAddress--> as the LDAPS URL while creating the cluster before following the steps given below:
+<!--$Note-->[Note]<!--/$Note-->
 
 1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
 
-```
-   $lifetime=Get-Date
+      **$lifetime=Get-Date**
+                
+      **New-SelfSignedCertificate -Subject \*.<!--$DomainName-->[DomainName]<!--/$DomainName-->** 
+
+      **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment** 
    
-   New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName--> `
-   
-   -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
-   
-   -Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName-->
-```
+      **-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->", "<!--$DomainName-->[DomainName]<!--/$DomainName-->"**
+
+
    
  2. The newly created self-signed certificate is placed in the local machine's certificate store.
  
