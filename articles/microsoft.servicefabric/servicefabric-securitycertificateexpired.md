@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security/certificateexpired
+# Certificate Expired
 
 ## **Recommended Documents**
 
