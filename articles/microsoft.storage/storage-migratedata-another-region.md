@@ -5,11 +5,11 @@
 	resource="storageaccounts"
 	authors="passaree"
 	authorAlias="passap"
-	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds="32602711,32602773"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32602700,32602736,32602737"
 	resourceTags=""
-	productPesIds="16459,16461,16462"
+	productPesIds="15629,16459"
 	cloudEnvironments="public"
 />
 
