@@ -43,7 +43,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "watermarkText": "If applicable, please provide sync group name, server endpoint name and error message.",
+            "watermarkText": "If applicable, please provide sync group name, server endpoint name, and error message.",
             "required": true,
             "useAsAdditionalDetails": true
         },
