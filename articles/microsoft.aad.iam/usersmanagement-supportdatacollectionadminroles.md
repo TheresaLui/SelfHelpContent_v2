@@ -10,7 +10,7 @@
 # Other problem with Azure AD admin role 
 ---
 {
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Other problem with Azure AD admin role",
   "fileAttachmentHint": "Screenshot that shows the problem",
   "formElements": [
@@ -596,7 +596,7 @@
       "numberOfLines": 0
     },
     {
-      "id": "supportDataCollectionAdminRolesadditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 29,
       "controlType": "multilinetextbox",

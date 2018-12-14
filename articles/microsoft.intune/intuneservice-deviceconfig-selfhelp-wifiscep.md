@@ -23,4 +23,4 @@ Check that your device received the certificate.
 
 If you have intermediate certificates in your certificate chain, make sure those are deployed to Android devices. To check the certificate status, go to **Device configuration > Profiles > Android intermediate CA > Properties > Trusted Certificate**.
 
-If you continue to see errors, review the procedures and troubleshooting sections in the Intune (SCEP)[https://docs.microsoft.com/intune/certificates-scep-configure) or (PKCS)[https://docs.microsoft.com/intune/certficates-pfx-configure] documentation.
+If you continue to see errors, review the procedures and troubleshooting sections in the Intune [SCEP](https://docs.microsoft.com/intune/certificates-scep-configure) or [PKCS](https://docs.microsoft.com/intune/certficates-pfx-configure) documentation.

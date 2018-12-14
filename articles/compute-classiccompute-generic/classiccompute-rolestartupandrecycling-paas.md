@@ -35,7 +35,7 @@ For more information on how to troubleshoot these types of problems, see the fol
 
 * [Common issues that cause roles to recycle](https://azure.microsoft.com/documentation/articles/cloud-services-troubleshoot-common-issues-which-cause-roles-recycle/)<br>
 * [Common steps to troubleshoot & address Cloud Service roles that fail to start](https://azure.microsoft.com/documentation/articles/cloud-services-troubleshoot-roles-that-fail-start/)<br>
-[Application issues which can cause Role to recycle](https://blogs.msdn.microsoft.com/pratyay/2018/07/30/cloud-service-troubleshooting-series/)<br>
+* [Application issues which can cause Role to recycle](https://blogs.msdn.microsoft.com/pratyay/2018/07/30/cloud-service-troubleshooting-series/)<br>
 * [Troubleshoot Cloud Services common issues - role recycling & startup](http://blogs.msdn.com/b/kwill/archive/2013/08/09/windows-azure-paas-compute-diagnostics-data.aspx)<br>
 * [Various ways to Debug Cloud Services](https://docs.microsoft.com/azure/vs-azure-tools-debugging-cloud-services-overview)<br>
 * [Troubleshoot Cloud Service deployment problems](https://azure.microsoft.com/documentation/articles/cloud-services-troubleshoot-deployment-problems/)

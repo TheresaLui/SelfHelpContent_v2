@@ -6,7 +6,7 @@
   authors="lnalepa"
   selfHelpType="generic"
   supportTopicIds="32596864"
-  productPesIds="14785"
+  productPesIds="14785,16575"
   cloudEnvironments="public"
  />
 
@@ -14,9 +14,9 @@
 
 ## **Recommended steps**
 
-**I don't know how to register or manage my application**
+Below you will find help and links for the most common problems when building Azure Active Directory apps.  We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag `azure-active-directory`](https://stackoverflow.com/questions/ask).
 
-The following documents can help you to resolve some of the most common issues in this category.
+**I don't know how to register or manage my application**
 
   * [I don’t know how to integrate my application with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad)
   * [I don’t know how to update my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-integrate-apps-with-azure-ad#updating-an-application)
