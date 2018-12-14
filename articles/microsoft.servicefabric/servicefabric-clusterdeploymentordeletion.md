@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Cluster deployment or deletion
+# Cluster Deployment or Deletion
 
 ## **Recommended Documents**
 
