@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# cluster/clusterupgrade
+# Cluster Upgrades
 
 ## **Recommended Documents**
 
