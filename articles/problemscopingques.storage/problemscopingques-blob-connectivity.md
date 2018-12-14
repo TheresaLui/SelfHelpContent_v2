@@ -10,7 +10,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Blob connectivity issue
+# Blob Connectivity Issue
 ---
 {
 	"resourceRequired": true,
@@ -20,7 +20,7 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate local start time of the latest occurrence",
+			"displayLabel": "Start time of the latest occurrence",
 			"required": true
 		}, {
 			"id": "error_code_dropdown",
@@ -90,7 +90,7 @@
 			"id": "blob_or_container",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Container name or Blob path",
+			"displayLabel": "Container name or blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
@@ -104,7 +104,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot peformance issues."
+			"content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> peformance issues."
 		}
 	]
 }
