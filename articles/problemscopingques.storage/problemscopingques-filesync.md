@@ -5,7 +5,6 @@
     authorAlias="passap"
 	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
-    articleId="StorageScoping_file_fileSync"
 	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
 	productPesIds="16460"
 	cloudEnvironments="public"
