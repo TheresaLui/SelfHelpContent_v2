@@ -21,7 +21,7 @@ Review common problems related to workspace creation:
 
 ## **Recommended Steps**
 
-* Error message: *Pricing tier doesn't match the subscription's billing model.*<br>
+* **Error message: *Pricing tier doesn't match the subscription's billing model*.**<br>
 
 This error can occur in these cases:<br>
 
@@ -30,10 +30,11 @@ This error can occur in these cases:<br>
 
   Workspaces in subscriptions that were created, or [changed](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model) to *'pergb2018'* can only be in the *'pergb2018'* pricing plan. When creating a workspace with *'PerNode'* or *'Standalone'* pricing plan in *'pergb2018'* pricing plan subscription, the workspace pricing plan is set to *'pergb2018'* instead.
 
-* [Can’t create workspaces in West Central US region](https://docs.microsoft.com/azure/log-analytics/log-analytics-faq#q-why-i-cant-create-workspaces-in-west-central-us-region)<br>
+* **[Can’t create workspaces in West Central US region](https://docs.microsoft.com/azure/log-analytics/log-analytics-faq#q-why-i-cant-create-workspaces-in-west-central-us-region)<br>**
+
 This region is at temporary capacity limit. The limit is planned to be addressed in the first half of 2019.
 
-* Don't have sufficient permissions<br>
+* **Insufficient Permissions<br>**
 You need to be assigned with *'Log Analytics Contributor'* permissions for workspace creation.<br>
 
 ## **Recommended Documents**
