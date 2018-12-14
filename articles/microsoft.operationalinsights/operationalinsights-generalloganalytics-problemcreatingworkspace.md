@@ -34,9 +34,10 @@ This region is at temporary capacity limit. The limit is planned to be addressed
 
 * **Insufficient Permissions<br>**
 
-You need to be assigned with *'Log Analytics Contributor'* permissions for workspace creation.<br>
+You must have *'Log Analytics Contributor'* permissions for workspace creation.<br>
 
 ## **Recommended Documents**
+
 * [New pricing model and Operations Management Suite subscription entitlements](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#new-pricing-model-and-operations-management-suite-subscription-entitlements)
 * [Moving to the new pricing model](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model)
 * [Managing access to Log Analytics using Azure permissions](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
