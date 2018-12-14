@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Cluster not ready
+# Cluster Not Ready
 
 ## **Recommended Documents**
 
