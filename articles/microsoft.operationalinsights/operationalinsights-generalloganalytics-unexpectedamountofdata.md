@@ -18,7 +18,7 @@ cloudEnvironments="Public, Fairfax"
 
 # Unexpected amount of data ingested
 
-* **How do I understand the source of my ingested data volume?**<br>
+**How do I understand the source of my ingested data volume?**<br>
 
 For a quick view of recent data ingestion trends, go to the Log Analytics page “Usage and estimated costs” from your workspace’s left navigation. Here you can see your daily trend of data ingestion by solution where you can look for changes in your data ingestion patterns – e.g. the addition of a new solution or higher data volumes per solution ([learn more](https://docs.microsoft.com/azure/azure-monitor/platform/data-usage)). To investigate further, query for the number of nodes sending data and which nodes are sending the most. The queries needed for this investigation can be found [here](https://docs.microsoft.com/azure/azure-monitor/platform/data-usage?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#troubleshooting-why-usage-is-higher-than-expected). Finally, to avoid surprises, you can [set up an alert](https://docs.microsoft.com/azure/azure-monitor/platform/data-usage?toc=%2Fazure%2Fazure-monitor%2Ftoc.json#create-an-alert-when-data-collection-is-higher-than-expected) so you’ll know about higher-than-usual data volumes.
 
