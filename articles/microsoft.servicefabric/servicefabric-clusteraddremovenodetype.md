@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Cluster add/remove node type
+# Add or Remove Node Types
 
 ## **Recommended Documents**
 
