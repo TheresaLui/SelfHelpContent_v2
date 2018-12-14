@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Cluster patch orchestration
+# Cluster Patch Orchestration
 
 ## **Recommended Documents**
 
