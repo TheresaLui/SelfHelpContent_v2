@@ -1,11 +1,11 @@
 <properties
-    authorAlias="v-anreg"
     pageTitle="LDAP certificate invalid"
     description="InvalidLdapCertificateIssue"
     infoBubbleText="Found recent LDAP certificate issue. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
+    authoralias="v-anreg"
     displayOrder=""
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"
@@ -20,25 +20,31 @@
 
 <!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> with Enterprise Security Package
-failed to deploy as the LDAP certificate is not configured correctly.
+failed to deploy, as the LDAP certificate is not configured correctly.
 <!--/issueDescription-->
 
-To secure the communication with  Azure Active Directory, configuration of secure LDAP is required for an Azure Active Directory Domain Services managed domain.
+To secure the communication with Azure Active Directory, configuration of secure LDAP is required for an Azure Active Directory Domain Services managed domain.
 
 ## **Recommended Steps**
 
 **Create a self-signed certificate for secure LDAP**
 
-1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands, to create a new self-signed certificate
+<!--$Note-->[Note]<!--/$Note-->
+
+1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
+
+      **$lifetime=Get-Date**
+                
+      **New-SelfSignedCertificate -Subject \*.<!--$DomainName-->[DomainName]<!--/$DomainName-->** 
+
+      **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment** 
    
-   **$lifetime=Get-Date**
+      **-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->", "<!--$DomainName-->[DomainName]<!--/$DomainName-->"**
+
    
-   **New-SelfSignedCertificate -Subject <!--$DomainName-->[DomainName]<!--/$DomainName-->** `
-   
-   **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment**  `
-   
-   __-Type SSLServerAuthentication -DnsName *.<!--$DomainName-->[DomainName]<!--/$DomainName-->, <!--$DomainName-->[DomainName]<!--/$DomainName-->__ <br>
  2. The newly created self-signed certificate is placed in the local machine's certificate store
+ 
+ 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
 
 ## **Recommended Documents**
 
