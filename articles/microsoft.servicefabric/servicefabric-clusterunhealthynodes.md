@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# cluster/unhealthynodes
+# Unhealthy Nodes
 
 ## **Recommended Documents**
 
