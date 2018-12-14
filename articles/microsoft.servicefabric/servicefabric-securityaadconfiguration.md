@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security/azureadconfiguration
+# Azure Active Directory Configuration
 
 ## **Recommended Documents**
 
