@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Blob connectivity other blob service errors"
+	pageTitle="Blob connectivity and other blob service errors"
 	description="Blob connectivity and other blob service errors scoping question"
 	authors="Passaree"
 	authorAlias="passap"
@@ -10,17 +10,17 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Blob connectivity other blob service errors
+# Blob connectivity and other blob service errors
 ---
 {
 	"resourceRequired": true,
-	"title": "Blob connectivity other blob service errors scoping question",
+	"title": "Blob connectivity and other blob service errors scoping question",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Approximate local start time of the latest occurrence",
+			"displayLabel": "Start time of the latest occurrence",
 			"required": true
 		}, {
 			"id": "error_code_dropdown",
@@ -90,7 +90,7 @@
 			"id": "blob_or_container",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Container name or Blob path",
+			"displayLabel": "Container name or blob path",
 			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
 			"required": false
 		}, {
