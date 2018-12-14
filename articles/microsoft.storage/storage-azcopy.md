@@ -13,7 +13,8 @@
 	cloudEnvironments="public"
 />
 
-# Transfer Data with AzCopy Utility
+# Transfer Data with AzCopy v10
 
-## **Recommended documents**
-[Transfer Data with AzCopy Utility](https://azure.microsoft.com/documentation/articles/storage-use-azcopy/)
+## **Recommended Documents**
+
+* [Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
