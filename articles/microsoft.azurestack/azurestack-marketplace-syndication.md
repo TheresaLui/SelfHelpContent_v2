@@ -17,7 +17,7 @@
 
 ## **Recommended steps**
 
-1. Ensure Azure Stack is registered with Azure
+1. Ensure [Azure Stack is registered with Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration)
 2. [Download marketplace items](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item) to your local Azure Stack marketplace
 3. Or [create and publish a marketplace item](https://docs.microsoft.com/azure/azure-stack/azure-stack-create-and-publish-marketplace-item) of your own
 

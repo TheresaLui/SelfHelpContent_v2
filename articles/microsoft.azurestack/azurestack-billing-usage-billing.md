@@ -17,12 +17,12 @@
 
 ## **Recommended steps**
 
-Azure Stack collects and groups usage data for resources that are consumed. Then Azure Stack forwards this data to Azure Commerce, and then bills you for Azure Stack usage in the same way it bills you for Azure usage.
+Azure Stack collects and groups usage data for resources that are consumed. Then Azure Stack forwards this data to Azure Commerce, and bills you for Azure Stack usage in the same way it bills you for Azure usage.
 
 1. [Register your Azure Stack instance with Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration)
 2. [Set up usage data reporting](https://docs.microsoft.com/azure/azure-stack/azure-stack-usage-reporting#set-up-usage-data-reporting) to report Azure Stack usage data to Azure
 3. View usage data for [Enterprise Agreement](https://docs.microsoft.com/azure/azure-stack/azure-stack-usage-reporting#view-usage--enterprise-agreement-subscriptions), [Cloud Service Providers](https://docs.microsoft.com/azure/azure-stack/azure-stack-usage-reporting#view-usage---csp-subscriptions) or [Other Subscriptions](https://docs.microsoft.com/azure/azure-stack/azure-stack-usage-reporting#view-usage--other-subscriptions)
-4. [Manage usage and billing as a Cloud Service Provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-manage-billing-as-a-csp)
+4. If you are a Cloud Service Provider, follow additional steps to [manage usage and billing as a CSP](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-manage-billing-as-a-csp)
 
 ## **Recommended documents**
 

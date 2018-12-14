@@ -17,7 +17,7 @@
 
 ## **Recommended steps**
 
-You can backup and restore configuration and service data using the Infrastructure Backup Service. Backups created by the service can be used for the redeployment of the Azure Stack Cloud to to restore identity, security, and Azure Resource Manager data.
+You can backup and restore Azure Stack configuration and infrastructure data using the [Infrastructure Backup Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-reference). Backups created by the service can be used for the redeployment of the Azure Stack Cloud, including to restore identity, security, and Azure Resource Manager (ARM) data.
 
 1. Make sure you have [met all prerequisites](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-infrastructure-backup#verify-requirements-for-the-infrastructure-backup-service) for Azure Stack infrastructure backup
 2. [Enable backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure/azure-stack/azure-stack-backup-enable-backup-console)
