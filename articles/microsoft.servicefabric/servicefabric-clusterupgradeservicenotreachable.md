@@ -3,7 +3,8 @@
 	description="cluster/upgradeservicenotreachable"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	authoralias="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608935"
@@ -12,12 +13,13 @@
 	cloudEnvironments="public"
 />
 
-# cluster/upgradeservicenotreachable
+# Upgrade Service Not Reachable
 
-## **Recommended documents**
-[Common questions and solutions on Cluster](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
-[Why Cluster upgrade taking so long?](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Why%20do%20cluster%20upgrades%20take%20so%20long.md)<br>
-[Upgrade Service Unreachable solutions](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Cluster%20Not%20Reachable%20%20UpgradeServiceNotreachable.md)<br>
+## **Recommended Documents**
+
+[Common questions and solutions for Service Fabric clusters](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
+[Why is my cluster upgrade taking so long?](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Why%20do%20cluster%20upgrades%20take%20so%20long.md)<br>
+["Upgrade Service Unreachable" errors](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Cluster%20Not%20Reachable%20%20UpgradeServiceNotreachable.md)<br>
 [Upgrade service architecture](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/FUS%20Stream%20Architecture.md)<br>
-[Common cause for Upgrade Service Unreachable](https://stackoverflow.com/search?q=Service+Fabric+Upgrade+Service+unreachable)<br>
-[Check Best Practices for Service Fabric Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)<br>
+[Common causes for "Upgrade Service Unreachable" errors](https://stackoverflow.com/search?q=Service+Fabric+Upgrade+Service+unreachable)<br>
+[Best Practices for Service Fabric clusters](https://docs.microsoft.com/azure/service-fabric/service-fabric-production-readiness-checklist)<br>

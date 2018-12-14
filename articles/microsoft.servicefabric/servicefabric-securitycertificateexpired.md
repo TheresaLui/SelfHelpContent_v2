@@ -3,7 +3,8 @@
 	description="security/certificateexpired"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	authoralias="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608944"
@@ -12,12 +13,13 @@
 	cloudEnvironments="public"
 />
 
-# security/certificateexpired
+# Certificate Expired
 
-## **Recommended documents**
-[Common questions and solutions on Certificate Expired](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/README.md#certificate-expired)<br>
-[Automated script to fix clusters with expired certificates](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Automated%20Script.md)<br>
-[Manual steps to recover cluster with expired certificates](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Manual%20Steps.md)<br>
-[How to roll over Cluster Certificate](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-rollover-cert-cn)<br>
-[Service Fabric Security Concepts](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security)<br>
-[Service Fabric Security Recommendations](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security#security-recommendations)<br>
+## **Recommended Documents**
+
+* [Resolve an expired certificate](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/README.md#certificate-expired)<br>
+* [Create an automated script to fix expired certificates](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Automated%20Script.md)<br>
+* [Manual steps to recover a cluster with expired certificates](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Security/Fix%20Expired%20Cluster%20Certificate%20Manual%20Steps.md)<br>
+* [Roll over cluster certificates](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-rollover-cert-cn)<br>
+* [Service Fabric security concepts](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security)<br>
+* [Service Fabric security recommendations](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-security#security-recommendations)<br>

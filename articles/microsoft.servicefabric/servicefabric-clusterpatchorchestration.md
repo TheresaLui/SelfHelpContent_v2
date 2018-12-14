@@ -3,7 +3,8 @@
 	description="cluster/patchorchestration"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	authoralias="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608955"
@@ -12,12 +13,13 @@
 	cloudEnvironments="public"
 />
 
-# cluster/patchorchestration
+# Cluster Patch Orchestration
 
-## **Recommended documents**
-[Common questions and solutions on Patch Orchestration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
-[Patch Orchestration Application not working](https://github.com/Azure/service-fabric-issues/issues/290)<br>
-[How to collect telemetry for Patch Orchestration](https://github.com/Azure/service-fabric-issues/issues/617)<br>
-[Patch Windows OS of your Service Fabric Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application)<br>
-[Patch Linux OS of your Service Fabric Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application-linux)<br>
-[FAQ on Patch Orchestration Application](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application#frequently-asked-questions)<br>
+## **Recommended Documents**
+
+* [Common questions and solutions for patch orchestration](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
+* [Patch orchestration application issues](https://github.com/Azure/service-fabric-issues/issues/290)<br>
+* [Patch orchestration telemetry](https://github.com/Azure/service-fabric-issues/issues/617)<br>
+* [Patch Windows for your Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application)<br>
+* [Patch Linux for your Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application-linux)<br>
+* [Patch orchestration FAQ](https://docs.microsoft.com/azure/service-fabric/service-fabric-patch-orchestration-application#frequently-asked-questions)<br>
