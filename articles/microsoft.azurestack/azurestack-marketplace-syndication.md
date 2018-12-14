@@ -21,7 +21,7 @@
 2. [Download marketplace items](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item) to your local Azure Stack marketplace
 3. Or [create and publish a marketplace item](https://docs.microsoft.com/azure/azure-stack/azure-stack-create-and-publish-marketplace-item) of your own
 
-**Please Note:** In a disconnected environment, you cannot download marketplace items directly using the Azure Stack portal, but you can follow the guide to [download marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item#disconnected-or-a-partially-connected-scenario), using the marketplace syndication tool, and then transfer the items to your Azure Stack environment.
+**Please Note:** In a disconnected environment, you cannot download marketplace items directly using the Azure Stack portal, but you can follow the guide to [download marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item#disconnected-or-a-partially-connected-scenario), by using the marketplace syndication tool and then transfer the items to your Azure Stack environment.
 
 ## **Recommended documents**
 
