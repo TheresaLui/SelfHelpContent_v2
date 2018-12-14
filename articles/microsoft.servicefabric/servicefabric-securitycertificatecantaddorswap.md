@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security/certificatecantaddorswap
+# Add or Swap Certificates
 
 ## **Recommended Documents**
 
