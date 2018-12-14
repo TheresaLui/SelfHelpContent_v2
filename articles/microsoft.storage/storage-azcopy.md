@@ -15,5 +15,6 @@
 
 # Transfer Data with AzCopy v10
 
-## **Recommended documents**
-[Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+## **Recommended Documents**
+
+* [Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
