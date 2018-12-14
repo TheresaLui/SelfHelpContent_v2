@@ -1,18 +1,20 @@
 <properties
-    pageTitle="Azure Stack user resource backups"
+    pageTitle="Azure Stack tenant resource backups"
     description=""
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    authorAlias="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32591337, 32591347"
+    supportTopicIds="32629254,32629273"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
 />
 
-# Azure Stack user resource backups
+# Azure Stack tenant resource backups
+
 You can use Azure Backup to protect (or back up) files and applications on Azure Stack to Azure. To back up files and applications, install Microsoft Azure Backup Server as a virtual machine running on Azure Stack. 
 
 You can also set up disaster recovery for Azure Stack VMs to Azure using the Azure Site Recovery service.
