@@ -41,11 +41,10 @@ To secure the communication with Azure Active Directory, configuration of secure
    
       **-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->", "<!--$DomainName-->[DomainName]<!--/$DomainName-->"**
 
-
    
- 2. The newly created self-signed certificate is placed in the local machine's certificate store.
+ 2. The newly created self-signed certificate is placed in the local machine's certificate store
  
- 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled.
+ 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
 
 ## **Recommended Documents**
 
