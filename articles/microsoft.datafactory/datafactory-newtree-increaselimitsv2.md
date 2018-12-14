@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Data Factory Increase V2 Limits"
+	pageTitle="Data Factory V2 - Increase V2 Limits"
 	description="Raise limits for Data Factory V2"
 	infoBubbleText=""
 	service="microsoft.datafactory"
