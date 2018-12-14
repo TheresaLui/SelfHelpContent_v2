@@ -16,12 +16,15 @@ productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 />
 
-# Problems creating workspace
+# Problems While Creating Workspace
 Review common problems related to workspace creation:
 
-## **Recommended steps**
+## **Recommended Steps**
+
 * Error message: *Pricing tier doesn't match the subscription's billing model.*<br>
+
 This error can occur in these cases:<br>
+
     *  Create a workspace with *'pergb2018'* pricing plan (introduced in April 2018), while the subscription is not in *'pergb2018'* pricing plan.
     * Create a *'Free'* workspace in subscription in *'pergb2018'* pricing plan.<br>
 
@@ -33,7 +36,7 @@ This region is at temporary capacity limit. The limit is planned to be addressed
 * Don't have sufficient permissions<br>
 You need to be assigned with *'Log Analytics Contributor'* permissions for workspace creation.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 * [New pricing model and Operations Management Suite subscription entitlements](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#new-pricing-model-and-operations-management-suite-subscription-entitlements)
 * [Moving to the new pricing model](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs#moving-to-the-new-pricing-model)
 * [Managing access to Log Analytics using Azure permissions](https://docs.microsoft.com/azure/log-analytics/log-analytics-manage-access?toc=/azure/azure-monitor/toc.json#managing-access-to-log-analytics-using-azure-permissions)
