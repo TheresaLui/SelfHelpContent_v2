@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security/privatekeypermission
+# Private Key Permissions
 
 ## **Recommended Documents**
 
