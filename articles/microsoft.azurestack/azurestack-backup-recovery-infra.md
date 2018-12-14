@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack infrastructure backup"
-    description=""
+    description="Azure Stack infrastructure backup"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"

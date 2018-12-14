@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack tenant resource backups"
-    description=""
+    description="Azure Stack tenant resource backups"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,17 +15,15 @@
 
 # Azure Stack tenant resource backups
 
-You can use Azure Backup to protect (or back up) files and applications on Azure Stack to Azure. To back up files and applications, install Microsoft Azure Backup Server as a virtual machine running on Azure Stack. 
-
-You can also set up disaster recovery for Azure Stack VMs to Azure using the Azure Site Recovery service.
-
 ## **Recommended steps**
 
-1. Install Microsoft Azure Backup Server as a virtual machine running on Azure Stack.
-2. Set up disaster recovery Azure Stack VMs to Azure, using the Azure Site Recovery service.
+1. To protect tenant VMs and files on Azure Stack, [install Microsoft Azure Backup Server as a virtual machine running on Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-files-applications-azure-stack)
+2. To recover tenant data, [use Azure Backup Server console to recover data to your virtual machine](https://docs.microsoft.com/azure/backup/backup-mabs-files-applications-azure-stack#recover-file-data)
+3. Use Azure Site Recovery to [replicate Azure Stack VMs to Azure](https://docs.microsoft.com/azure/site-recovery/azure-stack-site-recovery) for disaster recovery
 
 ## **Recommended documents**
 
-[Backup files on Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-files-applications-azure-stack?toc=/azure/azure-stack/toc.json&bc=/azure/azure-stack/breadcrumb/toc.json)
-
-[Replicate Azure Stack VMs to Azure](https://docs.microsoft.com/azure/site-recovery/azure-stack-site-recovery?toc=/azure/azure-stack/toc.json&bc=/azure/azure-stack/breadcrumb/toc.json)
+[Backup files on Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-files-applications-azure-stack)<br>
+[Back up a SharePoint farm from Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-sharepoint-azure-stack)<br>
+[Back up a SQL Server on from Stack](https://docs.microsoft.com/azure/backup/backup-mabs-sql-azure-stack)<br>
+[Azure Stack VM disaster recovery how-to guide](https://docs.microsoft.com/azure/site-recovery/azure-stack-site-recovery)<br>
