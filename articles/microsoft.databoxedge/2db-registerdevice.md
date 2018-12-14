@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can't activate my device."
 	description="I can't activate my device."
-	ms.service="microsoft.databox"
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
