@@ -1,31 +1,30 @@
 <properties
-    pageTitle="Azure Stack marketplace"
-    description=""
+    pageTitle="Azure Stack marketplace items"
+    description="Syndicating or creating marketplace gallery items"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    authorAlias="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32567958"
+    supportTopicIds="32629225,32629186,32629203,32629214,32629265"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
 />
 
-# Azure Stack marketplace
-The Marketplace is a collection of services, applications, and resources customized for Azure Stack. Resources include networks, virtual machines, storage, and so on. Users come here to create new resources and deploy new applications. Think of it as a shopping catalog where users can browse and choose the items they want to use. To use a Marketplace item, users must subscribe to an offer that grants them access to the item.<br>
-
-As an Azure Stack operator, you decide which items to add (publish) to the Marketplace. You can publish things like databases, App Services, and so on. Publishing makes them visible to all your users. You can publish custom items that you create. You can also publish items from a growing list of Azure Marketplace items. When you publish an item to the Marketplace, users can see it within five minutes.<br>
+# Azure Stack Marketplace
 
 ## **Recommended steps**
 
-1. Register Azure Stack with Azure.
-2. Download marketplace items from Azure to Azure Stack. 
-3. Create and publish a Marketplace item of your own.
+1. Ensure Azure Stack is registered with Azure
+2. [Download marketplace items](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item) to your local Azure Stack marketplace
+3. Or [create and publish a marketplace item](https://docs.microsoft.com/azure/azure-stack/azure-stack-create-and-publish-marketplace-item) of your own
+
+**Please Note:** In a disconnected environment, you cannot download marketplace items directly using the Azure Stack portal, but you can follow the guide to [download marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-download-azure-marketplace-item#disconnected-or-a-partially-connected-scenario), using the marketplace syndication tool, and then transfer the items to your Azure Stack environment.
 
 ## **Recommended documents**
-[Register Azure Stack with Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration)<br>
 
-[Download marketplace items](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)<br>
-
-[Create and publish a marketplace item](https://docs.microsoft.com/azure/azure-stack/azure-stack-create-and-publish-marketplace-item)
+[Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items)<br>
+[Guest operating systems supported on Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-supported-os)<br>
+[Windows Server in Azure Stack Marketplace FAQ](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-windows-server-faq)<br>
