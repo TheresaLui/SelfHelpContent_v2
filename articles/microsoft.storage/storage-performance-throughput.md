@@ -13,12 +13,14 @@
 	cloudEnvironments="public"
 />
 
-# Troubleshoot Storage throughput issues
-## **Recommended steps**
+# Storage Throughput Issues
+
+## **Recommended Steps**
 
 - [Monitor health of your Storage Account](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#monitoring-service-health)<br>
 - [Diagnose throttling errors](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-an-increase-in-PercentThrottlingError)<br>
 - [Diagnose timeout errors](https://azure.microsoft.com/documentation/articles/storage-monitoring-diagnosing-troubleshooting/#metrics-show-an-increase-in-PercentTimeoutError)<br>
 
-## **Recommended documents**
+## **Recommended Documents**
+
 - [Azure Storage Performance and Scalability Checklist](http://go.microsoft.com/fwlink/?LinkId=785092)
