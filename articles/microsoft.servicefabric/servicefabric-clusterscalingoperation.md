@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# cluster/scaling
+# Cluster Scaling
 
 ## **Recommended Documents**
 
