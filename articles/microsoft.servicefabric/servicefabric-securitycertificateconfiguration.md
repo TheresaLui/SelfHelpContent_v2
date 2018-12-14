@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security/certificateconfiguration
+# Certificate Configuration
 
 ## **Recommended Documents**
 
