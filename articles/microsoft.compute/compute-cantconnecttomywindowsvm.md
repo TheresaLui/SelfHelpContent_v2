@@ -51,7 +51,8 @@ Use [Network Watcher](data-blade:microsoft_azure_network.verifyipflowblade.vmId.
 
 1. [Basic RDP Troubleshooting in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
 2. [Troubleshooting general RDP errors in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
-3. [The Remote Desktop license server is not available when you connect via RDP to an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)
+3. [The Remote Desktop license server is not available when you connect via RDP to an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)<br>
+4. Review the [common RDP errors and solutions for Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/rdp)
 
 ## **Recommended Documents**
 
