@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32609703"
@@ -14,6 +15,16 @@
 
 # Advisory
 
+Examples of advisory services include, but are not limited to:<br>
+
+* Plan for deployments and migrations<br>
+* Plan for hybrid cloud solutions<br>
+* Understand how to maximize resources<br>
+* Improve reliability and recoverability<br>
+* Enhance security
+
+You **should not** select Advisory when you have an immediate issue that requires troubleshooting support. Please select a different problem type from the drop down list above for faster assistance resolving a problem.<br>
+
 ## **Recommended documents**
 
 * [Azure virtual machine scale sets FAQs](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
@@ -22,4 +33,3 @@
 * [Modify a virtual machine scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-upgrade-scale-set)
 * [Troubleshooting autoscale with Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot)
 * [Add a custom image to an Azure scale set template](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-mvss-custom-image)
-
