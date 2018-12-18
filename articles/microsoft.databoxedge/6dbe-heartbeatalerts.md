@@ -1,7 +1,8 @@
 <properties
-	pageTitle="I am getting heart beat alert emails"
-	description="I am getting heart beat alert emails"
-	service="microsoft.databoxedge"
+	pageTitle="I am getting heartbeat alert emails"
+	description="I am getting heartbeat alert emails"
+	ms.service="databox"
+  	ms.subservice="edge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
@@ -13,11 +14,11 @@
 	cloudEnvironments="public"
 />
 
-# I am getting heart beat alert emails
+# I am getting heartbeat alert emails
 
 ## **Recommended Steps**
 
-If you are receiving heart beat alerts, this may be because your device has Internet connectivity issues. Try the following steps to resolve the issue:
+If you are receiving heartbeat alerts, this may be because your device has Internet connectivity issues. Try the following steps to resolve the issue:
 
 * The Internet connectivity is broken. Check your internet connection. In the local web UI of the device, go to **Troubleshooting** > **Diagnostic tests** and click **Run diagnostic tests**. Resolve any reported issues.
 * The device is turned off. Turn on your device! For more information, go to [Turn on your device](https://aka.ms/dbe-device-local-mgmt).
