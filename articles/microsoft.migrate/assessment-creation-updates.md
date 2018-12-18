@@ -15,7 +15,7 @@
 
 # Assessment creation and updates in Azure Migrate
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### **How can I customize an assessment?**
 You can customize your assessment by changing the assessment properties. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) about how to edit the assessment properties.
