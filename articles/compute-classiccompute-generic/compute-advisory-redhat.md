@@ -7,7 +7,7 @@
 	authorAlias="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411885,32411852,32411848,32508775"
+	supportTopicIds="32411885,32411852"
 	resourceTags="redhat"
 	productPesIds="15797"
 	cloudEnvironments="public"
