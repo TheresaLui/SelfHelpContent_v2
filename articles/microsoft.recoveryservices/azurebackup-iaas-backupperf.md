@@ -3,12 +3,13 @@
 	description="VM backup performance"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="trinadhk"
+	authors="srinathv"
+	authorAlias="srinathv"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32553281"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15207"
 	cloudEnvironments="public"
 />
 
