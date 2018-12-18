@@ -3,6 +3,7 @@
 	description="I can't create a Data Box Edge resource."
 	ms.service="databox"
 	ms.subservice="edge"
+	service="databox"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
