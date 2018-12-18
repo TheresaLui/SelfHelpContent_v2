@@ -1,7 +1,8 @@
 <properties
 	pageTitle="I can't create a Data Box Edge resource."
 	description="I can't create a Data Box Edge resource."
-	service="microsoft.databoxedge"
+	ms.service="databox"
+	ms.subservice="edge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
@@ -23,7 +24,7 @@ If you can't create a Data Box Edge resource, do the following:
 2. Pick the subscription that you want to use for Data Box Edge preview
 3. Select the region where you want to deploy the Data Box Edge resource. In the Data Box Edge option, click **Create**. If you do not see the region where you want to deploy the service, **Submit a request**.
 4. Create the resource for Data Box Edge. Once approved, a device is allocated.
-5. If you've already created, wait until your request is approved. Once the device is ready for allocation, Microsoft contacts you via the email used for sign up.
+5. If you've already created the resourse, wait until your request is approved. Once the device is ready for allocation, Microsoft contacts you via the email used for sign up.
 
 ## **Recommended Documents**
 
