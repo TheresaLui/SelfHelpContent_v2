@@ -3,6 +3,7 @@
 	description="I can't activate my device."
 	ms.service="databox"
  	ms.subservice="edge"
+	service="databox"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
