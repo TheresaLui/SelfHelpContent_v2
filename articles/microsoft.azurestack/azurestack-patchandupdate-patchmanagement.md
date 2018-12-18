@@ -17,6 +17,13 @@
 
 ## **Recommended Steps**
 
+### **Important note for 1811 update**
+
+The Azure Stack 1811 update contains a new [Extensions Host](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. During the installation of the 1811 update, both Azure Stack portals (Administrator and User) are unavailable when the extension host is configured. The configuration of the extension host can take up to 5 hours. During that time, you can check the status of an update, or resume a failed update installation using [Azure Stack Administrator PowerShell or the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets). 
+
+For more details, see the [1811 Update Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-update-1811).
+
+
 ### **Availability of Updates**
 
 Customers with Azure Stack environments connected to the internet will automatically see "Update Available" in the Admin Portal. For disconnected customers, update release notifications are available vis RSS feed at [Support Content Updates](https://support.microsoft.com/help/4089498/support-content-updates). Select Product as *Azure Stack*, and choose ATOM or RSS.
