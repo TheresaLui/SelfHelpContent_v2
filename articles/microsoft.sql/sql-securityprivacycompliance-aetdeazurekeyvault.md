@@ -15,7 +15,7 @@
 
 # Always Encrypted, Transparent Data Encryption (TDE), and Azure Key Vault
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Always Encrypted with certificate store](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted/)<br>
 * [Always Encrypted with Azure key vault](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault/)<br>
