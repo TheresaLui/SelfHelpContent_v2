@@ -88,8 +88,24 @@
             "required": false,
             "infoBalloonText": "Example: Select 1807 if your build number is 1.1807.0.76."
         },{
-            "id": "region_name",
+            "id": "tenant_impact",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Availability of running tenant applications impacted",
+            "watermarkText": "Tenant impact",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+                }
+                ],
+            "required": false,
+            "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
+        },{
+            "id": "region_name",
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -97,13 +113,13 @@
             "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
         },{
             "id": "problem_start_time",
-            "order": 4,
+            "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },{
             "id": "problem_description",
-            "order": 5,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
