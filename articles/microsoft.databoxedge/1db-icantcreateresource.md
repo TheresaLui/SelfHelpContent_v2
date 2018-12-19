@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can't create a Data Box Edge resource."
 	description="I can't create a Data Box Edge resource."
-	service="azureexpresspod"
+	service=""
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
