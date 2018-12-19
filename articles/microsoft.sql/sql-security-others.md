@@ -12,13 +12,13 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/vulnerability assessment
+# Vulnerability Assessment
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Configure multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Security overview](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview/)<br>
 * [Advanced security](https://docs.microsoft.com/azure/sql-database/sql-database-security-index)<br>
