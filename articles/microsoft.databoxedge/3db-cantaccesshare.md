@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can’t access my shares."
 	description="I can’t access my shares."
-	service="azureexpresspod"
+	service=""
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
