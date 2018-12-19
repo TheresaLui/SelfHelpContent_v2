@@ -4,7 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+   	 authorAlias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574327"
@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/auditing
+# Auditing
 
-## **Recommended documents**
+## **Recommended Documents**
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)<br>
