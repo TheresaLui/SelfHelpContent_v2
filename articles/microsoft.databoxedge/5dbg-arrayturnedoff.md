@@ -1,8 +1,7 @@
 <properties
 	pageTitle="Data Box Gateway has turned off"
 	description="Data Box Gateway has turned off"
-	ms.service="databox"
-  	ms.subservice="edge"
+	service="azureexpresspod"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
