@@ -12,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/threat detection
+# Threat Detection
 
-## **Recommended documents**
+## **Recommended Documents**
 * [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection/)<br>
