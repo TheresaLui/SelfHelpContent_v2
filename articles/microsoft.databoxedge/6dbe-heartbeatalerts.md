@@ -1,8 +1,7 @@
 <properties
 	pageTitle="I am getting heartbeat alert emails"
 	description="I am getting heartbeat alert emails"
-	ms.service="databox"
-  	ms.subservice="edge"
+	service="azureexpresspod"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
