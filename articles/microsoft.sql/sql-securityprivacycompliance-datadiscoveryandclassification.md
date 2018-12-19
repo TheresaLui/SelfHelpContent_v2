@@ -13,8 +13,9 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/data discovery and classification
+# Data Discovery and Classification
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Data discovery and classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification/)<br>
 * [Advanced Threat Protection](https://docs.microsoft.com/azure/sql-database/sql-advanced-threat-protection)
