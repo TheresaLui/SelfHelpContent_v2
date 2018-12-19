@@ -13,8 +13,9 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/access control
+# Access Control
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Access control](https://docs.microsoft.com/azure/sql-database/sql-database-control-access)<br>
 * [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)
