@@ -13,9 +13,10 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/always encrypted, tde and azure key vault
+# Always Encrypted, Transparent Data Encryption (TDE), and Azure Key Vault
 
 ## **Recommended documents**
+
 * [Always Encrypted with certificate store](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted/)<br>
 * [Always Encrypted with Azure key vault](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault/)<br>
 * [Transparent Data Encryption (TDE)](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017&viewFallbackFrom=sql-server-2017%2F/)<br>
