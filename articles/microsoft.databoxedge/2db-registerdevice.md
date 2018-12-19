@@ -1,7 +1,7 @@
 <properties
 	pageTitle="I can't activate my device."
 	description="I can't activate my device."
-	service="azureexpresspod"
+	service=""
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
