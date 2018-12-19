@@ -25,7 +25,7 @@ If you cannot connect to your Windows virtual machine (VM) and are unsure of the
 
 ### If your VM is not at the ctrl-alt-del screen, it may be experiencing a boot error
 
-1. Restart the virtual machine to address boot issues by clicking `Restart` at the top of the [VM resource blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId)<br>
+1. Restart the virtual machine to address boot issues by clicking **Restart** at the top of the [VM resource blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId)<br>
 2. Review the [common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot) troubleshooting guide
 
 ### VM is at the ctrl-alt-del screen - issues internal to the VM
@@ -51,7 +51,8 @@ Use [Network Watcher](data-blade:microsoft_azure_network.verifyipflowblade.vmId.
 
 1. [Basic RDP Troubleshooting in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
 2. [Troubleshooting general RDP errors in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
-3. [The Remote Desktop license server is not available when you connect via RDP to an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)
+3. [The Remote Desktop license server is not available when you connect via RDP to an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)<br>
+4. Review the [common RDP errors and solutions for Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/rdp)
 
 ## **Recommended Documents**
 
