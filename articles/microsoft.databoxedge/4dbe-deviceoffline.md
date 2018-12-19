@@ -1,8 +1,7 @@
 <properties
 	pageTitle="My device appears offline in the portal"
 	description="My device appears offline in the portal"
-	ms.service="databox"
- 	ms.subservice="edge"
+	service="azureexpresspod"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
