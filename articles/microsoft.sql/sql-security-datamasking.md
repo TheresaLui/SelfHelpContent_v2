@@ -12,12 +12,12 @@
 	cloudEnvironments="public"
 />
 
-# security, privacy and compliance/dynamic data masking
+# Dynamic Data Masking
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Configure Azure SQL Database dynamic masking in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started-portal/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Dynamic data masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started/)
