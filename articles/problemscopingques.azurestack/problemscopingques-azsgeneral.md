@@ -96,14 +96,30 @@
             "required": false,
             "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
         },{
-            "id": "problem_start_time",
+            "id": "tenant_impact",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Availability of running tenant applications has been impacted",
+            "watermarkText": "Impacted Tenants",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+                }
+                ],
+            "required": false,
+            "infoBalloonText": "If your Azure Stack issue is impacting tenant workloads, select Yes"
+        },{
+            "id": "problem_start_time",
+            "order": 900,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },{
             "id": "problem_description",
-            "order": 5,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
