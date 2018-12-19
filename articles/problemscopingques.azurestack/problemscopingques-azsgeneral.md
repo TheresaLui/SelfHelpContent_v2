@@ -99,8 +99,8 @@
             "id": "tenant_impact",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Availability of running tenant applications has been impacted",
-            "watermarkText": "Impacted Tenants",
+            "displayLabel": "Availability of running tenant applications impacted",
+            "watermarkText": "Tenant impact",
             "dropdownOptions": [{
                     "value": "Yes",
                     "text": "Yes"
@@ -110,7 +110,7 @@
                 }
                 ],
             "required": false,
-            "infoBalloonText": "If your Azure Stack issue is impacting tenant workloads, select Yes"
+            "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },{
             "id": "problem_start_time",
             "order": 900,
