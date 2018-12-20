@@ -4,6 +4,7 @@
 	service="microsoft.migrate"
 	resource="projects"
 	authors="nsoneji"
+	authorAlias="nisoneji"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593684, 32593687, 32593692, 32593693"
@@ -14,7 +15,7 @@
 
 # Assessment creation and updates in Azure Migrate
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### **How can I customize an assessment?**
 You can customize your assessment by changing the assessment properties. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) about how to edit the assessment properties.
@@ -24,3 +25,6 @@ There are two ways you can configure your assessment to determine the best Azure
 
 ### **Can I specify Enterprise Agreement (EA) subscriptions in assessment properties?**
 No, Azure Migrate currently does not support Enterprise Agreement (EA) based offers. The workaround is to use a ‘Pay-As-You-Go’ offer and use the ‘Discount’ property to specify any custom discounts that you receive. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment) about the configurable properties of an assessment.
+
+### **I am unable to export the assessment report**
+If you are unable to export the assessment report from the portal, try using the REST API to get a download URL for the assessment report as mentioned in the [document](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-am-unable-to-export-the-assessment-report).
