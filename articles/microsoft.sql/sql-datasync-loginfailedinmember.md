@@ -35,6 +35,7 @@ Please update the credentials for the member(s).<br>
 7. Click Save
 
 In case the failing task is Sync, please also review the credentials for the hub:<br>
+
 1. In [Azure Portal](https://portal.azure.com), navigate to the hub database
 2. Select "Sync to other databases"
 3. Select the sync group
