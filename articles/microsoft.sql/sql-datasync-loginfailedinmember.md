@@ -27,21 +27,21 @@ Please update the credentials for the member(s).<br>
 ## **Recommended Steps**
 
 1. In [Azure Portal](https://portal.azure.com), navigate to the hub database
-2. Select "Sync to other databases"
+2. Select "**Sync to other databases**"
 3. Select the sync group
-4. Click on "Databases"
-5. Select the Azure Member Database
-6. Update the Username and Password
-7. Click Save
+4. Click on "**Databases**"
+5. Select the Azure Member database
+6. Update the username and password
+7. Click "**Save**"
 
-In case the failing task is Sync, please also review the credentials for the hub:<br>
+In case the failing task is Sync, please review the credentials for the hub:<br>
 
 1. In [Azure Portal](https://portal.azure.com), navigate to the hub database
-2. Select "Sync to other databases"
+2. Select "**Sync to other databases**"
 3. Select the sync group
-4. Click on "Databases"
-5. Select the Hub Database
-6. Update the Username and Password
-7. Click Save
+4. Click on "**Databases**"
+5. Select the hub database
+6. Update the username and password
+7. Click "**Save**"
 
 You may now retry the operation, or wait for it to be automatically triggered by Data Sync (if applicable).
