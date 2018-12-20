@@ -23,12 +23,12 @@ Examples of advisory services include, but are not limited to:<br>
 * Improve reliability and recoverability<br>
 * Enhance security
 
-You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the drop down list on the previous screen for faster assistance resolving a problem.<br>
+You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the dropdown list on the previous screen for faster assistance resolving a problem.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure virtual machine scale sets FAQs](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)<br>
-* [Learn more about virtual machine scale sets?](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview)<br>
+* [Learn more about virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview)<br>
 * [Best practices for Autoscale](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-autoscale-best-practices)<br>
 * [Modify a virtual machine scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-upgrade-scale-set)
 * [Troubleshooting autoscale with Virtual Machine Scale Sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-troubleshoot)
