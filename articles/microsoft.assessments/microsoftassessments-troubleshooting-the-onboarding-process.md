@@ -6,11 +6,9 @@
 
 -   Contributors
 
-    ![danwilmot](media/167d4a12002391d344fff098610eeabf.png)
+-   danwilmot
 
->    
-
-![karenowens1](media/0d2d8e674f5e37530ce5b7f230833683.png)
+karenowens1
 
 The below steps would walk you through from start to end and make you verify the
 correctness of each requirements that are to be met in running the On-Demand
@@ -163,8 +161,6 @@ healthservice net start healthservice
 After running the below command, the files would change to be processed as shown
 below which means the files have been ingested successfully and data should be
 visible on Log Analytics in about 30 min.
-
- 
 
 **Check for any conflicting omsassessment.exe processes running**
 
