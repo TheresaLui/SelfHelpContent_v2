@@ -44,7 +44,7 @@
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Select Deployment Failure",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Choose a deployment failure",
             "dynamicDropdownOptions": {
                 "dependOn": "resourceGroup",
                 "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
@@ -60,18 +60,23 @@
             "required": false
         },
 	{ 
-        "id": "problem_start_date", 
+        "id": "problem_start_date",
         "order": 3, 
         "controlType": "datetimepicker", 
         "displayLabel": "When did the problem begin?", 
         "required": false 
-        },{
-                  id = "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What is the error you received?",
-                  required = true
-          }
+        },{ "id": "problem_description", 
+        "order": 4, 
+        "controlType": "multilinetextbox", 
+        "displayLabel": "Details", 
+        "watermarkText": "Provide additional information about your issue", 
+        "required": false, 
+        "useAsAdditionalDetails": true, 
+        "hints": [
+            { "text": "Issue description." }, 
+            { "text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."} 
+            ] 
+       }
     ]
 }
 ---
