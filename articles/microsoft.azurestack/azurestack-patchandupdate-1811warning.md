@@ -15,6 +15,12 @@
 
 # Azure Stack tenant and admin portal impact for 1811 update
 
-### **Important note about portal impact for 1811 update**
+## **Important note about portal impact for 1811 update**
 
-The Azure Stack 1811 update contains a new [Extension Host](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. Prior to installing 1811 update, all instances of Azure Stack Administrator portals must be closed (or else, the install will fail). During the installation of the 1811 update, Azure Stack user portal is unavailable when the extension host is configured. The configuration of the extension host can take up to 5 hours. During that time, you can check the status of an update, or resume a failed update installation using [Azure Stack Administrator PowerShell or the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets).
+The Azure Stack 1811 update contains a new [extension host](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. Prior to installing 1811 update, all instances of Azure Stack Administrator portals must be closed (or else, the install will fail). During the installation of the 1811 update, Azure Stack user portal is unavailable when the extension host is configured. The configuration of the extension host can take up to 5 hours. During that time, you can check the status of an update, or resume a failed update installation using [Azure Stack Administrator PowerShell or the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets).
+
+## **Recommended Documents**
+
+* See the 1811 Update Release Notes listed under [Recent Updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+* [Prepare for extension host for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare)
+* [Monitor updates in Azure Stack using the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets)
