@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "Problem with Creating VM",
-    "fileAttachmentHint": "null",
+    "fileAttachmentHint": "",
     "formElements": [
      	 {
             "id": "resourceGroup",
@@ -56,13 +56,18 @@
             "dropdownOptions": [{
 						"value": "Unable to get the list of Deployment Failure",
 						"text": "Unable to get the list of Deployment Failure."
-					}
-					],
+					}],
             "required": false
         },
-	{
+	{ 
+        "id": "problem_start_date", 
+        "order": 3, 
+        "controlType": "datetimepicker", 
+        "displayLabel": "When did the problem begin?", 
+        "required": false 
+        },{
                   id = "problem_description",
-                  "order": 3,
+                  "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the error you received?",
                   required = true
