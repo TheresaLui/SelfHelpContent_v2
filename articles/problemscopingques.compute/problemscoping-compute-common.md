@@ -46,7 +46,7 @@
             "displayLabel": "Select Deployment Failure",
             "watermarkText": "Choose a deployment failure",
             "dynamicDropdownOptions": {
-                "dependOn": "resourceGroup",
+                "dependsOn": "resourceGroup",
                 "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
                 "jTokenPath": "value",
                 "textProperty": "id",
