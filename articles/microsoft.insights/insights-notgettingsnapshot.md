@@ -12,7 +12,7 @@
  />
 # I am not getting debug snapshots
 
-# What's the setup?
+## What's the setup?
 
 - Application running in Azure App Service 
   - Monitored with run-time Application Insights (Application Insights blade inside the App Service page).<br>
