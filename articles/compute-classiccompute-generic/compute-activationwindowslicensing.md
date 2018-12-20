@@ -23,7 +23,7 @@ Generally, Azure VM activation issues occur if the Windows VM is not configured 
 
 **You are using the Azure KMS Service and VM is not configured correctly**
 
-The guidance outlined below can be found **[here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems#step-1-configure-the-appropriate-kms-client-setup-key-for-windows-server-2016-and-windows-server-2012-r2)**.
+The steps outlined below can be found **[here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-activation-problems#step-1-configure-the-appropriate-kms-client-setup-key-for-windows-server-2016-and-windows-server-2012-r2)**.
 
 1. Run (as Administrator) ```slmgr.vbs /dlv``` at an elevated command prompt. Check the *Description value* in the *output*, then determine whether it was created from retail (RETAIL channel) or volume (VOLUME_KMSCLIENT) license media:<br>
 
