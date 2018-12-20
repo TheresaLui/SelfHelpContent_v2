@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* How to connect to Azure SQL databaeds or SQL Server [Use Apache Sqoop with Hadoop in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-sqoop)
+* How to connect to Azure SQL database or SQL Server [Use Apache Sqoop with Hadoop in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-sqoop)
