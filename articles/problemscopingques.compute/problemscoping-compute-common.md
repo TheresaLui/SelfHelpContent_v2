@@ -4,9 +4,9 @@
         authors="sulama"
         authorAlias="sulama"
         selfHelpType="problemScopingQuestions"
-        supportTopicIds="32628251"
+        supportTopicIds="32628247"
         productPesIds="14749"
-        cloudEnvironments="public"
+        cloudEnvironments="Public"
         schemaVersion="1"
         articleId="c1d52907-63c1-4d7e-8fa2-87051c4d1faa"
 />
@@ -18,15 +18,8 @@
     "fileAttachmentHint": "null",
     "formElements": [
      	 {
-                  "id": "deployment_error",
-                  "order": 1,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What is the error you received?",
-                  "required": false,
-                  "useAsAdditionalDetails": true,
-          },{
             "id": "resourceGroup",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Select Deployment Faied Resource Group",
             "watermarkText": "Choose an resource group",
@@ -47,7 +40,7 @@
             "required": true
         },{
             "id": "correlationId",
-            "order": 3,
+            "order": 2,
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Select Deployment Failure",
@@ -66,7 +59,14 @@
 					}
 					],
             "required": false
-        }
+        },
+	{
+                  id = "problem_description",
+                  "order": 3,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "What is the error you received?",
+                  required = true
+          }
     ]
 }
 ---
