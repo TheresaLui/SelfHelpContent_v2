@@ -28,7 +28,7 @@ See the Monitoring at build time (nuget package)" section.
     **Not supported**
 
 
-# Troubleshooting
+## **Recommended steps**
 
 ## Monitoring at run-time (Application Insights extension)
 
@@ -39,9 +39,9 @@ See the Monitoring at build time (nuget package)" section.
 3. The extension doesn't support self-contained .NET Core applications or .NET Core projects that target the full framework. If that's the case you must enable SnapshotCollector from [code](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-snapshot-debugger#configure-snapshot-collection-for-aspnet-applications).
 
 
-## Monitoring at build time (NuGet package)
+**Monitoring at build time (NuGet package)**<br>
 
-To ensure that you are able to successfully get debug snapshots:
+To ensure that you are able to successfully get debug snapshots:<br>
 
 1. Verify that the [snapshot collector is properly configured](https://go.microsoft.com/fwlink/?linkid=848053#configure-snapshot-collection-for-aspnet-applications).
 2. Ensure exceptions caught by the ASP .NET framework are being tracked. This requires an [implementation of error handlers](https://go.microsoft.com/fwlink/?linkid=867931#web-forms).
@@ -50,8 +50,7 @@ To ensure that you are able to successfully get debug snapshots:
 5. If debug snapshots are still not available, run through the steps outlined [here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-snapshot-debugger#troubleshooting).
 
 **Known issues**<br>
-For an application running in Azure App Service, if it's using version 1.1.0 or earlier of Microsoft.ApplicationInsights.SnapshotCollector nuget package, and it either uses no Application Insights site extension or versions 2.4.7 or earlier, snapshots may not be collected. The remedy is to use version 1.1.1 or above of Microsoft.ApplicationInsights.SnapshotCollector nuget package, or use version 2.4.8 or above of the Application Insights site extension.
-<br>
+For an application running in Azure App Service, if it's using version 1.1.0 or earlier of Microsoft.ApplicationInsights.SnapshotCollector nuget package, and it either uses no Application Insights site extension or versions 2.4.7 or earlier, snapshots may not be collected. The remedy is to use version 1.1.1 or above of Microsoft.ApplicationInsights.SnapshotCollector nuget package, or use version 2.4.8 or above of the Application Insights site extension.<br>
 
 ## **Recommended documents**
 
