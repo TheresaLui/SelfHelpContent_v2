@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# worker role (paas)/development/advisory
+# Worker Role (PaaS) Development/Advisory
 
 Examples of advisory services include, but are not limited to:<br>
 
@@ -23,9 +23,9 @@ Examples of advisory services include, but are not limited to:<br>
 * Improve reliability and recoverability<br>
 * Enhance security
 
-You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the drop down list on the previous screen for faster assistance resolving a problem.<br>
+You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the dropdown list on the previous screen for faster assistance resolving a problem.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to get static IP address for Cloud Service](https://azure.microsoft.com/documentation/articles/virtual-networks-reserved-public-ip/#how-to-reserve-the-ip-address-of-an-existing-cloud-service)<br>
 * [Read Microsoft Advisory on Machine Key update](https://aka.ms/azuremachinekeyinfo)<br>
