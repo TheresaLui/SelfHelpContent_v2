@@ -23,7 +23,7 @@ Examples of advisory services include, but are not limited to:<br>
 * Improve reliability and recoverability<br>
 * Enhance security
 
-You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the drop down list on the previous screen for faster assistance resolving a problem.<br>
+You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the dropdown list on the previous screen for faster assistance resolving a problem.<br>
 
 ## **Recommended Documents**
 
