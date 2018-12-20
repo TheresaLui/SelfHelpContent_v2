@@ -8,10 +8,7 @@
         productPesIds="14749"
         cloudEnvironments="public"
         schemaVersion="1"
-        articleId="c1d52907-63c1-4d7e-8fa2-87051c4d1faa",
-	id = "Problem scoping questions for Cannot Create VM",
-	controltype = "multilinetextbox",
-	required = true
+        articleId="c1d52907-63c1-4d7e-8fa2-87051c4d1faa"
 />
 # Problem with Creating VM
 ---
@@ -20,13 +17,14 @@
     "title": "Problem with Creating VM",
     "fileAttachmentHint": "null",
     "formElements": [
-     	{
-		id = "problem_start_time",
-	  	"order": 1,
-		controltype = "datetimepicker",
-		required = true,
-		displaylabel ="Select Deployment Faied Resource Group"
-    	},{
+     	 {
+                  "id": "deployment_error",
+                  "order": 1,
+                  "controlType": "multilinetextbox",
+                  "displayLabel": "What is the error you received?",
+                  "required": false,
+                  "useAsAdditionalDetails": true,
+          },{
             "id": "resourceGroup",
             "order": 2,
             "controlType": "dropdown",
