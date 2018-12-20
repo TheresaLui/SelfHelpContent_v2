@@ -1,14 +1,17 @@
 <properties
-        pageTitle="Scoping questions for issue with Azure Compute"
+        pageTitle="Problem scoping questions for Cannot Create VM"
         description="This is the scoping question for the VM deployment failure"
         authors="sulama"
         authorAlias="sulama"
         selfHelpType="problemScopingQuestions"
-        supportTopicIds="32628279"
-        productPesIds="14749, 15571"
+        supportTopicIds="32628251"
+        productPesIds="14749"
         cloudEnvironments="public"
         schemaVersion="1"
-        articleId="c1d52907-63c1-4d7e-8fa2-87051c4d1faa"
+        articleId="c1d52907-63c1-4d7e-8fa2-87051c4d1faa",
+	id = "Problem scoping questions for Cannot Create VM",
+	controltype = "multilinetextbox",
+	required = true
     />
 # Problem with Creating VM
 ---
@@ -17,9 +20,15 @@
     "title": "Problem with Creating VM",
     "fileAttachmentHint": "null",
     "formElements": [
-        {
+    {
+    	id = "problem_start_time",
+	"order": 1,
+	controltype = "datetimepicker",
+	required = true,
+	displaylabel ="Select Deployment Faied Resource Group"
+    },{
             "id": "resourceGroup",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select Deployment Faied Resource Group",
             "watermarkText": "Choose an resource group",
@@ -40,7 +49,7 @@
             "required": true
         },{
             "id": "correlationId",
-            "order": 2,
+            "order": 3,
             "visibility": "resourceGroup != null",
             "controlType": "dropdown",
             "displayLabel": "Select Deployment Failure",
