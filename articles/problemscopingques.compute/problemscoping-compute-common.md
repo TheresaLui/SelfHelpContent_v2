@@ -12,7 +12,7 @@
 	id = "Problem scoping questions for Cannot Create VM",
 	controltype = "multilinetextbox",
 	required = true
-    />
+/>
 # Problem with Creating VM
 ---
 {
@@ -20,13 +20,13 @@
     "title": "Problem with Creating VM",
     "fileAttachmentHint": "null",
     "formElements": [
-    {
-    	id = "problem_start_time",
-	"order": 1,
-	controltype = "datetimepicker",
-	required = true,
-	displaylabel ="Select Deployment Faied Resource Group"
-    },{
+     	{
+		id = "problem_start_time",
+	  	"order": 1,
+		controltype = "datetimepicker",
+		required = true,
+		displaylabel ="Select Deployment Faied Resource Group"
+    	},{
             "id": "resourceGroup",
             "order": 2,
             "controlType": "dropdown",
