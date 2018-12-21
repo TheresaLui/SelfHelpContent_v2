@@ -43,7 +43,7 @@ them is mentioned below in the article)
     pre-configure your on-demand assessments.
 
 2.  [Verify that you have the Azure Subscription Owner role on the Azure
-    Subscription](https://docs.microsoft.com/en-us/services-hub/health/health-kb-adduserazure) on
+    Subscription](https://docs.microsoft.com/services-hub/health/health-kb-adduserazure) on
     the same email id that you use to login into Services Hub.
 
 3.  You should be able to see the below page in Services Hub -\> Health -\>
