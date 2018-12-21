@@ -15,7 +15,7 @@
 
 # My configuration change impacted connectivity
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM connectivity issue using the steps below.<br>
 
 ## **Recommended Documents**
 
