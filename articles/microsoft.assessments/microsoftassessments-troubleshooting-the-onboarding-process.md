@@ -1,4 +1,21 @@
-**Troubleshooting the On-demand Assessments**
+<properties
+	pageTitle="Troubleshooting the On-demand Assessments"
+	description="OMS On-demand Assessments Troubleshooting Self Help and Explanation"
+	infoBubbleText=""
+	service="microsoft.assessments"
+	resource="recommendations"
+	authors="v-dinova"
+	displayOrder=""
+	articleId="microsoftassessments-troubleshooting-the-onboarding-process"
+	diagnosticScenario=""
+	selfHelpType="generic"
+	supportTopicIds=""
+	resourceTags="assessments,on-boarding,troubleshooting`"
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# **Troubleshooting the On-demand Assessments**
 
 -   06/27/2018
 
@@ -8,7 +25,7 @@
 
 -   danwilmot
 
-karenowens1
+-   karenowens1
 
 The below steps would walk you through from start to end and make you verify the
 correctness of each requirements that are to be met in running the On-Demand
