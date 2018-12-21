@@ -4,7 +4,7 @@
         authors="sulama"
         authorAlias="sulama"
         selfHelpType="problemScopingQuestions"
-        supportTopicIds="32628269"
+        supportTopicIds="32411876"
         productPesIds="14749"
         cloudEnvironments="Public"
         schemaVersion="1"
