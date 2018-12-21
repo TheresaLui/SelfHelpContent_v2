@@ -3,7 +3,7 @@
               description="I have an issue with my public IP"
               service=""
               resource=""
-              authors="tiag"
+              authors="scottAzure"
               authoralias="scotro"
               displayOrder=""
               selfHelpType="generic"
@@ -15,7 +15,7 @@
 
 # I have an issue with my public IP
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM public IP issue using the steps below.<br>
 
 ## **Recommended documents**
 

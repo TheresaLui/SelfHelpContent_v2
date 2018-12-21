@@ -3,7 +3,7 @@
               description="Troubleshoot my VM firewall"
               service=""
               resource=""
-              authors="manavis"
+              authors="scottAzure"
               authorAlias="scotro"
               displayOrder=""
               selfHelpType="generic"
@@ -13,16 +13,16 @@
               cloudEnvironments="public"
 />
 
-# I have an issue with my public IP
+Troubleshoot my VM firewall
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM firewall issue using the steps below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)<br>
 * [Troubleshoot application connectivity issues on virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-app-connection)
 
-**Additional documents**<br>
+**Additional Documents**<br>
 
 * [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 * [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
