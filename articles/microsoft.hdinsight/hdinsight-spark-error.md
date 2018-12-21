@@ -6,7 +6,7 @@
     authors="bharathsreenivas"
     displayOrder="4"
     selfHelpType="resource"
-    supportTopicIds="32511213"
+    supportTopicIds="32629134"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

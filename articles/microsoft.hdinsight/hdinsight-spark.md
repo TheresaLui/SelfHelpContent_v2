@@ -7,7 +7,7 @@
     authoralias="bharathb"
     displayOrder="6"
     selfHelpType="resource"
-    supportTopicIds="32511173"
+    supportTopicIds="32628998"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
