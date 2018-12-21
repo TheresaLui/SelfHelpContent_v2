@@ -148,16 +148,16 @@ opened up:
 -   mms.microsoft.com, Log Analytics portal
 
 -   workspaceId.ods.opinsights.azure.com, [Data Collector
-    API](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-collector-api)
+    API](https://docs.microsoft.com/azure/azure-monitor/platform/data-collector-api)
 
 -   \*.ods.opinsights.azure.com, Agent communication - configuring [firewall
-    settings](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-agent-windows)
+    settings](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)
 
 -   \*.oms.opinsights.azure.com, Agent communication - configuring [firewall
-    settings](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-agent-windows)
+    settings](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)
 
 -   \*.blob.core.windows.net, Agent communication - configuring [firewall
-    settings](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-agent-windows)
+    settings](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows)
 
 **Restart healthservice if data files are pending ingestion**
 
