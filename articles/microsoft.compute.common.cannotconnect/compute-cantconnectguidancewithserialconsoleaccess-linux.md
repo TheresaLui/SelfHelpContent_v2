@@ -1,9 +1,9 @@
 <properties  
-              pageTitle="I need guidance with serial console access"
-              description="I need guidance with serial console access"
+              pageTitle="I need guidance with Serial console access"
+              description="I need guidance with Serial console access"
               service=""
               resource=""
-              authors="tiag"
+              authors="scottAzure"
               authorAlias="scotro"
               displayOrder=""
               selfHelpType="generic"
@@ -15,9 +15,9 @@
 
 # I need guidance with Serial console access
 
-4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
+4 out of 5 customers resolved their VM Serial console access issue using the below steps.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Access the Serial console of your VM directly](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId)<br>
 * [Understand how to use Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)<br>
@@ -26,7 +26,7 @@
 * [Use Serial console to access GRUB and Single User Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-grub-single-user-mode)<br>
 * [Use Serial console for SysRq and NMI calls](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-nmi-sysrq)
 
-**Additional documents**<br>
+**Additional Documents**<br>
 
 * [Common scenarios for accessing Serial console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux#common-scenarios-for-accessing-the-serial-console)<br>
 * [Serial console Linux distro availability](https://azure.microsoft.com/blog/virtual-machine-serial-console-access/)<br>
