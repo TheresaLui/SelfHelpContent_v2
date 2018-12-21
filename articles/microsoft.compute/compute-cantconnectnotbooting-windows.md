@@ -28,7 +28,7 @@ If you cannot connect to your Windows virtual machine (VM) and are unsure of the
 * Verify that [Boot Diagnostics](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBladeViewModel.id.$resourceId) for your VM has been enabled.
 * View the [Boot Diagnostics Blade](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBladeViewModel.id.$resourceId)screenshot out before continuing to the next section
 
-### If your VM is not at the *ctrl-alt-del* screen, it may be experiencing a boot error
+### If your VM is not at the **ctrl-alt-del** screen, it may be experiencing a boot error
 
 1. Restart the virtual machine to address boot issues by clicking *Restart* at the top of the [VM Resource Blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId)<br>
 2. Review the [common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot) troubleshooting guide for common issues associated to specific:
