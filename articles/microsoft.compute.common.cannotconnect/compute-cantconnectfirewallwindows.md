@@ -55,8 +55,6 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 
 ## **Recommended Documents**
 
-### **Common guest OS firewall issues**
-
 * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
 * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
