@@ -12,7 +12,8 @@
     productPesIds="15078"
     cloudEnvironments="public"
 />
-# Azure HDInsight: Improve Apache Spark jobs performance with HDInsight IO Cache
+# Improve Apache Spark Job Performance with HDInsight IO Cache
  
 ## **Recommended Documents**
-* How to [Get started with IO Cache](https://azure.microsoft.com/blog/apache-spark-speedup-with-hdinsight-io-cache/)
+
+* [Get started with IO Cache](https://azure.microsoft.com/blog/apache-spark-speedup-with-hdinsight-io-cache/)
