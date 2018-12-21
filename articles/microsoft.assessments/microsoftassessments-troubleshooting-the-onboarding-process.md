@@ -5,6 +5,7 @@
 	service="microsoft.assessments"
 	resource="recommendations"
 	authors="v-dinova"
+	authoralias="v-dinova"
 	displayOrder=""
 	articleId="microsoftassessments-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
@@ -17,15 +18,7 @@
 
 # Troubleshooting the On-demand Assessments
 
--   06/27/2018
-
--   5 minutes to read
-
--   Contributors
-
--   danwilmot
-
--   karenowens1
+## Recommended Steps
 
 The below steps would walk you through from start to end and make you verify the
 correctness of each requirements that are to be met in running the On-Demand
