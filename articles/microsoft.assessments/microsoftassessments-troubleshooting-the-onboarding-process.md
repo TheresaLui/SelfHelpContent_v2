@@ -9,13 +9,13 @@
 	articleId="microsoftassessments-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32612415,32612423,32612431,32612459,32612494,32612522,32612528"
 	resourceTags="assessments,on-boarding,troubleshooting`"
-	productPesIds=""
+	productPesIds="15725"
 	cloudEnvironments="public"
 />
 
-# **Troubleshooting the On-demand Assessments**
+"# **Troubleshooting the On-demand Assessments**
 
 -   06/27/2018
 
