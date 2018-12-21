@@ -13,7 +13,7 @@
               cloudEnvironments="public"
 />
 
-Troubleshoot my VM firewall
+# Troubleshoot my VM firewall
 
 4 out of 5 customers resolved their VM firewall issue using the steps below.<br>
 
