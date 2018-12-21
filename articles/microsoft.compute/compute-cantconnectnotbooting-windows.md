@@ -15,7 +15,7 @@
 
 # My VM is not booting
 
-4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
+4 out of 5 customers resolved their VM boot issue using the steps listed below.<br>
 
 ## **Recommended Steps**
 
