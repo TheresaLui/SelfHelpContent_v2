@@ -1,18 +1,19 @@
 <properties
-	pageTitle="security/auditing"
-	description="security/auditing"
+	pageTitle="security, privacy and compliance/auditing"
+	description="security, privacy and compliance/auditing"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+   	 authorAlias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574327"
+	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
 
-# security/auditing
+# Auditing
 
-## **Recommended documents**
-
-* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)
+## **Recommended Documents**
+* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)<br>
