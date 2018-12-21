@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-"# **Troubleshooting the On-demand Assessments**
+# Troubleshooting the On-demand Assessments
 
 -   06/27/2018
 
