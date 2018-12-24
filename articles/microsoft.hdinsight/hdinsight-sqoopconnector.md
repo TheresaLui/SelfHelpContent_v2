@@ -13,7 +13,7 @@
     cloudEnvironments="public"
 />
 
-# Azure HDInsight - Sqoop - how to use Apache Sqoop in HDInsight to import and export between HDInsight cluster and Azure SQL database or SQL Server database.
+# Use Apache Sqoop in HDInsight to import and export between HDInsight cluster and Azure SQL database or SQL Server database
 
 ## **Recommended Documents**
 
