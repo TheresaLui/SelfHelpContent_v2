@@ -25,4 +25,4 @@ Note: This topic is not for receiving general advice about Azure products.
 [Troubleshooting the On-demand Assessments](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting)<br>
 [Learn more about Linking and Permissions](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#linking-and-permissions)<br>
 [Learn how to Verify the user account Group Policies](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-the-user-account-group-policies)<br>
-[Learn what to do when an assessment is Inactive or No Data is found in Azure Log Analytics ](https://docs.microsoft.com/en-us/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
+[Learn what to do when an assessment is Inactive or No Data is found in Azure Log Analytics ](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
