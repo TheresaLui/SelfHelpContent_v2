@@ -10,7 +10,7 @@
 	articleId="microsoftassessments-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32536617,32536628,32536642,32612415,32612423,32612431,32612459,32612494,32612522,32612528"
+	supportTopicIds="32612415,32612423,32612431,32612459,32612494,32612522,32612528"
 	resourceTags="assessments,on-boarding,troubleshooting`"
 	productPesIds="15725"
 	cloudEnvironments="public"
