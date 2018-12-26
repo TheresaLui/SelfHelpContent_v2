@@ -18,5 +18,6 @@ cloudEnvironments="Public, Fairfax"
 
 # Custom logs for Linux - Log data collected but not as expected
 
-## **Recommended documents**
-Please review [Custom logs in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-custom-logs)
+## **Recommended Documents**
+
+* [Custom logs in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-custom-logs)
