@@ -10,7 +10,7 @@
 	articleId="operationalinsights-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32612415,32612423,32612431,32612459,32612494,32612522,32612528"
+	supportTopicIds="32612415,32612417,32612421,32612423,32612431,32612459,32612487,32612488,32612489,32612490,32612494,32612522,32612528"
 	resourceTags="assessments,on-boarding,troubleshooting`"
 	productPesIds="15725"
 	cloudEnvironments="public"
