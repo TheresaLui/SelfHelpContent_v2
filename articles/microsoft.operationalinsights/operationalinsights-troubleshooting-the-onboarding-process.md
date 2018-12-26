@@ -7,7 +7,7 @@
 	authors="v-dinova"
 	authoralias="v-dinova"
 	displayOrder=""
-	articleId="microsoftassessments-troubleshooting-the-onboarding-process"
+	articleId="operationalinsights-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32612415,32612423,32612431,32612459,32612494,32612522,32612528"
