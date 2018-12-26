@@ -13,5 +13,5 @@
 	articleTags="healthannotation_genericrhevent"
 />
 
-# Resources in your subscription may be impacted by a resource health event
-Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime-->, resources in your subscription may have been impacted by a resource health event. Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
+# Your Azure resource may be impacted by a resource health event
+Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime-->, your resource <!--$ResourceName-->ResourceName<!--/$ResourceName--> may have been impacted by a resource health event. Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
