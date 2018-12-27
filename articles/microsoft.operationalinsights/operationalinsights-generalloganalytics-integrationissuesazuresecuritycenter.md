@@ -24,9 +24,9 @@ Check if Security Center is installed on the VM:
 1. Open log analytics
 2. Click on the relevant workspace
 3. Under the general menu, click on solutions
-4. In the new blade with the list of solutions, look for "Security" or "SecurityCenterFree"
+4. In the new blade with the list of solutions, look for "Security" or "Security Center Free"
 
-If Security Centre does not appear in your solutions, please review the [Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection#using-an-existing-workspace) offerings.
+If Security Center does not appear in your solutions, please review the [Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection#using-an-existing-workspace) offerings.
 
 ## **Recommended Documents**
 
