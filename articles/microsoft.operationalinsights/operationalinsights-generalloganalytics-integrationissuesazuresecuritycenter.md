@@ -5,13 +5,14 @@ description="Integration issues: Azure Security Center"
 service="microsoft.operationalinsights"
 symptomID=""
 infoBubbleText=""
+resource="operationalinsightsaccounts"
 authors="Yanivsh"
 selfHelpType="generic"
 supportTopicIds="32612471"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
-
+articleId = "operationalinsights-generalloganalytics-integrationissuesazuresecuritycenter"
 />
 
 # Integration issues: Azure Security Center
