@@ -19,7 +19,7 @@ Security Center collects data from your Azure virtual machines (VMs) and non-Azu
 
 ## **Recommended Steps**
 
-Check if Security Center installed on the VM:
+Check if Security Center is installed on the VM:
 
 1. Open log analytics
 2. Click on the relevant workspace
