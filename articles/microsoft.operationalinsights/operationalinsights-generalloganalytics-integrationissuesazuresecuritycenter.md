@@ -19,7 +19,6 @@ Security Center collects data from your Azure virtual machines (VMs) and non-Azu
 
 ## **Recommended steps**
  To Check if security solution installed on the relevant workspace by following this steps:<br>
- 
 * Open log analytics
 * Press on the relevant workspace
 * Under the general menu press on the solutions section  
