@@ -1,0 +1,16 @@
+<properties
+	pageTitle="data import, export, sync, replication/transactional replication to Azure sql db"
+	description="data import, export, sync, replication/transactional replication to Azure sql db"
+	service="microsoft.sql"
+	resource="servers"
+	authors="emlisa"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32630458"
+	productPesIds="13491"
+	cloudEnvironments="public"
+/>
+
+# data import, export, sync, replication/transactional replication to Azure sql db
+## **Recommended documents**
+* [Configure transactional replication](https://docs.microsoft.com/azure/sql-database/replication-to-sql-database/)<br>
