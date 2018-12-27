@@ -1,18 +1,18 @@
 <properties
 	pageTitle="Site Recovery (Azure to Azure)/Enable Replication"
-	description="Site Recovery (Azure to Azure)/Common issues during Enable Replication"
+	description="Site Recovery (Azure to Azure)/Advisory questions - Azure to Azure"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32574716"
+	supportTopicIds="32630515"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
 />
 
-# Can't Enable Replication? Initial Replication Failing?
+# Advisory questions - Azure to Azure
 
 ## **Recommended documents**
 
