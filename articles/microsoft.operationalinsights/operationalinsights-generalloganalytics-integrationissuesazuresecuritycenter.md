@@ -15,7 +15,7 @@ articleId = "operationalinsights-generalloganalytics-integrationissuesazuresecur
 />
 
 # Integration issues: Azure Security Center
-Security Center collects data from your Azure virtual machines (VMs) and non-Azure computers . Data is collected using the Microsoft Monitoring Agent and copies the data to your workspace for analysis.
+Security Center collects data from your Azure virtual machines (VMs) and non-Azure computers. Data is collected using the Microsoft Monitoring Agent and copies the data to your workspace for analysis.
 
 ## **Recommended steps**
  To Check if security solution installed on the relevant workspace by following this steps:<br>
@@ -30,7 +30,7 @@ If it doesn’t appear in this list please follow this article to add it via azu
 (https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection#using-an-existing-workspace)
 
 **Important:**<br>
-Your billing will be define based on the type of the security solution that installed on your worksopace.<br>
+Your billing will be define based on the type of the security solution that installed on your workspace.<br>
 
 ## **Recommended documents**
 * [Security Center Pricing Tier](https://azure.microsoft.com/pricing/details/security-center/)
