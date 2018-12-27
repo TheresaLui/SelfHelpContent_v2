@@ -12,7 +12,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32629661, 32612456"
 	resourceTags=""
-	productPesIds="15454, 15725"​
+	productPesIds="15454, 15725"
 	cloudEnvironments="public, fairfax"
 />
 
