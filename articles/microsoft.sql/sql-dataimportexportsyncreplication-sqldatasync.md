@@ -1,9 +1,10 @@
 <properties
-	pageTitle="data import, export, sync, replication/sql data sync"
-	description="data import, export, sync, replication/sql data sync"
+	pageTitle="data import, export, sync, replication/SQL data sync"
+	description="data import, export, sync, replication/SQL data sync"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+    authorAlias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630455"
@@ -11,7 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# data import, export, sync, replication/sql data sync
+# data import, export, sync, replication/SQL data sync
 ## **Recommended documents**
 * [Troubleshooting issues with SQL Data Sync](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-data-sync)<br>
 * [SQL Data Sync best practices](https://docs.microsoft.com/azure/sql-database/sql-database-best-practices-data-sync)<br>
