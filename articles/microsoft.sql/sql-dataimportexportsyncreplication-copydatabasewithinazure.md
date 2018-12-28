@@ -14,7 +14,9 @@
 
 # data import, export, sync, replication/copy database within Azure
 ## **Recommended steps**
-The following details explain how to migrate or move database.
+
+The following details explain how to migrate or move database. <br>
+
 * Move a database to a different server in the same subscription.<br>
 Click "Copy" at the top of the SQL database resource blade.
 
