@@ -21,6 +21,6 @@
 ## **Recommended Steps**
 
 - For access control and security purposes, Azure Data Factory requires users to have certain permissions to perform certain tasks <br/>
-- Please refer to [Azure roles](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#prerequisites) section for high level explanation <br/>
-- For detailed explanation, please refer to [Roles and permissions for Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/concepts-roles-permissions) page <br/>
-- We recommend you consider the built-in [Data Factory Contributor role](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#data-factory-contributor) for data factory resources <br/>
+- Please refer to [Azure roles](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#prerequisites) section for high level explanation <br/>
+- For detailed explanation, please refer to [Roles and permissions for Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions) page <br/>
+- We recommend you consider the built-in [Data Factory Contributor role](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#data-factory-contributor) for data factory resources <br/>

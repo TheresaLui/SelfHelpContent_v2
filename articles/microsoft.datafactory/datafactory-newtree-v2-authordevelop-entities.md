@@ -20,6 +20,6 @@
 
 ## **Recommended Documents**
 
-* Create Linked Services in ADF Portal: [Quick start sample](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-linked-service) <br/>
-* Create Data Sets in ADF Portal: [Quick start sample](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-datasets) <br/>
-* Create Pipelines in ADF Portal: [Quick start sample](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
+* Create Linked Services in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-linked-service) <br/>
+* Create Datasets in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-datasets) <br/>
+* Create Pipelines in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)

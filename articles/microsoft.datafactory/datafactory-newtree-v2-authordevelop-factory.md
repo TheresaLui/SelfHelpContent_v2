@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* Create data factories in ADF Portal: [Quick start sample](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal)
+* Create data factories in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
