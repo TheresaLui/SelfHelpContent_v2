@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* List of [Supported Data Stores](https://docs.microsoft.com/azure/data-factory/copy-activity-overview#supported-data-stores-and-formats) <br/> 
+* List of [Supported Data Stores](https://docs.microsoft.com/azure/data-factory/copy-activity-overview#supported-data-stores-and-formats) <br> 
 * List of [Supported File Formats and Compression Codecs](https://docs.microsoft.com/azure/data-factory/supported-file-formats-and-compression-codecs)
