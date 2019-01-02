@@ -4,7 +4,7 @@
 	description="Ordering Data Box Disk - understanding pre requisites and Azure limits"
 	service="microsoft.databox.jobs"
 	resource=""
-	authors="madhn"
+	authors="madhurinms"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32614263"
