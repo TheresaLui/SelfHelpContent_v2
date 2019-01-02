@@ -4,7 +4,8 @@ description="SMB clients that do not support encryption will be unable to access
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
-authors="jeffpatt"
+authors="jeffpatt24"
+authorAlias="jeffpatt"
 displayOrder=""
 articleId="Files_SecureTransferRequired"
 diagnosticScenario="Secure transfer required setting is enabled on storage account"
@@ -18,7 +19,7 @@ cloudEnvironments="public"
 # SMB clients that do not support encryption will be unable to access Azure file shares 
 
 <!--issueDescription-->
-The **Secure transfer required** setting is enabled on storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. SMB 2.1 and SMB 3.0 clients that do not support encryption will be unable to access Azure file shares. To learn more about the impact of having the **Secure transfer required** setting enabled, see [Require secure transfer in Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer).
+The **Secure transfer required** setting is enabled on storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. SMB 2.1 and SMB 3.0 clients that do not support encryption will be unable to access Azure file shares. To learn more about the impact of having the **Secure transfer required** setting enabled, see [Require secure transfer in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-require-secure-transfer).
 <!--/issueDescription-->
 
 ## Recommended steps**
