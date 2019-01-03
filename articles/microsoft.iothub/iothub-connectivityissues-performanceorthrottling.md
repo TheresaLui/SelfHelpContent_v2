@@ -1,22 +1,22 @@
 <properties
-	pageTitle="I'm seeing performance or throttling issues"
-	description="I'm seeing performance or throttling issues"
+	pageTitle="Issues with device-to-cloud messages"
+	description="Issues with device-to-cloud messages"
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian"
-	displayOrder="3"
+	displayOrder="9"
 	selfHelpType="resource"
-	supportTopicIds="32596652,32596653,32596667"
+	supportTopicIds="32596652,32596653,32596667,32630545"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 />
 
-# I'm seeing performance or throttling issues
+# Issues with device-to-cloud messages
 
 ## **Recommended steps**
 
-1. If all of your messages are timing out, make sure that you haven't run out of quota by checking the overview page. <br>
+1. If all of your messages are timing out, make sure that you haven't run out of your daily message quota by checking the overview page. <br>
 [IoT Hub quotas and pricing](https://azure.microsoft.com/pricing/details/iot-hub/)
 
 1. Also check if you're hitting the throttle limit by comparing your [traffic](data-blade:Microsoft_Azure_Monitoring.MetricsBladeV3.ResourceId.$resourceId) against our [documentation](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling).
