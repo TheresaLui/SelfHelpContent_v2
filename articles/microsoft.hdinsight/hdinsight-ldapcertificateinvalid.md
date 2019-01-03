@@ -31,7 +31,7 @@ To secure the communication with Azure Active Directory, configuration of secure
 
 <!--$Note-->[Note]<!--/$Note-->
 
-1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
+1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate: <br>
 ```powershell
       $lifetime=Get-Date
                 
