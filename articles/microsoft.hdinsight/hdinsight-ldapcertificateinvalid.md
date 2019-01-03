@@ -39,7 +39,8 @@ To secure the communication with Azure Active Directory, configuration of secure
 
       <strong>-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment</strong>
    
-      <strong>-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->", "<!--$DomainName-->[DomainName]<!--/$DomainName-->"</strong>
+      <strong>-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->"
+    , "<!--$DomainName-->[DomainName]<!--/$DomainName-->"</strong>
 
    
 2. The newly created self-signed certificate is placed in the local machine's certificate store
