@@ -1,0 +1,21 @@
+<properties
+	pageTitle="How to use a third party MQTT client with an IoT Hub"
+	description="How to use a third party MQTT client with an IoT Hub"
+	service="microsoft.devices"
+	resource="iothubs"
+	authors="jlian"
+	displayOrder="9"
+	selfHelpType="resource"
+	supportTopicIds="32630540"
+	resourceTags=""
+	productPesIds="15946"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+/>
+
+# How to use a third party MQTT client with an IoT Hub
+
+## **Recommended steps**
+
+IoT Hub is not a full-featured MQTT broker and does not support all the behaviors specified in the [MQTT v3.1.1 standard](http://mqtt.org). <br>
+To learn more, visit
+[Communicate with your IoT hub using the MQTT protocol](https://docs.microsoft.com/azure/iot-hub/iot-hub-mqtt-support#using-the-mqtt-protocol-directly)
