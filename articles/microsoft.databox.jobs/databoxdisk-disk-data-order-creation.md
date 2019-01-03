@@ -14,9 +14,9 @@
 	cloudEnvironments="public"
 />
 
-# Data Box Disk order creation
+# Data Box Disk Order Creation
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Review prerequisites for Data Box Disk order creation](https://docs.microsoft.com/azure/databox/data-box-disk-system-requirements)<br>
 - [Understand data upload caveats](https://docs.microsoft.com/azure/databox/data-box-disk-limits#data-upload-caveats)<br>
