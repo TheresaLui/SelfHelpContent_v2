@@ -13,11 +13,11 @@
     cloudEnvironments="MoonCake"
 />
 
-# Troubleshooting Azure File issues
+# Troubleshooting Azure Files issues
 
 ## **Recommended steps**
 
-This article lists common problems and solutions that are related to Microsoft Azure File storage.
+This article lists common problems and solutions that are related to Azure Files.
 
 ### **Troubleshooter for mounting errors**
 
