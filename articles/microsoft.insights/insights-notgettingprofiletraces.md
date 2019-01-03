@@ -4,6 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="brahmnes"
+    authorAlias="brahmnes"
     displayOrder="40"
     selfHelpType="generic"
     productPesIds="15693"
@@ -14,11 +15,9 @@
 
 ## **Recommended steps**
 
-To ensure that you are able to successfully get profiler traces:
-
 1. Verify that the profiler is properly configured by following the steps in the article for your app type:
   * [Configure profiler for Azure Web Apps](https://go.microsoft.com/fwlink/?linkid=867935)
-  * [Configure profiler for Azure VMs](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-vm?toc=/azure/azure-monitor/toc.json)	
+  * [Configure profiler for Azure VMs](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-vm?toc=/azure/azure-monitor/toc.json)
   * [Configure profiler for Service Fabric](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-servicefabric?toc=/azure/azure-monitor/toc.json)
   * [Configure profiler for Cloud Services](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-cloudservice?toc=/azure/azure-monitor/toc.json)
 2. Verify the profiler traces can be [viewed](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-overview?toc=/azure/azure-monitor/toc.json#view-profiler-data) from the performance blade.<br>
