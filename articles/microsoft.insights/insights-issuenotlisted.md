@@ -5,6 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    authorAlias="jamdavi"
     articleId="insights_issuenotlisted"
     selfHelpType="generic"
     cloudEnvironments="public"
@@ -21,19 +22,10 @@ We also understand that sometimes you simply can't find a correct combination of
 
 ## **Recommended Steps**
 
-Any issues with the following Azure Portal blades (menu items):<br>
-**Application Map**. You should choose **Application Insights Azure Portal\Application Map**<br>
-**Live Metrics Stream**. You should choose **Application Insights Azure Portal\Live Metrics Stream**<br>
-**Users, Sessions, Events, Funnels, User Flows, Retention, Impact, Cohorts**. You should choose **Application Insights Azure Portal\Usage**<br>
-**For all others**. You should choose **Application Insights Azure Portal\Metrics Explorer**<br><br>
-
-Any issues with setting up or configuring the **.NET, Java, Node.JS, JavaScript SDKs**  you should select the **SDK** Problem Type and then select the proper language.<br><br>
-
-Any issues with email alerts, alert rules, the alert rules portal blade you should select the **Alerting** or **Availability Test** Problem Type and then select the proper category. If its problem with the UI select the alert rule type that is affected by it.<br><br>
-
-Any issues with **PowerShell** you should select the **Application Insights Billing\PowerShell cmdlets** Problem Type. If its problem with the UI select the alert rule type that is affected by it.<br><br>
-
-Any issues with the collection of data, and/or errors sending data (ie, My SDK is configured correctly and verified but the data is not available) you should select 
-the **Collection\Data Collection Problems (Latency, Errors)** Problem Type. Missing data can manifest itself in multiple areas, if that is the case use this category.<br><br>
-
-Any issues with the data not displaying in the portal or does not show up for an extended period of time you should select the **Service\Outage or degradation** Problem Type. Missing data can manifest itself in multiple areas, if that is the case use this category.<br><br>
+* Any issues with the following **Azure Portal blades (menu items)** you should choose **Application Insights Azure Portal** from the Problem Type and then the affected blade
+* Any issues with setting up or configuring the **.NET, Java, Node.JS, JavaScript SDKs**  ou should select the **SDK** Problem Type and then select the proper language.
+* Any issues with **email alerts, alert rules, the alert rules portal blade** you should select the **Alerting and Availability Test** Problem Type and then select the proper category. 
+* Any issues with **PowerShell** you should select the **Application Insights Billing\PowerShell cmdlets** Problem Type.
+* Any issues with the **collection of data (missing or partially missing data), and/or errors sending data** (ie, My SDK is configured correctly and verified but the data is not available) you should select 
+the **Collection\Data Collection Problems (Latency, Errors)** Problem Type. 
+* Any issues with the **data not displaying in the portal** or does not show up for an extended period of time you should select the **Service\Outage or degradation** Problem Type.
