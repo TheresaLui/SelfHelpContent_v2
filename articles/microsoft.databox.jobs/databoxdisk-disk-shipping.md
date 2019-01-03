@@ -14,9 +14,9 @@
 	cloudEnvironments="public"
 />
 
-# Data Box Disk shipping
+# Data Box Disk Shipping
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Ship disks back to Azure](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-picked-up#ship-data-box-disk-back)<br>
 - [Track order status](https://docs.microsoft.com/azure/databox/data-box-disk-faq#track-status)<br>
