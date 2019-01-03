@@ -18,7 +18,7 @@ supportTopicIds="32612415,32612417,32612421,32612423,32612431,32612459,32612487,
 
 # Troubleshooting On-Demand Assessments
 
-If you are having issues with the On-demand Assessments please see the documentation links below.<br><br>
+If you are having issues with On-Demand Assessments, please see the documentation below.
 
 ## **Recommended Documents**
 
