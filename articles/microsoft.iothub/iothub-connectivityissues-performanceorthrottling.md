@@ -24,6 +24,8 @@
 1. If you're running tests and wondering why IoT Hub isn't returning any 429 errors for throttling, it's because IoT Hub only returns 429 ThrottlingException after the limit is violated for too long. We do this so that your messages aren't dropped if you get burst traffic. In the meantime, IoT Hub processes the messages at the operation throttle rate, which might be slow if there's too much traffic in the backlog. <br> 
 [IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)
 
+1. Try running the [diagnostic tool](https://github.com/Azure/iothub-diagnostics) to check connectivity issues
+
 ## **Recommended documents**
 [Diagnosing IoT Hub Issues](https://github.com/Azure/iothub-diagnostics)<br>
 [Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)<br>
