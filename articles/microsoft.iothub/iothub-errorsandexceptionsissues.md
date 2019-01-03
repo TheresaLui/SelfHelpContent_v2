@@ -1,18 +1,18 @@
 <properties
-	pageTitle="I don't understand why I'm getting this error"
-	description="I don't understand why I'm getting this error"
+	pageTitle="How to get more details on IoT Hub errors"
+	description="How to get more details on IoT Hub errors"
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32596605,32596633,32596647"
+	supportTopicIds="32596605,32596633,32596647,32630532"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 />
 
-# I don't understand why I'm getting this error
+# How to get more details on IoT Hub errors
 
 ## **Recommended steps**
 
