@@ -6,7 +6,7 @@
 	authors="jlian"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32596670"
+	supportTopicIds="32596670,32630570"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
