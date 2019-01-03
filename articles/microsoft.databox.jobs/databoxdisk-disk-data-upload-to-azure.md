@@ -14,9 +14,9 @@
 	cloudEnvironments="public"
 />
 
-# Data Box Disk data copy at Azure
+# Data Box Disk Data Copy
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Verify data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-picked-up#verify-data-upload-to-azure)<br>
 - [FAQ: Verify data upload](https://docs.microsoft.com/azure/databox/data-box-disk-faq#verify-and-upload)<br>
