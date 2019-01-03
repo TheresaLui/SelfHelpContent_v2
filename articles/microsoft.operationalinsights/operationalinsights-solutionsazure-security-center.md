@@ -14,8 +14,8 @@ cloudEnvironments="Public, Fairfax"
 articleId = "operationalinsights-generalloganalytics-integrationissuesazuresecuritycenter"
 />
 
-# Integration issues: Azure Security Center
-Security Center collects data from your Azure virtual machines (VMs) and non-Azure computers. Data is collected using the Microsoft Monitoring Agent and copies the data to your workspace for analysis.
+# Integration Issues: Azure Security Center
+Security Center collects data from your Azure virtual machines (VMs) and non-Azure computers. Data is collected using the Microsoft Monitoring Agent and copied to your workspace for analysis.
 
 ## **Recommended Steps**
 
