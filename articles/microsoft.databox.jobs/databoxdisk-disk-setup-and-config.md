@@ -14,9 +14,9 @@
 	cloudEnvironments="public"
 />
 
-# Data Box Disk set up and configuration
+# Data Box Disk Setup and Configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Unlock disks on a Windows client](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-set-up#unlock-disks-on-windows-client)<br>
 - [Unlock disks on a Linux client](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-set-up#unlock-disks-on-linux-client)<br>
