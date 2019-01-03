@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Azure Monitor or Resource Health issues"
-	description="Azure Monitor or Resource Health issues"
+	pageTitle="IoT Hub logging and metrics"
+	description="IoT Hub logging and metrics"
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32596615"
+	supportTopicIds="32596615,32630559"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 />
 
-# Azure Monitor / Resource Health issues
+# IoT Hub logging and metrics
 
 ## **Recommended steps**
 
