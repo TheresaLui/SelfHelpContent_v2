@@ -6,7 +6,7 @@
 	authors="jlian"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32596602,32596665,32596657"
+	supportTopicIds="32596602,32596665,32596657,32630528"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
@@ -21,6 +21,9 @@
 
 1. If the issue persists, check [Azure Resource Health](data-blade:Microsoft_Azure_support.resourcehealthdetailblade) and [Azure Service Health](data-blade:hubsextension.serviceshealthblade) to see if there's a known issue on our side.
 
+1. If the issue persists, you can use the [manual failover feature](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-manual-failover). 
+
 ## **Recommended documents**
 [IoT Hub high availability and disaster recovery](https://docs.microsoft.com/azure/iot-hub/iot-hub-ha-dr)<br>
-[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)
+[Monitor the health of Azure IoT Hub and diagnose problems quickly](https://docs.microsoft.com/azure/iot-hub/iot-hub-monitor-resource-health)<br>
+[Azure Status](https://azure.microsoft.com/status)
