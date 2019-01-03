@@ -22,3 +22,5 @@
 1. If it is already registered and still you cannot create an Iot hub, see if you can create it via Azure CLI or PowerShell. <br>
 [Create an IoT hub using Azure CLI](https://docs.microsoft.com/azure/iot-hub/iot-hub-create-using-cli)<br>
 [Create an IoT hub using Azure PowerShell](https://docs.microsoft.com/azure/iot-hub/iot-hub-create-using-powershell)
+
+1. If you still can not create an IoT Hub, please wait five to fifteen minutes and try again.
