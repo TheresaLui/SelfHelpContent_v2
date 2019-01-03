@@ -15,7 +15,7 @@
 
 # Securing an Azure file share 
 
-## **Recommended documents**    
+## **Recommended Documents**    
 
 - [Azure Storage security guide](https://docs.microsoft.com/azure/storage/common/storage-security-guide?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)<br>
 - [Azure Files security FAQ](https://docs.microsoft.com/azure/storage/files/storage-files-faq#security-authentication-and-access-control)<br>
