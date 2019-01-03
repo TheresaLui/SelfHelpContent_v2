@@ -8,7 +8,7 @@
 	authorAlias="madhn"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32614263"
+	supportTopicIds="32614263, 32614267, 32614268, 32614273, 32614275, 32614294"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
