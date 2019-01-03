@@ -1,18 +1,18 @@
 <properties
-	pageTitle="I want to upgrade IoT Hub or increase my quota"
-	description="I want to upgrade IoT Hub or increase my quota"
+	pageTitle="Manage your IoT Hub pricing or scale"
+	description="Manage your IoT Hub pricing or scale"
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds="32596642,32596611,32596660"
+	supportTopicIds="32596642,32596611,32596660,32630557"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 />
 
-# I want to upgrade IoT Hub or increase my quota
+# Manage your IoT Hub pricing or scale
 
 ## **Recommended steps**
 
