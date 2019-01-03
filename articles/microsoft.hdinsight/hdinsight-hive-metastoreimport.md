@@ -7,7 +7,7 @@
     authorAlias="v-anukar"
     displayOrder="14"
     selfHelpType="resource"
-    supportTopicIds="32511189"
+    supportTopicIds="32629068"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
