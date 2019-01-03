@@ -3,7 +3,8 @@
 	description="Troubleshoot CLoud Tiering Issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="SibonayK"
+	authors="jeffpatt24"
+	authorAlias="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602755"
@@ -18,7 +19,11 @@
 
 **Cloud tiering configuration**
 
-- [How is volume free space interpreted when I have multiple server endpoints on a volume?](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-effective-vfs)<br>
+- [How does the volume free space tiering policy work?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#how-does-the-volume-free-space-tiering-policy-work)<br>
+- [How does the volume free space tiering policy work with regards to new server endpoints?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#how-does-the-volume-free-space-tiering-policy-work-with-regards-to-new-server-endpoints)<br>
+- [How do I determine the appropriate amount of volume free space?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#how-do-i-determine-the-appropriate-amount-of-volume-free-space)<br>
+- [How is volume free space interpreted when I have multiple server endpoints on a volume?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#how-is-volume-free-space-interpreted-when-i-have-multiple-server-endpoints-on-a-volume)<br>
+- [How does the date tiering policy work in conjunction with the volume free space tiering policy?](https://docs.microsoft.com/azure/storage/files/storage-sync-cloud-tiering#how-does-the-date-tiering-policy-work-in-conjunction-with-the-volume-free-space-tiering-policy)<br>
 
 **Cloud tiering monitoring**
 
