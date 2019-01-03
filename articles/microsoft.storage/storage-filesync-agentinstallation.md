@@ -3,7 +3,8 @@
 	description="Troubleshoot agent installation failures"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="SibonayK"
+	authors="jeffpatt24"
+	authorAlias="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602749"
@@ -17,4 +18,6 @@
 ## **Recommended documents**
 
 - [General agent installation troubleshooting](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#agent-installation-failures)<br>
+- [Installing File Sync agent] (https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=portal#install-the-azure-file-sync-agent)<br>
+- [Updating File Sync agent] (https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning#upgrade-paths)<br>
 - [Agent installation fails on Active Directory Domain Controller](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#agent-installation-on-DC)
