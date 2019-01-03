@@ -21,8 +21,8 @@
             "id": "resourceGroup",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Select Deployment Faied Resource Group",
-            "watermarkText": "Choose an resource group",
+            "displayLabel": "Select Failed Resource Group",
+            "watermarkText": "Choose a resource group",
             "content": null,
             "infoBalloonText": null,
             "dynamicDropdownOptions": {
@@ -33,8 +33,8 @@
                 "textPropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [{
-						"value": "Unable to get the list of resource group",
-						"text": "Unable to get the list of resource group."
+						"value": "Unable to retrieve list of resource groups",
+						"text": "Unable to retrieve list of resource groups."
 					}
 					],
             "required": true
@@ -54,8 +54,8 @@
                 "textPropertyRegex": "[^/]+$"   
             },
             "dropdownOptions": [{
-						"value": "Unable to get the list of Deployment Failure",
-						"text": "Unable to get the list of Deployment Failure."
+						"value": "Unable to retrieve list of Deployment Failures",
+						"text": "Unable to retrieve list of Deployment Failures."
 					}],
             "required": false
         },
