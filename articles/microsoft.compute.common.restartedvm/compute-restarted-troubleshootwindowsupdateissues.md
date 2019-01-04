@@ -15,11 +15,11 @@
 
 # Troubleshoot Windows Update issues
 
-4 out of 5 customers resolved their VM Windows Update issue using the below steps.<br>
+4 out of 5 customers resolved their VM Windows Update issue using the steps below.<br>
 
 ## **Recommended Steps**
 
-**If you do not have access to your VM** due to a reboot loop or other related issues, the below steps may apply:<br>
+**If you do not have access to your VM** due to a reboot loop or other related issues, the below steps may apply.<br>
 
 * [Azure VM startup is stuck at Windows Update](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)<br>
 * [Azure VM is stuck in a reboot loop](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-reboot-loop)<br>
@@ -27,20 +27,19 @@
 
 **If you have access to your VM**, the below steps will help troubleshoot the issue.<br>
 
-**Identify the issue by examining the event log for specific errors**<br>
+**Identify the issue by examining the event log for specific errors:**<br>
 
 1. Open Event Viewer (Found in Control Panel > Administrative Tools)<br>
-	- Look for Windows Update Agent events in the System log but also look for errors in the System and Application logs around the same time that updates were applied.<br>
-	- Expand the Event Viewer tree to Application and Service Logs > Microsoft > Windows > WindowsUpdateClient > Operational.
-
+	- Look for Windows Update Agent events in the System log, but also look for errors in the System and Application logs around the same time that updates were applied<br>
+	- Expand the Event Viewer tree to Application and Service Logs > Microsoft > Windows > WindowsUpdateClient > Operational
 
 2. Identify the Update that is failing to install and the failure code<br>
 	- Find the error in [Common Windows Update errors](https://docs.microsoft.com/windows/deployment/update/windows-update-errors) or [Windows Update error codes by component](https://docs.microsoft.com/windows/deployment/update/windows-update-error-reference) and mitigate the issue, if possible
 
-**Run the Windows Update troubleshooter for Windows**<br>
+**Run the Windows Update troubleshooter for Windows:**<br>
 
-1. Download the troubleshooter, and select **Open** or **Save** in the pop-up window. (If you chose **Save**, you'll need to open the troubleshooter from the save location.)<br>
-2. Select **Next** to start the troubleshooter, and follow the steps to identify and fix any problems.<br>
+1. Download the troubleshooter, and select **Open** or **Save** in the pop-up window (If you chose **Save**, you'll need to open the troubleshooter from the save location)<br>
+2. Select **Next** to start the troubleshooter, and follow the steps to identify and fix any problems<br>
 3. After the troubleshooter finishes, try running Windows Update again. Select the **Start** button, and then select **Settings > Update & security > Windows Update > Check for updates**, and then install any available updates.
 4. If applicable, [Reset windows update components](http://support.microsoft.com/kb/971058)
 
