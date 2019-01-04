@@ -15,6 +15,7 @@
 # GitHub Collaboration Issues
 
 ## **Recommended Documents**
+
 * [Setting up and managing organizations and teams](https://help.github.com/categories/setting-up-and-managing-organizations-and-teams) <br>
 * [Collaborating with issues and pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests) <br>
 * [Building a strong community](https://help.github.com/categories/building-a-strong-community) <br>
@@ -23,6 +24,7 @@
 * [Finding talent with GitHub Jobs](https://help.github.com/categories/finding-talent-with-github-jobs) <br>
 
 ## **GitHub Documentation**
+
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>
 	* [GitHub Enterprise API Documentation](https://developer.github.com/enterprise/2.15/v3/enterprise-admin)<br>

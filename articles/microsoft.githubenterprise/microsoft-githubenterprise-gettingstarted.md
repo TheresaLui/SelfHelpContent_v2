@@ -15,6 +15,7 @@
 # GitHub Getting Started Issues
 
 ## **Recommended Documents**
+
 * [Bootcamp](https://help.github.com/categories/bootcamp) <br>
 * [Setup](https://help.github.com/categories/setup) <br>
 * [About GitHub](https://help.github.com/categories/about-github) <br>
@@ -23,6 +24,7 @@
 * [Keyboard Shortcuts](https://help.github.com/categories/keyboard-shortcuts) <br>
 
 ## **GitHub Documentation**
+
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>
 	* [GitHub Enterprise API Documentation](https://developer.github.com/enterprise/2.15/v3/enterprise-admin)<br>

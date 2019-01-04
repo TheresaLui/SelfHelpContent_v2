@@ -16,6 +16,7 @@
 # GitHub Publishing Content Issues
 
 ## **Recommended Documents**
+
 * [Using Git](https://help.github.com/categories/using-git) <br>
 * [Writing on GitHub](https://help.github.com/categories/writing-on-github) <br>
 * [Creating, cloning, and archiving repositories](https://help.github.com/categories/creating-cloning-and-archiving-repositories) <br>
@@ -38,6 +39,7 @@
 * [Customizing GitHub Pages](https://help.github.com/categories/customizing-github-pages) <br>
 
 ## **GitHub Documentation**
+
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>
 	* [GitHub Enterprise API Documentation](https://developer.github.com/enterprise/2.15/v3/enterprise-admin)<br>
