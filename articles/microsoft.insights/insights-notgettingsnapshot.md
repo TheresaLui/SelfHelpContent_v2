@@ -8,7 +8,7 @@
     displayOrder="41"
     selfHelpType="generic"
     supportTopicIds="32602205"
-    producePesIds="15693"
+    productPesIds="15693"
     cloudEnvironments="public"
  />
 # I am not getting debug snapshots
