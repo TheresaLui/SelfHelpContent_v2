@@ -75,8 +75,8 @@
 					"value": "General: Cannot view or find fired alerts",
 					"text": "General: Cannot view or find fired alerts"
 				}, {
-					"value": "General: Cannot view or find alert rule, action group or another Azure resource",
-					"text": "General: Cannot view or find alert rule, action group or another Azure resource"
+					"value": "General: Cannot view or find alert rule",
+					"text": "General: Cannot view or find alert rule"
 				}, {
 					"value": "General: Other issues",
 					"text": "General: Other issues"
