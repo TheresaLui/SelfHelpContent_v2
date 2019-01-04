@@ -20,7 +20,7 @@
 * [Exploring projects on GitHub](https://help.github.com/categories/exploring-projects-on-github) <br>
 * [Searching for information on GitHub](https://help.github.com/categories/searching-for-information-on-github) <br>
 
-## **GitHub Documentation**
+**GitHub Documentation**
 
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>

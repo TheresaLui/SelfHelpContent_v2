@@ -24,7 +24,7 @@
 * [Teaching and learning with GitHub Education](https://help.github.com/categories/teaching-and-learning-with-github-education) <br>
 * [Finding talent with GitHub Jobs](https://help.github.com/categories/finding-talent-with-github-jobs) <br>
 
-## **GitHub Documentation**
+**GitHub Documentation**
 
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>

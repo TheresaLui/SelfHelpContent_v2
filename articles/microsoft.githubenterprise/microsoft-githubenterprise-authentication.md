@@ -19,7 +19,7 @@
 
 * [Authenticating to GitHub](https://help.github.com/categories/authenticating-to-github)<br>
 
-## **GitHub Documentation**
+**GitHub Documentation**
 
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>

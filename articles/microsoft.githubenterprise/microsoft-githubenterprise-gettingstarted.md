@@ -24,7 +24,7 @@
 * [Setting up and managing your GitHub profile](https://help.github.com/categories/setting-up-and-managing-your-github-profile) <br> 
 * [Keyboard Shortcuts](https://help.github.com/categories/keyboard-shortcuts) <br>
 
-## **GitHub Documentation**
+**GitHub Documentation**
 
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>

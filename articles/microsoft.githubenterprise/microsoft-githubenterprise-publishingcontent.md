@@ -39,7 +39,7 @@
 * [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics) <br>
 * [Customizing GitHub Pages](https://help.github.com/categories/customizing-github-pages) <br>
 
-## **GitHub Documentation**
+**GitHub Documentation**
 
 * [GitHub Enterprise FAQ](https://enterprise.github.com/faq)<br>
 	* [GitHub Enterprise Server Documentation](https://help.github.com/enterprise/2.15/)<br>
