@@ -5,6 +5,7 @@
     resource="clusters"
     authors="bharathsreenivas"
     authorAlias="v-anukar"
+    displayOrder=""
     selfHelpType="resource"
     supportTopicIds="32629048"
     resourceTags=""
