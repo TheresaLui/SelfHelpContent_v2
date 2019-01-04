@@ -3,7 +3,8 @@
 	description="Is IoT Hub having service issues?"
 	service="microsoft.devices"
 	resource="iothubs"
-	authors="jlian"
+	authors="jlian,meetshamir"
+	authorAlias="jlian,saziz"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32596602,32596665,32596657,32630528,32630558"
@@ -21,7 +22,7 @@
 
 1. If the issue persists, check [Azure Resource Health](data-blade:Microsoft_Azure_support.resourcehealthdetailblade) and [Azure Service Health](data-blade:hubsextension.serviceshealthblade) to see if there's a known issue on our side.
 
-1. If the issue persists, you can use the [manual failover feature](https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-manual-failover). 
+1. If the issue persists, you can use the [manual failover feature](https://docs.microsoft.com/azure/iot-hub/tutorial-manual-failover). 
 
 ## **Recommended documents**
 [IoT Hub high availability and disaster recovery](https://docs.microsoft.com/azure/iot-hub/iot-hub-ha-dr)<br>
