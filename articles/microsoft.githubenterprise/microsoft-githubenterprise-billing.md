@@ -4,6 +4,7 @@
 	service="githubenterprise"
 	resource="githubenterprise"
 	authors="v-micada"
+	authorAlias="v-micada"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630374"
