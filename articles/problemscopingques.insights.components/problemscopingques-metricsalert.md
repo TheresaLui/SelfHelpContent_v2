@@ -20,7 +20,7 @@
 			"id": "classic_alert_id",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the affected Metrics Alert resource name.",
+			"displayLabel": "Please select the affected Metrics Alert resource.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/metricAlerts?api-version=2018-03-01&%24filter=targetResource%20eq%20'%2Fsubscriptions%2F{subscriptionid}%2FresourceGroups%2F{resourcegroup}%2Fproviders%2Fmicrosoft.insights%2Fcomponents%2F{resourcename}'",
@@ -44,14 +44,14 @@
 					"value": "Automation: Issues with REST API or Azure command line interface (CLI)",
 					"text": "Automation: Issues with REST API or Azure command line interface (CLI)"
 				},{
-					"value": "Configuration: Creating, editing or deleting alert rules",
-					"text": "Configuration: Creating, editing or deleting alert rules"
+					"value": "Configuration: Creating, editing, or deleting alert rules",
+					"text": "Configuration: Creating, editing, or deleting alert rules"
 				}, {
 					"value": "Configuration: Issues with Azure resource manager (ARM) templates",
 					"text": "Configuration: Issues with Azure resource manager (ARM) templates"
 				}, {
-					"value": "Detection: Alert fires when it should NOT",
-					"text": "Detection: Alert fires when it should NOT"
+					"value": "Detection: Alert fires when it shouldn't",
+					"text": "Detection: Alert fires when it shouldn't"
 				}, {
 					"value": "Detection: Alert doesn’t fire when it should",
 					"text": "Detection: Alert doesn’t fire when it should"
@@ -68,8 +68,8 @@
 					"value": "General: Cannot view or find fired alerts",
 					"text": "General: Cannot view or find fired alerts"
 				}, {
-					"value": "General: Cannot view or find alert rule, action group or another Azure resource",
-					"text": "General: Cannot view or find alert rule, action group or another Azure resource"
+					"value": "General: Cannot view or find alert rule, action group, or another Azure resource",
+					"text": "General: Cannot view or find alert rule, action group, or another Azure resource"
 				}, {
 					"value": "General: Other issues",
 					"text": "General: Other issues"
@@ -115,7 +115,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
-			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots and any other relevant information.",
+			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots, and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Expected behavior, actual behavior"
