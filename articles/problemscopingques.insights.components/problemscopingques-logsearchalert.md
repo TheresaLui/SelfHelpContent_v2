@@ -44,8 +44,8 @@
 					"value": "Automation: Issues with REST API or Azure command line interface (CLI)",
 					"text": "Automation: Issues with REST API or Azure command line interface (CLI)"
 				},{
-					"value": "Configuration: Creating, editing or deleting alert rules",
-					"text": "Configuration: Creating, editing or deleting alert rules"
+					"value": "Configuration: Creating, editing, or deleting alert rules",
+					"text": "Configuration: Creating, editing, or deleting alert rules"
 				}, {
 					"value": "Configuration: Issues with Azure resource manager (ARM) templates",
 					"text": "Configuration: Issues with Azure resource manager (ARM) templates"
@@ -53,8 +53,8 @@
 					"value": "Configuration: Log search query does not behave as expected",
 					"text": "Configuration: Log search query does not behave as expected"
 				}, {
-					"value": "Detection: Alert fires when it should NOT",
-					"text": "Detection: Alert fires when it should NOT"
+					"value": "Detection: Alert fires when it shouldn't",
+					"text": "Detection: Alert fires when it shouldn't"
 				}, {
 					"value": "Detection: Alert doesn’t fire when it should",
 					"text": "Detection: Alert doesn’t fire when it should"
