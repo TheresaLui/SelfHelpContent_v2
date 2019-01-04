@@ -6,7 +6,7 @@
     authors="bharathsreenivas"
     authorAlias="v-anukar"
     displayOrder=""
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32629048"
     resourceTags=""
     productPesIds="15078"
