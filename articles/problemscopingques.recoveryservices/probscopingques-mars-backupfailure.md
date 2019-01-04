@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for MARS backup failure"
          description="Scoping questions for MARS backup failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
+	 authorAlias="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553275"
          productPesIds="15207"
@@ -61,6 +62,7 @@
         {
             "id": "prerequisites_links",
             "order": 5,
+	     "controlType": "textbox",
             "fileAttachmentHint": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>",
            "required": false
         },
@@ -131,6 +133,7 @@
         {
             "id": "learn_more_text",
             "order": 10,
+	     "controlType": "textbox",
             "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
             "required": false
         },
