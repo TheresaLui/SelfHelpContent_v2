@@ -20,7 +20,7 @@
 			"id": "classic_alert_id",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the affected Availability Tests resource name.",
+			"displayLabel": "Please select the affected Availability Tests resource.",
 			"watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",
@@ -44,8 +44,8 @@
 					"value": "Automation: Issues with REST API or Azure command line interface (CLI)",
 					"text": "Automation: Issues with REST API or Azure command line interface (CLI)"
 				}, {
-					"value": "Configuration: Creating, editing or deleting availability tests",
-					"text": "Configuration: Creating, editing or deleting availability tests"
+					"value": "Configuration: Creating, editing, or deleting availability tests",
+					"text": "Configuration: Creating, editing, or deleting availability tests"
 				}, {
 					"value": "Configuration: Issues with Azure resource manager (ARM) templates",
 					"text": "Configuration: Issues with Azure resource manager (ARM) templates"
@@ -133,7 +133,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
-			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots and any other relevant information.",
+			"watermarkText": "Please provide: a detailed scenario of the error condition, troubleshooting done so far, log files, timestamp, screenshots, and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Expected behavior, actual behavior"
