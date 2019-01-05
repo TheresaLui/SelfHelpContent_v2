@@ -19,9 +19,11 @@ The most likely cause of this exception is not enough heap memory allocated to t
 
 ## **Recommended Steps**
 
-1. Determine the maximum size of the data the Spark application will handle. A guess can be made based on the maximum of the size of input data, the intermediate data produced by transforming the input data, and the output data produced further transforming the intermediate data. This can also be an iterative process, if an initial guess is not possible.
-2. Make sure that the HDInsight cluster to be used has enough resources (memory and cores) to accommodate the Spark application. This can be determined by viewing the Cluster Metrics section of the YARN UI of the cluster for the values of Memory Used vs. Memory Total, and VCores Used vs. VCores Total.
-3. Set the Spark configurations to appropriate values that do not exceed 90% of the available memory and cores as viewed by YARN, yet well within the memory requirement of the Spark application.
+* Determine the maximum size of the data the Spark application will handle. A guess can be made based on the maximum of the size of input data, the intermediate data produced by transforming the input data, and the output data produced further transforming the intermediate data. This can also be an iterative process, if an initial guess is not possible.
+
+* Make sure that the HDInsight cluster to be used has enough resources (memory and cores) to accommodate the Spark application. This can be determined by viewing the Cluster Metrics section of the YARN UI of the cluster for the values of Memory Used vs. Memory Total, and VCores Used vs. VCores Total.
+
+* Set the Spark configurations to appropriate values that do not exceed 90% of the available memory and cores as viewed by YARN, yet well within the memory requirement of the Spark application.
 
 ## **Recommended Documents**
 
