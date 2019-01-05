@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-1. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages.
-2. Review the below documents in this article to understand the different possible scenarios<br>
+1. Review the below documents in this article to understand the different possible scenarios<br>
+2. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages.
 3. [Understand more about Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview) and using [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
 4. [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
 
