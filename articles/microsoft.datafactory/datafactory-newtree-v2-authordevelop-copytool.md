@@ -15,17 +15,17 @@
 
 # Copy Data Tool
 
-Please consider Copy Data Tool if you want to
+Please consider Copy Data Tool if you want to <br>
 
-1. quickly load a large number of data artifacts
-2. easily build a data loading task without learning about ADF entities
+1. quickly load a large number of data artifacts <br>
+2. easily build a data loading task without learning about ADF entities <br>
 
 ## **Recommended Documents**
 
-* Copy Data Tool [documentation](https://docs.microsoft.com/azure/data-factory/copy-data-tool)
+* Copy Data Tool [documentation](https://docs.microsoft.com/azure/data-factory/copy-data-tool) <br>
 
-  * [Getting Started](https://docs.microsoft.com/azure/data-factory/copy-data-tool)
-  * [Automatic Data Preview](https://docs.microsoft.com/azure/data-factory/copy-data-tool#automatic-data-preview)
-  * [Schema Capture and Automatic Mapping](https://docs.microsoft.com/azure/data-factory/copy-data-tool#schema-capture-and-automatic-mapping)
-  * [Filter Data](https://docs.microsoft.com/azure/data-factory/copy-data-tool#filter-data)
-  * [Schedule Runs](https://docs.microsoft.com/azure/data-factory/copy-data-tool#scheduling-options)
+  * [Getting Started](https://docs.microsoft.com/azure/data-factory/copy-data-tool) <br>
+  * [Automatic Data Preview](https://docs.microsoft.com/azure/data-factory/copy-data-tool#automatic-data-preview) <br>
+  * [Schema Capture and Automatic Mapping](https://docs.microsoft.com/azure/data-factory/copy-data-tool#schema-capture-and-automatic-mapping) <br>
+  * [Filter Data](https://docs.microsoft.com/azure/data-factory/copy-data-tool#filter-data) <br>
+  * [Schedule Runs](https://docs.microsoft.com/azure/data-factory/copy-data-tool#scheduling-options) <br>
