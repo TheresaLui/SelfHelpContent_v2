@@ -13,7 +13,7 @@
     cloudEnvironments="MoonCake"
 />
 
-# My hive queries are really slow
+# Hive Queries are Slow
 
 ## **Recommended Steps**
 
