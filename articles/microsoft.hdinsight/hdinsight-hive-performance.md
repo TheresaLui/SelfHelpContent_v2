@@ -19,11 +19,11 @@
 
 The following Hive performance optimization methods can be applied to your cluster:
 
-1. Scale out your worker nodes to leverage more mappers and reducers to be run in parallel
-2. Enable Tez as the execution engine instead of MapReduce
-3. Review your partitioning scheme to consider cases where there are too few or too many partitions, and choose the scheme where the partitions are evenly sized
-4. Use the ORCFile format, which is optimized for faster access to data
-5. Enable vectorization to process multiple rows together
+1. [Scale out](https://docs.azure.cn/zh-cn/hdinsight/hdinsight-hadoop-optimize-hive-query#scale-out-worker-nodes) your worker nodes to leverage more mappers and reducers to be run in parallel
+2. [Enable Tez](https://docs.azure.cn/zh-cn/hdinsight/hdinsight-hadoop-optimize-hive-query#enable-tez) as the execution engine instead of MapReduce
+3. Review your [partitioning scheme](https://docs.azure.cn/zh-cn/hdinsight/hdinsight-hadoop-optimize-hive-query#hive-partitioning) to consider cases where there are too few or too many partitions, and choose the scheme where the partitions are evenly sized
+4. Use the [ORCFile format](https://docs.azure.cn/zh-cn/hdinsight/hdinsight-hadoop-optimize-hive-query#use-the-orcfile-format), which is optimized for faster access to data
+5. Enable [vectorization](https://docs.azure.cn/zh-cn/hdinsight/hdinsight-hadoop-optimize-hive-query#vectorization) to process multiple rows together
 
 ## **Recommended Documents**
 
