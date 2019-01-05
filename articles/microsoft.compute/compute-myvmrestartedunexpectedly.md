@@ -19,9 +19,10 @@
 
 ## **Recommended Steps**
 
-1. Review the below documents in this article to understand the different possible scenarios<br>
-2. [Understand and use Resource Health Centere](https://docs.microsoft.com/azure/resource-health/resource-health-overview) using [Resource Health Blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for the impacted VM<br>
-3. [Understand how to review the Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and use [Audit Log](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the impacted VM
+1. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages.
+2. Review the below documents in this article to understand the different possible scenarios<br>
+3. [Understand more about Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview) and using [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
+4. [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
 
 ## **Recommended Documents**
 
@@ -30,11 +31,9 @@
 If the host server cannot reboot for any reason or detects a specific issue associated with your VM, the Azure platform initiates an auto-recovery action on either the impacted VMs or the host itself. This may take the faulty host server out of rotation for further investigation or the host will force the VM itself to restart.<br>
 
 * [Host server faults](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#host-server-faults)<br>
-* [Auto-recovery](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#auto-recovery)<br>
+* [Auto-recovery actions](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#auto-recovery)<br>
 * [Unplanned maintenance](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#unplanned-maintenance)<br>
 * [Storage-related forced shutdowns](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#storage-related-force)<br>
-* [Service Healing - Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)<br>
-* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)
 
 **User-initiated reboot or shutdown actions**
 
@@ -52,7 +51,6 @@ To understand what Azure planned maintenance is and how it can affect the availa
 * [How to schedule planned maintenance on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/planned-maintenance)<br>
 * [Understanding memory-preserving updates](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#memory-preserving-updates)<br>
 * [Use Azure redeploy functionality to transfer virtual machines to a new Azure node](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows)<br>
-* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)
 
 **Issues or actions from within the VM**<br>
 
