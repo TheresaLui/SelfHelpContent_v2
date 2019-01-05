@@ -13,16 +13,16 @@
     cloudEnvironments="MoonCake"
 />
 
-# I'm having an issues with my YARN application
+# I'm having issues with my YARN application
 
 ## **Recommended Steps**
 
 To solve issues with YARN applications, the following articles might be helpful:
 
-1. **YARN Timeline Server**: The YARN Timeline server provides generic information on completed applications and framework-specific application information
-2. **YARN Application logs**: The application logs can be useful in debugging issues. The aggregated logs are stored in the path `/app-logs/<user>/logs/<applicationId>`
-3. **YARN CLI tools**: After connecting to HDInsight cluster using SSH, the YARN logs can be collected using: `yarn logs -applicationId <applicationId> -appOwner <user-who-started-the-application>`
-4. **YARN ResourceManager UI**: Add /yarnui/hn/logs/ to the end of the cluster URL to view the YARN logs 
+* **YARN Timeline Server**: The YARN Timeline server provides generic information on completed applications and framework-specific application information
+* **YARN Application logs**: The application logs can be useful in debugging issues. The aggregated logs are stored in the path `/app-logs/<user>/logs/<applicationId>`.
+* **YARN CLI tools**: After connecting to HDInsight cluster using SSH, the YARN logs can be collected using: `yarn logs -applicationId <applicationId> -appOwner <user-who-started-the-application>`
+* **YARN ResourceManager UI**: Add /yarnui/hn/logs/ to the end of the cluster URL to view the YARN logs 
 
 ## **Recommended Documents**
 
