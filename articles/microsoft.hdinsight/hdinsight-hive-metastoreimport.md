@@ -13,9 +13,10 @@
     cloudEnvironments="public, MoonCake"
 />
 
-# Exporting Hive metastore and importing it on another cluster
+# Exporting Hive Metastore and Importing it on Another Cluster
 
-The Hive metastore can be exported and imported on another cluster assuming the data paths are the same.
+The Hive metastore can be exported and imported on another cluster, assuming the data paths are the same.
 
-## **Recommended documents**
-[Hive export and import metastore](https://hdinsight.github.io/hive/hive-export-import-metastore.html)<br>
+## **Recommended Documents**
+
+* [Hive export and import metastore](https://hdinsight.github.io/hive/hive-export-import-metastore.html)<br>
