@@ -7,7 +7,7 @@
 	authorAlias="scotro"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816,32593740,32628269,32628280,32628287"
+	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
