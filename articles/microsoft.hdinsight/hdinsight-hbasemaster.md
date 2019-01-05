@@ -15,7 +15,8 @@
 
 # HBase Master fails at startup
 
-HBase Master (HMaster) can fail with errors like "Atomic renaming failure" or "No server address listed in hbase"
+HBase Master (HMaster) can fail with errors such as "Atomic renaming failure" or "No server address listed in hbase". To resolve these issues, review the recommended documents below.
 
-## **Recommended documents**
-[HBase Master not starting up](https://hdinsight.github.io/hbase/hbase-master-not-starting-up.html)<br>
+## **Recommended Documents**
+
+* [HBase Master not starting up](https://hdinsight.github.io/hbase/hbase-master-not-starting-up.html)<br>
