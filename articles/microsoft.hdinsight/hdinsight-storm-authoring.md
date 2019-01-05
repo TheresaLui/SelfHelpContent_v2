@@ -13,11 +13,12 @@
     cloudEnvironments="public, MoonCake"
 />
 
-# Storm binaries and configuration files
-Storm binaries are located at /usr/hdp/current/storm-client <br>
-Storm Log4J configuration is read from usr/hdp/storm/log4j2
+# Storm Binaries and Configuration Files
 
-## **Recommended documents**
-[Storm Binaries location](https://hdinsight.github.io/storm/storm-binaries-location.html)<br>
-[Storm Log4J Configuration location](https://hdinsight.github.io/storm/storm-log4j-configuration.html)<br>
-[Storm EventHub Spout binaries](https://hdinsight.github.io/storm/storm-eventhub-spout-landing.html)<br>
+Storm binaries are located at `/usr/hdp/current/storm-client`. Storm Log4J configuration is read from `usr/hdp/storm/log4j2`.
+
+## **Recommended Documents**
+
+* [Storm Binaries location](https://hdinsight.github.io/storm/storm-binaries-location.html)<br>
+* [Storm Log4J Configuration location](https://hdinsight.github.io/storm/storm-log4j-configuration.html)<br>
+* [Storm EventHub Spout binaries](https://hdinsight.github.io/storm/storm-eventhub-spout-landing.html)<br>
