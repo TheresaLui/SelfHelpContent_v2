@@ -48,7 +48,7 @@
 		}, {
 			"id": "insights_version",
 			"order": 2,
-			"controlType": "textBox",
+			"controlType": "textbox",
 			"displayLabel": "What version of Application Insights SDK is being used?",
 			"watermarkText": "2.3.0 or SpringBoot Starter 1.1.1",
 			"required": true
@@ -76,9 +76,9 @@
 			"id": "webserver_type_other",
 			"order": 4,
             "visibility": "webserver_type == Other",
-			"controlType": "textBox",
+			"controlType": "textbox",
 			"displayLabel": "What is the name of your web server?",
-			"watermarkText": "WebLogic 10",
+			"watermarkText": "WebLogic 10; WebSphere",
 			"required": true
 		}, {
 			"id": "framework_type",
@@ -101,7 +101,7 @@
 				}],
 			"required": true
 		}, {
-			"id": "framework_version",
+			"id": "framework_type_version",
 			"order": 6,
 			"controlType": "textBox",
 			"displayLabel": "What is the framework version being used",
@@ -111,7 +111,7 @@
 			"id": "jvm_agent",
 			"order": 7,
 			"controlType": "textBox",
-			"displayLabel": "Is JVM Agent Being used for dependency collection",
+			"displayLabel": "Is the JVM Agent Being used for dependency collection?",
 			"watermarkText": "Yes or No",
 			"required": true
 		}, {
