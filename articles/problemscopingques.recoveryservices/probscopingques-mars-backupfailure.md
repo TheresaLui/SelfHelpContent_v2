@@ -132,12 +132,18 @@
             "required": true
         },
         {
-            "id": "learn_more_text",
+            "id": "additional_details",
             "order": 10,
-	     "controlType": "textbox",
-	     "displayLabel": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
-            "fileAttachmentHint": "",
-            "required": false
+	     "controlType": "multilinetextbox",
+	     "displayLabel": "infoblock",
+             "required": false
+	     "useAsAdditionalDetails": true,
+	     "hints": [{
+             "text": "infoblock"
+       	},{
+	    "text": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+        }
+    ]
         },
         {
             "id": "problem_description",
