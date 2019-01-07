@@ -17,7 +17,7 @@
 
 ## Note
 
-To connect to Git Repository in another Azure Active Directory tenant, you need to have administrator permissions for the Azure Subscription you are using. [See more](https://docs.microsoft.com/azure/data-factory/author-visually#use-a-different-azure-active-directory-tenant)
+To connect to [Git Repository in another Azure Active Directory tenant](https://docs.microsoft.com/azure/data-factory/author-visually#use-a-different-azure-active-directory-tenant), you need to have administrator permissions for the Azure Subscription you are using. 
 
 ## **Recommended Documents**
 
