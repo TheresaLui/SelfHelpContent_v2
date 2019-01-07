@@ -5,7 +5,7 @@
     resource="components"
     authors="mcosner"
     authorAlias="mcosner"
-    selfHelpType="diagnostic"
+    selfHelpType="diagnostics"
     articleId="appinsights-missing-ingestion-data"
     diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"
     productPesIds="15693"
