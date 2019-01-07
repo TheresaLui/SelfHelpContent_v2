@@ -149,28 +149,49 @@
 			"id": "application_location",
 			"order": 10,
 			"controlType": "dropdown",
-			"displayLabel": "What is the operating system running the application?",
+			"displayLabel": "Where is this application deployed?",
 			"dropdownOptions": [
 				{
-					"value": "Windows",
-					"text": "Windows"
+					"value": "Azure App Service",
+					"text": "Azure App Service"
 				},{
-					"value": "Linux",
-					"text": "Linux"
+					"value": "Azure Kubernetes Service",
+					"text": "Azure Kubernetes Service"
 				},{
-					"value": "Mac OSX",
-					"text": "Mac OSX"
+					"value": "On premises application",
+					"text": "On premises application"
+				},{
+					"value": "Other",
+					"text": "Other"
 				}],
 			"required": true
-		},{
-			"id": "problem_start_time",
+		}, {
+			"id": "appservice_id",
 			"order": 11,
+			"controlType": "dropdown",
+			"displayLabel": "Please select the app service where this application is deployed.",
+			"watermarkText": "Choose an alert",
+            "dynamicDropdownOptions": {
+				"uri":"/resources?api-version=2014-04-01-preview&%24filter=(subscriptionId%20eq%20'{subscriptionid}')%20and%20(resourceType%20eq%20'microsoft.web%2Fsites')",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+			"dropdownOptions": [{
+					"value": "Unable to get the list of App Services",
+					"text": "Unable to get the list of App Services"
+				}],
+			"required": false
+		}, {
+			"id": "problem_start_time",
+			"order": 12,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 12,
+			"order": 13,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide these details",
 			"required": true,
@@ -192,3 +213,4 @@
 	]
 }
 ---
+
