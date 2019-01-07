@@ -1,9 +1,10 @@
 <properties
-	pageTitle="security/threat detection"
-	description="security/threat detection"
+	pageTitle="security, privacy and compliance/threat detection"
+	description="security, privacy and compliance/threat detection"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+    authorAlias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574335"
@@ -11,13 +12,7 @@
 	cloudEnvironments="public"
 />
 
-# security/threat detection
+# Threat Detection
 
-## **Recommended steps**
-
-* [Vulnerability assessment](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment/)
-
-## **Recommended documents**
-
+## **Recommended Documents**
 * [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection/)<br>
-* [Data discovery and classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification/)
