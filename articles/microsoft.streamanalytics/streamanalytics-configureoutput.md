@@ -23,3 +23,4 @@ You can store or direct the results of a Stream Analytics job to many destinatio
 * [Output types for a job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-outputs)
 * [Best practices for using Cosmos DB output](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-documentdb-output)
 * [How to achieve better write throughput when using SQL Azure Database](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-sql-output-perf)
+* [Prevent duplicate entries when writing to SQL Azure Database](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-output#key-violation-warning-with-azure-sql-database-output)
