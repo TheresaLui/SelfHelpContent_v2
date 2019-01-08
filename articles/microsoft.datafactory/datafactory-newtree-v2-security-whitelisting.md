@@ -18,7 +18,6 @@
 ## **Recommended Documents**
 
 * Hybrid Scenarios Security [Overview](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#hybrid-scenarios) <br>
-* Firewall Configurations and Whitelisting IP Addresses <br>
-
-  * for on-prem/private network: [list](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-requirements-for-on-premisesprivate-network) <br>
-  * in data store: [list](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#ip-configurations-and-whitelisting-in-data-stores) <br>
+* Firewall Configurations and Whitelisting IP Addresses: <br>
+  * [On-prem/private network](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-requirements-for-on-premisesprivate-network) <br>
+  * [In data store](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#ip-configurations-and-whitelisting-in-data-stores) <br>
