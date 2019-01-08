@@ -64,7 +64,11 @@
             "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
-            "dropdownOptions": [
+              "hints": [{ 
+	    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>"
+        }
+    ]
+	    "dropdownOptions": [
                 {
                     "value": "Azure Backup agent is latest",
                     "text": "Azure Backup agent is latest"
