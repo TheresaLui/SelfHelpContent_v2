@@ -15,4 +15,5 @@
 # Threat Detection
 
 ## **Recommended Documents**
+
 * [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection/)<br>

@@ -13,7 +13,7 @@
 
 # design and development/My issue is not listed
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure SQL Database development overview](https://docs.microsoft.com/azure/sql-database/sql-database-develop-overview/)<br>
 * [Design disaster recovery strategies for elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery-strategies-for-applications-with-elastic-pool/)<br>

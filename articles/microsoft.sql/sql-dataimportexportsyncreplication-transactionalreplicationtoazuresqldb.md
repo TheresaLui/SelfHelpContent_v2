@@ -13,5 +13,7 @@
 />
 
 # data import, export, sync, replication/transactional replication to Azure SQL db
-## **Recommended documents**
+
+## **Recommended Documents**
+
 * [Configure transactional replication](https://docs.microsoft.com/azure/sql-database/replication-to-sql-database?WT.mc_id=pid:13491:sid:32630458/)<br>

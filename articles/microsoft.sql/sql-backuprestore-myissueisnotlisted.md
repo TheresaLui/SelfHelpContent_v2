@@ -14,7 +14,7 @@
 
 # backup/restore/my issue is not listed
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Recovery using backups](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32630440/)<br>
 * [Restore a single tenant](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-restore-single-tenant?WT.mc_id=pid:13491:sid:32630440/)<br>

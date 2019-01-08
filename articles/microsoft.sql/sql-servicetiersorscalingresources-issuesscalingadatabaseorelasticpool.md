@@ -13,7 +13,9 @@
 />
 
 # service tiers or scaling resources/issues scaling a database or elastic pool
-## **Recommended documents**
+
+## **Recommended Documents**
+
 * [Resources for scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Resources for scaling an elastic pool](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Scalability overview](https://docs.microsoft.com/azure/sql-database/sql-database-scalability-index?WT.mc_id=pid:13491:sid:32630431/)<br>

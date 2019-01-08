@@ -14,8 +14,7 @@
 
 # query execution/performance and time outs
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource.  The following reference walks through how to address both troubleshooting paths: [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)<br>
-
 * For connection errors and transient errors that your client application encounters when it interacts with Azure SQL Database, the following reference covers how to prevent, troubleshoot, diagnose and mitigate such errors: [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues/)

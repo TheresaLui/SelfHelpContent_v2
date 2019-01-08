@@ -14,7 +14,7 @@
 
 # backup/restore/automated backups or point in time restore
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/)<br>
 * [Point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#point-in-time-restore?WT.mc_id=pid:13491:sid:32630409/)<br>

@@ -14,7 +14,7 @@
 
 # backup/restore/geo-replication
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Create readable secondary databases using active geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32630424/)<br>
 * [Configure active geo-replication in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication-portal?WT.mc_id=pid:13491:sid:32630424/)<br>

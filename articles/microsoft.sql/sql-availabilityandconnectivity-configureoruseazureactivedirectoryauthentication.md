@@ -14,12 +14,12 @@
 
 # availability and connectivity/Configure or use Azure Active Directory authentication
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630414/)<br>
 * [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630414/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630414/)<br>
 * [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication?WT.mc_id=pid:13491:sid:32630414/)<br>

@@ -14,7 +14,7 @@
 
 # migrating to azure/migration tools
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Migration tools](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql/)<br>
 * [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>

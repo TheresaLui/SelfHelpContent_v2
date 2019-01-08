@@ -13,5 +13,7 @@
 />
 
 # portal and client tools/azure data studio
-## **Recommended steps**
+
+## **Recommended Steps**
+
 * [Azure Data Studio quickstart to connect and query Azure SQL Database](https://docs.microsoft.com/sql/azure-data-studio/quickstart-sql-database?toc=%2Fazure%2Fsql-database%2Ftoc.json&view=sql-server-2017?WT.mc_id=pid:13491:sid:32630411/)

@@ -13,7 +13,7 @@
 
 # query execution/my issue is not listed
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>
 * [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate)

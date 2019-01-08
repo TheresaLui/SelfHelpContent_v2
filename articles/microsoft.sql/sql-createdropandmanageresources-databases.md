@@ -14,7 +14,8 @@
 
 # create drop and manage resources/databases
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Change database name, edition, size and other options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630418/)<br>
 * [Troubleshoot common Azure SQL database permissions and access issues](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-permissions?WT.mc_id=pid:13491:sid:32630418/)<br>
 * [Move databases between servers, between subscriptions, and in and out of Azure](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data?WT.mc_id=pid:13491:sid:32630418/)<br>

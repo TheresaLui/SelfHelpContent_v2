@@ -14,7 +14,7 @@
 
 # backup/restore/long-term backup retention
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention?WT.mc_id=pid:13491:sid:32630432/)<br>
 * [Manage long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure?WT.mc_id=pid:13491:sid:32630432/)<br>

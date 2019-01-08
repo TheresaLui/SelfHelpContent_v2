@@ -14,7 +14,7 @@
 
 # backup/restore/how to questions or planning a recovery strategy
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Design for disaster recovery](https://docs.microsoft.com/azure/sql-database/sql-database-designing-cloud-solutions-for-disaster-recovery?WT.mc_id=pid:13491:sid:32630426/)<br>
 * [Guidance on outage recovery](https://docs.microsoft.com/azure/sql-database/sql-database-disaster-recovery?WT.mc_id=pid:13491:sid:32630426/)<br>

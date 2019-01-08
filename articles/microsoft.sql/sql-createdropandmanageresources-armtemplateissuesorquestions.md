@@ -14,6 +14,6 @@
 
 # create drop and manage resources/ARM template issues or questions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Debugging ARM template deployments](https://azure.microsoft.com/blog/debugging-arm-template-deployments?WT.mc_id=pid:13491:sid:32630406/)<br>

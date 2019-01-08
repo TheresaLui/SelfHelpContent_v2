@@ -14,6 +14,6 @@
 
 # tools/my issue is not listed
 
+## **Recommended Documents**
 
-## **Recommended documents**
-[Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview/)
+* [Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview/)

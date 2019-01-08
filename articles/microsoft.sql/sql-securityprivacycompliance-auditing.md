@@ -16,4 +16,5 @@
 # Auditing
 
 ## **Recommended Documents**
+
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)<br>

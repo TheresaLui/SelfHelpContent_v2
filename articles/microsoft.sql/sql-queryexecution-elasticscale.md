@@ -13,8 +13,7 @@
 
 # query execution/elastic scale
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Elastic query overview](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-overview/)<br>
 * [Query vertically partitioned data](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-getting-started-vertical/)<br>

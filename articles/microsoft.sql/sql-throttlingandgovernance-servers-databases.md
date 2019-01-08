@@ -14,6 +14,7 @@
 
 # query execution/throttling and governance
 
-## **Recommended documents**
-[SQL Database options and performance levels](https://azure.microsoft.com/documentation/articles/sql-database-service-tiers/)<br>
-[Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)
+## **Recommended Documents**
+
+* [SQL Database options and performance levels](https://azure.microsoft.com/documentation/articles/sql-database-service-tiers/)<br>
+* [Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)
