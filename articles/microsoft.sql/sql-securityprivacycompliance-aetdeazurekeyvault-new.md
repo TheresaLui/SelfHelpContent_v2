@@ -17,7 +17,7 @@
 
 ## **Recommended Documents**
 
-* [Always Encrypted with certificate store](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted/)<br>
-* [Always Encrypted with Azure key vault](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault/)<br>
-* [Transparent Data Encryption (TDE)](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017&viewFallbackFrom=sql-server-2017%2F/)<br>
-* [TDE with Bring Your Own Key](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql?view=sql-server-2017)
+* [Always Encrypted with certificate store](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted?WT.mc_id=pid:13491:sid:32630405/)<br>
+* [Always Encrypted with Azure key vault](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault?WT.mc_id=pid:13491:sid:32630405/)<br>
+* [Transparent Data Encryption (TDE)](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017&viewFallbackFrom=sql-server-2017%2F?WT.mc_id=pid:13491:sid:32630405/)<br>
+* [TDE with Bring Your Own Key](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630405/)

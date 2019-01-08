@@ -14,4 +14,4 @@
 
 # data import, export, sync, replication/export from SQL db to BACPAC
 ## **Recommended documents**
-* [Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)
+* [Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32630420/)

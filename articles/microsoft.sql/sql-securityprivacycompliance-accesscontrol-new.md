@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* [Access control](https://docs.microsoft.com/azure/sql-database/sql-database-control-access)<br>
-* [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)
+* [Access control](https://docs.microsoft.com/azure/sql-database/sql-database-control-access?WT.mc_id=pid:13491:sid:32630403/)<br>
+* [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins?WT.mc_id=pid:13491:sid:32630403/)

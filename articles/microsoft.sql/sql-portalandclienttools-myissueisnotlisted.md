@@ -14,4 +14,4 @@
 
 # portal and client tools/my issue is not listed
 ## **Recommended documents**
-[Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview/)
+[Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview?WT.mc_id=pid:13491:sid:32630445/)

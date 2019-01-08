@@ -14,5 +14,5 @@
 
 # performance and query execution/specific errors or exceptions
 ## **Recommended documents**
-* [Error messages for SQL Database client programs](https://azure.microsoft.com/documentation/articles/sql-database-develop-error-messages/)<br>
-* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)
+* [Error messages for SQL Database client programs](https://azure.microsoft.com/documentation/articles/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32630454/)<br>
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630454/)

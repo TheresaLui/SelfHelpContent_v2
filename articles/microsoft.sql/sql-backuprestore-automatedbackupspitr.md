@@ -16,6 +16,6 @@
 
 ## **Recommended documents**
 
-* [Automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups/)<br>
-* [Point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#point-in-time-restore/)<br>
-* [Manage long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure/)
+* [Automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/)<br>
+* [Point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#point-in-time-restore?WT.mc_id=pid:13491:sid:32630409/)<br>
+* [Manage long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure?WT.mc_id=pid:13491:sid:32630409/)

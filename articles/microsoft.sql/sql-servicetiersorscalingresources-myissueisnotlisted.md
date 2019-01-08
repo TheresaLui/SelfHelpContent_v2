@@ -14,8 +14,8 @@
 
 # service tiers or scaling resources/my issue is not listed
 ## **Recommended documents**
-* [Overview of service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-general-purpose-business-critical/)<br>
-* [General Purpose/Standard tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-general-purpose/)<br>
-* [Business Critical tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-business-critical/)<br>
-* [Hyperscale service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-hyperscale/)<br>
-* [Hyperscale FAQ](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-hyperscale-faq/)
+* [Overview of service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-general-purpose-business-critical?WT.mc_id=pid:13491:sid:32630447/)<br>
+* [General Purpose/Standard tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-general-purpose?WT.mc_id=pid:13491:sid:32630447/)<br>
+* [Business Critical tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-business-critical?WT.mc_id=pid:13491:sid:32630447/)<br>
+* [Hyperscale service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-hyperscale?WT.mc_id=pid:13491:sid:32630447/)<br>
+* [Hyperscale FAQ](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-hyperscale-faq?WT.mc_id=pid:13491:sid:32630447/)

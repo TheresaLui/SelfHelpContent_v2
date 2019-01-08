@@ -16,11 +16,11 @@
 
 ## **Recommended Steps**
 
-* [Configure multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)
+* [Configure multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630446/)
 
 ## **Recommended Documents**
 
-* [Security overview](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview/)<br>
-* [Advanced security](https://docs.microsoft.com/azure/sql-database/sql-database-security-index)<br>
-* [Virtual network endpoints and rules](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview/)<br>
-* [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins/)<br>
+* [Security overview](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview?WT.mc_id=pid:13491:sid:32630446/)<br>
+* [Advanced security](https://docs.microsoft.com/azure/sql-database/sql-database-security-index?WT.mc_id=pid:13491:sid:32630446/)<br>
+* [Virtual network endpoints and rules](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?WT.mc_id=pid:13491:sid:32630446/)<br>
+* [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins?WT.mc_id=pid:13491:sid:32630446/)<br>

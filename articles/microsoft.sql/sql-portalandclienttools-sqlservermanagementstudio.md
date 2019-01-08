@@ -14,4 +14,4 @@
 
 # portal and client tools/SQL server management studio
 ## **Recommended documents**
-[Managing Azure SQL Database using SQL Server Management Studio](https://azure.microsoft.com/documentation/articles/sql-database-manage-azure-ssms/)
+[Managing Azure SQL Database using SQL Server Management Studio](https://azure.microsoft.com/documentation/articles/sql-database-manage-azure-ssms?WT.mc_id=pid:13491:sid:32630456/)

@@ -16,5 +16,5 @@
 
 ## **Recommended documents**
 
-* [Auto-failover groups](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group/)<br>
-* [Failover group operations](https://docs.microsoft.com/rest/api/sql/failovergroups/)
+* [Auto-failover groups](https://docs.microsoft.com/azure/sql-database/sql-database-auto-failover-group?WT.mc_id=pid:13491:sid:32630408/)<br>
+* [Failover group operations](https://docs.microsoft.com/rest/api/sql/failovergroups?WT.mc_id=pid:13491:sid:32630408/)

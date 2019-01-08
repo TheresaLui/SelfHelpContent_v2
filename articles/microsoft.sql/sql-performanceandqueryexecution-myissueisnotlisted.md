@@ -14,6 +14,6 @@
 
 # performance and query execution/my issue is not listed
 ## **Recommended documents**
-* [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>
-* [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate)<br>
-* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview)
+* [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database?WT.mc_id=pid:13491:sid:32630444/)<br>
+* [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate?WT.mc_id=pid:13491:sid:32630444/)<br>
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630444/)

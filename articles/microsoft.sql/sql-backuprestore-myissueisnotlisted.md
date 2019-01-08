@@ -16,8 +16,8 @@
 
 ## **Recommended documents**
 
-* [Recovery using backups](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups/)<br>
-* [Restore a single tenant](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-restore-single-tenant/)<br>
-* [PowerShell example to restore a database from backups](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-restore-database-powershell/)<br>
-* [Backup short term retention policy operations](https://docs.microsoft.com/rest/api/sql/backupshorttermretentionpolicies/)<br>
-* [Complete restore operation for managed databases](https://docs.microsoft.com/rest/api/sql/manageddatabases/completerestore/)
+* [Recovery using backups](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32630440/)<br>
+* [Restore a single tenant](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-restore-single-tenant?WT.mc_id=pid:13491:sid:32630440/)<br>
+* [PowerShell example to restore a database from backups](https://docs.microsoft.com/azure/sql-database/scripts/sql-database-restore-database-powershell?WT.mc_id=pid:13491:sid:32630440/)<br>
+* [Backup short term retention policy operations](https://docs.microsoft.com/rest/api/sql/backupshorttermretentionpolicies?WT.mc_id=pid:13491:sid:32630440/)<br>
+* [Complete restore operation for managed databases](https://docs.microsoft.com/rest/api/sql/manageddatabases/completerestore?WT.mc_id=pid:13491:sid:32630440/)

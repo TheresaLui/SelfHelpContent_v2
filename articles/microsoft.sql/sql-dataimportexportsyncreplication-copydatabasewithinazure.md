@@ -24,11 +24,11 @@ Click "Copy" at the top of the SQL database resource blade.
 Click "Move" at the top of the SQL server resource blade that hosts your database, then pick resources to move and the subscription to move to.
 
 * To migrate an existing SQL database to Azure, first run the compatibility tool to determine whether it can be migrated, fix any incompatibility issues and then select an appropriate migration method.<br>
-[Migrating a SQL Server database to Azure SQL](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate/)<br>
+[Migrating a SQL Server database to Azure SQL](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate?WT.mc_id=pid:13491:sid:32630415/)<br>
 
 * Create a copy of a database so it can be used outside of Azure.<br>
-[Export a BACPAC file](https://azure.microsoft.com/documentation/articles/sql-database-export/)<br>
+[Export a BACPAC file](https://azure.microsoft.com/documentation/articles/sql-database-export?WT.mc_id=pid:13491:sid:32630415/)<br>
 
 ## **Recommended documents**
-* [Move databases between servers, between subscriptions, and into and out of Azure](http://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data/)<br>
-* [How to copy an Azure SQL database](http://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data/)<br>
+* [Move databases between servers, between subscriptions, and into and out of Azure](http://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data?WT.mc_id=pid:13491:sid:32630415/)<br>
+* [How to copy an Azure SQL database](http://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-moving-data?WT.mc_id=pid:13491:sid:32630415/)<br>

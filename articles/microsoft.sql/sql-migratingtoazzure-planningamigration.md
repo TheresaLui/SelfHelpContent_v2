@@ -14,5 +14,5 @@
 
 # migrating to azure/planning a migration
 ## **Recommended documents**
-* [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>
-* [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate)
+* [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database?WT.mc_id=pid:13491:sid:32630448/)<br>
+* [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate?WT.mc_id=pid:13491:sid:32630448/)

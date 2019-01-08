@@ -14,8 +14,8 @@
 
 # data import, export, sync, replication/SQL data sync
 ## **Recommended documents**
-* [Troubleshooting issues with SQL Data Sync](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-data-sync)<br>
-* [SQL Data Sync best practices](https://docs.microsoft.com/azure/sql-database/sql-database-best-practices-data-sync)<br>
-**Other documents**<br>
-* [SQL Data Sync concepts](https://docs.microsoft.com/azure/sql-database/sql-database-sync-data)<br>
-* [Setup SQL Data Sync](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-sql-data-sync)
+* [Troubleshooting issues with SQL Data Sync](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-data-sync?WT.mc_id=pid:13491:sid:32630455/)<br>
+* [SQL Data Sync best practices](https://docs.microsoft.com/azure/sql-database/sql-database-best-practices-data-sync?WT.mc_id=pid:13491:sid:32630455/)<br>
+## Other documents <br>
+* [SQL Data Sync concepts](https://docs.microsoft.com/azure/sql-database/sql-database-sync-data?WT.mc_id=pid:13491:sid:32630455/)<br>
+* [Setup SQL Data Sync](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-sql-data-sync?WT.mc_id=pid:13491:sid:32630455/)

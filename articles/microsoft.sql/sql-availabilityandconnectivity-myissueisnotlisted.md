@@ -21,18 +21,18 @@ Persistent connection issues to Azure SQL Database can occur due to incorrect fi
 
 * Set up firewall rules to allow the client IP address.<br>
 
-[Configure SQL Azure firewall rules](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/) <br>
+[Configure SQL Azure firewall rules](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings?WT.mc_id=pid:13491:sid:32630439/) <br>
 
 * Follow connection recommendations on computers that host your client program<br>
 
-[Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations)<br>
+[Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations?WT.mc_id=pid:13491:sid:32630439/)<br>
 
 * Fix incorrect connection strings in your application.<br>
 
-[Connection strings to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/#connections-to-azure-sql-database)<br>
+[Connection strings to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/#connections-to-azure-sql-database?WT.mc_id=pid:13491:sid:32630439/)<br>
 
 ## **Recommended documents**
 
-* [Troubleshoot common connectivity issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Troubleshoot common connectivity issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues?WT.mc_id=pid:13491:sid:32630439/)<br>
 
-* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues?WT.mc_id=pid:13491:sid:32630439/)<br>

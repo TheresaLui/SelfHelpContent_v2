@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-* [Disaster recovery using geo-restore](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-dr-geo-restore/)<br>
+* [Disaster recovery using geo-restore](https://docs.microsoft.com/azure/sql-database/saas-dbpertenant-dr-geo-restore?WT.mc_id=pid:13491:sid:32630425/)<br>

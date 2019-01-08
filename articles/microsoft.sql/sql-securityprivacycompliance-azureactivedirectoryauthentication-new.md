@@ -17,11 +17,11 @@
 
 ## **Recommended Steps**
 
-* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure/)<br>
-* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)<br>
+* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
+* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)<br>
 
 ## **Recommended Documents**
 
-* [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication/)<br>
-* [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication)<br>
-* [Azure AD authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)
+* [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>
+* [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication?WT.mc_id=pid:13491:sid:32630410/)<br>
+* [Azure AD authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries?WT.mc_id=pid:13491:sid:32630410/)

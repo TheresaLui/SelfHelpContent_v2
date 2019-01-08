@@ -16,4 +16,4 @@
 
 ## **Recommended documents**
 
-* [Debugging ARM template deployments](https://azure.microsoft.com/blog/debugging-arm-template-deployments/)<br>
+* [Debugging ARM template deployments](https://azure.microsoft.com/blog/debugging-arm-template-deployments?WT.mc_id=pid:13491:sid:32630406/)<br>
