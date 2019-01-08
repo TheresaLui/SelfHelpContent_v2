@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Data Factory V2 - Author and Develop - Authentication Failure"
-	description="Permissions and Azure Roles for Azure Data Factory V2"
+	description="Permissions and Azure Roles for Azure Data Factory"
 	infoBubbleText=""
 	service="microsoft.datafactory"
 	resource="factories"
@@ -10,7 +10,7 @@
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32629441"
+	supportTopicIds="32629441, 32629535"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
