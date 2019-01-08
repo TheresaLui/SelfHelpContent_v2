@@ -15,12 +15,11 @@
 
 # Iterative Development and Debugging Experiences
 
-__Attention__: Please note that test runs initiated by _Debug_ will __not__ be listed on _Monitor_ page. Instead, you can see them in the _Output_ window of the pipeline canvas. [See more](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#visualizing-debug-runs) <br>
+**Note**: Test runs initiated by _Debug_ will **not** be listed on _Monitor_ page. Instead, you can see them in the _Output_ window of the pipeline canvas.
 
 ## **Recommended Documents**
 
-* _Debug_ Feature [Documentation](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging) <br>
-
+* [_Debug_ Documentation](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging) <br>
   * [Overview](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#iterative-debugging-features) <br>
   * [Visualize Debug Run](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#visualizing-debug-runs) <br>
   * [Set Breakpoints](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#setting-breakpoints-for-debugging) <br>
