@@ -23,5 +23,5 @@ Try the following two steps to resolve the issue:
 1. Stop/Deallocate the VM from the portal, start the VM, and test again. If your subscription was recently authorized to send mail on TCP port 25, stopping and starting the VM from the portal will cause the VM to pull the updated routing rules from the Azure platform.
 2. Check your VM's network settings to determine if you have Network Security Groups (NSGs) blocking traffic. You can also use [Network Watcher's IPflow verify tool](https://docs.microsoft.com/azure/network-watcher/network-watcher-ip-flow-verify-overview) to check for NSGs blocking traffic, User-Defined Routes (UDRs) rerouting your traffic back to on-premises ('Default Route' 0.0.0.0/0), or to a network appliance.
 
-Refer to the following article for more information: [Enhanced Azure Security for sending emails](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/).
+Refer to the following article for more information: [Enhanced Azure Security for sending emails](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity).
 <!--/issueDescription-->
