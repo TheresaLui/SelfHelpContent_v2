@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Data Factory V2 - Author and Develop - Authentication Failure"
-	description="Permissions and Azure Roles for Azure Data Factory V2"
+	description="Permissions and Azure Roles for Azure Data Factory"
 	infoBubbleText=""
 	service="microsoft.datafactory"
 	resource="factories"
