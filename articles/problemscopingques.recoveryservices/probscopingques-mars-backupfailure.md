@@ -134,9 +134,9 @@
         {
             "id": "learn_more_text",
             "order": 10,
-	     "controlType": "textbox",
-	     "displayLabel": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
-             "fileAttachmentHint": "",
+	     "controlType": "multilinetextbox",
+	     "displayLabel": "Information",
+	     "watermarkText": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
 	     "required": false,
         },
         {
