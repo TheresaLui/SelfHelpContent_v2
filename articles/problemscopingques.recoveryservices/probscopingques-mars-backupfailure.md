@@ -15,7 +15,7 @@
 {
     "resourceRequired": false,
     "title": "MARS backup failure",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>",
     "formElements": [
         {
             "id": "os_version",
@@ -60,16 +60,8 @@
             "required": true
         },
         {
-            "id": "prerequisites_links",
-            "order": 5,
-	     "controlType": "textbox",
-	     "displayLabel": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>",
-            "fileAttachmentHint": "",
-            "required": false
-        },
-        {
             "id": "basic_troubleshooting_multiselect",
-            "order": 6,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -110,7 +102,7 @@
         },
         {
             "id": "get_machineid",
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
             "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
@@ -118,7 +110,7 @@
         },
         {
             "id": "get_resourceId",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
             "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
@@ -126,14 +118,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "learn_more_text",
-            "order": 10,
+            "order": 9,
 	     "controlType": "multilinetextbox",
 	     "displayLabel": "Information",
 	     "watermarkText": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
@@ -141,7 +133,7 @@
         },
         {
             "id": "problem_description",
-            "order": 11,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
