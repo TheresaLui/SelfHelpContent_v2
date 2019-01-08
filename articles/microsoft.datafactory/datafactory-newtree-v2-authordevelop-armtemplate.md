@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* Export and Import ARM templates in data factory: [Steps](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#create-a-resource-manager-template-for-each-environment) <br>
-* Integrate into CI/CD cycle: [Documentation](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) <br>
+* [Export and Import ARM templates in data factory](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#create-a-resource-manager-template-for-each-environment) <br>
+* [Integrate into CI/CD cycle](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) <br>
