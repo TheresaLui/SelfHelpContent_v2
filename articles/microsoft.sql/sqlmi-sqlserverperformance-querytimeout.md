@@ -14,5 +14,6 @@
 
 # query time out
 
-## **Recommended documents**
-[Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)
+## **Recommended Documents**
+
+* [Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)

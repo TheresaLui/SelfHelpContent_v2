@@ -14,5 +14,6 @@
 
 # design and development/transact-sql
 
-## **Recommended documents**
-[Azure SQL Database Transact-SQL differences](https://azure.microsoft.com/documentation/articles/sql-database-transact-sql-information/)
+## **Recommended Documents**
+
+* [Azure SQL Database Transact-SQL differences](https://azure.microsoft.com/documentation/articles/sql-database-transact-sql-information/)

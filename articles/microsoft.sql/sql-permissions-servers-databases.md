@@ -14,5 +14,6 @@
 
 # managing/permissions
 
-## **Recommended documents**
-[Troubleshoot common Azure SQL database permissions and access issues](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-permissions/)
+## **Recommended Documents**
+
+* [Troubleshoot common Azure SQL database permissions and access issues](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-permissions/)

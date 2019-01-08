@@ -14,6 +14,7 @@
 
 # connectivity/dropped or terminated connections
 
-## **Recommended documents**
-[Troubleshoot common connection issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
-[Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/)
+## **Recommended Documents**
+
+* [Troubleshoot common connection issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/)

@@ -14,5 +14,6 @@
 
 # managing/monitoring
 
-## **Recommended documents**
-[Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)
+## **Recommended Documents**
+
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)

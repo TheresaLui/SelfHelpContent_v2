@@ -14,7 +14,8 @@
 
 # managing/copying databases
 
-## **Recommended documents**
-[Copy an Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-copy/)<br>
-[Create and export a BACPAC of an Azure SQL database](https://azure.microsoft.com/documentation/articles/sql-database-export/)<br>
-[Restore a single table from an Azure SQL Database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
+## **Recommended Documents**
+
+* [Copy an Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-copy/)<br>
+* [Create and export a BACPAC of an Azure SQL database](https://azure.microsoft.com/documentation/articles/sql-database-export/)<br>
+* [Restore a single table from an Azure SQL Database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)

@@ -14,6 +14,7 @@
 
 # connectivity/server is unavailable
 
-## **Recommended documents**
-[Troubleshoot "Database <x> on server <y> is not currently available"](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-connection/)<br>
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations)
+## **Recommended Documents**
+
+* [Troubleshoot "Database <x> on server <y> is not currently available"](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-connection/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations)

@@ -14,5 +14,6 @@
 
 # managing/geo-replication
 
-## **Recommended documents**
-[Design for business continuity](https://azure.microsoft.com/documentation/articles/sql-database-business-continuity-design/)
+## **Recommended Documents**
+
+* [Design for business continuity](https://azure.microsoft.com/documentation/articles/sql-database-business-continuity-design/)
