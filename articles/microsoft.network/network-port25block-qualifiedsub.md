@@ -5,6 +5,7 @@ infoBubbleText="Microsoft Azure has identified an issue. Please see details to t
 service="microsoft.network"
 resource="virtualnetwork"
 authors="chadmath"
+authorAlias="chadmat"
 displayOrder=""
 articleId="SmtpPort25BlockQualifiedSub"
 diagnosticScenario="SmtpPort25BlockQualifiedSub"
