@@ -10,9 +10,9 @@
 	articleId="falsealert-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629661, 32612456"
+	supportTopicIds="32629661, 32612456, 32613003"
 	resourceTags=""
-	productPesIds="15454, 15725"
+	productPesIds="15454, 15725, 15693"
 	cloudEnvironments="public, fairfax"
 />
 

@@ -5,7 +5,7 @@
     resource="components"
     authors="mcosner"
     displayOrder="11"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32602218"
     productPesIds="15693"
     cloudEnvironments="public"
