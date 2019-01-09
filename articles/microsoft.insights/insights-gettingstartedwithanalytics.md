@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
-    authorAlias="mcosner"
+    ms.author="mcosner"
     displayOrder="50"
     selfHelpType="generic"
     supportTopicIds="32402605,32402602"

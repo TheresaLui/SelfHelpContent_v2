@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
-	authorAlias="subbuk"
+	ms.author="subbuk"
 	displayOrder=""
 	articleId="UnplannedFailoverLR_D2666F7E-2985-49D9-BCB8-35C787AFC125"
 	diagnosticScenario="crc_sqldb_connectivity"

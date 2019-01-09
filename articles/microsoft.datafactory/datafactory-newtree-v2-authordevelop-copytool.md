@@ -3,7 +3,7 @@
 	description="Use ADF Copy Data tool to ease and optimize data ingestion process."
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

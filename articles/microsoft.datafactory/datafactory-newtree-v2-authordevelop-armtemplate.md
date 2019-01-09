@@ -3,7 +3,7 @@
 	description="Export and Import ARM Template"
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

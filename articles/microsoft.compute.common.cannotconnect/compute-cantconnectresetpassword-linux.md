@@ -4,7 +4,7 @@
               service=""
               resource=""
               authors="summertgu,scottAzure"
-              authorAlias="tiag,scotro"
+              ms.author="tiag,scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615529"

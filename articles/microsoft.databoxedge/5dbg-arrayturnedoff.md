@@ -4,7 +4,7 @@
 	ms.service="Microsoft.DataBox"
 	resource="databoxedgedevices"
 	authors="anbacker"
-	authoralias="anbacker"
+	ms.author="anbacker"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""

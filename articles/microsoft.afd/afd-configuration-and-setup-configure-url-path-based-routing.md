@@ -3,7 +3,7 @@
     description="Configure URL path-based routing"
     service="microsoft.afd"
     resource="afd"
-    authors="jtwalters25" authorAlias="jewalte"
+    authors="jtwalters25" ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614246"

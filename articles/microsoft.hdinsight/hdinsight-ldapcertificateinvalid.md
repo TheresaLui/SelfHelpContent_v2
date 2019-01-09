@@ -5,7 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
-    authoralias="v-anreg"
+    ms.author="v-anreg"
     displayOrder=""
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"

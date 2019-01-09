@@ -2,7 +2,7 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615531"
                 productPesIds="14749"

@@ -2,7 +2,7 @@
                 pageTitle="Cannot Start or Stop My Virtual Machine"
                 description="Cannot Start or Stop My Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628286"
                 productPesIds="14749,15571,15797,16454,16470"

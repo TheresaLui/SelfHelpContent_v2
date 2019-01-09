@@ -5,7 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
-    authorAlias="mcosner"
+    ms.author="mcosner"
     selfHelpType="diagnostics"
     articleId="appinsights-missing-ingestion-data"
     diagnosticScenario="ApplicationInsightsMissingDataDiagnostic"

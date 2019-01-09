@@ -4,7 +4,7 @@
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549161,32549162"

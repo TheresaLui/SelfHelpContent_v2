@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="applicationgateways"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="8"
     selfHelpType="resource"
     supportTopicIds=""

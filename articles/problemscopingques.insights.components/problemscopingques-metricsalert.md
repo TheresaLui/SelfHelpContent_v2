@@ -3,7 +3,7 @@
 	pageTitle="Metrics Alert"
 	description="Metrics Alert"
 	authors="debugthings"
-	authoralias="jamdavi"
+	ms.author="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613002"
 	productPesIds="15693"

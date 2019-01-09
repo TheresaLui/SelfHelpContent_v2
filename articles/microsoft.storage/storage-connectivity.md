@@ -4,7 +4,7 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602776"

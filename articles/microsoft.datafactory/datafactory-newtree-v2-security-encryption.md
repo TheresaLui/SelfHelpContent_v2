@@ -3,7 +3,7 @@
 	description="Security for Azure Data Movement Service"
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

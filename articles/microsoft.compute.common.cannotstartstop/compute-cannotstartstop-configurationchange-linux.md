@@ -3,7 +3,7 @@
 	description="My VM will not start after a configuration change"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authorAlias="scotro"
+	ms.author="scotro"
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"

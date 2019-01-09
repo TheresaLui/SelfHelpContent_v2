@@ -5,7 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
-    authorAlias="nebhatta"
+    ms.author="nebhatta"
     displayOrder="33"
     articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"

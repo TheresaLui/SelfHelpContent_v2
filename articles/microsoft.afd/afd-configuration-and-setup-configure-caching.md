@@ -4,7 +4,7 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614241"

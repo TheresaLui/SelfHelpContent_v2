@@ -4,7 +4,7 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="michco"
-    authoralias="michco"
+    ms.author="michco"
     displayOrder="25"
     selfHelpType="resource"
     supportTopicIds=""

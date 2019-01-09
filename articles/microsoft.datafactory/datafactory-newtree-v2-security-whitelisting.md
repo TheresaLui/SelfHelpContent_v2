@@ -3,7 +3,7 @@
 	description="For Self-hosted Integration Runtime"
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

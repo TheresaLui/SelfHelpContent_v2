@@ -2,7 +2,7 @@
                 pageTitle="My Virtual Machine restarted, paused, or stopped unexpectedly"
                 description="My Virtual Machine restarted, paused, or stopped unexpectedly"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628287"
                 productPesIds="14749"

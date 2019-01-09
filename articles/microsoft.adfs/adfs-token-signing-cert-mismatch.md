@@ -5,7 +5,7 @@
 	service="Microsoft.Adfs"
 	resource="Tenant"
 	authors="madhavpatel6"
-    authorAlias="madpatel"
+    ms.author="madpatel"
 	displayOrder="1"
 	articleId="adfs_token_signing_cert_mismatch"
 	diagnosticScenario="ADFS - Token Signing Cert Mismatch"

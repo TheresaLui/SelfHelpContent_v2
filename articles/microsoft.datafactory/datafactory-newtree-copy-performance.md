@@ -5,7 +5,7 @@
 	service="microsoft.datafactory"
 	resource="factories"
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	displayOrder="7"
 	articleId=""
 	diagnosticScenario=""

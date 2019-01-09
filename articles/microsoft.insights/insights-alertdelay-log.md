@@ -5,7 +5,7 @@
 	service="microsoft.insights"
 	resource="scheduledqueryrules"
 	authors="snehithm, msvijayn"
-	authoralias="snmuvva, vinagara"
+	ms.author="snmuvva, vinagara"
 	displayOrder="8"
 	articleId="falsealert-log"
 	diagnosticScenario=""

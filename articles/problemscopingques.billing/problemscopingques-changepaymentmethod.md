@@ -2,7 +2,7 @@
 	pageTitle="Change Payment Method"
 	description="Change Payment Method"
 	articleId="changepaymentmethod"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454858"

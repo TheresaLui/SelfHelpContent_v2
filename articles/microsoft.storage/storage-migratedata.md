@@ -4,7 +4,7 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32602711,32602773"

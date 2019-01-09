@@ -5,7 +5,7 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="pareshmu"
-    authoralias="pareshmu"
+    ms.author="pareshmu"
     diagnosticScenario="ExRPublicPeeringMicrosoftPrefixesNotAdvertisedInsight"
     displayOrder=""
     articleId="ExRPublicPeeringMicrosoftPrefixesNotAdvertisedInsight"
