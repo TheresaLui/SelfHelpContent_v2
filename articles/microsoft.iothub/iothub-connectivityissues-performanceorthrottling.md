@@ -5,7 +5,7 @@
 	resource="iothubs"
 	authors="jlian,meetshamir,jtanner-msft"
  	authorAlias="jlian,saziz,jtanner"
-	displayOrder="9"
+	displayOrder="35"
 	selfHelpType="resource"
 	supportTopicIds="32596652,32596653,32596667,32630545"
 	resourceTags=""
