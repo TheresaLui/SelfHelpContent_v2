@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="keithelm"
+	authoralias="keithelm"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594699"
