@@ -7,7 +7,7 @@
 	authors="mackie1604"
 	authorAlias="jlynn"
 	displayOrder=""
-	articleId="intune_renew_apns"
+	articleId="intune_renew_apns_maven"
 	diagnosticScenario="IntuneCheckAPNSCert"
 	selfHelpType="diagnostics"
 	supportTopicIds="32599602,32599605,32599626,32599644,32599650,32599653,32599665,32599632"
