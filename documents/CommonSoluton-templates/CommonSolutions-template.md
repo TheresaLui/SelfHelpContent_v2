@@ -5,7 +5,7 @@
 	service=""
 	resource=""
 	authors=""
-	authoralias=""
+	ms.author=""
 	displayOrder=""
 	articleId=""
 	diagnosticScenario=""
