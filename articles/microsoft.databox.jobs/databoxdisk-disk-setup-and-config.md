@@ -5,7 +5,7 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="madhurinms"
-	authorAlias="madhn"
+	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32614264, 32614266, 32614269, 32614270, 32614271, 32614272, 32614274, 32614276, 32614277, 32614278"

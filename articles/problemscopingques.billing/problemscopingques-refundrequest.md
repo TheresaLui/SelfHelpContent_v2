@@ -2,7 +2,7 @@
 	pageTitle="Refund Request"
 	description="Refund Request"
 	articleId="refundrequest"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454868"

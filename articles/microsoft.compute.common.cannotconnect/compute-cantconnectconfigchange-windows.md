@@ -4,7 +4,7 @@
               service=""
               resource=""
               authors="ScottAzure,timbasham"
-              authorAlias="scotro,tibasham"
+              ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615530"

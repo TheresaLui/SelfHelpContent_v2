@@ -3,7 +3,7 @@
     description="How to to import and export between HDInsight cluster and Azure SQL database or SQL Server"
     service="microsoft.hdinsight"
     resource="clusters"
-    authorAlias="sunilkc"
+    ms.author="sunilkc"
     authors="csunilkumar"
     displayOrder=""
     selfHelpType="Generic"

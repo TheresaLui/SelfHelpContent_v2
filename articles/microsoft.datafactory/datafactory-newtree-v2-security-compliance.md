@@ -3,7 +3,7 @@
 	description="Compliance Status of Azure Data Factory Movement"
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

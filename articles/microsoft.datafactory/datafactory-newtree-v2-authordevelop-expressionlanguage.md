@@ -3,7 +3,7 @@
 	description="Expressions and functions in Azure Data Factory"
 	infoBubbleText=""
 	authors="chez-charlie"
-	authoralias="chez"
+	ms.author="chez"
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"

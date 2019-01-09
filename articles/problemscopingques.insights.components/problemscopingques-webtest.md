@@ -3,7 +3,7 @@
 	pageTitle="Availability Test"
 	description="Availability Test"
 	authors="debugthings"
-	authoralias="jamdavi"
+	ms.author="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32422336"
 	productPesIds="15693"

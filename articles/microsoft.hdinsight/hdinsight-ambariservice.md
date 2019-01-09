@@ -1,5 +1,5 @@
 <properties
-    authorAlias="v-anreg"
+    ms.author="v-anreg"
     pageTitle="Ambari service running on both headnodes"
     description="AmbariPortalIssue"
     infoBubbleText="Ambari service is running on both headnodes. See details on the right."

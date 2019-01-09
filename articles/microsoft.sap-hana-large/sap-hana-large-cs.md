@@ -4,7 +4,7 @@
     service=""
     resource=""
     authors="timbasham"
-    authorAlias="tibasham"
+    ms.author="tibasham"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32549255,32549258,32604337,32549257,32549256,32604406,32411885"

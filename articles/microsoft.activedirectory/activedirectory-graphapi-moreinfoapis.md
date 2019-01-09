@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596839,32596852"

@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
-    authorAlias="sahenry"
+    ms.author="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_On_Prem_Policy_Not_Met"
     selfHelpType="diagnostics"

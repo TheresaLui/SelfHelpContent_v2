@@ -3,7 +3,7 @@
 	pageTitle="Log Search Alert"
 	description="Log Search Alert"
 	authors="debugthings"
-	authoralias="jamdavi"
+	ms.author="jamdavi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613003"
 	productPesIds="15693"

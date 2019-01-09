@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="loadbalancers"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="16"
     selfHelpType="resource"
     supportTopicIds=""

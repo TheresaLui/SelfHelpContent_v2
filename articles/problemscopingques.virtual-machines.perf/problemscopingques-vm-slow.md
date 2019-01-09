@@ -2,7 +2,7 @@
 	pageTitle="VM Performance"
 	description="VM Performance"
 	authors="AlexKuriatnyk,scottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32411877,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	productPesIds="14749"

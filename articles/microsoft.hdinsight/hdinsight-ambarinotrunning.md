@@ -1,5 +1,5 @@
 <properties
-    authorAlias="v-anreg"
+    ms.author="v-anreg"
     pageTitle="Ambari service not running"
     description="AmbariPortalIssue"
     infoBubbleText="Ambari service is not running. See details on the right."
