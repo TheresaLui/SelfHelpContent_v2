@@ -6,6 +6,7 @@
 	resource="intune"
 	authors="mackie1604"
 	authorAlias="jlynn"
+	ms.author="jlynn"
 	displayOrder=""
 	articleId="intune_renew_apns_maven"
 	diagnosticScenario="IntuneCheckAPNSCert"
