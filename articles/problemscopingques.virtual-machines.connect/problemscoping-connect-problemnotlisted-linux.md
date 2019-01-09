@@ -4,17 +4,17 @@
                 authors="summertgu"
                 authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32615530"
-                productPesIds="14749"
+                supportTopicIds="32615531"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0014"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0017"
 />
 # Connect to a VM
 ---
 {
                 "resourceRequired": true,
-                "title": "My configuration change impacted connectivity",
+                "title": "My problem is not listed above",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
@@ -23,25 +23,25 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": false
+                "useAsAdditionalDetails": true,
                 },{
                     "id": "connect_config",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "What was your configuration change prior to the issue starting?",
+                    "displayLabel": "What was your configuration change prior to the issue started?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "I pushed an update to my machine",
-                            "text": "I pushed an update to my machine"
+                            "value": "I pushed an update on my machine",
+                            "text": "I pushed an update on my machine"
                         },
                         {
                             "value": "I changed my firewall configuration",
                             "text": "I changed my firewall configuration"
                         },
                         {
-                            "value": "I installed a third party app",
-                            "text": "I installed a third party app"
+                            "value": "I installed a third-party app",
+                            "text": "I installed a third-party app"
                         },{
                             "value": "Other",
                             "text": "Other"
@@ -49,13 +49,22 @@
                     ],
                     "required": false
                 },{
-                "id": "connect_config_other",
-                "order": 3,
-                "visibility": "connect_config == Other",
-                "controlType": "multilinetextbox",
-                "displayLabel": "Please specify your configuration change prior to the issue starting.",
-                "required": false,
-                "useAsAdditionalDetails": true
+                    "id": "ippublicprivate",
+                    "order": 3,
+                    "controlType": "dropdown",
+                    "displayLabel": "Are you using a Public or Private IP?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Public IP",
+                            "text": "Public IP"
+                        },
+                        {
+                            "value": "Private IP",
+                            "text": "Private IP"
+                        }
+                    ],
+                    "required": false
                 },{
                     "id": "connect_ifnew",
                     "order": 4,
@@ -126,29 +135,47 @@
                     ],
                     "required": false
                 },{
-                    "id": "connect_ifbackup",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Was this VM recovered from backup?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        },
-                        {
-                            "value": "I do not know",
-                            "text": "I do not know"
+                      "id": "connect_ifbackup",
+                      "order": 7,
+                      "controlType": "dropdown",
+                      "displayLabel": "Was this VM recovered from backup?",
+                      "watermarkText": "Choose an option",
+                      "dropdownOptions": [
+                          {
+                              "value": "Yes",
+                              "text": "Yes"
+                          },
+                          {
+                              "value": "No",
+                              "text": "No"
+                          },
+                          {
+                              "value": "I do not know",
+                              "text": "I do not know"
+                          }
+                      ],
+                      "required": false
+                  },{
+                      "id": "connect_request",
+                      "order": 8,
+                      "controlType": "dropdown",
+                      "displayLabel": "What do you need help with?",
+                      "watermarkText": "Choose an option",
+                      "dropdownOptions": [{
+                        "value": "Recover my VM from a boot failure",
+                        "text": "Recover my VM from a boot failure"
+                        },{
+                        "value": "Recreate the Virtual Machine",
+                        "text": "Recreate the Virtual Machine"
+                        },{
+                        "value": "Root cause analysis",
+                        "text": "Root cause analysis"
                         }
-                    ],
-                    "required": false
-                },{
+                        ],
+                        "required": false
+                    },{
                     "id": "connect_ifinternet",
-                    "order": 8,
+                    "order": 9,
                     "controlType": "dropdown",
                     "displayLabel": "Do you have Internet connectivity issues from this VM?",
                     "watermarkText": "Choose an option",
@@ -164,19 +191,19 @@
                     ],
                     "required": false
                 },{
-                  "id": "problem_description",
-                  "order": 9,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 10,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
-                }
-                ]
+                    "id": "problem_description",
+                    "order": 10,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "Description",
+                    "useAsAdditionalDetails": false,
+                    "required": true
+                    },{
+                    "id": "problem_start_time",
+                    "order": 11,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                  }
+                  ]
 }
 ---

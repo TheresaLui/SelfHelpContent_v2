@@ -5,10 +5,10 @@
                 authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615530"
-                productPesIds="14749"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0014"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0015"
 />
 # Connect to a VM
 ---
@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": false
+                "useAsAdditionalDetails": false,
                 },{
                     "id": "connect_config",
                     "order": 2,
@@ -55,7 +55,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "Please specify your configuration change prior to the issue starting.",
                 "required": false,
-                "useAsAdditionalDetails": true
+                "useAsAdditionalDetails": true,
                 },{
                     "id": "connect_ifnew",
                     "order": 4,

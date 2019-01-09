@@ -5,10 +5,10 @@
                 authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615534"
-                productPesIds="14749"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0028"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0029"
 />
 # Connect to a VM
 ---
@@ -53,8 +53,8 @@
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Windows Defender",
-                            "text": "Windows Defender"
+                            "value": "Endian Firewall Community (EFW)",
+                            "text": "Endian Firewall Community (EFW)"
                         },
                         {
                             "value": "Third-party firewall",

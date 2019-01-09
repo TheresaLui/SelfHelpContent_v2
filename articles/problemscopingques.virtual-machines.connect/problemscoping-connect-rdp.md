@@ -8,7 +8,7 @@
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0020"
 />
 # Connect to a VM
 ---
@@ -145,14 +145,14 @@
                     "required": false
                 },{
                   "id": "problem_description",
-                  "order": 8,
+                  "order": 7,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 9,
+                  "order": 8,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
