@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "ippublicprivate",
                     "order": 2,
@@ -68,7 +68,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is your source subnet or IP that you are trying to connect from?",
                 "required": false,
-                "useAsAdditionalDetails": false,
+                "useAsAdditionalDetails": false
                 },{
                     "id": "connect_ifinternet",
                     "order": 5,

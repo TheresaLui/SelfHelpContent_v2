@@ -23,7 +23,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the size of the VM you are trying to deploy?",
                   "required": false,
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": true
                   },{
                     "id": "startstop_isinscaleset",
                     "order": 2,

@@ -44,7 +44,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is your source subnet or IP that you are trying to connect from?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "connect_firewall",
                     "order": 3,

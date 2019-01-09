@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": false,
+                "useAsAdditionalDetails": false
                 },{
                     "id": "startstop_config",
                     "order": 2,
@@ -63,7 +63,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "Please specify your configuration change prior to the issue starting.",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "startstop_ifnew",
                     "order": 4,

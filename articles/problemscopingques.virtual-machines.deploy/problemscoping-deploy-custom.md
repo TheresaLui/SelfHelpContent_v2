@@ -23,7 +23,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the distribution and version of OS?",
                   "required": false,
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": true
                   },{
                   "id": "correlation_id",
                   "order": 2,

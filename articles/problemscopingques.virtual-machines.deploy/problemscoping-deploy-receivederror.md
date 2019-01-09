@@ -41,7 +41,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the error you received?",
                   "required": false,
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": true
                   },{
                     "id": "deployment_operation",
                     "order": 3,
