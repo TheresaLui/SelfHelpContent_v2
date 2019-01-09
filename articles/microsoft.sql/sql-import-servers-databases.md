@@ -14,5 +14,6 @@
 
 # import/export service/import
 
-## **Recommended documents**
-[Import a BACPAC file to a new Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-import)
+## **Recommended Documents**
+
+* [Import a BACPAC file to a new Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-import)

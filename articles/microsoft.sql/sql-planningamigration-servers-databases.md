@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+	authoralias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980431"
@@ -14,7 +15,7 @@
 
 # migrating to azure/planning a migration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>
 * [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate)
