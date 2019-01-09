@@ -8,7 +8,7 @@
     authoralias="saltug"
     displayOrder="" 
     articleId="LongRecovery-13FA01C0-7B1F-4F2B-ADAA-3792A581BF40" 
-    diagnosticScenario="" 
+    diagnosticScenario="dwasc" 
     selfHelpType="rca" 
     supportTopicIds="" 
     resourceTags="datawarehouse" 
