@@ -4,6 +4,7 @@
     service="microsoft.servicefabric"
     resource="clusters"
     authors="pkcsf"
+    authoralias="pkc"
     displayOrder="9"
     selfHelpType="resource"
     supportTopicIds=""
@@ -14,7 +15,7 @@
 
 # Connection failures to applications deployed in a cluster
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. Verify that the Load Balancing Rules are mapping the exposed public port to the expected internal port and back end address pool [See Resource Group -> Load Balancer[LB-xxx] -> Load Balancing rules].
 2. Verify that the ServiceManifest.xml has an Endpoint defined with the correct protocol and port mapping. Follow the steps to [Specify resources in a service manifest](https://docs.azure.cn/service-fabric/service-fabric-service-manifest-resources/).
