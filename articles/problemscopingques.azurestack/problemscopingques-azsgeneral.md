@@ -58,7 +58,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1807 if your build number is 1.1807.0.76.",
+            "watermarkText": "Example: 1811 if your build number is 1.1811.0.101.",
             "dropdownOptions": [{
                     "value": "1901",
                     "text": "1901"
