@@ -53,7 +53,7 @@
                       "order": 3,
                       "controlType": "multilinetextbox",
                       "displayLabel": "What custom script are you trying to run? Paste script or provide link if it is publicly available.",
-                      "useAsAdditionalDetails": true,
+                      "useAsAdditionalDetails": false,
                       "required": true
                 },{
                     "id": "extension_agentinstalled",
@@ -74,33 +74,15 @@
                       ],
                         "required": false
                   },{
-                    "id": "extension_agentinstalled",
-                    "order": 5,
-                    "controlType": "dropdown",
-                    "displayLabel": "Do you have the latest Azure VM Agent installed?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [{
-                      "value": "Yes",
-                      "text": "Yes"
-                      },{
-                        "value": "No",
-                        "text": "No"
-                      },{
-                        "value": "I do not know",
-                        "text": "I do not know"
-                      }
-                      ],
-                        "required": false
-                  },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 7,
+                  "order": 6,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
