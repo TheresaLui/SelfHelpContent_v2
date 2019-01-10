@@ -15,7 +15,7 @@
 
 # I am unable to resize my VM
 
-4 out of 5 customers resolved their VM start issue using the steps below.<br>
+4 out of 5 customers resolved their VM resize issue using the steps below.<br>
 
 ## **Recommended Steps**
 
