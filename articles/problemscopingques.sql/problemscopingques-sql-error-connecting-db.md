@@ -3,7 +3,7 @@
 	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
 	authors="keithelm"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628800"
+	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
