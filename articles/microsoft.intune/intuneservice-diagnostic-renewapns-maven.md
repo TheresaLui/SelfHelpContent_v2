@@ -21,6 +21,6 @@
 
 <div>
   Your Apple MDM push certificate has expired. The Apple MDM push certificate is valid for one year and must be renewed annually to maintain iOS and macOS device management. If your certificate expires, enrolled Apple devices cannot be contacted and new devices cannot be enrolled.<br />
-  <br />To configure your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#renew-apple-mdm-push-certificate">here</a>.<br />
+  <br />To renew your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#renew-apple-mdm-push-certificate">here</a>.<br />
   <br />
 </div>
