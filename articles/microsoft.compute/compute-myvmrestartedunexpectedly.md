@@ -5,6 +5,7 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32593740,32628269,32628280,32628287"
