@@ -15,5 +15,6 @@
 
 # Synchronize Azure Active Directory users to an HDInsight cluster
 
-## **Recommended documents**
-[Sync AAD users to cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-sync-aad-users-to-cluster)<br>
+## **Recommended Documents**
+
+* [Sync AAD users to cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-sync-aad-users-to-cluster)<br>
