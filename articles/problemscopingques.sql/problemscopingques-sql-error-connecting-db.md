@@ -2,6 +2,7 @@
 	pageTitle="Error When Connecting to my Database"
 	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
 	authors="keithelm"
+	ms.author="keithelm,muruga,emlisa"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630429"
 	productPesIds="13491"
