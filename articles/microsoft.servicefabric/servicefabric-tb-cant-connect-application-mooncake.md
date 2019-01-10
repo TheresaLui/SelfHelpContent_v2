@@ -4,7 +4,7 @@
     service="microsoft.servicefabric"
     resource="clusters"
     authors="pkcsf"
-    authoralias="pkc"
+    ms.author="pkc"
     displayOrder="9"
     selfHelpType="resource"
     supportTopicIds=""
