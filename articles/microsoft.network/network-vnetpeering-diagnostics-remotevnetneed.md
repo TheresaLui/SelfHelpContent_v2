@@ -1,5 +1,5 @@
 <properties
-pageTitle="VNetPeeringNotDefined"
+pageTitle="RemoteVnetNeedEnableUseRemoteGateway"
 description="RemoteVnetNeedEnableUseRemoteGateway"
 infoBubbleText="Issues with network traffic routing were detected. See details on the right."
 service="microsoft.network"
@@ -16,7 +16,7 @@ cloudEnvironments="Public"
 />
 # We ran connectivity diagnostics on your resource and found an issue.
 <!--issueDescription-->
-Microsoft Azure has identified virtual network peering  <!--$VirtualNetworkPeering-->[VirtualNetworkPeering] has 'Use Remote Gateway enabled, but  <!--$VirtualNetworkPeering-->[VirtualNetworkPeering] doesn't have 'Allow Gateway Transit' enabled. Both these settings need to be enabled in order to successfully use the gateway for transit in VNet Peering.
+Microsoft Azure has identified virtual network peering  <!--$VirtualNetworkPeering-->[VirtualNetworkPeering] does not have 'Use Remote Gateway enabled, but  <!--$VirtualNetworkPeering-->VirtualNetworkPeering<!--/$VirtualNetworkPeering-->has 'Allow Gateway Transit' enabled. Both these settings need to be enabled in order to successfully use the gateway for transit in VNet Peering. [Learn how to properly configura Gateway Transit for VNet Peering](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-peering-gateway-transit)
 <!--/issueDescription-->
 ## Complete VNet Peering connection
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
