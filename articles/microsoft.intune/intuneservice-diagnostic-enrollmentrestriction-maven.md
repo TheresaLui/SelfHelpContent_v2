@@ -5,7 +5,6 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	authorAlias="jlynn"
 	ms.author="jlynn"
 	displayOrder=""
 	articleId="ios_enrollment_restriction_maven"

@@ -5,7 +5,6 @@
                 service="microsoft.intune"
                 resource="intune"
                 authors="mackie1604"
-		authorAlias="jlynn"
 		ms.author="jlynn"
                 displayOrder=""
                 articleId="intune_set_mdm_authority_maven"
