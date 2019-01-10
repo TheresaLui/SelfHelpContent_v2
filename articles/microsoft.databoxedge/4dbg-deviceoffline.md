@@ -1,7 +1,7 @@
 <properties
 	pageTitle="My device appears offline in the portal."
 	description="My device appears offline in the portal."
-	service=""
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"

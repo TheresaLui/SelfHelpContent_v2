@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Data Box Gateway has turned off"
-	description="Data Box Gateway has turned off"
-	service=""
+	pageTitle="Data Box Gateway has turned off."
+	description="Data Box Gateway has turned off."
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"

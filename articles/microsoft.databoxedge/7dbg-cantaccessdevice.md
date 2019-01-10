@@ -1,9 +1,10 @@
 <properties
 	pageTitle="I can’t access my device in File Explorer."
 	description="I can’t access my device in File Explorer."
-	service=""
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
-	service="azureexpresspod"
+	authors="anbacker"
+	authoralias="anbacker"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds=""

@@ -1,7 +1,7 @@
 <properties
-	pageTitle="I am getting heartbeat alert emails"
-	description="I am getting heartbeat alert emails"
-	service=""
+	pageTitle="I am getting heartbeat alert emails."
+	description="I am getting heartbeat alert emails."
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anbacker"
 	authoralias="anbacker"
