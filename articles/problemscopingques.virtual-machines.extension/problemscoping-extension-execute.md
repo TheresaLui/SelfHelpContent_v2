@@ -2,7 +2,7 @@
                 pageTitle="Virtual Machine Extensions not operating correctly"
                 description="Virtual Machines Extensions not operating correctly"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628267"
                 productPesIds="14749,15571,15797,16454,16470"
