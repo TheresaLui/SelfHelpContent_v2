@@ -15,5 +15,6 @@
 
 # Configure Apache Hive policies in HDInsight with Enterprise Security Package
 
-## **Recommended documents**
-[Configure APACHE Hive policies](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)<br>
+## **Recommended Documents**
+
+* [Configure APACHE Hive policies](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-run-hive)<br>
