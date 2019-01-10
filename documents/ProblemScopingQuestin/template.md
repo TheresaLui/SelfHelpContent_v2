@@ -3,7 +3,7 @@
 	pageTitle=""
 	description=""
 	authors=""
-	authoralias=""
+	ms.author=""
 	selfHelpType=""
 	supportTopicIds=""
 	productPesIds=""

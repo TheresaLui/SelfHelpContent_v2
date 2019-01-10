@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="virtualnetworkgateways"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="13"
     selfHelpType="resource"
     supportTopicIds=""

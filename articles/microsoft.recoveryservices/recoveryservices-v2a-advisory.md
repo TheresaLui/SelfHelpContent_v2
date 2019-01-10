@@ -4,7 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
-	authorAlias="asgang"
+	ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630518"

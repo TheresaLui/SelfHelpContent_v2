@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
-	authorAlias="subbuk"
+	ms.author="subbuk"
 	displayOrder=""
 	articleId="IsLongLogin_56EB94E0-398D-4557-A743-4918A95B7EA9"
 	diagnosticScenario="crc_sqldb_connectivity"

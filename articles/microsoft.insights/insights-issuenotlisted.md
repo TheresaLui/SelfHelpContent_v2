@@ -5,7 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    authorAlias="jamdavi"
+    ms.author="jamdavi"
     articleId="insights_issuenotlisted"
     selfHelpType="generic"
     cloudEnvironments="public"

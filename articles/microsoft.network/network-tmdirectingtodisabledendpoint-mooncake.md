@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="trafficmanagerprofiles"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="17"
     selfHelpType="resource"
     supportTopicIds=""

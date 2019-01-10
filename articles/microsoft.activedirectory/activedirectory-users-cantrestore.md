@@ -3,7 +3,7 @@
     description="I can't restore a deleted user in my Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authorAlias="Jeffsta-MSFT"
+    ms.author="Jeffsta-MSFT"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32615430"

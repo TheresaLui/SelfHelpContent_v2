@@ -2,7 +2,7 @@
 	pageTitle="Connectivity issue on blob"
 	description="Connectivity issue on blob scoping question"
 	authors="Passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity"
 	supportTopicIds="32602725,32602734,32602735"

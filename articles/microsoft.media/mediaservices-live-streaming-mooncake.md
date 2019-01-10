@@ -4,7 +4,7 @@
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
-    authoralias="juliako"
+    ms.author="juliako"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""

@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="virtualnetworks"
     authors="anavin"
-    authoralias="anavin"
+    ms.author="anavin"
     displayOrder="18"
     selfHelpType="resource"
     supportTopicIds=""

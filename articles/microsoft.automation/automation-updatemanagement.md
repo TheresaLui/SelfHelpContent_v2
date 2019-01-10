@@ -4,7 +4,7 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
-    authorAlias="zachal"
+    ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228,32612529"

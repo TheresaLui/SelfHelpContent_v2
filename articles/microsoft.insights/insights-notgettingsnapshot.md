@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="brahmnes"
-    authorAlias="brahmnes"
+    ms.author="brahmnes"
     displayOrder="41"
     selfHelpType="generic"
     productPesIds="15693"

@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="routetables"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""

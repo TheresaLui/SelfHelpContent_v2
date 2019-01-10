@@ -5,7 +5,7 @@
 	service="microsoft.operationalinsights"
 	resource="operationalinsightsaccounts"
 	authors="v-dinova"
-	authoralias="v-dinova"
+	ms.author="v-dinova"
 	displayOrder=""
 	articleId="operationalinsights-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""

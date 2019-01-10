@@ -4,7 +4,7 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="ChiragPavecha"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32452810"

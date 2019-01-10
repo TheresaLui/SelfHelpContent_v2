@@ -4,7 +4,7 @@
               service=""
               resource=""
               authors="scotro"
-              authoralias="scotro"
+              ms.author="scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615532,32628284"

@@ -4,7 +4,7 @@
 	infoBubbleText="Found recent login failure. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authorAlias="vitomaz"
+	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sql_datasync_loginfailedonprem"

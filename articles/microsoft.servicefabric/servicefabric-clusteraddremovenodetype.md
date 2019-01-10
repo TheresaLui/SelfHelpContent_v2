@@ -4,7 +4,7 @@
 	service="microsoft.servicefabric"
 	resource="clusters"
 	authors="ChiragPavecha"
-	authoralias="chiragpa"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608936"

@@ -5,7 +5,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ram-kakani,timbasham"
-    authorAlias="ramakk,tibasham"
+    ms.author="ramakk,tibasham"
     displayOrder=""
     articleId="BootError--BITLOCKER"
     diagnosticScenario="booterror"
