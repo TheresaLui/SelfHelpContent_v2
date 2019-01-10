@@ -15,6 +15,6 @@
 
 # Configure a HDInsight cluster with Enterprise Security Package by using Azure Active Directory Domain Services
 
+## **Recommended Documents**
 
-## **Recommended documents**
-[APACHE domain joined configure using azure ADDS](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds)<br>
+* [APACHE domain joined configure using Azure ADDS](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds)<br>
