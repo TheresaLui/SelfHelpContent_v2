@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": false,
+                "useAsAdditionalDetails": false
                 },{
                   "id": "problem_description",
                   "order": 2,

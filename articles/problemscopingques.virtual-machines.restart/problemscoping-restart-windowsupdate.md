@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                   "id": "restart_storage",
                   "order": 2,
@@ -48,7 +48,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What Windows Update are you trying to install?",
                   "required": false,
-                  "useAsAdditionalDetails": false,
+                  "useAsAdditionalDetails": false
                   },{
                       "id": "machinetype",
                       "order": 4,

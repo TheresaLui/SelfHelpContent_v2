@@ -8,7 +8,7 @@
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0028"
 />
 # Connect to a VM
 ---
@@ -44,7 +44,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is your source subnet or IP that you are trying to connect from?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "connect_firewall",
                     "order": 3,

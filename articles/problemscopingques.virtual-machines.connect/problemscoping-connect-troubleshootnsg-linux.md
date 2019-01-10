@@ -2,13 +2,13 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                ms.author="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615533"
-                productPesIds="14749"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0026"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0027"
 />
 # Connect to a VM
 ---

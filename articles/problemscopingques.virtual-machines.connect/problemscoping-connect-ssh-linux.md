@@ -2,19 +2,19 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                ms.author="tiag"
+                authorAlias="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32615530"
-                productPesIds="14749"
+                supportTopicIds="32615526"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0014"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0025"
 />
 # Connect to a VM
 ---
 {
                 "resourceRequired": true,
-                "title": "My configuration change impacted connectivity",
+                "title": "Failure to connect to the SSH port",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
@@ -23,42 +23,27 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": false
+                "useAsAdditionalDetails": true
                 },{
-                    "id": "connect_config",
+                    "id": "ippublicprivate",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "What was your configuration change prior to the issue starting?",
+                    "displayLabel": "Are you using a Public or Private IP?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "I pushed an update to my machine",
-                            "text": "I pushed an update to my machine"
+                            "value": "Public IP",
+                            "text": "Public IP"
                         },
                         {
-                            "value": "I changed my firewall configuration",
-                            "text": "I changed my firewall configuration"
-                        },
-                        {
-                            "value": "I installed a third party app",
-                            "text": "I installed a third party app"
-                        },{
-                            "value": "Other",
-                            "text": "Other"
+                            "value": "Private IP",
+                            "text": "Private IP"
                         }
                     ],
                     "required": false
                 },{
-                "id": "connect_config_other",
-                "order": 3,
-                "visibility": "connect_config == Other",
-                "controlType": "multilinetextbox",
-                "displayLabel": "Please specify your configuration change prior to the issue starting.",
-                "required": false,
-                "useAsAdditionalDetails": true
-                },{
                     "id": "connect_ifnew",
-                    "order": 4,
+                    "order": 3,
                     "controlType": "dropdown",
                     "displayLabel": "Is this VM new to Azure?",
                     "watermarkText": "Choose an option",
@@ -79,7 +64,7 @@
                     "required": false
                 },{
                     "id": "connect_from",
-                    "order": 5,
+                    "order": 4,
                     "visibility": "connect_ifnew == Yes",
                     "controlType": "dropdown",
                     "displayLabel": "Where is the VM from?",
@@ -101,7 +86,7 @@
                     "required": false
                 },{
                     "id": "connect_ifazuresiterecovery",
-                    "order": 6,
+                    "order": 5,
                     "visibility": "connect_from == On premise || connect_from == From another cloud provider",
                     "controlType": "dropdown",
                     "displayLabel": "Was this using Azure Site Recovery?",
@@ -126,53 +111,15 @@
                     ],
                     "required": false
                 },{
-                    "id": "connect_ifbackup",
-                    "order": 7,
-                    "controlType": "dropdown",
-                    "displayLabel": "Was this VM recovered from backup?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        },
-                        {
-                            "value": "I do not know",
-                            "text": "I do not know"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "connect_ifinternet",
-                    "order": 8,
-                    "controlType": "dropdown",
-                    "displayLabel": "Do you have Internet connectivity issues from this VM?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        }
-                    ],
-                    "required": false
-                },{
                   "id": "problem_description",
-                  "order": 9,
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 10,
+                  "order": 7,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true

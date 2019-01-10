@@ -8,7 +8,7 @@
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0018"
 />
 # Connect to a VM
 ---
@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "connect_ifnew",
                     "order": 2,
@@ -121,22 +121,14 @@
                             "text": "Android or iOS"
                         },
                         {
-                            "value": "Other",
-                            "text": "Other"
+                            "value": "Citrix or RDS",
+                            "text": "Citrix or RDS"
                         }
                     ],
                     "required": false
                 },{
-                "id": "machinetype_other",
-                "order": 6,
-                "visibility": "machinetype == Other",
-                "controlType": "textbox",
-                "displayLabel": "Please specify the type of machine you are trying to RDP into.",
-                "useAsAdditionalDetails": false,
-                "required": false
-                },{
                     "id": "connect_ifinternet",
-                    "order": 7,
+                    "order": 6,
                     "controlType": "dropdown",
                     "displayLabel": "Do you have Internet connectivity issues from this VM?",
                     "watermarkText": "Choose an option",
@@ -153,14 +145,14 @@
                     "required": false
                 },{
                   "id": "problem_description",
-                  "order": 8,
+                  "order": 7,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 9,
+                  "order": 8,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
