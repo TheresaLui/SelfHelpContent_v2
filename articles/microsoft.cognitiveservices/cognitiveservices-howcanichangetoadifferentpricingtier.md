@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
 />
 
 # How can I change to a different pricing tier?

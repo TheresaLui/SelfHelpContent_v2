@@ -1,0 +1,18 @@
+<properties
+	pageTitle="probe"
+	description="probe"
+	service="microsoft.network"
+	resource="loadbalancers"
+	authors="viorican"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32546099"
+	resourceTags=""
+	productPesIds="16098"
+	cloudEnvironments="public"
+/>
+
+# probe
+
+## **Recommended documents**
+[Service monitoring](https://azure.microsoft.com/documentation/articles/load-balancer-overview/#service-monitoring/)

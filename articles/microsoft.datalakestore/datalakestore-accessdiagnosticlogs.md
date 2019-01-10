@@ -1,0 +1,18 @@
+<properties
+	pageTitle="How do I access diagnostic logs?"
+	description="How do I access diagnostic logs?"
+	service="Microsoft.DataLakeStore"
+	resource="accounts"
+	authors="wmeng-msft"
+	displayOrder="5"
+	selfHelpType="resource"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public"
+/>
+
+# How do I access diagnostic logs?
+
+## **Recommended documents**
+[Accessing diagnostic logs for Data Lake Store](https://azure.microsoft.com/documentation/articles/data-lake-store-diagnostic-logs/)
