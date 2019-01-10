@@ -86,7 +86,7 @@
                 }
                 ],
             "required": false,
-            "infoBalloonText": "Example: Select 1807 if your build number is 1.1807.0.76."
+            "infoBalloonText": "Example: Select 1811 if your build number is 1.1811.0.101."
         },{
             "id": "tenant_impact",
             "order": 3,
