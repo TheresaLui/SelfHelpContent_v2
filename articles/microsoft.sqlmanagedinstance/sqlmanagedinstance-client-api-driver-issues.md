@@ -22,9 +22,5 @@
 * Node.js driver	2.1.1<br> 
 * OLEDB driver	18.0.2.0<br> 
 * SSMS	17.6<br> 	
-* Additionally we reccomend following the best practices outlined at <br>
+* Additionally we recommend following the best practices outlined at <br>
 [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/)<br>
-
-
-
-
