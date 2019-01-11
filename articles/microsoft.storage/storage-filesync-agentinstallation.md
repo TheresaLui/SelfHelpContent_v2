@@ -15,7 +15,7 @@
 
 # Troubleshooting Azure File Sync Agent Installation Failures
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [General agent installation troubleshooting](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#agent-installation-failures)<br>
 - [Agent installation fails on Active Directory Domain Controller](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#agent-installation-on-DC)<br>
