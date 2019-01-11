@@ -15,10 +15,11 @@
 
 # IoT Hub direct method issues  
 
-## **Recommended steps**
-1. If you are not able to invoke a direct method please make sure the device has an active connection to the IoT Hub.
+## **Recommended Steps**
 
-1. There are [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods.
+1. If you are not able to invoke a direct method, please ensure the device has an active connection to the IoT Hub
+2. Note that there are [operational limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) and [throttling limits](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that apply to direct methods
 
-## **Recommended documents**
-[Understand and invoke direct methods from IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-direct-methods#handle-a-direct-method-on-a-device)
+## **Recommended Documents**
+
+* [Understand and invoke direct methods from IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-direct-methods#handle-a-direct-method-on-a-device)
