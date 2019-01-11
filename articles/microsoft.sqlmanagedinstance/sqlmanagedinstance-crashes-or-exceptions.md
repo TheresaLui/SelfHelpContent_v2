@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594712"
@@ -15,4 +16,4 @@
 # Crashes or exceptions when using SQL Server service
 
 ## **Recommended documents**
-[Azure SQL DB errors codes](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages)
+[Azure SQL DB errors codes](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)

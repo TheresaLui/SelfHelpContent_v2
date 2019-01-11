@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594717"
@@ -15,4 +16,4 @@
 # Database Mail
 
 ## **Recommended documents**
-[Configure Database Mail](https://docs.microsoft.com/en-us/sql/relational-databases/database-mail/configure-database-mail)
+[Configure Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)

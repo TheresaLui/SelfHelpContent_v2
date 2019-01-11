@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594711"
@@ -15,5 +16,5 @@
 # Corruption or Database Consistency Checker (DBCC)
 
 ## **Recommended documents**
-[DBCC CHECKDB](https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql)<br>
-[DBCC limitations in Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-transact-sql-information#dbcc)
+[DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql)<br>
+[DBCC limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#dbcc)

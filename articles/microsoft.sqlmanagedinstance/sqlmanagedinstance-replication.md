@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608397"
@@ -15,4 +16,4 @@
 # Replication with SQL Database Managed Instance
 
 ## **Recommended documents**
-[Transactional Replication](https://docs.microsoft.com/en-us/azure/sql-database/replication-with-sql-database-managed-instance)
+[Transactional Replication](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)

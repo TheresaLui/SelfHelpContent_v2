@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32610572"
@@ -16,4 +17,4 @@
 
 ## **Recommended documents**
 * Check SQL Server replication documentation<br>  
-[Snapshot Replication](https://docs.microsoft.com/en-us/sql/relational-databases/replication/snapshot-replication)
+[Snapshot Replication](https://docs.microsoft.com/sql/relational-databases/replication/snapshot-replication)

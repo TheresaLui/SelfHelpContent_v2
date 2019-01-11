@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="MladjoA"
+    ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594705"
@@ -15,4 +16,4 @@
 # Azure Management Portal
 
 ## **Recommended steps**
-[Azure Portal Customization](https://docs.microsoft.com/en-us/azure/azure-portal/)
+[Azure Portal Customization](https://docs.microsoft.com/azure/azure-portal/)
