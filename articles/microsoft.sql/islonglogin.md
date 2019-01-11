@@ -25,5 +25,6 @@ This typically means that logins are taking longer than 14 seconds. The most lik
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
 * [Azure SQL Database Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
-* [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12)  discusses the port ranges for connections inside and outside of Azure due to the connection policy   
+* [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12) discusses the port ranges for connections inside and outside of Azure due to the connection policy   
