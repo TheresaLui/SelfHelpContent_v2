@@ -3,7 +3,7 @@
 	description="Management/Issue is not listed"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594726"

@@ -3,7 +3,7 @@
 	description="Connectivity/Dropped or terminated connections"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594720"

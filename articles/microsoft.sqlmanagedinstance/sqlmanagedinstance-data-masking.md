@@ -3,7 +3,7 @@
 	description="Features/Data Masking"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594715"

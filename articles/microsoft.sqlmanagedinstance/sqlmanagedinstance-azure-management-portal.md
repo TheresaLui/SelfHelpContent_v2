@@ -3,7 +3,7 @@
 	description="Tools/Azure Management Portal"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594705"

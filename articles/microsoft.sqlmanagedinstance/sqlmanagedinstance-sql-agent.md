@@ -3,7 +3,7 @@
 	description="Features/SQL Server Agent"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608398"

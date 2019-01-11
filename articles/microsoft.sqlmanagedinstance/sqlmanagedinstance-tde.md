@@ -3,7 +3,7 @@
 	description="Features/Transparent Data Encryption (TDE)"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594737"

@@ -3,7 +3,7 @@
 	description="SQL Replication/Snapshot"
 	service="microsoft.sql"
 	resource="servers"
-	authors="mlandzic"
+	authors="MladjoA"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32610572"
