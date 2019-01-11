@@ -7,7 +7,7 @@
  	authorAlias="jlian,saziz,jtanner"
 	displayOrder="99"
 	selfHelpType="resource"
-	supportTopicIds="32596623,32596629"
+	supportTopicIds="32630544"
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
