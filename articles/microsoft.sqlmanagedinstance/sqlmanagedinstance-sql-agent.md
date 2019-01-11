@@ -17,4 +17,4 @@
 
 ## **Recommended documents**
 * Check SQL Server Agent documentation<br>  
-[SQL Server Agent](https://docs.microsoft.com/en-us/sql/ssms/agent/sql-server-agent)
+[SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)
