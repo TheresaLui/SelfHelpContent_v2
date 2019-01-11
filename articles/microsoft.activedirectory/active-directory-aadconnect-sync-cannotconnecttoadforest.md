@@ -31,5 +31,5 @@ If you see an error in the Azure AD Connect wizard when connecting to an AD fore
 ## **Recommended documents**
 * [What is the ADConnectivityTool PowerShell Module?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-adconnectivitytools)
 * [Azure AD Connect: ADConnectivityTools PowerShell Reference](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
-* [Troubleshooting Active Directory Installation Wizard Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727058(v=technet.10))
+* [Troubleshooting Active Directory Installation Wizard Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727058%28v%3technet.10%29)
 * [Troubleshooting Active Directory—Related DNS Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727055%28v%3dtechnet.10%29)
