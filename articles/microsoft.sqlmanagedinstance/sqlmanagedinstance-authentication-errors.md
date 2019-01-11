@@ -15,5 +15,6 @@
 
 # Authentication errors
 
-## **Recommended documents**
-[Database authentication errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)
+## **Recommended Documents**
+
+* [Database authentication errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)

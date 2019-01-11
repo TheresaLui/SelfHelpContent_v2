@@ -15,5 +15,6 @@
 
 # Azure Management Portal
 
-## **Recommended steps**
-[Report issues and make suggestions](https://github.com/microsoft/azuredatastudio/issues)
+## **Recommended Steps**
+
+* [Report issues and make suggestions](https://github.com/microsoft/azuredatastudio/issues)

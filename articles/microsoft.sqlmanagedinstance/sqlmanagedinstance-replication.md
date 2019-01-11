@@ -15,5 +15,6 @@
 
 # Replication with SQL Database Managed Instance
 
-## **Recommended documents**
-[Transactional Replication](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)
+## **Recommended Documents**
+
+* [Transactional Replication](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)

@@ -15,5 +15,6 @@
 
 # Crashes or exceptions when using SQL Server service
 
-## **Recommended documents**
-[Azure SQL DB errors codes](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)
+## **Recommended Documents**
+
+* [Azure SQL DB errors codes](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)

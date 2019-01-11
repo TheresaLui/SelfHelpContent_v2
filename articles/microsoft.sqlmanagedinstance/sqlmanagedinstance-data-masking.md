@@ -15,5 +15,6 @@
 
 # Data Masking
 
-## **Recommended documents**
-[About Dynamic Data Masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started)
+## **Recommended Documents**
+
+* [About Dynamic Data Masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started)

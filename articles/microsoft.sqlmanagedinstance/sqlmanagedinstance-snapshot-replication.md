@@ -15,6 +15,6 @@
 
 # Snapshot Replication
 
-## **Recommended documents**
-* Check SQL Server replication documentation<br>  
-[Snapshot Replication](https://docs.microsoft.com/sql/relational-databases/replication/snapshot-replication)
+## **Recommended Documents**
+
+* Check SQL [Snapshot Replication](https://docs.microsoft.com/sql/relational-databases/replication/snapshot-replication)

@@ -14,6 +14,7 @@
 />
 # Data Migration Assistant
 
-## **Recommended documents**
-[Migrate your SQL Server database to Azure SQL Database using DMA](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database)<br>
-[Network topologies for Azure SQL DB Managed Instance migrations using the Azure Database Migration Service](https://docs.microsoft.com/azure/dms/resource-network-topologies)<br>
+## **Recommended Documents**
+
+* [Migrate your SQL Server database to Azure SQL Database using DMA](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database)<br>
+* [Network topologies for Azure SQL DB Managed Instance migrations using the Azure Database Migration Service](https://docs.microsoft.com/azure/dms/resource-network-topologies)<br>

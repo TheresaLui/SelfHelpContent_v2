@@ -15,5 +15,6 @@
 
 # Azure Management Portal
 
-## **Recommended steps**
-[Azure Portal Customization](https://docs.microsoft.com/azure/azure-portal/)
+## **Recommended Steps**
+
+* [Azure Portal Customization](https://docs.microsoft.com/azure/azure-portal/)

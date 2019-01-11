@@ -15,5 +15,6 @@
 
 # Extended Events
 
-## **Recommended steps**
-[Check Extended Events differences in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#extended-events)
+## **Recommended Steps**
+
+* [Check Extended Events differences in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#extended-events)

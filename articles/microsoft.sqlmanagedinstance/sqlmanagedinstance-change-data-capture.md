@@ -15,7 +15,8 @@
 
 # Change Data Capture
 
-## **Recommended documents**
-[About Change Data Capture](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-data-capture-sql-server)<br>
-[Working with Change Data](https://docs.microsoft.com/sql/relational-databases/track-changes/work-with-change-data-sql-server)<br>
-[Enable and Disable Change Data Capture](https://docs.microsoft.com/sql/relational-databases/track-changes/enable-and-disable-change-data-capture-sql-server)
+## **Recommended Documents**
+
+* [About Change Data Capture](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-data-capture-sql-server)<br>
+* [Working with Change Data](https://docs.microsoft.com/sql/relational-databases/track-changes/work-with-change-data-sql-server)<br>
+* [Enable and Disable Change Data Capture](https://docs.microsoft.com/sql/relational-databases/track-changes/enable-and-disable-change-data-capture-sql-server)

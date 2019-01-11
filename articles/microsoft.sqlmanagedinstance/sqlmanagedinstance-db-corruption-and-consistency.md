@@ -15,6 +15,7 @@
 
 # Corruption or Database Consistency Checker (DBCC)
 
-## **Recommended documents**
-[DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql)<br>
-[DBCC limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#dbcc)
+## **Recommended Documents**
+
+* [DBCC CHECKDB](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-checkdb-transact-sql)<br>
+* [DBCC limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#dbcc)

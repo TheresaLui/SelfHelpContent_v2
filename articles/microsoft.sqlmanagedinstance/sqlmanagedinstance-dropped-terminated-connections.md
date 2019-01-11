@@ -15,5 +15,6 @@
 
 # Dropped or terminated connections
 
-## **Recommended documents**
-[Database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)
+## **Recommended Documents**
+
+* [Database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages)

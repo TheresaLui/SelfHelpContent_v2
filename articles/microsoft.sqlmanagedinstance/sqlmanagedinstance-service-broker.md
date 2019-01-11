@@ -15,5 +15,6 @@
 
 # Service Broker
 
-## **Recommended steps**
-[Check Service Broker limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker)
+## **Recommended Steps**
+
+* [Check Service Broker limitations in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker)

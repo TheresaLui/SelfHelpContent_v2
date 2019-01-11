@@ -15,6 +15,6 @@
 
 # SQL Server Agent
 
-## **Recommended documents**
-* Check SQL Server Agent documentation<br>  
-[SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)
+## **Recommended Documents**
+
+* [SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)

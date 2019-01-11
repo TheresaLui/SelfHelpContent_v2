@@ -14,6 +14,6 @@
 />
 # Back up a managed instance database
 
-## **Recommended steps**
-* SQL Managed Instance and SQL Database platform automatically creates and manages database backups<br>
-[Learn about automatic SQL Database backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)<br>
+## **Recommended Steps**
+
+* The SQL Managed Instance and SQL Database platform [automatically creates and manages database backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)

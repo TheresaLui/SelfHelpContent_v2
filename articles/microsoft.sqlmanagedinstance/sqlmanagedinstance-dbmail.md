@@ -15,5 +15,5 @@
 
 # DbMail
 
-## **Recommended documents**
+## **Recommended Documents**
 [Configure Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)

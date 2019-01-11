@@ -15,8 +15,10 @@
 
 # SQL Server Management Studio
 
-## **Recommended steps**
-[Download SQL Server Management Studio 18.0 introducing additional support for Azure SQL Managed Instance](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017#ssms-180-preview-6)<br>
+## **Recommended Steps**
 
-## **Recommended documents**
-[SQL Server Management Studio (SSMS) documentation](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)
+* [Download SQL Server Management Studio 18.0 introducing additional support for Azure SQL Managed Instance](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017#ssms-180-preview-6)<br>
+
+## **Recommended Documents**
+
+* [SQL Server Management Studio (SSMS) documentation](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)

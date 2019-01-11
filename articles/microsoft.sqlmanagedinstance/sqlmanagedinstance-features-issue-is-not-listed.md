@@ -15,6 +15,6 @@
 
 # Issue is Not Listed
 
-## **Recommended documents**
-* Feature comparison:<br>
-[Managed Instance vs. SQL Server](https://docs.microsoft.com/azure/sql-database/sql-database-features)
+## **Recommended Documents**
+
+* [Managed Instance vs. SQL Server](https://docs.microsoft.com/azure/sql-database/sql-database-features)

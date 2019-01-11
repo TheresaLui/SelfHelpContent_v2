@@ -15,6 +15,7 @@
 
 # Issue is Not Listed
 
-## **Recommended documents**
-[SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)<br>
-[SQL Server Agent - Managed Instance Specifics](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)
+## **Recommended Documents**
+
+* [SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)<br>
+* [SQL Server Agent - Managed Instance Specifics](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)

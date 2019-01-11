@@ -15,9 +15,9 @@
 
 # Full-text search
 
-## **Recommended steps**
+## **Recommended Steps**
 * Check [Full-text search limitation in Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#full-text-semantic-search)<br>
 * Third-party word breakers are not supported with Azure SQL Managed Instance
 
-## **Recommended documents**
+## **Recommended Documents**
 [Full-Text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
