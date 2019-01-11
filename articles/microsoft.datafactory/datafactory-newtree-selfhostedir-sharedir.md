@@ -24,7 +24,7 @@
   * [Known Limitations](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#known-limitations-of-self-hosted-ir-sharing). Please check the list before filing a problem <br>
 
 * Sharing using PowerShell: [Overview](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell) <br>
-  * [Prerequisites](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#prerequisites)
+  * [Prerequisites](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#prerequisites) <br>
   * [Create a Self-hosted IR](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#create-a-self-hosted-integration-runtime) <br>
   * [Share the Self-hosted IR](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#share-the-self-hosted-integration-runtime-with-another-data-factory) <br>
   * [Create Linked Self-hosted IR](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#create-a-linked-self-hosted-integration-runtime) <br>
