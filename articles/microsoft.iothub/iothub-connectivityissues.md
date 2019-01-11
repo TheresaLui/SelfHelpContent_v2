@@ -4,7 +4,7 @@
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian,meetshamir,jtanner-msft"
- 	authorAlias="jlian,saziz,jtanner"
+ 	ms.author="jlian,saziz,jtanner"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32596603,32596668,32596620,32596621,32596622"
