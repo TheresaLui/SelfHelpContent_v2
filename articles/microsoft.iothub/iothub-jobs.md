@@ -15,15 +15,14 @@
 
 # IoT Hub job issues
 
-## **Recommended steps**
-1. There are limitations on the [number of cuncurrent jobs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) that can be run based on the SKU of IoT Hub. 
+## **Recommended Steps**
 
-1. There are also throttles on the [number of job operations and job device operations](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that can happen per second.
+* There are limitations on the [number of cuncurrent jobs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#other-limits) that can be run based on the SKU of IoT Hub
+* There are also throttles on the [number of job operations and job device operations](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling#operation-throttles) that can happen per second
+* You can only have one active device import/export job at a time
 
-1. You can only have one active device import/export job at a time.
+## **Recommended Documents**
 
-
-## **Recommended documents**
-[IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)<br>
-[Schedule jobs on multiple devices](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-jobs)<br>
-[Manage your IoT Hub device identities in bulk](https://docs.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmt)
+* [IoT Hub quotas and throttling](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-quotas-throttling)<br>
+* [Schedule jobs on multiple devices](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-jobs)<br>
+* [Manage your IoT Hub device identities in bulk](https://docs.microsoft.com/azure/iot-hub/iot-hub-bulk-identity-mgmt)
