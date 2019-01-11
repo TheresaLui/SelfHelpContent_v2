@@ -15,7 +15,4 @@
 
 ## **Recommended steps**
 * SQL Managed Instance and SQL Database platform automatically creates and manages database backups<br>
-[Learn about automatic SQL Database backups]
-(https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)<br>
-
-
+[Learn about automatic SQL Database backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)<br>

@@ -1,0 +1,19 @@
+<properties
+	pageTitle="SQL Replication/Transactional"
+	description="SQL Replication/Transactional"
+	service="microsoft.sql"
+	resource="servers"
+	authors="mlandzic"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32610566"
+	resourceTags=""
+	productPesIds="16259"
+	cloudEnvironments="public"
+/>
+
+# Transactional Replication
+
+## **Recommended documents**
+* Check Managed Instance replication documentation:<br>  
+[Transactional replication with SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/replication-with-sql-database-managed-instance)
