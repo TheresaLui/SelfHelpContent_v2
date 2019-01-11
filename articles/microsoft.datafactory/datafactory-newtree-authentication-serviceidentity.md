@@ -19,11 +19,10 @@ __Note__: Data factory service identity is based upon _managed identities for Az
 
 ## **Recommended Steps**
 
-If you find that your data factory doesn't have a _service identity_ associated, following the steps in [_Retrieve service identity_](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#retrieve-service-identity) section, you can explicitly generate one following the steps in [_Generate service identity_](ttps://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity) section
+If you find that your data factory doesn't have a _service identity_ associated, following the steps in [_Retrieve service identity_](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#retrieve-service-identity) section, you can explicitly generate one following the steps in [_Generate service identity_](ttps://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity) section.
 
 ## **Recommended Documents**
 
-Azure Data Factory Service Identity: [Overview](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity) <br>
-
+* [Azure Data Factory Service Identity Overview](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity) <br>
 * [Retrieve service identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#retrieve-service-identity) <br>
 * [Generate service identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity) <br>
