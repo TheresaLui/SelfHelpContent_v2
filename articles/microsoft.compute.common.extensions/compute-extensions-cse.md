@@ -20,4 +20,8 @@
 ## **Recommended Documents**
 
 * [Overview of Azure Custom Script Extension for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows)<br>
-* [Troubleshoot Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#troubleshoot-and-support)
+* [Troubleshoot Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#troubleshoot-and-support)<br>
+* [FAQ for common issues and tips](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#tips-and-tricks)<br>
+* [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema)<br>
+* [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)<br>
+* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)

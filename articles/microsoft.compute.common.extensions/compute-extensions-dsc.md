@@ -21,4 +21,9 @@
 
 * [Overview of Azure Desired State Configuration extension handler](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-dsc-overview)<br>
 * [Understanding PowerShell DSC Extension usage](https://docs.microsoft.com/azure/virtual-machines/extensions/dsc-windows)<br>
-* [Using DSC with Azure Resource Manager Templates](https://docs.microsoft.com/azure/virtual-machines/extensions/dsc-template)
+* [Using DSC with Azure Resource Manager Templates](https://docs.microsoft.com/azure/virtual-machines/extensions/dsc-template)<br>
+* [FAQ for common issues and tips](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#tips-and-tricks)<br>
+* [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema)<br>
+* [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)<br>
+* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)
+

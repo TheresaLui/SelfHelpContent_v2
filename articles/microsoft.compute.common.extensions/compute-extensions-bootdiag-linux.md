@@ -22,6 +22,7 @@
 
 * [Using Linux Diagnostic Extension to monitor metrics and logs](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux)<br>
 * [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)
-* [How to use **boot diagnostics** to **troubleshoot** Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
-* [**Quick steps** to **diagnose** & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
-* [**Detailed SSH troubleshooting steps** for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
+* [How to view your data](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#view-your-data)<br>
+* [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
+* [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>
+* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)
