@@ -28,9 +28,7 @@ To reference a stored credential stored in Azure Key Vault, you need to:
 
 ## **Recommended Documents**
 
-Store credentials in and retrieve from Azure Key Vault: [Overview](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault) <br>
-
-* [Prerequisites](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#prerequisites) <br>
+* [Store credentials in and retrieve from Azure Key Vault](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault) * [Prerequisites](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#prerequisites) <br>
 * [Steps](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#steps) <br>
 * [Azure Key Vault linked service](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#azure-key-vault-linked-service) <br>
 * [Reference secret stored in key vault](https://docs.microsoft.com/azure/data-factory/store-credentials-in-key-vault#reference-secret-stored-in-key-vault) <br>
