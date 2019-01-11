@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-* In some scenarios, _"structure"_ section in _dataset_ is required, including: <br>
+* In some scenarios, _"structure"_ section in _dataset_ is required, including:
   * Applying explicit data type conversion for file sources during copy (input dataset) <br>
   * Applying explicit column mapping during copy (both input and output dataset) <br>
   * Copying from Dynamics 365/CRM source (input dataset) <br>
@@ -28,7 +28,6 @@
 ## **Recommended Documents**
 
 Copy Activity Schema Mapping [Documentation](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping) <br>
-
 * [Column mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#column-mapping) <br>
 * [Schema mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#schema-mapping) <br>
 * [Data type mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#data-type-mapping) <br>
