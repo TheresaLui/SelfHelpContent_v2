@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 ### **How can I customize an assessment?**
-You can customize your assessment by [changing the assessment properties](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment.
+You can customize your assessment by [changing the assessment properties](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment).
 
 ### **Can I specify Enterprise Agreement (EA) as an Azure offer in assessment properties?**
 No, Azure Migrate currently does not support Enterprise Agreement (EA) based offers. The workaround is to use a ‘Pay-As-You-Go’ offer and use the ‘Discount’ property to specify any custom discounts that you receive. [Learn more about the configurable properties of an assessment](https://docs.microsoft.com/azure/migrate/how-to-modify-assessment).
