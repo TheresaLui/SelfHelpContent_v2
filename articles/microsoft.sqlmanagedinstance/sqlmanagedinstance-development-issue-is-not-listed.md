@@ -16,4 +16,4 @@
 # Issue is Not Listed
 
 ## **Recommended documents**
-[Azure SQL Database Managed Instance T-SQL differences from SQL Server](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-transact-sql-information)
+[Azure SQL Database Managed Instance T-SQL differences from SQL Server](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information)

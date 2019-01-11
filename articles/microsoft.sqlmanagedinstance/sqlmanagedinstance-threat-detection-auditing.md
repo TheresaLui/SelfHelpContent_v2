@@ -16,4 +16,4 @@
 # Threat Detection and Auditing
 
 ## **Recommended steps**
-[Setup Threat Detection for Managed Instance using Azure portal](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-threat-detection#set-up-threat-detection-for-your-managed-instance-in-the-azure-portal)<br>
+[Setup Threat Detection for Managed Instance using Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-threat-detection#set-up-threat-detection-for-your-managed-instance-in-the-azure-portal)<br>

@@ -17,4 +17,4 @@
 
 ## **Recommended documents**
 * Check Managed Instance replication documentation:<br>  
-[Transactional replication with SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/replication-with-sql-database-managed-instance)
+[Transactional replication with SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/replication-with-sql-database-managed-instance)

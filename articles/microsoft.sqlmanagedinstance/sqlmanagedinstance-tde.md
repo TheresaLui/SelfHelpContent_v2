@@ -17,8 +17,8 @@
 
 ## **Recommended steps**
 * Configure Bring-Your-Own-Key (BYOK) Transparent Data Encryption (TDE) per process outlined in<br>  
-[Manage TDE with BYOK in Managed Instance using PowerShell](https://docs.microsoft.com/en-us/azure/sql-database/scripts/transparent-data-encryption-byok-sql-managed-instance-powershell)<br>
+[Manage TDE with BYOK in Managed Instance using PowerShell](https://docs.microsoft.com/azure/sql-database/scripts/transparent-data-encryption-byok-sql-managed-instance-powershell)<br>
 
 ## **Recommended documents**
-[Transparent Data Encryption concepts](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-azure-sql)<br>
-[BYOK TDE concepts](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-byok-azure-sql)
+[Transparent Data Encryption concepts](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-azure-sql)<br>
+[BYOK TDE concepts](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql)

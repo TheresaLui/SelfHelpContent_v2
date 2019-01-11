@@ -16,4 +16,4 @@
 # Issue is Not Listed
 
 ## **Recommended documents**
-[Managed Instance Resource Limits](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-resource-limits)
+[Managed Instance Resource Limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits)
