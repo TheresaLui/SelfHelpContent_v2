@@ -23,7 +23,7 @@
   * Copying from Dynamics 365/CRM source (input dataset) <br>
   * Copying to Cosmos DB as nested object when source is not JSON files (output dataset) <br>
 * Please refer to [_Dataset "Structure"_](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#when-to-specify-dataset-structure) section for complete list <br>
-* Dataset _"strcture"_ schema is specified [here](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services#dataset-structure) <br>
+* Dataset _"structure"_ schema is specified [here](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services#dataset-structure) <br>
 
 ## **Recommended Documents**
 
