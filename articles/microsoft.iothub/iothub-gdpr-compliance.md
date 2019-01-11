@@ -4,7 +4,7 @@
 	service="microsoft.devices"
 	resource="iothubs"
 	authors="jlian,meetshamir,jtanner-msft"
-  authorAlias="jlian,saziz,jtanner"
+	 ms.author="jlian,saziz,jtanner"
 	displayOrder="75"
 	selfHelpType="resource"
 	supportTopicIds="32630552"
@@ -16,11 +16,13 @@
 # IoT Hub GDPR and Compliance
 
 ## **Compliance and Certification**
+
 1. Azure IoT Hub has been awarded several major compliance certifications for the public cloud, including HIPPA and various ISO certifications. To learn more, see [Azure IoT Hub Awarded 9 Industry Certifications for Public Cloud Computing](https://blogs.microsoft.com/iot/2016/12/07/azure-iot-hub-awarded-9-industry-certifications-for-public-cloud-computing).
 
 1. For a variety of content, tools, third-party audit reports, and other resources about Microsoft security, privacy and compliance practices, visit [Service Trust](https://servicetrust.microsoft.com).
 
 ## **GDPR**
+
 1. Microsoft is committed to GDPR, privacy and putting customers in control of their own data. To learn more, see [the GDPR blog](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data).
 
 1. Azure helps enable data privacy for GDPR compliance. To learn more, visit the [Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/Azure/GDPR).
