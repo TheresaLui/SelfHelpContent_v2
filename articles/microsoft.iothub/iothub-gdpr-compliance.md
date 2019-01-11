@@ -15,6 +15,8 @@
 
 # IoT Hub GDPR and Compliance
 
+## Recommended Documents
+
 **Compliance and Certification**
 
 * Azure IoT Hub has been awarded several major compliance certifications for the public cloud, including HIPPA and various ISO certifications. To learn more, see [Azure IoT Hub Awarded 9 Industry Certifications for Public Cloud Computing](https://blogs.microsoft.com/iot/2016/12/07/azure-iot-hub-awarded-9-industry-certifications-for-public-cloud-computing).
