@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628257"
@@ -26,4 +26,3 @@
 * [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema)<br>
 * [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)<br>
 * [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)
-
