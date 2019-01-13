@@ -35,8 +35,8 @@ Queries can be done in two ways: directly querying a specific table (such as *re
 **Improve your query performance**<br>
 
 * **Using has vs contains** When evaluating strings, prefer **has** over **contains** when looking for full tokens. **has** is more performant as it doesn't have to look-up for substrings.
-* **Use *project*** to narrow the set of columns being processed to only those you need: **traces | project timestamp, severityLevel, client_City | ...**
-* **Use *extend*** to calculate values and create your own columns, always prefer to filter on a table column, ex. **customEvents | extend subscription = split(operation_Name, "/")[2] | where subscription == "acb"**
+* **Use project** to narrow the set of columns being processed to only those you need: **traces | project timestamp, severityLevel, client_City | ...**
+* **Use extend** to calculate values and create your own columns, always prefer to filter on a table column, ex. **customEvents | extend subscription = split(operation_Name, "/")[2] | where subscription == "acb"**
 * **Using joins** When using the **join** operator - choose the table with less rows to be the first one (left-most).
 
 **Query failures**<br>
