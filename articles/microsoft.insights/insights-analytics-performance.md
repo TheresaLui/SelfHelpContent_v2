@@ -27,7 +27,7 @@ Queries can be done in two ways: directly querying a specific table (such as *re
  
 * **Scope your query** Querying a wider scope than you actually need may lead to a long-running query, and often result in too many (irrelevant) records in your result set. In some cases, the query may even time out and fail.
 * **Select the relevant data source** The first step in writing an efficient query is focusing on the relevant data source - that usually means selecting the table to query.
-* **Specifying a table** is always preferred over running an wide text search (such as **search ***).
+* **Specifying a table** is always preferred over running an wide text search (such as **search \***).
 * **Set the relevant time range** By default, your query will cover the last 24 hours. If you're interested in log records from the last hour, select that option in the Time Range selector (located next to the *Run* button) or add it explicitly to your query. It is best to add the time filter immediately after the table name, ex. **requests | where timestamp > ago(1h)**
 * **Get only the latest logs** To review only the latest records, use the *top* operator. ex,  **traces | top 10 by timestamp**
 * **Filter records** To review only logs that match a given condition, use the *where* operator, ex. **traces | where severityLevel > 0**
