@@ -5,6 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    ms.author="noakuper"
     articleId="insights_analytics_performance"
     displayOrder="92"
     selfHelpType="generic"
