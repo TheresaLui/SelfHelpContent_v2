@@ -20,6 +20,7 @@ cloudEnvironments="Public"
 Microsoft Azure has identified virtual network peering <!--$VirtualNetworkPeering-->VirtualNetworkPeering<!--/$VirtualNetworkPeering--> is in Disconnected state traffic because a previously created Virtual Network Peering link was deleted. In order to create the virtual network peering, delete this link and re-create the connection.
 <!--/issueDescription-->
 ## Delete Disconnected VNet Peering
+
 1. From a browser, navigate to http://portal.azure.com and, if necessary, sign in with your Azure account.
 2. Click All Services > Virtual networks.
 3. Select the Virtual Network associated with the VNet Peering.
