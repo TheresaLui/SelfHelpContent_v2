@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-Latest version of Self-hosted Integration Runtime can be found [here](https://www.microsoft.com/download/details.aspx?id=39717) <br>
+[Latest version of Self-hosted Integration Runtime](https://www.microsoft.com/download/details.aspx?id=39717)
 
-* __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities and changes introduced in the latest versions
+* __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities, and changes introduced in the latest versions.
