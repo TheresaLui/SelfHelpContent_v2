@@ -1,27 +1,27 @@
 <properties
-	articleId=""
-	pageTitle=""
-	description=""
-	authors=""
-	ms.author=""
-	selfHelpType=""
-	supportTopicIds=""
-	productPesIds=""
-	cloudEnvironments=""
+	articleId="problemscopingques-runbookfail.md"
+	pageTitle="Azure Automation - Runbook Execution"
+	description="Azure Automation - Runbook Execution"
+	authors="zjalexander"
+	ms.author="zachal"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013"
+	productPesIds="15607"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# Runbook Execution
 ---
 {
 	"resourceRequired": true,
-	"title": "Slow virtual machine",
+	"title": "Runbook failure",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "slow_vm_determination",
+			"id": "runbook selection",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "How did you determine that your virtual machine was slow?",
-			"watermarkText": "Choose an option",
+			"displayLabel": "Select the runbook that has the problem",
+			"watermarkText": "Choose a runbook",
 			"dropdownOptions": [{
 					"value": "It's slower that it typically is",
 					"text": "It's slower that it typically is"
@@ -36,7 +36,7 @@
 					"text": "It's faster in a non-Azure environment"
 				}
 			],
-			"required": false
+			"required": true
 		}, {
 			"id": "problem_start_date",
 			"order": 2,
@@ -44,37 +44,16 @@
 			"displayLabel": "When did the problem begin?",
 			"required": false
 		}, {
-			"id": "applications_on_vm",
+			"id": "previously successful",
 			"order": 3,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the applications running on your virtual machine",
+			"controlType": "dropdown",
+			"displayLabel": "Has this runbook successfully run in Azure Automation before?",
 			"dropdownOptions": [{
-					"value": "CRM Dynamics",
-					"text": "CRM Dynamics"
+					"value": "Yes",
+					"text": "Yes, this runbook has successfully run in Azure Automation before"
 				}, {
-					"value": "IIS / Web Front end",
-					"text": "IIS / Web Front end"
-				}, {
-					"value": "MySQL",
-					"text": "MySQL"
-				}, {
-					"value": "Oracle",
-					"text": "Oracle"
-				}, {
-					"value": "Remote Desktop Services",
-					"text": "Remote Desktop Services"
-				}, {
-					"value": "SAP Hanna",
-					"text": "SAP Hanna"
-				}, {
-					"value": "SharePoint",
-					"text": "SharePoint"
-				}, {
-					"value": "SQL",
-					"text": "SQL"
-				}, {
-					"value": "Other (describe below)",
-					"text": "Other"
+					"value": "No",
+					"text": "No, this runbook has never successfully run in Azure Automation"
 				}
 			],
 			"required": false
