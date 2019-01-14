@@ -27,7 +27,7 @@
 
 **Replication**</br>
 [How to enable consistent recovery points across multiple servers.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#multi-vm-consistency)</br>
-[How replication points are generated.](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions#replication-policy)</br>
+[How replication points are generated.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication-policy)</br>
 [How to automate disaster recovery of Azure virtual machines using PowerShell.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-powershell)</br>
 [ What all does ASR replicates to target region.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-architecture#target-resources)</br>
 
