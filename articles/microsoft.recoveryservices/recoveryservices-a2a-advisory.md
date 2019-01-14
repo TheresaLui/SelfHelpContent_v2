@@ -37,7 +37,7 @@
 [Using NSG with Site Recovery.](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery#using-network-security-groups)</br>
 
 **Failover**</br>
-[How does the IP assignment happen in Failover and Test Failover.](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions#after-failover-the-server-doesnt-have-the-same-ip-address-as-the-source-vm-why-is-it-assigned-a-new-ip-address)</br>
+[How does the IP assignment happen in Failover and Test Failover.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#after-failover-the-server-doesnt-have-the-same-ip-address-as-the-source-vm-why-is-it-assigned-a-new-ip-address)</br>
 [What happen in case my primary Azure region has an outage.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#if-im-replicating-between-two-azure-regions-what-happens-if-my-primary-region-experiences-an-unexpected-outage)</br>
 [Is failover automatic?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#is-failover-automatic)
 
