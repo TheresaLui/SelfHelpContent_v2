@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="rohitnayakmsft"
+	ms.author="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608396"
@@ -14,5 +15,6 @@
 
 # query time out
 
-## **Recommended documents**
-[Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)
+## **Recommended Documents**
+
+* [Troubleshoot database performance using Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-performance/)

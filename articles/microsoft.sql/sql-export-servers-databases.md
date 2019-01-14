@@ -14,5 +14,6 @@
 
 # import/export service/export
 
-## **Recommended documents**
-[Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)
+## **Recommended Documents**
+
+* [Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)

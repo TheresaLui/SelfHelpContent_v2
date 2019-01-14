@@ -4,7 +4,7 @@
     service="microsoft.network"
     resource="networksecuritygroups"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="11"
     selfHelpType="resource"
     supportTopicIds=""

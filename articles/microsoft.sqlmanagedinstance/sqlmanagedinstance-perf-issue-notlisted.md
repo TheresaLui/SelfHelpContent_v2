@@ -13,11 +13,8 @@
 />
 # Issue is not listed
 
-## **Recommended steps**
-* Use Query Store to understand and troubleshoot causes of slow query execution per <br>
-[Monitoring performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)<br>
+## **Recommended Steps**
 
-* Review Query Store usage scenarions <br>
-[Query Store Usage Scenarios](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios)
+* [Monitoring performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)
 
-
+* Review [Query Store Usage Scenarios](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios)

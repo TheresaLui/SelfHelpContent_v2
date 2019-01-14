@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16579"
 	cloudEnvironments="public"
-	authorAlias="billmath"
+	ms.author="billmath"
 />
 
 # Farm Deployment Issues

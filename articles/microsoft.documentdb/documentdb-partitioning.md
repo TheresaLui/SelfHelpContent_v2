@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
-	authoralias="rnagpal"
+	ms.author="rnagpal"
 	displayOrder="110"
 	selfHelpType="resource"
 	supportTopicIds="32597547,32597546"

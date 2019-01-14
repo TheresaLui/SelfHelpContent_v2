@@ -4,7 +4,7 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks,passaree"
-    authoralias="kasparks,passap"
+    ms.author="kasparks,passap"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""

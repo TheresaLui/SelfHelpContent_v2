@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="rohitnayakmsft"
+	ms.author="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32045131,32594728"
@@ -14,6 +15,6 @@
 
 # tools/my issue is not listed
 
+## **Recommended Documents**
 
-## **Recommended documents**
-[Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview/)
+* [Overview: management tools for SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-overview/)

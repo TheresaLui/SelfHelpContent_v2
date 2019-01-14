@@ -2,7 +2,7 @@
 	pageTitle="How to Add and Manage Admins"
 	description="How to Add and Manage Admins"
 	articleId="howtoaddandmanageadmins"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454920"

@@ -5,9 +5,9 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
-    authorAlias="nebhatta"
+    ms.author="nebhatta"
     displayOrder="33"
-    articleId="Hdi_Crud_Checkpoint"
+    articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"
     selfHelpType="rca"
     supportTopicIds="32588504"
@@ -23,10 +23,12 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended steps**
 * Log onto your HDInsight cluster
 
-* Restart Ambari service using this command "sudo service ambari-agent restart" on the following nodes, note if the list is empty this step can be skipped  
-<!--$listhosts-->[listhosts]<!--/$listhosts-->
+* Restart Ambari service, on the nodes listed below, using this command :  
+  *sudo service ambari-agent restart*  
+  Note : If the following list is empty this step can be skipped  
+  <!--$listhosts-->[listhosts]<!--/$listhosts-->
 
-* Once both Namenodes are running to get rid of the NameNode Last Checkpoint Alert run the following commands
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode enter
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -saveNamespace
-  - hdfs dfsadmin -D 'fs.default.name=hdfs://<!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->/' -safemode leave
+* Once both Namenodes are running, please run the following commands to reset the checkpoint :
+  - hdfs dfsadmin -safemode enter
+  - hdfs dfsadmin -saveNamespace
+  - hdfs dfsadmin -safemode leave

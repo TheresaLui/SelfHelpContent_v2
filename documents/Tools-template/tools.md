@@ -4,7 +4,7 @@
 	service=""
 	resource=""
 	authors=""
-	authoralias=""
+	ms.author=""
 	displayOrder=""
 	selfHelpType=""
 	supportTopicIds=""
