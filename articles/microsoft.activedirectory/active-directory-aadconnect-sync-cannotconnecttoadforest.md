@@ -25,7 +25,7 @@ If you see an error in the Azure AD Connect wizard when connecting to an AD fore
 * This problem can occur if a domain controller in the domain has not registered an "A" record for itself in DNS. Resolution is to add the A record for the domain controller with the `ipconfig /registerdns` command. Flush the DNS cache on the computer running the Active Directory Installation Wizard with `ipconfig /flushdns`.
 * You can use [Troubleshooting Active Directory Related DNS Problems](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/bb727055%28v%3dtechnet.10%29) guide to troubleshoot DNS issues.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [AD Connectivity Tool Overview](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-adconnectivitytools)
 * [AD Connectivity Tool Reference](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
