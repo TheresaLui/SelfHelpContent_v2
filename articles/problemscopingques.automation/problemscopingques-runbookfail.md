@@ -22,20 +22,14 @@
 			"controlType": "dropdown",
 			"displayLabel": "Select the runbook that has the problem",
 			"watermarkText": "Choose a runbook",
-			"dropdownOptions": [{
-					"value": "It's slower that it typically is",
-					"text": "It's slower that it typically is"
-				}, {
-					"value": "Another virtual machine in the subscription is faster",
-					"text": "Another virtual machine in the subscription is faster"
-				}, {
-					"value": "Benchmarking tests not meeting minimum Azure specifications",
-					"text": "Benchmarking tests not meeting minimum Azure specifications"
-				}, {
-					"value": "It's faster in a non-Azure environment",
-					"text": "It's faster in a non-Azure environment"
-				}
-			],
+			"dynamicDropdownOptions": {
+			    "uri": "<uri>",
+			    "jTokenPath": "<JtokenPath>",
+			    "textProperty": "<textProperty>",
+			    "valueProperty": "<valueProperty>",
+			    "textPropertyRegex": "<regex>"
+			}
+
 			"required": true
 		}, {
 			"id": "problem_start_date",
@@ -67,15 +61,13 @@
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
 				}
 			]
 		}, {
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			"content": "<a href='https://docs.microsoft.com//azure/automation/troubleshoot/runbooks>Learn more</a> about troubleshooting runbooks"
 		}
 	]
 }
