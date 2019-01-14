@@ -40,7 +40,7 @@ Since the **headnodehost** is receiving heartbeats from all machines, it can dis
 
 4. Run the following command to stop Ambari service on the standby node:<br>
 
-	`sudo service ambari-server stop`
+	`sudo ambari-server stop` or `sudo service ambari-server stop`
 
 ## **Recommended Documents**
 
