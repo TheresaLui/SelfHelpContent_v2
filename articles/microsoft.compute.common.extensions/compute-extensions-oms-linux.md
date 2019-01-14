@@ -19,5 +19,9 @@
 
 ## **Recommended Documents**
 
-* [Log Analytics (OMS) virtual machine extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux)
-* [Troubleshoot Log Analytics extension issues](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#troubleshoot-and-support)
+* [Log Analytics (OMS) virtual machine extension for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux)<br>
+* [Troubleshoot Log Analytics extension issues](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux#troubleshoot-and-support)<br>
+* [FAQ for common issues and tips](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux#tips-and-tricks)<br>
+* [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux#extension-schema)<br>
+* [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)<br>
+* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux#azure-portal)
