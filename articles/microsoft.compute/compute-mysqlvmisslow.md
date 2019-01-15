@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
+	ms.author="michco"
 	displayOrder="27"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -27,5 +28,5 @@ Try following steps to diagnose and mitigate SQL VM performance issues.
 
 ## **Recommended documents**
 
-* [Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)<br>
+* [Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision)<br>
 * [Migrating to Azure Premium Storage](https://azure.microsoft.com/documentation/articles/storage-migration-to-premium-storage/)
