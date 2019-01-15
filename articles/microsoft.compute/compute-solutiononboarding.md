@@ -4,6 +4,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="khughes"
+  	ms.author="khughes"
     displayOrder="30"
     selfHelpType="resource"
     supportTopicIds=""
