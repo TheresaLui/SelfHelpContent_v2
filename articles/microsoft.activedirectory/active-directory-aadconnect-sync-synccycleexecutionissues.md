@@ -19,11 +19,11 @@
 
 The synchronization cycle comprised of three steps i.e. import, export and synchronization. Most of time import or export errors lead to synchronization errors.
 
-## **Synchronization Issues**
+**Synchronization Issues**
 
 * Use [troubleshooting script to troubleshoot object synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync).
 
-## **Import Issues**
+**Import Issues**
 
 There are multiple reasons an object is not importing:
 
@@ -35,7 +35,7 @@ There are multiple reasons an object is not importing:
 
 * Scoping issue: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object. 
 
-## **Export Issues**
+**Export Issues**
 
 * Data mismatch issue: [Could not find mapping object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-mismatch-errors).
 
@@ -47,7 +47,7 @@ There are multiple reasons an object is not importing:
 
 * Existing admin role conflict: [Check details about this error here](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#existing-admin-role-conflict).
 
-## **Other Issues**
+**Other Issues**
 
 * For advanced troubleshooting go through [this detailed document to check how object flows in AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing).
 
