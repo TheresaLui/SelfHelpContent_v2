@@ -3,7 +3,7 @@
 	pageTitle=".NET SDK"
 	description=".NET SDK"
 	authors="debugthings, Dmitry-Matveev"
-	authoralias="jamdavi, dmitmatv"
+	ms.author="jamdavi, dmitmatv"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32402631"
 	productPesIds="15693"
@@ -188,8 +188,8 @@
 			"id": "custom_config",
 			"order": 12,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",			
-			"watermarkText": "Telemetry Processor to filter out fast Dependency calls",
+			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
+            "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
             "hints": [{
 					"text": "Telemetry Initializers"
 				}, {
