@@ -58,7 +58,7 @@ There can be many possible root causes:
 
 * You can also try killing the Ambari Agent process and starting it again:<br>
 
-	`kill -9 <ambari-agent-pid>`
+	`kill -9 <ambari-agent-pid>`<BR>
 	`service ambari-agent start`
 
 **3. Networking Issue**
