@@ -5,7 +5,7 @@
     resource="virtualmachines"
     authors="khughes"
   	ms.author="khughes"
-    displayOrder="30"
+    displayOrder="55"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
@@ -16,4 +16,5 @@
 # I could not enable Update Management, Change Tracking and Inventory, or Desired State Configuration
 
 ## **Recommended Documents**
-[Troubleshooting solution onboarding issues](https://aka.ms/troubleshootsolutiononboarding)
+
+* [Troubleshooting solution onboarding issues](https://aka.ms/troubleshootsolutiononboarding)

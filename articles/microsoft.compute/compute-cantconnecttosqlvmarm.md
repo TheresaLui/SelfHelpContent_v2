@@ -4,14 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
-	displayOrder="26"
+	displayOrder="30"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-    
+
 # I can't connect to SQL Server in my VM
 
 ## **Recommended steps**
@@ -23,4 +23,5 @@ Try following steps to diagnose and mitigate SQL Server connectiviy issues
 [SQL Server connectivity drivers](https://msdn.microsoft.com/library/mt654049.aspx)
 
 ## **Recommended documents**
-[Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)
+
+* [Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)
