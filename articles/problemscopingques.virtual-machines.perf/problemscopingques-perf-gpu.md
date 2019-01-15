@@ -4,17 +4,17 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628264"
+                supportTopicIds="32628268"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0052"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0060"
 />
 # VM Performance
 ---
 {
     "resourceRequired": true,
-    "title": "Disk throughput is lower than expected",
+    "title": "GPU processing is slower than expected",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -41,10 +41,10 @@
             ],
             "required": false
         },{
-            "id": "perf_benchmarking",
+            "id": "perf_gpu_detect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Which benchmarking tests have you performed?",
+            "displayLabel": "How did you detect high GPU usage?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -52,20 +52,12 @@
                     "text": "Perf Insights"
                 },
                 {
-                    "value": "DiskSPD",
-                    "text": "DiskSPD"
+                    "value": "Azure Monitoring Alerts",
+                    "text": "Azure Monitoring Alerts"
                 },
                 {
-                    "value": "IOmeter",
-                    "text": "IOmeter"
-                },
-                {
-                    "value": "Other (describe below)",
-                    "text": "Other (describe below)"
-                },
-                {
-                    "value": "I did not use any",
-                    "text": "I did not use any"
+                    "value": "Other Monitoring tools (describe below)",
+                    "text": "Other Monitoring tools (describe below)"
                 }
             ],
             "required": false
@@ -115,15 +107,22 @@
             "required": false
         },
         {
-            "id": "disk_path",
-            "order": 5,
+  				"id": "perf_gpu_apps",
+  				"order": 5,
+  				"controlType": "multilinetextbox",
+  				"displayLabel": "List all processes/applications you have identified that cause the high GPU usage.",
+  				"useAsAdditionalDetails": false,
+  				"required": true
+				},{
+            "id": "gpu_version",
+            "order": 6,
             "controlType": "textbox",
-            "displayLabel": "Enter the affected disk path or name",
-            "watermarkText": "StorageAccount/Container/DiskName.vhd",
+            "displayLabel": "What is the version of your GPU drivers?",
+            "useAsAdditionalDetails": false,
             "required": false
         },{
 				"id": "problem_description",
-				"order": 6,
+				"order": 7,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
 				"useAsAdditionalDetails": true,

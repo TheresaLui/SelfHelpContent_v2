@@ -4,17 +4,17 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628264"
+                supportTopicIds="32628254"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0052"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0064"
 />
 # VM Performance
 ---
 {
     "resourceRequired": true,
-    "title": "Disk throughput is lower than expected",
+    "title": "Application, service, or website is slow",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -41,37 +41,8 @@
             ],
             "required": false
         },{
-            "id": "perf_benchmarking",
-            "order": 3,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Which benchmarking tests have you performed?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Perf Insights",
-                    "text": "Perf Insights"
-                },
-                {
-                    "value": "DiskSPD",
-                    "text": "DiskSPD"
-                },
-                {
-                    "value": "IOmeter",
-                    "text": "IOmeter"
-                },
-                {
-                    "value": "Other (describe below)",
-                    "text": "Other (describe below)"
-                },
-                {
-                    "value": "I did not use any",
-                    "text": "I did not use any"
-                }
-            ],
-            "required": false
-        },{
             "id": "applications_on_vm",
-            "order": 4,
+            "order": 3,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the applications running on your virtual machine",
             "dropdownOptions": [
@@ -113,17 +84,16 @@
                 }
             ],
             "required": false
-        },
-        {
-            "id": "disk_path",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter the affected disk path or name",
-            "watermarkText": "StorageAccount/Container/DiskName.vhd",
-            "required": false
+        },{
+          "id": "perf_slow_apps",
+          "order": 4,
+          "controlType": "multilinetextbox",
+          "displayLabel": "List all processes/applications you have identified that are slow.",
+          "useAsAdditionalDetails": false,
+          "required": true
         },{
 				"id": "problem_description",
-				"order": 6,
+				"order": 5,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
 				"useAsAdditionalDetails": true,
