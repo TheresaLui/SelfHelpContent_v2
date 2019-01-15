@@ -4,14 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
-	displayOrder="28"
+	displayOrder="29"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-    
+
 # I want to use my own SQL Server license in Azure VM
 Customers with SQL Server License Mobility have two options
 
