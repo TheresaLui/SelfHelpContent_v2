@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
+	ms.author="michco"
 	displayOrder="29"
 	selfHelpType="resource"
 	supportTopicIds=""
