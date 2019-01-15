@@ -4,17 +4,18 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
-	displayOrder="25"
+	displayOrder="27"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-    
+
 # My SQL Server VM is slow
 
 ## **Recommended steps**
+
 Try following steps to diagnose and mitigate SQL VM performance issues.
 
 1. Use Premium Storage for production workloads and enable read caching (set Host caching option to ReadOnly)<br>
@@ -25,5 +26,6 @@ Try following steps to diagnose and mitigate SQL VM performance issues.
 [SQL Server Performance: Approach and Tools](https://docs.com/ajith-krishnan/8919/sql-server-performance-troubleshooting-approach)
 
 ## **Recommended documents**
-[Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)<br>
-[Migrating to Azure Premium Storage](https://azure.microsoft.com/documentation/articles/storage-migration-to-premium-storage/)
+
+* [Provision a SQL Server Virtual Machine in the Azure Portal](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)<br>
+* [Migrating to Azure Premium Storage](https://azure.microsoft.com/documentation/articles/storage-migration-to-premium-storage/)
