@@ -5,7 +5,7 @@
 	resource="botservice"
 	authors="arturl,meetshamir"
 	ms.author="arturl,saziz"
-	displayOrder="3"
+	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32630643"
 	resourceTags=""
