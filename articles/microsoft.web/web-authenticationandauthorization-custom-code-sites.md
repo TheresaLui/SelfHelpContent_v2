@@ -4,6 +4,7 @@
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman,shrahman"
+    ms.author="shrahman, shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32606475"

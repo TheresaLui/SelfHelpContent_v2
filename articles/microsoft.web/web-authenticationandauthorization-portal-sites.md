@@ -1,6 +1,6 @@
 <properties
 	pageTitle="authentication and authorization/App Service Authentication (built-in) through portal"
-	description=authentication and authorization/App Service Authentication (built-in) through portal"
+	description="authentication and authorization/App Service Authentication (built-in) through portal"
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman,cts-shrahman"
