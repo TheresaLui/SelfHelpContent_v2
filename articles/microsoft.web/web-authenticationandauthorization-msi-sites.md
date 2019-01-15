@@ -3,7 +3,7 @@
 	description="authentication and authorization/Managed Service Identity (MSI) Integration"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608648"

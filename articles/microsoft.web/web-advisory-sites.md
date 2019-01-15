@@ -3,7 +3,7 @@
 	description="General Guidance or Advisory"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32452809"

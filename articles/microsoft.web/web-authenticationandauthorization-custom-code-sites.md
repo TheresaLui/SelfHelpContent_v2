@@ -1,9 +1,9 @@
 <properties
 	pageTitle="authentication and authorization/Authentication through custom code"
-	description=authentication and authorization/Authentication through custom code"
+	description="authentication and authorization/Authentication through custom code"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32606475"

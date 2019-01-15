@@ -3,7 +3,7 @@
 	description=authentication and authorization/App Service Authentication (built-in) through portal"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32606474"
