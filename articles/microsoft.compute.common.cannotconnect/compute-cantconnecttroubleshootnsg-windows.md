@@ -22,7 +22,7 @@
 NSGs by default deny connections from the Internet unless it is explicitly allowed. To resolve this issue, try one or more of the below steps:
 
 1. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine
-2. Edit the [Network Securtiy Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group) to make any needed changes to the rules
+2. Edit the [Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group) to make any needed changes to the rules
 3. If there is no rule to allow remote RDP traffic, review [Unable to connect via RDP due to NSG](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem)<br>
 4. If there is no rule to allow the traffic from Internet, add a new rule to allow access to the backend port, with source being 'Internet', '\*' or a specific public IP address
 
