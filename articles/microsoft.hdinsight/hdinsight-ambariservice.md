@@ -35,7 +35,7 @@ In an HDInsight cluster, the **headnodehost** is the default headnode on which a
 
 	`vi /etc/hosts/`
 
-3. Look up for the headnode which has **headnodehost** mentioned next to it to verify that this headnode is the active node. The other headnode which does not have **headnodehost** mentioned is the standby node:<br>
+3. Look for the headnode with **headnodehost** next to it. This is the active node. The other headnode is the standby node.
 
 4. Run the following command to stop Ambari service on the standby node:<br>
 
