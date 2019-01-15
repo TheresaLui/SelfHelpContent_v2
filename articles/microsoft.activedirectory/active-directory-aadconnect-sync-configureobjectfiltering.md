@@ -13,7 +13,7 @@
     cloudEnvironments="public"
     />
 
-# Configure attribute filtering
+# Configure object filtering
 
 ## **Recommended steps**
 We understand that you want to configure object filtering, please note that you need to be an advanced user in order to configure object filtering. We recommend you to go through **Recommended documents** before making any changes in the synchronization rules. Any wrong changes in filtering or scoping may result in deletion of objects in your target.
