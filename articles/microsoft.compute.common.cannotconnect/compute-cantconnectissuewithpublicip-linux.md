@@ -17,14 +17,14 @@
 
 4 out of 5 customers resolved their VM public IP issue using the steps below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
 * Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine
 
 
-**Additional documents**<br>
+**Additional Documents**<br>
 
 * [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 * [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
