@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
-	displayOrder="7"
+	displayOrder="15"
 	selfHelpType="resource"
 	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="windows, windowsSQL"
@@ -17,7 +17,7 @@
 
 Try the following steps to diagnose and mitigate VM performance issues.<br>
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. **Did you know Performance diagnostics can help you analyze guest VM issues?**
 **For Windows virtual machines, you can [run Performance diagnostics](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run it on your virtual machine. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)
@@ -31,6 +31,6 @@ Try the following steps to diagnose and mitigate VM performance issues.<br>
 8. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage) if its an I/O intensive use-case <br>
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)
