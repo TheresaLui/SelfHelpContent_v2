@@ -7,7 +7,7 @@
 	ms.author="arturl,saziz"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="3263064"
+	supportTopicIds="32630641"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
