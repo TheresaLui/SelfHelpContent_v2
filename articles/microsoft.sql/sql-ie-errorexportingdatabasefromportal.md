@@ -25,9 +25,10 @@ Error encountered during the service operation. Blob ....bacpac is not writeable
 The engineering team has rolled out the fix, but it might take some time for the fix to get applied worldwide.
 <!--/issueDescription-->
 <br>
+
 ## **Recommended Steps**
-Please try the following link to access [Azure Portal](https://portal.azure.com/?feature.canmodifystamps=true&microsoft_azure_storage=stage1) and perform the export operations from that version.
-The portal shows an orange title bar if you open it via the above link, this is expected.
+
+Click this link to access the [Azure Portal](https://portal.azure.com/?feature.canmodifystamps=true&microsoft_azure_storage=stage1) and perform the export operation from that version. The portal shows an orange title bar if you open it via the above link, this is expected.
 
 Other alternatives are:
 
