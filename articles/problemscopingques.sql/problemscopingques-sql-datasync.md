@@ -4,6 +4,7 @@
 	description="Scoping questions to capture sync group name"
 	authors="vitomaz-msft"
 	authoralias="vitomaz"
+	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630455"
 	productPesIds="13491"
