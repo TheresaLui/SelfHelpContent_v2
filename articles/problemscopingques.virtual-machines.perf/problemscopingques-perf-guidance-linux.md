@@ -18,8 +18,31 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "perf_constraints",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Start time of most recent occurrence",
+            "required": true
+        },{
+            "id": "perf_current",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Is the problem occurring right now?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },{
+            "id": "perf_constraints",
+            "order": 3,
             "controlType": "multiselectdropdown",
             "displayLabel": "Which category of resource constraints did you observe?",
             "watermarkText": "Choose an option",
@@ -48,7 +71,7 @@
             "required": false
         },{
             "id": "applications_on_vm",
-            "order": 2,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the applications running on your virtual machine",
             "dropdownOptions": [
@@ -80,7 +103,7 @@
             "required": false
         },{
             "id": "perf_storage",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Are your VMs using Standard Storage or Premium Storage?",
             "watermarkText": "Choose an option",
@@ -97,7 +120,7 @@
             "required": false
         },{
 				"id": "problem_description",
-				"order": 4,
+				"order": 6,
 				"controlType": "multilinetextbox",
 				"displayLabel": "Description",
 				"useAsAdditionalDetails": true,
