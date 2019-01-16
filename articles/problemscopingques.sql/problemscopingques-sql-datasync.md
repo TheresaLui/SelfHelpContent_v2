@@ -22,14 +22,14 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
+            "displayLabel": "When did the problem start",
             "required": true
         },{
 			"id": "sync_group_name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Sync group name?",
-            "watermarkText": "Sync group name",
+			"displayLabel": "Sync group name",
+            "watermarkText": "Sync group name (if applicable)",
             "infoBalloonText": "Name of the Sync Group facing the issue (if applicable)",
 			"required": false,
 			"useAsAdditionalDetails": false
