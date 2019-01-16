@@ -29,6 +29,7 @@ Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). 
 	| order by timestamp desc
 	| where type == "Microsoft.Bot.Schema.BotTimeoutException" 
 	| project timestamp, operation_Id, appName 
+	
 ```
 7. From this query, select a few operation_Id's and then look for more information:
 ```
@@ -43,7 +44,9 @@ Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). 
         };
         union_all
         | order by timestamp desc
+	
 ```
+
 8. If you have only exceptions, analyze the details and see if they correspond to anywhere in your code. If you only see exceptions coming from the Channel Connector (Microsoft.Bot.ChannelConnector) then ensure that Application Insights is set up correctly and your code is logging events.
 
 ## **Recommended Documents**
