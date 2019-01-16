@@ -24,14 +24,15 @@ Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). 
 4. Enable Application Insights ([ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)).
 5. Navigate to AppInsights blade. Click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button.
 6. Query for timeout exceptions. The following query will tell you the most recent exceptions in your bot:
+
 ```
 	exceptions 
 	| order by timestamp desc
 	| where type == "Microsoft.Bot.Schema.BotTimeoutException" 
 	| project timestamp, operation_Id, appName 
-	
 ```
 7. From this query, select a few operation_Id's and then look for more information:
+
 ```
         let my_operation_id = "d298f1385197fd438b520e617d58f4fb";
         let union_all = () {
@@ -44,7 +45,6 @@ Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). 
         };
         union_all
         | order by timestamp desc
-	
 ```
 
 8. If you have only exceptions, analyze the details and see if they correspond to anywhere in your code. If you only see exceptions coming from the Channel Connector (Microsoft.Bot.ChannelConnector) then ensure that Application Insights is set up correctly and your code is logging events.
