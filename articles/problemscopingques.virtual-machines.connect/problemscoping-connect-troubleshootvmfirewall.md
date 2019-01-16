@@ -66,7 +66,7 @@
                     "id": "connect_ifinternet",
                     "order": 4,
                     "controlType": "dropdown",
-                    "displayLabel": "Do you have Internet connectivity issues from this VM?",
+                    "displayLabel": "Do you have connectivity issues from/to this VM?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -80,15 +80,45 @@
                     ],
                     "required": false
                 },{
+                    "id": "connect_internetissue",
+                    "order": 5,
+                    "visibility": "connect_ifinternet == Yes",
+                    "controlType": "dropdown",
+                    "displayLabel": "What is the problem you are having?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Cannot connect to the RDP port",
+                            "text": "Cannot connect to the RDP port"
+                        },
+                        {
+                            "value": "Cannot connect to the Powershell port",
+                            "text": "Cannot connect to the Powershell port"
+                        },
+                        {
+                            "value": "Cannot connect to my SQL instance",
+                            "text": "Cannot connect to my SQL instance"
+                        },
+                        {
+                            "value": "Cannot connect to another port",
+                            "text": "Cannot connect to another port"
+                        },
+                        {
+                            "value": "My VM doesn't have access to Internet",
+                            "text": "My VM doesn't have access to Internet"
+                        }
+                    ],
+                    "required": false
+                },{
                   "id": "problem_description",
-                  "order": 5,
+                  "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 6,
+                  "order": 7,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
