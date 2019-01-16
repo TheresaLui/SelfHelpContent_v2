@@ -5,10 +5,11 @@
 	service="microsoft.sql"
 	resource="servers"
 	authorAlias="vitomaz"
-	authors="vitomaz-msft"
+	ms.author="vitomaz"
+	authors="vitomaz-msft"	
 	displayOrder=""
 	articleId="sql_ie_errorexportingdatabasefromportal"
-	diagnosticScenario=""
+	diagnosticScenario="sql_importexport"
 	selfHelpType="diagnostics"
 	supportTopicIds="32630420"
 	resourceTags=""
@@ -29,6 +30,7 @@ Please try the following link to access [Azure Portal](https://portal.azure.com/
 The portal shows an orange title bar if you open it via the above link, this is expected.
 
 Other alternatives are:
-- Use [sqlpackage.exe](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility)
+
+- Use [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility)
 - Use SSMS
-- Use [PowerShell](https://docs.microsoft.com/en-us/powershell/module/azurerm.sql/new-azurermsqldatabaseexport?view=azurermps-6.13.0)
+- Use [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.sql/new-azurermsqldatabaseexport?view=azurermps-6.13.0)
