@@ -240,6 +240,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
+			"required": false,
             "hints": [{
 					"text": "Telemetry Initializers"
 				}, {
@@ -248,11 +249,10 @@
 					"text": "Customized Settings"
 				}
 			]
-			"required": false
 		}, {
 			"id": "appservice_id",
 			"order": 17,
-            "visibility": "environment_type == Azure Web App or App Service"
+            "visibility": "environment_type == Azure Web App or App Service",
 			"controlType": "dropdown",
 			"displayLabel": "Please select the app service where this application is deployed.",
 			"watermarkText": "App Service XYZ",
