@@ -20,12 +20,15 @@
 2. Navigate to AppInsights blade. Click "All App service settings", then "Application Insights" button. 
 3. And then navigate to "View Application Insights data", and then click the "Analytics" button.
 4. Query for exceptions. The following query will tell you the most recent exceptions in your bot.
+
 ```
 	exceptions
 	| order by timestamp desc
 	| project timestamp, operation_Id, appName
 ```
+
 5. From this query, select a few operation_Id's and then look for more information:
+
 ```
 	let my_operation_id = "d298f1385197fd438b520e617d58f4fb";
 	let union_all = () {
@@ -39,6 +42,7 @@
 	union_all
 	| order by timestamp desc
 ```
+
 6. If you have only exceptions, analyze the details and see if they correspond to anywhere in your code. If you only see exceptions coming from the Channel Connector (Microsoft.Bot.ChannelConnector) then ensure that Application Insights is set up correctly and your code is logging events.
 	
 ## **Recommended documents**
