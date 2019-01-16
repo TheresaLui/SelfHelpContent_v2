@@ -10,7 +10,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# .NET SDK
+# .Net SDK
 ---
 {
 	"resourceRequired": true,
@@ -54,23 +54,67 @@
 			"watermarkText": "Kubernetes, Cloud Provider XYZ",
 			"required": true
 		}, {
-			"id": "app_type",
+			"id": "os_type",
 			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "What is the operating system?",
+			"dropdownOptions": [
+				{
+					"value": "Windows",
+					"text": "Windows"
+				},{
+					"value": "Linux",
+					"text": "Linux"
+				},{
+					"value": "Other",
+					"text": "Other"
+				}],
+			"required": true
+		}, {
+			"id": "os_type_other",
+			"order": 4,
+            "visibility": "os_type == Other",
+			"controlType": "textbox",
+			"displayLabel": "OS name and version:",
+			"watermarkText": "MacOS 13.2",
+			"required": true
+		}, {
+			"id": "os_type_linux",
+			"order": 5,
+            "visibility": "os_type == Linux",
+			"controlType": "textbox",
+			"displayLabel": "Linux distribution and version:",
+			"watermarkText": "Ubuntu 16.4",
+			"required": true
+		}, {
+			"id": "os_type_windows",
+			"order": 6,
+            "visibility": "os_type == Windows",
+			"controlType": "textbox",
+			"displayLabel": "Windows version:",
+			"watermarkText": "Windows Server 2016",
+			"required": true
+		}, {
+			"id": "app_type",
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "What is the application technology?",
 			"dropdownOptions": [
 				{
-					"value": "ASP.NET",
-					"text": "ASP.NET"
-				},{
 					"value": "ASP.NET Core",
 					"text": "ASP.NET Core"
 				},{
-					"value": "Web API",
-					"text": "Web API"
+					"value": "ASP.NET Core Web API",
+					"text": "ASP.NET Core Web API"
 				},{
-					"value": "MVC",
-					"text": "MVC"
+					"value": "ASP.NET Core MVC",
+					"text": "ASP.NET Core MVC"
+				},{
+					"value": "ASP.NET Web API",
+					"text": "ASP.NET Web API"
+				},{
+					"value": "ASP.NET MVC",
+					"text": "ASP.NET MVC"
 				},{
 					"value": "WCF",
 					"text": "WCF"
@@ -87,7 +131,7 @@
 			"required": true
 		}, {
 			"id": "app_type_other",
-			"order": 4,
+			"order": 8,
             "visibility": "app_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the application technology stack:",
@@ -95,7 +139,7 @@
 			"required": true
 		}, {
 			"id": "framework_type",
-			"order": 5,
+			"order": 9,
 			"controlType": "dropdown",
 			"displayLabel": "What is the target .NET Framework?",
 			"dropdownOptions": [
@@ -109,8 +153,14 @@
 					"value": ".NET 4.7",
 					"text": ".NET 4.7"
 				},{
+					"value": ".NET Core 2.0",
+					"text": ".NET Core 2.0"
+				},{
 					"value": ".NET Core 2.1",
 					"text": ".NET Core 2.1"
+				},{
+					"value": ".NET Core 2.2",
+					"text": ".NET Core 2.2"
 				},{
 					"value": ".NET Core 1.6",
 					"text": ".NET Core 1.6"
@@ -121,7 +171,7 @@
 			"required": true
 		}, {
 			"id": "framework_type_other",
-			"order": 6,
+			"order": 10,
             "visibility": "framework_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the target framework",
@@ -129,7 +179,7 @@
 			"required": true
 		}, {
 			"id": "lightup_type",
-			"order": 7,
+			"order": 11,
 			"controlType": "dropdown",
 			"displayLabel": "What were the steps to instrument the app?",
 			"dropdownOptions": [
@@ -146,7 +196,7 @@
 					"value": "App Service Extension (Automated)",
 					"text": "App Service Extension (Automated)"
 				},{
-					"value": "Status Monitor,
+					"value": "Status Monitor",
 					"text": "Status Monitor"
 				},{
 					"value": "Other",
@@ -155,7 +205,7 @@
 			"required": true
 		}, {
 			"id": "lightup_type_other",
-			"order": 8,
+			"order": 12,
             "visibility": "lightup_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the steps to instrument the app:",
@@ -163,7 +213,7 @@
 			"required": true
 		}, {
 			"id": "lightup_type_ext_version",
-			"order": 9,
+			"order": 13,
             "visibility": "lightup_type == App Service Extension (Manual)",
 			"controlType": "textbox",
             "displayLabel": "What is the AI App Services extension version?",
@@ -171,7 +221,7 @@
 			"required": false
 		}, {
 			"id": "lightup_type_sm_version",
-			"order": 10,
+			"order": 14,
             "visibility": "lightup_type == Status Monitor",
 			"controlType": "textbox",
             "displayLabel": "What is the Status Monitor version?",
@@ -179,14 +229,14 @@
 			"required": false
 		}, {
 			"id": "sdk_Version",
-			"order": 11,            
+			"order": 15,            
 			"controlType": "textbox",
             "displayLabel": "What is the Nuget package version of AI SDK?",
 			"watermarkText": "2.8.1, 2.6.1",
 			"required": true
 		}, {
 			"id": "custom_config",
-			"order": 12,
+			"order": 16,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
@@ -201,7 +251,7 @@
 			"required": false
 		}, {
 			"id": "appservice_id",
-			"order": 13,
+			"order": 17,
             "visibility": "environment_type == Azure Web App or App Service"
 			"controlType": "dropdown",
 			"displayLabel": "Please select the app service where this application is deployed.",
@@ -220,13 +270,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_time",
-			"order": 14,
+			"order": 18,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start occuring?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 15,
+			"order": 19,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
 			"required": true,
