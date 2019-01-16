@@ -66,8 +66,8 @@
                 "watermarkText": "Choose an option",
                 "dropdownOptions": [
                     {
-                        "value": "I've followed  Security Center recommendations",
-                        "text": "I've followed  Security Center recommendations"
+                        "value": "I've followed Security Center recommendations",
+                        "text": "I've followed Security Center recommendations"
                     },
                     {
                         "value": "I've applied OS hardening",
