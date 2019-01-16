@@ -19,8 +19,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-At least one database on this server faced a failed export operation using a SharedAccessKey.
-We recently identified a regression in the import/export service that is generating incorrect SAS tokens to the storage accounts causing the following error:
+At least one database on this server faced a failed export operation using a SharedAccessKey. We recently identified a regression in the import/export service that is generating incorrect SAS tokens to the storage accounts causing the following error:
 Error encountered during the service operation. Blob ....bacpac is not writeable. The remote server returned an error: (403) Forbidden.
 The engineering team has rolled out the fix, but it might take some time for the fix to get applied worldwide.
 <!--/issueDescription-->
