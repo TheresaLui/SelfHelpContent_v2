@@ -27,7 +27,7 @@
         "id": "perf_current",
         "order": 2,
         "controlType": "dropdown",
-        "displayLabel": "Does the problem occur right now?",
+        "displayLabel": "Is the problem occurring right now?",
         "watermarkText": "Choose an option",
         "dropdownOptions": [
             {
