@@ -27,4 +27,4 @@
 - [Can I replicate VMs to another subscription?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-replicate-vms-to-another-subscription)
 - Review the [Support Requirements](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure) for all components</br>
 - [Troubleshooting common Azure to Azure - VM replication Errors](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)</br>
-- [**Please refer most frequently asked questions before filing a support case**](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions)
+- [**Please refer most frequently asked questions before filing a support case**](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions)
