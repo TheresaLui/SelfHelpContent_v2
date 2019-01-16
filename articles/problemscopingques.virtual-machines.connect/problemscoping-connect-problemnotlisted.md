@@ -82,7 +82,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "Please specify your configuration change prior to the issue starting.",
                 "required": false,
-                "useAsAdditionalDetails": true
+                "useAsAdditionalDetails": false
                 },{
                     "id": "ippublicprivate",
                     "order": 5,

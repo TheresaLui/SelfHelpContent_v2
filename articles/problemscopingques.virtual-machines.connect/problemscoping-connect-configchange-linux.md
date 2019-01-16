@@ -85,27 +85,6 @@
                 "useAsAdditionalDetails": true
                 },{
                     "id": "connect_ifnew",
-                    "order": 4,
-                    "controlType": "dropdown",
-                    "displayLabel": "Is this VM new to Azure?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                        {
-                            "value": "Yes",
-                            "text": "Yes"
-                        },
-                        {
-                            "value": "No",
-                            "text": "No"
-                        },
-                        {
-                            "value": "I do not know",
-                            "text": "I do not know"
-                        }
-                    ],
-                    "required": false
-                },{
-                    "id": "connect_ifnew",
                     "order": 5,
                     "controlType": "dropdown",
                     "displayLabel": "Is this VM new to Azure?",
