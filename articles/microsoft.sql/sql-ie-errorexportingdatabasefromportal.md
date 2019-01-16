@@ -7,7 +7,7 @@
 	authorAlias="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
-	articleId="sql_ie_-_errorexportingdatabasefromportal"
+	articleId="sql_ie_errorexportingdatabasefromportal"
 	diagnosticScenario=""
 	selfHelpType="diagnostics"
 	supportTopicIds="32630420"
