@@ -5,7 +5,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas"
-	ms.authorAlias="bharathb"
+	ms.author="bharathb"
 	displayOrder=""
 	articleId="largedocument_2F574F61-4568-4D9D-940E-1817C22DC671"
   diagnosticScenario="MachineKeyUpdates"
