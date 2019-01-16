@@ -34,26 +34,6 @@
 			"required": false,
 			"useAsAdditionalDetails": false
 		},{
-			"id": "sync_group_name2",
-			"order": 3,
-			"controlType": "dropdown",
-            "displayLabel": "Please select the sync group you are experiencing issues with",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "{resourceInstanceId}/syncGroups?api-version=2015-05-01-preview",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "syncDatabaseId",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of sync groups",
-                    "text": "Unable to get the list of sync groups"
-                }
-            ],
-            "required": false
-		},{
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
