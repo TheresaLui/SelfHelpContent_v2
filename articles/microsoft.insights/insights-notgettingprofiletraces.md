@@ -28,7 +28,8 @@ The profiler doesn't collect traces 100% of the time due to resource and perform
 
 If there are still issues with profiler after trying the steps above, run through [the troubleshooting steps listed here](https://docs.microsoft.com/azure/application-insights/app-insights-profiler-troubleshooting?toc=/azure/azure-monitor/toc.json).<br>
 
-**Known issues**<br>
+**Known Issues**
+
 If you have AI SDK 2.8.0 or 2.8.1 built into your application and are not running on Azure App Services, the profiler won't work. There is a bug in the version of the profiler that ships with the Windows Azure Diagnostics Extension (WAD). We are working to deploy a fix for the issue. Until then, you can work around it by downgrading your AI SDK to 2.7.2. This is not an issue on Azure App Services. The profiler for App Services has been updated with a fix.
 
 ## **Recommended Documents**
