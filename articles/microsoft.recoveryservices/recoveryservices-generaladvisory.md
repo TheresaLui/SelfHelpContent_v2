@@ -90,8 +90,7 @@ Mobility service installation errors:
 
 **FAQ**
 
-- [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions
-)
+- [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions)
 - [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-architecture)
 
 ****
