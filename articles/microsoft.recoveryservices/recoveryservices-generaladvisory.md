@@ -24,7 +24,7 @@
     - [Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
     - [Physical servers to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix)
 
-- Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
+- Run [Deployment Planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
 - [Azure Site Recovery pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
 
 ## **Recommended Documents**
@@ -35,7 +35,7 @@
 
 1. [Set up disaster recovery for Azure VMs to a secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication)
 2. [Run a disaster recovery drill for Azure VMs to a secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill)
-3. [Fail over and fail back Azure VMs between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)
+3. [Failover and failback Azure VMs between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)
 
 **Common Issues**
 
@@ -45,7 +45,7 @@
 
 **FAQ**
 
-- [Frequently asked common questions](https://docs.microsoft.com//azure/site-recovery/azure-to-azure-common-questions)
+- [Frequently asked questions](https://docs.microsoft.com//azure/site-recovery/azure-to-azure-common-questions)
 - [How to retain fixed IP address after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)
 
 ### VMware VMs to Azure
@@ -56,7 +56,7 @@
 2. [Prepare on-premises VMware servers for disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises)
 3. [Set up replication to Azure for on-premises VMware VMs](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial)
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
-5. [Fail over and fail back VMware VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-failover-failback)
+5. [Failover and failback VMware VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-failover-failback)
 
 **Common Issues**
 
@@ -83,7 +83,7 @@ Mobility service installation errors:
 2. [Prepare on-premises Hyper-V servers for disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-prepare-on-premises-tutorial)
 3. [Set up replication for Hyper-V VMs](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-tutorial) or [Hyper-V VMs in VMM clouds](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial)
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
-5. [Fail over and fail back Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
+5. [Failover and failback Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
 
 **FAQ**
 
