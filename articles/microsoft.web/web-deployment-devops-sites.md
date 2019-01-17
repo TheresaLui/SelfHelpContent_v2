@@ -15,6 +15,7 @@
 
 # Deployment\Azure DevOps
 
-## **Recommended documents**
-* [How do I integrate Azure DevOps code with App Service?](https://docs.microsoft.com/en-us/azure/app-service/faq-deployment#how-do-i-integrate-azure-devops-code-with-app-service)
-* [Tutorial that shows how to create a project in DevOps, upload source code to DevOps, build this source code and finally publish it to Azure AppService](https://blogs.msdn.microsoft.com/waws/2018/10/25/azure-devops-to-azure-appservices/)
+## **Recommended Documents**
+
+* [How do I integrate Azure DevOps code with App Service?](https://docs.microsoft.com/azure/app-service/faq-deployment#how-do-i-integrate-azure-devops-code-with-app-service)
+* [Tutorial: Create a project in DevOps, upload source code to DevOps, build this source code, and publish it to Azure AppService](https://blogs.msdn.microsoft.com/waws/2018/10/25/azure-devops-to-azure-appservices/)
