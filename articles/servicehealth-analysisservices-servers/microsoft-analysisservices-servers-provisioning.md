@@ -5,7 +5,7 @@
     service="Microsoft.AnalysisServices"
     resource="servers"
     authors="stephbaron"
-    authorAlias="stbaron"
+    ms.author="stbaron"
     articleId="servicehealthinsights-Microsoft.AnalysisServices-servers-healthannotation_Provisioning"
     diagnosticScenario="health_diagnostic"
     selfHelpType="servicehealthinsights"

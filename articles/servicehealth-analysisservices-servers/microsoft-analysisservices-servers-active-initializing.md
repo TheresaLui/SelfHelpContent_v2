@@ -5,7 +5,7 @@
     service="Microsoft.AnalysisServices"
     resource="servers"
     authors="stephbaron"
-    authorAlias="stbaron"
+    ms.author="stbaron"
     articleId="servicehealthinsights-Microsoft.AnalysisServices-servers-healthannotation_Active_Initializing"
     diagnosticScenario="health_diagnostic"
     selfHelpType="servicehealthinsights"
@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Analysis Services server:
 
-Server is starting.
+Server is starting. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
