@@ -89,16 +89,16 @@ Mobility service installation errors:
 
 **FAQ**
 
-- [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-common-questions
+- [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions
 )
-- [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-architecture)
+- [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-architecture)
 
 ****
 
 ### For physical servers to Azure
 
 - [Prepare Azure resources for disaster recovery of on-premises machines](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure)
-- [Migrate on-premises machines to Azure](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
-- [Migrate servers running Windows Server 2008 to Azure](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-windows-server-2008)
-- [Physical server to Azure disaster recovery architecture](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-architecture)
+- [Migrate on-premises machines to Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure)
+- [Migrate servers running Windows Server 2008 to Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-windows-server-2008)
+- [Physical server to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/physical-azure-architecture)
 
