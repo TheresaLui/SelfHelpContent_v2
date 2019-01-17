@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure AD connetivity issues"
-    description="Azure AD connetivity issues"
+    pageTitle="Azure AD connectivity issues"
+    description="Azure AD connectivity issues"
     service="microsoft.activedirectory"
     resource="activedirectory"
     authors="darora10"
@@ -13,7 +13,7 @@
     cloudEnvironments="public"
     />
 
-# Azure AD connetivity issues
+# Azure AD connectivity issues
 
 ## **Recommended Steps**
 
