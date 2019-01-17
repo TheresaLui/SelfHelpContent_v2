@@ -15,7 +15,7 @@
 
 # Azure Site Recovery Advisory Queries
 
-## Information to have on hand before you start
+**Prerequisites**
 
 - Supported scenarios and requirements for setting up disaster recovery to Azure: 
 
@@ -27,17 +27,17 @@
 - Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
 - [Azure Site Recovery pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 ### Azure VMs to Azure
 
-**Tutorial series**:
+**Tutorials**
 
 1. [Set up disaster recovery for Azure VMs to a secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication)
 2. [Run a disaster recovery drill for Azure VMs to a secondary Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-dr-drill)
 3. [Fail over and fail back Azure VMs between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)
 
-**Common problems**:
+**Common Issues**
 
 - [Unable to see Azure VM for selection in "Enable replication"](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#unable-to-see-the-azure-vm-for-selection-in-enable-replication)
 - [Unable to replicate because of connectivity issues (Error code 151037 or 151072)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
@@ -50,7 +50,7 @@
 
 ### VMware VMs to Azure
 
-**Tutorial series**:
+**Tutorials**
 
 1. [Prepare Azure resources for disaster recovery](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure)
 2. [Prepare on-premises VMware servers for disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises)
@@ -58,7 +58,7 @@
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
 5. [Fail over and fail back VMware VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-failover-failback)
 
-**Common problems**:
+**Common Issues**
 
 Mobility service installation errors:
 
@@ -77,9 +77,9 @@ Mobility service installation errors:
 
 ### For Hyper-V to Azure
 
-**Tutorial series**:
+**Tutorials**
 
-1. [Prepare Azure resources for disaster recovery of Hyper-V VMs](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure)  
+1. [Prepare Azure resources for disaster recovery of Hyper-V VMs](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure) 
 2. [Prepare on-premises Hyper-V servers for disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-prepare-on-premises-tutorial)
 3. [Set up replication for Hyper-V VMs](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-tutorial) or [Hyper-V VMs in VMM clouds](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial)
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
@@ -90,7 +90,7 @@ Mobility service installation errors:
 - [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions)
 - [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-architecture)
 
-### For physical servers to Azure
+###  Physical servers to Azure
 
 - [Prepare Azure resources for disaster recovery of on-premises machines](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure)
 - [Migrate on-premises machines to Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure)
