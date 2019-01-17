@@ -15,8 +15,8 @@
 
 # Azure AD Connect install and upgrade
 
-## **Reccommended Steps**
-For simplicity sake we have provided limited information as best practices here, for more advanced information you can go through [**Reccommended Documents**](#recommended-documents):
+## **Recommended Steps**
+For simplicity sake we have provided limited information as best practices here, for more advanced information you can go through [**Recommended Documents**](#recommended-documents):
 
 ### **Clean Install**
 
