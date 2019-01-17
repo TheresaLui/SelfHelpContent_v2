@@ -70,6 +70,7 @@ Mobility service installation errors:
 - [VSS installation failures](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#vss-installation-failures)
 
 **FAQ**
+
 - Install new instance of [Configuration Server using OVF template]( https://docs.microsoft.com/azure/site-recovery/tutorial-vmware-to-azure#download-the-vm-template)
 - [Video: Watch step-by-step installation of Configuration Server using OVF template](https://azure.microsoft.com/blog/announcing-a-new-simplified-onboarding-experience-for-azure-site-recovery-vmware-to-azure/)
 - Install new instance of [Configuration Server using unified setup](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#download-the-latest-installation-file)
