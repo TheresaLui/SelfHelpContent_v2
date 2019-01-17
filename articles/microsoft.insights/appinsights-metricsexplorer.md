@@ -41,7 +41,7 @@
 
 ## **Recommended Documents**
 * [Azure Monitor Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts)
-* [Classic Metrics Explorer](https://docs.microsoft.com/en-us/azure/azure-monitor/app/metrics-explorer)
+* [Classic Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/app/metrics-explorer)
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/application-insights/app-insights-asp-net-troubleshoot-no-data)<br>
 * [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)<br>
 * [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)<br>
