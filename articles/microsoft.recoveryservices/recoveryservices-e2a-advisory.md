@@ -30,7 +30,7 @@ The following tutorial series show you how to set up disaster recovery for on-pr
 2. [Prepare on-premises Hyper-V servers for disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-prepare-on-premises-tutorial)
 3. [Set up replication for Hyper-V VMs in System Center VVM](https://docs.microsoft.com/azure/site-recovery/hyper-v-vmm-azure-tutorial)
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
-5. [Fail over and fail back Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
+5. [Failover and failback Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
 
 **Additional Information**
 
