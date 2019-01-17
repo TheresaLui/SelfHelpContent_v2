@@ -30,5 +30,5 @@ If you plan to do this, please do so during an appropriate window as it will req
 6. Follow the steps to enable [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps)
 
 ## **Recommended Documents**
-[Enabling Application Insights in an App Service](https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps)
+[Enabling Application Insights in an App Service](https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps)<br>
 [Delete Site Extension API](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/deletesiteextension)
