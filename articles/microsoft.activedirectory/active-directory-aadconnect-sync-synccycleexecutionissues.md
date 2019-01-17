@@ -31,7 +31,7 @@ There are multiple reasons an object is not importing:
 
 * Azure AD connectivity issues: Please follow instructions in [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity).
 
-* AD permissions issues: As a best practice to avoid any pemission issues, let Azure AD Connect create accounts instead [providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions).
+* AD permissions issues: As a best practice to avoid any permission issues, let Azure AD Connect create accounts instead [providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions).
 
 * Scoping issue: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object. 
 
@@ -43,7 +43,7 @@ There are multiple reasons an object is not importing:
 
 * Data validation failures: [Azure Active Directory enforces various restrictions on the data](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-validation-failures).
 
-* Large object: [Azure Active Directory resrict size limit for some of the attributes](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#largeobject).
+* Large object: [Azure Active Directory restrict size limit for some of the attributes](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#largeobject).
 
 * Existing admin role conflict: [Check details about this error here](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#existing-admin-role-conflict).
 
