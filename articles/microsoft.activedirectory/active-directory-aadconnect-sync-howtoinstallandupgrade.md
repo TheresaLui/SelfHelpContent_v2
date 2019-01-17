@@ -31,7 +31,7 @@ For simplicity sake we have provided limited information as best practices here,
   * You have a single Active Directory forest on-premises.
   * You have an enterprise administrator account you can use for the installation.
   * You have less than 100,000 objects in your on-premises Active Directory.
-  * You want to enable **Password Hash Synchrinization** by default.
+  * You want to enable **Password Hash Synchronization** by default.
 
 * If you don't satisfy any of the above requirements then you can go ahead with **Custom** install option. However go with default options as much as possible and let **Azure AD Connect** create various accounts instead of providing your own accounts. The issue with providing your own accounts is that you need to configure these accounts to provide necessary permissions, if not configured properly may result in synchronization issues. In contrast if **Azure AD Connect** create those accounts for you then it ensures to configure them properly to provide correct set of permissions.
 
