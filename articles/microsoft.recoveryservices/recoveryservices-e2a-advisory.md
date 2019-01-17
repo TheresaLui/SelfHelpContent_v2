@@ -34,6 +34,6 @@ The following tutorial series show you how to set up disaster recovery for on-pr
 
 **Additional Information**
 
-- Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
-- [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)
+* Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
+* [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure) 
 * [FAQ on replicating Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions)
