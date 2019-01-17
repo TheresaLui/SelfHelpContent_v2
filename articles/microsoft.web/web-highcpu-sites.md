@@ -15,11 +15,11 @@
 
 # availability, performance, and application issues/Availability, Performance, and Application Issues/Web app experiencing high CPU
 
-## **Recommended documents**
+## **Recommended Steps**
 
 To troubleshoot a high CPU issue, we recommend the use of the **“Diagnose and solve problems”** blade and running the CPU analysis. <br>
 
-Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: <br>
+Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: 
  
 * Nested loops with many iterations <br>
 * Storing large collections in memory and iterating through them in each request instead of using efficient search algorithms <br>
