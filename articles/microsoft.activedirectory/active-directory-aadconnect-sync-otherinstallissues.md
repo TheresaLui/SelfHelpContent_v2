@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure AD connect install issues"
-    description="Azure AD connect install issues"
+    pageTitle="Azure AD Connect install issues"
+    description="Azure AD Connect install issues"
     service="microsoft.activedirectory"
     resource="activedirectory"
     authors="darora10"
@@ -13,10 +13,10 @@
     cloudEnvironments="public"
     />
 
-# Azure AD connect install issues
+# Azure AD Connect install issues
 
 ## **Recommended Steps**
-Please check which [Azure AD Connect installation type](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation) is suitable for you. If you meet the criteria of express installation, then we highly recommend you to go with the express installation. The Express installation gives you minimal options needed to finish the installation, therefore there is less likelihood of any issues. 
+Please check which [Azure AD Connect installation type](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation) is suitable for you. If you meet the criteria of express installation, then we highly recommend you to go with the express installation. The express installation gives you minimal options needed to finish the installation, therefore there is less likelihood of any issues. 
 
 However, if you don’t meet the express installation criteria and must do the custom installation then here are some best practices you can follow to avoid common issues. For the sake of simplicity only selective options are mentioned here:
 
