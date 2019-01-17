@@ -3,7 +3,7 @@
 	pageTitle="Java SDK"
 	description="Java SDK"
 	authors="debugthings, dhaval24"
-	authoralias="jamdavi, dhdoshi"
+	ms.author="jamdavi, dhdoshi"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32402632"
 	productPesIds="15693"
