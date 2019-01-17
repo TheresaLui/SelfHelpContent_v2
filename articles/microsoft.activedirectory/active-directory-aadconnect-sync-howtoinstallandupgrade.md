@@ -15,7 +15,7 @@
 
 # Azure AD Connect install and upgrade
 
-## **Recommended Steps**
+## **Reccommended Steps**
 For simplicity sake we have provided limited information as best practices here, for more advanced information you can go through [**Reccommended Documents**](#recommended-documents):
 
 ### **Clean Install**
@@ -35,7 +35,7 @@ For simplicity sake we have provided limited information as best practices here,
 
 * If you don't satisfy any of the above requirements then you can go ahead with **Custom** install option. However go with default options as much as possible and let **Azure AD Connect** create various accounts instead of providing your own accounts. The issue with providing your own accounts is that you need to configure these accounts to provide necessary permissions, if not configured properly may result in synchronization issues. In contrast if **Azure AD Connect** create those accounts for you then it ensures to configure them properly to provide correct set of permissions.
 
-* Please [setup a backup server in staging mode](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-operations), you can use this fallback server in case your primary server goes down. Please ensure to configure staging sever same as primary server with same settings. Whenever you make any configuration changes on primary server, please ensure to make same settings on staging server also.
+* Please [setup a backup server in staging mode](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-operations), you can use this fallback server in case your primary server goes down. Please ensure to configure staging server same as primary server with same settings. Whenever you make any configuration changes on primary server, please ensure to make same settings on staging server also.
 
 ### **Upgrade from previous version**
 
