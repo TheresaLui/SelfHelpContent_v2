@@ -6,11 +6,11 @@
     authors="debugthings"
     ms.author="jamdavi"
     articleId="insights_livemetrics"
-    displayOrder="90"
+    displayOrder="100"
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32402637"
+    supportTopicIds="32602207"
  />
  
 # Why can I not see Live Metrics?
