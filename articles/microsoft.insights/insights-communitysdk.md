@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    authorAlias="jamdavi"
+    ms.author="jamdavi"
     articleId="insights_commuinitysdk"
     displayOrder="90"
     selfHelpType="resource"
@@ -12,10 +12,12 @@
     productPesIds="15693" 
     supportTopicIds="32402637"
  />
-# What are Community Supported SDKs?
+ 
+# What are Community-Supported SDKs?
 
-## **Recommended steps**
-If you're using a community supported SDK you will need to open an issue in GitHub to the respective project. If you're using a depreciated SDK please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
+## **Recommended Steps**
+
+If you're using a community-supported SDK, you will need to open an issue in GitHub to the respective project. If you're using a depreciated SDK, please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
 
 **Community Supported**<br>
 
