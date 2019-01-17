@@ -48,7 +48,6 @@
 - [Frequently asked common questions](https://docs.microsoft.com//azure/site-recovery/azure-to-azure-common-questions)
 - [How to retain fixed IP address after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)
 
-****
 ### VMware VMs to Azure
 
 **Tutorial series**:
@@ -76,8 +75,6 @@ Mobility service installation errors:
 - Install new instance of [Configuration Server using unified setup](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#download-the-latest-installation-file)
 - [Upgrading existing instance of Configuration Server](https://docs.microsoft.com/azure/site-recovery/physical-manage-configuration-server#upgrade-a-configuration-server)
 
-****
-
 ### For Hyper-V to Azure
 
 **Tutorial series**:
@@ -92,8 +89,6 @@ Mobility service installation errors:
 
 - [Common questions - Hyper-V to Azure disaster recovery](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions)
 - [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-architecture)
-
-****
 
 ### For physical servers to Azure
 
