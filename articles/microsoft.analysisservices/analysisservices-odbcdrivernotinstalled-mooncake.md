@@ -4,6 +4,7 @@
     service="microsoft.analysisservices"
     resource="servers"
     authors="bnmaa"
+    ms.author="chanwa"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""

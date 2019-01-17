@@ -4,6 +4,7 @@
     service="microsoft.analysisservices"
     resource="servers"
     authors="ashameer"
+    ms.author="abshamee"
     resourceTags=""
     selfHelpType="resource"
     supportTopicIds=""

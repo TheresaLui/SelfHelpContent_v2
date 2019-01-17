@@ -4,6 +4,7 @@
     service="microsoft.analysisservices"
     resource="servers"
     authors="bnmaa"
+    ms.author="chanwa"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
@@ -19,4 +20,4 @@
 1. Open the config file **Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config** under the installation directory of the unified gateway, typically it's **%systemdrive%\Program Files\On-premises data gateway**.
 2. Find the **SendTelemetry** setting in the config, change the value to **False**.
 3. Restart the gateway service **On-premise data gateway service**.
-4. If processing continues to fail, please back to the previous menu to follow **My issue is not listed** section.
+4. If processing continues to fail, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) to resolve this issue.
