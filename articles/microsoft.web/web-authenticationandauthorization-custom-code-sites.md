@@ -15,13 +15,13 @@
 
 # authentication and authorization/Authentication through custom code
 
-## **Recommended documents**
+## **Recommended Documents**
 
-1. [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)
-2. [How to access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)
-3. [Accessing Azure App Services using AAD bearer token](https://blogs.msdn.microsoft.com/jpsanders/2017/03/17/accessing-azure-app-services-using-azure-ad-bearer-token-2/)
-4. [Azure Active Directory sample code](https://azure.microsoft.com/resources/samples/?sort=0&term=Azure+Active+Directory+Web+App)
-5. [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
+* [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)
+* [How to access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)
+* [Accessing Azure App Services using AAD bearer token](https://blogs.msdn.microsoft.com/jpsanders/2017/03/17/accessing-azure-app-services-using-azure-ad-bearer-token-2/)
+* [Azure Active Directory sample code](https://azure.microsoft.com/resources/samples/?sort=0&term=Azure+Active+Directory+Web+App)
+* [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
 
 
 
