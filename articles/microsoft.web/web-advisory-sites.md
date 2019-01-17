@@ -15,9 +15,9 @@
 
 # General Guidance or Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[App Service Documentation](https://docs.microsoft.com/azure/app-service/)
+* [App Service Documentation](https://docs.microsoft.com/azure/app-service/)
 
 Note: You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the drop down list on the previous screen for faster assistance resolving a problem.
 
