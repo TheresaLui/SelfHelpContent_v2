@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Portal"
-    description="Azure Automation - Portal"
+    pageTitle="Azure Automation - Automation Account"
+    description="Azure Automation - Automation Account"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -12,10 +12,10 @@
     cloudEnvironments="public"
 />
 
-# Azure Automation - Portal
+# Azure Automation - Automation Account
 
 ## **Recommended documents**
-[How to] [Automation documentation](https://docs.microsoft.com/azure/automation/)<br>
+[How to] [Azure Automation documentation](https://docs.microsoft.com/azure/automation/)<br>
 [How to] [Quickstart create Automation account](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account)<br>
 [How to] [Create standalone Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)<br>
 [How to] [Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>

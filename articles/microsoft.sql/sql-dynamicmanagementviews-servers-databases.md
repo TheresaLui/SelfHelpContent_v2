@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+	ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980415"
@@ -14,5 +15,6 @@
 
 # managing/monitoring
 
-## **Recommended documents**
-[Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)
+## **Recommended Documents**
+
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)

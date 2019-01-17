@@ -1,9 +1,10 @@
 <properties
-	pageTitle="security/data masking"
-	description="security/data masking"
+	pageTitle="security, privacy and compliance/dynamic data masking"
+	description="security, privacy and compliance/dynamic data masking"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574328"
@@ -11,12 +12,12 @@
 	cloudEnvironments="public"
 />
 
-# security/data masking
+# Dynamic Data Masking
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Configure Azure SQL Database dynamic masking in the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started-portal/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Dynamic data masking](https://docs.microsoft.com/azure/sql-database/sql-database-dynamic-data-masking-get-started/)

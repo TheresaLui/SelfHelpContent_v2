@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="ExRConnChkBtwnMSEEGWMFaileddiag"
+    articleId="ExRGwmConnectivityIndividualReachabilityStatusInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"

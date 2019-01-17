@@ -14,5 +14,6 @@
 
 # design and development/client drivers and apis
 
-## **Recommended documents**
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/)
+## **Recommended Documents**
+
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/)

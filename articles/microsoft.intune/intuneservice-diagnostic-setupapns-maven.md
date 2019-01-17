@@ -5,7 +5,6 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	authorAlias="jlynn"
 	ms.author="jlynn"
 	displayOrder=""
 	articleId="intune_setup_apns_maven"

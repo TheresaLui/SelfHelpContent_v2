@@ -14,5 +14,6 @@
 
 # managing/elastic scale
 
-## **Recommended documents**
-[SQL Database - use elastic database features and tools](https://azure.microsoft.com/documentation/learning-paths/sql-database-elastic-scale/)
+## **Recommended Documents**
+
+* [SQL Database - use elastic database features and tools](https://azure.microsoft.com/documentation/learning-paths/sql-database-elastic-scale/)
