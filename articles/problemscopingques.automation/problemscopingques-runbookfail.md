@@ -23,11 +23,11 @@
 			"displayLabel": "Select the runbook that has the problem",
 			"watermarkText": "Choose a runbook",
 			"dynamicDropdownOptions": {
-			    "uri": "<uri>",
-			    "jTokenPath": "<JtokenPath>",
-			    "textProperty": "<textProperty>",
-			    "valueProperty": "<valueProperty>",
-			    "textPropertyRegex": "<regex>"
+			    "uri": "/subscriptions/{subscriptionId}/resourceGroups/{rgName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/runbooks?api-version=2017-05-15-preview",
+			    "jTokenPath": "value",
+			    "textProperty": "name",
+			    "valueProperty": "id",
+			    "textPropertyRegex": "[^/]+$"
 			}
 
 			"required": true
