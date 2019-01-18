@@ -4,7 +4,7 @@
     service="microsoft.servermanagement"
     resource="nodes"
     authors="daniellee-msft"
-    authoralias="jol"
+    ms.author="jol"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
