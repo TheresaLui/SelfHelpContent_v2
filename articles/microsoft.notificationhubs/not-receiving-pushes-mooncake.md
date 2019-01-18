@@ -3,7 +3,7 @@
     description="I don't see any errors but my devices are not receiving pushes"
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="1"
     selfHelpType="resource"
     resource="namespaces"
