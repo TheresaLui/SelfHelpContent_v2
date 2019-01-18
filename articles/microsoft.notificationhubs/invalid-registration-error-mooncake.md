@@ -3,7 +3,7 @@
     description="I am getting an 'Invalid registration' error"
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="2"
     selfHelpType="resource"
     resource="namespaces"
