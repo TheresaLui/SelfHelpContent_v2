@@ -16,6 +16,8 @@
 
 # Processing of partition is sequential
 
+## **Recommended Steps**
+
 When you process multiple partitions at a time in SSMS, you can make it parallel using this method:
 
 1. Right click on the table which you want to process and select "Partitions..."
