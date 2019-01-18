@@ -15,10 +15,11 @@
 
 # Deletion threshold exceeded
 
-## **Recommended steps**
-If you have received an email notification or noticed error in **Synchronization Service Manager** UI, that the number of object deletions has exceeded the configured deletion threshold in Azure AD then this is due to **Azure AD Connect** feature to prevent any accidental deletes. Here are your options in this case:
+## **Recommended Steps**
 
-* Please follow [instructions in this document](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-prevent-accidental-deletes) to review the objects to be deleted or you can disable or increase the threshold limit. 
+You may have received an email notification or noticed an error in the **Synchronization Service Manager** UI, that the number of object deletions has exceeded the configured deletion threshold in Azure AD. This is because of the **Azure AD Connect** feature to prevent any accidental deletions. Here are your options in this case:
 
-## **Recommended documents**
+* Please follow the [instructions in this document](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-prevent-accidental-deletes) to review the objects to be deleted, disable, or increase the threshold limit.
+
+## **Recommended Documents**
 * [Azure AD Connect sync: Prevent accidental deletes](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-prevent-accidental-deletes)
