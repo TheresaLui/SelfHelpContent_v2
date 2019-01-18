@@ -17,12 +17,12 @@
 
 **Prerequisites**
 
-- [Supported scenarios and requirements](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
+* [Supported scenarios and requirements](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
  for replicating Hyper-V VMs to Azure
 
-- Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and to check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
+* Run [Deployment planner](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-overview) for capacity planning, and to check whether your network bandwidth and storage allocations are sufficient for the amount of churn in your VMs
 
-- [Azure Site Recovery Pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
+* [Azure Site Recovery Pricing](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#pricing)
 
 
 ## **Recommended Documents**
@@ -37,7 +37,7 @@ The following tutorial series show you how to set up disaster recovery for on-pr
 
 **Additional Information**
 
-- Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
-- [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)
+* Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
+* [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)
 
 Any other question? Check [FAQ on replicating Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-common-questions).
