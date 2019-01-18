@@ -18,7 +18,7 @@
 
 ## **Recommended documents**
 
--[Review the Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br> 
+-[Review the Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
 -[Review the Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#migrate-data)<br>
 -[Review the Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
 -[Review the Data Box tutorial for data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>

@@ -21,4 +21,4 @@
 - [Review the FAQ for Data Box order creation](https://docs.microsoft.com/azure/databox/data-box-faq#order-device)<br> 
 - [Review the prerequisites for Data Box order creation](https://docs.microsoft.com/azure/databox/data-box-deploy-ordered)<br>
 - [Understand the Data Box system requirements and limits](https://docs.microsoft.com/azure/databox/data-box-system-requirements)<br>
-- [Check the availability of Data Box service in your region](https://docs.microsoft.com/azure/databox/data-box-overview#region-availability)
+- [Check the availability of Data Box service in your region](https://docs.microsoft.com/azure/databox/data-box-overview#region-availability)<br>
