@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-The synchronization cycle comprised of three steps i.e. import, export and synchronization. Most of time import or export errors lead to synchronization errors.
+The synchronization cycle has three steps - import, export and synchronization. Import or export errors can frequently lead to synchronization errors.
 
 **Synchronization Issues**
 
