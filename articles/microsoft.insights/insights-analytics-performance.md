@@ -24,7 +24,7 @@ Queries can be done in two ways: directly querying a specific table (such as *re
 ## **Recommended Steps**
 
 **General Performance Issues**<br>
- 
+
 * **Scope your query** Querying a wider scope than you actually need may lead to a long-running query, and often result in too many (irrelevant) records in your result set. In some cases, the query may even time out and fail.
 * **Select the relevant data source** The first step in writing an efficient query is focusing on the relevant data source - that usually means selecting the table to query.
 * **Specifying a table** is always preferred over running an wide text search (such as **search \***).
