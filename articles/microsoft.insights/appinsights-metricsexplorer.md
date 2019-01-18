@@ -20,17 +20,16 @@
 
 **No Data/Blank Charts**<br>
 
-**Often, you may select an incorrect time range or metric--for example you might select an App Service resource by mistake. Please follow these steps to verify you have data for your Application Insights resource.**<br>
+Often, you may select an incorrect time range or metric - for example, you might select an App Service resource by mistake. Please follow these steps to verify you have data for your Application Insights resource.
 
 1. Please verify that the **Application Insight** resource is selected
 3. Please review all parameters for your [filters](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#apply-filters-to-charts) ensuring the Time Range and Metric are correct (too small of a time range may not show data)
 4. Ensure you did not [pin the chart axis](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#lock-boundaries-of-chart-y-axis) to a value that is out of range
 5. Validate that the data is being sent to Application Insights by running an [analytics query](https://docs.microsoft.com/azure/azure-monitor/app/analytics)
 
-
 **Incorrect Data/Values**<br>
 
-**When data does not look correct in the chart it is usually due to the amount of data sent by the application, or the time range and granularity. Please follow these steps to verify the data for your Application Insights resource is correct.**<br>
+When data does not look correct in the chart, it is usually due to the amount of data sent by the application, or the time range and granularity. Please follow these steps to verify the data for your Application Insights resource is correct.
 
 1. Please verify that the **Application Insight** resource is selected
 2. Please review all parameters for your [filters](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#apply-filters-to-charts) ensuring the Time Range and Metric are correct (too small of a time range may not show data)
@@ -40,6 +39,7 @@
 6. In addition to the previous item, your **Time Range** will automatically set the aggregation time, the bigger the range the more items are aggregated
 
 ## **Recommended Documents**
+
 * [Azure Monitor Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts)
 * [Classic Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/app/metrics-explorer)
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/application-insights/app-insights-asp-net-troubleshoot-no-data)<br>
