@@ -16,11 +16,13 @@
 # Configure UPN configuration
 
 ## **Recommended Steps**
+
 Here are steps to configure UPN using Azure AD Connect:
 
-* Please follow [instructions in this document to configure UPN configuration](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-userprincipalname) using **Azure AD Connect**.
+* Please follow instructions in this document to [configure UPN configuration](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-userprincipalname) using **Azure AD Connect**.
 
 ## **Recommended Documents**
+
 * [Azure AD Connect sync: Shadow attributes](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-shadow-attributes)
 * [Troubleshoot: Changed the UPN of a user account](https://support.microsoft.com/help/2669550/changes-aren-t-synced-by-the-azure-active-directory-sync-tool-after-yo)
 * [Troubleshoot: On premise user doesn't match online UPN](https://support.microsoft.com/help/2523192/user-names-in-office-365-azure-or-intune-don-t-match-the-on-premises-u)
