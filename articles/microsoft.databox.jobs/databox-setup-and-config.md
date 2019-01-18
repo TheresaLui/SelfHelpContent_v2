@@ -16,11 +16,11 @@
 
 # Data Box setup and configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
--[Review the Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
--[Review the Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#migrate-data)<br>
--[Review the Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
--[Review the Data Box tutorial for data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
--[Review the Data Box tutorial for data copy via NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
--[Review the Data Box tutorial for data copy via REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)<br>
+* [Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
+* [Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#migrate-data)<br>
+* [Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
+* [Data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
+* [Data copy via NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
+* [Data copy via REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)<br>
