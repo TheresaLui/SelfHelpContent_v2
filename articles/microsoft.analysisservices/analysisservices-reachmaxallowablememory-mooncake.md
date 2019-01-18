@@ -14,7 +14,7 @@
 
 # Memory error: You have reached the maximum allowable memory allocation for your tier.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 In Azure Analysis Services, common memory problems such as OOM(Out of Memory) errors during processing/querying, Analysis Services connection timeout, etc. can often be resolved by using the following methods:
 
@@ -23,7 +23,7 @@ In Azure Analysis Services, common memory problems such as OOM(Out of Memory) er
 3. If you're unable to connect to the server because of high memory usage, try connecting with a Dedicated Admin Connection to cancel long running sessions and drop some databases to reclaim memory. In SSMS (version 17.3 or higher), this property can be set in the connection dialog by adding it to the **Additional Connection Parameters** tab. For example, DataSource=asazure://westus.asazure.windows.net/server1;DedicatedAdminConnection=true;
 4. Upgrade your plan for more available memory. To learn more about plan options, see [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Analysis Services pricing](https://azure.microsoft.com/pricing/details/analysis-services/)
 * [Server properties in Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services)
