@@ -21,7 +21,7 @@ Best practices for installing and upgrading Azure AD Connect are found below.
 
 ### **Clean Install**
 
-* [Download latest version of **Azure AD Connect**](https://www.microsoft.com/download/details.aspx?id=47594) and launch AzureADConnect.msi on the server where you want to install it. It is advised to install **Azure AD Connect** on a dedicated server.
+* [Download the latest version of **Azure AD Connect**](https://www.microsoft.com/download/details.aspx?id=47594) and launch AzureADConnect.msi on the server where you want to install it. It is advised to install **Azure AD Connect** on a dedicated server.
 * Please ensure you are logged in as Administrator on the server you are installing **Azure AD Connect**
 * Select **Express** installation with default options if you meet following requirements:
   * You have a single Active Directory forest on-premises
