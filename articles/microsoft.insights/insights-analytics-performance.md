@@ -19,7 +19,7 @@
 
 Querying and analyzing application log data can cover a very wide scope. It is therefore important to understand the best practices to use, and what might affect your query's performance, or even fail it.<br>
 
-Queries can be done in two ways: directly querying a specific table (such as *requests*), or searching through your entire set of data. The first approach is preferred since it's scoped to a relevant data source and therefore more efficient.<br><br>
+Queries can be done in two ways: directly querying a specific table (such as *requests*), or searching through your entire set of data. The first approach is preferred since it's scoped to a relevant data source and therefore more efficient.
 
 ## **Recommended Steps**
 
@@ -44,15 +44,19 @@ Queries can be done in two ways: directly querying a specific table (such as *re
 Almost all query failures are caused by syntax errors, rather than connection failures etc. Here are the most common errors:
 
 **No query statement found**<br>
+
 This very common "syntax error" actually means you didn't select a query before clicking the *Run* button (or using the Shift+Enter shortcut). Simply make sure your cursor is on the relevant query and run it again.<br>
 
 **Failed to resolve table / column / scalar expression named ...**<br>
+
 This common error is usually just a typo - your query refers to a table, column or other expression using a wrong name. For example, instead of typing: **requests | where timestamp > ago(1h)** you might have typed: **request | where timestamp > ago(1h)** To fix this error, simply review the query and look for a red squiggly line - it marks the text that was probably misspelled.
 
 **Missing closing brackets or quotation marks**<br>
+
 These common typing errors result in a "Syntax error" or "query could not be parsed at '<EOF>'" message.<br>
 
 **Handling special characters**<br>
+
 If your query contains special characters, you will need to escape them or use **@** to create a verbatim string literal. Read more about it [here](https://docs.microsoft.com/azure/kusto/query/scalar-data-types/string).<br>
 
 ## **Recommended Documents**
