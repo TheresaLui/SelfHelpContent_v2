@@ -3,7 +3,7 @@
     description="I am getting an 'Internal server' error"
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="4"
     selfHelpType="resource"
     resource="namespaces"
