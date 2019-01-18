@@ -16,9 +16,9 @@
 
 # Data Box Shipping
 
-## **Recommended documents**
+## **Recommended Documents**
 
--[FAQ for return shipment of Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#ship-device)<br>
--[FAQ for tracking Data Box status](https://docs.microsoft.com/azure/databox/data-box-faq#track-status)<br>
--[Review the Data Box shipping tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up)<br>
--[Learn how to manage the Data Box using local web UI](https://docs.microsoft.com/azure/databox/data-box-local-web-ui-admin)<br>
+* [FAQ for return shipment of Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#ship-device)<br>
+* [FAQ for tracking Data Box status](https://docs.microsoft.com/azure/databox/data-box-faq#track-status)<br>
+* [Data Box shipping tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up)<br>
+* [Manage Data Box using local web UI](https://docs.microsoft.com/azure/databox/data-box-local-web-ui-admin)<br>
