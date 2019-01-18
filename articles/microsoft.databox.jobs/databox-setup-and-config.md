@@ -5,7 +5,7 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
-	authorAlias="sunir"
+	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32612619,32612623,32612624,32612630,32612631,32612632,32612642,32612646,32612652"
@@ -16,7 +16,7 @@
 
 # Data Box setup and configuration
 
-## Recommended documents
+## **Recommended documents**
 
 -[Review the Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br> 
 -[Review the Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#migrate-data)<br>

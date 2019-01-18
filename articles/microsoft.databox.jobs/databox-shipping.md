@@ -5,7 +5,7 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
-	authorAlias="sunir"
+	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32612620,32612637,32612638,32612640,32612643,32612644,32612649,32612650,32612653,32612658"
@@ -16,7 +16,7 @@
 
 # Data Box Shipping
 
-## Recommended documents
+## **Recommended documents**
 
 -[FAQ for return shipment of Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#ship-device)<br>
 -[FAQ for tracking Data Box status](https://docs.microsoft.com/azure/databox/data-box-faq#track-status)<br>

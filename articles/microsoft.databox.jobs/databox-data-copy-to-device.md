@@ -5,7 +5,7 @@
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
-	authorAlias="sunir"
+	ms.author="sunir"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32612621,32612622,32612625,32612626,32612629,32612636,32612639,32612641,32612645,32612647,32612651"
@@ -16,7 +16,7 @@
 
 # Data Box data copy to device
 
-## Recommended documents
+## **Recommended documents**
 
 -[Learn how to copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#q-how-do-i-copy-the-data-to-the-data-box)<br>
 -[Review the Data Box tutorial for data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
