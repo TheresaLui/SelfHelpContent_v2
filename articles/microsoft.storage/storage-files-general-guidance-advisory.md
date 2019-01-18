@@ -15,7 +15,7 @@
 
 # Azure Files - General guidance or advisory  
 
-## **Recommended documents**    
+## **Recommended Documents**    
 
 - [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning)<br>
 - [Azure Files scalability and performance targets](https://docs.microsoft.com/azure/storage/files/storage-files-scale-targets)<br>
