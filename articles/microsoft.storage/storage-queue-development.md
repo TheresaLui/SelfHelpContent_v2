@@ -10,7 +10,7 @@
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32602713"
+	supportTopicIds="32602772"
 	resourceTags=""
 	productPesIds="16461"
 	cloudEnvironments="public,Mooncake"
