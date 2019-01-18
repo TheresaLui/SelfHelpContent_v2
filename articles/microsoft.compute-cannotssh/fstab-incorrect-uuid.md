@@ -1,7 +1,7 @@
 <properties
 	pageTitle="VM boot error"
 	description="Incorrect UUID in fstab"
-	infoBubbleText="Found a file system table related issue. See details on the right."
+	infoBubbleText="We found a file system table related issue. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="craigwiand,timbasham"
@@ -19,7 +19,7 @@
 # Diagnostics on your Linux Virtual machine found a boot error
 <!--issueDescription-->
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
-Microsoft Azure has concluded an investigation of your virtual machine. We identified that your VM is currently in an inaccessible state because the file system table(fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.
+Microsoft Azure has concluded an investigation of your virtual machine. We identified that your VM is currently in an inaccessible state because the file system table (fstab) file contains an entry using a universally unique identifier (UUID) for a file system that is not present on the VM.  This condition can have several causes, including removing a data disk and restarting without updating the fstab file.
 
 You can use the Azure Portal to view the [serial log](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) output of your VM in the boot diagnostics blade to detect connectivity issues due to similar boot failures in the future.
 
