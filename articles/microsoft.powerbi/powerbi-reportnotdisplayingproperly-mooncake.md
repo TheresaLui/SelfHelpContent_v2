@@ -4,7 +4,7 @@
     service="microsoft.powerbi"
     resource="workspacecollections"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
