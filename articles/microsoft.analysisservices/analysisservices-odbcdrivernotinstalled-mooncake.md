@@ -15,14 +15,14 @@
 
 # 'Driver' property doesn't correspond to an installed ODBC driver
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Open elevated cmd.exe (run as administrator) and run **%windir%\system32\odbcad32.exe** to open the 64bit ODBC Data Source Administrator.
-2. Go to **Drivers** tab, make sure the desired ODBC driver shows up.
-3. If not, install the 64-bit ODBC driver correctly.
-4. Restart the gateway service.
+1. Open elevated cmd.exe (run as administrator) and run **%windir%\system32\odbcad32.exe** to open the 64bit ODBC Data Source Administrator
+2. Go to **Drivers** tab, make sure the desired ODBC driver shows up
+3. If not, install the 64-bit ODBC driver correctly
+4. Restart the gateway service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [ODBC Data Source Administrator](https://docs.microsoft.com/sql/odbc/admin/odbc-data-source-administrator)
 * [Viewing ODBC Drivers](https://docs.microsoft.com/sql/odbc/admin/viewing-drivers)
