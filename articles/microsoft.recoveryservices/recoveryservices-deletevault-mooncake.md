@@ -4,7 +4,7 @@
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="anuragm"
-    authoralias="anuragm"
+    ms.author="anuragm"
     displayOrder="7"
     selfHelpType="resource"
     supportTopicIds=""
