@@ -4,7 +4,7 @@
     service="microsoft.servermanagement"
     resource="gateways"
     authors="jol"
-    authoralias="jol"
+    ms.author="jol"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
