@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
-	authoralias="asgang"
+	ms.authoralias="asgang,genli"
 	displayOrder=""
 	articleId="vmnotconnectingtoO365IPs"
 	diagnosticScenario="vmnotconnectingtoO365IPs"
