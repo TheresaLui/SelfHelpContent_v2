@@ -15,7 +15,7 @@
 
 # Advisory questions - Replicate Hyper-V VMs to Azure
 
-## Information to have on hand before you start
+**Prerequisites**
 
 - [Supported scenarios and requirements](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
  for replicating Hyper-V VMs to Azure
@@ -35,7 +35,7 @@ The following tutorial series show you how to set up disaster recovery for on-pr
 4. [Run a disaster recovery drill to Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure)
 5. [Fail over and fail back Hyper-V VMs replicated to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-failover-failback-tutorial)
 
-## More information
+**Additional Information**
 
 - Replicate specific [Workloads or applications](https://docs.microsoft.com/azure/site-recovery/site-recovery-workload#workload-summary) with Azure Site Recovery 
 - [Replicate VMs to Azure using ExpressRoute](https://docs.microsoft.com/azure/site-recovery/site-recovery-faq#can-i-use-expressroute-to-replicate-virtual-machines-to-azure)
