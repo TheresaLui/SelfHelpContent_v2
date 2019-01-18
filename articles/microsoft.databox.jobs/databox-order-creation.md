@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Ordering Data Box"
-	description="Ordering Data Box - understanding pre requisites and service limits"
+	pageTitle="Order Azure Data Box"
+	description="Understand prerequisites and service limits when ordering Data Box."
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
@@ -14,14 +14,11 @@
 	cloudEnvironments="public,fairfax"
 />
 
-# Data Box Order Creation
+# Data Box order creation
 
-## **Recommended Documents**
+## Recommended documents
 
--[FAQs: Reveiw the Data Box order creation FAQs](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#order-device)<br> 
--[Review prerequisites for Data Box order creation](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-ordered)<br>
-- [Understand the Data Box system requriements and limits](https://docs.microsoft.com/en-us/azure/databox/data-box-system-requirements)<br>
-- [Check the availability of Data Box service in your region](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#q-how-can-i-check-if-data-box-is-available-in-my-region)<br>
-
-
-
+- [Review the FAQ for Data Box order creation](https://docs.microsoft.com/azure/databox/data-box-faq#order-device)<br> 
+- [Review the prerequisites for Data Box order creation](https://docs.microsoft.com/azure/databox/data-box-deploy-ordered)<br>
+- [Understand the Data Box system requirements and limits](https://docs.microsoft.com/azure/databox/data-box-system-requirements)<br>
+- [Check the availability of Data Box service in your region](https://docs.microsoft.com/azure/databox/data-box-overview#region-availability)

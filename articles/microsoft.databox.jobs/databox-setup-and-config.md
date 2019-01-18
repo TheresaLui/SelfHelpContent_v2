@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Data Box set up and configuration"
-	description="Data Box set up and configuration"
+	pageTitle="Azure Data Box set up and configuration"
+	description="Learn how to set up and configure your Azure Data Box."
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
@@ -14,16 +14,13 @@
 	cloudEnvironments="public,fairfax"
 />
 
-# Data Box Setup and Configuration
+# Data Box setup and configuration
 
-## **Recommended Documents**
+## Recommended documents
 
--[Reveiw the Data Box configuration and setup FAQs](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#configure-and-connect)<br> 
--[Reveiw the Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#migrate-data)<br>
--[Reveiw the Data Box setup and configuration tutorial](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-set-up)<br>
--[Reveiw the Data Box data copy tutorial for ingestion using SMB](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-copy-data)<br>
--[Reveiw the Data Box data copy tutorial for ingestion using NFS](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
--[Reveiw the Data Box data copy tutorial for ingestion using REST](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-copy-data-via-rest)<br>
-
-
-
+-[Review the Data Box configuration and setup FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br> 
+-[Review the Azure and Data Box specific service limits FAQs](https://docs.microsoft.com/azure/databox/data-box-faq#migrate-data)<br>
+-[Review the Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
+-[Review the Data Box tutorial for data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
+-[Review the Data Box tutorial for data copy via NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
+-[Review the Data Box tutorial for data copy via REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)<br>

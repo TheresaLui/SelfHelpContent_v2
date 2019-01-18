@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Data Box data copy to device"
-	description="Data Box data copy to device at customer premise"
+	pageTitle="Ship Azure Data Box back to Azure datacenter"
+	description="Learn how to return the Azure Data Box to Azure datacenter"
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
@@ -16,13 +16,9 @@
 
 # Data Box Shipping
 
-## **Recommended Documents**
+## Recommended documents
 
--[Shipping FAQs](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#ship-device)<br>
--[Tracking FAQs](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#track-status)<br>
--[Reveiw the Data Box shipping tutorial](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-picked-up)<br>
--[Reveiw the Data Box local management UI](https://docs.microsoft.com/en-us/azure/databox/data-box-local-web-ui-admin)<br>
-
-
-
-
+-[FAQ for return shipment of Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#ship-device)<br>
+-[FAQ for tracking Data Box status](https://docs.microsoft.com/azure/databox/data-box-faq#track-status)<br>
+-[Review the Data Box shipping tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up)<br>
+-[Learn how to manage the Data Box using local web UI](https://docs.microsoft.com/azure/databox/data-box-local-web-ui-admin)<br>
