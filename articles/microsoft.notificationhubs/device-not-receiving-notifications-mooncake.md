@@ -3,7 +3,7 @@
     description="Only a few of my devices are receiving notifications."
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="5"
     selfHelpType="resource"
     resource="namespaces"
