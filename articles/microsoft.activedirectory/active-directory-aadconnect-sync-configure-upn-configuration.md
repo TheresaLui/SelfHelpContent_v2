@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Configure UPN configuration"
-    description="Configure UPN configuration"
+    pageTitle="Configure UPN"
+    description="Configure UPN"
     service="microsoft.activedirectory"
     resource="activedirectory"
     authors="darora10"
@@ -13,13 +13,13 @@
     cloudEnvironments="public"
     />
 
-# Configure UPN configuration
+# Configure UPN 
 
 ## **Recommended Steps**
 
 Here are steps to configure UPN using Azure AD Connect:
 
-* Please follow instructions in this document to [configure UPN configuration](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-userprincipalname) using **Azure AD Connect**.
+* Please follow instructions in this document to [set up UPN configuration](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-userprincipalname) using **Azure AD Connect**
 
 ## **Recommended Documents**
 
