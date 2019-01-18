@@ -7,7 +7,7 @@
     ms.author="shrahman,benperk"
 	displayOrder="12"
 	selfHelpType="generic"
-	supportTopicIds="32518045"
+	supportTopicIds="32592925"
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 # Portal Issues
 
 ## **Recommended documents**
-The Azure Serverless [Community Library](https://serverlesslibrary.net/) has a lot of samples on common use cases for Azure Functions that are ready to deploy. 
+The Azure Serverless [Community Library](https://serverlesslibrary.net/) has a lot of samples on common use cases for Azure Functions that are ready to deploy.<br> 
 
 * [An introduction to Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview)<br>
 * [Create your first function in the Azure portal](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function)<br>
