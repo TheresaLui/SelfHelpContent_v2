@@ -16,7 +16,7 @@
 
 # My issue is not listed
 
-## **Recommended steps**
+## **Recommended Steps**
 
 You can get help for many common problems from the Microsoft community or exploring the following channels:
 
