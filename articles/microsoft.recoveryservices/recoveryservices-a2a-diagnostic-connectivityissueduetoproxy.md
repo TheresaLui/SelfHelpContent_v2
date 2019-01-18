@@ -23,7 +23,7 @@ The installation of Mobility service has failed because the connection to Azure 
 
 ## **Recommended Steps**
 
-1. Make sure that the proxy setting is set correctly in the virtual machine. The Mobility Service auto detect the proxy settings in the following palces:
+1. Make sure that the proxy setting is set correctly in the virtual machine. The Mobility Service auto detect the proxy settings in the following places:
 
     - For Windows: The **Proxy server** settings in Internet Explorer
     - For Linux: /etc/environment
