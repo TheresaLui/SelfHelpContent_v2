@@ -3,8 +3,8 @@
               description="Troubleshoot my VM firewall"
               service=""
               resource=""
-              authors="scottAzure"
-              ms.author="scotro"
+              authors="scottAzure,timbasham"
+              ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615534"
@@ -51,11 +51,12 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
     netsh advfirewall set allprofiles state off
     ```
 
-**Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to kick in.<br>
+**Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to take effect.<br>
 
 ## **Recommended Documents**
 
 * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
 * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
-* [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)
+* [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)<br>
+* [Learn more about Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows)
