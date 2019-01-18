@@ -18,7 +18,7 @@
 
 # Your virtual machine is not able to access "login.microsoftonline.com" due to invalid proxy. 
 <!--issueDescription-->
-The installation of Mobility service has failed because the connection to Azure Active Directory (AAD) cannot be established. The problem may occur if the network traffic goes through the proxy server and the proxy settings in the virtual machine is invalid.
+The installation of Mobility service has failed with error **A2AMobilityServiceConfiguratorConfigurationFailed**.  The connection to Azure Active Directory (AAD) cannot be established. The problem may occur if the network traffic goes through the proxy server and the proxy settings in the virtual machine is invalid.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
