@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their VM firewall issue using the steps below.<br>
 
-## **Recomended Steps**
+## **Recommended Steps**
 
 * Use the [Serial Console blade](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
 
