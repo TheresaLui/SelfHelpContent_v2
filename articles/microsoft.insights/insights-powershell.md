@@ -17,8 +17,9 @@
 
 Most of our cmdlets work by calling an ARM endpoint and should work so long as you have access to the resource or the subscription. Below are the most common questions we get with PowerShell and Application Insights.<br>
 
-**How can I automate with operations on Application Insights resources with PowerShell?**<br>
-Application Insights has a variety of PowerShell cmdlets that help automate common interactions with the service.<br>
+**How can I automate with operations on Application Insights resources with PowerShell?**
+
+Application Insights has a variety of PowerShell cmdlets that help automate common interactions with the service:
 
 * To create a new resource use **New-AzureRmApplicationInsights** or **Remove-AzureRmApplicationInsights** to delete one 
 * To manage your Application Insights resource’s daily cap using **Get-AzureRmApplicationInsights -IncludeDailyCap** to retrieve the current value, or **Set-AzureRmApplicationInsightsDailyCap** to set a new cap
@@ -31,6 +32,7 @@ Application Insights has a variety of PowerShell cmdlets that help automate comm
 2. Review the [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-an-azure-resource-manager-template) ARM template doc
 
 **How do I troubleshoot issues using the Application Insights ARM template?**
+
 If you’re getting an error using the Application Insights ARM template, [this page](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors) will guide you through steps to understand and mitigate the error. 
 
 ## **Recommended Documents**
