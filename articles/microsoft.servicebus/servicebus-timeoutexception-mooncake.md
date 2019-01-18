@@ -3,7 +3,8 @@
     description="I am receiving a timeout exception"
     service="microsoft.servicebus"
     resource="namespaces"
-    authors="jtaubensee"
+    authors="kimliw"
+    ms.author="v-kiwel"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
@@ -19,7 +20,7 @@
 This exception usually indicates that a user-initiated operation is taking longer than the operation timeout. 
 
 * Look at the [Service Bus Messaging Exceptions](https://docs.azure.cn/service-bus-messaging/service-bus-messaging-exceptions/) article for more information about timeout exceptions
-* Check the [Azure service status site](https://www.azure.cn/support/service-dashboard/) to see if there are any known service outages.
+* Check the [Azure service status site](https://www.azure.cn/support/service-dashboard/) to see if there are any known service outages
 
 ## **Recommended Documents**
 
