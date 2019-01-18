@@ -3,7 +3,7 @@
     description="How do I check pushes I have sent?"
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="7"
     selfHelpType="resource"
     resource="namespaces"
