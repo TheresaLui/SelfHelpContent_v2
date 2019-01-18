@@ -16,14 +16,14 @@
 
 # Data Box data copy to device
 
-## **Recommended documents**
+## **Recommended Documents**
 
--[Learn how to copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#q-how-do-i-copy-the-data-to-the-data-box)<br>
--[Review the Data Box tutorial for data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
--[Review the Data Box tutorial for data copy via NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
--[Review the Data Box Blob storage requirements](https://docs.microsoft.com/azure/databox/data-box-system-requirements-rest)<br>
--[Review the Data Box tutorial for data copy via REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)<br>
--[Review the Data Box setup tutorial](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
+* [Copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-faq#q-how-do-i-copy-the-data-to-the-data-box)<br>
+* [Data copy via SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)<br>
+* [Data copy via NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)<br>
+* [Data Box Blob storage requirements](https://docs.microsoft.com/azure/databox/data-box-system-requirements-rest)<br>
+* [Data copy via REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)<br>
+* [Data Box setup](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)<br>
 
 
 
