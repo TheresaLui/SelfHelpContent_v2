@@ -51,7 +51,7 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
     netsh advfirewall set allprofiles state off
     ```
 
-**Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to take effect.<br>
+**Note:** Ensure you re-enable the firewall after troubleshooting. A virtual machine reboot is not necessary for this change to take effect.<br>
 
 ## **Recommended Documents**
 
