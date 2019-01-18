@@ -39,7 +39,7 @@
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
         }, 
         {
 			"id": "previously successful",
@@ -65,7 +65,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
             "hints": 
             [
