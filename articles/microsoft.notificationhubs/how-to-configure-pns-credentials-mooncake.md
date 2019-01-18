@@ -3,7 +3,7 @@
     description="How do I configure PNS credentials and get started?"
     service="microsoft.notificationhubs"
     authors="locphan"
-    authoralias="locphan"
+    ms.author="locphan"
     displayOrder="8"
     selfHelpType="resource"
     resource="namespaces"
