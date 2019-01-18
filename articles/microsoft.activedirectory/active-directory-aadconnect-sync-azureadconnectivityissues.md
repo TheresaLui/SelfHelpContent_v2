@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-If you see an error in the Azure AD Connect wizard when connecting to an Azure AD, please go through [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity) to investigate and resolve the issue.
+If you see an error in the **Azure AD Connect** wizard when connecting to Azure AD, please see [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity) to investigate and resolve the issue.
 
 ## **Recommended Documents**
 
