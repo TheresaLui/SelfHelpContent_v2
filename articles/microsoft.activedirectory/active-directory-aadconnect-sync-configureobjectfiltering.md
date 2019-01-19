@@ -15,12 +15,13 @@
 
 # Configure object filtering
 
-## **Recommended steps**
-We understand that you want to configure object filtering, please note that you need to be an advanced user in order to configure object filtering. We recommend you to go through **Recommended documents** before making any changes in the synchronization rules. Any wrong changes in filtering or scoping may result in deletion of objects in your target.
+## **Recommended Steps**
 
-* If you have gained all the knowledge by reading the recommended documents then follow [instructions in this document to configure object filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering).
+We understand that you want to configure object filtering. To do this, you need to be an advanced user. We strongly advise you go through the **Recommended documents** below, before making any changes to the synchronization rules. Any wrong changes in filtering, or scoping, may result in the deletion of objects in your target directory.
 
-## **Recommended documents**
+* After reviewing the recommended documents, follow the [instructions in this document to configure object filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering).
+
+## **Recommended Documents**
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
 * [Azure AD Connect sync: Understanding the architecture](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-architecture)
 * [Azure AD Connect sync: Understanding Declarative Provisioning](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning)
