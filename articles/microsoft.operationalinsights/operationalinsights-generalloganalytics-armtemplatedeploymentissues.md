@@ -19,13 +19,14 @@ cloudEnvironments="Public, Fairfax"
 # ARM template deployment issues
 Workspace deployment at scale can be made easier with ARM template using PowerShell or CLI.
 
-## **Recommended steps**
+## **Recommended steps**<br>
 * Follow this sample to [create a workspace ARM template](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
 * Deploy template using [Azure CLI](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-cli)
 * Deploy template using [PowerShell](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh)
-* [Configure your template](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/template-workspace-configuration#configure-a-log-analytics-workspace) to add solutions, create saved searches and collect data sources.<br>
+* [Configure your template](https://docs.microsoft.com/azure/azure-monitor/platform/template-workspace-configuration#configure-a-log-analytics-workspace) to add solutions, create saved searches and collect data sources.<br>
 
 If you are getting an error when updating a SavedSearch, add 'etag' in the body of the API, or the Azure Resource Manager template properties like this example:<br>
+
 ```"properties": {
 "etag": "*",
    "query": "SecurityEvent | where TimeGenerated > ago(1h) | where EventID == 4625 | count",
@@ -33,8 +34,8 @@ If you are getting an error when updating a SavedSearch, add 'etag' in the body 
    "category": "Security"
 }
 ```
-## **Recommended documents**
-* Follow this sample to [create a workspace template] (https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
+## **Recommended documents**<br>
+* Follow this sample to [create a workspace template](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
 * Deploy template using [Azure CLI](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-cli)
 * Deploy template using [PowerShell](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh)
 * [Configure your template](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/template-workspace-configuration#configure-a-log-analytics-workspace)
