@@ -32,10 +32,10 @@ To restore the connectivity to the VM, please follow the troubleshooting steps b
 4. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
 5. Mount the SYSTEM hive of your VM:
 
-  * Open **Regedit.exe**
-  * Click on **HKEY_LOCAL_MACHINE** and from the **File** menu select **Load Hive...**
-  * Browse to the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk
-  * When prompted for a name, use **BROKENSYSTEM**
+    * Open **Regedit.exe**
+    * Click on **HKEY_LOCAL_MACHINE** and from the **File** menu select **Load Hive...**
+    * Browse to the file **<drive letter>:\Windows\system32\config\SYSTEM**, where **drive letter** is from the attached disk
+    * When prompted for a name, use **BROKENSYSTEM**
 
 6. Determine state of the SYSTEM hive:
 
