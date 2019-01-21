@@ -22,28 +22,32 @@
 3. Start over with a fresh install and compare the differences
 4. Review your config file with a specific topic below
 
-**.NET Configuration Topics**<br>
-* **Getting Started** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)
-* **Adaptive Sampling** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/sampling#adaptive-sampling-at-your-web-server)
-* **Telemetry Processors** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling)
-* **Dependency Tracking** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-dependencies#set-up-dependency-monitoring)
-* **Configuration Reference** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/configuration-with-applicationinsights-config)
+### **.NET Configuration Topics**<br>
 
-**Java Configuration Topics**<br>
-* **Getting Started** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
-* **Sampling** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/sampling#configuring-fixed-rate-sampling-in-java)
-* **Telemetry Processors** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/java-filter-telemetry)
-* **Dependency Tracking** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
-* **Configuration Reference** Use [this document](https://github.com/Microsoft/ApplicationInsights-Java/wiki/ApplicationInsights.XML)
+* [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)
+* [Adaptive Sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling#adaptive-sampling-at-your-web-server)
+* [Telemetry Processors](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling)
+* [Dependency Tracking](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-dependencies#set-up-dependency-monitoring)
+* [Configuration Reference](https://docs.microsoft.com/azure/azure-monitor/app/configuration-with-applicationinsights-config)
 
-**JavaScript Configuration Topics**<br>
-* **Getting Started** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
-* **Sampling** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/sampling#sampling-for-web-pages-with-javascript)
-* **Telemetry Initializers** Use [this document](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#addtelemetryinitializer)
-* **Configuration Reference** Use [this document](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#config)
+### **Java Configuration Topics**<br>
 
-**Node.JS Configuration Topics**<br>
-* **Getting Started** Use [this document](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
-* **Sampling** Use [this document](https://github.com/Microsoft/ApplicationInsights-node.js/#sampling)
-* **Telemetry Processors** Use [this document](https://github.com/Microsoft/ApplicationInsights-node.js/#preprocess-data-with-telemetry-processors)
-* **Configuration Reference** Use [this document](https://github.com/Microsoft/ApplicationInsights-node.js/#advanced-configuration-options)
+* [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started)
+* [Sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling#configuring-fixed-rate-sampling-in-java)
+* [Telemetry Processors](https://docs.microsoft.com/azure/azure-monitor/app/java-filter-telemetry)
+* [Dependency Tracking](https://docs.microsoft.com/azure/azure-monitor/app/java-agent)
+* [Configuration Reference](https://github.com/Microsoft/ApplicationInsights-Java/wiki/ApplicationInsights.XML)
+
+### **JavaScript Configuration Topics**<br>
+
+* [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
+* [Sampling](https://docs.microsoft.com/azure/azure-monitor/app/sampling#sampling-for-web-pages-with-javascript)
+* [Telemetry Initializers](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#addtelemetryinitializer)
+* [Configuration Reference](https://github.com/Microsoft/ApplicationInsights-JS/blob/master/API-reference.md#config)
+
+### **Node.JS Configuration Topics**<br>
+
+* [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/nodejs)
+* [Sampling](https://github.com/Microsoft/ApplicationInsights-node.js/#sampling)
+* [Telemetry Processors](https://github.com/Microsoft/ApplicationInsights-node.js/#preprocess-data-with-telemetry-processors)
+* [Configuration Reference](https://github.com/Microsoft/ApplicationInsights-node.js/#advanced-configuration-options)
