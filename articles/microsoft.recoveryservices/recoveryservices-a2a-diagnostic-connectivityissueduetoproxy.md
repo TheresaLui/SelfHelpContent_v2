@@ -31,7 +31,7 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 2. If you prefer to set proxy only for the Mobility service, you can provide the proxy details in **ProxyInfo.conf** that is located in:
 
 	- For Windows: C:\ProgramData\Microsoft Azure Site Recovery\Config
-    	- For Linux: /usr/local/InMage/config/ 
+	- For Linux: /usr/local/InMage/config/ 
 
     The ProxyInfo.conf should have the proxy settings in the following INI format:
 
@@ -40,6 +40,7 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 	Address=<proxy server url>
 	Port=<port number>
 	```
+	
 ## **Recommended Documents**
 
 * [Azure VM disaster Recovery connectivity requirements](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#outbound-connectivity-for-ip-address-ranges)
