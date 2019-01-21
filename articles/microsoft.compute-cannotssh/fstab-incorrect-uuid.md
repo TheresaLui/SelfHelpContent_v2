@@ -33,16 +33,22 @@ More information on the fstab errors can be found in the documentation [Azure Li
 1. Access the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole) of your VM <!--$vmname-->[vmname]<!--/$vmname-->
 2. If the VM is configured, press M for manual recovery to enter single user mode or login as root. If the VM is not configured, reboot the VM using the Azure portal while holding down the ESC key. If you are presented with a grub prompt, enter ‘c’ for command prompt.
 
-	a. Change into /etc directory and backup your fstab file.
+	a. Change into /etc directory and backup your fstab file:
+	
 	```
 	cd /etc/
 	cp fstab fstab_orig
 	```
+	
 	b. View and verify the contents of the fstab file `cat /etc/fstab`
+	
 	c. Run `blkid` and compare the names and UUIDs of the partitions on this VM with the entries in your fstab file
+	
 	d. Edit the fstab file to remove or comment out using a # any incorrect entries using your favorite text editor, for example:
 `nano /etc/fstab` or `vi /etc/fstab`
+	
 	e. Validate that updates and test the syntax before initiating a reboot `$ sudo mount -a`
+	
 	f. Reboot the VM and test SSH access
 
 3. In case serial console cannot be accessed, please follow the steps in the article [Azure Linux VM cannot start because of fstab errors](https://support.microsoft.com/help/3206699) to resolve the issue.
