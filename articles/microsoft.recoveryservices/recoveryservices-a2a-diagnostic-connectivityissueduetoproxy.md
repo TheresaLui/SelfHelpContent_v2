@@ -25,8 +25,8 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 
 1. Make sure that the proxy setting is set correctly in the virtual machine. The Mobility Service auto detect the proxy settings in the following places:
 
-    - For Windows: The **Proxy server** settings in Internet Explorer
-    - For Linux: /etc/environment
+	- For Windows: The **Proxy server** settings in Internet Explorer
+	- For Linux: /etc/environment
 
 2. If you prefer to set proxy only for the Mobility service, you can provide the proxy details in **ProxyInfo.conf** that is located in:
 
@@ -35,11 +35,11 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 
     The ProxyInfo.conf should have the proxy settings in the following INI format:
 
-	```	[proxy]
-		Address=<proxy server url>
-		Port=<port number>```
-
-
+	```
+	[proxy]
+	Address=<proxy server url>
+	Port=<port number>
+	```
 ## **Recommended Documents**
 
 * [Azure VM disaster Recovery connectivity requirements](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#outbound-connectivity-for-ip-address-ranges)
