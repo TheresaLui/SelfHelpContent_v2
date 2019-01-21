@@ -17,11 +17,11 @@
 
 ## **Recommended Steps**
 
-The [Application Insights API](https://dev.applicationinsights.io/) provides a REST interface to retrieve data from your Analytics source. This document will give steps to setup the feature and to troubleshoot our most common issues, such as authentication and query errors. Likely you can see the [response code error](https://dev.applicationinsights.io/documentation/Using-the-API/Errors) from your application or testing tool and can quickly resolve the issue on your own.<br>
+The [Application Insights API](https://dev.applicationinsights.io/) provides a REST interface to retrieve data from your Analytics source. This document will give steps to setup the feature and to troubleshoot our most common issues, such as authentication and query errors. Likely you can see the [response code error](https://dev.applicationinsights.io/documentation/Using-the-API/Errors) from your application or testing tool, and can quickly resolve the issue on your own.<br>
 
 **Key Authentication**<br>
 
-1. Check to make sure you've created a key using [this document](https://dev.applicationinsights.io/documentation/Authorization/API-key-and-App-ID)
+1. Check to make sure you've [created a key](https://dev.applicationinsights.io/documentation/Authorization/API-key-and-App-ID)
 2. Ensure the Key is not expired
 3. Review the [API Key documentation](https://dev.applicationinsights.io/documentation/Authorization/API-key-authentication) and validate the header is correct
 
