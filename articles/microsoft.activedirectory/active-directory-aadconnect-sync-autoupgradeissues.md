@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-If you see an error in the **Azure AD Connect** auto upgrade then please go through [troubleshoot auto upgrade issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-automatic-upgrade#troubleshooting) to investigate and resolve the issue.
+If you see an error during the **Azure AD Connect** auto upgrade, please go through the steps to [troubleshoot auto upgrade issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-automatic-upgrade#troubleshooting) to investigate and resolve the issue.
 
 ## **Recommended Documents**
 
