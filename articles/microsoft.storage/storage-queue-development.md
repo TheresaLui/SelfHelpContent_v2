@@ -18,7 +18,7 @@
 
 # Development with Azure Queue
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Get started with Azure Queue storage using .NET](https://docs.microsoft.com/azure/storage/queues/storage-dotnet-how-to-use-queues/)<br>
 * [Get Started with Azure Queue using Java](https://docs.microsoft.com/azure/storage/queues/storage-java-how-to-use-queue-storage/)<br>
