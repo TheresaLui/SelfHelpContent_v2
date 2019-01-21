@@ -4,8 +4,8 @@
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="subbu-kandhaswamy"
-	ms.author="subbuk"
+	authors="subbu-kandhaswamy, VMMicrosoft"
+	ms.author="subbuk, vimahadi"
 	displayOrder=""
 	articleId="PlanedFailoverLR_1FBC4A97-DC3A-4DF9-86C0-46B00AF0F733"
 	diagnosticScenario="crc_sqldb_connectivity"
@@ -29,6 +29,7 @@ In this instance, the longest part of the reconfiguration duration totaled <!--$
 In addition, building resiliency into your application to account for these situations can help create transparency to the end user when these transient scenarios occur. For information about connectivity in Azure SQL DB, how to implement retry logic, and to understand common errors in Azure SQL DB, please refer to this article on [database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors). Our product team is continually working to minimize these situations and their impact to your database availability.
 
 ## **Recommended Documents**
+
 * [Database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors)
 * [How to use batching to improve SQL Database application performance](https://docs.microsoft.com/azure/sql-database/sql-database-use-batching-to-improve-performance)
 * [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)

@@ -26,7 +26,7 @@
 		- [Back up Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
 		- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 		- [Enable backup during Azure virtual machine creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)<br>
-		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2)<br>
+		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability)<br>
 	- Manage and monitor VMs
 		- [Manage Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br>
 		- [Monitor alerts for Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms)<br>
