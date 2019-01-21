@@ -33,7 +33,7 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 	- For Windows: C:\ProgramData\Microsoft Azure Site Recovery\Config
     - For Linux: /usr/local/InMage/config/ 
 
-- The ProxyInfo.conf should have the proxy settings in the following INI format.
+    The ProxyInfo.conf should have the proxy settings in the following INI format.
 
 		[proxy]
 		Address=<proxy server url>
