@@ -19,7 +19,7 @@
 
 Most common issues seen are related to network configuration or proxy settings while installing **Azure AD Connect**. Please follow instructions below to investigate and resolve these issues:
 
-* [Connectivity issues with online Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity).
+* [Connectivity issues with online Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 
 ## **Recommended Documents**
 
