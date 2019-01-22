@@ -22,9 +22,9 @@
   3. If the endpoint returns HTTP Error 405, it means the bot is reachable and the bot is able to respond to messages. You should investigate whether your bot times out or [fails with an HTTP 5xx error](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-500-errors?view=azure-bot-service-4.0&tabs=dotnetwebapi).
   4. If the bot works as expected in Web Chat but fails in some other channel, possible reasons are:
 
-	* **Channel Configuration Issues**:Determine is channel configuration parameters have been set incorrectly or have changed externally. Try removing the channel and redoing the channel configuration with the right parameters.
-	* **Channel-Specific Behavior**: Determine if a feature you're using is supported by the channel. If you see differences in how some message types work in different channels, consult [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels) or the [Channel Inspector](https://docs.botframework.com/en-us/channel-inspector/channels/Skype).
-      * **Channel Outage**: Determine if the channel you're using is experiencing an outage. This can be done by consulting a channel web site (see below) or by building a test echo bot and connecting it to the channel.
+* **Channel Configuration Issues**:Determine is channel configuration parameters have been set incorrectly or have changed externally. Try removing the channel and redoing the channel configuration with the right parameters.
+* **Channel-Specific Behavior**: Determine if a feature you're using is supported by the channel. If you see differences in how some message types work in different channels, consult [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels) or the [Channel Inspector](https://docs.botframework.com/en-us/channel-inspector/channels/Skype).
+* **Channel Outage**: Determine if the channel you're using is experiencing an outage. This can be done by consulting a channel web site (see below) or by building a test echo bot and connecting it to the channel.
 
 ## **Recommended Documents**
 
