@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Transfer data with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10/)
+* [Transfer data with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10/)<br>
