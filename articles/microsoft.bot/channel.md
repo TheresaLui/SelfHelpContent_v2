@@ -28,10 +28,10 @@
 
 ## **Recommended Documents**
 
-* [Test Your Bot In Web Chat](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0#test-the-bot-1)<br>
-* [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels)<br>
-* [Implement channel-specific functionality](https://docs.microsoft.com/azure/bot-service/bot-builder-channeldata?view=azure-bot-service-4.0)<br>
-* Third Party Channel Availability:<br>
+* [Test Your Bot In Web Chat](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0#test-the-bot-1)
+* [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels)
+* [Implement channel-specific functionality](https://docs.microsoft.com/azure/bot-service/bot-builder-channeldata?view=azure-bot-service-4.0)
+* Third Party Channel Availability:
 
   * [Facebook Platform](https://developers.facebook.com/status/dashboard/)<br>
   * [Slack System Status](https://status.slack.com/)<br>
