@@ -4,6 +4,7 @@
 	service="microsoft.storage"
 	resource="adlsgen2"
 	authors="ramMSFT"
+	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32612613,32612614"
@@ -15,4 +16,4 @@
 # Migrate data to Azure Storage with Import/Export
 
 ## **Recommended documents**
-- [Choose Azure Solution for data transfer](https://docs.microsoft.com/en-us/azure/storage/common/storage-choose-data-transfer-solution)<br>
+- [Choose Azure Solution for data transfer](https://docs.microsoft.com/azure/storage/common/storage-choose-data-transfer-solution)<br>
