@@ -1,8 +1,8 @@
 <properties
 	pageTitle="My bot is slow"
 	description="My bot is slow"
-	service="microsoft.bot"
-	resource="botservice"
+	service="Microsoft.BotService"
+	resource="botServices"
 	authors="arturl,meetshamir"
 	ms.author="arturl,saziz"
 	displayOrder="5"
