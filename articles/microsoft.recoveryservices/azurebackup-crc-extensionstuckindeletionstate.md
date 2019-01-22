@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-	authorAlias="srinathv"
+	ms.author="srinathv"
 	articleId="azurebackup-crc-extensionstuckindeletionstate"
 	diagnosticScenario="azurebackup-crc-extensionstuckindeletionstate"
 	selfHelpType="diagnostics"
