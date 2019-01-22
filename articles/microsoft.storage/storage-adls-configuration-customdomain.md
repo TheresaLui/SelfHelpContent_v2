@@ -18,6 +18,6 @@
 
 # Azure Data Lake Gen2 custom domain names
 
-## **Recommended documents**
+## **Recommended Documents**
 
-*[ADLS Gen2 currently doesnt support custom domain names. See link for more details.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)<br>
+* [ADLS Gen2 does not currently support custom domain names](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)<br>
