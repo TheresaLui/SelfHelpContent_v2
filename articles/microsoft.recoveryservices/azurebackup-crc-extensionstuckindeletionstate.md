@@ -25,12 +25,14 @@ We have identified your backup operation failed due to inconsistent state of Bac
 
 To resolve this issue, follow these steps:
 
-* Ensure Guest Agent is installed and responsive.
-* From Azure portal go to **Virtual Machine** > **All Settings** > **Extensions**.
-* Select the backup extension VmSnapshot or VmSnapshotLinux and click **Uninstall**.
-* After deleting backup extension retry the backup operation.
-* The subsequent backup operation will install the new extension in the desired state.  
+* Ensure Guest Agent is installed and responsive
+* From Azure portal go to **Virtual Machine** > **All Settings** > **Extensions**
+* Select the backup extension VmSnapshot or VmSnapshotLinux and click **Uninstall**
+* After deleting backup extension retry the backup operation
+* The subsequent backup operation will install the new extension in the desired state
 
 
-## **Recommended Document**
-For installed and is responsive by following these steps for [Windows VM](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms) or [Linux VM](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms).
+## **Recommended Documents**
+
+* Troubleshoot backup issues in [Windows VM](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms)
+* Troubleshoot backup issues in [Linux VM](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms)
