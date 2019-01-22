@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I'm seeing HTTP 500 exceptions reported by my bot"
 	description="I'm seeing HTTP 500 exceptions reported by my bot"
-	service="microsoft.bot"
-	resource="botservice"
+	service="Microsoft.BotService"
+	resource="botServices"
 	authors="arturl,meetshamir"
 	ms.author="arturl,saziz"
 	displayOrder="2"
