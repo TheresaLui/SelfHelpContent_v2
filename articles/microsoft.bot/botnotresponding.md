@@ -1,8 +1,8 @@
 <properties
 	pageTitle="My bot is not responding or times out"
 	description="My bot is not responding or times out"
-	service="microsoft.bot"
-	resource="botservice"
+	service="Microsoft.BotService"
+	resource="botServices"
 	authors="arturl,meetshamir"
 	ms.author="arturl,saziz"
 	displayOrder="3"
