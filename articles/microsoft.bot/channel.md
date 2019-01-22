@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I have a problem with a channel"
 	description="I have a problem with a channel"
-	service="microsoft.bot"
-	resource="botservice"
+	service="Microsoft.BotService"
+	resource="botServices"
 	authors="arturl,meetshamir"
 	ms.author="arturl,saziz"
 	displayOrder="4"
