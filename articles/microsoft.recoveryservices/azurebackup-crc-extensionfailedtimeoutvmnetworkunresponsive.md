@@ -38,4 +38,4 @@ This will ensure the snapshots are taken through host instead of Guest. Retry th
 
 **Step 2**: Try changing the backup schedule to a time when VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** is under less load (less CPU/IOps etc.).
 
-**Step 3**: Try increasing the VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** size and retry the operation, to resize the virtual machine, refer this [article](https://azure.microsoft.com/en-us/blog/resize-virtual-machines/)
+**Step 3**: Try increasing the VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** size and retry the operation, to resize the virtual machine, refer this [article](https://azure.microsoft.com/blog/resize-virtual-machines/)
