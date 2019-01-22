@@ -20,4 +20,4 @@
 
 ## **Recommended documents**
 
-*[Azure Storage data transfer solutions](https://docs.microsoft.com/en-us/azure/storage/common/storage-choose-data-transfer-solution/)<br>
+*[Azure Storage data transfer solutions](https://docs.microsoft.com/azure/storage/common/storage-choose-data-transfer-solution/)<br>
