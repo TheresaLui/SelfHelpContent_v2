@@ -18,6 +18,6 @@
 
 # Azure Data Lake Gen2 rehydrating a blob
 
-## **Recommended documents**
+## **Recommended Documents**
 
-*[ADLS Gen2 currently doesnt support blob archiving. See link for more details.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)<br>
+* [ADLS Gen2 currently doesn't support blob archiving](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-known-issues#api-interoperability/)<br>
