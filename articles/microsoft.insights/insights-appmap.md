@@ -1,6 +1,6 @@
 <properties 
     pageTitle="How do I troubleshoot the Application Map?"
-    description="Explain how to configure the API"
+    description="Explain how to configure the Application Map"
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
