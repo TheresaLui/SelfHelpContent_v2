@@ -272,7 +272,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
 			"required": true,
-			"watermarkText": "A detailed scenario of the error condition, troubleshooting done so far, log files if any, timestamp, screenshots and any other relevant information.",
+			"watermarkText": "A detailed scenario of the error condition, troubleshooting done so far, log files if any, timestamp, screenshots, and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Expected behavior, actual behavior"
