@@ -26,7 +26,7 @@
 			"watermarkText": "Choose a runbook",
             "dynamicDropdownOptions": 
             {
-			    "uri": "/subscriptions/{subscriptionId}/resourceGroups/{rgName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/runbooks?api-version=2017-05-15-preview",
+			    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Automation/automationAccounts/{resourcename}/runbooks?api-version=2017-05-15-preview",
 			    "jTokenPath": "value",
 			    "textProperty": "name",
 			    "valueProperty": "id",
