@@ -15,5 +15,6 @@
 
 # Migrate data to Azure Storage with Import/Export
 
-## **Recommended documents**
-- [Choose Azure Solution for data transfer](https://docs.microsoft.com/azure/storage/common/storage-choose-data-transfer-solution)<br>
+## **Recommended Documents**
+
+* [Choose an Azure Solution for data transfer](https://docs.microsoft.com/azure/storage/common/storage-choose-data-transfer-solution)<br>
