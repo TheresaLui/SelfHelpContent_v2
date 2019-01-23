@@ -229,7 +229,7 @@
 			"required": false
 		}, {
 			"id": "sdk_Version",
-			"order": 15,            
+			"order": 15,
 			"controlType": "textbox",
             "displayLabel": "What is the Nuget package version of AI SDK?",
 			"watermarkText": "2.8.1, 2.6.1",
