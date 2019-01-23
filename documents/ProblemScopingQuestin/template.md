@@ -9,7 +9,6 @@
 	productPesIds=""
 	cloudEnvironments=""
 	schemaVersion="1"
-	articleId=""
 />
 # VM Performance
 ---
