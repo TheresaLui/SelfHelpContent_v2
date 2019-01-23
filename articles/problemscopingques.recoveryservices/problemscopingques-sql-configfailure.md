@@ -105,7 +105,7 @@
 						],
 						"required": true
 				},{
-					"id": "problem_start_date",
+					"id": "problem_start_time",
 					"order": 9,
 					"visibility": "null",
 					"controlType": "datetimepicker",
