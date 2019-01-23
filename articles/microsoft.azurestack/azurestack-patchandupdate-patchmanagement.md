@@ -15,8 +15,6 @@
 
 # Azure Stack Patch and Update Management
 
-## **Recommended Steps**
-
 ### **Important note about portal impact during 1811 update**
 
 The Azure Stack 1811 update contains a new [extension host](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. Prior to installing 1811 update, all instances of Azure Stack Administrator portals **must be closed** or the **install will fail**. 
