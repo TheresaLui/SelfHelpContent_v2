@@ -82,7 +82,7 @@
 							"controlType": "textbox",
 							"displayLabel": "Provide the error message that are you seeing:",
 							"watermarkText": "Copy and paste the error message details",
-							"required": true					
+							"required": true
 				},{
 							"id": "basic_troubleshooting_multiselect",
 							"order": 8,
@@ -110,8 +110,18 @@
 							"visibility": "null",
 							"controlType": "datetimepicker",
 							"displayLabel": "When did the problem begin?",
-							"required": false
-			},
+							"required": true
+			},{
+							"id": "problem_description",
+          						"order": 10,
+            						"controlType": "multilinetextbox",
+            						"useAsAdditionalDetails": true,
+            						"displayLabel": "Additional details",
+            						"watermarkText": "Provide additional information about your issue",
+            						"required": true,
+            						"hints": []
+			
+			}	
             ]
 }
 ---
