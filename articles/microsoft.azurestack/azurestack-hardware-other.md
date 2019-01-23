@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack hardware"
-    description=""
+    description="General hardware issues that do not fit storage or networking"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
