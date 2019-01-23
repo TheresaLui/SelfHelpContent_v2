@@ -240,7 +240,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
-			"required": false            
+			"required": false
 		}, {
 			"id": "appservice_id",
 			"order": 17,
