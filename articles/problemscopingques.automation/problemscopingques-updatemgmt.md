@@ -50,7 +50,7 @@
 			"id": "learn_more_text",
 			"order": 40,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management'>Learn more</a> about troubleshooting Update Management"
+			"content": "<a href='https://docs.microsoft.com/azure/automation/troubleshoot/update-management'>Learn more</a> about troubleshooting Update Management"
 		}
 	]
 }
