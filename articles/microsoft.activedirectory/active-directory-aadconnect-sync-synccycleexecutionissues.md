@@ -17,23 +17,23 @@
 
 ## **Recommended Steps**
 
-The synchronization cycle has three steps - import, export and synchronization. Import or export errors can frequently lead to synchronization errors.
+The synchronization cycle has three steps: import, export, and synchronization. Import or export errors can frequently lead to synchronization errors.
 
 **Synchronization Issues**
 
-* Use [troubleshooting script to troubleshoot object synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync).
+* Use a [troubleshooting script](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to troubleshoot object synchronization with Azure AD Connect sync]
 
 **Import Issues**
 
-There are multiple reasons an object is not importing:
+There are multiple reasons why an object is not importing:
 
 * AD connectivity issues: Please use [ADConnectivityTools](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools) to check connectivity issues with on premise AD. You can [learn more about ADConnectivityTool](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-adconnectivitytools).
 
-* Azure AD connectivity issues: Please follow instructions in [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity).
+* Azure AD connectivity issues: Please follow instructions in [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 
-* AD permissions issues: As a best practice to avoid any permission issues, let Azure AD Connect create accounts instead [providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions).
+* AD permissions issues: As a best practice to avoid any permission issues, let Azure AD Connect create accounts instead [providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 
-* Scoping issue: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object. 
+* Scoping issue: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object
 
 **Export Issues**
 
@@ -49,9 +49,10 @@ There are multiple reasons an object is not importing:
 
 **Other Issues**
 
-* For advanced troubleshooting go through [this detailed document to check how object flows in AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing).
+* For advanced troubleshooting, [review how objects flow in AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing)
 
 ## **Recommended Documents**
+
 * [Troubleshoot object synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync)
 * [Azure AD Connect: ADConnectivityTools PowerShell Reference](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
 * [What is the ADConnectivityTool PowerShell Module?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-adconnectivitytools)
