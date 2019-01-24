@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013"
+	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013,32599859,32599904,32599922,32628015"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -70,7 +70,7 @@
             "hints": 
             [
                 {
-					"text": "Issue description."
+					"text": "Include the exact text of any error messages that occured."
 				}
 			]
 		}, {
