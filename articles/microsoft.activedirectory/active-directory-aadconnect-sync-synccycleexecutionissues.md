@@ -28,24 +28,17 @@ The synchronization cycle has three steps: import, export, and synchronization. 
 There are multiple reasons why an object is not importing:
 
 * AD connectivity issues: Please use [ADConnectivityTools](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools) to check connectivity issues with on premise AD
-
 * Azure AD connectivity issues: Please follow instructions to [troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
-
 * AD permissions issues: As a best practice to avoid any permission issues, let Azure AD Connect [create accounts instead of providing custom accounts](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
-
 * Scoping issue: The object belongs to a [domain or OU which is filtered out](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering) or there is sync rule to filter out the object
 
 **Export Issues**
 
-* Data mismatch issue: [Could not find mapping object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-mismatch-errors).
-
-* Duplicate attributes: [Azure AD expects some of attributes to be unique for each object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#duplicate-attributes).
-
-* Data validation failures: [Azure Active Directory enforces various restrictions on the data](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-validation-failures).
-
-* Large object: [Azure Active Directory restrict size limit for some of the attributes](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#largeobject).
-
-* Existing admin role conflict: [Check details about this error here](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#existing-admin-role-conflict).
+* Data mismatch issue: [Could not find mapping object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-mismatch-errors)
+* Duplicate attributes: [Azure AD expects some attributes to be unique for each object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#duplicate-attributes)
+* Data validation failures: [Azure Active Directory enforces various restrictions on the data](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#data-validation-failures)
+* Large object: [Azure Active Directory restricts size limit for some attributes](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#largeobject)
+* [Existing admin role conflict](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors#existing-admin-role-conflict)
 
 **Other Issues**
 
