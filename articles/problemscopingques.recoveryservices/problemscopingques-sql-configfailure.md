@@ -10,7 +10,7 @@
          schemaVersion="1"
          articleId="fbf623da-eef7-4edc-b642-b63859051ee6"
 />
-# Questions SQL database backup failure
+# Questions SQL database configuration failure
 ---
 {
 		 "resourceRequired": true,
