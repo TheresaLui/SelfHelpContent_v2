@@ -30,11 +30,11 @@ Before investigating attribute syncing issues, let’s understand the **Azure AD C
 
 ### **Synchronization Steps**
 
-* Import from AD: Active Directory objects are brought into CS.
+* Import from AD: Active Directory objects are brought into AD CS.
 
-* Import from AAD: Azure Active Directory objects are brought into CS.
+* Import from AAD: Azure Active Directory objects are brought into AAD CS.
 
-* Synchronization: **Inbound Synchronization Rules** and **Outbound Synchronization Rules** are run in the order of precedence number from lower to higher. This will To view Synchronization Rules, you can go to **Synchronization Rules Editor** from the desktop applications. The **Inbound Synchronization Rules** brings in data from CS to MV. The **Outbound Synchronization Rules** moves data from MV to CS.
+* Synchronization: **Inbound Synchronization Rules** and **Outbound Synchronization Rules** are run in the order of precedence number from lower to higher. To view Synchronization Rules, you can go to **Synchronization Rules Editor** from the desktop applications. The **Inbound Synchronization Rules** brings in data from CS to MV. The **Outbound Synchronization Rules** moves data from MV to CS.
 
 * Export to AD: After running Synchronization, objects are exported from CS to **Active Directory**.
 
@@ -56,11 +56,11 @@ Before investigating attribute syncing issues, let’s understand the **Azure AD C
 
   ![Metaverse Object Connectors](./media/aadconnect-sync-attributenotsyncing/mvattributes.png)
 
-* Double click on the **Active Directory Connector** to view the **Conector Space** attributes. Click on the **Preview** button, on the following dialog click on the **Generate Preview** button.
+* Double click on the **Active Directory Connector** to view the **Connector Space** attributes. Click on the **Preview** button, on the following dialog click on the **Generate Preview** button.
 
   ![Connector Space Attributes](./media/aadconnect-sync-attributenotsyncing/csattributes.png)
 
-* Now click on the **Import Attribute Flow**, this shows flow of attributes from **Active Directory Connector Space** to the **Metaverse**. **Sync Rule** column shows which **Synchronization Rule** contributed to that attribute. **Data Source** column shows you the attributes from the **Connector Space**. **Metaverse Attribute** column shows you the attributes in the **Metaverse**. You can look for the attribute not syncing here. If you don't find the attribute here then this is not mapped and you have to create new custom **Synchronization Rule** to map the attribute.
+* Now click on the **Import Attribute Flow**, this shows flow of attributes from **Active Directory Connector Space** to the **Metaverse**. **Sync Rule** column shows which **Synchronization Rule** contributed to that attribute. **Data Source** column shows you the attributes from the **Connector Space**. **Metaverse Attribute** column shows you the attributes in the **Metaverse**. You can look for the attribute not syncing here. If you don't find the attribute here, then this is not mapped and you have to create new custom **Synchronization Rule** to map the attribute.
 
   ![Connector Space Attributes](./media/aadconnect-sync-attributenotsyncing/cstomvattributeflow.png)
 
@@ -68,7 +68,7 @@ Before investigating attribute syncing issues, let’s understand the **Azure AD C
 
   ![Connector Space Attributes](./media/aadconnect-sync-attributenotsyncing/mvtocsattributeflow.png)
 
-* Similarly you can view the **Azure Active Directory Connector Space** object and can generate the **Preview** to view attribute flow from **Metaverse** to the **Connector Space** and vice versa, this way you can investigate why an attribute is not syncing.
+* Similarly, you can view the **Azure Active Directory Connector Space** object and can generate the **Preview** to view attribute flow from **Metaverse** to the **Connector Space** and vice versa, this way you can investigate why an attribute is not syncing.
 
 ## **Recommended Documents**
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
