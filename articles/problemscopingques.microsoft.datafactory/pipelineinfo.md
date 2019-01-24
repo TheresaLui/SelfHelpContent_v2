@@ -70,6 +70,7 @@
                 {
                     "text": "More information on the issue, including the exact error message if available"
                 }
+            ]
         }
     ]
 }
