@@ -21,7 +21,7 @@ The synchronization cycle has three steps: import, export, and synchronization. 
 
 **Synchronization Issues**
 
-* Use a [troubleshooting script](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to troubleshoot object synchronization with Azure AD Connect sync]
+* Use a [troubleshooting script](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to troubleshoot object synchronization with Azure AD Connect sync
 
 **Import Issues**
 
