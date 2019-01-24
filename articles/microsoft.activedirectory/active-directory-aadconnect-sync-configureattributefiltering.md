@@ -15,13 +15,14 @@
 
 # Configure attribute filtering
 
-## **Recommended steps**
+## **Recommended Steps**
 
-We understand that you want to configure attribute filtering. To do this, you need to be an advanced user. We strongly advise you go through the **Recommended documents** below, before making any changes to the synchronization rules. Any wrong changes in filtering, or scoping, may result in the deletion of objects in your target directory.
+Configuring attribute filtering is an advanced feature. We strongly advise you review the **Recommended Documents** before making any changes to the synchronization rules. Any changes in filtering or scoping may result in the deletion of objects in your target directory.
 
 * After reviewing the recommended documents, follow the [instructions in this document to configure attribute filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#attribute-based-filtering).
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
 * [Azure AD Connect sync: Understanding the architecture](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-architecture)
 * [Azure AD Connect sync: Understanding Declarative Provisioning](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning)
