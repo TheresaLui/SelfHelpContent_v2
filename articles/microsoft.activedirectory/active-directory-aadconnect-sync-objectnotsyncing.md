@@ -41,7 +41,7 @@ Before investigating syncing issues, let’s understand the **Azure AD Connect** s
 
 * Import from AAD: Azure Active Directory objects are brought into AAD CS.
 
-* Synchronization: **Inbound Synchronization Rules** and **Outbound Synchronization Rules** are run in the order of precedence number from lower to higher. To view Synchronization Rules, you can go to **Synchronization Rules Editor** from the desktop applications. The **Inbound Synchronization Rules** brings in data from CS to MV. The **Outbound Synchronization Rules** moves data from MV to CS.
+* Synchronization: **Inbound Synchronization Rules** and **Outbound Synchronization Rules** are run in the order of precedence number from lower to higher. To view the Synchronization Rules, you can go to **Synchronization Rules Editor** from the desktop applications. The **Inbound Synchronization Rules** brings in data from CS to MV. The **Outbound Synchronization Rules** moves data from MV to CS.
 
 * Export to AD: After running Synchronization, objects are exported from CS to **Active Directory**.
 
@@ -67,11 +67,11 @@ Before investigating syncing issues, let’s understand the **Azure AD Connect** s
 
   ![Synchronization Service Manager menu items](./media/aadconnect-sync-objectnotsyncing/cssearch.png)
 
-* If you find the object in the **Connector Space** then there is an issue in the scoping filter in the **Synchronization Rules**. To check scoping filters, double click the object to see all its attributes.
+* If you find the object in the **Connector Space**, then there is an issue in the scoping filter in the **Synchronization Rules**. To check scoping filters, double click the object to see all its attributes.
 
   ![Synchronization Service Manager menu items](./media/aadconnect-sync-objectnotsyncing/csattributes.png)
 
-* Now to look at the scoping filter go to the desktop application menu and click on **Synchronization Rules Editor**, view each rule in the filtered list and check the **Scoping filter**. Please note that if the attributes meet the **Scoping filter** criteria then they are in scope otherwise they are out of scope. Out of scope objects will not make their way to the **Metaverse**. That apart the **Connector Space** attribute will show all the non null and non empty attributes. For example **isCriticalSystemObject** is not showing up in the list, this means that the value of this attribute is null or empty.
+* Now to look at the scoping filter go to the desktop application menu and click on **Synchronization Rules Editor**, view each rule in the filtered list and check the **Scoping filter**. Please note that if the attributes meet the **Scoping filter** criteria then they are in scope otherwise they are out of scope. Out of scope objects will not make their way to the **Metaverse**. That apart the **Connector Space** attribute will show all the non-null and non-empty attributes. For example, if **isCriticalSystemObject** is not showing up in the list, then this means that the value of this attribute is null or empty.
 
   ![Inbound Synchronization Rules Search](./media/aadconnect-sync-objectnotsyncing/syncrulessearch.png)
 
@@ -83,7 +83,7 @@ Before investigating syncing issues, let’s understand the **Azure AD Connect** s
 
   ![Metaverse Object Connectors](./media/aadconnect-sync-objectnotsyncing/mvattributes.png)
 
-* If the object is not present in the **Connector Space** of **Azure Active Directory** then you need to look at the Scoping filter in the **Outbound** rules of the corresponding **Connector Space** and check if the object is filtered out because of the **Metaverse** attributes not meeting the criteria.
+* If the object is not present in the **Connector Space** of **Azure Active Directory**, then you need to look at the Scoping filter in the **Outbound** rules of the corresponding **Connector Space** and check if the object is filtered out because of the **Metaverse** attributes not meeting the criteria.
 
   ![Outbound Synchroniztion Rules Search](./media/aadconnect-sync-objectnotsyncing/outboundfilter.png)
 
