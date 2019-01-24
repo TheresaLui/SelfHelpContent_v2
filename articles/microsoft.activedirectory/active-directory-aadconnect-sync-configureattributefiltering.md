@@ -19,7 +19,7 @@
 
 Configuring attribute filtering is an advanced feature. We strongly advise you review the **Recommended Documents** before making any changes to the synchronization rules. Any changes in filtering or scoping may result in the deletion of objects in your target directory.
 
-* After reviewing the recommended documents, follow the [instructions in this document to configure attribute filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#attribute-based-filtering).
+After reviewing the recommended documents, follow the [instructions in this document to configure attribute filtering](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#attribute-based-filtering).
 
 ## **Recommended Documents**
 
