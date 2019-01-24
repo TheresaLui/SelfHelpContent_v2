@@ -49,16 +49,27 @@
             "id": "sample_pipeline_run_ids",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Sample failed pipeline Run IDs (separate with commas)",
+            "displayLabel": "Sample problem pipeline RunIDs (separate with commas)",
+            "required": true
+        },
+        {
+            "id": "sample_activity_run_ids",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Sample problem activity RunIDs (separate with commas)",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details about the issue. ",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "More information on the issue, including the exact error message if available"
+                }
         }
     ]
 }
