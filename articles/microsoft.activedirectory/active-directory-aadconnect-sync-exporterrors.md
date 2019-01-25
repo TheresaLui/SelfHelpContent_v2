@@ -15,7 +15,7 @@
 
 # Sync errors: Export failed
 
-## Recommended Steps
+## **Recommended Steps**
 
 If you have encountered the synchronization errors in the export, then use the steps outlined in the document below.
 
