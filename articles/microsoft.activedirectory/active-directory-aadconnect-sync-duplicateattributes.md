@@ -15,7 +15,7 @@
 
 # Sync errors: Duplicate attributes
 
-## Recommended Steps
+## **Recommended Steps**
 
 If you have encountered the synchronization errors like **QuarantinedAttributeValueMustBeUnique** or **AttributeValueMustBeUnique**, then use the steps outlined in the document below.
 
