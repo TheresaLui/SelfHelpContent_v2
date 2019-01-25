@@ -100,7 +100,7 @@
 								"text": "Machine has Internet connectivity"
 							},{
 								"value": "SQL server VM has required permission for backup",
-								"text": "SQL server VM has required permission for backup"      
+								"text": "SQL server VM has required permission for backup"
 							}
 						],
 						"required": true
