@@ -28,7 +28,7 @@ If you're using a community-supported SDK, you will need to open an issue in Git
 * [StatsD](https://github.com/Microsoft/ApplicationInsights-statsd)
 * [WordPress](https://github.com/Microsoft/ApplicationInsights-WordPress)
 
-**Depreciated**<br>
+**Deprecated**<br>
 
 * [Android](https://github.com/Microsoft/ApplicationInsights-Android)
 * [iOS](https://github.com/Microsoft/ApplicationInsights-iOS)
