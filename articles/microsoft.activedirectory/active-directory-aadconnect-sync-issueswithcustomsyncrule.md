@@ -21,7 +21,7 @@ Please try to use the default rules created by the **Azure AD Connect** without 
 
 * Here are the [best practices to create custom synchronization rule](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-best-practices-changing-default-configuration).
 
-* After reviewing the recommended documents, follow the [instructions in this document to change default configuration](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-change-the-configuration).
+* After reviewing the recommended documents, follow the [instructions in this document to change default configuration](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-change-the-configuration).
 
 ## **Recommended documents**
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
