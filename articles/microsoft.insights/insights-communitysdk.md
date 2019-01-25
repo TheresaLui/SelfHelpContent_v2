@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="What are Community Supported SDKs?"
+    pageTitle="Community Supported SDKs"
     description="Explain the current community SDKs and where to get support"
     service="microsoft.insights"
     resource="components"
@@ -13,7 +13,7 @@
     supportTopicIds="32402637"
  />
  
-# What are Community-Supported SDKs?
+# Community-Supported SDKs
 
 ## **Recommended Steps**
 
