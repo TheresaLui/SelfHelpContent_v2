@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "Azure Data Factory Pipeline Info",
-    "fileAttachmentHint": "Please attach JSON code for the dataset, linked service, and output of activity run, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach JSON code for the dataset, linked service, and output of activity run to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -71,7 +71,7 @@
                     "text": "Exact error message if applicable"
                 },
                 {
-                    "text": "Whether the issue is intermittent or persistent"
+                    "text": "Is the issue is intermittent or persistent?"
                 }
             ]
         }
