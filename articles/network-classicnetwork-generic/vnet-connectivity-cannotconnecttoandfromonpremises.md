@@ -22,4 +22,5 @@
 [Troubleshoot your **Network Virtual Appliance (NVA)**](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
 [Troubleshoot site-to-site VPN connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-site-to-site-cannot-connect)<br>
 [Diagnose on-premises connectivity via VPN gateway](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
+[Solve **VNet Peering** issues - Answer 3 questions](https://internal.support.services.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues) <br>
 [IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)
