@@ -23,7 +23,7 @@
 ## **Recommended documents**
 [Troubleshoot Connectivity problems: Cannot connect to Internet](https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
 [Fix your Network Virtual Appliance (NVA)](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-[Solve VNet Peering issues - Answer 3 questions](https://internal.support.services.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+[Solve **VNet Peering** issues - Answer 3 questions](https://internal.support.services.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
 
 <!--- THE ARTICLES BELOW HAVE A HISTORY OF NO CLICK THROUGH RATE (1/25/19)
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>
