@@ -45,8 +45,8 @@
 					"order": 4,
 					"visibility": "null",
 					"controlType": "textbox",
-					"displayLabel": "Provide the name(s) of the databases whose configuration is failing?",
-					"watermarkText": "Enter database name(s) with comma separated",
+					"displayLabel": "Provide the name(s) of the databases whose configuration is failing",
+					"watermarkText": "Enter database name(s) separated by comma",
 					"required": true
 				},{
 					"id": "config_Type",
