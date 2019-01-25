@@ -35,7 +35,7 @@
             "id": "pipeline_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Name of the affected pipeline(s) (seperate with commas)",
+            "displayLabel": "Name of the problem pipeline(s) (seperate with commas)",
             "required": true
         },
         {
