@@ -48,14 +48,14 @@
         {
             "id": "sample_pipeline_run_ids",
             "order": 5,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Sample problem pipeline RunIDs (separate with commas)",
             "required": true
         },
         {
             "id": "sample_activity_run_ids",
             "order": 6,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Sample problem activity RunIDs (separate with commas)",
             "required": true
         },
@@ -67,9 +67,6 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
-                {
-                    "text": "Please provide additional details about the issue"
-                },
                 {
                     "text": "Exact error message if applicable"
                 },
