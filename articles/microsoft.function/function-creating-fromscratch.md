@@ -3,7 +3,8 @@
 	description="Creating functions from scratch"
 	service="microsoft.web"
 	resource="functions"
-	authors="shrahman"
+	authors="cts-shrahman,cts-shrahman"
+    ms.author="shrahman, finbarr"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518054"
@@ -19,8 +20,8 @@ Azure Functions allows you the flexibility to write your Function in several lan
 * F#
 * JavaScript
 
-The 2.x runtime supports the same languages as above and adds Java support.<br>
-The 2.x runtime is in preview status at the moment. <br>
+It also adds support for Java and Python: [learn more](https://azure.microsoft.com/blog/azure-functions-gets-better-for-python-and-javascript-developers/). <br> 
+
 The 1.x runtime also supports several experimental languages as follows. <br>
 * Python
 * PHP
@@ -43,3 +44,6 @@ For more on language support in Azure Functions, please visit this [link](https:
 * [Creating Function in the Azure Portal](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function)<br>
 * [Create your first function using the Azure CLI](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function-azure-cli)<br>
 * [Create your first function using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)<br>
+* [Create your first function with Java and Maven (Preview)](https://docs.microsoft.com/azure/azure-functions/functions-create-first-java-maven)<br>
+* [Create your first function with Java and Eclipse (Preview)](https://docs.microsoft.com/azure/azure-functions/functions-create-maven-eclipse)<br>
+* [Create your first Python function in Azure (preview)](https://docs.microsoft.com/azure/azure-functions/functions-create-first-function-python)

@@ -3,8 +3,8 @@
 	description="Availability/Function App restarted"
 	service="microsoft.web"
 	resource="functions"
-	authors="cts-shrahman,shrahman"
-    ms.author="shrahman, benperk"
+	authors="cts-shrahman,cts-shrahman"
+    ms.author="shrahman, onrazvan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630467"
@@ -29,6 +29,5 @@ Besides the manual restart you can perform from the Portal, your Function App ca
 	| where message == "Host configuration has changed. Signaling restart" or message contains "File change of type 'Changed' detected"
     | order by timestamp desc
 ```
-2. Any modifications done to Application Settings (adding variables or removing them) are tracked in the Activity Logs which can be found under Platform features – Resource management. 
-
-   In the Activity Logs, these modifications will be shown as ‘Update web sites config’ operations. If these types of operations are found in your logs, then at that timeframe your Function App was restarted for the new application settings values to be loaded
+2. Any modifications done to Application Settings (adding variables or removing them) are tracked in the Activity Logs which can be found under Platform features – Resource management. <br>
+In the Activity Logs, these modifications will be shown as ‘Update web sites config’ operations. If these types of operations are found in your logs, then at that timeframe your Function App was restarted for the new application settings values to be loaded

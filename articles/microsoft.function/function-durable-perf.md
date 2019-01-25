@@ -1,0 +1,21 @@
+<properties
+	pageTitle="Durable Functions/Performance"
+	description="Durable Functions/Performance"
+	service="microsoft.web"
+	resource="functions"
+	authors="cts-shrahman,cts-shrahman"
+    ms.author="shrahman, finbarr"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32630478"
+	resourceTags=""
+	productPesIds="16072"
+	cloudEnvironments="public"
+/>
+
+# Durable Functions/Performance
+
+## **Recommended documents**
+
+To optimize performance and scalability, it's important to understand the unique scaling characteristics of Durable Functions. The link below helps you on this: <br>
+[Performance and scale in Durable Functions (Azure Functions)](https://docs.microsoft.com/azure/azure-functions/durable/durable-functions-perf-and-scale).

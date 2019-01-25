@@ -3,7 +3,8 @@
 	description="Developing Functions"
 	service="microsoft.web"
 	resource="functions"
-	authors="shrahman"
+	authors="cts-shrahman,cts-shrahman"
+    ms.author="shrahman, finbarr"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518044"
@@ -19,8 +20,8 @@ Azure Functions allows you the flexibility to write your Function in several lan
 * F#
 * JavaScript
 
-The 2.x runtime supports the same languages as above and adds Java support.<br>
-The 2.x runtime is in preview status at the moment. <br>
+It also adds support for Java and Python: [learn more](https://azure.microsoft.com/blog/azure-functions-gets-better-for-python-and-javascript-developers/). <br> 
+
 The 1.x runtime also supports several experimental languages as follows. <br>
 * Python
 * PHP
@@ -36,7 +37,9 @@ If you’re using one of these experimental languages, then a support case shoul
 3)	Check if the issue was raised on [GitHub](https://github.com/Azure/azure-functions-host). 
 4)	If there isn’t any matching discussion then please open an issue on [GitHub](https://github.com/Azure/azure-functions-host). 
 
-For more on language support in Azure Functions, please visit this [link](https://docs.microsoft.com/azure/azure-functions/supported-languages) 
+For more on language support in Azure Functions, please visit this [link](https://docs.microsoft.com/azure/azure-functions/supported-languages). <br>
+
+The Azure Serverless Community Library has a lot of samples on common use cases for Azure Functions that are ready to deploy. https://serverlesslibrary.net/ 
 
 
 ## **Recommended documents**
