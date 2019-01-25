@@ -8,7 +8,7 @@
     supportTopicIds="32565594"
     selfHelpType="resource"
     resourceTags="directory_delete"
-    productPesIds="14785" 
+    productPesIds="14785,16578" 
     cloudEnvironments="public"
  />
 

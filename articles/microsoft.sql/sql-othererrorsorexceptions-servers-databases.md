@@ -14,5 +14,6 @@
 
 # query execution/other errors or exceptions
 
-## **Recommended documents**
-[Error messages for SQL Database client programs](https://azure.microsoft.com/documentation/articles/sql-database-develop-error-messages/)
+## **Recommended Documents**
+
+* [Error messages for SQL Database client programs](https://azure.microsoft.com/documentation/articles/sql-database-develop-error-messages/)

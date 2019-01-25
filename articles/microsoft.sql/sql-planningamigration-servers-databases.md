@@ -3,7 +3,8 @@
 	description="migrating to azure/planning a migration"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="emlisa"
+	ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980431"
@@ -14,5 +15,7 @@
 
 # migrating to azure/planning a migration
 
-## **Recommended documents**
-[Migrating a SQL Server database to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate/)
+## **Recommended Documents**
+
+* [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>
+* [Cloud migration guide](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate)

@@ -16,5 +16,7 @@
 
 ## **Recommended steps**
 
-- [How to **force delete the vault?**](https://docs.microsoft.com/azure/site-recovery/delete-vault#use-powershell-to-force-delete-the-vault) <br>
+- [I am unable to delete the recovery service vault](https://aka.ms/Delete_RecoveryService_Vault) </br>
+- [I want to forcefully delete the recovery service vault](https://aka.ms/ForceDelete_RecoveryService_Vault) </br>
 Note: Force delete will rapidly remove the vault and all its dependencies!<br>
+- Moving Recovery services vault to different subscription is not supported.

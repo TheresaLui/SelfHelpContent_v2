@@ -24,7 +24,7 @@ The following is a collection of solutions and explanations for why scaling may 
 
 2. Try to scale in smaller increments as the cluster where your application is deployed may not have enough free cores.<br>
 
-	Increase the subscription quota limit by [contacting Microsoft](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) as autoscale cannot succeed without sufficient compute quota.<br>
+	Increase the subscription quota limit by [contacting Microsoft](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade.assetId.$resourceId) as autoscale cannot succeed without sufficient compute quota.<br>
 
 3. Create a host service and redeploy to it with the maximum instances needed. Scale down afterwards if needed.
 

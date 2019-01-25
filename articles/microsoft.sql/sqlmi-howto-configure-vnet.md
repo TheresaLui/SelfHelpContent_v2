@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="keithelm"
+	ms.author="keithelm"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594699"
@@ -14,6 +15,8 @@
 
 # How-To Questions
 
-## **Recommended documents**
-[Configure a VNet for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
-[Connect your application to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connect-app/)
+## **Recommended Steps**
+
+* For an overview of SQL Managed Instance, refer to [What is a Managed Instance?](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance)
+* Understand connectivity architecture via [Azure SQL Database Managed Instance connectivity architecture](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture)<br>
+* For database migration check out [SQL Server instance migration to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)

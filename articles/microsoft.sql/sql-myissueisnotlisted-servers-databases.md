@@ -14,5 +14,6 @@
 
 # import/export service/my issue is not listed
 
-## **Recommended documents**
-[Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
+## **Recommended Documents**
+
+* [Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)

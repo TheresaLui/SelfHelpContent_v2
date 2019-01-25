@@ -14,8 +14,14 @@
 />
 
 # Unable to delete Storage Account
-## **Recommended steps**
-Follow steps below and retry Storage Account deletion:
 
-1. [Delete any OS disk(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk) in the Storage Account<br>
-2. [Detach any data disk(s)](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm) in the Storage Account<br> 
+## **Recommended steps**
+### Deleting storage resource with Resource Manager (ARM) deployment:
+
+- [Troubleshoot ARM storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors)
+
+### Deleting storage account with classic deployment:
+
+1. Go to [Azure Portal](https://portal.azure.com/) and select the Classic Storage Account you would like to delete.
+2. Select **_Delete_** and a list of disks and images that prevents deletion will appear.
+3. For each disk or image that prevents storage account deletion, delete the disk or image and retry deleting the storage account.

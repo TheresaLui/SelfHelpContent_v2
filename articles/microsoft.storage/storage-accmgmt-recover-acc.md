@@ -13,13 +13,13 @@
 	cloudEnvironments="public,MoonCake"
 />
 
-# Recover deleted Storage Account
+# Recover deleted storage account
 
 ## **Recommended steps**
-Storage Account recovery is only possible under the following conditions. Please check if:
+Storage account recovery is only possible if both the following conditions are true:
 
-1. Account was deleted in the last 14 days<br> 
-2. A new Account with the same name has not been created since<br> 
+1. Storage account was deleted in the last 14 days<br> 
+2. A new storage account with the same name has not been created since<br> 
 
 **Note:** Garbage collection could occur on our system at any time, so we cannot guarantee successful recovery.
 

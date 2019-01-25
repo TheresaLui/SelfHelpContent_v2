@@ -6,7 +6,7 @@
 	authors="ChiragPavecha"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32583169,32583163,32583165,32583161,32583168,32583170,32583160,32583166"
+	supportTopicIds="32583169,32583163,32583165,32583161,32583168,32583170,32583160,32583166,32583167"
 	resourceTags=""
 	productPesIds="16263"
 	cloudEnvironments="public,BlackForest,Fairfax"

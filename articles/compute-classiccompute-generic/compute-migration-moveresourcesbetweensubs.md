@@ -16,6 +16,9 @@
 
 ## **Recommended documents**
 
+* [Services that **can be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-can-be-moved)<br>
+* [Services that **cannot be moved** between subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources?#services-that-cannot-be-moved)<br>
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)<br>
 * [Move a **Windows** VM to another Azure subscription or resource group](https://docs.microsoft.com/azure/virtual-machines/windows/move-vm)<br>
-* [Frequently asked questions about Azure Storage migration](https://docs.microsoft.com/azure/storage/common/storage-migration-faq)
+* [Understanding quotas and service limits when moving resources between subscription](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
+* [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#frequently-asked-questions-faq)

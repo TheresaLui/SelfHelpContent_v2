@@ -6,25 +6,26 @@
 	authors="bharathsreenivas"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32597551,32597550,32597548,32597549"
+	supportTopicIds="32597551,32597548"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
 />
 
 # Performance tips for Azure Cosmos DB
 
-In order to achieve the best performance for Cosmos DB, there are a few aspects you can configure: 
+In order to achieve the best performance for applications using Azure Cosmos DB, ensure that you are following below tips:
 
-1. Use Direct Connection mode and TCP protocol whenever possible
-2. Call OpenAsync() to avoid startup latency on first request (for .NET clients)
-3. Collocate clients in same Azure region for performance
-4. Increase parallelism and connection count in the client
-5. Use singleton Azure Cosmos DB client for the lifetime of your application
-6. Excluse unused paths from indexing for faster writes
-7. Design for smaller documents for higher throughput
+1. For .NET clients use Direct/TCP connectivity mode and for Java clients use Direct/HTTPS connectivity mode for best performance.
+2. For .NET clients, call OpenAsync() to avoid increased latency for first few requests due to warm up time.
+3. Collocate clients in same Azure region for better performance.
+4. For high transaction workloads, increase the number of threads/connection pool size to maximize concurrency of requests.
+5. Use singleton client instance for the lifetime of your application.
+6. Review your indexing policy and explicitly include paths you need for queries (if possible).
+7. Larger documents consume higher RUs for reads and writes, so try to keep your documents small for best performance.
 
 ## **Recommended documents**
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
-* [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java) 
+* [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)
+* [Tuning Query performance](https://docs.microsoft.com/azure/cosmos-db/sql-api-sql-query-metrics)
