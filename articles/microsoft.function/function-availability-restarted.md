@@ -16,6 +16,7 @@
 #  Availability/Function App restarted
 
 ## **Recommended steps**
+
 Besides the manual restart you can perform from the Portal, your Function App can restart after performing the following actions:
 1. Modifying the host.json or function.json manually from Portal, Kudu, FTP or via App Service Editor will restart the Function App host in order for the new values to be loaded.<br>
 2. Adding/Removing Application Settings (environment variables) will restart the Function App since the main process (w3wp.exe) needs to be recycled for the new environment variables to be loaded so your functions can use them.
@@ -24,6 +25,7 @@ Besides the manual restart you can perform from the Portal, your Function App ca
 **How to further check what happened:** <br>
 
 1. If you have Application Insights, you can check if your Function App was restarted due to modifying files used by your functions using the following query:<br>
+
 ```
     traces
 	| where message == "Host configuration has changed. Signaling restart" or message contains "File change of type 'Changed' detected"
