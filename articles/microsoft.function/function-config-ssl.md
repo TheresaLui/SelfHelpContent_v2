@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Configuring Function Apps/SSL"
-	description="Configuring Function Apps/SSL"
+	pageTitle="Configuring Function Apps/ssl"
+	description="Configuring Function Apps/ssl"
 	service="microsoft.web"
 	resource="functions"
 	authors="cts-shrahman,cts-shrahman"
@@ -17,6 +17,6 @@
 
 ## **Recommended documents**
 
-[Create a serverless API using Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-create-serverless-api)<br>
-[Create an OpenAPI definition for a function](https://docs.microsoft.com/azure/azure-functions/functions-openapi-definition)
+* [Buy and configure an SSL certificate for Azure App Service](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site)
+* [Bind an existing custom SSL certificate to Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-ssl)
 
