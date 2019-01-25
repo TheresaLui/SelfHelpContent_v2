@@ -46,14 +46,14 @@
 					"visibility": "null",
 					"controlType": "textbox",
 					"displayLabel": "Provide the name(s) of the databases whose configuration is failing?",
-					"watermarkText": "Enter database name(s) comma separated",
+					"watermarkText": "Enter database name(s) with comma separated",
 					"required": true
 				},{
 					"id": "config_Type",
 					"order": 5,
 					"visibility": "null",
 					"controlType": "dropdown",
-					"displayLabel": "At what stage of setup are you experiencing this failure",
+					"displayLabel": "At what stage of setup are you experiencing this failure?",
 					"watermarkText": "Select",
 					"dropdownOptions": [{
 								"value": "Start Discovery",
@@ -70,9 +70,9 @@
 				},{
 					"id": "jobID_Name",
 					"order": 6,
-					"visibility": "backup_Type == Configure Backup",
+					"visibility": "config_Type == Configure Backup",
 					"controlType": "textbox",
-					"displayLabel": "Enter the failed configuration job Activity ID",
+					"displayLabel": "Enter the failed configuration job Activity ID:",
 					"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 					"required": false
 				},{
@@ -90,17 +90,17 @@
 					"controlType": "multiselectdropdown",
 					"displayLabel": "Select the troubleshooting steps you have performed:",
 					"dropdownOptions": [{
-								"value": "OS version is supported for backup",
-								"text": "OS version is supported for backup"
+								"value": "Checked OS version is supported for backup",
+								"text": "Checked OS version is supported for backup"
 							},{
-								"value": "SQL version and edition are supported for backup",
-								"text": "SQL version and edition are supported for backup"
+								"value": "Checked SQL version and edition are supported for backup",
+								"text": "Checked SQL version and edition are supported for backup"
 							},{
-								"value": "Machine has Internet connectivity",
-								"text": "Machine has Internet connectivity"
+								"value": "Checked the Machine has Internet connectivity",
+								"text": "Checked the Machine has Internet connectivity"
 							},{
-								"value": "SQL server VM has required permission for backup",
-								"text": "SQL server VM has required permission for backup"
+								"value": "Checked the SQL Server VM has required permission for backup",
+								"text": "Checked the SQL Server VM has required permission for backup"
 							}
 						],
 						"required": true
@@ -116,7 +116,7 @@
 					"order": 10,
 					"controlType": "multilinetextbox",
 					"useAsAdditionalDetails": true,
-					"displayLabel": "Additional details",
+					"displayLabel": "Additional details:",
 					"watermarkText": "Provide additional information about your issue",
 					"required": true,
 					"hints": []
