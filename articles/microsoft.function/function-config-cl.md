@@ -3,7 +3,8 @@
 	description="Configuring Function Apps/Configuring continuous integration (CI)"
 	service="microsoft.web"
 	resource="functions"
-	authors="shrahman"
+	authors="cts-shrahman,cts-shrahman"
+    ms.author="shrahman,benpark"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32518048"
@@ -16,5 +17,5 @@
 
 ## **Recommended documents**
 
-[Managing a Function App](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)<br>
+[Continuous deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)<br>
 
