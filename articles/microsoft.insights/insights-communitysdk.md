@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-If you're using a community-supported SDK, you will need to open an issue in GitHub to the respective project. If you're using a depreciated SDK, please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
+If you're using a community-supported SDK, you will need to open an issue in GitHub to the respective project. If you're using a deprecated SDK, please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
 
 **Community Supported**<br>
 
