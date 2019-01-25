@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "Azure Data Factory Pipeline Info",
-    "fileAttachmentHint": "Please attach JSON code for the pipeline, dataset, linked service, and output of activity run, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach JSON code for the dataset, linked service, and output of activity run, to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -28,7 +28,7 @@
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please enter the approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank.",
+			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
 			"required": false
 		},
         {
