@@ -25,4 +25,4 @@ Microsoft recommends to use default options and let **Azure AD Connect** create 
 
 ## **Recommended Documents**
 
-* [What is the ADConnectivityTool PowerShell Module?](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-adconnectivitytools)
+* [What is the ADConnectivityTool PowerShell Module?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-adconnectivitytools)
