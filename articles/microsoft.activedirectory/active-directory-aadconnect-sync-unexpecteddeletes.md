@@ -15,7 +15,7 @@
 
 # Unexpected object deletion
 
-## Recommended Steps
+## **Recommended Steps**
 
 You may have received an email notification or noticed an error in the **Synchronization Service Manager** UI stating that the number of object deletions has exceeded the configured deletion threshold in Azure AD. This is because of the **Azure AD Connect** feature to prevent any accidental deletions. Following changes can trigger mass deletion of objects, please look into which of them has caused deletion in your case:
 
