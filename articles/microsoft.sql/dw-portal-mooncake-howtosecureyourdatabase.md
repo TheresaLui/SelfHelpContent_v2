@@ -14,7 +14,8 @@
 
 # How to secure your database
 
-## **Recommended steps**
+## **Recommended Steps**
+
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
 
 1. If you're looking to change the administrator password for a logical SQL Server, you can simply click "Reset Password" at the top of the SQL Server resource blade.
@@ -25,5 +26,6 @@ The following details explain how to set up and update common access and permiss
 4. To learn how to Secure your SQL Data Warehouse<br>
 [Secure your SQL Data Warehouse](https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-overview-manage-security/)
 
-## **Recommended documents**
-[SQL Data Warehouse Security Overview](https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-overview-manage-security/)
+## **Recommended Documents**
+
+* [SQL Data Warehouse Security Overview](https://docs.azure.cn/sql-data-warehouse/sql-data-warehouse-overview-manage-security/)

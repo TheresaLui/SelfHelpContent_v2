@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="matt1883"
-    authoralias="mahi"
+    ms.author="mahi"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32511208"

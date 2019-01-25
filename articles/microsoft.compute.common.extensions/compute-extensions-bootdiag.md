@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628283"
@@ -19,6 +19,9 @@
 
 ## **Recommended Documents**
 
-* [Using Linux Diagnostic Extension to monitor metrics and logs](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-windows)<br>
-* [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)
-* [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)
+* [Using Windows Diagnostic Extension to monitor metrics and logs](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-windows)<br>
+* [How to view your data](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-windows#view-your-data)<br>
+* [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)<br>
+* [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
+* [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>
+* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)

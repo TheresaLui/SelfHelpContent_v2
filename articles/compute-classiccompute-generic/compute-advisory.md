@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411885"
@@ -14,6 +14,16 @@
 />
 
 # Advisory
+
+Examples of advisory services include, but are not limited to:<br>
+
+* Plan for deployments and migrations<br>
+* Plan for hybrid cloud solutions<br>
+* Understand how to maximize resources<br>
+* Improve reliability and recoverability<br>
+* Enhance security
+
+You **should not** choose Advisory when you have an immediate issue that requires troubleshooting support. Please select a different *problem type* from the drop down list on the previous screen for faster assistance resolving a problem.<br>
 
 ## **Recommended Documents**
 

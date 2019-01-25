@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sridhara"
-    authoralias="sridhara"
+    ms.author="sridhara"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_70001"
 	diagnosticScenario="EnterpriseApps"
