@@ -71,7 +71,7 @@
                     "text": "Exact error message if applicable"
                 },
                 {
-                    "text": "Is the issue is intermittent or persistent?"
+                    "text": "Is the issue intermittent or persistent?"
                 }
             ]
         }
