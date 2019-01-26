@@ -43,6 +43,6 @@ For an overview of the different accounts used by Azure AD Connect see this guid
 * [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 * [Azure AD Connect: Configure AD DS Connector Account Permissions](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
 * [Changing the Azure AD Connect sync service account password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-serviceacct-pass)
-* [Changing the AD DS account password](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-change-addsacct-pass)
+* [Changing the AD DS account password](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-change-addsacct-pass)
 * [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-azureadaccount)
 * [Troubleshoot SQL connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity)
