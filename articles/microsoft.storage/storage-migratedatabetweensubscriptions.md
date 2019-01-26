@@ -4,6 +4,7 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602699"
@@ -34,4 +35,8 @@ There are some important steps to perform before moving a resource. By verifying
 6. If you are moving resources deployed through classic model, you have reviewed [Classic deployment limitations](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/#classic-deployment-limitations).
 
 ## **Recommended documents**
-[Move Resources to New Resource Group or Subscription](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/)
+- [Move Resources to New Resource Group or Subscription](https://azure.microsoft.com/documentation/articles/resource-group-move-resources/)<br>
+- [Data transfer for large datasets with low or no network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-large-dataset-low-network)<br>
+- [Data transfer for small datasets with low to moderate network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-small-dataset-low-moderate-network)<br>
+- [Data transfer for large datasets with moderate to high network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-large-dataset-moderate-high-network)<br>
+- [Solutions for periodic data transfer](https://docs.microsoft.com/azure/storage/common/storage-solution-periodic-data-transfer)<br>
