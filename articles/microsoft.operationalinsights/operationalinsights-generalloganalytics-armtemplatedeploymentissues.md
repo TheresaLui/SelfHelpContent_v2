@@ -1,7 +1,7 @@
 
 <properties
-pageTitle="ARM template deployment issues"
-description="ARM template deployment issues"
+pageTitle="Workspace ARM template deployment issues"
+description="Workspace ARM template deployment issues"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
@@ -16,7 +16,7 @@ productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 />
 
-# ARM template deployment issues
+# Workspace ARM template deployment issues
 Workspace deployment at scale can be made easier with ARM template using PowerShell or CLI.
 
 ## **Recommended steps**<br>
@@ -34,10 +34,11 @@ If you are getting an error when updating a SavedSearch, add 'etag' in the body 
    "category": "Security"
 }
 ```
+
 ## **Recommended documents**<br>
 * Follow this sample to [create a workspace template](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
 * Deploy template using [Azure CLI](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-cli)
 * Deploy template using [PowerShell](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh)
-* [Configure your template](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/template-workspace-configuration#configure-a-log-analytics-workspace)
+* [Configure your template](https://docs.microsoft.com/azure/azure-monitor/platform/template-workspace-configuration#configure-a-log-analytics-workspace)
 * [Azure Monitor PowerShell quick start samples](https://docs.microsoft.com/azure/azure-monitor/platform/powershell-quickstart-samples)
 * [Understand the structure and syntax of Azure Resource Manager Templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-authoring-templates)<br>
