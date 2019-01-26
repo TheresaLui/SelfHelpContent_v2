@@ -53,6 +53,6 @@ For an overview of the different accounts used by Azure AD Connect see this guid
 * [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 * [Changing the Azure AD Connect sync service account password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-serviceacct-pass)
 * [ADSync service account](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions#adsync-service-account)
-* [SQL Server used by Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-conn[]ect-install-prerequisites#sql-server-used-by-azure-ad-connect)
-* [Troubleshoot SQL connectivity issues with Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity)
+* [SQL Server used by Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites#sql-server-used-by-azure-ad-connect)
+* [Troubleshoot SQL connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-tshoot-sql-connectivity)
 * [Azure AD Connect: How to recover from LocalDB 10-GB limit](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-recover-from-localdb-10gb-limit)
