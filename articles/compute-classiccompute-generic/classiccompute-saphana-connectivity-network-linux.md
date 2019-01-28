@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32549256"
 	resourceTags=""
-	productPesIds="15571,15797,16454,16470"
+	productPesIds="16208"
 	cloudEnvironments="public"
 />
 
@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [SAP HANA (large instances) overview and architecture on Azure](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-architecture)<br>
 * [SAP HANA (large instances) infrastructure and connectivity on Azure](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-infrastructure-connectivity)<br>
