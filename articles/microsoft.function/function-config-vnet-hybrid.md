@@ -15,10 +15,10 @@
 
 # Configuring and Managing Function Apps/VNET or Hybrid Connection
 
-## **Recommended documents**
+* VNET integration is supported when using the **premium plan**
+* Hybrid Connection is supported when using a **dedicated plan**
 
-VNET integration is supported when using the premium plan.<br>
-Hybrid Connection is supported when using a dedicated plan. <br>
+## **Recommended Documents**
 
 * [Azure Functions premium plan](https://github.com/Azure/Azure-Functions/blob/master/functions-premium-plan/overview.md)
 * [Add VNET integration](https://feedback.azure.com/forums/355860-azure-functions/suggestions/15616044-add-vnet-integration)
