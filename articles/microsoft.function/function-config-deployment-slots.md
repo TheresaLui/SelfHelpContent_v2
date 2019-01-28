@@ -23,7 +23,7 @@ Known Limitations so far:<br>
 
 1. [Consumption plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#consumption-plan) supports adding **one** deployment slot. If you require additional slots, please host function app on a [dedicated plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#consumption-plan). 
 2. Please manage slot in Function App blade instead of going to Function App -> All settings, since "Deployment Slots" and "Deployment Slots(Preview)" are greyed out there 
-3. The warning message that appears when you create a deployment slot in Azure Portal, "You can’t use the deployment slot after Jan 2019. You need to move “Deployment Slot(Preview) experience. Please click here and try new experience”, is for Azure App Service Deployment Slots. Customers are still able to use existing Function App slots experience even after Jan 2019.
+3. The warning message that appears when you create a deployment slot in Azure Portal, *"You can’t use the deployment slot after Jan 2019. You need to move “Deployment Slot(Preview) experience. Please click here and try new experience”*, is for Azure App Service Deployment Slots. Customers are still able to use existing Function App slots experience even after Jan 2019.
 
 ## **Recommended Documents**
 
