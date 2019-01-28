@@ -32,4 +32,4 @@
 - [Ensure your Windows VM agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) <br>
 - [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) <br>
 - [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) <br>
-- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) <br>
+- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup)
