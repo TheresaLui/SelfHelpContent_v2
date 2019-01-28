@@ -7,8 +7,8 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411885,32613319"
-	resourceTags="linux"
+	supportTopicIds="32411885"
+	resourceTags=""
 	productPesIds="15571,16454,16470"
 	cloudEnvironments="public"
 />

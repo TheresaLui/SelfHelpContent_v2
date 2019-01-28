@@ -4,17 +4,20 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32450212,32602162,32602156"
-	resourceTags="redhat,ubuntu"
+	supportTopicIds="32450212"
+	resourceTags=""
 	productPesIds="15797,16470,16454"
 	cloudEnvironments="public"
 />
 
 # Configuration and setup of VM Agent and Extensions
 
-## **Recommended documents:**
+compute-classiccompute-generic\compute-configuresetup-waagent.md:
+
+## **Recommended Documents:**
 
 * [**Known issue:** CustomScript extension reruns a command in Azure Linux](https://support.microsoft.com/help/4054277/)<br>
 * [Overview of virtual machine extensions and features for Linux](https://docs.microsoft.com/azure/virtual-machines/linux/extensions-features)<br>
