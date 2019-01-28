@@ -15,10 +15,10 @@
 
 # Deploying Function Apps/Deploy from GIT repo
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Deploy from local Git with Azure DevOps Services builds](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/app-service/deploy-local-git.md#deploy-from-local-git-with-azure-devops-services-builds)<br>
-[Local Git Deployment](https://docs.microsoft.com/azure/app-service/deploy-local-git#prepare-your-repository)<br>
-[Continuous Deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)
+* [Deploy from local Git with Azure DevOps Services builds](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/app-service/deploy-local-git.md#deploy-from-local-git-with-azure-devops-services-builds)<br>
+* [Local Git Deployment](https://docs.microsoft.com/azure/app-service/deploy-local-git#prepare-your-repository)<br>
+* [Continuous Deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)
 
 
