@@ -36,8 +36,8 @@ If you’re using one of these experimental languages, then a support case shoul
 
 1. Check if this issue was raised in the [forums](https://social.msdn.microsoft.com/Forums/azure/home?forum=azurefunctions)
 2. Check if the issue was raised on Stack Overflow
-3. Check if the issue was raised on [GitHub](https://github.com/Azure/azure-functions-host).
-4. If there isn’t any matching discussions, please open an issue on [GitHub](https://github.com/Azure/azure-functions-host). 
+3. Check if the issue was raised on [GitHub](https://github.com/Azure/azure-functions-host)
+4. If there isn’t any matching discussions, please open an issue on [GitHub](https://github.com/Azure/azure-functions-host)
 
 For more on language support in Azure Functions, please visit this [link](https://docs.microsoft.com/azure/azure-functions/supported-languages). 
 
