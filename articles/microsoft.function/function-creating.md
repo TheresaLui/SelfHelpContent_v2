@@ -17,9 +17,9 @@
 
 ## **Recommended Documents**
 
-Azure Function Apps uses the Azure App Service infrastructure. A function app is the container that hosts the execution of individual functions. You can create a function app in [Azure Portal](https://docs.microsoft.com/azure/azure-functions/functions-create-function-app-portal), or using script with [Azure CLI](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function-azure-cli#create-a-function-app), or an [Azure ARM template](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code).  You can also choose to create a function app when deploy a function project from Visual Studio or Visual Studio Code.<br> 
+Azure Function Apps uses the Azure App Service infrastructure. A function app is the container that hosts the execution of individual functions. You can create a function app in [Azure Portal](https://docs.microsoft.com/azure/azure-functions/functions-create-function-app-portal), using script with [Azure CLI](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function-azure-cli#create-a-function-app), or with an [Azure ARM template](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code).  You can also choose to create a function app when deploy a function project from Visual Studio or Visual Studio Code.<br> 
 
-If function app creation fails in Azure Portal, please reproduce the issue and capture F12 trace. For Azure CLI, please share the command that reported the error. For ARM deployment failure, you can find the error message in Azure portal -> Resource Group -> Deployments, please share the failed task Correlation ID, for further investigation.<br> 
+If function app creation fails in Azure Portal, please reproduce the issue and capture F12 trace. For Azure CLI, please share the command that reported the error. For ARM deployment failure, you can find the error message in Azure portal -> Resource Group -> Deployments. Please share the failed task Correlation ID for further investigation.<br> 
 
 Microsoft recommends the following:
 
