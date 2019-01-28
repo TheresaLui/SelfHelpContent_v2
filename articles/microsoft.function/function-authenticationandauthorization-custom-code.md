@@ -15,10 +15,10 @@
 
 # authentication and authorization/Authentication through custom code
 
-## **Recommended documents**
+## **Recommended Documents**
 
 1. [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
-2. [How to access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)<br>
+2. [Access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)<br>
 3. [Accessing Azure App Services using AAD bearer token](https://blogs.msdn.microsoft.com/jpsanders/2017/03/17/accessing-azure-app-services-using-azure-ad-bearer-token-2/)<br>
 4. [Azure App Service Authentication – App Roles](https://blogs.msdn.microsoft.com/waws/2017/03/09/azure-app-service-authentication-app-roles/)<br>
 5. [Configure a console application to a Web API protected by AAD](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/20/how-i-connected-a-console-application-to-a-web-api-protected-by-an-azure-active-directory/)<br>

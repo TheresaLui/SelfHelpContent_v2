@@ -15,7 +15,7 @@
 
 # Adding/Creating functions from source control
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [App Service Deployment Center](https://blogs.msdn.microsoft.com/appserviceteam/2018/06/04/app-service-deployment-center-preview/)
 * [Azure App Service Deployment Center now available](https://azure.microsoft.com/updates/azure-app-service-deployment-center-now-available/)

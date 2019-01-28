@@ -15,8 +15,8 @@
 
 #  Availability/Timer trigger function failed to trigger
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Investigating and reporting issues with timer triggered functions not firing](https://github.com/Azure/azure-functions-host/wiki/Investigating-and-reporting-issues-with-timer-triggered-functions-not-firing/)<br>
-[Timer Trigger Troubleshooting](https://github.com/Azure/azure-webjobs-sdk-extensions/wiki/TimerTrigger#troubleshooting)
+* [Investigating and reporting issues with timer triggered functions not firing](https://github.com/Azure/azure-functions-host/wiki/Investigating-and-reporting-issues-with-timer-triggered-functions-not-firing/)<br>
+* [Timer Trigger Troubleshooting](https://github.com/Azure/azure-webjobs-sdk-extensions/wiki/TimerTrigger#troubleshooting)
 

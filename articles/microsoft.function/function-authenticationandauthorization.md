@@ -15,10 +15,10 @@
 
 # authentication and authorization
 
-## **Recommended documents**
+## **Recommended Documents**
 
 1. [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
-2. [How to access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)<br>
+2. [Access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)<br>
 3. [Accessing Azure App Services using AAD bearer token](https://blogs.msdn.microsoft.com/jpsanders/2017/03/17/accessing-azure-app-services-using-azure-ad-bearer-token-2/)<br>
 4. [Azure Active Directory sample code](https://azure.microsoft.com/resources/samples/?sort=0&term=Azure+Active+Directory+Web+App)<br>
 5. [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)<br>
@@ -30,7 +30,7 @@
 11. [Authentication and authorization HTTP status codes, ex: 401.71, 401.83](https://github.com/cgillum/easyauth/wiki/HTTP-Status-Codes)<br>
 3. [Authentication and authorization error codes, ex: AADSTS####](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
 
-How to configure authentication with various Identify providers: <br>
+How to configure authentication with various identity providers: <br>
 
 * [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>
