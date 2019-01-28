@@ -30,6 +30,7 @@ If you plan to do this, please do so during an appropriate window as it will req
 5. Restart the App Service
 
 **To enable Application Insights**<br>
+
 1. Navigate to the App Service
 2. Select Application Insights in the Azure control panel for your app service
 3. Specify which resource to use
