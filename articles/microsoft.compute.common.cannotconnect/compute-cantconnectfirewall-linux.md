@@ -3,8 +3,8 @@
               description="Troubleshoot my VM firewall"
               service=""
               resource=""
-              authors="scottAzure"
-              ms.author="scotro"
+              authors="scottAzure,timbasham"
+              ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615534"
@@ -17,6 +17,10 @@
 
 4 out of 5 customers resolved their VM firewall issue using the steps below.<br>
 
+## **Recommended Steps**
+
+* Use the [Serial Console blade](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) to gain access to your VM and edit firewall rules
+
 ## **Recommended Documents**
 
 * [Troubleshooting connectivity problems between Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-connectivity-problem-between-vms)<br>
@@ -24,6 +28,7 @@
 
 **Additional Documents**<br>
 
+* [Learn more about Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)
 * [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 * [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)<br>

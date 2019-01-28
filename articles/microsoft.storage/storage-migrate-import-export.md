@@ -2,18 +2,20 @@
 	pageTitle="Migrate data to Azure Storage with Import/Export"
 	description="Migrate large amount of data to Azure Storage with Import/Export"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="adlsgen2"
 	authors="passaree"
+	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32603553,32603552"
+	supportTopicIds="32603553,32603552,32612603"
 	resourceTags=""
-	productPesIds="15629,16459"
+	productPesIds="15629,16459,16598"
 	cloudEnvironments="public,MoonCake"
 />
 
 # Migrate data to Azure Storage with Import/Export
 
-## **Recommended documents**
-- [How does Import/Export work?](https://docs.microsoft.com/azure/storage/common/storage-import-export-service#how-does-importexport-work)
-- [View the status of Azure Import/Export jobs](https://docs.microsoft.com/azure/storage/common/storage-import-export-view-drive-status)
+## **Recommended Documents**
+
+- [How does Import/Export work?](https://docs.microsoft.com/azure/storage/common/storage-import-export-service#how-does-importexport-work)<br>
+- [View the status of Azure Import/Export jobs](https://docs.microsoft.com/azure/storage/common/storage-import-export-view-drive-status)<br>

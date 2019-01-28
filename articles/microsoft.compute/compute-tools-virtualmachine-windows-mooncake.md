@@ -3,7 +3,8 @@
 	description="tools for microsoft.compute windows virtual machines"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="tabrezm"
+	authors="tabrezm,timbasham"
+	ms.author="tibasham"
 	displayOrder=""
 	selfHelpType="tools"
 	supportTopicIds=""
@@ -17,7 +18,7 @@
 [Reset password](data-blade:Microsoft_Azure_Compute.VirtualMachinePasswordReset.id.$resourceId)<br>
 Reset the password of the built-in administrator account<br>
 
-[View boot diagnostics](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId)<br>
+[View boot diagnostics](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId)<br>
 View a screenshot of this virtual machine to help diagnose startup issues<br>
 
 [Redeploy virtual machine](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId)<br>

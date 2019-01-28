@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="What are Community Supported SDKs?"
+    pageTitle="Community Supported SDKs"
     description="Explain the current community SDKs and where to get support"
     service="microsoft.insights"
     resource="components"
@@ -13,11 +13,11 @@
     supportTopicIds="32402637"
  />
  
-# What are Community-Supported SDKs?
+# Community-Supported SDKs
 
 ## **Recommended Steps**
 
-If you're using a community-supported SDK, you will need to open an issue in GitHub to the respective project. If you're using a depreciated SDK, please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
+If you're using a community-supported SDK, you will need to open an issue in GitHub to the respective project. If you're using a deprecated SDK, please visit the GitHub repository as it will have the most up to date information. Please see the links below for the GitHub repository.<br>
 
 **Community Supported**<br>
 
@@ -28,7 +28,7 @@ If you're using a community-supported SDK, you will need to open an issue in Git
 * [StatsD](https://github.com/Microsoft/ApplicationInsights-statsd)
 * [WordPress](https://github.com/Microsoft/ApplicationInsights-WordPress)
 
-**Depreciated**<br>
+**Deprecated**<br>
 
 * [Android](https://github.com/Microsoft/ApplicationInsights-Android)
 * [iOS](https://github.com/Microsoft/ApplicationInsights-iOS)
