@@ -15,16 +15,16 @@
 
 # Azure Stack alerts
 
-Azure Stack includes infrastructure monitoring capabilities that enable you to view health and alerts for an Azure Stack region. The **Region Management** tile, pinned by default in the administrator portal for the Default Provider Subscription, lists all the deployed regions of Azure Stack. The tile shows the number of active critical and warning alerts for each region, and is your entry point into the health and alert functionality of Azure Stack.<br>
+Azure Stack includes infrastructure monitoring capabilities that enable you to view health and alerts for an Azure Stack region. The **Region Management** tile, pinned by default in the administrator portal for the Default Provider Subscription, lists all the deployed regions of Azure Stack. The tile shows the number of active critical and warning alerts for each region and is your entry point into the health and alert functionality of Azure Stack.
 
 ## **Recommended steps**
 
-1. To view the health state in the portal, click the region that you want to view in the Region management tile. 
-2. You can view the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state).<br>
-3. To view the list of active alerts for each Azure Stack region is available directly from the Region management blade. For steps, see [View alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts).<br>
-4. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor).<br>
+1. To view the health state in the portal, click the region that you want to view in the Region management tile
+2. View the health state of infrastructure roles and of resource providers by following steps to [view and manage component health state](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-and-manage-component-health-state)
+3. [View active alerts](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health#view-alerts) for each Azure Stack region is available directly from the Region management blade
+4. You can also integrate an [external monitoring solutions with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)
 
 ## **Recommended documents**
 
-* [Monitor health and alerts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health)<br>
+* [Monitor health and alerts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-health)
 * [Integrate external monitoring solution with Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor)
