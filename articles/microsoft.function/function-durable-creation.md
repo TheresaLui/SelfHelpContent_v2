@@ -15,9 +15,9 @@
 
 # Durable Functions/Creation
 
-## **Recommended documents**
+Durable Functions is an extension of Azure Functions that allows you to write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you.<br>
 
- Durable Functions is an extension of Azure Functions that lets you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you.<br>
+## **Recommended Documents**
 
 * [Create your first durable function in C#](https://docs.microsoft.com/azure/azure-functions/durable/durable-functions-create-first-csharp)
 * [Create your first durable function in JavaScript](https://docs.microsoft.com/azure/azure-functions/durable/quickstart-js-vscode)
