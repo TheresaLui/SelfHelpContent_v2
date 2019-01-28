@@ -19,7 +19,7 @@
 
 Azure App Service provides a Deployment Slots feature, which allows users to validate app changes in a staging deployment slot before swapping it with the production slot and easily roll back. Azure Function Apps use the Azure App Service infrastructure, and provides the same feature. Deployment Slots is still in Preview and is on the way to general availability for Function Apps. <br>
 
-Known Limitations so far:<br>
+### **Known Limitations**<br>
 
 1. [Consumption plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#consumption-plan) supports adding **one** deployment slot. If you require additional slots, please host function app on a [dedicated plan](https://docs.microsoft.com/azure/azure-functions/functions-scale#consumption-plan). 
 2. Please manage slot in Function App blade instead of going to Function App -> All settings, since "Deployment Slots" and "Deployment Slots(Preview)" are greyed out there 
