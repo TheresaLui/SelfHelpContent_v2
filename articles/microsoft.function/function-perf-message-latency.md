@@ -15,7 +15,7 @@
 
 #  Performance/Message Functions processing latency
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Azure Function performance issues are commonly related to: <br>
 
@@ -32,9 +32,9 @@ We can follow the steps below to narrow down root cause:<br>
 * Check if the Azure Function slow response issue could be reproduced locally before publishing to Azure. If yes, add Time StopWatch function call to measure elapsed time in Azure Function. It can be used to keep track of average request time, to send messages to the user based on how long an action might take, or to benchmark your code. 
 * Check if any exception is being thrown while the slow response issue occurred. If yes, catch and handle them properly.
 * Access the downstream service interacting with Azure Function directly and see if its response time is abnormal.
-* Enable Application Insight to trace the callstack while the slow response issue occurrs.
+* Enable Application Insight to trace the callstack while the slow response issue occurrs
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [What Happens when I Write a Function](https://blogs.msdn.microsoft.com/appserviceteam/2018/02/07/understanding-serverless-cold-start/)<br>
 * [Azure Function Apps: Performance Considerations](https://blogs.msdn.microsoft.com/amitagarwal/2018/04/03/azure-function-apps-performance-considerations/)
