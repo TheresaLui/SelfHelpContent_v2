@@ -23,7 +23,7 @@
 - Configure [Backup report](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports) or [Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
 - [Support matrix](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for Azure IAAS VM backup<br>
 - How to: 
-	* [Backup VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-recovery-services-vault-for-a-vm
+	* [Backup VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-recovery-services-vault-for-a-vm)
 	* [Restore VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)
 	* [Restore files from VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup)
 	* [Restore VM to alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-backed-up-disks)
