@@ -23,10 +23,11 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that your restore failed because you are performing [**Replace existing**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks) operation for an [unsupported scenario](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-options)
 
-To resolve this issue, use [**Create New**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-new-restore-disks) option instead of **Replace existing** option.
+We have identified that your restore failed because you are performing a [**Replace existing**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks) operation for an [unsupported scenario](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-options).
 
+To resolve this issue, use the [**Create New**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-new-restore-disks) option instead of **Replace existing**.
 
 ## **Recommended Document**
-For more information on how to chose the correct restore operation see this [article](https://azure.microsoft.com/blog/an-easy-way-to-bring-back-your-azure-vm-with-in-place-restore/).
+
+* [Choose the correct restore operation](https://azure.microsoft.com/blog/an-easy-way-to-bring-back-your-azure-vm-with-in-place-restore/)
