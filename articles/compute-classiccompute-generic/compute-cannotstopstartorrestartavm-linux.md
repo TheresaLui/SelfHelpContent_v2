@@ -4,17 +4,20 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411817"
-	resourceTags="linux, redhat"
-	productPesIds="15571,15797,16454"
+	resourceTags=""
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
 />
 
 # management/cannot stop, start, or restart a vm
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Troubleshoot deploying Linux virtual machine issues in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/restart-resize-error-troubleshooting)<br>
 * [Issue: Error when starting a stopped VM](https://docs.microsoft.com/azure/virtual-machines/linux/restart-resize-error-troubleshooting#issue-error-when-starting-a-stopped-vm)<br>

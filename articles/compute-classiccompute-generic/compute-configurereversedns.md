@@ -4,17 +4,20 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="radwiv,scottAzure"
+	ms.author="radwiv,scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32568520"
- 	resourceTags="Windows,Linux,Redhat"
-	productPesIds="14749,15571,15797"
+ 	resourceTags=""
+	productPesIds="14749,15571,15797,16470"
 	cloudEnvironments="public"
 />
 
 # configuration and setup/configure reverse DNS
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Reverse DNS overview](https://docs.microsoft.com/azure/dns/dns-reverse-dns-overview)<br>
 * [Azure Support for Reverse DNS](https://docs.microsoft.com/azure/dns/dns-reverse-dns-overview#azure-support-for-reverse-dns)<br>

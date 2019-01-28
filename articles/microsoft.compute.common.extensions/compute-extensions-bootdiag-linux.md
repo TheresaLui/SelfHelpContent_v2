@@ -9,14 +9,13 @@
 	selfHelpType="generic"
 	supportTopicIds="32628283"
 	resourceTags=""
-	productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
 />
 
 # VM Diagnostic (boot diagnostics) extension issue
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
-
 
 ## **Recommended Documents**
 

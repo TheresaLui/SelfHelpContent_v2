@@ -4,11 +4,12 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591320, 32589415"
-	resourceTags="linux, redhat"
-	productPesIds="15571, 15797, 16454"
+	resourceTags=""
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
 />
 

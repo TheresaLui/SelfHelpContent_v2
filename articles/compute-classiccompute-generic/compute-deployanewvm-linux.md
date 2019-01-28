@@ -4,17 +4,20 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411844"
-	resourceTags="linux, redhat"
-	productPesIds="15571, 15797, 16454"
+	resourceTags=""
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
 />
 
 # configuration and setup/deploy a new vm
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Enhance your support ticket creation experience by deploying the VM with boot diagnostics turned on](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 * [Review instructions on how to upload a VHD from on-premise to Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-upload-vhd?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)<br>

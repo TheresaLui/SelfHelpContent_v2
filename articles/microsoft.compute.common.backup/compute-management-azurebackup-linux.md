@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32565495"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
 />
 # Azure Backup - Management

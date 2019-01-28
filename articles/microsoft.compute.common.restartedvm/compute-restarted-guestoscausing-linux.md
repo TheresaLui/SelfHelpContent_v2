@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32628269"
 	resourceTags=""
-	productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
 />
 
@@ -17,7 +17,7 @@
 
 4 out of 5 customers resolved their VM restart issue using the below steps.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>

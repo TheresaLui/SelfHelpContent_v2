@@ -4,15 +4,18 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549256"
-	resourceTags="linux,redhat"
-	productPesIds="15571,15797,16454"
+	resourceTags=""
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
 />
 
 # Connectivity/Network issues that are related to SAP HANA large instances
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended documents**
 

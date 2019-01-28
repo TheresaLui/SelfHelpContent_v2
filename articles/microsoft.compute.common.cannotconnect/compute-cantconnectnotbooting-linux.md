@@ -3,13 +3,13 @@
               description="My VM is not booting"
               service=""
               resource=""
-              authors="tiag"
+              authors="ScottAzure"
               ms.author="scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615532,32628284"
               resourceTags=""
-              productPesIds="15571,15797,16454"
+              productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public"
 />
 

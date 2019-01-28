@@ -4,17 +4,20 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411855"
-	resourceTags="Linux"
-	productPesIds="15571"
+	resourceTags=""
+	productPesIds="15571,16470"
 	cloudEnvironments="public"
 />
 
 # Configuration and Setup/Configure SQL Server on an IaaS VM
 
-## **Recommended documents**
+4 out of 5 customers resolved their SQL Server issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
 * [SQL Server on Linux](https://docs.microsoft.com/sql/linux/sql-server-linux-overview?view=sql-server-2017)<br>
