@@ -15,14 +15,14 @@
 
 #  Performance/HTTP Functions Scaling
 
-## **Recommended steps**
+## **Recommended Steps**
 
-There are a few configuration knobs you can use to control throughput and concurrency for your http functions. These settings need to go inside an "http" section and they are: <br>
+There are a few configuration knobs you can use to control throughput and concurrency for your http functions. These settings need to go inside an "http" section: <br>
+
 * maxOutstandingRequests 
 * maxConcurrentRequests
 * dynamicThrottlesEnabled
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [HTTP Function Throttling](https://github.com/Azure/azure-functions-host/wiki/Http-Functions#throttling)<br>
