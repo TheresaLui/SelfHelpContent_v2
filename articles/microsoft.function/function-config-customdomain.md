@@ -15,10 +15,10 @@
 
 # Configuring Function Apps/Custom Domain
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Buy a custom domain name for Azure App Service](https://docs.microsoft.com/azure/app-service/manage-custom-dns-buy-domain)
-* [FAQ : App Service Domain and Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/)
+* [FAQ: App Service Domain and Custom Domains](https://blogs.msdn.microsoft.com/appserviceteam/2017/08/08/faq-app-service-domain-preview-and-custom-domains/)
 * [Map an existing custom domain name to Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain)
 * [Migrate an active domain name to Azure App Service](https://docs.microsoft.com/azure/app-service/manage-custom-dns-migrate-domain)
 * [Configure a custom domain name to Azure App Service using Traffic Manager](https://docs.microsoft.com/azure/app-service/web-sites-traffic-manager-custom-domain-name)
