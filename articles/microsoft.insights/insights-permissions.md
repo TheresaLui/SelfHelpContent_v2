@@ -30,9 +30,9 @@ To control Application Insights resources and linked-resources such as **Web Tes
 
 **I need to do something custom**<br>
 
-Application Insights has a number of built in roles to satisfy the most common scenarios. If you find that you need to do something custom you must create a [custom RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) role. Creation of this role is not supported by the Application Insights support team. Please work with the Azure Active Directory team to create this role.
+Application Insights has a number of built in roles to satisfy the most common scenarios. If you find that you need to do something custom you must create a [custom RBAC](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) role. Creation of this role is not supported by the Application Insights support team. Please work with the Azure Active Directory team to create this role.
 
 ## **Recommended Documents**
 
-* [Roles Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control)
-* [Built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#monitoring-reader)
+* [Roles Overview](https://docs.microsoft.com/azure/azure-monitor/app/resources-roles-access-control)
+* [Built-in roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader)
