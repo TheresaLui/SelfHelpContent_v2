@@ -15,7 +15,7 @@
 
 # Configuring and Managing Function Apps/Configuring continuous integration (CI)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Continuous deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)
 
