@@ -15,7 +15,7 @@
 
 # Deploying Function Apps/ARM Templates
 
-Azure Functions supports automated deployments from ARM templates. The overall layout is similar to deploying an Azure Web app. The main difference is the app settings, specifically AzureWebJobsStorage and AzureWebJobsDashboard, must be in the site configuration property of the function app resource. The documentation below goes into more detail. <br>
+Azure Functions supports automated deployments from ARM templates. The overall layout is similar to deploying an Azure Web app. The main difference is that app settings, specifically AzureWebJobsStorage and AzureWebJobsDashboard, must be in the site configuration property of the function app resource. For example:
 
 ```
 "properties": {
@@ -34,12 +34,9 @@ Azure Functions supports automated deployments from ARM templates. The overall l
 }
 ```
 
+## **Recommended Documents**
 
-
-
-## **Recommended documents**
-
-[Using ARM with Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code)<br>
+* [Using ARM with Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code)<br>
 
 
 
