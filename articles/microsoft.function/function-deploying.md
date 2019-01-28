@@ -15,12 +15,12 @@
 
 # Deploying Function Apps
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Continuous Deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)<br>
-[Automate Resource Deployment for your function app in Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code)<br>
-[Deploying Azure Functions using Visual Studio Team Services (DevOps)](https://docs.microsoft.com/labs/devops/deployazurefunctionswithvsts/)<br>
-[Zip deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/deployment-zip-push)<br>
-[Publish using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio)<br>
-[Run From Package: deploy your Azure Web Apps and Function Apps](https://github.com/Azure/app-service-announcements/issues/84)<br>
+* [Continuous Deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment)<br>
+* [Automate Resource Deployment for your function app in Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-infrastructure-as-code)<br>
+* [Deploying Azure Functions using Visual Studio Team Services (DevOps)](https://docs.microsoft.com/labs/devops/deployazurefunctionswithvsts/)<br>
+* [Zip deployment for Azure Functions](https://docs.microsoft.com/azure/azure-functions/deployment-zip-push)<br>
+* [Publish using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio)<br>
+* [Run From Package: deploy your Azure Web Apps and Function Apps](https://github.com/Azure/app-service-announcements/issues/84)<br>
 
