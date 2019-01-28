@@ -15,7 +15,8 @@
 
 # Backup of Windows Azure virtual machine fails
 
-## **Recommended steps**
+## **Recommended Steps**
+
 - [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#UserErrorGuestAgentStatusUnavailable-vm-agent-unable-to-communicate-with-azure-backup) <br>
 - [UserErrorStandardSSDNotSupported - Currently Azure Backup does not support Standard SSD disks](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorstandardssdnotsupported---currently-azure-backup-does-not-support-standard-ssd-disks) <br>
 - [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorbackupoperationinprogress---unable-to-initiate-backup-as-another-backup-operation-is-currently-in-progress) <br>
@@ -27,8 +28,8 @@
 - [ExtentionOperationFailed - VMSnapshot extension operation failed](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#ExtentionOperationFailed-vmsnapshot-extension-operation-failed) <br>
 - [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#backupoperationfailed--backupoperationfailedv2---backup-fails-with-an-internal-error) <br>
 
+## **Recommended Documents**
 
-## **Recommended documents**
 - [Ensure your Windows VM agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) <br>
 - [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) <br>
 - [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) <br>
