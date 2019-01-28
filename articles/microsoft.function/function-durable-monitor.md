@@ -15,10 +15,9 @@
 
 # Durable Functions/Monitoring
 
-## **Recommended documents**
+## **Recommended Documents**
 
 There are several options for diagnosing issues with Durable Functions. Some of these options are the same for regular functions and some of them are unique to Durable Functions.
-These links has more: <br>
 
 * [Diagnostics in Durable Functions in Azure](https://docs.microsoft.com/azure/azure-functions/durable/durable-functions-diagnostics)
 * [Custom Orchestration Status](https://docs.microsoft.com/azure/azure-functions/durable/durable-functions-custom-orchestration-status)
