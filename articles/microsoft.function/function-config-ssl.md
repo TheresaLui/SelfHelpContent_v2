@@ -15,7 +15,7 @@
 
 # Configuring Function Apps/SSL
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Buy and configure an SSL certificate for Azure App Service](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site)
 * [Bind an existing custom SSL certificate to Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-ssl)
