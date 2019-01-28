@@ -24,18 +24,20 @@
 
 We have detected that your backup operation on **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** failed due to delay in network calls while performing the snapshot operation.
 
-To resolve this issue perform Step 1. If the issue persist try Step 2 or Step 3
+To resolve this issue, perform Step 1. If the issue persists, try steps 2 and 3.
 
-**Step 1**: Create snapshot through Host
+1. Create snapshot through Host
 
-From an elevated (as admin) command-prompt, run the below command.
+From an elevated (admin) command-prompt, run the below command:
 
-`REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotMethod /t REG_SZ /d firstHostThenGuest /f  `
-
-`REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v CalculateSnapshotTimeFromHost /t REG_SZ /d True /f  `
+```
+REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotMethod /t REG_SZ /d firstHostThenGuest /f
+REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v CalculateSnapshotTimeFromHost /t REG_SZ /d True /f
+```
 
 This will ensure the snapshots are taken through host instead of Guest. Retry the backup operation.
 
-**Step 2**: Try changing the backup schedule to a time when VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** is under less load (less CPU/IOps etc.).
+2. Try changing the backup schedule to a time when VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** is under less load (less CPU/IOps etc.)
 
-**Step 3**: Try increasing the VM **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** size and retry the operation, to resize the virtual machine, refer this [article](https://azure.microsoft.com/blog/resize-virtual-machines/)
+3. Try [increasing the size of VM](https://azure.microsoft.com/blog/resize-virtual-machines/)
+ **<!--$DatasouceName--> DatasouceName<!--/$DatasouceName-->** and retry the operation
