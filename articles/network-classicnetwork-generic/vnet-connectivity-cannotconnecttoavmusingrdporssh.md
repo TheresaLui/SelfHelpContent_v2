@@ -28,4 +28,4 @@ Follow below steps to resolve common networking related RDP or SSH issues:<br>
 
 * [Common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
 * [Common SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/linux/troubleshoot-ssh-connection) <br>
-* [Solve **VNet Peering** issues - Answer 3 questions](https://internal.support.services.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+* [Solve **VNet Peering** issues - Answer 3 questions](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
