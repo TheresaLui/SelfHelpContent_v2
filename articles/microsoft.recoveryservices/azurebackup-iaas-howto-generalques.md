@@ -20,9 +20,9 @@
 - [How to delete recovery service vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
 - [How to delete backed up data?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)<br>
 - [How to stop protecting virtual machines?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-virtual-machines)<br>
-- [How to Configure [Backup report?](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports), [Alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
+- How to Configure [Backup report?](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports), [Alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
 - [Support matrix](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) for Azure IAAS VM backup<br>
 - How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-recovery-services-vault-for-a-vm), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-backed-up-disks), [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-vm-backup-time) [Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time)<br>
 - How to stop/cancel backup job using [PowerShell?](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-5.1.1)<br>
-[Check our Frequently Asked questions](https://docs.microsoft.com//azure/backup/backup-azure-vm-backup-faq)
+- [Check our Frequently Asked questions](https://docs.microsoft.com//azure/backup/backup-azure-vm-backup-faq)
