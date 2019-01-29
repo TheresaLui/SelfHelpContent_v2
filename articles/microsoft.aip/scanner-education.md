@@ -3,7 +3,9 @@
 	description="Azure Information Protection - Education"
 	service="microsoft.aip"
 	resource="aip"
-	authors="orbarak"
+	authors="orbarak-ms"
+	ms.author="orbarak"
+	articleId="Scanner_Education"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629557"
@@ -17,6 +19,6 @@
 ## **Recommended documents**
 
 [Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
-[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner)<br>
+[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Download Azure Information Protection client](http://aka.ms/aipclient)<br>

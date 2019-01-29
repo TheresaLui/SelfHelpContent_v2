@@ -3,7 +3,9 @@
 	description="Azure Information Protection - Labels are not being applied as expected"
 	service="microsoft.aip"
 	resource="aip"
-	authors="orbarak"
+	authors="orbarak-ms"
+	ms.author="orbarak"
+	articleId="Scanner_Labels_are_not_being_applied_as_expected"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629560"
@@ -16,7 +18,7 @@
 
 ## Recommended troubleshooting steps
 
-1. Make sure your policies are set to automatic labeling or have a default label in the policy [Configuring the Azure Information Protection policy] (https://docs.microsoft.com/en-us/azure/information-protection/configure-policy)
+1. Make sure your policies are set to automatic labeling or have a default label in the policy [Configuring the Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/configure-policy)
 2. Open the relevant document in Office and verify if the intended label is being applied
 
 If you still experience the issue, collect Azure Information Protection scanner logs and attach the exported logs to this ticket.
@@ -30,6 +32,6 @@ If you still experience the issue, collect Azure Information Protection scanner 
 ## **Recommended documents**
 
 [Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
-[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner)<br>
+[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
 [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Download Azure Information Protection client](http://aka.ms/aipclient)<br>
