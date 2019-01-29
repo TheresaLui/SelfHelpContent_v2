@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="How to configure a custom domain name"
 	description="How to configure a custom domain name"
 	service="microsoft.storage"
