@@ -19,7 +19,7 @@ cloudEnvironments="Public, Fairfax"
 # Workspace ARM template deployment issues
 Workspace deployment at scale can be made easier with ARM template using PowerShell or CLI.
 
-## **Recommended steps**<br>
+## **Recommended steps**
 * Follow this sample to [create a workspace ARM template](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
 * Deploy template using [Azure CLI](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-cli)
 * Deploy template using [PowerShell](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh)
@@ -27,7 +27,8 @@ Workspace deployment at scale can be made easier with ARM template using PowerSh
 
 If you are getting an error when updating a SavedSearch, add 'etag' in the body of the API, or the Azure Resource Manager template properties like this example:<br>
 
-```"properties": {
+```
+"properties": {
 "etag": "*",
    "query": "SecurityEvent | where TimeGenerated > ago(1h) | where EventID == 4625 | count",
    "displayName": "An account failed to log on",
@@ -35,7 +36,7 @@ If you are getting an error when updating a SavedSearch, add 'etag' in the body 
 }
 ```
 
-## **Recommended documents**<br>
+## **Recommended documents**
 * Follow this sample to [create a workspace template](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh#create-and-deploy-template)
 * Deploy template using [Azure CLI](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-cli)
 * Deploy template using [PowerShell](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace-posh)
