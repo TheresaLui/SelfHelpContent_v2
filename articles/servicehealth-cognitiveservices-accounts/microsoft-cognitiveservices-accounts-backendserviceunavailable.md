@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Cognitive Services account:
 
-We are sorry, your Cognitive Services account is unavailable. An unexpected problem is preventing your from accessing your Cognitive Services account. We are working to automatically restore your access. No additional action is required from you at this time.
+We are sorry, an unexpected problem is preventing you from accessing your Cognitive Services account. We are working to automatically restore your access. No additional action is required from you at this time.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
