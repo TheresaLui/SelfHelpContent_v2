@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments=""
+	articleId=""
 />
 
 # tools
