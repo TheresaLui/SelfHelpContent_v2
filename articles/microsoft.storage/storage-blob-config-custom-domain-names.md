@@ -16,6 +16,7 @@
 
 ## **Recommended documents**
 
+- Azure Storage does not yet natively support HTTPS with custom domains. [Use Azure CDN to access blobs by using custom domains over HTTPS](https://docs.microsoft.com/azure/storage/blobs/storage-https-custom-domain-cdn)<br>
 - [Configure a custom domain name for your Azure Storage account](https://docs.microsoft.com/azure/storage/blobs/storage-custom-domain-name)<br>
 - [Direct vs. intermediary domain mapping](https://docs.microsoft.com/azure/storage/blobs/storage-custom-domain-name#direct-vs-intermediary-domain-mapping)<br>
 - [Register a custom domain](https://docs.microsoft.com/azure/storage/blobs/storage-custom-domain-name#register-a-custom-domain)<br>
