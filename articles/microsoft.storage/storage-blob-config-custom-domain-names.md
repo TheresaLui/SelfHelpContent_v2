@@ -1,8 +1,8 @@
 <properties
-	pageTitle="How to configure a custom domain name"
+	pageTitle="Configuring custom domain name"
 	description="How to configure a custom domain name"
 	service="microsoft.storage"
-	resource="storage"
+	resource="storagecustomdomain"
 	authors="ramMSFT"
 	ms.authors="raprasad"
 	displayOrder=""
@@ -11,7 +11,7 @@
 	supportTopicIds="32602723"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public"
 />
 
 # How to configure a custom domain name
