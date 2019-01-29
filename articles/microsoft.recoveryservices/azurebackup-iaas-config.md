@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="95333929-5668-4cb5-bed3-3855436ddbf7"
 />
 
 # Unable to Configure Backup for Azure  Virtual Machines?
