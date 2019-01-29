@@ -15,8 +15,10 @@
 	
 />
 
-# Unable to Configure Backup for Azure  Virtual Machines?
-## **Recommended steps**
+# Unable to Configure Backup for Azure Virtual Machines
+
+## **Recommended Steps**
+
 - [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#UserErrorGuestAgentStatusUnavailable-vm-agent-unable-to-communicate-with-azure-backup) <br>
 - [UserErrorStandardSSDNotSupported - Currently Azure Backup does not support Standard SSD disks](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorstandardssdnotsupported---currently-azure-backup-does-not-support-standard-ssd-disks) <br>
 - [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#usererrorbackupoperationinprogress---unable-to-initiate-backup-as-another-backup-operation-is-currently-in-progress) <br>
@@ -28,5 +30,6 @@
 - [ExtentionOperationFailed - VMSnapshot extension operation failed](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#ExtentionOperationFailed-vmsnapshot-extension-operation-failed) <br>
 - [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#backupoperationfailed--backupoperationfailedv2---backup-fails-with-an-internal-error) <br>
 
-## **Recommended documents**
-[Azure virtual machine backup troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)
+## **Recommended Documents**
+
+* [Azure virtual machine backup troubleshooting guide](https://azure.microsoft.com/documentation/articles/backup-azure-vms-troubleshoot/)
