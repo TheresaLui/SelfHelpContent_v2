@@ -22,6 +22,6 @@ Our internal service telemetry detected that over the past 24 hours there has be
 
 ## **Recommended documents**
 * [Use Query performance insights to identify the queries which are causing the high CPU consumption.](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-query-performance)
-* [Enable Automatic tuning provides peak performance and stable workloads through continuous performance tuning utilizing Artificial Intelligence.](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automatic-tuning)
-* [Increase Azure Database tier to get more DTUs and hence accommodate for more workload in your environment.](https://azure.microsoft.com/en-us/pricing/details/sql-database/single)
-* [If the workload is varying, then consider moving few databases into SQL elastic pool to share DTUs.](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool)
+* [Enable Automatic tuning provides peak performance and stable workloads through continuous performance tuning utilizing Artificial Intelligence.](https://docs.microsoft.com/azure/sql-database/sql-database-automatic-tuning)
+* [Increase Azure Database tier to get more DTUs and hence accommodate for more workload in your environment.](https://azure.microsoft.com/pricing/details/sql-database/single)
+* [If the workload is varying, then consider moving few databases into SQL elastic pool to share DTUs.](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool)
