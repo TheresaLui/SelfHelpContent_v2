@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="aa6b7e63-539a-4ecb-b231-2f0de1c7bd3e"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629435, 32629525"
