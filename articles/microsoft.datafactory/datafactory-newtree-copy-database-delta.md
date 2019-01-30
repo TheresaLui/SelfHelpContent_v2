@@ -17,12 +17,12 @@
 
 ## **Recommended Steps**
 
-* Delta data loading using watermark:
+* Delta data loading using watermark: <br>
 
   * Define a watermark column in source database, a column that has the last updated time stamp or an incrementing key
   * Delta loading solution loads changed data between an old watermark and a new one
 
-* Delta data loading using _Change Tracking_:
+* Delta data loading using _Change Tracking_: <br>
 
   * Available when loading from data stores such as _SQL Server_ and _Azure SQL Database_
   * Need to enable _Change Tracking_ in source database
