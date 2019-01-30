@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
-	articleId="b66f3036-bc84-4466-8934-8b630c022deb"
+	articleId="4c3f9765-562b-492b-9945-ac75d872add3"
 />
 
 # Log Analytics (OMS) extension issue

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="74fcd9ed-bada-479b-904c-a6bc23554577"
 />
 
 # Virtual Disk Management
