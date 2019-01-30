@@ -17,6 +17,6 @@
 
 ## **Recommended Steps**
 
-If you have encountered the synchronization errors like **QuarantinedAttributeValueMustBeUnique** or **AttributeValueMustBeUnique**, then use the steps outlined in the document below.
+If you have encountered the synchronization errors like **QuarantinedAttributeValueMustBeUnique** or **AttributeValueMustBeUnique**, please use the steps outlined in the document below.
 
-* [Diagnose and remediate duplicated attribute sync errors](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-diagnose-sync-errors).
+* [Diagnose and remediate duplicated attribute sync errors](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-diagnose-sync-errors)
