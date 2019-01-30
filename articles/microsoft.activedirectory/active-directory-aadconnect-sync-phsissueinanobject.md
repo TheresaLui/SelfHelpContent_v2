@@ -16,11 +16,10 @@
 # Password hash not syncing for an object
 
 ## **Recommended Steps**
-If you noticed that password hash is not syncing for a user then you can use the troubleshoot task in the **Azure AD Connect** to investigate and resolve the issue.
+If you noticed that password hash is not syncing for a user, use the troubleshoot task in the **Azure AD Connect** to investigate and resolve the issue:
 
-* [Run the troubleshooting task in the wizard](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync#troubleshooting-task).
-
-* [Use troubleshooting cmdlet to investigate the password hash syncing issue for an object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#one-object-is-not-synchronizing-passwords-troubleshoot-by-using-the-troubleshooting-task).
+* [Run the troubleshooting task in the wizard](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync#troublessooting-task)
+* [Use troubleshooting cmdlet to investigate the password hash syncing issue for an object](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#one-object-is-not-synchronizing-passwords-troubleshoot-by-using-the-troubleshooting-task)
 
 ## **Recommended Documents**
 
