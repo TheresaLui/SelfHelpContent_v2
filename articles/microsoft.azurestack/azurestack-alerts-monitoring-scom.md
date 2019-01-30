@@ -17,12 +17,12 @@
 
 The [System Center Management Pack for Microsoft Azure Stack](https://www.microsoft.com/download/details.aspx?id=55184) enables you to monitor multiple Azure Stack regions with a single Operations Manager instance. You may also install vendor-specific management packs to monitor physical servers using SCOM, in addition to the OEM monitoring software that is provided on the hardware lifecycle host. Operations Manager can also use network device discovery to monitor the network devices used by Azure Stack.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Download the [System Center Management Pack for Microsoft Azure Stack](https://www.microsoft.com/download/details.aspx?id=55184) and the associated user guide from the download site, or directly from Operations Manager
 * Follow steps to [integrate external monitoring with Operations Manager](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor#integrate-with-operations-manager)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [System Center Management Pack for Microsoft Azure Stack](https://www.microsoft.com/download/details.aspx?id=55184)
 * [Integrate external monitoring with Operations Manager](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-monitor#integrate-with-operations-manager)
