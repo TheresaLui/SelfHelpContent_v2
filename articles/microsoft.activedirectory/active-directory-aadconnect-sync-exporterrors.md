@@ -19,4 +19,4 @@
 
 If you have encountered the synchronization errors in the export, then use the steps outlined in the document below.
 
-* [Troubleshooting export errors during synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors).
+* [Troubleshoot export errors during synchronization](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-sync-errors)
