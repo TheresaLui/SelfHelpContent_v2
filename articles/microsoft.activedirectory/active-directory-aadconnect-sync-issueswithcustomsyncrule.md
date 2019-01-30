@@ -15,15 +15,15 @@
 
 # Syncing and custom rules
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Please try to use the default rules created by the **Azure AD Connect** without modifying them. However, if you must modify the default rules for your requirements, then you need to be an advanced user. We strongly advise you to go through the **Recommended documents** below, before making any changes to the synchronization rules. Any wrong changes in scoping filters, link types, disabling or deleting a rule may result in the deletion of objects in your target directory. 
+Please try to use the default rules created by the **Azure AD Connect** without modifying them. However, if you must modify the default rules for your requirements, then you need to be an advanced user. We strongly advise you to go through the **Recommended documents** below, before making any changes to the synchronization rules. Any changes in scoping filters, link types, disabling, or deleting a rule may result in the deletion of objects in your target directory. 
 
-* Here are the [best practices to create custom synchronization rule](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-best-practices-changing-default-configuration).
+* Here are the [best practices to create custom synchronization rule](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-best-practices-changing-default-configuration)
+* After reviewing the recommended documents, follow the [instructions in this document to change default configuration](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-change-the-configuration)
 
-* After reviewing the recommended documents, follow the [instructions in this document to change default configuration](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-change-the-configuration).
+## **Recommended Documents**
 
-## **Recommended documents**
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
 * [Azure AD Connect sync: Understanding the architecture](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-architecture)
 * [Azure AD Connect sync: Understanding Declarative Provisioning](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning)
