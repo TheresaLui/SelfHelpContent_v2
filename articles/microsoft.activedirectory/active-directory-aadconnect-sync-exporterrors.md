@@ -1,4 +1,5 @@
 <properties
+    articleid="c6ac76a6-301a-4e72-9ea5-e1f077c2584b"
     pageTitle="Sync errors: Export failed"
     description="Sync errors: Export failed"
     service="microsoft.activedirectory"
