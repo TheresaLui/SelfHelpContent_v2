@@ -16,11 +16,10 @@
 # Password hash sync not working
 
 ## **Recommended Steps**
-If you noticed that password hash sync is not working, then you can use the troubleshoot task in the **Azure AD Connect** to investigate and resolve the issue.
+If you noticed that password hash sync is not working, use the troubleshoot task in the **Azure AD Connect** to investigate and resolve the issue:
 
-* [Run the troubleshooting task in the wizard](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync#troubleshooting-task).
-
-* [Use troubleshooting cmdlet to investigate the password hash syncing issues](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#no-passwords-are-synchronized-troubleshoot-by-using-the-troubleshooting-task).
+* [Run the troubleshooting task in the wizard](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync#troubleshooting-task)
+* [Use troubleshooting cmdlet to investigate the password hash syncing issues](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-password-hash-synchronization#no-passwords-are-synchronized-troubleshoot-by-using-the-troubleshooting-task)
 
 ## **Recommended Documents**
 
