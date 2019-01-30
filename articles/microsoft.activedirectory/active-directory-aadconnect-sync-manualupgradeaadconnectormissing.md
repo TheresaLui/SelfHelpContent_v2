@@ -1,4 +1,5 @@
 <properties
+    articleid="d53fae47-4e8a-4a7c-b83f-6c1c273b204b"
     pageTitle="Manual upgrade: Missing Azure AD connector"
     description="Manual upgrade: Missing Azure AD connector"
     service="microsoft.activedirectory"
