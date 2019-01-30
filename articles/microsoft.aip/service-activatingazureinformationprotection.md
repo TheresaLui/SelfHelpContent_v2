@@ -25,7 +25,7 @@
 1. Make sure you are logged in as a user with Global Administrator permissions.
 2. Navigate to the **Azure Information Protection** blade.
 3. From the **Manage** menu option, select **Unified labeling (Preview)**.
-4. On the **Azure Information Protection - Unified labeling** blade, select **Activate** and follow the online instructions
+4. Select **Activate** and follow the online instructions.
 
 ## **Recommended documents**
 
