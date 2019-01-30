@@ -19,9 +19,8 @@
 
 Microsoft recommends to use default options and let **Azure AD Connect** create all accounts for you to avoid any permission issues with user provided accounts. Here are common issues seen related to AD forest while installing **Azure AD Connect**:
 
-* [Connectivity issues with on-premise Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools).
-
-* [Permission issues with on-premise Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account). 
+* [Connectivity issues with on-premise Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
+* [Permission issues with on-premise Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
 
 ## **Recommended Documents**
 
