@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="35b4075ca21d47c7b82383744226a444"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629448"
@@ -17,7 +17,7 @@
 
 ## **Recommended Documents**
 
-Continuous integration and delivery [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory
+Continuous integration and delivery [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory <br>
 
 * [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) _(please read)_ <br>
 * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) <br>
@@ -31,7 +31,7 @@ Advantages of [Git integration](https://docs.microsoft.com/azure/data-factory/au
 * With [Azure Repos Git integration](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-azure-repos-git-integration) <br>
 * With [GitHub integration](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-github-integration) <br>
 
-Copy or clone a data factory in ADF: [Document](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
+Copy or clone a data factory in ADF: [Document](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory) <br>
 
 * [Use Cases](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) <br>
 * [Steps](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory#use-cases-for-cloning-a-data-factory) <br>
