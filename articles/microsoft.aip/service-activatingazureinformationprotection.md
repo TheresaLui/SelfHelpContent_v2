@@ -22,10 +22,11 @@
 2. Locate the **MANAGE** menu options, and select **Protection activation**. Click **Activate**, and then confirm your action. When activation is complete, the information bar displays **Activation finished successfully**.
 
 ## How to migrate Azure Information Protection labels to Office 365 SCC
+
 1. Make sure you are logged in as a user with Global Administrator permissions.
 2. Navigate to the **Azure Information Protection** blade.
 3. From the **Manage** menu option, select **Unified labeling (Preview)**.
-4. Select **Activate** and follow the online instructions.
+4. On the **Azure Information Protection - Unified labeling** blade, select **Activate** and follow the online instructions
 
 ## **Recommended documents**
 
