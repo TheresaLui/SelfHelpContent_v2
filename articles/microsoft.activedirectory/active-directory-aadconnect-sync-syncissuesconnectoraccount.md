@@ -1,4 +1,5 @@
 ﻿<properties
+    articleid="72da7dea-2f8d-4127-996f-fc699a862139"
     pageTitle="Sync issues: Connector account"
     description="Sync issues: Connector account"
     service="microsoft.activedirectory"
