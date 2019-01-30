@@ -11,7 +11,9 @@
 	resourceTags=""
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="dd979118-8b14-4a90-a288-8c8abfa1fe4f"
 />
+
 # My VM is slow
 
 4 out of 5 customers resolved their performance issue using the below steps.<br>
