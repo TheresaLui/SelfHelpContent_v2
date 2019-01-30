@@ -20,7 +20,8 @@
 
 If you have encountered an issue while manually upgrading Azure AD Connect, use the steps outlined in the document below.
 
-* [Troubleshooting manual upgrade of Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-upgrade-previous-version#troubleshooting).
+* [Troubleshooting manual upgrade of Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-upgrade-previous-version#troubleshooting)
 
 ## **Recommended Documents**
+
 * [Azure AD Connect: Upgrade from a previous version to the latest](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-upgrade-previous-version)
