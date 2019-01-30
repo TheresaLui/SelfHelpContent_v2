@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
+	articleId="f8f6665a-cdc6-4ba4-bbd5-ced3b813e838"
 />
 
 # Move resources between storage accounts

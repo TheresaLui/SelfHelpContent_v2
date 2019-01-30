@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
+	articleId="f36ca2d3-8598-494f-bd5e-94875580fc4b"
 />
 
 # Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)

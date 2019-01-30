@@ -11,6 +11,7 @@
               resourceTags=""
               productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public"
+              articleId="0c333e4e-a865-4822-84b4-0c8eba727ffe"
 />
 
 # My VM is not booting

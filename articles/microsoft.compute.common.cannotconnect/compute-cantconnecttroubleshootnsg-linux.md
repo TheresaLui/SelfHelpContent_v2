@@ -11,6 +11,7 @@
               resourceTags=""
               productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public"
+              articleId="59a3aab3-768c-406c-a167-7f7dc1d481e3"
 />
 
 # Troubleshoot my Network Security Group (NSG)

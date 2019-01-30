@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749,16080,15797,15571,16470"
 	cloudEnvironments="public"
+	articleId="d0e55d1a-8135-4ec5-a051-af6d8f6a87ff"
 />
 
 # Management/Service Identity

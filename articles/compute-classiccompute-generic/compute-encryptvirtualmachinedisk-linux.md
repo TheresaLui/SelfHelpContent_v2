@@ -11,7 +11,9 @@
 	resourceTags=""
 	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="e871b5ca-7e1f-4299-9316-bd837b0ac483"
 />
+
 # Configuration and Setup/Encrypt virtual machine disk
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>

@@ -11,7 +11,9 @@
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="15c87a05-eb46-4369-bea4-8d2b3af57dce"
 />
+
 # Azure Backup - Performance
 
 4 out of 5 customers resolve their Azure Backup issues using the steps below.<br>

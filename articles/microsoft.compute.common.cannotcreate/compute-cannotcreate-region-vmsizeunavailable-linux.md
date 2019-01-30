@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="9c65e013-d2bf-4376-87cd-b34554d71bf7"
 />
 
 # My desired region or VM size is unavailable

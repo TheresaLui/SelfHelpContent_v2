@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,14749,16470"
 	cloudEnvironments="public"
+	articleId="4b79d345-9695-4da0-8b3f-e1fae49a1660"
 />
 
 # Migration and Move/Migrate resources using Azure Site Recovery

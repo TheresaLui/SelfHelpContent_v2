@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,16470,16454,15797"
 	cloudEnvironments="public"
+	articleId="5ed58ce6-9e16-4899-bdfe-73874c7bbd57"
 />
 
 # Management/Manage an instance of SQL Server

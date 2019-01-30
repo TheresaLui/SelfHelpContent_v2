@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15797,15571,16454,16342,16470"
 	cloudEnvironments="public"
+	articleId="aea5b2c8-7393-49a1-b9eb-e32910bc0eaf"
 />
 
 # Help diagnose my VM restart issue

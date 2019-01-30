@@ -11,7 +11,9 @@
 	resourceTags=""
 	productPesIds="15571,16470"
 	cloudEnvironments="public"
+	articleId="ae6d423b-a4af-44d1-8aba-d45d8ae5ade4"
 />
+
 # Management/Managed disks migration
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>

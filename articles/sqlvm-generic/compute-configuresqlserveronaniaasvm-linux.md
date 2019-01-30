@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,16470"
 	cloudEnvironments="public"
+	articleId="5ed58ce6-9e16-4899-bdfe-73874c7bbd57"
 />
 
 # Configuration and Setup/Configure SQL Server on an IaaS VM

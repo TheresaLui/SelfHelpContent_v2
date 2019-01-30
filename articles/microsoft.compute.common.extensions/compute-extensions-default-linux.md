@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="79c0e8f0-6de3-441b-a6a1-ec0be01155f8"
 />
 
 # My extension is not installing correctly, executing, or listed above

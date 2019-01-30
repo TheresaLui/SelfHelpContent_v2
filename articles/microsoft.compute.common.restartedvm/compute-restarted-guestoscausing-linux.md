@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="b66f3036-bc84-4466-8934-8b630c022deb"
 />
 
 # My guest OS is causing restarts

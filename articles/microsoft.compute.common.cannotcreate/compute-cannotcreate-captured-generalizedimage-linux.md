@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571, 15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="4bdc4ff0-cbe2-4886-a8f7-ef6a227b52f9"
 />
 
 # I am unable to deploy a captured or generalized image
