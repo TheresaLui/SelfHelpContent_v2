@@ -4,7 +4,7 @@
 	authors="lisaliu"
     ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions" 
-    supportTopicIds="32629483, 32629550, 32629529, 32629491, 32629490, 32629507, 32629504, 32629505, 32629488, 32629489, 32629431, 32629470, 32629463, 32629461, 32629468, 32629466, 32629469, 32629465, 32629462, 32629464, 32629467, 32629455, 32629457, 32629456, 32629460, 32629458, 32629459"
+    supportTopicIds="32629483, 32629550, 32629529, 32629491, 32629490, 32629507, 32629504, 32629505, 32629488, 32629489, 32629431, 32629470, 32629463, 32629461, 32629468, 32629466, 32629469, 32629465, 32629462, 32629464, 32629467, 32629455, 32629457, 32629456, 32629460, 32629458, 32629459, 32629423, 32629443, 32629515, 32629500, 32629518"
 	productPesIds="15613"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "Azure Data Factory Pipeline Info",
-    "fileAttachmentHint": "Please attach JSON code for the dataset, linked service, and output of activity run to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach JSON code for dataset, linked service, and output of activity run to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
