@@ -19,3 +19,7 @@
 
 - [How does Import/Export work?](https://docs.microsoft.com/azure/storage/common/storage-import-export-service#how-does-importexport-work)<br>
 - [View the status of Azure Import/Export jobs](https://docs.microsoft.com/azure/storage/common/storage-import-export-view-drive-status)<br>
+- [Data transfer for large datasets with low or no network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-large-dataset-low-network)<br>
+- [Data transfer for small datasets with low to moderate network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-small-dataset-low-moderate-network)<br>
+- [Data transfer for large datasets with moderate to high network bandwidth](https://docs.microsoft.com/azure/storage/common/storage-solution-large-dataset-moderate-high-network)<br>
+- [Solutions for periodic data transfer](https://docs.microsoft.com/azure/storage/common/storage-solution-periodic-data-transfer)<br>
