@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Azure Data Lake Analytics account:
 
-We are sorry. you may be unable to list jobs in your Data Lake Analytics account. We're working to automatically restore this functionality to your Azure Data Lake Analytics account and to determine the source of the issue. No additional action is required from you at this time.
+We are sorry, you may be unable to list jobs in your Data Lake Analytics account. We're working to automatically restore this functionality to your Azure Data Lake Analytics account and to determine the source of the issue. No additional action is required from you at this time.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
