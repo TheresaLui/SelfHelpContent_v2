@@ -4,7 +4,7 @@
 	service="microsoft.aip"
 	resource="aip"
 	authors="nihendle, orbarak-ms"
-	ms-author="orbarak"
+	ms.author="orbarak"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584327"
