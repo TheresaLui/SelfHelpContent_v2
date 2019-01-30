@@ -29,7 +29,6 @@ Review the different [accounts and permissions](https://docs.microsoft.com/azure
 ### **Azure AD Connector account**
 
 * This account is used to read/write information to Azure AD
-
 * [Manage the Azure AD service account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-azureadaccount)
 * **Best Practice** is to allow the Azure AD Connect wizard to create this account during installation
 * There is a limit on the number of these accounts that can be created, which can sometimes be hit when installing/uninstalling Azure AD Connect multiple times. [Azure AD Connector account](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-accounts-permissions) documentation explains how to address this by removing unused accounts.
