@@ -4,7 +4,7 @@
 	service="microsoft.storage"
 	resource="blobfuse"
 	authors="ramMSFT"
-	ms.authors="raprasad"
+	ms.author="raprasad"
 	displayOrder=""
 	articleId="4c5b4c24-4954-4502-bdd5-665f3787cc90"
 	selfHelpType="generic"
