@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Connectivity/Network issues that are related to SAP HANA large instances"
-	description="Connectivity/Network issues that are related to SAP HANA large instances"
+	pageTitle="Performance/Performance issues that are related to SAP HANA large instances"
+	description="Performance/Performance issues that are related to SAP HANA large instances"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32549256"
-	resourceTags="linux,redhat"
-	productPesIds="15571,15797,16454"
+	supportTopicIds="32549259"
+	resourceTags="linux"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 
-# Connectivity/Network issues that are related to SAP HANA large instances
+# Performance/Performance issues that are related to SAP HANA large instances
 
 ## **Recommended documents**
 

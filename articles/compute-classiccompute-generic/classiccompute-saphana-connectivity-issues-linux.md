@@ -4,20 +4,17 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549257"
-	resourceTags=""
-	productPesIds="16208"
+	resourceTags="linux,redhat"
+	productPesIds="15571,15797"
 	cloudEnvironments="public"
 />
 
 # Connectivity/Connectivity issues that are related to SAP HANA large instances
 
-4 out of 5 customers resolved their issue using the guides listed below.<br>
-
-## **Recommended Documents**
+## **Recommended documents**
 
 * [SAP HANA (large instances) overview and architecture on Azure](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-architecture)<br>
 * [SAP HANA (large instances) infrastructure and connectivity on Azure](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/hana-overview-infrastructure-connectivity)<br>

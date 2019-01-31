@@ -11,6 +11,7 @@
 	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="cf085c22-540c-47ed-b869-98eec09214de"
 />
 
 # My VM restarted unexpectedly
