@@ -10,7 +10,7 @@
     articleId="IsWorkLoadIssue_WL112677-E6C3-1004-B3D3-187FD7FC30EA"
     diagnosticScenario="perf_sqldb_increasedworkload"
     selfHelpType="rca"
-    supportTopicIds="32630399"
+    supportTopicIds=""
     resourceTags="databases, servers"
     productPesIds="13491"
     cloudEnvironments="public"
