@@ -1,13 +1,13 @@
 <properties
     pageTitle="query execution/increased workload"
     description="query execution/increased workload"
-    infoBubbleText="Found increased worload issuse with DB. Please see details."
+    infoBubbleText="Found increased worload issuse with DB. See details on the right."
     service="microsoft.sql"
     resource="servers"
     authors="pxding"
     ms.author="pedin"
-    displayOrder="6"
-    articleId="IsWorkLoadIssue_WL112677-E6C3-1004-B3D3-187FD7FC30EA"
+    displayOrder=""
+    articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
     selfHelpType="rca"
     supportTopicIds=""
     resourceTags="databases, servers"
@@ -18,7 +18,7 @@
 # Query Execution/Increased Workload
 
 ## **Recommended steps**
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests for your database. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please go through following documents to troubleshoot and resolve it:
+Our internal service telemetry detected that over the past 24 hours there has been a significant increase in user requests for your database. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please go through following documents to troubleshoot and resolve:
 
 ## **Recommended documents**
 * [Use Query performance insights to identify the queries which are causing the high CPU consumption.](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance)
