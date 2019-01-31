@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure Data Lake Gen2 Access Tiers
+# Azure Data Lake Gen2 Storage Access Tiers
 
 ## **Recommended Documents**
 
