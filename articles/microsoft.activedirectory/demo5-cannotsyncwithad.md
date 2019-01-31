@@ -10,6 +10,7 @@
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="d6a0f361-dcf8-407f-866a-d4783e08f77e"
 />
 
 # Synchronization Service cannot import/export changes from on-premises AD

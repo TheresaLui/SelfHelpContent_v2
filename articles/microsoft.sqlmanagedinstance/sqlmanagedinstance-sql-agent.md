@@ -1,0 +1,20 @@
+<properties
+	pageTitle="Features/SQL Server Agent"
+	description="Features/SQL Server Agent"
+	service="microsoft.sql"
+	resource="servers"
+	authors="MladjoA"
+    ms.author="mlandzic"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32608398"
+	resourceTags=""
+	productPesIds="16259"
+	cloudEnvironments="public"
+/>
+
+# SQL Server Agent
+
+## **Recommended Documents**
+
+* [SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent)

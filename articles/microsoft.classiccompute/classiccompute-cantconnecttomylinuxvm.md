@@ -4,15 +4,18 @@
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
+    ms.author="scotro"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32411835,32602159"
+    supportTopicIds="32602159,32615531,32615526"
     resourceTags="linux,redhat,Ubuntu"
-    productPesIds="16470,15797,15571,16454"
+    productPesIds="16470,15797,15571,16454,15571"
     cloudEnvironments="public"
  />
 
 # I can't connect to my Linux VM
+
+4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
 ## **Recommended steps**
 
@@ -32,4 +35,4 @@ To resolve common issues, try one or more of the following methods:<br>
 ## **Recommended documents**
 
 * [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors)<br>
-* [Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension)
+* [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension)

@@ -7,6 +7,7 @@
 	displayOrder="100"
 	selfHelpType="resource"
 	cloudEnvironments="public"
+	articleId="1c687109-a9f5-46b8-9de6-fc133a6e73f3"
 />
 # Agent registration failures
 

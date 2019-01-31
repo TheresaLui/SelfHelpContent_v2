@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571,15797,16454"
 	cloudEnvironments="public"
+	articleId="8b8135ac-b1d3-4f51-a983-0d03ccf4320f"
 />
 # Configuration and Setup/Encrypt virtual machine disk
 

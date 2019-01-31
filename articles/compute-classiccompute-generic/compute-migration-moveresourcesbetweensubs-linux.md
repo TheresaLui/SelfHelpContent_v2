@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="d36ee8e9-abf1-454e-9115-b0413eea5195"
 />
 
 # Migration and Move/Move resources between subscriptions

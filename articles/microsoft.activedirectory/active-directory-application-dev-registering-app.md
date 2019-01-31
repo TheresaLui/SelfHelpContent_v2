@@ -8,7 +8,8 @@
   supportTopicIds="32596864"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="1444aaef-701c-4aca-849b-76c78b814522"
+/>
 
 # Problems registering my application
 

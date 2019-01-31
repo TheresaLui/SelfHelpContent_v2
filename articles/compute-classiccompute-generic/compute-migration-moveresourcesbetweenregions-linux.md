@@ -10,6 +10,7 @@
 	resourceTags="Linux,Redhat"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="e166829a-cf2f-45f0-887b-202ed6040d31"
 />
 
 # Migration and Move/ Move resources between regions

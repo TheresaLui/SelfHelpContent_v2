@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15571"
 	cloudEnvironments="public"
+	articleId="1737679f-a736-4fe1-b618-406c13065a07"
 />
 
 # Configuration and Setup/Create a Linux failover cluster

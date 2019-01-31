@@ -4,6 +4,7 @@
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavinahar"
+	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32592839"
@@ -14,5 +15,6 @@
 
 # connectivity/cannotsendemail
 
-## **Recommended documents**
-* [Limitations & recommendations for sending outbound email over port 25](https://blogs.msdn.microsoft.com/mast/2017/11/15/enhanced-azure-security-for-sending-emails-november-2017-update/)<br>
+## **Recommended Documents**
+* [Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>
+

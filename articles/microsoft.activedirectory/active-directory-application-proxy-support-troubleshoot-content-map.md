@@ -8,7 +8,8 @@
   supportTopicIds="32570275"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="05acb332-174e-4703-8f4a-f584cc805da1"
+/>
 
 # Problems configuring the Azure AD Application Proxy
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9c6077db-8045-4adb-a64c-602eda6cac8d"
 />
 
 # Help with Cost Allocation

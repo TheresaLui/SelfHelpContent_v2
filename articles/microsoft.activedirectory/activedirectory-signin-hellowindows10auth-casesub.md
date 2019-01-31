@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="a480365a-ef9a-4541-bf68-db8b89237297"
+/>
 
 # Windows 10 Authentication (using PIN or gesture)
 

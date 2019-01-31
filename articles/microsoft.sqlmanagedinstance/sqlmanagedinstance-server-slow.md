@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="rohitnayakmsft"
+	ms.author="rohitna"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32594719"
@@ -13,11 +14,7 @@
 />
 # Database server is slow or unresponsive
 
-## **Recommended steps**
-* Use Query Store to understand and troubleshoot causes of slow query execution per <br>
-[Monitoring performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)<br>
+## **Recommended Steps**
 
-* Review Query Store usage scenarions <br>
-[Query Store Usage Scenarios](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios)
-
-
+* [Monitoring performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store)
+* [Query Store Usage Scenarios](https://docs.microsoft.com/sql/relational-databases/performance/query-store-usage-scenarios)

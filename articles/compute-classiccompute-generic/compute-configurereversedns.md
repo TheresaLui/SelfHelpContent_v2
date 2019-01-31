@@ -10,6 +10,7 @@
  	resourceTags="Windows,Linux,Redhat"
 	productPesIds="14749,15571,15797"
 	cloudEnvironments="public"
+	articleId="101e0f07-c2bf-4c92-9d5c-509c33c77d77"
 />
 
 # configuration and setup/configure reverse DNS
