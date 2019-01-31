@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="8b608391-742e-4627-b9da-772a75bb078c"
+/>
 
 # Syncing and custom rules
 

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
+	articleId="22b31604-0adc-4ec8-b732-2e4501855535"
 />
 
 # Ephemeral OS Disk

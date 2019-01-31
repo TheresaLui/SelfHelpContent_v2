@@ -9,7 +9,8 @@
     supportTopicIds="32615378"
     productPesIds="16578"
     cloudEnvironments="public"
- />
+ 	articleId="bb6b116b-cebb-45b8-a4c3-001ca7c76cf8"
+/>
 
 # I can't edit a user profile in my Azure AD
 

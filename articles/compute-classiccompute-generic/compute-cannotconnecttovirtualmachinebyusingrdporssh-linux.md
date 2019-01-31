@@ -11,7 +11,11 @@
     resourceTags=""
     productPesIds="15571,16470,15797,16454"
     cloudEnvironments="public"
+<<<<<<< HEAD
     articleId="22cc1065-e0e9-4108-8e57-2d7916d4da6f"
+=======
+	articleId="d160cd1f-4883-415c-ad18-8e2c146743d7"
+>>>>>>> upstream/master
 />
 
 # Cannot connect to my VM

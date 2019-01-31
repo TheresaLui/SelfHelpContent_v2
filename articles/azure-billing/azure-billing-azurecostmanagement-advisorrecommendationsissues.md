@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="bd7f307d-4c87-4fb5-a47a-5ebd8d85be3b"
 />
 
 # Advisor Recommendations Issues

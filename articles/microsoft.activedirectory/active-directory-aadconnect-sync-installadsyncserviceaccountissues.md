@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="77af65ea-b6be-4956-a3cf-dd2c16ca7075"
+/>
 
 # Install issues: AD sync service account
 

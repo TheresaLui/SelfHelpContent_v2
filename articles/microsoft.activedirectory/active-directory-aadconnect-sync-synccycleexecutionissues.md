@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="8d6ad72d-004d-405b-ab2c-e9fa8ed83357"
+/>
 
 # Synchronization cycle execution issues
 

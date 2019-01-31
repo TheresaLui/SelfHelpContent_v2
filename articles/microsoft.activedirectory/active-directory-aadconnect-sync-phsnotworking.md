@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="dcb1cb39-ac8b-4542-9575-9f52ff11cecf"
+/>
 
 # Password hash sync not working
 
