@@ -8,7 +8,7 @@
 	articleID="Central_Reporting"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584339"
+	supportTopicIds="32629568"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
