@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Webservice:
 
-We were unable to complete your request. We were temporarily unable to connect to the service.
+We were unable to complete your request. We are temporarily unable to connect to the service.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
