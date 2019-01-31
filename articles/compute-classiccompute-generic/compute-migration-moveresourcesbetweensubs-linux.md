@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
-	articleId="423d72f7-4fe1-4fa6-ba4b-5cc39bd22690"
+	articleId="d36ee8e9-abf1-454e-9115-b0413eea5195"
 />
 
 # Migration and Move/Move resources between subscriptions

@@ -7,11 +7,11 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615272,32615273,32615274,32615275"
+	supportTopicIds="32615272,32615274,32615275"
 	resourceTags=""
 	productPesIds="15571,15797,16454,16208,16470"
 	cloudEnvironments="public"
-	articleId="f3193217-b35c-4b2f-97d9-cd527c1d00e2"
+	articleId="a06eec15-0698-4a7b-9e41-f7487a1a199b"
 />
 
 # Shared Image Gallery

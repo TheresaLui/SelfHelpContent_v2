@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
-	articleId="fc1c1909-5d41-4758-8ace-3a460a06231c"
+	articleId="0d4dfc6e-b9cd-40b0-bf48-178144b00239"
 />
 
 # Migration and Move/Move resources between resource groups

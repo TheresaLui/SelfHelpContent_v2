@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,16470"
 	cloudEnvironments="public"
-	articleId="ae6d423b-a4af-44d1-8aba-d45d8ae5ade4"
+	articleId="b6280349-a73f-4f10-b78e-aaa228a629f9"
 />
 
 # Management/Managed disks migration

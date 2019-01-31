@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
-	articleId="4b0f25e7-8bfc-4eef-bd82-c49b99fd94a8"
+	articleId="249cdea5-5761-4150-8572-8978204e0991"
 />
 
 # Planned Maintenance/general questions or issues

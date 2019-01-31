@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,16470"
 	cloudEnvironments="public"
-	articleId="d3cd2ecb-e843-4aab-aa50-704545f36dbb"
+	articleId="174c3fd1-0fa7-4354-b892-8ae3b669cd80"
 />
 
 # Management/Manage or use a cluster in Azure
