@@ -23,4 +23,4 @@
 [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
-[Download Azure Information Protection client](http://aka.ms/aipclient)
+[Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)
