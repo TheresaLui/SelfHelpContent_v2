@@ -18,8 +18,8 @@
 
 ## **Recommended documents**
 
-[What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-[Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/azure/information-protection/log-analyze-usage)
-[Admin Guide: Azure Information Protection client files and client usage logging](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-files-and-logging)
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
+[What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+[Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/azure/information-protection/log-analyze-usage)<br>
+[Admin Guide: Azure Information Protection client files and client usage logging](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-files-and-logging)<br>
+[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)

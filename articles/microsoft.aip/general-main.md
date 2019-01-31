@@ -5,7 +5,7 @@
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
-	articleId=""
+	articleId="General_Guidance_or_Advisory"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32592926"
@@ -18,9 +18,9 @@
 
 ## **Recommended documents**
 
-[What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)
-[How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)
+[What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+[How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
+[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
 [Download Azure Information Protection client](http://aka.ms/aipclient)

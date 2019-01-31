@@ -18,8 +18,8 @@
 
 ## **Recommended documents**
 
-[Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)
-[Download Azure Information Protection Viewer](https://www.microsoft.com/download/details.aspx?id=54536)
-[User Guide: View and use files that have been protected by Rights Management](https://docs.microsoft.com/azure/information-protection/rms-client/client-view-use-files)
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
+[Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)<br>
+[Download Azure Information Protection Viewer](https://www.microsoft.com/download/details.aspx?id=54536)<br>
+[User Guide: View and use files that have been protected by Rights Management](https://docs.microsoft.com/azure/information-protection/rms-client/client-view-use-files)<br>
+[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)

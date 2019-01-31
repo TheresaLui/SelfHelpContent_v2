@@ -30,7 +30,7 @@
 
 ## **Recommended Documents**
 
-[Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/configure-policy)
-[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
+[Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/configure-policy)<br>
+[Deploying the Azure Information Protection scanner to automatically classify and protect files](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)<br>
+[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 [Download Azure Information Protection client](https://www.microsoft.com/en-us/download/details.aspx?id=53018)

@@ -30,9 +30,9 @@
 
 ## **Recommended documents**
 
-[Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-[How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
-[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)
+[Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+[How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)<br>
+[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
 [How to activate Azure Rights Management from the Azure portal](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-azure)
