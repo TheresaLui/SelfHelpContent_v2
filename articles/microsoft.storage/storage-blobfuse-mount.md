@@ -18,8 +18,8 @@
 
 ## **Recommended documents**
 
-- [Install Blobfuse on Linux](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux#install-blobfuse-on-linux)<br>
-- [How to mount blob storage as file system with Blobfuse](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux#mount)<br>
+- [Install Blobfuse on Linux](https://docs.microsoft.com/azure/storage/blobs/storage-how-to-mount-container-linux#install-blobfuse-on-linux)<br>
+- [How to mount blob storage as file system with Blobfuse](https://docs.microsoft.com/azure/storage/blobs/storage-how-to-mount-container-linux#mount)<br>
 - [Mount options](https://github.com/Azure/azure-storage-fuse#mounting)<br>
 - [Blobfuse limitations](https://github.com/Azure/azure-storage-fuse#current-limitations)<br>
 - [Known Blobfuse issues](https://github.com/Azure/azure-storage-fuse/issues )<br>
