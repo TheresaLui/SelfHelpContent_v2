@@ -11,11 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16454,16208,16470"
 	cloudEnvironments="public"
-<<<<<<< HEAD
 	articleId="f3193217-b35c-4b2f-97d9-cd527c1d00e2"
-=======
-	articleId="a06eec15-0698-4a7b-9e41-f7487a1a199b"
->>>>>>> upstream/master
 />
 
 # Shared Image Gallery
