@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="144af4cf-13a4-4575-8832-06b7c53c433f"
 />
 # My VM is slow
 

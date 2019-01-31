@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="3e3f570d-e378-486d-ab06-cb22839030d8"
 />
 
 # Change ownership of reservation

@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="0d4dfc6e-b9cd-40b0-bf48-178144b00239"
 />
 
 # Migration and Move/Move resources between resource groups

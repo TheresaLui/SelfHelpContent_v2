@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571,15797,16454"
 	cloudEnvironments="public"
+	articleId="ec1228a7-c44c-4460-ae9a-08f8e8380fab"
 />
 
 # management/cannot stop, start, or restart a vm

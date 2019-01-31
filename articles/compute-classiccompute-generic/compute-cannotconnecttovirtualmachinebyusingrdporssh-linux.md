@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15571,16470,15797,16454"
     cloudEnvironments="public"
+	articleId="d160cd1f-4883-415c-ad18-8e2c146743d7"
 />
 
 # connectivity/cannot connect to virtual machine by using rdp or ssh

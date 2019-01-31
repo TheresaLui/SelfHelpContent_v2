@@ -10,6 +10,7 @@
     resourceTags="azureadrreports_missingdata_signin,directory_overview"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="d6836c42-4df0-423f-b207-ac15e11212ac"
 />
 
 # I can’t find recent user sign-ins in the Azure Active Directory sign-ins activity log

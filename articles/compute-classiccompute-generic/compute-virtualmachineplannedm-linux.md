@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571, 15797, 16454"
 	cloudEnvironments="public"
+	articleId="249cdea5-5761-4150-8572-8978204e0991"
 />
 
 # Planned Maintenance/general questions or issues

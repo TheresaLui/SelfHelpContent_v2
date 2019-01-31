@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
 />
 
 # Exchanges and Refunds

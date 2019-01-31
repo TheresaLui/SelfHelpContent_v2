@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="31dc598c-c509-4e2d-9711-8eba9b2e9789"
+/>
 
 # Installing Azure AD Connect: Issues with AD forest
 

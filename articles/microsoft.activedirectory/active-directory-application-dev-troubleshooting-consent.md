@@ -8,7 +8,8 @@
   supportTopicIds="32596874"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="614761d8-81dd-4ab2-b232-322c2ed12598"
+/>
 
 # Problems troubleshooting consent
 

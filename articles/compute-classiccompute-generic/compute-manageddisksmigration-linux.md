@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571"
 	cloudEnvironments="public"
+	articleId="b6280349-a73f-4f10-b78e-aaa228a629f9"
 />
 # Management/Managed disks migration
 

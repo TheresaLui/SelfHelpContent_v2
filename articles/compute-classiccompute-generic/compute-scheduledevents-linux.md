@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16342,16065,15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="250ba69c-7415-4170-a44e-4a31923a31ef"
 />
 
 # Management/Scheduled events

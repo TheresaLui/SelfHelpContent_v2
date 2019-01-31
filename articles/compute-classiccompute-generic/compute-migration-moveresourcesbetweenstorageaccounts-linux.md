@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="0966bb2e-8151-4000-849d-8a28904e4c51"
 />
 
 # Move resources between storage accounts

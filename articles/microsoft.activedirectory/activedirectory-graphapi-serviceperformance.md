@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="34ca1b1c-839e-48f5-8d71-11a3954cd517"
 />
 
 # Microsoft Graph service performance

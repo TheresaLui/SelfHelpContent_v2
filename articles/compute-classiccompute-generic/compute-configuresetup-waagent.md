@@ -10,6 +10,7 @@
 	resourceTags="redhat,ubuntu"
 	productPesIds="15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="505344b8-e280-410a-85f2-dab7eda681b9"
 />
 
 # Configuration and setup of VM Agent and Extensions
