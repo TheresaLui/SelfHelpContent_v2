@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+	ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32613337"
@@ -13,6 +14,6 @@
 
 # tools/sql operations studio
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Azure Data Studio quickstart to connect and query Azure SQL Database](https://docs.microsoft.com/sql/azure-data-studio/quickstart-sql-database?toc=%2Fazure%2Fsql-database%2Ftoc.json&view=sql-server-2017/)

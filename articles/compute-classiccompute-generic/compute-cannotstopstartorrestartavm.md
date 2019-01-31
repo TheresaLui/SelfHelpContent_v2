@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="64b74fc9-728d-4454-bf0f-b62bb69b61fe"
 />
 
 # management/cannot stop, start, or restart a vm

@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571, 15797, 16454"
 	cloudEnvironments="public"
+	articleId="e21d3d0a-2bd3-4774-a855-3b0c63ccebe6"
 />
 
 # configuration and setup/deploy a new vm

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785,16578"
 	cloudEnvironments="public"
+	articleId="2646c216-624d-41f2-896c-1b3741b691f8"
 />
 
 # I have trouble configuring / managing federation with AD FS

@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571"
 	cloudEnvironments="public"
+	articleId="ddf15f99-a98d-4343-a28c-3f0bb571eedf"
 />
 
 # configuration and setup/create rds in azure

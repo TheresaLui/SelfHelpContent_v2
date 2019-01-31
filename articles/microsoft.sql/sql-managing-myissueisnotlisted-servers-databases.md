@@ -14,6 +14,6 @@
 
 # managing/my issue is not listed
 
+## **Recommended Documents**
 
-## **Recommended documents**
-[Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
+* [Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)

@@ -14,7 +14,7 @@
 
 # How to manage your data warehouse
 
-## **Recommended steps**
+## **Recommended Steps**
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
 
 1. Connect and manage your data warehouse through the [Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-data-warehouse).
@@ -22,5 +22,5 @@ The following details explain how to set up and update common access and permiss
 3. Ensure you have the [latest PowerShell module](https://docs.microsoft.com/powershell/azure/install-azurerm-ps?view=azurermps-6.3.0) and view the [available PowerShell commands](https://docs.microsoft.com/powershell/module/azurerm.sql/?view=azurermps-6.3.0#sql).
 4. For any other additional issues, please post on [stackoverflow](https://stackoverflow.com/).
 
-## **Recommended documents**
+## **Recommended Documents**
 [SQL Data Warehouse Cheat Sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet)

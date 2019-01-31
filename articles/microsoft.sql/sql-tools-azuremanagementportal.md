@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+	ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980409"
@@ -13,6 +14,6 @@
 
 # tools/azure management portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Query editor considerations](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-portal#query-editor-considerations/)

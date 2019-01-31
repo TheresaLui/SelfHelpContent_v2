@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="9b9288fc-ffe1-497f-96e1-3bd4553c23dd"
 />
 
 # worker role (paas)/configuration and management/certificate management
@@ -21,4 +22,4 @@
 * [Upload a certificate to an Azure Cloud Service](https://docs.microsoft.com/powershell/module/azure/add-azurecertificate?view=azuresmps-4.0.0)<br>
 * [How to enable Cloud Service SSL service for muti-domain configuration](https://blogs.msdn.microsoft.com/jianwu/2014/12/17/expose-ssl-service-to-multi-domains-from-the-same-cloud-service/)<br>
 * [Commonly asked questions on Certificate Management for Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-configuration-and-management-faq#certificates)<br>
-* [How to install a chained SSL Certificate](https://blogs.msdn.microsoft.com/azuredevsupport/2010/02/24/how-to-install-a-chained-ssl-certificate/)
+* [How to install a Certificate on Azure VMs](https://blogs.msdn.microsoft.com/jnak/2010/01/29/installing-certificates-in-windows-azure-vms/)

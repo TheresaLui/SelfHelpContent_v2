@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="8dfb88c7-64fb-40aa-9989-dd1550266f76"
 />
 
 # configuration and setup/deploy a new vm

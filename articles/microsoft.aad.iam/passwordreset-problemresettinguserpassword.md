@@ -1,6 +1,7 @@
 <properties pageTitle="User-initiated password reset" 
 	 description="Password Management/User-initiated password reset" 
 	 authors="sahenry" 
+	 ms.author="sahenry"
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615416,32615432" 
 	 productPesIds="16579" 
@@ -17,7 +18,7 @@
   "formElements": [
 	{
       "id": "correlationId",
-      "visibility": null,
+      "visibility": false,
       "order": 1,
       "controlType": "textbox",
       "displayLabel": "Correlation ID from Error message:",
@@ -67,7 +68,7 @@
       "numberOfLines": 0
     },
 	{
-      "id": "errorMessageAdditionalDetails",
+      "id": "problem_description",
       "visibility": null,
       "order": 4,
       "controlType": "multilinetextbox",

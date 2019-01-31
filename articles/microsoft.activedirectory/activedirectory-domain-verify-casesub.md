@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="dd4bebf8-60fe-4958-9148-2ce1689957c9"
+/>
 
 # I can't verify my domain name even though I added it to Azure AD
 

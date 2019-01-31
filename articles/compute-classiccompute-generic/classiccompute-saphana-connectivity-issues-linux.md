@@ -10,6 +10,7 @@
 	resourceTags="linux,redhat"
 	productPesIds="15571,15797"
 	cloudEnvironments="public"
+	articleId="7b415780-965d-44aa-aace-f6007ff22b2d"
 />
 
 # Connectivity/Connectivity issues that are related to SAP HANA large instances

@@ -10,6 +10,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571"
 	cloudEnvironments="public"
+	articleId="ca5cd14c-e7a3-4fdc-85e8-d3e630c36167"
 />
 
 # management/manage or use rds in azure

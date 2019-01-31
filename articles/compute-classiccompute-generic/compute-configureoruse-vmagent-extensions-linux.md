@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="15571"
 	cloudEnvironments="public"
+	articleId="7771e07d-229d-45bd-b388-e01a69483534"
 />
 
 # Configuration and setup of VM Agent and Extensions
