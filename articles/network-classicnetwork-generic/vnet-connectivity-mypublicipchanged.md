@@ -4,12 +4,14 @@
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavinahar"
+	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32589559"
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId=""
 />
 
 # connectivity/mypublicipchanged
