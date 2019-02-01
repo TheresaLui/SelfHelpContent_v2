@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
-	articleId=" "
+	articleId="57463"
 />
 
 # configurationandsetup/issuesconfiguringvnetpeering
