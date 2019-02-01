@@ -16,7 +16,7 @@
 
 # How to troubleshoot blobfuse mount issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Install Blobfuse on Linux](https://docs.microsoft.com/azure/storage/blobs/storage-how-to-mount-container-linux#install-blobfuse-on-linux)<br>
 - [How to mount blob storage as file system with Blobfuse](https://docs.microsoft.com/azure/storage/blobs/storage-how-to-mount-container-linux#mount)<br>
