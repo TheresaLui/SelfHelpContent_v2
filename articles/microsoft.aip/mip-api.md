@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Microsoft Information Protection SDK - Education"
-	description="Microsoft Information Protection SDK - Education"
+	pageTitle="Microsoft Information Protection SDK - API"
+	description="Microsoft Information Protection SDK - API"
 	service="microsoft.aip"
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
-	articleId="MIPSDK_Education"
+	articleId="MIPSDK_API"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584343"
+	supportTopicIds="32584329"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
 />
 
-# Microsoft Information Protection SDK - Education
+# Microsoft Information Protection SDK - API
 
 ## **Recommended Documents**
 
