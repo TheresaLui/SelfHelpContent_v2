@@ -16,7 +16,7 @@
 
 # How to troubleshoot blobfuse file system issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Performance and caching best practices](https://github.com/Azure/azure-storage-fuse#performance-and-caching)<br>
 - [Known Blobfuse issues](https://github.com/Azure/azure-storage-fuse/issues)<br>
