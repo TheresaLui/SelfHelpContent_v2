@@ -8,7 +8,7 @@
     displayOrder="23"
     articleId="Hdi_ScaleFailure_SasKeyExpired"
     selfHelpType="rca"
-    supportTopicIds="32588504, 32511179"
+    supportTopicIds="32629125, 32629126"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

@@ -9,7 +9,7 @@
     articleId="Hdi_Ambari_ClientMode"
     diagnosticScenario="HDInsightClientModeInsight"
     selfHelpType="rca"
-    supportTopicIds="32588427, 32588422, 32588445"
+    supportTopicIds="32628998, 32629139, 32629144"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

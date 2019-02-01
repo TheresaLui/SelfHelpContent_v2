@@ -9,7 +9,7 @@
     articleId="Hdi_Crud_PublicPolicy"
     diagnosticScenario="HDInsightDenyPublicIpInsight"
     selfHelpType="rca"
-    supportTopicIds="32588502, 32511166"
+    supportTopicIds="32629032, 32628987"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

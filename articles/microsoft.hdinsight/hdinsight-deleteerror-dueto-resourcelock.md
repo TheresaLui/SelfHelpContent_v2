@@ -8,7 +8,7 @@
     displayOrder="24"
     articleId="Hdi_DeleteError_ResourceLock"
     selfHelpType="rca"
-    supportTopicIds="32511166, 32588502, 32588503"
+    supportTopicIds="32628987, 32629037, 32629032"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

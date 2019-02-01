@@ -9,7 +9,7 @@
     articleId="Hdi_HighDiskUsage"
     diagnosticScenario="HDInsightDiskUsageInsight"
     selfHelpType="rca"
-    supportTopicIds="32588422, 32588427"
+    supportTopicIds="32628986, 32629091"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

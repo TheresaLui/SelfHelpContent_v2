@@ -10,7 +10,7 @@
     articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32588422, 32588429, 32588445"
+    supportTopicIds="32628984, 32629005, 32629006"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
