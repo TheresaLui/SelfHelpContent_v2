@@ -7,11 +7,11 @@
 	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32589559"
+	supportTopicIds="32597608"
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
-	articleId=""
+	articleId=" "
 />
 
 # connectivity/mypublicipchanged

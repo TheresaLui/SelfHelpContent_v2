@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
-	articleId=""
+	articleId=" "
 />
 
 # configurationandsetup/issuesconfiguringvnetpeering
@@ -21,5 +21,5 @@
 
 ## **Recommended documents**
 * [VNet Peering Fequently Asked Questions](hhttps://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)<br>
-* [VNet Peering overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overviewe)<br>
+* [VNet Peering overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)<br>
 * Learn about the [VNet Peering requirements and contraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints)<br>
