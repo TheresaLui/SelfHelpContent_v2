@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Key Management - BYOK
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [BYOK pricing and restrictions](https://docs.microsoft.com/azure/information-protection/byok-price-restrictions)<br>
 [What’s the difference between BYOK and HYOK and when should I use them?](https://docs.microsoft.com/azure/information-protection/faqs-rms#whats-the-difference-between-byok-and-hyok-and-when-should-i-use-them)<br>

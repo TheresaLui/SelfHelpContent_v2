@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Key Management - HYOK
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Hold your own key (HYOK) protection for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)<br>
 [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)<br>

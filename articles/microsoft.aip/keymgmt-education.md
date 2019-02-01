@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Key Management Education
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key)<br>
 [Operations for your Azure Information Protection tenant key](https://docs.microsoft.com/azure/information-protection/operations-tenant-key)<br>

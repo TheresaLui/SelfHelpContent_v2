@@ -42,7 +42,7 @@
 3. Click "Export Logs".
 4. Save the logs in your desired location and attach it to this service request.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Download Azure Information Protection Viewer](https://www.microsoft.com/download/details.aspx?id=54536)<br>
 [User Guide: View and use files that have been protected by Rights Management](https://docs.microsoft.com/azure/information-protection/rms-client/client-view-use-files)<br>

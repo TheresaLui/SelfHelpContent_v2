@@ -16,7 +16,7 @@
 
 # Azure Information Client - Third Party Clients
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)<br>
 [Download Azure Information Protection Viewer](https://www.microsoft.com/download/details.aspx?id=54536)<br>

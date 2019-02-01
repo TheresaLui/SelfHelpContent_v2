@@ -28,7 +28,7 @@
 3. From the **Manage** menu option, select **Unified labeling (Preview)**.
 4. On the **Azure Information Protection - Unified labeling** blade, select **Activate** and follow the online instructions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)<br>

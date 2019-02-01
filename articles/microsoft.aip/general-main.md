@@ -16,7 +16,7 @@
 
 # Azure Information Protection - General Guidance or Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>

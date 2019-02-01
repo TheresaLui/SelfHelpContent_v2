@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Admin and User Logs
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/azure/information-protection/log-analyze-usage)<br>

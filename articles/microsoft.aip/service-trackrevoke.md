@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Track and Revoke
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [User Guide: Track and revoke your documents when you use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-track-revoke)<br>
 [Admin Guide: Configuring and using document tracking for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-document-tracking)<br>

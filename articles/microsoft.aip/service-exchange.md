@@ -16,7 +16,7 @@
 
 # Azure Information Protection service - Exchange Online integration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Configuring Exchange Online mail flow rules for Azure Information Protection labels](https://docs.microsoft.com/azure/information-protection/configure-exo-rules)<br>
 [How Office applications and services support Azure Rights Management](https://docs.microsoft.com/azure/information-protection/office-apps-services-support)<br>
