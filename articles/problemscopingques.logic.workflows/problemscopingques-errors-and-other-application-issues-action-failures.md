@@ -70,11 +70,8 @@
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": false,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}
-			]
+			"useAsAdditionalDetails": true
+			
 		}
 	]
 }
