@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16556"
     cloudEnvironments="public"
+	articleId="cd82d87d-0a7a-443f-b0e4-84c6b5f5cc98"
 />
 # Configure Hybrid Network Traffic Filtering
 ## **Recommended documents**

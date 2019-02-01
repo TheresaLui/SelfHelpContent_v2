@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="2cc10d49-53d5-4ef9-83a4-85fe332401d4"
 />
 
 # Add or Remove Node Types

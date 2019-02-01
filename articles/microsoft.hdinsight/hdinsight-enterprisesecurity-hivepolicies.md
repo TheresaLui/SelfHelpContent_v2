@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="881a77e4-10ca-4b81-9833-5173293b95c1"
 />
 
 # Configure Apache Hive policies in HDInsight with Enterprise Security Package

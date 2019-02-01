@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="cc8ba078-7ce9-4485-bdd7-f79bf476e086"
 />
 
 # Azure Information Protection service - education

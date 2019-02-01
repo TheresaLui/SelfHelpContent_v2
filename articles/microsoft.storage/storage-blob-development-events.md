@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="873f1653-25d7-4865-a387-b427c062d37b"
 />
 
 # How to troubleshoot blob storage events

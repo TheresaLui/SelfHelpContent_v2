@@ -10,6 +10,7 @@
 	supportTopicIds="32630409"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="eeb46dff-62eb-4d87-b7a9-939908fc69df"
 />
 
 # backup/restore/automated backups or point in time restore

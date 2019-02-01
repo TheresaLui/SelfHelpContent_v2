@@ -9,6 +9,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="5e96c870-8080-409e-ad0d-d6cff6fc0dab"
 />
 
 # Cannot sign in to portal

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="624953c3-2cc7-448f-9b15-391e0341ce20"
 />
 
 # Azure Active Directory Authentication

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="fa5e87fb-f80e-437b-b7f4-e4d13b835934"
 />
 
 # Cluster Scaling

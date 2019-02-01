@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
+	articleId="3bd434a1-87a9-4cdf-864f-a67f8fb8d3ba"
 />
 
 # configuration and management/configuring custom domain names

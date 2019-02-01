@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
+	articleId="2713b46d-6072-4384-a3a9-3bc2222dac73"
 />
 
 # Configuration and Management/Deployment slots

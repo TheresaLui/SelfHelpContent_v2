@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="4caa4f97-234f-4302-a13a-59c16da11dca"
 />
 
 #  Performance/Functions scaling issues

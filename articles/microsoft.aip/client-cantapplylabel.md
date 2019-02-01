@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="a2e21818-3554-4ea5-bde3-5a02a3241ada"
 />
 
 # Azure Information Protection client - can't apply this label error

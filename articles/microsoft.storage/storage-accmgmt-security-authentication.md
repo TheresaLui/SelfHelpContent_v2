@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629,16459"
 	cloudEnvironments="public"
+	articleId="b899df06-8ac3-47f3-a10e-4842e559f703"
 />
 
 # How to troubleshoot access issue

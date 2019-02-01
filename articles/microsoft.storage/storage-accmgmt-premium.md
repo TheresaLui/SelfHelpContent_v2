@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="9d9458e6-3527-4d72-813f-46b955f73b2e"
 />
 
 # What is Premium Storage

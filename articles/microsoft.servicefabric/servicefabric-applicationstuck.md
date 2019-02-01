@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="24a81ccd-f5d0-4f6a-ab14-c0e5a0e92ebd"
 />
 
 # application/stuck

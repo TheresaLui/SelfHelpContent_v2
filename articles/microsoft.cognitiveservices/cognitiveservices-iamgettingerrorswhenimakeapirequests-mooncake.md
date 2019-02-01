@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="972789cc-f457-4f24-ae90-572556d4bf22"
 />
 
 # I am getting 403/429 errors when I make API requests

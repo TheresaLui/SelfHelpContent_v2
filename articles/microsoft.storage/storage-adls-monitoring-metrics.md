@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16598"
 	cloudEnvironments="public"
+	articleId="62f25d85-8301-40b9-9785-8e96f3b33758"
 />
 
 # Azure Data Lake Storage Metrics and Logs

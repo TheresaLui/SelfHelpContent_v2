@@ -9,6 +9,7 @@
 	supportTopicIds="32045128"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="07a55e2f-ee36-4b04-aad8-085a3e0b0729"
 />
 
 # design and development/My issue is not listed

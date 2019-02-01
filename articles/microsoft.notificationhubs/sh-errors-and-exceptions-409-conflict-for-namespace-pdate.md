@@ -10,6 +10,7 @@
 	productPesIds="15973"
 	supportTopicIds="32565578"
 	cloudEnvironments="public"
+	articleId="f1d1e27a-3780-42ec-ba39-1c994e8fd6d3"
 />
 
 # Errors and Exceptions/409 Conflict for Namespace Update

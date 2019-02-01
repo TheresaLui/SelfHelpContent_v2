@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="10963802-4299-4c3b-a41f-0a507f64fecc"
 />
 
 # Azure Information Protection client - PowerShell issues

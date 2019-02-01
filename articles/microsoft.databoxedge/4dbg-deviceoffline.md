@@ -12,6 +12,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="842f687b-c163-4afd-bd6d-914fb4c1d589"
 />
 
 # My device appears offline in the portal

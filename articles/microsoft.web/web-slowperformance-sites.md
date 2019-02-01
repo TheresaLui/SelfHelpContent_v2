@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="e38a3bde-29d9-4b5e-a5eb-f25a44608bd9"
 />
 
 # availability, performance, and application issues/slow performance

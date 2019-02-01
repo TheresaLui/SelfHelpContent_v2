@@ -9,6 +9,7 @@
 	supportTopicIds="32628413, 32628390, 32628414"
 	productPesIds="16221"
 	cloudEnvironments="public"
+	articleId="d46364d3-7f26-4004-a67b-30c47cd73662"
 />
 
 # connectivity/VNET service endpoints

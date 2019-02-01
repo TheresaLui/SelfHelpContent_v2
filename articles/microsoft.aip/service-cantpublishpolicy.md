@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="903b7aa4-2d44-490c-a710-916b258509c6"
 />
 
 # Azure Information service - can't publish policy

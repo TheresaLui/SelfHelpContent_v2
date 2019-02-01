@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="52d5cdb0-712f-460d-915a-4ba87e5b2285"
 />
 
 # Error: Database 'x' on server 'y' is not currently available

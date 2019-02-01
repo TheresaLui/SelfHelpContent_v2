@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public, MoonCake"
+	articleId="2d9723cf-4cc3-4312-b1da-3ab13c406d0e"
 />
 
 # managing/elastic scale

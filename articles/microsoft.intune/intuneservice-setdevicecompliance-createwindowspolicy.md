@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="2cd84cab-926d-447a-9ec7-21217c7cf7e5"
 />
 
 # Set device compliance - Create Windows Policy

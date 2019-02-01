@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
+	articleId="48fb0d99-c2ee-4558-a91a-ef9940c31c5b"
 />
 
 # Connection issues to Azure Databases for PostgreSQL

@@ -10,6 +10,7 @@
 	resourceTags=""	
 	productPesIds="16123"
 	cloudEnvironments="public,BlackForest,Fairfax" 
+	articleId="008bab08-8d3b-4506-8c45-96718ac1b937"
 />
 
 # How do I know if I have any active listeners?

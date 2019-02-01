@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="77fddd59-5718-4315-ac95-12aa65b7be02"
 />
 
 # My bot is slow

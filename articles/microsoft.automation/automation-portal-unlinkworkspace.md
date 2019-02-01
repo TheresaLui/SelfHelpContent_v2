@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="5e74794f-d5fc-4e2f-aaaa-e622b9dd8f4e"
 />
 
 # Azure Automation - Automation Account - Unlink Workspace

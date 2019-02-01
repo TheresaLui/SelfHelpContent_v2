@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="106ae851-713c-45b6-9ab9-f36ecfc976e2"
 />
 
 # Access Control

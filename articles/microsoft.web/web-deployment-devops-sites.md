@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14748,16170,16333"
 	cloudEnvironments="public"
+	articleId="592b1994-7ca8-4033-9bd4-1b94c0b9b625"
 />
 
 # Deployment\Azure DevOps

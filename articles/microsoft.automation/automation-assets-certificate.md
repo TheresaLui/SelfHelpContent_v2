@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="ca1785e9-8f53-4796-ba63-b07c32456775"
 />
 
 # Azure Automation - Shared Resources - Certificates

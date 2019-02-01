@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="75b5c7b4-12c4-4576-808d-0e8c75efe70b"
 />
 
 # Azure Information Protection client - Office apps are crashing

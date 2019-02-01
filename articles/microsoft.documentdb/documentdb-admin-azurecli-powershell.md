@@ -9,7 +9,8 @@
 	supportTopicIds="32597494"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"/>
+	cloudEnvironments="public"	articleId="1e033ba3-fbf7-485b-9d07-97d19630591f"
+/>
 
 # Unable to create a collection with unique key from Azure CLI
 

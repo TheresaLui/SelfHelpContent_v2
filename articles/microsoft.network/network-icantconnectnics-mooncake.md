@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="8115f445-c9e0-43c4-8e88-ed594d14fae8"
 />
 
 # I can't connect to my secondary NIC

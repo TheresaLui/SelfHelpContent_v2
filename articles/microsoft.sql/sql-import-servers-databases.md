@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="7fbb6bb8-97f4-4ec5-b9b0-d96f47b57bed"
 />
 
 # import/export service/import

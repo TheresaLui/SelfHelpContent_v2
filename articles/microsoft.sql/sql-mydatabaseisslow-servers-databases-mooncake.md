@@ -10,6 +10,7 @@
 	resourceTags="databases, servers"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="e7837bcf-3ff1-4955-ac58-06010394d7a1"
 />
 
 # My database is slow

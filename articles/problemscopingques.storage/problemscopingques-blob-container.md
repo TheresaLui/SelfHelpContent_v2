@@ -7,6 +7,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="badbcc16-a9ce-4545-b184-c608a660d839"
 />
 # Storage Blob Container name and path scoping question
 ---

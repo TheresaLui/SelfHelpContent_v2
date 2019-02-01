@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="44d025da-bf54-4507-88ee-295587c622fa"
 />
 
 # Azure Information Client - AIP Scanner 

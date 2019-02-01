@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="989307be-883e-45eb-b8f2-f747c7deca56"
 />
 # Gremlin - Importing data
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="807c0bd9-f6e8-4144-ab95-9e11b6df3f83"
 />
 
 # query execution/other errors or exceptions

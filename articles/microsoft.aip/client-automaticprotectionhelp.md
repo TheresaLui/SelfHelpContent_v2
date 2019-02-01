@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="e814fd5d-9e33-43dc-871b-7cb3c3c952a8"
 />
 
 # Azure Information Protection client - automatic protection 

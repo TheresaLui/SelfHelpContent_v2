@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="019b47bd-d8fc-4e7e-86b3-e6a35d44ad50"
 />
 
 # Connection issues to SQL Azure DB

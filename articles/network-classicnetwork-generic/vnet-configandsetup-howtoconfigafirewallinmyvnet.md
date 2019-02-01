@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="d826a71a-d2e7-4842-9453-558bd88b0edf"
 />
 
 # configurationandsetup/howtoconfigureafirewallinmyvirtualnetwork

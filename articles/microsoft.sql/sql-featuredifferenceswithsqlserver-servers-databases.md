@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="6a5ddb81-adc9-41ac-b06a-360b5327c84d"
 />
 
 # design and development/feature differences with sql server

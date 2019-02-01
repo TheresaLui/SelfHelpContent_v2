@@ -10,6 +10,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="fc37f9b1-3a19-43da-bdcf-0cfdbf0656d6"
 />
 
 # Why is my scale set not updating

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="ce6a5a39-cbfa-4212-a68c-a282adfbac0e"
 />
 
 # I'm seeing HTTP 500 exceptions reported by my bot

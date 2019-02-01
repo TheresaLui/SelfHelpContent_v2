@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="5b2386bf-2c63-409b-ba0e-a0cdcb23f2fa"
 />
 
 # Azure Stack Syslog Forwarding Integration

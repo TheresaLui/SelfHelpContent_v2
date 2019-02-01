@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="50aa33d1-b6e6-4d1a-9268-2b781944f3e5"
 />
 
 # Introduction to Azure Cosmos DB Indexing

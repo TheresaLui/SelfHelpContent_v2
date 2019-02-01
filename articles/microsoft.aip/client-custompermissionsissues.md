@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="94836c99-75be-4351-82c2-82c211ce11b3"
 />
 
 # Azure Information Protection client - custom permissions issues 
