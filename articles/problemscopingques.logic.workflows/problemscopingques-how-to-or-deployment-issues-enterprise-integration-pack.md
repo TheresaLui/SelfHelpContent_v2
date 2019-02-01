@@ -21,7 +21,7 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Incident time",
-			"required": false
+			"required": true
 		},
 		{
 			"id": "3",
@@ -46,7 +46,7 @@
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
-			"useAsAdditionalDetails": true	
+			"useAsAdditionalDetails": true
 		}
 	]
 }

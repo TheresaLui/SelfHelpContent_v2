@@ -21,7 +21,7 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Incident time",
-			"required": false
+			"required": true
 		},
 		{
 			"id": "3",
