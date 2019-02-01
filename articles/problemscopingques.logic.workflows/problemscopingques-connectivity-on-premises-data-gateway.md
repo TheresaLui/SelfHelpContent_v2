@@ -17,7 +17,7 @@
 	"title": "Connectivity - On-Premises Data Gateway",
 	"fileAttachmentHint": "Please export and attach the On-Premises Data Gateway log",
 	"formElements": [{
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Incident time",
@@ -69,7 +69,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true
 		}
 	]

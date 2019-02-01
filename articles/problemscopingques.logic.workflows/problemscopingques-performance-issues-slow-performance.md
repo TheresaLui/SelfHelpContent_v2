@@ -17,7 +17,7 @@
 	"title": "Slow Performance",
 	"fileAttachmentHint": "Please provide screenshots showing the error or any relevant files",
 	"formElements": [{
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Incident time",
@@ -69,8 +69,8 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
-			"required": false,
-			"useAsAdditionalDetails": true			]
+			"required": true,
+			"useAsAdditionalDetails": true
 		}
 	]
 }
