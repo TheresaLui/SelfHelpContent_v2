@@ -17,11 +17,12 @@
 # Azure AD Connect: Object not syncing
 
 ## **Recommended Steps**
-If you find that an object is not syncing or UPN mismatch then use [Azure AD Connect troubleshooting task]( https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to investigate and resolve the issue.
 
-If troubleshooting task didn’t help you then go through [Troubleshoot an object that is not synchronizing to Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing) document to investigate and trouble the issue.
+* If an object is not syncing or has a UPN mismatch, use the [Azure AD Connect troubleshooting steps]( https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-objectsync) to investigate and resolve the issue
+* If the above steps did not resolve your sync issue, try [troubleshooting an object that is not synchronizing to Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-object-not-syncing) 
 
 ## **Recommended Documents**
+
 * [Azure AD Connect sync: Technical Concepts](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-technical-concepts)
 * [Azure AD Connect sync: Understanding the architecture](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-architecture)
 * [Azure AD Connect sync: Understanding Declarative Provisioning](https://docs.microsoft.com/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning)
