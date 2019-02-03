@@ -33,7 +33,7 @@
   - If you use a web proxy that requires authentication, you must configure it to use integrated Windows authentication with the user's Active Directory logon credentials.
 
   - Do not terminate the TLS client-to-service connections (for example, to do packet-level inspection) to the Azure Rights Management service. Doing so breaks the certificate pinning that RMS clients use with Microsoft-managed CAs to help secure their communication with the Azure Rights Management service.
-[More information regarding Firewalls and network infrstructure requirments](https://docs.microsoft.com/azure/information-protection/get-started/requirements#firewalls-and-network-infrastructure)
+[More information regarding Firewalls and network infrastructure requirements](https://docs.microsoft.com/azure/information-protection/get-started/requirements#firewalls-and-network-infrastructure)
 
 ## How to export Azure Information Protection Viewer logs
 
