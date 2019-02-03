@@ -25,7 +25,9 @@ Please also check the registry settings are defined correctly depending on your 
 [Exchange 2010](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2010-registry-settings)
 
 ## Potential issues:
+
 Users cannot use Exchange IRM features, like OWA
+
 1.	Is user able to open email in Outlook? If no, not a connector issue, drive to Office or Microsoft RMS queues.
 
 2.	Is this specific to one user or a specific piece of content? If yes, go to #7
@@ -70,6 +72,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 <br>
 	
 ## The Admin cannot enable the IRM Integration in Exchange
+
 1.	In Exchange, use Test-IRMConfiguration. If it works, go to #6
 
 2.	Check Exchange configuration with:
