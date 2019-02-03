@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="d1890385-925f-4f05-bc56-a9032ef7275a"
 />
 
 # configurationandsetup/howtoassociateansgwithavmorsubnet

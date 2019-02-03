@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="d7a99bd7-9456-4186-aae4-a4e6b85c0bf0"
 />
 
 # Change to ZRS replication type

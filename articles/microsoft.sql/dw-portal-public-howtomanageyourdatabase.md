@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="56f5ea64-2298-4164-bc0d-86134bb00552"
 />
 
 # How to manage your data warehouse

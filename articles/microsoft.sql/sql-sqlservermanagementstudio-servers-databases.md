@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="0b9fad20-be15-4f48-be84-7de14055bd9e"
 />
 
 # tools/sql server management studio

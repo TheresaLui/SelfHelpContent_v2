@@ -10,7 +10,8 @@
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="f77b8ca9-1dd7-42ea-a912-408ad2b6ea7b"
+/>
 
 # I can't delete my domain name
 

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="3e6b1236-c4e1-4f44-b276-3f7a3d93103a"
 />
 
 # Configuring and Managing Function Apps/Configuring continuous integration (CI)

@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="56f0e2a5-8c7c-4554-89d2-b9e25080aef9"
 />
 
 # Azure Information Protection - General Guidance or Advisory

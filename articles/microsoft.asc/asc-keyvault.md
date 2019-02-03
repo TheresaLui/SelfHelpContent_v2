@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="9628bbb6-fedd-4f5f-ab9a-c97c64099a59"
 />
 
 # ASC/Certificate Key Vault Binding/Link

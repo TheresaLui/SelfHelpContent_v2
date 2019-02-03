@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628273"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="4c3f9765-562b-492b-9945-ac75d872add3"
 />
 
 # Log Analytics (OMS) extension issue

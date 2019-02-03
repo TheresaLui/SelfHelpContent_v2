@@ -11,6 +11,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="d87fd8f0-45c1-4beb-8b3a-a3a4808af888"
 />
 
 # How to improve and debug performance

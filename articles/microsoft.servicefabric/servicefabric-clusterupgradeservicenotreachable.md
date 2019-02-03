@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c04d7e62-3b60-4eb0-bac3-86067fedf102"
 />
 
 # Upgrade Service Not Reachable

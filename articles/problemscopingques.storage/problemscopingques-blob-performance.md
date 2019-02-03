@@ -7,6 +7,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="51f6b586-c2a9-4744-b7d3-8f01cef66201"
 />
 # Blob performance issue
 ---

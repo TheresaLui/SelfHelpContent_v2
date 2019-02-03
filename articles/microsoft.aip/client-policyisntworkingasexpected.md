@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="77cd6fb8-8ea8-4d85-b30f-b45fa7622124"
 />
 
 # Azure Information Protection client - policy isn't working as expected

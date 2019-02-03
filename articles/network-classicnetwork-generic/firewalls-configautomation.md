@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16556"
     cloudEnvironments="public"
+	articleId="50a61557-0235-480d-8abc-4e3295cb77bf"
 />
 # Configure Automation
 ## **Recommended documents**

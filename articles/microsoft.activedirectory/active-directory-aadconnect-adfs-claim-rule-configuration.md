@@ -11,6 +11,7 @@
 	productPesIds="16579"
 	cloudEnvironments="public"
     ms.author="billmath"
+	articleId="e5a77324-fcfe-46c1-9bc0-c4c21d423fc7"
 />
 
 # Claim Rule Configuration

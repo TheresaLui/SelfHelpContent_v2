@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="ff89e001-8032-4a67-ad2c-ca13296b1f27"
 />
 
 # MongoDB connectors and tools

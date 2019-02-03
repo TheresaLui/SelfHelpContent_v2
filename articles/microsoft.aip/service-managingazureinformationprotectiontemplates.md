@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="342f4408-16f8-4570-95e3-9f716dbcb8c9"
 />
 
 # Azure Information Protection service - managing protection templates

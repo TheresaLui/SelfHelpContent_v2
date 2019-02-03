@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491,16259"
 	cloudEnvironments="public"
+	articleId="3278b62e-de20-4403-8e0f-6396dabc9fb1"
 />
 
 # security/always encrypted

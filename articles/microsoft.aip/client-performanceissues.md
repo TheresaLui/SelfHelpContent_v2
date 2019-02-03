@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="fe41ad8e-58bc-427f-8948-83e254775d08"
 />
 
 # Azure Information Protection client - performance issues

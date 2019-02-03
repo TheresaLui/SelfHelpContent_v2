@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="5a31f455-f54c-42c9-89cf-350cda1ecd93"
 />
 # Change tier for a managed instance
 

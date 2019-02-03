@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="56d03b38-9b5d-4f05-bfcc-6751871252d3"
 />
 
 # configurationandsetup/howtoconfiguresubnetforserviceendpoints

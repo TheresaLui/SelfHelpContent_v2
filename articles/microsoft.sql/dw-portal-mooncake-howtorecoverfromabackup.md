@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="0a51cdd7-e610-4487-a692-eccf3a504fe2"
 />
 
 # How to recover from a backup

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="ef4ae747-6116-4834-93df-d8abb5c77054"
 />
 
 # Configure ExpressRoute Circuit

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="95797184-4ee4-4454-819d-2ac728bc3ba6"
 />
 # Client API driver issues
 

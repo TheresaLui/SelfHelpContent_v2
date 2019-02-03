@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="1de4f053-1b61-4fb2-8a61-ebe17cff2add"
 />
 
 # Troubleshooting Azure Backup Server restore failures issues

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="88730035-f99d-44e6-900f-fdaa9d066f27"
 />
 
 # I'm seeing connectivity issues with my IoT devices

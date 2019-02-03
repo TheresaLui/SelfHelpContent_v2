@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16147"
 	cloudEnvironments="public"
+	articleId="dff903db-a3a3-4260-90ad-b3480e608892"
 />
 
 # Service Fabric Linux Common Solutions

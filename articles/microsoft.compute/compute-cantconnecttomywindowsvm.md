@@ -11,6 +11,7 @@
     resourceTags="windows, windowsSQL"
     productPesIds="14749,14745"
     cloudEnvironments="public"
+	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
 />
 
 # I can't connect to my Windows VM

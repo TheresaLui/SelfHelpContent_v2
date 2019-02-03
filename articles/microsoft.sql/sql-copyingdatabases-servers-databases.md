@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="c63b390b-0992-4040-bcdc-7621abfe08fb"
 />
 
 # managing/copying databases

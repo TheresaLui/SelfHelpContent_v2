@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="3fdc9ce8-4da4-465d-ab2f-06de0ee0e7f6"
 />
 
 # How to troubleshoot blob timeout error

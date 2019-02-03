@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="49cd9fe9-c3d2-4742-9813-6ec983a9002e"
 />
 
 # application/upgradeservicenotreachable

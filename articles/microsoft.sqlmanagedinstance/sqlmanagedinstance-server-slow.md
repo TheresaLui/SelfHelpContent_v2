@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="486b613a-76d3-4da7-b289-05245ed441a2"
 />
 # Database server is slow or unresponsive
 

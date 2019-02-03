@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="94bdcf36-835f-4c74-9fea-1ece99ad35a2"
 />
 
 # Performance and latency

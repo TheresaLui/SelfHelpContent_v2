@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="c1e51278-0042-475c-b30a-dbe55d5639c8"
 />
 
 # How to develop with client library or SDK

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="3b1ce3da-7fb5-4400-9ad3-fecf6432da83"
 />
 
 # My VM restarted unexpectedly

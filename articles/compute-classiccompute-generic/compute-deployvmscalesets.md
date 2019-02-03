@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
+	articleId="51a4a9c2-9fda-4d32-b633-e3aafaa81247"
 />
 
 # Configuration and Setup/Deploy VM Scale Sets (Windows)

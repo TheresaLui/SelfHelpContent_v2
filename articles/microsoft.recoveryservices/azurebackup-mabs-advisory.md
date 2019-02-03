@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="c3b1ad31-0fc2-4f6c-b462-fc679f2c7b46"
 />
 # Configure Backup with Azure Backup server
 

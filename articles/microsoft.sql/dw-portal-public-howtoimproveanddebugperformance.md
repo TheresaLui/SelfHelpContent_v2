@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="1d1896d2-fb25-4bde-a468-35a04b7292fd"
 />
 
 # How to enhance or troubleshoot query performance

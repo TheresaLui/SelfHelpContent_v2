@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="a7ee66ca-fb61-41f7-a8a4-6b2afcd87232"
 />
 
 # Reprotecting the azure VM in the secondary region

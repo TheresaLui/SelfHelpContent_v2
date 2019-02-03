@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
+	articleId="601bdc6e-1aa5-4dde-994a-f388dd10e75c"
 />
 
 # I can't add nodes to my cluster

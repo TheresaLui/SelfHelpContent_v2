@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="61587838-b6ce-47fe-b6ee-f9ed9bc02120"
 />
 
 # Issues related to activating a Windows license in Azure

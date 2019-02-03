@@ -7,6 +7,7 @@
 	productPesIds="16208,15571,15797"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="3561f156-4abd-4450-9a71-792802e50f89"
 />
 
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="29f37635-647b-435c-b7c5-727d480b9414"
 />
 
 # application/errorandexceptions

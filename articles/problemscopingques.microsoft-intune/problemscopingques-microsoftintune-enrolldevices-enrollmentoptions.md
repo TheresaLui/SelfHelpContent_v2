@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="292536da-22ef-4a79-83eb-2d97e13648cf"
 />
 # Enroll Devices - Enrollment options
 ---

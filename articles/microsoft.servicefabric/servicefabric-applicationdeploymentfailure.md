@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="a179d458-e2a6-4e16-bdb8-5104b3d3d166"
 />
 
 # application/deploymentfailures

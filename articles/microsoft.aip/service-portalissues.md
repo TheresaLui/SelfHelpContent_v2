@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="4eeffdf8-2526-468a-8ba9-757b021fffa7"
 />
 
 # Azure Information Protection service - Azure portal issues

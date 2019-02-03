@@ -7,6 +7,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="bb8a93ca-13a4-4972-8714-eaafe179a6a9"
 />
 # Storage issue with date time
 ---

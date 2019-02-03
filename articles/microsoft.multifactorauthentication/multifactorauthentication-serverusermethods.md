@@ -8,6 +8,7 @@
   supportTopicIds="32570989"
   productPesIds="14947"
   cloudEnvironments="public"
+	articleId="7c1fe4e6-4539-4bb7-aab0-6d9ec8a93d8d"
 />
 
 # User MFA methods issues

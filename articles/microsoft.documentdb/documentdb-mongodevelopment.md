@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="a488f579-c167-4790-b881-c2c63c26f6c6"
 />
 # MongoDB - How to develop apps to manage data in MongoDB API?
 

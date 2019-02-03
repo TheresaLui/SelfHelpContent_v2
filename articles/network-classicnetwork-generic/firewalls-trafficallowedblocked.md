@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16556"
     cloudEnvironments="public"
+	articleId="a8997b25-c305-46ec-b896-2d5fbd639d6b"
 />
 # Traffic allowed or blocked issues
 ## **Recommended documents**

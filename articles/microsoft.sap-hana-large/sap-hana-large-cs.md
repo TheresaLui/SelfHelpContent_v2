@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16208"
     cloudEnvironments="public"
+	articleId="4b1cbf64-885d-4f72-ad06-692b1e1c40f7"
 />
 
 # SAP HANA on Azure Large Instances

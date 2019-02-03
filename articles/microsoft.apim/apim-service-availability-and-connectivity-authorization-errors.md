@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="4b5a7a53-5f1a-496b-98c8-3195aef07b67"
 />
 
 # Authorization errors

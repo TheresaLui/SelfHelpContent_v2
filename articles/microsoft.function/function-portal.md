@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="cda73f84-a775-4414-a902-3cfda0b67eed"
 />
 
 # Portal Issues

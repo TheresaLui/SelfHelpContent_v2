@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="60104acd-2ba8-4bc1-9380-d48c3eeab3ba"
 />
 
 # I need a copy of my bill or usage

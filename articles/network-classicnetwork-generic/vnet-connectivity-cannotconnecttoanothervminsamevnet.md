@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="118399a2-440f-44c4-80b7-1c364ec51f01"
 />
 
 # connectivity/cannotconnecttoanothervirtualmachineinthesamevnet

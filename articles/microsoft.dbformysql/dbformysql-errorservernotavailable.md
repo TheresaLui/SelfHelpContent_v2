@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
+	articleId="9d770462-3315-4211-abd0-e7d45a944a3d"
 />
 
 # Error: Server not available

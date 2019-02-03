@@ -10,6 +10,7 @@
 	supportTopicIds="32630433"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="3236870f-0cd0-4a2a-b143-873b049241d2"
 />
 
 # migrating to azure/migration tools

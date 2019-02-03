@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="bd2d7935-c916-4819-95c1-c9c2ec1a51f1"
 />
 
 # Azure Information Protection service - subscription and license issues

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ed1aaaa4-1761-4969-bdeb-c4b449b052b0"
 />
 
 # Availability and Connectivity/other
