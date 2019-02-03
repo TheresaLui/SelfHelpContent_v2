@@ -25,6 +25,7 @@ Please check the registry settings are defined as well as described here: [Share
 ## Potential issues:
 
 ## Admin cannot enable IRM in SharePoint
+
 1.	Check the SharePoint Admin UI, that the server is configured with the “Use this RMS server” and pointing it manually to the Connector URL (not to the Microsoft RMS URL). 
 
 2.	If using SharePoint 2013 check the MSIPC version in the SharePoint server. Must be 2.1 or later. 
