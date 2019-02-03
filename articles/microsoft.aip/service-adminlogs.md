@@ -1,4 +1,3 @@
-=======
 <properties
 	pageTitle="Azure Information Service - Education"
 	description="Azure Information Service - Education"
