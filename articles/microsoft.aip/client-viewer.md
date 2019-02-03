@@ -16,9 +16,9 @@
 
 # Azure Information Client - Viewer Issues
 
-## Recommended troubleshooting steps
+## ** Recommended Steps **
 
-1. Verify you are logged in to Azure Information Protection with the correct user which should have permissions to open the file.
+1. Verify you are logged in to Azure Information Protection with the correct permissions to open the file
 
 2. If you have a firewall or similar intervening network devices that are configured to allow specific connections, see the information for **Azure Rights Management (RMS)** in the [Office 365 portal and shared](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US#bkmk_portal-identity) section from the following Office article: [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 

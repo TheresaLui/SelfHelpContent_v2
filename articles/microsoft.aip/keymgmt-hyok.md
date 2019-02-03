@@ -23,4 +23,4 @@
 [What’s the difference between BYOK and HYOK and when should I use them?](https://docs.microsoft.com/azure/information-protection/faqs-rms#whats-the-difference-between-byok-and-hyok-and-when-should-i-use-them)<br>
 [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)
+[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
