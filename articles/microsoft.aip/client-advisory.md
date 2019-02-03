@@ -5,7 +5,7 @@
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
-	articleId="General_Guidance_or_Advisory"
+	articleId="56f0e2a5-8c7c-4554-89d2-b9e25080aef9"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32592926"
