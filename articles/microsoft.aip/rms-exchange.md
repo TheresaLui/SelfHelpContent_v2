@@ -21,7 +21,7 @@
 Please be sure you meet the pre-requisites here:
 [Configuring an Exchange server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-an-exchange-server-to-use-the-connector)
 Please also check the registry settings are defined correctly depending on your Exchange Server version as outlined here:
-[Exchange 2013 and 2016](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2016-or-exchange-2013-registry-settings)
+[Exchange 2013 and 2016](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2016-or-exchange-2013-registry-settings)<br>
 [Exchange 2010](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2010-registry-settings)
 
 ## Potential issues:
@@ -56,7 +56,7 @@ It may also indicate a problem with the DNS pointer or with load balancing. Try 
 An event 2001 indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
 An event 3000 indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
 
-6.	If a specific server can’t consume the content but others can’t, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above. 
+6.	If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above. 
 
 7.	Check if user and group membership is properly replicated in AAD. 
 Check if user has rights to the content in Outlook. 
@@ -65,7 +65,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 8.	Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server (needs to be Mode 2 capable client as per http://technet.microsoft.com/en-us/library/hh867439(v=ws.10).aspx#BKMK_Pre ). 
+	c.	Wrong MSDRM version in Exchange server (needs to be Mode 2 capable client as per http://technet.microsoft.com/library/hh867439(v=ws.10).aspx#BKMK_Pre 
 
 <br>
 	
@@ -107,7 +107,8 @@ Check if resending the content after unprotecting and re-protecting works (may h
 	b.	SSL certificate in connector not trusted by Exchange servers
 	c.	Wrong MSDRM version in Exchange server (needs to be Mode 2 capable client as per http://technet.microsoft.com/en-us/library/hh867439(v=ws.10).aspx#BKMK_Pre). 
 
-	If that fails does not help
+
+If all of the above didn't help, please collect the below logs and add them to your suppot ticket
 
 Create an RMS Analyzer trace on the Exchange Server and a RMS connector Trace at the same time.
 RMS connector as described here: [Logging](https://docs.microsoft.com/azure/information-protection/monitor-rms-connector#logging)<br>
@@ -120,6 +121,8 @@ Start logging
 Reproduce the issue
 Afterwards stop logging
 Attach the create zip/cab file to the support call and explain what you are trying to do
+
+
 
 ## **Recommended Documents**
 
