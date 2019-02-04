@@ -30,7 +30,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What extension are you trying to configure?",
                   "required": false,
-                  "useAsAdditionalDetails": false,
+                  "useAsAdditionalDetails": false
                 },{
                     "id": "extension_operation",
                     "order": 3,
