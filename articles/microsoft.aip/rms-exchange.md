@@ -16,7 +16,7 @@
 
 # RMS Connector - Exchange
 
-## **Recommended troubleshooting steps**
+## **Recommended Steps**
 
 Please be sure you meet the pre-requisites here:<br>
 [Configuring an Exchange server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-an-exchange-server-to-use-the-connector)<br>
