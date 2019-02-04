@@ -16,7 +16,7 @@
 
 # Azure Information Client - Viewer Issues
 
-## ** Recommended Steps **
+## **Recommended Steps**
 
 1. Verify you are logged in to Azure Information Protection with the correct permissions to open the file
 
