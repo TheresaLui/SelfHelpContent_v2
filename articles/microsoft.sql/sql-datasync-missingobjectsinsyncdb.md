@@ -19,6 +19,7 @@
 
 <!--issueDescription-->
 We were able to detect that Data Sync related objects are missing from Sync Metadata database. Data Sync cannot run without these objects.<br>
+
 The error message **<!--$SyncDBErrorMessage--> SyncDBErrorMessage <!--/$SyncDBErrorMessage-->** was detected on the sync metadata database <!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->/<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->.
 <!--/issueDescription-->
 
