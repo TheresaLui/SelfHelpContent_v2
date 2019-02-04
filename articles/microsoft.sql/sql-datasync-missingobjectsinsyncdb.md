@@ -18,19 +18,17 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We were able to detect that Data Sync related objects are missing from Sync Metadata database, Data Sync cannot run without this objects.<br>
-The error message **<!--$SyncDBErrorMessage--> SyncDBErrorMessage <!--/$SyncDBErrorMessage-->** was detected on the sync metadata database <!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->/<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->
+We were able to detect that Data Sync related objects are missing from Sync Metadata database. Data Sync cannot run without these objects.<br>
+The error message **<!--$SyncDBErrorMessage--> SyncDBErrorMessage <!--/$SyncDBErrorMessage-->** was detected on the sync metadata database <!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->/<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->.
 <!--/issueDescription-->
 
-This is usually a situation we cannot recover from and requires your sync account to be cleaned from the backend so you can start from scratch.<br>
+This is a situation we cannot usually recover from, and requires your sync account to be cleaned from the backend so you can start from scratch.<br>
 
 ## **Recommended Steps**
 
-In case you are aware that the objects were removed from your database please proceed with the support request submission and let us know if you can remove all the sync groups and sync agents from the Azure backend in the details section.
+In case you are aware that the objects were removed from your database, please proceed with the support request submission and let us know if you can remove all the sync groups and sync agents from the Azure backend in the details section.
 
-If you unsure about the missing objects, run the script below from either Windows or Azure Cloud Shell and share the results with us.
-This script will check the missing objects from Sync Metadata Database.
-Based on the missing objects we will provide you an action plan.
+If you unsure about the missing objects, run the script below from either Windows or Azure Cloud Shell and share the results with us. This script will check the missing objects from Sync Metadata Database. Based on the missing objects, we will provide you an action plan.
 
 ```powershell
 
@@ -46,5 +44,5 @@ Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Conten
 
 ```
 
-## Disclaimers
-This scripts are copyright Microsoft Corporations and are provided as samples. They are not part of any Azure service and are not covered by any SLA or other Azure-related agreements. They are provided as-is with no warranties express or implied. Microsoft takes no responsibility for the use of the scripts or the accuracy of this document. Familiarize yourself with the scripts before using them.
+### Disclaimers
+These scripts are copyright Microsoft Corporations and are provided as samples. They are not part of any Azure service and are not covered by any SLA or other Azure-related agreements. They are provided as-is with no warranties express or implied. Microsoft takes no responsibility for the use of the scripts or the accuracy of this document. Familiarize yourself with the scripts before using them.
