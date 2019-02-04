@@ -16,6 +16,12 @@
 
 # Azure Information Protection - Scanner Performance
 
+### How to export Azure Information Protection Scanner logs
+
+1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
+2. Zip all the contents under the MSIP folder
+3. Save the logs to your choice of location, and attach them to your service request
+
 ## **Recommended Documents**
 
 [Optimizing the performance of the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#optimizing-the-performance-of-the-scanner)<br>
