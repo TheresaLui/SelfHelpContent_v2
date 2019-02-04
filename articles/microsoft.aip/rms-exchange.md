@@ -48,14 +48,15 @@
 	LicensingLocation              : MicrosoftRMSUrl<br>
 ```
 
-	If either value is wrong, correct it via Set-IRMConfiguration<br>
-	b.	If the Locations are wrong, fix the following locations in the Registry:<br>
+If either value is wrong, correct it via Set-IRMConfiguration<br>
 	
-	```
+b. If the Locations are wrong, fix the following locations in the Registry:<br>
+	
+```
 	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
-	```
+```
 
-	Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
+Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
 5.	Check Connector logs. An event 1002 should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, it is most likely that Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1), or not is configured with the redirection URLs in registry as follows:<br>
 
@@ -64,26 +65,26 @@ HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirect
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "http(s)://connectorName/_wmcs/licensing"<br>
 ```
 
-	It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above (connectorname/_wmcs/licensing). If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP, or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
+It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above (connectorname/_wmcs/licensing). If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP, or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
 
-	An **event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
+An **event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
 
-	An **event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
+An **event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
 
-6.	If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above.
+6. If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above.
 
-7.	Check if user and group membership is properly replicated in AAD. Check if user has rights to the content in Outlook.
+7. Check if user and group membership is properly replicated in AAD. Check if user has rights to the content in Outlook.
 Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
 
-8.	Additional possible causes:
+8. Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
 	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](http://technet.microsoft.com/library/hh867439(v=ws.10).aspx#BKMK_Pre)
 
 ### The Admin cannot enable the IRM Integration in Exchange
 
-1.	In Exchange, use Test-IRMConfiguration. If it works, go to #6
-2.	Check Exchange configuration with:<br>
+1. In Exchange, use Test-IRMConfiguration. If it works, go to #6
+2. Check Exchange configuration with:<br>
 	a.	Get-IRM configuration. Check that it is:<br>
 	
 ```
@@ -99,14 +100,15 @@ Check if resending the content after unprotecting and re-protecting works (may h
 	LicensingLocation              : MicrosoftRMSUrl<br>
 ```
 
-	If either value is wrong, correct it via Set-IRMConfiguration<br>
-	b.	If the Locations are wrong, fix the following locations in the Registry:
+If either value is wrong, correct it via Set-IRMConfiguration<br>
+
+b. If the Locations are wrong, fix the following locations in the Registry:
 	
 	```
 	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
 	```
-	
-	Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
+
+Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
 3.	Check Connector logs. An event 1002 should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
 
