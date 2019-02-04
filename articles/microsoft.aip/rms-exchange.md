@@ -50,6 +50,7 @@
 
 	If either value is wrong, correct it via Set-IRMConfiguration<br>
 	b.	If the Locations are wrong, fix the following locations in the Registry:<br>
+	
 	```
 	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
 	```
@@ -84,6 +85,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 1.	In Exchange, use Test-IRMConfiguration. If it works, go to #6
 2.	Check Exchange configuration with:<br>
 	a.	Get-IRM configuration. Check that it is:<br>
+	
 ```
 	InternalLicensingEnabled       : True<br>
 	ExternalLicensingEnabled       : False<br>
@@ -99,9 +101,11 @@ Check if resending the content after unprotecting and re-protecting works (may h
 
 	If either value is wrong, correct it via Set-IRMConfiguration<br>
 	b.	If the Locations are wrong, fix the following locations in the Registry:
+	
 	```
 	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
 	```
+	
 	Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
 3.	Check Connector logs. An event 1002 should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
