@@ -16,7 +16,7 @@
 
 # RMS Connector - SharePoint
 
-## Recommended troubleshooting steps
+## Recommended Steps
 
 Please read the following info: [Configuring a SharePoint server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-a-sharepoint-server-to-use-the-connector)<br>
 Please check the registry settings are defined as well as described here: [SharePoint 2016 or SharePoint 2013 registry settings](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#sharepoint-2016-or-sharepoint-2013-registry-settings)<br>
