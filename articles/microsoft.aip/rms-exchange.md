@@ -28,10 +28,10 @@
 
 **Users cannot use Exchange IRM features, like OWA**
 
-1.	Is user able to open email in Outlook? If no, it is not a connector issue. , drive to Office or Microsoft RMS queues.
-2.	Is this specific to one user or a specific piece of content? If yes, go to #7
-3.	In Exchange, use Test-IRMConfiguration. If it works, go to #6
-4.	Check Exchange configuration with:<br>
+1. Is user able to open email in Outlook? If no, it is not a connector issue. , drive to Office or Microsoft RMS queues.
+2. Is this specific to one user or a specific piece of content? If yes, go to #7
+3. In Exchange, use Test-IRMConfiguration. If it works, go to #6
+4. Check Exchange configuration with:<br>
 
 	a.	Get-IRM configuration. Check that it is:<br>
 
@@ -48,17 +48,17 @@
 	LicensingLocation              : MicrosoftRMSUrl<br>
 ```
 
-If either value is wrong, correct it via Set-IRMConfiguration<br>
+If either value is wrong, correct it via Set-IRMConfiguration.
 	
 b. If the Locations are wrong, fix the following locations in the Registry:<br>
 	
 ```
-	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
+HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
 ```
 
 Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
-5.	Check Connector logs. An event 1002 should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, it is most likely that Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1), or not is configured with the redirection URLs in registry as follows:<br>
+5. Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, it is most likely that Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1), or not is configured with the redirection URLs in registry as follows:<br>
 
 ```
 HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "http(s)://connectorName/_wmcs/certification" <br>
@@ -79,7 +79,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 8. Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](http://technet.microsoft.com/library/hh867439(v=ws.10).aspx#BKMK_Pre)
+	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
 
 ### The Admin cannot enable the IRM Integration in Exchange
 
@@ -110,7 +110,7 @@ b. If the Locations are wrong, fix the following locations in the Registry:
 
 Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
-3.	Check Connector logs. An event 1002 should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
+3.	Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
 
 ```
 HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification" <br>
