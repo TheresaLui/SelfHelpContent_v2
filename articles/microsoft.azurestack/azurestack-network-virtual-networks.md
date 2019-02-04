@@ -1,15 +1,17 @@
 <properties
     pageTitle="Azure Stack virtual networks"
-    description=""
+    description="Azure Stack virtual networks"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567965"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-virtual-networks"
 />
 
 # Azure Stack virtual networks

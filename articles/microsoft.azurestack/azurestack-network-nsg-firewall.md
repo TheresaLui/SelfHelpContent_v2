@@ -1,15 +1,17 @@
 <properties
     pageTitle="Azure Stack firewall"
-    description=""
+    description="Azure Stack firewall"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567933"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-nsg-firewall"
 />
 
 # Azure Stack firewall 

@@ -1,15 +1,17 @@
 <properties
     pageTitle="Azure Stack VPN"
-    description=""
+    description="Azure Stack VPN"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32608434"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-vpn"
 />
 
 # Azure Stack VPN

@@ -1,15 +1,17 @@
 <properties
     pageTitle="Azure Stack load balancers"
-    description=""
+    description="Azure Stack load balancers"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567937"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-load-balancers"
 />
 
 # Azure Stack load balancers

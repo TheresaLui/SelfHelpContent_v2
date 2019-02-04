@@ -1,15 +1,17 @@
 <properties
     pageTitle="Azure Stack network performance"
-    description=""
+    description="Azure Stack network performance"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567945"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-perf"
 />
 
 # Azure Stack network performance

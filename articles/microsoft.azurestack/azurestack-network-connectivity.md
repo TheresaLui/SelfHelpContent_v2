@@ -1,15 +1,17 @@
 <properties
-    pageTitle="Azure Stack network connectivity "
-    description=""
+    pageTitle="Azure Stack network connectivity"
+    description="Azure Stack network connectivity"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors=""
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32567928"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+    articleId="azurestack-network-connectivity"
 />
 
 # Azure Stack network connectivity
