@@ -4,6 +4,7 @@
 	service="microsoft.aip"
 	resource="aip"
 	authors="nihendle"
+	ms.author="nihendle, orbarak"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584359"
