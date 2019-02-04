@@ -1,23 +1,23 @@
 <properties
-    pageTitle="Azure Stack virtual networks"
-    description="Azure Stack virtual networks"
+    pageTitle="Azure Stack Virtual Networks"
+    description="Azure Stack Virtual Networks and vNIC Operations"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32567965"
+    supportTopicIds="32629277,32629281"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
     articleId="azurestack-network-virtual-networks"
 />
 
-# Azure Stack virtual networks
+# Azure Stack Virtual Networks
 
-Azure Stack networking has many of the features provided by Azure networking. However, there are some key differences that you should understand before deploying an Azure Stack network.<br>
+Azure Stack networking has many of the features provided by Azure networking. However, there are some key differences that you should understand before deploying an Azure Stack network.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
