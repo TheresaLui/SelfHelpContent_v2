@@ -22,7 +22,7 @@
 2. Verify that the label is appropriately configured for **Automatic** or **Recommended**
 3. Note that **Automatic** labeling is available for all Office apps, whereas **Recommended** is available for all Office apps except for Outlook
 
-If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ### Export Azure Information Protection logs
 
