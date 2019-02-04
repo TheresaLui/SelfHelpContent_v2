@@ -31,8 +31,8 @@ If you still experience the issue, collect Azure Information Protection client l
 
 ## **Recommended documents**
 
-[Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
-[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
-[Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell)
+* [Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
+* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-powershell)
