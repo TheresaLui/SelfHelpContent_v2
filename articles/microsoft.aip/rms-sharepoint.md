@@ -19,12 +19,9 @@
 ## Recommended troubleshooting steps
 
 Please read the following info: [Configuring a SharePoint server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-a-sharepoint-server-to-use-the-connector)<br>
-Please check the registry settings are defined as well as described here:[SharePoint 2016 or SharePoint 2013 registry settings](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#sharepoint-2016-or-sharepoint-2013-registry-settings)<br>
+Please check the registry settings are defined as well as described here: [SharePoint 2016 or SharePoint 2013 registry settings](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#sharepoint-2016-or-sharepoint-2013-registry-settings)<br>
 
-
-## Potential issues:
-
-## Admin cannot enable IRM in SharePoint
+## Potential issues: Admin cannot enable IRM in SharePoint
 
 1.	Check the SharePoint Admin UI, that the server is configured with the “Use this RMS server” and pointing it manually to the Connector URL (not to the Microsoft RMS URL). 
 
@@ -39,10 +36,8 @@ Please check the registry settings are defined as well as described here:[ShareP
 	b.	SSL certificate in connector not trusted by Exchange servers
 	c.	Wrong MSDRM version in Exchange server (needs to be Mode 2 capable client as per http://technet.microsoft.com/library/hh867439(v=ws.10).aspx#BKMK_Pre). 
 
-	
 
-	If all of the above didn't help, please collect the below logs and add them to your suppot ticket
-
+If all of the above didn't help, please collect the below logs and add them to your suppot ticket
 Create an RMS Analyzer trace on the Exchange Server and a RMS connector Trace at the same time.<br>
 
 RMS connector as described here: [Logging](https://docs.microsoft.com/azure/information-protection/monitor-rms-connector#logging)<br>
