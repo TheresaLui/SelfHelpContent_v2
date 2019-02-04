@@ -21,7 +21,7 @@
 Sites and libraries for SharePoint Server 2016 and SharePoint Server 2013. SharePoint 2010 is also supported for customers who have [extended support for this version of SharePoint](https://support.microsoft.com/lifecycle/search?alpha=SharePoint%20Server%202010).
 
 1. Make sure you meet the [Prerequisites for the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#prerequisites-for-the-azure-information-protection-scanner)
-2. Make sure you have [Specified data stores for the scanner](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner#specify-data-stores-for-the-scanner)
+2. Make sure you have [Specified data stores for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#specify-data-stores-for-the-scanner)
 
 ### How to export Azure Information Protection Scanner logs
 
