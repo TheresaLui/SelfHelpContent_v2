@@ -16,12 +16,11 @@
 
 # Azure Information Protection - Scanner Authentication Issues
 
-Export Azure Information Protection Scanner logs and attach them to your support ticket
-Navigate to 
-%localappdata%\Microsoft\MSIP
-under the user context running the scanner service
-Zip all the contents under the MSIP folder
-Save the logs to your choice of location, and attach them to your service request
+### How to export Azure Information Protection Scanner logs
+
+1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
+2. Zip all the contents under the MSIP folder
+3. Save the logs to your choice of location, and attach them to your service request
 
 ## **Recommended Documents**
 
