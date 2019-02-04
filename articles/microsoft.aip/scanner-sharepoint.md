@@ -23,7 +23,7 @@ Sites and libraries for SharePoint Server 2016 and SharePoint Server 2013. Share
 1. Make sure you meet the [Prerequisites for the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#prerequisites-for-the-azure-information-protection-scanner)
 2. Make sure you have [Specified data stores for the scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#specify-data-stores-for-the-scanner)
 
-### How to export Azure Information Protection Scanner logs
+### Export Azure Information Protection Scanner logs
 
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
 2. Zip all the contents under the MSIP folder

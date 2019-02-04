@@ -22,7 +22,7 @@
 2. Open the relevant document in Office and verify if the intended label is being applied
 3. If you're still experiencing the issue, collect Azure Information Protection scanner logs and attach the exported logs to a support ticket
 
-### How to export Azure Information Protection Scanner logs
+### Export Azure Information Protection Scanner logs
 
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
 2. Zip all the contents under the MSIP folder

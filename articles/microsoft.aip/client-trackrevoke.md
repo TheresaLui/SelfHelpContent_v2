@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure Information Protection Protection - Track and Revoke
+# Azure Information Protection - Track and Revoke
 
 ## **Recommended Documents**
 

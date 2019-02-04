@@ -16,9 +16,9 @@
 
 # Azure Information Protection service - education
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
+* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Configuring the Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy)<br>
 * [The default Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-default)<br>
 * [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-new-label)<br>
