@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Data Sync objects are missing from Sync Metadata database"
 	description="We were able to detect that Data Sync related objects are missing from Sync Metadata database"
-	infoBubbleText=""
+	infoBubbleText="We were able to detect that Data Sync related objects are missing from Sync Metadata database"
 	service="microsoft.sql"
 	resource="servers"
 	ms.author="vitomaz"
