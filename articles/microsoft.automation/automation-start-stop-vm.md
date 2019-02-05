@@ -22,18 +22,23 @@ Here are some common issues which might cause the Start/Stop solution to not beh
 * Check the deployment logs for more specific errors at XXXXXXX
 
 **Start/Stop VM has been configured, but it doesn't start/stop all the VMs**
+
 Please refer to the ["All VMs" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#issue)
 
 **Some VMs do not start/stop**
+
 Please refer to the ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop)
 
 **VMs don't start/stop in the correct sequence**
+
 Please refer to the "sequence" section of ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop) 
 
 **My custom runbook is failing to start/stop VMs**
+
 Please refer to the ["Custom Runbook" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#issue-2)
 
 **I'm still having problems with the start/stop solution**
+
 Please refer to the ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop)
 
 ## **Recommended documents**

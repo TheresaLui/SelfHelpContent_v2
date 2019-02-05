@@ -19,6 +19,7 @@ Here are some common issues which might cause some, but not all, VMs to start or
 ## **Recommended Steps**
 
 **Some VMs do not start/stop**
+
 Please refer to the [Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop)
 
 ## **Recommended Documents** ##
