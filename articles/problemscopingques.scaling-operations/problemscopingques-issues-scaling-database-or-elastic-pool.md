@@ -8,7 +8,7 @@
 	selfHelpType="problemScopingQuestions"
 	articleId="problemscopingques-scalingissues"
 	cloudEnvironments="public"
-	schemaVersion=1
+	schemaVersion="1"
 />
 
 #Issues Scaling a Database or Elastic Pool
