@@ -10,7 +10,7 @@
 	articleId="insights-unexpectedcontent"
 	selfHelpType="generic"
 	supportTopicIds="32629652,32629665,32629666,32629667,32629668,32629669,32629670"
-	productPesIds="15454"​
+	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
 />
 
