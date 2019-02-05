@@ -11,7 +11,7 @@
 	resourceTags="linux, redhat"
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
-	articleId="5f467c0f-7f88-4a63-9496-4cf72c764cf9"
+	articleId="compute-virtualdiskmgmt-linux"
 />
 
 # Virtual Disk Management
