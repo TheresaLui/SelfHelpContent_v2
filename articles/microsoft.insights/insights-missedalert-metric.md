@@ -25,14 +25,14 @@
 If you believe your metric alert should have triggered but it did not, the following steps might help resolve the issue.
 
 1. Review the **Time Aggregation**, **Period** and **Threshold** specified in the metric alert rule condition are what you want. If they are not what you want, edit the rule to match what you want.
+2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if there any alerts fired for your metric alert rule. If you can see the alert in the portal, then the issue might be with notifications:
 
-2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if there any alerts fired for your metric alert rule. If you can see the alert in the portal, then the issue might be with notifications.
     - Check if you have any rules that might prevent receiving emails from [Azure emails](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#action-specific-information)
     - Check if your web hook receiver accepts the [payload sent by metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#payload-schema)
 
 3. If you have selected some dimension values for a metric, the alert will monitor each individual metric time-series (as defined by a combination of dimension values) for breaching the threshold. Even when metric value for the aggregate metric time-series (without any dimensions selected) breaches the threshold, the alert wouldn't fire if none of individual time-series breach the threshold.
+4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that:
 
-4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that
     - the **Aggregation** in the metric chart is the same as **Time Aggregation** in your alert rule
     - the **Time granularity** is set to be same as the **Period** in your alert rule and not set to automatic
 
