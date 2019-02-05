@@ -4,6 +4,7 @@
 	service="microsoft.aip"
 	resource="aip"
 	authors="nihendle"
+	ms.author="orbarak"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584378"
@@ -15,7 +16,7 @@
 
 # Azure Information Protection service - subscription and license issues
 
-## Recommended troubleshooting steps
+## **Recommended Steps**
 
 Review the [Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection) documentation.
 
@@ -25,9 +26,9 @@ To use the Azure Information Protection portal, you need one of the following li
 - Azure Information Protection P1 (standalone or as part of EMS E3)
 - Azure Information Protection P2 (standalone or as part of EMS E5)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
-[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
