@@ -8,7 +8,7 @@
 	articleId="streamanalytics-errorportal"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32628757"
+	supportTopicIds="32628757, 32628785"
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public"
