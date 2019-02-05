@@ -7,19 +7,18 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629204,32629229"
+    supportTopicIds="32629229,32629178,32629204"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="56cf3a36-1849-4a3a-9ed1-4836fa1cd85b"
+    articleId="azurestack-hardware-networking-devices"
 />
 
 # Azure Stack Network Devices
+
 The Azure Stack solution requires a resilient and highly available physical infrastructure to support its operation and services.
 
-The network infrastructure for Azure Stack consists of several logical networks that are configured on physical switches. These logical networks integrate with the top-of-rack (TOR), baseboard management controller (BMC), and border (customer network) switches.
-
-See your hardware vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system.
+The network infrastructure for Azure Stack consists of several logical networks that are configured on physical switches. These logical networks integrate with the top-of-rack (TOR), baseboard management controller (BMC), and border (customer network) switches. See your hardware vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system.
 
 ## **Recommended Documents**
 
