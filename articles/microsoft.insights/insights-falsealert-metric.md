@@ -5,7 +5,7 @@
 	service="microsoft.insights"
 	resource="metricalerts"
 	authors="snehithm"
-	authoralias="snmuvva"
+	ms.author="snmuvva"
 	displayOrder="6"
 	articleId="insights-falsealert-metric"
 	diagnosticScenario=""
@@ -31,8 +31,8 @@ If you believe your metric alert shouldn't have triggered but it did, the follow
 3. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold.
 
 4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that
-    - the **Aggregation** in the metric chart is the same as **Time Aggregation** in your alert rule
-    - the **Time granularity** is set to be same as the **Period** in your alert rule and not set to automatic
+    - **Aggregation** in the metric chart is the same as **Time Aggregation** in your alert rule
+    - **Time granularity** is set to be same as the **Period** in your alert rule and not set to automatic
 
 ## **Recommended Documents**
 

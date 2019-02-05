@@ -5,7 +5,7 @@
 	service="microsoft.insights"
 	resource="metricalerts"
 	authors="snehithm"
-	authoralias="snmuvva"
+	ms.author="snmuvva"
 	displayOrder="6"
 	articleId="insights-missedalert-metric"
 	diagnosticScenario=""
