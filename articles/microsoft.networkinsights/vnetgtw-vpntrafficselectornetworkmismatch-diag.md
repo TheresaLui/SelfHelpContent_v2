@@ -1,27 +1,33 @@
 <properties
-pageTitle="VPN Gateway Traffic Selector Network Mismatch"
-description=" VPN Gateway Traffic Selector Network Mismatch "
-infoBubbleText=" VPN Gateway Traffic Selector Network Mismatch. See details on the right."
+pageTitle="VPN tunnel disconnected due to IPsec/IKE traffic selectors mismatch"
+description="My VPN tunnel is disconnected due to mismatch in IPsec/IKE traffic selectors"
+infoBubbleText="Issues with your S2S VPN connection were detected. See details on the right."
 service="microsoft.network"
-resource="virtualNetworkGateways"
-authors="seanj-ms"
-ms.author="seanj"
-displayOrder=""
+resource="VirtualNetworkGateway"
+authors="yushwang, seanj-ms"
+ms.author="yushwang, seanj"
+displayOrder="10"
 articleId="VPNGatewayTrafficSelectorMismatchInsight"
 diagnosticScenario="VpnGwyTrafficSelector"
 selfHelpType="Diagnostics"
-supportTopicIds="32591144, 32591149, 32591145, 32591158"
+supportTopicIds="32591144, 32591145,32591158,32591149,32591152,32591155"
 resourceTags="windows"
 productPesIds="16094"
 cloudEnvironments="Public"
 />
-# VPN Gateway Traffic Selector Network Mismatch
-<!--issueDescription-->
-The traffic selector range **<!--$startingIpAddress-->[startingIpAddress]<!--/$startingIpAddress-->** - **<!--$endingIpAddress-->[endingIpAddress]<!--/$endingIpAddress-->** does not match any local gateway subnets. This may prevent successful connectivity to resources through the VPN tunnel. See below for steps to resolve the issue.
-<!--/issueDescription-->
-## **Steps to resolve this issue**
-**Note:** The following steps will resolve the issue by examining the IP configuration of the traffic selector and of all local network gateways.
 
-1. Review the subnet range for the traffic selector and the subnet ranges of all local network gateways. The traffic selector’s subnet should be within the subnet range of one local network gateway.
-2. If the traffic selector’s subnet range does not fall within the subnet range of a local network gateway, modify it to map to the desired subnet.
-3. Confirm that the current ports and protocol Id values (**<!--$defaultText-->[defaultText]<!--/$defaultText-->**) are appropriate. The default values are (port start: 0 port end: 65535 protocol id: 0) and should allow all protocols on all ports. An incorrect non-default value could cause communication problems.
+# Microsoft Azure has detected an IPsec/IKE traffic selectors mismatch on your VPN connection
+<!--issueDescription-->
+We have identified that your VPN connection is disconnected because your on-premises VPN device rejected the traffic selectors proposed by your Azure VPN gateway. Azure VPN gateways by default use wildcard (any-to-any) traffic selectors in a route-based configuration; or you can enable ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, where Azure gateways will use the combinations of your virtual network prefixes and your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) as the traffic selectors.
+
+## Recommended Steps
+
+1. Verify if the traffic selectors configured on [your VPN device](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#devicetable) accept the wildcard (any-to-any) traffic selectors proposed by your Azure VPN gateway. Some VPN devices use "access lists" to define traffic selectors.
+
+The currently selected **<!--$defaultText-->[defaultText]<!--/$defaultText-->** traffic selector range **<!--$startingIpAddress-->[startingIpAddress]<!--/$startingIpAddress-->** - **<!--$endingIpAddress-->[endingIpAddress]<!--/$endingIpAddress-->** does not match any local gateway subnets.
+
+2. If your VPN device does **not** accept wildcard (any-to-any) traffic selectors, enable the ["UsePolicyBasedTrafficSelectors"](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps) option on your VPN connection, and configure traffic selectors on your device with the combinations of your [on-premises network prefixes](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal) to your Azure virtual network address range.
+
+## Recommended Documents
+
+* [Create and manage S2S VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-tutorial-vpnconnection-powershell)
