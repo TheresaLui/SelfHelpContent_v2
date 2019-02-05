@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-1. Ensure you meet the pre-requisites to [configure an Exchange server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-an-exchange-server-to-use-the-connector)<br>
+1. Ensure you meet the prerequisites to [configure an Exchange server to use the connector](https://docs.microsoft.com/azure/information-protection/configure-servers-rms-connector#configuring-an-exchange-server-to-use-the-connector)<br>
 2. Check the registry settings are defined correctly for your specific Exchange Server version:
 
 	* [Exchange 2013 and 2016](https://docs.microsoft.com/azure/information-protection/rms-connector-registry-settings#exchange-2016-or-exchange-2013-registry-settings)
@@ -79,7 +79,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 8. Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
+	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
 
 ### The Admin cannot enable the IRM Integration in Exchange
 
