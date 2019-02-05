@@ -10,7 +10,7 @@
 	articleId="insights-missingnotifications"
 	selfHelpType="generic"
 	supportTopicIds="32629650,32629653,32629654,32629655,32629656,32629658"
-	productPesIds="15454"​
+	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake"
 />
 
