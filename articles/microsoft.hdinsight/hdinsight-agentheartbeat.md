@@ -16,8 +16,9 @@
     cloudEnvironments="public"
 />
 
-# **Ambari agent(s) for the following node(s) cannot send heartbeat: <!--$AlertHost-->[AlertHost]<!--/$AlertHost-->**
+## We ran diagnostics on your resource and found the following issue
 
+Ambari agent(s) for the following node(s) cannot send heartbeat: <!--$AlertHost-->[AlertHost]<!--/$AlertHost--> <br>
 Ambari agents running on nodes send periodical heartbeat messages to let the server know that the node is running.
 
 ## **Recommended Steps**
