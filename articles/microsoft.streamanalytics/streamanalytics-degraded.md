@@ -23,6 +23,6 @@ It is recommended to wait to see if the job automatically recovers. If the job i
 
 To learn more, see the recommended document.
 
-## **Recommended Document**
+## **Recommended Documents**
 
 * [Debug using activity logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#debugging-using-activity-logs)
