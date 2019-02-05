@@ -28,7 +28,7 @@
 
 **Users cannot use Exchange IRM features, like OWA**
 
-1. Is user able to open email in Outlook? If no, it is not a connector issue. , drive to Office or Microsoft RMS queues.
+1. Is user able to open email in Outlook? If no, it is not a connector issue. Navigate to Office or Microsoft RMS support queues and create a ticket.
 2. Is this specific to one user or a specific piece of content? If yes, go to #7
 3. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 4. Check Exchange configuration with:<br>
@@ -79,7 +79,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 8. Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
+	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
 
 ### The Admin cannot enable the IRM Integration in Exchange
 
