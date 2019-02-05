@@ -16,9 +16,11 @@
 
 # Virtual Disk Management
 
-4 out of 5 customers resolved their VM virtual disk issue using the below steps.
+4 out of 5 customers resolved their VM virtual disk issue using the steps below.
 
-**Attaching or detaching disks**
+## **Recommended Steps**
+
+### Attaching or detaching disks
 
 * **Attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-a-new-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#add-an-empty-data-disk-to-a-virtual-machine)
 * **Attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-an-existing-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#attach-an-existing-data-disk-to-a-vm)
@@ -27,20 +29,20 @@
 
 **NOTE**: When detaching a VM, remember to connect to the VM and **unmount the disk first**.
 
-**Premium Storage (SSD)**
+### Premium Storage (SSD)
 
 * [High-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#features)
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#supported-vms)
 * [FAQ for Premium disks: Managed and unmanaged](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks#premium-disks-managed-and-unmanaged)
 
-**Increase or resize a disk attached to the VM (OS or data disk)**
+### Increase or resize a disk attached to the VM (OS or data disk)
 
 * [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)
 * [Resize data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)
 * [How to expand the OS drive of a virtual machine](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)
 * [Expand the volume within the OS after expanding the virtual hard disk](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)
 
-**Managed Disks or conversion from unmanaged**
+### Managed Disks or conversion from unmanaged
 
 * [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview)
 * [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)
