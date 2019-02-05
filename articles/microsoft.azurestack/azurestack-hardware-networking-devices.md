@@ -24,3 +24,5 @@ See your hardware vendor’s field replaceable unit (FRU) documentation for deta
 ## **Recommended Documents**
 
 * [Azure Stack network infrastructure](https://docs.microsoft.com/azure/azure-stack/azure-stack-network#network-infrastructure)
+* [Network integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-network)
+* [Border connectivity](https://docs.microsoft.com/azure/azure-stack/azure-stack-border-connectivity)
