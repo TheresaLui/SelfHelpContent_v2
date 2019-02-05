@@ -19,17 +19,13 @@ If you have an issue where some, but not all, VMs will not start or stop on sche
 
 ## **Recommended Steps**
 
-Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
 
-* Check the [job streams]( https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#message-streams) for the Start/Stop VM Jobs
-* Review [schedules associated with Start/StopVM](https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management#schedules) 
+**Start/Stop VM has been configured, but it doesn't start/stop all the VMs**
+Please refer to the [Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#issue)
 
-**COMMON ERROR 1: Probably runas?**
-If you have runAs issues, go to [RunAs troubleshooter](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/shared-resources#run-as-accounts)
-
-**COMMON ERROR 2**
 
 ## **Recommended Documents** ##
 
 * [Deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
+* [Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/start-stop-vm#issue)
 
