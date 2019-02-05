@@ -20,3 +20,4 @@ Use this support topic path  for Azure specific issues (e.g. Virtual Network, UD
 ## **Recommended documents**
 * Barracuda Support [Contact](https://www.barracuda.com/support)
 * Barracuda support email: support@barracuda.com, Call: +1-408-342-5300, Skype: barracudanetworkssupport
+* Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details
