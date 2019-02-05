@@ -2,6 +2,7 @@
 	pageTitle="Issues Scaling a Database or Elastic Pool"
 	description="Issues Scaling a Database or Elastic Pool"
 	authors="Johirsch"
+	ms.author="Johirsch"
 	supportTopicIds="32630431"
 	productPesIds="13491"
 	selfHelpType="problemScopingQuestions"
@@ -62,11 +63,11 @@
 			"infoBalloonText": "This is a list of all of your ongoing scaling operations"
 			"dropdownOptions": []
 			"dynamicDropdownOptions": {
-				"uri": "<>",
-				"jTokenPath": "<JtokenPath>",
-				"textProperty": "<textProperty>",
-				"valueProperty": "<valueProperty>",
-				"textPropertyRegex": "<regex>"
+				"uri": "",
+				"jTokenPath": "JtokenPath",
+				"textProperty": "textProperty",
+				"valueProperty": "valueProperty",
+				"textPropertyRegex": "regex"
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
