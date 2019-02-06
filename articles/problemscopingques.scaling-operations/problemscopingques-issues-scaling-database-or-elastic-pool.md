@@ -19,9 +19,9 @@
 			"id": "which_server",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select which server contains the database you need assistance with."
+			"displayLabel": "Please select which server contains the database you need assistance with.",
 			"watermarkText": "Choose an option",
-			"infoBalloonText": "This is a list of all of your associated servers."
+			"infoBalloonText": "This is a list of all of your associated servers.",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
@@ -78,9 +78,9 @@
 			"controlType": "dropdown",
 			"displayLabel": "Please select which scaling operation you need assistance with.",
 			"watermarkText": "Choose an option",
-			"infoBalloonText": "This is a list of all of your ongoing scaling operations"
+			"infoBalloonText": "This is a list of all of your ongoing scaling operations",
 			"dynamicDropdownOptions": {
-				"uri": "notanemptystringanymorehaha",
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/operations?api-version=2017-10-01-preview",
 				"jTokenPath": "JtokenPath",
 				"textProperty": "textProperty",
 				"valueProperty": "valueProperty",
