@@ -14,11 +14,19 @@
     articleId="azurestack-network-publicips"
 />
 
-# Azure Stack load balancers for user environment
+# Azure Stack Add public IPs
 
 ## **Recommended Steps**
 
-1. Steps
+### To Add
+
+1. Obtain the address block from your provider
+2. Add the IP address range to Azure Stack
+3. Update the ACLs on your Top-of-Rack switches
+
+### To remove
+
+Contact CSS
 
 ## **Recommended documents**
 
