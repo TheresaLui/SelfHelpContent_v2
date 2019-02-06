@@ -16,4 +16,4 @@
 
 # Azure Stack User Environment Firewall
 
-TODO: Write content for tenant NSG and Firewalls in user environment
+TODO: Write content for tenant NSG in user environment

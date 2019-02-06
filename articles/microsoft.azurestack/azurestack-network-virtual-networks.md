@@ -18,6 +18,8 @@
 
 Azure Stack networking has many of the features provided by Azure networking. However, there are some key differences that you should understand before deploying an Azure Stack network.
 
+### TODO: Point to Azure docs
+
 ## **Recommended Documents**
 
 * [Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
