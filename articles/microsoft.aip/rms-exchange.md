@@ -105,9 +105,9 @@ If either value is wrong, correct it via Set-IRMConfiguration<br>
 
 b. If the Locations are wrong, fix the following locations in the Registry:
 	
-	```
-	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
-	```
+```
+HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
+```
 
 Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
