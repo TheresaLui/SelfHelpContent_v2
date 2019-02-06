@@ -26,6 +26,10 @@ Create a site-to-site VPN to connect a virtual network in Azure Stack to a virtu
 4. [Create the network resources in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#create-the-network-resources-in-azure-stack)
 5. [Test the connection](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#test-the-connection)
 
+For 3rd party device sample configurations see documentation for [VPN devices and IPsec/IKE parameters for Site-to-Site VPN Gateway connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
+
+Ensure that you enable [site-to-site (S2S) protocols ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#can-i-traverse-proxies-and-firewalls-using-point-to-site-capability) on firewall devices in your public Virtual IP network.
+
 ## **Recommended documents**
 
 * [Connect Azure Stack to Azure using VPN](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn)
