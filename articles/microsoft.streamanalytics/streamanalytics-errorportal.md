@@ -26,3 +26,4 @@ To learn more about how to debug using logs, see the recommended documents.
 * [Debug using diagnostic logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#send-diagnostics-to-log-analytics)
 * [Diagnostic log categories](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#diagnostics-log-categories)
 * [Diagnostic log schema](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#diagnostics-logs-schema)
+* [Is a known Azure outage impacting your job?](https://azure.microsoft.com/status/)
