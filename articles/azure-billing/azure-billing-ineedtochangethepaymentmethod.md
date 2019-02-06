@@ -5,7 +5,7 @@
 	resource="billing"
 	authors="kasparks"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32454858"
 	resourceTags=""
 	productPesIds="15659"
