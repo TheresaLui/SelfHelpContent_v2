@@ -61,8 +61,9 @@ Purge certificates in the Exchange DRM folder in each Exchange server, then disa
 5. Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, it is most likely that Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1), or not is configured with the redirection URLs in registry as follows:<br>
 
 ```
-HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "http(s)://connectorName/_wmcs/certification" <br>
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "http(s)://connectorName/_wmcs/licensing"<br>
+HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "http(s)://connectorName/_wmcs/certification"
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "http(s)://connectorName/_wmcs/licensing"
 ```
 
 It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above (connectorname/_wmcs/licensing). If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP, or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
@@ -113,8 +114,9 @@ Purge certificates in the Exchange DRM folder in each Exchange server, then disa
 3.	Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
 
 ```
-HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification" <br>
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "https://connectorName/_wmcs/licensing"<br>
+HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification"
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "https://connectorName/_wmcs/licensing"
 ```
 
 It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above - https://connectorname/_wmcs/licensing. If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
@@ -136,13 +138,13 @@ If all of the above didn't help, please collect the below logs and add them to y
 
 ### RMS Analyzer
 
-* [Download RMS Analyzer](https://www.microsoft.com/download/details.aspx?id=46437)<br>
-* Start as local admin
-* Go straight to the logging tab
-* Start logging
-* Reproduce the issue<br>
-* Afterwards stop logging<br>
-* Attach the create zip/cab file to the support call and explain what you are trying to do<br>
+1. [Download RMS Analyzer](https://www.microsoft.com/download/details.aspx?id=46437)<br>
+2. Start as local admin
+3. Go straight to the logging tab
+4. Start logging
+5. Reproduce the issue<br>
+6. Afterwards stop logging<br>
+7. Attach the create zip/cab file to the support call and explain what you are trying to do<br>
 
 ## **Recommended Documents**
 
