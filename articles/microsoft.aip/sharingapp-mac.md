@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-### RMS Sharing App for Mac
+# RMS Sharing App for Mac
 
 RMS sharing app enables you to view protected files that others have shared with you (.ppdf, .ptxt, .pxml, .pjpg, .pjpeg, .ppng, .ptiff, .pgif, .pbmp, and .pfile file extensions).
 
