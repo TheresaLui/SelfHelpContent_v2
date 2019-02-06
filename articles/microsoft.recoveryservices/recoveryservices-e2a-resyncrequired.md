@@ -4,12 +4,14 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536449"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="5d3c0952-aa52-4c85-b2e7-41b48ab327b5"
 />
 # Are you seeing 'resynchronization required' on the protected virtual machine?
 
@@ -17,9 +19,7 @@ A VM is marked for resynchronization if delta replication fails and a full repli
 
 After resynchronization finishes, normal delta replication resumes.
 
-## Want to know more?
-- [What is resynchronization and why is it needed? How to do it?](https://docs.microsoft.com/azure/site-recovery/concepts-hyper-v-to-azure-architecture#resynchronization-process) <br>
+## **Recommended documents**
 
-## Want to avoid this in the future?
-
-Follow our [Deployment planner recommendations](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner) for a successful disaster recovery protection in Azure.<br>
+- The **Resynchronization process section** of [Hyper-V to Azure disaster recovery architecture](https://docs.microsoft.com/azure/site-recovery/concepts-hyper-v-to-azure-architecture#resynchronization-process) explains what resynchronization is and why is it needed.<br>
+-[Deployment planner recommendations](https://docs.microsoft.com/azure/site-recovery/site-recovery-hyper-v-deployment-planner)<br>
