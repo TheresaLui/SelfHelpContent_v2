@@ -79,7 +79,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 8. Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439%28v%3dws.10%29)
+	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://go.microsoft.com/fwlink/?linkid=2069780)
 
 ### The Admin cannot enable the IRM Integration in Exchange
 
