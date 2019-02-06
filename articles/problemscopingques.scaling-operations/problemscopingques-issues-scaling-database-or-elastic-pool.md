@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Issues Scaling a Database or Elastic Pool"
+	description="Issues Scaling a Database or Elastic Pool"
+	authors="Johirsch"
+	ms.author="Johirsch"
+	supportTopicIds="32630431"
+	productPesIds="13491"
+	selfHelpType="problemScopingQuestions"
+	articleId="problemscopingques-scalingissues"
+	cloudEnvironments="public"
+	schemaVersion="1"
+/>
+
 # Issues Scaling a Database or Elastic Pool
 
 {
