@@ -3,7 +3,7 @@
 	description="help me understand my bill and usage"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
+	authors="prdasneo"
 	displayOrder="2"
 	selfHelpType="generic"
 	supportTopicIds="32454860"
