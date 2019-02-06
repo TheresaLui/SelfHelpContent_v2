@@ -1,6 +1,6 @@
 <properties
-	pageTitle="H2A replication does not progress"
-	description="H2A  replication does not progress"
+	pageTitle="E2A replication does not progress"
+	description="E2A  replication does not progress"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"

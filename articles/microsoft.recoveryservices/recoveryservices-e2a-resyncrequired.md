@@ -1,6 +1,6 @@
 <properties
-	pageTitle="resynchronization required for the protected virtual machine? "
-	description="H2A resynch required for VM"
+	pageTitle="Resynchronization required for the protected virtual machine? "
+	description="E2A resynch required for VM"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
