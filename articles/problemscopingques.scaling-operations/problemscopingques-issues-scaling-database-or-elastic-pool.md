@@ -76,7 +76,7 @@
 			"id": "which_ongoing_update_slo",
 			"order": 4,
 			"controlType": "dropdown",
-			"displayLabel": "Please select which scaling operation you need assistance with."
+			"displayLabel": "Please select which scaling operation you need assistance with.",
 			"watermarkText": "Choose an option",
 			"infoBalloonText": "This is a list of all of your ongoing scaling operations"
 			"dynamicDropdownOptions": {
