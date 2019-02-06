@@ -3,13 +3,15 @@
 	description="I need to change the payment method"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
+	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder="3"
 	selfHelpType="generic"
 	supportTopicIds="32454858"
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="changepayment"
 />
 
 # I need to change the payment method
