@@ -1,4 +1,5 @@
 <properties
+	articleId="0FF085AA-E5DD-49CE-B064-A98AAF40A2A3"
 	pageTitle="HDInsight Spark Issue"
 	description="Scoping Questions for HDInsight Spark Issue"
 	authors="lisaliu"
@@ -8,7 +9,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="0FF085AA-E5DD-49CE-B064-A98AAF40A2A3"
+
 />
 # Spark Issue
 ---
@@ -108,17 +109,17 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Spark configuration details",
-            "required": true,
-            "watermarkText": "Complete Spark-submit command, or config info on number of executors, executor cores, and executor memory"
+            "watermarkText": "Complete Spark-submit command, or config info on number of executors, executor cores, and executor memory",
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
+            "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
+            "useAsAdditionalDetails": true
         },
         {
             "id": "learn_more_text",
