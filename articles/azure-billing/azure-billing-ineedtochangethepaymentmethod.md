@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
-	articleId="changepayment"
+	articleId="billing-changepayment"
 />
 
 # I need to change the payment method
