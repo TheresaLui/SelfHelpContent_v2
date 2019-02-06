@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
-	articleId="copyofmybill"
+	articleId="billing-copyofmybill"
 />
 
 # I need a copy of my bill or usage
