@@ -9,7 +9,6 @@
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
-
 />
 # Spark Issue
 ---
