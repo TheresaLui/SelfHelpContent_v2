@@ -21,7 +21,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
+            "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
@@ -106,18 +106,10 @@
         {
             "id": "sparkconfig_details",
             "order": 6,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Spark configuration details",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Complete Spark-submit command or information on "
-                },
-                {
-                    "text": "Spark executor and driver configuration including number of cores, memory etc."
-                }
-            ]
+            "watermarkText": "Complete Spark-submit command, or config info on number of executors, executor cores, and executor memory"
         },
         {
             "id": "problem_description",
