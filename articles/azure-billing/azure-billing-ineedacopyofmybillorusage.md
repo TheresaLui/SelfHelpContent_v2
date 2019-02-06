@@ -3,13 +3,15 @@
 	description="I need a copy of my bill or usage"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
+	authors="prdasneo"
+        ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32454862"
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="copyofmybill"
 />
 
 # I need a copy of my bill or usage
