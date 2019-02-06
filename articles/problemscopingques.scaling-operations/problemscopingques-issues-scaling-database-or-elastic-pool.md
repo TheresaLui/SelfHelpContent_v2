@@ -10,9 +10,8 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
 # Issues Scaling a Database or Elastic Pool
-
+---
 {
 	"resourceRequired": true,
 	"title": "Issues Scaling a Database or Elastic Pool"
@@ -112,3 +111,4 @@
 		}
 	]
 }
+---
