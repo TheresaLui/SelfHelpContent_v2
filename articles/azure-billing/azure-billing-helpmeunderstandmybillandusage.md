@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="billing-un derstandbillandusage"
 />
 
 # Help me understand my bill and usage
