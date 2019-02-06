@@ -1,9 +1,9 @@
 <properties
-	articleId="0FF085AA-E5DD-49CE-B064-A98AAF40A2A3"
-	pageTitle="HDInsight Spark Issue"
+	articleId="7ac8675e-cb6f-43b4-8684-8f794ac5034f"
+	pageTitle="Scoping Questions for HDInsight Spark Issue"
 	description="Scoping Questions for HDInsight Spark Issue"
 	authors="lisaliu"
-    ms.author="lisaliu"
+	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629134, 32629136, 32628998, 32629061, 32629075, 32629079, 32629081, 32629093, 32629133, 32629135, 32629137, 32629138, 32629139, 32629140, 32629141, 32629142, 32629143, 32629144, 32629166"
 	productPesIds="15078"
@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "HDInsight Spark Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, Spark log, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach YARN Application log, Spark log, Spark-submit output if applicable, to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -39,7 +39,6 @@
             "required": true
         },
         {
-           
             "id": "spark_submission_method",
             "order": 4,
             "controlType": "dropdown",
