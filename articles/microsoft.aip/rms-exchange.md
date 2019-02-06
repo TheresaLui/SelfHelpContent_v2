@@ -36,16 +36,16 @@
 	a.	Get-IRM configuration. Check that it is:<br>
 
 ```
-	InternalLicensingEnabled       : True<br>
-	ExternalLicensingEnabled       : False<br>
-	JournalReportDecryptionEnabled : True/False<br>
-	ClientAccessServerEnabled      : True<br>
-	SearchEnabled                  : True/False<br>
-	TransportDecryptionSetting     : Any<br>
-	EDiscoverySuperUserEnabled     : True<br>
-	ServiceLocation                : MicrosoftRMSUrl<br>
-	PublishingLocation             : MicrosoftRMSUrl<br>
-	LicensingLocation              : MicrosoftRMSUrl<br>
+	InternalLicensingEnabled       : True
+	ExternalLicensingEnabled       : False
+	JournalReportDecryptionEnabled : True/False
+	ClientAccessServerEnabled      : True
+	SearchEnabled                  : True/False
+	TransportDecryptionSetting     : Any
+	EDiscoverySuperUserEnabled     : True
+	ServiceLocation                : MicrosoftRMSUrl
+	PublishingLocation             : MicrosoftRMSUrl
+	LicensingLocation              : MicrosoftRMSUrl
 ```
 
 If either value is wrong, correct it via Set-IRMConfiguration.
@@ -88,16 +88,16 @@ Check if resending the content after unprotecting and re-protecting works (may h
 	a.	Get-IRM configuration. Check that it is:<br>
 	
 ```
-	InternalLicensingEnabled       : True<br>
-	ExternalLicensingEnabled       : False<br>
-	JournalReportDecryptionEnabled : True/False<br>
-	ClientAccessServerEnabled      : True<br>
-	SearchEnabled                  : True/False<br>
-	TransportDecryptionSetting     : Any<br>
-	EDiscoverySuperUserEnabled     : True<br>
-	ServiceLocation                : MicrosoftRMSUrl<br>
-	PublishingLocation             : MicrosoftRMSUrl<br>
-	LicensingLocation              : MicrosoftRMSUrl<br>
+	InternalLicensingEnabled       : True
+	ExternalLicensingEnabled       : False
+	JournalReportDecryptionEnabled : True/False
+	ClientAccessServerEnabled      : True
+	SearchEnabled                  : True/False
+	TransportDecryptionSetting     : Any
+	EDiscoverySuperUserEnabled     : True
+	ServiceLocation                : MicrosoftRMSUrl
+	PublishingLocation             : MicrosoftRMSUrl
+	LicensingLocation              : MicrosoftRMSUrl
 ```
 
 If either value is wrong, correct it via Set-IRMConfiguration<br>
