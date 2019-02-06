@@ -105,7 +105,7 @@
         {
             "id": "sparkconfig_details",
             "order": 6,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Spark configuration details",
             "watermarkText": "Complete Spark-submit command, or config info on number of executors, executor cores, and executor memory",
             "required": true
