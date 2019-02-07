@@ -16,8 +16,8 @@
 
 # Feature differences between MySQL PaaS and standalone MySQL
 
-Azure Database for MySQL uses the community edition of MySQL. Some limitations in functionality exist because Azure database for MySQL is a fully managed platform as a service. For example we do not support the MyISAM storage engine because of the lack of ACID compliance. Also super user access to the MySQL server is not supported. For a list of current limitations, please check our [limits documentation](https://docs.microsoft.com/azure/mysql/concepts-limits).
+Azure Database for MySQL uses the community edition of MySQL. Some limitations in functionality exist because Azure database for MySQL is a fully managed platform as a service. For example, we do not support the MyISAM storage engine because of the lack of ACID compliance. Super user access to the MySQL server is also not supported. For a list of current limitations, please check our [limits documentation](https://docs.microsoft.com/azure/mysql/concepts-limits).
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
