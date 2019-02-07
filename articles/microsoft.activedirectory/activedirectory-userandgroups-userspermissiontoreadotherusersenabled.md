@@ -24,13 +24,13 @@ This setting applies company-wide and can be disabled by administrators in order
 
 ## **Recommended steps**
 
-1. Connect to AzureAD [Azure PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. Connect to AzureAD using [Azure PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 ```
     Connect-MsolService
 ```
 
-2. Set UsersPermissionToReadOtherUsersEnabled to true [Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/Set-MsolCompanySettings?view=azureadps-1.0)
+2. Set UsersPermissionToReadOtherUsersEnabled to true using [Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/Set-MsolCompanySettings?view=azureadps-1.0)
 
 ```
     Set-MsolCompanySettings -UsersPermissionToReadOtherUsersEnabled $true
