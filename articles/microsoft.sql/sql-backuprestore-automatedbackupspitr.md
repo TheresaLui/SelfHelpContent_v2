@@ -35,7 +35,7 @@ SQL Database automatically creates database backups that can be used to restore 
 
 ### **Point in Time Restore**
 
-* The following options are available for [point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32630409/) of databases from automated backups:
+* The following options are available for [point in time restore](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32630409/) of databases from automated backups
 	* Create a new database on the same SQL Database server recovered to a specified point in time within the retention period
 	* Create a database on the same SQL Database server recovered to the deletion time for a deleted database
 * Restoring a database does not replace the existing source database. You can, however, rename the original and restored databases.
