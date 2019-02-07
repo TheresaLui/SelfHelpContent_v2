@@ -18,10 +18,8 @@
 
 Azure Database for MySQL servers can be managed through the Azure portal, using the Azure CLI, and by calling our REST APIs. All management operations are supported in each of the options. Note that most of the management operations are asynchronous and you might have to poll the status of the operation when using Azure CLI or REST APIs.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Manage an Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal)<br>
-
-[Azure Database for MySQL CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
-
-[Azure Database for MySQL REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
+* [Manage an Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal)<br>
+* [Azure Database for MySQL CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
+* [Azure Database for MySQL REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
