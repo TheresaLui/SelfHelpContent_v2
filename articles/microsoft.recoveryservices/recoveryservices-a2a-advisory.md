@@ -23,12 +23,12 @@
 - [What are the supported and not supported configurations for Azure to Azure replicaton?](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure)<br>
 - [What are the pre-requisites for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-prerequisites)<br>
 - [How do I find the RTO?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-can-i-find-the-rto-of-a-recovery-plan)
-- [What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/blog/know-exactly-how-much-it-will-cost-for-enabling-dr-to-your-azure-vm/)</br>
+- [Pricing][What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/blog/know-exactly-how-much-it-will-cost-for-enabling-dr-to-your-azure-vm/)</br>
 - Frequently asked questions on:
 	* [Replication](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication)
-	* [Replication Policy](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication-policy)
+	* [Replication Policy - *recovery points*, *data transfer rate etc.*   ](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication-policy)
 	* [Multi-VM Consistency](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#multi-vm-consistency)
-	* [Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#failover)
+	* [Failover : *RPO, RTO, retain ip etc.*](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#failover)
 	* [Recovery Plan](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#recovery-plan)
 	* [Reprotect & Failback](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#reprotection-and-failback) 
 
