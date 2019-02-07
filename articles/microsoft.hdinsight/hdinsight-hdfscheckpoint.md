@@ -20,15 +20,16 @@
 
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is currently suffering from HDFS checkpoint error. 
 
-## **Recommended steps**
-* Log onto your HDInsight cluster
+## **Recommended Steps**
 
-* Restart Ambari service, on the nodes listed below, using this command :  
-  *sudo service ambari-agent restart*  
-  Note : If the following list is empty this step can be skipped  
+* Log onto your HDInsight cluster
+* Restart Ambari service on the nodes listed below, using `sudo service ambari-agent restart`
+  Note : If the following list is empty, this step can be skipped:
   <!--$listhosts-->[listhosts]<!--/$listhosts-->
 
-* Once both Namenodes are running, please run the following commands to reset the checkpoint :
-  - hdfs dfsadmin -safemode enter
-  - hdfs dfsadmin -saveNamespace
-  - hdfs dfsadmin -safemode leave
+* Once both Namenodes are running, please run the following commands to reset the checkpoint:
+
+  * `hdfs dfsadmin -safemode enter`
+  * `hdfs dfsadmin -saveNamespace`
+  * `hdfs dfsadmin -safemode leave`
+  
