@@ -5,6 +5,7 @@ infoBubbleText="DDoS Attack wasn't detected and mitigated for Public IP resource
 service="microsoft.networkinsights"
 resource="DDoS"
 authors="alhow"
+ms.author="alhoward"
 displayOrder="10"
 articleId="DDoSStdNoMitigationDetected"
 diagnosticScenario="Customer is onboarded to DDoS Standard and creates a case for an ongoing attack for public IP."

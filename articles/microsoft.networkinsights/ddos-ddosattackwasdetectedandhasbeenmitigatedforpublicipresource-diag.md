@@ -5,6 +5,7 @@ infoBubbleText="DDoS Attack was detected and has been mitigated for Public IP re
 service="microsoft.networkinsights"
 resource="DDoS"
 authors="alhow"
+ms.author="alhoward"
 displayOrder="10"
 articleId="DDoSProtectionPlanMitigationDetected"
 diagnosticScenario="Customer is onboarded to DDoS Standard and creates a case for an attack already mitigated."
@@ -14,7 +15,7 @@ resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
 />
-# Customer is onboarded to DDoS Standard and creates a case for an attack already mitigated
+# Customer is Onboarded to DDoS Standard and Creates a Case for an Attack Already Mitigated
 <!--issueDescription-->
 DDoS Attack was detected and has been mitigated for Public IP resource. <br>
 <br>
