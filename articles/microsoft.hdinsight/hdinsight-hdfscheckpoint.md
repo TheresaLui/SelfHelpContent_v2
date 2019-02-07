@@ -24,7 +24,9 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 
 * Log onto your HDInsight cluster
 * Restart Ambari service on the nodes listed below, using `sudo service ambari-agent restart`
-  Note : If the following list is empty, this step can be skipped:
+
+Note : If the following list is empty, this step can be skipped:
+
   <!--$listhosts-->[listhosts]<!--/$listhosts-->
 
 * Once both Namenodes are running, please run the following commands to reset the checkpoint:
