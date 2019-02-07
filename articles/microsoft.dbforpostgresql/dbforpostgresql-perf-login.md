@@ -11,7 +11,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
-	articleId="bf6e9142-c4eb-447c-99b6-c0a0d7e9ca94"
+	articleId="46d2f88a-161c-49f3-a847-c45c4e6bd47c"
 />
 
 # Troubleshooting login performance in Azure Database for PostgreSQL

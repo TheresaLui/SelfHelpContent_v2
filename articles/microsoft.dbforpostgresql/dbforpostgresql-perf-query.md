@@ -11,7 +11,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
-	articleId="3f8959ab-51c2-4ca6-8880-a86da1c26894"
+	articleId="fd54f6b6-653f-460f-88ba-d8350893e55a"
 />
 
 # Troubleshooting query performance in Azure Database for PostgreSQL

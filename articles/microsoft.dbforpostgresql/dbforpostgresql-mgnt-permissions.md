@@ -20,4 +20,4 @@ User permissions for database user are managed through the PostgreSQL built-in u
 
 ## **Recommended Documents**
 
-* [How-to create user in Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-create-users)
+* [How-to create user in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-create-users)
