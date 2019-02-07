@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "HDInsight Interactive Query Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, HiveServer2Interactive log, configuration setting that has been changed, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach YARN Application log, HiveServer2Interactive log, and note any configuration setting that has been changed to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -89,7 +89,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom, including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide detailed symptoms, including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
