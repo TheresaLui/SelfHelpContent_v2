@@ -26,7 +26,8 @@ Since the delete did not succeed, a new cluster with the same name cannot be cre
 ## Locked Resources
 <!--$LockedResources-->[LockedResources]<!--/$LockedResources-->
 
-## **Recommended steps**
+## **Recommended Steps**
+
 The locks on the above resources need to be removed before the delete can succeed. Please refer to [Using Azure Resource Locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) for instructions to remove these locks.
 
-Once this is done, please notify Azure support, and we will clean up the HDInsight cluster.
+Once this is done, please notify Azure support and we will clean up the HDInsight cluster.
