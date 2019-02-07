@@ -90,6 +90,25 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "ongoing_or_completed_updateslo == Currently in progress"
+		},
+		{
+			"id": "nature_of_ongoing_problem",
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "What problem are you facing with this scaling operation?",
+			"watermarkText": "Select the nature of your problem",
+			"infoBalloonText": "In what way is the selected scaling operation causing trouble?",
+			"dropdownOptions": [{
+					"value": "The operation is taking longer than expected",
+					"text": "The operation is taking longer than expected"
+				}, {
+					"value": "I want to cancel the operation, but can't",
+					"text": "I want to cancel the operation, but can't"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "which_ongoing_update_slo != Choose an option"
 		}
   	]
 }
