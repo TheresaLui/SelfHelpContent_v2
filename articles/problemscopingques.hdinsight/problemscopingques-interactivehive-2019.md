@@ -1,21 +1,21 @@
 <properties
-	articleId="7f30bed2-7dfa-4a20-8fe3-6d9d9f9cb22d"
-	pageTitle="Scoping Questions for HDInsight Hive Issue"
-	description="Scoping Questions for HDInsight Hive Issue"
+	articleId="dcab6070-482a-4e94-a3c4-e7ecb0a1f444"
+	pageTitle="Scoping Questions for HDInsight Interactive Query Issue"
+	description="Scoping Questions for HDInsight Interactive Query Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628993, 32629059, 32629060, 32629064, 32629065, 32629069, 32629094, 32629154, 32629057, 32629033, 32629163, 32629068, 32629062, 32629015"
+	supportTopicIds="32628994, 32629012, 32629014, 32629042, 32629063, 32629072, 32629078, 32629092, 32629104, 32629109, 32629164"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Hive Issue
+# Ineractive Query Issue
 ---
 {
     "resourceRequired": true,
-    "title": "HDInsight Hive Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, HiveServer2 log, to help us triage your problem faster",
+    "title": "HDInsight Interactive Query Issue",
+    "fileAttachmentHint": "Please attach YARN Application log, HiveServer2Interactive log, configuration setting that has been changed, to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -35,30 +35,30 @@
             "id": "application_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "YARN Application ID for the Hive application",
+            "displayLabel": "YARN Application ID for the application",
             "required": true
         },
         {
-            "id": "hive_query",
+            "id": "interactive_query",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Hive query if applicable",
-            "watermarkText": "Hive query",
+            "displayLabel": "Interactive query if applicable",
+            "watermarkText": "Interactive query, please replace any PII parameter value in the query when needed",
             "required": true
         },
         {
-            "id": "hive_query_plan",
+            "id": "interactive_query_plan",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Hive query explain plan if available",
-            "watermarkText": "Hive query plan",
+            "displayLabel": "Interactive query plan if available",
+            "watermarkText": "Interactive query plan",
             "required": true
         },
         {
-            "id": "hive_submission_method",
+            "id": "interactive_query_submission_method",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "How was the Hive query submitted?",
+            "displayLabel": "How was the interactive query submitted?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -66,10 +66,14 @@
                     "text": "Beeline"
                 },
                 {
+                    "value": "Zeppelin",
+                    "text": "Zeppelin"
+                },
+                {
                     "value": "Ambari Hive View",
                     "text": "Ambari Hive view"
                 },
-                                {
+                {
                     "value": "ODBC",
                     "text": "ODBC"
                 },
@@ -88,12 +92,6 @@
             "watermarkText": "Please provide the detail symptom, including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 8,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/hive/hive-landing'>Learn more</a> about commonly faced issues with using Hive on HDInsight"
         }
     ]
 }
