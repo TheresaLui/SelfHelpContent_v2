@@ -16,8 +16,8 @@
 
 # Using Azure REST APIs for Azure Database for MySQL
 
-All Azure Database for MySQL management operations can be performed using REST APIs. If you are looking if a specific command is support, are looking for samples on how to use a command, or which parameters are required, please refer to our [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/).
+All Azure Database for MySQL management operations can be performed using REST APIs. If you are looking if a specific command is supported, samples on how to use a command, or which parameters are required, please refer to our [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/).
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
