@@ -20,13 +20,13 @@ SQL Database can be configured to retain weekly, monthly, and yearly backups bey
 ## **Recommended Steps**
 You can [manage LTR for your database](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure) via the Azure Portal, PowerShell, or the REST API to:
 
-* Change policy configuration:
-  * Weekly backup retention
-  * Monthly backup retention
-  * Yearly backup retention
-  * Week of year for yearly backup
+* Change policy configuration, including:
+  * How long to keep weekly backups
+  * How long to keep the first backup of each month
+  * Which weekly backup of the year to take for annual backups
+  * How long to keep annual backups
 * View backups
-* Restore from a backup
+* Restore from backups
 * Delete backups
 
 ## **Recommended Documents**
