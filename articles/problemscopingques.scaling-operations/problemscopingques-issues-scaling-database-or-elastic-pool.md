@@ -1,5 +1,4 @@
 <properties
-	articleId="problemscopingques-scalingissues"
 	pageTitle="Issues Scaling a Database or Elastic Pool"
 	description="Issues Scaling a Database or Elastic Pool"
 	authors="Johirsch"
@@ -9,20 +8,22 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="problemscopingques-scalingissues"
 />
+
 # Issues Scaling a Database or Elastic Pool
 ---
 {
 	"resourceRequired": true,
 	"title": "Issues Scaling a Database or Elastic Pool",
 	"fileAttachmentHint": "",
-	"formElements": [{
+	"formElements": [
+	{
 			"id": "which_server",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select which server contains the database you need assistance with.",
+			"displayLabel": "Please select the server containing the database you need assistance with.",
 			"watermarkText": "Choose an option",
-			"infoBalloonText": "This is a list of all of your associated servers.",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
@@ -41,7 +42,6 @@
 			"controlType": "dropdown",
 			"displayLabel": "Please select the database you're having trouble with:",
 			"watermarkText": "Which database are you having trouble scaling?",
-			"infoBalloonText": "On which database are you having difficulties with a scaling operation?",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
 				"uri":/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{which_server}/databases?api-version=2017-10-01-preview",
@@ -64,7 +64,7 @@
 			"dropdownOptions": [{
 					"value": "Currently in progress",
 					"text": "Currently in progress"
-				}, {
+				},{
 					"value": "Already completed",
 					"text": "Already completed"
 				}
@@ -101,7 +101,7 @@
 			"dropdownOptions": [{
 					"value": "The operation is taking longer than expected",
 					"text": "The operation is taking longer than expected"
-				}, {
+				},{
 					"value": "I want to cancel the operation, but can't",
 					"text": "I want to cancel the operation, but can't"
 				}
@@ -112,4 +112,3 @@
 		}
 	]
 }
----
