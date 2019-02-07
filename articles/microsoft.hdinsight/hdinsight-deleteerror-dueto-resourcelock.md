@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
+    ms.author="ansiva"
     displayOrder="24"
     articleId="Hdi_DeleteError_ResourceLock"
     selfHelpType="rca"

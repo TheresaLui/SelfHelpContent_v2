@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    ms.author="nebhatta"
     displayOrder="27"
     articleId="Hdi_HighDiskUsage"
     diagnosticScenario="HDInsightDiskUsageInsight"

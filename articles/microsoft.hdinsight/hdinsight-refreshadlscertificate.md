@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    ms.author="nebhatta"
     displayOrder="26"
     articleId="Hdi_CertExpired"
     diagnosticScenario="HDInsightRefreshCertificateInsight"

@@ -6,7 +6,7 @@
     authors="ansi12"
     displayOrder="18"
     selfHelpType="resource"
-    supportTopicIds="32629160"
+    supportTopicIds="32588507"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

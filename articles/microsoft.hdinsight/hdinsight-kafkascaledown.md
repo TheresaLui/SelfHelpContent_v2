@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
+    ms.author="v-anreg"
     displayOrder=""
     articleId="Hdi_Kafka_ScaleDownFailure"
     diagnosticScenario="HDInsightKafkaScaleDownInsight"

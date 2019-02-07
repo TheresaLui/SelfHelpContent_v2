@@ -4,6 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
+    ms.author="ansiva"
     displayOrder="19"
     selfHelpType="resource"
     supportTopicIds="32629157, 32629032"

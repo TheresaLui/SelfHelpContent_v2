@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    ms.author="nebhatta"
     displayOrder="25"
     articleId="Hdi_Ambari_ClientMode"
     diagnosticScenario="HDInsightClientModeInsight"

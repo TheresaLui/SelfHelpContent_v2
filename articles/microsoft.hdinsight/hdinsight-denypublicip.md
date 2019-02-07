@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    ms.author="nebhatta"
     displayOrder="31"
     articleId="Hdi_Crud_PublicPolicy"
     diagnosticScenario="HDInsightDenyPublicIpInsight"
