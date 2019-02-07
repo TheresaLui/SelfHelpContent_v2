@@ -4,7 +4,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="csunilkumar"
-    authoralias="sunilkc"
+    ms.author="sunilkc"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32629079"
@@ -17,5 +17,6 @@
 # Azure HDInsight: Working with Jupyter notebook on Apache Spark clusters in Azure HDInsight
  
 ## **Recommended Documents**
-* How to [create, configure Jupyter notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-notebook-kernels)
-* How to [Use external packages with Jupyter notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-notebook-use-external-packages)
+
+* [Create and configure Jupyter notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-notebook-kernels)
+* [Use external packages with Jupyter notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-notebook-use-external-packages)
