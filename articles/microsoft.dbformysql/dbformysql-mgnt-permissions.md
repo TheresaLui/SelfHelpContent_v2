@@ -20,4 +20,4 @@ User permissions for database user are managed through the MySQL built-in user m
 
 ## **Recommended Documents**
 
-* [How-to create user in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-users)
+* [Create users in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-create-users)
