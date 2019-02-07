@@ -72,6 +72,24 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "which_database != Which database are you having trouble scaling?"
+		},
+		{
+			"id": "which_ongoing_update_slo",
+			"order": 4,
+			"controlType": "dropdown",
+			"displayLabel": "Please select which scaling operation you need assistance with.",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "This is a list of all of your ongoing scaling operations",
+			"dynamicDropdownOptions": {
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/operations?api-version=2017-10-01-preview",
+				"jTokenPath": "JtokenPath",
+				"textProperty": "textProperty",
+				"valueProperty": "valueProperty",
+				"textPropertyRegex": "regex"
+			},
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "ongoing_or_completed_updateslo == Currently in progress"
 		}
   	]
 }
