@@ -3,7 +3,7 @@
     description="Adding internal/external members to teams in Microsoft Teams fails when UsersPermissionToReadOtherUsersEnabled is set to false"
     infoBubbleText="An issue has been found that could cause problems with adding internal/external members to teams in Microsoft Teams. See details on the right."
     service="microsoft.aad"
-    resource=""
+    resource="Microsoft_AAD_IAM"
     authors="adhavle"
     ms.author="adhavle"
     articleId="activedirectory-userandgroups-userspermissiontoreadotherusersenabled"
