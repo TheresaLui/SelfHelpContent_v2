@@ -16,14 +16,14 @@
 
 # Troubleshooting login performance in Azure Database for MySQL
 
-Slow login issues can have many different root causes. Work through the following checklist to solve the most common performance issues:
+Slow login issues can have many different root causes. Work through the recommended steps to solve the most common performance issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Monitor the resource consumption of your server and increase your IO and or compute resources should your workload utilize all the resources
 * Turn on accelerated networking for lowest connection latency when connecting from an Azure virtual machine
 * Use connection pooling on the client
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
