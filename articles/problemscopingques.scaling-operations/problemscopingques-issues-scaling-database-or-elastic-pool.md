@@ -1,102 +1,114 @@
 <properties
-	articleId=""
-	pageTitle=""
-	description=""
-	authors=""
-	ms.author=""
-	selfHelpType=""
-	supportTopicIds=""
-	productPesIds=""
-	cloudEnvironments=""
+	articleId="problemscopingques-scalingissues"
+	pageTitle="Issues Scaling a Database or Elastic Pool"
+	description="Issues Scaling a Database or Elastic Pool"
+	authors="Johirsch"
+	ms.author="Johirsch"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32630431"
+	productPesIds="13491"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# Issues Scaling a Database or Elastic Pool
 ---
 {
 	"resourceRequired": true,
-	"title": "Slow virtual machine",
+	"title": "Issues Scaling a Database or Elastic Pool",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "slow_vm_determination",
+			"id": "which_server",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "How did you determine that your virtual machine was slow?",
+			"displayLabel": "Please select which server contains the database you need assistance with.",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "It's slower that it typically is",
-					"text": "It's slower that it typically is"
-				}, {
-					"value": "Another virtual machine in the subscription is faster",
-					"text": "Another virtual machine in the subscription is faster"
-				}, {
-					"value": "Benchmarking tests not meeting minimum Azure specifications",
-					"text": "Benchmarking tests not meeting minimum Azure specifications"
-				}, {
-					"value": "It's faster in a non-Azure environment",
-					"text": "It's faster in a non-Azure environment"
-				}
-			],
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "applications_on_vm",
-			"order": 3,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the applications running on your virtual machine",
-			"dropdownOptions": [{
-					"value": "CRM Dynamics",
-					"text": "CRM Dynamics"
-				}, {
-					"value": "IIS / Web Front end",
-					"text": "IIS / Web Front end"
-				}, {
-					"value": "MySQL",
-					"text": "MySQL"
-				}, {
-					"value": "Oracle",
-					"text": "Oracle"
-				}, {
-					"value": "Remote Desktop Services",
-					"text": "Remote Desktop Services"
-				}, {
-					"value": "SAP Hanna",
-					"text": "SAP Hanna"
-				}, {
-					"value": "SharePoint",
-					"text": "SharePoint"
-				}, {
-					"value": "SQL",
-					"text": "SQL"
-				}, {
-					"value": "Other (describe below)",
-					"text": "Other"
-				}
-			],
-			"required": false
-		}, {
-			"id": "problem_description",
-			"order": 5,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
+			"infoBalloonText": "This is a list of all of your associated servers.",
+			"dropdownOptions": [],
+			"dynamicDropdownOptions": {
+				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"jTokenPath": "serverList",
+				"textProperty": "name",
+				"valueProperty": "name",
+				"textPropertyRegex": ".*"
+			},
 			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "which_database",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "Please select the database you're having trouble with:",
+			"watermarkText": "Which database are you having trouble scaling?",
+			"infoBalloonText": "On which database are you having difficulties with a scaling operation?",
+			"dropdownOptions": [],
+			"dynamicDropdownOptions": {
+				"uri":/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{which_server}/databases?api-version=2017-10-01-preview",
+				"jTokenPath": "databaseList",
+				"textProperty": "name",
+				"valueProperty": "name",
+				"textPropertyRegex": ".*"
+			},
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "ongoing_or_completed_updateslo",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Do you need assistance with a currently in-progress scaling operation, or an operation that already completed?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Is the scaling operation you need help with still in progress, or has it concluded?",
+			"dropdownOptions": [{
+					"value": "Currently in progress",
+					"text": "Currently in progress"
 				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+					"value": "Already completed",
+					"text": "Already completed"
 				}
-			]
-		}, {
-			"id": "learn_more_text",
-			"order": 6,
-			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "which_database != Which database are you having trouble scaling?"
+		},
+		{
+			"id": "which_ongoing_update_slo",
+			"order": 4,
+			"controlType": "dropdown",
+			"displayLabel": "Please select which scaling operation you need assistance with.",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "This is a list of all of your ongoing scaling operations",
+			"dynamicDropdownOptions": {
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/operations?api-version=2017-10-01-preview",
+				"jTokenPath": "JtokenPath",
+				"textProperty": "textProperty",
+				"valueProperty": "valueProperty",
+				"textPropertyRegex": "regex"
+			},
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "ongoing_or_completed_updateslo == Currently in progress"
+		},
+		{
+			"id": "nature_of_ongoing_problem",
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "What problem are you facing with this scaling operation?",
+			"watermarkText": "Select the nature of your problem",
+			"infoBalloonText": "In what way is the selected scaling operation causing trouble?",
+			"dropdownOptions": [{
+					"value": "The operation is taking longer than expected",
+					"text": "The operation is taking longer than expected"
+				}, {
+					"value": "I want to cancel the operation, but can't",
+					"text": "I want to cancel the operation, but can't"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "which_ongoing_update_slo != Choose an option"
 		}
 	]
 }
