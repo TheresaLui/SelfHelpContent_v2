@@ -4,7 +4,7 @@
 	service="microsoft.dbforpostgresql"
 	resource="servers"
 	authors="ankam"
-    ms.author="ankam, janeng"
+    ms.author="ankam,janeng"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32628435, 32628434"
