@@ -34,6 +34,6 @@ Check the status of the resource in the [dashboard](https://jarvis-west.dc.ad.ms
 <br>
 
 ### **Customer Ready Content** 
-Investigation ongoing for the below Public IP resources under mitigation: <!--$List of Public IPs-->[**AffectedIps**]<!--/$List of Public IPs-->
+Investigation ongoing for the below Public IP resources under mitigation: <!--$List of Public IPs-->[AffectedIps]<!--/$List of Public IPs-->
 
 Please review metrics in Azure Portal / Azure Monitor.
