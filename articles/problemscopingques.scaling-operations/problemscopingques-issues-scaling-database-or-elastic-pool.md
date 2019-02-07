@@ -14,7 +14,7 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Issues Scaling a Database or Elastic Pool"
+	"title": "Issues Scaling a Database or Elastic Pool",
 	"formElements": [{
 			"id": "which_server",
 			"order": 1,
