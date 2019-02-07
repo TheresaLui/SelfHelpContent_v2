@@ -53,6 +53,25 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": true
+		},
+		{
+			"id": "ongoing_or_completed_updateslo",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Do you need assistance with a currently in-progress scaling operation, or an operation that already completed?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Is the scaling operation you need help with still in progress, or has it concluded?",
+			"dropdownOptions": [{
+					"value": "Currently in progress",
+					"text": "Currently in progress"
+				}, {
+					"value": "Already completed",
+					"text": "Already completed"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "which_database != Which database are you having trouble scaling?"
 		}
   	]
 }
