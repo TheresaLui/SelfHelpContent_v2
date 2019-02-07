@@ -1,26 +1,22 @@
 <properties
-	pageTitle="Troubleshooting VNet connectivity issues"
-	description="Troubleshooting VNet connectivity issues"
+	pageTitle="Managing VNet service endpoints in Azure Database for PostgreSQL"
+	description="Managing VNet service endpoints in Azure Database for PostgreSQL"
 	service="microsoft.dbforpostgresql"
 	resource="servers"
-	authors="ankam"
-    ms.author="ankam,janeng"
-	displayOrder="4"
+	authors="jan-eng"
+    ms.author="janeng"
+	displayOrder="27"
 	selfHelpType="resource"
-	supportTopicIds="32628463"
+	supportTopicIds="32628440"
+	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
-	articleId="6f9ede8e-4659-4604-a28f-8cd6ab260a2b"
+	articleId="35d95f74-d835-43b3-8f5b-880b009a2e17"
 />
 
-# Troubleshooting VNet connectivity issues
+# Managing VNet service endpoints in Azure Database for PostgreSQL
 
-VNet service endpoints are not supported in the Basic service tier of Azure Database for PostgreSQL.
-
-## **Recommended Steps**
-
-* Ensure the Microsoft.SQL service endpoint is enabled for your VNet
-* Ensure your Azure Database for PostgreSQL has the correct firewall rules configure for your VNet
+Azure Database for PostgreSQL supports VNet service endpoints, which can be configured using the Azure portal and Azure CLI.
 
 ## **Recommended Documents**
 
