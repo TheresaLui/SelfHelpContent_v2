@@ -25,4 +25,5 @@ To learn more, see the recommended documents.
 
 ## **Recommended Documents**
 
+* [Different states of a job and what corrective actions you can take](https://docs.microsoft.com/azure/stream-analytics/job-states)
 * [Debug using activity logs](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagnostic-logs#debugging-using-activity-logs)
