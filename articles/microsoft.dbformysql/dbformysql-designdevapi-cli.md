@@ -16,22 +16,15 @@
 
 # Using Azure CLI for Azure Database for MySQL
 
-Azure Database for MySQL has a rich support for managing your server in the Azure CLI. If you are wondering if a specific command is support, are looking for samples on how to use a command, or which parameters are required, please refer to our [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest).
+Azure Database for MySQL has rich support for managing your server in the Azure CLI. If you are wondering if a specific command is support, are looking for samples on how to use a command, or which parameters are required, please refer to our [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest).
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Create an Azure Database for MySQL using CLI](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli)<br>
-
-[Azure Database for MySQL CLI sample script collection](https://docs.microsoft.com/azure/mysql/sample-scripts-azure-cli)<br>
-
-[How-to configure firewall rules using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli)<br>
-
-[How-to restore a server using CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)<br>
-
-[How-to configure server parameters using CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli)<br>
-
-[How-to access server logs using CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)<br>
-
-[How-to setup replication using CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)<br>
-
-[How-to setup virtual networks using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli)
+* [Create an Azure Database for MySQL using CLI](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-cli)<br>
+* [Azure Database for MySQL CLI sample script collection](https://docs.microsoft.com/azure/mysql/sample-scripts-azure-cli)<br>
+* [How-to configure firewall rules using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli)<br>
+* [How-to restore a server using CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)<br>
+* [How-to configure server parameters using CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli)<br>
+* [How-to access server logs using CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)<br>
+* [How-to setup replication using CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)<br>
+* [How-to setup virtual networks using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli)
