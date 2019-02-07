@@ -20,6 +20,6 @@ Azure Database for PostgreSQL servers can be managed through the Azure portal, u
 
 ## **Recommended Documents**
 
-* [Manage an Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-portal)<br>
+* [Manage an Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/quickstart-create-server-database-portal)<br>
 * [Azure Database for PostgreSQL CLI reference documentation](https://docs.microsoft.com/cli/azure/postgres?view=azure-cli-latest)<br>
 * [Azure Database for PostgreSQL REST API reference documentation](https://docs.microsoft.com/rest/api/postgresql/)
