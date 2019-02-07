@@ -16,18 +16,17 @@
 
 # Troubleshoot query execution problems in Azure Database for MySQL
 
-Query execution problems can because by the database engine itself or by the interaction of the database engine and the service. Work through the following steps for a first level of troubleshooting:
+Query execution problems can because by the database engine itself or by the interaction of the database engine and the service. 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Check your queries for any changes that might have caused the unexpected behavior
 * Monitor the resource consumption of your server and increase your IO and or compute resources should your workload max out the available resources
-* If you are experiencing issues such as timeouts or the loss of connectivity, check the [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues) documentation.
+* If you are experiencing issues such as timeouts or the loss of connectivity, check the [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues) documentation
 * If you are experiencing slow query performance, check the [Troubleshoot query performance in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance) documentation
 * Search the internet for solutions from the MySQL community
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[How-to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)<br>
-
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [How-to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)<br>
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
