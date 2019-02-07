@@ -16,16 +16,15 @@
 
 # Monitoring Azure Database for MySQL servers
 
-You can monitor your Azure Database for MySQL server using a default set of metrics through the Azure portal. You have the option to create alerts on these metrics. Also you have access to the MySQL slow query logs. Our integration with Azure Monitor Diagnostic Logs allows you to store the logs for a longer retention period and use third party tools to consume them.
+You can monitor your Azure Database for MySQL server using a default set of metrics through the Azure portal. You have the option to create alerts on these metrics, and have access to the MySQL slow query logs. Our integration with Azure Monitor Diagnostic Logs allows you to store the logs for a longer retention period and use third party tools to consume them.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Review the [supported list of metrics](https://docs.microsoft.com/azure/mysql/concepts-monitoring)
 * Review how to [configure server logs](https://docs.microsoft.com/azure/mysql/concepts-server-logs)
 * Walk through the [create alerts on metrics](https://docs.microsoft.com/azure/mysql/howto-alert-on-metric) how-to
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[How-to access server logs from the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
-
-[How-to access server logs from the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
+* [Access server logs from the Azure portal](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-portal)<br>
+* [Access server logs from the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-logs-in-cli)
