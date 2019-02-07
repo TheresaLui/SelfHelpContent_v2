@@ -34,6 +34,25 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": true
+		},
+		{
+			"id": "which_database",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "Please select the database you're having trouble with:",
+			"watermarkText": "Which database are you having trouble scaling?",
+			"infoBalloonText": "On which database are you having difficulties with a scaling operation?",
+			"dropdownOptions": [],
+			"dynamicDropdownOptions": {
+				"uri":/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{which_server}/databases?api-version=2017-10-01-preview",
+				"jTokenPath": "databaseList",
+				"textProperty": "name",
+				"valueProperty": "name",
+				"textPropertyRegex": ".*"
+			},
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": true
 		}
   	]
 }
