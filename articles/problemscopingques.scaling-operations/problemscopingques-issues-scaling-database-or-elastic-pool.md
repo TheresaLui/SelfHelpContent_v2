@@ -1,13 +1,13 @@
 <properties
-	articleId=""
-	pageTitle=""
-	description=""
-	authors=""
-	ms.author=""
-	selfHelpType=""
-	supportTopicIds=""
-	productPesIds=""
-	cloudEnvironments=""
+	articleId="problemscopingques-scalingissues"
+	pageTitle="Issues Scaling a Database or Elastic Pool"
+	description="Issues Scaling a Database or Elastic Pool"
+	authors="Johirsch"
+	ms.author="Johirsch"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32630431"
+	productPesIds="13491"
+	cloudEnvironments="public"
 	schemaVersion="1"
 />
 # Issues Scaling a Database or Elastic Pool
