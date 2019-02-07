@@ -16,16 +16,15 @@
 
 # Troubleshooting query performance in Azure Database for MySQL
 
-Query performance issues can have many different root causes. Work through the following checklist to solve most common causes for performance issues
+Query performance issues can have many different root causes. Work through the following checklist to solve most common causes for performance issues.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * Monitor the resource consumption of your server and increase your IO and or compute resources should your workload utilize all the resources
 * Only retrieve the columns you really need instead of using *select \**
 * Assure you have the right set of indexes created for you queries
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot query performance in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance)<br>
-
-[How-to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)
+* [Troubleshoot query performance in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-query-performance)<br>
+* [How-to use sys_schema views for performance tuning](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-sys-schema)
