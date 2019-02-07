@@ -18,12 +18,9 @@
 
 Azure Database for MySQL supports point-in-time restore and geo-restore of a given server. The backups required to support this functionality are taken automatically in the background. Customers do not have direct access to backups taken by the service. To enable geo-restore capabilities, a server must be created with geo-backups enabled.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
-
-[Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)<br>
-
-[How-to restore a MySQL server using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal)<br>
-
-[How-to restore a MySQL server using the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)
+* [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/concepts-business-continuity)<br>
+* [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/concepts-backup)<br>
+* [How-to restore a MySQL server using the Azure portal](https://docs.microsoft.com/azure/mysql/howto-restore-server-portal)<br>
+* [How-to restore a MySQL server using the Azure CLI](https://docs.microsoft.com/azure/mysql/howto-restore-server-cli)
