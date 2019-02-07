@@ -16,12 +16,10 @@
 
 # Managing VNet service endpoints in Azure Database for MySQL
 
-Azure Database for MySQL supports VNet service endpoints which can be configured using the Azure portal and Azure CLI.
+Azure Database for MySQL supports VNet service endpoints, which can be configured using the Azure portal and Azure CLI.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Use Virtual Network service endpoints and rules for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet/)<br>
-
-[Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli/)<br>
-
-[Configure a VNET-to-VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
+* [Use Virtual Network service endpoints and rules for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet/)<br>
+* [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-cli/)<br>
+* [Configure a VNET-to-VNET connection using Portal](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal/)
