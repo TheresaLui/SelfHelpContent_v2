@@ -25,7 +25,7 @@ The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName
 ## **Recommended Steps**
 
 1. [SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix) into the node
-1. Run 'du -h --max-depth=1 / | sort -h '
+1. Run `du -h --max-depth=1 / | sort -h`
 1. Clean up the largest files that you placed there
 
 ## Nodes with high disk usage
