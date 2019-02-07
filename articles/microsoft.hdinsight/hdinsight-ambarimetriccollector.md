@@ -30,6 +30,7 @@ There is a problem with the Ambari Metrics Collector configured for your HDInsig
 
         1.  `hbase.rootdir` (Default value is `file:///mnt/data/ambari-metrics-collector/hbase`)  
         2.  `hbase.tmp.dir`(Default value is `/var/lib/ambari-metrics-collector/hbase-tmp`)  
+
 2. SSH into headnode0. As superuser:
 
     1. Remove the AMS zookeeper data by backing up and removing the contents of  `'hbase.tmp.dir'/zookeeper`
@@ -37,7 +38,8 @@ There is a problem with the Ambari Metrics Collector configured for your HDInsig
     3. *(It is worthwhile to skip this step intially and try restarting AMS to see if the issue is resolved. If AMS is still failing to come up, try this step)*  
     AMS data would be stored in `hbase.rootdir` identified above. Use regular OS commands to backup and remove the files. Example:      
 ` # tar czf /mnt/backupof-ambari-metrics-collector-hbase-$(date +%Y%m%d-%H%M%S).tar.gz /mnt/data/ambari-metrics-collector/hbase`  
-4.  Restart AMS using Ambari
+
+3.  Restart AMS using Ambari
 
 ## **Recommended Documents**
 
