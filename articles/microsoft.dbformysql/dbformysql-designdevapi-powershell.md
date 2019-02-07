@@ -16,8 +16,8 @@
 
 # Using PowerShell to manage Azure Databases for MySQL
 
-We currently do not support PowerShell to manage your Azure Database for MySQL servers. You have the option to install the Azure CLI and use the CLI commands in PowerShell.
+We currently do not support PowerShell to manage your Azure Database for MySQL servers. Instead, you have the option to install the Azure CLI and use the CLI commands in PowerShell.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
+* [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)
