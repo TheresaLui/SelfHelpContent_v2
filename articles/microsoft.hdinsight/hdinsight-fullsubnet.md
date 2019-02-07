@@ -5,6 +5,7 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="nealbh"
+    ms.author="nebhatta"
     displayOrder="28"
     articleId="Hdi_fullsubnet"
     diagnosticScenario="HDInsightSubnetFullInsight"

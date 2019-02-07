@@ -8,6 +8,7 @@
     ms.author="ansiva"
     displayOrder="24"
     articleId="Hdi_DeleteError_ResourceLock"
+    diagnosticScenario="HDInsightClusterDeleteErrorInsight"
     selfHelpType="rca"
     supportTopicIds="32628987, 32629037, 32629032"
     resourceTags=""
