@@ -15,16 +15,18 @@
 
 # backup/restore/long-term backup retention
 
-SQL Database can be configured to retain weekly, monthly, and yearly backups beyond the automated backup retention period to suit regulatory, compliance, or other business purposes via [Long-term backup retention (LTR)](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention).
+SQL Database can be configured to retain weekly, monthly, and yearly backups beyond the automated backup retention period to suit regulatory, compliance, or other business purposes via [long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention).
 
 ## **Recommended Steps**
-You can [manage LTR for your database](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure) via the Azure Portal, PowerShell, or the REST API to:
+You can [manage long-term backup retention for your database](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure) via the Azure Portal, PowerShell, or the REST API to:
 
 * Change policy configuration, including:
+
   * How long to keep weekly backups
   * How long to keep the first backup of each month
   * Which weekly backup of the year to take for annual backups
   * How long to keep annual backups
+
 * View backups
 * Restore from backups
 * Delete backups
