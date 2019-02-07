@@ -16,12 +16,11 @@
 
 # Tools for Azure Database for MySQL
 
-Azure Database for MySQL uses the community edition of MySQL. As such, most third party tools are able to connect to the service and should work as you are used to. Please ensure that you use the special login name syntax *username@servername* required when connecting to Azure Database for MySQL. To manage the server in Azure, please use the Azure portal, the Azure CLI, or our REST APIs.
+Azure Database for MySQL uses the community edition of MySQL. As such, most third party tools are able to connect to the service and should work as you are used to. Please ensure that you use the special login name syntax **username@servername**, which is required when connecting to Azure Database for MySQL. To manage the server in Azure, please use the Azure portal, the Azure CLI, or our REST APIs.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)<br>
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)<br>
+* [Azure CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
+* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)>
 
-[Azure CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
-
-[Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)>
