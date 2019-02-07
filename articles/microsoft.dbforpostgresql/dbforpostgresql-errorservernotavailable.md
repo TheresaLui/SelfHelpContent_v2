@@ -20,7 +20,7 @@ The "SSL SYSCALL error: EOF detected" message or other connection errors occur w
 
 ## **Recommended Steps**
 
-Applications that are connecting to cloud services [should implement retry logic](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) to handle such transient errors
+* Applications that are connecting to cloud services [should implement retry logic](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) to handle such transient errors
 
 ## **Recommended Documents**
 
