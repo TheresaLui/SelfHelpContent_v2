@@ -18,14 +18,10 @@
 
 Firewall rules can be managed through the Azure portal, the Azure CLI, and our REST APIs.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Managing firewall rules in the portal](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal)<br>
-
-[Managing firewall rules using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli)<br>
-
-[Firewall rule concepts in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)<br>
-
-[Azure Database for MySQL CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
-
-[Azure Database for MySQL REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
+* [Managing firewall rules in the portal](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal)<br>
+* [Managing firewall rules using CLI](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-cli)<br>
+* [Firewall rule concepts in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)<br>
+* [Azure Database for MySQL CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest)<br>
+* [Azure Database for MySQL REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/)
