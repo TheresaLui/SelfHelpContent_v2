@@ -1,26 +1,22 @@
 <properties
-	pageTitle="connectivity/VNET service endpoints"
-	description="connectivity/VNET service endpoints"
+	pageTitle="Managing VNet service endpoints in Azure Database for MySQL"
+	description="Managing VNet service endpoints in Azure Database for MySQL"
 	service="microsoft.dbformysql"
 	resource="servers"
-	authors="ankam"
-    ms.author="ankam,janeng"
-	displayOrder="4"
+	authors="jan-eng"
+    ms.author="janeng"
+	displayOrder="27"
 	selfHelpType="resource"
-	supportTopicIds="32628413"
+	supportTopicIds="32628390"
+	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
-	articleId="d46364d3-7f26-4004-a67b-30c47cd73662"
+	articleId="31f6ae14-04d8-41de-be45-daee75a244a1"
 />
 
-# Troubleshooting VNet connectivity issues
+# Managing VNet service endpoints in Azure Database for MySQL
 
-VNet service endpoints are not supported in the Basic service tier of Azure Database for MySQL.
-
-## **Recommended Steps**
-
-* Ensure the Microsoft.SQL service endpoint is enabled for your VNet
-* Ensure your Azure Database for MySQL has the correct firewall rules configure for your VNet
+Azure Database for MySQL supports VNet service endpoints, which can be configured using the Azure portal and Azure CLI.
 
 ## **Recommended Documents**
 
