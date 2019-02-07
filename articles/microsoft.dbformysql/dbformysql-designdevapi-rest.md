@@ -3,14 +3,15 @@
 	description="Design, Development, and APIs for MySQL - REST"
 	service="microsoft.dbformysql"
 	resource="servers"
-	authors="janeng"
-	displayOrder="2"
+	authors="jan-eng"
+    ms.author="janeng"
+	displayOrder="14"
 	selfHelpType="resource"
 	supportTopicIds="32628405"
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
-	articleId="2823993f-8c54-42f8-9f19-6fd99847ed61"
+	articleId="ca82de65-ca70-412e-ab11-2c42823176da"
 />
 
 # Using Azure REST APIs for Azure Database for MySQL

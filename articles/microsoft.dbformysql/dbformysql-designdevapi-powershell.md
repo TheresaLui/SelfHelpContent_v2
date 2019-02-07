@@ -3,14 +3,15 @@
 	description="Using PowerShell to manage MySQL"
 	service="microsoft.dbformysql"
 	resource="servers"
-	authors="janeng"
-	displayOrder="2"
+	authors="jan-eng"
+    ms.author="janeng"
+	displayOrder="13"
 	selfHelpType="resource"
 	supportTopicIds="32628403"
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
-	articleId="2823993f-8c54-42f8-9f19-6fd99847ed61"
+	articleId="631465f5-f506-451d-b509-53c10cfa9548"
 />
 
 # Using PowerShell to manage Azure Databases for MySQL
