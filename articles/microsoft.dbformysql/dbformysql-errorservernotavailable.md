@@ -4,6 +4,7 @@
 	service="microsoft.dbformysql"
 	resource="servers"
 	authors="ankam"
+    ms.author="ankam,janeng"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32628385"

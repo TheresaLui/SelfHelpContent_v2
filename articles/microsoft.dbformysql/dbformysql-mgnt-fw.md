@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Managing firewall rules rules for Azure Database for MySQL"
-	description="Managing firewall rules rules for Azure Database for MySQL"
+	pageTitle="Managing firewall rules for Azure Database for MySQL"
+	description="Managing firewall rules for Azure Database for MySQL"
 	service="microsoft.dbformysql"
 	resource="servers"
 	authors="jan-eng"
@@ -14,7 +14,7 @@
 	articleId="326e7f3a-e592-4dd0-8c4b-65bed2f1d3d0"
 />
 
-# Managing firewall rules rules for Azure Database for MySQL
+# Managing firewall rules for Azure Database for MySQL
 
 Firewall rules can be managed through the Azure portal, the Azure CLI, and our REST APIs.
 

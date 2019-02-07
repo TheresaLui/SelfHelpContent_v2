@@ -4,6 +4,7 @@
 	service="microsoft.dbformysql"
 	resource="servers"
 	authors="ankam"
+    ms.author="ankam,janeng"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds="32628413"
@@ -19,7 +20,7 @@ VNet service endpoints are not support in the Basic service tier of Azure Databa
 ## **Recommended steps**
 
 * Ensure the Microsoft.SQL service endpoint is enabled for your VNet
-* Ensure your your Azure Database for MySQL has the correct firewall rules configure for your VNet
+* Ensure your Azure Database for MySQL has the correct firewall rules configure for your VNet
 
 ## **Recommended documents**
 
