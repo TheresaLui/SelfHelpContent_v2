@@ -20,7 +20,7 @@ Query performance issues can have many different root causes. Work through the f
 
 ## **Recommended Steps**
 
-* Monitor the resource consumption of your server and increase your IO and or compute resources should your workload utilize all the resources
+* Monitor the resource consumption of your server and increase your I/O and or compute resources should your workload utilize all the resources
 * Only retrieve the columns you really need instead of using *select \**
 * Assure you have the right set of indexes created for you queries
 

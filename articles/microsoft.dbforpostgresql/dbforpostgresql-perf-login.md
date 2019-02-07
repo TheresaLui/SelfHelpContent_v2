@@ -1,20 +1,20 @@
 <properties
-	pageTitle="Troubleshooting login performance in Azure Database for MySQL"
-	description="Troubleshooting login performance in Azure Database for MySQL"
-	service="microsoft.dbformysql"
+	pageTitle="Troubleshooting login performance in Azure Database for PostgreSQL"
+	description="Troubleshooting login performance in Azure Database for PostgreSQL"
+	service="microsoft.dbforpostgresql"
 	resource="servers"
 	authors="jan-eng"
     ms.author="janeng"
 	displayOrder="30"
 	selfHelpType="resource"
-	supportTopicIds="32628407"
+	supportTopicIds="32628457"
 	resourceTags="servers, databases"
-	productPesIds="16221"
+	productPesIds="16222"
 	cloudEnvironments="public"
-	articleId="bf6e9142-c4eb-447c-99b6-c0a0d7e9ca94"
+	articleId="46d2f88a-161c-49f3-a847-c45c4e6bd47c"
 />
 
-# Troubleshooting login performance in Azure Database for MySQL
+# Troubleshooting login performance in Azure Database for PostgreSQL
 
 Slow login issues can have many different root causes. Work through the recommended steps to solve the most common performance issues.
 
@@ -26,4 +26,4 @@ Slow login issues can have many different root causes. Work through the recommen
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for PostgreSQL documentation](https://docs.microsoft.com/azure/postgresql/)
