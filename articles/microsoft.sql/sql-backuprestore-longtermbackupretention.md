@@ -15,10 +15,10 @@
 
 # backup/restore/long-term backup retention
 
-SQL Database can be configured to retain weekly, monthly, and yearly backups beyond the automated backup retention period to suit regulatory, compliance, or other business purposes via [long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention).
+SQL Database can be configured to retain weekly, monthly, and yearly backups beyond the automated backup retention period to suit regulatory, compliance, or other business purposes via [long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention?WT.mc_id=pid:13491:sid:32630432/).
 
 ## **Recommended Steps**
-You can [manage long-term backup retention for your database](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure) via the Azure Portal, PowerShell, or the REST API to:
+You can [manage long-term backup retention for your database](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-backup-retention-configure?WT.mc_id=pid:13491:sid:32630432/) via the Azure Portal, PowerShell, or the REST API to:
 
 * Change policy configuration, including:
 
@@ -33,4 +33,4 @@ You can [manage long-term backup retention for your database](https://docs.micro
 
 ## **Recommended Documents**
 
-* [**Automated backups and point in time restore (PITR)**](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/): SQL Database automatically creates database backups that can be used to restore a database to any point in time within the backup retention period
+* [**Automated backups and point in time restore (PITR)**](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630432/): SQL Database automatically creates database backups that can be used to restore a database to any point in time within the backup retention period
