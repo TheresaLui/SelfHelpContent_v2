@@ -16,6 +16,6 @@
 
 # TEZ 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Hive on Tez](https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez).<br>
+* [Hive on Tez](https://cwiki.apache.org/confluence/display/Hive/Hive+on+Tez)
