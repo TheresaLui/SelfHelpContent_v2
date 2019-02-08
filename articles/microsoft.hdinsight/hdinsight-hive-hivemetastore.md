@@ -16,6 +16,6 @@
 
 # Hive Metastore 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Use external metadata stores in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-external-metadata-stores).<br>
+* [Use external metadata stores in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-external-metadata-stores)
