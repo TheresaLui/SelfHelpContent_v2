@@ -16,7 +16,7 @@
 
 # Hive error, exception, or failure
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive).<br>
-[How to find out which process is listening upon a port](https://debian-administration.org/article/184/How_to_find_out_which_process_is_listening_upon_a_port).<br>
+* [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
+* [How to find out which process is listening upon a port](https://debian-administration.org/article/184/How_to_find_out_which_process_is_listening_upon_a_port)
