@@ -21,7 +21,6 @@ A job enters a degraded state due to transient issues. This could be due to netw
 
 It is recommended to wait to see if the job automatically recovers. If the job is in degraded state for a long period of time or ends up in a failed state, you can learn the root cause by looking at the activity logs.
 
-To learn more, see the recommended documents.
 
 ## **Recommended Documents**
 
