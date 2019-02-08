@@ -16,11 +16,9 @@
 />
 
 # Error in Portal
-Errors that you see on the Azure portal could be transient in nature. Stream Analytics will automatically retry and try to recover from such errors. Other errors result in job failures. Failures can be caused by an unexpected query result, by connectivity to devices, or by an unexpected service outage. The activity and diagnostics logs in Stream Analytics can help you identify the cause of issues.
+Errors that you see on the Azure portal could be transient in nature. Stream Analytics will automatically retry and try to recover from such errors. Other errors can result in job failures. Failures can be caused by an unexpected query result, by connectivity to devices, or by an unexpected service outage. The activity and diagnostics logs in Stream Analytics can help you identify the cause of issues.
 
 Stream Analytics guarantees at-least-once delivery of events. Even if you job stops due to an error, you have the ability to start your job 'when last stopped'. 
-
-To learn more about how to debug errors, see the recommended documents.
 
 ## **Recommended Documents**
 
