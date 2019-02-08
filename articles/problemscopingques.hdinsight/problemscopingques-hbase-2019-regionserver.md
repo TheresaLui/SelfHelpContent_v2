@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "HDInsight HBase Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, HBase Region Server logs, Azure Storage debug log if available, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach YARN Application log, HBase Region Server logs, and/or Azure Storage debug log (if available) to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
