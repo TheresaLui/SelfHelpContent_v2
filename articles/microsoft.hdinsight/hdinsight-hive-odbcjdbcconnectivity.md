@@ -16,6 +16,6 @@
 
 # ODBC-JDBC connectivity 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Query Apache Hive through the JDBC driver in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-connect-hive-jdbc-driver).<br>
+* [Query Apache Hive through the JDBC driver in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-connect-hive-jdbc-driver)
