@@ -20,7 +20,7 @@ Azure Database for MySQL uses the community edition of MySQL. As such, most driv
 
 ## **Recommended Steps**
 
-* Check the current known [limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to see if you scenario is unsupported
+* Check the current known [limitations of the service](https://docs.microsoft.com/azure/mysql/concepts-limits) to see if your scenario is not supported
 * Review the list of officially [support drivers](https://docs.microsoft.com/azure/mysql/concepts-compatibility) to make sure you are using a supported driver version
 
 ## **Recommended Documents**

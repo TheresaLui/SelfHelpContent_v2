@@ -7,7 +7,7 @@
     ms.author="janeng"
 	displayOrder="31"
 	selfHelpType="resource"
-	supportTopicIds="32628404"
+	supportTopicIds="32628404, 32628397"
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 # Troubleshooting query performance in Azure Database for MySQL
 
-Query performance issues can have many different root causes. Work through the following checklist to solve most common causes for performance issues.
+Query performance issues can have many different root causes. Work through the recommended steps to solve most common causes for performance issues.
 
 ## **Recommended Steps**
 
