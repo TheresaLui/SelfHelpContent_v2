@@ -16,6 +16,6 @@
 
 # Hive incorrect results 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Release notes for Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#apache-patch-information).<br>
+* [Release notes for Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#apache-patch-information)
