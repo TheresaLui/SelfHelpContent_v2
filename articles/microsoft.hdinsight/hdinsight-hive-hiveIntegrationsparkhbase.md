@@ -4,7 +4,7 @@
   Service="microsoft.hdinsight"
   resource="clusters"
   authors="pjfreitas"
-  ms.author="pfreitas"
+  ms.author="freitas"
   displayOrder="22"
   selfHelpType="resource"
   supportTopicIds="32629062"
@@ -14,8 +14,8 @@
   ArticleId="5aa4066b-1701-4216-b4ec-7a70b71f49a3"
 />
 
-# hiveintegrationsparkhbase
+  # hiveintegrationsparkhbase
 
-## **Recommended documents**
+  ## **Recommended documents**
 
 [HBaseIntegration](https://cwiki.apache.org/confluence/display/Hive/HBaseIntegration).<br>
