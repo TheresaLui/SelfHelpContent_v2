@@ -16,10 +16,12 @@
 
 # configurationandsetup/issuesconfiguringvnetpeering
 
-## **Recommended steps**
-1. Walk through our [step-by-step Troubleshooter for VNet Peering](https://support.microsoft.com/en-us/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+## **Recommended Steps**
 
-## **Recommended documents**
+1. Walk through our [step-by-step Troubleshooter for VNet Peering](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+
+## **Recommended Documents**
+
 * [VNet Peering Fequently Asked Questions](hhttps://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)<br>
 * [VNet Peering overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)<br>
 * Learn about the [VNet Peering requirements and contraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints)<br>
