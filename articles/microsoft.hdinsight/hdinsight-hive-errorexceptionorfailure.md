@@ -2,7 +2,7 @@
   pageTitle=""
   description="Hive error, exception, or failure"
   Service="microsoft.hdinsight"
-  resource=""
+  resource="clusters"
   authors=""
   msauthor=""
   displayOrder="1"
