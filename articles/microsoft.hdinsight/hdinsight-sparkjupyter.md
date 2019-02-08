@@ -11,7 +11,6 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    ms.author="sunilkc"
     articleId="hdinsight-sparkjupyter"
 />
 # Azure HDInsight: Working with Jupyter notebook on Apache Spark clusters in Azure HDInsight
