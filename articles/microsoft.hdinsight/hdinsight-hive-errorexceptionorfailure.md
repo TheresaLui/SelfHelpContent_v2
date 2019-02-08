@@ -5,7 +5,7 @@
   resource="clusters"
   authors="pjfreitas"
   ms.author="pfreitas"
-  displayOrder="3"
+  displayOrder="4"
   selfHelpType="resource"
   supportTopicIds="32629059"
   resourceTags=""
