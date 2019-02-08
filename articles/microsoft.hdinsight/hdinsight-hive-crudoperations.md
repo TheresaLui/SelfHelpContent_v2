@@ -14,7 +14,7 @@
   ArticleId="7e4169d8-70cf-40f7-8bf2-a7dd65e2b13a"
 />
 
-# Hive error, exception, or failure 
+# CRUD Operations
 
 ## **Recommended documents**
 

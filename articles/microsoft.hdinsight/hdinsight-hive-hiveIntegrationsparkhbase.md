@@ -14,7 +14,7 @@
   ArticleId="5aa4066b-1701-4216-b4ec-7a70b71f49a3"
 />
 
-# Hive error, exception, or failure 
+# Hive IntegrationSpark HBase
 
 ## **Recommended documents**
 

@@ -13,7 +13,7 @@
   cloudEnvironments="public"
   ArticleId="f77498d9-e276-4fe3-bcc1-e78f2a97f813"/>
 
-# Hive error, exception, or failure
+# Hive Performance
 
 ## **Recommended documents**
 

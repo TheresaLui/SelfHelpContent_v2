@@ -14,7 +14,7 @@
   ArticleId="71bb13ae-1789-4577-977d-3696d2e65a28"
 />
 
-# Hive error, exception, or failure 
+# TEZ 
 
 ## **Recommended documents**
 

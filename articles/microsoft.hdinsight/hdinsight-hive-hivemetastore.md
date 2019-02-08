@@ -14,7 +14,7 @@
   ArticleId="2968c3b1-4bb3-4c21-8010-1c26b88d506c"
 />
 
-# Hive error, exception, or failure 
+# HiveMetastore 
 
 ## **Recommended documents**
 

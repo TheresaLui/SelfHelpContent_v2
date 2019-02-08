@@ -14,7 +14,7 @@
   ArticleId="ea0675ba-1aee-49fa-9321-53eb2d708cd5"
 />
 
-# Hive error, exception, or failure 
+# Hive ACID 
 
 ## **Recommended documents**
 

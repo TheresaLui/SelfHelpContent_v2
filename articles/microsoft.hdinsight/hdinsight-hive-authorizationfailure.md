@@ -14,7 +14,7 @@
   ArticleId="716bf3f6-35f6-4380-a7a8-52daf77df289"
 />
 
-# Hive error, exception, or failure 
+# Authorization failure 
 
 ## **Recommended documents**
 

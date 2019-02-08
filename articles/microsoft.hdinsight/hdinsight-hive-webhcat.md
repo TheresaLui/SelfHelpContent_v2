@@ -13,7 +13,7 @@
   cloudEnvironments="public"
   ArticleId="a985627a-f1b7-4c99-87e9-a285d6f3bf1b"/>
 
-# Hive error, exception, or failure 
+# WebHCat 
 
 ## **Recommended documents**
 

@@ -14,7 +14,7 @@
   ArticleId="275b8af5-6ecd-48c5-abdc-01f38b10e279"
 />
 
-# Hive error, exception, or failure 
+# ODBC-JDBC connectivity 
 
 ## **Recommended documents**
 

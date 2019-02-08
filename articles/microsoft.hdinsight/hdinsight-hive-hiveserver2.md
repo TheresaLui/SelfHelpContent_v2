@@ -14,7 +14,7 @@
   ArticleId="b47d28df-b6a9-4eb6-b5c7-a6f595e49636"
 />
 
-# Hive error, exception, or failure 
+# Hiveserver2 
 
 ## **Recommended documents**
 
