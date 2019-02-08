@@ -16,6 +16,6 @@
 
 # Hive ACID 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Hive Transactions](https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions).<br>
+* [Hive Transactions](https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions)
