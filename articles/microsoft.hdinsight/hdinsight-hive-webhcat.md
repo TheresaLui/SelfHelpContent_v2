@@ -15,8 +15,8 @@
 
 # WebHCat 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Understand and resolve errors received from WebHCat on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-templeton-webhcat-debug-errors).<br>
+* [Understand and resolve errors received from WebHCat on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-templeton-webhcat-debug-errors)
 
 
