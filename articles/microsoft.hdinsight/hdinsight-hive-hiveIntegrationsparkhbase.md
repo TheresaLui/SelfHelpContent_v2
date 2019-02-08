@@ -1,6 +1,6 @@
 <properties
-  pageTitle="Hive Integration(Spark HBase)"
-  description="Hive Integration(Spark HBase)"
+  pageTitle="Hive IntegrationSpark HBase"
+  description="Hive IntegrationSpark HBase"
   Service="microsoft.hdinsight"
   resource="clusters"
   authors="pjfreitas"
