@@ -19,7 +19,7 @@
 	"diagnosticCard": {
 		"title": "SQL DB Connectivity Troubleshooter",
     		"description": "Our SQL DB Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-    		"insightNotAvailableText": "We didn't find any insights",
+    		"insightNotAvailableText": "We didn't find any insights"
 	},
 "formElements": [{
 			"id": "problem_start_time",
