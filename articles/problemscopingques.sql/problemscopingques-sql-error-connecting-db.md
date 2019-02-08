@@ -67,36 +67,6 @@
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
-			"id": "info_error_10928",
-			"visibility": "error_dropdown == Error_10928",
-			"order": 100,
-			"controlType": "infoblock",
-			"content": "The Resource ID indicates which resource governance limit is being hit.  A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections).  For short term mitigation, increase the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>service tier</a> of your database; longer term, tune the workload so it better fits the selected tier.  Refer to the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-query-performance'>Query Performance Insight</a> feature for assistance analyzing and tuning your workload."
-		}, {
-			"id": "info_error_18456",
-			"visibility": "error_dropdown == Error_18456",
-			"order": 200,
-			"controlType": "infoblock",
-			"content": "Troubleshoot this error using the <a href='https://support.microsoft.com/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database '>Azure SQL Database troubleshooter</a>."
-		}, {
-			"id": "info_error_40613",
-			"visibility": "error_dropdown == Error_40613",
-			"order": 400,
-			"controlType": "infoblock",
-			"content": "This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds.  <a href='https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues'>Read more</a> about how to handle this."
-		},{
-			"id": "info_error_40615",
-			"visibility": "error_dropdown == Error_40615",
-			"order": 500,
-			"controlType": "infoblock",
-			"content": "Resolve this error by creating a server firewall rule as described <a href='https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615'>here</a>."
-		}, {
-			"id": "info_login_timeout",
-			"visibility": "error_dropdown == Error_Login_Timeout",
-			"order": 700,
-			"controlType": "infoblock",
-			"content": "Ensure your application is using a login timeout of at least 15 seconds.  Also confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>limits</a> of your selected service tier."
-		}, {
 			"id": "problem_description",
 			"order": 1000,
 			"controlType": "multilinetextbox",
