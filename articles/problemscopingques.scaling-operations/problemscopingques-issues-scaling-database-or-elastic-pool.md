@@ -109,6 +109,26 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "which_ongoing_update_slo != Choose an option"
+		},
+		{
+			"id": "problem_description",
+			"order": 6,
+			"controltype": "multilinetextbox",
+			"displayLabel": "Any additional details that might be helpful?",
+			"watermarkText": "Enter any additional details here",
+			"infoBalloonText": "Enter any additional details here",
+			"required": true,
+			"useAsAdditionalDetails": true
+		},
+		{
+			"id": "problem_start_time",
+			"order": 7,
+			"controltype": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"watermarkText": "Specify when the problem started",
+			"infoBalloonText": "Specify when the problem started",
+			"required": true,
+			"useAsAdditionalDetails": false
 		}
 	]
 }
