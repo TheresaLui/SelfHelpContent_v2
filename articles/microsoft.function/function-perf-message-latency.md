@@ -33,7 +33,7 @@ We can follow the steps below to narrow down root cause:<br>
 * Check if the Azure Functions slow response issue could be reproduced locally before publishing to Azure. If yes, add Time StopWatch function call to measure elapsed time in Azure Functions. It can be used to keep track of average request time, to send messages to the user based on how long an action might take, or to benchmark your code. 
 * Check if any exception is being thrown while the slow response issue occurred. If yes, catch and handle them properly.
 * Access the downstream service interacting with Azure Functions directly and see if response time is abnormal
-* Enable Application Insight to trace the callstack while the slow response issue occurrs
+* Enable Application Insight to trace the callstack while the slow response issue occurs
 
 ## **Recommended Documents**
 
