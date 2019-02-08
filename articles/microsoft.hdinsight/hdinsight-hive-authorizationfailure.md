@@ -1,20 +1,22 @@
 <properties
-  pageTitle="Hive Other topic"
-  description="Hive Other topic"
+  pageTitle="Authorization failure"
+  description="Authorization failure"
   Service="microsoft.hdinsight"
   resource="clusters"
   authors="pjfreitas"
   ms.author="pfreitas"
-  displayOrder="8"
+  displayOrder="11"
   selfHelpType="resource"
-  supportTopicIds="32629064"
+  supportTopicIds="32629015"
   resourceTags=""
   productPesIds="15078"
   cloudEnvironments="public"
-  ArticleId="c308c637-bf59-4c2d-bbb9-69156b44c0f4"/>
+  ArticleId="716bf3f6-35f6-4380-a7a8-52daf77df289"
+/>
 
 # Hive error, exception, or failure 
 
 ## **Recommended documents**
 
 [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive).<br>
+
