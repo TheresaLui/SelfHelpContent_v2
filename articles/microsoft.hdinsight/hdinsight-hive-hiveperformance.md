@@ -15,6 +15,6 @@
 
 # Hive Performance
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query).<br>
+* [Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
