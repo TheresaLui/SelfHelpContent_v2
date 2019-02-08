@@ -16,7 +16,7 @@
 
 # Authorization failure 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive).<br>
+* [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
 
