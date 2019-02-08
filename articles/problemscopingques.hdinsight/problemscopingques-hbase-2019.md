@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "HDInsight HBase Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, HBase Master log, HBase Region Server log if applicable, Azure Storage debug log if available, to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach YARN Application log, HBase Master log, HBase Region Server log (if applicable), and Azure Storage debug log (if available) to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -69,7 +69,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "HBase query",
-            "watermarkText": "HBase query, please replace any parameter value containing PII information in your query",
+            "watermarkText": "HBase query - please replace any parameter value containing PII information in your query",
             "required": true
         },
         {
@@ -77,7 +77,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide the detail symptom including the full error text (if available), whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },
