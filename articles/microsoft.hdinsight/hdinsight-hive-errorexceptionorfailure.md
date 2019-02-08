@@ -1,10 +1,10 @@
 <properties
-  pageTitle=""
+  pageTitle="Hive error, exception, or failure"
   description="Hive error, exception, or failure"
   Service="microsoft.hdinsight"
   resource="clusters"
-  authors=""
-  msauthor=""
+  authors="pjfreitas"
+  msauthor="pfreitas"
   displayOrder="1"
   selfHelpType="resource"
   supportTopicIds="32629059"
