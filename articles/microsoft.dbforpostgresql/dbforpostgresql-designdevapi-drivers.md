@@ -20,7 +20,7 @@ Azure Database for PostgreSQL uses the community edition of PostgreSQL. As such,
 
 ## **Recommended Steps**
 
-* Check the current known [limitations of the service](https://docs.microsoft.com/azure/postgresql/concepts-limits) to see if you scenario is unsupported
+* Check the current known [limitations of the service](https://docs.microsoft.com/azure/postgresql/concepts-limits) to see if your scenario is not supported
 * Review the list of officially [support drivers](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) to make sure you are using a supported driver version
 
 ## **Recommended Documents**

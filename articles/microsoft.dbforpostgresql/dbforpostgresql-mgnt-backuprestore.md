@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Backups and restore options for Azure Database for PostgreSQL"
 	description="Backups and restore options for Azure Database for PostgreSQL"
-	service="microsoft.dbformysql"
+	service="microsoft.dbforpostgresql"
 	resource="servers"
 	authors="jan-eng"
     ms.author="janeng"
