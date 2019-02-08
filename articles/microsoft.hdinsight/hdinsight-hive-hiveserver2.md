@@ -16,6 +16,6 @@
 
 # Hiveserver2 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Setting Up HiveServer2](https://cwiki.apache.org/confluence/display/Hive/Setting+Up+HiveServer2).<br>
+* [Setting Up HiveServer2](https://cwiki.apache.org/confluence/display/Hive/Setting+Up+HiveServer2)
