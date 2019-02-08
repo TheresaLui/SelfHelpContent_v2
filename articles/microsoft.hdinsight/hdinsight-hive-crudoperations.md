@@ -16,6 +16,6 @@
 
 # CRUD Operations
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Hive transactional tables](https://docs.microsoft.com/azure/hdinsight/hdinsight-version-release#hive-transactional-tables).<br>
+* [Hive transactional tables](https://docs.microsoft.com/azure/hdinsight/hdinsight-version-release#hive-transactional-tables)
