@@ -15,7 +15,7 @@
 	ms.author="sidram"
 />
 
-# Streaming Units Utilities
+# Streaming Unit Utilization
 Streaming Units (SUs) represent the computing resources that are allocated to execute a job. The higher the number of SUs, the more CPU and memory resources are allocated for your job. This capacity allows you to focus on the query logic and removes the need to manage the hardware to run your Stream Analytics job. To achieve low latency stream processing, Azure Stream Analytics jobs perform all processing in memory. When it is out of memory, the streaming job will fail. As a result, for a production job it’s important to monitor a streaming job’s resource usage and ensure there are enough resources allocated to keep the jobs running 24/7.
 
 There are multiple factors that affect streaming unit utilization. To learn more, see the recommended documents.
