@@ -2,7 +2,7 @@
 	pageTitle="Cannot connect to a VM in a peered VNet"
 	description="Cannot connect to a VM in a peered VNet"
 	authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584253"
 	productPesIds="15526"

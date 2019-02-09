@@ -2,6 +2,7 @@
 	pageTitle="How to create rules in an existing NSG"
 	description="How to create rules in an existing NSG"
 	authors="anavinahar"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584257"
 	productPesIds="15526"

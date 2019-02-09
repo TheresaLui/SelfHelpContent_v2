@@ -2,7 +2,7 @@
 	pageTitle="Unable to reach a port"
 	description="Unable to reach a port"
 	authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584255"
 	productPesIds="15526"

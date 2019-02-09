@@ -2,7 +2,7 @@
     pageTitle="Slow connection between Virtual Networks"
     description="Slow connection between Virtual Networks"
     authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32547257"
     productPesIds="15526"

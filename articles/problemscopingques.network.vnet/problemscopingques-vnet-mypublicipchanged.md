@@ -1,19 +1,20 @@
 <properties
-	pageTitle="My Public IP address changed"
-	description="My Public IP address changed"
-	authors="anavinahar"
-    ms.authors="anavin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32597608"
-	productPesIds="15526"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="752412"
+    pageTitle="My Public IP address changed"
+    description="My Public IP address changed"
+    authors="anavinahar"
+    ms.author="anavin"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32597608"
+    productPesIds="15526"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="752412"
 />
 
 # My public IP address changed
 
 ---
+
 {
     "resourceRequired": true,
     "title": "My public IP address changed",

@@ -2,6 +2,7 @@
 	pageTitle="Issues configuring VNet Peering"
 	description="Issues configuring VNet Peering"
 	authors="anavinahar"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32589558"
 	productPesIds="15526"

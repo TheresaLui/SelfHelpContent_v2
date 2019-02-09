@@ -2,7 +2,7 @@
     pageTitle="Connection failure"
     description="Connection failure"
     authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32547228"
     productPesIds="15526"

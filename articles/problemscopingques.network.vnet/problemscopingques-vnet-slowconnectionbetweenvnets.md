@@ -2,7 +2,7 @@
     pageTitle="Slow connectivity from on-premises"
     description="Slow connectivity from on-premises"
     authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32584259"
     productPesIds="15526"

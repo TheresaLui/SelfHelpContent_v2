@@ -2,7 +2,7 @@
     pageTitle="Bandwidth or latency issues"
     description="Bandwidth or latency issues"
     authors="anavinahar"
-    ms.authors="anavin"
+    ms.author="anavin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32547224"
     productPesIds="15526"
