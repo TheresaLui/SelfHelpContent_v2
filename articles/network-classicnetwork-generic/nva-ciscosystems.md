@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
-	articleId="nva-barracudanetworks.md"
+	articleId="nva-ciscosystems.md"
 />
 
 # networkvirtualappliance/ciscosystems
