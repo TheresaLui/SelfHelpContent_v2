@@ -5,7 +5,7 @@
 	authors="pxding"
         ms.author="pedin"
         articleId="5CD44772-DC30-406B-9E16-9FCBFBB5452F"
-        selfHelpType="supportTopicBasedScopingQuestions"
+        selfHelpType="ProblemScopingQuestions"
         supportTopicIds="32630450"
         productPesIds="13491"
 	cloudEnvironments="public"
