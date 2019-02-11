@@ -26,7 +26,8 @@ A script is available to help mitigate the issue. This needs to be applied as a 
 
 For detailed mitigation steps and support resources please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/02/07/known-issue-for-service-fabric-linux-clusters/). 
 
-## **Recommended documents**
-[Service Fabric Backup and Restore](https://docs.microsoft.com/azure/service-fabric/service-fabric-reliable-services-backup-restore)<br>
-[Configure Periodic backup for Azure Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-azurecluster)<br>
-[Configure Periodic backup for Standalone Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-standalonecluster)<br>
+## **Recommended Documents**
+
+* [Service Fabric Backup and Restore](https://docs.microsoft.com/azure/service-fabric/service-fabric-reliable-services-backup-restore)<br>
+* [Configure Periodic backup for Azure Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-azurecluster)<br>
+* [Configure Periodic backup for Standalone Cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-standalonecluster)<br>
