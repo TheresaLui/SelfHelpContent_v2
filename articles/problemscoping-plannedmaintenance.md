@@ -4,8 +4,8 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32589415"
-                productPesIds="14749,15571,15797,16454,16470"
+                supportTopicIds="32589415,32589417"
+                productPesIds="14749,15571,15797,16454,16470,16080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0066"
@@ -38,7 +38,7 @@
                   "visibility": "maintenance_notification == Yes",
                   "controlType": "textbox",
                   "displayLabel": "What is the tracking ID of the notification that you received?",
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": false,
                   "required": false
                   },{
                     "id": "maintenance_selfservice",
@@ -61,7 +61,7 @@
                     "visibility": "maintenance_selfservice == Yes",
                     "controlType": "multilinetextbox",
                     "displayLabel": "Please enter the result.",
-                    "useAsAdditionalDetails": false,
+                    "useAsAdditionalDetails": true,
                     "required": false
                   },{
                     "id": "problem_description",
