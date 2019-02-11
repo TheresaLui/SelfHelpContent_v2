@@ -21,5 +21,5 @@ Use this support topic path  for Azure specific issues (e.g. Virtual Network, UD
 ## **Recommended documents**
 * Cisco Support [Contact](http://www.cisco.com/support)
 * Cisco Meraki Support [Contact](https://meraki.cisco.com/support)
-* See Cisco support cases [here](https://mycase.cloudapps.cisco.com/start)
+* Check your Cisco support cases [here](https://mycase.cloudapps.cisco.com/start)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details
