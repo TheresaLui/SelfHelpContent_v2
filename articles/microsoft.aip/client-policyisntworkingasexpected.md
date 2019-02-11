@@ -18,7 +18,11 @@
 
 ## **Recommended Steps**
 
-Collect Azure Information Protection client logs and attach the exported logs to this ticket.
+* If you are having issues with visual markings, please review [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied)<br>
+* If you are having issues with automatic labeling, please review [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification) and [What the sensitive information types look for](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)<br>
+* If you are having issues with Native/Pfile protection, please review [File API configuration](https://docs.microsoft.com/azure/information-protection/develop/file-api-configuration)
+
+If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ## Export Azure Information Protection logs
 
