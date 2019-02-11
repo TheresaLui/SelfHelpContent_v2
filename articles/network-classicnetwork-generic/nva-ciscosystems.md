@@ -16,9 +16,10 @@
 
 # networkvirtualappliance/ciscosystems
 
-Use this support topic path  for Azure specific issues (e.g. Virtual Network, UDR, NSG etc.) related to Virtual Appliances. If your issue is specific to a Virtual Appliance, please reach out to the respective Virtual Appliance provider (3rd party) for support. Virtual Appliance tickets raised here do not get routed to 3rd party support.
+Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR, NSG etc.) related to Virtual Appliances. If your issue is specific to a Virtual Appliance, please reach out to the respective Virtual Appliance provider (3rd party) for support. Virtual Appliance tickets raised here do not get routed to 3rd party support.
 
-## **Recommended steps**
+## **Recommended Steps**
+
 * To get help from Cisco, open a support request [here](http://www.cisco.com/support)
 * To get help for Cisco Meraki devices, open a support request [here](https://meraki.cisco.com/support)
 * Check your Cisco support cases [here](https://mycase.cloudapps.cisco.com/start)
