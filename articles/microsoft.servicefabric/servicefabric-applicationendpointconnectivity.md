@@ -26,10 +26,11 @@ A script is available to help mitigate the issue. This needs to be applied as a 
 
 For detailed mitigation steps and support resources please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/02/07/known-issue-for-service-fabric-linux-clusters/). 
 
-## **Recommended documents**
-[Service Fabric Endpoint resource](https://docs.microsoft.com/azure/service-fabric/service-fabric-service-manifest-resources#endpoints)<br>
-[Tutorial: Add an HTTPS endpoint to an ASP.NET Core Web API front-end service](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-dotnet-app-enable-https-endpoint)<br>
-[Connecting to other Services](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connecting-to-other-services)<br>
-[Connecting from external Clients](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connections-from-external-clients)<br>
-[Configure Reverse Proxy](https://docs.microsoft.com/azure/service-fabric/service-fabric-reverseproxy-configure-secure-communication)<br>
-[Common Networking Scenario for Service Fabric](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)<br>
+## **Recommended Documents**
+
+* [Service Fabric Endpoint resource](https://docs.microsoft.com/azure/service-fabric/service-fabric-service-manifest-resources#endpoints)<br>
+* [Tutorial: Add an HTTPS endpoint to an ASP.NET Core Web API front-end service](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-dotnet-app-enable-https-endpoint)<br>
+* [Connecting to other Services](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connecting-to-other-services)<br>
+* [Connecting from external Clients](https://docs.microsoft.com/azure/service-fabric/service-fabric-connect-and-communicate-with-services#connections-from-external-clients)<br>
+* [Configure Reverse Proxy](https://docs.microsoft.com/azure/service-fabric/service-fabric-reverseproxy-configure-secure-communication)<br>
+* [Common Networking Scenario for Service Fabric](https://blogs.msdn.microsoft.com/kwill/2016/10/05/azure-service-fabric-common-networking-scenarios/)<br>
