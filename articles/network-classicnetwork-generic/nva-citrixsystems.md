@@ -20,5 +20,5 @@ Use this support topic path  for Azure specific issues (e.g. Virtual Network, UD
 
 ## **Recommended documents**
 * Citrix Support [Contact](https://www.citrix.com/support)
-* Open a Support request for Citrix [here](https://www.citrix.com/support/open-a-support-case/)
+* Open a Support request to Citrix [here](https://www.citrix.com/support/open-a-support-case/)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details
