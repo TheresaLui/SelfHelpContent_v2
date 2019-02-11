@@ -16,6 +16,8 @@
 
 # Azure Information Protection service - policy issues
 
+If you still experience the issue after reviewing the documentation below, please take a screenshot of the problem and attach the screenshot to this ticket.
+
 ## **Recommended Documents**
 
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
