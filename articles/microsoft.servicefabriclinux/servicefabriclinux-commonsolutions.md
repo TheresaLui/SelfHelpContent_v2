@@ -3,8 +3,8 @@
 	description="advisory"
 	service="microsoft.servicefabriclinux"
 	resource="clusters"
-	authors="ChiragPavecha, peterpogorski"
-    ms.author="chiragpa, pepogors"
+	authors="ChiragPavecha"
+  ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32589163,32589164,32589176,32589177,32589178,32589182,32589186,32589188,32589194,32589165,32589173,32589174,32589175,32589179,32589187,32589189,32589190,32589191,32589196,32589166,32589167,32589169,32589170,32589180,32589181,32589184,32589185,32589193,32589195,32598337,32589168,32589171,32589172,32589183,32589192"	
@@ -19,9 +19,7 @@
 ## Active Known Issue with Service Fabric Linux Clusters 
 A recent update introduced an issue for Service Fabric Linux clusters where Ubuntu based Service Fabric nodes will be unable to do core management operations unless the dependent package is downgraded to the previous version (2.3.4-4). 
 
-**Impacted Customers:** Impact is limited to any new Azure based Service Fabric clusters, any new nodes added to an existing cluster, or any nodes which have the upgraded package version (this is applicable if you have manually requested a reimage of any VM(s) in your scale sets). If you are impacted by this issue you will see the Image Store Service is failing.
-
-Existing clusters that have not been scaled up or do not have nodes that have been reimaged, should not be affected. 
+**Impacted Customers:** This will affect all customers running Azure Service Fabric Linux clusters.
 
 ## **Recommended Steps**
 A script is available to help mitigate the issue. This needs to be applied as a Custom Script Extension to your ARM (Azure Resource Manager) template.
