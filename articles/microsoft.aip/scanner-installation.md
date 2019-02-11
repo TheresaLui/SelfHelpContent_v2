@@ -16,6 +16,8 @@
 
 # Azure Information Protection - Scanner Installation
 
+If you are upgrading and not performing a clean installation, please make sure you have followed the guidelines for upgrading the scanner: [Upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner)
+
 ### How to export Azure Information Protection Scanner logs
 
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
