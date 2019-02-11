@@ -18,7 +18,7 @@
 # Query Execution/Increased Workload
 
 ## **Recommended steps**
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase in user requests for your database. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please go through following documents to troubleshoot and resolve:
+Our internal service telemetry detected that over the past 24 hours there has been a significant increase in user requests for your on your Azure SQL DB database. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please go through following documents to troubleshoot and resolve:
 
 ## **Recommended documents**
 * [Use Query performance insights to identify the queries which are causing the high CPU consumption.](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance)
