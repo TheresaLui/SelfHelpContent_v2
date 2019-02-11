@@ -4,6 +4,7 @@
 	service="microsoft.network"
 	resource="virtualappliance"
 	authors="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32632157"
