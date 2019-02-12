@@ -42,9 +42,12 @@ Please refer to the ["Custom Runbook" section of the Start/Stop VM Troubleshooti
 Please refer to the ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop)
 
 ## **Recommended documents**
-[How to] [Start-stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)<br>
-[How to] [Deploy the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)<br>
-[How to] [Update the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#update-the-solution)<br>
-[How to] [Remove the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#remove-the-solution)<br>
-<br>
-[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Start-stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
+
+* [Deploy the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
+
+* [Update the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#update-the-solution)
+
+* [Remove the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#remove-the-solution)
+
+* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

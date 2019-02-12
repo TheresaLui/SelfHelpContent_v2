@@ -14,20 +14,18 @@
 />
 
 # Azure Automation - Problem Deploying Start-Stop Solution
-Here are some common issues with deploying the Start-Stop VM Solution.
+If you are trying to deploy the [Start/Stop VMs solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management), but it isn't working, please refer to the steps below.
 
 ## **Recommended Steps**
 
-Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
+**Start/Stop Solution won't deploy**
 
-* Review the [deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com//azure/automation/automation-solution-vm-management#deploy-the-solution)
-* Check the deployment logs for more specific errors at XXXXXXX
+* Review the [deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
+* Try creating a new automation account just for the Start-Stop VM solution to isolate any module conflicts
 
-**COMMON ERROR 1**
 
-**COMMON ERROR 2**
 
 ## **Recommended Documents** ##
 
-* [Deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
+* [This didn't solve my problem](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/start-stop-vm#other)
 

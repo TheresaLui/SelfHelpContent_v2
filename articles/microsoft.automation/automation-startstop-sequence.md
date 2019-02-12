@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Some VMs Don't Start/Stop"
-    description="Azure Automation - Some VMs Don't Start/Stop"
+    pageTitle="Azure Automation - VMs Don't Start/Stop in Correct Sequence"
+    description="Azure Automation - VMs Don't Start/Stop in Correct Sequence"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
@@ -13,14 +13,15 @@
     cloudEnvironments="public"
 />
 
-# Azure Automation - Some VMs fail to start or stop
-Here are some common issues which might cause some, but not all, VMs to start or stop on schedule. 
+# Azure Automation - VMs Don't Start/Stop in Correct Sequence
+Here are some common issues which might cause VMs to start or stop out of sequence.
 
 ## **Recommended Steps**
 
-**Some VMs do not start/stop**
 
-Please refer to the Please refer to the ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#some-vms-fail-to-startstop)
+**VMs don't start/stop in the correct sequence**
+
+Please refer to the "sequence" section of ["Some VMs" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/start-stop-vm#dont-start-stop-in-sequence) 
 
 ## **Recommended Documents** ##
 
