@@ -3,8 +3,8 @@
 	description="Site Recovery (VMware to Azure)/Common issues during Enable Protection"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="asgang, asgang"
-	ms.author="asgang, asgang"
+	authors="asgang"
+	ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32536405"
@@ -33,16 +33,16 @@
 
 ### Supported/unsupported scenarios
 
-- Is your workload **on supported configuration to perform Disaster Recovery or migration**? Ensure that the workload falls under our [support matrix](https://aka.ms/asr_v2a_support_matrix).
-- **Windows Server 2019 Operating System** can be protected by Azure Site Recovery **version 9.22**. Follow guidelines given [here](https://aka.ms/asr_vmware_upgrades) to upgrade your Site Recovery components.
-- **Unsupported Boot** configurations
-  - [Boot disk not found (Error 95310)](https://aka.ms/asr_boot_failures)
-  - [Multiple Boot disks found (Error 95311)](https://aka.ms/asr_boot_failures)
-  - [System and boot partitions/volumes on different disks **(Error 95309)**](https://aka.ms/asr_boot_failures)
-- Supported disk size** is
-  - Data disk must be between 1024 **MB** and 4095 **GB**
-  - Operating system disk size must be between 1024 **MB** and 2048 **GB**. Learn [more](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements).
-- [If OS disk is a dynamic disk, it is not supported. **Data disk can be  a dynamic disk**](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#storage)
+* Is your workload **on supported configuration to perform Disaster Recovery or migration**? Ensure that the workload falls under our [support matrix](https://aka.ms/asr_v2a_support_matrix).
+* **Windows Server 2019 Operating System** can be protected by Azure Site Recovery **version 9.22**. Follow guidelines given [here](https://aka.ms/asr_vmware_upgrades) to upgrade your Site Recovery components.
+* **Unsupported Boot** configurations
+  * [Boot disk not found (Error 95310)](https://aka.ms/asr_boot_failures)
+  * [Multiple Boot disks found (Error 95311)](https://aka.ms/asr_boot_failures)
+  * [System and boot partitions/volumes on different disks **(Error 95309)**](https://aka.ms/asr_boot_failures)
+* Supported disk size** is
+  * Data disk must be between 1024 **MB** and 4095 **GB**
+  * Operating system disk size must be between 1024 **MB** and 2048 **GB**. Learn [more](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements).
+* [If OS disk is a dynamic disk, it is not supported. **Data disk can be  a dynamic disk**](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#storage)
 [**Unsupported operating systems**](https://aka.ms/ASR_unsupported_OS)
 
 ### Troubleshoot mobility agent installation failures
