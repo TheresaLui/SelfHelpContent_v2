@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614252"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="a7a52cc8-66f4-455e-b61f-351306f264d0"
 />
 
 # Latency or Throughput Performance

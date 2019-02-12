@@ -4,18 +4,23 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628274"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="0bb36f17-2342-4c60-8bcd-e4416a54a9cd"
 />
 
 # Troubleshoot marketplace image deployment failures
 
 4 out of 5 customers resolved their marketplace image deployment issue using the guides listed below.<br>
+
+**Who do I contact for technical support with a solution purchased in the Azure Marketplace?**<br>
+
+Please contact your Azure Marketplace publisher for all technical product support. You can find publisher contact information and/or a link to the support website on their solution details page on Azure Marketplace.<br>
 
 ## **Recommended Documents**
 

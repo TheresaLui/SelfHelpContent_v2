@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596839,32596852"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="0eeff0ad-b53b-4e1a-a9ac-e7a0b7db502d"
 />
 
 # Calling Microsoft Graph directory APIs

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="ec64425b-b8a8-4051-bcb3-ba53f931ffa5"
 /> 
 
 # Azure Databricks Library Installation

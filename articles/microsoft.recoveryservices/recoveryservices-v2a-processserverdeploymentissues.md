@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="b6c5fb9a-2ea3-4869-8933-f2cab914ce1e"
 />
 
 # Site Recovery (VMware to Azure)/ Process Server deployment and issues.

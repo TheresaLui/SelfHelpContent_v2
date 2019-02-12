@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="3bfb9b7f-3a65-4882-a999-282385e687db"
 />
 
 # My app is getting timeout errors from Redis

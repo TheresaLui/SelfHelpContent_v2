@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628040"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
+	articleId="22b31604-0adc-4ec8-b732-2e4501855535"
 />
 
 # Ephemeral OS Disk

@@ -14,7 +14,7 @@ supportTopicIds="32612491"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
-articleId="1c03365b-ea27-4131-a236-f56966ce9f3c"
+articleId="b4768e2c-86c7-41d7-9b22-d22709c8b1e5"
 />
 
 # Move workspace to different subscription or resource group

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="99ab0394-dbc2-4f32-a00a-6778e5e5cecb"
 />
 
 # capacityplanning

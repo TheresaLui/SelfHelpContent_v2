@@ -7,6 +7,7 @@
 	productPesIds="16370"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="b90a41b2-7e2e-486c-9513-296f4bfcb416"
 />
 # V2A Replication not progressing
 ---

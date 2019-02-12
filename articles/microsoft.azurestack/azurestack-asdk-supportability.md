@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629172, 32629192"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="e3d249b3-e197-40b8-940f-37746ef01081"
 />
 
 # Azure Stack Development Kit (ASDK) Support Statement 

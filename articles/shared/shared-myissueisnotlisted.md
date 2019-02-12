@@ -11,7 +11,8 @@
 	productPesIds=""
 	displayOrder=""
 	cloudEnvironments="public"
- />
+ 	articleId="b59f3b5b-b810-461b-84c5-25d28e49e42e"
+/>
 
 # My issue is not listed
 

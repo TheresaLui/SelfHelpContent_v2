@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629204,32629229"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="56cf3a36-1849-4a3a-9ed1-4836fa1cd85b"
 />
 
 # Azure Stack Network Devices

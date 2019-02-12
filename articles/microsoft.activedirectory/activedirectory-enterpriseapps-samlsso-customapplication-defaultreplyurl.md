@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     infoBubbleText="See details on the right"
     authors="zabenamr"
-    authorAlias="zabenamr"
+    ms.author="zabenamr"
     displayOrder=""
     supportTopicIds=""
     selfHelpType="diagnostics"

@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy,dalek"
-authorAlias="yossiy,dalek"
+ms.author="yossiy,dalek"
 displayorder="12"
 selfHelpType="resource"
 supportTopicIds="32612512"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="29181eef-5603-4200-8acf-ae7d5317aaa9"
 />
 
 # Pricing or Billing Questions

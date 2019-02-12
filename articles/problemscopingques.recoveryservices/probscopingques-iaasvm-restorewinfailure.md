@@ -7,6 +7,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
 />
 # Questions Azure VM Restore failure for Windows 
 ---

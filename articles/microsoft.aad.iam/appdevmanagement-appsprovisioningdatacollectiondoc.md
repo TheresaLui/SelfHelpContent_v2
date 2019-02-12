@@ -2,7 +2,7 @@
     pageTitle="Active Directory application provisioning issue"
     description="appsprovisioningdatacollectiondoc"
     authors="ashish-009"
-	authorAlias="asbh"
+	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570260"
     productPesIds="16575"

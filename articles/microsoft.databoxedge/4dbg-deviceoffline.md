@@ -1,9 +1,10 @@
 <properties
 	pageTitle="My device appears offline in the portal."
 	description="My device appears offline in the portal."
-	ms.service="Microsoft.DataBox"
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
-	authors="anbacker"
+	authors="anoobbacker"
+	ms.author="anbacker"
 	authoralias="anbacker"
 	displayOrder="4"
 	selfHelpType="resource"
@@ -11,6 +12,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="842f687b-c163-4afd-bd6d-914fb4c1d589"
 />
 
 # My device appears offline in the portal

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="2cff3f83-d268-40df-bb66-d3fe95625836"
 />
 
 # Synchronizing AD to Azure AD/Synchronization problem for a specific attribute

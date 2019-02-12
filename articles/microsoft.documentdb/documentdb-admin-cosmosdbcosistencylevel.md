@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="d4c8720b-9acd-4677-9113-3c863fac0cd8"
 />
 
 # Azure Cosmos DB consistency levels

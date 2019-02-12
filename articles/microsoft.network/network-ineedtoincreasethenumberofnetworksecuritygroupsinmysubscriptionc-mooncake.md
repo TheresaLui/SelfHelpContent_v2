@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="networksecuritygroups"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="11"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="aefb511d-c310-4b60-a465-208e32970281"
 />
 
 # I need to increase the number of Network Security Groups in my subscription.

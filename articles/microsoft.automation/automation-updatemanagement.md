@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
-    authorAlias="zachal"
+    ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228,32612529"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
+	articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
 # Azure Automation - Update Management
 

@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
-authorAlias="yossiy"
+ms.author="yossiy"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612452"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="bd1c0147-2977-4037-b3ad-715c612bde56"
 />
 
 # Custom Logs for Windows - Added but stopped or never collected

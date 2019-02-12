@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628288"
 	resourceTags=""
-  productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="c5847b30-7196-44dd-9861-40d19c77298c"
 />
 
 # VM Snapshot (Azure Backup) extension issue

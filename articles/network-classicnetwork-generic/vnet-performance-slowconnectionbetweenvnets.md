@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="731f1dc0-bd7e-4e80-8776-12b1f869870b"
 />
 
 # performance/slowconnectionbetweenvnets

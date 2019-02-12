@@ -10,9 +10,11 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="99bd6a4e-9d65-40b5-9e04-69be248c13af"
 />
 
 # import/export service/export
 
-## **Recommended documents**
-[Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)
+## **Recommended Documents**
+
+* [Export an Azure SQL database to a BACPAC file](https://docs.microsoft.com/azure/sql-database/sql-database-export)

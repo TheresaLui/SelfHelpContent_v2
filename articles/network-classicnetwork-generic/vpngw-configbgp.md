@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="public"
+	articleId="7b5af541-1fdd-40f7-88cc-824e4027e949"
 />
 # Configure BGP, routing, forced tunneling
 

@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="5c60d17b-7320-4c10-9990-4ed578f37533"
 />
 
 # connectivity/cannot connect to sql through ag listener

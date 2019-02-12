@@ -8,6 +8,7 @@
   supportTopicIds="32570988"
   productPesIds="14947"
   cloudEnvironments="public"
+	articleId="fe5b5c88-ac6b-4b45-a41f-78331bb71952"
 />
 
 # MFA server settings configuration

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="15abbcac-df3f-4736-8329-a752a0a830fe"
 />
 
 # nwsetupandmgmt/networkwatcherconfigandsetup

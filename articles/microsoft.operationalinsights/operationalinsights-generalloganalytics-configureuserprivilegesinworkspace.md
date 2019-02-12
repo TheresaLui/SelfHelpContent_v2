@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
-authorAlias="yossiy"
+ms.author="yossiy"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612439"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="bd047e2f-6aa4-4218-a8a8-059135dbc5f2"
 />
 
 # Configure User Privileges in Workspace

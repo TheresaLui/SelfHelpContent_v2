@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="b3c9b4b1-0778-4b2d-aa90-035b9c7243b9"
 />
 
 # application/errors or exceptions

@@ -2,13 +2,13 @@
                 pageTitle="Cannot Deploy a Virtual Machine"
                 description="Cannot Deploy a Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628263"
-                productPesIds="14749"
+                productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0040"
 />
 # Deploy a VM
 ---
@@ -23,7 +23,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the size of the VM you are trying to deploy?",
                   "required": false,
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": true
                   },{
                     "id": "deployment_isinavailabilitysetzone",
                     "order": 2,

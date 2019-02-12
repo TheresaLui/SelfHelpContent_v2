@@ -10,6 +10,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="a600405f-eef8-4f6f-be12-d8b3cb4f7bbc"
 />
 
 # I can't connect to my Windows VM
