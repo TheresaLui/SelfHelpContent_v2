@@ -30,7 +30,7 @@ You can move a Log Analytics workspace to a different resource group or subscrip
 
 **Through the Azure Portal**<br>
 
-* Click *change* Resource group or Subscription name in *essential* pen in your workspace. A new page opens with a list of resources - select the resources to move, complete the information then click *OK*. If you encounter an error, you can use the PowerShell cmdlet that produces a more verbose error message.
+* Click *change Resource group or Subscription name* in *essential* pen in your workspace. A new page opens with a list of resources - select the resources to move, complete the information then click *OK*. If you encounter an error, you can use the PowerShell cmdlet that produces a more verbose error message.
 
 **Through the PowerShell cmdlet**<br>
 
