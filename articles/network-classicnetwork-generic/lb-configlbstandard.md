@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="00bc7f12-cb0c-4943-9edf-6adcde762353"
 />
 
 # configure Load Balancer Standard

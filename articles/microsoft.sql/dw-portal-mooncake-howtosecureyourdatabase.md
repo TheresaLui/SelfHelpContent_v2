@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="1ceccd13-c9e1-4fa8-848a-6dda592953dd"
 />
 
 # How to secure your database

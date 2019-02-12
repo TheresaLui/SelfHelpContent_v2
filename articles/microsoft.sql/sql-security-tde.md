@@ -9,6 +9,7 @@
 	supportTopicIds="32574334"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="4eb6dbdf-ba76-4ed0-9919-21fcd0ab8d80"
 />
 
 # security/tde

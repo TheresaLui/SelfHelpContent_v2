@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="493a4d5a-add2-4831-abc4-7352a51b60d2"
 />
 
 # Backup of Linux Azure virtual machine fails

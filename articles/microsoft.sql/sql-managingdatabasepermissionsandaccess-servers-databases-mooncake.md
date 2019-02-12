@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="048ac2e0-d5d9-41ae-b5c0-931dadd3368c"
 />
 
 # Managing database permissions and access

@@ -10,6 +10,7 @@
 	supportTopicIds="32630411"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="7346c116-110b-47ac-a8bf-e2814c075e76"
 />
 
 # portal and client tools/azure data studio

@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="adf15813-cf7c-429b-a2c9-8b6f73bc8f18"
 />
 
 # sql administration/upgrades and security patches

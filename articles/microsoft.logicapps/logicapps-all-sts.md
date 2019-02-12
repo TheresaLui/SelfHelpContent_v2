@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
+	articleId="f7517214-4e34-48f3-9ce4-3f84fb92275e"
 />
 
 # Issue or guidance with Logic Apps

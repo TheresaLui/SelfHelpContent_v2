@@ -10,6 +10,7 @@
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds="14749,16342,14745,15571,15797,16454"
 	cloudEnvironments="MoonCake"
+	articleId="02a0e3e3-4126-4437-9f7e-ec0d495b5c1c"
 />
 
 # My VM is slow

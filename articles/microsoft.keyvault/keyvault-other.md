@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="97314451-830a-4c21-887e-beabaf1b2877"
 />
 
 # Other Scenarios for Key Vault related tasks

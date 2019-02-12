@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="b34ac288-1889-4b92-8801-21c3fc6b30a9"
 />
 
 # Site Recovery (VMware to Azure)/Add vCenter

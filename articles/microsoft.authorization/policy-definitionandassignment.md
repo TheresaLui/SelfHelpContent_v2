@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
+	articleId="151dbbc0-29a2-4238-ab9b-1edb1cff28b3"
 />
 
 # Azure Policy - Defining and Assigning Policies

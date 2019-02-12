@@ -9,6 +9,7 @@
 	supportTopicIds="32511226"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="5bc3656f-4c6d-4c7e-b461-dde5393c5dae"
 />
 
 # managing/elastic pools

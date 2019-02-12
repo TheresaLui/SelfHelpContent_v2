@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c8367984-c199-4ae4-8e32-e377ce6b4f08"
 />
 
 # application/developmentrelated

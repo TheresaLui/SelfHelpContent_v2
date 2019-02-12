@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="baa17671-d090-4833-9ebd-0b8b80a6e2ea"
 />
 
 # Azure Backup SQL Restore Performance issues

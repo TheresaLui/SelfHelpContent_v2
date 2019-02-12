@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="0dee4046-41d9-4ac7-8d7e-52ee62ed28db"
 />
 
 # migrating to azure/planning a migration

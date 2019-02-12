@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="d4f7b10a-a37b-4162-9df0-a900d44ea6d1"
 />
 
 # Error: Database 'x' on server 'y' is not currently available

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="8d288890-9ec2-4271-a3b9-7c40c1849958"
 />
 # Azure Backup - Management
 

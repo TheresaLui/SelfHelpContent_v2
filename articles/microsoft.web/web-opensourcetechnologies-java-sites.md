@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170"
 	cloudEnvironments="public"
+	articleId="7c997afd-1241-40a1-9dea-e7103932b551"
 />
 
 # open source technologies/java

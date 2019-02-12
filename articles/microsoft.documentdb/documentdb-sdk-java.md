@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="e3893373-501f-48bf-88b5-81a9cc59c650"
 />
 
 # Introduction to Azure Cosmos DB Java SDK

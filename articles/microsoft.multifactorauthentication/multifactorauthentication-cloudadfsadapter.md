@@ -8,6 +8,7 @@
   supportTopicIds="32570991"
   productPesIds="14947"
   cloudEnvironments="public"
+	articleId="00d58d9c-fcb3-47e8-9693-64e23ed468b0"
 />
 
 # Installing or configuring cloud-based MFA AD FS adapter

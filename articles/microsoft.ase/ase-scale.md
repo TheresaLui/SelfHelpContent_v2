@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="f00eb4b5-9dde-4bd0-a322-b85485666c49"
 />
 
 # Scale ASE Instances

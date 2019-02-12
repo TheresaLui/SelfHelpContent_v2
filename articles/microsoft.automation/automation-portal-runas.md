@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="b1d09aaa-7185-44ab-999c-b51d64b77a75"
 />
 
 # Azure Automation - Run As Accounts

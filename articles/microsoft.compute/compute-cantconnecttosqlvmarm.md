@@ -10,6 +10,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="421b03ce-45b5-481b-9e01-ea010b11fecb"
 />
 
 # I can't connect to SQL Server in my VM

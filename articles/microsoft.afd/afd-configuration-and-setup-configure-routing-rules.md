@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="8fb1674c-64b8-40e0-948b-b67156c84767"
 />
 
 # Configure Routing Rules

@@ -10,6 +10,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="2fa51490-cf9c-4430-bd55-98a8e4d56d62"
 />
 
 # I can't connect to SQL Server Availability Group

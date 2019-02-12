@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15551"
 	cloudEnvironments="public"
+	articleId="d4a8dea7-5ba3-42e9-b6e8-0a9b1ddb2ec9"
 />
 
 # API Management Portal (*.apimgmt.windows.net)/My issue is not listed here

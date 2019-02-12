@@ -8,7 +8,8 @@
   supportTopicIds="32570259"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="b158b5f2-616c-4aaa-9f72-e3d76845665f"
+/>
 
 # Problems adding or configuring applications
 

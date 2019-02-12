@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="2cc40ccd-4391-45c2-a121-bcf1af1fc564"
 />
 
 # Migrating between servers or subscriptions, or to and from Azure

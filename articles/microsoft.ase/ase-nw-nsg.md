@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="bb03a1f1-7cc4-49ce-bf96-ab1b67a39c9a"
 />
 
 # Networking\Configuring NSGs

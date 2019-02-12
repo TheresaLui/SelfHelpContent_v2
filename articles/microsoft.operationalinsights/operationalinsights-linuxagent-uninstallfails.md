@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="b14d2a39-2094-4a57-8645-7095056c5dd2"
 />
 
 # Linux Agent/Cannot uninstall agent

@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="3534cf32-a14c-4ba9-83ab-650f9005b548"
 />
 # Azure Backup SQL Config failures
 ## **Recommended Steps**

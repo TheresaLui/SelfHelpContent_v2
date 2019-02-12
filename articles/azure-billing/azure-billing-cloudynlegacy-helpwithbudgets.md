@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="a16383b4-c27b-4a28-b8eb-631e9fa825aa"
 />
 
 # Help with Budgets

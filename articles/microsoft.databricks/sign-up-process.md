@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="84872918-c2b0-4fb4-88e4-d073da2cb6ad"
 />
 
 # Azure Databricks quickstart

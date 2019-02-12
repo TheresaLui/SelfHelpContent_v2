@@ -9,6 +9,7 @@
 	supportTopicIds="32628798"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="875e8ca1-112e-41c8-97dd-de5d56b56e27"
 />
 
 # availability and connectivity/Configure or use Azure Active Directory authentication

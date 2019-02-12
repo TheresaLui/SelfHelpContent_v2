@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32511166, 32588500, 32588501, 32588502"
+    supportTopicIds="32629001, 32629080, 32628987"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -33,7 +33,7 @@ To secure the communication with Azure Active Directory, configuration of secure
 
 1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
 
-```powershell
+```
       $lifetime=Get-Date
                 
       New-SelfSignedCertificate -Subject *.[DomainName] `

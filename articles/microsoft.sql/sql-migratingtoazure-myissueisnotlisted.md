@@ -10,6 +10,7 @@
 	supportTopicIds="32045129"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ae4a33d1-9974-4484-bdc0-557e1e230284"
 />
 
 # migrating to Azure/My issue is not listed

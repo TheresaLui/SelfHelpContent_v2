@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="eefc117c-85ad-4f54-8d35-038e292cc41b"
 />
 
 # Move Data to, from, or within Azure Storage

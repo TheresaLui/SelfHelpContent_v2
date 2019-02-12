@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="2054bac9-1ffb-4cb7-a10a-ac73173096e0"
 />
 
 # Migrating data to Azure Cosmos DB Table API

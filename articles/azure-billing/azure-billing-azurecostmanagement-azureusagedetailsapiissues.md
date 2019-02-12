@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="6d796f8e-2c5d-4cf5-97bf-61f2ad86cc00"
 />
 
 # Azure Usage details API Issues

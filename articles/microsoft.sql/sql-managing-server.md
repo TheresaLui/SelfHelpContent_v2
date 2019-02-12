@@ -9,6 +9,7 @@
 	supportTopicIds="31980426"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="afc882b3-33ad-4a70-9fa6-438bf78924e9"
 />
 
 # managing/server

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="8ae3b137-1c7e-400e-9c68-d4635680d132"
 />
 
 # query execution/throttling and governance
