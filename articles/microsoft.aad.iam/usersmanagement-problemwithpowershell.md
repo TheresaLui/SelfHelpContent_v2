@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="81f30cac-0d14-44e3-b824-c6ef9889763a"
 /> 
 # Problem using a PowerShell cmdlet 
 ---

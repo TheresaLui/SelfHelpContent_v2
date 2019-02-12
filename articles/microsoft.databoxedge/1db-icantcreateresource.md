@@ -12,6 +12,7 @@
 	resourceTags="DataBoxEdge"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="64258305-b205-46e8-8168-f796dcf0de1a"
 />
 
 # I can't create a Data Box Edge resource

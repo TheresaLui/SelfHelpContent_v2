@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="238f08d0-5ea0-4797-8d21-8d0666ce6aef"
 />
 
 # Advisory questions - Replicate Hyper-V VMs to Azure

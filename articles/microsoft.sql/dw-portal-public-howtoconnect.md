@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="5f2bbdf3-afe6-400b-a5ff-2be88dd205e1"
 />
 
 # How to troubleshoot connection and tooling issues with your data warehouse

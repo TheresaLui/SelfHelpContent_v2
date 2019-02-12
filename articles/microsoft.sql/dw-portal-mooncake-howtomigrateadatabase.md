@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="01158084-0e69-442d-b97d-425a5160612b"
 />
 
 # How to migrate a database

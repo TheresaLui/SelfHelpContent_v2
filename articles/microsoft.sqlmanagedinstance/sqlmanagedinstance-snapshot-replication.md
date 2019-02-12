@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="7bc4bf25-d3df-4e39-b7e6-d18c27c5fcff"
 />
 
 # Snapshot Replication

@@ -7,6 +7,7 @@
 	displayOrder="200"
 	selfHelpType="resource"
 	cloudEnvironments="public"
+	articleId="c1c9b1fb-3fbb-461f-9949-23fa9ce31e04"
 />
 # Troubleshoot Health service data not up to date
 

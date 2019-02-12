@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="8532932d-b103-4c2e-b249-2eff496bd062"
+/>
 
 # How do I configure content protection for my stream?
 

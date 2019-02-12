@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
+	articleId="6a063684-0c14-40eb-9be3-e0720ba788f6"
 />
 
 # I'm having issues with my YARN application

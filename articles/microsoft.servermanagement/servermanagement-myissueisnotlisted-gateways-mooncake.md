@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     issueNotListed="true"
+	articleId="6c5bcc8e-46bf-44b5-8aec-fec778ed9f01"
 />
 
 # My issue is not listed

@@ -9,6 +9,7 @@
 	supportTopicIds="32628801"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="21323e83-1917-40f6-a7a2-7540a6583232"
 />
 
 # availability and connectivity/My database isn't listed in the Azure portal

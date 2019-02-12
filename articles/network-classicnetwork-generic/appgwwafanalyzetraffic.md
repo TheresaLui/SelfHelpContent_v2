@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="04de40cc-1d79-4388-b341-e6cf928aa716"
 />
 
 # analyzeallowed/blockedtraffic

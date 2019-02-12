@@ -10,6 +10,7 @@
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6374e0bf-6359-4631-b522-dde75208a2e5"
 />
 
 # My devices installed their scheduled updates, even though I issued a pause command.

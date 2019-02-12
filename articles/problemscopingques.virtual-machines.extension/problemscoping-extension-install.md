@@ -30,7 +30,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What extension are you trying to install?",
                   "required": false,
-                  "useAsAdditionalDetails": false,
+                  "useAsAdditionalDetails": false
                 },{
                     "id": "extension_agentinstalled",
                     "order": 3,

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="69867902-65a9-4c5a-aa04-91c748bd351d"
 />
 
 # Troubleshoot custom image deployment failures

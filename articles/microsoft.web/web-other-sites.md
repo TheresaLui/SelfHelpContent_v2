@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="035e7c3c-0c21-4539-98d7-aafd16c22693"
 />
 
 # deployment/other

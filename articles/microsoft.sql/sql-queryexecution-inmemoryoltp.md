@@ -9,6 +9,7 @@
 	supportTopicIds="32574330"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="53b2cc08-21d1-4581-88e9-512e23fc4144"
 />
 
 # query execution/In-memory OLTP

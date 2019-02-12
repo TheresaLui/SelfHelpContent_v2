@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="a675a3c4-3ea6-4b65-b52a-913cad37c231"
 />
 
 # Rate limiting in Azure Cosmos DB

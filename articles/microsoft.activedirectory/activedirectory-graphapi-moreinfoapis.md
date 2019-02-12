@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="0eeff0ad-b53b-4e1a-a9ac-e7a0b7db502d"
 />
 
 # Calling Microsoft Graph directory APIs

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628267,32628266,32628278"
 	resourceTags=""
-	productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="79c0e8f0-6de3-441b-a6a1-ec0be01155f8"
 />
 
 # My extension is not installing correctly, executing, or listed above
@@ -24,7 +25,7 @@
 * [Understanding Azure virtual machine extensions and features](https://docs.microsoft.com/azure/virtual-machines/extensions/overview)<br>
 * [Understanding Azure Virtual Machine Agent for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)
 
-**Additional Information for Specific Extensions**<br>
+**Additional Information for specific extensions**<br>
 
 * [Azure Custom Script Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-customscript)<br>
 * [OMS Extension](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-oms)<br>

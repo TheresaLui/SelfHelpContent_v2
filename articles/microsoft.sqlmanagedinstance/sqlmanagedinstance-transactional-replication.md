@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="afb9b8dc-0fc4-406b-b1f3-52a68c92d678"
 />
 
 # Transactional Replication

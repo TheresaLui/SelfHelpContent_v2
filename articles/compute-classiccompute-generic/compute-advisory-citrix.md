@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16215"
 	cloudEnvironments="public"
+	articleId="2d7bdc0f-3c35-430f-8595-a49ea1885438"
 />
 
 # Advisory

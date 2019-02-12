@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="408af83e-905f-417d-8792-11b040f75363"
 />
 
 # Delete a vault in A2A scenario

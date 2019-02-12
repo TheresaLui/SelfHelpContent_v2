@@ -11,6 +11,7 @@
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="Mooncake"
+	articleId="33ee9be5-f4ed-400c-9c67-05b0222f074d"
 />
 
 # tools

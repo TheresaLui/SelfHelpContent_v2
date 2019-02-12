@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="1b9dbd49-9012-4f90-9f54-53abe9359e82"
+/>
 
 # Azure AD connectivity issues
 

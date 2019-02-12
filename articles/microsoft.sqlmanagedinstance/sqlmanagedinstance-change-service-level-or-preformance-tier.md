@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="27976eaa-1b1e-46e7-82c9-395b9f9ad81e"
 />
 # Service level or performance tier change
 

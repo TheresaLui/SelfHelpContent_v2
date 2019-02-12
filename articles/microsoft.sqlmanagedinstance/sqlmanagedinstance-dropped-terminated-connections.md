@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="5d1b3050-3943-4827-9792-763b8d69c030"
 />
 
 # Dropped or terminated connections

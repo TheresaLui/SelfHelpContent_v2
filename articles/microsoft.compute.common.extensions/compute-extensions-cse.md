@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="a9463661-5253-4fbf-86a8-e4b379b1cf1c"
 />
 
 # Azure Custom Script (CSE) extension issue

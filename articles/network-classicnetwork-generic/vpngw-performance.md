@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="cedbd70a-c612-40a9-b727-035005454b9b"
 />
 
 # Performance

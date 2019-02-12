@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="89697f98-75ae-4fad-a32d-063b4f9e4b6a"
 />
 
 # Replication with SQL Database Managed Instance

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="8b046fe6-615a-42b7-a8fd-8b61020ddddf"
 />
 
 # ASC/Renewing-Rekeying

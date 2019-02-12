@@ -10,6 +10,7 @@
   resourceTags="aadconnect,aadconnect_pass_through_authentication,managed_authentication"
   productPesIds="14785,16579"
   cloudEnvironments="public"
+	articleId="5e0305b5-a7a4-43d7-bd00-aa3bf679ca91"
 />
 
 # Problems configuring and signing in with Azure AD Pass-through Authentication

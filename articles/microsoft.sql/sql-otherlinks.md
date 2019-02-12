@@ -9,6 +9,7 @@
 	supportTopicIds="32045113"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="eab9cefc-28bc-40d4-b502-1073c55e6bd3"
 />
 
 # other

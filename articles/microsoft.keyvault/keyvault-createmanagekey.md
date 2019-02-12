@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="ce318719-e09d-43ee-8c21-089d47909c17"
 />
 
 # How to Create and Manage Keys
