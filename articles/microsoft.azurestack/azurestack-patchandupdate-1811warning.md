@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="88df065c-0dc6-4e81-b7e9-7c45e10b8857"
 />
 
 # Azure Stack Tenant and Admin Portal Impact for 1811 Update

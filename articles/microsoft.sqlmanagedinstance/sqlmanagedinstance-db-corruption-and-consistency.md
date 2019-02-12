@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="ea539921-1eac-4e44-83a6-5954f41d5e09"
 />
 
 # Corruption or Database Consistency Checker (DBCC)

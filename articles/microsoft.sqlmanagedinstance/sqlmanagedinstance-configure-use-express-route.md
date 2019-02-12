@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="07dabac1-91d8-4301-bc41-19febec1195d"
 />
 # Configure or use Express Route
 

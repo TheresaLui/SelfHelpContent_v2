@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="a87b40e7-27ac-42ad-9541-9dc665013831"
 />
 
 # Azure Stack Storage Capacity

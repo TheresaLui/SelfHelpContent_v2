@@ -10,6 +10,7 @@
 	supportTopicIds="32630424"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="7686180f-5d50-40bc-9765-f93baf9ea0f1"
 />
 
 # backup/restore/geo-replication

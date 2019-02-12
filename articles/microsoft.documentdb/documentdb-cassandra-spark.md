@@ -9,7 +9,8 @@
 	supportTopicIds="32615115"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"/>
+	cloudEnvironments="public"	articleId="1315234c-7f91-4ac7-9003-53fc0a63471a"
+/>
 
 # Azure Cosmos DB Cassandra API integration with Spark
 

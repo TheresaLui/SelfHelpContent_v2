@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="185aac9a-7084-40df-9f36-0793b0e42385"
 />
 
 # Cannot Import APIs

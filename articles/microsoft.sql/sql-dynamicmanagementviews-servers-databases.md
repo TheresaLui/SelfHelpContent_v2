@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="5b81a161-0895-44fa-a765-165166cad9d4"
 />
 
 # managing/monitoring

@@ -7,6 +7,7 @@
 	supportTopicIds="32542210"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="5e08b95f-e935-423d-b4db-4c2e2ae6dd59"
 />
 
 # IP configuration

@@ -10,6 +10,7 @@
 	resourceTags="databases, servers"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="8dbcccb2-32eb-4eab-b821-894e5ee2d54c"
 />
 
 # query execution/performance and time outs

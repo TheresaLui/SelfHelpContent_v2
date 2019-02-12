@@ -10,6 +10,7 @@
 	supportTopicIds="32613337"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="3df96a65-5213-470a-ade7-499592549f55"
 />
 
 # tools/sql operations studio

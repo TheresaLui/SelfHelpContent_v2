@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="be2c2000-8452-4bec-8ee5-3fde9d49c691"
 />
 
 # Firewall Issues

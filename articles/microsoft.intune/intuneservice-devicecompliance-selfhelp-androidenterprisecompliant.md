@@ -10,6 +10,7 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="267c503f-ebee-4b9c-8713-e1b1a183e0b9"
 />
 
 # The Android Enterprise devices in my organization are compliant with all of our policies, but they are still showing as not compliant.

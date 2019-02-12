@@ -7,6 +7,7 @@
          productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="2e8851dd-26d4-4e42-9fe4-e714c9607dc7"
 />
 # Questions Azure VM configuration protection failure
 ---

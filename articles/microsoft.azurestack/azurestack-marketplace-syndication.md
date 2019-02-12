@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="ebdc3983-705d-401c-b983-f433c12f1e9f"
 />
 
 # Azure Stack Marketplace

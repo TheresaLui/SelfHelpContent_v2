@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="76736774-887b-41c7-97ab-4463cd31a739"
 />
 
 # Enable Protection - VMware/Physical to Azure

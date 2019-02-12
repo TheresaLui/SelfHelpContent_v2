@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="2a66f311-914c-430f-83fc-693d14276a1c"
 />
 
 # managing/databases

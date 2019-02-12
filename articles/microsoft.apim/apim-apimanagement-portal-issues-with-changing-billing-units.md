@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="94cd9a1d-2874-473f-8274-0d1da79bd85d"
 />
 
 # Issues with changing billing units

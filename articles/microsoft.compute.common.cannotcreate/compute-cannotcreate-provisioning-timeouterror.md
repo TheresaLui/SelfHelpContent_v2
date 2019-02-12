@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="2b6deeb3-490a-4d18-8a36-83ed65de8451"
 />
 
 # I received a provisioning or deployment timeout error

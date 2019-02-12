@@ -11,6 +11,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="f48635af-1630-4674-8ccb-8a79dbdf4f5a"
 />
 
 # Gen2 Service Level Objectives (SLO)

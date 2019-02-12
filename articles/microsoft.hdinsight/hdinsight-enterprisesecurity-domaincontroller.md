@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="3b00ed8f-1e5b-4779-b7dd-4d5b87e86506"
 />
 
 # Configure a HDInsight cluster with Enterprise Security Package by using Azure Active Directory Domain Services

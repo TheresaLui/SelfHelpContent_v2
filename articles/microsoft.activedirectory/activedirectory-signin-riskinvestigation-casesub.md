@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="2a11f272-42e1-4dce-8920-b451ac184751"
+/>
 
 # Risk Investigation (Alerts, Risks, and Reporting)
 

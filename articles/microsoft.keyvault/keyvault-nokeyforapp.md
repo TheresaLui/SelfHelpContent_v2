@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="c91b46a1-97cf-4619-9767-45d0c3e0fdd8"
 />
 
 # Application Cannot Obtain or Use a Key
