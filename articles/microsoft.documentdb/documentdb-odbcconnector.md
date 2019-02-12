@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="050201bf-fb74-40fe-8d08-0deb473b373b"
 />
 # Azure Cosmos DB ODBC Connector
 

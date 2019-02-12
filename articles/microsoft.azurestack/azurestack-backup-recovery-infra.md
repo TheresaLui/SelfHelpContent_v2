@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="8c9f303c-e4aa-44f8-842b-95648de96c8d"
 />
 
 # Azure Stack Infrastructure Backup

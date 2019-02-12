@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="6d7cb39d-cdb2-4f59-95fe-bebd867fed38"
 />
 
 # Firewall Rules

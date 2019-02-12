@@ -5,12 +5,13 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
-	displayOrder="8"
+	displayOrder="25"
 	selfHelpType="resource"
 	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="64c0a2f3-0fe4-4eed-a2d2-3218f58cde19"
 />
 
 # My VM restarted unexpectedly

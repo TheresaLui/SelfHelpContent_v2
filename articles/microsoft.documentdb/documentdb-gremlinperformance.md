@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="043d6851-e831-4139-9698-ff5902dc28c6"
 />
 
 # Performance tips for Azure Cosmos DB Gremlin API

@@ -6,6 +6,7 @@
 	supportTopicIds="32593226"
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9ffb99da-fecf-4d2e-ad70-4a482c7e51be"
 />
 # Reservation Management
 Please provide the reservation type: <br>

@@ -10,6 +10,7 @@
 	resourceTags="databases, servers"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="fb9eda0b-30c9-4d29-b1de-9897296efcb0"
 />
 
 # Backing up and restoring databases

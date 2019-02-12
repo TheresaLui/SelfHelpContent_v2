@@ -4,12 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32591320, 32589415"
-	resourceTags="linux, redhat"
-	productPesIds="15571, 15797, 16454"
+	supportTopicIds="32589415"
+	resourceTags=""
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="249cdea5-5761-4150-8572-8978204e0991"
 />
 
 # Planned Maintenance/general questions or issues

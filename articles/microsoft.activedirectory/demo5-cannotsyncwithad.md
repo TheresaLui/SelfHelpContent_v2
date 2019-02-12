@@ -3,13 +3,15 @@
     description="Synchronization Service cannot import/export changes from on-premises AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="nitinkallikat"
+    authors="nitinka01"
+	ms.author="nikallik"
     displayOrder="995"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="d6a0f361-dcf8-407f-866a-d4783e08f77e"
 />
 
 # Synchronization Service cannot import/export changes from on-premises AD

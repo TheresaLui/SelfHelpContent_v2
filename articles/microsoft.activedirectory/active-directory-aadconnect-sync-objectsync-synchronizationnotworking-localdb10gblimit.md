@@ -10,6 +10,7 @@
     resourceTags="directory_ad_connect"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="6545c2ae-f913-4591-aed8-3f3e5fc7c9b1"
 />
 
 # Synchronization Service stops working after LocalDB reaches 10-GB limit

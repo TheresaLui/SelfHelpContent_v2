@@ -8,6 +8,7 @@
     supportTopicIds="32586792"
     productPesIds="16578"
     cloudEnvironments="public"
+	articleId="96948e70-b956-4bf2-bf63-6085f73bb4f0"
 />
 
 # Creating a new group

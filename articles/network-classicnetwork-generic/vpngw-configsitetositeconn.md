@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="public"
+	articleId="26aad524-4ae2-4569-bd37-89f22689ae92"
 />
 # Configure a Site-to-Site connection
 ## **Recommended steps**

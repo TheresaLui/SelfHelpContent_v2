@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="18d13f56-abed-4610-a8ce-0d9dd58d78a9"
 />
 
 # Unexpectedly disconnected from IoT Hub

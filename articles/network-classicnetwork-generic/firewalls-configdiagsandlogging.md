@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16556"
     cloudEnvironments="public"
+	articleId="ee458b67-5636-4b45-bf74-04abf543ebe5"
 />
 # Diagnostics and logging
 ## **Recommended documents**

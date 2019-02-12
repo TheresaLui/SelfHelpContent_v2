@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="1266529a-8bfb-4011-ab4d-071691bdf78a"
 />
 
 # Azure Automation - Automation Account

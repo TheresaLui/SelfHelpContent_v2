@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="276a12cb-ef68-4393-af94-c72295f745ba"
 />
 
 # SSIS/Azure Data Factory

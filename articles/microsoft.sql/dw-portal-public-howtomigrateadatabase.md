@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="087f59cf-bf93-4a08-937d-ceaa27d5286f"
 />
 
 # How to model and design your data warehouse

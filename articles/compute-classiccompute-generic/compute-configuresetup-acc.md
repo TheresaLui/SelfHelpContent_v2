@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749,16080"
 	cloudEnvironments="public"
+	articleId="b7f99145-74db-4a8d-a195-81468cca0e01"
 />
 
 # Azure Confidential Computing

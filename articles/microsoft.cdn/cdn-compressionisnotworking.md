@@ -10,6 +10,7 @@
 	supportTopicIds=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="acbd351f-1e08-4ef6-be46-ccceba01116a"
 />
 
 # Compression is not working

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="3aa2dc7f-60ec-4582-809f-162b17b891af"
 />
 
 # Azure Active Directory Configuration

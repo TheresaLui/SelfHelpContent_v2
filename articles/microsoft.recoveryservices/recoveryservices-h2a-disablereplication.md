@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="06f03733-7a2b-4d82-852d-91abe916eee1"
 />
 
 # Disable replication for Hyper-V VMs protected in Azure

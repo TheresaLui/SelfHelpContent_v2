@@ -8,7 +8,8 @@
     supportTopicIds="32596851"
     productPesIds="14785,16575"
     cloudEnvironments="public"
-    />
+    	articleId="2d5dc8e4-41b1-4d0b-bee8-e9989512f4d9"
+/>
 
 # Issues that are related to signing in to Microsoft applications
 

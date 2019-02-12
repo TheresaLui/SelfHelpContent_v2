@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="db06ebfa-fff3-45c1-bd35-d3dab52132c0"
 />
 
 # migrating to azure/migration tools

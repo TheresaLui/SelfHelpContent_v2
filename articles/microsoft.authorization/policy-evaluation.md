@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
+	articleId="ab3c11c4-35f0-4332-8edf-ab2edd81042e"
 />
 
 # Azure Policy - Policy Evaluation

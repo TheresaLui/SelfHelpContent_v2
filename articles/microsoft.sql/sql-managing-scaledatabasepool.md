@@ -9,6 +9,7 @@
 	supportTopicIds="32574333"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="fe0a26b8-b3db-456d-9d30-a5ad96967375"
 />
 
 # managing/scale database/pool

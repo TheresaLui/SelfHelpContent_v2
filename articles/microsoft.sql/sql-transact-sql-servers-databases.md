@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="496359a9-dbf5-462e-a070-d6db89112c07"
 />
 
 # design and development/transact-sql

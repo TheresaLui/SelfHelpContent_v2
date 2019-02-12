@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="499c0589-1983-48a2-94a9-d4aee6a69124"
 />
 
 # How to troubleshoot issues and follow best practices when loading data

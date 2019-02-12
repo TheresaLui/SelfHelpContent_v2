@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="ffd54920-ebfd-4c19-acb2-4afd31548408"
 />
 
 # Cannot connect to an API endpoint

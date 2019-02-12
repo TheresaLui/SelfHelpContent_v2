@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="870b74fd-a900-42a7-bdd1-a706fa8b2558"
 />
 
 # Azure virtual machine backups are running slow

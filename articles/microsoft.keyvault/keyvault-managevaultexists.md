@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="ef2146e8-0e56-4e59-b7fa-629446d88d7f"
 />
 
 # Managing an Existing Key Vault

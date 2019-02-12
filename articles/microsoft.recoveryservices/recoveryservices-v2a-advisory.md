@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="8e138d77-259b-4372-8b67-8531cbb84afc"
 />
 
 # Advisory questions - VMware/Physical to Azure

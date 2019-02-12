@@ -9,7 +9,8 @@
     supportTopicIds="32586793"
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="af9602ba-90c1-4183-9407-922b87ed1326"
+/>
 # I can't delete a user in my directory
 
 ## **Recommended steps**

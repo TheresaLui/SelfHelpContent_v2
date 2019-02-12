@@ -7,10 +7,11 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411885,32613319"
-	resourceTags="linux"
+	supportTopicIds="32411885"
+	resourceTags=""
 	productPesIds="15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="b3312246-5a00-41e6-819b-4f0cd3531630"
 />
 
 # Advisory

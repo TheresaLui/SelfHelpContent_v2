@@ -3,14 +3,15 @@
               description="I have an issue with my public IP"
               service=""
               resource=""
-              authors="scottAzure"
-              ms.author="scotro"
+              authors="scottAzure,timbasham"
+              ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615527"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="6ce39c44-2a32-41c2-a8ce-7dedc93e6619"
 />
 
 # I have an issue with my public IP
@@ -21,7 +22,8 @@
 
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
-* [Validate effective routes and if forced tunneling is enabled](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId)
+* Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine.<br>
+* [How to resolve an RDP failure due to NSG rules](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem)
 
 **Additional Documents**<br>
 

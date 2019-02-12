@@ -7,6 +7,7 @@
 	supportTopicIds="32542208"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="1ca54f22-70e8-4819-8748-814f0a54bae6"
 />
 
 # Backup and Restore

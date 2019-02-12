@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="98fec398-28f9-42eb-b9a0-3a8124113559"
+/>
 
 # Connect Health for Azure AD Synchronization
 

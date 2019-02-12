@@ -10,6 +10,7 @@
 	supportTopicIds="32630445"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="c2b5715b-82a9-461d-8e14-bc4a399b08cf"
 />
 
 # portal and client tools/my issue is not listed

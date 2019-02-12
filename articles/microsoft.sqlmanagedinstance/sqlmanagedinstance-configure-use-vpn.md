@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="19db045b-254c-4b41-8aaa-ff978f3d4c3f"
 />
 # Connectivity/Configure or use VPN
 

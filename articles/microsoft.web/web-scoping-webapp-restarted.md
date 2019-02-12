@@ -7,6 +7,7 @@
 	supportTopicIds="32570954"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="d8cf9aca-9483-4557-9083-cf16fc56e587"
 />
 
 # Web app restarted

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="2c69338d-3890-406e-ab66-fe202edfd94b"
 />
 
 # Advisory questions related to IaaS VM Backup and Restore
