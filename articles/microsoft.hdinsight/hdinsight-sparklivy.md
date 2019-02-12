@@ -17,10 +17,10 @@
  
 ## **Recommended Documents**
 
-* How-to [submit remote jobs to an HDInsight Spark cluster](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-livy-rest-interface)
-* How-to [Configure spark application through livy on hdinsight clusters](https://hdinsight.github.io/spark/spark-application-configuration-through-livy.html)
-* How-to [Retrieve livy session details](https://hdinsight.github.io/spark/debug-jupyter-livy-spark.html)
-* Known-Issue [Livy Server fails to start with java.lang.OutOfMemoryError](https://hdinsight.github.io/spark/livy-nativethread-exhaustion.html)
+* [Submit remote jobs to an HDInsight Spark cluster](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-livy-rest-interface)
+* [Configure spark application through livy on hdinsight clusters](https://hdinsight.github.io/spark/spark-application-configuration-through-livy.html)
+* [Retrieve livy session details](https://hdinsight.github.io/spark/debug-jupyter-livy-spark.html)
+* Known Issue: [Livy Server fails to start with java.lang.OutOfMemoryError](https://hdinsight.github.io/spark/livy-nativethread-exhaustion.html)
 
 
 
