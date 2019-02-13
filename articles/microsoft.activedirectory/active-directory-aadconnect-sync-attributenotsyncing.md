@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* If you noticed that the **userPrincipalName** or **proxyAddress** is not syncing, then this could be because these are [shadow attributes](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-shadow-attributes).
+* If you noticed that the **userPrincipalName** or **proxyAddress** is not syncing, it could be because these are [shadow attributes](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-shadow-attributes)
 * If the above steps did not resolve your sync issue, try [troubleshooting an attribute not synchronizing to the Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-attribute-not-syncing) 
 
 ## **Recommended Documents**
