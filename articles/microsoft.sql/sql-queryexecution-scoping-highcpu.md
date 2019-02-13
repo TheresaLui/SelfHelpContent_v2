@@ -9,30 +9,61 @@
         supportTopicIds="32630450"
         productPesIds="13491"
 	cloudEnvironments="public"
+        schemaVersion="1"
 />
 
 # High CPU usage
 
 ---
 {
-    "resourceRequired": false,
+    "resourceRequired": true,
+    "title": "CPU is higher than expected",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
+            "displayLabel": "What is the start time of the issue?",
             "required": true
-        },
-        {
-            "id": "problem_end_time",
+        },{
+            "id": "perf_current",
             "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem end time",
-            "required": true
+            "controlType": "dropdown",
+            "displayLabel": "Is the high CPU issue ongoing?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+
+            "required": false
+        },{
+            "id": "perf_benchmarking",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide additional information about your high CPU issue",
+            "required": true,
+            "hints": [
+                {
+                    "text": "How much CPU resourece consumption are you seeing"
+                },
+                {
+                    "text": "Has the site volume increased"
+                }
+            ]
         }
     ]
 }
+
 ---
 
 
