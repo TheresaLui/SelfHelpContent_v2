@@ -1,4 +1,5 @@
 <properties
+    articleid="a466805c-a745-45d8-a3f2-edeb1db06a64"
     pageTitle="How to customize a synchronization rule"
     description="How to customize a synchronization rule"
     service="microsoft.activedirectory"
