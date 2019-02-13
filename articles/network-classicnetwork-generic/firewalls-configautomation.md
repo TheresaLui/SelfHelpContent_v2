@@ -3,7 +3,7 @@
     description="Config automation"
     service="microsoft.network"
     resource="azurefirewalls"
-    authors="radwiv, mariliu"
+    authors="radwiv, spacest"
     ms.author="radwiv, mariliu"
     displayOrder=""
     selfHelpType="generic"
