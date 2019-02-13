@@ -18,5 +18,5 @@
 
 ## **Recommended Steps**
 
-Please follow instructions in [this document to resolve installation issues](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-install-issues).
+[Troubleshoot Azure AD Connect install issues](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-install-issues)
 
