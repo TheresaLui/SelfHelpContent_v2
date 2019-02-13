@@ -11,6 +11,7 @@
     supportTopicIds="31980430"
     resourceTags="databases, servers"
     productPesIds="13491"
+    selfHelpType="generic"
     cloudEnvironments="public"
 />
 
