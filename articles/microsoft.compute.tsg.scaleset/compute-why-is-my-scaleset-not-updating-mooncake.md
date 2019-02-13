@@ -10,6 +10,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
+	articleId="e0652396-ba3f-449e-b872-31dd98109087"
 />
 
 # Why is my scale set not updating

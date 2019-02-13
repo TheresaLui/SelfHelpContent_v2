@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="8e0ffa94-d3a6-4043-99f7-cda51f69e0a3"
 />
 
 # Azure Databricks Access Control

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628285"
 	resourceTags=""
-	productPesIds="15571,15797,16454"
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="845b0f97-0026-43f2-aaea-daf3cea70cb8"
 />
 
 # My VM will not start after a configuration change

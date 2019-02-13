@@ -11,6 +11,7 @@
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="72a1d281-9123-421c-9cf6-90fed2618648"
 />
 
 # Troubleshoot my VM firewall

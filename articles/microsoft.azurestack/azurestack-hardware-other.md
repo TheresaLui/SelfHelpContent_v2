@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="a32f2a3c-f0bb-4fbf-bf17-4ad15f6ffe7b"
 />
 
 # Azure Stack Hardware

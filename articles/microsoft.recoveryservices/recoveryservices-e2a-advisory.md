@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="ea223e91-ca3d-432b-b10c-48e784c66cda"
 />
 
 # Advisory questions - Replicate Hyper-V VMs managed by System Center VVM to Azure

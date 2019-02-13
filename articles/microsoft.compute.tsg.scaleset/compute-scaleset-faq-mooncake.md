@@ -10,6 +10,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
+	articleId="c5b7ef43-6694-4254-aae1-2de75dafe5ec"
 />
 
 # Scale set FAQ

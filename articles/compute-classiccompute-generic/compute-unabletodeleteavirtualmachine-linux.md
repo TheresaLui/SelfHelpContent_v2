@@ -4,17 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32573480"
 	resourceTags=""
-	productPesIds="15571,15797"
+	productPesIds="15571,15797,16470"
 	cloudEnvironments="public"
+	articleId="64effc32-a85d-4b6f-987b-99681a5b41ba"
 />
 
 # Management/Unable to delete a virtual machine
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Troubleshoot deleting Azure VHDs in a Resource Manager deployment](https://docs.microsoft.com/azure/storage/storage-resource-manager-cannot-delete-storage-account-container-vhd)<br>
 * [Troubleshoot deleting Azure VHDs in a classic deployment](https://docs.microsoft.com/azure/storage/storage-cannot-delete-storage-account-container-vhd)<br>

@@ -7,6 +7,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="8766b9f2-62d3-4dc0-8b81-597d2b0535ed"
 />
 # Cannot Connect to or from Internet
 ---

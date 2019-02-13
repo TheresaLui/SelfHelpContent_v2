@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="f5cd7fd0-f440-45d5-b917-0505683d8523"
 />
 # Back up a managed instance database
 

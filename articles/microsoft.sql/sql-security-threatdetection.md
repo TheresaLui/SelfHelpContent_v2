@@ -10,6 +10,7 @@
 	supportTopicIds="32574335"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="a5ff9d09-eeef-4b50-9f4d-cc7ac1d402c8"
 />
 
 # Threat Detection

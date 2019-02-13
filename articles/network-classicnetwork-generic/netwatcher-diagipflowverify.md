@@ -10,6 +10,7 @@ description="diagnostictools/ipflowverification"
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="e4c40d8a-f6bf-4972-9e32-eb3e1b2e9ce3"
 />
 
 # diagnostictools/ipflowverification

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="3209a960-3d4f-4220-8eb1-a99848e6a5cc"
 />
 
 # configurationandsetup/configmultisitehosting

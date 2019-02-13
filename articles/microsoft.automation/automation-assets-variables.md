@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="1e1e978f-0d21-4db2-b43b-40767bc6c296"
 />
 
 # Azure Automation - Shared Resources - Variables

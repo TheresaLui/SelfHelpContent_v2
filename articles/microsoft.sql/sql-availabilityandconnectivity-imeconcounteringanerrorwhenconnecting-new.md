@@ -10,6 +10,7 @@
 	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
 />
 
 # availability and connectivity/I'm encountering an error when connecting to my database

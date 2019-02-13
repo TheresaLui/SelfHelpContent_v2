@@ -10,6 +10,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
+	articleId="cd33eec0-a504-4c1d-831a-449c36d5f6d6"
 />
 
 # Are scale sets PCI-compliant

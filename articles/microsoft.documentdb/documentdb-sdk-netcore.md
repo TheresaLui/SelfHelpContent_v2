@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="c4049529-379b-422b-baff-3b94d09ff8f3"
 />
 
 # Introduction to Azure Cosmos DB .NET Core SDK

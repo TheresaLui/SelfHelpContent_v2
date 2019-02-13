@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="b3cd41e0-d85f-44e5-bb0e-ad3a8e348b5a"
 />
 
 # ALL self-help topics System State backup

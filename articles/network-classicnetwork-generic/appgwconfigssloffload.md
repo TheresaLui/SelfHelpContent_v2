@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="2ef2c4e3-0e90-4d05-aadf-32d39d118fe0"
 />
 
 # configurationandsetup/configure SSL offload

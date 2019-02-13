@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="bbd78870-5389-4f43-bed3-5dddbf6ce3e7"
 />
 
 # Errors for Table API in Azure Cosmos DB

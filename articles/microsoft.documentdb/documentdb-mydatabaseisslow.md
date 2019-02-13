@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="3a02c964-f104-48e6-a87d-678ec7d49524"
 />
 
 # My database is slow

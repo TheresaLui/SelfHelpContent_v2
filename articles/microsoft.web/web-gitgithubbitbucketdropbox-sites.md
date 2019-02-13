@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="c7f04ffd-bfb1-472b-a88d-79299737080c"
 />
 
 # deployment/git, github, bitbucket, dropbox

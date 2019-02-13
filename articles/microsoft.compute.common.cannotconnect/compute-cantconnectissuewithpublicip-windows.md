@@ -11,6 +11,7 @@
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="6ce39c44-2a32-41c2-a8ce-7dedc93e6619"
 />
 
 # I have an issue with my public IP

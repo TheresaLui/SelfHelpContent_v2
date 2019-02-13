@@ -9,7 +9,8 @@
 	supportTopicIds="32615110"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"/>
+	cloudEnvironments="public"	articleId="d4efebf6-70c3-486a-8081-99e77c289b12"
+/>
 
 # How to develop applications with Azure Cosmos DB Cassandra API
 

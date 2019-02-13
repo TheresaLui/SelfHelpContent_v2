@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a440a95b-4f6a-4269-bc69-55db0ec5a604"
 />
 
 # How to recover from a backup

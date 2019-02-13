@@ -11,6 +11,7 @@
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="b53b4761-a678-45ea-8869-24973e5a6678"
 />
 
 # My configuration change impacted connectivity

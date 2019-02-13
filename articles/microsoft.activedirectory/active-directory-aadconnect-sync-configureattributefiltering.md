@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="9ab84491-edbf-405d-8438-a2d7bb21d91d"
+/>
 
 # Configure attribute filtering
 

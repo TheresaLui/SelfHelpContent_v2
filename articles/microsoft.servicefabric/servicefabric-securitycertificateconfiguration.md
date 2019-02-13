@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="b992ca0a-5ec6-4b9a-b6fc-6b13edbb7e28"
 />
 
 # Certificate Configuration

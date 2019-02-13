@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="9989dbf9-10fc-4801-b00d-a15d850389bf"
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB

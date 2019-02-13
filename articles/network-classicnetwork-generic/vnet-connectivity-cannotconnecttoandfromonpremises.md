@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="fee387ea-55c8-4e15-856c-ba26e09faf5b"
 />
 
 # connectivity/cannotconnecttoandfromonpremises

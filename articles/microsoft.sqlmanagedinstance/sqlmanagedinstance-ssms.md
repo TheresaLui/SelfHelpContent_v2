@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="07c07004-d09c-4247-b832-30f7b581c296"
 />
 
 # SQL Server Management Studio

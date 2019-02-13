@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="38c5358c-c63b-4043-9126-4b0839179085"
 />
 
 # Azure Stack App Service Resource Provider

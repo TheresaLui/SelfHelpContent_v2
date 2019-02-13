@@ -10,6 +10,7 @@
 	supportTopicIds="31980409"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="f5aa7946-b69d-4785-b654-cd5f08c44e15"
 />
 
 # tools/azure management portal

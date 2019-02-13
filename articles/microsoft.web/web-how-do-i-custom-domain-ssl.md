@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="41d01f0b-3c2b-4334-a5ad-22b58d6f0ca1"
 />
 # Questions on Custom Domains and Certificates
 ## **Recommended documents**

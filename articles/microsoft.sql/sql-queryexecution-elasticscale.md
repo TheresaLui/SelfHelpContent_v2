@@ -9,6 +9,7 @@
 	supportTopicIds="32357040"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="75a79753-589b-4dd5-8705-d870ee3b2a3a"
 />
 
 # query execution/elastic scale

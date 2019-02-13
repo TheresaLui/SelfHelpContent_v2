@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="0100bc27-2ec0-4f76-8ffb-0e56e84a97a5"
 />
 
 # Azure Files - General guidance or advisory  

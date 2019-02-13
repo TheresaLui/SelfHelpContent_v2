@@ -10,6 +10,7 @@
 	resourceTags="databases, servers"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="18a8e32f-201c-4ccd-ae0d-5b3ec11d7676"
 />
 
 # Backing up and restoring databases

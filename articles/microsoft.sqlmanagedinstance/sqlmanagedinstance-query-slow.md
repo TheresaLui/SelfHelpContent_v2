@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="4429c3f3-23c7-4e9d-ac8f-2e8387a56ff5"
 />
 # Database query is slow or unresponsive
 

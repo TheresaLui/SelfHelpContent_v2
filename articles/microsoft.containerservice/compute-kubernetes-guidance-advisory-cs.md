@@ -11,6 +11,7 @@
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
+	articleId="5f54a592-33ed-460f-8ac9-8f51e4a2bb7f"
 />
 
 # Kubernetes Service

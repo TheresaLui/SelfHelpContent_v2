@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="1e7ff5db-a7c2-4165-93e7-1ec44b4f9583"
 />
 
 # connectivity/cannotconnecttoandfrominternet
