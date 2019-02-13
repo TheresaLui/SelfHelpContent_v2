@@ -22,16 +22,18 @@ This article will help with several kinds of issues relating to onboarding and u
 * Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
 **Update Agent Readiness doesn't show "ready"**
+
 * For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report. 
 * For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide. 
 * Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
 **Machine shows as "not asssessed"**
+
 Information can take a few minutes to propogate through Log Analytics, but if machines still show "not assessed":
 * Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
 * If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
 * If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#nologs)
-* If there is also an HrException 
+
 
 ## **Recommended documents**
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
