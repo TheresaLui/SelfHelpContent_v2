@@ -16,6 +16,14 @@
 
 # Azure Information Protection - PowerShell issues
 
+If you still experience issues after reviewing the below documentation, please export the scanner logs and add them to your ticket. 
+
+### How to export Azure Information Protection Scanner logs
+
+1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service
+2. Zip all the contents under the MSIP folder
+3. Save the logs to your choice of location, and attach them to your service request
+
 ## **Recommended Documents**
 
 * [Review Azure Information Protection PowerShell Commands](https://docs.microsoft.com/powershell/module/azureinformationprotection/?view=azureipps)<br>
