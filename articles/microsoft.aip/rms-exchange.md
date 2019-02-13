@@ -73,15 +73,14 @@ It may also indicate a problem with the DNS pointer or with load balancing. Try 
 **Event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
 
 6. If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above.
-
 7. Check if user and group membership is properly replicated in AAD. Check if user has rights to the content in Outlook.
 Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
 
 8. Additional possible causes:
 
-	a. SSL CRL not accessible
-	b. SSL certificate in connector not trusted by Exchange servers
-	c. Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
 	
 ### The Admin cannot enable the IRM Integration in Exchange
 
@@ -131,9 +130,9 @@ It may also indicate a problem with the DNS pointer or with load balancing. Try 
 5. Check if user and group membership for the test account is properly replicated in AAD. Check if user has rights to the content in Outlook. Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
 6. Additional possible problems:
 
-	a. SSL CRL not accessible
-	b. SSL certificate in connector not trusted by Exchange servers
-	c. Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
 
 If all of the above didn't help, please collect the below logs and add them to your support ticket. Create an RMS Analyzer trace on the Exchange Server and a [RMS connector Trace](https://docs.microsoft.com/azure/information-protection/monitor-rms-connector#logging) at the same time.
 
