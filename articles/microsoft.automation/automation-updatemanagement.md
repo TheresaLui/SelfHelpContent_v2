@@ -32,7 +32,7 @@ This article will help with several kinds of issues relating to onboarding and u
 Information can take a few minutes to propogate through Log Analytics, but if machines still show "not assessed":
 * Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
 * If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
-* If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#nologs)
+* If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
 ## **Recommended documents**
