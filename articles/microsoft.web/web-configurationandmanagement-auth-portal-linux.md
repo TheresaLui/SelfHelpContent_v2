@@ -11,12 +11,14 @@
 	resourceTags=""
 	productPesIds="16170"
 	cloudEnvironments="public"
+    articleId="43162bc3-a806-4602-a931-4fb6158d2a6d"
 />
 
 # authentication and authorization/App Service Authentication (built-in) through portal
 
 ## **Recommended Documents**
 
+* [App Service Authentication/Authorization Coming to Linux Apps](https://blogs.msdn.microsoft.com/appserviceteam/2018/05/07/linux-auth/)
 * [Overview of Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)
 * [Authentication and authorization HTTP status codes, ex: 401.71, 401.83](https://github.com/cgillum/easyauth/wiki/HTTP-Status-Codes)
 * [Authentication and authorization error codes, ex: AADSTS####](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)

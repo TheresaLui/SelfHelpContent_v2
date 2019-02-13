@@ -7,10 +7,11 @@
     ms.author="shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629421"
+	supportTopicIds="32588771"
 	resourceTags=""
-	productPesIds="14748,16170,16333"
+	productPesIds="16170,16333"
 	cloudEnvironments="public"
+    articleId="93746ec4-edac-4248-bf34-32a3d70ddfb0"
 />
 
 # Deployment\CLI
