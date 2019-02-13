@@ -1,5 +1,5 @@
 <properties
-    articleId="automation-start-stop-vm.md"
+    articleId="automationstartstopvm.md"
     pageTitle="Azure Automation - Start-Stop VM"
     description="Azure Automation - Start-Stop VM"
     service="microsoft.automation"
