@@ -4,12 +4,13 @@
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
+	author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591147"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cedbd70a-c612-40a9-b727-035005454b9b"
 />
 
