@@ -1,4 +1,5 @@
 <properties
+    articleId="automation-startstop-403.md"
     pageTitle="Azure Automation - Start/Stop VM 403 Forbidden Error"
     description="Azure Automation - Start/Stop VM 403 Forbidden Error"
     service="microsoft.automation"
@@ -7,7 +8,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="xxxxxxxx"
+    supportTopicIds="placeholderstartstop403"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -20,7 +21,7 @@ Start/Stop VM can sometimes fail with a 403 forbidden error. Here's what this me
 
 **I am seeing a 403 Forbidden Error**
 
-Please refer to the ["403 Forbidden" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#403)
+* Please refer to the ["403 Forbidden" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#403)
 
 ## **Recommended Documents** ##
 

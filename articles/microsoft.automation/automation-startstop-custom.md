@@ -1,4 +1,5 @@
 <properties
+    articleId="automation-start-stop-custom.md"
     pageTitle="Azure Automation - Start/Stop with Custom Runbook"
     description="Azure Automation - Start/Stop with Custom Runbook"
     service="microsoft.automation"
@@ -7,20 +8,20 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="xxxxxxxx"
+    supportTopicIds="placeholderstartstopcustom"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 />
 
 # Azure Automation - Start/Stop with Custom Runbook
-We reccomend using the [Start/Stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management). If you are not using the Start/Stop VM solution, but have a custom runbook imported from the gallery, please review the recommended steps. 
+We reccomend using the [Start/Stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management). If you are not using the Start/Stop VM solution, but have a custom runbook imported from the gallery, please review the information below. 
 
 ## **Recommended Steps**
 
 **My custom runbook is failing to start/stop VMs**
 
-Please refer to the ["Custom Runbook" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#custom-runbook)
+* Please refer to the ["Custom Runbook" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#custom-runbook)
 
 ## **Recommended Documents** ##
 

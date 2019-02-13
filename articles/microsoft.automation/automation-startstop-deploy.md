@@ -1,4 +1,5 @@
 <properties
+    articleId="automation-startstop-deploy.md"
     pageTitle="Azure Automation - Deploy Start-Stop"
     description="Azure Automation - Deploy Start-Stop"
     service="microsoft.automation"
@@ -7,7 +8,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="xxxxxxxx"
+    supportTopicIds="placeholderstartstopdeploy"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -21,11 +22,11 @@ If you are trying to deploy the [Start/Stop VMs solution](https://docs.microsoft
 **Start/Stop Solution won't deploy**
 
 * Review the [deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
-* Try creating a new automation account just for the Start-Stop VM solution to isolate any module conflicts
+* Try creating a new automation account just for the Start-Stop VM solution
 
 
 
 ## **Recommended Documents** ##
 
-* [This didn't solve my problem](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/start-stop-vm#other)
+* Start-Stop VM Troubleshooting Guide: [This didn't solve my problem](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#other)
 
