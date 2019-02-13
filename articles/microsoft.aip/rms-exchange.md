@@ -33,7 +33,7 @@
 3. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 4. Check Exchange configuration with:<br>
 
-a. Get-IRM configuration. Check that it is:<br>
+* Get-IRM configuration. Check that it is:<br>
 
 ```
 	InternalLicensingEnabled       : True
@@ -50,7 +50,7 @@ a. Get-IRM configuration. Check that it is:<br>
 
 If either value is wrong, correct it via Set-IRMConfiguration.
 	
-b. If the Locations are wrong, fix the following locations in the Registry:<br>
+* If the Locations are wrong, fix the following locations in the Registry:<br>
 	
 ```
 HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
@@ -87,7 +87,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 1. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 2. Check Exchange configuration with:<br>
 
-a. Get-IRM configuration. Check that it is:<br>
+* Get-IRM configuration. Check that it is:<br>
 	
 ```
 	InternalLicensingEnabled       : True
@@ -104,7 +104,7 @@ a. Get-IRM configuration. Check that it is:<br>
 
 If either value is wrong, correct it via Set-IRMConfiguration<br>
 
-b. If the Locations are wrong, fix the following locations in the Registry:
+* If the Locations are wrong, fix the following locations in the Registry:
 	
 ```
 HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
