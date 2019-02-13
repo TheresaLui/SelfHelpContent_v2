@@ -18,8 +18,8 @@
 
 # Device not sending heartbeat 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Check if there is any ongoing Azure Portal outage in your region](https://azure.microsoft.com/status/)
-2. [Run network diagnostics to check if any of the ports are blocked on the firewall and if so unblock them](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics#to-run-the-diagnostics-tool)
+2. [Run network diagnostics to check if any of the ports are blocked on the firewall, and if so, unblock them](https://docs.microsoft.com/azure/storsimple/storsimple-8000-diagnostics#to-run-the-diagnostics-tool)
 
