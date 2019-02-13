@@ -42,25 +42,29 @@
                     "text": "No"
                 }
             ],
-
             "required": false
         },{
-            "id": "perf_benchmarking",
+            "id": "perf_cpu_detect",
             "order": 3,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your high CPU issue",
-            "required": true,
-            "hints": [
+            "controlType": "multiselectdropdown",
+            "displayLabel": "How did you detect high CPU usage?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                    "text": "How much CPU resourece consumption are you seeing"
+                    "value": "Perf Insights",
+                    "text": "Perf Insights"
                 },
                 {
-                    "text": "Has the site volume increased"
+                    "value": "Azure Monitoring Alerts",
+                    "text": "Azure Monitoring Alerts"
+                },
+                {
+                    "value": "Other Monitoring tools (describe below)",
+                    "text": "Other Monitoring tools (describe below)"
                 }
-            ]
-        }
+            ],
+            "required": false
+         }
     ]
 }
 
