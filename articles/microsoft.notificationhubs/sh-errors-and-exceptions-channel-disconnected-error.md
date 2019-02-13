@@ -10,6 +10,7 @@
 	productPesIds="15973"
 	supportTopicIds="32565581"
 	cloudEnvironments="public"
+	articleId="c63bd9df-e36e-4afb-93a0-6c17fe79311f"
 />
 
 # Errors and Exceptions/Channel disconnected error

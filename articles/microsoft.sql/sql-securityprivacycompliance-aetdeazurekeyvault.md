@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="26693c97-18a2-482c-a13a-9cdaed5b7284"
 />
 
 # Always Encrypted, Transparent Data Encryption (TDE), and Azure Key Vault

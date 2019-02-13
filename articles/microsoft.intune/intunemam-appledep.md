@@ -10,7 +10,8 @@
     resourceTags="mam, mampolicy"
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="d550d995-140c-4771-aad3-ea423d709363"
+/>
 
 # App protection policy is not working for Apple DEP devices.
 

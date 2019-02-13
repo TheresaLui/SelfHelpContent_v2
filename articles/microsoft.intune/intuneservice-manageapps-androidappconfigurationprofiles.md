@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="98342323-6416-4f8d-a7a6-74caa8ebb35b"
 />
 
 # Manage Apps - Android app configuration profiles

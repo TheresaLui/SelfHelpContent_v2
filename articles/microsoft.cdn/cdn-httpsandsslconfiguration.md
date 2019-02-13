@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="bace63bd-6a38-4f7b-9162-5ab9cd5d79ac"
 />
 
 # configuration/https and ssl configuration

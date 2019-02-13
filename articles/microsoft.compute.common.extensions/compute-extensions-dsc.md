@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="f5523bca-7725-4d82-b461-6ae3962da477"
 />
 
 # Azure Desired State Configuration (DSC) extension issue

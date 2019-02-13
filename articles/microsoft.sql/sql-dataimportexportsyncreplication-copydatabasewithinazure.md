@@ -10,6 +10,7 @@
 	supportTopicIds="32630415"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="514fdf6b-b8b0-4887-a734-2236d1907bff"
 />
 
 # data import, export, sync, replication/copy database within Azure

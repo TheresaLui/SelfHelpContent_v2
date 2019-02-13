@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="a7ebd383-9384-45b0-ad55-1145a2157804"
 />
 
 # Worker Role (PaaS) Development/Advisory

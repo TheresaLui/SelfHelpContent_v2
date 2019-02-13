@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491,16259"
 	cloudEnvironments="public"
+	articleId="b016d4ee-45d8-444d-b5ff-4882a445400e"
 />
 
 # connectivity/server is unavailable

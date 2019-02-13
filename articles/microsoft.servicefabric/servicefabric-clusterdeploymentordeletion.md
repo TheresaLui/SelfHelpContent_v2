@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="a5eaf9ea-059a-45b1-b685-bc78706cf440"
 />
 
 # Cluster Deployment or Deletion

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15614"
 	cloudEnvironments="public"
+	articleId="b40a3fb4-a6ec-4c35-a87e-d48c7a8e336d"
 />
 
 # configuration and setup issues/pool management issues

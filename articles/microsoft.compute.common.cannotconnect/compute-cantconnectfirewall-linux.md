@@ -9,8 +9,9 @@
               selfHelpType="generic"
               supportTopicIds="32615534"
               resourceTags=""
-              productPesIds="15571,15797,16454"
+              productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public"
+              articleId="9300d912-0a92-4150-b9e2-e7c2461f54a9"
 />
 
 # Troubleshoot my VM firewall

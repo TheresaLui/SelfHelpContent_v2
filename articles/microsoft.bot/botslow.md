@@ -7,10 +7,11 @@
 	ms.author="arturl,saziz"
 	displayOrder="5"
 	selfHelpType="resource"
-	supportTopicIds="32630643"
+	supportTopicIds="32630658, 32630662, 32630671, 32630675, 32630683, 32630689"
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="77fddd59-5718-4315-ac95-12aa65b7be02"
 />
 
 # My bot is slow

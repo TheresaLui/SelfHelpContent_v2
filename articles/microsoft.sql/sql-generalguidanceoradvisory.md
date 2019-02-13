@@ -9,6 +9,7 @@
 	supportTopicIds="32070561"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="071d2d5d-941b-4b0b-8e36-9d5310d16f9d"
 />
 
 # general guidance or advisory

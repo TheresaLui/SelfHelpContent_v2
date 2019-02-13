@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="7bb1fc04-dce1-421e-80ed-aea0725ea814"
 />
 
 #  Availability/Timer trigger function failed to trigger

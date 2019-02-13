@@ -10,7 +10,8 @@
     resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group,companyRelationships_overview"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="0be91ba0-530f-4a36-9d25-e7a238707b3e"
+/>
 
 # B2B collaboration: How to add guest users
 

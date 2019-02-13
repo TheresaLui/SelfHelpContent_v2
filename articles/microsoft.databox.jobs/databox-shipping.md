@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
+	articleId="16b94224-5cc6-4f85-87dc-7a3e1e5f7a64"
 />
 
 # Data Box Shipping

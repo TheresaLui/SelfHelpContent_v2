@@ -10,6 +10,7 @@
 	supportTopicIds="32630449"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="48307c17-7e37-4428-80e9-b3a30fdfa4dd"
 />
 
 # create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)

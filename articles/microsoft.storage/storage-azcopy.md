@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="5f5104f6-116a-46f3-b8ab-c5896f50a33c"
 />
 
 # Transfer Data with AzCopy v10

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="c1f2963a-bcb9-415d-bd22-a47ee85155c9"
 />
 
 # availability and connectivity/firewall rules

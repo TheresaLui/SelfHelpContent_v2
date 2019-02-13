@@ -10,6 +10,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	issueNotListed="true"
+	articleId="2460ce63-2415-40e4-a4bc-1dcc7c2640e4"
 />
 
 # My issue is not listed

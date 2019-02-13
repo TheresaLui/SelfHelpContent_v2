@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15400"
 	cloudEnvironments="public"
+	articleId="5eb8c167-03f3-4e38-9d6a-bb8798b50031"
 />
 
 # configuration

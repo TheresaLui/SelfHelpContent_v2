@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="f2be20c0-4a8e-4926-a468-ba823f86d27c"
 />
 
 # Move Resources Between RG or Subscription

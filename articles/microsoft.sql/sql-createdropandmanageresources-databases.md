@@ -10,6 +10,7 @@
 	supportTopicIds="32630418"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="29427fe7-6a8b-46fc-aa6d-8d3fd5176098"
 />
 
 # create drop and manage resources/databases

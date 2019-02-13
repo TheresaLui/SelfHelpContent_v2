@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="f7d8df66-6bd3-4d84-81c8-a2bf560b7dc8"
 />
 
 # Cluster Upgrades

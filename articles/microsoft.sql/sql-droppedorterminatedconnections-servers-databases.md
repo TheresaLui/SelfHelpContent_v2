@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="57a26ca6-ec70-4183-8b7d-0adbedca352b"
 />
 
 # connectivity/dropped or terminated connections

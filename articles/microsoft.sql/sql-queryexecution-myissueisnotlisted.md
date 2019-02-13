@@ -9,6 +9,7 @@
 	supportTopicIds="32045130"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="b9461e36-a859-45ea-90a8-0b57a9554b28"
 />
 
 # query execution/my issue is not listed

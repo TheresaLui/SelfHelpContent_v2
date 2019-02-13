@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
+	articleId="e0349317-477d-4dd6-bada-7a2d78d09118"
 />
 
 # Error: Server not available or SSL SYSCALL error: EOF detected

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="5076d9d8-4315-4d67-ba24-fc3d3d49bb79"
 />
 
 # connectivity/cannotconnecttoaservicewithserviceendpoints

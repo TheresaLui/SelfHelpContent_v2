@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="a3824214-29ab-41a8-b820-df79ac70d7c7"
 />
 
 # Advisory Questions - Azure to Azure

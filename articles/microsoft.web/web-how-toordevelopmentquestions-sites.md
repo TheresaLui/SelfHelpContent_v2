@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170"
 	cloudEnvironments="public"
+	articleId="29225b12-c051-431c-a819-94ac2367bfa1"
 />
 
 # how-to or development questions

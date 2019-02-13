@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="f2b8c435-97ff-4c45-a810-f85ca6dddcd0"
 />
 
 # SQL CLR development

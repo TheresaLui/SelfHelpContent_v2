@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="c7ffee97-9ae2-4870-8788-cd7c2534574a"
 />
 
 # Visual studio or Webmatrix Deployment

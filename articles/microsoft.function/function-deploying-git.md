@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="ba95a7ee-322a-44fa-9968-88e6f0bbf5c2"
 />
 
 # Deploying Function Apps/Deploy from GIT repo

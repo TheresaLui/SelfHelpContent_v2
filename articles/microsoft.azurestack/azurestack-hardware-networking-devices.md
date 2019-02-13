@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="56cf3a36-1849-4a3a-9ed1-4836fa1cd85b"
 />
 
 # Azure Stack Network Devices

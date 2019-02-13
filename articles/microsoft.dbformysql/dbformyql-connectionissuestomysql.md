@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
+	articleId="3415dc33-5b6f-46ff-a1e8-6b33624af192"
 />
 
 # Connection issues to Azure Databases for MySQL

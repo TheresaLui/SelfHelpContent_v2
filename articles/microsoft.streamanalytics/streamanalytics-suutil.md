@@ -22,6 +22,6 @@ There are multiple factors that affect streaming unit utilization. To learn more
 
 ## **Recommended Documents**
 
-* [Factors that increase SU% utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
+* [Why did SU% utilization suddenly increase or decrease?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
 * [Query parallelization to optimize SU % utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parallelization)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)

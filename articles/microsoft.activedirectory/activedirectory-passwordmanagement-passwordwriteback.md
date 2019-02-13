@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16579"
     cloudEnvironments="public"
-    />
+    	articleId="87cc194f-57ea-49bc-a135-941b17ad4c4b"
+/>
 
 # I'm having a problem with password writeback
 

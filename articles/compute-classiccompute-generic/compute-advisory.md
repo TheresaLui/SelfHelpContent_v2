@@ -11,6 +11,7 @@
 	resourceTags="Windows"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="ffc78c05-3a0c-4be0-b8ef-0afd7e4212ef"
 />
 
 # Advisory

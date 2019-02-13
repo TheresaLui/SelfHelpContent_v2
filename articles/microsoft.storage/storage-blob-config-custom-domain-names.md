@@ -4,7 +4,7 @@
     service="microsoft.storage"
     resource="storagecustomdomain"
     authors="ramMSFT"
-    ms.authors="raprasad"
+    ms.author="raprasad"
     displayOrder=""
     articleId="845cefaa-59dd-4a43-a61b-7a63d7f5ac6e"
     selfHelpType="generic"

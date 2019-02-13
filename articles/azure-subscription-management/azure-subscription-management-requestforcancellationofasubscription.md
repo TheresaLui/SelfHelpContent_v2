@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="03786352-cd59-4e62-ae27-2aa6921bc009"
 />
 
 # I need to cancel my subscription

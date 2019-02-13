@@ -11,6 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="471fc278-a4ee-40cc-bf50-6f9318f40132"
 />
 
 # tools

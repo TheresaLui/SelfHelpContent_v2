@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="53b04342-1802-47dd-84e1-0d4988baaa01"
 />
 
 # Unable to contact a device from IoT Hub

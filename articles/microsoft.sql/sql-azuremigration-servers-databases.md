@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="0ded9366-64d7-43a5-b16d-18f7d184fa90"
 />
 
 # Migrating between servers or subscriptions, or to and from Azure

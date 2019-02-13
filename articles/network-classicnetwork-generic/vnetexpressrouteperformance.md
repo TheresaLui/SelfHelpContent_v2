@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15526"
     cloudEnvironments="public"
+	articleId="36ea4363-7c88-4c37-adfa-3789ac9acd7c"
 />
 # Connectivity Issues to VNet Service Endpoints
 ## **Recommended documents**

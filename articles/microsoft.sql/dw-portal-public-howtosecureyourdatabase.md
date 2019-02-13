@@ -10,6 +10,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6db1da27-82f9-46f6-b781-ab539ee7cab4"
 />
 
 # How to secure your data warehouse
