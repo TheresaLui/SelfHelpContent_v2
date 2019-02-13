@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="a0ecfa74-3365-44fe-84a1-241166cad7e3"
 />
 
 # Developing Functions

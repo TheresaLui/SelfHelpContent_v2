@@ -12,6 +12,7 @@
 	resourceTags="DataBoxEdge,DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="eb21c147-ac6d-4ffd-bf59-2270722cbf21"
 />
 
 # I can't activate my device

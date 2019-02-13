@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="428ff682-048a-4866-ac3b-14476b593a35"
 />
 
 # design and development/scaling out

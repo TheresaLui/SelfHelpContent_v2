@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="6182a7a3-a056-4149-b654-99ae60919c18"
 />
 
 # Cost Discrepancy or Missing Data

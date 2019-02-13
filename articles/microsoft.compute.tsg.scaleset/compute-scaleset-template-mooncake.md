@@ -10,6 +10,7 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
+	articleId="cf5e1155-34bc-46ae-8cb3-47738fb484ef"
 />
 
 # How do I build a Resource Manager template to deploy scale sets

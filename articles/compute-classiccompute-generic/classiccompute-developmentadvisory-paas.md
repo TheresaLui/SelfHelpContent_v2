@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="3de401bd-042d-4109-a0d1-f6ce26b1163c"
 />
 
 # worker role (paas)/development/advisory

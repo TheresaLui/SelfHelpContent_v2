@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="74f247ad-5bc0-424d-aa38-7faf73639044"
 />
 
 # managing/permissions

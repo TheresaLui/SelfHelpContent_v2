@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="a69eee20-f1cb-4ef6-a3f4-a2ade648df86"
 />
 
 # Connectivity to Azure Private, Azure Public, or Dynamics 365 Services

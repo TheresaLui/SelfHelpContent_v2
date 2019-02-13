@@ -10,6 +10,7 @@
 	resourceTags=""	
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax" 
+	articleId="67cf54f7-ddfb-4fde-bb2e-6fb78396b016"
 />
 
 # I am receiving a timeout exception

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="8390d1fd-b8d1-46bd-9ab1-8de5cd135fd8"
 />
 
 # Migrating data to Azure Cosmos DB

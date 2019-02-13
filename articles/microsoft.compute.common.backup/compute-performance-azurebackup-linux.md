@@ -9,9 +9,11 @@
 	selfHelpType="generic"
 	supportTopicIds="32565496"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="fce07854-8ea1-438f-b4be-ca31d438689b"
 />
+
 # Azure Backup - Performance
 
 4 out of 5 customers resolve their Azure Backup issues using the steps below.<br>

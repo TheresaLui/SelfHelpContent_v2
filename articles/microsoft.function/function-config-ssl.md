@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="9bc90049-f983-4d90-8969-aab9d214cbaa"
 />
 
 # Configuring Function Apps/SSL

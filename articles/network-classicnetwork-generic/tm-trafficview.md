@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15400"
 	cloudEnvironments="public"
+	articleId="f598a06d-6cad-47eb-ad1c-fa8ecf48d632"
 />
 
 # traffic view

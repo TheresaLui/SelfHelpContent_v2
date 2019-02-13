@@ -11,6 +11,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="75fccf41-05dc-48bf-b5cb-6a3ff3fab4bc"
 />
 
 # How to connect

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="454274fd-18d7-41d9-9e7d-68b2a237a6b3"
 />
 
 # managing/database restores

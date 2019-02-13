@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="986c8067-48e4-487b-ae3f-a6315cf6a0f5"
 />
 
 # Download consumption data by using Billing API

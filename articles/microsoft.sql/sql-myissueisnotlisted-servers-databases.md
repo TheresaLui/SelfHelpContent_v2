@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="34273776-1d62-451f-9b10-a063d74f1353"
 />
 
 # import/export service/my issue is not listed

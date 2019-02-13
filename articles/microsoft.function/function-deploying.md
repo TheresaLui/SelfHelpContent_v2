@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="e832115c-d1c5-4a77-aff7-14d5d0a10272"
 />
 
 # Deploying Function Apps

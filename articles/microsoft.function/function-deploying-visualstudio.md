@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="a9de5714-95a8-4000-a954-99340a094c53"
 />
 
 # Deploying Function Apps/Visual Studio

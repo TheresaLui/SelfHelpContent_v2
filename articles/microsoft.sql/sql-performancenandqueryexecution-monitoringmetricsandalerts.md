@@ -10,6 +10,7 @@
 	supportTopicIds="32630434, 32630459, 32630435"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ece11717-4811-4e05-8abd-1e41199d4c3c"
 />
 
 # performance and query execution/monitoring, metrics and alerts

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="c134e400-e1e1-45e2-87e7-ea6773a7eb70"
 />
 # Delete a managed instance
 

@@ -12,6 +12,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="509748b1-ef31-4bd3-b227-049de0b4ee6a"
 />
 
 # I can’t access my device in File Explorer

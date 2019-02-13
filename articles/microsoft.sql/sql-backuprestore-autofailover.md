@@ -10,6 +10,7 @@
 	supportTopicIds="32630408"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="33df8768-f94d-451c-8a6d-56c6c5f02088"
 />
 
 # backup/restore/auto-failover groups

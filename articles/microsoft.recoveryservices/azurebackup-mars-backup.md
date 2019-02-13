@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public, MoonCake"
+	articleId="fc3023bd-b8cf-4451-a14d-76e1a8ba8c15"
 />
 
 # Backup of files and folders with Azure Backup Agent fails

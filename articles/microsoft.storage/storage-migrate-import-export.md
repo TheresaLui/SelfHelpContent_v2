@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629,16459,16598"
 	cloudEnvironments="public,MoonCake"
+	articleId="ebf6a3fd-0a3f-42c9-9b4e-118a7d24aef1"
 />
 
 # Migrate data to Azure Storage with Import/Export

@@ -11,6 +11,7 @@
 	resourceTags="datawarehouse"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="38084cc0-30e4-4255-a04a-03a62042ca8b"
 />
 
 # How to load data

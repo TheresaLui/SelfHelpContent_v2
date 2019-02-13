@@ -11,6 +11,7 @@
     resourceTags="servicefabric"
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="311ce7f1-1008-4f9e-a95c-de343221a8fb"
 />
 
 # Common log files for Service Fabric nodes

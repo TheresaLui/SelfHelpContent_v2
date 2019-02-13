@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="98d86229-8cf9-4108-8976-c8939cb32ae6"
 />
 
 # Introduction to Azure Cosmos DB REST API

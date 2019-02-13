@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="ed5d37d6-ee90-435f-bf7d-d3fced32d9e6"
 />
 
 # vpn performance

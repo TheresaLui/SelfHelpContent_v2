@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="f510eefa-eeeb-453b-a208-fbfcebe064a4"
 />
 
 # Full-text search

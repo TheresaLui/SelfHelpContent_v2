@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="79088548-2aa6-44f1-8f3c-25df1e8e92bf"
 />
 
 # Backup of Windows Azure virtual machine fails

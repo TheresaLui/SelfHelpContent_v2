@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="69477870-4477-4fb1-92da-1d6f6d7f58c0"
 />
 
 # Azure Stack Billing and Usage

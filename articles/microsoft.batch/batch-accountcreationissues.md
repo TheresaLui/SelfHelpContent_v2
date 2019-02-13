@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15614"
 	cloudEnvironments="public"
+	articleId="6e4867ea-dbce-4dca-87cf-b0d3a43cf946"
 />
 
 # configuration and setup issues/account creation issues

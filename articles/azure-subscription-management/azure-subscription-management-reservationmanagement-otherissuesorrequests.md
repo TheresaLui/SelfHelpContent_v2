@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="08b1aa47-f908-41af-b3eb-37c6e45d3dcd"
 />
 
 # Other Issues or Requests

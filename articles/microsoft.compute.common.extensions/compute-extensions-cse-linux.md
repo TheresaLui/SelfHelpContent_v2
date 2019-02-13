@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628256"
 	resourceTags=""
-	productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="0f978043-20db-48ba-a5f7-e75b32083c75"
 />
 
 # Azure Custom Script (CSE) extension issue

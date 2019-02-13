@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="5e97f349-3638-4306-914a-459da700d8f5"
 />
 
 # SQL Data Sync Troubleshooting

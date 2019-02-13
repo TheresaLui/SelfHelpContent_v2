@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
+	articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
 # Azure Automation - Update Management
 
