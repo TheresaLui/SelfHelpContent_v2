@@ -16,7 +16,7 @@
 
 # Enable Protection - VMware/Physical to Azure
 
-## **Recommended documents**
+## **Recommended Documents**
 
 ### Getting started
 
@@ -24,12 +24,12 @@
 * **Not able to find/select virtual machine on Azure portal** during Enable Replication? Click [here](https://aka.ms/doc-plugin-VM-not-showing) to resolve.
 * Refer to the FAQ on Azure Site Recovery [here](https://aka.ms/asr_v2a_faq)
 * Want to protect **application workloads (say Active Directory, SQL server etc.,)** through site recovery? **Learn [more](https://aka.ms/asr_workload)** 
-* **[Anti-virus]** [Manage Site Recovery folders](https://aka.ms/asr_antivirus_exclusion) from your anti-virus software to ensure smooth replication.
+* **[Anti-virus]** [Manage Site Recovery folders](https://aka.ms/asr_antivirus_exclusion) from your anti-virus software to ensure smooth replication
 
 ### Networking/connectivity
 
-* Ensure that all URLs mentioned [here](https://aka.ms/asr_CS_prereq) are allowed on configuration server directly or via proxy for successful replication.
-* vCenter connectivity/discovery failure? Follow the guidelines given [here](https://aka.ms/asr_v2a_vcenter_discovery_troubleshoot) to resolve the issue.
+* Ensure that all URLs mentioned [here](https://aka.ms/asr_CS_prereq) are allowed on configuration server directly or via proxy for successful replication
+* vCenter connectivity/discovery failure? Follow the guidelines given [here](https://aka.ms/asr_v2a_vcenter_discovery_troubleshoot) to resolve the issue
 
 ### Supported/unsupported scenarios
 
@@ -67,9 +67,9 @@
 
 * Replication issues due to **high churn**? Read the [capacity planning document](https://docs.microsoft.com/azure/site-recovery/site-recovery-plan-capacity-vmware#capacity-considerations) to verify your configurations.
 * Troubleshoot [initial replication issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication).
-* [Upgrade to the latest version to fix known issues](https://aka.ms/asr_vmware_upgrades).
+* [Upgrade to the latest version to fix known issues](https://aka.ms/asr_vmware_upgrades)
 
 ### Pricing
 
-* Frequently asked questions on **Licensing policy, Azure Hybrid benefit, charges incurred during migration and Disaster Recovery** can be found [here](https://aka.ms/asr_pricing).
+* Frequently asked questions on **Licensing policy, Azure Hybrid benefit, charges incurred during migration and Disaster Recovery** can be found [here](https://aka.ms/asr_pricing)
 * Want to **estimate your costs for Site recovery usage**? Use our [pricing calculator](https://aka.ms/asr_pricing_calculator). For detailed estimates, run our [deployment planner tool](https://aka.ms/siterecovery_deployment_planner).
