@@ -1,34 +1,26 @@
 <properties
-	pageTitle="Azure Information Client - Policy isn't working as expected"
-	description="Azure Information Client - Policy isn't working as expected"
+	pageTitle="Azure Information Protection Mobile - Education"
+	description="Azure Information Protection Mobile - Education"
 	service="microsoft.aip"
 	resource="aip"
-	authors="nihendle"
-	ms.author="nihendle, orbarak"
+	authors="orbarak-ms"
+	ms.author="orbarak"
+	articleId="Mobile_Education"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584368"
+	supportTopicIds="32584341"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
-	articleId="77cd6fb8-8ea8-4d85-b30f-b45fa7622124"
 />
 
-# Azure Information Protection client - policy isn't working as expected
-
-## **Recommended Steps**
-
-Collect Azure Information Protection client logs and attach the exported logs to this ticket.
-
-## Export Azure Information Protection logs
-
-1. Open an Office document or create a new email in Outlook
-2. Select the **Protect** button -> **Help and feedback**
-3. Select **Export Logs**
-4. Save the logs to your choice of location, and attach them to this service request
+# Azure Information Protection Mobile - Education
 
 ## **Recommended Documents**
 
+* [FAQs for Microsoft Azure Information Protection app for iOS and Android](https://docs.microsoft.com/azure/information-protection/rms-client/mobile-app-faq)<br>
+* [Get started with the Microsoft Azure Information Protection app for iOS and Android](https://docs.microsoft.com/azure/information-protection/rms-client/mobile-app-get-started)<br>
+* [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
