@@ -18,4 +18,4 @@
 
 ## **Recommended Steps**
 
-You can use the synchronization rule editor to edit or create a new synchronization rule. Learn more [how to customize a synchronization rule](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-create-custom-sync-rule).
+Use the [synchronization rule editor to edit or create a new synchronization rule](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-create-custom-sync-rule)
