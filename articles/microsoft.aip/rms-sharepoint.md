@@ -31,7 +31,7 @@
 6.	Additional possible causes:
 	a.	SSL CRL not accessible
 	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
+	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](https://aka.ms/rms-exchange)
 
 If all of the above didn't help, please collect the below logs and add them to your support ticket. Create an RMS Analyzer trace on the Exchange Server and a RMS connector Trace at the same time.<br>
 
