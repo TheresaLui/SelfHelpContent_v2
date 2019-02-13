@@ -16,24 +16,24 @@
 
 # Advisory questions - VMware/Physical to Azure
 
-## **Recommended documents**
+## **Recommended Documents**
 
 ### Getting started with Site Recovery
 
-* **[Planning]** Trying to identify Site Recovery resources required to protect your workload? Run our [deployment planner tool](https://aka.ms/siterecovery_deployment_planner) to obtain **customized guidance on requirements, cost estimates** & supported configurations.
-* **[FAQ]** Refer to the FAQ on Azure Site Recovery [here](https://aka.ms/asr_v2a_faq)
+* **[Planning]**: Trying to identify Site Recovery resources required to protect your workload? Run our [deployment planner tool](https://aka.ms/siterecovery_deployment_planner) to obtain **customized guidance on requirements, cost estimates** & supported configurations
+* [Azure Site Recovery FAQ](https://docs.microsoft.com/azure/site-recovery/vmware-azure-common-questions)
 * Start replicating [**VMware VMs to Azure**]( https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source) with ASR
 * Start replicating [**Physical machines to Azure**]( https://docs.microsoft.com/azure/site-recovery/physical-azure-set-up-source) with ASR
-* **[Overview]** Refer to [Azure Site Recovery architecture](https://aka.ms/asr_v2a_architecture) & [VMware to Azure overview](https://aka.ms/asr_v2a_overview) for details on how Site Recovery works.
+* **[Overview]**: Refer to [Azure Site Recovery architecture](https://docs.microsoft.com/azure/site-recovery/vmware-azure-architecture) & [VMware to Azure overview](https://docs.microsoft.com/azure/site-recovery/vmware-azure-about-disaster-recovery) for details on Site Recovery
 
 ### Pricing
 
-* Frequently asked questions on **Licensing policy, Azure Hybrid benefit, charges incurred during migration and Disaster Recovery** can be found [here](https://aka.ms/asr_pricing).
+* Frequently asked questions on **Licensing policy, Azure Hybrid benefit, charges incurred during migration and Disaster Recovery** can be found [here](https://aka.ms/asr_pricing)
 * Want to **estimate your costs for Site recovery usage**? Use our [pricing calculator](https://aka.ms/asr_pricing_calculator). For detailed estimates, run our [deployment planner tool](https://aka.ms/siterecovery_deployment_planner).
 
 ### Supported/unsupported configuration
 
-* Is your workload **supported for Disaster Recovery or for migration**? Ensure that the workload falls under our [support matrix](https://aka.ms/asr_v2a_support_matrix).
+* Is your workload **supported for Disaster Recovery or for migration**? Ensure that the workload falls under our [support matrix](https://aka.ms/asr_v2a_support_matrix)
 
 ### Networking
 
