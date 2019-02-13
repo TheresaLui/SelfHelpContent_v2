@@ -10,7 +10,9 @@
 	schemaVersion="1"
 	articleId="66574748238"
 />
+
 # Cannot Connect to or from Internet
+
 ---
 {
     "resourceRequired": true,
@@ -43,7 +45,15 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the on-premise IP address",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }

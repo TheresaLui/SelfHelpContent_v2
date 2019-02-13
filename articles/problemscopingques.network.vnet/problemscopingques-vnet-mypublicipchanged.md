@@ -40,7 +40,16 @@
                 }
             ],
             "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the public IP address",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
+
     ]
 }
 ---

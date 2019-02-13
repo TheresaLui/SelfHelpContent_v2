@@ -2,6 +2,7 @@
 	pageTitle="Cannot connect to a VM in a peered VNet"
 	description="Cannot connect to a VM in a peered VNet"
 	authors="ritup"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584249"
 	productPesIds="15526"
@@ -42,14 +43,14 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide these details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {

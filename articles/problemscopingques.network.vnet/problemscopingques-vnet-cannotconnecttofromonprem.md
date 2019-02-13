@@ -2,6 +2,7 @@
 	pageTitle="Cannot connect to other VM in same VNET"
 	description="Cannot connect to other VM in same VNET"
 	authors="ritup"
+    ms.author="anavin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584252"
 	productPesIds="15526"
@@ -63,14 +64,14 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide these details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
