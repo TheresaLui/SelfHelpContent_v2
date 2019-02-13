@@ -33,7 +33,7 @@
 3. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 4. Check Exchange configuration with:<br>
 
-	a.	Get-IRM configuration. Check that it is:<br>
+* Get-IRM configuration. Check that it is:<br>
 
 ```
 	InternalLicensingEnabled       : True
@@ -50,7 +50,7 @@
 
 If either value is wrong, correct it via Set-IRMConfiguration.
 	
-b. If the Locations are wrong, fix the following locations in the Registry:<br>
+* If the Locations are wrong, fix the following locations in the Registry:<br>
 	
 ```
 HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
@@ -73,20 +73,21 @@ It may also indicate a problem with the DNS pointer or with load balancing. Try 
 **Event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
 
 6. If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above.
-
 7. Check if user and group membership is properly replicated in AAD. Check if user has rights to the content in Outlook.
 Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
 
 8. Additional possible causes:
-	a.	SSL CRL not accessible
-	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
 
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
+	
 ### The Admin cannot enable the IRM Integration in Exchange
 
 1. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 2. Check Exchange configuration with:<br>
-	a. Get-IRM configuration. Check that it is:<br>
+
+* Get-IRM configuration. Check that it is:<br>
 	
 ```
 	InternalLicensingEnabled       : True
@@ -103,7 +104,7 @@ Check if resending the content after unprotecting and re-protecting works (may h
 
 If either value is wrong, correct it via Set-IRMConfiguration<br>
 
-b. If the Locations are wrong, fix the following locations in the Registry:
+* If the Locations are wrong, fix the following locations in the Registry:
 	
 ```
 HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
@@ -111,7 +112,7 @@ HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "http
 
 Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
-3.	Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
+3. Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
 
 ```
 HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification"
@@ -126,13 +127,12 @@ It may also indicate a problem with the DNS pointer or with load balancing. Try 
 **Event 3000** indicates a general error in the Connector. This may be caused by the Connector not being properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Reinstall the Connector node and see if this solves the problem.
 
 4. If a specific server can’t consume the content but others can’t, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rile is not specified as an Exchange server. Also check registry keys as above.
-
 5. Check if user and group membership for the test account is properly replicated in AAD. Check if user has rights to the content in Outlook. Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
-
 6. Additional possible problems:
-	a. SSL CRL not accessible
-	b. SSL certificate in connector not trusted by Exchange servers
-	c. Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#enabling-cryptographic-mode-2-on-adrms-servers)
+
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
 
 If all of the above didn't help, please collect the below logs and add them to your support ticket. Create an RMS Analyzer trace on the Exchange Server and a [RMS connector Trace](https://docs.microsoft.com/azure/information-protection/monitor-rms-connector#logging) at the same time.
 
