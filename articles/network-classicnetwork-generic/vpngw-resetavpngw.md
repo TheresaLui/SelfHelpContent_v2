@@ -5,12 +5,13 @@
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
+	ms.author="radwiv"
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds="32591157"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="47b0504a-bbb3-4483-8bb6-172bab2fe564"
 />
 
