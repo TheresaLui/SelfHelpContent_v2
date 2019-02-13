@@ -47,8 +47,6 @@
             "displayLabel": "When did the problem begin?",
             "required": false
         }
-                ]
+            ]
         }
-    ]
-}
 ---

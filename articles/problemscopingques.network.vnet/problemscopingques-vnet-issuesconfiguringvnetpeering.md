@@ -47,6 +47,20 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
+        },
+
+                {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide these details",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": " "
+                }
+            ]
         }
     ]
 }
