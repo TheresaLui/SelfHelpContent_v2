@@ -8,7 +8,7 @@
     ms.author="deepakar"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629791"
+    supportTopicIds="32629791,32629781,32629782"
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
