@@ -62,8 +62,8 @@
             "watermarkText": "If the previous occurance was solved, please share how it was solved",
             "required": true
 		},
-                {
-			"id": "previous_solution",
+        {
+			"id": "changes_made",
 			"visibility": "is_new_problem == New_problem",
 			"order": 120,
 			"controlType": "multilinetextbox",
