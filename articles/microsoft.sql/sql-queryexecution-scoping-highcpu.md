@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Scoping questions for SQL DB high CPU usage"
-	description="High CPU usage"
+	pageTitle="Scoping questions for Unexpected increase in resource consumption or DTUs"
+	description="Unexpected increase in resource consumption or DTUs"
 	service="microsoft.sql"
 	authors="pxding"
         ms.author="pedin"
         articleId="5CD44772-DC30-406B-9E16-9FCBFBB5452F"
         selfHelpType="ProblemScopingQuestions"
-        supportTopicIds="32630450"
+        supportTopicIds="32630459"
         productPesIds="13491"
 	cloudEnvironments="public"
         schemaVersion="1"
 />
 
-# High CPU usage
+# Unexpected increase in resource consumption or DTUs
 
 ---
 {
     "resourceRequired": true,
-    "title": "CPU is higher than expected",
+    "title": "Unexpected increase in resource consumption or DTUs",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,47 +27,30 @@
             "displayLabel": "What is the start time of the issue?",
             "required": true
         },{
-            "id": "perf_current",
+            "id": "problem_end_time",
             "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Is the high CPU issue ongoing?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
+            "controlType": "datetimepicker",
+            "displayLabel": "What is the end time of the issue?",
+            "required": true
         },{
-            "id": "perf_cpu_detect",
+            "id": "perf_dtu_increase",
             "order": 3,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "How did you detect high CPU usage?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide additional information",
+            "required": true,
+            "hints": [
                 {
-                    "value": "Perf Insights",
-                    "text": "Perf Insights"
+                    "text": "Which indicators are you looking at for this resource issue"
                 },
                 {
-                    "value": "Azure Monitoring Alerts",
-                    "text": "Azure Monitoring Alerts"
-                },
-                {
-                    "value": "Other Monitoring tools (describe below)",
-                    "text": "Other Monitoring tools (describe below)"
+                    "text": "How much resourece consumption are you seeing"
                 }
-            ],
-            "required": false
-         }
+            ]
+        }
     ]
 }
-
 ---
 
 
