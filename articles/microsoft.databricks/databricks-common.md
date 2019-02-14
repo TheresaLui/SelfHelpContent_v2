@@ -2,7 +2,7 @@
 	pageTitle="Databricks Common Solutions"
 	description="Databricks Common Solutions"
 	service="microsoft.databricks"
-	resource="vaults"
+	resource="workspace"
 	authors="aaronmax"
 	ms.author="aaronmax，genli"
 	displayOrder=""
