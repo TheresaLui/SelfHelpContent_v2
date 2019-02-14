@@ -33,21 +33,13 @@
             "displayLabel": "What is the end time of the issue?",
             "required": true
         },{
-            "id": "perf_dtu_increase",
+            "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Which indicators are you looking at for this resource issue"
-                },
-                {
-                    "text": "How much resourece consumption are you seeing"
-                }
-            ]
+            "displayLabel": "Details of the issue.",
+            "watermarkText": "Provide additional information about your unexpected increase in resource consumption or DTUs.",
+            "required": true
         }
     ]
 }
