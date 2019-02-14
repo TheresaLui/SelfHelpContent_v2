@@ -8,7 +8,7 @@
     ms.author="pedin"
     displayOrder=""
     articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
-    supportTopicIds="32630459"
+    supportTopicIds=""
     resourceTags="databases, servers"
     productPesIds="13491"
     selfHelpType="generic"
