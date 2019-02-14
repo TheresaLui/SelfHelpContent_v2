@@ -13,6 +13,8 @@ supportTopicIds="32612186,32612187,32612188,32612189,32612190,32612191,32612192,
 	cloudEnvironments="public"
 />
 
+# Azure Databricks common solutions
+
 ## **Recommended Documents**
 
 **Issues**
