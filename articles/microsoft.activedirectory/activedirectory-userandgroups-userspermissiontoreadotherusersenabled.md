@@ -18,7 +18,7 @@
 # Configuration Issue Causing Failure To Add Internal/External Members In Microsoft Teams 
 
 <!--issueDescription-->
-## Adding internal/external members to teams in Microsoft Teams fails when UsersPermissionToReadOtherUsersEnabled is set to false.
+Adding internal/external members to teams in Microsoft Teams fails when **UsersPermissionToReadOtherUsersEnabled** is set to "false".
 This setting applies company-wide and can be disabled by administrators in order to disable users from viewing profile information of other users in their company. If that was not the intent, follow the steps below to enable this setting.
 <!--/issueDescription-->
 
