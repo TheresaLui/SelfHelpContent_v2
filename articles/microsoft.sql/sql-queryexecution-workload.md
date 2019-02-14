@@ -8,10 +8,11 @@
     ms.author="pedin"
     displayOrder=""
     articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
+    diagnosticScenario=""
+    selfHelpType="rca"
     supportTopicIds=""
-    resourceTags="databases, servers"
-    productPesIds="13491"
-    selfHelpType="generic"
+    resourceTags=""
+    productPesIds=""
     cloudEnvironments="public"
 />
 
