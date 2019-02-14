@@ -65,7 +65,7 @@
                 {
 			"id": "previous_solution",
 			"visibility": "is_new_problem == New_problem",
-			"order": 110,
+			"order": 120,
 			"controlType": "multilinetextbox",
             "displayLabel": "What changes have been made to network\configuration\etc",
             "watermarkText": "What changes have been made since last time it worked",
