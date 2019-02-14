@@ -48,7 +48,7 @@
                 },
                 {
                     "value": "Happened_before",
-                    "text": "Happened before"
+                    "text": "Not new, happened before"
                 }
             ],
             "required": true
@@ -59,7 +59,7 @@
 			"order": 110,
 			"controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
-            "watermarkText": "If the previous occurance was solved, please share how it was solved",
+            "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
             "required": true
 		},
         {
@@ -67,7 +67,7 @@
 			"visibility": "is_new_problem == New_problem",
 			"order": 120,
 			"controlType": "multilinetextbox",
-            "displayLabel": "Any change made?",
+            "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
             "required": true
 		},
