@@ -1,8 +1,8 @@
 <properties
-	pageTitle="Databricks Common Solutions"
-	description="Databricks Common Solutions"
+	pageTitle="Databricks Common solutions"
+	description="Databricks Common solutions"
 	service="microsoft.databricks"
-	resource="workspace"
+	resource="workspaces"
 	authors="aaronmax"
 	ms.author="aaronmax，genli"
 	displayOrder=""
