@@ -128,36 +128,6 @@
             "required": true
         },
         {
-            "id": "user_agent",
-            "order": 300,
-            "controlType": "dropdown",
-            "displayLabel": "What is the browser being used?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Edge",
-                    "text": "Edge"
-                },
-                {
-                    "value": "Internet Explorer",
-                    "text": "Internet Explorer"
-                },
-                {
-                    "value": "Google Chrome",
-                    "text": "Google Chrome"
-                },
-                {
-                    "value": "Firefox",
-                    "text": "Firefox"
-                },
-                {
-                    "value": "Other (describe below)",
-                    "text": "Other"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "problem_description",
             "order": 500,
             "controlType": "multilinetextbox",
