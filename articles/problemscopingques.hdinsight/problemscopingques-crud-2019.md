@@ -63,15 +63,6 @@
             "required": true
 		},
         {
-			"id": "changes_made",
-			"visibility": "is_new_problem == New_problem",
-			"order": 120,
-			"controlType": "multilinetextbox",
-            "displayLabel": "What changes have been made to network\configuration\etc",
-            "watermarkText": "What changes have been made since last time it worked",
-            "required": true
-		},
-        {
             "id": "is_vnet_peering",
             "order": 150,
             "controlType": "dropdown",
