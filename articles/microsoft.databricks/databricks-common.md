@@ -12,14 +12,13 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
     articleId="263c6c22-46dc-4b5f-b696-74deec325e18"
-
 />
 
 # Azure Databricks common solutions
 
 ## **Recommended Documents**
 
-**Issues**
+**Issues**</br>
 
 - [Supported Browsers](https://docs.databricks.com/user-guide/supported-browsers.html). Using an unsupported browser might cause unexpected behavior.
 - [Unexpected Cluster Termination](https://docs.databricks.com/user-guide/clusters/tips/index.html). Learn how to set the log level and determine the root cause of unexpected cluster termination.
@@ -29,12 +28,12 @@
 - [CosmosDB Spark Connector: Could not initialize class com.microsoft.azure.cosmosdb.Document](https://docs.databricks.com/user-guide/faq/cosmosdb-connector-lib-conf.html)
 - [Notebook commands "waiting to run"](https://docs.databricks.com/user-guide/faq/streaming-notebook-stuck.html)
 
-**Troubleshooting**
+**Troubleshooting**</br>
 
 - [View the cluster event log](https://docs.databricks.com/user-guide/clusters/event-log.html)
 - [Cluster Driver Logs](https://docs.databricks.com/user-guide/clusters/troubleshooting.html)
 
-**Key topics**
+**Key topics**</br>
 
 - [Clusters](https://docs.databricks.com/user-guide/clusters/index.html)
 - [The Workspace](https://docs.databricks.com/user-guide/workspace.html)
