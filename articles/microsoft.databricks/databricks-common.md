@@ -11,6 +11,8 @@ supportTopicIds="32612186,32612187,32612188,32612189,32612190,32612191,32612192,
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+    articleId="263c6c22-46dc-4b5f-b696-74deec325e18"
+
 />
 
 # Azure Databricks common solutions
@@ -18,10 +20,11 @@ supportTopicIds="32612186,32612187,32612188,32612189,32612190,32612191,32612192,
 ## **Recommended Documents**
 
 **Issues**
+
 - [Supported Browsers](https://docs.databricks.com/user-guide/supported-browsers.html).
 Using an unsupported browser might cause unexpected behavior.
 - [Unexpected Cluster Termination](https://docs.databricks.com/user-guide/clusters/tips/index.html).
-Learn how to set the log level and determine the root caues of unexpected cluster termination.
+Learn how to set the log level and determine the root cause of unexpected cluster termination.
 - [SparkException: Job aborted because of stage failure](https://docs.databricks.com/user-guide/faq/wrong-schema-in-files.html)
 - [AWS: Unable to complete multi-part upload](https://docs.databricks.com/user-guide/faq/multi-part-upload.html)
 - [AWS: EBS Leaked Volumes](https://docs.databricks.com/user-guide/faq/ebs-leaked-volumes.html)
@@ -29,10 +32,12 @@ Learn how to set the log level and determine the root caues of unexpected cluste
 - [Notebook commands "waiting to run"](https://docs.databricks.com/user-guide/faq/streaming-notebook-stuck.html)
 
 **Troubleshooting**
+
 - [View the cluster event log](https://docs.databricks.com/user-guide/clusters/event-log.html)
 - [Cluster Driver Logs](https://docs.databricks.com/user-guide/clusters/troubleshooting.html)
 
 **Key topics**
+
 - [Clusters](https://docs.databricks.com/user-guide/clusters/index.html)
 - [The Workspace](https://docs.databricks.com/user-guide/workspace.html)
 - [Notebooks](https://docs.databricks.com/user-guide/notebooks/index.html)
@@ -50,6 +55,7 @@ Learn how to set the log level and determine the root caues of unexpected cluste
 - [Security](https://docs.databricks.com/user-guide/security.html)
 
 **FAQ**
+
 - [Frequently Asked Questions](https://docs.databricks.com/user-guide/faq/index.html)
 
 
