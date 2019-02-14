@@ -63,6 +63,15 @@
             "required": true
 		},
         {
+			"id": "change_made",
+			"visibility": "is_new_problem == New_problem",
+			"order": 120,
+			"controlType": "multilinetextbox",
+            "displayLabel": "Any change made?",
+            "watermarkText": "Any changes since last time it worked",
+            "required": true
+		},
+        {
             "id": "is_vnet_peering",
             "order": 150,
             "controlType": "dropdown",
