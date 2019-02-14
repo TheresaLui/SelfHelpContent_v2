@@ -54,22 +54,6 @@
             "required": true
         },
         {
-			"id": "previous_solution",
-			"visibility": "is_new_problem == Happened_before",
-			"order": 100,
-			"controlType": "multilinetextbox",
-            "displayLabel": "Previous solution if applicable",
-            "watermarkText": "If the previous occurance was solved, please share how it was solved"
-		},
-        {
-			"id": "changes_made",
-			"visibility": "is_new_problem == New_problem",
-			"order": 110,
-			"controlType": "multilinetextbox",
-            "displayLabel": "What changes made to network\configuration\etc",
-            "watermarkText": "What changes have been made since last time it worked"
-		},
-        {
             "id": "is_vnet_peering",
             "order": 150,
             "controlType": "dropdown",
