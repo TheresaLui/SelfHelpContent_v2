@@ -49,8 +49,7 @@
                 {
                     "value": "Happened_before",
                     "text": "Happened before"
-                },
-
+                }
             ],
             "required": true
         },
