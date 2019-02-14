@@ -54,15 +54,6 @@
             "required": true
         },
         {
-			"id": "changes_made",
-			"visibility": "is_new_problem == New_problem",
-			"order": 100,
-			"controlType": "multilinetextbox",
-            "displayLabel": "What changes have been made to the network\configuration\etc",
-            "watermarkText": "What changes have been made since last time it worked",
-            "required": true
-		},
-        {
 			"id": "previous_solution",
 			"visibility": "is_new_problem == Happened_before",
 			"order": 110,
