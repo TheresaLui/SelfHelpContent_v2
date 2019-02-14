@@ -54,6 +54,15 @@
             "required": true
         },
         {
+			"id": "previous_solution",
+			"visibility": "is_new_problem == Happened_before",
+			"order": 100,
+			"controlType": "multilinetextbox",
+            "displayLabel": "Previous solution if applicable",
+            "watermarkText": "If the previous occurance was solved, please share how it was solved", 
+            "required": true
+		},
+        {
             "id": "is_vnet_peering",
             "order": 150,
             "controlType": "dropdown",
