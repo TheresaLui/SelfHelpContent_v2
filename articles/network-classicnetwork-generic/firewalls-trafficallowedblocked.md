@@ -3,7 +3,8 @@
     description="Traffic allowed or blocked"
     service="microsoft.network"
     resource="azurefirewalls"
-    authors="radwiv"
+    authors="radwiv, spacest"
+    ms.author="radwiv, mariliu"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32608917"
@@ -12,6 +13,9 @@
     cloudEnvironments="public"
 	articleId="a8997b25-c305-46ec-b896-2d5fbd639d6b"
 />
+
+You are creating a case for [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), which is a managed, cloud-based network security service that protects your Azure Virtual Network resources. In order to handle your inquiry in the most efficient way, we recommend you to visit our FAQ [page](https://docs.microsoft.com/azure/firewall/firewall-faq) which provides more insights and explains how Azure Firewall is different from services such as [NVAs](https://docs.microsoft.com/azure/firewall/firewall-faq#how-does-azure-firewall-work-differently-from-existing-services-such-as-nvas-in-the-marketplace), [Web Application Firewall (WAF)](https://docs.microsoft.com/azure/firewall/firewall-faq#what-is-the-difference-between-application-gateway-waf-and-azure-firewall) and [Network Security Groups (NSGs)](https://docs.microsoft.com/azure/firewall/firewall-faq#what-is-the-difference-between-network-security-groups-nsgs-and-azure-firewall).
+
 # Traffic allowed or blocked issues
 ## **Recommended documents**
 Learn how to troubleshoot allowed/blocked issues.<br>
