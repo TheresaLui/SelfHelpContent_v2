@@ -54,12 +54,21 @@
             "required": true
         },
         {
-			"id": "previous_solution",
-			"visibility": "is_new_problem == Happened_before",
+			"id": "changes_made",
+			"visibility": "is_new_problem == New_problem",
 			"order": 100,
 			"controlType": "multilinetextbox",
+            "displayLabel": "What changes have been made to the network\configuration\etc",
+            "watermarkText": "What changes have been made since last time it worked",
+            "required": true
+		},
+        {
+			"id": "previous_solution",
+			"visibility": "is_new_problem == Happened_before",
+			"order": 110,
+			"controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
-            "watermarkText": "If the previous occurance was solved, please share how it was solved", 
+            "watermarkText": "If the previous occurance was solved, please share how it was solved",
             "required": true
 		},
         {
