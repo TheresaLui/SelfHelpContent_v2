@@ -16,7 +16,7 @@
 
 # Advisory questions related to Recovery Service Vault
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [How do I move a vault between subscriptions?](https://review.docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault?branch=master)<br>
 - [How do I move a vault between Resource Groups?](https://review.docs.microsoft.com/azure/backup/backup-azure-backup-faq?branch=master#can-i-move-backup-data-to-another-vault)<br>
@@ -27,5 +27,5 @@
 - [Can I move backup data/Protected items to another vault?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-move-backup-data-to-another-vault)<br>
 - How to stop backup/protection for
 	* [IAAS VM](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-virtual-machines)<br>
-	* [SQL databases in IAAS VM]((https://docs.microsoft.com/azure/backup/backup-azure-sql-database#stop-protection-for-a-sql-server-database)<br>
-	* [Azure File Share]((https://docs.microsoft.com/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share)<br>
+	* [SQL databases in IAAS VM](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#stop-protection-for-a-sql-server-database)<br>
+	* [Azure File Share](https://docs.microsoft.com/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share)<br>
