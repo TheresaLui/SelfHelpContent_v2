@@ -7,11 +7,11 @@
 	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32632787"
+	supportTopicIds="32632778"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-	articleId="61ed3471-406e-4a10-ab6a-65bea5d2d7be"
+	articleId="d433e690-46fd-4792-98f7-628a6938e222"
 />
 
 # Email notification on succeeded backup jobs
