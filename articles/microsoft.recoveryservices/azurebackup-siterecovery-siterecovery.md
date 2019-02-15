@@ -16,6 +16,6 @@
 
 # Site Recovery or Replication Issues
 
-## **Recommended steps**
+## **Recommended Steps**
 
-For faster resolution and assistance, go back to previous screen and choose Site Recovery under **Services**. 
+For faster resolution and assistance, go back to the previous screen and choose "Site Recovery" under **Services**. 
