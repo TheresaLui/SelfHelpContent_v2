@@ -24,8 +24,8 @@ This article will help with several kinds of issues relating to onboarding and u
 
 **Update Agent Readiness doesn't show "ready"**
 
-* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report. 
-* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide. 
+* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
+* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
 * Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
 **Machine shows as "not assessed"**
@@ -37,7 +37,8 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 * If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
 * [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
