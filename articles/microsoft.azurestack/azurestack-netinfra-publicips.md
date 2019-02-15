@@ -16,20 +16,20 @@
 
 # Azure Stack Add public IPs
 
+You can add Public IP addresses to your Azure Stack system at any time after the initial deployment of the Azure Stack system. 
+
+If you are trying to remove public IPs instead, contact support by opening a case.
+
 ## **Recommended Steps**
 
-### To Add
+To add public IPs to your Azure Stack environment, follow these steps:
 
-1. Obtain the address block from your provider
-2. Add the IP address range to Azure Stack
-3. Update the ACLs on your Top-of-Rack switches
-
-### To remove
-
-Contact CSS
+1. [Obtain the address block from your provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-ips#obtain-the-address-block-from-your-provider)
+2. [Add the IP address range to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-ips#add-the-ip-address-range-to-azure-stack)
+3. [Update the ACLs on your top-of-rack switches](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-add-ips#update-the-acls-on-your-top-of-rack-switches)
 
 ## **Recommended documents**
 
-* [Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
-* [View public IP address consumption in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-viewing-public-ip-address-consumption)
+* [Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [View Public IP Address Consumption in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-viewing-public-ip-address-consumption)
 * [Add Public IP Addresses to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-ips)
