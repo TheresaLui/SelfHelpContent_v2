@@ -19,6 +19,7 @@
 ## **Recommended Steps**
 
 **Machine isn't onboarding after waiting 15 minutes**
+
 * Refer to ["Components enabled but not working"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
 **Machine shows as "not assessed"**
