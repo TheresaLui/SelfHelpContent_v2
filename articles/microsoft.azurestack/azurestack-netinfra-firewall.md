@@ -18,7 +18,7 @@
 
 It is recommended that you use a firewall device for Azure Stack to provide intrusion detection, content inspection, and protection against denial-of-service (DoS) attacks for the [ports and protocols used by Azure Stack endpoints](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-endpoints).
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Stack Firewall Integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-firewall)
 * [Ports and protocols used by Azure Stack endpoints](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-endpoints)

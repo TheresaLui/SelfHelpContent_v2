@@ -16,13 +16,13 @@
 
 # Azure Stack Infrastructure DNS Integration
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If you are integrating Azure Stack with your corporate DNS, see [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns) article.
 
 If you need to change the DNS servers that Azure Stack was deployed with, you will need to open a case with Microsoft Support.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns)
 * [Setting up conditional forwarding to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#setting-up-conditional-forwarding-to-azure-stack)
