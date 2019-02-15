@@ -16,7 +16,8 @@
 
 # Advisory questions related to Recovery Service Vault
 
-## **Recommended Documentation**
+## **Recommended documents**
+
 - [How do I move a vault between subscriptions?](https://review.docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault?branch=master)<br>
 - [How do I move a vault between Resource Groups?](https://review.docs.microsoft.com/azure/backup/backup-azure-backup-faq?branch=master#can-i-move-backup-data-to-another-vault)<br>
 - [How to delete old backup data from vault?](https://review.docs.microsoft.com/azure/backup/backup-azure-delete-vault?branch=master#what-if-i-stop-the-backup-process-but-retain-the-data)<br>
