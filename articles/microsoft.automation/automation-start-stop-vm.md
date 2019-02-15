@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-start-stop-vm.md"
     pageTitle="Azure Automation - Start-Stop VM"
     description="Azure Automation - Start-Stop VM"
     service="microsoft.automation"
@@ -12,7 +11,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="b244b5b9-d2e0-492e-8202-48d1c1585c10"
+          articleId="b244b5b9-d2e0-492e-8202-48d1c1585c10"
 />
 # Azure Automation - Start/Stop Solution
 Here are some common issues which might cause the Start/Stop solution to not behave as expected.
