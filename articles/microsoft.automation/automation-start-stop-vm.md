@@ -22,7 +22,6 @@ Here are some common issues which might cause the Start/Stop solution to not beh
 
 * Review the [deployment documentation for Start-Stop VM Solution](https://docs.microsoft.com//azure/automation/automation-solution-vm-management#deploy-the-solution)
 
-
 **Start/Stop VM has been configured, but it doesn't start/stop all the VMs**
 
 * Please refer to the ["All VMs" section of the Start/Stop VM Troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#issue)
@@ -43,13 +42,10 @@ Here are some common issues which might cause the Start/Stop solution to not beh
 
 * Please refer to the ["My problem isn't listed above" section of the Start/Stop VM Troubleshooting Guide](https://docs.microsoft.com/azure/automation/troubleshoot/start-stop-vm#other)
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Start-stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)
-
 * [Deploy the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#deploy-the-solution)
-
 * [Update the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#update-the-solution)
-
 * [Remove the solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management#remove-the-solution)
-
 * [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
