@@ -6,7 +6,7 @@
     authors="csand-msft"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599858,32599921"
+    supportTopicIds="32599858"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
