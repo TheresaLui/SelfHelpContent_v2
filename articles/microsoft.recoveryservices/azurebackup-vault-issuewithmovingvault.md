@@ -16,7 +16,8 @@
 
 # Issue with moving vault
 
-## **Recommended Documentation**
+## **Recommended documents**
+
 - [Before moving vault check prerequisites required for moving a vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#why-is-the-size-of-the-data-transferred-to-the-recovery-services-vault-smaller-than-the-data-selected-for-backup)<br>
 - Recovery Services vaults configured to use with Azure Site Recovery can not move<br>
 - [You can also use powershell to move a vault](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-powershell-to-move-a-vault)<br>
