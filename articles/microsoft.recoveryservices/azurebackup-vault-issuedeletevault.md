@@ -16,7 +16,7 @@
 
 # Issue with delete vault
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - Before deleting a vault ensure you have removed the dependencies listed below:
 	- [Azure backup server and DPM](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#removing-azure-backup-server-or-dpm)<br>
