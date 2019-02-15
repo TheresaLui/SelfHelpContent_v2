@@ -16,7 +16,7 @@
 
 # Issue with delete or retain backed-up data
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Why is the size of the data transferred to the Recovery Services vault smaller than the data selected for backup?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#why-is-the-size-of-the-data-transferred-to-the-recovery-services-vault-smaller-than-the-data-selected-for-backup)<br>
 - [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#if-i-cancel-a-backup-job-after-it-starts-is-the-transferred-backup-data-deleted)<br>
