@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-	articleId="0d7509bc-c67b-445d-a01d-61eacb8c6968"
+	articleId="08509a30-9200-43f9-91cb-68b59eae8cd3"
 />
 
 # Issue with Activity Log Alerts
