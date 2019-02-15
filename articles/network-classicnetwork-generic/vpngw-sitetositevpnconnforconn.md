@@ -18,11 +18,11 @@
 
 ## **Recommended steps**
 4 out of 5 customers resolve their Site-to-Site VPN connectivity issues using below steps:<br>
-1. Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template
-2. [VPN gateway reset](data-blade:microsoft_azure_network.VirtualNetworkGatewayResetBlade) may help if you lost cross-premises VPN connectivity on one or more site-to-site VPN tunnels
-3. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId)
-4. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
-5. Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from VM
+1. Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template<br>
+2. [VPN gateway reset](data-blade:microsoft_azure_network.VirtualNetworkGatewayResetBlade) may help if you lost cross-premises VPN connectivity on one or more site-to-site VPN tunnels<br>
+3. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId)<br>
+4. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
+5. Use [Packet capture](data-blade:microsoft_azure_network.networkwatcherpacketcaptureblade) to track traffic to and from VM<br>
 6. Check if you've configured UDRs or NSGs that may be affecting the connectivity
 
 ## **Recommended documents**
