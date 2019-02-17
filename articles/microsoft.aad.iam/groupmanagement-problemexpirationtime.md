@@ -2,6 +2,7 @@
     pageTitle="Group expiration"
     description="Group expiration"
     authors="someshc"
+	ms.author="someshc"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615385"
     productPesIds="16578"
@@ -29,12 +30,11 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2
-        },        
+        },
         {
             "id": "whichUser",
             "visibility": null,
@@ -59,7 +59,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -76,7 +75,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -93,7 +91,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -110,8 +107,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
