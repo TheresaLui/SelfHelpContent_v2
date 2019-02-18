@@ -4,6 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="trinadhk"
+	ms.authors="trinadhk"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32553299"
@@ -17,7 +18,7 @@
 
 ## **Recommended Steps**
 **Frequently Asked Questions:**<br>
-- [*How can I restore specific files or folders from IaaS VM?*](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
+- [*How can I restore specific files or folders from Azure Virtual Machine?*](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
 - *How to restore to latest/specific recovery point using* - [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#select-a-restore-point-for-restore), [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm) or [Restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - [*How to configure static IP address to restored VM?*](https://docs.microsoft.com/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
 - [*How to restore an Encrypted VM?*](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
@@ -40,6 +41,6 @@
 - [The specified cloud service is using a reserved IP](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
 
 ## **Recommended documents**
-- [Azure virtual machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#backup-or-restore-taking-time)<br>
+- [Azure Virtual Machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
 - [How to restore virtual machine using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
 - [How to restore virtual machine using PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)<br>
