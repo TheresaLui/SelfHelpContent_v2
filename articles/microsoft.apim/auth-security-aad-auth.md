@@ -18,6 +18,6 @@
 ## **Recommended documents**
 
 - [Protect an API by using OAuth 2.0 with Azure Active Directory and API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-protect-backend-with-aad)
-- [Authorize developer accounts by using Azure Active Directory in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-aad )
-- [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-create-groups )
-- [Debug your APIs using request tracing](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-api-inspector )
+- [Authorize developer accounts by using Azure Active Directory in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-aad)
+- [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-groups)
+- [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)
