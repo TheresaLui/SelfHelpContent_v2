@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Active Directory Authentication l"
-    description="Azure Active Directory Authentication "
+    pageTitle="Azure Active Directory Authentication"
+    description="Configure Azure API Management with Azure Active Directory"
     service="microsoft.apim"
     resource="apimanagement"
     authors="genli"
@@ -13,7 +13,7 @@
     articleId="6fb5c211-edd9-4bb3-9651-e49d341420e0"
 />
 
-# Azure Active Directory Authentication 
+# Configure Azure API Management with Azure Active Directory
 
 ## **Recommended documents**
 
