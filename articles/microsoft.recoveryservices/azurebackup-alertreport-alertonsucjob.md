@@ -16,7 +16,7 @@
 
 # Email notification on succeeded backup jobs
 
-## **Recommended documents**
+## **Recommended steps**
 
 How to configure email notification on succeeded backup jobs?
 
