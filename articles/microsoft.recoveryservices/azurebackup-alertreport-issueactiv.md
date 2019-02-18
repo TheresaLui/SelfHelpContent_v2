@@ -16,7 +16,7 @@
 
 # Issue with Activity Log Alerts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [What are the limitations on Azure Virtual Machine Activity Log Alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#limitations-on-alert)<br>
 - [How to configure email notification on Azure Virtual Machine successful backup using Activity Log Alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#using-activity-logs-to-get-notifications-for-successful-backups)<br>
