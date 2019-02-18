@@ -51,7 +51,7 @@
 - [Advanced Features: External Hive Metastore, FileStore, HIPAA](https://docs.databricks.com/user-guide/advanced/index.html)
 - [Security](https://docs.databricks.com/user-guide/security.html)
 
-**FAQ**
+**FAQ**</br>
 
 - [Frequently Asked Questions](https://docs.databricks.com/user-guide/faq/index.html)
 
