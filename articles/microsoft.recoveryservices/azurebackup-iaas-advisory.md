@@ -4,6 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553270"
@@ -13,11 +14,11 @@
 	articleId="2c69338d-3890-406e-ab66-fe202edfd94b"
 />
 
-# Advisory questions related to IaaS VM Backup and Restore
+# Advisory questions related to Azure Virtual Machine Backup and Restore
 
 ## **Recommended Steps**
 - [Support matrix](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#before-you-start) for Azure Virtual Machine backup<br>
-- How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/en-us/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration), [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
+- How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration), [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#time-considerations) [Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations)<br>
 - How to stop/cancel backup job using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-5.1.1)?<br>
 - [Limitation] More than 1 backup job per day is currently not supported for IaaS VM<br>
