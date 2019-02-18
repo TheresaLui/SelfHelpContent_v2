@@ -21,7 +21,7 @@
 - How to: [Backup VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault), [Restore VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), [Restore files from VM?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-files-from-an-azure-vm-backup), [Restore VM to alternate location](https://docs.microsoft.com/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration), [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 - How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#time-considerations) [Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations)<br>
 - How to stop/cancel backup job using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-5.1.1)?<br>
-- [Limitation] More than 1 backup job per day is currently not supported for IaaS VM<br>
+- [Limitation] More than 1 backup job per day is currently not supported for Azure Virtual Machine backup<br>
 
 **Common Issues**<br>
 - [VM agent can't communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#vm-agent-unable-to-communicate-with-azure-backup)<br>
