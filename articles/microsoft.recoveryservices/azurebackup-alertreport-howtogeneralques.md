@@ -36,5 +36,5 @@
 
 **Azure Backup Report**
 
-- [How to configure Azure Backup PowerBI report?](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#configure-storage-account-for-reports)<br>
-- [PowerBI report Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#frequently-asked-questions)
+- [How to configure Azure Backup Power BI report?](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#configure-storage-account-for-reports)<br>
+- [Power BI report Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#frequently-asked-questions)
