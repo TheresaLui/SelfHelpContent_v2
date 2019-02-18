@@ -6,7 +6,7 @@
     authors="genli"
     ms.author="mquian,toddfous"
     selfHelpType="generic"
-    supportTopicIds="32632406"
+    supportTopicIds="32318305"
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
