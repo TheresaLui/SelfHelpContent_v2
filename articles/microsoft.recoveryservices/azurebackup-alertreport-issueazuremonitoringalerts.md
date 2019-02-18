@@ -16,6 +16,6 @@
 
 # Issue with Azure Monitoring alerts 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 For more information on Alerts on log data, see [article](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-response)
