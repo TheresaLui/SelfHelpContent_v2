@@ -18,5 +18,5 @@
 ## **Recommended documents**
 
 - [How to manage user accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-or-invite-developers)
-- [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-create-groups)
+- [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-groups)
 - [How do I add a user to the Administrators group?](https://docs.microsoft.com/en-us/azure/api-management/api-management-faq#how-do-i-add-a-user-to-the-administrators-group)
