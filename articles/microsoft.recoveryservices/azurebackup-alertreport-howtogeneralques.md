@@ -26,7 +26,7 @@
 - [What are the limitations on Azure Virtual Machine Activity Log Alerts or email notification on successful backup jobs?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#limitations-on-alerts)<br>
 - [How to configure email notifications for backup alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
 
-**IAAS VM Backup Alert**
+**Azure Virtual Machine Backup Alert**
 
 - [What conditions prevent sending email alerts even though notifications are configured?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#frequently-asked-questions)<br>
 - [My jobs and/or alerts from the Azure Backup Agent do not appear in the portal](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#troubleshooting-monitoring-issues)<br>
