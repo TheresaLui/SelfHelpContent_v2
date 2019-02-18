@@ -16,7 +16,7 @@
 
 # Alert and Report How-to and general questions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Azure Backup Agent Alert**
 
