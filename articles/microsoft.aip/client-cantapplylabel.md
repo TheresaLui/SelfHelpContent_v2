@@ -20,7 +20,8 @@
 
 * If you created a new label that applies protection, it can take up to 15 minutes for a computer running the Azure Information Protection client to get these changed settings. Behind the scenes, this configuration creates a [protection template](https://docs.microsoft.com/azure/information-protection/deploy-use/refresh-templates).
 * If you wait 15 minutes and still can't apply this label, select **Reset Settings** from the **Protect** button on the Office ribbon, then **Help and feedback**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
-* If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+
+If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ## Export Azure Information Protection logs
 
