@@ -20,6 +20,6 @@
 
 - [After set up the storage account for Backup Reports, Storage account still shows as **Not Configured**](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#troubleshooting-errors)<br>
 - Error [404 - container not found](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#troubleshooting-errors)<br>
-- [Prerequisites](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#prerequisites) & [Supported scenarios](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#supported-scenarios) to configure Power BI report<br>
+- [Prerequisites](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#prerequisites) and [supported scenarios](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#supported-scenarios) to configure Power BI report<br>
 - [Configure Azure Backup Power BI report](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#configure-storage-account-for-reports)<br>
 - [Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports#frequently-asked-questions)<br>
