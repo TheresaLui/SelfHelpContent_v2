@@ -30,7 +30,7 @@
 
 ## **Recommended Documents**
 
-For information on pre-requisites, limitations and frequently asked questions, see:<br>
+For information on prerequisites, limitations and frequently asked questions, see:<br>
 
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
