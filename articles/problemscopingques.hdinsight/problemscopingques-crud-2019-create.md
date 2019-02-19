@@ -1,7 +1,7 @@
 <properties
-	articleId="8d11697c-66b9-4de9-a1dd-c6b6d05cad4b"
-	pageTitle="Scoping Questions for HDInsight CRUD Issue"
-	description="Scoping Questions for HDInsight CRUD Issue"
+	articleId="a270902b-e2c9-4f4a-abd2-b85d97b41327"
+	pageTitle="Scoping Questions for HDInsight Create Issue"
+	description="Scoping Questions for HDInsight Create Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
@@ -10,7 +10,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# CRUD Issue
+# HDI Cluster Create Issue
 ---
 {
     "resourceRequired": true,
