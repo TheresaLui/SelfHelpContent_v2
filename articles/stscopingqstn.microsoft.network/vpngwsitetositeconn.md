@@ -74,7 +74,7 @@
             "dropdownOptions": [{"value": "Packet drops", "text": "Packet drops"},
                                 {"value": "Throughput", "text": "Throughput"},
                                 {"value": "Latency", "text": "Latency"},
-                                {"value": "Others", "text": "Others"}],       
+                                {"value": "Others", "text": "Others"}],
             "required": true
         },
         {   "id": "source_dest_IP_address",
