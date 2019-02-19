@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="e7363d82-8a30-4c4b-8f18-84ee2be26062"
 />
 
 # Troubleshooting Azure Backup Server failures issues?
