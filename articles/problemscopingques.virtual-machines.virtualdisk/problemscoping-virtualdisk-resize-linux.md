@@ -18,10 +18,10 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "virtualdisk_operation",
+                    "id": "virtualdisk_task",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "What is the operation you are trying to perform?",
+                    "displayLabel": "What is the task you are trying to perform?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {

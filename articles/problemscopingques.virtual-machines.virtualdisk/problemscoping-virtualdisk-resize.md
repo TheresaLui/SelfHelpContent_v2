@@ -18,10 +18,10 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "virtualdisk_operation",
+                    "id": "virtualdisk_task",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "What is the operation you are trying to perform?",
+                    "displayLabel": "What is the task you are trying to perform?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -29,8 +29,8 @@
                             "text": "Create or expand a storage pool configuration"
                         },
                         {
-                            "value": "Expand Windows volume",
-                            "text": "Expand Windows volume"
+                            "value": "Expand a Windows volume",
+                            "text": "Expand a Windows volume"
                         },
                         {
                             "value": "Other (describe below)",

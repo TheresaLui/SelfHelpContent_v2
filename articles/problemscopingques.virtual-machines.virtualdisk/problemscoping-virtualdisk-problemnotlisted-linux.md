@@ -5,10 +5,10 @@
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32632141"
-                productPesIds="14749"
+                productPesIds="15571,15797,16454,16470"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0076"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0077"
 />
 # Virtual Disk Management
 ---
@@ -33,16 +33,16 @@
                             "text": "My data inside the temporary drive is lost"
                         },
                         {
-                            "value": "I want to find availability set ID or use availability set ID to get storage accounts",
-                            "text": "I want to find availability set ID or use availability set ID to get storage accounts"
+                            "value": "I want to find an availability set ID or use an availability set ID to get storage accounts",
+                            "text": "I want to find an availability set ID or use an availability set ID to get storage accounts"
                         },
                         {
-                            "value": "I want to find data about the managed disk",
-                            "text": "I want to find data about the managed disk"
+                            "value": "I want to find data about a managed disk",
+                            "text": "I want to find data about a managed disk"
                         },
                         {
-                            "value": "I want to find provisioning status",
-                            "text": "I want to find provisioning status"
+                            "value": "I want to find the provisioning status",
+                            "text": "I want to find the provisioning status"
                         },
                         {
                             "value": "Other (describe below)",
@@ -51,20 +51,20 @@
                     ],
                     "required": false
                 },{
-                    "id": "virtualdisk_operation",
+                    "id": "virtualdisk_task",
                     "order": 2,
                     "visibility": "virtualdisk_scenario == I want help with my guest os volume",
                     "controlType": "dropdown",
-                    "displayLabel": "What is the operation you are trying to perform?",
+                    "displayLabel": "What is the task you are trying to perform?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Create or expand a storage pool configuration",
-                            "text": "Create or expand a storage pool configuration"
+                            "value": "Create or expand an LVM volume",
+                            "text": "Create or expand an LVM volume"
                         },
                         {
-                            "value": "Expand Windows volume",
-                            "text": "Expand Windows volume"
+                            "value": "Create or expand an mdadm volume",
+                            "text": "Create or expand an mdadm volume"
                         },
                         {
                             "value": "Other (describe below)",
@@ -73,20 +73,20 @@
                     ],
                     "required": false
                 },{
-                    "id": "virtualdisk_availabilityid_operation",
+                    "id": "virtualdisk_availabilityid_task",
                     "order": 3,
-                    "visibility": "virtualdisk_scenario == I want to find availability set ID or use availability set ID to get storage accounts",
+                    "visibility": "virtualdisk_scenario == I want to find an availability set ID or use an availability set ID to get storage accounts",
                     "controlType": "dropdown",
-                    "displayLabel": "What is the operation you are trying to perform?",
+                    "displayLabel": "What is the task you are trying to perform?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Find availability set ID",
-                            "text": "Find availability set ID"
+                            "value": "Find an availability set ID",
+                            "text": "Find an availability set ID"
                         },
                         {
-                            "value": "Use availability set ID to get storage accounts",
-                            "text": "Use availability set ID to get storage accounts"
+                            "value": "Use an availability set ID to get storage accounts",
+                            "text": "Use an availability set ID to get storage accounts"
                         },
                         {
                             "value": "Other (describe below)",
