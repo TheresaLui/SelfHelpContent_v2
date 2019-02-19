@@ -15,7 +15,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
-	articleid = "59aa3718-87f9-4c23-912f-afa8ff672bfc"
+	articleId = "59aa3718-87f9-4c23-912f-afa8ff672bfc"
 />
 
 # Azure Account Failover Advisory
