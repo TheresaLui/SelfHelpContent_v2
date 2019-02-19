@@ -4,12 +4,14 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553296"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="fbba3070-f2da-44da-8c03-9f3c8ea7db4a"
 />
 
 # Restore of files and folders with Azure Backup Agent fails
