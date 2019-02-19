@@ -20,4 +20,4 @@
 
 **Unable to see Diagnostics Settings:**
 
-If you are unable to see the Diagnostic Settings ensure you have not used any special characters in the values such as ResourceGroup name, vault name, diagnostic setting name.
+If you are unable to see the Diagnostic Settings, ensure you have not used any special characters in the values such as ResourceGroup name, vault name, diagnostic setting name.
