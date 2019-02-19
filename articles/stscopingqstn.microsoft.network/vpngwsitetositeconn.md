@@ -1,10 +1,10 @@
 <properties
+	articleid="vpngwsitetositeconn"
 	pageTitle="Site-to-Site VPN connectivity issues information"
 	description="Site-to-Site VPN connectivity issues information"
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	articleid="vpngwsitetositeconn"
 	supportTopicIds="32591158"
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -46,7 +46,7 @@
                 {"value": "Sophos", "text": "Sophos"},
                 {"value": "Ubiquiti", "text": "Ubiquiti"},
                 {"value": "WatchGuard", "text": "WatchGuard"},
-                {"value": "Other - Please Specify", "text": "Other - Please Specify"}],
+                {"value": "Other - Please specify below", "text": "Other"}],
             "required": true
         },
         {   "id": "problem_start_time",
@@ -61,15 +61,15 @@
             "displayLabel": "Select the issue you're facing",
             "watermarkText": "Choose an issue",
             "dropdownOptions": [
-                {"value": "Tunnel not connected or disconnecting frequently", "text": "Tunnel not connected or disconnecting frequently"},
-                {"value": "Not able to reach specific destination", "text": "Not able to reach specific destination"}],
+	    {"value": "Tunnel not connected or disconnecting frequently", "text": "Tunnel not connected or disconnecting frequently"},
+            {"value": "Notreachingdestination", "text": "Not able to reach specific destination"}],
             "required": true
         },
         {   "id": "S2S_connectivity_issues_specificdest",
             "order": 4,
-            "visibility": "S2S_connectivity_issues == Not able to reach specific destination",
+            "visibility": "S2S_connectivity_issues == Notreachingdestination",
             "controlType": "dropdown",
-            "displayLabel": "Is this issue related to Packet drop",
+            "displayLabel": "Choose the type of issue",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{"value": "Packet drops", "text": "Packet drops"},
                                 {"value": "Throughput", "text": "Throughput"},
@@ -82,7 +82,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide source and destination IP addresses",
             "required": false,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": {"text": "Please provide on-premise and/or VNet IP addresses"},
         },    
         {   "id": "onprem_config_script",
