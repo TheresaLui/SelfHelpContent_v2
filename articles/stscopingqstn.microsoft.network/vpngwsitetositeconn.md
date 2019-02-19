@@ -10,9 +10,9 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
-
----
 # Site-to-Site VPN connectivity issues information
+---
+
 {
     "resourceRequired": false,
     "title": "VPN Gwy On Prem Device",
