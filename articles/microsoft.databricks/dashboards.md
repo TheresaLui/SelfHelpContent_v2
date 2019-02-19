@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="2f5de569-af4d-4509-9ae8-4a730e5ac022"
 />
 
 # Dashboards

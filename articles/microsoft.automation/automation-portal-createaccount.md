@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="d1dfc2ba-2317-4444-9a42-b292697f40e8"
 />
 
 # Azure Automation - Create Account

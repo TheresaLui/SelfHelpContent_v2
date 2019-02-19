@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="5530e5a0-ace0-44ba-b10c-bd42ea70d157"
 />
 # Azure Backup SQL Backup Monitoring and Reporting issues
 ## **Recommended Steps**

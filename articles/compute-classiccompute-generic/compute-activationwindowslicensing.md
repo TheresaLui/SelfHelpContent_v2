@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570109,32570108"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="61587838-b6ce-47fe-b6ee-f9ed9bc02120"
 />
 
 # Issues related to activating a Windows license in Azure

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16263"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="a027ce33-e194-4a1a-b638-b824187b6345"
 />
 
 # Event Grid Common Solutions

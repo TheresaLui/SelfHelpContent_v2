@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="csunilkumar"
-    authoralias="sunilkc"
+    ms.author="sunilkc"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32629075"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="8aa8f71a-c91a-4d6e-8894-864987ce1f30"
 />
 # Improve Apache Spark Job Performance with HDInsight IO Cache
  

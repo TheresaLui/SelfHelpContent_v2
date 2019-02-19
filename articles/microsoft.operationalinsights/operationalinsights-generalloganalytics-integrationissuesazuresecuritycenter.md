@@ -6,12 +6,13 @@ symptomID=""
 infoBubbleText=""
 resource="operationalinsightsaccounts"
 authors="Yanivsh"
-authoralias="fifa1111"
+ms.author="fifa1111"
 selfHelpType="generic"
 supportTopicIds="32612471"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 articleId = "operationalinsights-generalloganalytics-integrationissuesazuresecuritycenter"
+	articleId="4d77366c-4655-4c8b-86e4-f599e9e00b47"
 />
 
 # Integration issues: Azure Security Center

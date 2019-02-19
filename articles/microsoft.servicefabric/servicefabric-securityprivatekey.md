@@ -4,13 +4,14 @@
 	service="microsoft.servicefabric"
 	resource="clusters"
 	authors="ChiragPavecha"
-	authoralias="chiragpa"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608957"
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="0dfe92a6-9e34-4855-b666-5f1aeb432c79"
 />
 
 # Private Key Permissions

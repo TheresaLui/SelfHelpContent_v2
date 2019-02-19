@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="78d8ddfd-f265-4a78-ae69-7514b854ee36"
 />
 
 # worker role (paas)/Deployment/Deployment taking longer

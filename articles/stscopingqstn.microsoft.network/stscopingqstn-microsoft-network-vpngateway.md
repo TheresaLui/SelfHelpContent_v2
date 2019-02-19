@@ -6,6 +6,7 @@
    supportTopicIds="32591152,32591149,32591148,32591150,32591151,32591158,32591156,32591159,32591155,32591154,32591157,32591153,32591147"
    productPesIds="16094"
    cloudEnvironments="public, MoonCake"
+	articleId="5ffaf0bc-b5c8-4142-9f4f-51608bfaf541"
 />
 # VPN Gateway Issues
 *  Issue description

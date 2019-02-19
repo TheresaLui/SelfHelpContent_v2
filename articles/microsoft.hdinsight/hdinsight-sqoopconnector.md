@@ -3,7 +3,7 @@
     description="How to to import and export between HDInsight cluster and Azure SQL database or SQL Server"
     service="microsoft.hdinsight"
     resource="clusters"
-    authorAlias="sunilkc"
+    ms.author="sunilkc"
     authors="csunilkumar"
     displayOrder=""
     selfHelpType="Generic"
@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="871192e7-728c-409b-a880-3fb527547180"
 />
 
 # Use Apache Sqoop in HDInsight to import and export between HDInsight cluster and Azure SQL database or SQL Server database

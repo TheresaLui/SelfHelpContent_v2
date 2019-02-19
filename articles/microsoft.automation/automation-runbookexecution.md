@@ -4,13 +4,14 @@
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
-    authorAlias="zachal"
+    ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="e633b59d-0baf-4a33-8caf-e135f3d246cd"
 />
 
 # Azure Automation - Runbook Execution

@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
-authorAlias="yossiy"
+ms.author="yossiy"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612453"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="32778701-5d5a-4606-9bb4-e654303cb36e"
 />
 
 # Custom logs for Windows - Log data collected but not as expected

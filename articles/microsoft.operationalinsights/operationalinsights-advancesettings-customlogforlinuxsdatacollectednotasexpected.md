@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
-authorAlias="yossiy"
+ms.author="yossiy"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612450"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="3c8baa9e-8595-459e-8185-16dbe9569453"
 />
 
 # Custom logs for Linux - Log data collected but not as expected

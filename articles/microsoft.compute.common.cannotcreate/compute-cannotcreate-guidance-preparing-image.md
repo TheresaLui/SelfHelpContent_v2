@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628272"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="a316fb37-cb8c-4b94-bdb1-276b2d90a555"
 />
 
 # I need guidance preparing an image

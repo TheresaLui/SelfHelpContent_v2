@@ -4,12 +4,13 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574331"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="b843584a-c756-47a0-af3b-929c59928e58"
 />
 
 # Vulnerability Assessment

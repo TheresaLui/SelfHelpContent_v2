@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629190,32629191"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="38c5358c-c63b-4043-9126-4b0839179085"
 />
 
 # Azure Stack App Service Resource Provider

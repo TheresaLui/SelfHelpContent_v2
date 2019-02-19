@@ -5,7 +5,7 @@
 	service="microsoft.insights"
 	resource="activitylogalerts"
 	authors="snehithm, msvijayn"
-	authoralias="snmuvva, vinagara"
+	ms.author="snmuvva, vinagara"
 	displayOrder="7"
 	articleId="missedalert-activitylog"
 	diagnosticScenario=""

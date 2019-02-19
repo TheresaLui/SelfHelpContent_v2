@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32625758"
 	resourceTags=""
 	productPesIds="14749,16080"
 	cloudEnvironments="public"
+	articleId="b7f99145-74db-4a8d-a195-81468cca0e01"
 />
 
 # Azure Confidential Computing

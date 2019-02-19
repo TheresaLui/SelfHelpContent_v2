@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
-	authoralias="balaks"
+	ms.author="balaks"
 	displayOrder="306"
 	selfHelpType="resource"
 	supportTopicIds="32597553"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="4e98d152-d7af-4c27-a992-6dfd7ab4ff9e"
 />
 
 # Introduction to Azure Cosmos DB Python SDK

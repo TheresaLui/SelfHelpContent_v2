@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="dcfb3418-95e3-4738-90b3-1d26789d45bf"
 />
 
 # Azure Automation - Schedules

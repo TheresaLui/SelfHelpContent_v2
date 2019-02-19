@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411885,32411812,32411839"
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
+	articleId="8a8b1716-445c-490b-9969-d96dd996dee7"
 />
 
 # Advisory

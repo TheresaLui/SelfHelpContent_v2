@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629174,32629236,32629274"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="69477870-4477-4fb1-92da-1d6f6d7f58c0"
 />
 
 # Azure Stack Billing and Usage

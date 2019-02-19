@@ -2,13 +2,13 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615526"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0020"
 />
 # Connect to a VM
 ---
@@ -23,12 +23,12 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "ippublicprivate",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Are you using a Public or Private IP?",
+                    "displayLabel": "Do you have issues connecting via Public or Private IP?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -42,8 +42,66 @@
                     ],
                     "required": false
                 },{
-                    "id": "connect_ifnew",
+                    "id": "ippublic",
                     "order": 3,
+                    "visibility": "ippublicprivate == Public IP",
+                    "controlType": "dropdown",
+                    "displayLabel": "Are you able to connect to the Private IP?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "ipprivate",
+                    "order": 4,
+                    "visibility": "ippublicprivate == Private IP",
+                    "controlType": "dropdown",
+                    "displayLabel": "Are you able to connect to the Public IP?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        },
+                        {
+                            "value": "I don't have a Public IP",
+                            "text": "I don't have a Public IP"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "connect_subnet",
+                    "order": 5,
+                    "visibility": "ippublic == No || ipprivate == No || ipprivate == I don't have a Public IP",
+                    "controlType": "dropdown",
+                    "displayLabel": "Is the problem isolated when you are connecting from a specific subnet?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "connect_ifnew",
+                    "order": 6,
                     "controlType": "dropdown",
                     "displayLabel": "Is this VM new to Azure?",
                     "watermarkText": "Choose an option",
@@ -64,7 +122,7 @@
                     "required": false
                 },{
                     "id": "connect_from",
-                    "order": 4,
+                    "order": 7,
                     "visibility": "connect_ifnew == Yes",
                     "controlType": "dropdown",
                     "displayLabel": "Where is the VM from?",
@@ -85,11 +143,11 @@
                     ],
                     "required": false
                 },{
-                    "id": "connect_ifazuresiterecovery",
-                    "order": 5,
+                    "id": "connect_howmigrated",
+                    "order": 8,
                     "visibility": "connect_from == On premise || connect_from == From another cloud provider",
                     "controlType": "dropdown",
-                    "displayLabel": "Was this using Azure Site Recovery?",
+                    "displayLabel": "How was this machine migrated?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -111,8 +169,59 @@
                     ],
                     "required": false
                 },{
+                    "id": "connect_wasoncloud",
+                    "order": 9,
+                    "visibility": "connect_from == On premise",
+                    "controlType": "dropdown",
+                    "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "connect_config",
+                    "order": 10,
+                    "controlType": "dropdown",
+                    "displayLabel": "Please specify your configuration change prior to the issue starting",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "I've changed my VM size",
+                            "text": "I've changed my VM size"
+                        },
+                        {
+                            "value": "I've made a disk change (attach, detach, resize)",
+                            "text": "I've made a disk change (attach, detach, resize)"
+                        },
+                        {
+                            "value": "I've modified network parameters on my VM (DNS, Ips, routing tables, etc)",
+                            "text": "I've modified network parameters on my VM (DNS, Ips, routing tables, etc)"
+                        },
+                        {
+                            "value": "I've changed my firewall configuration",
+                            "text": "I've changed my firewall configuration"
+                        },
+                        {
+                            "value": "I've installed a 3rd party app (Antivirus, firewall, VPN client, etc)",
+                            "text": "I've installed a 3rd party app (Antivirus, firewall, VPN client, etc)"
+                        },
+                        {
+                            "value": "Other",
+                            "text": "Other"
+                        }
+                    ],
+                    "required": false
+                },{
                     "id": "machinetype",
-                    "order": 6,
+                    "order": 11,
                     "controlType": "dropdown",
                     "displayLabel": "From which type of machine are you trying to RDP into?",
                     "watermarkText": "Choose an option",
@@ -138,21 +247,21 @@
                             "text": "Android or iOS"
                         },
                         {
-                            "value": "Citrix or RDS",
-                            "text": "Citrix or RDS"
+                            "value": "Other",
+                            "text": "Other"
                         }
                     ],
                     "required": false
                 },{
                   "id": "problem_description",
-                  "order": 8,
+                  "order": 12,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 9,
+                  "order": 13,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true

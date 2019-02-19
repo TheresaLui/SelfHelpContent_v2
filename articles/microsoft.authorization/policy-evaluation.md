@@ -4,13 +4,14 @@
     service="microsoft.authorization"
     resource="policyAssignments"
     authors="robga"
-    authoralias="robga"
+    ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32599713"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
+	articleId="ab3c11c4-35f0-4332-8edf-ab2edd81042e"
 />
 
 # Azure Policy - Policy Evaluation

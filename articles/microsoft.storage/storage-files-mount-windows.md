@@ -4,13 +4,14 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
-	authorAlias="jeffpatt"
+	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602765"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="070a9086-bd72-4849-b878-e48c17d6ec8f"
 />
 
 # Troubleshooting Azure File Mount Issues on Windows

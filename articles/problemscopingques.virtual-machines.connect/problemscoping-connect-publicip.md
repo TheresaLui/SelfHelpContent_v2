@@ -2,13 +2,13 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615527"
                 productPesIds="14749"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea1212"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0018"
 />
 # Connect to a VM
 ---
@@ -23,7 +23,7 @@
                 "controlType": "multilinetextbox",
                 "displayLabel": "What is the error you received?",
                 "required": false,
-                "useAsAdditionalDetails": true,
+                "useAsAdditionalDetails": true
                 },{
                     "id": "connect_ifnew",
                     "order": 2,
@@ -68,11 +68,11 @@
                     ],
                     "required": false
                 },{
-                    "id": "connect_ifazuresiterecovery",
+                    "id": "connect_howmigrated",
                     "order": 4,
                     "visibility": "connect_from == On premise || connect_from == From another cloud provider",
                     "controlType": "dropdown",
-                    "displayLabel": "Was this using Azure Site Recovery?",
+                    "displayLabel": "How was this machine migrated?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -94,8 +94,26 @@
                     ],
                     "required": false
                 },{
-                    "id": "machinetype",
+                    "id": "connect_wasoncloud",
                     "order": 5,
+                    "visibility": "connect_from == On premise",
+                    "controlType": "dropdown",
+                    "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "machinetype",
+                    "order": 6,
                     "controlType": "dropdown",
                     "displayLabel": "From which type of machine are you trying to RDP into?",
                     "watermarkText": "Choose an option",
@@ -127,18 +145,10 @@
                     ],
                     "required": false
                 },{
-                "id": "machinetype_other",
-                "order": 6,
-                "visibility": "machinetype == Other",
-                "controlType": "textbox",
-                "displayLabel": "Please specify the type of machine you are trying to RDP into.",
-                "useAsAdditionalDetails": false,
-                "required": false
-                },{
-                    "id": "connect_ifinternet",
+                    "id": "ippublic",
                     "order": 7,
                     "controlType": "dropdown",
-                    "displayLabel": "Do you have Internet connectivity issues from this VM?",
+                    "displayLabel": "Are you able to connect to the Private IP?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -152,15 +162,80 @@
                     ],
                     "required": false
                 },{
+                    "id": "connect_subnet",
+                    "order": 8,
+                    "visibility": "ippublic == No",
+                    "controlType": "dropdown",
+                    "displayLabel": "Is the problem isolated when you are connecting from a specific subnet?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "connect_ifinternet",
+                    "order": 9,
+                    "controlType": "dropdown",
+                    "displayLabel": "Do you have connectivity issues from/to this VM?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "connect_internetissue",
+                    "order": 10,
+                    "visibility": "connect_ifinternet == Yes",
+                    "controlType": "dropdown",
+                    "displayLabel": "What is the problem you are having?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Cannot connect to the RDP port",
+                            "text": "Cannot connect to the RDP port"
+                        },
+                        {
+                            "value": "Cannot connect to the Powershell port",
+                            "text": "Cannot connect to the Powershell port"
+                        },
+                        {
+                            "value": "Cannot connect to my SQL instance",
+                            "text": "Cannot connect to my SQL instance"
+                        },
+                        {
+                            "value": "Cannot connect to another port",
+                            "text": "Cannot connect to another port"
+                        },
+                        {
+                            "value": "My VM doesn't have access to Internet",
+                            "text": "My VM doesn't have access to Internet"
+                        }
+                    ],
+                    "required": false
+                },{
                   "id": "problem_description",
-                  "order": 8,
+                  "order": 11,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 9,
+                  "order": 12,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true

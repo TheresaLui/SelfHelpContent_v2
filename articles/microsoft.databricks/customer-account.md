@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="9b4e2cc2-29d7-4e15-bf00-1bb43fd3e0e6"
 />
 
 # Azure Databricks Account Management

@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16577"
     cloudEnvironments="public"
-    />
+    	articleId="4e7de12a-33d9-478b-aeaa-e011fb60e2b2"
+/>
 
 # Azure AD Sign-in activity reports
 

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
+	articleId="5df0937d-cc30-41f5-8354-bea63dde782e"
 />
 
 # Transfer Storm eventhub spout checkpoint information from one topology to another

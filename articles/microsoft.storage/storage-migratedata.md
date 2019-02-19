@@ -4,13 +4,14 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32602711,32602773"
+	supportTopicIds="32602711"
 	resourceTags=""
-	productPesIds="16459,16461,16462"
+	productPesIds="16459"
 	cloudEnvironments="public"
+	articleId="08529756-423d-4959-9c22-1491ca953657"
 />
 
 # Move Data to, from, or within Azure Storage

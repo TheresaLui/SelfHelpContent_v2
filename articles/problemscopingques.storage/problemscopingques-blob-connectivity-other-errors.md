@@ -2,7 +2,7 @@
 	pageTitle="Blob connectivity and other blob service errors"
 	description="Blob connectivity and other blob service errors scoping question"
 	authors="Passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity_otherErrors"
 	supportTopicIds="32602728"

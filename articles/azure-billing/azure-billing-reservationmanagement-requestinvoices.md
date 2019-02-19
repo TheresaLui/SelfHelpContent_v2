@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="d6753434-706e-45f3-a11d-fbbfe7107dd2"
 />
 
 # Request Invoices

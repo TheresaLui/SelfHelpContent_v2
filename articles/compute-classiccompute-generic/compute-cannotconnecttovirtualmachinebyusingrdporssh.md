@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure,timbasham"
-	authorAlias="scotro,tibasham"
+	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615531,32615526"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="d67fb475-a831-4f4b-a6ce-7fbacb0bf9df"
 />
 
 # connectivity/cannot connect to virtual machine using rdp or ssh

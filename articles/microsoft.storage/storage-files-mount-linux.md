@@ -4,13 +4,14 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="jeffpatt24"
-	authorAlias="jeffpatt"
+	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602763,32602764"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="6d772158-93c0-4944-a6b5-4d997a6e8289"
 />
 
 # Troubleshooting Azure File Mount Issues on Linux

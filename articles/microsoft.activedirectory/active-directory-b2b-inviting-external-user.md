@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16580"
     cloudEnvironments="public"
-    />
+    	articleId="4842840f-6b7b-4777-97fa-9a002272a33f"
+/>
 
 # Problem inviting an external user
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="770d9285-e60a-46ee-8348-278924ef1af7"
 />
 
 # managing rights management templates

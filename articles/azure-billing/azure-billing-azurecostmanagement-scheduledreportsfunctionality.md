@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9af7896e-f094-4405-8449-c79778dcf15b"
 />
 
 # Scheduled reports functionality

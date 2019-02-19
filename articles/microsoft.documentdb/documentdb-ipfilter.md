@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="60ac16f8-8cc1-43c7-91c7-b51dd5d875de"
 />
 
 # Connecting to Azure Cosmos DB accounts

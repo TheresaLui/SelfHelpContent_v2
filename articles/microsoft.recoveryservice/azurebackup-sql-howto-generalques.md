@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="9d7af7d4-e57e-413a-b172-6a27a106e744"
 />
 
 # Advisory questions related to SQL server in Azure VM backup

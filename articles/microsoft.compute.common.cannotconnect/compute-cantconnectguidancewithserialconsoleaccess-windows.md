@@ -4,13 +4,14 @@
               service=""
               resource=""
               authors="scottAzure"
-              authoralias="scotro"
+              ms.author="scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615528"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="12572186-90fb-4c0e-94f6-45522bd8bf64"
 />
 
 # I need guidance with Serial console access

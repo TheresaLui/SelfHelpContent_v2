@@ -4,13 +4,14 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
-	authorAlias="passap"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602691,32602697,32602775"
 	resourceTags=""
 	productPesIds="15629,16461,16462"
 	cloudEnvironments="public"
+	articleId="36bb39f4-b6d0-40cc-b011-6740948b2c34"
 />
 
 # Access or Security Issues

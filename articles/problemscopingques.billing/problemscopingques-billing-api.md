@@ -2,7 +2,7 @@
 	pageTitle="Billing API"
 	description="Billing API"
 	articleId="billingapi"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599495"

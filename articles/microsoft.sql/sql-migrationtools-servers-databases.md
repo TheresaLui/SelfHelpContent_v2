@@ -10,11 +10,12 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="db06ebfa-fff3-45c1-bd35-d3dab52132c0"
 />
 
 # migrating to azure/migration tools
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Migration tools](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql/)<br>
 * [Database migration assistant](https://docs.microsoft.com/azure/sql-database/sql-database-migrate-your-sql-server-database/)<br>

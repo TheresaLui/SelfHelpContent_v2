@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627990, 32627989, 32627992, 32627991, 32627993"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="a69eee20-f1cb-4ef6-a3f4-a2ade648df86"
 />
 
 # Connectivity to Azure Private, Azure Public, or Dynamics 365 Services

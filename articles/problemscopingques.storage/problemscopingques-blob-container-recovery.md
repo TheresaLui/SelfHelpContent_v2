@@ -7,6 +7,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
 />
 # Recover deleted Blob Container
 ---

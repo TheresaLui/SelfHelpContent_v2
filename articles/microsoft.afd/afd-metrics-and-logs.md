@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25"
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614234"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="49faed74-a927-4f97-a6fa-37f88eb14be7"
 />
 
 # Metrics and Logs

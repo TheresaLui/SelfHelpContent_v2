@@ -1,5 +1,5 @@
 <properties
-    authorAlias="v-anreg"
+    ms.author="v-anreg"
     pageTitle="Ambari service not running"
     description="AmbariPortalIssue"
     infoBubbleText="Ambari service is not running. See details on the right."
@@ -10,7 +10,7 @@
     articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32588422, 32588429, 32588445"
+    supportTopicIds="32628984, 32629005, 32629006"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -28,16 +28,11 @@ Since the **headnodehost** is not running Ambari server, it cannot display the c
 
 ## **Recommended Steps**
 
-1. You can connect to Ambari service using Secure Shell (SSH)
-
-	**ssh \<clustername>\-ssh.azurehdinsight.net** <br>		
-2. Run the following command to open host file /etc/host on one of the headnodes using Vi
-
-	**vi /etc/hosts/**	<br>
+1. You can connect to Ambari service using Secure Shell (SSH): `ssh \<clustername>\-ssh.azurehdinsight.net`
+2. Run the following command to open host file /etc/host on one of the headnodes using Vi: `vi /etc/hosts/`
 3. Look up for the headnode which has **headnodehost** mentioned next to it to verify that this headnode is the active node <br>
-4. Run the following command to start Ambari service on the **headnodehost**
+4. Run the following command to start Ambari service on the **headnodehost**: `sudo ambari-server start`
 
-	**sudo ambari-server start** <br>
 ## **Recommended Documents**
 
 * [Connect to HDInsight using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)

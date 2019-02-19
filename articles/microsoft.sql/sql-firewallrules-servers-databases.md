@@ -10,9 +10,11 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="c1f2963a-bcb9-415d-bd22-a47ee85155c9"
 />
 
 # availability and connectivity/firewall rules
 
-## **Recommended documents**
-[How to: Configure firewall settings on SQL Database using the Azure Portal](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)
+## **Recommended Documents**
+
+* [How to: Configure firewall settings on SQL Database using the Azure Portal](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)

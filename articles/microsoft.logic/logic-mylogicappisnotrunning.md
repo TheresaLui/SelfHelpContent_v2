@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="c347650e-cde5-482e-8a16-f0ea4cafb3c9"
 />
 
 # My Logic App is not running

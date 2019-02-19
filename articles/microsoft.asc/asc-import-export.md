@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="4ad65834-59f8-4cc1-b1e3-4bdc840d6245"
 />
 
 # ASC/Importing-Exporting App Service Certificates

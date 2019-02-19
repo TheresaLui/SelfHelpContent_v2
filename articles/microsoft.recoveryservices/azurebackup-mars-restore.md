@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-	articleId="fbba3070-f2da-44da-8c03-9f3c8ea7db4a"
+	articleId="9d7bb66b-c9c0-47fa-bbcf-636e88c8c090"
 />
 
 # Restore of files and folders with Azure Backup Agent fails

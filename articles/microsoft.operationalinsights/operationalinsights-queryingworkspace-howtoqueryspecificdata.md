@@ -7,13 +7,14 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="noakup"
-authoralias="noakuper"
+ms.author="noakuper"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612464"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="78a1e1e4-038e-474b-a9b1-f24d9ca0d41a"
 />
 
 # How to query specific data

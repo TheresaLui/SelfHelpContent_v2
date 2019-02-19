@@ -10,6 +10,7 @@
   resourceTags="aadconnect,aadconnect_seamless_single_sign_on,managed_authentication"
   productPesIds="14785,16579"
   cloudEnvironments="public"
+	articleId="c300cc33-1cc1-4136-a957-b36423c13730"
 />
 
 # Problems configuring and signing in with Azure AD Seamless Single Sign-on
