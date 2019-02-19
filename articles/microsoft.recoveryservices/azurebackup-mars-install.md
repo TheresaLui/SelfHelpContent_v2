@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="0a9897d3-13c6-4139-8f4f-c16dd2a5c23e"
 />
 
 # Azure Recovery Services Agent installation or registration issues
