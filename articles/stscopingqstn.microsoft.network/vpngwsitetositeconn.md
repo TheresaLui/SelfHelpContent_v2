@@ -2,7 +2,7 @@
 	pageTitle="Site-to-Site VPN connectivity issues information"
 	description="Site-to-Site VPN connectivity issues information"
 	authors="radwiv"
-  ms.author="radwiv"
+        ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	articleid="vpngwsitetositeconn"
 	supportTopicIds="32591158"
