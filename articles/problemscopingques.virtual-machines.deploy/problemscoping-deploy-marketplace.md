@@ -18,15 +18,60 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                  "id": "deployment_marketplaceimage",
+                  "id": "resourceGroup",
                   "order": 1,
+                  "controlType": "dropdown",
+                  "displayLabel": "Select Deployment Failed Resource Group",
+                  "dynamicDropdownOptions": {
+                  "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+                  "jTokenPath": "value",
+                  "textProperty": "id",
+                  "valueProperty": "id",
+                  "textPropertyRegex": "[^/]+$"
+                  },
+                  "dropdownOptions": [{
+                  "value": "Unable to retrieve list of Resource Groups",
+                  "text": "Unable to retrieve list of Resource Groups."
+                  }
+                  ],
+                  "useAsAdditionalDetails": false,
+                  "required": true
+                  },{
+                  "id": "correlationId",
+                  "order": 2,
+                  "visibility": "resourceGroup != null",
+                  "controlType": "dropdown",
+                  "displayLabel": "Select Deployment Failure",
+                  "dynamicDropdownOptions": {
+                  "dependsOn": "resourceGroup",
+                  "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                  "jTokenPath": "value",
+                  "textProperty": "properties.timestamp,properties.parameters.location.value,name",
+                  "textTemplate":"Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
+                  "valueProperty": "properties.correlationId",
+                  "defaultDropdownOptions": {
+                  "value": "Deployment Failure not found",
+                  "text": "Deployment Failure not found",
+                  },
+                  "textPropertyRegex": "[^/]+$"
+                  },
+                  "dropdownOptions": [{
+                  "value": "Unable to retrieve list of Deployment Failure",
+                  "text": "Unable to retrieve list of Deployment Failure."
+                  }
+                  ],
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "deployment_marketplaceimage",
+                  "order": 3,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What Marketplace image are you trying to deploy?",
                   "useAsAdditionalDetails": true,
                   "required": false
                 },{
                   "id": "is_publisher",
-                  "order": 2,
+                  "order": 4,
                   "controlType": "dropdown",
                   "displayLabel": "Are you a publisher of this image?",
                   "watermarkText": "Choose an option",
@@ -40,22 +85,15 @@
                       ],
                       "required": false
                 },{
-                  "id": "correlation_id",
-                  "order": 3,
-                  "controlType": "textbox",
-                  "displayLabel": "Correlation ID",
-                  "useAsAdditionalDetails": false,
-                  "required": false
-                  },{
                   "id": "problem_description",
-                  "order": 4,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": false,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 5,
+                  "order": 6,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
