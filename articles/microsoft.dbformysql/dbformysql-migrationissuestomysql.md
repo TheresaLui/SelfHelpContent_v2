@@ -20,10 +20,10 @@ From time to time, you may encounter issues with performing migrations to [Azure
 
 ## **Recommended Steps**
 
-* Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#online-migration-configuration).
-* Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#datatype-limitations).
-* Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations).
-* Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations).
+* Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#online-migration-configuration)
+* Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#datatype-limitations)
+* Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#lob-limitations)
+* Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-mysql-online#other-limitations)
 
 ## **Recommended Documents**
 
