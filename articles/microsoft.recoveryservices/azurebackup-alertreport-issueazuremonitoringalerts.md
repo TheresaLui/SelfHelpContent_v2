@@ -16,6 +16,10 @@
 
 # Issue with Azure Monitoring alerts 
 
+## **Recommended Steps**
+
+* Review your [Azure Monitoring Alert rules](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-response) for invalid entries
+
 ## **Recommended Documents**
 
-For more information on Alerts on log data, see [article](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-response)
+* [Azure Monitoring Alerts Overview](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)
