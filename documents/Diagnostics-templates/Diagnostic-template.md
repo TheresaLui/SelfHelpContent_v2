@@ -1,7 +1,7 @@
 <properties
-	pageTitle=""
-	description=""
-	infoBubbleText=""
+	pageTitle="Diagnostic Template"
+	description="Diagnostic Template"
+	infoBubbleText="Diagnostic Template"
 	service=""
 	resource=""
 	authors=""
@@ -12,7 +12,7 @@
 	selfHelpType=""
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""​
+	productPesIds=""
 	cloudEnvironments=""
 />
 
@@ -20,7 +20,7 @@
 
 <!--issueDescription-->
 ## ** <-- Diagnostic Title --> **
-This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token **<!--$tokenname2-->[tokenname2]<!--/$tokenname2-->**. Note that the double asterisk used to demark bold text should be added before and after the tags demarking the replacement token.
+This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token **<!--$tokenname2-->[tokenname2]<!--/$tokenname2-->**. Note that the double asterisk used to demark **bold text** should be added before and after the tags demarking the replacement token.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -48,3 +48,13 @@ This is an example of a bulleted list. Note that only 2 levels of bullets are su
 
 * [This is the display text of an external document](https://)
 * [This is the display text for the last article in the list](http://)
+
+### Notes
+
+* The **Recommended Steps** and **Recommended Documents** headings must be entered as shown above (bolded H2)
+* Your Recommended Steps should be actual steps, not just links to other articles
+* Ensure all links to Microsoft docs are non-region-specific, i.e. does not include /en-us/. This does not apply to articles for Mooncake.
+* Don't link to internal review documentation - these URLs always start with "review.microsoft.docs", and users are unable to access them
+* Avoid using aka.ms short links where possible
+* Copy the raw form of this article to use as a template for your own Diagnostic article. Be sure to fill in the metadata!
+
