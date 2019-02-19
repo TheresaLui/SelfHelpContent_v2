@@ -12,7 +12,7 @@
 />
 
 ---
-# VPN Gateway site-to-site connectivity
+# Site-to-Site VPN connectivity issues information
 {
     "resourceRequired": false,
     "title": "VPN Gwy On Prem Device",
