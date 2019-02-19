@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "HDInsight CRUD Issue",
-    "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
