@@ -20,11 +20,11 @@ From time to time, you may encounter issues with performing migrations to [Azure
 
 ## **Recommended Steps**
 
-* Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#online-migration-configuration).
-* Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#datatype-limitations).
-* Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#lob-limitations).
-* Address issues specific to migrating [PostgreSQL10](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#postgresql10-workaround).
-* Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#other-limitations).
+* Address issues with [online migration configuration](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#online-migration-configuration)
+* Address [datatype limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#datatype-limitations)
+* Address [LOB limitations](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#lob-limitations)
+* Address issues specific to migrating [PostgreSQL10](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#postgresql10-workaround)
+* Address [other common issues](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online#other-limitations)
 
 ## **Recommended Documents**
 
