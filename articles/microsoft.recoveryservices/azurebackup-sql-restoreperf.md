@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-**For Restore Performance issues**
+[Pre-requisite before triggering a restore](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#pre-requisite-before-triggering-a-restore)
