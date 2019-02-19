@@ -15,7 +15,7 @@
 # Windows Backup to Azure Backup/Schedule backup for a Windows Server or a client
 
 ## **Recommended steps**
-* How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-vm-backup-time) [ Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time) <br>
+* How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) [ Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations) <br>
 * [Ensure another process or antivirus is not interfering with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup) <br>
 * [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder-br)<br>
 * [Check throttling controls on how network bandwidth is used during data transfer](https://docs.microsoft.com/azure/backup/backup-configure-vault#enable-network-throttling) <br>
