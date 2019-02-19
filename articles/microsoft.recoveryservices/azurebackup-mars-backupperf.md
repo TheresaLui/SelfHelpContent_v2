@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="b427d182-073a-4907-9cdd-9dfa09e45660"
 />
 
 # Windows Backup to Azure Backup/Schedule backup for a Windows Server or a client
