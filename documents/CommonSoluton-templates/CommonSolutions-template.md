@@ -55,3 +55,4 @@ All lists require an empty line before the first item and after the last item.
 * Ensure all links to Microsoft docs are non-region-specific, i.e. does not include /en-us/. This does not apply to articles for Mooncake.
 * Don't link to internal review documentation - these URLs always start with "review.microsoft.docs", and users are unable to access them
 * Avoid using aka.ms short links where possible
+* Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the metadata!
