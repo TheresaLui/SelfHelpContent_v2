@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="account failover stuck"
 />
 
 # Account Failover stuck in process
