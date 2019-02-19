@@ -24,14 +24,14 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-        }, 
+        },
         {
 			"id": "NodeName",
 			"order": 20,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the computer name of one or more affected machines",
 			"required": false
-        }, 
+        },
         {
 			"id": "problem_description",
 			"order": 30,
