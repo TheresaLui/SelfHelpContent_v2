@@ -12,6 +12,7 @@
 />
 
 ---
+# VPN Gateway site-to-site connectivity
 {
     "resourceRequired": false,
     "title": "VPN Gwy On Prem Device",
