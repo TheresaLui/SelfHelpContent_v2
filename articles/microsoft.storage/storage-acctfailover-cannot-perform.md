@@ -15,6 +15,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="cea80e58-c969-4e77-a04d-c6de1bfb4399"
 />
 
 # Azure Account Failover Cannot Perform
