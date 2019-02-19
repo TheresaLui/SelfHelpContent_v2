@@ -29,7 +29,7 @@
 			"id": "NodeName",
 			"order": 20,
 			"controlType": "textbox",
-			"displayLabel": "Please provide the name of a machine affected by your issue",
+			"displayLabel": "Please provide the computer name of one or more affected machines",
 			"required": false
         }, 
         {
