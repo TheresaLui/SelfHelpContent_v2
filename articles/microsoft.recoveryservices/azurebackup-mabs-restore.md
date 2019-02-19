@@ -18,19 +18,19 @@
 
 ## **Recommended Steps**
 
-**Unable to Backup?**<br>
 To resolve common backup issues, choose the symptom you are observing:<br>
-- [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)<br>
-- [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
-- [This server is not registered to the vault specified by the vault credential](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server#troubleshooting-error-messages)<br>
 
+* [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)
+* [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
+* [This server is not registered to the vault specified by the vault credential](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server#troubleshooting-error-messages)<br>
 
 ## **Recommended Documents**
 
-For information on pre-requisites, limitations and frequently asked questions, see:<br>
+For information on pre-requisites, limitations, and frequently asked questions, see:<br>
+
 - [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
 - [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
 - [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
-- [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
+- [What workloads can I protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
 - [What's new in Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-whats-new-mabs)<br>
-- [How to Upgrade Backup Server to V3](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)
+- [Upgrade Backup Server to V3](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)
