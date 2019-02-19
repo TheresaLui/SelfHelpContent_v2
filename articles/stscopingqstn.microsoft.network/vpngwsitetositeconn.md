@@ -84,7 +84,7 @@
             "required": false,
             "useAsAdditionalDetails": true,
             "hints": {"text": "Please provide on-premise and/or VNet IP addresses"},
-        },    
+        },
         {   "id": "onprem_config_script",
             "order": 6,
             "controlType": "dropdown",
