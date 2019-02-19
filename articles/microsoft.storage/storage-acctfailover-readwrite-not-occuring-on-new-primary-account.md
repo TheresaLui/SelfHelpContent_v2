@@ -7,7 +7,6 @@
 	authors="Sijia"
 	ms.author="siz"
 	displayOrder=""
-	displayOrder=""
 	articleId="19420c9c-0074-47f4-924f-241daf7b6bf2"
 	diagnosticScenario=""
 	selfHelpType="generic"
