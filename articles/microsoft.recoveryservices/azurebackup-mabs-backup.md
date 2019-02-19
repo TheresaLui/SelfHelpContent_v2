@@ -35,4 +35,4 @@ For information on pre-requisites, limitations and frequently asked questions, s
 - [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
 - [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
 - [How to Upgrade Backup Server to V3](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)<br>
-- [What's new in Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-whats-new-mabss)<br>
+- [What's new in Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-whats-new-mabs)<br>
