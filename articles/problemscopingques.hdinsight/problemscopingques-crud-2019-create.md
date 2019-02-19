@@ -1,21 +1,21 @@
 <properties
-	articleId="8d11697c-66b9-4de9-a1dd-c6b6d05cad4b"
-	pageTitle="Scoping Questions for HDInsight CRUD Issue"
-	description="Scoping Questions for HDInsight CRUD Issue"
+	articleId="a270902b-e2c9-4f4a-abd2-b85d97b41327"
+	pageTitle="Scoping Questions for HDInsight Create Issue"
+	description="Scoping Questions for HDInsight Create Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628987, 32629002, 32629004, 32629016, 32629036, 32629037, 32629084, 32629125, 32629129, 32629157, 32629158, 32629159, 32629160"
+	supportTopicIds="32629032"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# CRUD Issue
+# HDI Cluster Create Issue
 ---
 {
     "resourceRequired": true,
     "title": "HDInsight CRUD Issue",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -72,10 +72,47 @@
             "required": true
 		},
         {
+            "id": "is_vnet_involved",
+            "order": 140,
+            "controlType": "dropdown",
+            "displayLabel": "Is cluster created in a VNET?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "is_vnet_peering",
+            "visibility": "is_vnet_involved == Yes",
             "order": 150,
             "controlType": "dropdown",
             "displayLabel": "Is VNET peering involved?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "is_aad_involved",
+            "order": 180,
+            "controlType": "dropdown",
+            "displayLabel": "Is Azure Active Directory Domain Services Integration involved?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
