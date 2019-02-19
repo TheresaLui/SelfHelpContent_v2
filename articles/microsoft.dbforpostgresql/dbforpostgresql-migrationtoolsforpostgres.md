@@ -20,12 +20,12 @@ You can use the Azure Database Migration Service to perform an online migration 
 
 ## **Recommended Steps**
 
-* Address migration [prerequisites](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#prerequisites).
-* [Migrate the schema](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema) using the pgdump utility.
-* [Provision an instance](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#provisioning-an-instance-of-dms-using-the-cli) of the Azure Database Migration Service.
-* Create and run a migration project.
-* [Monitor the migration](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#understanding-migration-task-status).
-* [Perform migration cutover](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#cutover-migration-task).
+* Address migration [prerequisites](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#prerequisites)
+* [Migrate the schema](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema) using the pgdump utility
+* [Provision an instance](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#provisioning-an-instance-of-dms-using-the-cli) of the Azure Database Migration Service
+* Create and run a migration project
+* [Monitor the migration](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#understanding-migration-task-status)
+* [Perform migration cutover](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#cutover-migration-task)
 
 ## **Recommended Documents**
 
