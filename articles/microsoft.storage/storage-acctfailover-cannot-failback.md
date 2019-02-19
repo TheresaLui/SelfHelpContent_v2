@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-- [Have you re-enabled GRS or RA-GRS on the storage account](https://docs.microsoft.com/azure/storage/common/storage-initiate-account-failover#important-implications-of-account-failover)<br>
+- [Have you re-enabled GRS or RA-GRS on the storage account?](https://docs.microsoft.com/azure/storage/common/storage-initiate-account-failover#important-implications-of-account-failover)<br>
 - [Verify that Data was replicated to secondary region by checking the LastSyncTime](https://docs.microsoft.com/azure/storage/common/storage-initiate-account-failover#important-implications-of-account-failover)
