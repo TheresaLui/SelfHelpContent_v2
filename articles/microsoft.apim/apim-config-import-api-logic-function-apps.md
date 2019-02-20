@@ -15,7 +15,7 @@
 
 # Importing API (Logic, API or Function Apps)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Import an API App](https://docs.microsoft.com/azure/api-management/import-api-app-as-api)
 - [Import a Function App](https://docs.microsoft.com/azure/api-management/import-function-app-as-api)

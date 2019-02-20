@@ -15,7 +15,7 @@
 
 # Policy expressions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Policies in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-policies)
 - [API Management policies](https://docs.microsoft.com/azure/api-management/api-management-policies)

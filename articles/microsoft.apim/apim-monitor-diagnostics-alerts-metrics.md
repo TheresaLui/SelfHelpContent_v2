@@ -15,7 +15,7 @@
 
 # Alerts or metrics
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Understand how metric alerts work in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview)
 - [View metrics of your APIs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#view-metrics-of-your-apis)

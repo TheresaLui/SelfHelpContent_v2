@@ -15,7 +15,7 @@
 
 # Configure Azure API Management with client certificates authentication
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [How to secure back-end services using client certificate authentication in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-mutual-certificates)
 - [How to secure APIs using client certificate authentication in API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-mutual-certificates-for-clients)

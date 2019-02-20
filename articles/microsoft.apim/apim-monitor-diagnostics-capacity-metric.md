@@ -15,7 +15,7 @@
 
 # Capacity Metric
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Capacity of an Azure API Management instance](https://docs.microsoft.com/azure/api-management/api-management-capacity)
 

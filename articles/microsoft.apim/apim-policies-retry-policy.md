@@ -15,7 +15,7 @@
 
 # Retry Policy
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Retry Policy](https://docs.microsoft.com/azure/api-management/api-management-advanced-policies#Retry)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

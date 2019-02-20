@@ -15,7 +15,7 @@
 
 # Deploy Azure API Management to internal virtual network
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Common network configuration issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)
 - [Using Azure API Management service with an internal virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-internal-vnet)

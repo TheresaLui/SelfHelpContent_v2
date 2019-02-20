@@ -15,7 +15,7 @@
 
 # Configure custom domain
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Configure a custom domain name](https://docs.microsoft.com/azure/api-management/configure-custom-domain )
 - [DNS Configuration (APIM joined to an Internal VNET)](https://docs.microsoft.com/azure/api-management/api-management-using-with-internal-vnet#apim-dns-configuration)

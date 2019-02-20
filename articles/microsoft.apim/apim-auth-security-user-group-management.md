@@ -15,7 +15,7 @@
 
 # Manage user or group in Azure API Management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [How to manage user accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-or-invite-developers)
 - [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-groups)

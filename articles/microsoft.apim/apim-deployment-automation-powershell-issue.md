@@ -15,7 +15,7 @@
 
 # Azure API Management Automation or PowerShell issue
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Managing Azure API Management using Azure Automation](https://docs.microsoft.com/azure/api-management/automation-manage-api-management)
 - [Azure PowerShell samples for API Management](https://docs.microsoft.com/azure/api-management/powershell-samples)

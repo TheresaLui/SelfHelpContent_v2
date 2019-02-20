@@ -15,7 +15,7 @@
 
 # API Management APIs returns Other Errors (400, 500, 503, etc.)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management access restriction policies](https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies)
 - [API Management authentication policies](https://docs.microsoft.com/azure/api-management/api-management-authentication-policies)

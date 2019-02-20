@@ -15,7 +15,7 @@
 
 # JSON to XML policies
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management transformation policies](https://docs.microsoft.com/azure/api-management/api-management-transformation-policies)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

@@ -15,7 +15,7 @@
 
 # Importing API (OpenAPI, WSDL, WADL)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API import restrictions and known issues](https://docs.microsoft.com/azure/api-management/api-management-api-import-restrictions)
 - [Important changes to OpenAPI import and export](https://blogs.msdn.microsoft.com/apimanagement/2018/04/11/important-changes-to-openapi-import-and-export)

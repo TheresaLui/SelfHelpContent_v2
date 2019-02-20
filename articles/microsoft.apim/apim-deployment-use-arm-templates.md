@@ -15,7 +15,7 @@
 
 # Deploy Azure API Management using ARM Templates
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Azure APIM Quick Start Template](https://github.com/Azure/azure-quickstart-templates/tree/master/101-azure-api-management-create)
 - [Create an API Management instance and all sub resources using template](https://azure.microsoft.com/resources/templates/201-api-management-create-all-resources/)

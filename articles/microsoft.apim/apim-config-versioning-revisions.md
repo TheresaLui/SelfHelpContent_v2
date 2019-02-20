@@ -15,7 +15,7 @@
 
 # Versioning or revisions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Use revisions to make non-breaking changes safely](https://docs.microsoft.com/azure/api-management/api-management-get-started-revise-api)
 - [Publish multiple versions of your API](https://docs.microsoft.com/azure/api-management/api-management-get-started-publish-versions)

@@ -15,7 +15,7 @@
 
 # SSL/TLS configurations in Azure API Management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Manage protocols and ciphers in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-manage-protocols-ciphers) 
 - [Can I use a self-signed SSL certificate for a back end?](https://docs.microsoft.com/azure/api-management/api-management-faq#can-i-use-a-self-signed-ssl-certificate-for-a-back-end)

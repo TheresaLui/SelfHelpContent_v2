@@ -15,7 +15,7 @@
 
 # Service is down or outage
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management Pricing and SLA (Tip: Check if you are on Developer tier)](https://azure.microsoft.com/pricing/details/api-management)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

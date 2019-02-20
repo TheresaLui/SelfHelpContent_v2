@@ -15,6 +15,6 @@
 
 # Managed Service Identity (MSI) and KeyVault
 
-## **Recommended documents**
+## **Recommended Documents**
 
-- [API Management REST (Original Access API)](https://docs.microsoft.com/rest/api/apimanagement/apimanagementrest/api-management-rest)
+- [Use Azure Managed Service Identity in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-use-managed-service-identity)

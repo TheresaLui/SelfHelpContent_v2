@@ -15,7 +15,7 @@
 
 # API Inspector Traces
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)
 

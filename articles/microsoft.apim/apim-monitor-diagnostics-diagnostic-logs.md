@@ -15,7 +15,7 @@
 
 # Diagnostic logs
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Diagnostic Logs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#diagnostic-logs)
 

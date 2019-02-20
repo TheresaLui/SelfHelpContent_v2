@@ -15,7 +15,7 @@
 
 # Cross-domain policies
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management cross domain policies](https://docs.microsoft.com/azure/api-management/api-management-cross-domain-policies)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

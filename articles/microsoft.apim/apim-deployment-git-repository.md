@@ -15,10 +15,10 @@
 
 # Save and configure your API Management service configuration using Git
 
-## **Recommended documents**
+## **Recommended Documents**
 
-- [Common network configuration issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)
-- [Using Azure API Management service with an internal virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-internal-vnet)
+- [How to save and configure your API Management service configuration using Git](https://docs.microsoft.com/en-us/azure/api-management/api-management-configuration-repository-git)
+- [Why do I get an authentication failure when I try to clone a Git repository?](https://docs.microsoft.com/en-us/azure/api-management/api-management-faq#why-do-i-get-an-authentication-failure-when-i-try-to-clone-a-git-repository)
 
 
 

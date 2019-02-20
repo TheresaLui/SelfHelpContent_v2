@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure API Management degional deployments"
-    description="Azure API Management degional deployments"
+    pageTitle="Azure API Management regional deployments"
+    description="Azure API Management regional deployments"
     service="microsoft.apim"
     resource="apimanagement"
     authors="genli"
@@ -15,7 +15,7 @@
 
 # Deploy Azure API Management to multiple Azure regions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [How to deploy an Azure API Management service instance to multiple Azure regions](https://docs.microsoft.com/azure/api-management/api-management-howto-deploy-multi-region)
 

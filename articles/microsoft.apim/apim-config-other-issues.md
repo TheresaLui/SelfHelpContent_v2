@@ -15,7 +15,7 @@
 
 # Other configuration and management issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)
 - [API Management - Diagnostic Logs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor#diagnostic-logs)

@@ -15,7 +15,7 @@
 
 # Validate JWT policy
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Validate JWT Policy](https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies#ValidateJWT)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

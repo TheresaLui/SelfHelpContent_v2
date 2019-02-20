@@ -15,7 +15,7 @@
 
 # Analytics or Dashboard data
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Monitor published APIs](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor)
 

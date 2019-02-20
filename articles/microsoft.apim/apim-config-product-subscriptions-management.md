@@ -15,7 +15,7 @@
 
 # Product subscriptions management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Create and publish a product](https://docs.microsoft.com/azure/api-management/api-management-howto-add-products)
 - [About API Management - Products](https://docs.microsoft.com/azure/api-management/api-management-key-concepts#a-nameproducts-a-products)

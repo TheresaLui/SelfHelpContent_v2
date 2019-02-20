@@ -15,7 +15,7 @@
 
 # Developer portal is down or is not responding
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management Pricing and SLA](https://azure.microsoft.com/pricing/details/api-management/). Check if you are on Developer tier.
 - [Capture a Trace for troubleshooting Azure Portal issues](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues)

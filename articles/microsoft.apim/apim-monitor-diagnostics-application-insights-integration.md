@@ -15,7 +15,7 @@
 
 # Application Insights Integration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [How to integrate Azure API Management with Azure Application Insights](https://docs.microsoft.com/azure/api-management/api-management-howto-app-insights)
 

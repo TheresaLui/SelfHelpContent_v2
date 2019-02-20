@@ -15,6 +15,6 @@
 
 # Incorrect or missing documentation
 
-## **Recommended documents**
+## **Recommended Documents**
 [API Management Feedback](https://feedback.azure.com/forums/248703-api-management)<br>
 [API Management FAQ](https://docs.microsoft.com/azure/api-management/api-management-faq)

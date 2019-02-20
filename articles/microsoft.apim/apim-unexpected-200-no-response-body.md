@@ -15,9 +15,9 @@
 
 # API Management APIs returns 200 with no response body
 
-## **Recommended documents**
+## **Recommended Documents**
 
-- [Configure Policy Scope (Tip: Check for deleted global scope or broken scope inheritance)](https://docs.microsoft.com/azure/api-management/set-edit-policies#configure-scope)
+- [Configure Policy Scope](https://docs.microsoft.com/azure/api-management/set-edit-policies#configure-scope). Check for deleted global scope or broken scope inheritance.
 - [Forward Request Policy](https://docs.microsoft.com/azure/api-management/api-management-advanced-policies#ForwardRequest )
 - [How to set or edit Azure API Management policies](https://docs.microsoft.com/azure/api-management/set-edit-policies)
 - [Debug your APIs using request tracing](https://docs.microsoft.com/azure/api-management/api-management-howto-api-inspector)

@@ -15,7 +15,7 @@
 
 # Backend configuration problem
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Service Fabric with Azure API Management overview](https://docs.microsoft.com/azure/service-fabric/service-fabric-api-management-overview)
 - [Can I use a self-signed SSL certificate for a back end?](https://docs.microsoft.com/azure/api-management/api-management-faq#can-i-use-a-self-signed-ssl-certificate-for-a-back-end)

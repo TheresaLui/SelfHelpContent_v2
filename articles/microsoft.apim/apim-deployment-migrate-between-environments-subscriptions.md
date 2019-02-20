@@ -15,11 +15,11 @@
 
 # Save and configure your API Management service configuration using Git
 
-## **Recommended documents**
+## **Recommended Documents**
 
-- [Common network configuration issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)
-- [Using Azure API Management service with an internal virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-internal-vnet)
-
+- [Azure API Management DevOps Example](https://github.com/Azure/azure-api-management-devops-example)
+- [How do I copy my API Management service instance to a new instance?](https://docs.microsoft.com/azure/api-management/api-management-faq#how-do-i-copy-my-api-management-service-instance-to-a-new-instance)
+- [Can I move an API Management service from one subscription to another?](https://docs.microsoft.com/azure/api-management/api-management-faq#can-i-move-an-api-management-service-from-one-subscription-to-another)
 
 
 

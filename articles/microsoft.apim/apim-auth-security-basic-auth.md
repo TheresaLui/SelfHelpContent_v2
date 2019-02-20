@@ -15,7 +15,7 @@
 
 # Configure Azure API Management with Basic authentication
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management authentication policies](https://docs.microsoft.com/azure/api-management/api-management-authentication-policies)
 - [How to create and use groups to manage developer accounts in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-howto-create-groups)

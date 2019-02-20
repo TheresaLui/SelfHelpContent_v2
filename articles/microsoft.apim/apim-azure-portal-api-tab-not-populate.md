@@ -15,7 +15,7 @@
 
 # Azure API Management tab is not populating
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Common Network Configuration Issues](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#a-namenetwork-configuration-issues-acommon-network-configuration-issues)
 

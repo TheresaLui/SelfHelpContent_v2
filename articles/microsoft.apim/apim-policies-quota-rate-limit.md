@@ -15,7 +15,7 @@
 
 # Quota and Rate Limit policies
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Access Restriction Policies](https://docs.microsoft.com/azure/api-management/api-management-access-restriction-policies )
 - [Advanced Request throttling with Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-sample-flexible-throttling)

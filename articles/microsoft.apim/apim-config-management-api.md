@@ -15,6 +15,6 @@
 
 # Management API (*.management.azure-api.net)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [API Management REST (Original Access API)](https://docs.microsoft.com/rest/api/apimanagement/apimanagementrest/api-management-rest)
