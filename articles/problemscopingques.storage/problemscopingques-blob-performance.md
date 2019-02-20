@@ -1,7 +1,8 @@
 <properties
 	pageTitle="Performance issue on blob"
 	description="Performance issue on blob scoping question"
-	authors="Passaree"
+	authors="ramMSFT"
+    ms.author="raprasad"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602726,32602727"
 	productPesIds="16459"
@@ -45,7 +46,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
