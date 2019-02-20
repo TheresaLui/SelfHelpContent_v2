@@ -13,10 +13,7 @@
 # Site-to-Site VPN connectivity issues information
 ---
 
-{
-    "resourceRequired": false,
-    "title": "VPN Gwy On Prem Device",
-    "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
+{   "resourceRequired": false,
     "formElements": [
         {   "id": "on_prem_devices",
             "order": 1,
