@@ -17,13 +17,32 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**.
-This unexpected occurrence was caused by an **Azure initiated VM shutdown** triggered by detection of **temporary IO transaction timeouts** between the physical host node where your VM was running, and the Azure Storage service where your Virtual Hard Disks (VHDs) reside. The IO timeouts occurred due to a hardware failure and the time taken to migrate to a different backend storage server.
+We identified that your VM was unavailable during the following time period:
+
+- VM: <!--$vmname-->Virtual machine<!--/$vmname-->
+
+ - Unavailabilty began: **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**
+ - Availability restored: **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**
+
+## Identified issue
+
+An **Azure initiated VM shutdown** triggered by detection of **temporary IO transaction timeouts** between the physical host node where your VM was running, and the Azure Storage service where your Virtual Hard Disks (VHDs) reside. 
+
+The IO timeouts occurred due to a hardware failure and the time taken to migrate to a different backend storage server.
+
 <!--/issueDescription-->
 
-Azure platform continuously monitors reads and writes (IO transactions) from your VMs to Azure Storage.  If transactions are too slow or do not complete successfully within 120 seconds (inclusive of retries), the connectivity is considered to be lost and the temporary VM shutdown is initiated to preserve data integrity and prevent corruption of your VM. Once the platform detected that the Storage service connectivity was restored, the VM was automatically restarted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.<br>
+## Root causes
 
-The impacted VM had VHDs on a backend storage node which experienced a hardware failure. This failure was automatically detected and storage operations for the VHD were redirected to a healthy backend storage server. The time taken to perform this self-healing operation resulted in a delay in processing of the storage requests and  temporary VM unavailability. We are continuously working on improving our self-healing capabilities to minimize and even eliminate impact of any hardware failures in the system.<br>
+The impacted VM had VHDs on a backend storage node that experienced a hardware failure. This failure was automatically detected and storage operations for the VHD were redirected to a healthy backend storage server. The time taken to perform this self-healing operation resulted in a delay in processing of the storage requests and  temporary VM unavailability. 
+
+## More information
+
+Azure platform continuously monitors reads and writes (IO transactions) from your VMs to Azure Storage.  If transactions are too slow or do not complete successfully within 120 seconds (inclusive of retries), the connectivity is considered to  be lost and a temporary VM shutdown is initiated to preserve data integrity and prevent corruption of your VM. Once the platform detected that the Storage service connectivity was restored, the VM was automatically restarted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.<br>
+
+## Going forward
+
+We are continuously working to improve our self-healing capabilities to minimize and even eliminate impact of any hardware failures in the system.<br>
 
 For general information on Storage architecture and for more details on the particular reason of the connectivity loss, please refer to the Partition Server Failure section in this document:<br>
 
@@ -43,4 +62,4 @@ To learn more about Azure Resource Health, please refer to the following article
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.<br>
+We apologize for any inconvenience this may have caused you. We are continuously working to reduce the number of availability incidents of Virtual Machines caused by platform issues.<br>
