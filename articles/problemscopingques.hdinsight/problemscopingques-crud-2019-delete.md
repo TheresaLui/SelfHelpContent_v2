@@ -1,16 +1,16 @@
 <properties
-	articleId="8d11697c-66b9-4de9-a1dd-c6b6d05cad4b"
-	pageTitle="Scoping Questions for HDInsight CRUD Issue"
-	description="Scoping Questions for HDInsight CRUD Issue"
+	articleId="e3caa757-3e0c-4ab6-8dfe-61a019fac909"
+	pageTitle="Scoping Questions for HDInsight Delete Issue"
+	description="Scoping Questions for HDInsight Delete Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628987, 32629002, 32629004, 32629016, 32629036, 32629084, 32629125, 32629129, 32629157, 32629158, 32629159, 32629160"
+	supportTopicIds="32629037"
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# CRUD Issue
+# HDI Cluster Delete Issue
 ---
 {
     "resourceRequired": true,
@@ -71,24 +71,6 @@
             "watermarkText": "Any changes since last time it worked",
             "required": true
 		},
-        {
-            "id": "is_vnet_peering",
-            "order": 150,
-            "controlType": "dropdown",
-            "displayLabel": "Is VNET peering involved?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": true
-        },
         {
             "id": "CRUD_request_submission_method",
             "order": 200,
