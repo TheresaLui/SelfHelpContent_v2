@@ -21,7 +21,7 @@
                   "id": "resourceGroup",
                   "order": 1,
                   "controlType": "dropdown",
-                  "displayLabel": "Select Deployment Failed Resource Group",
+                  "displayLabel": "Select resource group for deployment failure",
                   "dynamicDropdownOptions": {
                   "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
                   "jTokenPath": "value",
@@ -30,8 +30,8 @@
                   "textPropertyRegex": "[^/]+$"
                   },
                   "dropdownOptions": [{
-                  "value": "Unable to retrieve list of Resource Groups",
-                  "text": "Unable to retrieve list of Resource Groups."
+                    "value": "Unable to retrieve list of resource groups.",
+                    "text": "Unable to retrieve list of resource groups."
                   }
                   ],
                   "useAsAdditionalDetails": false,
@@ -41,7 +41,7 @@
                   "order": 2,
                   "visibility": "resourceGroup != null",
                   "controlType": "dropdown",
-                  "displayLabel": "Select Deployment Failure",
+                  "displayLabel": "Select failed deployment",
                   "dynamicDropdownOptions": {
                   "dependsOn": "resourceGroup",
                   "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
@@ -50,14 +50,14 @@
                   "textTemplate":"Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
                   "valueProperty": "properties.correlationId",
                   "defaultDropdownOptions": {
-                  "value": "Deployment Failure not found",
-                  "text": "Deployment Failure not found",
-                  },
-                  "textPropertyRegex": "[^/]+$"
-                  },
-                  "dropdownOptions": [{
-                  "value": "Unable to retrieve list of Deployment Failure",
-                  "text": "Unable to retrieve list of Deployment Failure."
+                    "value": "Deployment failure not found.",
+                    "text": "Deployment failure not found.",
+                    },
+                    "textPropertyRegex": "[^/]+$"
+                    },
+                    "dropdownOptions": [{
+                    "value": "Unable to retrieve list of failed deployments.",
+                    "text": "Unable to retrieve list of failed deployments."
                   }
                   ],
                   "useAsAdditionalDetails": false,
