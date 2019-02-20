@@ -1,18 +1,19 @@
 <properties
-pageTitle="RDPCert Expired"
-description="RDP certificate has expired"
-infoBubbleText="RDP certificate has expired"
-service="microsoft.compute"
-resource="virtualmachines"
-authors="ram-kakani"
-displayOrder=""
-articleId="vmhealthsignal_5352ed8a-1807-4c31-a00d-184b641b18dd"
-diagnosticScenario="RDPCert Expired"
-selfHelpType="diagnostics"
-supportTopicIds="32411835"
-resourceTags="windows"
-productPesIds="14749"
-cloudEnvironments="public"
+    pageTitle="RDPCert Expired"
+    description="RDP certificate has expired"
+    infoBubbleText="RDP certificate has expired"
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="ram-kakani,timbasham"
+    ms.author="tibasham"
+    displayOrder=""
+    articleId="vmhealthsignal_5352ed8a-1807-4c31-a00d-184b641b18dd"
+    diagnosticScenario="RDPCert Expired"
+    selfHelpType="diagnostics"
+    supportTopicIds="32411835"
+    resourceTags="windows"
+    productPesIds="14749"
+    cloudEnvironments="public"
 />
 
 # RDP certificate has expired
@@ -21,7 +22,7 @@ We have investigated and detected that the self-signed certificate associated wi
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+To restore connectivity to the VM via RDP, please try the below steps via PowerShell using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
 
 ##### From the Serial Console:
 
