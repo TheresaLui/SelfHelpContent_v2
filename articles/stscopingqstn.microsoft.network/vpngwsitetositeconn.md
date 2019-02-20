@@ -14,6 +14,8 @@
 ---
 
 {   "resourceRequired": false,
+    "title": "Site-to-site connectivity issues",
+    "fileAttachmentHint": "",
     "formElements": [
         {   "id": "on_prem_devices",
             "order": 1,
