@@ -16,7 +16,7 @@
 	"resourceRequired": true,
 	"title": "Update Management",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
-    "formElements": 
+    "formElements":
     [
         {
 			"id": "problem_start_time",
@@ -40,13 +40,14 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-            "hints": 
+            "hints":
             [
                 {
 					"text": "Include the exact text of any error messages that occur"
 				}
 			]
-		}, {
+		},
+		{
 			"id": "learn_more_text",
 			"order": 40,
 			"controlType": "infoblock",
