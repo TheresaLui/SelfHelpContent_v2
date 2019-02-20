@@ -82,7 +82,7 @@
             "displayLabel": "Provide source and destination IP addresses",
             "required": false,
             "useAsAdditionalDetails": true,
-            "hints": {"text": "Please provide on-premise and/or VNet IP addresses"}
+            "hints": [{"text": "Please provide on-premise and/or VNet IP addresses"}]
         },
         {   "id": "onprem_config_script",
             "order": 6,
