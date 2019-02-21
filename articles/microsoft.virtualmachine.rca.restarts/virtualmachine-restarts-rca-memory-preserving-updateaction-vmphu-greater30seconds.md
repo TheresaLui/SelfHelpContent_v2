@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated memory-preserving update action**.
 <!--/issueDescription-->
 
-The memory-preserving update action was performed on the physical node where the virtual machine was hosted. Due to update issues, the deployment was not progressing as fast as expected. The update process succeeded but your VM was unavailable longer than the expected maximum duration of 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM could have failed during this time.<br>
+The memory-preserving update action was performed on the physical node where the virtual machine was hosted. Due to update issues, the deployment was not progressing as fast as expected. The update process succeeded but your VM was unavailable longer than the expected maximum duration of 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.<br>
 

@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated auto-recovery action**.
 <!--/issueDescription-->
 
-The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted. As designed, your VM was automatically moved to a different and healthy physical node to avoid further impact. RDP and SSH connections to the VM, or requests to any other services running inside the VM could have failed during this time.<br>
+The auto-recovery action was triggered by a hardware issue on the physical node where the virtual machine was hosted. As designed, your VM was automatically moved to a different and healthy physical node to avoid further impact. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 To learn more about our automated recovery action, please read the following article:<br>
 

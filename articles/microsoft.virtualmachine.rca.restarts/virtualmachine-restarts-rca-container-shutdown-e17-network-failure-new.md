@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated temporary VM shutdown**.
 <!--/issueDescription-->
 
-The temporary VM shutdown was triggered by our Azure monitoring systems that detected networking issues between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. After the node detected that conditions had improved, the VM was restarted. RDP connections to the VM, or requests to any other services running inside the VM could have failed during this time.<br>
+The temporary VM shutdown was triggered by our Azure monitoring systems that detected networking issues between the physical host node where your VM was running, and the Azure Storage services where your VHDs reside. As designed, this action was taken to preserve data integrity of your VM. After the node detected that conditions had improved, the VM was restarted. RDP connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 

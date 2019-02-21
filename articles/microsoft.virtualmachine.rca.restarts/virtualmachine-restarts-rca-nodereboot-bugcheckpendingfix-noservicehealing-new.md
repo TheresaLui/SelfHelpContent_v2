@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
 
-The host node reboot action was triggered by our Azure monitoring systems that detected a failure condition due to a recently discovered platform bug with the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM could have failed during this time. <br>
+The host node reboot action was triggered by our Azure monitoring systems that detected a failure condition due to a recently discovered platform bug with the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time. <br>
 
 Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.<br>
 
@@ -35,8 +35,6 @@ To learn more about high availability options, refer to the following articles:<
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 
-To learn more about Azure Resource Health, refer to the following article:<br>
-
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>

@@ -26,6 +26,4 @@ The reboot was triggered by an authorized user or process from either the Azure 
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 
-To learn more about Azure Resource Health, refer to the following article:<br>
-
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).

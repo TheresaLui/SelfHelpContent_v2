@@ -22,7 +22,7 @@
 We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated Live Migration operation**.
 <!--/issueDescription-->
 
-The migration caused your VM to be unavailable for about 10 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM could have failed during this time.<br>
+The migration caused your VM to be unavailable for about 10 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 To learn more about our memory-preserving operations, see [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/).<br>
 
