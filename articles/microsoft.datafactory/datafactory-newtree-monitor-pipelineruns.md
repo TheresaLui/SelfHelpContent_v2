@@ -21,7 +21,7 @@ By default, all datetime information are displayed in the local browser time zon
 
 ## **Recommended Documents**
 
-Visually monitor Azure data factories [Document](https://docs.microsoft.com/azure/data-factory/monitor-visually), including following sections: <br>
+[Visually monitor Azure data factories](https://docs.microsoft.com/azure/data-factory/monitor-visually), including;
 
 * Monitor [Pipeline Runs](https://docs.microsoft.com/azure/data-factory/monitor-visually#monitor-pipeline-runs) <br>
 * Monitor [Activity Runs](https://docs.microsoft.com/azure/data-factory/monitor-visually#monitor-activity-runs) <br>
@@ -29,4 +29,4 @@ Visually monitor Azure data factories [Document](https://docs.microsoft.com/azur
 * Monitor User Properties [Steps](https://docs.microsoft.com/azure/data-factory/monitor-visually#promote-user-properties-to-monitor) <br>
 * Enable __Alerts__ on Selected Properties [Steps](https://docs.microsoft.com/azure/data-factory/monitor-visually#alerts) <br>
 
-For more information, please refer to [Monitor Page Guided Tour](https://docs.microsoft.com/azure/data-factory/monitor-visually#guided-tours) <br>
+For more information, please refer to [Monitor Page Guided Tour](https://docs.microsoft.com/azure/data-factory/monitor-visually#guided-tours).
