@@ -4,13 +4,14 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="billmath"
+  ms.author="billmath"
   displayOrder=""
   selfHelpType="generic"
-  supportTopicIds="32596867"
+  supportTopicIds="32596867,32629770"
   resourceTags="aadconnect,aadconnect_seamless_single_sign_on,managed_authentication"
-  productPesIds="14785,16579"
+  productPesIds="16579,16666"
   cloudEnvironments="public"
-	articleId="c300cc33-1cc1-4136-a957-b36423c13730"
+  articleId="c300cc33-1cc1-4136-a957-b36423c13730"
 />
 
 # Problems configuring and signing in with Azure AD Seamless Single Sign-on
