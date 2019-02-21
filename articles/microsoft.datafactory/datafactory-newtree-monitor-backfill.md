@@ -23,8 +23,7 @@ We strongly recommend you to use __Tumbling Window Triggers__ to backfill data, 
 
 ## **Recommended Documents**
 
-Create a trigger that runs a pipeline on a tumbling window [Document](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger), including following sections: <br>
-
+* [Create a trigger that runs a pipeline on a tumbling window](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger)
 * [UI](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger#data-factory-ui) <br>
 * [Trigger Type Properties](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger#tumbling-window-trigger-type-properties) <br>
 * [Sample](https://docs.microsoft.com/azure/data-factory/how-to-create-tumbling-window-trigger#sample-for-azure-powershell) <br>
