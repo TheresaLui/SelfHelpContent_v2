@@ -4,13 +4,14 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32454934,32549156,32549163"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="03786352-cd59-4e62-ae27-2aa6921bc009"
 />
 
 # I need to cancel my subscription

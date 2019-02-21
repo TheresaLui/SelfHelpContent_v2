@@ -10,6 +10,7 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="fdae411c-7719-4070-9afb-725bfcecf1d3"
 />
 # Azure Backup SQL Backup performance
 ## **Recommended Steps**

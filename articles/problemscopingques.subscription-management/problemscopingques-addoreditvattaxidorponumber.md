@@ -2,7 +2,7 @@
 	pageTitle="Add or Edit VAT TAX ID or PO Number"
 	description="Add or Edit VAT TAX ID or PO Number"
 	articleId="addoreditvattaxidorponumber"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454917"

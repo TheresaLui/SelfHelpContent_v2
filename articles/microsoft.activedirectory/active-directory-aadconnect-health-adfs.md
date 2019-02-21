@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785,16579"
 	cloudEnvironments="public"
+	articleId="f50978b3-d063-4265-aac5-ed839f44856b"
 />
 
 # Connect Health for AD FS

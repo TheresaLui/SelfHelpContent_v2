@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16577"
     cloudEnvironments="public"
-    />
+    	articleId="4e90e287-f12d-491e-bbde-bafbbb54f813"
+/>
 
 # Azure AD Sign-in logs
 

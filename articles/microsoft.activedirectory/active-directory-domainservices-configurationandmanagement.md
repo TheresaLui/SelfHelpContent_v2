@@ -8,6 +8,7 @@
 	supportTopicIds="32447390"
 	productPesIds="14785,16576"
 	cloudEnvironments="public"
+	articleId="c3419b72-87b0-4d48-b2da-fe2b009cd8b8"
 />
 
 

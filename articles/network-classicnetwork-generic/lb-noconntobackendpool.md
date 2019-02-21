@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="8deb7553-0965-45d3-a66d-895655a50a6b"
 />
 
 # No connectivity to backend pool

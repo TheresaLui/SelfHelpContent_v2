@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="03905ebe-c243-4c0d-ad0f-f33720a11133"
 />
 
 # Azure Automation - Runbook Development

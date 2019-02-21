@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake"
+	articleId="e6c363fc-ee76-4afb-8278-bbb74b17051e"
 />
 
 # Recover deleted storage account

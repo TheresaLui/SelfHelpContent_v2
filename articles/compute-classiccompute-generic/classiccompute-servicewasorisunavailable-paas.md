@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="dcecb8b3-aa26-4eea-8da7-5c1b2e4b3c88"
 />
 
 # worker role (paas)/application and service availability/service was or is unavailable

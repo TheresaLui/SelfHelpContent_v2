@@ -7,6 +7,7 @@
 	supportTopicIds="32581617"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="225b9a98-9705-4910-8a40-05cfe63430f4"
 />
 
 # Metrics are not available or are incorrect

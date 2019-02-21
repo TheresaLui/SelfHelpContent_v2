@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="15eef7f7-b3dc-43dc-ab34-2560e60d8ef6"
 />
 
 # configurationandsetup/configwaf

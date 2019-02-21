@@ -8,6 +8,7 @@
     supportTopicIds="32586794"
     productPesIds="16578"
     cloudEnvironments="public"
+	articleId="a864c970-4787-4cc0-ad47-ef2c5ac18f7b"
 />
 
 # Other questions about managing groups

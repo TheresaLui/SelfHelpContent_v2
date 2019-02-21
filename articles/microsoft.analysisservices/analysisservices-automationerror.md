@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a05e714c-6dbb-45a2-93d7-1516845ee340"
 />
 
 # Azure automation error when processing AS server

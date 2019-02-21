@@ -2,7 +2,7 @@
 	pageTitle="Switch to Another Offer"
 	description="Switch to Another Offer"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454938"
 	productPesIds="15660"

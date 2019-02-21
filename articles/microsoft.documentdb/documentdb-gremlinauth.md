@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="5845f31f-a927-44e2-9277-030f1bce88a2"
 />
 # Connecting and authenticating with Gremlin API
 

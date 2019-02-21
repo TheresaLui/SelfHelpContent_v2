@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="16326"
 	cloudEnvironments="public"
+	articleId="aa39b07f-930f-48fe-8c8c-3802f030fd75"
 />
 
 # Container Instances

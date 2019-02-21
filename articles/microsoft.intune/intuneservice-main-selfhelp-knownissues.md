@@ -10,6 +10,7 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="52491280-aeaa-4b8d-af78-49cc921fc277"
 />
 
 # Is there a list of Intune Issues?

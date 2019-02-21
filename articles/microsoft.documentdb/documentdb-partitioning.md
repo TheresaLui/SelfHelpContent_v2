@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
-	authoralias="rnagpal"
+	ms.author="rnagpal"
 	displayOrder="110"
 	selfHelpType="resource"
 	supportTopicIds="32597547,32597546"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="9989dbf9-10fc-4801-b00d-a15d850389bf"
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="caeb6332-c4c4-4195-b5c6-3be96c0889f0"
 />
 
 # configure on-premises vpn devices

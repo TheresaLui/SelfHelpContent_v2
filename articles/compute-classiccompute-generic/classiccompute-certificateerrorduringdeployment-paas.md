@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="0f083013-897d-4846-9532-2074788f5999"
 />
 
 # worker role (paas)/Deployment/Certificate Error During Deployment

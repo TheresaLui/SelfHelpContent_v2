@@ -8,7 +8,8 @@
     supportTopicIds="32596856"
     productPesIds="14785,16575"
     cloudEnvironments="public"
-    />
+    	articleId="fe213024-d500-4e56-aff1-bae56d08ff3b"
+/>
 
 # Issues that are related to signing in to proxy applications
 

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16355"
     cloudEnvironments="public"
+	articleId="835e528b-a59b-45b7-a42c-7698e0936b72"
 />
 # Test DDoS mitigation
 ## **Recommended steps**
