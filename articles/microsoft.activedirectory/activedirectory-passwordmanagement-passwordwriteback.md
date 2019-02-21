@@ -4,13 +4,14 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="zhchia"
+    ms.author="zhchia"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32565598"
+    supportTopicIds="32565598,32629794"
     resourceTags=""
-    productPesIds="14785,16579"
+    productPesIds="16579,16666"
     cloudEnvironments="public"
-    	articleId="87cc194f-57ea-49bc-a135-941b17ad4c4b"
+    articleId="87cc194f-57ea-49bc-a135-941b17ad4c4b"
 />
 
 # I'm having a problem with password writeback
