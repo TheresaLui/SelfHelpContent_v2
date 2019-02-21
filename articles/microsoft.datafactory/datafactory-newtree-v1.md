@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-There are _non-trivial_ differences between ADF V1 and ADF V2. Please make sure to use [_Data Factory V1 Documentation_](https://docs.microsoft.com/azure/data-factory/v1/data-factory-introduction) for V1 related questions. Thank you so much!
+There are _non-trivial_ differences between ADF V1 and ADF V2. Please make sure to use [**Data Factory V1 Documentation**](https://docs.microsoft.com/azure/data-factory/v1/data-factory-introduction) for V1 related questions.
