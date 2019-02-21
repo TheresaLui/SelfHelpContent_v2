@@ -96,7 +96,7 @@
 			"order": 700,
 			"controlType": "infoblock",
 			"content": "Ensure your application is using a login timeout of at least 15 seconds.  Also confirm that the database is not hitting the <a href='https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu'>limits</a> of your selected service tier."
-		}, {		{
+		}, {
 			"id": "problem_description",
 			"order": 1000,
 			"controlType": "multilinetextbox",
