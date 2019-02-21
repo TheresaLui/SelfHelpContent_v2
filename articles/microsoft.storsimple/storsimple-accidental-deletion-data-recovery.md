@@ -18,8 +18,7 @@
 
 # Accidental deletion and Data Recovery 
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-[Restore a StorSimple volume from a backup set](https://docs.microsoft.com/azure/storsimple/storsimple-8000-restore-from-backup-set-u2)<br>
-[Use the StorSimple Device Manager service in Azure portal to clone a volume](https://docs.microsoft.com/azure/storsimple/storsimple-8000-clone-volume-u2)
+* [Restore a StorSimple volume from a backup set](https://docs.microsoft.com/azure/storsimple/storsimple-8000-restore-from-backup-set-u2)<br>
+* [Use the StorSimple Device Manager service in Azure portal to clone a volume](https://docs.microsoft.com/azure/storsimple/storsimple-8000-clone-volume-u2)
