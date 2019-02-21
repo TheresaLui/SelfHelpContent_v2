@@ -20,6 +20,7 @@ Azure Stack Virtual Machines (VM) images have default network settings that can 
 
 1. [Optimize network throughput for a virtual machine operating system](https://docs.microsoft.com/azure/virtual-network/virtual-network-optimize-network-bandwidth)
 2. [Test network throughput for a virtual machine](https://docs.microsoft.com/azure/virtual-network/virtual-network-bandwidth-testing)
+3. Review common issues with [IP address types and allocation methods in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
 
 ## **Recommended documents**
 

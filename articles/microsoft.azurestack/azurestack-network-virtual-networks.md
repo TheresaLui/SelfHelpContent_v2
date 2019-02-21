@@ -28,3 +28,4 @@ Azure Stack networking has many of the services provided by Azure networking. Ho
 
 1. [Azure Stack Networking Services](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-overview)
 2. [Azure Stack Networking Differences](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+3. [IP address types and allocation methods in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
