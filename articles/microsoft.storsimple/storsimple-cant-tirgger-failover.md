@@ -19,9 +19,9 @@
 # Can't trigger failover 
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Failover and disaster recovery for your StorSimple 8000 series device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-disaster-recovery)<br>
-[Fail over to a StorSimple 8000 series physical device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-physical-device)<br>
-[Fail over to your StorSimple Cloud Appliance](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-cloud-appliance)<br>
-[Fail over your StorSimple physical device to same device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers)<br>
+* [Failover and disaster recovery for your StorSimple 8000 series device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-disaster-recovery)<br>
+* [Failover to a StorSimple 8000 series physical device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-physical-device)<br>
+* [Failover to your StorSimple Cloud Appliance](https://docs.microsoft.com/azure/storsimple/storsimple-8000-device-failover-cloud-appliance)<br>
+* [Failover your StorSimple physical device to same device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers)<br>
