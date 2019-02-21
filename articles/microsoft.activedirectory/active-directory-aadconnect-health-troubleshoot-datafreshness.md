@@ -3,7 +3,8 @@
 	description="Azure AD Connect Health self help"
 	service="microsoft.aad"
 	resource="Microsoft_Azure_ADHybridHealth"
-	authors="zhiweiw"
+	authors="zhiweiwangmsft"
+	ms.author="zhiweiw"
 	displayOrder="200"
 	selfHelpType="resource"
 	cloudEnvironments="public"
@@ -15,4 +16,4 @@
 [How to troubleshoot Health service data not up to date alert](https://aka.ms/aadhealth/datafreshness)
 
 ## **Recommended documents**
-* [Common installation questions](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-faq#installation-questions)
+* [Common installation questions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-health-faq#installation-questions)
