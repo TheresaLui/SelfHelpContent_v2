@@ -4,13 +4,14 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="billmath"
+  ms.author="billmath"
   displayOrder=""
   selfHelpType="generic"
-  supportTopicIds="32596862"
+  supportTopicIds="32596862,32629769"
   resourceTags="aadconnect,aadconnect_pass_through_authentication,managed_authentication"
-  productPesIds="14785,16579"
+  productPesIds="14785,16579,16666"
   cloudEnvironments="public"
-	articleId="5e0305b5-a7a4-43d7-bd00-aa3bf679ca91"
+  articleId="5e0305b5-a7a4-43d7-bd00-aa3bf679ca91"
 />
 
 # Problems configuring and signing in with Azure AD Pass-through Authentication
