@@ -7,7 +7,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	displayOrder="6"
-	articleId=""
+	articleId="bb90be20-446f-4995-91f4-f9e62808ea7f"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32629463"
@@ -20,9 +20,8 @@
 
 ## **Recommended Steps**
 
-- Please refer to [Data Store Connectors](https://docs.microsoft.com/azure/data-factory/copy-activity-overview#supported-data-stores-and-formats) for Linked Service configuration guide <br>
-- For on-prem network, please ensure white-listing of following [IP addresses](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-configurations-and-whitelisting-ip-address-of-gateway)
-
+* Please refer to [Data Store Connectors](https://docs.microsoft.com/azure/data-factory/copy-activity-overview#supported-data-stores-and-formats) for Linked Service configuration guide <br>
+* For on-prem network, please ensure white-listing of following [IP addresses](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-configurations-and-whitelisting-ip-address-of-gateway)
 
 ## **Recommended Documents**
 

@@ -24,8 +24,8 @@
 	- For end users: [Download and install the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/install-client-app)
 	- For administrators: [Install the Azure Information Protection client for users](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install)
 	
-3. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 4. If you have problems installing the client itself, locate the %temp% folder and provide the client installation log files that start with "Microsoft_Azure_Information_Protection_XXXXXXXXXX.log"
+5. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ### Export Azure Information Protection logs
 

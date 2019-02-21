@@ -4,6 +4,7 @@
                 service="microsoft.recoveryservices"
                 resource="vaults"
                 authors="srinathvasireddy"
+		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
                 supportTopicIds="32605796"
@@ -17,4 +18,4 @@
 
 ## **Recommended Documents**
 
-**For Restore Performance issues**
+* [Prerequisite before triggering a restore](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#pre-requisite-before-triggering-a-restore)
