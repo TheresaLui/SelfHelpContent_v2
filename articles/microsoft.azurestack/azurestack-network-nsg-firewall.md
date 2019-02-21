@@ -24,5 +24,5 @@
 
 ## **Recommended documents**
 
-* [Azure Security Group Overview](https://docs.microsoft.com/azure/virtual-network/security-overview)
 * [Considerations for Azure Stack networking](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Azure Security Group Overview](https://docs.microsoft.com/azure/virtual-network/security-overview)
