@@ -14,6 +14,7 @@
 	articleId="a62e01be-d188-4e8b-8c41-85d1ba61e66d"
 />
 
+# This is a dummy article for Azure Database for MySQL servers for demo purpose
 
 User permissions for database user are managed through the MySQL built-in user management capabilities. Please note that super user acess cannot be granted in the managed service. For more information on how to manage users and roles in MySQL, please refer to the public MySQL community edition documentation for the MySQL version you are using.
 
