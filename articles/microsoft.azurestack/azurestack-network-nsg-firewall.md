@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack User Environment NSG and Firewall"
-    description="Azure Stack User Environment NSG and Firewall"
+    pageTitle="Azure Stack User Environment NSG"
+    description="Azure Stack User Environment NSG"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,6 +14,16 @@
     articleId="azurestack-network-nsg-firewall"
 />
 
-# Azure Stack User Environment Firewall
+# Azure Stack Network Security Groups (NSG)
 
-TODO: Write content for tenant NSG in user environment
+## **Recommended steps**
+
+1. Review [Network Security Group service differences on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+2. Filter network traffic with a [network security group using the Azure Portal](https://docs.microsoft.com/azure/virtual-network/tutorial-filter-network-traffic)
+3. Or filter network traffic with a [network security group using the Azure CLI](https://docs.microsoft.com/azure/virtual-network/tutorial-filter-network-traffic-cli)
+4. Then [create, change, or delete a network security group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group)
+
+## **Recommended documents**
+
+* [Azure Security Group Overview](https://docs.microsoft.com/azure/virtual-network/security-overview)
+* [Considerations for Azure Stack networking](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
