@@ -14,13 +14,14 @@
     articleId="azurestack-network-perf"
 />
 
-# Azure Stack Network Performance or Packet Loss
+# Azure Stack Network Performance
 
-The Azure Stack solution requires a resilient and highly available physical infrastructure to support its operation and services. Uplinks from ToR to Border switches are limited to SFP+ or SFP28 media and 1 GB, 10 GB, or 25 GB speeds. Check with your original equipment manufacturer (OEM) hardware vendor for availability.<br>
+Azure Stack Virtual Machines (VM) images have default network settings that can be further optimized for network throughput. Try optimizing and testing network throughput to determine if performance issues are caused by VM operating system.
 
-SEe 
+1. [Optimize network throughput for a virtual machine operating system](https://docs.microsoft.com/azure/virtual-network/virtual-network-optimize-network-bandwidth)
+2. [Test network throughput for a virtual machine](https://docs.microsoft.com/azure/virtual-network/virtual-network-bandwidth-testing)
 
 ## **Recommended documents**
 
-* [Network connectivity](https://docs.microsoft.com/azure/azure-stack/azure-stack-network#network-infrastructure)
-* https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput
+* Azure Stack Infrastructure [Network Connectivity](https://docs.microsoft.com/azure/azure-stack/azure-stack-network#network-infrastructure)
+* [Expected network throughput](https://docs.microsoft.com/azure/virtual-network/virtual-machine-network-throughput#expected-network-throughput) for Azure Virtual Machines
