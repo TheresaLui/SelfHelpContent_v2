@@ -17,10 +17,9 @@
 
 ## **Recommended Documents**
 
-* Monitor Azure Integration Runtime [Document](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime#azure-integration-runtime) <br>
-
-* Monitor Self-hosted Integration Runtime [Document](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime#self-hosted-integration-runtime) <br>
-
+* [Monitor Azure Integration Runtime](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime#azure-integration-runtime)
+* [Monitor Self-hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime#self-hosted-integration-runtime) <br>
 * Monitor and Reconfigure Azure-SSIS Integration Runtime: <br>
+
   * [Monitor](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime#azure-ssis-integration-runtime) <br>
   * [Reconfigure](https://docs.microsoft.com/azure/data-factory/manage-azure-ssis-integration-runtime) <br>
