@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_GuestOSCrach_Generic"
 	diagnosticScenario="UnexpectedVMReboot"

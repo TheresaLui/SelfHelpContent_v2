@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_RCA-Container_shutdown-E17_Network_Failure"
 	diagnosticScenario="UnexpectedVMReboot"
