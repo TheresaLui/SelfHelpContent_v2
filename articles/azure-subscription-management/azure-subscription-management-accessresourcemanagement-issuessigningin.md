@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
-	articleId="issuessigninginoraccessingmysubscription"
+	articleId="accessandresourcemanagementissuessigninginoraccessingmysubscription"
 />
 
 # issues signing in or accessing my subscription
