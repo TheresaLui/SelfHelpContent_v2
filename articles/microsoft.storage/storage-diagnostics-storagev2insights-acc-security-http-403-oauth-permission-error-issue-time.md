@@ -5,6 +5,8 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="annayak"
+ms.author="annayak"
+ms.author="annayak"
 displayOrder=""
 articleId="storagev2insights_acc_security_http_403_oauth_permission_error_issue_time"
 diagnosticScenario="health_diagnostic"
@@ -23,7 +25,13 @@ Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$R
 ## **Recommended steps** 
 
 Storage requests using RBAC to authenticate should pass an oAuth token with right permisions to perform the intended operation. You can find the current permission and the required permission for the user (OID) in the failure description. 
-1. Your Azure AD admin would be able to map the OID (GUID representing the user) to the the person (firstname,lastname) or virtual machine with MSI. 
+
+1. Your Azure AD admin would be able to map the OID (GUID representing the user) to either of the following. 
+
+    * The person (firstname,lastname) 
+    * The virtual machine with MSI 
+
 2. Your account admin needs to provide the required permissions to the user  by referring the links below. 
+
    * [Manage access rights to Azure Blob and Queue data with RBAC](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac)
    * [Authenticate with Azure Active Directory from an application for access to blobs and queues](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-app)

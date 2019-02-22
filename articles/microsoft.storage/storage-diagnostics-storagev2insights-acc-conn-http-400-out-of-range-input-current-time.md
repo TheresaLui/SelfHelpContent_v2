@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="annayak"
+ms.author="annayak"
 displayOrder=""
 articleId="Storagev2insights_acc_conn_HTTP_400_OutOfRangeInput_currentTime"
 diagnosticScenario="health_diagnostic"
@@ -17,7 +18,8 @@ cloudEnvironments="public"
 
 # One or more parameters in the storage request was out of range. 
 <!--issueDescription-->
-We found an **_OutOfRangeInput_** error, caused when one of the request parameter is out of range, at a much recent time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest. Unfortunately we couldn't find any requests resulting in **_OutOfRangeInput_** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect or it's beyond the retention period of storage logs.<br><br> Sample list of requests that failed:<br>**<!--$IP_Parameter_Error_RequestUrl-->[IP_Parameter_Error_RequestUrl]<!--/$IP_Parameter_Error_RequestUrl-->**
+We found an **_OutOfRangeInput_** error, caused when one of the request parameter is out of range, at a much recent time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest. Unfortunately we couldn't find any requests resulting in **_OutOfRangeInput_** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect or it's beyond the retention period of storage logs.<br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->** 
+
 <!--/issueDescription-->
 
 Request parameters like api-version and date are a common cause of this error. 
