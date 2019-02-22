@@ -16,13 +16,12 @@
 
 # issues signing in or accessing my subscription
 
-**Unable to Sign-in Azure?** <br>
+### Unable to Sign-in Azure
 
 You may experience an issue when you try to sign in the Microsoft Azure portal or Azure account center.<br>
 
-To help troubleshoot refer: [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)<br>
-
-To help troubleshoot Subscriptions issue refer : [Troubleshoot No Subscriptions found](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found)<br>
+* [Troubleshoot Sign-in Issues](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)<br>
+* [Troubleshoot No Subscriptions found](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found)<br>
 
 
 ## **Recommended Documents**
