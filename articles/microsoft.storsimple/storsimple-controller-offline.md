@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Controller is offline on the portal"
 	description="Controller is offline on the portal troubleshooting"
-	infoBubbleText="See detailson the right"
+	infoBubbleText="See details on the right"
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="Archana-MSFT"
