@@ -24,15 +24,15 @@ Review the resources listed below to resolve your issue now.
 Some common error messages and resolution steps:
 <br/><br/>
   <ol>
-    <li>Device Cap Reached - The user has more devices enrolled than the device limit. Review these documents to <a href="https://docs.microsoft.com/intune/devices-wipe" target="_blank">remove a device<a/> or <a href="https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-limit-restrictions" target="_blank">change the device limit<a/>.</li>
-    <li>This Service is not supported. No Enrollment Policy - Apple Push Notification Service (APNS) needs to be configured or renewed. Review <a href="https://docs.microsoft.com/intunea/pple-mdm-push-certificate-get" target="_blank">this document<a/> for instructions on how to do that.</li>
-    <li>User License Type Invalid or User Name Not Recognized - The user needs to be assigned an Intune or EMS license. Review these documents to assign a license through: <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">Office Admin Center<a/> or <a href="https://docs.microsoft.coma/zurea/ctive-directory/license-users-groups" target="_blank">Azure portal<a/></li>
+    <li>Device Cap Reached - The user has more devices enrolled than the device limit. Review these documents to <a href="https://docs.microsoft.com/intune/devices-wipe" target="_blank">remove a device</a> or <a href="https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-limit-restrictions" target="_blank">change the device limit</a>.</li>
+    <li>This Service is not supported. No Enrollment Policy - Apple Push Notification Service (APNS) needs to be configured or renewed. Review <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get" target="_blank">this document</a> for instructions on how to do that.</li>
+    <li>User License Type Invalid or User Name Not Recognized - The user needs to be assigned an Intune or EMS license. Review these documents to assign a license through: <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">Office Admin Center</a> or <a href="https://docs.microsoft.com/azure/active-directory/license-users-groups" target="_blank">Azure portal<a/></li>
   </ol>
 <br/>
 	Additional resources to help resolve your issue:
   <ol>    
-    <li>Use <a href="https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/TroubleshootBlade">Intune Troubleshooting Portal<a/> to diagnose and resolve common enrollment failures. Review <a href="https://docs.microsoft.com/intune/help-desk-operators" target="_blank">this document<a/> for more details.</li>
-    <li>Review these documents for a list of common errors that prevent enrollment and resolutions to each: <a href="https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune" target="_blank">Troubleshooting guide<a/> and <a href="https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune" target="_blank">Troubleshooting doc<a/>.</li>
-    <li><a href="https://docs.microsoft.com/intune/ios-enroll" target="_blank">Learn how to enroll iOS devices in Microsoft Intune<a/>.</li>
+    <li>Use <a href="https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/TroubleshootBlade">Intune Troubleshooting Portal</a> to diagnose and resolve common enrollment failures. Review <a href="https://docs.microsoft.com/intune/help-desk-operators" target="_blank">this document</a> for more details.</li>
+    <li>Review these documents for a list of common errors that prevent enrollment and resolutions to each: <a href="https://support.microsoft.com/help/4039809/troubleshooting-ios-device-enrollment-in-intune" target="_blank">Troubleshooting guide</a> and <a href="https://docs.microsoft.com/intune-classic/troubleshoot/troubleshoot-device-enrollment-in-intune" target="_blank">Troubleshooting doc</a>.</li>
+    <li><a href="https://docs.microsoft.com/intune/ios-enroll" target="_blank">Learn how to enroll iOS devices in Microsoft Intune</a>.</li>
   </ol>
 </div>
