@@ -3,9 +3,10 @@
 	description="I need a copy of my bill or usage"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
+	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder="1"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32454862"
 	resourceTags=""
 	productPesIds="15659"
@@ -15,7 +16,7 @@
 
 # I need a copy of my bill or usage
 
-## **Recommended steps**
+## **Recommended Steps**
 
 You can download your invoice or have it sent in email<br>
 
@@ -44,8 +45,7 @@ Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/
 [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
 
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 * [Why was I charged? Understand your Azure bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
