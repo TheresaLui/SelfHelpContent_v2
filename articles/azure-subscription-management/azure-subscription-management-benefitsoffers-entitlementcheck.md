@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
-	articleId="entitlementcheck"
+	articleId="benefitsoffersentitlementcheck"
 />
 
 # entitlement check
