@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
-	articleId="otherissueswithoffersandbenefits"
+	articleId="benefitsoffersotherissueswithoffersandbenefits"
 />
 
 # other issues with offers and benefits
