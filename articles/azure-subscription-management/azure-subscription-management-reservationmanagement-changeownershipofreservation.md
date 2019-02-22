@@ -22,13 +22,13 @@ Once Azure Reservation has been purchased, you might need to apply the reservati
 
 **How to  Add or change users who can manage a reservation ?** <br>
 You can delegate management of a reservation by adding people to roles on the reservation. By default, the person that bought the reservation and the account administrator have the Owner role on the reservation.<br>
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Select **All Services > Reservation** to list reservations that you have access to.
-3. Select the reservation that you want to delegate access to other users.
-4. Select **Access control (IAM).**
-5. Select **Add role assignment > Role > Owner**. Or, if you want to give limited access, select a different role.
-6. Type the email address of the user you want to add as owner.
-7. Select the user, and then select **Save**.
+1. Sign in to the [Azure portal](https://portal.azure.com/).<br>
+2. Select **All Services > Reservation** to list reservations that you have access to.<br>
+3. Select the reservation that you want to delegate access to other users.<br>
+4. Select **Access control (IAM).**<br>
+5. Select **Add role assignment > Role > Owner**. Or, if you want to give limited access, select a different role.<br>
+6. Type the email address of the user you want to add as owner.<br>
+7. Select the user, and then select **Save**.<br>
 
 Learn more : [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
 
