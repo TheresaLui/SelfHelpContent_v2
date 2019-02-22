@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="licensing/changing sql licensing model"
 	description="licensing/changing sql licensing model"
 	service="microsoft.compute"
@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32593728"
 	resourceTags="WindowsSQL"
-	productPesIds="14745"​
+	productPesIds="14745"
 	cloudEnvironments="public"
 />
 
