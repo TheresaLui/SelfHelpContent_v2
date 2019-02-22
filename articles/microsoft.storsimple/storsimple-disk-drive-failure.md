@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Disk drive failure or local storage is degraded state"
 	description="Disk drive failure or local storage is degraded state troubleshooting"
-	infoBubbleText="See detailson the right"
+	infoBubbleText="See details on the right"
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="Archana-MSFT"
