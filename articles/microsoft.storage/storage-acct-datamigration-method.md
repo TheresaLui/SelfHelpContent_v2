@@ -1,9 +1,10 @@
 <properties
 	pageTitle="How to find the right data migration method"
-  description="How to find the right data migration method"
+  	description="How to find the right data migration method"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="sijia"
+	ms.author="siz"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32631235"
