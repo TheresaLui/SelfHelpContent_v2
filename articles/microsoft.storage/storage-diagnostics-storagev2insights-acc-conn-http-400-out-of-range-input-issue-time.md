@@ -18,21 +18,24 @@ cloudEnvironments="public"
 
 # One or more parameters in the storage request was out of range. 
 <!--issueDescription-->
-Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** failed as one of the request parameters was out of range between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. <br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->**
+Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** failed, as one of the request parameters was out of range between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. <br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->**
 <!--/issueDescription-->
 
-There might be more client IPs for which requests were blocked, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
+There may be more client IPs for which requests were blocked. To view the complete list, follow the steps to review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-## **Recommended steps** 
+## **Recommended Steps** 
 
-Storage request parameters should have valid value. To resolve this issue, perform the following steps:
+Storage request parameters should have valid value. 
 
-1. Refer below articles to specify a valid value for the request paramters found to be out of range above. 
+1. Refer below articles to specify a valid value for the request paramters found to be out of range above:
 
    * [Request Headers](https://docs.microsoft.com/rest/api/storageservices/get-blob-service-properties#request-headers)
    * [Specifying Headers](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
 
-2. Parameters like date and api-version are a common cause of the error. 
+2. Parameters like date and api-version are a common cause of the error:
 
-   * [Azure storage service version](https://docs.microsoft.com/rest/api/storageservices/versioning-for-the-azure-storage-services) - It is a required parameter. Microsoft Azure storage services support multiple versions. To make a request against the storage services, you must specify the version that you want to use for that operation, unless the request is anonymous. Refer [Previous Azure Storage service versions](https://docs.microsoft.com/rest/api/storageservices/previous-azure-storage-service-versions) for older versions of the API.
-   * Date - It's a required parameter. Specify the date in Coordinated Universal Time (UTC) for the request. 
+   * [Azure storage service version](https://docs.microsoft.com/rest/api/storageservices/versioning-for-the-azure-storage-services) is a required parameter. Microsoft Azure storage services support multiple versions. To make a request against the storage services, you must specify the version that you want to use for that operation, unless the request is anonymous. Refer [Previous Azure Storage service versions](https://docs.microsoft.com/rest/api/storageservices/previous-azure-storage-service-versions) for older versions of the API.
+   * Date is a required parameter. Specify the date in Coordinated Universal Time (UTC) for the request.
+   
+   
+   
