@@ -3,9 +3,10 @@
 	description="I need to change the payment method"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
-	displayOrder="3"
-	selfHelpType="resource"
+	authors="prdasneo"
+	ms.author="prdasneo"
+	displayOrder="1"
+	selfHelpType="generic"
 	supportTopicIds="32454858"
 	resourceTags=""
 	productPesIds="15659"
@@ -15,7 +16,7 @@
 
 # I need to change the payment method
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).
 
@@ -29,7 +30,7 @@ If you want to update payment method to 'invoice' (direct debit), please open a 
 
 5. If you get an error after you add the credit card, see [Credit card declined at Azure sign-up](https://support.microsoft.com/help/4042960/troubleshoot-why-your-debit-card-or-credit-card-is-declined-at-azure-s)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
 * [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)<br>
