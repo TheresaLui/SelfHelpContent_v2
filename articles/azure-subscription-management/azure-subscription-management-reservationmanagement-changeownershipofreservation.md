@@ -21,7 +21,9 @@
 Once Azure Reservation has been purchased, you might need to apply the reservation to a different subscription, change who can manage the reservation, or change the scope of the reservation. You could also split a reservation into two reservations to apply some of the instances you bought to another subscription <br>
 
 **How to  Add or change users who can manage a reservation ?** <br>
+
 You can delegate management of a reservation by adding people to roles on the reservation. By default, the person that bought the reservation and the account administrator have the Owner role on the reservation.<br>
+
 1. Sign in to the [Azure portal](https://portal.azure.com/).<br>
 2. Select **All Services > Reservation** to list reservations that you have access to.<br>
 3. Select the reservation that you want to delegate access to other users.<br>
