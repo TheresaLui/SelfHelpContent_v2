@@ -12,7 +12,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630505"
 	resourceTags="8000Series"
-	productPesIds="15438"​
+	productPesIds="15438"
 	cloudEnvironments="public"
 />
 
@@ -21,5 +21,5 @@
 
 ## **Recommended documents**
 
-[Replace a Power and Cooling Module on your StorSimple device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-power-cooling-module-replacement)<br>
-[Replace the backup battery module on your StorSimple device](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-battery-replacement)
+[Replace a Power and Cooling Module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-power-cooling-module-replacement)<br>
+[Replace the backup battery module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-battery-replacement)
