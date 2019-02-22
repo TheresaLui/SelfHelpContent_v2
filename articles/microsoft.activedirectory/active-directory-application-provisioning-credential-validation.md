@@ -2,12 +2,14 @@
 	pageTitle="Problems with credential validation while configuring user provisioning to an application"
 	description="Problems with credential validation while configuring user provisioning to an application"
 	infoBubbleText="Problems with credential validation while configuring user provisioning to an application"
-	service="microsoft.aad"
-	resource="Microsoft_AAD_IAM"
+	service="microsoft.activedirectory"
+	resource="activedirectory"
 	authors="asmalser-msft"
 	ms.author="asmalser"
-	selfHelpType="Resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32629761"
+	productPesIds="16666"
 	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
 	CloudEnvironments="Public"
 />
@@ -18,7 +20,7 @@ In order for automated user provisioning to work, Azure AD requires valid creden
 
 ## **Recommended Steps**
 
-1. First, confirm that you have met all of the pre-requisities for provisioning users to your application, have set up the administrative credentials in the app with the correct level of permissions, and that you are entering them into the Azure portal in the prescribed format. For more information, see the tutorial specific to your application at https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list.
+1. First, confirm that you have met all of the prerequisities for provisioning users to your application, have set up the administrative credentials in the app with the correct level of permissions, and that you are entering them into the Azure portal in the prescribed format. For more information, see the tutorial specific to your application at https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list.
 
 2. Next, check to ensure any public endpoint URLs you are entering in the portal are valid. Open a web browser, and browse to the URL you are entering. If the web browser returns an HTTP 404 "Not Found" response, then the URL is likely invalid and the Azure AD user provisioning will not be able to connect to it either.
 
