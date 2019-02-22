@@ -37,7 +37,7 @@ If your current Account Admin has left and you need to take over ownership, plea
 * The Account and its subscriptions must continue to be "consumed" in the same country
 * If you are Azure customer from Australia/New Zealand, you cannot migrate subscription outside of your Region, nor can any Account/Subscription be migrated into your region
 * The destination subscription must have a valid payment instrument <br>
-* If transfering Subscription Ownership to a different tenant than the original, the new Account Admin also be the new Service Admin
+* If transferring Subscription Ownership to a different tenant than the original, the new Account Admin will also be the new Service Admin
 * We cannot perform Subscription Ownership Transfer if the subscription has charges already in dunning, Delay Write-off, or Write-off on the source account. You need to pay the charges before we perform the Subscription Ownership Transfer.
 * There is no loss of data and downtime, however, AAD services will be affected and you will need to move those services on your own. The list of services can be found [here](https://docs.microsoft.com/azure/active-directory/active-directory-apps-index).<br>
 * If Subscription has Invoice Mode of Payment as Payment method, you cannot proceed with Subscription Ownership Transfer
