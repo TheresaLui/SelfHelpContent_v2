@@ -18,6 +18,6 @@
 
 # Controller is offline on the portal 
 
-## **Recommended steps**
+## **Recommended Steps**
 
-[Use StorSimple monitoring indicators to identify if there is any fault LED lit on the controller](https://docs.microsoft.com/azure/storsimple/storsimple-monitoring-indicators)
+* [Use StorSimple monitoring indicators to identify if there is any fault LED lit on the controller](https://docs.microsoft.com/azure/storsimple/storsimple-monitoring-indicators)
