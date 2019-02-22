@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Power cooling module or battery is in failed or degraded state"
 	description="Power cooling module or battery is in failed or degraded state troubleshooting"
-	infoBubbleText="See detailson the right"
+	infoBubbleText="See details on the right"
 	service="microsoft.storsimple"
 	resource="managers"
 	authors="Archana-MSFT"
@@ -19,7 +19,7 @@
 # Power cooling module or battery is in failed or degraded state. 
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Replace a Power and Cooling Module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-power-cooling-module-replacement)<br>
-[Replace the backup battery module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-battery-replacement)
+* [Replace a Power and Cooling Module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-power-cooling-module-replacement)<br>
+* [Replace the backup battery module on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-battery-replacement)
