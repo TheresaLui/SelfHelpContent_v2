@@ -47,11 +47,11 @@ If the scope is changed from shared to single scope, only select subscriptions w
 
 ## **Recommended documents**
 
-* [Azure Reserved VM Instances (RIs) - FAQ](https://azure.microsoft.com/pricing/reserved-vm-instances/#faq)
-* [Azure Pricing ](https://azure.microsoft.com/pricing/reserved-vm-instances/)
-* [Azure Purchase FAQ ](https://azure.microsoft.com/pricing/faq/)
-* [Prepay for Virtual Machines with reserved instances ](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
-* [Understand how the reserved instance discount is applied ](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
+* [Azure Reserved VM Instances - FAQ](https://azure.microsoft.com/pricing/reserved-vm-instances/#faq)
+* [Azure Pricing](https://azure.microsoft.com/pricing/reserved-vm-instances/)
+* [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
+* [Prepay for Virtual Machines with reserved instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
+* [Understand how the reserved instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
 * [Save money on virtual machines with Azure Reserved Instances](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 * [Understand reserved instance usage for your Pay-As-You-Go subscription](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage)
 * [Understand reserved instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea)
