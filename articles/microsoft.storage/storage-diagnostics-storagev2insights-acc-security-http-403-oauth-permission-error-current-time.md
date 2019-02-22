@@ -16,10 +16,12 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# One or more parameters in the storage request was out of range. 
+# Connections to storage account endpoint were blocked due to insufficient permission in the oAuth token presented 
 <!--issueDescription-->
 We found some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that were blocked, as the permissions presented in oAuth bearer token were not sufficient for the operation performed, at a much recent time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest. Unfortunately we couldn't find oAuth token authorization failure reason for requests to **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect or it's beyond the retention period of storage logs.<br><br> Sample list of requests were blocked:<br>**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
 <!--/issueDescription-->
+
+There might be more client IPs for which requests were blocked, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 ## **Recommended steps** 
 

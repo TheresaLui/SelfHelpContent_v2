@@ -21,6 +21,8 @@ cloudEnvironments="public"
 Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** failed as one of the request parameters was out of range between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. <br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->**
 <!--/issueDescription-->
 
+There might be more client IPs for which requests were blocked, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
+
 ## **Recommended steps** 
 
 Storage request parameters should have valid value. To resolve this issue, perform the following steps:

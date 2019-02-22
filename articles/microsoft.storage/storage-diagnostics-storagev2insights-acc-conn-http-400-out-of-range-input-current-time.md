@@ -16,9 +16,11 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# One or more parameters in the storage request was out of range. 
+# One or more parameters in the storage request was out of range
 <!--issueDescription-->
 We found an **_OutOfRangeInput_** error, caused when one of the request parameter is out of range, at a much recent time **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** that might be of interest. Unfortunately we couldn't find any requests resulting in **_OutOfRangeInput_** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect or it's beyond the retention period of storage logs.<br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->** 
+
+There might be more failed requests, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 <!--/issueDescription-->
 

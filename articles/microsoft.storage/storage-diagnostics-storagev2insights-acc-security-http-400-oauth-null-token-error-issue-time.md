@@ -16,10 +16,12 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# One or more parameters in the storage request was out of range. 
+# Connections to storage account endpoint were blocked due to Null oAuth token
 <!--issueDescription-->
 Some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** as they had a Null oAuth bearer token. <br><br> Sample list of requests were blocked<br>**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
 <!--/issueDescription-->
+
+There might be more requests which were blocked, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
 Storage requests using RBAC to authenticate should pass a valid oAuth token with right permisions to perform the intended operation.
 
