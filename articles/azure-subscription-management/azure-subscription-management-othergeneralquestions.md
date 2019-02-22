@@ -27,7 +27,7 @@ _Note:_ If you want to upgrade your Azure subscription (such as switching from f
 - To change a pay-as-you-go account, see [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer).<br>
 - If you can't convert the subscription, [create an Azure support request](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request). Select Subscription Management for the issue type <br>
 
-**To get your invoice in email (.pdf)**	<br>
+**To get your invoice in email (.pdf)**<br>
 - Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).<br>
 - Click **Invoices** then Email my invoice. <br>
 - Click **opt in** and accept the terms. You will have to opt in for each subscription you own <br>
