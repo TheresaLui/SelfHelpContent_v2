@@ -16,27 +16,22 @@
 
 # issues with purchase, signup or upgrade for azure subscriptions
 
-[Azure subscriptions](https://docs.microsoft.com/azure/architecture/aws-professional/) are a grouping of resources with an assigned owner responsible for billing and permissions management. Subscriptions exist independently of their owner accounts, and can be reassigned to new owners as needed. Learn more on Offers : [Azure Offers](https://azure.microsoft.com/support/legal/offer-details/)<br>
-
-[Azure Services](https://azure.microsoft.com/services/) is an example of a platform as a service (PaaS). It is designed to support applications that are scalable, reliable, and inexpensive to operate.<br>
-
-[Azure Marketplace](https://azuremarketplace.microsoft.com/) is a the premier destination for all  software needs - certified and optimized to run on Azure.<br>
-
-Learn more : [Azure marketplace apps](https://azuremarketplace.microsoft.com/marketplace/apps)<br>
+* [Azure subscriptions](https://docs.microsoft.com/azure/architecture/aws-professional/) are a grouping of resources with an assigned owner responsible for billing and permissions management. Subscriptions exist independently of their owner accounts, and can be reassigned to new owners as needed. [Azure Offers](https://azure.microsoft.com/support/legal/offer-details/)<br>
+* [Azure Services](https://azure.microsoft.com/services/) is an example of a platform as a service (PaaS). It is designed to support applications that are scalable, reliable, and inexpensive to operate.<br>
+* [Azure Marketplace](https://azuremarketplace.microsoft.com/) is the premier destination for all software needs, certified and optimized to run on Azure. Learn more: [Azure marketplace apps](https://azuremarketplace.microsoft.com/marketplace/apps)<br>
 
 
-**Unable to Sign-up/Purchase Azure ?** <br>
+### Unable to Sign-up/Purchase Azure
 
 You may experience an issue when you try to sign up for a new account in the Microsoft Azure portal or Azure account center. Before you troubleshoot the issue, first consider the following suggestions:<br>
 
- * Make sure that the information that you provided for your Azure account profile (including contact email address, street address, and telephone number) is correct.<br>
- * Make sure that the credit card information is correct.<br>
- * Make sure that you don’t already have a Microsoft account that has the same information.<br>
+ * Make sure that the information that you provided for your Azure account profile (including contact email address, street address, and telephone number) is correct
+ * Make sure that the credit card information is correct
+ * Make sure that you don’t already have a Microsoft account that has the same information
 
-Learn more : [Troubleshoot Sign-up Issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)<br>
+Learn more: [Troubleshoot Sign-up Issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)<br>
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
