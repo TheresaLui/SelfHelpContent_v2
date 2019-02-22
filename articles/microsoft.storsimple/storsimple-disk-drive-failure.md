@@ -19,7 +19,7 @@
 # Disk drive failure or local storage in degraded state 
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Replace a disk drive on your StorSimple 8000 series device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-disk-drive-replacement)<br>
+* [Replace a disk drive on your StorSimple 8000 series device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-disk-drive-replacement)<br>
 
