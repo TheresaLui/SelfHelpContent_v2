@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="yareyes"
 	displayOrder=""
-    articleId="683e3eaa-2e14-4f6d-a7af-4573d29ca9f3"
+	articleId="683e3eaa-2e14-4f6d-a7af-4573d29ca9f3"
 	selfHelpType="generic"
 	supportTopicIds="32593738"
 	resourceTags="windowsSQL"
