@@ -16,7 +16,7 @@
 
 # Change scope of reservation
 
-## Recommended Steps
+## **Recommended Steps**
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **All services > Reservations**.
