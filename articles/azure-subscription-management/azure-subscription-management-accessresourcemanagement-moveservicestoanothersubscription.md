@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
-	articleId="moveservicestoanothersubscription"
+	articleId="accessandresourcemanagementmoveservicestoanothersubscription"
 />
 
 # how to move services to another subscription
