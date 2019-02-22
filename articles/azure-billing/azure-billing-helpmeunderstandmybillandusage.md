@@ -3,9 +3,10 @@
 	description="help me understand my bill and usage"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
-	displayOrder="2"
-	selfHelpType="resource"
+	authors="prdasneo"
+	ms.author="prdasneo"
+	displayOrder="1"
+	selfHelpType="generic"
 	supportTopicIds="32454860"
 	resourceTags=""
 	productPesIds="15659"
@@ -15,7 +16,7 @@
 
 # Help me understand my bill and usage
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade).<br>
 
@@ -28,10 +29,9 @@
 
 4. Learn how to prevent unexpected charges and control your costs : [Prevent unexpected charges](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * Set up billing or credit alerts to monitor and manage billing activity for your accounts: [Set up billing alerts](https://docs.microsoft.com/azure/billing/billing-set-up-alerts)
 * [Understand Azure spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 * Understand your Azure billing for external service charges : [How external services are billed](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
 * [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)
-
