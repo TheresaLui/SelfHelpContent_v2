@@ -17,8 +17,8 @@
 
 ## **Recommended Documents**
 
-- [How to save and configure your API Management service configuration using Git](https://docs.microsoft.com/en-us/azure/api-management/api-management-configuration-repository-git)
-- [Why do I get an authentication failure when I try to clone a Git repository?](https://docs.microsoft.com/en-us/azure/api-management/api-management-faq#why-do-i-get-an-authentication-failure-when-i-try-to-clone-a-git-repository)
+- [How to save and configure your API Management service configuration using Git](https://docs.microsoft.com/azure/api-management/api-management-configuration-repository-git)
+- [Why do I get an authentication failure when I try to clone a Git repository?](https://docs.microsoft.com/azure/api-management/api-management-faq#why-do-i-get-an-authentication-failure-when-i-try-to-clone-a-git-repository)
 
 
 
