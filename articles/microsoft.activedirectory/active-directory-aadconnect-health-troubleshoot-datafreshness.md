@@ -15,7 +15,7 @@
 
 ## **Recommended Steps**
 
-* [Troubleshoot Health service data not up to date alert](https://aka.ms/aadhealth/datafreshness)
+* [Troubleshoot "Health service data not up to date" alert](https://aka.ms/aadhealth/datafreshness)
 
 ## **Recommended Documents**
 
