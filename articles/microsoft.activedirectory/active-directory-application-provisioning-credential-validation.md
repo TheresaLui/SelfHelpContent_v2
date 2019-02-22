@@ -6,8 +6,10 @@
 	resource="Microsoft_AAD_IAM"
 	authors="asmalser-msft"
 	ms.author="asmalser"
-	selfHelpType="generic"
+	selfHelpType="Resource"
 	supportTopicIds="32629761"
+	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
+	CloudEnvironments="Public"
 />
 
 # Problems with credential validation while configuring user provisioning to an application
