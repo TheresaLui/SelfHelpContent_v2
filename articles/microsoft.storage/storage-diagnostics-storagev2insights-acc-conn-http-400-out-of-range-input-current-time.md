@@ -25,12 +25,15 @@ There might be more failed requests, to get the exhaustive list you should look 
 <!--/issueDescription-->
 
 Request parameters like api-version and date are a common cause of this error. 
+
    * Azure storage service version - It is a required parameter. Microsoft Azure storage services support multiple versions. To make a request against the storage services, you must specify the [storage service version](https://docs.microsoft.com/rest/api/storageservices/versioning-for-the-azure-storage-services) that you want to use for that operation, unless the request is anonymous. Refer [Previous Azure Storage service versions](https://docs.microsoft.com/rest/api/storageservices/previous-azure-storage-service-versions) for older versions of the API.
    * Date - It's a required parameter and you can specify it either in the standard HTTP/HTTPS Date header or in the x-ms-date header. Specify the date in [Coordinated Universal Time (UTC)](https://docs.microsoft.com/rest/api/storageservices/formatting-datetime-property-values) for the request. Storage service also ensures that a request is no older than 15 minutes by the time it reaches the service to prevent replay attacks. 
 
 ## **Recommended steps** 
 
 Storage request parameters should have valid value. To resolve this issue, perform the following steps:
-1. Refer below articles to specify a valid value for the request paramters found to be out of range above. 
-   * [Request Headers](https://docs.microsoft.com/rest/api/storageservices/get-blob-service-properties#request-headers)
+
+Refer below articles to specify a valid value for the request paramters found to be out of range above. 
+
+   * [Request Headers](https://docs.microsoft.com/rest/api/storageservices/get-blob-service-properties#request-headers)   
    * [Specifying Headers](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
