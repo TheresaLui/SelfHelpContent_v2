@@ -8,7 +8,7 @@
 	ms.author="asmalser"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629761"
+	supportTopicIds="32629761,32629801"
 	productPesIds="16666"
 	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
 	CloudEnvironments="Public"
