@@ -13,8 +13,10 @@
 />
 # Troubleshoot Health service data not up to date alert in Azure AD Connect Health
 
-## **Recommended steps**
-[How to troubleshoot Health service data not up to date alert](https://aka.ms/aadhealth/datafreshness)
+## **Recommended Steps**
 
-## **Recommended documents**
+* [Troubleshoot Health service data not up to date alert](https://aka.ms/aadhealth/datafreshness)
+
+## **Recommended Documents**
+
 * [Common installation questions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-health-faq#installation-questions)
