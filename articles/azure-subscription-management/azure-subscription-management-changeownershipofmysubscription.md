@@ -25,20 +25,20 @@ Learn more on [Add/Change Administrators](https://docs.microsoft.com/azure/billi
 Learn more on [Manage access using RBAC and Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)<br>
 
 
-**How to Change Ownership?**
+**How to Change Ownership?** <br>
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://ms.portal.azure.com/#).
 2. Select the subscription for which you want to transfer billing ownership.
 3. On the right side of the page, select **Transfer Subscription**.
 
 If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer.<br>
 
-**Subscription Ownership Transfer pre-requisites :** <br>
+**Subscription Ownership Transfer prerequisites :** <br>
 - Approval Email from Source Account Holder and Destination Account Holder confirming they accept this subscription ownership transfer.
-- The Account and its subscription(s) must continue to be "consumed" in the same country.
+- The Account and its subscriptions must continue to be "consumed" in the same country.
 - If you are Azure customer from Australia/New Zealand you cannot migrate subscription outside of your Region, nor can any Account/Subscription be migrated into your region.
 - The destination subscription must have a valid payment instrument 
 - Subscription Ownership Transfer to a different tenant than original, will have the new Account Admin also be the new Service Admin. 
-- We cannot perform Subscription Ownership Transfer if the subscription has charges already in dunning, DelayWriteOff, or Write-off on the source account. You need to pay the charges before we perform the Subscription Ownership Transfer. 
+- We cannot perform Subscription Ownership Transfer if the subscription has charges already in dunning, Delay Write-off, or Write-off on the source account. You need to pay the charges before we perform the Subscription Ownership Transfer. 
 - There is no loss of data and downtime, however AAD services will be affected and you will need to move those services on your own. The list of services can be found [here](https://docs.microsoft.com/azure/active-directory/active-directory-apps-index).
 - If Subscription has Invoice Mode of Payment as Payment method, then we would not be able to proceed with Subscription Ownership Transfer.
 - All Subscription admins and Co-admins get changed to the Destination Account Owner, depending upon tenant. If we transfer the subscription to another tenant, the new AA will also become the new SA and the Co-admins will be lost .
@@ -48,7 +48,7 @@ If your current Account Admin has left and you need to take over ownership, plea
 
 Learn more :  [Transfer Ownership of Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) <br>
 
-To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.
+To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.<br>
 1. Visit [Subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
 2. Select the subscription that you want to give access.
 3. Select **Add**. (If the Add button is missing, you do not have permission to add permissions.)
