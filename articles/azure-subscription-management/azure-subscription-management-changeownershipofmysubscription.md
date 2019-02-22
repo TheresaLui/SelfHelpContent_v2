@@ -32,7 +32,7 @@ Learn more on [Manage access using RBAC and Azure portal](https://docs.microsoft
 
 If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer.<br>
 
-**Subscription Ownership Transfer prerequisites:**<br>
+**Subscription Ownership Transfer prerequisites:** <br>
 - Approval Email from Source Account Holder and Destination Account Holder confirming they accept this subscription ownership transfer.
 - The Account and its subscriptions must continue to be "consumed" in the same country.
 - If you are Azure customer from Australia/New Zealand you cannot migrate subscription outside of your Region, nor can any Account/Subscription be migrated into your region.
