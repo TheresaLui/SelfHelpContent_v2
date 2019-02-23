@@ -27,7 +27,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 * The most common issues creating an Automation Account are related to permissions. Check ["Permissions required to Create an Automation Account"](https://docs.microsoft.com/azure/automation/automation-create-standalone-account#permissions-required-to-create-an-automation-account)
 
 **I can't create or renew a RunAs account / RunAs is greyed out**
-* RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions to create
+* RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
 * You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
