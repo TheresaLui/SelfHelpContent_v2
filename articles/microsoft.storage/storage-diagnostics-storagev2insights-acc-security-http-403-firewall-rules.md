@@ -30,7 +30,7 @@ There may be more client IPs for which requests were blocked. To get the exhaust
 
 ## **Recommended Steps**
 
-1. Third-party services running outside Azure must ensure that their IPs are in the allowed list when Storage Firewalls and Virtual Networks is configured. Validate that the client IPs are expected to connect to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** and refer below to make the neccessary changes:
+1. Third-party services running outside Azure must ensure that their IPs are in the allowed list when Storage Firewalls and Virtual Networks is configured. Validate that the client IPs are expected to connect to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** and refer below to make the necessary changes:
 
    * [Change the default network access rule](https://docs.microsoft.com/azure/storage/common/storage-network-security#change-the-default-network-access-rule)
    * [Grant access from an Internet IP range](https://docs.microsoft.com/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range)
