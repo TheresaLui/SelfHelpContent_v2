@@ -21,12 +21,12 @@ cloudEnvironments="public"
 Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. The current **VNET service endpoint policy** on the subnet, where the traffic originated doesn't allow connecting to this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.<br> Only the following subnets have **VNet endpoint policy** that allows access to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.<br>**<!--$Subnet_List-->[Subnet_List]<!--/$Subnet_List-->**<br><br> Sample list of requests were blocked:<br>**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->**
 <!--/issueDescription-->
 
-There might be more client IPs for which requests were blocked, to get the exhaustive list you should look at [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
+There may be additional client IPs for which requests were blocked. To view the complete list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-## **Recommended steps** 
+## **Recommended Steps** 
 
 Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicity in the policy. 
-Refer below to make the neccessary changes. 
+Refer below to make the neccessary changes:
 
 1. [Virtual network service endpoint policies](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview)
 2. [Configure VNet endpoint policies for Azure Storage](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration)
