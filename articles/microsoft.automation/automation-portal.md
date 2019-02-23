@@ -20,13 +20,16 @@ The Automation Account is used to host a variety of services, from runbooks to U
 ## **Recommended Steps**
 
 **I want to know what regions Automation Accounts are available in**
+
 * This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all)
 * This page also includes information about planned future availability
 
 **I'm having trouble creating an Automation Account**
+
 * The most common issues creating an Automation Account are related to permissions. Check ["Permissions required to Create an Automation Account"](https://docs.microsoft.com/azure/automation/automation-create-standalone-account#permissions-required-to-create-an-automation-account)
 
 **I can't create or renew a RunAs account / RunAs is greyed out**
+
 * RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
 * You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
@@ -42,4 +45,4 @@ The Automation Account is used to host a variety of services, from runbooks to U
 * [Quickstart create Automation account](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account)
 * [Create standalone Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)
 * [Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)<br>

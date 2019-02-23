@@ -36,4 +36,4 @@ RunAs accounts are used by Azure Automation to help authenticate against Azure r
 *[Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)
 *[Test Run As account authentication](https://docs.microsoft.com/azure/automation/automation-verify-runas-authentication)
 *[Delete a Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#delete-a-run-as-or-classic-run-as-account)
-*[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+*[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)<br>
