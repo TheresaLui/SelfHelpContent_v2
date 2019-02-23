@@ -26,7 +26,7 @@ There may be additional client IPs for which requests were blocked. To view the 
 ## **Recommended Steps** 
 
 Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicity in the policy. 
-Refer below to make the neccessary changes:
+Refer below to make the necessary changes:
 
 1. [Virtual network service endpoint policies](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview)
 2. [Configure VNet endpoint policies for Azure Storage](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#configuration)
