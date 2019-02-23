@@ -27,7 +27,7 @@ There may be more client IPs for which requests were blocked. To view the comple
 
 Storage request parameters should have valid value. 
 
-1. Refer below articles to specify a valid value for the request paramters found to be out of range above:
+1. Refer below articles to specify a valid value for the request parameters found to be out of range above:
 
    * [Request Headers](https://docs.microsoft.com/rest/api/storageservices/get-blob-service-properties#request-headers)
    * [Specifying Headers](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
