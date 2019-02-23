@@ -19,20 +19,21 @@ RunAs accounts are used by Azure Automation to help authenticate against Azure r
 
 ##**Recommended Steps**
 **I can't create or renew a RunAs account / RunAs is greyed out**
+
 * RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
 * You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
 **Using RunAs with a Hybrid Worker**
+
 * You might see the error "No certificate was found in the certificate store"
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
 
 ## **Recommended documents**
-[Issue] [Misconfigured Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#misconfiguration)<br>
-<br>
-[How to] [Run As account certificate renewal](https://docs.microsoft.com/azure/automation/automation-manage-account#self-signed-certificate-renewal)<br>
-[How to] [Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)<br>
-[How to] [Test Run As account authentication](https://docs.microsoft.com/azure/automation/automation-verify-runas-authentication)<br>
-[How to] [Delete a Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#delete-a-run-as-or-classic-run-as-account)<br>
-<br>
-[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+
+*[Misconfigured Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#misconfiguration)
+*[Run As account certificate renewal](https://docs.microsoft.com/azure/automation/automation-manage-account#self-signed-certificate-renewal)
+*[Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)
+*[Test Run As account authentication](https://docs.microsoft.com/azure/automation/automation-verify-runas-authentication)
+*[Delete a Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#delete-a-run-as-or-classic-run-as-account)
+*[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

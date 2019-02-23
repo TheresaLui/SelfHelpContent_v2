@@ -15,7 +15,7 @@
 />
 
 # Azure Automation - Automation Account
-The Automation Account is used to host a variety of services, from runbooks to Update Management and Start-Stop VM Solution. This article will help you troubleshoot specific aspects of creating and mantaining an Automation Account
+The Automation Account is used to host a variety of services, from runbooks to Update Management and Start-Stop VM Solution. This article will help you troubleshoot specific aspects of creating and maintaining an Automation Account.
 
 ## **Recommended Steps**
 
@@ -33,7 +33,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 **Deleting an Automation Account**
 
-* If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace)
+* If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace).
 
 
 ## **Recommended Documents**
