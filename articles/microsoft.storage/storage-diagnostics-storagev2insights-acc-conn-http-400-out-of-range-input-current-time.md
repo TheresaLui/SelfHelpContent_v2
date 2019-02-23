@@ -31,7 +31,5 @@ Request parameters like api-version and date are a common cause of this error.
 
 ## **Recommended Steps** 
 
-Storage request parameters should have valid value. Refer below articles to specify a valid value for the request paramters found to be out of range above:
-
    * [Request Headers](https://docs.microsoft.com/rest/api/storageservices/get-blob-service-properties#request-headers)   
    * [Specifying Headers](https://docs.microsoft.com/rest/api/storageservices/authorize-with-shared-key#Subheading1)
