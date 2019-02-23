@@ -20,11 +20,11 @@ In order for automated user provisioning to work, Azure AD requires valid creden
 
 ## **Recommended Steps**
 
-1. First, confirm that you have met all of the prerequisites for provisioning users to your application, have set up the administrative credentials in the app with the correct level of permissions, and that you are entering them into the Azure portal in the prescribed format. For more information, see the tutorial specific to your application at https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list.
+1. First, confirm that you have met all of the prerequisites for provisioning users to your application, have set up the administrative credentials in the app with the correct level of permissions, and that you are entering them into the Azure portal in the prescribed format. For more information, see the tutorial specific to your application at [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
 
 2. Next, check to ensure any public endpoint URLs you are entering in the portal are valid. Open a web browser, and browse to the URL you are entering. If the web browser returns an HTTP 404 "Not Found" response, then the URL is likely invalid and the Azure AD user provisioning will not be able to connect to it either.
 
-3. Finally, if you have already set up Azure AD single sign-on to the application, there is a known issue with key storage limitations that may be affecting you. For more information and a work-around, see: https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-config-problem-storage-limit 
+3. Finally, if you have already set up Azure AD single sign-on to the application, there is a known issue with key storage limitations that may be affecting you. For more information and a work-around, see: [Problem saving administrator credentials while configuring user provisioning to an Azure Active Directory Gallery application](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-config-problem-storage-limit). 
 
 ## **Recommended Documents**
 
