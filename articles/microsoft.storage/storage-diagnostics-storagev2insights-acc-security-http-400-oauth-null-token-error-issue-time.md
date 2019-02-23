@@ -23,7 +23,7 @@ Some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--
 
 There may be more requests that were blocked. To get the exhaustive list, see the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-Storage requests using RBAC to authenticate should pass a valid oAuth token with right permisions to perform the intended operation.
+Storage requests using RBAC to authenticate should pass a valid oAuth token with right permissions to perform the intended operation.
 
 ## **Recommended Steps** 
 
