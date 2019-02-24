@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
-	articleId="36bb39f4-b6d0-40cc-b011-6740948b2c34"
+	articleId="7b5e79b9-e0f4-4371-9e41-8770a71d03c6"
 />
 
 # Access or Security Issues
