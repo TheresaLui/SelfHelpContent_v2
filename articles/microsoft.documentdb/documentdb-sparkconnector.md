@@ -4,7 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas, arramac"
-    ms.author="bharathb, arramac"
+	ms.author="bharathb, arramac"
 	displayOrder="92"
 	selfHelpType="resource"
 	supportTopicIds="32597560,32597526"
@@ -13,6 +13,7 @@
 	cloudEnvironments="public"
 	articleId="3d4805fd-869a-4c92-829c-057fa738757a"
 />
+
 # Azure Cosmos DB Spark Connector
 
 ## **Recommended Steps**
