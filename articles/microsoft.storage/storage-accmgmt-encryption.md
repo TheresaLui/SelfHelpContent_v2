@@ -15,7 +15,8 @@
 />
 
 # How to troubleshoot encryption issue
-## **Recommended documents**
+
+## **Recommended Documents**
 
 ### **Encryption at rest**
 
