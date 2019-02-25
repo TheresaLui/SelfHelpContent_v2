@@ -4,7 +4,7 @@
     infoBubbleText=""
     authors="chez-charlie"
     ms.author="chez"
-    articleId=""
+    articleId="dcce5834-ba0a-4d8e-94ad-13549b5b8e6a"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32629469"
@@ -27,7 +27,8 @@
 
 ## **Recommended Documents**
 
-Copy Activity Schema Mapping [Documentation](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping) <br>
+Copy Activity Schema Mapping [Document](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping), including following sections: <br>
+
 * [Column mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#column-mapping) <br>
 * [Schema mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#schema-mapping) <br>
 * [Data type mapping](https://docs.microsoft.com/azure/data-factory/copy-activity-schema-and-type-mapping#data-type-mapping) <br>

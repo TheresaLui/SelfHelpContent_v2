@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228,32612529, 32599921"
+    supportTopicIds="32599861,32599924,32599864,32599868,32599903,32599925,32599936,32599937,32615226,32615227,32615229,32615228,32612529"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
@@ -18,17 +18,17 @@ This article will help with several kinds of issues relating to onboarding and u
 
 ## **Recommended Steps**
 
-**Machine isn't onboarding after waiting 15 minutes**
+### Machine isn't onboarding after waiting 15 minutes
 
-* Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
+* Refer to the ["Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
-**Update Agent Readiness doesn't show "ready"**
+### Update Agent Readiness doesn't show "ready"
 
 * For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
 * For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
-* Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
+* Consult the [Update Agent Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
-**Machine shows as "not assessed"**
+### Machine shows as "not assessed"
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed":
 

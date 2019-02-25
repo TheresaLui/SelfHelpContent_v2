@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="fe997fd3-e800-4865-90ed-c2596c9c83fd"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629474"
@@ -17,4 +17,4 @@
 
 ## **Recommended Documents**
 
-* Create data factories in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
+Create data factories in ADF Portal: [Quick start sample](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal)
