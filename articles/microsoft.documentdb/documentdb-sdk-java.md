@@ -16,6 +16,8 @@
 
 # Cosmos DB Java SDK Issues
 
+## **Recommended Steps**
+
 * Upgrade to the latest version of the [Async](https://mvnrepository.com/artifact/com.microsoft.azure/azure-cosmosdb) or [Sync](https://mvnrepository.com/artifact/com.microsoft.azure/azure-documentdb) SDK from Maven for fixes and improvements. For new applications, we recommend the Async SDK.
 * If you're running into connectivity issues, follow [Troubleshooting Java SDK connectivity](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk#common-issues-workarounds)
 * If you're experiencing performance issues, follow [Performance Tips for Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)
