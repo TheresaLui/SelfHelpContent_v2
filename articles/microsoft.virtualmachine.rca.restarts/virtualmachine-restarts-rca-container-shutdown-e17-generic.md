@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	ms.authors="jozender"
+	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_E17Generic"
 	diagnosticScenario="UnexpectedVMReboot"

@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	ms.authors="jozender"
+	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Node_Reboot_Bug_Check_Pending_Fix"
 	diagnosticScenario="UnexpectedVMReboot"
