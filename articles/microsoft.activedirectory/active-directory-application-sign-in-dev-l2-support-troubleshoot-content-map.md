@@ -6,9 +6,10 @@
     authors="luleon"
     selfHelpType="generic"
     supportTopicIds="32596837"
-    productPesIds="14785"
+    productPesIds="14785,16575"
     cloudEnvironments="public"
-    />
+    	articleId="ed6290d1-1d98-4b89-a084-0fad626e1dcc"
+/>
 
 # Issues that are related to signing in to applications developed by my company
 

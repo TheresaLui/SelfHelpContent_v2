@@ -1,18 +1,21 @@
 <properties
-	pageTitle="managing/dynamic management views"
-	description="managing/dynamic management views"
+	pageTitle="managing/monitoring"
+	description="managing/monitoring"
 	service="microsoft.sql"
 	resource="servers"
-	authors="aashu"
+	authors="emlisa"
+	ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="31980415"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="5b81a161-0895-44fa-a765-165166cad9d4"
 />
 
-# managing/dynamic management views
+# managing/monitoring
 
-## **Recommended documents**
-[Monitoring Azure SQL Database using dynamic management views](https://azure.microsoft.com/documentation/articles/sql-database-monitoring-with-dmvs/)
+## **Recommended Documents**
+
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview/)

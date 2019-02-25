@@ -1,15 +1,16 @@
 <properties
 	pageTitle="Archive Storage Tier"
-        description="Archive Storage Tier"
+    description="Archive Storage Tier"
 	service="microsoft.storage"
-	resource="storageaccounts"
+	resource="storage"
 	authors=""
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602708"
+	supportTopicIds="32602708,32602732"
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
+	articleId="a593e2f4-8c91-4c89-b5bc-bba6f0860acf"
 />
 
 # Archive Storage Tier

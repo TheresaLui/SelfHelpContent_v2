@@ -8,8 +8,9 @@
     selfHelpType="generic"
     supportTopicIds="32596847"
     resourceTags=""
-    productPesIds="14785"
+    productPesIds="14785,16578"
     cloudEnvironments="public"
+	articleId="563a3c25-0167-4c2c-8d23-e522d5ee9c70"
 />
 
 # Problems with device administration in Azure AD

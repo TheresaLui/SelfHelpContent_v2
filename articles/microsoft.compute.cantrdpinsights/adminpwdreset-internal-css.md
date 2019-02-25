@@ -1,7 +1,7 @@
 <properties
 pageTitle="Password Expired"
 description="Administrator account password expired"
-infoBubbleText="Built-in Administrator account has issues"
+infoBubbleText="Built-in Administrator account password has expired"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="ram-kakani"
@@ -16,20 +16,29 @@ cloudEnvironments="public"
 />
 
 
-# Built-in Administrator account has issues
+# Built-in Administrator account password has expired
 <!--issueDescription-->
-Built-in Administrator account password has expired
+We have investigated and detected that the built-in administrator account password has expired which may prevent RDP connectivity to the VM.
 <!--/issueDescription-->
 
-## **Customer Ready Mitigation Steps**
+## **Recommended Steps**
+Resetting the built-in account password may restore your RDP connectivity to the VM.
 
-The password of the built-in administrator account has expired so RDP access using this account is unavailable.
+* First, ensure that you have the [latest PowerShell module installed and configured](https://docs.microsoft.com/powershell/azure/overview) and are signed in to your Azure subscription with the ```Connect-AzureRmAccount``` cmdlet.
+* Now validate the VM has the VM agent in Ready state by executing the below commands via PowerShell.
 
-Below are articles with detailed steps to reset the password through Azure Portal/PowerShell:
-* [Reset RDP password](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp)
-* [Reset local password without Azure Guest agent](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)
+  ```
+  PS C:\WINDOWS\system32> $vm=Get-AzureRmVM -ResourceGroupName MyRG -Name MyVM -Status
+  PS C:\WINDOWS\system32> $vm.VMAgent.Statuses
 
+  Code          : ProvisioningState/succeeded
+  Level         : Info
+  DisplayStatus : Ready
+  Message       : GuestAgent is running and accepting new configurations.
+  Time          : 7/3/2018 7:44:45 AM
+  ```
 
-## **Internal**
+* Based on the Agent status, you have 2 options:
 
-Please refer to the [internal article](https://www.csssupportwiki.com/index.php/curated:Azure/Virtual_Machine/Can%E2%80%99t_RDP-SSH/Basic_Workflow/VM_Responding_Bucket/Password_Reset_Bucket)
+  * If agent is ready, reset the password via Azure Portal or PowerShell by following the instructions in the article [Reset RDP password](https://docs.microsoft.com/azure/virtual-machines/windows/reset-rdp).
+  * In case the agent is not ready, follow the instructions at [Reset local password without Azure Guest agent](https://docs.microsoft.com/azure/virtual-machines/windows/reset-local-password-without-agent)

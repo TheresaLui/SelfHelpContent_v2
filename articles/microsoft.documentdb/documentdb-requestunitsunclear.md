@@ -6,10 +6,11 @@
 	authors="bharathsreenivas"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32597527,32597496,32597552"
+	supportTopicIds="32597527"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="03a93b15-9264-4901-94ee-942f92308410"
 />
 
 # My request unit (RU) charging is unclear

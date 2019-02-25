@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="MoonCake"
+	articleId="d33f2637-58fb-4528-89c9-e2cdf3c8e424"
 />
 
 # My request unit (RU) charging is unclear

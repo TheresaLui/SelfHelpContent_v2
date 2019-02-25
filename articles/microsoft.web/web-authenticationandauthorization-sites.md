@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="a3230ec7-9b2d-40ab-87b1-93236cb09b7d"
 />
 
 # configuration and management/authentication and authorization
@@ -18,7 +19,7 @@
 
 [Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/app-service-authentication-overview)
 
-How to configure authentication with various Identify providers: <br>
+How to configure authentication with various Identity providers: <br>
 
 * [How to configure your app to use Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [How to configure your app to use Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>

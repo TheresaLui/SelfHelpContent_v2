@@ -10,10 +10,11 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="public"
+	articleId="96946134-dccc-4f1b-82fd-925a88e2c37f"
 />
 # Configure a Site-to-Site connection
 ## **Recommended steps**
-1. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade) <br>
+1. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) <br>
 2. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
 
 ## **Recommended documents**
