@@ -15,7 +15,8 @@
 />
 
 # How to troubleshoot access issue
-## **Recommended documents**
+
+## **Recommended Documents**
 
 ### **Authenticate with Azure AD**
 
