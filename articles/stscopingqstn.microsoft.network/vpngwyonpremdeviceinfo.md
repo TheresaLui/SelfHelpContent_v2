@@ -1,7 +1,8 @@
 <properties
 	pageTitle="Provide On Prem Device"
 	description="Provide On Prem Device"
-	authors="KristinaNeyens"
+	authors="KristinaNeyens, radwiv"
+	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	articleid="ProvideOnPremDevice"
 	supportTopicIds="32591152, 32591149"
@@ -127,10 +128,10 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide device Model and iOS/firmware version",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
@@ -149,7 +150,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 6,
+            "order": 4,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-deviceshttps://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices?toc=%2Fazure%2Fvpn-gateway%2F%2Ftoc.json'>Learn more</a> about Validated VPN Devices and our device configuration guides"
         }
