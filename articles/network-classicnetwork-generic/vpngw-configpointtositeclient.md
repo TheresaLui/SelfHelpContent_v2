@@ -6,7 +6,7 @@
     authors="radwiv"
     ms.author="radwiv"
     displayOrder="2"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32633156"
     resourceTags=""
     productPesIds="16094"
