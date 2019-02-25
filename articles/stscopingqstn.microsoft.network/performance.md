@@ -3,7 +3,7 @@
 	pageTitle="performance"
 	description="performance"
 	authors="radwiv"
-  ms.author="radwiv"
+ 	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32591147"
 	productPesIds="16094"
@@ -40,10 +40,9 @@
         {   "id": "source_dest_IP_address",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide source and destination IP addresses",
+            "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
             "required": false,
-            "useAsAdditionalDetails": false,
-            "hints": [{"text": "Please provide on-premise and/or VNet IP addresses"}]
+            "useAsAdditionalDetails": false]
         },
         {   "id": "onprem_config_script",
             "order": 4,
@@ -66,7 +65,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide device Model and iOS/firmware version",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {"text": "Issue description"},
