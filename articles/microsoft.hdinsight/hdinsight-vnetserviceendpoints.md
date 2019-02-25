@@ -25,4 +25,5 @@ The client is trying to connect from IP address <!--$MissingIp-->[MissingIp]<!--
 
 1. Go to the SQL server’s “Firewalls and virtual networks” setting, turn on “Allow access to Azure services” or whitelist your virtual network which you used to deploy the HDI cluster. <br>
 Pleaser refer [Azure Portal Steps](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#azure-portal-steps) for details.
+
 2. On Virtual Network side, enable the SQL service endpoints, as mentioned in here: [Virtual Network Endpoints for Azure SQL Database](https://azure.microsoft.com/blog/vnet-service-endpoints-for-azure-sql-database-now-generally-available)
