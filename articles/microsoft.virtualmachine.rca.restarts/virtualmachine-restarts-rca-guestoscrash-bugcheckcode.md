@@ -24,7 +24,7 @@ This unexpected occurrence was caused by a **Guest Operating system crash** due 
 
 To avoid potential memory and disk data corruption, Windows stops execution when it detects a serious error condition. Windows might stop for many different reasons, including the following:
 
-- A memory address that cauees an access violation
+- A memory address that causes an access violation
 - An unexpected exception or trap
 - A faulting kernel mode driver<br>
 

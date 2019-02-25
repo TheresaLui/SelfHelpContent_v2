@@ -24,7 +24,7 @@ This unexpected occurrence was caused by an **Azure initiated VM shutdown** trig
 
 Azure platform continuously monitors reads and writes (IO transactions) from your VMs to Azure Storage. If transactions do not complete successfully within 120 seconds (inclusive of retries), the connectivity is considered to be lost and a temporary VM shutdown is initiated to preserve data integrity and prevent corruption of your VM. After the platform detects that the storage service connectivity is restored, the VM is automatically restarted. RDP connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-The stream layer of Azure Storage stores the data on disk and ensures durabilty by  distributing and replicating the data across several servers within the storage stamp (extent nodes). Due to unexpected processing delays at the stream layer, storage operations took longer than expected to complete. The issue was detected and automatically mitigated by our in-built recovery mechanisms, and VM availability was restored.<br>
+The stream layer of Azure Storage stores the data on disk and ensures durability by  distributing and replicating the data across several servers within the storage stamp (extent nodes). Due to unexpected processing delays at the stream layer, storage operations took longer than expected to complete. The issue was detected and automatically mitigated by our in-built recovery mechanisms, and VM availability was restored.<br>
 
 For more information on the stream layer of Azure Storage, refer to the paper [here](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf).<br>
 
