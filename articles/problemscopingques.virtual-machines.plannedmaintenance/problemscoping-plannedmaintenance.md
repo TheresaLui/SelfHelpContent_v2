@@ -13,70 +13,79 @@
 #	Planned Maintenance (Azure Platform)
 ---
 {
-                "resourceRequired": true,
-                "title": "Planned Maintenance (Azure Platform)",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "Planned Maintenance (Azure Platform)",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "maintenance_notification",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Did you receive a maintenance notification for your resource?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                  "id": "maintenance_notification",
-                  "order": 1,
-                  "controlType": "dropdown",
-                  "displayLabel": "Did you receive a maintenance notification for your resource?",
-                  "watermarkText": "Choose an option",
-                  "dropdownOptions": [{
                     "value": "Yes",
                     "text": "Yes"
-                    },{
+                },
+                {
                     "value": "No",
                     "text": "No"
-                    }
-                    ],
-                    "required": false
-                },{
-                  "id": "tracking_id",
-                  "order": 2,
-                  "visibility": "maintenance_notification == Yes",
-                  "controlType": "textbox",
-                  "displayLabel": "What is the tracking ID of the notification that you received?",
-                  "useAsAdditionalDetails": false,
-                  "required": false
-                  },{
-                    "id": "maintenance_selfservice",
-                    "order": 3,
-                    "controlType": "dropdown",
-                    "displayLabel": "Did you attempt to perform self-service maintenance based on Service Health information?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [{
-                      "value": "Yes",
-                      "text": "Yes"
-                      },{
-                      "value": "No",
-                      "text": "No"
-                      }
-                      ],
-                      "required": false
-                  },{
-                    "id": "selfservice_result",
-                    "order": 4,
-                    "visibility": "maintenance_selfservice == Yes",
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "Please enter the result.",
-                    "useAsAdditionalDetails": true,
-                    "required": false
-                  },{
-                    "id": "problem_description",
-                    "order": 5,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "Description",
-                    "useAsAdditionalDetails": false,
-                    "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 6,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "tracking_id",
+            "order": 2,
+            "visibility": "maintenance_notification == Yes",
+            "controlType": "textbox",
+            "displayLabel": "What is the tracking ID of the notification that you received?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "maintenance_selfservice",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Did you attempt to perform self-service maintenance based on Service Health information?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "selfservice_result",
+            "order": 4,
+            "visibility": "maintenance_selfservice == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please enter the result.",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ]
 }
 ---
