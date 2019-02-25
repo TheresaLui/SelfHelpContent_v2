@@ -19,7 +19,7 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ## **Recommended Steps**
 
-###v I want to know what regions Automation Accounts are available in
+### I want to know what regions Automation Accounts are available in
 
 * This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all)
 * This page also includes information about planned future availability
