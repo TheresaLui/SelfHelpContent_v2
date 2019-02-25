@@ -1,8 +1,9 @@
 <properties
-	pageTitle="Databricks Job Scheduler"
-	description="Databricks Job Scheduler"
+	pageTitle="Azure Databricks Job Scheduler"
+	description="Azure Databricks Job Scheduler"
 	service="microsoft.databricks"
 	resource="workspaces"
+	authors="mspreshah"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32612193"
@@ -11,19 +12,18 @@
 	cloudEnvironments="public"
 />
 
-# Dashboards
+# Azure Databricks Job Scheduler  
 
-## **Recommended steps**
+## **Recommended steps**  
 
-Below are details on how to setup a dashboard for your notebook.  
+Below are details on Azure Databricks job scheduling:  
 
-* Note: Dashboards do not live refresh when you present them from the dashboard view. To schedule a dashboard to refresh at a specific interval, [schedule](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#schedule-notebook) the notebook that generates the dashboard graphs.  
-* You can [create](https://docs.databricks.com/user-guide/notebooks/dashboards.html#dashboards) a dashboard from an Azure Databricks notebook.  
-* Once you have created a dashboard, you can also organize the dashboard. 
-* You can also [view](https://docs.databricks.com/user-guide/notebooks/dashboards.html#view-a-specific-dashboard-version) a specific dashboard version.   
+* Important: The number of jobs are limited to 1000 per workspace.  
+* You can run the job on a schedule or immediately. See details [here](https://docs.azuredatabricks.net/user-guide/jobs.html#run-a-job).  
+* You can also [view](https://docs.azuredatabricks.net/user-guide/jobs.html#view-job-run-details) job run details.  
 
  
 ## **Recommended documents**
-* [Dashboards](https://docs.databricks.com/user-guide/notebooks/dashboards.html#dashboards)  
+* [Jobs](https://docs.azuredatabricks.net/user-guide/jobs.html#jobs)  
 
 
