@@ -15,7 +15,7 @@
 
 # Management/Instance Metadata Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Windows**:
 

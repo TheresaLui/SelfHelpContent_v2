@@ -16,7 +16,7 @@
 
 # Management/Scheduled events
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Overview of Azure Metadata Service: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
 * [Enabling and Disabling Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events#enabling-and-disabling-scheduled-events)<br>

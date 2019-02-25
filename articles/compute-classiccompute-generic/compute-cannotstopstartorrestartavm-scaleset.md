@@ -16,7 +16,7 @@
 
 # management/cannot stop, start, or restart a Scale Set
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting)<br>
 * [Issue: Error when starting a stopped VM](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting#issue-error-when-starting-a-stopped-vm)<br>
