@@ -3,14 +3,15 @@
     description="What metrics can I use to autoscale my scale set"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    authors="gatneil"
+    authors="scottAzure"
+    ms.author="scotro"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public, MoonCake"
-	articleId="95dc49b6-37a0-4085-ac5d-db3f74e7e462"
+    articleId="95dc49b6-37a0-4085-ac5d-db3f74e7e462"
 />
 
 # What metrics can I use to autoscale my scale set

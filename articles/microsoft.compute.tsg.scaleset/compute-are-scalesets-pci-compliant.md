@@ -3,14 +3,15 @@
     description="Are scale sets PCI-compliant"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    authors="gatneil"
+    authors="scottAzure"
+    ms.author="scotro"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public"
-	articleId="56086cd7-bf65-4e5a-98f4-8b18f589e9af"
+    articleId="56086cd7-bf65-4e5a-98f4-8b18f589e9af"
 />
 
 # Are scale sets PCI-compliant

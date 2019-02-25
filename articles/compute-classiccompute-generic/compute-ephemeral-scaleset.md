@@ -2,7 +2,7 @@
 	pageTitle="Ephemeral OS Disk"
 	description="Ephemeral OS Disk"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""

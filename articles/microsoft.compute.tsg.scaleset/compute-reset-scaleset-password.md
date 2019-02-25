@@ -3,14 +3,15 @@
     description="How do I reset the password or ssh key on my scale set VMs"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    authors="gatneil"
+    authors="scottAzure"
+    ms.author="scotro"
     displayOrder="5"
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public, MoonCake"
-	articleId="a3d775e6-285d-4c78-86ab-4c098fca5145"
+    articleId="a3d775e6-285d-4c78-86ab-4c098fca5145"
 />
 
 # How do I reset the password or ssh key on my scale set VMs

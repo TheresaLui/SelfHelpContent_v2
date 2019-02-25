@@ -3,14 +3,15 @@
     description="Why is my scale set not updating"
     service="microsoft.compute"
     resource="virtualmachinescalesets"
-    authors="gatneil"
+    authors="scottAzure"
+    ms.author="scotro"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
     cloudEnvironments="MoonCake"
-	articleId="e0652396-ba3f-449e-b872-31dd98109087"
+    articleId="e0652396-ba3f-449e-b872-31dd98109087"
 />
 
 # Why is my scale set not updating
@@ -20,5 +21,3 @@ If you update your scale set but the running VMs don't update, this is likely be
 ## Recommended Documents
 
 For more information about updating a scale set, see [this doc](https://docs.azure.cn/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app) that describes how to deploy, manage, and upgrade an app on a scale set.
-
-

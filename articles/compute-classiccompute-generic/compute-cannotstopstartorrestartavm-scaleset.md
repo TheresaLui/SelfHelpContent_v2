@@ -1,9 +1,10 @@
 <properties
-	pageTitle="management/cannot stop, start, or restart a vm"
-	description="management/cannot stop, start, or restart a vm"
+	pageTitle="management/cannot stop, start, or restart a Scale Set"
+	description="management/cannot stop, start, or restart a Scale Set"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32449676"
@@ -13,7 +14,7 @@
 	articleId="470fbf27-6619-4809-baed-df9c3a2a0074"
 />
 
-# management/cannot stop, start, or restart a vm
+# management/cannot stop, start, or restart a Scale Set
 
 ## **Recommended documents**
 
