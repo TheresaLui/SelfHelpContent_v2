@@ -99,7 +99,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please list the device configuration script used.",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {   "id": "problem_description",
             "order": 8,
