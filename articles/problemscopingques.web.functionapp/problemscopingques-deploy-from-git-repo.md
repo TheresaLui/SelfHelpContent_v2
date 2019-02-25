@@ -32,7 +32,8 @@
 			"dropdownOptions": [{
 					"value": "deployment slot",
 					"text": "deployment slot"
-				}, {
+				},
+				{
 					"value": "production",
 					"text": "production"
 				}
@@ -46,7 +47,7 @@
 			"displayLabel": "What deployment exception are you experiencing?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

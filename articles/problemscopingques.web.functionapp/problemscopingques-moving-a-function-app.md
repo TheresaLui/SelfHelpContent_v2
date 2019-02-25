@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "same subscription",
 					"text": "same subscription"
-				}, {
+				},
+				{
 					"value": "different subscriptions",
 					"text": "different subscriptions"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What is the source and destination resource group?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,
@@ -64,13 +65,14 @@
 			"dropdownOptions": [{
 					"value": "custom SSL certificates",
 					"text": "custom SSL certificates"
-				}, {
+				},
+				{
 					"value": "Azure App Service Certificates",
 					"text": "Azure App Service Certificates"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 6,

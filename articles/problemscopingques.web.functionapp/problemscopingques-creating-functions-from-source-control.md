@@ -38,7 +38,7 @@
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "2",
 			"order": 2,
@@ -46,7 +46,7 @@
 			"displayLabel": "Which IDE are you using?  For example, Visual Studio, Visual Studio Code or in the portal?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,
@@ -64,7 +64,8 @@
 			"dropdownOptions": [{
 					"value": "deployment slot",
 					"text": "deployment slot"
-				}, {
+				},
+				{
 					"value": "production",
 					"text": "production"
 				}
@@ -80,7 +81,8 @@
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
-				}, {
+				},
+				{
 					"value": "No",
 					"text": "No"
 				}

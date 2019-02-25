@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
-				}, {
+				},
+				{
 					"value": "No",
 					"text": "No"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What is the name of VNET?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

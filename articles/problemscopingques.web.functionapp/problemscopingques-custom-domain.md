@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "App Service Domain",
 					"text": "App Service Domain"
-				}, {
+				},
+				{
 					"value": "External",
 					"text": "External"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What is the custom domain that you are trying to add?",
 			"watermarkText": "Run IDs...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

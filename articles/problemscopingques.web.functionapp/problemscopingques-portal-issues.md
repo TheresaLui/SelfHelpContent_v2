@@ -30,7 +30,7 @@
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

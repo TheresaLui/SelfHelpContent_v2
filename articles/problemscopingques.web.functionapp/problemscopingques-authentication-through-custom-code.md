@@ -30,7 +30,7 @@
 			"displayLabel": "What language are you developing in?",
 			"watermarkText": "language...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -38,7 +38,7 @@
 			"displayLabel": "Which Authentication provider are you using?",
 			"watermarkText": "Authentication provider...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

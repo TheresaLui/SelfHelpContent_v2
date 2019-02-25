@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "Express",
 					"text": "Express"
-				}, {
+				},
+				{
 					"value": "Advanced",
 					"text": "Advanced"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,

@@ -38,7 +38,7 @@
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "2",
 			"order": 2,
@@ -46,7 +46,7 @@
 			"displayLabel": "Which IDE are you using?  For example, Visual Studio, Visual Studio Code or in the portal?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,
@@ -54,7 +54,7 @@
 			"displayLabel": "What language are you developing in?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 5,

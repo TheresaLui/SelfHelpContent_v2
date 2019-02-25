@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "authenticate inbound requests",
 					"text": "authenticate inbound requests"
-				}, {
+				},
+				{
 					"value": "authorize the Function on other Azure resources",
 					"text": "authorize the Function on other Azure resources"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "exception...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

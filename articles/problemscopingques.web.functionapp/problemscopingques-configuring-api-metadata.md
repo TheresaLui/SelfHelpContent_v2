@@ -30,7 +30,7 @@
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,

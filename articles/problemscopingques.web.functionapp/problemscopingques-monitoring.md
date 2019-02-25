@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
-				}, {
+				},
+				{
 					"value": "No",
 					"text": "No"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 3,

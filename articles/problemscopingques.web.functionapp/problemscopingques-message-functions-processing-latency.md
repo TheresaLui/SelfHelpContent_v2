@@ -38,7 +38,7 @@
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,
@@ -56,7 +56,8 @@
 			"dropdownOptions": [{
 					"value": "time out",
 					"text": "time out"
-				}, {
+				},
+				{
 					"value": "partially",
 					"text": "partially"
 				}

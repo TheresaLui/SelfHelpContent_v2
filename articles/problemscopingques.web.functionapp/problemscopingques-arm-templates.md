@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "deployment of the application code",
 					"text": "deployment of the application code"
-				}, {
+				},
+				{
 					"value": "building out and configuration of the infrastructure",
 					"text": "building out and configuration of the infrastructure"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What deployment exception are you experiencing?",
 			"watermarkText": "exception...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 4,

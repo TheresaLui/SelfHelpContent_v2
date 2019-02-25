@@ -32,13 +32,14 @@
 			"dropdownOptions": [{
 					"value": "App Service Certificate",
 					"text": "App Service Certificate"
-				}, {
+				},
+				{
 					"value": "external certificate",
 					"text": "external certificate"
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -46,7 +47,7 @@
 			"displayLabel": "What domain is the SSL cert issued to?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

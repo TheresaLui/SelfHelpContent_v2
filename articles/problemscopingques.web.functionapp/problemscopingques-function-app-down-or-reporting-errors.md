@@ -30,7 +30,7 @@
 			"displayLabel": "Please provide the Function name that is not working as expected",
 			"watermarkText": "function name...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
@@ -38,7 +38,7 @@
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,
@@ -64,7 +64,8 @@
 			"dropdownOptions": [{
 					"value": "time out",
 					"text": "time out"
-				}, {
+				},
+				{
 					"value": "partially",
 					"text": "partially"
 				}
@@ -75,7 +76,7 @@
 			"id": "7",
 			"order": 7,
 			"controlType": "textbox",
-			"displayLabel": "7) If possible, please provide an Invocation Id of a Function execution which was slow.  The Invocation Id resembles a GUID and can be found in the Invocation Detail log on the Monitor blade in the portal.  It is most commonly the final entry.",
+			"displayLabel": "If possible, please provide an Invocation Id of a Function execution which was slow.  The Invocation Id resembles a GUID and can be found in the Invocation Detail log on the Monitor blade in the portal.  It is most commonly the final entry.",
 			"watermarkText": "...",
 			"required": false,
 		},

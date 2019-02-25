@@ -30,7 +30,7 @@
 			"displayLabel": "Which source repository are you / have you configured for continuous integration?",
 			"watermarkText": "...",
 			"required": false,
-		}, 
+		},
 		{
 			"id": "5",
 			"order": 5,
