@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	ms.author="scotro"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Node_Reboot_Bug_Check_Driver"
 	diagnosticScenario="UnexpectedVMReboot"

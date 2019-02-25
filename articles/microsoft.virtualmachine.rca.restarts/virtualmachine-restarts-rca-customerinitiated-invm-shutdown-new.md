@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	ms.author="scotro"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Customer_Initiated_in-VM_shutdown"
 	diagnosticScenario="UnexpectedVMReboot"

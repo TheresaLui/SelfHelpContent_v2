@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	ms.authors="scotro"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_RCA-Container_shutdown-E17_Backend_Storage_Server_Hardware_Failure_Migration"
 	diagnosticScenario="UnexpectedVMReboot"

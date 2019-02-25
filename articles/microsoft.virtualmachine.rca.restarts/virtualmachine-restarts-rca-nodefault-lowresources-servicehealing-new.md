@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Service_Healing_Node_Fault_Low_Resources"
 	diagnosticScenario="UnexpectedVMReboot"

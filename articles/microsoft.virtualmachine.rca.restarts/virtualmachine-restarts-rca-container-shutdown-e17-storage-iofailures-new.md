@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_RCA-Container_shutdown-E17_Storage_IO_Failure"
 	diagnosticScenario="UnexpectedVMReboot"

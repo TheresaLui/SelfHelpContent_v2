@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Node_Freeze_VMPhu_Success"
 	diagnosticScenario="UnexpectedVMReboot"

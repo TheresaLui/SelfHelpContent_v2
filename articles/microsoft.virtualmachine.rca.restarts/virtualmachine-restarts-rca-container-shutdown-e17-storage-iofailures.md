@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_00F100A7-D2D8-4E74-91CA-C818126BF122"
 	diagnosticScenario="UnexpectedVMReboot"

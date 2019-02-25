@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
-	ms.author="scotro"
+	ms.authors="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_RCA-Container_shutdown-E17_Slow_Backend_Operation"
 	diagnosticScenario="UnexpectedVMReboot"
