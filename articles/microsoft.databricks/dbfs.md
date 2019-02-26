@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
-	articleID="fae86ab8-ffc7-407f-bf60-b4973cf046a9"
+	articleID="8610f989-8e88-4c7e-a343-cccf5d1285ec"
 />
 
 # Azure Databricks Databricks File System (DBFS)
