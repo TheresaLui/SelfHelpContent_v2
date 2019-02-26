@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
-	articleID="553806af-1a08-42a7-a45f-08016e434f67"
+	articleId="553806af-1a08-42a7-a45f-08016e434f67"
 />
 
 # Azure Databricks Job Scheduler  
