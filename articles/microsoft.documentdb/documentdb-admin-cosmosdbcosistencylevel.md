@@ -14,7 +14,10 @@
 />
 
 # Azure Cosmos DB consistency levels
-Azure Cosmos DB supports five consistency levels.  We recommend using session consistency for most applications.  Please review the following document for tradeoffs between consistency, latency, throughput, and availability across these consistency levels.
+
+* Review [consistency levels](https://docs.microsoft.com/azure/cosmos-db/consistency-levels) for tradeoffs and guarantees per consistency level. We recommend the default of session consistency for most applications, as it provides a good balance of tradeoffs.
+* If you're using session consistency and observe stale reads within a session, then you should validate that the session token is round tripped correctly. That is, you should either use a single Cosmos DB SDK instance per session, or explicitly save/route the session token from responses, and echo them in subsequent requests for the session (for load balanced apps).
+* If you're seeing stale results for queries, you should validate that your indexing policy is configured using the consistent mode, in addition to the configured consistency level of the account. See [Indexing Policy](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy).
 
 ## **Recommended documents**
 
