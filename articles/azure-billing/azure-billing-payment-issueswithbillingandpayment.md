@@ -52,8 +52,8 @@ Learn more about how you can prevent unexpected charges with Azure billing and
 
 ## **Recommended Documents**
 
-* [Update, change, or remove payment methods ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [Set up invoicing ](https://azure.microsoft.com/pricing/invoicing/)
+* [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+* [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
 * [Troubleshoot no subscriptions found issue in Azure portal or Account Center](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found)
 * [Azure portal or Account Center sign-up issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)
 * [Troubleshoot Sign-in Issues for Azure Subscription](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
