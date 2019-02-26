@@ -24,10 +24,31 @@
         },
         {
             "id": "blob_or_container",
-            "order": 3,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Container name or Blob path",
             "watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
+            "required": false
+        },
+        {
+            "id": "blob_container",
+            "order": 3,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Blob Container",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
             "required": false
         },
         {
