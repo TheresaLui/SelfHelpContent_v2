@@ -26,7 +26,7 @@
 	{   "id": "on_prem_devices",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Choose the device you are using",
+            "displayLabel": "Select the device you are using",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {"value": "A10 Networks", "text": "A10 Networks"},
@@ -57,7 +57,7 @@
         {   "id": "S2S_connectivity_issues",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the issue you're facing",
+            "displayLabel": "Select the issue you are facing",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{"value": "Tunnel not connected or disconnecting frequently", "text": "Tunnel not connected or disconnecting frequently"},
             {"value": "Notreachingdestination", "text": "Not able to reach specific destination"},
@@ -70,7 +70,7 @@
         {   "id": "source_dest_IP_address",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses",
+            "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -94,7 +94,7 @@
         {   "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide device Model and iOS/firmware version",
+            "displayLabel": "Provide device Model and iOS/firmware version",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
