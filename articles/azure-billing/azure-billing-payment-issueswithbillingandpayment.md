@@ -16,22 +16,22 @@
 
 # issues with billing and payment
 
-
 ### Move resources to new resource group or subscription ?
 
-Moving a resource only moves it to a new resource group. The move operation can't change the location of the resource. The new resource group may have a different location, but that doesn't change the location of the resource. <br>
-Learn more : [Tutorial: Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources) <br>
-Learn more : [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#services-that-can-be-moved) <br>
-Learn more : [Checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources) <br>
+* Moving a resource only moves it to a new resource group. The move operation can't change the location of the resource. The new resource group may have a different location, but that doesn't change the location of the resource.
+* Learn more : [Tutorial: Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
+* Learn more : [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#services-that-can-be-moved)
+* Learn more : [Checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources)
 
 ### Stop email notifications from Azure
 
-Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade). Click **opt out of emailed invoices**. This option removes any email addresses set to receive invoices in email. If you opt back in, you will have to reconfigure recipients.<br>
+1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).<br>
+2. Click **opt out of emailed invoices**. This option removes any email addresses set to receive invoices in email. If you opt back in, you will have to reconfigure recipients.
 
 ### Billing Alerts
 
-If you’re the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) for an Azure subscription, you can use the [Azure Billing Alert Service](https://docs.microsoft.com/azure/billing/billing-set-up-alerts) to create customized billing alerts that help you monitor and manage billing activity for your Azure accounts.
-You can also download your invoice, or have it sent in email. However, only certain roles have permission to get billing invoice and usage information, like the Account Administrator. <br>
+* If you’re the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) for an Azure subscription, you can use the [Azure Billing Alert Service](https://docs.microsoft.com/azure/billing/billing-set-up-alerts) to create customized billing alerts that help you monitor and manage billing activity for your Azure accounts.
+* You can also download your invoice, or have it sent in email. However, only certain roles have permission to get billing invoice and usage information, like the Account Administrator. <br>
 
 Learn more : [Manage access to Azure billing using roles](https://docs.microsoft.com/azure/billing/billing-manage-access) <br>
 
