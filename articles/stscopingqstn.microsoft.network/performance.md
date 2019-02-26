@@ -1,10 +1,10 @@
 <properties
-	articleid="performance"
 	pageTitle="performance"
 	description="performance"
 	authors="radwiv"
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
+	articleid="performance"
 	supportTopicIds="32591147"
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
@@ -12,7 +12,6 @@
 />
 # Performance issues information
 ---
-
 {   "resourceRequired": false,
     "title": "Performance",
     "fileAttachmentHint": "",
@@ -42,7 +41,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
             "required": false,
-            "useAsAdditionalDetails": false]
+            "useAsAdditionalDetails": false
         },
         {   "id": "onprem_config_script",
             "order": 4,
