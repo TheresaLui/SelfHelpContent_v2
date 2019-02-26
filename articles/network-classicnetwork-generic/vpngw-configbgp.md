@@ -13,7 +13,7 @@
     cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="7b5af541-1fdd-40f7-88cc-824e4027e949"
 />
-# Configure BGP, routing, forced tunneling
+# Configure BGP, routing, forced tunneling 
 
 ## **Recommended documents**
 * Step by step guide to [configuring and validating VNet or VPN connections](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)
