@@ -16,7 +16,7 @@
 
 # Shared Image Gallery
 
-4 out of 5 customers resolve their Shared Image Gallery issues using below steps:<br>
+4 out of 5 customers resolve their Shared Image Gallery issues using the steps below:<br>
 
 ## **Recommended Steps**
 
