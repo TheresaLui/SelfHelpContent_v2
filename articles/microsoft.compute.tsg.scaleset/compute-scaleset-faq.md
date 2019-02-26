@@ -16,6 +16,6 @@
 
 # Scale Set FAQ
 
-## Recommended Documents
+## **Recommended Documents**
 
 Refer to [the scale set FAQ](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq) that addresses many commonly-asked scale set questions.
