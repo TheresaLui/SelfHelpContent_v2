@@ -5,7 +5,7 @@
     resource="connections"
     authors="radwiv"
     ms.author="radwiv"
-    displayOrder="3"
+    displayOrder="11"
     selfHelpType="generic"
     supportTopicIds="32591152"
     resourceTags=""
