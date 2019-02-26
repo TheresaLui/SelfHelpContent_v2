@@ -5,7 +5,7 @@
 	resource="virtualnetworkgateways"
 	authors="radwiv"
 	ms.author="radwiv"
-	displayOrder=""
+	displayOrder="22"
 	selfHelpType="generic"
 	supportTopicIds="32591156"
 	resourceTags=""
