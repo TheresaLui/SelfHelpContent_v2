@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the name of VNET?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,13 +54,13 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the Hybrid Connection (HC) URL? (You can find this in the Hybrid Connection Manager details for the HC or in the connection string shown in the portal.)",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "What is the status of the HC? ("Not connected", "Connected", "Status unknown", etc.)",
+			"displayLabel": "What is the status of the HC? (Not connected, Connected, Status unknown, etc.)",
 			"watermarkText": "...",
 			"required": false,
 		},
