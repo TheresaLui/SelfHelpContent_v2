@@ -2,7 +2,7 @@
 <properties
 pageTitle="Restore deleted workspace"
 description="Restore deleted workspace"
-articleId="<"problemscopingques-Restore_deleted_workspace"
+articleId="problemscopingques-Restore_deleted_workspace"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
