@@ -56,14 +56,14 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time of the last deletion attempt",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
