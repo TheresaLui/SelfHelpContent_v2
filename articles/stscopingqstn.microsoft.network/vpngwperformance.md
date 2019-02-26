@@ -26,7 +26,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the issue you're facing",
-            "watermarkText": "Choose an issue",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [
 	          {"value": "Tunnel not connected or disconnecting frequently", "text": "Tunnel not connected or disconnecting frequently"},
             {"value": "Notreachingdestination", "text": "Not able to reach specific destination"},
@@ -38,7 +38,7 @@
         },
         {   "id": "source_dest_IP_address",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
@@ -47,7 +47,7 @@
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Did you use on-premise device configuration script?",
-            "watermarkText": "",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [{"value": "Yes", "text": "Yes"},
                                 {"value": "No", "text": "No"}],
             "required": true
@@ -55,7 +55,7 @@
         {   "id": "onprem_config_script_yes",
             "order": 5,
             "visibility": "onprem_config_script == Yes",
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Please list the device configuration script used",
             "required": false,
             "useAsAdditionalDetails": false
