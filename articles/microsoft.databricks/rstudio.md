@@ -1,7 +1,7 @@
 <properties
 	pageTitle="RStudio on Azure Databricks"
 	description="RStudio on Azure Databricks" 
-	service="microsoft.Databricks"
+	service="microsoft.databricks"
 	resource="workspaces"
 	authors="mspreshah"
 	ms.author="preshah"
