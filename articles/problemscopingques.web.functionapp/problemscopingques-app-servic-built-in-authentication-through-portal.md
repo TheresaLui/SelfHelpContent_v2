@@ -47,7 +47,7 @@
 			"displayLabel": "Which Authentication provider are you using?",
 			"watermarkText": "Authentication provider...",
 			"required": false
-		}, 
+		},
 		{
 			"id": "4",
 			"order": 4,

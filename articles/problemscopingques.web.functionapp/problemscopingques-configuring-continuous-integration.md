@@ -65,7 +65,7 @@
 		},
 		{
 			"id": "problem_description",
-			"order": 6,
+			"order": 7,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
