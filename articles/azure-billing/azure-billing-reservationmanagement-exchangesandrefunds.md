@@ -22,7 +22,7 @@ The reserved instance purchase is charged to the payment method tied to the subs
 
 To Learn more, see [Understanding the application of reserved instances billing benefit](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
 
-## Cancellations and exchanges
+### Cancellations and exchanges
 
 ### Reserved VM Instance and SQL Database
 
