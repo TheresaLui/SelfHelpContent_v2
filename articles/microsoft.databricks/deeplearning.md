@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
-	articleID="65774271-0c8c-41c1-901d-9f54035623f1"
+	articleId="65774271-0c8c-41c1-901d-9f54035623f1"
 />
 
 # Deep Learning on Azure Databricks    
