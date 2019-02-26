@@ -4,12 +4,14 @@
 	service="microsoft.databricks"
 	resource="workspaces"
 	authors="mspreshah"
+	ms.author="preshah"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32612194"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleID="fae86ab8-ffc7-407f-bf60-b4973cf046a9"
 />
 
 # Azure Databricks Databricks File System (DBFS)
