@@ -14,7 +14,8 @@
 />
 
 # performance and query execution/monitoring, metrics and alerts
-## **Recommended documents**
+
+## **Recommended Documents**
 
 Azure SQL Database enables you to easily monitor and tune your database workload. An overview of these features as well as features that help you optimize the performance of your database can be found in this [overview](https://docs.microsoft.com/azure/sql-database/sql-database-monitoring-tuning-index?WT.mc_id=pid:13491:sid:32630434/). <br>
 * [Query Performance Insights](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630434/) can be used to easily monitor resource usage in your Azure SQL database (single or pooled database) by using build-in monitoring capabilities in the Azure portal. <br>
