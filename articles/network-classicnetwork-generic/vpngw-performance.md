@@ -1,11 +1,11 @@
 <properties
-	pageTitle="Performance"
-	description="Performance"
+	pageTitle="VPN Gateway Performance issues"
+	description="VPN Gateway Performance issues"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
 	ms.author="radwiv"
-	displayOrder=""
+	displayOrder="41"
 	selfHelpType="generic"
 	supportTopicIds="32591147"
 	resourceTags=""
@@ -14,7 +14,7 @@
 	articleId="cedbd70a-c612-40a9-b727-035005454b9b"
 />
 
-# Performance
+# VPN Gateway Performance issues
 
 ## **Recommended documents**
 [Validate](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet) VPN throughput to a Virtual Network
