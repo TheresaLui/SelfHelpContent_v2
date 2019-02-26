@@ -34,10 +34,10 @@
 
 ### To Estimate costs with EA pricing
 
-1. Sign in to the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/).
-2. Under **Programs and Offer > Licensing Program**, select **Enterprise Agreement (EA)**.
-3. Under **Programs and Offer > Selected agreement**, select **None selected**. Then choose the organization and select **Apply**.
-4. Search and add products to your estimate. The Estimated prices that are shown are based on pricing for the organization you selected.
+1. Sign in to the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/). <br>
+2. Under **Programs and Offer > Licensing Program**, select **Enterprise Agreement(EA)**.<br>
+3. Under **Programs and Offer > Selected agreement**, select **None selected**. Then choose the organization and select **Apply**.<br>
+4. Search and add products to your estimate. The Estimated prices that are shown are based on pricing for the organization you selected.<br>
 
 
 ## **Recommended Documents**
