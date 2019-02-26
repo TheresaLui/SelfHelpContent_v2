@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32583111"
