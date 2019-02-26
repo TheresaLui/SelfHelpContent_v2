@@ -72,7 +72,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses",
             "required": false,
-            "useAsAdditionalDetails": false]
+            "useAsAdditionalDetails": false
         },
         {   "id": "onprem_config_script",
             "order": 5,
