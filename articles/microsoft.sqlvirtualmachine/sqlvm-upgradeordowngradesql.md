@@ -16,6 +16,6 @@
 
 # sql administration/upgrade or downgrade a SQL edition
 
-## **Recommended steps**
-1. Upgrading to a new SQL version or edition: Currently, there is no in-place upgrade for SQL Server running in an Azure VM. Create a new Azure virtual machine with the desired SQL Server version/edition, and then migrate your databases to the new server using standard data migration techniques.<br>
-[Migrate a SQL Server database to SQL Server in an Azure VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-migrate-sql/)
+## **Recommended Steps**
+
+* Upgrading to a new SQL version or edition: Currently, there is no in-place upgrade for SQL Server running in an Azure VM. Create a new Azure virtual machine with the desired SQL Server version/edition, and then migrate your databases to the new server using [standard data migration techniques](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-migrate-sql/).
