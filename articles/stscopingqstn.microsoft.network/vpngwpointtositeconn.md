@@ -26,19 +26,19 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the issue you're facing",
-            "watermarkText": "Choose an issue",
+            "watermarkText": "Choose an option",
             "dropdownOptions": [
 	    {"value": "Connectionnotestablishing", "text": "Connection not establishing or disconnecting frequently"},
             {"value": "Notreachingdestination", "text": "Not able to reach specific destination"},
 	    {"value": "Packet drops", "text": "Packet drops"},
             {"value": "Throughput", "text": "Throughput"},
             {"value": "Latency", "text": "Latency"},
-            {"value": "Others", "text": "Others"}],
+            {"value": "Other", "text": "Other"}],
             "required": true
         },
         {   "id": "source_dest_IP_address",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Provide source and destination IP addresses (on-premise and/ or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
@@ -49,17 +49,17 @@
             "displayLabel": "Provide the device OS",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [
-                {"text": "Please provide the device OS (Client platform OS version)"}]
+            "hints": [{"text": "Issue description"},
+	    {"text": "Device OS (Client platform OS version)"}]
         },
         {   "id": "P2S_tunneltype",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [{"value": "SSTP", "text": "SSTP"},
-                                {"value": "IPSec", "text": "IPSec"},
-                                {"value": "OpenVPN", "text": "OpenVPN"}],
+            "watermarkText": "Tunnel type",
+            "dropdownOptions": [{"value": "IPSec", "text": "IPSec"},
+	    			{"value": "OpenVPN", "text": "OpenVPN"},
+				{"value": "SSTP", "text": "SSTP"}],
             "required": true
         }
     ]
