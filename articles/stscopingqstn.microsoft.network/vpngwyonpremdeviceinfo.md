@@ -113,8 +113,8 @@
                     "text": "WatchGuard"
                 },
                 {
-                    "value": "Other - Please Specify",
-                    "text": "Other - Please Specify"
+                    "value": "Other - Please specify below",
+                    "text": "Other - Please specify below"
                 }
             ],
             "required": true
