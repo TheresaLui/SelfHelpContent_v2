@@ -5,12 +5,13 @@
 	resource="workspaces"
 	authors="mspreshah"
 	ms.author="preshah"
-	displayOrder="9"
+	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds="32612204"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleID="03fdbfb8-c8ee-4d59-9075-b0c57c86565a"
 />
 
 # RStudio on Azure Databricks  
