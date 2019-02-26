@@ -4,7 +4,7 @@
 	authors="radwiv"
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	articleid="performance"
+	articleid="vpngwperformance"
 	supportTopicIds="32591147"
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
