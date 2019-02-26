@@ -137,7 +137,7 @@
             "controlType": "textbox",
             "displayLabel": "Timestamp from Error message:",
             "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
+            "watermarkText": "Copy the UTC timestamp from the error message or sign in log entry and paste it here",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
