@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
-	articleID="03fdbfb8-c8ee-4d59-9075-b0c57c86565a"
+	articleId="03fdbfb8-c8ee-4d59-9075-b0c57c86565a"
 />
 
 # RStudio on Azure Databricks  
