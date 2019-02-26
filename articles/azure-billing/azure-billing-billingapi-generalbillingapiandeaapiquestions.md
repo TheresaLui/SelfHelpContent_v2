@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9b614f8f-088e-4048-bbac-24ce38f0c9cf"
 />
 
 # General Billing API and EA API questions

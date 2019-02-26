@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596854"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="6c12f109-8f44-4cb6-9273-b1f3f9a75756"
 />
 
 # Microsoft Graph Outlook Issues

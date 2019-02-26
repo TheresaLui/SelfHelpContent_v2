@@ -6,6 +6,7 @@
 	supportTopicIds="32550765, 32550766, 32550767, 32550768, 32550769, 32550770, 32584319, 32584320, 32584321, 32584322, 32584323, 32584324, 32584325, 32584326, 32592926"
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="916e6be3-7566-466d-b357-e22166d803fe"
 />
 #Important
 This Problem is only for Azure Information Protection (AIP) support.

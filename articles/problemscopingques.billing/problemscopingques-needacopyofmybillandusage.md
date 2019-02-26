@@ -2,7 +2,7 @@
 	pageTitle="Need a Copy of My Bill and Usage"
 	description="Need a Copy of My Bill and Usage"
 	articleId="needacopyofmybillandusage"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454862"

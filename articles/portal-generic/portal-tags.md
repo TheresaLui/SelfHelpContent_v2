@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15739"
 	cloudEnvironments="public"
+	articleId="603c25e6-a176-4751-9dfd-0ba5176cb84a"
 />
 
 # Azure Portal

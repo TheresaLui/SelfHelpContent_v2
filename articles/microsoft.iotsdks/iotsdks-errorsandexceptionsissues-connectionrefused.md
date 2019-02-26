@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="90f077ba-08a5-45ba-a4ae-37c8c13f37ac"
 />
 
 # Connection refuse issues

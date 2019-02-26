@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="139d33b8-e7d5-44e6-9e31-f58369e66d57"
 />
 
 # issues signing in or accessing my subscriptions

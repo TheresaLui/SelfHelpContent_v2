@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="56465b59-2d92-46f2-b845-9904744d9b2d"
 />
 
 # My app is getting connectivity errors

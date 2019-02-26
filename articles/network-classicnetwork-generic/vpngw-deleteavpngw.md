@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="030f1f87-5ad3-4944-8440-4e56eb119c50"
 />
 
 # Delete a VPN Gateway

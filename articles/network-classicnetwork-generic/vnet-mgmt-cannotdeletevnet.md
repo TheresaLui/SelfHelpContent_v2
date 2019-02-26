@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="627dab53-d2ea-4306-9b46-a93a32bba7be"
 />
 
 # management/cannotdeletevirtualnetwork

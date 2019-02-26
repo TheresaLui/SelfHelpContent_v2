@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="6db7c6c4-77a8-4a02-a3d0-940f5e1845ce"
 />
 
 # performance/slowconnectiontoservicewithserviceendpoints

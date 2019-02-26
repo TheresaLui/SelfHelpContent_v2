@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="dc8b7881-a23d-42c8-a565-59de21255f05"
 />
 
 # Site Recovery (VMM to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine

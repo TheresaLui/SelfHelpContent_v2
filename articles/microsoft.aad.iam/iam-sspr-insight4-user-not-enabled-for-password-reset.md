@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
-    authorAlias="sahenry"
+    ms.author="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_User_Not_Enabled_For_Password_Reset"
     selfHelpType="diagnostics"

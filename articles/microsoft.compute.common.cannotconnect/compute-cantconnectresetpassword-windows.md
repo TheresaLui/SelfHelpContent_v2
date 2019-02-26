@@ -4,13 +4,14 @@
               service=""
               resource=""
               authors="summertgu,scottAzure"
-              authorAlias="tiag,scotro"
+              ms.author="tiag,scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615529"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="6c04f1f6-0cfe-4a23-bc8a-1f0c2d59aa56"
 />
 
 # I need to reset my password

@@ -7,6 +7,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="ad021338-109f-4290-a45e-f7be9d73fe26"
 />
 # Application Gateway URL
 ---

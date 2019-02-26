@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="14"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="328fa10d-a14a-4f64-aa3e-725965687aa9"
 />
 
 # I want to configure my ExpressRoute circuit

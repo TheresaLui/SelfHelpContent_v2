@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="e2418fdb-2274-4ee9-93d0-4ebf643a87f6"
 />
 
 # Pricing in Azure Cosmos DB

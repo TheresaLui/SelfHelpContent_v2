@@ -10,7 +10,8 @@
     resourceTags="mfa_overview"
     productPesIds="" 
     cloudEnvironments="public" 
-    /> 
+    	articleId="449db255-7710-4c4c-a678-ffd5c73d702c"
+/> 
 # LDAP authentication 
 
 ## **Recommended steps** 

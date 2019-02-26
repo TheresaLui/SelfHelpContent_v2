@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="86df0e1a-c14b-48a6-a7ce-a1a090cd0ca7"
 />
 
 # Set up Intune - Setup administrators and manage roles

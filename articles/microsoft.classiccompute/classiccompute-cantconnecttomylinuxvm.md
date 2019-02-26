@@ -1,23 +1,26 @@
 <properties
-    pageTitle="I can't connect to my Linux VM"
-    description="I can't connect to my Linux VM "
+    pageTitle="I can't connect to my VM"
+    description="I can't connect to my VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
     authors="ScottAzure"
-    authorAlias="scotro"
+    ms.author="scotro"
     displayOrder="2"
     selfHelpType="resource"
-    supportTopicIds="32602159,32615531,32615526"
+    supportTopicIds="32615531,32615526"
     resourceTags="linux,redhat,Ubuntu"
-    productPesIds="16470,15797,15571,16454,15571"
+    productPesIds="16470,15797,15571,16454"
     cloudEnvironments="public"
+    articleId="420298f8-b3fb-49f2-b359-f7cdf357901c"
+    category="connectivity"
+    searchTags="cannot connect, can't connect, connectivity, vm, rdp"
  />
 
-# I can't connect to my Linux VM
+# I can't connect to my VM
 
 4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve common issues, try one or more of the following methods:<br>
 
@@ -32,7 +35,7 @@ To resolve common issues, try one or more of the following methods:<br>
 6. Resize the VM to fix host issues by clicking 'Size' in the Settings blade of the VM resource.<br>
 7. Reset the SSH configuration to fix any SSH issues [using CLI](https://docs.microsoft.com/azure/virtual-machines/linux/classic/reset-access-classic#sshconfigresetcli)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/#detailed-troubleshooting-of-ssh-errors)<br>
 * [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension)

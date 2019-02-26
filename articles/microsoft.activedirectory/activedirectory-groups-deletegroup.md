@@ -8,6 +8,7 @@
     supportTopicIds="32615372"
     productPesIds="16578"
     cloudEnvironments="public"
+	articleId="d326a858-7a12-4e34-bc6c-3277b2fe5866"
 />
 
 # Deleting a group

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
 />
 
 # networkwatcher/nsgflowlogging

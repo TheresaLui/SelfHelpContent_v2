@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="815f1503-16d0-4f37-87ba-f01d6711946a"
 />
 # Set up iOS and Mac device management
 ---
