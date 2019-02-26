@@ -34,8 +34,8 @@
 					"text": "App Service Certificate"
 				},
 				{
-					"value": "external certificate",
-					"text": "external certificate"
+					"value": "External certificate",
+					"text": "External certificate"
 				}
 			],
 			"required": false

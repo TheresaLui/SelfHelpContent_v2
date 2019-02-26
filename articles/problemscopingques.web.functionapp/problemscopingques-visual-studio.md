@@ -30,12 +30,12 @@
 			"displayLabel": "Are you deploying to a deployment slot or directly into production?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "deployment slot",
-					"text": "deployment slot"
+					"value": "Deployment slot",
+					"text": "Deployment slot"
 				},
 				{
-					"value": "production",
-					"text": "production"
+					"value": "Production",
+					"text": "Production"
 				}
 			],
 			"required": false

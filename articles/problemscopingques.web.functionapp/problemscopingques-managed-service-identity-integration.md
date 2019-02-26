@@ -30,12 +30,12 @@
 			"displayLabel": "Are you attempting to authenticate inbound requests to your Function App or authorize the Function on other Azure resources?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "authenticate inbound requests",
-					"text": "authenticate inbound requests"
+					"value": "Authenticate inbound requests",
+					"text": "Authenticate inbound requests"
 				},
 				{
-					"value": "authorize the Function on other Azure resources",
-					"text": "authorize the Function on other Azure resources"
+					"value": "Authorize the Function on other Azure resources",
+					"text": "Authorize the Function on other Azure resources"
 				}
 			],
 			"required": false

@@ -45,7 +45,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What is the custom domain that you are trying to add?",
-			"watermarkText": "Run IDs...",
+			"watermarkText": "custom domain...",
 			"required": false,
 		},
 		{
@@ -53,7 +53,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "What error are you seeing and when are you seeing it?",
-			"watermarkText": "Resource IDs...",
+			"watermarkText": "error...",
 			"required": false,
 		},
 		{

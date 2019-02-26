@@ -30,12 +30,12 @@
 			"displayLabel": "Does the exception occur during the deployment of the application code or with the building out and configuration of the infrastructure?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "deployment of the application code",
-					"text": "deployment of the application code"
+					"value": "Deployment of the application code",
+					"text": "Deployment of the application code"
 				},
 				{
-					"value": "building out and configuration of the infrastructure",
-					"text": "building out and configuration of the infrastructure"
+					"value": "Building out and configuration of the infrastructure",
+					"text": "Building out and configuration of the infrastructure"
 				}
 			],
 			"required": false

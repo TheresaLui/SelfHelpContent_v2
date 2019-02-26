@@ -54,12 +54,12 @@
 			"displayLabel": "How would you describe your HTTP Traffic pattern? Would it be a consistent load or a burst of HTTP traffic intermittently?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "consistent load ",
-					"text": "consistent load "
+					"value": "Consistent load ",
+					"text": "Consistent load "
 				},
 				{
-					"value": "burst",
-					"text": "burst"
+					"value": "Burst",
+					"text": "Burst"
 				}
 			],
 			"required": false

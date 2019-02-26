@@ -54,12 +54,12 @@
 			"displayLabel": "Is the Function processing partially or does it time out",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "time out",
-					"text": "time out"
+					"value": "Partially",
+					"text": "Partially"
 				},
 				{
-					"value": "partially",
-					"text": "partially"
+					"value": "Time out",
+					"text": "Time out"
 				}
 			],
 			"required": false

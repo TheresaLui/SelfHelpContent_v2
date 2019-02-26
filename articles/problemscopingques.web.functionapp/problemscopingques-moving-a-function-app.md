@@ -30,12 +30,12 @@
 			"displayLabel": "Are you moving Function App resources within the same subscription or are you moving resources across different subscriptions?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "same subscription",
-					"text": "same subscription"
+					"value": "Same subscription",
+					"text": "Same subscription"
 				},
 				{
-					"value": "different subscriptions",
-					"text": "different subscriptions"
+					"value": "Different subscriptions",
+					"text": "Different subscriptions"
 				}
 			],
 			"required": false
@@ -63,8 +63,8 @@
 			"displayLabel": "Do any of the apps have SSL certificates configured? If yes, are they custom SSL certificates or Azure App Service Certificates?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "custom SSL certificates",
-					"text": "custom SSL certificates"
+					"value": "Custom SSL certificates",
+					"text": "Custom SSL certificates"
 				},
 				{
 					"value": "Azure App Service Certificates",

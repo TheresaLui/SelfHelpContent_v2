@@ -62,12 +62,12 @@
 			"displayLabel": "Are you deploying to a deployment slot or directly into production?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "deployment slot",
-					"text": "deployment slot"
+					"value": "Deployment slot",
+					"text": "Deployment slot"
 				},
 				{
-					"value": "production",
-					"text": "production"
+					"value": "Production",
+					"text": "Production"
 				}
 			],
 			"required": false
@@ -76,7 +76,7 @@
 			"id": "6",
 			"order": 6,
 			"controlType": "dropdown",
-			"displayLabel": "Have you implemented RUN FROM PACKAGE?",
+			"displayLabel": "Have you implemented 'run from package'?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
