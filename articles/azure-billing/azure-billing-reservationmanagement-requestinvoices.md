@@ -25,32 +25,34 @@ To Learn more, see [Understanding billing for Reserved instances](https://docs.
 
 ### To download your invoice from Azure portal (.pdf)
 
-* Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page in Azure portal as [a user with access to invoices](https://docs.microsoft.com/azure/billing/billing-manage-access).<br>
-* Select **Invoices**.<br>
-* Click **Download Invoice** to view a copy of your PDF invoice. If it says **Not available**, see [Why don't I see an invoice for the last billing period?](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
+* Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page in Azure portal as [a user with access to invoices](https://docs.microsoft.com/azure/billing/billing-manage-access).
+* Select **Invoices**.
+* Click **Download Invoice** to view a copy of your PDF invoice. If it says **Not available**, see [Why don't I see an invoice for the last billing period?](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)
 
 ### To get your invoice in email (.pdf)
 
-* Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.  Click **Invoices** then Email my invoice.<br>
-* Click **opt in** and accept the terms. You will have to opt in for each subscription you own<br>
-_Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile).<br>
+* Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.  Click **Invoices** then Email my invoice.
+* Click **opt in** and accept the terms. You will have to opt in for each subscription you own
+_Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile).
 
 ### To download your usage from the Account Center(.csv)
 
-* Sign into the [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)<br>
-* Select the subscription for which you want the invoice and usage information<br>
-* Select **Billing History**<br>
-* Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated.<br>
-* Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2.<br>
+* Sign into the [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+* Select the subscription for which you want the invoice and usage information
+* Select **Billing History**
+* Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated.
+* Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2.
 
 Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email: [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/) <br>
 
 ### Unable to see invoice for the last billing period
+
 Some possible reasons you might not see an invoice :
-   * You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money.<br>
-   * It's less than 30 days from the day you subscribed to Azure.<br>
-   * The invoice isn't generated yet. Wait until the end of the billing period.<br>
-   * If you're not the Account Administrator, older invoices may not be available to you.<br>
+
+* You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money.
+* It's less than 30 days from the day you subscribed to Azure.
+* The invoice isn't generated yet. Wait until the end of the billing period.
+* If you're not the Account Administrator, older invoices may not be available to you.<br>
 
 ## **Recommended Documents**
 
