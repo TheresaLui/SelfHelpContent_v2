@@ -28,32 +28,36 @@ Learn more on how billing works in the Azure Cloud Solution Provider (Azure CSP
 Learn more on Azure billing for external service charges : [Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)<br>
 
 ### Understand terms on Azure invoice ?
+
 The invoice provides a summary of your charges and provides instructions for payment. However please note :
-  * If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you don't have an invoice.<br>
-  * Up to 24 hours of usage at the end of the previous billing period may show up in your current invoice.<br>
-  * Charges listed on billing statements for international customers are for estimation purposes only. Banks may have different costs for the conversion rates.<br>
+
+* If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you don't have an invoice.
+* Up to 24 hours of usage at the end of the previous billing period may show up in your current invoice.
+* Charges listed on billing statements for international customers are for estimation purposes only. Banks may have different costs for the conversion rates.
 Learn more : [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
 Learn more : [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
 
 ### Need help downloading your invoice and usage ?
+
 Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV) download : [Download invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
 
 ### Need help managing your cost ?
-  * Prevent unexpected costs and charges and get a better idea of your spend : [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
-  * Prevent spending over your credit amount : [Understand spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
-  * Resolve past due balances or pending invoice : [Resolve past due balance](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)<br>
+
+* Prevent unexpected costs and charges and get a better idea of your spend : [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
+* Prevent spending over your credit amount : [Understand spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
+* Resolve past due balances or pending invoice : [Resolve past due balance](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)<br>
   
 Learn more on Azure subscription and service limits, quotas, and constraints : [Subscription and service limits](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 
 ### Need help managing your Subscriptions ?
 
-   * [How to Reactivate Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)<br>
-   * [How to Cancel Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)<br>
-   * [How to transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)<br>
-   * [How to add, update or remove a credit card or debit card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)<br>
-   * [How to switch subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
-   * [How to Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)<br>
-   * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)<br>
+ * [How to Reactivate Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
+ * [How to Cancel Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
+ * [How to transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+ * [How to add, update or remove a credit card or debit card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+ * [How to switch subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+ * [How to Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+ * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)<br>
 
 
 ## **Recommended Documents**
