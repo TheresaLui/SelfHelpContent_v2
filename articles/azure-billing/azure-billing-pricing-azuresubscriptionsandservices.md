@@ -16,12 +16,11 @@
 
 # azure subscriptions and services
 
-
 ## **Recommended Steps**
 
-* Estimate your expected monthly bill using our Pricing Calculator: [Price and estimate the costs for your Azure Products](https://azure.microsoft.com/pricing/calculator/) <br>
-* Learn about Azure service pricing and purchase options: [Azure pricing and purchase options](https://azure.microsoft.com/pricing/) <br>
-* Learn more about service or specific pricing model - [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/) <br>
+* Estimate your expected monthly bill using our Pricing Calculator: [Price and estimate the costs for your Azure Products](https://azure.microsoft.com/pricing/calculator/)
+* Learn about Azure service pricing and purchase options: [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
+* Learn more about service or specific pricing model - [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 	
 ### Enterprise Agreement (EA) 
 
