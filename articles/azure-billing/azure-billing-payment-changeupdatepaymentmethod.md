@@ -43,14 +43,14 @@ _Note:_ If you get an error after you add the credit card, see [Credit card dec
 3. Select **Manage payment methods**.
 4. Select **Delete** for the credit card that you want to delete
 
-_Note:_ You cant remove your credit card if it is associated with other active Microsoft subscriptions. You will need to remove the credit card from all active subscriptions that you have with Microsoft and try again.<br>
+_Note:_ You can't remove your credit card if it is associated with other active Microsoft subscriptions. You will need to remove the credit card from all active subscriptions that you have with Microsoft and try again.<br>
 
 If you want to update payment method to **'invoice'** (direct debit), please open a [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) so we can run a credit check before approving your request. Learn more: [Pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice) <br>
 
 ## **Recommended Documents**
 
-* [Update, change, or remove payment methods ](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [Set up invoicing ](https://azure.microsoft.com/pricing/invoicing/)
+* [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
+* [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
 * [Troubleshoot no subscriptions found issue in Azure portal or Account Center](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found)
 * [Azure portal or Account Center sign-up issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)
 * [Troubleshoot Sign-in Issues for Azure Subscription](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
