@@ -5,7 +5,7 @@
 	resource="workspaces"
 	authors="mspreshah"
 	ms.author="preshah"
-	displayOrder="9"
+	displayOrder="14"
 	selfHelpType="resource"
 	supportTopicIds="32612194"
 	resourceTags=""
