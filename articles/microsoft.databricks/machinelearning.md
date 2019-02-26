@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
-	articleID="46c97f17-7adf-407a-88cc-60da6cbc8e04"
+	articleId="46c97f17-7adf-407a-88cc-60da6cbc8e04"
 />
 
 # Machine Learning on Azure Databricks    
