@@ -4,11 +4,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="bharathsreenivas, arramac"
-<<<<<<< HEAD
-	ms.author="bharathb, arramac"
-=======
    	ms.author="bharathb, arramac"
->>>>>>> 85cde4b3bfb8b2066771b7ce26e45ac10f017d1f
 	displayOrder="92"
 	selfHelpType="resource"
 	supportTopicIds="32597560,32597526"

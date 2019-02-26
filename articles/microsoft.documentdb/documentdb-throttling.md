@@ -3,13 +3,8 @@
 	description="Azure Cosmos DB throttling"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-<<<<<<< HEAD
-	authors="bharathsreenivas, arramac"
-	ms.author="bharathb, arramac"
-=======
 	authors="bharathsreenivas"
 	ms.author="bharathb"
->>>>>>> 85cde4b3bfb8b2066771b7ce26e45ac10f017d1f
 	displayOrder="16"
 	selfHelpType="resource"
 	supportTopicIds="32597563,32597562"
