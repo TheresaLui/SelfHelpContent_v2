@@ -13,7 +13,6 @@
 	cloudEnvironments="public"
 	articleId="3d4805fd-869a-4c92-829c-057fa738757a"
 />
-
 # Azure Cosmos DB Spark Connector
 
 ## **Recommended Steps**
