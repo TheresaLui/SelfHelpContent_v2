@@ -18,7 +18,7 @@ cloudEnvironments="Public, Fairfax"
 />
 
 # Restore deleted workspace
-Log Analytics workspace is often used as central store for data coming from multiple sources and accidental delete could be impactful. The restore operation is available up to 14 days from delete time and it’s unrecoverable afterwards. it recovers the workspace to its state at the time of deletion, but not all dependent resources such as solutions, linked automation account or data sources can be fully recovered, unrecovered resources need to be reconfigured after the workspace recovery. Data ingestion stops when workspace is deleted and this data is unrecoverable. After the workspace recovery, the last data will be of the time of workspace deletion.
+Log Analytics workspace is often used as central store for data coming from multiple sources and accidental delete could be impactful. The restore operation is available up to 14 days from deletion time and it’s unrecoverable afterwards. It recovers the workspace to its state at the time of deletion, but not all dependent resources such as solutions, linked automation account or data sources can be fully recovered, unrecovered resources need to be reconfigured after the workspace recovery. Since data ingestion stops on workspace deletion, the oldest data after workspace recovery is of the workspace deletion time.
 
 ## **Recommended Steps**
 1. Recovery is performed via support case only – submit a new support request for Log Analytics workspace recovery.
