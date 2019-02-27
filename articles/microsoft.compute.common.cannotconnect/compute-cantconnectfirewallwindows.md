@@ -60,4 +60,5 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
 * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
 * [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)<br>
+* [Troubleshooting Windows Firewall with Advanced Security in Windows Server 2012](https://social.technet.microsoft.com/wiki/contents/articles/13894.troubleshooting-windows-firewall-with-advanced-security-in-windows-server-2012.aspx)<br>
 * [Learn more about Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows)
