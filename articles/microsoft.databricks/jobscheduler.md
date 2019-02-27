@@ -16,16 +16,17 @@
 
 # Azure Databricks Job Scheduler  
 
-## **Recommended steps**  
+## **Recommended Steps**  
 
 Below are details on Azure Databricks job scheduling:  
 
-* Important: The number of jobs are limited to 1000 per workspace.  
-* You can run the job on a schedule or immediately. See details [here](https://docs.azuredatabricks.net/user-guide/jobs.html#run-a-job).  
-* You can also [view](https://docs.azuredatabricks.net/user-guide/jobs.html#view-job-run-details) job run details.  
+* Important: The number of jobs are limited to 1000 per workspace
+* You can run the job [on a schedule or immediately](https://docs.azuredatabricks.net/user-guide/jobs.html#run-a-job)
+* You can also [view](https://docs.azuredatabricks.net/user-guide/jobs.html#view-job-run-details) job run details
 
  
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Jobs](https://docs.azuredatabricks.net/user-guide/jobs.html#jobs)  
 
 
