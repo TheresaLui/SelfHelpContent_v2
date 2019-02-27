@@ -47,7 +47,7 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
 	
   **For EA Customers , to review Marketplace invoice:**<br>
 
- Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
+Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
  
  1. Sign in to the [Enterprise portal](https://ea.azure.com/).<br>
  2. Select **Reports**.<br>
