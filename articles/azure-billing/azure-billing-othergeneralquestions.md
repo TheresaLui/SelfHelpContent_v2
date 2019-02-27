@@ -18,30 +18,26 @@
 
 ## **Recommended Steps**
 
-To understand your Azure bill, compare your invoice with the detailed daily usage file and the cost management reports in the Azure portal.
-Learn more : [Understand your Microsoft Azure Bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
+* To [understand your Azure bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill), compare your invoice with the detailed daily usage file and the cost management reports in the Azure portal
+* If you’re an EA customer, see [Understand your bill for Azure customers with an Enterprise Agreement](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
+* Learn more on how billing works in the Azure Cloud Solution Provider (Azure CSP) program, including the billing cycle, pricing, and usage: [Azure CSP Billing Overview](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview/)
+* Learn more on Azure billing for external service charges: [Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)<br>
 
-If you’re an EA customer, see [Understand your bill for Azure customers with an Enterprise Agreement](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
+### **Understand terms on Azure invoice**
 
-Learn more on how billing works in the Azure Cloud Solution Provider (Azure CSP) program, including the billing cycle, pricing, and usage : [Azure CSP Billing Overview](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview/).<br>
+The invoice provides a summary of your charges and provides instructions for payment. However please note:
 
-Learn more on Azure billing for external service charges : [Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)<br>
-
-### **Understand terms on Azure invoice ?**
-
-The invoice provides a summary of your charges and provides instructions for payment. However please note :
-
-* If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you don't have an invoice.
-* Up to 24 hours of usage at the end of the previous billing period may show up in your current invoice.
+* If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you don't have an invoice
+* Up to 24 hours of usage at the end of the previous billing period may show up in your current invoice
 * Charges listed on billing statements for international customers are for estimation purposes only. Banks may have different costs for the conversion rates.
-Learn more : [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
-Learn more : [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
+Learn more: [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
+Learn more: [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
 
-### **Need help downloading your invoice and usage ?**
+### **Need help downloading your invoice and usage**
 
-Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV) download : [Download invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
+Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV) download: [Download invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
 
-### **Need help managing your cost ?**
+### **Managing your cost**
 
 * Prevent unexpected costs and charges and get a better idea of your spend : [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
 * Prevent spending over your credit amount : [Understand spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
