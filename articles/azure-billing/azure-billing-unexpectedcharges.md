@@ -22,7 +22,7 @@ Learn more about how you can prevent unexpected charges with Azure billing and
 
 ### Review costs at the end of your billing cycle
 
-After the end of your billing cycle, your invoice will become available. You can also [download past invoices and detail usage files](https://docs.microsoft.com/en-us/azure/billing/billing-download-azure-invoice-daily-usage-date) to make sure you were charged correctly. For more information about comparing your daily usage with your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/en-us/azure/billing/billing-understand-your-bill).<br>
+After the end of your billing cycle, your invoice will become available. You can also [download past invoices and detail usage files](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) to make sure you were charged correctly. For more information about comparing your daily usage with your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill).<br>
 
 Billing API could also be used to get usage data programmatically.  RateCard API and the Usage API together can be used to get the billed usage.<br>
 
