@@ -18,24 +18,24 @@
 
 ## Recommended Steps
 
-### How is a reserved instance purchase billed?
+### **How is a reserved instance purchase billed ?**
 
 The reserved instance purchase is charged to the payment method tied to the subscription. The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription.<br>
 To Learn more, see [Understanding billing for Reserved instances](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
 
-### To download your invoice from Azure portal (.pdf)
+### **To download your invoice from Azure portal (.pdf)**
 
 * Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page in Azure portal as [a user with access to invoices](https://docs.microsoft.com/azure/billing/billing-manage-access).
 * Select **Invoices**.
 * Click **Download Invoice** to view a copy of your PDF invoice. If it says **Not available**, see [Why don't I see an invoice for the last billing period?](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)
 
-### To get your invoice in email (.pdf)
+### **To get your invoice in email (.pdf)**
 
 * Select your subscription from the [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) page.  Click **Invoices** then Email my invoice.
 * Click **opt in** and accept the terms. You will have to opt in for each subscription you own
 _Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile).
 
-### To download your usage from the Account Center(.csv)
+### **To download your usage from the Account Center(.csv)**
 
 * Sign into the [Azure Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
 * Select the subscription for which you want the invoice and usage information
@@ -45,7 +45,7 @@ _Note:_ If you don't get an email after following the steps, make sure your emai
 
 Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email: [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/) <br>
 
-### Unable to see invoice for the last billing period
+### **Unable to see invoice for the last billing period**
 
 Some possible reasons you might not see an invoice :
 
@@ -65,5 +65,3 @@ Some possible reasons you might not see an invoice :
 * [Understand Reserved Instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea/)
 * [Windows software costs not included with Reserved instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs/)
 * [Reserved Instances in Partner Central Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations/)
-
-
