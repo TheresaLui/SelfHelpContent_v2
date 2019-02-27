@@ -32,11 +32,11 @@ To add or update tax ID, visit [Profile in Azure Account Center](https://porta
 * During subscription purchase, a PO# can be added for a subscription when initially setting up the new subscription by entering in the PO# information on the payment information page, PO Number field.
 * Updating a Purchase Order # online:
 
-    * Login into **Billing** portal, select the **Subscription** that needs to be edited.
-    * On Subscription page select **Change Payment Method** and select **Edit Payment method**.
-    * Enter in PO Number and select **Next**.
-    * This will take the you back to the initial “Choose payment method” page.
-    Select the check at the bottom to **save** changes.
+  1. Login into **Billing** portal, select the **Subscription** that needs to be edited.
+  2. On Subscription page select **Change Payment Method** and select **Edit Payment method**.
+  3. Enter in PO Number and select **Next**.
+  4. This will take the you back to the initial “Choose payment method” page.
+  5. Select the check at the bottom to **save** changes.
 
 EA Customers can change the PO themselves in the EA Portal. The EA admin can also change the PO number on an invoice that is due to be issued.<br>
 	
