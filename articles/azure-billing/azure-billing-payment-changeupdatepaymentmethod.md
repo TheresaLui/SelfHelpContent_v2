@@ -20,7 +20,7 @@
 
 In the Account Center, as an Account Administrator, you can add a new credit card, update an existing credit card, or delete a credit card that you don't use.<br>
 
-### Add a new Credit or debit card
+### **Add a new Credit or debit card**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa).
 2. Select a Subscription. On the right side of the page, select **Manage payment methods**.
@@ -28,7 +28,7 @@ In the Account Center, as an Account Administrator, you can add a new credit car
 
 _Note:_ If you get an error after you add the credit card, see [Credit card declined at Azure sign-up](https://support.microsoft.com/help/4042960/troubleshoot-why-your-debit-card-or-credit-card-is-declined-at-azure-s) <br>
 
-### Update/Change an existing credit or debit card
+### **Update/Change an existing credit or debit card**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa).
 2. Select the Subscription that is linked to the card.
