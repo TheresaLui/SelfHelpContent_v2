@@ -50,7 +50,7 @@ Learn more : [Understand your bill - EA only](https://docs.microsoft.com/azure/b
 
 Learn more on how billing works in Azure Cloud Solution Provider (Azure CSP) program : [Azure CSP Billing](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview) <br>
 
-Learn on reading and understanding your CSP bill : [Azure CSP invoice](https://docs.microsoft.com/en-us/azure/cloud-solution-provider/billing/azure-csp-invoice) <br>
+Learn on reading and understanding your CSP bill : [Azure CSP invoice](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-invoice) <br>
 
 Learn how to prevent unexpected charges and control your costs : [Prevent unexpected charges](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
 
