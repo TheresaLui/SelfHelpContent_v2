@@ -63,4 +63,4 @@ Learn more on how third-party billing : [Azure Marketplace Billing](https://docs
 * [Understand Azure spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 * Understand your Azure billing for external service charges : [How external services are billed](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
 * [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)
-* [Understand Azure Enterprise Agreement administrative roles in Azure](https://docs.microsoft.com/en-us/azure/billing/billing-understand-ea-roles)
+* [Understand Azure Enterprise Agreement administrative roles in Azure](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)
