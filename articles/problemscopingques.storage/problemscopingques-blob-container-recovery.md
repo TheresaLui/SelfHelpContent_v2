@@ -34,7 +34,7 @@
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time the Container was deleted",
+            "displayLabel": "Approximate local time the Container was deleted",
             "required": false
         },
         {

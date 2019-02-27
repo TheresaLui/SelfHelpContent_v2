@@ -20,7 +20,7 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Start time of the latest occurrence",
+			"displayLabel": "Local start time of the latest occurrence",
 			"required": true
 		}, {
 			"id": "error_code_dropdown",

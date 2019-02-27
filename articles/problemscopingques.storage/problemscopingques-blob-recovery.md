@@ -20,7 +20,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time Blob was deleted",
+            "displayLabel": "Approximate local time Blob was deleted",
             "required": false
         },
         {

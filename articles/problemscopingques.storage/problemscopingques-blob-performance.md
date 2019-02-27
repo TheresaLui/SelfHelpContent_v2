@@ -21,7 +21,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate start time of the most recent occurrence",
+            "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
         },
         {

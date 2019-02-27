@@ -56,7 +56,7 @@
             "id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time of the last deletion attempt",
+            "displayLabel": "Approximate local time of the last deletion attempt",
             "required": true
         },
         {

@@ -70,7 +70,7 @@
             "id": "problem_start_time",
             "order": 4,
             "controlType": "datetimepicker",
-            "displayLabel": "Approx date and time of the most recent occurance",
+            "displayLabel": "Approx local date and time of the most recent occurance",
             "required": false
         },
         {
