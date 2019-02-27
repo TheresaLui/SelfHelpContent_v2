@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+    schemaVersion="1"
 />
 
 # Azure Information Protection - Scanner Installation
@@ -52,7 +53,7 @@
             "order": 2,
             "visibility": "problem == upgrade",   
             "controlType": "dropdown",
-            "displayLabel": "Did you run Update-AIPScanner? [upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner)",
+            "displayLabel": "Did you run Update-AIPScanner? <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner)'>upgrading the Azure Information Protection scanner</a>",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
                     "value": "yes",
@@ -69,7 +70,7 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Please provide a copy of the '%localappdata%\Microsoft\MSIP' folder from the server running AIP Scanner. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+            "content": "Please provide a copy of the '%localappdata%\\\\Microsoft\\\\MSIP' folder from the server running AIP Scanner. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -79,7 +80,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
-        },
+        }
     ]
 }
 ---
