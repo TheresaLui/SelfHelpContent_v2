@@ -20,7 +20,7 @@
 
 You can change the payment method for your subscription to invoice by submitting a request to Azure support. Once your request is approved, you will be provided with instructions on how to set up your subscription for the invoice payment method. <br>
 
-### How to request pay by Invoice
+### **How to request pay by Invoice**
 
 1.Sign into the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).<br>
 2. Select **Help + support > New support request**.<br>
