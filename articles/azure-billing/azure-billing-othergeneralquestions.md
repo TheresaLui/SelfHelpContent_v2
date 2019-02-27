@@ -27,7 +27,7 @@ Learn more on how billing works in the Azure Cloud Solution Provider (Azure CSP
 
 Learn more on Azure billing for external service charges : [Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)<br>
 
-### Understand terms on Azure invoice ?
+### **Understand terms on Azure invoice ?**
 
 The invoice provides a summary of your charges and provides instructions for payment. However please note :
 
@@ -37,11 +37,11 @@ The invoice provides a summary of your charges and provides instructions for pay
 Learn more : [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
 Learn more : [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
 
-### Need help downloading your invoice and usage ?
+### **Need help downloading your invoice and usage ?**
 
 Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV) download : [Download invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
 
-### Need help managing your cost ?
+### **Need help managing your cost ?**
 
 * Prevent unexpected costs and charges and get a better idea of your spend : [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
 * Prevent spending over your credit amount : [Understand spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
@@ -49,7 +49,7 @@ Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV)
   
 Learn more on Azure subscription and service limits, quotas, and constraints : [Subscription and service limits](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 
-### Need help managing your Subscriptions ?
+### **Need help managing your Subscriptions ?**
 
  * [How to Reactivate Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
  * [How to Cancel Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
