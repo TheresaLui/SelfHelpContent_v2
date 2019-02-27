@@ -19,15 +19,15 @@
 
 ## **Recommended Steps**
 
-### How do I add/update VAT ID ?
+### **How do I add/update VAT ID ?**
 
 Users should add a VAT ID to their account during the initial purchase and account setup. Should you need to add, update, or experienced an error with VAT ID later please [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
-### How do I add/update TAX ID ?
+### **How do I add/update TAX ID ?**
 
 To add or update tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This tax ID is used for tax exemption calculations and appears on your invoice.
 
-### How do I add/update PO Number ?
+### **How do I add/update PO Number ?**
 
 * During subscription purchase, a PO# can be added for a subscription when initially setting up the new subscription by entering in the PO# information on the payment information page, PO Number field.
 * Updating a Purchase Order # online:
