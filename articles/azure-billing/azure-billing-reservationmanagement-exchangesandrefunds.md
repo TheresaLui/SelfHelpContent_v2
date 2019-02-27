@@ -16,9 +16,9 @@
 
 # Exchanges and Refunds
 
-### **How is a reserved instance purchase billed ?**
+### **Billing for a Reserved Instance purchase**
 
-The reserved instance purchase is charged to the payment method tied to the subscription.  The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription.<br>
+The reserved instance purchase is charged to the payment method tied to the subscription. The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription.<br>
 
 To Learn more, see [Understanding the application of reserved instances billing benefit](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
 
@@ -34,7 +34,7 @@ _Note:_ To request an exchange or cancellation go to the [Reservation Blade](ht
 
 ### **SUSE Software**
 
-You can't cancel or exchange a SUSE plan that you bought. Check your usage to make sure you buy the right plan. For help in identifying what to buy, see [Understand how the SUSE Linux Enterprise software reservation discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges).
+You **can't cancel or exchange** a SUSE plan that you bought. Check your usage to make sure you buy the right plan. For help in identifying what to buy, see [Understand how the SUSE Linux Enterprise software reservation discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges).
 
 ## **Recommended Documents**
 
