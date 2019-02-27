@@ -2,6 +2,7 @@
 	pageTitle="Unable to delete Blob or Container"
 	description="Unable to delete Blob or Container scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602738"
 	productPesIds="16459"
@@ -21,14 +22,6 @@
             "order": 1,
             "controlType": "infoblock",
             "content": "Please ensure that there is no lease or <a href='https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors'>VM attached to the blob or container</a> you are trying to delete."
-        },
-        {
-            "id": "blob_or_container",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Container name or Blob path",
-            "watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
-            "required": false
         },
         {
             "id": "blob_container",
@@ -52,15 +45,23 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "blob_path",
             "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "Blob name of blob path after container name if specific to a blob",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time of the last deletion attempt",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
