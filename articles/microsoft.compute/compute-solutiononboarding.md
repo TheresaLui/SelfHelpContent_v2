@@ -1,20 +1,20 @@
 <properties
-    pageTitle="I could not enable Update Management, Change Tracking and Inventory, or Desired State Configuration"
+    pageTitle="I could not enable Update Management"
     description="Onboarding an automation account to a solution"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="khughes, zjalexander"
-  	ms.author="khughes, zachal"
+    ms.author="khughes, zachal"
     displayOrder="55"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
     productPesIds=""
     cloudEnvironments="public, Fairfax"
-	articleId="d530b6fe-3096-40c1-9ef0-2bc37364bee5"
+    articleId="d530b6fe-3096-40c1-9ef0-2bc37364bee5"
 />
 
-# I could not enable Update Management, Change Tracking and Inventory, or Desired State Configuration
+# I could not enable Update Management
 
 ## **Recommended Steps**
 
