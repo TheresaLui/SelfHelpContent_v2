@@ -66,8 +66,8 @@ Learn how to prevent unexpected charges and control your costs : [Prevent unexp
 
 Learn more on how third-party billing : [Azure Marketplace Billing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
 
+## **Recommended Documents**
 
-Recommended documents
 * Set up billing or credit alerts to monitor and manage billing activity for your accounts: [Set up billing alerts](https://docs.microsoft.com/azure/billing/billing-set-up-alerts)
 * [Understand Azure spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 * Understand your Azure billing for external service charges : [How external services are billed](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
