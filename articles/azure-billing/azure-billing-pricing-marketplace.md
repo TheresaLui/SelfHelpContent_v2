@@ -17,27 +17,27 @@
 # marketplace
 
 
-### **What is Azure Marketplace ?**
+### **Azure Marketplace**
 
-Azure Marketplace is an online applications and services marketplace. Customers (mostly IT pros and developers) can discover, try and buy cloud software solutions built on Azure or built for Azure. Learn more [here](https://azuremarketplace.microsoft.com/marketplace/)
+Azure Marketplace is an online application and services marketplace. Customers (mostly IT pros and developers) can discover, try and buy cloud software solutions built on Azure or built for Azure. Learn more [here](https://azuremarketplace.microsoft.com/marketplace/)
 
-### **How are Azure Marketplace subscriptions priced ?**
+### **Pricing for Azure Marketplace subscriptions**
 
 Pricing varies based on product types and publisher specifications. Pricing models include: **BYOL Model, Free, Free Software Trial, Usage-Based, Monthly Fee**
 
-Learn more on these models and Azure Marketplace in general : [ Marketplace FAQs](https://azure.microsoft.com/marketplace/faq/) <br>
+Learn more on these models and Azure Marketplace in general: [ Marketplace FAQs](https://azure.microsoft.com/marketplace/faq/) <br>
 
-Learn more on Billing for Marketplace service charges : [Understand Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
+Learn more on Billing for Marketplace service charges: [Understand Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
 
-Learn more on Offer specific pricing details : [Azure Pricing](https://azure.microsoft.com/pricing/) <br>
+Learn more on Offer specific pricing details: [Azure Pricing](https://azure.microsoft.com/pricing/) <br>
 
 _Note:_ except for monthly fees, Azure usage charges are applicable to all pricing models unless otherwise stated.<br>
 
 
 ## **Recommended Documents**
 
-* Azure Subscriptions : [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
-* Azure Services : [Azure products](https://azure.microsoft.com/services/)
+* Azure Subscriptions: [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
+* Azure Services: [Azure products](https://azure.microsoft.com/services/)
 * [Azure pricing calculator.](https://azure.microsoft.com/pricing/calculator/)
 * [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 * [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
