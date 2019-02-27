@@ -26,11 +26,11 @@
         {
             "id": "blob_container",
             "order": 3,
-            "controlType": "multiselectdropdown",
+            "controlType": "dropdown",
             "displayLabel": "Blob Container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers?api-version=2018-07-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
@@ -49,7 +49,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Blob path",
-            "watermarkText": "Blob name of blob path after container name if specific to a blob",
+            "watermarkText": "Blob name or path if specific to a blob",
             "required": false
         },
         {
