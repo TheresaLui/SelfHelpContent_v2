@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="6fd8bb4d-4c77-49f3-bc03-db7aebd0040a"
 />
 
 # worker role (paas)/connectivity/unable to connect using RDP

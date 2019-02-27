@@ -4,13 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629700"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="6d7cb39d-cdb2-4f59-95fe-bebd867fed38"
 />
 
 # Firewall Rules

@@ -4,13 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630416"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="9345d055-93c1-4f7c-8978-627cb70cea3f"
 />
 
 # Data Discovery and Classification

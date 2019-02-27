@@ -4,41 +4,54 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="trinadhk"
+	ms.author="trinadhk"
 	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32553299"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="6fff7f67-d153-43f0-89c9-598eba2fe465"
 />
 
 # Azure Windows VM Restore Limitations
 
 ## **Recommended Steps**
+
 **Frequently Asked Questions:**<br>
-- [*How can I restore specific files or folders from IaaS VM?*](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
-- *How to restore IaaS VM to latest/specific recovery point?* Using [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#select-a-restore-point-for-restore), Using [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm), from [restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks), when Key (Key Encryption Key) and Secret (BitLocker Encryption Key) [does not exist in the key vault.](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)<br>
-- [*How to configure static IP address to restored VM?*](https://docs.microsoft.com/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
-- [*How to restore an Encrypted VM?*](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
-- [*How to restore a Domain Controller VM?*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-domain-controller-vms) For Domain Controller VMs, we recommend using Restore Disks and creating a new VM from restored disks.<br>
-- [*How much will it take to restore VM?* Understand factors contributing to restore time.](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#total-restore-time)<br>
-- *How can I attach existing NIC to the restored VM?* Follow [steps](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-remove-nic) to remove from original VM and [steps](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-add-nic) to attach to restored VM.<br>
-- [*How to restore VM with special network configurations?*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-vms-with-special-network-configurations)<br>
+- [How can I restore specific files or folders from Azure Virtual Machine?](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
+- Restore to latest/specific recovery point using:
+	- [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#select-a-restore-point-for-restore)
+	- [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm) 
+	- [Restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
+	
+- [Configure static IP address to restored VM](https://docs.microsoft.com/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
+- [Restore an Encrypted VM](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
+- [Restore when Key (Key Encryption Key) and Secret (BitLocker Encryption Key) does not exist in the key vault?](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)<br>
+- [How to restore a Domain Controller VM?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-domain-controller-vms)<br>
+- How can I attach existing NIC to the restored VM?
+	1. [Remove from original VM](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-remove-nic)
+	2. [Attach to restored VM](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm#vm-add-nic)
+	
+- [Restore VM with special network configurations?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-vms-with-special-network-configurations)<br>
 
 **Limitations**<br>
-- Cross region and cross-subscription restore is not supported.<br>
-* [File/Folder restore limitation with special configuration - **Dynamic Disks, Storage Spaces**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
-* If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal.<br>
-* If you are **unable to see backup items** from the portal then ensure you have [required permission](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) to access backup vault. <br>
-* [Ensure you have appropriate Role Based Access controls in place.](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) <br>
+
+- Restoring backed-up VMs across Zone, Region, subscription or V-Net is not supported
+- [File/Folder restore limitation with special configuration - **Dynamic Disks, Storage Spaces**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
 
 **Common Errors and Workarounds**<br>
-- [Restore failed with Cloud Internal error](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
-- The selected DNS name is already taken(https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
-- The specified virtual network configuration is not correct(https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
-- The specified cloud service is using a reserved IP(https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
 
-## **Recommended documents**
-- [Azure virtual machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#backup-or-restore-taking-time)<br>
+- If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal
+- If you are **unable to see backup items** from the portal then ensure you have [required permission](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) to access backup vault
+- [Ensure appropriate Role Based Access controls in place](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) <br>
+- [Restore failed with Cloud Internal error](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
+- [The selected DNS name is already taken](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
+- [The specified virtual network configuration is not correct](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
+- [The specified cloud service is using a reserved IP](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
+
+## **Recommended Documents**
+
+- [Azure Virtual Machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#restore)<br>
 - [How to restore virtual machine using portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
 - [How to restore virtual machine using PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm)<br>

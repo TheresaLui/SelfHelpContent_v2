@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="75880302-1fbc-4774-9a17-58c349daf9cc"
 />
 
 # sqlassessment-error

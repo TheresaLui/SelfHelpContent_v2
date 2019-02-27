@@ -4,21 +4,22 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
 />
 
 # availability and connectivity/I'm encountering an error when connecting to my database
 
-## **Recommended documents**
+## **Recommended Documents**
 
 ### Error 10928: The session limit for the database is X and has been reached
 
-* The Resource ID indicates which resource governance limit is being hit.  A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections).  For short term mitigation, increase the [service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32630429/) of your database; longer term, tune the workload so it better fits the selected tier. Refer to the [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630429/) feature for assistance analyzing and tuning your workload. <br>
+* The Resource ID indicates which resource governance limit is being hit. A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections). For short term mitigation, increase the [service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32630429/) of your database; longer term, tune the workload so it better fits the selected tier. Refer to the [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630429/) feature for assistance analyzing and tuning your workload. <br>
 
 ### Error 18456: Login failed for user X
 
@@ -34,7 +35,7 @@
 
 ### Login/connection timeouts
 
-* Ensure your application is using a login timeout of at least 15 seconds.  Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32630429/) of your selected service tier.
+* Ensure your application is using a login timeout of at least 15 seconds. Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32630429/) of your selected service tier.
 
 ### Other error not listed
 

@@ -4,13 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630410"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="d2db3abb-c25b-4aba-99a4-8b8408d75558"
 />
 
 # Azure Active Directory Authentication

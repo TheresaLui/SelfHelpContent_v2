@@ -3,18 +3,20 @@
 	description="other third party purchases"
 	service="azure-subscription-management"
 	resource="subscription-management"
-	authors="aashu"
+	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32549162"
+	supportTopicIds="32549161,32549162"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="f931b13e-1d64-47f8-a864-357c04d61031"
 />
 
-# azure subscriptions
+# Azure Subscription Management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
@@ -23,8 +25,7 @@
 * [How to Edit profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
 * [Understand terms on your invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
 * Manage payment - [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)
+* [Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits)
 * [Microsoft Partner Network (MPN) - Benefits, requirements, enroll, and manage](https://partner.microsoft.com/membership/core-benefits#Core%20benefits)
 * [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
-* [Azure Free Trial Account FAQ](https://azure.microsoft.com/pricing/free-trial-faq/)

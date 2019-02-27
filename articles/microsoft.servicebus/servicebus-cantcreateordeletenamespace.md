@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="f031f747-a865-4409-8cf8-e9be297abff6"
 />
 
 # errors and exceptions/can't create or delete namespace
@@ -19,4 +20,6 @@
 [How to delete a namespace](https://docs.microsoft.com/rest/api/servicebus/delete-namespace)<br>
 [Migrating existing solutions To Premium messaging](https://blogs.msdn.microsoft.com/servicebus/2016/07/28/tips-on-migrating-existing-solutions-to-premium-messaging/)<br>
 [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging)<br>
-[Service Bus ACS-to-SAS Migration Guide](https://blogs.msdn.microsoft.com/servicebus/2018/05/18/acs-migration-guide/)
+[Service Bus ACS-to-SAS Migration Guide](https://blogs.msdn.microsoft.com/servicebus/2018/05/18/acs-migration-guide/)<br>
+[FAQ on Subscription and Namespace management](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-faq#subscription-and-namespace-management)<br>
+[Service Bus ACS-to-SAS Migration Guide](https://blogs.msdn.microsoft.com/servicebus/2018/05/18/acs-migration-guide/)<br>

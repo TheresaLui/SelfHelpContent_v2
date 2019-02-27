@@ -4,13 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629695"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="82e79a60-a01e-4585-84f8-a65ff2d10aab"
 />
 
 # Access Control

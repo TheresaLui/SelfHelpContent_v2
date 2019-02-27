@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="52c5dac9-9768-463b-8095-e4c85cba97d8"
 />
 
 # unable to connect to vm or application via established vpn tunnel

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="112aee4c-bcc1-48f1-a4a1-c490b5bf3a8e"
 />
 
 # Comanagement - Prepare

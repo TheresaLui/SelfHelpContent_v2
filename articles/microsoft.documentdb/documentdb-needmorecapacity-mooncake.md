@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="MoonCake"
+	articleId="409a3eca-3b3d-4fbf-9869-c63e31f7cd08"
 />
 
 # I need more storage/throughput

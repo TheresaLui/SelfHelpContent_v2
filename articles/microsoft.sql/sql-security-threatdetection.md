@@ -4,15 +4,17 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574335"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="a5ff9d09-eeef-4b50-9f4d-cc7ac1d402c8"
 />
 
 # Threat Detection
 
 ## **Recommended Documents**
+
 * [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection/)<br>

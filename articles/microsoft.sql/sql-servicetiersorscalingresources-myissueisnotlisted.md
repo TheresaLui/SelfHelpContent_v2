@@ -4,16 +4,19 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630447"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="b083d487-6502-42ac-8e15-db685b3a96e6"
 />
 
 # service tiers or scaling resources/my issue is not listed
-## **Recommended documents**
+
+## **Recommended Documents**
+
 * [Overview of service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-general-purpose-business-critical?WT.mc_id=pid:13491:sid:32630447/)<br>
 * [General Purpose/Standard tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-general-purpose?WT.mc_id=pid:13491:sid:32630447/)<br>
 * [Business Critical tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tier-business-critical?WT.mc_id=pid:13491:sid:32630447/)<br>

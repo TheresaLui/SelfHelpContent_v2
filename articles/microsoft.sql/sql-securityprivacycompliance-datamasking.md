@@ -4,12 +4,13 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    authorAlias="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630417"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="cb52b502-53eb-4267-a927-6f5938ab3c6c"
 />
 
 # Dynamic Data Masking
