@@ -16,7 +16,7 @@
 
 # supported payment instruments and currencies
 
-### What payment options do I have in purchasing Azure?
+### **What payment options do I have in purchasing Azure?**
 
 * You can purchase Azure using a **credit card** or a **debit card**. Please note that we don't accept prepaid and virtual credit cards. There may be a delay before discounts are reflected on your bill. You are solely responsible for any credit card interest or other credit card charges that may result.
 * The other payment option is to be **invoiced**. Once you opt for the invoice option, you can't move to the credit card option. To sign up for invoicing, please go[ here](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice).
