@@ -33,7 +33,8 @@
   * On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
   * The Total **Usage** amount should match the Total **Extended** Amount on your service overage invoice
   * Go to **Download Usage > Advanced Report Download** to get more information about your charges
-	_Note:_ This report doesn't include taxes, charges for reservations, or marketplace charges
+  
+  _Note:_ This report doesn't include taxes, charges for reservations, or marketplace charges
 	
   ### **For EA Customers: Review Marketplace invoice**
 
@@ -43,8 +44,9 @@
   * Select **Reports**
   * On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
   * The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice
-  * Go to **Download Usage** to get more information about your usage-based charges. Under **Marketplace Charges**, select **Download**.
-	_Note:_  This report doesn't include taxes or show one-time purchases
+  * Go to **Download Usage** to get more information about your usage-based charges. Under **Marketplace Charges**, select **Download**
+  
+  _Note:_  This report doesn't include taxes or show one-time purchases
 
 Learn more: [Understand your bill - EA only](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea) <br>
 
