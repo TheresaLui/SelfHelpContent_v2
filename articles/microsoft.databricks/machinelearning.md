@@ -16,16 +16,15 @@
 
 # Machine Learning on Azure Databricks    
 
-## **Recommended steps**  
+## **Recommended Steps**  
 
 Below are details on using machine learning on Azure Databricks:  
 
-* Use [Databricks Runtime for Machine Learning](https://docs.azuredatabricks.net/user-guide/clusters/mlruntime.html#overview-of-databricks-runtime-for-machine-learning) to setup your environment.  
-* Refer [here](https://docs.azuredatabricks.net/spark/latest/mllib/index.html#apache-spark-mllib) for details on building a distributed machine learning model.   
-* Refer [here](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/azure-databricks) for details and examples on deploying a machine learning model using the Azure Machine Learning service.   
+* Use [Databricks Runtime for Machine Learning](https://docs.azuredatabricks.net/user-guide/clusters/mlruntime.html#overview-of-databricks-runtime-for-machine-learning) to setup your environment
+* [Building a distributed machine learning model](https://docs.azuredatabricks.net/spark/latest/mllib/index.html#apache-spark-mllib)
+* [Deploying a machine learning model using the Azure Machine Learning service](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/azure-databricks)   
 
  
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Machine Learning Guide](https://docs.azuredatabricks.net/spark/latest/mllib/index.html#machine-learning)  
-
-
