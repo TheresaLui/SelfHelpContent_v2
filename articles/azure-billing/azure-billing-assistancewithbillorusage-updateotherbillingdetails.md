@@ -37,7 +37,7 @@ Yes. The Account Administrator is the person who set up the Azure account and wh
 No. Updating the profile email address does not update your login email address. To change your login email address, you have to transfer ownership of the account.
 
 * **Does updating my profile address also update my credit card billing address?**<br>
-To learn how to update your billing information, see [Change the credit card used to pay for an Azure subscription](https://docs.microsoft.com/en-us/azure/billing/billing-how-to-change-credit-card). <br>
+To learn how to update your billing information, see [Change the credit card used to pay for an Azure subscription](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card). <br>
 
 * **Why can’t I update the country?**<br>
 Because of technical constraints, we cannot change the country on an existing account. However, you can create an account in the desired country and then migrate your services to that account.
