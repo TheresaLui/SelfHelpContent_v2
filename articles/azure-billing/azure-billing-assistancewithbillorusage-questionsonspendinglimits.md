@@ -21,7 +21,7 @@
 ### **Remove spending limit in Account Center**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions)
-2. Select a subscription. If the subscription is disabled due to the spending limit being reached, click this notification: "_Subscription reached the Spending Limit and has been disabled to prevent charges._" Otherwise, click **Remove spending limit** in the **Subscription Status** area.
+2. Select a subscription. If the subscription is disabled due to the spending limit being reached, click this notification: "_Subscription reached the Spending Limit and has been disabled to prevent charges._" Otherwise, click **Remove spending limit** in the **Subscription Status** area
 3. Select an option that is appropriate for you:
 
    * **Remove spending limit indefinitely** will remove the spending limit without turning it on automatically at the start of the next billing period
