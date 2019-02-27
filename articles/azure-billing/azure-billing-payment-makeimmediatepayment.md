@@ -16,11 +16,11 @@
 
 # make immediate payment
 
-### Invoice Payments
+### **Invoice Payments**
 
 For Invoice (direct debit) payments, please send your payment to the location listed at the bottom of your invoice.
 
-### Payments with credit/debit card
+### **Payments with credit/debit card**
 
 * If your payment isn't received or if we can't process your payment, you might get an email or see a Past due balance notification alert in the Account Center or Azure portal : [How to resolve past due balance for your Azure Subscription](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)
 * The payment may have failed to process if the credit card on file has expired or the charge was declined by your bank. The [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can review and update the credit card in the Account Center : [How to add, update or remove a credit or debit card for Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
