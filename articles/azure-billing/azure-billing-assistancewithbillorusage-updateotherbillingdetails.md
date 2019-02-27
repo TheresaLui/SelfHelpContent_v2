@@ -18,14 +18,14 @@
 
 ## **Recommended Steps**
 
-### How to change/update your profile information?
+### **How to change/update your profile information?**
 
   1. Sign in to the [Azure Account Center](https://account.azure.com/Profile).
   2. Select the **Edit details** button, and then update the **Profile** information.
 
 Learn more : [Manage account](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile) <br>
 
-### Frequently asked questions
+### **Frequently asked questions**
 
 * **Can notifications be sent to a different email address other than the Account Administrator email address associated with my account?**<br>
 Yes. The email address on the account gets important notifications about all the subscriptions under the account. So we recommend that you specify a contact email address that the Account Administrator checks regularly.
@@ -42,7 +42,7 @@ To learn how to update your billing information, see [Change the credit card us
 * **Why can’t I update the country?**<br>
 Because of technical constraints, we cannot change the country on an existing account. However, you can create an account in the desired country and then migrate your services to that account.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to manage payment - Update, Change or Remove payment methods]()
 * [How to request copy of Azure invoice and usage data]()
