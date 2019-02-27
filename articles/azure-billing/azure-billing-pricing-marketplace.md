@@ -17,11 +17,11 @@
 # marketplace
 
 
-### What is Azure Marketplace ?
+### **What is Azure Marketplace ?**
 
 Azure Marketplace is an online applications and services marketplace. Customers (mostly IT pros and developers) can discover, try and buy cloud software solutions built on Azure or built for Azure. Learn more [here](https://azuremarketplace.microsoft.com/marketplace/)
 
-### How are Azure Marketplace subscriptions priced?
+### **How are Azure Marketplace subscriptions priced ?**
 
 Pricing varies based on product types and publisher specifications. Pricing models include: **BYOL Model, Free, Free Software Trial, Usage-Based, Monthly Fee**
 
