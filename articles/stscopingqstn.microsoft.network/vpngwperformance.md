@@ -1,6 +1,6 @@
 <properties
-	pageTitle="performance"
-	description="performance"
+	pageTitle="VPN GW Performance"
+	description="VPN GW Performance"
 	authors="radwiv"
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
