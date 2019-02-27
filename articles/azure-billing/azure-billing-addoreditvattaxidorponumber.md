@@ -19,15 +19,15 @@
 
 ## **Recommended Steps**
 
-### **How do I add/update VAT ID?**
+### **Add/update VAT ID**
 
 Users should add a VAT ID to their account during the initial purchase and account setup. Should you need to add, update, or experienced an error with VAT ID later please [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
-### **How do I add/update TAX ID?**
+### **Add/update TAX ID**
 
 To add or update tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This tax ID is used for tax exemption calculations and appears on your invoice.
 
-### **How do I add/update PO Number?**
+### **Add/update PO Number**
 
 * During subscription purchase, a PO# can be added for a subscription when initially setting up the new subscription by entering in the PO# information on the payment information page, PO Number field
 * Updating a Purchase Order # online:
@@ -49,7 +49,7 @@ EA Customers can change the PO themselves in the EA Portal. The EA admin can als
 
 * [How to edit profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
 * Check the list of supported countries/regions and currencies in the Purchase FAQ: [Supported countries/regions and currencies](https://azure.microsoft.com/pricing/faq/)
-* [Manage (Reactivate/cancel/Switch) subscription](https://azure.microsoft.com/pricing/faq/)
+* [Manage (Reactivate/Cancel/Switch) subscription](https://azure.microsoft.com/pricing/faq/)
 * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
 * [How to add, update or remove a credit or debit card from Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
 * [How to associate or add an Azure subscription to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
