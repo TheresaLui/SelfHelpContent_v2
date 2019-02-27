@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Azure AD user provisioning to SaaS applications - How To's"
-	description="Azure AD user provisioning to SaaS applications - How To's"
-	infoBubbleText="Azure AD user provisioning to SaaS applications - How To's"
+	pageTitle="Azure AD user provisioning to SaaS applications - How-To"
+	description="Azure AD user provisioning to SaaS applications - How-To"
+	infoBubbleText="Azure AD user provisioning to SaaS applications - How-To"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
 	authors="asmalser-msft"
@@ -14,7 +14,7 @@
 	CloudEnvironments="Public"
 />
 
-# Azure AD user provisioning to SaaS applications - How To's
+# Azure AD user provisioning to SaaS applications - How-To
 
 For information on how to configure and use the Azure AD user provisioning service, see the articles below:
 
