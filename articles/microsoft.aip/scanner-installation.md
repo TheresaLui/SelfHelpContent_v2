@@ -7,7 +7,7 @@
 	ms.author="orbarak"
 	articleId="Scanner_Installation"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629559"
 	resourceTags=""
 	productPesIds="14997"
