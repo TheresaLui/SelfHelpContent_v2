@@ -64,7 +64,7 @@ Learn on reading and understanding your CSP bill : [Azure CSP invoice](https://d
 
 Learn how to prevent unexpected charges and control your costs : [Prevent unexpected charges](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
 
-Learn more on how third-party billing : [Azure Marketplace Biliing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
+Learn more on how third-party billing : [Azure Marketplace Billing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
 
 
 Recommended documents
