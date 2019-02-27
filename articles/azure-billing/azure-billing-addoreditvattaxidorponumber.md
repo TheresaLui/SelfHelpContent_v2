@@ -38,12 +38,12 @@ To add or update tax ID, visit [Profile in Azure Account Center](https://porta
   4. This will take the you back to the initial “Choose payment method” page.
   5. Select the check at the bottom to **save** changes.
 
-EA Customers can change the PO themselves in the EA Portal. The EA admin can also change the PO number on an invoice that is due to be issued.<br>
-	
-* Sign into [EA portal](ea.azure.com) as EA admin
-* Click on the **Usage Summary** option under Reports on the left hand navigation pane
-* Select the relevant quarter in the usage summary in which the overage usage accrued
-* Select edit beside the PO number on the top right hand side of the summary view.
+EA Customers can change the PO themselves in the EA Portal. The EA admin can also change the PO number on an invoice that is due to be issued.
+
+1. Sign into [EA portal](ea.azure.com) as EA admin<br>
+2. Click on the **Usage Summary** option under Reports on the left hand navigation pane<br>
+3. Select the relevant quarter in the usage summary in which the overage usage accrued<br>
+4. Select edit beside the PO number on the top right hand side of the summary view.<br>
 
 ## **Recommended Documents**
 
