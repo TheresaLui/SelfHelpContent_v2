@@ -16,16 +16,13 @@
 
 # Deep Learning on Azure Databricks    
 
-## **Recommended steps**  
+## **Recommended Steps**  
 
-Below are details on using deep learning on Azure Databricks:  
-
-* Refer [here](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-training-with-horovodrunner) for details on distributed training using HorovodRunner.  
-* Refer [here](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-inference) for details on distributed model inferencing.   
-* Use [this](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/model-inference-performance.html#model-inference-performance-tuning-guide) handy guide for tips on debugging and performance tuning for model inferencing.   
+* [Distributed training using HorovodRunner](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-training-with-horovodrunner)
+* [Distributed model inferencing](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/index.html#distributed-inference)    
+* [Debugging and performance tuning for model inferencing](https://docs.azuredatabricks.net/applications/deep-learning/distributed-deep-learning/model-inference-performance.html#model-inference-performance-tuning-guide)   
 
  
-## **Recommended documents**
-* [Deep Learning Guide](https://docs.azuredatabricks.net/applications/deep-learning/index.html)  
+## **Recommended Documents**
 
-
+* [Deep Learning Guide](https://docs.azuredatabricks.net/applications/deep-learning/index.html)
