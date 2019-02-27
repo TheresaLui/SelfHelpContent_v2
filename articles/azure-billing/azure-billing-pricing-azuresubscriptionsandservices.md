@@ -22,7 +22,7 @@
 * Learn about Azure service pricing and purchase options: [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 * Learn more about service or specific pricing model [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 	
-### **Enterprise Agreement (EA)**
+### **Enterprise Agreement(EA)**
 
 ### **View and download EA pricing**
 
