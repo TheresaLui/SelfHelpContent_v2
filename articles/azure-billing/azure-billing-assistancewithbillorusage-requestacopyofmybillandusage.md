@@ -28,9 +28,9 @@ You can download your invoice or have it sent in email:
 
 ### **Get your invoice in email (.pdf)**
 
-  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).  Click **Invoices** then Email my invoice.
+  1. Select your subscription from the [Subscriptions page](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).  Click **Invoices** then Email my invoice
   2. Click **opt in** and accept the terms. You will have to opt in for each subscription you own
-_Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile).
+_Note:_ If you don't get an email after following the steps, make sure your email address is correct in the [communication preferences on your profile](https://account.windowsazure.com/profile)
 
 ### **Download your usage from the Account Center(.csv)**
   
@@ -38,19 +38,19 @@ _Note:_ If you don't get an email after following the steps, make sure your emai
   2. Select the subscription for which you want the invoice and usage information
   3. Select **Billing History**
   4. Select **View Current Statement** to see an estimate of your charges at the time the estimate was generated
-  5. Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2.
+  5. Select **Download Usage** to download the daily usage data as a CSV file. If you see two versions available, download version 2
 
 For more information about your daily usage, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill). For help managing costs, see [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
 
-Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email: [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/).
+Instead of [downloading your invoice](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) every month, you can now opt-in to receive your invoice statement attached to your monthly billing email: [Azure invoices emailed direct to your inbox](https://azure.microsoft.com/blog/azure-email-invoices/)
 
 ### **Unable to see invoice for the last billing period**
 
 Some possible reasons you might not see an invoice:
 
-  * You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money.
+  * You have a monthly credit amount with your subscription that you didn't exceed or you have a Free Trial. An invoice is only generated when you owe money
   * It's less than 30 days from the day you subscribed to Azure
-  * The invoice isn't generated yet. Wait until the end of the billing period.
+  * The invoice isn't generated yet. Wait until the end of the billing period
   * If you're not the Account Administrator, older invoices may not be available to you
 
 * Learn more on Marketplace invoice and usage: [Azure marketplace charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
