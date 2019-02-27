@@ -7,12 +7,11 @@
 	ms.author="orbarak"
 	articleId="Scanner_Installation"
 	displayOrder=""
-	selfHelpType="problemScopingQuestions"
+	selfHelpType="generic"
 	supportTopicIds="32629559"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
-    schemaVersion="1"
 />
 
 # Azure Information Protection - Scanner Installation
