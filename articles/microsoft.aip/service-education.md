@@ -23,6 +23,7 @@
 * [The default Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-default)<br>
 * [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-new-label)<br>
 * [How to configure a label for Rights Management protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-protection)<br>
+* [User Guide: Classify and protect a file or email by using Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-classify-protect)<br>
 * [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
 * [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
