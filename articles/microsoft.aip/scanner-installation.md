@@ -15,8 +15,6 @@
 />
 
 # Azure Information Protection - Scanner Installation
-
-# Problem with AIP Scanner install/upgrade 
 ---
 {
     "resourceRequired": false,
@@ -49,10 +47,26 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
+		{
+            "id": "upgradeproblem",
+            "order": 2,
+            "visibility": "problem == upgrade",   
+            "controlType": "dropdown",
+            "displayLabel": "Did you run Update-AIPScanner? [upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner)",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "yes",
+                    "text": "yes"
+                },{
+                    "value": "no",
+                    "text": "no"
+                }],
+            "required": true
+        },
         {
             "id": "filesToUpload",
             "visibility": "true",
-            "order": 5,
+            "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Please provide a copy of the '%localappdata%\Microsoft\MSIP' folder from the server running AIP Scanner. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
