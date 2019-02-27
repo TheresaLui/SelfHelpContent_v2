@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-### Understand your Bill ?
+### **Understand your Bill ?**
 
   * To obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV): [Get invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
   * In the .CSV file, the top section of the file shows services you are being billed for, and the next section has a daily breakdown of the same information
@@ -26,7 +26,7 @@
   * Understand terms on your invoice : [Azure invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
   * Understand terms on Azure Usage charges : [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 
-  ### For EA Customers : Review service overage invoice
+  ### **For EA Customers : Review service overage invoice**
 
   * Sign in to the [Enterprise portal](https://ea.azure.com/).
   * Select **Reports**.
@@ -35,7 +35,7 @@
   * Go to **Download Usage > Advanced Report Download** to get more information about your charges. 
 	_Note:_ This report doesn't include taxes or charges for reservations or marketplace charges.
 	
-  ### For EA Customers : Review Marketplace invoice
+  ### **For EA Customers : Review Marketplace invoice**
 
   Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.
   
