@@ -22,9 +22,9 @@
 * Learn about Azure service pricing and purchase options: [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 * Learn more about service or specific pricing model - [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 	
-### Enterprise Agreement (EA) 
+### **Enterprise Agreement (EA)**
 
-### View and download EA pricing
+### **View and download EA pricing**
 
 1. Sign in to the [Azure portal](https://portal.azure.com/) as EA admin
 2. Search on **Cost Management + Billing**
@@ -32,7 +32,7 @@
 4. Select **Download** for the month.
 5. Under **Price Sheet**, select **Download csv**.
 
-### To Estimate costs with EA pricing
+### **To Estimate costs with EA pricing**
 
 1. Sign in to the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/). <br>
 2. Under **Programs and Offer > Licensing Program**, select **Enterprise Agreement(EA).**<br>
