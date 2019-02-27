@@ -37,24 +37,24 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   * Understand terms on Azure Usage charges : [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 
   **For EA Customers , to review service overage invoice :**<br>
-
-1. Sign in to the [Enterprise portal](https://ea.azure.com/).<br>
-2. Select **Reports**.<br>
-3. On the top right-hand corner of the tab, switch the view from **M** to **C **and match the period on the invoice.<br>
-4. The Total **Usage** amount should match the Total **Extended** Amount on your service overage invoice.<br>
-5. Go to **Download Usage > Advanced Report Download** to get more information about your charges.<br>
-_Note:_ This report doesn't include taxes or charges for reservations or marketplace charges.<br>
+  
+  1. Sign in to the [Enterprise portal](https://ea.azure.com/).<br>
+  2. Select **Reports**.<br>
+  3. On the top right-hand corner of the tab, switch the view from **M** to **C **and match the period on the invoice.<br>
+  4. The Total **Usage** amount should match the Total **Extended** Amount on your service overage invoice.<br>
+  5. Go to **Download Usage > Advanced Report Download** to get more information about your charges.<br>
+  _Note:_ This report doesn't include taxes or charges for reservations or marketplace charges.<br>
 	
   **For EA Customers , to review Marketplace invoice:**<br>
 
  Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
-
-1. Sign in to the [Enterprise portal](https://ea.azure.com/).<br>
-2. Select **Reports**.<br>
-3. On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice.<br>
-4. The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice.<br>
-5. Go to **Download Usage** to get more information about your usage-based charges, . Under **Marketplace Charges**, select **Download**.<br>
-_Note:_  This report doesn't include taxes or show one-time purchases.<br>
+ 
+ 1. Sign in to the [Enterprise portal](https://ea.azure.com/).<br>
+ 2. Select **Reports**.<br>
+ 3. On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice.<br>
+ 4. The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice.<br>
+ 5. Go to **Download Usage** to get more information about your usage-based charges, . Under **Marketplace Charges**, select **Download**.<br>
+ _Note:_  This report doesn't include taxes or show one-time purchases.<br>
 
 Learn more : [Understand your bill - EA only](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
 
@@ -72,4 +72,4 @@ Recommended documents
 * [Understand Azure spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 * Understand your Azure billing for external service charges : [How external services are billed](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
 * [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)
-* [ Understand Azure Enterprise Agreement administrative roles in Azure](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)
+* [Understand Azure Enterprise Agreement administrative roles in Azure](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)
