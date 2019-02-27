@@ -31,6 +31,6 @@ NSGs by default deny connections from Internet unless it is explicitly allowed. 
 * [Network Security Groups (NSGs) Overview](https://docs.microsoft.com/azure/virtual-network/security-overview)<br>
 * [How to troubleshoot Network Security Groups (NSGs)](https://docs.microsoft.com/azure/virtual-network/diagnose-network-traffic-filter-problem)<br>
 * [How to configure Network Watcher to troubleshoot NSG issues](https://docs.microsoft.com/azure/network-watcher/network-watcher-create)<br>
-* [How to configure NSG logs in the Azure portal](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
+* [How to configure NSG logs in the Azure portal](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-portal)<br>
 * [How to read NSG logs generated from Network Watcher](https://docs.microsoft.com/azure/network-watcher/network-watcher-read-nsg-flow-logs)<br>
 * [Filter network traffic with a network security group using the Azure Portal](https://docs.microsoft.com/azure/virtual-network/tutorial-filter-network-traffic)
