@@ -16,6 +16,60 @@
 
 # Azure Information Protection - Scanner Installation
 
+# Problem with AIP Scanner install/upgrade 
+---
+{
+    "resourceRequired": false,
+    "title": "Problem with AIP Scanner install/upgrade",
+    "fileAttachmentHint": "Upload the ZIP file",
+    "formElements": [
+        {
+            "id": "problem",
+            "visibility": "true",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "What problem are you having",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "New installation",
+                    "value": "installation"
+                },
+                {
+                    "text": "Upgrade",
+                    "value": "upgrade"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "filesToUpload",
+            "visibility": "true",
+            "order": 5,
+            "controlType": "infoblock",
+            "displayLabel": null,
+            "content": "Please provide a copy of the '%localappdata%\Microsoft\MSIP' folder from the server running AIP Scanner. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+    ]
+}
+---
+
 If you are upgrading and not performing a clean installation, please make sure you have followed the guidelines for [upgrading the Azure Information Protection scanner]( https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide#upgrading-the-azure-information-protection-scanner).
 
 An alternate configuration is needed for any of the below reasons: 
