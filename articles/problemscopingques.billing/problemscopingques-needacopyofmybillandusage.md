@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Request a Copy of My Bill and Usage"
 	description="Request a Copy of My Bill and Usage"
-	articleId="requestacopyofmybillandusage"
+	articleId="needacopyofmybillandusage"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
