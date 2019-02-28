@@ -4,6 +4,7 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="scottazure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32513964,32632323"
