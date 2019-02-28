@@ -53,7 +53,7 @@
 	            "useAsAdditionalDetails": true,
 	            "displayLabel": "Reservation Order ID",
 	            "watermarkText": "Provide your Reservation Order id",
-	            "required": true,
+	            "required": true
        },
        {
 	 "id": "reservationid_details",
@@ -62,14 +62,14 @@
 	            "useAsAdditionalDetails": true,
 	            "displayLabel": "Reservation ID",
 	            "watermarkText": "Provide your Reservation id",
-	            "required": true,
+	            "required": true
        },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",  ---> Please provide the following:
+            "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
             "required": true,
             "hints": [
