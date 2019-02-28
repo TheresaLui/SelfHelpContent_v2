@@ -49,7 +49,7 @@
       "useAsAdditionalDetails": true,
       "displayLabel": "Account Administrator's Email Address",
       "watermarkText": "Provide the account admin's email address",
-      "required": true
+      "required": true,
       "hints": [
                 {
                     "text": "Learn more:  <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'>Account Admin</a>."
