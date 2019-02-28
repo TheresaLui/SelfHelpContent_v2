@@ -4,6 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
+	ms.authors="srinathvasireddy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32612995"
@@ -15,11 +16,11 @@
 # Backup Files & Folders using Azure Backup agent
 
 ## **Recommended Documents**
-**Common Questions**<br>
-- [How to configure Backup for Files and Folders using Azure Backup Agent?](https://aka.ms/AB-AA4dwtm)<br>
+
+- [Configure Backup for Files and Folders using Azure Backup Agent](https://aka.ms/AB-AA4dwtm)<br>
 - [Network and Connectivity Requirements for Files and Folders Backup](https://aka.ms/AB-AA4dp51)<br>
 - How to restore files to: [**original location**](https://aka.ms/AB-AA4dwtj) (or) [**alternative location**?](https://aka.ms/AA4f1qz)<br>
-- [How to Monitor and Manage Backup?](https://aka.ms/AB-AA4dwtn)<br>
-- [How to change the scratch folder location?](https://aka.ms/AB-AA4dp54)<br>
+- [Monitor and Manage Backup](https://aka.ms/AB-AA4dwtn)<br>
+- [Change the scratch folder location](https://aka.ms/AB-AA4dp54)<br>
 - [Drives needed or supported for offline seeding](https://aka.ms/AB-AA4dp4z)<br>
-- [How to delete files and folder backup and delete registered MAB server from portal?](https://aka.ms/AB-AA4dwtp)<br>
+- [Delete files and folder backup and delete registered MAB server from portal](https://aka.ms/AB-AA4dwtp)<br>
