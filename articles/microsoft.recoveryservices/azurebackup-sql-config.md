@@ -3,8 +3,8 @@
                 description="Azure Backup SQL Config failures"
                 service="microsoft.recoveryservices"
                 resource="vaults"
-                authors="srinathv
-		ms.author="srinathv""
+                authors="srinathv"
+		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
                 supportTopicIds="32605793"
