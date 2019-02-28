@@ -32,7 +32,6 @@
       "controlType": "dropdown",
       "displayLabel": "Choose the type of Payment Method",
       "watermarkText": "Choose the type of Payment Method",
-      "required": true,
       "dropdownOptions": [
                           {
                            "value": "Invoice",
@@ -42,7 +41,8 @@
                            "value": "Credit Card",
                            "text": "Credit Card"
                           }
-                         ]
+                         ],
+      "required": true
      },
      {
       "id": "browser_details1",
@@ -50,7 +50,6 @@
       "controlType": "dropdown",
       "displayLabel": "Browser Information",
       "watermarkText": "Choose the browser",
-	  "required": true,
       "dropdownOptions": [
                           {
                            "value": "Apple Safari",
@@ -76,7 +75,8 @@
                            "value": "Other",
                            "text": "Other"
                           }
-			]
+			],
+		  "required": true
 	 },
 	 {
       "id": "browser_details2",
@@ -85,7 +85,17 @@
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
       "required": true
-     }
+     },
+ {
+      "id": "problem_description",
+      "order": 4,
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Error message (if applicable)",
+      "watermarkText": "Provide any error message or additional information about your issue",
+      "required": true
+   }
+
     ]
 }
 ---
