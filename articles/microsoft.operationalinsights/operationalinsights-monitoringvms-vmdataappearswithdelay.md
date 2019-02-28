@@ -20,6 +20,7 @@ cloudEnvironments="Public, Fairfax"
 # VM data appears with delay
 
 The total ingestion time includes:
+
 * Agent time - The time it takes the agent to collect and send a log to Azure Monitor ingestion point.
 * Pipeline time - The time for the ingestion pipeline to process the log record.
 * Indexing time - The time spent to ingest a log record into Azure Monitor big data store.<br>
@@ -28,12 +29,14 @@ The total ingestion time includes:
 
 * Review the [Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for service availability and issues.
 * Review the ingestion aspects and the expected latency for your scenario:<br>
+
     * [Agent collection latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-collection-latency)
     * [Agent upload frequency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-upload-frequency)
     * [Management solutions data collection](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#management-solutions-collection)
     * [Data process time in pipeline](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#pipeline-process-time)
     * [New custom data types provisioning time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#new-custom-data-types-provisioning)
     * [Indexing time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#indexing-time)<br>
+
 * Query your workspace to [measure the ingestion time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)<br>
 
 ## **Recommended Documents**
