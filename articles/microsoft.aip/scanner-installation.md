@@ -44,3 +44,5 @@ If you still experience issues, please export the scanner logs and add them to y
 * [Update-AIPScanner Overview](https://docs.microsoft.com/powershell/module/azureinformationprotection/update-aipscanner?view=azureipps)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)
+
+

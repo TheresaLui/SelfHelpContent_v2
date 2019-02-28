@@ -26,7 +26,7 @@ Some common error messages and resolution steps:
   <ol>
     <li>Device Cap Reached - The user has more devices enrolled than the device limit. Review these documents to <a href="https://docs.microsoft.com/intune/devices-wipe" target="_blank">remove a device</a> or <a href="https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-limit-restrictions" target="_blank">change the device limit</a>.</li>
     <li>This Service is not supported. No Enrollment Policy - Apple Push Notification Service (APNS) needs to be configured or renewed. Review <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get" target="_blank">this document</a> for instructions on how to do that.</li>
-    <li>User License Type Invalid or User Name Not Recognized - The user needs to be assigned an Intune or EMS license. Review these documents to assign a license through: <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">Office Admin Center</a> or <a href="https://docs.microsoft.com/azure/active-directory/license-users-groups" target="_blank">Azure portal<a/></li>
+    <li>User License Type Invalid or User Name Not Recognized - The user needs to be assigned an Intune or EMS license. Review these documents to assign a license through: <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">Office Admin Center</a> or <a href="https://docs.microsoft.com/azure/active-directory/license-users-groups" target="_blank">Azure portal</a></li>
   </ol>
 <br/>
 	Additional resources to help resolve your issue:

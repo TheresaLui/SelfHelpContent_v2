@@ -31,6 +31,8 @@
 5. If you are still experiencing the issue, please collect AIP logs with selecting "Export logs" from the "Protect -> Help and feedback". The **Export Logs** automatically collects and attaches log files for the Azure Information Protection client if you have been asked to send these to Microsoft Support. This option can also be used by end users to send these log files to your help desk. **Please attach the exported logs to this ticket**.
 6. If you have **issues with installing** the client itself, please go to folder %temp% and provide the AIP installation log files that start with "Microsoft_Azure_Information_Protection_XXXXXXXXXX.log"
 
+If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket.
+
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook

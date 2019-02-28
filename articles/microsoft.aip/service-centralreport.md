@@ -16,6 +16,8 @@
 
 # Azure Information Protection service - Central Reporting
 
+If you are not seeing data or receiving an error message when trying to access Log Analytics Dashboard, please verify that you have the [Permissions required for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
+
 ## **Recommended Documents**
 
 * [Central reporting for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/reports-aip)<br>
