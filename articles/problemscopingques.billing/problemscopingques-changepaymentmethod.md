@@ -17,8 +17,7 @@
 	"resourceRequired": false,
 	"title": "Change Payment Method",
 	"fileAttachmentHint": "",
-	"formElements": 
-	[
+	"formElements":[
      {
       "id": "problem_start_time",
       "order": 1,
@@ -46,7 +45,7 @@
      },
      {
       "id": "browser_details1",
-      "order": 2,
+      "order": 3,
       "controlType": "dropdown",
       "displayLabel": "Browser Information",
       "watermarkText": "Choose the browser",
@@ -80,7 +79,7 @@
 	 },
 	 {
       "id": "browser_details2",
-      "order": 3,
+      "order": 4,
       "visibility": "browserdetails1 == Other",    
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
@@ -88,14 +87,13 @@
      },
  {
       "id": "problem_description",
-      "order": 4,
+      "order": 5,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
       "displayLabel": "Error message (if applicable)",
       "watermarkText": "Provide any error message or additional information about your issue",
       "required": true
    }
-
-    ]
+ ]
 }
 ---
