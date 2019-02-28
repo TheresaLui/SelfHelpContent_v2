@@ -18,7 +18,7 @@
 
 # Error creating a new volume or volume container 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Use the StorSimple Device Manager service to manage StorSimple volume containers](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers)<br>
-[Use the StorSimple Device Manager service to manage volumes](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2)
+* [Use the StorSimple Device Manager service to manage StorSimple volume containers](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volume-containers)<br>
+* [Use the StorSimple Device Manager service to manage volumes](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-volumes-u2)
