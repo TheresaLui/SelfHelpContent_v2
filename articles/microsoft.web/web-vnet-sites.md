@@ -17,7 +17,7 @@
 # configuration and management/vnet
 
 **New VNet Integration** <br>
-&nbsp;&nbsp;&nbsp;The [New VNet Integration]((https://blogs.msdn.microsoft.com/appserviceteam/2018/10/17/new-app-service-vnet-integration-feature/)) is currently in Preview which means it should not be used for production workloads and there is currently no support for it. <br> 
+&nbsp;&nbsp;&nbsp;The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/10/17/new-app-service-vnet-integration-feature/)) is currently in Preview which means it should not be used for production workloads and there is currently no support for it. <br> 
 
 &nbsp;&nbsp;&nbsp;New VNet Integration FAQ: <br>
 * [New VNet Integration doesn’t support route tables and global peering yet.](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#new-vnet-integration)
