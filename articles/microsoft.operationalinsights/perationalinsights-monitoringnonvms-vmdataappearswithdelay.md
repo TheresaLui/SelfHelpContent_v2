@@ -28,8 +28,8 @@ The total ingestion time includes:
 ## **Recommended Steps**
 
 * Review the [Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for service availability and issues.
-* Review the ingestion aspects and the expected latency for your scenario:
-* [Agent collection latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-collection-latency)<br>
+* Review the ingestion aspects and the expected latency for your scenario:<br>
+    * [Agent collection latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-collection-latency)
     * [Agent upload frequency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#agent-upload-frequency)
     * [Azure activity logs, diagnostic logs and metrics latency](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#azure-activity-logs-diagnostic-logs-and-metrics)
     * [Management solutions data collection](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#management-solutions-collection)
