@@ -3,7 +3,8 @@
                 description="Azure Backup SQL Monitoring and Reporting issues"
                 service="microsoft.recoveryservices"
                 resource="vaults"
-                authors="srinathvasireddy"
+                authors="srinathv"
+		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
                 supportTopicIds="32605794"
@@ -14,9 +15,9 @@
 />
 # Azure Backup SQL Backup Monitoring and Reporting issues
 ## **Recommended Steps**
-- [Can I see details for scheduled backup jobs in the Jobs menu?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#can-i-see-details-for-scheduled-backup-jobs-in-the-jobs-menu)</br>
-- [Do successful backup jobs create alerts?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#do-successful-backup-jobs-create-alerts)</br>
+- [Can I see details for scheduled backup jobs in the Jobs menu?](https://aka.ms/AB-AA4dwuh)</br>
+- [Do successful backup jobs create alerts?](https://aka.ms/AB-AA4dp5u)</br>
 
 ## **Recommended Documents**
-- [FAQs](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#faq)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+- [FAQs](https://aka.ms/AB-AA4dwuc)</br>
+- [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
