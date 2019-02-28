@@ -18,7 +18,7 @@
 
 ## **Recommended steps**
 - [**UserErrorSQLLSNValidationFailure** - Log chain is broken](https://aka.ms/AB-AA4dwu9) </br>
-- **UserErrorCannotTakeBackupBasedOnBackupPreference** - Ensure all VMs/nodes of the AG are [registered](https://aka.ms/AB-AA4dwug) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-properties-new-availability-group-backup-preferences-page) </br>
+- **UserErrorCannotTakeBackupBasedOnBackupPreference** - Ensure all VMs/nodes of the AG are [registered](https://aka.ms/AB-AA4dwug) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://aka.ms/AA4etvp) </br>
 
 ## **Recommended Documents**
 - [FAQs](https://aka.ms/AB-AA4dwuc)</br>
