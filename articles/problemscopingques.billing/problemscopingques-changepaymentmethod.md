@@ -80,7 +80,7 @@
     {
       "id": "browser_details2",
       "order": 4,
-      "visibility": "browserdetails1 == Other",
+      "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
       "required": true
