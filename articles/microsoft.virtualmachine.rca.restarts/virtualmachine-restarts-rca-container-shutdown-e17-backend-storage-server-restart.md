@@ -28,7 +28,7 @@ The stream layer of Azure Storage stores the data on disk and ensures durability
 
 For more information on the stream layer of Azure Storage, refer to the paper [here](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf).<br>
 
-To ensure an increased level of protection and redundancy for your application in Azure, we recommended that you group two or more virtual machines in an availability set.<br>
+To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 
 To learn more about high availability options, refer to the following articles:<br>
 
