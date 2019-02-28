@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_UnableToDelete_DiskDetached_Classic"
 diagnosticScenario="Unable to delete storage due to detached classic disk(s)"
@@ -22,6 +23,8 @@ The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-
 
 <!--$DiskList-->[DiskList]<!--/$DiskList-->
 
-Alternatively, these disks can be deleted during storage account deletion using [Azure Portal](https://portal.azure.com) with the _'Automatically delete unattached disks and images'_ option.
+Alternatively, these disks can be deleted during storage account deletion using [Azure Portal](https://portal.azure.com) with the _'Automatically delete unattached disks and images'_ option selected.
+
+For more information, see [Unmanaged disks: Find and delete unattached disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks#unmanaged-disks-find-and-delete-unattached-disks) and [Errors when deleting classic storage resources](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/storage-classic-cannot-delete-storage-account-container-vhd#unable-to-delete-storage-account)
 
 <!--/issueDescription-->
