@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Subscriptions and Services"
 	description="Azure Subscriptions and Services"
-	articleId="pricing-azuresubscriptionsandservices"
+	articleId="pricing-azuresubscriptionsandservicesscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
