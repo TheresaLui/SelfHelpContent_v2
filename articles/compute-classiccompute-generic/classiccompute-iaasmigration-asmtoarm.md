@@ -16,7 +16,7 @@
 
 # Migration and Move/Migrate IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Frequently asked questions about migration of IaaS resources](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-faq?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
 * [Review most common migration errors](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-errors?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
