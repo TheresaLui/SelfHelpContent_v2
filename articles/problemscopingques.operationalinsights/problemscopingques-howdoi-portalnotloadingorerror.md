@@ -37,7 +37,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "For query problems in Log Analytics workspace portal, please include the 'request id'",
-            "watermarkText": "Request id can be copied in Log Analytics workspace portal, from the ribbon of the results pan",
+            "watermarkText": "Hover and copy it from the ribbon of the results pan",
             "required": false
         },
         {
@@ -53,7 +53,7 @@ schemaVersion="1"
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "What browser and version do you use?",
-            "watermarkText": "Browsers can behave differently and this could give us better perspective about the problem",
+            "watermarkText": "Enter your browser type and version",
             "required": false
         },
         {
