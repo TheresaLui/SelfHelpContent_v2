@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Marketplace"
 	description="Marketplace"
-	articleId="pricing-marketplace"
+	articleId="pricing-marketplacescopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
