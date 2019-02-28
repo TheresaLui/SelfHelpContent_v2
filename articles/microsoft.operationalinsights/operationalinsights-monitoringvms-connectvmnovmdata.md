@@ -21,7 +21,7 @@ cloudEnvironments="Public, Fairfax"
 
 ## **Recommended Steps**
 * If you fail to disconnect Linux agent from the VM, try using the latest [OMS Agent for Linux](https://github.com/Microsoft/OMS-Agent-for-Linux) package with --purge.
-* If you want to receive logs from a VM that doesn't have connection to the Internet, try to [Connect computers without Internet access using the Log Analytics gateway](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/gateway)<br>
+* If you want to receive logs from a VM that doesn't have connection to the Internet, try to [Connect computers without Internet access using the Log Analytics gateway](https://docs.microsoft.com/azure/azure-monitor/platform/gateway)<br>
 
 ## **Recommended Documents**
 * [Troubleshooting the Log Analytics VM extension](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot)
