@@ -6,9 +6,9 @@
 	authors="scottazure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32513964"
+	supportTopicIds="32513964,32632323"
 	resourceTags=""
-	productPesIds="14749"
+	productPesIds="14749,16348"
 	cloudEnvironments="public"
 	articleId="06336d96-d8aa-471e-a610-6f96c2416763"
 />
