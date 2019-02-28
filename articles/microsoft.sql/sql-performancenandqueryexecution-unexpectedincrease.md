@@ -4,6 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+    ms.author="emlisa"
     authorAlias="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
