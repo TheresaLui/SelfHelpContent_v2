@@ -21,7 +21,7 @@ cloudEnvironments="Public, Fairfax"
 
 ## **Recommended Steps**
 * Find answers to many common questions in [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq).
-* View solutions for common problems are available in Azure portal, In your workspace select *'Diagnose and solve problems'* on the left navigation pan.
+* View solutions for common problems are available in Azure portal, In your workspace select *'Diagnose and solve problems'* on the left navigation pane.
 If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights) to search or post your question.
 * Review recent updates and subscribe to notifications to stay informed. We regularly announce product updates in [Azure updates](https://azure.microsoft.com/updates/?product=monitor).
 * Understand [data security](https://docs.microsoft.com/azure/azure-monitor/platform/data-security) constructs such as segregation, retention and compliance.
