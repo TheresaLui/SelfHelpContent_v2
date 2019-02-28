@@ -1,4 +1,5 @@
 <properties
+	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4353"
 	pageTitle="Reservation Management"
 	description="Reservation Management"
 	authors="prdasneo"
@@ -8,12 +9,11 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4353"
 />
-# RESERVATION MANAGEMENT
+# Reservation Management
 ---
 {
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
