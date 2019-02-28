@@ -20,9 +20,10 @@ cloudEnvironments="Public, Fairfax"
 # Advisory or general guidance
 
 ## **Recommended Steps**
+
 * Find answers to many common questions in [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq).
-* View solutions for common problems are available in Azure portal, In your workspace select *'Diagnose and solve problems'* on the left navigation pane.
-If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights) to search or post your question.
+* View solutions for common problems in Azure portal. In your workspace select *'Diagnose and solve problems'* on the left navigation pane.
+* If you didn't find an answer for your inquiry, go to the [discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights) to search or post your question.
 * Review recent updates and subscribe to notifications to stay informed. We regularly announce product updates in [Azure updates](https://azure.microsoft.com/updates/?product=monitor).
 * Understand [data security](https://docs.microsoft.com/azure/azure-monitor/platform/data-security) constructs such as segregation, retention and compliance.
 This article explains how data is collected, processed, and secured by Log Analytics.
@@ -30,6 +31,7 @@ This article explains how data is collected, processed, and secured by Log Analy
 * Understand [Kusto Query Language course](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch) (KQL) used to query Azure's services. It can give you basic syntax of KQL and cover advanced topics as well.<br>
 
 ## **Recommended Documents**
+
 * [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq)
 * [Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=opinsights)
 * [Azure Monitor documentation](https://docs.microsoft.com/azure/azure-monitor/)
