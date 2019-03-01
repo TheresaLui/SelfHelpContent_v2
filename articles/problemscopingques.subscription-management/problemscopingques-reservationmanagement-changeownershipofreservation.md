@@ -65,7 +65,7 @@
       "required": true
     },
     {
-      "id": "reservationid_details",
+      "id": "currentowner_details",
       "order": 5,
       "controlType": "textbox",
       "useAsAdditionalDetails": true,
@@ -74,7 +74,7 @@
       "required": true
     },
     {
-      "id": "reservationid_details",
+      "id": "newowner_details",
       "order": 6,
       "controlType": "textbox",
       "useAsAdditionalDetails": true,
