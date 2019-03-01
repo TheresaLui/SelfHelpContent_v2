@@ -1,28 +1,27 @@
 <properties
-	pageTitle="security/others"
-	description="security/others"
+	pageTitle="security, privacy and compliance/vulnerability assessment"
+	description="security, privacy and compliance/vulnerability assessment"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
+    ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574331"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="b843584a-c756-47a0-af3b-929c59928e58"
 />
 
-# security/others
+# Vulnerability Assessment
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Configure multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Security overview](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview/)<br>
-* [Create and manage firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure/)<br>
+* [Advanced security](https://docs.microsoft.com/azure/sql-database/sql-database-security-index)<br>
 * [Virtual network endpoints and rules](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview/)<br>
-* [Control access](https://docs.microsoft.com/azure/sql-database/sql-database-control-access/)<br>
 * [Manage logins and users](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins/)<br>
-* [Conditional access (MFA)](https://docs.microsoft.com/azure/sql-database/sql-database-conditional-access/)<br>
-* [Configure and manage Azure Active Directory authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure/)

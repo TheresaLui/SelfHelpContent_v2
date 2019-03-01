@@ -5,12 +5,12 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
-    authoralias="v-anreg"
+    ms.author="v-anreg"
     displayOrder=""
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32511166, 32588500, 32588501, 32588502"
+    supportTopicIds="32629001, 32629080, 32628987"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
@@ -33,18 +33,20 @@ To secure the communication with Azure Active Directory, configuration of secure
 
 1. On your Windows computer, open a new PowerShell window as Administrator and type the following commands to create a new self-signed certificate:
 
-      **$lifetime=Get-Date**
+```
+      $lifetime=Get-Date
                 
-      **New-SelfSignedCertificate -Subject \*.<!--$DomainName-->[DomainName]<!--/$DomainName-->** 
+      New-SelfSignedCertificate -Subject *.[DomainName] `
 
-      **-NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment** 
+      -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
    
-      **-Type SSLServerAuthentication -DnsName "*.<!--$DomainName-->[DomainName]<!--/$DomainName-->", "<!--$DomainName-->[DomainName]<!--/$DomainName-->"**
+      -Type SSLServerAuthentication -DnsName "*.[DomainName]", "[DomainName]"
+```
 
-   
- 2. The newly created self-signed certificate is placed in the local machine's certificate store
- 
- 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
+In the preceding sample, replace [DomainName] with the DNS domain name of your managed domain. 
+
+2. The newly created self-signed certificate is placed in the local machine's certificate store
+3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
 
 ## **Recommended Documents**
 

@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627977"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="c6102093-b7b8-4a14-8ff4-c5b23a3a5179"
 />
 
 # Configure ExpressRoute Gateway

@@ -4,13 +4,14 @@
     service="microsoft.insights"
     resource="components"
     authors="mcosner"
-    authorAlias="mcosner"
+    ms.author="mcosner"
     displayOrder="1"
     selfHelpType="resource"
     productPesIds="15693"
     supportTopicIds="32402629,32402626,32602225"
     cloudEnvironments="public"
- />
+ 	articleId="ca41db6f-2d4b-455e-8cbe-8152fc10fb1a"
+/>
  
 # Where's my data?
 

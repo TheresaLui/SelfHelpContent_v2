@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="6a980956-8f4d-45bf-811a-03a30719b024"
 />
 # Enroll Devices - iOS Enrollment
 ---

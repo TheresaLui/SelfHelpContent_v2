@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411841,32602153,32602154"
-	resourceTags="linux, redhat"
+	supportTopicIds="32411841"
+	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
+	articleId="5f467c0f-7f88-4a63-9496-4cf72c764cf9"
 />
 
 # Virtual Disk Management

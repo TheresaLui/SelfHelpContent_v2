@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="0b88631b-2f80-4b01-b326-d1190cb344e6"
 />
 
 # ASC/Purchasing

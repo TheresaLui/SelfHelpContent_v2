@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="f8b35c3f-c5cb-477c-8ed9-9599aa76fb9d"
 />
 
 # Azure Automation - Shared Resources - Credentials

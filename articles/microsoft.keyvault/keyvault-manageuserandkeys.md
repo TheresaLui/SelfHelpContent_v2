@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="43b249d6-fd36-400c-a8b5-f8193345bc47"
 />
 
 # Managing Users and Keys in Key Vault

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="fbd24717-080e-47c8-8b51-0d42c8e41d2a"
 />
 
 # School Data Sync

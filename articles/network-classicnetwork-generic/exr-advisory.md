@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32539942"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="34378b9f-1365-460c-82ca-07fdc4833846"
 />
 
 # General Guidance or Advisory

@@ -2,8 +2,9 @@
 	pageTitle="Error When Connecting to my Database"
 	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
 	authors="keithelm"
+	ms.author="keithelm,muruga,emlisa"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628800"
+	supportTopicIds="32630429"
 	productPesIds="13491"
 	cloudEnvironments="Public"
 	schemaVersion="1"
@@ -15,18 +16,25 @@
 	"resourceRequired": false,
 	"title": "Error When Connecting to my Database",
 	"fileAttachmentHint": "",
+	"diagnosticCard": {
+		"title": "SQL DB Connectivity Troubleshooter",
+    		"description": "Our SQL DB Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+    		"insightNotAvailableText": "We didn't find any insights"
+	},
 "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Please enter the approximate time when the error started occurring.",
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "Please enter the approximate time when the error stopped occurring. If the issue is ongoing, leave this field blank.",
-			"required": false
+			"required": false,
+			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "error_dropdown",
 			"order": 5,
@@ -56,7 +64,8 @@
 					"text": "Other error not listed"
 				}
 			],
-			"required": true
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "info_error_10928",
 			"visibility": "error_dropdown == Error_10928",

@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="fbd7391e-423c-468a-9716-a536279a3d3a"
 />
 # Storage File share or path scoping question
 ---

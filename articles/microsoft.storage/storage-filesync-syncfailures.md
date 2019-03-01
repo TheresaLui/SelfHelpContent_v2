@@ -3,13 +3,15 @@
 	description="Troubleshoot Sync Issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="SibonayK"
+	authors="jeffpatt24"
+	ms.author="jeffpatt"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602769"
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
+	articleId="d27b1391-9bc6-4de4-91dd-69d96abd8205"
 />
 
 # Troubleshooting Azure File Sync Issues with Sync
@@ -18,11 +20,12 @@
 
 **Sync Failures**
 
-- [A file I created directly in my Azure file share is taking a long time to sync to the servers in my sync group](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-change-detection)<br>
-- [Sync fails on a server](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
+- [Sync is failing on a server endpoint](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#common-sync-errors)<br>
 - [Individual files are failing to sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#how-do-i-see-if-there-are-specific-files-or-folders-that-are-not-syncing)<br>
+- [A file I created or modified directly in the Azure file share is taking a long time to sync to the servers in the sync group](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-change-detection)<br>
 - [Server endpoint has a health status of "No Activity" or "Pending" and the server state on the registered servers blade is "Appears offline"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot#server-endpoint-noactivity)<br>
-
+- [Server endpoint has a health status of “No Activity” and the server state on the registered servers blade is “Online”](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#endpoint-noactivity-sync)<br>
+- [Server endpoint health is in a "Pending" state for several hours](https://docs.microsoft.com/azure/storage/files/storage-sync-files-troubleshoot?tabs=portal1%2Cazure-portal#serverendpoint-pending)<br>
 
 **Sync Monitoring**
 

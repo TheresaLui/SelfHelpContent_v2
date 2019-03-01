@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="ff13f5b9-50ad-4aa9-a5e7-262ffa99b28d"
 /> 
 
 # Azure Databricks Scala

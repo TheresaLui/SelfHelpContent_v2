@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="fb152f75-43ed-4dc2-9cbc-40ee7a914e49"
 />
 
 # configuration and setup/how to create an expressroute circuit

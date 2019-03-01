@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="46ed3149-d97e-4b88-8731-33854f6c4ece"
 />
 
 # Networking\Connectivity (VNet or On-Prem)

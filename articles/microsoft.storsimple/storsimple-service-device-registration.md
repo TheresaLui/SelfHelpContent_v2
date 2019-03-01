@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15438"
 	cloudEnvironments="public"
+	articleId="77076037-359b-405d-b6d2-2e0a610e175e"
 />
 
 # Device registration

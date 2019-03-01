@@ -4,31 +4,37 @@
 	service="microsoft.aip"
 	resource="aip"
 	authors="nihendle"
+	ms.author="nihendle, orbarak"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584368"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public"
+	articleId="77cd6fb8-8ea8-4d85-b30f-b45fa7622124"
 />
 
 # Azure Information Protection client - policy isn't working as expected
 
-## Recommended troubleshooting steps
+## **Recommended Steps**
 
-Collect Azure Information Protection client logs and attach the exported logs to this ticket.
+* If you are having issues with visual markings, please review [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied)<br>
+* If you are having issues with automatic labeling, please review [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-classification) and [What the sensitive information types look for](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)<br>
+* If you are having issues with Native/Pfile protection, please review [File API configuration](https://docs.microsoft.com/azure/information-protection/develop/file-api-configuration)
 
-## How to export Azure Information Protection logs
+If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
-1. Open an Office document or create a new email in Outlook.
-2. Select the **Protect** button -> **Help and feedback**.
-3. Select **Export Logs**.
-4. Save the logs to your choice of location, and attach them to this service request.
+## Export Azure Information Protection logs
 
-## **Recommended documents**
+1. Open an Office document or create a new email in Outlook
+2. Select the **Protect** button -> **Help and feedback**
+3. Select **Export Logs**
+4. Save the logs to your choice of location, and attach them to this service request
 
-[Review Azure Information Protection documentation](https://aka.ms/aipdocs)<br>
-[Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
-[Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-[Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
-[Download Azure Information Protection client](http://aka.ms/aipclient)<br>
+## **Recommended Documents**
+
+* [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [Review Azure Information Protection subscriptions and features](https://azure.microsoft.com/pricing/details/information-protection)<br>
+* [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
+* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Download Azure Information Protection client](https://www.microsoft.com/download/details.aspx?id=53018)<br>

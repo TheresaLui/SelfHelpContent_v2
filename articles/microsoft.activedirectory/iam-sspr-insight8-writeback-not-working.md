@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
-    authoralias="sahenry"
+    ms.author="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_Writeback_Not_Working"
     selfHelpType="diagnostics"

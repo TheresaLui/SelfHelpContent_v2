@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629173,32629196,32629217,32629218,32629219,32629252"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="8c9f303c-e4aa-44f8-842b-95648de96c8d"
 />
 
 # Azure Stack Infrastructure Backup
