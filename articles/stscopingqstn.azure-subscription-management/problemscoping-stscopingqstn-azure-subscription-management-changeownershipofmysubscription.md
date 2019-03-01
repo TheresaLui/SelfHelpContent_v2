@@ -15,7 +15,7 @@
 {
   "resourceRequired": false,
   "title": "Change ownership of my subscription",
-  "fileAttachmentHint": "If you are **not** the account admin, provide written (email) permission from the current  Account Administrator as an attachment to the case",
+  "fileAttachmentHint": "If you are **not** the Account Admin, provide written (email) permission from the current  Account Admin as an attachment to the case",
   "formElements": [
     {
       "id": "problem_start_time",
@@ -36,8 +36,8 @@
       "id": "accountadmin_details1",
       "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Are you the current Account Administrator for this subscription?",
-      "watermarkText": "Are you the current Account Administrator for this subscription?",
+      "displayLabel": "Are you the **current** Account Admin for this subscription?",
+      "watermarkText": "Are you the current Account Admin for this subscription?",
       "dropdownOptions": [
         {
           "value": "Yes",
@@ -55,16 +55,16 @@
       "order": 4,
       "visibility": "accountadmin_details1 == No",
       "controlType": "textbox",
-      "displayLabel": " Email address of the current account admin for this subscription",
-      "watermarkText": " Email address of the current account admin for this subscription",
+      "displayLabel": " Email address of the **current** Account Admin for this subscription",
+      "watermarkText": " Email address of the current Account Admin for this subscription",
       "required": true
     },
     {
       "id": "destinationemail_details",
       "order": 5,
       "controlType": "textbox",
-      "displayLabel": " Email address of new Account Administrator",
-      "watermarkText": "Provide the destination email address of the Account Administrator for the account you want to transfer it to",
+      "displayLabel": " Email address of **new** Account Admin",
+      "watermarkText": "Provide the destination email address of the Account Admin for the account you want to transfer it to",
       "infoBalloonText": "This is the person to whom you want to transfer the subscription to",
       "required": true
     },
@@ -73,7 +73,7 @@
       "order": 6,
       "visibility": "accountadmin_details1 == Yes",
       "controlType": "dropdown",
-      "displayLabel": "Did the self-serve subscription ownership transfer option solve your issue?",
+      "displayLabel": "Did the self-serve subscription ownership transfer option solve your issue? _Click the help bubble to learn more on this_",
       "watermarkText": "Did the self-serve subscription ownership transfer option solve your issue? ",
       "infoBalloonText": " <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>Transfer the subscription yourself using the self-serve option</a>.",
       "dropdownOptions": [
@@ -102,8 +102,8 @@
       "order": 9,
       "visibility": "accountadmin_details1 == No",
       "controlType": "dropdown",
-      "displayLabel": "Can you provide written (email) permission from the current  Account Administrator for MSFT to perform the transfer on their behalf?",
-      "watermarkText": "Can you provide written (email) permission from the current  Account Administrator for MSFT to perform the transfer on their behalf?",
+      "displayLabel": "Can you provide written (email) permission from the current  Account Admin for MSFT to perform the transfer on their behalf?",
+      "watermarkText": "Can you provide written (email) permission from the current  Account Admin for MSFT to perform the transfer on their behalf?",
       "dropdownOptions": [
         {
           "value": "Yes",
@@ -136,9 +136,9 @@
       "order": 11,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide all relevant details",
-      "watermarkText": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves",
+      "watermarkText": "Please provide all relevant details of this request including why the current Account Admin cannot provide permission and/or cannot perform themselves",
       "required": false,
-      "infoBalloonText": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves"
+      "infoBalloonText": "Please provide all relevant details of this request including why the current Account Admin cannot provide permission and/or cannot perform themselves"
     },
     {
       "id": "problem_description_1",
