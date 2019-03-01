@@ -1,3 +1,5 @@
+Stripped-down test
+
 <properties
 	pageTitle="Issues Scaling a Database or Elastic Pool"
 	description="Issues Scaling a Database or Elastic Pool"
@@ -90,6 +92,26 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "ongoing_or_completed_updateslo == Currently in progress"
+		},
+		{
+			"id": "problem_description",
+			"order": 6,
+			"controltype": "multilinetextbox",
+			"displayLabel": "Any additional details that might be helpful?",
+			"watermarkText": "Enter any additional details here",
+			"infoBalloonText": "Enter any additional details here",
+			"required": true,
+			"useAsAdditionalDetails": true
+		},
+		{
+			"id": "problem_start_time",
+			"order": 7,
+			"controltype": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"watermarkText": "Specify when the problem started",
+			"infoBalloonText": "Specify when the problem started",
+			"required": true,
+			"useAsAdditionalDetails": false
 		}
 	]
 }
