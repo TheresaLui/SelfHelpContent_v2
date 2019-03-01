@@ -5,6 +5,7 @@
 	service="microsoft.operationalinsights"
 	resource="operationalinsightsaccounts"
 	authors="v-dinova"
+	ms.author="v-dinova"
 	authoralias="v-dinova"
 	displayOrder=""
 	articleId="operationalinsights-troubleshooting-the-onboarding-process"
@@ -61,16 +62,20 @@ This document provides guidance on installing and configuring the solution, and 
    - [Configure the health check rule](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#configure-the-health-check-rule)
    - [Enable the rule for a specific management server](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#enable-the-rule-for-a-specific-management-server)
    - [Configure the run frequency](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#configure-the-run-frequency)
+
 - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#understanding-how-recommendations-are-prioritized)
    - [How weights are calculated](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#how-weights-are-calculated)
    - [Focus areas](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#focus-areas)
    - [Should you aim to score 100% in every focus area?](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#should-you-aim-to-score-100-in-every-focus-area)
+
 - [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#use-health-check-focus-area-recommendations)
    - [View recommendations for a focus area and take corrective action](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-view-recommendations-for-a-focus-area-and-take-corrective-action)
+
 - [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#ignore-recommendations)
    - [Identify recommendations that you want to ignore](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-identify-recommendations-that-you-want-to-ignore)
    - [Create and use an IgnoreRecommendations.txt text file](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-create-and-use-an-ignorerecommendationstxt-text-file)
    - [Verify that recommendations are ignored](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-verify-that-recommendations-are-ignored)
+
 - [System Center Operations Manager Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-solution-faq)
 - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#next-steps)
  
