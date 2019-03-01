@@ -2,7 +2,7 @@
 	pageTitle="Request for Cancellation of a Subscription"
 	description="Request for Cancellation of a Subscription"
 	articleId="requestforcancellationofasubscriptionthirdpartypurchase"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32549163"

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
+	articleId="547f6735-a09e-46e9-bfb4-d59bbecb1284"
 />
 
 # Azure Migrate Service 

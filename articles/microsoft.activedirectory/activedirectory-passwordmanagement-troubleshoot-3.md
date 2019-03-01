@@ -8,7 +8,8 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
- />
+ 	articleId="d51b7536-ae48-4a80-993b-ca27f3b8ec9f"
+/>
 
 # Problems with temporary passwords
 

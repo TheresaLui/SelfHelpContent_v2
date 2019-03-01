@@ -5,7 +5,7 @@
 	service="microsoft.resourcehealth"
 	resource="resourcehealth"
 	authors="stephbaron"
-	authorAlias="stbaron"
+	ms.author="stbaron"
 	articleId="Service-healthevent-article-id"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"

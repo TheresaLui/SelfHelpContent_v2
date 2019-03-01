@@ -8,7 +8,8 @@
     supportTopicIds="32586797"
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="1c1bc5a9-f881-438b-b89b-580da9560292"
+/>
 
 # I can't update the properties of a user in my directory for developers
 

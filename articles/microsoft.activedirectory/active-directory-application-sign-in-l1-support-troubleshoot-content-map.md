@@ -8,7 +8,8 @@
   supportTopicIds="32570955"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="b83faa7d-154d-421e-89b5-ce37511096bf"
+/>
 
 # Issues that are related to signing in to applications
 

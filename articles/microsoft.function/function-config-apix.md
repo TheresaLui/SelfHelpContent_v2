@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="00dd67ae-9d40-400e-b1e8-40ef62974daf"
 />
 
 # Configuring Function Apps/Configuring API metadata

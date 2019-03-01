@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="a10cc50b-d147-4ed6-8f87-b4d7cb1580b5"
 />
 
 # Manage Devices - Synchronize Device

@@ -4,7 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="rolyon"
-    authorAlias="rolyon"
+    ms.author="rolyon"
     displayOrder=""
     articleId=""
     diagnosticScenario=""

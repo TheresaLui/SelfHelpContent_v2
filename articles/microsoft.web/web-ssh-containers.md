@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16333"
 	cloudEnvironments="public"
+	articleId="b418215b-7712-4a07-8d8a-76203b6cc887"
 />
 
 # Configuration and Management/Accessing app using SSH

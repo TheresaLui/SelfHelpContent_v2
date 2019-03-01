@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9c58cce1-dcf8-4f7e-a478-a47041597f06"
 />
 
 # Cost Alerts functionality

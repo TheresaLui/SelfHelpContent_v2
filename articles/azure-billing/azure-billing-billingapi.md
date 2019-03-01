@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="bd66fa79-7dec-43c1-96f0-840c878515ad"
 />
 
 # Billing API

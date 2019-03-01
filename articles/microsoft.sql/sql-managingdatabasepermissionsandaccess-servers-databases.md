@@ -10,11 +10,12 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="3de8d91a-27c4-4cc9-be81-b846ba2da3f3"
 />
 
 # Managing database permissions and access
 
-## **Recommended steps**
+## **Recommended Steps**
 The following details explain how to set up and update common access and permissions rules in Azure SQL Database.
 
 * Change the administrative password for a logical server.<br>
@@ -28,6 +29,6 @@ Click "Reset Password" at the top of the SQL Server resource blade.
 * Set up additional users or logins for high privileged access to the master database.<br>
 [Managing databases and logins in Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-manage-logins/)
 
-## **Recommended documents**
+## **Recommended Documents**
 [Troubleshoot common Azure SQL Database permissions and access issues](http://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-permissions/)<br>
 [Azure SQL Database security guidelines and limitations](http://azure.microsoft.com/documentation/articles/sql-database-security-guidelines/)

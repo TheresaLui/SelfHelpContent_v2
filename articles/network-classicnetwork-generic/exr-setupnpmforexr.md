@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="e4f8d975-04f9-468a-8333-358d0b2160e0"
 />
 
 # configuration and setup/setup npm for expressroute

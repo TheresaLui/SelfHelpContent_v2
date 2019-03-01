@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614256"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="a9a4b125-a404-4095-9439-79931c2f5fdb"
 />
 
 # Session Affinity

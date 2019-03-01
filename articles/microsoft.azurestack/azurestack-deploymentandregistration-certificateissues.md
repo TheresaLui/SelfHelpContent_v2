@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629198, 32629199"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="2fba98c0-a783-4c02-8839-435fe925b104"
 />
 
 # Azure Stack Certificates Issues

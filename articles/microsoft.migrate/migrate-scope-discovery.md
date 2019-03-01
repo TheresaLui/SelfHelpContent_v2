@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
+	articleId="5ba2cff9-3754-4339-ab0f-ee3b617a32a6"
 />
 
 # Scope discovery in Azure Migrate

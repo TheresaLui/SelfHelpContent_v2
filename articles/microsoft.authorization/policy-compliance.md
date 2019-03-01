@@ -4,13 +4,14 @@
     service="microsoft.authorization"
     resource="policyAssignments"
     authors="robga"
-    authoralias="robga"
+    ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32599711"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
+	articleId="5c74cbc8-fe15-469b-ad17-19f403544a50"
 />
 
 # Azure Policy - Compliance Reports

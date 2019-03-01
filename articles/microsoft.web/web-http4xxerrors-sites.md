@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170"
 	cloudEnvironments="public"
+	articleId="12e90911-558c-4f9d-945d-f769b44d0a5e"
 />
 
 # availability, performance, and application issues/http 4xx errors

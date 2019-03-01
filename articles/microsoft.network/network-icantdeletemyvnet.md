@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="61f24fa9-0fc9-44e8-b419-93f4d7cf005a"
 />
 
 # I can't delete my virtual network

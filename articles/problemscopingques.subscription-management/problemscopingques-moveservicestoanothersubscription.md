@@ -2,7 +2,7 @@
 	pageTitle="Move Services to Another Subscription"
 	description="Move Services to Another Subscription"
 	articleId="moveservicestoanothersubscription"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454926"

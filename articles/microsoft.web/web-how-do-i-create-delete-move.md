@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="4fc73f04-36a7-4572-b785-0ac33df5368d"
 />
 # Questions on backup and restore feature
 ## **Recommended documents**

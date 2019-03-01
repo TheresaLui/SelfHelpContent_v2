@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
+	articleId="a03309d2-a1c2-4d5d-b068-fa2ff15f5fa8"
 />
 
 # I can't log in to my cluster

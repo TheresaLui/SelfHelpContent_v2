@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder="8"
 	selfHelpType="resource"
-	supportTopicIds="32411816,32593740,32602160,32628269,32628280,32628287"
+	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="cf085c22-540c-47ed-b869-98eec09214de"
 />
 
 # My VM restarted unexpectedly

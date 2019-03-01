@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="fcfd10a1-34df-47aa-a9eb-989379a6bcdf"
 />
 
 # office365

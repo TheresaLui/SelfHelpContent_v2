@@ -7,6 +7,7 @@
 	supportTopicIds="32542209"
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
+	articleId="9075a7d8-66c8-4068-ae53-d19f6f36f77d"
 />
 
 # Creating or deleting resource
