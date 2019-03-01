@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-**Frequently Asked Questions:**
+**Frequently Asked Questions:**<br>
 - [How can I restore specific files or folders from Azure Virtual Machine?](https://aka.ms/AB-AA4e56a)<br>
 - Restore to latest/specific recovery point using:
 	- [Portal](https://aka.ms/AB-AA4ecqx)
