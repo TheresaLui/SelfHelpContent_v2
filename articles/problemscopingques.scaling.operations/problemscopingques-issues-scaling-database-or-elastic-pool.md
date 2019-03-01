@@ -1,3 +1,5 @@
+Validates, but does not display the which_server dropdown, instead displays in-process/completed and which_problem.
+
 <properties
 	pageTitle="Issues Scaling a Database or Elastic Pool"
 	description="Issues Scaling a Database or Elastic Pool"
@@ -33,8 +35,7 @@
 				"textPropertyRegex": null
 			},
 			"required": true,
-			"useAsAdditionalDetails": false,
-			"visibility": true
+			"useAsAdditionalDetails": false
 		},
 		{
 			"id": "which_database",
@@ -95,7 +96,7 @@
 			"id": "nature_of_ongoing_problem",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "TEST SUCCESSFUL",
+			"displayLabel": "What problem are you facing with this scaling operation?",
 			"watermarkText": "Select the nature of your problem",
 			"infoBalloonText": "In what way is the selected scaling operation causing trouble?",
 			"dropdownOptions": [{
