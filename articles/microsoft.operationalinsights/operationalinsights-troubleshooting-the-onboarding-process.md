@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Troubleshooting On-demand Assessments"
-	description="OMS On-demand Assessments Troubleshooting Self Help and Explanation"
+	pageTitle="Troubleshooting Health Check and On-Demand Assessments"
+	description="OMS Health Check and On-demand Assessments Troubleshooting Self Help and Explanation"
 	infoBubbleText=""
 	service="microsoft.operationalinsights"
 	resource="operationalinsightsaccounts"
@@ -15,8 +15,30 @@ supportTopicIds="32612423"
 	productPesIds="15725"
 	cloudEnvironments="public"
 />
+#  Troubleshooting Health Check and On-Demand Assessments  #
 
-# Troubleshooting On-Demand Assessments
+Health Checks are free Log Analytics offerings. OnDemand Assessment are premium offerings on top of Log Analytics available to Microsoft Premier and Unified customers. If you are interested in purchasing OnDemand Assessments to get a more comprehensive set of rules and analysis, contact InterestedInODA@microsoft.com
+
+## Troubleshooting Health Check ##
+
+If you are having issues with Health Check, please see the documentation below.
+
+### **Recommended documents**
+
+#### AD Health Check 
+
+ - [Use Operations Management Suite for Active Directory
+   assessment](https://blogs.technet.microsoft.com/msoms/2016/01/12/use-operations-management-suite-for-active-directory-assessment/)
+  - [Log Analytics   FAQ](https://azure.microsoft.com/documentation/articles/log-analytics-faq/)
+  - [Optimize your environment with the Active Directory   Assessment](https://azure.microsoft.com/documentation/articles/log-analytics-ad-assessment/)
+
+#### SQL Health Check
+
+ - [SQL Assessment
+   Solution](https://azure.microsoft.com/documentation/articles/log-analytics-sql-assessment/)
+ - [Log Analytics FAQ](https://azure.microsoft.com/documentation/articles/log-analytics-faq/)
+
+## Troubleshooting On-Demand Assessments ##
 
 If you are having issues with On-Demand Assessments, please see the documentation below.
 
@@ -37,10 +59,10 @@ This document describes the most common problems experienced with On-Demand Asse
    * [Disable the FIPS Policy](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#disable-the-fips-policy)
    * [Network Access: Do not allow storage of passwords and credentials](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#network-access-do-not-allow-storage-of-passwords-and-credentials)
    * [Assessment has not been added to your workspace](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#assessment-has-not-been-added-to-your-workspace)
- - [Assessment Task Running Issues: Inactive / No Data found in Azure Log Analytics](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
+ - [Assessment Task Running Issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
     * [Verify Log Analytics Agent connectivity](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-log-analytics-agent-connectivity)
     * [Look at the Heartbeat messages from the AgentHealthAssessment solution](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#look-at-the-heartbeat-messages-from-the-agenthealthassessment-solution)
- - [Assessment Task Running Issues: Data from OnDemand assessment is no longer seen in Log Analytics, but it was seen in the past](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#data-from-ondemand-assessment-is-no-longer-seen-in-log-analytics-but-it-was-seen-in-the-past)
+   * [Data from OnDemand assessment is no longer seen in Log Analytics, but it was seen in the past](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#data-from-ondemand-assessment-is-no-longer-seen-in-log-analytics-but-it-was-seen-in-the-past)
    * [Restart healthservice if data files are pending ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#restart-healthservice-if-data-files-are-pending-ingestion)
    * [Check for any conflicting omsassessment.exe processes running](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#check-for-any-conflicting-omsassessmentexe-processes-running)
    * [Go through error in the discovery log file](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-error-in-the-discovery-log-file)
