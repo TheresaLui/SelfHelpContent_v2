@@ -25,7 +25,7 @@
 
 ### Job action 'Activate' cannot be run
 
-* You might recieve the error "Error: The job action 'Activate' cannot be run, because the process stopped unexpectedly. The job action was attempted three times."
+* You might receive the error "Error: The job action 'Activate' cannot be run, because the process stopped unexpectedly. The job action was attempted three times."
 * See the [hybrid runbook worker troubleshooting guide under "Runbook execution fails"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#runbook-execution-fails)
 
 
