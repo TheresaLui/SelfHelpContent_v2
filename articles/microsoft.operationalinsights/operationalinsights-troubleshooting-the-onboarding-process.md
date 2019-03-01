@@ -20,7 +20,7 @@ supportTopicIds="32612423"
 
 Health Checks are free Log Analytics offerings. OnDemand Assessment are premium offerings on top of Log Analytics available to Microsoft Premier and Unified customers. If you are interested in purchasing OnDemand Assessments to get a more comprehensive set of rules and analysis, contact InterestedInODA@microsoft.com
 
-## Troubleshooting Health Check ##
+## **Troubleshooting Health Check** ##
 
 If you are having issues with Health Check, please see the documentation below.
 
@@ -105,7 +105,7 @@ This document provides guidance both on installing the solution and taking corre
  - [Additional Help](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#next-steps)
 
 
-## Troubleshooting On-Demand Assessments ##
+## **Troubleshooting On-Demand Assessments** ##
 
 If you are having issues with On-Demand Assessments, please see the documentation below.
 
