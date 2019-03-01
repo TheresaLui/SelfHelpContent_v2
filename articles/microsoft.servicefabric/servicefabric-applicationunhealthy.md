@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="95fc3a51-5d3e-4df4-aec6-7245b2b3355e"
 />
 
 # application/unhealthy

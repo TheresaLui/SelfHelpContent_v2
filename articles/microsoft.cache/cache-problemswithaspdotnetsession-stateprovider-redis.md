@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="f26670f4-ba91-4ef2-81c9-51c28efc1178"
 />
 
 # redis cache/problems with asp.net session-state provider

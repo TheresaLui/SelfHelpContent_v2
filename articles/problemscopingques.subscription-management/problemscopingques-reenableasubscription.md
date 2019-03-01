@@ -2,7 +2,7 @@
 	pageTitle="Reenable a Subscription"
 	description="Reenable a Subscription"
 	articleId="reenableasubscription"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454933"

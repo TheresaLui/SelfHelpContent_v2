@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="cb727e8d-89ea-4d5e-ba1f-d1679f0ecb35"
 />
 
 # How to configure an application for multi-region reduntant operation

@@ -7,6 +7,7 @@
 	supportTopicIds="32581620"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="797e91e2-f597-4a4b-a929-3816fc54626b"
 />
 
 # Remote debugging

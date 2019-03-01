@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="a085babf-490e-4416-8f1c-890346985b98"
 />
 
 # Site-to-Site VPN connectivity issues

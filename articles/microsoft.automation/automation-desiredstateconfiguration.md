@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="292fdbca-4f2c-4c24-9dc8-95323f30de4c"
 />
 
 # Azure Automation - State Configuration (DSC)

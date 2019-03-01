@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="2f257fe7-9a8f-4772-bcd1-4a9029a5795a"
 />
 
 # worker role (paas)/machinekey certificate update

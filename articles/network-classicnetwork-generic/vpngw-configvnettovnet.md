@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="public"
+	articleId="8f4ea531-8050-44fa-8771-9b4b1caaeffa"
 />
 # Configure a VNet-to-VNet connection
 ## **Recommended documents**

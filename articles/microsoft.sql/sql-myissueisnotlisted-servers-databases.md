@@ -10,9 +10,11 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="34273776-1d62-451f-9b10-a063d74f1353"
 />
 
 # import/export service/my issue is not listed
 
-## **Recommended documents**
-[Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)
+## **Recommended Documents**
+
+* [Restoring a single table from Azure database backup](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate-restore-single-table-azure-backup/)

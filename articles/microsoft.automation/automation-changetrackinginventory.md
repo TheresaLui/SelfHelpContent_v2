@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="aad511bc-804b-4d75-8748-121f7ae222fe"
 />
 
 # Azure Automation - Change Tracking and Inventory

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170"
 	cloudEnvironments="public"
+	articleId="dfd66615-0995-4982-a880-682e118977f3"
 />
 
 # availability, performance, and application issues/http 5xx errors

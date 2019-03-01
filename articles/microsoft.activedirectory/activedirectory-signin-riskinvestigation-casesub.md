@@ -4,14 +4,15 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
-    authorAlias="curtand"
+    ms.author="curtand"
     displayOrder="1770"
     supportTopicIds="32596865"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="2a11f272-42e1-4dce-8920-b451ac184751"
+/>
 
 # Risk Investigation (Alerts, Risks, and Reporting)
 

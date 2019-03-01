@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="3eadf047-d2e1-42e6-9cf6-986b57054e70"
 />
 
 # linuxperformancecounters-howtosetup

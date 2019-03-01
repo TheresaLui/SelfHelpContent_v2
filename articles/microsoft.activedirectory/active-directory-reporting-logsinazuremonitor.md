@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16577"
     cloudEnvironments="public"
-    />
+    	articleId="5a81af12-a3be-42a9-ad53-1ebeb83fa7bf"
+/>
 
 # Azure AD audit Logs
 
