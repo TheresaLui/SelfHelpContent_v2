@@ -35,7 +35,8 @@ Validates, but does not display the which_server dropdown, instead displays in-p
 				"textPropertyRegex": null
 			},
 			"required": true,
-			"useAsAdditionalDetails": false
+			"useAsAdditionalDetails": false,
+			"visibility": true
 		},
 		{
 			"id": "which_database",
