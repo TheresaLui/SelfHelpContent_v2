@@ -106,8 +106,19 @@
       "id": "error_details2",
       "visibility": "accountadmin_details1 == Yes && selfserve_details1 == No",
       "order": 8,
-      "displayLabel": "Please try to <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>transfer the subscription yourself using the self-serve option</a>",
-      "required": false
+      "controlType": "dropdown",
+      "displayLabel": "Please try to <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>transfer the subscription yourself using the self-serve option</a>. Did it solve your issue?",
+      "required": false,
+      "dropdownOptions": [
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        }
+      ]
     },
     {
       "id": "emailproof_details1",
@@ -129,14 +140,22 @@
       "required": true
     },
     {
-      "id": "emailproof_details2",
+      "id": "problem_description_1",
       "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
       "order": 10,
-      "displayLabel": "Provide written (email) permission from the current  Account Administrator as an attachment to the case",
-      "required": false
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Provide permission and any other details",
+      "watermarkText": "Provide any additional details about the issue",
+      "required": true,
+      "hints": [
+        {
+          "text": "Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
+        }
+      ]
     },
     {
-      "id": "emailproof_details3",
+      "id": "problem_description_2",
       "visibility": "accountadmin_details1 == No && emailproof_details1 == No",
       "order": 11,
       "controlType": "multilinetextbox",
