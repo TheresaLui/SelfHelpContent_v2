@@ -143,18 +143,18 @@
       "required": true,
       "hints": [
         {
-          "text": "Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
+          "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
         }
       ]
     },
     {
-      "id": "problem_description",
+      "id": "problem_description_2",
       "visibility": "accountadmin_details1 == No && emailproof_details1 == No",
       "order": 11,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide all relevant details",
       "watermarkText": "Provide all relevant details",
-      "required": true,
+      "required": false,
       "hints": [
         {
           "text": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves"
