@@ -10,7 +10,7 @@
 	articleId="insights-alertarm-metric"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629632,32629634"
+	supportTopicIds="32629632"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
@@ -31,7 +31,7 @@ If you are running into issues creating/updating metric alerts using Azure Resou
 
 3. If you are receiving a `Metric  not found` error, ensure you are using the Metric name from [this page](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and not the Metric Display Name
 
-4. If you are creating [metric alerts on logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-log), ensure appropriate dependencies are included.
+4. If you are creating [metric alerts on logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs), ensure appropriate dependencies are included.
     * See [sample template](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#resource-template-for-metric-alerts-for-logs).
 
 5. Review if you have appropriate permissions. To create/update/delete metric alerts

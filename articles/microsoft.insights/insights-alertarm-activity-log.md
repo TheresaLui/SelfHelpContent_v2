@@ -10,7 +10,7 @@
 	articleId="insights-alertarm-activity-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629629,32629634"
+	supportTopicIds="32629629"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"

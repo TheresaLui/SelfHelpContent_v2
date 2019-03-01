@@ -10,7 +10,7 @@
 	articleId="insights-alertcrud-metric"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629625,32629675,32629627"
+	supportTopicIds="32629625"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"

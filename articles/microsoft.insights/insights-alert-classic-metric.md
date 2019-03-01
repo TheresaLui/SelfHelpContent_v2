@@ -9,7 +9,7 @@
 	displayOrder="8"
 	articleId="insights-alert-classic-metric"
 	selfHelpType="generic"
-	supportTopicIds="32629619,32629626,32629633,32629639,32629645,32629657,32629663,32629676,32629683"
+	supportTopicIds="32629619,32629626,32629633,32629639,32629645,32629657,32629663,32629676"
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake"
 />

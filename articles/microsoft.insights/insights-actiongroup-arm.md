@@ -32,4 +32,4 @@ If you are running into issues creating/updating action groups using Azure Resou
 ## **Recommended Documents**
 
 [Action groups](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups)<br>
-[Action Groups template reference](https://docs.microsoft.com/en-us/azure/templates/microsoft.insights/2018-09-01/actiongroups)
+[Action Groups template reference](https://docs.microsoft.com/azure/templates/microsoft.insights/2018-09-01/actiongroups)
