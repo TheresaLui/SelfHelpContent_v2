@@ -15,13 +15,9 @@
 
 # General Guidance or Advisory
 
-Want a solution right now?
-
-Try following the steps in the recommended documents below. These documents will solve most common issues.
-
 ## **Recommended Documents** 
 
 - [API Management Documentation](https://docs.microsoft.com/azure/api-management/)
 - [API Management FAQ](https://docs.microsoft.com/azure/api-management/api-management-faq)
 
-**Note** You should not choose "General Guidance or Advisory" when you have an immediate issue that requires troubleshooting support. Please select a different problem type from the drop down list on the previous screen for faster assistance resolving a problem. If your issue does not involve an instance of an API Management Service, consider selecting a different product that aligns better to your issue.
+**Note** You should not choose "General Guidance or Advisory" when you have an immediate issue that requires troubleshooting support. Please select a different problem type from the drop down list on the previous screen to get your issue resolved quickly. If your issue does not involve an instance of an API Management Service, consider selecting a different product that aligns better to your issue.
