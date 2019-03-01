@@ -25,21 +25,23 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please enter the approximate time when the error started occurring.",
+			"displayLabel": "Error start time",
+			"infoBalloonText": "Enter the approximate time when you started to see the error.",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Please enter the approximate time when the error stopped occurring. If the issue is ongoing, leave this field blank.",
+			"displayLabel": "Error end time (if ongoing, leave this field blank)",
+			"infoBalloonText": "Enter the approximate time when the error stopped occurring. ",
 			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "error_dropdown",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What error are you seeing?  [If the error happened while running a query, go back and select Problem Type = Performance and Query Execution]",
+			"displayLabel": "What connection error are you seeing?  [If the error happened while running a query, go back and select Problem Type = Performance and Query Execution]",
 			"watermarkText": "Choose an option.",
 			"infoBalloonText": "Please select from these common errors you may encounter while connecting to the database.",
 			"dropdownOptions": [{
