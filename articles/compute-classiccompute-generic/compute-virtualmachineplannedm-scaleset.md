@@ -18,9 +18,9 @@
 
 **I don't see any indication of planned maintenance in the portal, PowerShell, or CLI.**<br>
 
-Information related to planned maintenance is provided only during a planned maintenance wave. For Azure Virtual Machine Scale Sets (VMSS), the planned maintenance performs updates to improve the host infrastructure for the VMs. You are notified only if one or more of the VMs in a VMSS requires a reboot.<br>
+Information about planned maintenance is provided only during a planned maintenance wave. For Azure Virtual Machine Scale Sets (VMSS), the planned maintenance performs updates that improves the host infrastructure for the VMs. You are notified only if one or more instances of the VMs in your scale set requires a reboot.<br>
 
-Maintenance is performed primarily on the hosting environment, and affects the individual VMs only when upgrading and decommissioning hardware.<br>
+Maintenance is performed primarily on the hosting environment. The maintenance affects the individual VM instances only when upgrading and decommissioning hardware.<br>
 
 If you haven't received any notifications, it could be that the maintenance wave has completed or is scheduled for a later time.<br>
 
@@ -28,7 +28,7 @@ If a reboot is not required, Azure uses in-place migration to pause the VM while
 
 If a reboot is required, you'll receive a notification that shows when the maintenance is planned. You are given a time window when you can start the maintenance at a time that works best for you.<br>
 
-If you are considering performing self-service maintenance, be aware that it might not be available for all your VMs and is also not recommended for deployments using availability sets. See [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal) for information on about these considerations and the following:<br>
+If you are considering performing self-service maintenance, be aware that it might not be available for all your VMs and is also not recommended for deployments that use availability sets. See [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal) for information on about these considerations and the following:<br>
 
 - Determining which VM Scale Sets are affected by the planned maintenance
 - Starting the planned maintenance
