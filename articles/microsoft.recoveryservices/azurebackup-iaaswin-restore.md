@@ -17,8 +17,7 @@
 # Azure Windows VM Restore Limitations
 
 ## **Recommended Steps**
-
-**Frequently Asked Questions:**<br>
+**Frequently Asked Questions:**
 - [How can I restore specific files or folders from Azure Virtual Machine?](https://aka.ms/AB-AA4e56a)<br>
 - Restore to latest/specific recovery point using:
 	- [Portal](https://aka.ms/AB-AA4ecqx)
