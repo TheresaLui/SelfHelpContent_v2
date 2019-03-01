@@ -36,7 +36,7 @@
       "id": "accountadmin_details1",
       "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Are you the **current** Account Admin for this subscription?",
+      "displayLabel": "Are you the current Account Admin for this subscription?",
       "watermarkText": "Are you the current Account Admin for this subscription?",
       "dropdownOptions": [
         {
@@ -55,7 +55,7 @@
       "order": 4,
       "visibility": "accountadmin_details1 == No",
       "controlType": "textbox",
-      "displayLabel": " Email address of the **current** Account Admin for this subscription",
+      "displayLabel": " Email address of the current Account Admin for this subscription",
       "watermarkText": " Email address of the current Account Admin for this subscription",
       "required": true
     },
@@ -63,7 +63,7 @@
       "id": "destinationemail_details",
       "order": 5,
       "controlType": "textbox",
-      "displayLabel": " Email address of **new** Account Admin",
+      "displayLabel": " Email address of new Account Admin",
       "watermarkText": "Provide the destination email address of the Account Admin for the account you want to transfer it to",
       "infoBalloonText": "This is the person to whom you want to transfer the subscription to",
       "required": true
@@ -73,7 +73,7 @@
       "order": 6,
       "visibility": "accountadmin_details1 == Yes",
       "controlType": "dropdown",
-      "displayLabel": "Did the self-serve subscription ownership transfer option solve your issue? _Click the help bubble to learn more on this_",
+      "displayLabel": "Did the self-serve subscription ownership transfer option solve your issue? Click the help bubble to learn more on this",
       "watermarkText": "Did the self-serve subscription ownership transfer option solve your issue? ",
       "infoBalloonText": " <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>Transfer the subscription yourself using the self-serve option</a>.",
       "dropdownOptions": [
