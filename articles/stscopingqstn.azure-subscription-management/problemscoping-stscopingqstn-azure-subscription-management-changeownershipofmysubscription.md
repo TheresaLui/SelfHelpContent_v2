@@ -15,7 +15,7 @@
 {
   "resourceRequired": false,
   "title": "Change ownership of my subscription",
-  "fileAttachmentHint": "Provide written (email) permission from the current  Account Administrator as an attachment to the case",
+  "fileAttachmentHint": "If you are **not** the account admin, provide written (email) permission from the current  Account Administrator as an attachment to the case",
   "formElements": [
     {
       "id": "problem_start_time",
@@ -134,7 +134,7 @@
       "required": true
     },
     {
-      "id": "problem_description_1",
+      "id": "problem_description",
       "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
       "order": 10,
       "controlType": "multilinetextbox",
@@ -148,13 +148,13 @@
       ]
     },
     {
-      "id": "problem_description_2",
+      "id": "problem_description",
       "visibility": "accountadmin_details1 == No && emailproof_details1 == No",
       "order": 11,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide all relevant details",
       "watermarkText": "Provide all relevant details",
-      "required": false,
+      "required": true,
       "hints": [
         {
           "text": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves"
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "problem_description",
+      "id": "problem_description_1",
       "order": 12,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
