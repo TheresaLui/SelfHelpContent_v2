@@ -25,7 +25,7 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Error start time",
+			"displayLabel": "Issue start time",
 			"infoBalloonText": "Enter the approximate time when you started to see the error.",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
@@ -33,7 +33,7 @@
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Error end time (if ongoing, leave this field blank)",
+			"displayLabel": "Issue end time (if ongoing, leave this field blank)",
 			"infoBalloonText": "Enter the approximate time when the error stopped occurring. ",
 			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
@@ -41,9 +41,9 @@
 			"id": "error_dropdown",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What connection error are you seeing?  [If the error happened while running a query, go back and select Problem Type = Performance and Query Execution]",
-			"watermarkText": "Choose an option.",
-			"infoBalloonText": "Please select from these common errors you may encounter while connecting to the database.",
+			"displayLabel": "What error are you seeing?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "For other errors encountered during query execution, go back and select Problem Type = Performance and Query Execution",
 			"dropdownOptions": [{
 					"value": "Error_Minus_1",
 					"text": "-1: A network-related or instance-specific error has occurred..."
