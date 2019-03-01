@@ -29,6 +29,7 @@ This article will help with several kinds of issues relating to onboarding and u
 * Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
 
 ###The solution cannot be enabled on this VM because the VM already has the management agent..."
+
 * This error occurs when a machine is already enrolled into Update Management
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine. 
 
