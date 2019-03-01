@@ -10,7 +10,7 @@
 	articleId="insights-missedalert-metric"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629638"
+	supportTopicIds="32629638,32629640"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
