@@ -73,8 +73,9 @@
       "order": 6,
       "visibility": "accountadmin_details1 == Yes",
       "controlType": "dropdown",
-      "displayLabel": "Have you already tried <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'> self-serve subscription ownership transfer</a> option? ",
-      "watermarkText": "Have you already tried self-serve subscription ownership transfer option? ",
+      "displayLabel": "Did the self-serve subscription ownership transfer option solve your issue?",
+      "watermarkText": "Did the self-serve subscription ownership transfer option solve your issue? ",
+      "infoBalloonText": " <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>Transfer the subscription yourself using the self-serve option</a>.",
       "dropdownOptions": [
         {
           "value": "Yes",
@@ -89,30 +90,12 @@
     },
     {
       "id": "error_details1",
-      "visibility": "accountadmin_details1 == Yes && selfserve_details1 == Yes",
+      "visibility": "accountadmin_details1 == Yes && selfserve_details1 == No",
       "order": 7,
       "controlType": "multilinetextbox",
       "displayLabel": "Details of error for the failure",
       "required": true,
       "watermarkText": "Provide details on the error for the failure "
-    },
-    {
-      "id": "error_details2",
-      "visibility": "accountadmin_details1 == Yes && selfserve_details1 == No",
-      "order": 8,
-      "controlType": "dropdown",
-      "displayLabel": "Please try to <a href='https://docs.microsoft.com/azure/billing/billing-subscription-transfer'>transfer the subscription yourself using the self-serve option</a>. Did it solve your issue?",
-      "required": false,
-      "dropdownOptions": [
-        {
-          "value": "Yes",
-          "text": "Yes"
-        },
-        {
-          "value": "No",
-          "text": "No"
-        }
-      ]
     },
     {
       "id": "emailproof_details1",
@@ -138,7 +121,7 @@
       "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
       "order": 10,
       "controlType": "multilinetextbox",
-       "displayLabel": "Provide permission and any other details",
+      "displayLabel": "Provide permission and any other details",
       "watermarkText": "Provide any additional details about the issue",
       "required": true,
       "hints": [
@@ -153,13 +136,9 @@
       "order": 11,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide all relevant details",
-      "watermarkText": "Provide all relevant details",
+      "watermarkText": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves",
       "required": false,
-      "hints": [
-        {
-          "text": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves"
-        }
-      ]
+      "infoBalloonText": "Please provide all relevant details of this request including why the current Account Administrator cannot provide permission and/or cannot perform themselves"
     },
     {
       "id": "problem_description_1",
