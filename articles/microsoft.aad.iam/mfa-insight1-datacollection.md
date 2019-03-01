@@ -171,7 +171,7 @@
             "controlType": "textbox",
             "displayLabel": "Which user is experiencing this problem?",
             "content": null,
-            "watermarkText": "Enter user upn for MFA server or Object ID of the user in Azure Active Directory",
+            "watermarkText": "Enter user UPN for MFA server or Object ID of the user in Azure Active Directory",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
