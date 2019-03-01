@@ -90,45 +90,6 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "ongoing_or_completed_updateslo == Currently in progress"
-		},
-		{
-			"id": "nature_of_ongoing_problem",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "What problem are you facing with this scaling operation?",
-			"watermarkText": "Select the nature of your problem",
-			"infoBalloonText": "In what way is the selected scaling operation causing trouble?",
-			"dropdownOptions": [{
-					"value": "The operation is taking longer than expected",
-					"text": "The operation is taking longer than expected"
-				},{
-					"value": "I want to cancel the operation, but can't",
-					"text": "I want to cancel the operation, but can't"
-				}
-			],
-			"required": true,
-			"useAsAdditionalDetails": false,
-			"visibility": "which_ongoing_update_slo != Choose an option"
-		},
-		{
-			"id": "problem_description",
-			"order": 6,
-			"controltype": "multilinetextbox",
-			"displayLabel": "Any additional details that might be helpful?",
-			"watermarkText": "Enter any additional details here",
-			"infoBalloonText": "Enter any additional details here",
-			"required": true,
-			"useAsAdditionalDetails": true
-		},
-		{
-			"id": "problem_start_time",
-			"order": 7,
-			"controltype": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"watermarkText": "Specify when the problem started",
-			"infoBalloonText": "Specify when the problem started",
-			"required": true,
-			"useAsAdditionalDetails": false
 		}
 	]
 }
