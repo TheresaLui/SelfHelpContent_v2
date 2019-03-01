@@ -71,7 +71,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": "which_database != Which database are you having trouble scaling?"
+			"visibility": false
 		},
 		{
 			"id": "which_ongoing_update_slo",
