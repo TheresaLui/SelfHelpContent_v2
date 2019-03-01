@@ -46,7 +46,7 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
     ```
     netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
     ```
-3. For troubleshooting purposes in case you need to turn the firewall profiles OFF:
+3. For troubleshooting purposes in case, you need to turn the firewall profiles OFF:
 
     ```
     netsh advfirewall set allprofiles state off
