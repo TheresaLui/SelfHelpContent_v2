@@ -39,8 +39,8 @@
 			"id": "error_dropdown",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What error are you seeing?<br>If the error happened while executing a query, look under Problem Type = Performance and Query Execution",
-			"watermarkText": "Choose an option",
+			"displayLabel": "What error are you seeing?",
+			"watermarkText": "Choose an option. [If the error happened while running a query, go back and select Problem Type = Performance and Query Execution]",
 			"infoBalloonText": "Please select from these common errors you may encounter while connecting to the database.",
 			"dropdownOptions": [{
 					"value": "Error_Minus_1",
