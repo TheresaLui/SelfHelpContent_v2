@@ -42,8 +42,3 @@ Use [this reference](https://docs.microsoft.com/azure/sql-database/sql-database-
 ### Error 845: Time-out occurred while waiting for buffer latch type X for page Y, database ID Z.
 
 * Use [this reference](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-845-database-engine-error?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630429/) for assistance in troubleshooting this error. A process was waiting to acquire a latch, but the process waited until the time limit expired and failed to acquire one. This can occur if an I/O operation takes too long to complete, usually as a result of other tasks blocking system processes
-
-## **Recommended Documents**
-
-* [Error messages for SQL Database client programs](https://azure.microsoft.com/documentation/articles/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32630454/)<br>
-* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630454/)
