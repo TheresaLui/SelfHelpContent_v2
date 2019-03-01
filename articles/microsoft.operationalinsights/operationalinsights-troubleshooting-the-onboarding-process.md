@@ -34,7 +34,7 @@ This document provides guidance both on installing the solution and taking corre
  - [Prerequisites](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#prerequisites)
  - [Active Directory Health Check data collection details](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#active-directory-health-check-data-collection-details)
  - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#understanding-how-recommendations-are-prioritized)
-   - [How weights are calculated](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/ad-assessment#how-weights-are-calculated)
+   - [How weights are calculated](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#how-weights-are-calculated)
    - [Focus areas](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#focus-areas)
    - [Should you aim to score 100% in every focus area?](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#should-you-aim-to-score-100-in-every-focus-area)
  - [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#use-health-check-focus-area-recommendations)
@@ -72,7 +72,7 @@ This document provides guidance on installing and configuring the solution, and 
    - [Create and use an IgnoreRecommendations.txt text file](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-create-and-use-an-ignorerecommendationstxt-text-file)
    - [Verify that recommendations are ignored](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-verify-that-recommendations-are-ignored)
 - [System Center Operations Manager Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-solution-faq)
-- [Additional help](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/scom-assessment#next-steps)
+- [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#next-steps)
  
 
 #### SQL Health Check
@@ -131,5 +131,5 @@ This document describes the most common problems experienced with On-Demand Asse
    - [Check for any conflicting omsassessment.exe processes running](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#check-for-any-conflicting-omsassessmentexe-processes-running)
    - [Go through error in the discovery log file](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-error-in-the-discovery-log-file)
    - [Large file ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#large-file-ingestion)
-   - [Try to reduce the number of targets per assessment schedule](https://docs.microsoft.com/en-us/services-hub/health/assessments-troubleshooting#try-to-reduce-the-number-of-targets-per-assessment-schedule)
-   - [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/en-us/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
+   - [Try to reduce the number of targets per assessment schedule](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#try-to-reduce-the-number-of-targets-per-assessment-schedule)
+   - [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
