@@ -25,16 +25,16 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Issue start time",
-			"infoBalloonText": "Enter the approximate time when you started to see the error.",
+			"displayLabel": "When did the problem start?",
+			"infoBalloonText": "Enter the approximate time you started to see the error.",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "Issue end time (if ongoing, leave this field blank)",
-			"infoBalloonText": "Enter the approximate time when the error stopped occurring. ",
+			"displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+			"infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
 			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
