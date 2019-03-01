@@ -28,7 +28,6 @@
       "id": "subscriptionid_details",
       "order": 2,
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "Subscription ID that needs to be moved",
       "watermarkText": "Provide the Subscription ID that needs to be moved",
       "required": true
@@ -64,7 +63,6 @@
       "id": "destinationemail_details",
       "order": 5,
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": " Email address of new Account Administrator",
       "watermarkText": "Provide the destination email address of the Account Administrator for the account you want to transfer it to",
       "infoBalloonText": "This is the person to whom you want to transfer the subscription to",
@@ -96,11 +94,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Details of error for the failure",
       "required": true,
-      "hints": [
-        {
-          "text": "Provide details on the error for the failure"
-        }
-      ]
+      "watermarkText": "Provide details on the error for the failure "
     },
     {
       "id": "error_details2",
@@ -144,8 +138,7 @@
       "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
       "order": 10,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Provide permission and any other details",
+       "displayLabel": "Provide permission and any other details",
       "watermarkText": "Provide any additional details about the issue",
       "required": true,
       "hints": [
