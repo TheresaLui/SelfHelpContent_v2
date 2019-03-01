@@ -95,7 +95,7 @@ Stripped-down test
 		},
 		{
 			"id": "problem_description",
-			"order": 6,
+			"order": 5,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details that might be helpful?",
 			"watermarkText": "Enter any additional details here",
@@ -105,7 +105,7 @@ Stripped-down test
 		},
 		{
 			"id": "problem_start_time",
-			"order": 7,
+			"order": 6,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
