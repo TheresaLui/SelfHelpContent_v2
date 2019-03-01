@@ -29,7 +29,7 @@
       "order": 2,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
-      "displayLabel": "Error message (if applicable)",
+      "displayLabel": "Problem Description",
       "watermarkText": "Provide any error message or additional information about your issue",
       "required": true,
       "hints": [
