@@ -25,14 +25,16 @@ If you are having issues with Health Check, please see the documentation below.
 
 ### **Recommended documents**
 
-#### AD Health Check 
-[Optimize your Active Directory environment with the Active Directory Health Check solution in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment)
+#### AD Health Check   
+
+[Optimize your Active Directory environment with the Active Directory Health Check solution in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment)  
 
 This document provides guidance both on installing the solution and taking corrective actions for potential problems.
+
  - [Prerequisites](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#prerequisites)
  - [Active Directory Health Check data collection details](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#active-directory-health-check-data-collection-details)
  - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#understanding-how-recommendations-are-prioritized)
-   - [How weights are calculated](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#how-weights-are-calculated)
+   - [How weights are calculated](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/ad-assessment#how-weights-are-calculated)
    - [Focus areas](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#focus-areas)
    - [Should you aim to score 100% in every focus area?](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#should-you-aim-to-score-100-in-every-focus-area)
  - [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#use-health-check-focus-area-recommendations)
@@ -43,6 +45,7 @@ This document provides guidance both on installing the solution and taking corre
    - [Verify that recommendations are ignored](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#to-verify-that-recommendations-are-ignored)
  - [AD Health Check solutions FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#ad-health-check-solutions-faq)
  - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#next-steps)
+
 
 #### SCOM Health Check
 
@@ -58,18 +61,18 @@ This document provides guidance on installing and configuring the solution, and 
    - [Configure the health check rule](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#configure-the-health-check-rule)
    - [Enable the rule for a specific management server](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#enable-the-rule-for-a-specific-management-server)
    - [Configure the run frequency](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#configure-the-run-frequency)
- - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#understanding-how-recommendations-are-prioritized)
+- [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#understanding-how-recommendations-are-prioritized)
    - [How weights are calculated](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#how-weights-are-calculated)
    - [Focus areas](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#focus-areas)
    - [Should you aim to score 100% in every focus area?](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#should-you-aim-to-score-100-in-every-focus-area)
- - [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#use-health-check-focus-area-recommendations)
+- [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#use-health-check-focus-area-recommendations)
    - [View recommendations for a focus area and take corrective action](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-view-recommendations-for-a-focus-area-and-take-corrective-action)
- - [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#ignore-recommendations)
+- [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#ignore-recommendations)
    - [Identify recommendations that you want to ignore](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-identify-recommendations-that-you-want-to-ignore)
    - [Create and use an IgnoreRecommendations.txt text file](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-create-and-use-an-ignorerecommendationstxt-text-file)
    - [Verify that recommendations are ignored](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#to-verify-that-recommendations-are-ignored)
- - [System Center Operations Manager Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-solution-faq)
- - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#next-steps)
+- [System Center Operations Manager Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-solution-faq)
+- [Additional help](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/scom-assessment#next-steps)
  
 
 #### SQL Health Check
@@ -103,28 +106,30 @@ If you are having issues with On-Demand Assessments, please see the documentatio
 
 ## **Recommended Documents**
 
-[Troubleshooting the On-demand Assessments](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting)<br>
-This document describes the most common problems experienced with On-Demand Assessments and how to try to solve them. Click on the link that best describes your problem:<br>
+[Troubleshooting the On-demand Assessments](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting)
+
+This document describes the most common problems experienced with On-Demand Assessments and how to try to solve them. Click on the link that best describes your problem:
+
  - [Microsoft Monitoring Agent (MMA) Installation issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#microsoft-monitoring-agent-mma-installation-issues)
-   * [Cannot successfully link to the specified workspace as part of the MMA installation](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#cannot-successfully-link-to-the-specified-workspace-as-part-of-the-mma-installation)
+   - [Cannot successfully link to the specified workspace as part of the MMA installation](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#cannot-successfully-link-to-the-specified-workspace-as-part-of-the-mma-installation)
  - [Learn more about Linking and Permissions](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#linking-and-permissions)
  - [Add-*AssessmentTask Commandlet related issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#add-assessmenttask-commandlet-related-issues)
-   * [Windows Server 2008 R2 does not recognize Add-*AssessmentTask commandlets](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#windows-server-2008-r2-does-not-recognize-add-assessmenttask-commandlets)
-   * [On any platform, if the Add-*AssessmentTask commandlets are not recognized](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#on-any-platform-if-the-add-assessmenttask-commandlets-are-not-recognized)
-   * [Troubleshooting Assessment Installation Errors when executing an Add-*AssessmentTask cmdlet](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#troubleshooting-assessment-installation-errors-when-executing-an-add-assessmenttask-cmdlet)
+   - [Windows Server 2008 R2 does not recognize Add-*AssessmentTask commandlets](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#windows-server-2008-r2-does-not-recognize-add-assessmenttask-commandlets)
+   - [On any platform, if the Add-*AssessmentTask commandlets are not recognized](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#on-any-platform-if-the-add-assessmenttask-commandlets-are-not-recognized)
+   - [Troubleshooting Assessment Installation Errors when executing an Add-*AssessmentTask cmdlet](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#troubleshooting-assessment-installation-errors-when-executing-an-add-assessmenttask-cmdlet)
  - [Requirements for successfully running the scheduled task](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#requirements-for-successfully-running-the-scheduled-task)
-   * [Verify the user account Group Policies: Logon as Batch Job Permission](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-the-user-account-group-policies-logon-as-batch-job-permission)
-   * [Do not forcefully unload the user registry at user logoff](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#do-not-forcefully-unload-the-user-registry-at-user-logoff)
-   * [Disable the FIPS Policy](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#disable-the-fips-policy)
-   * [Network Access: Do not allow storage of passwords and credentials](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#network-access-do-not-allow-storage-of-passwords-and-credentials)
-   * [Assessment has not been added to your workspace](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#assessment-has-not-been-added-to-your-workspace)
+   - [Verify the user account Group Policies: Logon as Batch Job Permission](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-the-user-account-group-policies-logon-as-batch-job-permission)
+   - [Do not forcefully unload the user registry at user logoff](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#do-not-forcefully-unload-the-user-registry-at-user-logoff)
+   - [Disable the FIPS Policy](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#disable-the-fips-policy)
+   - [Network Access: Do not allow storage of passwords and credentials](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#network-access-do-not-allow-storage-of-passwords-and-credentials)
+   - [Assessment has not been added to your workspace](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#assessment-has-not-been-added-to-your-workspace)
  - [Assessment Task Running Issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
-    * [Verify Log Analytics Agent connectivity](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-log-analytics-agent-connectivity)
-    * [Look at the Heartbeat messages from the AgentHealthAssessment solution](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#look-at-the-heartbeat-messages-from-the-agenthealthassessment-solution)
+    - [Verify Log Analytics Agent connectivity](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#verify-log-analytics-agent-connectivity)
+    - [Look at the Heartbeat messages from the AgentHealthAssessment solution](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#look-at-the-heartbeat-messages-from-the-agenthealthassessment-solution)
    * [Data from OnDemand assessment is no longer seen in Log Analytics, but it was seen in the past](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#data-from-ondemand-assessment-is-no-longer-seen-in-log-analytics-but-it-was-seen-in-the-past)
-   * [Restart healthservice if data files are pending ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#restart-healthservice-if-data-files-are-pending-ingestion)
-   * [Check for any conflicting omsassessment.exe processes running](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#check-for-any-conflicting-omsassessmentexe-processes-running)
-   * [Go through error in the discovery log file](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-error-in-the-discovery-log-file)
-   * [Large file ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#large-file-ingestion)
-   * [Try to reduce the number of targets per assessment schedule](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#try-to-reduce-the-number-of-targets-per-assessment-schedule)
-   * [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
+   - [Restart healthservice if data files are pending ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#restart-healthservice-if-data-files-are-pending-ingestion)
+   - [Check for any conflicting omsassessment.exe processes running](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#check-for-any-conflicting-omsassessmentexe-processes-running)
+   - [Go through error in the discovery log file](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-error-in-the-discovery-log-file)
+   - [Large file ingestion](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#large-file-ingestion)
+   - [Try to reduce the number of targets per assessment schedule](https://docs.microsoft.com/en-us/services-hub/health/assessments-troubleshooting#try-to-reduce-the-number-of-targets-per-assessment-schedule)
+   - [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/en-us/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
