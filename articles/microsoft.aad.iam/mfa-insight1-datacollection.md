@@ -59,7 +59,7 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the UPN of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
