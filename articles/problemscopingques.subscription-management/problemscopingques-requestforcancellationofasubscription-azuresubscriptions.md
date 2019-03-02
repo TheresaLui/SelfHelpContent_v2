@@ -29,7 +29,6 @@
       "id": "reason_description",
       "order": 2,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "Reason for cancellation/switching/re-enabling",
       "watermarkText": "Provide the reason for cancellation/switching/re-enabling",
       "required": true
@@ -80,7 +79,6 @@
       "id": "error_description",
       "order": 5,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "Error message (if any) encountered ",
       "watermarkText": "Provide the error message encountered",
       "required": true
@@ -89,7 +87,6 @@
       "id": "email_description",
       "order": 6,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "Email notification received (if applicable) about subscription suspension",
       "watermarkText": "Provide the email notification received about subscription suspension",
       "required": true
