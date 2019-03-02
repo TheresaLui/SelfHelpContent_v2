@@ -58,7 +58,7 @@
 			"id": "ongoing_or_completed_updateslo",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "TESTINGTESTINGDo you need assistance with a currently in-progress scaling operation, or an operation that already completed?",
+			"displayLabel": "TEST1",
 			"watermarkText": "Choose an option",
 			"infoBalloonText": "Is the scaling operation you need help with still in progress, or has it concluded?",
 			"dropdownOptions": [{
@@ -95,12 +95,12 @@
 			"id": "nature_of_ongoing_problem",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "What problem are you facing with this scaling operation?",
+			"displayLabel": "TEST2",
 			"watermarkText": "Select the nature of your problem",
 			"infoBalloonText": "In what way is the selected scaling operation causing trouble?",
 			"dropdownOptions": [{
 					"value": "The operation is taking longer than expected",
-					"text": "The operation is taking longer than expected"
+					"text": "TEST4"
 				},{
 					"value": "I want to cancel the operation, but can't",
 					"text": "I want to cancel the operation, but can't"
@@ -114,7 +114,7 @@
 			"id": "problem_description",
 			"order": 6,
 			"controltype": "multilinetextbox",
-			"displayLabel": "Any additional details that might be helpful?",
+			"displayLabel": "TEST3",
 			"watermarkText": "Enter any additional details here",
 			"infoBalloonText": "Enter any additional details here",
 			"required": true,
