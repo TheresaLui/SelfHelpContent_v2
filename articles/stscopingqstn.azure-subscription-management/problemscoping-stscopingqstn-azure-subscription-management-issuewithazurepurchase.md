@@ -1,9 +1,9 @@
 <properties
 	pageTitle="Scoping questions for Issue with Azure purchase"
 	description="Scoping questions for Subscription Management/Issue with Azure purchase"
-	authors="AlexKuriatnyk"
-   selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454924,32549154,32549157,32549161,32549160,32454931,32549155,32549158,32549162,32549159,32632950,32632948,32632955"
+	authors="prdasneo"
+	ms.author="prdasneo"
+   selfHelpType="problemScopingQuestions"	supportTopicIds="32454924,32549154,32549157,32549161,32549160,32454931,32549155,32549158,32549162,32549159,32632950,32632948,32632955"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
