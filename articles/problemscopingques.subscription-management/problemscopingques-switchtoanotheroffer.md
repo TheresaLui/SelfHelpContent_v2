@@ -50,7 +50,7 @@
     },
     {
       "id": "offertype_details",
-      "order": 3,
+      "order": 4,
       "controlType": "dropdown",
       "displayLabel": "Select the new Offer type to convert to",
       "watermarkText": "Select the new Offer type to convert to",
@@ -112,7 +112,7 @@
     },
     {
       "id": "offertype_details2",
-      "order": 4,
+      "order": 5,
       "visibility": "offertype_details == Other",
       "controlType": "textbox",
       "displayLabel": " Provide the Offer Type",
