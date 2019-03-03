@@ -4,7 +4,7 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454938"
+	supportTopicIds="32454938,32632959"
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -16,7 +16,7 @@
 ---
 {
   "resourceRequired": false,
-  "title": "Sponsorship Request",
+  "title": "Switch to Another Offer",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,89 +27,95 @@
       "required": true
     },
     {
-      "id": "sponsorship_details",
+      "id": "problem_description",
       "order": 2,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide a brief description of the issue",
+      "watermarkText": "Provide a brief description of the issue",
+      "required": true,
+      "hints": [
+        {
+          "text": "Note: The solution provided is limited to <a href='https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer'> Pay As You Go </a> only. To Convert to any other offer, please provide the below details:"
+        }
+      ]
+    },
+    {
+      "id": "subscriptionid_details",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Subscription ID",
+      "watermarkText": "Provide the Subscription ID",
+      "required": true
+    },
+    {
+      "id": "offertype_details",
+      "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Do you have an existing sponsorship?",
-      "watermarkText": "Do you have an existing sponsorship?",
+      "displayLabel": "Select the new Offer type to convert to",
+      "watermarkText": "Select the new Offer type to convert to",
       "dropdownOptions": [
         {
-          "value": "Yes",
-          "text": "Yes"
+          "value": "Action Pack",
+          "text": "Action Pack"
         },
         {
-          "value": "No",
-          "text": "No"
+          "value": "Enterprise Agreement",
+          "text": "Enterprise Agreement"
+        },
+        {
+          "value": "Enterprise Dev/Test",
+          "text": "Enterprise Dev/Test"
+        },
+        {
+          "value": "Microsoft Azure Sponsored Offer",
+          "text": "Microsoft Azure Sponsored Offer"
+        },
+        {
+          "value": "MSDN Platforms subscribers",
+          "text": "MSDN Platforms subscribers"
+        },
+        {
+          "value": "Pay-As-You-Go",
+          "text": "Pay-As-You-Go"
+        },
+        {
+          "value": "Pay-As-You-Go Dev/Test",
+          "text": "Pay-As-You-Go Dev/Test"
+        },
+        {
+          "value": "Visual Studio Enterprise",
+          "text": "Visual Studio Enterprise"
+        },
+        {
+          "value": "Visual Studio Enterprise (BizSpark)",
+          "text": "Visual Studio Enterprise (BizSpark)"
+        },
+        {
+          "value": "Visual Studio Enterprise (MPN)",
+          "text": "Visual Studio Enterprise (MPN)"
+        },
+        {
+          "value": "Visual Studio Professional",
+          "text": "Visual Studio Professional"
+        },
+        {
+          "value": "Visual Studio Test Professional",
+          "text": "Visual Studio Test Professional"
+        },
+        {
+          "value": "Other",
+          "text": "Other"
         }
       ],
       "required": true
     },
     {
-      "id": "sponsorship_details1",
-      "order": 3,
-      "visibility": "sponsorship_details == Yes",
-      "controlType": "textbox",
-      "displayLabel": " Provide the email ID approved for sponsorship",
-      "watermarkText": "Provide the email ID approved for sponsorship",
-      "required": true
-    },
-    {
-      "id": "sponsorship_details2",
+      "id": "offertype_details2",
       "order": 4,
-      "visibility": "sponsorship_details == Yes",
-      "controlType": "multilinetextbox",
-      "displayLabel": " Provide the list of subscriptions you want to convert to sponsorship",
-      "watermarkText": "Provide the list of subscriptions you want to convert to sponsorship",
-      "required": true
-    },
-    {
-      "id": "sponsorship_details3",
-      "order": 5,
-      "visibility": "sponsorship_details == Yes",
+      "visibility": "offertype_details == Other",
       "controlType": "textbox",
-      "displayLabel": " Start Date of the sponsorship",
-      "watermarkText": "Provide the start date of the sponsorship",
-      "required": true
-    },
-    {
-      "id": "sponsorship_details4",
-      "order": 6,
-      "visibility": "sponsorship_details == Yes",
-      "controlType": "textbox",
-      "displayLabel": " End Date of the sponsorship",
-      "watermarkText": "Provide the end date of the sponsorship",
-      "required": true
-    },
-    {
-      "id": "sponsorship_details5",
-      "order": 7,
-      "visibility": "sponsorship_details == Yes",
-      "controlType": "textbox",
-      "displayLabel": " Total monetary credit of the Sponsorship offered",
-      "watermarkText": "Provide the total monetary credit of the Sponsorship offered",
-      "required": true
-    },
-    {
-      "id": "problem_description",
-      "visibility": "sponsorship_details == Yes",
-      "order": 8,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Brief description of your request",
-      "watermarkText": "Please provide a brief description of your request",
-      "required": true,
-      "hints": [
-        {
-          "text": "Note: Attach the email confirmation along with this request in the file upload section"
-        }
-      ]
-    },
-    {
-      "id": "sponsorship_details6",
-      "order": 9,
-      "visibility": "sponsorship_details == No",
-      "controlType": "multilinetextbox",
-      "displayLabel": "Additional details (if any)",
-      "watermarkText": "Provide additional details (if any)",
+      "displayLabel": " Provide the Offer Type",
+      "watermarkText": "Provide the Offer Type",
       "required": true
     }
   ]
