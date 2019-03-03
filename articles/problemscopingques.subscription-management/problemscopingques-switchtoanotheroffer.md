@@ -16,7 +16,7 @@
 ---
 {
   "resourceRequired": false,
-  "title": "Entitlement Check and Other Issues",
+  "title": "Sponsorship Request",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,90 +27,89 @@
       "required": true
     },
     {
-      "id": "subscriptionid_details",
+      "id": "sponsorship_details",
       "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide the Subscription ID",
-      "required": true
-    },
-    {
-      "id": "offertype_details",
-      "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Select the Offer type",
-      "watermarkText": "Select the type of offer",
+      "displayLabel": "Do you have an existing sponsorship?",
+      "watermarkText": "Do you have an existing sponsorship?",
       "dropdownOptions": [
         {
-          "value": "Action Pack",
-          "text": "Action Pack"
+          "value": "Yes",
+          "text": "Yes"
         },
         {
-          "value": "Enterprise Agreement",
-          "text": "Enterprise Agreement"
-        },
-        {
-          "value": "Enterprise Dev/Test",
-          "text": "Enterprise Dev/Test"
-        },
-        {
-          "value": "Microsoft Azure Sponsored Offer",
-          "text": "Microsoft Azure Sponsored Offer"
-        },
-        {
-          "value": "MSDN Platforms subscribers",
-          "text": "MSDN Platforms subscribers"
-        },
-        {
-          "value": "Pay-As-You-Go",
-          "text": "Pay-As-You-Go"
-        },
-        {
-          "value": "Pay-As-You-Go Dev/Test",
-          "text": "Pay-As-You-Go Dev/Test"
-        },
-        {
-          "value": "Visual Studio Enterprise",
-          "text": "Visual Studio Enterprise"
-        },
-        {
-          "value": "Visual Studio Enterprise (BizSpark)",
-          "text": "Visual Studio Enterprise (BizSpark)"
-        },
-        {
-          "value": "Visual Studio Enterprise (MPN)",
-          "text": "Visual Studio Enterprise (MPN)"
-        },
-        {
-          "value": "Visual Studio Professional",
-          "text": "Visual Studio Professional"
-        },
-        {
-          "value": "Visual Studio Test Professional",
-          "text": "Visual Studio Test Professional"
-        },
-        {
-          "value": "Other",
-          "text": "Other"
+          "value": "No",
+          "text": "No"
         }
       ],
       "required": true
     },
     {
-      "id": "offertype_details2",
-      "order": 4,
-      "visibility": "offertype_details == Other",
+      "id": "sponsorship_details1",
+      "order": 3,
+      "visibility": "sponsorship_details == Yes",
       "controlType": "textbox",
-      "displayLabel": " Provide the Offer Type",
-      "watermarkText": "Provide the Offer Type",
+      "displayLabel": " Provide the email ID approved for sponsorship",
+      "watermarkText": "Provide the email ID approved for sponsorship",
+      "required": true
+    },
+    {
+      "id": "sponsorship_details2",
+      "order": 4,
+      "visibility": "sponsorship_details == Yes",
+      "controlType": "multilinetextbox",
+      "displayLabel": " Provide the list of subscriptions you want to convert to sponsorship",
+      "watermarkText": "Provide the list of subscriptions you want to convert to sponsorship",
+      "required": true
+    },
+    {
+      "id": "sponsorship_details3",
+      "order": 5,
+      "visibility": "sponsorship_details == Yes",
+      "controlType": "textbox",
+      "displayLabel": " Start Date of the sponsorship",
+      "watermarkText": "Provide the start date of the sponsorship",
+      "required": true
+    },
+    {
+      "id": "sponsorship_details4",
+      "order": 6,
+      "visibility": "sponsorship_details == Yes",
+      "controlType": "textbox",
+      "displayLabel": " End Date of the sponsorship",
+      "watermarkText": "Provide the end date of the sponsorship",
+      "required": true
+    },
+    {
+      "id": "sponsorship_details5",
+      "order": 7,
+      "visibility": "sponsorship_details == Yes",
+      "controlType": "textbox",
+      "displayLabel": " Total monetary credit of the Sponsorship offered",
+      "watermarkText": "Provide the total monetary credit of the Sponsorship offered",
       "required": true
     },
     {
       "id": "problem_description",
-      "order": 5,
+      "visibility": "sponsorship_details == Yes",
+      "order": 8,
       "controlType": "multilinetextbox",
-      "displayLabel": "Provide a brief description of the issue",
-      "watermarkText": "Provide a brief description of the issue",
+      "displayLabel": "Brief description of your request",
+      "watermarkText": "Please provide a brief description of your request",
+      "required": true,
+      "hints": [
+        {
+          "text": "Note: Attach the email confirmation along with this request in the file upload section"
+        }
+      ]
+    },
+    {
+      "id": "sponsorship_details6",
+      "order": 9,
+      "visibility": "sponsorship_details == No",
+      "controlType": "multilinetextbox",
+      "displayLabel": "Additional details (if any)",
+      "watermarkText": "Provide additional details (if any)",
       "required": true
     }
   ]
