@@ -43,21 +43,27 @@
       "required": true
     },
     {
-      "id": "problem_description",
+      "id": "accountadminemail_details",
       "order": 4,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Account Administrator's Email Address",
+      "watermarkText": "Provide the account admin's email address",
+      "required": true,
+      "hints": [
+                {
+                    "text": "Learn more:  <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'>Account Admin</a>."
+                }
+            ]
+    },
+    {
+      "id": "problem_description",
+      "order": 5,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
       "displayLabel": "Provide any additional information",
       "watermarkText": "Provide any additional information",
-      "required": true,
-      "hints": [
-       {
-            "text": "<a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'>Account Administrator's Email Address</a>."
-       },
-       {
-        "text": "Description of your issue"
-       }
-       ]
+      "required": true
     }
   ]
 }
