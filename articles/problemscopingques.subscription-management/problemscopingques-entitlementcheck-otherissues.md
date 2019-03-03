@@ -109,7 +109,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Provide a brief description of the issue",
       "watermarkText": "Provide a brief description of the issue",
-      "useAsAdditionalDetails=true",
+       "useAsAdditionalDetails": true,
       "required": true
     }
   ]
