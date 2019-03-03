@@ -46,8 +46,7 @@
       "id": "accountadminemail_details",
       "order": 4,
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Account Administrator's Email Address",
+     "displayLabel": "Account Administrator's Email Address",
       "watermarkText": "Provide the account admin's email address",
       "required": true,
       "hints": [
