@@ -38,7 +38,7 @@
           "text": "Describe your problem, providing as much detail as possible."
         },
         {
-          "text": "Know more about Azure pricing - <a href='https://azure.microsoft.com/marketplace/faq/'>here</a>."
+          "text": "Know more about Marketplace pricing - <a href='https://azure.microsoft.com/marketplace/faq/'>here</a>."
         }
       ]
     }
