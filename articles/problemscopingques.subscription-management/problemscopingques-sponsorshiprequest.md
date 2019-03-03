@@ -94,7 +94,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Brief description of your request",
       "watermarkText": "Please provide a brief description of your request",
-      "useAsAdditionalDetails=true",
+      "useAsAdditionalDetails": true,
       "required": true,
       "hints": [
         {
