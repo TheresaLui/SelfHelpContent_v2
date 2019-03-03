@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454866,32632941"
+	supportTopicIds="32632941"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -48,13 +48,9 @@
       "controlType": "textbox",
      "displayLabel": "Account Administrator's Email Address",
       "watermarkText": "Provide the account admin's email address",
-      "required": true,
-      "hints": [
-                {
-                    "text": "Learn more:  <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'>Account Admin</a>."
-                }
-            ]
-    },
+       "required": true,
+      "infoBalloonText": "Learn more: <a href='https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator'> Account Admin's email address</a>."
+     },
     {
       "id": "problem_description",
       "order": 5,
