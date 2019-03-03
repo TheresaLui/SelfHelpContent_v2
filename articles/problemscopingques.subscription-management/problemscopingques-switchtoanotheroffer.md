@@ -16,7 +16,7 @@
 ---
 {
   "resourceRequired": false,
-  "title": " Activation Extension Request",
+  "title": "Entitlement Check and Other Issues",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -35,44 +35,8 @@
       "required": true
     },
     {
-      "id": "requesttype_details",
-      "order": 3,
-      "controlType": "dropdown",
-      "displayLabel": "Select the Request type",
-      "watermarkText": "Select the type of request",
-      "dropdownOptions": [
-        {
-          "value": "Activation Request",
-          "text": "Activation Request"
-        },
-        {
-          "value": "Extension Request",
-          "text": "Extension Request"
-        }
-      ],
-      "required": true
-    },
-    {
-      "id": "requesttype_details1",
-      "order": 4,
-      "visibility": "requesttype_details == Activation Request",
-      "controlType": "multilinetextbox",
-      "displayLabel": "Error message encountered during activation (if applicable) ",
-      "watermarkText": "Provide the error message encountered during activation (if applicable)",
-      "required": true
-    },
-    {
-      "id": "requesttype_details2",
-      "order": 5,
-      "visibility": "requesttype_details == Extension Request",
-      "controlType": "textbox",
-      "displayLabel": "Please provide the extension period",
-      "watermarkText": " Provide the extension period",
-      "required": true
-    },
-    {
       "id": "offertype_details",
-      "order": 6,
+      "order": 3,
       "controlType": "dropdown",
       "displayLabel": "Select the Offer type",
       "watermarkText": "Select the type of offer",
@@ -134,7 +98,7 @@
     },
     {
       "id": "offertype_details2",
-      "order": 7,
+      "order": 4,
       "visibility": "offertype_details == Other",
       "controlType": "textbox",
       "displayLabel": " Provide the Offer Type",
@@ -143,7 +107,7 @@
     },
     {
       "id": "problem_description",
-      "order": 8,
+      "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Provide a brief description of the issue",
       "watermarkText": "Provide a brief description of the issue",
