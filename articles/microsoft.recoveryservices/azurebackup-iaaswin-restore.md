@@ -32,6 +32,7 @@
 - [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault?](https://aka.ms/AB-AA4ecqr)<br>
 - [How to restore a Domain Controller VM?](https://aka.ms/AB-AA4e56v)<br>
 - How can I attach existing NIC to the restored VM?
+
 	1. [Remove from original VM](https://aka.ms/AB-AA4ecr0)
 	2. [Attach to restored VM](https://aka.ms/AB-AA4e56s)
 - [Restore VM with special network configurations?](https://aka.ms/AB-AA4e56w)<br>
