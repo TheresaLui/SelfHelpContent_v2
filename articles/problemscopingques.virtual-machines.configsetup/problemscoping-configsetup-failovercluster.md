@@ -20,9 +20,8 @@
                   {
                     "id": "cluster_name",
                     "order": 1,
-                    "controlType": "multilinetextbox",
+                    "controlType": "textbox",
                     "displayLabel": "What is the cluster name?",
-                    "useAsAdditionalDetails": false,
                     "required": false
                 },{
                     "id": "is_s2d",
@@ -44,7 +43,7 @@
                 },{
                   "id": "node_number",
                   "order": 3,
-                  "controlType": "text",
+                  "controlType": "textbox",
                   "displayLabel": "How many nodes are there in the cluster?",
                   "required": false
               },{
