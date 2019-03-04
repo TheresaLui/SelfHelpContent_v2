@@ -22,6 +22,7 @@
                     "order": 1,
                     "controlType": "textbox",
                     "displayLabel": "What is the cluster name?",
+                    "useAsAdditionalDetails": false,
                     "required": false
                 },{
                     "id": "is_s2d",
