@@ -17,4 +17,4 @@
  
 ## **Recommended Documents**
 
-* [Manage HDInsight clusters by using the Apache Ambari Web UI: Cluster](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-manage-ambari#cluster)
+* [Manage HDInsight clusters by using the Apache Ambari Web UI: Cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#cluster)
