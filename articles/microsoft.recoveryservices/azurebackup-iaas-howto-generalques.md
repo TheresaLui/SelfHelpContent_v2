@@ -17,6 +17,7 @@
 
 ## **Recommended Documents** 
 - How to:
+
 	* [Configure Azure VMs Backup in Recovery Services Vault](https://aka.ms/AB-AA4ecq2)
 	* [Enable Backup during VM creation](https://aka.ms/AB-EnableBackupDuringVMcreation)
 	* [Enable Backup from VM blade](https://aka.ms/AB-EnableBackupDuringVMcreation)
