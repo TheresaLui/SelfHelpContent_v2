@@ -33,8 +33,8 @@
 - [How to restore a Domain Controller VM?](https://aka.ms/AB-AA4e56v)<br>
 - How can I attach existing NIC to the restored VM?
 
-	- [Remove from original VM](https://aka.ms/AB-AA4ecr0)
-	- [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
+	1. [Remove from original VM](https://aka.ms/AB-AA4ecr0)
+	2. [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
 - [Restore VM with special network configurations?](https://aka.ms/AB-AA4e56w)<br>
 
 **Limitations**<br>
