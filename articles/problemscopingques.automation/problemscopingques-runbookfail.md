@@ -16,7 +16,7 @@
 	"resourceRequired": true,
 	"title": "Runbook failure",
 	"fileAttachmentHint": "",
-    "formElements": 
+    "formElements":
     [
         {
 			"id": "runbook selection",
@@ -24,7 +24,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Select the runbook that has the problem",
 			"watermarkText": "Choose a runbook",
-            "dynamicDropdownOptions": 
+            "dynamicDropdownOptions":
             {
 			    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Automation/automationAccounts/{resourcename}/runbooks?api-version=2017-05-15-preview",
 			    "jTokenPath": "value",
@@ -33,32 +33,32 @@
 			    "textPropertyRegex": "[^/]+$"
 			},
 			"required": true
-        }, 
+        },
         {
 			"id": "problem_start_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-        }, 
+        },
         {
 			"id": "previously successful",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Has this runbook successfully run in Azure Automation before?",
-            "dropdownOptions": 
+            "dropdownOptions":
         [
             {
                 "value": "Yes",
                 "text": "Yes, this runbook has successfully run in Azure Automation before"
-            }, 
+            },
             {
                 "value": "No",
                 "text": "No, this runbook has never successfully run in Azure Automation"
             }
 			],
 			"required": false
-        }, 
+        },
         {
 			"id": "problem_description",
 			"order": 5,
@@ -67,13 +67,14 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-            "hints": 
+            "hints":
             [
                 {
 					"text": "Paste in the exact text of any errors that occured."
 				}
 			]
-		}, {
+		},
+		{
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",

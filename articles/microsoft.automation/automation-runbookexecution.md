@@ -45,6 +45,7 @@ There are several reasons why a runbook may be suspended or failed:
 * If you recieve the error "The job was tried three times but it failed", check [Automation Limits](https://docs.microsoft.com/azure/azure-subscription-service-limits#automation-limits), and consider moving to a [Hybrid Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker) if the limitation applies to Azure sandboxes only
 
 **Error: "429: The request rate is currently too large. Please try again"**
+
 * See the ["Request rate too large" section of the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#429)
 
 **Hybrid runbook worker doesn't run jobs or isn't responding**

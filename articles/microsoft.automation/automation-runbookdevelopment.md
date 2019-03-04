@@ -20,6 +20,7 @@ Here are some common issues when creating new runbooks for use with Azure Automa
 ## **Recommended Steps**
 
 Specific problems and their solutions are listed below, but we highly recommend you try these this first:
+
 * Try running the runbook locally before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation. See ["My runbook fails but works when run locally" ](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails)
 
 **Runbook fails with "Command not found" or "Cannot bind parameter" message**
