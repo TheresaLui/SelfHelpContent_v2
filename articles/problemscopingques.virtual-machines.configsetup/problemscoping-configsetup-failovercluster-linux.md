@@ -20,9 +20,8 @@
                   {
                     "id": "cluster_name",
                     "order": 1,
-                    "controlType": "multilinetextbox",
+                    "controlType": "textbox",
                     "displayLabel": "What is the cluster name?",
-                    "useAsAdditionalDetails": false,
                     "required": false
                 },{
                     "id": "cluster_storage",
