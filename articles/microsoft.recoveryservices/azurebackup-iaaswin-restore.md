@@ -35,6 +35,7 @@
 
 	Step 1: [Remove from original VM](https://aka.ms/AB-AA4ecr0)<br>
 	Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)
+
 - [Restore VM with special network configurations?](https://aka.ms/AB-AA4e56w)<br>
 
 **Limitations**<br>
