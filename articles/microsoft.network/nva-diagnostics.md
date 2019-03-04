@@ -27,6 +27,7 @@ We have assessed the routing from the source VM **'<!--$SourceVM-->[SourceVM]<!-
 See below for detailed steps on resolving detected issues.
 <!--/issueDescription-->
 ## Steps to resolve detected issues:
+
 - **Fix Source, NVA, or Destination VM Health Issues:** <br>
         Check to make sure the VM is in a running state. If it is in a running state, choose the 'Redeploy' button in the portal. See [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal) for more information on 'Redeploy'.<br> <br>
 - **Enable IP Forwarding on NVA NIC:** <br>
