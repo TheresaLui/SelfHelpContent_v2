@@ -20,7 +20,7 @@
                   {
                     "id": "cluster_name",
                     "order": 1,
-                    "controlType": "textbox",
+                    "controlType": "multilinetextbox",
                     "displayLabel": "What is the cluster name?",
                     "useAsAdditionalDetails": false,
                     "required": false
