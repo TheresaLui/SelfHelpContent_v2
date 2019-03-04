@@ -13,8 +13,8 @@
     cloudEnvironments="public"
     articleId="hdinsight-kafka-mirrormaker"
 />
-# Azure HDInsight: How to duplicate data across Kafak clusters with Mirrormaker
+# Azure HDInsight: How to duplicate data across Kafka clusters with Mirrormaker
  
 ## **Recommended Documents**
 
-* [Use MirrorMaker to replicate Apache Kafka topics with Kafka on HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-mirroring)
+* [Use MirrorMaker to replicate Apache Kafka topics with Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-mirroring)
