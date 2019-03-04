@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="e8c8696f-8eb2-4cc0-9ef8-0269133edfc0"
 />
 
 # IoT Hub file upload issues

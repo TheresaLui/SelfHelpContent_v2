@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="53ae8eca-2812-45a2-bf10-8c0df8630a1c"
 />
 
 # ssl\Certificate Issues

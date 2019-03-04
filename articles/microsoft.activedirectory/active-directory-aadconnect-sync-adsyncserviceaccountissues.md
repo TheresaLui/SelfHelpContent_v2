@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16666"
     cloudEnvironments="public"
-    />
+    	articleId="1c334bfc-e3e7-438f-b43a-34afca40621d"
+/>
 
 # ADSync service or service account issues
 

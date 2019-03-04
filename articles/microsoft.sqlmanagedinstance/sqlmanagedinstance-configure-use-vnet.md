@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="5f5cd3cc-66e0-4b29-a5e9-ce5cc97bf7d7"
 />
 
 # Configure or use VNets

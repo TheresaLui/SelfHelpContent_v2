@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="d02d7b8f-d22d-4024-ac1e-ebe18d54ec4a"
 />
 
 # managed cache/development and advisory

@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+	articleId="8f88aeb3-28b2-49fc-9c69-f37e9f0c529c"
 />
 
 # I don’t have the right license for Identity Protection

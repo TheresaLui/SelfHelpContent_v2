@@ -11,6 +11,7 @@
     productPesIds=""
     supportToicIds =""
     cloudEnvironments="MoonCake"
+	articleId="ee119341-6984-4fc5-a496-a61c8efcbf6c"
 />
 
 # Only a few of my devices are receiving notifications.

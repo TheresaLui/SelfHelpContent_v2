@@ -7,6 +7,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="f65e7cce-b509-4ffe-bd75-774fdfd331bb"
 />
 # CosmosDb Query performance Issue
 ---

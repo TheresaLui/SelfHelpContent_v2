@@ -9,6 +9,7 @@
 	supportTopicIds="32628802"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="7972efdd-0274-46b5-a7d3-8a16a6eaed7a"
 />
 
 # Availability and Connectivity/My database was reported as unavailable (Resource Health)

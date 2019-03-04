@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="a5f3254f-eb7b-4dd0-a9ee-ffad8c1ff491"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629483"
@@ -19,7 +19,8 @@
 
 ## **Recommended Documents**
 
-* [_Debug_ Documentation](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging) <br>
-  * [Overview](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#iterative-debugging-features) <br>
-  * [Visualize Debug Run](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#visualizing-debug-runs) <br>
-  * [Set Breakpoints](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#setting-breakpoints-for-debugging) <br>
+_Debug_ mode [Document](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging), including following sections: <br>
+
+* [Overview](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#iterative-debugging-features) <br>
+* [Visualize Debug Run](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#visualizing-debug-runs) <br>
+* [Set Breakpoints](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging#setting-breakpoints-for-debugging) <br>

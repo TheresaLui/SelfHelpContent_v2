@@ -10,6 +10,7 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="3de8d91a-27c4-4cc9-be81-b846ba2da3f3"
 />
 
 # Managing database permissions and access

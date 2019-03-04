@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="6c4aca2a-1807-4e65-a56e-c6c8d847468a"
 />
 
 # Upgrade to Azure Storage Account V2

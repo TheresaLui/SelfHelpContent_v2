@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="905e84b4-fa31-432c-a854-1ea087633784"
 />
 # Features/Cross-database transactions
 

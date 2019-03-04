@@ -10,6 +10,7 @@
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds="14749,15797,15571,16470,16454,16342,14745"
 	cloudEnvironments="MoonCake"
+	articleId="f3f6dfe8-efb5-4b34-b966-82bf4f35efaf"
 />
 
 # My VM restarted unexpectedly

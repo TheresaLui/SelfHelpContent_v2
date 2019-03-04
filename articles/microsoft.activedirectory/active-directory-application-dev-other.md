@@ -8,7 +8,8 @@
   supportTopicIds="32596861"
   productPesIds="14785"
   cloudEnvironments="public"
- />
+ 	articleId="4c760fa3-e749-499b-a1d9-c3d816660030"
+/>
 
 # Other issues related to app development & registration
 

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="5b8aef2d-4a98-4e9f-b202-6b39d865ce15"
 />
 
 # Threat Detection and Auditing

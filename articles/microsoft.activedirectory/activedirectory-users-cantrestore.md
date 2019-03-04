@@ -9,7 +9,8 @@
     supportTopicIds="32615430"
     productPesIds="16578"
     cloudEnvironments="public"
- />
+ 	articleId="aa375ab2-1977-40e8-b772-097008394a91"
+/>
 
 # I can't restore a deleted user in my Azure AD
 

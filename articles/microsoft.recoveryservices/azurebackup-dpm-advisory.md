@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="e5da5ced-5964-41ea-bd54-a12f80b4c32c"
 />
 
 # ALL self-help topics System Center Data Protection Manager to Azure

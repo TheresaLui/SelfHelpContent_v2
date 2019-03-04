@@ -8,7 +8,8 @@
     supportTopicIds="32565586" 
     productPesIds="14947" 
     cloudEnvironments="public"
-    />
+    	articleId="ce5997d4-a807-4efc-8c95-28df566f87f0"
+/>
  
 # Installing or configuring extensions for MFA service (cloud)  
 ## **Recommended steps** 

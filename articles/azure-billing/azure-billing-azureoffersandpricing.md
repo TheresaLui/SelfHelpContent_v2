@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="de376764-bbf7-4f60-ac02-bc8a4028807c"
 />
 
 # azure offers and pricing

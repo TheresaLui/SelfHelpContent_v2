@@ -9,6 +9,7 @@
 	supportTopicIds="31980423"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="df17c81b-0b8c-49d6-8639-435f403e512a"
 />
 
 # design and development/REST APIs

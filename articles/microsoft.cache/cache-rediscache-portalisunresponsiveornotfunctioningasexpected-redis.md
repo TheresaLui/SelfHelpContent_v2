@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
+	articleId="93dfd3bf-4fe2-4a23-838a-5a61edfdef97"
 />
 
 # redis cache/portal is unresponsive or not functioning as expected

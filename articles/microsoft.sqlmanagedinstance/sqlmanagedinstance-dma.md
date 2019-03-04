@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="d78f7da6-9151-4593-91be-5e3594fb8264"
 />
 # Data Migration Assistant
 

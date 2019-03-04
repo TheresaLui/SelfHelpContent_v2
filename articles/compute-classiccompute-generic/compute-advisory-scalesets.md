@@ -2,7 +2,7 @@
 	pageTitle="Advisory"
 	description="Advisory"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""
@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16080"
 	cloudEnvironments="public"
+	articleId="8a8b1716-445c-490b-9969-d96dd996dee7"
 />
 
 # Advisory

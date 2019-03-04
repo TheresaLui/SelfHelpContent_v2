@@ -11,6 +11,7 @@
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
 />
 
 # My VM is slow

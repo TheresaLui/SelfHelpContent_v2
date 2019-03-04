@@ -10,6 +10,7 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="72e1e12d-86b3-4a54-a70c-fb8a61ef4be3"
 />
 
 # Problems working with PowerShell modules

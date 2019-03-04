@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="f5ccbe77-fa7c-408e-85be-3a4f7cde57eb"
+/>
 
 # Problem deleting an Azure AD tenant 
 
