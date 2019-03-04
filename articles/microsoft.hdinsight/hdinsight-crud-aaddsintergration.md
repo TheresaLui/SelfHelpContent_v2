@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="hdinishgt-CRUD-AADDSIntergration"
+    articleId="hdinsight-crud-aaddsintergration"
 />
 # Azure HDInsight Creating, Deleting, & Scaling HDInsight/Azure Active Directory Domain Services Integration
  
