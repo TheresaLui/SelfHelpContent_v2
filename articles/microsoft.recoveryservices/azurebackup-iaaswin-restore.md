@@ -25,7 +25,7 @@
 - Restore to latest/specific recovery point using:
 
 	- [Portal](https://aka.ms/AB-AA4ecqx)
-	- [PowerShell](https://aka.ms/AB-AA4e56o) 
+	- [PowerShell](https://aka.ms/AB-AA4e56o)
 	- [Restored disk](https://aka.ms/AB-AA4ecqq)<br>
 - [Configure static IP address to restored VM](https://aka.ms/AB-AA4e56r)<br>
 - [Restore an Encrypted VM](https://aka.ms/AB-AA4e56t)<br>
@@ -33,8 +33,8 @@
 - [How to restore a Domain Controller VM?](https://aka.ms/AB-AA4e56v)<br>
 - How can I attach existing NIC to the restored VM?
 
-	1. [Remove from original VM](https://aka.ms/AB-AA4ecr0)
-	2. [Attach to restored VM](https://aka.ms/AB-AA4e56s)
+	- [Remove from original VM](https://aka.ms/AB-AA4ecr0)
+	- [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
 - [Restore VM with special network configurations?](https://aka.ms/AB-AA4e56w)<br>
 
 **Limitations**<br>
