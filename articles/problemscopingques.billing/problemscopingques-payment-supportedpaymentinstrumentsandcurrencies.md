@@ -38,7 +38,7 @@
           "text": "Describe your problem, providing as much detail as possible."
         },
         {
-         "text": "Know more about Supported Payment Instruments and currencies  <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
+         "text": "Know more about Supported Payment Instruments and currencies - <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
         }
       ]
     }
