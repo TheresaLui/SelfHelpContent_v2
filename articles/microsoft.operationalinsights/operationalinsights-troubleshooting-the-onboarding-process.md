@@ -20,11 +20,11 @@ supportTopicIds="32612423"
 
 Health Checks are free Log Analytics offerings. OnDemand Assessment are premium offerings on top of Log Analytics available to Microsoft Premier and Unified customers. If you are interested in purchasing OnDemand Assessments to get a more comprehensive set of rules and analysis, contact InterestedInODA@microsoft.com
 
-**Troubleshooting On-Demand Assessments**
+## **Troubleshooting On-Demand Assessments**
 
 If you are having issues with On-Demand Assessments, please see the documentation below.
 
-## **Recommended Documents**
+### **Recommended Documents**
 
 [Troubleshooting the On-demand Assessments](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting)
 
@@ -55,13 +55,13 @@ This document describes the most common problems experienced with On-Demand Asse
    - [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
 
 
-**Troubleshooting Health Check**
+## **Troubleshooting Health Check**
 
 If you are having issues with Health Check, please see the documentation below.
 
-## **Recommended documents**
+### **Recommended documents**
 
-### AD Health Check   
+#### AD Health Check   
 
 [Optimize your Active Directory environment with the Active Directory Health Check solution in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment)  
 
@@ -83,7 +83,7 @@ This document provides guidance both on installing the solution and taking corre
  - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#next-steps)
 
 
-### SCOM Health Check
+#### SCOM Health Check
 
 [Optimize your environment with the System Center Operations Manager Health Check (Preview) solution](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment)
 
@@ -115,7 +115,7 @@ This document provides guidance on installing and configuring the solution, and 
 - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#next-steps)
  
 
-### SQL Health Check
+#### SQL Health Check
 
 [Optimize your SQL environment with the SQL Server Health Check solution in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment)
 
