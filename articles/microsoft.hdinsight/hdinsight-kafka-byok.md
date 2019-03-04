@@ -19,3 +19,4 @@
 
 * [Bring your own key for Apache Kafka on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-byok)
 * [Azure Friday video: BYOK for Kafka on HDInsight](https://channel9.msdn.com/Shows/Azure-Friday/Bring-your-own-keys-on-Apache-Kafka-with-Azure-HDInsight)
+* [Responding to BYOK alerts in Azure Resource Health Center](https://github.com/hdinsight/hdinsight.github.io/blob/master/kafka/kafka-byok-rhc.md)
