@@ -20,7 +20,7 @@
                   {
                     "id": "cluster_name",
                     "order": 1,
-                    "controlType": "text",
+                    "controlType": "textbox",
                     "displayLabel": "What is the cluster name?",
                     "required": false
                 },{
@@ -53,7 +53,7 @@
               },{
                     "id": "node_subnet",
                     "order": 4,
-                    "visibility": "node_number > 1",
+                    "visibility": "node_number != 1",
                     "controlType": "dropdown",
                     "displayLabel": "Are the nodes in the same or different subnets?",
                     "watermarkText": "Choose an option",
