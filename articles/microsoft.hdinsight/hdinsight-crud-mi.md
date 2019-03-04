@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="hdinsight-CRUD-MI"
+    articleId="hdinsight-crud-mi"
 />
 # Azure HDInsight Creating, Deleting, & Scaling HDInsight/Managed Identity
  
