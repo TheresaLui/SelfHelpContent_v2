@@ -70,11 +70,7 @@
             "hints": 
             [
                 {
-<<<<<<< HEAD
-					"text": "Include the exact text of any error messages that occured."
-=======
 					"text": "Paste in the exact text of any errors that occured."
->>>>>>> 8299a7670e7e898211d6f87ebe7ba6e442c59b5e
 				}
 			]
 		}, {
