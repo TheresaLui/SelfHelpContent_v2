@@ -47,7 +47,7 @@
                 },{
                   "id": "node_number",
                   "order": 3,
-                  "controlType": "text",
+                  "controlType": "textbox",
                   "displayLabel": "How many nodes are there in the cluster?",
                   "required": false
               },{
