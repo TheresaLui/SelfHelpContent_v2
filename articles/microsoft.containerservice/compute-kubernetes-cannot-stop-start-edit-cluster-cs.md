@@ -7,7 +7,7 @@
 	ms.author="tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32595639"
+	supportTopicIds="32595639,32633463,32633464,32633465,32633466,32633467,32633471,32633473"
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
