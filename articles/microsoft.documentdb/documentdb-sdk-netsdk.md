@@ -19,6 +19,7 @@
 ## **Recommended Steps**
 * Upgrade to the latest version of the [.NET SDK](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB/) from Nuget.org for fixes and improvements
 * If you're experiencing performance issues, follow [Performance Tips for .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
+* Follow the [diagnose and troubleshooting guide](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk)
 * For a list of known issues, workarounds, and SDK source code, see [Cosmos DB .NET SDK on Github](https://github.com/Azure/azure-cosmos-dotnet-v2/issues)
 
 ## **Recommended Documents**
