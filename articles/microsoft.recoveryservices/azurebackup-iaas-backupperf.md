@@ -1,4 +1,4 @@
-		 <properties
+<properties
 	pageTitle="Azure virtual machine backups are running slow"
 	description="VM backup performance"
 	service="microsoft.recoveryservices"
