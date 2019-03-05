@@ -1,4 +1,4 @@
-	<properties
+<properties
 	pageTitle="Backup of Windows Azure virtual machine fails"
 	description="Top issues causing Windows Azure virtual machine backup failures"
 	service="microsoft.recoveryservices"
