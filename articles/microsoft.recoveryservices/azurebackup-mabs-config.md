@@ -35,6 +35,6 @@ For information on prerequisites, limitations and frequently asked questions, se
 - [Step by step guide to setup Azure Backup Server](https://aka.ms/AA4f1pa)<br>
 - [Support matrix for Microsoft Azure Backup Server](https://aka.ms/AA4f1pc)<br>
 - [Pricing details](https://aka.ms/AA4f1pi)<br>
-- [What workloads, I can protect with Azure Backup Server?](https://aka.ms/AA4f1pl)<br>
+- [What workloads does Azure Backup Server protect?](https://aka.ms/AA4f1pl)<br>
 - [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
 - [What's new in Microsoft Azure Backup Server](https://aka.ms/AA4f1pt)<br>
