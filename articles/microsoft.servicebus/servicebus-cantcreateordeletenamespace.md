@@ -6,7 +6,7 @@
 	authors="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32571943"
+	supportTopicIds="32633396"
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
@@ -16,6 +16,7 @@
 
 ## **Recommended documents**
 [How to create Service Bus namespace using Portal and ARM templates](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-create-namespace-portal)<br>
+[How to create queues, topics and subscription through Powershell](https://blogs.msdn.microsoft.com/paolos/2014/12/02/how-to-create-service-bus-queues-topics-and-subscriptions-using-a-powershell-script/)<br>
 [How to delete a namespace](https://docs.microsoft.com/rest/api/servicebus/delete-namespace)<br>
 [Migrating existing solutions To Premium messaging](https://blogs.msdn.microsoft.com/servicebus/2016/07/28/tips-on-migrating-existing-solutions-to-premium-messaging/)<br>
 [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging)<br>
