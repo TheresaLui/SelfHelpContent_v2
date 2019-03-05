@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 - [Ensure there is network connectivity between MARS agent and Azure](https://aka.ms/AB-A4dp50) <br>
-- Ensure **system clock** on the protected system is configured to correct time zone <br>
+- Ensure **System Clock** on the protected system is configured to correct time zone <br>
 - If you are trying to **reregister your server** to a vault, then: <br>
   - Ensure the agent is uninstalled on the server and it is deleted from portal <br> 
   - Use the same passphrase that was initially used for registering the server <br>
