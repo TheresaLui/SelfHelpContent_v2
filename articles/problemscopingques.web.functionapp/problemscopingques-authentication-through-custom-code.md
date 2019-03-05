@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What language are you developing in?",
 			"watermarkText": "language...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "3",
@@ -37,7 +37,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which Authentication provider are you using?",
 			"watermarkText": "Authentication provider...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -45,7 +45,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "Exception...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
@@ -53,7 +53,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What library are you using to authenticate?.",
 			"watermarkText": "library...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

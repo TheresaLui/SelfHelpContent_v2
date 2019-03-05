@@ -45,7 +45,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which IDE are you using?  For example, Visual Studio, Visual Studio Code or in the portal?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -53,7 +53,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which source repository are you / have you configured for continuous integration?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",

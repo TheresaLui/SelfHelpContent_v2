@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the custom domain that you are trying to add?",
 			"watermarkText": "custom domain...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What error are you seeing and when are you seeing it?",
 			"watermarkText": "error...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

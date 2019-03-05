@@ -62,7 +62,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the status of the HC? (Not connected, Connected, Status unknown, etc.)",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "6",
@@ -70,7 +70,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the HC endpoint? (The endpoint that is visible in the Azure portal.)",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "7",
@@ -78,7 +78,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What's the exact name and port combination you are using to connect to the target through HC? ",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

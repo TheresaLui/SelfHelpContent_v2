@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "exception...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which Azure feature are you attempting to interface with via the MSI configuration? ",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

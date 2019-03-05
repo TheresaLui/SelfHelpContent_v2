@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which source repository are you / have you configured for continuous integration?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
