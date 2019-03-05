@@ -31,4 +31,4 @@
 
 ## **Recommended Documents**
 
-* [Azure virtual machine backup troubleshooting guide](https://aka.ms/AB-AA4ecqg)
+* [Azure Virtual Machine backup troubleshooting guide](https://aka.ms/AB-AA4ecqg)
