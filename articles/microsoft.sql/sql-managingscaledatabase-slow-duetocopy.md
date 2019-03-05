@@ -8,7 +8,7 @@
 	ms.author="Johirsch"
 	displayOrder="15"
 	articleId="UpdaSloCopying_A5D06371-7DA1-4999-B474-9B020FEB9071"
-	diagnosticScenario=""
+	diagnosticScenario="SqlProvision"
 	selfHelpType="Diagnostics"
 	supportTopicIds="32630431,32630452,32574333"
 	resourceTags="servers, databases"
