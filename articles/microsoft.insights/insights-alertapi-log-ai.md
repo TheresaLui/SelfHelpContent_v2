@@ -30,9 +30,9 @@ If you are running into issues deploying log alerts using REST API or Azure comm
     * It is recommended to use Azure Resource Manager CLI commands instead for deploying log alert rules.
     * For details, see [sample log alert creation using Azure Resource Manager CLI command](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-using-powershell-cli-or-api).
 
-3. Review if you have appropriate permissions. To create/update/delete log alerts
-    * you should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
-    * you should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
+3. Review if you have appropriate permissions. To create/update/delete log alerts:
+    * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
+    * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
 
 ## **Recommended Documents**
 
