@@ -1,9 +1,10 @@
 <properties
-	pageTitle="errors and exceptions/can't create or delete namespace"
-	description="errors and exceptions/can't create or delete namespace"
+	pageTitle="errors and issues/can't create or delete operation"
+	description="errors and issues/can't create or delete operation"
 	service="microsoft.servicebus"
 	resource="namespaces"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32633396"
@@ -12,7 +13,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax"
 />
 
-# errors and exceptions/can't create or delete namespace
+# errors and issues/can't create or delete operation
 
 ## **Recommended documents**
 [How to create Service Bus namespace using Portal and ARM templates](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-create-namespace-portal)<br>
