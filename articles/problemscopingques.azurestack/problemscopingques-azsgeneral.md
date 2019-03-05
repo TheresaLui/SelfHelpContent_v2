@@ -58,8 +58,11 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1811 if your build number is 1.1811.0.101.",
+            "watermarkText": "Example: 1901 if your build number is 1.1901.0.99.",
             "dropdownOptions": [{
+                    "value": "1902",
+                    "text": "1902"
+                },{
                     "value": "1901",
                     "text": "1901"
                 },{
@@ -72,24 +75,31 @@
                     "value": "1808",
                     "text": "1808"
                 },{
-                    "value": "1807",
-                    "text": "1807"
-                },{
-                    "value": "1805",
-                    "text": "1805"
-                },{
-                    "value": "Pre-1805",
-                    "text": "Pre-1805"
-                },{
                     "value": "Other",
                     "text": "Other"
                 }
                 ],
             "required": false,
-            "infoBalloonText": "Example: Select 1811 if your build number is 1.1811.0.101."
+            "infoBalloonText": "Example: Select 1901 if your build number is 1.1901.0.99."
+        },{
+            "id": "build_number",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Current Build Number",
+            "watermarkText": "Example 1.1901.0.99",
+            "required": false,
+            "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+        },{
+            "id": "region_name",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Region Name",
+            "watermarkText": "Name of your Azure Stack region",
+            "required": false,
+            "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
         },{
             "id": "tenant_impact",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -103,14 +113,6 @@
                 ],
             "required": false,
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
-        },{
-            "id": "region_name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Region Name",
-            "watermarkText": "Name of your Azure Stack region",
-            "required": false,
-            "infoBalloonText": "If you have more than one Azure Stack environment, Ex: REGION from https://adminportal.REGION.FQDN"
         },{
             "id": "problem_start_time",
             "order": 900,
