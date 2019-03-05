@@ -30,7 +30,7 @@ If you are running into issues creating/updating/deleting metric alerts using RE
     * CLI commands for metric alerts start with `az monitor metrics alert`. Review the [Azure CLI reference](https://docs.microsoft.com/cli/azure/monitor/metrics/alert?view=azure-cli-latest) to learn about the syntax.
     * You can see [sample showing how to use metric alert CLI](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric#with-azure-cli).
 
-3. If you are receiving a `Metric  not found` error, ensure you are using the Metric name from [this page](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and not the Metric Display Name
+3. If you are receiving a `Metric  not found` error, ensure you are using the Metric name from [this page](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and not the Metric Display Name.
 
 4. Review if you have appropriate permissions. To create/update/delete metric alerts
     * you should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
@@ -42,4 +42,4 @@ If you are running into issues creating/updating/deleting metric alerts using RE
 
 2. Azure CLI doesn't yet support creating [multi-resource metric alerts](https://azure.microsoft.com/blog/monitor-at-scale-in-azure-monitor-with-multi-resource-metric-alerts/).
 
-3. Azure CLI doesn't yet support managing [metric alerts with Dynamic Thresholds](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-dynamic-thresholds)
+3. Azure CLI doesn't yet support managing [metric alerts with Dynamic Thresholds](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-dynamic-thresholds).

@@ -26,11 +26,11 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
 
 ### SMS
 
-* If you need to send SMS to a country code not currently supported we recommend you use a LogicApp action and configure the LogicApp to use one of the connectors provided that integrates with SMS services. See [an example from the Azure template library](https://azure.microsoft.com/resources/templates/201-alert-to-text-message-with-logic-app/).
+* If you need to send SMS to a country code not currently supported, we recommend you use a Logic App action and configure the Logic App to use one of the connectors provided that integrates with SMS services. See [an example from the Azure template library](https://azure.microsoft.com/resources/templates/201-alert-to-text-message-with-logic-app/).
 
 ### Voice
 
-* If you need to make a voice call to a country code not currently supported you will need to implement a LogicApp, Function or Runbook that interfaces with your voice service provider. An example using Twilio is available here: https://github.com/jjindrich/jjazure-twilio.
+* If you need to make a voice call to a country code not currently supported you will need to implement a Logic App, Function or Runbook that interfaces with your voice service provider. An example using Twilio is available here: https://github.com/jjindrich/jjazure-twilio.
 
 ### Webhook
 
@@ -42,7 +42,7 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
   * 13.106.38.148
   * 13.106.57.196
 
-* The timeout period for a response is 10 seconds. The webhook call will be retried a maximum of 2 times when the following HTTP status codes are returned: 408, 429, 503, 504 or the HTTP endpoint does not respond. The first retry happens after 10 seconds. The second and last retry happens after 100 seconds. If the second retry fails the endpoint will not be called again for 30 minutes for any action group.
+* The timeout period for a response is 10 seconds. The webhook call will be retried a maximum of 2 times when the following HTTP status codes are returned: 408, 429, 503, 504 or the HTTP endpoint does not respond. The first retry happens after 10 seconds. The second and last retry happens after 100 seconds. If the second retry fails, the endpoint will not be called again for 30 minutes for any action group.
 
 ## **Recommended Documents**
 

@@ -26,7 +26,7 @@ Azure Service Health tracks the health of your Azure services in the regions whe
 
 2. If you are having trouble integrating Service Health alerts with your webhook endpoints, review the [payload format](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts-webhook#servicehealth).
 
-3. If you believe you should have received a Service Health notification but haven't
+3. If you believe you should have received a Service Health notification but haven't, then
     * Review if the **Services** in your rule match the services you were expecting the notification for
     * Review if the **Regions** in your rule match the regions where you use the Azure services
     * Review if the **Event type** in your rule matches the event type of the Service Health event
