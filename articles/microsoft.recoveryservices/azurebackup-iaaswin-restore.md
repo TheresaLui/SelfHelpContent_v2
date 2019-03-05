@@ -51,7 +51,7 @@
 - [Restore failed with Cloud Internal error](https://aka.ms/AB-AA4ecqi)<br>
 - [The selected DNS name is already taken](https://aka.ms/AB-AA4ecqi)<br>
 - [The specified virtual network configuration is not correct](https://aka.ms/AB-AA4ecqi)<br>
-- [The specified cloud service is using a reserved IP]https://aka.ms/AB-AA4ecqi)<br>
+- [The specified cloud service is using a reserved IP](https://aka.ms/AB-AA4ecqi)<br>
 
 ## **Recommended Documents**
 
