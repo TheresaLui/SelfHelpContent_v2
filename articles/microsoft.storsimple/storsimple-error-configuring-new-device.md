@@ -18,7 +18,7 @@
 
 # Error configuring a new appliance 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Deploy your on-premises StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-deployment-walkthrough-u2)
 
