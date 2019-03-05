@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the source and destination resource group?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please list all the resources you are trying to move, recognizing that some resources cannot be moved.",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",

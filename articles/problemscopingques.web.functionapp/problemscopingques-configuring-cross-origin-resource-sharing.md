@@ -29,7 +29,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "3",
@@ -37,7 +37,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the host.json file",
 			"watermarkText": "host.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -45,7 +45,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "exception...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

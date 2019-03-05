@@ -29,7 +29,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "3",
@@ -37,7 +37,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the proxies.json file",
 			"watermarkText": "proxies.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -45,7 +45,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the auto generated YAML file",
 			"watermarkText": "yaml file...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

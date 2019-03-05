@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide the Function name that is not working as expected",
 			"watermarkText": "function name...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "3",
@@ -37,7 +37,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -45,7 +45,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the host.json file",
 			"watermarkText": "host.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",

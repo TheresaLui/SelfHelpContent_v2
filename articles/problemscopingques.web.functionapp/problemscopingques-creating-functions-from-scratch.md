@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which IDE are you using?  For example, Visual Studio, Visual Studio Code or in the portal?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",
