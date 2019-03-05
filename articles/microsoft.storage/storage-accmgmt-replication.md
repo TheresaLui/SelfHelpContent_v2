@@ -4,19 +4,21 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602702"
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="commonSoln_replication"
 />
 
 # Which account replication type to use
 
 ## **Recommended documents**
 - [Can I change secondary location for my GRS/RA-GRS account](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
-- [How to preform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
+- [How to perform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
 - [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
 - [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/library/azure/ee460802.aspx)
 - [Converting to ZRS replication](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#converting-to-zrs-replication)
