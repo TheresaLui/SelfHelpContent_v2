@@ -22,4 +22,4 @@
 - How to restore files to: [**original location**](https://aka.ms/AB-AA4dwtj) (or) [**alternative location**?](https://aka.ms/AA4f1qz)<br>
 - [How to Monitor and Manage Backup?](https://aka.ms/AB-AA4dwtn)<br>
 - [Frequently asked questions](https://aka.ms/AB-AA4dp54)<br>
-- [issue] [Troubleshooting common Microsoft Recovery Services agent issues](https://aka.ms/AB-AA4dwts)
+- [Troubleshooting common Microsoft Recovery Services agent issues](https://aka.ms/AB-AA4dwts)
