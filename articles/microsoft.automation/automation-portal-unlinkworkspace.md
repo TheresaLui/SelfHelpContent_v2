@@ -22,6 +22,6 @@
 
 * If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
