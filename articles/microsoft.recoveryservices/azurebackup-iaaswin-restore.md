@@ -26,7 +26,7 @@
 - Replacing an existing virtual machine during restore is not supported. You can use one of the following restore options
 
 	- [Replace disks of existing backed-up VM](https://aka.ms/VMRestore-ReplaceExisting-disks)<br>
-	- [Resotre disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [Powershell](https://aka.ms/AB-AA4e56j)
+	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [Powershell](https://aka.ms/AB-AA4e56j)
 	- [Restore as a new VM](https://aka.ms/AzureBackup-Restore-NewVM)
 	
 **Frequently Asked Questions**
@@ -48,7 +48,7 @@
 
 - If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal
 - If you are **unable to see backup items** from the portal then ensure you have [required permission](https://aka.ms/AB-AA4ecqc) to access backup vault
-- If you are facing issues restoring a virtual machine, Try [Resotre disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [Powershell](https://aka.ms/AB-AA4e56j)<br>
+- If you are facing issues restoring a virtual machine, Try [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [Powershell](https://aka.ms/AB-AA4e56j)<br>
 - To perform a restore ensure you have appropriate [Role Based Access controls in place](https://aka.ms/AB-AA4ecqc) <br>
 - To restore a VM into a specific availability set, restore disks and create a VM in availability sets using PowerShell cmdlets <br>
 - In case of Azure Datacenter Disaster, Azure Backup [restores VM in paired data center](https://aka.ms/AB-AA4e56v)<br>
