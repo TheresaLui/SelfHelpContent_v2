@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide one or more Run IDs related to this incident.",
 			"watermarkText": "Run IDs...",
-			"required": false,
+			"required": false
 		}, 
 		{
 			"id": "history",
@@ -53,7 +53,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "If you can’t save or update your definition, please share this JSON code with us.",
 			"watermarkText": "JSON code...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

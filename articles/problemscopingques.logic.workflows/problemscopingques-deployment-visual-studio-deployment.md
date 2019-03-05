@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide the resource IDs of Logic Apps with similar symptoms.",
 			"watermarkText": "Resource IDs...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
@@ -37,7 +37,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide the resource IDs of Logic Apps with the same overall structure and connectors that are not experiencing the same symptoms.",
 			"watermarkText": "Resource IDs...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "json",
@@ -45,7 +45,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "If you can’t save or update your definition, please share this JSON code with us.",
 			"watermarkText": "JSON code...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "deploy",

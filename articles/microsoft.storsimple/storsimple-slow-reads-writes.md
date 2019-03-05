@@ -4,7 +4,7 @@
 	infoBubbleText="See details on the right"
 	service="microsoft.storsimple"
 	resource="managers"
-	author="archana-msft"
+	authors="archana-msft"
 	ms.author="armukk"
 	displayOrder=""
 	articleId="dafaf48e-329e-4686-ab0a-3fe0db140a37"
