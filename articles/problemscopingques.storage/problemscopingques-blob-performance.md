@@ -21,20 +21,12 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate start time of the most recent occurrence",
+            "displayLabel": "Approximate local start time of the most recent occurrence",
             "required": true
         },
         {
-            "id": "blob_or_container",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Container name or Blob path",
-            "watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
-            "required": false
-        },
-        {
             "id": "request_id",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
@@ -42,8 +34,37 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "blob_container",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Blob Container",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "blob_path",
             "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "Blob name or path if specific to a blob",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -51,9 +72,9 @@
         },
         {
             "id": "learn_more_text",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
-            "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot peformance issues."
+            "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot performance issues."
         }
     ]
 }
