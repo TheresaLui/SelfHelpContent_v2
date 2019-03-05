@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="fc92d23a-3ce3-46f4-929e-116ee895c29c"
 />
 
 # open source technologies/wordpress

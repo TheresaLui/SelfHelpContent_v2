@@ -4,13 +4,14 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds="15629"
     cloudEnvironments="MoonCake"
+	articleId="49cb4f69-ed79-4966-9d3a-d4a5bffa046d"
 />
 
 # My VM/Disk is slow

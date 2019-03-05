@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="7f672a4e-97d1-48e0-a711-da6005dad24a"
 />
 
 # Problems with WebJobs/WebJobs SDK

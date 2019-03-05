@@ -7,6 +7,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="08df64c4-7e4e-4ebc-9012-31a0dd43a37e"
 />
 # Issues creating Storage Account
 ---

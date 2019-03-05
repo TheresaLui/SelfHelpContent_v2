@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="50167ef9-4dec-4338-a07d-72f217568e38"
 />
 
 # Problems with WebJobs/WebJobs is crashing, failing, or stopping

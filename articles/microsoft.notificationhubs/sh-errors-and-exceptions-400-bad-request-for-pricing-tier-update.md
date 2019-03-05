@@ -10,6 +10,7 @@
 	productPesIds="15973"
 	supportTopicIds="32565576"
 	cloudEnvironments="public"
+	articleId="d2415041-26c5-4801-9b06-dedb385fb4c5"
 />
 
 # Errors and Exceptions/400 Bad Request for Pricing Tier Update

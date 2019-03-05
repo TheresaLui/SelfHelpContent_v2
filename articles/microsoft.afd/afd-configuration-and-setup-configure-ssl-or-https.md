@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614245"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="91f1e0e5-5317-4900-ae44-654ab268acfe"
 />
 
 # Configure SSL or HTTPS 

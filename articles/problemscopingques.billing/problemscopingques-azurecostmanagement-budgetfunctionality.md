@@ -2,7 +2,7 @@
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Management"
 	articleId="azurecostmanagement"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615283,32615285,32615286"

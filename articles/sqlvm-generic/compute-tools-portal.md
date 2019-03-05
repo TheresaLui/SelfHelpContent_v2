@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="83f93029-88cd-4c7f-96cc-e102e42b0695"
 />
 
 # tools/portal

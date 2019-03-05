@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
+	articleId="392c44dd-6b97-417f-9a5f-122bc3bb5b69"
 />
 
 # performance, errors, and other application issues

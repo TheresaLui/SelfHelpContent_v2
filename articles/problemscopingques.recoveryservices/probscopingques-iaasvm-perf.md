@@ -7,6 +7,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
 />
 # Questions Azure VM backup or restore performance
 ---

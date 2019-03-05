@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="e1d6bdc5-4573-47f8-afd4-1b2b361a6c85"
 />
 
 # Azure Automation - RBAC

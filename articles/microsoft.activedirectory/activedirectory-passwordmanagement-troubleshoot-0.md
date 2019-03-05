@@ -8,6 +8,7 @@
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
     cloudEnvironments="public"
+	articleId="a447252e-69f4-4283-885e-ae2cd1e56715"
 />
 
 # Problems with licensing

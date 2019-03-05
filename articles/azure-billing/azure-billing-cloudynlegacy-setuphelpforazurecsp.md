@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="a091dc62-2413-4988-ac75-1760d0cb5b85"
 />
 
 # Setup help for Azure CSP

@@ -9,15 +9,16 @@
 	supportTopicIds="31980426"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="afc882b3-33ad-4a70-9fa6-438bf78924e9"
 />
 
 # managing/server
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall/)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Define a server-level auditing policy](https://docs.microsoft.com/azure/sql-database/sql-database-auditing/)<br>
 * [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)

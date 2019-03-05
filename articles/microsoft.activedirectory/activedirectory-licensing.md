@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
- />
+ 	articleId="875c437a-f5d4-4735-a7d3-11d84fb6e4de"
+/>
 
 # Licensing
 

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="274e2399-596c-4a21-8af6-d6922592736a"
 />
 
 # development/errors and exceptions
