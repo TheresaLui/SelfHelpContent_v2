@@ -31,5 +31,5 @@
 - We recommend using SSH based authentication for Linux VMs. If You are using Password based authentication on the VM which got backed up, you need to [reset password](https://aka.ms/AB-AA4e56u) post restore using VM Access extension <br>
 - To Restore a VM into a specific availability set, restore disks and configuration, and create a VM use PowerShell cmdlets [Learn More](https://aka.ms/AB-AA4e56z) <br>
 - In case of Azure Datacenter Disaster, Azure Backup [restores VM in paired data center](https://aka.ms/AB-AA4e56v) <br>
-- Restore disks will restore all disks(OS and data disks attached to the VM). Individual disk restore is not possible using this option <br>
-- [Azure virtual machine restore troubleshooting guide](https://aka.ms/AB-AA4ecqi)<br>
+- Restore disks will restore all disks (OS and data disks attached to the VM). Individual disk restore is not possible using this option <br>
+- [Azure Virtual Machine restore troubleshooting guide](https://aka.ms/AB-AA4ecqi)<br>
