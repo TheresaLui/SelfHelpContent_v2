@@ -71,7 +71,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": false
 		},
 		{
 			"id": "which_ongoing_update_slo",
@@ -108,7 +108,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": "which_ongoing_update_slo != Choose an option"
+			"visibility": false
 		},
 		{
 			"id": "problem_description",
