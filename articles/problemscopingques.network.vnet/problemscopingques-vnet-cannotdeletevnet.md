@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Cannot connect to a VM in a peered VNet"
-	description="Cannot connect to a VM in a peered VNet"
+	pageTitle="Cannot delete a Virtual Network"
+	description="Cannot delete a Virtual Network"
 	authors="anavinahar"
     ms.author="anavin"
 	selfHelpType="problemScopingQuestions"

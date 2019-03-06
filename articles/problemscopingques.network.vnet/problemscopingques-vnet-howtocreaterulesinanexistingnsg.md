@@ -11,7 +11,7 @@
 	articleId="66574748238"
 />
 
-# Cannot Connect to or from Internet
+# How to create rules in an existing NSG
 
 ---
 {
