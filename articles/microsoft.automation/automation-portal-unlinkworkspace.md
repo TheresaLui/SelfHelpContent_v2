@@ -16,7 +16,7 @@
 
 # Azure Automation - Automation Account - Unlink Workspace
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Deleting an Automation Account
 
