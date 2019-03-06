@@ -14,7 +14,7 @@
 	articleId="9db79585-dd52-4139-a9a7-8194b4448c58"
 />
 
-# My VM will not start after a configuration change
+# vm management/cannot stop, start or restart a VM
 
 4 out of 5 customers resolved their VM start issue using the steps below.<br>
 
@@ -29,4 +29,4 @@
 
 * [Troubleshoot deploying Windows virtual machine issues in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting)<br>
 * [Classic Deployments: Troubleshoot allocation failures](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure-classic)<br>
-* [Learn about the Virtual Machine lifecycle and states](https://docs.microsoft.com/azure/virtual-machines/windows/states-lifecycle)
+* [Learn about the virtual machine lifecycle and states](https://docs.microsoft.com/azure/virtual-machines/windows/states-lifecycle)

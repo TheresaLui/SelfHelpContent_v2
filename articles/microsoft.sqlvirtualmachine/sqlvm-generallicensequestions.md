@@ -26,7 +26,7 @@
 
 * **Can I change a VM to use my own SQL Server license if it was created from one of the pay-as-you-go gallery images?**
 
-	Yes. You can move easily move between the two licensing models, if you originally started with a pay-as-you-go gallery image. However, you will not be able to switch your license to PAYG if you initially started with a BYOL image.
+	Yes. You can move easily move between the two licensing models if, you originally started with a pay-as-you-go gallery image. However, you will not be able to switch your license to PAYG if you initially started with a BYOL image.
 
 * **Should I use BYOL images or SQL VM RP to create new SQL VM?**
 
@@ -46,7 +46,7 @@
 
 * **Is it possible to register self-deployed SQL Server VMs with the SQL VM resource provider?**
 
-	Yes. If you deployed SQL Server from your own media, and installed the SQL IaaS extension you can register your SQL Server VM with the resource provider to get the manageability benefits provided by the SQL IaaS extension. However, you are unable to convert a self-deployed SQL VM to pay-as-you-go.
+	Yes. If you deployed SQL Server from your own media and installed the SQL IaaS extension you can register your SQL Server VM with the resource provider to get the manageability benefits provided by the SQL IaaS extension. However, you are unable to convert a self-deployed SQL VM to pay-as-you-go.
 
 
 ##  **Recommended Documents**

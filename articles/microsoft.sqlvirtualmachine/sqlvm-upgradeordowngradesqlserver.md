@@ -18,7 +18,7 @@
 
 * **How can I change the edition of the SQL Server in an Azure VM?**
 
-	The per hour price rate associated with the SQL VM is defined by the edition of SQL Server.<br> Today, we do not offer a mechanism to update the per hour price rate of the VM when SQL Server edition is updated. Because of that, we do not support SQL Server edition upgrade or downgrade on an Azure VM.<br>
+	The per hour price rate associated with the SQL VM is defined by the edition of SQL Server.<br> Today, we do not offer a mechanism to update the per hour price rate of the VM when SQL Server edition is updated. Hense, we do not support SQL Server edition upgrade or downgrade on an Azure VM.<br>
 	A new VM from the image with the required SQL Server edition should be created to reflect the pricing differences accurately.
 
 * **How do I upgrade SQL Server version in an Azure VM?**
