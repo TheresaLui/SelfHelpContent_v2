@@ -33,7 +33,7 @@
 
 - How to:
 	- [Restore specific files or folders from Azure Virtual Machine backup?](https://aka.ms/AB-AA4e56a)<br>
-	- Restore to latest/specific recovery point using [Portal](https://aka.ms/AB-AA4ecqx), [PowerShell](https://aka.ms/AB-AA4e56o)
+	- Restore to latest/specific recovery point using [Portal](https://aka.ms/AB-AA4ecqx), [PowerShell](https://aka.ms/AB-AA4e56o)?
 	- [Configure static IP address to restored VM?](https://aka.ms/AB-AA4e56r)<br>
 	- [Restore an Encrypted VM?](https://aka.ms/AB-AA4e56t)<br>
 	- [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault?](https://aka.ms/AB-AA4ecqr)<br>
