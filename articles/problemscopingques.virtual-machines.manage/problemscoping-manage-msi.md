@@ -40,7 +40,7 @@
                   "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
+                  "useAsAdditionalDetails": true,
                   "required": true
                 },{
                   "id": "problem_start_time",

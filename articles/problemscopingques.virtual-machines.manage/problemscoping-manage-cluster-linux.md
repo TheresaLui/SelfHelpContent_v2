@@ -111,7 +111,7 @@
                   "order": 6,
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the quorum model in use?",
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": false,
                   "required": false
                 },{
                   "id": "problem_description",

@@ -74,7 +74,7 @@
                   "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
-                  "useAsAdditionalDetails": true,
+                  "useAsAdditionalDetails": false,
                   "required": true
                 },{
                   "id": "problem_start_time",
