@@ -20,7 +20,7 @@
 
 - [Ensure Microsoft Azure Recovery Services (MARS) Agent is up to date before troubleshooting further](https://go.microsoft.com/fwlink/?linkid=229525&clcid=0x409) <br>
 - [Ensure there is network connectivity between MARS agent and Azure](https://aka.ms/AB-A4dp50) <br>
-- Ensure Microsoft Azure Recovery Services is running (in Srevice console). If required restart and retry the operation <br>
+- Ensure Microsoft Azure Recovery Services is running (in Service console). If required restart and retry the operation <br>
 - [Ensure 5-10% free volume space is available on scratch folder location](https://aka.ms/AB-AA4dwtt) <br>
 - [Check if another process or antivirus software is interfering with Azure Backup](https://aka.ms/AB-AA4dwtk) 
 - [Scheduled backup fails, but manual backup works](https://aka.ms/ScheduledBackupFailManualWorks) <br>
