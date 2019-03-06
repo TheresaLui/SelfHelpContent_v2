@@ -34,7 +34,7 @@
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": null
+			"visibility": true
 		},
 		{
 			"id": "which_database",
