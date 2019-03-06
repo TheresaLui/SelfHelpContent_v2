@@ -1,22 +1,22 @@
 <properties
-    pageTitle="Active Directory application sign in L1 issue"
+    pageTitle="Azure Active Directory Sign-In and Multi-Factor Authentication"
     description="appssigninl1datacollectiondoc"
-    authors="ashish-009"
-	ms.author="asbh"
+    authors="arupela"
+    ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570955,32596851,32596848,32596856,32596837,32268132,32570275,32570259,32570274,32596862,32615379,32615388,32615397,32615424,32596867,32615381,32615390,32615398,32447987,32596842,32596872"
-    productPesIds="16575,16579"
+    supportTopicIds="32615399,32615515,32615516,32615400,32615519,32630265"
+    productPesIds="16579"
     cloudEnvironments="public"
     schemaVersion="1"
-    articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
+    articleId="mfa-insight1-datacollection"
     />
 
-# Active Directory application sign in L1 issue
+# Azure Active Directory Sign-In and Multi-Factor Authentication
 
 ---
 {
     "resourceRequired": false,
-    "title": "Active Directory application sign in L1 issue",
+    "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -57,7 +57,7 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the UPN of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -131,7 +131,7 @@
             "controlType": "textbox",
             "displayLabel": "Timestamp from Error message:",
             "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
+            "watermarkText": "Copy the UTC timestamp from the error message or sign in log entry and paste it here",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -158,12 +158,12 @@
         },
         {
             "id": "userNameOrId",
-            "visibility": "hasErrorData==no",
+            "visibility": null,
             "order": 9,
             "controlType": "textbox",
             "displayLabel": "Which user is experiencing this problem?",
             "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
+            "watermarkText": "Enter user UPN for MFA server or Object ID of the user in Azure Active Directory",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,

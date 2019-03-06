@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide the Function name that is not working as expected",
 			"watermarkText": "function name...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "3",
@@ -37,7 +37,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the function.json file",
 			"watermarkText": "function.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -45,7 +45,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the host.json file",
 			"watermarkText": "host.json...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
@@ -53,7 +53,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "exception...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "6",
@@ -78,7 +78,7 @@
 			"controlType": "textbox",
 			"displayLabel": "If possible, please provide an Invocation Id of a Function execution which was slow.  The Invocation Id resembles a GUID and can be found in the Invocation Detail log on the Monitor blade in the portal.  It is most commonly the final entry.",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "8",
@@ -86,7 +86,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide an overview of your Function orchestration and a brief explanation of what the function does.  Where in the orchestration does the undesired behaviour occur?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

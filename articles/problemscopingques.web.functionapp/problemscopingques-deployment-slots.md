@@ -45,7 +45,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -53,7 +53,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Can you provide the Activity Log entry for this slot action?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

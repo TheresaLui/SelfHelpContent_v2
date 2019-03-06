@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What deployment exception are you experiencing?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What version of Git are you deploying from?  Please confirm you have the most current updates",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",
