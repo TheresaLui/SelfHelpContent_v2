@@ -16,4 +16,4 @@
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
-<div>The user does not have Intune license assigned.  Users cannot enroll devices into Intune until an Intune license is assigned. Please assign license to user.<br/><br/>To license your users please review the following document <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">here</a>.</div>
+<div>The user does not have an Intune license assigned.  Users cannot enroll devices into Intune until an Intune license is assigned.<br/><br/>To license your users please review the following document <a href="https://docs.microsoft.com/intune/licenses-assign" target="_blank">here</a>.</div>
