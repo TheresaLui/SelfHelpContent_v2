@@ -26,7 +26,7 @@
 - Replacing an existing virtual machine during restore is not supported. You can use one of the following restore options
 
 	- [Replace disks of existing backed-up VM](https://aka.ms/VMRestore-ReplaceExisting-disks)<br>
-	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [Powershell](https://aka.ms/AB-AA4e56j)
+	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)
 	- [Restore as a new VM](https://aka.ms/AzureBackup-Restore-NewVM)
 	
 **Frequently Asked Questions**
