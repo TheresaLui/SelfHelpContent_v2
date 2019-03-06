@@ -16,7 +16,7 @@
 
 # Alert and Report How-to and general questions
 
-## **Recommended Documentation**
+## **Recommended Documents**
 
 **Azure Backup Monitoring and Reporting using Power BI**
 
