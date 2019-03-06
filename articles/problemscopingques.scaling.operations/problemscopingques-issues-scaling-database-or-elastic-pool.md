@@ -71,7 +71,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": false
+			"visibility": true
 		},
 		{
 			"id": "which_ongoing_update_slo",
@@ -85,7 +85,7 @@
 				"jTokenPath": "chosenOngoingUpdateSlo",
 				"textProperty": "properties.operation",
 				"valueProperty": "properties.operation",
-				"textPropertyRegex": ".*"
+				"textPropertyRegex": null
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
