@@ -104,8 +104,8 @@
 					"value": ".NET",
 					"text": ".NET"
 				},{
-					"value": "Java",
-					"text": "Java"
+					"value": "Java ",
+					"text": "Java "
 				},{
 					"value": "Node.JS",
 					"text": "Node.JS"
@@ -117,7 +117,7 @@
 		},{
 			"id": "javasdk_version",
 			"order": 8,
-            "visibility": "language_used == Java",
+            "visibility": "language_used == Java ",
 			"controlType": "dropdown",
 			"displayLabel": "What version of Java are you using?",
 			"dropdownOptions": [
@@ -147,7 +147,7 @@
 		}, {
 			"id": "webserver_type_java",
 			"order": 9,
-            "visibility": "language_used == Java",
+            "visibility": "language_used == Java ",
 			"controlType": "dropdown",
 			"displayLabel": "What Java web server is being used?",
 			"dropdownOptions": [
@@ -176,7 +176,7 @@
 		}, {
 			"id": "framework_type_java",
 			"order": 11,
-            "visibility": "language_used == Java",
+            "visibility": "language_used == Java ",
 			"controlType": "dropdown",
 			"displayLabel": "What Java Web Framework are you using?",
 			"dropdownOptions": [
@@ -197,7 +197,7 @@
 		}, {
 			"id": "framework_type_version_java",
 			"order": 12,
-            "visibility": "language_used == Java",
+            "visibility": "language_used == Java ",
 			"controlType": "textbox",
 			"displayLabel": "What is the framework version being used",
 			"watermarkText": "SpringBoot 2.1.0",
@@ -205,7 +205,7 @@
 		}, {
 			"id": "jvm_agent",
 			"order": 13,
-            "visibility": "language_used == Java",
+            "visibility": "language_used == Java ",
 			"controlType": "textbox",
 			"displayLabel": "Is the JVM Agent Being used for dependency collection?",
 			"watermarkText": "Yes or No",
