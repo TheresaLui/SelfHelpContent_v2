@@ -70,7 +70,7 @@
             "hints":
             [
                 {
-					"text": "Paste in the exact text of any errors that occured."
+					"text": "Paste in the exact text of any errors that occurred."
 				}
 			]
 		},
