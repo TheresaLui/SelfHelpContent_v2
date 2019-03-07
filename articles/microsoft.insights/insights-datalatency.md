@@ -17,12 +17,14 @@
 
 ## **Recommended Steps**
 
-Data latency is an unfortunate part of a widely distributed collection system such as Application Insights and Azure Monitor. The **best case scenario** for data latency is usually limited to under 15 minutes. However there are many, many factors that can contribute to this and can lead to increased and unpredictable times. To evaluate the actual amount of latency you can use the [ingestion_time()](https://docs.microsoft.com/en-us/azure/kusto/query/ingestiontimefunction) function. Here is an example query to investigate average latency per hour by data type. Please note, we no longer have a data latency SLA, please review our [current SLA](https://azure.microsoft.com/en-us/support/legal/sla/application-insights/v1_2/).<br>
+Latency is expected in a highly distributed system. It is best to wait to see if the latency is persistent for more than two hours before attempting to open a ticket, as most latency issues are transient. To evaluate the actual amount of latency you can use the [ingestion_time()](https://docs.microsoft.com/en-us/azure/kusto/query/ingestiontimefunction) function. Here is an example query to investigate average latency per hour by data type. Please note, we no longer have a data latency SLA, please review our [current SLA](https://azure.microsoft.com/en-us/support/legal/sla/application-insights/v1_2/).<br>
 
-  1. Execute the query below
-  2. Check the [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for a correlated incident
-  3. If the query indicates that the period of latency is greater than one hour for an extended period of time (four or more hours) contact support.
+1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)  
+2. Check the [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for any service outages
+3. Execute a comparable query in Analytics and compare it to the other screens, as it's possible the data is not returned only for the impacted window
+4. Verify the actual ingestion time compared to the timestamp using the query below
 
+<br>
 ```
 union *
 | where timestamp > ago(24h)
