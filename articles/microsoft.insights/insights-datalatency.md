@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     articleId="insights_datalatency"
-    authors="jamdavi"
+    authors="debugthings"
     ms.author="jamdavi"
     displayOrder="999"
     selfHelpType="resource"
@@ -17,7 +17,7 @@
 
 ## **Recommended Steps**
 
-Latency is expected in a highly distributed system. It is best to wait to see if the latency is persistent for more than two hours before attempting to open a ticket, as most latency issues are transient. To evaluate the actual amount of latency you can use the [ingestion_time()](https://docs.microsoft.com/en-us/azure/kusto/query/ingestiontimefunction) function. Here is an example query to investigate average latency per hour by data type. Please note, we no longer have a data latency SLA, please review our [current SLA](https://azure.microsoft.com/en-us/support/legal/sla/application-insights/v1_2/).<br>
+Latency is expected in a highly distributed system. It is best to wait to see if the latency is persistent for more than two hours before attempting to open a ticket, as most latency issues are transient. To evaluate the actual amount of latency you can use the [ingestion_time()](https://docs.microsoft.com/azure/kusto/query/ingestiontimefunction) function. Here is an example query to investigate average latency per hour by data type. Please note, we no longer have a data latency SLA, please review our [current SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/).<br>
 
 1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)  
 2. Check the [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for any service outages
@@ -34,6 +34,6 @@ union *
 
 ## **Recommended Documents**
 
-* [Application Insights SLA](https://azure.microsoft.com/en-us/support/legal/sla/application-insights/v1_2/)<br>
-* [Checking Ingestion Time](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)<br>
+* [Application Insights SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/)<br>
+* [Checking Ingestion Time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)<br>
 * [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)<br>
