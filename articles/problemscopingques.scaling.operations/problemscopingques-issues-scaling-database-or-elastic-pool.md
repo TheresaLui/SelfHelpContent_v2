@@ -22,7 +22,7 @@
 			"id": "which_server",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the server containing the database you need assistance with.",
+			"displayLabel": "Please select the server containing the database you need assistance with. ",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
