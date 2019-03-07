@@ -18,5 +18,4 @@
 
 ## **Recommended Documents**
 
-- [What are the limitations on Azure Virtual Machine Activity Log Alerts?](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#limitations-on-alert)<br>
-- [Configure email notifications on Azure Virtual Machine for successful backup using Activity Log Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#using-activity-logs-to-get-notifications-for-successful-backups)<br>
+- You can use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for **Azure VMs**, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
