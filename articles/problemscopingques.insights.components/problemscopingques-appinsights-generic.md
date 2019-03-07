@@ -16,7 +16,7 @@
 	"resourceRequired": true,
 	"title": ".NET SDK",
 	"fileAttachmentHint": "File Upload recommendations: ApplicationInsights.config; packages.config or PackageReferences; web.config or app.config; AppSettings.json; ApplicationInsights.xml; AI-Agent.xml. Please edit files to remove sensitive information",
-	"formElements": [, {
+	"formElements": [{
 			"id": "category_classification",
 			"order": 1,
 			"controlType": "dropdown",
@@ -316,7 +316,7 @@
 					"text": "Other"
 				}],
 			"required": true
-		}, {
+		},{
 			"id": "framework_type_other_net",
 			"order": 18,
             "visibility": "framework_type_net == Other",
