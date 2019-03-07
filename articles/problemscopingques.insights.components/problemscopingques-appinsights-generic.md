@@ -5,7 +5,7 @@
 	authors="debugthings"
 	ms.author="jamdavi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32632994, 32546625, 32613003, 32613002, 32629552, 32613001, 32402602, 32602201, 32402604, 32402605, 32602210, 32602213, 32632995, 32546622, 32602216, 32609670, 32602220, 32422335, 32422336, 32402614, 32602206, 32632996, 32602207, 32602208, 32632997, 32609669, 32602211, 32602214, 32602218, 32452725, 32402641, 32632981, 32632982, 32632983, 32632984, 32632985, 32632986, 32632987, 32632988, 32632989, 32632990, 32632991, 32632992, 32632993, 32402626, 32602209, 32602204, 32602205, 32602222, 32632998, 32633000, 32402629, 32402637, 32546624, 32602225, 32602224, 32402633, 32632999, 32602223, 32629553, 32402638"
+	supportTopicIds="32632994, 32546625, 32613001, 32402602, 32602201, 32402604, 32402605, 32602210, 32602213, 32632995, 32546622, 32602216, 32609670, 32602220, 32422335, 32402614, 32602206, 32632996, 32602207, 32602208, 32632997, 32609669, 32602211, 32602214, 32602218, 32402641, 32632981, 32632982, 32632983, 32632984, 32632985, 32632986, 32632987, 32632988, 32632989, 32632990, 32632991, 32632992, 32632993, 32402626, 32602209, 32602204, 32602205, 32602222, 32632998, 32633000, 32402629, 32402637, 32546624, 32602225, 32602224, 32402633, 32632999, 32602223, 32629553, 32402638"
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -198,7 +198,7 @@
 			"id": "framework_type_version_java",
 			"order": 12,
             "visibility": "language_used == Java",
-			"controlType": "textBox",
+			"controlType": "textbox",
 			"displayLabel": "What is the framework version being used",
 			"watermarkText": "SpringBoot 2.1.0",
 			"required": true
@@ -206,7 +206,7 @@
 			"id": "jvm_agent",
 			"order": 13,
             "visibility": "language_used == Java",
-			"controlType": "textBox",
+			"controlType": "textbox",
 			"displayLabel": "Is the JVM Agent Being used for dependency collection?",
 			"watermarkText": "Yes or No",
 			"required": true
@@ -332,14 +332,14 @@
 			"required": false
 		}, {
 			"id": "custom_config",
-			"order": 20,
+			"order": 21,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
 			"required": false
 		}, {
 			"id": "appservice_id",
-			"order": 21,
+			"order": 22,
             "visibility": "environment_type == Azure Web App or App Service",
 			"controlType": "dropdown",
 			"displayLabel": "Please select the app service where this application is deployed.",
@@ -358,13 +358,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_time",
-			"order": 22,
+			"order": 23,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start occuring?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 23,
+			"order": 24,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
 			"required": true,
