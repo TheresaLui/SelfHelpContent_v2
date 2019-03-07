@@ -29,7 +29,6 @@
 	* Monitor [Alerts and Jobs](https://aka.ms/Monitor-JobsAlert-RSV) through Recovery Services vault
 	* [Configure Notifications](https://aka.ms/Configure-Notification-RSV) for backup Alerts through Recovery Services vault
 	* [Monitor Azure Backup](https://aka.ms/Monitor-Backup-LA) and [create Alerts](https://aka.ms/Create-Alert-LA) using Log Analytics
-	* Create [Alert or Notification](https://aka.ms/Configure-AlertsNotification-ActivityLogs) using vault's Activity logs
 	* [Stop protecting virtual machines](https://aka.ms/AB-AA4ecqs)
 	* [Delete Backup data](https://aka.ms/AB-AA4e56f)<br>
 	* [Delete Recovery Services vault](https://aka.ms/AB-AA4ecq5)<br>
@@ -40,4 +39,5 @@
 - How much time will it take to [Backup](https://aka.ms/AB-AA4ecqb) or [Restore](https://aka.ms/AB-AA4ecqn)?<br>
 - How to stop/cancel backup job using [PowerShell](https://aka.ms/AB-AA4e56e)?<br>
 - To configure Alert/Notification on successful backup jobs use query [all successful Azure VMs backup jobs](https://aka.ms/Successful-BackupAlert-IAASVM) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
+- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
 - [Frequently asked questions](https://aka.ms/AB-AA4e56n)
