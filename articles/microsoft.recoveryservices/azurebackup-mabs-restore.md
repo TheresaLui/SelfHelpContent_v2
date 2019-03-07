@@ -20,17 +20,17 @@
 
 To resolve common backup issues, choose the symptom you are observing:<br>
 
-* [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#invalid-vault-credentials-provided)
-* [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
-* [This server is not registered to the vault specified by the vault credential](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server#troubleshooting-error-messages)<br>
+* [Invalid vault credentials provided](https://aka.ms/AB-AA4dwts)
+* [The encryption passphrase stored for this computer is not correctly configured](https://aka.ms/AA4f94t)<br>
+* [This server is not registered to the vault specified by the vault credential](https://aka.ms/AA4ev9l)<br>
 
 ## **Recommended Documents**
 
 For information on prerequisites, limitations, and frequently asked questions, see:<br>
 
-- [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
-- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
-- [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
-- [What workloads can I protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
-- [What's new in Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-whats-new-mabs)<br>
-- [Upgrade Backup Server to V3](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)
+- [Step by step guide to setup Azure Backup Server](https://aka.ms/AA4f1pa)<br>
+- [Support matrix for Microsoft Azure Backup Server](https://aka.ms/AA4f1pc)<br>
+- [Pricing details](https://aka.ms/AA4f1pi)<br>
+- [What workloads does Azure Backup Server protect?](https://aka.ms/AA4f1pl)<br>
+- [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
+- [What's new in Microsoft Azure Backup Server](https://aka.ms/AA4f1pt)<br>
