@@ -86,7 +86,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example 1.1901.0.99",
+            "watermarkText": "Example: 1.1901.0.99",
             "required": false,
             "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
         },{
