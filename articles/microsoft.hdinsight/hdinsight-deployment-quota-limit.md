@@ -4,7 +4,7 @@
     infoBubbleText="Exceeded deployment quota. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="mahariha"
+    authors="maha-arun"
     ms.author="mahariha"
     displayOrder=""
     articleId="Hdi_Crud_ExceededDeploymentQuota"
