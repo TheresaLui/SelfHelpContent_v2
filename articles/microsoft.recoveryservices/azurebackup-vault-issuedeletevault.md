@@ -18,8 +18,8 @@
 
 ## **Recommended Documents**
 
-- Before deleting a vault ensure you have removed the dependencies listed below:
-	- [Azure backup server and DPM](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#removing-azure-backup-server-or-dpm)<br>
-	- [Azure backup agent](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#removing-azure-backup-agent-recovery-points)<br>
-	- [Azure Virtual machine, SQL server in Azure VM backup, Azure storage (Azure Files) backups](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#remove-vault-dependencies-and-delete-vault)<br> 
-- [Force deleting Recovery Service Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-the-recovery-services-vault-by-force)<br>
+- Before deleting a vault ensure you have removed below dependencies:
+	- [Azure Backup server and DPM](https://aka.ms/AB-backup-server-or-dpm)<br>
+	- [Azure Backup agent](https://aka.ms/AB-backup-agent-recovery-points)<br>
+	- [Azure Virtual machine, SQL server in Azure Virtual Machine backup, Azure storage (Azure Files) backups](https://aka.ms/AB-delete-vault)<br> 
+- [Force deleting Recovery Services vault](https://aka.ms/AB-delete-vault-by-force)<br>
