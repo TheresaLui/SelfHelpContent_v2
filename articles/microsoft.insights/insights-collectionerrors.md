@@ -12,7 +12,7 @@
     productPesIds="15693"
     cloudEnvironments="public"
  />
-# I am seeing errors or latency with telemetry collection
+# I am seeing errors with telemetry collection
 
 ## **Recommended Steps**
 
