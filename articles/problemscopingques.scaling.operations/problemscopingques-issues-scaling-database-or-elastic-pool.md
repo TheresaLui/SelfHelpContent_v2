@@ -34,7 +34,7 @@
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": "true"
 		},
 		{
 			"id": "which_database",
@@ -52,7 +52,7 @@
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": "true"
 		},
 		{
 			"id": "ongoing_or_completed_updateslo",
@@ -71,7 +71,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": false
+			"visibility": "false"
 		},
 		{
 			"id": "which_ongoing_update_slo",
@@ -108,7 +108,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": false
+			"visibility": "false"
 		},
 		{
 			"id": "problem_description",
