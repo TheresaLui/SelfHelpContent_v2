@@ -48,4 +48,4 @@ Log Analytics currently supports Azure VM backups, MAB Agent and System Center D
 **Recommendations**
 
 - To configure Alert and Notification on successful backup jobs use query [all successful backup jobs](https://aka.ms/BKP-Alerts-AllSuccessfulJobs) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
-- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
+- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
