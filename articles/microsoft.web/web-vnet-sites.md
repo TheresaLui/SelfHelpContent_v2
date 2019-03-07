@@ -27,7 +27,8 @@
 * [To use your own DNS server with the new VNet integration you have to create an Application setting for your app where the name is WEBSITE_DNS_SERVER.](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#new-vnet-integration)
 
 
-**Existing VNet Integration (Point-to-site) FAQ:**
+**Existing VNet Integration  (Point-to-site) FAQ:**
+
 * Existing VNet Integration does not support: Mounting a drive, AD integration, NetBios, private site access, accessing resources across ExpressRoute, accessing resources across Service Endpoints. 
 
 * Q. Why does tcpping in the Kudu console results on “Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions”? <br>
