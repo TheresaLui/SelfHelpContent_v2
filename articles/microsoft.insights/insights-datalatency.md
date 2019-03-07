@@ -24,7 +24,6 @@ Latency is expected in a highly distributed system. It is best to wait to see if
 3. Execute a comparable query in Analytics and compare it to the other screens, as it's possible the data is not returned only for the impacted window
 4. Verify the actual ingestion time compared to the timestamp using the query below
 
-<br>
 ```
 union *
 | where timestamp > ago(24h)
