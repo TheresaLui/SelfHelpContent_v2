@@ -34,7 +34,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 **Runbook fails with error "Strong authentication enrollment is required"**
 
-* See ["Authentication to Azure failed because milt-factor authentication is enabled" in the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#auth-failed-mfa)
+* See ["Authentication to Azure failed because multi-factor authentication is enabled" in the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#auth-failed-mfa)
 
 **"Your azure credentials have not been set up or have expired, please run connect-azureRmAccount to set up your azure credentials"**
 
