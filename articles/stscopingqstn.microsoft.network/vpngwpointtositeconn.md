@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{"value": "IPSec", "text": "IPSec"},
+            "dropdownOptions": [{"value": "IPsec", "text": "IPsec"},
 	    			{"value": "OpenVPN", "text": "OpenVPN"},
 				{"value": "SSTP", "text": "SSTP"}],
             "required": true
