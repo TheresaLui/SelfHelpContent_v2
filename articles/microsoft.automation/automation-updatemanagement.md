@@ -14,7 +14,7 @@
 	articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
 # Azure Automation - Update Management
-This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
+This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution
 
 ## **Recommended Steps**
 
@@ -35,7 +35,7 @@ This article will help with several kinds of issues relating to onboarding and u
 
 ### **Machine shows as "not assessed"**
 
-Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed":
+Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 
 * Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
 * If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
