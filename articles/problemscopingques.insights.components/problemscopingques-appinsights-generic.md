@@ -341,8 +341,8 @@
 					"value": "Node.js 8.x",
 					"text": "Node.js 8.x"
 				},{
-					"value": "Node.js 8.x",
-					"text": "Node.js 8.x"
+					"value": "Node.js 7.x",
+					"text": "Node.js 7.x"
 				},{
 					"value": "Older",
 					"text": "Older"
