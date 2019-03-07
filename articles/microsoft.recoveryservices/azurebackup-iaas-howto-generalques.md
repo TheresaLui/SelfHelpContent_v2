@@ -15,20 +15,28 @@
 />
 # Advisory questions related to Azure Virtual Machine Backup and Restore
 
-## **Recommended Documents**
+## **Recommended Documents** 
+- How to:
 
-- [Changing storage replication type from GRS to LRS is not supported](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-change-from-grs-to-lrs-after-a-backup)<br>
-- [Delete recovery service vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
-- [Delete backup data](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)<br>
-- [Stop protecting virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-virtual-machines)<br>
-- Configure [Backup report](https://docs.microsoft.com/azure/backup/backup-azure-configure-reports) or [Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms#configure-notifications)<br>
-- [Support matrix](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#before-you-start) for Azure IAAS VM backup<br>
-- How to: 
-	* [Backup VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault)
-	* [Restore VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)
-	* [Restore files from VM](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
-	* [Restore VM to alternate location](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration)
-	* [Create VM from restored disks](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
-- How much time will it take to: [Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#time-considerations) or  [Restore](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations)<br>
-- How to stop/cancel backup job using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.backup/stop-azurermbackupjob?view=azurermps-5.1.1)<br>
-- [Check our Frequently Asked questions](https://docs.microsoft.com//azure/backup/backup-azure-vm-backup-faq)
+	* [Configure Azure VMs Backup in Recovery Services Vault](https://aka.ms/AB-AA4ecq2)
+	* [Enable Backup during VM creation](https://aka.ms/AB-EnableBackupDuringVMcreation)
+	* [Enable Backup from VM blade](https://aka.ms/AB-EnableBackupDuringVMcreation)
+	* [Restore VM](https://aka.ms/AB-AA4e568)
+	* [Restore files from VM backup](https://aka.ms/AB-AA4e56h)
+	* [Restore VM to alternate location](https://aka.ms/AB-AA4e570)
+	* [Create VM from restored disks](https://aka.ms/AB-AA4e56j)
+	* [Configure](https://aka.ms/AB-backupReorts) and [View](https://aka.ms/View-PowerBI-Report) Backup report using Power BI
+	* Monitor [Alerts and Jobs](https://aka.ms/Monitor-JobsAlert-RSV) through Recovery Service Vault
+	* [Configure Notifications](https://aka.ms/Configure-Notification-RSV) for backup Alerts through Recovery Service Vault
+	* [Monitor Azure Backup](https://aka.ms/Monitor-Backup-LA) and [create Alerts](https://aka.ms/Create-Alert-LA) using Log Analytics
+	* Create [Alert or Notification](https://aka.ms/Configure-AlertsNotification-ActivityLogs) Using Vault's Activity logs
+	* [Stop protecting virtual machines](https://aka.ms/AB-AA4ecqs)
+	* [Delete backup data](https://aka.ms/AB-AA4e56f)<br>
+	* [Delete recovery service vault](https://aka.ms/AB-AA4ecq5)<br>
+- [Changing storage replication type from GRS to LRS is not supported](https://aka.ms/AB-AA4e571)<br>
+- [Support matrix](https://aka.ms/AB-AA4ecqa) for Azure Virtual Machine backup<br>
+- How much time will it take to: [Backup](https://aka.ms/AB-AA4ecqb) or [Restore](https://aka.ms/AB-AA4ecqn)<br>
+- How to stop/cancel backup job using [PowerShell](https://aka.ms/AB-AA4e56e)<br>
+- To configure Alert/Notification on successful backup jobs use query [all successful Azure VMs backup jobs](https://aka.ms/Successful-BackupAlert-IAASVM) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
+- [Check our Frequently Asked questions](https://aka.ms/AB-AA4e56n)
+

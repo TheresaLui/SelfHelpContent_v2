@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599858,32599921"
+    supportTopicIds="32599858,32599921,32599929"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -19,22 +19,20 @@ The Automation Account is used to host a variety of services, from runbooks to U
 
 ## **Recommended Steps**
 
-### I want to know what regions Automation Accounts are available in
+### **I want to know what regions Automation Accounts are available in**
 
-* This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all)
-* This page also includes information about planned future availability
+* This information can be found at [the "Azure Products by Region" page](https://azure.microsoft.com/global-infrastructure/services/?products=automation&regions=all). This page also includes information about planned future availability
 
-### I'm having trouble creating an Automation Account
+### **I'm having trouble creating an Automation Account**
 
 * The most common issues creating an Automation Account are related to permissions. Check ["Permissions required to Create an Automation Account"](https://docs.microsoft.com/azure/automation/automation-create-standalone-account#permissions-required-to-create-an-automation-account)
 
-### I can't create or renew a RunAs account / RunAs is greyed out
+### **I can't create or renew a RunAs account / RunAs is greyed out**
 
-* RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
-* You might also see the message "You do not have permissions to create…"
+* RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions. You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
-### Deleting an Automation Account
+### **Deleting an Automation Account**
 
 * If you are trying and failing to delete an Automation Account, please ensure all workspaces are unlinked by following the instructions at ["Unlink a Workspace"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#unlink-workspace)
 
