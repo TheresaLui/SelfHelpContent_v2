@@ -51,8 +51,8 @@
 - If you are unable to see **Backup Items** from the portal, ensure you have [required permission](https://aka.ms/AB-AA4ecqc) to access backup vault
 - If you are facing issues restoring a VM, try [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)<br>
 - To perform a restore ensure you have appropriate [Role Based Access controls in place](https://aka.ms/AB-AA4ecqc) <br>
-- To restore a VM into a specific availability set, [restore disks](https://aka.ms/VMrestore-restore-disk) and create a VM in availability sets using PowerShell cmdlets <br>
-- In case of Azure Datacenter Disaster, Azure Backup [restores VM in paired data center](https://aka.ms/AB-AA4e56v)<br>
+- To restore a VM into a specific availability set, [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a VM in availability sets using PowerShell cmdlets <br>
+- In case of Azure datacenter disaster, Azure Backup [restores VM in paired datacenter](https://aka.ms/AB-AA4e56v)<br>
 
 ## **Recommended Documents**
 
