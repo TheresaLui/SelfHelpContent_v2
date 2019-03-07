@@ -1,18 +1,18 @@
 
 <properties
-pageTitle="Restore deleted workspace"
-description="Restore deleted workspace"
-articleId="problemscopingques-Restore_deleted_workspace"
+pageTitle="VM data appears with delay"
+description="VM data appears with delay"
+articleId="problemscopingques-VM_data_appears_with_delay"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612520"
+supportTopicIds="32633009"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
 />
 
-# Restore deleted workspace
+# VM data appears with delay
 ---
 {
     "resourceRequired": true,
@@ -20,24 +20,26 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "recovery_support_information",
-            "order": 1,
-            "controlType": "infoblock",
-            "content": "Workspace recovery is possible up to 14 days after the deletion. The deleted workspace is permanently purged and unrecoverable after 14 days"
-        },
-        {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When was the workspace deleted?",
             "required": true
         },
         {
-            "id": "workspace_id",
+            "id": "latency_table",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "On what data type latency was observed?",
+            "watermarkText": "E.g. SecurityEvent",
+            "required": true
+        },
+        {
+            "id": "latency_minutes",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the workspace Id of the deleted workspace?",
-            "watermarkText": "e.g. 12345678-dd3c-4e38-b4db-38dc57fdee7b",
+            "displayLabel": "What is the latency in minutes?",
+            "watermarkText": "Enter the latency in minutes",
             "required": true
         },
         {
