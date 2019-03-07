@@ -45,7 +45,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 * RunAs accounts may not have the same permissions against Azure resources as your current account. Ensure your RunAs account [has permissions to access any resources](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) used in your script. 
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot errors with runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
 <br>
