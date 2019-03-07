@@ -14,7 +14,7 @@
 	articleId="16bb11b7-571a-44fe-8534-b96eecb1296c"
 />
 
-# Advisory questions related to Recovery Service Vault
+# Advisory questions related to Recovery Services Vault
 
 ## **Recommended Documents**
 
