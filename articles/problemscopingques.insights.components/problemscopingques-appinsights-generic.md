@@ -16,11 +16,40 @@
 	"resourceRequired": true,
 	"title": ".NET SDK",
 	"fileAttachmentHint": "File Upload recommendations: ApplicationInsights.config; packages.config or PackageReferences; web.config or app.config; AppSettings.json; ApplicationInsights.xml; AI-Agent.xml. Please edit files to remove sensitive information",
-	"formElements": [{
-			"id": "environment_type",
+	"formElements": [, {
+			"id": "category_classification",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "How is the monitored app deployed?",
+			"displayLabel": "What is the general category of the issue?",
+			"dropdownOptions": [
+				{
+					"value": "I do not see the data or values I expect.",
+					"text": "I do not see the data or values I expect."
+				},{
+					"value": "I feel there is a bug or problem with a feature.",
+					"text": "I feel there is a bug or problem with a feature."
+				},{
+					"value": "The feature is working as designed but I have additional questions.",
+					"text": "The feature is working as designed but I have additional questions."
+				},{
+					"value": "There is an error message or notification that I cannot investigate further.",
+					"text": "There is an error message or notification that I cannot investigate further."
+				},{
+					"value": "The documentation for this feature is missing, wrong, or out of date.",
+					"text": "The documentation for this feature is missing, wrong, or out of date."
+				},{
+					"value": "I could not find an example, blog post, or document that helps.",
+					"text": "I could not find an example, blog post, or document that helps."
+				},{
+					"value": "The problem is complex or not well defined and I need a human to help.",
+					"text": "The problem is complex or not well defined and I need a human to help."
+				}],
+			"required": true
+		},{
+			"id": "environment_type",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "How is the monitored application deployed?",
 			"dropdownOptions": [
 				{
 					"value": "Azure VM",
@@ -47,7 +76,7 @@
 			"required": true
 		}, {
 			"id": "environment_type_other",
-			"order": 2,
+			"order": 3,
             "visibility": "environment_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe how the application is deployed:",
@@ -55,7 +84,7 @@
 			"required": true
 		}, {
 			"id": "os_type",
-			"order": 3,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "What is the operating system?",
 			"dropdownOptions": [
@@ -72,7 +101,7 @@
 			"required": true
 		}, {
 			"id": "os_type_other",
-			"order": 4,
+			"order": 5,
             "visibility": "os_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "OS name and version:",
@@ -80,7 +109,7 @@
 			"required": true
 		}, {
 			"id": "os_type_linux",
-			"order": 5,
+			"order": 6,
             "visibility": "os_type == Linux",
 			"controlType": "textbox",
 			"displayLabel": "Linux distribution and version:",
@@ -88,7 +117,7 @@
 			"required": true
 		}, {
 			"id": "os_type_windows",
-			"order": 6,
+			"order": 7,
             "visibility": "os_type == Windows",
 			"controlType": "textbox",
 			"displayLabel": "Windows version:",
@@ -96,9 +125,9 @@
 			"required": true
 		}, {
 			"id": "language_used",
-			"order": 7,
+			"order": 8,
 			"controlType": "dropdown",
-			"displayLabel": "What is the language of the technology that has the issue?",
+			"displayLabel": "What is the language of the monitored application that has the issue?",
 			"dropdownOptions": [
 				{
 					"value": ".NET",
@@ -107,8 +136,8 @@
 					"value": "Java ",
 					"text": "Java "
 				},{
-					"value": "Node.JS",
-					"text": "Node.JS"
+					"value": "Node.js",
+					"text": "Node.js"
 				},{
 					"value": "JavaScript",
 					"text": "JavaScript"
@@ -116,8 +145,8 @@
 			"required": true
 		},{
 			"id": "javasdk_version",
-			"order": 8,
-            "visibility": "language_used == Java ",
+			"order": 9,
+            "visibility": "language_used == Java && language_used != JavaScript",
 			"controlType": "dropdown",
 			"displayLabel": "What version of Java are you using?",
 			"dropdownOptions": [
@@ -146,8 +175,8 @@
 			"required": true
 		}, {
 			"id": "webserver_type_java",
-			"order": 9,
-            "visibility": "language_used == Java ",
+			"order": 10,
+            "visibility": "language_used == Java && language_used != JavaScript",
 			"controlType": "dropdown",
 			"displayLabel": "What Java web server is being used?",
 			"dropdownOptions": [
@@ -167,7 +196,7 @@
 			"required": true
 		}, {
 			"id": "webserver_type_other",
-			"order": 10,
+			"order": 11,
             "visibility": "webserver_type_java == Other",
 			"controlType": "textbox",
 			"displayLabel": "What is the name of your web server?",
@@ -175,10 +204,10 @@
 			"required": true
 		}, {
 			"id": "framework_type_java",
-			"order": 11,
-            "visibility": "language_used == Java ",
+			"order": 12,
+            "visibility": "language_used == Java && language_used != JavaScript",
 			"controlType": "dropdown",
-			"displayLabel": "What Java Web Framework are you using?",
+			"displayLabel": "What Java Web Framework is in use?",
 			"dropdownOptions": [
 				{
 					"value": "J2EE",
@@ -196,23 +225,23 @@
 			"required": true
 		}, {
 			"id": "framework_type_version_java",
-			"order": 12,
-            "visibility": "language_used == Java ",
+			"order": 13,
+            "visibility": "language_used == Java && language_used != JavaScript",
 			"controlType": "textbox",
 			"displayLabel": "What is the framework version being used",
 			"watermarkText": "SpringBoot 2.1.0",
 			"required": true
 		}, {
 			"id": "jvm_agent",
-			"order": 13,
-            "visibility": "language_used == Java ",
+			"order": 14,
+            "visibility": "language_used == Java && language_used != JavaScript",
 			"controlType": "textbox",
 			"displayLabel": "Is the JVM Agent Being used for dependency collection?",
 			"watermarkText": "Yes or No",
 			"required": true
 		}, {
 			"id": "app_type_net",
-			"order": 14,
+			"order": 15,
             "visibility": "language_used == .NET",
 			"controlType": "dropdown",
 			"displayLabel": "What is the application technology?",
@@ -248,7 +277,7 @@
 			"required": true
 		},{
 			"id": "app_type_other",
-			"order": 15,
+			"order": 16,
             "visibility": "app_type_net == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the application technology stack:",
@@ -256,7 +285,7 @@
 			"required": true
 		}, {
 			"id": "framework_type_net",
-			"order": 16,
+			"order": 17,
             "visibility": "language_used == .NET",
 			"controlType": "dropdown",
 			"displayLabel": "What is the target .NET Framework?",
@@ -289,15 +318,88 @@
 			"required": true
 		}, {
 			"id": "framework_type_other_net",
-			"order": 17,
+			"order": 18,
             "visibility": "framework_type_net == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the target framework",
 			"watermarkText": "Mono, .NET Core 3.0 Preview",
 			"required": true
+		},{
+			"id": "nodejs_version",
+			"order": 19,
+            "visibility": "language_used == Node.js",
+			"controlType": "dropdown",
+			"displayLabel": "What is the version of Node.js?",
+			"dropdownOptions": [
+				{
+					"value": "Node.js 10.x",
+					"text": "Node.js 10.x"
+				},{
+					"value": "Node.js 9.x",
+					"text": "Node.js 9.x"
+				},{
+					"value": "Node.js 8.x",
+					"text": "Node.js 8.x"
+				},{
+					"value": "Node.js 8.x",
+					"text": "Node.js 8.x"
+				},{
+					"value": "Older",
+					"text": "Older"
+				}],
+			"required": true
+		},{
+			"id": "nodejs_sdk_version",
+			"order": 20,
+            "visibility": "language_used == Node.js",
+			"controlType": "textbox",
+			"displayLabel": "What is the version of the Node.js SDK?",
+			"watermarkText": "1.2.0, 1.0.8",
+			"required": true
+		},{
+			"id": "javascript_version",
+			"order": 21,
+            "visibility": "language_used == JavaScript",
+			"controlType": "dropdown",
+			"displayLabel": "What is the version of JavaScript SDK?",
+			"dropdownOptions": [
+				{
+					"value": "Auto downloaded from Snippet (Latest)",
+					"text": "Auto downloaded from Snippet (Latest)"
+				},{
+					"value": "Specific Version",
+					"text": "Specific Version"
+				}],
+			"required": true
+		},{
+			"id": "javascript_version_specific",
+			"order": 22,
+            "visibility": "javascript_version == Specific Version",
+			"controlType": "textbox",
+			"displayLabel": "What is the version of the Node.js SDK?",
+			"watermarkText": "1.2.0, 1.0.8",
+			"required": true
+		},{
+			"id": "javascript_apptype",
+			"order": 23,
+            "visibility": "language_used == JavaScript",
+			"controlType": "dropdown",
+			"displayLabel": "What type of application is the JavaScript SDK monitoring?",
+			"dropdownOptions": [
+				{
+					"value": "Dynamic Application (Java, .NET)",
+					"text": "Dynamic Application (Java, .NET)"
+				},{
+					"value": "Static HTML",
+					"text": "Static HTML"
+				},{
+					"value": "Single Page Application (SPA)",
+					"text": "Single Page Application (SPA)"
+				}],
+			"required": true
 		}, {
 			"id": "lightup_type",
-			"order": 18,
+			"order": 24,
 			"controlType": "dropdown",
 			"displayLabel": "What were the steps to instrument the app?",
 			"dropdownOptions": [
@@ -317,7 +419,7 @@
 			"required": true
 		}, {
 			"id": "lightup_type_other",
-			"order": 19,
+			"order": 25,
             "visibility": "lightup_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the steps to instrument the app:",
@@ -325,21 +427,21 @@
 			"required": true
 		}, {
 			"id": "sdk_Version_net",
-			"order": 20,
+			"order": 26,
 			"controlType": "textbox",
             "displayLabel": "[Optional] What is the package version of AI SDK?",
 			"watermarkText": "2.8.1, 2.6.1",
 			"required": false
 		}, {
 			"id": "custom_config",
-			"order": 21,
+			"order": 27,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
 			"required": false
 		}, {
 			"id": "appservice_id",
-			"order": 22,
+			"order": 28,
             "visibility": "environment_type == Azure Web App or App Service",
 			"controlType": "dropdown",
 			"displayLabel": "Please select the app service where this application is deployed.",
@@ -358,13 +460,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_time",
-			"order": 23,
+			"order": 29,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start occuring?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 24,
+			"order": 30,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
 			"required": true,
