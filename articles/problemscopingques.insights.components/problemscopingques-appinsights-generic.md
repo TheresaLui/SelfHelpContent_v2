@@ -349,39 +349,8 @@
 				}],
 			"required": true
 		},{
-			"id": "nodejs_sdk_version",
-			"order": 20,
-            "visibility": "language_used == Node.js",
-			"controlType": "textbox",
-			"displayLabel": "What is the version of the Node.js SDK?",
-			"watermarkText": "1.2.0, 1.0.8",
-			"required": true
-		},{
-			"id": "javascript_version",
-			"order": 21,
-            "visibility": "language_used == JavaScript",
-			"controlType": "dropdown",
-			"displayLabel": "What is the version of JavaScript SDK?",
-			"dropdownOptions": [
-				{
-					"value": "Auto downloaded from Snippet (Latest)",
-					"text": "Auto downloaded from Snippet (Latest)"
-				},{
-					"value": "Specific Version",
-					"text": "Specific Version"
-				}],
-			"required": true
-		},{
-			"id": "javascript_version_specific",
-			"order": 22,
-            "visibility": "javascript_version == Specific Version",
-			"controlType": "textbox",
-			"displayLabel": "What is the version of the Node.js SDK?",
-			"watermarkText": "1.2.0, 1.0.8",
-			"required": true
-		},{
 			"id": "javascript_apptype",
-			"order": 23,
+			"order": 20,
             "visibility": "language_used == JavaScript",
 			"controlType": "dropdown",
 			"displayLabel": "What type of application is the JavaScript SDK monitoring?",
@@ -399,7 +368,7 @@
 			"required": true
 		}, {
 			"id": "lightup_type",
-			"order": 24,
+			"order": 21,
 			"controlType": "dropdown",
 			"displayLabel": "What were the steps to instrument the app?",
 			"dropdownOptions": [
@@ -419,29 +388,29 @@
 			"required": true
 		}, {
 			"id": "lightup_type_other",
-			"order": 25,
+			"order": 22,
             "visibility": "lightup_type == Other",
 			"controlType": "textbox",
 			"displayLabel": "Please describe the steps to instrument the app:",
 			"watermarkText": "PowerShell Scripts, manually copied packages, Status Monitor",
 			"required": true
 		}, {
-			"id": "sdk_Version_net",
-			"order": 26,
+			"id": "sdk_Version",
+			"order": 23,
 			"controlType": "textbox",
             "displayLabel": "[Optional] What is the package version of AI SDK?",
-			"watermarkText": "2.8.1, 2.6.1",
+			"watermarkText": "2.8.1, 2.6.1, 1.2.0, 1.0.8",
 			"required": false
 		}, {
 			"id": "custom_config",
-			"order": 27,
+			"order": 24,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Any custom configuration, custom telemetry collection, extensiblity on top of default SDK?",
             "watermarkText": "Telemetry Processor to filter out fast Dependency calls",
 			"required": false
 		}, {
 			"id": "appservice_id",
-			"order": 28,
+			"order": 25,
             "visibility": "environment_type == Azure Web App or App Service",
 			"controlType": "dropdown",
 			"displayLabel": "Please select the app service where this application is deployed.",
@@ -460,13 +429,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_time",
-			"order": 29,
+			"order": 26,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start occuring?",
 			"required": true
 		},{
 			"id": "problem_description",
-			"order": 30,
+			"order": 27,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
 			"required": true,
