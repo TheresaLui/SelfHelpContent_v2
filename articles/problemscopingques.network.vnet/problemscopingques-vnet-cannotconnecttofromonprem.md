@@ -1,16 +1,18 @@
 <properties
-	pageTitle="Cannot connect to other VM on-prem"
-	description="Cannot connect to other VM on-prem"
-	authors="ritup"
+    pageTitle="Cannot connect to other VM on-prem"
+    description="Cannot connect to other VM on-prem"
+    authors="ritup"
     ms.author="anavin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584251"
-	productPesIds="15526"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="700961cc-d014-45db-be70-2069dc2e00ff"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32584251"
+    productPesIds="15526"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="700961cc-d014-45db-be70-2069dc2e00ff"
 />
+
 # Cannot connect to another virtual machine on-prem
+
 ---
 {
     "resourceRequired": true,

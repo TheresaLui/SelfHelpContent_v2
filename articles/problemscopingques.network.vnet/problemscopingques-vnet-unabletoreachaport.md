@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Unable to reach a port"
-	description="Unable to reach a port"
-	authors="anavinahar"
+    pageTitle="Unable to reach a port"
+    description="Unable to reach a port"
+    authors="anavinahar"
     ms.author="anavin"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32584255"
-	productPesIds="15526"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="8766b9f2-62d3-4dc0-8b81-597d2b0536ea"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32584255"
+    productPesIds="15526"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="8766b9f2-62d3-4dc0-8b81-597d2b0536ea"
 />
 
 # Unable to reach a port
