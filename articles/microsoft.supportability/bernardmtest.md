@@ -21,7 +21,7 @@
 			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "How did you determine that your virtual machine was slow?",
-			"watermarkText": "Choose an option",
+			"watermarkText": "Choose an a option",
 			"dropdownOptions": [{
 					"value": "It's slower that it typically is",
 					"text": "It's slower that it typically is"
