@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-	articleId="087eebee-9f42-4589-97f7-982e582dd0a3"
+	articleId="dc9adca9-f7e2-4bba-94d7-4135382f28a5"
 />
 
 # Azure File shares Backup Configuration Issue
