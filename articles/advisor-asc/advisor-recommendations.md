@@ -22,9 +22,9 @@ We have found the following recommendations for your <!--$resourceType-->resourc
 
 <!--$recommendationsList-->recommendationsList<!--/$recommendationsList-->
 
-View your full list of Advisor recommendations across all of your subscriptions at any time in the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade/source/AzureSupportCenter). 
+View your full list of Advisor recommendations across all of your subscriptions at any time in the [Azure portal](https://aka.ms/advisor_azuresupportcenter). 
 
-1. Visit [Advisor](https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade/source/AzureSupportCenter) in the Azure portal
+1. Visit [Advisor](https://aka.ms/advisor_azuresupportcenter) in the Azure portal
 2. Review your complete list of recommendations
 3. Follow the recommended actions provided for each recommendation
 
