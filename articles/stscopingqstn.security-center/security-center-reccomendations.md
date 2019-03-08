@@ -9,7 +9,7 @@
 	resourceTags=""
 	productPesIds="15947"
 	cloudEnvironments="public"
-   	articleId="13004dd1-4fc1-4b43-bfb7-b509cb337586"
+   	articleId="54aad42e-d1fd-4285-ab3b-c311ad3434f3"
 />
 
 # Reccomendations Common Solutions
