@@ -18,4 +18,4 @@
 ## **Recommended Documents**
 
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
-* [For ESP clusters, Check if HDInsight VNET is peered to AAD-DS VNET](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations)
+* [For ESP clusters, check if HDInsight VNET is peered to AAD-DS VNET](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations)
