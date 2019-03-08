@@ -19,13 +19,34 @@
 <!--issueDescription-->
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you are trying to deploy.
 * There are currently not enough cores of the VM Size Family you requested in this region.
-<!--/issueDescription-->
 
-Over the past several months, we have experienced unprecedented growth in Azure demand in several Regions. While we have capacity to support this phenomenal expansion at a global level, sometimes a specific resource/region combination is not consistent across all active Azure Regions. In some Regions, the demand for a specific Azure resource may outstrip capacity, and while we are actively working to build out additional capacity, sometimes we have to make the difficult decision to restrict certain offer types in a few Regions. This temporary measure is to make sure the best possible experience for our customers as we work hard to alleviate a restriction situation. Also, if you have more subscriptions to whitelist, please share the subscription details and planned SKU size and numbers of VM’s / cores to deploy in the requested region.<br>
+An SKU defines the image used to create a virtual machine and is composed of the following:
+- The disk image (operating system and version).
+- The image size.
+- The region where the VM is deployed.
 
-For additional information, please read the following documents:<br>
+An SKU is unavailable when a region cannot accommodate the demand for a particular SKU. You have two options:
+- Find an alternate SKU.
+- Submit a subscription management support request.
 
-* Learn more about [resolving SKU Not Available errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors).<br>
-* Additional information on resolving [not having access to a region or a VM SKU](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).<br>
+Over the past several months, we have experienced unprecedented demand for Azure in several regions. In some regions, the demand for a specific SKU may outstrip capacity. This should be a temporary situation as we are actively working to build out additional capacity. Sometimes we have to make the difficult decision to restrict certain offer types in a few regions until the demand can be accommodated.
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
+We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.
+
+Also, if you have more subscriptions to whitelist, please share the subscription details and planned SKU size and numbers of VM’s / cores to deploy in the requested region.
+
+## Sample SKU availability queries
+
+The following PowerShell and Azure CLI examples show how to query for a list of SKUs that match a desired size, disk image, and region. For details see the solutions in [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors).
+
+### PowerShell
+
+
+### Azure CLI
+
+
+## Related articles
+
+* [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
+* [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
+
