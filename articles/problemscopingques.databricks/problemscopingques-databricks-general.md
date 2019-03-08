@@ -75,7 +75,7 @@
             "id": "workspace_id",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Workspace ID, follow < https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html > to get Workspace, Cluster, Notebook, and Job information",
+            "displayLabel": "Workspace ID if available",
             "required": true
         },
         {
@@ -89,7 +89,7 @@
             "id": "workload_submission_method",
             "order": 200,
             "controlType": "dropdown",
-            "displayLabel": "How the workload was submitted?",
+            "displayLabel": "How was the workload submitted?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -107,6 +107,10 @@
                 {
                     "value": "ScheduledJob",
                     "text": "Scheduled job from the UI"
+                },
+                                {
+                    "value": "Other",
+                    "text": "Other"
                 }
             ],
             "required": true
