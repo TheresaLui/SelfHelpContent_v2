@@ -15,7 +15,7 @@
 {
     "resourceRequired": true,
     "title": "Azure Databricks General Issue",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please upload Spark Driver and Executor log if applicable to help expedite the investigation",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -110,7 +110,7 @@
             "order": 500,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text if available, what task was being performed when the issue occurred, what did the notebook cell,  SparkUI, Driver or Executor logs show, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide the detail symptom including the full error text, result in the Notebook cell, what task was being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },
