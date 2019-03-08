@@ -143,7 +143,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Please follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
+                    "text": "Please follow https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html to get the requested Workspace, Cluster, Notebook, and Job information"
                 }
             ]
         },
