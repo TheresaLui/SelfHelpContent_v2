@@ -7,7 +7,7 @@
 	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32612214"
+	supportTopicIds="32612213"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 # Azure Files Backup Monitoring and Reporting Issues
 
-## **Recommended Documentation**
+## **Recommended Documents**
 
 - [How to monitor backup jobs for Azure File share?](https://docs.microsoft.com/azure/backup/backup-azure-files#monitor-jobs)<br>
 - [Frequently asked questions](https://aka.ms/BKP-AFS-FAQs)
