@@ -100,7 +100,7 @@
             "required": true
         },
         {
-            "id": "learn_more_text",
+            "id": "instruction",
             "order": 170,
             "controlType": "infoblock",
             "content": "Follow the <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
@@ -118,7 +118,7 @@
             "id": "learn_more_text",
             "order": 600,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/en-us/azure/azure-databricks/'>Learn more</a> about Azure Databricks"
+            "content": "<a href='https://docs.microsoft.com/azure/azure-databricks/'>Learn more</a> about Azure Databricks"
         }
     ]
 }
