@@ -73,41 +73,74 @@
 		},
         {
             "id": "workspace_id",
-            "order": 130,
+            "order": 150,
             "controlType": "textbox",
             "displayLabel": "Workspace ID if available",
-            "required": true
+            "required": true,
+            "hints": [
+                {
+                    "text": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
+                }
+            ]
         },
         {
             "id": "cluster_url",
-            "order": 140,
+            "order": 170,
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "required": true
         },
         {
-            "id": "notebook_url",
-            "order": 150,
+            "id": "workload_submission_method",
+            "order": 200,
+            "controlType": "dropdown",
+            "displayLabel": "How the workload was submitted?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Notebook",
+                    "text": "Notebook"
+                },
+                {
+                    "value": "ADF",
+                    "text": "ADF"
+                },
+                {
+                    "value": "RESTAPI",
+                    "text": "REST API"
+                },
+                {
+                    "value": "ScheduledJob",
+                    "text": "Scheduled job from the UI"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "notebook_rul",
+            "visibility": "workload_submission_method == Notebook",
+            "order": 300,
             "controlType": "textbox",
             "displayLabel": "Notebook URL if available",
             "required": true
         },
         {
             "id": "job_url",
-            "order": 160,
+            "visibility": "workload_submission_method != Notebook",
+            "order": 400,
             "controlType": "textbox",
             "displayLabel": "Job URL if available",
             "required": true
         },
         {
             "id": "instruction",
-            "order": 170,
+            "order": 500,
             "controlType": "infoblock",
             "content": "Follow the <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
         },
         {
             "id": "problem_description",
-            "order": 500,
+            "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the detail symptom including the full error text, result in the Notebook cell, what task was being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
@@ -116,7 +149,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 600,
+            "order": 700,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/azure-databricks/'>Learn more</a> about Azure Databricks"
         }
