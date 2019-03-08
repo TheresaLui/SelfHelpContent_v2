@@ -37,7 +37,7 @@ For more information, see [Planned maintenance notifications for virtual machine
 - Accessing notifications and alerts about planned maintenance in the Azure Portal.
 - Schedules for planned maintenance and self-service windows.
 - Determining the VM scale sets that are affected by the planned maintenance.
-- How to use self-sevice maintenance and guidelines for using it.
+- How to use self-service maintenance and guidelines for using it.
 - Determining maintenance status using PowerShell or the Azure CLI.
 - Frequently asked questions.<br>
 
