@@ -5,6 +5,7 @@
 	service="microsoft.advisor"
 	resource="recommendations"
 	authors="kasparks"
+	ms.author="kasparks"
 	displayOrder=""
 	articleId="advisor-recommendations"
 	diagnosticScenario="advisor-recommendations"
