@@ -75,7 +75,7 @@
             "id": "workspace_id",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Workspace ID, follow https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html to get Workspace, Cluster, Notebook, and Job information",
+            "displayLabel": "Workspace ID, follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace, Cluster, Notebook, and Job information",
             "required": true
         },
         {
@@ -131,7 +131,7 @@
             "id": "instruction",
             "order": 500,
             "controlType": "infoblock",
-            "content": "Follow the <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
+            "content": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get the requested Workspace, Cluster, Notebook, and Job information"
         },
         {
             "id": "problem_description",
