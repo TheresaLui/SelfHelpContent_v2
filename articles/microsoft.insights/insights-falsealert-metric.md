@@ -10,7 +10,7 @@
 	articleId="insights-falsealert-metric"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629644, 32629675"
+	supportTopicIds="32629644"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
