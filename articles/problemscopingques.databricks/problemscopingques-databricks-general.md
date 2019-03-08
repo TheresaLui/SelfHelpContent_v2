@@ -75,7 +75,7 @@
             "id": "workspace_id",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Workspace ID if available",
+            "displayLabel": "Workspace ID, follow https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html to get Workspace, Cluster, Notebook, and Job information",
             "required": true
         },
         {
@@ -140,12 +140,7 @@
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the detail symptom including the full error text, result in the Notebook cell, what task was being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Please follow https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html to get the requested Workspace, Cluster, Notebook, and Job information"
-                }
-            ]
+            "useAsAdditionalDetails": true
         },
         {
             "id": "learn_more_text",
