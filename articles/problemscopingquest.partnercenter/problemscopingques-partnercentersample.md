@@ -25,14 +25,14 @@
             "required": false
         },
         {
-            "id": "pc_problem_start_time",
+            "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": false
         },
         {
-            "id": "pc_problem_description",
+            "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
