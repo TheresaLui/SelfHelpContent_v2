@@ -127,9 +127,36 @@
             "required": true
         },
         {
-            "id": "job_url",
-            "visibility": "workload_submission_method != Notebook",
-            "order": 400,
+            "id": "job_url_adf",
+            "visibility": "workload_submission_method == ADF",
+            "order": 310,
+            "controlType": "textbox",
+            "displayLabel": "Job URL if available",
+            "infoBalloonText": "Job URL can be found in the tool tip in the error of the ADF Databricks activity",
+            "required": true
+        },
+        {
+            "id": "job_url_restapi",
+            "visibility": "workload_submission_method == RESTAPI",
+            "order": 320,
+            "controlType": "textbox",
+            "displayLabel": "Job URL if available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Job URL",
+            "required": true
+        },
+        {
+            "id": "job_url_scheduledjob",
+            "visibility": "workload_submission_method == ScheduledJob",
+            "order": 330,
+            "controlType": "textbox",
+            "displayLabel": "Job URL if available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Job URL",
+            "required": true
+        },
+        {
+            "id": "job_url_scheduledjob",
+            "visibility": "workload_submission_method == Other",
+            "order": 340,
             "controlType": "textbox",
             "displayLabel": "Job URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Job URL",
