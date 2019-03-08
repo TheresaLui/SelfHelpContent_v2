@@ -25,4 +25,4 @@ User Verification! hostname in certificate didn't match: <centralIndia.api.cogni
 You should change your SNI header to specify 'yourregion.api.cognitive.microsoft.com' domain for TLS/SSL handshakes going forward.  In the example error above it would be to use: centralIndia.api.cognitive.microsoft.com
  
 ## **Recommended Documents**
-[How APIM Proxy Server responds with SSL certificates in the TLS handshake](https://docs.microsoft.com/en-us/azure/api-management/configure-custom-domain#clients-calling-without-sni-header)
+[How APIM Proxy Server responds with SSL certificates in the TLS handshake](https://docs.microsoft.com/azure/api-management/configure-custom-domain#clients-calling-without-sni-header)
