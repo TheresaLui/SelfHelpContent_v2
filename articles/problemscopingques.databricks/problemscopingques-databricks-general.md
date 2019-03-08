@@ -123,6 +123,7 @@
             "order": 300,
             "controlType": "textbox",
             "displayLabel": "Notebook URL if available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Notebook URL",
             "required": true
         },
         {
@@ -131,6 +132,7 @@
             "order": 400,
             "controlType": "textbox",
             "displayLabel": "Job URL if available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Job URL",
             "required": true
         },
         {
