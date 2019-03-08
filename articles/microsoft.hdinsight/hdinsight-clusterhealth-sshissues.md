@@ -18,5 +18,5 @@
 ## **Recommended Documents**
 
 * [Connect to HDInsight (Apache Hadoop) using SSH](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix)
-* [On ESP clusters, check password Hashes exist in AAD-DS](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-architecture#set-up-different-domain-controllers)
+* [On ESP clusters, check password hashes exist in AAD-DS](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-architecture#set-up-different-domain-controllers)
 * [On ESP clusters, check if Kerberos Authetication is enabled](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix#domainjoined)
