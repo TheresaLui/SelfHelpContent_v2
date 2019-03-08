@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleid="4d7e23bb-02e1-4e1f-a274-33dd1d52489b"
 />
 
 # errors and exceptions/internal server error
