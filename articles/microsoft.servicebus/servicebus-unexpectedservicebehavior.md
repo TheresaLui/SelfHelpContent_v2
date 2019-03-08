@@ -3,13 +3,15 @@
 	description="unexpected service behavior"
 	service="microsoft.servicebus"
 	resource="namespaces"
-	authors="aashu"
+	authors="ChiragPavecha"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32633397,32633398,32633401,32633404,32633406,32633410"
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	articleid="931f4322-1a16-4f38-ba7b-e3175dad11f0"
 />
 
 # unexpected service behavior
