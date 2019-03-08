@@ -14,33 +14,32 @@
 	articleId="49955c3a-0bc9-41a9-8520-8c6fbe81b4cb"
 />
 
-# Planned Maintenance/general questions or issues
+# Planned Maintenance in virtual machine scale sets
 
 **I don't see any indication of planned maintenance in the portal, PowerShell, or CLI.**<br>
 
-Information about planned maintenance is provided only during a planned maintenance wave. For Azure Virtual Machine Scale Sets (VMSS), the planned maintenance performs updates that improves the host infrastructure for the VMs. You are notified only if one or more instances of the VMs in your scale set requires a reboot.<br>
+Azure conducts planned maintenance on virtual machine scale sets. To maintain the host infrastructure, Azure uses in-place migration to apply the updates across fault domains. VMs in the scale sets are paused while their hosts are updated. No notifications are sent for these operations.<br>
 
-Maintenance is performed primarily on the hosting environment. The maintenance affects the individual VM instances only when upgrading and decommissioning hardware.<br>
+To maintain the VMs within the scale sets, planned maintenance is scheduled in waves. A wave starts with a notification to a subscription owner and co-owners. This notification defines a schedule with two time windows:
 
-If you haven't received any notifications, it could be that the maintenance wave has completed or is scheduled for a later time.<br>
+- Self-service window. This time period is when you can proactively start self-service maintenance. Self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.
+- Scheduled maintenance window. After the self-service window ends, Azure schedules a time in this window to apply the required maintenance to your VM (provided the work has not been already performed by self-service).<br>
 
-If a reboot is not required, Azure uses in-place migration to pause the VM while the host is updated. Maintenance operations are applied across fault domains. Progress is stopped if any warning health signals are received.<br>
+If you don't see notifications, it could due to of the following reasons:
 
-If a reboot is required, you'll receive a notification that shows when the maintenance is planned. You are given a time window when you can start the maintenance at a time that works best for you.<br>
+- The maintenance wave is finished.
+- The maintenance wav has not started.
+- The VM is hosted on an updated server.
+- The VM is deployed to a region where planned maintenance was already scheduled.<br>
 
-If you are considering performing self-service maintenance, be aware that it might not be available for all your VMs and is also not recommended for deployments that use availability sets. See [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal) for information on about these considerations and the following:<br>
+For more information, see [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal) which includes the following:
 
-- Determining which VM Scale Sets are affected by the planned maintenance
-- Starting the planned maintenance
-- Checking the maintenance status using PowerShell or the Azure CLI<br>
-
-**What are the different possible values for my VMSS during planned maintenance?**<br>
-
-The maintenance status information provides the following data:
-
-- The beginning and end times of the planned maintenance scheduled for  your VMs.
-- The beginning and end of the maintenance self-service window when you can initiate maintenance on your VMs.
-- The result of the last attempt to initiate maintenance on a VM.<br>
+- Accessing notifications and alerts about planned maintenance in the Azure Portal.
+- Schedules for planned maintenance and self-service windows.
+- Determining the VM scale sets that are affected by the planned maintenance.
+- How to use self-sevice maintenance and guidelines for using it.
+- Determining maintenance status using PowerShell or the Azure CLI.
+- Frequently asked questions.<br>
 
 ## **Recommended documents**
 
