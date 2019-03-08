@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Adaptive Application Support Common Solutions"
 	description="Adaptive Application Support Common Solutions"
-	authors="jaserano"
-	ms.author="jaserano,genli"
+	authors="genli"
+	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
     supportTopicIds="32633028, 32633055, 32633089, 32633147, 32633148"
@@ -11,6 +11,8 @@
 	cloudEnvironments="public"
     articleId="e025c691-p70f-4c2f-aa9a-9kcf7574e89f"
 />
+
+# Adaptive Application Support Common Solutions
 
 ##**Recommended Documents**
 
