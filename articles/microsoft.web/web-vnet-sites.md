@@ -28,6 +28,7 @@
 
 
 **Existing VNet Integration (Point-to-site) FAQ:**
+
 * Existing VNet Integration does not support: Mounting a drive, AD integration, NetBios, private site access, accessing resources across ExpressRoute, accessing resources across Service Endpoints. 
 
 * Q. Why does tcpping in the Kudu console results on “Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions”? <br>
