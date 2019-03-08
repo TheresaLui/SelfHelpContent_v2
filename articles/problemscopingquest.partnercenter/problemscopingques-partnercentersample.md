@@ -2,6 +2,7 @@
 	pageTitle="Partner Center Sample Title"
 	description="Partner Center Sample Description"
 	authors="srinivabms"
+	ms.author="srinivab"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32444666,32633819"
 	productPesIds="15960"
@@ -29,7 +30,7 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -38,7 +39,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
             "watermarkText": "Provide additional information about your issue including error messages.",
-            "required": false
+            "required": true
         },
         {
             "id": "pc_learn_more_text",
