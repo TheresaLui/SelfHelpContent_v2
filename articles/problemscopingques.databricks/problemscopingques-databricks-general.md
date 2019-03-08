@@ -77,6 +77,7 @@
             "controlType": "textbox",
             "displayLabel": "Workspace ID if available",
             "required": true,
+            "useAsAdditionalDetails": false,
             "hints": [
                 {
                     "text": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'></a> to get the requested Workspace, Cluster, Notebook, and Job information"
