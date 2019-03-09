@@ -154,7 +154,7 @@
             "required": true
         },
         {
-            "id": "job_url_scheduledjob",
+            "id": "job_url_other",
             "visibility": "workload_submission_method == Other",
             "order": 340,
             "controlType": "textbox",
