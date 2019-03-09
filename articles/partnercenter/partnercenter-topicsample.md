@@ -29,4 +29,4 @@ This is a brief paragraph about the problem. It can be as simple as "Most users 
 
 ## **Recommended Documents**
 * [Get support](https://partner.microsoft.com/support)
-* Add [API](https://docs.microsoft.com/en-us/partner-center/develop/partner-center-rest-api-reference) 
+* Add [API](https://docs.microsoft.com/partner-center/develop/partner-center-rest-api-reference) 

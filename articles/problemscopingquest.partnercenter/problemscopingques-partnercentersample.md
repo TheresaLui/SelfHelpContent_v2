@@ -59,7 +59,9 @@
             "textProperty": "name",
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$"
-        }
+           }
+	}
+
     ]
 }
 ---
