@@ -21,7 +21,7 @@
             "id": "pc_app_gw_url",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the PC Application Gateway.",
+            "displayLabel": "Please provide the URL you are using to access Partner Center.",
             "watermarkText": "Provide full URL such as http://www.contoso.com:8081/home.aspx",
             "required": false
         },
@@ -45,13 +45,13 @@
             "id": "pc_learn_more_text",
             "order": 4,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
+            "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Partner Center, including How to setup and troubleshooting steps."
         },
 	{
         "id": "pc_test_dynamicdropdown",
         "order": 5,
         "controlType": "dropdown",
-        "displayLabel": "Please select the item you want?",
+        "displayLabel": "Please select the item you want",
         "watermarkText": "Choose an option",
         "dynamicDropdownOptions": {
             "uri": "https://localhost/getinvoices",
