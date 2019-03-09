@@ -71,7 +71,7 @@
                 },{
                       "id": "role_cluster",
                       "order": 5,
-                      "controlType": "dropdown",
+                      "controlType": "multiselectdropdown",
                       "displayLabel": "What is/are the role/roles running on the cluster?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
