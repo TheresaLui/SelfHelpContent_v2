@@ -100,7 +100,7 @@
                 },
                 {
                     "value": "ADF",
-                    "text": "ADF"
+                    "text": "Azure Data Factory"
                 },
                 {
                     "value": "RESTAPI",
