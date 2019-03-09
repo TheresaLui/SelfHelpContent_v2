@@ -56,7 +56,7 @@
                     "id": "if_alert",
                     "order": 4,
                     "controlType": "dropdown",
-                    "displayLabel": "Did you receive an alert within the VM indicating of a planned maintenance event needing a restart?",
+                    "displayLabel": "Did you receive an alert for the VM indicating a planned maintenance event needing a restart?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
