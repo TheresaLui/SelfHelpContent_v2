@@ -21,7 +21,7 @@
                     "id": "internet_method",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "Do you use a VPN, Express Route, or other tunneling method to the Internet?",
+                    "displayLabel": "Do you use a VPN, ExpressRoute, or other tunneling method to the Internet?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -29,8 +29,8 @@
                             "text": "VPN"
                         },
                         {
-                            "value": "Express Route",
-                            "text": "Express Route"
+                            "value": "ExpressRoute",
+                            "text": "ExpressRoute"
                         },
                         {
                             "value": "Other tunneling method",
