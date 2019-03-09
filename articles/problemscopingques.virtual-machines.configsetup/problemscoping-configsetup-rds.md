@@ -59,7 +59,7 @@
                     "id": "upd_store",
                     "order": 3,
                     "controlType": "dropdown",
-                    "displayLabel": "Where would be/are the UPD stored?",
+                    "displayLabel": "Where would be the UPD stored?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
