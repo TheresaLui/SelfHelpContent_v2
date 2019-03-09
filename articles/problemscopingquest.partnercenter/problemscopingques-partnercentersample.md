@@ -46,6 +46,19 @@
             "order": 4,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
+        },
+	{
+        "id": "pc_test_dynamicdropdown",
+        "order": 1,
+        "controlType": "dropdown",
+        "displayLabel": "Please select the item you want?",
+        "watermarkText": "Choose an option",
+        "dynamicDropdownOptions": {
+            "uri": "https://localhost/getinvoices",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": "[^/]+$"
         }
     ]
 }
