@@ -69,7 +69,7 @@
               "id": "if_custom",
               "order": 5,
               "controlType": "dropdown",
-              "displayLabel": "Was this VM created using a custom image/VHD from On-Premise environment?",
+              "displayLabel": "Was this VM created using a custom image/VHD from on-Premise environment?",
               "watermarkText": "Choose an option",
               "dropdownOptions": [
               {
