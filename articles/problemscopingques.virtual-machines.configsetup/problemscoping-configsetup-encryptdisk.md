@@ -21,13 +21,13 @@
                   "id": "problem_encrypt_date",
                   "order": 1,
                   "controlType": "datetimepicker",
-                  "displayLabel": "When was the time of the attempted encryption?",
+                  "displayLabel": "What was the time of the attempted encryption?",
                   "required": true
                 },{
                     "id": "was_encrypted",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Was thie VHD encrypted earlier?",
+                    "displayLabel": "Was this VHD encrypted earlier?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -108,7 +108,7 @@
                       "id": "vm_ifnew",
                       "order": 6,
                       "controlType": "dropdown",
-                      "displayLabel": "Is this a newly created VM or restored from backup or an encrypted VM?",
+                      "displayLabel": "Is this a newly created VM or restored from backup of an encrypted VM?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                           {
@@ -116,8 +116,8 @@
                               "text": "Newly created VM"
                           },
                           {
-                              "value": "Restoring from a backup or encrypted VM",
-                              "text": "Restoring from a backup or encrypted VM"
+                              "value": "Restoring from a backup of encrypted VM",
+                              "text": "Restoring from a backup of encrypted VM"
                           }
                       ],
                       "required": false
