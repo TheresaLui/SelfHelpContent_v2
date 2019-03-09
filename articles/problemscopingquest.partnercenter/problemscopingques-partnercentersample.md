@@ -49,7 +49,7 @@
         },
 	{
         "id": "pc_test_dynamicdropdown",
-        "order": 1,
+        "order": 5,
         "controlType": "dropdown",
         "displayLabel": "Please select the item you want?",
         "watermarkText": "Choose an option",
