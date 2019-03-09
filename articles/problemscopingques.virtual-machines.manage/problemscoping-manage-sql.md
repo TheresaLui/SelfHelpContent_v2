@@ -44,8 +44,8 @@
                             "text": "Unable to connect to SQL server instance"
                         },
                         {
-                            "value": "Help in migrating from On-premise to Azure VM",
-                            "text": "Help in migrating from On-premise to Azure VM"
+                            "value": "Help in migrating from on-premise to Azure VM",
+                            "text": "Help in migrating from on-premise to Azure VM"
                         },
                         {
                             "value": "SQL job related issues",
