@@ -11,13 +11,12 @@
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32444666,32633819"
-	resourceTags=""
+	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
 />
 
-# <-- This is the title of the article. It is not displayed in the portal, however, an **H1** header is a required part of every article. -->
-<H1> This is a sample title </H1>
+#This is a sample title
 
 This is a brief paragraph about the problem. It can be as simple as "Most users are able to resolve their [topic] issue using the steps below", or a more detailed outline of the issue being experienced.
 
