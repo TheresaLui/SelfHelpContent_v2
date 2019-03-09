@@ -21,7 +21,7 @@
                   "id": "problem_backup_date",
                   "order": 1,
                   "controlType": "datetimepicker",
-                  "displayLabel": "When was the time of the attempted backup?",
+                  "displayLabel": "What was the time of the attempted backup?",
                   "required": true
                 },{
                   "id": "problem_description",
