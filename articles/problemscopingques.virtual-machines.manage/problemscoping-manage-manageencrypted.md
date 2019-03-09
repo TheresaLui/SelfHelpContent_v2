@@ -49,7 +49,7 @@
                     "id": "lost_inaccessible",
                     "order": 3,
                     "controlType": "multiselectdropdown",
-                    "displayLabel": "Do you have lost or inaccessible encryption key/secret/permission?",
+                    "displayLabel": "Have you lost encryption key/secret/permission or is it inaccessible?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -108,7 +108,7 @@
                       "id": "vm_ifnew",
                       "order": 6,
                       "controlType": "dropdown",
-                      "displayLabel": "Is this a newly created VM or restored from backup or an encrypted VM?",
+                      "displayLabel": "Is this a newly created VM or restored from backup of an encrypted VM?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                           {
@@ -116,8 +116,8 @@
                               "text": "Newly created VM"
                           },
                           {
-                              "value": "Restoring from a backup or encrypted VM",
-                              "text": "Restoring from a backup or encrypted VM"
+                              "value": "Restoring from a backup of encrypted VM",
+                              "text": "Restoring from a backup of encrypted VM"
                           }
                       ],
                       "required": false
