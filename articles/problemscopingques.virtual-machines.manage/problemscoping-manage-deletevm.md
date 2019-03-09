@@ -81,7 +81,7 @@
                     "id": "manage_scenario",
                     "order": 5,
                     "controlType": "multiselectdropdown",
-                    "displayLabel": "Does any of below applies to this VM?",
+                    "displayLabel": "Does any of the following apply to this VM?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
@@ -97,8 +97,8 @@
                             "text": "Has another operation running, which is pending completion"
                         },
                         {
-                            "value": "Someone accidently broke/deleted the lease on VHD",
-                            "text": "Someone accidently broke/deleted the lease on VHD"
+                            "value": "Someone accidentaly broke/deleted the lease on VHD",
+                            "text": "Someone accidentaly broke/deleted the lease on VHD"
                         },
                         {
                             "value": "Is in middle of migration between resource groups or subscriptions",
