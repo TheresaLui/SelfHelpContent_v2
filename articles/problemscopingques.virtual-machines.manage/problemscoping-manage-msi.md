@@ -22,19 +22,19 @@
                     "order": 1,
                     "controlType": "textbox",
                     "displayLabel": "Object ID of the MSI service principal",
-                    "required": false,
+                    "required": false
                 },{
                     "id": "application_id",
                     "order": 2,
                     "controlType": "textbox",
                     "displayLabel": "Application ID of the MSI service principal",
-                    "required": false,
+                    "required": false
                 },{
                     "id": "vm_name",
                     "order": 3,
                     "controlType": "textbox",
                     "displayLabel": "VM name whether the Object ID of the MSI Service principal is added",
-                    "required": false,
+                    "required": false
                 },{
                   "id": "problem_description",
                   "order": 4,
