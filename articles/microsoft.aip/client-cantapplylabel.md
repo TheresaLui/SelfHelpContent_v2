@@ -38,9 +38,11 @@
 	Scope                 : All
 	```
 	
-	* If you have a value defined under SecurityGroupObjectId, it means you need to add your user to the group shows in that field in order to use RMS
+	* If you have a value defined under SecurityGroupObjectId, it means you need to add your user to the group shows in that field in order to use RMS.
 	
-	* More information about RMS OnBoarding policy can be found here: [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)<br>
+	* More information about RMS OnBoarding policy can be found here: [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)
+	
+	* If you don't have permissions to run the above commands, please contant your AIP administrator. 
 	
 4. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
