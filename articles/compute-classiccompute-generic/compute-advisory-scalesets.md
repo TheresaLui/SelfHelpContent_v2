@@ -2,7 +2,7 @@
 	pageTitle="Advisory"
 	description="Advisory"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""

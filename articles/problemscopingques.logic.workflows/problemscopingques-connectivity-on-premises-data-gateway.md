@@ -38,22 +38,22 @@
 				}
 			],
 			"required": false
-		}, 
+		},
 		{
 			"id": "3",
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Please provide one or more Run IDs related to this incident.",
 			"watermarkText": "Run IDs...",
-			"required": false,
-		}, 
+			"required": false
+		},
 		{
 			"id": "4",
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Please provide the resource IDs of Logic Apps with similar symptoms.",
 			"watermarkText": "Resource IDs...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
@@ -61,7 +61,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please provide the resource IDs of Logic Apps with the same overall structure and connectors that are not experiencing the same symptoms.",
 			"watermarkText": "Resource IDs...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

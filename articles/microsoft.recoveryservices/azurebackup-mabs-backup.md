@@ -19,21 +19,21 @@
 ## **Recommended Steps**
 
 - [Ensure Microsoft Azure Recovery Services (MARS) Agent is up to date before troubleshooting further](https://go.microsoft.com/fwlink/?linkid=229525&clcid=0x409)
-- [Ensure 5-10% free volume space is available on scratch folder location](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#whats-the-minimum-size-requirement-for-the-cache-folder-br) <br>
-- [Online recovery point creation failed](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
-- [Replica is Inconsistent](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
-- [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#invalid-vault-credentials-provided)<br>
-- [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
-- [Setup could not update registry metadata](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#setup-could-not-update-registry-metadata)<br>
+- [Ensure 5-10% free volume space is available on scratch folder location](https://aka.ms/AB-AA4dwtt) <br>
+- [Online recovery point creation failed](https://aka.ms/AA4fgs5)<br>
+- [Replica is Inconsistent](https://aka.ms/AA4f1lx)<br>
+- [Invalid vault credentials provided](https://aka.ms/AB-AA4dwts)<br>
+- [The encryption passphrase stored for this computer is not correctly configured](https://aka.ms/AA4f94t)<br>
+- [Setup could not update registry metadata](https://aka.ms/AA4eu3h)<br>
 - [DPM encountered error from VMware while trying to get ChangeTracking information](https://blogs.technet.microsoft.com/dpm/2017/03/29/change-block-tracking-needs-to-be-reset-if-another-backup-product-has-protected-a-vmware-vm-prior-to-dpm/)<br>
 
 ## **Recommended Documents**
 
 For information on prerequisites, limitations, and frequently asked questions, see:<br>
 
-- [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
-- [Support matrix for Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
-- [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
-- [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
-- [How to Upgrade Backup Server to V3](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup#upgrade-mabs)<br>
-- [What's new in Microsoft Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-whats-new-mabs)<br>
+- [Step by step guide to setup Azure Backup Server](https://aka.ms/AA4f1pa)<br>
+- [Support matrix for Microsoft Azure Backup Server](https://aka.ms/AA4f1pc)<br>
+- [Pricing details](https://aka.ms/AA4f1pi)<br>
+- [What workloads, I can protect with Azure Backup Server?](https://aka.ms/AA4f1pl)<br>
+- [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
+- [What's new in Microsoft Azure Backup Server](https://aka.ms/AA4f1pt)<br>
