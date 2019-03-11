@@ -3,7 +3,7 @@
                 description="Azure Backup SQL Restore Performance issues"
                 service="microsoft.recoveryservices"
                 resource="vaults"
-                authors="srinathvasireddy"
+                authors="srinathv"
 		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Prerequisite before triggering a restore](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#pre-requisite-before-triggering-a-restore)
+* [Prerequisite before triggering a restore](https://aka.ms/AB-AA4dwub)
