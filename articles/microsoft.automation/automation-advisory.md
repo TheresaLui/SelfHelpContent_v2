@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="334395b2-6ca5-49ea-87fc-c53c27e992fc"
 />
 
 # Azure Automation - General Guidance or Advisory

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="9e12c5bc-79c3-4f5c-b5ef-0f68f7d8f9e7"
 />
 
 # configurationandsetup/howtocreaterulesinanexistingnsg

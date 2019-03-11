@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628262"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="226e1a7a-d31d-4501-b094-7033313279b6"
 />
 
 # Troubleshoot custom image deployment failures

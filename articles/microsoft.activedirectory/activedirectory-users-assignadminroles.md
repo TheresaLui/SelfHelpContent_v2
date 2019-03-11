@@ -10,7 +10,8 @@
     resourceTags="users-assignrole,userandgroups_overview,userandgroups_user"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="c413431f-16ff-477b-8fe0-aeac99229c06"
+/>
 
 # I want to assign an administrator role to a user
 

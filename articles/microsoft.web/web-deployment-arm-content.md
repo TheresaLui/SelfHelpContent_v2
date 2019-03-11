@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public"
+	articleId="033623cc-dae8-4df6-a30b-e0991e985ec0"
 />
 
 # Deployment/ARM template

@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags=""
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="1052989d-6417-4985-b4af-0ffdb63302b9"
 />
 
 # Help diagnose my VM restart issue

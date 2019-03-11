@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="2682978a-12df-4f91-b72f-5afc7ebfac02"
 />
 
 # Configure Devices - Configure certificates

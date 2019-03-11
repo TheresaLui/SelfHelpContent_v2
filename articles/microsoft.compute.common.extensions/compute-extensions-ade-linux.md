@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628258"
 	resourceTags=""
-	productPesIds="15797,15571,16454"
+	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
+	articleId="673be084-45c4-4cf0-a67a-2d4f8231b8f3"
 />
 
 # Azure Disk Encryption (ADE) extension issue

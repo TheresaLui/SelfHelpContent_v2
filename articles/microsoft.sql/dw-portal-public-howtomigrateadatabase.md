@@ -10,16 +10,19 @@
 	resourceTags="datawarehouse"
 	productPesIds="15818"
 	cloudEnvironments="public"
+	articleId="087f59cf-bf93-4a08-937d-ceaa27d5286f"
 />
 
 # How to model and design your data warehouse
 
-## **Recommended steps**
+## **Recommended Steps**
+
 The following details explain how to model and design your data warehouse.
 
-1. We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse.
-2. For table design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category). 
-3. For query design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql). 
+* We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse.
+* For table design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category).
+* For query design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql).
 
-## **Recommended documents**
-[SQL Data Warehouse Cheat Sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet)
+## **Recommended Documents**
+
+* [SQL Data Warehouse Cheat Sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet)

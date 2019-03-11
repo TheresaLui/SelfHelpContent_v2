@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
-	articleid="7cea1f2f-278a-4de3-b5a6-331559998341"
+	articleId="c1953efa-a6c5-49eb-ab98-ff218e0e0cd4"
 />
 
 # errors and exceptions/advisory

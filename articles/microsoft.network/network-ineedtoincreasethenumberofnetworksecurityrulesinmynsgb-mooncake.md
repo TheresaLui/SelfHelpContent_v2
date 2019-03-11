@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="networksecuritygroups"
     authors="radwiv"
-    authoralias="radwiv"
+    ms.author="radwiv"
     displayOrder="12"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="fde8c5f7-2c71-4082-b81b-faab13b2cf77"
 />
 
 # I need to increase the number of Network Security rules in my NSG.

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="9b9288fc-ffe1-497f-96e1-3bd4553c23dd"
 />
 
 # worker role (paas)/configuration and management/certificate management

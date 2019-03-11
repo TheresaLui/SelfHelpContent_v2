@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749,16215,14745"
 	cloudEnvironments="public"
+	articleId="1ea553ec-582e-4439-904e-e8a4fad52432"
 />
 
 # Management/Instance Metadata Service

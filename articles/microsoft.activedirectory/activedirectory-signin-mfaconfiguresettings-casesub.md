@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="41a3b2d0-7861-4711-8477-9dfed1bae0e4"
+/>
 
 # Configuring Azure Multi-factor Authentication settings
 

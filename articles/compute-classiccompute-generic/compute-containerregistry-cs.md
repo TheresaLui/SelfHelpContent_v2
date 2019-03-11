@@ -10,6 +10,7 @@
 	resourceTags="linux"
 	productPesIds="16213"
 	cloudEnvironments="public"
+	articleId="2993a30b-2f16-478a-a633-8ac227df8b40"
 />
 
 # Container Registry

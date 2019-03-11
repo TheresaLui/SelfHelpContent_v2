@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
-	articleid="42da4ce6-7a81-46cd-8c2b-a300e5da2858"
+	articleId="f031f747-a865-4409-8cf8-e9be297abff6"
 />
 
 # errors and issues/can't create or delete operation

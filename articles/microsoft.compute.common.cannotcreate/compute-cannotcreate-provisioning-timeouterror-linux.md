@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628279"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="6824513e-6cd0-4641-9c47-1abc6533f4a6"
 />
 
 # I received a provisioning or deployment timeout error

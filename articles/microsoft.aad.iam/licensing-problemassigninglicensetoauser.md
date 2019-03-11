@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="e485ed69-c238-43c6-b316-4501279f828f"
 /> 
 # Problem assigning licenses to a user 
 ---

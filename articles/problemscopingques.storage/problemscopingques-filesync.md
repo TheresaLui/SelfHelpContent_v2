@@ -2,6 +2,7 @@
 	pageTitle="Storage File Sync"
 	description="Storage File Sync scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
@@ -42,7 +43,8 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "watermarkText": "If applicable, please provide sync group name, server endpoint name, and error message.",
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

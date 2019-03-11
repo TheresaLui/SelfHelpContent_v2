@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="34c058c7-41ad-4a51-90da-d31ce8fe0ecf"
 />
 
 # Planned Maintenance/general questions or issues

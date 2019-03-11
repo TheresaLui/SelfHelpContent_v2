@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
-	articleid="57de0236-caf8-443a-898b-8bd57287ec25"
+	articleId="d0922a6c-ab36-4269-b188-f46fec3ae93a"
 />
 
 # ACS to SAS migration

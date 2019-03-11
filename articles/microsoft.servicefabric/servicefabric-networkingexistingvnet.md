@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="06c1459e-00a9-4091-9a0e-dd3550b4646a"
 />
 
 # networking/existingvnet

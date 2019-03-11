@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="7c4fd68e-1074-4154-98df-a716d99ce25c"
 />
 
 # Configure my on-premises VPN device

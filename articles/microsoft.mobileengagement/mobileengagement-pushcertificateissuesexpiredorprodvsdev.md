@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="373edad0-5a75-4570-99c1-cbdbb03a6456"
 />
 
 # push and reach/push certificate issues (expired or prod vs. dev)

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16333"
 	cloudEnvironments="public"
+	articleId="fe8c9789-0f33-4edf-a752-958593e37f86"
 />
 
 # Availability, Performance, and Application Issues/Web app down or reporting errors

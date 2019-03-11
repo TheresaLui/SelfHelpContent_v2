@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="9eaa3031-fa68-4ac8-b65c-e433e4d0bc33"
 />
 
 # My VM/Disk is slow

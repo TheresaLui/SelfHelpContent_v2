@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="0b620666-ea81-48fe-9dd4-07d8357dfb0d"
 />
 
 # azurestorageaccount-error

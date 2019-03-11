@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="1fd72df6-0058-4a65-b189-578c1e67e1f0"
 />
 
 # performance/database query is slow or unresponsive

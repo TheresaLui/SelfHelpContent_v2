@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
-	authoralias="balaks"
+	ms.author="balaks"
 	displayOrder="73"
 	selfHelpType="resource"
 	supportTopicIds="32597519"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="bbd78870-5389-4f43-bed3-5dddbf6ce3e7"
 />
 
 # Errors for Table API in Azure Cosmos DB

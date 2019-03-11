@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14947"
 	cloudEnvironments="public"
+	articleId="c2e45568-1a53-40a3-8a33-e933128f60c8"
 />
 
 # Installing or configuring RADIUS authentication

@@ -6,6 +6,7 @@
 	supportTopicIds="32593230"
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="a36be48f-58e5-4807-8185-d5aa54119b70"
 />
 # Reservation Management
 *	**Note:** Exchange and Refund requests are managed via the Reservation overview blade to capture reservation details accurately. Please raise service request from [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). <br>

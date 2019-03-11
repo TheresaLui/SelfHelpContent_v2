@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public, MoonCake"
+	articleId="cd1e113a-bebb-4abf-bce7-4fdaf2916645"
 />
 
 # tools/service fabric explorer

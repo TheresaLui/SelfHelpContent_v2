@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
-	authoralias="balaks"
+	ms.author="balaks"
 	displayOrder="301"
 	selfHelpType="resource"
 	supportTopicIds="32597556"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="98d86229-8cf9-4108-8976-c8939cb32ae6"
 />
 
 # Introduction to Azure Cosmos DB REST API

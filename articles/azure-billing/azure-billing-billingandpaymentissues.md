@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="2eaf62a7-72ad-4c89-8271-f70449ebe709"
 />
 
 # billing and payment issues

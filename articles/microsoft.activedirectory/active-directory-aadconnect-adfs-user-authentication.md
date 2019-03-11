@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="16579"
 	cloudEnvironments="public"
+    ms.author="billmath"
+	articleId="9ed14db1-ed62-408a-9822-e20f3ad9c357"
 />
 
 
@@ -17,8 +19,8 @@
 # User Authentication
 
 
-- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot where your issue is coming from.<br>
-- See [ADFS Help](https://adfshelp.microsoft.com/) which provides effective tools in one place that makes it easier for users and administrators to resolve authentication issues at a quicker pace.<br>
+- Use our [Diagnostics Analyzer](https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze) to run a comprehensive health check on your AD FS server and help troubleshoot your issue
+- See [ADFS Help](https://adfshelp.microsoft.com/), which provides effective tools to resolve authentication issues at a quicker pace
 
 
 ## **Recommended Documents**
@@ -26,4 +28,6 @@
 
 - [AD FS Help](https://adfshelp.microsoft.com/)<br>
 - [Troubleshooting Integrated Windows Authentication](https://docs.microsoft.com/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-iwa)<br>
-- [Configuring Authentication Policies](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-authentication-policies)
+- [Configuring Authentication Policies](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-authentication-policies)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)<br>
+- [Azure AD Connect Health for AD FS](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)

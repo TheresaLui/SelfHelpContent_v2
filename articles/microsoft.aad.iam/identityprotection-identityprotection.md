@@ -1,184 +1,173 @@
 <properties
-    pageTitle="Problem in Identity Protection users risk events"
+    pageTitle="Azure Active Directory Sign-In and Identity Protection"
     description="identityprotection"
-    authors="anupnadigm"
+    authors="arupela"
+    ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32542231"
-    productPesIds="14785,16578,16575"
+    supportTopicIds="32542231,32596865,32596866,32596869,32615307"
+    productPesIds="16579"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
     />
 
-# Problem in Identity Protection users risk events
+# Azure Active Directory Sign-In and Identity Protection
 
 ---
 {
     "resourceRequired": false,
-    "title": "Problem in Identity Protection users risk events",
+    "title": "Azure Active Directory Sign-In and Identity Protection",
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "ProblemAreas",
+            "id": "VerboseTracing",
             "visibility": null,
             "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Problem Areas",
-            "content": null,
+            "controlType": "infoblock",
+            "displayLabel": null,
+            "content": "Before requesting support, Microsoft suggests you enable advanced diagnostics that will gather more information about your problem.",
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Users flagged for risk",
-                    "value": "riskyUsers"
-                },
-                {
-                    "text": "Risk events",
-                    "value": "riskEvents"
-                },
-                {
-                    "text": "Vulnerabilities",
-                    "value": "Vulnerabilities"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
-            "id": "symptoms",
+            "id": "enableVerboseTracing1",
             "visibility": null,
             "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What are the symptoms of the problem?",
-            "content": null,
+            "controlType": "infoblock",
+            "displayLabel": null,
+            "content": "To enable advance diagnosis:",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 3
-        },
-        {
-            "id": "ObjectIDs",
-            "visibility": "ProblemAreas==riskyUsers",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Object IDs of impacted users",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 1
+            "numberOfLines": 0
         },
         {
-            "id": "problem_start_time",
+            "id": "enableVerboseTracing2",
+            "visibility": null,
+            "order": 3,
+            "controlType": "infoblock",
+            "displayLabel": null,
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the UPN of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "hasErrorData",
             "visibility": null,
             "order": 4,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
+            "controlType": "dropdown",
+            "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": null,
+            "dropdownOptions": [
+                {
+                    "text": "Yes",
+                    "value": "yes"
+                },
+                {
+                    "text": "No",
+                    "value": "no"
+                }
+            ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
-            "id": "VulnerabilityType",
-            "visibility": "ProblemAreas==Vulnerabilities",
+            "id": "getCorrelationId",
+            "visibility": "hasErrorData==no",
             "order": 5,
-            "controlType": "dropdown",
-            "displayLabel": "Vulnerability type",
-            "content": null,
+            "controlType": "infoblock",
+            "displayLabel": null,
+            "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
             "watermarkText": null,
             "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Multi-factor authentication registration not configured",
-                    "value": "noMFA"
-                },
-                {
-                    "text": "Unmanaged cloud apps",
-                    "value": "umCloudApps"
-                },
-                {
-                    "text": "Security Alerts from Privileged Identity Management",
-                    "value": "PIM"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
-            "id": "riskEventType",
-            "visibility": "ProblemAreas==riskEvents",
+            "id": "correlationId",
+            "visibility": "hasErrorData==yes",
             "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Risk event type",
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID from Error message:",
             "content": null,
-            "watermarkText": null,
+            "watermarkText": "Copy the correlation ID from the error message and paste it here",
             "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Users with leaked credentials ",
-                    "value": "leaked"
-                },
-                {
-                    "text": "Sign-ins from anonymous IP addresses",
-                    "value": "anonymous"
-                },
-                {
-                    "text": "Impossible travel to atypical locations ",
-                    "value": "impTravel"
-                },
-                {
-                    "text": "Sign-ins from unfamiliar locations ",
-                    "value": "Unfamiliar"
-                },
-                {
-                    "text": "Sign-ins from infected devices  ",
-                    "value": "Infected"
-                },
-                {
-                    "text": "Sign-ins from IP addresses with suspicious activity  ",
-                    "value": "Suspicious"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "timestamp",
+            "visibility": "hasErrorData==yes || hasErrorData==no",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Timestamp from Error message:",
+            "content": null,
+            "watermarkText": "Copy the UTC timestamp from the error message or sign in log entry and paste it here",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "appNameOrId",
+            "visibility": "hasErrorData==no",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
+            "content": null,
+            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "userNameOrId",
+            "visibility": null,
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "Which user is experiencing this problem?",
+            "content": null,
+            "watermarkText": "Enter user UPN for MFA server or Object ID of the user in Azure Active Directory",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -186,11 +175,11 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 7,
+            "order": 10,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details",
+            "displayLabel": "If you received an error, please provide the error message details:",
             "content": null,
-            "watermarkText": null,
+            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -198,7 +187,14 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 0
+            "numberOfLines": 3
+        },
+        {
+            "id": "problem_start_time",
+            "order": 11,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
         }
     ]
 }

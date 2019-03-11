@@ -10,10 +10,12 @@
 	resourceTags=""
 	productPesIds="13491,16259"
 	cloudEnvironments="public"
+	articleId="a541dfac-8653-4b86-b56e-6d5bd953d83a"
 />
 
 # connectivity/connection time-outs
 
-## **Recommended documents**
-[Troubleshoot common connection issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations)
+## **Recommended Documents**
+
+* [Troubleshoot common connection issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations)

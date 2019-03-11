@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="57fd952a-7fc8-48e5-b87c-4339ba0f47e3"
 />
 
 # update other billing details

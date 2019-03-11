@@ -11,7 +11,7 @@
 	resourceTags=""	
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake" 
-	articleid="288a687d-319f-4a3e-8704-7e130ed9af41"
+	articleId="43d895fd-dbd6-409c-b35e-a23d49a193a4"
 />
 
 # quota changes

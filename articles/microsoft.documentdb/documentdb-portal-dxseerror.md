@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
-	authoralias="balaks"
+	ms.author="balaks"
 	displayOrder="307"
 	selfHelpType="resource"
 	supportTopicIds="32597505,32597510,32597517,32597518"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="6f27d08a-b34c-4a15-8aef-2062947fee58"
 />
 
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer

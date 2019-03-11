@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="7793107a-c8a2-4a3f-9085-e96cbe86cf8d"
 />
 
 # Reset a VPN Gateway

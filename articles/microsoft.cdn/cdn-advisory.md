@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="ffc501d5-8a23-4ac2-9bb1-9379350edcf2"
 />
 
 # advisory

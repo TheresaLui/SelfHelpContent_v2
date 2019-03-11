@@ -7,6 +7,7 @@
 	supportTopicIds="32581614"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="850dda65-3fca-4269-bb6b-ddc9e9dbca80"
 />
 
 # Configuring Traffic Manager with App Service

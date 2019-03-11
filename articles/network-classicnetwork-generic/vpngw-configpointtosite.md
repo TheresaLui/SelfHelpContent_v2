@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="16094"
     cloudEnvironments="public"
+	articleId="c439cb2c-ac0f-4ab5-97e4-61df6c138ffb"
 />
 # Configure a Point-to-Site connection
 ## **Recommended steps**

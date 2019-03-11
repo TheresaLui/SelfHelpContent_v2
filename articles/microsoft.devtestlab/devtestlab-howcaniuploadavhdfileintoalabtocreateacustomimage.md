@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="ea02ecbd-3775-4541-8566-5090afc7e728"
 />
 
 # How can I upload a VHD file into a Lab to create a custom image?

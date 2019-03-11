@@ -10,9 +10,11 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public, MoonCake"
+	articleId="4b1a8bfd-91cf-4cab-bf35-3cafbd0793ec"
 />
 
 # design and development/client drivers and apis
 
-## **Recommended documents**
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/)
+## **Recommended Documents**
+
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/)

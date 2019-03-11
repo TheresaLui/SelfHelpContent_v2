@@ -10,6 +10,7 @@
 	resourceTags="privilegedidentitymanagement_overview"
 	productPesIds="14785,16577"
 	cloudEnvironments="public"
+	articleId="b64b291b-35e2-4cfa-8925-4dbe26427262"
 />
 
 # Unable to manage role in a Microsoft Online Services portal after being assigned or activated

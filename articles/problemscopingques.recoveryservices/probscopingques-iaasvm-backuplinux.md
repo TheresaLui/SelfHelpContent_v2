@@ -7,6 +7,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="d4e9d379-2bf1-4e83-9939-1850f2d2515e"
 />
 # Questions Azure VM backup failure for Linux 
 ---

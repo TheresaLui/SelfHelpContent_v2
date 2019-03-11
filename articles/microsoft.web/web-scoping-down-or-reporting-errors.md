@@ -7,6 +7,7 @@
 	supportTopicIds="32542218"
 	productPesIds="14748"
 	cloudEnvironments="public, MoonCake"
+	articleId="dc478439-8a8a-4584-8909-f49dde00f9a1"
 />
 
 # Web App Down or Reporting Errors
