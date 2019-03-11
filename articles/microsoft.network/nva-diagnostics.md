@@ -16,7 +16,7 @@ productPesIds="15526"
 cloudEnvironments="Public"
 />
 # We found an issue related to a Network Virtual Appliance used in this connectivity path 
-<!--issueDescription-->
+<!--issueDescription-->  
 We have assessed the routing from the source VM **'<!--$SourceVM-->[SourceVM]<!--/$SourceVM-->'** to the destination resource with IP **<!--$DestinationIP-->[DestinationIP]<!--/$DestinationIP-->** and found there is a Network Virtual Appliance (NVA) named **'<!--$NvaVmName-->[NvaVmName]<!--/$NvaVmName-->'** managing the traffic. We ran some diagnostics on the detected scenario and found the following: 
 
 - Checked Source Virtual Health: **<!--$SourceVmHealthStatus-->[SourceVmHealthStatus]<!--/$SourceVmHealthStatus-->** 
