@@ -20,4 +20,4 @@
 * [Spark Structured Streaming with Kafka](https://docs.microsoft.com/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming)
 * [Using Storm with Apache Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-apache-storm-with-kafka)
 * [Spark Streaming (DStreams) with Kafka](https://docs.microsoft.com/azure/hdinsight/hdinsight-apache-spark-with-kafka)
-* [Spark Structured Streaming with Kafka and CosmosDB](https://docs.microsoft.com/azure/hdinsight/apache-kafka-spark-structured-streaming-cosmosdb)
+* [Spark Structured Streaming with Kafka and Cosmos DB](https://docs.microsoft.com/azure/hdinsight/apache-kafka-spark-structured-streaming-cosmosdb)
