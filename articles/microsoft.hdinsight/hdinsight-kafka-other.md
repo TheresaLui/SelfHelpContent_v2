@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* [How do I run the replica reassignment tool](https://github.com/hdinsight/hdinsight.github.io/blob/master/kafka/kafka-replica-reassignment.md)
-* [Using Kafka Connect - Connecting Kafka with IoTHub](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-connector-iot-hub)
+* [How do I run the replica reassignment tool?](https://github.com/hdinsight/hdinsight.github.io/blob/master/kafka/kafka-replica-reassignment.md)
+* [Using Kafka Connect: Connecting Kafka with IoT Hub](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-connector-iot-hub)
