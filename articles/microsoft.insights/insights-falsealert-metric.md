@@ -26,7 +26,7 @@ If you believe your metric alert shouldn't have triggered but it did, the follow
 
 1. Review the **Time Aggregation**, **Period** and **Threshold** specified in the metric alert rule condition are what you want. If they are not what you want, edit the rule to match what you want.
 2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see the alert fired for your metric alert rule. Review the alert details to see the **Metric Value** when the alert was triggered (under **More Details**).
-3. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold.
+3. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold
 4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that:
 
     - **Aggregation** in the metric chart is the same as **Time Aggregation** in your alert rule
