@@ -18,4 +18,5 @@
 
 ## **Recommended Documents**
 
-- You can use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for **Azure VMs**, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
+- You can use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for **Azure VMs**
+* [Recommendations for configuring notifications using Activity Logs](https://aka.ms/BKP-Notification-Recommendations)
