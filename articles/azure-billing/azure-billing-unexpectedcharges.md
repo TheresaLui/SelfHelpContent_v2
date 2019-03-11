@@ -40,7 +40,7 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   
   1. Sign in to the [Enterprise portal](https://ea.azure.com/)<br>
   2. Select **Reports**<br>
-  3. On the top right-hand corner of the tab, switch the view from **M** to **C **and match the period on the invoice<br>
+  3. On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice<br>
   4. The Total **Usage** amount should match the Total **Extended** Amount on your service overage invoice<br>
   5. Go to **Download Usage > Advanced Report Download** to get more information about your charges<br>
   
