@@ -25,10 +25,10 @@ We have assessed the routing from the source VM **'<!--$SourceVM-->[SourceVM]<!-
 - Checked destination VM health (if applicable): **<!--$DestVmHealthStatus-->[DestVmHealthStatus]<!--/$DestVmHealthStatus-->**
 - Checked the status of 'IP Forwarding' on the NVA NIC: **<!--$IpFwdStatus-->[IpFwdStatus]<!--/$IpFwdStatus-->**
 - Checked for Network Security Groups (NSGs) blocking traffic from source VM to NVA VM: **<!--$SourceToNvaNsgStatus-->[SourceToNvaNsgStatus]<!--/$SourceToNvaNsgStatus-->** <br><br>
-See below for detailed steps on resolving detected issues.
+        See below for detailed steps on resolving detected issues.
 <!--/issueDescription-->
 
-## Steps to resolve detected issues
+## **Recommended Steps**
 
 - **Fix Source, NVA, or Destination VM Health Issues:** <br>
         Check to make sure the VM is in a running state. If it is in a running state, choose the 'Redeploy' button in the portal. See [here](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/redeploy-to-new-node-windows#use-the-azure-portal) for more information on 'Redeploy'.
