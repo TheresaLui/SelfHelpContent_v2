@@ -18,7 +18,7 @@
 
 **Automated Patching** establishes a maintenance window for an Azure Virtual Machine running SQL Server. Automated Updates can only be installed during this maintenance window. For SQL Server, this restriction ensures that system updates and any associated restarts occur at the best possible time for the database.
 
-Only Windows updates marked Important are installed. Other SQL Server updates, such as Cumulative Updates, must be installed manually. Automated Patching depends on the [SQL Server IaaS Agent Extension.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-agent-extension) To find pre-requisites [Automated Patching for SQL Server in Azure Virtual Machines (Resource Manager).](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-patching)
+Only Windows updates marked **Important** are installed. Other SQL Server updates, such as Cumulative Updates, must be installed manually. Automated Patching depends on the [SQL Server IaaS Agent Extension](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-agent-extension). To find pre-requisites, see [Automated Patching for SQL Server in Azure Virtual Machines (Resource Manager)](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-patching).
 
 ## **Recommended Documents**
 
