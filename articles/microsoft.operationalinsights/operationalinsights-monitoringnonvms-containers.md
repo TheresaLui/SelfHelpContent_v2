@@ -32,5 +32,3 @@ Container Monitoring does not include Update Management, Security Management, AK
 
 ## Known Issues
 - AKS [Azure Monitor metrics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/metrics-charts) does not match the actual counts and performance of AKS clsuster. To open a case related to Azure Monitor metrics for AKS, please go to the support portal and select *Issue Type = Technical* and *Service=Metrics*. If you need performance information on your AKS cluster, Azure Monitor for containers can also provide metric for AKS. 
-=======
-- AKS Azure Monitor metrics does not match the actual counts and performance of AKS clsuster. To raise a case, please go to xxxxx to raise the issue. For AKS metrics, please use Azure Monitor for containers.
