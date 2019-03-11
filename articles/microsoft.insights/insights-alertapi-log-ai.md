@@ -24,14 +24,15 @@
 
 If you are running into issues deploying log alerts using REST API or Azure command line interface (CLI), the following steps may help resolve the issue.
 
-1. Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/scheduledqueryrules/) to verify you are passing the all the parameters correctly.
-
+1. Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/scheduledqueryrules/) to verify you are passing the all the parameters correctly
 2. Currently, Azure Monitor Log Alerts does not have native CLI commands:
-    * It is recommended to use Azure Resource Manager CLI commands instead for deploying log alert rules.
-    * For details, see [sample log alert creation using Azure Resource Manager CLI command](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-using-powershell-cli-or-api).
+
+    * It is recommended to use Azure Resource Manager CLI commands instead for deploying log alert rules
+    * For details, see [sample log alert creation using Azure Resource Manager CLI command](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-using-powershell-cli-or-api)
 
 3. Review if you have appropriate permissions. To create/update/delete log alerts:
-    * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
+
+    * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
 
 ## **Recommended Documents**
