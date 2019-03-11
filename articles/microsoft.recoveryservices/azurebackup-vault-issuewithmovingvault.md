@@ -19,7 +19,9 @@
 ## **Recommended Documents**
 
 - [Before moving vault check prerequisites required for moving a vault](https://aka.ms/AB-smaller-data-backup)<br>
-- Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
-- [You can also use powershell to move a vault](https://aka.ms/AB-powershell-to-move-a-vault)<br>
+- [You can also use PowerShell to move a vault](https://aka.ms/AB-powershell-to-move-a-vault)<br>
 - [How do I move a vault between subscriptions?](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
 - [How do I move a vault between Resource Groups?](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
+
+## **Recommended**
+- Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
