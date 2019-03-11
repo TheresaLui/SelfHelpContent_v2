@@ -26,7 +26,7 @@ These restrictions are put in place due to numerous business and technical const
 To help you with this current issue, we suggest a couple of solutions:
 
 1. Consider Alternate Sizes or Locations:<br>
- We encourage you to consider an alternate location or VM Size that meets your business needs. Azure provides several ways to query which SKUs are available. See [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors) for details.<br>
+ We encourage you to consider an alternate location or VM Size that meets your business needs. Azure provides several ways to query which SKUs are available. See [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors) to understand how to use Powershell and Azure CLI to determine which SKUs are available in a specific region.<br>
 
 2.	Request Exemption:<br> 
  If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).  This action will streamline your request and assist in getting a fast turnaround time.<br>
@@ -35,6 +35,5 @@ To help you with this current issue, we suggest a couple of solutions:
 
 * [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
 * [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)
-* [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus)
 
 
