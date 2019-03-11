@@ -26,7 +26,6 @@ We have assessed the routing from the source VM **'<!--$SourceVM-->[SourceVM]<!-
 - Checked the status of 'IP Forwarding' on the NVA NIC: **<!--$IpFwdStatus-->[IpFwdStatus]<!--/$IpFwdStatus-->**
 - Checked for Network Security Groups (NSGs) blocking traffic from source VM to NVA VM: **<!--$SourceToNvaNsgStatus-->[SourceToNvaNsgStatus]<!--/$SourceToNvaNsgStatus-->** <br><br>
 <!--/issueDescription-->
-
 See below for detailed steps on resolving detected issues.
 
 ## **Recommended Steps**
