@@ -13,15 +13,14 @@
 
 # Unable to reach a port
 
----
 {
-    "resourceRequired": true,
+    "resourceRequired": "true",
     "title": "Unable to reach a port",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "public_ip_changed",
-            "order": 1,
+            "order": "1",
             "controlType": "dropdown",
             "displayLabel": "Please select the virtual machine you are facing connectivity issues with",
             "watermarkText": "Choose an option",
@@ -32,14 +31,12 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-            {
-            "id": "port number",
-            "order": 2,
+            "id": "port_number",
+            "order": "2",
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
-            "required": true
+            "required": "true"
         }
     ]
 }
----
