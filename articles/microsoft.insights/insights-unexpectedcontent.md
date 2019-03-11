@@ -16,9 +16,7 @@
 
 # Webhook notification is not in the format I expected
 
-There are various kinds of alerts in Azure Monitor, and each has a different webhook payload format. Check the expected payload format for each alert type below.
-
-The same payload format is sent when using the alerts to trigger a Logic App, a runbook, or an Azure Function.
+There are various kinds of alerts in Azure Monitor, and each has a different webhook payload format. Check the expected payload format for each alert type below. The same payload format is sent when using the alerts to trigger a Logic App, a runbook, or an Azure Function.
 
 ## **Recommended Steps**
 
