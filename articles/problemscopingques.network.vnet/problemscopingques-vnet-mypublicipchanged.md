@@ -14,7 +14,6 @@
 # My public IP address changed
 
 ---
-
 {
     "resourceRequired": true,
     "title": "My public IP address changed",
@@ -40,7 +39,7 @@
                 }
             ],
             "required": false
-        },
+          },
             {
             "id": "problem_start_time",
             "order": 3,
@@ -56,7 +55,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-
     ]
 }
+
 ---
