@@ -46,7 +46,7 @@ The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/
 	1. The Point-to-Site address range in the Virtual Network Gateway has to be within the Private IPv4 address space per RFC 1918:  
    	* 10.0.0.0 – 10.255.255.255
 	* 172.16.0.0 – 172.31.255.255
-	* 192.168.0.0 – 192.168.255.255 <br> 
+	* 192.168.0.0 – 192.168.255.255
 	
 	2. IKEV2 is selected as the “Tunnel type” of the  “Point-to-site configuration” section of your Virtual Network Gateway. Change it to SSTP (SSL). For more information, see [Set up a gateway in your VNet](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#set-up-a-gateway-in-your-vnet). <br> 
 
