@@ -16,17 +16,16 @@
 
 # unexpected charges
 
-### **Prevent Unexpected charges**
+### Prevent Unexpected Charges
 
-Learn more about how you can prevent unexpected charges with Azure billing and cost management [here](https://docs.microsoft.com/azure/billing/billing-getting-started).<br>
+Learn more about how you can [prevent unexpected charges with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started).<br>
 
 ### **Review costs at the end of your billing cycle**
 
-After the end of your billing cycle, your invoice will become available. You can also [download past invoices and detail usage files](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) to make sure you were charged correctly. For more information about comparing your daily usage with your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill).<br>
-
-Billing API could also be used to get usage data programmatically.  RateCard API and the Usage API together can be used to get the billed usage.<br>
-
-Learn more:  [Gain insights into your Microsoft Azure resource consumption](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview) <br>
+* After the end of your billing cycle, your invoice will become available. You can [download past invoices and detail usage files](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) to make sure you were charged correctly.
+* For more information about comparing your daily usage with your invoice, see [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)
+* Billing API could also be used to get usage data programmatically. RateCard API and the Usage API together can be used to get the billed usage.<br>
+* Learn more: [Gain insights into your Microsoft Azure resource consumption](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview) <br>
 
 ### **Understand your Bill**
 
@@ -36,7 +35,7 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   * Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
   * Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 
-  **For EA Customers , to review service overage invoice :**<br>
+ **For EA Customers, review service overage invoice:**<br>
   
   1. Sign in to the [Enterprise portal](https://ea.azure.com/)<br>
   2. Select **Reports**<br>
@@ -46,7 +45,7 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   
   _Note:_ This report doesn't include taxes or charges for reservations or marketplace charges<br>
 	
-  **For EA Customers , to review Marketplace invoice:**<br>
+  **For EA Customers, review Marketplace invoice:**<br>
 
 Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
  
@@ -58,15 +57,11 @@ Compare your Azure Marketplace total on Reports > Usage Summary in the Enter
  
  _Note:_  This report doesn't include taxes or show one-time purchases<br>
 
-Learn more: [Understand your bill - EA only](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
-
-Learn more on how billing works in Azure Cloud Solution Provider (Azure CSP) program: [Azure CSP Billing](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview)<br>
-
-Learn on reading and understanding your CSP bill: [Azure CSP invoice](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-invoice)<br>
-
-Learn how to prevent unexpected charges and control your costs: [Prevent unexpected charges](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
-
-Learn more on how third-party billing: [Azure Marketplace Billing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
+* [Understand your bill - EA only](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
+* [Azure CSP Billing](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview)<br>
+* [Azure CSP invoice](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-invoice)<br>
+* [Prevent unexpected charges](https://docs.microsoft.com/azure/billing/billing-getting-started) <br>
+* [Azure Marketplace Billing](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges) <br>
 
 ## **Recommended Documents**
 
