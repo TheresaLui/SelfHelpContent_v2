@@ -16,8 +16,9 @@
 
 # Which account replication type to use
 
-## **Recommended documents**
-- [Can I change secondary location for my GRS/RA-GRS account](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
+## **Recommended Documents**
+
+- [Can I change secondary location for my GRS/RA-GRS account?](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
 - [How to perform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
 - [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
 - [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/library/azure/ee460802.aspx)
