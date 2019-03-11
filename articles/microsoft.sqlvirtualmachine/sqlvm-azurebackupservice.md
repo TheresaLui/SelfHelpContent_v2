@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-Use Azure Backup to protect the data for on-premises servers, virtual machines, virtualized workloads, SQL server, SharePoint server, and more. Learn how to back up and restore your data with our [quickstarts, tutorials and samples.](https://docs.microsoft.com/azure/backup/)
+Use Azure Backup to protect the data for on-premises servers, virtual machines, virtualized workloads, SQL server, SharePoint server, and more. Learn how to back up and restore your data with our [quickstarts, tutorials and samples](https://docs.microsoft.com/azure/backup/).
 
 ## **Recommended Documents**
 
-[Azure Backup for SQL VMs](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-backup-recovery#azbackup)<br>
-[What is Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview)<br>
-[Backup a VM - Portal](https://docs.microsoft.com/azure/backup/quick-backup-vm-portal)<br>
-[About Azure VM Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction)
+* [Azure Backup for SQL VMs](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-backup-recovery#azbackup)<br>
+* [What is Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview)<br>
+* [Backup a VM - Portal](https://docs.microsoft.com/azure/backup/quick-backup-vm-portal)<br>
+* [About Azure VM Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction)
