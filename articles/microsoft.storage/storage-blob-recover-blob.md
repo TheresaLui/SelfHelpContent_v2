@@ -16,11 +16,12 @@
 />
 
 # Recover deleted Blob
-## **Recommended steps**
 
-We sincerely apologize that we are unable to recover deleted blob without [soft delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) enabled.<br>
+## **Recommended Steps**
+
+We apologize, but we are unable to recover a deleted blob without [soft delete](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) enabled.<br>
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This blob and all its content was cleaned up after deletion and is no longer recoverable by Azure.
 
-Azure Storage now offers soft delete for blob objects so that you can more easily recover your data when it is erroneously deleted by an application or other storage account user. You can enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that accidentally deleted blobs will be recoverable in the future. 
+Azure Storage now offers soft delete for blob objects so that you can more easily recover your data when it is erroneously deleted by an application or other storage account user. Enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that accidentally deleted blobs will be recoverable in the future. 
 
