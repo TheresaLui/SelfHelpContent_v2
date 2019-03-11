@@ -17,7 +17,7 @@
 />
 
 # This is a sample title
-<h1>this is a title </h1>
+
 
 This is a brief paragraph about the problem. It can be as simple as "Most users are able to resolve their [topic] issue using the steps below", or a more detailed outline of the issue being experienced.
 
