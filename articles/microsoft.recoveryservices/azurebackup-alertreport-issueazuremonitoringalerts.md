@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 - [Azure Monitoring Alerts Overview](https://aka.ms/Azure-MonitorAlerts-Overview)<br>
-- [How to create Alerts and configure email Notification using Azure Monitor Alerts](https://aka.ms/Azure-MonitorAlerts-tutorial)
+- [How to create alerts and configure email notification using Azure Monitor Alerts](https://aka.ms/Azure-MonitorAlerts-tutorial)
