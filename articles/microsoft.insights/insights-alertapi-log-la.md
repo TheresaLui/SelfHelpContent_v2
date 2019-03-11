@@ -24,24 +24,25 @@
 
 If you are running into issues creating/updating log alerts using REST API or Azure command line interface (CLI), the following steps may help resolve the issue.
 
-1. Review which REST API you are using to manage your log alerts
-    * [ScheduledQueryRules API](https://docs.microsoft.com/rest/api/monitor/scheduledqueryrules/) is the recommended API to manage log alerts in Azure Monitor.
-    * However, to ensure backward compatibility with legacy OMS systems, [legacy Log Analytics Alert API](https://docs.microsoft.com/azure/azure-monitor/platform/api-alerts) is still supported.
-    * Alerts created through one of the APIs above can only be updated using the same API. 
-    * Unless you have [explicitly switched](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-api-switch) to use new API only, rules created in the portal will be created using the legacy Log Analytics Alert API.
+1. Review which REST API you are using to manage your log alerts:
 
-2. Review if you are using legacy API to manage rules with newer functionality.
-    * Rules with [following functionality](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-api-switch#benefits-of-switching-to-new-azure-api) is only supported via new Azure Monitor - ScheduledQueryRules API
-        * cross-resource queries,
-        * time period greater than 24 hours
-        * specifying which group field to aggregate-on (for metric measurement type rules) etc.
+    * [ScheduledQueryRules API](https://docs.microsoft.com/rest/api/monitor/scheduledqueryrules/) is the recommended API to manage log alerts in Azure Monitor
+    * However, to ensure backward compatibility with legacy OMS systems, [legacy Log Analytics Alert API](https://docs.microsoft.com/azure/azure-monitor/platform/api-alerts) is still supported
+    * Alerts created through one of the APIs above can only be updated using the same API
+    * Unless you have [explicitly switched](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-api-switch) to use new API only, rules created in the portal will be created using the legacy Log Analytics Alert API
+
+2. Review if you are using legacy API to manage rules with newer functionality:
+
+    * Rules with [following functionality](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-api-switch#benefits-of-switching-to-new-azure-api) is only supported via new Azure Monitor - ScheduledQueryRules API (cross-resource queries, time period greater than 24 hours, specifying which group field to aggregate-on (for metric measurement type rules) etc.)
 
 3. Currently, Azure Monitor Log Alerts does not have native CLI commands:
-    * It is recommended to use Azure Resource Manager CLI commands instead for deploying log alert rules. 
-    * For details, see [sample log alert creation using Azure Resource Manager CLI command](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-using-powershell-cli-or-api).
+
+    * It is recommended to use Azure Resource Manager CLI commands instead for deploying log alert rules
+    * For details, see [sample log alert creation using Azure Resource Manager CLI command](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-using-powershell-cli-or-api)
 
 4. Review if you have appropriate permissions. To create/update/delete log alerts:
-    * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
+
+    * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
 
 ## **Recommended Documents**
