@@ -1,21 +1,21 @@
 <properties
-    pageTitle="Billing and Payment Issues"
-    description="Billing and Payment Issues"
-    ms.author="prdasneo"
-    authors="prdasneo"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32454856,32632936"
-    productPesIds="15659"
-    articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
-    cloudEnvironments="public"
-    schemaVersion="1"
+	pageTitle="Make Immediate Payment"
+	description="Make Immediate Payment"
+	articleId="payment-makeimmediatepaymentproblemscopingquestions"
+	ms.author="prdasneo"
+	authors="prdasneo"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32632937"
+	productPesIds="15659"
+	cloudEnvironments="public"
+	schemaVersion="1"
 />
 
-# Billing and Payment Issues
+# Make Immediate Payment
 ---
 {
   "resourceRequired": false,
-  "title": "Issues with Billing and Payment",
+  "title": "Make Immediate Payment",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -66,8 +66,8 @@
       "order": 5,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
-      "displayLabel": "Notifications received (if applicable)",
-      "watermarkText": "Provide any notifications received regarding billing and payment issues",
+      "displayLabel": "Reason for immediate payment",
+      "watermarkText": "Provide the reason for immediate payment",
       "required": true
     }
   ]

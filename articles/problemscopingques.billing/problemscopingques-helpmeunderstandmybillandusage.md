@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Billing API"
-	description="Billing API"
-	articleId="billingapi"
+	pageTitle="Help Me Understand My Bill and Usage"
+	description="Help Me Understand My Bill and Usage"
+	articleId="assistancewithbillandusage-helpmeunderstandmybillandusage-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599495"
+	supportTopicIds="32454860, 32632935"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
 
-# Billing API
+#  Help Me Understand My Bill and Usage
 ---
 {
   "resourceRequired": false,
-  "title": "Billing API",
+  "title": "Help Me Understand My Bill and Usage",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -23,37 +23,28 @@
       "visibility": null,
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "Problem start time",
+      "displayLabel": "Problem Start Date",
       "required": true
     },
     {
-      "id": "subscriptionid_details",
+      "id": "invoiceid_details",
       "order": 2,
       "controlType": "textbox",
       "useAsAdditionalDetails": true,
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide your Subscription id",
-      "required": true
-    },
-    {
-      "id": "emailid_details",
-      "order": 3,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email ID accessing the data",
-      "watermarkText": "Provide the email id accessing the data",
+      "displayLabel": "Invoice # (if applicable)",
+      "watermarkText": "Provide your Invoice #",
       "required": true
     },
     {
       "id": "problem_description",
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
-      "displayLabel": "Additional details",
+      "displayLabel": "Please provide details about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Error Message"
+          "text": "Describe your problem, providing as much detail as possible."
         }
       ]
     }

@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Request a Copy of My Bill and Usage"
-	description="Request a Copy of My Bill and Usage"
-	articleId="needacopyofmybillandusage"
+	pageTitle="Azure Subscriptions and Services"
+	description="Azure Subscriptions and Services"
+	articleId="pricing-azuresubscriptionsandservicesscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454862,32632939"
+	supportTopicIds="32632933"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
 
-# Request a Copy of My Bill and Usage
+# Pricing -Azure Subscriptions and Services
 ---
 {
   "resourceRequired": false,
-  "title": "Request a Copy of My Bill and Usage",
+  "title": "Azure Subscriptions and Services",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,24 +27,18 @@
       "required": true
     },
     {
-      "id": "emailid_details",
-      "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email ID used to download report",
-      "watermarkText": "Provide the Email ID used to download report",
-      "required": true
-    },
-    {
       "id": "problem_description",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
-      "displayLabel": "Error message (if applicable)",
+      "displayLabel": "Please provide details about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
           "text": "Describe your problem, providing as much detail as possible."
+        },
+        {
+          "text": "Know more about Azure pricing -  <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
         }
       ]
     }

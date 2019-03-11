@@ -1,21 +1,20 @@
 <properties
-	pageTitle="Billing API"
-	description="Billing API"
-	articleId="billingapi"
+	pageTitle="Add Edit VAT TAX ID or PO Number"
+	description="Add Edit VAT TAX ID or PO Number"
+	articleId="addeditvattaxidorponumber-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599495"
+	supportTopicIds="32632927"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
-# Billing API
+#  Add Edit VAT TAX ID or PO Number
 ---
 {
   "resourceRequired": false,
-  "title": "Billing API",
+  "title": "Add Edit VAT TAX ID or PO Number",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -23,37 +22,28 @@
       "visibility": null,
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "Problem start time",
+      "displayLabel": "Problem Start Date",
       "required": true
     },
     {
-      "id": "subscriptionid_details",
+      "id": "taxid_details",
       "order": 2,
       "controlType": "textbox",
       "useAsAdditionalDetails": true,
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide your Subscription id",
-      "required": true
-    },
-    {
-      "id": "emailid_details",
-      "order": 3,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email ID accessing the data",
-      "watermarkText": "Provide the email id accessing the data",
+      "displayLabel": "VAT, TAX ID or PO Number",
+      "watermarkText": "Provide your VAT, TAX ID or PO Number",
       "required": true
     },
     {
       "id": "problem_description",
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
-      "displayLabel": "Additional details",
+      "displayLabel": "Please provide details about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Error Message"
+          "text": "Describe your problem, providing as much detail as possible."
         }
       ]
     }

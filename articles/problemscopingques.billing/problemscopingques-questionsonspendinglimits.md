@@ -1,21 +1,20 @@
 <properties
-	pageTitle="Billing API"
-	description="Billing API"
-	articleId="billingapi"
+	pageTitle="Questions on Spending Limits"
+	description="Questions on Spending Limits"
+	articleId="assistancewithbillandusage-questionsonspendinglimits-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599495"
+	supportTopicIds="32632938"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
-# Billing API
+#  Questions on Spending Limits
 ---
 {
   "resourceRequired": false,
-  "title": "Billing API",
+  "title": "Questions on Spending Limits",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -23,7 +22,7 @@
       "visibility": null,
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "Problem start time",
+      "displayLabel": "Problem Start Date",
       "required": true
     },
     {
@@ -32,28 +31,19 @@
       "controlType": "textbox",
       "useAsAdditionalDetails": true,
       "displayLabel": "Subscription ID",
-      "watermarkText": "Provide your Subscription id",
-      "required": true
-    },
-    {
-      "id": "emailid_details",
-      "order": 3,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email ID accessing the data",
-      "watermarkText": "Provide the email id accessing the data",
+      "watermarkText": "Provide your Subscription ID",
       "required": true
     },
     {
       "id": "problem_description",
-      "order": 4,
+      "order": 3,
       "controlType": "multilinetextbox",
-      "displayLabel": "Additional details",
+      "displayLabel": "Error message (if any)",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
-          "text": "Error Message"
+          "text": "Describe your problem, providing as much detail as possible."
         }
       ]
     }

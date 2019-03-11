@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Request a Copy of My Bill and Usage"
-	description="Request a Copy of My Bill and Usage"
-	articleId="needacopyofmybillandusage"
+	pageTitle="Supported Payment Instruments and currencies"
+	description="Supported Payment Instruments and currencies"
+	articleId="payment-supportedpaymentinstrumentsandcurrenciesproblemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454862,32632939"
+	supportTopicIds="32454870,32632940"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
 
-# Request a Copy of My Bill and Usage
+# Pricing -Supported Payment Instruments and currencies
 ---
 {
   "resourceRequired": false,
-  "title": "Request a Copy of My Bill and Usage",
+  "title": "Supported Payment Instruments and currencies",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,24 +27,18 @@
       "required": true
     },
     {
-      "id": "emailid_details",
-      "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Email ID used to download report",
-      "watermarkText": "Provide the Email ID used to download report",
-      "required": true
-    },
-    {
       "id": "problem_description",
-      "order": 3,
+      "order": 2,
       "controlType": "multilinetextbox",
-      "displayLabel": "Error message (if applicable)",
+      "displayLabel": "Please provide details about your issue",
       "required": true,
       "useAsAdditionalDetails": true,
       "hints": [
         {
           "text": "Describe your problem, providing as much detail as possible."
+        },
+        {
+         "text": "Know more about Supported Payment Instruments and currencies - <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
         }
       ]
     }
