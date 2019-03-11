@@ -38,7 +38,7 @@
 
 **Monitor backup Jobs and create Alerts/Notifications using Log Analytics**<br>
 
-Log Analytics currently supports Azure VM backups, MAB Agent and System Center DPM, for more information refere note in this [article](https://aka.ms/Create-Alert-LA)
+Log Analytics currently supports Azure VM backups, MAB Agent and System Center DPM, for more information refer note in this [article](https://aka.ms/Create-Alert-LA)
 
 - [How to create alerts using Log Analytics?](https://aka.ms/Create-Alert-LA)
 - [How to configure notifications for alerts generated using Log Analytics?](https://aka.ms/BKP-LA-Notification)
