@@ -3,13 +3,15 @@
 	description="My VM/Disk is slow"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="kasparks"
+	authors="kasparks,anandhms"
 	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public",
+	ms.author="anandh",
+	articleId="be0cbfcb-73a9-47af-895f-9f3466cdfac8"
 />
 
 # My VM/Disk is slow
