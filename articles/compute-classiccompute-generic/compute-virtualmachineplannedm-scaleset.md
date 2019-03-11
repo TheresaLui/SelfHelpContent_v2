@@ -25,6 +25,7 @@ To maintain the VM instances within the scale sets, planned maintenance is sched
 - Self-service window.
 
  This time period is when you can proactively start self-service maintenance. Be aware that self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.
+ 
 - Scheduled maintenance window.
 
  After the self-service window ends, Azure schedules a time in this window to apply the required maintenance to your VM (provided the work has not been already performed by self-service).<br>
