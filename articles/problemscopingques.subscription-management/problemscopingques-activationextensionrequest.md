@@ -1,22 +1,20 @@
 <properties
-	pageTitle="Switch to Another Offer"
-	description="Switch to Another Offer"
+	pageTitle="Scoping questions for Activation Extension Request"
+	description="Scoping questions for Activation Extension Request"
 	authors="prdasneo"
 	ms.author="prdasneo"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454938,32632959"
+          selfHelpType="problemScopingQuestions"
+	supportTopicIds="32632947"
 	productPesIds="15660"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="switchtoanotheroffer"
+	cloudEnvironments="public, MoonCake"
+    schemaVersion="1"
+   articleId="ActivationExtensionRequest-problemscopingquestion"
 />
-
-
-# Switch to Another Offer
+#  Activation Extension Request
 ---
 {
   "resourceRequired": false,
-  "title": "Switch to Another Offer",
+  "title": " Activation Extension Request",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,33 +25,55 @@
       "required": true
     },
     {
-      "id": "problem_description",
-      "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Provide a brief description of the issue",
-      "watermarkText": "Provide a brief description of the issue",
-      "useAsAdditionalDetails": true,
-      "required": true,
-      "hints": [
-        {
-          "text": "Note: The solution provided is limited to <a href='https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer'> Pay As You Go </a> only. To Convert to any other offer, please provide the below details:"
-        }
-      ]
-    },
-    {
       "id": "subscriptionid_details",
-      "order": 3,
+      "order": 2,
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide the Subscription ID",
       "required": true
     },
     {
-      "id": "offertype_details",
-      "order": 4,
+      "id": "requesttype_details",
+      "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Select the new Offer type to convert to",
-      "watermarkText": "Select the new Offer type to convert to",
+      "displayLabel": "Select the Request type",
+      "watermarkText": "Select the type of request",
+      "dropdownOptions": [
+        {
+          "value": "Activation Request",
+          "text": "Activation Request"
+        },
+        {
+          "value": "Extension Request",
+          "text": "Extension Request"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "requesttype_details1",
+      "order": 4,
+      "visibility": "requesttype_details == Activation Request",
+      "controlType": "multilinetextbox",
+      "displayLabel": "Error message encountered during activation (if applicable) ",
+      "watermarkText": "Provide the error message encountered during activation (if applicable)",
+      "required": true
+    },
+    {
+      "id": "requesttype_details2",
+      "order": 5,
+      "visibility": "requesttype_details == Extension Request",
+      "controlType": "textbox",
+      "displayLabel": "Please provide the extension period",
+      "watermarkText": " Provide the extension period",
+      "required": true
+    },
+    {
+      "id": "offertype_details",
+      "order": 6,
+      "controlType": "dropdown",
+      "displayLabel": "Select the Offer type",
+      "watermarkText": "Select the type of offer",
       "dropdownOptions": [
         {
           "value": "Action Pack",
@@ -112,11 +132,20 @@
     },
     {
       "id": "offertype_details2",
-      "order": 5,
+      "order": 7,
       "visibility": "offertype_details == Other",
       "controlType": "textbox",
       "displayLabel": " Provide the Offer Type",
       "watermarkText": "Provide the Offer Type",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 8,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide a brief description of the issue",
+      "watermarkText": "Provide a brief description of the issue",
+       "useAsAdditionalDetails": true,
       "required": true
     }
   ]

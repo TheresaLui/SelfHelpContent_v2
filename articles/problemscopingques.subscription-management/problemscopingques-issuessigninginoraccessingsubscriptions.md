@@ -1,21 +1,20 @@
 <properties
-	pageTitle="Request for Cancellation of a Subscription"
-	description="Request for Cancellation of a Subscription"
-	articleId="requestforcancellationofasubscriptionazuresubscriptions"
+	pageTitle="Issues Signing In or Accessing My Subscriptions"
+	description="Issues Signing In or Accessing My Subscriptions"
+	articleId="issuessigninginoraccessingsubscriptions-problemscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32549156,32632949"
+	supportTopicIds="32454922,32632953"
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-
-# Azure Subscription Cancellation
+# Issues Signing In or Accessing My Subscriptions
 ---
 {
   "resourceRequired": false,
-  "title": "Purchase Issues - Azure Subscriptions",
+  "title": "Issues Signing In or Accessing My Subscriptions",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -26,16 +25,31 @@
       "required": true
     },
     {
-      "id": "reason_description",
+      "id": "subscriptionid_details",
       "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Reason for cancellation/switching/re-enabling",
-      "watermarkText": "Provide the reason for cancellation/switching/re-enabling",
+      "controlType": "textbox",
+      "displayLabel": "Subscription ID",
+      "watermarkText": "Provide the Subscription ID",
+      "required": true
+    },
+    {
+      "id": "emailid_details",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Email ID signing in/accessing the subscription",
+      "watermarkText": "Provide the Email ID signing in/accessing the subscription",
+      "required": true
+    },
+    {
+      "id": "login_date",
+      "order": 4,
+      "controlType": "datetimepicker",
+      "displayLabel": "Last login date\/time",
       "required": true
     },
     {
       "id": "browser_details1",
-      "order": 3,
+      "order": 5,
       "controlType": "dropdown",
       "displayLabel": "Browser Information",
       "watermarkText": "Choose the browser",
@@ -69,35 +83,27 @@
     },
     {
       "id": "browser_details2",
-      "order": 4,
+      "order": 6,
       "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
       "required": true
     },
     {
-      "id": "error_description",
-      "order": 5,
+      "id": "error_details",
+      "order": 7,
       "controlType": "multilinetextbox",
-      "displayLabel": "Error message (if any) encountered ",
-      "watermarkText": "Provide the error message encountered",
-      "required": true
-    },
-    {
-      "id": "email_description",
-      "order": 6,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Email notification received (if applicable) about subscription suspension",
-      "watermarkText": "Provide the email notification received about subscription suspension",
+      "displayLabel": "Error message/Screenshot of the error ",
+      "watermarkText": "Provide the error message/Screenshot of the error ",
       "required": true
     },
     {
       "id": "problem_description",
-      "order": 7,
+      "order": 8,
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
-      "displayLabel": "Browser network trace\/Additional details (if any)",
-      "watermarkText": "Provide the browser network trace or any other additional relevant details",
+      "displayLabel": "Browser network trace or any other details (if applicable)",
+      "watermarkText": "Provide the browser network trace or any additional information about your issue",
       "required": true,
       "hints": [
         {
@@ -105,6 +111,6 @@
         }
       ]
     }
-  ]
+      ]
 }
 ---

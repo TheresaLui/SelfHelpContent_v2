@@ -1,22 +1,20 @@
 <properties
-	pageTitle="Switch to Another Offer"
-	description="Switch to Another Offer"
+	pageTitle="Scoping questions for Entitlement Check and Other Issues"
+	description="Scoping questions for Entitlement Check and Other Issues"
 	authors="prdasneo"
 	ms.author="prdasneo"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454938,32632959"
+          selfHelpType="problemScopingQuestions"
+	supportTopicIds="32632951,32632957"
 	productPesIds="15660"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="switchtoanotheroffer"
+	cloudEnvironments="public, MoonCake"
+    schemaVersion="1"
+   articleId="EntitlementCheckandOtherIssue-problemscopingquestion"
 />
-
-
-# Switch to Another Offer
+#  Entitlement Check and Other Issues
 ---
 {
   "resourceRequired": false,
-  "title": "Switch to Another Offer",
+  "title": "Entitlement Check and Other Issues",
   "fileAttachmentHint": "",
   "formElements": [
     {
@@ -27,22 +25,8 @@
       "required": true
     },
     {
-      "id": "problem_description",
-      "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Provide a brief description of the issue",
-      "watermarkText": "Provide a brief description of the issue",
-      "useAsAdditionalDetails": true,
-      "required": true,
-      "hints": [
-        {
-          "text": "Note: The solution provided is limited to <a href='https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer'> Pay As You Go </a> only. To Convert to any other offer, please provide the below details:"
-        }
-      ]
-    },
-    {
       "id": "subscriptionid_details",
-      "order": 3,
+      "order": 2,
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide the Subscription ID",
@@ -50,10 +34,10 @@
     },
     {
       "id": "offertype_details",
-      "order": 4,
+      "order": 3,
       "controlType": "dropdown",
-      "displayLabel": "Select the new Offer type to convert to",
-      "watermarkText": "Select the new Offer type to convert to",
+      "displayLabel": "Select the Offer type",
+      "watermarkText": "Select the type of offer",
       "dropdownOptions": [
         {
           "value": "Action Pack",
@@ -112,11 +96,20 @@
     },
     {
       "id": "offertype_details2",
-      "order": 5,
+      "order": 4,
       "visibility": "offertype_details == Other",
       "controlType": "textbox",
       "displayLabel": " Provide the Offer Type",
       "watermarkText": "Provide the Offer Type",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Provide a brief description of the issue",
+      "watermarkText": "Provide a brief description of the issue",
+       "useAsAdditionalDetails": true,
       "required": true
     }
   ]
