@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="2a1cd9ef-0e9c-4c92-a8b8-4ab4c1650ac2"
 />
 
 # Import MongoDB data into CosmosDB

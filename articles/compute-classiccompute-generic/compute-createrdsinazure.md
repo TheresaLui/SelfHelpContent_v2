@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="70aa7b91-9f9e-4fc6-9a7b-e083bfa28e84"
 />
 
 # configuration and setup/create rds in azure

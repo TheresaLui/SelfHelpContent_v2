@@ -1,6 +1,6 @@
 ﻿<properties
-pageTitle="Unable to create Storage Account with the same name as deleted account"
-description="Deleted Storage Account with the same name has not been GC"
+pageTitle="Unable to create storage account with the same name as deleted account"
+description="Deleted storage account with the same name has not been GC"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
@@ -14,8 +14,9 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Unable to create Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
+# Unable to create storage account with the same name as recently deleted account
 
 <!--issueDescription-->
-Unable to create Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at this time because another Storage Account with the same name was recently deleted. You can either create a Storage Account with a different name now or wait up to 14 days for our system to clean up deleted Storage Account and retry the account creation.
+Another storage account with the name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was recently deleted and is blocking account creation. [Storage account name must be unique](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors#cause), so a new storage account with the same name cannot be created until after the old account has been cleaned up in the backend. This cleanup can take up to 14 days, but we have now triggered force cleanup of the deleted account when you submitted this support case which usually completes in 3 hours. You can either retry account creation with the same name after _<!--$FastGCApproxEndTime-->[FastGCApproxEndTime]<!--/$FastGCApproxEndTime--> UTC_ or create a new storage account with a different name now.
+
 <!--/issueDescription-->

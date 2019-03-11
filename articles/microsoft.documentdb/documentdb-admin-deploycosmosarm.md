@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="7b6212d4-8979-4581-b971-ecabab2ebf16"
 />
 # Deploy Azure Cosmos DB using Azure Resource Manager template
 

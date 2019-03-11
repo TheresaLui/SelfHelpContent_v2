@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="f031f747-a865-4409-8cf8-e9be297abff6"
 />
 
 # errors and exceptions/can't create or delete namespace

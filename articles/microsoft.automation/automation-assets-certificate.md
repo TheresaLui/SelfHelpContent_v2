@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Assets - Certificates"
-    description="Azure Automation - Assets - Certificates"
+    pageTitle="Azure Automation - Shared Resources - Certificates"
+    description="Azure Automation - Shared Resources - Certificates"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -10,10 +10,12 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="ca1785e9-8f53-4796-ba63-b07c32456775"
 />
 
-# Azure Automation - Assets - Certificates
+# Azure Automation - Shared Resources - Certificates
 
 ## **Recommended documents**
-[Certificate assets in Azure Automation](https://docs.microsoft.com/azure/automation/automation-certificates)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Certificates in Azure Automation](https://docs.microsoft.com/azure/automation/automation-certificates)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

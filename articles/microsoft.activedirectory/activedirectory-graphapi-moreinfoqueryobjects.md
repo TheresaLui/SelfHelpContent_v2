@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="9ec0e3fb-2a39-4cdb-847b-a6e353c9d4fe"
 />
 
 # Where can I find more information on querying objects in Microsoft Graph?

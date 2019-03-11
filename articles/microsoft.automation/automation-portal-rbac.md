@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Automation - Portal - RBAC"
-    description="Azure Automation - Portal - RBAC"
+    pageTitle="Azure Automation - RBAC"
+    description="Azure Automation - RBAC"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="csand-msft"
@@ -10,10 +10,12 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="e1d6bdc5-4573-47f8-afd4-1b2b361a6c85"
 />
 
-# Azure Automation - Portal - RBAC
+# Azure Automation - RBAC
 
 ## **Recommended documents**
-[Role-based access control in Automation](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)<br>
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[How to] [Role-based access control in Automation](https://docs.microsoft.com/azure/automation/automation-role-based-access-control)<br>
+<br>
+[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

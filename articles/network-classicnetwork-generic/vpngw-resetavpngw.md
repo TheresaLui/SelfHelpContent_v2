@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="47b0504a-bbb3-4483-8bb6-172bab2fe564"
 />
 
 # Reset a VPN Gateway

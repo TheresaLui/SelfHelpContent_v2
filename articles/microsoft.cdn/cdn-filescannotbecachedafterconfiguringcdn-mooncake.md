@@ -10,6 +10,7 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="a34ce91e-45ec-487b-ba38-b1c2c9d6a560"
 />
 
 # Files cannot be cached after configuring CDN

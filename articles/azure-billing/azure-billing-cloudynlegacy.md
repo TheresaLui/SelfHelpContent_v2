@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="6aacf50f-d3f3-4ff9-829a-eba5dc2fad94"
 />
 
 # Cloudyn Legacy

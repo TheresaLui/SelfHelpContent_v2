@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="ac9dba6c-5eaf-4006-8f07-2fbec177adc3"
 />
 
 # I need to purchase or upgrade my subscription

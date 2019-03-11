@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="6365bccc-8864-4f10-a133-1acc5fb026b9"
 />
 
 # Cost Analysis or Scope functionality

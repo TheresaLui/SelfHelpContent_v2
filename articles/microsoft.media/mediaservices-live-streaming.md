@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="67647a3f-e710-4a1d-a5a9-39e9e3553e30"
+/>
 
 # How to configure live streaming?
 

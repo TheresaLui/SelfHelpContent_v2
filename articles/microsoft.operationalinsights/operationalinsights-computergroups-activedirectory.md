@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="dcdde59c-683c-452a-baf9-96e10b9507ec"
 />
 
 # computergroups-activedirectory

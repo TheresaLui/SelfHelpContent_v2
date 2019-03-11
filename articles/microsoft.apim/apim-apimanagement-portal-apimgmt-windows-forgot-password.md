@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="6c15d30a-b68d-4118-a4fe-a83d1bd54d3d"
 />
 
 # Forgot Password

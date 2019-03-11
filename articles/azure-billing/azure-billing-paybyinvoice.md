@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="d368cadf-356f-4228-a167-d462e681ad80"
 />
 
 # Pay by Invoice

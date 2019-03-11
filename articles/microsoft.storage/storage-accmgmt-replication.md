@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="635333bf-d175-4af9-a768-ff88317be520"
 />
 
 # Which account replication type to use

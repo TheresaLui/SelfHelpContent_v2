@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="153005d9-c1e9-47ff-8e75-e7516b318b06"
 />
 
 # Manage Software Updates - Windows 10 Update Rings

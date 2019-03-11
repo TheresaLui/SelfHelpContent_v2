@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="3f6e0e7b-fe81-4889-b784-405931d8f772"
 />
 
 # I need to change my subscription type or offer

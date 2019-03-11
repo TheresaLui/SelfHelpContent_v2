@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15400,15797"
 	cloudEnvironments="public"
+	articleId="b5bb9add-6c52-44db-919a-f25f6a0cd29c"
 />
 
 # traffic routing

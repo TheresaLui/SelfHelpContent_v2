@@ -4,19 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	displayOrder="10"
+	ms.author="scotro"
+	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32411877,32511162"
+	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
+	articleId="55e5b484-ddbe-497f-bd1d-9adcb30216f8"
 />
 
 # My VM is slow
 
-## **Recommended steps**
+Try the following steps to diagnose and mitigate VM performance issues.<br>
 
-Try the following steps to diagnose and mitigate VM performance issues:
+## **Recommended Steps**
 
 1. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
 2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>
@@ -30,6 +32,6 @@ Try the following steps to diagnose and mitigate VM performance issues:
 7. Consider using [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://docs.azure.cn/storage/storage-premium-storage/) if its an I/O intensive use-case <br>
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Detailed troubleshooting of Azure Storage](https://docs.azure.cn/storage/storage-monitoring-diagnosing-troubleshooting/)
+* [Detailed troubleshooting of Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)

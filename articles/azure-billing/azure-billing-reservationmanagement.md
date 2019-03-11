@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9538199f-fc1d-4bcd-b039-6d69637f0a8f"
 />
 
 # Reservation Management

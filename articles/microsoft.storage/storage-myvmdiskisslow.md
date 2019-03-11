@@ -9,9 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public",
-	ms.author="anandh",
-	articleId="be0cbfcb-73a9-47af-895f-9f3466cdfac8"
+	ms.author="anandh"
+	cloudEnvironments="public"
+	articleId="9eaa3031-fa68-4ac8-b65c-e433e4d0bc33"
 />
 
 # My VM/Disk is slow

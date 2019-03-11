@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="0c389b68-1f54-4782-93be-ddfd0626eed4"
 />
 
 # I want to configure federation with Azure AD using a third party federation solution

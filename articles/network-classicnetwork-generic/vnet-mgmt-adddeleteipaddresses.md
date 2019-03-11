@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="a8d8b692-36e7-450b-93bd-c9270358a688"
 />
 
 # management/addordeleteipaddressestoavnet

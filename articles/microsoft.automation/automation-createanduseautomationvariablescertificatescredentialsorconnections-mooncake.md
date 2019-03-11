@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="61f830b7-ee1b-4cde-ad6a-55728b6915bc"
 />
 
 # Create and use Automation variables, certificates, credentials, or connections

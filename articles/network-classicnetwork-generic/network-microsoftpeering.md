@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="7dfed5ae-3677-466e-8b20-93e845746302"
 />
 
 # Connectivity/Microsoft Peering

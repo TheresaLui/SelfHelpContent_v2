@@ -9,11 +9,12 @@
 	supportTopicIds="32574334"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="4eb6dbdf-ba76-4ed0-9919-21fcd0ab8d80"
 />
 
 # security/tde
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [TDE support overview](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017/)<br>
 * [TDE with Azure Key Vault](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql?view=sql-server-2017/)

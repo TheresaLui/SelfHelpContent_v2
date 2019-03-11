@@ -10,20 +10,21 @@
 	resourceTags="servers, databases"
 	productPesIds="13491"
 	cloudEnvironments="MoonCake"
+	articleId="019b47bd-d8fc-4e7e-86b3-e6a35d44ad50"
 />
 
 # Connection issues to SQL Azure DB
 
-## **Recommended steps**
-Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
+## **Recommended Steps**
 
-* Set up firewall rules to allow the client IP address.<br>
-[Configure SQL Azure firewall rules](https://docs.azure.cn/sql-database/sql-database-configure-firewall-settings/)
-* Follow connection recommendations on computers that host your client program<br>
-[Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations)
-* Fix incorrect connection strings in your application.<br>
-[Connection strings to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-connectivity-issues/#connections-to-azure-sql-database)
+Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string, and other causes.
 
-## **Recommended documents**
-[Troubleshoot common connectivity issues to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)<br>
-[Connecting to SQL Database: Best Practices and Design Guidelines](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)
+* [Configure SQL Azure firewall rules](https://docs.azure.cn/sql-database/sql-database-configure-firewall-settings/)
+to allow the client IP address
+* Follow [Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations) on computers that host your client program<br>
+* Fix incorrect [connection strings to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-connectivity-issues/#connections-to-azure-sql-database) in your application.<br>
+
+## **Recommended Documents**
+
+* [Troubleshoot common connectivity issues to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)

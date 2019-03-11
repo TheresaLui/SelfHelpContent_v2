@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="22ed32dc-f9d6-4ed9-acd5-dc0c2460c70a"
 />
 
 # performance/sql query is slow
