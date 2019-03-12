@@ -25,13 +25,16 @@
 If you believe your activity log alert shouldn't have triggered but it did, the following steps might help resolve the issue.
 
 1. Review if your activity log alert rule condition is too broad for what you want to monitor:
+
     * For each Azure operation (as defined by an Operation Name), there are multiple events in your activity logs with different status such as "Started", "Succeeded" or "Failed"
     * If your alert has any of the fields set to match multiple values or All, you will receive multiple alerts - one for each event matched
 
 2. Review your activity log alert rule to check if the resource scope matches your intended resource:
+
     * Activity log alerts can also be set at resource group or subscription level, which could trigger the alert for when any resource in the resource group or subscription has matching activity logs
 
 3. Review your activity logs for events that might match the condition in your alert rule:
+
     1. Go to [activity logs in Azure Monitor](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/activityLog)
     2. Filter to the resource, resource group, or subscription for which your alert was triggered (you can get this information from your alert email or under [alerts in Azure Monitor](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2))
     3. Filter to around the time you saw the issue

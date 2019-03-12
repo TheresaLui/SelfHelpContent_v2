@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013"
+	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013,32599859,32599904,32599922,32628015"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -16,7 +16,7 @@
 	"resourceRequired": true,
 	"title": "Runbook failure",
 	"fileAttachmentHint": "",
-    "formElements": 
+    "formElements":
     [
         {
 			"id": "runbook selection",
@@ -24,7 +24,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Select the runbook that has the problem",
 			"watermarkText": "Choose a runbook",
-            "dynamicDropdownOptions": 
+            "dynamicDropdownOptions":
             {
 			    "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Automation/automationAccounts/{resourcename}/runbooks?api-version=2017-05-15-preview",
 			    "jTokenPath": "value",
@@ -33,32 +33,32 @@
 			    "textPropertyRegex": "[^/]+$"
 			},
 			"required": true
-        }, 
+        },
         {
 			"id": "problem_start_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-        }, 
+        },
         {
 			"id": "previously successful",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Has this runbook successfully run in Azure Automation before?",
-            "dropdownOptions": 
+            "dropdownOptions":
         [
             {
                 "value": "Yes",
                 "text": "Yes, this runbook has successfully run in Azure Automation before"
-            }, 
+            },
             {
                 "value": "No",
                 "text": "No, this runbook has never successfully run in Azure Automation"
             }
 			],
 			"required": false
-        }, 
+        },
         {
 			"id": "problem_description",
 			"order": 5,
@@ -67,13 +67,14 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-            "hints": 
+            "hints":
             [
                 {
-					"text": "Paste in the exact text of any errors that occured."
+					"text": "Paste in the exact text of any errors that occurred."
 				}
 			]
-		}, {
+		},
+		{
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
