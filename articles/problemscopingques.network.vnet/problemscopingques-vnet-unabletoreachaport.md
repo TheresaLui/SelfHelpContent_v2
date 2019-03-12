@@ -32,6 +32,14 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
+                        "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of Virtual Machines",
+                    "text": "Unable to get the list of Virtual Machines"
+                }
+            ],
+            "required": false
+        },
             {
             "id": "port number",
             "order": 2,
