@@ -24,4 +24,4 @@
 - [Monitor backup jobs for Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#monitor-jobs)
 - [Stop protecting an Azure File share](https://docs.microsoft.com/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share)
 - [Resume protection for Azure File share in case stopped protection with retain backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#resume-protection-for-azure-file-share)
-- [Delete backed-up data](https://docs.microsoft.com/azure/backup/backup-azure-files#delete-backup-data)
+- [Delete backup data](https://docs.microsoft.com/azure/backup/backup-azure-files#delete-backup-data)
