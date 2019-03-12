@@ -25,5 +25,5 @@ Plans are groupings of one or more services. As a service provider, you can crea
 
 ## **Recommended documents**
 
-[Plan, offer, quota, and subscription overview](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-plan-offer-quota-overview)<br>
-[Key features and concepts in Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-key-features)
+[Plan, offer, quota, and subscription overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-plan-offer-quota-overview)<br>
+[Key features and concepts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-key-features)

@@ -27,5 +27,5 @@ Offers are groups of one or more plans that providers present to users to buy or
 
 ## **Recommended documents**
 
-[Plan, offer, quota, and subscription overview](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-plan-offer-quota-overview)<br>
-[Key features and concepts in Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-key-features)
+[Plan, offer, quota, and subscription overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-plan-offer-quota-overview)<br>
+[Key features and concepts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-key-features)

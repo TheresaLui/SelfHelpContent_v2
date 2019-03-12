@@ -20,9 +20,9 @@ Quotas define the limits of resources that a user subscription can provision or 
 ## **Recommended steps**
 
 1. You can [view an existing quota](https://docs.microsoft.com/azure/azure-stack/azure-stack-quota-types#view-an-existing-quota) under a plan or associated resource provider in the Administration portal
-2. [Edit a quota](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-quota-types#edit-a-quota) under plans or resource provider, or [edit original configuration](https://docs.microsoft.com/azure/azure-stack/azure-stack-quota-types#edit-original-configuration) to apply globally
+2. [Edit a quota](https://docs.microsoft.com/azure/azure-stack/azure-stack-quota-types#edit-a-quota) under plans or resource provider, or [edit original configuration](https://docs.microsoft.com/azure/azure-stack/azure-stack-quota-types#edit-original-configuration) to apply globally
 
 ## **Recommended documents**
 
 [Plan, offer, quota, and subscription overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-plan-offer-quota-overview)<br>
-[Key features and concepts in Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-key-features)
+[Key features and concepts in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-key-features)
