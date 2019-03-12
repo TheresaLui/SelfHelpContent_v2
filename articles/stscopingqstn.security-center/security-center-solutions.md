@@ -41,7 +41,7 @@
 
 **How-To and Advisory Information**
 
-- [Azure Security Center Pricing Teirs](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Azure Security Center Readiness Roadmap](https://docs.microsoft.com/azure/security-center/security-center-readiness-roadmap)
 - [Check out our latest Azure Security Center updates](https://azure.microsoft.com/updates/?product=security-center)
 
