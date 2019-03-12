@@ -27,7 +27,7 @@
 **Common Networking Recommendations**
 
 - [Enable Network Security Groups ](https://docs.microsoft.com/azure/security-center/security-center-enable-network-security-groups)
-- [Restrict access through Internet-facing endpoints ](https://docs.microsoft.com/azure/security-center/security-center-restrict-access-through-internet-facing-endpoints)
+- [Restrict access through Internet-facing endpoints](https://docs.microsoft.com/azure/security-center/security-center-restrict-access-through-internet-facing-endpoints)
 - [Route traffic through NGFW only](https://docs.microsoft.com/azure/security-center/security-center-add-next-generation-firewall#route-traffic-through-ngfw-only)
 
 **Troubleshooting**
