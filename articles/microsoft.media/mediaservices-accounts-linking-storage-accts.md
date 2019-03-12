@@ -42,7 +42,7 @@ The Media Services account and all associated storage accounts must be in the sa
 	az ams account storage add -h
 ```
 
-3. To remove a "secondary" storage acocunt, use the following CLI command to see the options:
+3. To remove a "secondary" storage account, use the following CLI command to see the options:
    
 ```
 	az ams account storage remove -h
