@@ -83,14 +83,6 @@
                                 {"value": "No", "text": "No"}],
             "required": true
         },
-        {   "id": "onprem_config_script_yes",
-            "order": 6,
-            "visibility": "onprem_config_script == Yes",
-            "controlType": "textbox",
-            "displayLabel": "Please list the device configuration script used",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
         {   "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
