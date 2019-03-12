@@ -59,7 +59,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{"value": "IKEv2", "text": "IPsec"},
+            "dropdownOptions": [{"value": "IKEv2", "text": "IKEv2"},
 	    			{"value": "OpenVPN", "text": "OpenVPN"},
 				{"value": "SSTP", "text": "SSTP"}],
             "required": true
