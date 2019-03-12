@@ -30,7 +30,7 @@
 
 **How-To and Advisory Information**
 
-- [ASC Pricing Teirs](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [ASC Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Azure Security Center Readiness Roadmap](https://docs.microsoft.com/azure/security-center/security-center-readiness-roadmap)
 - [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
 - [ASC REST API](https://docs.microsoft.com/rest/api/securitycenter/)
