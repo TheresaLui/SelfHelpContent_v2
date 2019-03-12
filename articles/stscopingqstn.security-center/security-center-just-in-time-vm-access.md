@@ -25,7 +25,7 @@
 
 **FAQ**
 
-- [Azure Security Center  FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
+- [Azure Security Center FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
 
 **How-To and Advisory Information**
 
