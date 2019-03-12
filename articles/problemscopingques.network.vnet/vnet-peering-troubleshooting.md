@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VNET Peering Troubleshooting"
-	description="VNET Peering Troubleshooting"
+	pageTitle="Cannot Connect to a VM in a peered VNet"
+	description="Cannot Connect to a VM in a peered VNet"
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
 	articleid="cannotconnectVMinapeeredVNET"
@@ -9,7 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VNET Peering Troubleshooting
+# Cannot Connect to a VM in a peered VNet
 ---
 {
     "resourceRequired": true,
