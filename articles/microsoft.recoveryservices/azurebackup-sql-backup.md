@@ -28,5 +28,5 @@
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](https://aka.ms/AB-AA4dwuc)</br>
-- [Troubleshooting issues related to backup SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
+- [Frequently asked questions](https://aka.ms/AB-AA4dwuc)<br>
+- [Troubleshooting issues related to backup SQL Server to Azure](https://aka.ms/AB-AA4dwud)<br>
