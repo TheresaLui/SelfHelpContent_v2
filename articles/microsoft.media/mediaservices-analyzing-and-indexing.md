@@ -18,7 +18,7 @@
 
 # Azure Media Services analyzing and indexing files
 
-Azure Media Services enables you to extract insights from your video and audio files with Video Indexer through AMS v3 analyzer presets. If you want more detailed insights, use the [Video Indexer APIs](https://api-portal.videoindexer.ai/) directly. To understand when you would want to use Video Indexer vs. Media Services analyzer presets, check out the comparison document.
+Azure Media Services enables you to extract insights from your video and audio files with Video Indexer through AMS v3 analyzer presets. If you want more detailed insights, use the [Video Indexer APIs](https://api-portal.videoindexer.ai/) directly. To understand when you would want to use Video Indexer vs. Media Services analyzer presets, check out the [comparison document](https://docs.microsoft.com/azure/media-services/video-indexer/compare-video-indexer-with-media-services-presets).
 
 
 ## Steps to analyze your video and audio files in Azure Media Services
