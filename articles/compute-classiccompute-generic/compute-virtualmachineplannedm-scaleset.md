@@ -22,13 +22,9 @@ Azure conducts planned maintenance on virtual machine scale sets. To maintain th
 
 To maintain the VM instances within the scale sets, planned maintenance is scheduled in waves. A wave starts with a notification to a subscription owner and co-owners. This notification defines a schedule with two time windows:
 
-- Self-service window
-
-This time period is when you can proactively start self-service maintenance. Be aware that self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.<br>
+- **Self-service window** - This time period is when you can proactively start self-service maintenance. Be aware that self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.
  
-- Scheduled maintenance window
-
-After the self-service window ends, Azure schedules a time in this window to apply the required maintenance to your VM (provided the work has not been already performed by self-service).<br>
+- **Scheduled maintenance window** - After the self-service window ends, Azure schedules a time in this window to apply the required maintenance to your VM (provided the work has not been already performed by self-service).<br>
 
 If you don't see notifications, it could due to of the following reasons:
 
