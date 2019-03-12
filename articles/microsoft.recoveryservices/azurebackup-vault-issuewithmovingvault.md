@@ -23,5 +23,6 @@
 - [How do I move a vault between subscriptions?](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
 - [How do I move a vault between Resource Groups?](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
 
-## **Recommended**
+## **Recommended Step**
+
 - Recovery Services vaults configured to use with Azure Site Recovery cannot be moved<br>
