@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-- If the restore operation is taking longer time then review the [restore considerations](https://aka.ms/AB-AA4ecqn)<br>
+- If the restore operation is taking more time than usual, review the [restore considerations](https://aka.ms/AB-AA4ecqn)<br>
 - [Frequently asked questions](https://aka.ms/AB-AA4e56n)
