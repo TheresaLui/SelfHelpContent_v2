@@ -21,9 +21,9 @@ cloudEnvironments="Public, Fairfax"
 
 The total ingestion time includes:
 
-* Azure resource time - The time it takes the resource to collect and send a log to Azure Monitor ingestion point, or storage for collection.
-* Pipeline time - The time for the ingestion pipeline to process the log record.
-* Indexing time - The time spent to ingest a log record into Azure Monitor big data store.<br>
+* Azure resource time: The time it takes the resource to collect and send a log to Azure Monitor ingestion point, or storage for collection
+* Pipeline time: The time for the ingestion pipeline to process the log record
+* Indexing time: The time spent to ingest a log record into Azure Monitor big data store
 
 ## **Recommended Steps**
 
