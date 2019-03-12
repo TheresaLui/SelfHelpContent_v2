@@ -22,5 +22,5 @@
 - [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://aka.ms/AB-transferred-backup-data)<br>
 - [Is there a limit on the amount of data backed up using a Recovery Services vault?](https://aka.ms/AB-data-backed-up)<br>
 - How to:
-	- [Delete old backup data from vault?](https://aka.ms/AB-retain-the-data)<br>
-	- [Determine the data source size?](https://aka.ms/aka.msAB-data-source-size)<br>
+	- [Delete old backup data from vault](https://aka.ms/AB-retain-the-data)<br>
+	- [Determine the data source size](https://aka.ms/aka.msAB-data-source-size)<br>
