@@ -32,14 +32,14 @@
 **Frequently Asked Questions**
 
 - How to:
-	- [Restore specific files or folders from Azure Virtual Machine backup?](https://aka.ms/AB-AA4e56a)<br>
+	- [Restore specific files or folders from Azure Virtual Machine backup](https://aka.ms/AB-AA4e56a)<br>
 	- Restore to latest or specific recovery point using [Portal](https://aka.ms/AB-AA4ecqx), [PowerShell](https://aka.ms/AB-AA4e56o)
-	- [Configure static IP address to restored VM?](https://aka.ms/AB-AA4e56r)<br>
-	- [Restore an Encrypted VM?](https://aka.ms/AB-AA4e56t)<br>
-	- [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault?](https://aka.ms/AB-AA4ecqr)<br>
-	- [Restore a Domain Controller VM?](https://aka.ms/AB-AA4e56v)<br>
-	- [Restore VM with special configurations?](https://aka.ms/AB-AA4e56v)<br>
-	- Attach an existing NIC to the restored VM?
+	- [Configure static IP address to restored VM](https://aka.ms/AB-AA4e56r)<br>
+	- [Restore an Encrypted VM](https://aka.ms/AB-AA4e56t)<br>
+	- [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault](https://aka.ms/AB-AA4ecqr)<br>
+	- [Restore a Domain Controller VM](https://aka.ms/AB-AA4e56v)<br>
+	- [Restore VM with special configurations](https://aka.ms/AB-AA4e56v)<br>
+	- Attach an existing NIC to the restored VM
 
 		- Step 1: [Remove from original VM](https://aka.ms/AB-AA4ecr0)<br>
 		- Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
@@ -56,5 +56,5 @@
 ## **Recommended Documents**
 
 - [Azure Virtual Machine restore troubleshooting guide](https://aka.ms/AB-AA4ecqi)<br>
-- [How to restore Azure Virtual Machine using portal?](https://aka.ms/AB-AA4e565)<br>
-- [How to restore Azure Virtual Machine using PowerShell?](https://aka.ms/AB-AA4e56z)<br>
+- [Restore Azure Virtual Machine using portal](https://aka.ms/AB-AA4e565)<br>
+- [Restore Azure Virtual Machine using PowerShell](https://aka.ms/AB-AA4e56z)<br>
