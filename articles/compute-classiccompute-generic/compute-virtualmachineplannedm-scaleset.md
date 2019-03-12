@@ -20,11 +20,10 @@
 
 Azure conducts planned maintenance on virtual machine scale sets. To maintain the host infrastructure, Azure uses in-place migration to apply updates across fault domains. VMs in the scale sets are paused while their hosts are updated. No notifications are sent for these operations.<br>
 
-To maintain the VM instances within the scale sets, planned maintenance is scheduled in waves. A wave starts with a notification to a subscription owner and co-owners. This notification defines a schedule with two time windows:
-
-1. **Self-service window**<br>
+To maintain the VM instances within the scale sets, planned maintenance is scheduled in waves. A wave starts with a notification to a subscription owner and co-owners. This notification defines a schedule with two time windows:<br>
+- **Self-service window**<br>
  This time period is when you can proactively start self-service maintenance. Be aware that self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.
-1. **Scheduled maintenance window**<br>
+- **Scheduled maintenance window**<br>
  After the self-service window ends, Azure schedules a time in this window to apply the required maintenance to your VM (provided the work has not been already performed by self-service).<br>
 
 If you don't see notifications, it could due to of the following reasons:
