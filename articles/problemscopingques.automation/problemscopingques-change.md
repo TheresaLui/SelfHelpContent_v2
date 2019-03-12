@@ -1,7 +1,7 @@
 <properties
-	articleId="problemscopingques-updatemgmt.md"
-	pageTitle="Azure Automation - Update Management"
-	description="Azure Automation - Update Management"
+	articleId="problemscopingques-change.md"
+	pageTitle="Azure Automation - Change Tracking and Inventory"
+	description="Azure Automation - Change Tracking and Inventory"
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
@@ -14,7 +14,7 @@
 ---
 {
 	"resourceRequired": true,
-	"title": "Change Tracking",
+	"title": "Change Tracking and Inventory",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements":
     [
