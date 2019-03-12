@@ -14,15 +14,19 @@
 />
 
 # User Verification! Hostname in certificate didn’t match
-When calling a Cognitive Service you receive an error about User Verification and the certification not matching.
+
+Issue: When calling a Cognitive Service you receive an error about User Verification and the certification not matching.
  
-An example of what the error reported looks like is:
-User Verification! hostname in certificate didn't match: <centralIndia.api.cognitive.microsoft.com> != <*.cognitiveservices.azure.com> OR <*.cognitiveservices.azure.com>
+An example of what the error reported looks like:
+
+        User Verification! hostname in certificate didn't match: <centralIndia.api.cognitive.microsoft.com> != <*.cognitiveservices.azure.com> OR <*.cognitiveservices.azure.com>
  
-“*.cognitiveservices.azure.com” is a domain name that was recently added for Cognitive Services. It is set to the default SSL binding certificate so if an SNI header is missing, API management will use the default certificate which is “*.cognitiveservices.azure.com” now.
+        “*.cognitiveservices.azure.com” is a domain name that was recently added for Cognitive Services. It is set to the default SSL binding certificate so if an SNI header is missing, API management will use the default certificate which is “*.cognitiveservices.azure.com” now.
  
 ## **Recommended Steps**
-You should change your SNI header to specify 'yourregion.api.cognitive.microsoft.com' domain for TLS/SSL handshakes going forward.  In the example error above it would be to use: centralIndia.api.cognitive.microsoft.com
+
+Change your SNI header to specify 'yourregion.api.cognitive.microsoft.com' domain for TLS/SSL handshakes going forward. In the example error, the correct syntax would be "centralIndia.api.cognitive.microsoft.com".
  
 ## **Recommended Documents**
-[How APIM Proxy Server responds with SSL certificates in the TLS handshake](https://docs.microsoft.com/azure/api-management/configure-custom-domain#clients-calling-without-sni-header)
+
+* [How APIM Proxy Server responds with SSL certificates in the TLS handshake](https://docs.microsoft.com/azure/api-management/configure-custom-domain#clients-calling-without-sni-header)
