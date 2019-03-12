@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Reccomendations Common Solutions"
-	description="Reccomendations Common Solutions"
+	pageTitle="Recomendations Common Solutions"
+	description="Recomendations Common Solutions"
     authors="genlin"
     ms.author="jaserano"
 	displayOrder=""
@@ -12,7 +12,7 @@
    	articleId="54aad42e-d1fd-4285-ab3b-c311ad3434f3"
 />
 
-# Reccomendations Common Solutions
+# Common Solution Recommendations
 
 ## **Recommended Documents**
 
