@@ -16,11 +16,11 @@
 
 ## **Recommended Documents**
 
-- [Protecting your machines and applications in Azure Security Center]https://docs.microsoft.com/azure/security-center/security-center-virtual-machine-protection 
-- [Protect App Service with Azure Security Center]https://docs.microsoft.com/azure/security-center/security-center-app-services
-- [Windows Defender Advanced Threat Protection] https://docs.microsoft.com/azure/security-center/security-center-wdatp
-- [Customize OS security configurations in Azure Security Center] https://docs.microsoft.com/azure/security-center/security-center-customize-os-security-config
-- [Virtual Machine FAQ] https://docs.microsoft.com/azure/security-center/security-center-faq#virtual-machines
+- [Protecting your machines and applications in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-virtual-machine-protection)
+- [Protect App Service with Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-app-services)
+- [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+- [Customize OS security configurations in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-customize-os-security-config)
+- [Virtual Machine FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq#virtual-machines)
 
 
 ** Common Virtual Machine Recommendations**
