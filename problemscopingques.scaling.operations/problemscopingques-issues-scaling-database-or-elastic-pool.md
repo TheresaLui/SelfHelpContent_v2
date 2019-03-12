@@ -1,5 +1,3 @@
-Validates, but does not display the which_server dropdown, instead displays in-process/completed and which_problem.
-
 <properties
 	pageTitle="Issues Scaling a Database or Elastic Pool"
 	description="Issues Scaling a Database or Elastic Pool"
