@@ -25,25 +25,32 @@ The Media Services account and all associated storage accounts must be in the sa
 
 ## Recommended steps to link a storage account
 
+
 * Follow the instructions on how to create a new Media Services account with a new storage account - [Create an Azure Media Services account with storage accounts](https://docs.microsoft.com/azure/media-services/latest/create-account-cli-how-to#create-a-storage-account)
 
 ## Add a storage account to your Media Services account using the CLI 
 
 1. Open the Cloud Shell or CLI locally and run the following command to see the options:
+   
 ```
 	az ams account storage -h
 ```
+
 2. To attach a "secondary" storage account, use the following CLI command to see the options:
+   
 ```
 	az ams account storage add -h
 ```
-1. To remove a "secondary" storage acocunt, use the following CLI command to see the options:
+
+3. To remove a "secondary" storage acocunt, use the following CLI command to see the options:
+   
 ```
 	az ams account storage remove -h
 ```
 
 ## Troubleshoot access errors to storage accounts
 It is possible for keys to be rotated on a storage account and get out of sync with the Media Services account. To forces a resync of the storage keys, run the following CLI command to see the options.
+
 ```
 	az ams account storage sync-storage-keys -h
 ```
