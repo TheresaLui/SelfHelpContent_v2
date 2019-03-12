@@ -21,5 +21,5 @@
 - [After set up the storage account for Backup Reports, Storage account still shows Not Configured](https://aka.ms/BKP-PowerBIReport-Tshooting)<br>
 - Error ["404- container is not found"](https://aka.ms/BKP-PowerBIReport-Tshooting)<br>
 - [Prerequisites](https://aka.ms/BKP-PowerBIReport-Prerequisites) & [supported scenarios](https://aka.ms/BKP-PowerBIReport-SupportedScenarios) to configure Power BI report<br>
-- [How to configure Azure Backup Power BI report?](https://aka.ms/BKP-ConfigurePowerBI-Report)<br>
+- [Configure Azure Backup Power BI report](https://aka.ms/BKP-ConfigurePowerBI-Report)<br>
 - [Frequently asked questions](https://aka.ms/BKP-PowerBIReport-FAQs)<br>
