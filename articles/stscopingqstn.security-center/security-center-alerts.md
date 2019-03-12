@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
-    articleId="13004dd1-4fc1-4b43-bfb7-b509cb337586"
+    articleId="a15f057d-1ce4-4b77-a98a-dfaf3843dc2f"
 />
 
 # Security Alerts Common Solutions
