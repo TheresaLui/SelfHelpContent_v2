@@ -16,14 +16,14 @@
 
 ## **Recommended Documents**
 
-- [Protecting Azure SQL service and data in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-sql-service-recommendations
-- [Azure Security Center Data Security](https://docs.microsoft.com/azure/security-center/security-center-data-security
-- [Data collection in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection
-- [Manage user data in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-investigation-user-data
+- [Protecting Azure SQL service and data in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-sql-service-recommendations)
+- [Azure Security Center Data Security](https://docs.microsoft.com/azure/security-center/security-center-data-security)
+- [Data collection in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection)
+- [Manage user data in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-investigation-user-data)
 
 **Storage**
 
-- [Enable Encryption For Storage Account](https://docs.microsoft.com/azure/security-center/security-center-enable-encryption-for-storage-account
+- [Enable Encryption For Storage Account](https://docs.microsoft.com/azure/security-center/security-center-enable-encryption-for-storage-account)
 
 **SQL**
 
