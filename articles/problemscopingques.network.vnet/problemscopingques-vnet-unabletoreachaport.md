@@ -12,6 +12,7 @@
 />
 
 # Unable to reach a port
+
 ---
 {
     "resourceRequired": true,
@@ -37,7 +38,8 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
-            "required": "true"
+            "required": true
         }
     ]
 }
+---

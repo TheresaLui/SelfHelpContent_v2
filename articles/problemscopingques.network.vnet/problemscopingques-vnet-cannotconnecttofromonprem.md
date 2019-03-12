@@ -56,7 +56,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Please provide the on-prem IP you are connecting to.
+                    "text": "Please provide the on-prem IP you are connecting to."
                 }
             ]
         }
