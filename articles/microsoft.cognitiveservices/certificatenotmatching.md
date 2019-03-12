@@ -19,9 +19,9 @@ Issue: When calling a Cognitive Service you receive an error about User Verifica
  
 An example of the reported error:
 
-**User Verification! hostname in certificate didn't match: <centralIndia.api.cognitive.microsoft.com> != <*.cognitiveservices.azure.com> OR <*.cognitiveservices.azure.com>
+User Verification! hostname in certificate didn't match: <centralIndia.api.cognitive.microsoft.com> != <*.cognitiveservices.azure.com> OR <*.cognitiveservices.azure.com>
 
-“*.cognitiveservices.azure.com” is a domain name that was recently added for Cognitive Services. It is set to the default SSL binding certificate so if an SNI header is missing, API management will use the default certificate which is “*.cognitiveservices.azure.com” now.**
+“*.cognitiveservices.azure.com” is a domain name that was recently added for Cognitive Services. It is set to the default SSL binding certificate so if an SNI header is missing, API management will use the default certificate which is “*.cognitiveservices.azure.com” now.
  
 ## **Recommended Steps**
 
