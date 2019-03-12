@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Subscriptions"
-    description=""
+    description="Manage Subscriptions in Azure Stack"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,17 +14,14 @@
     articleId="azurestack-poqs-subscriptions"
 />
 
-# Manage subscriptions in Azure Stack
+# Manage Subscriptions in Azure Stack
 
-After you create an offer, users need a subscription to that offer before they can use it. There are two ways that users can get subscribed to an offer:
-
-* As a cloud operator, you can create a subscription for a user from within the administrator portal. Subscriptions you create can be for both public and private offers.
-* As a tenant user, you can subscribe to a public offer when you use the user portal.
+After you create an offer of services, users need a subscription to that offer before they can use it.
 
 ## **Recommended steps**
 
-1. To create a subscription as a cloud operator, see [Create a subscription as a cloud operator](https://docs.microsoft.com/azure/azure-stack/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-cloud-operator).
-2. To create a subscription as cloud user, see [Create a subscription as a user](https://docs.microsoft.com/azure/azure-stack/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-user).
+1. [Create a subscription as a cloud operator](https://docs.microsoft.com/azure/azure-stack/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-cloud-operator) for a user from within the administrator portal
+2. Or [create a subscription as a user](https://docs.microsoft.com/azure/azure-stack/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-user) to subscribe to a public offer
 
 ## **Recommended documents**
 
