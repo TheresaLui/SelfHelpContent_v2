@@ -55,7 +55,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         },
-        
             {
             "id": "port number",
             "order": 2,
@@ -66,4 +65,5 @@
         }
     ]
 }
+
 ---
