@@ -50,14 +50,16 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [{"text": "Issue description"},
-	    {"text": "Device OS (Client platform OS version)"}]
+	    {"text": "Device OS (Client platform OS version)"},
+	    {"text": "Upload your configuration file to speed the support process"},
+	    {"text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"}]
         },
         {   "id": "P2S_tunneltype",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [{"value": "IPsec", "text": "IPsec"},
+            "dropdownOptions": [{"value": "IKEv2", "text": "IPsec"},
 	    			{"value": "OpenVPN", "text": "OpenVPN"},
 				{"value": "SSTP", "text": "SSTP"}],
             "required": true
