@@ -19,8 +19,7 @@
 ## **Recommended Documents**
 
 - Azure File share backup [limitations](https://aka.ms/BKP-AFS-limitations) during Preview<br>
-
-- Common issues while configuring Azure File shares backup
+- Common issues while configuring Azure File shares backup:
 
 	- [Could not find my Storage Account to configure backup for Azure file share](https://aka.ms/BKP-AFS-Tshooting)<br>
 	- [Error in portal states discovery of storage accounts failed](https://aka.ms/BKP-AFS-Tshooting)<br>
