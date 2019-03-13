@@ -7,7 +7,7 @@
 	authors="johndeu"
 	ms.author="johndeu"
 	displayOrder="1"
-	articleId="mediaservices-analyzing-and-indexing-face-redactor"
+	articleId="mediaservices-analyzing-and-indexing-indexer"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32632100"
