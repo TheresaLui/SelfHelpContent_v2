@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32411877,32511162"
+	supportTopicIds="32411877,32633527"
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds="14749,16342,14745,15571,15797,16454"
 	cloudEnvironments="MoonCake"
