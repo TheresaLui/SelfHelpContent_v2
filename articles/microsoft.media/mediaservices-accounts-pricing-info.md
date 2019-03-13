@@ -18,10 +18,10 @@
 
 # Azure Media Services pricing information
 
-## **Pricing information**
+**Pricing information**
 Azure Media Services pricing information can be obtained at the [Azure Media Services pricing page](https://azure.microsoft.com/pricing/details/media-services/)
 
-## **SLA information for Azure Media Services**
+**SLA information for Azure Media Services**
 
 Detailed SLA information for Azure Media Services is included in the [Azure SLA for Media Services](https://azure.microsoft.com/support/legal/sla/media-services)
 

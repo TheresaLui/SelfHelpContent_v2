@@ -48,7 +48,8 @@ The Media Services account and all associated storage accounts must be in the sa
 	az ams account storage remove -h
 ```
 
-## **Troubleshoot access issues with linked storage accounts**
+**Troubleshoot access issues with linked storage accounts**
+
 It is possible for keys to be rotated on a storage account and get out of sync with the Media Services account. To forces a resync of the storage keys, run the following CLI command to see the options.
 
 ```
