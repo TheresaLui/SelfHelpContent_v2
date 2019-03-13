@@ -21,4 +21,4 @@
 
 ## **Recommended Documents**
 
-[Deploy and manage a StorSimple Cloud Appliance in Azure](https://docs.microsoft.com/azure/storsimple/storsimple-8000-cloud-appliance-u2)
+* [Deploy and manage a StorSimple Cloud Appliance in Azure](https://docs.microsoft.com/azure/storsimple/storsimple-8000-cloud-appliance-u2)
