@@ -52,14 +52,6 @@
                                 {"value": "No", "text": "No"}],
             "required": true
         },
-        {   "id": "onprem_config_script_yes",
-            "order": 5,
-            "visibility": "onprem_config_script == Yes",
-            "controlType": "textbox",
-            "displayLabel": "Please list the device configuration script used",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
         {   "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
@@ -69,7 +61,8 @@
             "hints": [
                 {"text": "Issue description"},
                 {"text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"},
-                {"text": "Upload your configuration file to speed up the support process (for security purposes, please edit or remove the pre-shared key information)"}]
+                {"text": "Upload your configuration file to speed up the support process"
+		{"text": "For security purposes, please edit or remove the pre-shared key information"}]
         }
     ]
 }
