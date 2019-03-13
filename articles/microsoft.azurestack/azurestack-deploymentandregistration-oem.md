@@ -7,7 +7,7 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32629233"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
@@ -16,15 +16,16 @@
 
 # Azure Stack OEM extension package
 
-The Azure Stack OEM Extension Package is the mechanism by which OEM-specific content is added to Azure Stack infrastructure, for use in deployment as well as operational processes like update, expansion, and field replacement. This is a process for solution partners who are coengineering Azure Stack offerings with Microsoft.<br>
+The Azure Stack OEM Extension Package is content provided by a hardware provider that is added to Azure Stack infrastructure for use in deployment, update, expansion, and field replacement.
 
 ## **Recommended steps**
 
-1. [Set up resources for Validation as a Service](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-set-up-resources).<br>
-2. [Create an OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-create-oem-package)<br>
-3. [Validate the OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-validate-oem-package)<br>
+1. [Create an OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-create-oem-package)<br>
+2. [Validate the OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-validate-oem-package)<br>
+3. [Validate a new Azure Stack solution](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-overview#validate-a-new-azure-stack-solution)
 
 ## **Recommended documents**
 
 [Azure Stack partner documentation](https://docs.microsoft.com/azure/azure-stack/partner/)<br>
+[Tutorial: Set up resources for Validation as a Service](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-set-up-resources)<br>
 [What is Azure Stack?](https://docs.microsoft.com/azure/azure-stack/azure-stack-poc)
