@@ -1,7 +1,7 @@
 <properties
 	pageTitle="How to configure live streaming"
 	description="How to configure live streaming"
-	infoBubbleText="Azure Media Services analyzing and indexing files"
+	infoBubbleText="Azure Media Services how to configure live streaming"
 	service="microsoft.media"
 	resource="liveevent"
 	authors="juliako"
@@ -10,7 +10,7 @@
 	articleId="mediaservices-live-streaming"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32632062"
+	supportTopicIds="32632071"
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"

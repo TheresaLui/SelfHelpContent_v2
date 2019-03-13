@@ -10,7 +10,7 @@
 	articleId="mediaservices-analyzing-and-indexing-face-redactor"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32632094"
+	supportTopicIds="32632100"
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
