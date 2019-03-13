@@ -18,7 +18,7 @@
 
 # Azure Media Services resource group moves
 
-**Resource Group Movement**
+### Resource Group Movement
 Azure Media Services resource group moves can be requested through support ticket only. 
 Resource group movement is not available through the Azure CLI.
 

@@ -18,11 +18,11 @@
 
 # Azure Media Services analyzing and indexing files
 
-## **Analyzing and Indexing files**
+### Analyzing and Indexing files
 Azure Media Services enables you to extract insights from your video and audio files with Video Indexer through AMS v3 analyzer presets. If you want more detailed insights, use the [Video Indexer APIs](https://api-portal.videoindexer.ai/) directly. To understand when you would want to use Video Indexer vs. Media Services analyzer presets, check out the [comparison document](https://docs.microsoft.com/azure/media-services/video-indexer/compare-video-indexer-with-media-services-presets).
 
 
-## **Recommended Steps to analyze your video and audio files in Azure Media Services**
+### Recommended Steps to analyze your video and audio files in Azure Media Services
 
 
 *  To analyze your content using Media Services v3 presets, you create a Transform and submit a Job that uses one of these presets: VideoAnalyzerPreset or AudioAnalyzerPreset. 
@@ -30,7 +30,7 @@ Azure Media Services enables you to extract insights from your video and audio f
    *  [Tutorial: Analyze videos with Azure Media Services](https://docs.microsoft.com/azure/media-services/latest/analyze-videos-tutorial-with-api)
 
 
-**Troubleshoot slow audio and video indexing**
+### Troubleshoot slow audio and video indexing
 
 
 * When using a Video or Audio Analyzer presets, use the Azure portal or the CLI to set your account to have at least  10 "S3" Media Reserved Units. For more information, see [Scale media analytics and indexing](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview).

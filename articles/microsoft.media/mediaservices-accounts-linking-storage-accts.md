@@ -23,12 +23,12 @@ Azure Media Services supports multiple storage accounts. You can link an existin
 The Media Services account and all associated storage accounts must be in the same Azure subscription. It is strongly recommended to use storage accounts in the same location as the Media Services account to avoid additional latency and data egress costs.
 
 
-## **Recommended steps to link a storage account**
+## **Recommended Steps**
 
 
 * Follow the instructions on how to create a new Media Services account with a new storage account - [Create an Azure Media Services account with storage accounts](https://docs.microsoft.com/azure/media-services/latest/create-account-cli-how-to#create-a-storage-account)
 
-## **Add a storage account to your Media Services account using the CLI**
+### Add a storage account to your Media Services account using the CLI
 
 1. Open the Cloud Shell or CLI locally and run the following command to see the options:
    
@@ -48,7 +48,7 @@ The Media Services account and all associated storage accounts must be in the sa
 	az ams account storage remove -h
 ```
 
-**Troubleshoot access issues with linked storage accounts**
+### Troubleshoot access issues with linked storage accounts
 
 It is possible for keys to be rotated on a storage account and get out of sync with the Media Services account. To forces a resync of the storage keys, run the following CLI command to see the options.
 

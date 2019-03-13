@@ -20,7 +20,7 @@
 
 Anonymize videos by detecting and blurring the faces of selected individuals. Azure Media Redactor is ideal for use in public safety and news media scenarios. Pricing is based on the duration and resolution of the input file. 
 
-**How do I scale up the processing speed of Redactor?**
+### How do I scale up the processing speed of Redactor?
 
 Redactor takes advantage of your [media reserved units](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview) to run video processing tasks in parallel when possible (Note: the SLA for the Redactor only applies to jobs running on "S3" size media reserve units).
 
