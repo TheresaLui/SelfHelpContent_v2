@@ -26,7 +26,7 @@ If you are having issues with On-Demand Assessments, please see the documentatio
 
 ### **Troubleshooting On-Demand Assessments**
 
-[Office 365 solutions unavailable in US Government Cloud (Fairfax) and China Government Cloud Log Analytics](https://docs.microsoft.com/en-us/services-hub/health/fairfax-o365-solutions-unavailable)
+[Office 365 solutions unavailable in US Government Cloud (Fairfax) and China Government Cloud Log Analytics](https://docs.microsoft.com/services-hub/health/fairfax-o365-solutions-unavailable)
 
 This document provides information about the progress of implementing and deploying of the Office 365 solutions to government clouds and the currently estimated time when these will start to be supported
 
