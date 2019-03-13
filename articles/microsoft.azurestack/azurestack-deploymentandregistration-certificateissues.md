@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="2fba98c0-a783-4c02-8839-435fe925b104"
+    articleId="2fba98c0-a783-4c02-8839-435fe925b104"
 />
 
 # Azure Stack Certificates Issues
