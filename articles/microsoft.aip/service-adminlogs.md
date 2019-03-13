@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-1. If you are not seeing data or receiving an error message when trying to access the Analytics Dashboard, please verify that you have the [Permissions required for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
+1. If you are not seeing data or receiving an error message when trying to access the Analytics Dashboard, please verify that you have the [Permissions required for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics)
 2. Make sure you meet all the [Prerequisites for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics)
 
 ## **Recommended Documents**
