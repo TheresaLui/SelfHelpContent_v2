@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-deploymentandregistraion-OEM"
+    articleId="azurestack-deployment-OEM"
 />
 
 # Azure Stack OEM extension package
@@ -20,8 +20,8 @@ The Azure Stack OEM Extension Package is content provided by a hardware provider
 
 ## **Recommended steps**
 
-1. [Create an OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-create-oem-package)<br>
-2. [Validate the OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-validate-oem-package)<br>
+1. [Create an OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-create-oem-package)
+2. [Validate the OEM package](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-validate-oem-package)
 3. [Validate a new Azure Stack solution](https://docs.microsoft.com/azure/azure-stack/partner/azure-stack-vaas-overview#validate-a-new-azure-stack-solution)
 
 ## **Recommended documents**

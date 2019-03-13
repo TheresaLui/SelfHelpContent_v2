@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-deploymentandregistration-registration"
+    articleId="azurestack-deployment-registration"
 />
 
 # Azure Stack Registration

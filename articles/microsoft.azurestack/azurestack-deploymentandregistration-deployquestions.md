@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-deploymentandregistration-deployquestions"
+    articleId="azurestack-deployment-deployquestions"
 />
 
 # Azure Stack Deployment Questions

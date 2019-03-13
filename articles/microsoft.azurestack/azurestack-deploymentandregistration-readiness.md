@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-    articleId="azurestack-deploymentandregistration-readiness"
+    articleId="azurestack-deployment-readiness"
 />
 
 # Azure Stack Readiness Checker
