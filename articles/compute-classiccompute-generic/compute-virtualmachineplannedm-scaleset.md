@@ -31,21 +31,21 @@ After the self-service window ends, Azure schedules a time in the scheduled main
 
 If you don't see notifications, it could due to of the following reasons:
 
-- The maintenance wave is finished.
-- The maintenance wave has not started.
-- The VM is hosted on an updated server.
-- The VM is deployed to a region where planned maintenance is already scheduled.<br>
+- The maintenance wave is finished
+- The maintenance wave has not started
+- The VM is hosted on an updated server
+- The VM is deployed to a region where planned maintenance is already scheduled
 
 For more information, see [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal) which covers the following:
 
-- Notifications and alerts about planned maintenance.
-- Schedules for the planned maintenance and self-service windows.
-- VM scale sets affected by the planned maintenance.
-- Instructions and guidelines for using  self-service maintenance.
-- Status queries using Azure CLI and PowerShell.
-- Frequently asked questions.<br>
+- Notifications and alerts about planned maintenance
+- Schedules for the planned maintenance and self-service windows
+- VM scale sets affected by the planned maintenance
+- Instructions and guidelines for using  self-service maintenance
+- Status queries using Azure CLI and PowerShell
+- Frequently asked questions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal)
 * [Working with large virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-placement-groups)
