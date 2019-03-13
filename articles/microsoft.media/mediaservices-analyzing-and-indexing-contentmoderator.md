@@ -29,7 +29,7 @@ Azure Media Services v3 enables you to extract insights from your video and audi
 
 **Where can I find content moderation output in the Video Indexer API?**
 
-The content moderation results are output to the Video Indexer JSON file in the [visualContentModeration](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-output-json-v2#visualcontentmoderation) and [textualContentModeration](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-output-json-v2#textualcontentmoderation) sections. 
+The content moderation results are output to the Video Indexer JSON file in the [visualContentModeration](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-output-json-v2#visualcontentmoderation) and [textualContentModeration](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-output-json-v2#textualcontentmoderation) sections. 
 For details see the article [Video Indexer output JSON](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-output-json-v2)
 
 ## **Recommended Documents**
