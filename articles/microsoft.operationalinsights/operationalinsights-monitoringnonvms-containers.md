@@ -19,12 +19,9 @@ There are two container monitoring tools out there: Azure Monitor for containers
 
 Container Monitoring does not include Update Management, Security Management, AKS Azure Monitor metrics, and Linux Agent. Please go to the appropriate selection for those. 
 
-## Documentations
+## Recommended documents
 [Container Monitoring Solution](https://docs.microsoft.com/azure/azure-monitor/insights/containers)
 [Azure Monitor for containers (Container Insights)](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)
-
-## Recommended documents
-Documentations above will cover onboarding, agent details, and alerting. 
 
 ## Troubleshooting and FAQ
 [Azure Monitor for containers FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-faq)
