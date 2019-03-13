@@ -44,7 +44,7 @@
 			"watermarkText": "Which database are you having trouble scaling?",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
-				"uri":"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Sql/servers/{which_server(resourcename)}/databases?api-version=2017-10-01-preview",
+				"uri":"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Sql/servers/{parentControlSelection}/databases?api-version=2017-10-01-preview",
 				"jTokenPath": "value",
 				"textProperty": "sku.name",
 				"valueProperty": "id",
