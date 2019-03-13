@@ -7,9 +7,9 @@
 	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615531,32615526"
+	supportTopicIds="32615531,32615526,32633498"
 	resourceTags=""
-	productPesIds="14749"
+	productPesIds="14749,14745"
 	cloudEnvironments="public"
 	articleId="d67fb475-a831-4f4b-a6ce-7fbacb0bf9df"
 />
