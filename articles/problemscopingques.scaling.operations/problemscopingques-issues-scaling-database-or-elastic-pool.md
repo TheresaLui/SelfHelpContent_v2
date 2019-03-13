@@ -27,7 +27,7 @@
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
-				"jTokenPath": "serverList",
+				"jTokenPath": "value",
 				"textProperty": "name",
 				"valueProperty": "name",
 				"textPropertyRegex": null
@@ -52,7 +52,7 @@
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": "which_server != Test B: Please select the server containing the database you need assistance with. "
 		},
 		{
 			"id": "ongoing_or_completed_updateslo",
