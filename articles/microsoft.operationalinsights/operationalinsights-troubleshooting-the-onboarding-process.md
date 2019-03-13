@@ -11,7 +11,7 @@
 	articleId="operationalinsights-troubleshooting-the-onboarding-process"
 	diagnosticScenario=""
 	selfHelpType="generic"
-supportTopicIds="32612423"
+    supportTopicIds="32612423"
 	resourceTags="assessments,on-boarding,troubleshooting"
 	productPesIds="15725"
 	cloudEnvironments="public"
@@ -26,7 +26,7 @@ If you are having issues with On-Demand Assessments, please see the documentatio
 
 ### **Troubleshooting On-Demand Assessments**
 
-[Office 365 solutions unavailable in US Government Cloud (Fairfax) and China Government Cloud Log Analytics](https://docs.microsoft.com/services-hub/health/fairfax-o365-solutions-unavailable)
+[Office 365 solutions unavailable in US Government Cloud (Fairfax) and China Government Cloud Log Analytics](https://docs.microsoft.com/en-us/services-hub/health/fairfax-o365-solutions-unavailable)
 
 This document provides information about the progress of implementing and deploying of the Office 365 solutions to government clouds and the currently estimated time when these will start to be supported
 
@@ -59,11 +59,9 @@ This document describes the most common problems experienced with On-Demand Asse
    - [Go through Scheduled Task dispatch and uploader log files](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#go-through-scheduled-task-dispatch-and-uploader-log-files)
 
 
-## **Troubleshooting Health Check**
+### **Troubleshooting Health Check**
 
 If you are having issues with Health Check, please see the documentation below.
-
-### **Recommended documents**
 
 #### AD Health Check   
 
