@@ -21,5 +21,5 @@
 
 ## **Recommended Documents**
 
-[Options to migrate data from StorSimple 5000-7000 series](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migration-options)<br>
+* [Options to migrate data from StorSimple 5000-7000 series](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migration-options)<br>
 
