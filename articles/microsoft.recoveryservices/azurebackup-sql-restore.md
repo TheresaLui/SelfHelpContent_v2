@@ -16,7 +16,7 @@
 
 # Azure Backup SQL Restore failures
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - [**UserErrorRestoreFailedDatabaseCannotBeOfflined** - Restore failed as the database could not be brought offline](https://aka.ms/AB-AA4dwua)</br>
 - [**UserErrorCannotRestoreExistingDBWithoutForceOverwrite** - Database with same name already exists at the target location](https://aka.ms/AB-usererrorcannotrestoreexistingdbwithoutforceoverwrite)<br>
