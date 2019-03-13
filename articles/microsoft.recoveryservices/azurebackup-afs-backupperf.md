@@ -16,7 +16,7 @@
 
 # Azure Files Backup Performance Issue
 
-## **Recommended Documentation**
+## **Recommended Documents**
 
 - [Limitations](https://aka.ms/BKP-AFS-limitations) & [Prerequisites](https://aka.ms/BKP-AFS-Prerequisites) for Azure File Share backup during Preview<br>
 - [Troubleshoot Azure File Share backup](https://aka.ms/BKP-AFS-limitations)<br>
