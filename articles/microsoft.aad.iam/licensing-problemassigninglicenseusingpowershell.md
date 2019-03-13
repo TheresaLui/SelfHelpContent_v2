@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="01adef9a-3c67-468f-9cab-09e6498239e9"
 /> 
 # Problem with licenses using powershell 
 ---

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="86945c81-28a8-43c9-b32a-9ba1bb4360e6"
 />
 
 # Enroll Devices - Windows Enrollment"

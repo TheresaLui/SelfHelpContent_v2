@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	cloudEnvironments="public"
+	articleId="07fdc3ea-3445-495a-8ae6-f33ff93a3f37"
 />
 
 # Using Search Index/Issue or error uploading documents

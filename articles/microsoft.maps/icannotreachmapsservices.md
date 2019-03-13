@@ -10,7 +10,8 @@
 	productPesIds=""
 	displayOrder="3"
 	cloudEnvironments="public"
- />
+ 	articleId="cebe2b82-fd13-41d5-8a91-fb29f69f512a"
+/>
 
 # I cannot reach maps services 
 

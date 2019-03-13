@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="60306048-12bf-413b-be8b-89b1eccb809e"
 />
 
 # Modify local network gateway settings

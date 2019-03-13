@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="1cfc3deb-59e5-48aa-87e3-42db54fdee4c"
 />
 
 # availability and performance/other

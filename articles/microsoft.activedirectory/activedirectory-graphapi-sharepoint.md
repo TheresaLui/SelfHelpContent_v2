@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32596855"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="3104cfd1-5f7b-482c-93b0-4a5051cd2fe3"
 />
 
 

@@ -5,7 +5,7 @@
     service="microsoft.network"
     resource="ExpressRoute"
     authors="jaredro"    
-    authoralias="jaredr80"
+    ms.author="jaredr80"
     displayOrder=""
     articleId="ExRPingTestPingsDidNotSucceedInsight"
     diagnosticScenario="ExRPingTestPingsDidNotSucceedInsight"

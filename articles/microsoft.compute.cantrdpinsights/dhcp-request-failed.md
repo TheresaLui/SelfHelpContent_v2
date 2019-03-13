@@ -5,7 +5,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="timbasham"
-    authorAlias="tibasham"
+    ms.author="tibasham"
     displayOrder=""
     articleId="DHCPRequest"
     diagnosticScenario="DHCP request failed"

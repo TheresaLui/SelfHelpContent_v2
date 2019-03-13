@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="ae830512-42f0-4e41-951e-4f555e502a6f"
 />
 
 # How to develop with REST APIs

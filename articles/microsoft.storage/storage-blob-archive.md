@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
+	articleId="a593e2f4-8c91-4c89-b5bc-bba6f0860acf"
 />
 
 # Archive Storage Tier

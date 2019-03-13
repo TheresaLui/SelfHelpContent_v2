@@ -10,6 +10,7 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="deabf818-9619-4c11-be5e-0f387664eb62"
 />
 
 # Something is requiring Android Enterprise devices to be encrypted. However, our organization does not have a policy that enforces encryption on these devices.

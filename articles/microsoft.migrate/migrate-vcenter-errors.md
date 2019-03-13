@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
+	articleId="808d9835-421f-4aba-9a6a-b11625796206"
 />
 
 # I cannot connect to vCenter server

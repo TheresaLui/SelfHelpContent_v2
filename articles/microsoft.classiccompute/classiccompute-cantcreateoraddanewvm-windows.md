@@ -10,6 +10,7 @@
     resourceTags="windows, windowsSQL"
     productPesIds=""
     cloudEnvironments="public"
+	articleId="da7ca1c7-0dff-462a-9402-becbcbc36e37"
 />
 
 # I can't create or add a new VM

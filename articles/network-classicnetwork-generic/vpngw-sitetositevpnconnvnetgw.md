@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16094"
 	cloudEnvironments="public"
+	articleId="cc230e94-e48b-46d4-9f87-d618a6fe01ff"
 />
 
 # Site-to-Site VPN connectivity issues

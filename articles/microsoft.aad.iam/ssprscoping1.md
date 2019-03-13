@@ -2,7 +2,7 @@
     pageTitle="Administrator-initiated password reset" 
 	description="Password Management/Administrator-initiated password reset" 
 	authors="sahenry" 
-    authorAlias="sahenry"
+    ms.author="sahenry"
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32045781" 
 	productPesIds="16579" 

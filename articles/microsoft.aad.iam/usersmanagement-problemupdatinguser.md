@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="2eab356b-7fd3-4402-b836-2f3967c5c39f"
 /> 
 # Problem updating a user 
 ---

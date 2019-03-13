@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="07bf54cb-a440-472d-b194-c1084aea67c4"
 />
 
 # securityandaudit-other

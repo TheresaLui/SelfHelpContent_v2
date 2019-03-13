@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15614"
 	cloudEnvironments="public"
+	articleId="2b5b4b85-e36d-48d7-9bd8-384ef0f6cc45"
 />
 
 # configuration and setup issues/quota issues

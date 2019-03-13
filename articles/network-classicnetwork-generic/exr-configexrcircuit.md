@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627975"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="ef4ae747-6116-4834-93df-d8abb5c77054"
 />
 
 # Configure ExpressRoute Circuit

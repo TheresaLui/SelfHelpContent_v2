@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
+	articleId="c0c247c6-fc15-4087-900e-a89e757bf9b8"
 />
 
 # Azure Automation - Shared Resources

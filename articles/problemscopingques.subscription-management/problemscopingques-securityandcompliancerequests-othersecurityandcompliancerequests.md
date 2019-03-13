@@ -2,7 +2,7 @@
 	pageTitle="Security and Compliance Requests"
 	description="Security and Compliance Requests"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32607560,32607561"
 	productPesIds="15660"

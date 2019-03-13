@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="df42a601-00c8-4ac5-9f1b-aa8ec2b76e7b"
 />
 
 # Configure a Site-to-Site connection

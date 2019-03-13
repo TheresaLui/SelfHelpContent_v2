@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="cad8aaca-5511-4d85-bfbe-ce5aaa78ebaf"
+/>
 
 # Problem deciding which Azure AD role to assign
 

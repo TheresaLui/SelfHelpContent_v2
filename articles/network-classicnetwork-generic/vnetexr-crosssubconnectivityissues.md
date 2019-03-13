@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="aab97c29-8872-4a7d-8355-a9b218235995"
 />
 
 # cross-subscription connectivity issues

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="1de2801f-e170-4c01-9d27-7a4d9e8b8252"
 />
 
 # Unable to connect to VM after fail over in A2A scenario

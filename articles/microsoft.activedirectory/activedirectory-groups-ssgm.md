@@ -8,6 +8,7 @@
     supportTopicIds="32615431"
     productPesIds="16578"
     cloudEnvironments="public"
+	articleId="e273e5a1-8e0f-419d-823e-8cfb4d004764"
 />
 
 # Self-service group management

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="da6a642d-f982-42bf-a28e-5064a7613fdd"
 />
 
 # configuration/query string configuration

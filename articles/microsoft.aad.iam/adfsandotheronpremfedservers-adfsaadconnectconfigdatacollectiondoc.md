@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="449f31ee-7fb9-4388-ac36-54e21a6bcac8"
 /> 
 # Problem with ADFS AD connect configeration 
 ---

@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614255"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="d5772567-8d86-4519-9c31-f3070c4bbccf"
 />
 
 # Priority Based Load Balancing

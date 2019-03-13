@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="4e43f6fa-57dd-4bd3-b6f4-9b10f7a8dccc"
 />
 
 # Azure Databricks cluster creation, termination and sizing

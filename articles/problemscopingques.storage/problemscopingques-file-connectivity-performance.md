@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="f55638b4-3688-4399-a0f6-dd6ef04717c9"
 />
 # Storage File connectivity or performance issue
 ---

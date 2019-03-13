@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627987"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="0d093214-02a9-4620-a45f-a8a01c343aa1"
 />
 
 # Connectivity to Microsoft Public Services

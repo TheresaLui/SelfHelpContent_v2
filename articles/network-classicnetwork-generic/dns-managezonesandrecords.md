@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15804"
 	cloudEnvironments="public"
+	articleId="4b9893dc-a4ed-42a7-a497-35f0cc219934"
 />
 
 # manage dns zones and records

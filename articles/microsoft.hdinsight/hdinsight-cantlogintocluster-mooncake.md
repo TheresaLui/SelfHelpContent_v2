@@ -4,13 +4,14 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="matt1883"
-    authoralias="mahi"
+    ms.author="mahi"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds="32511211"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
+	articleId="c1545082-cbe1-44a4-902c-fc45f9216d8d"
 />
 
 # I can't log in to my cluster

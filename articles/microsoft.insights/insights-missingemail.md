@@ -5,13 +5,13 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    authorAlias="jamdavi"
+    ms.author="jamdavi"
     articleId="insights_missingemail"
     displayOrder="5"
-    selfHelpType="resource"
+    selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32546625,32613002"
+    supportTopicIds="32546625,32613002,32629552"
  />
  
 # I should have received email for an alert

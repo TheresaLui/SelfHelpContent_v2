@@ -5,10 +5,12 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="ansi12"
+    ms.author="ansiva"
     displayOrder="24"
     articleId="Hdi_DeleteError_ResourceLock"
+    diagnosticScenario="HDInsightClusterDeleteErrorInsight"
     selfHelpType="rca"
-    supportTopicIds="32511166, 32588502, 32588503"
+    supportTopicIds="32628987, 32629037, 32629032"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
@@ -24,7 +26,8 @@ Since the delete did not succeed, a new cluster with the same name cannot be cre
 ## Locked Resources
 <!--$LockedResources-->[LockedResources]<!--/$LockedResources-->
 
-## **Recommended steps**
+## **Recommended Steps**
+
 The locks on the above resources need to be removed before the delete can succeed. Please refer to [Using Azure Resource Locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) for instructions to remove these locks.
 
-Once this is done, please notify Azure support, and we will clean up the HDInsight cluster.
+Once this is done, please notify Azure support and we will clean up the HDInsight cluster.

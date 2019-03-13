@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
-	authorAlias="tibasham"
+	ms.author="tibasham"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32595637,32595640"
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
+	articleId="d6f0f624-e01a-4760-a133-804637dfaf0c"
 />
 
 # Kubernetes Service

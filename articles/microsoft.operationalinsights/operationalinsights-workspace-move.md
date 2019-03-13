@@ -13,6 +13,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="Public, Fairfax"
+	articleId="62dbd3b1-47d4-4024-9b9f-0e093ada4218"
 />
 
 # Moving workspace to a different subscription

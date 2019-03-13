@@ -1,7 +1,7 @@
 <properties pageTitle="User-initiated password reset" 
 	 description="Password Management/User-initiated password reset" 
 	 authors="sahenry" 
-	 authorAlias="sahenry"
+	 ms.author="sahenry"
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615416,32615432" 
 	 productPesIds="16579" 

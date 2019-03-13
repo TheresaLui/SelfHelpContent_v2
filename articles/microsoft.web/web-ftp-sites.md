@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
 	cloudEnvironments="public, MoonCake"
+	articleId="c6314c74-7957-4ad3-8464-2ba89527b0e0"
 />
 
 # deployment/ftp

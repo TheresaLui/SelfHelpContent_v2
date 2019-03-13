@@ -4,13 +4,14 @@
 	service="microsoft.servicefabric"
 	resource="clusters"
 	authors="ChiragPavecha"
-	authoralias="chiragpa"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608943"
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="75a7b388-caf8-4beb-8cc1-2dff96d54b46"
 />
 
 # Add or Swap Certificates

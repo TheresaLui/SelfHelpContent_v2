@@ -4,13 +4,14 @@
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
-	authoralias="radwiv"
+	ms.author="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32627979"
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="0504dbbd-eb4f-4f70-b842-b39882e3ea38"
 />
 
 # Configure ExpressRoute Peerings

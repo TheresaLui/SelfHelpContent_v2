@@ -2,7 +2,7 @@
 	pageTitle="Reservation Management"
 	description="Reservation Management"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593233"
 	productPesIds="15660"
@@ -14,56 +14,66 @@
 # Other Issues or Requests
 ---
 {
-    "resourceRequired": false,
-    "title": "Other issues or requests",
-    "fileAttachmentHint": "",
-    "formElements": [
+  "resourceRequired": true,
+  "title": "Reservation Management",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "Problem start time",
+      "required": true
+    },
+    {
+      "id": "reservation_instance_determination",
+      "order": 2,
+      "controlType": "dropdown",
+      "displayLabel": "Choose the type of Reservation Instance",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
         {
-            "id": "reservation_instance_determination",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Choose the type of Reservation Instance",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Virtual Instance",
-                    "text": "Virtual Instance"
-                },
-                {
-                    "value": "SQL database",
-                    "text": "SQL database"
-                },
-                {
-                    "value": "SUSE Software",
-                    "text": "SUSE Software"
-                }
-            ],
-            "required": true
+          "value": "Virtual Instance",
+          "text": "Virtual Instance"
         },
         {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Please provide additional information about your issue",
-            "required": true,
-            "hints": [
-	    	{
-			"text": "Reservation Order ID"
-		},
-		{
-			"text": "Reservation ID"
-		}
-	  ]
+          "value": "SQL database",
+          "text": "SQL database"
         },
         {
-            "id": "problem_start_time",
-            "order": 3,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
-            "required": true
+          "value": "SUSE Software",
+          "text": "SUSE Software"
         }
-    ]
+      ],
+      "required": true
+    },
+    {
+      "id": "reservationorderid_details",
+      "order": 3,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Reservation Order ID",
+      "watermarkText": "Provide your Reservation Order id",
+      "required": true
+    },
+    {
+      "id": "reservationid_details",
+      "order": 4,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Reservation ID",
+      "watermarkText": "Provide your Reservation id",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Additional details",
+      "watermarkText": "Provide any additional information about your issue",
+      "required": true
+    }
+  ]
 }
 ---

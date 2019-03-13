@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="bf5acf40-b1c1-4cd9-b96d-023163fbf5db"
 />
 # Storage File Share mounting issues - Windows
 ---

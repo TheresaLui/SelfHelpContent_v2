@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629227,32629228"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="2fc09657-4d45-43fd-97ad-1d46373c8ba6"
 />
 
 # Azure Stack MySQL Resource Provider

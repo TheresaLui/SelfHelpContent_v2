@@ -10,21 +10,21 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="ed1aaaa4-1761-4969-bdeb-c4b449b052b0"
 />
 
 # Availability and Connectivity/other
 
-## **Recommended steps**
+## **Recommended Steps**
 
-Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string and other causes.
+Persistent connection issues to Azure SQL Database can occur due to incorrect firewall configuration, incorrect connection string, and other causes.
 
-* Set up firewall rules to allow the client IP address.<br>
-[Configure SQL Azure firewall rules](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)
-* Follow connection recommendations on computers that host your client program<br>
-[Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations)
-* Fix incorrect connection strings in your application.<br>
-[Connection strings to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-connectivity-issues/#connections-to-azure-sql-database)
+* [Configure SQL Azure firewall rules](https://docs.azure.cn/sql-database/sql-database-configure-firewall-settings/)
+to allow the client IP address
+* Follow [Connection recommendations](https://azure.microsoft.com/documentation/articles/sql-database-connect-central-recommendations/#connection-recommendations) on computers that host your client program<br>
+* Fix incorrect [connection strings to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-connectivity-issues/#connections-to-azure-sql-database) in your application.<br>
 
-## **Recommended documents**
-* [Troubleshoot common connectivity issues to Azure SQL Database](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)<br>
-* [Connecting to SQL Database: Best Practices and Design Guidelines](https://azure.microsoft.com/documentation/articles/sql-database-troubleshoot-common-connection-issues/)
+## **Recommended Documents**
+
+* [Troubleshoot common connectivity issues to Azure SQL Database](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)<br>
+* [Connecting to SQL Database: Best Practices and Design Guidelines](https://docs.azure.cn/sql-database/sql-database-troubleshoot-common-connection-issues/)

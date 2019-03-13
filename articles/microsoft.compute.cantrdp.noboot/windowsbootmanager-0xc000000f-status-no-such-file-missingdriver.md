@@ -5,7 +5,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="Ram-Kakani,timbasham"
-    authorAlias="ramak,tibasham"
+    ms.author="ramak,tibasham"
     displayOrder=""
     articleId="WindowsBootManager-0xC000000F-STATUS_NO_SUCH_FILE-MissingDriver"
     diagnosticScenario="booterror"

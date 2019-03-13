@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="946f4a44-e3c6-4256-88fc-5ee215c76675"
 />
 
 # How to configure Immutable Blob Storage

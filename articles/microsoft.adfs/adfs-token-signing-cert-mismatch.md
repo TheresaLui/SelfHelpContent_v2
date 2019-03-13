@@ -5,7 +5,7 @@
 	service="Microsoft.Adfs"
 	resource="Tenant"
 	authors="madhavpatel6"
-    authorAlias="madpatel"
+    ms.author="madpatel"
 	displayOrder="1"
 	articleId="adfs_token_signing_cert_mismatch"
 	diagnosticScenario="ADFS - Token Signing Cert Mismatch"
@@ -20,20 +20,22 @@
 
 We have detected sign-in issues for one or more of your federated domains. This is caused by a mismatch between the token signing certificate that AD FS is using to issue authentication tokens and the public key that Azure AD is using to validate the tokens. This error could occur due to your federation metadata not being available externally. In addition to the steps below, verify that the metadata is available by using the [Federation Metadata Explorer](https://adfshelp.microsoft.com/MetadataExplorer/GetFederationMetadata) tool.
 
-We detected the following domains that are experiencing these failures: <!--$Domains-->Domains<!--/$Domains-->
+We detected the following domains are experiencing failures:
+
+**<!--$Domains-->Domains<!--/$Domains-->**
 
 ## **Recommended Steps**
 
 We recommend using PowerShell to easily resolve this issue. Follow the steps below:
 
 1. On your AD FS server, launch a PowerShell window
-2. If you haven't installed the `MSOnline` module, run the following to install it:
+2. If you haven't installed the **MSOnline** module, run the following cmdlet to install it:
 
 ```
 Install-Module MSOnline
 ```
 
-3. Run the following to import the module:
+3. Run the following cmdlet to import the module:
 
 ```
 Import-Module MSOnline
@@ -45,11 +47,12 @@ Import-Module MSOnline
 Connect-MsolService
 ```
 
-5. We will need to make sure we update all of your federated domains that are having this issue. There are two options on how to get the misconfigured domains:
+5. We will need to make sure we update all your federated domains that are having this issue. There are two options on how to get the misconfigured domains:
 
-    * Run **Snippet 1** to automatically check that the token signing certificate matches for all of your federated domains. Upon completion, you will have a list of all of the domains that have a mismatch.
-   
-   ### Snippet 1
+    * Run **Snippet 1** to automatically check that the token signing certificate matches for all of your federated domains. Upon completion, you will have a list of all the domains that have a mismatch.
+
+    ### Snippet 1
+
     ```
     $mismatchedDomains = @()
     Get-MsolDomain -Authentication Federated | Foreach {
@@ -66,9 +69,10 @@ Connect-MsolService
     }
     ```
 
-    * Run **Snippet 2** to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all of your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
+    * Run **Snippet 2** to manually check the token signing certificates configured on AD FS and the Azure AD trust properties for all your federated domains. In the output, each domain should have the same token signing certificate for both sources ("ADFS Server" and "Microsoft Office 365").
 
     ### Snippet 2
+
     ```
     Get-MsolDomain -Authentication Federated | Foreach {
         Write-Host "Checking domain" $_.Name

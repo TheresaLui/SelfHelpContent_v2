@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="8a31eced-24b8-4bb8-959c-942ee038b006"
 />
 
 # How to troubleshoot blob connectivity error(s)

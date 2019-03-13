@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="a227223a-6b33-4c77-be5a-07ba742a9bd6"
+/>
 
 # MFA user methods (Authenticator, OATH token, Voice or SMS)
 

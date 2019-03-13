@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628274"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="85e53d67-cc97-4a46-ba63-20c752e97af1"
 />
 
 # Troubleshoot marketplace image deployment failures

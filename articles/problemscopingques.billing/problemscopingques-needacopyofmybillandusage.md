@@ -1,53 +1,53 @@
 <properties
-	pageTitle="Need a Copy of My Bill and Usage"
-	description="Need a Copy of My Bill and Usage"
+	pageTitle="Request a Copy of My Bill and Usage"
+	description="Request a Copy of My Bill and Usage"
 	articleId="needacopyofmybillandusage"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454862"
+	supportTopicIds="32454862,32632939"
 	productPesIds="15659"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
 
-# Need a Copy of My Bill and Usage
+# Request a Copy of My Bill and Usage
 ---
 {
-	"resourceRequired": false,
-	"title": "Need a Copy of My Bill and Usage",
-	"fileAttachmentHint": "",
-	"formElements": [
-      {
+  "resourceRequired": false,
+  "title": "Request a Copy of My Bill and Usage",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
       "id": "problem_start_time",
       "visibility": null,
-      "order": 4,
+      "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
+      "displayLabel": "Problem Start Date",
+      "required": true
+    },
+    {
+      "id": "emailid_details",
+      "order": 2,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Email ID used to download report",
+      "watermarkText": "Provide the Email ID used to download report",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 3,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Error message (if applicable)",
       "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Email ID used to download report"
-				}, {
-					"text": "Error message (if applicable)"
-				}
-			]
-		}
-	]
+      "useAsAdditionalDetails": true,
+      "hints": [
+        {
+          "text": "Describe your problem, providing as much detail as possible."
+        }
+      ]
+    }
+  ]
 }
 ---

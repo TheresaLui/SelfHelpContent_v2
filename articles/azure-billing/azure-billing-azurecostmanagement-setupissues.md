@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="dded9c4c-4ba6-4a15-a000-af6e9017e48b"
 />
 
 # Setup Issues

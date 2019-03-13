@@ -8,7 +8,8 @@
     supportTopicIds="32565604"
     productPesIds="14785"
     cloudEnvironments="public"
-    />
+    	articleId="9a909cbf-5976-4c36-92f5-23195b2fa2c1"
+/>
 
 
 # I can't update the properties of a user in my Azure AD tenant

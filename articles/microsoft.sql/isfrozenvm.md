@@ -5,7 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy"
-	authorAlias="subbuk"
+	ms.author="subbuk"
 	displayOrder=""
 	articleId="IsFrozenVm_A4F4CB4A-E3C6-4001-B3D3-278FD7FC70EA"
 	diagnosticScenario="SqlLts"

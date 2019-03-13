@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
-    authorAlias="jamdavi"
+    ms.author="jamdavi"
     articleId="insights_statusmonitor"
     displayOrder="91"
     selfHelpType="generic"

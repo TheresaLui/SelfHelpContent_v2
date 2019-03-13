@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="ac052697-4e68-4a77-8b44-d5b49663acac"
+/>
 
 # Configuring Conditional Access for MFA
 

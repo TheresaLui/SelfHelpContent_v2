@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	articleId="964de064-b70b-4486-b3c6-7fc620cc7e14"
 />
 
 # connectivity issues
