@@ -15,7 +15,7 @@
 
 # How to configure live streaming?
 
-## **Recommended documents**
+## **Recommended Documents**
 
 It might be useful to first read the article that gives an overview of live steaming using Azure Media Services.
 
