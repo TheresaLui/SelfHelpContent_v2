@@ -22,7 +22,7 @@
 			"id": "which_server",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Test B: Please select the server containing the database you need assistance with. ",
+			"displayLabel": "Please select the server containing the database you need assistance with. ",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
@@ -45,14 +45,14 @@
 			"dropdownOptions": [],
 			"dynamicDropdownOptions": {
 				"uri":"/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Sql/servers/{which_server(resourcename)}/databases?api-version=2017-10-01-preview",
-				"jTokenPath": "databaseList",
+				"jTokenPath": "value.sku",
 				"textProperty": "name",
 				"valueProperty": "id",
 				"textPropertyRegex": null
 			},
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": "which_server != Test B: Please select the server containing the database you need assistance with. "
+			"visibility": "which_server != Please select the server containing the database you need assistance with. "
 		},
 		{
 			"id": "ongoing_or_completed_updateslo",
