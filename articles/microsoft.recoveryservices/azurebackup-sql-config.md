@@ -22,7 +22,6 @@
 - [**VMNotInRunningStateUserError** - SQL server VM is either shutdown and not accessible to Azure Backup service](https://aka.ms/AB-vmnotinrunningstateusererror)<br>
 - [**GuestAgentStatusUnavailableUserError** - Azure Backup service uses Azure VM guest agent for doing backup but guest agent is not available on the target server](https://aka.ms/AB-guestagentstatusunavailableusererror)<br>
 - [**AutoProtectionCancelledOrNotValid** - Auto-protection Intent was either removed or is no more valid](https://aka.ms/AB-autoprotectioncancelledornotvalid)
-- [Can I throttle the speed of the SQL Server backup policy?](https://aka.ms/AB-AA4dp5n) </br>
 - [When I protect a SQL Server instance are future databases automatically added?](https://aka.ms/AB-AA4dp5q)</br>
 - [If I change the recovery model, how do I restart protection?](https://aka.ms/AB-AA4dp5p)</br>
 - [Can I protect SQL Always On Availability Groups where the primary replica is on premises?](https://aka.ms/AB-AA4dwue)</br>
