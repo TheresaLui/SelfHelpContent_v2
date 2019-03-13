@@ -20,11 +20,11 @@ supportTopicIds="32612423"
 
 Health Checks are free Log Analytics offerings. OnDemand Assessment are premium offerings on top of Log Analytics available to Microsoft Premier and Unified customers. If you are interested in purchasing OnDemand Assessments to get a more comprehensive set of rules and analysis, contact InterestedInODA@microsoft.com
 
-## **Troubleshooting On-Demand Assessments**
+## **Recommended documents**
 
 If you are having issues with On-Demand Assessments, please see the documentation below.
 
-### **Recommended Documents**
+### **Troubleshooting On-Demand Assessments**
 
 [Office 365 solutions unavailable in US Government Cloud (Fairfax) and China Government Cloud Log Analytics](https://docs.microsoft.com/en-us/services-hub/health/fairfax-o365-solutions-unavailable)
 
