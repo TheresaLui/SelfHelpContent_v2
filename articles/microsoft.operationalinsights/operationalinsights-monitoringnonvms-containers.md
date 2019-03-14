@@ -21,14 +21,17 @@ Container Monitoring does not include Update Management, Security Management, AK
 
 ## **Recommended documents**
 * [Container Monitoring Solution](https://docs.microsoft.com/azure/azure-monitor/insights/containers)
+
 * [Azure Monitor for containers (Container Insights)](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)
 
 ## Troubleshooting and FAQ
 * [Azure Monitor for containers FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-faq)
+
 * [Azure Monitor for containers Troubleshoot](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-troubleshoot)
 
 ## Release Notes for Agent
 * [Azure Monitor for containers Agent Release Notes](https://github.com/Microsoft/docker-provider/tree/ci_feature_prod#release-history)
+
 * [Container Monitoring Solution Agent Release Notes](https://github.com/Microsoft/Docker-Provider/tree/master#release-history)
 
 ## Known Issues
