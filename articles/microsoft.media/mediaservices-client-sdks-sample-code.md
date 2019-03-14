@@ -35,5 +35,5 @@ All code samples are provided as open source projects on Github. You are welcome
 
   - [Version 2 Code Samples](https://azure.microsoft.com/resources/samples/?service=media-services)<br>
   - [Azure Functions and Logic Apps samples for v2 API](https://azure.microsoft.com/resources/samples/media-services-dotnet-functions-integration/)<br>
-  - 
+  
   
