@@ -20,9 +20,9 @@
 
 1. If you experience a failure during installation, you can restart the deployment from the failed step by using the -Rerun option of the deployment script
 2. Check for issues in the [Known issues: Deployment](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting#deployment) article
-3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence) under the current version for any late breaking changes or known issues that may be causing your installation failure
-4. For a partially-completed deployment, validate the status of your Azure Stack by running **Test-AzureStack** from the privileged endpoint. For instructions, see [Run Test-AzureStack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test)
-5. Check Azure Stack logs by following [Azure Stack log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#log-collection-tool)
+3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence) to check any late breaking changes or known issues that may be causing your installation failure
+4. For a partially-completed deployment, validate the status of your Azure Stack by [running **Test-AzureStack**](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) from the privileged endpoint
+5. Check Azure Stack logs using the [Azure Stack log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#log-collection-tool)
 
 ## **Recommended documents**
 

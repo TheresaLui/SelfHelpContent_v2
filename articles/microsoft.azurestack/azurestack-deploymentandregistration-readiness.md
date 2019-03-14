@@ -23,7 +23,7 @@ You can the use Azure Stack Readiness Checker tool to validate Azure Stack PKI c
 1. Get the Azure Stack Readiness Checker tool [from the PowerShell Gallery](https://aka.ms/AzsReadinessChecker)
 2. [Perform core services certificate validation](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-pki-certs#perform-core-services-certificate-validation) to prepare and validate the Azure Stack PKI certificates for deployment and [secret rotation](https://docs.microsoft.com/azure/azure-stack/azure-stack-rotate-secrets)
 3. If SQL/MySQL or AppService deployments are planned, [Perform platform as a service (PaaS) certificate validation
-](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-pki-certs#perform-platform-as-a-service-certificate-validation) to prepare and validate the certificates for platform as a service (PaaS) applications
+](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-pki-certs#perform-platform-as-a-service-certificate-validation) to prepare the certificates for platform-as-a-service (PaaS) applications
 
 ## **Recommended documents**
 

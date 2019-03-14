@@ -30,4 +30,4 @@ If you’re interested in deploying an Azure Stack integrated system, you should
 [Datacenter integration considerations for Azure Stack integrated systems](https://docs.microsoft.com/azure/azure-stack/azure-stack-datacenter-integration)<br>
 [Azure Stack deployment connection models](https://docs.microsoft.com/azure/azure-stack/azure-stack-connection-models)<br>
 [Azure connected Azure Stack deployment decisions](https://docs.microsoft.com/azure/azure-stack/azure-stack-connected-deployment)<br>
-[Azure disconnected Azure Stack deployment decisions](https://docs.microsoft.com/azure/azure-stack/azure-stack-connection-models)
+[Azure disconnected Azure Stack deployment decisions](https://docs.microsoft.com/azure/azure-stack/azure-stack-disconnected-deployment)

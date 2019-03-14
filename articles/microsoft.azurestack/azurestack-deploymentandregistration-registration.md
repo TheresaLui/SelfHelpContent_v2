@@ -22,9 +22,9 @@ Registering Azure Stack with Azure allows you to download marketplace items from
 
 1. Follow the steps in the [Azure Stack Registration article](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration) to register your Azure Stack environment
 2. If you encounter registration issues, check for known issues in [Azure Stack Registration failures](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration#registration-failures)
-2. [Verify your Azure Stack registration](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration#verify-azure-stack-registration)
-3. If you need to renew or change your registration, follow the steps at [Renew or change registration](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration#renew-or-change-registration)
-4. Register tenants for your Azure Stack by following the instructions to [Manage tenant registration in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-ref-operations)
+3. [Verify your Azure Stack registration](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration#verify-azure-stack-registration)
+4. If you need to renew or change your registration, follow the steps at [Renew or change registration](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration#renew-or-change-registration)
+5. Register tenants for your Azure Stack by following the instructions to [Manage tenant registration in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-ref-operations)
 
 ## **Recommended documents**
 
