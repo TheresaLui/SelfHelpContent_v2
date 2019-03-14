@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
-	articleId="97adbec1-47cd-4cc1-b737-e225e04d5d0c"
+	articleId="eae08452-2bd4-4c55-ae04-c9803ce51de0"
 />
 
 # How to find the right data migration method
