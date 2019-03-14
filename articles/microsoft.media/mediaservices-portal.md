@@ -1,0 +1,33 @@
+<properties
+	pageTitle="Azure Media Services Portal Experience"
+	description="Azure Media Services Portal Experience"
+	infoBubbleText=""
+	service="microsoft.media"
+	resource=""
+	authors="johndeu"
+	ms.author="johndeu"
+	displayOrder="1"
+	articleId="mediaservices-portal"
+	diagnosticScenario=""
+	selfHelpType="generic"
+	supportTopicIds="32632065"
+	resourceTags=""
+	productPesIds="14885"
+	cloudEnvironments="public"
+/>
+
+# Azure Media Services Portal Experience
+
+## **Recommended Documents**
+
+* [Get Started with Azure AD Authentication in the portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-get-started-with-aad)<br>
+* [Get started with delivering content on demand by using the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-vod-get-started)<br>
+* [How to perform live streaming with on-premises encoders using the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-live-passthrough-get-started)<br>
+* [Manage streaming endpoints with the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-manage-streaming-endpoints)<br>
+* [Upload files to a Media Services account in the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-upload-files)<br>
+* [Encode an asset by using Media Encoder Standard in the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-encode)<br>
+* [Scale your media processing reserved units in the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-scale-media-processing)<br>
+* [Scale streaming endpoints with the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-scale-streaming-endpoints)<br>
+* [Monitor encoding job progress in the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-check-job-progress)<br>
+* [Create and monitor Media Services events with Event Grid using the Azure portal](https://docs.microsoft.com/azure/media-services/latest/monitor-events-portal-how-to)
+
