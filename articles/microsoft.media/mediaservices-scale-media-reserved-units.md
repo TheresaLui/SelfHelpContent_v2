@@ -19,7 +19,7 @@
 
 Azure Media Services enables you to scale media processing in your account by managing Media Reserved Units (MRUs).
 
-For the Audio Analysis and Video Analysis Jobs that are triggered by Media Services v3 or Video Indexer, it is highly recommended to provision your account with 10 S3 MRUs. If you need more than 10 S3 MRUs, open a support ticket using the [Azure portal](https://portal.azure.com/).
+For the Audio Analysis and Video Analysis Jobs that are triggered by Media Services v3 or Video Indexer, it is highly recommended to provision your account with 10 S3 MRUs. You can open a support ticket to increase this quota. Make sure to include detailed information in the request on the desired quota changes, use-case scenarios, and regions required.
 
 ## **Recommended Documents**
 

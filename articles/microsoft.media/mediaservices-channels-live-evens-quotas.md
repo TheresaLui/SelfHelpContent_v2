@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Manage Channels quotas"
-	description="Manage Channels quotas"
+	pageTitle="Manage quotas of Channels or Live Events"
+	description="Manage quotas of Channels or Live Events"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
 	ms.author="juliako"
 	displayOrder="1"
-	articleId="mediaservices-channels-quotas"
+	articleId="mediaservices-channels-live-evens-quotas"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32632084"
@@ -15,9 +15,9 @@
 	cloudEnvironments="public"
 />
 
-# Manage Channels quotas
+# Manage quotas of Channels or Live Events
 
-There is a limit of 5 live Channels per Media Services account. In Media Services v3, Channels were replaced with Live Events.
+There is a default (soft) limit of 5 live Channels (v2) and Live Events (v3) per Media Services account. You can open a support ticket to increase this quota. Make sure to include detailed information in the request on the desired quota changes. Also include your regions scale information.
 
 ## **Recommended Documents**
 

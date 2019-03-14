@@ -17,7 +17,18 @@
 
 # Manage Azure Media Services quotas
 
-There are quotas and limitations associated with an Azure Media Services account. Some limits are fixed, in which case they cannot be increased. To obtain higher limits for resources that are not fixed, do **not** create additional Media Services accounts. Instead, open a [support ticket](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) and include detailed information in the request on the desired quota changes, use-case scenarios, and regions required.
+There are quotas and limitations associated with an Azure Media Services account. Some limits are fixed, in which case they cannot be increased. The following list contains the default (soft) limits that could be increased by opening a support ticket. Make sure to include detailed information in the request on the desired quota changes, use-case scenarios, and regions required.
+
+| Resource | Default Limit | 
+| --- | --- | 
+| Assets per Azure Media Services account | 1,000,000|
+| Dynamic Manifest Filters|100|
+| Listing Transforms|Paginate the response, with 1000 Transforms per page|
+| Listing Jobs|Paginate the response, with 500 Jobs per page|
+| Live Events per Media Services account |5|
+| Live Outputs in running state per LiveEvent |3|
+| Streaming Policies | 100 |
+| Content Key Policy |30 | 
 
 ## **Recommended Documents**
 
