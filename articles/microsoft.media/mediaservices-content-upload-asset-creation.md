@@ -19,9 +19,11 @@
 
 You need to create an asset if you want to encode or analyze your on-demand content. Or, if you have a Live Output that is associated with an Asset, which it uses to store the record videos.
 
-## **Upload digital files into Assets**
+## **Recommended Steps**
 
-One of the common Media Services workflows is to upload, encode, and stream a file. This section outlines the general steps.
+**Upload digital files into Assets**
+
+The following general steps describe how to upload a file. Then, encode or analyze the uploaded file. 
 
 1. Use the Media Services v3 API to create a new "input" Asset. This operation creates a container in the storage account associated with your Media Services account. The API returns the container name (for example, `"container": "asset-b8d8b68a-2d7f-4d8c-81bb-8c7bbbe67ee4"`).
    
@@ -30,41 +32,40 @@ One of the common Media Services workflows is to upload, encode, and stream a fi
     You can use the Azure CLI to upload directly to any storage account and container that you have rights to in your subscription. <br/>The container name must be unique and follow storage naming guidelines. The name doesn't have to follow the Media Services Asset container name (Asset-GUID) formatting. 
     
     ```azurecli
-    az storage blob upload -f /path/to/file -c MyContainer -n MyBlob
+        az storage blob upload -f /path/to/file -c MyContainer -n MyBlob
     ```
 2. Get a SAS URL with read-write permissions that will be used to upload digital files into the Asset container. You can use the Media Services API to [list the asset container URLs](https://docs.microsoft.com/rest/api/media/assets/listcontainersas).
 3. Use the Azure Storage APIs or SDKs (for example, the [Storage REST API](https://docs.microsoft.com/azure/storage/common/storage-rest-api-auth), [JAVA SDK](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-java-v10), or [.NET SDK](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows)) to upload files into the Asset container. 
 4. Use Media Services v3 APIs to create a Transform and a Job to process your "input" Asset. For more information, see [Transforms and Jobs](https://docs.microsoft.com/azure/media-services/latest/transforms-jobs-concept).
-5. Stream the content from the "output" asset.
 
-## **Create a new asset**
+**Create a new asset**
 
-### REST
+REST:
 
 ```
-PUT https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{amsAccountName}/assets/{assetName}?api-version=2018-07-01
+    PUT https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{amsAccountName}/assets/{assetName}?api-version=2018-07-01
 ```
 
 Also, see the [Create an Asset with REST](https://docs.microsoft.com/rest/api/media/assets/createorupdate#examples) example. The example shows how to create the **Request Body** where you can specify useful information like description, container name, storage account, and other information.
 
-### cURL
+cURL:
 
 ```cURL
-curl -X PUT \
-  'https://management.azure.com/subscriptions/00000000-0000-0000-000000000000/resourceGroups/resourceGroupName/providers/Microsoft.Media/mediaServices/amsAccountName/assets/myOutputAsset?api-version=2018-07-01' \
-  -H 'Accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "properties": {
-    "description": "",
-  }
-}'
+    curl -X PUT \
+      'https://management.azure.com/subscriptions/00000000-0000-0000-000000000000/resourceGroups/resourceGroupName/providers/Microsoft.Media/mediaServices/amsAccountName/assets/myOutputAsset?api-version=2018-07-01' \
+      -H 'Accept: application/json' \
+      -H 'Content-Type: application/json' \
+      -d '{
+      "properties": {
+        "description": "",
+      }
+    }'
 ```
 
-### .NET
+.NET:
 
 ```csharp
- Asset asset = await client.Assets.CreateOrUpdateAsync(resourceGroupName, accountName, assetName, new Asset());
+    Asset asset = await client.Assets.CreateOrUpdateAsync(resourceGroupName, accountName, assetName, new Asset());
 ```
 
 Also, see [.NET example](https://docs.microsoft.com/azure/media-services/latest/job-input-from-local-file-how-to).
