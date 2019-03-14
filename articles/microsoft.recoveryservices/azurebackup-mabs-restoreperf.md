@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 - [Frequently asked questions](https://aka.ms/BKP-ABS-FAQs)<br>
-- [Troubleshoot Azure Backup Server](AB-AA4dqdk)<br>
+- [Troubleshoot Azure Backup Server](https://aka.ms/AB-AA4dqdk)<br>
