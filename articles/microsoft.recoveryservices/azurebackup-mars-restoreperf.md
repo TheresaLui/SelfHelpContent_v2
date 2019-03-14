@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-- [Frequently asked questions](AB-AA4dqdn)<br>
-- [Troubleshoot Microsoft Azure Recovery Services (MARS) Agent](AB-AA4dy33)
+- [Frequently asked questions](https://aka.ms/AB-MARS-FAQ)<br>
+- [Troubleshoot Microsoft Azure Recovery Services (MARS) Agent](https://aka.ms/AB-MARS-Tshooting)
