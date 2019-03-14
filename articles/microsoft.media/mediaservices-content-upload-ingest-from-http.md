@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
- # Upload from HTTP
+# Upload from HTTP
 
 In Media Services v3, when you submit Jobs to process your videos, you have to tell Media Services where to find the input video. One of the options is to specify an HTTP(s) URL as a job input.
 

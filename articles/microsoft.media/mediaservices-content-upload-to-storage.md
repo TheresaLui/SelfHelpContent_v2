@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
- # Upload to storage
+# Upload to storage
 
 To start managing content, you need to create a Media Services account and associate it with an Azure Storage account. To upload your digital files, you need to create an Asset which is used to store the content in the associated Azure blob storage container. In Media Services v3, the Storage APIs are used to upload files into Assets. In Media Services v3, you use the Azure Storage APIs or SDKs to upload files into the Asset container. 
 
