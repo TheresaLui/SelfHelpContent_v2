@@ -32,7 +32,7 @@ If you are having an issue with live encoding, please test with one of the recom
 * [Overview of live streaming with the v3 API](https://docs.microsoft.com/azure/media-services/latest/live-streaming-overview)
 
 ### **Using Channels in the v2 API (legacy)**
-It is recommended to first read the [Live Steaming using Azure Media Services Overview](https://docs.microsoft.com/azure/media-services/previous/media-services-manage-channels-overview/)
+It is recommended to first read the [Live Streaming using Azure Media Services Overview](https://docs.microsoft.com/azure/media-services/previous/media-services-manage-channels-overview/)
 
 The following articles show how to configure live streaming.
 
