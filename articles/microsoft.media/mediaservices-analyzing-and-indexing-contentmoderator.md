@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services analyzing with content moderator"
 	description="Azure Media Services analyzing with content moderator"
-	infoBubbleText="Azure Media Services analyzing with content moderator"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource=""
 	authors="johndeu"

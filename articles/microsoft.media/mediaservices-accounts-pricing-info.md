@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services pricing information"
 	description="Azure Media Services pricing information"
-	infoBubbleText="Azure Media Services pricing information"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="johndeu"

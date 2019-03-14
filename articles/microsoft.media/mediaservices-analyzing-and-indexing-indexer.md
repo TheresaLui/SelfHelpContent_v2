@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services analyzing with the face redactor"
 	description="Azure Media Services analyzing with the Indexer"
-	infoBubbleText="Azure Media Services analyzing with the Indexer"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource=""
 	authors="johndeu"

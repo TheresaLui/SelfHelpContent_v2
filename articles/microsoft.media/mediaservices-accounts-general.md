@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services account creation and management"
 	description="Azure Media Services account creation and management"
-	infoBubbleText="Azure Media Services account creation and management"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="johndeu"

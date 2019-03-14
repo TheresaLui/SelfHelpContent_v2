@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services analyzing and indexing files"
 	description="Azure Media Services analyzing and indexing files"
-	infoBubbleText="Azure Media Services analyzing and indexing files"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource=""
 	authors="johndeu"

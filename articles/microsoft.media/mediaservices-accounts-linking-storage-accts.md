@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services linking and managing storage accounts"
 	description="Azure Media Services linking and managing storage accounts"
-	infoBubbleText="Azure Media Services linking and managing storage accounts"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="johndeu"

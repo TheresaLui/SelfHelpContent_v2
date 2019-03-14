@@ -1,7 +1,7 @@
 <properties
 	pageTitle="How to configure live streaming"
 	description="How to configure live streaming"
-	infoBubbleText="Azure Media Services how to configure live streaming"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource="liveevent"
 	authors="juliako"

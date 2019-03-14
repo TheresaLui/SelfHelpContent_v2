@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Media Services resource group movement"
 	description="Azure Media Services resource group movement"
-	infoBubbleText="Azure Media Services resource group movement"
+	infoBubbleText=""
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="johndeu"
