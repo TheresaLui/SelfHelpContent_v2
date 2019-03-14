@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Management"
-	articleId="azurecostmanagement-problemscopingquestion"
+	articleId="azurecostmanagement"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
