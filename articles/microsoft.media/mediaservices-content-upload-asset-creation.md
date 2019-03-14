@@ -31,7 +31,7 @@ The following general steps describe how to upload a file. Then, encode or analy
 
     You can use the Azure CLI to upload directly to any storage account and container that you have rights to in your subscription. <br/>The container name must be unique and follow storage naming guidelines. The name doesn't have to follow the Media Services Asset container name (Asset-GUID) formatting. 
     
-    ```azurecli
+    ```
         az storage blob upload -f /path/to/file -c MyContainer -n MyBlob
     ```
 2. Get a SAS URL with read-write permissions that will be used to upload digital files into the Asset container. You can use the Media Services API to [list the asset container URLs](https://docs.microsoft.com/rest/api/media/assets/listcontainersas).
@@ -50,7 +50,7 @@ Also, see the [Create an Asset with REST](https://docs.microsoft.com/rest/api/me
 
 cURL:
 
-```cURL
+```
     curl -X PUT \
       'https://management.azure.com/subscriptions/00000000-0000-0000-000000000000/resourceGroups/resourceGroupName/providers/Microsoft.Media/mediaServices/amsAccountName/assets/myOutputAsset?api-version=2018-07-01' \
       -H 'Accept: application/json' \
@@ -64,7 +64,7 @@ cURL:
 
 .NET:
 
-```csharp
+```
     Asset asset = await client.Assets.CreateOrUpdateAsync(resourceGroupName, accountName, assetName, new Asset());
 ```
 
