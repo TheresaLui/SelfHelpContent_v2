@@ -8,7 +8,7 @@
 	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorolrnotsupported"
-	diagnosticScenario="azurebackup-crc-usererrorolrnotsupported"
+	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
@@ -19,7 +19,7 @@
 # UserErrorOlrNotSupported
 
 <!--issueDescription-->
-## **Restore operation failed because you are performing a 'Replace existing' operation for an unsupported scenario. **
+## **Restore operation failed because you are performing a 'Replace existing' operation for an unsupported scenario.**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
