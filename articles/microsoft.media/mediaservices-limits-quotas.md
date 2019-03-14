@@ -21,3 +21,7 @@
 To manage Azure Media Services v3 quotas, see the [Media Services v3 quotas and limitations](https://docs.microsoft.com/azure/media-services/latest/limits-quotas-constraints) article. <br>If you are working with the Media Services v2 (legacy), see [Media Services v2 quotas and limitations](https://docs.microsoft.com/azure/media-services/previous/media-services-quotas-and-limitations).
 
 To obtain higher limits for resources that are not fixed, do **not** create additional Media Services accounts. Instead, open a [support ticket](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) and include detailed information in the request on the desired quota changes, use-case scenarios, and regions required.
+
+## **Recommended Documents**
+
+[Azure Media Services v3 quotas and limitations](https://docs.microsoft.com/azure/media-services/latest/limits-quotas-constraints) <br>
