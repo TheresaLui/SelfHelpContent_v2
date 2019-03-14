@@ -23,10 +23,10 @@ The Managed Service Identity (MSI) requires "Storage Blob Data Contributor" perm
 
 ## **Recommended Steps**
 
-1. Create an Azure storage account and enable Data Lake Storage Gen 2 preview.
-2. Create a user assigned managed identity.
-3. Assign Storage Blob Data Owner access to the created managed identity on Azure Storage.
-4. In the Storage blade, select the Storage Account, and the associated managed user identity, and proceed with cluster creation workflow.
+1. Create an Azure storage account and enable Data Lake Storage Gen 2 preview
+2. Create a user assigned managed identity
+3. Assign Storage Blob Data Owner access to the created managed identity on Azure Storage
+4. In the Storage blade, select the Storage Account, and the associated managed user identity, and proceed with cluster creation workflow
 
 ## **Recommended Documents**
 
