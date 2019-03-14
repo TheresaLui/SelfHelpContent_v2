@@ -8,7 +8,7 @@
 	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorbackupoperationinprogress"
-	diagnosticScenario="azurebackup-crc-usererrorbackupoperationinprogress"
+	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
