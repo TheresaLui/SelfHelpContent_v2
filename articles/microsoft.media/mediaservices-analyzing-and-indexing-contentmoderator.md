@@ -20,7 +20,7 @@
 
 Content Moderator is available as a standalone analyzer in the v2 API only. The Azure Media Content Moderator media processor (MP) enables you to use machine-assisted moderation for your videos. For example, you might want to detect possible adult and racy content in videos and review the flagged content by your human moderation teams.
 
-### Is the Content Moderator in in the legacy v2 API Preview only?
+### Is the Content Moderator in the legacy v2 API Preview only?
 The Azure Media Content Moderator processor exposed in the legacy v2 API is currently in Preview and only available via the v2 API for Media Services.  For customers looking for a production (GA) ready API, we recommend to use the [Video Indexer API](http://video.ai) directly. 
 
 ### Using the v3 API or Video Indexer API for content moderation

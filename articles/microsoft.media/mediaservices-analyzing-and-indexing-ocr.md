@@ -30,8 +30,8 @@ Also, you may consider consuming the [Video Indexer APIs](http://video.ai) if yo
 
 ## **Recommended Documents**
 
-* [Analyze video files in v3 API, including OCR](https://docs.microsoft.com/azure/media-services/latest/analyzing-video-audio-files-concept)
-* [Using the OCR processor to detect text in a video (v2 legacy API)](https://docs.microsoft.com/azure/media-services/previous/media-services-video-optical-character-recognition)
+* [Analyze video files in v3 API, including OCR](https://docs.microsoft.com/azure/media-services/latest/analyzing-video-audio-files-concept)<br>
+* [Using the OCR processor to detect text in a video (v2 legacy API.)](https://docs.microsoft.com/azure/media-services/previous/media-services-video-optical-character-recognition)<br>
 * [Scale media analytics](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview)
 
 

@@ -18,7 +18,7 @@
 
 # Azure Media Player playback issues
 
-## **Recomended Steps**
+## **Recommended Steps**
 
 1. Remove all content protection (AES) or DRM encryption first from the stream to rule out DRM related issues.
 2. Test your (non-DRM) content using the [Azure Media Services test player](https://ampdemo.azureedge.net/azuremediaplayer.html)
@@ -29,7 +29,7 @@
 
 ### **What browsers and OS are supported for Media Player?**
 
-See the [browser and OS compatibilty matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix) for Azure Media Player
+See the [browser and OS compatibility matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix) for Azure Media Player
 
 ### **How do I check if my browser supports Media Source Extensions**
 

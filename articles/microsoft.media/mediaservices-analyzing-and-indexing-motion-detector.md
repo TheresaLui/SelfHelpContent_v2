@@ -21,7 +21,7 @@
 
 ## **Recommended Documents**
 
-* [Detecting motion with the Azure Media Motion Detector (v2 legacy API)](https://docs.microsoft.com/azure/media-services/previous/media-services-motion-detection)
+* [Detecting motion with the Azure Media Motion Detector (v2 legacy API.)](https://docs.microsoft.com/azure/media-services/previous/media-services-motion-detection)<br>
 * [Scale media analytics](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview)
 
 

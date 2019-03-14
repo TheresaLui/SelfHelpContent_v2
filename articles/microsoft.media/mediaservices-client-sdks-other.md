@@ -40,13 +40,15 @@
 - Java
   - [Java reference](https://docs.microsoft.com/java/api/overview/azure/mediaservices/management?view=azure-java-stable)<br>
   - [Java install azure-mgmt-media](https://search.maven.org/artifact/com.microsoft.azure.mediaservices.v2018_07_01/azure-mgmt-media/)<br>
+  
 - Python
   - [Python reference](https://docs.microsoft.com/python/api/overview/azure/mediaservices/management?view=azure-python)<br>
-  - [PyPi install azure-mgmt-media](https://pypi.org/project/azure-mgmt-media/)<br>
+  - [PyPI install azure-mgmt-media](https://pypi.org/project/azure-mgmt-media/)<br>
   
 	```
 	pip install azure-mgmt-media
 	```
+
 - Node.js
   - [Node.js reference](https://docs.microsoft.com/javascript/api/azure-arm-mediaservices/?view=azure-node-latest)<br>
   - [NPM install azure-arm-mediaservices](https://www.npmjs.com/package/azure-arm-mediaservices/)<br>
@@ -54,8 +56,10 @@
 	```
 	npm install azure-arm-mediaservices
 	```
+
 - GO
   - [Go reference](https://godoc.org/github.com/Azure/azure-sdk-for-go/services/mediaservices/mgmt/2018-07-01/media)<br>
+  
 - Ruby
   - [Ruby gem install](https://rubygems.org/gems/azure_mgmt_media_services/)<br>
 
@@ -67,7 +71,7 @@
 - Command Line Interface (CLI)
   - [Azure Media Services CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)<br>
   
-**Version 2 client SDks (legacy)**
+**Version 2 client SDKs (legacy)**
 
 - .NET
   - [.NET Reference for v2 SDK](https://docs.microsoft.com/dotnet/api/microsoft.windowsazure.mediaservices.client?view=azure-dotnet)<br>

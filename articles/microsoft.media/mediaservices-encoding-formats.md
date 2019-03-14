@@ -4,11 +4,12 @@
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
+    ms.author="juliako"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
-    productPesIds="32632096"
+    productPesIds=""
     cloudEnvironments="public"
  	articleId="38289a66-10ef-4a00-8bc2-af5c365479c9"
 />

@@ -21,7 +21,7 @@
 
 ### **What browsers and OS are supported for Media Player?**
 
-See the [browser and OS compatibilty matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix) for Azure Media Player
+See the [browser and OS compatibility matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix) for Azure Media Player
 
 ### **How do I check if my browser supports Media Source Extensions**
 
@@ -48,7 +48,7 @@ Also, some Android devices do not have support for all popular codecs (HEVC, AAC
 
 ## **Recommended Documents**
 
-* [Browser and OS compatibilty matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix)<br> 
+* [Browser and OS compatibility matrix](http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix)<br> 
 * [Azure Media Player overview](https://docs.microsoft.com/azure/media-services/latest/use-azure-media-player)<br>
 * [Azure Media Player documentation](http://amp.azure.net/libs/amp/latest/docs/index.html)<br>
 * [Azure Media Player sample streams](https://amp.azure.net/libs/amp/latest/docs/samples.html)

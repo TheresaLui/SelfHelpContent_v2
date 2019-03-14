@@ -20,8 +20,8 @@
 
 ## **Recommended Documents**
 
-* [Access Azure Media Services API with the Azure CLI](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)
-* [Get started with Azure AD authentication by using the Azure portal](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-get-started-with-aad)<br>
+* [Access Azure Media Services API with the Azure CLI](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)<br>
+* [Get started with Azure AD authentication by using the Azure portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-get-started-with-aad)<br>
 * [Access the Azure Media Services API with Azure AD authentication](https://docs.microsoft.com/azure/media-services/previous/media-services-use-aad-auth-to-access-ams-api)<br>
 * [Use Azure AD authentication to access the Media Services API with REST](https://docs.microsoft.com/azure/media-services/previous/media-services-rest-connect-with-aad)
 
