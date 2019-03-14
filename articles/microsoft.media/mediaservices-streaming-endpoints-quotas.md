@@ -17,7 +17,7 @@
 
 # Manage Streaming Endpoints quotas
 
-There is a limit of 2 Streaming Endpoints per Media Services account. This quota applies whether the Streaming Endpoint is stopped or running.
+There is a limit of 2 Streaming Endpoints per Media Services account. This quota applies to stopped or running Streaming Endpoints.
 
 ## **Recommended Documents**
 
