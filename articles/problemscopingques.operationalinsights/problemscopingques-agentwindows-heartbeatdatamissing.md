@@ -71,7 +71,7 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "is_it_azure_vm",
+            "id": "flush_agent",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you tried to flush the agent cache?",
