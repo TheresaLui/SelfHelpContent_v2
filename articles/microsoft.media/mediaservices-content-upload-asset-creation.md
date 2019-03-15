@@ -23,7 +23,7 @@ You need to create an asset if you want to encode or analyze your on-demand cont
 
 **Upload digital files into Assets**
 
-The following general steps describe how to upload a file. Then, encode or analyze the uploaded file. 
+The following general steps describe how to upload a file. Then, encode or analyze the uploaded file. <br>
 
 1. Use the Media Services v3 API to create a new "input" Asset. This operation creates a container in the storage account associated with your Media Services account. The API returns the container name (for example, `"container": "asset-b8d8b68a-2d7f-4d8c-81bb-8c7bbbe67ee4"`).
    
