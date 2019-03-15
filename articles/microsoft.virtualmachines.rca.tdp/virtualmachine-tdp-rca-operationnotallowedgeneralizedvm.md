@@ -22,7 +22,7 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because starting a VM from a generalized image is not supported.
 <!--/issueDescription-->
 
-To work with generalized images correcty, follow this process:
+To work with generalized images correctly, follow this process:
 - Generalize the VM by running `sysprep` for Windows VMs or `sudo waagent -deprovision+user` for Linux VMs.
 - Deallocate the resources in the VM.
 - Set the VM state to generalized.
