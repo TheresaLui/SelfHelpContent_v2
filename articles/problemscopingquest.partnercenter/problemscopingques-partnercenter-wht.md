@@ -8,7 +8,7 @@
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_invoice"
+	articleId="scopingquestion_partnercenter_wht"
 />
 # PC WHT Problem Template
 ---
@@ -27,7 +27,6 @@
             "id": "pc_invoices",
             "order": 2,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Please enter your invoices",
             "watermarkText": "Provide all your invoice ids (comma separated)",
             "required": true
@@ -36,10 +35,9 @@
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
             "watermarkText": "Provide additional information about your issue including error messages.",
-            "required": false
+            "required": true
         },
         {
             "id": "pc_learn_more_text",
