@@ -14,7 +14,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Service was or is unavailable",                
+                "title": "Service was or is unavailable",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
@@ -50,7 +50,7 @@
                       "id": "iis_logs",
                       "order": 4,
                       "controlType": "dropdown",
-                      "displayLabel": "Have you checked the IIS logs on the role instances during this time? If yes, please upload the IIS logs(C:\Resources\Directory\<guid>.<role>.DiagnosticStore\LogFiles\W3SVC1) corresponding to this time.",
+                      "displayLabel": "Have you checked the IIS logs on the role instances during this time? If yes, please upload the IIS logs corresponding to this time.",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {

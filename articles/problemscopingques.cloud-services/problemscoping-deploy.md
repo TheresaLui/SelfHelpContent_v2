@@ -27,7 +27,7 @@
                     "id": "correlation_id",
                     "order": 2,
                     "controlType": "textbox",
-                    "displayLabel": "Correlation ID/Operation ID",
+                    "displayLabel": "What is the Correlation ID or Operation ID corresponding to the failure?",
                     "required": false
                 },{
                     "id": "deploy_from",

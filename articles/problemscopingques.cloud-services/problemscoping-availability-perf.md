@@ -14,7 +14,7 @@
 ---
 {
                 "resourceRequired": true,
-                "title": "Performance",                
+                "title": "Performance",
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
