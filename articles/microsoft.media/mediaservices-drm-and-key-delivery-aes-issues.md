@@ -19,6 +19,6 @@
 
 ## **Recommended Documents**
 
-[Concept: Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview)<br>
-[FAQs](https://docs.microsoft.com/azure/media-services/latest/frequently-asked-questions#content-protection)<br>
-[Tutorial: Use AES-128 dynamic encryption and the key delivery service](https://docs.microsoft.com/azure/media-services/latest/protect-with-aes128)
+* [Concept: Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview)<br>
+* [FAQs](https://docs.microsoft.com/azure/media-services/latest/frequently-asked-questions#content-protection)<br>
+* [Tutorial: Use AES-128 dynamic encryption and the key delivery service](https://docs.microsoft.com/azure/media-services/latest/protect-with-aes128)
