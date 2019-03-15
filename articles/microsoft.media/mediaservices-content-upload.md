@@ -21,8 +21,8 @@ To start managing content, you need to create a Media Services account and assoc
 
 ## **Recommended Documents**
 
-[Cloud upload and storage](https://docs.microsoft.com/azure/media-services/latest/storage-account-concept)<br>
-[Assets](https://docs.microsoft.com/azure/media-services/latest/assets-concept)<br>
-[Encoding with Media Services v3](https://docs.microsoft.com/azure/media-services/latest/encoding-concept)<br>
-[Using a cloud DVR](https://docs.microsoft.com/azure/media-services/latest/live-event-cloud-dvr)<br>
-[Tutorial: Encode a remote file based on URL and stream the video - REST](https://docs.microsoft.com/azure/media-services/latest/stream-files-tutorial-with-rest)
+* [Cloud upload and storage](https://docs.microsoft.com/azure/media-services/latest/storage-account-concept)<br>
+* [Assets](https://docs.microsoft.com/azure/media-services/latest/assets-concept)<br>
+* [Encoding with Media Services v3](https://docs.microsoft.com/azure/media-services/latest/encoding-concept)<br>
+* [Using a cloud DVR](https://docs.microsoft.com/azure/media-services/latest/live-event-cloud-dvr)<br>
+* [Tutorial: Encode a remote file based on URL and stream the video - REST](https://docs.microsoft.com/azure/media-services/latest/stream-files-tutorial-with-rest)
