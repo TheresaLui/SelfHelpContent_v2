@@ -14,10 +14,6 @@
 
 # service tiers or scaling resources/issues scaling a database or elastic pool
 
-## **Quick Read: Stuck/Slow Scaling Operation**
-* [Single Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)<br>
-* [Elastic Pool](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool-scale#change-compute-resources-vcores-or-dtus)<br>
-
 ## **Recommended Documents**
 
 * [Resources for scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale?WT.mc_id=pid:13491:sid:32630431/)<br>
