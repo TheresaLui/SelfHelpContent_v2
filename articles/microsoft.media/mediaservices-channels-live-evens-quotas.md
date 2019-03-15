@@ -17,7 +17,7 @@
 
 # Manage quotas of Channels or Live Events
 
-There is a default (soft) limit of 5 live Channels (v2) and Live Events (v3) per Media Services account. You can open a support ticket to increase this quota. Make sure to include detailed information in the request on the desired quota changes, including your region's scale information.
+There is a default (soft) limit of 5 live Channels (v2) and Live Events (v3) per Media Services account. You can open a support ticket to increase this quota. Make sure to include detailed information in the request on the desired quota changes, including your region and scale information.
 
 ## **Recommended Documents**
 
