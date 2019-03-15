@@ -1,10 +1,11 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup or restore performance"
          description="Scoping questions for Azure VM backup or restore performance"
-         authors="srinathvasireddy"
+         authors="srinathvasireddy,summertgu"
+         ms.author="tiag"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565496"
-         productPesIds="14749"
+         productPesIds="14749,15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="0130d88c-e793-44b1-b0af-0633218c1cd0"
