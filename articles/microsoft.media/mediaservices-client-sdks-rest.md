@@ -24,13 +24,15 @@
 1. Get information needed to [access the v3 APIs](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)
 2. Download and install the [Postman REST client application](https://www.getpostman.com/)
    
-   - We are using Postman but any REST client tool would be suitable. Other alternatives are: Visual Studio Code with the REST plugin or Telerik Fiddler.
+   - We are using Postman, but any REST client tool would be suitable. Other alternatives are Visual Studio Code with the REST plugin or Telerik Fiddler.
   
 3. Review the article on how to [configure Postman](https://docs.microsoft.com/azure/media-services/latest/media-rest-apis-with-postman)
 4. Update access variables in Postman with values you got from the Access the Media Services API in step #1.
-5. Use "Step 1" in the Postman collection to get the AAD authentication token first before attempting to use any other APIs. This will create a JWT token for use in authentication of each API call. <br>
-   NOTE: The JWT token returned is only valid for 1 hour, so you will need to refresh the token upon expiration. 
-6. Use the API examples in the Postman collection to learn how the Media Services v3 API works.  
+5. Use "Step 1" in the Postman collection to get the AAD authentication token first before attempting to use any other APIs. This will create a JWT token for use in authentication of each API call.
+
+   **NOTE**: The JWT token returned is valid for 1 hour. Refresh the token upon expiration. 
+   
+6. Use the API examples in the Postman collection to learn how the Media Services v3 API works
 
 
 ## **Recommended Documents**
