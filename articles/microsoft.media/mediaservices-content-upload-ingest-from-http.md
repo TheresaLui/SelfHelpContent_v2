@@ -21,6 +21,6 @@ In Media Services v3, when you submit Jobs to process your videos, you have to t
 
 ## **Recommended Documents**
 
-[Quickstart: Stream video files - CLI](https://docs.microsoft.com/azure/media-services/latest/stream-files-cli-quickstart)<br>
-[Create a job based on the HTTPS URL](https://docs.microsoft.com/azure/media-services/latest/stream-files-tutorial-with-rest#create-a-job)<br>
-[Create a job input from an HTTPS URL with .NET](https://docs.microsoft.com/azure/media-services/latest/job-input-from-http-how-to)<br>
+* [Quickstart: Stream video files - CLI](https://docs.microsoft.com/azure/media-services/latest/stream-files-cli-quickstart)<br>
+* [Create a job based on the HTTPS URL](https://docs.microsoft.com/azure/media-services/latest/stream-files-tutorial-with-rest#create-a-job)<br>
+* [Create a job input from an HTTPS URL with .NET](https://docs.microsoft.com/azure/media-services/latest/job-input-from-http-how-to)<br>
