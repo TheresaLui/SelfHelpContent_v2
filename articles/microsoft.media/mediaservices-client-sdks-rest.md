@@ -15,12 +15,12 @@
 	productPesIds="14885"
 	cloudEnvironments="public"
 />
-
 # Azure Media Services REST API
 
 ## **Recommended Steps**
 
 **Using the v3 REST API**
+
 1. Get information needed to [access the v3 APIs](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)
 2. Download and install the [Postman REST client application](https://www.getpostman.com/)
    
@@ -45,6 +45,6 @@
 
   - [Overview of the v2 REST API](https://docs.microsoft.com/azure/media-services/previous/media-services-rest-how-to-use)<br>
   - [Version 2 REST API Reference](https://docs.microsoft.com/rest/api/media/operations/azure-media-services-rest-api-reference)<br>
-  - [How to access the v2 REST API with AAD](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-rest-connect-with-aad)<br>
+  - [How to access the v2 REST API with AAD](https://docs.microsoft.com/azure/media-services/previous/media-services-rest-connect-with-aad)<br>
   - [Version 2 Postman Collection](https://docs.microsoft.com/azure/media-services/previous/media-rest-apis-with-postman)<br>
 

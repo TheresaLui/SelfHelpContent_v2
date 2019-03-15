@@ -26,7 +26,7 @@ All code samples are provided as open source projects on Github. You are welcome
 
  - [Version 3 Code Samples](https://azure.microsoft.com/resources/samples/?service=media-services)<br>
  - [.NET standard/core tutorials and samples](https://github.com/Azure-Samples/media-services-v3-dotnet-core-tutorials)<br>
- - [.NET Quickstart samples](https://azure.microsoft.com/en-us/resources/samples/media-services-v3-dotnet-quickstarts/)<br>
+ - [.NET Quickstart samples](https://azure.microsoft.com/resources/samples/media-services-v3-dotnet-quickstarts/)<br>
  - [Node.js samples](https://azure.microsoft.com/resources/samples/media-services-v3-node-tutorials/)<br>
  - [Azure Functions samples for v3 API](https://github.com/Azure-Samples/media-services-v3-dotnet-core-functions-integration)<br>
  - [REST API Postman Collection for v3](https://azure.microsoft.com/resources/samples/media-services-v3-rest-postman/)
