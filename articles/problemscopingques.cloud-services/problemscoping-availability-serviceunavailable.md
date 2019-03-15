@@ -31,24 +31,8 @@
                     "required": false,
                     "useAsAdditionalDetails": false
                 },{
-                    "id": "cloudapp_url_available",
-                    "order": 3,
-                    "controlType": "dropdown",
-                    "displayLabel": "Was the <CloudServiceName>.cloudapp.net url available during this time?",
-                    "watermarkText": "Choose an option",
-                    "dropdownOptions": [
-                      {
-                        "value": "Yes",
-                        "text": "Yes"
-                      },{
-                        "value": "No",
-                        "text": "No"
-                      }
-                      ],
-                      "required": false
-                  },{
                       "id": "iis_logs",
-                      "order": 4,
+                      "order": 3,
                       "controlType": "dropdown",
                       "displayLabel": "Have you checked the IIS logs on the role instances during this time? If yes, please upload the IIS logs corresponding to this time.",
                       "watermarkText": "Choose an option",
@@ -64,7 +48,7 @@
                         "required": false
                   },{
                       "id": "if_external_monitoring",
-                      "order": 5,
+                      "order": 4,
                       "controlType": "dropdown",
                       "displayLabel": "Do you have any external monitoring/logging in your code/performance counters that were high during this time?",
                       "watermarkText": "Choose an option",
@@ -80,7 +64,7 @@
                         "required": false
                   },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
