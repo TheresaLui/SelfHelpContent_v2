@@ -5,7 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
-	ms.authors="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-startnotallowedgeneralizedvm"
 	diagnosticScenario="DeploymentFailure"
