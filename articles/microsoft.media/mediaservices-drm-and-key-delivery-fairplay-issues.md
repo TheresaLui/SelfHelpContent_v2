@@ -21,7 +21,7 @@ Before implementing DRM encryption, review [Content protection overview](https:/
 
 To get details on all failing Key delivery service request, enable the Azure monitoring diagnostic logs. For more information, see [Monitor Media Services metrics and diagnostic logs](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs).
 
-To use Fairplay you need to use the "Predefined_MultiDrmStreaming Streaming policy. For an example of how to configure a Fairplay Content Key Policy option, see [Create Content Key Policies](https://github.com/Azure-Samples/media-services-v3-dotnet-tutorials/blob/master/AMSV3Tutorials/EncryptWithDRM/Program.cs#L180)
+To specify the Fairplay encryption Streaming Policy, use the "Predefined_MultiDrmStreaming". For an example of how to configure a Fairplay Content Key Policy option, see [Create Content Key Policies](https://github.com/Azure-Samples/media-services-v3-dotnet-tutorials/blob/master/AMSV3Tutorials/EncryptWithDRM/Program.cs#L180)
 
 ## **Recommended Documents**
 
