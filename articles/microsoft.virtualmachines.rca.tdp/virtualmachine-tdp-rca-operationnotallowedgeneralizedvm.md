@@ -23,6 +23,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 <!--/issueDescription-->
 
 To work with generalized images correctly, follow this process:
+
 - Generalize the VM by running `sysprep` for Windows VMs or `sudo waagent -deprovision+user` for Linux VMs.
 - Deallocate the resources in the VM.
 - Set the VM state to generalized.
@@ -36,6 +37,7 @@ For Linux VMs, see [How to create an image of a virtual machine or VHD](https://
 Alternatively, if you have disk image that contains the user accounts, applications, and other state data from your original VM, you can create a new VM by attaching that specialized managed disk as the OS disk. For more information, see [Create a Windows VM from a specialized disk by using PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-create-vm-specialized/).
 
 See also:
+
 - [Upload a generalized VHD and use it to create new VMs in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-upload-image)
 - [Create a managed image of a generalized VM in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-capture-image/)
 
