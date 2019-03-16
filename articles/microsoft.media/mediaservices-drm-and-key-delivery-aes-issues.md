@@ -17,6 +17,8 @@
 
 # Issues encrypting with AES-128 clear key
 
+To get details on all failing Key delivery service request, enable the Azure monitoring diagnostic logs. For more information, see [Monitor Media Services metrics and diagnostic logs](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs).
+
 ## **Recommended Documents**
 
 * [Concept: Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview)<br>
