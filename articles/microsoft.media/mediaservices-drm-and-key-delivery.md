@@ -17,6 +17,17 @@
 
 # DRM encryption and key delivery
 
+Before implementing DRM encryption, review [Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview).
+
+To get details on all failing Key delivery service requests, enable the Azure monitoring diagnostic logs. For more information, see [Monitor Media Services metrics and diagnostic logs](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs).
+
+If you need to implement offline mode playback, see the following articles:<br>
+* [Offline FairPlay Streaming for iOS](https://docs.microsoft.com/azure/media-services/latest/offline-fairplay-for-ios)
+* [Offline Widevine streaming for Android](https://docs.microsoft.com/azure/media-services/latest/offline-widevine-for-android)<br>
+* [Offline PlayReady Streaming for Windows 10](https://docs.microsoft.com/azure/media-services/latest/offline-plaready-streaming-for-windows-10)
+
+Offline download/playback of files encrypted with AES-128 is not supported by Media Services.
+
 ## **Recommended Documents**
 
 **Concepts**
@@ -32,4 +43,3 @@
 * [Tutorial: Use AES-128 dynamic encryption and the key delivery service](https://docs.microsoft.com/azure/media-services/latest/protect-with-aes128)<br>
 * [Use DRM dynamic encryption and license delivery service](https://docs.microsoft.com/azure/media-services/latest/protect-with-drm)<br>
 * [Get a signing key from the existing policy](https://docs.microsoft.com/azure/media-services/latest/get-content-key-policy-dotnet-howto)<br>
-* [Offline FairPlay Streaming for iOS](https://docs.microsoft.com/azure/media-services/latest/offline-fairplay-for-ios)
