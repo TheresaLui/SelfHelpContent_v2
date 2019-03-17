@@ -16,7 +16,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
-    "title": "Restore deleted workspace",
+    "title": "Container monitoring",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,11 +34,11 @@ schemaVersion="1"
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Azure Monitor for Container (Container Insights)",
-                    "text": "Azure Monitor for Container (Container Insights)"
+                    "value": "Azure Monitor for Container, aka Container Insights",
+                    "text": "Azure Monitor for Container, aka Container Insights"
                 },
                 {
-                    "Container Monitoring Solution",
+                    "value": "Container Monitoring Solution",
                     "text": "Container Monitoring Solution"
                 },
                 {

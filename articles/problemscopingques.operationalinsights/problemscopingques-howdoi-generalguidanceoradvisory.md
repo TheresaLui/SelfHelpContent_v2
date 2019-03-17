@@ -16,7 +16,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
-    "title": "Restore deleted workspace",
+    "title": "General Guidance or Advisory",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -38,11 +38,11 @@ schemaVersion="1"
                     "text": "I Can’t find the information in product documentation"
                 },
                 {
-                    "I have an issue but can’t find a suitable support topic for it",
+                    "value": "I have an issue but can’t find a suitable support topic for it",
                     "text": "I have an issue but can’t find a suitable support topic for it"
                 },
                 {
-                    "General question",
+                    "value": "General question",
                     "text": "General question"
                 }
             ],
