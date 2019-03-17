@@ -24,7 +24,7 @@ schemaVersion="1"
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When was the workspace deleted?",
-            "required": false
+            "required": true
         },
         {
             "id": "single_multiple_machines",
