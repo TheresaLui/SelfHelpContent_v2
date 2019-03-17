@@ -25,7 +25,7 @@
 	- For administrators: [Install the Azure Information Protection client for users](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install)
 
 3. If you have encountered an error during the installation process, follow the guidelines of [Fix problems that block programs from being installed or removed](https://support.microsoft.com/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed)
-4. If you still encounter problems installing the client itself after running the above tool, locate the %temp% folder and provide the client installation log files that start with "Microsoft_Azure_Information_Protection_XXXXXXXXXX.log"
+4. If you still encounter problems installing the client itself after running the above tool, locate the `%temp%` folder and provide the client installation log files that start with `Microsoft_Azure_Information_Protection_XXXXXXXXXX.log`
 5. If the installation succeeded and you still experience issues using AIP, please select the appropriate Support Topic for relevant solutions.
 6. If you believe your issue is still relevant to installation issue even if AIP was successfully installed, please export AIP logs using the below method.
 
