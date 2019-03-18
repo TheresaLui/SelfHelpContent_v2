@@ -79,6 +79,7 @@
             "controlType": "dropdown",
             "displayLabel": "Did you use on-premise device configuration script?",
             "watermarkText": "Choose an option",
+	    "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript'> here</a> for downloading on-premise device configuration script.",
             "dropdownOptions": [{"value": "Yes", "text": "Yes"},
                                 {"value": "No", "text": "No"}],
             "required": true
