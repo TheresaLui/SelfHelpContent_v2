@@ -14,10 +14,12 @@
     articleId="26aad524-4ae2-4569-bd37-89f22689ae92"
 />
 # Configure a Site-to-Site connection
+
+A Site-to-Site VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel. This type of connection requires a VPN device located on-premises that has an externally facing public IP address assigned to it.
+
 ## **Recommended steps**
 1. Download [VPN device configuration](data-blade:microsoft_azure_network.downloadvpnconfigbladeviewmodel) template <br>
-2. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) <br>
-3. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
+2. Use [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) for troubleshooting on-premises connectivity issues. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices
 
 ## **Recommended documents**
 * Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
