@@ -58,7 +58,7 @@ See the ["Can I Use" website](https://caniuse.com/#feat=mediasource).
 
 For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. See the ["Can I Use" website](https://caniuse.com/#feat=eme).
 
-### **Does my browser or traget device support HEVC/H.265 video playback?**
+### **Does my browser or target device support HEVC/H.265 video playback?**
 
 See the ["Can I Use" website](https://caniuse.com/#feat=hevc).
 
