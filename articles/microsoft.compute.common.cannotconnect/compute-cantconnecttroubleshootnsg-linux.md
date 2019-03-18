@@ -22,9 +22,9 @@
 
 NSGs by default deny connections from Internet unless it is explicitly allowed. To resolve this issue, try one or more of the below steps.<br>
 
-1. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine.<br>
-2. Edit the [Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group) to make changes to the rules if needed.<br>
-3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to the backend port, with source being 'Internet', '\*' or a specific public IP address.
+1. Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group is blocking traffic to or from a virtual machine
+2. Edit the [Network Security Group](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group) to make changes to the rules if needed
+3. If there is no rule to allow the traffic from Internet, add a new rule to allow access to the backend port, with source being 'Internet', '\*' or a specific public IP address
 
 ## **Recommended Documents**
 
