@@ -14,7 +14,7 @@
 ---
 {   "resourceRequired": false,
     "title": "Point-to-site connectivity issues",
-    "fileAttachmentHint": "Upload your configuration file to speed the support process. For security purposes, please edit or remove the pre-shared key field from the configuration information.",
+    "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
         {   "id": "problem_start_time",
             "order": 1,
