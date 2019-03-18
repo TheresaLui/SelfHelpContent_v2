@@ -3,8 +3,8 @@
 	description="Issues and guidance regarding Assessment creation and updates in Azure Migrate"
 	service="microsoft.migrate"
 	resource="projects"
-	authors="nsoneji"
-	ms.author="nisoneji"
+	authors="shijoy"
+	ms.author="shijoy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32593684, 32593687, 32593692, 32593693"
@@ -26,6 +26,9 @@ No, Azure Migrate currently does not support Enterprise Agreement (EA) based off
 
 ### **Is the OS cost of the VM included in the Compute cost estimated by Azure Migrate?**
 Azure Migrate currently only considers the OS cost for Windows machines, OS license cost for Linux machines is not considered currently. Support for Linux OS cost estimation is in the roadmap and will be enabled in future.
+
+### **I changed my machine size. Can I rerun the assessment?**
+If you change the settings on a VM you want to assess, trigger discover again using the collector appliance. In the appliance, use the *Start collection again* option to do this. After the collection is done, select the Recalculate option for the assessment in the portal, to get updated assessment results.
 
 ### **I have a Linux VM with an OS that is endorsed in Azure, but Azure Migrate is still marking it as conditionally ready, is there anything I need to do to fix this?**
 There is a known gap in Azure Migrate where it does not detect the minor version of the Linux OS installed (for example, for RHEL 6.10, it will only detect RHEL 6), which is why almost all Linux OSes are marked as conditionally ready (the condition being the minor version of the OS should be above a certain version). This issue will be fixed in the next releases. Meanwhile, you can manually ensure if the Linux OS in the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
