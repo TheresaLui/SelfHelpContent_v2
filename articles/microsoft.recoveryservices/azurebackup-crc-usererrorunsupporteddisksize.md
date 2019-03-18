@@ -24,11 +24,11 @@ The backup operation failed when backing up VM with disk size greater than 1023G
 ## **Recommended Steps**
 
 - Upgrading to Instant Restore will provide support up to 4TB. To avoid failures in the future, upgrade to Instant Restore feature.
-- After you upgrade, it will take up to two hours for the subscription to avail this functionality, provide sufficient buffer before you retry the operation. 
+- After you upgrade, it will take up to two hours for the subscription to avail this functionality. Provide sufficient buffer before you retry the operation. 
 
 
 ## **Recommended Documents**
 
-* Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB. 
-* Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section.
-* Complete the upgrade following these [instructions](https://aka.ms/AB-IR-upgrade).
+* Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
+* Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section
+* Complete the upgrade following these [instructions](https://aka.ms/AB-IR-upgrade)
