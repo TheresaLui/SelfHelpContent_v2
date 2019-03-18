@@ -14,9 +14,11 @@
     articleId="1f2594ab-43c4-4e0a-aeb8-bd27d480fee9"
 />
 # Configure my on-premises VPN device 
+
+You can use below help for configuring the on-premises VPN device represented by the local network gateway to establish S2S VPN tunnel with Azure VPN Gateway. You can download the configuration script and use it either as a starting point, or apply the script directly to your on-premises VPN devices via the configuration console.
+
 ## **Recommended steps**
-1. Troubleshoot on-premise connectivity issues using [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) <br>
-2. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
+1. Use [VPN Diagnostics](data-blade:microsoft_azure_network.networkwatchervpndiagnosticsblade.id.$resourceId) for troubleshooting VPN connectivity issues. Review the VPN logs (available in storage account) to find any issues with the VPN tunnel or configuration of devices<br>
 
 ## **Recommended documents**
 * Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
