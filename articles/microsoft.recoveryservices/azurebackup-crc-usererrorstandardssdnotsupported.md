@@ -19,7 +19,7 @@
 # UserErrorStandardSSDNotSupported
 
 <!--issueDescription-->
-We found that you are using Standrd SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently supports Standard SSD disks only for vaults that are upgraded to [Instant Restore](https://aka.ms/AB-instant-Restore). 
+We found that you are using Standard SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently supports Standard SSD disks only for vaults that are upgraded to [Instant Restore](https://aka.ms/AB-instant-Restore). 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
