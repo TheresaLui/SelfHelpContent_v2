@@ -30,7 +30,7 @@
 
 ### **Error Codes and catching errors**
 
-When playback can not start or has stopped, an error event will be fired and the error() function will return the erorr code and an optional message which is to help the developer get more details.
+When playback can not start or has stopped, an error event will be fired and the error() function will return the error code and an optional message which is to help the developer get more details.
 
 To catch errors, add the 'error' event listener to the player:
 
