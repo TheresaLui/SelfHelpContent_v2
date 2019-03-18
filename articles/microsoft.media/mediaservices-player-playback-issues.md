@@ -30,7 +30,7 @@
 
 ### **Error Codes and catching errors**
 
-When playback can not start or has stopped, an error event will be fired and the error() function will return the erorr code and an optional message which is to help the developer get more details.
+When playback cannot start or has stopped, an error event will be fired and the error() function will return the error code and an optional message which is to help the developer get more details.
 
 To catch errors, add the 'error' event listener to the player:
 
@@ -59,7 +59,7 @@ See the ["Can I Use" website - https://caniuse.com/#feat=mediasource](https://ca
 For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. 
 See the ["Can I Use" website - https://caniuse.com/#feat=eme](https://caniuse.com/#feat=eme)
 
-### **Does my browser or traget device support HEVC/H.265 video playback**
+### **Does my browser or target device support HEVC/H.265 video playback**
 
 See the ["Can I Use" website - https://caniuse.com/#feat=hevc](https://caniuse.com/#feat=hevc)
 
@@ -68,7 +68,7 @@ If you are looking for device support of HEVC, please check with the device manu
 **Apple iOS and HEVC**
 
 For iOS devices, HEVC playback was included in iOS 11.0 or higher. iPhone X, iPhone 8/Plus, iPhone 7/6s/6/Plus. Not all phone models are capable of playing back 4K and may be limited to specific resolutions and frame rate requirements. For example, iPhone 6/Plus can play HEVC video only up to 1080p at 240fps. 
-IPhone XS/XR/X, IPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common framerates. 
+iPhone XS/XR/X, iPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common frame rates. 
 
 For details on supported Apple devices for HEVC, please search HEVC in the [Apple support system](https://support.apple.com/kb/index?page=search&q=HEVC&product=&doctype=SPECIFICATIONS&currentPage=1&includeArchived=false&locale=en_US)
 
