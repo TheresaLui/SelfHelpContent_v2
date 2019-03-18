@@ -5,7 +5,7 @@
 	resource="servers"
 	authors="kasparks"
 	ms.author="kasparks"
-	displayOrder=""
+	displayOrder="0"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="datawarehouse"
