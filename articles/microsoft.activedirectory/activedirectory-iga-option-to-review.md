@@ -3,7 +3,8 @@
 	description="A user is unable to review directory or Azure resource roles"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_ERM"
-	authors="raprakas"
+	authors="kyschaub"
+	ms.author="kyschaub"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -26,5 +27,5 @@
 
 ## **Recommended documents**
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)<br>
-* [Start an access review for Azure resource roles in PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
-* [Start an access review for Azure AD directory roles in PIM](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+* [Start an access review for Azure resource roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+* [Start an access review for Azure AD directory roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)

@@ -3,7 +3,8 @@
 	description="A user is unable to create an access review"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_ERM"
-	authors="raprakas"
+	authors="kyschaub"
+	ms.author="kyschaub"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
@@ -26,4 +27,4 @@
 
 ## **Recommended documents**
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)<br>
-* [What are Azure AD Access Reviews?](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview)
+* [What are Azure AD Access Reviews?](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
