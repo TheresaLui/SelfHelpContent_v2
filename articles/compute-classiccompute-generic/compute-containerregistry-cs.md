@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
+	ms.author="tibasham"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32568893, 32568894, 32568895, 32568896, 32568897, 32568898, 32568899, 32568900, 32568901, 32568902, 32568903, 32592921"
