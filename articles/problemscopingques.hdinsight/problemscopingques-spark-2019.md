@@ -36,7 +36,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the Spark application",
-            "required": true
+            "required": false
         },
         {
             "id": "spark_submission_method",
