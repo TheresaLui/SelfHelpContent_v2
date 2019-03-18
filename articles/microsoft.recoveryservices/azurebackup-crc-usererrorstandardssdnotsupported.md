@@ -24,9 +24,8 @@ We found that you are using Standrd SSD disk for this **<!--$DatasouceName-->Dat
 
 ## **Recommended Steps**
 
-To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Instant Restore, see this [article](https://aka.ms/AB-instant-Restore). <br>
-Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section.
+To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Instant Restore, see this [article](https://aka.ms/AB-instant-Restore). Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section.
 
 ## **Recommended Documents**
 
-Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB. 
+Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
