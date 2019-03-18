@@ -16,7 +16,7 @@
 
 # ALL self-help topics System Center Data Protection Manager to Azure
 
-## **Recommended Documnets**
+## **Recommended Documents**
 
 - [Prerequisites and limitations for DPM backup](https://aka.ms/AB-DPM-limitation)<br>
 - [Support Matrix for DPM backup](https://aka.ms/AB-DMP-SM)<br>
