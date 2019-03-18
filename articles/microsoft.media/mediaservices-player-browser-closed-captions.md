@@ -20,7 +20,7 @@
 
 At this time, Azure Media Player currently supports captions for only On Demand events with WebVTT format and live events using CEA-708 pass-through. IMSC1/TTML format is currently unsupported. Captions and subtitles allow the player to cater to and empower a broader audience, including people with hearing disabilities or those who want to read along in a different language. Captions also increase video engagement, improve comprehension, and make it possible to view the video in sound sensitive environments, like a workplace.
 
-### **Sample WebVTT Subtiltes in Azure Media Player**
+### **Sample WebVTT Subtitles in Azure Media Player**
 
 Please review [this sample of using WebVTT](https://amp.azure.net/libs/amp/latest/samples/dynamic_webvtt.html) subtitles with Azure Media Player. 
 

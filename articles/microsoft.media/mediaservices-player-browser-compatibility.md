@@ -39,8 +39,8 @@ See the ["Can I Use" website - https://caniuse.com/#feat=hevc](https://caniuse.c
 
 If you are looking for device support of HEVC, please check with the device manufacturer to determine which hardware releases include support for HEVC playback.  
 
-For iOS devices, HEVC playback was included in iOS 11.0 or higher. iPhone X, iPhone 8/Plus, iPhone 7/6s/6/Plus. Not all phone models are capable of playing back 4K and may be limited to specific resolutions and frame rate requirements. For example, iPhone 6/Plus can play HEVC video only up to 1080p at 240fps. 
-IPhone XS/XR/X, IPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common framerates. 
+For iOS devices, HEVC playback was included in iOS 11.0 or higher. IPhone X, iPhone 8/Plus, iPhone 7/6s/6/Plus. Not all phone models are capable of playing back 4K and may be limited to specific resolutions and frame rate requirements. For example, iPhone 6/Plus can play HEVC video only up to 1080p at 240fps. 
+iPhone XS/XR/X, iPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common frame rates. 
 
 Android supports HEVC in Android 5.0 or higher on certain devices. 
 
