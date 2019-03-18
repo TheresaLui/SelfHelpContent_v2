@@ -16,8 +16,9 @@
 
 # Point to site VPN connectivity issues
 
-## **Recommended steps**
+Point-to-Site connections are useful when you want to connect to your virtual network from a remote location, such as when you are telecommuting from home or a conference. Point-to-Site connectivity issues may be due to not having proper VPN profiles on the clients or some other common causes. You can use below help to resolve common Point-to-Site connectivity issues.
 
+## **Recommended steps**
 1. Please note that Azure VPN Gateway no longer uses self-signed certificates for P2S connections. You may need to download the VPN profile and redeploy to clients. See [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-point-to-site-gateway-public-ca) for aditional details.<br>  
 2. If you are having problems connecting to your VPN from Windows 7 and Windows 8.1, you may need to enable support for TLS 1.2. Please see [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional details. 
 
