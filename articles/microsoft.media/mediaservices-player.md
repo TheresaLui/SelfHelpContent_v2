@@ -28,6 +28,6 @@
 * [Azure Media Player plugins](https://amp.azure.net/libs/amp/latest/docs/PLUGINS.html)<br>
 * [Playing back streaming video with existing player frameworks](https://docs.microsoft.com/azure/media-services/previous/media-services-playback-content-with-existing-players)<br>
 * [Developing video player applications with Azure Media Player](https://docs.microsoft.com/azure/media-services/previous/media-services-develop-video-players)<br>
-* * [Azure Media Player changelog](http://amp.azure.net/libs/amp/latest/docs/changelog.html)
+* [Azure Media Player changelog](http://amp.azure.net/libs/amp/latest/docs/changelog.html)
 
 
