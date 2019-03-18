@@ -7,9 +7,9 @@
 	ms.author="annayak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32633020"
+	supportTopicIds="32633020,32632960"
 	resourceTags=""
-	productPesIds="15629"
+	productPesIds="15629,16459"
 	cloudEnvironments="public"
 	articleId="d7132073-0d2e-417a-93f4-4c18aa7b8570"
 />
