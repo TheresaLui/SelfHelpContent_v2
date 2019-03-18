@@ -26,7 +26,7 @@ Please review [this sample of using WebVTT](https://amp.azure.net/libs/amp/lates
 
 ### **Live captions with 608/708 pass-through**
 
-Please review [this sample showing live captions with 608/708 passthrough](https://amp.azure.net/libs/amp/latest/samples/dynamic_live_captions.html)
+Please review [this sample showing live captions with 608/708 passthrough](https://amp.azure.net/libs/amp/latest/samples/dynamic_live_captions.html).
 
 Your upstream live encoder must be capable of pre-inserting CEA-708 and 608 captions into the video stream. If captions are detected in the video stream, they will be preserved. 
 
