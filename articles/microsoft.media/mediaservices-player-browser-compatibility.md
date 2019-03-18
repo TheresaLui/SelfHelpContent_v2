@@ -25,15 +25,15 @@ See the [browser and OS compatibility matrix](http://amp.azure.net/libs/amp/late
 
 ### **How do I check if my browser supports Media Source Extensions?**
 
-For modern streaming playback for work (DASH, HLS) your browser should support Media Source Extension. See the ["Can I Use" website - https://caniuse.com/#feat=mediasource](https://caniuse.com/#feat=mediasource).
+For modern streaming playback for work (DASH, HLS) your browser should support Media Source Extension. See the ["Can I Use" website](https://caniuse.com/#feat=mediasource).
 
 ### **How do I check if my browser supports Encrypted Media Extensions?**
 
-For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. See the ["Can I Use" website - https://caniuse.com/#feat=eme](https://caniuse.com/#feat=eme).
+For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. See the ["Can I Use" website](https://caniuse.com/#feat=eme).
 
 ### **Does my browser/device supports HEVC/H.265 video playback?**
 
-See the ["Can I Use" website - https://caniuse.com/#feat=hevc](https://caniuse.com/#feat=hevc).
+See the ["Can I Use" website](https://caniuse.com/#feat=hevc).
 
 If you are looking for device support of HEVC, please check with the device manufacturer to determine which hardware releases include support for HEVC playback.  
 
@@ -43,7 +43,7 @@ Android supports HEVC in Android 5.0 or higher on certain devices.
 
 ### **Does my browser support H.264/AVC video playback?**
 
-See the ["Can I Use" website - https://caniuse.com/#feat=mpeg4](https://caniuse.com/#feat=mpeg4).
+See the ["Can I Use" website](https://caniuse.com/#feat=mpeg4).
 
 ### **Why will my video not play back on a specific Android model?**
 
