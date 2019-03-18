@@ -17,7 +17,9 @@
 
 ## **Recommended documents**
 
+* [Azure Container Registry FAQ](https://github.com/Azure/acr/blob/master/docs/FAQ.md)<br>
 * [Azure Container Registry Documentation](https://docs.microsoft.com/azure/container-registry/)<br>
+* [Azure Container Registry Helpful links](https://github.com/azure/acr#links)<br>
 * [Push your first image to a private Docker container registry using the Docker CLI](https://docs.microsoft.com/azure/container-registry/container-registry-get-started-docker-cli)<br>
 * [Delete container images in Azure Container Registry](https://docs.microsoft.com/azure/container-registry/container-registry-delete)<br>
 * [Upgrade a Classic container registry](https://docs.microsoft.com/azure/container-registry/container-registry-upgrade)<br>
