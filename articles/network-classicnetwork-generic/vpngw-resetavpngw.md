@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Reset a VPN Gateway"
 	description="Reset a VPN Gateway"
@@ -16,6 +15,8 @@
 />
 
 # Reset a VPN Gateway
+
+Resetting an Azure VPN gateway is helpful if you lose cross-premises VPN connectivity on one or more Site-to-Site VPN tunnels. In this situation, your on-premises VPN devices are all working correctly, but are not able to establish IPsec tunnels with the Azure VPN gateways.
 
 ## **Recommended steps**
 [Reset your VPN Gateway](data-blade:microsoft_azure_network.VirtualNetworkGatewayResetBlade)
