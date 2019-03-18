@@ -33,9 +33,16 @@ See the ["Can I Use" website - https://caniuse.com/#feat=mediasource](https://ca
 For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. 
 See the ["Can I Use" website - https://caniuse.com/#feat=eme](https://caniuse.com/#feat=eme)
 
-### **Does my browser support HEVC/H.265 video playback**
+### **Does my browser/device supports HEVC/H.265 video playback**
 
 See the ["Can I Use" website - https://caniuse.com/#feat=hevc](https://caniuse.com/#feat=hevc)
+
+If you are looking for device support of HEVC, please check with the device manufacturer to determine which hardware releases include support for HEVC playback.  
+
+For iOS devices, HEVC playback was included in iOS 11.0 or higher. iPhone X, iPhone 8/Plus, iPhone 7/6s/6/Plus. Not all phone models are capable of playing back 4K and may be limited to specific resolutions and frame rate requirements. For example, iPhone 6/Plus can play HEVC video only up to 1080p at 240fps. 
+IPhone XS/XR/X, IPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common framerates. 
+
+Android supports HEVC in Android 5.0 or higher on certain devices. 
 
 ### **Does my browser support H.264/AVC video playback**
 

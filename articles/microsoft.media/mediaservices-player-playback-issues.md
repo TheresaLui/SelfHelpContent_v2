@@ -20,12 +20,30 @@
 
 ## **Recommended Steps**
 
-1. Remove all content protection (AES) or DRM encryption first from the stream to rule out DRM related issues.
-2. Test your (non-DRM) content using the [Azure Media Services test player](https://ampdemo.azureedge.net/azuremediaplayer.html)
-3. Test your (non-DRM) on target devices (iOS or Android) to confirm playback. 
-4. Confirm that the content is encoded properly, with the correct codecs and bitrates for the target devices per the manufacturers guidance. 
-5. Confirm that you are using the proper [player heuristics profile](http://amp.azure.net/libs/amp/latest/docs/index.html#amp.player.heuristicprofile) for your streaming scenario. 
-6. Review the [known issues list](http://amp.azure.net/libs/amp/latest/docs/known_issues.html) for Azure Media Player
+1. First check your error code against the known list [Azure Media Player error codes](http://amp.azure.net/libs/amp/latest/docs/index.html#error-codes)
+2. Remove all content protection (AES) or DRM encryption first from the stream to rule out DRM related issues.
+3. Test your (non-DRM) content using the [Azure Media Services test player](https://ampdemo.azureedge.net/azuremediaplayer.html)
+4. Test your (non-DRM) on target devices (iOS or Android) to confirm playback. 
+5. Confirm that the content is encoded properly, with the correct codecs and bitrates for the target devices per the manufacturers guidance. 
+6. Confirm that you are using the proper [player heuristics profile](http://amp.azure.net/libs/amp/latest/docs/index.html#amp.player.heuristicprofile) for your streaming scenario. 
+7. Review the [known issues list](http://amp.azure.net/libs/amp/latest/docs/known_issues.html) for Azure Media Player
+
+### **Error Codes and catching errors**
+
+When playback can not start or has stopped, an error event will be fired and the error() function will return the erorr code and an optional message which is to help the developer get more details.
+
+To catch errors, add the 'error' event listener to the player:
+
+```
+var myPlayer = amp('vid1');
+myPlayer.addEventListener('error', function() {
+    var errorDetails = myPlayer.error();
+    var code = errorDetails.code;
+    var message = errorDetails.message;
+}
+```
+
+For details on the player error codes and their meanings see [Azure Media Player error codes](http://amp.azure.net/libs/amp/latest/docs/index.html#error-codes)
 
 ### **What browsers and OS are supported for Media Player?**
 
@@ -41,9 +59,16 @@ See the ["Can I Use" website - https://caniuse.com/#feat=mediasource](https://ca
 For DRM content to playback, check the support matrix for EME on the browser and confirm the proper DRM is configured for targeting that browser. 
 See the ["Can I Use" website - https://caniuse.com/#feat=eme](https://caniuse.com/#feat=eme)
 
-### **Does my browser support HEVC/H.265 video playback**
+### **Does my browser or device support HEVC/H.265 video playback**
 
 See the ["Can I Use" website - https://caniuse.com/#feat=hevc](https://caniuse.com/#feat=hevc)
+
+If you are looking for device support of HEVC, please check with the device manufacturer to determine which hardware releases include support for HEVC playback.  
+
+For iOS devices, HEVC playback was included in iOS 11.0 or higher. iPhone X, iPhone 8/Plus, iPhone 7/6s/6/Plus. Not all phone models are capable of playing back 4K and may be limited to specific resolutions and frame rate requirements. For example, iPhone 6/Plus can play HEVC video only up to 1080p at 240fps. 
+IPhone XS/XR/X, IPhone 8/Plus, iPhone 7/6s/Plus with Apples A9, A10 chipset (or later) support up to 4K 2160p playback at common framerates. 
+
+Android supports HEVC in Android 5.0 or higher on certain devices. 
 
 ### **Does my browser support H.264/AVC video playback**
 
@@ -56,6 +81,7 @@ Also, some Android devices do not have support for all popular codecs (HEVC, AAC
 
 ## **Recommended Documents**
 
+* [Azure Media Player Error Codes](http://amp.azure.net/libs/amp/latest/docs/index.html#error-codes)
 * [Azure Media Player overview](https://docs.microsoft.com/azure/media-services/latest/use-azure-media-player)<br>
 * [Azure Media Player documentation](http://amp.azure.net/libs/amp/latest/docs/index.html)<br>
 * [Azure Media Player sample streams](https://amp.azure.net/libs/amp/latest/docs/samples.html)<br>
