@@ -1,13 +1,13 @@
 <properties
 	pageTitle="Provide On Prem Device"
 	description="Provide On Prem Device"
-	authors="KristinaNeyens, radwiv"
+	authors="radwiv"
 	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	articleid="ProvideOnPremDevice"
-	supportTopicIds="32591152, 32591149"
+	articleid="vpngwyonpremdeviceinfo"
+	supportTopicIds="32591149, 32591152"
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
 # VPN Gwy On Prem Device
@@ -62,9 +62,7 @@
          "required": true,
          "useAsAdditionalDetails": true,
          "hints": [{"text": "Issue description"},
-                {"text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"},
-                {"text": "Upload your configuration file to speed the support process"},
-                {"text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"}]
+                {"text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"}]
         }
     ]
 }
