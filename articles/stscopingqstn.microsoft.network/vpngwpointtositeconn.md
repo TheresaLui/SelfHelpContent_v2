@@ -14,7 +14,7 @@
 ---
 {   "resourceRequired": false,
     "title": "Point-to-site connectivity issues",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Upload your configuration file to speed the support process. For security purposes, please edit or remove the pre-shared key field from the configuration information.",
     "formElements": [
         {   "id": "problem_start_time",
             "order": 1,
@@ -50,9 +50,7 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [{"text": "Issue description"},
-	    {"text": "Device OS (Client platform OS version)"},
-	    {"text": "Upload your configuration file to speed the support process"},
-	    {"text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"}]
+	    {"text": "Device OS (Client platform OS version)"}]
         },
         {   "id": "P2S_tunneltype",
             "order": 5,
