@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-usererrorbackupoperationinprogress"
 	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32553276,32553277"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
