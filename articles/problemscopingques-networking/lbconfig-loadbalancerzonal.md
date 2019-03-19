@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure a Zone-Specific Load Balancer"
+	description="Configure a Zone-Specific Load Balancer"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588976"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure a Zone-Specific Load Balancer
+---
 {
  "resourceRequired": true,
  "title": "Configure a Zone-Specific Load Balancer",
@@ -43,4 +56,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
