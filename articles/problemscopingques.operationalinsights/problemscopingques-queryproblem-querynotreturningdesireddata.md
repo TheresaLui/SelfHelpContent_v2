@@ -65,7 +65,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "infoblock",
             "content": "Please attach or paste in the query and expected results"
-        }
+        },
         {
             "id": "problem_description",
             "order": 4,

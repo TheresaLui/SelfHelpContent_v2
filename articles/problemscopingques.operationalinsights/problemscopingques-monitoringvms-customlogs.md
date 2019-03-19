@@ -61,7 +61,7 @@ schemaVersion="1"
             "order": 4,
             "controlType": "infoblock",
             "content": "Please attach an example of a log file"
-        }
+        },
         {
             "id": "problem_description",
             "order": 5,
