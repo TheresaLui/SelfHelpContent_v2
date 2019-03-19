@@ -14,9 +14,10 @@
 	articleId="dad97e73-27ac-428f-8fc3-e61f111f386f"
 />
 
-# "VPN GW Advisory"
+# VPN GW Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * Troubleshoot [VPN Gateway issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot)
 * Check [VPN Gateway FAQs](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq)
 * Check [VPN Gateway documentation](https://docs.microsoft.com/azure/vpn-gateway/)
