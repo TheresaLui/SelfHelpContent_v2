@@ -19,7 +19,6 @@
 ## **Recommended Steps**
 
 Try following steps to diagnose and mitigate SQL Server connectivity issues
-
 1. Review how to connect to a SQL Server Virtual Machine on Azure VM<br>
 [Connect to a SQL Server Virtual Machine in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-connect)
 2. Check the connection string used by your application<br>
