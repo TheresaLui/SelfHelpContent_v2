@@ -4,6 +4,7 @@
 	service="microsoft.migrate"
 	resource="projects"
 	authors="shijoy"
+	ms.authors="shijojoy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32632323, 32632324, 32632328, 32632325, 32632327"
@@ -15,7 +16,7 @@
 
 # Azure Migrate Service 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Can I migrate on-premises VMs to Azure using Azure Migrate service?**
 
