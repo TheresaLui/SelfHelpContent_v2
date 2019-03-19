@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-- Supported [Azure geos](https://aka.ms/AB-AA4dp5m), [Operating Systems](https://aka.ms/AB-AA4dp5m), and [SQL Server versions](https://aka.ms/AB-AA4dp5m) for SQL server in Azure VM backup<br>
+- Supported [Azure geos](https://aka.ms/AB-AA4dp5m), [Operating Systems](https://aka.ms/AB-AA4dp5m), and [SQL Server versions](https://aka.ms/AB-AA4dp5m) for SQL server in Azure VM backup
 * [Prerequisites for SQL server in Azure VM backup](https://aka.ms/AA4dqho)<br>
 * [Prerequisites before triggering a restore](https://aka.ms/AB-AA4dwub)<br>
 * [Public preview limitations](https://aka.ms/AB-AA4dp5s)<br>
