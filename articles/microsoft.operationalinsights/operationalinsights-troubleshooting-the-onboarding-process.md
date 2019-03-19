@@ -37,9 +37,8 @@ This document describes the most common problems experienced with On-Demand Asse
  - [Microsoft Monitoring Agent (MMA) Installation issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#microsoft-monitoring-agent-mma-installation-issues)
  - [Learn more about Linking and Permissions](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#linking-and-permissions)
  - [Add-*AssessmentTask Commandlet related issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#add-assessmenttask-commandlet-related-issues)
+ - [Assessment Task Running Issues](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#inactive--no-data-found-in-azure-log-analytics)
  - [Requirements for successfully running the scheduled task](https://docs.microsoft.com/services-hub/health/assessments-troubleshooting#requirements-for-successfully-running-the-scheduled-task)
-  
-
 
 ### **Troubleshooting Health Check**
 
@@ -51,30 +50,11 @@ If you are having issues with Health Check, please see the documentation below.
 
 This document provides guidance both on installing the solution and taking corrective actions for potential problems.
 
- - [Prerequisites](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#prerequisites)
- - [Active Directory Health Check data collection details](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#active-directory-health-check-data-collection-details)
- - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#understanding-how-recommendations-are-prioritized)
- - [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#use-health-check-focus-area-recommendations)
- - [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#ignore-recommendations)
- - [AD Health Check solutions FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#ad-health-check-solutions-faq)
- - [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment#next-steps)
-
-
 #### SCOM Health Check
 
 [Optimize your environment with the System Center Operations Manager Health Check (Preview) solution](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment)
 
 This document provides guidance on installing and configuring the solution, and taking corrective actions for potential problems.
-
-- [Installing and configuring the solution](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#installing-and-configuring-the-solution)
-- [System Center Operations Manager Health Check data collection details](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-data-collection-details)
-- [Operations Manager run-as accounts for Log Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#operations-manager-run-as-accounts-for-log-analytics)
-- [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#understanding-how-recommendations-are-prioritized)
-- [Use health check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#use-health-check-focus-area-recommendations)
-- [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#ignore-recommendations)
-- [System Center Operations Manager Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#system-center-operations-manager-health-check-solution-faq)
-- [Additional help](https://docs.microsoft.com/azure/azure-monitor/insights/scom-assessment#next-steps)
- 
 
 #### SQL Health Check
 
@@ -82,11 +62,3 @@ This document provides guidance on installing and configuring the solution, and 
 
 This document provides guidance both on installing the solution and taking corrective actions for potential problems.
 
- - [Prerequisites](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#prerequisites)
- - [SQL Health Check data collection details](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#sql-health-check-data-collection-details)
- - [Operations Manager run-as accounts for Log Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#operations-manager-run-as-accounts-for-log-analytics)
- - [Understanding how recommendations are prioritized](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#understanding-how-recommendations-are-prioritized)
- - [Use Health Check focus area recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#use-health-check-focus-area-recommendations)
- - [Ignore recommendations](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#ignore-recommendations)
- - [SQL Health Check solution FAQ](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#sql-health-check-solution-faq)
- - [Additional Help](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment#next-steps)
