@@ -17,6 +17,8 @@
 
 # Archiving a live stream
 
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+
 Before you start developing live streaming applications with Media Services v3, review [Live Events and Live Outputs](https://docs.microsoft.com/azure/media-services/latest/live-events-outputs-concept)
 
 When using Media Services v3 API, one of the steps in a live streaming workflow is to create a Live Event and a Live Output. The Live Output is associated with an Asset into which your live stream is being archived. Live Output makes your stream available to viewers through the Streaming Endpoint.

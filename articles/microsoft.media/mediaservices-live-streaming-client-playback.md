@@ -17,7 +17,7 @@
 
 # Client playback
 
-**NOTE:** For explanations about operations that need be performed on the Media Services side, before your client can playback your videos, this topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+**NOTE:** For explanations about operations that needed to be performed on the Media Services side, before your client can playback your videos, this topic references Media Services v3 API documentation. v3 is the latest Media Services version.
 
 To make videos in the output Asset available to clients for playback, you have to create a [Streaming Locator](https://docs.microsoft.com/azure/media-services/latest/streaming-locators-concept) and then build streaming URLs. For .NET sample, see [Get a Streaming Locator](stream-files-tutorial-with-api.md#get-a-streaming-locator).
 

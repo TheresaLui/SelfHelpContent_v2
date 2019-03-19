@@ -72,7 +72,6 @@ Vanity RTMP URL
 `rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2935/<access token>`
 `rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2936/<access token>`
 
-
 ## **Recommended Documents**
 
-* [Live Events](https://docs.microsoft.com/azure/media-services/latest/live-events-outputs-concept)<br>
+[Live Events](https://docs.microsoft.com/azure/media-services/latest/live-events-outputs-concept)
