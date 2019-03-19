@@ -4,7 +4,7 @@
    authors="radwiv"
    ms.author="radwiv"
    selfHelpType="problemScopingQuestions"
-   supportTopicIds="32591150,32591151,32591159,32591155,32591154,32591157,32591153,32592934"
+   supportTopicIds="32591150,32591151,32591159,32591155,32591154,32591157,32591153"
    productPesIds="16094"
    cloudEnvironments="public,fairfax,blackforest,moonCake"
    schemaVersion="1"
