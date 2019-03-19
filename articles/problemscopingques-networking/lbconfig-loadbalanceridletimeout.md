@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure Idle Timeout on  Load Balancer"
+	description="Configure Idle Timeout on  Load Balancer"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588970"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure Idle Timeout on Load Balancer
+---
 {
  "resourceRequired": true,
  "title": "Configure Idle Timeout on Load Balancer",
@@ -25,4 +38,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
