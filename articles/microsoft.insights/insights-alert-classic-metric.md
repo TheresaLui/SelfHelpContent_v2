@@ -20,12 +20,12 @@
 
 ## **Recommended Steps**
 
-1. If you are trying to create a classic metric alert in Azure portal and "Add metric alerts(classic)" button is disabled, check if the resource field is selected and the resource type supports classic metric alerts.
-
+1. If you are trying to create a classic metric alert in Azure portal and "Add metric alerts(classic)" button is disabled, check if the resource field is selected and the resource type supports classic metric alerts
 2. For a virtual machine, guest metrics are not available by default. Ensure you have [diagnostic settings enabled](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview) to collect guest metrics.
+    
     * If you are not seeing metrics even after enabling diagnostic settings, follow the [troubleshooting steps](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#metric-data-doesnt-appear-in-the-azure-portal)
 
-3. If you believe your classic metric alert is not firing correctly, check the alert rule to verify against the metric chart.
+3. If you believe your classic metric alert is not firing correctly, check the alert rule to verify against the metric chart
 
 ## **Recommended Documents**
 
