@@ -1,3 +1,16 @@
+<properties
+	pageTitle="No outbound connectivity from the backend pool"
+	description="No outbound connectivity from the backend pool"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - No outbound connectivity from the backend pool
+---
 {
  "resourceRequired": true,
  "title": "No outbound connectivity from the backend pool",
@@ -77,3 +90,4 @@
 		] }
  ] 
 }
+---
