@@ -27,7 +27,7 @@ To make videos in the output Asset available to clients for playback, you have t
 
 Based on the specified format in the streaming client manifest (HLS, DASH, or Smooth), your clients can receive the stream in the chosen protocol.
 
-**Delivery protocols**
+### Delivery Protocols
 
 |Protocol|Example|
 |---|---|
