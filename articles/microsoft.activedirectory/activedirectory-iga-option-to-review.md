@@ -17,15 +17,14 @@
 # I do not see an option to review directory or Azure resource roles
 
 
-## **Recommended steps**
-
+## **Recommended Steps**
 
 * Ensure that you are authorized to create and manage access reviews of Azure AD and/or Azure resource roles
 * Navigate to the Privileged Identity Management page
 * Start an access review for roles
 
+## **Recommended Documents**
 
-## **Recommended documents**
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)<br>
 * [Start an access review for Azure resource roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
 * [Start an access review for Azure AD directory roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
