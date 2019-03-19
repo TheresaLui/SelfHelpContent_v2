@@ -17,9 +17,16 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
             "id": "whichResource",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What resource do you need assistance configuring?",
             "watermarkText": "Choose an option",
@@ -48,7 +55,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -57,7 +63,7 @@
         {
             "id": "howFar",
             "visibility": "whichResource != NotSure",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How far along are you in making the configuration change?",
             "watermarkText": "Choose an option",
@@ -74,16 +80,15 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "whichMethod",
-            "visibility": "howFar == ProblemEncountered",
-            "order": 3,
+            "visibility": "howFar != null && howFar == ProblemEncountered",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What method are you using to make the configuration change?",
             "content": null,
@@ -111,11 +116,19 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }

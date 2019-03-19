@@ -17,9 +17,16 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
             "id": "whichPhase",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of SQL performance problem do you need assistance with?",
             "watermarkText": "Choose an option",
@@ -40,7 +47,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -49,7 +55,7 @@
         {
             "id": "whichBaseline",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What baseline are you using to assess things are slow?",
             "watermarkText": "Choose an option",
@@ -74,8 +80,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -83,7 +88,7 @@
         {
             "id": "statsRun",
             "visibility": "whichPhase == QuerySlow",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Have you run UPDATE STATISTICS on the table(s) being accessed by the query?",
             "watermarkText": "Choose an option",
@@ -104,8 +109,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -113,10 +117,19 @@
         {
             "id": "queryProblem",
             "visibility": "whichPhase == QuerySlow",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Query",
             "watermarkText": " Please enter the text of the query you need assistance with.",
+            "required": true,
+            "useAsAdditionalDetails": true
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

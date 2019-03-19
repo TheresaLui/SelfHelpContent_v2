@@ -1,19 +1,19 @@
-<properties pageTitle="Automated Patching"
-	 description="Automated Patching"
+<properties pageTitle="SQL Server replication"
+	 description="SQL Server replication"
 	 authors="yareyes"
      ms.author="yareyes"
 	 selfHelpType="problemScopingQuestions"
-	 supportTopicIds="32633492"
+	 supportTopicIds="32633521"
 	 productPesIds="14745"
 	 cloudEnvironments="public"
 	 schemaVersion="1"
-	 articleId="160f0c4b-5c22-492a-9e21-f7599696ed14"
+	 articleId="ed9f7860-2036-402d-8f05-9fed033a6e35"
 />
-# Automated Patching
+# SQL Server replication
 ---
 {
     "resourceRequired": false,
-    "title": "Automated Patching",
+    "title": "SQL Server replication",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -24,26 +24,22 @@
             "required": true
         },
         {
-            "id": "whichPatching",
+            "id": "whatKind",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Which kind of patching do you need assistance with?",
+            "displayLabel": "What kind of SQL Server replication are you using?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Security Patches",
-                    "value": "SecurityPatches"
+                    "text": "Transactional",
+                    "value": "Transactional"
                 },
                 {
-                    "text": "SQL Server cumulative updates",
-                    "value": "SQLCumulativeUpdates"
-                },
-                {
-                    "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "text": "Merge",
+                    "value": "Merge"
                 }
             ],
             "dynamicDropdownOptions": null,

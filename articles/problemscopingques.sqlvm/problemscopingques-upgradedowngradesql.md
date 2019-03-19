@@ -17,9 +17,16 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
             "id": "whichOption",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to change the SQL Server version or edition?",
             "watermarkText": "Choose an option",
@@ -36,7 +43,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -45,7 +51,7 @@
         {
             "id": "upgradeDowngrade",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you interested in upgrade or downgrade?",
             "watermarkText": "Choose an option",
@@ -62,11 +68,19 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }

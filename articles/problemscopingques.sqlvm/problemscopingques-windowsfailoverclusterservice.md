@@ -17,9 +17,16 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
             "id": "whichReplication",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of replication are you using?",
             "watermarkText": "Choose an option",
@@ -40,11 +47,19 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }

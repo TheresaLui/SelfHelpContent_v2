@@ -17,9 +17,16 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start",
+            "required": true
+        },
+        {
             "id": "whichPhase",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What phase of implementation are you at?",
             "watermarkText": "Choose an option",
@@ -40,8 +47,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -49,7 +55,7 @@
         {
             "id": "whichService",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Do you need assistance with backup or restore?",
             "watermarkText": "Choose an option",
@@ -66,16 +72,15 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
         {
             "id": "whatMethod",
-            "visibility": "whichPhase != Planning",
-            "order": 3,
+            "visibility": "whichPhase != null && whichPhase != Planning",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What method are you using/planning to use for the backup or restore operation?",
             "watermarkText": "Choose an option",
@@ -100,7 +105,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -108,8 +112,8 @@
         },
        {
             "id": "whereWritten",
-            "visibility": "whichPhase != Planning && whichService == Backup",
-            "order": 4,
+            "visibility": "whichPhase != null && whichPhase != Planning && whichService == Backup",
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Where are the backups being written?",
             "watermarkText": "Choose an option",
@@ -130,11 +134,19 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
+        },
+        {
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }
