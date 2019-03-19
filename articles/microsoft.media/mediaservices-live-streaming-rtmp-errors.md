@@ -74,4 +74,4 @@ Vanity RTMP URL
 
 ## **Recommended Documents**
 
-[Live Events](https://docs.microsoft.com/azure/media-services/latest/live-events-outputs-concept)
+* [Live Events](https://docs.microsoft.com/azure/media-services/latest/live-events-outputs-concept)
