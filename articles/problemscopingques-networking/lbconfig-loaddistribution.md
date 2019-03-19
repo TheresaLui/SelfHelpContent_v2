@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure Load Distribution"
+	description="Configure Load Distribution"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588973"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure Load Distribution
+---
 {
  "resourceRequired": true,
  "title": "Configure Load Distribution",
@@ -79,4 +92,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
