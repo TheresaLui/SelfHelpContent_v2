@@ -28,21 +28,22 @@ To resolve the most common issues with Visual Studio deployments via Web Deploy,
 For more information see: [Wiki on Deployment Credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) <br>
 3.	If using Publishing credentials make sure that: <br>
 	a. You download the most recent publishing profile and that the user name is preceded by $. For more information please review the: [Deployment credentials Wiki](https://github.com/projectkudu/kudu/wiki/Deployment-credentials).<br>
-4.	By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App (http://<yourWebAppName>.scm.azurewebsites.net). Make sure that Visual Studio is able to connect to it. <br>
+4.	By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App (http://YourWebAppName.scm.azurewebsites.net). Make sure that Visual Studio is able to connect to it. <br>
 5.	If behind a proxy, make sure that Visual Studio is correctly configured to use your proxy server. For more information see: [More info on Proxy Authorization Required Error](https://msdn.microsoft.com/library/dn771556.aspx)
 
 ## **Recommended documents**
-* [Web Deploy error codes](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes)
-   * [ERROR_COULD_NOT_CONNECT_TO_REMOTESVC](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorcouldnotconnecttoremotesvc)
-   * [ERROR_DESTINATION_INVALID](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errordestinationinvalid)
-   * [ERROR_INSUFFICIENT_ACCESS_TO_SITE_FOLDER](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorinsufficientaccesstositefolder)
-   * [ERROR_FILE_IN_USE](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorfileinuse) 
-* [Dealing with locked files during deployment](https://github.com/projectkudu/kudu/wiki/Dealing-with-locked-files-during-deployment)  (*.lock files)
-* [Publish a Web app to Azure App Service using Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)
-* Deploying behind a proxy? Read this: [Proxy Authorization Required]()
-* [Make sure site correctly deploys locally](https://github.com/projectkudu/kudu/wiki/Make-sure-site-correctly-deploys-locally)
-* [Deployment FAQs](https://docs.microsoft.com/azure/app-service/faq-deployment)
-* [Deployment vs runtime issues](https://github.com/projectkudu/kudu/wiki/Deployment-vs-runtime-issues)
+
+* [Web Deploy error codes](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes) <br>
+   * [ERROR_COULD_NOT_CONNECT_TO_REMOTESVC](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorcouldnotconnecttoremotesvc) <br>
+   * [ERROR_DESTINATION_INVALID](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errordestinationinvalid) <br>
+   * [ERROR_INSUFFICIENT_ACCESS_TO_SITE_FOLDER](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorinsufficientaccesstositefolder) <br>
+   * [ERROR_FILE_IN_USE](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorfileinuse) <br>
+* [Dealing with locked files during deployment](https://github.com/projectkudu/kudu/wiki/Dealing-with-locked-files-during-deployment)  (*.lock files) <br>
+* [Publish a Web app to Azure App Service using Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017) <br>
+* Deploying behind a proxy? Read this: [Proxy Authorization Required](https://azure.microsoft.com/blog/web-deploy-3-6-beta-released/)<br>
+* [Make sure site correctly deploys locally](https://github.com/projectkudu/kudu/wiki/Make-sure-site-correctly-deploys-locally) <br>
+* [Deployment FAQs](https://docs.microsoft.com/azure/app-service/faq-deployment) <br>
+* [Deployment vs runtime issues](https://github.com/projectkudu/kudu/wiki/Deployment-vs-runtime-issues) <br>
 * [How to create and deploy a simple ASP.NET MVC web project by using Visual Studio and Web Deploy](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-get-started/)<br>
 * [ASP.NET Web Deployment using Visual Studio - 12-part tutorial series that covers complete range of deployment tasks](http://www.asp.net/mvc/overview/deployment/visual-studio-web-deployment/introduction)<br>
 * [Build and Deploy Azure Web Apps using Team Foundation Server/Services](https://blogs.msdn.microsoft.com/tfssetup/2016/04/01/build-and-deploy-azure-web-apps-using-team-foundation-serverservices-vnext-builds/)<br>
