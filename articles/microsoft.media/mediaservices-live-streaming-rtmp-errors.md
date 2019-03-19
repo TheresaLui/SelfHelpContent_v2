@@ -60,17 +60,17 @@ The *access token* below is what you need to specify for fixed URL. It is also 1
 
 Non-vanity RTMP URL:
 
-`rtmp://<random 128bit hex string>.channel.media.azure.net:1935/<access token>`
-`rtmp://<random 128bit hex string>.channel.media.azure.net:1936/<access token>`
-`rtmps://<random 128bit hex string>.channel.media.azure.net:2935/<access token>`
-`rtmps://<random 128bit hex string>.channel.media.azure.net:2936/<access token>`
+* `rtmp://<random 128bit hex string>.channel.media.azure.net:1935/<access token>`
+* `rtmp://<random 128bit hex string>.channel.media.azure.net:1936/<access token>`
+* `rtmps://<random 128bit hex string>.channel.media.azure.net:2935/<access token>`
+* `rtmps://<random 128bit hex string>.channel.media.azure.net:2936/<access token>`
 
 Vanity RTMP URL
 
-`rtmp://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:1935/<access token>`
-`rtmp://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:1936/<access token>`
-`rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2935/<access token>`
-`rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2936/<access token>`
+* `rtmp://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:1935/<access token>`
+* `rtmp://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:1936/<access token>`
+* `rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2935/<access token>`
+* `rtmps://<live event name>-<ams account name>-<region abbrev name>.channel.media.azure.net:2936/<access token>`
 
 ## **Recommended Documents**
 
