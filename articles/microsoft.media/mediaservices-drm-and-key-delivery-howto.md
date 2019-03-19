@@ -17,6 +17,8 @@
 
 # How-to encrypt with DRM and use a license delivery service
 
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+
 Before implementing DRM encryption, review [Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview). It is highly recommended to focus and fully test each part described in the [Main components of a content protection system](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview#main-components-of-a-content-protection-system) section before moving onto the next part. To test your "content protection" system, use the tools specified in the section.
 
 ## **Recommended Documents**
