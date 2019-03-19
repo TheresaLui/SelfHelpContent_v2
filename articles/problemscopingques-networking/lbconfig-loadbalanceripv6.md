@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure an IPv6 Load Balancer"
+	description="Configure an IPv6 Load Balancer"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588971"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure an IPv6 Load Balancer
+---
 {
  "resourceRequired": true,
  "title": "Configure an IPv6 Load Balancer",
@@ -89,4 +102,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
