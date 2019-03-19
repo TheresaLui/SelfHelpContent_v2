@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Intermittent connectivity issues"
+	description="Intermittent connectivity issues"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588975"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Intermittent connectivity issues
+---
 {
  "resourceRequired": true,
  "title": "Intermittent connectivity issues",
@@ -51,3 +64,4 @@
 		] }
  ] 
 }
+---
