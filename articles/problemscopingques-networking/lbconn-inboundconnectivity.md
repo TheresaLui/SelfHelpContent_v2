@@ -1,3 +1,16 @@
+<properties
+	pageTitle="No connectivity to the backend pool"
+	description="No connectivity to the backend pool"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588977"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - No connectivity to the backend pool
+---
 {
  "resourceRequired": true,
  "title": "No connectivity to the backend pool",
@@ -75,4 +88,6 @@
 			 "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
 			 }
 		] }
- ] }
+ ] 
+}
+---
