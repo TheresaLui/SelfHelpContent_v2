@@ -4,6 +4,7 @@
 	service="microsoft.migrate"
 	resource="projects"
 	authors="shijoy"
+	ms.authors="shijojoy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32631899,32631900,32631902"
@@ -39,7 +40,7 @@ You can visualize dependencies of groups with up to 10 VMs, if you have a group 
 Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Learn more about [agent installation](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies#download-and-install-the-vm-agents). 
 
 ### **What is the supported OS matrix for the Microsoft Monitoring Agent (MMA) and dependency agent?**
-Refer to the support matrix document [MMA agent](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-concept-hybrid#supported-windows-operating-systems) and [dependency agent](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#supported-windows-operating-systems) for details.
+Refer to the support matrix document [MMA agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-concept-hybrid#supported-windows-operating-systems) and [dependency agent](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#supported-windows-operating-systems) for details.
 
 ### **Can I export the dependency visualization report?**
 No, the dependency visualization cannot be exported. However, since Azure Migrate uses Service Map for dependency visualization, you can use the [Service Map REST APIs](https://docs.microsoft.com/rest/api/servicemap/machines/listconnections) to get the dependencies in a JSON format.
