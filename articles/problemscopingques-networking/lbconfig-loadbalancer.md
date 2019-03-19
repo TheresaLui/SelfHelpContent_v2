@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure a Load Balancer"
+	description="Configure a Load Balancer"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588972"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure a Load Balancer
+---
 {
  "resourceRequired": true,
  "title": "Configure a Load Balancer",
@@ -157,4 +170,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
