@@ -10,9 +10,7 @@
 	schemaVersion="1"
 	articleId="13819438614"
 />
-
 # Issues configuring VNet Peering
-
 ---
 {
 
