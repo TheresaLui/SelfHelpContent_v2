@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Add or Remove Load Balancer resources"
+	description="Add or Remove Load Balancer resources"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588969"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Add or Remove Load Balancer resources
+---
 {
  "resourceRequired": true,
  "title": "Add or Remove Load Balancer resources",
@@ -25,4 +38,6 @@
 			 "text": "Did you recieve any error messages while making changes to the Load Balancer configuration? (If yes, please share the error message as well)"
 			 }
 		] }
- ] }
+ ] 
+}
+---
