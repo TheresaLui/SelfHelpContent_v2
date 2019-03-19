@@ -16,7 +16,7 @@
 
 # Container Registry
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Container Registry FAQ](https://github.com/Azure/acr/blob/master/docs/FAQ.md)<br>
 * [Azure Container Registry Documentation](https://docs.microsoft.com/azure/container-registry/)<br>
