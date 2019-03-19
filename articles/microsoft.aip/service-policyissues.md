@@ -16,9 +16,12 @@
 
 # Azure Information Protection service - policy issues
 
+If you still experience the issue after reviewing the documentation below, please take a screenshot of the problem and attach the screenshot to this ticket.
+
 ## **Recommended Documents**
 
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
+* [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 * [Configuring the Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy)<br>
 * [The default Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-default)<br>
 * [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-new-label)<br>

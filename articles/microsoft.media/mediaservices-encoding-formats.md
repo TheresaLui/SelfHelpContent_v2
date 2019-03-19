@@ -4,6 +4,7 @@
     service="microsoft.media"
     resource="mediaservices"
     authors="juliako"
+    ms.author="juliako"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
@@ -17,7 +18,6 @@
 
 ## **Recommended documents**
 
-[Media Encoder Standard Formats and Codecs](https://azure.microsoft.com/documentation/articles/media-services-media-encoder-standard-formats/)
-
-[How to encode an asset using Media Encoder Standard](https://azure.microsoft.com/documentation/articles/media-services-dotnet-encode-with-media-encoder-standard/)
+* [Media Encoder Standard Formats and Codecs](https://azure.microsoft.com/documentation/articles/media-services-media-encoder-standard-formats/)<br>
+* [How to encode an asset using Media Encoder Standard](https://azure.microsoft.com/documentation/articles/media-services-dotnet-encode-with-media-encoder-standard/)<br>
 

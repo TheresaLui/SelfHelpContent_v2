@@ -1,17 +1,18 @@
 <properties
-	pageTitle="Configure SAP HANA large instances"
-	description="Configure SAP HANA large instances"
-	authors="phgantik"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32549255,32549257,32549256,32549258,32549259"
-	productPesIds="16208,15571,15797"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="3561f156-4abd-4450-9a71-792802e50f89"
+    pageTitle="SAP HANA on Azure Large Instances"
+    description="Problem scoping for SAP HANA on Azure Large Instances"
+    authors="phgantik,timbasham"
+    ms.author="tibasham"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32549255,32549257,32549256,32549258,32549259,32632347,32632349,32632350,32632360,32632373,32632374,32632342,32632345,32632357,32632361,32632365,32632369,32632371,32632372,32632337,32632338,32632339,32632354,32632366,32632348,32632351,32632352,32632353,32632358,32632362,32632370,32632346,32632364,32632340,32632341,32632343,32632355,32632356,32632363,32632367,32632344,32632359,32632368"
+    productPesIds="16208,15571,15797"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="3561f156-4abd-4450-9a71-792802e50f89"
 />
 
 
-# SAP HANA LARGE INSTANCES
+# SAP HANA on Azure Large Instances
 ---
 {
     "resourceRequired": false,

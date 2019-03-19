@@ -4,7 +4,7 @@
     infoBubbleText=""
     authors="chez-charlie"
     ms.author="chez"
-    articleId=""
+    articleId="e9ccc896-dd43-4cc0-8d57-88142dfafa92"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32629465"
@@ -25,7 +25,8 @@ To change the default behavior, which fails the copy activity when incompatible 
 
 ## **Recommended Documents**
 
-* Fault Tolerance and Error Handling [Documentation](https://docs.microsoft.com/azure/data-factory/copy-activity-fault-tolerance) <br>
+Fault Tolerance and Error Handling [Document](https://docs.microsoft.com/azure/data-factory/copy-activity-fault-tolerance), including following sections: <br>
+
 * [Supported Scenarios](https://docs.microsoft.com/azure/data-factory/copy-activity-fault-tolerance#supported-scenarios) <br>
 * [Configuration](https://docs.microsoft.com/azure/data-factory/copy-activity-fault-tolerance#configuration) <br>
 * [Monitor Skipped Rows](https://docs.microsoft.com/azure/data-factory/copy-activity-fault-tolerance#monitor-skipped-rows) <br>

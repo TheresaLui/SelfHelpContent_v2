@@ -4,9 +4,10 @@
 	service="microsoft.dbforpostgresql"
 	resource="servers"
 	authors="ankam"
+    ms.author="ankam,janeng"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32628435, 32628434"
+	supportTopicIds="32628435, 32628434, 32628436"
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
@@ -15,12 +16,12 @@
 
 # Error: Server not available or SSL SYSCALL error: EOF detected
 
-## **Recommended steps**
-
 The "SSL SYSCALL error: EOF detected" message or other connection errors occur when the PostgreSQL server is restarting. A restart can occur when a service update was rolled out to your server, a technical issue was encountered, or you changed the compute resources or service tier of the server. The error you are seeing is transient and generally goes away in less than 60 seconds.
 
-Applications that are connecting to cloud services [should implement retry logic](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) to handle such transient errors.
+## **Recommended Steps**
 
-## **Recommended documents**
+* Applications that are connecting to cloud services [should implement retry logic](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) to handle such transient errors
 
-[Troubleshoot connection issues to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues)
+## **Recommended Documents**
+
+* [Troubleshoot connection issues to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues)

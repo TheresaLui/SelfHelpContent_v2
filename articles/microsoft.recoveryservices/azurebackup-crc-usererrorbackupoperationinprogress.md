@@ -8,9 +8,9 @@
 	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorbackupoperationinprogress"
-	diagnosticScenario="azurebackup-crc-usererrorbackupoperationinprogress"
+	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32553276,32553277"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -19,7 +19,7 @@
 # UserErrorBackupOperationInProgress
 
 <!--issueDescription-->
-## **When a backup job is in progress, a new job should not be triggered or scheduled until the current job is complete.**
+**When a backup job is in progress, a new job should not be triggered or scheduled until the current job is complete.**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -27,7 +27,7 @@ We have identified that your recent backup job failed because there is an existi
 
 Ensure the backup operation currently in progress is completed before triggering or scheduling other backup operations. To check the backup jobs status:
 
-1. Sign in to Azure portal, click **All services**. Type Recovery Services and click **Recovery Services vaults**. The list of recovery services vaults appears.
+1. Sign in to Azure portal and click **All services**. Type Recovery Services and click **Recovery Services vaults**. The list of recovery services vaults appears.
 2. From the list of recovery services vaults, select a vault in which the backup is configured
 3. On the vault dashboard menu, click **Backup Jobs** to display all the backup jobs
 
@@ -41,6 +41,6 @@ Ensure the backup operation currently in progress is completed before triggering
 
 If the scheduled backup operation is taking longer time conflicting with the next backup configuration, review:
 
-* [Best Practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
-* [Backup Performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
-* [Restore consideration](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations)
+* [Best Practices](https://aka.ms/AB-AA4e56d)
+* [Backup Performance](https://aka.ms/AB-AA4ecqb)
+* [Restore consideration](https://aka.ms/AB-AA4ecqn)

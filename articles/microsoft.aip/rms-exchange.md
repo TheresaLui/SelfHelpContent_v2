@@ -33,24 +33,24 @@
 3. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 4. Check Exchange configuration with:<br>
 
-	a.	Get-IRM configuration. Check that it is:<br>
+* Get-IRM configuration. Check that it is:<br>
 
 ```
-	InternalLicensingEnabled       : True<br>
-	ExternalLicensingEnabled       : False<br>
-	JournalReportDecryptionEnabled : True/False<br>
-	ClientAccessServerEnabled      : True<br>
-	SearchEnabled                  : True/False<br>
-	TransportDecryptionSetting     : Any<br>
-	EDiscoverySuperUserEnabled     : True<br>
-	ServiceLocation                : MicrosoftRMSUrl<br>
-	PublishingLocation             : MicrosoftRMSUrl<br>
-	LicensingLocation              : MicrosoftRMSUrl<br>
+	InternalLicensingEnabled       : True
+	ExternalLicensingEnabled       : False
+	JournalReportDecryptionEnabled : True/False
+	ClientAccessServerEnabled      : True
+	SearchEnabled                  : True/False
+	TransportDecryptionSetting     : Any
+	EDiscoverySuperUserEnabled     : True
+	ServiceLocation                : MicrosoftRMSUrl
+	PublishingLocation             : MicrosoftRMSUrl
+	LicensingLocation              : MicrosoftRMSUrl
 ```
 
 If either value is wrong, correct it via Set-IRMConfiguration.
 	
-b. If the Locations are wrong, fix the following locations in the Registry:<br>
+* If the Locations are wrong, fix the following locations in the Registry:<br>
 	
 ```
 HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
@@ -61,88 +61,90 @@ Purge certificates in the Exchange DRM folder in each Exchange server, then disa
 5. Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, it is most likely that Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1), or not is configured with the redirection URLs in registry as follows:<br>
 
 ```
-HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "http(s)://connectorName/_wmcs/certification" <br>
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "http(s)://connectorName/_wmcs/licensing"<br>
+HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "http(s)://connectorName/_wmcs/certification"
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "http(s)://connectorName/_wmcs/licensing"
 ```
 
 It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above (connectorname/_wmcs/licensing). If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP, or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
 
-An **event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
+**Event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
 
-An **event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
+**Event 3000** indicates that the Connector is not properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Connector node needs to be reinstalled.
 
 6. If a specific server can't consume the content but others can, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rule is not specified as an Exchange server. Also check registry keys as above.
-
 7. Check if user and group membership is properly replicated in AAD. Check if user has rights to the content in Outlook.
 Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
 
 8. Additional possible causes:
-	a.	SSL CRL not accessible
-	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#BKMK_Pre)
 
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
+	
 ### The Admin cannot enable the IRM Integration in Exchange
 
 1. In Exchange, use Test-IRMConfiguration. If it works, go to #6
 2. Check Exchange configuration with:<br>
-	a.	Get-IRM configuration. Check that it is:<br>
+
+* Get-IRM configuration. Check that it is:<br>
 	
 ```
-	InternalLicensingEnabled       : True<br>
-	ExternalLicensingEnabled       : False<br>
-	JournalReportDecryptionEnabled : True/False<br>
-	ClientAccessServerEnabled      : True<br>
-	SearchEnabled                  : True/False<br>
-	TransportDecryptionSetting     : Any<br>
-	EDiscoverySuperUserEnabled     : True<br>
-	ServiceLocation                : MicrosoftRMSUrl<br>
-	PublishingLocation             : MicrosoftRMSUrl<br>
-	LicensingLocation              : MicrosoftRMSUrl<br>
+	InternalLicensingEnabled       : True
+	ExternalLicensingEnabled       : False
+	JournalReportDecryptionEnabled : True/False
+	ClientAccessServerEnabled      : True
+	SearchEnabled                  : True/False
+	TransportDecryptionSetting     : Any
+	EDiscoverySuperUserEnabled     : True
+	ServiceLocation                : MicrosoftRMSUrl
+	PublishingLocation             : MicrosoftRMSUrl
+	LicensingLocation              : MicrosoftRMSUrl
 ```
 
 If either value is wrong, correct it via Set-IRMConfiguration<br>
 
-b. If the Locations are wrong, fix the following locations in the Registry:
+* If the Locations are wrong, fix the following locations in the Registry:
 	
-	```
-	HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
-	```
+```
+HKLM\Software\Microsoft\MSDRM\ServiceLocation\Activation Reg_SZ: Default = "https://MicrosoftRMSURL/_wmcs/certification"
+```
 
 Purge certificates in the Exchange DRM folder in each Exchange server, then disable and re-enable IRM. Keep in mind that different Exchange servers may have different registry settings - all servers should have the same settings.<br>
 
-3.	Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
+3. Check Connector logs. **Event 1002** should indicate if Exchange is actually trying to connect to the connector. If not present on any connector node, most likely Exchange is either running the wrong software version (must be 2010 CU2 or 2013 RU1) or not configured with the redirection URLs in registry as follows:<br>
 
 ```
-HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification" <br>
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "https://connectorName/_wmcs/licensing"<br>
+HKLM\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\CertificationServerRedirection Reg_SZ:"https://MicrosoftRMSURL/_wmcs/certification" = "https://connectorName/_wmcs/certification"
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\(v14|v15)\IRM\LicenseServerRedirection Reg_SZ: "https://MicrosoftRMSURL/_wmcs/licensing" = "https://connectorName/_wmcs/licensing"
 ```
 
 It may also indicate a problem with the DNS pointer or with load balancing. Try to access the RMS URLs from a web browser in an Exchange server as specified in the registry entries as above - https://connectorname/_wmcs/licensing. If you see an IIS error, it is OK. If you don’t get a response, most likely DNS, IP or load balancing error is occurring. Also check if SSL is correctly specified in the registry and if it is being used if it is working.
 
-An **event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
+**Event 2001** indicates that the server is not authorized to use the connector. The identity utilized by Exchange to utilize the connector is not listed in the Connector Authorizations list. Open the Connector administration tool and check if the Exchange Servers group, or any group containing all the Exchange Servers server accounts, is listed in the authorizations.
 
-An **event 3000** indicates a general error in the Connector. This may be caused by the Connector not being properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Reinstall the Connector node and see if this solves the problem.
+**Event 3000** indicates a general error in the Connector. This may be caused by the Connector not being properly configured to talk to Microsoft RMS or that its authorization certificates are invalid. Reinstall the Connector node and see if this solves the problem.
 
-4.	If a specific server can’t consume the content but others can’t, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rile is not specified as an Exchange server. Also check registry keys as above.
+4. If a specific server can’t consume the content but others can’t, check if the server may be authorized via a different rule than the other servers (either it was authorized individually or it belongs to another group also authorized to use the connector) or if the rile is not specified as an Exchange server. Also check registry keys as above.
+5. Check if user and group membership for the test account is properly replicated in AAD. Check if user has rights to the content in Outlook. Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
+6. Additional possible problems:
 
-5.	Check if user and group membership for the test account is properly replicated in AAD. Check if user has rights to the content in Outlook. Check if resending the content after unprotecting and re-protecting works (may have been pre-licensed before the user got the right group membership or group membership was cached).
-
-6.	Additional possible problems:
-	a.	SSL CRL not accessible
-	b.	SSL certificate in connector not trusted by Exchange servers
-	c.	Wrong MSDRM version in Exchange server (needs to be [Mode 2 capable client](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh867439(v=ws.10)#enabling-cryptographic-mode-2-on-adrms-servers)
+	* SSL CRL not accessible
+	* SSL certificate in connector not trusted by Exchange servers
+	* Wrong MSDRM version in Exchange server - must be [Mode 2 capable client](https://aka.ms/rms-exchange)
 
 If all of the above didn't help, please collect the below logs and add them to your support ticket. Create an RMS Analyzer trace on the Exchange Server and a [RMS connector Trace](https://docs.microsoft.com/azure/information-protection/monitor-rms-connector#logging) at the same time.
 
 ### RMS Analyzer
 
-* [Download RMS Analyzer](https://www.microsoft.com/download/details.aspx?id=46437)<br>
-* Start as local admin
-* Go straight to the logging tab
-* Start logging
-* Reproduce the issue<br>
-* Afterwards stop logging<br>
-* Attach the create zip/cab file to the support call and explain what you are trying to do<br>
+1. [Download RMS Analyzer](https://www.microsoft.com/download/details.aspx?id=46437)<br>
+2. Start as local admin
+3. Go straight to the logging tab
+4. Start logging
+5. Reproduce the issue<br>
+6. Afterwards stop logging<br>
+7. Attach the create zip/cab file to the support call and explain what you are trying to do<br>
 
 ## **Recommended Documents**
 

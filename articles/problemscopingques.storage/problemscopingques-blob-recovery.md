@@ -2,6 +2,7 @@
 	pageTitle="Storage Blob recovery"
 	description="Storage Blob recovery scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608638"
 	productPesIds="16459"
@@ -20,8 +21,8 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time Blob was deleted",
-            "required": false
+            "displayLabel": "Approximate local time Blob was deleted",
+            "required": true
         },
         {
             "id": "blob_path",
@@ -36,7 +37,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
