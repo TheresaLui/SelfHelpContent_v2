@@ -8,7 +8,7 @@ ms.author="ganesh.more"
 displayOrder=""
 articleId="7bd33a4a-8d59-4f16-a965-f1ac9deb730e"
 selfHelpType="diagnoseandsolve"
-resourceTags="linux"
+resourceTags="linux, ubuntu"
 productPesIds="15571"
 cloudEnvironments="public"
 />
