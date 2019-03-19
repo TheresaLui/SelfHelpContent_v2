@@ -20,4 +20,4 @@ Azure Stack makes use of the latest Windows Server 2016 security features, inclu
 
 ## **Recommended Documents**
 
-* [Azure Stack infrastructure security posture - Code Integrity](https://docs.microsoft.com/azure/azure-stack/azure-stack-security-foundations#code-integrity)
+[Azure Stack infrastructure security posture - Code Integrity](https://docs.microsoft.com/azure/azure-stack/azure-stack-security-foundations#code-integrity)
