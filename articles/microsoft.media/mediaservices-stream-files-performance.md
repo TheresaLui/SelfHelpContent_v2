@@ -36,4 +36,4 @@ Note that the Streaming Endpoint *hostname* and the streaming URL remains the sa
 
 ## **Recommended Documents** 
 
-[Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept)
+* [Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept)
