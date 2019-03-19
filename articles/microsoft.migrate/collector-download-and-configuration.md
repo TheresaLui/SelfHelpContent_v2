@@ -4,6 +4,7 @@
 	service="microsoft.migrate"
 	resource="projects"
 	authors="shijoy"
+	ms.authors="shijojoy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32631898, 32631897"
@@ -15,7 +16,7 @@
 
 # Azure Migrate Collector download and configuration
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **After upgrading Azure Migrate Collector, all the details in the Collector configuration page have disappeared.** 
 
@@ -34,9 +35,11 @@ Also, note that your Collector must be with the latest Windows update. If it is 
 
 1. Verify if Azure Migrate Collector OVF file is downloaded correctly by checking its hash value. Refer to the [article](https://docs.microsoft.com/azure/migrate/tutorial-assessment-vmware#verify-the-collector-appliance) to verify the hash value. If the hash value is not matching, download the OVF file again and retry the deployment.
 2. If it still fails and if you are using VMware vSphere Client to deploy the OVF, try deploying it through vSphere Web Client. If it still fails, try using differnet web browser.
-3. If you are using vCenter Server 6.5, then try to deploy the Collector on ESXi host directly.
+3. If you are using vCenter Server 6.5, then try to deploy the Collector on ESXi host directly:
+
 	i. Go to ESXi host web client using https://<hostip>/ui and login.
 	ii. Go to Virtual machines -> Create/Register VM -> Deploy a virtual machine from an OVF or OVA ->Deploy ova
 	iii. Power on the VM after deployment
-4. If the issue still persists, please contact Azure Migrate support team. 
+	
+4. If the issue still persists, please contact Azure Migrate support team.
 
