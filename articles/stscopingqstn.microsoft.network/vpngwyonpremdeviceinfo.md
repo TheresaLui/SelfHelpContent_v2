@@ -4,7 +4,7 @@
 	authors="radwiv"
 	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	articleid="vpngwyonpremdeviceinfo"
+	articleid="ProvideOnPremDevice"
 	supportTopicIds="32591149, 32591152"
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
