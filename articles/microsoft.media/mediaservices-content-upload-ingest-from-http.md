@@ -17,6 +17,8 @@
 
 # Upload from HTTP
 
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+
 In Media Services v3, when you submit Jobs to process your videos, you have to tell Media Services where to find the input video. One of the options is to specify an HTTP(s) URL as a job input.
 
 ## **Recommended Documents**

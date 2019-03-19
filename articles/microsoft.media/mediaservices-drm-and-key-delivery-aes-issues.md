@@ -17,6 +17,8 @@
 
 # Issues encrypting with AES-128 clear key
 
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+
 To get details on all failing Key delivery service request, enable the Azure monitoring diagnostic logs. For more information, see [Monitor Media Services metrics and diagnostic logs](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs).
 
 Offline download/playback of files encrypted with AES-128 is not supported by Media Services.
