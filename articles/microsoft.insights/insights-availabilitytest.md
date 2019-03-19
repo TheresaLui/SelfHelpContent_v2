@@ -5,6 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    ms.author = "jamdavi"
     articleId="insights_availabilitytests"
     displayOrder="8"
     selfHelpType="generic"

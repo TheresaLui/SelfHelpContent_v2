@@ -26,7 +26,7 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
 
 ### SMS
 
-* If you need to send SMS to a country code not currently supported we recommend you use a LogicApp action and configure the LogicApp to use one of the connectors provided that integrates with SMS services. [An example is available from the Azure template library](https://azure.microsoft.com/en-us/resources/templates/201-alert-to-text-message-with-logic-app/).
+* If you need to send SMS to a country code not currently supported we recommend you use a LogicApp action and configure the LogicApp to use one of the connectors provided that integrates with SMS services. [An example is available from the Azure template library](https://azure.microsoft.com/resources/templates/201-alert-to-text-message-with-logic-app/).
 
 ### Voice
 
@@ -46,5 +46,5 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
 
 ## **Recommended Documents**
 
-[Creating and managing action groups](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-action-groups)<br>
-[Pricing information for action group notifications](https://azure.microsoft.com/en-us/pricing/details/monitor/)
+[Creating and managing action groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups)<br>
+[Pricing information for action group notifications](https://azure.microsoft.com/pricing/details/monitor/)
