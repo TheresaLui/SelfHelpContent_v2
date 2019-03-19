@@ -28,6 +28,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter your invoices",
+	    "useAsAdditionalDetails": true, 
             "watermarkText": "Provide all your invoice ids (comma separated)",
             "required": true
         },
