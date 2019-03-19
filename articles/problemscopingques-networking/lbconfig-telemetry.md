@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Configure Load Balancer Telemetry"
+	description="Configure Load Balancer Telemetry"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Configure Load Balancer Telemetry
+---
 {
  "resourceRequired": true,
  "title": "Configure Load Balancer Telemetry",
@@ -86,3 +99,4 @@
 		] }
  ] 
 }
+---
