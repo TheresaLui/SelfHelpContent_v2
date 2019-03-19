@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Load distribution issues"
+	description="Load distribution issues"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32588976"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Load distribution issues
+---
 {
  "resourceRequired": true,
  "title": "Load distribution issues",
@@ -46,3 +59,4 @@
 	}
  ] 
 }
+---
