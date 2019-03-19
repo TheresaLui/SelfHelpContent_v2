@@ -15,7 +15,7 @@
 
 # Dependency visualization in Azure Migrate
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### **How do I configure Azure Migrate project to use an existing OMS workspace?**
 When you configure your OMS workspace for the first time for an Azure Migrate project, you can either create new or use existing OMS workspace. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies#associate-a-log-analytics-workspace) about how to configure OMS workspace.
@@ -24,7 +24,7 @@ When you configure your OMS workspace for the first time for an Azure Migrate pr
 No, you cannot change the OMS workspace once it is configured.
 
 ### **How can I automate installation of Microsoft Monitoring Agent (MMA) and dependency agent?**
-You can use [script for dependency](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#installation-script-examples) and [script for MMA](https://gallery.technet.microsoft.com/scriptcenter/Install-OMS-Agent-with-2c9c99ab). In addition to scripts, you can also leverage deployment tools like System Center Configuration Manager (SCCM), [Intigua](https://www.intigua.com/getting-started-intigua-for-azure-migration), etc., to deploy the agents.
+You can use [script for dependency](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#installation-script-examples) and [script for MMA](https://gallery.technet.microsoft.com/scriptcenter/Install-OMS-Agent-with-2c9c99ab). In addition to scripts, you can also leverage deployment tools like System Center Configuration Manager (SCCM) and [Intigua](https://www.intigua.com/getting-started-intigua-for-azure-migration) to deploy the agents.
 
 ### **Can I export the dependency visualization report?**
 No, currently you cannot export the dependency visualization report. 
