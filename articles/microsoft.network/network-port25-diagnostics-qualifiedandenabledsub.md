@@ -19,7 +19,7 @@ cloudEnvironments="Public"
 # This subscription is enabled to send mail over TCP port 25
 
 <!--issueDescription-->
-Yur Subscription **'<!--$SubscriptionName-->[SubscriptionName]<!--/$SubscriptionName-->'** of type **'<!--$SubOfferType-->[SubscriptionOfferType]<!--/$SubOfferType-->'** is **enabled** to send mail on TCP port 25 per your request. If you are having issues sending mail from a VM's TCP port 25 in this subscription, you may be experiencing other routing related issues. Please provide the VM name and the TCP port you are attempting to send mail on for further diagnosis. If you would like to resolve the routing issue on your own see the steps below.
+Your Subscription **'<!--$SubscriptionName-->[SubscriptionName]<!--/$SubscriptionName-->'** of type **'<!--$SubOfferType-->[SubscriptionOfferType]<!--/$SubOfferType-->'** is **enabled** to send mail on TCP port 25 per your request. If you are having issues sending mail from a VM's TCP port 25 in this subscription, you may be experiencing other routing related issues. Please provide the VM name and the TCP port you are attempting to send mail on for further diagnosis. If you would like to resolve the routing issue on your own see the steps below.
 
 ## **Recommended Steps**
 
