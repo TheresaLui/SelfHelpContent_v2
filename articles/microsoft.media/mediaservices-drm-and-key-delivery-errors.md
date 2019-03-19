@@ -23,6 +23,10 @@ Before implementing DRM encryption, review [Content protection overview](https:/
 
 To get details on all failing Key delivery service request, enable the Azure monitoring diagnostic logs. For more information, see [Monitor Media Services metrics and diagnostic logs](https://docs.microsoft.com/azure/media-services/latest/media-services-metrics-diagnostic-logs).
 
+If you get MPE_ENC_ENCRYPTION_NOT_SET_IN_DELIVERY_POLICY, make sure you specified the appropriate [Streaming Policy](https://docs.microsoft.com/azure/media-services/latest/streaming-policy-concept).
+
+If you get errors that end with "_NOT_SPECIFIED_IN_URL", make sure that you specify the encryption format in the URL. For example, …/manifest (format=m3u8-cmaf,encryption=cbcs-aapl). For details, see [Streaming protocols and encryption types](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview#streaming-protocols-and-encryption-types).
+
 ## **Recommended Documents**
 
 * [Design of a multi-DRM content protection system with access control](https://docs.microsoft.com/azure/media-services/latest/design-multi-drm-system-with-access-control)<br>
