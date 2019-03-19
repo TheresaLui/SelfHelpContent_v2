@@ -22,8 +22,7 @@ Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azur
 
 ## **Recommended Steps**
 
-If you are running into issues creating/updating/deleting Action groups using REST API or Azure command line interface (CLI), the following steps may help resolve the issue.
+If you are running into issues creating/updating/deleting Action groups using REST API or Azure command line interface (CLI), the following steps may help resolve the issue:
 
-1. Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/actiongroups/) to verify you are passing the all the parameters correctly.
-
-2. Review the [CLI guide](https://docs.microsoft.com/cli/azure/monitor/action-group?view=azure-cli-latest) for samples and usage.
+1. Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/actiongroups/) to verify you are passing the all the parameters correctly
+2. Review the [CLI guide](https://docs.microsoft.com/cli/azure/monitor/action-group?view=azure-cli-latest) for samples and usage
