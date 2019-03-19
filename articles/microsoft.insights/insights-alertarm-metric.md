@@ -31,14 +31,16 @@ If you are running into issues creating/updating metric alerts using Azure Resou
 
 3. If you are receiving a `Metric  not found` error, ensure you are using the Metric name from [this page](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported) and not the Metric Display Name
 
-4. If you are creating [metric alerts on logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-log), ensure appropriate dependencies are included.
-    * See [sample template](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#resource-template-for-metric-alerts-for-logs).
+4. If you are creating [metric alerts on logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs), ensure appropriate dependencies are included:
 
-5. Review if you have appropriate permissions. To create/update/delete metric alerts
+    * See [sample template](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#resource-template-for-metric-alerts-for-logs)
+
+5. Review if you have appropriate permissions. To create/update/delete metric alerts:
+
     * you should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or
     * you should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
 
 ## **Recommended Documents**
 
-[How metric alerts work](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview)<br>
-[Metric alerts template reference](https://docs.microsoft.com/azure/templates/microsoft.insights/2018-03-01/metricalerts)
+* [How metric alerts work](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview)<br>
+* [Metric alerts template reference](https://docs.microsoft.com/azure/templates/microsoft.insights/2018-03-01/metricalerts)
