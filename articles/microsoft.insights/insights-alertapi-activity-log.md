@@ -5,7 +5,7 @@
 	service="microsoft.insights"
 	resource="activitylogalerts"
 	authors="snehithm, msvijayn,anantr"
-	authoralias="snmuvva, vinagara, anantr"
+	ms.author="snmuvva, vinagara, anantr"
 	displayOrder="7"
 	articleId="insights-alertapi-activity-log"
 	diagnosticScenario=""
