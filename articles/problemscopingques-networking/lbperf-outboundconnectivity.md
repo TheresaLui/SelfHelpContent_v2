@@ -1,3 +1,16 @@
+<properties
+	pageTitle="Outbound connectivity failures"
+	description="Outbound connectivity failures"
+	authors="rdhillon"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32608577"
+	productPesIds="16098"
+	cloudEnvironments="public"
+	schemaVersion="1"
+	articleId=""
+/>
+# SLB - Outbound connectivity failures
+---
 {
  "resourceRequired": true,
  "title": "Outbound connectivity failures",
@@ -95,3 +108,4 @@
 		] }
  ] 
 }
+---
