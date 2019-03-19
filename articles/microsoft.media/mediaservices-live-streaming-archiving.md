@@ -27,4 +27,4 @@ The relationship between a Live Event and its Live Outputs is similar to traditi
 
 ## **Recommended Documents**
 
-[Using a cloud DVR](https://docs.microsoft.com/azure/media-services/latest/live-event-cloud-dvr)
+* [Using a cloud DVR](https://docs.microsoft.com/azure/media-services/latest/live-event-cloud-dvr)
