@@ -14,13 +14,9 @@
     articleId="azurestack-alerts-codeintegrity"
 />
 
-# Azure Stack Activation
+# Azure Stack Code Integrity
 
-Azure Stack makes use of the latest Windows Server 2016 security features. One of them is Windows Defender Device Guard, which provides application whitelisting, and ensures that only authorized code runs within the Azure Stack infrastructure. 
-
-## **Recommended Steps**
-
-
+Azure Stack makes use of the latest Windows Server 2016 security features, including [Windows Defender Device Guard](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control) which provides application white-listing, and ensures that only authorized code runs within the Azure Stack infrastructure.
 
 ## **Recommended Documents**
 
