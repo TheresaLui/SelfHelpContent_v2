@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack VM Activation"
-    description="General guidance for Azure Stack alert issues"
+    description="Azure Stack Windows Activation issues"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
