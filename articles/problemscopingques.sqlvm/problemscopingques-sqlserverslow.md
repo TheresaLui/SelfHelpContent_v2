@@ -122,7 +122,7 @@
             "displayLabel": "Query",
             "watermarkText": " Please enter the text of the query you need assistance with.",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",
