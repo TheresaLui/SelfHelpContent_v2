@@ -20,9 +20,9 @@
 
 - [Prerequisites and limitations for DPM backup](https://aka.ms/AB-DPM-limitation)<br>
 - [Support Matrix for DPM backup](https://aka.ms/AB-DMP-SM)<br>
-- [How to prepare DPM workloads in Azure Portal?](https://aka.ms/AB-DPM-Intro)<br>
+- [Prepare DPM workloads in Azure Portal](https://aka.ms/AB-DPM-Intro)<br>
 - How to use DPM to backup workloads - [Exchange](https://aka.ms/AB-DPM-ES), [SQL](https://aka.ms/AB-DPM-SQL), [SharePoint](https://aka.ms/AB_DPM-Sharepoint)<br>
-- [How to recover data to alternate DPM server?](https://aka.ms/AB-DPM-alternate)<br>
+- [Recover data to alternate DPM server](https://aka.ms/AB-DPM-alternate)<br>
 
 **Common Issues**
 
