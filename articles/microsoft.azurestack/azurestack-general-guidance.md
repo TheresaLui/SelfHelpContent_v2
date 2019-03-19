@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack General Guidance"
-    description=""
+    description="Azure Stack General Guidance"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
