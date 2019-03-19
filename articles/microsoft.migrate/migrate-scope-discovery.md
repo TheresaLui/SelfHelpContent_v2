@@ -4,6 +4,7 @@
 	service="microsoft.migrate"
 	resource="projects"
 	authors="shijoy"
+	ms.authors="shijojoy"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32631903, 32593693, 32631901"
