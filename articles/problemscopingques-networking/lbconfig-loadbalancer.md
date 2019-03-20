@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure a Load Balancer"
 	description="Configure a Load Balancer"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588972"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4545-be70-2069dc2e00ff"
 />
 # SLB - Configure a Load Balancer
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [	 
 	 {
-	 "id": "config_lb"
+	 "id": "config_lb",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the type of Load Balancer that you need configuration support for",
@@ -30,12 +31,12 @@
 		 {
 		 "value": "A supported vendor product",
 		 "text": "A supported vendor product"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_sku"
+	 "id": "config_lb_sku",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -48,12 +49,12 @@
 		 {
 		 "value": "Standard SKU",
 		 "text": "Standard SKU"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_type"
+	 "id": "config_lb_type",
 	 "order": 3,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -66,12 +67,12 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_ipaddress_family"
+	 "id": "config_lb_ipaddress_family",
 	 "order": 4,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer IP address family",
@@ -84,12 +85,12 @@
 		 {
 		 "value": "IPv6 Load Balancer",
 		 "text": "IPv6 Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_zone"
+	 "id": "config_lb_zone",
 	 "order": 5,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer fault-tolerence scope",
@@ -102,12 +103,12 @@
 		 {
 		 "value": "Zone redundant Load Balancer",
 		 "text": "Zone redundant Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "lb_config_type"
+	 "id": "lb_config_type",
 	 "order": 6,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the specific configuration topic that you need help with",
@@ -170,6 +171,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
