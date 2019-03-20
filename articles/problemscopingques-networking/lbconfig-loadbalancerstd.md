@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure a Load Balancer Standard"
 	description="Configure a Load Balancer Standard"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32588974"
+	supportTopicIds="32608574"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4549-be70-2069dc2e00ff"
 />
 # SLB - Configure a Load Balancer Standard
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [	 
 	 {
-	 "id": "config_lb_type"
+	 "id": "config_lb_type",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -30,12 +31,12 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "lb_config_type"
+	 "id": "lb_config_type",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the specific configuration topic that you need help with",
@@ -106,6 +107,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
