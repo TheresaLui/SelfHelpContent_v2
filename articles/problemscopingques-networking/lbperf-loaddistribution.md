@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Load distribution issues"
 	description="Load distribution issues"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588976"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4551-be70-2069dc2e00ff"
 />
 # SLB - Load distribution issues
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [
 	 {
-	 "id": "config-changes"
+	 "id": "config-changes",
 	 "order": 1,
 	 "controlType": "multilinetextbox",
 	 "displayLabel": "Please specify any additional details",
@@ -25,7 +26,7 @@
 	 "useAsAdditionalDetails": false
 	 },
 	 {
-	 "id": "config_lb_nva"
+	 "id": "config_lb_nva",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Is there a third party virtual appliance (e.g. firewalls, routers) in the data-path?",
@@ -38,7 +39,7 @@
 		 {
 		 "value": "No",
 		 "text": "No"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
