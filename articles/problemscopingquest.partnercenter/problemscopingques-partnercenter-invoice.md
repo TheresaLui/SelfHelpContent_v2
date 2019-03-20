@@ -84,11 +84,13 @@
 			"order" : 7,
 			"controlType": "dropdown",
 			"displayLabel": "Please select the Customer Name",
+			"watermarkText": "Choose an option",
 			"dropDownOption": {
 				"uri": "https://api.partnercenter.microsoft-ppe.com/v1/customers?size=200",
 				"jTokenPath": "items",
 				"textProperty": "companyProfile/companyName",
-				"valueProperty": "companyProfile/tenantId"
+				"valueProperty": "companyProfile/tenantId",
+				"textPropertyRegex": "[^/]+$"
 			}
 		}
 	]
