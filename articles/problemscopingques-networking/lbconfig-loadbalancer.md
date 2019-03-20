@@ -161,7 +161,7 @@
 		 "order": 8,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": true, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
