@@ -16,7 +16,7 @@
  "resourceRequired": true,
  "title": "Configure Load Balancer Telemetry",
  "fileAttachmentHint": "",
- "formElements": [	 
+ "formElements": [
 	 {
 	 "id": "config_lb_sku",
 	 "order": 1,
