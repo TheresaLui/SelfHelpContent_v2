@@ -81,7 +81,7 @@
 		},
 		{
 			"id": "pc_dynamicdropdown",
-			"order" : 7
+			"order" : 7,
 			"controlType": "dropdown",
 			"displayLabel": "Please select the customer Name",
 			"dropDownOption": {

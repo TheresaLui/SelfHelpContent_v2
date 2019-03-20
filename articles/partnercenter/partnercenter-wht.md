@@ -18,7 +18,7 @@
 
 # This is a sample title
 
-## **Recommended Solutions**
+## **Recommended Steps**
 
 Based on your information we have identified some topics that may help solve your issue and save you some time.
 
