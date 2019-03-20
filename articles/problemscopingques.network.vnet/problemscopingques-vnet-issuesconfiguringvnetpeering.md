@@ -45,7 +45,6 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-
                 {
             "id": "problem_description",
             "order": 5,
