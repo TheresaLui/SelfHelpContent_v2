@@ -16,7 +16,7 @@
  "resourceRequired": true,
  "title": "Configure a Load Balancer",
  "fileAttachmentHint": "",
- "formElements": [	 
+ "formElements": [
 	 {
 	 "id": "config_lb",
 	 "order": 1,
@@ -69,7 +69,7 @@
 		 "text": "Public Load Balancer"
 		 }
 	 ],
-	 "required": true
+	 "required": false
 	 },
 	 {
 	 "id": "config_lb_ipaddress_family",
@@ -87,7 +87,7 @@
 		 "text": "IPv6 Load Balancer"
 		 }
 	 ],
-	 "required": true
+	 "required": false
 	 },
 	 {
 	 "id": "config_lb_zone",
@@ -105,7 +105,7 @@
 		 "text": "Zone redundant Load Balancer"
 		 }
 	 ],
-	 "required": true
+	 "required": false
 	 },
 	 {
 	 "id": "lb_config_type",
@@ -154,14 +154,14 @@
 		 "order": 7,
 		 "controlType": "datetimepicker",
 		 "displayLabel": "When did the problem begin?",
-		 "required": false
+		 "required": true
 	 },
 	 {
 		 "id": "problem_description",
 		 "order": 8,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": false, 
+		 "required": true, 
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
