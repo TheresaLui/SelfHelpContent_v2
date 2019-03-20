@@ -18,11 +18,11 @@
 ## **Recommended Steps**
 
 - [**VMNotInRunningStateUserError** - Ensure the SQL Server is running](https://aka.ms/AA4f1h6)</br>
-- [Can I throttle the speed of the SQL Server backup policy?](https://aka.ms/AB-AA4dp5n) </br>
-- [When I select a SQL Server instance are future databases automatically added?](https://aka.ms/AB-AA4dp5q)</br>
-- [If I change the recovery model, how do I restart protection?](https://aka.ms/AB-AA4dp5p)</br>
-- [Can I protect SQL Always On Availability Groups where the primary replica is on premises?](https://aka.ms/AB-AA4dwue)</br>
+- [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>
+- [Are future databases automatically added for backup?](https://aka.ms/AB-AA4dp5q)</br>
+- [Can I protect availability groups across regions?](https://aka.ms/AB-AA4dwue)</br>
 
 ## **Recommended Documents**
+
 - [FAQs](https://aka.ms/AB-AA4dwuc)</br>
 - [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>
