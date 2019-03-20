@@ -33,4 +33,4 @@ To get details on all failing Key delivery service request, enable the Azure mon
 
 **Media Services v2 (legacy)**
 
-[Use AES-128 dynamic encryption and the key delivery service](https://docs.microsoft.com/azure/media-services/previous/media-services-protect-with-aes128)
+* [Use AES-128 dynamic encryption and the key delivery service](https://docs.microsoft.com/azure/media-services/previous/media-services-protect-with-aes128)
