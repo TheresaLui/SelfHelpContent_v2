@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Outbound connectivity failures"
 	description="Outbound connectivity failures"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608577"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4550-be70-2069dc2e00ff"
 />
 # SLB - Outbound connectivity failures
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [
 	 {
-	 "id": "outbound-connectivity"
+	 "id": "outbound-connectivity",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please specify the destination location",
@@ -38,12 +39,12 @@
 		 {
 		 "value": "External Internet endpoint",
 		 "text": "External Internet endpoint"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "connectivity-break-type"
+	 "id": "connectivity-break-type",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please specify the type of connectivity loss",
@@ -61,7 +62,7 @@
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_nva"
+	 "id": "config_lb_nva",
 	 "order": 3,
 	 "controlType": "dropdown",
 	 "displayLabel": "Is there a third party virtual appliance (e.g. firewalls, routers) in the data-path that are being used for outbound connectivity?",
@@ -74,7 +75,7 @@
 		 {
 		 "value": "No",
 		 "text": "No"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },	 
@@ -106,6 +107,6 @@
 			 "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
 			 }
 		] }
- ] 
+ ]
 }
 ---
