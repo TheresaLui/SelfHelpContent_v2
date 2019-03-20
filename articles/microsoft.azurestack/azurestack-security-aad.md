@@ -24,7 +24,7 @@ Azure Stack supports Azure Active Directory (Azure AD) in connected scenarios. A
 2. If a validation check fails, details about the failure are output by the tool, including several common [validation failures](https://docs.microsoft.com/azure/azure-stack/azure-stack-validate-identity#validation-failures)
 3. Once Azure AD integration is completed, you can use the portal to [Add a new Azure Stack tenant account](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-new-user-aad) in Azure Active Directory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Overview of identity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-overview)
 * [Identity architecture for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-identity-architecture)
