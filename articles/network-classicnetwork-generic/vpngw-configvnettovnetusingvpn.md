@@ -15,9 +15,10 @@
 />
 # Configure a VNet-to-VNet connection using VPN
 
-There are multiple ways to setup VNet-to-VNet connections. You may find below help useful in setting up the VNet-to-VNet connection using VPN.
+There are multiple ways to setup VNet-to-VNet connections. You may find the articles listed below useful in setting up the VNet-to-VNet connection using VPN.
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * VNets can be connected in multiple ways depending on requirements. Check [here](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps#about) for additional details
 * Step by step guide to [configuring and validating VNet or VPN connections](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)
 * Configure a VNet-to-VNet VPN Gateway connection using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal), [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps) or [Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli)
