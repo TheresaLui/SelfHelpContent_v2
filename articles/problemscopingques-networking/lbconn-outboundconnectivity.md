@@ -1,13 +1,14 @@
 <properties
 	pageTitle="No outbound connectivity from the backend pool"
 	description="No outbound connectivity from the backend pool"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
-	productPesIds=""
+	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4553-be70-2069dc2e00ff"
 />
 # SLB - No outbound connectivity from the backend pool
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [
 	 {
-	 "id": "outbound-connectivity"
+	 "id": "outbound-connectivity",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please specify the destination location",
@@ -38,12 +39,12 @@
 		 {
 		 "value": "External Internet endpoint",
 		 "text": "External Internet endpoint"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "connectivity-break-type"
+	 "id": "connectivity-break-type",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please specify the type of connectivity loss",
