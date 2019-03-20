@@ -20,7 +20,7 @@
 **Does offline playback work with AES-128 clear key encryption?**
 
  No. Offline download/playback of files encrypted with AES-128 is not supported by Media Services.
-
+ 
 **Media Services v3 (latest)**
  
 **NOTE:** This section references Media Services v3 API documentation. v3 is the latest Media Services version.
