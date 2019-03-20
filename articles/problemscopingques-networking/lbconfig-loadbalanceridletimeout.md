@@ -29,7 +29,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": false, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
@@ -39,6 +39,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
