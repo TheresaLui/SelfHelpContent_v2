@@ -80,7 +80,7 @@
 			"content": "<a href='https://support.microsoft.com/en-us/help/4089764/how-to-get-your-invoice-in-partner-center'> Learn more </a>"
 		},
 		{
-			"id": "pc_dynamicDropdown",
+			"id": "pc_dynamicdropdown",
 			"order" : 7
 			"controlType": "DropDown",
 			"displayLabel": "Please select the customer Name",
