@@ -44,6 +44,10 @@ schemaVersion="1"
                 {
                     "value": "General question",
                     "text": "General question"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "required": true

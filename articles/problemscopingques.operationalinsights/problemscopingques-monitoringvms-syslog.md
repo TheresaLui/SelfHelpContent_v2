@@ -42,7 +42,7 @@ schemaVersion="1"
                     "text": "Network device"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
                 }
             ],
