@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure an IPv6 Load Balancer"
 	description="Configure an IPv6 Load Balancer"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588971"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4547-be70-2069dc2e00ff"
 />
 # SLB - Configure an IPv6 Load Balancer
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [	 
 	 {
-	 "id": "config_ipv6_lb"
+	 "id": "config_ipv6_lb",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -30,12 +31,12 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "lb_config_type"
+	 "id": "lb_config_type",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the specific configuration topic that you need help with",
@@ -102,6 +103,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
