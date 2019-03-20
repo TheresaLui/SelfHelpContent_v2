@@ -22,5 +22,5 @@
 
 * [How to get your invoice](https://support.microsoft.com/en-us/help/4089764/how-to-get-your-invoice-in-partner-center)
 * [Invoice API Reference](https://docs.microsoft.com/partner-center/develop/partner-center-rest-api-reference) 
-* [Licensing FAQ] (https://msdn.microsoft.com/en-us/partner-center/csp-documents-and-learning-resources)
+* [Licensing FAQ](https://msdn.microsoft.com/en-us/partner-center/csp-documents-and-learning-resources)
 
