@@ -10,7 +10,7 @@
 	articleId="falsealert-activitylog"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629641"
+	supportTopicIds="32629641,32629672"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax, mooncake"

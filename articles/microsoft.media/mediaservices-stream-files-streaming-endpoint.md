@@ -19,7 +19,7 @@
 
 A common Media Services scenario is to encode your content and stream files using different streaming formats and content protection formats to a variety of client technologies (for example, iOS and XBOX).
 
-[Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept) is the dynamic packaging and streaming service in Media Services used to deliver media content to client players or to a Content Delivery Network (CDN) for further distribution. Dynamic Packaging is a feature that comes standard on all Streaming Endpoints (Standard or Premium). There is no extra cost associated with this feature in Media Services v3.
+[Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept) is the dynamic packaging and streaming service in Media Services used to deliver media content to client players or to a Content Delivery Network (CDN) for further distribution. Dynamic Packaging is a feature that comes standard on all Streaming Endpoints (Standard or Premium). 
 
 To take advantage of Dynamic Packaging, you need to have an Asset with a set of adaptive bitrate MP4 files and streaming configuration files needed by Media Services Dynamic Packaging. One way to get the files is to encode your mezzanine (source) file with Media Services. The encoding job will produce an output Asset.
 
@@ -27,7 +27,7 @@ To make videos in the output Asset available to clients for playback, you have t
 
 Based on the specified format in the streaming client manifest (HLS, DASH, or Smooth), your clients can receive the stream in the chosen protocol.
 
-**Delivery protocols**
+### Delivery Protocols
 
 |Protocol|Example|
 |---|---|

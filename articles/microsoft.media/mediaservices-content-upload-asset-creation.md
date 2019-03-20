@@ -17,6 +17,8 @@
 
 # Create an Asset
 
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+
 You need to create an Asset if you want to encode or analyze your on-demand content. Or, if you have a Live Output that is associated with an Asset, which it uses to store the record videos.
 
 ## **Recommended Steps**
