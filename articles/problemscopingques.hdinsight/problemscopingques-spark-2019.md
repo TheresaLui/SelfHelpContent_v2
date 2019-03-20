@@ -36,7 +36,7 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "YARN Application ID for the Spark application",
-            "required": true
+            "required": false
         },
         {
             "id": "spark_submission_method",
@@ -47,26 +47,30 @@
             "dropdownOptions": [
                 {
                     "value": "Jupyter",
-                    "text": "Jupyter"
+                    "text": "Jupyter Notebook"
+                },
+                {
+                    "value": "Zeppelin",
+                    "text": "Zeppelin Notebook"
                 },
                 {
                     "value": "Livy",
                     "text": "Livy"
                 },
                 {
-                    "value": "Zeppelin",
-                    "text": "Zeppelin"
-                },
-                {
                     "value": "Spark shell",
                     "text": "Spark shell"
+                },
+                {
+                    "value": "ADF",
+                    "text": "Azure Data Factory"
                 },
                 {
                     "value": "ODBC/JDBC",
                     "text": "ODBC/JDBC"
                 },
                 {
-                    "value": "Other (describe below)",
+                    "value": "Other",
                     "text": "Other"
                 }
             ],

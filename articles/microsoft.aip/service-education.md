@@ -16,8 +16,11 @@
 
 # Azure Information Protection service - education
 
+Below you will find a list of relevant documentation about using Azure Information Protection. It is strongly recommended to review the documentation and make sure you have met the prerequisites of the different features in the portal.
+
 ## **Recommended Documents**
 
+* [How-to guides for common scenarios that use Azure Information Protection](https://docs.microsoft.com/azure/information-protection/how-to-guides)<br>
 * [Review Azure Information Protection documentation](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Configuring the Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy)<br>
 * [The default Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-policy-default)<br>

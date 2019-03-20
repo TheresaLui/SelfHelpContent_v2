@@ -14,6 +14,7 @@
 	articleId="fdae411c-7719-4070-9afb-725bfcecf1d3"
 />
 # Azure Backup SQL Backup performance
+
 ## **Recommended Steps**
 
 - [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>

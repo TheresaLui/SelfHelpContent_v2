@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What deployment exception are you experiencing?",
 			"watermarkText": "exception...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

@@ -4,6 +4,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
+	ms.author="tibasham"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32568893, 32568894, 32568895, 32568896, 32568897, 32568898, 32568899, 32568900, 32568901, 32568902, 32568903, 32592921"
@@ -15,9 +16,11 @@
 
 # Container Registry
 
-## **Recommended documents**
+## **Recommended Documents**
 
+* [Azure Container Registry FAQ](https://github.com/Azure/acr/blob/master/docs/FAQ.md)<br>
 * [Azure Container Registry Documentation](https://docs.microsoft.com/azure/container-registry/)<br>
+* [Azure Container Registry Helpful links](https://github.com/azure/acr#links)<br>
 * [Push your first image to a private Docker container registry using the Docker CLI](https://docs.microsoft.com/azure/container-registry/container-registry-get-started-docker-cli)<br>
 * [Delete container images in Azure Container Registry](https://docs.microsoft.com/azure/container-registry/container-registry-delete)<br>
 * [Upgrade a Classic container registry](https://docs.microsoft.com/azure/container-registry/container-registry-upgrade)<br>
