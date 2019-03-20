@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure Load Balancer Telemetry"
 	description="Configure Load Balancer Telemetry"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
-	productPesIds=""
+	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4556-be70-2069dc2e00ff"
 />
 # SLB - Configure Load Balancer Telemetry
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [	 
 	 {
-	 "id": "config_lb_sku"
+	 "id": "config_lb_sku",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -30,12 +31,12 @@
 		 {
 		 "value": "Standard SKU",
 		 "text": "Standard SKU"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_type"
+	 "id": "config_lb_type",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -48,12 +49,12 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_temetry_type"
+	 "id": "config_temetry_type",
 	 "order": 3,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the telemetry category that you need help with",
@@ -74,7 +75,7 @@
 		 {
 		 "value": "Alerts",
 		 "text": "Alerts"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
@@ -97,6 +98,6 @@
 			 "text": "Did you recieve any error messages while configuring Load Balancer telemetry? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
