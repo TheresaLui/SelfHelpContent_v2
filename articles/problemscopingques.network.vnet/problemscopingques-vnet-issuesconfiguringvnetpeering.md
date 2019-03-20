@@ -13,7 +13,6 @@
 # Issues configuring VNet Peering
 ---
 {
-
     "resourceRequired": true,
     "title": "Issues configuring VNet Peering",
     "fileAttachmentHint": "",
@@ -46,7 +45,6 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-
                 {
             "id": "problem_description",
             "order": 5,
