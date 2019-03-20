@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Intermittent connectivity issues"
 	description="Intermittent connectivity issues"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588975"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4554-be70-2069dc2e00ff"
 />
 # SLB - Intermittent connectivity issues
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [
 	 {
-	 "id": "connectivity_direction"
+	 "id": "connectivity_direction",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please specify the connectivity direction",
