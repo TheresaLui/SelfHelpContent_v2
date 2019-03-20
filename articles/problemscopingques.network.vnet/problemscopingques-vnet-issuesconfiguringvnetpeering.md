@@ -13,7 +13,6 @@
 # Issues configuring VNet Peering
 ---
 {
-
     "resourceRequired": true,
     "title": "Issues configuring VNet Peering",
     "fileAttachmentHint": "",
