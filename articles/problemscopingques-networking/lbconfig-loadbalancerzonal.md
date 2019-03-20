@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure a Zone-Specific Load Balancer"
 	description="Configure a Zone-Specific Load Balancer"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32588976"
+	supportTopicIds="32608576"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-454a-be70-2069dc2e00ff"
 />
 # SLB - Configure a Zone-Specific Load Balancer
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [
 	 {
-	 "id": "config_zonal_lb"
+	 "id": "config_zonal_lb",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
@@ -30,7 +31,7 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
@@ -56,6 +57,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
