@@ -83,7 +83,7 @@
 			"id": "pc_dynamicdropdown",
 			"order" : 7,
 			"controlType": "dropdown",
-			"displayLabel": "Please select the customer Name",
+			"displayLabel": "Please select the Customer Name",
 			"dropDownOption": {
 				"uri": "https://api.partnercenter.microsoft-ppe.com/v1/customers?size=200",
 				"jTokenPath": "items",
