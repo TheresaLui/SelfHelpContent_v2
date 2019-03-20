@@ -16,7 +16,7 @@
  "resourceRequired": true,
  "title": "Configure a Load Balancer Standard",
  "fileAttachmentHint": "",
- "formElements": [	 
+ "formElements": [
 	 {
 	 "id": "config_lb_type",
 	 "order": 1,
@@ -83,21 +83,21 @@
 		 "text": "Topic not listed"
 		 }
 	 ],
-	 "required": true
+	 "required": false
 	 },
 	 {
 		 "id": "problem_start_time",
 		 "order": 3,
 		 "controlType": "datetimepicker",
 		 "displayLabel": "When did the problem begin?",
-		 "required": false
+		 "required": true
 	 },
 	 {
 		 "id": "problem_description",
 		 "order": 4,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": false, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
