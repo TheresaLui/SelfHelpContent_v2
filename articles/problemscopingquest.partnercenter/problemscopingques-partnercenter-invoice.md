@@ -78,6 +78,18 @@
 			"order": 6,
 			"controlType": "infoblock",
 			"content": "<a href='https://support.microsoft.com/en-us/help/4089764/how-to-get-your-invoice-in-partner-center'> Learn more </a>"
+		},
+		{
+			"id": "pc_dynamicDropdown",
+			"order" : 7
+			"controlType": "DropDown",
+			"displayLabel": "Please select the customer Name",
+			"dropDownOption": {
+				"uri": "https://api.partnercenter.microsoft-ppe.com/v1/customers?size=200",
+				"jTokenPath": "items",
+				"textProperty": "companyProfile/companyName",
+				"valueProperty": "companyProfile/tenantId"
+			}
 		}
 	]
 }

@@ -18,15 +18,8 @@
 
 # This is a sample title
 
-In order to submit your WHT please follow the steps below.
+## **Recommended Solutions**
 
-## **Recommended Steps**
+Based on your information we have identified some topics that may help solve your issue and save you some time.
 
-1. Download the WHT form template
-2. Provide all the details in the template.
-3. Submit a Service Request with the WHT form as an attachment
-
-## **Recommended Documents**
-
-* [Get support](https://partner.microsoft.com/support)
-
+[Step by Step Guide](https://partner.microsoft.com/support)<br>You can find the step by step guide to submitting your WHT form
