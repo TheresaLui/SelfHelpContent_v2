@@ -20,7 +20,7 @@
 
 * [Verify data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure)<br>
 * [FAQ: Verify data upload](https://docs.microsoft.com/azure/databox/data-box-faq#verify-and-upload)<br>
-* [Running prepare to ship](https://docs.microsoft.com/azure/databox/data-box-faq#audit-report)<br>
+* [Running prepare to ship](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#prepare-to-ship)<br>
 * [Data Box Blob storage requirements](https://docs.microsoft.com/azure/databox/data-box-system-requirements-rest)<br>
 * [Data upload caveats](https://docs.microsoft.com/azure/databox/data-box-faq#audit-report)<br>
 * [Download Order log report](https://docs.microsoft.com/azure/databox/data-box-faq#audit-report)<br>
