@@ -16,7 +16,7 @@
  "resourceRequired": true,
  "title": "Configure an IPv6 Load Balancer",
  "fileAttachmentHint": "",
- "formElements": [	 
+ "formElements": [
 	 {
 	 "id": "config_ipv6_lb",
 	 "order": 1,
