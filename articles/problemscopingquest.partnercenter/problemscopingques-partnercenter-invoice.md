@@ -4,7 +4,7 @@
 	authors="srinivabms"
 	ms.author="srinivab"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32569834"
+	supportTopicIds="32569834,32633857"
 	productPesIds="15960"
 	cloudEnvironments="public"
 	schemaVersion="1"

@@ -10,7 +10,7 @@
 	articleId="partnercenter_wht"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32606526"
+	supportTopicIds="32606526,32633891"
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
