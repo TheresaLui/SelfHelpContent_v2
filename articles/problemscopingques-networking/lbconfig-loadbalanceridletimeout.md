@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure Idle Timeout on  Load Balancer"
 	description="Configure Idle Timeout on  Load Balancer"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588970"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4546-be70-2069dc2e00ff"
 />
 # SLB - Configure Idle Timeout on Load Balancer
 ---
