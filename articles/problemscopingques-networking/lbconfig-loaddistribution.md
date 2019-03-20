@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Configure Load Distribution"
 	description="Configure Load Distribution"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588973"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-454b-be70-2069dc2e00ff"
 />
 # SLB - Configure Load Distribution
 ---
@@ -17,7 +18,7 @@
  "fileAttachmentHint": "",
  "formElements": [	 
 	 {
-	 "id": "config_lb_nva"
+	 "id": "config_lb_nva",
 	 "order": 1,
 	 "controlType": "dropdown",
 	 "displayLabel": "Is there a third party virtual appliance in the data-path?",
@@ -30,12 +31,12 @@
 		 {
 		 "value": "No",
 		 "text": "No"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_nated"
+	 "id": "config_lb_nated",
 	 "order": 2,
 	 "controlType": "dropdown",
 	 "displayLabel": "Are the packet reaching Load Balancer NAT'd to specific destination(s)?",
@@ -48,12 +49,12 @@
 		 {
 		 "value": "No",
 		 "text": "No"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },
 	 {
-	 "id": "config_lb_cloudsvc"
+	 "id": "config_lb_cloudsvc",
 	 "order": 3,
 	 "controlType": "dropdown",
 	 "displayLabel": "Are you trying to configure load distribution mode for Cloud Services?",
@@ -66,7 +67,7 @@
 		 {
 		 "value": "No",
 		 "text": "No"
-		 },
+		 }
 	 ],
 	 "required": true
 	 },		 
@@ -92,6 +93,6 @@
 			 "text": "Did you recieve any error messages while configuring a Load Balancer? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
