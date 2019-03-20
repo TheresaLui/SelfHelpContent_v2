@@ -1,13 +1,14 @@
 <properties
 	pageTitle="Add or Remove Load Balancer resources"
 	description="Add or Remove Load Balancer resources"
-	authors="rdhillon"
+	authors="ramandhillon84"
+	ms.author="rdhillon"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588969"
 	productPesIds="16098"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId=""
+	articleId="700961cc-d014-4552-be70-2069dc2e00ff"
 />
 # SLB - Add or Remove Load Balancer resources
 ---
