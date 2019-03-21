@@ -3,8 +3,8 @@
     description="Service Map or Dependency agent"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="sckingho"
-    ms.author="sckingho"
+    authors="kinghorn"
+    ms.author="kinghorn"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32633007"
@@ -22,25 +22,25 @@ For Questions related to the Log Analytics agent (Windows and Linux) and Azure M
 
 ## **Recommended Documents**
 
-* [Using the Service Map solution in Azure](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map)
-* [Service Map data that can be queried in Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map#log-analytics-records)
-* [Service Map REST API information](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map#rest-api)
-* [Azure Monitor for VMs information](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/vminsights-overview)
+* [Using the Service Map solution in Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
+* [Service Map data that can be queried in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#log-analytics-records)
+* [Service Map REST API information](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#rest-api)
+* [Azure Monitor for VMs information](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview)
 
 ### Solution setup and agent installation
 
-* [Supported regions](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#supported-azure-regions)
-* [Supported Windows operating systems](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#supported-windows-operating-systems)
-* [Supported Linux operating systems](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#supported-linux-operating-systems)
-* [Setup Azure VMs](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#installation)
-* [Setup On-premises/Other cloud VMs](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#dependency-agent-downloads)
+* [Supported regions](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#supported-azure-regions)
+* [Supported Windows operating systems](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#supported-windows-operating-systems)
+* [Supported Linux operating systems](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#supported-linux-operating-systems)
+* [Setup Azure VMs](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#installation)
+* [Setup On-premises/Other cloud VMs](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#dependency-agent-downloads)
 
 ### SCOM Integration
 
-* [Setup an integration with System Center Operations Manager](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-scom)
-* [SCOM Integration known issues and limitations](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-scom#known-issues-and-limitations)
+* [Setup an integration with System Center Operations Manager](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-scom)
+* [SCOM Integration known issues and limitations](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-scom#known-issues-and-limitations)
 
 ### Troubleshooting guides
 
-* [Dependency agent installation issues](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#dependency-agent-installation-problems)
-* [Missing data or machines not appearing in the map](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/service-map-configure#post-installation-issues)
+* [Dependency agent installation issues](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#dependency-agent-installation-problems)
+* [Missing data or machines not appearing in the map](https://docs.microsoft.com/azure/azure-monitor/insights/service-map-configure#post-installation-issues)
