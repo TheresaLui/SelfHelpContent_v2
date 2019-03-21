@@ -7,7 +7,7 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629183,32629197,32629248,32629268,32629262"
+    supportTopicIds="32629183,32629197,32629248,32629268,32629262,32629260"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
