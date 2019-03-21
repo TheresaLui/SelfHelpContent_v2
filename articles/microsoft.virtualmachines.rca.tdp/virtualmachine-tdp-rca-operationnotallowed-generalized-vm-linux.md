@@ -33,7 +33,7 @@ You have two options:
 - Create an image of the generalized VM. You can then use that image to create another VM. 
 - Create a new VM using a specialized disk. 
 
-## Create an image of a generalized VM
+## Create an image of the generalized VM
 
 According to your scenario, perform the following steps to deploy a VM based on the image of the original VM.
 
