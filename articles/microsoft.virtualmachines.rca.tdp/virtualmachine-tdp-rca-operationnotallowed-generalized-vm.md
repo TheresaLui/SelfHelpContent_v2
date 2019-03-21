@@ -24,7 +24,7 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 A generalized VM is a virtual  machine with personal account information removed so that its image can be used for creating other VMs. Apparently the original VM was started instead of a VM created from its image. 
 
-You can also get this error if the VM was captured and then restarted, regardless if `sysprep' has been run on the VM to generalize it. If a generalized VM is mistakenly started, as may be the case with this error, `sysprep` must be run again to remove any personal information that may have been saved.
+You can also get this error if the VM was captured and then restarted, regardless if `sysprep` has been run on the VM to generalize it. If a generalized VM is mistakenly started, as may be the case with this error, `sysprep` must be run again to remove any personal information that may have been saved.
 
 There is no way to return a generalized VM back to its original state as a functioning virtual machine. 
 
