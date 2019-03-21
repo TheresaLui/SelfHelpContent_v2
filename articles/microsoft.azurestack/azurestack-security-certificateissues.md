@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Title"
+    pageTitle="Azure Stack Certificate Issues"
     description="Description"
     service="microsoft.azurestack"
     resource="azurestack"
@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="2fba98c0-a783-4c02-8839-435fe925b104"
+    articleId="decac0d0-8da0-422f-a2b2-d3ad2f9ce05c"
 />
 
 # Azure Stack Certificates Issues
