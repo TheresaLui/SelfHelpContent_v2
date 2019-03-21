@@ -19,22 +19,23 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because starting a VM from a generalized image is not supported.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because starting a generalized VM is not supported.
 <!--/issueDescription-->
 
 A generalized VM is a virtual  machine with personal account information removed so that its image can be used for creating other VMs. Apparently the original VM was started instead of a VM created from its image. 
 
-You also get this error if the VM was captured and then restarted, regardless if the VM has been deprovisioned of personal account information. If a generalied VM is mistakenly started, as may be the case with this error, it must be deprovisioned again to remove any personal information that may have been saved.
+You can also get this error if the VM was captured and then restarted, regardless if the VM has been deprovisioned of personal account information. If a generalized VM is mistakenly started, as may be the case with this error, the VM must be deprovisioned again to remove any personal information that may have been saved.
 
 There is no way to return a generalized VM back to its original state as a functioning virtual machine.
 
 You have two options:
+
 - Create an image of the generalized VM. You can then use that image to create another VM. 
 - Create a new VM using a specialized disk. 
 
-## Create an image of a generalied VM
+## Create an image of a generalized VM
 
-According to your scenario, perform the following steps to deploy a VM based based on the image of the original VM.
+According to your scenario, perform the following steps to deploy a VM based on the image of the original VM.
 
 1. Generalize the VM by running this bash command: `sudo waagent -deprovision+user`
 1. Deallocate the resources in the VM.
@@ -46,7 +47,7 @@ For instructions, see [How to create an unmanaged VM image from an Azure VM](htt
 
 ## Create a new VM from a specialized disk
 
-If you have disk image that contains the user accounts, applications, and other state data from your original VM, you can create a new VM by attaching that specialized managed disk as the OS disk. For more information, see [Create a Windows VM from a specialized disk by using PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-create-vm-specialized/).
+If you have a disk image that contains the user accounts, applications, and other state data from your original VM, you can create a new VM by attaching that disk as the OS disk. For more information, see [Create a Windows VM from a specialized disk by using PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-create-vm-specialized/).
 
 See also:
 
