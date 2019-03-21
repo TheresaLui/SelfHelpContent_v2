@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Storage"
-    description="Storage in Azure Stack"
+    description="User Storage in Azure Stack"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -16,12 +16,12 @@
 
 # Azure Stack Storage
 
-Azure Stack storage is the set of storage cloud services in Microsoft Azure Stack. Azure Stack storage provides blob, table, queue, and account management functionality with Azure-consistent semantics.
+Azure Stack storage services provides blob, table, queue, and account management functionality with Azure-consistent semantics.
 
 For differences between Azure Stack storage and Azure Storage services, see [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences).
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Introduction to Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)<br>
-[Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)<br>
-[Introduction to Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-introduction)
+* [Introduction to Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)
+* [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)
+* [Introduction to Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-introduction)

@@ -16,12 +16,19 @@
 
 # Azure Stack User Storage Performance
 
-Azure Stack storage is the set of storage cloud services in Microsoft Azure Stack. Azure Stack storage provides blob, table, queue, and account management functionality with Azure-consistent semantics.
+Azure Stack Storage provides blob, table, queue, and account management functionality with Azure-consistent semantics.
 
-For differences between Azure Stack storage and Azure Storage services, see [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences).
+## **Recommended Steps**
 
-## **Recommended documents**
+1. Review key [differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences) for Azure Stack Storage Services for the User Environment
+2. If you experience storage performance issues, work with your cloud administrator to evaluate your usage with [Azure Stack storage capacity planning](https://docs.microsoft.com/azure/azure-stack/capacity-planning-storage)
+3. Use PowerShell or the admin portal to [monitor user shares](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares#monitor-shares) so you can understand when free space is limited.
+4. For storage performance specific to SQL Server VMs, refer to [Azure Stack SQL Server VM Storage Guidance](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-sql-server-vm-considerations#storage-guidance)
 
-[Introduction to Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)<br>
-[Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)<br>
-[Azure Stack SQL Server VM Storage Guidance](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-sql-server-vm-considerations#storage-guidance)
+## **Recommended Documents**
+
+* [Manage storage capacity for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-shares)
+* [Manage Azure Stack storage accounts](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-storage-accounts)
+* [Introduction to Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)
+* [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)
+* [Azure Stack SQL Server VM Storage Guidance](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-sql-server-vm-considerations#storage-guidance)
