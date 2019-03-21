@@ -155,11 +155,11 @@
             "displayLabel": "Which error message are you receiving?",
             "watermarkText": "Provide the error message",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",
-            "visibility": "error_message_backup != null",
+            "visibility": null,
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",

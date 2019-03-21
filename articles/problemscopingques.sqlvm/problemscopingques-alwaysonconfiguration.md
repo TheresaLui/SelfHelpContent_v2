@@ -21,7 +21,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": false
+            "required": true
         },
         {
             "id": "which_resource",
