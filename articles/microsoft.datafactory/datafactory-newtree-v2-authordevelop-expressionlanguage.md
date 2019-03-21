@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="283d9e5d-d00f-47df-8c3d-0db4deda2903"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629484"
@@ -26,7 +26,7 @@ Supported by ADF: <br>
 
 * [Expressions](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions) <br>
 * [System Variables](https://docs.microsoft.com/azure/data-factory/control-flow-system-variables) <br>
-* [Functions](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions#functions): <br>
+* [Functions](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions#functions) including: <br>
 
   * [String](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions#string-functions) functions only apply to strings <br>
   * [Collection](https://docs.microsoft.com/azure/data-factory/control-flow-expression-language-functions#collection-functions) functions operate over collections, such as arrays, strings, and in some cases dictionaries <br>

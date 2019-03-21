@@ -18,4 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+- [Transfer data with AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)<br>
+
+- [Find more Data Migration Method - Choose an Azure solution for data transfer](https://docs.microsoft.com/azure/storage/common/storage-choose-data-transfer-solution)

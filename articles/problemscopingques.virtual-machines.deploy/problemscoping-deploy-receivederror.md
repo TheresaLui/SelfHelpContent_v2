@@ -18,8 +18,53 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                  "id": "deployment_imagetype",
+                  "id": "resourceGroup",
                   "order": 1,
+                  "controlType": "dropdown",
+                  "displayLabel": "Select resource group for deployment failure",
+                  "dynamicDropdownOptions": {
+                  "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+                  "jTokenPath": "value",
+                  "textProperty": "id",
+                  "valueProperty": "id",
+                  "textPropertyRegex": "[^/]+$"
+                  },
+                  "dropdownOptions": [{
+                    "value": "Unable to retrieve list of resource groups.",
+                    "text": "Unable to retrieve list of resource groups."
+                  }
+                  ],
+                  "useAsAdditionalDetails": false,
+                  "required": true
+                  },{
+                  "id": "correlationId",
+                  "order": 2,
+                  "visibility": "resourceGroup != null",
+                  "controlType": "dropdown",
+                  "displayLabel": "Select failed deployment",
+                  "dynamicDropdownOptions": {
+                  "dependsOn": "resourceGroup",
+                  "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                  "jTokenPath": "value",
+                  "textProperty": "properties.timestamp,properties.parameters.location.value,name",
+                  "textTemplate":"Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
+                  "valueProperty": "properties.correlationId",
+                  "defaultDropdownOptions": {
+                    "value": "Deployment failure not found.",
+                    "text": "Deployment failure not found."
+                    },
+                    "textPropertyRegex": "[^/]+$"
+                    },
+                    "dropdownOptions": [{
+                    "value": "Unable to retrieve list of failed deployments.",
+                    "text": "Unable to retrieve list of failed deployments."
+                  }
+                  ],
+                  "useAsAdditionalDetails": false,
+                  "required": false
+                  },{
+                  "id": "deployment_imagetype",
+                  "order": 3,
                   "controlType": "dropdown",
                   "displayLabel": "Choose the type of image deployment",
                   "watermarkText": "Choose an option",
@@ -36,15 +81,8 @@
                       ],
                       "required": false
                   },{
-                  "id": "deployment_error",
-                  "order": 2,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "What is the error you received?",
-                  "required": false,
-                  "useAsAdditionalDetails": true
-                  },{
                     "id": "deployment_operation",
-                    "order": 3,
+                    "order": 4,
                     "controlType": "dropdown",
                     "displayLabel": "What operation are you trying to do?",
                     "watermarkText": "Choose an option",
@@ -67,18 +105,11 @@
                       ],
                       "required": false
                   },{
-                  "id": "correlation_id",
-                  "order": 4,
-                  "controlType": "textbox",
-                  "displayLabel": "Correlation ID",
-                  "useAsAdditionalDetails": false,
-                  "required": false
-                  },{
                   "id": "problem_description",
                   "order": 5,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
+                  "useAsAdditionalDetails": true,
                   "required": true
                   },{
                   "id": "problem_start_time",
