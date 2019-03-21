@@ -1,22 +1,22 @@
 
 <properties
-pageTitle="Agent is crashing"
-description="Agent is crashing"
-articleId="problemscopingques-Linux_Agent_is_crashing"
+pageTitle="Update Management"
+description="Update Management"
+articleId="problemscopingques-Update_Management"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612497"
+supportTopicIds="32612529"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
 />
 
-# Agent is crashing
+# Update Management
 ---
 {
     "resourceRequired": true,
-    "title": "Restore deleted workspace",
+    "title": "Update Management",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -29,6 +29,28 @@ schemaVersion="1"
         {
             "id": "single_multiple_machines",
             "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Are you having a problem with the linked automation acccount?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "single_multiple_machines",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the issue on a single machine or multiple machines?",
             "watermarkText": "Choose an option",
@@ -49,68 +71,26 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "is_it_azure_vm",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is this an Azure VM?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not sure"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "error_message",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What error are you seeing?",
-            "watermarkText": "Enter the error message",
-            "required": false
-        },
-        {
             "id": "affected_machine",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the name of an affected machine? If there are multiple, please include a few names",
             "watermarkText": "Enter the name of the machine(s)",
             "required": false
         },
         {
-            "id": "agen_version",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "What are the agent and OMI versions?",
-            "watermarkText": "Enter the agent and OMI versions",
-            "required": false
-        },
-        {
-            "id": "vm_name",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "What is the name of the VM/ARM Call?",
-            "watermarkText": "Enter the VM/ARM Call name(s)",
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 8,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": []
+            "hints": [
+                {
+                    "text": "Include the exact text of any error messages that occur"
+                }
+            ]
         }
     ]
 }
