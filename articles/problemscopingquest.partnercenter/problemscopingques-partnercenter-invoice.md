@@ -55,10 +55,12 @@
 			"dropdownOptions": [{
 				"value": "usagebased",
 				"text": "Usage Based"
-			}, {
+			},
+			{
 				"value": "licensebased",
 				"text": "License Based"
-			}, {
+			},
+			{
 				"value": "onetime",
 				"text": "One Time"
 			}],
