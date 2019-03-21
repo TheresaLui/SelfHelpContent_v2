@@ -28,7 +28,7 @@ Azure Stack supports the use of both managed and unmanaged virtual disks as virt
 2. Follow steps to [create virtual machine disk storage in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-manage-vm-disks)
 3. To improve performance and reduce overall costs, place each VM disk in a separate container under same storage account
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Stack VM Disk Best Practice Guidelines](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-manage-vm-disks#best-practice-guidelines)
 * [Introduction to Azure managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview)

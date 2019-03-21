@@ -16,7 +16,7 @@
 
 # Azure Stack Storage Configuration
 
-Azure Stack Storage provides Azure-consistent Blob, Table, Queue, and account management functionality.
+Azure Stack storage provides Azure-consistent Blob, Table, Queue, and Account Management functionality.
 
 ## **Recommended Steps**
 
@@ -25,7 +25,7 @@ Azure Stack Storage provides Azure-consistent Blob, Table, Queue, and account ma
 3. Bring user data into Azure Stack using a supported [data transfer tools for Azure Stack storage](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-transfer) 
 4. Integrate your applications [with Azure Stack storage development tools](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-dev)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Stack User Storage Overview](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-storage-overview)
 * [Azure Stack storage: Differences and considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-acs-differences)
