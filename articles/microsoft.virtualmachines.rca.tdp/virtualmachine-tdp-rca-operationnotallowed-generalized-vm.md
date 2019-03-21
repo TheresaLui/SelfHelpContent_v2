@@ -1,13 +1,13 @@
 <properties
-	pageTitle="VM start not allowed on generalized VM"
-	description="RCA - start not allowed on generalized VM"
+	pageTitle="Deployment Failure RCA"
+	description="RCA - Operation not allowed on generalized VM"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="DeploymentFailure_rca-startnotallowedgeneralizedvm"
+	articleId="DeploymentFailure_rca-OperationNotAllowedOnGeneralizedVM"
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -24,15 +24,13 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 To work with generalized images correctly, follow this process:
 
-- Generalize the VM by running `sysprep` for Windows VMs or `sudo waagent -deprovision+user` for Linux VMs.
+- Generalize the VM by running `sysprep`.
 - Deallocate the resources in the VM.
 - Set the VM state to generalized.
 - Create the image.
 - Create the VM from the image.
 
-For Windows VMs, follow the procedures in [How to create an unmanaged VM image from an Azure VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-capture-image).
-
-For Linux VMs, see [How to create an image of a virtual machine or VHD](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image) and [Create a Linux VM from a custom disk with the Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/upload-vhd).
+For instructions, see [How to create an unmanaged VM image from an Azure VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-capture-image).
 
 Alternatively, if you have disk image that contains the user accounts, applications, and other state data from your original VM, you can create a new VM by attaching that specialized managed disk as the OS disk. For more information, see [Create a Windows VM from a specialized disk by using PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-create-vm-specialized/).
 
