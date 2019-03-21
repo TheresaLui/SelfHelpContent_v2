@@ -16,7 +16,7 @@
 
 # Azure Stack Storage Configuration
 
-Azure Stack Storage provides blob, table, queue, and account management functionality with Azure-consistent semantics.
+Azure Stack Storage provides Azure-consistent Blob, Table, Queue, and account management functionality.
 
 ## **Recommended Steps**
 

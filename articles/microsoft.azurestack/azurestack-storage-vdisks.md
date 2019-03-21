@@ -16,11 +16,11 @@
 
 # Azure Stack Virtual Disks
 
-Azure Stack supports the use of managed disks and unmanaged disks on virtual machines, as both an operating system (OS) and a data disk. Before version 1808, only unmanaged disks are supported.
+Azure Stack supports the use of both managed and unmanaged virtual disks, as a virtual machine operating system (OS) disk, or as a data disk.
 
-**Managed disks** simplify disk management for Azure IaaS VMs by managing the storage accounts associated with the VM disks. You only have to specify the size of disk you need, and Azure Stack creates and manages the disk for you.
+**Managed disks** simplify disk management for Azure Stack VMs by managing the storage accounts associated with the virtual disks. You only have to specify the size of disk you need, and Azure Stack creates and manages the disk for you.
 
-**Unmanaged disks**, require that you create a storage account to store the disks. The disks you create are referred to as VM disks and are stored in containers in the storage account.
+**Unmanaged disks** require that you  create a storage account to store the disks before you create them and attach them to a virtual machine.
 
 ## **Recommended Steps**
 
