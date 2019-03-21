@@ -24,7 +24,7 @@
             "required": true
         },
         {
-            "id": "whichPhase",
+            "id": "what_phase",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
@@ -53,7 +53,7 @@
             "numberOfLines": 0
         },
         {
-            "id": "whichService",
+            "id": "which_service",
             "visibility": null,
             "order": 3,
             "controlType": "dropdown",
@@ -78,11 +78,11 @@
             "numberOfLines": 0
         },
         {
-            "id": "whatMethod",
-            "visibility": "whichPhase != null && whichPhase != Planning",
+            "id": "what_method",
+            "visibility": "what_phase != null && what_phase != Planning",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "What method are you using/planning to use for the backup or restore operation?",
+            "displayLabel": "What method are you using for the backup or restore operation?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
@@ -100,8 +100,16 @@
                     "value": "SQLMaintenancePlan"
                 },
                 {
+                    "text": "Azure Recovery Services",
+                    "value": "AzureRecoveryServices"
+                },
+                {
                     "text": "T-SQL Backup or Restore command",
                     "value": "TSQL"
+                },
+                {
+                    "text": "I’m not sure/don’t know",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -112,7 +120,7 @@
         },
        {
             "id": "whereWritten",
-            "visibility": "whichPhase != null && whichPhase != Planning && whichService == Backup",
+            "visibility": "what_phase != null && what_phase != Planning && which_service == Backup",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Where are the backups being written?",
@@ -140,7 +148,18 @@
             "numberOfLines": 0
         },
         {
+            "id": "error_message_backup",
+            "visibility": "what_phase == FailedBackupRestore",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Which error message are you receiving?",
+            "watermarkText": "Provide the error message",
+            "required": false,
+            "useAsAdditionalDetails": true
+        },
+        {
             "id": "problem_description",
+            "visibility": "error_message_backup != null",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",

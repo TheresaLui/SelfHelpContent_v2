@@ -24,7 +24,7 @@
             "required": true
         },
         {
-            "id": "whichOperation",
+            "id": "which_operation",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
@@ -47,7 +47,7 @@
                 },
                 {
                     "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,

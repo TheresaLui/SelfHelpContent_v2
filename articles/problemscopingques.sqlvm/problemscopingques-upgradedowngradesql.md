@@ -40,6 +40,10 @@
                 {
                     "text": "SQL Server Edition (e.g. Express, Web, Standard, Enterprise)",
                     "value": "SQLEdition"
+                },
+                {
+                    "text": "I’m not sure/don’t know",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -65,6 +69,10 @@
                 {
                     "text": "Downgrade",
                     "value": "Downgrade"
+                },
+                {
+                    "text": "I’m not sure/don’t know",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,

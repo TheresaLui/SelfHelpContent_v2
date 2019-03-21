@@ -28,22 +28,26 @@
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What type of replication are you using?",
+            "displayLabel": "What operation do you need assistance with?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "Transactional",
-                    "value": "Transactional"
+                    "text": "Create a Windows Server Failover Cluster",
+                    "value": "CreateWsfc"
                 },
                 {
-                    "text": "Merge",
-                    "value": "Merge"
+                    "text": "Manage existing Windows Server Failover Cluster",
+                    "value": "ManageExistingWsfc"
+                },
+                {
+                    "text": "Troubleshoot cluster performance problems",
+                    "value": "TroubleshootPerfWsfc"
                 },
                 {
                     "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,

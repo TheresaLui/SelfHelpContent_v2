@@ -40,6 +40,10 @@
                 {
                     "text": "Merge",
                     "value": "Merge"
+                },
+                {
+                    "text": "I’m not sure/don’t know",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,

@@ -21,10 +21,10 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true
+            "required": false
         },
         {
-            "id": "whichResource",
+            "id": "which_resource",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
@@ -46,12 +46,20 @@
                     "value": "FailoverClusterSettings"
                 },
                 {
+                    "text": "Add a new replica",
+                    "value": "FailoverClusterSettings"
+                },
+                {
+                    "text": "Add a database to an Availability Group",
+                    "value": "FailoverClusterSettings"
+                },
+                {
                     "text": "Other resource",
                     "value": "OtherResource"
                 },
                 {
                     "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -61,8 +69,8 @@
             "numberOfLines": 0
         },
         {
-            "id": "howFar",
-            "visibility": "whichResource != NotSure",
+            "id": "how_far_in_configuration",
+            "visibility": "which_resource != dont_know_answer",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How far along are you in making the configuration change?",
@@ -86,8 +94,8 @@
             "numberOfLines": 0
         },
         {
-            "id": "whichMethod",
-            "visibility": "howFar != null && howFar == ProblemEncountered",
+            "id": "method_of_configuration",
+            "visibility": "how_far_in_configuration != null && how_far_in_configuration == ProblemEncountered",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What method are you using to make the configuration change?",
@@ -120,6 +128,40 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
+        },
+        {
+            "id": "ag_listener_problem",
+            "visibility": " which_resource == AvailabilityGroupListener",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "What is not working about the listener?",
+            "content": null,
+            "infoBalloonText": null,
+            "dropdownOptions": [
+                {
+                    "text": "Initial configuration",
+                    "value": "InitialConfiguration"
+                },
+                {
+                    "text": "Connectivity",
+                    "value": "Connectivity"
+                }
+            ],
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "resource_name",
+            "order": 6,
+            "visibility": " which_resource != dont_know_answer && how_far_in_configuration != null && how_far_in_configuration == ProblemEncountered",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Name of the resource",
+            "watermarkText": "Provide the name of the resource you're having problems with",
+            "required": false,
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",

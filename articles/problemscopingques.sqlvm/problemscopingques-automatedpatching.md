@@ -24,7 +24,7 @@
             "required": true
         },
         {
-            "id": "whichPatching",
+            "id": "kind_of_patching",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
@@ -38,12 +38,12 @@
                     "value": "SecurityPatches"
                 },
                 {
-                    "text": "SQL Server cumulative updates",
-                    "value": "SQLCumulativeUpdates"
+                    "text": "SQL Server cumulative updates/Service Packs",
+                    "value": "SQLCumulativeUpdatesAndServicePacks"
                 },
                 {
                     "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,

@@ -28,7 +28,7 @@
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What storage tier is being used for your databases?",
+            "displayLabel": "What storage tier is being used for your data and transaction log files?",
             "watermarkText": "Choose an option",
             "content": null,
             "infoBalloonText": null,
@@ -42,12 +42,12 @@
                     "value": "PremiumStorage"
                 },
                 {
-                    "text": "Ultra SSD",
+                    "text": "Ultra SSD Storage",
                     "value": "UltraSSD"
                 },
                 {
                     "text": "I’m not sure/don’t know",
-                    "value": "NotSure"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
