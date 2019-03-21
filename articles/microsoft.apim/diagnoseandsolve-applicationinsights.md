@@ -29,7 +29,7 @@ cloudEnvironments="public"
 			"category": "Data Collection",
 			"searchTags": "latency, slow, collection, ingestion",
 			"supportTopicId": "",
-			"commonSolutionArticleId": "insights_collectionerrors"			
+			"commonSolutionArticleId": "insights_datalatency"			
 		},
 		{				    
 			"title": "Why can I not see some of my data?",
