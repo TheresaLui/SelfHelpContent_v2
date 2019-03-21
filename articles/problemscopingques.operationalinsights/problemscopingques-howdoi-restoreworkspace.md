@@ -30,7 +30,7 @@ schemaVersion="1"
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When was the workspace deleted?",
-            "required": false
+            "required": true
         },
         {
             "id": "workspace_id",
