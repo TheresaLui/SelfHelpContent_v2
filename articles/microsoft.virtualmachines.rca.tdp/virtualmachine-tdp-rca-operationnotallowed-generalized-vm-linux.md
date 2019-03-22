@@ -35,15 +35,13 @@ You have two options:
 
 ## Create an image of the generalized VM
 
-According to your scenario, perform the following steps to deploy a VM based on the image of the original VM.
+Perform the following steps to deploy a VM based on the image of the original VM.
 
-1. Generalize the VM by running this bash command: `sudo waagent -deprovision+user`
-1. Deallocate the resources in the VM.
-1. Set the VM state to generalized.
-1. Create the image.
-1. Create the VM from the image.
+1. Deprovision the VM by running this bash command: `sudo waagent -deprovision+user`
+1. Create the VM image.
+1. Create a VM from the image.
 
-For instructions, see [How to create an unmanaged VM image from an Azure VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-capture-image).
+For instructions, see [How to create an image of a virtual machine or VHD](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image).
 
 ## Create a new VM from a specialized disk
 
