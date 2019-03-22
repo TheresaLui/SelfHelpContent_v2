@@ -11,7 +11,7 @@
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
-	resourceTags="windows, linux"
+	resourceTags="linux"
 	productPesIds=""
 	cloudEnvironments="public"
 />
