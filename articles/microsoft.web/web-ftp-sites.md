@@ -16,11 +16,11 @@
 
 # deployment/ftp
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [How can I troubleshoot FTP deployment?](https://docs.microsoft.com/azure/app-service/deploy-ftp#how-can-i-troubleshoot-ftp-deployment)
-* [I'm not able to FTP and publish my code. How can I resolve the issue?](https://docs.microsoft.com/azure/app-service/deploy-ftp#im-not-able-to-ftp-and-publish-my-code-how-can-i-resolve-the-issue)
-* [How can I connect to FTP in Azure App Service via passive mode?](https://docs.microsoft.com/azure/app-service/deploy-ftp#how-can-i-connect-to-ftp-in-azure-app-service-via-passive-mode) 
+* [How do I troubleshoot FTP deployment?](https://docs.microsoft.com/azure/app-service/deploy-ftp#how-can-i-troubleshoot-ftp-deployment)
+* [I'm not able to FTP and publish my code. How do I resolve the issue?](https://docs.microsoft.com/azure/app-service/deploy-ftp#im-not-able-to-ftp-and-publish-my-code-how-can-i-resolve-the-issue)
+* [How do I connect to FTP in Azure App Service via passive mode?](https://docs.microsoft.com/azure/app-service/deploy-ftp#how-can-i-connect-to-ftp-in-azure-app-service-via-passive-mode) 
 * [How do I deploy my app to Azure App Service using FTP/FTPS?](https://docs.microsoft.com/azure/app-service-web/app-service-deploy-ftp)<br>
 * [How to Deploy manually by uploading files with FTP](https://docs.microsoft.com/azure/app-service/app-service-deploy-local-git?toc=%2Fazure%2Fapp-service%2Ftoc.json#ftp)
 * [Creating, resetting and understanding FTP credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials)
