@@ -20,8 +20,8 @@
 
 To resolve the most common issues with Visual Studio deployments via Web Deploy, try one or more of the following methods:
 
-1.	Make sure that you have the [latest version of the Azure SDK](https://azure.microsoft.com/downloads) for the version of Visual Studio that you are using
-2.	If using Deployment credentials, make sure that: <br>
+1. Make sure that you have the [latest version of the Azure SDK](https://azure.microsoft.com/downloads) for the version of Visual Studio that you are using
+2. If using Deployment credentials, make sure that: <br>
 
 	a. The account is not disabled in Azure Active Directory
 	b. The user account format is correct (User account should NOT be preceded by the web app name NOR by a $)
@@ -29,11 +29,9 @@ To resolve the most common issues with Visual Studio deployments via Web Deploy,
 	
 	For more information see: [Wiki on Deployment Credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) <br>
 	
-3.	If using Publishing credentials make sure that: <br>
-
-	a. You download the most [recent publishing profile](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) and that the user name is preceded by $
-4.	By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App http://(YourWebAppName).scm.azurewebsites.net. Make sure that Visual Studio is able to connect to it. <br>
-5.	If behind a proxy, make sure that Visual Studio is correctly [configured to use your proxy server](https://msdn.microsoft.com/library/dn771556.aspx)
+3. If using Publishing credentials make sure that you download the most [recent publishing profile](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) and that the user name is preceded by $
+4. By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App http://(YourWebAppName).scm.azurewebsites.net. Make sure that Visual Studio is able to connect to it. <br>
+5. If behind a proxy, make sure that Visual Studio is correctly [configured to use your proxy server](https://msdn.microsoft.com/library/dn771556.aspx)
 
 ## **Recommended Documents**
 
