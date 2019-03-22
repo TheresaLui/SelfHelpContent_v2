@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16333"
 	cloudEnvironments="public"
-    articleId="43162bc3-a806-4602-a931-4fb6158d2a6d"
+    articleId="c6ae5a41-262a-4cbc-ba13-e711c4395d30"
 />
 
 # Docker Containers/Multi-containers

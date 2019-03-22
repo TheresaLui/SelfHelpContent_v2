@@ -10,7 +10,7 @@
 	supportTopicIds="32581620"
 	productPesIds="16333"
 	cloudEnvironments="public"
-	articleId="2451c883-30ce-4fb0-9a93-6efdc471b57b"
+	articleId="73a9bee6-dfe2-4bec-8921-1bcd1bf64d1f"
 />
 
 

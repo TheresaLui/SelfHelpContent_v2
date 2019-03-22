@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16170,16333"
 	cloudEnvironments="public"
-    articleId="43162bc3-a806-4602-a931-4fb6158d2a6d"
+    articleId="f8473fb4-4983-4182-a2f3-c7cccc53a24e"
 />
 
 # authentication and authorization/App Service Authentication (built-in) through portal
