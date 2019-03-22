@@ -88,21 +88,21 @@
                   "order": 4,
                   "visibility": "deployment_from == Snapshot",
                   "controlType": "datetimepicker",
-                  "displayLabel": "What was the time of the attempted snapshot?",
+                  "displayLabel": "When was the time of the attempted snapshot?",
                   "required": true
                   },{
                   "id": "problem_caputre_date",
                   "order": 5,
                   "visibility": "deployment_from == Captured image",
                   "controlType": "datetimepicker",
-                  "displayLabel": "What was the time of the image capture?",
+                  "displayLabel": "When was the time of the image capture?",
                   "required": true
                   },{
                   "id": "problem_restore_date",
                   "order": 6,
                   "visibility": "deployment_from == Backup",
                   "controlType": "datetimepicker",
-                  "displayLabel": "What was the time of the attempted backup?",
+                  "displayLabel": "When was the time of the attempted backup?",
                   "required": true
                   },{
                   "id": "problem_description",

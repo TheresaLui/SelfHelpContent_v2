@@ -114,7 +114,7 @@
                   "id": "resource_name",
                   "order": 6,
                   "controlType": "multilinetextbox",
-                  "displayLabel": "What is the name of the resource (e.g., image version, gallery1/image1/1.0.0)",
+                  "displayLabel": "What is the name of the resource (e.g., If image version, gallery1/image1/1.0.0)",
                   "useAsAdditionalDetails": true,
                   "required": true
                   },{
