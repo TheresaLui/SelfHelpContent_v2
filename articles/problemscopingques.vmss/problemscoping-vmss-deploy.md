@@ -151,31 +151,31 @@
                     "visibility": "deployment_from == Snapshot",
                     "controlType": "datetimepicker",
                     "displayLabel": "What was the time of the attempted snapshot?",
-                    "required": true
+                    "required": false
                     },{
                     "id": "problem_caputre_date",
-                    "order": 8,
+                    "order": 9,
                     "visibility": "deployment_from == Captured image",
                     "controlType": "datetimepicker",
                     "displayLabel": "What was the time of the image capture?",
-                    "required": true
+                    "required": false
                     },{
                     "id": "problem_restore_date",
-                    "order": 9,
+                    "order": 10,
                     "visibility": "deployment_from == Backup",
                     "controlType": "datetimepicker",
                     "displayLabel": "What was the time of the attempted backup?",
-                    "required": true
+                    "required": false
                     },{
                       "id": "problem_description",
-                      "order": 10,
+                      "order": 11,
                       "controlType": "multilinetextbox",
                       "displayLabel": "Description",
                       "useAsAdditionalDetails": true,
                       "required": true
                       },{
                       "id": "problem_start_time",
-                      "order": 11,
+                      "order": 12,
                       "controlType": "datetimepicker",
                       "displayLabel": "When did the problem start?",
                       "required": true
