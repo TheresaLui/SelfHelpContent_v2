@@ -93,7 +93,7 @@
 				"textProperty": "companyProfile/companyName",
 				"valueProperty": "companyProfile/tenantId",
 				"textPropertyRegex": "[^/]+$"
-			},		
+			},
             "dropdownOptions": [
                 {
                     "value": "CustomerListNotFound",
