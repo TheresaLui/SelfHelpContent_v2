@@ -18,7 +18,7 @@
 
 ### New VNet Integration
 
-The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/10/17/new-app-service-vnet-integration-feature/)) is currently in Preview. It should not be used for production workloads, as there is currently no support for it. <br> 
+The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/10/17/new-app-service-vnet-integration-feature/) is currently in Preview. It should not be used for production workloads, as there is currently no support for it. <br> 
 
 ### New VNet Integration FAQ 
 
@@ -34,9 +34,11 @@ The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/
 * Existing VNet Integration does not support: Mounting a drive, AD integration, NetBios, private site access, accessing resources across ExpressRoute, accessing resources across Service Endpoints. 
 
 * Q. Why does tcpping in the Kudu console results on “Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions”? <br>
+
 	A: This could happen because the IP address you are trying to connect to is not included on the “IP ADDRESSES ROUTED TO VNET” section of the Networking blade of the App Service Plan. For more info see [Managing the VNet Integrations](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-the-vnet-integrations). <br>
 
 * Q: Why does tcpping result on “Connection attempt failed: A non-recoverable error occurred during a database lookup”? <br>
+
 	A: This could happen because of one of the two reasons below: <br>
    
 * The Point-to-Site address range in the Virtual Network Gateway has to be within the Private IPv4 address space per RFC 1918: <br>
@@ -48,6 +50,7 @@ The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/
 * IKEV2 is selected as the “Tunnel type” of the  “Point-to-site configuration” section of your Virtual Network Gateway. Change it to SSTP (SSL). For more info see: [Set up a gateway in your VNet](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#set-up-a-gateway-in-your-vnet). <br> 
 
 * Q: Getting “Certificate sync has failed: Legacy Cmak generation is not supported for gateway id…when IKEV2 or External Radius based authentication is configured” <br> 
+	
 	A: In your Virtual Network Gateway change the “Tunnel type” from IKEV2 to SSTP (SSL) in the “Point-to-site configuration” section.
 
 ## **Recommended Documents**
