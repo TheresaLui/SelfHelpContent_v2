@@ -16,7 +16,7 @@
 
 # Deployment/ARM template
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates)
 * [Azure Web App Samples](https://github.com/davidebbo/AzureWebsitesSamples/tree/master/ARMTemplates) 
