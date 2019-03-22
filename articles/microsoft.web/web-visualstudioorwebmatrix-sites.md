@@ -16,31 +16,37 @@
 
 # Visual studio 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve the most common issues with Visual Studio deployments via Web Deploy, try one or more of the following methods:
 
-1.	Make sure that you have the latest version of the Azure SDK for the version of Visual Studio that you are using: [Download Location.](https://azure.microsoft.com/downloads) <br>
+1.	Make sure that you have the [latest version of the Azure SDK](https://azure.microsoft.com/downloads) for the version of Visual Studio that you are using
 2.	If using Deployment credentials, make sure that: <br>
-	a. The account is not disabled in Azure Active Directory. <br>
-	b. The user account format is correct (User account should NOT be preceded by the web app name NOR by a $). <br>
-	c. The password is correct. <br>
-For more information see: [Wiki on Deployment Credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) <br>
-3.	If using Publishing credentials make sure that: <br>
-	a. You download the most recent publishing profile and that the user name is preceded by $. For more information please review the: [Deployment credentials Wiki](https://github.com/projectkudu/kudu/wiki/Deployment-credentials).<br>
-4.	By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App http://(YourWebAppName).scm.azurewebsites.net. Make sure that Visual Studio is able to connect to it. <br>
-5.	If behind a proxy, make sure that Visual Studio is correctly configured to use your proxy server. For more information see: [More info on Proxy Authorization Required Error](https://msdn.microsoft.com/library/dn771556.aspx)
 
-## **Recommended documents**
+	a. The account is not disabled in Azure Active Directory
+	b. The user account format is correct (User account should NOT be preceded by the web app name NOR by a $)
+	c. The password is correct
+	
+	For more information see: [Wiki on Deployment Credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) <br>
+	
+3.	If using Publishing credentials make sure that: <br>
+
+	a. You download the most [recent publishing profile](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) and that the user name is preceded by $
+4.	By default, when deploying to Azure App Service Web Apps, it will try to connect to the SCM site of your Web App http://(YourWebAppName).scm.azurewebsites.net. Make sure that Visual Studio is able to connect to it. <br>
+5.	If behind a proxy, make sure that Visual Studio is correctly [configured to use your proxy server](https://msdn.microsoft.com/library/dn771556.aspx)
+
+## **Recommended Documents**
 
 * [Web Deploy error codes](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes) <br>
+
    * [ERROR_COULD_NOT_CONNECT_TO_REMOTESVC](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorcouldnotconnecttoremotesvc) <br>
    * [ERROR_DESTINATION_INVALID](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errordestinationinvalid) <br>
    * [ERROR_INSUFFICIENT_ACCESS_TO_SITE_FOLDER](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorinsufficientaccesstositefolder) <br>
    * [ERROR_FILE_IN_USE](https://docs.microsoft.com/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes#errorfileinuse) <br>
+
 * [Dealing with locked files during deployment](https://github.com/projectkudu/kudu/wiki/Dealing-with-locked-files-during-deployment)  (*.lock files) <br>
 * [Publish a Web app to Azure App Service using Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017) <br>
-* Deploying behind a proxy? Read this: [Proxy Authorization Required](https://azure.microsoft.com/blog/web-deploy-3-6-beta-released/)<br>
+* Deploying behind a proxy? [Proxy Authorization Required](https://azure.microsoft.com/blog/web-deploy-3-6-beta-released/)<br>
 * [Make sure site correctly deploys locally](https://github.com/projectkudu/kudu/wiki/Make-sure-site-correctly-deploys-locally) <br>
 * [Deployment FAQs](https://docs.microsoft.com/azure/app-service/faq-deployment) <br>
 * [Deployment vs runtime issues](https://github.com/projectkudu/kudu/wiki/Deployment-vs-runtime-issues) <br>
