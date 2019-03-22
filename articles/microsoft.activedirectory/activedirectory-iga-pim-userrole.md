@@ -7,7 +7,7 @@
 	ms.author="kyschaub"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32462545"
+	supportTopicIds=""
 	resourceTags="governance_overview"
 	productPesIds=""
 	cloudEnvironments="public"
