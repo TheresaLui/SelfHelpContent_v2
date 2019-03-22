@@ -1,9 +1,10 @@
 <properties
-	pageTitle="Scoping questions for Remote debugging"
+	pageTitle="Remote debugging"
 	description="Remote debugging"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman, cts-shrahman"
+    ms.author="shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32581620"
