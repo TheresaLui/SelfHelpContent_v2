@@ -13,6 +13,7 @@
 # PC Invoice Problem Template
 ---
 {
+    "resourceRequired": true,
 	"title": "Partner Center Invoice Issue",
 	"fileAttachmentHint": "",
 	"formElements": [{
