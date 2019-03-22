@@ -13,64 +13,32 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
-  />
+/>
+
 
 # WindowsGuestAgentStatusUnavailable
 
 <!--issueDescription-->
-## **Backup operation failed due to guest agent issue**
+**Backup operation failed due to guest agent issue**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 We have identified that your backup operation failed due to one of the reason mentioned in the troubleshooting steps.
 
-### **Cause 1**: Backup fail due to guest agent issue:
-For backup operation to succeed the Guest Agent status should be Ready.
+1. Ensure the Guest Agent status is Ready; however if the Guest Agent status is not Ready, perform the below steps:
 
-- Check the Guest Agent Status from the **Azure portal** > **VM** > **Settings** > **Properties** blade
+	- Make sure the below services are running in the VM services (services.msc)
+		* RDAgent
+		* Windows Azure Guest Agent
+		* Windows Azure Telemetry Service
+	- Restart the Windows Guest Agent service and initiate the backup operation.
+	- Update Guest Agent to latest version.
+2. Ensure the VM should is connected to the Azure storage account. If there are any network restriction in place (NSG, Proxy etc.) and to allow connectivity to the Azure storage account.
+3. Backup fails due to the Extension files that were modified and corrupted on VM. To resolved this issue perform the below steps:
 
-**Troubleshoot guest agent**
-If the Guest Agent status is not Ready, perform the below steps:
+	- Extract the contents of Microsoft.Azure.RecoveryServices.VMSnapshot_<LatestVersion>.zip from the path C:\Packages\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot\<LatestVersion> with replace-files option.
+	- Extract files in the same path and run the ` REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgent" /v IsProviderInstalled /t REG_SZ /d False /f ` command from elevated command prompt to enforce Extension reinstall.
+4. Ensure there are no Antivirus restrictions. If in the **Event Viewer Application** logs at the time of backup if it displays the message *Faulting application name: IaaSBcdrExtension.exe* then it is confirmed that the antivirus configured in the VM is restricting the execution of backup extension. To resolve this issue exclude below directories and retry the backup operation.
 
-- Ensure the below services are running in the VM services (services.msc)
-
-	* RDAgent
-	* Windows Azure Guest Agent
-	* Windows Azure Telemetry Service
-
-- Restart the Windows Guest Agent service and initiate the backup operation.
-- Update Guest Agent to latest version.
-
-### **Cause 2**: Backup failed due to network connectivity:
-
-For backup operation to succeed the VM should be connected to the Azure storage account. If there are any network restriction in place (NSG, Proxy etc.) and to allow connectivity to the Azure storage account follow the below steps:
-
-- From the VM properties, go to the **Settings** > **Networking** > **Outbound Port Rule** and check if there is any **NSG** rule setup with **DENY** action.
-- Follow the [step-by-step](https://www.youtube.com/watch?v=1EjLQtbKm1M) video to use **Service Tags** to enable access to storage endpoints.
-- If a HTTP Proxy server is used to restrict output bound traffic, to enable access to storage endpoints follow the [steps](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#use-an-http-proxy-for-vm-backups).
-
-### **Cause 3**: Backup failed due to network connectivity issues
-
-For backup operation to succeed the VM should be connected to the Azure storage account. If there are any network restriction in place (NSG, Proxy etc.) and to allow connectivity to the Azure storage account follow the below steps:
-
-- From the VM properties, go to the **Settings** > **Networking** > **Outbound Port Rule** and check if there is any **NSG** rule setup with DENY action.
-- Follow the [step-by-step video](https://www.youtube.com/watch?v=1EjLQtbKm1M) to use **Service Tags** to enable access to storage endpoints.
-- If a HTTP Proxy server is used to restrict output bound traffic, to enable access to storage endpoints follow the [steps](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#use-an-http-proxy-for-vm-backups).
-
-### **Cause 4**: Backup fails due to the Extension files that were modified and corrupted on VM
-
-* Extract the contents of Microsoft.Azure.RecoveryServices.VMSnapshot_<LatestVersion>.zip from the path C:\Packages\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot\<LatestVersion> with replace-files option. Extract files in the same path.
-* Run the below command from elevated command prompt to enforce Extension reinstall and re-trigger the backup from the Azure portal.
-
-` REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgent" /v IsProviderInstalled /t REG_SZ /d False /f `
-
-### **Cause 5**: Backup failed due to Antivirus restrictions
-
-In the Event Viewer Application logs at the time of backup if it displays the message Faulting application name: IaaSBcdrExtension.exe then it is confirmed that the antivirus configured in the VM is restricting the execution of backup extension.
-
-**Mitigation Steps**:
-
-To resolve this issue exclude below directories in the antivirus configuration and retry the backup operation.
-
-- C:\Packages\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot
-- C:\WindowsAzure\Logs\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot
+	- C:\Packages\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot
+	- C:\WindowsAzure\Logs\Plugins\Microsoft.Azure.RecoveryServices.VMSnapshot
