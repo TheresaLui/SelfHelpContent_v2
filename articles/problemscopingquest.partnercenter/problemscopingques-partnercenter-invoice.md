@@ -98,7 +98,7 @@
                 {
                     "value": "CustomerListNotFound",
                     "text": "No Customers Available"
-                }
+                }]
 		}
 	]
 }
