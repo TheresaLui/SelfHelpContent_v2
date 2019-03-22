@@ -5,10 +5,10 @@
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615272"
-                productPesIds="14749,15571,15797,16454,16470"
+                productPesIds="10680"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0079"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0105"
 />
 # Config and Setup
 ---
