@@ -23,9 +23,9 @@ To resolve the most common issues with Visual Studio deployments via Web Deploy,
 1. Make sure that you have the [latest version of the Azure SDK](https://azure.microsoft.com/downloads) for the version of Visual Studio that you are using
 2. If using Deployment credentials, make sure that: <br>
 
-	a. The account is not disabled in Azure Active Directory
-	b. The user account format is correct (User account should NOT be preceded by the web app name NOR by a $)
-	c. The password is correct
+	* The account is not disabled in Azure Active Directory
+	* The user account format is correct (User account should NOT be preceded by the web app name NOR by a $)
+	* The password is correct
 	
 	For more information see: [Wiki on Deployment Credentials](https://github.com/projectkudu/kudu/wiki/Deployment-credentials) <br>
 	
