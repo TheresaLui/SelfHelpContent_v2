@@ -98,6 +98,10 @@
                 {
                     "value": "CustomerListNotFound",
                     "text": "No Customers Available"
+                },
+                {
+                    "value": "CustomerListEmpty",
+                    "text": "No Customers Available"
                 }]
 		}
 	]
