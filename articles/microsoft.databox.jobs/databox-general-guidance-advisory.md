@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
+	articleId="General guidance or Advisory"
 />
 
 # Data Box general guidance or advisory

@@ -12,9 +12,10 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
+	articleId="Data Box - verifying data uploaded to Azure"
 />
 
-# Data Box uplaod to Azure
+# Data Box upload to Azure
 
 ## **Recommended Documents**
 
