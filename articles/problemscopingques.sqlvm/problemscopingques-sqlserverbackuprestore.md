@@ -110,6 +110,10 @@
                 {
                     "text": "I’m not sure/don’t know",
                     "value": "dont_know_answer"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -118,7 +122,7 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
         },
-       {
+        {
             "id": "whereWritten",
             "visibility": "what_phase != null && what_phase != Planning && which_service == Backup",
             "order": 5,
@@ -139,6 +143,10 @@
                 {
                     "text": "Azure Storage (file snapshot backup)",
                     "value": "FileSnapshotBackup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

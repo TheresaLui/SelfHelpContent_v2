@@ -44,6 +44,10 @@
                 {
                     "text": "I’m not sure/don’t know",
                     "value": "dont_know_answer"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

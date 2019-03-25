@@ -37,6 +37,10 @@
                 {
                     "value": "Unable to get the list of VM's",
                     "text": "Unable to get the list of VM's"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

@@ -56,6 +56,10 @@
                 {
                     "value": "Restore encrypted VMs",
                     "text": "Restore encrypted VMs"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
