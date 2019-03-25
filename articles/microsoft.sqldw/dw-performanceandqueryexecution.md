@@ -7,7 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635180, 32635204, 32635210, 32635214, 32635219, 32635225"
 	productPesIds="15818"
-	displayOrder="3"
+	displayOrder="103"
 	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-performanceandqueryexecution.md"

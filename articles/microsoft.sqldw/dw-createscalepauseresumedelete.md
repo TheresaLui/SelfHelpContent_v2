@@ -7,7 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635178, 32635190, 32635192, 32635196, 32635197, 32635208, 32635217"
 	productPesIds="15818"
-	displayOrder="2"
+	displayOrder="102"
 	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete.md"

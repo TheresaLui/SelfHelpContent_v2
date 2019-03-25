@@ -7,7 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635182, 32635200, 32635202, 32635203, 32635212"
 	productPesIds="15818"
-	displayOrder="5"
+	displayOrder="105"
 	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-scheduledmaintenanceandupgrades"

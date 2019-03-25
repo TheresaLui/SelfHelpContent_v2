@@ -7,7 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635190"
 	productPesIds="15818"
-	displayOrder="2"
+	displayOrder=""
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-cannotscalehigherorlower.md"

@@ -7,7 +7,7 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635176, 32635186, 32635193, 32635194, 32635195, 32635198, 32635206, 32635216, 32635223, 32635232"
 	productPesIds="15818"
-	displayOrder="1"
+	displayOrder="101"
 	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity.md"
@@ -18,7 +18,7 @@
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
 
 * Connect and manage your data warehouse through the [Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-data-warehouse).
-* Ensure you have the [latest PowerShell module](https://docs.microsoft.com/powershell/azure/install-azurerm-ps?view=azurermps-6.3.0) and view the [available PowerShell commands](https://docs.microsoft.com/powershell/module/azurerm.sql/?view=azurermps-6.3.0#sql).
+* View the [available PowerShell commands](https://docs.microsoft.com/powershell/module/azurerm.sql/?view=azurermps-6.3.0#sql).
 
 ## **Recommended Steps**
 Issues with connecting to SQL Data Warehouse can occur due to a number of issues including incorrect firewall configuration, connection strings, or maintenance periods. If you are having issues with a client tool, please ensure you have the latest version of the tool and [visit the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot#tools).
