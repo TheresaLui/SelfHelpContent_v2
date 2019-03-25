@@ -13,6 +13,6 @@
 
 # Metrics are not available or are incorrect
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[How to: Monitor Apps in Azure App Service](https://docs.microsoft.com/azure/app-service/web-sites-monitor)
+* [Monitor Apps in Azure App Service](https://docs.microsoft.com/azure/app-service/web-sites-monitor)
