@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: <br>
- 
+
 * Nested loops with many iterations <br>
 * Storing large collections in memory and iterating through them in each request instead of using efficient search algorithms <br>
 * Complex math operations, large string manipulations, XML transforms <br>
