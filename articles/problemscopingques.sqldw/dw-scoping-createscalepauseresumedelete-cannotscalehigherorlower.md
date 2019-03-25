@@ -18,7 +18,7 @@
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
-            "id": "dw_scoping_crud_cannotscale_problem_start_time",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
@@ -44,7 +44,16 @@
 			"controlType": "textbox",
 			"displayLabel": "What's your current DTU quota?",
 			"required": false
-		}
+		},
+		{
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
 	]
 }
 ---
