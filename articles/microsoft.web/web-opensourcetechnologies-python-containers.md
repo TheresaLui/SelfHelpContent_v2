@@ -16,7 +16,8 @@
 
 # open source technologies/python
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Troubleshooting Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro#troubleshooting)
 * [Deploy Python using Docker containers](https://code.visualstudio.com/docs/python/tutorial-deploy-containers)
 * [Debugging Python Applications using VS Code](https://code.visualstudio.com/docs/python/debugging)
