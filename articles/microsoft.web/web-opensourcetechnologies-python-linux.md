@@ -16,6 +16,7 @@
 
 # open source technologies/python
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Troubleshooting Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro#troubleshooting)
 * [Configure your Python app for Azure App Service](https://docs.microsoft.com/azure/app-service/containers/how-to-configure-python)
