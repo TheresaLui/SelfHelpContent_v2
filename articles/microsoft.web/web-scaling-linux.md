@@ -16,7 +16,8 @@
 
 # configuration and management/scaling
 
-## **Recommended documents**
-1. [How to scale up an app in Azure](https://azure.microsoft.com/documentation/articles/web-sites-scale/)<br>
-2. [How to scale instance count manually or automatically](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-how-to-scale)<br>
-3. [How to scale apps in an App Service Environment](https://blogs.msdn.microsoft.com/appserviceteam/2016/05/16/disable-session-affinity-cookie-arr-cookie-for-azure-web-apps/)
+## **Recommended Documents**
+
+* [How to scale up an app in Azure](https://azure.microsoft.com/documentation/articles/web-sites-scale/)<br>
+* [How to scale instance count manually or automatically](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-how-to-scale)<br>
+* [How to scale apps in an App Service Environment](https://blogs.msdn.microsoft.com/appserviceteam/2016/05/16/disable-session-affinity-cookie-arr-cookie-for-azure-web-apps/)
