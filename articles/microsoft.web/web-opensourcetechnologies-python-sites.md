@@ -16,18 +16,22 @@
 
 # open source technologies/python
 
-## **Recommended documents**
+## **Recommended Documents**
 
-Availability: <br>
- * For Apps using Httpplatformhandler, check for http*.log files in wwwroot folder. 
+**Availability**
 
-Slow Performance: <br>
+ * For Apps using Httpplatformhandler, check for http*.log files in wwwroot folder
+
+**Slow Performance**
+
 * [Profile Python Applications in Azure App Services](https://prmadi.com/profile-python-applications-in-azure-app-services/)
 	
-Deployment: <br>
+**Deployment**
+
 * [Install Python Modules on Azure App Services](https://prmadi.com/install-python-modules-on-azure-app-services/)
 	
-Development: <br>
+**Development**
+
 * [Running Django App with HttpPlatformHandler in Azure App Services (Windows)](https://prmadi.com/django-app-with-httpplatformhandler-in-azure-app-services-windows/)
 * [Running Flask App with HttpPlatformHandler in Azure App Services(Windows)](https://prmadi.com/running-flask-app-with-httpplatformhandler-in-azure-app-services/)
 * [Running Flask App in Azure App Services(Linux)](https://prmadi.com/playing-piano-python-app-in-azure-app-services-linux/)
