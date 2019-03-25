@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: 
+Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: <br>
  
 * Nested loops with many iterations <br>
 * Storing large collections in memory and iterating through them in each request instead of using efficient search algorithms <br>
@@ -31,7 +31,6 @@ Here are some examples of CPU intensive operations that applications can perform
 ## **Recommended Documents**
 
 1. [Monitor, diagnose and troubleshoot performance issues](https://docs.microsoft.com/azure/app-service/troubleshoot-performance-degradation)
-2. [Troubleshoot memory leaks and CPU usage in Node.js](https://blogs.msdn.microsoft.com/azureossds/2015/08/23/finding-memory-leaks-and-cpu-usage-in-azure-node-js-web-app/)
-3. [Troubleshoot HTTP 502 or 503 errors for your Web App](https://docs.microsoft.com/azure/app-service/troubleshoot-http-502-http-503)
-4. [10 Ways to Speed up your WordPress site on Azure Web App](https://azure.microsoft.com/blog/10-ways-to-speed-up-your-wordpress-site-on-azure-websites/)
-5. [Application Monitoring and Performance Management with Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+2. [Troubleshoot HTTP 502 or 503 errors for your Web App](https://docs.microsoft.com/azure/app-service/troubleshoot-http-502-http-503)
+3. [10 Ways to Speed up your WordPress site on Azure Web App](https://azure.microsoft.com/blog/10-ways-to-speed-up-your-wordpress-site-on-azure-websites/)
+4. [Application Monitoring and Performance Management with Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
