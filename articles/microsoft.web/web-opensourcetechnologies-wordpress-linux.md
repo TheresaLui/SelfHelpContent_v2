@@ -15,7 +15,7 @@
 
 # open source technologies/wordpress
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How-Tos: For WordPress on App Service (Windows/Linux)](https://blogs.msdn.microsoft.com/appserviceteam/2017/09/12/how-to-for-wordpress-on-app-service-windowslinux/)
 * [How to speed up your WordPress site on Azure App Service](https://azure.microsoft.com/blog/10-ways-to-speed-up-your-wordpress-site-on-azure-websites/)
