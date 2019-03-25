@@ -10,93 +10,57 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# Azure Firewall Generic
 ---
 {
 	"resourceRequired": true,
-	"title": "Slow virtual machine",
+	"title": "Azure Firewall Generic",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "slow_vm_determination",
+			"id": "is_it_AzureFirewall",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "How did you determine that your virtual machine was slow?",
+			"displayLabel": "Is this case related to the Azure Firewall service?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "It's slower that it typically is",
-					"text": "It's slower that it typically is"
+					"value": "Yes",
+					"text": "Yes"
 				}, {
-					"value": "Another virtual machine in the subscription is faster",
-					"text": "Another virtual machine in the subscription is faster"
-				}, {
-					"value": "Benchmarking tests not meeting minimum Azure specifications",
-					"text": "Benchmarking tests not meeting minimum Azure specifications"
-				}, {
-					"value": "It's faster in a non-Azure environment",
-					"text": "It's faster in a non-Azure environment"
-				}
+					"value": "No",
+					"text": "No"
+				}, 
 			],
-			"required": false
-		}, {
-			"id": "problem_start_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "applications_on_vm",
-			"order": 3,
-			"controlType": "multiselectdropdown",
-			"displayLabel": "Select the applications running on your virtual machine",
+			"id": "is_it_deployed",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "Is Azure Firewall deployed in your subscription?",
+			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "CRM Dynamics",
-					"text": "CRM Dynamics"
+					"value": "Yes",
+					"text": "Yes"
 				}, {
-					"value": "IIS / Web Front end",
-					"text": "IIS / Web Front end"
-				}, {
-					"value": "MySQL",
-					"text": "MySQL"
-				}, {
-					"value": "Oracle",
-					"text": "Oracle"
-				}, {
-					"value": "Remote Desktop Services",
-					"text": "Remote Desktop Services"
-				}, {
-					"value": "SAP Hanna",
-					"text": "SAP Hanna"
-				}, {
-					"value": "SharePoint",
-					"text": "SharePoint"
-				}, {
-					"value": "SQL",
-					"text": "SQL"
-				}, {
-					"value": "Other (describe below)",
-					"text": "Other"
-				}
+					"value": "No",
+					"text": "No"
+				}, 
 			],
-			"required": false
+			"required": true
+		}, {
+			"id": "problem_start_time",
+			"order": 3,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem start?",
+			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
+			"displayLabel": "Description",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Issue description."
-				}, {
-					"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
-				}
-			]
-		}, {
-			"id": "learn_more_text",
-			"order": 6,
-			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			
 		}
 	]
 }
