@@ -17,11 +17,12 @@
 
 The following details explain how to model and design your data warehouse.
 
-* We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse.<br>
-* For table design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category).<br>
-* For query design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql).
+* We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse
+* For table design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category)
+* For query design, please [review the following documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql)
 
 ## **Recommended Steps**
+
 The following are the most common issues for slow query performance:
 
 1. Ensure [table statistics are created and kept up to date](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-statistics#updating-statistics). SQL Data Warehouse does not currently support automatic creation or update of statistics. As you load data into your data warehouse, query plans can regress if statistics are not up to date.
@@ -34,24 +35,25 @@ The following are the most common issues for slow query performance:
 
 3. Reduce query data movement operations by [investigating your query plan](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-query-execution). You can have a suboptimal plan with:
 
-  * A poor selection of a table distribution key causing [data skew](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#how-to-tell-if-your-distribution-column-is-a-good-choice).<br>
-  * Broadcast move operations which can be avoided by [replicating certain tables](https://docs.microsoft.com/azure/sql-data-warehouse/design-guidance-for-replicated-tables#convert-existing-round-robin-tables-to-replicated-tables).
+  * A poor selection of a table distribution key causing [data skew](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#how-to-tell-if-your-distribution-column-is-a-good-choice)
+  * Broadcast move operations which can be avoided by [replicating certain tables](https://docs.microsoft.com/azure/sql-data-warehouse/design-guidance-for-replicated-tables#convert-existing-round-robin-tables-to-replicated-tables)
 
-4. Monitor to [ensure your query is not queued](https://docs.microsoft.com/azure/sql-data-warehouse/analyze-your-workload#queued-query-detection-and-other-dmvs) and your data warehouse has enough concurrency
-  slots.
+4. Monitor to [ensure your query is not queued](https://docs.microsoft.com/azure/sql-data-warehouse/analyze-your-workload#queued-query-detection-and-other-dmvs) and your data warehouse has enough concurrency slots.
 
-  * SQL Data Warehouse has a fixed number of concurrency slots depending on the current service level. Queries require several concurrently slots based on their resource class to ensure adequate resources are provided for optimal and efficient query performance. They become queued when there are not enough [slots available. ](https://docs.microsoft.com/azure/sql-data-warehouse/performance-tiers#concurrency-maximums)
+  * SQL Data Warehouse has a fixed number of concurrency slots depending on the current service level. Queries require several concurrently slots based on their resource class to ensure adequate resources are provided for optimal and efficient query performance. They become queued when there are not enough [slots available](https://docs.microsoft.com/azure/sql-data-warehouse/performance-tiers#concurrency-maximums).
 
-5. Ensure [enough tempdb and memory have been allocated](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-tempdb) during query execution.
+5. Ensure [enough tempdb and memory have been allocated](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor#monitor-tempdb) during query execution
 
    * It is recommended to scale if you see your datawarehouse is close to maxing out its tempdb capacity during high activity. Tempdb is used as a staging area for data movement operations as well as when a queryreaches its memory grant.<br>
    * Each query has a specific memory grant depending on its resource class and the data warehouse service level.  When queries consume their grant, they must spill into tempdb slowing down query performance.
 
-6. Avoid directly issuing queries against external tables by [loading data first](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-best-practices#load-then-query-external-tables).
+6. Avoid directly issuing queries against external tables by [loading data first](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-best-practices#load-then-query-external-tables)
+
    * External tables are not optimal for queries. External tables residing in Blob storage or Azure data lake does not have compute resources backing them; there the data warehouse cannot offload this work. Therefore, your data warehouse will be required to read the entire file into tempdb to scan the data.
 
 
 ## **Recommended Documents**
+
 * [SQL Data Warehouse Cheat Sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet)<br>
 * [Investigate Queries with DMVs](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-monitor)<br>
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)
