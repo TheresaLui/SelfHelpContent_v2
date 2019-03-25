@@ -16,9 +16,9 @@
 
 # Remote debugging
 
-## **Recommended documents**
+## **Recommended Documents**
 
-Things to be aware for remote debugging can be found at:
+Things to be aware of for remote debugging:
 
 * [Unable to Connect to Microsoft Visual Studio Remote Debugging Monitor](https://docs.microsoft.com/visualstudio/debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor) <br>
 * [Notes about remote debugging](https://docs.microsoft.com/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio#notes-about-remote-debugging) <br>
