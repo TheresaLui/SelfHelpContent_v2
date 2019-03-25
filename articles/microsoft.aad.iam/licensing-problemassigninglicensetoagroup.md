@@ -58,7 +58,7 @@
             "order": 2,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory->Licenses->All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
+            "content": "<a href='https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal'>Assigning licenses to groups is currently in Public Preview and requires an active subscription for one of the Azure AD products, such as: Azure AD Basic, Azure AD Premium, or Enterprise Mobility + Security. You can see the list of your subscriptions under Azure Active Directory--Licenses--All Products. Click here to read more about the preview and the license requirement to use this feature.</a>",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
