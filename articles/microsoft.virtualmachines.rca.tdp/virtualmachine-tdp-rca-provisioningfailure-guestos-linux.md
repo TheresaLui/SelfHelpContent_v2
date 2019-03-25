@@ -71,7 +71,7 @@ Review the results for failed statues such as the following:
             ] 
 
 ```
-For more information about the Azure Resource Explorer, see this [blog](https://azure.microsoft.com/en-us/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/) and [video](https://www.youtube.com/watch?v=Ye9eOYRK3jE).<br>
+For more information about the Azure Resource Explorer, see this [blog](https://azure.microsoft.com/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/) and [video](https://www.youtube.com/watch?v=Ye9eOYRK3jE).<br>
 
 ### VM Agent properties
 

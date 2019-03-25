@@ -70,7 +70,7 @@ Review the results for failed statues such as the following:
             ] 
 
 ```
-For more information about the Azure Resource Explorer, see this [blog](https://azure.microsoft.com/en-us/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/) and [video](https://www.youtube.com/watch?v=Ye9eOYRK3jE).<br>
+For more information about the Azure Resource Explorer, see this [blog](https://azure.microsoft.com/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/) and [video](https://www.youtube.com/watch?v=Ye9eOYRK3jE).<br>
 
 ### VM Agent properties
 
@@ -80,7 +80,7 @@ You can check the agent (also known as the guest agent) status and its version i
 - Is the agent able to send or receive heart beats from the fabric?
 - Is there any other error or warning related to the agent or OS?<br>
 
-You can monitor the deployment of [Windows Agent](https://aka.ms/vmagentrollout) to determine current versions and their availabiity in the regions.<br>
+You can monitor the deployment of [Windows Agent](https://aka.ms/vmagentrollout) to determine current versions and their availability in the regions.<br>
 
 You can also examine the contents of the `WaAppAgent.log` file for `WARN` and `ERROR` messages according to their timestamps.<br>
 
