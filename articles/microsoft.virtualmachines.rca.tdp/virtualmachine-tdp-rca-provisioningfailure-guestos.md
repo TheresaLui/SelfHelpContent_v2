@@ -35,7 +35,7 @@ You can use the VM as a specialized data VHD to create a new VM. For more inform
 
 Perform the following steps to deploy a VM based on the image of the original VM.<br>
 
-1. Generalie the VM by running `sysprep`
+1. Generalize the VM by running `sysprep`
 1. Create the VM image.
 1. Create a VM from the image.<br>
 
