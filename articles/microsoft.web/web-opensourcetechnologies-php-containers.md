@@ -16,7 +16,7 @@
 
 # open source technologies/php
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How-To: Custom PHP Docker Image](https://docs.microsoft.com/azure/app-service/containers/tutorial-custom-docker-image)
 * [How-To: Multi-Container App](https://docs.microsoft.com/azure/app-service/containers/tutorial-multi-container-app)
