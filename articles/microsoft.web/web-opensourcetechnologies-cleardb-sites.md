@@ -20,7 +20,8 @@ ClearDB is a third-party service that provides the ability to use MySQL-as-a-ser
 
 Click [here](https://www.cleardb.com/developers/help/support) for ClearDB support contact information.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Delete a resource in Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal#delete-resource-group-or-resources)
 * [Migrate database from ClearDB to Azure database for MySQL](https://azure.microsoft.com/blog/cleardb-migration-to-azure-database-for-mysql/)
 * [Import your database to MySQL in-app](https://blogs.msdn.microsoft.com/appserviceteam/2016/08/18/exporting-your-database-to-local-mysql/#import-db)<br>
