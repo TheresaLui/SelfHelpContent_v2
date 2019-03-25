@@ -39,6 +39,10 @@
                 {
                     "text": "Not sure",
                     "value": "dontknow"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -94,6 +98,10 @@
                 {
                     "text": "Not sure",
                     "value": "other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
