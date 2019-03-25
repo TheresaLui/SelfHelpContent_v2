@@ -4,14 +4,14 @@
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman, cts-shrahman"
-    ms.author="shrahman,shrahman"
+    ms.author="shrahman,toan"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32550703"
 	resourceTags=""
-	productPesIds="14748"
+	productPesIds="16170, 16333"
 	cloudEnvironments="public, MoonCake"
-	articleId="0c0741c9-00a1-49e2-b642-c7d95423c2d4"
+	articleId="49c9b96f-300a-4c46-9f15-fb2b02d7b685"
 />
 
 # Open Source Technologies/ClearDB
@@ -24,5 +24,4 @@ Click [here](https://www.cleardb.com/developers/help/support) for ClearDB suppor
 
 * [Delete a resource in Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal#delete-resource-group-or-resources)
 * [Migrate database from ClearDB to Azure database for MySQL](https://azure.microsoft.com/blog/cleardb-migration-to-azure-database-for-mysql/)
-* [Import your database to MySQL in-app](https://blogs.msdn.microsoft.com/appserviceteam/2016/08/18/exporting-your-database-to-local-mysql/#import-db)<br>
 
