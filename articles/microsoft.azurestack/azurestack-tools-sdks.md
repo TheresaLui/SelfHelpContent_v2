@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Software Development Kit (SDK) and Visual Studio Integration"
-    description=""
+    description="Azure Stack Software Development Kit (SDK) and Visual Studio Integration""
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
