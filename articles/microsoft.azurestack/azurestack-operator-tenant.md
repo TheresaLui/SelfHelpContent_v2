@@ -16,14 +16,14 @@
 
 # Azure Stack Tenant Management
 
-There are two portals in Azure Stack- the administration portal and the user portal, sometimes referred to as the tenant portal. You can use the Azure Stack user portal to subscribe to public offers and use the services that these offers provide. If you've used the global Azure portal, you're already familiar with how the user portal works.
+There are two portals in Azure Stack: the administration portal and the user portal (sometimes referred to as the tenant portal). You can use the Azure Stack user portal to subscribe to public offers and use the services that these offers provide. If you've used the global Azure portal, you're already familiar with how the user portal works.
 
 ## **Recommended Steps**
 
 Your Azure Stack operator (either a service provider or an administrator in your organization) will let you know the correct URL to access the portal.
 
-- For ASDK environments, the tenant portal will be hosted at- https://portal.local.azurestack.external
-- For multi-node integrated systems, the address will match the pattern- https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt;
+* For ASDK environments, the tenant portal will be hosted at https://portal.local.azurestack.external
+* For multi-node integrated systems, the address will match the pattern `https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt;`
 
 ## **Recommended Documents**
 
