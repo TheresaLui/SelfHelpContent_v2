@@ -39,6 +39,10 @@
                 {
                     "value": "Restore failure",
                     "text": "Restore failure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -160,6 +164,10 @@
                 {
                     "value": "Restore encrypted VMs",
                     "text": "Restore encrypted VMs"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
