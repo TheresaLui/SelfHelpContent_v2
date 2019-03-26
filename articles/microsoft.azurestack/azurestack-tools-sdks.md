@@ -16,9 +16,9 @@
 
 # Azure Stack Software Development Kit (SDK) and Development Tools
 
-Azure Stack provides code samples in a Software Development Kit (SDK) for common languages so that you can build solutions that work with the Azure Stack resource providers using version profiles. In the SDK, You can find code samples to help you integrate your solution with your preferred language with Azure Stack by using profiles.
+The Azure Stack Software Development Kit (SDK) provides code samples for common languages so that you can build solutions that work with Azure Stack resource providers. In the SDK, you can find code samples to help you integrate your solution with your preferred language with Azure Stack by using profiles.
 
-You can also use Visual Studio and [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-happened-vsts?view=vsts) to develop and deploy Azure Resource Manager templates to Azure Stack.
+You can also use Visual Studio or [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-happened-vsts?view=vsts) to develop Azure Resource Manager templates and deploy them to Azure Stack.
 
 **Note**: If you are a looking for the Azure Stack Development Kit (ASDK), the single-node version of Azure Stack for evaluating Azure Stack and developing solutions for Azure Stack, please refer to the [ASDK documentation](https://docs.microsoft.com/azure/azure-stack/asdk/).
 
