@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Site Recovery (VMware to Azure)/Enable Protection"
-	description="Site Recovery (VMware to Azure)/Common issues during Enable Protection"
+	pageTitle="Site Recovery (VMware to Azure)/Migration issues and queries"
+	description="Site Recovery (VMware to Azure)/Common issues during Migration"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
 	ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32536405"
+	supportTopicIds="32634425"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
-	articleId="76736774-887b-41c7-97ab-4463cd31a739"
+	articleId="b2fd5554-93f9-4a2b-bf96-7347e6d69005"
 />
 
 # Migrate VMware/Physical servers to Azure through Azure Site Recovery services

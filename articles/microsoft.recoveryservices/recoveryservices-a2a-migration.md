@@ -7,11 +7,11 @@
 	ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32536405"
+	supportTopicIds="32634424"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
-	articleId="76736774-887b-41c7-97ab-4463cd31a739"
+	articleId="3dbc12ad-8ec8-4815-ab50-bc45deb67dcb"
 />
 
 # Queries/Issues during migration of servers to Azure

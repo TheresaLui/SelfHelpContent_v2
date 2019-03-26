@@ -7,11 +7,11 @@
 	ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32536405"
+	supportTopicIds="32634429"
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
-	articleId="76736774-887b-41c7-97ab-4463cd31a739"
+	articleId="642faf03-4cca-4b69-ad56-1396369a025f"
 />
 
 # Migrate HyperV servers to Azure through Azure Site Recovery services
