@@ -22,21 +22,16 @@ You can also use Visual Studio and [Azure DevOps Services](https://docs.microsof
 
 **Note**: If you are a looking for the Azure Stack Development Kit (ASDK), the single-node version of Azure Stack for evaluating Azure Stack and developing solutions for Azure Stack, please refer to the [ASDK documentation](https://docs.microsoft.com/azure/azure-stack/asdk/).
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. To use supported PowerShell cmdlets with your Azure Stack environment, [Install Azure Stack PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-powershell-install) and [Connect to Azure Stack with PowerShell as a user](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-powershell-configure-user)
-2. Start developing using the sample provided for the language you would like to work with, including
-[.NET](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-net),
-[GO](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-go),
-[Ruby](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-ruby),
-[Python](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-python),
-or API version profiles for [PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-powershell) and [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-azurecli2)
+2. Start developing using the sample provided for the language you would like to work with, including [.NET](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-net), [GO](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-go), [Ruby](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-ruby), [Python](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-python), or API version profiles for [PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-powershell) and [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-azurecli2)
 3. Gather the required information from your Azure Stack environment, including **Tenant ID**, **Client ID**, **Subscription ID**, **Client Secret**, and [**Resource Manager Endpoint**](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-ruby#the-azure-stack-resource-manager-endpoint)
 4. If you are using Visual Studio to develop and deploy to Azure Stack, follow steps to-
     - [Connect to Azure Stack with Azure AD](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-install-visual-studio#connect-to-azure-stack-with-azure-ad)
     - [Connect to Azure Stack with AD FS](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-install-visual-studio#connect-to-azure-stack-with-ad-fs)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Develop for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-developer)
 - [Develop templates for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-develop-templates)
