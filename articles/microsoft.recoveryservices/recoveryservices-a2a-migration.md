@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Site Recovery (Azure to Azure)/Migration queries & issues"
+	pageTitle="Site Recovery (Azure to Azure)/Migration issues and queries"
 	description="Site Recovery (Azure to Azure)/Common issues during Migration"
 	service="microsoft.recoveryservices"
 	resource="vaults"
