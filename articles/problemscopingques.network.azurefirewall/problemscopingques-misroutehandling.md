@@ -16,52 +16,60 @@
 	"resourceRequired": true,
 	"title": "Azure Firewall Generic",
 	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "is_it_AzureFirewall",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Is this case related to the Azure Firewall service?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, 
-			],
-			"required": true
-		}, {
-			"id": "is_it_deployed",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Is Azure Firewall deployed in your subscription?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, 
-			],
-			"required": true
-		}, {
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem start?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Description",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
+	"formElements": [
+	{
+		"id": "is_it_AzureFirewall",
+		"order": 1,
+		"controlType": "dropdown",
+		"displayLabel": "Is this case related to the Azure Firewall service?",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [
+			{
+				"value": "Yes",
+				"text": "Yes"
+			}, 
+			{
+				"value": "No",
+				"text": "No"
+			}, 
+		],
+		"required": true
+	}, 
+	{
+		"id": "is_it_deployed",
+		"order": 2,
+		"controlType": "dropdown",
+		"displayLabel": "Is Azure Firewall deployed in your subscription?",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [
+		    {
+				"value": "Yes",
+				"text": "Yes"
+			}, 
+			{
+				"value": "No",
+				"text": "No"
+			}, 
+		],
+		"required": true
+	}, 
+	{
+		"id": "problem_start_time",
+		"order": 3,
+		"controlType": "datetimepicker",
+		"displayLabel": "When did the problem start?",
+		"required": true
+	}, 
+	{
+		"id": "problem_description",
+		"order": 4,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Description",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true,
 			
-		}
+	}
 	]
 }
 ---
