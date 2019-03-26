@@ -22,8 +22,8 @@ There are two portals in Azure Stack- the administration portal and the user por
 
 Your Azure Stack operator (either a service provider or an administrator in your organization) will let you know the correct URL to access the portal.
 
-- For ASDK the tenant portal will be hosted at- https://portal.local.azurestack.external
-- For multi-node integrated systems address will be similar to- https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt;
+- For ASDK environments, the tenant portal will be hosted at- https://portal.local.azurestack.external
+- For multi-node integrated systems, the address will match the pattern- https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt;
 
 ## **Recommended Documents**
 

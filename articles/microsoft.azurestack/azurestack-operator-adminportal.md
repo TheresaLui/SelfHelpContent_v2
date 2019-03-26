@@ -20,15 +20,17 @@ There are two portals in Azure Stack- the administration portal and the user por
 
 ### **Important note about portal impact during 1811 update**
 
-The Azure Stack 1811 update contains a new [extension host](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. Prior to installing 1811 update, all instances of Azure Stack Administrator portals **must be closed** or the **install will fail**. While installing the 1811 update, the Azure Stack user portal is unavailable while the extension host is configured. This can take up to 5 hours. During that time, you can check the status of an update, or resume a failed update installation using [Azure Stack Administrator PowerShell or the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets).
+The Azure Stack 1811 update contains a new [extension host](https://docs.microsoft.com/azure/azure-stack/azure-stack-extension-host-prepare) that secures external endpoints published by Azure Stack. Prior to installing 1811 update, all instances of Azure Stack Administrator portals **must be closed** or the **install will fail**. 
 
-## **Recommended steps**
+While installing the 1811 update, the Azure Stack user portal is unavailable while the extension host is configured. This can take up to 5 hours. During that time, you can check the status of an update, or resume a failed update installation using [Azure Stack Administrator PowerShell or the privileged endpoint](https://docs.microsoft.com/azure/azure-stack/azure-stack-monitor-update#use-the-update-management-cmdlets).
+
+## **Recommended Steps**
 
 To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator.
 
-- For single-node ASDK enviornments, the admin portal is hosted at https://adminportal.local.azurestack.external 
-- For multi-node integrated systems, the portal URL varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment, and will match the pattern- https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt;
+- For single-node ASDK environments, the admin portal is hosted at- https://adminportal.local.azurestack.external 
+- For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment, but will match the pattern- https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt;
 
-## **Recommended documents**
+## **Recommended Documents**
 
 [Using the administrator portal in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-portals)
