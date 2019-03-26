@@ -26,5 +26,5 @@
 ## **Recommended Documents**
 
 * [Tutorial: Switch Azure subscription offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer/)<br>
-* [Video: Switch Azure subscription offer](https://channel9.msdn.com/Series/Microsoft-* Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
+* [Video: Switch Azure subscription offer](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Switch-to-a-different-Azure-offer/)<br>
 * [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
