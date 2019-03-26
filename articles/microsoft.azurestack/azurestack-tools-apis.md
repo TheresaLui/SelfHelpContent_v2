@@ -38,8 +38,7 @@ Azure Stack has a variety of APIs for cloud admins and tenant users to access th
 
 ### **Azure PowerShell**
 
-1. Make sure to [uninstall existing versions of the Azure Stack PowerShell modules](https://docs.microsoft.com/azure/azure-stack/azure-stack-powershell-install?toc=/azure/azure-stack/user/TOC.json#3-uninstall-existing-versions-of-the-azure-stack-powershell-modules
-), and check that you are using correct API Profile
+1. Make sure to [uninstall existing versions of the Azure Stack PowerShell modules](https://docs.microsoft.com/azure/azure-stack/azure-stack-powershell-install?toc=/azure/azure-stack/user/TOC.json#3-uninstall-existing-versions-of-the-azure-stack-powershell-modules), and check that you are using correct API Profile
 2. [Install PowerShell for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-powershell-install) on your client machine
 3. Check your [installed profiles](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-powershell#get-the-installed-profiles) and ARM context for your environment
 4. [Connect to Azure Stack with PowerShell as an operator](https://docs.microsoft.com/azure/azure-stack/azure-stack-powershell-configure-admin) to perform Azure Stack administration tasks
