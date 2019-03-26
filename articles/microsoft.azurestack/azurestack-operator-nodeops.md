@@ -16,10 +16,15 @@
 
 # Azure Stack Node Operations
 
-## **Recommended steps**
-
 Using the Azure Stack Admin portal, you can view each physical node's status, and run node actions such as power on, power off, shut down, drain, resume, and repair.
 
-## **Recommended documents**
+## **Recommended Steps**
 
-* [Scale unit node actions in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
+- [View the node status](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions#view-the-node-status) in the Azure Stack Admin Portal
+- Follow steps [perform Scale-unit actions](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions#scale-unit-node-actions) to start, stop, drain, resume, repair, or shutdown a node
+- If needed, [replace a scale unit node on an Azure Stack integrated system](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-node)
+
+## **Recommended Documents**
+
+- [Scale unit node actions in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
+- [Replace a scale unit node on an Azure Stack integrated system](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-node)
