@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Site Recovery (HyperV to Azure)/Migration queries & issues"
-	description="Site Recovery (HyperV to Azure)/Common issues during Migration"
+	pageTitle="Site Recovery (Hyper-V to Azure)/Migration queries & issues"
+	description="Site Recovery (Hyper-V to Azure)/Common issues during Migration"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
@@ -14,7 +14,7 @@
 	articleId="642faf03-4cca-4b69-ad56-1396369a025f"
 />
 
-# Migrate HyperV servers to Azure through Azure Site Recovery services
+# Migrate Hyper-V servers to Azure through Azure Site Recovery services
 
 ## **Recommended Documents**
 
