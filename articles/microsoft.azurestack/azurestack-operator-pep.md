@@ -21,7 +21,7 @@ As an Azure Stack operator, you should use the administrator portal, PowerShell,
 ## **Recommended Steps**
 
 1. [Access the Privileged Endpoint (PEP)](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#access-the-privileged-endpoint) and [follow best practices](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#tips-for-using-the-privileged-endpoint) to perform low-level tasks, such as [collecting diagnostic logs](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#log-collection-tool)
-2. Use the PEP to perform [post-deployment datacenter integration tasks](https://docs.microsoft.com/azure/azure-stack/azure-stack-customer-journey#post-deployment-phase), including-
+2. Use the PEP to perform [post-deployment datacenter integration tasks](https://docs.microsoft.com/azure/azure-stack/azure-stack-customer-journey#post-deployment-phase), including:
 
     - [Adding Domain Name System (DNS) forwarders](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#setting-up-conditional-forwarding-to-azure-stack)
     - [Integrating with your identity provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-identity)
