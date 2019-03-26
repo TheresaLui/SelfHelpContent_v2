@@ -39,7 +39,7 @@ You can visualize dependencies of groups with up to 10 VMs, if you have a group 
 ### **I installed agents in my on-prem VMs, but the dependencies are not showing up.**
 Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Learn more about [agent installation](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies#download-and-install-the-vm-agents). 
 
-### **What is the supported OS matrix for the Microsoft Monitoring Agent (MMA) and dependency agent?**
+### **What is the supported OS matrix for the Microsoft Monitoring Agent (MMA) and the dependency agent?**
 Refer to the support matrix document [MMA agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-concept-hybrid#supported-windows-operating-systems) and [dependency agent](https://docs.microsoft.com/azure/monitoring/monitoring-service-map-configure#supported-windows-operating-systems) for details.
 
 ### **Can I export the dependency visualization report?**
