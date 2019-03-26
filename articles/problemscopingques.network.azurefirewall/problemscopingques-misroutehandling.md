@@ -20,7 +20,7 @@
 			"id": "is_it_AzureFirewall",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Is this case related to the Azure Firewall service?",
+			"displayLabel": "Is this case related to the <a href='https://docs.microsoft.com/en-us/azure/firewall/overview'>Azure Firewall service</a>?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
@@ -30,12 +30,6 @@
 					"text": "No"
 				}
 			],
-			"required": true
-		}, {
-			"id": "problem_start_time",
-			"order": 3,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem start?",
 			"required": true
 		}, {
 			"id": "is_it_deployed",
@@ -51,6 +45,12 @@
 					"text": "No"
 				}
 			],
+			"required": true
+		}, {
+			"id": "problem_start_time",
+			"order": 3,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem start?",
 			"required": true
 		}, {
 			"id": "problem_description",
