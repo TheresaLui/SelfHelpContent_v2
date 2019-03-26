@@ -30,7 +30,7 @@
 			"controlType": "textbox",
 			"displayLabel": "If an error was displayed, what was the error message?",
 			"required": false
-		}
+		},
 		{
             "id": "problem_description",
             "order": 3,
