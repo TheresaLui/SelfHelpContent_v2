@@ -16,11 +16,11 @@
 
 # Azure Stack APIs
 
-Azure Stack has a variety of APIs for cloud admins and tenant users to access Azure Stack environments-
+Azure Stack has a variety of APIs for cloud admins and tenant users to access Azure Stack environments:
 
-- **Azure Stack Admin REST API** for each Resource Provider that ships with Azure Stack, for performing operations on resource objects such as Scale Unit Nodes, Alerts, Updates, Backup, Marketplace, Subscriptions, Offers, and more.
+- **Azure Stack Admin REST API** for each Resource Provider that ships with Azure Stack, for performing operations on resource objects such as Scale Unit Nodes, Alerts, Updates, Backup, Marketplace, Subscriptions, Offers, and more
 - **Resource provider APIs** for each resource provider [supported by profiles in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-profiles-azure-resource-manager-versions). Each client uses an API profile to contact the correct resource provider and API version for Azure Stack.
-- **Azure CLI** command-line tool for managing Azure Stack resources, designed to enable scripting, querying data, performing long-running operations, and more.
+- **Azure CLI** command-line tool for managing Azure Stack resources, designed to enable scripting, querying data, performing long-running operations, and more
 - **Azure PowerShell** cmdlets that use the Azure Resource Manager model for managing Azure resources. [Azure Stack Powershell](https://docs.microsoft.com/azure/azure-stack/azure-stack-powershell-install) uses API profiles to ensure you are using the right resource provider and version when using cmdlets.
 
 ## **Recommended Steps**
