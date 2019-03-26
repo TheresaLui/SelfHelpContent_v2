@@ -26,7 +26,7 @@
 					"value": "Yes",
 					"text": "Yes"
 				}, {
-					"value": "No",
+					"value": "dont_know_answer",
 					"text": "No"
 				}
 			],
@@ -47,7 +47,7 @@
 					"value": "Yes",
 					"text": "Yes"
 				}, {
-					"value": "No",
+					"value": "dont_know_answer",
 					"text": "No"
 				}
 			],
@@ -59,8 +59,7 @@
 			"displayLabel": "Description",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
-			"useAsAdditionalDetails": true,
-						}, 
+			"useAsAdditionalDetails": true} 
 	]
 }
 ---
