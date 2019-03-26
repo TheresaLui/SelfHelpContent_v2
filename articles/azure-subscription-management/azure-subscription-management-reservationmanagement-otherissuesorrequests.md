@@ -1,6 +1,6 @@
 <properties
-	pageTitle="other issues or requests"
-	description="other issues or requests"
+	pageTitle="General issues or requests for Azure Reservation Management"
+	description="General issues or requests for Azure Reservation Management"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -15,7 +15,7 @@
 />
 
 
-# other issues or requests
+General issues or requests for Azure Reservation Management"
 
 ## **Recommended Steps**
 
@@ -61,4 +61,3 @@ If the scope is changed from shared to single scope, only select subscriptions w
 * [Manage reserved instances](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)
 * [Manage Microsoft Azure reservations on behalf of your customers](https://docs.microsoft.com/partner-center/azure-reservations-manage)
 * [Reserved instances in Partner Center Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations)
-

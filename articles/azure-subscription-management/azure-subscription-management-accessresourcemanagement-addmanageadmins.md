@@ -1,6 +1,6 @@
 <properties
-	pageTitle="how to add and manage admins"
-	description="how to add and manage admins"
+	pageTitle="How do I add or manage administrators for my Azure Subscription?"
+	description="How do I add or manage administrators for my Azure Subscription?"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -14,7 +14,7 @@
 	articleId="accessandresourcemanagementhowtoaddandmanageadmins"
 />
 
-# how to add and manage admins
+# How do I add or manage administrators for my Azure Subscription?
 
 ## **Recommended Steps**
 
@@ -28,15 +28,15 @@ To add someone as an administrator for an Azure subscription, assign them the [
 
   1. Visit [Subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
   2. Select the subscription that you want to give access
-  3. Select **Add**. (If the Add button is missing, you do not have permission to add permissions)<br>
+  3. Select **Add**. If the Add button is missing, you do not have permission to add permissions.
   4. Select **Access control (IAM)** in the list
   5. In the **Role** box, select **Owner**
   6. In the **Assign access to** box, select **Azure AD user, group, or application**
   7. In the **Select** box, type the email address of the user you want to add as Owner. Select the user, and then select **Save**.<br>
-	
+
 ### Add or change Co-administrator
 
-Only an [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) can be added as a Co-administrator.Other users with roles such as [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) and [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader) cannot be added as Co-administrators.<br>
+Only an [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) can be added as a Co-administrator. Other users with roles such as [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) and [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader) cannot be added as Co-administrators.<br>
 
 ### Update a profile
 
