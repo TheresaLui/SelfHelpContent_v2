@@ -18,8 +18,8 @@
 
 ## **Recommended Documents**
 
-- [Why is the size of the data transferred to the Recovery Services vault smaller than the data selected for backup?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#why-is-the-size-of-the-data-transferred-to-the-recovery-services-vault-smaller-than-the-data-selected-for-backup)<br>
-- [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#if-i-cancel-a-backup-job-after-it-starts-is-the-transferred-backup-data-deleted)<br>
-- [Is there a limit on the amount of data backed up using a Recovery Services vault?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#is-there-a-limit-on-the-amount-of-data-backed-up-using-a-recovery-services-vault)<br>
-- [How to delete old backup data from vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#what-if-i-stop-the-backup-process-but-retain-the-data)<br>
-- [How is the data source size determined?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#how-is-the-data-source-size-determined)<br>
+- [Why is the size of the data transferred to the Recovery Services vault smaller than the data selected for backup?](https://aka.ms/AB-smaller-data-backup)<br>
+- [If I cancel a backup job after it starts, is the transferred backup data deleted?](https://aka.ms/AB-transferred-backup-data)<br>
+- [Is there a limit on the amount of data backed up using a Recovery Services vault?](https://aka.ms/AB-data-backed-up)<br>
+- [Delete old backup data from vault](https://aka.ms/AB-retain-the-data)<br>
+- [Determine the data source size](https://aka.ms/aka.msAB-data-source-size)<br>

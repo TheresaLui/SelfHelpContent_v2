@@ -31,6 +31,10 @@
                 {
                     "value": "Upgrade from V1 to V2",
                     "text": "Upgrade from V1 to V2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -54,6 +58,10 @@
                 {
                     "value": "Microsoft Azure backup(DPM) software failed to install",
                     "text": "Microsoft Azure backup(DPM) software failed to install"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

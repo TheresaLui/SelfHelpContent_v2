@@ -4,7 +4,7 @@
     ms.author="prdasneo"
     authors="prdasneo"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32454856"
+    supportTopicIds="32454856,32632936"
     productPesIds="15659"
     articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
@@ -15,55 +15,65 @@
 ---
 {
     "resourceRequired": false,
-    "title": "Billing and Payment Issues",
+    "title": "Issues with Billing and Payment",
     "fileAttachmentHint": "",
     "formElements": [
-    {
-      "id": "problem_start_time",
-      "visibility": null,
-      "order": 4,
-      "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-    {
-      "id": "problem_description",
-      "visibility": null,
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Please provide the following:",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "hints": [
-      {
-        "text": "Subscription ID"
-      },
-      {
-        "text": "Payment method: Invoice or CC"
-      },
-      {
-        "text": "Invoice ID related to the issue"
-      },
-      {
-        "text": "Notifications received regarding billing and payment issues"
-      }
-    ], 
-     "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": true,
-      "numberOfLines": 0
-  }
- ]
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
+        },
+        {
+            "id": "subscriptionid_details",
+            "order": 2,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription ID",
+            "required": true
+        },
+        {
+            "id": "payment_method",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Choose the type of Payment Method",
+            "watermarkText": "Choose the type of Payment Method",
+            "dropdownOptions": [
+                {
+                    "value": "Invoice",
+                    "text": "Invoice"
+                },
+                {
+                    "value": "Credit Card",
+                    "text": "Credit Card"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "invoiceid_details",
+            "order": 4,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Invoice ID related to the issue",
+            "watermarkText": "Provide your Invoice ID related to the issue",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Notifications received (if applicable)",
+            "watermarkText": "Provide any notifications received regarding billing and payment issues",
+            "required": true
+        }
+    ]
 }
 ---

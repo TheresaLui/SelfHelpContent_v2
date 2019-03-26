@@ -39,6 +39,10 @@
                 {
                     "value": "Restore failure",
                     "text": "Restore failure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -66,7 +70,7 @@
             "order": 5,
             "visibility": "issue_Type == Restore failure || issue_Type == Backup failure",
             "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide failed Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > In progress > Activity ID"
+            "content": "Microsoft can provide a solution to your problem faster if you can provide failed Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- In progress -- Activity ID"
         },
         {
             "id": "select_ErrorMessage_Backup",
@@ -160,6 +164,10 @@
                 {
                     "value": "Restore encrypted VMs",
                     "text": "Restore encrypted VMs"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
