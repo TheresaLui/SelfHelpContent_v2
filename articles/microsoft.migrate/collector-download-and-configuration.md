@@ -16,7 +16,7 @@
 
 # Azure Migrate Collector download and configuration
 
-## **Recommended Steps**
+## **Recommended steps**
 
 **After upgrading Azure Migrate Collector, all the details in the Collector configuration page have disappeared.** 
 
