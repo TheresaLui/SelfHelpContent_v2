@@ -41,11 +41,11 @@ Get-AzureRmResourceGroupDeployment -ResourceGroupName <!--$ResourceGroup-->[Reso
 
 ### Periodic deletion using Runbook
 
-You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments. Refer to the [Handling Azure Resource Manager Deployment Limits](https://blogs.msdn.microsoft.com/cloud_solution_architect/2016/08/22/handling-azure-resource-manager-deployment-limits) documentation for more information.
+You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments. Refer to the [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/) documentation for more information.
 
 ## **Recommended Documents**
 
 * [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
-* [Handling Azure Resource Manager Deployment Limits](https://blogs.msdn.microsoft.com/cloud_solution_architect/2016/08/22/handling-azure-resource-manager-deployment-limits)
+* [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/)
 * [Start a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks)
         
