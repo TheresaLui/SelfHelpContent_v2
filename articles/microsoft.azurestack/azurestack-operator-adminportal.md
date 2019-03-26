@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Administration portal"
-    description=""
+    description="Issues related to Azure Stack Admin Portal"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -24,13 +24,10 @@ The Azure Stack 1811 update contains a new [extension host](https://docs.microso
 
 ## **Recommended steps**
 
-To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator. For an integrated system, the portal URL varies based on the region name and external fully qualified domain name (FQDN) of your Azure Stack deployment.
+To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator.
 
-| Environment | Administrator Portal URL |   
-| -- | -- | 
-| ASDK| https://adminportal.local.azurestack.external  |
-| Integrated systems | https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt; | 
-| | |
+- For single-node ASDK enviornments, the admin portal is hosted at https://adminportal.local.azurestack.external 
+- For multi-node integrated systems, the portal URL varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment, and will match the pattern- https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt;
 
 ## **Recommended documents**
 
