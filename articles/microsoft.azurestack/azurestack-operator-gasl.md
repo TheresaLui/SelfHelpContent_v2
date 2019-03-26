@@ -7,9 +7,9 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds=""
+    supportTopicIds="32629215"
     resourceTags=""
-    productPesIds="32629215"
+    productPesIds="16226"
     cloudEnvironments="public"
     articleId="azurestack-operator-gasl"
 />
