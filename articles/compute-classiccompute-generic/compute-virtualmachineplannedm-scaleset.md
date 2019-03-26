@@ -22,7 +22,7 @@ Azure conducts planned maintenance on virtual machine scale sets. To maintain th
 
 To maintain the VM instances within the scale sets, planned maintenance is scheduled in waves. A wave starts with a notification to a subscription owner and co-owners. This notification defines a schedule with two time windows:
 
-- **Self-service window**s
+- **Self-service window**
 - **Scheduled maintenance window**<br>
 
 The self-service window is when you can proactively start self-service maintenance. Be aware that self-service maintenance might not be available for all your VMs, and is also not recommended for VMs in availability sets.
@@ -47,6 +47,9 @@ For more information, see [Planned maintenance notifications for virtual machine
 
 ## **Recommended Documents**
 
-* [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal)
-* [Working with large virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-placement-groups)
+* [Planned maintenance notifications for virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-maintenance-notifications#view-virtual-machine-scale-sets-that-are-affected-by-maintenance-in-the-portal)<br>
+* [Working with large virtual machine scale sets](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-placement-groups)<br>
+* [Azure Metadata Service: Scheduled Events for Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
+* [Regions and availability for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/regions-and-availability)<br>
+* [Choosing the right number of fault domains for virtual machine scale set](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-manage-fault-domains)<br>
 * [Azure virtual machine scale sets FAQs](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq)

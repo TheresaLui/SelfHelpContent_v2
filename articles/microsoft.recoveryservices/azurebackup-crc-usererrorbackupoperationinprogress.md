@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-usererrorbackupoperationinprogress"
 	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds=""
+	supportTopicIds="32553276,32553277"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -41,6 +41,6 @@ Ensure the backup operation currently in progress is completed before triggering
 
 If the scheduled backup operation is taking longer time conflicting with the next backup configuration, review:
 
-* [Best Practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
-* [Backup Performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
-* [Restore consideration](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations)
+* [Best Practices](https://aka.ms/AB-AA4e56d)
+* [Backup Performance](https://aka.ms/AB-AA4ecqb)
+* [Restore consideration](https://aka.ms/AB-AA4ecqn)

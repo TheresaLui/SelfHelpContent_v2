@@ -31,6 +31,10 @@
                 {
                     "value": "Restore from disk",
                     "text": "Restore from disk"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -127,6 +131,10 @@
                 {
                     "value": "Restoring SharePoint farm",
                     "text": "Restoring SharePoint farm"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

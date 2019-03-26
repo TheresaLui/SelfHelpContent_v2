@@ -42,6 +42,10 @@
                 {
                     "value": "Slow restore",
                     "text": "Slow restore"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -58,7 +62,7 @@
             "id": "learn_more_text",
             "order": 4,
             "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide the long running Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
+            "content": "Microsoft can provide a solution to your problem faster if you can provide the long running Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- Failed -- Activity ID."
         },
         {
             "id": "job_Running_Time",
