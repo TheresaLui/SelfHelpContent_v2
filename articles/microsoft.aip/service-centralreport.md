@@ -20,11 +20,11 @@
 2. Make sure you meet all the [Prerequisites for Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics)
 3. If you meet all prerequisites and you don't see any data, perform the steps below:
 
-	a. Open AIP portal and navigate to the Policies blade
-	b. For each policy you have, toggle the option of “Send audit data to Azure Information Protection analytics” to “Off” and save the policy
-	c. For each policy you have, toggle the option of “Send audit data to Azure Information Protection analytics” to “On” and save the policy
-	d. Go to your AIP client and reset settings (via Protect -> Help and Feedback -> Reset Settings)
-	e. perform labeling actions, wait few minutes and see if data now arrives to the portal
+	1. Open AIP portal and navigate to the Policies blade
+	2. For each policy you have, toggle the option of “Send audit data to Azure Information Protection analytics” to “Off” and save the policy
+	3. For each policy you have, toggle the option of “Send audit data to Azure Information Protection analytics” to “On” and save the policy
+	4. Go to your AIP client and reset settings (via Protect -> Help and Feedback -> Reset Settings)
+	5. perform labeling actions, wait few minutes and see if data now arrives to the portal
 
 ## **Recommended Documents**
 
