@@ -30,6 +30,10 @@
                 {
                     "value": "OSX_below1010",
                     "text": "Yosemite (version 10.10) or below"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
