@@ -1,9 +1,10 @@
 <properties
-	pageTitle="Configuration, Management and Integration issues"
-	description="Azure AD Domain Services"
+	pageTitle="Resolve configuration, management, and integration issues in Azure AD Domain Services"
+	description="Resolve configuration, management, and integration issues in Azure AD Domain Services"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
 	authors="eringreenlee"
+	ms.author="ergreenl"
 	selfHelpType="generic"
 	supportTopicIds="32447390"
 	productPesIds="14785,16576"
@@ -12,8 +13,7 @@
 />
 
 
-
-# Configuration, management, and integration
+# Resolve configuration, management, and integration issues in Azure AD Domain Services
 
 ## **Recommended Documents**
 
