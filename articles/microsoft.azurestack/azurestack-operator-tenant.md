@@ -1,0 +1,34 @@
+<properties
+    pageTitle="Azure Stack Tenant Management"
+    description=""
+    service="microsoft.azurestack"
+    resource="azurestack"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32629269"
+    resourceTags=""
+    productPesIds="16226"
+    cloudEnvironments="public"
+    articleId="azurestack-operator-tenant"
+/>
+
+# Azure Stack Tenant Management
+
+There are two portals in Azure Stack; the administrator portal and the user portal (sometimes referred to as the tenant portal). You can use the Azure Stack user portal to subscribe to public offers and use the services that these offers provide. If you've used the global Azure portal, you're already familiar with how the site works.
+
+## **Recommended steps**
+
+Your Azure Stack operator (either a service provider or an administrator in your organization), will let you know the correct URL to access the portal.
+
+| Environment | Administrator Portal URL |
+| -- | -- |
+| ASDK| https://portal.local.azurestack.external  |
+| Integrated systems | https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt; |
+| | |
+
+## **Recommended documents**
+
+[Use the Azure Stack portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-use-portal)<br>
+[Add a new Azure Stack tenant account in Azure Active Directory](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-new-user-aad)
