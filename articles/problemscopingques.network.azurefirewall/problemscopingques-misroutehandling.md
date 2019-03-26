@@ -59,7 +59,7 @@
 			"displayLabel": "Description",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
-			"useAsAdditionalDetails": true} 
+			"useAsAdditionalDetails": true}
 	]
 }
 ---
