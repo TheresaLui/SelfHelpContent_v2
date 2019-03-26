@@ -20,7 +20,7 @@
 			"id": "is_it_AzureFirewall",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Is this case related to the <a href='https://docs.microsoft.com/en-us/azure/firewall/overview'>Azure Firewall service</a>?",
+			"displayLabel": "Is this case related to the <a href='https://docs.microsoft.com/azure/firewall/overview'>Azure Firewall service</a>?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
