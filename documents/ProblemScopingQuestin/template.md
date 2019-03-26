@@ -13,7 +13,8 @@
 # VM Performance
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
