@@ -27,7 +27,7 @@ As an Azure Stack operator, you should use the administrator portal, PowerShell,
     - [Integrating with your identity provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-identity)
     - [Perform certificate rotation](https://docs.microsoft.com/azure/azure-stack/azure-stack-rotate-secrets)
 
-3. Always [close the PEP session](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#close-the-privileged-endpoint-session) when you are done using it
+3. Always [close the privileged endpoint session](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#close-the-privileged-endpoint-session) when you are done using it
 
 ## **Recommended Documents**
 

@@ -22,7 +22,7 @@ The build-in PowerShell cmdlet Get-AzureStackLog can be used to collect logs fro
 
 1. If you have a multi-node environment, follow steps to [run Get-AzureStackLog on Azure Stack integrated systems](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#to-run-get-azurestacklog-on-azure-stack-integrated-systems)
 2. If you have a single-node ASDK environment, follow steps to [run Get-AzureStackLog on an Azure Stack Development Kit (ASDK) system](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#to-run-get-azurestacklog-on-an-azure-stack-development-kit-asdk-system)
-3. Review [additional considerations](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#additional-considerations) for more details on what to do with the diagnostic log output
+3. Review [additional considerations](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#additional-considerations) for more details on the diagnostic log output
 
 ## **Recommended Documents**
 
