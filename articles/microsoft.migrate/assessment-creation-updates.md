@@ -3,7 +3,7 @@
 	description="Issues and guidance regarding Assessment creation and updates in Azure Migrate"
 	service="microsoft.migrate"
 	resource="projects"
-	authors="shijoy"
+	authors="shijojoy"
 	ms.author="shijoy"
 	displayOrder=""
 	selfHelpType="generic"
