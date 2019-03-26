@@ -16,7 +16,7 @@
 
 # Azure Stack Administration Portal
 
-There are two portals in Azure Stack- the administration portal and the user portal, sometimes referred to as the tenant portal. As an Azure Stack operator, you can use the administration portal for day-to-day management and operations of Azure Stack.
+There are two portals in Azure Stack: the administration portal and the user portal (sometimes referred to as the tenant portal). As an Azure Stack operator, you can use the administration portal for day-to-day management and operations of Azure Stack.
 
 ### **Important note about portal impact during 1811 update**
 
@@ -28,9 +28,9 @@ While installing the 1811 update, the Azure Stack user portal is unavailable whi
 
 To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator.
 
-- For single-node ASDK environments, the admin portal is hosted at- https://adminportal.local.azurestack.external 
-- For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment, but will match the pattern- https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt;
+* For single-node ASDK environments, the admin portal is hosted at https://adminportal.local.azurestack.external 
+* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern `https://adminportal.&lt;*region*&gt;.&lt;*FQDN*&gt;`.
 
 ## **Recommended Documents**
 
-[Using the administrator portal in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-portals)
+* [Using the administrator portal in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-manage-portals)
