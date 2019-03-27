@@ -33,6 +33,8 @@ The following error codes could be returned in case an error was encountered dur
 
 The message property will have more details of the error that should be meaningful to the customer.
 
+Also, see: [Feature gaps with respect to v2 APIs](https://docs.microsoft.com/azure/media-services/latest/migrate-from-v2-to-v3)
+
 **Media Services v2** (legacy)
 
 [Encoding error codes](https://docs.microsoft.com/azure/media-services/previous/media-services-encoding-error-codes)
