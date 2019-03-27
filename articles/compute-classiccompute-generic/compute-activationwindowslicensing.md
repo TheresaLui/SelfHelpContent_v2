@@ -68,7 +68,7 @@ The steps outlined below can be found **[here](https://docs.microsoft.com/azure/
 
 	A successful activation returns information that resembles the following: *Activating Windows(R), ServerDatacenter edition (12345678-1234-1234-1234-12345678) … Product activated successfully*.<br>
 
-**If you are using a site-to-site VPN and forced tunneling**, see [Use Azure custom routes to enable KMS activation with forced tunneling](https://blogs.msdn.com/b/mast/archive/2015/05/20/use-azure-custom-routes-to-enable-kms-activation-with-forced-tunneling.aspx).<br>
+**If you are using a site-to-site VPN and forced tunneling**, see [Use Azure custom routes to enable KMS activation with forced tunneling](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/custom-routes-enable-kms-activation).<br>
 
 **If you are using Express Route and you have a default route published**, see [Azure VM may fail to activate over Express Route](https://blogs.msdn.com/b/mast/archive/2015/12/01/azure-vm-may-fail-to-activate-over-expressroute.aspx).<br>
 
