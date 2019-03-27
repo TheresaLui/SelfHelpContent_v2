@@ -22,4 +22,6 @@
 **Media Services v3** (latest)
 
 * [Encoding with Media Services v3](https://docs.microsoft.com/azure/media-services/latest/encoding-concept)<br>
-* [Dynamic Packaging](https://docs.microsoft.com/azure/media-services/latest/dynamic-packaging-overview)
+* [Media Encoder Standard formats and codecs](https://docs.microsoft.com/azure/media-services/latest/media-encoder-standard-formats)<br>
+* [Dynamic Packaging](https://docs.microsoft.com/azure/media-services/latest/dynamic-packaging-overview)<br
+* [Feature gaps with respect to v2 APIs](https://docs.microsoft.com/azure/media-services/latest/migrate-from-v2-to-v3)
