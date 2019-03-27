@@ -36,7 +36,7 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   * Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
   * Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 
-  **For EA Customers , to review service overage invoice :**<br>
+  **For EA Customers , to review service overage invoice:**<br>
   
   1. Sign in to the [Enterprise portal](https://ea.azure.com/)<br>
   2. Select **Reports**<br>
@@ -46,9 +46,9 @@ Learn more:  [Gain insights into your Microsoft Azure resource consumption](htt
   
   _Note:_ This report doesn't include taxes or charges for reservations or marketplace charges<br>
 	
-  **For EA Customers , to review Marketplace invoice:**<br>
-
-Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
+  **For EA Customers , to review Marketplace invoice:**
+  
+  Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.<br>
  
  1. Sign in to the [Enterprise portal](https://ea.azure.com/)<br>
  2. Select **Reports**<br>
@@ -56,7 +56,7 @@ Compare your Azure Marketplace total on Reports > Usage Summary in the Enter
  4. The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice<br>
  5. Go to **Download Usage** to get more information about your usage-based charges, . Under **Marketplace Charges**, select **Download**<br>
  
- _Note:_  This report doesn't include taxes or show one-time purchases<br>
+ _Note:_ This report doesn't include taxes or show one-time purchases<br>
 
 Learn more: [Understand your bill - EA only](https://docs.microsoft.com/azure/billing/billing-understand-your-bill-ea)<br>
 
