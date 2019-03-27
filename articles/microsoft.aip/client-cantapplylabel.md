@@ -43,7 +43,9 @@
 	* More information about RMS OnBoarding policy can be found here: [Set-AadrmOnboardingControlPolicy](https://docs.microsoft.com/powershell/module/aadrm/set-aadrmonboardingcontrolpolicy?view=azureipps)
 
 
-4. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+4. Verify that you are trying to apply label for a supported file type: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default)
+	
+5. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ## Export Azure Information Protection logs
 
