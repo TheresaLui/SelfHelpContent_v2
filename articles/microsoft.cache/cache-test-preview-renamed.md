@@ -7,11 +7,11 @@
 	ms.author="yanylu"
 	displayOrder="2"
 	selfHelpType="generic"
-	supportTopicIds="32452731"
+	supportTopicIds="32452723"
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public"
-	articleId="b8518952-0394-4633-9023-a3a940bd456b"
+	articleId="04e0c122-b76b-443a-85b7-1c48eb6ac3e7"
 />
 
 # My app is getting connectivity errors
