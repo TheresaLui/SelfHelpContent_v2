@@ -80,9 +80,7 @@ You can check the agent (also known as the guest agent) status and its version i
 - Is the agent able to send or receive heart beats from the fabric?
 - Is there any other error or warning related to the agent or OS?<br>
 
-You can monitor the deployment of [Windows Agent](https://aka.ms/vmagentrollout) to determine current versions and their availability in the regions.<br>
-
-You can also examine the contents of the `WaAppAgent.log` file for `WARN` and `ERROR` messages according to their timestamps.<br>
+You can also examine the contents of the `WaAppAgent.log' file`(`C:\WindowsAzure\Logs`) file for `WARN` and `ERROR` messages according to their timestamps.<br>
 
 ### Extensions
 
