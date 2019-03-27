@@ -10,7 +10,6 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
-	articleId="b14d2a39-2094-4a57-8645-7095056c5dd2"
 />
 
 # Monitoring VMs: Performance Counters
@@ -24,18 +23,18 @@ To resolve common issues related to Performance Counters, try the following:
 	| summarize arg_max(TimeGenerated, *) by Computer
 ```
 2. Validate that you have [enabled the performance counter on your Log Analytics workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-performance-counters#configuring-performance-counters).
-	* In the Azure Portal, select your **Log Analytics workspaces** > your workspace > **Advanced Settings**. Select **Data**, and click Windows or Linux Performance Counters. Confirm that your log is listed. 
+	* In the Azure Portal, select your **Log Analytics workspaces** > your workspace > **Advanced Settings**. Select **Data**, and click **Windows** or **Linux Performance Counters**. Confirm that your log is listed. 
 3. Restart the agent. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
-	* If you are running a Linux machine: Restart the Log Analytics Agent by running 'sudo /opt/microsoft/omsagent/bin/service_control restart'
-	* If you are running a windows machine: Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: 'net stop healthservice' followed by 'net start healthservice'.
+	* If you are running a Linux machine: Restart the Log Analytics Agent by running `sudo /opt/microsoft/omsagent/bin/service_control restart`
+	* If you are running a windows machine: Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`.
 4. Force a fresh configuration
-	* For Linux machines, run 'sudo -u omsagent python /opt/microsoft/omsconfig/Scripts/PerformRequiredConfigurationChecks.py'
+	* For Linux machines, run `sudo -u omsagent python /opt/microsoft/omsconfig/Scripts/PerformRequiredConfigurationChecks.py`
 	* For Windows machines, follow the below steps:
-		1. Start an Administrative Command Prompt and run 'Net Stop HealthService'
-		2. Start File Explorer and navigate to 'C:\Program Files' or 'C:\Program Files(x86)'
-		3. Go to this location: 'Microsoft Monitoring Agent\Agent'
+		1. Start an Administrative Command Prompt and run `Net Stop HealthService`
+		2. Start File Explorer and navigate to `C:\Program Files` or `C:\Program Files(x86)`
+		3. Go to this location: `Microsoft Monitoring Agent\Agent`
 		4. Rename the folder **Health Service State** to **Old Health Service State**
-		5. In the Administrative Command Prompt, run 'Net Start Health Service'
+		5. In the Administrative Command Prompt, run `Net Start Health Service`
 4. Wait a few minutes, and [query your workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-performance-counters#log-queries-with-performance-records) to check if Event data is now being Collected. 
 
 ## **Recommended documents**

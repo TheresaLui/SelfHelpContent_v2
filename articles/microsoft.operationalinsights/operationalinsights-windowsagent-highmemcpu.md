@@ -1,7 +1,7 @@
 
 <properties
-    pageTitle="Windows Agent: Not reporting data or Heartbeat data missing"
-    description="Windows agent is bnot reporting heartbeat or other data"
+    pageTitle="Windows Agent: Running high memory or CPU"
+    description="Windows agent is consuming high amount of memory of CPU resources"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="abuckner"
@@ -11,17 +11,16 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
-	articleId="dcc77a22-c4f2-4839-853a-c51a13462181"
 />
 
-# Windows Agent: Crashing
+# Windows Agent: Running high memory or CPU
 
 ## **Recommended steps**
 If you notice that the Log Analytics agent for Windows is consuming a high amount of memory or CPU resources, try the following: 
 
 **Note:** Adding certain solutions to your workspace will result in n increased workload for the agent. It is normal for the agent to continue to run high memory and CPU for up to 30 minutes following such events. 
 
-* Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: 'net stop healthservice' followed by 'net start healthservice'. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
+* Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 * [Clear the agent cache](https://docs.microsoft.com/en-us/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
 	1. In the **Monitoring** workspace, expand **Operations Manager** and then expand **Agent Details**.
 	2. Click **Agent Health State**.
@@ -30,13 +29,13 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 	5. Wait a few minutes, and try querying again for your desired data
 * Force a fresh configuration
 	1. Start an Administrative Command Prompt and run 'Net Stop HealthService'
-	2. Start File Explorer and navigate to 'C:\Program Files' or 'C:\Program Files(x86)'
-	3. Go to this location: 'Microsoft Monitoring Agent\Agent'
+	2. Start File Explorer and navigate to `C:\Program Files` or `C:\Program Files(x86)`
+	3. Go to this location: `Microsoft Monitoring Agent\Agent`
 	4. Rename the folder **Health Service State** to **Old Health Service State**
-	5. In the Administrative Command Prompt, run 'Net Start Health Service'
+	5. In the Administrative Command Prompt, run `Net Start Health Service`
 
 * [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
-	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: **The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service**. 
+	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service". 
 * If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**
@@ -50,5 +49,5 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 
 [Installing the Windows Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows) <br>
 [Troubleshooting the Windows VM Extension](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/vmext-troubleshoot#troubleshooting-azure-windows-vm-extension) <br>
-[Powershell Installation of Windows Log Analytics Agent Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-windows#powershell-deployment) <br>
-[Powershell Removal of Windows Log Analytics Agent Extension](https://docs.microsoft.com/en-us/powershell/module/azurerm.compute/remove-azurermvmextension?view=azurermps-6.13.0)
+[Powershell Installation of Windows Agent Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-windows#powershell-deployment) <br>
+[Powershell Removal of Windows Agent Extension](https://docs.microsoft.com/en-us/powershell/module/azurerm.compute/remove-azurermvmextension?view=azurermps-6.13.0)

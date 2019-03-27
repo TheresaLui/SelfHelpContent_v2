@@ -11,14 +11,14 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
-	articleId="dcc77a22-c4f2-4839-853a-c51a13462181"
 />
 
-# Windows Agent: Crashing
+# Windows Agent: Not reporting data or Heartbeat data missing
 
 ## **Recommended steps**
 First verify that you are running a [supported version of the Windows OS](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/log-analytics-agent#supported-windows-operating-systems). <br>
-Then, in the case that the agent has never sent any data, or has stopped sending all data, try the following: 
+
+In the case that the agent has ***never*** sent any data, or has stopped sending ***all*** data, try the following: 
 
 * [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
 	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: **The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service**. 
@@ -29,7 +29,7 @@ Then, in the case that the agent has never sent any data, or has stopped sending
 	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and [assword to authenticate and then click **OK**. 
 * Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: 'net stop healthservice' followed by 'net start healthservice'. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 
-If the agent is reporting some data, but not all, try the following:
+If the agent is reporting ***some*** data, but not all, try the following:
 
 * [Clear the agent cache](https://docs.microsoft.com/en-us/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
 	1. In the **Monitoring** workspace, expand **Operations Manager** and then expand **Agent Details**.
@@ -40,11 +40,11 @@ If the agent is reporting some data, but not all, try the following:
 
 
 * Force a fresh configuration
-	1. Start an Administrative Command Prompt and run 'Net Stop HealthService'
-	2. Start File Explorer and navigate to 'C:\Program Files' or 'C:\Program Files(x86)'
-	3. Go to this location: 'Microsoft Monitoring Agent\Agent'
+	1. Start an Administrative Command Prompt and run `Net Stop HealthService`
+	2. Start File Explorer and navigate to `C:\Program Files` or `C:\Program Files(x86)`
+	3. Go to this location: `Microsoft Monitoring Agent\Agent`
 	4. Rename the folder **Health Service State** to **Old Health Service State**
-	5. In the Administrative Command Prompt, run 'Net Start Health Service'
+	5. In the Administrative Command Prompt, run `Net Start Health Service`
 
 ## **Recommended documents**
 
