@@ -33,7 +33,7 @@
 					"text": "Completed/Terminated"
 				},{
 			                "value": "dont_know_answer",
-					"text": "dont_know_answer"
+					"text": "I'm not sure"
 				}
 			],
 			"required": true,
@@ -55,12 +55,34 @@
 					"text": "Elastic Pool"
 				},{
 					"value": "dont_know_answer",
-					"text": "dont_know_answer"
+					"text": "I'm not sure"
 				}
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": true
+		},
+		{
+			"id": "db_source_tier",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Which service tier are you trying to scale from?"
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "From which source tier did you initiate the scaling operation?"
+			"dropdownOptions": [{
+					"value": "db_basic",
+					"text": "Basic or Standard(S0-S2)"
+				},{
+					"value": "db_standard",
+					"text": "Standard(S3-S12), General Purpose, or Hyperscale"
+				},{
+					"value": "db_premium",
+					"text": "Premium or Business Critical"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "db_or_epool == Database"
 		},
 		{
 			"id": "problem_description",
