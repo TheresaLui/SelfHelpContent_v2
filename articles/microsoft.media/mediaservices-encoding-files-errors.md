@@ -1,0 +1,38 @@
+<properties
+	pageTitle="Encode errors"
+	description="Encode errors"
+	service="microsoft.media"
+	resource="mediaservices"
+	authors="juliako"
+	ms.author="juliako"
+	displayOrder="1"
+	articleId="mediaservices-encoding-files-errors"
+	diagnosticScenario=""
+	selfHelpType="generic"
+	supportTopicIds="32632089"
+	resourceTags=""
+	productPesIds="14885"
+	cloudEnvironments="public"
+/>
+
+# Encode errors
+
+## **Recommended Documents**
+
+**Media Services v3** (latest)
+
+[Encoding with Media Services v3](https://docs.microsoft.com/azure/media-services/latest/encoding-concept)<br>
+
+The following error codes could be returned in case an error was encountered during the encoding task:
+
+* ApiErrorCode.BadRequest 
+* ApiErrorCode.NotFound
+* ApiErrorCode.InvalidResource
+* ApiErrorCode.QuotaExceeded
+* ApiErrorCode.InternalServerError
+
+The message property will have more details of the error that should be meaningful to the customer.
+
+**Media Services v2** (legacy)
+
+[Encoding error codes](https://docs.microsoft.com/azure/media-services/previous/media-services-encoding-error-codes)
