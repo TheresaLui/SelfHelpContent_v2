@@ -32,8 +32,30 @@
 					"value": "Completed/Terminated",
 					"text": "Completed/Terminated"
 				},{
-			                "value: dont_know_answer
-					"text": dont_know_answer
+			                "value: "dont_know_answer",
+					"text": "dont_know_answer"
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "db_or_epool",
+			"order": 2,
+			"controlType": "dropdown",
+			"displayLabel": "Are you trying to scale a database, or an elastic pool?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Does the scaling operation in question target a database, or an elastic pool?",
+			"dropdownOptions": [{
+					"value": "Database",
+					"text": "Database"
+				},{
+					"value": "Elastic_Pool",
+					"text": "Elastic Pool"
+				},{
+					"value": "dont_know_answer",
+					"text": "dont_know_answer"
+				}
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
