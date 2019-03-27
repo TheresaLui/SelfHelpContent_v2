@@ -7,7 +7,7 @@
 	ms.author="shijoy"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32632323, 32632324, 32632328, 32632325, 32632327"
+	supportTopicIds="32613311"
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
@@ -25,8 +25,6 @@ No, Azure Migrate does not migrate VMs, it is only used for **planning** migrati
 ### **Is your issue or query related to the [Azure Migrate](https://azure.microsoft.com/services/azure-migrate) Service?**
 
 Use 'Migrate' service only if your issue or query is related to the Azure Migrate service such as issues related to Azure Migrate discovery, assessment or dependency visualization. If you are not using Azure Migrate, use the respective service to find solution or raise a support ticket. 
-
-Below is a list of sample scenarios and the corresponding service type to be used for raising a support ticket:
 
 **Migrate from ASM to ARM**
 
