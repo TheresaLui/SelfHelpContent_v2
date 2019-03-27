@@ -14,9 +14,12 @@
 	articleId="fdae411c-7719-4070-9afb-725bfcecf1d3"
 />
 # Azure Backup SQL Backup performance
+
 ## **Recommended Steps**
-- [Can I throttle the speed of the SQL Server backup policy?](https://aka.ms/AB-AA4dp5n) </br>
+
+- [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>
 
 ## **Recommended Documents**
+
 - [FAQs](https://aka.ms/AB-AA4dwuc)</br>
 - [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>

@@ -54,6 +54,10 @@
                 {
                     "value": "Re-registering",
                     "text": "Re-registering"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
