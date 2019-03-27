@@ -16,7 +16,7 @@
 
 # Azure Stack Windows-based virtual machines
 
-You can deploy you can download Windows Server VM images on Azure Stack by adding a Windows-based image into the Azure Stack Marketplace. The easiest way to add a Windows image to Azure Stack is through Marketplace Management. These images have been prepared and tested for compatibility with Azure Stack.
+You can deploy Windows Server VM images on Azure Stack by adding a Windows-based image into the Azure Stack Marketplace. The easiest way to add a Windows image to Azure Stack is through Marketplace Management. These images have been prepared and tested for compatibility with Azure Stack.
 
 ## **Recommended Steps**
 
