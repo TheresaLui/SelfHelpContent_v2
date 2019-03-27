@@ -19,13 +19,10 @@
 ## **Recommended Steps**
 
 **Workday to AD User Provisioning goes into quarantine state and no users are created in AD**
-You are observing that the Workday to AD User Provisioning job has gone into quarantine state and the audit logs show export failure events with the error message: *Error: OperationsError-SvcErr: An operation error occurred. No superior reference has been configured for the directory service. The directory service is therefore unable to issue referrals to objects outside this forest.*
 
-*Probable Cause*
-This error usually shows up if the Active Directory Container OU is not set correctly or if there are issues with the *Expression Mapping* used for *parentDistinguishedName*.
+The Workday to AD User Provisioning job has gone into quarantine state and the audit logs show export failure events with the error message "Error: OperationsError-SvcErr: An operation error occurred. No superior reference has been configured for the directory service. The directory service is therefore unable to issue referrals to objects outside this forest." This error usually shows up if the Active Directory Container OU is not set correctly or if there are issues with the **Expression Mapping** used for **parentDistinguishedName**.
 
-*Suggested resolution steps*
-Check the *Default OU for New Users* parameter for typos. Ensure that the OU specified already exists in your AD. If you are using *parentDistinguishedName* in the attribute mapping ensure that it always evaluates to a known container within the AD domain. Check the *Export event* in the audit logs to see the generated value.
+Check the **Default OU for New Users** parameter for typos. Ensure that the OU specified already exists in your AD. If you are using **parentDistinguishedName** in the attribute mapping ensure that it always evaluates to a known container within the AD domain. Check the **Export event** in the audit logs to see the generated value.
 
 ## **Recommended Documents**
 
