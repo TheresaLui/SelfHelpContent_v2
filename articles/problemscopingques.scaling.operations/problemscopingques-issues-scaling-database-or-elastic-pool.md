@@ -26,12 +26,14 @@
 			"watermarkText": "Choose an option",
 			"infoBalloonText": "Is the scaling operation you need help with still in progress, or has it concluded?",
 			"dropdownOptions": [{
-					"value": "Currently in progress",
-					"text": "Currently in progress"
+					"value": "Ongoing",
+					"text": "Ongoing"
 				},{
-					"value": "Already completed",
-					"text": "Already completed"
-				}
+					"value": "Completed/Terminated",
+					"text": "Completed/Terminated"
+				},{
+			                "value: "I don't know",
+					"text": "dont_know_answer"
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
