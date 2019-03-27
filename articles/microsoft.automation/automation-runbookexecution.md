@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013"
+    supportTopicIds="32599860,32628013,32599906,32599907,32599908,32615224,32599909,32599923,32635012"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -30,7 +30,7 @@ This issue can occur when the runbook isn't using a RunAs account to access Azur
 
 **Runbook fails with error "Strong authentication enrollment is required"**
 
-* See ["Authentication to Azure failed because milt-factor authentication is enabled" in the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#auth-failed-mfa)
+* See ["Authentication to Azure failed because multi-factor authentication is enabled" in the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#auth-failed-mfa)
 
 **Runbook fails with "No permission" or some variation**
 
