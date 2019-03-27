@@ -19,6 +19,7 @@
 ## **Recommended Steps** 
 
 **How to setup outbound HTTP Proxy for Provisioning Agent**
+
 If the Windows Server where you have installed the Provisioning Agent does not have direct internet connectivity, then follow the steps documented in the section [How do I configure the Provisioning Agent to use a proxy server for outbound HTTP communication?](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial#how-do-i-configure-the-provisioning-agent-to-use-a-proxy-server-for-outbound-http-communication) to setup internet connectivity using outbound proxy server.
 
 ## **Recommended Documents**
