@@ -66,9 +66,9 @@
 			"id": "db_source_tier",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Which service tier are you trying to scale from?"
+			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
-			"infoBalloonText": "From which source tier did you initiate the scaling operation?"
+			"infoBalloonText": "From which source tier did you initiate the scaling operation?",
 			"dropdownOptions": [{
 					"value": "db_basic",
 					"text": "Basic or Standard(S0-S2)"
