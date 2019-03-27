@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-### ***I am unable to onboard machines onto Change Tracking and Inventory*** 
+### I am unable to onboard machines onto Change Tracking and Inventory
 
 * Please review the [onboarding troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
 
-### ***I am not seeing Change Tracking records for my Windows machine***
+### I am not seeing Change Tracking records for my Windows machine
 
 * Please review the [Change Tracking troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/change-tracking#records-not-showing-windows)
 
