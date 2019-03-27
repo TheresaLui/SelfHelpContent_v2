@@ -78,6 +78,9 @@
 				},{
 					"value": "db_premium",
 					"text": "Premium or Business Critical"
+				},{
+					"value": "dont_know_answer",
+					"text": "Other"
 				}
 			],
 			"required": true,
