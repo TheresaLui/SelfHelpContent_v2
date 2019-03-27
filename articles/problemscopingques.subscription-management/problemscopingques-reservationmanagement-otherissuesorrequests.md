@@ -14,7 +14,7 @@
 # Other Issues or Requests
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
