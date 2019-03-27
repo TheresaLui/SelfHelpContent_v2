@@ -1,0 +1,31 @@
+<properties
+	pageTitle="Workday to AD User Provisioning goes into quarantine state and no users are created in AD."
+	description="Workday to AD User Provisioning goes into quarantine state and no users are created in AD."
+	infoBubbleText="Workday to AD User Provisioning goes into quarantine state and no users are created in AD."
+	service="microsoft.activedirectory"
+	resource="activedirectory"
+	authors="cmmdesai"
+	ms.author="chmutali"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32629760,32629806"
+	productPesIds="16666"
+	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
+	CloudEnvironments="Public"
+/>
+
+# Workday to AD User Provisioning goes into quarantine state and no users are created in AD
+
+You are observing that the Workday to AD User Provisioning job has gone into quarantine state and the audit logs show export failure events with the error message: *Error: OperationsError-SvcErr: An operation error occurred. No superior reference has been configured for the directory service. The directory service is therefore unable to issue referrals to objects outside this forest.*
+
+## Probable Cause
+
+This error usually shows up if the Active Directory Container OU is not set correctly or if there are issues with the *Expression Mapping* used for *parentDistinguishedName*.
+
+## Recommended Solution
+
+Check the *Default OU for New Users* parameter for typos. Ensure that the OU specified already exists in your AD. If you are using *parentDistinguishedName* in the attribute mapping ensure that it always evaluates to a known container within the AD domain. Check the *Export event* in the audit logs to see the generated value.
+
+## Recommended Documents
+
+* [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)
