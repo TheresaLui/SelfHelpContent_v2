@@ -21,7 +21,7 @@
 ### **Ensure the agent is present** 
 
 * For **Linux**, ensure the agent is running by following the [Linux OMS Agent troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#oms-agent-not-running)
-* For **Windows**, ensure the agent is running by following the [Windows MMA troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#mma-not-running).
+* For **Windows**, ensure the agent is running by following the [Windows MMA troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#mma-not-running)
 
 ### **Error: Job action 'Activate' cannot be run...**
 
