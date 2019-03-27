@@ -13,7 +13,7 @@
 	articleId="dw-availabilityandconnectivity-dwisstuckduringcreationscalingorresuming.md"
 	cloudEnvironments="public"
 />
-# Data Warehouse is stuck during creation, scaling or resuming
+# Data Warehouse is stuck during creation, scaling, or resuming
 
 ## **Recommended Steps**
 
