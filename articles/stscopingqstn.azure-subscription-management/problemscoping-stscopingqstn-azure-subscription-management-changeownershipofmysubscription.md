@@ -30,7 +30,7 @@
             "controlType": "textbox",
             "displayLabel": "Subscription ID that needs to be moved",
             "watermarkText": "Provide the Subscription ID that needs to be moved",
-            "required": true
+            "required": false
         },
         {
             "id": "accountadmin_details1",
@@ -61,7 +61,7 @@
             "controlType": "textbox",
             "displayLabel": " Email address of the current Account Admin for this subscription",
             "watermarkText": " Email address of the current Account Admin for this subscription",
-            "required": true
+            "required": false
         },
         {
             "id": "destinationemail_details",
@@ -70,7 +70,7 @@
             "displayLabel": " Email address of new Account Admin",
             "watermarkText": "Provide the destination email address of the Account Admin for the account you want to transfer it to",
             "infoBalloonText": "This is the person to whom you want to transfer the subscription to",
-            "required": true
+            "required": false
         },
         {
             "id": "selfserve_details1",
@@ -94,7 +94,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "error_details1",
@@ -126,7 +126,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -159,7 +159,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
-            "required": true
+            "required": false
         }
     ]
 }
