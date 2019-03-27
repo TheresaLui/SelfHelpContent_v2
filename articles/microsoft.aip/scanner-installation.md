@@ -25,6 +25,8 @@ If An alternate configuration is needed for any of the below reasons, please fol
 * Service accounts cannot be granted the Log on locally right
 * Service accounts cannot be synchronized to Azure Active Directory but servers have Internet connectivity
 
+Verify that you comply with all [Firewalls and network infrastructure settings requiements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure)
+
 If you still experience issues, please export the scanner logs and add them to your ticket. 
 
 ### How to export Azure Information Protection Scanner logs
