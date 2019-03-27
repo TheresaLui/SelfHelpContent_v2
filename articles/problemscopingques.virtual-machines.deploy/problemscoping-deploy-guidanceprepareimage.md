@@ -51,7 +51,7 @@
                   "valueProperty": "properties.correlationId",
                   "defaultDropdownOptions": {
                     "value": "Deployment failure not found.",
-                    "text": "Deployment failure not found.",
+                    "text": "Deployment failure not found."
                     },
                     "textPropertyRegex": "[^/]+$"
                     },

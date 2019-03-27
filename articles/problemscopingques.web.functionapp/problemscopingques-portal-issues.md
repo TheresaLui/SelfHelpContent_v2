@@ -29,7 +29,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What exception are you experiencing?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -37,7 +37,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Are you trying to make a configuration to the Function and receiving an error or the configuration is not being applied? If yes, please capture an F12 HAR trace while reproducing the issue and upload it for analysis",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

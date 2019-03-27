@@ -45,7 +45,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which IDE are you using?  For example, Visual Studio, Visual Studio Code or in the portal?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -53,7 +53,7 @@
 			"controlType": "textbox",
 			"displayLabel": "If developing locally, what version of the 'Azure Functions and WebJobs Tools' are you using?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "5",
@@ -61,7 +61,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Is the issue happening in the portal?  What specific exception are you experiencing?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",

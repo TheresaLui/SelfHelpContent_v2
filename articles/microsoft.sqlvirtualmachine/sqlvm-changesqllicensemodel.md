@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-* **Switch your SQL license**: The ability to switch between licensing models is a feature provided by the new SQL VM resource provider. The ability to convert the licensing model is currently only available when starting with a pay-as-you-go SQL Server VM image. If you start with a bring-your-own-license image from the portal, you will not be able to convert that image to pay-as-you-go. For detailed steps and restrictions, review [How to change the licensing model for a SQL Server virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb).<br>
+**Switch your SQL license**: The ability to switch between licensing models is a feature provided by the new SQL VM resource provider. The ability to convert the licensing model is currently only available when starting with a pay-as-you-go SQL Server VM image. If you start with a bring-your-own-license image from the portal, you will not be able to convert that image to pay-as-you-go. For detailed steps and restrictions, review [How to change the licensing model for a SQL Server virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb).<br>
 
 ## **Recommended Documents**
 

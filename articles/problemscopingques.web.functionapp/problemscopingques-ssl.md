@@ -46,7 +46,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What domain is the SSL cert issued to?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "4",
@@ -54,7 +54,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What error are you seeing and when are you seeing it?",
 			"watermarkText": "...",
-			"required": false,
+			"required": false
 		},
 		{
 			"id": "problem_description",
