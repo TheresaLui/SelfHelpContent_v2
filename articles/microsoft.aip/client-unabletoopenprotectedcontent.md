@@ -21,7 +21,7 @@
 1. Verify that you are signed in with the correct user account that has permissions to open the protected content
 2. If you are trying to open files other than Office documents (such as files that have a file name extension of .ppdf, .pjpg, .ppng, .ptxt, or .pfile) use the Azure Information Protection viewer
 3. If you are using Office 2010 to open protected content, verify that you have the Azure Information Protection client installed
-4. Please review the below documentation to verify that you are using a supported file type with a supported application
+4. Please review the following documentation to verify that you are using a supported file type with a supported application: [Applications that support Azure Rights Management data protection](https://docs.microsoft.com/azure/information-protection/requirements-applications)
 5. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
