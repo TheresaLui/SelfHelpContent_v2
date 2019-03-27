@@ -18,7 +18,7 @@
 
 In order for automated user provisioning to work, Azure AD requires valid credentials that allow it to connect to Workday Web Services API. Further the *Test Connection* button on the **Workday to AD User Provisioning app** also validates if it is able to connect to the Azure AD Connect Provisioning Agent associated with the AD Domain. If the Azure portal is returning an error upon saving the credentials, then follow the recommended steps below.
 
-## Recommended Steps
+## **Recommended Steps**
 
 1. First, confirm that you have configured Workday Integration System User account as stated in the tutorial section [Configure integration system user in Workday](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial#configure-integration-system-user-in-workday).  
 
@@ -30,6 +30,6 @@ In order for automated user provisioning to work, Azure AD requires valid creden
 
 1. In rare cases, you may also see this error, if the password of the Integration System User changed due to tenant refresh or if the account is in locked or expired state. Please check the status of the Integration System user with your Workday administrator.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)

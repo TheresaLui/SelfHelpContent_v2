@@ -1,7 +1,7 @@
 <properties
-	pageTitle="How to setup outbound proxy for Provisioning Agent"
-	description="How to setup outbound proxy for Provisioning Agent"
-	infoBubbleText="How to setup outbound proxy for Provisioning Agent"
+	pageTitle="Cloud HR Provisioning How To"
+	description="Cloud HR Provisioning How To"
+	infoBubbleText="Cloud HR Provisioning How To"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
 	authors="cmmdesai"
@@ -14,10 +14,13 @@
 	CloudEnvironments="Public"
 />
 
-# How to setup outbound proxy for Provisioning Agent
+# Cloud HR Provisioning How To
 
+## **Recommended Steps** 
+
+**How to setup outbound HTTP Proxy for Provisioning Agent**
 If the Windows Server where you have installed the Provisioning Agent does not have direct internet connectivity, then follow the steps documented in the section [How do I configure the Provisioning Agent to use a proxy server for outbound HTTP communication?](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial#how-do-i-configure-the-provisioning-agent-to-use-a-proxy-server-for-outbound-http-communication) to setup internet connectivity using outbound proxy server.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)

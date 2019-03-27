@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Workday to AD User Provisioning does not set manager attribute value for AD user account"
-	description="Workday to AD User Provisioning does not set manager attribute value for AD user account"
-	infoBubbleText="Workday to AD User Provisioning does not set manager attribute value for AD user account"
+	pageTitle="Problems with scoping filters"
+	description="Problems with scoping filters"
+	infoBubbleText="Problems with scoping filters"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
 	authors="cmmdesai"
@@ -14,22 +14,25 @@
 	CloudEnvironments="Public"
 />
 
-# Workday to AD User Provisioning does not set manager attribute value for AD user account
+# Problems with scoping filters
 
+## **Recommended Steps**
+
+**Workday to AD User Provisioning does not set manager attribute value for AD user account**
 The Workday to AD User Provisioning job is not setting manager attribute value for AD user accounts.
 
-## Probable Cause
-
+*Probable Cause*
 There are two possible scenarios when this behavior is seen:
 
 1. The manager in Workday cannot be resolved to a corresponding AD User account because the manager is not in scope.
 1. In a multiple AD domains scenario, the manager in Workday is not present in the same domain as the user.
 
-## Recommended Solution
+*Recommended solution*
+Here is the recommended solution approaches: 
 
 1. If you have defined scoping filters, first check if the manager is in scope and it satisfies the scoping clause. If the manager does not satisfy the scoping filter, change the filter so that the manager is also in scope of the provisioning operation.
 1. If you have multiple AD domains, then the connector has a known limitation of unable to resolve cross-domain manager references.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)
