@@ -75,7 +75,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Current Owner",
             "watermarkText": "Provide the Current Owner details",
-            "required": true
+            "required": false
         },
         {
             "id": "newowner_details",
@@ -84,7 +84,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "New Owner",
             "watermarkText": "Provide the New Owner details",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
