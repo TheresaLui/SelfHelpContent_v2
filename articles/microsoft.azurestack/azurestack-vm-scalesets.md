@@ -20,11 +20,11 @@ Azure virtual machine scale sets let you create and manage a group of identical,
 
 Virtual machine scale sets are an Azure Stack compute resource. You can use them to deploy and manage a set of identical virtual machines. With all virtual machines configured in the same way, scale sets do not require pre-provisioning of virtual machines. It's easier to build large-scale services that target big compute, big data, and containerized workloads.
 
-## **Recommended steps**
+## **Recommended Steps**
 
-See the documentation for [Azure Stack Virtual Machine Scale Sets](https://docs.microsoft.com/azure/azure-stack/azure-stack-compute-add-scalesets).
+See the documentation for [Azure Stack Virtual Machine Scale Sets](https://docs.microsoft.com/azure/azure-stack/azure-stack-compute-add-scalesets)
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[What are virtual machine scale sets?](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview)<br>
-[Download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
+- [What are virtual machine scale sets?](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview)
+- [Download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
