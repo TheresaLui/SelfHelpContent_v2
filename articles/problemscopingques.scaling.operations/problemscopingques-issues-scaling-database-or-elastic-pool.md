@@ -32,8 +32,8 @@
 					"value": "Completed/Terminated",
 					"text": "Completed/Terminated"
 				},{
-			                "value: "I don't know",
-					"text": "dont_know_answer"
+			                "value: dont_know_answer
+					"text": dont_know_answer
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
