@@ -16,7 +16,7 @@
 
 # Troubleshooting Workday provisioning service issues
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Workday to AD User Provisioning goes into quarantine state over weekends**
 
