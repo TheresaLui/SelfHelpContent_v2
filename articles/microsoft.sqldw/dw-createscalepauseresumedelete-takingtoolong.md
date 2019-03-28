@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Create/Scale/Pause/Resume/Delete/taking too long"
-	description="Create/Scale/Pause/Resume/Delete"
+	pageTitle="Create/Scale/Pause/Resume/Delete operation taking too long"
+	description="Create/Scale/Pause/Resume/Delete operation taking too long"
 	service="microsoft.sql"
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
 	supportTopicIds="32635192"
 	productPesIds="15818"
-	displayOrder="2"
-	selfHelpType="generic"
+	displayOrder="109"
+	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
 	cloudEnvironments="public"
@@ -34,6 +34,7 @@ Resource Health determines the health of your SQL resource by examining the succ
 
 ## **Recommended Documents**
 
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)<br>
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)<br>
 * [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-server-level-firewall-rule)<br>
 * [Use virtual network service endpoints](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json)<br>
