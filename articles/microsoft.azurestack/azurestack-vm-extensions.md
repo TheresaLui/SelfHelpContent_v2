@@ -22,15 +22,15 @@ Azure Virtual machine (VM) extensions are small applications that provide post-d
 
 - You can view available extensions in the VM blade in the Portal, under extensions, or for the full list you can use the CLI tools:
 
-  - [Discovering VM Extensions for Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/features-linux)
-  - [Discovering VM Extensions for Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/features-windows)
+  - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
+  - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
 
-- You can view additional VM extensions available from [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
+- You can view additional VM extensions available from [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
 - Azure VM extensions can be managed using either the Azure CLI, Azure PowerShell, Azure Resource Manager templates, and the Azure portal
 - You do not need to connect to a VM directly to install or delete the extension, because the Azure extension is managed outside of the VM and integrated into the Azure platform
 
 ## **Recommended Documents**
 
-- [Download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-download-azure-marketplace-item)
-- [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-marketplace-azure-items)
-- [Azure virtual machine extensions and features](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/overview)
+- [Download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
+- [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items)
+- [Azure virtual machine extensions and features](https://docs.microsoft.com/azure/virtual-machines/extensions/overview)
