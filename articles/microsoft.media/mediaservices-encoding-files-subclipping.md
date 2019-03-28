@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Subclipping"
-	description="Subclipping"
+	pageTitle="Media Services: Subclipping and Encoding"
+	description="Media Services: Subclipping and Encoding"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Subclipping
+# Media Services: Subclipping and Encoding
 
 ## **Recommended Documents**
 
@@ -28,4 +28,4 @@
 
 **Media Services v2** (legacy)
 
-[Filters and dynamic manifests](https://docs.microsoft.com/azure/media-services/previous/media-services-dynamic-manifest-overview)
+* [Filters and dynamic manifests](https://docs.microsoft.com/azure/media-services/previous/media-services-dynamic-manifest-overview)
