@@ -36,7 +36,7 @@
 					"text": "I'm not sure"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": true
 		},
@@ -58,7 +58,7 @@
 					"text": "I'm not sure"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": true
 		},
@@ -83,7 +83,7 @@
 					"text": "Other"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "db_or_epool == Database"
 		},
