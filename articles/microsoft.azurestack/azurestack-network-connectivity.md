@@ -16,19 +16,21 @@
 
 # Resolve issues with connectivity to Azure Stack VMs
 
-see-
-
-https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection 
-
-https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection
-
+Connectivity to Azure Stack VMs can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
 
 ## **Recommended Steps**
 
-* Review load balancer service differences on [Azure Stack Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
-* Create a Basic load balancer using supported options, including [Azure Portal](https://docs.microsoft.com/azure/load-balancer/quickstart-create-basic-load-balancer-portal), [Azure CLI](https://docs.microsoft.com/azure/load-balancer/quickstart-create-basic-load-balancer-cli), or [an ARM template](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-arm-template)
-* [Configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal)
-* [View the public IP addresses that were created by tenant subscriptions](https://docs.microsoft.com/azure/azure-stack/azure-stack-viewing-public-ip-address-consumption#view-the-public-ip-addresses-that-were-created-by-tenant-subscriptions)
+* Review [Azure Stack Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences) to understand the differences from public Azure
+* Confirm the expected ports are allowed by the [Network Security Group (NSG)](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#work-with-security-rules) or [configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal)
+* For RDP connection issues for Windows VMs on Azure Stack:
+
+  * Basic: [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection#troubleshoot-using-the-azure-portal)
+  * Advanced: [Detailed troubleshooting steps for remote desktop connection issues to Windows VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
+
+* For SSH connection issues for Linux VMs on Azure Stack:
+
+  * Basic: [Troubleshoot SSH connections to an Azure Linux VM that fails, errors out, or is refused](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection)
+  * Advanced: [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection)
 
 ## **Recommended Documents**
 
