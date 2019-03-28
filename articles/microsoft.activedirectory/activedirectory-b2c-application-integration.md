@@ -4,6 +4,7 @@
 	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
+	ms.author="parja"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32633308,32633312,32633321,32633324,32633595"
