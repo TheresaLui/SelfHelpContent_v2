@@ -1,4 +1,4 @@
-
+<properties
 	pageTitle="Dependency visualization in Azure Migrate - Installing agents"
 	description="Issues and guidance regarding dependency visualization in Azure Migrate - Installing agents"
 	service="microsoft.migrate"
