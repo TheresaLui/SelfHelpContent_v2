@@ -61,5 +61,5 @@ Below is a list of additional resources and documentation that may also assist i
 * [Manage Windows PCs with Intune PC client software](https://docs.microsoft.com/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)<br>
 * [Deploy Intune client software as part of an image](https://aka.ms/jwvqq1)<br>
 * [Intune Deployment Planning, Design and Implementation Guide](https://docs.microsoft.com/intune-classic/plan-design/introduction?toc=/intune/toc.json&bc=/enterprise-mobility/toc.json)<br>
-* [Azure AD Join vs Azure AD Device Registration](https://blogs.technet.microsoft.com/trejo/2016/04/09/azure-ad-join-vs-azure-ad-device-registration)<br>
+* [Azure AD Join vs Azure AD Device Registration](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan)<br>
 * [Turn on auto-MDM enrollment with Azure Active Directory (AD) and Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/08/14/windows-10-azure-ad-and-microsoft-intune-automatic-mdm-enrollment-powered-by-the-cloud)<br>
