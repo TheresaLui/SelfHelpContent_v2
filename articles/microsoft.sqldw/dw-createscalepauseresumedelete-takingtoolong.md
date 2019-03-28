@@ -8,7 +8,7 @@
 	supportTopicIds="32635192"
 	productPesIds="15818"
 	displayOrder="2"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
 	cloudEnvironments="public"
@@ -34,6 +34,7 @@ Resource Health determines the health of your SQL resource by examining the succ
 
 ## **Recommended Documents**
 
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)<br>
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)<br>
 * [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-server-level-firewall-rule)<br>
 * [Use virtual network service endpoints](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json)<br>

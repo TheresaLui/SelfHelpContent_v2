@@ -19,4 +19,5 @@
 * [Restore a deleted database](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-database-portal#restore-a-deleted-database)
 
 ## **Recommended Documents**
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)<br>
 * [Use backup and restore in Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
