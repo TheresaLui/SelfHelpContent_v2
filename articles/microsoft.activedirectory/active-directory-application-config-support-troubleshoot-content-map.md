@@ -7,11 +7,10 @@
   ms.author="asteen"
   selfHelpType="generic"
   supportTopicIds="32570259"
-  productPesIds="14785,16575"
+  productPesIds="16575"
   cloudEnvironments="public"
   articleId="b158b5f2-616c-4aaa-9f72-e3d76845665f"
 />
-
  
 # Issues adding or configuring applications in Azure Active Directory
 
