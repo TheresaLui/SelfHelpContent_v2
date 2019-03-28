@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Resolve "Virtual Machine is Deallocated" issue"
-    description="Virtual machine is currently deallocated"
+    pageTitle="Resolve issues with a deallocated virtual machine"
+    description="Resolve issues with a deallocated virtual machine"
     infoBubbleText="The Virtual Machine is currently deallocated, please start the VM."
     service="microsoft.compute"
     resource="virtualmachines"
@@ -16,7 +16,7 @@
     cloudEnvironments="public"
 />
 
-# Virtual Machine is Deallocated
+# Resolve issues with a deallocated Virtual Machine
 
 <!--issueDescription-->
 ## **The virtual machine <!--$vmname-->[vmname]<!--/$vmname--> is currently deallocated.**
