@@ -11,7 +11,7 @@
   cloudEnvironments="public"
   articleId="b158b5f2-616c-4aaa-9f72-e3d76845665f"
 />
-
+ 
 # Issues adding or configuring applications in Azure Active Directory
 
 ## **Recommended Steps**
