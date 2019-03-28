@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Kafka Application Development"
-    description="TSG / How-to for know scenario"
+    pageTitle="Azure HDInsight Kafka Application Development Troubleshooting"
+    description="Azure HDInsight Kafka Application Development Troubleshooting"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="dhgoelmsft"
@@ -13,7 +13,8 @@
     cloudEnvironments="public"
     articleId="hdinsight-kafka-application-development"
 />
-# Azure HDInsight Kafka: Application Development
+
+# Azure HDInsight Kafka Application Development Troubleshooting
 
 ## **Recommended Documents**
 
