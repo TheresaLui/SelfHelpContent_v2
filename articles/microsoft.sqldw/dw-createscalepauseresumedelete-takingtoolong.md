@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Create/Scale/Pause/Resume/Delete/taking too long"
-	description="Create/Scale/Pause/Resume/Delete"
+	pageTitle="Create/Scale/Pause/Resume/Delete operation taking too long"
+	description="Create/Scale/Pause/Resume/Delete operation taking too long"
 	service="microsoft.sql"
 	resource="servers"
 	authors="saltug,happynicolle"
