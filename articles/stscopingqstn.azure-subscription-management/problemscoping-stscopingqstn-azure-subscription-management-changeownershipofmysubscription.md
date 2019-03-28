@@ -129,13 +129,13 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "problem_description_1",
             "visibility": "accountadmin_details1 == No && emailproof_details1 == Yes",
             "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide permission and any other details",
             "watermarkText": "Provide any additional details about the issue",
-            "required": true,
+            "required": false,
             "hints": [
                 {
                     "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
@@ -153,13 +153,13 @@
             "infoBalloonText": "Please provide all relevant details of this request including why the current Account Admin cannot provide permission and/or cannot perform themselves"
         },
         {
-            "id": "problem_description_1",
+            "id": "problem_description",
             "order": 12,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
-            "required": false
+            "required": true
         }
     ]
 }
