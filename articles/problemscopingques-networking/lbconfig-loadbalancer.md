@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="700961cc-d014-4545-be70-2069dc2e00ff"
 />
-# SLB - Configure a Load Balancer
+# SLB - Configure a Load Balancer 
 ---
 {
  "resourceRequired": true,
