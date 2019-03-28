@@ -155,7 +155,7 @@
 			"useAsAdditionalDetails": false
 		}
 	],
-	resourceRequired=true,
-	subscriptionRequired=true
+	"resourceRequired"=true,
+	"subscriptionRequired"=true
 }
 ---
