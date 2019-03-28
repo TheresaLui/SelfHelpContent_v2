@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Encode files"
-	description="Encode files"
+	pageTitle="Encode files with Media Services v3"
+	description="Encode files with Media Services v3"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Encode files
+# Encode files with Media Services v3
 
 ## **Recommended Documents**
 
