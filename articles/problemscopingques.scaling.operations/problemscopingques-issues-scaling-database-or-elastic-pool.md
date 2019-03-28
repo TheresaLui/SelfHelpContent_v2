@@ -68,7 +68,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
-			"infoBalloonText": "From which source tier did you initiate the scaling operation?",
+			"infoBalloonText": "From which service tier did you initiate the scaling operation?",
 			"dropdownOptions": [{
 					"value": "db_basic",
 					"text": "Basic or Standard(S0-S2)"
@@ -86,6 +86,53 @@
 			"required": true,
 			"useAsAdditionalDetails": false,
 			"visibility": "db_or_epool == Database"
+		},
+		{
+			"id": "db_target_tier",
+			"order": 4,
+			"controlType": "dropdown",
+			"displayLabel": "Which service tier are you trying to scale to?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "To which service tier are you attempting to scale?",
+			"dropdownOptions": [{
+					"value": "db_basic",
+					"text": "Basic or Standard(S0-S2)"
+				},{
+					"value": "db_standard",
+					"text": "Standard(S3-S12), General Purpose, or Hyperscale"
+				},{
+					"value": "db_premium",
+					"text": "Premium or Business Critical"
+				},{
+					"value": "dont_know_answer",
+					"text": "Other"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "db_or_epool == Database"
+		},
+		{
+			"id": "ongoing_database_copy_overlong",
+			"order": 5,
+			controlType": "dropdown",
+			"displayLabel": "This scaling operation involves a copy operation, which will take longer depending on the size of your database.  Has the operation taken longer than 1 minute per 1 gigabyte of data?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Is the scaling operation taking longer than 1 minute per 1 GB of your database?",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				},{
+					"value": "No",
+					"text": "No"
+				},
+					"value": "dont_know_answer",
+					"text": "I'm not sure"
+				}
+			],
+			"required": true,
+			"useAsAdditionalDetails": false,
+			"visibility": "db_source_tier == db_target_tier || db_source_tier == db_premium"
 		},
 		{
 			"id": "problem_description",
