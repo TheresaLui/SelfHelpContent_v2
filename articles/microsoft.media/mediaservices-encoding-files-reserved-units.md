@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Reserved Units"
-	description="Reserved Units"
+	pageTitle="Media Services: Scaling Reserved Units"
+	description="Media Services: Scaling Reserved Units"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,14 +15,14 @@
 	cloudEnvironments="public"
 />
 
-# Reserved Units
+# Media Services: Scaling Reserved Units
 
 ## **Recommended Documents**
 
 **Media Services v3** (latest)
 
-[Scaling media processing](https://docs.microsoft.com/azure/media-services/latest/media-reserved-units-cli-how-to)
+* [Scaling media processing](https://docs.microsoft.com/azure/media-services/latest/media-reserved-units-cli-how-to)
 
 **Media Services v2** (legacy)
 
-[Scaling Media Processing overview](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview)
+* [Scaling Media Processing overview](https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview)
