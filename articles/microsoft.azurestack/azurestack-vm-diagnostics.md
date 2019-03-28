@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Diagnostics and Performance Counters"
-    description=""
+    description="Resolve issue with Azure Stack Diagnostics and Performance Counters"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,26 +14,25 @@
     articleId="azurestack-vm-diagnostics"
 />
 
-# Azure Stack Diagnostics and Performance Counters
+# Resolve issue with Azure Stack Diagnostics and Performance Counters
 
-You can monitor your compute resources, such as VMs, or resources on our VMs.<br>
+Azure Stack provides many of the same tools as Azure public cloud for VM diagnostics. 
 
-## Azure Monitor to check compute health
+**Azure Monitor for VMs** monitors your Azure and Azure Stack virtual machines (VM) and virtual machine scale sets at scale. It analyzes the performance and health of your Windows and Linux VMs, and monitors their processes and dependencies on other resources and external processes.
 
-You can retrieve your metrics from Azure monitor on Azure Stack in the same as global Azure. You can create your measures in the portal, get them from the REST API, or query them with PowerShell or CLI.<br>
+**Azure Diagnostics Extension** helps you configure the VM to collect diagnostics data that can be used to monitor the health of your application.
 
-For the monitors for compute on Azure Stack, see [Microsoft.Compute/virtualMachines](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-supported#microsoftcomputevirtualmachines).<br>
+## Recommended Steps
 
-## Diagnostics extensions to monitor app health
+- To view default diagnostic information of a specific VM, select the VM in the Azure Stack portal, choose Diagnostic settings, and select the metrics you wish to track
+- To see more granular and VM-specific metrics, you need to [install the Azure diagnostics extension](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring#install-diagnostics-extension) on the VM, by clicking the *Enable guest-level monitoring button*
+- As Windows virtual machines boot up, the [boot diagnostic agent](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) captures screen output that can be used for troubleshooting purposes
+- To monitor sets of VMs across Azure and Azure Stack, [enable Azure Monitor for VMs running on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/vm-update-management#enable-azure-monitor-for-vms-running-on-azure-stack)
+- Review [supported metrics with Azure Monitor on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-supported) and then retrieve metrics from Azure monitor using the same steps as in Azure
 
-The Azure Diagnostics Extension helps you configure the VM to collect diagnostics data that can be used to monitor the health of your application.<br>
+## **Recommended Documents**
 
-The Azure Diagnostics extension is an agent within Azure that enables the collection of diagnostic data on a deployed application. You can use the diagnostics extension from a number of different sources. Currently supported are Azure Cloud Service (classic) Web and Worker Roles, Virtual Machines, Virtual Machine Scale sets, and Service Fabric.<br>
-
-For more information on Azure Diagnostics extension, see [What is Azure Diagnostics extension](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics).<br>
-
-## **Recommended documents**
-
-[Extensions on Azure Stack VMs](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-compute-overview#extensions)<br>
-[Azure Monitor on Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-metrics-azure-data)<br>
-[Tutorial: Monitor and update a Windows virtual machine in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-monitoring)
+- [What is Azure Diagnostics extension](https://docs.microsoft.com/azure/monitoring-and-diagnostics/azure-diagnostics).
+- [Azure Monitor on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-metrics-azure-data)
+- [Extensions on Azure Stack VMs](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-compute-overview#extensions)
+- [Tutorial: Monitor and update a Windows virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-monitoring)
