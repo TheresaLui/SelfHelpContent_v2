@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Diagnose and resolve issues with Databricks cluster creation, termination, or sizing"
 	description="Diagnose and resolve issues with Databricks cluster creation, termination, or sizing"
-	service="microsoft.Databricks"
+	service="microsoft.databricks"
 	resource="workspaces"
 	authors="mspreshah"
 	ms.author="preshah"
