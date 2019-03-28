@@ -1,6 +1,6 @@
 <properties
   pageTitle="Issues adding or configuring applications in Azure Active Directory"
-  description="Issues adding or configuring applications in Azure Active Directory""
+  description="Issues adding or configuring applications in Azure Active Directory"
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
