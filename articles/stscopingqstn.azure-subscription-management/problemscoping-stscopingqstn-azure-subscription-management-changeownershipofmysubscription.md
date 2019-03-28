@@ -154,7 +154,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
-            "required": true
+            "required": true,
 	    "hints": [
                 {
                     "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
