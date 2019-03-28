@@ -3,7 +3,7 @@
     description="Problems related to Performance Counters on Windows or Linux"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="abuckner"
+    authors="aliabuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32633005"
@@ -22,7 +22,7 @@ To resolve common issues related to Performance Counters, try the following:
 	Heartbeat
 	| summarize arg_max(TimeGenerated, *) by Computer
 ```
-2. Validate that you have [enabled the performance counter on your Log Analytics workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-performance-counters#configuring-performance-counters).
+2. Validate that you have [enabled the performance counter on your Log Analytics workspace](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-performance-counters#configuring-performance-counters).
 	* In the Azure Portal, select your **Log Analytics workspaces** > your workspace > **Advanced Settings**. Select **Data**, and click **Windows** or **Linux Performance Counters**. Confirm that your log is listed. 
 3. Restart the agent. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 	* If you are running a Linux machine: Restart the Log Analytics Agent by running `sudo /opt/microsoft/omsagent/bin/service_control restart`
@@ -39,4 +39,4 @@ To resolve common issues related to Performance Counters, try the following:
 
 ## **Recommended documents**
 
-[Windows and Linux Performance data sources in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-performance-counters)
+[Windows and Linux Performance data sources in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-performance-counters)

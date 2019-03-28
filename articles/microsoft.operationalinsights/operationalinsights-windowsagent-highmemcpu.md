@@ -4,7 +4,7 @@
     description="Windows agent is consuming high amount of memory of CPU resources"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="abuckner"
+    authors="aliabuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612489"
@@ -22,7 +22,7 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 
 * Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 
-* [Clear the agent cache](https://docs.microsoft.com/en-us/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
+* [Clear the agent cache](https://docs.microsoft.com/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
 	1. In the **Monitoring** workspace, expand **Operations Manager** and then expand **Agent Details**.
 	2. Click **Agent Health State**.
 	3. In **Agent State**, select an agent.
@@ -36,10 +36,10 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 	4. Rename the folder **Health Service State** to **Old Health Service State**
 	5. In the Administrative Command Prompt, run `Net Start Health Service`
 
-* [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
+* [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
 	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service."
 
-* If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
+* If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**
 	3. Select **Microsoft Monitoring Agent** and then click the **Proxy Settings** tab
@@ -47,11 +47,11 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 
 * If you do not have the latest version of the agent:
 	* If you are running an Azure VM with the Log Analytics VM Extension: in the **Azure Portal**, select your workspace, click **Virtual machines**, and select the machine which is crashing. Click **Disconnect**. When the disconnect is complete, click **Connect** to reinstall the latest agent/extension. 
-	* If you are not using an extension or you are using an on-prem machine: [Uninstall the current agent version](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#uninstall-agent), then [install the latest Log Analytics Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard) directly on the VM.
+	* If you are not using an extension or you are using an on-prem machine: [Uninstall the current agent version](https://docs.microsoft.com/azure/azure-monitor/platform/agent-manage#uninstall-agent), then [install the latest Log Analytics Agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard) directly on the VM.
 
 ## **Recommended documents**
 
-[Installing the Windows Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows) <br>
-[Troubleshooting the Windows VM Extension](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/vmext-troubleshoot#troubleshooting-azure-windows-vm-extension) <br>
-[Powershell Installation of Windows Agent Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/oms-windows#powershell-deployment) <br>
-[Powershell Removal of Windows Agent Extension](https://docs.microsoft.com/en-us/powershell/module/azurerm.compute/remove-azurermvmextension?view=azurermps-6.13.0)
+[Installing the Windows Agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) <br>
+[Troubleshooting the Windows VM Extension](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot#troubleshooting-azure-windows-vm-extension) <br>
+[Powershell Installation of Windows Agent Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-windows#powershell-deployment) <br>
+[Powershell Removal of Windows Agent Extension](https://docs.microsoft.com/powershell/module/azurerm.compute/remove-azurermvmextension?view=azurermps-6.13.0)

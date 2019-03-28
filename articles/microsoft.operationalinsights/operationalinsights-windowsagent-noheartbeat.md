@@ -4,7 +4,7 @@
     description="Windows agent is not reporting heartbeat or other data"
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
-    authors="abuckner"
+    authors="aliabuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612463"
@@ -16,13 +16,13 @@
 # Windows Agent: Not reporting data or Heartbeat data missing
 
 ## **Recommended steps**
-First verify that you are running a [supported version of the Windows OS](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/log-analytics-agent#supported-windows-operating-systems). <br>
+First verify that you are running a [supported version of the Windows OS](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent#supported-windows-operating-systems). <br>
 
 In the case that the agent has ***never*** sent any data, or has stopped sending ***all*** data, try the following: 
 
-* [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
+* [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
 	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service." 
-* If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
+* If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**
 	3. Select **Microsoft Monitoring Agent** and then click the **Proxy Settings** tab
@@ -31,7 +31,7 @@ In the case that the agent has ***never*** sent any data, or has stopped sending
 
 If the agent is reporting ***some*** data, but not all, try the following:
 
-* [Clear the agent cache](https://docs.microsoft.com/en-us/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
+* [Clear the agent cache](https://docs.microsoft.com/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
 	1. In the **Monitoring** workspace, expand **Operations Manager** and then expand **Agent Details**.
 	2. Click **Agent Health State**.
 	3. In **Agent State**, select an agent.
@@ -46,5 +46,5 @@ If the agent is reporting ***some*** data, but not all, try the following:
 
 ## **Recommended documents**
 
-[Installing the Windows Agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows) <br>
-[Troubleshooting the Windows VM Extension](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/vmext-troubleshoot#troubleshooting-azure-windows-vm-extension) <br>
+[Installing the Windows Agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) <br>
+[Troubleshooting the Windows VM Extension](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot#troubleshooting-azure-windows-vm-extension) <br>
