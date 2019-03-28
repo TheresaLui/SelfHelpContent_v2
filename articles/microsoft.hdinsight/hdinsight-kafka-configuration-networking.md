@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Kafka Configuration and Netrowking"
-    description="TSG / How-to for know scenario"
+    pageTitle="Kafka Configuration and Networking"
+    description="Azure HDInsight Kafka: Configuration and Networking"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="dhgoelmsft"
