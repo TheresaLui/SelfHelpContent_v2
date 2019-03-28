@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-- If you are having issues with service admin or co-admins, see the recommended documents.
+- If you are having issues with Service administrator or Co-administrators, see the recommended documentation.
 
 ## **Recommended Documents**
 
