@@ -9,7 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="problemscopingques-scalingissues"
-	subscriptionRequired="false"
+	subscriptionRequired=false
 />
 
 # Issues Scaling a Database or Elastic Pool
@@ -133,7 +133,7 @@
 			],
 			"required": true,
 			"useAsAdditionalDetails": false,
-			"visibility": "db_source_tier == db_target_tier || db_source_tier == db_premium"
+			"visibility": "db_target_tier == db_premium || db_source_tier == db_premium || db_source_tier == db_basic && db_target_tier == db_standard || db_source_tier == db_standard && db_target_tier == db_basic"
 		},
 		{
 			"id": "problem_description",
