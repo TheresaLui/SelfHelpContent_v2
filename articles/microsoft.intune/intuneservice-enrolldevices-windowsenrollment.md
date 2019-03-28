@@ -55,7 +55,7 @@ Below is a list of additional resources and documentation that may also assist i
 * [Review Intune TechNet to find answers and solutions to common issues](https://aka.ms/intuneforums)<br>
 * [Enroll Windows devices](https://docs.microsoft.com/intune/windows-enroll)<br>
 * [Turn on auto-MDM enrollment with Azure Active Directory (AD) and Microsoft Intune](https://blogs.technet.microsoft.com/enterprisemobility/2015/08/14/windows-10-azure-ad-and-microsoft-intune-automatic-mdm-enrollment-powered-by-the-cloud/)<br>
-* [Mobile Device Enrollment scenarions not supported](https://aka.ms/buvm2o)<br>
+* [Mobile Device Enrollment scenarios not supported](https://aka.ms/buvm2o)<br>
 * [Choose how to manage devices](https://docs.microsoft.com/intune/get-started/choose-how-to-manage-devices)<br>
 * [Enrolling Windows PCs as mobile devices](https://aka.ms/tboly1)<br>
 * [Manage Windows PCs with Intune PC client software](https://docs.microsoft.com/intune/deploy-use/manage-windows-pcs-with-microsoft-intune)<br>
