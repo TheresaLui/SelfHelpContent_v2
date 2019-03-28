@@ -5,7 +5,7 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
-	displayOrder=""
+	displayOrder="15"
 	selfHelpType="resource"
 	supportTopicIds="32628269,32628280,32628287"
 	resourceTags="linux, redhat, Ubuntu"
