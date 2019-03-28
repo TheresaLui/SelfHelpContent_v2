@@ -16,9 +16,9 @@
 # Windows Agent: Running high memory or CPU
 
 ## **Recommended steps**
-If you notice that the Log Analytics agent for Windows is consuming a high amount of memory or CPU resources, try the following: 
+**Note:** Adding certain solutions to your workspace will result in increased workload for the agent. It is normal for the agent to continue to run high memory and/or CPU for up to 30 minutes following such events. 
 
-**Note:** Adding certain solutions to your workspace will result in n increased workload for the agent. It is normal for the agent to continue to run high memory and CPU for up to 30 minutes following such events. 
+If you notice that the Log Analytics agent for Windows is consuming a high amount of memory or CPU resources, try the following: 
 
 * Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 * [Clear the agent cache](https://docs.microsoft.com/en-us/system-center/scom/manage-clear-healthservice-cache?view=sc-om-2019#to-clear-the-cache)
@@ -33,9 +33,8 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 	3. Go to this location: `Microsoft Monitoring Agent\Agent`
 	4. Rename the folder **Health Service State** to **Old Health Service State**
 	5. In the Administrative Command Prompt, run `Net Start Health Service`
-
 * [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
-	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service". 
+	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service."
 * If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**

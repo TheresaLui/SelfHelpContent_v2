@@ -21,13 +21,13 @@ First verify that you are running a [supported version of the Windows OS](https:
 In the case that the agent has ***never*** sent any data, or has stopped sending ***all*** data, try the following: 
 
 * [Verify agent connectivity to Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#verify-agent-connectivity-to-log-analytics). 
-	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: **The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service**. 
+	* From the computer in **Control Panel**, find the item **Microsoft Monitoring Agent**. Select it and on the **Azure Log Analytics** tab, the agent should display a message stating: "The Microsoft Monitoring Agent has successfully connected to the Microsoft Operations Management Suite Service." 
 * If the agent has not successfully connected to Log Analytics, ensure that you have [properly configured your proxy settings](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-manage#windows-agent-1). 
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**
 	3. Select **Microsoft Monitoring Agent** and then click the **Proxy Settings** tab
 	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and [assword to authenticate and then click **OK**. 
-* Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: 'net stop healthservice' followed by 'net start healthservice'. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
+* Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 
 If the agent is reporting ***some*** data, but not all, try the following:
 

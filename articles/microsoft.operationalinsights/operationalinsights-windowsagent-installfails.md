@@ -26,7 +26,7 @@ To resolve common installation errors, try the following:
 3. Log into the machine with appropriate privileges to add and remove software. Click on the Windows start button and type "Add or Remove Programs". If the **Microsoft Monitoring Agent** is listed, click it, and choose **Uninstall**.
 4. Open File Explorer and Navigate to `c:\Program Files` or `c:\Program Files(x86)`
 5. Rename the folder “Microsoft Monitoring Agent” to “Old Microsoft Monitoring Agent”
-6. Then install the [Windows 64-bit agent](https://go.microsoft.com/fwlink/?LinkId=828603) or the [Windows 32-bit agent](https://go.microsoft.com/fwlink/?LinkId=828604), using your workspace id and key, and follow the steps given by the Installation Wizard. 
+6. Install the [Windows 64-bit agent](https://go.microsoft.com/fwlink/?LinkId=828603) or the [Windows 32-bit agent](https://go.microsoft.com/fwlink/?LinkId=828604) using your workspace id and key, and follow the steps given by the Installation Wizard. 
 7. If you are trying to install the Log Analytics Extension on an Azure VM, try re-clicking **Connect**
 
 
