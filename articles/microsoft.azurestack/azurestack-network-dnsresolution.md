@@ -14,7 +14,7 @@
     articleId="azurestack-network-dnsresolution"
 />
 
-# Resolve issues with Azure Stack DNS resolution
+# Resolve issues with Azure Stack VM DNS resolution
 
 By default, tenant VMs deployed in Azure Stack will have name resolution for other VMs within the same Virtual Network (VNet), as well as external addresses on the internet.
 
