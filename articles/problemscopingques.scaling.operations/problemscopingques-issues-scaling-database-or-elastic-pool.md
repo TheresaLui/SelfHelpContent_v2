@@ -9,8 +9,6 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="problemscopingques-scalingissues"
-	resourceRequired="true"
-	subscriptionRequired="true"
 />
 
 # Issues Scaling a Database or Elastic Pool
@@ -156,6 +154,8 @@
 			"required": true,
 			"useAsAdditionalDetails": false
 		}
-	]
+	],
+	resourceRequired=true,
+	subscriptionRequired=true
 }
 ---
