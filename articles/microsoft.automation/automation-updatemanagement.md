@@ -7,12 +7,11 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    page-title-update
     supportTopicIds="32599861,32599864,32615228,32599903,32615227,32599924,32615229,32599936,32599937"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
-	articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
+    articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
 
 # Resolve Update Management issues with Azure Automation
