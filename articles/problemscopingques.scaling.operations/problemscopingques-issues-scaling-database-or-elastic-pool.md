@@ -1,22 +1,9 @@
-<properties
-	pageTitle="Issues Scaling a Database or Elastic Pool"
-	description="Issues Scaling a Database or Elastic Pool"
-	authors="Johirsch"
-	ms.author="Johirsch"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630431"
-	productPesIds="13491"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="problemscopingques-scalingissues"
-/>
-
-# Issues Scaling a Database or Elastic Pool
----
 {
 	"resourceRequired": true,
 	"title": "Issues Scaling a Database or Elastic Pool",
 	"fileAttachmentHint": "",
+	"resourceRequired": true,
+	"subscriptionRequired": true,
 	"formElements": [
 	{
 			"id": "ongoing_or_completed_updateslo",
@@ -154,8 +141,5 @@
 			"required": true,
 			"useAsAdditionalDetails": false
 		}
-	],
-	"resourceRequired"=true,
-	"subscriptionRequired"=true
+	]
 }
----
