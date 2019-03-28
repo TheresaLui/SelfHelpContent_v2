@@ -19,7 +19,8 @@
 ## **Recommended steps**
 To resolve common issues related to Performance Counters, try the following:
 
-1. Ensure that the agent shows a health connection to the workspace. Run the below query in your workspace to see if the machine in question shows a recent heartbeat. If no heartbeat is found, please file a ticket under "Windows Agent" for "heartbeat data missing" and follow the recommended steps. <br>
+1. Ensure that the agent shows a health connection to the workspace. Run the below query in your workspace to see if the machine in question shows a recent heartbeat. If no heartbeat is found, please file a ticket under "Windows Agent" for "heartbeat data missing" and follow the recommended steps.
+
 ```
 	Heartbeat
 	| summarize arg_max(TimeGenerated, *) by Computer
