@@ -47,7 +47,7 @@ Use the following information sources to troubleshoot provisioning errors.<br>
 
 ### Timeouts
 
-You can use the [Azure Resource Explorer](https://resources.azure.com) to easily view JSON responses from API requests on your Azure resources, such as to see the timeout messages. This tool provides an interactive way to make API calls directly in your own subscriptions.<br>
+You can use the [Azure Resource Explorer](https://azure.microsoft.com/en-us/blog/azure-resource-explorer-a-new-tool-to-discover-the-azure-api/) to easily view JSON responses from API requests on your Azure resources, such as to see the timeout messages. This tool provides an interactive way to make API calls directly in your own subscriptions.<br>
 
 In the hierarchy in the left panel, navigate to the instance view of your virtual machine: **subscriptions** > *your subscription* > **resourceGroups** > *your resource group* > **providers** > **Microsoft.Compute** > **virtualMachines** > *your vm name* > **instanceView**.<br>  
 
@@ -79,8 +79,6 @@ You can check the agent (also known as the guest agent) status and its version i
 - Is the agent installed?
 - Is the agent able to send or receive heart beats from the fabric?
 - Is there any other error or warning related to the agent or OS?<br>
-
-You can monitor the deployment of [Windows Agent](https://aka.ms/vmagentrollout) to determine current versions and their availability in the regions.
 
 You can also examine the contents of the `WaAppAgent.log' file`(`C:\WindowsAzure\Logs`) file for `WARN` and `ERROR` messages according to their timestamps.<br>
 
