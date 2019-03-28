@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Virtual Machines for User Environment"
-    description="Deploying Virtual Machines in Azure Stack"
+    pageTitle="Issues Deploying Virtual Machines in Azure Stack"
+    description="Issues Deploying Virtual Machines in Azure Stack"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,7 +14,7 @@
     articleId="azurestack-vm-deploy"
 />
 
-# Azure Stack  
+# Issues Deploying Virtual Machines in Azure Stack
 
 Azure Stack offers you virtual machines (VMs) as one type of an on-demand, scalable computing resource. You can choose a VM when you need more control over the computing environment than the other choices.
 
