@@ -29,5 +29,5 @@ Azure Stack has the ability to change the size of your VM based on the needs for
 
 - [Restarting or resizing a VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/restart-resize-error-troubleshooting)
 - [Troubleshooting Azure virtual machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/)
-[Troubleshoot Device Name Problems](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-device-names-problems)
+- [Troubleshoot Device Name Problems](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-device-names-problems)
 - [Considerations for using virtual machines in Azure Stack ](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-vm-considerations)
