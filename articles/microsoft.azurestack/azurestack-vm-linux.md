@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack Linux-Based virtual machines"
-    description="Issues with Linux-based virtual machines"
+    description="Resolve Issues with Linux-based virtual machines for Azure Stack"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,13 +14,13 @@
     articleId="azurestack-vm-linux"
 />
 
-# Azure Stack Linux-Based Virtual Machines
+# Resolve Issues with Linux-based virtual machines for Azure Stack
 
 You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-based image into the Azure Stack Marketplace. The easiest way to add a Linux image to Azure Stack is through Marketplace Management. Wherever possible, download the images available through Marketplace Management which have been prepared and tested for Azure Stack.
 
 ## **Recommended Steps**
 
-1. Add Linux images from the Azure Marketplace, by using steps to [download marketplace items from Azure to Azure Stack.](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
+1. Add Linux images from the Azure Marketplace, by using steps to [download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
 2. If required, you can prepare your own Linux image using steps to [create a custom image](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-generic), and additional steps for supported distributions, such as:
 
     - [CentOS-based Distributions](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-centos)
