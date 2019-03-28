@@ -16,11 +16,11 @@
 
 # Azure Stack virtual machine (VM) extensions
 
-Azure Virtual machine (VM) extensions are small applications that provide post-deployment configuration and automation tasks on Azure VMs. You can use existing marketplace images, and then customize them with extensions as part of your deployments.
+Azure Virtual Machine (VM) extensions are small applications that provide post-deployment configuration and automation tasks on Azure VMs. They allow you to use existing marketplace images, and then customize them with extensions as part of your deployments.
 
 ## **Recommended Steps**
 
-- You can view available extensions in the VM blade in the Portal, under extensions, or for the full list you can use the CLI tools:
+- You can view the available extensions in the VM blade in the Azure Stack Portal, under extensions, or for the full list you can use the CLI tools:
 
   - [Discovering VM Extensions for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)
   - [Discovering VM Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)
