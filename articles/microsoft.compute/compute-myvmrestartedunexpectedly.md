@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly"
+	pageTitle="Resolve issues with an unexpected VM restart"
+	description="Resolve issues with an unexpected VM restart"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -14,7 +14,7 @@
 	articleId="64c0a2f3-0fe4-4eed-a2d2-3218f58cde19"
 />
 
-# My VM restarted unexpectedly
+# Resolve issues with an unexpected VM restart
 
 4 out of 5 customers resolved their VM restart issue using the steps below.<br>
 

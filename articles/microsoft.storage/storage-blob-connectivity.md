@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="How to troubleshoot blob connectivity error(s)"
-	description="How to troubleshoot blob connectivity error(s)"
+	pageTitle="Troubleshoot and resolve Azure Blob Storage connectivity errors"
+	description="Troubleshoot and resolve Azure Blob Storage connectivity errors"
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
@@ -13,9 +13,9 @@
 	articleId="8a31eced-24b8-4bb8-959c-942ee038b006"
 />
 
-# How to troubleshoot blob connectivity error(s)
+# Troubleshoot and resolve Azure Blob Storage connectivity errors
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [List of Blob Service Error Codes](https://docs.microsoft.com/rest/api/storageservices/blob-service-error-codes)<br>
 - [The client is receiving HTTP 403 (Forbidden) messages](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#the-client-is-receiving-403-messages)<br>

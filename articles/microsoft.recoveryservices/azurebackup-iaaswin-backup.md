@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Backup of Windows Azure virtual machine fails"
-	description="Top issues causing Windows Azure virtual machine backup failures"
+	pageTitle="Diagnose and resolve issues with Windows Azure virtual machine backup"
+	description="Diagnose and resolve issues with Windows Azure virtual machine backup"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
@@ -14,7 +14,7 @@
 	articleId="79088548-2aa6-44f1-8f3c-25df1e8e92bf"
 />
 
-# Backup of Windows Azure Virtual Machine fails
+# Diagnose and resolve issues with Windows Azure virtual machine backup
 
 ## **Recommended Steps**
 

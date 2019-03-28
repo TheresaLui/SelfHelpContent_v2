@@ -1,6 +1,6 @@
 <properties
-	pageTitle="My VM is slow"
-	description="My VM is slow"
+	pageTitle="Diagnose and resolve Virtual Machine performance issues"
+	description="Diagnose and resolve Virtual Machine performance issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -14,7 +14,7 @@
 	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
 />
 
-# My VM is slow
+# Diagnose and resolve Virtual Machine performance issues
 
 Try the following steps to diagnose and mitigate VM performance issues.<br>
 

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configurationandsetup/issuesconfiguringvnetpeering"
-	description="configurationandsetup/issuesconfiguringvnetpeering"
+	pageTitle="Diagnose and troubleshoot VNet Peering issues"
+	description="Diagnose and troubleshoot VNet Peering issues"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavinahar"
@@ -14,11 +14,11 @@
 	articleId="57463"
 />
 
-# configurationandsetup/issuesconfiguringvnetpeering
+# Diagnose and troubleshoot VNet Peering issues
 
 ## **Recommended Steps**
 
-1. Walk through our [step-by-step Troubleshooter for VNet Peering](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+* Walk through our [step-by-step Troubleshooter for VNet Peering](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
 
 ## **Recommended Documents**
 

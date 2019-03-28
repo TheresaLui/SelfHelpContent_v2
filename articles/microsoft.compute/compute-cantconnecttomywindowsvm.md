@@ -1,6 +1,6 @@
 ﻿<properties
-    pageTitle="I can't connect to my Windows VM"
-    description="I can't connect to my Windows VM"
+    pageTitle="Resolve connection issue with your Windows VM"
+    description="Resolve connection issue with your Windows VM"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ram-kakani,timbasham,scottazure"
@@ -14,7 +14,7 @@
 	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
 />
 
-# I can't connect to my Windows VM
+# Resolve connection issue with your Windows VM
 
 4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
