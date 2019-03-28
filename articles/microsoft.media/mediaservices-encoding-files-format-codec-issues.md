@@ -1,6 +1,6 @@
 <properties
 	pageTitle="File format or codec issues"
-	description="File format or codec issues"
+	description="Media Services File format or codec issues"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,14 +15,14 @@
 	cloudEnvironments="public"
 />
 
-# File format or codec issues
+# Media Services file format or codec issues
 
 ## **Recommended Documents**
 
 **Media Services v3** (latest)
 
-[Media Encoder Standard formats and codecs](https://docs.microsoft.com/azure/media-services/latest/media-encoder-standard-formats)<br>
+* [Media Encoder Standard formats and codecs](https://docs.microsoft.com/azure/media-services/latest/media-encoder-standard-formats)<br>
 
 **Media Services v2** (legacy)
 
-[Media Encoder Standard Formats and Codecs](https://docs.microsoft.com/azure/media-services/previous/media-services-media-encoder-standard-formats)
+* [Media Encoder Standard Formats and Codecs](https://docs.microsoft.com/azure/media-services/previous/media-services-media-encoder-standard-formats)
