@@ -7,7 +7,7 @@
 	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32589558,32584249"
+	supportTopicIds="32592932"
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
