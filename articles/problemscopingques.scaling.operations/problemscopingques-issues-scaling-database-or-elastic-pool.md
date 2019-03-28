@@ -115,7 +115,7 @@
 		{
 			"id": "ongoing_database_copy_overlong",
 			"order": 5,
-			controlType": "dropdown",
+			"controlType": "dropdown",
 			"displayLabel": "This scaling operation involves a copy operation, which will take longer depending on the size of your database.  Has the operation taken longer than 1 minute per 1 gigabyte of data?",
 			"watermarkText": "Choose an option",
 			"infoBalloonText": "Is the scaling operation taking longer than 1 minute per 1 GB of your database?",
@@ -125,7 +125,7 @@
 				},{
 					"value": "No",
 					"text": "No"
-				},
+				},{
 					"value": "dont_know_answer",
 					"text": "I'm not sure"
 				}
