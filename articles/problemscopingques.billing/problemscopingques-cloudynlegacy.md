@@ -13,7 +13,7 @@
 # Cloudyn Legacy
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Cloudyn Legacy",
     "fileAttachmentHint": "",
     "formElements": [

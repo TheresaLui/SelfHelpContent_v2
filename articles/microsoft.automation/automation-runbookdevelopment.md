@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599859,32599862,32599904,32599905,32599922,32628016,32628015"
+    supportTopicIds="32599859,32599862,32599904,32599905"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -21,14 +21,14 @@ Here are some common issues when creating new runbooks for use with Azure Automa
 
 Specific problems and their solutions are listed below, but we highly recommend you try these this first:
 
-* Try running the runbook locally before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation. See ["My runbook fails but works when run locally" ](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails)
+* Try [executing the runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
 
 **Runbook fails with "Command not found" or "Cannot bind parameter" message**
 
-* You may need to [update the Azure modules in your automation account](https://docs.microsoft.com/azure/automation/automation-update-azure-modules).
-* If running locally or on a hybrid worker, ensure the machine running the scripts has the same modules versions as your Automation Account by running Get-Module -ListAvailable 
+* You may need to [update the Azure modules in your automation account](https://docs.microsoft.com/azure/automation/automation-update-azure-modules)
+* If running locally or on a hybrid worker, ensure the machine running the scripts has the same modules versions as your Automation Account by running `Get-Module -ListAvailable`
 
-**Runbook fails with "The subscription cannot be found"**
+**Runbook fails with error "The subscription cannot be found"**
 
 * This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription). 
 
@@ -38,7 +38,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 **"Your azure credentials have not been set up or have expired, please run connect-azureRmAccount to set up your azure credentials"**
 
-* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account)
+* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
 
 **Runbook fails with "No permission" or some variation**
 
