@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Profiles or custom profiles"
-	description="Profiles or custom profiles"
+	pageTitle="Media Services: Profiles or custom profiles"
+	description="Media Services: Profiles or custom profiles"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Profiles or custom profiles 
+# Media Services: Profiles or custom profiles 
 
 ## **Recommended Documents**
 
