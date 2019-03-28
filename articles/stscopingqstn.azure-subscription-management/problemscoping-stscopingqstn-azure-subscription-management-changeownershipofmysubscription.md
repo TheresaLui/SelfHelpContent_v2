@@ -136,11 +136,6 @@
             "displayLabel": "Provide permission and any other details",
             "watermarkText": "Provide any additional details about the issue",
             "required": false,
-            "hints": [
-                {
-                    "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
-                }
-            ]
         },
         {
             "id": "problem_description_2",
@@ -160,6 +155,11 @@
             "displayLabel": "Additional Details (if any)",
             "watermarkText": "Provide any additional details about the issue",
             "required": true
+	    "hints": [
+                {
+                    "text": "Note: Provide written (email) permission from the current Account Administrator as an attachment to the case in the file upload below"
+                }
+            ]
         }
     ]
 }
