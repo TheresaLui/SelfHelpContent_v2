@@ -22,6 +22,6 @@
 
 ## **Recommended Documents**
 
-* [VNet Peering Frequently Asked Questions](hhttps://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)<br>
+* [VNet Peering Frequently Asked Questions](https://docs.microsoft.com/azure/virtual-network/virtual-networks-faq#vnet-peering)<br>
 * [VNet Peering overview](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview)<br>
 * Learn about the [VNet Peering requirements and constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints)<br>

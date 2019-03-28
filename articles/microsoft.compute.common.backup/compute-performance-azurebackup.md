@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Resolve issues with Azure Backup Performance"
-	description="Azure Backup - Performance"
+	description="Resolve issues with Azure Backup Performance"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -22,16 +22,16 @@
 
 1. Read and understand the online guidance:
 
-- [Prepare to back up Azure VMs](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)<br>
+- [Prepare to backup Azure VMs](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)<br>
 - [Plan your VM backup infrastructure in Azure](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction)<br>
-- [Back up Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
-- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
+- [Backup Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
+- [Backup and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 - [Enable backup during Azure virtual machine creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)<br>
 - [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability)<br>
 - [Manage Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br>
 - [Monitor alerts for Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms)<br>
 - [Use the Azure portal to restore virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)<br>
-- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
+- [Backup and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 - [Restore Key Vault key and secret for encrypted VMs using Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-key-secret)
 
 2. Troubleshoot Azure Backup issues by reviewing the top issues customers are encountering:
