@@ -20,7 +20,6 @@ Connectivity to Azure Stack VMs can be affected by networking issues in the Azur
 
 ## **Recommended Steps**
 
-* Review [Azure Stack Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences) to understand the differences from public Azure
 * Confirm the expected ports are allowed by the [Network Security Group (NSG)](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#work-with-security-rules) or [configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal)
 * For RDP connection issues for Windows VMs on Azure Stack:
 

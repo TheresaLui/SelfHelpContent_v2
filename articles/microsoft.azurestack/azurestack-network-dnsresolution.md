@@ -20,7 +20,7 @@ By default, tenant VMs deployed in Azure Stack will have name resolution for oth
 
 When resources deployed in virtual networks need to resolve domain names to internal IP addresses, they can use one of two methods:
 
-**Azure-provided name resolution** for VMs and role instances that reside within the same virtual network or cloud service.
+**Azure-provided name resolution** for public Internet addresses, and for VMs and role instances that reside within the same virtual network or cloud service.
 
 **Name resolution that uses your own DNS server** to support additional scenarios, such as:
 
