@@ -37,10 +37,8 @@ If the agent is reporting ***some*** data, but not all, try the following:
 	3. In **Agent State**, select an agent.
 	4. In the **Tasks** pane, click **Flush Health Service State and Cache**.
 	5. Wait a few minutes, and try querying again for your desired data
-
-
 * Force a fresh configuration
-	1. Start an Administrative Command Prompt and run `Net Stop HealthService`
+	1. Start an Administrative Command Prompt and run 'Net Stop HealthService'
 	2. Start File Explorer and navigate to `C:\Program Files` or `C:\Program Files(x86)`
 	3. Go to this location: `Microsoft Monitoring Agent\Agent`
 	4. Rename the folder **Health Service State** to **Old Health Service State**
