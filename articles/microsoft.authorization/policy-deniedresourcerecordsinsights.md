@@ -11,6 +11,7 @@
     selfHelpType="diagnostics"
     supportTopicIds="32599711,32599712,32599713"
     productPesIds="16456"
+    cloudEnvironments="public"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"
 />
 
@@ -26,7 +27,7 @@ Here is a list of the policy violations:
 
 * [How frequently does Compliance evaluation run?](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#evaluation-triggers)
 * [Trigger the re-evaluation](https://docs.microsoft.com/azure/governance/policy/how-to/getting-compliance-data#on-demand-evaluation-scan)
-* [Create a custom policy definition](https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-custom-policy-definition)
+* [Create a custom policy definition](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition)
 * [Troubleshooting a policy definition](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance)
 * [Policy definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
