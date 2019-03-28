@@ -7,7 +7,7 @@
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32632952"
+	supportTopicIds="32454920"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
