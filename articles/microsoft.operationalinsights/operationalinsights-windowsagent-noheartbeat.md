@@ -5,12 +5,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612463"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="ef27edc9-33f4-4e95-9a69-a22050c84cf7"
 />
 
 # Windows Agent: Not reporting data or Heartbeat data missing

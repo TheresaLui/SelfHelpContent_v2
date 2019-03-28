@@ -4,12 +4,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32633010"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="4b926241-7932-4f07-8f7b-1b2b46bda2ed"
 />
 
 # Monitoring VMs: Windows Events

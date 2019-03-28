@@ -5,12 +5,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612437"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="730cdcc1-27bf-468d-9308-8d10819010e7"
 />
 
 # Windows Agent: Cannot uninstall agent
@@ -24,7 +26,7 @@ To resolve common uninstallation errors, try the following:
 	* If the above fails, in the **Azure Portal**, click the **Virtual machines** blade and select your virtual machine. Then click on the **Extensions** blade. Uninstall the **MicrosoftMonitoringAgent**
 	* If both of the above fail, [use Powershell to Remove the agent extension](https://docs.microsoft.com/powershell/module/azurerm.compute/remove-azurermvmextension?view=azurermps-6.13.0)
 * Uninstall Windows Log Analytics Agent via Control Panel
-	1. Log onto the machine with appropriate priveleges to add and remove software
+	1. Log onto the machine with appropriate privileges to add and remove software
 	2. Click on the Windows start button and type "Add Remove Programs"
 	3. Locate **Microsoft Monitoring Agent**, click it, and choose **Uninstall**
 

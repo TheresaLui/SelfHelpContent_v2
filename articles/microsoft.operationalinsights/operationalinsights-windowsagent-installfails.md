@@ -5,12 +5,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612469"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="627dfbb1-a3f4-4f86-9562-4636370b9106"
 />
 
 # Windows Agent: Installation fails

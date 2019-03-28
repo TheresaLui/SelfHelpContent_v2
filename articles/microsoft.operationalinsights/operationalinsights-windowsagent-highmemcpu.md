@@ -5,12 +5,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32612489"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="679eb12d-b48f-4ccd-b3ff-fe75d244bf75"
 />
 
 # Windows Agent: Running high memory or CPU
@@ -43,7 +45,7 @@ If you notice that the Log Analytics agent for Windows is consuming a high amoun
 	1. Sign on the computer with an account that has administrative rights.
 	2. Open **Control Panel**
 	3. Select **Microsoft Monitoring Agent** and then click the **Proxy Settings** tab
-	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and [assword to authenticate and then click **OK**. 
+	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and password to authenticate and then click **OK**. 
 
 * If you do not have the latest version of the agent:
 	* If you are running an Azure VM with the Log Analytics VM Extension: in the **Azure Portal**, select your workspace, click **Virtual machines**, and select the machine which is crashing. Click **Disconnect**. When the disconnect is complete, click **Connect** to reinstall the latest agent/extension. 

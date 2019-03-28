@@ -4,12 +4,14 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32633008"
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="f007d6a8-45ed-46d5-a7bb-a543d07d7393"
 />
 
 # Monitoring VMs: Syslog

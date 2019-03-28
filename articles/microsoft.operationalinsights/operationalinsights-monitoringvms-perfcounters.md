@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="c56fa34c-f9e3-4a6b-ab81-af9193df342c"
 />
 
 # Monitoring VMs: Performance Counters
@@ -35,7 +36,7 @@ To resolve common issues related to Performance Counters, try the following:
 		3. Go to this location: `Microsoft Monitoring Agent\Agent`
 		4. Rename the folder **Health Service State** to **Old Health Service State**
 		5. In the Administrative Command Prompt, run `Net Start Health Service`
-4. Wait a few minutes, and [query your workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-performance-counters#log-queries-with-performance-records) to check if Event data is now being Collected. 
+4. Wait a few minutes, and [query your workspace](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-performance-counters#log-queries-with-performance-records) to check if Event data is now being Collected. 
 
 ## **Recommended documents**
 
