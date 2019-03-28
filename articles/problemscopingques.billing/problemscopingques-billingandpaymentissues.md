@@ -14,62 +14,66 @@
 # Billing and Payment Issues
 ---
 {
-  "resourceRequired": false,
-  "title": "Issues with Billing and Payment",
-  "fileAttachmentHint": "",
-  "formElements": [
-    {
-      "id": "problem_start_time",
-      "order": 1,
-      "controlType": "datetimepicker",
-      "displayLabel": "Problem Start Date",
-      "required": true
-    },
-    {
-      "id": "subscriptionid_details",
-      "order": 2,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide your Subscription ID",
-      "required": true
-    },
-    {
-      "id": "payment_method",
-      "order": 3,
-      "controlType": "dropdown",
-      "displayLabel": "Choose the type of Payment Method",
-      "watermarkText": "Choose the type of Payment Method",
-      "dropdownOptions": [
+    "resourceRequired": false,
+    "title": "Issues with Billing and Payment",
+    "fileAttachmentHint": "",
+    "formElements": [
         {
-          "value": "Invoice",
-          "text": "Invoice"
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem Start Date",
+            "required": true
         },
         {
-          "value": "Credit Card",
-          "text": "Credit Card"
+            "id": "subscriptionid_details",
+            "order": 2,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription ID",
+            "required": true
+        },
+        {
+            "id": "payment_method",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Choose the type of Payment Method",
+            "watermarkText": "Choose the type of Payment Method",
+            "dropdownOptions": [
+                {
+                    "value": "Invoice",
+                    "text": "Invoice"
+                },
+                {
+                    "value": "Credit Card",
+                    "text": "Credit Card"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "invoiceid_details",
+            "order": 4,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Invoice ID related to the issue",
+            "watermarkText": "Provide your Invoice ID related to the issue",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Notifications received (if applicable)",
+            "watermarkText": "Provide any notifications received regarding billing and payment issues",
+            "required": true
         }
-      ],
-      "required": true
-    },
-    {
-      "id": "invoiceid_details",
-      "order": 4,
-      "controlType": "textbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Invoice ID related to the issue",
-      "watermarkText": "Provide your Invoice ID related to the issue",
-      "required": true
-    },
-    {
-      "id": "problem_description",
-      "order": 5,
-      "controlType": "multilinetextbox",
-      "useAsAdditionalDetails": true,
-      "displayLabel": "Notifications received (if applicable)",
-      "watermarkText": "Provide any notifications received regarding billing and payment issues",
-      "required": true
-    }
-  ]
+    ]
 }
 ---

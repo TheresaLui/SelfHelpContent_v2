@@ -38,6 +38,10 @@
                 {
                     "value": "Restore data to the same machine from which the backups were taken",
                     "text": "Restore data to the same machine from which the backups were taken"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -56,6 +60,10 @@
                 {
                     "value": "Volume",
                     "text": "Volume"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

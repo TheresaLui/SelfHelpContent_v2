@@ -32,7 +32,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "On what data type latency was observed?",
             "watermarkText": "E.g. SecurityEvent",
-            "required": true
+            "required": false
         },
         {
             "id": "latency_minutes",
@@ -40,7 +40,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "What is the latency in minutes?",
             "watermarkText": "Enter the latency in minutes",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
