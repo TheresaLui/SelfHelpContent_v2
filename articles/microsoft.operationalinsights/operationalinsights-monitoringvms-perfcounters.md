@@ -4,6 +4,7 @@
     service="microsoft.operationalinsights"
     resource="operationalinsightsaccounts"
     authors="aliabuckner"
+    ms.author="abuckner"
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32633005"
