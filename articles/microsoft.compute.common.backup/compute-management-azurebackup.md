@@ -22,7 +22,7 @@
 
 1. Read and understand the online guidance:<br>
 
-	- [Preparing the VM]](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)<br>
+	- [Preparing the VM](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)<br>
 	- [Plan your VM backup infrastructure in Azure](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction)<br>
 	- [Backup Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
 	- [Backup and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
