@@ -4,7 +4,7 @@
          authors="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565496"
-         productPesIds="14749"
+         productPesIds="14749,15571,15797,16454,16470"
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="0130d88c-e793-44b1-b0af-0633218c1cd0"
@@ -22,7 +22,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "Issue_Type",
@@ -48,7 +48,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "JobID_Name",
@@ -56,7 +56,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the long running job activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -70,7 +70,7 @@
             "controlType": "textbox",
             "displayLabel": "Since how long the job is running?",
             "watermarkText": "Enter time in hours ex. 18hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
