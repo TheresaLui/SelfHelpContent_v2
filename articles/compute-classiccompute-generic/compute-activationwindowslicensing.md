@@ -70,13 +70,13 @@ The steps outlined below can be found **[here](https://docs.microsoft.com/azure/
 
 **If you are using a site-to-site VPN and forced tunneling**, see [Use Azure custom routes to enable KMS activation with forced tunneling](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/custom-routes-enable-kms-activation).<br>
 
-**If you are using Express Route and you have a default route published**, see [Azure VM may fail to activate over Express Route](https://blogs.msdn.com/b/mast/archive/2015/12/01/azure-vm-may-fail-to-activate-over-expressroute.aspx).<br>
+**If you are using Express Route and you have a default route published**, see [Azure VM may fail to activate over Express Route](https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about).<br>
 
 ## **Recommended Documents**
 
 * [Troubleshoot Windows activation failures on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems)<br>
 * [Understanding Azure KMS endpoints for Windows product activation of Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-activation-problems#understanding-azure-kms-endpoints-for-windows-product-activation-of-azure-virtual-machines)<br>
-* [Use Azure custom routes to enable KMS activation with forced tunneling](http://blogs.msdn.com/b/mast/archive/2015/05/20/use-azure-custom-routes-to-enable-kms-activation-with-forced-tunneling.aspx)<br>
-* [Azure VM may fail to activate over Express Route](https://blogs.technet.microsoft.com/jpaztech/2016/05/16/azure-vm-may-fail-to-activate-over-expressroute)<br>
+* [Use Azure custom routes to enable KMS activation with forced tunneling](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm)<br>
+* [Azure VM may fail to activate over Express Route](https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about)<br>
 * [Need to convert an existing VM to use Azure Hybrid Benefit (HUB) for Windows Server?](https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing#convert-an-existing-vm-using-azure-hybrid-benefit-for-windows-server)<br>
 * [How to verify if your VM is utilizing the HUB license](https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing#how-to-verify-your-vm-is-utilizing-the-licensing-benefit)
