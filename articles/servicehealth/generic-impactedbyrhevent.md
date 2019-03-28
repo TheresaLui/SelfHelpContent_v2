@@ -6,7 +6,7 @@
 	resource="resourcehealth"
 	authors="stephbaron"
 	ms.author="stbaron"
-	articleId="Service-healthevent-genericrhevent-HOLD"
+	articleId="Service-healthevent-genericrhevent"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public"
