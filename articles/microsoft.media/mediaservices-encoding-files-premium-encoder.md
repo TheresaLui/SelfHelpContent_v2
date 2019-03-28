@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Premium Encoder"
-	description="Premium Encoder"
+	pageTitle="Media Services Premium Encoder"
+	description="Media Services Premium Encoder"
 	service="microsoft.media"
 	resource="mediaservices"
 	authors="juliako"
@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# Premium Encoder
+# Media Services Premium Encoder
 
 ## **Recommended Documents**
 
