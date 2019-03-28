@@ -26,7 +26,7 @@ How to:
 - [Apply restored System State on a Windows Server](https://aka.ms/AB-AA4dwsn)<br>
 - [Troubleshoot failed System State restore](https://aka.ms/AB-AA4dwsp)<br>
 
-## **Limitations** 
+**Limitations** 
 
 - Recovering to different hardware using System State recovery is not recommended by Microsoft.<br>
 - System State backup currently supports "on premise" Windows servers, this functionality is not available for Azure VMs.
