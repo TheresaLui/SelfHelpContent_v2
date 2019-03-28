@@ -135,7 +135,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide permission and any other details",
             "watermarkText": "Provide any additional details about the issue",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description_2",
