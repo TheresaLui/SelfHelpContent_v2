@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4554-be70-2069dc2e00ff"
+	subscriptionRequired=true
 />
 # SLB - Intermittent connectivity issues
 ---
@@ -31,6 +32,10 @@
 		 {
 		 "value": "Outbound from the backend pool",
 		 "text": "Outbound from the backend pool"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
