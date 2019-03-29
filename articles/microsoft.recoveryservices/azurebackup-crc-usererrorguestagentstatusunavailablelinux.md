@@ -4,7 +4,7 @@
 	infoBubbleText="VM agent unable to communicate with Azure Backup"
 	resource="backup"
 	authors="srinathv"
-	authorAlias="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorguestagentstatusunavailablelinux"
 	diagnosticScenario="azurebackup-crc-usererrorguestagentstatusunavailablelinux"
