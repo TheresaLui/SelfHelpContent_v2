@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack hardware"
-    description="General hardware issues that do not fit storage or networking"
+    description="General Azure Stack hardware issues that do not fit storage or networking"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -14,7 +14,7 @@
     articleId="a32f2a3c-f0bb-4fbf-bf17-4ad15f6ffe7b"
 />
 
-# Azure Stack Hardware
+# Azure Stack Hardware Issues
 
 In the administrator portal, you can easily view the status of a scale unit and associated nodes, and how to use the available node actions. Node actions include power on, power off, drain, resume, and repair. Typically, you use these node actions during field replacement of parts, or for node recovery scenarios.
 
