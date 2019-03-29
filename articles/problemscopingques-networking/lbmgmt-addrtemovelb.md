@@ -14,6 +14,7 @@
 # SLB - Add or Remove Load Balancer resources
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "Add or Remove Load Balancer resources",
  "fileAttachmentHint": "",
