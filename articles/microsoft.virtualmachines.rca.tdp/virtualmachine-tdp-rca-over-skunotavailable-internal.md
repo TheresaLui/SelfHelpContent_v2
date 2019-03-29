@@ -6,7 +6,7 @@
 	resource="virtualmachines"
 	authors="scottAzure"
 	displayOrder=""
-	articleId="DeploymentFailure_RCA-skunotavailable"
+	articleId="DeploymentFailure_RCA-skunotavailable-internal"
 	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
