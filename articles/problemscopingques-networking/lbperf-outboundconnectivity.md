@@ -9,11 +9,11 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4550-be70-2069dc2e00ff"
-	subscriptionRequired=true
 />
 # SLB - Outbound connectivity failures
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "Outbound connectivity failures",
  "fileAttachmentHint": "",
