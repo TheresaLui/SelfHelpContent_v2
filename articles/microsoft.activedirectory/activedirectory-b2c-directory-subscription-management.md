@@ -16,13 +16,12 @@
 
 # Business to Consumer (B2C)
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Follow [these steps](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started) to create an Azure AD B2C directory.
-1. [Link](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing) the newly created Azure AD B2C directory to your Azure subscription.
+1. Follow [these steps](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started) to create an Azure AD B2C directory
+1. [Link](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing) the newly created Azure AD B2C directory to your Azure subscription
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to create an Azure AD B2C directory](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started)
 * [How to link my Azure subscription to my Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing)
