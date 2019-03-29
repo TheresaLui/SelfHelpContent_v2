@@ -52,7 +52,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details",
-		 "required": false, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
@@ -68,6 +68,6 @@
 			 "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
 			 }
 		] }
- ] 
+ ]
 }
 ---
