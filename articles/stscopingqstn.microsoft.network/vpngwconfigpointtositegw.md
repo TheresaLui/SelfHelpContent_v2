@@ -25,11 +25,11 @@
         {   "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the device OS",
+            "displayLabel": "Description",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [{"text": "Issue description"},
-	                    {"text": "Device OS (Client platform OS version)"}]
+	                    {"text": "Client platform OS version"}]
         }
     ]
 }
