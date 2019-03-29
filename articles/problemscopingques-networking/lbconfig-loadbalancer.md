@@ -55,6 +55,10 @@
 		 {
 		 "value": "Standard SKU",
 		 "text": "Standard SKU"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
