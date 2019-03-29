@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Operating system provisioning timeout failure"
-	description="RCA - OS provisioning timeout failure"
+	description="Operating system provisioning timeout failure"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -15,7 +15,10 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+
+# Operating System Provisioning Timeout Failure
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed to deploy because the provisioning of the operating system (guest OS) timed out. 
@@ -28,23 +31,23 @@ In addition to trying again, you have the following options:
 - Create a new VM with the attach option using this VM as a specialized VHD.
 - Generalize the VM for use as an image to create new VMs.<br>
 
-## Create a new VM with an attached VHD
+### Create a new VM with an attached VHD
 
 You can the use VM as a specialized data VHD to create a new VM. For more information, see [Create a Windows VM from a specialized disk by using PowerShell](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-create-vm-specialized/).<br>
 
-## Generalize the VM for use as an image
+### Generalize the VM for use as an image
 
-Perform the following steps to deploy a VM based on the image of the original VM.<br>
+Perform the following steps to deploy a VM based on the image of the original VM:
 
 1. Deprovision the VM by running this bash command: `sudo waagent -deprovision+user`
-1. Create the VM image.
-1. Create a VM from the image.<br>
+1. Create the VM image
+1. Create a VM from the image
 
 For more information, see [How to create an image of a virtual machine or VHD](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image).<br>
 
 ## Troubleshooting
 
-Use the following information sources to troubleshoot provisioning errors.<br>
+Use the following information sources to troubleshoot provisioning errors:
 
 ### Timeouts
 
@@ -103,9 +106,3 @@ Also check the status on the extensions on your VM in **Extensions** under **Set
 ### Log analytics
 
 You can extract log information through queries in the Azure Portal. See [Get started with Azure Monitor Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-portal).<br>
-
-
-
-
-
-
