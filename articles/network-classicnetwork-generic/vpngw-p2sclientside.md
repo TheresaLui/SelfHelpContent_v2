@@ -24,7 +24,8 @@ Point-to-Site connections are useful when you want to connect to your virtual ne
 
 ## **Recommended Documents**
 
-* Troubleshoot [point-to-site connection issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems) [for Mac OS X using VPN client](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-point-to-site-osx-ikev2)<br>
+* Troubleshoot [point-to-site connectivity issues](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-vpn-point-to-site-connection-problems)<br>
+* Troubleshoot point-to-site connectivity issues for [Mac OS X using VPN client](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-troubleshoot-point-to-site-osx-ikev2)<br>
 * Configure a [point-to-site VPN Gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)<br>
 * Generate self-signed certificates for Point-to-Site using [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site), [Makecert](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert) or [Linux](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-linux)<br>
 * Check [point-to-site connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) details
