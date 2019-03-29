@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure VM backup management issues"
          description="Scoping questions for Azure VM backup management issues"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565495"
          productPesIds="14749"
@@ -22,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "issue_Type",
@@ -45,7 +46,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "backup_JobID_Name",
@@ -113,7 +114,7 @@
                     "text": "My error message is not listed here"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -143,7 +144,7 @@
                     "text": "Another backup service is not running"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "restoration_Type",
@@ -170,7 +171,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

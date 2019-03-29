@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VPN Gateway Performance issues"
-	description="VPN Gateway Performance issues"
+	pageTitle="Diagnose and resolve VPN Gateway Performance issues"
+	description="Diagnose and resolve VPN Gateway Performance issues"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
@@ -14,7 +14,7 @@
 	articleId="cedbd70a-c612-40a9-b727-035005454b9b"
 />
 
-# VPN Gateway Performance issues
+# Diagnose and resolve VPN Gateway Performance issues
 
 Use below help to understand components involved in VPN connection and to resolve common performance issues.
 
