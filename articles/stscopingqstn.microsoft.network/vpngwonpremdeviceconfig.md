@@ -13,6 +13,7 @@
 # On-premise device configuration script issues information
 ---
 {   "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "On-premise device configuration script issues",
     "fileAttachmentHint": "",
     "formElements": [
@@ -30,7 +31,7 @@
             "dropdownOptions": [{"value": "script_download", "text": "Issue in downloading the script"},
                                 {"value": "script_installation", "text": "Issue in installing the script"},
                                 {"value": "not_supported", "text": "My device is not supported"},
-                                {"value": "others", "text": "Other issues"}],
+                                {"value": "dont_know_answer", "text": "Other issues"}],
             "required": true
         },
         {   "id": "problem_description",
