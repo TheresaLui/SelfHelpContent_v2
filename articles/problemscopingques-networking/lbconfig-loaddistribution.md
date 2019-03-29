@@ -14,7 +14,8 @@
 # SLB - Configure Load Distribution
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false,
  "title": "Configure Load Distribution",
  "fileAttachmentHint": "",
  "formElements": [	 
