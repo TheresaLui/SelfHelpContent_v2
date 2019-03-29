@@ -9,7 +9,6 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4548-be70-2069dc2e00ff"
-	subscriptionRequired=true
 />
 # SLB - Configure a Zone Redundant Load Balancer
 ---
