@@ -14,7 +14,8 @@
 # SLB - Configure a Zone-Specific Load Balancer
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false,
  "title": "Configure a Zone-Specific Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
