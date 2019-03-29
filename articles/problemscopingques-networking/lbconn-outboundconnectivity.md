@@ -9,7 +9,6 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4553-be70-2069dc2e00ff"
-	subscriptionRequired=true
 />
 # SLB - No outbound connectivity from the backend pool
 ---
@@ -70,7 +69,7 @@
 		 }
 	 ],
 	 "required": true
-	 },	 
+	 },
 	 {
 		 "id": "problem_start_time",
 		 "order": 3,
@@ -99,6 +98,6 @@
 			 "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
 			 }
 		] }
- ] 
+ ]
 }
 ---
