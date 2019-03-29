@@ -14,6 +14,7 @@
 # SLB - Load distribution issues
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "Load distribution issues",
  "fileAttachmentHint": "",
