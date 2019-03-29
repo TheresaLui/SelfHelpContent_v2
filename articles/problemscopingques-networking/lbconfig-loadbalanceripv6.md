@@ -14,7 +14,7 @@
 ---
 {
  "subscriptionRequired": false,
- "resourceRequired": false, 
+ "resourceRequired": false,
  "title": "Configure an IPv6 Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
