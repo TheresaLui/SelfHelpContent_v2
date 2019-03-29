@@ -26,10 +26,10 @@ These restrictions are put in place due to numerous business and technical const
 
 ### Consider alterntive sizes or locations
 
-We encourage you to consider an alternate location of VM size that meets your business needs. You can use PowerShell or Azure CLI to query which To query which SKUs are available. For more information see the following:
+We encourage you to consider an alternate location or VM size that meets your business needs. You can use PowerShell or Azure CLI to query which SKUs are available. For more information see the following:
 
-* [Resolve errors for SKU unavailable](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors).<br>
-* [Region or SKU unavialable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).<br>
+* [Resolve errors for SKU unavailable](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)<br>
+* [Region or SKU unavialable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
 
 ### Mitigate with internal resources
 
