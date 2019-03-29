@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="101"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-availabilityandconnectivity.md"
 	cloudEnvironments="public"
 />

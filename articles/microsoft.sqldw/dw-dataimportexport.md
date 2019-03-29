@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="104"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-dataimportexport.md"
 	cloudEnvironments="public"
 />

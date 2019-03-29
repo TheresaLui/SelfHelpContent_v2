@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="105"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-scheduledmaintenanceandupgrades"
 	cloudEnvironments="public"
 />
