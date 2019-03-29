@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4547-be70-2069dc2e00ff"
+	subscriptionRequired=true
 />
 # SLB - Configure an IPv6 Load Balancer
 ---
@@ -31,6 +32,10 @@
 		 {
 		 "value": "Public Load Balancer",
 		 "text": "Public Load Balancer"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
@@ -75,7 +80,7 @@
 		 "text": "Availability Set"
 		 },
 		 {
-		 "value": "Topic not listed",
+		 "value": "dont_know_answer",
 		 "text": "Topic not listed"
 		 }
 	 ],
@@ -93,7 +98,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": false,
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
