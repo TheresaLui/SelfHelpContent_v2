@@ -14,7 +14,8 @@
 # SLB - Configure an IPv6 Load Balancer
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false, 
  "title": "Configure an IPv6 Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
