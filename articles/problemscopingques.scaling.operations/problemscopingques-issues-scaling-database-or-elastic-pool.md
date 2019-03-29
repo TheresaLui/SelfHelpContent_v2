@@ -137,6 +137,78 @@
 			"visibility": "db_target_tier == db_premium || db_source_tier == db_premium || db_source_tier == db_basic && db_target_tier == db_standard || db_source_tier == db_standard && db_target_tier == db_basic"
 		},
 		{
+			"id": "ep_source_tier",
+			"order": 6,
+			"controlType": "dropdown",
+			"displayLabel": "Which service tier are you trying to scale from?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "From which service tier did you initiate the scaling operation?",
+			"dropdownOptions": [{
+					"value": "ep_basic",
+					"text": "Basic"
+				},{
+					"value": "ep_standard",
+					"text": "Standard or General Purpose"
+				},{
+					"value": "ep_premium",
+					"text": "Premium or Business Critical"
+				},{
+					"value": "dont_know_answer",
+					"text": "Other"
+				}
+			],
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": "db_or_epool == Elastic_Pool"
+		},
+		{
+			"id": "ep_target_tier",
+			"order": 7,
+			"controlType": "dropdown",
+			"displayLabel": "Which service tier are you trying to scale to?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "To which service tier are you attempting to scale?",
+			"dropdownOptions": [{
+					"value": "ep_basic",
+					"text": "Basic"
+				},{
+					"value": "ep_standard",
+					"text": "Standard or General Purpose"
+				},{
+					"value": "ep_premium",
+					"text": "Premium or Business Critical"
+				},{
+					"value": "dont_know_answer",
+					"text": "Other"
+				}
+			],
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": "db_or_epool == Elastic_Pool"
+		},
+		{
+			"id": "ongoing_epool_copy_overlong",
+			"order": 8,
+			"controlType": "dropdown",
+			"displayLabel": "This scaling operation involves a copy operation, which will take longer depending on the size of your elastic pool.  Has the operation taken longer than 1 minute per 1 gigabyte of data?",
+			"watermarkText": "Choose an option",
+			"infoBalloonText": "Is the scaling operation taking longer than 1 minute per 1 GB of your elastic pool?",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				},{
+					"value": "No",
+					"text": "No"
+				},{
+					"value": "dont_know_answer",
+					"text": "I'm not sure"
+				}
+			],
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": "ep_target_tier == ep_premium || ep_source_tier == ep_premium || ep_source_tier == ep_basic && ep_target_tier == ep_standard || ep_source_tier == ep_standard && ep_target_tier == ep_basic"
+		},
+		{
 			"id": "problem_description",
 			"order": 9,
 			"controltype": "multilinetextbox",
