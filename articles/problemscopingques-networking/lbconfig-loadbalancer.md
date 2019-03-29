@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4545-be70-2069dc2e00ff"
+	subscriptionRequired=true
 />
 # SLB - Configure a Load Balancer 
 ---
@@ -31,6 +32,10 @@
 		 {
 		 "value": "A supported vendor product",
 		 "text": "A supported vendor product"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
@@ -143,7 +148,7 @@
 		 "text": "Availability Set"
 		 },
 		 {
-		 "value": "Topic not listed",
+		 "value": "dont_know_answer",
 		 "text": "Topic not listed"
 		 }
 	 ],
