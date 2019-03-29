@@ -14,6 +14,7 @@
 # SLB - Configure Load Balancer Telemetry
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "Configure Load Balancer Telemetry",
  "fileAttachmentHint": "",
