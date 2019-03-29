@@ -93,7 +93,6 @@
         },
         {
             "id": "problem_description",
-            "visibility": "sponsorship_details == Yes",
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Brief description of your request",
