@@ -14,6 +14,7 @@
 # SLB - No connectivity to the backend pool
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "No connectivity to the backend pool",
  "fileAttachmentHint": "",
