@@ -21,7 +21,7 @@ We found the following policy definition syntax errors:
 
 <!--$ErrorMessages-->[ErrorMessages]<!--/$ErrorMessages-->
 
-## Recommended steps
+## Recommended Steps
 
 **Is this a tagging or location policy?**
 
