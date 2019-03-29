@@ -134,7 +134,7 @@
 			],
 			"required": false,
 			"useAsAdditionalDetails": false,
-			"visibility": "db_target_tier == db_premium || db_source_tier == db_premium || db_source_tier == db_basic && db_target_tier == db_standard || db_source_tier == db_standard && db_target_tier == db_basic"
+			"visibility": true
 		},
 		{
 			"id": "ep_source_tier",
