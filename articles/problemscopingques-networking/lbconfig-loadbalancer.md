@@ -14,7 +14,8 @@
 # SLB - Configure a Load Balancer 
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false,
  "title": "Configure a Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
