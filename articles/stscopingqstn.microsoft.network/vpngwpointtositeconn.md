@@ -67,24 +67,8 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide the client OS",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Issue description"
-                },
-                {
-                    "text": "Client platform OS version"
-                }
-            ]
-        },
-        {
             "id": "P2S_tunneltype",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
@@ -107,6 +91,22 @@
                 }
             ],
             "required": true
+        },
+	{
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Issue description"
+                },
+                {
+                    "text": "Client platform OS version"
+                }
+            ]
         }
     ]
 }
