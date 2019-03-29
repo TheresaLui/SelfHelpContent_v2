@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-454b-be70-2069dc2e00ff"
+	subscriptionRequired=true
 />
 # SLB - Configure Load Distribution
 ---
@@ -31,6 +32,10 @@
 		 {
 		 "value": "No",
 		 "text": "No"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
@@ -49,6 +54,10 @@
 		 {
 		 "value": "No",
 		 "text": "No"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
@@ -67,6 +76,10 @@
 		 {
 		 "value": "No",
 		 "text": "No"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
