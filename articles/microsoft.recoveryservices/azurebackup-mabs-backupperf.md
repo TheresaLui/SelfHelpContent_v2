@@ -3,7 +3,8 @@
 	description="Azure Backup Server Backup/Restore Performance"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="v-bllydi"
+	authors="srinathv"
+	authors="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553282"
@@ -20,9 +21,9 @@
 
 To resolve common slow Backup/Restore issues, follow the below best practices:<br>
 
-- [Backup agent running on an Azure virtual machine](https://aka.ms/AB-AA4dwtr)<br>
-- [Steps to ensure there are no conflicts with another process or antivirus](https://aka.ms/AA4nyr4)<br>
-- [Steps to understand bottlenecks in the case of large number of files](https://aka.ms/AB-AA4dwtl)<br>
+- [Ensure no other process or antivirus software is interfering with Azure Backup](https://aka.ms/AA4nyr4)<br>
+- [Bottlenecks on the computer that can impact Azure Backup process](https://aka.ms/AB-AA4dwtl)<br>
+- [If Backup agent is running on an Azure virtual machine](https://aka.ms/AB-AA4dwtr)<br>
 
 ## **Recommended documents**
 
