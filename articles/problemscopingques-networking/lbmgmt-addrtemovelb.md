@@ -17,7 +17,7 @@
  "resourceRequired": true,
  "title": "Add or Remove Load Balancer resources",
  "fileAttachmentHint": "",
- "formElements": [	 
+ "formElements": [
 	 {
 		 "id": "problem_start_time",
 		 "order": 2,
@@ -30,7 +30,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": false, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
@@ -40,6 +40,6 @@
 			 "text": "Did you recieve any error messages while making changes to the Load Balancer configuration? (If yes, please share the error message as well)"
 			 }
 		] }
- ] 
+ ]
 }
 ---
