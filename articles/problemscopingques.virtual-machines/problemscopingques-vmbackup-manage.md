@@ -23,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "issue_Type",
@@ -188,7 +188,7 @@
             "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": false
+            "required": true
         }
     ]
 }
