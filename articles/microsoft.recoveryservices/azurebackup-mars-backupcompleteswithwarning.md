@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 - [Ensure unsupported file & folders are excluded from backup](https://aka.ms/AB-AA4dp52)<br>
-- Check if there are any files in the protected folders which are being pushed by a scanning software, which might be handled by this scanning software and cannot be transferred to Azure Backup service by Azure Backup agent
+- Ensure there are no files in the protected folder that is pushed by scanning software, since these files cannot be transferred to Azure Backup service by Azure Backup agent
 
 ## **Recommended Documents**
 

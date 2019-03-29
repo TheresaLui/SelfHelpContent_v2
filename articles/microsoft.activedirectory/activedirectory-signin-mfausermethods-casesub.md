@@ -1,9 +1,10 @@
 <properties
-    pageTitle="User MFA Methods (Authenticator, OATH token, Voice or SMS)"
-    description="User MFA Methods (Authenticator, OATH token, Voice or SMS)"
+    pageTitle="Configure user Multi-Factor Authentication Methods (Authenticator, OATH token, Voice or SMS) for Azure Active Directory"
+    description="User Multi-Factor Authentication Methods (Authenticator, OATH token, Voice or SMS) for Azure Active Directory"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
+    ms.author="curtand"
     displayOrder=""
     supportTopicIds="32615519"
     selfHelpType="generic"
@@ -13,9 +14,9 @@
  	articleId="a227223a-6b33-4c77-be5a-07ba742a9bd6"
 />
 
-# MFA user methods (Authenticator, OATH token, Voice or SMS)
+# Configure User Multi-Factor Authentication Methods (Authenticator, OATH token, Voice or SMS) for Azure Active Directory
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Authentication methods](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods)
 * [Converged registration for self-service password reset and Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)

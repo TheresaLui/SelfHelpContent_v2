@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Virtual Machine Backup How-to and general questions"
-	description="Azure Virtual Machine Backup How-to and general questions"
+	pageTitle="Diagnose and resolve issues for Azure Virtual Machine Backup and Restore"
+	description="Diagnose and resolve issues for Azure Virtual Machine Backup and Restore"
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
@@ -13,7 +13,8 @@
 	cloudEnvironments="public"
 	articleId="4cea27ca-0a1a-4382-838f-02a2ed10855d"
 />
-# Advisory questions related to Azure Virtual Machine Backup and Restore
+
+# Diagnose and resolve issues for Azure Virtual Machine Backup and Restore
 
 ## **Recommended Steps**
 
@@ -42,4 +43,3 @@
 * [Stop protecting virtual machines](https://aka.ms/AB-AA4ecqs)
 * [Delete Backup data](https://aka.ms/AB-AA4e56f)<br>
 * [Delete Recovery Services vault](https://aka.ms/AB-AA4ecq5)<br>
-
