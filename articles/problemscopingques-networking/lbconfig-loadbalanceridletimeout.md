@@ -14,7 +14,8 @@
 # SLB - Configure Idle Timeout on Load Balancer
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false,
  "title": "Configure Idle Timeout on Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
