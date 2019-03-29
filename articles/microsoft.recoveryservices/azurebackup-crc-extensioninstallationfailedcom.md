@@ -29,6 +29,7 @@ We identified that your backup operation was failing due to an issue from Window
 * Try starting/restarting Windows service **COM+ System Application** (from an elevated command prompt **- net start COMSysApp**).
 * Ensure **Distributed Transaction Coordinator** services is running as **Network Service** account. If not, change it to run as **Network Service** account and restart **COM+ System Application**.
 * If unable to restart the service, then reinstall **Distributed Transaction Coordinator** service by following the below steps:
+	
 	* Stop the MSDTC service
 	* Open a command prompt (cmd)
 	* Run command **msdtc -uninstall**
