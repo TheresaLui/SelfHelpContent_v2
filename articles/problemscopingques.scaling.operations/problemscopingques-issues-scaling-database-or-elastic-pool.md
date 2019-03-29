@@ -134,7 +134,7 @@
 			],
 			"required": false,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": "db_or_epool == Database"
 		},
 		{
 			"id": "ep_source_tier",
