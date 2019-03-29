@@ -110,7 +110,7 @@
 					"text": "Other"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "db_or_epool == Database"
 		},
@@ -132,7 +132,7 @@
 					"text": "I'm not sure"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "db_target_tier == db_premium || db_source_tier == db_premium || db_source_tier == db_basic && db_target_tier == db_standard || db_source_tier == db_standard && db_target_tier == db_basic"
 		},
@@ -182,7 +182,7 @@
 					"text": "Other"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
@@ -204,7 +204,7 @@
 					"text": "I'm not sure"
 				}
 			],
-			"required": true,
+			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": "ep_target_tier == ep_premium || ep_source_tier == ep_premium || ep_source_tier == ep_basic && ep_target_tier == ep_standard || ep_source_tier == ep_standard && ep_target_tier == ep_basic"
 		},
