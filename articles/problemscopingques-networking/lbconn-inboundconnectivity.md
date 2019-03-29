@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="700961cc-d014-4555-be70-2069dc2e00ff"
+	subscriptionRequired=true
 />
 # SLB - No connectivity to the backend pool
 ---
@@ -39,6 +40,10 @@
 		 {
 		 "value": "External Internet endpoint",
 		 "text": "External Internet endpoint"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
@@ -57,6 +62,10 @@
 		 {
 		 "value": "Persistent problem",
 		 "text": "Persistent problem"
+		 },
+		 {
+		 "value": "dont_know_answer",
+		 "text": "Don't know"
 		 }
 	 ],
 	 "required": true
