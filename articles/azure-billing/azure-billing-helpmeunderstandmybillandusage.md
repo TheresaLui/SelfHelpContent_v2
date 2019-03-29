@@ -1,6 +1,6 @@
 <properties
-	pageTitle="help me understand my bill and usage"
-	description="help me understand my bill and usage"
+	pageTitle="Understanding your Azure Subscription billing and usage"
+	description="Understanding your Azure Subscription billing and usage"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -14,20 +14,19 @@
 	articleId="2a5f1d81-e6c5-4717-936b-05159943a493"
 />
 
-# Help me understand my bill and usage
+# Understanding your Azure Subscription billing and usage
 
 ## **Recommended Steps**
 
-1. [Find out who's the Account Admin](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
+1. [Find your Account Administrator](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
 2. Download your [usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) in a .CSV format
-3. In the .CSV file, the top section of the file shows services you are being billed for, and the next section has a daily breakdown of the same information <br>
+3. In the .CSV file, the top section of the file shows services you are being billed for, with the next section having a daily breakdown of the same services:
 
   * [Understand detailed usage charges](https://docs.microsoft.com/azure/billing/billing-understand-your-bill#csv)
   * [Understand terms on your invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
   * [Understand terms on your detailed usage](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 
 4. Learn how to [prevent unexpected charges and control your costs](https://docs.microsoft.com/azure/billing/billing-getting-started)<br>
-
 
 ## **Recommended Documents**
 
