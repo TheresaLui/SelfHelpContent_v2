@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-	authorAlias="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-guestagentsnapshottaskstatuserrorlinux"
 	diagnosticScenario="azurebackup-crc-guestagentsnapshottaskstatuserrorlinux"
