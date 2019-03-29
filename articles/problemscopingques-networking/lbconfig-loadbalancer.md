@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Configure a Load Balancer"
-	description="Configure a Load Balancer"
-	authors="ramandhillon84"
-	ms.author="rdhillon"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32588972"
-	productPesIds="16098"
-	cloudEnvironments="public"
-	schemaVersion="1"
-	articleId="700961cc-d014-4545-be70-2069dc2e00ff"
-	subscriptionRequired=true
+    pageTitle="Configure a Load Balancer"
+    description="Configure a Load Balancer"
+    authors="ramandhillon84"
+    ms.author="rdhillon"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32588972"
+    productPesIds="16098"
+    cloudEnvironments="public"
+    schemaVersion="1"
+    articleId="700961cc-d014-4545-be70-2069dc2e00ff"
 />
+
 # SLB - Configure a Load Balancer 
 ---
 {
