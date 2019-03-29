@@ -29,7 +29,8 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{"value": "IKEv2", "text": "IKEv2"},
 	    			{"value": "SSTP", "text": "SSTP"},
-                                {"value": "OpenVPN", "text": "OpenVPN"}],
+                                {"value": "OpenVPN", "text": "OpenVPN"},
+				{"value": "dont_know_answer", "text": "Other"}],
             "required": true
         },
         {   "id": "Issue_type",
@@ -39,7 +40,7 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [{"value": "Download", "text": "Problem in generating or downloading profile"},
 	    			                    {"value": "Installation", "text": "Problem in profile installation"},
-                                {"value": "Other", "text": "Other"}],
+                                {"value": "dont_know_answer", "text": "Other"}],
             "required": true
         },
         {   "id": "problem_description",
