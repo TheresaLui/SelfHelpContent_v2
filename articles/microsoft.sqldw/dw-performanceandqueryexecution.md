@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="103"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-performanceandqueryexecution.md"
 	cloudEnvironments="public"
 />

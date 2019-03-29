@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="102"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-createscalepauseresumedelete.md"
 	cloudEnvironments="public"
 />
