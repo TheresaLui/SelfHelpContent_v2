@@ -14,7 +14,8 @@
 # SLB - Configure a Zone Redundant Load Balancer
 ---
 {
- "resourceRequired": true,
+ "subscriptionRequired": false,
+ "resourceRequired": false,
  "title": "Configure a Zone Redundant Load Balancer",
  "fileAttachmentHint": "",
  "formElements": [
