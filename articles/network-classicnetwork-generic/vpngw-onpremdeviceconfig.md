@@ -18,4 +18,5 @@
 You can download configuration script for On premise devices from Portal or PowerShell.
 
 ## Recommended Documents
+
 * Check how to download [configuration script for VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript)
