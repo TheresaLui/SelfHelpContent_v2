@@ -14,7 +14,7 @@
 ---
 {   "resourceRequired": false,
     "title": "Point-to-site client side issues",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
         {   "id": "problem_start_time",
             "order": 1,
@@ -45,11 +45,11 @@
         {   "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details including client platform and OS version",
+            "displayLabel": "Description",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [{"text": "Upload your configuration file to speed up the support process"},
-	    	      {"text": "For security purposes, please edit or remove the pre-shared key field from the configuration information"}]
+            "hints": [{"text": "Issue description"},
+	    {"text": "Client platform OS version"}]
         }
     ]
 }
