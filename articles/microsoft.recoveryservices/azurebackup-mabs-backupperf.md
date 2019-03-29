@@ -17,15 +17,15 @@
 # Slow Backup/Restore Performance of Azure Backup Server
 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To resolve common slow Backup/Restore issues, follow the below best practices:<br>
 
 - [Ensure no other process or antivirus software is interfering with Azure Backup](https://aka.ms/AA4nyr4)<br>
 - [Bottlenecks on the computer that can impact Azure Backup process](https://aka.ms/AB-AA4dwtl)<br>
-- [If Backup agent is running on an Azure virtual machine](https://aka.ms/AB-AA4dwtr)<br>
+- [Backup agent is running on an Azure virtual machine](https://aka.ms/AB-AA4dwtr)<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 For information on prerequisites, limitations, and frequently asked questions, see:<br>
 
