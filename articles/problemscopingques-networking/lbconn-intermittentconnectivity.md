@@ -14,6 +14,7 @@
 # SLB - Intermittent connectivity issues
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "Intermittent connectivity issues",
  "fileAttachmentHint": "",
