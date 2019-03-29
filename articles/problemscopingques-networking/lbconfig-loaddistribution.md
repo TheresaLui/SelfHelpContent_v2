@@ -83,7 +83,7 @@
 		 }
 	 ],
 	 "required": true
-	 },		 
+	 },
 	 {
 		 "id": "problem_start_time",
 		 "order": 4,
@@ -96,7 +96,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details or questions",
-		 "required": true, 
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
