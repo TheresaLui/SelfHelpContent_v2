@@ -14,6 +14,7 @@
 # SLB - No outbound connectivity from the backend pool
 ---
 {
+ "subscriptionRequired": true,
  "resourceRequired": true,
  "title": "No outbound connectivity from the backend pool",
  "fileAttachmentHint": "",
