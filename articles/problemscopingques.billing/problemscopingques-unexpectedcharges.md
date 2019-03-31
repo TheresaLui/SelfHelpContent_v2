@@ -31,7 +31,7 @@
       "useAsAdditionalDetails": true,
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide your Subscription ID",
-      "required": true
+      "required": false
     },
     {
       "id": "service_details",
