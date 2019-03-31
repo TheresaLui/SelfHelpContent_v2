@@ -81,7 +81,7 @@
       "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
