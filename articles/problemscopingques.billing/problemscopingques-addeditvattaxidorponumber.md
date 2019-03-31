@@ -37,6 +37,7 @@
       "id": "problem_description",
       "order": 3,
       "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
       "displayLabel": "Please provide details about your issue",
       "required": true,
       "hints": [
