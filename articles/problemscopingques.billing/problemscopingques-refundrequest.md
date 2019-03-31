@@ -44,12 +44,12 @@
     },
   {
 			"id": "problem_description",
-			"order": 1,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
 			"displayLabel": "Please provide any additional details (if any)",
 			"required": true,
-			"useAsAdditionalDetails": true,
+			"useAsAdditionalDetails": true
 		}
 	]
 }
