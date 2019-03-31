@@ -1,20 +1,20 @@
 <properties
-	pageTitle="My VM is slow"
-	description="My VM is slow"
+	pageTitle="Diagnose and resolve Virtual Machine performance issues"
+	description="Diagnose and resolve Virtual Machine performance issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270,32633527"
+	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270,32633527"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
 	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
 />
 
-# My VM is slow
+# Diagnose and resolve Virtual Machine performance issues
 
 Try the following steps to diagnose and mitigate VM performance issues.<br>
 

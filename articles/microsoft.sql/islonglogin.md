@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Database connectivity - Long Login issue"
-	description="LongLogin"
+	pageTitle="Resolve issues connecting to SQL Database"
+	description="Resolve issues connecting to SQL Database"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
@@ -16,7 +16,9 @@
 	cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Resolve issues connecting to SQL Database
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We identified that logging into <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than usual.

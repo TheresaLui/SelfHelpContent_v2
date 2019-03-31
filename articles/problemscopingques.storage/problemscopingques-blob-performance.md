@@ -34,8 +34,36 @@
             "required": false
         },
         {
-            "id": "blob_container",
+            "id": "error_code_dropdown",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Error code",
+            "watermarkText": "HTTP error of failed operation",
+            "dropdownOptions": [{
+                    "value": "HTTP_401",
+                    "text": "HTTP 401"
+                }, {
+                    "value": "HTTP_403",
+                    "text": "HTTP 403"
+                }, {
+                    "value": "HTTP_409",
+                    "text": "HTTP 409"
+                }, {
+                    "value": "HTTP_500",
+                    "text": "HTTP 500"
+                }, {
+                    "value": "HTTP_503",
+                    "text": "HTTP 503"
+                }, {
+                    "value": "other",
+                    "text": "Not listed above  "
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "blob_container",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Blob Container",
             "watermarkText": "Choose an option",
@@ -56,7 +84,7 @@
         },
         {
             "id": "blob_path",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "Blob name or path if specific to a blob",
@@ -64,7 +92,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -72,7 +100,7 @@
         },
         {
             "id": "learn_more_text",
-            "order": 6,
+            "order": 7,
             "controlType": "infoblock",
             "content": "You can follow our guideline to <a href='https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting'>monitor, diagnose, and troubleshoot Microsoft Azure Storage</a> to troubleshoot performance issues."
         }

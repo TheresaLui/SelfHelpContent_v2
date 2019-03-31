@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="107"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-backuprestoreandbusinesscontinuity.md"
 	cloudEnvironments="public"
 />

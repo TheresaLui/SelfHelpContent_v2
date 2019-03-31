@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="108"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="servers, databases"
 	articleId="dw-securityprivacyandcompliance.md"
 	cloudEnvironments="public"
 />
