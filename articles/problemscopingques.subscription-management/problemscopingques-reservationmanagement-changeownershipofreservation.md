@@ -91,8 +91,8 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
+	    "displayLabel": "Additional details",
             "required": true
         }
     ]
