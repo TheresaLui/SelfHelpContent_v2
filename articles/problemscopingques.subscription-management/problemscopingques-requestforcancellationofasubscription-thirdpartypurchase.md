@@ -69,7 +69,7 @@
           "text": "Mozilla Firefox"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],
