@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32454926,32632956"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
