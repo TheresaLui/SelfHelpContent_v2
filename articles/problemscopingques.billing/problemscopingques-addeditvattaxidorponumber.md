@@ -40,7 +40,6 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Please provide details about your issue",
       "required": true,
-      "useAsAdditionalDetails": true,
       "hints": [
         {
           "text": "Describe your problem, providing as much detail as possible."
