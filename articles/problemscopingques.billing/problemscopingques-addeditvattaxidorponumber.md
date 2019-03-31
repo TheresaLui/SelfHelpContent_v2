@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632927"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 #  Add Edit VAT TAX ID or PO Number
