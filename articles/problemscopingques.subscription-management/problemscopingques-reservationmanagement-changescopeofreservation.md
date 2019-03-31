@@ -73,8 +73,8 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
+	    "displayLabel": "Additional details",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
             "watermarkText": "Please provide a brief description of your issue",
             "required": true
         }
