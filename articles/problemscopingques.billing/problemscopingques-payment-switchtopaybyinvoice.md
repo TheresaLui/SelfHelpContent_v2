@@ -146,7 +146,6 @@
       "id": "problem_description",
       "order": 13,
       "controlType": "multilinetextbox",
-      "useAsAdditionalDetails=true",
       "displayLabel": "Company details",
       "watermarkText": "Provide the company details",
       "required": true,
