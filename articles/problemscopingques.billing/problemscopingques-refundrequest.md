@@ -21,32 +21,35 @@
       {
       "id": "problem_start_time",
       "visibility": null,
-      "order": 4,
+      "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
+      "displayLabel": "Problem Start Date",
+      "required": true
   },
+  {
+      "id": "refundamount_details",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Refund Amount",
+      "watermarkText": "Provide the refund amount",
+      "required": true
+    },
+    {
+      "id": "refundreason_details",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Reason for the Refund ",
+      "watermarkText": "Provide the reason for the refund",
+      "required": true
+    },
   {
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
+			"useAsAdditionalDetails": true,
+			"displayLabel": "Please provide any additional details (if any)",
 			"required": true,
 			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Refund amount"
-				}, {
-					"text": "Reason for refund request"
-				}
-			]
 		}
 	]
 }
