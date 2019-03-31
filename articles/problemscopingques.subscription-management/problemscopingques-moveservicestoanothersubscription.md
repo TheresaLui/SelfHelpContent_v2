@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454926,32632956"
+	supportTopicIds="32632956"
 	productPesIds="15660"
 	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
@@ -39,7 +39,7 @@
             "controlType": "textbox",
             "displayLabel": "Destination (TO) Subscription ID",
             "watermarkText": "Provide the Destination (TO) Subscription ID",
-            "required": true
+            "required": false
         },
         {
             "id": "services_details1",
@@ -69,7 +69,7 @@
             "visibility": "services_details1 == Selective Services",
             "controlType": "multilinetextbox",
             "displayLabel": "Please list the services",
-            "required": true
+            "required": false
         },
         {
             "id": "requesterrole_details",
