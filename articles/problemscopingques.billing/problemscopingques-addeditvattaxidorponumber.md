@@ -29,7 +29,6 @@
       "id": "taxid_details",
       "order": 2,
       "controlType": "textbox",
-      "useAsAdditionalDetails": true,
       "displayLabel": "VAT, TAX ID or PO Number",
       "watermarkText": "Provide your VAT, TAX ID or PO Number",
       "required": true
