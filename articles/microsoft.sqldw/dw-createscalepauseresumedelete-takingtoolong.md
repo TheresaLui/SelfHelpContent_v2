@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="109"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
 	cloudEnvironments="public"
 />
