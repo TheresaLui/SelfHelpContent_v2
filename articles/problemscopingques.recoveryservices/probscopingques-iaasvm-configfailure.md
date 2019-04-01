@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure VM configuration protection failure"
          description="Scoping questions for Azure VM configuration protection failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553285"
          productPesIds="15207"
@@ -107,14 +108,14 @@
                     "text": "Another backup service is not running"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
