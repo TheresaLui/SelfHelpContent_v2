@@ -70,7 +70,7 @@
             "controlType": "textbox",
             "displayLabel": "Since how long the job is running?",
             "watermarkText": "Enter time in hours ex. 18hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
