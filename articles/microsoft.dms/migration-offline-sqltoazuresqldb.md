@@ -20,20 +20,22 @@
 ## **Top Errors - SQL Server to Azure SQLDB offline migration**
 
 1. Could not start the scenario 'StartAzureSqlDbMigrationScenario' as an exception occurred while deserializing the input.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>What it means:</b> If you hit this error it means that you provided a bad input through PowerShell.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>What you can do:</b> Please review the input you provided. <br>
-<br>
+<b>What it means:</b> If you hit this error it means that you provided a bad input through PowerShell.<br>
+<b>What you can do:</b> Please review the input you provided.
+
 2. Error 4060 - Login failed.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>What it means:</b> Authentication failed with the target database.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>What you can do:</b> Review user actions in <a href="https://docs.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017">Authentication Errors Page</a> and take appropriate action. <br>
-<br>
-3. This is a step with a link to a blade.<br>
-[This is a link to a blade](data-blade:extensionName.bladeName.nameOfInputParam.valueOfInputParam)
-4. This is a step with no link, blade, or instructions. Note that because the next line is a new bullet in the numbered list, no <br> is needed.
-5. This is a step with code :<br>
-```
-SELECT name, is_disabled FROM sys.sql_logins
-```
+<b>What it means:</b> Authentication failed with the target database.<br>
+<b>What you can do:</b> Review user actions in <a href="https://docs.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017">Authentication Errors Page</a> and take appropriate action.
+
+3. Failed to start activity due to validation errors. Additional error information on column mismatch between source and target may be provided as well: <br>
+&nbsp;&nbsp;a. The table in the source and target database needs to have the same number of non-computed columns.<br>
+&nbsp;&nbsp;b. The nullability of column '<Column_name>' in table '<tablename>' is different on source and target.<br>
+&nbsp;&nbsp;c. The data type of the column in the source table does not match with the data type in the target table.<br>
+&nbsp;&nbsp;d. No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.<br>
+<b>What it means:</b> The schema between source and target databases for a given table is not the same - DMS cannot migrate with mismatched schema. You may not have migrated the schema to the target, migrated incorrectly or schema changed in either source or target after you migrated the schema.<br>
+<b>What you can do:</b> Make sure the schema on source and target is the same. Refer to migrate schema section in <a href="https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-to-azure-sql">SQL Server to Azure SQLDB Documentation</a> if you need help.
+
+
 
 ## **Recommended documents**
 
