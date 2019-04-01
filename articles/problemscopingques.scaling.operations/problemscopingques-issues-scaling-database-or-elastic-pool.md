@@ -134,7 +134,7 @@
 			],
 			"required": false,
 			"useAsAdditionalDetails": false,
-			"visibility": "ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database"
+			"visibility": "ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_target_tier == db_premium || ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_source_tier == db_premium || ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_source_tier == db_basic && db_target_tier == db_standard || ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_source_tier == db_standard && db_target_tier == db_basic"
 		},
 		{
 			"id": "ep_source_tier",
