@@ -16,8 +16,9 @@
 
 # Modify local network gateway settings
 
-Sometimes you may need to change AddressPrefix or GatewayIPAddress settings for your local network gateway. You may use below help to modify these settings.
+You may occasionally need to change AddressPrefix or GatewayIPAddress settings for your local network gateway. Use the below help to modify these settings.
 
 ## **Recommended Documents**
+
 * Download [on-premise VPN device configuration script](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript) for site-to-site VPN connection<br>
-* Modify local network gateway settings using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal), [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway) or [Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-cli)
+* Modify local network gateway settings using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal), [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway), or [Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-cli)
