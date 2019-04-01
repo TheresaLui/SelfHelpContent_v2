@@ -14,7 +14,7 @@
 ---
 {
     "title": "Partner Center WHT Issue",
-    "fileAttachmentHint": "Upload your tax certificate",
+    "fileAttachmentHint": "Upload your tax certificate here",
     "formElements": [
         {
             "id": "problem_start_time",
