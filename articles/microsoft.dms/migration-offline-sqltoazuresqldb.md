@@ -5,6 +5,7 @@
 	service="microsoft.dms"
 	resource="virtualmachines"
 	authors="ajaykar"
+	ms.author="ajaykar"
 	displayOrder="1"
 	articleId="migration-offline-sqltoazuresqldb"
 	diagnosticScenario=""
@@ -17,7 +18,7 @@
 
 # <-- Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration --> 
 
-## **Top Errors - SQL Server to Azure SQLDB offline migration**
+<b>Top Errors - SQL Server to Azure SQLDB offline migration</b>
 
 1. Could not start the scenario 'StartAzureSqlDbMigrationScenario' as an exception occurred while deserializing the input.<br>
 <b>What it means:</b> If you hit this error it means that you provided a bad input through PowerShell.<br>
