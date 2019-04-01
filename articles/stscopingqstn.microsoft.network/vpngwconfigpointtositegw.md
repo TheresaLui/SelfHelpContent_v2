@@ -3,7 +3,7 @@
 	pageTitle="Configure Point-to-Site VPN Gateway"
 	description="Configure Point-to-Site VPN Gateway"
 	authors="radwiv"
-  ms.author="radwiv"
+        ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32591148"
 	productPesIds="16094"
@@ -13,6 +13,7 @@
 # Point-to-Site VPN Gateway Configuration information
 ---
 {   "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Point-to-site VPN Gateway Configuration information",
     "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
