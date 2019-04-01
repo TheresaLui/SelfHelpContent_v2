@@ -7,13 +7,13 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635176, 32635186, 32635193, 32635194, 32635195, 32635198, 32635206, 32635216, 32635223, 32635232"
 	productPesIds="15818"
-	displayOrder="101"
+	displayOrder="10"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-availabilityandconnectivity.md"
 	cloudEnvironments="public"
 />
-# Availability and Connectivity
+# How to troubleshoot availability and connectivity issues
 
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
 
