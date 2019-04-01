@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for MARS restore failure"
          description="Scoping questions for MARS restore failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553296"
          productPesIds="15207"
