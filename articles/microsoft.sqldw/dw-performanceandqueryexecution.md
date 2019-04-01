@@ -7,13 +7,13 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635180, 32635204, 32635210, 32635214, 32635219, 32635225"
 	productPesIds="15818"
-	displayOrder="103"
+	displayOrder="30"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution.md"
 	cloudEnvironments="public"
 />
-# Performance and Query Execution
+# How to enhance and troubleshoot query performance and execution
 
 The following details explain how to model and design your data warehouse.
 
