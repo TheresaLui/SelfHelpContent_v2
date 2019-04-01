@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593231"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="reservationmanagement"
 />
@@ -91,8 +91,8 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
+	    "displayLabel": "Additional details",
             "required": true
         }
     ]
