@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="109"
 	selfHelpType="resource"
-	resourceTags="servers, databases, datawarehouse"
+	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
 	cloudEnvironments="public"
 />

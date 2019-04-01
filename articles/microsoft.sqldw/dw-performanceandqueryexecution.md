@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="103"
 	selfHelpType="resource"
-	resourceTags="servers, databases, datawarehouse"
+	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution.md"
 	cloudEnvironments="public"
 />

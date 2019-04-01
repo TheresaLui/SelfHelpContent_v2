@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="108"
 	selfHelpType="resource"
-	resourceTags="servers, databases, datawarehouse"
+	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance.md"
 	cloudEnvironments="public"
 />

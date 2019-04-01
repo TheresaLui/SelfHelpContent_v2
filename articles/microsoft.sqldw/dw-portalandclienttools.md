@@ -9,7 +9,7 @@
 	productPesIds="15818"
 	displayOrder="6"
 	selfHelpType="resource"
-	resourceTags="servers, databases, datawarehouse"
+	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools.md"
 	cloudEnvironments="public"
 />
