@@ -33,11 +33,11 @@
 &nbsp;&nbsp;c. The data type of the column in the source table does not match with the data type in the target table.<br>
 &nbsp;&nbsp;d. No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.<br>
 <b>What it means:</b> The schema between source and target databases for a given table is not the same - DMS cannot migrate with mismatched schema. You may not have migrated the schema to the target, migrated incorrectly or schema changed in either source or target after you migrated the schema.<br>
-<b>What you can do:</b> Make sure the schema on source and target is the same. Refer to migrate schema section in <a href="https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-to-azure-sql">SQL Server to Azure SQLDB Documentation</a> if you need help.
+<b>What you can do:</b> Make sure the schema on source and target is the same. Refer to select\deploy schema section in <a href="https://docs.microsoft.com/en-us/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-2017">SQL Server to Azure SQLDB Migration</a> if you need help.
 
 
 
 ## **Recommended documents**
-
-[This is the display text of an external document](https://)<br>
-[This is the display text for the last article in the list](http://)
+[Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/en-us/azure/dms/tutorial-sql-server-to-azure-sql)<br>
+[Azure Database Migration Service Documentation](https://docs.microsoft.com/en-us/azure/dms/dms-overview)<br>
+[Database Migration Guide](https://datamigration.microsoft.com/)
