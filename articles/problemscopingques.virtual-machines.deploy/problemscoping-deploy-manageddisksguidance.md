@@ -45,7 +45,7 @@
         {
             "id": "correlationId",
             "order": 2,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "Select failed deployment",
             "dynamicDropdownOptions": {
@@ -120,7 +120,7 @@
             "visibility": "deployment_from == Snapshot",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the attempted snapshot?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_caputre_date",
@@ -128,7 +128,7 @@
             "visibility": "deployment_from == Captured image",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the image capture?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_restore_date",
@@ -136,7 +136,7 @@
             "visibility": "deployment_from == Backup",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the attempted backup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

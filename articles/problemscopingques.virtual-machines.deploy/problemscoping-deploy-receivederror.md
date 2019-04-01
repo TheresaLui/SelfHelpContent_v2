@@ -45,7 +45,7 @@
         {
             "id": "correlationId",
             "order": 2,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "Select failed deployment",
             "dynamicDropdownOptions": {
