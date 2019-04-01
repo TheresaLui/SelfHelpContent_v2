@@ -8,9 +8,9 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
+	 articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
 />
-# Questions Azure VM backup failure for windows 
+# Questions Azure VM backup failure for windows
 ---
 {
     "resourceRequired": true,
