@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
     "formElements": [
