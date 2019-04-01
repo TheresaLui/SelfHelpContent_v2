@@ -33,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -42,7 +42,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -50,7 +50,7 @@
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases whose configuration is failing",
-            "watermarkText": "Enter database name(s) separated by comma",
+            "watermarkText": "Enter database name(s) comma separated",
             "required": true
         },
         {
@@ -78,7 +78,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -87,16 +87,16 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed configuration job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": false
+            "required": true
         },
         {
-            "id": "error_message",
+            "id": "error_code",
             "order": 7,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "displayLabel": "Provide the code that are you seeing:",
+            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -126,7 +126,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
