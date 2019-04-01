@@ -1,20 +1,19 @@
 <properties
-	pageTitle="Point to site VPN connectivity issues"
-	description="Point to site VPN connectivity issues"
-	service="microsoft.network"
-	resource="virtualnetworkgateways"
-	authors="radwiv"
-	ms.author="radwiv"
-	displayOrder="22"
-	selfHelpType="generic"
-	supportTopicIds="32591156"
-	resourceTags=""
-	productPesIds="16094"
-	cloudEnvironments="public"
-	articleId="741dca88-bfab-43ba-8d4b-c8f04a65f4a3"
+    pageTitle="Point-to-Site client side issues"
+    description="Point-to-Site client side issues"
+    service="microsoft.network"
+    resource="virtualnetworkgateways"
+    authors="radwiv"
+    ms.author="radwiv"
+    displayOrder="14"
+    selfHelpType="generic"
+    supportTopicIds="32633158"
+    resourceTags=""
+    productPesIds="16094"
+    cloudEnvironments="public, fairfax, blackforest, mooncake"
+    articleId="vpngw-p2sclientside"
 />
-
-# Point to site VPN connectivity issues
+# Point-to-Site client side issues
 
 Point-to-Site connections are useful when you want to connect to your virtual network from a remote location, such as when you are telecommuting from home or a conference. Point-to-Site connectivity issues may be due to not having proper VPN profiles on the clients or some other common causes. You can use below help to resolve common Point-to-Site connectivity issues.
 
