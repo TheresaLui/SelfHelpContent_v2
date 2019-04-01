@@ -13,6 +13,7 @@
 # Configure a point-to-site client information
 ---
 {   "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Configure a point-to-site client",
     "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
