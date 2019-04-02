@@ -34,14 +34,8 @@
             "required": true
         },
         {
-            "id": "learn_more_text",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-        },
-        {
             "id": "Select_ErrorMessage",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
             "watermarkText": "Choose an option",
@@ -83,7 +77,7 @@
         },
         {
             "id": "Basic_troubleshooting_multiselect",
-            "order": 5,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
@@ -112,14 +106,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
