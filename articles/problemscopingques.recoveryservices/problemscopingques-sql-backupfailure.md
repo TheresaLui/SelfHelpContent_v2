@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for SQL database backup failure"
          description="Scoping questions for SQL database backup failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
+         ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605791"
          productPesIds="15207"
@@ -38,7 +39,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -85,12 +86,12 @@
             "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
         },
         {
-            "id": "error_message",
+            "id": "error_code",
             "order": 8,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "displayLabel": "Provide the error code that are you seeing:",
+            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
+            "required": flase
         },
         {
             "id": "prerequisites_links",
