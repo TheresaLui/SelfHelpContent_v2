@@ -47,8 +47,7 @@ All replication traffic is sent over https(SSL/TLS) to Azure storage.
 ### **Is there an option to pause/resume the replication?**
 No, because that would involve increasing the snapshot active time causing impact to the production VMs. However, a cancel current transfer feature is in the backlog.
 
-### **If replication fails due to a certain reason and needs to be performed again: Does the second replication makes use of the existing data?
-**
+### **If replication fails due to a certain reason and needs to be performed again: Does the second replication makes use of the existing data?**
 There are two cases here: 
 1.	Where some disks succeeded in their upload -> For these disks, the consecutive retry of the cycle would upload lesser data.
 2.	For the failed disks, it would upload the whole data again as the underlying snapshot has changed and hence, we cannot reuse the previously uploaded data.
