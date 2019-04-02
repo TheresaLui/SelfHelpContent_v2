@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId="3b90d80e-a991-4984-8f86-ddcd06a9a551"
+	articleId="3b90d80e-a991-4984-8f86-ddcd06a9a612"
 />
 
 # Dependency visualization in Azure Migrate
