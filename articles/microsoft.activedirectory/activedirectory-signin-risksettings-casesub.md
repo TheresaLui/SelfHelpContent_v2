@@ -21,5 +21,11 @@ The [sign-in risk policy](https://docs.microsoft.com/azure/active-directory/iden
 
 ## **Recommended documents**
 
-* [How To: Unblock users](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-unblock-user)
-* [How To: Close active risk events](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-close-active-risk-events)
+The following documents can help answer some of the most common questions in this category:
+
+* [How To: Configure risk policies](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-configure-risk-policies) 
+* [Identity Protection notifications](https://docs.microsoft.com/azure/active-directory/identity-protection/notifications)
+* [Quickstart: Configure named locations in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/quickstart-configure-named-locations)
+* [5 minute YouTube video: Identity Protection Overview](https://youtu.be/1REQYdZ6364)
+* [4 minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)
+* [7 minute YouTube video: How to use Identity Protection](https://youtu.be/zvCMpkOwRPs)

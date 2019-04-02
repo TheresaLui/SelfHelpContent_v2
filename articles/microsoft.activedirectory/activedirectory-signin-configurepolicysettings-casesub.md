@@ -18,11 +18,14 @@
 
 ## **Recommended steps**
 
+* If you would like a video on how to configure Conditional Access, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA)
 * [Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
 * If you are ready to configure conditional access policies for your environment, review the [best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
 * If you would like a step-by-step deployment plan with recommended policies, see the [conditional access deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
 
 ## **Recommended Documents**
 
+* [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 * [“What If” tool for Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
 * [Quickstart: Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)
+* [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
