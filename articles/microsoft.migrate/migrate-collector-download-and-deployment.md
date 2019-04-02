@@ -36,4 +36,3 @@ Also, note that your Collector must be with the latest Windows update. If it is 
 	ii. Go to Virtual machines -> Create/Register VM -> Deploy a virtual machine from an OVF or OVA ->Deploy ova
 	iii. Power on the VM after deployment
 4. If the issue still persists, please contact Azure Migrate support team.
-
