@@ -38,6 +38,8 @@ Based on the specified format in the streaming client manifest (HLS, DASH, or Sm
 |MPEG DASH CMAF|`https://amsv3account-usw22.streaming.media.azure.net/21b17732-0112-4d76-b526-763dcd843449/ignite.ism/manifest(format=mpd-time-cmaf)` |
 |Smooth Streaming| `https://amsv3account-usw22.streaming.media.azure.net/21b17732-0112-4d76-b526-763dcd843449/ignite.ism/manifest`|
 
+**NOTE**: Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
+
 ## **Recommended Documents** 
 
 * [Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept)<br>

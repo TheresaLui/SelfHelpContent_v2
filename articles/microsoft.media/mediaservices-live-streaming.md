@@ -33,6 +33,8 @@ The following articles show how to configure live streaming with Media Services 
 * [Tutorial: Stream live with v3 API and .NET](https://docs.microsoft.com/azure/media-services/latest/stream-live-tutorial-with-api)
 * [Overview of live streaming with the v3 API](https://docs.microsoft.com/azure/media-services/latest/live-streaming-overview)
 
+**NOTE**: Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
+
 **Using Channels in the v2 API (legacy)**
 
 The following articles show how to configure live streaming with Media Services v2 (legacy).

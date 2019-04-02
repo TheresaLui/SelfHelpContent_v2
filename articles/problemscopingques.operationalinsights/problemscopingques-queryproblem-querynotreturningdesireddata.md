@@ -54,7 +54,7 @@ schemaVersion="1"
                     "text": "Other"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
                 }
             ],

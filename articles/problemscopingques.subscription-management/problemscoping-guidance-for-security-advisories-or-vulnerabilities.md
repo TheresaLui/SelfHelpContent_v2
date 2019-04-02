@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32611254"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 # Guidance for Security Advisories or Vulnerabilities

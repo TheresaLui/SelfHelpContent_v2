@@ -17,7 +17,8 @@
 
 # DRM encryption and key delivery errors 
 
-**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
+**NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.<br>
+Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
 
 Before implementing DRM encryption, review [Content protection overview](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview). It is highly recommended to focus and fully test each part described in the [Main components of a content protection system](https://docs.microsoft.com/azure/media-services/latest/content-protection-overview#main-components-of-a-content-protection-system) section before moving onto the next part. To test your "content protection" system, use the tools specified in the section.
 

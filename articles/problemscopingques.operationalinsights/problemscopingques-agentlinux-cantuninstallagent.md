@@ -42,8 +42,12 @@ schemaVersion="1"
                     "text": "Multiple machines"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -64,13 +68,17 @@ schemaVersion="1"
                     "text": "No"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
-    {
+        {
             "id": "uninstall_agent",
             "order": 4,
             "controlType": "dropdown",
@@ -86,8 +94,12 @@ schemaVersion="1"
                     "text": "Full agent"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

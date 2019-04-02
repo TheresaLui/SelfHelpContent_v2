@@ -1,10 +1,10 @@
 <properties
-	pageTitle="service tiers or scaling resources/issues scaling a database or elastic pool"
-	description="service tiers or scaling resources/issues scaling a database or elastic pool"
+	pageTitle="SQL Database issues scaling a database or elastic pool"
+	description="SQL Database issues scaling a database or elastic pool"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    ms.author="emlisa"
+  ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630431, 32630452"
@@ -13,7 +13,7 @@
 	articleId="cbfbab1e-05e9-4631-9ef8-e1467611c765"
 />
 
-# service tiers or scaling resources/issues scaling a database or elastic pool
+# SQL Database issues scaling a database or elastic pool
 
 ## **Recommended Documents**
 

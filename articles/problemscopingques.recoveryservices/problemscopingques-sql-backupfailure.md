@@ -67,6 +67,10 @@
                 {
                     "value": "Differential backup",
                     "text": "Differential backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -120,6 +124,10 @@
                 {
                     "value": "SQL server VM has required permission for backup",
                     "text": "SQL server VM has required permission for backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false

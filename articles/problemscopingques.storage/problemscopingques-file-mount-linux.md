@@ -34,6 +34,10 @@
                 {
                     "value": "on_premises",
                     "text": "Client is outside Azure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

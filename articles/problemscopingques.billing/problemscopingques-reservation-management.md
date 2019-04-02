@@ -7,23 +7,23 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593227,32593228,32593229"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 # Reservation Management
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
-	     {
-	            "id": "problem_start_time",
-	            "order": 1,
-	            "controlType": "datetimepicker",
-	            "displayLabel": "Problem start time",
-	            "required": true
-	        },
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
+        },
         {
             "id": "reservation_instance_determination",
             "order": 2,
@@ -42,33 +42,35 @@
                 {
                     "value": "SUSE Software",
                     "text": "SUSE Software"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
-       {
-	 "id": "reservationorderid_details",
-	            "order": 3,
-	            "controlType": "textbox",
-	            "useAsAdditionalDetails": true,
-	            "displayLabel": "Reservation Order ID",
-	            "watermarkText": "Provide your Reservation Order id",
-	            "required": true
-       },
-       {
-	 "id": "reservationid_details",
-	            "order": 4,
-	            "controlType": "textbox",
-	            "useAsAdditionalDetails": true,
-	            "displayLabel": "Reservation ID",
-	            "watermarkText": "Provide your Reservation id",
-	            "required": true
-       },
+        {
+            "id": "reservationorderid_details",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Reservation Order ID",
+            "watermarkText": "Provide your Reservation Order id",
+            "required": true
+        },
+        {
+            "id": "reservationid_details",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Reservation ID",
+            "watermarkText": "Provide your Reservation id",
+            "required": true
+        },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
+	    "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
             "required": true,
@@ -78,6 +80,6 @@
                 }
             ]
         }
-       ]
+    ]
 }
 ---

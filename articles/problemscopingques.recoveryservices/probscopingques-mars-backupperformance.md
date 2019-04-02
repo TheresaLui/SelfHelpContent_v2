@@ -38,6 +38,10 @@
                 {
                     "value": "Incremental backup",
                     "text": "Incremental backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -99,6 +103,10 @@
                 {
                     "value": "Network throttling is not configured on the machine",
                     "text": "Network throttling is not configured on the machine"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

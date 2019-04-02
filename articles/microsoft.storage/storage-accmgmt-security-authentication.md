@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to troubleshoot access issue"
-	description="How to troubleshoot access issue"
+	pageTitle="Troubleshoot and resolve Azure Storage access issues"
+	description="Troubleshoot and resolve Azure Storage access issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="annayak"
@@ -14,7 +14,7 @@
 	articleId="b899df06-8ac3-47f3-a10e-4842e559f703"
 />
 
-# How to troubleshoot access issue
+# Troubleshoot and resolve Azure Storage access issues
 
 ## **Recommended Documents**
 
@@ -22,7 +22,7 @@
 
 - [Get started with Azure AD for Storage](https://docs.microsoft.com/azure/storage/common/storage-auth-aad)
 - [Authenticate with Azure Active Directory from an application for access to blobs and queues (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-app)
-- [Manage access rights to Azure Blob and Queue data with RBAC (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac) 
+- [Manage access rights to Azure Blob and Queue data with RBAC (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac)
 - [Authenticate access to blobs and queues with managed identities for Azure Resources (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-msi)
 - [Use an Azure AD identity to access Azure Storage with CLI or PowerShell (Preview)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-script)
 
