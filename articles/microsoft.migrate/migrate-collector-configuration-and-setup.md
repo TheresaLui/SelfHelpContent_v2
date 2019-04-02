@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="ecf87d57-c8c4-4009-8d82-f6d50af6c143"
 />
 
 # Azure Migrate Collector configuration and setup
