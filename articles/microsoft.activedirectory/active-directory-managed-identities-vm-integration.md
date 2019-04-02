@@ -16,14 +16,14 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
-# <-- I can't add a user-assigned managed identity to a Virtual Machine / Virtual Machine Scale Set. -->
+# <-- I can't add a user-assigned managed identity to a Virtual Machine/Virtual Machine Scale Set -->
 
 For issues related to adding a user-assigned managed identity to a Virtual Machine or Virtual Machine Scale Set:
 
 ## **Recommended Steps**
 
-1. Verify you have the Managed Identity Operator role assignment on the user-assigned managed identity.
-2. Verify you have the Virtual Machine Contributor role assignment on the Virtual Machine.
+1. Verify you have the Managed Identity Operator role assignment on the user-assigned managed identity
+2. Verify you have the Virtual Machine Contributor role assignment on the Virtual Machine
 
 ## **Recommended Documents**
 
