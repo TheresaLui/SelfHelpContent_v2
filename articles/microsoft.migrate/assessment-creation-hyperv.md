@@ -1,4 +1,4 @@
-properties
+<properties
 	pageTitle="Assessment creation and updates in Azure Migrate"
 	description="Issues and guidance regarding Assessment creation and updates in Azure Migrate"
 	service="microsoft.migrate"
@@ -39,9 +39,9 @@ The disk sizing for Azure depends on two assessment properties - sizing criterio
 ### **What impact does performance history and percentile utilization have on the size recommendations?**
 These properties are only applicable for performance-based sizing. Azure Migrate collects performance history of on-premises machines and uses it to recommend the VM size and disk type in Azure.
 
-- The collector appliance continuously profiles the on-premises environment to gather real-time utilization data every 20 seconds.
+- The collector appliance continuously profiles the on-premises environment to gather real-time utilization data every 20 seconds
 - The appliance rolls up the 20-second samples, and creates a single data point for every 15 minutes. To create the single data point, the appliance selects the peak value from all the 20-second samples, and sends it to Azure.
-- When you create an assessment in Azure, based on the performance duration and performance history percentile value, Azure Migrate calculates the effective utilization value and uses it for sizing.
+- When you create an assessment in Azure, based on the performance duration and performance history percentile value, Azure Migrate calculates the effective utilization value and uses it for sizing
 
 For example, if you have set the performance duration to be 1 day and percentile value to 95 percentile, Azure Migrate uses the 15-min sample points sent by collector for the last one day, sorts them in ascending order and picks the 95th percentile value as the effective utilization. The 95th percentile value ensures that you are ignoring any outliers, which may come if you pick the 99th percentile. If you want to pick the peak usage for the period and do not want to miss any outliers, you should select the 99th percentile.
 
