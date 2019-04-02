@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Subscription ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/{subscriptionid}/resourceGroups?api-version=2014-04-01",
+             "uri": "/subscriptions/{subscriptionid}/subscriptions?api-version=2014-04-01",
              "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
