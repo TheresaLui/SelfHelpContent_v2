@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0032"
 />
-# Deploy a VM
+# Deploy a VM 
 ---
 {
     "resourceRequired": true,
