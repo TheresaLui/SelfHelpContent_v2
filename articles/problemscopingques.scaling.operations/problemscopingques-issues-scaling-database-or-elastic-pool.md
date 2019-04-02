@@ -115,30 +115,8 @@
 			"visibility": "db_or_epool == Database"
 		},
 		{
-			"id": "ongoing_database_copy_overlong",
-			"order": 5,
-			"controlType": "dropdown",
-			"displayLabel": "This scaling operation involves a copy operation, which will take longer depending on the size of your database.  Has the operation taken longer than 1 minute per 1 gigabyte of data?",
-			"watermarkText": "Choose an option",
-			"infoBalloonText": "Is the scaling operation taking longer than 1 minute per 1 GB of your database?",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				},{
-					"value": "No",
-					"text": "No"
-				},{
-					"value": "dont_know_answer",
-					"text": "I'm not sure"
-				}
-			],
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"visibility": "ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_target_tier == db_premium || ongoing_or_completed_updateslo == Ongoing && db_or_epool == Database && db_source_tier == db_premium"
-		},
-		{
 			"id": "ep_source_tier",
-			"order": 6,
+			"order": 5,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale from?",
 			"watermarkText": "Choose an option",
@@ -163,7 +141,7 @@
 		},
 		{
 			"id": "ep_target_tier",
-			"order": 7,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Which service tier are you trying to scale to?",
 			"watermarkText": "Choose an option",
@@ -187,32 +165,10 @@
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
 		{
-			"id": "ongoing_epool_copy_overlong",
-			"order": 8,
-			"controlType": "dropdown",
-			"displayLabel": "This scaling operation involves a copy operation, which will take longer depending on the size of your elastic pool.  Has the operation taken longer than 1 minute per 1 gigabyte of data?",
-			"watermarkText": "Choose an option",
-			"infoBalloonText": "Is the scaling operation taking longer than 1 minute per 1 GB of your elastic pool?",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				},{
-					"value": "No",
-					"text": "No"
-				},{
-					"value": "dont_know_answer",
-					"text": "I'm not sure"
-				}
-			],
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"visibility": "ep_target_tier == ep_premium || ep_source_tier == ep_premium || ep_source_tier == ep_basic && ep_target_tier == ep_standard || ep_source_tier == ep_standard && ep_target_tier == ep_basic"
-		},
-		{
 			"id": "problem_description",
-			"order": 9,
+			"order": 7,
 			"controltype": "multilinetextbox",
-			"displayLabel": "TEST3",
+			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
 			"infoBalloonText": "Enter any additional details here",
 			"required": true,
@@ -220,7 +176,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 10,
+			"order": 8,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
