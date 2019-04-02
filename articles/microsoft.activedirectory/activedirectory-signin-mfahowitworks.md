@@ -10,7 +10,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    articleId="d68048f8-7d5b-49e1-9e4e-df694c2036fa"
      />
 
 # Multi-Factor Authentication (MFA) How do I...
@@ -24,4 +24,4 @@
 
 ## **Recommended documents**
 
-* [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
+* [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)

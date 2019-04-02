@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
+    articleId="8df2ae82-8a12-4c43-971f-886d748a9456"
      />
 
 # Azure AD Password Protection – Banned passwords

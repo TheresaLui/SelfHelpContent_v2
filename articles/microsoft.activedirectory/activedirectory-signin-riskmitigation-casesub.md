@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+    articleId="28dfd96d-593d-4c13-83b9-aac6063e4962"
+     />
 
 # Risk mitigation (such as password reset and dismissal)
 
