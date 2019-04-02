@@ -15,7 +15,10 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
-# We ran diagnostics on your resource and found an issue
+
+# Data Sync related objects are missing from Sync Metadata database
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->  
 We were able to detect that Data Sync related objects are missing from Sync Metadata database. Data Sync cannot run without these objects. The error message **<!--$SyncDBErrorMessage--> SyncDBErrorMessage <!--/$SyncDBErrorMessage-->** was detected on the sync metadata database <!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->/<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->.
@@ -44,4 +47,5 @@ Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Conten
 ```
 
 ### Disclaimers
+
 These scripts are copyright Microsoft Corporations and are provided as samples. They are not part of any Azure service and are not covered by any SLA or other Azure-related agreements. They are provided as-is with no warranties express or implied. Microsoft takes no responsibility for the use of the scripts or the accuracy of this document. Familiarize yourself with the scripts before using them.
