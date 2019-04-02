@@ -15,7 +15,8 @@
 
 # Risk Investigation (Alerts, Risks, and Reporting)
 
-## **Recommended steps** 
+## **Recommended steps**
+
 Your investigation into risk will typically start with the Identity Protection dashboard. The dashboard gives you access to:
 
 * Reports such as [Users flagged for risk](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-user-at-risk), [Risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events), and [Vulnerabilities](https://docs.microsoft.com/azure/active-directory/identity-protection/vulnerabilities)
