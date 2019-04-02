@@ -13,8 +13,8 @@
 # Reservation Management
 ---
 {
-    "resourceRequired": false,
-    “subscriptionRequired”: true,
+   "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
