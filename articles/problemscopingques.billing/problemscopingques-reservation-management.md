@@ -55,9 +55,9 @@
             "id": "Subscriptionid",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Select the Reservation ID",
+            "displayLabel": "Select the Subscription ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions?/{subscriptionid}/api-version=2014-04-01",
+             "uri": "/subscriptions?/api-version=2014-04-01",
              "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
