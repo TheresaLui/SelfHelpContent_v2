@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId="75be4298-2a3f-4d0d-96c5-b2b5886483e6"
+	articleId="75be4298-2a3f-4d0d-99c5-b2b5886483e6"
 />
 
 # Exporting assessment as a report
