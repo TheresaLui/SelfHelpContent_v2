@@ -52,16 +52,16 @@
             "required": true
         },
 	 {
-            "id": "subscriptionid",
+            "id": "Subscriptionid",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Select the subscription ID",
+            "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
-                "jTokenPath": "value",
-                "textProperty": "subscriptionId",
+             "uri": "/subscriptions?api-version=2014-04-01?",
+             "jTokenPath": "value",
+                "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
+                "textPropertyRegex": null,
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
