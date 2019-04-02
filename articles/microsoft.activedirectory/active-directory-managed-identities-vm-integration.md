@@ -6,7 +6,7 @@
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
-	displayOrder=""
+	displayOrder="1"
 	articleId="user-assigned managed identity integration with VM/VMSS"
 	diagnosticScenario=""
 	selfHelpType="resource"
