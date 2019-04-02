@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId="5ba2cff9-3754-4339-ab0f-ee3b617a32a6"
+	articleId="5ba2cff9-3754-4343-ab0f-ee3b617a32a6"
 />
 
 # Azure Migrate Preview - Migrate VMs to Azure
