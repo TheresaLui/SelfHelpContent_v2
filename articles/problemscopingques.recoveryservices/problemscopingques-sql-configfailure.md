@@ -66,7 +66,7 @@
 								"text": "Configure Backup"
 				}
 				],
-				"required": true
+				"required": false
 				},{
 					"id": "jobID_Name",
 					"order": 6,
@@ -76,12 +76,11 @@
 					"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 					"required": false
 				},{
-					"id": "error_message",
-					"order": 7,
-					"visibility": "null",
+					"id": "error_code",
+					"order": 8,
 					"controlType": "textbox",
-					"displayLabel": "Provide the error message that are you seeing:",
-					"watermarkText": "Copy and paste the error message details",
+					"displayLabel": "Provide the error code that are you seeing:",
+					"watermarkText": "Example: UserErrorSQLPODoesNotExist",
 					"required": true
 				},{
 					"id": "basic_troubleshooting_multiselect",
