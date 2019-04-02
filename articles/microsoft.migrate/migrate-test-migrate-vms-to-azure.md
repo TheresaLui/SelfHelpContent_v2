@@ -18,5 +18,5 @@
 
 ## **Recommended Steps**
 
-### **For test migration sandbox environment, is it free similar to ASR or does regular resource costing apply?**
+### **For test migration sandbox environment, is it free (similar to ASR) or does regular resource costing apply?**
 Usage of the tool is free. Other resource consumption charges such as compute and additional storage apply.
