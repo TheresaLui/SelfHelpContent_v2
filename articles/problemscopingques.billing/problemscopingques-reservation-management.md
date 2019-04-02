@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the subscription ID",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions?api-version=2014-04-01?",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2014-04-01?",
                 "jTokenPath": "value",
                 "textProperty": "subscriptionId",
                 "valueProperty": "id",
@@ -82,7 +82,7 @@
             "controlType": "textbox",
             "displayLabel": "Reservation Order ID",
             "watermarkText": "Provide your Reservation Order id",
-            "required": true
+            "required": false
         },
         {
             "id": "reservationid_details",
@@ -90,7 +90,7 @@
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
