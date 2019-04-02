@@ -16,14 +16,14 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
-# <-- I can't add a user-assigned managed identity to a App Service/Function. -->
+# <-- I can't add a user-assigned managed identity to a App Service/Function -->
 
 For issues related to adding a user-assigned managed identity to an App Service or Azure Function:
 
 ## **Recommended Steps**
 
-1. Verify you have the Managed Identity Operator role assignment on the user-assigned managed identity.
-2. Verify you have the Contributor role assignment on the App Service/Function.
+1. Verify you have the Managed Identity Operator role assignment on the user-assigned managed identity
+2. Verify you have the Contributor role assignment on the App Service/Function
 
 ## **Recommended Documents**
 
