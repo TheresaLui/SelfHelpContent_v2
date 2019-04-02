@@ -20,6 +20,6 @@
  We’ve detected a possible issue with your driver’s implementation of TDS routing protocol. This could be leading it to look for the database in an old location. In the immediate, bypassing redirection by forcing your connection policy to Proxy will restore your connectivity. In the future, please consider upgrading your driver to prevent these issues.
 <!--/issueDescription-->
 
-For more information about redirection, see [Connect to Azure SQL Database V12 via Redirection](https://blogs.msdn.microsoft.com/sqlcat/2016/09/08/connect-to-azure-sql-database-v12-via-redirection/)
+For more information about redirection, see [Azure SQL Connectivity Architecture](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connectivity-architecture)
 
 
