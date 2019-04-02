@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Troubleshoot custom image deployment failures",
     "fileAttachmentHint": "",
     "formElements": [

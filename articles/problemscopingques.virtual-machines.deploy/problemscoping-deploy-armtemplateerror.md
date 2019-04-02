@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
     "formElements": [

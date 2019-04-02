@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "I am unable to deploy a captured or generalized image",
     "fileAttachmentHint": "",
     "formElements": [

@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "My desired region or VM size is unavailable",
     "fileAttachmentHint": "",
     "formElements": [

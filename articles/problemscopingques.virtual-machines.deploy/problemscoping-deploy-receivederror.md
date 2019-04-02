@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "I received a provisioning or deployment timeout error",
     "fileAttachmentHint": "",
     "formElements": [

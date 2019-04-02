@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "I need guidance deploying with managed disks",
     "fileAttachmentHint": "",
     "formElements": [

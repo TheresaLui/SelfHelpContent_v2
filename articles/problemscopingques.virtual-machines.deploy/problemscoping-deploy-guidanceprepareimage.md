@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "I need guidance preparing an image",
     "fileAttachmentHint": "",
     "formElements": [
