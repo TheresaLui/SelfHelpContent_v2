@@ -2,7 +2,7 @@
 	pageTitle="Managing User assigned managed identities"
 	description="Issues with managing a user-assigned managed identity"
 	infoBubbleText="An issue was found with a user assigned managed identity"
-	service="microsoft.managedidentity"
+	service="microsoft.activedirectory"
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
