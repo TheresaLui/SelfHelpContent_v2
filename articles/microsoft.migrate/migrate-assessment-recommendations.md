@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="5ba2cff9-3754-4339-ab0f-ee3b617a32a9"
 />
 
 # Assessment recommendation in Azure Migrate
