@@ -31,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -69,7 +69,7 @@
                     "text": "Differential backup"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -77,7 +77,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -91,7 +91,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error code that are you seeing:",
             "watermarkText": "Example: UserErrorSQLPODoesNotExist",
-            "required": flase
+            "required": true
         },
         {
             "id": "prerequisites_links",
@@ -122,14 +122,14 @@
                     "text": "SQL server VM has required permission for backup"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 11,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "learn_more_text1",
