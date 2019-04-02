@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    “subscriptionRequired”: true,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -48,6 +49,31 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
+            "required": true
+        },
+	 {
+            "id": "subscriptionid",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Select the subscription ID",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions?api-version=2014-04-01?",
+                "jTokenPath": "value",
+                "textProperty": "subscriptionId",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of subscription.",
+                    "text": "Unable to retrieve list of subscription"
+                }
+            ],
+            "useAsAdditionalDetails": false,
             "required": true
         },
         {
