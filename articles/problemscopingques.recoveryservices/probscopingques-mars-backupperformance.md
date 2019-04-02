@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "MARS backup performance",
     "fileAttachmentHint": "",
     "formElements": [
