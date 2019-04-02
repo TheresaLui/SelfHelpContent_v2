@@ -14,7 +14,7 @@
 ---
 {
    "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -52,10 +52,10 @@
             "required": true
         },
 	 {
-            "id": "Subscriptionid",
+            "id": "Reservationid",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "Select the Subscription ID",
+            "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
              "uri": "/subscriptions/{subscriptionid}/reservations?api-version=2014-04-01",
              "jTokenPath": "value",
@@ -69,8 +69,8 @@
             },
             "dropdownOptions": [
                 {
-                    "value": "Unable to retrieve list of subscription.",
-                    "text": "Unable to retrieve list of subscription"
+                    "value": "Unable to retrieve list of reservations.",
+                    "text": "Unable to retrieve list of reservations"
                 }
             ],
             "useAsAdditionalDetails": false,
