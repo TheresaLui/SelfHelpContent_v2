@@ -59,7 +59,7 @@
             "dynamicDropdownOptions": {
              "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/appliedReservations?api-version=2017-11-01",
              "jTokenPath": "value",
-             "textProperty": "name",
+             "textProperty": "value",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
@@ -77,12 +77,37 @@
             "required": true
         },
 	{
-            "id": "Resourcegroupid",
+            "id": "Resourceid",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Select the Resource Group",
+            "displayLabel": "Select the Resource",
             "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/resources?api-version=2017-05-10",
+	    "jTokenPath": "value",
+             "textProperty": "name",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resources",
+                    "text": "Unable to retrieve list of resources"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+	{
+            "id": "ResourceGroupid",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Resource group",
+            "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resourceGroups?api-version=2014-04-01",
 	    "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
@@ -99,7 +124,7 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
         {
             "id": "reservationorderid_details",
