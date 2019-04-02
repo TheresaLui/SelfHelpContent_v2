@@ -2,7 +2,7 @@
 	pageTitle="User assigned managed identity with Web resources"
 	description="I can't add a user-assigned managed identity to my App Service/Function"
 	infoBubbleText="An issue was found with a user assigned managed identity on App Service/Function"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
