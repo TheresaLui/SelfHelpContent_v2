@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM backup or restore performance",
     "fileAttachmentHint": "",
     "formElements": [
