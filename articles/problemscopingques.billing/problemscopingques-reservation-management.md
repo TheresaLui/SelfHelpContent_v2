@@ -82,8 +82,8 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Resource Group",
             "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resourceGroups?api-version=2014-04-01",	    
-	     "jTokenPath": "value",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2017-05-10",
+	    "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
