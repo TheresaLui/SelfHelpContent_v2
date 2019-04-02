@@ -58,9 +58,9 @@
             "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
              "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/appliedReservations?api-version=2017-11-01",
-             "jTokenPath": "value",
+             "jTokenPath": "id",
              "textProperty": "value",
-             "valueProperty": "id",
+             "valueProperty": "value",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
              "value": "dont_know_answer",
