@@ -6,7 +6,7 @@
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
-	displayOrder=""
+	displayOrder="1"
 	articleId="issues with managing a user-assigned managed identity"
 	diagnosticScenario=""
 	selfHelpType="resource"
