@@ -2,7 +2,7 @@
 	pageTitle="User assigned managed identity with Virtual Machines"
 	description="I can't add a user-assigned managed identity to my VM/VMSS"
 	infoBubbleText="An issue was found with a user assigned managed identity on VM/VMSS"
-	service="microsoft.activedirectory"
+	service="microsoft.azureactivedirectory"
 	resource="userassignedidentities"
 	authors="arluca"
 	ms.author="arluca"
