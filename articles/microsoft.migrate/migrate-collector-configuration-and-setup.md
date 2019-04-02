@@ -37,7 +37,7 @@ Yes, a single collector appliance can be used to discover multiple vCenter Serve
 
 **How does the collector communicate with the vCenter Server and the Azure Migrate service?**
 
-The collector appliance connects to the vCenter Server (port 443) using the credentials provided by the user in the appliance. It queries the vCenter Server using VMware PowerCLI to collect metadata about the VMs managed by vCenter Server. It collects both configuration data about VMs (cores, memory, disks, NIC etc.) as well as performance history of each VM for the last one month from vCenter Server. The collected metadata is then sent to the Azure Migrate service (over internet via https) for assessment. [Learn more](https://docs.microsoft.com/en-us/azure/migrate/concepts-collector)
+The collector appliance connects to the vCenter Server (port 443) using the credentials provided by the user in the appliance. It queries the vCenter Server using VMware PowerCLI to collect metadata about the VMs managed by vCenter Server. It collects both configuration data about VMs (cores, memory, disks, NIC etc.) as well as performance history of each VM for the last one month from vCenter Server. The collected metadata is then sent to the Azure Migrate service (over internet via https) for assessment. [Learn more](https://docs.microsoft.com/azure/migrate/concepts-collector)
 
 **Updating the OS of the Collector VM**
 
