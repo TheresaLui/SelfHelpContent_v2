@@ -16,7 +16,7 @@
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 />
 
-# <-- I'm having issues managing a user-assigned managed identity. -->
+# <-- I'm having issues managing a user-assigned managed identity -->
 
 For issues related to managing a user-assigned managed identity:
 
