@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/providers/Microsoft.Capacity/appliedReservations?api-version=2017-11-01",
+             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/appliedReservations?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
@@ -71,6 +71,31 @@
                 {
                     "value": "Unable to retrieve list of reservations",
                     "text": "Unable to retrieve list of reservations"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+	{
+            "id": "Resourcegroupid",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Resource Group",
+            "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resourceGroups/resourcegroup?api-version=2017-11-01",
+	     "jTokenPath": "value",
+             "textProperty": "name",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resource groups",
+                    "text": "Unable to retrieve list of resource groups"
                 }
             ],
             "useAsAdditionalDetails": false,
