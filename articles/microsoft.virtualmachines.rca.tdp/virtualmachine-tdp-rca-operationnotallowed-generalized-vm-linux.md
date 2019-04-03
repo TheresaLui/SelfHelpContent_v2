@@ -24,10 +24,10 @@ We have detected that the deployment for virtual machine **<!--$vmname-->Virtual
 
 A generalized VM is a virtual machine with personal account information removed so that its image can be used for creating other VMs. You also might get this error if you are attempting to start the VM after it was captured.<br> 
 
-There is no way to return the VM that generated this error back to its original state as a functioning virtual machine, but you can do one of the following:
+There is no way to return the VM that generated this error back to its original state as a functioning virtual machine; however the following options may be helpful depending on your resources:
 
-- If you have the image that you used to create the original VM, you can use that image to create a new VM.
-- Replace the VM by recreating it from an existing VHD.
-- If you have a VHD that contains the user accounts, applications, and other state data from your original VM, you can create a new VM by attaching that disk as the OS disk.<br>
+- Replace the VM by recreating it from the VHD used to create the original VM.
+- Create a new VM from the image used to create the original VM.
+- Create a new VM with a VHD that contains the user accounts, applications, and other state data from your original VM. Attach the VHD as the OS disk.<br>
 
 For information on creating an image of a Linux VM, see [How to create an image of a virtual machine or VHD](https://docs.microsoft.com/azure/virtual-machines/linux/capture-image).
