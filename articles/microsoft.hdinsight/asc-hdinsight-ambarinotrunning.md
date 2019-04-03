@@ -1,13 +1,13 @@
 <properties
     ms.author="v-anreg"
     pageTitle="Ambari service not running"
-    description="AmbariPortalIssue"
+    description="Ambari Service Issue"
     infoBubbleText="Ambari service is not running. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
     displayOrder=""
-    articleId="Hdi_Ambari_ServerNotRunning"
+    articleId="Hdi-Ambari-ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32628984, 32629005, 32629006"
@@ -16,7 +16,9 @@
     cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Ambari Service is not running
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is not running Ambari server.
