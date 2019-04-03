@@ -29,13 +29,10 @@ These restrictions are put in place due to numerous business and technical const
 
 We encourage you to consider an alternate location or VM size that meets your business needs. You can use PowerShell or Azure CLI to query which SKUs are available. For more information see the following:
 
-* [Resolve errors for SKU unavailable](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)<br>
+* [Resolve errors for SKU unavailable](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
 * [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
 
-### Mitigate with internal resources
+### Request Exemption
 
-You are encouraged to seeks solutions and contribute your observations in our internal wiki and knowledge bases:
-
-- [CSS Support Wiki](https://www.csssupportwiki.com/index.php/curated:Azure/)
-- [Azure Support Center](https://azuresupportcenter.msftcloudes.com)
+If you are unable to find suitable alternate locations or VM sizes and are dependent on this specific combination, please let us know and we will see what options are available. If possible, will try to enable this VM Size and region for your subscription.
 
