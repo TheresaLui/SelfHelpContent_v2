@@ -21,7 +21,7 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you were trying to deploy.
 <!--/issueDescription-->
 
-These restrictions are put in place due to numerous business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused  you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.
+These restrictions are put in place due to numerous business and technical constraints, as well as capacity limitations. We apologize for any inconvenience this may have caused  you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.
 
 ## Recommended steps
 
