@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="94c1392f-8049-43fa-9d05-47aa8d5704f5"
 />
 
 # npm/configandsetup

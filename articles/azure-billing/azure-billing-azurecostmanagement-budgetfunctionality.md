@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="9e4e7b88-954c-4e1b-b883-1d9ba287acf5"
 />
 
 # Budget functionality

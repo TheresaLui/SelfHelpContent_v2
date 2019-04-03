@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="fe89ba6a-2d74-4135-ad36-fad0127a4210"
 />
 
 # service/portal: error or mistake

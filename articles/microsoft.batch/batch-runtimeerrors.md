@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15614"
 	cloudEnvironments="public"
+	articleId="9be2fec8-da6a-4be5-a40b-a4ad243c52f5"
 />
 
 # job execution issues/runtime errors

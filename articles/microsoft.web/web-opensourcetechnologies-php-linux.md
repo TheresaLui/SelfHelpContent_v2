@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16170"
 	cloudEnvironments="public, MoonCake"
+	articleId="79e2485e-e2f1-4463-b498-b9e53c03a85b"
 />
 
 # open source technologies/php

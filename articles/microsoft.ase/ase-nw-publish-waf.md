@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="7fb46ee4-b690-4f0c-bebc-a912c86fd6ca"
 />
 
 # Networking\Configuring UDRs

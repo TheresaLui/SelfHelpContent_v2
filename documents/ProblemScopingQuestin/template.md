@@ -1,17 +1,20 @@
 <properties
-	pageTitle="Slow virtual machine"
-	description="Slow virtual machine"
-	authors="AlexKuriatnyk"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32411877"
-	productPesIds="14749"
-	cloudEnvironments="public"
+	articleId=""
+	pageTitle=""
+	description=""
+	authors=""
+	ms.author=""
+	selfHelpType=""
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments=""
 	schemaVersion="1"
 />
 # VM Performance
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -36,11 +39,11 @@
 			],
 			"required": false
 		}, {
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
 			"id": "applications_on_vm",
 			"order": 3,
@@ -77,11 +80,12 @@
 			],
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
-			"required": false,
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."

@@ -10,6 +10,7 @@
 	resourceTags=""	
 	productPesIds="16123"
 	cloudEnvironments="MoonCake" 
+	articleId="29149c01-0edf-48f2-92c8-bd63914edc6a"
 />
 
 # I can’t view my namespace here in the portal, but I can see it in the classic portal

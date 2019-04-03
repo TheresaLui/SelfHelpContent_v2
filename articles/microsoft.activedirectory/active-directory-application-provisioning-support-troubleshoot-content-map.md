@@ -8,7 +8,8 @@
   supportTopicIds="32570260"
   productPesIds="14785,16575"
   cloudEnvironments="public"
- />
+ 	articleId="8be60976-4cc8-41ee-9015-6f4968730bbf"
+/>
 
 # Problems configuring and provisioning users to an application
 

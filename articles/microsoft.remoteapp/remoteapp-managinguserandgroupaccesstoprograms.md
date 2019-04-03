@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="d0f150e3-e64e-4345-89f5-e6aca4bec2df"
 />
 
 # remoteapp ongoing management/managing user and group access to programs

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="e383eec4-f9c0-468e-992d-0ec0fe81ec42"
 />
 
 # remoteapp ongoing management/managing remoteapp virtual networks

@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785"
     cloudEnvironments="public"
- />
+ 	articleId="21443aa1-f71e-4357-9a93-f5566cdb85e3"
+/>
 
 # Other issues with licenses
 

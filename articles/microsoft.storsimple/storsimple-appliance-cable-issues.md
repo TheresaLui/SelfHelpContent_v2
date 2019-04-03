@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15438"
 	cloudEnvironments="public"
+	articleId="a3554947-cb8d-4158-a773-2e9def8dec5a"
 />
 
 # Appliance and Cable issues

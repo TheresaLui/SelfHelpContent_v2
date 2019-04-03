@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="56259d76-53c9-43dc-8754-aa04446a4961"
 />
 
 # How to create a Storage Account

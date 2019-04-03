@@ -10,6 +10,7 @@
 	productPesIds="15973"
 	supportTopicIds="32565573"
 	cloudEnvironments="public"
+	articleId="18b1c3d4-db18-4739-899e-196608a15cb1"
 />
 
 # Issues with Devices or Notifications/Push notification not received

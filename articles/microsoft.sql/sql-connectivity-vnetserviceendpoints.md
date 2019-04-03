@@ -1,19 +1,20 @@
 <properties
-	pageTitle="connectivity/VNET service endpoints"
-	description="connectivity/VNET service endpoints"
+	pageTitle="availability and connectivity/VNET service endpoints"
+	description="availability and connectivity/VNET service endpoints"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32589555"
+	supportTopicIds="32628804"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="7a0f9668-094b-4fa8-a4df-1950179ee78c"
 />
 
-# connectivity/VNET service endpoints
+# availability and connectivity/VNET service endpoints
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Configure a VNET](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration/)<br>
 * [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli/)<br>

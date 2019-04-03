@@ -8,9 +8,10 @@
     supportTopicIds="32570978"
     selfHelpType="generic"
     resourceTags=""
-    productPesIds="14785,16578"
+    productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="7f7ae579-3adf-49b1-8c83-64ad1a296d30"
+/>
 
 # I can't create and populate a dynamic group
 

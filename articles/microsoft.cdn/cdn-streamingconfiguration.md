@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="ebc5e081-e4f5-485c-8420-3cddcfd15221"
 />
 
 # configuration/streaming configuration
