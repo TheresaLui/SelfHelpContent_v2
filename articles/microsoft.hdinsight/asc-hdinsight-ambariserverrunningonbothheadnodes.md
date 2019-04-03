@@ -39,7 +39,7 @@ In an HDInsight cluster, the **headnodehost** is the default headnode on which a
 
 4. Run the following command to stop Ambari service on the standby node:<br>
 
-	`sudo ambari-server stop` or `sudo service ambari-server stop`
+	`sudo systemctl stop ambari-server` 
 
 ## **Recommended Documents**
 
