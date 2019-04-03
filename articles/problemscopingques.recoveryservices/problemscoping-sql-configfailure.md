@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for SQL database configuration failure"
          description="Scoping questions for SQL database configuration failure"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605793"
          productPesIds="15207"
@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "SQL database configuration failure",
     "fileAttachmentHint": "",
     "formElements": [
