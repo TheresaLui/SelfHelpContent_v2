@@ -18,27 +18,28 @@
 
 # <-- Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration --> 
 
-<b>Top Errors - SQL Server to Azure SQLDB offline migration</b>
+## **Recommended Steps**
 
-1. Could not start the scenario 'StartAzureSqlDbMigrationScenario' as an exception occurred while deserializing the input.<br>
-<b>What it means:</b> If you hit this error it means that you provided a bad input through PowerShell.<br>
-<b>What you can do:</b> Please review the input you provided.
+* **Error**: Could not start the scenario 'StartAzureSqlDbMigrationScenario' as an exception occurred while deserializing the input.
 
-2. Error 4060 - Login failed.<br>
-<b>What it means:</b> Authentication failed with the target database.<br>
-<b>What you can do:</b> Review user actions in <a href="https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017">Authentication Errors Page</a> and take appropriate action.
+	This error displays when you have provided a bad input through PowerShell. Please review the input you provided.
 
-3. Failed to start activity due to validation errors. Additional error information on column mismatch between source and target may be provided as well: <br>
-&nbsp;&nbsp;a. The table in the source and target database needs to have the same number of non-computed columns.<br>
-&nbsp;&nbsp;b. The nullability of column '<Column_name>' in table '<tablename>' is different on source and target.<br>
-&nbsp;&nbsp;c. The data type of the column in the source table does not match with the data type in the target table.<br>
-&nbsp;&nbsp;d. No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.<br>
-<b>What it means:</b> The schema between source and target databases for a given table is not the same - DMS cannot migrate with mismatched schema. You may not have migrated the schema to the target, migrated incorrectly or schema changed in either source or target after you migrated the schema.<br>
-<b>What you can do:</b> Make sure the schema on source and target is the same. Refer to select\deploy schema section in <a href="https://docs.microsoft.com/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-2017">SQL Server to Azure SQLDB Migration</a> if you need help.
+* **Error 4060 - Login failed**
 
+	Authentication has failed with the target database. Review user actions in [Authentication Errors Page](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017, and update authentication settings.
 
+* **Error**: Failed to start activity due to validation errors.
 
-## **Recommended documents**
-[Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)<br>
-[Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)<br>
-[Database Migration Guide](https://datamigration.microsoft.com/)
+	The schema between source and target databases for a given table is not the same - DMS cannot migrate with mismatched schema. You may not have migrated the schema to the target, migrated incorrectly or schema changed in either source or target after you migrated the schema. Make sure the schema on source and target is the same. Refer to the [SQL Server to Azure SQLDB Migration, select/deploy schema](https://docs.microsoft.com/sql/dma/dma-migrateonpremsqltosqldb?view=sql-server-2017). Additional error information on column mismatch between source and target may be provided as well:
+	
+	* The table in the source and target database needs to have the same number of non-computed columns
+	* The nullability of column '<Column_name>' in table '<tablename>' is different on source and target
+	* The data type of the column in the source table does not match with the data type in the target table
+	* No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.
+	
+	
+## **Recommended Documents**
+
+* [Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)<br>
+* Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)<br>
+* [Database Migration Guide](https://datamigration.microsoft.com/)
