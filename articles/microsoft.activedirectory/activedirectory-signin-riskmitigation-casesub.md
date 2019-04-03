@@ -19,6 +19,7 @@
 ## **Recommended steps**
 
 By configuring the [user risk conditional access policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-user-risk-policy), you can require a password change if a specified user risk level has been automatically detected.
+
 * [5 minute YouTube video: Identity Protection Overview](https://youtu.be/1REQYdZ6364)
 * [4 minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)
 * [7 minute YouTube video: How to use Identity Protection](https://youtu.be/zvCMpkOwRPs)
