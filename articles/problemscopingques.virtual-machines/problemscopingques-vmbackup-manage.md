@@ -46,7 +46,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "backup_JobID_Name",
@@ -55,7 +55,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "restore_JobID_Name",
@@ -64,7 +64,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed restore job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -112,9 +112,13 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -128,8 +132,8 @@
                     "text": "VM Agent (WA Agent) has latest version"
                 },
                 {
-                    "value": "​VM OS version is supported",
-                    "text": "​VM OS version is supported"
+                    "value": "VM OS version is supported",
+                    "text": "VM OS version is supported"
                 },
                 {
                     "value": "VM has internet connectivity",
@@ -142,9 +146,13 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "restoration_Type",
