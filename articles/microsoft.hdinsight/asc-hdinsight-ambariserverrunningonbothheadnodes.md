@@ -1,13 +1,13 @@
 <properties
     ms.author="v-anreg"
     pageTitle="Ambari service running on both headnodes"
-    description="AmbariPortalIssue"
+    description="Ambari Service Issue"
     infoBubbleText="Ambari service is running on both headnodes. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
     authors="anirudhrege"
     displayOrder=""
-    articleId="Hdi_Ambari_ServiceRunningOnBothHeadnodes"
+    articleId="Hdi-Ambari-ServiceRunningOnBothHeadnodes"
     diagnosticScenario="HDInsightAmbariServiceInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32588422, 32588429, 32588445"
@@ -16,7 +16,9 @@
     cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Ambari Service is running on both headnodes
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has Ambari server running on both headnodes: <!--$Host-->[Host]<!--/$Host-->
