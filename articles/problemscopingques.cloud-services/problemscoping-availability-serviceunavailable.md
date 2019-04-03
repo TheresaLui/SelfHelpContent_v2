@@ -18,23 +18,10 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "Start time of most recent occurrence",
-                    "required": true
-                },{
-                    "id": "unavailable_symptoms",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                      "id": "iis_logs",
-                      "order": 3,
+                      "id": "connect_url",
+                      "order": 1,
                       "controlType": "dropdown",
-                      "displayLabel": "Have you checked the IIS logs on the role instances during this time? If yes, please upload the IIS logs corresponding to this time.",
+                      "displayLabel": "Can you connect to {cloudserviceName}.cloudapp.net URL?",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {
@@ -47,29 +34,42 @@
                         ],
                         "required": false
                   },{
-                      "id": "if_external_monitoring",
-                      "order": 4,
-                      "controlType": "dropdown",
-                      "displayLabel": "Do you have any external monitoring/logging in your code/performance counters that were high during this time?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                        {
-                          "value": "Yes (specify below)",
-                          "text": "Yes (specify below)"
-                        },{
-                          "value": "No",
-                          "text": "No"
-                        }
-                        ],
-                        "required": false
-                  },{
+                    "id": "unavailable_symptoms",
+                    "order": 2,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
+                    "required": false,
+                    "useAsAdditionalDetails": false
+                },{
+                    "id": "if_collectdata",
+                    "order": 3,
+                    "controlType": "dropdown",
+                    "displayLabel": "Have you collected any data during the time of the issue? If yes, please share.",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                      {
+                        "value": "Yes",
+                        "text": "Yes"
+                      },{
+                        "value": "No",
+                        "text": "No"
+                      }
+                      ],
+                      "required": false
+                },{
                   "id": "problem_description",
-                  "order": 5,
+                  "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  }
+                  },{
+                    "id": "problem_start_time",
+                    "order": 5,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                }
                 ]
 }
 ---

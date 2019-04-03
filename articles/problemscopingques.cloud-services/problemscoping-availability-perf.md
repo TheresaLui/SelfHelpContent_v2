@@ -18,20 +18,8 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "Start time of most recent occurrence",
-                    "required": true
-                },{
-                    "id": "slowness_second",
-                    "order": 2,
-                    "controlType": "textbox",
-                    "displayLabel": "How much is the slowness (in seconds)?",
-                    "required": false
-                },{
                     "id": "occurrence_pattern",
-                    "order": 3,
+                    "order": 1,
                     "controlType": "dropdown",
                     "displayLabel": "What is the pattern of occurrence of the issue?",
                     "watermarkText": "Choose an option",
@@ -52,39 +40,42 @@
                       ],
                       "required": false
                   },{
-                      "id": "cpu_util",
-                      "order": 4,
+                      "id": "unavailable_symptoms",
+                      "order": 2,
                       "controlType": "multilinetextbox",
-                      "displayLabel": "What is CPU / Memory / Disk / Network Utilization during the time of the issue?",
+                      "displayLabel": "What were the exact symptoms during the time the service was unavailable?",
                       "required": false,
                       "useAsAdditionalDetails": false
                   },{
-                      "id": "mitigation_steps",
-                      "order": 5,
+                      "id": "if_collectdata",
+                      "order": 3,
                       "controlType": "dropdown",
-                      "displayLabel": "What mitigation steps do you take to overcome the issue?",
+                      "displayLabel": "Have you collected any data during the time of the issue? If yes, please share.",
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                         {
-                          "value": "The problem resolves itself on its own",
-                          "text": "The problem resolves itself on its own"
+                          "value": "Yes",
+                          "text": "Yes"
                         },{
-                          "value": "I have to recycle IIS/Reboot the instance to resolve the problem",
-                          "text": "I have to recycle IIS/Reboot the instance to resolve the problem"
-                        },{
-                          "value": "Other (describe below)",
-                          "text": "Other (describe below)"
+                          "value": "No",
+                          "text": "No"
                         }
                         ],
                         "required": false
                   },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 4,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  }
+                  },{
+                    "id": "problem_start_time",
+                    "order": 5,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                }
                 ]
 }
 ---

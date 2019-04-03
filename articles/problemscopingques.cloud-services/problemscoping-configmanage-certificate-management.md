@@ -18,22 +18,8 @@
                 "fileAttachmentHint": "",
                 "formElements": [
                 {
-                    "id": "scaling_error",
-                    "order": 1,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What is the error you received?",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
-                    "id": "cert_resource_info",
-                    "order": 2,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "Please provide all the information regarding the certificate and the resource.",
-                    "required": false,
-                    "useAsAdditionalDetails": false
-                },{
                     "id": "certificate_kind",
-                    "order": 3,
+                    "order": 1,
                     "controlType": "dropdown",
                     "displayLabel": "Which kind of certificates you are referring to?",
                     "watermarkText": "Choose an option",
@@ -48,6 +34,20 @@
                       ],
                       "required": false
                   },{
+                    "id": "scaling_error",
+                    "order": 2,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "What is the error you received?",
+                    "required": false,
+                    "useAsAdditionalDetails": false
+                },{
+                    "id": "cert_resource_info",
+                    "order": 3,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "Please provide all the information regarding the certificate and the resource.",
+                    "required": false,
+                    "useAsAdditionalDetails": false
+                },{
                   "id": "problem_description",
                   "order": 4,
                   "controlType": "multilinetextbox",
