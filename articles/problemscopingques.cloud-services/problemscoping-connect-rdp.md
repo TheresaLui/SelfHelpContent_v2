@@ -22,7 +22,7 @@
                     "id": "disable_reenable",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "Have you tried to <a href='https://docs.microsoft.com/azure/cloud-services/cloud-services-role-enable-remote-desktop-new-portal'>disable and re-enable RDP from the Azure portal</a>?",
+                    "displayLabel": "Have you tried to disable and re-enable RDP from the Azure portal?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                       {
