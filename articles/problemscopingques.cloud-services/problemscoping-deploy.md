@@ -13,6 +13,7 @@
 # Deployment
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "fileAttachmentHint": "",
                 "formElements": [

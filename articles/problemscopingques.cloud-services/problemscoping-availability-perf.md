@@ -13,6 +13,7 @@
 # Availability
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Performance",
                 "fileAttachmentHint": "",

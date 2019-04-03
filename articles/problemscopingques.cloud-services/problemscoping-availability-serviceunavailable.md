@@ -13,6 +13,7 @@
 # Availability
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Service was or is unavailable",
                 "fileAttachmentHint": "",

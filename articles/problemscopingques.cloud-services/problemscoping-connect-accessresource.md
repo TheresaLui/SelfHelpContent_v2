@@ -13,6 +13,7 @@
 # Connectivity
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Problem that is related to accessing resources from Cloud Services",
                 "fileAttachmentHint": "",

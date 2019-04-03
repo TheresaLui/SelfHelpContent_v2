@@ -13,6 +13,7 @@
 # Config and Management
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Scaling",
                 "fileAttachmentHint": "",

@@ -13,6 +13,7 @@
 # Connectivity
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Unable to connect using RDP",
                 "fileAttachmentHint": "",
@@ -21,7 +22,7 @@
                     "id": "disable_reenable",
                     "order": 1,
                     "controlType": "dropdown",
-                    "displayLabel": "Have you tried to disable and re-enable RDP from the [Azure portal](data-blade:Microsoft_Azure_CloudServices.RemoteDesktopBlade.id.$subscriptionId)?",
+                    "displayLabel": "Have you tried to disable and re-enable RDP from the <a href='data-blade:Microsoft_Azure_CloudServices.RemoteDesktopBlade.id.$subscriptionId'>Azure portal</a>?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                       {
