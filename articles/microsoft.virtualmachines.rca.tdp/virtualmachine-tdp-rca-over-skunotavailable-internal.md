@@ -21,13 +21,13 @@
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you were trying to deploy.
 <!--/issueDescription-->
 
-These restrictions are put in place due to numerous business and technical constraints, as well as capacity limitations. We apologize for any inconvenience this may have caused  you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.
+These restrictions are put in place due to numerous business and technical constraints, including capacity limitations. We apologize for any inconvenience this may have caused  you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.
 
 ## Recommended steps
 
 ### Consider alternative sizes or locations
 
-We encourage you to consider an alternate location or VM size that meets your business needs. You can use PowerShell or Azure CLI to query which SKUs are available. For more information see the following:
+We encourage you to consider an alternate location or VM size that meets your business needs. You can use PowerShell or Azure CLI to query which SKUs are available. For more information see the following documents:
 
 * [Resolve errors for SKU unavailable](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
 * [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)<br>
