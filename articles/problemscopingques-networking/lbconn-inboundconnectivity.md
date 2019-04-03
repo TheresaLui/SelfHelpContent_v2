@@ -82,7 +82,7 @@
 		 "order": 5,
 		 "controlType": "multilinetextbox",
 		 "displayLabel": "Please specify any additional details",
-		 "required": false,
+		 "required": true,
 		 "useAsAdditionalDetails": true,
 		 "hints": [
 			 {
