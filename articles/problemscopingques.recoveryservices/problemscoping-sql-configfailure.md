@@ -79,7 +79,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "jobID_Name",
@@ -127,7 +127,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_start_time",
