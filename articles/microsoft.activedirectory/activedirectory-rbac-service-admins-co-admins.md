@@ -15,11 +15,11 @@
     cloudEnvironments="public"
 />
 
-# Issues with service admins or co-admins
+# Azure Active Directory: Issues with service admins or co-admins
 
 ## **Recommended Steps**
 
-- If you are having issues with Service administrator or Co-administrators, see the recommended documentation.
+- If you are having issues with Service administrator or Co-administrators, see the recommended documentation
 
 ## **Recommended Documents**
 
