@@ -46,7 +46,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "backup_JobID_Name",
@@ -55,7 +55,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "restore_JobID_Name",
@@ -64,7 +64,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed restore job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -114,7 +114,7 @@
                     "text": "My error message is not listed here"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -128,8 +128,8 @@
                     "text": "VM Agent (WA Agent) has latest version"
                 },
                 {
-                    "value": "​VM OS version is supported",
-                    "text": "​VM OS version is supported"
+                    "value": "VM OS version is supported",
+                    "text": "VM OS version is supported"
                 },
                 {
                     "value": "VM has internet connectivity",
@@ -144,7 +144,7 @@
                     "text": "Another backup service is not running"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "restoration_Type",
