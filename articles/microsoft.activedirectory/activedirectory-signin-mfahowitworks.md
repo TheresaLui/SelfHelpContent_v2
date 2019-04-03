@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 * [YouTube video: How to get started with Azure MFA the right way](https://www.youtube.com/watch?v=x7W3vjpF8y4&t=4s)
-* [Get a step-by-step MFA deployment plan](https://aka.ms/MFADeploymentPlan)
+* [Get a step-by-step MFA deployment plan](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 * [Find details about licensing your users](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-licensing)
 * [Get details about which version to deploy](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-whichversion)
 

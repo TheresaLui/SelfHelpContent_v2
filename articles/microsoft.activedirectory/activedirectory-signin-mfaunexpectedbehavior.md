@@ -20,7 +20,7 @@
 ## **Recommended steps**
 
 * [YouTube video: How to get started with Azure MFA the right way](https://www.youtube.com/watch?v=x7W3vjpF8y4&t=4s)
-* [Get a step-by-step MFA deployment plan](https://aka.ms/MFADeploymentPlan)
+* [Get a step-by-step MFA deployment plan](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## **Recommended documents**
 
