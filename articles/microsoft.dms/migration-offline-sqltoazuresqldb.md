@@ -26,7 +26,7 @@
 
 * **Error 4060 - Login failed**
 
-	Authentication has failed with the target database. Review user actions in [Authentication Errors Page](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017, and update authentication settings.
+	Authentication has failed with the target database. Review user actions in [Authentication Errors Page](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-2017), and update authentication settings.
 
 * **Error**: Failed to start activity due to validation errors.
 
@@ -41,5 +41,5 @@
 ## **Recommended Documents**
 
 * [Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)<br>
-* Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)<br>
+* [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
