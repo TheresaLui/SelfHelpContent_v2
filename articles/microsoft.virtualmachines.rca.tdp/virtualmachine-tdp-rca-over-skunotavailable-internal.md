@@ -34,5 +34,5 @@ We encourage you to consider an alternate location or VM size that meets your bu
 
 ### Request Exemption
 
-If you are unable to find suitable alternate locations or VM sizes and are dependent on this specific combination, please let us know and we will see what options are available. If possible, will try to enable this VM Size and region for your subscription.
+If you are unable to find suitable alternate locations or VM sizes and are dependent on this specific combination, please let us know and we will see what options are available. If possible, we will try to enable this VM Size and region for your subscription.
 
