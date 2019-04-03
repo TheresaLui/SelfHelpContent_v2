@@ -7,7 +7,7 @@
     resource="clusters"
     authors="anirudhrege"
     displayOrder=""
-    articleId="Hdi-Ambari-ServiceRunningOnBothHeadnodes"
+    articleId="Hdi_Ambari_ServiceRunningOnBothHeadnodes"
     diagnosticScenario="HDInsightAmbariServiceInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32588422, 32588429, 32588445"
