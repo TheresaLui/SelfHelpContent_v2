@@ -7,7 +7,7 @@
     resource="clusters"
     authors="anirudhrege"
     displayOrder=""
-    articleId="Hdi-Ambari-ServerNotRunning"
+    articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32628984, 32629005, 32629006"
