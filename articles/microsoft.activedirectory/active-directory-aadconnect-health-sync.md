@@ -7,7 +7,7 @@
     ms.author="zhiweiw"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629810,32629815"
+    supportTopicIds="32629810,32629812"
     resourceTags=""
     productPesIds="16577,16578"
     cloudEnvironments="public"
