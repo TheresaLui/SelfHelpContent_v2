@@ -16,7 +16,7 @@
 
 # Risk mitigation (such as password reset and dismissal)
 
-## **Recommended steps**
+## **Recommended Steps**
 
 By configuring the [user risk conditional access policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-user-risk-policy), you can require a password change if a specified user risk level has been automatically detected.
 
