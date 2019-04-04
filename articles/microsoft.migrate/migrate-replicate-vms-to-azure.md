@@ -62,4 +62,4 @@
 	There are two cases here: 
 	
 	* Where some disks succeeded in their upload -> For these disks, the consecutive retry of the cycle would upload lesser data.
-	F* or the failed disks, it would upload the whole data again as the underlying snapshot has changed and hence, we cannot reuse the previously uploaded data.
+	* For the failed disks, it would upload the whole data again as the underlying snapshot has changed and hence, we cannot reuse the previously uploaded data.
