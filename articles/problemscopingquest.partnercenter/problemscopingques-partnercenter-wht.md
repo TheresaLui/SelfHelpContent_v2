@@ -15,6 +15,7 @@
 ---
 {
     "title": "Partner Center WHT Issue",
+	"subscriptionRequired": false,
     "fileAttachmentHint": "Upload your tax certificate here",
     "formElements": [
         {

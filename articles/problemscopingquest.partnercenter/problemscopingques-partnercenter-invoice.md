@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": true,
+	"subscriptionRequired": true,
 	"title": "Partner Center Invoice Issue",
 	"fileAttachmentHint": "",
 	"formElements": [{
