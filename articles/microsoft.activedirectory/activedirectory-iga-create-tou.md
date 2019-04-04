@@ -19,6 +19,5 @@
 
 ## **Recommended Steps**
 
-1.	In the Azure portal, navigate to Azure AD Terms of Use.
-
-2.	Create a new Terms of Use, ensure that the total file size across all PDF's are less than 2MB
+1.	In the Azure portal, navigate to Azure AD Terms of Use
+2.	Create a new Terms of Use, and ensure that the total file size across all PDF's are less than 2MB
