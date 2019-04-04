@@ -16,7 +16,7 @@
 
 # Configuring new or existing policy settings for Azure Active Directory Services
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * If you would like a video on how to configure Conditional Access, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA)
 * [Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
