@@ -7,14 +7,14 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599859"
+    supportTopicIds="32599905"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="03905ebe-c243-4c0d-ad0f-f33720a11133"
+	articleId="60d4c7d5-b132-4b31-baf3-476922fb54df"
 />
 
-# Azure Automation - Runbook Development
+# Azure Automation - Graphical PowerShell Runbook Development
 Here are some common issues when creating new runbooks for use with Azure Automation.
 
 ## **Recommended Steps**
@@ -22,6 +22,7 @@ Here are some common issues when creating new runbooks for use with Azure Automa
 Specific problems and their solutions are listed below, but we highly recommend you try these this first:
 
 * Try [executing the runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
+* Review the [Graphical runbook SDK](https://docs.microsoft.com/azure/automation/graphical-runbook-sdk)
 
 **Runbook fails with "Command not found" or "Cannot bind parameter" message**
 
