@@ -24,7 +24,7 @@ By configuring the [user risk conditional access policy](https://docs.microsoft.
 * [4 minute YouTube video: How to deploy Identity Protection](https://youtu.be/zEsbbik-BTE)
 * [7 minute YouTube video: How to use Identity Protection](https://youtu.be/zvCMpkOwRPs)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How To: Unblock users](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-unblock-user)
 * [How To: Close active risk events](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-close-active-risk-events)
