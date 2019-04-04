@@ -16,7 +16,9 @@
 	cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Operation not allowed on generalized Virtual Machine
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because starting a generalized VM is not supported.
@@ -26,11 +28,11 @@ A generalized VM is a virtual machine with personal account information removed 
 
 There is no way to return the VM that generated this error back to its original state as a functioning virtual machine; however the following options may be helpful depending on your resources:
 
-- Replace the VM by recreating it from the VHD used to create the original VM.
-- Create a new VM from the image used to create the original VM.
+- Replace the VM by recreating it from the VHD used to create the original VM
+- Create a new VM from the image used to create the original VM
 - Create a new VM with a VHD that contains the user accounts, applications, and other state data from your original VM. Attach the VHD as the OS disk.<br>
 
-See the following documents for help with your deployments:
+## **Recommended Documents**
 
 - [Create a managed image of a generalized VM in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-classic-capture-image/)
 - [Create an unmanaged VM image from an Azure VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-capture-image)
