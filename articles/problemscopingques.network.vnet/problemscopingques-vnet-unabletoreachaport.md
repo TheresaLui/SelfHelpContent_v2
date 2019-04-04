@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Unable to reach a port",
     "fileAttachmentHint": "",
     "formElements": [
