@@ -18,6 +18,6 @@
 
 ## **Recommended Steps**
 
-**Any issue in a VM migration using Azure Site Recovery**
+* **Any issue in a VM migration using Azure Site Recovery**
 
-Use 'Site Recovery' Service.
+	Use 'Site Recovery' Service.
