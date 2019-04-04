@@ -4,16 +4,19 @@
 	authors="lisaliu"
     ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629483, 32629550, 32629529, 32629491, 32629490, 32629507, 32629504, 32629505, 32629488, 32629489, 32629431, 32629470, 32629463, 32629461, 32629468, 32629466, 32629469, 32629465, 32629462, 32629464, 32629467, 32629455, 32629457, 32629456, 32629460, 32629458, 32629459, 32629423, 32629443, 32629515, 32629500, 32629518, 32629432, 32629444, 32629516, 32629501, 32629523, 32629436"
+    supportTopicIds="32629483, 32629550, 32629529, 32629491, 32629490, 32629507, 32629504, 32629505, 32629488, 32629489, 32629431, 32629466, 32629469, 32629465, 32629462, 32629464, 32629455, 32629457, 32629456, 32629460, 32629458, 32629459, 32629423, 32629443, 32629515, 32629500, 32629518, 32629432, 32629444, 32629516, 32629501, 32629523, 32629436"
 	productPesIds="15613"
 	cloudEnvironments="public"
 	schemaVersion="1"
     articleId="BE3D6801-3F87-41BC-ACF9-B9DA8A86C55C"
 />
+
 # Azure Data Factory Pipeline Info
+
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure Data Factory Pipeline Info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service, and output of activity run to help us triage your problem faster",
     "formElements": [
@@ -57,7 +60,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Sample problem activity RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
