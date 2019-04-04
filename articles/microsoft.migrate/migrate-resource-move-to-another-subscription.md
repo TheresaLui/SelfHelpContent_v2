@@ -18,10 +18,10 @@
 
 ## **Recommended Steps**
 
-**Migrate resources from one subscription to other subscription**
+* **Migrate resources from one subscription to other subscription**
 
-Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service.
+	Use the corresponding service for the resource being migrated. For example, to migrate Azure VMs (Windows) from one subscription to another subscription, use 'Virtual Machine running Windows" service.
 
-**Migrate Managed disk to different subscription**
+* **Migrate Managed disk to different subscription**
 
-Use 'Storage Account Management' service.
+	Use 'Storage Account Management' service.
