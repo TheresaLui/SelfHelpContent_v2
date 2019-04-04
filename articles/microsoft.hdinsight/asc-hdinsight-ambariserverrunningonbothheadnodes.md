@@ -1,7 +1,7 @@
 <properties
     ms.author="v-anreg"
     pageTitle="Ambari service running on both headnodes"
-    description="AmbariPortalIssue"
+    description="Ambari Service Issue"
     infoBubbleText="Ambari service is running on both headnodes. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
@@ -16,7 +16,9 @@
     cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Ambari Service is running on both headnodes
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has Ambari server running on both headnodes: <!--$Host-->[Host]<!--/$Host-->
@@ -39,7 +41,7 @@ In an HDInsight cluster, the **headnodehost** is the default headnode on which a
 
 4. Run the following command to stop Ambari service on the standby node:<br>
 
-	`sudo ambari-server stop` or `sudo service ambari-server stop`
+	`sudo systemctl stop ambari-server` 
 
 ## **Recommended Documents**
 
