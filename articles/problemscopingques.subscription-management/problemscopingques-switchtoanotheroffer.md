@@ -4,9 +4,9 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454938,32632959"
+	supportTopicIds="32632959"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="switchtoanotheroffer"
 />
@@ -104,7 +104,7 @@
           "text": "Visual Studio Test Professional"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],

@@ -13,7 +13,7 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "I am unable to deploy a captured or generalized image",
     "fileAttachmentHint": "",
     "formElements": [
@@ -45,12 +45,12 @@
         {
             "id": "correlationId",
             "order": 2,
-            "visibility": "resourceGroup != null",
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
             "controlType": "dropdown",
             "displayLabel": "Select failed deployment",
             "dynamicDropdownOptions": {
                 "dependsOn": "resourceGroup",
-                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{resourceGroup}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{replaceWithParentValue}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
                 "jTokenPath": "value",
                 "textProperty": "properties.timestamp,properties.parameters.location.value,name",
                 "textTemplate": "Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
@@ -102,7 +102,7 @@
             "visibility": "deployment_from == Snapshot",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the attempted snapshot?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_caputre_date",
@@ -110,7 +110,7 @@
             "visibility": "deployment_from == Captured image",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the image capture?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_restore_date",
@@ -118,7 +118,7 @@
             "visibility": "deployment_from == Backup",
             "controlType": "datetimepicker",
             "displayLabel": "When was the time of the attempted backup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

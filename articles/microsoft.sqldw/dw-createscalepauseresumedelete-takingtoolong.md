@@ -7,9 +7,9 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635192"
 	productPesIds="15818"
-	displayOrder="109"
+	displayOrder="21"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-createscalepauseresumedelete-takingtoolong.md"
 	cloudEnvironments="public"
 />

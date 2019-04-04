@@ -7,9 +7,9 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635183, 32635184, 32635185, 32635187, 32635191, 32635199, 32635213, 32635221, 32635222, 32635233"
 	productPesIds="15818"
-	displayOrder="108"
+	displayOrder="80"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance.md"
 	cloudEnvironments="public"
 />

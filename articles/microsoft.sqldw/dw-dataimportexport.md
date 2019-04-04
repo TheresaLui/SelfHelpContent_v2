@@ -7,13 +7,13 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635179, 32635209, 32635226, 32635227, 32635228, 32635229, 32635230, 32635231"
 	productPesIds="15818"
-	displayOrder="104"
+	displayOrder="40"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-dataimportexport.md"
 	cloudEnvironments="public"
 />
-# Data Import, Export (ETL)
+# How to troubleshoot data import and export issues
 
 ## **Recommended Steps**
 

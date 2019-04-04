@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593233"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="b4b6273d-558e-4f2d-ab00-36a830ea4369"
 />
@@ -74,8 +74,8 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
             "watermarkText": "Provide any additional information about your issue",
+	    "displayLabel": "Additional details",
             "required": true
         }
     ]

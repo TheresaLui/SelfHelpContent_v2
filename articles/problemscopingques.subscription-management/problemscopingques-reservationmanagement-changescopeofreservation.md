@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593232"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="changescopeofreservation"
 />
@@ -73,8 +73,8 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
+	    "displayLabel": "Additional details",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
             "watermarkText": "Please provide a brief description of your issue",
             "required": true
         }

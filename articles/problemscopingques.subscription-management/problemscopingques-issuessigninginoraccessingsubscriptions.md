@@ -5,9 +5,9 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454922,32632953"
+	supportTopicIds="32632953"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 # Issues Signing In or Accessing My Subscriptions
@@ -30,7 +30,7 @@
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide the Subscription ID",
-      "required": true
+      "required": false
     },
     {
       "id": "emailid_details",
@@ -75,7 +75,7 @@
           "text": "Mozilla Firefox"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],
@@ -87,7 +87,7 @@
       "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "error_details",
@@ -95,7 +95,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Error message/Screenshot of the error ",
       "watermarkText": "Provide the error message/Screenshot of the error ",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

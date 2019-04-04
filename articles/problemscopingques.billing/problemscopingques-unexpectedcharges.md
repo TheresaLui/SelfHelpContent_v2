@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632931"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 # Unexpected Charges
@@ -31,7 +31,7 @@
       "useAsAdditionalDetails": true,
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide your Subscription ID",
-      "required": true
+      "required": false
     },
     {
       "id": "service_details",

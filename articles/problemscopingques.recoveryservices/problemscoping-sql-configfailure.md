@@ -8,12 +8,13 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="fbf623da-eef7-4edc-b642-b63859051ee6"
+         articleId="e8dd5b26-088b-4b3f-a448-7c634e2c9dcf"
 />
 # Questions SQL database configuration failure
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "SQL database configuration failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -33,7 +34,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -42,7 +43,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -78,7 +79,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -90,12 +91,12 @@
             "required": false
         },
         {
-            "id": "error_message",
+            "id": "error_code",
             "order": 7,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste the error message details",
+            "displayLabel": "Provide the error code that are you seeing:",
+            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
             "required": true
         },
         {
@@ -126,7 +127,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
