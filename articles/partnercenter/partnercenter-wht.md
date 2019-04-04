@@ -13,6 +13,7 @@
 	supportTopicIds="32606526,32633891"
 	resourceTags="csp"
 	productPesIds="15960"
+	clientIds="partnercenter"
 	cloudEnvironments="public"
 />
 

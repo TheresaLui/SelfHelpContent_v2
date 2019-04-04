@@ -6,6 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32569834,32633857"
 	productPesIds="15960"
+	clientIds="partnercenter"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_invoice"

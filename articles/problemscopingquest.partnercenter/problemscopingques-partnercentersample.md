@@ -7,6 +7,7 @@
 	supportTopicIds="32444666,32633819"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	clientIds="partnercenter"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercentersample"
 />
