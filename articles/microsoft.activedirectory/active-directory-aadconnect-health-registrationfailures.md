@@ -6,7 +6,7 @@
 	authors="zhiweiw"
 	ms.author="zhiweiw"
 	displayOrder="100"
-	supportTopicIds="32629816,32629812,32629815"
+	supportTopicIds="32629815"
 	productPesIds="16577"
 	selfHelpType="resource"
 	cloudEnvironments="public"
