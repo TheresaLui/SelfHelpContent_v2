@@ -1,22 +1,22 @@
 <properties
-    pageTitle="Troubleshoot Runbook Execution in Azure Automation"
-    description="Troubleshoot Runbook Execution in Azure Automation"
+    pageTitle="Troubleshoot Runbook Execution in Azure Automation - Specific Cmdlet"
+    description="Troubleshoot Runbook Execution in Azure Automation - Specific Cmdlet"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599860,32615224,32628014,32628013"
+    supportTopicIds="32599906"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-    articleId="e633b59d-0baf-4a33-8caf-e135f3d246cd"
+    articleId="e6aa0e07-ef84-4cd1-acad-2c01d04ddb46"
 />
 
 # Troubleshoot Runbook Execution in Azure Automation
 
-Here are some common issues with executing runbooks in Azure Automation and how to address them. Please note that Support will not write a new script for you based on your needs, but we will work with you to ensure your existing script executes correctly inside of Azure Automation. 
+Please note that Support will not write a new script for you based on your needs, but we will work with you to ensure your existing script executes correctly inside of Azure Automation. 
 
 ## **Recommended Steps**
 
@@ -24,10 +24,15 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 * Try running the [runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
+* Ensure you are using the RunAs service principle with the -ServicePrincipal parameter on any Azure resources. Using credentials within the Azure Automation sandbox may lead to authentication failures. 
 
 ### Runbook fails with "The subscription cannot be found" error
 
 This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription).
+
+### Dealing with multiple subscriptions inside of a runbook
+
+* If you need to manage Azure resources across several subscriptions with Azure Automation, please follow the guidance in ["Dealing with Multiple Subscriptions"](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-auth-failure) to prevent errors. 
 
 ### Runbook fails with error "Strong authentication enrollment is required"
 
@@ -49,26 +54,30 @@ There are several reasons why a runbook may be suspended or failed:
 
 * See the ["Request rate too large" section of the Runbook troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#429)
 
-### Hybrid runbook worker doesn't run jobs or isn't responding
-
-If you are running jobs using a hybrid worker instead of in Azure Automation, you might need to troubleshoot the hybrid worker itself:
-
-* [Troubleshoot runbooks in hybrid runbook workers](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)
-
-### Runbooks were working, but suddenly stopped
-
-* If runbooks were previously executing but stopped, [ensure the RunAs account has not expired](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal)
-* If you are using webhooks to start runbooks, [ensure the webhook has not expired](https://docs.microsoft.com/azure/automation/automation-webhooks#renew-webhook).
-
-### Passing parameters into webhooks
-
-* For help passing parameters into webhooks, see [Start a runbook from a webhook](https://docs.microsoft.com/azure/automation/automation-webhooks#parameters)
-
 ### Using Az modules
 
 * Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/az-modules).
 
 If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510) before opening a case. This will help us resolve your case as quickly as possible.
+
+### Using cmdlets that depend on binaries
+
+* Some cmdlets may rely on binaries, such as Microsoft Data Access Components (MDAC) or the Azure Fabric SDK. These cmdlets can not be run inside of the Azure Automation sandbox and need to be executed via [a hybrid worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). 
+
+### "Forbidden with client authentication scheme "anonymous""
+
+* This error occurs when using credentials inside of an Azure Automation sandbox. Please use the -ServicePrincipal parameter on any Azure resources with the RunAs account. 
+
+### "Unable to require token for tenant XXX-XXX-XXX-XXX"
+
+* This error occurs when using credentials inside of an Azure Automation sandbox. Please use the -ServicePrincipal parameter on any Azure resources with the RunAs account. 
+
+### "Server failed to authenticate the request"
+
+* This error occurs when using credentials inside of an Azure Automation sandbox. Please use the -ServicePrincipal parameter on any Azure resources with the RunAs account. 
+
+
+
 
 ## **Recommended Documents**
 
