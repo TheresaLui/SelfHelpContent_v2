@@ -18,5 +18,6 @@
 
 ## **Recommended Steps**
 
-### **I am unable to export the assessment report**
-If you are unable to export the assessment report from the portal, try using the REST API to get a download URL for the assessment report as mentioned in the [documentation](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-am-unable-to-export-the-assessment-report).
+* **I am unable to export the assessment report**
+
+	If you are unable to export the assessment report from the portal, try using the REST API to get a download URL for the assessment report as mentioned in the [documentation](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-am-unable-to-export-the-assessment-report).
