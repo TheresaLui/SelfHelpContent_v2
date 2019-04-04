@@ -16,11 +16,11 @@
 
 # Risk-based policies, notifications, and named locations
 
-## **Recommended steps**
+## **Recommended Steps**
 
 The [sign-in risk policy](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-sign-in-risk-policy) is an automated response you can configure for a specific sign-in risk level. In your response, you can block access to your resources or require passing a [multi-factor authentication (MFA) challenge](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-mfa-policy) to gain access.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 The following documents can help answer some of the most common questions in this category:
 
