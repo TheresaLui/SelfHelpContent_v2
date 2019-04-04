@@ -18,8 +18,10 @@
 
 ## **Recommended Steps**
 
-### **Are there any reporting options available to track the migrated VMs? [Basic migration lifecycle tracking of a VM]**
-Yes, within the tool there is an overview page that gives you this information.
+* **Are there any reporting options available to track the migrated VMs? [Basic migration lifecycle tracking of a VM]**
 
-### **Is there a option to group the migration VMs during replication and cutover for tracking? [Comes in handy when more than 50 VMs are involved in migration]**
-Currently we are recommending that migratons be performed in batches of 50VMs (That is not have more than 50 VMs simultaneously replicating at any time). We will be increasing this limit in GA and will add appliance scale-out options after GA to increase simultaneous replication scale. For replication and migration, portal lets you multi-select VMs on which the action is to be performed.
+	Yes, within the tool there is an overview page that gives you this information.
+
+* **Is there a option to group the migration VMs during replication and cutover for tracking? [Comes in handy when more than 50 VMs are involved in migration]**
+
+	Currently we are recommending that migratons be performed in batches of 50VMs (that is, not have more than 50 VMs simultaneously replicating at any time). We will be increasing this limit in GA and will add appliance scale-out options after GA to increase simultaneous replication scale. For replication and migration, portal lets you multi-select VMs on which the action is to be performed.
