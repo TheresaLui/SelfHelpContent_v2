@@ -64,4 +64,4 @@ Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/Data%2
 
 If the user has the permissions to create folders, a folder with all the resulting files will be created. When running on Windows, the folder will be opened automatically after the script completes. When running on Azure Portal Cloud Shell the files will be stored in the file share (clouddrive). A zip file with all the files (AllFiles.zip) will be created. 
 
-Please send us AllFiles.zip or the log from the output window in case user cannot write files.
+Please send us AllFiles.zip or the log from the output window in case user cannot write files, you have the chance to upload files in the Details phase of the case submission.
