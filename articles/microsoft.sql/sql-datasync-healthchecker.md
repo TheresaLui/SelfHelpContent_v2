@@ -30,6 +30,7 @@ Can you please run it and send us the results?
 3. Paste the following in the script window (please note that, except databases and credentials, the other parameters are optional):
 
 ```powershell
+
 $parameters = @{
     ## Databases and credentials
     # Sync metadata database credentials (Only SQL Authentication is supported)
@@ -54,9 +55,9 @@ $parameters = @{
 }
  
 $scriptUrlBase = 'https://raw.githubusercontent.com/vitomaz-msft/DataSyncHealthChecker/master'
-
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/Data%20Sync%20Health%20Checker.ps1')).Content)) -ArgumentList $parameters
 #end
+
 ```
 
 4. Set the parameters on the script, you need to set server names, database names, users and passwords.
