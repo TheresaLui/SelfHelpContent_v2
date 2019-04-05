@@ -32,16 +32,11 @@ You can clean up the deployment history using one of the following methods:
 
 ### Delete deployments using PowerShell
 
-1. Open PowerShell
-2. Login to the subscription and run the following:
-
-```
-Get-AzureRmResourceGroupDeployment -ResourceGroupName <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup--> |  Where-Object {$_.DeploymentName -like "*parentdeployment*" -or $_.DeploymentName -like "*subdeployment*"} | Where-Object {$_.Timestamp -lt (get-date).AddDays(-5)} | Where-Object {$_.ProvisioningState -like "Succeeded"} | Remove-AzureRmResourceGroupDeployment -ResourceGroupName <!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup--> -Name { $_.DeploymentName } -ErrorAction SilentlyContinue
-```
+Refer to the [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/) documentation.
 
 ### Periodic deletion using Runbook
 
-You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments. Refer to the [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/) documentation for more information.
+You can also setup a scheduled [Runbook within Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks) to execute a PowerShell script to periodically clean out the stored Resource Group Deployments.
 
 ## **Recommended Documents**
 
