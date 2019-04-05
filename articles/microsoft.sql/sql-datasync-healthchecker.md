@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-We have a tool called Azure SQL Data Sync Health Checker. This PowerShell script will check if all the metadata of a hub and member is in place and also validate the scopes against the information we have on the sync metadata database (among other validations). This script will not make any changes, will just validate data sync and user objects. It will also gather some useful information for faster troubleshooting. More details can be found at https://github.com/vitomaz-msft/DataSyncHealthChecker. If you run this test, please submit the results via 
+We have a tool called Azure SQL Data Sync Health Checker. This PowerShell script will check if all the metadata of a hub and member is in place and also validate the scopes against the information we have on the sync metadata database (among other validations). This script will not make any changes, will just validate data sync and user objects. It will also gather some useful information for faster troubleshooting. More details can be found at https://github.com/vitomaz-msft/DataSyncHealthChecker. If you run this test, please submit the results during case submission. 
 
 
 1. Open Windows PowerShell ISE
