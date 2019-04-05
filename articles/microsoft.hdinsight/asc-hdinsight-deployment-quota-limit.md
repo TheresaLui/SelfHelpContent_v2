@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_ExceededDeploymentQuota"
     diagnosticScenario="HDInsightExceededDeploymentQuotaInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32629032"
+    supportTopicIds="32628987, 32629125, 32629032, 32636444, 32636492"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

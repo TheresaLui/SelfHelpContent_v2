@@ -10,7 +10,7 @@
     articleId="Hdi_AmbariMetricsCollector"
     diagnosticScenario="HDInsightAmbariMetricsCollectorInsight"
     selfHelpType="rca"
-    supportTopicIds="32629007, 32629006, 32629024"
+    supportTopicIds="32629007, 32629006, 32629024, 32636436, 32636437"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
