@@ -24,7 +24,7 @@ To deploy the desired VM, we need to increase the virtual CPU quota. If you agre
 
 | Item | Needed data |
 | --- | --- |
-| Subscription ID | **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID--> (UTC)**|
+| Subscription ID | **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->**|
 | Region | |
 | VM Family | |
 | Number of cores needed | |
