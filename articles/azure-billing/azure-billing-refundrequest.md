@@ -1,6 +1,7 @@
 <properties
 	pageTitle="refund request"
 	description="refund request"
+	infoBubbleText="refund request"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -13,21 +14,20 @@
 	cloudEnvironments="public"
 	articleId="billing-refundrequest"
 />
-
 # Refund Request
 
 ## **Recommended Steps**
 
 You can request a refund  by submitting a request to Azure support. Once your request is approved, you will be provided with the requested refund amount.
 
-### **Request for Refund**
+**Request for Refund**
 
-   1. Sign into the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-   2. Select **Help + support > New support request**
-   3. Select **Billing** as the issue type
-   4. Select the Subscription for which you want the refund for
-   5. Select **Refund Request** in the **Problem Type** box
-   6. Verify your contact information and preferred contact method, and then click **Create**
+1. Sign into the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+2. Select **Help + support > New support request**
+3. Select **Billing** as the issue type
+4. Select the Subscription for which you want the refund for
+5. Select **Refund Request** in the **Problem Type** box
+6. Verify your contact information and preferred contact method, and then click **Create**
 
 _Note:_ Please make sure to enter the refund amount and the reason for the refund request in order to process your request quickly.
 
