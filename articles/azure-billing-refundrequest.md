@@ -14,10 +14,11 @@
 	articleId="billing-refundrequest"
 />
 
-# refund request
+# Refund Request
 
 ## **Recommended Steps**
-You can request a refund  by submitting a request to Azure support. Once your request is approved, you will be provided with the requested refund amount. 
+
+You can request a refund  by submitting a request to Azure support. Once your request is approved, you will be provided with the requested refund amount.
 
 ### **Request for Refund**
 
