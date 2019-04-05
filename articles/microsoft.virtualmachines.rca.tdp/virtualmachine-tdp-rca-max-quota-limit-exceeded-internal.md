@@ -17,7 +17,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of exeeding the virtual CPU quota limits on the subscription.  
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of exceeding the virtual CPU quota limits on the subscription.  
 <!--/issueDescription-->
 
 To deploy the desired VM, we need to increase the virtual CPU quota. If you agree to increasing the quota limits for this resource, please complete the following information and we will work to increase those limits.<br>
