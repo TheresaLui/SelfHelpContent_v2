@@ -32,7 +32,7 @@ Verify that you are running a [supported version of the Windows OS](https://docs
 	1. Sign on the computer with an account that has administrative rights
 	2. Open **Control Panel**
 	3. Select **Microsoft Monitoring Agent** and then click the **Proxy Settings** tab
-	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and [assword to authenticate and then click **OK**. 
+	4. Click **Use a proxy server** and provide the URL and port number of the proxy server or gateway. If your proxy server or Log Analytics gateway requires authentication, type the username and password to authenticate and then click **OK**.
 	
 * Restart the Log Analytics Agent by running the following commands in an Administrative Command prompt: `net stop healthservice` followed by `net start healthservice`. Once the process restarts, wait approximately 5 minutes to see if the problem persists. 
 
