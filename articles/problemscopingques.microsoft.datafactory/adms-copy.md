@@ -70,7 +70,7 @@
 					"value": "Self-hosted IR",
 					"text": "Self-hosted IR"
 				}, {
-					"value": "Not applicable",
+					"value": "dont_know_answer",
 					"text": "Not applicable"
 				}
 			],

@@ -70,7 +70,7 @@
 					"value": "Self-hosted IR",
 					"text": "Self-hosted IR"
 				}, {
-					"value": "Not applicable",
+					"value": "dont_know_answer",
 					"text": "Not applicable"
 				}
 			],
@@ -97,7 +97,7 @@
             "controlType": "textbox",
             "displayLabel": "Name of the data factory",
             "required": false
-        }, 
+        },
         {
             "id": "problem_start_time",
             "order": 9,
@@ -111,7 +111,7 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
 			"required": false
-		}        
+		}
     ]
 }
 ---

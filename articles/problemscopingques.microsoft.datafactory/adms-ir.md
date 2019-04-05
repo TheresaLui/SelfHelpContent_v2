@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Azure Data Movement IR issue info"
 	description="Scoping questions to gather Azure Data Movement IR issue information"
-	authors="shelfeng"
-    ms.author="shelfeng"
+	authors="chez-charlie"
+	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629536, 32629537, 32629541"
 	productPesIds="15613"
@@ -16,6 +16,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure Data Movement IR issue",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service and screen shots to help us triage your problem faster",
     "formElements": [
