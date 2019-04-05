@@ -54,6 +54,7 @@ $parameters = @{
 }
  
 $scriptUrlBase = 'https://raw.githubusercontent.com/vitomaz-msft/DataSyncHealthChecker/master'
+
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/Data%20Sync%20Health%20Checker.ps1')).Content)) -ArgumentList $parameters
 #end
 ```
