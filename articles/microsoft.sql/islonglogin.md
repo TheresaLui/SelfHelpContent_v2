@@ -7,7 +7,7 @@
 	authors="subbu-kandhaswamy, VMMicrosoft"
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
-	articleId="IsLongLogin_56EB94E0-398D-4557-A743-4918A95B7EA9-TURN-OFF-TEMPORARILY"
+	articleId="IsLongLogin_56EB94E0-398D-4557-A743-4918A95B7EA9"
 	diagnosticScenario="crc_sqldb_connectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980402"
@@ -21,12 +21,13 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that logging into <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than usual.
+Database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> had logins taking longer than usual. This may indicate performance issues with your database. To address this issue, Azure portal offers multiple recommendations to troubleshoot and optimize your database performance based on recent workloads and available resources.
 
-This typically means that logins are taking longer than 14 seconds. The most likely cause is either SQL server is having issues with performance, XDBHost is having issues in duplicating the socket to SQL, or both.
+Refer the documentation below to identify, troubleshoot, and monitor database performance.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
 
-* [Azure SQL Database Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
-* [This article](https://docs.microsoft.com/azure/sql-database/sql-database-develop-direct-route-ports-adonet-v12) discusses the port ranges for connections inside and outside of Azure due to the connection policy   
+* [Troubleshooting Azure Database Performance](https://docs.microsoft.com/azure/sql-database/sql-database-intelligent-insights-troubleshoot-performance)
+* [Query Performance Insights](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance#use-query-performance-insight)
+* [Monitoring and tuning Database Performance](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview#monitoring-database-performance)
