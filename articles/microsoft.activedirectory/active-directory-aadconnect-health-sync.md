@@ -26,16 +26,16 @@
 
 ### Troubleshooting Health Service data not up to date
 
-* Follow the steps in [public documentation for this alert](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-data-freshness).
+* Follow the steps in [public documentation for this alert](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-data-freshness)
 
 ### Troubleshooting Azure AD Connect related alerts
 
-Follow the steps in [catalog documents](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-alert-catalog) and corresponding resolutions. 
+* Follow the steps in [catalog documents](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-alert-catalog) and corresponding resolutions. 
 
 ### Troubleshooting duplicate servers in the portal
 
 1.	When an agent is removed from the server, the server is not automatically removed from the portal. Duplicate servers will occur, when a second agent is registered by a server with same name/details.
-2.	To delete a server from the portal, see [deleting a server or service instance](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-operations#delete-a-server-or-service-instance).
+2.	To delete a server from the portal, see [deleting a server or service instance](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-operations#delete-a-server-or-service-instance)
 
 ## **Recommended Documents**
 
