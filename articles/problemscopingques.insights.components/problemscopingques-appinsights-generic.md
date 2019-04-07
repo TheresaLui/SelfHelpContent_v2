@@ -44,7 +44,7 @@
 					"value": "The problem is complex or not well defined and I need a human to help.",
 					"text": "The problem is complex or not well defined and I need a human to help."
 				}],
-			"required": true
+			"required": false
 		},{
 			"id": "environment_type",
 			"order": 2,
@@ -70,7 +70,7 @@
 					"value": "Azure Service Fabric",
 					"text": "Azure Service Fabric"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
 			"required": true
@@ -81,7 +81,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe how the application is deployed:",
 			"watermarkText": "Kubernetes, Cloud Provider XYZ",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type",
 			"order": 4,
@@ -95,10 +95,10 @@
 					"value": "Linux",
 					"text": "Linux"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_other",
 			"order": 5,
@@ -106,7 +106,7 @@
 			"controlType": "textbox",
 			"displayLabel": "OS name and version:",
 			"watermarkText": "MacOS 13.2",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_linux",
 			"order": 6,
@@ -114,7 +114,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Linux distribution and version:",
 			"watermarkText": "Ubuntu 16.4",
-			"required": true
+			"required": false
 		}, {
 			"id": "os_type_windows",
 			"order": 7,
@@ -122,7 +122,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Windows version:",
 			"watermarkText": "Windows Server 2016",
-			"required": true
+			"required": false
 		}, {
 			"id": "language_used",
 			"order": 8,
@@ -142,7 +142,7 @@
 					"value": "JavaScript",
 					"text": "JavaScript"
 				}],
-			"required": true
+			"required": false
 		},{
 			"id": "javasdk_version",
 			"order": 9,
@@ -169,10 +169,10 @@
 					"value": "Java 11",
 					"text": "Java 11"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "webserver_type_java",
 			"order": 10,
@@ -190,10 +190,10 @@
 					"value": "Jetty",
 					"text": "Jetty"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "webserver_type_other",
 			"order": 11,
@@ -201,7 +201,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the name of your web server?",
 			"watermarkText": "WebLogic 10; WebSphere",
-			"required": true
+			"required": false
 		}, {
 			"id": "framework_type_java",
 			"order": 12,
@@ -219,10 +219,10 @@
 					"value": "Spring Boot",
 					"text": "Spring Boot"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "framework_type_version_java",
 			"order": 13,
@@ -230,7 +230,7 @@
 			"controlType": "textbox",
 			"displayLabel": "What is the framework version being used",
 			"watermarkText": "SpringBoot 2.1.0",
-			"required": true
+			"required": false
 		}, {
 			"id": "jvm_agent",
 			"order": 14,
@@ -238,7 +238,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Is the JVM Agent Being used for dependency collection?",
 			"watermarkText": "Yes or No",
-			"required": true
+			"required": false
 		}, {
 			"id": "app_type_net",
 			"order": 15,
@@ -271,7 +271,7 @@
 					"value": "Console",
 					"text": "Console"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
 			"required": true
@@ -282,7 +282,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the application technology stack:",
 			"watermarkText": "OWIN",
-			"required": true
+			"required": false
 		}, {
 			"id": "framework_type_net",
 			"order": 17,
@@ -312,7 +312,7 @@
 					"value": ".NET Core 1.6",
 					"text": ".NET Core 1.6"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
 			"required": true
@@ -323,7 +323,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the target framework",
 			"watermarkText": "Mono, .NET Core 3.0 Preview",
-			"required": true
+			"required": false
 		},{
 			"id": "nodejs_version",
 			"order": 19,
@@ -344,7 +344,7 @@
 					"value": "Node.js 7.x",
 					"text": "Node.js 7.x"
 				},{
-					"value": "Older",
+					"value": "dont_know_answer",
 					"text": "Older"
 				}],
 			"required": true
@@ -365,7 +365,7 @@
 					"value": "Single Page Application (SPA)",
 					"text": "Single Page Application (SPA)"
 				}],
-			"required": true
+			"required": false
 		}, {
 			"id": "lightup_type",
 			"order": 21,
@@ -382,7 +382,7 @@
 					"value": "Azure Integration (App Service, Function App, etc.)",
 					"text": "Azure Integration (App Service, Function App, etc.)"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}],
 			"required": true
@@ -393,7 +393,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Please describe the steps to instrument the app:",
 			"watermarkText": "PowerShell Scripts, manually copied packages, Status Monitor",
-			"required": true
+			"required": false
 		}, {
 			"id": "sdk_Version",
 			"order": 23,
