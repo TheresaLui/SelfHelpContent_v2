@@ -22,9 +22,10 @@ Some Alert types and action groups have service limits as described [here](https
 
 ## **Recommended Steps**
 
-1. There are no limits on number of Log alerts and activity log alerts.
+1. There are no limits on number of Log alerts and activity log alerts
 
-2. Provide the following information in the problem details to ensure faster resolution
+2. Provide the following information in the problem details to ensure faster resolution:
+
     * Subscription Ids for which the quota limits have to be increased. If there are multiple subscriptions you need the limit increased, provide the full list.
     * Resource type for the quota increase: **Metric Alerts**, **Metric alerts (Classic)** or **Action groups**
-    * To what number quota has to be increased to: For Metric Alerts and Metric Alerts(Classic), the maximum limit is 1000.
+    * To what number quota has to be increased to: For Metric Alerts and Metric Alerts(Classic), the maximum limit is 1000
