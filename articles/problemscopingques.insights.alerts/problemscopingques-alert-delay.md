@@ -13,8 +13,8 @@
 # Notifications received with delay
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": false,
+	"resourceRequired": false,
+	"subscriptionRequired": true,
 	"title": "Issues with notification delays",
 	"fileAttachmentHint": "Provide notifications that you received with delay",
 	"formElements": [{
@@ -31,7 +31,7 @@
 					"text": "Receiving notifications (email, webhook etc.) with delay"
 				}
 			],
-			"required": true
+			"required": false
 		}, {
             "id": "action_group_id",
 			"order": 2,

@@ -13,7 +13,7 @@
 # Issues with classic alert notifications
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"subscriptionRequired": false,
 	"title": "Issues with notifications",
 	"fileAttachmentHint": "",
@@ -37,7 +37,7 @@
 					"text": "Runbook"
                 }
 			],
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_start_time",
 			"order": 2,

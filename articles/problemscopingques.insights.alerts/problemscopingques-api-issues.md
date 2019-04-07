@@ -13,7 +13,7 @@
 # Issues with programmatic interfaces
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"subscriptionRequired": false,
 	"title": "Issues with programmatic interfaces",
 	"fileAttachmentHint": "Provide screenshots of request/response that has a problem",

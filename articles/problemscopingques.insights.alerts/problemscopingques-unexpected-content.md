@@ -13,8 +13,8 @@
 # Notification content is not what I expected
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": false,
+	"resourceRequired": false,
+	"subscriptionRequired": true,
 	"title": "Notification content is not what I expected",
 	"fileAttachmentHint": "",
 	"formElements": [{

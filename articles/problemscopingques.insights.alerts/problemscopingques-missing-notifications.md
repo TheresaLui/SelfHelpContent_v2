@@ -13,8 +13,8 @@
 # Not receiving notifications
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": false,
+	"resourceRequired": false,
+	"subscriptionRequired": true,
 	"title": "Not receiving notifications",
 	"fileAttachmentHint": "Provide screenshots of alert rule you are not receiving notifications for",
 	"formElements": [{
