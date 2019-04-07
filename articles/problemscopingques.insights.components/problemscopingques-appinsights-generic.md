@@ -143,8 +143,11 @@
 				},{
 					"value": "JavaScript",
 					"text": "JavaScript"
+				},{
+					"value": "dont_know_answer",
+					"text": "Other"
 				}],
-			"required": false
+			"required": true
 		},{
 			"id": "javasdk_version",
 			"order": 9,
@@ -276,7 +279,7 @@
 					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		},{
 			"id": "app_type_other",
 			"order": 16,
@@ -317,7 +320,7 @@
 					"value": "dont_know_answer",
 					"text": "Other"
 				}],
-			"required": true
+			"required": false
 		},{
 			"id": "framework_type_other_net",
 			"order": 18,
@@ -349,7 +352,7 @@
 					"value": "dont_know_answer",
 					"text": "Older"
 				}],
-			"required": true
+			"required": false
 		},{
 			"id": "javascript_apptype",
 			"order": 20,
