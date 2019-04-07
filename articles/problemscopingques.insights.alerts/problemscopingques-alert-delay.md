@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-lert-delay"
+	articleId="problemscopingques-alert-delay"
 	pageTitle="Receiving notifications with delay"
 	description="Receiving notifications with delay"
 	authors="snehithm"
