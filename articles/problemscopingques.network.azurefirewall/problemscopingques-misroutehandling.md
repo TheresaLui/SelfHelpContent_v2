@@ -13,7 +13,7 @@
 # Azure Firewall Generic
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Azure Firewall Generic",
 	"fileAttachmentHint": "",
 	"formElements": [{
