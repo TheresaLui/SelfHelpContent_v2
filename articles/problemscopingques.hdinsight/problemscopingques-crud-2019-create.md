@@ -62,7 +62,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "previous_solution",
@@ -71,7 +71,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -80,7 +80,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
+            "required": false
         },
         {
             "id": "is_vnet_involved",
@@ -125,7 +125,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_aad_involved",
