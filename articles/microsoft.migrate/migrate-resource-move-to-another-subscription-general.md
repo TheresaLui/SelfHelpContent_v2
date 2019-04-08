@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="azure-migrate-move-resource"
 />
 
 # Azure Migrate Service 
