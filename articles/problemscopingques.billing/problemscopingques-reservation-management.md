@@ -52,7 +52,7 @@
             "required": true
         },
 	 {
-            "id": "ReservationOrderid",
+            "id": "reservationOrderId",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation Order ID",
