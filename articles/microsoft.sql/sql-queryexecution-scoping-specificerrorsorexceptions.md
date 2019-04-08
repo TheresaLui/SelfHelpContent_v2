@@ -15,11 +15,10 @@
 # Performance and query execution/specific errors or exceptions
 ---
 {
-    "resourceRequired": true,
-    "title": "",
-    "fileAttachmentHint": "Performance and query execution/specific errors or exceptions",
-    "formElements": [
-               {
+    "resourceRequired": false,
+    "title": "Performance and query execution/specific errors or exceptions",
+    "fileAttachmentHint": "",
+    "formElements": [{
                         "id": "problem_start_time",
                         "order": 1,
                         "controlType": "datetimepicker",
@@ -58,7 +57,7 @@
 				}, {
 					"value": "Error_Other",
 					"text": "Other error not listed"
-                                 , {
+                                }, {
 					"value": "dont_know_answer",
 					"text": "Don't know answer"
 				}
@@ -72,8 +71,8 @@
                         "displayLabel": "Details of the issue.",
                         "watermarkText": "Please provide additional context for the error message you are encountering.",
                         "required": true
-        }
-    ]
+                   }
+          ]
 }
 ---
 
