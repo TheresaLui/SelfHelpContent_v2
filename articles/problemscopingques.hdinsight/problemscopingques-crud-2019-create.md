@@ -32,8 +32,15 @@
             "required": false
         },
         {
+            "id": "cluster_name",
+            "order": 10,
+            "controlType": "textbox",
+            "displayLabel": "Cluster name if available",
+            "required": false
+        },
+        {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -188,12 +195,6 @@
             "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 600,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/ClusterCRUD/clustercrud-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
     ]
 }
