@@ -64,7 +64,15 @@
 				}
 			],
 			"required": true
-		}
+		}, {
+                        "id": "problem_description",
+                        "order": 4,
+                        "controlType": "multilinetextbox",
+                        "useAsAdditionalDetails": true,
+                        "displayLabel": "Details of the issue.",
+                        "watermarkText": "Please provide additional context for the error message you are encountering.",
+                        "required": true
+        }
     ]
 }
 ---
