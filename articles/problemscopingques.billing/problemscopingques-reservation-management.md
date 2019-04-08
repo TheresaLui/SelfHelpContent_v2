@@ -56,11 +56,12 @@
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation Order ID",
+	    "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
              "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "properties.displayName,name",
-	     "textTemplate": "{properties.displayName}:{name}",
+	     "textTemplate": "{properties.displayName} : {name}",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
@@ -82,6 +83,7 @@
             "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
+	     "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
              "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
              "jTokenPath": "value",
@@ -102,75 +104,9 @@
             ],
             "useAsAdditionalDetails": false,
             "required": true,
-	    "visibility": "reservationOrderId != null && reservationOrderId != dont_know_answer"
+	    "visibility": "reservationOrderId != null"
         },
 	{
-            "id": "Resourceid",
-            "order": 8,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Resource",
-            "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2017-05-10",
-	    "jTokenPath": "value",
-             "textProperty": "name",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to retrieve list of resources",
-                    "text": "Unable to retrieve list of resources"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-	{
-            "id": "ResourceGroupid",
-            "order": 9,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Resource group",
-            "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resourceGroups?api-version=2014-04-01",
-	    "jTokenPath": "value",
-             "textProperty": "name",
-             "valueProperty": "id",
-             "textPropertyRegex": "[^/]+$",
-             "defaultDropdownOptions": {
-             "value": "dont_know_answer",
-             "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to retrieve list of resource groups",
-                    "text": "Unable to retrieve list of resource groups"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-        {
-            "id": "reservationorderid_details",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Reservation Order ID",
-            "watermarkText": "Provide your Reservation Order id",
-            "required": false
-        },
-        {
-            "id": "reservationid_details",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Reservation ID",
-            "watermarkText": "Provide your Reservation id",
-            "required": false
-        },
-        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
