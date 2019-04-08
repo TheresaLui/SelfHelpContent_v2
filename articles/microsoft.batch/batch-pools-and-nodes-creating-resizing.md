@@ -17,6 +17,7 @@
 # Pools and nodes - Creating or resizing
 
 ## **Recommended Documents**
+
 * [Diagnosing Batch node errors](https://docs.microsoft.com/azure/batch/batch-pool-node-error-checking)<br>
 * [Batch account quota limits](https://docs.microsoft.com/azure/batch/batch-quota-limit)<br>
 * [Batch pool VM sizes](https://docs.microsoft.com/azure/batch/batch-pool-vm-sizes)
