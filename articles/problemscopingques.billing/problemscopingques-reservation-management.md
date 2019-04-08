@@ -52,12 +52,37 @@
             "required": true
         },
 	 {
-            "id": "Reservationid",
+            "id": "ReservationOrderid",
             "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Reservation Order ID",
+            "dynamicDropdownOptions": {
+             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}?api-version=2017-11-01",
+             "jTokenPath": "properties.reservationOrderIds.value",
+             "textProperty": "name",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of reservations",
+                    "text": "Unable to retrieve list of reservations"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+	{
+            "id": "Reservationid",
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/appliedReservations?api-version=2017-11-01",
+             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations?api-version=2017-11-01",
              "jTokenPath": "properties.reservationOrderIds.value",
              "textProperty": "name",
              "valueProperty": "id",
@@ -78,7 +103,7 @@
         },
 	{
             "id": "Resourceid",
-            "order": 7,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Select the Resource",
             "dynamicDropdownOptions": {
@@ -103,7 +128,7 @@
         },
 	{
             "id": "ResourceGroupid",
-            "order": 8,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Select the Resource group",
             "dynamicDropdownOptions": {
