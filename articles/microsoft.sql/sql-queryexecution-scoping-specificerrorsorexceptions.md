@@ -2,7 +2,6 @@
 	pageTitle="Scoping questions for performance and query execution/specific errors or exceptions"
 	description="Performance and query execution/specific errors or exceptions"
 	service="microsoft.sql"
-	resource="servers"
 	authors="pxding"
         ms.author="pedin"
         articleId="5A74D139-D874-4964-B584-BC21A8AAD3C6"
@@ -59,6 +58,9 @@
 				}, {
 					"value": "Error_Other",
 					"text": "Other error not listed"
+                                 , {
+					"value": "dont_know_answer",
+					"text": "Don't know answer"
 				}
 			],
 			"required": true
