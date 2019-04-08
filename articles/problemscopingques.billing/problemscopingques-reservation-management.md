@@ -124,7 +124,7 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": false
         },
 	{
             "id": "ResourceGroupid",
