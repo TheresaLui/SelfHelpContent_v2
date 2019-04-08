@@ -14,6 +14,7 @@
 ---
 {
 	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Azure Firewall Generic",
 	"fileAttachmentHint": "",
 	"formElements": [{
