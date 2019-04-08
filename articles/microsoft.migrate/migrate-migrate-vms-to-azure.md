@@ -24,4 +24,4 @@
 
 * **Is there a option to group the migration VMs during replication and cutover for tracking? [Comes in handy when more than 50 VMs are involved in migration]**
 
-	Currently we are recommending that migratons be performed in batches of 50VMs (that is, not have more than 50 VMs simultaneously replicating at any time). We will be increasing this limit in GA and will add appliance scale-out options after GA to increase simultaneous replication scale. For replication and migration, portal lets you multi-select VMs on which the action is to be performed.
+	Currently we are recommending that migrations be performed in batches of 50VMs (that is, not have more than 50 VMs simultaneously replicating at any time). We will be increasing this limit in GA and will add appliance scale-out options after GA to increase simultaneous replication scale. For replication and migration, portal lets you multi-select VMs on which the action is to be performed.
