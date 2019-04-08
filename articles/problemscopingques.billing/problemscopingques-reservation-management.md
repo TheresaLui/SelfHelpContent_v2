@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation Order ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
+             "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
@@ -82,7 +82,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations?api-version=2017-11-01",
+             "uri": "/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
