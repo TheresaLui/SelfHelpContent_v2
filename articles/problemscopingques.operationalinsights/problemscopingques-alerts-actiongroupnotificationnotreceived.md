@@ -15,6 +15,7 @@ schemaVersion="1"
 # Action Group notification not received 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Action Group notification not received",
     "fileAttachmentHint": "",

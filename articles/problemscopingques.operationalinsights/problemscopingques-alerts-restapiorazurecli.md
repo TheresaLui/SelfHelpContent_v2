@@ -16,6 +16,7 @@ schemaVersion="1"
  
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "REST API or Azure Command Line Interface (CLI)",
     "fileAttachmentHint": "Provide screenshot of alert rule configuration with query and error message you are receiving",

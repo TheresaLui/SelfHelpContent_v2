@@ -16,6 +16,7 @@ schemaVersion="1"
  
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure Resource Manager (ARM) templates",
     "fileAttachmentHint": "",

@@ -15,6 +15,7 @@ schemaVersion="1"
 # Alerts/Action Group notification with unexpected content 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Alerts/Action Group notification with unexpected content",
     "fileAttachmentHint": "",

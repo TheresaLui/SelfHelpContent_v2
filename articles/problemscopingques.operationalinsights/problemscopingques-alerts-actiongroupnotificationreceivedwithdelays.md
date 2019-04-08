@@ -15,6 +15,7 @@ schemaVersion="1"
 # Alerts/Action Group notification received with delays 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Alerts/Action Group notification received with delays",
     "fileAttachmentHint": "",

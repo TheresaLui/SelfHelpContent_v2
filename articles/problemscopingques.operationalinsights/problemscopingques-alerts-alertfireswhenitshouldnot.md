@@ -16,6 +16,7 @@ schemaVersion="1"
  
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Alert fires when it should NOT",
     "fileAttachmentHint": "Provide screenshot of alert rule configuration with query and query results in Logs",

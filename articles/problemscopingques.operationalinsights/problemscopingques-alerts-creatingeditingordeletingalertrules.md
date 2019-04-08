@@ -16,6 +16,7 @@ schemaVersion="1"
  
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Creating, editing, or deleting alert rules",
     "fileAttachmentHint": "Provide screenshot of alert rule configuration with query and error message you are receiving",
