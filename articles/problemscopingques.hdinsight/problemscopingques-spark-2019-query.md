@@ -108,6 +108,32 @@
             "required": false
         },
         {
+            "id": "load_increase",
+            "order": 80,
+            "controlType": "dropdown",
+            "displayLabel": "Increase in load?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Numberjobs",
+                    "text": "Number of jobs"
+                },
+                {
+                    "value": "Moredata",
+                    "text": "More data to be processed"
+                },
+                {
+                    "value": "skew",
+                    "text": "Increased skew in data to be processed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "application_id",
             "order": 150,
             "controlType": "textbox",
