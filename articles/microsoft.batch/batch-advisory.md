@@ -16,7 +16,8 @@
 
 # Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [Getting started with the Azure Batch library for .NET](https://azure.microsoft.com/documentation/articles/batch-dotnet-get-started/)<br>
 * [Overview of Azure Batch Features](https://azure.microsoft.com/documentation/articles/batch-api-basics/)<br>
 * [Basics of Azure Batch](https://azure.microsoft.com/documentation/articles/batch-technical-overview/)
