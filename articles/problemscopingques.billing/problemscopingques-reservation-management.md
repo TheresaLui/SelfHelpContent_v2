@@ -59,7 +59,8 @@
             "dynamicDropdownOptions": {
              "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
              "jTokenPath": "value",
-             "textProperty": "name",
+             "textProperty": "properties.displayName,name",
+	     "textTemplate": "{properties.displayName}:{name}",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
@@ -82,8 +83,9 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation ID",
             "dynamicDropdownOptions": {
-             "uri": "/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations?api-version=2017-11-01",
+             "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
              "jTokenPath": "value",
+	     "dependsOn": "reservationOrderId",
              "textProperty": "name",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
@@ -99,7 +101,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": true,
+	    "visibility": "reservationOrderId != null && reservationOrderId != dont_know_answer"
         },
 	{
             "id": "Resourceid",
