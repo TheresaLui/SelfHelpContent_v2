@@ -13,7 +13,8 @@
 # HDI Cluster Create Issue
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [

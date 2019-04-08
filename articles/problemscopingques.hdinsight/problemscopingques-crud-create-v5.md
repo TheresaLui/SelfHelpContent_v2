@@ -13,7 +13,8 @@
 # HDI Cluster Create Issue
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
@@ -181,8 +182,8 @@
                     "text": "Azure Automation runbook"
                 },
                 {
-                    "value": "Other (describe below)",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
