@@ -18,8 +18,6 @@
 
 ## **Recommended Steps**
 
-Azure Stack Operator -
-
 1. If you experience a failure during installation, you can restart the deployment from the failed step by using the -Rerun option of the deployment script
 2. Check for issues in the [Known issues: Deployment](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting#deployment) article
 3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence) to check any late breaking changes or known issues that may be causing your installation failure
