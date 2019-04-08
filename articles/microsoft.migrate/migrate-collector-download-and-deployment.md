@@ -31,7 +31,7 @@
 * **I am getting this error when deploying Azure Migrate Collector OVF file: The provided manifest file is invalid: Invalid OVF manifest entry.**
 
 1. Verify if Azure Migrate Collector OVF file is downloaded correctly by checking its hash value. Refer to the [article](https://docs.microsoft.com/azure/migrate/tutorial-assessment-vmware#verify-the-collector-appliance) to verify the hash value. If the hash value is not matching, download the OVF file again and retry the deployment.
-2. If it still fails and if you are using VMware vSphere Client to deploy the OVF, try deploying it through vSphere Web Client. if it still fails, try using differnet web browser.
+2. If it still fails and if you are using VMware vSphere Client to deploy the OVF, try deploying it through vSphere Web Client. if it still fails, try using different web browser.
 3. If you are using vCenter Server 6.5, then try to deploy the Collector on ESXi host directly:
 
 	* Go to ESXi host web client using https://<hostip>/ui and login
