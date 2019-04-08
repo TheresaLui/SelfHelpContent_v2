@@ -15,7 +15,8 @@
 # Performance and query execution/specific errors or exceptions
 ---
 {
-    "resourceRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Performance and query execution/specific errors or exceptions",
     "fileAttachmentHint": "",
     "formElements": [{
