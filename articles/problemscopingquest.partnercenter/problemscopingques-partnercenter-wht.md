@@ -14,7 +14,7 @@
 # PC WHT Problem Template
 ---
 {
-    "title": "Partner Center WHT Issue",
+    "title": "Partner Center WHT Issues",
 	"subscriptionRequired": false,
     "fileAttachmentHint": "Upload your tax certificate here",
     "formElements": [

@@ -21,6 +21,6 @@
 
 ## **Recommended Steps**
 
-Based on your information we have identified some topics that may help solve your issue and save you some time.
+Based on your information we have identified these topics that may help solve your issue and save you some time.
 
 [Step by Step Guide](https://partner.microsoft.com/support)<br>You can find the step by step guide to submitting your WHT form
