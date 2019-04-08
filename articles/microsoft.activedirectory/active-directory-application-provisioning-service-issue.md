@@ -26,6 +26,6 @@ If most or all of the calls made against the target system consistently fail due
 
 ## **Recommended Documents**
 
-* [Reporting on automatic user account provisioning](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/check-status-user-account-provisioning)
-* [Problem configuring provisioning to an application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-provisioning-config-problem)
+* [Reporting on automatic user account provisioning](https://docs.microsoft.com/azure/active-directory/manage-apps/check-status-user-account-provisioning)
+* [Problem configuring provisioning to an application](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-config-problem)
 
