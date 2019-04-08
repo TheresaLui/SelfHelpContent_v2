@@ -137,7 +137,7 @@
             "id": "application_id",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "YARN Application ID for the Spark application if known",
+            "displayLabel": "YARN Application ID for the Spark job if known",
             "required": false
         },
         {
