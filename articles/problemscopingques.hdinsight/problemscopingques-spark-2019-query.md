@@ -16,7 +16,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "HDInsight Spark Job Issue",
-    "fileAttachmentHint": "Please attach YARN Application log, Spark log, and Spark-submit output (if applicable) to help us triage your problem faster",
+    "fileAttachmentHint": "Please attach YARN Application log, Spark log, and client application output (if applicable) to help us triage your problem faster",
     "formElements": [
         {
             "id": "problem_start_time",
