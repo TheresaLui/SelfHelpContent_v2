@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32629001, 32629080, 32628987"
+    supportTopicIds="32629001, 32629080, 32628987, 32636420"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
