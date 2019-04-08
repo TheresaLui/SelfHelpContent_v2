@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
-	articleId=""
+	articleId="azure-migrate-test-vm-migration"
 />
 
 # Azure Migrate Preview - Test Migrate VMs to Azure
