@@ -57,7 +57,7 @@
             "controlType": "dropdown",
             "displayLabel": "Select the Reservation Order ID",
             "dynamicDropdownOptions": {
-             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}?api-version=2017-11-01",
+             "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "name",
              "valueProperty": "id",
