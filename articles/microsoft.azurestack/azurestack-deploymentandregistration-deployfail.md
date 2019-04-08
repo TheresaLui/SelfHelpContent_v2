@@ -18,6 +18,8 @@
 
 ## **Recommended Steps**
 
+Azure Stack Operator - determine the health and status of your system using the validation tool [Test-AzureStack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-diagnostic-test).  See bullet point 4 below.  The validation tool lets you run a series of  system-level tests and basic cloud scenarios that provide you an insight to the current state, cloud infrastructure [tests available](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-diagnostic-test#tests-available). 
+
 1. If you experience a failure during installation, you can restart the deployment from the failed step by using the -Rerun option of the deployment script
 2. Check for issues in the [Known issues: Deployment](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting#deployment) article
 3. Check Azure Stack [Release Notes](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence) to check any late breaking changes or known issues that may be causing your installation failure
