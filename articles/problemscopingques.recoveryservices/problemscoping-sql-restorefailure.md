@@ -105,20 +105,14 @@
 			],
 			"required": false
 		}, {
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 8,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "problem_start_time",
-			"order": 9,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
 			"id": "problem_description",
-			"order": 10,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
 			"displayLabel": "Additional details",
