@@ -18,113 +18,113 @@
 	 "title": "SQL database restore failure",
 	 "fileAttachmentHint": "",
 	 "formElements": [{
-				"id": "machine_name",
-				"order": 1,
-				"controlType": "textbox",
-				"displayLabel": "Which machine is experiencing the problem?",
-				"watermarkText": "Enter the name of the virtual machine running SQL",
-				"required": false
-			},{
-				"id": "database_Name",
-				"order": 2,
-				"controlType": "textbox",
-				"displayLabel": "Provide the name(s) of the databases whose restore is failing?",
-				"watermarkText": "Enter database name(s) comma separated",
-				"required": false
-			},{
-				"id": "restore_Type",
-				"order": 3,
-				"controlType": "dropdown",
-				"displayLabel": "Which type of restore are you performing?",
-				"watermarkText": "Select",
-				"dropdownOptions": [{
-							"value": "Alternate Location",
-							"text": "Alternate Location"
-						},{
-							"value": "Overwrite DB",
-							"text": "Overwrite DB"
-						},{
-							"value": "dont_know_answer",
-							"text": "Other, don't know or not applicable"
-						}
-					],
-					"required": true
-			 },{
-				"id": "restore_Type1",
-				"order": 4,
-				"controlType": "dropdown",
-				"displayLabel": "Are you performing Logs (Point in Time)/Full & Differential restoration?",
-				"watermarkText": "Select",
-				"dropdownOptions": [{
-							"value": "Logs (Point in Time)",
-							"text": "Logs (Point in Time)"
-						},{
-							"value": "Full & Differential",
-							"text": "Full & Differential"
-						},{
-							"value": "dont_know_answer",
-							"text": "Other, don't know or not applicable"
-						}
-					],
-					"required": true
-			},{
-				"id": "jobID_Name",
-				"order": 5,
-				"controlType": "textbox",
-				"displayLabel": "Enter the failed restore job Activity ID",
-				"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-				"required": false
-			},{
-				"id": "error_code",
-				"order": 6,
-				"controlType": "textbox",
-				"displayLabel": "Provide the error code that are you seeing:",
-				"watermarkText": "Example: UserErrorSQLPODoesNotExist",
-				"required": false
-			},{
-				"id": "basic_troubleshooting_multiselect",
-				"order": 7,
-				"controlType": "multiselectdropdown",
-				"displayLabel": "Select the troubleshooting steps you have performed:",
-				"dropdownOptions": [{
-							"value": "OS version is supported for resotre",
-							"text": "OS version is supported for restore"
-						},{
-							"value": "SQL version and edition are supported for restore",
-							"text": "SQL version and edition are supported for restore"
-						},{
-							"value": "Machine has Internet connectivity",
-							"text": "Machine has Internet connectivity"
-						},{
-							"value": "SQL server VM has required permission for restore",
-							"text": "SQL server VM has required permission for restore"  
-						},{
-							"value": "dont_know_answer",
-							"text": "Other, don't know or not applicable"
-						 }
-					],
-					"required": false
-			},{
-				"id": "problem_start_date",
-				"order": 8,
-				"controlType": "datetimepicker",
-				"displayLabel": "When did the problem begin?",
-				"required": true
-			},{
-				"id": "problem_start_time",
-				"order": 9,
-				"controlType": "datetimepicker",
-				"displayLabel": "When did the problem begin?",
-				"required": true
-			},{
-				"id": "problem_description",
-				"order": 10,
-				"controlType": "multilinetextbox",
-				"useAsAdditionalDetails": true,
-				"displayLabel": "Additional details",
-				"watermarkText": "Provide additional information about your issue",
-				"required": true,
-				"hints": []
+			"id": "machine_name",
+			"order": 1,
+			"controlType": "textbox",
+			"displayLabel": "Which machine is experiencing the problem?",
+			"watermarkText": "Enter the name of the virtual machine running SQL",
+			"required": false
+		}, {
+			"id": "database_Name",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "Provide the name(s) of the databases whose restore is failing?",
+			"watermarkText": "Enter database name(s) comma separated",
+			"required": false
+		}, {
+			"id": "restore_Type",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Which type of restore are you performing?",
+			"watermarkText": "Select",
+			"dropdownOptions": [{
+					"value": "Alternate Location",
+					"text": "Alternate Location"
+				}, {
+					"value": "Overwrite DB",
+					"text": "Overwrite DB"
+				}, {
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+				}
+			],
+			"required": true
+		}, {
+			"id": "restore_Type1",
+			"order": 4,
+			"controlType": "dropdown",
+			"displayLabel": "Are you performing Logs (Point in Time)/Full & Differential restoration?",
+			"watermarkText": "Select",
+			"dropdownOptions": [{
+					"value": "Logs (Point in Time)",
+					"text": "Logs (Point in Time)"
+				}, {
+					"value": "Full & Differential",
+					"text": "Full & Differential"
+				}, {
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+				}
+			],
+			"required": true
+		}, {
+			"id": "jobID_Name",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "Enter the failed restore job Activity ID",
+			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+			"required": false
+		}, {
+			"id": "error_code",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Provide the error code that are you seeing:",
+			"watermarkText": "Example: UserErrorSQLPODoesNotExist",
+			"required": false
+		}, {
+			"id": "basic_troubleshooting_multiselect",
+			"order": 7,
+			"controlType": "multiselectdropdown",
+			"displayLabel": "Select the troubleshooting steps you have performed:",
+			"dropdownOptions": [{
+					"value": "OS version is supported for resotre",
+					"text": "OS version is supported for restore"
+				}, {
+					"value": "SQL version and edition are supported for restore",
+					"text": "SQL version and edition are supported for restore"
+				}, {
+					"value": "Machine has Internet connectivity",
+					"text": "Machine has Internet connectivity"
+				}, {
+					"value": "SQL server VM has required permission for restore",
+					"text": "SQL server VM has required permission for restore"  
+				}, {
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+				 }
+			],
+			"required": false
+		}, {
+			"id": "problem_start_date",
+			"order": 8,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, {
+			"id": "problem_start_time",
+			"order": 9,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, {
+			"id": "problem_description",
+			"order": 10,
+			"controlType": "multilinetextbox",
+			"useAsAdditionalDetails": true,
+			"displayLabel": "Additional details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"hints": []
 		 }
 	]
 }
