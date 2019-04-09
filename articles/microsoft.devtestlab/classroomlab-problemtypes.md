@@ -17,21 +17,20 @@
 # Classroom Labs Problem Types
 
 ## **Recommended Documents**
+[Classroom Labs Documentation](https://docs.microsoft.com/azure/lab-services)<br>
 
-[Classroom Labs Documentation](https://docs.microsoft.com/azure/lab-services)
+[Set up and manage a lab account](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-lab-account)<br>
 
-[Set up and manage a lab account](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-lab-account)
+[Set up a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-classroom-lab)<br>
 
-[Set up a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-classroom-lab)
+[Manage classroom labs](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-manage-classroom-labs)<br>
 
-[Manage classroom labs](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-manage-classroom-labs)
+[Configure usage settings and policies for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-configure-student-usage)<br>
 
-[Configure usage settings and policies for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-configure-student-usage)
+[Access a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-use-classroom-lab)<br>
 
-[Access a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-use-classroom-lab)
+[Create and manager schedules for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-create-schedules)<br>
 
-[Create and manager schedules for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-create-schedules)
+[Track usage of a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-track-usage)<br>
 
-[Track usage of a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-track-usage)
-
-[Classroom Labs Stack overflow](https://stackoverflow.com/questions/tagged/azure-lab-services)
+[Classroom Labs Stack overflow](https://stackoverflow.com/questions/tagged/azure-lab-services)<br>
