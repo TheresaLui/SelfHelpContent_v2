@@ -14,6 +14,7 @@
 ---
 {
          "resourceRequired": true,
+	 "subscriptionRequired": true,
 	 "title": "AFS restore failure",
 	 "fileAttachmentHint": "",
 	 "formElements": [{
@@ -48,14 +49,14 @@
 					   }
 				],
 				"required": true
-		  },{
+		   },{
 			"id": "jobID_Name",
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "Enter the failed restore job Activity ID",
 			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 			"required": false
-		  },{
+		   },{
 			"id": "error_code",
 			"order": 5,
 			"controlType": "textbox",
