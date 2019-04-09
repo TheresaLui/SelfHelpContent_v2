@@ -6,22 +6,27 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593231"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 	articleId="reservationmanagement"
 />
-
-
-# Change Ownership of Reservation
+# Reservation Management
 ---
 {
     "resourceRequired": false,
-    "title": "Change ownership of reservation",
+    "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "reservation_instance_determination",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Problem start time",
+            "required": true
+        },
+        {
+            "id": "reservation_instance_determination",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Choose the type of Reservation Instance",
             "watermarkText": "Choose an option",
@@ -37,34 +42,57 @@
                 {
                     "value": "SUSE Software",
                     "text": "SUSE Software"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
+            "id": "reservationorderid_details",
+            "order": 3,
+            "controlType": "textbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Additional details",
-            "watermarkText": "Please provide additional information about your issue:",
-            "required": true,
-            "hints": [{
-					"text": "Reservation Order ID"
-				}, {
-					"text": "Reservation ID"
-				}, {
-					"text": "Current Owner"
-				}, {
-					"text": "New Owner"
-				}
-			]
+            "displayLabel": "Reservation Order ID",
+            "watermarkText": "Provide your Reservation Order id",
+            "required": true
         },
         {
-            "id": "problem_start_time",
-            "order": 3,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
+            "id": "reservationid_details",
+            "order": 4,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Reservation ID",
+            "watermarkText": "Provide your Reservation id",
+            "required": true
+        },
+        {
+            "id": "currentowner_details",
+            "order": 5,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Current Owner",
+            "watermarkText": "Provide the Current Owner details",
+            "required": false
+        },
+        {
+            "id": "newowner_details",
+            "order": 6,
+            "controlType": "textbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "New Owner",
+            "watermarkText": "Provide the New Owner details",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "watermarkText": "Provide any additional information about your issue",
+	    "displayLabel": "Additional details",
             "required": true
         }
     ]

@@ -8,7 +8,7 @@
 	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorolrnotsupported"
-	diagnosticScenario="azurebackup-crc-usererrorolrnotsupported"
+	diagnosticScenario="AzureBackup_ScenarioLevelInsight"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
@@ -19,7 +19,7 @@
 # UserErrorOlrNotSupported
 
 <!--issueDescription-->
-## **Restore operation failed because you are performing a 'Replace existing' operation for an unsupported scenario. **
+**Restore operation failed because you are performing a 'Replace existing' operation for an unsupported scenario.**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -28,6 +28,6 @@ We have identified that your restore failed because you are performing a [**Repl
 
 To resolve this issue, use the [**Create New**](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-new-restore-disks) option instead of **Replace existing**.
 
-## **Recommended Document**
+## **Recommended Documents**
 
 * [Choose the correct restore operation](https://azure.microsoft.com/blog/an-easy-way-to-bring-back-your-azure-vm-with-in-place-restore/)

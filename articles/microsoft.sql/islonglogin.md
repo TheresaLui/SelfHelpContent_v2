@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Database connectivity - Long Login issue"
-	description="LongLogin"
+	pageTitle="Resolve issues connecting to SQL Database"
+	description="Resolve issues connecting to SQL Database"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
 	authors="subbu-kandhaswamy, VMMicrosoft"
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
-	articleId="IsLongLogin_56EB94E0-398D-4557-A743-4918A95B7EA9"
+	articleId="IsLongLogin_56EB94E0-398D-4557-A743-4918A95B7EA9-TURN-OFF-TEMPORARILY"
 	diagnosticScenario="crc_sqldb_connectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980402"
@@ -16,7 +16,9 @@
 	cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Resolve issues connecting to SQL Database
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We identified that logging into <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is taking longer than usual.

@@ -5,7 +5,7 @@
 	service="microsoft.resourcehealth"
 	resource="resourcehealth"
 	authors="stephbaron"
-	authorAlias="stbaron"
+	ms.author="stbaron"
 	articleId="Service-healthevent-genericrhevent"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
@@ -14,4 +14,8 @@
 />
 
 # Your Azure resource may be impacted by a resource health event
-Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime-->, your resource <!--$ResourceName-->ResourceName<!--/$ResourceName--> may have been impacted by a resource health event. Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
+At <!--$startTime-->startTime<!--/$startTime-->, the Azure monitoring system received the following information regarding your resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
+
+<!--$Summary-->Summary<!--/$Summary-->
+
+Please use the link below to access Azure Resource Health for <!--$ResourceName-->ResourceName<!--/$ResourceName--> and view detailed health information and recommended actions.

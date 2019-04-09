@@ -17,9 +17,9 @@
 
 ## **Recommended Documents**
 
-* Export and Import ARM templates in data factory: [Document](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#create-a-resource-manager-template-for-each-environment) <br>
-* Copy or clone a data factory in ADF: [Document](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
-* Integrate into CI/CD cycle: [Document](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) <br>
+* Export and Import ARM templates in data factory [Document](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#create-a-resource-manager-template-for-each-environment) <br>
+* Copy or clone a data factory in ADF [Document](https://docs.microsoft.com/azure/data-factory/copy-clone-data-factory)
+* Integrate into CI/CD cycle [Document](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment), including following sections: <br>
 
   * [Best practices](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) _(please read)_ <br>
   * [Set up CI/CD releases with Git](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#continuous-integration-lifecycle) <br>

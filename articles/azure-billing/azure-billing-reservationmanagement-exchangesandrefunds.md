@@ -1,10 +1,11 @@
 <properties
-	pageTitle="exchanges and refunds"
-	description="exchanges and refunds"
+	pageTitle="Exchanges and refunds for an Azure Reserved Instance"
+	description="Exchanges and refunds for an Azure Reserved Instance"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
-	displayOrder=""
+	ms.author="prdasneo"
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32593227"
 	resourceTags=""
@@ -13,25 +14,29 @@
 	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
 />
 
-# Exchanges and Refunds
+# Exchanges and refunds for an Azure Reserved Instance
 
-**How is a reserved instance purchase billed?**
+### **Billing for a Reserved Instance purchase**
 
-The reserved instance purchase is charged to the payment method tied to the subscription.  The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription. To Learn more, see [Understanding the application of reserved instances billing benefit.](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
+The reserved instance purchase is charged to the payment method tied to the subscription. The payment method on the subscription is charged the upfront costs for the Reserved Instance. The subscription type must be an enterprise agreement (offer number: MS-AZR-0017P) or Pay-As-You-Go (offer number: MS-AZR-0003P). For an enterprise subscription, the charges are deducted from the enrollment's monetary commitment balance or charged as overage. For Pay-As-You-Go subscription, the charges are billed to the credit card or invoice payment method on the subscription.<br>
 
-**Cancellations and exchanges**
+To learn more, see [Understanding the application of reserved instances billing benefit](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges).
 
-* **Reserved VM Instance and SQL Database**
+### **Cancellations and Exchanges**
 
-If you need to cancel your reservation, there may be a 12% early termination fee. Refunds are based on the lowest price of either your purchase price or the current price of the reservation. Refunds are limited to $50,000 per year. The refund you receive is the remaining pro-rated balance minus the 12% early termination fee. To request a cancellation, go to the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade) in the Azure portal and select Refund to create a support request. <br>
+### **Reserved VM Instance and SQL Database**
 
-If you need to change your Reserved VM Instances reservation to another region, VM size group, or term, you can exchange it for another reservation that's of equal or greater value. The term start date for the new reservation doesn't carry over from the exchanged reservation. The 1 or 3 year term starts from when you create the new reservation. To request an exchange, go to the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade) in the Azure portal, and select Exchange to create a support request.
+If you need to **change** your Reserved VM Instances reservation to another region, VM size group, or term, you can exchange it for another reservation that's of equal or greater value. The term start date for the new reservation does not carry over from the exchanged reservation. The 1 or 3 year term starts from when you create the new reservation.<br>
 
-* **SUSE Software**
+If you need to **cancel** your reservation, there may be a 12% early termination fee. Refunds are based on the lowest price of either your purchase price or the current price of the reservation. Refunds are limited to $50,000 per year. The refund you receive is the remaining pro-rated balance minus the 12% early termination fee.<br>
 
-You can't cancel or exchange a SUSE plan that you bought. Check your usage to make sure you buy the right plan. For help in identifying what to buy, see [Understand how the SUSE Linux Enterprise software reservation discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges).
+**Note**: To request an exchange or cancellation, go to the [Reservation Blade](https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade) in the Azure portal and select Exchange or Refund respectively to create a support request.<br>
 
-## **Recommended documents**
+### **SUSE Software**
+
+You **can't cancel or exchange** a SUSE plan that you bought. Check your usage to make sure you buy the right plan. For help in identifying what to buy, see [Understand how the SUSE Linux Enterprise software reservation discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges).
+
+## **Recommended Documents**
 
 * [Prepay for Virtual Machines with Azure Reserved VM Instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#cancellations-and-exchanges)<br>
 * [Prepay for SUSE software plans from Azure Reservations](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges#cancellation-and-exchanges-not-allowed)<br>

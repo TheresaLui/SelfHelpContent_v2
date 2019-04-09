@@ -13,13 +13,66 @@
 # Deploy a VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Troubleshoot my ARM template error",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "deployment_manageddisks",
+            "id": "resourceGroup",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Select resource group for deployment failure",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of resource groups.",
+                    "text": "Unable to retrieve list of resource groups."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "correlationId",
+            "order": 2,
+            "visibility": "resourceGroup != null && resourceGroup != dont_know_answer",
+            "controlType": "dropdown",
+            "displayLabel": "Select failed deployment",
+            "dynamicDropdownOptions": {
+                "dependsOn": "resourceGroup",
+                "uri": "/subscriptions/{subscriptionId}/resourcegroups/{replaceWithParentValue}/providers/Microsoft.Resources/deployments/?api-version=2018-05-01&$filter=provisioningState%20eq%20'Failed'&$top=10",
+                "jTokenPath": "value",
+                "textProperty": "properties.timestamp,properties.parameters.location.value,name",
+                "textTemplate": "Time:{properties.timestamp} Region:{properties.parameters.location.value} Name:{name}",
+                "valueProperty": "properties.correlationId",
+                "defaultDropdownOptions": {
+                    "value": "Deployment failure not found.",
+                    "text": "Deployment failure not found."
+                },
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of failed deployments.",
+                    "text": "Unable to retrieve list of failed deployments."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "deployment_manageddisks",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you deploying with managed disks?",
             "watermarkText": "Choose an option",
@@ -38,9 +91,10 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "deployment_method",
-            "order": 2,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "How are you deploying your template?",
             "watermarkText": "Choose an option",
@@ -63,9 +117,10 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "deployment_fromgithub",
-            "order": 3,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is your template from github?",
             "watermarkText": "Choose an option",
@@ -80,35 +135,31 @@
                 }
             ],
             "required": false
-        },{
-                  "id": "github_link",
-                  "order": 4,
-                  "visibility": "deployment_fromgithub == Yes",
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Link to template on github",
-                  "useAsAdditionalDetails": true,
-                  "required": true
-                  },{
-                  "id": "correlation_id",
-                  "order": 5,
-                  "controlType": "textbox",
-                  "displayLabel": "Correlation ID",
-                  "useAsAdditionalDetails": false,
-                  "required": false
-                  },{
-                  "id": "problem_description",
-                  "order": 6,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 7,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
-                }
+        },
+        {
+            "id": "github_link",
+            "order": 6,
+            "visibility": "deployment_fromgithub == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Link to template on github",
+            "useAsAdditionalDetails": true,
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 8,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
     ]
 }
 ---
