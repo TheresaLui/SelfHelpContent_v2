@@ -1,7 +1,7 @@
 <properties
     pageTitle="query execution/increased workload"
     description="query execution/increased workload"
-    infoBubbleText="Found increased worload issuse with DB. See details on the right."
+    infoBubbleText="Found increased worload issues with DB. See details on the right."
     service="microsoft.sql"
     resource="servers"
     authors="pxding"
@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase in user requests for your Azure SQL DB database. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period. Please go through following documents to troubleshoot and resolve this issue.
+Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests for {DatabaseName}. This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period.
 
 ## **Recommended Documents**
 
