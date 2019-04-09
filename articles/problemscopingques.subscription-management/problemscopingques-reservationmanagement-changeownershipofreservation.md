@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -134,7 +135,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 8,
             "controlType": "multilinetextbox",
 	    "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -142,7 +143,7 @@
             "required": true,
             "hints": [
                 {
-                    "text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                    "text": "To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
                 },
 		{
                     "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution."
