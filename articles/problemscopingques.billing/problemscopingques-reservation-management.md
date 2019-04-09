@@ -105,15 +105,15 @@
             "useAsAdditionalDetails": false,
             "required": true,
 	    "visibility": "reservationOrderId != null"
-        },
+	    },
 	{
-            "id": "reservationorderid_details",	           
+            "id": "reservationorderid_details",
             "order": 3,
 	    "visibility": "Reservationid == Other",
-            "controlType": "textbox",	           
+            "controlType": "textbox",
             "displayLabel": "Reservation ID",
-            "watermarkText": "Provide your Reservation id",				            
-            "required": false	            
+            "watermarkText": "Provide your Reservation id",
+            "required": false
         },
 	{
             "id": "problem_description",
