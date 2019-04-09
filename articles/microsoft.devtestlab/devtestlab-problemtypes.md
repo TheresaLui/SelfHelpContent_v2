@@ -4,7 +4,7 @@
     service="microsoft.devtestlab"
     resource="labs"
     authors="leovms"
-    ms.authors="leov"
+    ms.author="leov"
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
