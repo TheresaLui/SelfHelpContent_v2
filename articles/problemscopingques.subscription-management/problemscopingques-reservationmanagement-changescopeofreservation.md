@@ -15,6 +15,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -51,32 +52,86 @@
             ],
             "required": true
         },
-        {
-            "id": "reservationorderid_details",
+	{
+            "id": "reservationOrderId",
             "order": 3,
-            "controlType": "textbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Reservation Order ID",
-            "watermarkText": "Provide your Reservation Order id",
+            "controlType": "dropdown",
+            "displayLabel": "Select the Reservation Order ID",
+	    "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+             "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
+             "jTokenPath": "value",
+             "textProperty": "properties.displayName,name",
+	     "textTemplate": "{properties.displayName} ({name})",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of reservations",
+                    "text": "Unable to retrieve list of reservations"
+                }
+            ],
+            "useAsAdditionalDetails": false,
             "required": true
         },
-        {
-            "id": "reservationid_details",
+	{
+            "id": "Reservationid",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Reservation ID",
+	     "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+             "uri": "/providers/Microsoft.Capacity/reservationOrders/{replaceWithParentValue}/reservations?api-version=2017-11-01",
+             "jTokenPath": "value",
+	     "dependsOn": "reservationOrderId",
+             "textProperty": "name",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Other",
+                    "text": "Please enter the Reservation ID below"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true,
+	    "visibility": "reservationOrderId != null"
+	    },
+	{
+            "id": "reservationorderid_details",
+            "order": 5,
+	    "visibility": "Reservationid == Other",
             "controlType": "textbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
-            "required": true
-        },
-        {
+            "required": false
+	},
+       {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
-	    "displayLabel": "Additional details",
-            "useAsAdditionalDetails": true,
-            "watermarkText": "Please provide a brief description of your issue",
-            "required": true
+	    "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Provide any additional information about your issue",
+            "required": true,
+            "hints": [
+                {
+                    "text": "To request an exchange/refund request, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a> to ensure we capture all of your reservation details accurately"
+                },
+		{
+                    "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution"
+                }
+            ]
         }
     ]
 }
