@@ -46,8 +46,8 @@
 						"value": "dont_know_answer",
 						"text": "Other, don't know or not applicable"
 					   }
-					],
-					"required": true
+				],
+				"required": true
 		  },{
 			"id": "jobID_Name",
 			"order": 4,
@@ -78,6 +78,6 @@
 			"required": true,
 			"hints": []
 		}
-		]
+	]
 }
 ---
