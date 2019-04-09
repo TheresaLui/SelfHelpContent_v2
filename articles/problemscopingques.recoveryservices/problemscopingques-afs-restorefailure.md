@@ -61,7 +61,7 @@
 			"order": 5,
 			"controlType": "textbox",
 			"displayLabel": "Provide the error code that are you seeing:",
-			"watermarkText": "Example: "UserErrorStorageAccountNotFound",
+			"watermarkText": "Example: UserErrorStorageAccountNotFound",
 			"required": false
 		  }, {
 			"id": "problem_start_date",
