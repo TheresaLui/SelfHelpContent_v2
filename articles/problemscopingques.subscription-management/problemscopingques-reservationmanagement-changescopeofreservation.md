@@ -115,7 +115,7 @@
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
             "required": false
-        },	  
+	},
        {
             "id": "problem_description",
             "order": 6,
