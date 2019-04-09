@@ -24,5 +24,5 @@ Our internal service telemetry detected high IO usage greater than 90% for more 
 
 ## **Recommended Documents**
 
-* [Consider batching to reduce IO consumption when doing large operations](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-use-batching-to-improve-performance)
-* [Increase Azure Database tier to get more DTUs and hence accommodate for more IO in your environment. Check Azure SQL Database tiers and pricing options](https://azure.microsoft.com/en-us/pricing/details/sql-database/single/)
+* [Consider batching to reduce IO consumption when doing large operations](https://docs.microsoft.com/azure/sql-database/sql-database-use-batching-to-improve-performance)
+* [Increase Azure Database tier to get more DTUs and hence accommodate for more IO in your environment. Check Azure SQL Database tiers and pricing options](https://azure.microsoft.com/pricing/details/sql-database/single)
