@@ -98,13 +98,22 @@
             },
             "dropdownOptions": [
                 {
-                    "value": "Unable to retrieve list of reservations",
-                    "text": "Unable to retrieve list of reservations"
+                    "value": "Other",
+                    "text": "Please enter the Reservation ID below"
                 }
             ],
             "useAsAdditionalDetails": false,
             "required": true,
 	    "visibility": "reservationOrderId != null"
+        },
+	{
+            "id": "reservationorderid_details",	           
+            "order": 3,
+	    "visibility": "Reservationid == Other",
+            "controlType": "textbox",	           
+            "displayLabel": "Reservation ID",
+            "watermarkText": "Provide your Reservation id",				            
+            "required": false	            
         },
 	{
             "id": "problem_description",
