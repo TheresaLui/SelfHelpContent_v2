@@ -156,7 +156,7 @@
                     "text": "Visual Studio Test Professional"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ],
@@ -165,7 +165,7 @@
         {
             "id": "offertype_details2",
             "order": 7,
-            "visibility": "offertype_details == Other",
+            "visibility": "offertype_details == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": " Provide the Offer Type",
             "watermarkText": "Provide the Offer Type",
