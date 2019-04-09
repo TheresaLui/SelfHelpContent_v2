@@ -2,82 +2,82 @@
          pageTitle="Scoping questions for AFS restore failure"
          description="Scoping questions for AFS restore failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32599716"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="7937a50e-344f-4502-856b-b8d23dd8d99a"
+         articleId="bb54b8e4-1278-4704-8d10-64df311673b1"
 />
 # Questions AFS restore failure
 ---
 {
          "resourceRequired": true,
-		 "title": "AFS restore failure",
-		 "fileAttachmentHint": "",
-		 "formElements": [{
-							"id": "storage_account_name",
-							"order": 1,
-							"controlType": "textbox",
-							"displayLabel": "Which storage account(s) is experiencing the problem?",
-							"watermarkText": "Enter the name of the storage account(s)",
-							"required": false
-				},{
-							"id": "fileshare_Name",
-							"order": 2,
-							"controlType": "textbox",
-							"displayLabel": "Provide the name(s) of the fileshare whose restore is failing?",
-							"watermarkText": "Enter fileshare name(s) comma separated",
-							"required": false
-				},{
-							"id": "restore_Type",
-							"order": 3,
-							"controlType": "dropdown",
-							"displayLabel": "Which type of restore are you performing?",
-							"watermarkText": "Select",
-							"dropdownOptions": [{
-												"value": "Original Location",
-												"text": "Original Location"
-								},{
-												"value": "Alternate Location",
-												"text": "Alternate Location"
-								},{
-												"value": "dont_know_answer",
-												"text": "Other, don't know or not applicable"
-								}
-								],
-								"required": true
-				},{
-							"id": "jobID_Name",
-							"order": 4,
-							"controlType": "textbox",
-							"displayLabel": "Enter the failed restore job Activity ID",
-							"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-							"required": false
-				},{
-							"id": "error_code",
-							"order": 5,
-							"controlType": "textbox",
-							"displayLabel": "Provide the error code that are you seeing:",
-							"watermarkText": "Example: "DataTransferServiceCoFLimitReached",
-							"required": false
-				},{
-							"id": "problem_start_date",
-							"order": 6,
-							"controlType": "datetimepicker",
-							"displayLabel": "When did the problem begin?",
-							"required": true
-				},{
-												
-							"id": "problem_description",
-							"order": 7,
-							"controlType": "multilinetextbox",
-							"useAsAdditionalDetails": true,
-							"displayLabel": "Additional details",
-							"watermarkText": "Provide additional information about your issue",
-							"required": true,
-							"hints": []
-				 }	
-				]
+	 "title": "AFS restore failure",
+	 "fileAttachmentHint": "",
+	 "formElements": [{
+			"id": "storage_account_name",
+			"order": 1,
+			"controlType": "textbox",
+			"displayLabel": "Which storage account(s) is experiencing the problem?",
+			"watermarkText": "Enter the name of the storage account(s)",
+			"required": false
+		   },{
+			"id": "fileshare_Name",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "Provide the name(s) of the file shares whose restore is failing?",
+			"watermarkText": "Enter file shares name(s) comma separated",
+			"required": false
+		   },{
+			"id": "restore_Type",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Which type of restore are you performing?",
+			"watermarkText": "Select",
+			"dropdownOptions": [{
+						"value": "Original Location",
+						"text": "Original Location"
+					  },{
+						"value": "Alternate Location",
+						"text": "Alternate Location"
+					  },{
+						"value": "dont_know_answer",
+						"text": "Other, don't know or not applicable"
+					   }
+					],
+					"required": true
+		  },{
+			"id": "jobID_Name",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "Enter the failed restore job Activity ID",
+			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+			"required": false
+		  },{
+			"id": "error_code",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "Provide the error code that are you seeing:",
+			"watermarkText": "Example: "UserErrorStorageAccountNotFound",
+			"required": false
+		  },{
+			"id": "problem_start_date",
+			"order": 6,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		  },{
+			"id": "problem_description",
+			"order": 7,
+			"controlType": "multilinetextbox",
+			"useAsAdditionalDetails": true,
+			"displayLabel": "Additional details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"hints": []
+		}
+		]
 }
 ---
