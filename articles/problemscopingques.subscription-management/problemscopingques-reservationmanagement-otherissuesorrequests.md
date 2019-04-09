@@ -115,7 +115,7 @@
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",
             "required": false
-        },	
+        },
        {
             "id": "problem_description",
             "order": 6,
@@ -126,10 +126,10 @@
             "required": true,
             "hints": [
                 {
-                    "text": "To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                    "text": "To request an exchange/refund request, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a> to ensure we capture all of your reservation details accurately"
                 },
 		 {
-                    "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution."
+                    "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution"
                 }
             ]
         }
