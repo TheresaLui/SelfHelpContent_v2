@@ -4,7 +4,7 @@
     ms.author="prdasneo"
     authors="prdasneo"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32454856,32632936"
+    supportTopicIds="32632936"
     productPesIds="15659"
     articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
