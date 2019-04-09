@@ -70,8 +70,14 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		  },{
-			"id": "problem_description",
+			"id": "problem_start_time",
 			"order": 7,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		  },{	
+			"id": "problem_description",
+			"order": 8,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
 			"displayLabel": "Additional details",
