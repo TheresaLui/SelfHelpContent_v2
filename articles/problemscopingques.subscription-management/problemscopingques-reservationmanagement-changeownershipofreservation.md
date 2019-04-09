@@ -61,7 +61,7 @@
              "uri": "/providers/Microsoft.Capacity/reservationOrders?api-version=2017-11-01",
              "jTokenPath": "value",
              "textProperty": "properties.displayName,name",
-	     "textTemplate": "{properties.displayName} : {name}",
+	     "textTemplate": "{properties.displayName} ({name})",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
