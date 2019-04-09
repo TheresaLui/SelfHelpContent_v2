@@ -34,8 +34,8 @@
             "dynamicDropdownOptions": {
              "uri": "/subscriptions?api-version=2014-04-01",
              "jTokenPath": "value",
-             "textProperty": "properties.displayName,subscriptionId",
-             "textTemplate": "{properties.displayName} ({subscriptionId})",
+             "textProperty": "displayName,subscriptionId",
+             "textTemplate": "{displayName} ({subscriptionId})",
              "valueProperty": "id",
              "textPropertyRegex": "[^/]+$",
              "defaultDropdownOptions": {
