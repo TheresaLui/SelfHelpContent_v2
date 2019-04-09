@@ -17,20 +17,13 @@
 # Classroom Labs Problem Types
 
 ## **Recommended Documents**
-[Classroom Labs Documentation](https://docs.microsoft.com/azure/lab-services)<br>
 
-[Set up and manage a lab account](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-lab-account)<br>
-
-[Set up a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-classroom-lab)<br>
-
-[Manage classroom labs](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-manage-classroom-labs)<br>
-
-[Configure usage settings and policies for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-configure-student-usage)<br>
-
-[Access a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-use-classroom-lab)<br>
-
-[Create and manager schedules for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-create-schedules)<br>
-
-[Track usage of a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-track-usage)<br>
-
-[Classroom Labs Stack overflow](https://stackoverflow.com/questions/tagged/azure-lab-services)<br>
+* [Classroom Labs Documentation](https://docs.microsoft.com/azure/lab-services)<br>
+* [Set up and manage a lab account](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-lab-account)<br>
+* [Set up a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-setup-classroom-lab)<br>
+* [Manage classroom labs](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-manage-classroom-labs)<br>
+* [Configure usage settings and policies for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-configure-student-usage)<br>
+* [Access a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-use-classroom-lab)<br>
+* [Create and manager schedules for a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/how-to-create-schedules)<br>
+* [Track usage of a classroom lab](https://docs.microsoft.com/azure/lab-services/classroom-labs/tutorial-track-usage)<br>
+* [Classroom Labs Stack overflow](https://stackoverflow.com/questions/tagged/azure-lab-services)<br>
