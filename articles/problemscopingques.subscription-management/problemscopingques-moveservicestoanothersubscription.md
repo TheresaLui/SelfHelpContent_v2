@@ -28,7 +28,7 @@
         },
         {
             "id": "sourcesubscriptionid_details",
-            "order": 6,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Select Source (FROM) Subscription ID",
             "watermarkText": "Choose an option",
