@@ -95,7 +95,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the Destination (TO) Subscription ID",
             "required": false
-        },	
+        },
         {
             "id": "services_details1",
             "order": 5,
