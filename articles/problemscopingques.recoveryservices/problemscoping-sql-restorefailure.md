@@ -97,7 +97,7 @@
 					"text": "Machine has Internet connectivity"
 				}, {
 					"value": "SQL server VM has required permission for restore",
-					"text": "SQL server VM has required permission for restore"  
+					"text": "SQL server VM has required permission for restore"
 				}, {
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
