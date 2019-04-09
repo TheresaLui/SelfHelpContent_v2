@@ -7,12 +7,12 @@
     authors="pxding"
     ms.author="pedin"
     displayOrder=""
-    articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
+    articleId="IsWorkLoadIssue_WL112677-E6C3-1004-B3D3-187FD7FC30EA"
     diagnosticScenario="dbasc"
     selfHelpType="rca"
-    supportTopicIds=""
-    resourceTags="databases, servers"
-    productPesIds=""
+    supportTopicIds="32630434,32630459"
+    resourceTags=""
+    productPesIds="13491"
     cloudEnvironments="public"
 />
 

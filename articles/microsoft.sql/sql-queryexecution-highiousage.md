@@ -10,9 +10,9 @@
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
     diagnosticScenario="dbasc"
     selfHelpType="rca"
-    supportTopicIds=""
-    resourceTags="databases, servers"
-    productPesIds=""
+    supportTopicIds="32630434,32630459"
+    resourceTags=""
+    productPesIds="13491"
     cloudEnvironments="public"
 />
 
