@@ -38,17 +38,17 @@
 			"displayLabel": "Which type of restore are you performing?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
-						"value": "Original Location",
-						"text": "Original Location"
-					  }, {
-						"value": "Alternate Location",
-						"text": "Alternate Location"
-					  }, {
-						"value": "dont_know_answer",
-						"text": "Other, don't know or not applicable"
-					   }
-				],
-				"required": true
+					"value": "Original Location",
+					"text": "Original Location"
+				  }, {
+					"value": "Alternate Location",
+					"text": "Alternate Location"
+				  }, {
+					"value": "dont_know_answer",
+					"text": "Other, don't know or not applicable"
+				  }
+			],
+			"required": true
 		   }, {
 			"id": "jobID_Name",
 			"order": 4,
