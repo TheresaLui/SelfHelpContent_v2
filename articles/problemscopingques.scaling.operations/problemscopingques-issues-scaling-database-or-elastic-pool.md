@@ -171,10 +171,6 @@
 			"displayLabel": "Which server?",
 			"watermarkText": "Which server?",
 			"infoBalloonText": "Which server?",
-			"dropdownOptions": [{
-					"value": "dont_know_answer",
-					"text": "Other"
-			}],
 			"dynamicDropdownOptions": {
 				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
 				"jtokenPath": "value",
