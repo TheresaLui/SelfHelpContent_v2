@@ -10,6 +10,7 @@
 # e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public
 ---
 {
+  "$schema":"SelfHelpContent",
   "recommendationTypeId": "e10b1381-5f0a-47ff-8c7b-37bd13d7c974",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
