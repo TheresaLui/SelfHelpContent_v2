@@ -23,8 +23,15 @@
     "formElements":
     [
         {
-            "id": "policyDefinition",
+            "id": "problem_start_time",
             "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "policyDefinition",
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Please provide the policy definition",
             "dynamicDropdownOptions": {
@@ -49,7 +56,7 @@
         },
         {
             "id": "policyAssignment",
-            "order": 20,
+            "order": 30,
             "controlType": "dropdown",
             "displayLabel": "Please provide the policy assignment",
             "dynamicDropdownOptions": {
@@ -71,6 +78,19 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 40,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [{
+                    "text": "Issue description."
+                }
+            ]
         }
     ]
 }

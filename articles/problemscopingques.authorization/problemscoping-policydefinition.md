@@ -17,16 +17,37 @@
 #Authoring a custom policy definition
 ---
 {
+    "subscriptionRequired": true,
     "title": "Policy definition",
     "fileAttachmentHint": "",
     "formElements":
     [
         {
-            "id": "rawPolicyDefinition",
+            "id": "problem_start_time",
             "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "rawPolicyDefinition",
+            "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the draft policy definition",
             "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [{
+                    "text": "Issue description."
+                }
+            ]
         }
     ]
 }

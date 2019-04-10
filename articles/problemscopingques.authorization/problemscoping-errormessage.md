@@ -17,16 +17,37 @@
 #Permission error message from Policy
 ---
 {
+    "subscriptionRequired": true,
     "title": "Error message",
     "fileAttachmentHint": "",
     "formElements":
     [
         {
-            "id": "errorMessage",
+            "id": "problem_start_time",
             "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "errorMessage",
+            "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the error message",
             "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [{
+                    "text": "Issue description."
+                }
+            ]
         }
     ]
 }
