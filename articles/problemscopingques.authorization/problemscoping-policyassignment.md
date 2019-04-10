@@ -46,6 +46,31 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "policyAssignment",
+            "order": 20,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide the policy assignment",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
+                "jTokenPath": "value",
+                "textProperty": "properties.displayName,name",
+                "textTemplate": "{properties.displayName}  ({name})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "NoPolicyAssignment",
+                    "text": "Unable to retrieve list of policy assignment"
+                }
+            ],
+            "required": true
         }
     ]
 }
