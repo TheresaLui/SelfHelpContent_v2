@@ -5,8 +5,8 @@
 	ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity_otherErrors"
-	supportTopicIds="32602728"
-	productPesIds="16459"
+	supportTopicIds="32602728,32612605"
+	productPesIds="16459,16598"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
