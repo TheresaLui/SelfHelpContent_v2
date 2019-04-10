@@ -40,7 +40,11 @@ Based on the specified format in the streaming client manifest (HLS, DASH, or Sm
 
 ## **Recommended Documents**
 
-**Concepts**
+**Media Services v3 (latest)**
+
+**NOTE**: Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
+
+Concepts:
 
 * [Dynamic packaging](https://docs.microsoft.com/azure/media-services/latest/dynamic-packaging-overview)<br>
 * [Streaming Locators](https://docs.microsoft.com/azure/media-services/latest/streaming-locators-concept)<br>
@@ -48,7 +52,7 @@ Based on the specified format in the streaming client manifest (HLS, DASH, or Sm
 * [Content Key Policies](https://docs.microsoft.com/azure/media-services/latest/content-key-policy-concept)<br>
 * [Streaming Endpoints](https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept)<br>
 
-**Tutorials**
+Tutorials:
 
 * [Quickstart: Stream video files - .NET](https://docs.microsoft.com/azure/media-services/latest/stream-files-dotnet-quickstart)<br>
 * [Quickstart: Stream video files - CLI](https://docs.microsoft.com/azure/media-services/latest/stream-files-cli-quickstart)<br>

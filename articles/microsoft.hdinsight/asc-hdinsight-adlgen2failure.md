@@ -10,7 +10,7 @@
     articleId="Hdi_Crud_AzureDataLakeGen2Failure"
     diagnosticScenario="HDInsightAzureDataLakeGen2FailureInsight"
     selfHelpType="rca"
-    supportTopicIds="32629004"
+    supportTopicIds="32629004, 32636423"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

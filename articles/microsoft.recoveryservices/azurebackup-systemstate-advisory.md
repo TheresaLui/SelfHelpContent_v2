@@ -7,7 +7,7 @@
 		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
-                supportTopicIds="32594865,32594866,32594867,32594868,32632799,32594870"
+                supportTopicIds="32594865,32594866,32594867,32594868,32632799,32594870,32632800"
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
@@ -16,12 +16,17 @@
 
 # ALL self-help topics System State backup
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-- [How to backup Windows System State using Azure Backup?](https://aka.ms/AB-AA4dp49)<br>
-- [How to Recover System State files to the same server?](https://aka.ms/AB-AA4dp4e)<br>
-- [How to Recover System State files to the alternate server?](https://aka.ms/AB-AA4dp4d)<br>
-- [How to apply restored System State on a Windows Server?](https://aka.ms/AB-AA4dwsn)<br>
+How to:
+
+- [Backup Windows System State using Azure Backup](https://aka.ms/AB-AA4dp49)<br>
+- [Recover System State files to the same server](https://aka.ms/AB-AA4dp4e)<br>
+- [Recover System State files to the alternate server](https://aka.ms/AB-AA4dp4d)<br>
+- [Apply restored System State on a Windows Server](https://aka.ms/AB-AA4dwsn)<br>
 - [Troubleshoot failed System State restore](https://aka.ms/AB-AA4dwsp)<br>
-- [Limitations] Recovering to different hardware using System State recovery is not recommended by Microsoft.<br>
-- [Limitations] System State backup currently supports "on premise" Windows servers, this functionality is not available for Azure VMs.
+
+**Limitations** 
+
+- Recovering to different hardware using System State recovery is not recommended by Microsoft
+- System State backup currently supports "on premise" Windows servers, this functionality is not available for Azure VMs

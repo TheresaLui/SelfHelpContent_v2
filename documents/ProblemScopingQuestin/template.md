@@ -1,5 +1,4 @@
 <properties
-	articleId=""
 	pageTitle=""
 	description=""
 	authors=""
@@ -9,11 +8,13 @@
 	productPesIds=""
 	cloudEnvironments=""
 	schemaVersion="1"
+	articleId=""
 />
 # VM Performance
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{

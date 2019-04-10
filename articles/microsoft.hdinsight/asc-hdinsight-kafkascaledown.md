@@ -10,7 +10,7 @@
     articleId="Hdi_Kafka_ScaleDownFailure"
     diagnosticScenario="HDInsightKafkaScaleDownInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628995, 32629125"
+    supportTopicIds="32628995, 32629125, 32636492, 32636468"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

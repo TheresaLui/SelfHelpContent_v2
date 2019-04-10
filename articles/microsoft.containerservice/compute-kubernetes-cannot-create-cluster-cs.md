@@ -1,6 +1,6 @@
 <properties
-	pageTitle="kubernetes service cannot create"
-	description="kubernetes service cannot create common solutions"
+	pageTitle="Diagnose and resolve Kubernetes creation issues"
+	description="Diagnose and resolve Kubernetes creation issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,7 +14,7 @@
 	articleId="63005ef9-f17c-4f71-83da-839d21c5c1a7"
 />
 
-# Kubernetes Service
+# Diagnose and resolve Kubernetes creation issues
 
 ## **Recommended Documents**
 
