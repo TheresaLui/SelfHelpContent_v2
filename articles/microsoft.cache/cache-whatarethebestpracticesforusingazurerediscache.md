@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="aa0654f6-59a7-418f-aba3-13ecd9e1cf50"
 />
 
 # What are the best practices for using Azure Redis Cache?

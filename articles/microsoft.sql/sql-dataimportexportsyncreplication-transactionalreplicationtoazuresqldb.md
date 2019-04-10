@@ -10,6 +10,7 @@
 	supportTopicIds="32630458"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="3b871e6b-d8d8-4a10-9f46-690779769518"
 />
 
 # data import, export, sync, replication/transactional replication to Azure SQL db

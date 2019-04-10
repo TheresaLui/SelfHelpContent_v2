@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628282"
 	resourceTags=""
-	productPesIds="15571,15797,16454"
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="aa0bafee-2385-4cb8-8352-dd65f180361a"
 />
 
 # My start or stop operation failed

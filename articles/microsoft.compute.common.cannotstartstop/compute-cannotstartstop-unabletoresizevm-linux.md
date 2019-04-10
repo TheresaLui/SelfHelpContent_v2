@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628260"
 	resourceTags=""
-	productPesIds="15571,15797,16454"
+	productPesIds="15571,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="b112665b-c56a-41d0-96ff-8ffe3cacd25b"
 />
 
 # I am unable to resize my VM

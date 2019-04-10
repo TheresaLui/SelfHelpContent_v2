@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="d329c127-7d15-4ba9-bca1-1b221900b6ae"
 />
 
 # Configuring Function Apps/Other configuration options

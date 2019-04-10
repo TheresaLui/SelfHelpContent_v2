@@ -9,7 +9,8 @@
     productPesIds="15693"
     supportTopicIds=""
     cloudEnvironments="public"
- />
+ 	articleId="cc1f13a7-9ec2-477c-9848-96cde957f620"
+/>
 # IP addresses my app sends are all 0.0.0.0
 ## **Recommended steps**
 Application Insights now sets all octets of the IP address collected by client/server side SDKs to zero after looking up the City, Country and other geo location attributes. This strengthens privacy and is a change from prior processing that set only the last octet to zero.<br><br>

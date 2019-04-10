@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="afd81632-edfd-41bd-9b5c-38318264a7da"
 />
 
 # I'm encountering a Bad Gateway Error (502)

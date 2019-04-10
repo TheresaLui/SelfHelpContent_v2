@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32565494"
 	resourceTags=""
-	productPesIds="15571,15797,16454,14749"
+	productPesIds="15571,15797,16454,14749,16470"
 	cloudEnvironments="public"
+	articleId="15c87a05-eb46-4369-bea4-8d2b3af57dce"
 />
 
 # Azure Backup - Configuration and Setup
@@ -27,7 +28,7 @@
 		- [Back up Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
 		- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 		- [Enable backup during Azure virtual machine creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)<br>
-		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2)<br>
+		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability)<br>
 	- Manage and monitor VMs
 		- [Manage Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br>
 		- [Monitor alerts for Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms)<br>

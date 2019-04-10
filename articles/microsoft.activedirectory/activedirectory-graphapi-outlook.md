@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="6c12f109-8f44-4cb6-9273-b1f3f9a75756"
 />
 
 # Microsoft Graph Outlook Issues

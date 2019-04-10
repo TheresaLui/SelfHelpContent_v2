@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
+	articleId="8b7b47da-ede0-4403-961c-c563e70fa3c4"
 />
 
 # Data Box Disk Shipping

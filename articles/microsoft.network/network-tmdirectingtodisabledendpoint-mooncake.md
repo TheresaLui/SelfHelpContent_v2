@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="2171b93f-6cc9-41cf-b88c-f40a0510c0b6"
 />
 
 # Traffic Manager is directing requests to a disabled endpoint

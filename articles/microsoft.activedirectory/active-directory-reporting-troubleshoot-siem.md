@@ -10,7 +10,8 @@
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
     cloudEnvironments="public"
-    />
+    	articleId="ee92f907-7be5-495a-a5c5-2e4ebc87c80f"
+/>
 
 # I can't integrate Azure AD activity logs with my SIEM system
 

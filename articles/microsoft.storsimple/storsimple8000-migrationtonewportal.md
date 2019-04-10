@@ -10,6 +10,7 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="ca1e2a6b-d82b-435b-995d-57fd6f9fb4e0"
 />
 
 # I want to move my StorSimple Device Manager from classic portal

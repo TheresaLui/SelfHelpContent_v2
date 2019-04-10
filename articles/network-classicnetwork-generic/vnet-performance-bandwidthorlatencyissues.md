@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="184e5a75-bd4d-4b75-8f7e-c2ab3cf60c8a"
 />
 
 # performance/bandwidthorlatencyissue

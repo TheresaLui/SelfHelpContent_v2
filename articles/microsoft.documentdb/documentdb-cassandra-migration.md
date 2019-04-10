@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="70993247-d5f1-4677-9238-2e390ad3b548"
 />
 # Migrate data to Azure Cosmos DB Cassandra API
 

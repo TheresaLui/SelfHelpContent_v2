@@ -10,6 +10,7 @@
 	resourceTags=""	
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax" 
+	articleId="9142a1af-8474-4dcb-817f-6683d57fdb92"
 />
 
 # I am receiving a quota exceeded exception

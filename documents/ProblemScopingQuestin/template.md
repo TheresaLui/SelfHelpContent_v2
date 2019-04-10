@@ -1,5 +1,4 @@
 <properties
-	articleId=""
 	pageTitle=""
 	description=""
 	authors=""
@@ -9,11 +8,13 @@
 	productPesIds=""
 	cloudEnvironments=""
 	schemaVersion="1"
+	articleId=""
 />
 # VM Performance
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -38,11 +39,11 @@
 			],
 			"required": false
 		}, {
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
 			"id": "applications_on_vm",
 			"order": 3,
@@ -84,7 +85,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
-			"required": false,
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."

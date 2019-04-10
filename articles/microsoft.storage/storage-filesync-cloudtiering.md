@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
+	articleId="95f4f61e-2457-4a6a-9f2d-996cbdeebd17"
 />
 
 # Troubleshooting Azure File Sync Issues with Sync

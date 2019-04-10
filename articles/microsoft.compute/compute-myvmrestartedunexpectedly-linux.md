@@ -1,19 +1,20 @@
 <properties
-	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly"
+	pageTitle="Resolve issues with an unexpected Linux VM restart"
+	description="Resolve issues with an unexpected Linux VM restart"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
-	displayOrder="8"
+	displayOrder="55"
 	selfHelpType="resource"
-	supportTopicIds="32411816,32593740,32628269,32628280,32628287"
-	resourceTags="linux, redhat"
+	supportTopicIds="32628269,32628280,32628287"
+	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="15797,15571,16470,16454,16342"
 	cloudEnvironments="public"
+	articleId="ccda7af8-571e-48ad-9b1e-63b0b2a3101b"
 />
 
-# My VM restarted unexpectedly
+# Resolve issues with an unexpected Linux VM restart
 
 4 out of 5 customers resolved their VM restart issue using the steps below.<br>
 

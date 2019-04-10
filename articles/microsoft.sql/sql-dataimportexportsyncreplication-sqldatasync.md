@@ -10,6 +10,7 @@
 	supportTopicIds="32630455"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="8953a223-c606-42bd-ae86-964c0db4e34c"
 />
 
 # data import, export, sync, replication/SQL data sync

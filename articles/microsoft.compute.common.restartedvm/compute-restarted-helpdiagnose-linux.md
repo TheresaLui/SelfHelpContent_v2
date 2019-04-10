@@ -9,13 +9,14 @@
 	selfHelpType="generic"
 	supportTopicIds="32593740,32628269,32628280,32628287"
 	resourceTags=""
-	productPesIds="15797,15571,16454,16342"
+	productPesIds="15797,15571,16454,16342,16470"
 	cloudEnvironments="public"
+	articleId="aea5b2c8-7393-49a1-b9eb-e32910bc0eaf"
 />
 
 # Help diagnose my VM restart issue
 
-4 out of 5 customers resolved their VM restart issue using the guides listed below.
+4 out of 5 customers resolved their VM restart issue using the guides listed below.<br>
 
 ## **Recommended Documents**
 

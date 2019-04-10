@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="851bb7c6-f9ae-475a-9a75-abbf35c239fc"
+/>
 
 # What media file formats are supported by the recommended encoder?
 

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
+	articleId="a53099e6-974e-4cfe-8a0c-92949362cbd8"
 />
 
 # Hive Queries are Slow

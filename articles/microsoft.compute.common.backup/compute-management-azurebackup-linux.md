@@ -9,9 +9,11 @@
 	selfHelpType="generic"
 	supportTopicIds="32565495"
 	resourceTags=""
-	productPesIds="15571, 15797, 16454"
+	productPesIds="15571, 15797, 16454,16470"
 	cloudEnvironments="public"
+	articleId="e957f39e-fdef-4998-aeb8-68c3e4ee2af7"
 />
+
 # Azure Backup - Management
 
 4 out of 5 customers resolve their Azure Backup issues using the steps below.<br>
@@ -26,7 +28,7 @@
 		- [Back up Azure virtual machines to Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-vms-first-look-arm)<br>
 		- [Back up and restore encrypted virtual machines with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption)<br>
 		- [Enable backup during Azure virtual machine creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)<br>
-		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2)<br>
+		- [Upgrade to Azure VM Backup stack V2](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability)<br>
 	- Manage and monitor VMs
 		- [Manage Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms)<br>
 		- [Monitor alerts for Azure virtual machine backups](https://docs.microsoft.com/azure/backup/backup-azure-monitor-vms)<br>

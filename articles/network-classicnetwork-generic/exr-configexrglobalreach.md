@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="c831e2ed-518a-4b07-9961-99bd4a57989f"
 />
 
 # Configure ExpressRoute Global Reach

@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="ed99f3d0-8696-4706-94d9-7085e144dc50"
 /> 
 # Other problem with Azure AD admin role 
 ---

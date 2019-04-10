@@ -10,7 +10,8 @@
     supportTopicIds="32402605,32402602"
     productPesIds="15693"
     cloudEnvironments="public"
- />
+ 	articleId="d8446387-6f41-4550-bf36-440a264956a7"
+/>
 # I want to get started writing application analytics queries
 
 ## **Recommended Steps**

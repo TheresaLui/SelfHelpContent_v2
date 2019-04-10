@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="39af1404-9dae-4138-aeb3-31b6686b804c"
 />
 
 # I need help with cross-subscription connectivity (for Circuit User)

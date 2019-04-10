@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16459,16461,16462"
 	cloudEnvironments="public"
+	articleId="f01af92b-0e0d-41cb-9afe-439a6c75c62b"
 />
 
 # Storage Throughput Issues

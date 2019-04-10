@@ -5,7 +5,6 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	authorAlias="jlynn"
 	ms.author="jlynn"
 	displayOrder=""
 	articleId="intune_renew_apns_maven"
@@ -20,7 +19,7 @@
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
 
 <div>
-  Your Apple MDM push certificate has expired. The Apple MDM push certificate is valid for one year and must be renewed annually to maintain iOS and macOS device management. If your certificate expires, enrolled Apple devices cannot be contacted and new devices cannot be enrolled.<br />
-  <br />To renew your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#renew-apple-mdm-push-certificate">here</a>.<br />
-  <br />
+  Your Apple MDM push certificate has expired. The Apple MDM push certificate is valid for one year and must be renewed annually to maintain iOS and macOS device management. If your certificate expires, enrolled Apple devices cannot be contacted and new devices cannot be enrolled.<br/>
+<br/>
+To renew your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#renew-apple-mdm-push-certificate" target="_blank">here</a>.
 </div>

@@ -5,7 +5,6 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	authorAlias="jlynn"
 	ms.author="jlynn"
 	displayOrder=""
 	articleId="intune_setup_apns_maven"
@@ -16,11 +15,5 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 />
-
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
-
-<div>
-  Intune enables mobile device management (MDM) of iPads, iPhones, and Mac computers and gives users access to company email and apps. An MDM Push certificate is required for Intune to manage iOS and Mac devices. After you add the certificate to Intune, your users can install the Company Portal app to enroll their devices. You can also set up corporate-owned iOS device management with Apple's Device Enrollment Program or enroll devices using Apple Configurator, for example.<br />
-  <br />To setup your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate">here</a>.<br />
-  <br />
-</div>
+<div>Intune enables mobile device management (MDM) of iPads, iPhones, and Mac computers and gives users access to company email and apps. An MDM Push certificate is required for Intune to manage iOS and Mac devices. After you add the certificate to Intune, your users can install the Company Portal app to enroll their devices.<br/><br/>You can also set up corporate-owned iOS device management with Apple's Device Enrollment Program or enroll devices using Apple Configurator, for example.<br/><br/>To setup your Apple MDM Push certificate please review the following document <a href="https://docs.microsoft.com/intune/apple-mdm-push-certificate-get#steps-to-get-your-certificate" target="_blank">here</a>.</div>

@@ -10,6 +10,7 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="c896d5ce-8893-4f84-8f0e-a437770e89d4"
 />
 
 # Problems working with hybrid runbook workers

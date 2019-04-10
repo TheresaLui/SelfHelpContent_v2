@@ -11,7 +11,8 @@
     productPesIds=""
     resourceTags="windows, linux, WindowsSQL, redhat"
     cloudEnvironments="MoonCake"
- />
+ 	articleId="ca8550a9-73dc-47fd-9f10-44d714baf7dc"
+/>
 
 # I can't connect to an application on my VM
 

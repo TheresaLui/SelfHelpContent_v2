@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="9fcb9dab-5912-42b6-b6d8-9d0a4bd18c87"
 />
 
 # Auditing

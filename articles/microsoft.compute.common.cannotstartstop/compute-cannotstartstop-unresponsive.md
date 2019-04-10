@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="8d3e0818-0feb-4207-a953-b89f19198227"
 />
 
 # My VM is unresponsive to start or stop operations

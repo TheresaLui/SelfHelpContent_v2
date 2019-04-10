@@ -3,14 +3,15 @@
               description="I need to reset my password"
               service=""
               resource=""
-              authors="summertgu,scottAzure"
-              ms.author="tiag,scotro"
+              authors="ScottAzure"
+              ms.author="scotro"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615529"
               resourceTags=""
-              productPesIds="15571,15797,16454"
+              productPesIds="15571,15797,16454,16470"
               cloudEnvironments="public"
+              articleId="28c55293-b977-4d19-b98c-338f450a6aa4"
 />
 
 # I need to reset my password
@@ -36,11 +37,10 @@ You can **reset or restart the SSH Service** and **reset credentials** in the fo
 
 If the above fails, you can also use the offline method of [resetting the password by attaching the source OS virtual disk to another VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password). Only use this process as a last resort. Always try to reset a password using the Azure portal or Azure CLI first.
 
-
 **Note:** If you use the VMAccess Extension to reset the password of your VM after installing the AAD Login Extension, you will need to rerun the AAD Login Extension to re-enable AAD Login for your machine.
 
 ## **Recommended Documents**
 
-* [Using the Azure Portal to troubleshoot SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#use-the-azure-portal)
-* [Troubleshoot SSH connections to an Azure Linux VM that fails, errors out, or is refused](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection)
+* [Using the Azure Portal to troubleshoot SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#use-the-azure-portal)<br>
+* [Troubleshoot SSH connections to an Azure Linux VM that fails, errors out, or is refused](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection)<br>
 * [How to reset local Linux password on Azure VMs - Offline reset](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password)

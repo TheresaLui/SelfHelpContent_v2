@@ -10,6 +10,7 @@
 	supportTopicIds="32630440"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="a7600f37-bebc-4920-bc19-76de8020af2e"
 />
 
 # backup/restore/my issue is not listed

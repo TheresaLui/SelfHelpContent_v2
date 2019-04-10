@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="5ad2e3d3-2ca5-4626-8f44-cdd95d918eb5"
 />
 
 # Configure ExpressRoute Direct

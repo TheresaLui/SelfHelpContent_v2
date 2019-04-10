@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="4e98d152-d7af-4c27-a992-6dfd7ab4ff9e"
 />
 
 # Introduction to Azure Cosmos DB Python SDK

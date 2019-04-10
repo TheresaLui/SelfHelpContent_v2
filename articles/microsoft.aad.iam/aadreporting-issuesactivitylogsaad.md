@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="a06c1654-9643-40e6-80ca-da96c5ccf148"
 /> 
 # Problem with Activity logs in Azure AD 
 ---
@@ -43,6 +44,10 @@
                 {
                     "text": "Azure AD Power BI Content Pack",
                     "value": "PBI"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -86,6 +91,10 @@
                 {
                     "text": "Audit",
                     "value": "audit"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

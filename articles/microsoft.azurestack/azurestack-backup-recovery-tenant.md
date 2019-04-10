@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="21f79f8b-620a-4bda-9827-9a3bd0ced066"
 />
 
 # Azure Stack Tenant Resource Backups

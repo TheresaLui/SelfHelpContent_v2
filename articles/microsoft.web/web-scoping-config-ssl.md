@@ -7,6 +7,7 @@
 	supportTopicIds="32440123"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="28629161-0358-4bec-b83e-6d8ca261a95b"
 />
 
 # Configuring SSL

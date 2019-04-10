@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="e432c0da-a83f-4535-9cd5-22d15a7afcdc"
 />
 
 # Azure Recovery Service Agent V2A

@@ -11,6 +11,7 @@
     resourceTags="windows, windowsSQL"
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="b9c8ce7c-e5a8-4bab-b362-8ece389d5d79"
 />
 
 # I can't create or add a new VM

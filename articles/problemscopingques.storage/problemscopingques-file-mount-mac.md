@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="0f8503fd-60ef-4e40-a968-9ee7a6922f33"
 />
 # Storage File Share mounting issues - macOS
 ---
@@ -29,6 +30,10 @@
                 {
                     "value": "OSX_below1010",
                     "text": "Yosemite (version 10.10) or below"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

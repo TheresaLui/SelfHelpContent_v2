@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="7640a487-6f9f-4a3c-9e53-5c75888cc9f2"
 /> 
 # Problem with ADFS sign in 
 ---
@@ -48,6 +49,10 @@
                 {
                     "text": "No",
                     "value": "SingleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -74,6 +79,10 @@
                 {
                     "text": "No",
                     "value": "SingleOrSelectedUsersImpacted"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -104,6 +113,10 @@
                 {
                     "text": "Both Internal and External",
                     "value": "BothInternalExternal"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

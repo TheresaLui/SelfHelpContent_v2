@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public, MoonCake"
+	articleId="e7973819-966a-43d6-b53d-2aa5a84cfc46"
 />
 
 # Replication not progressing - VMware/Physical to Azure

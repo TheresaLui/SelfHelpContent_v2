@@ -13,6 +13,7 @@ supportTopicIds="32612438"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="17ae1c05-dffc-435d-a9e3-5a0b987cd3a5"
 />
 
 # Cannot unlink Automation account

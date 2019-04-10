@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="91f1e0e5-5317-4900-ae44-654ab268acfe"
 />
 
 # Configure SSL or HTTPS 

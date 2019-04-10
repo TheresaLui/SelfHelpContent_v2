@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="4f0c071f-8a0c-4a99-bba4-57d45da0e04f"
 />
 
 # Setup help for Memory Metrics

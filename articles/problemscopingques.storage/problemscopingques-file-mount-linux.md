@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="79f6826d-4649-4cd1-bb10-5ea01b616d3d"
 />
 # Storage File Share mounting issues - Linux
 ---
@@ -33,6 +34,10 @@
                 {
                     "value": "on_premises",
                     "text": "Client is outside Azure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

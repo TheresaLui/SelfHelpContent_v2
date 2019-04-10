@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="12ee57f8-1913-4da0-9d90-1deab56a0216"
 />
 
 # Azure Stack Key Vault

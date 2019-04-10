@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="3b737cec-2f72-4abf-b3ec-f1321aa4ee7f"
 /> 
 # Other Problem with ADFS federation 
 ---

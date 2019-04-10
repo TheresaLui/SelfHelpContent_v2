@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="5da14838-5798-4fb6-bf3e-6adda9522409"
 />
 
 # Configure URL Rewrite

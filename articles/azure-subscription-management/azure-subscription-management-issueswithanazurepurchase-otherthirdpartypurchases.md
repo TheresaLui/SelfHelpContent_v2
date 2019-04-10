@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="f931b13e-1d64-47f8-a864-357c04d61031"
 />
 
 # Azure Subscription Management

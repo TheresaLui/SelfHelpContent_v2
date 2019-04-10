@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
+	articleId="1cc6f5a8-476c-4638-9a5b-be97b0640439"
 />
 
 # Spark Application Configuration

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="b0380479-ed1b-4df3-b708-e3ebefc4deeb"
 />
 
 # My VM will not start after a configuration change

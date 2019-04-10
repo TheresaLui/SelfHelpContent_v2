@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="2074c917-8ebe-478b-a161-1e20062cc7b5"
 />
 
 # Set device compliance - Create an Android for Work Policy

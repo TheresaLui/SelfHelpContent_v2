@@ -10,6 +10,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="520b02c2-31a6-4ff5-9c3c-13f32dfd7333"
 />
 
 # Clarification is needed

@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="90a950a0-4323-4d24-a082-8126a02fe8f3"
 />
 # Problem with AAD B2B 
 ---
@@ -48,6 +49,10 @@
                 {
                     "text": "Is an external user (guest/B2B user)",
                     "value": "externalUser"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

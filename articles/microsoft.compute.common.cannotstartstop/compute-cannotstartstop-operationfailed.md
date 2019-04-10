@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="5e8c5760-d46d-4c14-9f30-52eb26ca9538"
 />
 
 # My start or stop operation failed

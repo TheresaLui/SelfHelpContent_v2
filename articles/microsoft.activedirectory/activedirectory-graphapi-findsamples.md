@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="fd602275-2104-4c70-a4f0-5c06ee0e0260"
 />
 
 # Microsoft Graph Client Libraries and Samples

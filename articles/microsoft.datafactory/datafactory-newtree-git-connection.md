@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="fa4bf4772808490c928247f53858e614"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629433, 32629453, 32629524"
@@ -22,5 +22,8 @@ To connect to [Git Repository in another Azure Active Directory tenant](https://
 ## **Recommended Documents**
 
 * [Visual Authoring in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/author-visually) <br>
+
+  * [Advantages](https://docs.microsoft.com/azure/data-factory/author-visually#advantages-of-git-integration) of Git integration <br>
+  * [Best practices](https://docs.microsoft.com/azure/data-factory/author-visually#best-practices-for-git-integration) <br>
   * Connecting to [Azure Repos Git repository](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-azure-repos-git-integration) <br>
   * Connecting to [GitHub](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-github-integration) <br>

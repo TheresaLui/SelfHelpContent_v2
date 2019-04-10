@@ -1,19 +1,20 @@
 ﻿<properties
-    pageTitle="I can't connect to my Windows VM"
-    description="I can't connect to my Windows VM"
+    pageTitle="Resolve connection issue with your Windows VM"
+    description="Resolve connection issue with your Windows VM"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ram-kakani,timbasham,scottazure"
     ms.author="scotro,tibasham,ramakk"
-    displayOrder="1"
+    displayOrder="5"
     selfHelpType="resource"
-    supportTopicIds="32511135,32615531,32615526"
+    supportTopicIds="32615531,32615526"
     resourceTags="windows, windowsSQL"
     productPesIds="14749,14745"
     cloudEnvironments="public"
+	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
 />
 
-# I can't connect to my Windows VM
+# Resolve connection issue with your Windows VM
 
 4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
@@ -21,7 +22,7 @@
 
 **Note**: It is recommended to follow the troubleshooting steps below to first identify the problem, then perform the remediation step(s) before opening a support ticket.
 
-If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, you can start by accessing the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBladeViewModel.id.$resourceId) for your VM and determine if the VM is experiencing a boot error.<br>
+If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, you can start by accessing the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId) for your VM and determine if the VM is experiencing a boot error.<br>
 
 ### If your VM is not at the ctrl-alt-del screen, it may be experiencing a boot error
 

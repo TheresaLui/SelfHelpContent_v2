@@ -12,6 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
+	articleId="86bef2de-f277-4281-b772-72f57f524f96"
 />
 
 # Data Box Disk Data Copy

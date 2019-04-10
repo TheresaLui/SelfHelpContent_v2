@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
+	articleId="c952d566-adf4-4180-9577-503ecab99d9b"
 />
 
 # I need help troubleshooting Azure File issues

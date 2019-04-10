@@ -7,6 +7,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="bd533d79-d3fa-439d-964a-2982e28e8ea5"
 />
 # Cannot connect to virtual machine using RDP or SSH
 ---

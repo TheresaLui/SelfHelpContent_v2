@@ -5,7 +5,6 @@
                 service="microsoft.intune"
                 resource="intune"
                 authors="mackie1604"
-		authorAlias="jlynn"
 		ms.author="jlynn"
                 displayOrder=""
                 articleId="intune_set_mdm_authority_maven"
@@ -20,7 +19,7 @@
 # We ran diagnostics on your Microsoft Intune subscription and found an issue
  
 <div>
-  The MDM authority setting determines how you manage your devices. As an IT admin, you must set an MDM authority before enrolling and managing devices through Intune MDM.<br />
-  <br />To review the different MDM authority options, please refer to the article <a href="https://docs.microsoft.com/intune/mdm-authority-set">here</a>.<br />
-  <br />
+  The MDM authority setting determines how you manage your devices. As an IT admin, you must set an MDM authority before enrolling and managing devices through Intune MDM.<br/>
+  <br/>To review the different MDM authority options, please refer to the article <a href="https://docs.microsoft.com/intune/mdm-authority-set" target="_blank">here</a>.<br/>
+  <br/>
 </div>

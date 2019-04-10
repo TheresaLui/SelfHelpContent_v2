@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="d762b5bb-f03f-4f23-896a-a77d2b89fc19"
 />
 
 # Microsoft Graph OneDrive API issues

@@ -3,14 +3,15 @@
               description="Troubleshoot my VM firewall"
               service=""
               resource=""
-              authors="scottAzure"
-              ms.author="scotro"
+              authors="scottAzure,timbasham"
+              ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
               supportTopicIds="32615534"
               resourceTags=""
               productPesIds="14749"
               cloudEnvironments="public"
+	articleId="72a1d281-9123-421c-9cf6-90fed2618648"
 />
 
 # Troubleshoot my VM firewall
@@ -40,22 +41,26 @@ Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resou
         ```
         netsh advfirewall firewall show rule dir=in name=all | select-string -pattern "(LocalIP.*<CUSTOM IP>)" -context 9,4 | more
         ```
+
 2. If you see the rule disabled, then you can enable it as the following:
 
     ```
     netsh advfirewall firewall set rule name="<RULE NAME>" new enable=yes
     ```
-3. For troubleshooting purposes in case you need to turn the firewall profiles OFF:
+
+3. For troubleshooting purposes in case, you need to turn the firewall profiles OFF:
 
     ```
     netsh advfirewall set allprofiles state off
     ```
 
-**Note:** Ensure you enable the firewall back after troubleshooting. A virtual machine reboot is not necessary for this change to kick in.<br>
+**Note:** Ensure you re-enable the firewall after troubleshooting. A virtual machine reboot is not necessary for this change to take effect.<br>
 
 ## **Recommended Documents**
 
 * [Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)<br>
 * [Guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
 * [How to disable the guest OS firewall](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
-* [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)
+* [Enable or disable a guest OS firewall rule](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)<br>
+* [Troubleshooting Windows Firewall with Advanced Security in Windows Server 2012](https://social.technet.microsoft.com/wiki/contents/articles/13894.troubleshooting-windows-firewall-with-advanced-security-in-windows-server-2012.aspx)<br>
+* [Learn more about Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows)

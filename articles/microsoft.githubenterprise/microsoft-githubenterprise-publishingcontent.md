@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16668"
 	cloudEnvironments="public"
+	articleId="617b51f6-3c16-4469-be37-4e0f82c3d2bf"
 />
 
 

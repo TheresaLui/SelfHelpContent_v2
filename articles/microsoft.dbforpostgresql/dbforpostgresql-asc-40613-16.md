@@ -4,7 +4,8 @@
 	infoBubbleText="Found recent connection failure. See details on the right"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
-	authors="janeng"
+	authors="jan-eng"
+    ms.author="janeng"
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-40613-16"
 	diagnosticScenario="OrcasPostgresGatewayCannotStartProxyConneciton"
@@ -17,7 +18,7 @@
 # Can't connect PostgreSQL database server
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues with Azure Database for MySQL. The Azure database for PostgreSQL service uses a gateway as the service endpoint to provide layered security, high availability, and elastic scaling of resources with minimal downtime. During our investigation we found that the gateway was failing to establish connections to your host database server preventing you from connecting to your server. We have restarted the gateway and subsequently observed that connections are succeeding as expected. The issue has been forwarded to the engineering team for further monitoring and determining a permanent fix.
+Thank you for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. The Azure database for PostgreSQL service uses a gateway as the service endpoint to provide layered security, high availability, and elastic scaling of resources with minimal downtime. During our investigation we found that the gateway was failing to establish connections to your host database server preventing you from connecting to your server. We have restarted the gateway and subsequently observed that connections are succeeding as expected. The issue has been forwarded to the engineering team for further monitoring and determining a permanent fix.
 <!--/issueDescription-->
 
 ## **Recommended steps**

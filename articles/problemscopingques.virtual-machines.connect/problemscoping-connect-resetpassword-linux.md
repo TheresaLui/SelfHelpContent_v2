@@ -2,7 +2,7 @@
                 pageTitle="Cannot Connect to My Virtual Machine"
                 description="Cannot Connect to My Virtual Machine"
                 authors="summertgu"
-                authorAlias="tiag"
+                ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615529"
                 productPesIds="15571,15797,16454,16470"
@@ -105,16 +105,12 @@
                             "text": "Portal"
                         },
                         {
-                            "value": "Powershell CLI",
-                            "text": "Powershell CLI"
+                            "value": "Powershell or CLI",
+                            "text": "Powershell or CLI"
                         },
                         {
-                            "value": "Run commands",
-                            "text": "Run commands"
-                        },
-                        {
-                            "value": "Custom script extension",
-                            "text": "Custom script extension"
+                            "value": "Run Commands or Custom script Extension",
+                            "text": "Run Commands or Custom script Extension"
                         }
                     ],
                     "required": false

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="fe1cc8cb-12e4-46ab-844a-f8a8a698ba35"
 />
 
 # wiredata-setup

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="0bb36f17-2342-4c60-8bcd-e4416a54a9cd"
 />
 
 # Troubleshoot marketplace image deployment failures

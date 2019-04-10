@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="64dbe6d9-1543-4d92-be68-9256c99ae2bc"
 />
 
 # configurationandsetup/cookiesessionaffinity

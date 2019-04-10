@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="c9e77afb-2a5d-474e-be70-585dc792b54b"
 />
 
 # Configure Caching

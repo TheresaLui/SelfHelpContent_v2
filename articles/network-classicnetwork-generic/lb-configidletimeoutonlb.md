@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="55846efa-41c5-48a1-b9fb-c56cb2da5538"
 />
 
 # configure idle timeout on load balancer

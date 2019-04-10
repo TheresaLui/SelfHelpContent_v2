@@ -1,16 +1,18 @@
 <properties
 	pageTitle="I can't create a Data Box Edge resource."
 	description="I can't create a Data Box Edge resource."
-	service="Microsoft.DataBox"
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
-	authors="anbacker"
+	authors="anoobbacker"
 	ms.author="anbacker"
+	authoralias="anbacker"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxEdge"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="64258305-b205-46e8-8168-f796dcf0de1a"
 />
 
 # I can't create a Data Box Edge resource

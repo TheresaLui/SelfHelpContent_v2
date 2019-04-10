@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="f7b38aef-8641-4e65-8a79-b2196bcf88da"
 />
 
 # Azure Stack Disk Failure

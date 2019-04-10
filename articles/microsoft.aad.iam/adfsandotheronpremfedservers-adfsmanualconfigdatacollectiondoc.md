@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="5dc61c39-e0d2-4fdb-a6c4-80af03fc3b57"
 /> 
 # Problem with ADFS manual configeration 
 ---
@@ -31,6 +32,10 @@
                 {
                     "text": "No",
                     "value": "ADFSNotDeployed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -65,6 +70,10 @@
                 {
                     "text": "Server 2008 R2",
                     "value": "version2008R2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -91,6 +100,10 @@
                 {
                     "text": "No",
                     "value": "SingleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

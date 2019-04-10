@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="a4d7272c-1eaf-4d31-ad59-4d99f61366bd"
 />
 
 # Unable to connect to Azure Cosmos DB Table API collection

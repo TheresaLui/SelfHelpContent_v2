@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="6262174c-b147-4df1-9e30-94ba7693c0b4"
 />
 
 # Unable to connect to VM after failover - Hyper-V to Azure

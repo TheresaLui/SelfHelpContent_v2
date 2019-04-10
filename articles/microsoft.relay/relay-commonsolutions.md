@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16123"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="ffaffc89-ae30-4031-868e-abe31b0e6f94"
 />
 
 # advisory

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="a9a4b125-a404-4095-9439-79931c2f5fdb"
 />
 
 # Session Affinity

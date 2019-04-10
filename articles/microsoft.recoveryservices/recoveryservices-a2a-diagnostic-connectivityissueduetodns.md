@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
-	authoralias="asgang"
+	ms.author="asgang"
 	displayOrder=""
 	articleId="vmnotconnectingduetodnsissue"
 	diagnosticScenario="vmnotconnectingduetodnsissue"

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="8eeda772-6f4c-4aa1-b003-7092225d94c1"
 />
 
 # configurationandsetup/configurl

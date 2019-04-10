@@ -10,14 +10,14 @@
 	articleId="sql_datasync_loginfailedinmember"
 	diagnosticScenario="SqlDataSync"
 	selfHelpType="diagnostics"
-	supportTopicIds="32574329"
+	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 # We ran diagnostics on your resource and found an issue
 
-<!--issueDescription-->
+<!--issueDescription-->  
 We were able to detect a login failure in the following Azure Member Database(s):<br>
 **<!--$LoginFailedAzureMemberList--> LoginFailedAzureMemberList <!--/$LoginFailedAzureMemberList-->**
 <!--/issueDescription-->

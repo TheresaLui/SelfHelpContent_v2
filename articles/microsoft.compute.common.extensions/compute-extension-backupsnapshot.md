@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="950a7bc9-306f-47b1-840f-8a1287f5ec3b"
 />
 
 # VM Snapshot (Azure Backup) extension issue

@@ -10,6 +10,7 @@
 	supportTopicIds="32630437"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="e1d8b708-9bb6-4e08-9cc2-0661f7912711"
 />
 
 # service tiers or scaling resources/my database or elastic pool isn't visible in the portal

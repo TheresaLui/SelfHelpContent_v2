@@ -5,7 +5,6 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
-	authorAlias="jlynn"
 	ms.author="jlynn"
 	displayOrder=""
 	articleId="service_principal_disabled_maven"
@@ -21,7 +20,7 @@
 
 <div>
   Microsoft Intune has a dependency on specific Service Principals to function correctly. We allow the ability to disable these Intune SPN's in Azure Active Directory for customers that would like to do so. We have detected that you are using Intune and that these SPN's are disabled which will prevent Intune from functioning correctly. Please follow the steps below to enable the Intune SPN's.
-  <br /><br />
+  <br/><br/>
   <ol>
     <li>In the <a href="https://portal.azure.com">Azure portal</a>, choose Azure Active Directory | Enterprise Applications, and then choose Application type of All Applications and hit apply.</li>
     <li>Search for Microsoft Intune.</li>

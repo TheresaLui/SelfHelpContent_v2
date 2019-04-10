@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="7c7c8379-0646-4ca6-9297-66a1ead1d84b"
 />
 # How to test BCDR (business continuity and disaster recovery) or HADR (high availability and disaster recovery) with Azure Cosmos DB
 Most enterprise applications include business continuity testing as part of their development and release process. BCDR and HADR testing 

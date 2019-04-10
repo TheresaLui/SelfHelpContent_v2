@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="19cfe703-c6c1-4c58-99fa-6b75117a3176"
 /> 
 
 # Azure Databricks R

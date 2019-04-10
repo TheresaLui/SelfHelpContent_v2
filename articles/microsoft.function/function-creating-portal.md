@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="d2e26343-204f-4c15-b398-18880b8c33d7"
 />
 
 # Creating apps in the Azure portal (portal.azure.com)

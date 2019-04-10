@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="d5772567-8d86-4519-9c31-f3070c4bbccf"
 />
 
 # Priority Based Load Balancing

@@ -10,6 +10,7 @@
 	supportTopicIds="32630420"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="12410211-a2f0-48af-99a1-58da8fcb50ff"
 />
 
 # data import, export, sync, replication/export from SQL db to BACPAC

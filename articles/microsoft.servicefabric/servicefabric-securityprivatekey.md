@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="0dfe92a6-9e34-4855-b666-5f1aeb432c79"
 />
 
 # Private Key Permissions

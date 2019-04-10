@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="e78cc1cf-960c-4d8d-b975-5e3057eb3d19"
 />
 
 # configurationandsetup/configendtoendssl

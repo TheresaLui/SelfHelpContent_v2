@@ -11,6 +11,7 @@
 	resourceTags="redhat"
 	productPesIds="15797"
 	cloudEnvironments="public"
+	articleId="9b3d8acb-5801-4c35-80f9-bcd277d78ef1"
 />
 
 # Advisory

@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="388afd66-12f1-4dd4-b42f-9529fa6f9e22"
 />
 # Storage File migration between Storage Accounts
 ---
