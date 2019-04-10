@@ -4,7 +4,7 @@
     infoBubbleText=""
     service="microsoft.devops"
     resource="service""
-    authors="ccoopms"
+    authors="chrisjco"
     ms.author="ccoop"
     displayOrder="5"
     diagnosticScenario=""
