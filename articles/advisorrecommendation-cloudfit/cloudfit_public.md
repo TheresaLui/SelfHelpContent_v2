@@ -1,13 +1,13 @@
 <properties
-    pageTitle="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Public"
-    description="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Public"
+    pageTitle="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
+    description="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
     authors="aadevteam"
     ms.author"aadevteam"
-    articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Public"
+    articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
 />
-# e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Public
+# e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public
 ---
 {
   "recommendationTypeId": "e10b1381-5f0a-47ff-8c7b-37bd13d7c974",
