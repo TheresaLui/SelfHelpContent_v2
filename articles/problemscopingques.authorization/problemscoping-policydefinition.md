@@ -23,7 +23,7 @@
     [
         {
             "id": "rawPolicyDefinition",
-            "order": 100,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the draft policy definition",
             "required": true

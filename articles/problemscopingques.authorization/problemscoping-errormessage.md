@@ -23,7 +23,7 @@
     [
         {
             "id": "errorMessage",
-            "order": 200,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the error message",
             "required": true
