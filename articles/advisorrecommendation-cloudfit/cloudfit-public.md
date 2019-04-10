@@ -2,7 +2,7 @@
     pageTitle="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
     description="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
     authors="aadevteam"
-    ms.author"aadevteam"
+    ms.author="aadevteam"
     articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974-public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
