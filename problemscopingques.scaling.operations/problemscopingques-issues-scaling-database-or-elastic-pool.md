@@ -165,8 +165,30 @@
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
 		{
-			"id": "problem_description",
+			"id": "which_server",
 			"order": 7,
+			"controlType": "dropdown",
+			"displayLabel": "Which server?",
+			"watermarkText": "Which server?",
+			"infoBalloonText": "Which server?",
+			"dropdownOptions": [{
+					"value": "dont_know_answer",
+					"text": "Other"
+			}],
+			"dynamicDropdownOptions": {
+				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"jtokenPath": "value",
+				"textProperty": "name",
+				"valueProperty": "id",
+				"textPropertyRegex": null
+			},
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "problem_description",
+			"order": 8,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -176,7 +198,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 8,
+			"order": 9,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
