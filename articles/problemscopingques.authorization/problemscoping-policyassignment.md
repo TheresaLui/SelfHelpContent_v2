@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636046,32636049,32636050"
+    supportTopicIds="32636046,32636050"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
@@ -44,7 +44,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": false
+            "required": true
         }
     ]
 }

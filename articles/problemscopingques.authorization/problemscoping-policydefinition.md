@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636045,32636047"
+    supportTopicIds="32636045"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
@@ -26,7 +26,7 @@
             "order": 100,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the draft policy definition",
-            "required": false
+            "required": true
         }
     ]
 }

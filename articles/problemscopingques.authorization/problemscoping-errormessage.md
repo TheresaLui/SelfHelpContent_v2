@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636045,32636046,32636047,32636049,32636050"
+    supportTopicIds="32636049"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="public"
@@ -26,7 +26,7 @@
             "order": 200,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the error message",
-            "required": false
+            "required": true
         }
     ]
 }
