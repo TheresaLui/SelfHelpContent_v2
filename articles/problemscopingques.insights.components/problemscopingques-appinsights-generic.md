@@ -9,8 +9,8 @@
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	subscriptionRequired="true"
-	resourceRequired="false"
+	subscriptionRequired=true
+	resourceRequired=false
 />
 # Application Insights
 ---
