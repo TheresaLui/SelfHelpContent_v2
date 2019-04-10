@@ -7,7 +7,7 @@
 	articleId="5c190125-b0df-4fc9-a5cd-bed5004cfcd6"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629536, 32629537"
+	supportTopicIds="32629537"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
@@ -23,7 +23,7 @@
 
 * Firewall and proxy related issues: [possible symptoms and error messages](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#possible-symptoms-for-firewall-and-proxy-server-related-issues) <br>
   * Please ensure ports are white listed for both central _corporate_ firewall and local machine _Windows_ firewall. For more details, [Firewall Whitelisting](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall) <br>
-  * If your IR uses proxy server, please reference [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations)<br>
+  * If your IR uses proxy server, please refer to [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations) <br>
 
 ## **Recommended Documents**
 
