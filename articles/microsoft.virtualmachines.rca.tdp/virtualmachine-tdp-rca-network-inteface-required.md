@@ -1,5 +1,4 @@
-
-virtualmachine-tdp-rca-network-interface-required.md<properties
+<properties
 	pageTitle="Deployment Failure RCA"
 	description="RCA - VM must have at least one network interface"
 	infoBubbleText="Found recent deployment failure. See details on the right."
