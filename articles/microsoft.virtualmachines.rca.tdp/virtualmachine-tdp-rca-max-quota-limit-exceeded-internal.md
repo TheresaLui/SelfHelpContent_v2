@@ -15,7 +15,9 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# Maximum quota limit exceeded
+
+## We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of exceeding the virtual CPU quota limits on the subscription.  
 <!--/issueDescription-->
