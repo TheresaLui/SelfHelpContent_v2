@@ -194,7 +194,8 @@
 				"jtokenPath": "value.sku",
 				"textProperty": "name",
 				"valueProperty": "id",
-				"textPropertyRegex": null
+				"textPropertyRegex": null,
+				"dependsOn": "which_server"
 			},
 			"required": false,
 			"useAsAdditionalDetails": false,
