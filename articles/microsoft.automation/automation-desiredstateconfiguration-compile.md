@@ -20,6 +20,15 @@
 
 First, [compile the configuration locally ](https://docs.microsoft.com/powershell/dsc/configurations/configurations#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation. 
 
+### Import-DSC Resource needs to be on new line
+
+* If importing multiple DSC resources, [list each Import-DscResource statement on a new line](https://docs.microsoft.com/powershell/dsc/configurations/import-dscresource)
+
+### Using composite resources
+
+* Composite resources have specific syntax. Review [the overview documentation for Composite Resources ](https://docs.microsoft.com/powershell/dsc/resources/authoringresourcecomposite)
+* The [CompositeResource package on PowerShell Gallery](https://www.powershellgallery.com/packages/compositeresource/) can help create new composite resources
+
 ### Using custom resources in State Configuration
 
 * Ensure your [module is uploaded to Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/modules) and the version is consistent with any local testing you have done.
