@@ -24,4 +24,4 @@
 
 ## **Recommended Documents**
 
-[Data Factory Limits (see Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)
+* [Data Factory Limits (see Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)
