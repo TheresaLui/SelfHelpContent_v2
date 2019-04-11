@@ -15,10 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-
-# Deployment failure - SKU not available (internal)
-
-## We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you were trying to deploy.
