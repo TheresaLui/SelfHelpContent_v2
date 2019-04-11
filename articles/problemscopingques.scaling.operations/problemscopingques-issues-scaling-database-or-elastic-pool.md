@@ -172,7 +172,7 @@
 			"watermarkText": "Which server?",
 			"infoBalloonText": "Which server?",
 			"dynamicDropdownOptions": {
-				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
 				"jtokenPath": "value",
 				"textProperty": "name",
 				"valueProperty": "id",
@@ -190,7 +190,7 @@
 			"watermarkText": "Test",
 			"infoBalloonText": "Test",
 			"dynamicDropdownOptions": {
-				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
 				"jtokenPath": "value",
 				"textProperty": "name",
 				"valueProperty": "id",
