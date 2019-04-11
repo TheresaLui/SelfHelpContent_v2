@@ -183,8 +183,26 @@
 			"visibility": true
 		},
 		{
-			"id": "problem_description",
+			"id": "test_dropdown",
 			"order": 8,
+			"controltype": "dropdown",
+			"dislayLabel": "Test",
+			"watermarkText": "Test",
+			"infoBalloonText": "Test",
+			"dynamicDropdownOptions": {
+				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"jtokenPath": "value",
+				"textProperty": "name",
+				"valueProperty": "id",
+				"textPropertyRegex": null
+			},
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "problem_description",
+			"order": 9,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -194,7 +212,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 9,
+			"order": 10,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
