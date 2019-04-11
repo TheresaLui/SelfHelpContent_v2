@@ -186,7 +186,7 @@
 			"id": "test_dropdown",
 			"order": 8,
 			"controltype": "dropdown",
-			"dislayLabel": "Test",
+			"displayLabel": "Test",
 			"watermarkText": "Test",
 			"infoBalloonText": "Test",
 			"dynamicDropdownOptions": {
