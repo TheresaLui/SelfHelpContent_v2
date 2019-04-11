@@ -15,19 +15,18 @@
 
 # Integration Runtime Express Setup Issue
 
-## **Recommended steps**
+## **Recommended Steps**
 
 * The Express setup for the Integration Runtime requires Edge or another Microsoft ClickOnce compatible web browser. If the Express Setup fails to start, please consider the following steps: <br>
 
   * Please use Edge or a Microsoft ClickOnce compatible web browser <br>
   * If you are using Chrome, go to the [Chrome web store](https://chrome.google.com/webstore/), search with "ClickOnce" keyword, choose one of the ClickOnce extensions, and install it <br>
-  * Use the _Manual Setup_ link shown on the same pane in the UI to download the installation file and run it manually. After the installation is successful, you will see the Integration Runtime Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service <br>
-
+  * Use the _Manual Setup_ link shown on the same pane in the UI to download the installation file and run it manually. After the installation is successful, you will see the Integration Runtime Configuration dialog box. Copy the **key** from the portal screen and use it in the configuration manager to manually register the gateway with the service.
 * Firewall and proxy related issues: [possible symptoms and error messages](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#possible-symptoms-for-firewall-and-proxy-server-related-issues) <br>
-  * Please ensure ports are white listed for both central _corporate_ firewall and local machine _Windows_ firewall. For more details, [Firewall Whitelisting](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall) <br>
+  * Please ensure ports are white listed for both central _corporate_ firewall and local machine _Windows_ firewall. For more details, see [Firewall Whitelisting](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall).
   * If your IR uses proxy server, please refer to [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations) <br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to create and configure Self-hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime/), including: <br>
   * [Best Practice](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices) <br>
