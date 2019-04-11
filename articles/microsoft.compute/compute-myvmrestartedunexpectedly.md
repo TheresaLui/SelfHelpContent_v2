@@ -20,9 +20,9 @@
 
 ## **Recommended Steps**
 
-Azure Resource Health helps you diagnose and get support when an Azure service problem affects your resources. It informs you about the current and past health of your resources. And it provides technical support to help you mitigate problems. [Understand more about Resource Health Center](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
+**[Azure Resource Health](https://docs.microsoft.com/azure/resource-health/resource-health-overview)** helps you diagnose and get support when an Azure service problem affects your resources. It informs you about the current and past health of your resources, and it provides technical support to help you mitigate problems. <br>
 
-Whereas [Azure Status](https://status.azure.com/) informs you about service problems that affect a broad set of Azure customers, [Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) gives you a personalized dashboard of the health of your resources. Resource Health shows you all the times your resources were unavailable in the past because of Azure service problems. It's then simple for you to understand if an SLA was violated.<br>
+Where **[Azure Status](https://status.azure.com/)** informs you about service problems that affect a broad set of Azure customers, **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** gives you a personalized dashboard of the health of your resources. Resource Health shows you all the times your resources were unavailable in the past because of Azure service problems.
 
 1. Review [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
 2. Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages<br>
