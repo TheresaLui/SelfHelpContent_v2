@@ -183,22 +183,22 @@
 			"visibility": true
 		},
 		{
-			"id": "test_dropdown",
+			"id": "which_database",
 			"order": 8,
 			"controltype": "dropdown",
 			"displayLabel": "Test",
 			"watermarkText": "Test",
 			"infoBalloonText": "Test",
 			"dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
-				"jtokenPath": "value",
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers/{replaceWithParentValue}/databases?api-version=2017-10-01-preview",
+				"jtokenPath": "value.sku",
 				"textProperty": "name",
 				"valueProperty": "id",
 				"textPropertyRegex": null
 			},
 			"required": false,
 			"useAsAdditionalDetails": false,
-			"visibility": true
+			"visibility": "which_server != Which server?"
 		},
 		{
 			"id": "problem_description",
