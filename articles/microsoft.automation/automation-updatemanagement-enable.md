@@ -1,22 +1,22 @@
 <properties
-    pageTitle="Resolve Update Management issues with Azure Automation"
-    description="Resolve Update Management issues with Azure Automation"
+    pageTitle="Resolve Update Management issues with Azure Automation - Enable"
+    description="Resolve Update Management issues with Azure Automation - Enable"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599861,32599924"
+    supportTopicIds="32599903"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
-    articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
+    articleId="e7641147-7a28-4ba4-ba37-49ee74bc9637"
 />
 
-# Resolve Update Management issues with Azure Automation
+# Resolve Update Management issues with Azure Automation - Enabling Update Management
 
-This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
+This article will help with several kinds of issues relating to enabling the Azure Update Management solution.
 
 ## **Recommended Steps**
 
@@ -43,32 +43,6 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 * If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
 * If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 * If there is an error code listed, see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-
-### **Remove machine from Update Management**
-
-* To unenroll a machine from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
-
-### **Machines don't install updates**
-
-* Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
-
-### **Machines update without an update deployment**
-
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
-
-### **I know updates are available, but they don't show as needed on my machines**
-
-* This often happens if machines are configured to get updates from WSUS/SCCM, but WSUS/SCCM have not approved the updates.
-* You can check if machines are configured for WSUS/SCCM by [cross-referencing the "UseWUServer" registry key to the registry keys in the "Configuring Automatic Updates by Editing the Registry" section of this document](https://support.microsoft.com/help/328010/how-to-configure-automatic-updates-by-using-group-policy-or-registry-s)
-
-### **Updates show as installed, but I can't find them on my machine**
-
-* Updates are often superceded by other updates. For more information, see ["Update is superseded" in the Windows Update Troubleshooting guide](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer)
-
-### **Updating machines across different tenants**
-
-* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
 
 
 ## **Recommended Documents**
