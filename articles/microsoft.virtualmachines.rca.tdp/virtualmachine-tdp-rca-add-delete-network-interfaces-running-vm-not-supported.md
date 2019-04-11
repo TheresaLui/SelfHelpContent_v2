@@ -18,12 +18,10 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of an attempt to delete or add a network interface while the VM was running.
+The virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of an attempt to attach or detach a network interface while the VM was running.
 <!--/issueDescription-->
-To avoid this issue, first stop the virtual machine before updating interfaces.<br>
+To avoid this issue, first stop the virtual machine before changing network interfaces.<br>
 
-You can delete (detach) a network interface only when VM is not running. If a network interface is attached to a VM, you must first place the VM in the stopped (deallocated) state, then delete it from the VM. 
-
-The same is true for adding (attaching) a network interface to a VM.
+You can attach or detach a network interface only when the VM is in a deallocated state (stopped). 
 
 For guidance on working with network interfaces, see [Add network interfaces to or remove network interfaces from virtual machines](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm).
