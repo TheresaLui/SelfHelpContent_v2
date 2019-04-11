@@ -10,7 +10,6 @@
 	schemaVersion="1"
 	articleId="problemscopingques-cluster-arm-template"
 />
-
 # ARM Templates
 {
     "resourceRequired": false,
