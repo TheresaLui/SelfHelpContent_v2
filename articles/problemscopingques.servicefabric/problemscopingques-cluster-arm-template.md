@@ -11,6 +11,7 @@
 	articleId="problemscopingques-cluster-arm-template"
 />
 # ARM Templates
+---
 {
     "resourceRequired": false,
     "title": "ARM Templates",
