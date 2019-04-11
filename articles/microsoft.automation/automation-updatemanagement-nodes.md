@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public"
-    articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
+    articleId="bad97f5e-f660-4295-a360-df54b1784a65"
 />
 
 # Resolve Update Management issues with Azure Automation - Machines not listed
