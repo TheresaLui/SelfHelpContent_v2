@@ -8,7 +8,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template"
+	articleId="problemscopingques-cluster-arm-template-sf"
 />
 # ARM Templates
 ---
