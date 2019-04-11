@@ -175,7 +175,7 @@
 				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
 				"jtokenPath": "value",
 				"textProperty": "name",
-				"valueProperty": "id",
+				"valueProperty": "name",
 				"textPropertyRegex": null
 			},
 			"required": false,
