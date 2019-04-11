@@ -43,6 +43,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
@@ -127,6 +130,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
@@ -265,13 +271,13 @@
 			"order": 18,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start occuring?",
-			"required": false
+			"required": true
 		},{
 			"id": "problem_description",
 			"order": 19,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please provide the following details",
-			"required": false,
+			"required": true,
 			"watermarkText": "A detailed scenario of the error condition, troubleshooting done so far, log files if any, timestamp, screenshots, and any other relevant information.",
 			"useAsAdditionalDetails": true,
 			"hints": [{
