@@ -8,7 +8,7 @@
                 productPesIds="13185"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0114"
+                articleId="b4b6273d-558e-4f2d-ab00-36a830ea0119"
 />
 # Connectivity
 ---
