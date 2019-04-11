@@ -2,17 +2,19 @@
          pageTitle="Scoping questions for MARS restore failure"
          description="Scoping questions for MARS restore failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553296"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		 articleId="171f4f9b-3e04-4b40-8c57-b30b5063c752"
+	 articleId="171f4f9b-3e04-4b40-8c57-b30b5063c752"
 />
 # Questions MARS restore failure
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "MARS restore failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -22,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -88,6 +90,10 @@
                 {
                     "value": "Restore data to the same machine from which the backups were taken",
                     "text": "Restore data to the same machine from which the backups were taken"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -117,16 +123,20 @@
                 {
                     "value": "Tried restoring different recovery points",
                     "text": "Tried restoring different recovery points"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "learn_more_text",

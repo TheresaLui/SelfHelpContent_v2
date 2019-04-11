@@ -2,9 +2,10 @@
 	pageTitle="change scope of reservation"
 	description="change scope of reservation"
 	service="azure-subscription-management"
-	resource="azure-subscription-management"
+	resource="subscription-management"
 	authors="prdasneo"
-	displayOrder=""
+	ms.author="prdasneo"
+	displayOrder="1"
 	selfHelpType="generic"
 	supportTopicIds="32593232"
 	resourceTags=""
@@ -15,23 +16,30 @@
 
 # Change scope of reservation
 
-## Recommended Steps
+## **Recommended Steps**
 
-View your current billing status, invoices, and recon files
+1. Sign in to the [Azure portal](https://portal.azure.com/)
+2. Select **All services > Reservations**
+3. Select the reservation
+4. Select **Settings > Configuration**
+5. Change the scope
 
-* In your Partner Dashboard, select Billing and then One time to view your billing status.
-* Select an invoice or recon file to view more detailed information.
-Learn more : [Download or view your Azure billing invoice and daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date) <br>
+If the scope is changed from shared to single scope, only select subscriptions where you are the owner can be selected. Only subscriptions within the same billing context as the reservation, can be selected. The scope only applies to Pay-As-You-Go offer MS-AZR-0003P or MS-AZR-0023P, Enterprise offer MS-AZR-0017P or MS-AZR-0148P, or CSP subscription types.<br>
+
+Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
+
+The Enterprise Administrator can transfer ownership of subscriptions within an enrollment. To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal. <br>
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Manage Azure Reserved VM Instances billing](https://docs.microsoft.com/partner-center/azure-reservations-billing/)<br>
-* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics/)<br>
-* [Understand how the Reserved Instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges/)<br>
-* [Download or view your Azure billing invoice and daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)<br>
-* [Understand how the Reserved Instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges/)<br>
-* [Understand Reserved Instance usage for your Pay-As-You-Go subscription](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage/)<br>
-* [Understand Reserved Instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea/)<br>
-* [Windows software costs not included with Reserved instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs/)<br>
-* [Reserved Instances in Partner Central Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations/)
+* [Subscription Ownership transfer](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+* [Save money on virtual machines with Azure Reserved Instances](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
+* [Prepay for Virtual Machines with reserved instances](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
+* [Understand how the reserved instance discount is applied](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
+* [Understand reserved instance usage for your Pay-As-You-Go subscription](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage)
+* [Understand reserved instance usage for your Enterprise enrollment](https://docs.microsoft.com/azure/billing/billing-understand-reserved-instance-usage-ea)
+* [Windows software costs not included with reserved instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
+* [Manage reserved instances](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)
+* [Manage Microsoft Azure reservations on behalf of your customers](https://docs.microsoft.com/partner-center/azure-reservations-manage)
+* [Reserved instances in Partner Center Cloud Solution Provider (CSP) program](https://docs.microsoft.com/partner-center/azure-reservations)

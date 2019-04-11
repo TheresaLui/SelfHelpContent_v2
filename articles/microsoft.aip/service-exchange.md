@@ -23,4 +23,4 @@
 * [Office 365: Configuration for clients and online services to use the Azure Rights Management service](https://docs.microsoft.com/azure/information-protection/configure-office365)<br>
 * [What is Azure Information Protection?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)<br>
 * [Requirements for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/requirements)<br>
-* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)<br>
+* [Quick start tutorial for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/get-started/infoprotect-quick-start-tutorial)

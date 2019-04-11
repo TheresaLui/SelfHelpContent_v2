@@ -21,5 +21,6 @@ Queries in Azure Stream Analytics are expressed in an SQL-like query language. T
 
 ## **Recommended Documents**
 
+* [Easily debug query logic with live data in Visual Studio](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-live-data-local-testing)
 * [Common query patterns](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-stream-analytics-query-patterns)
 * [Debugging ASA query logic](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-troubleshoot-query)

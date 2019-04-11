@@ -16,8 +16,8 @@
 ## Secondary Title
 ---
 {
-	"subscriptionRequired": true,
-	"resourceRequired": true,
+  "subscriptionRequired": true,
+  "resourceRequired": true,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{

@@ -1,20 +1,20 @@
 ﻿<properties  
-    pageTitle="I can't connect to my Linux VM"
-    description="I can't connect to my Linux VM"
+    pageTitle="Resolve connection issue with your Linux VM"
+    description="Resolve connection issue with your Linux VM"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ScottAzure"
     ms.author="scotro"
     displayOrder="5"
     selfHelpType="resource"
-    supportTopicIds="32511135,32547978,32547979,32615531,32615526"
+    supportTopicIds="32547978,32547979,32615531,32615526"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="15571,16342,16065,15797,16454,16470"
     cloudEnvironments="public"
 	articleId="51356b1f-09f5-4a5b-85f4-dc96cea89c14"
 />
 
-# I can't connect to my Linux VM
+# Resolve connection issue with your Linux VM
 
 4 out of 5 customers resolved their VM connectivity issue using the steps listed below.
 

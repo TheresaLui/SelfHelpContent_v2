@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
 	cloudEnvironments="public"
-	articleId="0f978043-20db-48ba-a5f7-e75b32083c75"
+	articleId="2bac5f69-33fb-43b9-8098-b8d09ed23e36"
 />
 
 # VM Diagnostic (boot diagnostics) extension issue
@@ -21,7 +21,7 @@
 ## **Recommended Documents**
 
 * [Using Linux Diagnostic Extension to monitor metrics and logs](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux)<br>
-* [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)
+* [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)<br>
 * [How to view your data](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#view-your-data)<br>
 * [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
 * [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>

@@ -1,13 +1,13 @@
 <properties
 	pageTitle="Azure Cost Management"
 	description="Azure Cost Management"
-	articleId="azurecostmanagement"
+	articleId="azureusagedetailsapiissues-problemscopingquestion"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615282,32615297"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 

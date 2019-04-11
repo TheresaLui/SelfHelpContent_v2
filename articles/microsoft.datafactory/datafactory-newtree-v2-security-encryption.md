@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	authors="chez-charlie"
 	ms.author="chez"
-	articleId=""
+	articleId="1585a117-c6ab-40e3-8996-c4d57f44aaa0"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32629476, 32629477"
@@ -17,11 +17,11 @@
 
 ## **Recommended Documents**
 
-* [Security Considerations for Data Movement](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations) <br>
-  * [Cloud Scenarios](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#cloud-scenarios) <br>
+* Security Considerations for Data Movement [Document](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations), including following sections: <br>
+  * Cloud Scenarios: <br>
     * [Securing Data Store Credentials](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#securing-data-store-credentials) <br>
     * [Data Encryption In Transit](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#data-encryption-in-transit) <br>
     * [Data Encryption At Rest](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#data-encryption-at-rest) <br>
-  * [Hybrid Scenarios](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#hybrid-scenarios) <br>
+  * Hybrid Scenarios: <br>
     * [Secure Data Store Credentials](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#on-premises-data-store-credentials) <br>
     * [Data Encryption In Transit](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#encryption-in-transit) <br>
