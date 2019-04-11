@@ -1,6 +1,6 @@
 <properties
     pageTitle="DevOps Service Status"
-    description="Devops Service Health and Status"
+    description="Devops Service Status"
     infoBubbleText=""
     service="microsoft.devops"
     resource="service""
@@ -19,5 +19,5 @@
 # DevOps Service Status
 
 ## **Recommended Documents**
-[Service Health and Status](https://status.dev.azure.com/)<br>
+[DevOps Service Status](https://status.dev.azure.com/)<br>
 
