@@ -2,7 +2,7 @@
     pageTitle="DevOps Service Status"
     description="Devops Service Status"
     infoBubbleText=""
-    service="microsoft.visualstudio"
+    service="microsoft.new"
     resource="account/project"
     authors="chrisjco"
     ms.author="ccoop"
