@@ -17,6 +17,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Query performance and timeouts",
     "fileAttachmentHint": "",
     "formElements": [

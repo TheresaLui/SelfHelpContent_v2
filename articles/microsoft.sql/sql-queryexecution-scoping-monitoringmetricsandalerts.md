@@ -38,7 +38,7 @@
 			"displayLabel": "Which feature are you requesting help for?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-				value": "Query_Performance_Insights",
+				"value": "Query_Performance_Insights",
 				"text": "Query Performance Insights can be used to easily monitor resource usage in your Azure SQL database (single or pooled database) by using build-in monitoring capabilities in the Azure portal"
 				}, {
 				"value": "Automatic_Tuning",
