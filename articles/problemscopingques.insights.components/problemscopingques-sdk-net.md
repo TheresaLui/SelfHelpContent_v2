@@ -207,6 +207,9 @@
 				},{
 					"value": "Other",
 					"text": "Other"
+				},{
+					"value":"dont_know_answer",
+					"text":"Do not know"
 				}],
 			"required": true
 		}, {
