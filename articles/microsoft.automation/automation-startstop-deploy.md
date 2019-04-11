@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-startstop-deploy.md"
     pageTitle="Azure Automation - Deploy Start-Stop"
     description="Azure Automation - Deploy Start-Stop"
     service="microsoft.automation"

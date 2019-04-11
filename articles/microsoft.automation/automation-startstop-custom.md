@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-start-stop-custom.md"
     pageTitle="Azure Automation - Start/Stop with Custom Runbook"
     description="Azure Automation - Start/Stop with Custom Runbook"
     service="microsoft.automation"

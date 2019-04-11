@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-startstop-403.md"
     pageTitle="Azure Automation - Start/Stop VM 403 Forbidden Error"
     description="Azure Automation - Start/Stop VM 403 Forbidden Error"
     service="microsoft.automation"

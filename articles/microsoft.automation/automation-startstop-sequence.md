@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-start-stop-sequence.md"
     pageTitle="Azure Automation - VMs Don't Start/Stop in Correct Sequence"
     description="Azure Automation - VMs Don't Start/Stop in Correct Sequence"
     service="microsoft.automation"

@@ -1,5 +1,4 @@
 <properties
-    articleId="automation-startstop-all.md"
     pageTitle="Azure Automation - VMs Don't Start/Stop"
     description="Azure Automation - VMs Don't Start/Stop"
     service="microsoft.automation"
