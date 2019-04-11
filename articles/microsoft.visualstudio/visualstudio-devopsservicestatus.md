@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# DevOps Servive Status
+# DevOps Service Status
 
 ## **Recommended steps**
 1. First review service status by following the link in the recommended article.
