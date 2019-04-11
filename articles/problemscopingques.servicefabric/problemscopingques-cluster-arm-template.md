@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "ARM Templates",
     "fileAttachmentHint": "Please attach the ARM template that you used to deploy your cluster as well as any relevant logs/screenshots",
     "formElements": [{
