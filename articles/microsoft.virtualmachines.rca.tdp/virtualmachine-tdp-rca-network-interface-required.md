@@ -22,6 +22,6 @@ The virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated a
 <!--/issueDescription-->
 An attempt was made to detach a network interface from a VM when it is the only attached network interface. A virtual machine must have at least one network interface attached to it at all times.
 
-You can detach a network interface from a VM provided it has at least one other network interface attached ot it. You can delete a network interface from a VM's networking provided that it not attaced to the VM.
+You can detach a network interface from a VM provided it has at least one other network interface attached to it. You can delete a network interface from a VM's networking provided that it not attached to the VM.
 
 For guidance on working with network interfaces, see [Add network interfaces to or remove network interfaces from virtual machines](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface-vm).
