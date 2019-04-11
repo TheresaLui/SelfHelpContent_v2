@@ -3,7 +3,7 @@
 	description="DevOps Service Status"
 	infoBubbleText="DevOps Service Status"
 	service="microsoft.visualstudio"
-	resource="account"
+	resource="pipelines"
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceStatus"
@@ -18,6 +18,7 @@
 # DevOps Service Status
 
 ## **Recommended steps**
+
 1. First review service status by following the link in the recommended article.
 2. If you feel you still need to submit an incident please proceed.
 
