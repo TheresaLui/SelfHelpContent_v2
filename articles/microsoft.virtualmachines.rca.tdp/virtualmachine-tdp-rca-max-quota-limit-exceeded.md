@@ -7,6 +7,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-max-quota-limit-exceeded"
 	diagnosticScenario="DeploymentFailure"
