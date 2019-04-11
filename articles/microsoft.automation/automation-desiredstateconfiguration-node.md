@@ -26,6 +26,11 @@
 
 * Review the ["DSC node report becomes stuck 'in progress' state" section of the State Configuration troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#dsc-in-progress)
 
+### Checking error logs
+
+* See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case.
+* You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
+
 ### Issues onboarding nodes
 
 * Most issues are caused by network configurations. Please review the requirements in the [Prerequisites section of the State Configuration overview](https://docs.microsoft.com/azure/automation/automation-dsc-overview#network-planning)
