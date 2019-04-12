@@ -23,7 +23,7 @@ To learn how to avoid business interruptions you can review the capabilities tha
 
 Check if the databases under the server can be recovered using supported features:
 
-* If the server still exists you can [restore deleted databases](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups#deleted-database-restore?WT.mc_id=pid:13491:sid:32630451/) from the Azure portal, PowerShell, or REST APIs.
+* If the server still exists you can [restore deleted databases](https://docs.microsoft.com/azure/sql-database/sql-database-recovery-using-backups?WT.mc_id=pid:13491:sid:32630451#deleted-database-restore) from the Azure portal, PowerShell, or REST APIs.
 * If [geo-replication](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32630451/) was enabled for the databases another copy of the databases may be running under a different server.
 * If [long-term backup retention](https://docs.microsoft.com/azure/sql-database/sql-database-long-term-retention?WT.mc_id=pid:13491:sid:32630451/) was enabled for the databases you can [restore from long-term backups](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-long-term-backup-retention-configure?WT.mc_id=pid:13491:sid:32630451/).
 
