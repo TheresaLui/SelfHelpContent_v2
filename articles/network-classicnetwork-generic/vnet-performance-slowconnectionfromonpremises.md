@@ -3,7 +3,7 @@
 	description="performance/slowconnectivityfromonpremises"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="radwiv,mariliu"
+	authors="radwiv"
 	ms.author="mariliu"
 	displayOrder=""
 	selfHelpType="generic"
