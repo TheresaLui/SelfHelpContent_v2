@@ -19,7 +19,7 @@
     "formElements": [
 				{
 					"id": "topology",
-						"visibility": "null"
+						"visibility": "null",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Where is the source machine located?",
