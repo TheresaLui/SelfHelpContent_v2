@@ -19,9 +19,9 @@
 # UserErrorFsFreezeFailed
 
 <!--issueDescription-->
-## **We have identified your backup operation failed because the VM failed to freeze one or more mount-points of the VM to take a file-system consistent snapshot**
+## **Failed to freeze one or more mount-points of the VM to take a file-system consistent snapshot**
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-To troubleshoot the issue refer this [article](https://aka.ms/AB-UserErrorFsFreezeFailed) and then retry your operation.
+We have identified your backup operation failed because the VM failed to freeze one or more mount-points to take a file-system consistent snapshot. To resolve the thie issue refer the [article](https://aka.ms/AB-UserErrorFsFreezeFailed) and then retry your operation.
