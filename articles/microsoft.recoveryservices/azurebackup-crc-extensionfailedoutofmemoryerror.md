@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-  ms.author="srinathv"
+  	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-extensionfailedoutofmemoryerror"
 	diagnosticScenario="azurebackup-crc-extensionfailedoutofmemoryerror"
@@ -19,8 +19,8 @@
 # ExtensionFailedOutOfMemoryError
 
 <!--issueDescription-->
-**Snapshot operation failed due to insufficient memory available in VM.**.
+**Snapshot operation failed due to insufficient memory available in VM**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
- We have identified that your backup operation failed due to insufficient memory available in VM. To resolve this issue ensure sufficient memory is available. VM reboot can be done to free-up the memory.
+We have identified that your backup operation failed due to insufficient memory in the VM. To resolve this issue reboot the Virtual Machine to free-up the memory or add more memory to the Virtual Machine.
