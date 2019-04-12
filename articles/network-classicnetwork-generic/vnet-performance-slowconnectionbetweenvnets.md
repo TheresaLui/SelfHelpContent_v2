@@ -14,8 +14,9 @@
 	articleId="731f1dc0-bd7e-4e80-8776-12b1f869870b"
 />
 
-# performance/slowconnectionbetweenvnets
+# Performance Issue: Slow connectivity between virtual networks
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [How to validate VPN throughput to a virtual network](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet) 
 * [TCP/IP performance tuning for Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-tcpip-performance-tuning)
