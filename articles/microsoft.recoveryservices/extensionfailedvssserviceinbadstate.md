@@ -24,5 +24,4 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have detected that you are currently running a VSS (Volume Shadow copy Service) service in bad state. To resolve this issue we need to restart VSS (Volume Shadow copy Service) service in bad state.<br>
-To restart VSS from the elevated command prompt, run **vssadmin** list writers. The output contains out all the VSS service and their state.
+We have detected that you’re VSS (Volume Shadow copy Service) service is in an inconsistent state. To resolve this issue, restart the VSS and retry the backup operation.
