@@ -21,4 +21,4 @@
 <!--/issueDescription-->
 
 ## **Recommended Document**
-We have detected that your backup operation failed due parsing the configuration for the backup extension. To resolve this issue, refer the [troubleshooting article](https://aka.ms/AB-ExtensionConfigParsingFailure).
+We have detected that your backup operation failed because the service was unable to parse the backup extension configuration. To resolve this issue, refer the [troubleshooting article](https://aka.ms/AB-ExtensionConfigParsingFailure).
