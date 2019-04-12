@@ -126,7 +126,7 @@
             "required": true,
             "hints": [
                 {
-                    "text": "To request an exchange/refund request, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a> to ensure we capture all of your reservation details accurately"
+                      "text": "Returns and exchanges can be done via **self-service option** directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>. Learn more - <a href='https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund'>here</a>"
                 },
 		 {
                     "text": "To request a billing related request, please select the Issue type as **Billing** and Problem type as **Reservation management** to ensure faster resolution"
