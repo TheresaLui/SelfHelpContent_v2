@@ -23,11 +23,11 @@
 * Runbooks from a hybrid worker behave differently from runbooks in an Azure Automation sandbox. The article ["Runbook Permissions"](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks#runbook-permissions) explains how authentication works for different runbook environments. 
 
 
-### **No certificate was found in the certificate store**
+### No certificate was found in the certificate store
 
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
 
-### **Error: "Machine is already registered to a different account"**
+### Error: "Machine is already registered to a different account"
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
 
