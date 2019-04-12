@@ -16,7 +16,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "ARM Templates",
-    "fileAttachmentHint": "Please attach the ARM template that you used to deploy your cluster as well as any relevant logs/screenshots",
+    "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
