@@ -3,7 +3,8 @@
 	description="performance/slowconnectivityfromonpremises"
 	service="microsoft.network"
 	resource="virtualnetworks"
-	authors="radwiv"
+	authors="radwiv,mariliu"
+	ms.author="mariliu"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32584259"
@@ -16,4 +17,5 @@
 # performance/slowconnectivityfromonpremises
 
 ## **Recommended documents**
-[How to validate VPN throughput to a virtual network](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet)
+* [How to validate VPN throughput to a virtual network](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet)
+* [TCP/IP performance tuning for Azure VMs](https://docs.microsoft.com/azure/virtual-network/virtual-network-tcpip-performance-tuning)
