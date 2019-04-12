@@ -17,9 +17,9 @@
 # ExtensionOperationFailedForManagedDisks
 
 <!--issueDescription-->
-## **We identified that your backup operation was failing due the VMSnapshot extension operation failed for managed disks.**
+## **VMSnapshot extension operation failed for managed disks**
 <!--/issueDescription-->
 
 ## **Recommended Document**
 
-If the snapshot isn't triggered, a backup failure might occur. Complete the [troubleshooting steps]( https://aka.ms/extension-operation-failed), and then retry your operation.
+We identified that your backup operation was failing due the VMSnapshot extension operation failed for managed disks. To resolve the issue, refer the [troubleshooting steps]( https://aka.ms/extension-operation-failed), and then retry the operation.
