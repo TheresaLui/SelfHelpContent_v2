@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedVssWriterInBadState
+# ExtensionFailedVssServiceInBadState
 
 <!--issueDescription-->
 ## **Snapshot operation failed due to VSS (Volume Shadow Copy) service in bad state**
