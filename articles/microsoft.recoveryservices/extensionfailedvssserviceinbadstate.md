@@ -1,7 +1,6 @@
 <properties
 	pageTitle="ExtensionFailedVssServiceInBadState"
 	description="ExtensionFailedVssServiceInBadState"
-	service="microsoft.recoveryservices"
 	infoBubbleText="Snapshot operation failed due to VSS Writers in bad state"
 	service="microsoft.recoveryservices"
 	resource="backup"
