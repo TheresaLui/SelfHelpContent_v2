@@ -23,6 +23,4 @@
 <!--/issueDescription-->
 
 ## **Recommended Docuemnt**
-We identified that your backup operation failed due to the backed up VM that does not have required permission to access the key vault or the key used for encrypting the VM is not a standalone key but part of the certificate that Azure Backup supports.
-
-For the successful backup operation on encrypted VMs, refer [Backup-encrypted VM article](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#backup-encrypted-vm)
+We identified that your backup operation failed due to lack of permission to access the key vault or the key used for encrypting the VM, for more information on encrypted Vm refer [artilce](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#encryption-support)
