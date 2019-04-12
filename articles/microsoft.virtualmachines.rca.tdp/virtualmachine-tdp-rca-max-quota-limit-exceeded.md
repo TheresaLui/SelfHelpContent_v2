@@ -17,6 +17,7 @@
 	productPesIds="14749,15571"
 	cloudEnvironments="public"
 />
+
 # A recent request to deploy a virtual machine failed because it exceeded your available virtual CPU quota
 <!--issueDescription-->
 We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed due to the virtual CPU quota being exceeded for the requested resource.
