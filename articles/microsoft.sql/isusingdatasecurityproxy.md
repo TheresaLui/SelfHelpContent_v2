@@ -26,5 +26,5 @@ Table Auditing feature is now deprecated and we highly recommend you to switch t
 ## **Recommended Documents**
 
 * [Blob Storage Auditing](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)
-* [Table Auditing (Deprecated feature) ](https://docs.microsoft.com/azure/sql-database/sql-database-auditing-and-dynamic-data-masking-downlevel-clients)
+* [Table Auditing (Deprecated feature)](https://docs.microsoft.com/azure/sql-database/sql-database-auditing-and-dynamic-data-masking-downlevel-clients)
 
