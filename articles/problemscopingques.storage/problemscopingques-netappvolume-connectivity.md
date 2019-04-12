@@ -36,7 +36,7 @@
                 }, {
 										"value": "On-premise, connected to this VNET via a Hub VNET",
 										"text": "On-premise, connected to this VNET via a Hub VNET"
-								},
+								}
               ],
             "required": true
 				}, {
@@ -67,7 +67,7 @@
             "displayLabel": "Provide the name of the source VM",
             "watermarkText": "Filter by name",
 						"dynamicDropdownOptions": {
-						"dependsOn":"resourceGroup"
+						"dependsOn":"resourceGroup",
 						"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
             "jTokenPath": "value",
             "textProperty": "name",
@@ -93,7 +93,7 @@
                 }, {
                     "value": "ExpressRoute gateway",
                     "text": "ExpressRoute gateway"
-                },
+                }
               ],
             "required": true
 				}, {
@@ -123,7 +123,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }, {
-            "id": "problem_description", //This is a required value
+            "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
