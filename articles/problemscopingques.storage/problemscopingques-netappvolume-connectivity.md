@@ -13,12 +13,12 @@
 # NetApp volume connectivity issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-		"title": "Unable to connect to a NetApp volume",
+    "title": "Unable to connect to a NetApp volume",
     "fileAttachmentHint": "",
-    "formElements": [
-				{
-					"id": "topology",
+    "formElements": [{
+						"id": "topology",
 						"visibility": "null",
             "order": 1,
             "controlType": "dropdown",
@@ -36,6 +36,9 @@
                 }, {
 										"value": "On-premise, connected to this VNET via a Hub VNET",
 										"text": "On-premise, connected to this VNET via a Hub VNET"
+								}, {
+										"text": "Other, don't know or not applicable",
+										"value": "dont_know_answer"
 								}
               ],
             "required": true
@@ -47,17 +50,20 @@
             "displayLabel": "Provide the Resource Group name of the source VM",
             "watermarkText": "Filter by name",
 						"dynamicDropdownOptions": {
-						"uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
-            "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
-            "textPropertyRegex": "[^/]+$"
-						},
-						"defaultDropdownOptions": [{
-                    "value": "Unable to get the Resource Group",
-                    "text": "Unable to get the Resource Group"
-                }
-            ],
+								"uri": "/subscriptions/{subscriptionId}/resourcegroups?api-version=2018-05-01",
+		            "jTokenPath": "value",
+		            "textProperty": "name",
+		            "valueProperty": "id",
+		            "textPropertyRegex": "[^/]+$",
+								"defaultDropdownOptions": {
+				            "value": "dont_know_answer",
+				            "text": "Not applicable"
+        					}
+								},
+						"DropdownOptions": {
+                    "value": "Unable to retrieve list of resource groups",
+                    "text": "Unable to retrieve list of resource groups"
+                },
             "required": true
 				}, {
 					"id": "VMName",
@@ -67,18 +73,21 @@
             "displayLabel": "Provide the name of the source VM",
             "watermarkText": "Filter by name",
 						"dynamicDropdownOptions": {
-						"dependsOn":"resourceGroup",
-						"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
-            "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
-            "textPropertyRegex": "[^/]+$"
-						},
-						"defaultDropdownOptions": [{
-                    "value": "Unable to get the VM",
-                    "text": "Unable to get the VM"
-                }
-            ],
+									"dependsOn":"resourceGroup",
+									"uri": "/subscriptions/{subscriptionId}/resourceGroups/{replaceWithParentValue}/providers/Microsoft.Compute/virtualMachines?api-version=2018-06-01",
+			            "jTokenPath": "value",
+			            "textProperty": "name",
+			            "valueProperty": "id",
+			            "textPropertyRegex": "[^/]+$",
+									"defaultDropdownOptions": {
+					            "value": "dont_know_answer",
+					            "text": "Not applicable"
+	        					}
+								},
+								"DropdownOptions": {
+		                    "value": "Unable to retrieve list of VMs",
+		                    "text": "Unable to retrieve list of VMs"
+		                },
             "required": true
 				}, {
 					"id": "GatewayType",
@@ -93,7 +102,10 @@
                 }, {
                     "value": "ExpressRoute gateway",
                     "text": "ExpressRoute gateway"
-                }
+                }, {
+										"value": "dont_know_answer",
+										"text": "Other, don't know or not applicable"
+        				}
               ],
             "required": true
 				}, {
@@ -110,11 +122,10 @@
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$"
 						},
-						"dropdownOptions": [{
-                    "value": "Unable to get the virtual network",
-                    "text": "Unable to get the virtual network"
-              }
-            ],
+						"dropdownOptions": {
+                    "value": "Unable to retrieve list of VNETs",
+                    "text": "Unable to retrieve list of VNETs"
+              },
             "required": true
 				}, {
             "id": "problem_start_time",
