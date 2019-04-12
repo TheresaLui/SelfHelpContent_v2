@@ -125,7 +125,10 @@
             "required": true,
             "hints": [
                 {
-                    "text": "Note: To ensure we capture all of your reservation details accurately, please raise a service request directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                    "text": "Returns and exchanges can be done via self-service option directly from the <a href='https://ms.portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade'>Reservation Blade</a>."
+                },
+		 {
+                    "text": "Learn more - <a href='https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund'>Self-service exchanges and refunds for azure reservations</a>."
                 }
             ]
         }
