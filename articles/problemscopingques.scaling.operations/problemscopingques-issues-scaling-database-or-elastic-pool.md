@@ -202,8 +202,27 @@
 			"visibility": "which_server != Which server?"
 		},
 		{
-			"id": "problem_description",
+			"id": "which_operation",
 			"order": 9,
+			"controltype": "dropdown",
+			"displayLabel": "Test2",
+			"watermarkText": "Test2",
+			"infoBalloonText": "Test2",
+			"dynamicDropdownOptions": {
+				"uri": "{replaceWithParentValue}/operations?api-version=2017-10-01-preview",
+				"jtokenPath": "value",
+				"textProperty": "name",
+				"valueProperty": "name",
+				"textPropertyRegex": null,
+				"dependsOn": "which_database"
+			},
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": "which_database != Test"
+		},
+		{
+			"id": "problem_description",
+			"order": 10,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -213,7 +232,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 10,
+			"order": 11,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
