@@ -191,8 +191,8 @@
 			"infoBalloonText": "Test",
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers/{replaceWithParentValue}/databases?api-version=2017-10-01-preview",
-				"jtokenPath": "value.sku",
-				"textProperty": "name",
+				"jtokenPath": "value",
+				"textProperty": "sku.name",
 				"valueProperty": "id",
 				"textPropertyRegex": null,
 				"dependsOn": "which_server"
