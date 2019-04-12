@@ -68,7 +68,7 @@ cloudEnvironments="public"
 			"searchTags": "backup, automated backup, point in time restore, pitr, restore",
 			"category": "Backup",
 			"commonSolutionArticleId": "eeb46dff-62eb-4d87-b7a9-939908fc69df",
-			"supportTopicId": "",
+			"supportTopicId": "32630409",
 			"symptomId": ""			
 		},
 		{				    
@@ -77,7 +77,7 @@ cloudEnvironments="public"
 			"searchTags": "performance, error",
 			"category": "Performance",
 			"commonSolutionArticleId": "7d57d34f-58d4-4f40-99e2-0dc8e40ab2b4",
-			"supportTopicId": "",
+			"supportTopicId": "32630454",
 			"symptomId": ""			
 		}
 	],

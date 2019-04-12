@@ -4,7 +4,7 @@
     ms.author="prdasneo"
     authors="prdasneo"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32454856,32632936"
+    supportTopicIds="32632936"
     productPesIds="15659"
     articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
@@ -26,12 +26,39 @@
             "required": true
         },
         {
+            "id": "SubscriptionId",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Subscription ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+             "uri": "/subscriptions?api-version=2014-04-01",
+             "jTokenPath": "value",
+             "textProperty": "displayName,subscriptionId",
+             "textTemplate": "{displayName} ({subscriptionId})",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not in the list"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
             "id": "subscriptionid_details",
-            "order": 2,
+            "order": 7,
+            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "Subscription ID",
-            "watermarkText": "Provide your Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": true
         },
         {
@@ -63,7 +90,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Invoice ID related to the issue",
             "watermarkText": "Provide your Invoice ID related to the issue",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

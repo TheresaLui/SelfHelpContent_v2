@@ -25,27 +25,55 @@
       "required": true
     },
     {
-      "id": "subscriptionid_details",
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "Subscription ID",
-      "watermarkText": "Provide the Subscription ID",
-      "required": false
-    },
+            "id": "SubscriptionId",
+            "order": 9,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Subscription ID",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+             "uri": "/subscriptions?api-version=2014-04-01",
+             "jTokenPath": "value",
+             "textProperty": "displayName,subscriptionId",
+             "textTemplate": "{displayName} ({subscriptionId})",
+             "valueProperty": "id",
+             "textPropertyRegex": "[^/]+$",
+             "defaultDropdownOptions": {
+             "value": "dont_know_answer",
+             "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not in the list"
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "subscriptionid_details",
+            "order": 10,
+            "visibility": "SubscriptionId == dont_know_answer",
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
+            "required": true
+        },
     {
       "id": "emailid_details",
       "order": 3,
       "controlType": "textbox",
       "displayLabel": "Email ID signing in/accessing the subscription",
       "watermarkText": "Provide the Email ID signing in/accessing the subscription",
-      "required": true
+      "required": false
     },
     {
       "id": "login_date",
       "order": 4,
       "controlType": "datetimepicker",
       "displayLabel": "Last login date\/time",
-      "required": true
+      "required": false
     },
     {
       "id": "browser_details1",
