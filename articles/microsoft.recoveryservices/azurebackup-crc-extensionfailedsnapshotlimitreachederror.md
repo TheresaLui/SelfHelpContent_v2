@@ -16,11 +16,12 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedSnapshotLimitReachedError
+# Extension Failed - Snapshot Limit Reached 
 
 <!--issueDescription-->
-## **Snapshot operation failed as snapshot limit has exceeded for some of the disks attached..**
+## **Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We identified that your snapshot operation failed becuase the snapshot limit has exceeded for some of the disks attached. To resolve this issue refer this [troubleshooting steps](https://aka.ms/AB-ExtensionFailedSnapshotLimitReachedError).
+
+We identified that your snapshot operation failed because the snapshot limit has exceeded for some of the disks attached. To resolve this issue, please refer the [troubleshooting steps](https://aka.ms/AB-ExtensionFailedSnapshotLimitReachedError).
