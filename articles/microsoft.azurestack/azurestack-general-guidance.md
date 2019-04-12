@@ -16,9 +16,7 @@
 
 # Azure Stack General Guidance
 
-Azure Stack as a Cloud Service Provider - [Manage usage and billing as a CSP](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-manage-billing-as-a-csp)
-
-The Recommended Steps below might help you solve or isolate the issue.  If the steps below help you identify a specific issue please go back and select a different problem type.  The problem type might have specific documentation on the issue or will help us work with you in resolving the issue. 
+The Recommended Steps below may help solve or isolate the issue. If the steps below help identify a specific issue, please go back and select the specific problem type, as it may have specific documentation on the issue or will help us work with you in resolving the issue. 
 
 ## **Recommended Steps**
 
@@ -33,3 +31,4 @@ The Recommended Steps below might help you solve or isolate the issue.  If the s
 * [Release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/)<br>
 * [Azure Stack diagnostics tools](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics)<br>
 * [Validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test)
+* [Manage usage and billing as a CSP](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-manage-billing-as-a-csp)
