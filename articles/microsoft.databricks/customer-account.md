@@ -5,7 +5,7 @@
 	resource="workspaces"
 	authors="bprakash"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32612189"
 	resourceTags=""
 	productPesIds="16432"
