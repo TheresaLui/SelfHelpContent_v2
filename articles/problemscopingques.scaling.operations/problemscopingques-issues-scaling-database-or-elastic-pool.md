@@ -192,7 +192,7 @@
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers/{replaceWithParentValue}/databases?api-version=2017-10-01-preview",
 				"jtokenPath": "value",
-				"textProperty": "sku.name",
+				"textProperty": "name",
 				"valueProperty": "id",
 				"textPropertyRegex": null,
 				"dependsOn": "which_server"
