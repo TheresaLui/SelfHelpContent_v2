@@ -15,7 +15,7 @@
 ---
 {
 	"resourceRequired": false,
-	"subscriptionRequired": true
+	"subscriptionRequired": true,
 	"title": "Azure Cost Management",
 	"fileAttachmentHint": "Please attach the HAR file and the screenshot of the error message",
     "formElements": [
