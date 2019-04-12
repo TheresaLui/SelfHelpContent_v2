@@ -4,6 +4,7 @@
 	service="microsoft.databricks"
 	resource="workspaces"
 	authors="bprakash"
+	ms.author="bprakash"
 	displayOrder="7"
 	selfHelpType="generic"
 	supportTopicIds="32612189"
