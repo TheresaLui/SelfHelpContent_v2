@@ -23,5 +23,4 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that your snapshot operation failed as the snapshot limit has exceeded for some of the disks attached. To resolve the issue refer this [article](https://aka.ms/AB-ExtensionFailedSnapshotLimitReachedError
-).
+We identified that your snapshot operation failed becuase the snapshot limit has exceeded for some of the disks attached. To resolve this issue refer this [troubleshooting steps](https://aka.ms/AB-ExtensionFailedSnapshotLimitReachedError).
