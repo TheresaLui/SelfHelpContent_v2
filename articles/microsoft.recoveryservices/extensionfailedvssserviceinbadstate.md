@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-	ms.author="srinathv""
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-extensionfailedvssserviceinbadstate"
 	diagnosticScenario="azurebackup-crc-extensionfailedvssserviceinbadstate"
@@ -23,4 +23,5 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have detected that you’re VSS (Volume Shadow copy Service) service is in an inconsistent state. To resolve this issue, restart the VSS and retry the backup operation.
+We have detected that you’re VSS (Volume Shadow copy Service) service is in an inconsistent state.<br/>
+To resolve this issue, restart the VSS and retry the backup operation.
