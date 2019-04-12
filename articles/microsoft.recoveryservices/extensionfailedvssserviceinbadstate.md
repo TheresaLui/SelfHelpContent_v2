@@ -19,7 +19,7 @@
 # ExtensionFailedVssWriterInBadState
 
 <!--issueDescription-->
-## **Snapshot operation failed due to VSS (Volume Shadow Copy) service in bad state.**
+## **Snapshot operation failed due to VSS (Volume Shadow Copy) service in bad state**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
