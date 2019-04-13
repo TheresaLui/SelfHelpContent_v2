@@ -24,7 +24,7 @@
 	 "order": 1,
 	 "controlType": "multilinetextbox",
 	 "displayLabel": "Were any configuration changes made to Load Balancer configuration that resulted in the issue?",
-	 "required": true, 
+	 "required": true,
 	 "useAsAdditionalDetails": false
 	 },
 	 {
