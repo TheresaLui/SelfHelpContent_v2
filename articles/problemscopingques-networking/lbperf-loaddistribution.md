@@ -23,7 +23,7 @@
 	 "id": "config-changes",
 	 "order": 1,
 	 "controlType": "multilinetextbox",
-	 "displayLabel": "Please specify any additional details",
+	 "displayLabel": "Were any configuration changes made to Load Balancer configuration that resulted in the issue?",
 	 "required": true, 
 	 "useAsAdditionalDetails": false
 	 },
