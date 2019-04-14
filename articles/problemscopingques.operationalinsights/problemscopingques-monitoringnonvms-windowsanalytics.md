@@ -73,7 +73,7 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "solution_worked",
+            "id": "single_machine",
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is there a problem with a single machine or all machines?",

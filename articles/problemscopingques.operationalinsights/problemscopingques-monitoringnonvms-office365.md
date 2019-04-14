@@ -114,7 +114,7 @@ schemaVersion="1"
                     "text": "Not sure"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
