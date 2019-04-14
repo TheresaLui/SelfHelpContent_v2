@@ -64,7 +64,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

@@ -51,7 +51,7 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "inquiry_reason",
+            "id": "interface",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Which interface has this problem?",
