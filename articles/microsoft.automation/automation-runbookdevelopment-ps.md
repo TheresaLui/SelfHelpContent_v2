@@ -1,27 +1,33 @@
 <properties
-    pageTitle="Azure Automation - Runbook Development"
-    description="Azure Automation - Runbook Development"
+    pageTitle="Azure Automation - PowerShell Runbook Development"
+    description="Azure Automation - PowerShell Runbook Development"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599859"
+    supportTopicIds="32599862"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="03905ebe-c243-4c0d-ad0f-f33720a11133"
+	articleId="c1ad5dbf-f48c-478e-843a-fa63a3977cc6"
 />
 
-# Azure Automation - Runbook Development
-Here are some common issues when creating new runbooks for use with Azure Automation.
+# Azure Automation - PowerShell Runbook Development
+Here are some common issues when creating new runbooks for use with Azure Automation. Please note that Support will not write a new script for you based on your needs, but we will work with you to ensure your existing script executes correctly inside of Azure Automation. 
 
 ## **Recommended Steps**
 
 Specific problems and their solutions are listed below, but we highly recommend you try these this first:
 
 * Try [executing the runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
+
+* Remember to [add authentication to manage Azure Resources](https://docs.microsoft.com/azure/automation/automation-first-runbook-textual-powershell#add-authentication-to-manage-azure-resources) 
+
+* Review the [known issues of PowerShell runbooks](https://docs.microsoft.com/azure/automation/automation-runbook-types#known-issues)
+
+* Review [how to handle exceptions and errors in a PowerShell runbook](https://docs.microsoft.com/azure/automation/automation-runbook-execution#handling-exceptions)
 
 **Runbook fails with "Command not found" or "Cannot bind parameter" message**
 
@@ -50,10 +56,6 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 ## **Recommended Documents**
 
+* Guidance on [runbook authoring best practices](https://docs.microsoft.com/azure/automation/automation-runbook-execution#runbook-behavior)<br>
 * [Troubleshoot errors with runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
-* [Automation runbook types](https://docs.microsoft.com/azure/automation/automation-runbook-types)<br>
-* [Creating or importing a runbook](https://docs.microsoft.com/azure/automation/automation-creating-importing-runbook)<br>
-* [Quickstart create a runbook](https://docs.microsoft.com/azure/automation/automation-quickstart-create-runbook)<br>
-* [Starting an Azure Automation runbook with a webhook](https://docs.microsoft.com/azure/automation/automation-webhooks)<br>
-* [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Starting a Runbook in Azure Automation](https://docs.microsoft.com/azure/automation/automation-starting-a-runbook)

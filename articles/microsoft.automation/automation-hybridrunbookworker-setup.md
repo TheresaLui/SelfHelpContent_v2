@@ -1,20 +1,20 @@
 <properties
-    pageTitle="Azure Automation - Hybrid Runbook Worker"
-    description="Azure Automation - Hybrid Runbook Worker"
+    pageTitle="Azure Automation - Hybrid Runbook Worker Setup"
+    description="Azure Automation - Hybrid Runbook Worker Setup"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32628014,32599920,32599857"
+    supportTopicIds="32599939"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="b3d96b2b-2651-474d-b08d-a1a28b66f86d"
+	articleId="700a5b2b-7aec-4816-bb4f-4cd60893b2c3"
 />
 
-# Azure Automation - Hybrid Runbook Worker
+# Azure Automation - Setup Hybrid Runbook Worker
 
 ## **Recommended Steps**
 
@@ -27,17 +27,11 @@
 
 * See the [hybrid runbook worker troubleshooting guide under "Runbook execution fails"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#runbook-execution-fails)
 
-
 ### **No certificate was found in the certificate store**
 
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
 
-### **Authenticating against Azure resources from a Hybrid Worker**
-
-* You can avoid using a RunAs account with a Hybrid Worker by using Managed Identities
-* For more details, see [Managed Identities for Azure Resources](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks#managed-identities-for-azure-resources)
-
-### Error: "Machine is already registered to a different account"
+### **Error: "Machine is already registered to a different account"**
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
 

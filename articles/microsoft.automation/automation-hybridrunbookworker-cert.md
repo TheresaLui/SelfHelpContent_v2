@@ -1,41 +1,31 @@
 <properties
-    pageTitle="Azure Automation - Hybrid Runbook Worker"
-    description="Azure Automation - Hybrid Runbook Worker"
+    pageTitle="Azure Automation - Hybrid Runbook and Certificates"
+    description="Azure Automation - Hybrid Runbook and Certificates"
     service="microsoft.automation"
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32628014,32599920,32599857"
+    supportTopicIds="32599940"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="b3d96b2b-2651-474d-b08d-a1a28b66f86d"
+	articleId="164e8d47-b5be-41b4-99df-6058f60bd770"
 />
 
-# Azure Automation - Hybrid Runbook Worker
+# Azure Automation - Using Hybrid Runbook Worker with RunAs
 
 ## **Recommended Steps**
 
-### **Ensure the agent is present** 
+### Authenticating against Azure Resources from Hybrid Worker
 
-* For **Linux**, ensure the agent is running by following the [Linux OMS Agent troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#oms-agent-not-running)
-* For **Windows**, ensure the agent is running by following the [Windows MMA troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#mma-not-running)
-
-### **Error: Job action 'Activate' cannot be run...**
-
-* See the [hybrid runbook worker troubleshooting guide under "Runbook execution fails"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#runbook-execution-fails)
+* Runbooks from a hybrid worker behave differently from runbooks in an Azure Automation sandbox. The article ["Runbook Permissions"](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks#runbook-permissions) explains how authentication works for different runbook environments. 
 
 
-### **No certificate was found in the certificate store**
+### No certificate was found in the certificate store
 
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
-
-### **Authenticating against Azure resources from a Hybrid Worker**
-
-* You can avoid using a RunAs account with a Hybrid Worker by using Managed Identities
-* For more details, see [Managed Identities for Azure Resources](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks#managed-identities-for-azure-resources)
 
 ### Error: "Machine is already registered to a different account"
 

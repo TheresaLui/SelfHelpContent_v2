@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Azure Automation - State Configuration (DSC)"
+    pageTitle="Azure Automation - State Configuration (DSC) - Templates"
     description="Azure Automation - State Configuration (DSC)"
     service="microsoft.automation"
     resource="automationaccounts"
@@ -7,14 +7,14 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599856"
+    supportTopicIds="32628000"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="292fdbca-4f2c-4c24-9dc8-95323f30de4c"
+	articleId="8be9ca20-2f4d-4bc7-a480-4236a23104e6"
 />
 
-# Azure Automation - State Configuration (DSC)
+# Azure Automation - State Configuration (DSC) - My Template Failed to Deploy
 
 
 ## **Recommended Documents**
