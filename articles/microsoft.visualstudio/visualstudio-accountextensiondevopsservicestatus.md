@@ -19,8 +19,8 @@
 
 ## **Recommended steps**
 
-1. Before creating a case, please check the status of the service to determine if there is an issue you may be impacted by.
-2. You can check the Azure DevOps Service's Status by navigating to the [DevOps Service Status](https://status.dev.azure.com)
+1. Before creating a case, please check the Azure DevOps Services' status to determine if there are any issues you may be impacted by.
+2. You can check the Azure DevOps Services' Status by navigating to the [DevOps Service Status](https://status.dev.azure.com)
 
 ## **Recommended Documents**
 
