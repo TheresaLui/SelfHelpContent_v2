@@ -59,7 +59,6 @@
 	{
 	    "id": "Backup_Completeness",
 	    "order": 4,
-	    "visibility": "Issue_Type == Slow Backup"
 	    "controlType": "Dropdown",
 	    "displayLabel": "Is the backup ever completed before?",
 	    "watermarkText": "Select",
