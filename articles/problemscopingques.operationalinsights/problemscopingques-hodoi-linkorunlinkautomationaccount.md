@@ -1,23 +1,25 @@
 
 <properties
-pageTitle="Query not returning desired data "
-description="Query not returning desired data "
-articleId="problemscopingques-Query_not_returning_desired_data "
+pageTitle="Link or unlink automation account"
+description="Link or unlink automation account"
+articleId="problemscopingques-Link_or_unlink_automation_account"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612517"
+supportTopicIds="32612473"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
 />
 
-# Query not returning desired data 
+# Link or unlink automation account
+ 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Query not returning desired data ",
-    "fileAttachmentHint": "Please attach or paste in the query and expected results",
+    "title": "Link or unlink automation account",
+    "fileAttachmentHint": "Provide a screenshot of the error",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,31 +29,23 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "query_call",
+            "id": "interface",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What method are you using for the query?",
+            "displayLabel": "Which interface has this problem?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Logs in Log Analytics workspace",
-                    "text": "Logs in Log Analytics workspace"
+                    "value": "Azure portal",
+                    "text": "Azure portal"
                 },
                 {
-                    "value": "Logs in Azure Monitor",
-                    "text": "Logs in Azure Monitor"
+                    "value": "REST",
+                    "text": "REST"
                 },
                 {
-                    "value": "Grafana",
-                    "text": "Grafana"
-                },
-                {
-                    "value": "API",
-                    "text": "API"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "CLI",
+                    "text": "CLI"
                 },
                 {
                     "value": "dont_know_answer",
@@ -61,8 +55,16 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "error_message",
             "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What error are you seeing?",
+            "watermarkText": "Enter the error message",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

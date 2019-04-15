@@ -1,23 +1,25 @@
 
 <properties
-pageTitle="Query not returning desired data "
-description="Query not returning desired data "
-articleId="problemscopingques-Query_not_returning_desired_data "
+pageTitle="Azure Security Center"
+description="Azure Security Center"
+articleId="problemscopingques-Azure_Security_Center"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612517"
+supportTopicIds="32612432"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
 />
 
-# Query not returning desired data 
+# Azure Security Center
+ 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Query not returning desired data ",
-    "fileAttachmentHint": "Please attach or paste in the query and expected results",
+    "title": "Azure Security Center",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,31 +29,41 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "query_call",
+            "id": "solution_added",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What method are you using for the query?",
+            "displayLabel": "Was the solution recently added?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Logs in Log Analytics workspace",
-                    "text": "Logs in Log Analytics workspace"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "Logs in Azure Monitor",
-                    "text": "Logs in Azure Monitor"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
-                    "value": "Grafana",
-                    "text": "Grafana"
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "solution_worked",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Has the solution ever worked?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "API",
-                    "text": "API"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -62,7 +74,7 @@ schemaVersion="1"
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

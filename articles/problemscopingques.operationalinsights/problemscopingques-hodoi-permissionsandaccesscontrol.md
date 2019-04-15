@@ -1,23 +1,25 @@
 
 <properties
-pageTitle="Query not returning desired data "
-description="Query not returning desired data "
-articleId="problemscopingques-Query_not_returning_desired_data "
+pageTitle="Permissions and access control (IAM)"
+description="Permissions and access control (IAM)"
+articleId="problemscopingques-Permissions_and_access_control_(IAM)"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612517"
+supportTopicIds="32612439"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
 />
 
-# Query not returning desired data 
+# Permissions and access control (IAM)
+ 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Query not returning desired data ",
-    "fileAttachmentHint": "Please attach or paste in the query and expected results",
+    "title": "Permissions and access control (IAM)",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,31 +29,23 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "query_call",
+            "id": "desired_goal",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What method are you using for the query?",
+            "displayLabel": "What is your desired goal by contacting Microsoft Support today?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Logs in Log Analytics workspace",
-                    "text": "Logs in Log Analytics workspace"
+                    "value": "I can’t find the information in product documentation",
+                    "text": "I can’t find the information in product documentation"
                 },
                 {
-                    "value": "Logs in Azure Monitor",
-                    "text": "Logs in Azure Monitor"
+                    "value": "Have an issue but can’t find a suitable support topic for it",
+                    "text": "I have an issue but can’t find a suitable support topic for it"
                 },
                 {
-                    "value": "Grafana",
-                    "text": "Grafana"
-                },
-                {
-                    "value": "API",
-                    "text": "API"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "General question",
+                    "text": "General question"
                 },
                 {
                     "value": "dont_know_answer",
