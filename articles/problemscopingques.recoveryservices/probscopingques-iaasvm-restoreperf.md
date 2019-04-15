@@ -2,13 +2,13 @@
          pageTitle="Scoping questions for Azure VM Restore performance"
          description="Scoping questions for Azure VM Restore performance"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612998"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
+	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
 />
 # Questions Azure VM Restore performance
 ---
@@ -42,7 +42,7 @@
                     "text": "Slow restore during restore disk operation"
                 },
                 {
-					          "value": "Slow restore during restore existing disks operation",
+		    "value": "Slow restore during restore existing disks operation",
                     "text": "Slow restore during restore existing disks operation"
                 },
                 {
