@@ -59,7 +59,7 @@
 	{
 	    "id": "Backup_Completeness",
 	    "order": 4,
-	    "controlType": "Dropdown",
+	    "controlType": "dropdown",
 	    "displayLabel": "Is the backup ever completed before?",
 	    "watermarkText": "Select",
 	    "droupdownoptions": [{
