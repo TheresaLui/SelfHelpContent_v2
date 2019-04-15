@@ -9,12 +9,11 @@
 	productPesIds="15693"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	subscriptionRequired="true"
-	resourceRequired="false"
 />
 # Application Insights
 ---
 {
+	"subscriptionRequired": true,
 	"resourceRequired": true,
 	"title": ".NET SDK",
 	"fileAttachmentHint": "File Upload recommendations: ApplicationInsights.config; packages.config or PackageReferences; web.config or app.config; AppSettings.json; ApplicationInsights.xml; AI-Agent.xml. Please edit files to remove sensitive information",
