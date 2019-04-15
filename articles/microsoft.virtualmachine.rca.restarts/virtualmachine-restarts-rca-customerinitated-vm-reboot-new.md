@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VMA RCA"
-	description="RCA - Customer Initiated - VM reboot"
+	pageTitle="Virtual Machine Connectivity Issue: VMA RCA"
+	description="Virtual Machine Connectivity Issue: VMA RCA"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
@@ -15,7 +15,10 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+
+# Virtual Machine Connectivity Issue: VMA RCA
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 ## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##

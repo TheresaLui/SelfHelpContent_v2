@@ -10,7 +10,7 @@
     articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"
     selfHelpType="rca"
-    supportTopicIds="32628986, 32629101"
+    supportTopicIds="32628986, 32629101, 32636418, 32636425"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"

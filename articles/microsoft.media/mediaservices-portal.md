@@ -18,6 +18,8 @@
 
 # Azure Media Services Portal Experience
 
+**NOTE**: Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
+
 ## **Recommended Documents**
 
 * [Get Started with Azure AD Authentication in the portal](https://docs.microsoft.com/azure/media-services/previous/media-services-portal-get-started-with-aad)<br>

@@ -5,9 +5,9 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32549163,32632954"
+	supportTopicIds="32632954"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
@@ -69,7 +69,7 @@
           "text": "Mozilla Firefox"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],
@@ -81,7 +81,7 @@
       "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "error_description",
@@ -89,7 +89,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Error message encountered (if any)",
       "watermarkText": "Provide the error message encountered",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

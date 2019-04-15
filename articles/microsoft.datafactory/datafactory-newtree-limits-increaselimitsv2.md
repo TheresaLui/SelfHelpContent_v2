@@ -2,15 +2,12 @@
 	pageTitle="Data Factory V2 - Increase V2 Limits"
 	description="Raise limits for Data Factory V2"
 	infoBubbleText=""
-	service="microsoft.datafactory"
-	resource="factories"
 	authors="chez-charlie"
 	ms.author="chez"
-	displayOrder="1"
 	articleId="4bb334b2-7454-45d4-aeb3-ef85910ef76d"
 	diagnosticScenario=""
-	selfHelpType="resource"
-	supportTopicIds="32629499, 32629543"
+	selfHelpType="generic"
+	supportTopicIds="32629499, 32629543, 32629435, 32629525"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
@@ -20,11 +17,10 @@
 
 ## **Recommended Steps**
 
-- Some default limits can be increased per [customer request](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/) <br/>
-- However, some limits, including bytes per object for pipeline objects, can not be increased above the default <br/>
-- Please refer the documentation link below for up-to-date information <br/>
+- Some default limits can be increased per [customer request](https://azure.microsoft.com/blog/azure-limits-quotas-increase-requests/) <br>
+- However, some limits, including bytes per object for pipeline objects, can not be increased above the default <br>
+- Please refer the documentation link below for up-to-date information <br>
 - If you hit the bytes per object for pipeline objects limit, we recommend you split the pipeline into several smaller pipelines
-
 
 ## **Recommended Documents**
 

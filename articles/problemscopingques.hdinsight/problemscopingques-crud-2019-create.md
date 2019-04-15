@@ -13,7 +13,8 @@
 # HDI Cluster Create Issue
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "HDInsight CRUD Issue",
     "fileAttachmentHint": "Please provide the ARM template and the exact command used for the CRUD operation, if applicable",
     "formElements": [
@@ -25,15 +26,22 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
+        {
+            "id": "cluster_name",
+            "order": 10,
+            "controlType": "textbox",
+            "displayLabel": "Cluster name if available",
+            "required": false
+        },
         {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -49,28 +57,32 @@
                 {
                     "value": "Happened_before",
                     "text": "Not new, happened before"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
-			"id": "previous_solution",
-			"visibility": "is_new_problem == Happened_before",
-			"order": 110,
-			"controlType": "multilinetextbox",
+            "id": "previous_solution",
+            "visibility": "is_new_problem == Happened_before",
+            "order": 110,
+            "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
-		},
+            "required": false
+        },
         {
-			"id": "change_made",
-			"visibility": "is_new_problem == New_problem",
-			"order": 120,
-			"controlType": "multilinetextbox",
+            "id": "change_made",
+            "visibility": "is_new_problem == New_problem",
+            "order": 120,
+            "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
-		},
+            "required": false
+        },
         {
             "id": "is_vnet_involved",
             "order": 140,
@@ -85,6 +97,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -104,9 +120,13 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_aad_involved",
@@ -122,6 +142,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -172,12 +196,6 @@
             "watermarkText": "Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 600,
-            "controlType": "infoblock",
-            "content": "<a href='https://hdinsight.github.io/ClusterCRUD/clustercrud-landing'>Learn more</a> about commonly faced issues with using Spark on HDInsight"
         }
     ]
 }

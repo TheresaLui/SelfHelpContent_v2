@@ -51,7 +51,11 @@ schemaVersion="1"
                 },
                 {
                     "value": "Other",
-                    "text": "Other"
+                    "text": "Other - please provide information below"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
                 }
             ],
             "required": true

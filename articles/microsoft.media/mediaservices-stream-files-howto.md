@@ -19,6 +19,10 @@
 
 ## **Recommended Documents**
 
+**Media Services v3 (latest)**
+
+**NOTE**: Currently, you cannot use the Azure portal to manage v3 resources. Use the [REST API](https://aka.ms/ams-v3-rest-ref), [CLI](https://aka.ms/ams-v3-cli-ref), or one of the supported [SDKs](https://docs.microsoft.com/azure/media-services/latest/developers-guide).
+
 * [Quickstart: Stream video files - .NET](https://docs.microsoft.com/azure/media-services/latest/stream-files-dotnet-quickstart)<br>
 * [Quickstart: Stream video files - CLI](https://docs.microsoft.com/azure/media-services/latest/stream-files-cli-quickstart)<br>
 * [Tutorial: Encode a remote file based on URL and stream the video - REST](https://docs.microsoft.com/azure/media-services/latest/stream-files-tutorial-with-rest)<br>

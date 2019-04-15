@@ -1,6 +1,6 @@
 <properties  
-              pageTitle="My VM is not booting"
-              description="My VM is not booting"
+              pageTitle="My Linux VM is not booting for reconnection"
+              description="My Linux VM is not booting for reconnection"
               service=""
               resource=""
               authors="ScottAzure"
@@ -14,7 +14,7 @@
               articleId="0c333e4e-a865-4822-84b4-0c8eba727ffe"
 />
 
-# My VM is not booting
+# My Linux VM is not booting for reconnection
 
 4 out of 5 customers resolved their VM connectivity issue using the guides listed below.
 

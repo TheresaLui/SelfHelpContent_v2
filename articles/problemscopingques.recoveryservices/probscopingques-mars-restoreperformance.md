@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for MARS restore performance"
          description="Scoping questions for MARS restore performance"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32613000"
          productPesIds="15207"
@@ -38,6 +39,10 @@
                 {
                     "value": "Restore data to the same machine from which the backups were taken",
                     "text": "Restore data to the same machine from which the backups were taken"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -56,6 +61,10 @@
                 {
                     "value": "Volume",
                     "text": "Volume"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -66,7 +75,7 @@
             "controlType": "textbox",
             "displayLabel": "How long is the restore job running?",
             "watermarkText": "Ex. 18 hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
