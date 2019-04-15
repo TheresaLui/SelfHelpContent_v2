@@ -13,9 +13,10 @@
 # Media Services Live Event or Channel connectivity or encoding errors
 ---
 {
+    "subscriptionRequired" : false,
     "resourceRequired": true,
     "title": "Live Event or Channel connectivity or encoding errors",
-    "fileAttachmentHint": "On-premises live encoder log files, Encoding configuration preset settings, or NetMon, Wireshark, or Fiddler network trace of issue (if available)",
+    "fileAttachmentHint": "On-premises live encoder log files, encoder configuration settings, NetMon, Wireshark, or Fiddler traces of the issue if available.",
     "formElements": [{
             "id": "liveEvent_Errors",
             "order": 1,
@@ -38,7 +39,7 @@
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
-            "displayLabel": "When time did the LiveEvent/Channel start or problem occur?",
+            "displayLabel": "What time did the LiveEvent/Channel start or problem occur?",
             "required": true
         },
         {
@@ -63,7 +64,8 @@
             "id": "live_encoder_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which recommmended on-premises live encoders for Media Services are you using? See <a href='https://go.microsoft.com/fwlink/?linkid=2087173'> recommended encoders </a>",
+            "displayLabel": "Which recommmended on-premises live encoders for Media Services are you using?",
+            "infoBalloonText": "See more details about <a href='https://go.microsoft.com/fwlink/?linkid=2087173'>recommended live encoders</a> in the documentation.",
             "dropdownOptions": [{
                 "value": "Adobe Flash Media Live Encoder 3.2",
                 "text": "Adobe Flash Media Live Encoder 3.2+"
@@ -122,10 +124,10 @@
                 "value": "xStream",
                 "text": "xStream"
             }, {
-                "value": "Other (unsupported encoder)",
-                "text": "Other (not using one of the recommended encoders above)"
+                "value": "Other",
+                "text": "Other"
             }],
-            "required": true
+            "required": false
         },
         {
             "id": "ffmpeg_command",
@@ -143,18 +145,11 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your Live Event broadcast configuration settings or on-premises encoder",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true,
             "hints": [{
-                "text": "Issue description."
-            }, {
                 "text": "Provide details about the setup of your Live Event, Encoder configuration settings, etc. Please upload your encoder settings file if that is also available."
             }]
-        }, {
-            "id": "learn_more_text",
-            "order": 7,
-            "controlType": "infoblock",
-            "content": "See more details about <a href='https://go.microsoft.com/fwlink/?linkid=2087173'>recommended live encoders</a> in the documentation."
         }
     ]
 }
