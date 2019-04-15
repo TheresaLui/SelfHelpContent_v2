@@ -12,8 +12,7 @@
 />
 # Media Services Live Event or Channel connectivity or encoding errors 
 ---
-{
-  "subscriptionRequired": true,
+{"subscriptionRequired": true,
   "resourceRequired": true,
 	"title": "Live Event or Channel connectivity or encoding errors",
 	"fileAttachmentHint": "On-premises live encoder log files, Encoding configuration preset settings, or NetMon, Wireshark, or Fiddler network trace of issue (if available)",
@@ -25,11 +24,11 @@
 			"displayLabel": "Are you using a pass-through or cloud encoding LiveEvent/Channel?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
+					"value": "pass-through",
+					"text": "pass-through"
 				}, {
-					"value": "No",
-					"text": "No"
+					"value": "live-encoding",
+					"text": "live encoding"
 				}, {
 					"value": "dont_know_answer",
 					"text": "Don't Know"
@@ -70,58 +69,55 @@
 			"dropdownOptions": [{
 					"value": "Adobe Flash Media Live Encoder 3.2",
 					"text": "Adobe Flash Media Live Encoder 3.2+"
-				}, {
+				},{
 					"value": "Ateme TITAN Live",
 					"text": "Ateme TITAN Live"
-				}, {
+				},{
 					"value": "Cisco Digital Media Encoder 2200",
 					"text": "Cisco Digital Media Encoder 2200"
-				}, {
+				},{
 					"value": "Elemental Live",
 					"text": "Elemental Live"
 				},{
 					"value": "FFMpeg",
 					"text": "FFMpeg v4+"
-				},
-                {
+				},{
 					"value": "Envivio 4Caster C4 Gen III",
 					"text": "Envivio 4Caster C4 Gen III"
 				},{
 					"value": "Haivision KB",
 					"text": "Haivision KB"
-				}, {
+				},{
 					"value": "Haivision Makito X HEVC",
 					"text": "Haivision Makito X HEVC"
 				},{
 					"value": "Imagine Communications Selenio",
 					"text": "Imagine Communications Selenio"
-				}, {
+				},{
 					"value": "Media Excel Hero Live and Hero 4K (UHD/HEVC)",
 					"text": "Media Excel Hero Live and Hero 4K (UHD/HEVC)"
-				}, {
+				},{
 					"value": "OBS Studio",
 					"text": "OBS Studio"
-				}, {
+				},{
 					"value": "Switcher Studio (iOS)",
 					"text": "Switcher Studio (iOS)"
-				}, {
+				},{
 					"value": "Telestream Wirecast 8.1+",
 					"text": "Telestream Wirecast 8.1+"
-				}, {
+				},{
 					"value": "Telestream Wirecast S",
 					"text": "Telestream Wirecast S"
-				}, {
+				},{
 					"value": "Teradek Slice 756",
 					"text": "Teradek Slice 756"
-				}, 
-                {
+				},{
 					"value": "TriCaster 8000",
 					"text": "TriCaster 8000"
-				}, 
-                {
+				},{
 					"value": "Tricaster Mini HD-4",
 					"text": "Tricaster Mini HD-4"
-				}, {
+				},{
 					"value": "VMIX",
 					"text": "VMIX"
 				},{
@@ -139,16 +135,10 @@
 			"order": 5,
              "visibility": "live_encoder_type == FFMpeg",    
 			"controlType": "multilinetextbox",
-			"displayLabel": "FFMpeg Command Line",
+			"displayLabel": "FFMpeg Command Line used",
 			"watermarkText": "Provide the exact FFMpeg command line that you are using",
 			"required": false,
 			"useAsAdditionalDetails": false,
-			"hints": [{
-					"text": "FFMpeg commmand line"
-				}, {
-					"text": "Provide provide the complete FFMpeg command line that you are using."
-				}
-			]
 		},
         {
 			"id": "problem_description",
