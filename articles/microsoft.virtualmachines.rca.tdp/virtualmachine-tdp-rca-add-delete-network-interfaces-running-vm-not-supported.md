@@ -18,7 +18,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of an attempt to attach or detach a network interface while the VM was running.
+The operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of an attempt to attach or detach a network interface while the VM was running.
 <!--/issueDescription-->
 To avoid this issue, first stop the virtual machine before changing network interfaces.<br>
 
