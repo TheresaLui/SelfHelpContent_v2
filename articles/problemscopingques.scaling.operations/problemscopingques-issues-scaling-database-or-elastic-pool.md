@@ -106,6 +106,9 @@
 					"value": "db_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "elastic_pool",
+					"text": "Elastic Pool"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -156,6 +159,9 @@
 					"value": "ep_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "single_database",
+					"text": "Single Database"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -165,64 +171,19 @@
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
 		{
-			"id": "which_server",
+			"id": "database_size",
 			"order": 7,
-			"controlType": "dropdown",
-			"displayLabel": "Which server?",
-			"watermarkText": "Which server?",
-			"infoBalloonText": "Which server?",
-			"dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
-				"jtokenPath": "value",
-				"textProperty": "name",
-				"valueProperty": "name",
-				"textPropertyRegex": null
-			},
+			"controlType": "textbox",
+			"displayLabel": "How large is your database?",
+			"watermarkText": "How large is your database?",
+			"infoBalloonText": "What size is your database?",
 			"required": false,
 			"useAsAdditionalDetails": false,
 			"visibility": true
 		},
 		{
-			"id": "which_database",
-			"order": 8,
-			"controltype": "dropdown",
-			"displayLabel": "Test",
-			"watermarkText": "Test",
-			"infoBalloonText": "Test",
-			"dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Sql/servers/{replaceWithParentValue}/databases?api-version=2017-10-01-preview",
-				"jtokenPath": "value",
-				"textProperty": "id",
-				"valueProperty": "id",
-				"textPropertyRegex": null,
-				"dependsOn": "which_server"
-			},
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"visibility": "which_server != Which server?"
-		},
-		{
-			"id": "which_operation",
-			"order": 9,
-			"controltype": "dropdown",
-			"displayLabel": "Test2",
-			"watermarkText": "Test2",
-			"infoBalloonText": "Test2",
-			"dynamicDropdownOptions": {
-				"uri": "{replaceWithParentValue}/operations?api-version=2017-10-01-preview",
-				"jtokenPath": "value",
-				"textProperty": "name",
-				"valueProperty": "name",
-				"textPropertyRegex": null,
-				"dependsOn": "which_database"
-			},
-			"required": false,
-			"useAsAdditionalDetails": false,
-			"visibility": "which_database != Test"
-		},
-		{
 			"id": "problem_description",
-			"order": 10,
+			"order": 8,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -232,7 +193,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 11,
+			"order": 9,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
