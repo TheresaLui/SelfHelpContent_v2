@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure VM backup performance"
          description="Scoping questions for Azure VM backup performance"
-         authors="srinathvasireddy"
+         authors="srinathv"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281"
