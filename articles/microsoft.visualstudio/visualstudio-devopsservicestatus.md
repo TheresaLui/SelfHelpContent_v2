@@ -3,7 +3,7 @@
 	description="DevOps Service Status"
 	infoBubbleText="DevOps Service Status"
 	service="microsoft.visualstudio"
-	resource="pipelines"
+	resource="account"
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceStatus"
