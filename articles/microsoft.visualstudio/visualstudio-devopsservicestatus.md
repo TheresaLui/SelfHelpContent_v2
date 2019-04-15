@@ -7,10 +7,10 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceStatus"
+	supportTopicIds="32612982, 32260174, 32452966, 32260163, 32588004, 32572357, 32452964, 32452965, 32572356, 32260170, 32542237, 32542239, 32452968"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32612982, 32260174, 32452966, 32260163, 32588004, 32572357, 32452964, 32452965, 32572356, 32260170, 32542237, 32542239, 32452968"
-   	resourceTags=""
+	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public"
 />
