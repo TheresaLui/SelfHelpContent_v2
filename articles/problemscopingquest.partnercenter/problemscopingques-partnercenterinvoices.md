@@ -65,15 +65,19 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe your issue",
-            "required": true
+            "displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue?",
+			"required": true,
+			"useAsAdditionalDetails": true,
         },
 		{
 			"id": "problem_start_time",
             "order": 5,
             "controlType": "datetimepicker",
-            "displayLabel": "When did your issue begin",
+			"displayLabel": "Start Time",
+            "watermarkText": "When did your issue begin?",
             "required": true
 		}
     ]
 }
+---
