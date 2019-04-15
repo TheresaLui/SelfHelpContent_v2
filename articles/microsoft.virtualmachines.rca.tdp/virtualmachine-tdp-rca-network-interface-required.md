@@ -18,7 +18,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** must have at least one network interface.
+The operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** must have at least one network interface.
 <!--/issueDescription-->
 An attempt was made to detach a network interface from a VM when it is the only attached network interface. A virtual machine must have at least one network interface attached to it at all times.
 
