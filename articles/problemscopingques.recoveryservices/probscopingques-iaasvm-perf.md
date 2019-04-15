@@ -62,7 +62,7 @@
 	    "controlType": "dropdown",
 	    "displayLabel": "Is the backup ever completed before?",
 	    "watermarkText": "Select",
-	    "droupdownoptions": [{
+	    "dropdownoptions": [{
 				"Value":"Yes",
 				"Text": "Yes"
 		  	 },
