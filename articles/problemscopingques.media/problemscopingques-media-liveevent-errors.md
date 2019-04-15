@@ -10,10 +10,10 @@
     cloudEnvironments="public"
     schemaVersion="1"
 />
-# Media Services Live Event or Channel connectivity or encoding errors 
+# Media Services Live Event or Channel connectivity or encoding errors
 ---
-{"subscriptionRequired": true,
-  "resourceRequired": true,
+{
+    "resourceRequired": true,
 	"title": "Live Event or Channel connectivity or encoding errors",
 	"fileAttachmentHint": "On-premises live encoder log files, Encoding configuration preset settings, or NetMon, Wireshark, or Fiddler network trace of issue (if available)",
 	"formElements": [{
