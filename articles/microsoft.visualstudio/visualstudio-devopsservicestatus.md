@@ -19,8 +19,8 @@
 
 ## **Recommended steps**
 
-1. First review service status by following the link in the recommended article.
-2. If you feel you still need to submit an incident please proceed.
+1. Before creating a case, please check the status of the service to determine if there is an issue you may be impacted by.
+2. You can see the Azure DevOps Service's Status by navigating to the [DevOps Service Status](https://status.dev.azure.com).
 
 ## **Recommended Documents**
 
