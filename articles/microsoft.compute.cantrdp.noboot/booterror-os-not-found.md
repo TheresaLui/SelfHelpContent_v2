@@ -27,7 +27,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
 ## **Recommended Steps**
 
 1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
-2. <!--/Phase 1-->[Run "New-AzureRMRescueVM.ps1"](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
+2. <!--/Phase 1-->Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
 3. <!--/Phase 2 Mitigation--> Verify the OS partition that holds the BCD store for the disk is marked as active:
 
     a. Open an elevated command prompt and open ''DISKPART'' tool diskpart
