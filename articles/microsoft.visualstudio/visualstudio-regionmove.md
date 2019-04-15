@@ -23,5 +23,5 @@
 
 ## **Recommended Documents**
 
-Azure DevOps Virtual Support Agent [region move](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
+Azure DevOps Virtual Support Agent [Region Move](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
 
