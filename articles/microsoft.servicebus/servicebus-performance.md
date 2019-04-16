@@ -16,10 +16,11 @@
 
 # unexpected service behavior
 
-## **Recommended documents**
-[Best Practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
-[Best practices for insulating applications against Service Bus outages and disasters](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters)<br>
-[Sample:Performance benchmark for Premium messaging](https://github.com/Azure-Samples/service-bus-dotnet-messaging-performance)<br>
-[Azure Service Bus Queues slow to send message](https://stackoverflow.com/questions/34204996/azure-service-bus-queues-slow-to-send-message)<br>
-[Partitioned queues and topics for better Performance](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning)<br>
-[Unexpected delay when receive service bus queue message when using Python SDK](https://github.com/Azure/azure-sdk-for-python/issues/345)<br>
+## **Recommended Documents**
+
+* [Best Practices for performance improvements using Service Bus Messaging](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements)<br>
+* [Best practices for insulating applications against Service Bus outages and disasters](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters)<br>
+* [Sample:Performance benchmark for Premium messaging](https://github.com/Azure-Samples/service-bus-dotnet-messaging-performance)<br>
+* [Azure Service Bus Queues slow to send message](https://stackoverflow.com/questions/34204996/azure-service-bus-queues-slow-to-send-message)<br>
+* [Partitioned queues and topics for better Performance](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning)<br>
+* [Unexpected delay when receive service bus queue message when using Python SDK](https://github.com/Azure/azure-sdk-for-python/issues/345)<br>

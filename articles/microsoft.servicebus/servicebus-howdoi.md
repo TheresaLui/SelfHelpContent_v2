@@ -16,11 +16,12 @@
 
 # how do i
 
-## **Recommended documents**
-[Azure Service Bus metrics in Azure Monitor (preview)](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-metrics-azure-monitor)<br>
-[How to migrate a namespace to another subscription](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-faq#subscription-and-namespace-management)<br>
-[Service Brokered Messaging Samples](https://github.com/Azure-Samples/azure-servicebus-messaging-samples)<br>
-[Service Bus Relay Samples](https://github.com/Azure-Samples/azure-servicebus-relay-samples)<br>
-[Manage and Test your entities using Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer)<br>
-[Service Bus FAQ](https://azure.microsoft.com/documentation/articles/service-bus-faq/)<br>
-[Best Practices: Preparing for Disaster Recovery and Outages](https://azure.microsoft.com/documentation/articles/service-bus-outages-disasters/)
+## **Recommended Documents**
+
+* [Azure Service Bus metrics in Azure Monitor (preview)](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-metrics-azure-monitor)<br>
+* [How to migrate a namespace to another subscription](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-faq#subscription-and-namespace-management)<br>
+* [Service Brokered Messaging Samples](https://github.com/Azure-Samples/azure-servicebus-messaging-samples)<br>
+* [Service Bus Relay Samples](https://github.com/Azure-Samples/azure-servicebus-relay-samples)<br>
+* [Manage and Test your entities using Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer)<br>
+* [Service Bus FAQ](https://azure.microsoft.com/documentation/articles/service-bus-faq/)<br>
+* [Best Practices: Preparing for Disaster Recovery and Outages](https://azure.microsoft.com/documentation/articles/service-bus-outages-disasters/)
