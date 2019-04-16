@@ -13,8 +13,8 @@
 # Media Services Live Event or Channel connectivity or encoding errors
 ---
 {
-    "subscriptionRequired" : false,
-    "resourceRequired": false,
+    "subscriptionRequired" : true,
+    "resourceRequired": true,
     "title": "Live Event or Channel connectivity or encoding errors",
     "fileAttachmentHint": "Please attach any encoder configuration settings files, live encoder log files, Net Monitor, Wireshark, or Fiddler traces of the issue if available.",
     "formElements": [{
