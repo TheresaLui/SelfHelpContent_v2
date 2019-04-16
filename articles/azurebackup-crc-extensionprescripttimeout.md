@@ -1,7 +1,7 @@
 <properties
 	pageTitle="ExtensionPreScriptTimeout"
 	description="ExtensionPreScriptTimeout"
-	infoBubbleText="Execution of App-Consistent Backup Pre-Script timed-out."
+	infoBubbleText="Execution of App-Consistent Backup Pre-Script timed-out"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionPreScriptTimeout
+# ExtensionPreScriptTimeout - We have identified that backup operation failed due to pre/post script timed-out for the app consistency
 
 <!--issueDescription-->
 ## **Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
@@ -28,7 +28,7 @@ As the default timeout for each script (pre and post script) is 30 seconds, if i
 
 **To change the timeout**:
 
-In the Linux window go to the /etc/azure path and edit the **VMSnapshotScriptPluginConfig.json** file with the approximate time out value required to complete the script.
+In the Linux window go to the **/etc/azure** path and edit **VMSnapshotScriptPluginConfig.json** file with the approximate time out value required to complete the script.
 
 > [!NOTE]
 > Maximum value of timeout is 1800 seconds (30 minutes), for more information refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent#steps-to-configure-pre-script-and-post-script).
