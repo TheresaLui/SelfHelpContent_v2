@@ -41,6 +41,7 @@ Learn more : [How return and exchange transactions are processed](https://docs.m
 Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
 
 Learn more on how discount is applied:
+
 * [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)
 * [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)
 * [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)
