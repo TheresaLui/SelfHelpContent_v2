@@ -36,7 +36,7 @@
             "id": "certificate_type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel":  "Is the certificate that is used to secure your cluster CA signed or self-signed?
+            "displayLabel":  "Is the certificate that is used to secure your cluster CA signed or self-signed?",
             "watermarkText":  "Choose an option",
             "dropdownOptions": [{
                 "value": "The certificate is signed by a Certificate Authority.",
