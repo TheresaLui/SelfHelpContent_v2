@@ -13,8 +13,9 @@
 # Databricks Cluster Creation Issue
 ---
 {
-    "resourceRequired": true,
-    "title": "Azure Databricks General Issue",
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Azure Databricks Cluster Provision Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
