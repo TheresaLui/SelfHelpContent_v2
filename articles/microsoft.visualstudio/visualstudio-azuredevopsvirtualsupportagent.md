@@ -15,9 +15,12 @@
 	cloudEnvironments="public" 
 />
 
-# Try the Azure DevOps virutal Agent
+# Try the Azure Devops Virtual Support Agent!
+
+## **Recommended Steps**
+
+For quicker answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/).
 
 ## **Recommended Documents**
 
-* Try our Azure DevOps Virtual [Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1) for quicker answers to common questions and issues.
-
+* [Azure DevOps Virtual Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

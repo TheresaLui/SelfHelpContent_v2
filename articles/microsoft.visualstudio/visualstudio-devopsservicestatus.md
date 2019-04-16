@@ -19,10 +19,11 @@
 
 ## **Recommended Steps**
 
-1. Before creating a case, please check the Azure DevOps Service status to determine if there are any issues you may be impacted by
-2. You can check the Azure DevOps Services Status by navigating to the [DevOps Service Status](https://status.dev.azure.com) dashboard
+Before creating a case, please check the [Azure DevOps Service Status](https://status.dev.azure.com)dashboard to determine if there are any issues you may be impacted by.
+
+For quicker answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/).
 
 ## **Recommended Documents**
 
-* [DevOps Service Status](https://status.dev.azure.com) Dashboard
-
+* [Azure DevOps Service Status](https://status.dev.azure.com)dashboard
+* [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
