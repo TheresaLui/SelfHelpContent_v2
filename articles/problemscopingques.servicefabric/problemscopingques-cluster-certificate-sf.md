@@ -39,8 +39,8 @@
             "displayLabel":  "Is the certificate that is used to secure your cluster CA signed or self-signed?",
             "watermarkText":  "Choose an option",
             "dropdownOptions": [{
-                "value": "The certificate is signed by a Certificate Authority.",
-                "text": "The certificate is signed by a Certificate Authority."
+                "value": "The certificate is signed by a Certificate Authority",
+                "text": "The certificate is signed by a Certificate Authority"
             },{
                 "value": "The certificate is self-signed.",
                 "text": "The certificate is self-signed."
@@ -54,8 +54,8 @@
             "displayLabel": "Is your cluster secured using certificate thumbprint or using certificate common name?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [{
-                "value": "Certificate common name and issuer thumbprint.",
-                "text": "Certificate common name and issuer thumbprint."
+                "value": "Certificate common name and issuer thumbprint",
+                "text": "Certificate common name and issuer thumbprint"
             },
             {
                 "value": "Certificate thumbprint.",
