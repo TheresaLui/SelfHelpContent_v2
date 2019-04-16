@@ -92,7 +92,7 @@ schemaVersion="1"
                         "text": "Unable to get the list of Alerts"
                         }
                     ],
-                "required": false
+                "required": true
             }
         },
         {
