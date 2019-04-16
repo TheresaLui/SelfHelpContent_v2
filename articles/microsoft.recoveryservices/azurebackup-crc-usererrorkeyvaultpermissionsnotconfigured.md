@@ -16,11 +16,11 @@
 	cloudEnvironments="public"
 />
 
-# UserErrorKeyVaultPermissionsNotConfigured
+# UserErrorKeyVaultPermissionsNotConfigured - We identified that your backup operation failed due to lack of permission to access the key vault or the key used for encrypting the VM
 
 <!--issueDescription-->
 ## **Azure Backup Service does not have sufficient permissions to Key Vault for Backup of Encrypted Virtual Machines.**
 <!--/issueDescription-->
 
 ## **Recommended Docuemnt**
-We identified that your backup operation failed due to lack of permission to access the key vault or the key used for encrypting the VM, for more information on encrypted Vm refer [artilce](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#encryption-support)
+For more information on encrypted Vm refer [artilce](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#encryption-support)
