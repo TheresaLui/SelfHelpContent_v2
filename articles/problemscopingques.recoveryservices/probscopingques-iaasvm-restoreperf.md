@@ -1,21 +1,21 @@
 <properties
-         pageTitle="Scoping questions for Azure VM backup performance"
-         description="Scoping questions for Azure VM backup performance"
-         authors="srinathv"
+         pageTitle="Scoping questions for Azure VM Restore performance"
+         description="Scoping questions for Azure VM Restore performance"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553281"
+         supportTopicIds="32612998"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	 articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
+	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
 />
-# Questions Azure VM backup performance
+# Questions Azure VM Restore performance
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure VM backup performance",
+    "title": "Azure VM Restore performance",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,12 +34,16 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Slow backup during initial (first) backup",
-                    "text": "Slow backup during initial (first) backup"
+                    "value": "Slow restore during create new virtual machine operation",
+                    "text": "Slow restore during create new virtual machine operation"
                 },
                 {
-                    "value": "Slow backup during incremental backup",
-                    "text": "Slow backup during incremental backup"
+                    "value": "Slow restore during restore disk operation",
+                    "text": "Slow restore during restore disk operation"
+                },
+                {
+		    "value": "Slow restore during restore existing disks operation",
+                    "text": "Slow restore during restore existing disks operation"
                 },
                 {
                     "value": "dont_know_answer",
@@ -56,30 +60,9 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-	{
-	    "id": "Backup_Completeness",
-	    "order": 4,
-	    "controlType": "dropdown",
-	    "displayLabel": "Is the backup ever completed before?",
-	    "watermarkText": "Select",
-	    "dropdownoptions": [{
-				"Value":"Yes",
-				"Text": "Yes"
-		  	 },
-		 	 {
-				"Value":"No",
-				"Text": "No"
-			  },
-			  {
-			      "value": "dont_know_answer",
-			      "text": "Other, don't know or not applicable"
-			  }
-		 ],
-		  "required": false
-		},
-	{
+        {
             "id": "job_Running_Time",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Since how long the job is running?",
             "watermarkText": "Enter time in hours ex. 18hrs",
@@ -87,7 +70,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -97,7 +80,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
