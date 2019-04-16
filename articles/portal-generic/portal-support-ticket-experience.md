@@ -32,6 +32,31 @@
 * [How to upload files to support request](https://docs.microsoft.com/azure/azure-supportability/how-to-use-file-uploader)
 * [Quota increase requests](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)
 
+## List of Azure portal URLs for Proxy Bypass
+
+ | Service            		| Domain                           |
+ | -------------------		| ----                             |
+ | Application Insights  | *.aimon.applicationinsights.io  | 
+ | Azure Portal  | *.gfx.ms  | 
+ | Azure Portal  | *.azure.com  | 
+ | Azure Portal  | *.exp.azure.com  | 
+ | Azure Portal  | *.portal.azure.com  | 
+ | CDN  | *.azureedge.net  | 
+ | CDN  | *.wpc.azureedge.net  | 
+ | Datalake  | *.azuredatalakestore.net  | 
+ | Portal Extension  | *.ext.azure.com  | 
+ | Hosting Service  | *.hosting.portal.azure.net  | 
+ | Marketplace  | *.marketplaceapi.microsoft.com  | 
+ | Microsoft  | *.vortex.data.microsoft.com  | 
+ | Microsoft Login  | *.aadcdn.microsoftonline-p.com  | 
+ | Microsoft Login  | *.microsoftonline.com  | 
+ | Microsoft Login  | *.msauth.net  | 
+ | Microsoft Login  | *.msftauth.net  | 
+ | Microsoft Login  | *.sts.microsoft.com  | 
+ | VisualStudio  | *.portalext.visualstudio.com  | 
+ | VisualStudio  | *.vscommerce.visualstudio.com  | 
+ | VisualStudio  | *.vssps.visualstudio.com  | 
+ 
 ## Non-Microsoft Services
 
 * For SendGrid related issues in Azure portal please contact [SendGrid support](https://sendgrid.com/docs/ui/account-and-settings/support/)
