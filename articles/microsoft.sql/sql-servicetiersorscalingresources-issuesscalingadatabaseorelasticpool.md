@@ -24,7 +24,7 @@ Scaling operations can take anywhere from a few minutes to several hours dependi
 
 ### Issues Scaling with Geo-Replication Enabled
 
-If geo-replication is enabled, the sequencing of scaling operations on the primary database and secondary databases is important. To upgrade, scale the secondary databases first.  To downgrade, scale the primary database first.  For more detail, see the following.
+If geo-replication is enabled, the sequencing of scaling operations on the primary database and secondary databases is important. To upgrade, scale the secondary databases first. To downgrade, scale the primary database first. For more detail, see the following:
 
 * [Scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)
 
