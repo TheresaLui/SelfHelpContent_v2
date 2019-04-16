@@ -16,14 +16,14 @@
 	cloudEnvironments="public"
 />
 
-# UserErrorBCMPremiumStorageQuotaError
+# UserErrorBCMPremiumStorageQuotaError - We identified that your backup operation failed due to insufficient space in the premium storage account
 
 <!--issueDescription-->
 ## **Could not copy the snapshot of the virtual machine, due to insufficient free space in the storage account**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We identified that your backup operation failed due to insufficient free space in the premium storage account. To resolve this issue perform the below:
+To resolve UserErrorBCMPremiumStorageQuotaError issue perform the below:
 
  * Ensure that storage account has free space equivalent to the data size in the premium disks attached to the Virtual Machines.
  * To check the size of the premium storage account, perform the below:
@@ -33,9 +33,6 @@ We identified that your backup operation failed due to insufficient free space i
     * Select **Used capacity** in the **Metrics** drop-down option to check the used capacity of storage account.
     * Retry your Backup operation.<br>
 
-	>
-	>	[NOTE]
-		 If the storage account has insufficient storage space, then move the large size VM to different premium storage account to make required free space. Then retry backup operation.
-
+	
 ## **Recommended Document**
- For information on storage account, see [storage account free space](https://azure.microsoft.com/documentation/articles/backup-introduction-to-azure-backup/#back-up-and-restore-premium-storage-vms).
+For information on storage account, see [storage account free space](https://azure.microsoft.com/documentation/articles/backup-introduction-to-azure-backup/#back-up-and-restore-premium-storage-vms).
