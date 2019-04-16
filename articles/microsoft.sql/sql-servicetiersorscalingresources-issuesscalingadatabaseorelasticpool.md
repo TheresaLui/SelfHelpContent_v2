@@ -15,12 +15,18 @@
 
 # SQL Database issues scaling a database or elastic pool
 
-# Scaling Operation Slow or Stuck
+### Scaling Operation Slow or Stuck
 
-Scaling operations can take anywhere from a few minutes to several hours depending on the service tiers involved.  Certain combinations of source and target tiers will require a copy operation, which will take time proportional to the size of your database.  If geo-replication is enabled, 
+Scaling operations can take anywhere from a few minutes to several hours depending on the service tiers involved and sometimes the size of the database.  For information on factors that affect how long a scaling operation runs and rules of thumb for estimating how long a scaling operation should take, see the following.
 
 * [Scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)<br>
 * [Scaling an elastic pool](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale#change-compute-resources-vcores-or-dtus)<br>
+
+### Issues Scaling with Geo-Replication Enabled
+
+If geo-replication is enabled, the sequencing of scaling operations on the primary database and secondary databases is important. To upgrade, scale the secondary databases first.  To downgrade, scale the primary database first.  For more detail, see the following.
+
+* [Scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)
 
 ## **Recommended Documents**
 
