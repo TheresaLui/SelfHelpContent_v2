@@ -16,19 +16,18 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionPreScriptTimeout - We have identified that backup operation failed due to pre/post script timed-out for the app consistency
+#  We have identified that your backup operation failed due to pre/post script time-out with error ExtensionPreScriptTimeout
 
 <!--issueDescription-->
-## **Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
+**Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-During backup pre-check, user will encounter a warning that pre/post script timed-out for the app consistency, however the backup succeed for the File System consistency.<br/>
-As the default timeout for each script (pre and post script) is 30 seconds, if it take more than 30 sec then increase the time out as per the script running time.
 
-**To change the timeout**:
+During backup pre-check, user will encounter a warning that pre/post script timed-out for app consistency. However, the backup succeeded for the File System consistency. The default timeout for each script (pre and post script) is 30 seconds. If the script takes longer than 30 seconds, increase the time out value per the script running time. 
 
-In the Linux window go to the **/etc/azure** path and edit **VMSnapshotScriptPluginConfig.json** file with the approximate time out value required to complete the script.
+## Change the Time Out Value
 
-> [!NOTE]
-> Maximum value of timeout is 1800 seconds (30 minutes), for more information refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent#steps-to-configure-pre-script-and-post-script).
+In the Linux window, go to the `/etc/azure` path and edit the `VMSnapshotScriptPluginConfig.json` file. Update the time out value and save the file. 
+
+[!NOTE] [Maximum value of timeout](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent#steps-to-configure-pre-script-and-post-script) is 1800 seconds (30 minutes).
