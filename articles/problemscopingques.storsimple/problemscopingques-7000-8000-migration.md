@@ -44,7 +44,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Serial number of source appliance",
 			"watermarkTest": "Serial number of the source 5000-7000 series appliance",
-			"required": false 
+			"required": false
 	},
 		{
 			"id": "software version",
