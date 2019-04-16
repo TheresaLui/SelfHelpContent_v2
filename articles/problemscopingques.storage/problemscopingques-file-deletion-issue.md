@@ -2,6 +2,7 @@
 	pageTitle="Storage File share or path"
 	description="Storage File share or path scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602743"
 	productPesIds="16460"

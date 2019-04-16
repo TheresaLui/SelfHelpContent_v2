@@ -2,6 +2,7 @@
 	pageTitle="Storage File Share mounting issues - macOS"
 	description="Storage File Share mounting issues - macOS"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602764"
 	productPesIds="16460"

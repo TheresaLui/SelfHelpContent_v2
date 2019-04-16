@@ -2,6 +2,7 @@
 	pageTitle="Storage File connectivity or performance issue"
 	description="Storage File connectivity or performance scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602759,32602770,32602761,32602762"
 	productPesIds="16460"

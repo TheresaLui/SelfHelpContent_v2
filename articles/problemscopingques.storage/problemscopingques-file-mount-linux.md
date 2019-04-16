@@ -2,6 +2,7 @@
 	pageTitle="Storage File Share mounting issues - Linux"
 	description="Storage File Share mounting issues - Linux"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602763"
 	productPesIds="16460"

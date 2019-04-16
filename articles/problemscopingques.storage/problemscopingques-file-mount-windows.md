@@ -2,6 +2,7 @@
 	pageTitle="Storage File Share mounting issues - Windows"
 	description="Storage File Share mounting issues - Windows"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602765"
 	productPesIds="16460"
