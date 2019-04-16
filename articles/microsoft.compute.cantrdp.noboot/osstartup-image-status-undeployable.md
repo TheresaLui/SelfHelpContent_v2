@@ -7,7 +7,7 @@
     authors="jasonbandrew"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="BootError-OS_NOT_FOUND"
+    articleId="OSStartUp--IMAGE_STATUS_UNDEPLOYABLE"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
