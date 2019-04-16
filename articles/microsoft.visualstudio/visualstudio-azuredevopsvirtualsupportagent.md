@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-For quicker answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/).
+For quicker answers to common questions and issues, try the[Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 
 ## **Recommended Documents**
 

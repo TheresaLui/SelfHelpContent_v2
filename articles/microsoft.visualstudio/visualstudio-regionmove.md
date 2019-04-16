@@ -15,7 +15,7 @@
 	cloudEnvironments="public"
 />
 
-# DevOps Service Status
+# DevOps Services Region Move
 
 ## **Recommended Steps**
 
@@ -23,5 +23,5 @@
 
 ## **Recommended Documents**
 
-* [Azure DevOps Virtual Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)region move
+* [Azure DevOps Virtual Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
 
