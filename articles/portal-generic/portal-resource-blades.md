@@ -3,7 +3,7 @@
 	description="Azure Portal Resource Blades"
 	service="microsoft.Portal"
 	resource=""
-	authors="scottAzure"
+	authors="sansom"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628245"
