@@ -16,11 +16,12 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedOutOfMemoryError - We have identified that your backup operation failed due to insufficient memory in the VM
+# Error ExtensionFailedOutOfMemoryError
 
 <!--issueDescription-->
-**Snapshot operation failed due to insufficient memory available in VM**
+We have identified that your backup operation failed due to insufficient memory available in the Virtual Machine.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve ExtensionFailedOutOfMemoryError issue reboot the Virtual Machine to free-up the memory or add more memory to the Virtual Machine.
+
+To resolve an ExtensionFailedOutOfMemoryError issue, reboot the Virtual Machine to free up memory or add more.
