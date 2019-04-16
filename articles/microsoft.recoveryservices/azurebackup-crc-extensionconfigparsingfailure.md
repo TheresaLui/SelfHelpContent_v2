@@ -14,11 +14,12 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionConfigParsingFailure - We have detected that your backup operation failed because the service was unable to parse the backup extension configuration
+# Error ExtensionConfigParsingFailure
 
 <!--issueDescription-->
-## **Failure in parsing the configuration for the backup extension**
+We have detected that your backup operation failed because the service was unable to parse the backup extension configuration.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve ExtensionConfigParsingFailure issue, refer the [troubleshooting article](https://aka.ms/AB-ExtensionConfigParsingFailure).
+## **Recommended Documents**
+
+To resolve an ExtensionConfigParsingFailure issue, refer to the [troubleshooting article](https://aka.ms/AB-ExtensionConfigParsingFailure).
