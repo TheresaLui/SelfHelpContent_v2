@@ -16,14 +16,13 @@
 	cloudEnvironments="public"
 />
 
-# UserErrorSQLNoSysadminMembership
+# UserErrorSQLNoSysadminMembership We identified that your backup operation failed because the SQL sysadmin privilege is not assigned to this service account **NTService\AzureWLBackupPluginSvc**
 
 <!--issueDescription-->
 ## **Azure Backup service creates a service account NTService\ AzureWLBackupPluginSvc for all operations and this account needs SQL sysadmin privilege**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that your backup operation failed because the SQL sysadmin privilege is not assigned to this service account **NTService\AzureWLBackupPluginSvc**.
 
 To check and set the sysadmin permission for the **NT Service\AzureWLBackupPluginSvc** user, perform the below:
 
