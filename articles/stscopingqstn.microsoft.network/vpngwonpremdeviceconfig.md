@@ -14,7 +14,7 @@
 ---
 {   "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "On-premise device configuration script issues",
+    "title": "On-premises device configuration script issues",
     "fileAttachmentHint": "",
     "formElements": [
         {   "id": "problem_start_time",
