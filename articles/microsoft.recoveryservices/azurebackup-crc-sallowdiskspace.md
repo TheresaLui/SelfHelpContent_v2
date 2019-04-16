@@ -19,7 +19,7 @@
 # SalLowDiskSpace error
 
 <!--issueDescription-->
-## **Backup failed due to insufficient space in the cache volume**
+**Backup failed due to insufficient space in the cache volume**
 
 <!--/issueDescription-->
 
