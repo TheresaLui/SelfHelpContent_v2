@@ -14,10 +14,10 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionOperationFailedForManagedDisks - We have identified that your backup operation was not completed because the VMSnapshot extension for managed disks failed
+# Error Code ExtensionOperationFailedForManagedDisks
 
 <!--issueDescription-->
-## **VMSnapshot extension operation failed for managed disks**
+## We have identified that your backup operation was not completed because the VMSnapshot extension for managed disks failed
 <!--/issueDescription-->
 
 ## **Recommended Document**
