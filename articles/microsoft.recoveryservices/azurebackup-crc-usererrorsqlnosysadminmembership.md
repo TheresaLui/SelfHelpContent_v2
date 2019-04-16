@@ -41,7 +41,7 @@ If the service and user have the necessary permissions and you're still facing t
 
 	* To create the AzureWLBackupPluginSvc user, run the query `CREATE LOGIN [NT Service\AzureWLBackupPluginSvc] FROM WINDOWS WITH DEFAULT_DATABASE=[master]`
 
-3. Assign the sysdmin role
+3. Assign the sysadmin role
 
 	* Change the server role to sysadmin with the query `ALTER SERVER ROLE [sysadmin] ADD MEMBER [NT Service\AzureWLBackupPluginSvc]`
 
