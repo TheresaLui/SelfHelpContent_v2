@@ -32,7 +32,7 @@ Self-service exchange and cancel capability isn't available for US Government En
 1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)
 2. Select the reservations that you want to refund and click **Exchange**
 3. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total. [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy)
-4.Review and complete the transaction.
+4. Review and complete the transaction.
 
 To refund a reservation, go to **Reservation Details** and click **Refund**
 
