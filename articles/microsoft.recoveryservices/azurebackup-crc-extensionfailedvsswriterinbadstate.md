@@ -16,11 +16,11 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedVssWriterInBadState
+# ExtensionFailedVssWriterInBadState - We have identified that your snapshot operation failed due to the VSS (Volume Shadow copy Service) writers that is in bad state
 
 <!--issueDescription-->
 ## **Snapshot operation failed due to VSS Writers in bad state**
 <!--/issueDescription-->
 
 ## **Recommended Document**
-We have identified that your snapshot operation failed due to the VSS (Volume Shadow copy Service) writers that is in bad state. To resolve this issue, refer this [article](https://aka.ms/AB-ExtensionFailedVssWriterInBadState).
+To resolve ExtensionFailedVssWriterInBadState issue, refer this [article](https://aka.ms/AB-ExtensionFailedVssWriterInBadState).
