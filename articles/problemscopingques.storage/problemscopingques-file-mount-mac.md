@@ -36,7 +36,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -53,6 +54,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "diagnosticCard": "What caused my Azure Files mount issue on MacOS?"
 }
 ---

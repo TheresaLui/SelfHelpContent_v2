@@ -21,7 +21,8 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "file_share_or_path",
@@ -29,7 +30,8 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -39,6 +41,7 @@
             "required": false,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "diagnosticCard": "What caused my Azure Files connectivity issue?"
 }
 ---

@@ -22,14 +22,16 @@
             "controlType": "textbox",
             "displayLabel": "File Share or File path",
             "watermarkText": "'FileShare' or 'FileShare/FileName'",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -39,6 +41,7 @@
             "required": false,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "diagnosticCard": "What caused my Azure Files deletion issue?"
 }
 ---

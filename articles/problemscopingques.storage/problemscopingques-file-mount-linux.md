@@ -40,7 +40,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "os_version",
@@ -110,7 +111,8 @@
                     "text": "Other - provide Linux kernel version below"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "linux_kernel",
@@ -118,7 +120,8 @@
             "controlType": "textbox",
             "displayLabel": "Linux kernel version",
             "watermarkText": "Run 'uname -r' command to find Linux kernel version",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -135,6 +138,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "diagnosticCard": "What caused my Azure Files mount issue on Linux?"
 }
 ---

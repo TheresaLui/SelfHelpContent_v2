@@ -22,7 +22,8 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time Blob was deleted",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "blob_path",
@@ -30,7 +31,8 @@
             "controlType": "textbox",
             "displayLabel": "Blob path",
             "watermarkText": "'ContainerName/.../BlobName'",
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
@@ -40,6 +42,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "diagnosticCard": "Is it possible to recover my accidently deleted blob?"
 }
 ---
