@@ -3,7 +3,7 @@
 	description="Azure Portal Subscription Filtering"
 	service="microsoft.Portal"
 	resource=""
-	authors="scottAzure"
+	authors="sansom"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628244"
