@@ -16,10 +16,10 @@
 	cloudEnvironments="public"
 />
 
-#  We have identified that your backup operation failed due to pre/post script time-out with error ExtensionPreScriptTimeout
+#  Error ExtensionPreScriptTimeout
 
 <!--issueDescription-->
-**Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
+We have identified that your backup operation failed due to pre/post script time-out with error ExtensionPreScriptTimeout. The snapshot operation failed, as snapshot limit has exceeded for some of the disks attached.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
