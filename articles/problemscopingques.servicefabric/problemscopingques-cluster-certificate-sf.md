@@ -42,8 +42,8 @@
                 "value": "The certificate is signed by a Certificate Authority",
                 "text": "The certificate is signed by a Certificate Authority"
             },{
-                "value": "The certificate is self-signed.",
-                "text": "The certificate is self-signed."
+                "value": "The certificate is self-signed",
+                "text": "The certificate is self-signed"
             }],
             "required": false
         },
@@ -58,8 +58,8 @@
                 "text": "Certificate common name and issuer thumbprint"
             },
             {
-                "value": "Certificate thumbprint.",
-                "text": "Certificate thumbprint."
+                "value": "Certificate thumbprint",
+                "text": "Certificate thumbprint"
             }],
             "required": false
         }
