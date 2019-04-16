@@ -1,21 +1,22 @@
 <properties
-	articleId="2535ac26-597f-4894-8797-0e98a2eb6043"
-	pageTitle="Scoping Questions for Databricks Issue"
-	description="Scoping Questions for Databricks Issue"
+	articleId="6c76bade-8837-418b-b303-78c817fc4bcd"
+	pageTitle="Scoping Questions for Databricks Cluster Creation Issue"
+	description="Scoping Questions for Databricks Cluster Creation Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32612186, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
+	supportTopicIds="32612187"
 	productPesIds="16432"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Databricks Issue
+# Databricks Cluster Creation Issue
 ---
 {
-    "resourceRequired": true,
-    "title": "Azure Databricks General Issue",
-    "fileAttachmentHint": "Please upload Spark Driver and Executor log if applicable to help expedite the investigation",
+    "resourceRequired": false,
+    "subscriptionRequired": false,
+    "title": "Azure Databricks Cluster Provision Issue",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -89,81 +90,6 @@
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster, Notebook, and Job URL",
-            "required": true
-        },
-        {
-            "id": "workload_submission_method",
-            "order": 200,
-            "controlType": "dropdown",
-            "displayLabel": "How was the workload submitted?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Notebook",
-                    "text": "Notebook"
-                },
-                {
-                    "value": "ADF",
-                    "text": "Azure Data Factory"
-                },
-                {
-                    "value": "RESTAPI",
-                    "text": "REST API"
-                },
-                {
-                    "value": "ScheduledJob",
-                    "text": "Scheduled job from the UI"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "notebook_rul",
-            "visibility": "workload_submission_method == Notebook",
-            "order": 300,
-            "controlType": "textbox",
-            "displayLabel": "Notebook URL if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Notebook URL",
-            "required": true
-        },
-        {
-            "id": "job_url_adf",
-            "visibility": "workload_submission_method == ADF",
-            "order": 310,
-            "controlType": "textbox",
-            "displayLabel": "Job URL if available",
-            "infoBalloonText": "Job URL can be found in the tool tip in the error of the ADF Databricks activity",
-            "required": true
-        },
-        {
-            "id": "job_url_restapi",
-            "visibility": "workload_submission_method == RESTAPI",
-            "order": 320,
-            "controlType": "textbox",
-            "displayLabel": "Job URL if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
-            "required": true
-        },
-        {
-            "id": "job_url_scheduledjob",
-            "visibility": "workload_submission_method == ScheduledJob",
-            "order": 330,
-            "controlType": "textbox",
-            "displayLabel": "Job URL if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
-            "required": true
-        },
-        {
-            "id": "job_url_other",
-            "visibility": "workload_submission_method == Other",
-            "order": 340,
-            "controlType": "textbox",
-            "displayLabel": "Job URL if available",
-            "infoBalloonText": "Follow <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>this article</a> to get Job URL",
             "required": true
         },
         {
