@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# SalLowDiskSpace
+# SalLowDiskSpace - We identified that your backup operation failed due to insufficient space in the cache volume.
 
 <!--issueDescription-->
 ## **Backup failed due to insufficient space in the cache volume**
@@ -24,7 +24,7 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We identified that your backup operation failed due to insufficient space in the cache volume. To resolve this issue, complete the below troubleshooting steps and retry your backup operation.
+To resolve SalLowDiskSpace issue, complete the below troubleshooting steps and retry the backup operation.
 
 * Ensure VM has the latest backup agent installed.
 * Ensure that the cache volume has free space corresponding to 5-10 percentage of the backup data size or at least 2.5GB, whichever is greater. If required, switch to a new cache location that meets the specified space requirements.
