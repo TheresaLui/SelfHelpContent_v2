@@ -14,9 +14,9 @@
 ---
 {
     "subscriptionRequired" : false,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Live Event or Channel connectivity or encoding errors",
-    "fileAttachmentHint": "On-premises live encoder log files, encoder configuration settings, NetMon, Wireshark, or Fiddler traces of the issue if available.",
+    "fileAttachmentHint": "Please attach any encoder configuration settings files, live encoder log files, Net Monitor, Wireshark, or Fiddler traces of the issue if available.",
     "formElements": [{
             "id": "liveEvent_Errors",
             "order": 1,
@@ -137,15 +137,15 @@
             "displayLabel": "FFMpeg Command Line used",
             "watermarkText": "Provide the exact FFMpeg command line that you are using",
             "required": false,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Details",
-            "watermarkText": "Provide additional information about your Live Event broadcast configuration settings or on-premises encoder",
-            "required": false,
+            "displayLabel": "Live Event issue details and encoder settings",
+            "watermarkText": "Provide additional description about the problem including info about your Live Event broadcast configuration settings or on-premises encoder",
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [{
                 "text": "Provide details about the setup of your Live Event, Encoder configuration settings, etc. Please upload your encoder settings file if that is also available."
