@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Point-to-site connectivity issues",
     "fileAttachmentHint": "Upload your VPN profile to speed up the support process. For security purposes, please edit or remove the client certificate information.",
     "formElements": [
@@ -67,24 +68,8 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide the device OS",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Issue description"
-                },
-                {
-                    "text": "Device OS (Client platform OS version)"
-                }
-            ]
-        },
-        {
             "id": "P2S_tunneltype",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
@@ -107,6 +92,22 @@
                 }
             ],
             "required": true
+        },
+	{
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Issue description"
+                },
+                {
+                    "text": "Client platform OS version"
+                }
+            ]
         }
     ]
 }

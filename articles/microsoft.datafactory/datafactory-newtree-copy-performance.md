@@ -18,6 +18,17 @@
 
 # Understand and Tune Performance of Copy Activity
 
+## **Recommended Steps**
+
+* [Performance Tuning Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance) offers detailed information about expected throughput and how to identify and address performance bottlenecks due to a variety of issues, including: <br>
+  * data factory configuration <br>
+  * integration runtime hosting and configuration <br>
+  * underlying data source and sink performance and configuration <br>
+  * serialization/deserialization/compression <br>
+  * column mapping <br>
+* Please consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
+* Benchmark copy performance against recent in-progress and completed runs [Monitor UI](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+
 ## **Recommended Documents**
 
 Copy Activity Performance and Tuning [Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance), including following sections: <br>

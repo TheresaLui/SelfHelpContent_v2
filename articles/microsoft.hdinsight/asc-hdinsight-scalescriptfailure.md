@@ -10,7 +10,7 @@
     articleId="Hdi_ScaleFailure_SasKeyExpired"
     diagnosticScenario="HDInsightCustomizationInsight"
     selfHelpType="rca"
-    supportTopicIds="32629125, 32629126"
+    supportTopicIds="32629125, 32629126, 32636492"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"

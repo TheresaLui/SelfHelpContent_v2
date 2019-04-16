@@ -1,6 +1,6 @@
 <properties
-	pageTitle="other general questions"
-	description="other general questions"
+	pageTitle="General questions about your Azure invoice"
+	description="General questions about your Azure invoice"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -14,7 +14,7 @@
 	articleId="e34faaf6-619e-467c-93bb-bd5dc5402002"
 />
 
-# other general questions
+# General questions about your Azure invoice
 
 ## **Recommended Steps**
 
@@ -23,28 +23,27 @@
 * Learn more on how billing works in the Azure Cloud Solution Provider (Azure CSP) program, including the billing cycle, pricing, and usage: [Azure CSP Billing Overview](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview/)
 * Learn more on Azure billing for external service charges: [Marketplace service charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)<br>
 
-### **Understand terms on Azure invoice**
+### **Understanding terms on your Azure invoice**
 
-The invoice provides a summary of your charges and provides instructions for payment. However please note:
+The invoice provides a summary of your charges and provides instructions for payment. However, please note:
 
-* If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you don't have an invoice
+* If you're using a free trial subscription, you can get your detailed usage information from the Azure portal but you will not have an invoice
 * Up to 24 hours of usage at the end of the previous billing period may show up in your current invoice
-* Charges listed on billing statements for international customers are for estimation purposes only. Banks may have different costs for the conversion rates
+* Charges listed on billing statements for international customers are for estimation purposes only. Banks may have different costs for the conversion rates.
 
-Learn more: [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
-Learn more: [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
+* Learn more: [Invoice terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)<br>
+* Learn more: [Usage terms explained](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)<br>
 
 ### **Download your invoice and usage**
 
-Obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV) download: [Download invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br>
+You can [download a PDF of your invoice and a copy of your detailed daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date#noinvoice)<br> in a .CSV format.
 
-### **Manage your cost**
+### **Manage costs**
 
 * Prevent unexpected costs and charges and get a better idea of your spend: [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
 * Prevent spending over your credit amount: [Understand spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
 * Resolve past due balances or pending invoice: [Resolve past due balance](https://docs.microsoft.com/azure/billing/billing-azure-subscription-past-due-balance)<br>
-  
-Learn more on Azure subscription and service limits, quotas, and constraints: [Subscription and service limits](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
+* Learn more on Azure subscription and service limits, quotas, and constraints: [Subscription and service limits](https://docs.microsoft.com/azure/azure-subscription-service-limits)<br>
 
 ### **Manage Subscriptions**
 

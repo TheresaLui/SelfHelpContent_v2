@@ -23,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -106,7 +106,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",

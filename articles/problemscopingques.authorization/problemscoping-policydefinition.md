@@ -1,0 +1,54 @@
+<properties
+    pageTitle="Authoring a custom policy definition"
+    description="Authoring a custom policy definition"
+    service="microsoft.authorization"
+    resource="policyDefinitions"
+    authors="robga"
+    ms.author="robga"
+    displayOrder=""
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32636045"
+    resourceTags=""
+    productPesIds="16456"
+    cloudEnvironments="public"
+    articleId="d7371e4f-39e0-477f-a401-9af1173bc0a0"
+    schemaVersion="1"
+/>
+#Authoring a custom policy definition
+---
+{
+    "subscriptionRequired": true,
+    "title": "Policy definition",
+    "fileAttachmentHint": "",
+    "formElements":
+    [
+        {
+            "id": "problem_start_time",
+            "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "rawPolicyDefinition",
+            "order": 20,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the draft policy definition",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [{
+                    "text": "Issue description."
+                }
+            ]
+        }
+    ]
+}
+---

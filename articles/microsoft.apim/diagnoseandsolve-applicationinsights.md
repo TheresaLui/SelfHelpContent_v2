@@ -21,14 +21,14 @@ cloudEnvironments="public"
 			"description": "I am not able to see any data in the Azure Portal or the Analytics Portal",
 			"category": "Data Collection",
 			"searchTags": "missing data, no data, empty, blank",
-			"supportTopicId": "",
+			"supportTopicId": "32602225",
 			"commonSolutionArticleId": "appinsights-missing-ingestion-data"
 		}, {			         
 			"title": "Why is my data not showing up right away?",
 			"description": "I am sending data, but it is not showing up for a long period of time.",
 			"category": "Data Collection",
 			"searchTags": "latency, slow, collection, ingestion",
-			"supportTopicId": "",
+			"supportTopicId": "32546624",
 			"commonSolutionArticleId": "insights_datalatency"			
 		},
 		{				    
@@ -36,7 +36,7 @@ cloudEnvironments="public"
 			"description": "I am not able to see some data in the Azure Portal or the Analytics Portal; for example I see Performance data but not User Behavior data.",
 			"category": "Data Collection",			
 			"searchTags": "partial data, no metric, usage",			
-			"supportTopicId": "",
+			"supportTopicId": "32602224",
 			"commonSolutionArticleId": "insights_usage_blade"
 		}, 
 		{				    
@@ -44,7 +44,7 @@ cloudEnvironments="public"
 			"description": "I can see that an alert was triggered but no e-mail notification was sent.",
 			"category": "Alerts",
 			"searchTags": "e-mail, notification, wrong people",			
-			"supportTopicId": "",
+			"supportTopicId": "32546625",
 			"commonSolutionArticleId": "insights_missingemail"
 		}, 
 		{				    
@@ -52,7 +52,7 @@ cloudEnvironments="public"
 			"description": "I want to add Application Insights monitoring to my App Service.",
 			"category": "Configuration",
 			"searchTags": "app service, web app",			
-			"supportTopicId": "",
+			"supportTopicId": "32602209",
 			"commonSolutionArticleId": "insights_appservice"
 		}, 
 		{				    
@@ -60,7 +60,7 @@ cloudEnvironments="public"
 			"description": "I see an error on my webtest but don't know how to troubleshoot.",
 			"category": "Web Tests",
 			"searchTags": "availability test, web test",			
-			"supportTopicId": "",
+			"supportTopicId": "32422336",
 			"commonSolutionArticleId": "insights_availabilitytests"
 		}, 
 		{				    
@@ -68,7 +68,7 @@ cloudEnvironments="public"
 			"description": "I want to configure my .NET SDK to add or remove additional monitoring.",
 			"category": "Configuration",
 			"searchTags": ".net, iis, dotnetcore",			
-			"supportTopicId": "",
+			"supportTopicId": "32402631",
 			"commonSolutionArticleId": "insights_dotnetsdk"
 		}, 
 		{				    
@@ -76,7 +76,7 @@ cloudEnvironments="public"
 			"description": "I want to configure my Java SDK to add or remove additional monitoring.",
 			"category": "Configuration",
 			"searchTags": "java, tomcat, jboss, jvm",			
-			"supportTopicId": "",
+			"supportTopicId": "32402632",
 			"commonSolutionArticleId": "insights_javasdk"
 		}
 	],

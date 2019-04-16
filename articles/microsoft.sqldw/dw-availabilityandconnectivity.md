@@ -5,15 +5,15 @@
 	resource="servers"
 	authors="saltug,happynicolle"
 	ms.author="saltug,nicw"
-	supportTopicIds="32635176, 32635186, 32635193, 32635194, 32635195, 32635198, 32635206, 32635216, 32635223, 32635232"
+	supportTopicIds="32635176, 32635206"
 	productPesIds="15818"
-	displayOrder="101"
+	displayOrder="10"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-availabilityandconnectivity.md"
 	cloudEnvironments="public"
 />
-# Availability and Connectivity
+# How to troubleshoot availability and connectivity issues
 
 The following details explain how to set up and update common access and permissions rules in Azure SQL Data Warehouse.
 
@@ -34,10 +34,11 @@ Resource Health determines the health of your SQL resource by examining the succ
 * See how to [find the connection string](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-connect-overview#find-your-server-name) from the portal
 * [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630414/)
 * [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630414/)
-* Implementing [retry logic](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues#retry-logic-for-transient-errors) in your client application helps mitigate these situations and should generally make the errors transparent to the end user.
+* Implementing [retry logic](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues#retry-logic-for-transient-errors) in your client application helps mitigate these situations and should generally make the errors transparent to the end user
 
 ## **Recommended Documents**
 
+* [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)<br>
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)<br>
 * [Create a server-level firewall rule](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal#create-a-server-level-firewall-rule)<br>
 * [Use virtual network service endpoints](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json)<br>

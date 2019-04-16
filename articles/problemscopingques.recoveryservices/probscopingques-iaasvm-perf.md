@@ -2,17 +2,19 @@
          pageTitle="Scoping questions for Azure VM backup or restore performance"
          description="Scoping questions for Azure VM backup or restore performance"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
+	 articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
 />
 # Questions Azure VM backup or restore performance
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM backup or restore performance",
     "fileAttachmentHint": "",
     "formElements": [
@@ -70,7 +72,7 @@
             "controlType": "textbox",
             "displayLabel": "Since how long the job is running?",
             "watermarkText": "Enter time in hours ex. 18hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
