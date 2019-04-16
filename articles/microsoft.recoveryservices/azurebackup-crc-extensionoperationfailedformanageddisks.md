@@ -14,7 +14,7 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionOperationFailedForManagedDisks
+# ExtensionOperationFailedForManagedDisks - We identified that your backup operation was failing due the VMSnapshot extension operation that failed for managed disks 
 
 <!--issueDescription-->
 ## **VMSnapshot extension operation failed for managed disks**
@@ -22,4 +22,4 @@
 
 ## **Recommended Document**
 
-We identified that your backup operation was failing due the VMSnapshot extension operation failed for managed disks. To resolve the issue, refer the [troubleshooting steps]( https://aka.ms/extension-operation-failed), and then retry the operation.
+To resolve this issue, refer the [troubleshooting steps]( https://aka.ms/extension-operation-failed), and then retry the operation.
