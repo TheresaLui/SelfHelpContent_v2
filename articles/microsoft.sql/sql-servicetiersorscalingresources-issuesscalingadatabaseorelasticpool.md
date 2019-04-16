@@ -15,11 +15,17 @@
 
 # SQL Database issues scaling a database or elastic pool
 
+## **Scaling Operation Slow or Stuck**
+
+Scaling operations can take anywhere from a few minutes to several hours depending on the service tiers involved.  Certain combinations of source and target tiers will require a copy operation, which will take time proportional to the size of your database.
+* [Scaling a single database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-scale#change-compute-resources-vcores-or-dtus)<br>
+* [Scaling an elastic pool](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool-scale#change-compute-resources-vcores-or-dtus)<br>
+
 ## **Recommended Documents**
 
+* [Scalability overview](https://docs.microsoft.com/azure/sql-database/sql-database-scalability-index?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Resources for scaling a single database](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-scale?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Resources for scaling an elastic pool](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale?WT.mc_id=pid:13491:sid:32630431/)<br>
-* [Scalability overview](https://docs.microsoft.com/azure/sql-database/sql-database-scalability-index?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Scale up/down](https://docs.microsoft.com/azure/sql-database/sql-database-scale-resources?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Scaling out with database sharding](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-scale-introduction?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Read scale-out](https://docs.microsoft.com/azure/sql-database/sql-database-read-scale-out?WT.mc_id=pid:13491:sid:32630431/)<br>
