@@ -16,12 +16,11 @@
 	cloudEnvironments="public"
 />
 
-# ExtensionFailedVssServiceInBadState
+# ExtensionFailedVssServiceInBadState - We have detected that you’re VSS (Volume Shadow copy Service) service is in an inconsistent state.
 
 <!--issueDescription-->
 ## **Snapshot operation failed due to VSS (Volume Shadow Copy) service in bad state**
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have detected that you’re VSS (Volume Shadow copy Service) service is in an inconsistent state.<br/>
-To resolve this issue, restart the VSS and retry the backup operation.
+To resolve ExtensionFailedVssServiceInBadState issue, restart the VSS and retry the backup operation.
