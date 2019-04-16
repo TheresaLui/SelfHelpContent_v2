@@ -29,6 +29,7 @@ To learn more, see [Azure Reservations](https://docs.microsoft.com/azure/billing
 
 You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it.
 Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. However, other US Government subscription types including Pay-As-You-Go and CSP are supported.<br>
+
 1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade)<br >
 2. Select the reservations that you want to refund and click **Exchange** <br>
 3. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total. [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy) <br>
