@@ -47,4 +47,4 @@ If the service and user have the necessary permissions and you're still facing t
 
 ## **Recommended Documents**
 
-* [SQL sysadmin permissions issue](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#fix-sql-sysadmin-permissions).
+* [SQL sysadmin permissions](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#fix-sql-sysadmin-permissions)
