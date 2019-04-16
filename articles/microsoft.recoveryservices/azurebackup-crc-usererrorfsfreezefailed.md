@@ -16,12 +16,12 @@
 	cloudEnvironments="public"
 />
 
-# UserErrorFsFreezeFailed - We identified that your backup operation failed because the VM failed to freeze one or more mount-points to take a file-system consistent snapshot
+# Error UserErrorFsFreezeFailed
 
 <!--issueDescription-->
-## **Failed to freeze one or more mount-points of the VM to take a file-system consistent snapshot**
+We identified that your backup operation failed because the VM failed to freeze one or more mount-points to take a file-system consistent snapshot.
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Documents**
 
-To resolve UserErrorFsFreezeFailed issue refer the [article](https://aka.ms/AB-UserErrorFsFreezeFailed) and then retry your operation.
+To resolve the UserErrorFsFreezeFailed issue, please refer to the [documentation](https://aka.ms/AB-UserErrorFsFreezeFailed) and retry your operation.
