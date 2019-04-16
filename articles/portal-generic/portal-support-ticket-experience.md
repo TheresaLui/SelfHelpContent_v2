@@ -3,7 +3,7 @@
 	description="Azure Portal Support Ticket Experience"
 	service="microsoft.Portal"
 	resource=""
-	authors="scottAzure"
+	authors="sansom"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628241"
