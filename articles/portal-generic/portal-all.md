@@ -16,7 +16,7 @@
 
 # Azure Portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
 ## All Azure Services
 
