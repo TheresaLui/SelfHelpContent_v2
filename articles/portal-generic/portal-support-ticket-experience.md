@@ -4,6 +4,7 @@
 	service="microsoft.Portal"
 	resource=""
 	authors="sansom"
+	ms.author="sansom"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628241"
