@@ -15,10 +15,9 @@
 	productPesIds="13491"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an ongoing scale issue.
+# We ran diagnostics on your resource and found an ongoing scale issue
 
-You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. <br>
-This operation is delayed due to slow copy of data between source and target performance tiers.
+You have initiated a scale operation on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. This operation is delayed due to slow copy of data between source and target performance tiers.
 
 **Root cause investigation**<br>
 The time required to complete an operation to change the performance tier of an Azure SQL Database depends on the mechanism used for the change. In some cases, the change can be done in as little as five minutes without copying data. In other cases, unfortunately, it requires a copy, which may take longer depending on the size of the database. For guidance on how long your scaling operation should take under normal circumstances, use the following links:
