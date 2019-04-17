@@ -70,30 +70,12 @@ schemaVersion="1"
             "required": true
         },
         {
-            "resourceRequired": true,
-                "title": "Log Search Alert",
-                "fileAttachmentHint": "",
-                "formElements": [{
-                    "id": "log_alert_id",
-                    "order": 1,
-                    "controlType": "dropdown",
-                    "displayLabel": "Which alert rule has this problem?",
-                    "watermarkText": "Choose an alert that has the problem",
-                    "dynamicDropdownOptions": {
-                        "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.operationalInsights/workspaces/{resource}/rules?api-version=2015-03-20",
-                        "jTokenPath": "",
-                        "textProperty": "DisplayName",
-                        "valueProperty": "id",
-                        "textPropertyRegex": "[^/]+$"
-                    },
-                    "dropdownOptions": [
-                        {
-                        "value": "Unable to get the list of Alerts",
-                        "text": "Unable to get the list of Alerts"
-                        }
-                    ],
-                "required": true
-            }
+            "id": "alert_rule",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Which alert rule has this problem?",
+            "watermarkText": "Enter alert rule name",
+            "required": false
         },
         {
             "id": "problem_description",
