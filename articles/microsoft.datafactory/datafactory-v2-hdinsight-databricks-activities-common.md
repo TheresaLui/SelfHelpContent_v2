@@ -22,5 +22,5 @@
 
 **FAQ**
 
--[Azure Data Factory FAQ] https://docs.microsoft.com/en-us/azure/data-factory/frequently-asked-questions
+-[Azure Data Factory FAQ] https://docs.microsoft.com/azure/data-factory/frequently-asked-questions
 -[Feature Request] - https://feedback.azure.com/forums/270578-azure-data-factory
