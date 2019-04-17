@@ -2,11 +2,13 @@
          pageTitle="Scoping questions for Azure VM configuration protection failure"
          description="Scoping questions for Azure VM configuration protection failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565494"
          productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="2e8851dd-26d4-4e42-9fe4-e714c9607dc7"
 />
 # Questions Azure VM configuration protection failure
 ---
@@ -29,17 +31,11 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup Job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
+            "required": false
         },
         {
             "id": "select_ErrorMessage",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
             "watermarkText": "Select",
@@ -75,13 +71,17 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 5,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
@@ -104,20 +104,24 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

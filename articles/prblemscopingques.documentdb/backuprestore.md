@@ -7,6 +7,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="b7ff0c6e-0152-4881-9184-a7568ab9789e"
 />
 # CosmosDb Backup and restore Info
 ---

@@ -10,7 +10,8 @@
 	productPesIds=""
 	displayOrder="5"
 	cloudEnvironments="public"
- />
+ 	articleId="422358d3-d0fb-4534-b61c-bf0328f6dc21"
+/>
 
 # My key has been compromised
 

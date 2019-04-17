@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="059159e6-1519-4831-8948-6e12a5e009fa"
 />
 
 # Add or remove load balanced resources

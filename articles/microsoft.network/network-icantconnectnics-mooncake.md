@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="virtualnetworks"
     authors="anavin"
-    authoralias="anavin"
+    ms.author="anavin"
     displayOrder="18"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="8115f445-c9e0-43c4-8e88-ed594d14fae8"
 />
 
 # I can't connect to my secondary NIC

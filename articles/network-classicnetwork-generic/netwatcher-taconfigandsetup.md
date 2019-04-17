@@ -10,6 +10,7 @@ description="trafficanalytics/configandsetup"
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="e3b833f6-76e6-4404-9a32-47671b5d5016"
 />
 
 # trafficanalytics/configandsetup

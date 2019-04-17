@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="14785,16578"
     cloudEnvironments="public"
-    />
+    	articleId="1be43fad-d9a2-4a41-b543-2501f79c324f"
+/>
 
 # Synchronization issue with specific user, group or contact object
 

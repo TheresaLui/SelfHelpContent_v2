@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="1e7343d1-bda8-4872-86ba-622ea3c1f0e7"
 /> 
 
 # Azure Databricks Logging

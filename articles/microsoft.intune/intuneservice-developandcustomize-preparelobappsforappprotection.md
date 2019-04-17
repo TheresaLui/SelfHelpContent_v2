@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="01e2578f-7017-4a9c-b239-4869975e241b"
 />
 
 # Develop and Customize - Prepare LOB apps for app protection

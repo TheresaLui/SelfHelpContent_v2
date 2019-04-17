@@ -1,7 +1,8 @@
 <properties
     pageTitle="Active Directory application provisioning issue"
     description="appsprovisioningdatacollectiondoc"
-    authors="anupnadigm"
+    authors="ashish-009"
+	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570260"
     productPesIds="16575"
@@ -57,7 +58,7 @@
             "visibility": null,
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Which application is the problem related to?",
+            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
             "content": null,
             "watermarkText": "If the problem is with a specific application, enter its display name or object ID here. Or enter 'All apps' or 'Not applicable', if appropriate.",
             "infoBalloonText": null,

@@ -7,6 +7,7 @@
 	productPesIds="15526"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="855c0eee-0800-4b92-a5bf-fff3858ca56a"
 />
 # Cannot connect to another virtual machine in the same VNET
 ---

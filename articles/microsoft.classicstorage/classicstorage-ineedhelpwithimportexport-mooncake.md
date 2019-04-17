@@ -4,13 +4,14 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="2"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds="15629"
     cloudEnvironments="MoonCake"
+	articleId="d17eba63-bd7e-4fd8-bc02-ff1207ebfabb"
 />
 
 # I need help with Import/Export

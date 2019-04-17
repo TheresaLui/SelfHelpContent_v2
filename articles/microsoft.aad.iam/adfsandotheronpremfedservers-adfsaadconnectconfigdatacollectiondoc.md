@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="449f31ee-7fb9-4388-ac36-54e21a6bcac8"
 /> 
 # Problem with ADFS AD connect configeration 
 ---
@@ -31,6 +32,10 @@
                 {
                     "text": "No",
                     "value": "ADFSNotDeployed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -57,6 +62,10 @@
                 {
                     "text": "Server 2012 R2",
                     "value": "version2012R2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -83,6 +92,10 @@
                 {
                     "text": "No",
                     "value": "singleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

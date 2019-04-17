@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="6"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="df2a3f59-174c-4161-a8e7-2db154bb7268"
 />
 
 # I can't create an ExpressRoute circuit

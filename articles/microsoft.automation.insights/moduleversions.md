@@ -5,6 +5,7 @@ infoBubbleText="See list of affected modules below"
 service="microsoft.automation"
 resource="runbooks"
 authors="adoyle"
+ms.author="adoyle"
 displayOrder=""
 articleId="MoudleUpdate-48a86414-6e14-4785-8beb-33269666cc3e"
 diagnosticScenario="AAModuleUpdateDetection"
@@ -19,11 +20,11 @@ cloudEnvironments="public"
 ## Automation Modules that are older or out of date can cause unforeseen issues
 
 We have detected that there are older versions of core Azure modules than what is currently available. Using older versions of Azure modules can cause unforeseen issues when running jobs. The following is a list of the modules we have detected in your Automation Account that are not the latest versions:
-[Modules Out of date]
+<!--$Modules Out of date-->[Modules Out of date]<!--/$Modules Out of date-->
 
 ## Resolution
 
-In your Automation Account> click Modules> click Update Azure modules.
+In your **"Automation Account"**> click **"Modules"**> click **"Update Azure modules"**
 
 The update takes roughly 15 minutes to complete. Once it has completed, attempt to re-run the runbook that may have been failing previously. To learn more about updating your modules, see Update Azure modules in Azure Automation.
 

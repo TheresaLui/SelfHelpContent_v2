@@ -4,19 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32511162,32602158,32411875,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
+	supportTopicIds="32511162,32411875,32628264,32628261,32628277,32628275,32628268,32628270"
 	resourceTags=""
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public"
+	articleId="144af4cf-13a4-4575-8832-06b7c53c433f"
 />
+
 # My VM is slow
 
 4 out of 5 customers resolved their performance issue using the below steps.<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Scalability and performance targets for VM disks on Linux](https://docs.microsoft.com/azure/virtual-machines/linux/disk-scalability-targets)<br>
 * [High-performance Premium Storage and managed disks for VM](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage)<br>

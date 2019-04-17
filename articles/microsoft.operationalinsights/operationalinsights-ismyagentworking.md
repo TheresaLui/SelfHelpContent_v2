@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="4d7da022-535a-415e-be88-60d709895e48"
 />
 
 # Agent Health

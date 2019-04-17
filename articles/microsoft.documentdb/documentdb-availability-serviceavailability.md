@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="ea4312bc-e5a5-4310-b3e7-607005f81d5d"
 />
 # Cosmos DB returns service unavailable
 

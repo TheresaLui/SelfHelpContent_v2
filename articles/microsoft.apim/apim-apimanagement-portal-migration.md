@@ -9,6 +9,7 @@
     resourceTags=""
     productPesIds="15551"
     cloudEnvironments="public"
+	articleId="60d0764e-0ef7-4ad4-a93e-04b059fed2e8"
 />
 
 # Migration across subscription

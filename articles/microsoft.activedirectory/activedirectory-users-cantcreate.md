@@ -3,13 +3,14 @@
     description="I can't create a new user in my Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authorAlias="Jeffsta-MSFT"
+    ms.author="Jeffsta-MSFT"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32045780"
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="e8088803-9c36-4f17-9ff5-3e8ba3e20813"
+/>
 
 # I can't create a new user in my Azure AD directory
 

@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="3"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="2a8bc337-8821-4d1b-be22-c48ac3601082"
 />
 
 # I can't connect to services deployed in my VNet

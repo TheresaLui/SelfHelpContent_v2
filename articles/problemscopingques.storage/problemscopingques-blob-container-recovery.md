@@ -2,11 +2,13 @@
 	pageTitle="Storage Blob Container recovery"
 	description="Storage Blob Container recovery scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602730"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
 />
 # Recover deleted Blob Container
 ---
@@ -33,15 +35,15 @@
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "Approximate time the Container was deleted",
-            "required": false
+            "displayLabel": "Approximate local time the Container was deleted",
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

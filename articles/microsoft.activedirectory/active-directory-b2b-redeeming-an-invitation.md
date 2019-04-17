@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16580"
     cloudEnvironments="public"
-    />
+    	articleId="1f52c6d5-cfce-4d14-8b87-c1023bac3bea"
+/>
 
 # Problem redeeming an invitation
 

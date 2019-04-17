@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public"
-    />
+    	articleId="a0310cd0-bff8-422c-bc62-6a48e43b43dc"
+/>
 
 # Problems verifying a domain name because verified in another tenant
 

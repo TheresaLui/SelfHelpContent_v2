@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15804"
 	cloudEnvironments="public"
+	articleId="76195459-3f6a-4f31-8d48-e8bcbd930c01"
 />
 
 # import and export dns zones

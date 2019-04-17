@@ -2,11 +2,13 @@
          pageTitle="Scoping questions for Azure VM configuration protection failure"
          description="Scoping questions for Azure VM configuration protection failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553285"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
 />
 # Questions Azure VM configuration protection failure 
 ---
@@ -32,14 +34,8 @@
             "required": true
         },
         {
-            "id": "learn_more_text",
-            "order": 3,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-        },
-        {
             "id": "Select_ErrorMessage",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
             "watermarkText": "Choose an option",
@@ -75,13 +71,17 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
-                }
+                },
+		{
+		    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+		}
             ],
             "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
-            "order": 5,
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have completed:",
             "dropdownOptions": [
@@ -104,20 +104,24 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
-                }
+                },
+		{
+		    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+		}
             ],
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 6,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
             "required": false
         },
         {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
             "id": "problem_description",
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

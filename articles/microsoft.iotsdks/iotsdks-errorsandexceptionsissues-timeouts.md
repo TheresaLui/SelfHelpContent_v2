@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="90e7a37d-ec9c-49f7-b636-a34ff3f6df41"
 />
 
 # Timeouts issues

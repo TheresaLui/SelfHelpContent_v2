@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="44688b68-9c7a-48f6-80e8-684c5237f1b0"
 /> 
 # Problem with Domains Name configured on another tenant 
 ---
@@ -82,6 +83,10 @@
                 {
                     "text": "Yes we have an additional Azure AD or use Office 365",
                     "value": "ContainsMultiple"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

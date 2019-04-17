@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15400"
 	cloudEnvironments="public"
+	articleId="261dd95e-3d2f-4d80-902d-8a8e92f5c7d3"
 />
 
 # endpoint monitoring

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="d6108392-20f6-434b-bbad-6022ace99cc4"
 />
 
 # How do I define ACLs on Databases?

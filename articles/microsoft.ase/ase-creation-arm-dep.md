@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="7ca4d17c-f86c-4ee9-acc0-e4803279b2e5"
 />
 
 # Creation Issues\ARM  Deployment

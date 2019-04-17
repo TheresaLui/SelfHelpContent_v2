@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="0c386ab7-d938-4f37-b57e-e72ba1116863"
 />
 
 # Configure Devices - Configure Windows 10 edition upgrade settings

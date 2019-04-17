@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VNET Peering Troubleshooting"
-	description="VNET Peering Troubleshooting"
+	pageTitle="Cannot Connect to a VM in a peered VNet"
+	description="Cannot Connect to a VM in a peered VNet"
 	authors="KristinaNeyens"
 	selfHelpType="problemScopingQuestions"
 	articleid="cannotconnectVMinapeeredVNET"
@@ -9,7 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VNET Peering Troubleshooting
+# Cannot Connect to a VM in a peered VNet
 ---
 {
     "resourceRequired": true,
@@ -27,12 +27,20 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
                     "value": "Unable to get the list of VM's",
                     "text": "Unable to get the list of VM's"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

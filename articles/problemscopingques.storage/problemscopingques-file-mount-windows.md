@@ -7,6 +7,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="bf5acf40-b1c1-4cd9-b96d-023163fbf5db"
 />
 # Storage File Share mounting issues - Windows
 ---
@@ -33,6 +34,10 @@
                 {
                     "value": "on_premises",
                     "text": "Client is outside Azure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -63,6 +68,10 @@
                 {
                     "value": "old_windows",
                     "text": "Below Windows 7 or Windows Server 2008 R2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

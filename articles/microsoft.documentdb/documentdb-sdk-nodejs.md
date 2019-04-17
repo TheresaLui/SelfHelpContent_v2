@@ -4,13 +4,14 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaks"
-	authoralias="balaks"
+	ms.author="balaks"
 	displayOrder="305"
 	selfHelpType="resource"
 	supportTopicIds="32597534"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="535d0369-58e8-4003-9339-fc27fd308a77"
 />
 
 # Introduction to Azure Cosmos DB Node.js SDK

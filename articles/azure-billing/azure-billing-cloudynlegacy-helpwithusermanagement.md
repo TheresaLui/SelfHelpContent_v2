@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="174d5df1-d595-4db0-af84-3620c24dfa93"
 />
 
 # Help with User Management

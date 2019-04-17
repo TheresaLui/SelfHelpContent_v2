@@ -7,6 +7,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
 />
 # Questions Azure VM Restore failure for Windows 
 ---
@@ -35,7 +36,7 @@
             "id": "learn_more_text",
             "order": 3,
             "controlType": "infoblock",
-            "content": " Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
+            "content": " Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- Failed -- Activity ID."
         },
         {
             "id": "Restoration_Type",
@@ -55,6 +56,10 @@
                 {
                     "Value": "Restore encrypted VMs",
                     "Text": "Restore encrypted VMs"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

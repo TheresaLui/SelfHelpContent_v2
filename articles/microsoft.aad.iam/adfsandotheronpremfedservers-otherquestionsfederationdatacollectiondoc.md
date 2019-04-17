@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="33c4287b-c5ad-4586-a033-a5e0826a8208"
 /> 
 # Other problems with ADFS 
 ---

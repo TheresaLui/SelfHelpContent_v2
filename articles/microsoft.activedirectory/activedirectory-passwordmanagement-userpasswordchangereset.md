@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
-    />
+    	articleId="1c77ea81-98dd-49dc-85be-76cbd96633a6"
+/>
 # My user is having a problem changing or resetting their password
 
 ## **Recommended steps**
@@ -24,7 +25,7 @@ Users can follow the steps in this article to change their passwords: [How to ch
 
 **My user is getting an error when changing or resetting their pasword**
 
-This link will provide information on common problems that can arise when a user is trying to reset their password: [Common problems and their solutions](https://docs.microsoft.com/azure/active-directory/user-help/user-help-reset-password#common-problems-and-their
+This link will provide information on common problems that can arise when a user is trying to reset their password: [Common problems and their solutions](https://docs.microsoft.com/azure/active-directory/user-help/user-help-reset-password#common-problems-and-their-solutions)
 
 **I'm looking for a password change or reset feature that isn't available**
 

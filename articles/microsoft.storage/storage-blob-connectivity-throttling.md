@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="79e7465d-f9b4-4e70-a715-59de1a39b376"
 />
 
 # How to troubleshoot blob throttling error

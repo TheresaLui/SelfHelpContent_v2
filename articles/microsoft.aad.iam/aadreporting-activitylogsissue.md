@@ -40,6 +40,10 @@
                 {
                     "text": "Azure AD Power BI Content Pack",
                     "value": "PBI"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -113,6 +117,10 @@
                 {
                     "text": "Audit",
                     "value": "audit"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
