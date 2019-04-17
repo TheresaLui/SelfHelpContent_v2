@@ -50,7 +50,7 @@
 * *.aimon.applicationinsights.io
 * *.azure.com
 * *.azuredatalakestore.net
-* *.azureedge.net*
+* *.azureedge.net
 * *.exp.azure.com
 * *.ext.azure.com
 * *.gfx.ms
