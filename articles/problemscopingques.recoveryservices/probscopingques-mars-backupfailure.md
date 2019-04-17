@@ -98,8 +98,8 @@
                     "text": "Unsupported drives are excluded from backup"
                 },
                 {
-                    "value": "Unsupported files are excluded from backup",
-                    "text": "Unsupported files are excluded from backup"
+                    "value": "Files with unsupported attributes are excluded from backup",
+                    "text": "Files with unsupported attributes are excluded from backup"
                 },
                 {
                     "value": "dont_know_answer",
