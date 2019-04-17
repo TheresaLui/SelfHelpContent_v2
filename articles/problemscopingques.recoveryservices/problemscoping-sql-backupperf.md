@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": true
+    "subscriptionRequired": true,
     "title": "SQL database backup performance",
     "fileAttachmentHint": "",
     "formElements": [
