@@ -18,7 +18,7 @@
 
 This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
 
-##**Recommended Steps**
+## **Recommended Steps**
 
 ### **Machine isn't onboarding after waiting 15 minutes**
 
