@@ -32,6 +32,7 @@
 * [Load test with Azure portal](https://docs.microsoft.com/azure/devops/test/load-test/app-service-web-app-performance-test?view=vsts)
 
 ### List of Azure portal URLs for Proxy Bypass
+
 * *.aadcdn.microsoftonline-p.com
 * *.aimon.applicationinsights.io
 * *.azure.com
