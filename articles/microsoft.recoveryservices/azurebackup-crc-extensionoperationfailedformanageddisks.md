@@ -20,6 +20,6 @@
 ## We have identified that your backup operation was not completed because the VMSnapshot extension for managed disks failed
 <!--/issueDescription-->
 
-## **Recommended Document**
+## **Recommended Documents**
 
-To resolve the ExtensionOperationFailedForManagedDisks issue, please refer to the [troubleshooting guide]( https://aka.ms/extension-operation-failed) and then retry the operation
+To resolve the ExtensionOperationFailedForManagedDisks issue, please refer to the [troubleshooting guide](https://aka.ms/extension-operation-failed), then retry the operation.
