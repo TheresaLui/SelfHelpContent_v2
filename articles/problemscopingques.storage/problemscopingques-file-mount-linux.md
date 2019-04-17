@@ -123,7 +123,7 @@
                     "text": "OpenSUSE 42.3 or above"
                 },
                 {
-                    "value": "other",
+                    "value": "dont_know_answer",
                     "text": "Other - provide Linux kernel version below"
                 }
             ],
