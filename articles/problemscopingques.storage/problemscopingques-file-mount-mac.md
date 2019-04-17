@@ -18,6 +18,15 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
+            "id": "file_share_or_path",
+            "order": 0,
+            "controlType": "textbox",
+            "displayLabel": "File Share or File path",
+            "watermarkText": "'FileShare' or 'FileShare/FileName'",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
             "id": "os_version",
             "order": 1,
             "controlType": "dropdown",
