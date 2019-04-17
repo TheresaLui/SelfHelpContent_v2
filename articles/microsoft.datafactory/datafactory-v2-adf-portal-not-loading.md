@@ -4,14 +4,14 @@
 	service=""
 	resource=""
 	authors="genlin"
-	authorAlias="jaserano"
+	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629437"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
-	articleId="2aae3671-bww5-4bop-erd7-3623ebc13d45"
+	articleId="2aae3671-bww5-0099-erd7-3623ebc13d45"
 />
 
 # V2 - Author and Develop - ADF Portal not Loading

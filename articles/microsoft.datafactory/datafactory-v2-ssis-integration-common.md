@@ -4,7 +4,7 @@
 	service=""
 	resource=""
 	authors="genlin"
-	authorAlias="jaserano"
+	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
     supportTopicIds="32629430,32629533,32629548,32629545,32629486,32629522"

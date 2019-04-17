@@ -4,12 +4,13 @@
 	service=""
 	resource=""
 	authors="genlin"
-	authorAlias="jaserano"
+	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32629424,32629511,32629519"
 	resourceTags=""
 	productPesIds="15613"
+	cloudEnvironments="public"
 	articleId="2c1079e1-2446-00f1-a908-6dc90fb0cbfe"
 />
 
