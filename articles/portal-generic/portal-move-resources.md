@@ -36,28 +36,27 @@
 
 ### List of Azure portal URLs for Proxy Bypass
 
- | Service            		| Domain                           |
- | -------------------		| ----                             |
- | Application Insights  | *.aimon.applicationinsights.io  | 
- | Azure Portal  | *.gfx.ms  | 
- | Azure Portal  | *.azure.com  | 
- | Azure Portal  | *.exp.azure.com  | 
- | Azure Portal  | *.portal.azure.com  | 
- | CDN  | *.azureedge.net  | 
- | CDN  | *.wpc.azureedge.net  | 
- | Datalake  | *.azuredatalakestore.net  | 
- | Portal Extension  | *.ext.azure.com  | 
- | Hosting Service  | *.hosting.portal.azure.net  | 
- | Marketplace  | *.marketplaceapi.microsoft.com  | 
- | Microsoft  | *.vortex.data.microsoft.com  | 
- | Microsoft Login  | *.aadcdn.microsoftonline-p.com  | 
- | Microsoft Login  | *.microsoftonline.com  | 
- | Microsoft Login  | *.msauth.net  | 
- | Microsoft Login  | *.msftauth.net  | 
- | Microsoft Login  | *.sts.microsoft.com  | 
- | VisualStudio  | *.portalext.visualstudio.com  | 
- | VisualStudio  | *.vscommerce.visualstudio.com  | 
- | VisualStudio  | *.vssps.visualstudio.com  | 
+* *.aadcdn.microsoftonline-p.com
+* *.aimon.applicationinsights.io
+* *.azure.com
+* *.azuredatalakestore.net
+* *.azureedge.net
+* *.exp.azure.com
+* *.ext.azure.com
+* *.gfx.ms
+* *.account.microsoft.com
+* *.hosting.portal.azure.net
+* *.marketplaceapi.microsoft.com
+* *.microsoftonline.com
+* *.msauth.net
+* *.msftauth.net
+* *.portal.azure.com
+* *.portalext.visualstudio.com
+* *.sts.microsoft.com
+* *.vortex.data.microsoft.com
+* *.vscommerce.visualstudio.com
+* *.vssps.visualstudio.com
+* *.wpc.azureedge.net
  
 ### Non-Microsoft Services
 
