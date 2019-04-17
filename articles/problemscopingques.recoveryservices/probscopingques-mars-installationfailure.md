@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for MARS Installation or registration failure"
          description="Scoping questions for MARS Installation or registration failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553287"
          productPesIds="15207"
@@ -22,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -54,6 +55,10 @@
                 {
                     "value": "Re-registering",
                     "text": "Re-registering"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -106,7 +111,7 @@
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

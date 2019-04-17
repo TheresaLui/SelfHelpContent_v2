@@ -16,10 +16,7 @@
 
 # Issue with Azure Monitoring alerts 
 
-## **Recommended Steps**
-
-* Review your [Azure Monitoring Alert rules](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-response) for invalid entries
-
 ## **Recommended Documents**
 
-* [Azure Monitoring Alerts Overview](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)
+- [Azure Monitoring Alerts Overview](https://aka.ms/Azure-MonitorAlerts-Overview)<br>
+- [Create alerts and configure email notification using Azure Monitor Alerts](https://aka.ms/Azure-MonitorAlerts-tutorial)

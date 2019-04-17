@@ -33,6 +33,10 @@
                 {
                     "value": "SAP HANA Large Instance",
                     "text": "SAP HANA Large Instance"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

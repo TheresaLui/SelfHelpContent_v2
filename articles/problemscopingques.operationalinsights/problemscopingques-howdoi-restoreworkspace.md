@@ -33,24 +33,16 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "workspace_name",
+            "id": "workspace_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the workspace name to recover?",
-            "watermarkText": "Enter the workspace name",
+            "displayLabel": "What is the workspace Id of the deleted workspace?",
+            "watermarkText": "e.g. 12345678-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
         {
-            "id": "workspace_id",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What is the workspace ID to recover?",
-            "watermarkText": "e.g. 12345678-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
-        },
-        {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
