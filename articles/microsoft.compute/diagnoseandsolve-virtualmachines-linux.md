@@ -210,7 +210,6 @@ cloudEnvironments="public"
           "symptomId": "DeploymentFailuresAzurePortalInsight"
         }
       ]
-
     },
     {
       "title": "Unexpected VM Restart",
