@@ -13,6 +13,7 @@
 # Storage File connectivity or performance issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Storage File connectivity or performance scoping question",
     "fileAttachmentHint": "",
@@ -44,7 +45,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]

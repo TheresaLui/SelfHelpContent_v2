@@ -13,7 +13,8 @@
 # Storage File Share mounting issues - Linux
 ---
 {
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Storage File Share mounting issues - Linux",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -143,7 +144,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

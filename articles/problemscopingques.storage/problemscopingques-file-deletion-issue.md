@@ -13,6 +13,7 @@
 # Storage File share or path scoping question
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Storage File share or path scoping question",
     "fileAttachmentHint": "",
@@ -44,7 +45,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]

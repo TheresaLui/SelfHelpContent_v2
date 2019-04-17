@@ -13,7 +13,8 @@
 # Storage File Share mounting issues - Windows
 ---
 {
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Storage File Share mounting issues - Windows",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -98,7 +99,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

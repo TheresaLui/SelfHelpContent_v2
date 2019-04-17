@@ -13,7 +13,8 @@
 # Storage File Share mounting issues - macOS
 ---
 {
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Storage File Share mounting issues - macOS",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -59,7 +60,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {
