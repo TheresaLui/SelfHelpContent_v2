@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="luleon"
-    authoralias="luleon"
+    ms.author="luleon"
     displayOrder="1"
     articleId="Application_SignIn_ADSTS_Localhost"
 	diagnosticScenario="EnterpriseApps"
