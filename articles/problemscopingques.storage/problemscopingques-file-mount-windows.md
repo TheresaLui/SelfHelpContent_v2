@@ -16,6 +16,11 @@
     "resourceRequired": false,
     "title": "Storage File Share mounting issues - Windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "What caused my Azure Files mount issue on Windows?",
+    	"description": "Our Azure Files mount troubleshooter can help you troubleshoot and solve your problem.",
+    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+	},
     "formElements": [
         {
             "id": "file_share_or_path",
@@ -103,7 +108,6 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ],
-    "diagnosticCard": "What caused my Azure Files mount issue on Windows?"
+    ]
 }
 ---

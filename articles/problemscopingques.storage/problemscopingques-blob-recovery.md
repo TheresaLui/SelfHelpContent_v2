@@ -16,6 +16,11 @@
     "resourceRequired": false,
     "title": "Storage Blob recovery scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "Is it possible to recover my accidently deleted blob?",
+    	"description": "Our blob recovery troubleshooter can help you troubleshoot and solve your problem.",
+    	"insightNotAvailableText": "Our troubleshooter could not find your deleted blob. You can enable [soft delete for Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) to ensure that accidentally deleted blobs will be recoverable in the future. ."
+	},
     "formElements": [
         {
             "id": "problem_start_time",
@@ -42,7 +47,6 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ],
-    "diagnosticCard": "Is it possible to recover my accidently deleted blob?"
+    ]
 }
 ---

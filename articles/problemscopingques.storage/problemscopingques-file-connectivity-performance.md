@@ -16,6 +16,11 @@
     "resourceRequired": true,
     "title": "Storage File connectivity or performance scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "What caused my Azure Files connectivity issue?",
+    	"description": "Our Azure Files connectivity troubleshooter can help you troubleshoot and solve your problem.",
+    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+	},
     "formElements": [
         {
             "id": "problem_start_time",
@@ -42,7 +47,6 @@
             "required": false,
             "useAsAdditionalDetails": true
         }
-    ],
-    "diagnosticCard": "What caused my Azure Files connectivity issue?"
+    ]
 }
 ---
