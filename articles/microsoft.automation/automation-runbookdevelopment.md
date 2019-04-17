@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599859,32599862,32599904,32599905"
+    supportTopicIds="32599859"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
@@ -44,6 +44,9 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 * RunAs accounts may not have the same permissions against Azure resources as your current account. Ensure your RunAs account [has permissions to access any resources](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) used in your script. 
 
+**Errors about "TypeData"**
+
+* If you are recieving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details. ](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks)
 
 ## **Recommended Documents**
 
