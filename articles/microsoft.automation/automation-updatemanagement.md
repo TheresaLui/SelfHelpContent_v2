@@ -13,30 +13,18 @@
     cloudEnvironments="public"
     articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
 />
-<<<<<<< HEAD
-#Azure Automation - Update Management
-=======
 
 # Resolve Update Management issues with Azure Automation
 
->>>>>>> 0771cff34c6f02fe33214b94e490242f15b11218
 This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
 
 ##**Recommended Steps**
 
-<<<<<<< HEAD
-###**Machine isn't onboarding after waiting 15 minutes**
-=======
 ### **Machine isn't onboarding after waiting 15 minutes**
->>>>>>> 0771cff34c6f02fe33214b94e490242f15b11218
 
 * Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
-<<<<<<< HEAD
-###**Update Agent Readiness doesn't show "ready"**
-=======
 ### **Update Agent Readiness doesn't show "ready"**
->>>>>>> 0771cff34c6f02fe33214b94e490242f15b11218
 
 * For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
 * For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
@@ -47,11 +35,7 @@ This article will help with several kinds of issues relating to onboarding and u
 * This error occurs when a machine is already enrolled into Update Management
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
 
-<<<<<<< HEAD
-###**Machine shows as "not assessed"**
-=======
 ### **Machine shows as "not assessed"**
->>>>>>> 0771cff34c6f02fe33214b94e490242f15b11218
 
 Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
 

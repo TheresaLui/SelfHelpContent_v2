@@ -1,0 +1,68 @@
+<properties
+	articleId="problemscopingques-hybridworker.md"
+	pageTitle="Azure Automation - Hybrid Worker"
+	description="Azure Automation - Hybrid Worker"
+	authors="zjalexander"
+	ms.author="zachal"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32599857,32599920,32599939,32599940"
+	productPesIds="15607"
+	cloudEnvironments="public"
+	schemaVersion="1"
+/>
+# Hybrid Worker
+---
+{
+    "resourceRequired": true,
+    "title": "Hybrid Worker",
+    "fileAttachmentHint": "",
+    "formElements":
+    [
+        {
+			"id": "NodeName",
+			"order": 1,
+			"controlType": "textbox",
+			"displayLabel": "Please provide the computer name of the hybrid worker",
+			"required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "previously successful",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Has this runbook successfully run in Azure Automation before?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes, this runbook has successfully run in Azure Automation before"
+                },
+                {
+                    "value": "No",
+                    "text": "No, this runbook has never successfully run in Azure Automation"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Paste in the exact text of any errors that occurred."
+                }
+            ]
+        },
+    ]
+}
+---
