@@ -53,7 +53,7 @@
 			"id": "restore_Type1",
 			"order": 4,
 			"controlType": "dropdown",
-			"displayLabel": "Which type of performance issue are you facing",
+			"displayLabel": "Which type of performance issue are you facing?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Slow restore during Logs (Point in Time) restore operation",
