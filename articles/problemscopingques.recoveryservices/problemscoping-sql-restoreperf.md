@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for SQL restore performance"
          description="Scoping questions for SQL restore performance"
          authors="srinathvasireddy"
-		 ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605796"
          productPesIds="15207"
@@ -13,7 +13,7 @@
 # Questions SQL database restore performance
 ---
 {
-   "resourceRequired": true,
+   	 "resourceRequired": true,
 	 "subscriptionRequired": true,
 	 "title": "SQL database restore performance",
 	 "fileAttachmentHint": "",
@@ -74,15 +74,14 @@
 			"displayLabel": "Enter the long running job activity ID:",
 			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 			"required": false
-			
 		},{
-      "id": "job_Running_Time",
-      "order": 6,
-      "controlType": "textbox",
-      "displayLabel": "Since how long the job is running?",
-      "watermarkText": "Enter time in hours ex. 18hrs",
-      "required": false
-        },{
+		      "id": "job_Running_Time",
+		      "order": 6,
+		      "controlType": "textbox",
+		      "displayLabel": "Since how long the job is running?",
+		      "watermarkText": "Enter time in hours ex. 18hrs",
+		      "required": false
+        	},{
 			"id": "problem_start_time",
 			"order": 7,
 			"controlType": "datetimepicker",
