@@ -1,20 +1,20 @@
 <properties
-	pageTitle="V2 - Azure-SSIS integration Maintenance, Scheduling, Monitoring Common Solutions"
-	description="V2 - Azure-SSIS integration Maintenance, Scheduling, Monitoring Common Solutions
-	service=""
-	resource=""
-	authors="genlin"
+    pageTitle="V2 - Azure-SSIS integration Maintenance, Scheduling, Monitoring Common Solutions"
+    description="V2 - Azure-SSIS integration Maintenance, Scheduling, Monitoring Common Solutions"
+    service=""
+    resource=""
+    authors="genlin"
 	ms.author="jaserano"
-	displayOrder=""
-	selfHelpType="generic"
+    displayOrder=""
+    selfHelpType="generic"
     supportTopicIds="32629549"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public"
-	articleId="2c1079e1-2446-fi09-a908-6dc90fb0cbfe"
+    resourceTags=""
+    productPesIds="15613"
+    cloudEnvironments="public"
+    articleId="2c1079e1-1002-4df4-p901-6dc90fb0cbfe"
 />
 
-# V2 -  Azure-SSIS integration Maintenance, Scheduling, Monitoring Common Solutions
+# V2 - Azure-SSIS integration Maintenance, Scheduling, Monitoring
 
 ## **Recommended Documents**
 
