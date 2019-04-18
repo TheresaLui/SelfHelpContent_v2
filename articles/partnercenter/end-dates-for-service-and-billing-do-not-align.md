@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)
+* **[Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)**

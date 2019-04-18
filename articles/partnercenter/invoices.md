@@ -20,4 +20,6 @@
 
 ## **Recommended Documents**
 
-* [Read your bill](https://docs.microsoft.com/partner-center/read-your-bill)
+* **[Read your bill](https://docs.microsoft.com/partner-center/read-your-bill)**
+
+* **[Use the reconciliation files](https://docs.microsoft.com/partner-center/use-the-reconciliation-files)**

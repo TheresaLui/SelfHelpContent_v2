@@ -20,5 +20,6 @@
 
 ## **Recommended Documents**
 
-* [Assign or revoke licenses to multiple users](https://docs.microsoft.com/partner-center/bulk-license-provisioning-for-multiple-users)
-* [Add licenses or services to an existing subscription](https://docs.microsoft.com/partner-center/add-licenses-or-services-to-an-existing-subscription)
+* **[Assign or revoke licenses to multiple users](https://docs.microsoft.com/partner-center/bulk-license-provisioning-for-multiple-users)**
+
+* **[Add licenses or services to an existing subscription](https://docs.microsoft.com/partner-center/add-licenses-or-services-to-an-existing-subscription)**

@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Sell software subscriptions through CSP](https://docs.microsoft.com/partner-center/csp-software-subscriptions)
+* **[Sell software subscriptions through CSP](https://docs.microsoft.com/partner-center/csp-software-subscriptions)**

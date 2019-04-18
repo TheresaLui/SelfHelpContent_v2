@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Choose whether to automatically renew an Azure marketplace subscription](https://docs.microsoft.com/partner-center/create-a-new-subscription#choose-whether-to-automatically-renew-an-azure-marketplace-subscription)
+* **[Choose whether to automatically renew an Azure marketplace subscription](https://docs.microsoft.com/partner-center/create-a-new-subscription#choose-whether-to-automatically-renew-an-azure-marketplace-subscription)**

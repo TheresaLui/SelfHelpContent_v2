@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Create, suspend, or cancel customer subscriptions](https://docs.microsoft.com/partner-center/create-a-new-subscription)
+* **[Create, suspend, or cancel customer subscriptions](https://docs.microsoft.com/partner-center/create-a-new-subscription)**

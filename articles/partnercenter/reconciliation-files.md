@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Use the reconciliation files](https://docs.microsoft.com/partner-center/use-the-reconciliation-files)
+* **[Use the reconciliation files](https://docs.microsoft.com/partner-center/use-the-reconciliation-files)**

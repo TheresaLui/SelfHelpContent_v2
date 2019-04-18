@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Understand your incentive payouts](https://docs.microsoft.com/partner-center/incentives-payouts)
-* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
+* **[Understand your incentive payouts](https://docs.microsoft.com/partner-center/incentives-payouts)**
+* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**

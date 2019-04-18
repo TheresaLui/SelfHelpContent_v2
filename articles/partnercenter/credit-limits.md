@@ -10,7 +10,7 @@
 	articleId="partnercenter_credit_limits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635661,32635662"
+	supportTopicIds="32635661"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
@@ -20,4 +20,6 @@
 
 ## **Recommended Documents**
 
-* [Cloud Solution Provider (CSP) account credit limits](https://docs.microsoft.com/partner-center/account-credit-limit)
+* **[Cloud Solution Provider (CSP) account credit limits](https://docs.microsoft.com/partner-center/account-credit-limit)**
+
+* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**

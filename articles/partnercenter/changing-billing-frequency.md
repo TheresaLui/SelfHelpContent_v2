@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Change billing frequency](https://docs.microsoft.com/partner-center/billing-basics#to-change-the-billing-frequency-of-an-online-service)
+* **[Change billing frequency](https://docs.microsoft.com/partner-center/billing-basics#to-change-the-billing-frequency-of-an-online-service)**

@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)
-* [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
+* **[Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)**
+* **[Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)**

@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Tax and tax exemptions](https://docs.microsoft.com/partner-center/tax-and-tax-exemptions)
+* **[Tax and tax exemptions](https://docs.microsoft.com/partner-center/tax-and-tax-exemptions)**

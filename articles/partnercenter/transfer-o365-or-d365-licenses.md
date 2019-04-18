@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Multi-channel support](https://docs.microsoft.com/partner-center/work-with-other-partners#multi-channel-support)
-* [Remove a reseller relationship](https://docs.microsoft.com/partner-center/remove-a-relationship)
+* **[Multi-channel support](https://docs.microsoft.com/partner-center/work-with-other-partners#multi-channel-support)**
+* **[Remove a reseller relationship](https://docs.microsoft.com/partner-center/remove-a-relationship)**

@@ -20,5 +20,6 @@
 
 ## **Recommended Documents**
 
-* [Customize the catalog](https://docs.microsoft.com/partner-center/customize-the-catalog)
-* [Pricing and offers](https://docs.microsoft.com/partner-center/pricing-and-offers)
+* **[Customize the catalog](https://docs.microsoft.com/partner-center/customize-the-catalog)**
+
+* **[Pricing and offers](https://docs.microsoft.com/partner-center/pricing-and-offers)**

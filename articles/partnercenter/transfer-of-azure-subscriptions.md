@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Transfer of Azure subscriptions](https://docs.microsoft.com/partner-center/switch-azure-subscriptions-to-a-different-partner)
+* **[Transfer of Azure subscriptions](https://docs.microsoft.com/partner-center/switch-azure-subscriptions-to-a-different-partner)**

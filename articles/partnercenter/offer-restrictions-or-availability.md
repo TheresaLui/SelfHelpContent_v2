@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)
+* **[Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)**

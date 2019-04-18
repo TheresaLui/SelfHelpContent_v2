@@ -20,5 +20,5 @@
 
 ## **Recommended Documents**
 
-* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
-* [Read your bill](https://docs.microsoft.com/partner-center/read-your-bill)
+* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**
+* **[Read your bill](https://docs.microsoft.com/partner-center/read-your-bill)**

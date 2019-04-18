@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Update your partner profile including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)
+* **[Update your partner profile including your billing info](https://docs.microsoft.com/partner-center/update-your-partner-profile)**

@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Partner Center - Sell Microsoft Azure reservations](https://docs.microsoft.com/partner-center/azure-reservations)
+* **[Partner Center - Sell Microsoft Azure reservations](https://docs.microsoft.com/partner-center/azure-reservations)**

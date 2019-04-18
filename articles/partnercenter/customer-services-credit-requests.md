@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Customer services credit requests](https://docs.microsoft.com/partner-center/provide-billing-support)
+* **[Customer services credit requests](https://docs.microsoft.com/partner-center/provide-billing-support)**

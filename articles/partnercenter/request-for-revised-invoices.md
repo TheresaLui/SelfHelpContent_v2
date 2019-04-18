@@ -20,4 +20,4 @@
 
 ## **Recommended Documents**
 
-* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
+* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**
