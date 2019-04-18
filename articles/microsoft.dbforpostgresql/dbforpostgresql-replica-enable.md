@@ -7,7 +7,7 @@
     ms.author="raagyema"
 	displayOrder="40"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32633543"
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
