@@ -52,7 +52,7 @@ Users should add a VAT ID to their account during the initial purchase and accou
   3. Select the **Edit** details button, and then update the Profile information
   4. Update the necessary information and select **Complete**
     	
-Note:  If there is no tax information added to your profile, it wont be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
+Note:  If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
 
 ### **Add/Update Billing Information**
 
