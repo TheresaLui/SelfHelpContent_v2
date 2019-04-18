@@ -15,15 +15,13 @@
 	cloudEnvironments="public"
 />
 
-# DevOps Service Status
+# DevOps Service Status and Agent
 
 ## **Recommended Steps**
+Want a quicker answer? For quick answers to common questions and issues, try the Azure DevOps Virtual [Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 
-Before creating a case, please check the[Azure DevOps Service Status](https://status.dev.azure.com)dashboard to determine if there are any issues you may be impacted by
-
-For quicker answers to common questions and issues, try the[Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+Check the Azure DevOps Service Status [Dashboard](https://status.dev.azure.com)
 
 ## **Recommended Documents**
-
 * [Azure DevOps Service Status](https://status.dev.azure.com)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)

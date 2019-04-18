@@ -18,10 +18,8 @@
 # DevOps Services Region Move
 
 ## **Recommended Steps**
-
-* Region Moves should now be requested through our [Azure DevOps Virtual Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
+* Region Moves should now be requested through the Azure DevOps Virtual Support [Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
 
 ## **Recommended Documents**
-
 * [Azure DevOps Virtual Support Agent](https://azuredevopsvirtualagent.azurewebsites.net/?ol=1)
 
