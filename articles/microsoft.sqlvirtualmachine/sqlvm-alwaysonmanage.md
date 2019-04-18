@@ -45,11 +45,11 @@
 
     *	*Are you able to connect to the current Primary using the replica name (e.g. SQLVM1) from the secondary?*
 
-      If not, please ensure that SQL Server service is up and running on the Primary replica. Ensure that all the ports required for the listener: SQL traffic (e.g. 1433), mirroring traffic (e.g. 5022), Load balancer probe port (e.g. 59999) are open in computer firewall and NSG for all replicas.
+      If not, please ensure that SQL Server service is up and running on the Primary replica. Ensure that all the ports required for the listener: SQL traffic (e.g. 1433), mirroring traffic (e.g. 5022), Load balancer probe port (e.g. 59999) are open in computer firewall and NSG for all replicas.<br>
 
     *	*Is the load balancer correctly setup?*
 
-      Please ensure that a load balancer rule corresponding to the AG listener is correctly setup following the instructions [here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener.
+      Please ensure that a load balancer rule corresponding to the AG listener is correctly setup following the instructions [here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#add-backend-pool-for-the-availability-group-listener). In Azure, a load balancer rule must be created for each AG listener.<br>
 
     *	*Have you ensured that the correct configuration changes have been made at WSFC level w.r.t Load balancer and AG listener?*
 
