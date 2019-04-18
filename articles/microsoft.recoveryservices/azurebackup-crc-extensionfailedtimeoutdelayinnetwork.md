@@ -5,11 +5,11 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-	authorAlias="srinathv"
+	ms.author="srinathv"
 	articleId="azurebackup-crc-extensionfailedtimeoutdelayinnetwork"
 	diagnosticScenario="azurebackup-crc-extensionfailedtimeoutdelayinnetwork"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276,32553277"
+	supportTopicIds=""
 	productPesIds="15207"
 	cloudEnvironments="public"
 />
