@@ -21,7 +21,7 @@
 
 ### **Add/update TAX ID**
 
-To add or update tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This tax ID is used for tax exemption calculations and appears on your invoice.
+To add or update Tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
 
 ### **Add/update PO Number**
 
@@ -37,9 +37,9 @@ To add or update tax ID, visit [Profile in Azure Account Center](https://porta
 EA Customers can change the PO themselves in the EA Portal. The EA admin can also change the PO number on an invoice that is due to be issued.
 
   1. Sign into [EA portal](ea.azure.com) as EA admin<br>
-  2. Click on the **Usage Summary** option under Reports on the left hand navigation pane<br>
+  2. Click on the **Usage Summary** option under Reports on the left-hand navigation pane<br>
   3. Select the relevant quarter in the usage summary in which the overage usage accrued<br>
-  4. Select edit beside the PO number on the top right hand side of the summary view
+  4. Select edit beside the PO number on the top right-hand side of the summary view
 
 ### **Add/update VAT ID**
 
