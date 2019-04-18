@@ -2,7 +2,7 @@
 	pageTitle="OlrBackupFailed"
 	description="OlrBackupFailed"
 	service="microsoft.recoveryservices"
-	infoBubbleText="Snapshot task failed before replace disks."
+	infoBubbleText="Snapshot task failed before replace disks"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
