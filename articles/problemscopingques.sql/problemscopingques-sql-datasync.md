@@ -15,6 +15,7 @@
 ---
 {
 	"resourceRequired": true,
+	"subscriptionRequired": true,
 	"title": "SQL Data Sync",
 	"fileAttachmentHint": "",
 	"formElements": [
