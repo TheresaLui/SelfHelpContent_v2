@@ -573,7 +573,7 @@ cloudEnvironments="public"
         "bladeName": "ResourceHealthDetailBlade",
         "parameters": [
           {
-            "name": "id",
+            "name": "resourceId",
             "value": "$resourceId"
           }
         ]
