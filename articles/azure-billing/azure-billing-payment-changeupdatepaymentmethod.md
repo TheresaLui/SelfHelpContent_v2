@@ -23,7 +23,7 @@ In the Account Center, as an Account Administrator, you can add a new credit car
 ### **Add a new Credit or Debit card**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-2.Search on **Cost Management + Billing**
+2. Search on **Cost Management + Billing**
 3. Select a Subscription you'd like to add the credit or debit card to
 4. Select **Payment methods**
 5. In the top-left corner, select “+” to add a card. A credit card form will appear on the right
