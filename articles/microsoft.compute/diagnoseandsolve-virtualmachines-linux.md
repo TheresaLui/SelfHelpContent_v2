@@ -615,7 +615,7 @@ cloudEnvironments="public"
     },
     {
       "title": "Troubleshoot network connectivity",
-      "description": "Check and test direct TCP connections from the virtual machine to another virtual machine, fully qualified domain name (FQDN), URI, or an IPv4 address",
+      "description": "Check and test direct TCP connections from the VM to another VM, fully qualified domain name (FQDN), URI, or an IPv4 address",
       "category": "Connectivity",
       "searchTags": "test traffic, troubleshoot connectivity, unable to connect, network issues, unreachable",
       "type": "tool",
