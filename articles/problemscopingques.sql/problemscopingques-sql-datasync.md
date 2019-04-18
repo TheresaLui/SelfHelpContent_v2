@@ -24,15 +24,25 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
             "required": true
-        },{
+       },{
 			"id": "sync_group_name",
 			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Sync group name",
-            "watermarkText": "Sync group name (if applicable)",
-            "infoBalloonText": "Name of the Sync Group facing the issue (if applicable)",
-			"required": false,
-			"useAsAdditionalDetails": false
+			"controlType": "dropdown",
+            "displayLabel": "Please select the sync group you are experiencing issues with",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/syncgroups?api-version=2015-05-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "syncDatabaseId",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [{
+                "value": "Unable to get the list of sync groups",
+                "text": "Unable to get the list of sync groups"
+            }],
+            "required": false,
+            "diagnosticInputRequiredClients" : "Portal"
 		},{
             "id": "problem_description",
             "order": 1000,
