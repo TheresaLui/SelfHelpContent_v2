@@ -54,6 +54,7 @@
   *	*Have you ensured that the correct configuration changes have been made at WSFC level w.r.t Load balancer and AG listener?*
 
     Please ensure that you have run the PowerShell as the tutorial [here](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sql-availability-group-tutorial#configure-listener) with correct variables as below.
+
     ```
     $ClusterNetworkName = "<MyClusterNetworkName>" # the cluster network name (Use Get-ClusterNetwork on Windows Server 2012 of higher to find the name)
     $IPResourceName = "<IPResourceName>" # the IP Address resource name
@@ -92,6 +93,7 @@
         <td>Cluster parameter named - ProbePort<br> 59999</td>
       </tr>
     </table>
+
 
 * **Unable to manually failover AG to another replica**
 
