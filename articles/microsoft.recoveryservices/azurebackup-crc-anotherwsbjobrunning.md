@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# AnotherWSBJobRunning
+# Error AnotherWSBJobRunning
 
 <!--issueDescription-->
 ## We have identified that Windows Server Backup (WSB) might be running a backup job or it is in frozen state.
