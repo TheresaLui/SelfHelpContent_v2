@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
-	ms.author:"srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-usererrorvmprovisioningstatefailed"
 	diagnosticScenario="azurebackup-crc-usererrorvmprovisioningstatefailed"
