@@ -11,7 +11,7 @@
 	supportTopicIds="32629807"
 	productPesIds="16666"
 	articleId="3eefc8c1-c360-495a-bfe0-ea51ac686ddd"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Problems with user provisioning to an application being slow or in quarantine
