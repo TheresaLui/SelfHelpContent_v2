@@ -42,9 +42,8 @@
                 "value": "Unable to get the list of sync groups",
                 "text": "Unable to get the list of sync groups"
             }],
-            "required": false,
-            "diagnosticInputRequiredClients" : "Portal"
-		},{
+            "required": false            
+	},{
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
