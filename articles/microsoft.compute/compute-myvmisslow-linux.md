@@ -1,20 +1,20 @@
 <properties
-	pageTitle="My VM is slow"
-	description="My VM is slow"
+	pageTitle="Diagnose and resolve Linux Virtual Machine performance issues"
+	description="Diagnose and resolve Linux Virtual Machine performance issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
+	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
 	cloudEnvironments="public"
 	articleId="55e5b484-ddbe-497f-bd1d-9adcb30216f8"
 />
 
-# My VM is slow
+# Diagnose and resolve Linux Virtual Machine performance issues
 
 Try the following steps to diagnose and mitigate VM performance issues.<br>
 

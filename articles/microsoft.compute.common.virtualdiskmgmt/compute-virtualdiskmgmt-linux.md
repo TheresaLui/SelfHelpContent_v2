@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Virtual Disk Management"
-	description="Virtual Disk Management"
+	pageTitle="Resolving issues with Linux Virtual Disk Management and Storage"
+	description="Resolving issues with Linux Virtual Disk Management and Storage"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure,timbasham"
@@ -14,7 +14,7 @@
 	articleId="compute-virtualdiskmgmt-linux"
 />
 
-# Virtual Disk Management
+# Resolving issues with Linux Virtual Disk Management and Storage
 
 4 out of 5 customers resolved their VM virtual disk issue using the steps below.
 

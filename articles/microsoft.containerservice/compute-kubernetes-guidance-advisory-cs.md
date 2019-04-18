@@ -1,6 +1,6 @@
 <properties
-	pageTitle="kubernetes service guidance/advisory"
-	description="kubernetes service guidance/advisory common solutions"
+	pageTitle="Diagnose and resolve Kubernetes service advisory issues"
+	description="Diagnose and resolve Kubernetes service advisory issues"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="timbasham"
@@ -14,7 +14,7 @@
 	articleId="5f54a592-33ed-460f-8ac9-8f51e4a2bb7f"
 />
 
-# Kubernetes Service
+# Diagnose and resolve Kubernetes service advisory issues
 
 Examples of advisory services include, but are not limited to:<br>
 

@@ -1,24 +1,41 @@
 <properties
-    pageTitle="Azure Automation - Modules"
-    description="Azure Automation - Modules"
+    pageTitle="Azure Automation - I need help updating or importing a module"
+    description="Azure Automation - Updating and importing modules"
     service="microsoft.automation"
     resource="automationaccounts"
-    authors="csand-msft"
+    authors="zjalexander"
+    ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32628003,32628005,32628006,32628008,32628009,32628012"
+    supportTopicIds="32628003,32628005,32628012"
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
 	articleId="7520716a-1463-4666-b9d2-60f15be30964"
 />
 
-# Azure Automation - Modules
+# Azure Automation - Updating or Importing Modules
 
-## **Recommended documents**
-[Issue] [Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
-<br>
-[How to] [Integration modules in Azure Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
-[How to] [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
-<br>
-[Data we need] [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+An Automation Account, when created, only has a small subset of Azure modules included. 
+
+This article contains information about updating the modules contained in your Automation Account.
+
+## **Recommended Steps**
+
+Before continuing in this document, please review the [notes found in the Update Modules document](https://docs.microsoft.com/azure/automation/automation-update-azure-modules#update-azure-modules-in-the-azure-portal). 
+It is recommended to have a test Automation Account to ensure updating modules do not impact your existing scripts. 
+
+### A module I imported does not work in Azure Automation sandbox environments
+
+* Some modules may have dependencies on binaries which are not supported in Azure Automation sandboxes. Scripts which require these modules should be run via [a hybrid worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker). 
+
+### I am using Az modules in Azure Automation
+
+* While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/az-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
+
+## **Recommended Documents**
+
+* [Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
+* [Integration modules in Azure Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
+* [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
+* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)

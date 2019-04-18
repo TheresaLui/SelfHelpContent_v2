@@ -1,9 +1,10 @@
 <properties
-	pageTitle="azure security and compliance request"
-	description="azure security and compliance request"
+	pageTitle="Resolve Azure security and compliance request issues"
+	description="Resolve Azure security and compliance request issues"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32454936,32611254,32607560"
@@ -13,9 +14,9 @@
 	articleId="5b0fd4a5-6959-4934-9682-642c9a2c9e72"
 />
 
-# Security and Compliance Request
+# Resolve Azure security and compliance request issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Export or delete settings in the Azure portal](https://docs.microsoft.com/azure/azure-portal/azure-portal-export-delete-settings)<br>
 * [Find activity reports in the Azure portal](https://docs.microsoft.com/azure/active-directory/reports-monitoring/howto-find-activity-reports)<br>

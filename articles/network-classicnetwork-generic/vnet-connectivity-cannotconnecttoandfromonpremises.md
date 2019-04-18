@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity/cannotconnecttoandfromonpremises"
-	description="connectivity/cannotconnecttoandfromonpremises"
+	pageTitle="Diagnose and troubleshoot Azure connectivity issues to and from the on-premises"
+	description="Diagnose and troubleshoot Azure connectivity issues to and from the on-premises"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="radwiv"
@@ -14,7 +14,7 @@
 	articleId="fee387ea-55c8-4e15-856c-ba26e09faf5b"
 />
 
-# connectivity/cannotconnecttoandfromonpremises
+# Diagnose and troubleshoot Azure connectivity issues to and from the on-premises
 
 ## **Recommended Steps**
 
@@ -28,4 +28,3 @@
 * [Diagnose on-premises connectivity via VPN gateway](https://docs.microsoft.com/azure/network-watcher/network-watcher-diagnose-on-premises-connectivity)<br>
 * [Solve **VNet Peering** issues - Answer 3 questions](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues) <br>
 * [IP flow verify over VPN connection](https://docs.microsoft.com/azure/network-watcher/network-watcher-check-ip-flow-verify-portal)
-
