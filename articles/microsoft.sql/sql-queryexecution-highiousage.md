@@ -8,15 +8,15 @@
     ms.author="pedin"
     displayOrder=""
     articleId="HiIOUsageIssue_3EE4845D-971B-4A4B-9D1E-64D8C0B54ABB"
-    diagnosticScenario="dbasc"
-    selfHelpType="rca"
-    supportTopicIds="32630434,32630459"
+    diagnosticScenario="SqlPerfTsg"
+    selfHelpType="diagnostics"
+    supportTopicIds="32630450,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public"
+    cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
-# Query Execution/high IO usage
+# We ran diagnostics on your resource and found high IO usage
 
 ## **Recommended Steps**
 
