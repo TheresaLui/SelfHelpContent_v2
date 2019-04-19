@@ -1,31 +1,25 @@
 <properties
-    pageTitle="Azure Security Center Recommendation - Other Issues Common Solutions"
-    description="Azure Security Center Recommendation - Other Issues Common Solutions"
+    pageTitle="Azure Security Center Recommendation - Recommendation keeps on appearing"
+    description="Azure Security Center Recommendation - Recommendation keeps on appearing"
     authors="genlin"
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633049,32633127"
+    supportTopicIds="32633049,32633126"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
-    articleId="a15f057d-9001-8010-a98a-dfaf3843dc2f"
+     articleId="a15f057d-9111-9011-a98a-dfaf3843dc2f"
 />
 
-# Azure Security Center Recommendation - Other Issues Common Solutions"
-
-## **Top issues**
-
-**A given recommendation disappears from Security Center**
-
-Azure Security Center periodically analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations.
+# Azure Security Center Recommendation - Recommendation keeps on appearing
 
 The given recommendation will be removed if one of the following conditions is true:
 
 - All the resources under this recommendation become healthy.
-- The recommendation is disable from the Azure policy.
+- The recommendation is disabled through the Azure policy.
 
-If you have followed the **Remediation** steps, and the resource is still showing as unhealthy, this issue can be caused by one of the following factors:
+If you have followed the remediation steps, and the resource is still appearing as unhealthy, If you have followed the **Remediation** steps, and the resource is still showing as unhealthy, this issue can be caused by one of the following factors:
 
 - The Recommendations is not refreshed. The Recommendations are refreshed every 12 hours.
 - The security Center has not received the new data from the Operations Management Suite (OMS) agent in the VM. For more information, see [How often does Security Center scan for operating system](https://docs.microsoft.com/azure/security-center/security-center-faq#how-often-does-security-center-scan-for-operating-system-vulnerabilities-system-updates-and-endpoint-protection-issues)
@@ -52,11 +46,4 @@ In addition, Azure security center uses Azure policy as its main policy engine. 
 
 - [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
-**How to and advisory information**
-
-- [Azure Security Center Pricing Teirs](https://docs.microsoft.com/azure/security-center/security-center-pricing)
-- [Azure Security Center Readiness Roadmap](https://docs.microsoft.com/azure/security-center/security-center-readiness-roadmap)
-- [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
-- [Azure Security Center REST API](https://docs.microsoft.com/rest/api/securitycenter/)
-- [Check out our latest Azure Security Center updates](https://azure.microsoft.com/updates/?product=security-center)
 

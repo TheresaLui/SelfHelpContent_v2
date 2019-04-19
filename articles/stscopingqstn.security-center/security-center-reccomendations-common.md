@@ -14,34 +14,34 @@
 
 # Azure Security Center Data and Storage Recommendation Common Solutions
 
-Azure Security Center analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations that guide you through the process of configuring the needed controls. Azure Security Center monitors the following resources: virtual machines (VMs), networking, SQL and data, and applications. You can [disable recommendations from Azure policy](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq#how-do-i-disable-data-collection).
+Azure Security Center analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations that guide you through the process of configuring the necessary controls. Azure Security Center monitors the following resources: virtual machines (VMs), networking, SQL and data, and applications. You can [disable recommendations by using Azure policy](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq#how-do-i-disable-data-collection).
 
 ## **Top issues**
 
 **A given recommendation disappears from Security Center**
 
-The given recommendation will disappear if one of the following conditions is true:
+The given recommendation will be removed if one of the following conditions is true:
 
 - All the resources under this recommendation become healthy.
-- The recommendation is disable from the Azure policy.
+- The recommendation is disabled through the Azure policy.
 
 **How often do the recommendations get refreshed?**
 
 The recommendations are refreshed every 12 hours.
 
-**Can I turn off the email alerts via email or customize the recipient list?**
+**Can I turn off the email alerts through email or customize the recipient list?**
 
-No. These are currently not supported. Alert emails are sent to the subscription admin, there is no way to customize it. However this feature is coming soon.
+No. These actions are currently not supported. Email alerts are sent to the subscription admin, and there is no way to customize them. However, this feature is scheduled to be added soon.
 
-**I received the alerts, but how do I investigate it?**
+**I received an alerts. How do I investigate it?**
 
-There is a lot of information that can be used for investigation in the alert email. We recommend you to use [diagnostics logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-monitor-storage-account#configure-logging) for better investigation capabilities.
+Although there is a lot of available information that you can use to investigate the email alert, we recommend that you use [diagnostics logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-monitor-storage-account#configure-logging) for better investigation capabilities.
 
 **Limitations**
 
 - Advanced Threat Protection for Azure Storage is currently available only for the Blob storage
 - Advanced Threat Protection for Azure Storage is not available in sovereign clouds.
-- Advanced Threat Protection for Azure Storage is not available in France regions.
+- Advanced Threat Protection for Azure Storage is not available in French regions.
 
 ## **Recommended Documents**
 
@@ -51,7 +51,7 @@ There is a lot of information that can be used for investigation in the alert em
 - [Data collection in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-enable-data-collection)
 - [Manage user data in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-investigation-user-data)
 
-**Storage Recommendations**
+**Storage**
 
 - [Enable Encryption For Storage Account](https://docs.microsoft.com/azure/security-center/security-center-enable-encryption-for-storage-account)
 
