@@ -21,7 +21,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "What date and time did the issue occur?",
+            "displayLabel": "When did the issue begin?",
             "required": true
             },
             {
