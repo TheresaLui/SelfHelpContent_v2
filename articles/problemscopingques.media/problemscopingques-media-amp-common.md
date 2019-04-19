@@ -12,6 +12,7 @@
 />
 # Azure Media Player common questions for support
 ---
+
 {
     "subscriptionRequired" : true,
     "resourceRequired": true,
@@ -30,17 +31,6 @@
             }, {
                 "value": "Microsoft IE 11",
                 "text": "Microsoft IE 11"
-            }, {
-                "value": "Microsoft IE 10",
-                "text": "Microsoft IE 10"
-            },
-            {
-                "value": "Microsoft IE 9",
-                "text": "Microsoft IE 9"
-            },
-            {
-                "value": "Microsoft IE 8",
-                "text": "Microsoft IE 8 or earlier (unsupported)"
             },
             {
                 "value": "Google Chrome 37+",
@@ -174,10 +164,10 @@
             "id": "amp_error_code",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the Error Code?",
-            "watermarkText": "Please provide the error code displayed in the Player.",
+            "displayLabel": "What is the error code provided by the player?",
+            "watermarkText": "Please provide any error codes displayed in the Player.",
             "infoBalloonText": "See list of error codes and how to find them  <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#error-codes'>here</a> in the documentation.",
-            "required": false,
+            "required": false
         },
          {
             "id": "amp_drm_in_use",
@@ -186,19 +176,24 @@
             "displayLabel": "Are you using DRM or AES encryption?",
             "watermarkText": "Please select the DRM or encryption in use that is related to this error report",
             "infoBalloonText": "See details on DRM compatibilty <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
-            "dropdownOptions": [{
+            "dropdownOptions": [
+            {
+                "value": "not_used",
+                "text": "Not used"
+            },
+            {
                 "value": "PlayReady",
                 "text": "PlayRead"
             },
-            "dropdownOptions": [{
+            {
                 "value": "Fairplay",
                 "text": "Fairplay"
             },
-            "dropdownOptions": [{
+            {
                 "value": "Widevine",
                 "text": "Widevine"
             },
-                "dropdownOptions": [{
+            {
                 "value": "AES Clear key",
                 "text": "AES Clear key"
             },
@@ -206,17 +201,17 @@
             "value": "dont_know_answer",
             "text": "Don't Know"
             }],
-            "required": false,
+            "required": false
         },
         {
             "id": "amp_drm_issue",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What DRM or encryption settings are you using?",
-            "visibilty": "amp_drm_in_use != dont_know_answer"
+            "visibilty": "amp_drm_in_use != dont_know_answer || amp_drm_in_use != not_used",
             "watermarkText": "Please provide details on the DRM configuration and settings used. Provide an example of the Policy settings used.",
             "infoBalloonText": "See details on DRM compatibilty <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
@@ -228,6 +223,18 @@
             "useAsAdditionalDetails": true,
             "hints": [{
                 "text": "Provide details about the scneario and issues that you ran into with the player. Be sure to note if this worked previously and suddenly stopped working, and if possible provide a URL to a hosted test player that demonstrates or reproduces your issue (example - use stackblitz.com to reproduce the issue and include link here)"
+            }]
+        },
+         {
+            "id": "amp_repro_steps",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Repro steps or links to player showing issue",
+            "watermarkText": "Please provide repro steps and a link to a hosted version of the player (on a web site like jsfiddle.net, github.com or stackblitz.com for example) that shows the reported behavior",
+            "required": false,
+            "useAsAdditionalDetails": false,
+            "hints": [{
+                "text": "Provide steps to reproduce the issue and a URL to a hosted test player that demonstrates or reproduces your issue (example - use jsfiddle.net or stackblitz.com to reproduce the issue in the player and include links here)"
             }]
         }
     ]
