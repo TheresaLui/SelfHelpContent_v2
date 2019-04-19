@@ -22,7 +22,7 @@ The authentication/SAML request that you are sending is invalid or missing prope
 
 To resolve this issue, please follow the steps below:
 
-1. Follow the instructions in this [doc](<!--$AppSAMLDebugDoc-->AppSAMLDebugDoc<!--/$AppSAMLDebugDoc-->) to capture the SAML request
+1. Follow the instructions in this [doc](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to capture the SAML request
 
 2. Contact the application vendor and share the following info:
     
