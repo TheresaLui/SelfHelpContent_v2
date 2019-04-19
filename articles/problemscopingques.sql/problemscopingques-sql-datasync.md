@@ -29,7 +29,7 @@
 			"id": "sync_group_name",
 			"order": 2,
 			"controlType": "dropdown",
-            "displayLabel": "Please select the sync group you are experiencing issues with",
+            "displayLabel": "Please select the sync group you are experiencing issues with (name) ",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "{resourceId}/syncgroups?api-version=2015-05-01-preview",
