@@ -239,7 +239,6 @@
             "watermarkText": "Please provide repro steps and a link to a hosted version of the player (on a web site like jsfiddle.net, github.com or stackblitz.com for example) that shows the reported behavior",
             "required": false,
             "useAsAdditionalDetails": false
-            ]
         }
     ]
 }
