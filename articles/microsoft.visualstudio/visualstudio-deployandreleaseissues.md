@@ -9,7 +9,7 @@
 	articleId="AZDevOpsDeployReleaseIssues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32373545, 32452973"
+	supportTopicIds="32373545,  32452973"
    	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public"

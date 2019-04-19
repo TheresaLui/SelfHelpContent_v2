@@ -7,7 +7,7 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsPipelinesIssues"
-	supportTopicIds="32572375, 32452973, 32452974, 32572372, 32572374, 32572376"
+	supportTopicIds="32572375, 32452974, 32572372, 32572374, 32572376"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
