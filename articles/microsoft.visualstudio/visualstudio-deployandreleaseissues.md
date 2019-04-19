@@ -21,7 +21,7 @@
 * Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
 * [How To: Monitor releases and debug deployment issues](https://www.visualstudio.com/docs/build/actions/debug-deployment-issues)
-* For service impaction issues, please check the [Azure DevOps Services Status](https://status.dev.azure.com)
+* For service impacting issues, please check the [Azure DevOps Services Status](https://status.dev.azure.com)
 
 
 
