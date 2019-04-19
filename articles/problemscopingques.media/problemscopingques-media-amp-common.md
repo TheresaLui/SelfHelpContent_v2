@@ -32,37 +32,33 @@
             "displayLabel": "Please select the browsers impacted by the issue.",
             "watermarkText": "Select the browsers impacted",
             "dropdownOptions": [{
-                "value": "Microsoft Edge",
-                "text": "Microsoft Edge"
+                "value": "Microsoft Edge EdgeHTML",
+                "text": "Microsoft Edge (EdgeHTML 2014-2019)"
+            }, {
+                "value": "Microsoft Edge Chromium",
+                "text": "Microsoft Edge (Chromium 2019-present)"
             }, {
                 "value": "Microsoft IE 11",
                 "text": "Microsoft IE 11"
-            },
-            {
+            }, {
                 "value": "Google Chrome 37+",
                 "text": "Google Chrome 37 or higher"
-            },
-            {
+            }, {
                 "value": "Mozilla Firefox 42+",
                 "text": "Mozilla Firefox 42 or higher"
-            },
-            {
+            }, {
                 "value": "Apple Safari 8+",
                 "text": "Apple Safari 8 or higher"
-            },
-            {
+            }, {
                 "value": "Apple Safari 6-7",
                 "text": "Apple Safari 6-7"
-            },
-            {
+            }, {
                 "value": "Other",
                 "text": "Other (unsupported)"
-            },
-            {
+            },{
                 "value": "dont_know_answer",
                 "text": "Don't Know"
-            }
-            ],
+            }],
             "required": true
         },
         {
