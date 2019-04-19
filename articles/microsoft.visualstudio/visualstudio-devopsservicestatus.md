@@ -6,7 +6,7 @@
 	resource="account"
 	authors="chrisjco"
 	ms.author="ccoop"
-	articleId="AZDevOpsServicesStatus"
+	articleId="AZDevOpsServiceStatus"
 	supportTopicIds="32612982, 32260174, 32452966, 32260163, 32588004,  32452964, 32572356, 32260170, 32542237, 32542239, 32452968"
 	diagnosticScenario=""
 	selfHelpType="generic"
@@ -18,9 +18,9 @@
 # DevOps Services Status info
 
 ## **Recommended Steps**
-[Azure DevOps Services status: Check for details of service impacting events.](https://status.dev.azure.com)
-Want a quicker answer? For quick answers to common questions and issues, try the Azure DevOps Virtual [Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+Check the [Azure DevOps Services Status](https://status.dev.azure.com)
 
 ## **Recommended Documents**
-* [Azure DevOps Services Status](https://status.dev.azure.com)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
+* [Azure DevOps Services Status](https://status.dev.azure.com)

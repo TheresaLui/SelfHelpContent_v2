@@ -6,7 +6,7 @@
 	resource="account"
 	authors="chrisjco"
 	ms.author="ccoop"
-	articleId="AZDevOpsServicesRegionMove"
+	articleId="AZDevOpsServiceRegionMove"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32404472"
