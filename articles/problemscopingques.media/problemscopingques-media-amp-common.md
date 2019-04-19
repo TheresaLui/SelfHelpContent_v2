@@ -12,15 +12,21 @@
 />
 # Azure Media Player common questions for support
 ---
-
 {
     "subscriptionRequired" : true,
     "resourceRequired": true,
     "title": "Azure Media Player common questions for support",
     "fileAttachmentHint": "Please follow the instructions in the Player documentation to enable verbose logging and attach log files here. If the issue you are reporting is 'visible' or decoder related, please upload a short video of the problem.",
     "formElements": [{
-            "id": "amp_browser",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "What date and time did the issue occur?",
+            "required": true
+            },
+            {
+            "id": "amp_browser",
+            "order": 2,
             "controlType": "multiselectdropdown",
             "infoBalloonText": "See the matrix of <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>supported browsers and operating systems</a>",
             "displayLabel": "Please select the browsers impacted by the issue.",
@@ -61,7 +67,7 @@
         },
         {
             "id": "amp_os",
-            "order": 2,
+            "order": 3,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the operating systems where the issue occured.",
             "watermarkText": "Choose multiple options",
@@ -129,7 +135,7 @@
         },
         {
             "id": "amp_version",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Which version of Azure Media Player?",
             "infoBalloonText": "See list of versions and release notes <a href='http://amp.azure.net/libs/amp/latest/docs/changelog.html'>here</a> in the documentation.",
@@ -162,7 +168,7 @@
         },
         {
             "id": "amp_error_code",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error code provided by the player?",
             "watermarkText": "Please provide any error codes displayed in the Player.",
@@ -171,7 +177,7 @@
         },
          {
             "id": "amp_drm_in_use",
-            "order": 5,
+            "order": 6,
             "controlType": "multiselectdropdown",
             "displayLabel": "Are you using DRM or AES encryption?",
             "watermarkText": "Please select the DRM or encryption in use that is related to this error report",
@@ -205,7 +211,7 @@
         },
         {
             "id": "amp_drm_issue",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What DRM or encryption settings are you using?",
             "visibilty": "amp_drm_in_use != dont_know_answer || amp_drm_in_use != not_used",
@@ -215,7 +221,7 @@
         },
         {
             "id": "problem_description",
-            "order": 7,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Scenario details",
             "watermarkText": "Provide additional details about the problem and scenario that you ran into with the player",
@@ -227,15 +233,13 @@
         },
          {
             "id": "amp_repro_steps",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Repro steps or links to player showing issue",
             "watermarkText": "Please provide repro steps and a link to a hosted version of the player (on a web site like jsfiddle.net, github.com or stackblitz.com for example) that shows the reported behavior",
             "required": false,
-            "useAsAdditionalDetails": false,
-            "hints": [{
-                "text": "Provide steps to reproduce the issue and a URL to a hosted test player that demonstrates or reproduces your issue (example - use jsfiddle.net or stackblitz.com to reproduce the issue in the player and include links here)"
-            }]
+            "useAsAdditionalDetails": false
+            ]
         }
     ]
 }
