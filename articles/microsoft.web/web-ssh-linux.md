@@ -18,5 +18,4 @@
 
 ## **Recommended Documents**
 
-* [SSH support for Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support )<br>
-
+* [SSH support for Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support)<br>

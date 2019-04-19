@@ -38,6 +38,7 @@
 
 ### Step-by-Step instructions
 
+* [Running Sample Nodejs App on Azure App Services](https://azureossd.github.io/2016/04/18/sample-nodejs-app-on-azure-app-services/)
 * [Running Meanjs on Azure App Services](https://prmadi.com/running-mean-js-app-on-azure-app-services/)
 * [Running Angularjs App on Azure App Services](https://prmadi.com/running-angular2-app-on-azure-app-services-with-ci-cd/)
 * [Running Ghost Blog on Azure App Services](https://prmadi.com/ghost-blog-on-azure-app-services/)

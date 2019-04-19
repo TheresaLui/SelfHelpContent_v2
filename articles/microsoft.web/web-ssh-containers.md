@@ -17,5 +17,7 @@
 
 ## **Recommended documents**
 
-[To use SSH, your Docker image needs special sauce](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#CustomSSH)<br>
+* [To use SSH, your Docker image needs special sauce](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support#ssh-support-with-custom-docker-images)
+* [SSH support for Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ssh-support)<br>
+* [Things You Should Know: Web Apps and SSH](https://blogs.msdn.microsoft.com/waws/2018/05/07/things-you-should-know-web-apps-and-ssh/)
 
