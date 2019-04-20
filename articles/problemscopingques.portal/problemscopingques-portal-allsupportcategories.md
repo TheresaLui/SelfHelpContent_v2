@@ -71,7 +71,7 @@
                                         "value": "dont_know_answer",
                                         "text": "Don't Know"
                                     }],
-                                    "required": true
+                "required": true
         }
 	]
 }
