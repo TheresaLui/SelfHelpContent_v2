@@ -13,11 +13,12 @@
 # Questions to Azure Portal 
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Scoping questions for Azure portal",
     "fileAttachmentHint": "",
 	"formElements": [{
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "Approximate start time of the most recent occurrence",
@@ -30,6 +31,20 @@
 			"watermarkText": "Press 'Ctrl+Alt+D' and copy Session ID from bottom right popup",
 			"required": false
         },{
+		"id": "problem_description",
+		"order": 5,
+		"controlType": "multilinetextbox",
+		"displayLabel": "Details",
+		"watermarkText": "Provide additional information about your issue",
+		"required": true,
+		"useAsAdditionalDetails": true,
+		"hints": [{
+			"text": "Issue description."
+		},
+		{
+			"text": "Name of the virtual machine(s) in the same subscription that you think is faster than the slow virtual machine."
+		}]
+	    },{
                 "id": "basic_troubleshooting_multiselect",
                 "order": 3,
                 "controlType": "multiselectdropdown",
@@ -52,8 +67,10 @@
                                     },{
                                         "value": "Verified browser version is supported",
                                         "text": "Verified browser version is supported"
-                                        }
-                                    ],
+                                    },{
+                                        "value": "dont_know_answer",
+                                        "text": "Don't Know"
+                                    }],
                                     "required": true
         },{
 			"id": "additional_details",
