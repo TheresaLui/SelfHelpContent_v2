@@ -15,21 +15,27 @@
 ---
 {
 	"resourceRequired": true,
-	"subscriptionRequired": true,
+    "subscriptionRequired": true,
 	"title": "SQL Data Sync",
 	"fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "SQL Data Sync diagnostics",
+            "description": "These diagnostics will check for common errors.",
+            "insightNotAvailableText": "We didn't find any problems"
+    },
 	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start",
-            "required": true
-       },{
+            "required": true,
+            "diagnosticInputRequiredClients" : "Portal"
+        },{
 			"id": "sync_group_name",
 			"order": 2,
 			"controlType": "dropdown",
-            "displayLabel": "Please select the sync group you are experiencing issues with (name) ",
+            "displayLabel": "Sync Group",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "{resourceId}/syncgroups?api-version=2015-05-01-preview",
@@ -38,19 +44,14 @@
                 "valueProperty": "name",
                 "textPropertyRegex": "[^/]+$"
             },
-            "dropdownOptions": [{
-                "value": "Unable to get the list of sync groups",
-                "text": "Unable to get the list of sync groups"
-            }],
-            "required": false
-	},{
-            "id": "problem_description",
-            "order": 1000,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of sync groups",
+                    "text": "Unable to get the list of sync groups"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients" : "Portal"
         }
 	]
 }
