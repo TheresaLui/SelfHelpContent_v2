@@ -4,13 +4,13 @@
          authors="sansom"
          ms.author="sansom"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32628240,32628241,32628242,32628243,32628244,32628245,32628246,32452747"
+         supportTopicIds="32628240,32628241,32628242,32628243,32628244,32628245,32628246"
          productPesIds="15739"
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="e31bdba2-c7ff-48c0-a2b3-d5bbd10ab7e4"
 />
-# Questions to Azure disaster recovery 
+# Questions to Azure Portal 
 ---
 {
     "resourceRequired": true,
