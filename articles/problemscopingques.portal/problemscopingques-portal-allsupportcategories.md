@@ -72,14 +72,7 @@
                                         "text": "Don't Know"
                                     }],
                                     "required": true
-        },{
-			"id": "additional_details",
-			"order": 4,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}
+        }
 	]
 }
 ---
