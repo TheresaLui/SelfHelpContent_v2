@@ -52,6 +52,14 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients" : "Portal"
+        },{
+            "id": "problem_description",
+            "order": 1000,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
 	]
 }
