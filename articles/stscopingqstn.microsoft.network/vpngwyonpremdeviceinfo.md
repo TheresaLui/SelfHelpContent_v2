@@ -53,7 +53,7 @@
                 {"value": "Sophos", "text": "Sophos"},
                 {"value": "Ubiquiti", "text": "Ubiquiti"},
                 {"value": "WatchGuard", "text": "WatchGuard"},
-                {"value": "Other", "text": "Other"}],
+                {"value": "dont_know_answer", "text": "Other"}],
             "required": true
         },
         {"id": "problem_description",
