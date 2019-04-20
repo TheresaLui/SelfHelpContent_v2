@@ -41,7 +41,7 @@
                 "uri": "{resourceId}/syncgroups?api-version=2015-05-01-preview",
                 "jTokenPath": "value",
                 "textProperty": "name",
-                "valueProperty": "name",
+                "valueProperty": "test",
                 "textPropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
