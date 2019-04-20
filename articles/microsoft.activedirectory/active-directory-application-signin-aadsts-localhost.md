@@ -18,7 +18,7 @@
 
 # Configuration Issue Preventing User Sign-In
 
-You need to delete the unused reply URL  (https://127.0.0.1:444) configured for the application. 
+You need to delete the unused reply URL  https://127.0.0.1:444 configured for the application. 
 
 When the application was added as a non-gallery app, Azure Active Directory created https://127.0.0.1:444 reply URL as a default value. Please follow the steps below to delete this URL.
 
