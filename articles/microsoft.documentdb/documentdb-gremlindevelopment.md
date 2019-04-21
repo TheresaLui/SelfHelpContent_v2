@@ -6,10 +6,11 @@
 	authors="bharathsreenivas"
 	displayOrder="20"
 	selfHelpType="resource"
-	supportTopicIds="32597514,32597540,32597498"
+	supportTopicIds="32597514,32597540,32597498,32597523"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="28c1a6a3-0b88-4876-bed0-323415d525ac"
 />
 # Gremlin - How to develop apps to manage data in Gremlin API?
 
@@ -25,3 +26,4 @@ During graph design, the decision of modelling an entity as a vertex of its own,
 ## **Recommended Documents**
 * [Development using the Gremlin API](https://docs.microsoft.com/azure/cosmos-db/graph-introduction#get-started)
 * [Supported Gremlin operators](https://docs.microsoft.com/azure/cosmos-db/gremlin-support)
+* [Graph data partitioning](https://docs.microsoft.com/azure/cosmos-db/graph-partitioning)

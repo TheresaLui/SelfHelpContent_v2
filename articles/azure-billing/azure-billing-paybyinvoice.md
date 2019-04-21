@@ -1,35 +1,34 @@
 <properties
-	pageTitle="Pay by Invoice"
-	description="Pay by Invoice"
+	pageTitle="Change the payment method for your Azure Subscription to pay by invoice"
+	description="Change the payment method for your Azure Subscription"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32454866"
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="d368cadf-356f-4228-a167-d462e681ad80"
 />
 
-# Pay by Invoice
+# Change the payment method for your Azure Subscription to pay by invoice
 
-## **Recommended steps**
+## **Recommended Steps**
 
-You can change the payment method for your subscription to invoice by submitting a request to Azure support. Once your request is approved, you will be provided with instructions on how to set up your subscription for the invoice payment method.<br>
+You can change the default payment method for your Azure subscription to invoice by submitting a request to Azure support. Once your request is approved, you will be provided with instructions on how to set up your subscription for the invoice payment method.<br>
 
-**How to request pay by Invoice**
+### Request Pay by Invoice
 
 1. Sign into the [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade). Select Help + support > New support request.
-
-2. Select **Billing** as the issue type, select the subscription for which you want to pay by invoice, select a support plan, and then select **Next**.
-
-3. Select **Pay by Invoice** in the **Problem Type** box.
-
-4. Verify your contact information and preferred contact method, and then click **Create**.
+2. Select **Billing** as the issue type, select the subscription for which you want to pay by invoice, select a support plan, and then select **Next**
+3. Select **Pay by Invoice** in the **Problem Type** box
+4. Verify your contact information and preferred contact method, and then click **Create**
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to email Azure invoices directly to your inbox](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)

@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="MoonCake"
+	articleId="cf0742c0-7bea-4e6b-a6ad-509cce71e3ac"
 />
 
 # My queries are slow

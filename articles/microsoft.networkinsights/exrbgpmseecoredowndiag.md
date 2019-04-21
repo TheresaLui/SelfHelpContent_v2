@@ -6,7 +6,7 @@
 	resource="ExpressRoute"
 	authors="KristinaNeyens"
 	displayOrder=""
-	articleId="exrbgpmseecoredowndiag"
+	articleId="ExRCoreRouterBgpPeeringToMseeIsDownInsight"
 	selfHelpType="diagnostics"
 	supportTopicIds="32539944, 32539949, 32539954"
 	resourceTags="expressroute"

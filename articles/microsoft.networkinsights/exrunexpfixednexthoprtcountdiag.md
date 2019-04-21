@@ -6,7 +6,7 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="exrunexpfixednexthoprtcountdiag"
+    articleId="ExRCoreRouterUnexpectedFixedNexthopRouteCountInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"

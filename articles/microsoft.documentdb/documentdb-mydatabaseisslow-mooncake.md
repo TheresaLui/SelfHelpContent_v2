@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="MoonCake"
+	articleId="61352f97-502d-4ca1-b0d2-a0af6aa0294a"
 />
 
 # My database is slow

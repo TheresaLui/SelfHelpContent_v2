@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds="32597533"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="e89acffa-b7af-4817-baa8-a4b69c91b890"
 />
 # Data Migration tool
 

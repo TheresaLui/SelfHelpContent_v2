@@ -7,6 +7,7 @@
 	supportTopicIds="32581613"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="35edec30-5436-4ec6-83d9-111ab96e7c86"
 />
 
 # Configuring hybrid connections with App Service

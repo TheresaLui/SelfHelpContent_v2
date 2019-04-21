@@ -6,10 +6,11 @@
 	authors="bharathsreenivas"
 	displayOrder="10"
 	selfHelpType="resource"
-	supportTopicIds="32597515,32597521,32597541,32597550,32597502"
+	supportTopicIds="32597521,32597541,32597502"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="fca44674-a3d3-4e7f-8d47-9991de30a0e4"
 />
 # MongoDB - Commonly faced errors
 

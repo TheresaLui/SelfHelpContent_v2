@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="a661222c-d5fe-41a1-87b2-c48b62b41e40"
 />
 
 # Azure storage account management

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14947"
 	cloudEnvironments="public"
+	articleId="0ba4a0d3-bfa9-4967-85be-442387ff389c"
 />
 
 # User portal and mobile app web service

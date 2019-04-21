@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16098"
 	cloudEnvironments="public"
+	articleId="31a69ba9-eda6-48e1-a9a0-e56fb903fb04"
 />
 
 # configure zone-specific Load Balancer

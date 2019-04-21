@@ -6,10 +6,11 @@
 	authors="balaksms"
 	displayOrder="65"
 	selfHelpType="resource"
-	supportTopicIds="32597513"
+	supportTopicIds="32597513,32597538"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"/>
+	cloudEnvironments="public"	articleId="f07ae40c-ed6b-43af-a24a-60eed7639e78"
+/>
 
 # How to develop applications with Azure Cosmos DB Table API
 

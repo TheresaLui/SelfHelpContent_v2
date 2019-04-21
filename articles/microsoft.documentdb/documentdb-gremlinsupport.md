@@ -6,10 +6,11 @@
 	authors="bharathsreenivas"
 	displayOrder="25"
 	selfHelpType="resource"
-	supportTopicIds="32597564"
+	supportTopicIds="32597564,32597520"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="bcf0febc-9b0e-4fd9-b1a1-5fcb296de645"
 />
 # Gremlin - Supported operators
 Please review your use case against the list of supported Gremlin operators listed below. If you need help rewriting a Gremlin query, file a support ticket with the query and operator you need.

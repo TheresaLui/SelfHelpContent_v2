@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="6d010170-a4d1-47d0-a543-36771788e503"
 />
 
 # Azure Cosmos DB Emulator

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="96938965-f13e-4550-b5ad-79f2b42bbf8b"
 />
 
 # Troubleshooting Azure File latency issues

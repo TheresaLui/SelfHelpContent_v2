@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="f4c71566-c9d5-4e27-8cc3-0f74623204e9"
 />
 
 # Service principal issues

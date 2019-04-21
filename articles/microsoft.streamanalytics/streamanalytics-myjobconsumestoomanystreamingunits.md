@@ -9,6 +9,7 @@
 	supportTopicIds=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6223d52c-85e8-47c4-b110-1f2064cb5be8"
 />
 
 # My job consumes too many streaming units

@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="19bd8286-e3b2-495e-9753-9e95362aac7e"
 />
 
 # My queries are slow

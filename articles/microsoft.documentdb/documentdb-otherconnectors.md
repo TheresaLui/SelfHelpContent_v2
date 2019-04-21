@@ -8,8 +8,9 @@
 	selfHelpType="resource"
 	supportTopicIds="32597545"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="c8ce1112-c12e-467b-80a1-33d68b73b059"
 />
 # Azure Cosmos DB - Other Connectors
 

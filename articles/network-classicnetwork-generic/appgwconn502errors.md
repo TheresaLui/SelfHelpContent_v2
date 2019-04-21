@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="cb9a55ba-84d0-430b-a741-f5b65a13b149"
 />
 
 # connectivity/502errors

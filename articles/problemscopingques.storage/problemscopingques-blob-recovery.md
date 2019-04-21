@@ -2,39 +2,44 @@
 	pageTitle="Storage Blob recovery"
 	description="Storage Blob recovery scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608638"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="2ba85226-8c6e-4ecf-bcd1-f3f199c5c6f0"
 />
 # Recover deleted Blob
 ---
 {
-	"resourceRequired": false,
-	"title": "Storage Blob recovery scoping question",
-	"fileAttachmentHint": "",
-	"formElements": [{
-			"id": "problem_start_date",
-			"order": 1,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time Blob was deleted",
-			"required": false
-		}, {
-			"id": "blob_path",
-			"order": 2,
-			"controlType": "textbox",
-			"displayLabel": "Blob path",
-			"watermarkText": "'ContainerName/.../BlobName'",
-			"required": false
-		}, {
-			"id": "additional_details",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Provide any additional details",
-			"required": false,
-			"useAsAdditionalDetails": true
-		}
-	]
+    "resourceRequired": false,
+    "title": "Storage Blob recovery scoping question",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate local time Blob was deleted",
+            "required": true
+        },
+        {
+            "id": "blob_path",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "'ContainerName/.../BlobName'",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+    ]
 }
 ---

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="35e66bb8-2fc0-4006-b001-a3234480e5fe"
 />
 # Networking concepts for Azure to Azure replication
 
