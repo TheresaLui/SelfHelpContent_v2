@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633032,32633085"
+    supportTopicIds="32636902"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 Azure Security Center analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations that guide you through the process of configuring the necessary controls. Azure Security Center monitors the following resources: virtual machines (VMs), networking, SQL and data, and applications. You can [disable recommendations by using Azure policy](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq#how-do-i-disable-data-collection).
 
-## **Top issues**
+## **Recommended Steps**
 
 **A given recommendation disappears from Security Center**
 
@@ -35,7 +35,7 @@ No. These actions are currently not supported. Email alerts are sent to the subs
 
 **I received an alerts. How do I investigate it?**
 
-Although there is a lot of available information that you can use to investigate the email alert, we recommend that you use [diagnostics logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-monitor-storage-account#configure-logging) for better investigation capabilities.
+Although there is a lot of available information that you can use to investigate the email alert, we recommend that you use [diagnostics logs](https://docs.microsoft.com/azure/storage/common/storage-monitor-storage-account#configure-logging) for better investigation capabilities.
 
 **Limitations**
 
@@ -57,7 +57,7 @@ Although there is a lot of available information that you can use to investigate
 
 **Troubleshooting**
 
-- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/security-center/security-center-troubleshooting-guide)
+- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 

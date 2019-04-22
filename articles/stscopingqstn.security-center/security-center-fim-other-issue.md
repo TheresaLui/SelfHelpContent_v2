@@ -9,7 +9,7 @@
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
-    articleId="a15f057d-9001-0001-a98a-dfaf3843dc2f"
+    articleId="a15f057d-9001-9991-a98a-dfaf3843dc2f"
 />
 
 # Azure Security Center File Integrity monitor - FIM other issue

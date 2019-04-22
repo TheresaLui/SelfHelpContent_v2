@@ -27,7 +27,7 @@ If you have followed the remediation steps, and the resource is still appearing 
 - The security Center has not received the new data from the Operations Management Suite (OMS) agent in the VM. For more information, see [How often does Security Center scan for operating system](https://docs.microsoft.com/azure/security-center/security-center-faq#how-often-does-security-center-scan-for-operating-system-vulnerabilities-system-updates-and-endpoint-protection-issues)
 
 In addition, Azure security center uses Azure policy as its main policy engine. Check the recommendation status in Azure Policy compliance center, to do so please, follow these steps:
-	
+
 1. Open Azure policy in Azure portal.
 2. Open the Compliance view.
 3. Go to Azure security center default assignments. It is on the subscription or management group level.
@@ -42,7 +42,7 @@ In addition, Azure security center uses Azure policy as its main policy engine. 
 
 **Troubleshooting**
 
--[Azure Security Center Troubleshooting Guide] https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide
+- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 
