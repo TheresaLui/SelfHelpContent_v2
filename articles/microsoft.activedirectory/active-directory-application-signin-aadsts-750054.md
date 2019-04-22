@@ -22,7 +22,7 @@
 
 You are missing HTTP redirect binding in the SAML request to Azure AD.
 
-In order to enable user sign-in for this application, please upate your application to send the SAML request encoded into the location header using HTTP redirect binding. For more information about how to implement it, read the section HTTP Redirect Binding in the [SAML protocol specification document](https://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf).
+In order to enable user sign-in for this application, please update your application to send the SAML request encoded into the location header using HTTP redirect binding. For more information about how to implement it, read the section HTTP Redirect Binding in the [SAML protocol specification document](https://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf).
 
 Your application should now be available for user sign-in.
 
