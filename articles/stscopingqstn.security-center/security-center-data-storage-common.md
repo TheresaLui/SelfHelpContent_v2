@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636902"
+    supportTopicIds="32636841,32636870"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -29,7 +29,7 @@ The given recommendation will be removed if one of the following conditions is t
 
 The recommendations are refreshed every 12 hours.
 
-**Can I turn off the email alerts through email or customize the recipient list?**
+**Can I turn off the alerts through email or customize the recipient list?**
 
 No. These actions are currently not supported. Email alerts are sent to the subscription admin, and there is no way to customize them. However, this feature is scheduled to be added soon.
 
