@@ -19,7 +19,7 @@
 # Error CloudStorageUnexpectedError
 
 <!--issueDescription-->
-## We have identified that backup operation was failed because a Protection Group was created with special character (such as @, #, $, /, \ and so on).
+## We have identified that backup operation was failed because a Protection Group was created with a special character (such as @#$/\)
 <!--/issueDescription-->
 
 ## **Recommended Steps**
