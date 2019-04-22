@@ -22,7 +22,7 @@ Hyper-V host validation error: **WinRM cannot process the request or WinRM canno
 
 Run the following commands on Power shell on the Hyper-V hosts to be discovered:
 
-* winrm qc
-* enable-psremoting
+* `winrm qc`
+* `enable-psremoting`
 
 Ensure that port 5985 and 5986 are open on the Hyper-V hosts and clusters added for discovery.
