@@ -44,6 +44,10 @@
                     "value": "SUSE Software",
                     "text": "SUSE Software"
                 },
+		{
+                    "value": "Cosmos DB",
+                    "text": "Cosmos DB"
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
