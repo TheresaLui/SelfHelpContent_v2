@@ -224,7 +224,7 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [{
-                "text": "Provide details about the scneario and issues that you ran into with the player. Be sure to note if this worked previously and suddenly stopped working, and if possible provide a URL to a hosted test player that demonstrates or reproduces your issue (example - use stackblitz.com to reproduce the issue and include link here)"
+                "text": "Provide details about the scneario and issues that you ran into with the player. Be sure to note if this worked previously and suddenly stopped working, and if possible provide a URL to a hosted test player that demonstrates or reproduces your issue (for example use stackblitz.com to reproduce the issue and include link here)"
             }]
         },
          {
