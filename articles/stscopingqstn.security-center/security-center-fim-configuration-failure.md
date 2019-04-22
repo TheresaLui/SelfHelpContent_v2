@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633034,32633091"
+    supportTopicIds="32636843,32636876"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -14,23 +14,22 @@
 
 #  Azure Security Center File Integrity monitor Configuration failure
 
-File Integrity Monitor uses the Microsoft Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, a Change Tracking resource (Log Analytics workspace) is created in your subscription. If you remove this Change Tracking resource, the File Integrity Monitoring feature is disabled.
+## **Recommended Steps**
 
-To resolve the configuration failure, you have to open the relevant Log Analytics workspace, and check the Solution section to see whether the following solutions are presented:
+To resolve the configuration failure, you have to open the relevant Log Analytics workspace, and check the **Solution** section to see whether the following solutions are presented:
 
 - Security
 - Change tracking
 
-If one of these two solutions are not enabled on the workspace solution list, go to **Security Center - File Integrity Monitoring**, and press upgrade and enable.
+If one of these two solutions are not enabled on the workspace solution list, go to **Security Center - File Integrity Monitoring**, and press **Enable** or **Upgrade**.
 
-## **Tips for troubleshooting**
+**Tips for troubleshooting**
 
 - File Integrity monitor works only on Azure virtual machines (VMs) and on-premises VMs.
 - The server must be monitored by Azure Security Center, and the Azure Log Analytics agent must be shown as healthy.
 - Azure security center has to be on Standard mode on the subscription level, and every User workspace that the user wants should also be in Standard mode (that is, a security solution be should installed on it).
 - File Integrity Monitor does not work for the PaaS services.
 - The File Integrity Monitor UI in Azure portal shows only the last 100 changes. You should always run a log analytics query to check whether the changes appear in the user workspace.
-
 
 ## **Recommended Documents**
 

@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633032,32633136"
+    supportTopicIds="32636911"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -28,13 +28,13 @@ SQL Vulnerability Assessment has some new and valuable capabilities:
 - [SQL Vulnerability Assessment service ](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment)
 - [Azure SQL Database and SQL Data Warehouse data discovery & classification](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification)
 - [Azure SQL Database pricing](https://azure.microsoft.com/pricing/details/sql-database/managed)
-- [Enable Auditing on SQL Databases](https://docs.microsoft.com/en-us/azure/security-center/security-center-enable-auditing-on-sql-databases)
-- [Enable Auditing on SQL Servers](https://docs.microsoft.com/en-us/azure/security-center/security-center-enable-auditing-on-sql-servers)
-- [Enable Transparent Data Encryption ](https://docs.microsoft.com/en-us/azure/security-center/security-center-enable-transparent-data-encryption)
+- [Enable Auditing on SQL Databases](https://docs.microsoft.com/azure/security-center/security-center-enable-auditing-on-sql-databases)
+- [Enable Auditing on SQL Servers](https://docs.microsoft.com/azure/security-center/security-center-enable-auditing-on-sql-servers)
+- [Enable Transparent Data Encryption ](https://docs.microsoft.com/azure/security-center/security-center-enable-transparent-data-encryption)
 
 **Troubleshooting**
 
-- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/security-center/security-center-troubleshooting-guide)
+- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 

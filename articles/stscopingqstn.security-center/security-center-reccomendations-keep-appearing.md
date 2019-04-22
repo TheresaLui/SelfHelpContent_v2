@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633049,32633126"
+    supportTopicIds="32636900"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -13,6 +13,8 @@
 />
 
 # Azure Security Center Recommendation - Recommendation keeps on appearing
+
+## **Recommended Steps**
 
 The given recommendation will be removed if one of the following conditions is true:
 

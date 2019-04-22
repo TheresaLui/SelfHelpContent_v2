@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633049,32633116"
+    supportTopicIds="32636849,32636899"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -14,7 +14,7 @@
 
 # Azure Security Center Recommendation - problem resolving recommendation
 
-## **Top issues**
+## **Recommended Steps**
 
 **A given recommendation disappears from Security Center**
 
@@ -46,7 +46,7 @@ Azure security center uses Azure policy as its main policy engine. Check the rec
 
 **Troubleshooting**
 
--[Azure Security Center Troubleshooting Guide] https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide
+-[Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 

@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633029,32633133"
+    supportTopicIds="32636906"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"

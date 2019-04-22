@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633034,32633092"
+    supportTopicIds="32636877"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -13,6 +13,8 @@
 />
 
 # Azure Security Center File Integrity monitor - FIM false report
+
+## **Recommended Steps**
 
 To check if the false reporting is a UI issue or change tracking issue, you need to open log analytics search, and run query:
 
@@ -24,10 +26,10 @@ To check if the false reporting is a UI issue or change tracking issue, you need
 
 If you don't see the results in the workspace, contact our support. If results are returned, it means that the feature found its change, and the results did not appear in the FIM UI because of the 100 item view limitation. We only present the last 100 changes in the UI.
 
-## **Tips for troubleshooting**
+**Tips for troubleshooting**
 
 - File Integrity monitor works only on Azure VMs and on-premises VMs.
-- The server must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy.
+- The server that enables File Integrity monitor must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy.
 - Azure security center needs to be on standard mode on the subscription level, and every User workspace that the end-user wants to use should also be in standard (security solution be should install on it).
 - File Integrity monitor does not work with PaaS services.
 - File Integrity monitor UI in Azure portal only shows the last 100 changes. You should always run log analytics query to check if the changes appear in the user workspace.

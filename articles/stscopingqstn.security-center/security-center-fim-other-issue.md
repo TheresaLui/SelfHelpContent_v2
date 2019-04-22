@@ -5,7 +5,7 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633034,32633090"
+    supportTopicIds="32636875"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
@@ -13,6 +13,8 @@
 />
 
 # Azure Security Center File Integrity monitor - FIM other issue
+
+## **Recommended Steps**
 
 File Integrity monitor uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, a Change Tracking resource (Log Analytics workspace) is created in your subscription. If you remove this Change Tracking resource, File Integrity Monitoring feature will be disabled.
 
@@ -23,10 +25,10 @@ To resolve the configuration failure, you need to open the relevant Log Analytic
 
 If one of these two solutions are not enable on the workspace solution list, go to **Security Center - File Integrity Monitoring** and click **Upgrade** and **Enable**.
 
-## **Tips for troubleshooting**
+**Tips for troubleshooting**
 
 - File Integrity monitor works only on Azure VMs and on-premises VMs.
-- The server must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy.
+- The server that enables File Integrity monitoring must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy.
 - Azure security center needs to be on standard mode on the subscription level, and every User workspace that the end-user wants to use should also be in standard (security solution be should install on it).
 - File Integrity monitor does not work with PaaS services.
 - The File Integrity monitor UI in Azure portal only shows the last 100 changes. You should always run log analytics query to check if the changes appear in the user workspace.
