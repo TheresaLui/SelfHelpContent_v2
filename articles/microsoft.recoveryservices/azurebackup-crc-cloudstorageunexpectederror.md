@@ -23,12 +23,13 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-Protection Groups (PG) with special characters are currently not supported for backup. If any PG has special character, then the sync operation will fail leading to portal not consistent with on-premise server state.
+
+Protection Groups (PG) with special characters are currently not supported for backup. If any PG has a special character, then the sync operation will fail leading to portal not consistent with on-premise server state.
 
 To resolve this issue, rename the PG (without special characters) and restart the agent service by following the below steps:
 
-* Go to **Run** > **services.msc**, in the **Services** window, stop the service Microsoft Azure Recovery Services Management Agent.
-* Go to the folder **<Microsoft Azure Recovery Services Agent>** under **Program Files** in your system drive and delete **checkpoint Folder**.
-* Rename the **Protection group** and ensure it doesn't have the special character.
-* Go to **Run** > **services.msc**, in the **Services** window, start the service **Microsoft Azure Recovery Services Management Agent**.
-* The resync operation will be triggered, and all the artifacts should be reflected in the portal within 30 minutes.
+* Go to **Run** > **services.msc**, in the **Services** window, stop the service Microsoft Azure Recovery Services Management Agent
+* Go to the folder **<Microsoft Azure Recovery Services Agent>** under **Program Files** in your system drive and delete **checkpoint Folder**
+* Rename the **Protection group** and ensure it doesn't have any special characters
+* Go to **Run** > **services.msc**, in the **Services** window, start the service **Microsoft Azure Recovery Services Management Agent**
+* The resync operation will be triggered, and all the artifacts should be reflected in the portal within 30 minutes
