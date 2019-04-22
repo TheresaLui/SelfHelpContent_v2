@@ -14,7 +14,7 @@
 
 # Azure Security Center Recommendation - Other Issues Common Solutions"
 
-## **Top issues**
+## **Recommended Steps**
 
 **A given recommendation disappears from Security Center**
 
