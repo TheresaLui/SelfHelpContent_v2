@@ -20,20 +20,22 @@
 
 The authentication/SAML request that you are sending is invalid or missing properties.
 
-To resolve this issue, please follow the steps below:
+## **Recommended Steps**
 
 1. Refer to and make note of the SAML request provided at the end of this list under the title **SAML Request Received**
 2. Contact the application vendor and share the following info:
     
     a. SAML Request from above
-
-    b. Azure AD Single SignOn protocol requirements doc list [here](https://docs.microsoft.com/azure/active-directory/develop/active-directory-single-sign-on-protocol-reference)
+    b. Azure AD Single SignOn [protocol requirements](https://docs.microsoft.com/azure/active-directory/develop/active-directory-single-sign-on-protocol-reference)
 
 Your application should be available for user sign-in once the authentication request contains the required fields.
 
-For future sign in problems with SAML based applications, we recommend using the testing feature with the My Apps secure sign-in extension to get better and automatic self diagnosis and resolution steps. For more information see [this link](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging)
+For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
 
-For more information on common application-related issues, please refer to the following document: [Problem SignIn gallery applications](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-federated-sso-gallery)
+## **Recommended Documents**
 
-<h4>SAML Request Received:</h4>				
+* [Problem SignIn gallery applications](https://docs.microsoft.com/azure/active-directory/application-sign-in-problem-federated-sso-gallery)
+
+### SAML Request Received
+
 <!--$SAMLRequestFormatted-->SAMLRequestFormatted<!--/$SAMLRequestFormatted-->	
