@@ -7,8 +7,8 @@
     authors="luleon"
     ms.author="luleon"
     displayOrder="1"
-    articleId="Application_SignIn_ADSTS_Disabled_70001"
-    diagnosticScenario="EnterpriseApps"
+    articleId="Application_SignIn_ADSTS_750054"
+	diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -18,14 +18,11 @@
 
 # Configuration Issue Preventing User Sign-In
 
-Your <!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for user sign-in. This will prevent any user from accessing this application.
-
 ## **Recommended Steps**
 
-1. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
-2. Select **Azure Active Directory** and go the "Enterprise applications" blade. Search for the application for which you want to enable federated single sign-on.
-3. Click on the application name to open it, then click **Properties** on the application's left-hand navigation menu. If you do not see the application you need, use the Filter control at the top of the All Applications List and set the Show option to *All applications*
-4. Set the value of the "Enabled for user to sign-in" property to **Yes**
+You are missing HTTP redirect binding in the SAML request to Azure AD.
+
+In order to enable user sign-in for this application, please update your application to send the SAML request encoded into the location header using HTTP redirect binding. For more information about how to implement it, read the section HTTP Redirect Binding in the [SAML protocol specification document](https://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf).
 
 Your application should now be available for user sign-in.
 
