@@ -23,4 +23,4 @@
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve UserErrorVmProvisioningStateFailed issue restart the VM and ensure that the VM is running or shut-down state for backup operation to succeed.
+To resolve UserErrorVmProvisioningStateFailed issue restart the VM and ensure that the VM is running or the VM is in shutdown state for the backup operation to succeed.
