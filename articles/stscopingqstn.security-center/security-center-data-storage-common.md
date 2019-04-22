@@ -14,7 +14,7 @@
 
 # Azure Security Center Data and Storage Recommendation Common Solutions
 
-Azure Security Center analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations that guide you through the process of configuring the necessary controls. Azure Security Center monitors the following resources: virtual machines (VMs), networking, SQL and data, and applications. You can [disable recommendations by using Azure policy](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq#how-do-i-disable-data-collection).
+Azure Security Center analyzes the security state of your Azure resources. When Azure Security Center identifies potential security vulnerabilities, it creates recommendations that guide you through the process of configuring the necessary controls. Azure Security Center monitors the following resources: virtual machines (VMs), networking, SQL and data, and applications. You can [disable recommendations by using Azure policy](https://docs.microsoft.com/azure/security-center/security-center-faq#how-do-i-disable-data-collection).
 
 ## **Recommended Steps**
 
