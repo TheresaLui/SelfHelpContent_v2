@@ -15,7 +15,7 @@
 
 # Your resource was impacted by a resource health event
 
-<!--issueDescription-->
+<!--issueDescription-->  
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your database:
 
 We are sorry, your SQL data warehouse is experiencing issues preventing you to login. We are working to restore your access.
