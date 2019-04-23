@@ -7,7 +7,7 @@
 	ms.author="shijoy"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32631900"
+	supportTopicIds="32631900,32631938,32631937"
 	resourceTags=""
 	productPesIds="16348"
 	cloudEnvironments="public"
