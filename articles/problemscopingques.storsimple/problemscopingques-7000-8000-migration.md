@@ -14,6 +14,7 @@
 ---
 {
 	"resourceRequired": true,
+	"subscriptionRequired": true,
 	"title": "7000-8000 Migration",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -25,13 +26,13 @@
 			"dropdownOptions": [{
 					"value": "Version 2.1.1.518",
 					"text": "Version 2.1.1.518"
-				}, {
+				},{
 					"value": "Version 2.1.1.548",
-					"text": "Version 2.1.1.548",
+					"text": "Version 2.1.1.548"
 				}, {
 					"value": "Other",
 					"text": "Other"
-				}, 
+				},
 			],
 			"required": false
 		}, {
@@ -55,11 +56,11 @@
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}, 
+		},
 			{
 			"id": "device name",
 			"order": 1,
-			"controlType": "multiselectiondropdown",
+			"controlType": "dropdown",
 			"displayLabel": "Destination device name",
 			"watermarkText": "Choose destination device",
 			"dynamicDropdownOptions": {
@@ -75,8 +76,8 @@
 						"text": "Not specific to a destination device"
 					}
 				],
-				"required": false
-		},	
-	]
+				"required": false		
+				},
+		]
 }
 ---
