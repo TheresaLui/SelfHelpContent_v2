@@ -25,34 +25,18 @@ You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To remediate this problem, we recommend taking the following steps:
 
-1. [Stop the VM and create a snapshot.](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager).
+1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
+2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
+3. Disable the policy or disable the service which startup account is causing the deadlock:
 
-2. <!--/Phase 1-->Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager).
-
-3. Disable the policy or disable the service which startup account is causing the deadlock.
-
-    1. Open the registry editor: ''REGEDIT''
-    2. Highlight the key HKEY_LOCAL_MACHINE and select File\Load Hive from the menu
-    3. Browse to the file \windows\system32\config\BROKENSOFTWARE  Note: This route should be searched on the data disk which is the copy of the affected Machine. 
-    4. Navigate to the following key and validate if the CleanupProfile key exist and what is its value.  If the key doesn't exist then the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5.  If the key exist it means that the Cleanup profile policy is setup and its value represent the retention policy in days they have setup.
-
-```
- REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f
-```
-    5.  Unload the BROKENSOFTWARE hive
-
-```
- reg unload HKLM\BROKENSOFTWARE
-```
-    6. If this issue was fixed by disabling this policy locally, then you should avoid using the CleanupProfiles policy and use other method to perform the profile cleanup.
-
-```
- Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart
-```
-
- 4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
+    1. Open the registry editor with `REGEDIT`
+    2. Highlight the key `HKEY_LOCAL_MACHINE` and select File - Load Hive from the menu
+    3. Browse to the file `\windows\system32\config\BROKENSOFTWARE` on the data disk that is the copy of the affected Machine
+    4. Navigate to `HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System` verify if the CleanupProfile key exists. If it does, run  `REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f`. If the key does NOT exist, unload the BROKENSOFTWARE hive with `reg unload HKLM\BROKENSOFTWARE`
+    5. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use this method to perform the profile cleanup: `Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart`
+    
+4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
     1. As administrator, run `bcdedit /store [Boot partition]:\boot\bcd /enum` and copy the Windows Boot Loader identifier. The identifier is a 32-character code in the format xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
     2. Repair the Boot Configuration data by running the following command lines, using actual values. "Windows partition" is the partition that contains a folder named "Windows, "Boot partition" is the partition that contains a hidden system folder named "Boot, and "Identifier" is the identifier of Windows Boot Loader you found in the previous step:
