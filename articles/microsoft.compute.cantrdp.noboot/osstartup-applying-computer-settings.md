@@ -30,22 +30,22 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
 2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
 3. Disable the policy or disable the service that is causing the deadlock:
 
-    * Open the registry editor: `REGEDIT`
-    * Highlight the key HKEY_LOCAL_MACHINE and select File\Load Hive from the menu
-    * Browse to the file `\windows\system32\config\BROKENSOFTWARE`. Note: This route should be searched on the data disk which is the copy of the affected Machine. 
-    * Navigate to the following key and validate if the CleanupProfile key exists. If the key doesn't exist, the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5. If the key exists, it means that the Cleanup profile policy is set up and the value represents the retention policy in days.
+    1. Open the registry editor: `REGEDIT`
+    2. Highlight the key HKEY_LOCAL_MACHINE and select File\Load Hive from the menu
+    3. Browse to the file `\windows\system32\config\BROKENSOFTWARE`. Note: This route should be searched on the data disk which is the copy of the affected Machine. 
+    4. Navigate to the following key and validate if the CleanupProfile key exists. If the key doesn't exist, the CleanupProfile policy is not setup so this is not your scenario. Continue to Step V. If the key exists, it means that the Cleanup profile policy is set up and the value represents the retention policy in days.
 
 ```
  REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f
 ```
 
-    *  Unload the BROKENSOFTWARE hive:
+*  To unload the BROKENSOFTWARE hive:
 
 ```
  reg unload HKLM\BROKENSOFTWARE
 ```
 
-    * If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use other methods to perform the profile cleanup
+v. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use other methods to perform the profile cleanup:
 
 ```
  Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart
