@@ -45,7 +45,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
  reg unload HKLM\BROKENSOFTWARE
 ```
 
-    V. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use other methods to perform the profile cleanup:
+V. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use other methods to perform the profile cleanup:
 
 ```
  Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart
