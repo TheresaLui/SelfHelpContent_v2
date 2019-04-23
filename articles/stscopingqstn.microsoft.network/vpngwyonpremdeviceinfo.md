@@ -26,7 +26,7 @@
             "required": true
         },
 	{
-            "id": "Provide VPN On Premise device",
+            "id": "Provide VPN On Prem device",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the device you are using",
@@ -53,7 +53,7 @@
                 {"value": "Sophos", "text": "Sophos"},
                 {"value": "Ubiquiti", "text": "Ubiquiti"},
                 {"value": "WatchGuard", "text": "WatchGuard"},
-                {"value": "Other", "text": "Other"}],
+                {"value": "dont_know_answer", "text": "Other"}],
             "required": true
         },
         {"id": "problem_description",
