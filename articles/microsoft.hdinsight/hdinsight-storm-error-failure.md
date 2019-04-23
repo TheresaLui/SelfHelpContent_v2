@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="fe94f714-8472-9112-8b07-b1cbbe1d922a"
+    articleId="hdinsight-storm-error-failure"
 />
 
 # Azure HDInsight Storm Troubleshooting
