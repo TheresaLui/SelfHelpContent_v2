@@ -1,18 +1,19 @@
 <properties
-    pageTitle=Azure HDInsights: HBase Service Unhealthy
-    description=Azure HDInsights: HBase Service Unhealthy
+    pageTitle="Azure HDInsights: HBase Service Unhealthy"
+    description="Azure HDInsights: HBase Service Unhealthy"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="genlin"
     ms.author="jaserano"
     displayOrder=""
-    selfHelpType="generic"
+    selfHelpType="Generic"
     supportTopicIds="32636453"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
     articleId="f18d50b6-ccf5-407b-9b49-3c59bfa0eaec"
 />
+
 # Restart operation on HBase
 
 ## **Recommended Documents**
