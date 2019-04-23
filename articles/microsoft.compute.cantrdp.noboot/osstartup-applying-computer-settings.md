@@ -21,19 +21,19 @@
 ## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
 2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
-3. Disable the policy or disable the service which startup account is causing the deadlock.
+3. Disable the policy or disable the service that is causing the deadlock:
 
-    1. Open the registry editor: ''REGEDIT''
+    1. Open the registry editor: `REGEDIT`
     2. Highlight the key HKEY_LOCAL_MACHINE and select File\Load Hive from the menu
-    3. Browse to the file \windows\system32\config\BROKENSOFTWARE  Note: This route should be searched on the data disk which is the copy of the affected Machine. 
-    4. Navigate to the following key and validate if the CleanupProfile key exist and what is its value.  If the key doesn't exist then the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5.  If the key exist it means that the Cleanup profile policy is setup and its value represent the retention policy in days they have setup.
+    3. Browse to the file `\windows\system32\config\BROKENSOFTWARE`. Note: This route should be searched on the data disk which is the copy of the affected Machine. 
+    4. Navigate to the following key and validate if the CleanupProfile key exists. If the key doesn't exist, the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5. If the key exists, it means that the Cleanup profile policy is set up and the value represents the retention policy in days.
 
 ```
  REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f
@@ -45,7 +45,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
  reg unload HKLM\BROKENSOFTWARE
 ```
 
-    6. If this issue was fixed by disabling this policy locally, then you should avoid using the CleanupProfiles policy and use other method to perform the profile cleanup.
+    6. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use other methods to perform the profile cleanup
 
 ```
  Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart
