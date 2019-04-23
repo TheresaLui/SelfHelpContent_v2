@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Archive Storage Tier"
-    description="Archive Storage Tier"
+	pageTitle="Storage Tier - Hot,Cool,Archive"
+    description="Storage Tier - Hot,Cool,Archive"
 	service="microsoft.storage"
 	resource="storage"
-	authors=""
+	authors="ramMSFT"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602708,32602732"
+	supportTopicIds="32602708,32602732,32639221"
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
 	articleId="a593e2f4-8c91-4c89-b5bc-bba6f0860acf"
 />
 
-# Archive Storage Tier
+# Storage Tier - Hot,Cool,Archive
 
 ## **Recommended documents**
 - [Azure Blob Storage: Hot, cool, and archive storage tiers](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers)<br>

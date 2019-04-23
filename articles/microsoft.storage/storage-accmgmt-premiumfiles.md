@@ -1,0 +1,19 @@
+<properties
+	pageTitle="What is Premium Fileshare"
+	description="What is Premium Fileshare
+	service="microsoft.storage"
+	resource="storageaccounts"
+	authors="ramMSFT"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32639217"
+	resourceTags=""
+	productPesIds="15629"
+	cloudEnvironments="public"
+	articleId="87f7e1f4-7517-4cd0-93fe-20f51b78108d"
+/>
+
+# What is Premium Fileshare
+
+## **Recommended documents**
+- [How to create Premium Fileshare](https://docs.microsoft.com/azure/storage/files/storage-how-to-create-premium-fileshare#create-a-premium-file-share-using-the-azure-portal)<br>
