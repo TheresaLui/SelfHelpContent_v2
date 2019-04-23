@@ -24,7 +24,7 @@
             "displayLabel": "Destination device name",
             "watermarkText": "Choose destination device",
             "dynamicDropdownOptions": {
-                "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
