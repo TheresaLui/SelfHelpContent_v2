@@ -1,18 +1,17 @@
-
 <properties
- pageTitle="Hive error, exception, or failure"
-  description="Hive error, exception, or failure"
-  Service="microsoft.hdinsight"
-  resource="clusters"
-  authors="genlin"
-  ms.author="Jaserano"
-  displayOrder=""
-  selfHelpType="resource"
-  supportTopicIds="32636460"
-  resourceTags=""
-  productPesIds="15078"
-  cloudEnvironments="public,mooncake"
-  articleId="0a3f2d71-8344-4cf0-8591-a95d9b0ce136"
+    pageTitle="Hive error, exception, or failure"
+    description="Hive error, exception, or failure"
+    service="microsoft.hdinsight"
+    resource="clusters"
+    authors="genlin"
+    ms.author="jaserano"
+    displayOrder=""
+    selfHelpType="Generic"
+    supportTopicIds="32636460"
+    resourceTags=""
+    productPesIds="15078"
+    cloudEnvironments="public,mooncake"
+    articleId="0a3f2d71-8344-4cf0-8591-a95d9b0ce136"
 />
 
 # Unexpected Result\Hive

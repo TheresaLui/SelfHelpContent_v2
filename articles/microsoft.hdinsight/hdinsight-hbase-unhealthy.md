@@ -19,11 +19,10 @@
 
 **Restart operation on HBase Region Server fails to complete**
 
-[Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)<br>
+[Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)
 
 **HBase Master fails at startup**
 
 HBase Master (HMaster) can fail with errors such as "Atomic renaming failure" or "No server address listed in hbase". To resolve these issues, check the following the recommended document:
 
-* [HBase Master not starting up](https://hdinsight.github.io/hbase/hbase-master-not-starting-up.html)<br>
-
+* [HBase Master not starting up](https://hdinsight.github.io/hbase/hbase-master-not-starting-up.html)

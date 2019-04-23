@@ -22,5 +22,5 @@
 * [Ambari Agent Heartbeat Lost](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
 
 **Ambari Service Management**
- 
+
 * [Manage HDInsight clusters by using the Apache Ambari Web UI](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#management)
