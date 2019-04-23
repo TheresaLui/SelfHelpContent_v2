@@ -7,11 +7,11 @@
     ms.author="dhgoel"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32629151"
+    supportTopicIds="32636504"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="hdinsight-storm-error-failure"
+    articleId="9290d0d0-2d6b-4794-992d-362c80c96ff4"
 />
 # Azure HDInsight Storm Troubleshooting
 
