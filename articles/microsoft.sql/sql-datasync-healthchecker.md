@@ -31,8 +31,8 @@ We have a tool called Azure SQL Data Sync Health Checker. This PowerShell script
 $parameters = @{
     ## Databases and credentials
     # Sync metadata database credentials (Only SQL Authentication is supported)
-    SyncDbServer = '.database.windows.net'
-    SyncDbDatabase = ''
+    SyncDbServer = '<!--$HealthCheckerSyncDBServer-->HealthCheckerSyncDBServer<!--/$HealthCheckerSyncDBServer-->.database.windows.net'
+    SyncDbDatabase = '<!--$HealthCheckerSyncDBDatabase-->HealthCheckerSyncDBDatabase<!--/$HealthCheckerSyncDBDatabase-->'
     SyncDbUser = ''
     SyncDbPassword = ''
 
