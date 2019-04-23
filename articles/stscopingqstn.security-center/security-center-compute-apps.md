@@ -23,7 +23,7 @@
 - [Virtual Machine FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq#virtual-machines)
 
 
-** Common Virtual Machine Recommendations**
+**Common Virtual Machine Recommendations**
 
 - [Apply Disk Encryption](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)
 - [Apply System Updates](https://docs.microsoft.com/azure/security-center/security-center-apply-system-updates)
