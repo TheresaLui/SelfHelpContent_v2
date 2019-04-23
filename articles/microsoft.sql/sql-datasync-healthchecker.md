@@ -10,7 +10,7 @@
 	articleId="sql_datasync_healthchecker"
 	diagnosticScenario="SqlDataSync"
 	selfHelpType="diagnostics"
-	supportTopicIds="32574329"
+	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
