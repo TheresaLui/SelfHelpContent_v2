@@ -58,8 +58,11 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1901 if your build number is 1.1901.0.99.",
+            "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [{
+                    "value": "1904",
+                    "text": "1904"
+                },{
                     "value": "1903",
                     "text": "1903"
                 },{
@@ -80,13 +83,13 @@
                 }
                 ],
             "required": false,
-            "infoBalloonText": "Example: Select 1901 if your build number is 1.1901.0.99."
+            "infoBalloonText": "Example: Select 1903 if your build number is 1.1903.0.35."
         },{
             "id": "build_number",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Current Build Number",
-            "watermarkText": "Example: 1.1901.0.99",
+            "watermarkText": "Example: 1.1903.0.35",
             "required": false,
             "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
         },{
