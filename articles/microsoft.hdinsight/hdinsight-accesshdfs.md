@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-In order to access local HDFS instead of WASB or ADLS from inside the HDInsight cluster, use either of the two steps.
+In order to access local HDFS instead of WASB or ADLS from inside the HDInsight cluster, use either of these two steps:
 
 1. From Command line: Use the command - `hdfs dfs -D "fs.default.name=hdfs://mycluster/" <commandName>`
 2. From Applications: Use the hdfs uri as "hdfs://mycluster/" while accessing the file system from the application
