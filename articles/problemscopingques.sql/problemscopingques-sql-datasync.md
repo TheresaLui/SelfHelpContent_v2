@@ -32,10 +32,10 @@
             "required": true,
             "diagnosticInputRequiredClients" : "Portal"
         },{
-			"id": "sync_group_name",
+			"id": "syncgroupname",
 			"order": 2,
 			"controlType": "dropdown",
-            "displayLabel": "Sync Group",
+            "displayLabel": "Sync Group facing the issue",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "{resourceId}/syncgroups?api-version=2015-05-01-preview",
