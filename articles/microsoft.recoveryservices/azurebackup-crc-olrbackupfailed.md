@@ -19,8 +19,13 @@
 # Error OlrBackupFailed
 
 <!--issueDescription-->
-## We have identified that your restore operation failed due to incorrect restoration feature used.
+We have identified that your restore operation failed due to an incorrect restoration feature used.
 <!--/issueDescription-->
 
-## **Recommended Document**
-To resolve OlrBackupFailed issue we recommend you to use **Create New** option instead of **Replace existing** option, refer this [document](https://azure.microsoft.com/blog/an-easy-way-to-bring-back-your-azure-vm-with-in-place-restore/) for more information.
+## **Recommended Steps**
+
+* To resolve the OlrBackupFailed issue, we recommend you use **Create New** option instead of **Replace existing** option
+
+## **Recommended Documents**
+
+* [In Place Restore for VMs](https://azure.microsoft.com/blog/an-easy-way-to-bring-back-your-azure-vm-with-in-place-restore/)
