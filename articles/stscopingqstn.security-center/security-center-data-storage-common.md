@@ -22,8 +22,8 @@ Azure Security Center analyzes the security state of your Azure resources. When 
 
 The given recommendation will be removed if one of the following conditions is true:
 
-- All the resources under this recommendation become healthy.
-- The recommendation is disabled through the Azure policy.
+- All the resources under this recommendation become healthy
+- The recommendation is disabled through the Azure policy
 
 **How often do the recommendations get refreshed?**
 
@@ -40,8 +40,8 @@ Although there is a lot of available information that you can use to investigate
 **Limitations**
 
 - Advanced Threat Protection for Azure Storage is currently available only for the Blob storage
-- Advanced Threat Protection for Azure Storage is not available in sovereign clouds.
-- Advanced Threat Protection for Azure Storage is not available in French regions.
+- Advanced Threat Protection for Azure Storage is not available in sovereign clouds
+- Advanced Threat Protection for Azure Storage is not available in French regions
 
 ## **Recommended Documents**
 
@@ -62,4 +62,4 @@ Although there is a lot of available information that you can use to investigate
 **FAQ**
 
 - [Azure Security Center FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
-- [Pricing details](https://azure.microsoft.com/pricing/details/security-center/).
+- [Pricing details](https://azure.microsoft.com/pricing/details/security-center/)
