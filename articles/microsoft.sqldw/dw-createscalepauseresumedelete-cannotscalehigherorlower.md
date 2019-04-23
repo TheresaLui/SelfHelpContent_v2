@@ -4,7 +4,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="saltug,happynicolle"
-	ms.author="saltug,nicw"
+	ms.author="saltug,nicw,anvang"
 	supportTopicIds="32635190"
 	productPesIds="15818"
 	displayOrder=""
