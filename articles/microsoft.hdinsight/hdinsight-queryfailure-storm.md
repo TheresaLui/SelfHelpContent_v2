@@ -1,17 +1,17 @@
 <properties
     pageTitle="Storm: Troubleshooting"
-    description="Storm: Troubleshooting"
+    description="Azure HDInsight Storm Troubleshooting"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="dhgoelmsft"
-    ms.author="dhgoel"
+    authors="TobyTu"
+    ms.author="jaserano"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32636501"
+    supportTopicIds="32636502"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="fe94f714-8472-9112-8b07-b1cbbe1d922a"
+    articleId="ea0841c0-3075-404b-9871-e23201305db4"
 />
 
 # Azure HDInsight Storm Troubleshooting

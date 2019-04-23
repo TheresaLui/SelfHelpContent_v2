@@ -1,22 +1,22 @@
 <properties
-    pageTitle="My hive queries are really slow"
+    pageTitle="Azure HDInsights: My hive queries are really slow"
     description="My hive queries are really slow"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="TobyTu"
-    ms.author="jaserano"
-    displayOrder="7"
-    selfHelpType="resource"
-    supportTopicIds="32636464"
+    authors="bharathsreenivas"
+    ms.author="bharathb, jaserano"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32636458"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
-    articleId="0d3e4f2d-cfe6-4921-8395-750ac12be8c9"
+    cloudEnvironments="public,MoonCake"
+    articleId="913102d6-193a-48b4-b259-64fd4927379e"
 />
 
-# My Hive Queries Are Really Slow
+# Hive Performance
 
-## **Recommended steps**
+## **Recommended Steps**
 
 The following Hive performance optimization methods can be applied to your cluster:
 
@@ -26,6 +26,6 @@ The following Hive performance optimization methods can be applied to your clust
  4. Use the ORCFile format which is optimized for faster access to data.
  5. Enable vectorization to process multiple rows together.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
+* [Optimize Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
