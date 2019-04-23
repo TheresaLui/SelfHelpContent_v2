@@ -76,7 +76,7 @@
 						"text": "Not specific to a destination device"
 					}
 				],
-				"required": false		
+				"required": false
 				},
 		]
 }
