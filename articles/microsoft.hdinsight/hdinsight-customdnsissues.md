@@ -16,8 +16,6 @@
 
 # Cluster Creation Fails With InvalidNetworkConfigurationErrorCode
 
-## ErrorDescription
-
 Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'HostName Resolution failed'
 
 ## **Recommended Steps**
