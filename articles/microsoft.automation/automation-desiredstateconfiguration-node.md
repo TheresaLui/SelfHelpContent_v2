@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15607"
     cloudEnvironments="public"
-	articleId="f97563fd-0f5c-4f44-81ef-bc9bb5f48ba6"
+    articleId="f97563fd-0f5c-4f44-81ef-bc9bb5f48ba6"
 />
 
 # Azure Automation - State Configuration (DSC) - Node Configuration Fails
