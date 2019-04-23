@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-To solve issues with YARN applications, the following articles might be helpful:
+To solve issues with YARN applications, the following logs and settings might be helpful:
 
 * **YARN Timeline Server**: The YARN Timeline server provides generic information on completed applications and framework-specific application information
 * **YARN Application logs**: The application logs can be useful in debugging issues, with aggregated logs being stored in the path `/app-logs/<user>/logs/<applicationId>`
