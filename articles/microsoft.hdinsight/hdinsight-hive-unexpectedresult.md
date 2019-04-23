@@ -29,7 +29,7 @@
 
 **I see 'Out of Memory' errors when using Hive**
 
-[Hive settings to resolve Out of Memory errors](https://azure.microsoft.com/blog/hive-memory-settings-resolve-out-of-memory-errors-using-azure-hdinsight/)<br>
+* [Hive settings to resolve Out of Memory errors](https://azure.microsoft.com/blog/hive-memory-settings-resolve-out-of-memory-errors-using-azure-hdinsight/)<br>
 
 **WebHCat**
 
