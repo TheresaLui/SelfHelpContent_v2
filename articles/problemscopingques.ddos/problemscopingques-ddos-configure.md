@@ -22,7 +22,7 @@
 			"id": "is_it_first_time_deployed",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Is this your first time to deploy the DDoS Protection?",
+			"displayLabel": "Are you activating DDoS Standard for the first time?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
