@@ -125,7 +125,7 @@
             "id": "service_scope",
             "order": 250,
             "controlType": "dropdown",
-            "displayLabel": "Does the user account work wiht other Azure services?",
+            "displayLabel": "Does the user account work with other Azure services?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
