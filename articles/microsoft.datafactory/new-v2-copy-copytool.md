@@ -15,10 +15,10 @@
 
 # Copy Data Tool
 
-Please consider Copy Data Tool if you want to: <br>
+Please consider Copy Data Tool if you want to:
 
-* Quickly load a large number of data artifacts <br>
-* Easily build a data loading task without learning about ADF entities <br>
+* Quickly load a large number of data artifacts
+* Easily build a data loading task without learning about ADF entities
 
 ## **Recommended Documents**
 
