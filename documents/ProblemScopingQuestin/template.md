@@ -10,10 +10,7 @@
 	schemaVersion="1"
 	articleId=""
 />
-
 # Useful Title
-
-## Secondary Title
 ---
 {
   "subscriptionRequired": true,

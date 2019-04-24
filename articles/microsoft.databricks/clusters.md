@@ -6,7 +6,7 @@
 	authors="mspreshah"
 	ms.author="preshah"
 	displayOrder="15"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32612187"
 	resourceTags=""
 	productPesIds="16432"

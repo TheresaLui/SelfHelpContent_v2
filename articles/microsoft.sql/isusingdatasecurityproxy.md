@@ -1,11 +1,11 @@
 <properties
 	pageTitle="Database Connectivity issue due to invalid credentials detected"
-	description="Using Data Security Proxy"
+	description="Database Connectivity issue due to invalid credentials using Data Security Proxy"
 	infoBubbleText="Found recent connectivity issue. See details on the right."
 	service="microsoft.sql"
 	resource="servers"
-	authors="swbhartims"
-  	ms.author="swbharti"
+	authors="subbu-kandhaswamy, swbhartims"
+  	ms.author="subbuk, swbharti"
 	displayOrder=""
 	articleId="IsUsingDataSecurityProxy_20566AB1-A1DE-46DD-9A10-D875D54E326F"
 	diagnosticScenario="crc_sqldb_connectivity"
@@ -13,12 +13,19 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public" 
+	cloudEnvironments="public"
 />
+# Database connectivity issue due to auditing enabled secured connections
 
-# We ran diagnostics on your resource and found an issue
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that you are using an older version of auditing which is now deprecated. Please switch over to blob auditing as it has better performance and lesser exposure to security vulnerabilities.
+We noticed that you are connecting to an auditing enabled database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> using secured connection strings *(<!--$ServerName-->ServerName<!--/$ServerName-->.database.secure.windows.net)*. The secured connection strings were only used for databases with Table Auditing enabled, which is now deprecated. Connecting to database using the secure endpoints is unsupported, may cause connection errors/issues, and it is not a recommended option. We highly recommend you to use blob auditing which does not require any changes to your connection strings, and it is more efficient and less error prone.
+
+For more information please refer the recommended documents below.
 <!--/issueDescription-->
 
+## **Recommended Documents**
+
+* [Blob Storage Auditing](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)
+* [Table Auditing (Deprecated feature)](https://docs.microsoft.com/azure/sql-database/sql-database-auditing-and-dynamic-data-masking-downlevel-clients)
