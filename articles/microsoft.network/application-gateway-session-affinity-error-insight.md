@@ -13,7 +13,7 @@
     cloudEnvironments="public"
  />
 
-# Too many redirects error
+# Session affinity issues with Application Gateway
 
 We ran the below diagnostic check to verify whether the cookie-based session affinity feature has been enabled or not on your resource <!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->
 
