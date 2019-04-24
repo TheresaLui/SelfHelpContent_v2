@@ -125,10 +125,6 @@
                 {
                     "value": "Indefinitely",
                     "text": "Indefinitely"
-                },
-                {
-                    "value": "Dont know",
-                    "text": "Don't know at this time"
                 }
             ],
             "required": false

@@ -39,11 +39,7 @@
                 {
                     "value": "2 Million",
                     "text": "2 Million"
-                },
-                {
-                    "value": "3 Million",
-                    "text": "3 Million"
-                },
+                }
                 {
                     "value": "4 Million",
                     "text": "4 Million"
@@ -51,14 +47,6 @@
                 {
                     "value": "5-10 Million",
                     "text": "5 to 10 Million"
-                },
-                {
-                    "value": "10-20 Million",
-                    "text": "10 to 20 Million"
-                },
-                {
-                    "value": "20+ Million",
-                    "text": "> 20 Million"
                 }
             ],
             "required": true
@@ -90,10 +78,6 @@
                 {
                     "value": "Indefinitely",
                     "text": "Indefinitely"
-                },
-                {
-                    "value": "Dont know",
-                    "text": "Don't know at this time"
                 }
             ],
             "required": false
