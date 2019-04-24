@@ -52,6 +52,7 @@
                   "id": "basic_troubleshooting_multiselect",
                   "order": 3,
                   "controlType": "multiselectdropdown",
+		  "infoBalloonText": "<a href='https://aka.ms/AB-AA4dp4z'>Prerequisites</a> for offline backup",
                   "displayLabel": "Select the troubleshooting steps that you have performed:",
                   "dropdownOptions": [{
                       "value": "Azure Backup agent is latest",
