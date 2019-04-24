@@ -1,6 +1,6 @@
 <properties
-	pageTitle="On-premise device configuration script issues"
-	description="On-premise device configuration script issues"
+	pageTitle="On-premises device configuration script issues"
+	description="On-premises device configuration script issues"
 	authors="radwiv"
  	ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
@@ -10,11 +10,11 @@
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
 />
-# On-premise device configuration script issues information
+# On-premises device configuration script issues information
 ---
 {   "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "On-premise device configuration script issues",
+    "title": "On-premises device configuration script issues",
     "fileAttachmentHint": "",
     "formElements": [
         {   "id": "problem_start_time",

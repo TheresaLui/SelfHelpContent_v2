@@ -62,7 +62,7 @@
             "id": "source_dest_IP_address",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide source and destination IP addresses (on-premise and/or VNet IP addresses)",
+            "displayLabel": "Provide source and destination IP addresses (on-premises and/or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -70,9 +70,9 @@
             "id": "onprem_config_script",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Did you use on-premise device configuration script?",
+            "displayLabel": "Did you use on-premises device configuration script?",
             "watermarkText": "Choose an option",
-            "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript'> here</a> for downloading on-premise device configuration script.",
+            "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-download-vpndevicescript'> here</a> for downloading on-premises device configuration script.",
             "dropdownOptions": [
                 {
                     "value": "Yes",

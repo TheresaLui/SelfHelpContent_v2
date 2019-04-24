@@ -45,7 +45,7 @@
 	 "id": "config_lb_sku",
 	 "order": 2,
 	 "controlType": "dropdown",
-	 "displayLabel": "Please select the Load Balancer resource type that you need help with",
+	 "displayLabel": "Please select the Load Balancer SKU that you need help with",
 	 "watermarkText": "Choose an option",
 	 "dropdownOptions": [
 		 {
