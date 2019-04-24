@@ -49,7 +49,7 @@
             "controlType": "dropdown",
             "displayLabel": "Have you set your account ot have at least one unit of the desired Media Reserved Unit Type. Please set account to at least one RU before continuing with support ticket.",
             "infoBalloonText": "Please set account to at least one RU before continuing with support ticket",
-            "visibilty": "quota_MRU == Yes",
+            "visibility": "quota_MRU == Yes",
             "watermarkText": "Select Yes or No",
             "dropdownOptions": [
                 {
@@ -69,7 +69,7 @@
             "controlType": "dropdown",
             "displayLabel": "What is the new desired upper limit for MRUs (for example, default limit for S3 units is 10 in the Azure Portal and you may need to go up to 100?)",
             "infoBalloonText": "Please provide the max number of MRUs that you would need.",
-            "visibilty": "quota_MRU == Yes",
+            "visibility": "quota_MRU == Yes",
             "watermarkText": "Select Yes or No",
             "dropdownOptions": [
                 {
@@ -109,7 +109,7 @@
             "controlType": "dropdown",
             "displayLabel": "What is the time period that you would need the increased quota held for?",
             "infoBalloonText": "Large quota increases should be explained in terms of time period that they will be needed for. Provide as much detail as possible up front to speed up the request.",
-            "visibilty": "quota_MRU_one_selected_yes == 200+",
+            "visibility": "quota_MRU_one_selected_yes == 200+",
             "watermarkText": "Select one of the time periods",
             "dropdownOptions": [
                 {
@@ -138,7 +138,7 @@
                 },
                 {
                     "value": "Dont know",
-                    "text": "Dont know at this time"
+                    "text": "Don't know at this time"
                 }
             ],
             "required": false
@@ -149,7 +149,7 @@
             "controlType": "multiselectdropdown",
             "displayLabel": "Do you intend to use the quota increase for Encoding, Video Analytics or Audio Analytics",
             "infoBalloonText": "Please selected the use case desired for the quota increase",
-            "visibilty": "quota_MRU == Yes",
+            "visibility": "quota_MRU == Yes",
             "watermarkText": "Select one or more of the use cases",
             "dropdownOptions": [
                 {

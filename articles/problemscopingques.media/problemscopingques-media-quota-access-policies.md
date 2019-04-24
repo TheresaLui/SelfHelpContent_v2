@@ -30,7 +30,7 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What type of policy do you need increased?",
-            "watermarkText": "Select a policy type requeste for this increase",
+            "watermarkText": "Select a policy type for quota increase",
             "dropdownOptions": [
                 {
                     "value": "Access Policy",

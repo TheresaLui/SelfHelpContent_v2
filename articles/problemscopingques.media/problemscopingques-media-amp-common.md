@@ -76,7 +76,7 @@
             "id": "amp_os",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the operating systems where the issue occured.",
+            "displayLabel": "Select the operating systems where the issue occurred.",
             "watermarkText": "Choose multiple options",
             "dropdownOptions": [
                 {
@@ -199,7 +199,7 @@
             "controlType": "multiselectdropdown",
             "displayLabel": "Are you using DRM or AES encryption?",
             "watermarkText": "Please select the DRM or encryption in use that is related to this error report",
-            "infoBalloonText": "See details on DRM compatibilty <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
+            "infoBalloonText": "See details on DRM compatibility <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
             "dropdownOptions": [
                 {
                     "value": "not_used",
@@ -233,9 +233,9 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What DRM or encryption settings are you using?",
-            "visibilty": "amp_drm_in_use != dont_know_answer || amp_drm_in_use != not_used",
+            "visibility": "amp_drm_in_use != dont_know_answer || amp_drm_in_use != not_used",
             "watermarkText": "Please provide details on the DRM configuration and settings used. Provide an example of the Policy settings used.",
-            "infoBalloonText": "See details on DRM compatibilty <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
+            "infoBalloonText": "See details on DRM compatibility <a href='http://amp.azure.net/libs/amp/latest/docs/index.html#compatibility-matrix'>here</a> in the documentation.",
             "required": false
         },
         {
@@ -248,7 +248,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Provide details about the scneario and issues that you ran into with the player. Be sure to note if this worked previously and suddenly stopped working, and if possible provide a URL to a hosted test player that demonstrates or reproduces your issue (example - use stackblitz.com to reproduce the issue and include link here)"
+                    "text": "Provide details about the scenario and issues that you ran into with the player. Be sure to note if this worked previously and suddenly stopped working, and if possible provide a URL to a hosted test player that demonstrates or reproduces your issue (example - use stackblitz.com to reproduce the issue and include link here)"
                 }
             ]
         },

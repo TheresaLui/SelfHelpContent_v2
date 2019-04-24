@@ -128,7 +128,7 @@
                 },
                 {
                     "value": "Dont know",
-                    "text": "Dont know at this time"
+                    "text": "Don't know at this time"
                 }
             ],
             "required": false
@@ -137,7 +137,7 @@
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Quota increse details",
+            "displayLabel": "Quota increase details",
             "watermarkText": "Provide additional details about your quota increase request, scenario, timeline, etc. that would be helpful for the support team when evaluating your request",
             "required": true,
             "useAsAdditionalDetails": true

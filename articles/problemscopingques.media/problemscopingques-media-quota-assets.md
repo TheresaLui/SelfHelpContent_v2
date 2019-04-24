@@ -16,7 +16,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure Media Services Assets quota increase",
-    "fileAttachmentHint": "Please attach any detail docuements for your quota request, including planned montly ramp-up, regional quota requirements, etc. ",
+    "fileAttachmentHint": "Please attach any detail documents for your quota request, including planned monthly ramp-up, regional quota requirements, etc. ",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -29,7 +29,7 @@
             "id": "quota_assets_increase",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Approximately many total Assets do you need for your account?",
+            "displayLabel": "Approximately how many total Assets do you need for your account?",
             "watermarkText": "Select a value",
             "dropdownOptions": [
                 {
@@ -93,7 +93,7 @@
                 },
                 {
                     "value": "Dont know",
-                    "text": "Dont know at this time"
+                    "text": "Don't know at this time"
                 }
             ],
             "required": false
