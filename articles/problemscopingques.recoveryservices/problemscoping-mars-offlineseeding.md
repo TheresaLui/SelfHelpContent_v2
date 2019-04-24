@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for offline backup or seeding issues"
          description="Scoping questions for offline backup or seeding issues"
          authors="srinathv"
-		      ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632796"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		articleId="15e2bd99-2406-4639-b757-f8517ff0383d"
+    	 articleId="15e2bd99-2406-4639-b757-f8517ff0383d"
 />
 # Questions for offline backup or seeding issues
 ---
 {
          "resourceRequired": true,
-		     "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "offline backup or seeding issues",
          "fileAttachmentHint": "",
          "formElements":[{
@@ -52,7 +52,6 @@
                   "id": "basic_troubleshooting_multiselect",
                   "order": 3,
                   "controlType": "multiselectdropdown",
-                  "infoBalloonText": "<a href='https://aka.ms/AB-AA4dp4z'>Prerequisites</a> for offline backup",
                   "displayLabel": "Select the troubleshooting steps that you have performed:",
                   "dropdownOptions": [{
                       "value": "Azure Backup agent is latest",
