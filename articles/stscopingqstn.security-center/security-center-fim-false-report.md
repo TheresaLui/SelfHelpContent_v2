@@ -46,7 +46,7 @@ If you don't see the results in the workspace, contact our support. If results a
 
 **How-To and Advisory Information**
 
-- [Azure Security Center Pricing Teirs](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Azure Security Center Readiness Roadmap](https://docs.microsoft.com/azure/security-center/security-center-readiness-roadmap)
 - [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
 - [Azure Security Center REST API](https://docs.microsoft.com/rest/api/securitycenter/)

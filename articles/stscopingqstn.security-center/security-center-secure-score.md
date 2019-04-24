@@ -41,7 +41,7 @@ The **Recommendation impact** lets you know how much your secure score improves 
 
 **How to and advisory information**
 
-- [Azure Security Center Pricing Teirs](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Azure Security Center Readiness Roadmap](https://docs.microsoft.com/azure/security-center/security-center-readiness-roadmap)
 - [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
 - [Azure Security Center REST API](https://docs.microsoft.com/rest/api/securitycenter/)
