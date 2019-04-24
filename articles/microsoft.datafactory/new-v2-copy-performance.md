@@ -10,7 +10,7 @@
 	articleId="21260b03-9072-4f08-ab96-1aa7398b090e"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds="32629468, 32629464, 32629462"
+	supportTopicIds="32629468"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
@@ -27,7 +27,8 @@
   * serialization/deserialization/compression <br>
   * column mapping <br>
 * Please consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
-* Benchmark copy performance against recent in-progress and completed runs [Monitor UI](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+* See breakdown info of copy stages in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+* Benchmark copy performance against recent completed runs in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
 
 ## **Recommended Documents**
 

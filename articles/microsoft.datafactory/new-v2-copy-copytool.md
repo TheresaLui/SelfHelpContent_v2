@@ -7,7 +7,7 @@
 	articleId="4b8991fb-78d1-4808-b6bc-1ac23d044f31"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629471"
+	supportTopicIds="32637154"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"

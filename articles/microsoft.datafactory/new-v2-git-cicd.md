@@ -15,6 +15,10 @@
 
 # Continuous Integration and Delivery with Git Repository
 
+## **Recommended Steps**
+
+Please consider the [Best practices](https://docs.microsoft.com/azure/data-factory/author-visually#best-practices-for-git-integration) for CI/CD in Azure Data Factory
+
 ## **Recommended Documents**
 
 Continuous integration and delivery [(CI/CD)](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) in Azure Data Factory <br>
