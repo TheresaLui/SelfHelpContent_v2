@@ -36,7 +36,7 @@
 	    "id": "feature_dropdown",
 	    "order": 3,
 	    "controlType": "dropdown",
-	    "displayLabel": "Which rsource consumption increase are you requesting help for?",
+	    "displayLabel": "Which resource consumption increase are you requesting help for?",
 	    "watermarkText": "Choose an option",
 	    "dropdownOptions": [{
 		"value": "CPU_consumption_increased",
