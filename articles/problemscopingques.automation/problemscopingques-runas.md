@@ -13,6 +13,7 @@
 # RunAs Account
 ---
 {
+	"subscriptionRequired": false,
 	"resourceRequired": false,
 	"title": "Automation Account",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
