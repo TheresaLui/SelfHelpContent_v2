@@ -27,6 +27,6 @@
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)<br>
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
 
-**Recommended service**<br>
+### **Recommended Service**<br>
 
 * [Gain insights into your Azure Network with Azure Network Watcher](https://azure.microsoft.com/services/network-watcher/)<br>
