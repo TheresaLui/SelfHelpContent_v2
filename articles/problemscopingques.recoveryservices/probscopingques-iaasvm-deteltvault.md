@@ -13,7 +13,7 @@
 # Questions on Deleting the vault  
 ---
 {
-    "subscriptionRequired": true;
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Recovery Services vault deletion failure",
     "fileAttachmentHint": "",
