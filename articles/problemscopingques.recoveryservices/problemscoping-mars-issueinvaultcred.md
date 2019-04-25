@@ -28,14 +28,14 @@
                     "id": "vault_name",
                     "order": 2,
                     "controlType": "textbox",
-                    "displayLabel": "Provide the vault name from which you are trying to download vault credential",
+                    "displayLabel": "Provide the vault name from which you are trying to download vault credential:",
                     "watermarkText": "ex. contoso_vault",
                     "required": false
 	    	},{
                     "id": "basic_troubleshooting_multiselect",
                     "order": 3,
                     "controlType": "multiselectdropdown",
-                    "infoBalloonText": "Check Azure Backup agent<a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>Troubleshooting</a> article",
+                    "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>Troubleshooting</a> article",
                     "displayLabel": "Select the troubleshooting steps that you have performed:",
                     "dropdownOptions": [{
                                             "value": "Try to download vault credential file using different browser",
