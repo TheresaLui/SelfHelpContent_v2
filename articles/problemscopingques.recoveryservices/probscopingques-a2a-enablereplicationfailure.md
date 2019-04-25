@@ -2,17 +2,18 @@
          pageTitle="Scoping questions for Azure VM configuration protection failure"
          description="Scoping questions for Azure VM configuration protection failure"
          authors="ashishgangwar"
-	 ms.author="asgang"
+	     ms.author="asgang"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32574718"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	     articleId="4f18de2d-6ee6-4390-83ae-d79407886e99"
 />
 # Questions Azure VM protection failure 
 ---
 {
+     subscriptionRequired: true;
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
     "fileAttachmentHint": "",

@@ -8,11 +8,12 @@
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-	articleId=""
+	    articleId="06d2190a-f0a0-479b-ab9e-48a98b9c9bc3"
 />
 # Questions on Deleting the vault  
 ---
 {
+    subscriptionRequired:true;
     "resourceRequired": true,
     "title": "Recovery services vault deletion failure",
     "fileAttachmentHint": "",
