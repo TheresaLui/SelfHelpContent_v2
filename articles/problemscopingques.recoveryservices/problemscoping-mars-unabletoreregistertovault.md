@@ -7,7 +7,7 @@
          supportTopicIds="32632798"
          productPesIds="15207"
          cloudEnvironments="public"
-         schemaVersion="1"	
+         schemaVersion="1"
 	 articleId="66f2b938-2ad1-450f-9622-6572bda040c8"
 />
 # Questions for unable to (Re)register to vault
@@ -42,10 +42,10 @@
               "id": "basic_troubleshooting_multiselect",
               "order": 4,
               "controlType": "multiselectdropdown",
-              "infoBalloonText": "Check Azure Backup agent<a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+              "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
               "displayLabel": "Select the troubleshooting steps that you have performed:",
               "dropdownOptions": [{
-			                "value": "Azure Backup agent is latest",
+		      "value": "Azure Backup agent is latest",
                       "text": "Azure Backup agent is latest"
                 },{
                       "value": "Machine has Internet connectivity",
