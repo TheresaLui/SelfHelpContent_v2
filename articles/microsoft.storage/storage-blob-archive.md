@@ -7,7 +7,7 @@
 	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602708,32602732,32639221"
+	supportTopicIds="32602732,32639221"
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public"
