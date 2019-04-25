@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure HDInsights: Service Unhealthy"
-    description="Azure HDInsights: Service Unhealthy"
+    pageTitle="Azure HDInsight: Service Unhealthy"
+    description="Azure HDInsight: Service Unhealthy"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="v-miegge"
@@ -14,8 +14,8 @@
     articleId="f10eed21-c120-4722-bfad-1b46217cae9d"
 />
 
-# Azure HDInsights: Service Unhealthy
+# Azure HDInsight: Service Unhealthy
 
-## Recommended Documents
+## **Recommended Documents**
 
 [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
