@@ -1,5 +1,5 @@
 <properties
-	articleId="b1db572c-43de-4b34-9ed7-f74509a4ec4d"
+	articleId="dbea3456-03a5-4977-8613-eef45fd7869a"
 	pageTitle="Scoping Questions for HDInsight Ambari UI Issue"
 	description="Scoping Questions for HDInsight Ambari UI Issue"
 	authors="shravanmn, csunilkumar, lisaliu"
