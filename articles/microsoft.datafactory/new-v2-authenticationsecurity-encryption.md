@@ -7,7 +7,7 @@
 	articleId="1585a117-c6ab-40e3-8996-c4d57f44aaa0"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629476, 32629477"
+	supportTopicIds="32629477"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
@@ -25,3 +25,6 @@
   * Hybrid Scenarios: <br>
     * [Secure Data Store Credentials](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#on-premises-data-store-credentials) <br>
     * [Data Encryption In Transit](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#encryption-in-transit) <br>
+
+* Data Movement Using Data Factory [Compliance Status](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations) <br>
+* Azure Compliance Status can be found in [Microsoft Trust Center](https://www.microsoft.com/trustcenter/default.aspx) <br>
