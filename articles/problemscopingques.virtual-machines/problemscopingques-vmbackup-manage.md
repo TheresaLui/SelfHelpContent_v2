@@ -10,7 +10,7 @@
          schemaVersion="1"
 	articleId="24288ab9-01d4-4e4e-8e98-9722cd84ba27"
 />
-# Questions Azure VM backup management
+# VM Backup
 ---
 {
     "resourceRequired": true,
