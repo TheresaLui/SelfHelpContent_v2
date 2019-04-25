@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure to Azure disaster recovery"
          description="Scoping questions for Azure to Azure disaster recovery"
          authors="ashishgangwar"
+         ms.author="ashishgangwar"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32574719,32574720,32574723,32574721,32574722,32574724,32574725"
          productPesIds="16370"
