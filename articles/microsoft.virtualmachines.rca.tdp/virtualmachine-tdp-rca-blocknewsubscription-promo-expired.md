@@ -18,11 +18,17 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the  promotional SKU **<!--$SkuPromo-->SKU promo<!--/$SkuPromo-->** associated with this subscription has expired. This VM can no longer be deployed.<br>
+We detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because you are trying to use **<!--$SkuPromo-->SKU promo<!--/$SkuPromo-->** that is a **limited** promotional SKU that's unavailable at this time. This specific VM with this SKU can no longer be deployed.<br>
 <!--/issueDescription-->
 
-Thank you for participating in the **<!--$SkuPromo-->SKU promo<!--/$SkuPromo-->**. Now that this promotion has expired, we invite you to use the **<!--$SkuStandard-->standard SKU<!--/$SkuStandard-->** for the disk configuration that was provided in the promotional offer.<br>
+Thank you for trying your deployment with **<!--$SkuPromo-->promo SKU<!--/$SkuPromo--> SKU**. Now that this promotion has expired, we invite you to use the **<!--$SkuStandard-->standard SKU<!--/$SkuStandard--> SKU** which is of comparable specification to the promotional one.<br>
 
-For a list of our current offers, see [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/).
+For a list of our current offers, see [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/).<br>
+
+For an overview of Azure VM sizes, see the following:
+- [Sizes for Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
+- [Sizes for Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)<br>
+
+For a list of available VM sizes for a subscription, see [Resource SKUs](https://docs.microsoft.com/rest/api/compute/resourceskus/list).
 
 
