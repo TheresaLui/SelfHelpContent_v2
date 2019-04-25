@@ -31,7 +31,7 @@
                     "displayLabel": "Provide the vault name from which you are trying to download vault credential",
                     "watermarkText": "ex. contoso_vault",
                     "required": false
-	    	},{			
+	    	},{
                     "id": "basic_troubleshooting_multiselect",
                     "order": 3,
                     "controlType": "multiselectdropdown",
@@ -60,13 +60,13 @@
                                       "required": true
 	        },{
                   "id": "problem_start_time",
-                  "order": 3,
+                  "order": 4,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem begin?",
                   "required": true
 	       },{
                   "id": "problem_description",
-                  "order": 4,
+                  "order": 5,
                   "controlType": "multilinetextbox",
                   "useAsAdditionalDetails": true,
                   "displayLabel": "Additional details",
