@@ -89,7 +89,7 @@
             "id": "get_resourceId",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Please provide the ResourceId:",
+            "displayLabel": "Provide the ResourceId:",
 	    "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
