@@ -16,7 +16,7 @@
 
 # Azure backup server scheduled backup not run automatically
 
-## **Recommended Step**
+## **Recommended Steps**
 
 Ensure that the SQL Agent service is running and set to automatic in MAB server
 
