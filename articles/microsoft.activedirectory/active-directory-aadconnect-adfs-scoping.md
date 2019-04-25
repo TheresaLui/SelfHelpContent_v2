@@ -36,5 +36,16 @@
        }
      ],
 		"required": true
-	}]
+	},
+    {
+			"id": "problem_start_time",
+			"order": 2,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+     }
+
+
+
+]
 }
