@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628004,32628007,32628010,32628011"
+	supportTopicIds="32628004,32628007,32635009,32628010,32628011,32635018"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
