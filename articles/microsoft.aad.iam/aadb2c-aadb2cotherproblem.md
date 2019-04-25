@@ -3,7 +3,7 @@
 	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570973" 
-	 productPesIds="14785,16580" 
+	 productPesIds="16580" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="d170fb72-ba11-45fd-970e-31c642333b05"
