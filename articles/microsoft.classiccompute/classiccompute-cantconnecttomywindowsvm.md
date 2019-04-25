@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I can't connect to my Windows VM"
+    pageTitle="Resolve Windows VM Connection issues"
     description="I can't connect to my Windows VM "
     service="microsoft.classiccompute"
     resource="virtualmachines"
@@ -7,14 +7,14 @@
     ms.author="scotro"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32615531,32615526,32633498"
+    supportTopicIds="32615531,32615526,32633498,32639640"
     resourceTags="windows, WindowsSQL"
-    productPesIds="14749,16342"
+    productPesIds="14749,14745"
     cloudEnvironments="public"
  	articleId="76f3e549-7706-4cc4-870e-b74887a840f7"
 />
 
-# I can't connect to my Windows VM
+# Resolve Windows Virtual Machine Connection issues
 
 4 out of 5 customers resolved their VM connectivity issue using the below steps.<br>
 

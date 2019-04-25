@@ -7,13 +7,13 @@
 	ms.author="saltug,nicw"
 	supportTopicIds="32635182, 32635200, 32635202, 32635203, 32635212"
 	productPesIds="15818"
-	displayOrder="105"
+	displayOrder="50"
 	selfHelpType="resource"
-	resourceTags=""
+	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades"
 	cloudEnvironments="public"
 />
-# Scheduled Maintenance and Upgrades
+# How to manage and troubleshoot Scheduled Maintenance and upgrades
 
 ## **Recommended Steps**
 * Check your [current Maintenance Schedule](https://docs.microsoft.com/azure/sql-data-warehouse/viewing-maintenance-schedule)<br>

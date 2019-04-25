@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Site-to-Site VPN connectivity issues"
-	description="Site-to-Site VPN connectivity issues"
+	pageTitle="Diagnose and resolve site-to-Site VPN connectivity issues"
+	description="Diagnose and resolve site-to-Site VPN connectivity issues"
 	service="microsoft.network"
 	resource="virtualnetworkgateways"
 	authors="radwiv"
@@ -14,7 +14,7 @@
 	articleId="cc230e94-e48b-46d4-9f87-d618a6fe01ff"
 />
 
-# Site-to-Site VPN connectivity issues
+# Diagnose and resolve site-to-Site VPN connectivity issues
 
 A Site-to-Site VPN gateway connection is used to connect your on-premises network to an Azure virtual network over an IPsec/IKE (IKEv1 or IKEv2) VPN tunnel. 4 out of 5 customers resolve their Site-to-Site VPN connectivity issues using below steps.<br>
 

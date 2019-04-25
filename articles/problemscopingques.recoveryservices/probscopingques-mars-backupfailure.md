@@ -23,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -98,22 +98,23 @@
                     "text": "Unsupported drives are excluded from backup"
                 },
                 {
-                    "value": "Unsupported files are excluded from backup",
-                    "text": "Unsupported files are excluded from backup"
+                    "value": "Files with unsupported attributes are excluded from backup",
+                    "text": "Files with unsupported attributes are excluded from backup"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+	    "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
@@ -121,7 +122,8 @@
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+	    "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
@@ -136,7 +138,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Basic troubleshooting",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": [

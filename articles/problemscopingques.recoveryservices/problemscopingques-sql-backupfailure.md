@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for SQL database backup failure"
          description="Scoping questions for SQL database backup failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
+         ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605791"
          productPesIds="15207"
@@ -30,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -38,7 +39,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -72,7 +73,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -80,7 +81,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
@@ -89,11 +90,11 @@
             "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
         },
         {
-            "id": "error_message",
+            "id": "error_code",
             "order": 8,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Copy and paste the error message details",
+            "displayLabel": "Provide the error code that are you seeing:",
+            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
             "required": true
         },
         {
@@ -129,14 +130,14 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
             "order": 11,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "learn_more_text1",
