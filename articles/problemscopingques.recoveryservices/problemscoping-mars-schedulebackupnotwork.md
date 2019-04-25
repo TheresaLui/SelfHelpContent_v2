@@ -106,7 +106,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Basic troubleshooting",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
