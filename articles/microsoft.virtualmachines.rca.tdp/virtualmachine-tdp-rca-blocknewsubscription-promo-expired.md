@@ -27,8 +27,7 @@ For a list of our current offers, see [Microsoft Azure Offer Details](https://az
 
 For an overview of Azure VM sizes, see the following:
 - [Sizes for Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
-- [Sizes for Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)<br>
-
-For a list of available VM sizes for a subscription, see [Resource SKUs](https://docs.microsoft.com/rest/api/compute/resourceskus/list).
+- [Sizes for Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)
+- [Resource SKUs - Available VM sizes for a subscription](https://docs.microsoft.com/rest/api/compute/resourceskus/list).
 
 
