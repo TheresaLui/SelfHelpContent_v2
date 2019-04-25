@@ -1,6 +1,6 @@
 <properties
-    pageTitle=Azure HDInsights: Service Unhealthy
-    description=Azure HDInsights: Service Unhealthy
+    pageTitle="Azure HDInsights: Service Unhealthy"
+    description="Azure HDInsights: Service Unhealthy"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="v-miegge"
@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public, MoonCake"
-    articleId=""
+    articleId="f10eed21-c120-4722-bfad-1b46217cae9d"
 />
 
 # Azure HDInsights: Service Unhealthy
