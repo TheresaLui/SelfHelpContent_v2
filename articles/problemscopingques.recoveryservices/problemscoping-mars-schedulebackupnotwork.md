@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired":false,
     "title": "MARS scheduled backup is not run automatically",
     "fileAttachmentHint": "",
     "formElements": [
@@ -59,15 +60,15 @@
                     "value": "Ensure that Microsoft-OnlineBackup status is set to Enabled",
                     "text": "Ensure that Microsoft-OnlineBackup status is set to Enabled"
                 },
-				        {
+		{
                     "value": "Ensure the user account selected for running the task is either SYSTEM or Local Administrators group on the server",
                     "text": "Ensure the user account selected for running the task is either SYSTEM or Local Administrators group on the server"
                 },
                 {
                     "value": "Ensure that ad-hoc backup is working",
                     "text": "Ensure that ad-hoc backup is working"
-                },	
-				        {
+                },
+		{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -79,7 +80,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-			      "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+	    "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -88,7 +89,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-			      "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+	    "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
