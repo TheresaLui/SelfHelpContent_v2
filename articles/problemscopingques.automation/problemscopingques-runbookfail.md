@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013,32599859,32599904,32599922,32628015, 32599862"
+	supportTopicIds="32599860,32599906,32599907,32599908,32615224,32628013,32599859,32599904,32599922,32599862"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -13,6 +13,7 @@
 # Runbook Execution
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Runbook failure",
     "fileAttachmentHint": "",

@@ -13,7 +13,7 @@
 # Automation Account
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Automation Account",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements":

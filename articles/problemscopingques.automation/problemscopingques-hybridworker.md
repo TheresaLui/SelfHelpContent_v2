@@ -33,9 +33,6 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-
-            "required": false
-        },
         {
             "id": "problem_description",
             "order": 5,
@@ -49,7 +46,7 @@
                     "text": "Paste in the exact text of any errors that occurred."
                 }
             ]
-        },
+        }
     ]
 }
 ---

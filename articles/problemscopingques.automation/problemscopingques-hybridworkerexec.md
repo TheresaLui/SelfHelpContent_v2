@@ -82,7 +82,7 @@
                     "text": "Paste in the exact text of any errors that occurred."
                 }
             ]
-        },
+        }
     ]
 }
 ---
