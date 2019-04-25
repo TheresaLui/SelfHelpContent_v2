@@ -1,6 +1,7 @@
 <properties 
     pageTitle="Session affinity issues"
     description="Session affinity issues with Azure Application Gateway"
+    infoBubbleText="Common solution article for instructions on how to troubleshoot session affinity issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"

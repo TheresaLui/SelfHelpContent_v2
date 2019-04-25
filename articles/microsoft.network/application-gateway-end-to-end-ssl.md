@@ -1,6 +1,7 @@
 <properties 
     pageTitle="End-to-end SSL issues"
     description="End-to-end SSL is not working properly"
+    infoBubbleText="Common solution article for instructions on how to troubleshoot end-to-end-ssl issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"

@@ -1,6 +1,7 @@
 <properties 
     pageTitle="I'm encountering too many redirects"
     description="Too many redirects"
+    infoBubbleText="Common solution article for instructions on how to troubleshoot too many redirects error issues with Application Gateway."	
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
