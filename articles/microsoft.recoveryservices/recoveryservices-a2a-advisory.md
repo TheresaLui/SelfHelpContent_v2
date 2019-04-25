@@ -21,8 +21,8 @@
 ## **Recommended Documents**
 
 - [What are the supported and not supported configurations for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure)<br>
-- [What are the pre-requisites for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-prerequisites)<br>
-- [Application and  Crash consistent recovery points details](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions#what-is-an-application-consistent-recovery-point)
+- [What are the prerequisites for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-prerequisites)<br>
+- [Application and  Crash consistent recovery points details](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#what-is-an-application-consistent-recovery-point)
 - [How does the IP assignment happen in Failover and Test Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#after-failover-the-server-doesnt-have-the-same-ip-address-as-the-source-vm-why-is-it-assigned-a-new-ip-address)</br>
 - [How do I find the RTO?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-can-i-find-the-rto-of-a-recovery-plan)
 - [Pricing - What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/blog/know-exactly-how-much-it-will-cost-for-enabling-dr-to-your-azure-vm/)</br>

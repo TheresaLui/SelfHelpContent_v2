@@ -20,4 +20,4 @@
 
 - [Move Azure VMs to another region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-migrate)
 - [Move Azure VMs into Availability Zones](https://docs.microsoft.com/azure/site-recovery/move-azure-vms-avset-azone)
-- [Move Azure VMs between Azure Government and Public regions](https://docs.microsoft.com/en-us/azure/site-recovery/region-move-cross-geos)
+- [Move Azure VMs between Azure Government and Public regions](https://docs.microsoft.com/azure/site-recovery/region-move-cross-geos)
