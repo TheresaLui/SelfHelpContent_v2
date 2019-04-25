@@ -5,7 +5,7 @@
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32565495,32637320,32637321,32637322,32637323,32637324,32637325,32637326,32637327"
-         productPesIds="14749,15571,15797,16454,16470"
+         productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="24288ab9-01d4-4e4e-8e98-9722cd84ba27"
