@@ -38,7 +38,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": Check "<a href='https://aka.ms/AB-AA4dwtq'>Troubleshooting</a> article",
+	    "infoBalloonText": "Check <a href='https://aka.ms/AB-AA4dwtq'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
