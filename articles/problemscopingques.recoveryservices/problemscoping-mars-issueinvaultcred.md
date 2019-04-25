@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for issue in vault credential download"
          description="Scoping questions for issue in vault credential download"
          authors="srinathv"
-		     ms.author="srinathv"
+ 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632797"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="2e956193-880f-437c-942e-575465e86ce2"
+  	 articleId="2e956193-880f-437c-942e-575465e86ce2"
 />
 # Questions for issue in vault credential download
 ---
 {
          "resourceRequired": true,
-		     "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "Issue in vault credential download",
          "fileAttachmentHint": "",
          "formElements":[{
