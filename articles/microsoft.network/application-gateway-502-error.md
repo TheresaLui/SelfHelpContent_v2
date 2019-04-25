@@ -17,9 +17,9 @@
 
 ## **Recommended Steps**
 
-You can get the Bad Gateway Error (502) when there is an issue with the backend application. You can identify this by bypassing the Application Gateway to directly access the backend. If the backend server still returns the same 502 error, then the issue is with the backend and not the Application Gateway.
+You can see a Bad Gateway Error (502) when there is an issue with the backend application. You can identify this by bypassing the Application Gateway to directly access the backend. If the backend server still returns the same 502 error, then the issue is with the backend and not the Application Gateway.
 
-If it is verified that the backend is healthy, then perform the steps in links mentioned below to troubleshoot the issue.
+If it is verified that the backend is healthy, then perform the steps in links below to troubleshoot the issue.
 
 ## **Recommended Documents**
 
