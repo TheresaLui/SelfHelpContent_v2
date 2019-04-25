@@ -20,7 +20,7 @@
 
 * **Failover Cluster has a Virtual Machine that is in Failed/Error state, causing periodic Discovery/RefreshFabricLayout to fail. This can happen when the actual VM has been deleted on the Hyper-V Host.**
 
-	Delete or fix the VM that is in Failed/Error state in Failover Cluster should resolve the issue.
+	Deleting or fixing the VM that is in Failed/Error state in Failover Cluster should resolve the issue.
 
 * **When Hyper-V Failover Cluster is added to the Host list for Discovery and clicked on Validate button. You may see that a validate operation will fail with the error "WinRM is unable to resolve the server. Check DNS"**
 
@@ -29,7 +29,7 @@
 	3. In the File name field, paste the following path in: `C:\Windows\System32\Drivers\etc\hosts`
 	4. Add the IP address and cluster Node Hostname in a row. Repeat for each cluster node.
 	5. Save and close hosts file
-	6. Try validate again. It should succeed now.
+	6. Try to validate again. It should succeed now.
 
 *  **Discovery failed - Error: Azure key vault operation failed. Please retry the operation. If the issue persists, please contact Microsoft support.**
 
