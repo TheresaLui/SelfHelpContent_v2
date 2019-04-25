@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-[Troubleshoot Apache Hadoop HDFS by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hdfs)
+* [Troubleshoot Apache Hadoop HDFS by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hdfs)
