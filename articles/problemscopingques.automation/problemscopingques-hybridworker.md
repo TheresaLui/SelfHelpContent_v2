@@ -5,7 +5,7 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599857,32599920,32599939,32599940"
+	supportTopicIds="32599857,32599920,32599939"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -33,21 +33,7 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-        {
-            "id": "previously successful",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Has this runbook successfully run in Azure Automation before?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes, this runbook has successfully run in Azure Automation before"
-                },
-                {
-                    "value": "No",
-                    "text": "No, this runbook has never successfully run in Azure Automation"
-                }
-            ],
+
             "required": false
         },
         {

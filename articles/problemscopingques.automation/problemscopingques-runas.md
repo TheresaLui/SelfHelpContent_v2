@@ -1,19 +1,19 @@
 <properties
-	articleId="problemscopingques-portal.md"
-	pageTitle="Azure Automation - Automation Account"
-	description="Azure Automation - Automation Account"
+	articleId="problemscopingques-runas.md"
+	pageTitle="Azure Automation - Run As Account"
+	description="Azure Automation - Run As Account"
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599858,32599921,32599929,32599933"
+	supportTopicIds="32628004,32628007,32628010,32628011"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Automation Account
+# RunAs Account
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "Automation Account",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements":
@@ -24,6 +24,23 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
+        },
+		{
+            "id": "RunasAccountType",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Is the RunAs account a Classic RunAs?",
+            "dropdownOptions": [
+                {
+                    "value": "ARM",
+                    "text": "No, this is an Azure Run As account"
+                },
+                {
+                    "value": "Classic",
+                    "text": "Yes, this is a Classic Run As account"
+                },
+            ],
+            "required": false
         },
         {
 			"id": "problem_description",

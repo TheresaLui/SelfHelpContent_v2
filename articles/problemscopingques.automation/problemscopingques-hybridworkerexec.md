@@ -1,25 +1,34 @@
 <properties
-	articleId="problemscopingques-runbookfail.md"
-	pageTitle="Azure Automation - Runbook Execution"
-	description="Azure Automation - Runbook Execution"
+	articleId="problemscopingques-hybridworkerexec.md"
+	pageTitle="Azure Automation - Hybrid Worker"
+	description="Azure Automation - Hybrid Worker"
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599860,32599923,32599906,32599907,32599908,32599909,32615224,32628014,32628013,32599859,32599904,32599922,32628015, 32599862"
+	supportTopicIds="32628014,32599940"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Runbook Execution
+# Hybrid Worker
 ---
 {
+    "subscriptionRequired": false,
     "resourceRequired": true,
-    "title": "Runbook failure",
+    "title": "Hybrid Worker",
     "fileAttachmentHint": "",
-    "formElements": [
+    "formElements":
+    [
+        {
+			"id": "NodeName",
+			"order": 1,
+			"controlType": "textbox",
+			"displayLabel": "Please provide the computer name of the hybrid worker",
+			"required": false
+        },
         {
             "id": "runbook selection",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the runbook that has the problem",
             "watermarkText": "Choose a runbook",
@@ -38,14 +47,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "previously successful",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Has this runbook successfully run in Azure Automation before?",
             "dropdownOptions": [
@@ -56,27 +65,6 @@
                 {
                     "value": "No",
                     "text": "No, this runbook has never successfully run in Azure Automation"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "run locally",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Are you able to get the runbook working locally?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes, this runbook works locally but not in Azure Automation"
-                },
-                {
-                    "value": "No",
-                    "text": "No, this runbook does not work locally"
-                },
-                {
-                    "value": "Don't know",
-                    "text": "I don't know if the runbook works locally"
                 }
             ],
             "required": false
@@ -95,12 +83,6 @@
                 }
             ]
         },
-        {
-            "id": "learn_more_text",
-            "order": 6,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com//azure/automation/troubleshoot/runbooks'>Learn more</a> about troubleshooting runbooks"
-        }
     ]
 }
 ---
