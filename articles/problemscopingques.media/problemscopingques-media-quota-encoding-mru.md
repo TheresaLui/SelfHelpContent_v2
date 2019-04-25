@@ -54,7 +54,7 @@
         },
         {
             "id": "quota_MRU_one_selected",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you set your account to have at least one unit of the desired Media Reserved Units (MRU) type? Please set account to at least one RU before continuing with support ticket.",
             "infoBalloonText": "Please set account to at least one Media Reserved Units (MRU) before continuing with support ticket",
@@ -73,7 +73,7 @@
         },
         {
             "id": "quota_MRU_value",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the new desired upper limit for Media Reserved Units (MRU) (for example, the default limit for S3 units is 10 in the Azure Portal and you may need to go up to 100)",
             "infoBalloonText": "Please provide the max number of Media Reserved Units (MRU) that you would need.",
@@ -173,7 +173,7 @@
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Quota increase details",
             "watermarkText": "Provide additional details about your quota increase request, scenario, timeline, etc. that would be helpful for the support team when evaluating your request",

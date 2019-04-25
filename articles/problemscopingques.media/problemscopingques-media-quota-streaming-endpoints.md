@@ -41,7 +41,7 @@
                     "text": "No"
                 },
                 {
-                    "value": "Don't know",
+                    "value": "dont_know_answer",
                     "text": "Don't know"
                 }
             ],

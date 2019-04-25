@@ -49,7 +49,7 @@
                     "text": "5 to 10 Million"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_assets_duration",
