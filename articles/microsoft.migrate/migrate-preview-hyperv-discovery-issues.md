@@ -64,4 +64,4 @@
 
 *  **Discovery fails with error: The client 'xx' with object id 'xx' does not have authorization to perform action 'Microsoft.Resources/subscriptions/resourcegroups/read'**
 
-	The Azure user you used does not have at least Contributor access on the subscription. Please ensure you have the necessary privileges required. [Learn more](https://azuremigrate.blob.core.windows.net/azuremigratelimitedpreview2019/Limited%20Preview%20User%20Guide%20-%20Hyper-V.pdf)
+	The Azure user you used does not have at least [Contributor access on the subscription](https://azuremigrate.blob.core.windows.net/azuremigratelimitedpreview2019/Limited%20Preview%20User%20Guide%20-%20Hyper-V.pdf). Please ensure you have the necessary privileges required.
