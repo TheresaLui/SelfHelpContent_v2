@@ -4,6 +4,7 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="ramMSFT"
+	ms.author=raprasad"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602708,32602732,32639221"
