@@ -16,16 +16,16 @@
 
 ## **Recommended Steps**
 
-- The **Overall secure score** represents the score per policies, per selected subscription.
-- Secure score by category shows you which resources need the most attention.
-- Top recommendations by secure score impact provides you with a list of the recommendations that will improve your secure score the most if you implement them.
+- The **Overall secure score** represents the score per policies, per selected subscription
+- Secure score by category shows you which resources need the most attention
+- Top recommendations by secure score impact provides you with a list of the recommendations that will improve your secure score the most if you implement them
 - The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions.
 
 **Individual secure score**
 
-In addition, to view individual secure scores, you can find these within the individual recommendation blade.
-The **Recommendation secure score** is a calculation based on the ratio between your healthy resources and your total resources. If the number of healthy resources is equal to the total number of resources, you get the maximum secure score of the recommendation of 50. To try to get your secure score closer to the max score, fix the unhealthy resources by following the recommendations.
-The **Recommendation impact** lets you know how much your secure score improves if you apply the recommendation steps. For example, if your secure score is 42 and the **Recommendation impact** is +3, performing the steps outlined in the recommendation improve your score to become 45.
+* You can view individual secure scores within the individual recommendation blade
+* The **Recommendation secure score** is a calculation based on the ratio between your healthy resources and your total resources. If the number of healthy resources is equal to the total number of resources, you get the maximum secure score of the recommendation of 50. To try to get your secure score closer to the max score, fix the unhealthy resources by following the recommendations.
+* The **Recommendation impact** lets you know how much your secure score improves if you apply the recommendation steps. For example, if your secure score is 42 and the **Recommendation impact** is +3, performing the steps outlined in the recommendation improve your score to become 45.
 
 ## **Recommended Documents**
 
@@ -33,11 +33,11 @@ The **Recommendation impact** lets you know how much your secure score improves 
 
 **Troubleshooting**
 
-- [Azure Security Center Troubleshooting Guide] https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide
+- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 
-- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
+- [ASC FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
 
 **How to and advisory information**
 
