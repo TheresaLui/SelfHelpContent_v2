@@ -58,8 +58,8 @@
                       "value": "Azure Backup agent is latest",
                       "text": "Azure Backup agent is latest"
                     },{
-                      "value": "Ensure that only Azure PowerShell version 3.7.0 is installed",
-                      "text": "Ensure that only Azure PowerShell version 3.7.0 is installed"
+                      "value": "Ensure Azure PowerShell version 3.7.0 is installed on source and copy computer",
+                      "text": "Ensure Azure PowerShell version 3.7.0 is installed on source and copy computer"
                     },{
                       "value": "Microsoft Edge or Internet Explorer 11 is installed, and JavaScript is enabled",
                       "text": "Microsoft Edge or Internet Explorer 11 is installed, and JavaScript is enabled"
