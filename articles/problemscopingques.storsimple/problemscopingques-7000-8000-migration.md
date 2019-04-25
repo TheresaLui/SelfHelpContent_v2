@@ -73,7 +73,7 @@
 				"dropdownOptions": [
 					{
 						"value": "NoDestinationDevice",
-						"text": "Not specific to a destination device"
+						"text": "Not specific to any destination device"
 					}
 				],
 				"required": false
