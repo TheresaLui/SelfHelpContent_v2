@@ -1,6 +1,6 @@
 <properties
 	pageTitle="What is Premium Fileshare"
-	description="What is Premium Fileshare
+	description="What is Premium Fileshare"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="ramMSFT"
