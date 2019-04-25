@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-Ensure that the SQL Agent service is running and set to automatic in MAB server
+* Ensure that the SQL Agent service is running and set to automatic in MAB server
 
 ## **Recommended Documents**
 
