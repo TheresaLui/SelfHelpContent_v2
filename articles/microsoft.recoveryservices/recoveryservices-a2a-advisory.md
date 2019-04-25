@@ -53,5 +53,5 @@
 ### **Replicate IaaS VMs from one Azure region to another Azure region**
 
 * [Review the architecture for Azure VM replication between Azure regions](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)<br>
-* [Troubleshoot Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)<br>
-- [**Refer most frequently asked questions before filing a support case**](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions)
+* [Troubleshoot Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)
+* [**Refer to the most frequently asked questions before filing a support case**](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions)
