@@ -26,6 +26,7 @@ Thank you for trying your deployment with **<!--$SkuPromo-->promo SKU<!--/$SkuPr
 For a list of our current offers, see [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/).<br>
 
 For an overview of Azure VM sizes, see the following:
+
 - [Sizes for Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sizes)
 - [Sizes for Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)
 - [Resource SKUs - Available VM sizes for a subscription](https://docs.microsoft.com/rest/api/compute/resourceskus/list).
