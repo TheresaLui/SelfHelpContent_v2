@@ -1,28 +1,29 @@
 <properties
-	pageTitle="Resolving issues with Virtual Disk Management and Storage"
-	description="Resolving issues with Virtual Disk Management and Storage"
+	pageTitle="Resolving issues with VM Disk Management"
+	description="Resolving issues with VM Disk Management"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure,timbasham"
 	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32632139,32632140,32632141,32632142,32632143"
+	supportTopicIds="32632141"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt"
+	articleId="compute-virtualdiskmgmt-problemnotlisted"
 />
 
-# Resolving issues with Linux Virtual Disk Management and Storage
+# Resolving issues with VM Disk Management
 
-4 out of 5 customers resolved their VM virtual disk issue using the steps below.
+4 out of 5 customers resolved their VM disk issue using the steps below.
 
 ## **Recommended Steps**
 
 ### Attaching or detaching disks
 
 * **Attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-a-new-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#add-an-empty-data-disk-to-a-virtual-machine)
+* [Intialize a new data disk in the VM OS](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
 * **Attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-an-existing-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#attach-an-existing-data-disk-to-a-vm)
 * **Detach a data disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-the-portall) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-powershell)
 * [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
