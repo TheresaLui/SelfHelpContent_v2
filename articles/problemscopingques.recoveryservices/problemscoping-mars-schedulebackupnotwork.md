@@ -38,7 +38,8 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have performed:",
+	    "infoBalloonText": Check "<a href=<'https://aka.ms/AB-AA4dwtq'>Troubleshooting</a> article",
+            "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
                     "value": "Azure Backup agent is latest",
