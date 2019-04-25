@@ -13,6 +13,7 @@
 # Questions Azure VM backup management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM backup or restore failure",
     "fileAttachmentHint": "",
