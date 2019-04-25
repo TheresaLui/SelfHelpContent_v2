@@ -13,16 +13,16 @@
 # Questions on Deleting the vault  
 ---
 {
-    subscriptionRequired:true;
+    "subscriptionRequired": true;
     "resourceRequired": true,
-    "title": "Recovery services vault deletion failure",
+    "title": "Recovery Services vault deletion failure",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which recovery services vault were you unable to delete?",
+            "displayLabel": "Which Recovery Services vault was you unable to delete?",
             "watermarkText": "Enter the name of the recovery services vault",
             "required": true
         },
@@ -41,8 +41,8 @@
                     "text": "Check all backups are deleted"
                 },
                 {
-                    "value": "Tried forecefully deleting the vault using powershell",
-                    "text": "Tried forecefully deleting the vault using powershell"
+                    "value": "Tried force deleting the vault by using PowerShell",
+                    "text": "Tried force deleting the vault by using PowerShell"
                 },
 
 		{

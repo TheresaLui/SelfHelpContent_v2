@@ -13,7 +13,7 @@
 # Questions Azure VM protection failure 
 ---
 {
-     subscriptionRequired: true;
+    "subscriptionRequired": true;
     "resourceRequired": true,
     "title": "Azure VM configuration failure",
     "fileAttachmentHint": "",
@@ -38,7 +38,7 @@
             "id": "Select_ErrorMessage",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Select the error message that you are seeing?",
+            "displayLabel": "Select the error message that you received:",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
