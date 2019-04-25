@@ -33,11 +33,11 @@ The **Recommendation impact** lets you know how much your secure score improves 
 
 **Troubleshooting**
 
-- [Azure Security Center Troubleshooting Guide] https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide
+- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
 
 **FAQ**
 
-- [Azure Security Center Troubleshooting Guide](https://docs.microsoft.com/azure/security-center/security-center-troubleshooting-guide)
+- [ASC FAQ](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq)
 
 **How to and advisory information**
 
