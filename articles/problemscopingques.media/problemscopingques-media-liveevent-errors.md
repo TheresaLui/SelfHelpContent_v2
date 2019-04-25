@@ -64,7 +64,7 @@
             "id": "live_encoder_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Which recommmended on-premises live encoders for Media Services are you using?",
+            "displayLabel": "Which recommended on-premises live encoders for Media Services are you using?",
             "infoBalloonText": "See more details about <a href='https://go.microsoft.com/fwlink/?linkid=2087173'>recommended live encoders</a> in the documentation.",
             "dropdownOptions": [{
                 "value": "Adobe Flash Media Live Encoder 3.2",
