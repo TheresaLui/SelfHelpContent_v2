@@ -13,6 +13,7 @@
 # Runbook Execution
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Runbook failure",
     "fileAttachmentHint": "",

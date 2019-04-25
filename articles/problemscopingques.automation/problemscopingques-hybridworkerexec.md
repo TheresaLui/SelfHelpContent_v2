@@ -13,7 +13,7 @@
 # Hybrid Worker
 ---
 {
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Hybrid Worker",
     "fileAttachmentHint": "",
