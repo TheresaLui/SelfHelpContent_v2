@@ -45,7 +45,7 @@
                     "text": "Live Encoding - Premium 1080p30"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_liveevent_increase",
@@ -89,10 +89,10 @@
                 },
                 {
                     "value": "100+",
-                    "text": "> 100"
+                    "text": "more than 100"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_liveevent_duration",

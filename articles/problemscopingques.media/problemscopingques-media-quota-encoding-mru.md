@@ -44,6 +44,10 @@
                 {
                     "value": "S3",
                     "text": "S3"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
@@ -65,7 +69,7 @@
                     "text": "No"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_MRU_value",
@@ -89,10 +93,10 @@
                 },
                 {
                     "value": "200+",
-                    "text": "> 200"
+                    "text": "more than 200"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_MRU_200_plus_details",

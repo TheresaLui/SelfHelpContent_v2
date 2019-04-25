@@ -89,10 +89,10 @@
                 },
                 {
                     "value": "100+",
-                    "text": "> 100"
+                    "text": "more than 100"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "quota_SRU_duration",
@@ -128,7 +128,7 @@
                 }
             ],
             "required": false
-        }
+        },
         {
             "id": "problem_description",
             "order": 6,

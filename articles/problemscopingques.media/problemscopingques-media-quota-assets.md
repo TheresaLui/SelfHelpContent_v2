@@ -39,7 +39,7 @@
                 {
                     "value": "2 Million",
                     "text": "2 Million"
-                }
+                },
                 {
                     "value": "4 Million",
                     "text": "4 Million"

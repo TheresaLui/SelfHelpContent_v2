@@ -39,6 +39,10 @@
                 {
                     "value": "Streaming Policy",
                     "text": "Streaming Policy (v3 API)"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
