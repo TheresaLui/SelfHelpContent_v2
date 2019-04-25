@@ -20,7 +20,7 @@
 
 ### "Provisioning failed"
 
-* Most issues are caused by network configurations. Please review the requirements in the [Prerequisites section of the State Configuration overview](https://docs.microsoft.com/azure/automation/automation-dsc-overview#network-planning)
+* Most issues are caused by network configurations. Please review the requirements in the [Prerequisites section of the State Configuration overview](https://docs.microsoft.com/azure/automation/automation-dsc-overview#network-planning).
 
 ### Node is in "Failed" status with "Not Found" error
 
@@ -32,12 +32,8 @@
 
 ### Checking error logs
 
-* See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case.
+* See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case
 * You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
-
-
-
-
 
 ## **Recommended Documents**
 
