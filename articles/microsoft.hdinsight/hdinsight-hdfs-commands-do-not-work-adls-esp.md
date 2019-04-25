@@ -6,7 +6,7 @@
     authors="TobyTu"
     ms.author="jaserano"
     displayOrder=""
-    selfHelpType="resource"
+    selfHelpType="Generic"
     supportTopicIds="32636434"
     resourceTags=""
     productPesIds="15078"
