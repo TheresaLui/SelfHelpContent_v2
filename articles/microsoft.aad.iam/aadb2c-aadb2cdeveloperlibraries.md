@@ -4,6 +4,8 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32633308,32633312,32633321,32633324,32633595" 
 	 productPesIds="16580" 
+     authors="parakhj"
+	 ms.author="parja"
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
    articleId="74bb6c16-6466-495c-a460-bc8fa2effaf8"
@@ -27,7 +29,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -44,7 +45,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -70,7 +70,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -87,7 +86,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -104,7 +102,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -121,7 +118,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -138,7 +134,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,

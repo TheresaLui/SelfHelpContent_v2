@@ -4,6 +4,8 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570973" 
 	 productPesIds="16580" 
+     authors="parakhj"
+	 ms.author="parja"
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
     articleId="d170fb72-ba11-45fd-970e-31c642333b05"
@@ -27,7 +29,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -61,7 +62,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -78,7 +78,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -95,7 +94,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -112,7 +110,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -129,7 +126,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -146,7 +142,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,

@@ -5,6 +5,8 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32633316,32633317,32633318,32633320,32633325,32633327,32633328"
     productPesIds="16580"
+    authors="parakhj"
+    ms.author="parja"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
@@ -40,7 +42,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -57,7 +59,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -74,7 +76,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -91,7 +93,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -108,7 +110,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,

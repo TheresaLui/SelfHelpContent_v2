@@ -5,6 +5,8 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32633306,32633307,32633315,32633319,32633322"
     productPesIds="16580"
+    authors="parakhj"
+    ms.author="parja"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="95844536-f669-43e4-873c-5c1af6f4310d"
@@ -27,7 +29,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -61,7 +63,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -78,7 +80,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -95,7 +97,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -112,7 +114,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -129,7 +131,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -146,7 +148,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
