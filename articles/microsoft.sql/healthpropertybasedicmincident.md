@@ -16,12 +16,16 @@
 	    cloudEnvironments="public"
 />
 
-# We ran diagnostics on your resource and found an issue
+# Database connectivity: Health property generated IcM incident
+
+## We ran diagnostics on your resource and found an issue
 
 There is an existing IcM incident open for this database <i><!--$DatabaseName-->DatabaseName<!--/$DatabaseName--></i> on server <i><!--$ServerName-->ServerName<!--/$ServerName--></i>.
-Please review the related incident(s) : 
-    <li> To see if the issue currently experienced by the customer is related to this incident
-    <li> If this incident is a Live Site incident impacting one or more resources/customers
-    <li> Known issue/bug
+
+Please review the related incident(s) for: 
+
+* If the issue currently experienced by the customer is related to this incident
+* If this incident is a Live Site incident impacting one or more resources/customers
+* Any known issues/bugs
 
 Please reach out to the IcM owner for an update.
