@@ -45,8 +45,8 @@
               "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
               "displayLabel": "Select the troubleshooting steps that you have performed:",
               "dropdownOptions": [{
-		      "value": "Azure Backup agent is latest",
-                      "text": "Azure Backup agent is latest"
+		      "value": "Ensured Azure Backup agent is latest",
+                      "text": "Ensured Azure Backup agent is latest"
                 },{
                       "value": "Machine has Internet connectivity",
                       "text": "Machine has Internet connectivity"
@@ -54,20 +54,20 @@
                       "value": "Try register using latest vault credential file",
                       "text": "Try register using latest vault credential file"
 		},{
-                      "value": "Downloaded vault credential is not more than 48 hours older",
-                      "text": "Downloaded vault credential is not more than 48 hours older"
+                      "value": "Tried registering with a vault credentials downloaded within 48hrs",
+                      "text": "Tried registering with a vault credentials downloaded within 48hrs"
 		},{
-                      "value": "Firewall settings on the machine/proxy are configured to allow the required URLs",
-                      "text": "Firewall settings on the machine/proxy are configured to allow the required URLs"
+                      "value": "Firewall settings on the machine/proxy are configured to allow required URLs",
+                      "text": "Firewall settings on the machine/proxy are configured to allow required URLs"
 		},{
-                      "value": "Proxy is enabled and browser settings are configured to use proxy",
-                      "text": "Proxy is enabled and browser settings are configured to use proxy"
+                      "value": "If proxy is enabled, then browser settings are configured to use proxy",
+                      "text": "If proxy is enabled, then browser settings are configured to use proxy"
 	        },{
                       "value": "If antivirus is running, then exclusion rules are used",
                       "text": "If antivirus is running, then exclusion rules are used"
                 },{
-                    "value": "Ensure machine is already not registered with another vault",
-                    "text": "Ensure machine is already not registered with another vault"
+                    "value": "Ensured machine is not registered with an another vault",
+                    "text": "Ensured machine is not registered with an another vault"
                 },{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
