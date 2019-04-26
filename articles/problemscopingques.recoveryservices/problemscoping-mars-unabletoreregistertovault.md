@@ -50,12 +50,9 @@
                 },{
                       "value": "Machine has Internet connectivity",
                       "text": "Machine has Internet connectivity"
-                },{
-                      "value": "Try register using latest vault credential file",
-                      "text": "Try register using latest vault credential file"
 		},{
-                      "value": "Tried registering with a vault credentials downloaded within 48hrs",
-                      "text": "Tried registering with a vault credentials downloaded within 48hrs"
+                      "value": "Tried registering with a vault credential downloaded within 48hrs",
+                      "text": "Tried registering with a vault credential downloaded within 48hrs"
 		},{
                       "value": "Firewall settings on the machine/proxy are configured to allow required URLs",
                       "text": "Firewall settings on the machine/proxy are configured to allow required URLs"
