@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-1.	If the Terms of use is targetted to Intune Enrollment app, turn off the consent per device setting on the TOU.
+1.	If the Terms of use is targetted to Intune Enrollment app, turn off the consent per device setting on the TOU
