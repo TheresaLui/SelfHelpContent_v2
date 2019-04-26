@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for issue with vault credential"
          description="Scoping questions for issue with vault credential"
          authors="srinathv"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632786"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="c3a606de-ec65-48ad-840c-c623331d42f0"
+	 articleId="c3a606de-ec65-48ad-840c-c623331d42f0"
 />
 # Questions for issue with vault credential
 ---
 {
          "resourceRequired": true,
-		      "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "issue with vault credential",
          "fileAttachmentHint": "",
          "formElements":[{
@@ -60,7 +60,7 @@
                                   },{
                                     "value": "If performing restore, ensured both original and alternate server are registered to the same vault",
                                     "text": "If performing restore, ensured both original and alternate server are registered to the same vault"
-                                  },{	
+                                  },{
                                     "value": "dont_know_answer",
                                     "text": "Other, don't know or not applicable"
                                 }
