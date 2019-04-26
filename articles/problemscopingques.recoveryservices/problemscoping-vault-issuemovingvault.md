@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for issue moving vault"
          description="Scoping questions for issue moving vault"
          authors="srinathv"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632781"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="fe9e184c-afe1-4a0f-a39d-a892c55c9849"
+	 articleId="fe9e184c-afe1-4a0f-a39d-a892c55c9849"
 />
 # Questions for issue moving vault
 ---
 {
          "resourceRequired": true,
-		      "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "Issue moving vault",
          "fileAttachmentHint": "",
          "formElements":[{
@@ -51,9 +51,6 @@
                   },{
                     "value": "Tried moving vault using PowerShell",
                     "text": "Tried moving vault using PowerShell"
-                  },{
-                    "value": "Machine's date and time is configured correctly",
-                    "text": "Machine's date and time is configured correctly"
                   },{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
