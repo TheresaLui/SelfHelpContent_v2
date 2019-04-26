@@ -22,14 +22,14 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "What date do you need the media reserved unit quota increase by?",
+            "displayLabel": "What date do you need the Media Reserved Unit quota increase by?",
             "required": true
         },
         {
             "id": "quota_MRU_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Which type Media Reserved Units (MRU) do you need?",
+            "displayLabel": "Which type of Media Reserved Units (MRU) do you need?",
             "infoBalloonText": "For details on Media Reserved Unit types please see <a href='https://docs.microsoft.com/azure/media-services/previous/media-services-scale-media-processing-overview#choosing-between-different-reserved-unit-types'>documentation on reserved unit types </a>",
             "watermarkText": "Select one of the Media Reserved Unit types",
             "dropdownOptions": [
@@ -53,68 +53,69 @@
             "required": true
         },
         {
-            "id": "quota_MRU_one_selected",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Have you set your account to have at least one unit of the desired Media Reserved Units (MRU) type? Please set account to at least one RU before continuing with support ticket.",
-            "infoBalloonText": "Please set account to at least one Media Reserved Units (MRU) before continuing with support ticket",
-            "watermarkText": "Select Yes or No",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "quota_MRU_value",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What is the new desired upper limit for Media Reserved Units (MRU) (for example, the default limit for S3 units is 10 in the Azure Portal and you may need to go up to 100)",
             "infoBalloonText": "Please provide the max number of Media Reserved Units (MRU) that you would need.",
             "watermarkText": "Select a value",
             "dropdownOptions": [
                 {
-                    "value": "25",
-                    "text": "25"
+                    "value": "30",
+                    "text": "30"
+                },
+                {
+                    "value": "40",
+                    "text": "40"
                 },
                 {
                     "value": "50",
                     "text": "50"
                 },
                 {
+                    "value": "60",
+                    "text": "60"
+                },
+                {
+                    "value": "70",
+                    "text": "70"
+                },
+                {
+                    "value": "80",
+                    "text": "80"
+                },
+                {
+                    "value": "90",
+                    "text": "90"
+                },
+                {
                     "value": "100",
                     "text": "100"
                 },
                 {
-                    "value": "200+",
-                    "text": "more than 200"
+                    "value": "Other",
+                    "text": "Other"
                 }
             ],
             "required": false
         },
         {
             "id": "quota_MRU_200_plus_details",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the new requested upper limit for Media Reserved Units (MRU)?",
             "infoBalloonText": "Please provide the max upper limit of Media Reserved Units (MRU) that you  need.",
             "watermarkText": "Enter a numeric value",
-            "visibility" : "quota_MRU_value == 200+",
+            "visibility" : "quota_MRU_value == Other",
             "required": false
         },
         {
             "id": "quota_MRU_time_period",
-            "order": 6,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What is the time period that you require the increased quota held for?",
             "infoBalloonText": "Large quota increases should be explained in terms of time period that they will be required to be held for. Provide as much detail as possible up front to speed up the request.",
-            "visibility": "quota_MRU_value == 200+",
+            "visibility": "quota_MRU_value == Other",
             "watermarkText": "Select a time period",
             "dropdownOptions": [
                 {
@@ -146,10 +147,10 @@
         },
         {
             "id": "quota_MRU_video_or_analytics",
-            "order": 7,
+            "order": 6,
             "controlType": "multiselectdropdown",
             "displayLabel": "Do you intend to use the quota increase for Encoding, Video Analytics or Audio Analytics",
-            "infoBalloonText": "Please selected the use case desired for the quota increase",
+            "infoBalloonText": "Please select the use case desired for the quota increase",
             "watermarkText": "Select one or more of the use cases",
             "dropdownOptions": [
                 {
@@ -173,7 +174,7 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Quota increase details",
             "watermarkText": "Provide additional details about your quota increase request, scenario, timeline, etc. that would be helpful for the support team when evaluating your request",

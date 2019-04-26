@@ -15,7 +15,7 @@
 {
     "subscriptionRequired" : true,
     "resourceRequired": true,
-    "title": "Live Event or Channel connectivity or encoding errors",
+    "title": "Live Event connectivity or encoding errors",
     "fileAttachmentHint": "Please attach any encoder configuration settings files, live encoder log files, Net Monitor, Wireshark, or Fiddler traces of the issue if available.",
     "formElements": [{
             "id": "liveEvent_Errors",
@@ -35,7 +35,8 @@
                 "text": "Don't Know"
             }],
             "required": true
-        }, {
+        }, 
+        {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
@@ -127,6 +128,16 @@
                 "value": "Other",
                 "text": "Other"
             }],
+            "required": false
+        },
+        {
+            "id": "live_encoder_type_other_value",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "What is the name and version of the on-premises live encoders you are using?",
+            "infoBalloonText": "Please provide the name and version.",
+            "watermarkText": "Enter name and version of encoder",
+            "visibility" : "live_encoder_type == Other",
             "required": false
         },
         {

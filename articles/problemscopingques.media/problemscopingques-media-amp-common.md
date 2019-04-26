@@ -207,19 +207,19 @@
                 },
                 {
                     "value": "PlayReady",
-                    "text": "PlayRead"
+                    "text": "PlayReady"
                 },
                 {
-                    "value": "Fairplay",
-                    "text": "Fairplay"
+                    "value": "FairPlay",
+                    "text": "FairPlay"
                 },
                 {
                     "value": "Widevine",
                     "text": "Widevine"
                 },
                 {
-                    "value": "AES Clear key",
-                    "text": "AES Clear key"
+                    "value": "AES clear key",
+                    "text": "AES clear key"
                 },
                 {
                     "value": "dont_know_answer",

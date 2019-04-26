@@ -22,7 +22,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "What date do you need the Access  or Streaming Policy quota changed by?",
+            "displayLabel": "What date do you need the Access or Streaming Policy quota changed by?",
             "required": true
         },
         {

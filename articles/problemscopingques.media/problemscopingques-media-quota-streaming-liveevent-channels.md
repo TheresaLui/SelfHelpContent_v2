@@ -48,7 +48,7 @@
             "required": false
         },
         {
-            "id": "quota_liveevent_increase",
+            "id": "quota_liveevent_value",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How many concurrent LiveEvents or Channels do you need?",
@@ -72,66 +72,25 @@
                     "text": "20"
                 },
                 {
-                    "value": "30",
-                    "text": "30"
-                },
-                {
-                    "value": "40",
-                    "text": "40"
-                },
-                {
-                    "value": "50",
-                    "text": "50"
-                },
-                {
-                    "value": "75",
-                    "text": "75"
-                },
-                {
-                    "value": "100+",
-                    "text": "more than 100"
+                    "value": "Other",
+                    "text": "Other"
                 }
             ],
             "required": false
         },
         {
-            "id": "quota_liveevent_duration",
+            "id": "quota_liveevent_Other_value",
             "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "What is the time period that you would need the increased quota for?",
-            "infoBalloonText": "Large quota increases should be explained in terms of time period that they will be needed for. Provide as much detail as possible up front to speed up the request.",
-            "watermarkText": "Select one of the time periods",
-            "dropdownOptions": [
-                {
-                    "value": "A few weeks",
-                    "text": "A few weeks"
-                },
-                {
-                    "value": "1 month",
-                    "text": "1 month"
-                },
-                {
-                    "value": "3 months",
-                    "text": "3 months"
-                },
-                {
-                    "value": "6 months",
-                    "text": "6 months"
-                },
-                {
-                    "value": "1 year",
-                    "text": "1 year"
-                },
-                {
-                    "value": "Indefinitely",
-                    "text": "Indefinitely"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "What is the new requested upper limit for Live Events or Channels?",
+            "infoBalloonText": "Please provide the max upper limit of Live Events or Channels that you need.",
+            "watermarkText": "Enter a numeric value",
+            "visibility" : "quota_liveevent_value == Other",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Quota increase details",
             "watermarkText": "Provide additional details about your quota increase request, scenario, timeline, etc. that would be helpful for the support team when evaluating your request",
