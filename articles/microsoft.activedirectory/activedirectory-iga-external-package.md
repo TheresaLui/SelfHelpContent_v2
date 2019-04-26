@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-1. Ensure that the directory the external user is coming from is allowed in your **Organizational relationships** settings. In the Azure portal for your directory, click **Azure Active Directory**, click **Organizational relationships**, click **Settings**, and then view the **Collaboration restrictions** settings.
+* Ensure that the directory the external user is coming from is allowed in your **Organizational relationships** settings. In the Azure portal for your directory, click **Azure Active Directory**, click **Organizational relationships**, click **Settings**, and then view the **Collaboration restrictions** settings.
