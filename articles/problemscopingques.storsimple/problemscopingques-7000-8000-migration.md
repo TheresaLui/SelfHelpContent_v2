@@ -47,7 +47,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Serial number of source appliance",
 			"watermarkTest": "Serial number of 5000-7000 series appliance",
-			"required": false
+			"required": true
 		}, {
 			"id": "problem_description",
 			"order": 5,
@@ -57,21 +57,6 @@
 			"required": true,
 			"useAsAdditionalDetails": true
 		},
-			{
-			"id": "device name",
-			"order": 1,
-			"controlType": "dropdown",
-			"displayLabel": "Destination device name",
-			"watermarkText": "Choose destination device",
-			"dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
-                "jTokenPath": "value",
-                "textProperty": "id",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-			},
-				"required": false
-				},
 		]
 }
 ---
