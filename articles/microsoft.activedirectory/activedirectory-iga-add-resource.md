@@ -19,6 +19,6 @@
 
 ## **Recommended Steps**
 
-1. Ensure you are a Global administrator, User administrator, or Catalog owner (for the catalog you are working in).
-2. Ensure you have owner permissions for the resource you are trying to add.
+1. Ensure you are a Global administrator, User administrator, or Catalog owner (for the catalog you are working in)
+2. Ensure you have owner permissions for the resource you are trying to add
 3. If you are an Access package manager, you can only create access packages using resources that are already in the catalog you are assigned to. You need to be a Catalog owner to add new resources to the catalog.
