@@ -7,7 +7,7 @@
 	articleId="4bb334b2-7454-45d4-aeb3-ef85910ef76d"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629499, 32629543, 32629435, 32629525"
+	supportTopicIds="32629435"
 	resourceTags=""
 	productPesIds="15613"
 	cloudEnvironments="public"
@@ -24,4 +24,4 @@
 
 ## **Recommended Documents**
 
-* [Data Factory Limits (see Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)
+- [Data Factory Limits (see Version 2 section)](https://docs.microsoft.com/azure/azure-subscription-service-limits#data-factory-limits)

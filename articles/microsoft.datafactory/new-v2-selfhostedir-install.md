@@ -28,9 +28,12 @@
 
 ## **Recommended Documents**
 
-* [How to create and configure Self-hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime/), including: <br>
+* How to create and configure Self-hosted Integration Runtime [Document](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime/), including: <br>
   * [Best Practice](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices) <br>
   * [Ports and Firewall](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#ports-and-firewall) <br>
   * [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations) <br>
 * [Self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime)<br>
 * [Monitor integration runtime](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime/) <br>
+
+* Latest version of Self-hosted Integration Runtime [Download Page](https://www.microsoft.com/download/details.aspx?id=39717)
+  * __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities, and changes introduced in the latest versions.

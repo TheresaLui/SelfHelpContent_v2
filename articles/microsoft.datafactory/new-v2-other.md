@@ -13,7 +13,7 @@
 	cloudEnvironments="public"
 />
 
-# Azure Data Factory V2 
+# Azure Data Factory V2
 
 ## **Recommended Documents**
 
@@ -21,3 +21,6 @@
 * Azure Data Factory [Blog](https://azure.microsoft.com/blog/tag/azure-data-factory/) <br>
 * Azure Data Factory [Updates](https://azure.microsoft.com/updates/?product=data-factory) <br>
 * Azure Data Factory [Product Homepage](https://azure.microsoft.com/services/data-factory/) <br>
+* Azure Data Factory [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory) <br>
+  * Pleas up-vote your wants and needs. We truly value your opinions and will take them into considerations when prioritizing our work  
+  * If you don't see yours already, just add one!
