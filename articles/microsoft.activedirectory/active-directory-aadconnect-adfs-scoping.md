@@ -43,7 +43,23 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-     }
+     },
+
+     {              
+           "id": "problem_description",
+           "order": 3,
+           "controlType": "multilinetextbox",
+           "displayLabel": "Details",
+           "watermarkText": "Provide additional information about your issue",
+           "required": true,
+           "useAsAdditionalDetails": true,
+           "hints": [{
+                      "text": "Issue description."
+                     }, {
+                         "text": "Provide details of your AD FS issue, including any error messages, and if applicable attach a screenshot or a file from the Diagnostic Analyzer below.”
+                     }]
+      }
+
 
 
 
