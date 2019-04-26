@@ -46,7 +46,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Serial number of source appliance",
-			"watermarkTest": "Serial number of the source 5000-7000 series appliance",
+			"watermarkTest": "Serial number of 5000-7000 series appliance",
 			"required": false
 		}, {
 			"id": "problem_description",
@@ -70,12 +70,6 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
 			},
-				"dropdownOptions": [
-					{
-						"value": "NoDestinationDevice",
-						"text": "Not specific to any destination device"
-					}
-				],
 				"required": false
 				},
 		]
