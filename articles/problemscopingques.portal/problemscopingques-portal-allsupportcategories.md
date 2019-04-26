@@ -14,7 +14,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Scoping questions for Azure portal",
     "fileAttachmentHint": "",
 	"formElements": [{
