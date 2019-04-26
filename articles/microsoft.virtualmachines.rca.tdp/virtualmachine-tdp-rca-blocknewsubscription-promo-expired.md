@@ -21,7 +21,7 @@
 We detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because you are trying to use **<!--$SkuPromo-->SKU promo<!--/$SkuPromo-->** that is a **limited** promotional SKU that's unavailable at this time. This specific VM with this SKU can no longer be deployed.<br>
 <!--/issueDescription-->
 
-Thank you for trying your deployment with **<!--$SkuPromo-->promo SKU<!--/$SkuPromo--> SKU**. Now that this promotion has expired, we invite you to use the **<!--$SkuStandard-->standard SKU<!--/$SkuStandard--> SKU** which is of comparable specification to the promotional one.<br>
+Thank you for trying your deployment with **<!--$SkuPromo-->promo SKU<!--/$SkuPromo--> SKU**. Now that this promotion has expired, we invite you to use the **<!--$SkuFamily-->standard SKU<!--/$SkuFamily--> SKU** which is of comparable specification to the promotional one.<br>
 
 For a list of our current offers, see [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/).<br>
 
