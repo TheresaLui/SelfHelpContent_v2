@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for issue with delete or retain data"
          description="Scoping questions for issue with delete or retain data"
          authors="srinathv"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632785"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
+	 articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
 />
 # Questions for issue with delete or retain data
 ---
 {
          "resourceRequired": true,
-		     "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "Issue with delete or retain data",
          "fileAttachmentHint": "",
          "formElements":[{
@@ -28,7 +28,7 @@
                 "id": "item_name",
                 "order": 2,
                 "controlType": "textbox",
-                "displayLabel": "Enter protected item name(s) that you are trying to delete/retain data",
+                "displayLabel": "Enter protected item name(s) that you are trying to delete/retain data:",
                 "watermarkText": "Enter protected item name(s) comma separated",
                 "required": false
              },{
