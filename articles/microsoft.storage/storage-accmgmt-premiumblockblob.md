@@ -16,5 +16,6 @@
 
 # What is Premium Block Blob Storage
 
-## **Recommended documents**
-- [Create premium block bloc account](https://azure.microsoft.com/blog/introducing-azure-premium-blob-storage-limited-public-preview/)<br>
+## **Recommended Documents**
+
+- [Create premium block blob account](https://azure.microsoft.com/blog/introducing-azure-premium-blob-storage-limited-public-preview/)<br>
