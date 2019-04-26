@@ -38,20 +38,20 @@
                     "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>Troubleshooting</a> article",
                     "displayLabel": "Select the troubleshooting steps that you have performed:",
                     "dropdownOptions": [{
-                                            "value": "Try to download vault credential file using different browser",
-                                            "text": "Try to download vault credential file using different browser"
+                                            "value": "Tried downloading vault credential file using a different browser",
+                                            "text": "Tried downloading vault credential file using a different browser"
                                       },{
-                                            "value": "Ensure the subscription is not disabled/expired",
-                                            "text": "Ensure the subscription is not disabled/expired"
+                                            "value": "Ensured the subscription is enabled and not expired",
+                                            "text": "Ensured the subscription is enabled and not expired"
                                       },{
-                                            "value": "Ensure there is no any firewall rule blocking vault credential file to download",
-                                            "text": "Ensure there is no any firewall rule blocking vault credential file to download"
+                                            "value": "Ensured the firewall rules are not blocking vault credential file download",
+                                            "text": "Ensured the firewall rules are not blocking vault credential file download"
                                       },{
-                                            "value": "Ensure the vault limit (50 machines per vault) is not exhausted",
-                                            "text": "Ensure the vault limit (50 machines per vault) is not exhausted"
+                                            "value": "Ensured user account has permissions to download vault credential file",
+                                            "text": "Ensured user account has permissions to download vault credential file"
                                       },{
-                                            "value": "Ensure user has required Azure Backup permission to download vault credential",
-                                            "text": "Ensure user has required Azure Backup permission to download vault credential"
+                                            "value": "Ensured maximum machines registered per vault limit is not reached",
+                                            "text": "Ensured maximum machines registered per vault limit is not reached"
                                       },{
                                             "value": "dont_know_answer",
                                             "text": "Other, don't know or not applicable"
