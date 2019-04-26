@@ -40,7 +40,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Serial number of source appliance",
-			"watermarkTest": "Serial number",
+			"watermarkText": "Serial number of 5000-7000 series source appliance",
 			"required": false
 		},{
 			"id": "problem_start_time",
