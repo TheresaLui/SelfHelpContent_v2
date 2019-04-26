@@ -42,7 +42,7 @@
 			"text": "Issue description."
 		},
 		{
-			"text": "Name of the resource or resourceype in the subscription that you are seeing issue with"
+			"text": "Name of the resource or resource type in the subscription that you are seeing issue with"
 		}]
 	    },{
                 "id": "basic_troubleshooting_multiselect",
