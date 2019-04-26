@@ -19,7 +19,7 @@
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "software version",
-			"order": 3,
+			"order": 1,
 			"controlType": "dropdown",
 			"displayLabel": "Select the source appliance software version",
 			"watermarkText": "Choose an option",
@@ -36,21 +36,21 @@
 			],
 			"required": false
 		}, {
-			"id": "problem_start_time",
-			"order": 4,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
 			"id": "serial number",
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Serial number of source appliance",
-			"watermarkTest": "Serial number of 5000-7000 series appliance",
-			"required": true
-		}, {
+			"watermarkTest": "Serial number",
+			"required": false
+		},{
+			"id": "problem_start_time",
+			"order": 3,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": false
+		},  {
 			"id": "problem_description",
-			"order": 5,
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
