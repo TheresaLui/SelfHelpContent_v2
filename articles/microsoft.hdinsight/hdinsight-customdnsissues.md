@@ -3,7 +3,7 @@
     description="Cluster Creation Fails Due To an Issue With Custom DNS Setup"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="ansi12"
+    authors="genlin"
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
