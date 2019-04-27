@@ -2,8 +2,8 @@
 	pageTitle="I installed NPM and setup monitoring in Service Connectivity Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup rules  but I do not see any data for my rule"
 	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
-	authoralias="vinigam"
+	resource="solutions"
+	ms.authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="6"
 	selfHelpType="resource"
@@ -16,7 +16,7 @@
 # No monitoring data in NPM for a specific rule 
 
 ## **Recommended steps**
-*  To check if NPM is receiving any data for a specific test, run the below mentioned query in LogAnlaytics for your workspace <br>  
+*  To check if NPM is receiving any data for a specific test, run the below mentioned query in LogAnalytics for your workspace <br>  
 ```
 NetworkMonitoring
 | where TestName == "<<Your Service Connectivity Monitor test name>>"
@@ -25,9 +25,9 @@ NetworkMonitoring
 ```
 
 ## **Recommended documents**
-[Learn more about NPM agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows)<br>
-[Learn more about NPM](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Performance Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
-[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor-faq)
+[Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
+[Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
+[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

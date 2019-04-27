@@ -2,8 +2,8 @@
 	pageTitle="My node shows supported protocol as ICMP only"
 	description="My node shows supported protocol as ICMP only"
 	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
-	authoralias="vinigam"
+	resource="solutions"
+	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="2"
 	selfHelpType="resource"
@@ -20,9 +20,9 @@
 * Check if machine hosting the agent is a Windows client machine. Windows client machines do not support TCP. 
 
 ## **Recommended documents**
-[Learn more about NPM agent](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows)<br>
-[Learn more about NPM](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Performance Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
-[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/network-performance-monitor-faq)
+[Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
+[Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
+[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

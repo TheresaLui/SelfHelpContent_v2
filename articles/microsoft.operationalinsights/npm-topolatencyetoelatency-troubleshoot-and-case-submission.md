@@ -2,8 +2,8 @@
 	pageTitle="My topology does not show any issue even though NPM shows path as unhealthy "
 	description="My topology does not show any issue even though NPM shows path as unhealthy "
 	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
-	authoralias="vinigam"
+	resource="solutions"
+	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="9"
 	selfHelpType="resource"
@@ -16,7 +16,7 @@
 # Topology does not show any issue even though NPM shows path as unhealthy 
 
 ## **Recommended steps**
-* Health and topology checks are repeated at differrent frequencies. Traceroute is calculated every 10 mins , whereas health status is updated every 3 minns for Performance Monitor and Express Route Monitor and at customt time for  Service Conenctivity Monitor. Hence there will be adiscrepency in the topology and health status. To know the closes topology state, use Log Analytics fields TimeProcessed field for health and TracerouteCompletedTime for topology.
+* Health and topology checks are repeated at different frequencies. Traceroute is calculated every 10 mins , whereas health status is updated every 3 mins for Performance Monitor and Express Route Monitor and at custom time set for  Service Connectivity Monitor. Hence there will be a differrence in the topology and health status. To know the closest topology state, use Log Analytics fields TimeProcessed field for health and TracerouteCompletedTime for topology.
 
 ## **Recommended documents**
 [Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>

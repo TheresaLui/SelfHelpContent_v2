@@ -2,8 +2,8 @@
 	pageTitle="I am unable to see my agent in the Nodes page"
 	description="I am unable to see my agent in the Nodes page"
 	service="Microsoft.OperationalInsights"
-	resource="Microsoft.OperationsManagement/solutions"
-	authoralias="vinigam"
+	resource="solutions"
+	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="1"
 	selfHelpType="resource"
@@ -16,13 +16,13 @@
 # Unable to see  agent in the Nodes page
 
 ## **Recommended steps**
-* Check the Log Anlaytics worksapce id and key entered for the agent during setup. [Use this link for reference]( https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
+* Check the Log Analytics workspace id and key entered for the agent during setup. [Use this link for reference]( https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
 * Check if the agent is up and running by following this step<br>
-Go to CMD prompt and run the command below.
+Go to CMD prompt and run the command below. If agent is not found, that means it is not running. Look for Microsoft Monitoring Agent and start it. 
+
 ```
 tasklist |findstr NPMDAgent .
 ```
- If agent is not found, that means it is not running. Look for Microsoft Monitoring Agent and start it. 
 
 
 ## **Recommended documents**
