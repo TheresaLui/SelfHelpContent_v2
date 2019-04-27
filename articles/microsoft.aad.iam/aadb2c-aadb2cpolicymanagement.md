@@ -1,7 +1,6 @@
 <properties 
     pageTitle="Problem with AAD B2C policy management"
     description="aadb2cpolicymanagement"
-    authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32633316,32633317,32633318,32633320,32633325,32633327,32633328"
     productPesIds="16580"

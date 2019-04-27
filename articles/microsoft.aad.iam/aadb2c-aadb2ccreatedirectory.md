@@ -1,6 +1,5 @@
 <properties pageTitle="Problem with AAD B2C create directory" 
 	 description="aadb2ccreatedirectory" 
-	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32633313,32633314,32633323,32633326" 
 	 productPesIds="16580"

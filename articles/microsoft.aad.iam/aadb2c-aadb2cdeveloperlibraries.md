@@ -1,6 +1,5 @@
 <properties pageTitle="Problem with AAD B2C developer libraries" 
 	 description="aadb2cdeveloperlibraries" 
-	 authors="anupnadigm" 
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32633308,32633312,32633321,32633324,32633595" 
 	 productPesIds="16580" 

@@ -1,7 +1,6 @@
 <properties 
     pageTitle="Problem with AAD B2C user management"
     description="aadb2cusermanagement"
-    authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32633306,32633307,32633315,32633319,32633322"
     productPesIds="16580"
