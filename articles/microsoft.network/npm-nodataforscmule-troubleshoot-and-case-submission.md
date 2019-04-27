@@ -16,7 +16,9 @@
 # No monitoring data in NPM for a specific rule 
 
 ## **Recommended steps**
+
 *  To check if NPM is receiving any data for a specific test, run the below mentioned query in LogAnalytics for your workspace <br>  
+
 ```
 NetworkMonitoring
 | where TestName == "<<Your Service Connectivity Monitor test name>>"

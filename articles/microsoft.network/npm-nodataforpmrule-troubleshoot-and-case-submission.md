@@ -16,23 +16,30 @@
 # No monitoring data in NPM for a specific network in Performance Monitor 
 
 ## **Recommended steps**
+
 *  To check if NPM is receiving any data for a given network, run the below mentioned query in LogAnalytics for your workspace <br> 
+
 ``` 
 NetworkMonitoring
 | where SubType == "Network"
 | where SourceNetwork == "<<Your Network name>>"
 ```
+
 *  To check if NPM is receiving any data for a given subnetwork, run the below mentioned query in LogAnalytics for your workspace <br>  
+
 ```
 NetworkMonitoring
 | where SubType == "SubNetwork"
 | where SourceSubNetwork == "<<Your SubNetworkNetwork IP>>"
 ```
+
 *  To check if NPM is receiving any data for a given rule, run the below mentioned query in LogAnalytics for your workspace <br>  
+
 ```
 NetworkMonitoring
 | where RuleName == "<<Your rule name>>"
 ```
+
 * It takes NPM about 30 mins to start showing data after initial setup
 
 

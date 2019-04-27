@@ -21,25 +21,31 @@
 ```
 NetworkMonitoring | take 5
 ```
+
 * To check if Performance Monitor tests are recording data, run the below mentioned query in LogAnalytics for your workspace <br> 
 ``` 
 NetworkMonitoring | where SubType == "SubNetwork"
 ```
+
 * To check if Service Connectivity Monitor tests are recording data, run the below mentioned query in LogAnalytics for your workspace <br> 
 ```
 NetworkMonitoring | where SubType == "SubNetwork" 
 ```
-* To check if Express Route Monitor circuits are recording data, run the below mentioned query in LogAnalytics for your workspace <br>  
+
+* To check if Express Route Monitor circuits are recording data, run the below mentioned query in LogAnalytics for your workspace <br> 
+
 ```
 NetworkMonitoring 
 | where SubType == "ExpressRouteCircuitUtilization" 
-| project CircuitName,PrimaryBytesInPerSecond, PrimaryBytesOutPerSecond,SecondaryBytesInPerSecond,SecondaryBytesOutPerSecond
+| project CircuitName
 ```
+
 * To check if Express Route Monitor peerings are recording data, run the below mentioned query in LogAnalytics for your workspace <br>  
+
 ```
 NetworkMonitoring 
 | where SubType == "ExpressRoutePeeringUtilization"
-| project CircuitName,PeeringName,PrimaryBytesInPerSecond,PrimaryBytesOutPerSecond,SecondaryBytesInPerSecond,SecondaryBytesOutPerSecond
+| project CircuitName,PeeringName
 ```
 
 

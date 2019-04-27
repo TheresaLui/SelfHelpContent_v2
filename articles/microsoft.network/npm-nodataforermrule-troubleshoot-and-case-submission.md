@@ -16,18 +16,23 @@
 # No monitoring data in NPM for Express Route Monitor
 
 ## **Recommended steps**
-*  To check if NPM is receiving any data for a specific circuit, run the below mentioned query in LogAnalytics for your workspace <br>  
+
+*  To check if NPM is receiving any data for a specific circuit, run the below mentioned query in LogAnalytics for your workspace <br> 
+
 ```
 NetworkMonitoring
 | where CircuitName == "<<Your circuit name>>"
 | take 5
 ```
+
 *  To check if NPM is receiving any data for a specific peering, run the below mentioned query in LogAnalytics for your workspace <br>  
+
 ```
 NetworkMonitoring
 | where CircuitName = "<<Your circuit name>>" && PeeringName == "<<your peering name>>"
 | take 5
 ```
+
 * It takes NPM about 30 mins to start showing data after initial setup <br>
 * Check circuit and peering metrics in Azure Monitor to see if circuit and peering are receiving any data.If there is no data in NPM and in Azure monitor, reach out to Express Route team[Learn more](https://docs.microsoft.com/azure/expressroute/expressroute-monitoring-metrics-alerts)<br>
 
