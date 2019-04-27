@@ -1,29 +1,28 @@
 <properties
-	pageTitle="I installed NPM and setup monitoring but topology shows all hops as undefined"
-	description="I installed NPM and setup monitoring but topology shows all hops as undefined"
-	service="Microsoft.OperationalInsights"
-	resource="solutions"
+	pageTitle="I installed NPM but I do not see any data"
+	description="I installed NPM but I do not see any data"
+	service="Microsoft.Network"
+	resource="networkWatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
-	displayOrder="9"
+	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds="32606422"
+	supportTopicIds="32606425"
 	resourceTags="optional"
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />
 
-# All hops in topology show up as undefined
+# Node shows supported protocol as ICMP only in the Nodes page
 
 ## **Recommended steps**
-*  Routers need to be accessible by traceroute. For on-premise hops/network devices , ensure ICMP_TTL_EXCEEDED is enabled <br>
-*  Azure does not expose its hops to traceroute, hence they will continue to show up as undefined
-
+* If you have not created rules, go to "Configure" to create rules , select source and destinations and set thresholds to start monitoring. [Learn more](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor#configure-the-solution)<br>
+* Based on frequency set in the test, it take data about 30 mins to appear in the dashboard 
 
 ## **Recommended documents**
 [Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
 [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

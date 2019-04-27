@@ -1,8 +1,8 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Performance Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup monitoring in Performance Monitor  but I do not see any data in the dashboard"
-	service="Microsoft.OperationalInsights"
-	resource="solutions"
+	service="Microsoft.Network"
+	resource="networkWatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="5"
@@ -41,5 +41,5 @@ NetworkMonitoring
 [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

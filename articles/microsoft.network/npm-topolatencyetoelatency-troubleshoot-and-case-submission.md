@@ -1,8 +1,8 @@
 <properties
 	pageTitle="My topology does not show any issue even though NPM shows path as unhealthy "
 	description="My topology does not show any issue even though NPM shows path as unhealthy "
-	service="Microsoft.OperationalInsights"
-	resource="solutions"
+	service="Microsoft.Network"
+	resource="networkWatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="9"
@@ -23,5 +23,5 @@
 [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)

@@ -1,8 +1,8 @@
 <properties
 	pageTitle="My node shows supported protocol as ICMP only"
 	description="My node shows supported protocol as ICMP only"
-	service="Microsoft.OperationalInsights"
-	resource="solutions"
+	service="Microsoft.Network"
+	resource="networkWatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="2"
@@ -24,5 +24,5 @@
 [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
 [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute<br>
+[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
 [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
