@@ -42,7 +42,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -59,7 +58,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -76,7 +74,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -93,7 +90,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -110,7 +106,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
