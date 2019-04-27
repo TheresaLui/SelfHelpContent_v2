@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Service Connectivity Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup rules  but I do not see any data for my rule"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.authoralias="vinigam"
 	authors="vinynigam"
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds="32606443"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

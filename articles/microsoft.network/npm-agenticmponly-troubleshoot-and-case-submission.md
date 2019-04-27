@@ -1,14 +1,14 @@
 <properties
 	pageTitle="My node shows supported protocol as ICMP only"
 	description="My node shows supported protocol as ICMP only"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32606425"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

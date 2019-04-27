@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I am unable to see my agent in the Nodes page"
 	description="I am unable to see my agent in the Nodes page"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds="32606425"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

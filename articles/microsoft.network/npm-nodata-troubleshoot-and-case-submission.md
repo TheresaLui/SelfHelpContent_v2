@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I installed NPM but I do not see any data"
 	description="I installed NPM but I do not see any data"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32606425"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

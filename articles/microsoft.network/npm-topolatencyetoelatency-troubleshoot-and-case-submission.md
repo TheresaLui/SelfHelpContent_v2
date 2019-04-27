@@ -1,14 +1,14 @@
 <properties
 	pageTitle="My topology does not show any issue even though NPM shows path as unhealthy "
 	description="My topology does not show any issue even though NPM shows path as unhealthy "
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32606422"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

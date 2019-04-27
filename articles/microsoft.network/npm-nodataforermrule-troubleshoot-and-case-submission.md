@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring in Express Route Monitor but I do not see any data in the dashboard"
 	description="I installed NPM and setup monitoring in Express Route Monitor  but I do not see any data in the dashboard"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="7"
 	selfHelpType="resource"
 	supportTopicIds="32606433"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

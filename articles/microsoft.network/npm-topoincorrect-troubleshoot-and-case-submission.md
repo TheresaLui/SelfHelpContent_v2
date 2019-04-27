@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring but topology does not show all the hops"
 	description="I installed NPM and setup monitoring but topology does not show all the hops"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds="32606422"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />

@@ -1,14 +1,14 @@
 <properties
 	pageTitle="I installed NPM and setup monitoring but topology shows all hops as undefined"
 	description="I installed NPM and setup monitoring but topology shows all hops as undefined"
-	service="Microsoft.Network"
-	resource="networkWatchers"
+	service="microsoft.network"
+	resource="networkwatchers"
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32606422"
-	resourceTags="optional"
+	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax"
 />
