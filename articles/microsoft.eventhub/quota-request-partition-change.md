@@ -18,5 +18,5 @@
 
 ## **Recommended documents**
 
-[How many partitions do I need?](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#dedicated-clusters)<br>
-[FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)
+* [How many partitions do I need?](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#dedicated-clusters)<br>
+* [FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)
