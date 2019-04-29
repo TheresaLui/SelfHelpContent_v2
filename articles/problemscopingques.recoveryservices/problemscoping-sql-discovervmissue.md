@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to discover VM"
          description="Scoping questions for unable to discover VM"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632804"
          productPesIds="15207"
@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-	  "subsciptionRequired": true,
+    "subscriptionRequired": true,
     "title": "Unable to discover VM",
     "fileAttachmentHint": "",
     "formElements": [
@@ -54,7 +54,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-			"infoBalloonText": "Check the <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>supported scenario</a> for SQL database backup",
+	    "infoBalloonText": "Check the <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>supported scenario</a> for SQL database backup",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
