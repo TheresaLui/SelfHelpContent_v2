@@ -32,7 +32,7 @@
 				}, {
 					"value": "Storage Account",
 					"text": "Storage Account"
-					{
+				},{
 					"value": "Other"
 					"text": "Other"
 					}
