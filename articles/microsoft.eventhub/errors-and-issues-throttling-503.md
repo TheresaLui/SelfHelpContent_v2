@@ -16,7 +16,7 @@
 
 # I am experiencing throttling (503)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How exactly does Event Hubs Throttling Work?](https://blogs.msdn.microsoft.com/servicebus/2015/07/16/how-exactly-does-event-hubs-throttling-work/)<br>
 * [Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
