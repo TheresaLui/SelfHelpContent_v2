@@ -16,7 +16,7 @@
 
 # My problem is not listed above
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
 * [Azure service status site](https://azure.microsoft.com/status/)
