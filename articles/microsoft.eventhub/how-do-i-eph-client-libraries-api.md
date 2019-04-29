@@ -16,7 +16,7 @@
 
 # I have questions on EH or EPH client libraries or API
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Programming guide for Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)<br>
 * [Available Event Hubs Runtime APIs](https://docs.microsoft.com/azure/event-hubs/event-hubs-api-overview#runtime-apis)<br>
