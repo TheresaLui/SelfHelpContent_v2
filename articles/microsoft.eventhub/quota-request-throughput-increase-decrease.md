@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636956"
@@ -16,9 +16,9 @@
 
 # Request for Throughput Unit Increase or Decrease
 
-## Recommended documents
+## **Recommended documents**
 
 [Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
 [Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
 [How to Auto Scale Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
-[FAQs on Event Hub Quotas](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-faq#quotas)
+[FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)
