@@ -63,7 +63,7 @@
                                         "text": "Logging into the right directory"
                                     },{
                                         "value": "Changed directory to verify portal again",
-                                        "text": "Changed directory to verify portal agai"
+                                        "text": "Changed directory to verify portal again"
                                     },{
                                         "value": "Verified browser version is supported",
                                         "text": "Verified browser version is supported"
