@@ -26,30 +26,8 @@
             "required": true
         },
         {
-            "id": "quota_SRU",
+            "id": "quota_SRU_value",
             "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Are you requesting an increase in Premium Streaming Endpoints to hit a specific egress limit?",
-            "watermarkText": "Select Yes or No",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "quota_SRU_increase",
-            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "How many Premium Streaming Endpoint units do you need?",
             "infoBalloonText": "Please set the number of Streaming endpoint units needed based on a calculation of your max egress in units of 200 Mbps. There is a max of 2 Streaming Endpoints allowed per account, but units can be increased in increments. See the documentation <a href='https://docs.microsoft.com/azure/media-services/latest/streaming-endpoint-concept'>Streaming Endpoints </a> for details.",
@@ -84,54 +62,25 @@
                     "text": "50"
                 },
                 {
-                    "value": "75",
-                    "text": "75"
-                },
-                {
-                    "value": "100+",
-                    "text": "more than 100"
+                    "value": "Other",
+                    "text" : "Other"
                 }
             ],
             "required": false
         },
         {
-            "id": "quota_SRU_duration",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "What is the time period that you would need the increased quota held for?",
-            "infoBalloonText": "Large quota increases should be explained in terms of time period that they will be needed for. Provide as much detail as possible up front to speed up the request.",
-            "watermarkText": "Select one of the time periods",
-            "dropdownOptions": [
-                {
-                    "value": "A few weeks",
-                    "text": "A few weeks"
-                },
-                {
-                    "value": "1 month",
-                    "text": "1 month"
-                },
-                {
-                    "value": "3 months",
-                    "text": "3 months"
-                },
-                {
-                    "value": "6 months",
-                    "text": "6 months"
-                },
-                {
-                    "value": "1 year",
-                    "text": "1 year"
-                },
-                {
-                    "value": "Indefinitely",
-                    "text": "Indefinitely"
-                }
-            ],
+            "id": "quota_SRU_Other_value",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is the new requested upper limit for Premium Streaming Endpoint Units?",
+            "infoBalloonText": "Please provide the max upper limit of Premium Streaming Endpoint Units that you  need.",
+            "watermarkText": "Enter a numeric value",
+            "visibility" : "quota_SRU_value == Other",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Quota increase details",
             "watermarkText": "Provide additional details about your quota increase request, scenario, timeline, etc. that would be helpful for the support team when evaluating your request",
