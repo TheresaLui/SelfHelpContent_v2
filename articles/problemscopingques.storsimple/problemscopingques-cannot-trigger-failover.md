@@ -39,8 +39,11 @@
 			"displayLabel": "What is the destination of the failover",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Physical Device",
-					"text": "Physical Device"
+					"value": "Same Device",
+					"text": "Same Device"
+				},{
+					"value": "Another Physical Device",
+					"text": "Another Physical Device"
 				}, {
 					"value": "Cloud Appliance",
 					"text": "Cloud Appliance"
