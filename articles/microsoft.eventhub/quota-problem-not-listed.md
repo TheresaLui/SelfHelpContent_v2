@@ -18,6 +18,6 @@
 
 ## **Recommended documents**
 
-[FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)<br>
-[Azure Event Hubs quotas and limits](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
-[Event Hubs Pricing](https://azure.microsoft.com/pricing/details/event-hubs/)
+* [FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)<br>
+* [Azure Event Hubs quotas and limits](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
+* [Event Hubs Pricing](https://azure.microsoft.com/pricing/details/event-hubs/)
