@@ -16,7 +16,7 @@
 
 # I am getting connectivity issues
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to use Firewall rules with Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-ip-filtering)<br>
 * [How to bind Event Hubs to Virtual Networks](https://docs.microsoft.com/azure/event-hubs/event-hubs-service-endpoints)<br>
