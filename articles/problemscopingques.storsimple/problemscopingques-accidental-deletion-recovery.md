@@ -35,7 +35,7 @@
 				},{
 					"value": "Other"
 					"text": "Other"
-				}
+				},
 			],
 			"required": false
 		}, {
@@ -53,7 +53,7 @@
 				}, {
 					"value": "Not Applicable",
 					"text": "Not Applicable"
-				}
+				},
 			],
 			"required": false
 		}, {
