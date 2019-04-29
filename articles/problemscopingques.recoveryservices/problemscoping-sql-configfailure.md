@@ -14,7 +14,7 @@
 ---
 {
     "resourceRequired": true,
-    "subsciptionRequired": true,
+    "subscriptionRequired": true,
     "title": "SQL database configuration failure",
     "fileAttachmentHint": "",
     "formElements": [
