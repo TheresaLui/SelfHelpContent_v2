@@ -16,7 +16,7 @@
 
 # I have problems with Create or Delete Operations
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Quickstart: Create an Event Hub using Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)<br>
 * [Quickstart: Create an Event Hub using Azure CLI](https://docs.microsoft.com/azure/event-hubs/event-hubs-quickstart-cli)<br>
