@@ -18,7 +18,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 
-We determined that the network security gorup associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. <!--$Details-->[Details]<!--/$Details-->
+We determined that the network security group associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. <!--$Details-->[Details]<!--/$Details-->
 
 ## **Recommended Steps**
 
