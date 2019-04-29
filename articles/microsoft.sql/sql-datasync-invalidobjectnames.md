@@ -15,10 +15,13 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
-# We ran diagnostics on your resource and found an issue
+# Unsupported object names in Data Sync
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->  
 In Data Sync, the names of objects (databases, tables, and columns) cannot contain the printable characters period (.), left square bracket ([), or right square bracket (]).<br>
+
 We were able to detect unsupported object names in the Database(s):<br>
 **<!--$InvalidObjectNamesDatabaseList--> InvalidObjectNamesDatabaseList <!--/$InvalidObjectNamesDatabaseList-->**
 <!--/issueDescription-->
@@ -38,7 +41,7 @@ OR column_name LIKE '%[[]%'
 OR column_name LIKE '%]%'
 ```
 
-**Data Sync schema can be set from any database, alternatively, you can:**
+Data Sync schema can be set from any database. Alternatively, you can:
 
 1. Create the tables you want to sync in another database of the sync group that does not have unsupported characters (if not created already)
 2. "Refresh Schema" from that other database
