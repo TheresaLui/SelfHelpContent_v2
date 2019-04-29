@@ -15,14 +15,16 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
-# We ran diagnostics on your resource and found an issue
+# Unsupported object names in Data Sync
+
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->  
 We were able to detect that snapshot isolation is disabled in the Database(s):<br>
 **<!--$SnapshotIsolationDisabledDatabaseList--> SnapshotIsolationDisabledDatabaseList <!--/$SnapshotIsolationDisabledDatabaseList-->**
 <!--/issueDescription-->
 
-Snapshot isolation must be enabled. For more info, see [Snapshot Isolation in SQL Server](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)
+Snapshot isolation must be enabled. For more info, see [Snapshot Isolation in SQL Server](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server).
 
 ## **Recommended Steps**  
 
