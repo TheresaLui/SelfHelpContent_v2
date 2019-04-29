@@ -16,6 +16,6 @@
 
 # Deprecation of ASM APIs
 
-## Recommended documents
+## Recommended Documents
 
-[Deprecating Service Management support for Azure Service Bus, Relay and Event Hubs](https://techcommunity.microsoft.com/t5/Service-Bus-blog/Deprecating-Service-Management-support-for-Azure-Service-Bus/ba-p/370909)
+* [Deprecating Service Management support for Azure Service Bus, Relay and Event Hubs](https://techcommunity.microsoft.com/t5/Service-Bus-blog/Deprecating-Service-Management-support-for-Azure-Service-Bus/ba-p/370909)
