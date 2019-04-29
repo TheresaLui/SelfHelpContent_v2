@@ -22,7 +22,7 @@ We were able to detect that snapshot isolation is disabled in the Database(s):<b
 **<!--$SnapshotIsolationDisabledDatabaseList--> SnapshotIsolationDisabledDatabaseList <!--/$SnapshotIsolationDisabledDatabaseList-->**
 <!--/issueDescription-->
 
-Snapshot isolation must be enabled. For more info, see [Snapshot Isolation in SQL Server](https://docs.microsoft.com/en-gb/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)
+Snapshot isolation must be enabled. For more info, see [Snapshot Isolation in SQL Server](https://docs.microsoft.com/dotnet/framework/data/adonet/sql/snapshot-isolation-in-sql-server)
 
 ## **Recommended Steps**  
 
