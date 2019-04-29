@@ -16,7 +16,7 @@
 
 # I am getting High Send Latency
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How exactly does Event Hubs Throttling Work?](https://blogs.msdn.microsoft.com/servicebus/2015/07/16/how-exactly-does-event-hubs-throttling-work/)<br>
 * [Best Practices to achieve high scale, low latency and high throughput](https://stackoverflow.com/questions/48355056/best-practices-to-partition-eventhub-data-achieve-high-scale-low-latency-and)<br>
