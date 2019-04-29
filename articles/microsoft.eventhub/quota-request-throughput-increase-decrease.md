@@ -16,7 +16,7 @@
 
 # Request for Throughput Unit Increase or Decrease
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
 * [Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
