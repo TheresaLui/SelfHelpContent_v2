@@ -18,4 +18,4 @@
 
 ## **Recommended documents**
 
-[Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)
+* [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)
