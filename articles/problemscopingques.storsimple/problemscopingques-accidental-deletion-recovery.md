@@ -33,7 +33,7 @@
 					"value": "Storage Account",
 					"text": "Storage Account"
 				},{
-					"value": "Other"
+					"value": "Other",
 					"text": "Other"
 				}
 			],
