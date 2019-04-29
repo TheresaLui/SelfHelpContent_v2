@@ -156,7 +156,7 @@
             "id": "application",
             "order": 14,
             "controlType": "dropdown",
-            "displayLabel": "Are you connecting to you database server from application?",
+            "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [{
                     "value": "Yes",
                     "text": "Yes"

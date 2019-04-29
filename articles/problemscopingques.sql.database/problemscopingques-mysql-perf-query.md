@@ -4,11 +4,11 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628454"
-	productPesIds="16222"
+	supportTopicIds="32628404"
+	productPesIds="16221"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-pg-perf-query"
+	articleId="problemscopingques-mysql-perf-query"
 />
 # Database Performance - Query
 ---
@@ -130,7 +130,7 @@
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
-            "watermarkText": "e.g. pgbench",
+            "watermarkText": "e.g. SysBench",
             "required": false
         }, {
             "id": "measurement",
@@ -228,5 +228,4 @@
 		}
 	]
 }
-
 ---
