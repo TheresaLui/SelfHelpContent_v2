@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636953"
@@ -16,7 +16,7 @@
 
 # Not receiving diagnostics or Log data
 
-## Recommended documents
+## **Recommended documents**
 
 [Azure Event Hubs metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-metrics-azure-monitor)<br>
 [Set up diagnostic logs for an Azure event hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-diagnostic-logs)<br>
