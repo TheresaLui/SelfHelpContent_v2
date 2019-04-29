@@ -16,7 +16,7 @@
 
 # My question or problem is not listed above
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)<br>
 * [Azure Event Hubs quotas and limits](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
