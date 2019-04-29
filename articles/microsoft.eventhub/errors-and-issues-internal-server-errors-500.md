@@ -16,6 +16,6 @@
 
 # I am getting Internal Server errors (500)
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)
