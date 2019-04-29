@@ -3,7 +3,7 @@
     description="Your Cloud Service deployment is degraded because {0} out of {1} role instances are unavailable."
     infoBubbleText="Your Cloud Service deployment is degraded because {0} out of {1} role instances are unavailable."
     service="Microsoft.ClassicCompute"
-    resource="DoaminNames"
+    resource="DomainNames"
     authors="stephbaron"
     ms.author="stbaron"
     articleId="servicehealthinsights-Microsoft.ClassicCompute-DomainNames-healthannotation_CloudServiceUnhealthyAnnotation"
@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Classic Cloud Service:
 
-Your Cloud Service deployment is degraded because its role instances are unavailable. Use Azure resource health and the troubleshoot tool to address the issues with the unavailable role instance.
+Your Cloud Service deployment is degraded because all role instances are unavailable. Use Azure resource health and the troubleshoot tool to address the issues with the unavailable role instances.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

@@ -3,7 +3,7 @@
     description="Your Cloud Service deployment is degraded because {0} out of {1} virtual machines are unavailable."
     infoBubbleText="Your Cloud Service deployment is degraded because {0} out of {1} virtual machines are unavailable."
     service="Microsoft.ClassicCompute"
-    resource="DoaminNames"
+    resource="DomainNames"
     authors="stephbaron"
     ms.author="stbaron"
     articleId="servicehealthinsights-Microsoft.ClassicCompute-DomainNames-healthannotation_CloudServiceDegradedAnnotation"
