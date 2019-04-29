@@ -19,7 +19,7 @@
 ## **Recommended documents**
 
 [Quickstart: Create an Event Hub using Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)<br>
-[Quickstart: Create an Event Hub using Azure CLI](https://docs.microsoft.com/azure/event-hubs/event-hubs-quickstart-cli)<br> 
+[Quickstart: Create an Event Hub using Azure CLI](https://docs.microsoft.com/azure/event-hubs/event-hubs-quickstart-cli)<br>
 [Quickstart: Create an Event Hub using Azure PowerShell](https://docs.microsoft.com/azure/event-hubs/event-hubs-quickstart-powershell)<br>
 [Quickstart: Create an Event Hub using Azure Resource Manager template](https://docs.microsoft.com/azure/event-hubs/event-hubs-resource-manager-namespace-event-hub)<br>
 [How to delete an Event Hub](https://docs.microsoft.com/rest/api/eventhub/eventhubs/delete)<br>
