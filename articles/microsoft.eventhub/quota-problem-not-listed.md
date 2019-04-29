@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636952"
@@ -16,8 +16,8 @@
 
 # My question or problem is not listed above
 
-## Recommended documents
+## **Recommended documents**
 
-[FAQs on Event Hub Quotas](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-faq#quotas)<br>
-[Azure Event Hubs quotas and limits](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-quotas)<br>
-[Event Hubs Pricing](https://azure.microsoft.com/en-us/pricing/details/event-hubs/)
+[FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)<br>
+[Azure Event Hubs quotas and limits](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
+[Event Hubs Pricing](https://azure.microsoft.com/pricing/details/event-hubs/)
