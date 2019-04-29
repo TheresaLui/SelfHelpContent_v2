@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636946"
@@ -16,7 +16,7 @@
 
 # I have problems with Create or Delete Operations
 
-## Recommended documents
+## **Recommended documents**
 
 [Quickstart: Create an Event Hub using Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)<br>
 [Quickstart: Create an Event Hub using Azure CLI](https://docs.microsoft.com/azure/event-hubs/event-hubs-quickstart-cli)<br> 
