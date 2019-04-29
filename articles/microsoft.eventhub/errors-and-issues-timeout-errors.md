@@ -18,7 +18,7 @@
 
 ## **Recommended documents**
 
-[Event Hubs Timeout Exceptions](https://azure.microsoft.com/documentation/articles/event-hubs-messaging-exceptions/#timeoutexception)<br>
-[Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
-[Azure service status site](https://azure.microsoft.com/status/)<br>
-[TimeOutException Class](https://msdn.microsoft.com/library/system.timeoutexception.aspx)
+* [Event Hubs Timeout Exceptions](https://azure.microsoft.com/documentation/articles/event-hubs-messaging-exceptions/#timeoutexception)<br>
+* [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
+* [Azure service status site](https://azure.microsoft.com/status/)<br>
+* [TimeOutException Class](https://msdn.microsoft.com/library/system.timeoutexception.aspx)
