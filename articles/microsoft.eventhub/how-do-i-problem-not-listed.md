@@ -16,7 +16,7 @@
 
 # My problem is not listed above
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Programming guide for Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)<br>
 * [How to use Azure Event Hubs from a Python application](https://docs.microsoft.com/azure/event-hubs/event-hubs-python)<br>
