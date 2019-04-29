@@ -16,7 +16,7 @@
 {
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"title": "Database Query Performance",
+	"title": "Database Performance",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_time",

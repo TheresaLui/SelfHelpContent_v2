@@ -4,18 +4,19 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628447"
-	productPesIds="16222"
+	supportTopicIds="32628404"
+	productPesIds="16617"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-pg-perf-other"
+	articleId="problemscopingques-mariadb-perf-query"
 />
-# Database Performance - Other
+# Database Performance - Query
 ---
+
 {
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"title": "Database Performance",
+	"title": "Database Query Performance",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_time",
@@ -130,7 +131,7 @@
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
-            "watermarkText": "e.g. pgbench",
+            "watermarkText": "e.g. sysbench",
             "required": false
         }, {
             "id": "measurement",
