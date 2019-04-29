@@ -16,7 +16,7 @@
 
 # Request for Dedicated SKU
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to request for Dedicated SKU](https://docs.microsoft.com/azure/event-hubs/event-hubs-dedicated-overview#how-to-onboard)<br>
 * [What are Event Hubs Dedicated clusters?](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#dedicated-clusters)<br>
