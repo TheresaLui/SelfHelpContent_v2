@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636941"
@@ -16,7 +16,7 @@
 
 # I am getting High Send Latency
 
-## Recommended documents
+## **Recommended documents**
 
 [How exactly does Event Hubs Throttling Work?](https://blogs.msdn.microsoft.com/servicebus/2015/07/16/how-exactly-does-event-hubs-throttling-work/)<br>
 [Best Practices to achieve high scale, low latency and high throughput](https://stackoverflow.com/questions/48355056/best-practices-to-partition-eventhub-data-achieve-high-scale-low-latency-and)<br>
