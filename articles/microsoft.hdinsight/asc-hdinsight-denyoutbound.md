@@ -26,4 +26,4 @@ We determined that the network security gorup associated with the HDInsight clus
 
 ## **Recommended Documents** 
 
-* [Controlling network traffic](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#networktraffic)
+* [Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#networktraffic)
