@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="v-miegge, chiragpa"
-    author="v-miegge"
+    authors="v-miegge"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636945"
@@ -16,7 +16,7 @@
 
 # I have problems with Authorization
 
-## Recommended documents
+## **Recommended documents**
 
 [Azure Event Hubs - Authentication and security model](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-authentication-and-security-model-overview)<br>
 [RBAC for Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-role-based-access-control)<br>
