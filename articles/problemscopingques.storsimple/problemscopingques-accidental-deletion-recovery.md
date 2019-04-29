@@ -35,7 +35,6 @@
 				},{
 					"value": "Other"
 					"text": "Other"
-					}
 				}
 			],
 			"required": false
