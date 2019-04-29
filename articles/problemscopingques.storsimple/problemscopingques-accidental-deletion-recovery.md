@@ -13,8 +13,7 @@
 # Accidental deletion and data recovery
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
+	"resourceRequired": false,
 	"title": "Accidental deletion and recovery",
 	"fileAttachmentHint": "",
 	"formElements": [{
