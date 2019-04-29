@@ -16,7 +16,7 @@
 
 # I have problems with Authorization
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Event Hubs - Authentication and security model](https://docs.microsoft.com/azure/event-hubs/event-hubs-authentication-and-security-model-overview)<br>
 * [RBAC for Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-role-based-access-control)<br>
