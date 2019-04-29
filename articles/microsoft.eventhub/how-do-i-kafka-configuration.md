@@ -16,7 +16,7 @@
 
 # I have questions on Kafka configuration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Create Apache Kafka enabled event hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-create-kafka-enabled)<br>
 * [Process Apache Kafka for Event Hubs events using Stream analytics](https://docs.microsoft.com/azure/event-hubs/event-hubs-kafka-stream-analytics)<br>
