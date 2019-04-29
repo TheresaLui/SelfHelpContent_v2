@@ -18,9 +18,9 @@
 
 ## **Recommended documents**
 
-[How exactly does Event Hubs Throttling Work?](https://blogs.msdn.microsoft.com/servicebus/2015/07/16/how-exactly-does-event-hubs-throttling-work/)<br>
-[Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
-[Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
-[How to Auto Scale Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
-[Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
-[Event Hubs Throughput Recommendations](https://vincentlauzon.com/2018/06/05/event-hubs-ingestion-performance-and-throughput/)
+* [How exactly does Event Hubs Throttling Work?](https://blogs.msdn.microsoft.com/servicebus/2015/07/16/how-exactly-does-event-hubs-throttling-work/)<br>
+* [Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
+* [Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
+* [How to Auto Scale Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
+* [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
+* [Event Hubs Throughput Recommendations](https://vincentlauzon.com/2018/06/05/event-hubs-ingestion-performance-and-throughput/)
