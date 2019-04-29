@@ -18,7 +18,7 @@
 
 ## **Recommended documents**
 
-[Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
-[Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
-[How to Auto Scale Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
-[FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)
+* [Event Hubs Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas)<br>
+* [Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
+* [How to Auto Scale Event Hubs Throughput Units](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#throughput-units)<br>
+* [FAQs on Event Hub Quotas](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq#quotas)
