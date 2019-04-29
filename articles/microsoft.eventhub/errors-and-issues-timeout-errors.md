@@ -16,7 +16,7 @@
 
 # I am getting timeout errors
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Event Hubs Timeout Exceptions](https://azure.microsoft.com/documentation/articles/event-hubs-messaging-exceptions/#timeoutexception)<br>
 * [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
