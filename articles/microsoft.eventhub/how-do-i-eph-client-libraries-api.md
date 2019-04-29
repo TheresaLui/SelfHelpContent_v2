@@ -18,7 +18,7 @@
 
 ## **Recommended documents**
 
-[Programming guide for Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)<br>
-[Available Event Hubs Runtime APIs](https://docs.microsoft.com/azure/event-hubs/event-hubs-api-overview#runtime-apis)<br>
-[Available Event Hubs Management APIs](https://docs.microsoft.com/azure/event-hubs/event-hubs-api-overview#management-apis)<br>
-[Git repository of samples for Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-samples)
+* [Programming guide for Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)<br>
+* [Available Event Hubs Runtime APIs](https://docs.microsoft.com/azure/event-hubs/event-hubs-api-overview#runtime-apis)<br>
+* [Available Event Hubs Management APIs](https://docs.microsoft.com/azure/event-hubs/event-hubs-api-overview#management-apis)<br>
+* [Git repository of samples for Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-samples)
