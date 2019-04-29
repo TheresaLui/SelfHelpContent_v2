@@ -62,7 +62,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 6,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": "Check the <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>supported scenario</a> for SQL database backup",
+	    "infoBalloonText": "Check the <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a> for SQL database backup",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
