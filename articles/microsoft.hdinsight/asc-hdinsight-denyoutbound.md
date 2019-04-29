@@ -15,14 +15,15 @@
     productPesIds="15078"
     cloudEnvironments="public"
 />
+# HDInsight cluster contains deny outbound rule within Network Security Group
 
-# We ran diagnostics on your resource and found the following issue
+## We ran diagnostics on your resource and found the following issue
 
 We determined that the network security group associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. <!--$Details-->[Details]<!--/$Details-->
 
 ## **Recommended Steps**
 
-* Restricting outbound access is not supported, please remove or update the following rules to allow outbound access from the HDInsight cluster.
+* Restricting outbound access is not supported. Please remove or update the following rules to allow outbound access from the HDInsight cluster.
 
 ## **Recommended Documents** 
 
