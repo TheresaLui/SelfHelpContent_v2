@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for unable to discover DB"
          description="Scoping questions for unable to discover DB"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632803"
          productPesIds="15207"
@@ -14,61 +14,56 @@
 ---
 {
     "resourceRequired": true,
-	  "subsciptionRequired": true,
+    "subscriptionRequired": true,
     "title": "Unable to discover DB",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "machine_name",
             "order": 1,
-            "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
             "order": 2,
-            "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
             "order": 3,
-            "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
             "order": 4,
-            "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases you are unable to discover",
             "watermarkText": "Enter database name(s) separated by comma",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
             "order": 5,
-            "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the error message if are you seeing:",
+            "displayLabel": "Provide the error message if you are seeing:",
             "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 6,
-            "visibility": "null",
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have performed:",
+	    "infoBalloonText": "Check the <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>supported scenario</a> for SQL database backup",
+            "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
                     "value": "Checked OS version is supported for backup",
@@ -96,7 +91,6 @@
         {
             "id": "problem_start_time",
             "order": 7,
-            "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
