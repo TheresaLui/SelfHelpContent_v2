@@ -16,7 +16,7 @@
 
 # I have questions on Configuring Qradar, Splunk or SIEM
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Routing monitoring data to partner SIEM](https://docs.microsoft.com/azure/azure-monitor/platform/stream-monitoring-data-event-hubs#what-can-i-do-with-the-monitoring-data-being-sent-to-my-event-hub)<br>
 * [Configuring Microsoft Azure Event Hubs to communicate with Qradar](https://www.ibm.com/support/knowledgecenter/SS42VS_DSM/t_dsm_guide_microsoft_azure_enable_event_hubs.html)<br>
