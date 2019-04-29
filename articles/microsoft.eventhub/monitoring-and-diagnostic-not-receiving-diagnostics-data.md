@@ -16,7 +16,7 @@
 
 # Not receiving diagnostics or Log data
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Event Hubs metrics in Azure Monitor](https://docs.microsoft.com/azure/event-hubs/event-hubs-metrics-azure-monitor)<br>
 * [Set up diagnostic logs for an Azure event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-diagnostic-logs)<br>
