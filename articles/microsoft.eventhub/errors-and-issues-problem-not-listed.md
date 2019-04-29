@@ -18,5 +18,5 @@
 
 ## **Recommended documents**
 
-[Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
-[Azure service status site](https://azure.microsoft.com/status/)
+* [Event Hubs Messaging Exceptions](https://docs.microsoft.com/azure/event-hubs/event-hubs-messaging-exceptions)<br>
+* [Azure service status site](https://azure.microsoft.com/status/)
