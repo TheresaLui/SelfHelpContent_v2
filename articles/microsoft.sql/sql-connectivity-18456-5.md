@@ -37,7 +37,7 @@ The error returned indicates that the user was not found. This may occur if the 
 
 	1. Connect to the master database
 	2. Run the following query `select * from sys.sql_logins where name = 'insert the username here'`
-    	3. If the query returns no record, please create the login
+	3. If the query returns no record, please create the login
 
 * If you are using contained database users, check that the user exists:
 	
