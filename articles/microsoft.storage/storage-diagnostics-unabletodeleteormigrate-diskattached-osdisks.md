@@ -19,8 +19,11 @@ cloudEnvironments="public"
 # Cannot <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperation--> <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more OS disk(s) that are attached to a Classic VM
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more OS disk(s) that are attached to a Virtual Machine (VM). Please stop and delete the following VM(s) with attached OS disk before <!--$$AttemptedOperationPresentParticiple-->[$AttemptedOperationPresentParticiple]<!--/$$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more OS disk(s) that are attached to a Virtual Machine (VM).
+<!--/issueDescription-->
+
+## **Recommended Steps**
+
+* Please stop and delete the following VM(s) with attached OS disk before <!--$$AttemptedOperationPresentParticiple-->[$AttemptedOperationPresentParticiple]<!--/$$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
 
 <!--$VMList-->[VMList]<!--/$VMList--> <br>
-
-<!--/issueDescription-->
