@@ -4,14 +4,15 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628447"
-	productPesIds="16222"
+	supportTopicIds="32628397"
+	productPesIds="16221"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="problemscopingques-pg-perf-other"
+	articleId="problemscopingques-mysql-perf-other"
 />
 # Database Performance - Other
 ---
+
 {
 	"resourceRequired": false,
 	"subscriptionRequired": false,
@@ -130,7 +131,7 @@
             "order": 10,
             "controlType": "textbox",
             "displayLabel": "What tool are you using to measure your performance??",
-            "watermarkText": "e.g. pgbench",
+            "watermarkText": "e.g. SysBench",
             "required": false
         }, {
             "id": "measurement",
