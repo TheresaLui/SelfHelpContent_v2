@@ -36,7 +36,7 @@
 			"id": "restore_operation",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Has restore job from a another backup succeeded?",
+			"displayLabel": "Is restore from any another backup succeeding?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
