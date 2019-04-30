@@ -29,7 +29,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## Troubleshooting
 
-Details about the cause of the termination are written to system event logs and possibly memory dumps. To invesigate further, see these articles from Unbutu:<br>
+Details about the cause of the termination are written to system event logs and possibly memory dumps. To investigate further, see these articles from Unbutu:<br>
 
 - [Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
 - [Ubuntu wiki - CrashDumpRecipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)<br>
