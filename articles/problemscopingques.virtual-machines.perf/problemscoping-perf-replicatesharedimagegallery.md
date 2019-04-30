@@ -32,8 +32,8 @@
                       "watermarkText": "Choose an option",
                       "dropdownOptions": [
                           {
-                              "value": "<127GB",
-                              "text": "<127GB"
+                              "value": "Less than 127GB",
+                              "text": "Less than 127GB"
                           },
                           {
                               "value": "127 to 500GB",
@@ -44,8 +44,8 @@
                               "text": "500GB to 1TB"
                           },
                           {
-                              "value": ">1TB",
-                              "text": ">1TB"
+                              "value": "More than 1TB",
+                              "text": "More than 1TB"
                           }
                       ],
                       "required": false
