@@ -1,21 +1,21 @@
 <properties
-         pageTitle="Scoping questions for unable to configure or disable DB backup"
-         description="Scoping questions for unable to configure or disable DB backup"
+         pageTitle="Scoping questions for unable to discover VM"
+         description="Scoping questions for unable to discover VM"
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32605793"
+         supportTopicIds="32632804"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="e8dd5b26-088b-4b3f-a448-7c634e2c9dcf"
+         articleId="9e3ebca0-af2a-4446-ad72-98ea62a6bce2"
 />
-# Questions unable to configure or disable DB backup
+# Questions for unable to discover VM
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "SQL database configuration failure",
+    "title": "Unable to discover VM",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -24,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
@@ -32,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -40,35 +40,19 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
-        },
-        {
-            "id": "database_Name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Provide the name(s) of the databases whose configuration is failing",
-            "watermarkText": "Enter database name(s) separated by comma",
-            "required": true
-        },
-        {
-            "id": "jobID_Name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter the failed configuration job Activity ID",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
         {
             "id": "error_message",
-            "order": 6,
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that you are seeing:",
+            "displayLabel": "Provide the error message if you are seeing:",
             "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 7,
+            "order": 5,
             "controlType": "multiselectdropdown",
 	    "infoBalloonText": "Check the SQL database backup <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a>",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
@@ -98,14 +82,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details:",

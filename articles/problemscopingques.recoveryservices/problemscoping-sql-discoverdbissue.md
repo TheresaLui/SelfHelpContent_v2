@@ -1,21 +1,21 @@
 <properties
-         pageTitle="Scoping questions for unable to configure or disable DB backup"
-         description="Scoping questions for unable to configure or disable DB backup"
+         pageTitle="Scoping questions for unable to discover DB"
+         description="Scoping questions for unable to discover DB"
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32605793"
+         supportTopicIds="32632803"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="e8dd5b26-088b-4b3f-a448-7c634e2c9dcf"
+         articleId="aa4dd4bc-49b1-4de7-a5ea-caceaa1b3563"
 />
-# Questions unable to configure or disable DB backup
+# Questions for unable to discover DB
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "SQL database configuration failure",
+    "title": "Unable to discover DB",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -24,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
@@ -32,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -40,37 +40,29 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the name(s) of the databases whose configuration is failing",
+            "displayLabel": "Provide the name(s) of the databases you are unable to discover:",
             "watermarkText": "Enter database name(s) separated by comma",
-            "required": true
-        },
-        {
-            "id": "jobID_Name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Enter the failed configuration job Activity ID",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
         {
             "id": "error_message",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that you are seeing:",
+            "displayLabel": "Provide the error message if you are seeing:",
             "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 7,
+            "order": 6,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": "Check the SQL database backup <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a>",
+	     "infoBalloonText": "Check the SQL database backup <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a>",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -98,14 +90,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 9,
+            "order": 8,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details:",
