@@ -29,7 +29,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## Troubleshooting
 
-Details about the cause of the termination are written to system event logs and possibly memory dumps. To invesigate further, see these articles from Red Hat Customer Portal:<br>
+Details about the cause of the termination are written to system event logs and possibly memory dumps. To investigate further, see these articles from Red Hat Customer Portal:<br>
 
 - [Analyzing the core dump](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
 - [How to troubleshoot kernel crashes, hangs, or reboots with kdump on Red Hat Enterprise Linux](https://access.redhat.com/solutions/6038)
