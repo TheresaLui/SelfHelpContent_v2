@@ -3,7 +3,7 @@
 	description="Application Gateway URL"
 	authors="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32436964, 32436960,32582828,32582829,32582830,32582825,32582826,32582827,32582831,32582832,32436961,32573483,32582834,32436962,32565734,32565735,32565736,32582833,32582825"
+	supportTopicIds="32436964, 32436960,32582828,32582829,32582830,32582825,32582826,32582827,32582831,32582832,32436961,32573483,32582834,32436962,32565734,32565735,32565736,32582833,32639115"
 	productPesIds="15922"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -18,18 +18,7 @@
 	"diagnosticCard": {
 		"title": "Application Gateway Access URL",
     	"description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource.",
-		"formElements": [
-			{
-				"id": "app_gw_url",
-				"order": 1,
-				"controlType": "textbox",
-				"displayLabel": "Please provide the URL you are using to access the Application Gateway.",
-				"watermarkText": "Provide full URL such as http://www.contoso.com:8081/home.aspx",
-				"required": true,
-				"diagnosticInputRequiredClients": "Portal"
-			}
-		]
+    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
 	},
     "formElements": [
         {
@@ -38,7 +27,8 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the URL you are using to access the Application Gateway.",
             "watermarkText": "Provide full URL such as http://www.contoso.com:8081/home.aspx",
-            "required": false
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
