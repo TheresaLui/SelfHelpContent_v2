@@ -1,8 +1,8 @@
 <properties
     pageTitle="Quota Issues"
-    description="Quota Issues""
+    description="Quota Issues"
     service="microsoft.servicebus"
-    resource="QuotaChangeRequests"
+    resource="quotaChangeRequest"
     authors="mksuni"
     ms.author="mksuni"
     displayOrder=""
@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="13186"
     cloudEnvironments="public"
-    articleId="sb-quota-issues"
+    articleId="sb-quota-request"
     schemaVersion="1"
 />
 #Quota Issues
