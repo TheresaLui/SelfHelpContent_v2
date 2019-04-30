@@ -29,7 +29,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## Troubleshooting
 
-Details about the cause of the termination are written to system event logs and possibly memory dumps. To invesigate further, see the SUSE article [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526).<br>
+Details about the cause of the termination are written to system event logs and possibly memory dumps. To investigate further, see the SUSE article [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526).<br>
 
 ## Redundancy and health
 
