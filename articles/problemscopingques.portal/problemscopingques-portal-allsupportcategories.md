@@ -1,5 +1,5 @@
 <properties
-         pageTitle="Scoping questions for Azure portal specific troubleshooting"
+         pageTitle="Scoping questions for Azure portal"
          description="Scoping questions for Azure portal specific troubleshooting"
          authors="sansom"
          ms.author="sansom"
@@ -69,7 +69,7 @@
                                         "text": "Verified browser version is supported"
                                     },{
                                         "value": "dont_know_answer",
-                                        "text": "None of the above steps helped"
+                                        "text": "Don't Know"
                                     }],
                 "required": true
         }
