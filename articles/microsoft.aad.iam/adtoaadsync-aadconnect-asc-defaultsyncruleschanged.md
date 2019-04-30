@@ -18,8 +18,7 @@
 
 # Default synchronization rules have been changed
 <!--issueDescription-->
-Synchronization rules are a critical component in the Azure AD Connect (AADConnect) configuration, and when AADConnect is first installed it comes with several default synchronization rules.  
-We noticed that one or more default synchronization rules in your Azure AD Connect installation had changes applied to them. It is not supported to make changes to the default synchronization rules.  
+Synchronization rules are a critical component in the Azure AD Connect (AADConnect) configuration, and when AADConnect is first installed it comes with several default synchronization rules. One or more default synchronization rules in your Azure AD Connect installation have been modified. We do not support changes made to the default synchronization rules. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
