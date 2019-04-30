@@ -46,7 +46,7 @@
             "id": "database_Name",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the name(s) of the databases you are unable to discover",
+            "displayLabel": "Provide the name(s) of the databases you are unable to discover:",
             "watermarkText": "Enter database name(s) separated by comma",
             "required": false
         },
@@ -62,7 +62,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 6,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": "Check the <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a> for SQL database backup",
+	     "infoBalloonText": "Check the SQL database backup <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a>",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
