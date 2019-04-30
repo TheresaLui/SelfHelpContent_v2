@@ -24,6 +24,7 @@ We have found the following recommendations for your <!--$resourceType-->resourc
 
 <!--$recommendationsList-->recommendationsList<!--/$recommendationsList-->
 
+
 View your full list of Advisor recommendations across all of your subscriptions at any time in the [Azure portal](https://aka.ms/advisor_azuresupportcenter).
 
 1. Visit [Advisor](https://aka.ms/advisor_azuresupportcenter) in the Azure portal
