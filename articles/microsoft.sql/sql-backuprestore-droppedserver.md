@@ -15,7 +15,7 @@
 
 # backup/restore/recover dropped server or resource group
 
-If you delete an Azure SQL Database server instance, all its databases are also deleted and cannot be recovered. There is currently no support for restoring a deleted server.
+If you delete an Azure SQL Database server, all its databases are also deleted and cannot be recovered. There is currently no support for restoring a deleted server.
 
 To learn how to avoid business interruptions you can review the capabilities that Azure SQL Database provides for [business continuity](https://docs.microsoft.com/azure/sql-database/sql-database-business-continuity?WT.mc_id=pid:13491:sid:32630451/).
 
