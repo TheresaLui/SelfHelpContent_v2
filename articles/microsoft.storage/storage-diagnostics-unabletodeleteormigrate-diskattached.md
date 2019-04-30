@@ -19,12 +19,18 @@ cloudEnvironments="public"
 # Cannot <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperation--> <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more disk(s) that are attached to a VM
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more disk(s) that are attached to a Virtual Machine (VM). In order to <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperation--> the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first perform the following actions: <br>
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more disk(s) that are attached to a Virtual Machine (VM). 
+<!--/issueDescription-->
+
+## **Recommended Steps** 
+
+In order to <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperation--> the  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, you must first perform the following actions: <br>
 
 1. [Delete the following VM(s) with attached OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk): <br>
+
 <!--$VMList-->[VMList]<!--/$VMList--> <br>
 
 2. [Detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm): <br>
+
 <!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList--> <br>
 
-<!--/issueDescription-->
