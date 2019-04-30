@@ -10,9 +10,9 @@
 	articleId="UnexpectedVMReboot_GuestOSCrash_Windows"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
-	supportTopicIds="32411816"
-	resourceTags="windows, linux"
-	productPesIds="14749"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
