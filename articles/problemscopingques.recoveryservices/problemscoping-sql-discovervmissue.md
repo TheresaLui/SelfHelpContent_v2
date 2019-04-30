@@ -54,7 +54,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-	    "infoBalloonText": "Check the <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a> for SQL database backup",
+	    "infoBalloonText": "Check the SQL database backup <a href='https://aka.ms/AB-AA4dp5m'>supported scenario</a>",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
