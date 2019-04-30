@@ -38,10 +38,8 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 ### Import operation has been running for a long time (or progress seems stuck)
 
 * Import speed depends largely on the data shape (schema) in addition to the data size and can in some cases take considerable time to finish. If the operation takes more than 48 hours, it will be automatically cancelled. To get the best performance, we recommend
-  * Making sure no other workload is running on the database. Creating a copy before export may be the best solution to ensure no other workload.
-  * Increase database SLO to better handle the export workload (primarily read IO).
-  * Making sure there are clustered indexes particularly for large tables.
-  * Making sure the storage account where the BACPAC file will be saved is in the same region as the database.
+  * Import to a higher SLO and downgrade after the import has finished.
+  * Making sure the storage account containing the BACPAC file is in the same region as the database to avoid any unnecessary network latencies.
 
 ## **Recommended Documents**
 
