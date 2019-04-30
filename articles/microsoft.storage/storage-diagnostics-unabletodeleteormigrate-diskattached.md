@@ -29,7 +29,7 @@ In order to <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperati
 1. [Delete the following VM(s) with attached OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-2-delete-vm-to-detach-os-disk): <br>
 
 <!--$VMList-->[VMList]<!--/$VMList--> <br>
-
+<BR>
 
 2. [Detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm): <br>
 
