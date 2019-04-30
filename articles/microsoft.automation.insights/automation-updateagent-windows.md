@@ -16,6 +16,7 @@ cloudEnvironments="public"
 />
 
 # Microsoft Monitoring Agent needs to be upgraded
+
 <!--/issueDescription-->
 We have detected that you have machines that do not have the latest Microsoft Monitoring Agent installed on them. Update Management uses these agents to perform update assessments and to orchestrate the patching of your systems.
 <!--/issueDescription-->

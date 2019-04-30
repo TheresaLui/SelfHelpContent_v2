@@ -17,6 +17,7 @@
 />
 
 # Subscription payment instrument is expiring soon
+
 <!--/issueDescription-->
 The payment instrument, {PIDescription}, associated with the subscription {SubscriptionId} is expiring soon. If this payment instrument expires, we won't be able to process payment for future invoices and services may be suspended.
 <!--/issueDescription-->

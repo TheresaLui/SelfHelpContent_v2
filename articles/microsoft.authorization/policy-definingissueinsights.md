@@ -16,6 +16,7 @@
 />
 
 # Azure Policy - One or more errors detected during creation of an Azure Policy Definition
+
 <!--/issueDescription-->
 We found the following policy definition syntax errors:
 

@@ -16,7 +16,6 @@ cloudEnvironments="public"
 />
 
 # Hybrid Runbook Worker needs to be updated to the latest version
-
 <!--/issueDescription-->
 We have detected that you have machines that do not have the latest hybrid runbook worker installed on them. Update Management uses the hybrid runbook worker to perform update assessments and to patch your machines.
 <!--/issueDescription-->

@@ -16,6 +16,7 @@ cloudEnvironments="public"
 />
 
 # Update management solution failed to deploy correctly
+
 <!--/issueDescription-->
 We have detected that update management solution didn't properly deploy on the following machines:
 
