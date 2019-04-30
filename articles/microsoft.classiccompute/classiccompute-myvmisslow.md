@@ -4,18 +4,23 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32411877"
+	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags="windows, linux, windowsSQL, redhat"
-	productPesIds="14749"
+	productPesIds="14749,15571,15797,16454"
 	cloudEnvironments="public"
+	articleId="5b164da5-bc96-47b3-8bd9-74cfcf4db851"
+	category="performance"
+	searchTags="slow, performance, vm"
 />
 
 # My VM is slow
 
+Try the following steps to diagnose and mitigate VM performance issues.<br>
+
 ## **Recommended steps**
-Try the following steps to diagnose and mitigate VM performance issues:
 
 1. **Did you know PerfInsights can help you analyze Windows guest VM issues?**  
 	[Install Azure Performance Diagnostics VM Extension](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics-vm-extension) directly from Azure portal. You may also [download PerfInsights](https://www.microsoft.com/download/details.aspx?id=54915&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True) and run on the VM. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfInsights)

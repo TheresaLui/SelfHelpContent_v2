@@ -4,17 +4,21 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411818"
 	resourceTags=""
-	productPesIds="15571"
+	productPesIds="15571,16470"
 	cloudEnvironments="public"
+	articleId="174c3fd1-0fa7-4354-b892-8ae3b669cd80"
 />
 
 # Management/Manage or use a cluster in Azure
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Windows Server Failover Cluster on Azure IAAS VM – Part 1](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
 * [Building Windows Server Failover Cluster on Azure IAAS VM – Part 2 (Network and Creation)](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>

@@ -10,6 +10,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="MoonCake"
+	articleId="74426127-b42f-486f-b6b0-b0b00de449e7"
 />
 
 # I want to use my own SQL Server license in Azure VM

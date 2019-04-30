@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="fca44674-a3d3-4e7f-8d47-9991de30a0e4"
 />
 # MongoDB - Commonly faced errors
 

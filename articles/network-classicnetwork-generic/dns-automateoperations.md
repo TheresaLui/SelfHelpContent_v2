@@ -9,6 +9,7 @@
 	resourceTags=""
 	productPesIds="15804"
 	cloudEnvironments="public"
+	articleId="2de3a8cc-2761-4c88-8b4d-3794677ccdba"
 />
 
 # automate dns operations

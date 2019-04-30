@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="b55e8dae-773f-410c-b9d0-f0d5ba1400c3"
 />
 
 # onpremservicefabric

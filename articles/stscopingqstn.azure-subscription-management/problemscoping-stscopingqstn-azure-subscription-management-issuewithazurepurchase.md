@@ -1,9 +1,10 @@
 <properties
 	pageTitle="Scoping questions for Issue with Azure purchase"
 	description="Scoping questions for Subscription Management/Issue with Azure purchase"
-	authors="AlexKuriatnyk"
+	authors="prdasneo"
+	ms.author="prdasneo"
    selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454924,32549154,32549157,32549161,32549160,32454931,32549155,32549158,32549162,32549159"
+   supportTopicIds="32632950,32632948,32632955"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
    schemaVersion="1"
@@ -12,34 +13,91 @@
 # Issue with Azure purchase
 ---
 {
-    "resourceRequired": false,
-    "formElements": [
+  "resourceRequired": false,
+  "title": "Purchase Issues - Azure Subscriptions",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
+      "id": "problem_start_time",
+      "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "Problem Start Date",
+      "required": true
+    },
+    {
+      "id": "phonenumber_details",
+      "order": 2,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Phone number used during sign-up",
+      "watermarkText": "Provide the Phone number used during sign-up",
+      "required": true
+    },
+    {
+      "id": "emailid_details",
+      "order": 3,
+      "controlType": "textbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Email address used during sign-up",
+      "watermarkText": "Provide the Email address used during sign-up",
+      "required": true
+    },
+    {
+      "id": "browser_details1",
+      "order": 4,
+      "controlType": "dropdown",
+      "displayLabel": "Browser Information",
+      "watermarkText": "Choose the browser",
+      "dropdownOptions": [
         {
-            "id": "problem_description",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Issue description"
-                },
-                {
-                    "text": "Phone number used during sign-up"
-                },
-                {
-                    "text": "Email address used during sign-up"
-                }
-            ]
+          "value": "Apple Safari",
+          "text": "Apple Safari"
         },
         {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "Problem start time",
-            "required": true
+          "value": "Google Chrome",
+          "text": "Google Chrome"
+        },
+        {
+          "value": "Internet Explorer",
+          "text": "Internet Explorer"
+        },
+        {
+          "value": "Microsoft Edge",
+          "text": "Microsoft Edge"
+        },
+        {
+          "value": "Mozilla Firefox",
+          "text": "Mozilla Firefox"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "Other"
         }
-    ]
+      ],
+      "required": true
+    },
+    {
+      "id": "browser_details2",
+      "order": 5,
+      "visibility": "browser_details1 == Other",
+      "controlType": "textbox",
+      "displayLabel": "Please provide the Browser Information",
+      "required": false
+    },
+    {
+      "id": "problem_description",
+      "order": 6,
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Browser network trace or any other error message (if applicable)",
+      "watermarkText": "Provide the browser network trace or any error message or additional information about your issue",
+      "required": true,
+      "hints": [
+        {
+          "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
+        }
+      ]
+    }
+  ]
 }
 ---

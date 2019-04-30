@@ -10,7 +10,8 @@
     resourceTags="windows, linux, windowsSQL, redhat"
     productPesIds=""
 	cloudEnvironments="public"
- />
+ 	articleId="fbc3e808-7804-4f9b-b708-ecd3b0bbf998"
+/>
 
 # I can't restart or resize an existing VM
 

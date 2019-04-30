@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="03b7e3d0-3f22-4056-9909-b5cce16786e3"
 />
 
 # networking/portconfiguration

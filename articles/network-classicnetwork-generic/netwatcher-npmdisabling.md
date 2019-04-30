@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="19de9bda-4f98-4409-bc4d-453f81b913c0"
 />
 
 # npm/disablingnpm

@@ -10,7 +10,8 @@
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
-    />
+    	articleId="5430abc2-3eaf-4dec-bdbb-32778f621290"
+/>
 # I'm having a problem with password reset registration
 ## **Recommended steps**
 **How do my users register for self-service password reset?**

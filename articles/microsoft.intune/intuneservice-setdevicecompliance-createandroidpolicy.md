@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="a985052f-648f-4215-a870-d153a8f21826"
 />
 
 # Set device compliance - Create an Android Policy

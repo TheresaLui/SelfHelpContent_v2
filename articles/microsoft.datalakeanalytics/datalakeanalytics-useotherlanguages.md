@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3232ec57-2b48-4918-a735-a028b3d5bb11"
 />
 
 # How do I use programming language Y in ADLA (Y = C#, F#, Python, R, Java, JavaScript)?
