@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Login failed - the specified user could not be found"
 	description="Login failed because the specified user could not be found"
-	infoBubbleText="We ran diagnostics on your resource and found lLogin failed because the specified user could not be found"
+	infoBubbleText="We ran diagnostics on your resource and found that login failed because the specified user could not be found"
 	service="microsoft.sql"
 	resource="servers"
 	ms.author="vitomaz"
