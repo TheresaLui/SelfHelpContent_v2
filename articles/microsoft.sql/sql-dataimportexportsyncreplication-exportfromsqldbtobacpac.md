@@ -35,12 +35,13 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 * This is most commonly caused when the server's firewall is blocking the Export service. Make sure to [add a rule to the server's firewall to allow access from Azure services](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#manage-server-level-ip-firewall-rules-using-the-azure-portal).
 
-### Export operation has been running for a long time (or progress is stuck)
+### Export operation has been running for a long time (or progress seems stuck)
 
 * Export speed depends largely on the data shape (schema) in addition to the data size and can in some cases take considerable time to finish. If the operation takes more than 48 hours, it will be automatically cancelled. To get the best performance, we recommend
   * Making sure no other workload is running on the database. Creating a copy before export may be the best solution to ensure no other workload.
   * Increase database SLO to better handle the export workload (primarily read IO).
   * Making sure there are clustered indexes particularly for large tables
+  * Making sure the storage account where the BACPAC file will be saved is in the same region as the database to avoid unnecessary network latencies.
 
 ## **Recommended Documents**
 
