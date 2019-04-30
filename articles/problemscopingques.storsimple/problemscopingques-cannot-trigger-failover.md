@@ -21,7 +21,7 @@
 			"id": "failover_component",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Which component are your trying to failover",
+			"displayLabel": "Which component are your trying to failover?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Volume container",
@@ -36,7 +36,7 @@
 			"id": "failover_to",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "What is the destination of the failover",
+			"displayLabel": "What is the destination of the failover?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Same Device",
