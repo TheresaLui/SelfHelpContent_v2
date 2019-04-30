@@ -128,6 +128,11 @@
                     "value": "Unable to retrieve list of VNETs",
                     "text": "Unable to retrieve list of VNETs"
               },
+	      "DropdownOptions": [{
+			"value": "Unable to retrieve list of VNETs",
+			"text": "Unable to retrieve list of VNETs"
+		}
+	],
             "required": true
 				}, {
             "id": "problem_start_time",
