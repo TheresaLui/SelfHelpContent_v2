@@ -15,6 +15,22 @@
     "resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
+	"diagnosticCard": {
+		"title": "Application Gateway Access URL",
+    	"description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource.",
+		"formElements": [
+			{
+				"id": "app_gw_url",
+				"order": 1,
+				"controlType": "textbox",
+				"displayLabel": "Please provide the URL you are using to access the Application Gateway.",
+				"watermarkText": "Provide full URL such as http://www.contoso.com:8081/home.aspx",
+				"required": true,
+				"diagnosticInputRequiredClients": "Portal"
+			}
+		]
+	},
     "formElements": [
         {
             "id": "app_gw_url",

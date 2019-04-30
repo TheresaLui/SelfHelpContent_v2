@@ -10,6 +10,7 @@
     articleId="application-gateway-502-error-insight"
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483"
+	productPesIds="15922"
     cloudEnvironments="public"
  />
 
@@ -19,15 +20,15 @@ We ran several diagnostic checks on your resource **<!--$ImpactedResource-->[Imp
 
 ## **Diagnostic checks executed**
 
-* Check for <!--$BackendAddressPoolEmptyDiaplayname-->[BackendAddressPoolEmptyDiaplayname]<!--/$BackendAddressPoolEmptyDiaplayname--> - <!--$BackendAddressPoolEmptyCheckStatus-->[BackendAddressPoolEmptyCheckStatus]<!--/$BackendAddressPoolEmptyCheckStatus-->
+* Check for <!--$BackendAddressPoolEmptyDisplayName-->[BackendAddressPoolEmptyDisplayName]<!--/$BackendAddressPoolEmptyDisplayName--> - <!--$BackendAddressPoolEmptyCheckStatus-->[BackendAddressPoolEmptyCheckStatus]<!--/$BackendAddressPoolEmptyCheckStatus-->
 
     * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool) <br>
 
-* Check for <!--$DegradedBackendServerHealthDiaplayname-->[DegradedBackendServerHealthDiaplayname]<!--/$DegradedBackendServerHealthDiaplayname--> - <!--$DegradedBackendServerHealthCheckStatus-->[DegradedBackendServerHealthCheckStatus]<!--/$DegradedBackendServerHealthCheckStatus-->
+* Check for <!--$DegradedBackendServerHealthDisplayName-->[DegradedBackendServerHealthDisplayName]<!--/$DegradedBackendServerHealthDisplayName--> - <!--$DegradedBackendServerHealthCheckStatus-->[DegradedBackendServerHealthCheckStatus]<!--/$DegradedBackendServerHealthCheckStatus-->
 
     * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool) <br>
 
-* Check for  <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteDiaplayname-->[BasicListenerHasHigherPriorityRuleThanMultiSiteDiaplayname]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteDiaplayname--> - <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->[BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->
+* Check for  <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName-->[BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteDisplayName--> - <!--$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->[BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus]<!--/$BasicListenerHasHigherPriorityRuleThanMultiSiteCheckStatus-->
 
     * [Troubleshoot](https://docs.microsoft.com/azure/application-gateway/configuration-overview#order-of-processing-listeners)
 
