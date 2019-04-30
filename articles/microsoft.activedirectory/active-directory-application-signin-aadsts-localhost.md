@@ -17,8 +17,10 @@
 />
 
 # Configuration Issue Preventing User Sign-In
+<!--issueDescription-->
+Please delete the unused reply URL 127.0.0.1:444 configured for the application.
+<!--issueDescription-->
 
-Please delete the unused reply URL https://127.0.0.1:444 configured for the application. 
 
 ## **Recommended Steps**
 
