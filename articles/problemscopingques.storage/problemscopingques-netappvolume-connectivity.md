@@ -60,10 +60,11 @@
 				            "text": "Not applicable"
         					}
 								},
-						"DropdownOptions": {
+						"DropdownOptions": [{
                     "value": "Unable to retrieve list of resource groups",
                     "text": "Unable to retrieve list of resource groups"
-                },
+                }
+							],
             "required": true
 				}, {
 					"id": "VMName",
@@ -84,10 +85,11 @@
 					            "text": "Not applicable"
 	        					}
 								},
-								"DropdownOptions": {
+								"DropdownOptions": [{
 		                    "value": "Unable to retrieve list of VMs",
 		                    "text": "Unable to retrieve list of VMs"
-		                },
+		                }
+									],
             "required": true
 				}, {
 					"id": "GatewayType",
@@ -122,7 +124,7 @@
             "valueProperty": "id",
             "textPropertyRegex": "[^/]+$"
 						},
-						"dropdownOptions": {
+						"defaultDropdownOptions": {
                     "value": "Unable to retrieve list of VNETs",
                     "text": "Unable to retrieve list of VNETs"
               },
