@@ -43,6 +43,4 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ## **Recommended Documents**
 
-* For an export to be transactionally consistent, you must ensure either that no write activity is occurring during the export, or that you are exporting from a [transactionally consistent](https://docs.microsoft.com/azure/sql-database/sql-database-copy) copy of your Azure SQL database.
-
 * More details can be found in [Import a BACPAC file to a new Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-export?WT.mc_id=pid:13491:sid:32630420/)
