@@ -30,6 +30,7 @@ In order to <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperati
 
 <!--$VMList-->[VMList]<!--/$VMList--> <br>
 
+
 2. [Detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors#step-3-detach-data-disk-from-the-vm): <br>
 
 <!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList--> <br>
