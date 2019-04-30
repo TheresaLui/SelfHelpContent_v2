@@ -32,13 +32,13 @@ To avoid potential memory and disk data corruption, the guest operating system s
 Details about the cause of the termination are written to system event logs and possibly memory dumps. To invesigate further, see these articles from Unbutu:<br>
 
 - [Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
-- [Ubuntu wiki - CrashDumpRecipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecip)<br>
+- [Ubuntu wiki - CrashDumpRecipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)<br>
 
 ## Redundancy and health
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
+* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).
