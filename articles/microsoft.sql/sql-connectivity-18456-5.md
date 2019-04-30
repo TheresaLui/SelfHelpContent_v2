@@ -23,10 +23,8 @@
 Between <!--$StartDate-->StartDate<!--/$StartDate--> and <!--$EndDate-->EndDate<!--/$EndDate--> we were able to detect login failures:<br>
 
 <!--$FailedLogins18456State5--> FailedLogins18456State5 <!--/$FailedLogins18456State5-->
-
 <!--/issueDescription-->
-
-
+<br>
 The error returned indicates that the user was not found. This may occur if the username specified in the application connection string is incorrect, or if there is no corresponding login or contained database user inside the database.
 <br>
 
