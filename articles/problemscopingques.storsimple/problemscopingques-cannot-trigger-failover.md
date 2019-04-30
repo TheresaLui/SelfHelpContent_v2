@@ -10,7 +10,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# VM Performance
+# Cannot trigger failover
 ---
 {
 	"resourceRequired": true,
