@@ -15,7 +15,9 @@ resourceTags="windows"
 productPesIds="15607"
 cloudEnvironments="public"
 />
+
 # Runbook failed because it exceeded the open socket limit
+
 <!--/issueDescription-->
 Your runbook, <!--$RunbookName-->[RunbookName]<!--/$RunbookName-->, failed <!--$FailedJobs-->[FailedJobs]<!--/$FailedJobs--> times in the <!--$TimeRange-->[TimeRange]<!--/$TimeRange--> days prior to case creation. It exceeded the <!--$SocketLimit-->[SocketLimit]<!--/$SocketLimit--> open socket limit.
 <!--/issueDescription-->
