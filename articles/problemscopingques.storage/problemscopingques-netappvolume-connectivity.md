@@ -5,7 +5,7 @@
 	authors="ram-kakani"
 	ms.author="ramakk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32606353"
+	supportTopicIds="32640618"
 	productPesIds="16469"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -38,10 +38,10 @@
 		"text": "On-premise, connected to this VNET with VPN Gateway"
 		}, {
                     "value": "On-premise, connecting over ExpressRoute and VNET peering",
-                    "text": "On-premise, connected to this VNET with ExpressRoute"
+                    "text": "On-premise, connecting over ExpressRoute and VNET peering"
                 }, {
 		"value": "On-premise, connecting over VPN Gateway and VNET peering",
-		"text": "On-premise, connected to this VNET with VPN Gateway"
+		"text": "On-premise, connecting over VPN Gateway and VNET peering"
 		},{
 		"text": "Other or not applicable",
 		"value": "dont_know_answer"
