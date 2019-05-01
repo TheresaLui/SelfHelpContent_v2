@@ -1,26 +1,25 @@
 <properties
-pageTitle="VM boot error"
-description="Virtual machine failed to boot with error code 0xc000000e"
-infoBubbleText="A boot error has been found. See details on the right."
-service="microsoft.compute"
-resource="virtualmachines"
-authors="ram-kakani,timbasham, jasonbandrew"
-ms.author="ramakk,tibasham, v-jasoan"
-displayOrder=""
-articleId="VMCannotRDP_2A1E170D-E156-4E58-A8E6-F8FD820AB8A4"
-diagnosticScenario="booterror"
-selfHelpType="diagnostics"
-supportTopicIds="32411835"
-resourceTags="windows"
-productPesIds="14749"
-cloudEnvironments="public"
+    pageTitle="VM boot error"
+    description="Virtual machine failed to boot because it couldn't finitialize Windows"
+    infoBubbleText="A boot error 'Administrator: ERROR HANDLER' has been found for your virtual machine. The operating system is corrupted and you'll need to restart your machine."
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="jasonbandrew"
+    ms.author="v-jasoan"
+    displayOrder=""
+    articleId="OSStartUp-PROVISIONING_AGENT"
+    selfHelpType="diagnostics"
+    supportTopicIds="32411835"
+    resourceTags="windows"
+    productPesIds="14749"
+    cloudEnvironments="public"
 />
 
-# VM boot error
+# VM Boot Error
 <!--issueDescription-->
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc000000e**. The issue occurs when a device that doesn't exist is specified in the boot configuration data (BCD).
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 
-If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**

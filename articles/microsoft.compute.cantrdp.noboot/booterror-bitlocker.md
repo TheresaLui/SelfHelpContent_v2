@@ -4,7 +4,7 @@
     infoBubbleText="A boot error 'Plug in the USB drive that has the BitLocker key' has been found for your virtual machine."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="ram-kakani,timbasham"
+    authors="ram-kakani,timbasham,"
     ms.author="ramakk,tibasham"
     displayOrder=""
     articleId="BootError--BITLOCKER"
