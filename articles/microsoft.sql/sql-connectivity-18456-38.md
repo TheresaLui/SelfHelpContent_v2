@@ -31,9 +31,9 @@ The error returned indicated that the corresponding user does not exist inside t
 
 ## **Recommended Steps**
 
-1. Compare SQL logins in the master database with users in the user database:
+### Compare SQL logins in the master database with users in the user database
 	
-	1. Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
+1. Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
 
 ```
 SELECT [name], SID
@@ -41,7 +41,7 @@ FROM sys.sql_logins
 WHERE type = 'S';
 ```
 
-	2. Open a connection to the user database. Execute the following T-SQL to return a list of configured users in the user database:
+2. Open a connection to the user database. Execute the following T-SQL to return a list of configured users in the user database:
 
 ```
 SELECT [name], SID, principal_id
@@ -51,13 +51,13 @@ WHERE type = 'S'
   AND authentication_type_desc = 'INSTANCE';
 ```
 
-2. If the required user does not exist in the user database, add the user by executing the CREATE USER statement in the user database, specifying the login name:
+3. If the required user does not exist in the user database, add the user by executing the CREATE USER statement in the user database, specifying the login name:
 
 ```
 CREATE USER <user_name> FOR Login <login_name>; 
 ```
 
-3. If the requested user does exist in the user database, the error is likely due to an orphaned user. In this case, comparing the two lists from step 1 should reveal a SID mismatch between the login in the master database and the user in the user database.
+4. If the requested user does exist in the user database, the error is likely due to an orphaned user. In this case, comparing the two lists from step 1 should reveal a SID mismatch between the login in the master database and the user in the user database.
 
 To map an orphaned user to a login which already exists in master, execute the ALTER USER statement in the user database, specifying the login name:
 
