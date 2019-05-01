@@ -34,18 +34,18 @@
                     "value": "On-premise, connected to this VNET with ExpressRoute",
                     "text": "On-premise, connected to this VNET with ExpressRoute"
                 }, {
-										"value": "On-premise, connected to this VNET with VPN Gateway",
-										"text": "On-premise, connected to this VNET with VPN Gateway"
-								}, {
+		"value": "On-premise, connected to this VNET with VPN Gateway",
+		"text": "On-premise, connected to this VNET with VPN Gateway"
+		}, {
                     "value": "On-premise, connecting over ExpressRoute and VNET peering",
                     "text": "On-premise, connected to this VNET with ExpressRoute"
                 }, {
-										"value": "On-premise, connecting over VPN Gateway and VNET peering",
-										"text": "On-premise, connected to this VNET with VPN Gateway"
-								},{
-										"text": "Other or not applicable",
-										"value": "dont_know_answer"
-								}
+		"value": "On-premise, connecting over VPN Gateway and VNET peering",
+		"text": "On-premise, connected to this VNET with VPN Gateway"
+		},{
+		"text": "Other or not applicable",
+		"value": "dont_know_answer"
+		}
               ],
             "required": true
 				}, {
