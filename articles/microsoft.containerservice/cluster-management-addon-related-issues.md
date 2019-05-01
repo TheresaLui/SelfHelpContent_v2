@@ -21,6 +21,4 @@
 * [How to stop monitoring addon](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-optout)<br>
 * [Enable monitoring for a new cluster](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-onboard#enable-monitoring-for-a-new-cluster)<br>
 * [How to enable HTTP application routing addon](https://docs.microsoft.com/azure/aks/http-application-routing)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
