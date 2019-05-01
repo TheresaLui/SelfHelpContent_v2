@@ -17,8 +17,10 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 The application you were trying to sign into does not exist in the Azure Active Directory. The application may not be configured properly in Azure AD, or the Issuer value that is coming in the sign-in request (SAML request) does not match the application Identifier.
+<!--issueDescription-->
+
 
 ## **Recommended Steps**
 
@@ -27,10 +29,10 @@ The application you were trying to sign into does not exist in the Azure Active 
 3. Select **Azure Active Directory** and go the **Enterprise applications** blade. Search for the application for which you want to enable federated single sign-on.
 4. Click on the application name to open it, then click **Single Sign-On** on the application's left-hand navigation menu
 5. Within the **Basic SAML Configuration' section**, click the pencil to edit the value
-6. Enter the Issuer value into the **Identifier (Entity ID)** property and click save 
+6. Enter the Issuer value into the **Identifier (Entity ID)** property and click save
 
 Your application should now be available for user sign-in.
- 
+
 For future sign in problems with SAML based applications, we recommend using the [testing feature with the My Apps secure sign-in extension](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-debugging) to get better and automatic self diagnosis and resolution steps.
 
 ## **Recommended Documents**
@@ -39,4 +41,4 @@ For future sign in problems with SAML based applications, we recommend using the
 
 ### SAML Request Received
 
-<!--$SAMLRequestFormatted-->SAMLRequestFormatted<!--/$SAMLRequestFormatted-->	
+<!--$SAMLRequestFormatted-->SAMLRequestFormatted<!--/$SAMLRequestFormatted-->
