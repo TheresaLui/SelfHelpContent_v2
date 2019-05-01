@@ -33,7 +33,7 @@ The error returned indicated that the corresponding user does not exist inside t
 
 a) Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
 
-```sql
+```
 SELECT [name], SID
 FROM sys.sql_logins 
 WHERE type = 'S';
@@ -41,7 +41,7 @@ WHERE type = 'S';
 
 b) Open a connection to the user database. Execute the following T-SQL to return a list of configured users in the user database:
 
-```sql
+```
 SELECT [name], SID, principal_id
 FROM sys.database_principals 
 WHERE type = 'S' 
@@ -51,7 +51,7 @@ WHERE type = 'S'
 
 2. If the required user does not exist in the user database, add the user by executing the CREATE USER statement in the user database, specifying the login name:
 
-```sql
+```
 CREATE USER <user_name> FOR Login <login_name>; 
 ```
 
@@ -59,7 +59,7 @@ CREATE USER <user_name> FOR Login <login_name>;
 
 To map an orphaned user to a login which already exists in master, execute the ALTER USER statement in the user database, specifying the login name:
 
-```sql
+```
 ALTER USER <user_name> WITH Login = <login_name>;
 ```
 
