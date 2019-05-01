@@ -26,6 +26,4 @@
 * [Troubleshooting guide for Azure DevSpaces](https://docs.microsoft.com/azure/dev-spaces/troubleshooting)<br>
 * [Deploy a Docker container app to Azure Kubernetes Service using Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops)<br>
 * [Best practices for application developers to manage resources](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
