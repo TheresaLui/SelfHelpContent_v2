@@ -29,7 +29,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## Troubleshooting
 
-Details about the cause of the termination are written to system event logs and possibly memory dumps. More information on stop errors and how to analyze them can be found here:<br>
+Details about the cause of the termination are written to system event logs and possibly other files. More information on stop errors and how to analyze them can be found here:<br>
 
 * [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)<br>
 * [Bug Check Code Reference](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2)
