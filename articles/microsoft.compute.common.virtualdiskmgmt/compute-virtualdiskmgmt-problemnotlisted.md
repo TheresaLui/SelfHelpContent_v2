@@ -23,12 +23,14 @@
 ### Attaching or detaching disks
 
 * **Attach a new disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-a-new-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#add-an-empty-data-disk-to-a-virtual-machine)
-* [Intialize a new data disk in the VM OS](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
+* [Intialize a new data disk in a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
 * **Attach an existing disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-portal#attach-an-existing-disk) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps#attach-an-existing-data-disk-to-a-vm)
 * **Detach a data disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-the-portall) or [Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/detach-disk#detach-a-data-disk-using-powershell)
 * [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
+* [Understanding the temporary disk on a VM](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview#temporary-disk)
+* [Change the drive letter of the temporary disk](https://docs.microsoft.com/azure/virtual-machines/windows/change-drive-letter)
 
-**NOTE**: When detaching a VM, remember to connect to the VM and **unmount the disk first**.
+**NOTE**: When detaching a disk, remember to connect to the VM and **unmount the disk first**.
 
 ### Premium Storage (SSD)
 
@@ -38,10 +40,13 @@
 
 ### Increase or resize a disk attached to the VM (OS or data disk)
 
-* [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)
-* [Resize data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)
-* [How to expand the OS drive of a virtual machine](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)
-* [Expand the volume within the OS after expanding the virtual hard disk](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)
+* [How to expand the OS disk of a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)<br>
+* [Expand data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)<br>
+* [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
+* [Convert between Standard and Premium storage for a disk](https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage)<br>
+* [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#supported-vms)<br>
+* [Extend a basic volume in Windows](https://docs.microsoft.com/windows-server/storage/disk-management/extend-a-basic-volume)<br>
+* [Windows Storage Spaces](https://docs.microsoft.com/windows-server/storage/storage-spaces/overview)
 
 ### Managed Disks or conversion from unmanaged
 
@@ -54,4 +59,4 @@
 ## **Recommended Documents**
 
 * [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)
-* [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)
+* [Virtual Disks FAQ](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)<br>

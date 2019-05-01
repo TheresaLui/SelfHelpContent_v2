@@ -22,7 +22,7 @@
 
 * Restore a VM from a managed snapshot using [PowerShell](https://docs.microsoft.com/azure/virtual-machines/scripts/virtual-machines-windows-powershell-sample-create-vm-from-snapshot)<br>
 * Create a snapshot of a managed disk using the [Portal](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk#use-the-azure-portal), or [PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk#use-powershell)<br>
-* [Restore an unmanaged disk from snaptshot](https://docs.microsoft.com/azure/virtual-machines/windows/incremental-snapshots#steps-to-restore-a-disk-from-snapshots)<br>
+* [Restore an unmanaged disk from snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/incremental-snapshots#steps-to-restore-a-disk-from-snapshots)<br>
 * [Create a snapshot of an unmanaged disk](https://docs.microsoft.com/azure/virtual-machines/windows/incremental-snapshots)<br>
 * [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/windows/find-unattached-disks)
 
@@ -30,6 +30,6 @@
 
 * [Virtual Disks FAQ](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)<br>
 * [Troubleshoot allocation failures when resizing a VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
-* [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/storage/storage-about-disks-and-vhds-linux#temporary-disk)<br>
+* [Understanding the temporary drive on your VM](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview#temporary-disk)<br>
 * [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview)<br>
 * [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-managed-disks)
