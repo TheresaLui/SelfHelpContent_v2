@@ -7,7 +7,7 @@
     ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32630426, 32630451"
+	supportTopicIds="32630426"
 	productPesIds="13491"
 	cloudEnvironments="public"
 	articleId="c5bbcb9b-61f7-438a-8cb8-0f66bb01a54b"
