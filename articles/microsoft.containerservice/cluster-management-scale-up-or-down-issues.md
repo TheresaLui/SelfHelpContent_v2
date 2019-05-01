@@ -20,10 +20,8 @@
 
 * [Scale the node count in an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/scale-cluster)<br>
 * [Preview - Automatically scale a cluster to meet application demands on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/cluster-autoscaler)<br>
-v[Scaling options for applications in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/concepts-scale)<br>
+* [Scaling options for applications in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/concepts-scale)<br>
 * [Known issue with Scale Up](https://github.com/kubernetes/autoscaler/issues/1063)<br>
 * [Azure AKS cluster autoscaler doesn't support bulk removal of empty nodes](https://github.com/kubernetes/autoscaler/issues/1597)<br>
 * [Burst to Azure Container Instances for Rapid scale](https://docs.microsoft.com/azure/aks/concepts-scale#burst-to-azure-container-instances)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
