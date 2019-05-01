@@ -32,6 +32,7 @@ The error returned indicated that the corresponding user does not exist inside t
 ## **Recommended Steps**
 
 1. Compare SQL logins in the master database with users in the user database:
+	
 	1. Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
 
 ```
