@@ -29,4 +29,4 @@ The error returned indicated that the corresponding login contains either an emp
 
 ## **Recommended Steps**
 
-Retry the login entering both username and password.
+* Retry the login entering both username and password
