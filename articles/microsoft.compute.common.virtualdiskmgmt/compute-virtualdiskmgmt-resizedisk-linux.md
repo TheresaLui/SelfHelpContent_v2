@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-* [How to expand the disk of a Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks)<br>
+* [How to expand the disk of a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/expand-disks)<br>
 * [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size)<br>
 * [Convert between Standard and Premium storage for a disk](https://docs.microsoft.com/azure/virtual-machines/linux/convert-disk-storage)<br>
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage#supported-vms)<br>
