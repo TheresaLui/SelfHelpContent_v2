@@ -25,6 +25,4 @@
 * [How to use updated docker image from ACR in AKS](https://stackoverflow.com/questions/54700031/how-to-use-updated-docker-image-from-acr-in-aks)<br>
 * [How to use a private Azure Container Registry with Kubernetes](https://thorsten-hans.com/how-to-use-private-azure-container-registry-with-kubernetes)<br>
 * [Best practices for authentication and authorization](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
