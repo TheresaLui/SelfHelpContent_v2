@@ -23,6 +23,4 @@
 * [How to Enable apiserver metrics on Prometheus(https://github.com/Azure/AKS/issues/504)<br>
 * [Tutorial: Prepare an application for Azure Kubernetes Service (AKS)(https://docs.microsoft.com/azure/aks/tutorial-kubernetes-prepare-app)<br>
 * [kubectl Cheat Sheet(https://kubernetes.io/docs/reference/kubectl/cheatsheet/)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
