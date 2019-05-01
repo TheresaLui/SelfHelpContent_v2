@@ -23,6 +23,4 @@
 * [Quickstart: Deploy an Azure Kubernetes Service (AKS) cluster using the Azure portal](https://docs.microsoft.com/azure/aks/kubernetes-walkthrough-portal)<br>
 * [Tutorial: Deploy an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/tutorial-kubernetes-deploy-cluster)<br>
 * [Create a Kubernetes cluster with Azure Kubernetes Service and Terraform](https://docs.microsoft.com/azure/terraform/terraform-create-k8s-cluster-with-tf-and-aks)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
