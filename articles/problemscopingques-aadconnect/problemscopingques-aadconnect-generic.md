@@ -14,7 +14,7 @@
 ---
 {
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
 	"title": "Azure AD Connect issues",
 	"fileAttachmentHint": "",
 	"formElements": [
