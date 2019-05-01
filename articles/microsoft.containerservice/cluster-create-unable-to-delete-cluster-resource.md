@@ -20,6 +20,4 @@
 
 * [How to delete an AKS cluster](https://docs.microsoft.com/cli/azure/aks)<br>
 * [AKS (Azure Kubernetes Services) stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
