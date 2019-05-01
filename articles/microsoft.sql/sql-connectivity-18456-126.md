@@ -21,13 +21,13 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between <!--$StartDate-->StartDate<!--/$StartDate--> and <!--$EndDate-->EndDate<!--/$EndDate--> we were able to detect login failures:<br>
+Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
 <!--$FailedLogins18456State126--> FailedLogins18456State126 <!--/$FailedLogins18456State126-->
 
 <!--/issueDescription-->
 
 <br>
-The error returned indicated that the database was not found, this may occur if the database name is incorrect or does not exist on the specified server.
+The error returned indicated that the database was not found. This may occur if the database name is incorrect or does not exist on the specified server.
 <br>
 
 ## **Recommended Steps**
