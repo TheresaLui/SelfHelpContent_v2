@@ -42,9 +42,7 @@
                 }, {
 										"value": "On-premise, connecting over VPN Gateway and VNET peering",
 										"text": "On-premise, connected to this VNET with VPN Gateway"
-								},  
-
-								{
+								},{
 										"text": "Other or not applicable",
 										"value": "dont_know_answer"
 								}
