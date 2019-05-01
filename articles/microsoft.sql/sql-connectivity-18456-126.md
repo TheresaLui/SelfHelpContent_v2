@@ -27,7 +27,7 @@ Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<
 <!--/issueDescription-->
 
 <br>
-The error returned indicated that the database was not found, this may occur if the database name is incorrect or does not exist on the specified server.
+The error returned indicated that the database was not found. This may occur if the database name is incorrect or does not exist on the specified server.
 <br>
 
 ## **Recommended Steps**
