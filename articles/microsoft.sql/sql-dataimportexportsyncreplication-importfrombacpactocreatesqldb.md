@@ -27,10 +27,6 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 * Import service does not allow issuing multiple requests for the same database. Please wait until the current operation is finished.
 
-### Blob already exists
-
-* A bacpac file with the same name already exists in Azure Blob storage. Please choose a different name for the file.
-
 ### Failure with code 504
 
 * This is most commonly caused when the server's firewall is blocking the Export service. Make sure to [add a rule to the server's firewall to allow access from Azure services](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#manage-server-level-ip-firewall-rules-using-the-azure-portal).
@@ -40,6 +36,10 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 * Import speed depends largely on the data shape (schema) in addition to the data size and can in some cases take considerable time to finish. If the operation takes more than 48 hours, it will be automatically cancelled. To get the best performance, we recommend
   * Import to a higher SLO and downgrade after the import has finished.
   * Making sure the storage account containing the BACPAC file is in the same region as the database to avoid any unnecessary network latencies.
+
+### Cancelling the import job
+
+* This capability is not yet available to customers. We are actively working on it. In the mean time, please file a ticket to get your import cancelled.
 
 ## **Recommended Documents**
 

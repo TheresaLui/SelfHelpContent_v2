@@ -27,6 +27,10 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 * Export service does not allow issuing multiple requests for the same database. Please wait until the current operation is finished.
 
+### Cancelling the export job
+
+* This capability is not yet available to customers. We are actively working on it. In the mean time, please file a ticket to get your export cancelled.
+
 ### Blob already exists
 
 * A bacpac file with the same name already exists in Azure Blob storage. Please choose a different name for the file.
