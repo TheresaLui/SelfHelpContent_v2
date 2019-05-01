@@ -13,7 +13,7 @@
 # Azure AD Connect questions
 ---
 {
-  "subscriptionRequired": true,
+  "subscriptionRequired": false,
   "resourceRequired": false,
 	"title": "Azure AD Connect issues",
 	"fileAttachmentHint": "",
