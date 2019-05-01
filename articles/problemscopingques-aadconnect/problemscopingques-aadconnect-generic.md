@@ -23,7 +23,7 @@
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did you first noticed the problem?",
-			"required": true
+			"required": false
 			},
 			{
       "id": "problem_description",
