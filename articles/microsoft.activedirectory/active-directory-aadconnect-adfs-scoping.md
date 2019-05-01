@@ -15,7 +15,7 @@
 
 {
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
 	"title": "AD FS Scoping Questions",
 	"fileAttachmentHint": "",
 	"formElements": [{
