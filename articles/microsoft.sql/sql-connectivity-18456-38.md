@@ -23,15 +23,16 @@
 Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
 <!--$FailedLogins18456State38--> FailedLogins18456State38 <!--/$FailedLogins18456State38-->
 <!--/issueDescription-->
+
 <br>
+
 The error returned indicated that the corresponding user does not exist inside the database, or the database user is orphaned due to a SID mapping mismatch between the user and the login in master.
 <br>
 
 ## **Recommended Steps**
 
-1. Compare SQL logins in the master database with users in the user database.
-
-a) Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
+1. Compare SQL logins in the master database with users in the user database:
+	1. Open a connection to the master database. Execute the following T-SQL to return a list of configured SQL logins in the master database:
 
 ```
 SELECT [name], SID
@@ -39,7 +40,7 @@ FROM sys.sql_logins
 WHERE type = 'S';
 ```
 
-b) Open a connection to the user database. Execute the following T-SQL to return a list of configured users in the user database:
+	2. Open a connection to the user database. Execute the following T-SQL to return a list of configured users in the user database:
 
 ```
 SELECT [name], SID, principal_id
@@ -66,5 +67,4 @@ ALTER USER <user_name> WITH Login = <login_name>;
 ## **Recommended Documents**
 
 * [Create Users](https://docs.microsoft.com/sql/t-sql/statements/create-user-transact-sql/)
-
 * [Troubleshoot Orphaned Users](https://docs.microsoft.com/sql/sql-server/failover-clusters/troubleshoot-orphaned-users-sql-server/)
