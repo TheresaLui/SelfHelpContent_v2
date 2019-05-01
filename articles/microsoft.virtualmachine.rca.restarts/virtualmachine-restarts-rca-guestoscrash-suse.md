@@ -23,15 +23,15 @@ We identified that your VM **<!--$vmname-->Virtual Machine<!--/$vmname-->** beca
 
 To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
 
-- A memory address that causes an access violation.
-- An unexpected exception or trap.
-- A faulting kernel mode driver.<br>
+- A memory address that causes an access violation
+- An unexpected exception or trap
+- A faulting kernel mode driver
 
-## Troubleshooting
+## **Recommended Steps**
 
 Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see the SUSE article [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526).<br>
 
-## Redundancy and health
+### Redundancy and Health
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
