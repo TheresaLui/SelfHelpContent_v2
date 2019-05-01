@@ -1,0 +1,25 @@
+<properties
+pageTitle="Connection to Azure Active Directory failed due to authentication failure"
+	description="Connection to Azure Active Directory failed due to authentication failure"
+	infoBubbleText="Connection to Azure Active Directory failed due to authentication failure See details on the right."
+	service="microsoft.aad.iam"
+	resource="aadconnect"
+	authors="rodejo"
+	displayOrder="1"
+	articleId="ADtoAADSync_AADConnect_ASC_AAD_Connect_Health_Alerts_AAD_Authentication_Failure"
+	diagnosticScenario=""
+	selfHelpType="Diagnostics"
+	resourceTags=""
+	productPesIds="14785"
+	cloudEnvironments="public"
+/>
+# Connection to Azure Active Directory failed due to authentication failure
+Connection to Azure Active Directory failed due to authentication failure. As a result objects will not be synchronized with Azure Active Directory.
+## Connection to Azure Active Directory failed due to authentication failure
+Azure AD Connect was unable to establish a connection to Azure Active Directory. This was caused by an authentication failure. As a result objects will not be synchronized with Azure Active Directory.
+
+You should investigate and resolve this issue to resume synchonrization with Azure Active Directory.
+
+<!--/issueDescription-->
+## **Recommended steps**
+To diagnose this issue you should examine the Windows Event Log for error events in the Application log. Look for error events that have "Directory Synchronization" as the Source in the Event Viewer. This will provide information about the exact nature of the authentication failure. 
