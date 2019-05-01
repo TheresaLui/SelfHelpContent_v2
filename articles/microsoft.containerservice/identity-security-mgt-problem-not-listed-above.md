@@ -24,6 +24,4 @@
 * [How to check whether RBAC is enabled, using kubectl](https://stackoverflow.com/questions/51238988/how-to-check-whether-rbac-is-enabled-using-kubectl)<br>
 * [Best practices for authentication and authorization](https://docs.microsoft.com/azure/aks/best-practices)<br>
 * [Best practices for cluster security and upgrades](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
