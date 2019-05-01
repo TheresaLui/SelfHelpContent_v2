@@ -31,4 +31,4 @@ Verify that the AD DS Connector account and its permissions are configured and w
 
 ## **Recommended Documents**
 
-[Configure AD DS Connector Account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
+* [Configure AD DS Connector Account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
