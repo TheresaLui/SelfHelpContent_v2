@@ -44,7 +44,9 @@
 
 4. Verify that you are trying to apply label for a supported file type and that the file is not password protected: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#files-that-cannot-be-protected-by-default)
 
-5. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+5. If you are installing on Office 2010, make sure you have defined ServiceLocation parameter: https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#to-install-the-azure-information-protection-client-by-using-the-executable-installer
+
+6. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ## Export Azure Information Protection logs
 
