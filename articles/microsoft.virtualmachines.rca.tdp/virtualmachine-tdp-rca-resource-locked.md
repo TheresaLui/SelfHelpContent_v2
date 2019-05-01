@@ -21,7 +21,7 @@
 We detected that the operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the resource is locked.<br>
 <!--/issueDescription-->
 
-You must unlock the resource to add, delete, or modify it. In the **Settings** blade for the resource, resource group, or subscription, select **Locks**. Select the ellipsis and **Delete** from the available options.
+You can delete the lock, or set its lock level to **CanNotDelete** or **ReadOnly**. In the **Settings** blade for the resource, resource group, or subscription, select **Locks**. To delete the lock, select the ellipsis and **Delete** from the available options.
 
 If you do not see options to manage locks, you will need elevated rights to access them.
 
