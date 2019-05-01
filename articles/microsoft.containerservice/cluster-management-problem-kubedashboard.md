@@ -23,6 +23,4 @@
 * [Access dashboard on AKS with RBAC enabled](https://pascalnaber.wordpress.com/2018/06/17/access-dashboard-on-aks-with-rbac-enabled/)<br>
 * [Access the Kubernetes web dashboard in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
 * [New AKS cluster unreachable via network (including dashboard)](https://stackoverflow.com/questions/49560394/new-aks-cluster-unreachable-via-network-including-dashboard)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
