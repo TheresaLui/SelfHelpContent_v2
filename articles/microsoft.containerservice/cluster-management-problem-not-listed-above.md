@@ -28,6 +28,4 @@
 * [Best practices for basic scheduler features](https://docs.microsoft.com/azure/aks/best-practices)<br>
 * [Best practices for advanced scheduler features](https://docs.microsoft.com/azure/aks/best-practices)<br>
 * [Azure Kubernetes Service Support coverage](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
