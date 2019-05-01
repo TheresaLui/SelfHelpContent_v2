@@ -18,13 +18,10 @@
 
 ## **Recommended Documents**
 
-
 * [How to debug when Kubernetes nodes are in 'Not Ready' state](https://stackoverflow.com/questions/47107117/how-to-debug-when-kubernetes-nodes-are-in-not-ready-state)<br>
 * [Get kubelet logs from Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/kubelet-logs)<br>
 * [Enable and review Kubernetes master node logs in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/view-master-logs)<br>
 * [Connect with SSH to Azure Kubernetes Service (AKS) cluster nodes for maintenance or troubleshooting](https://docs.microsoft.com/azure/aks/ssh)<br>
 * [AKS troubleshooting](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Checking for Kubernetes best practices in your cluster](https://docs.microsoft.com/azure/aks/kube-advisor-tool)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
