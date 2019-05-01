@@ -18,12 +18,10 @@
 # We detected an operation on a locked resource
 
 <!--issueDescription-->
-We detected that the operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the resource is locked.<br>
+We detected that the operation **<!--$OperationName-->operation<!--/$OperationName-->** on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because <!--$ScopeLockDescription-->scope lock description<!--/$ScopeLockDescription-->.<br>
 <!--/issueDescription-->
 
-You can delete the lock, or set its lock level to **CanNotDelete** or **ReadOnly**. In the **Settings** blade for the resource, resource group, or subscription, select **Locks**. To delete the lock, select the ellipsis and **Delete** from the available options.
-
-If you do not see options to manage locks, you will need elevated rights to access them.
+To find the lock, select **Locks** on **Settings** blade for the resource, resource group, or subscription. You can delete the lock, or set its lock level to **CanNotDelete** or **ReadOnly**. If you do not see options to manage locks, you will need elevated rights to access them.<br>
 
 See [Lock resources to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) for detailed information included examples for applying and deleting locks using PowerShell, Azure CLI, and REST.
 
