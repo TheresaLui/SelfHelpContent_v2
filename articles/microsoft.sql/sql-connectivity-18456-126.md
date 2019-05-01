@@ -21,7 +21,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between <!--$StartDate-->StartDate<!--/$StartDate--> and <!--$EndDate-->EndDate<!--/$EndDate--> we were able to detect login failures:<br>
+Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
 <!--$FailedLogins18456State126--> FailedLogins18456State126 <!--/$FailedLogins18456State126-->
 
 <!--/issueDescription-->
