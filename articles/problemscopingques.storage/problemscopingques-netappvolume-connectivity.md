@@ -31,13 +31,21 @@
                     "value": "In a peered VNET(same region)",
                     "text": "In a peered VNET(same region)"
                 }, {
-                    "value": "On-premise, connected to this VNET with virtual network gateway",
-                    "text": "On-premise, connected to this VNET with virtual network gateway"
+                    "value": "On-premise, connected to this VNET with ExpressRoute",
+                    "text": "On-premise, connected to this VNET with ExpressRoute"
                 }, {
-										"value": "On-premise, connected to this VNET via a Hub VNET",
-										"text": "On-premise, connected to this VNET via a Hub VNET"
+										"value": "On-premise, connected to this VNET with VPN Gateway",
+										"text": "On-premise, connected to this VNET with VPN Gateway"
 								}, {
-										"text": "Other, don't know or not applicable",
+                    "value": "On-premise, connecting over ExpressRoute and VNET peering",
+                    "text": "On-premise, connected to this VNET with ExpressRoute"
+                }, {
+										"value": "On-premise, connecting over VPN Gateway and VNET peering",
+										"text": "On-premise, connected to this VNET with VPN Gateway"
+								},  
+
+								{
+										"text": "Other or not applicable",
 										"value": "dont_know_answer"
 								}
               ],
@@ -57,7 +65,7 @@
 		            "textPropertyRegex": "[^/]+$",
 								"defaultDropdownOptions": {
 				            "value": "dont_know_answer",
-				            "text": "Not applicable"
+				            "text": "Other or not applicable"
         					}
 								},
 						"DropdownOptions": [{
@@ -82,7 +90,7 @@
 			            "textPropertyRegex": "[^/]+$",
 									"defaultDropdownOptions": {
 					            "value": "dont_know_answer",
-					            "text": "Not applicable"
+					            "text": "Other or not applicable"
 	        					}
 								},
 								"DropdownOptions": [{
@@ -92,49 +100,30 @@
 									],
             "required": true
 				}, {
-					"id": "GatewayType",
-            "order": 6,
-            "visibility": "topology == On-premise, connected to this VNET with virtual network gateway || topology == On-premise, connected to this VNET via a Hub VNET",
-            "controlType": "dropdown",
-            "displayLabel": "Chose the virtual network gateway type",
-            "watermarkText": "Choose a gateway type",
-						"dropdownOptions": [{
-                    "value": "VPN gateway",
-                    "text": "VPN gateway"
-                }, {
-                    "value": "ExpressRoute gateway",
-                    "text": "ExpressRoute gateway"
-                }, {
-										"value": "dont_know_answer",
-										"text": "Other, don't know or not applicable"
-        				}
-              ],
-            "required": true
-				}, {
 					"id": "HubVNET",
-            "order": 7,
-            "visibility": "topology == On-premise, connected to this VNET with virtual network gateway || topology == On-premise, connected to this VNET via a Hub VNET",
+            "order": 6,
+            "visibility": "topology == On-premise, connected to this VNET with ExpressRoute || topology == On-premise, connected to this VNET with VPN Gateway || topology == On-premise, connecting over ExpressRoute and VNET peering || topology==On-premise, connecting over VPN Gateway and VNET peering",
             "controlType": "dropdown",
-            "displayLabel": "Chose the virtual network connected to on-premise",
+            "displayLabel": "Chose the virtual network connected to your on-premise network",
 						"watermarkText": "Choose a virtual network",
 						"dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Network/virtualNetworks?api-version=2018-11-01",
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "id",
-            "textPropertyRegex": "[^/]+$"
-						},
+            "textPropertyRegex": "[^/]+$",
 						"defaultDropdownOptions": {
-                    "value": "Unable to retrieve list of VNETs",
-                    "text": "Unable to retrieve list of VNETs"
-              },
-	      "DropdownOptions": [{
-			"value": "Unable to retrieve list of VNETs",
-			"text": "Unable to retrieve list of VNETs"
-		}
-	],
-            "required": true
-				}, {
+								"value": "dont_know_answer",
+								"text": "Other or not applicable"
+							}
+					},
+					"DropdownOptions": [{
+									"value": "Unable to retrieve list of VNETs",
+									"text": "Unable to retrieve list of VNETs"
+							}
+						],
+			"required": true
+			}, {
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
