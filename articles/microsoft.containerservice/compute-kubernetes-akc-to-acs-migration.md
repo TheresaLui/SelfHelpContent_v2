@@ -21,6 +21,4 @@
 * [Differences between ACS and AKS](https://docs.microsoft.com/azure/aks/acs-aks-migration)<br>
 * [Migration considerations](https://docs.microsoft.com/azure/aks/acs-aks-migration)<br>
 * [Migration steps](https://docs.microsoft.com/azure/aks/acs-aks-migration)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
