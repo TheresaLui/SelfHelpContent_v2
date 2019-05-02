@@ -24,6 +24,4 @@
 * [Azure Monitor for containers overview](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview)<br>
 * [How to update Azure Monitor for containers to enable metrics](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-update-metrics)<br>
 * [Troubleshooting common issues in AKS](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
