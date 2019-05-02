@@ -16,14 +16,16 @@
 
 # Node shows supported protocol as ICMP only in the Nodes page
 
-## **Recommended steps**
-* For Windows Server machines ,run EnableRules.ps1 with admin permissions from your now. [Use this link for download EnableRules.ps1](https://gallery.technet.microsoft.com/OMS-Network-Performance-7ec93b2f)<br>
+## **Recommended Steps**
+
+* For Windows Server machines, run EnableRules.ps1 with admin permissions from your now. [Use this link for download EnableRules.ps1](https://gallery.technet.microsoft.com/OMS-Network-Performance-7ec93b2f)<br>
 * Check if machine hosting the agent is a Windows client machine. Windows client machines do not support TCP. 
 
-## **Recommended documents**
-[Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
-[Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
-[Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
-[Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
+## **Recommended Documents**
+
+* [Learn more about NPM agent](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows)<br>
+* [Learn more about NPM](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Performance Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Service Connectivity Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor)<br>
+* [Learn more about NPM Express Route Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-expressroute)<br>
+* [Learn more about NPM Frequently asked questions](https://docs.microsoft.com/azure/azure-monitor/insights/network-performance-monitor-faq)
