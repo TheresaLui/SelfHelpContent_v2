@@ -24,6 +24,4 @@
 * [Azure load balancer SKU comparison](https://docs.microsoft.com/azure/aks/internal-lb)<br>
 * [SSH into Azure Kubernetes Service (AKS) cluster nodes](https://docs.microsoft.com/azure/aks/aks-ssh)<br>
 * [Access the Kubernetes dashboard with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/kubernetes-dashboard)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
