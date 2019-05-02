@@ -26,6 +26,4 @@
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
 * [Best practices for authentication and authorization](https://docs.microsoft.com/azure/aks/best-practices)<br>
 * [Best practices for cluster security and upgrades](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
