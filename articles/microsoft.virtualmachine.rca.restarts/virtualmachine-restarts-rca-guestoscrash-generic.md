@@ -26,7 +26,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 - An unexpected exception or trap
 - A faulting kernel mode driver<br>
 
-## Recommended Steps
+## **Recommended Steps**
 
 To investigate the causes of the VM crash, please use the following references that might be helpful:<br>
 
@@ -37,7 +37,7 @@ To investigate the causes of the VM crash, please use the following references t
 | SUSE | [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)|
 | RHEL | [Analyzing the core dump](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)<br>[How to troubleshoot kernel crashes, hangs, or reboots with kdump on Red Hat Enterprise Linux](https://access.redhat.com/solutions/6038)<br>[Kernel crash dump guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)|<br>
 
-## Redundancy and health
+### Redundancy and health
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
