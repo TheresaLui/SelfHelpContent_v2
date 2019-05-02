@@ -7,7 +7,7 @@
     authors="jasonbandrew"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp--IMAGE_STATUS_UNDEPLOYABLE"
+    articleId="OSStartUp-GRUB_RESCUE_PROMPT"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
