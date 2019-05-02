@@ -23,6 +23,4 @@
 * [How to stop monitoring your Azure Kubernetes Service (AKS) with Azure Monitor for containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-optout)<br>
 * [How to update Azure Monitor for containers to enable metrics](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-update-metrics)<br>
 * [Troubleshooting common issues in AKS](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
