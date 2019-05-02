@@ -26,7 +26,7 @@
 			"required": false
 		}, {
 			"id": "mount",
-			"order": 1,
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Have you tried to mount the volumes on another server?",
 			"watermarkText": "Choose an option",
@@ -41,7 +41,7 @@
 			"required": false
 		}, {
 			"id": "initiator_property",
-			"order": 1,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Do iSCSI initiator properties show the target in connected state?",
 			"watermarkText": "Choose an option",
@@ -56,7 +56,7 @@
 			"required": false
 		}, {
 			"id": "changes_updates",
-			"order": 1,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Where there any changes/updates made on the server/network?",
 			"watermarkText": "Choose an option",
@@ -71,13 +71,13 @@
 			"required": false
 		}, {
 			"id": "problem_start_time",
-			"order": 2,
+			"order": 5,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
