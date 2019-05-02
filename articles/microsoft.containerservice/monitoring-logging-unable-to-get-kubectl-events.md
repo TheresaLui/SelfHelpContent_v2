@@ -25,6 +25,4 @@
 * [Enable and review Kubernetes master node logs in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/view-master-logs)<br>
 * [Checking for Kubernetes best practices in your cluster](https://docs.microsoft.com/azure/aks/kube-advisor-tool)<br>
 * [How to stop monitoring your Azure Kubernetes Service (AKS) with Azure Monitor for containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-optout)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
