@@ -17,15 +17,16 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 Your <!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not configured with the right Identifier URL.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/) as a global administrator (or any role with permissions to manage this application)
 2. Select **Azure Active Directory** and go the **Enterprise applications** blade. Search for the application for which you want to enable federated single sign-on. If you do not see the application you need, use the Filter control at the top of the All Applications List and set the Show option to All applications
 3. Click on the application name to open it, then click **Single sign-on** on the application's left-hand navigation menu
-4. Click the pencil under **Basic SAML Configuration**, then enter <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl--> into the **Identifier (Entity ID)** field and click save 
+4. Click the pencil under **Basic SAML Configuration**, then enter <!--$IdentifierUrl-->IdentifierUrl<!--/$IdentifierUrl--> into the **Identifier (Entity ID)** field and click save
 
 Your application should now be available for user sign-in.
 
