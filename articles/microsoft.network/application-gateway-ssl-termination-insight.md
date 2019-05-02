@@ -10,6 +10,7 @@
     articleId="application-gateway-ssl-termination-insight"
     diagnosticScenario="ApplicationGatewaySSLTermiationIssues"
     supportTopicIds="32582828"
+	productPesIds="15922"
     cloudEnvironments="public"
  />
 
@@ -19,11 +20,11 @@ We ran several diagnostic checks on your resource **<!--$ImpactedResource-->[Imp
 
 ## **Diagnostic checks executed**
 
-* Check for <!--$NoHTTPSListenerFoundDisplayName-->[NoHTTPSListenerFoundDisplayName]<!--/$NoHTTPSListenerFoundDisplayName--> - <!--$NoHTTPSListenerFoundCheckStatusName-->[BackendAddressPoolEmptyCheckStatus]<!--/$NoHTTPSListenerFoundCheckStatusName-->
-* Check for <!--$NoSSLCertificateFoundDisplayName-->[NoSSLCertificateFoundDisplayName]<!--/$NoSSLCertificateFoundDisplayName--> - <!--$NoSSLCertificateFoundCheckStatusName-->[NoSSLCertificateFoundCheckStatusName]<!--/$NoSSLCertificateFoundCheckStatusName-->
-* Check for  <!--$SSLCertificateExpiredDisplayName-->[SSLCertificateExpiredDisplayName]<!--/$SSLCertificateExpiredDisplayName--> - <!--$SSLCertificateExpiredCheckStatusName-->[SSLCertificateExpiredCheckStatusName]<!--/$SSLCertificateExpiredCheckStatusName-->
-* Check for  <!--$SSLCertificateNotYetValidDisplayName-->[SSLCertificateNotYetValidDisplayName]<!--/$SSLCertificateNotYetValidDisplayName--> - <!--$SSLCertificateNotYetValidCheckStatusName-->[SSLCertificateNotYetValidCheckStatusName]<!--/$SSLCertificateNotYetValidCheckStatusName-->
-* Check for  <!--$SNINotFoundDisplayName-->[SNINotFoundDisplayName]<!--/$SNINotFoundDisplayName--> - <!--$SNINotFoundCheckStatusName-->[SNINotFoundCheckStatusName]<!--/$SNINotFoundCheckStatusName-->
+* Check for <!--$NoHTTPSListenerFoundDisplayName-->[NoHTTPSListenerFoundDisplayName]<!--/$NoHTTPSListenerFoundDisplayName--> - <!--$NoHTTPSListenerFoundCheckStatus-->[NoHTTPSListenerFoundCheckStatus]<!--/$NoHTTPSListenerFoundCheckStatus-->
+* Check for <!--$NoSSLCertificateFoundDisplayName-->[NoSSLCertificateFoundDisplayName]<!--/$NoSSLCertificateFoundDisplayName--> - <!--$NoSSLCertificateFoundCheckStatus-->[NoSSLCertificateFoundCheckStatus]<!--/$NoSSLCertificateFoundCheckStatus-->
+* Check for  <!--$SSLCertificateExpiredDisplayName-->[SSLCertificateExpiredDisplayName]<!--/$SSLCertificateExpiredDisplayName--> - <!--$SSLCertificateExpiredCheckStatus-->[SSLCertificateExpiredCheckStatus]<!--/$SSLCertificateExpiredCheckStatus-->
+* Check for  <!--$SSLCertificateNotYetValidDisplayName-->[SSLCertificateNotYetValidDisplayName]<!--/$SSLCertificateNotYetValidDisplayName--> - <!--$SSLCertificateNotYetValidCheckStatus-->[SSLCertificateNotYetValidCheckStatus]<!--/$SSLCertificateNotYetValidCheckStatus-->
+* Check for  <!--$SNINotFoundDisplayName-->[SNINotFoundDisplayName]<!--/$SNINotFoundDisplayName--> - <!--$SNINotFoundCheckStatus-->[SNINotFoundCheckStatus]<!--/$SNINotFoundCheckStatus-->
 
 ## **Recommended Steps**
 

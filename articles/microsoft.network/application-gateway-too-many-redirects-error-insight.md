@@ -10,6 +10,7 @@
     articleId="application-gateway-too-many-redirects-error-insight"
     diagnosticScenario="ApplicationGatewayTooManyRedirectsError"
     supportTopicIds="32639115"
+	productPesIds="15922"
     cloudEnvironments="public"
  />
 
@@ -19,7 +20,7 @@ We ran the below diagnostic check on your resource **<!--$ImpactedResource-->[Im
 
 ## **Diagnostic checks executed**
 
-* Check for <!--$RedirectionLoopDisplayName-->[RedirectionLoopDisplayName]<!--/$RedirectionLoopDisplayName--> - <!--$RedirectionLoopCheckStatusName-->[RedirectionLoopCheckStatusName]<!--/$RedirectionLoopCheckStatusName-->
+* Check for <!--$RedirectionLoopDisplayName-->[RedirectionLoopDisplayName]<!--/$RedirectionLoopDisplayName--> - <!--$RedirectionLoopCheckStatus-->[RedirectionLoopCheckStatus]<!--/$RedirectionLoopCheckStatus-->
 
 ## **Recommended Steps**
 
