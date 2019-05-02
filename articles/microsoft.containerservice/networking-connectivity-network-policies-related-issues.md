@@ -24,6 +24,4 @@
 * [Network Policies Prerequisites ](https://kubernetes.io/docs/concepts/services-networking/network-policies/)<br>
 * [Network Policies in AKS with kube-router](https://carlos.mendible.com/2018/07/19/at-last-network-policies-in-aks-with-kube-router/)<br>
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
