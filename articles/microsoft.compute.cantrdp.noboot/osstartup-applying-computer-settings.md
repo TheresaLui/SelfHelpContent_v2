@@ -29,12 +29,12 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
 
 1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
 2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
-3. Disable the policy or disable the service which startup account is causing the deadlock.
+3. Disable the policy or disable the service which startup account is causing the deadlock:
 
-    1. Open the registry editor: ''REGEDIT''
-    2. Highlight the key HKEY_LOCAL_MACHINE and select File\Load Hive from the menu
-    3. Browse to the file \windows\system32\config\BROKENSOFTWARE  Note: This route should be searched on the data disk which is the copy of the affected Machine. 
-    4. Navigate to the following key and validate if the CleanupProfile key exist and what is its value.  If the key doesn't exist then the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5.  If the key exists, it means that the Cleanup profile policy is setup and its value represent the retention policy in days they have setup.
+    1. Open the registry editor with `REGEDIT`
+    2. Highlight the key `HKEY_LOCAL_MACHINE` and select File - Load Hive from the menu
+    3. Browse to the file \windows\system32\config\BROKENSOFTWARE.  Note: This route should be searched on the data disk which is the copy of the affected Machine. 
+    4. Navigate to the following key and validate if the CleanupProfile key exists, and what is the value. If the key doesn't exist, the CleanupProfile policy is not setup so this is not your scenario. Continue to Step 5. If the key exists, it means that the Cleanup profile policy is setup and its value represent the retention policy in days they have setup.
 
 ```
  REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f
