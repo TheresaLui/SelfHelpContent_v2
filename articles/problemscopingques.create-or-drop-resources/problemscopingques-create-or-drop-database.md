@@ -10,7 +10,8 @@
 	schemaVersion="1"
 	articleId="problemscopingques-createordropdatabase"
 />
- # Create or Drop a Database
+
+ #Create or Drop a Database
 ---
 {
 	"resourceRequired": true,
