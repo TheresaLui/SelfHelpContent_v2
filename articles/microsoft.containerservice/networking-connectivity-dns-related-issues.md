@@ -22,6 +22,4 @@
 * [How to use custom proxy server with AKS](https://docs.microsoft.com/azure/aks/coredns-custom#custom-proxy-server)<br>
 * [How to use custom domain names with AKS](https://docs.microsoft.com/azure/aks/coredns-custom#use-custom-domains)<br>
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
