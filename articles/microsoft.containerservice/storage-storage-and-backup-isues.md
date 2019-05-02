@@ -22,6 +22,4 @@
 * [Taking backups from Azure Disks attached to AKS via Azure Automation](https://www.danielstechblog.io/taking-backups-from-azure-disks-attached-to-aks-via-azure-automation/)<br>
 * [Taking backups from Azure Files attached to AKS via Azure Backup](https://www.danielstechblog.io/taking-backups-from-azure-files-attached-to-aks-via-azure-backup/)<br>
 * [Best practices for storage and backups](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
