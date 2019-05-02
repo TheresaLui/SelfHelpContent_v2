@@ -46,6 +46,7 @@ To set a server-level rule from server overview page:
 
 **Using T-SQL**
 Using T-SQL you can connect to the **master** database of the server and run the following command:
+
 ```
 EXECUTE sp_set_firewall_rule @name = N'AllowAllWindowsAzureIps',
    @start_ip_address = '0.0.0.0', @end_ip_address = '0.0.0.0'
