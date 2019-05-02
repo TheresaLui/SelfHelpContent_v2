@@ -27,4 +27,5 @@
 * [Upgrade an Azure Kubernetes Service (AKS) cluster](https://docs.microsoft.com/azure/aks/upgrade-cluster)<br>
 * [AKS troubleshooting common scenarios](https://docs.microsoft.com/azure/aks/troubleshooting)<br>
 * [Tutorial: Upgrade Kubernetes in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/tutorial-kubernetes-upgrade-cluster)<br>
-* [Supported Kubernetes versions in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions)* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Supported Kubernetes versions in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/supported-kubernetes-versions)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
