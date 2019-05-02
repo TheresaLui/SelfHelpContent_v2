@@ -46,8 +46,8 @@
             },
             "dropdownOptions": [
                 {
-                    "value": "Unable to get the list of sync groups",
-                    "text": "Unable to get the list of sync groups"
+                    "value": "Could not find any sync group in this hub",
+                    "text": "Could not find any sync group in this hub"
                 }
             ],
             "required": false,
