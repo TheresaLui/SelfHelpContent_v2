@@ -22,7 +22,9 @@
 <!--issueDescription-->
 Between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> we were able to detect login failures:<br>
 <!--$FailedLogins18456State123--> FailedLogins18456State123 <!--/$FailedLogins18456State123-->
+
 <!--/issueDescription-->
+
 <br>
 The error returned indicated that the corresponding login contains either an empty username or password.
 <br>
