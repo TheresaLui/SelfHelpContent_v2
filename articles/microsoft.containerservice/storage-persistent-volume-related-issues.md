@@ -24,6 +24,4 @@
 * [Dynamic Persistent Volume Claim using Azure Disk](https://stackoverflow.com/questions/55228485/aks-dynamic-persistent-volume-claim-using-azure-disk)<br>
 * [Lifecycle of a volume and claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#lifecycle-of-a-volume-and-claim)<br>
 * [Best practices for storage and backups](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
