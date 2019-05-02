@@ -18,6 +18,7 @@ cloudEnvironments="public"
 {
 	"$schema":"SelfHelpContent",
 	"commonProblems": [{				    
+			"id": "Updating_the_SLO_is_taking_a_long_time",
 			"title": "Updating the SLO is taking a long time",
 			"description": "Learn more about scaling a resource and the factors that determine how long it takes to update SLO.",
 			"searchTags": "provisioning, crud, slo, scaling, service tier",
@@ -27,6 +28,7 @@ cloudEnvironments="public"
 			"symptomId": "SqlProvision"			
 		},
 		{
+			"id": "The_workload_for_my_database_has_increased",
 			"title": "The workload for my database has increased",
 			"description": "Learn more about resource limits and how to troubleshoot corresponding performance issues.",
 			"searchTags": "performance, increase, workload",
