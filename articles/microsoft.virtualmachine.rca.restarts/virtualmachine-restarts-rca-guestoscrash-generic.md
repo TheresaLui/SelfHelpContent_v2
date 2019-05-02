@@ -17,7 +17,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We identified that your VM **<!--$vmname-->Virtual Machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by a crash in the VM’s operating system due to  internal checks in the virtual machine.
+We identified that your VM **<!--$vmname-->Virtual Machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by a crash in the guest operating system of your VM.
 <!--/issueDescription-->
 
 To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
@@ -28,7 +28,7 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## Recommended Steps
 
-To investigate causes of the crash, the following table provides some links that might be helpful:<br>
+To investigate the causes of the VM crash, please use the following references that might be helpful:<br>
 
 | Guest OS | Troubleshooting links |
 | --- | --- |
