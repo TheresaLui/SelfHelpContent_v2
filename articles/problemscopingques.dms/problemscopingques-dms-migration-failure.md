@@ -14,19 +14,20 @@
 # Failure when running a database migration using DMS
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
+	"subscriptionRequired": false,
 	"title": "Error when running database migration",
 	"fileAttachmentHint": "",
 	"formElements": [
         {
-            "id": "err",
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start",
-            "required": true
+            "displayLabel": "What time did the problem begin?",
+            "required": false
         },{
-			"id": "error_dropdown",
-			"order": 5,
+			"id": "migrationtype_dropdown",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "What is your source and target database types?",
 			"watermarkText": "Select source target pair",
