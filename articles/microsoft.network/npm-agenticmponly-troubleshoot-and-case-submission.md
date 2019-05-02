@@ -7,7 +7,7 @@
 	authors="vinynigam"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32626098"
+	supportTopicIds="32606425"
 	resourceTags=""
 	productPesIds="16160"
     articleId="npm-agenticmponly-troubleshoot-and-case-submission"
