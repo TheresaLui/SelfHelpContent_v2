@@ -40,9 +40,8 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
  REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f
 ```
 
-    5.  Unload the BROKENSOFTWARE hive with `reg unload HKLM\BROKENSOFTWARE`
-
-    6. If this issue was fixed by disabling this policy locally, then you should avoid using the CleanupProfiles policy and use other method to perform the profile cleanup: go to Machine - Admin Templates - System - User Profiles - Delete and user profiles older than a specified number of days on system restart
+5.  Unload the BROKENSOFTWARE hive with `reg unload HKLM\BROKENSOFTWARE`
+6. If this issue was fixed by disabling this policy locally, then you should avoid using the CleanupProfiles policy and use other method to perform the profile cleanup: go to Machine - Admin Templates - System - User Profiles - Delete and user profiles older than a specified number of days on system restart
 
  4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
