@@ -4,7 +4,7 @@
 	authors="billmath"
 	ms.author="billmath"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32615405"
+	supportTopicIds="32615405,32615362,32615367,32615368,32615375,32615382,32615383,32615427,32615434"
 	productPesIds="16579"
 	cloudEnvironments="Public"
 	schemaVersion="1"
@@ -22,7 +22,7 @@
 			"id": "run_diagnostics_analyzer",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Have you run the <a href='https://adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze'>Diagnostic Analyzer on ADFS Help</a> and selected the option to send information to support? This will reduce time spent troubleshooting your case.",
+			"displayLabel": "Navigate to adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze and run the Diagnostics Analyzer tool. Has the information been saved and uploaded to support by selecting the “Save Diagnostics” checkbox? This will reduce time spent troubleshooting your case.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
