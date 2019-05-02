@@ -29,7 +29,7 @@
 			"id": "migrationtype_dropdown",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "What is your source and target database types?",
+			"displayLabel": "What is your source and target database combination?",
 			"watermarkText": "Select source target pair",
 			"infoBalloonText": "If your source target pair is not in the list, choose Other",
 			"dropdownOptions": [
