@@ -6,7 +6,7 @@
 	authoralias="rradjou"
 	ms.author="radjaram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="3261126"
+	supportTopicIds="32615126"
 	productPesIds="16307"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -65,17 +65,19 @@
 				},{
 					"value": "MongoDB_To_CosmosDBMongoAPI_Online",
 					"text": "MongoDB to Azure Azure CosmosDB Mongo API Online"
-				}
+				},{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
 			],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
+			"required": true
 		},{
 			"id":"problem_description",
 			"order":1000,
 			"controlType":"multilinetextbox",
 			"displayLabel":"Please provide additional context for the error message you are encountering.",
 			"required":true,
-			"useAdditionalDetails":true,
+			"useAsAdditionalDetails":true,
 			"watermarkText":"Please provide the detail symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
 		}
 	]
