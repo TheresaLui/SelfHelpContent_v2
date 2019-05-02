@@ -11,7 +11,7 @@
 	articleId="problemscopingques-createordropdatabase"
 />
 
- # Database
+ # Create or Drop a Database
 ---
 {
 	"resourceRequired": true,
