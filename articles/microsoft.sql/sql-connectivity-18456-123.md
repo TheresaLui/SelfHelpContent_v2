@@ -8,7 +8,7 @@
 	authors="vitomaz-msft"
 	displayOrder=""
 	articleId="sql_connectivity_18456_123"
-	diagnosticScenario="SqlConnectivity"
+	diagnosticScenario="SqlLtsFailedLogin"
 	selfHelpType="diagnostics"
 	supportTopicIds="32630429"
 	resourceTags=""
