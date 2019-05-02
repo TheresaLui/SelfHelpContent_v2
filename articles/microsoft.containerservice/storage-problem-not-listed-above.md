@@ -23,6 +23,4 @@
 * [Lifecycle of a volume snapshot and volume snapshot content](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)<br>
 * [Lifecycle of a volume and claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#lifecycle-of-a-volume-and-claim)<br>
 * [Best practices for storage and backups](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
