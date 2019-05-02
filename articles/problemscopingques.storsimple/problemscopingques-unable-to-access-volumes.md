@@ -22,7 +22,7 @@
 			"order": 1,
 			"controlType": "textbox",
 			"displayLabel": "Name the volumes (if specific volumes) that are inaccessible",
-			"watermarkTest": "Names of inaccessible volumes",
+			"watermarkText": "Names of inaccessible volumes",
 			"required": false
 		}, {
 			"id": "mount",
