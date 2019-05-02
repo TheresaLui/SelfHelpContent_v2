@@ -18,7 +18,7 @@
 # We detected an operation on a locked resource
 
 <!--issueDescription-->
-We detected that the operation **<!--$OperationName-->operation<!--/$OperationName-->** on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because <!--$ScopeLockDescription-->scope lock description<!--/$ScopeLockDescription-->.<br>
+We detected that the operation **<!--$OperationName-->operation<!--/$OperationName-->** on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a scope lock **<!--$ScopeLock-->(/subscriptions/9657ab5d.../cleanupservice)<!--/$ScopeLock-->** on the resource.<br>
 <!--/issueDescription-->
 
 To find the lock, select **Locks** on **Settings** blade for the resource, resource group, or subscription. You can delete the lock, or set its lock level to **CanNotDelete** or **ReadOnly**. If you do not see options to manage locks, you will need elevated rights to access them.<br>
