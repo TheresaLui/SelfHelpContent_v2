@@ -33,8 +33,8 @@ You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute
     2. Highlight the key `HKEY_LOCAL_MACHINE` and select File - Load Hive from the menu
     3. Browse to the file `\windows\system32\config\BROKENSOFTWARE` on the data disk that is the copy of the affected Machine
     4. Navigate to `HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System` verify if the CleanupProfile key exists. If it does, run  `REG DELETE "HKLM\BROKENSOFTWARE\?Policies\Microsoft\Windows\System" /v CleanupProfiles /f`. If the key does NOT exist, unload the BROKENSOFTWARE hive with `reg unload HKLM\BROKENSOFTWARE`
-    5. If this issue was fixed by disabling this policy locally, avoid using the CleanupProfiles policy and use this method to perform the profile cleanup: `Machine\Admin Templates\System\User Profiles\Delete user profiles older than a specified number of days on system restart`
-    
+    5. If this issue was fixed by disabling this policy locally, then you should avoid using the CleanupProfiles policy and use other method to perform the profile cleanup: go to Machine - Admin Templates - System - User Profiles - Delete and user profiles older than a specified number of days on system restart
+
 4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
     1. As administrator, run `bcdedit /store [Boot partition]:\boot\bcd /enum` and copy the Windows Boot Loader identifier. The identifier is a 32-character code in the format xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
