@@ -24,6 +24,4 @@ Create an ingress controller in Azure Kubernetes Service](https://docs.microsoft
 * [Create an ingress controller to an internal virtual network in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/ingress-internal-ip)<br>
 * [Create a Kubernetes cluster with Application Gateway ingress controller](https://docs.microsoft.com/azure/terraform/terraform-create-k8s-cluster-with-aks-applicationgateway-ingress)<br>
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
