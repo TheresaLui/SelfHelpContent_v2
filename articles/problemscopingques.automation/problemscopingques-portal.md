@@ -5,15 +5,16 @@
 	authors="zjalexander"
 	ms.author="zachal"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599858,32599921,32599929"
+	supportTopicIds="32599858,32599921,32599929,32599933"
 	productPesIds="15607"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
-# Change Tracking
+# Automation Account
 ---
 {
-	"resourceRequired": true,
+	"subscriptionRequired": false,
+	"resourceRequired": false,
 	"title": "Automation Account",
 	"fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements":
