@@ -38,7 +38,7 @@ cloudEnvironments="public"
 			"symptomId": "SqlPerfTsg"			
 		},
 		{
-			"id": "I am having issues connecting to my database",
+			"id": "I_am_having_issues_connecting_to_my database",
 			"title": "I am having issues connecting to my database",
 			"description": "Troubleshoot common connectivity errors.",
 			"searchTags": "connect, connectivity, availability, error",
@@ -48,7 +48,7 @@ cloudEnvironments="public"
 			"symptomId": "SqlLts"			
 		},
 		{				    
-			"id": "I am having issues exporting my database",
+			"id": "I_am_having_issues_exporting_my_database",
 			"title": "I am having issues exporting my database",
 			"description": "Learn more about exporting an Azure SQL database to a BACPAC file.",
 			"searchTags": "export, bacpac",
@@ -58,7 +58,7 @@ cloudEnvironments="public"
 			"symptomId": "SqlRca"			
 		},
 		{				    
-			"id": "I am having issues with SQL Data Sync",
+			"id": "I_am_having_issues_with_SQL_Data_Sync",
 			"title": "I am having issues with SQL Data Sync",
 			"description": "Troubleshoot common issues with Azure SQL Data Sync.",
 			"searchTags": "data sync",
@@ -68,7 +68,7 @@ cloudEnvironments="public"
 			"symptomId": "SqlDataSync"			
 		},
 		{				    
-			"id": "Need to backup or restore my database",
+			"id": "Need_to_backup_or_restore_my_database",
 			"title": "Need to backup or restore my database",
 			"description": "Learn about backups and how to restore a database to any point in time within the backup retention period.",
 			"searchTags": "backup, automated backup, point in time restore, pitr, restore",
@@ -78,7 +78,7 @@ cloudEnvironments="public"
 			"symptomId": ""			
 		},
 		{				    
-			"id": "I am receiving performance errors",
+			"id": "I_am_receiving_performance_errors",
 			"title": "I am receiving performance errors",
 			"description": "Troubleshoot common performance errors.",
 			"searchTags": "performance, error",
