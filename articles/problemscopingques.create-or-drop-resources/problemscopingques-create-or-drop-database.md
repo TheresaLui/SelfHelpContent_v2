@@ -20,9 +20,31 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"formElements": [
-      {
+		{
+			"id": "which_operation",
+			"order": 1,
+			"controlType": "dropdown",
+			"displayLabel": "Which operations are you having trouble with?",
+			"watermarkText": "Select all that apply",
+			"infoBalloonText": "Which of these is causing issues?",
+			"dropdownOptions": [{
+					"value": "dont_know_answer",
+					"text": "Other"
+			}],
+			"dynamicDropdownOptions": {
+				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"jtokenPath": "value",
+				"textProperty": "name",
+				"valueProperty": "id",
+				"textPropertyRegex": null
+			},
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+      		{
 			"id": "problem_description",
-			"order": 8,
+			"order": 2,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -32,7 +54,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 9,
+			"order": 3,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",
