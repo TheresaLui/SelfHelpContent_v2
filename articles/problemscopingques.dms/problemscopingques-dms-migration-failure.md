@@ -24,7 +24,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
-            "required": false
+            "required": true
         },{
 			"id": "migrationtype_dropdown",
 			"order": 2,
