@@ -34,12 +34,14 @@ To turn on the **Allow access to Azure services** server-level IP firewall rule 
 
 **From database overview page**
 To set a server-level IP firewall rule from the database overview page:
+
 1. Click **Set server firewall** on the toolbar, the firewall settings page for the SQL Database server opens
 2. Set **Allow access to Azure services** to **ON** and then click **Save**
 3. It may take up to five minutes for this change to take effect
 
 **From server overview page**
 To set a server-level rule from server overview page:
+
 1. Click **Firewall** in the left-hand menu under Settings
 2. Set **Allow access to Azure services** to **ON** and then click **Save**
 3. It may take up to five minutes for this change to take effect
@@ -54,6 +56,7 @@ EXECUTE sp_set_firewall_rule @name = N'AllowAllWindowsAzureIps',
 
 **Alternatively, you can whitelist the SQL DB IP Ranges for hub's region**
 You can find the ranges for each region at:
+
 * [Azure IP Ranges and Service Tags – Public Cloud](https://www.microsoft.com/download/details.aspx?id=56519)
 * [Azure IP Ranges and Service Tags – China Cloud](https://www.microsoft.com/download/details.aspx?id=57062)
 * [Azure IP Ranges and Service Tags – Germany Cloud](https://www.microsoft.com/download/details.aspx?id=57064)
