@@ -23,6 +23,6 @@ The following nodes <!--$headnodehosts-->[headnodehosts]<!--/$headnodehosts--> w
 ## **Recommended Steps**
 
 * SSH onto the nodes listed above within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
-* open the hosts files vi /etc/hosts
-* update the host files with the headnodehost pointing to the other headnode
-* save and close the file
+* Open the hosts files vi /etc/hosts
+* Update the host files with the headnodehost pointing to the other headnode
+* Save and close the file
