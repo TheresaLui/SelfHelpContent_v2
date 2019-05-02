@@ -24,6 +24,4 @@
 * [Frequently asked questions on Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq#configuration)<br>
 * [How to configure Azure Application Gateway work with AKS via SSL](https://medium.com/@shawnlu_86806/application-gateway-work-with-aks-via-ssl-9894e7f4a587)<br>
 * [Best practices for network connectivity and security in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/operator-best-practices-network)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
