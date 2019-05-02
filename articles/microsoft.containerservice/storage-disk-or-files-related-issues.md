@@ -24,6 +24,4 @@
 * [Manually create and use a volume with Azure Files share in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/azure-files-volume)<br>
 * [Storage options for applications in Azure Kubernetes Service](https://docs.microsoft.com/azure/aks/concepts-storage)<br>
 * [Best practices for storage and backups](https://docs.microsoft.com/azure/aks/best-practices)<br>
-<br>
-<br>
-[Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
