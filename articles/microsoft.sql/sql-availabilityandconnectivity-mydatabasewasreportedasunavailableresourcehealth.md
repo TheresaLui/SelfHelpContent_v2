@@ -6,10 +6,11 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32630438"
 	productPesIds="13491"
 	cloudEnvironments="public"
+    resourceTags="servers, databases"
 	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
 />
 
