@@ -46,8 +46,8 @@
 			"id": "problem_steps_taken",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please describe any steps, if any, that you already took to remedy the issue",
-			"watermarkText": "Please describe any steps, if any, that you already took to remedy the issue",
+			"displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
+			"watermarkText": "Please describe the steps, if any, that you already took to remedy the issue",
 			"required": false
 			}
 	]
