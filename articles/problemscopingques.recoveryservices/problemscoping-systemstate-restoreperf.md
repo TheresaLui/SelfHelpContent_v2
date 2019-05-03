@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for System State restore performance"
          description="Scoping questions for System State restore performance"
-         authors="srinathvasireddy"
+         authors="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632800"
          productPesIds="15207"
@@ -35,7 +36,10 @@
 				},{
 					"value": "Restore data to the same machine from which the backups were taken",
 					"text": "Restore data to the same machine from which the backups were taken"
-				  }
+				},{
+				 	 "value": "dont_know_answer",
+					 "text": "Other, don't know or not applicable"
+				}
 				],
 				 "required": true
 		},{
