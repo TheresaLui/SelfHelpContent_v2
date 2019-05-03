@@ -4,6 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32599496"
@@ -50,10 +51,9 @@ Both API v1 and v2 do not have one-time charges enabled. The product team is con
 
 ## **Recommended documents**
 
-* [REST API Browser](https://docs.microsoft.com/en-us/rest/api/?view=Azure)
+* [REST API Browser](https://docs.microsoft.com/rest/api/?view=Azure)
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
 * [Azure Billing API Overview](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview#azure-resource-ratecard-api-preview)
-* [Billing- Invoices](https://docs.microsoft.com/rest/api/billing/invoices)
 * [Azure Invoice Download API](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview#azure-invoice-download-api-preview)
 * [Azure Resource Usage API](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview#azure-resource-usage-api-preview)
 * [Azure Resource RateCard API](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview#azure-resource-ratecard-api-preview)
