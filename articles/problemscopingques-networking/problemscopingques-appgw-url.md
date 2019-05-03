@@ -36,7 +36,7 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -45,7 +45,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
             "watermarkText": "Provide additional information about your issue including error messages.",
-            "required": false
+            "required": true
         },
         {
             "id": "learn_more_text",
