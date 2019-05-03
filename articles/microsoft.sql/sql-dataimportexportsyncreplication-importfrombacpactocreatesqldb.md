@@ -13,7 +13,7 @@
 	articleId="f291a9f3-4717-4279-a7fa-aa081acffc13"
 />
 
-# data import, export, sync, replication/import from BACPAC to create SQL db
+# BACPAC, DataSync, Copy DB and Replication/import from BACPAC to create SQL db
 
 SQL DB Import service supports importing a BACPAC file into a new Azure SQL database. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the import.
 

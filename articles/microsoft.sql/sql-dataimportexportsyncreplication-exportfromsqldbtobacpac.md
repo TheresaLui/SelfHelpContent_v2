@@ -13,7 +13,7 @@
 	articleId="12410211-a2f0-48af-99a1-58da8fcb50ff"
 />
 
-# data import, export, sync, replication/export from SQL db to BACPAC
+# BACPAC, DataSync, Copy DB and Replication/export from SQL db to BACPAC
 
 SQL DB Export service supports exporting an Azure SQL database to a BACPAC file. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the export.
 
