@@ -28,18 +28,18 @@
 			"id": "restore_type",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Which type of restoration are you performing?",
+			"displayLabel": "Which type of recovery you are performing?",
 			"watermarkText": "Select",
 			"dropdownOptions":[{
-					"value": "Restore data to an alternate machine.",
-					"text": "Restore data to an alternate machine."
-				},{
-					"value": "Restore data to the same machine from which the backups were taken",
-					"text": "Restore data to the same machine from which the backups were taken"
-				},{
-				 	 "value": "dont_know_answer",
-					 "text": "Other, don't know or not applicable"
-				}
+						"value": "Recovering System State files to the same server",
+						"text": "Recovering System State files to the same server"
+					},{
+						"value": "Recovering System State files to an alternate server",
+						"text": "Recovering System State files to an alternate server"
+					},{
+						"value": "dont_know_answer",
+						"text": "Other, don't know or not applicable"
+					}
 				],
 				 "required": true
 		},{
