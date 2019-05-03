@@ -1,10 +1,10 @@
 <properties
-	pageTitle="backup/restore/automated backups or point in time restore"
-	description="bbackup/restore/automated backups or point in time restore"
+	pageTitle="Issues with SQL Database backup, restore, automated backups or point in time restore"
+	description="Issues with SQL Database backup, restore, automated backups or point in time restore"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-    ms.author="emlisa"
+  ms.author="emlisa"
 	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds="32630409"
@@ -14,8 +14,7 @@
 	articleId="eeb46dff-62eb-4d87-b7a9-939908fc69df"
 />
 
-# backup/restore/automated backups or point in time restore
-
+# Issues with SQL Database backup, restore, automated backups or point in time restore
 
 ## **Recommended Steps**
 

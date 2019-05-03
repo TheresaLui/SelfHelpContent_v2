@@ -8,10 +8,10 @@
 	ms.author="asmalser"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629761,32629801"
+	supportTopicIds="32629801"
 	productPesIds="16666"
 	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
-	CloudEnvironments="Public"
+	cloudEnvironments="Public"
 />
 
 # Problems with credential validation while configuring user provisioning to an application
@@ -30,4 +30,5 @@ In order for automated user provisioning to work, Azure AD requires valid creden
 
 * [Automate user provisioning and deprovisioning to SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-does-automatic-provisioning-work)
 * [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list)
+
 
