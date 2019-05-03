@@ -22,7 +22,7 @@
 
 * [Troubleshoot, Monitor, and Diagnose Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting)<br>
 * [Premium Storage: Design for high performance](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage-performance)<br>
-* [Optimize performance of your Azure Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/optimization)<br>
+* [Optimize performance of your Azure Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/optimization)<br>
 * [Benchmarking Azure virtual disks](https://docs.microsoft.com/azure/virtual-machines/linux/disks-benchmarks)
 
 ## **Recommended Documents**
