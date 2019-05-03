@@ -2,18 +2,19 @@
          pageTitle="Scoping questions for system state backup failure"
          description="Scoping questions for system state backup failure"
          authors="srinathv"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594866"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="fc35ea46-7f1c-43aa-84bd-c85caf7ed73b"
+	 articleId="fc35ea46-7f1c-43aa-84bd-c85caf7ed73b"
 />
 # Questions system state backup failure
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "System State backup failure",
     "fileAttachmentHint": "",
     "formElements": [
