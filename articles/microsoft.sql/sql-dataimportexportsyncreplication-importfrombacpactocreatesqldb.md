@@ -15,7 +15,7 @@
 
 # data import, export, sync, replication/import from BACPAC to create SQL db
 
-SQL DB Import service supports importing a BACPAC file into a new Azure SQL database. For databases over 150 GBs, we highly recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the import.
+SQL DB Import service supports importing a BACPAC file into a new Azure SQL database. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the import.
 
 ### **Recommended Solutions**
 
@@ -33,8 +33,12 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ### Import operation has been running for a long time (or progress seems stuck)
 
-* Import speed depends largely on the data shape (schema) in addition to the data size and can in some cases take considerable time to finish. If the operation takes more than 48 hours, it will be automatically cancelled. To get the best performance, we recommend
-  * Import to a higher SLO and downgrade after the import has finished.
+* Import speed depends on the following factors:
+	* The data shape (schema) and the data size.
+	* The volume of export requests submitted simultaneously in a region. In situations where the volume of requests is very high, an import job can spend considerable time [waiting for resources to become available before it can start](https://support.microsoft.com/help/2965554/azure-sql-database-import-export-service-takes-a-long-time-to-import-o)  
+* To get the best performance, we recommend
+  * Using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility).  
+  * Importing to a higher SLO and downgrading after the import has finished. This has a big impact on performance, particularly for lower service tiers.
   * Making sure the storage account containing the BACPAC file is in the same region as the database to avoid any unnecessary network latencies.
 
 ### Cancelling the import job

@@ -15,7 +15,7 @@
 
 # data import, export, sync, replication/export from SQL db to BACPAC
 
-SQL DB Export service supports exporting an Azure SQL database to a BACPAC file. For databases over 150 GBs, we highly recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the export.
+SQL DB Export service supports exporting an Azure SQL database to a BACPAC file. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the export.
 
 ### **Recommended Solutions**
 
@@ -41,11 +41,16 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 ### Export operation has been running for a long time (or progress seems stuck)
 
-* Export speed depends largely on the data shape (schema) in addition to the data size and can in some cases take considerable time to finish. If the operation takes more than 48 hours, it will be automatically cancelled. To get the best performance, we recommend
-  * Making sure no other workload is running on the database. Creating a copy before export may be the best solution to ensure no other workload.
-  * Increase database SLO to better handle the export workload (primarily read IO).
-  * Making sure there are clustered indexes particularly for large tables
-  * Making sure the storage account where the BACPAC file will be saved is in the same region as the database to avoid unnecessary network latencies.
+* Export speed depends on the following factors:
+	* The data shape (schema) and the data size.
+	* The volume of export requests submitted simultaneously in a region. In situations where the volume of requests is very high, an export job can spend considerable time [waiting for resources to become available before it can start](https://support.microsoft.com/help/2965554/azure-sql-database-import-export-service-takes-a-long-time-to-import-o)  
+
+ * To get the best performance, we recommend
+	* Using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility). 
+	* Making sure no other workload is running on the database. Creating a copy before export may be the best solution to ensure no other workload.
+	* Increase database SLO to better handle the export workload (primarily read IO).
+	* Making sure there are clustered indexes particularly for large tables
+	* Making sure the storage account where the BACPAC file will be saved is in the same region as the database to avoid unnecessary network latencies.
 
 ## **Recommended Documents**
 
