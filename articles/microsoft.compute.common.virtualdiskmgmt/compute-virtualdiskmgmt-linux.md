@@ -7,7 +7,7 @@
 	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32640592"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
 	cloudEnvironments="public"
