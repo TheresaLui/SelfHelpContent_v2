@@ -1,10 +1,11 @@
-<properties
+﻿<properties
 pageTitle="VM boot error"
 description="Virtual machine failed to boot with error code 0xc0000242"
 infoBubbleText="A boot error has been found. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="ram-kakani"
+authors="ram-kakani,timbasham, jasonbandrew"
+ms.author="ramakk,tibasham, v-jasoan"
 displayOrder=""
 articleId="VMCannotRDP-BootError-0xC0000242-MissingFile"
 diagnosticScenario="booterror"
@@ -17,7 +18,7 @@ cloudEnvironments="public"
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
+
 We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000242**. The operating system couldn’t be loaded because a critical system driver is missing or corrupt.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.

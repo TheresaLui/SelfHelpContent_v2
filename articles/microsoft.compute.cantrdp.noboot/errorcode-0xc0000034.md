@@ -4,7 +4,8 @@ description="Virtual machine failed to boot with error code 0xc0000034"
 infoBubbleText="A boot error has been found. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="Ram-Kakani"
+authors="ram-kakani,timbasham, jasonbandrew"
+ms.author="ramakk,tibasham, v-jasoan"
 displayOrder=""
 articleId="VMCannotRDP_E32BD6A1-9532-4AC6-835D-4ECB4A074CE5"
 diagnosticScenario="booterror"
@@ -17,7 +18,7 @@ cloudEnvironments="public"
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
+
 We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000034**. This occurs when there is an issue with the boot configuration data and the booting partition is unable to find the windows folder.<br>
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.<br>
@@ -42,17 +43,19 @@ To fix the BCD store, follow the troubleshooting steps indicated below:
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
-  ```
-        bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr}
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]
-        bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30
-  ```
+```
+bcdedit /store [BCD FOLDER - DRIVE LETTER]:\boot\bcd /create {bootmgr}
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} description "Windows Boot Manager"
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} locale en-us
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} inherit {globalsettings}
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} displayorder [IDENTIFIER FROM THE STEP BEFORE THIS ONE]
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} timeout 30
+```
 
 8. Ensure the boot setup is setup properly by executing the command in step 6.
+
 ```
     bcdedit /store [Boot partition]:\boot\bcd /enum
 ```
+
 9. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized)
