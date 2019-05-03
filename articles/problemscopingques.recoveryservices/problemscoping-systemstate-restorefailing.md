@@ -43,14 +43,16 @@
 				"order": 4,
 				"controlType": "textbox",
 				"displayLabel": "Provide the MachineId:",
-				"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+				"infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            			"watermarkText": "Paste MachineId here",
 				"required": false
 			},{
 				"id": "get_resourceId",
 				"order": 5,
 				"controlType": "textbox",
 				"displayLabel": "Provide the ResourceId:",
-				"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+				"infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+				"watermarkText": "Paste ResourceId here",
 				"required": false
 		},{
 				"id": "restore_location",
