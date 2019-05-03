@@ -5,7 +5,7 @@
 	resource="servers"
 	authors="emlisa"
     ms.author="emlisa"
-	displayOrder=""
+	displayOrder="4"
 	selfHelpType="resource"
 	supportTopicIds="32630432"
 	productPesIds="13491"
