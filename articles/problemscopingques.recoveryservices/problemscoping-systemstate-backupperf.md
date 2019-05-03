@@ -80,12 +80,6 @@
 					"value": "If antivirus is running, then exclusion rules are used",
 					"text": "If antivirus is running, then exclusion rules are used"
 				},{
-					"value": "Unsupported drives are excluded from backup",
-					"text": "Unsupported drives are excluded from backup"
-				},{
-					"value": "Unsupported files are excluded from backup",
-					"text": "Unsupported files are excluded from backup"
-				},{
 					"value": "Network throttling is not configured on the machine",
 					"text": "Network throttling is not configured on the machine"
 				},{
