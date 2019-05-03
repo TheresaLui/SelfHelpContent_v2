@@ -26,9 +26,7 @@ We were able to detect timeouts:<br>
 
 ## **Recommended Steps**
 
-It's likely that indexes in your tables or in the data sync tracking tables got fragmented.
-Please check for index fragmentation in the database, **Reorganize or Rebuild Indexes** if needed and try again.
-You may use the following query to identify the average fragmentation in percent:
+It's likely that indexes in your tables or in the data sync tracking tables got fragmented. Please check for index fragmentation in the database, **Reorganize or Rebuild Indexes** if needed, and try again. You may use the following query to identify the average fragmentation in percent:
 
 ```
 SELECT '['+s.[name]+'].['+ t.[name]+']' as TableName
@@ -43,4 +41,4 @@ WHERE idxstats.database_id = DB_ID() AND idxstats.avg_fragmentation_in_percent >
 ORDER BY idxstats.avg_fragmentation_in_percent desc
 ```
 
-You can find how to reorganize or rebuild a fragmented index in SQL Server at [Reorganize and Rebuild Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes)
+You can find how to reorganize or rebuild a fragmented index in SQL Server at [Reorganize and Rebuild Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes).
