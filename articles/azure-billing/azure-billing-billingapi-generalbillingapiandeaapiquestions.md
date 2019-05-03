@@ -49,7 +49,7 @@ Refresh in PowerBI will pull all the data from scratch and not just the data sin
 Both API v1 and v2 do not have one-time charges enabled. The product team is considering this feature but do not have a timeline available
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [REST API Browser](https://docs.microsoft.com/rest/api/?view=Azure)
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
