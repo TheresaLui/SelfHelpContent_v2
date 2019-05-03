@@ -24,15 +24,15 @@
 			"id": "which_operation",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Which operations are you having trouble with?",
-			"watermarkText": "Select all that apply",
+			"displayLabel": "Which operation are you having trouble with?",
+			"watermarkText": "Select one",
 			"infoBalloonText": "Which of these is causing issues?",
 			"dropdownOptions": [{
 					"value": "dont_know_answer",
 					"text": "Other"
 			}],
 			"dynamicDropdownOptions": {
-				"uri": "https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.Sql/servers?api-version=2015-05-01-preview",
+				"uri": "{resourceId}/operations?api-version=2017-10-01-preview",
 				"jtokenPath": "value",
 				"textProperty": "name",
 				"valueProperty": "id",
