@@ -2,17 +2,19 @@
          pageTitle="Scoping questions for MARS backup performance"
          description="Scoping questions for MARS backup performance"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553280"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		 articleId="a0f92ce4-69a0-48c6-be51-670b7ddcfd16"
+	 articleId="a0f92ce4-69a0-48c6-be51-670b7ddcfd16"
 />
 # Questions MARS backup performance
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "MARS backup performance",
     "fileAttachmentHint": "",
     "formElements": [
@@ -38,6 +40,10 @@
                 {
                     "value": "Incremental backup",
                     "text": "Incremental backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -93,12 +99,16 @@
                     "text": "Unsupported drives are excluded from backup"
                 },
                 {
-                    "value": "Unsupported files are excluded from backup",
-                    "text": "Unsupported files are excluded from backup"
+                    "value": "Files with unsupported attributes are excluded from backup",
+                    "text": "Files with unsupported attributes are excluded from backup"
                 },
                 {
                     "value": "Network throttling is not configured on the machine",
                     "text": "Network throttling is not configured on the machine"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

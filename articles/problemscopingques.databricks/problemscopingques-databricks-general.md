@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32612186, 32612187, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
+	supportTopicIds="32612186, 32612188, 32612189, 32612190, 32612191, 32612192, 32612193, 32612194, 32612195, 32612196, 32612198, 32612199, 32612200, 32612201, 32612202, 32612203, 32612204, 32612206, 32612207, 32612210"
 	productPesIds="16432"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -25,12 +25,12 @@
             "required": true
         },
         {
-			"id": "problem_end_time",
-			"order": 2,
-			"controlType": "datetimepicker",
-			"displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
-			"required": false
-		},
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
+            "required": false
+        },
         {
             "id": "is_new_problem",
             "order": 3,
@@ -49,28 +49,32 @@
                 {
                     "value": "Happened_before",
                     "text": "Not new, happened before"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
-			"id": "previous_solution",
-			"visibility": "is_new_problem == Happened_before",
-			"order": 110,
-			"controlType": "multilinetextbox",
+            "id": "previous_solution",
+            "visibility": "is_new_problem == Happened_before",
+            "order": 110,
+            "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
             "required": true
-		},
+        },
         {
-			"id": "change_made",
-			"visibility": "is_new_problem == New_problem",
-			"order": 120,
-			"controlType": "multilinetextbox",
+            "id": "change_made",
+            "visibility": "is_new_problem == New_problem",
+            "order": 120,
+            "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
             "required": true
-		},
+        },
         {
             "id": "workspace_id",
             "order": 150,
@@ -110,7 +114,7 @@
                     "value": "ScheduledJob",
                     "text": "Scheduled job from the UI"
                 },
-                                {
+                {
                     "value": "Other",
                     "text": "Other"
                 }

@@ -10,7 +10,7 @@
 	articleId="insights-alertcrud-log-ai"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629623"
+	supportTopicIds="32629623,32629673"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"

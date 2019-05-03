@@ -49,6 +49,10 @@
                 {
                     "text": "No",
                     "value": "SingleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -75,6 +79,10 @@
                 {
                     "text": "No",
                     "value": "SingleOrSelectedUsersImpacted"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -105,6 +113,10 @@
                 {
                     "text": "Both Internal and External",
                     "value": "BothInternalExternal"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

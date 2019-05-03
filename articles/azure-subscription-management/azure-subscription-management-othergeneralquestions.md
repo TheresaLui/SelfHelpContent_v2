@@ -1,6 +1,6 @@
 <properties
-	pageTitle="other general subscription questions"
-	description="other general subscription questions"
+	pageTitle="General Azure Subscription questions"
+	description="General Azure Subscription questions"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -14,17 +14,17 @@
 	articleId="e3ef778b-7909-4138-a818-f1fb0fb27468"
 />
 
-# other general subscription questions
+# General Azure Subscription questions
 
-## **Recommended Steps** 
+## **Recommended Steps**
 
 * [Tutorial: Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
 * [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/move-support-resources) <br>
- 
-_Note:_ If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription: 
 
-* To upgrade a free trial, see [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
-* To change a pay-as-you-go account, see [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
+**Note**: If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you will need to convert your subscription:
+
+* [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
+* [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
 * If you can't convert the subscription, [create an Azure support request](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request). Select **Subscription Management** as the issue type.
 
 ### Receive Invoices via Email
@@ -59,5 +59,5 @@ Learn more on SLA for all Azure Services: [Azure Services SLA](https://azure.mic
 * [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
 * Locate the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-* [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
+* [What do I do if my Azure subscription becomes disabled?](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
 * [Getting started - spending limit](https://docs.microsoft.com/azure/billing/billing-getting-started#spending-limit)

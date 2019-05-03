@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity/cannotsendemail"
-	description="connectivity/cannotsendemail"
+	pageTitle="Troubleshoot issues sending outbound email over port 25"
+	description="Troubleshoot issues sending outbound email over port 25"
 	service="microsoft.network"
 	resource="virtualnetworks"
 	authors="anavinahar"
@@ -14,8 +14,8 @@
 	articleId="1290e2b4-a827-49e8-a222-a8c9f7dbba98"
 />
 
-# connectivity/cannotsendemail
+# Troubleshoot issues sending outbound email over port 25
 
 ## **Recommended Documents**
-* [Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>
 
+* [Limitations & recommendations for sending outbound email over port 25](https://docs.microsoft.com/azure/virtual-network/troubleshoot-outbound-smtp-connectivity)<br>
