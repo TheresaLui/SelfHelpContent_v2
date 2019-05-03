@@ -20,14 +20,14 @@
 
 ### **Re-enable the subscription**
 
-* If your subscription is disabled, check if you have spending limit enabled or if you have deployed any third-party services. If so, please go ahead and remove the spending limit or delete/remove the service. Once the spending limit is removed, clear browser cache, cookies or use in-private browser to login to Azure portal to verify the subscription status **or**
-* Wait until the next billing cycle when new credits would be added and the subscription would be automatically enabled **or**
+* If your subscription is disabled, check if you have spending limit enabled or if you have deployed any third-party services. If so, please go ahead and remove the spending limit or delete/remove the service. Once the spending limit is removed, clear browser cache, cookies or use in-private browser to login to Azure portal to verify the subscription status, **or**
+* Wait until the next billing cycle when new credits would be added and the subscription would be automatically enabled, **or**
 * If you have a [Free Trial](https://azure.microsoft.com/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade scubscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
 
 ### **Remove spending limit in Account Center**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions)
-2. Select a subscription. If the subscription is disabled due to the spending limit being reached, click this notification: "_Subscription reached the Spending Limit and has been disabled to prevent charges._" Otherwise, click **Remove spending limit** in the **Subscription Status** area
+2. Select a subscription. If the subscription is disabled due to the spending limit being reached, click this notification: "_Subscription reached the Spending Limit and has been disabled to prevent charges._" Otherwise, click **Remove spending limit** in the **Subscription Status** area.
 3. Select an option that is appropriate for you:
 
    * **Remove spending limit indefinitely** will remove the spending limit without turning it on automatically at the start of the next billing period
@@ -53,12 +53,13 @@ Note: Only Account Admin of Sponsorship can check the credits
 **Check Usage/Invoice**
 
 1. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
-2. Click on the subscription type -> Billing history -> you can download the Invoice and usage report.
+2. Click on the subscription type -> Billing history, where you can download the Invoice and usage report
 	
 **Azure Free Account Services**
 For [Azure Free Account](https://azure.microsoft.com/offers/ms-azr-0044p/), we offer eligible customers $200 in Azure credits (“Credits”) to be used within the first 30 days of sign-up and 12 months of select [free services](https://azure.microsoft.com/free/) (services subject to change). Once all the benefits has been consumed for the free service, the usage is going to discount from the subscription credit. To prevent this, the resources needs to be deleted <br>
-Learn more: [Resource deletion](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-delete)<br>
-Learn more: [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)<br>
+
+* Learn more: [Resource deletion](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-delete)<br>
+* Learn more: [Azure Free Account FAQ](https://azure.microsoft.com/free/free-account-faq/)<br>
 
 **Azure SSIS IR**: Learn more on how to stop-set-start the Azure SSIS IR [here](https://docs.microsoft.com/azure/data-factory/manage-azure-ssis-integration-runtime)<br>
 
@@ -71,6 +72,7 @@ Learn more: [Azure Free Account FAQ](https://azure.microsoft.com/free/free-accou
 * Learn more about service or specific pricing model: [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
 * Speak with someone from sales about pricing: [Contact Azure Sales](https://azure.microsoft.com/overview/sales-number/)
 * Azure Subscriptions: [Microsoft Azure Offer Details](https://azure.microsoft.com/support/legal/offer-details/)
+
 ## **Recommended Documents**
 
 * [Full list of Azure offers and the availability of the spending limit](https://azure.microsoft.com/support/legal/offer-details/)
