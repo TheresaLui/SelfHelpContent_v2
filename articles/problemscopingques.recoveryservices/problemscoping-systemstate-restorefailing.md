@@ -35,7 +35,7 @@
 				"id": "error_message",
 				"order": 3,
 				"controlType": "textbox",
-				"displayLabel": "Provide the error message that are you seeing:",
+				"displayLabel": "Provide the error message that you are seeing:",
 				"watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
 				"required": false
 			},{
@@ -50,7 +50,7 @@
 				"order": 5,
 				"controlType": "textbox",
 				"displayLabel": "Provide the ResourceId:",
-				"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+				"watermarkText": "You can find this information from registry keys HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
 				"required": false
 		},{
 				"id": "restore_location",
