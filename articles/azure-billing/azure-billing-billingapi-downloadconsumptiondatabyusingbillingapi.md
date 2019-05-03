@@ -4,6 +4,7 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32599495"
@@ -36,4 +37,4 @@ Azure Billing APIs can be used to pull usage and resource data into your preferr
 * [Azure Billing REST API](https://docs.microsoft.com/rest/api/billing/)
 * [Azure Billing API overview](https://docs.microsoft.com/azure/billing/billing-usage-rate-card-overview)
 * [Azure Resource Manager overview](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
-* [Billing- Invoices](https://docs.microsoft.com/rest/api/billing/invoices)
+* [REST API Browser](https://docs.microsoft.com/rest/api/?view=Azure)
