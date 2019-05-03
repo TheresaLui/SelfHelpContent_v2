@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for System State restore failure"
          description="Scoping questions for System State restore failure"
-         authors="srinathvasireddy
+         authors="srinathv"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594870"
