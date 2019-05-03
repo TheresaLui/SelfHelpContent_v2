@@ -29,7 +29,7 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 ### Cancelling the export job
 
-* This capability is not yet available to customers. We are actively working on it. In the mean time, please file a ticket to get your export cancelled.
+* This capability is not yet available to customers. We are actively working on it. In the meantime, please file a ticket to get your export cancelled.
 
 ### Blob already exists
 

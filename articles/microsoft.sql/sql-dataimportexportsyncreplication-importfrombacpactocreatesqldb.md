@@ -35,7 +35,8 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 * Import speed depends on the following factors:
 	* The data shape (schema) and the data size.
-	* The volume of export requests submitted simultaneously in a region. In situations where the volume of requests is very high, an import job can spend considerable time [waiting for resources to become available before it can start](https://support.microsoft.com/help/2965554/azure-sql-database-import-export-service-takes-a-long-time-to-import-o)  
+	* The volume of export requests submitted simultaneously in a region. In situations where the volume of requests is very high, an import job can spend considerable time [waiting for resources to become available before it can start](https://support.microsoft.com/help/2965554/azure-sql-database-import-export-service-takes-a-long-time-to-import-o).
+
 * To get the best performance, we recommend
   * Using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility).  
   * Importing to a higher SLO and downgrading after the import has finished. This has a big impact on performance, particularly for lower service tiers.
@@ -43,7 +44,7 @@ SQL DB Import service supports importing a BACPAC file into a new Azure SQL data
 
 ### Cancelling the import job
 
-* This capability is not yet available to customers. We are actively working on it. In the mean time, please file a ticket to get your import cancelled.
+* This capability is not yet available to customers. We are actively working on it. In the meantime, please file a ticket to get your import cancelled.
 
 ## **Recommended Documents**
 
