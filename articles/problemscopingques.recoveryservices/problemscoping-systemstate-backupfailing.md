@@ -68,7 +68,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 5,
             "controlType": "multiselectdropdown",
-			      "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+	   "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -94,14 +94,6 @@
                 {
                     "value": "Proxy is enabled",
                     "text": "Proxy is enabled"
-                },
-                {
-                    "value": "Unsupported drives are excluded from backup",
-                    "text": "Unsupported drives are excluded from backup"
-                },
-                {
-                    "value": "Files with unsupported attributes are excluded from backup",
-                    "text": "Files with unsupported attributes are excluded from backup"
                 },
                 {
                     "value": "dont_know_answer",
