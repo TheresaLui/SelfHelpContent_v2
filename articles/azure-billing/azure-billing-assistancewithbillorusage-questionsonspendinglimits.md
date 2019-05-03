@@ -40,7 +40,7 @@ _Note:_ We don’t support custom spending limits.
 ### **View/Add Credits**
 
 **Add credits to your Azure In Open subscription**
-	
+
 1. Go to [Azure in Open](https://azure.microsoft.com/offers/ms-azr-0111p/)
 2. Click **Add Credits** under Existing subscription option and follow the steps
 
