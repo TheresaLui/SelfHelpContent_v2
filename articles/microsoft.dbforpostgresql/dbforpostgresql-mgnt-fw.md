@@ -7,7 +7,7 @@
     ms.author="janeng"
 	displayOrder="23"
 	selfHelpType="resource"
-	supportTopicIds="32628425"
+	supportTopicIds="32628425, 32639982, 32639980"
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
