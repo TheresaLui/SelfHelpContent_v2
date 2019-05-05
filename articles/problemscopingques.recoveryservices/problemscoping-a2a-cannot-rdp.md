@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the RDP port",
     "fileAttachmentHint": "",
@@ -23,6 +24,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false
+           "useAsAdditionalDetails": false
         },
         {
             "id": "vm_facing_issue",
@@ -97,7 +99,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
