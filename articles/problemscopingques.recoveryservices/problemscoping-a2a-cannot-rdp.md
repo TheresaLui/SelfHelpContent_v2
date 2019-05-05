@@ -4,11 +4,11 @@
                 authors="genlin"
                 ms.author="asgang"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds=""
-                productPesIds=""
+                supportTopicIds="32574725"
+                productPesIds="16370"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId=""
+                articleId="47777774-20f7-4eba-8b3e-7fb11cc74cf2"
 />
 # Connect to a VM
 ---
