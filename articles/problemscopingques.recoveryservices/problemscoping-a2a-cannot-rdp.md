@@ -22,8 +22,7 @@
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
-            "required": false,
-            "useAsAdditionalDetails": false
+            "required": false
         },
         {
             "id": "vm_facing_issue",
@@ -37,7 +36,7 @@
             "id": "ippublicprivate",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Do you have issues connecting via Public or Private IP?",
+            "displayLabel": "Do you have issues connecting the VM by using public or private IP?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -53,7 +52,7 @@
         },
         {
             "id": "ippublic",
-            "order": 3,
+            "order": 4,
             "visibility": "ippublicprivate == Public IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Private IP?",
@@ -72,7 +71,7 @@
         },
         {
             "id": "ipprivate",
-            "order": 4,
+            "order": 5,
             "visibility": "ippublicprivate == Private IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Public IP?",
@@ -95,7 +94,7 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -103,7 +102,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 13,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
