@@ -4,6 +4,7 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="v-bllydi"
+    ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574723"
@@ -23,10 +24,10 @@
 - [How much time does it take to fail back?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-much-time-does-it-take-to-fail-back)
 - [Why virtual machines are not cleaned up after fail back?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failback#fail-back-to-the-primary-region)
 - [Re-protection failure](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#issue-1-failed-to-register-azure-virtual-machine-with-site-recovery-151195-br) due to DNS connectivity issue.
-- After VMs are [reprotected](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback#reprotect-the-secondary-vm), to go back (fail back) to the primary region follow these [fail over](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback) instructions.<br>
+- After VMs are [re-protected](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback#reprotect-the-secondary-vm), to go back (fail back) to the primary region follow these [fail over](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback) instructions.<br>
 
 ## **Recommended Documents**
 
 - [How to fail over and re-protect Azure VMs between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)</br>
 - [How to fail back after Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failback)
-- [How to connect to a VM after fail over to Azure?](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)
+- [How to connect to a VM after fail over to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-test-failover-to-azure#prepare-to-connect-to-azure-vms-after-failover)
