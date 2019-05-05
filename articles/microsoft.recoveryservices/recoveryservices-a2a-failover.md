@@ -25,7 +25,7 @@
 - [How is capacity assured in DR region for Azure VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-is-capacity-assured-in-target-region-for-azure-vms-1)
 - [How much time does it take to fail back?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-much-time-does-it-take-to-fail-back)
 - [How to replicate NSG with ASR](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery#azure-to-azure-replication-with-nsg)
-- [Why virtual machines are not cleaned up after failback](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-failback#fail-back-to-the-primary-region)
+- [Why virtual machines are not cleaned up after failback](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failback#fail-back-to-the-primary-region)
 - [How to troubleshoot RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
 - [How to troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
 
