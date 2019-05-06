@@ -20,7 +20,7 @@
     "formElements": [
         {
             "id": "os_version",
-            "order": 2,
+            "order": 1,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted machine?",
@@ -29,7 +29,7 @@
         },
         {
             "id": "machine_name",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the impacted machine",

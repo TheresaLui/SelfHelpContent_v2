@@ -8,7 +8,7 @@
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
-         articleId="2b342a85-2011-4b4d-b7d0-43639892e013"
+         articleId="2b342a85-2011-4b4d-2220-43639892e013"
 />
 # Questions Azure VM re-protection Failures
 ---
@@ -20,7 +20,7 @@
     "formElements": [
         {
             "id": "os_version",
-            "order": 2,
+            "order": 1,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted machine?",
@@ -29,7 +29,7 @@
         },
         {
             "id": "machine_name",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the impacted machine",

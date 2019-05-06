@@ -13,6 +13,7 @@
 # Questions Azure to Azure disaster recovery
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure to Azure disaster recovery_Failed Job ID",
     "fileAttachmentHint": "",
