@@ -5,6 +5,7 @@
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
+    ms.author="jamdavi"
     articleId="insights_missingemail_diagnostic"
     diagnosticScenario="ApplicationInsightsMissingEmailDiagnostic"
     selfHelpType="generic"
