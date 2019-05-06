@@ -1,14 +1,14 @@
 <properties
-                pageTitle="Scoping questions for Site Recovery (Azure to Azure)/Unable to connect"
-                description="Cannot Connect to My Virtual Machine after failover"
-                authors="asgang"
-                ms.author="asgang"
-                selfHelpType="problemScopingQuestions"
-                supportTopicIds=""
-                productPesIds=""
-                cloudEnvironments="Public"
-                schemaVersion="1"
-                articleId=""
+            pageTitle="Scoping questions for Site Recovery (Azure to Azure)/Unable to connect"
+            description="Cannot Connect to My Virtual Machine after failover"
+            authors="asgang"
+            ms.author="asgang"
+            selfHelpType="problemScopingQuestions"
+            supportTopicIds="16370"
+            productPesIds="32574725"
+            cloudEnvironments="Public"
+            schemaVersion="1"
+            articleId="2b342a85-36f3-4b4d-b7d0-43639892e013"
 />
 # Connect to a VM
 ---
@@ -98,7 +98,7 @@
             "order": 12,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
