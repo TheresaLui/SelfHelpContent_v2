@@ -48,7 +48,7 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
  * To get the best performance, we recommend:
  
-	* Using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility).
+	* Using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility)
 	* Making sure no other workload is running on the database. Creating a copy before export may be the best solution to ensure no other workload.
 	* Increase database SLO to better handle the export workload (primarily read IO)
 	* Making sure there are clustered indexes particularly for large tables
