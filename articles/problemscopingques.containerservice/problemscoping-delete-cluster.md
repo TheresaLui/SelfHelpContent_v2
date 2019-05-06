@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="1867706f-05f0-428c-9abe-6169fe1efe8c"
 />
-# Cluster Deletion
+# Cluster deletion
 ---
 {
                 "subscriptionRequired": true,
