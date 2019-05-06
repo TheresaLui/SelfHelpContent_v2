@@ -18,6 +18,13 @@
                 "title": "Cluster deletion",
                 "fileAttachmentHint": "",
                 "formElements": [
+                 {
+                    "id": "problem_start_time",
+                    "order": 1,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                },
                 {
                     "id": "getErrorMsg",
                     "order": 2,
@@ -43,6 +50,10 @@
                         },{
                           "value": "Cloud Shell",
                           "text": "Cloud Shell"
+                        },
+                        {
+                          "value": "dont_know_answer",
+                          "text": "I don't know"
                         }
                         ],
                         "required": false
@@ -79,14 +90,7 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  },
-                  {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                }
+                  }                 
                 ]
 }
 ---
