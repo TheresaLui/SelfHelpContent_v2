@@ -25,7 +25,7 @@
                     "displayLabel": "What error message did you receive while performing this operation, if any?",
                     "required": false
                   },{
-                      "id": "getHowPerform"
+                      "id": "getHowPerform",
                       "order": 3,
                       "controlType": "dropdown",
                       "displayLabel": "From where you are performing this operation?",
