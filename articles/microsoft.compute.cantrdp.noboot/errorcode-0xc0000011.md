@@ -24,10 +24,10 @@ If you find that you cannot connect to a VM in the future, you can view a screen
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To fix the issue, either replace the file from the C:\windows\WinSxS folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps.
+To fix the issue, either replace the file from the `C:\windows\WinSxS` folder on the same machine or from another working VM with the same OS and Patch level as this machine following these troubleshooting steps.
 
 1. Please make a note of the File name and the path from the screenshot
-2. Delete the virtual machine <!--$vmname-->[vmname]<!--/($vmname)-->. Make sure that you select the Keep the disks option when you do this.
+2. Delete the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Make sure that you select the "Keep the disks" option when you do this.
 3. [Save a copy of the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
 4. [Attach the OS disk of the deleted VM as a data disk to another VM (a troubleshooting VM)](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal)
 5. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
