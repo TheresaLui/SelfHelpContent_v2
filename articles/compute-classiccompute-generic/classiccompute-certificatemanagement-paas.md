@@ -14,9 +14,9 @@
 	articleId="9b9288fc-ffe1-497f-96e1-3bd4553c23dd"
 />
 
-# worker role (paas)/configuration and management/certificate management
+# Worker Role (PaaS) Configuration and Management/Certificate Management
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Buy and Configure an SSL certificate from Azure App Service for Cloud Service](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site)<br>
 * [How to enable SNI on Windows Azure Cloud Services](https://raflrx.wordpress.com/2017/08/08/enable-sni-on-a-windows-azure-cloud-service/)<br>
