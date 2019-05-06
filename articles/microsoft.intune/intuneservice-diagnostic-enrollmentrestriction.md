@@ -5,6 +5,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
+	ms.author="jlynn"
 	displayOrder=""
 	articleId="ios_enrollment_restriction"
 	diagnosticScenario="IntuneCheckAPNSCert"
