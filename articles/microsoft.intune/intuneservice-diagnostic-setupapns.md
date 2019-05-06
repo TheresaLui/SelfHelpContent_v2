@@ -4,6 +4,7 @@
 	infoBubbleText="The Apple Push certificate has not been setup.  Please review the steps on the right to set it up."
 	service="microsoft.intune"
 	resource="intune"
+	ms.author="jlynn"
 	authors="mackie1604"
 	displayOrder=""
 	articleId="intune_setup_apns"
