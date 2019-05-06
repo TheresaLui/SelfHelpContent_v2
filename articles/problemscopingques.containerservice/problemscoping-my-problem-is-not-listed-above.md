@@ -31,8 +31,6 @@
                   "displayLabel": "You mentioned your problem is not listed. Please provide details of the problem you are experiencing.",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  },
-                  "required": true
                 },
                 {
                     "id": "getErrorMsg",
