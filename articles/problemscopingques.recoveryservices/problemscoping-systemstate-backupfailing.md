@@ -60,7 +60,7 @@
             "id": "error_message",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Provide the error message that are you seeing:",
+            "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
             "required": false
         },
@@ -107,7 +107,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-			      "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+	    "infoBalloonText": "You can find the MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -115,8 +115,8 @@
             "id": "get_resourceId",
             "order": 7,
             "controlType": "textbox",
-            "displayLabel": "Please provide the ResourceId:",
-			      "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "displayLabel": "Provide the ResourceId:",
+	    "infoBalloonText": "You can find the ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -132,7 +132,7 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Basic troubleshooting",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": []
