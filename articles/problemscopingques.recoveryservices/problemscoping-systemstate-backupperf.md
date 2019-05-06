@@ -64,7 +64,7 @@
 			"id": "job_time",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "How long is the backup job running?",
+			"displayLabel": "Since how long the is job running?",
 			"watermarkText": "Ex. 18 hrs",
 			"required": false
 	},{
