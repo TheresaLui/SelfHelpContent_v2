@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Problem with/during cluster upgrade"
-                description="Problem with/during cluster upgrade"
+                pageTitle="Problem not listed"
+                description="Problem not listed"
                 authors="ChiragPavecha"
                 ms.author="chiragpa"
                 selfHelpType="problemScopingQuestions"
