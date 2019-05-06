@@ -5,6 +5,7 @@
 	service="microsoft.intune"
 	resource="intune"
 	authors="mackie1604"
+	ms.author="jlynn"
 	displayOrder=""
 	articleId="intune_renew_apns"
 	diagnosticScenario="IntuneCheckAPNSCert"
