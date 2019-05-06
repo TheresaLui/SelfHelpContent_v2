@@ -38,7 +38,7 @@
                   "order": 4,
                   "controlType": "dropdown",
                   "displayLabel": "Does this operation failed through Cloud Shell as well?",
-                  "watermarkText": "Choose an option",        
+                  "watermarkText": "Choose an option",
                   "dropdownOptions": [
                         {
                           "value": "Yes",
