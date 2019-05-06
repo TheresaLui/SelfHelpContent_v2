@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the RDP port",
     "fileAttachmentHint": "",
@@ -27,7 +28,7 @@
         },
         {
             "id": "vm_facing_issue",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
@@ -35,7 +36,7 @@
         },
         {
             "id": "ippublicprivate",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Do you have issues connecting via Public or Private IP?",
             "watermarkText": "Choose an option",
@@ -53,7 +54,7 @@
         },
         {
             "id": "ippublic",
-            "order": 3,
+            "order": 4,
             "visibility": "ippublicprivate == Public IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Private IP?",
@@ -72,7 +73,7 @@
         },
         {
             "id": "ipprivate",
-            "order": 4,
+            "order": 5,
             "visibility": "ippublicprivate == Private IP",
             "controlType": "dropdown",
             "displayLabel": "Are you able to connect to the Public IP?",
@@ -95,7 +96,7 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 6
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -103,7 +104,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 13,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
