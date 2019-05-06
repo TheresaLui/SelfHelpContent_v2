@@ -1,4 +1,4 @@
-<properties 
+<properties
     pageTitle="I'm encountering 4xx client error"
     description="400 Bad Request, 403 Forbidden, 404 Not Found"
     infoBubbleText="Common solution article for instructions on how to troubleshoot 4xx errors with Application Gateway."
@@ -14,6 +14,9 @@
  />
 
 # 4xx client error
+<!--/issueDescription-->
+I'm encountering 4xx client error.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
