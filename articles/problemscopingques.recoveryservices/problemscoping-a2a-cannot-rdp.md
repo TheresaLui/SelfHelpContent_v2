@@ -22,7 +22,7 @@
             "id": "connect_error",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
+            "displayLabel": "What is the error message you received?",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -38,7 +38,7 @@
             "id": "ippublicprivate",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Do you have issues connecting via Public or Private IP?",
+            "displayLabel": "Do you have the connection problem with Public IP or Private IP?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
