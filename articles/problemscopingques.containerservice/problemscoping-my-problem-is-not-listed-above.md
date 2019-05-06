@@ -18,14 +18,13 @@
                 "title": "My problem is not listed",
                 "fileAttachmentHint": "",
                 "formElements": [
-                {
-                    "id": "getErrorMsg",
-                    "order": 3,
-                    "controlType": "multilinetextbox",
-                    "displayLabel": "What error message did you receive while performing this operation, if any?",
-                    "required": false
-                  },
-                  {
+                 {
+                    "id": "problem_start_time",
+                    "order": 1,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                   },
+                   {
                   "id": "problem_description",
                   "order": 2,
                   "controlType": "multilinetextbox",
@@ -33,13 +32,15 @@
                   "useAsAdditionalDetails": true,
                   "required": true
                   },
-                  {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                }
-                ]
+                  "required": true
+                },
+                {
+                    "id": "getErrorMsg",
+                    "order": 3,
+                    "controlType": "multilinetextbox",
+                    "displayLabel": "What error message did you receive while performing this operation, if any?",
+                    "required": false
+                  }
+                 ]
 }
 ---
