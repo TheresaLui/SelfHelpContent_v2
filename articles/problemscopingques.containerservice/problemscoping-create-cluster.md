@@ -75,7 +75,6 @@
                           "text": "I didn't try"
                         }
                         ],
-                  "useAsAdditionalDetails": false,
                   "infoBalloonText": [
                    {
                      "text": "You can avoid common local CLI issues by using <a href='https://docs.microsoft.com/azure/cloud-shell/overview'>Azure Cloud Shell</a>."
