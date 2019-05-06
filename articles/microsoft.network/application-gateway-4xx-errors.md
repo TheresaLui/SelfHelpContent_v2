@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="generic"
+    selfHelpType="diagnostics"
     articleId="application-gateway-4xx-error"
     diagnosticScenario="ApplicationGateway4xxClientError"
     supportTopicIds=""
@@ -14,6 +14,9 @@
  />
 
 # 4xx client error
+<!--/issueDescription-->
+I'm encountering 4xx client error.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
