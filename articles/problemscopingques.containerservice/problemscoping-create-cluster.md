@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="4a4301a5-9144-4c93-b482-f225df855dd0"
 />
-#Cluster Creation
+# Cluster Creation
 ---
 {
                 "subscriptionRequired": true,
