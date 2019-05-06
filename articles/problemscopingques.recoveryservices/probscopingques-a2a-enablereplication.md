@@ -1,10 +1,10 @@
 <properties
          pageTitle="Scoping questions for Azure VM configuration protection failure"
          description="Scoping questions for Azure VM configuration protection failure"
-         authors="genlin"
+         authors="ashishgangwar"
          ms.author="asgang"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32630515"
+         supportTopicIds="32574718"
          productPesIds="16370"
          cloudEnvironments="public"
          schemaVersion="1"
