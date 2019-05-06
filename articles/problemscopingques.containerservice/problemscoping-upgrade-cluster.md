@@ -56,7 +56,7 @@
                    {
                     "text": "<a href='https://docs.microsoft.com/azure/cloud-shell/overview'>Azure Cloud Shell</a> is an interactive, browser-accessible shell for managing Azure resources."
                     }
-                    ],         
+                    ],
                   "required": false
                   },
                   {
