@@ -96,7 +96,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
