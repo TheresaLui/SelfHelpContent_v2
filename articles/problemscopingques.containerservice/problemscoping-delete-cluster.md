@@ -90,7 +90,7 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  }                 
+                  }
                 ]
 }
 ---
