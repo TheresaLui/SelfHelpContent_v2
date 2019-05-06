@@ -18,7 +18,7 @@ cloudEnvironments="public"
 
 # VM boot error
 <!--issueDescription-->
-We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000011**. The operating system couldn't be loaded because a critical system driver is missing or corrupt.
+We have have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0xc0000011**. The operating system couldn't be loaded because a critical system driver is missing or corrupt.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
