@@ -19,15 +19,14 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> with Enterprise Security Package
-failed to deploy, as the LDAP certificate is not configured correctly.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> with Enterprise Security Package failed to deploy, as the LDAP certificate is not configured correctly.
 <!--/issueDescription-->
 
 To secure the communication with Azure Active Directory, configuration of secure LDAP is required for an Azure Active Directory Domain Services managed domain.
 
 ## **Recommended Steps**
 
-**Create a self-signed certificate for secure LDAP**
+### Create a self-signed certificate for secure LDAP
 
 <!--$Note-->[Note]<!--/$Note-->
 
@@ -35,15 +34,15 @@ To secure the communication with Azure Active Directory, configuration of secure
 
 ```
       $lifetime=Get-Date
-                
+
       New-SelfSignedCertificate -Subject *.[DomainName] `
 
       -NotAfter $lifetime.AddDays(365) -KeyUsage DigitalSignature, KeyEncipherment `
-   
+
       -Type SSLServerAuthentication -DnsName "*.[DomainName]", "[DomainName]"
 ```
 
-In the preceding sample, replace [DomainName] with the DNS domain name of your managed domain. 
+In the preceding sample, replace [DomainName] with the DNS domain name of your managed domain.
 
 2. The newly created self-signed certificate is placed in the local machine's certificate store
 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
