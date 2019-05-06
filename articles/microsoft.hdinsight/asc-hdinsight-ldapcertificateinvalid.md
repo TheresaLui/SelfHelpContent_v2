@@ -43,7 +43,7 @@ To secure the communication with Azure Active Directory, configuration of secure
       -Type SSLServerAuthentication -DnsName "*.[DomainName]", "[DomainName]"
 ```
 
-    In the preceding sample, replace [DomainName] with the DNS domain name of your managed domain.
+In the preceding sample, replace [DomainName] with the DNS domain name of your managed domain.
 
 2. The newly created self-signed certificate is placed in the local machine's certificate store
 3. You should now be able to deploy the HDInsight cluster with Enterprise Security Package enabled
