@@ -95,7 +95,7 @@
 				"order": 8,
 				"controlType": "multiselectdropdown",
 				"infoBalloonText": "Check System State restore failure <a href='https://aka.ms/AB-AA4dwsp'>Troubleshooting</a> article",
-				"displayLabel": "Select the troubleshooting steps you have performed:",
+				"displayLabel": "Select the troubleshooting steps that you have performed:",
 				"dropdownOptions": [{
 						"value": "Azure Backup agent is latest",
 						"text": "Azure Backup agent is latest"
@@ -109,8 +109,8 @@
 						"value": "Tried restoring different recovery points",
 						"text": "Tried restoring different recovery points"
 				},{
-						"value": "If restoring to alternate machine, Ensured the OS version is same/higher than original",
-						"text": "If restoring to alternate machine, Ensured the OS version is same/higher than original"
+						"value": "If restoring to alternate server, ensured the OS version is same/higher than original",
+						"text": "If restoring to alternate server, ensured the OS version is same/higher than original"
 				},{
 						"value": "If restoring to alternate server, Ensured both source and target machine are registered with same vault",
 						"text": "If restoring to alternate server, Ensured both source and target machine are registered with same vault"
