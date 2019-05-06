@@ -17,7 +17,7 @@
 
 SQL DB Export service supports exporting an Azure SQL database to a BACPAC file. For databases over 150 GBs, we recommend using [sqlpackage.exe](https://docs.microsoft.com/azure/sql-database/sql-database-export#export-to-a-bacpac-file-using-the-sqlpackage-utility) to perform the export.
 
-### **Recommended Steps**
+## **Recommended Steps**
 
 ### Unable to authenticate request
 
