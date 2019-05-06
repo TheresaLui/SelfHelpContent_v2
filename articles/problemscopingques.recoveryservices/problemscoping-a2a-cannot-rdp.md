@@ -1,7 +1,7 @@
 <properties
             pageTitle="Scoping questions for Site Recovery (Azure to Azure)/Unable to connect"
             description="Cannot Connect to My Virtual Machine after failover"
-            authors="asgang"
+            authors="genlin"
             ms.author="asgang"
             selfHelpType="problemScopingQuestions"
             supportTopicIds="32574725"
