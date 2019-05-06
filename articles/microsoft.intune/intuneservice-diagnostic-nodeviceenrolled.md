@@ -5,6 +5,7 @@
                 service="microsoft.intune"
                 resource="intune"
                 authors="rciliax"
+		ms.author="rociliax"
                 displayOrder=""
                 articleId="intune_enroll_devices"
 		diagnosticScenario="IntuneCheckTenantEnrollment"
