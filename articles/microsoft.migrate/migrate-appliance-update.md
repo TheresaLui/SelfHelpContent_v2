@@ -18,4 +18,4 @@
 
 ## **Recommended Steps**
 
-* Ensure you have the latest appliance update installed by turning on auto-update on the appliance.
+* Ensure you have the latest appliance update installed by turning on auto-update on the appliance
