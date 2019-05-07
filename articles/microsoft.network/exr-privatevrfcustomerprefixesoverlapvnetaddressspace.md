@@ -18,12 +18,12 @@
 
 # **Customer Prefixes Overlap With VNet Address Space**
 <!--/issueDescription-->
-**Message:** '**<!--$Message--> [Message] <!--/$Message-->**'
-**ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
-**MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
-**VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
-**VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
-**Gateway ID:** '**<!--$GatewayId--> [GatewayId] <!--/$GatewayId-->**'
+* **Message:** '**<!--$Message--> [Message] <!--/$Message-->**'
+* **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
+* **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
+* **VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
+* **VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
+* **Gateway ID:** '**<!--$GatewayId--> [GatewayId] <!--/$GatewayId-->**'
 <!--/issueDescription-->
 
 ## **Recommended Steps**
