@@ -36,7 +36,7 @@
                     "id": "getUpgradeVersion",
                     "order": 3,
                     "controlType": "multilinetextbox",
-                    "displayLabel": "What version of Kubernetes are you upgrading from and to?",
+                    "displayLabel": "What version of Kubernetes are you upgrading From and To?",
                     "watermarkText": "For e.g. - From 1.x.y To 1.a.b",
                     "required": false
                   },
