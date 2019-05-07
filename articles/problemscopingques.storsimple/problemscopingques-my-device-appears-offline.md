@@ -32,29 +32,14 @@
 			],
 			"required": false
 		}, {
-			"id": "url_requirement",
-			"order": 2,
-			"controlType": "dropdown",
-			"displayLabel": "Is URL https://login.windows.net for public cloud or https://login.microsoftonline.us for US Government cloud whitelisted in the firewall?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}
-			],
-			"required": false
-		}, {
 			"id": "problem_start_time",
-			"order": 3,
+			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 4,
+			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
