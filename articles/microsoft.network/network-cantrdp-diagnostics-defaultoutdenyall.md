@@ -23,4 +23,4 @@ Microsoft Azure has identified a routing issue which is preventing you from bein
 
 ## **Recommended Steps**
 
-If the access control (security rules) result is not desired, view the [Effective Security Rules](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal) to determine if the addition or modification of a customer-defined security rule is required. If this traffic should be allowed outbound, create a <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> basic rule specifying port <!--$DestinationPort-->[DestinationPort]<!--$DestinationPort--> and action Allow.
+If the access control (security rules) result is not desired, view the [Effective Security Rules](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal) to determine if the addition or modification of a customer-defined security rule is required. If this traffic should be allowed outbound, create a <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> basic rule specifying port <!--$DestinationPort-->[DestinationPort]<!--/$DestinationPort--> and action Allow.
