@@ -13,6 +13,7 @@
 # My Device appears offline on the portal
 ---
 {
+	"subscriptionrequired": false,
 	"resourceRequired": false,
 	"title": "My device appears offline",
 	"fileAttachmentHint": "",
