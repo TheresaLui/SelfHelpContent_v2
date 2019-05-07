@@ -8,15 +8,15 @@
     ms.author="pedin"
     displayOrder=""
     articleId="RequestLimit_6191C0C8-FEBE-4C34-80E9-9F1FABC2A1A6"
-    diagnosticScenario="dbasc"
-    selfHelpType="rca"
-    supportTopicIds="32630434,32630459"
+    diagnosticScenario="SqlPerfTsg"
+    selfHelpType="diagnostics"
+    supportTopicIds="32630450,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public"
+    cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
-# Query Execution/high degree of MAXDOP
+# We ran diagnostics on your resource and found high degree of MAXDOP
 
 ## **Recommended Steps**
 
