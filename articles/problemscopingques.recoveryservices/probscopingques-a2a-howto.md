@@ -30,8 +30,8 @@
                     "text": "Operating systems and kernel versions that Site Recovery supports"
                 },
                 {
-                    "value": "IP address assignment during Failover",
-                    "text": "IP address assignment during Failover"
+                    "value": "IP address assignment during failover",
+                    "text": "IP address assignment during failover"
                 },
                 {
                     "value": "Azure VM disaster Recovery Cost",
@@ -39,7 +39,7 @@
                 },
                 {
                     "value": "what all Azure Site recovery replicates to the Disaster Recovery region",
-                    "text": "Replicate all resources to the Disaster Recovery region"
+                    "text": "What resources can be replicated to the Disaster Recovery region"
                 },
                 {
                     "value": "recovery points generation",
@@ -47,7 +47,7 @@
                 },
                 {
                     "value": "deleting Azure Site recovery artifacts",
-                    "text": "Delete Azure Site recovery artifacts"
+                    "text": "Clean up Azure Site Recovery stale resources"
                 },
 		{
 		    "value": "dont_know_answer",
@@ -65,15 +65,14 @@
                 {
                     "value": "Azure to Azure disaster recovery common queries",
                     "text": "Common questions: Azure-to-Azure disaster recovery"
-                   "infoBalloonText": "Click here <a href='https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions'>here</a> to see more information.",
                 },
                 {
                     "value": "Azure to Azure dr architecture document",
-                    "text": "azure to azure dr architecture document"
+                    "text": "Azure to Azure disaster recovery architecture"
                 },
                 {
                     "value": "have gone through Azure to Azure supported region lists",
-                    "text": "have gone through Azure to Azure supported region lists"
+                    "text": "Support matrix for replicating Azure VMs from one region to another"
                 },
 		{
 		    "value": "dont_know_answer",
