@@ -59,7 +59,7 @@ cloudEnvironments="public"
 			"searchTags": "data sync",
 			"category": "Data Sync",
 			"commonSolutionArticleId": "8953a223-c606-42bd-ae86-964c0db4e34c",
-			"supportTopicId": "32630420",
+			"supportTopicId": "32630455",
 			"symptomId": "SqlDataSync"			
 		},
 		{				    
