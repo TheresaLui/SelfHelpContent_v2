@@ -13,7 +13,7 @@
 # My Device appears offline on the portal
 ---
 {
-	"resourceRequired": true,
+	"resourceRequired": false,
 	"title": "My device appears offline",
 	"fileAttachmentHint": "",
 	"formElements": [{
@@ -46,7 +46,7 @@
 				}
 			],
 			"required": false
-		},{
+		}, {
 			"id": "problem_start_time",
 			"order": 3,
 			"controlType": "datetimepicker",
