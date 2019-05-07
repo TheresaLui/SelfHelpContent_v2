@@ -18,7 +18,6 @@
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine <!--$vmname-->[vmname]<!--/$vmname-->:**
 Microsoft Azure has concluded an investigation of your Virtual Machine (VM) <!--$vmname-->[vmname]<!--/$vmname-->. We identified that your VM is currently in an inaccessible state because Windows failed to boot with error code **0xc000000f**. This issue occurs when a device that doesn't exist is specified in the Boot Configuration data.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
@@ -48,7 +47,7 @@ bcdedit /store [Boot partition]:\boot\bcd /enum
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
- ```
+```
 bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
 bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
 bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
