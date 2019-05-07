@@ -28,7 +28,7 @@
 				}, {
 					"value": "No",
 					"text": "No"
-				},
+				}
 			],
 			"required": false
 		}, {
@@ -43,7 +43,7 @@
 				}, {
 					"value": "No",
 					"text": "No"
-				},
+				}
 			],
 			"required": false
 		},{
@@ -64,7 +64,7 @@
 					"text": "Include output."
 				}, {
 					"text": "Output of "invoke-hcsdiagnostics -scope network" will assist in troubleshooting the issue."
-				}
+				},
 			]
 		},
 	]
