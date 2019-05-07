@@ -49,7 +49,7 @@
 			"hints": [{
 					"text": "Include output."
 				}, {
-					"text": "Output of invoke-hcsdiagnostics -scope network will assist in troubleshooting the issue."
+					"text": "Output of <i>invoke-hcsdiagnostics -scope network</i> will assist in troubleshooting the issue."
 				}
 			]
 		}
