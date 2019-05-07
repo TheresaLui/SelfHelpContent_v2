@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="1867706f-05f0-428c-9abe-6169fe1efe8c"
 />
-#Cluster Deletion
+# Cluster deletion
 ---
 {
                 "subscriptionRequired": true,
@@ -18,6 +18,13 @@
                 "title": "Cluster deletion",
                 "fileAttachmentHint": "",
                 "formElements": [
+                 {
+                    "id": "problem_start_time",
+                    "order": 1,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                },
                 {
                     "id": "getErrorMsg",
                     "order": 2,
@@ -25,7 +32,7 @@
                     "displayLabel": "What error message did you receive while performing this operation, if any?",
                     "required": false
                   },{
-                      "id": "getHowPerform"
+                      "id": "getHowPerform",
                       "order": 3,
                       "controlType": "dropdown",
                       "displayLabel": "From where you are performing this operation?",
@@ -43,6 +50,10 @@
                         },{
                           "value": "Cloud Shell",
                           "text": "Cloud Shell"
+                        },
+                        {
+                          "value": "dont_know_answer",
+                          "text": "I don't know"
                         }
                         ],
                         "required": false
@@ -52,7 +63,7 @@
                   "order": 4,
                   "controlType": "dropdown",
                   "displayLabel": "Does this operation failed through Cloud Shell as well?",
-                  "watermarkText": "Choose an option",        
+                  "watermarkText": "Choose an option",
                   "dropdownOptions": [
                         {
                           "value": "Yes",
@@ -65,11 +76,7 @@
                           "text": "I didn't try"
                         }
                         ],
-                  "infoBalloonText": [
-                   {
-                    "text": "You can avoid common local CLI issues by using <a href='https://docs.microsoft.com/en-us/azure/cloud-shell/overview'>Azure Cloud Shell</a>."
-                    }
-                    ],         
+                  "infoBalloonText": "You can avoid common local CLI issues by using <a href='https://docs.microsoft.com/azure/cloud-shell/overview'>Azure Cloud Shell</a>.",
                   "required": false
                   },
                   {
@@ -79,14 +86,7 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  },
-                  {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                }
+                  }
                 ]
 }
 ---

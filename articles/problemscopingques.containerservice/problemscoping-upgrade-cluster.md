@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Problem with/during cluster upgrade"
-                description="Problem with/during cluster upgrade"
+                pageTitle="problem during cluster upgrade"
+                description="problem during cluster upgrade"
                 authors="ChiragPavecha"
                 ms.author="chiragpa"
                 selfHelpType="problemScopingQuestions"
@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="b2ecdb4d-ff62-4ed2-9a20-29ca8b399640"
 />
-#Cluster Upgrade
+# Cluster upgrade
 ---
 {
                 "subscriptionRequired": true,
@@ -18,6 +18,13 @@
                 "title": "Cluster upgrade",
                 "fileAttachmentHint": "",
                 "formElements": [
+                 {
+                    "id": "problem_start_time",
+                    "order": 1,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                },
                 {
                     "id": "getErrorMsg",
                     "order": 2,
@@ -29,7 +36,7 @@
                     "id": "getUpgradeVersion",
                     "order": 3,
                     "controlType": "multilinetextbox",
-                    "displayLabel": "What version of Kubernetes are you upgrading from and to?",
+                    "displayLabel": "What version of Kubernetes are you upgrading From and To?",
                     "watermarkText": "For e.g. - From 1.x.y To 1.a.b",
                     "required": false
                   },
@@ -38,7 +45,7 @@
                   "order": 4,
                   "controlType": "dropdown",
                   "displayLabel": "Does this operation failed through Cloud Shell as well?",
-                  "watermarkText": "Choose an option",        
+                  "watermarkText": "Choose an option",
                   "dropdownOptions": [
                         {
                           "value": "Yes",
@@ -51,12 +58,7 @@
                           "text": "I didn't try"
                         }
                         ],
-                  "useAsAdditionalDetails": false,
-                  "infoBalloonText": [
-                   {
-                    "text": "<a href='https://docs.microsoft.com/en-us/azure/cloud-shell/overview'>Azure Cloud Shell</a> is an interactive, browser-accessible shell for managing Azure resources."
-                    }
-                    ],         
+                  "infoBalloonText": "You can avoid common local CLI issues by using <a href='https://docs.microsoft.com/azure/cloud-shell/overview'>Azure Cloud Shell</a>.",
                   "required": false
                   },
                   {
@@ -66,14 +68,7 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  },
-                  {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                }
+                  }
                 ]
 }
 ---

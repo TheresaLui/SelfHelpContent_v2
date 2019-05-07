@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Problem with cluster/resource group creation"
-                description="Problem with cluster/resource group creation"
+                pageTitle="Problem with cluster creation"
+                description="Problem with cluster creation"
                 authors="ChiragPavecha"
                 ms.author="chiragpa"
                 selfHelpType="problemScopingQuestions"
@@ -10,7 +10,7 @@
                 schemaVersion="1"
                 articleId="4a4301a5-9144-4c93-b482-f225df855dd0"
 />
-#Cluster Creation
+# Cluster creation
 ---
 {
                 "subscriptionRequired": true,
@@ -18,6 +18,13 @@
                 "title": "Cluster creation",
                 "fileAttachmentHint": "",
                 "formElements": [
+                  {
+                    "id": "problem_start_time",
+                    "order": 1,
+                    "controlType": "datetimepicker",
+                    "displayLabel": "When did the problem start?",
+                    "required": true
+                },
                 {
                     "id": "getErrorMsg",
                     "order": 2,
@@ -25,7 +32,7 @@
                     "displayLabel": "What error message did you receive while performing this operation, if any?",
                     "required": false
                   },{
-                      "id": "getHowPerform"
+                      "id": "getHowPerform",
                       "order": 3,
                       "controlType": "dropdown",
                       "displayLabel": "From where you are performing this operation?",
@@ -43,6 +50,9 @@
                         },{
                           "value": "Cloud Shell",
                           "text": "Cloud Shell"
+                        },{
+                          "value": "dont_know_answer",
+                          "text": "I don't know"
                         }
                         ],
                         "required": false
@@ -52,7 +62,7 @@
                   "order": 4,
                   "controlType": "dropdown",
                   "displayLabel": "Does this operation failed through Cloud Shell as well?",
-                  "watermarkText": "Choose an option",        
+                  "watermarkText": "Choose an option",
                   "dropdownOptions": [
                         {
                           "value": "Yes",
@@ -65,12 +75,7 @@
                           "text": "I didn't try"
                         }
                         ],
-                  "useAsAdditionalDetails": false,
-                  "infoBalloonText": [
-                   {
-                    "text": "<a href='https://docs.microsoft.com/en-us/azure/cloud-shell/overview'>Azure Cloud Shell</a> is an interactive, browser-accessible shell for managing Azure resources."
-                    }
-                    ],         
+                  "infoBalloonText": "You can avoid common local CLI issues by using <a href='https://docs.microsoft.com/azure/cloud-shell/overview'>Azure Cloud Shell</a>.",
                   "required": false
                   },
                   {
@@ -80,14 +85,7 @@
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
-                  },
-                  {
-                    "id": "problem_start_time",
-                    "order": 1,
-                    "controlType": "datetimepicker",
-                    "displayLabel": "When did the problem start?",
-                    "required": true
-                }
+                  }
                 ]
 }
 ---
