@@ -60,11 +60,12 @@
             "id": "Basic_troubleshooting_multiselect",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have completed",
+            "displayLabel": "Select the docs.microsoft.com articles you have gone through",
             "dropdownOptions": [
                 {
-                    "value": "Read Azure to Azure disaster recovery common queries",
-                    "text": "Azure to Azure disaster recovery common queries"
+                    "value": "Azure to Azure disaster recovery common queries",
+                    "text": "Common questions: Azure-to-Azure disaster recovery"
+                   "infoBalloonText": "Click here <a href='https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-common-questions'>here</a> to see more information.",
                 },
                 {
                     "value": "Azure to Azure dr architecture document",

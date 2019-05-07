@@ -41,8 +41,8 @@
                     "text": "Check all backups are deleted"
                 },
                 {
-                    "value": "Tried forecefully deleting the vault using powershell",
-                    "text": "Tried forecefully deleting the vault using powershell"
+                    "value": "Tried force deleting the vault using powershell",
+                    "text": "Tried force deleting the vault by using PowerShell"
                 },
 
 		{

@@ -38,7 +38,7 @@
             "id": "ippublicprivate",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Do you have the connection problem with Public IP or Private IP?",
+            "displayLabel": "Does the problem occur when connecting to the virtual machine's public IP or private IP?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -88,8 +88,8 @@
                     "text": "No"
                 },
                 {
-                    "value": "I don't have a Public IP",
-                    "text": "I don't have a Public IP"
+                    "value": "The virtual machine does not have a Public IP",
+                    "text": "The virtual machine does not have a Public IP"
                 }
             ],
             "required": false
