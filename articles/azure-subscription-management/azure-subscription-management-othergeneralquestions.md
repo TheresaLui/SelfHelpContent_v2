@@ -25,7 +25,7 @@
 
 * [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
 * [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)<br>
-* If you can't convert the subscription, [create an Azure support request](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request). Select **Subscription Management** as the issue type.
+* If you can't convert the subscription, create an Azure support request. Select **Subscription Management** as the issue type.
 
 ### Receive Invoices via Email
 
