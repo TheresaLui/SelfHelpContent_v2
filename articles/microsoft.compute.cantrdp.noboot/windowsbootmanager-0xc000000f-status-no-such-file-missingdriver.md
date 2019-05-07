@@ -38,9 +38,9 @@ To fix the BCD store, follow the troubleshooting steps indicated below:
 
 6. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. You will use this identifier in the next step:
 
-      ```
-      bcdedit /store [Boot partition]:\boot\bcd /enum
-      ```
+```
+bcdedit /store [Boot partition]:\boot\bcd /enum
+```
 
 7. Repair the Boot Configuration data by running the following command lines. You must replace these placeholders by the actual values:
 
@@ -48,14 +48,14 @@ To fix the BCD store, follow the troubleshooting steps indicated below:
   * "Boot partition" is the partition that contains a hidden system folder named "Boot."
   * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
 
-        ```
-          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
-          bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
-          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
-          bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
-          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
-          bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:
-          bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
-        ```
+ ```
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
+bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
+bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
+bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
+bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
+bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:
+bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
+```
 
 8. Detach the repaired OS disk from the troubleshooting VM. [Then, create a new VM from the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-create-vm-specialized).
