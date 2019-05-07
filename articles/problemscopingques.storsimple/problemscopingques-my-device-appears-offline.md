@@ -28,7 +28,7 @@
 				}, {
 					"value": "No",
 					"text": "No"
-				}
+				},
 			],
 			"required": false
 		}, {
@@ -43,7 +43,7 @@
 				}, {
 					"value": "No",
 					"text": "No"
-				}
+				},
 			],
 			"required": false
 		},{
