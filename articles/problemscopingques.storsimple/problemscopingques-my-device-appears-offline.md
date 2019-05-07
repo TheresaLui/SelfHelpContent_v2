@@ -35,7 +35,7 @@
 			"id": "url_requirement",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Is URL "https://login.windows.net" for public cloud or "https://login.microsoftonline.us" for US Government cloud whitelisted in the firewall?",
+			"displayLabel": "Is URL https://login.windows.net for public cloud or https://login.microsoftonline.us for US Government cloud whitelisted in the firewall?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
