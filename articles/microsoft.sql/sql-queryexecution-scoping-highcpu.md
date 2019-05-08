@@ -33,8 +33,32 @@
             "displayLabel": "What is the end time of the issue?",
             "required": true
         },{
+	    "id": "feature_dropdown",
+	    "order": 3,
+	    "controlType": "dropdown",
+	    "displayLabel": "Which resource consumption increase are you requesting help for?",
+	    "watermarkText": "Choose an option",
+	    "dropdownOptions": [{
+		"value": "CPU_consumption_increased",
+		"text": "CPU consumption increased"
+		}, {
+		"value": "IO_consumption_increased",
+		"text": "IO consumption increased"
+		}, {
+		"value": "Memory_consumption_increased",
+		"text": "Memory consumption increased"
+		}, {
+		"value": "Increase_Other",
+		"text": "Other resource consumption increase not listed"
+                }, {
+		"value": "dont_know_answer",
+		"text": "Don't know answer"
+		}
+		],
+		"required": true
+        },{
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",

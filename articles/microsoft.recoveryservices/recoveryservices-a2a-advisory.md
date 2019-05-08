@@ -16,38 +16,33 @@
 
 # Advisory Questions - Azure to Azure
 
-**Note**: Azure to Azure does not support migration of IAAS VMs between the same region.
+**Note**: Azure to Azure does not support migration of Azure VMs between the same region.
 
 ## **Recommended Documents**
 
-- [What are the supported and not supported configurations for Azure to Azure replicaton?](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure)<br>
-- [What are the pre-requisites for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-prerequisites)<br>
+- [What are the supported and not supported configurations for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/site-recovery-support-matrix-azure-to-azure)<br>
+- [What are the prerequisites for Azure to Azure replication?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-walkthrough-prerequisites)<br>
+- [Application and  Crash consistent recovery points details](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#what-is-an-application-consistent-recovery-point)
+- [How does the IP assignment happen in Failover and Test Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#after-failover-the-server-doesnt-have-the-same-ip-address-as-the-source-vm-why-is-it-assigned-a-new-ip-address)</br>
 - [How do I find the RTO?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-can-i-find-the-rto-of-a-recovery-plan)
 - [Pricing - What charges do I incur while using Azure Site Recovery?](https://azure.microsoft.com/blog/know-exactly-how-much-it-will-cost-for-enabling-dr-to-your-azure-vm/)</br>
-- Frequently asked questions on:
-	* [Replication](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication)
-	* [Replication Policy](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication-policy)
-	* [Multi-VM Consistency](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#multi-vm-consistency)
-	* [Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#failover)
-	* [Recovery Plan](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#recovery-plan)
-	* [Reprotect & Failback](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#reprotection-and-failback) 
+- [ Site Recovery with Azure Backup supported scenarios](https://docs.microsoft.com/azure/site-recovery/site-recovery-backup-interoperability)
+
+### **Networking**
+
+* [How to retain private ip address in DR region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-private-ip-address-during-failover)</br>
+* [Can I retail Public IP ?](https://docs.microsoft.com/azure/site-recovery/concepts-public-ip-address-with-site-recovery#public-ip-address-assignment-using-recovery-plan)</br>
+* [Using NSG with Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery#using-network-security-groups)</br>
 
 ### **Replication**
 
 * [How to enable consistent recovery points across multiple servers](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#multi-vm-consistency)</br>
 * [How replication points are generated](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#replication-policy)</br>
 * [How to automate disaster recovery of Azure virtual machines using PowerShell](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-powershell)</br>
-* [What all does ASR replicates to target region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-architecture#target-resources)</br>
-
-### **Networking**
-
-* [How to retain private ip address in DR region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-private-ip-address-during-failover)</br>
-* [How to use Public IP with Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-public-ip-address-with-site-recovery)</br>
-* [Using NSG with Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery#using-network-security-groups)</br>
+* [What all does Azure Site Recovery replicates to target region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-architecture#target-resources)</br>
 
 ### **Failover**
 
-* [How does the IP assignment happen in Failover and Test Failover](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#after-failover-the-server-doesnt-have-the-same-ip-address-as-the-source-vm-why-is-it-assigned-a-new-ip-address)</br>
 * [What happen in case my primary Azure region has an outage?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#if-im-replicating-between-two-azure-regions-what-happens-if-my-primary-region-experiences-an-unexpected-outage)</br>
 * [Is failover automatic?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#is-failover-automatic)
 
@@ -58,4 +53,5 @@
 ### **Replicate IaaS VMs from one Azure region to another Azure region**
 
 * [Review the architecture for Azure VM replication between Azure regions](https://docs.microsoft.com/azure/site-recovery/concepts-azure-to-azure-architecture)<br>
-* [Troubleshoot Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)<br>
+* [Troubleshoot Azure to Azure VM replication issues](https://docs.microsoft.com/azure/site-recovery/site-recovery-azure-to-azure-troubleshoot-errors)
+* [**Refer to the most frequently asked questions before filing a support case**](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions)
