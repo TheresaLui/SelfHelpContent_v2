@@ -3,7 +3,7 @@
     description="TSG / How-to for know scenario"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="ramakoni"
+    authors="ramakoni1"
     ms.author="ramakoni"
     displayOrder=""
     selfHelpType="Generic"
