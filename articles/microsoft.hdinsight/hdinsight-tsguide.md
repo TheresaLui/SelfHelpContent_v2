@@ -16,5 +16,6 @@
 # HDInsights Troubleshooting Guide
 
 ## **Recommended Documents**
-*[HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)<br>  
+
+* [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)<br>  
 
