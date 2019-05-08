@@ -9,11 +9,13 @@
 	supportTopicIds="32449693"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="3e67ad80-05f7-4a9f-9130-4aa0a5d18a65"
 />
 
 # cluster/performance
 
 ## **Recommended documents**
-[Collect logs from a Service Fabric cluster using Azure Diagnostics and Operational Insights](https://azure.microsoft.com/documentation/articles/service-fabric-diagnostics-how-to-setup-wad-operational-insights/)<br>
-[Introduction to Service Fabric health monitoring](https://azure.microsoft.com/documentation/articles/service-fabric-health-introduction/)
+
++ This [article](https://azure.microsoft.com/documentation/articles/service-fabric-vso-load-test/) shows how to use Microsoft Visual Studio load test features to stress test an application. 
++ This [article](https://azure.microsoft.com/documentation/articles/service-fabric-concepts-scalability/) shows how to Scale your Service Fabric applications. 

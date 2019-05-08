@@ -8,8 +8,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32542210"
 	resourceTags=""
-	productPesIds="14748"
-	cloudEnvironments="public"
+	productPesIds="14748, 16170"
+	cloudEnvironments="public, MoonCake"
+	articleId="ce8300ba-4b00-400a-aaa0-946f930e754b"
 />
 
 # configuration and management/ip configuration

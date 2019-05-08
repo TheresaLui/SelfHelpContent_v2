@@ -9,7 +9,8 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
+	articleId="f57a3023-d98b-4bbd-9153-e09e1f182a27"
 />
 
 # I am getting 'Invalid credentials' or 'Failed to validate credentials' errors

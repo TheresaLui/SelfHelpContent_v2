@@ -9,7 +9,8 @@
 	supportTopicIds="32449691"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="400eb205-f017-4bef-83ab-d16697605909"
 />
 
 # cluster/other

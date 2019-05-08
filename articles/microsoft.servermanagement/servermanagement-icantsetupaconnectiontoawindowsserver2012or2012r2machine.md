@@ -9,7 +9,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
+	articleId="fa81e569-025e-4801-953b-9849e6f6a4f8"
 />
 
 # I can’t set up a connection to a Windows Server 2012 or 2012 R2 machine

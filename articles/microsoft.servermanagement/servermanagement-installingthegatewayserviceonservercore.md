@@ -9,7 +9,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
+	articleId="53d1a82b-dbaa-42e0-a16a-a7f063701cac"
 />
 
 # Installing the gateway service on Server Core

@@ -9,7 +9,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, MoonCake"
+	articleId="27004d50-d9ff-4ad9-a2f0-9fdd52254b4f"
 />
 
 # Gateway installer fails to install

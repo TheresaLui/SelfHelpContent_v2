@@ -1,0 +1,24 @@
+
+<properties
+    pageTitle="changetracking-setup"
+    description="Problems related to change tracking setup"
+    service="microsoft.operationalinsights"
+    resource="operationalinsightsaccounts"
+    authors="adoylemsft"
+    displayorder=""
+    selfHelpType="generic"
+    supportTopicIds="32536662"
+    resourceTags=""
+    productPesIds="15725"
+    cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="e9e08b81-b92d-49ec-baff-da8cbf3649f1"
+/>
+
+# changetracking-setup
+
+
+## **Recommended documents**
+[Use Microsoft OMS to track changes]
+(https://blogs.technet.microsoft.com/msoms/2016/01/19/use-microsoft-operations-management-suite-to-track-changes/) <br>
+[Change Tracking solution in Log Analytics]
+(https://azure.microsoft.com/documentation/articles/log-analytics-change-tracking/)

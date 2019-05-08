@@ -1,6 +1,6 @@
 <properties
-	pageTitle="availability, performance, and application issues/problems with webjobs"
-	description="availability, performance, and application issues/problems with webjobs"
+	pageTitle="Availability, performance, and application issues/problems with webjobs"
+	description="Availability, performance, and application issues/problems with webjobs"
 	service="microsoft.web"
 	resource="sites"
 	authors="aashu"
@@ -8,12 +8,13 @@
 	selfHelpType="generic"
 	supportTopicIds="32542219"
 	resourceTags=""
-	productPesIds="14748"
+	productPesIds="14748,16170"
 	cloudEnvironments="public"
+	articleId="d8217bfc-9369-4140-a405-a52ad9b1db89"
 />
 
 # availability, performance, and application issues/problems with webjobs
 
 ## **Recommended documents**
-[WebJobs Wiki](https://github.com/projectkudu/kudu/wiki/Web-jobs)<br>
-[Documentation resources about how to create, deploy, schedule, debug,  and scale Azure WebJobs](https://azure.microsoft.com/documentation/articles/websites-webjobs-resources/)
+1. [WebJobs Wiki](https://github.com/projectkudu/kudu/wiki/Web-jobs)<br>
+2. [List of WebJobs Resources](https://azure.microsoft.com/documentation/articles/websites-webjobs-resources/)

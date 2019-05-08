@@ -1,32 +1,31 @@
 <properties
-	pageTitle="azure offers and pricing"
-	description="azure offers and pricing"
+	pageTitle="Pricing management for Azure Subscriptions"
+	description="Pricing management for Azure Subscriptions"
 	service="azure-billing"
 	resource="billing"
 	authors="kasparks"
+	ms.author="kasparks"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32454854"
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="de376764-bbf7-4f60-ac02-bc8a4028807c"
 />
 
-# azure offers and pricing
+# Pricing management for Azure Subscriptions
 
-## **Recommended steps**
-1. Estimate your expected monthly bill using our Pricing Calculator.<br>
-[Price and configure Azure features for your scenarios](https://azure.microsoft.com/pricing/calculator/)
-2. Know more per Azure offer- what's covered, exclusions, benefits, how to sign-up, activate and availability by region. Following link provides details on common offers such Free Trial, MSDN, BizSpark, MPN, Pay-As-You-Go, Enterprise Agreements and Open Volume License programs.<br>
-[Azure Offers - benefits & limits, how to sign-up, purchase, upgrade or activate](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/)
-3. The Account Admin can switch or change Azure offer on an existing subscription- visit 'Azure Account Center', select the subscription to change and then click 'Switch to another offer'.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
+## **Recommended Steps**
 
-## **Recommended documents**
-[Upgrade Azure Free Trial to Pay-As-You-Go offer](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/#upgrade-azure-free-trial-to-pay-as-you-go)<br>
-[Sign up for an Azure Free Trial subscription](https://azure.microsoft.com/documentation/articles/billing-buy-sign-up-azure-subscription/#sign-up-for-an-azure-free-trial-subscription)<br>
-[Activation & benefits of 'MSDN Dev and Test Pay-As-You-Go' offer](https://azure.microsoft.com/offers/ms-azr-0023p/)<br>
-[Activate monthly Azure credit for Visual Studio Enterprise (BizSpark) subscribers](https://azure.microsoft.com/offers/ms-azr-0064p/)<br>
-[Microsoft Partner Network (MPN) - Benefits, requirements, enroll & manage](https://mspartner.microsoft.com/en/us/Pages/Membership/core-benefits.aspx#Core benefits)<br>
-[Switch, change or upgrade to a different Azure offer](https://azure.microsoft.com/documentation/articles/billing-how-to-switch-azure-offer/)<br>
-[Azure Free Trial FAQ ($1 temporary charge)](https://azure.microsoft.com/en-in/pricing/free-trial-faq/)
+* Estimate your expected monthly bill using our [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
+* Learn about [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
+* For more information, call 1-800-867-1389 in US or Canada, [or your local number](https://azure.microsoft.com/overview/sales-number/)
+
+## **Recommended Documents**
+
+* [Azure Free Trial FAQ](https://azure.microsoft.com/pricing/free-trial-faq/)<br>
+* [Upgrade a free subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription/)<br>
+* [Activate monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits/)<br>
+* [Microsoft Partner Network (MPN) - Benefits, requirements, enrollment, and management](https://partner.microsoft.com/membership/core-benefits#Core benefits)<br>
+* [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)

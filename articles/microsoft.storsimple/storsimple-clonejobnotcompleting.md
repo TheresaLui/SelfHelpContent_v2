@@ -7,9 +7,10 @@
 	displayOrder="6"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6df29dc6-ca96-491c-ba3c-62d093e7ca9c"
 />
 
 # My clone job is not completing.

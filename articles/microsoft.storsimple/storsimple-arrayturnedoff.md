@@ -7,9 +7,10 @@
 	displayOrder="5"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f39c9319-d919-41da-b9f2-cb97ca595f4c"
 />
 
 # My virtual array has turned off.

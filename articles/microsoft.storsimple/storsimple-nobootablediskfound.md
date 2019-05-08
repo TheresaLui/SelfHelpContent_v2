@@ -7,9 +7,10 @@
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds=""
-	resourceTags=""
+	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="1e35ed3b-2cba-4c2e-be2d-18b711794d3e"
 />
 
 # My virtual array doesn't boot up.

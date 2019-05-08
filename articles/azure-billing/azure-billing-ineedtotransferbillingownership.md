@@ -1,26 +1,30 @@
 <properties
-	pageTitle="I need to transfer billing ownership"
-	description="I need to transfer billing ownership"
+	pageTitle="How do I transfer the billing ownership for my Azure Subscription?"
+	description="How do I transfer the billing ownership for my Azure Subscription?"
 	service="azure-billing"
 	resource="billing"
-	authors="kasparks"
-	displayOrder="3"
+	authors="prdasneo"
+	ms.author="prdasneo"
+	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32454918"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="98890c5b-3010-48fa-84b9-dd795e5051d7"
 />
 
-# I need to transfer billing ownership
+# How do I transfer the billing ownership for my Azure Subscription?
 
-## **Recommended steps**
-* The Account Admin can transfer billing ownership to another user through the Azure Account Center.<br>
-[Azure Account Center](https://account.windowsazure.com/Subscriptions)
-* Learn more about  Azure Administrator roles.<br>
-[Azure Administrator roles - types, permissions and limits](https://azure.microsoft.com/documentation/articles/billing-add-change-azure-subscription-administrator/)
-* To know the 'Account Administrator' of your subscription - click on 'Subscriptions' on the left pane in Azure portal, select your subscription, click 'Settings', select 'Properties' and scroll down on the properties blade to view the Account Admin's email address.
-* If your current Account Admin has left and you need to take over ownership, please open a [support request](data-blade:Microsoft_Azure_Support.NewSupportRequestBlade) so we can validate the transfer.
+## **Recommended Steps**
 
-## **Recommended documents**
-[Transfer billing or account ownership - step by step guide & FAQ](https://azure.microsoft.com/documentation/articles/billing-subscription-transfer/)
+1. [Find your Account Administrator](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
+2. Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions) as the Account Admin
+3. Select the subscription for which you want to transfer billing ownership
+4. On the right side of the page, select **Transfer Subscription**
+
+**Note**: If your current Account Admin has left the company and you need to take over ownership, please open a support request to validate the transfer.
+
+## **Recommended Documents**
+
+* [Transfer billing or account ownership - step by step guide & FAQ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer/)
