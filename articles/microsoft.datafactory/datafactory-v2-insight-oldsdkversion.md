@@ -33,4 +33,4 @@ Refer to the links below to update your Data Factory SDKs.
 * [Microsoft Azure Data Factory Management Client Library for Python](https://pypi.org/project/azure-mgmt-datafactory/)
 * [Quickstart: Create a data factory and pipeline using Python](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-python)
 * [Quickstart: Create a data factory and pipeline using .NET SDK](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-dot-net)
-
+* [Quickstart: Create a data factory and pipeline using Powershell](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-powershell)
