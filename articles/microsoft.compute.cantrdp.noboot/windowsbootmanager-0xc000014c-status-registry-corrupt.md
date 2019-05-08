@@ -7,7 +7,7 @@
     authors="jasonbandrew"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp-WINDOWS_UPDATE_INSTALLATION"
+    articleId="WindowsBootManager-0xC000014C-STATUS_REGISTRY_CORRUPT"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
