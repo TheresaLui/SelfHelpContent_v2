@@ -28,28 +28,28 @@
 			"id": "fileshare_Name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Provide the name(s) of the file share whose backup configuration is failing?",
+			"displayLabel": "Provide the name(s) of the File Share whose backup configuration is failing?",
 			"watermarkText": "Enter file share name(s) comma separated",
 			"required": false
 	},{
 			"id": "jobID_Name",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Enter the failed configuration job Activity ID",
+			"displayLabel": "Enter the failed configuration job Activity ID:",
 			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 			"required": false
 	},{
 			"id": "basic_troubleshooting_multiselect",
 			"order": 4,
 			"controlType": "multiselectdropdown",
-			"infoBalloonText": "Check Azure File share configuring backup <a href='https://aka.ms/BKP-AFS-Tshooting'>Troubleshooting</a> article",
-			"displayLabel": "Select the troubleshooting steps you have performed:",
+			"infoBalloonText": "Check Azure File Share configuring backup <a href='https://aka.ms/BKP-AFS-Tshooting'>Troubleshooting</a> article",
+			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Ensured the storage account don't have Virtual Networks or Firewall enabled",
 					"text": "Ensured the storage account don't have Virtual Networks or Firewall enabled"
 			},{
-					"value": "Ensured the storage account is not already assositaed with another vault",
-					"text": "Ensured the storage account is not already assositaed with another vault"
+					"value": "Ensured the storage account is not already associated with another vault",
+					"text": "Ensured the storage account is not already associated with another vault"
 			},{
 					"value": "Ensured the storage account is supported by File Share backup",
 					"text": "Ensured the storage account is supported by File Share backup"
