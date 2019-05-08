@@ -18,5 +18,5 @@
 ## **Recommended Documents**
 
 * [Troubleshoot: Ambari agent heartbeat lost issue](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
-* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
+* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Troubleshoot: Ambari UI shows all hosts and services are down](https://hdinsight.github.io/ambari/ambari-ui-all-hosts-down.html)
