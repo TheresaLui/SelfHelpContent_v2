@@ -28,14 +28,14 @@
 			"id": "fileshare_Name",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Provide the name(s) of the fileshare whose backup is failing?",
+			"displayLabel": "Provide the name(s) of the File Share whose backup is failing?",
 			"watermarkText": "Enter fileshare name(s) comma separated",
 			"required": false
 	},{
 			"id": "jobID_Name",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "Enter the failed backup job Activity ID",
+			"displayLabel": "Enter the failed backup job Activity ID:",
 			"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 			"required": false
 	},{
@@ -43,7 +43,7 @@
 			"order": 4,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check Azure File share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>Troubleshooting</a> article",
-			"displayLabel": "Select the troubleshooting steps you have performed:",
+			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Ensured the protected file share is exist",
 					"text": "Ensured the protected file share is exist"
