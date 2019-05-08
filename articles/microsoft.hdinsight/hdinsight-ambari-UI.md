@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="hdinsight-ambari-UI"
+    articleId="hdinsight-ambari-ui"
 />
 # Azure HDInsight Ambari UI is not loading Troubleshooting
 
