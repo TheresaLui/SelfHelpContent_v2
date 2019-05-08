@@ -16,7 +16,7 @@
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Kubectl issue",
-                "fileAttachmentHint": "Attach output of kubectl get pods --namespace=kube-system",
+                "fileAttachmentHint": "Attach the output of **kubectl get pods --namespace=kube-system**",
                 "formElements": [
                  {
                     "id": "problem_start_time",
