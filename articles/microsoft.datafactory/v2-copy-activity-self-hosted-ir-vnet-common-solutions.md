@@ -4,6 +4,7 @@
     service=""
     resource=""
     authors="jaserano, v-miegge"
+    ms.author="jaserano"
     authorAlias="jaserano"
     displayOrder=""
     selfHelpType="generic"
