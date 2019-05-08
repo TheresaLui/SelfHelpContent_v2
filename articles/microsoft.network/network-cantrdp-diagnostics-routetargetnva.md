@@ -19,7 +19,7 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> to route via a Network Virtual Appliance (NVA). If the routing result is not desired, view the Effective Route Table to determine the User Defined Route (UDR) configuration pointing the next hop to the NVA. For routing issues at the NVA, review the NVA configuration to determing the routing path for this traffic.
+Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> to route via a Network Virtual Appliance (NVA). If the routing result is not desired, view the Effective Route Table to determine the User Defined Route (UDR) configuration pointing the next hop to the NVA. For routing issues at the NVA, review the NVA configuration to determine the routing path for this traffic.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
