@@ -42,7 +42,7 @@
 			"id": "basic_troubleshooting_multiselect",
 			"order": 4,
 			"controlType": "multiselectdropdown",
-			"infoBalloonText": "Check Azure File share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>Troubleshooting</a> article",
+			"infoBalloonText": "Check Azure File Share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>troubleshooting</a> article",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Ensured the protected file share is exist",
