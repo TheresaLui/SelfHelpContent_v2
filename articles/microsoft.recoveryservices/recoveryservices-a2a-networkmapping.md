@@ -15,7 +15,7 @@
 />
 # Networking concepts for Azure to Azure replication
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 - [Why ASR doesn't replicate Public IP address ?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-public-ip-address-after-failover)
 - [How can I retain a private IP address during failover?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#can-i-retain-a-private-ip-address-during-failover)
