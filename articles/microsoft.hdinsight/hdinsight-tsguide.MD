@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
-    articleId="hdinsight-TSGuide"
+    articleId="hdinsight-tsguide"
 />
 # HDInsights Troubleshooting Guide
 
