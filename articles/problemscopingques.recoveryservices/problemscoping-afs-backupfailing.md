@@ -29,7 +29,7 @@
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "Provide the name(s) of the File Share whose backup is failing?",
-			"watermarkText": "Enter fileshare name(s) comma separated",
+			"watermarkText": "Enter file share name(s) comma separated",
 			"required": false
 	},{
 			"id": "jobID_Name",
@@ -42,7 +42,7 @@
 			"id": "basic_troubleshooting_multiselect",
 			"order": 4,
 			"controlType": "multiselectdropdown",
-			"infoBalloonText": "Check Azure File Share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>troubleshooting</a> article",
+			"infoBalloonText": "Check Azure File Share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>Troubleshooting</a> article",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
 					"value": "Ensured the protected file share is exist",
