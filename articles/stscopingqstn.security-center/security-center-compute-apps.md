@@ -5,7 +5,7 @@
 	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32633030,32633059,32633073,32633076,32633077,32633078,32633080,32633099,32633149"
+	supportTopicIds="32636840,32636856,32636863,32636865,32636866,32636867,32636869,32636883,32636923"
 	resourceTags=""
 	productPesIds="15947"
 	cloudEnvironments="public"
@@ -23,7 +23,7 @@
 - [Virtual Machine FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq#virtual-machines)
 
 
-** Common Virtual Machine Recommendations**
+**Common Virtual Machine Recommendations**
 
 - [Apply Disk Encryption](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)
 - [Apply System Updates](https://docs.microsoft.com/azure/security-center/security-center-apply-system-updates)

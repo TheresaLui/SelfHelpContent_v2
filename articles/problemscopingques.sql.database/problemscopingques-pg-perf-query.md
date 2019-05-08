@@ -4,7 +4,7 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628454"
+	supportTopicIds="32640025"
 	productPesIds="16222"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -156,7 +156,7 @@
             "id": "application",
             "order": 14,
             "controlType": "dropdown",
-            "displayLabel": "Are you connecting to you database server from application?",
+            "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [{
                     "value": "Yes",
                     "text": "Yes"
