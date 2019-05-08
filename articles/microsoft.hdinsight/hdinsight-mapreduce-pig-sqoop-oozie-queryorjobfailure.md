@@ -17,8 +17,8 @@
 
 ## **Recommended Documents**
 
-* [Quickstart: Get started with Apache Hadoop and Apache Hive in Azure HDInsight using the Azure portal](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-linux-create-cluster-get-started-portal)
-* [Use MapReduce in Apache Hadoop on HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-use-mapreduce)
-* [Apache Hadoop Memory & Performance HDInsight troubleshooting articles](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-stack-trace-error-messages)
-* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
-* [Use Apache Sqoop with Hadoop in HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/hdinsight-use-sqoop)
+* [Quickstart: Get started with Apache Hadoop and Apache Hive in Azure HDInsight using the Azure portal](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-linux-create-cluster-get-started-portal)
+* [Use MapReduce in Apache Hadoop on HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-mapreduce)
+* [Apache Hadoop Memory & Performance HDInsight troubleshooting articles](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-stack-trace-error-messages)
+* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
+* [Use Apache Sqoop with Hadoop in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-sqoop)
