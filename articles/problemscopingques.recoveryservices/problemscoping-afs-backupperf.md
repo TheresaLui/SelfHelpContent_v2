@@ -25,8 +25,15 @@
 				"watermarkText": "Enter the name of the storage account(s)",
 				"required": false
 			},{
-				"id": "Issue_Type",
+				"id": "fileshare_Name",
 				"order": 2,
+				"controlType": "textbox",
+				"displayLabel": "Provide the name(s) of the File Share for which you are facing performance issue:",
+				"watermarkText": "Enter file share name(s) comma separated",
+				"required": false
+			},{	
+				"id": "Issue_Type",
+				"order": 3,
 				"controlType": "dropdown",
 				"displayLabel": "Which type of performance issue you are facing?",
 				"watermarkText": "Choose an option",
@@ -46,14 +53,14 @@
 				"required": true
 			},{
 				"id": "JobID_Name",
-				"order": 3,
+				"order": 4,
 				"controlType": "textbox",
 				"displayLabel": "Enter the long running job activity ID:",
 				"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
 				"required": false
 		},{
 				"id": "Backup_Completeness",
-				"order": 4,
+				"order": 5,
 				"controlType": "dropdown",
 				"displayLabel": "Is the backup ever completed before?",
 				"watermarkText": "Select",
@@ -73,14 +80,14 @@
 				"required": true
 		},{
 				"id": "job_Running_Time",
-				"order": 5,
+				"order": 6,
 				"controlType": "textbox",
 				"displayLabel": "Since how long the job is running?",
 				"watermarkText": "Enter time in hours ex. 18hrs",
 				"required": false
 		},{
 				"id": "problem_description",
-				"order": 6,
+				"order": 7,
 				"controlType": "multilinetextbox",
 				"useAsAdditionalDetails": true,
 				"displayLabel": "Additional details",
@@ -89,7 +96,7 @@
 				"hints": []
 		},{
 				"id": "problem_start_time",
-				"order": 7,
+				"order": 8,
 				"controlType": "datetimepicker",
 				"displayLabel": "Problem start time",
 				"required": true
