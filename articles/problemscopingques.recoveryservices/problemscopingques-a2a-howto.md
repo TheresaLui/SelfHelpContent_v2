@@ -39,7 +39,7 @@
                 },
                 {
                     "value": "what all Azure Site recovery replicates to the Disaster Recovery region",
-                    "text": "What resources can be replicated to the Disaster Recovery region"
+                    "text": "Which resources can be replicated to the Disaster Recovery region"
                 },
                 {
                     "value": "recovery points generation",
@@ -47,7 +47,7 @@
                 },
                 {
                     "value": "deleting Azure Site recovery artifacts",
-                    "text": "Clean up Azure Site Recovery stale resources"
+                    "text": "Cleaning up stale Site Recovery resources"
                 },
 		{
 		    "value": "dont_know_answer",
@@ -60,7 +60,7 @@
             "id": "Basic_troubleshooting_multiselect",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the docs.microsoft.com articles you have gone through",
+            "displayLabel": "Select the docs.microsoft.com articles that you have consulted",
             "dropdownOptions": [
                 {
                     "value": "Azure to Azure disaster recovery common queries",

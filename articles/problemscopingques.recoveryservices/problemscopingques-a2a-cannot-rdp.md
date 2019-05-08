@@ -22,7 +22,7 @@
             "id": "connect_error",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error message you received?",
+            "displayLabel": "What is the error message that you received?",
             "required": false,
             "useAsAdditionalDetails": false
         },
@@ -30,7 +30,7 @@
             "id": "vm_facing_issue",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
+            "displayLabel": "Which virtual machines are experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },
@@ -38,7 +38,7 @@
             "id": "ippublicprivate",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Does the problem occur when connecting to the virtual machine's public IP or private IP?",
+            "displayLabel": "Does the problem occur when you try to connect to the virtual machine's public IP or private IP address?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -57,7 +57,7 @@
             "order": 4,
             "visibility": "ippublicprivate == Public IP",
             "controlType": "dropdown",
-            "displayLabel": "Are you able to connect to the Private IP?",
+            "displayLabel": "Can you connect to the private IP?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -76,7 +76,7 @@
             "order": 5,
             "visibility": "ippublicprivate == Private IP",
             "controlType": "dropdown",
-            "displayLabel": "Are you able to connect to the Public IP?",
+            "displayLabel": "Can you connect to the public IP?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -88,8 +88,8 @@
                     "text": "No"
                 },
                 {
-                    "value": "The virtual machine does not have a Public IP",
-                    "text": "The virtual machine does not have a Public IP"
+                    "value": "The virtual machine does not have a public IP",
+                    "text": "The virtual machine does not have a public IP"
                 }
             ],
             "required": false

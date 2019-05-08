@@ -22,27 +22,27 @@
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Which recovery services vault were you unable to delete?",
-            "watermarkText": "Enter the name of the recovery services vault",
+            "displayLabel": "Which recovery services vault can you not delete?",
+            "watermarkText": "Enter the name of the affected  recovery services vault",
             "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the troubleshooting steps you have completed:",
+            "displayLabel": "Select the troubleshooting steps that you have completed:",
             "dropdownOptions": [
                 {
                     "value": "Confirmed all Site Recovery replications were deleted",
-                    "text": "Check all Site Recovery replications are deleted"
+                    "text": "Verified that all Site Recovery replications are deleted"
                 },
                 {
                     "value": "Confirmed all backups were deleted",
-                    "text": "Check all backups are deleted"
+                    "text": "Verified that all backups are deleted"
                 },
                 {
                     "value": "Tried force deleting the vault using powershell",
-                    "text": "Tried force deleting the vault by using PowerShell"
+                    "text": "Tried to force delete the vault by using PowerShell"
                 },
 
 		{

@@ -23,24 +23,24 @@
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "What is the OS version of the impacted machine?",
-            "watermarkText": "Ex: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
+            "displayLabel": "What is the OS version of the affected virtual machine?",
+            "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
             "required": true
         },
         {
             "id": "machine_name",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Which machine is experiencing the problem?",
-            "watermarkText": "Enter the name of the impacted machine",
+            "displayLabel": "Which virtual machines are experiencing the problem?",
+            "watermarkText": "Enter the name of the affected virtual machines",
             "required": true
         },
         {
             "id": "jobID_Name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Enter the failed Site Recovery job Activity ID:",
-            "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+            "displayLabel": "Enter the ID of failed Site Recovery job Activity ID:",
+            "watermarkText": "Example: cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": true
         },
        {
