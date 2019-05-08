@@ -22,7 +22,7 @@ We have investigated and identified that your VM is currently in an inaccessible
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
-
+ 
 ## **Recommended Steps**
 Windows Update installation can take time depending on the number or size of the updates being installed. Allow the VM to go through the process without interruption.
 
