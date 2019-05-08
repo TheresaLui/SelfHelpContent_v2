@@ -9,7 +9,7 @@
     displayOrder=""
     articleId="DataFactoryOldSDKVersionInsight"
     diagnosticScenario="DataFactoryOldSDKVersionInsight"
-    selfHelpType="Diagnostics, DiagnoseAndSolve"
+    selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
