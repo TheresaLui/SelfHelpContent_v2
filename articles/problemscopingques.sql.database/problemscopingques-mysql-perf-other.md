@@ -4,7 +4,7 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628397"
+	supportTopicIds="32640077"
 	productPesIds="16221"
 	cloudEnvironments="public"
 	schemaVersion="1"
