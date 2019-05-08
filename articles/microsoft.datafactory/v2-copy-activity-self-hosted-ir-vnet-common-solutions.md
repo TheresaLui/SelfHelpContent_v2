@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Copy Activity and Self-Hosted IR - Self-Hoted IR-VNET Common Solutions"
-    description="V2 - Copy Activity and Self-Hosted IR - Self-Hoted IR-VNET Common Solutions"
+    pageTitle="V2 - Copy Activity and Self-Hosted IR - Self-Hosted IR-VNET Common Solutions"
+    description="V2 - Copy Activity and Self-Hosted IR - Self-Hosted IR-VNET Common Solutions"
     service=""
     resource=""
     authors="jaserano, v-miegge"
@@ -15,7 +15,7 @@
     articleId="ab44dba6-23ab-47c9-a1ae-7c29e4f679b7"
 />
 
-# V2 - Copy Activity and Self-Hosted IR - Self-Hoted IR-VNET Common Solutions
+# V2 - Copy Activity and Self-Hosted IR - Self-Hosted IR-VNET Common Solutions
 
 ## **Recommended Documents**
 
