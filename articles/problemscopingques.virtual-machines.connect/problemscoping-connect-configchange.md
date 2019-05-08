@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "My configuration change impacted connectivity",
     "fileAttachmentHint": "",

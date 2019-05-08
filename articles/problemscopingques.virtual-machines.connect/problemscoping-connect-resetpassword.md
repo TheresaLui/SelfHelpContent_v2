@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "I need to reset my password",
                 "fileAttachmentHint": "",

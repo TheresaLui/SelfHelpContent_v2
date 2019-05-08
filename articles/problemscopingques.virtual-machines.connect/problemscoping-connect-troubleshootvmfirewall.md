@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Troubleshoot my VM firewall",
     "fileAttachmentHint": "",
