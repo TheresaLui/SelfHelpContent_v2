@@ -19,7 +19,7 @@ cloudEnvironments="Public"
 # We ran connectivity diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> to route to the peered Virtual Network: <!--$VNetIdFromRuleName-->[$VNetIdFromRuleName]<!--$VNetIdFromRuleName-->.
+Microsoft Azure has identified a routing issue which is preventing you from being able to remote into your VM, <!--$vmname-->[vmname]<!--/$vmname-->. We identified that this <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic is <!--$StatelessAction-->[StatelessAction]<!--/$StatelessAction--> to route to the peered Virtual Network: <!--$VNetIdFromRuleName-->[$VNetIdFromRuleName]<!--/$VNetIdFromRuleName-->.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
