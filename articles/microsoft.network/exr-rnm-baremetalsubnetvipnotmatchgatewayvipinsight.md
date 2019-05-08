@@ -18,8 +18,10 @@
 
 # **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
 <!--/issueDescription-->
-'**<!--$Message--> [Message] <!--/$Message-->**' <br />
- '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
+
+* '**<!--$Message--> [Message] <!--/$Message-->**'
+* '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
+
 <!--/issueDescription-->
 
 ## **Recommended Steps**
