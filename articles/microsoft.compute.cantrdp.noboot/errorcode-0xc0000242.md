@@ -1,10 +1,11 @@
-<properties
+﻿<properties
 pageTitle="VM boot error"
 description="Virtual machine failed to boot with error code 0xc0000242"
 infoBubbleText="A boot error has been found. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="ram-kakani"
+authors="ram-kakan, jasonbandrew"
+ms.author="ram-kakan, v-jasoan"
 displayOrder=""
 articleId="VMCannotRDP-BootError-0xC0000242-MissingFile"
 diagnosticScenario="booterror"
