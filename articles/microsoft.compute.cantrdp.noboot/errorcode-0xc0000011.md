@@ -1,4 +1,4 @@
-<properties
+<properties 
 pageTitle="VM boot error"
 description="Virtual machine failed to boot with error code 0xc0000011"
 infoBubbleText="A boot error has been found. See details on the right."
