@@ -2,97 +2,97 @@
          pageTitle="Scoping questions for Azure File Share backup performance issue"
          description="Scoping questions for Azure File Share backup performance issue"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612211"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
+	 articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
 />
 # Questions for Azure File Share backup performance issue
 ---
 {
          "resourceRequired": true,
-		      "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "Azure File Share backup performance issue",
          "fileAttachmentHint": "",
-         "formElements": [{
-							"id": "storage_account_name",
-							"order": 1,
-							"controlType": "textbox",
-							"displayLabel": "Which storage account(s) is experiencing the problem?",
-							"watermarkText": "Enter the name of the storage account(s)",
-							"required": false
-						},{
-							"id": "Issue_Type",
-							"order": 2,
-							"controlType": "dropdown",
-							"displayLabel": "Which type of performance issue you are facing?",
-							"watermarkText": "Choose an option",
-							"dropdownOptions": [{
-												"value": "Slow backup during initial (first) backup",
-												"text": "Slow backup during initial (first) backup"
-											},
-											{
-												"value": "Slow backup during incremental backup",
-												"text": "Slow backup during incremental backup"
-											},
-											{
-												"value": "dont_know_answer",
-												"text": "Other, don't know or not applicable"
-											}
-										],
-										"required": true
-					},{
-							"id": "JobID_Name",
-							"order": 3,
-							"controlType": "textbox",
-							"displayLabel": "Enter the long running job activity ID:",
-							"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-							"required": false
-					},{
-							"id": "Backup_Completeness",
-							"order": 4,
-							"controlType": "dropdown",
-							"displayLabel": "Is the backup ever completed before?",
-							"watermarkText": "Select",
-							"droupdownoptions": [{
-												"Value":"Yes",
-												"Text": "Yes"
-										  },
-										  {
-												"Value":"No",
-												"Text": "No"
-										  },
-										  {
-											  "value": "dont_know_answer",
-											  "text": "Other, don't know or not applicable"
-										  }
-								 ],
-									"required": true
-					},{
-							"id": "job_Running_Time",
-							"order": 5,
-							"controlType": "textbox",
-							"displayLabel": "Since how long the job is running?",
-							"watermarkText": "Enter time in hours ex. 18hrs",
-							"required": false
-					},{
-							"id": "problem_description",
-							"order": 6,
-							"controlType": "multilinetextbox",
-							"useAsAdditionalDetails": true,
-							"displayLabel": "Additional details",
-							"watermarkText": "Provide additional information about your issue",
-							"required": true,
-							"hints": []
-					},{
-							"id": "problem_start_time",
-							"order": 7,
-							"controlType": "datetimepicker",
-							"displayLabel": "Problem start time",
-							"required": true
+	 "formElements": [{
+				"id": "storage_account_name",
+				"order": 1,
+				"controlType": "textbox",
+				"displayLabel": "Which storage account(s) is experiencing the problem?",
+				"watermarkText": "Enter the name of the storage account(s)",
+				"required": false
+			},{
+				"id": "Issue_Type",
+				"order": 2,
+				"controlType": "dropdown",
+				"displayLabel": "Which type of performance issue you are facing?",
+				"watermarkText": "Choose an option",
+				"dropdownOptions": [{
+						"value": "Slow backup during initial (first) backup",
+						"text": "Slow backup during initial (first) backup"
+					},
+					{
+						"value": "Slow backup during incremental backup",
+						"text": "Slow backup during incremental backup"
+					},
+					{
+						"value": "dont_know_answer",
+						"text": "Other, don't know or not applicable"
+					}
+				],
+				"required": true
+			},{
+				"id": "JobID_Name",
+				"order": 3,
+				"controlType": "textbox",
+				"displayLabel": "Enter the long running job activity ID:",
+				"watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
+				"required": false
+		},{
+				"id": "Backup_Completeness",
+				"order": 4,
+				"controlType": "dropdown",
+				"displayLabel": "Is the backup ever completed before?",
+				"watermarkText": "Select",
+				"dropdownOptions": [{
+							"Value":"Yes",
+							"Text": "Yes"
+					  },
+					  {
+							"Value":"No",
+							"Text": "No"
+					  },
+					  {
+						  "value": "dont_know_answer",
+						  "text": "Other, don't know or not applicable"
+					  }
+			 ],
+				"required": true
+		},{
+				"id": "job_Running_Time",
+				"order": 5,
+				"controlType": "textbox",
+				"displayLabel": "Since how long the job is running?",
+				"watermarkText": "Enter time in hours ex. 18hrs",
+				"required": false
+		},{
+				"id": "problem_description",
+				"order": 6,
+				"controlType": "multilinetextbox",
+				"useAsAdditionalDetails": true,
+				"displayLabel": "Additional details",
+				"watermarkText": "Provide additional information about your issue",
+				"required": true,
+				"hints": []
+		},{
+				"id": "problem_start_time",
+				"order": 7,
+				"controlType": "datetimepicker",
+				"displayLabel": "Problem start time",
+				"required": true
 		}
 	]
 }
