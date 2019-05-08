@@ -1,12 +1,13 @@
 <properties
     pageTitle="VM boot error"
-    description="Virtual machine failed to boot with error *0xC000014C*"
+    description="Virtual machine failed to respond to RDP as Windows Updates installation is in progress"
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
-    resource="virtualmachines
+    resource="virtualmachines"
     authors="jasonbandrew"
     ms.author="v-jasoan"
-    articleId="WindowsBootManager-0xC000014C-STATUS_REGISTRY_CORRUPT"
+    displayOrder=""
+    articleId="OSStartUp-WINDOWS_UPDATE_INSTALLATION"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
