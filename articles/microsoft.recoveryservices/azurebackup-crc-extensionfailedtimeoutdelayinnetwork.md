@@ -30,6 +30,7 @@ To resolve the ExtensionFailedTimeoutDelayInNetwork issue, perform the below:
 
 	* Add 127.0.0.1 wpad to the C:\Windows\System32\drivers\etc\host file, if this entry does not help then retry by adding 127.0.0.1 wpad wpad.FQDN to the file
 	* Run the command ipconfig/flushdns
+	
 * Set reg-keys to enforce snapshots to be taken through Host, run the below command from elevated (as admin) command-prompt. This will not use VM Network stack for snapshots and retry the backup operation.
 
 ` REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgentPersistentKeys" /v SnapshotMethod /t REG_SZ /d firstHostThenGuest /f `
