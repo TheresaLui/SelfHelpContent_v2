@@ -17,5 +17,5 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-troubleshoot-hbase)
-* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
+* [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/apache-troubleshoot-hbase)
+* [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
