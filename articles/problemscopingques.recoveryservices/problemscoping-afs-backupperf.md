@@ -31,7 +31,7 @@
 				"displayLabel": "Provide the name(s) of the File Share for which you are facing performance issue:",
 				"watermarkText": "Enter file share name(s) comma separated",
 				"required": false
-			},{	
+			},{
 				"id": "Issue_Type",
 				"order": 3,
 				"controlType": "dropdown",
