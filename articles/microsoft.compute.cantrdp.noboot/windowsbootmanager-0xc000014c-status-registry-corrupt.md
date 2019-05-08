@@ -4,8 +4,8 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines
-    authors="timbasham, jasonbandrew"
-    ms.author="timbasham, v-jasoan"
+    authors="jasonbandrew"
+    ms.author="v-jasoan"
     articleId="WindowsBootManager-0xC000014C-STATUS_REGISTRY_CORRUPT"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
