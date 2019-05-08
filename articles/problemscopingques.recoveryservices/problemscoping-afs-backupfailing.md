@@ -18,6 +18,12 @@
          "title": "Azure File share backup failure",
          "fileAttachmentHint": "",
 	 "formElements": [{
+			"id": "storage_account_name",
+			"order": 1,
+			"controlType": "textbox",
+			"displayLabel": "Which storage account(s) is experiencing the problem?",
+			"watermarkText": "Enter the name of the storage account(s)",
+			"required": false
 	},{
 			"id": "fileshare_Name",
 			"order": 2,
