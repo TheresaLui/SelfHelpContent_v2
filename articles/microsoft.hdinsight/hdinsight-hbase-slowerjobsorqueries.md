@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hbase/apache-troubleshoot-hbase)
+* [Troubleshoot Apache HBase by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/apache-troubleshoot-hbase)
 * [Troubleshooting: How to fix timeout issue with ‘hbase hbck’ command when fixing region assignments](https://hdinsight.github.io/hbase/hbase-hbck-timeout.html)
 * [Troubleshooting: The restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)
