@@ -11,7 +11,7 @@
 	resourceTags="linux"
 	productPesIds="16450"
 	cloudEnvironments="public"
-	articleId="contatinerservice.advisory"
+	articleId="containerservice.advisory"
 />
 
 # Diagnose and resolve Kubernetes service advisory issues
