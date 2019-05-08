@@ -16,7 +16,7 @@
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Cluster NotReady state",
-                "fileAttachmentHint": "Attach output of 'kubectl describe nodes' and 'kubectl get nodes -o wide'",
+                "fileAttachmentHint": "Attach the output of **kubectl describe nodes' and 'kubectl get nodes -o wide**",
                 "formElements": [
                  {
                     "id": "problem_start_time",
