@@ -12,7 +12,7 @@
     selfHelpType="Diagnostics, DiagnoseAndSolve"
     supportTopicIds=""
     resourceTags=""
-    productPesIds=""
+    productPesIds="15613"
     cloudEnvironments="public"
 />
 
