@@ -16,7 +16,7 @@
 # Delete HDInsight Cluster 
 
 ## **Recommended Documents**
-*[Delete an HDInsight cluster using your browser, PowerShell, or the Azure Classic CLI](https://docs.microsoft.com/azure/hdinsight/hdinsight-delete-cluster) 
+*[Delete an HDInsight cluster using your browser, PowerShell, or the Azure Classic CLI](https://docs.microsoft.com/azure/hdinsight/hdinsight-delete-cluster)<br> 
 
 
 
