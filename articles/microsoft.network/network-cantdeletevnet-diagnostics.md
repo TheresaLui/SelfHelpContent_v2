@@ -15,6 +15,7 @@ resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="public"
 />
+
 # We ran diagnostics on your virtual network and found an issue.
 <!--issueDescription-->
 Microsoft Azure has identified that the following resource(s) are allocated to [Vnet](data-blade:Microsoft_Azure_Network.VirtualNetworkBlade): <!--$VnetAllocations-->[VnetAllocations]<!--/$VnetAllocations-->

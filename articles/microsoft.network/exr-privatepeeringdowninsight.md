@@ -23,8 +23,7 @@ ExpressRoute circuit: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
 
 ## **Recommended Steps**
 
-* Execute Jarvis Actions operation:
-**Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
+* Execute Jarvis Actions operation: **Brooklyn -> ExR Service Operations->Force Apply Device Configuration** for ServiceKey: **<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**
 
 ## **Recommended Documents**
 

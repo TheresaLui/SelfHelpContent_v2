@@ -8,7 +8,6 @@ authors="yushwang"
 displayOrder="10"
 articleId="IkeTunnelClosedWithStatusMainModeSaAssumedToBeInvalidBecausePeerStoppedResponding"
 diagnosticScenario="IkeTunnelClosedWithStatusMainModeSaAssumedToBeInvalidBecausePeerStoppedResponding"
-selfHelpType="Diagnostics"
 supportTopicIds="32591145,32591158,32591149,32591152,32591155"
 resourceTags="windows"
 productPesIds=""
@@ -39,5 +38,5 @@ Follow the instruction manual of your VPN device to check if it received any IKE
 * [About on-premises VPN devices](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#devicetable)
 * [Manage your local network gateway settings](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal)
 * [IPsec/IKE parameters on Azure VPN gateways](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices#ipsec)
-* [Configure IPsec/IKE policy for VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell) 
+* [Configure IPsec/IKE policy for VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell)
 * [Create and manage S2S VPN connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-tutorial-vpnconnection-powershell)

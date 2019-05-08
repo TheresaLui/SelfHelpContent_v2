@@ -18,10 +18,10 @@
 
 # **ExpressRoute Gateway Configuration is Null**
 <!--/issueDescription-->
-'**<!--$Message--> [Message] <!--/$Message-->**'  </br>
-ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
-MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
-VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
+* '**<!--$Message--> [Message] <!--/$Message-->**'  </br>
+* ServiceKey: '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**' </br>
+* MSEE: '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**' </br>
+* VRF Name: '**<!--$VRF--> [VRF] <!--/$VRF-->**'</br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**

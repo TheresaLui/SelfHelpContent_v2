@@ -18,10 +18,10 @@
 
 # **Microsoft Public Prefixes are Not Advertised from the MSEE to the Customer Edge**
 <!--/issueDescription-->
-**Message:** '**<!--$Message--> [Message] <!--/$Message-->**'
-**ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
-**MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
-**VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
+* **Message:** '**<!--$Message--> [Message] <!--/$Message-->**'
+* **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
+* **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
+* **VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
 <!--/issueDescription-->
 
 ## **Recommended Steps**
