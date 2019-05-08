@@ -3,7 +3,7 @@
     description="Old SDK Version Issue"
     infoBubbleText="Data Factory detected old SDK versions"
     service="microsoft.datafactory"
-    resource="datafactory"
+    resource="factories"
     authors="samiranshah"
     ms.author="samirans"
     displayOrder=""
