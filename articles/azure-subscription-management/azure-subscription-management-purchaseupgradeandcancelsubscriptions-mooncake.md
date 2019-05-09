@@ -4,12 +4,14 @@
     service="azure-billing"
     resource="billing"
     authors="aashu"
+    ms.author="Agrawal-Ashutosh"
     displayOrder="7"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+    articleId="purchase-and-upgrade-subscriptions"
 />
 
 # I need to purchase or upgrade my subscription

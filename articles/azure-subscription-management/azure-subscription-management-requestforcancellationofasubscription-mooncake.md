@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+    articleId="request-a-cancellation-of-your-azure-subscription"
 />
 
 # Request a cancellation of your Azure subscription

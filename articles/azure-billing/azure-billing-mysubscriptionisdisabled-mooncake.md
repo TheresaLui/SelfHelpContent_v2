@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+    articleId="my-azure-subscription-is-disabled-how-can-i-reactivate-it"
 />
 
 # My Azure subscription is disabled. How can I reactivate it?
