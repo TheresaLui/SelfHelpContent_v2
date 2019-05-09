@@ -18,6 +18,7 @@
 # Data copy at Azure
 
 ## **Data copy is slow or halted**
+No action requried from your end. Data copy is in progress, check back after few hours.
 
 ## **Recommended Documents**
 * [Troubleshoot issues related to Data copy failed/completed with errors](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)

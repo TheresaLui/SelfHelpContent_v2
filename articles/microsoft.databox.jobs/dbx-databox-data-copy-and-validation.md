@@ -19,7 +19,7 @@
 
 ## **Copy is slow**
 
-You might experience slow copy speeds for the following reasons
+You might experience slow copy speeds because of the following reasons
 1. Network congestion
 2. Throttling on the data source which is limiting the read speeds
 3. Large number of small files
