@@ -5,12 +5,12 @@
     resource="clusters"
     authors="TobyTu"
     ms.author="jaserano"
-    displayOrder="820"
-    selfHelpType="resource"
+    displayOrder=""
+    selfHelpType="generic"
     supportTopicIds="32636485"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public,MoonCake"
     ArticleId="871a530b-ca29-4b9c-96f1-9038613921c5"
 />
 
@@ -21,4 +21,4 @@ Apache Phoenix connection via JDBC or sqlline.py can be failing for HBase cluste
 ## **Recommended Documents**
 
 * [Query Apache Hive through the JDBC driver in HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-connect-hive-jdbc-driver)
-* [Unable to connect to Apache Phoenix](https://hdinsight.github.io/hbase/phoenix-connectivity-issue.html)
+* [Unable to connect to Apache Phoenix](https://hdinsight.github.io/hbase/phoenix-connectivity-issue)
