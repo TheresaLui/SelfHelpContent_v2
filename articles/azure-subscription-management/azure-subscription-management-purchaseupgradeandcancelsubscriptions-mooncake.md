@@ -22,7 +22,7 @@
 
 * You can upgrade your 1 RMB trial subscription to Standard Pay-In-Advance subscription.<br>
 
-    [Upgrade a 1 RMB Trial subscription to a Standard Pay-In-Advance (PIA) subscriptionfree subscription](https://docs.azure.cn/billing/billing-upgrade-1rmb-trial)<br>
+    [Upgrade a 1 RMB Trial subscription to a Standard Pay-In-Advance (PIA) subscription](https://docs.azure.cn/billing/billing-upgrade-1rmb-trial)<br>
 
 ## **Recommended documents**
 

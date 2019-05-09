@@ -12,7 +12,7 @@
     displayOrder=""
     cloudEnvironments="MoonCake"
     issueNotListed="true"
- 	articleId="c5f5bdff-4047-44f5-978b-4b33074dc81f"
+    articleId="c5f5bdff-4047-44f5-978b-4b33074dc81f"
 />
 
 # My issue is not listed
@@ -23,6 +23,6 @@ You can get help for many common problems from the Microsoft community or explor
 
 * Browse [Azure Operation Guidance](https://docs.azure.cn/articles/azure-operations-guide/) to get help for common questions or problems
 * Get answers from Azure experts through [Azure Forums](https://social.msdn.microsoft.com/Forums/zh-CN/home?forum=windowsazurezhchs)
-Check the [Help + Support](data-blade:Microsoft_Azure_Support.HelpAndSupportBlade)
+* Check the [Help + Support](data-blade:Microsoft_Azure_Support.HelpAndSupportBlade)
 * Check the [Service health](data-blade:hubsextension.serviceshealthblade) of Azure
 * Browse [Azure documentation](https://docs.azure.cn/)
