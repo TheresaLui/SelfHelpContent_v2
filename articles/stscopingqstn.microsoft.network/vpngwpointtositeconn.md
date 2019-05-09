@@ -63,7 +63,7 @@
             "id": "source_dest_IP_address",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Provide source and destination IP addresses (on-premise and/ or VNet IP addresses)",
+            "displayLabel": "Provide source and destination IP addresses (on-premises and/ or VNet IP addresses)",
             "required": false,
             "useAsAdditionalDetails": false
         },

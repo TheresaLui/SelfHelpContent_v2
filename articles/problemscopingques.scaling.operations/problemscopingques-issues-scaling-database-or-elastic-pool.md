@@ -106,6 +106,9 @@
 					"value": "db_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "elastic_pool",
+					"text": "Elastic Pool"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -156,6 +159,9 @@
 					"value": "ep_premium",
 					"text": "Premium or Business Critical"
 				},{
+				        "value": "single_database",
+					"text": "Single Database"
+				},{
 					"value": "dont_know_answer",
 					"text": "Other"
 				}
@@ -165,8 +171,19 @@
 			"visibility": "db_or_epool == Elastic_Pool"
 		},
 		{
-			"id": "problem_description",
+			"id": "database_size",
 			"order": 7,
+			"controlType": "textbox",
+			"displayLabel": "How large is your database?",
+			"watermarkText": "How large is your database?",
+			"infoBalloonText": "What size is your database?",
+			"required": false,
+			"useAsAdditionalDetails": false,
+			"visibility": true
+		},
+		{
+			"id": "problem_description",
+			"order": 8,
 			"controltype": "multilinetextbox",
 			"displayLabel": "Any additional details you would like to include?",
 			"watermarkText": "Enter any additional details here",
@@ -176,7 +193,7 @@
 		},
 		{
 			"id": "problem_start_time",
-			"order": 8,
+			"order": 9,
 			"controltype": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"watermarkText": "Specify when the problem started",

@@ -8,15 +8,15 @@
     ms.author="pedin"
     displayOrder=""
     articleId="IsWorkLoadIssue_WL112688-E6C3-1004-B3D3-188FD8FC30EA"
-    diagnosticScenario="dbasc"
-    selfHelpType="rca"
-    supportTopicIds="32630434,32630459"
+    diagnosticScenario="SqlPerfTsg"
+    selfHelpType="diagnostics"
+    supportTopicIds="32630450,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public"
+    cloudEnvironments="public,blackForest,fairfax,mooncake"
 />
 
-# Query Execution/Increased Workload
+# We ran diagnostics on your resource and found Increased Workload
 
 ## **Recommended Steps**
 
