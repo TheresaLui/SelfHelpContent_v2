@@ -4,19 +4,21 @@
 	description=" Data Box Disk - verifying data in your storage account"
 	service="microsoft.databox.jobs"
 	resource=""
-	authors="madhn"
+	authors="madhurinms"
+	authorAlias="madhn"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32614262"
+	supportTopicIds="32614262, 32614279, 32614281, 32614285, 32614289, 32614290, 32614291"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public"
 />
 
-# Data Box Disk data copy at Azure
+# Data Box Disk Data Copy
 
-## **Recommended documents**
+## **Recommended Documents**
 
-- [Verifying data uploaded to Azure](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-deploy-picked-up#verify-data-upload-to-azure)<br>
-- [Data Verification FAQ](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-faq#verify-and-upload)<br>
+- [Verify data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-disk-deploy-picked-up#verify-data-upload-to-azure)<br>
+- [FAQ: Verify data upload](https://docs.microsoft.com/azure/databox/data-box-disk-faq#verify-and-upload)<br>
+- [Data upload caveats](https://docs.microsoft.com/azure/databox/data-box-disk-limits#data-upload-caveats)<br>
 
