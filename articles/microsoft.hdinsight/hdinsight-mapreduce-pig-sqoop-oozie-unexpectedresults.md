@@ -19,7 +19,7 @@
 
 * [Use MapReduce in Apache Hadoop on HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-mapreduce)
 * [Run custom MapReduce programs](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-run-custom-programs)
-* [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
+* [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 * [Use Apache Oozie with Apache Hadoop to define and run a workflow on Linux-based Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-oozie-linux-mac)
 * [Use Apache Sqoop to import and export data between Apache Hadoop on HDInsight and SQL Database](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-sqoop-mac-linux)
