@@ -24,21 +24,21 @@ cloudEnvironments="public"
 			"searchTags": "missing data, no data, empty, blank",
 			"supportTopicId": "32602225",
 			"commonSolutionArticleId": "appinsights-missing-ingestion-data"
-		}, {			         
+		}, {
 			"id": "Why_is_my_data_not_showing_up_right_away?",
       "title": "Why is my data not showing up right away?",
 			"description": "I am sending data, but it is not showing up for a long period of time.",
 			"category": "Data Collection",
 			"searchTags": "latency, slow, collection, ingestion",
 			"supportTopicId": "32546624",
-			"commonSolutionArticleId": "insights_datalatency"			
+			"commonSolutionArticleId": "insights_datalatency"
 		},
 		{
       "id": "Why_can_I_not_see_some_of_my_data?",
       "title": "Why can I not see some of my data?",
 			"description": "I am not able to see some data in the Azure Portal or the Analytics Portal; for example I see Performance data but not User Behavior data.",
-			"category": "Data Collection",			
-			"searchTags": "partial data, no metric, usage",			
+			"category": "Data Collection",
+			"searchTags": "partial data, no metric, usage",
 			"supportTopicId": "32602224",
 			"commonSolutionArticleId": "insights_usage_blade"
 		}, 
@@ -56,7 +56,7 @@ cloudEnvironments="public"
       "title": "How do I monitor an App Service?",
 			"description": "I want to add Application Insights monitoring to my App Service.",
 			"category": "Configuration",
-			"searchTags": "app service, web app",			
+			"searchTags": "app service, web app",
 			"supportTopicId": "32602209",
 			"commonSolutionArticleId": "insights_appservice"
 		}, 
