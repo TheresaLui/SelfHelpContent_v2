@@ -4,7 +4,7 @@
     infoBubbleText="Some suggestions have been found to help solve your Java SDK issue quicker."
     service="microsoft.insights"
     resource="components"
-    authors="dhaval24"
+    ms.author="dhaval24"
     articleId="insights_javasdk"
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
