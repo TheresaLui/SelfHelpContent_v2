@@ -51,7 +51,7 @@
 				}, {
 					"value": "Shared",
 					"text": "Shared"
-				},
+				}
 			],
 			"required": false
 		}, {
@@ -66,7 +66,7 @@
 				}, {
 					"value": "No",
 					"text": "No"
-				},
+				}
 			],
 			"required": false
 		}, {
@@ -81,7 +81,7 @@
 				}, {
 					"value": "Scan on open and close",
 					"text": "Scan on open and close"
-				},
+				}
 			],
 			"required": false
 		}, {
