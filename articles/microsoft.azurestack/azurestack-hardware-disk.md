@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    authorAlias="alexsmit"
+    ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629241"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="f7b38aef-8641-4e65-8a79-b2196bcf88da"
 />
 
 # Azure Stack Disk Failure

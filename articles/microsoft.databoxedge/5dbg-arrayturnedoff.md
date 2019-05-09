@@ -1,9 +1,10 @@
 <properties
-	pageTitle="Data Box Gateway has turned off"
-	description="Data Box Gateway has turned off"
-	ms.service="Microsoft.DataBox"
+	pageTitle="Data Box Gateway has turned off."
+	description="Data Box Gateway has turned off."
+	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
-	authors="anbacker"
+	authors="anoobbacker"
+	ms.author="anbacker"
 	authoralias="anbacker"
 	displayOrder="5"
 	selfHelpType="resource"
@@ -11,6 +12,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="8bbce42c-0cce-4266-a72e-3f24c184a576"
 />
 
 # Data Box Gateway has turned off

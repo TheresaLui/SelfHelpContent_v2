@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
+	articleId="a3c986e5-0469-4031-bfa4-a1ab3827fd79"
 />
 
 # Troubleshooting Azure File Sync Server Registration Failures

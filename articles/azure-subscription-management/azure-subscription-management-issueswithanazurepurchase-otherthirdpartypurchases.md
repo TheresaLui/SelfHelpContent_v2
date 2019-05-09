@@ -4,13 +4,14 @@
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32549161,32549162"
 	resourceTags=""
 	productPesIds="15660"
 	cloudEnvironments="public"
+	articleId="f931b13e-1d64-47f8-a864-357c04d61031"
 />
 
 # Azure Subscription Management

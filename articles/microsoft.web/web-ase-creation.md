@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="e20ffbd8-3823-4fce-98f0-4186e60c45bc"
 />
 
 # Problems with ASE/ASE creation

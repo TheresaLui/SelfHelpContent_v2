@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="a994e56d-3ce5-435f-915f-d42690f4f231"
 />
 
 # Schedule Runbooks

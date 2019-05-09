@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25"
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614242"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="52189f67-d9f0-4d0f-99a5-830739c5bae7"
 />
 
 # Configure Custom Domains

@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="d73b7cb8-224c-4a21-8390-2bcc03b11948"
 />
 # Intune Enrollment Windows
 ---
@@ -19,7 +20,7 @@
             "id": "learn_more_text",
             "order": 1,
             "controlType": "infoblock",
-            "content": "<b>Review the resources listed as they may help you solve your issue without needing to open a support case</b>  <ul><li>Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a></li>  <li>Review enrollment documentation for <a href='https://docs.microsoft.com/intune/windows-enroll'>Windows</a></li>  <li>Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service</li>  <li>Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues</li></ul>"
+            "content": "Review the resources listed as they may help you solve your issue without needing to open a support case. Diagnose end-user issues with the <a href='https://aka.ms/intunetroubleshooting1'>Troubleshooting Portal</a>. Review enrollment documentation for <a href='https://docs.microsoft.com/intune/windows-enroll'>Windows</a>. Check out <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Service health</a> and <a href='https://portal.office.com/AdminPortal/Home#/MessageCenter'>Message Center</a> posts to see current status of the service. Review Intune TechNet <a href='https://aka.ms/intuneforums'>forums</a> to find answers and solutions to common issues."
         },
         {
             "id": "What service are you having the issue with?",
@@ -47,6 +48,10 @@
                 {
                     "value": "Mobile Device Management for Office 365",
                     "text": "Mobile Device Management for Office 365"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
+	articleId="2a61b4a8-67fa-417e-afe5-096cfc047dac"
 />
 
 # configurationandsetup/confighealthprobes

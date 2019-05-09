@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="14939f9b-b399-4dd8-a78d-55b79bdd20e8"
 />
 
 # VMs behind Load Balancer (LB) not responding to requests

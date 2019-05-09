@@ -2,13 +2,13 @@
     pageTitle="Administrator-initiated password reset" 
 	description="Password Management/Administrator-initiated password reset" 
 	authors="sahenry" 
-    authorAlias="sahenry"
+    ms.author="sahenry"
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32045781" 
 	productPesIds="16579" 
 	cloudEnvironments="public" 
 	schemaVersion="1"
-    articleId="5b936215-dc2e-45df-b66d-d2214ae748a5"
+    articleId="c7a169ee-063e-4acd-a61e-44f17d01a0e6"
 /> 
 # Problem with administrator-initiated password reset 
 ---

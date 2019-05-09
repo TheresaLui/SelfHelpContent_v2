@@ -4,13 +4,14 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="dkershaw10"
-	authoralias="dkershaw"
+	ms.author="dkershaw"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32134055"
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public"
+	articleId="afa0816a-4528-4cc3-9a51-0bee8309c554"
 />
 
 # Microsoft Graph Authentication Token Issues

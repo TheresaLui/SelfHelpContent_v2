@@ -2,15 +2,18 @@
          pageTitle="Scoping questions for Azure VM backup management issues"
          description="Scoping questions for Azure VM backup management issues"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32565495"
+         supportTopicIds="32565495,32637320,32637321,32637322,32637323,32637324,32637325,32637326,32637327"
          productPesIds="14749"
          cloudEnvironments="public"
          schemaVersion="1"
+	articleId="24288ab9-01d4-4e4e-8e98-9722cd84ba27"
 />
 # Questions Azure VM backup management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Azure VM backup or restore failure",
     "fileAttachmentHint": "",
@@ -21,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "issue_Type",
@@ -38,6 +41,10 @@
                 {
                     "value": "Restore failure",
                     "text": "Restore failure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -49,7 +56,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "restore_JobID_Name",
@@ -58,14 +65,14 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed restore job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",
             "order": 5,
             "visibility": "issue_Type == Restore failure || issue_Type == Backup failure",
             "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide failed Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > In progress > Activity ID"
+            "content": "Microsoft can provide a solution to your problem faster if you can provide failed Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault -- Monitoring and Report -- Backup Jobs -- In progress -- Activity ID"
         },
         {
             "id": "select_ErrorMessage_Backup",
@@ -106,6 +113,10 @@
                 {
                     "value": "My error message is not listed here",
                     "text": "My error message is not listed here"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -122,8 +133,8 @@
                     "text": "VM Agent (WA Agent) has latest version"
                 },
                 {
-                    "value": "​VM OS version is supported",
-                    "text": "​VM OS version is supported"
+                    "value": "VM OS version is supported",
+                    "text": "VM OS version is supported"
                 },
                 {
                     "value": "VM has internet connectivity",
@@ -136,6 +147,10 @@
                 {
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -159,9 +174,13 @@
                 {
                     "value": "Restore encrypted VMs",
                     "text": "Restore encrypted VMs"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

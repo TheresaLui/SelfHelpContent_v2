@@ -4,13 +4,14 @@
     service="microsoft.classicstorage"
     resource="storageaccounts"
     authors="passaree"
-    authoralias="passap"
+    ms.author="passap"
     displayOrder="1"
     selfHelpType="resource"
     supportTopicIds="32602689,32602694,32602738,32602712"
     resourceTags=""
     productPesIds="15629,16459"
     cloudEnvironments="MoonCake"
+	articleId="35978720-59d8-4cf5-963b-4e64e08c4e19"
 />
 
 # I can't delete my classic storage account

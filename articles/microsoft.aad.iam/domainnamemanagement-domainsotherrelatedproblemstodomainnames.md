@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="d334929b-7f97-45c5-8c6f-924eb938b8fd"
 /> 
 # Other related problem with Domain Names 
 ---
@@ -82,6 +83,10 @@
                 {
                     "text": "Yes we have an additional Azure AD or use Office 365",
                     "value": "ContainsMultiple"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

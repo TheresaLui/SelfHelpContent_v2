@@ -4,14 +4,15 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
-    authorAlias="curtand"
+    ms.author="curtand"
     displayOrder=""
     supportTopicIds="32615517"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="7cb47fe5-af77-49ea-b7f7-6f7c56756cb2"
+/>
 
 # Deployment and Setup
 

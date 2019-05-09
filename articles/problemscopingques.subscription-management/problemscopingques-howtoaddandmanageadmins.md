@@ -2,54 +2,62 @@
 	pageTitle="How to Add and Manage Admins"
 	description="How to Add and Manage Admins"
 	articleId="howtoaddandmanageadmins"
-	authorAlias="prdasneo"
+	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454920"
+	supportTopicIds="32632952"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake"
 	schemaVersion="1"
 />
 
 # How to Add and Manage Admins
 ---
 {
-	"resourceRequired": false,
-	"title": "How to Add and Manage Admins",
-	"fileAttachmentHint": "",
-	"formElements": [
-      {
+  "resourceRequired": false,
+  "title": "How to Add and Manage Admins",
+  "fileAttachmentHint": "",
+  "formElements": [
+    {
       "id": "problem_start_time",
-      "visibility": null,
-      "order": 2,
+      "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
-      "content": null,
-      "watermarkText": null,
-      "infoBalloonText": null,
-      "dropdownOptions": null,
-      "dynamicDropdownOptions": null,
-      "required": true,
-      "maxLength": 0,
-      "useAsAdditionalDetails": false,
-      "numberOfLines": 0
-  },
-  {
-			"id": "problem_description",
-			"order": 1,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the following:",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Email ID customer is trying to add"
-				}, {
-					"text": "Role requested"
-				}, {
-					"text": "Error message"
-				}
-			]
-		}
-	]
+      "displayLabel": "Problem Start Date",
+      "required": true
+    },
+    {
+      "id": "emailid_details",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Email ID you are trying to add",
+      "watermarkText": "Provide the email ID you is trying to add",
+      "required": true
+    },
+    {
+      "id": "requester_details",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Your current role assigned to the subscription",
+      "watermarkText": "Provide your current role assigned to the subscription",
+      "required": true
+    },
+    {
+      "id": "role_details",
+      "order": 4,
+      "controlType": "textbox",
+      "displayLabel": "Role requested",
+      "watermarkText": "Provide the role you are requesting",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 5,
+      "controlType": "multilinetextbox",
+      "useAsAdditionalDetails": true,
+      "displayLabel": "Error Message (if applicable) and any other additional details",
+      "watermarkText": "Provide the error Message (if applicable) and any other additional details",
+      "required": true
+    }
+  ]
 }
 ---

@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25"
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614248"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="24eaa3ea-0e2e-42df-a929-441543bd6558"
 />
 
 # Configure Web Application Firewall (WAF)

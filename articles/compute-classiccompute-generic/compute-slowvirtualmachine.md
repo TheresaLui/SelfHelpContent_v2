@@ -4,13 +4,14 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32511162,32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270"
 	resourceTags=""
 	productPesIds="14749,14745"
 	cloudEnvironments="public"
+	articleId="9acfc4d8-fdbf-4381-b9bc-aff0a19de511"
 />
 
 # My VM is slow

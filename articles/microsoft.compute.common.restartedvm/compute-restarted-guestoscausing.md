@@ -4,13 +4,14 @@
 	service="microsoft.classiccompute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authorAlias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628269"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="9c823f1b-b821-4c3a-a558-356fb425dec3"
 />
 
 # My guest OS is causing restarts

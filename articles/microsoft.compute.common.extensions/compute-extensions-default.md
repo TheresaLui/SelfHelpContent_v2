@@ -1,19 +1,20 @@
 <properties
-	pageTitle="My extension is not installing correctly, executing, or listed above"
-	description="My extension is not installing correctly, executing, or listed above"
+	pageTitle="My VM extension is not installing correctly, executing, or listed above"
+	description="My VM extension is not installing correctly, executing, or listed above"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
-	authoralias="scotro"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32628267,32628266,32628278"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="cd2fec93-b941-40e5-ae9e-9461817e53de"
 />
 
-# My extension is not installing correctly, executing, or listed above
+# My VM extension is not installing correctly, executing, or listed above
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
 

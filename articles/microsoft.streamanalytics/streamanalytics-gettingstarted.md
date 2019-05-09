@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="15663"
 	cloudEnvironments="public"
-	authorAlias="sidram"
+	ms.author="sidram"
 />
 
 # Getting Started with Azure Stream Analytics

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public"
+	articleId="b17d5b4f-a43a-46a2-8045-bf700ef408b1"
 />
 
 # Troubleshooting Azure File Sync Group Management Failures

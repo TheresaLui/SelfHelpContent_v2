@@ -4,14 +4,15 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
-    authorAlias="curtand"
+    ms.author="curtand"
     displayOrder=""
     supportTopicIds="32615425"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
     cloudEnvironments="public"
- />
+ 	articleId="a81a655d-e2f7-43a2-b83e-725c81f2d5d6"
+/>
 
 # Enabling Password Hash Synchronization
 

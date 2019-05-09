@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="0eb8faaf-b8da-43ff-886d-302e375f4d41"
 />
 
 # I need more storage/throughput

@@ -1,7 +1,8 @@
 <properties
          pageTitle="Scoping questions for MARS backup failure"
          description="Scoping questions for MARS backup failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553275"
          productPesIds="15207"
@@ -14,7 +15,7 @@
 {
     "resourceRequired": false,
     "title": "MARS backup failure",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
     "formElements": [
         {
             "id": "os_version",
@@ -22,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -46,6 +47,10 @@
                 {
                     "value": "Incremental backup failure",
                     "text": "Incremental backup failure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -59,14 +64,8 @@
             "required": true
         },
         {
-            "id": "prerequisites_links",
-            "order": 5,
-            "controlType": "infoblock",
-            "content": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>"
-        },
-        {
             "id": "basic_troubleshooting_multiselect",
-            "order": 6,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -99,50 +98,54 @@
                     "text": "Unsupported drives are excluded from backup"
                 },
                 {
-                    "value": "Unsupported files are excluded from backup",
-                    "text": "Unsupported files are excluded from backup"
+                    "value": "Files with unsupported attributes are excluded from backup",
+                    "text": "Files with unsupported attributes are excluded from backup"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+	    "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "watermarkText": "Paste MachineId here",
             "required": false
         },
         {
             "id": "get_resourceId",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Please provide the ResourceId:",
-            "watermarkText": "Find from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+	    "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "watermarkText": "Paste ResourceId here",
             "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": false
-        },
-        {
-            "id": "learn_more_text",
-            "order": 10,
-            "controlType": "infoblock",
-            "content": "Please upload all CBEngine log files located at C:\\\\Program Files\\\\Microsoft Azure Recovery Services Agent\\\\Temp. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
+            "required": true
         },
         {
             "id": "problem_description",
-            "order": 11,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "hints": []
+            "hints": [
+                {
+                    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>"
+                }
+            ]
         }
     ]
 }

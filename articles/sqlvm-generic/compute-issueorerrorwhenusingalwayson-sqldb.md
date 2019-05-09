@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="b048470e-fec4-4c1b-8a9d-f02bdbe9ff28"
 />
 
 # high availability/issue or error when using alwayson

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14785"
 	cloudEnvironments="public"
+	articleId="8f1c4f88-e472-43c2-aa7c-1ffbc0c4b274"
 />
 
 # Where can I find more information on errors and known issues?

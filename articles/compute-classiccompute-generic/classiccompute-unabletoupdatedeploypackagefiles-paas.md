@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="13185"
 	cloudEnvironments="public"
+	articleId="2c57a5c2-1fbf-4b12-94c6-35a53e85fee1"
 />
 
 # worker role (paas)/Deployment/Unable to update/deploy package files

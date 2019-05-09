@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="virtualnetworkgateways"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="13"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="a4e1775e-4615-4c9d-b63a-e0d8102d75d6"
 />
 
 # Issues with on-premise connectivity

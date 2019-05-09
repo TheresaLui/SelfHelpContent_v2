@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15540"
 	cloudEnvironments="public"
+	articleId="f19e490f-1d23-4cf5-9953-6bb5ae5f317b"
 />
 
 # infrastructure setup/azure virtual network setup

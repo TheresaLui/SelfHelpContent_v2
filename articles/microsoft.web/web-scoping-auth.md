@@ -7,6 +7,7 @@
 	supportTopicIds="32542207"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="2152cf0e-0712-4d65-8e69-c144693e9c2b"
 />
 
 # Authentication and authorization

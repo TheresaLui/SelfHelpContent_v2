@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15659"
 	cloudEnvironments="public"
+	articleId="f4bb7242-84c0-412a-a100-8b38f52669f8"
 />
 
 # supported payment methods and currencies

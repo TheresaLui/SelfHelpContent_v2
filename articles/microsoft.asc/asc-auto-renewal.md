@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16512"
 	cloudEnvironments="public"
+	articleId="eaa907cb-1571-48f7-9a8a-f925442c5d51"
 />
 
 # ASC/Auto-renewal

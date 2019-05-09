@@ -4,13 +4,14 @@
     service="microsoft.network"
     resource="expressroutecircuits"
     authors="kasparks"
-    authoralias="kasparks"
+    ms.author="kasparks"
     displayOrder="4"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="b923ec3a-fd60-4145-9f90-d69441ca8c62"
 />
 
 # I can't connect to services offered through Azure Public peering

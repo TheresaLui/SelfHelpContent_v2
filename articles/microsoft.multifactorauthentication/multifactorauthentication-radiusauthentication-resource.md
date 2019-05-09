@@ -10,6 +10,7 @@
 	resourceTags="mfa_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="e2b0749f-6c08-4a49-9389-98f394221161"
 />
 
 # Troubleshoot RADIUS authentication configurations

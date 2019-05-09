@@ -2,19 +2,36 @@
 	pageTitle="Storage File Share mounting issues - Linux"
 	description="Storage File Share mounting issues - Linux"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602763"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="79f6826d-4649-4cd1-bb10-5ea01b616d3d"
 />
 # Storage File Share mounting issues - Linux
 ---
 {
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Storage File Share mounting issues - Linux",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+		"title": "What caused my Azure Files mount issue on Linux?",
+    	"description": "Our Azure Files mount troubleshooter can help you troubleshoot and solve your problem.",
+    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. Please ensure that File Share or File Path provided is in the approved format. Also, see our manual troubleshooting steps below to troubleshoot your problem."
+	},
     "formElements": [
+        {
+            "id": "file_share_or_path",
+            "order": 0,
+            "controlType": "textbox",
+            "displayLabel": "File Share or File path",
+            "watermarkText": "'FileShare' or 'FileShare/FileName'",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
         {
             "id": "mount_location",
             "order": 1,
@@ -33,9 +50,14 @@
                 {
                     "value": "on_premises",
                     "text": "Client is outside Azure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "os_version",
@@ -101,11 +123,12 @@
                     "text": "OpenSUSE 42.3 or above"
                 },
                 {
-                    "value": "other",
+                    "value": "dont_know_answer",
                     "text": "Other - provide Linux kernel version below"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "linux_kernel",
@@ -113,14 +136,15 @@
             "controlType": "textbox",
             "displayLabel": "Linux kernel version",
             "watermarkText": "Run 'uname -r' command to find Linux kernel version",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

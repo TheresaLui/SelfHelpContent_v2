@@ -5,7 +5,7 @@
     service="microsoft.activedirectory"
     resource=""
     authors="sadiehenry"
-    authorAlias="sahenry"
+    ms.author="sahenry"
     displayOrder="1"
     articleId="IAM_SSPR_User_Is_Admin"
     selfHelpType="diagnostics"
@@ -17,7 +17,10 @@
 />
 
 # User is an administrator
+<!--/issueDescription-->
+User <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> is an administrator. Microsoft enforces a strong two-gate password reset policy for any Azure administrator role. Administrators cannot register security questions. Please test your password reset policy with a user who is not an administrator.
+<!--/issueDescription-->
 
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> is an administrator. Microsoft enforces a strong two-gate password reset policy for any Azure administrator role. Administrators cannot register security questions. Please test your password reset policy with a user who is not an administrator.
+## **Recommended Documents**
 
-Learn more about the [administrator password reset policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#administrator-reset-policy-differences)
+* [Administrator password reset policy](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#administrator-reset-policy-differences)

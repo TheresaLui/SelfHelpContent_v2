@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15528"
 	cloudEnvironments="public"
+	articleId="c3ddfee8-4a69-4fce-9575-81182c2bb277"
 />
 
 # configuration/custom domain name (cname)

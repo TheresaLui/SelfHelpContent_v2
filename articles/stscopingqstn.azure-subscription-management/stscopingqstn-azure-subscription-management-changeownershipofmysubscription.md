@@ -6,6 +6,7 @@
 	supportTopicIds="32454918"
 	productPesIds="15660"
 	cloudEnvironments="public, MoonCake"
+	articleId="cb59f3bc-2439-4988-84f3-ca01304ad189"
 />
 # Change ownership of my subscription
 *	Issue description

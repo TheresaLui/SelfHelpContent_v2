@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="03a93b15-9264-4901-94ee-942f92308410"
 />
 
 # My request unit (RU) charging is unclear

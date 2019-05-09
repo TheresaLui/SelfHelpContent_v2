@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="20577cae-91fa-4aa2-b584-cc268cb99e08"
 />
 
 # Linux Agent

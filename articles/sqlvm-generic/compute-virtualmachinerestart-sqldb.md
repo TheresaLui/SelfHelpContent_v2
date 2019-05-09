@@ -10,6 +10,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public"
+	articleId="36936c34-9904-4545-8427-bc0d9cc75723"
 />
 
 # connectivity/virtual machine restart

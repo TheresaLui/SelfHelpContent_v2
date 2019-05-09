@@ -6,6 +6,7 @@
 	 productPesIds="14785" 
 	 cloudEnvironments="public" 
 	 schemaVersion="1"
+	articleId="32704e44-ba60-4aa9-aba5-7b19f7a9ca70"
 /> 
 # Other problem with licenses 
 ---
@@ -60,6 +61,10 @@
                 {
                     "text": "Not sure",
                     "value": "other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -90,6 +95,10 @@
                 {
                     "text": "Not sure",
                     "value": "dontknow"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

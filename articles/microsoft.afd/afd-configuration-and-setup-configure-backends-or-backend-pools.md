@@ -4,13 +4,14 @@
     service="microsoft.afd"
     resource="afd"
     authors="jtwalters25" 
-    authorAlias="jewalte"
+    ms.author="jewalte"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32614240"
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="f4aab5c8-a852-4950-bb95-590c800ab8e8"
 />
 
 # Configure Backends or Backend Pools

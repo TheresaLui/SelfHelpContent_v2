@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="2225ec39-4495-40b7-ac22-5fbb3bc86015"
 />
 
 # systemupdateassessment
