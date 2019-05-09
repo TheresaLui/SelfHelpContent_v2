@@ -17,6 +17,6 @@
 
 ## **Recommended Documents**
 
-* [Monitoring HDInsight clusters using Apache Ambari Web UI](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#monitoring)
+* [Monitoring HDInsight clusters using Apache Ambari Web UI](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari)
 * [Monitoring on Azure HDInsight Part 1: An Overview](https://azure.microsoft.com/blog/monitoring-on-hdinsight-part-1-an-overview/)
 * [Monitoring on Azure HDInsight Part 2: Cluster health and availability](https://azure.microsoft.com/blog/monitoring-on-azure-hdinsight-part-2-cluster-health-and-availability/)
