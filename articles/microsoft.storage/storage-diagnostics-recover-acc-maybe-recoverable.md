@@ -15,20 +15,23 @@ productPesIds=""
 cloudEnvironments="public"
 />
 
-# Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** may be recoverable
+# Storage Account Recovery
+<!--/issueDescription-->
+Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** may be recoverable<!--/issueDescription-->.
+<!--/issueDescription-->
 
-## 1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** recovered
+### 1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** recovered
 
-We were able to successfully recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
+We were able to successfully recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted: <!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo-->.
 
-Microsoft may not always be able  to recover your data. You can follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that your deleted data will be recoverable in the future. 
+Microsoft may not always be able to recover your data. Follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that your deleted data will be recoverable in the future. 
 
 ---
 
-## 2. Unable to recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to garbage collection
+### 2. Unable to recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to garbage collection
 
-Microsoft sincerely apologizes that we are unable to recover the Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
+Microsoft sincerely apologizes that we are unable to recover the Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted: <!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo-->.
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Storage Account and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 
-Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
+Follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
