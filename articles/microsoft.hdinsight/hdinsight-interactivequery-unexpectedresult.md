@@ -18,6 +18,6 @@
 ## **Recommended Documents**
 
 * [Use Interactive Query with HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
-* [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
+* [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
 * [Use Apache Zeppelin to run Apache Hive queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-connect-hive-zeppelin)
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
