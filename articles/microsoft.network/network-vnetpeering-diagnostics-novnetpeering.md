@@ -15,7 +15,13 @@ resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="Public"
 />
-# We ran connectivity diagnostics on your resource and found an issue.
+
+# We ran connectivity diagnostics on your resource and found an issue
+
 <!--issueDescription-->
-Microsoft Azure has identified that virtual network <!--$VirtualNetwork-->VirtualNetwork<!--/$VirtualNetwork--> doesn't have any VNet Peering links defined. Please select the correct problem type, or correct Virtual Network with the [VNet Peering defined](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering).
- <br>
+Microsoft Azure has identified that virtual network <!--$VirtualNetwork-->VirtualNetwork<!--/$VirtualNetwork--> doesn't have any VNet Peering links defined.
+<!--issueDescription-->
+
+## **Recommended Steps**
+
+* Select the correct problem type, or correct Virtual Network with the [VNet Peering defined](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering)
