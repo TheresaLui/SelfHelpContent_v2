@@ -31,4 +31,4 @@ If you are **NOT** using a DNS CNAME or Azure Traffic Manager, ensure that the h
 2. Type `nslookup`
 3. Type the host '<!--$UrlHost-->[UrlHost]<!--/$UrlHost-->'
 4. Validate the returned IP is your Application Gateway Frontend IP of '<!--$FrontEndIP-->[FrontEndIp]<!--/$FrontEndIp-->'
-5. If it does not resolve to the correct IP, update your DNS registration at your registar
+5. If it does not resolve to the correct IP, update your DNS registration at your registrar
