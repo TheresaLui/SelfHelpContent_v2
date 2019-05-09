@@ -16,7 +16,7 @@ cloudEnvironments="public"
 
 # Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** may be recoverable
 
-## Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** recovered
+## 1. Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** recovered
 
 We were able to successfully recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
 
@@ -24,7 +24,7 @@ Microsoft may not always be able  to recover your data. You can follow our [best
 
 ---
 
-## Unable to recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**
+## 2. Unable to recover Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to garbage collection
 
 Microsoft sincerely apologizes that we are unable to recover the Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** that was deleted:<!--$DeletionInfo-->[DeletionInfo]<!--/$DeletionInfo--><br>
 
