@@ -16,7 +16,7 @@
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Cluster dashboard",
-                "fileAttachmentHint": "Attach output of az --version",
+                "fileAttachmentHint": "Attach the output of **az --version**",
                 "formElements": [
                  {
                     "id": "problem_start_time",
