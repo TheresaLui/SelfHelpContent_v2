@@ -31,7 +31,7 @@ Microsoft Azure sincerely apologizes that we are unable to recover the Storage A
 
 As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. This Storage Account and all its content was cleaned up after deletion and is no longer recoverable by Azure.<br>
 
-Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidently deleted content can be recovered in the future.
+Please follow our [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data) to ensure that accidentally deleted content can be recovered in the future.
 
 --- 
 
@@ -41,4 +41,4 @@ We sincerely apologize that we are unable to recover the storage account **<!--$
 
 A new storage account has already been created with the same name as the deleted account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**. [Storage account names must be unique within Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account) so it is not possible to recover a storage account with the same name as an existing storage account. This storage account and all its content were cleaned up when the new storage account with the same name was created and are no longer recoverable by Azure.<br>
 
-To ensure that accidently deleted content can be recovered in the future, and to harden your applications against potential issues, please refer to our recommended [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data).
+To ensure that accidentally deleted content can be recovered in the future, and to harden your applications against potential issues, please refer to our recommended [best practices for protecting your data](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#best-practices-for-protecting-your-data).
