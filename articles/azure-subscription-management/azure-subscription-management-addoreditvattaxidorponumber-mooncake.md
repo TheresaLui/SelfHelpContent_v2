@@ -11,7 +11,6 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-    articleId="53a3671e-e7e2-4af9-b703-58681bd232e3"
 />
 
 # How to edit your profile
