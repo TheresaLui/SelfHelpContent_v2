@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "I need to reset my password",
                 "fileAttachmentHint": "",
@@ -35,19 +36,19 @@
                     ],
                     "required": false
                 },{
-                    "id": "idsinglemultiple",
+                    "id": "useraccountsinglemultiple",
                     "order": 2,
                     "controlType": "dropdown",
-                    "displayLabel": "Is this issue impacting a single ID or multiple IDs?",
+                    "displayLabel": "Is this issue impacting a single user account or multiple user accounts?",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
-                            "value": "Single ID",
-                            "text": "Single ID"
+                            "value": "A single user account",
+                            "text": "A single user account"
                         },
                         {
-                            "value": "Multiple IDs",
-                            "text": "Multiple IDs"
+                            "value": "Multiple user accounts",
+                            "text": "Multiple user accounts"
                         }
                     ],
                     "required": false
@@ -94,8 +95,15 @@
                     ],
                     "required": false
                 },{
-                    "id": "resetpasswordmethods",
+                    "id": "name_useraccount",
                     "order": 5,
+                    "visibility": "isadmin == No || isadmin == I do not know",
+                    "controlType": "textbox",
+                    "displayLabel": "What is the name of the user account trying to login?",
+                    "required": false
+                },{
+                    "id": "resetpasswordmethods",
+                    "order": 6,
                     "controlType": "multiselectdropdown",
                     "displayLabel": "Select all the methods you have tried to reset your password.",
                     "watermarkText": "Choose an option",
@@ -116,14 +124,14 @@
                     "required": false
                 },{
                   "id": "problem_description",
-                  "order": 6,
+                  "order": 7,
                   "controlType": "multilinetextbox",
                   "displayLabel": "Description",
                   "useAsAdditionalDetails": true,
                   "required": true
                   },{
                   "id": "problem_start_time",
-                  "order": 7,
+                  "order": 8,
                   "controlType": "datetimepicker",
                   "displayLabel": "When did the problem start?",
                   "required": true
