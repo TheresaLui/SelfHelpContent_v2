@@ -43,7 +43,7 @@
 		"value": "On-premise, connecting over VPN Gateway and VNET peering",
 		"text": "On-premise, connecting over VPN Gateway and VNET peering"
 		},{
-		"text": "Other or not applicable",
+		"text": "Other or none of the above",
 		"value": "dont_know_answer"
 		}
               ],
@@ -63,7 +63,7 @@
 		            "textPropertyRegex": "[^/]+$",
 								"defaultDropdownOptions": {
 				            "value": "dont_know_answer",
-				            "text": "Other or not applicable"
+				            "text": "Other or none of the above"
         					}
 								},
 						"DropdownOptions": [{
@@ -88,7 +88,7 @@
 			            "textPropertyRegex": "[^/]+$",
 									"defaultDropdownOptions": {
 					            "value": "dont_know_answer",
-					            "text": "Other or not applicable"
+					            "text": "Other or none of the above"
 	        					}
 								},
 								"DropdownOptions": [{
@@ -112,7 +112,7 @@
             "textPropertyRegex": "[^/]+$",
 						"defaultDropdownOptions": {
 								"value": "dont_know_answer",
-								"text": "Other or not applicable"
+								"text": "Other or none of the above"
 							}
 					},
 					"DropdownOptions": [{
