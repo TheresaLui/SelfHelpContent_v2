@@ -61,7 +61,7 @@
 			"displayLabel": "Is MPIO configured on the servers where the volume is hosted?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Yes"
+					"value": "Yes",
 					"text": "Yes"
 				}, {
 					"value": "No",
@@ -76,7 +76,7 @@
 			"displayLabel": "If antivirus is configured on the file server, what kind of scanning is performed?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Full scan"
+					"value": "Full scan",
 					"text": "Full scan"
 				}, {
 					"value": "Scan on open and close",
