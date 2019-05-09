@@ -19,8 +19,8 @@
 ## **Recommended Steps**
 
 * [Find your Account Administrator](data-blade:Microsoft_Azure_Billing.SubscriptionPropertiesBlade)
-* Your Account Admin may have canceled the subscription. If it's an Enterprise Agreement subscription, the Account Admin can [reactivate it](https://docs.azure.cn/en-us/billing/billing-subscription-become-disable) in the Account Portal.
+* Your Account Admin may have canceled the subscription. If it's an Enterprise Agreement subscription, the Account Admin can [reactivate it](https://docs.azure.cn/billing/billing-subscription-become-disable) in the Account Portal.
 
 ## **Recommended Documents**
 
-* [Standard Pay-In-Advance Offer Introduction](https://www.azure.cn/en-us/offers/ms-mc-arz-33p/)
+* [Standard Pay-In-Advance Offer Introduction](https://www.azure.cn/offers/ms-mc-arz-33p/)

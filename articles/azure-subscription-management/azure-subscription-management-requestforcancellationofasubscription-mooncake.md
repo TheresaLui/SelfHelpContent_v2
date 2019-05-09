@@ -27,10 +27,10 @@ The account administrator can cancel a subscription in the Azure portal using th
 
 ## **Recommended Documents**
 
-* [EA Customers cancel subscription](https://docs.azure.cn/en-us/enterprise-agreement-billing/enterprise-agreement-billing-cancel-ea-subscription)
-* [What happens after I cancel my subscription?](https://docs.azure.cn/en-us/enterprise-agreement-billing/enterprise-agreement-billing-cancel-ea-subscription#%E5%8F%96%E6%B6%88%E8%AE%A2%E9%98%85%E5%90%8E%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D)
-* [Reactivate subscription](https://docs.azure.cn/en-us/billing/billing-subscription-become-disable)
-* [How to download your invoice](https://docs.azure.cn/en-us/billing/billing-get-invoice)
-* [How to download your usage data](https://docs.azure.cn/en-us/billing/billing-get-usage-information)
-* [Migrate resources between accounts/subscriptions](https://docs.azure.cn/en-us/azure-resource-manager/resource-group-move-resources)
-* [Add/Manage admins and co-admins](https://docs.azure.cn/en-us/billing/billing-add-change-azure-subscription-administrator)
+* [EA Customers cancel subscription](https://docs.azure.cn/enterprise-agreement-billing/enterprise-agreement-billing-cancel-ea-subscription)
+* [What happens after I cancel my subscription?](https://docs.azure.cn/enterprise-agreement-billing/enterprise-agreement-billing-cancel-ea-subscription#%E5%8F%96%E6%B6%88%E8%AE%A2%E9%98%85%E5%90%8E%E6%9C%89%E4%BB%80%E4%B9%88%E5%BD%B1%E5%93%8D)
+* [Reactivate subscription](https://docs.azure.cn/billing/billing-subscription-become-disable)
+* [How to download your invoice](https://docs.azure.cn/billing/billing-get-invoice)
+* [How to download your usage data](https://docs.azure.cn/billing/billing-get-usage-information)
+* [Migrate resources between accounts/subscriptions](https://docs.azure.cn/azure-resource-manager/resource-group-move-resources)
+* [Add/Manage admins and co-admins](https://docs.azure.cn/billing/billing-add-change-azure-subscription-administrator)
