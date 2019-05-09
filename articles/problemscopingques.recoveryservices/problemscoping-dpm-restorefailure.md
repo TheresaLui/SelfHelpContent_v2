@@ -2,18 +2,19 @@
          pageTitle="Scoping questions for DPM Restore Failure"
          description="Scoping questions for DPM Restore Failure"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553300"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="a3318b66-8d65-4588-8eeb-4fec45b46791"
+	 articleId="a3318b66-8d65-4588-8eeb-4fec45b46791"
 />
 # Questions DPM - Restore Failure
 ---
 {
     "resourceRequired": true,
-	  "subscriptionRequired": true,
+    "subscriptionRequired": true,
     "title": "DPM restore failure",
     "fileAttachmentHint": "",
     "formElements": [
