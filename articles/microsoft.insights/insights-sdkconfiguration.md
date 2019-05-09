@@ -22,6 +22,8 @@
 3. Start over with a fresh install and compare the differences
 4. Review your config file with a specific topic below
 
+## **Recommended Documents**
+
 ### **.NET Configuration Topics**<br>
 
 * [Getting Started](https://docs.microsoft.com/azure/azure-monitor/app/asp-net)
