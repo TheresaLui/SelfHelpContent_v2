@@ -28,16 +28,16 @@ The most common types of issues are related to the configuration of the SDK, or 
 
 **Spring Boot Starter:** We recently released the [Spring Boot Starter](https://docs.microsoft.com/java/azure/spring-framework/configure-spring-boot-java-applicationinsights?view=azure-java-stable) for Application Insights that will help simplify the process of instrumenting your Spring Boot applications.
 
-**Please provide following information to help the team investigate issue**
+**Please provide following information to help the team investigate issue:**
 
 1.	Describe the actual behavior
 2.	Describe the expected behavior
 3.	What SDK version are you using? 
 4.	What kind of application it is: 
 
-  *	SpringBoot (Along with framework version) - > If yes -> Are they using ApplicationInsights SpringBoot Starter -> If yes which version of starter?
-  *	Traditional Spring MVC (With version)
-  *	J2EE (with version for servlet specifically)
+    * SpringBoot (Along with framework version) - > If yes -> Are they using ApplicationInsights SpringBoot Starter -> If yes which version of starter?
+    * Traditional Spring MVC (With version)
+    * J2EE (with version for servlet specifically)
 
 5.	What version of Java SDK customer is using?
 6.	Provide iKey and subscription ID and duration since issue started
