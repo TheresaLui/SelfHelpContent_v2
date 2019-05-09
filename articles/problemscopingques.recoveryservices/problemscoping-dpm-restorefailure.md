@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for DPM Restore Failure"
          description="Scoping questions for DPM Restore Failure"
-         authors="srinathvasireddy"
+         authors="srinathv"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553300"
