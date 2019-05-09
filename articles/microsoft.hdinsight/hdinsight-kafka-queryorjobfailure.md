@@ -19,5 +19,5 @@
 
 * [Performance optimization for Apache Kafka HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/storm/apache-troubleshoot-storm)
 * [Troubleshoot a slow or failing HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
-* [HDInsights Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
+* [HDInsight Troubleshooting Guide](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-guide)
 * [Where are Kafka logs on HDInsight cluster](https://hdinsight.github.io/kafka/kafka-logs.html)
