@@ -5,11 +5,11 @@
     resource="components"
     authors="mcosner"
     displayOrder="15"
-    selfHelpType="resource"
+    selfHelpType="generic"
     productPesIds="15693"
-    supportTopicIds=""
+    supportTopicIds="32632993"
     cloudEnvironments="public"
- 	articleId="cc1f13a7-9ec2-477c-9848-96cde957f620"
+ 	  articleId="cc1f13a7-9ec2-477c-9848-96cde957f620"
 />
 # IP addresses my app sends are all 0.0.0.0
 ## **Recommended steps**

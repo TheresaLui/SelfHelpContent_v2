@@ -12,7 +12,7 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32402631"
+    supportTopicIds="32402631, 32632986, 32632987"
  />
 # I am having problems with my .NET SDK
 

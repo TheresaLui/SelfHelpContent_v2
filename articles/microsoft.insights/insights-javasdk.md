@@ -11,7 +11,7 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32402632"
+    supportTopicIds="32402632, 32632984"
  />
 # I am having problems with my Java SDK data
 

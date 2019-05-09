@@ -10,7 +10,7 @@
     selfHelpType="generic"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602214"
+    supportTopicIds="32602214, 32632982, 32632983"
  />
  
 # I have questions about my bill with Application Insights

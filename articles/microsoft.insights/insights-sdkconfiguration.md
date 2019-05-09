@@ -10,7 +10,7 @@
     selfHelpType="resource"
     cloudEnvironments="public"
     productPesIds="15693" 
-    supportTopicIds="32602224"
+    supportTopicIds="32602224, 32602223"
  />
  
 # How do I configure my SDK?
