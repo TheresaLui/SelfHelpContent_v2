@@ -17,7 +17,7 @@ cloudEnvironments="public"
 {
 	"$schema":"SelfHelpContent",
 	"commonProblems": [{
-      "id": "Where_is_my_data?",
+      			"id": "Where_is_my_data?",
 			"title": "Where is my data?",
 			"description": "I am not able to see any data in the Azure Portal or the Analytics Portal",
 			"category": "Data Collection",
