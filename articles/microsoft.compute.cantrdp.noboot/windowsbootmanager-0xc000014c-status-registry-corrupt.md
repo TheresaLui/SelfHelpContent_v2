@@ -1,11 +1,11 @@
 <properties
     pageTitle="VM boot error"
-    description="Virtual machine failed to respond to RDP as Windows Updates installation is in progress"
+    description="Virtual machine failed to boot with error *0xC000014C*"
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="jasonbandrew"
-    ms.author="v-jasoan"
+    authors="ram-kakani, timbasham, jasonbandrew"
+    ms.author="ramakk, tibasham, v-jasoan"
     displayOrder=""
     articleId="WindowsBootManager-0xC000014C-STATUS_REGISTRY_CORRUPT"
     diagnosticScenario="booterror"
@@ -15,7 +15,7 @@
     productPesIds="14749"
     cloudEnvironments="public"
 />
-
+# VM boot error
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt. You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
 <!--/issueDescription-->
