@@ -5,7 +5,7 @@
 	authors="ram-kakani"
 	ms.author="ramakk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32606353"
+	supportTopicIds="32640618"
 	productPesIds="16469"
 	cloudEnvironments="public"
 	schemaVersion="1"
