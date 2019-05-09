@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="AppGwNoHttpListenersFoundInsight"
 diagnosticScenario="AppGwNoHttpListenersFoundInsight"
@@ -14,12 +15,15 @@ resourceTags="windows"
 productPesIds="15922"
 cloudEnvironments="Public"
 />
-# Microsoft Azure has identified that your Application Gateway is missing a 'Http Listener' 
+
+# Microsoft Azure has identified that your Application Gateway is missing a 'Http Listener'
+
 <!--issueDescription-->
 We have identified that your Application Gateway: **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->** has no Http Listener configured for Frontend port: **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->**, protocol: **<!--$Protocol-->[Protocol]<!--/$Protocol-->** Frontend IP: **<!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->**.
-<!--/issueDescription--> 
-## **Steps to resolve**
+<!--/issueDescription-->
+
+## **Recommended Steps**
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. Find your Application Gateway, **<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->**
-3. Configure a new Http listener for port: **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->**, protocol: **<!--$Protocol-->[Protocol]<!--/$Protocol-->**, Frontend IP: **<!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->**.
+3. Configure a new Http listener for port: **<!--$FrontEndPort-->[FrontEndPort]<!--/$FrontEndPort-->**, protocol: **<!--$Protocol-->[Protocol]<!--/$Protocol-->**, Frontend IP: **<!--$FrontEndIp-->[FrontEndIp]<!--/$FrontEndIp-->**
