@@ -119,33 +119,12 @@
                 {
                     "value": "Restoring files and folder",
                     "text": "Restoring files and folder"
-                },
-                {
-                    "value": "Restoring system state backup",
-                    "text": "Restoring system state backup"
-                },
-                {
-                    "value": "Restoring Hyper-V or VMWare VMs",
-                    "text": "Restoring Hyper-V or VMWare VMs"
-                },
-                {
-                    "value": "Restoring SQL database",
-                    "text": "Restoring SQL database"
-                },
-                {
-                    "value": "Restoring Exchange database",
-                    "text": "Restoring Exchange database"
-                },
-                {
-                    "value": "Restoring SharePoint farm",
-                    "text": "Restoring SharePoint farm"
-                },
-                {
+                },{
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
