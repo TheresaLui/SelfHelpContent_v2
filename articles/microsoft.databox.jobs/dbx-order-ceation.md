@@ -29,8 +29,9 @@ If you were not able to create a Data Box order, there is a problem with either 
 
 ## **Recommended Steps**
 
-* Q. I ordered a couple of Data Box devices. I am not able to create any additional orders. Why would this be?
-* A. We allow for a maximum of five active orders per subscription per commerce boundary (combination of country and the region selected). If you need to order an additional device, contact Microsoft Support to increase the limit for your subscription.
+I ordered a couple of Data Box devices. I am not able to create any additional orders. Why would this be?
+
+* We allow for a maximum of five active orders per subscription per commerce boundary (combination of country and the region selected). If you need to order an additional device, contact Microsoft Support to increase the limit for your subscription.
 
 ## **Recommended Documents**
 

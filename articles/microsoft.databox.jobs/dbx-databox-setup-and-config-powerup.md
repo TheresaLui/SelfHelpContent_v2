@@ -1,7 +1,7 @@
 
 <properties
 	pageTitle="Data Box setup and configuration"
-	description="Learn how to handle Data Box doesn't power up related issues"
+	description="Learn how to handle issues related to Data Box not turning onon"
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"

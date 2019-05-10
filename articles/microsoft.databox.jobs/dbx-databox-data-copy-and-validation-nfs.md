@@ -20,9 +20,9 @@
 ## **Can't access the NFS shares**
 
 ## **Recommended Steps**
-1. Allow NFS client by adding the client IP on Data Box 
-2. use the following command on the host to mount the NFS share on your Data Box device:
-sudo mount <Data Box device IP>:/<NFS share on Data Box device> <Path to the folder on local Linux computer>
+1. To allow the NFS client, add the client IP address on your Data Box .
+2. Mount the NFS share on your Data Box. Type the following command on the Linux client :
+"sudo mount <Data Box device IP>:/<NFS share on Data Box device> <Path to the folder on local Linux computer>"
 
 ## **Recommended Documents**
 * [Data copy using NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs)

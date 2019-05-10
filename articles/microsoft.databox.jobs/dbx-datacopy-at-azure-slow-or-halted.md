@@ -1,6 +1,6 @@
 
 <properties
-	pageTitle="Data copy at Azure "
+	pageTitle="Data upload to Azure"
 	description="Learn how to resolve issues related to Data copy failed/completed with errors"
 	service="microsoft.databox.jobs"
 	resource=""
@@ -17,8 +17,8 @@
 
 # Data copy at Azure
 
-## **Data copy is slow or halted**
-No action requried from your end. Data copy is in progress, check back after few hours.
+## **Data copy is slow or stopped**
+No action is required. Data copy is in progress, check back after few hours.
 
 ## **Recommended Documents**
-* [Troubleshoot issues related to Data copy failed/completed with errors](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
+* [Troubleshoot errors during data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)

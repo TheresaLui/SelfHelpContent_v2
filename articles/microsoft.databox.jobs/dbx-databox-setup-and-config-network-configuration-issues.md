@@ -19,8 +19,8 @@
 ## **Can't configure network for my Data Box**
 
 ## **Recommended Documents**
-* [Data Box Network configuration](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up#connect-to-your-device)<br>
-* [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
+* [Data Box network configuration](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up#connect-to-your-device)
+* [Data Box cabling options](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)
 
 
 

@@ -16,10 +16,10 @@
 
 # Data Box setup and configuration
 
-## **The e-Ink display has an issue**
+## **The E-ink display has an issue**
 
 ## **Recommended Documents**
-* [Returning the Data Box with e-ink display issues](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back)<br>
+* [Returning the Data Box with E-ink display issues](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back)<br>
 
 
 

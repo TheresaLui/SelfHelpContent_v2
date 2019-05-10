@@ -1,7 +1,7 @@
 
 <properties
 	pageTitle="Device is noisy"
-	description="Learn how to resolve issues related to noisy device"
+	description="Learn how to resolve device noise"
 	service="microsoft.databox.jobs"
 	resource=""
 	authors="sunilrsanjeev"
@@ -20,5 +20,5 @@
 ## **Device is noisy**
 
 ## **Recommended Steps**
-1. Ensure the Data Box protection doors are open on both ends for ventilation
-2. Check the temparature controls
+1. Make sure that the Data Box front and the rear doors are open for proper airflow.
+2. Check the environment temperature is within the operating temperature range for this device. For more information, see Data Box safety.

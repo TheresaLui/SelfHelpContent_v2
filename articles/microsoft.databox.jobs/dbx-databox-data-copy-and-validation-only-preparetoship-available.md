@@ -20,6 +20,5 @@
 ## **Can't use the device, only 'Prepare to ship' is available**
 
 ## **Recommended Steps**
-If you experience an issue of only 'Prepare to ship' option being avaialble then, 
-1. Proceed to create support request
-2. Send back the device with issue
+1. Log a Support request.
+2. Return the device and create a new order. A replacement device will be sent to you.<br>

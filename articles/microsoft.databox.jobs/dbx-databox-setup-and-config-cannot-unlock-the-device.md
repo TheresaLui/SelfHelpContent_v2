@@ -20,8 +20,8 @@
 
 ## **Recommended Documents**
 
-* [Data Box FAQ](https://docs.microsoft.com/en-us/azure/databox/data-box-faq#configure-and-connect)<br>
-* [Data Box set up](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-set-up)<br>
+* [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)
+* [Data Box set up](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up)
 
 
 
