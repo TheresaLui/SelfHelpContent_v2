@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="Unable to delegate a subnet to NetApp Resouce Provider"
-	description="Unable to delegate a subnet to NetApp Resouce Provider"
+	pageTitle="Unable to delegate a subnet to NetApp Resource Provider"
+	description="Unable to delegate a subnet to NetApp Resource Provider"
 	service="microsoft.storage"
 	resource="storage"
 	authors="ramMSFT"
