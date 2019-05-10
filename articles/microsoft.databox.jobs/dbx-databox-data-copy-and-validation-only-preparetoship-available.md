@@ -17,7 +17,7 @@
 
 # Data Box - Data copy and validation
 
-## **Can't use the device, only 'Prepare to ship' is available**
+**Can't use the device, only 'Prepare to ship' is available**
 
 ## **Recommended Steps**
 1. Log a Support request.
