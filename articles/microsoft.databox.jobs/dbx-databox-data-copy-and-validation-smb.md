@@ -17,9 +17,10 @@
 
 # Data Box - Data copy and validation
 
-## **Can't access the SMB shares**
+**Can't access the SMB shares**
 
 ## **Recommended Steps**
+
 To access the SMB shares for Data Box, type:
 'net use \\\\<IP address of the device\>\\<share name\> /u:\<user name for the share\>'
 
@@ -30,4 +31,5 @@ Depending upon your data format, the share paths are as follows:
 * Azure Files - \\\\< IP-address-of-Data-Box\>\\<storage-account-name\>_AzFile
 
 ## **Recommended Documents**
+
 * [Data copy using SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data)
