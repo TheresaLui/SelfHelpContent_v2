@@ -15,17 +15,15 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-# We ran diagnostics on your resource and found an issue
+# Your resource was unavilable during a 30-second update
 
 <!--issueDescription-->
-## **VM Availability incident diagnostic information for <!--$vmname-->Virtual machine<!--/$vmname-->:** ##
-
-We identified that your VM became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated memory-preserving update action**.
+We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This  occurrence was caused by an **Azure initiated memory-preserving update action**.
 <!--/issueDescription-->
 
-The memory-preserving update action was performed on the physical node where the virtual machine was hosted. This caused your VM to be unavailable for less than 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.<br>
+The update process succeeded but note that the VM was unavailable for 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-To learn more about our memory-preserving updates, see [Planned maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/).<br>
+This update is part of the maintenance on the underlying hosts routinely performed for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed. To learn more about our maintenance and update process, see [Maintenance for virtual machines in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-planned-maintenance/).<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 
@@ -38,4 +36,3 @@ Microsoft Azure also provides access to resource health and troubleshooting info
 
 To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).<br>
 
-We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
