@@ -12,12 +12,12 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    	articleId="32639203"
 />
 
 # Data Box - Data copy and validation
 
-## **Device is noisy**
+**Device is noisy**
 
 ## **Recommended Steps**
 1. Make sure that the Data Box front and the rear doors are open for proper airflow.
