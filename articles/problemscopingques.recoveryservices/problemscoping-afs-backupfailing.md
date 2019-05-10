@@ -45,11 +45,11 @@
 			"infoBalloonText": "Check Azure File Share backup <a href='https://aka.ms/BKP-AFS-backuptshooting'>Troubleshooting</a> article",
 			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
-					"value": "Ensured the protected file share is exist",
-					"text": "Ensured the protected file share is exist"
+					"value": "Ensured the protected file share is exists",
+					"text": "Ensured the protected file share is exists"
 			},{
-					"value": "Ensured the storage account exist in the Resource Group",
-					"text": "Ensured the storage account exist in the Resource Group"
+					"value": "Ensured the storage account exists in the Resource Group",
+					"text": "Ensured the storage account exists in the Resource Group"
 			},{
 					"value": "Ensured the storage account is supported by File Share backup",
 					"text": "Ensured the storage account is supported by File Share backup"
