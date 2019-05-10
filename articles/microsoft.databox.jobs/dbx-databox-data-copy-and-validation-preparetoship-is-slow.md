@@ -17,5 +17,6 @@
 
 # Data Box - Data copy and validation
 
-## **Prepare to ship is slow**
+**Prepare to ship is slow**
+
 You may experience slow speeds during prepare to ship if you have a large number of small files.
