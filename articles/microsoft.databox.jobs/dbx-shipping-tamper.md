@@ -12,14 +12,15 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    	articleId="32639209"
 />
 
 # Data Box - Data copy and validation
 
-## **Copy is slow**
+**Copy is slow**
 
 ## **Recommended Steps**
+
 Perform the following steps before you reachout to support
 1. Take a picture of the damaged package
 2. Do not use the device/disks
@@ -28,4 +29,5 @@ Perform the following steps before you reachout to support
 5. Create a new order for device/disks
 
 ## **Recommended Documents**
+
 * [Damage and Tamper FAQ](https://docs.microsoft.com/azure/databox/data-box-faq#ship-device)
