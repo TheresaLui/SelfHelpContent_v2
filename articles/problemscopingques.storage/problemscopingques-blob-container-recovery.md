@@ -28,7 +28,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Name of Container to recover",
-            "watermarkText": "ContainerName",
+            "watermarkText": "container1;container2;container3",
             "required": true
         },
         {
@@ -43,7 +43,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         },
         {

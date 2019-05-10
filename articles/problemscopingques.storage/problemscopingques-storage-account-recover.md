@@ -2,6 +2,7 @@
 	pageTitle="Recover deleted Storage Account"
 	description="Recover deleted Storage Account scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602701"
 	productPesIds="15629"
@@ -27,7 +28,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Name of the deleted Storage Account",
-            "watermarkText": "StorageAccountName",
+            "watermarkText": "accountname1;accountname2;accountname3",
             "required": true
         },
         {
