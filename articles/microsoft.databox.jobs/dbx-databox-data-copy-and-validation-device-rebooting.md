@@ -19,5 +19,5 @@
 **The device reboots continually or is unresponsive**
 
 ## **Recommended Steps**
-1. Power cycle the device
-2. If the issue persists, log a [Support ticket] (https://docs.microsoft.com/en-us/azure/databox/data-box-disk-contact-microsoft-support) <br>
+1. Power cycle the device.
+2. If the issue persists, log a [Support ticket](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-contact-microsoft-support)
