@@ -18,9 +18,10 @@
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "device name",
+			"id": "dev_name",
 			"order": 1,
 			"controlType": "dropdown",
+			"displayLabel": "Device name",
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
                 "jTokenPath": "value",
