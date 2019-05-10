@@ -32,7 +32,7 @@ To test the VMBA alerts, go to **Security Center** > **Computer & apps** > **VMs
 
 When you see the monitoring status of **Monitored by Azure Security Center**, run alert simulation to check the alert pipeline [Alerts Validation in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-alert-validation).
 
-In addition to this test, customers can use our playbooks to generate wide range of alerts:
+In addition to this test, customers can use our playbooks to generate wide range of alerts:<br>
  
 * [Playbook 1](https://gallery.technet.microsoft.com/Azure-Security-Center-549aa7a4)<br>
 * [Playbook 2](https://gallery.technet.microsoft.com/Azure-Security-Center-f621a046)
