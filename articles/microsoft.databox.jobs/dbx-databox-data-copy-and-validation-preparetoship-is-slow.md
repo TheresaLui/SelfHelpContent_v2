@@ -19,4 +19,6 @@
 
 **Prepare to ship is slow**
 
+## **Recommended Steps**
+
 You may experience slow speeds during prepare to ship if you have a large number of small files.
