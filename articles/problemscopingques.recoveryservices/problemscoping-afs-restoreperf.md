@@ -64,11 +64,11 @@
 			"displayLabel": "Which type of data is present in Azure File share?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
-					"value": "Large number of small files",
-					"text": "Large number of small files"
+					"value": "Large number of small size files",
+					"text": "Large number of small size files"
 				},{
-					"value": "Small number of Large file",
-					"text": "Small number of Large files"
+					"value": "Small number of Large size file",
+					"text": "Small number of Large size files"
 				},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
@@ -79,7 +79,7 @@
 			"id": "Data_hierarchy",
 			"order": 6,
 			"controlType": "dropdown",
-			"infoBalloonText": "Note: If there are more number of directories, restore is expected to be slower",
+			"infoBalloonText": "Note: If there are more number of directories then restore is expected to be slower",
 			"displayLabel": "How is the directory to file ratio in Azure File share?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
