@@ -62,7 +62,7 @@
 			"controlType": "dropdown",
 			"infoBalloonText": "Note: Restore time is proportional to the number of files",
 			"displayLabel": "Which type of data is present in Azure File share?",
-			"watermarkText": "Select"
+			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Large number of small files",
 					"text": "Large number of small files"
@@ -81,7 +81,7 @@
 			"controlType": "dropdown",
 			"infoBalloonText": "Note: If there are more number of directories, restore is expected to be slower",
 			"displayLabel": "How is the directory to file ratio in Azure File share?",
-			"watermarkText": "Select"
+			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "More directories",
 					"text": "More directories"
@@ -100,7 +100,7 @@
 			"controlType": "dropdown",
 			"infoBalloonText": "Note: If other applications are consuming File share IOPS then restore is expected to be slower",
 			"displayLabel": "Are other applications using the same File share?",
-			"watermarkText": "Select"
+			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Yes",
 					"text": "Yes"
