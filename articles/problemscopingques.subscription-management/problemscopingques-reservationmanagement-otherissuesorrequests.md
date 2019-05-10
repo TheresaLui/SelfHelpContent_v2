@@ -42,6 +42,10 @@
                     "text": "SQL database"
                 },
                 {
+                    "value": "Cosmos DB",
+                    "text": "Cosmos DB"
+                },
+		 {
                     "value": "SUSE Software",
                     "text": "SUSE Software"
                 },

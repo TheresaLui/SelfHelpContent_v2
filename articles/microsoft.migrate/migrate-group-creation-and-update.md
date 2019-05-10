@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Group creation and updates"
-	description="Azure Migrate Group creation and updates"
+	pageTitle="Dependency visualization in Azure Migrate"
+	description="Dependency visualization in Azure Migrate"
 	service="microsoft.migrate"
 	resource="projects"
 	authors="shijojoy"

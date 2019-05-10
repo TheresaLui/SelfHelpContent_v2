@@ -16,6 +16,9 @@
 
 # licensing/general questions
 
+* [What is End of Support for SQL Server and Windows Server 2008 and 2008 R2?](https://www.microsoft.com/cloud-platform/extended-security-updates)
+
+
 * **How can I install my licensed copy of SQL Server on an Azure VM?**
 
 	There are two ways to do this. You can provision one of the [virtual machine images that supports licenses](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview#BYOL), which is also known as bring-your-own-license (BYOL). Another option is to copy the SQL Server installation media to a Windows Server VM, and then install SQL Server on the VM. However, if you install SQL Server manually, there is no portal integration and the SQL Server IaaS Agent Extension is not supported, so features such as Automated Backup and Automated Patching will not work in this scenario. For this reason, we recommend using one of the BYOL gallery images. To use BYOL or your own SQL Server media on an Azure VM, you must have [License Mobility through Software Assurance](https://azure.microsoft.com/pricing/license-mobility/) on Azure.
