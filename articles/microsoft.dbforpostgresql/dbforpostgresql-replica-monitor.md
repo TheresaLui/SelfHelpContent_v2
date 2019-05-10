@@ -57,7 +57,7 @@ Periodically, an agent does a check on the master and on the replica. If you don
 
    The *application_name* column provides the replica names. The *active* column indicates the status of replication. If one of the values of *active* is false, streaming replication is inactive between the master and that replica. This may be because the replica or master recently experienced a restart. In that case, streaming replication should resume shortly. 
 
-2. If *active* is true for all replicas, then it is likely that there is high write activity on the master. The replicas will eventually catch up, once load on the master reduces.
+2. If *active* is true for all replicas, then it is likely that there is high write activity on the master. The replicas will eventually catch up once load on the master reduces.
 
    If you see that a replica is regularly lagging after a master, consider scaling up the replica so it can replay data faster.
 
