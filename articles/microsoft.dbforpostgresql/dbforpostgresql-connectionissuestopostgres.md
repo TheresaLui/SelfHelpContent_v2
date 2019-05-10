@@ -22,7 +22,7 @@ Persistent connection issues to Azure Databases for PostgreSQL can occur due to 
 
 * [Set up firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules/) to allow the client IP address
 * Follow [connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) on computers that host your client program
-* Fix incorrect connection strings in your application. Go to the [Azure Portal](https://portal.azure.com) and click on the "**Connection Strings**" blade to see sample connection strings.
+* Fix incorrect connection strings in your application. Go to the [Azure Portal](https://portal.azure.com), navigate to your server and click on the "**Connection Strings**" blade to see sample connection strings
 
 ## **Recommended Documents**
 

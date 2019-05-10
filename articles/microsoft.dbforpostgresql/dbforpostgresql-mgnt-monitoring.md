@@ -16,7 +16,7 @@
 
 # Monitoring Azure Database for PostgreSQL servers
 
-You can monitor your Azure Database for PostgreSQL server using a default set of metrics through the Azure portal. You have the option to create alerts on these metrics, and have access to the PostgreSQL server logs. Our integration with Azure Monitor Diagnostic Logs allows you to store the logs for a longer retention period and use third party tools to consume them.
+You can monitor your Azure Database for PostgreSQL server using a default set of metrics through the Azure portal. You have the option to create alerts on these metrics and have access to the PostgreSQL server logs. Our integration with Azure Monitor Diagnostic Logs allows you to store the logs for a longer retention period and use third party tools to consume them.
 
 ## **Recommended Steps**
 

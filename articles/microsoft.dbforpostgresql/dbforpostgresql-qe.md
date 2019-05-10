@@ -23,7 +23,7 @@ Query execution problems can because by the database engine itself or by the int
 * Check your queries for any changes that might have caused the unexpected behavior
 * Monitor the resource consumption of your server and increase your I/O and or compute resources should your workload max out the available resources
 * If you are experiencing issues such as timeouts or the loss of connectivity, check the [Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues) documentation
-* Search the internet for solutions from the PostgreSQL community
+* Reach out to the PostgreSQL community on the internet for possible solutions
 
 ## **Recommended Documents**
 

@@ -16,7 +16,7 @@
 
 # Migration tools for Azure Database for PostgreSQL
 
-You can use the Azure Database Migration Service to perform an online migration of PostgreSQL databases running on-premises, in a virtual machine, or on Amazon RDS or EC2 to [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/). Online migrations provide for minimal downtime to the application.
+You can use the Azure Database Migration Service to perform an online migration of PostgreSQL databases running on-premises, in a virtual machine, or on Amazon RDS or EC2 to [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/). Online migrations provide minimal downtime to the application.
 
 ## **Recommended Steps**
 

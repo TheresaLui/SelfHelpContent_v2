@@ -16,7 +16,7 @@
 
 # Security in Azure Database for PostgreSQL
 
-Azure Database for PostgreSQL comes with a rich set of security features including server level firewall rules, encryption for data at rest and in flight, VNet service endpoints, and Advanced Threat Protection. Currently not support are engine level auditing capabilities, bring your own key for data encryption at rest, and injecting a server directly into a VNet with dedicated private IP.
+Azure Database for PostgreSQL comes with a rich set of security features including server level firewall rules, encryption for data at rest and in flight, VNet service endpoints, and Advanced Threat Protection. Currently we do not support encryption at rest with customer keys and injecting a server directly into a VNet with a dedicated private IP.
 
 ## **Recommended Documents**
 
