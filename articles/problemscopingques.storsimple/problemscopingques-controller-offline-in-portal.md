@@ -36,7 +36,7 @@
 						"text": "Not specific to a destination device"
 					}
 				],
-				"required": false		
+				"required": false
 		}, {
 			"id": "controller",
 			"order": 2,
@@ -49,7 +49,7 @@
 				}, {
 					"value": "Controller 1",
 					"text": "Controller 1"
-				} 
+				}
 			],
 			"required": false
 		}, {
@@ -80,7 +80,7 @@
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
-			"useAsAdditionalDetails": false
+			"useAsAdditionalDetails": true
 		}
 	]
 }
