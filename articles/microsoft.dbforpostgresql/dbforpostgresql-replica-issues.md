@@ -26,7 +26,7 @@ Most users are able to resolve their issue using the steps below.
    ```
    SELECT pg_is_in_recovery();
    ```
-   If this returns false, you are not connected to a replica server. Look at the username field(username@severname) in your connection string. Confirm that the servername is the replica's.
+   If this returns false, you are not connected to a replica server. Look at the username field(username@severname) in your connection string. Confirm that the servername is the same as that of the replica.
 
 
 **Issue:** Queries on the replica fail with error message "Canceling statement due to conflict with recovery. User query might have needed to see row versions that must be removed." 

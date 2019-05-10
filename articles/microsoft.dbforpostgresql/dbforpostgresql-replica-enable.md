@@ -33,6 +33,7 @@ The *Disable Replication Support* button controls the ability of the master serv
 4. If what you want to do is stop replication to an individual replica, making it a read/write server, [learn how to do so from the documentation](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal#stop-replication). 
 
 
+
 **Issue:** Cannot find the parameter `azure.replication_support` in the portal.
 
 In the Azure portal, this setting is presented as the button *Enable Replication Support* or *Disable Replication Support* in the Replication page toolbar.
