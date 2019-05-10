@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-- [Create Azure NetApp Files account](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
+- [Create Azure NetApp Files account](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
 
