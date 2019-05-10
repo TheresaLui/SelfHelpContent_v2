@@ -30,12 +30,6 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
 			},
-				"dropdownOptions": [
-					{
-						"value": "NoDestinationDevice",
-						"text": "Not specific to a destination device"
-					}
-				],
 				"required": false
 		}, {
 			"id": "controller",
@@ -62,8 +56,8 @@
 					"value": "Yes",
 					"text": "Yes"
 				}, {
-					"value": "Yes",
-					"text": "Yes"
+					"value": "No",
+					"text": "No"
 				}
 			],
 			"required": false
