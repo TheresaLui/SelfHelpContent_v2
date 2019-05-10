@@ -37,10 +37,9 @@ For replica servers we provide a *Replica lag* metric.
 
 The *Replica lag* metric is calculated as 
 
-
-```SQL
-SELECT EXTRACT(EPOCH FROM now() - pg_last_xact_replay_timestamp());
-```
+   ```SQL
+   SELECT EXTRACT(EPOCH FROM now() - pg_last_xact_replay_timestamp());
+   ```
 
 The metric indicates the last time since a log record from the master was applied to this replica. When there is no load on the master, this metric value continues to increase. 
 
