@@ -17,7 +17,7 @@
 
 # Security Alerts - Alert investigation doesn't work Common Solutions
 
-The alerts and incidents investigation experience will be retired on July 31, 2019. For more information and alternative services, see [Retirement of Security Center features (July 2019)](https://docs.microsoft.com/azure/security-center/security-center-custom-alert).
+The alerts and incidents investigation experience will be retired on July 31, 2019. For more information and alternative services, see [Retirement of Security Center features (July 2019).](https://docs.microsoft.com/azure/security-center/security-center-custom-alert)
 
 * [Custom alerts](https://docs.microsoft.com/azure/security-center/security-center-custom-alert) are not supported in the Security Center investigation feature.<br>
 * Investigation is only supported for alerts based on data collected from Windows servers, and Windows server data stored on the customer workspace.<br>
