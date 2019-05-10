@@ -12,11 +12,12 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
+	articleId="32639195"
 />
 
 # Data Box setup and configuration
 
-## **Can't unlock the Data Box**
+**Can't unlock the Data Box**
 
 ## **Recommended Documents**
 
