@@ -62,8 +62,8 @@
 			"id": "error_code",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "Provide the error code if you are seeing:",
-			"watermarkText": "Example: DataTransferServiceCoFLimitReached",
+			"displayLabel": "Provide the error message that you are seeing:",
+			"watermarkText": "Copy and paste error message text here",
 			"required": false
 	},{
 		  "id": "problem_start_time",
