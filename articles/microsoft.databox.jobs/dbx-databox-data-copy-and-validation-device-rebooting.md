@@ -20,4 +20,4 @@
 
 ## **Recommended Steps**
 1. Power cycle the device.
-2. If the issue persists, log a [Support ticket](https://docs.microsoft.com/en-us/azure/databox/data-box-disk-contact-microsoft-support)
+2. If the issue persists, log a [Support ticket](https://docs.microsoft.com/azure/databox/data-box-disk-contact-microsoft-support)
