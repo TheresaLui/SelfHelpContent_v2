@@ -44,6 +44,7 @@
         {
             "id": "os_version",
             "order": 2,
+	    "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted system?",
             "watermarkText": "ex. Windows 2012 R2",
@@ -52,6 +53,7 @@
         {
             "id": "machine_name",
             "order": 3,
+	    "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the impacted machine",
@@ -60,6 +62,7 @@
         {
             "id": "error_message",
             "order": 4,
+	    "visibility": "issue_Type == Restore from cloud",
             "controlType": "textbox",
             "displayLabel": "Provide the error code that you are seeing:",
             "watermarkText": "Example: DataTransferServiceCoFLimitReached",
