@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    	articleId="32639188"
 />
 
 # Data Box - Data copy and validation
