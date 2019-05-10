@@ -16,7 +16,7 @@
 
 # Azure Stack is showing wrong node status
 
-An Azure Stack is showing the operational node status as “Adding” after an operation like drain, resume, repair, shutdown or start was executed.
+Azure Stack is showing the operational node status as “Adding” after an operation like drain, resume, repair, shutdown or start was executed.
 This can happen when the Fabric Resource Provider Role cache did not refresh after an operation. 
 
 Applies to: Azure Stack build 1808, 1809 and 1811
@@ -25,24 +25,21 @@ Applies to: Azure Stack build 1808, 1809 and 1811
 
 1. Open PowerShell and add your Azure Stack environment. (This requires Azure Stack PowerShell to be installed on your computer)
 
- <code block>
+ ```powershell
 Add-AzureRMEnvironment -Name AzureStack -armendpoint https://adminmanagement.local.azurestack.external
 Add-AzureRMAccount -Environmentname AzureStack
-</code block>
-
+```
 
 2. Run the following command to restart the Fabric Resource Provider Role.
 
-<code block>
+```powershell
 Restart-AzsInfrastructureRole -Name FabricResourceProvider
-</code block>
-
+```
 
 3. Validate the operational status of the impacted Scale Unit node changed to running. You can use the Admin Portal or the below PowerShell command:
-<code block>
+```powershell
 Get-AzsScaleUnitNode |ft name,scaleunitnodestatus,powerstate
-</code block>
-
+```
 
 4. If the node operational status is still shown as “Adding” continue to open a support incident.
 
