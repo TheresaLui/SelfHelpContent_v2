@@ -5,9 +5,9 @@
 	resource="servers"
 	authors="rachel-msft"
     ms.author="raagyema"
-	displayOrder="40"
+	displayOrder="55"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32639992"
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
@@ -20,7 +20,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended steps**
 
-**Issue:** Replica server is writeable, or has some other property expected only on master.
+**Issue:** Replica server is writable, or has some other property expected only on master.
 
 1. Connect to your replica server and run the following query: 
    ```
