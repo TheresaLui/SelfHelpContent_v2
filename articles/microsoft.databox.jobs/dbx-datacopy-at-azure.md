@@ -12,12 +12,13 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    	articleId="32639185"
 />
 
 # Data upload at Azure
 
-## **Data copy has failed or completed with errors.**
+**Data copy has failed or completed with errors.**
 
 ## **Recommended Documents**
+
 * [Troubleshoot errors during data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
