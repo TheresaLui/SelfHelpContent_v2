@@ -14,7 +14,7 @@
 	articleId="NetAppConfigDelegateSubnetToNetAppRP"
 />
 
-# Troubleshoot and resolve issue delegating subnet to NetApp Resouce Provider 
+# Troubleshoot and resolve issue delegating subnet to NetApp Resource Provider 
 
 ## **Recommended Documents**
 
