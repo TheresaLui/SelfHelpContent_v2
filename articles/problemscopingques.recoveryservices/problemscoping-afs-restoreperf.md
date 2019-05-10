@@ -112,17 +112,17 @@
 					"text": "Other, don't know or not applicable"
 			}
 		],
-		"required": true
+		"required": false
 	},{
 			"id": "job_Running_Time",
-			"order": 7,
+			"order": 8,
 			"controlType": "textbox",
 			"displayLabel": "Since how long the job is running?",
 			"watermarkText": "Enter time in hours ex. 18hrs",
 			"required": false
 	},{
 			"id": "problem_description",
-			"order": 8,
+			"order": 9,
 			"controlType": "multilinetextbox",
 			"useAsAdditionalDetails": true,
 			"displayLabel": "Additional details",
@@ -131,7 +131,7 @@
 			"hints": []
 	},{
 			"id": "problem_start_time",
-			"order": 9,
+			"order": 10,
 			"controlType": "datetimepicker",
 			"displayLabel": "Problem start time",
 			"required": true
