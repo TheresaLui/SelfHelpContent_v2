@@ -15,7 +15,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public"
 />
-# Your rescoure took a little longer to update
+# Your resource took a little longer to update
 
 <!--issueDescription-->
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This occurrence was caused by an **Azure initiated memory-preserving update action**.
