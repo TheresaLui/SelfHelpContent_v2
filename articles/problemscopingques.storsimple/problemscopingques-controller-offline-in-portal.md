@@ -21,8 +21,6 @@
 			"id": "device name",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Destination device name",
-			"watermarkText": "Choose destination device",
 			"dynamicDropdownOptions": {
 				"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
                 "jTokenPath": "value",
