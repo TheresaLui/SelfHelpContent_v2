@@ -5,7 +5,7 @@
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds=""
+	supportTopicIds="32630497"
 	productPesIds="15438"
 	cloudEnvironments="public"
 	schemaVersion="1"
