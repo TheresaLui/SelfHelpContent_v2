@@ -12,13 +12,15 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
+	articleId="32639207"
 />
 
 # Data Box setup and configuration
 
-## **My Data Box doesn't power up **
+**My Data Box doesn't power up **
 
 ## **Recommended Documents**
+
 * [Data Box set up](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up#cable-your-device)<br>
 * [Data Box FAQ](https://docs.microsoft.com/azure/databox/data-box-faq#configure-and-connect)<br>
 
