@@ -3,7 +3,7 @@
 	description="Why is my data not being automatically refreshed?"
 	service="Microsoft.DataShare"
 	resource="accounts"
-	authoralias="makadiri"
+	ms.author="makadiri"
 	authors="mkadiri3"
 	displayOrder="2"
 	selfHelpType="resource"

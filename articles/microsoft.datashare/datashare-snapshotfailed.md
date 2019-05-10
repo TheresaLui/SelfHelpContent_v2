@@ -4,7 +4,7 @@
 	service="Microsoft.DataShare"
 	resource="accounts"
 	authors="mkadiri3"
-	authoralias="makadiri"
+	ms.author="makadiri"
 	displayOrder="1"
 	selfHelpType="resource"
 	supportTopicIds=""
