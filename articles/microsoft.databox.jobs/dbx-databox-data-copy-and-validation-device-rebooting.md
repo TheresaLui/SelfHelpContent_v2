@@ -16,7 +16,7 @@
 
 # Data Box - Data copy and validation
 
-## **The device reboots continually or is unresponsive**
+**The device reboots continually or is unresponsive**
 
 ## **Recommended Steps**
 1. Power cycle the device
