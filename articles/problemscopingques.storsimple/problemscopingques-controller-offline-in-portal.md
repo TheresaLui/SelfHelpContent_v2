@@ -1,5 +1,5 @@
 <properties
-	articleId="234d6255-c980-4f24-b489-8f8f1dfe8b0e"
+	articleId="eceebe10-2572-4f50-b83c-d759978a1061"
 	pageTitle="Scoping for controller offline in portal"
 	description="Controller offline in portal scoping"
 	authors="Archana-MSFT"
