@@ -66,11 +66,11 @@
 		 ],
 			"required": true
 	},{
-			"id": "error_code",
+			"id": "error_message",
 			"order": 5,
 			"controlType": "textbox",
-			"displayLabel": "Provide the error code that you are seeing:",
-			"watermarkText": "Example: DataTransferServiceCoFLimitReached",
+			"displayLabel": "Provide the error message that you are seeing:",
+			"watermarkText": "Copy and paste error message text here",
 			"required": false
 	},{
 			  "id": "problem_start_time",
