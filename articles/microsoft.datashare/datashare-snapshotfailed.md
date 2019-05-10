@@ -16,4 +16,8 @@
 
 # Why did snapshot fail?
 
-Azure Data Share service needs permission to the Storage Account on the recipient side in order to write data into it. After the storage account is specified by the recipient, it could take a few minutes for the permission to take effect. If snapshot is triggered prior to it, it will fail. If you encounter failure, wait 5-10 minutes and try again.
+The Azure Data Share service requires permission to the target storage account on the Data Consumer side in order for data to be copied successfully. Once the Data Consumer specifies a storage account, it can take a few minutes for the appropriate permission to propagate over to the storage account. In this event, the following steps are recommended:
+
+## **Recommended Steps**
+
+* In this event, Data Consumer should wait approximately 5-10 minutes before re-running the snapshot.
