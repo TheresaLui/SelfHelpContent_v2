@@ -11,13 +11,13 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    	articleId="32639211"
 />
 
 # Data Box - Data copy and validation
 
-## **The device reboots continually or is unresponsive**
+**The device reboots continually or is unresponsive**
 
 ## **Recommended Steps**
-1. Power cycle the device
-2. If the issue persists, log a [Support ticket] (https://docs.microsoft.com/en-us/azure/databox/data-box-disk-contact-microsoft-support) <br>
+1. Power cycle the device.
+2. If the issue persists, log a [Support ticket](https://docs.microsoft.com/azure/databox/data-box-disk-contact-microsoft-support)

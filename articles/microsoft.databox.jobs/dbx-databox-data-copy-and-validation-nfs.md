@@ -12,12 +12,12 @@
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
-    articleId=""
+    articleId="32639189"
 />
 
 # Data Box - Data copy and validation
 
-## **Can't access the NFS shares**
+**Can't access the NFS shares**
 
 ## **Recommended Steps**
 1. To allow the NFS client, add the client IP address on your Data Box .
