@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="60e43f00-7058-40f6-9d12-0768c4ea1cc0"
+	articleId="cosmosdb-admin-backuprestore"
 />
 
 # Requesting backups to test disaster recovery

@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="6f27d08a-b34c-4a15-8aef-2062947fee58"
+	articleId="cosmosdb-portal-dxseerror"
 />
 
 # I am getting an error when browsing data through Azure Cosmos DB Data Explorer

@@ -9,7 +9,8 @@
 	supportTopicIds="32636824"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"	articleId="1e033ba3-fbf7-485b-9d07-97d19630591f"
+	cloudEnvironments="public"	
+	articleId="cosmosdb-admin-azurecli-powershell"
 />
 
 # Unable to create a collection with unique key from Azure CLI

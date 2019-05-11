@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="6a7f991f-3c7f-4c80-97b4-dfee652ce2f6"
+	articleId="cosmosdb-admin-securityvnetendpoint"
 />
 
 # Connection failure after VNet service endpoint configuration

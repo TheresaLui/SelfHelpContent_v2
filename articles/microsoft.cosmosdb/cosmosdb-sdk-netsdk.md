@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="55330c70-ad11-4237-9e81-63cfba2c4af7"
+	articleId="cosmosdb-sdk-netsdk"
 />
 
 # Introduction to Azure Cosmos DB .NET SDK

@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="247445e5-33c2-4c5d-9d07-4061b3567165"
+	articleId="cosmosdb-mongodbauthentication"
 />
 # MongoDB - Authentication
 

@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="5129c175-f8aa-4928-a1d1-e2c66d4e2e25"
+	articleId="cosmosdb-authentication"
 />
 
 # Authentication in Azure Cosmos DB

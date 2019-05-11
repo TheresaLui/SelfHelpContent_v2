@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="2656f397-3f16-4a3f-bd2e-b8552509e265"
+	articleId="cosmosdb-connectivity"
 />
 
 # Connectivity in Azure Cosmos DB

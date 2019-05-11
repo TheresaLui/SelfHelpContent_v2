@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="e07d3422-22a3-4597-9e7b-3abc1e483f17"
+	articleId="cosmosdb-admin-requesttimeout"
 />
 
 # Server-side stored procedure, trigger, or UDF returns timeouts
@@ -24,8 +24,8 @@ Please proceed to create a support ticket if you are getting timeouts for non bu
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs)
-* [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/programming#bounded-execution)
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
+* [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs#bounded-execution)
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
 * [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)

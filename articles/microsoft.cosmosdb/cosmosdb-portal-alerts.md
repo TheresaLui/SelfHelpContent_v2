@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="e6ed4937-a32d-4f33-bbea-ac496ed3928e"
+	articleId="cosmosdb-portal-alerts"
 />
 
 # Monitor Cosmos DB with alerts

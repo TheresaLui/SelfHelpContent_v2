@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="d6766c56-ec95-4202-af53-3479618125c1"
+	articleId="cosmosdb-cassandra-connectivity"
 />
 
 # Unable to connect to Azure Cosmos DB Cassandra API 

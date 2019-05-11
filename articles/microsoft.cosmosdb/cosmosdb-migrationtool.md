@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="e89acffa-b7af-4817-baa8-a4b69c91b890"
+	articleId="cosmosdb-migrationtool"
 />
 # Data Migration tool
 

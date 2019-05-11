@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="5eb6a3fd-aecd-4acc-a902-41d1179aa4cc"
+	articleId="cosmosdb-sql-error-incorrect-result"
 />
 
 # Errors for SQL API in Azure Cosmos DB

@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="4fa8f8f4-2799-4a1c-8fec-c8b8fa09800a"
+	articleId="cosmosdb-cassandra-authentication"
 />
 
 # Authentication failure error when connecting to Azure Cosmos DB Cassandra collection

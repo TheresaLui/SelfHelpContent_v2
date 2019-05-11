@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="56bbc8eb-5f95-4cfb-ada2-7d99021bd01b"
+	articleId="cosmosdb-performancetips"
 />
 
 # Performance tips for Azure Cosmos DB

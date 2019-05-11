@@ -21,5 +21,5 @@ Refer to below documents for an overview of server-side programming in Azure Cos
 
 ## **Recommended documents**
 
-* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs)
-* [Bounded execution](https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs#bounded-execution)
+* [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
+* [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs#bounded-execution)

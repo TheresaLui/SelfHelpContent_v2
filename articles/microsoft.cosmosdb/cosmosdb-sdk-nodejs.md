@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="535d0369-58e8-4003-9339-fc27fd308a77"
+	articleId="cosmosdb-sdk-nodejs"
 />
 
 # Introduction to Azure Cosmos DB Node.js SDK

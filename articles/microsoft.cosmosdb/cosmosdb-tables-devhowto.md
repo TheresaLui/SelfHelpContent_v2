@@ -9,7 +9,8 @@
 	supportTopicIds="32636750"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"	articleId="f07ae40c-ed6b-43af-a24a-60eed7639e78"
+	cloudEnvironments="public"	
+	articleId="cosmosdb-tables-devhowto"
 />
 
 # How to develop applications with Azure Cosmos DB Table API

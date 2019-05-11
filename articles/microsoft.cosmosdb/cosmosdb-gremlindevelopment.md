@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="28c1a6a3-0b88-4876-bed0-323415d525ac"
+	articleId="cosmosdb-gremlindevelopment"
 />
 # Gremlin - How to develop apps to manage data in Gremlin API?
 

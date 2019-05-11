@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="d524f3b8-e5d1-4ec8-bba1-89187b0130db"
+	articleId="cosmosdb-mongodbunsupported"
 />
 
 # MongoDB API Support

@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="e3893373-501f-48bf-88b5-81a9cc59c650"
+	articleId="cosmosdb-sdk-java"
 />
 
 # Cosmos DB Java SDK Issues

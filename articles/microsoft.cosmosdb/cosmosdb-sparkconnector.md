@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="3d4805fd-869a-4c92-829c-057fa738757a"
+	articleId="cosmosdb-sparkconnector"
 />
 # Azure Cosmos DB Spark Connector
 
