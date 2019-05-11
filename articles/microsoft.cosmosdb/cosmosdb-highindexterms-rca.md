@@ -5,6 +5,7 @@
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
+	ms.author="rnagpal"
 	articleId="cosmosdb-highindexterms-rca"
   	selfHelpType="rca"
 	resourceTags=""

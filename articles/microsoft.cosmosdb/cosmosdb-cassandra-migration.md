@@ -3,7 +3,7 @@
 	description="Cassandra migration"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaks"
+	authors="balaksms"
 	ms.author="balaks"
 	selfHelpType="generic"
 	supportTopicIds="32615108"
