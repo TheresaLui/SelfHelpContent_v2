@@ -16,7 +16,7 @@
 
 ## **Recommended Steps**
 
-* Please upgrade to [Cosmos DB Spark connector 1.3.5+ from Maven](https://search.maven.org/artifact/com.microsoft.azure/azure-cosmosdb-spark_2.4.0_2.11/1.3.5/jar) and Spark 2.4.0 for common reliability fixes
+* Please upgrade to Cosmos DB Spark connector 1.3.5+ from Maven and Spark 2.4.0 for common reliability fixes.
 * Import the uber jar from the Maven drop location above. There is a known issue with using Maven coordinates in Azure Databricks.
 * If you run into "Request rate too large", you may have to increase the configs for `query_maxretryattemptsonthrottledrequests` or `query_maxretrywaittimeinseconds`
 * If your Spark job is unable to use your full provisioned RUs, review your partition key for hot spots, and tune the number of cores/executors to match the provisioned throughput (executor per 5-10k RU as a thumb rule), and review the data sort order for ordering skews (you may need to shuffle)
