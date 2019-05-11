@@ -3,6 +3,7 @@
 	description="Authentication"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
+	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="generic"
 	supportTopicIds="32636770"

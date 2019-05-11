@@ -16,6 +16,7 @@
 # SQL queries for Azure Cosmos DB
 
 Common reasons for slow queries are:
+
 * Low provisioned throughput.
 * Low parallelism (for cross partition queries).
 * Using operators that can only by served via scans like CONTAINS. When possible, write queries to use a filter on partition key.
