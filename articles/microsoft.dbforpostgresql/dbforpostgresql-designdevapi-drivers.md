@@ -7,7 +7,7 @@
     ms.author="janeng"
 	displayOrder="11"
 	selfHelpType="resource"
-	supportTopicIds="32628431"
+	supportTopicIds="32639972"
 	resourceTags="servers, databases"
 	productPesIds="16222"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 # Connecting to Azure Databases for PostgreSQL
 
-Azure Database for PostgreSQL uses the community edition of PostgreSQL. As such, most drivers and tools are able to connect to the service. There are, however, some limitations in functionality because Azure database for PostgreSQL is a fully managed platform as a service.
+Azure Database for PostgreSQL uses the community edition of PostgreSQL. As such, most drivers and tools can connect to the service. There are, however, some limitations in functionality because Azure database for PostgreSQL is a fully managed platform as a service.
 
 ## **Recommended Steps**
 
