@@ -19,7 +19,7 @@ You can create and manage Azure Cosmos DB accounts from an ARM template or Power
 
 ## Creating an account using ARM template
 
-* Using the appropriate ARM template, create your database account in a [single region](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-arm-template/)  or [multiple regions](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-multi-region-account/)
+* Using the appropriate ARM template, create your database account in a [single region](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-account/)  or [multiple regions](https://azure.microsoft.com/resources/templates/101-cosmosdb-create-multi-region-account/)
  
 
 ## Creating an account using PowerShell
