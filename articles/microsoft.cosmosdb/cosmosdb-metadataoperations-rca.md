@@ -4,7 +4,7 @@
 	infoBubbleText="Found information related to Machine Key Status. See details on the right."
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas
+	authors="bharathsreenivas"
 	ms.author="bharathb"
 	articleId="cosmosdb-metadataoperations-rca"
   	selfHelpType="rca"

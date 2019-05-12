@@ -4,7 +4,7 @@
 	infoBubbleText="MongoDB connections to your account were closed due to timeouts. See the details on the right."
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas
+	authors="bharathsreenivas"
 	ms.author="bharathb"
 	articleId="cosmosdb-mongoconnection-rca"
   	selfHelpType="rca"

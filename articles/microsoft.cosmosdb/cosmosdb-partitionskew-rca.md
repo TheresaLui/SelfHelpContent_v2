@@ -4,7 +4,7 @@
 	infoBubbleText="Highly skewed partitions detected for one of the collections. See details on the right"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas
+	authors="bharathsreenivas"
 	ms.author="bharathb"
 	articleId="cosmosdb-partitionskew-rca"
   	selfHelpType="rca"
