@@ -5,12 +5,13 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="generic"
-	supportTopicIds="32636791,32636806,32636826"
+	displayOrder="120"
+	selfHelpType="resource"
+	supportTopicIds="32597496, 32597552, 32597539"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="cosmosdb-billing-pricing"
+	articleId="e2418fdb-2274-4ee9-93d0-4ebf643a87f6"
 />
 
 # Pricing in Azure Cosmos DB
