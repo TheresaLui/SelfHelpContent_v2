@@ -18,8 +18,22 @@
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
-			"id": "controller",
+			"id": "dev_name",
 			"order": 1,
+			"controlType": "dropdown",
+			"displayLabel": "Device Name",
+			"watermarkText": "Choose device",
+			"dynamicDropdownOptions": {
+				"uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourcename}/devices?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+			},
+				"required": false
+			},{
+			"id": "controller",
+			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Select the controller that is shown offline",
 			"watermarkText": "Choose an option",
@@ -34,7 +48,7 @@
 			"required": false
 		}, {
 			"id": "serial_access",
-			"order": 2,
+			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Do you have access to the device through the serial console",
 			"watermarkText": "Choose an option",
@@ -49,13 +63,13 @@
 			"required": false
 		},{
 			"id": "problem_start_time",
-			"order": 3,
+			"order": 4,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 4,
+			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
