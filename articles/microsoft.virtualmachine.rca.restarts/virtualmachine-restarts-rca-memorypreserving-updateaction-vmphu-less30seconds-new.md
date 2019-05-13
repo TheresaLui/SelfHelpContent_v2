@@ -23,9 +23,7 @@ We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** beca
 
 The update process succeeded, but note that the VM was unavailable for 30 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br> 
 
-This update is part of routine maintenance on the underlying hosts for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed.<br>
-
-No action is needed from you.<br>
+This update is part of routine maintenance performed on the underlying hosts for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed. No action is needed from you.<br>
 
 ## Resources
 
