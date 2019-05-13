@@ -15,6 +15,8 @@
 
 # Performance tips for Azure Cosmos DB
 
+## **Recommended Steps**
+
 In order to achieve the best performance for applications using Azure Cosmos DB, ensure that you are following below tips:
 
 1. For .NET clients use Direct/TCP connectivity mode and for Java clients use Direct/HTTPS connectivity mode for best performance.
@@ -25,7 +27,7 @@ In order to achieve the best performance for applications using Azure Cosmos DB,
 6. Review your indexing policy and explicitly include paths you need for queries (if possible).
 7. Larger documents consume higher RUs for reads and writes, so try to keep your documents small for best performance.
 
-## **Recommended documents**
+## **Recommended Documents**
 * [Performance tips for Azure Cosmos DB and .NET](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Performance tips for Azure Cosmos DB and Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java)
 * [Performance tips for Azure Cosmos DB and Async Java](https://docs.microsoft.com/azure/cosmos-db/performance-tips-async-java)

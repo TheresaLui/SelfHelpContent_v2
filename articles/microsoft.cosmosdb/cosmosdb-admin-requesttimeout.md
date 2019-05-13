@@ -19,10 +19,12 @@ The application should check for the return value of the operation and handle an
 
 The best practice for any bulk operation using server-side programming is to implement batching using top 100 or 1000. The server-side call  should be returned as soon as the batch limit is reached. The client application can then call the server-side code again in a loop to complete the bulk process.
 
+## **Recommended Steps**
+
 Please proceed to create a support ticket if you are getting timeouts for non bulk operations.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Azure Cosmos DB server-side programming: Stored procedures, database triggers, and UDFs](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs)
 * [Bounded execution](https://docs.microsoft.com/azure/cosmos-db/stored-procedures-triggers-udfs#bounded-execution)

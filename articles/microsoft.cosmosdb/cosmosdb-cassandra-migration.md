@@ -12,11 +12,12 @@
 	cloudEnvironments="public"
 	articleId="cosmosdb-cassandra-migration"
 />
+
 # Migrate data to Azure Cosmos DB Cassandra API
 
+## **Recommended Steps**
+
 Review the following document to learn how prerequisites for migration and how to migrate data.
-
-
 
 
 ## **Recommended Documents**

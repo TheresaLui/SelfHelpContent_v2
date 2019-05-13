@@ -24,7 +24,6 @@ To resolve this issue, try the following methods:
 * Ensure that SSL is enabled in the connection options.
 
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Securing access to Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data)

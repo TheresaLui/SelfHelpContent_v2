@@ -7,13 +7,15 @@
 	authors="bharathsreenivas"
 	ms.author="bharathb"
 	articleId="cosmosdb-quota-rca"
-  	selfHelpType="rca"
+	selfHelpType="rca"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-We found that your collection has reached its storage limit
+We found that your collection has reached its storage limit.
 <!--/issueDescription-->
+
+## **Recommended Steps**
 It appears that you have reached the storage limit for your fixed collection. You will not be able to add more data into this collection. Please migrate the data into a partitioned collection to avoid hitting quota issues.

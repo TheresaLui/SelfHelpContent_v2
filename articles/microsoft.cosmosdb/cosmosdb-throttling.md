@@ -15,6 +15,8 @@
 
 # Rate limiting in Azure Cosmos DB
 
+## **Recommended Steps**
+
 * You may have not provisioned enough RUs to meet your per-second request rates. The throughput (RUs) can be increased via the Azure portal or the Cosmos DB SDKs.
 * If your application is not latency sensitive, you can keep the RUs fixed and increase the number of retries in your client application. For the core (SQL) API, this is available as a configuration in the native SDKs.
 * If your throughput utilization is low overall, but you still see rate limiting, you may have to review your [partition key](https://docs.microsoft.com/azure/cosmos-db/partition-data) selection for skews. See [Synthetic partition keys](https://docs.microsoft.com/azure/cosmos-db/synthetic-partition-keys) for some solutions to deal with skews.

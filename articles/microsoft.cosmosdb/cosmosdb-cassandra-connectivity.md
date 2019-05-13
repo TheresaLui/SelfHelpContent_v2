@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Connectivity to Azure Cosmos DB Cassandra API"
-  	description="Connectivity to Azure Cosmos DB Cassandra API"
+	description="Connectivity to Azure Cosmos DB Cassandra API"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="balaksms"
@@ -15,6 +15,8 @@
 
 # Unable to connect to Azure Cosmos DB Cassandra API 
 
+## **Recommended Steps**
+
 To resolve this issue, try one or more of the following methods:
 
 * Review the firewall configuration for your Cosmos DB account and confirm that the list of approved IP addresses includes that of the client attempting to connect to your Cosmos DB Cassandra account.
@@ -26,7 +28,7 @@ To resolve this issue, try one or more of the following methods:
 * Ensure that the SSL is enabled in the connection options.
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Connect to Azure Cosmos DB Cassandra API using .Net](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-dotnet#review-the-code)
 * [Connect to Azure Cosmos DB Cassandra API using Java](https://docs.microsoft.com/azure/cosmos-db/create-cassandra-java#review-the-code)
