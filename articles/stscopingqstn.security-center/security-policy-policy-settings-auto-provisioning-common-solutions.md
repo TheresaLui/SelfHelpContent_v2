@@ -25,10 +25,10 @@ When automatic provisioning is set to **on**, **Security Center** provisions the
 
 Windows or Linux IaaS VMs qualify for automatic provisioning of the **Microsoft Monitoring Agent** installation if the following conditions apply:
 
-* The Microsoft Monitoring Agent extension is not currently installed on the VM.
-* The VM is in running state.
-* The Windows or Linux [Azure Virtual Machine Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows) is installed.
-* The VM is not used as an appliance such as web application firewall or next generation firewall.
+* The Microsoft Monitoring Agent extension is not currently installed on the VM
+* The VM is in running state
+* The Windows or Linux [Azure Virtual Machine Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows) is installed
+* The VM is not used as an appliance such as web application firewall or next generation firewall
 
 ## **Recommended Documents**
 
