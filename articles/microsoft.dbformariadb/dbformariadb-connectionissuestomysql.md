@@ -21,7 +21,7 @@ Persistent connection issues to Azure Databases for MariaDB can occur due to inc
 ## **Recommended Steps**
 
 * [Set up firewall rules](https://docs.microsoft.com/azure/mariadb/concepts-firewall-rules) to allow the client IP address
-* Follow [connection recommendations](https://docs.microsoft.com/en-us/azure/mariadb/concepts-compatibility) on computers that host your client program
+* Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) on computers that host your client program
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application
 
 ## **Recommended Documents**
