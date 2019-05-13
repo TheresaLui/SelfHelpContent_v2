@@ -19,5 +19,5 @@
 
 ## **Recommended Steps**
 
-* Using the tracking Id provided to locate the package
+* Using the tracking ID provided to locate the package
 * If issue persists, reach out to DataBoxOps@microsoft.com
