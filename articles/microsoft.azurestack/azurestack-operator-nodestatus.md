@@ -7,9 +7,9 @@
     ms.author="thoroet"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629188,32630575,32629232"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="16226"
+    productPesIds=""
     cloudEnvironments="public"
     articleId="azurestack-operator-nodestatus"
 />
@@ -29,22 +29,25 @@ Applies to: Azure Stack build 1808, 1809 and 1811
 Add-AzureRMEnvironment -Name AzureStack -armendpoint https://adminmanagement.local.azurestack.external
 Add-AzureRMAccount -Environmentname AzureStack
 ```
+*****
 
 2. Run the following command to restart the Fabric Resource Provider Role.
 
 ```powershell
 Restart-AzsInfrastructureRole -Name FabricResourceProvider
 ```
+*****
 
 3. Validate the operational status of the impacted Scale Unit node changed to running. You can use the Admin Portal or the below PowerShell command:
 ```powershell
 Get-AzsScaleUnitNode |ft name,scaleunitnodestatus,powerstate
 ```
+*****
 
 4. If the node operational status is still shown as “Adding” continue to open a support incident.
 
 
 ## **Recommended Documents**
 
-- [Install Azure Stack PowerShell](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-powershell-install)
-- [Monitor Add node operations](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-add-scale-node#monitor-add-node-operations)
+- [Install Azure Stack PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-powershell-install)
+- [Monitor Add node operations](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-scale-node#monitor-add-node-operations)
