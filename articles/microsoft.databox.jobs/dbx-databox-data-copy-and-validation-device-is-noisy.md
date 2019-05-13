@@ -22,4 +22,4 @@
 ## **Recommended Steps**
 
 1. Make sure that the Data Box front and the rear doors are open for proper airflow
-2. Check the environment temperature is within the operating temperature range for this device. For more information, see Data Box safety
+2. Check the environment temperature is within the operating temperature range for this device. For more information, see [Data Box safety](https://docs.microsoft.com/azure/databox/data-box-safety)
