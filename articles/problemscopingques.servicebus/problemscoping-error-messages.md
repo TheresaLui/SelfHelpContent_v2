@@ -14,42 +14,42 @@
     articleId="service-bus-error-msg"
     schemaVersion="1"
 />
-#Error Messages realted to Timeout , Connectivity , Create and delete
+# Error Messages realted to Timeout , Connectivity , Create and delete
 ---
-{  
+{
    "subscriptionRequired":true,
    "title":"Error messages",
    "fileAttachmentHint":"",
-   "formElements":[  
-      {  
+   "formElements":[
+      {
          "id":"problem_start_time",
          "order":1,
          "controlType":"datetimepicker",
          "displayLabel":"When did the problem begin?",
          "required":true
       },
-      {  
+      {
          "id":"problem_issueFrequency",
          "order":2,
          "controlType":"dropdown",
          "displayLabel":"How frequently does the issue occur?",
          "watermarkText":"Choose an option",
-         "dropdownOptions":[  
-            {  
+         "dropdownOptions":[
+            {
                "value":"Always",
                "text":"Always"
             },
-            {  
+            {
                "value":"Intermittent",
                "text":"Intermittent"
             },
-            {  
+            {
                "value":"DontKnow",
                "text":"Didn't notice any trend"
             }
          ]
       },
-      {  
+      {
          "id":"problem_errorMessageText",
          "order":3,
          "controlType":"multilinetextbox",
@@ -57,7 +57,7 @@
          "required":true,
          "useAsAdditionalDetails":false
       },
-      {  
+      {
          "id":"problem_ClientInformation",
          "order":4,
          "controlType":"multilinetextbox",
@@ -66,7 +66,7 @@
          "required":true,
          "useAsAdditionalDetails":true
       },
-      {  
+      {
          "id":"problem_description",
          "order":5,
          "controlType":"multilinetextbox",
@@ -74,8 +74,8 @@
          "watermarkText":"Provide additional information about your issue",
          "required":true,
          "useAsAdditionalDetails":false,
-         "hints":[  
-            {  
+         "hints":[
+            {
                "text":"Issue description."
             }
          ]

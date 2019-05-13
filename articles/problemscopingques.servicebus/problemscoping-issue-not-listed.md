@@ -14,28 +14,28 @@
     articleId="sb-issue-not-listed"
     schemaVersion="1"
 />
-#Unexpected Service behavior or Errors
+# Unexpected Service behavior or Errors
 ---
-{  
+{
    "subscriptionRequired":true,
    "title":"Unexpected Service behavior or Errors",
    "fileAttachmentHint":"",
-   "formElements":[  
-      {  
+   "formElements":[
+      {
          "id":"problem_start_time",
          "order":1,
          "controlType":"datetimepicker",
          "displayLabel":"When did the problem begin?",
          "required":true
       },
-      {  
+      {
          "id":"problem_errorMessageText",
          "order":2,
          "controlType":"multilinetextbox",
          "displayLabel":"Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
          "required":true
       },
-      {  
+      {
          "id":"problem_description",
          "order":3,
          "controlType":"multilinetextbox",
@@ -43,8 +43,8 @@
          "watermarkText":"Provide additional information about your issue",
          "required":true,
          "useAsAdditionalDetails":true,
-         "hints":[  
-            {  
+         "hints":[
+            {
                "text":"Issue description."
             }
          ]

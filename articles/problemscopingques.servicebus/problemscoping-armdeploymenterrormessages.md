@@ -14,7 +14,7 @@
     articleId="sb-arm-deployment-failures"
     schemaVersion="1"
 />
-#Issues where ARM APIs or ARM template deployments are failing
+# Issues where ARM APIs or ARM template deployments are failing
 ---
 {  
    "subscriptionRequired":true,

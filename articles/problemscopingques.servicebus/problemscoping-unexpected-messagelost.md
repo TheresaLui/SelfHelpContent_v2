@@ -14,21 +14,21 @@
     articleId="sb-message-lost-issue"
     schemaVersion="1"
 />
-#Message Lost or duplicate message issues
+# Message Lost or duplicate message issues
 ---
-{  
+{
    "subscriptionRequired":true,
    "title":"Message Lost or duplicate message issues",
    "fileAttachmentHint":"",
-   "formElements":[  
-      {  
+   "formElements":[
+      {
          "id":"problem_start_time",
          "order":1,
          "controlType":"datetimepicker",
          "displayLabel":"When did the problem begin?",
          "required":true
       },
-      {  
+      {
          "id":"problem_messageId",
          "order":2,
          "controlType":"multilinetextbox",
@@ -36,7 +36,7 @@
          "watermarkText":"Enter the Message ID",
          "required":true
       },
-      {  
+      {
          "id":"problem_description",
          "order":3,
          "controlType":"multilinetextbox",
@@ -44,8 +44,8 @@
          "watermarkText":"Provide additional information about your issue",
          "required":true,
          "useAsAdditionalDetails":true,
-         "hints":[  
-            {  
+         "hints":[
+            {
                "text":"Issue description."
             }
          ]

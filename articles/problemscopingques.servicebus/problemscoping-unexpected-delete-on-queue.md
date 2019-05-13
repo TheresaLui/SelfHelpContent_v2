@@ -14,49 +14,49 @@
     articleId="sb-unexpected-delete-issues"
     schemaVersion="1"
 />
-#Queue, Topic or Subscription deleted unexpectedly
+# Queue, Topic or Subscription deleted unexpectedly
 ---
-{  
+{
    "subscriptionRequired":true,
    "title":"Queue, Topic or Subscription deleted unexpectedly",
    "fileAttachmentHint":"",
-   "formElements":[  
-      {  
+   "formElements":[
+      {
          "id":"problem_start_time",
          "order":1,
          "controlType":"datetimepicker",
          "displayLabel":"When did the problem begin?",
          "required":true
       },
-      {  
+      {
          "id":"problem_AutoDeleteonIdleEnabled",
          "order":2,
          "controlType":"dropdown",
          "displayLabel":"Is AutoDeleteOnIdle Enabled for the entity that was deleted",
          "watermarkText":"Choose an option",
-         "dropdownOptions":[  
-            {  
+         "dropdownOptions":[
+            {
                "value":"Yes",
                "text":"Yes"
             },
-            {  
+            {
                "value":"No",
                "text":"No"
             },
-            {  
+            {
                "value":"dont_know_answer",
                "text":"Don't Know"
             }
          ]
       },
-      {  
+      {
          "id":"problem_errorMessageText",
          "order":3,
          "controlType":"multilinetextbox",
          "displayLabel":"Please provide the exact error message",
          "required":true
       },
-      {  
+      {
          "id":"problem_description",
          "order":4,
          "controlType":"multilinetextbox",
@@ -64,8 +64,8 @@
          "watermarkText":"Provide additional information about your issue",
          "required":true,
          "useAsAdditionalDetails":true,
-         "hints":[  
-            {  
+         "hints":[
+            {
                "text":"Issue description."
             }
          ]
