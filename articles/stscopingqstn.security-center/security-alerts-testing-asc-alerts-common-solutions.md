@@ -21,9 +21,9 @@
 
 To test our alert pipeline, follow the steps at one of the following three links:
 
-* For a Windows VM that has a healthy monitoring agent, run the simulation at [this link](https://docs.microsoft.com/azure/security-center/security-center-alert-validation).<br>
-* For Windows, use [this playbook to orchestrate a full attack Campine against your protected resource link](https://gallery.technet.microsoft.com/Azure-Security-Center-549aa7a4).<br>
-* For Linux, use [this playbook to orchestrate a full attack Campine against your protected resource link](https://gallery.technet.microsoft.com/Azure-Security-Center-0ac8a5ef).
+* For a Windows VM that has a healthy monitoring agent, run the simulation at [this link](https://docs.microsoft.com/azure/security-center/security-center-alert-validation)
+* For Windows, use [this playbook to orchestrate a full attack Campine against your protected resource link](https://gallery.technet.microsoft.com/Azure-Security-Center-549aa7a4)
+* For Linux, use [this playbook to orchestrate a full attack Campine against your protected resource link](https://gallery.technet.microsoft.com/Azure-Security-Center-0ac8a5ef)
 
 ## **Recommended Documents**
 
