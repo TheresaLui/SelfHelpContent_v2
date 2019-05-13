@@ -18,14 +18,13 @@
 
 Most users are able to resolve their issue using the steps below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Issue:** The *Add Replica* button is disabled.
 
-1. Refresh the *Replication* portal page.
+1. Refresh the *Replication* portal page
 2. Confirm that the *Enable Replication Support* option is unavailable. This indicates that replication is already enabled for this server.
-3. Restart the server.
-
+3. Restart the server
 
 **Issue:** Replica creation is taking longer than expected.
 
@@ -34,15 +33,9 @@ Depending on the size of the server, replica creation time can vary from a few m
 1. Using Azure Cloud Shell, ping the DNS of the replica. For example, if you named the replica `myreplica`, the DNS name is `myreplica.postgres.database.azure.com`. 
 2. If it's been at least five minutes since you requested the replica, and the name is resolving, then replica creation is in progress. If the name is not resolving, proceed to open a support ticket.
 
+## **Recommended Documents**
 
-## **Recommended documents**
-
-* [How to restart your server](https://docs.microsoft.com/azure/postgresql/howto-restart-server-portal)
-
-* [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal)
-
+* [Restart your server](https://docs.microsoft.com/azure/postgresql/howto-restart-server-portal)
+* [Create and manage read replicas in the portal](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal)
 * [Use Azure CLI to create and manage read replicas](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-cli)
-
 * [Overview on read replicas](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas)
-
-
