@@ -26,8 +26,8 @@ Applies to: Azure Stack build 1808, 1809 and 1811
 1. Open PowerShell and add your Azure Stack environment. (This requires Azure Stack PowerShell to be installed on your computer)
 
  ```powershell
-Add-AzureRMEnvironment -Name AzureStack -ARMEndpoint https://adminmanagement.local.azurestack.external
-Add-AzureRMAccount -Environment AzureStack
+Add-AzureRmEnvironment -Name AzureStack -ARMEndpoint https://adminmanagement.local.azurestack.external
+Add-AzureRmAccount -Environment AzureStack
 ```
 *****
 
