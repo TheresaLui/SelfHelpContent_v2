@@ -21,5 +21,5 @@
 
 ## **Recommended Steps**
 
-1. Log a Support request
+1. Log a [Support request](https://docs.microsoft.com/azure/databox/data-box-disk-contact-microsoft-support)
 2. Return the device and create a new order. A replacement device will be sent to you
