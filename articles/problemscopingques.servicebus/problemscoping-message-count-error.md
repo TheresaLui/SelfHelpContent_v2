@@ -15,7 +15,8 @@
     schemaVersion="1"
 />
 # Message Count Issues
----{
+---
+{
    "subscriptionRequired":true,
    "title":"Incorrect Message Count issues",
    "fileAttachmentHint":"",
