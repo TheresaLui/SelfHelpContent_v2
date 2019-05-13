@@ -18,15 +18,15 @@
     "fileAttachmentHint": "",
 	"diagnosticCard": {
 		"title": "Application Gateway Access URL",
-    	"description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-    	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+    		"description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+    		"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
 	},
     "formElements": [
         {
-            "id": "app_gw_url",
+            "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway.",
+            "displayLabel": "REQUIRED: Please provide a valid URL with either http or https prefix you are using to access the Application Gateway. It helps support to resolve the issue faster.",
             "watermarkText": "Example: http://www.contoso.com",
             "required": true,
 			"diagnosticInputRequiredClients": "Portal"
