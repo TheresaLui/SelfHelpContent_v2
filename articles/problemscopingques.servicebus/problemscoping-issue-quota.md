@@ -41,8 +41,7 @@
          "controlType":"multilinetextbox",
          "displayLabel":"Enter your justification for increase the quota",
          "watermarkText":"Provide your reasoning for quota change request",
-         "required":true,
-         "useAsAdditionalDetails":true
+         "required":true
       },
       {  
          "id":"problem_description",
