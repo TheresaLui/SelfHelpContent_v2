@@ -20,9 +20,9 @@
 ## **Recommended Steps**
 
 
-1. Go to **Prepare to ship** in the Data Box local UI and click Start preparation.
+1. Go to **Prepare to ship** in the Data Box local UI and click Start preparation
 2. If the issue persists, log a [Support ticket](https://docs.microsoft.com/azure/databox/data-box-disk-contact-microsoft-support)
 
 ## **Recommended Documents**
-*[Ship to Azure](https://docs.microsoft.com/azure/databox/data-box-quickstart-portal#ship-to-azure) <br>
-*[Schedule pick up](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up)
+* [Ship to Azure](https://docs.microsoft.com/azure/databox/data-box-quickstart-portal#ship-to-azure) <br>
+* [Schedule pick up](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up)
