@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for Data Share"
-description="Menu based workflow document for top AI problems"        
+description="Document for Data Share problems"
 service="Microsoft.DataShare"
 resource="accounts"
 authors="mkadiri3"
