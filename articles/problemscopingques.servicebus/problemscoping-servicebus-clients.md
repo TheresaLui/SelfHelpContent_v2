@@ -16,6 +16,40 @@
 />
 #Questions about service bus client library
 ---
-{ "subscriptionRequired":true, "title":"Questions with SB client libraries or API", "fileAttachmentHint":"", "formElements":[ { "id":"problem_start_time", "order":1, "controlType":"datetimepicker", "displayLabel":"When did the problem begin?", "required":true },{ "id":"problem_SBClientversion", "order":2, "controlType":"multilinetextbox", "displayLabel":"Please specific the client library (.Net, .Net Standard, Java, Python, etc) you are using and the version number?", "required":true },{ "id":"problem_description", "order":3, "controlType":"multilinetextbox", "displayLabel":"Details", "watermarkText":"Provide additional information about your issue", "required":true, "useAsAdditionalDetails":true, "hints":[ { "text":"Issue description." } ] } ] }
+{  
+   "subscriptionRequired":true,
+   "title":"Questions with SB client libraries or API",
+   "fileAttachmentHint":"",
+   "formElements":[  
+      {  
+         "id":"problem_start_time",
+         "order":1,
+         "controlType":"datetimepicker",
+         "displayLabel":"When did the problem begin?",
+         "required":true
+      },
+      {  
+         "id":"problem_SBClientversion",
+         "order":2,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Please specific the client library (.Net, .Net Standard, Java, Python, etc) you are using and the version number?",
+         "required":true
+      },
+      {  
+         "id":"problem_description",
+         "order":3,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Details",
+         "watermarkText":"Provide additional information about your issue",
+         "required":true,
+         "useAsAdditionalDetails":true,
+         "hints":[  
+            {  
+               "text":"Issue description."
+            }
+         ]
+      }
+   ]
+}
 ---
 
