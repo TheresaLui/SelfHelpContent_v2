@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-Perform the following steps before you reachout to support
+Perform the following steps before you reach out to support
 
 1. Take a picture of the damaged package
 2. Do not use the device/disks
