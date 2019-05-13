@@ -18,14 +18,13 @@
 
 Most users are able to resolve their issue using the steps below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 **Issue:** The *Replica lag* metric doesn't show any data.
 
-The **Replica Lag* metric is only applicable to replica servers. For each replica, this metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric.
+The **Replica Lag** metric is only applicable to replica servers. For each replica, this metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric.
 
-For the master server we provide a *Max lag across replicas* metric.
-
+For the master server, we provide a *Max lag across replicas* metric.
 
 **Issue:** The *Max lag across replicas* metric doesn't show any data.
 
@@ -35,7 +34,7 @@ For replica servers we provide a *Replica lag* metric.
 
 **Issue:** The *Replica lag* metric shows a lag of up to 5 minutes even when there is no load on the master and the replica is up to date.
 
-The *Replica lag* metric is calculated as 
+The *Replica lag* metric is calculated as: 
 
    ```SQL
    SELECT EXTRACT(EPOCH FROM now() - pg_last_xact_replay_timestamp());
@@ -48,19 +47,16 @@ Periodically, an agent does a check on the master and on the replica. If you don
 
 **Issue:** The *Max lag across replicas* value is increasing continuously.
 
-1. If *Max lag across replicas* is continuously increasing, it may be because streaming replication is interrupted between the servers.
-   To check if streaming replication is interrupted, connect to the master and run the following query:
+1. If *Max lag across replicas* is continuously increasing, it may be because streaming replication is interrupted between the servers. To check if streaming replication is interrupted, connect to the master and run the following query:
    
-   ```SQL
+   ```
+   SQL
    SELECT application_name, active FROM pg_replication_slots AS slots LEFT JOIN pg_stat_replication AS stats ON stats.pid = slots.active_pid;
    ```
 
    The *application_name* column provides the replica names. The *active* column indicates the status of replication. If one of the values of *active* is false, streaming replication is inactive between the master and that replica. This may be because the replica or master recently experienced a restart. In that case, streaming replication should resume shortly. 
 
-2. If *active* is true for all replicas, then it is likely that there is high write activity on the master. The replicas will eventually catch up once load on the master reduces.
-
-   If you see that a replica is regularly lagging after a master, consider scaling up the replica so it can replay data faster.
-
+2. If *active* is true for all replicas, then it is likely that there is high write activity on the master. The replicas will eventually catch up once load on the master reduces. If you see that a replica is regularly lagging after a master, consider scaling up the replica so it can replay data faster.
 
 **Issue:** *Max lag across replicas* always shows as 0.
 
@@ -69,10 +65,8 @@ The *Max lag across replicas* metric shows the lag in bytes between the master a
 If data is missing from your replica while *Max lag across replicas* continues to be 0, proceed to open a support ticket. 
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal)
-
 * [Use Azure CLI to create and manage read replicas](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-cli)
-
 * [Overview on read replicas](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas)
