@@ -15,48 +15,49 @@ articleId="sb-message-count-issue"
 schemaVersion="1"
 />
 # Message Count Issues
----{
- "subscriptionRequired":true,
- "title":"Incorrect Message Count issues",
- "fileAttachmentHint":"",
- "formElements":[
+---
 {
- "id":"problem_start_time",
- "order":1,
- "controlType":"datetimepicker",
- "displayLabel":"When did the problem begin?",
- "required":true
-},
-{
- "id":"problem_currentMesssageCount",
- "order":2,
- "controlType":"textbox",
- "displayLabel":"Enter the current message count",
- "watermarkText":"Enter the current message count",
- "required":true
-},
-{
- "id":"problem_ExpectedMesssageCount",
- "order":3,
- "controlType":"textbox",
- "displayLabel":"Enter the expected message count",
- "watermarkText":"Enter the expected message count",
- "required":true
-},
-{
- "id":"problem_description",
- "order":4,
- "controlType":"multilinetextbox",
- "displayLabel":"Details",
- "watermarkText":"Provide additional information about your issue",
- "required":true,
- "useAsAdditionalDetails":true,
- "hints":[
-{
- "text":"Issue description."
-}
- ]
-}
- ]
+   "subscriptionRequired":true,
+   "title":"Incorrect Message Count issues",
+   "fileAttachmentHint":"",
+   "formElements":[
+      {
+         "id":"problem_start_time",
+         "order":1,
+         "controlType":"datetimepicker",
+         "displayLabel":"When did the problem begin?",
+         "required":true
+      },
+      {
+         "id":"problem_currentMesssageCount",
+         "order":2,
+         "controlType":"textbox",
+         "displayLabel":"Enter the current message count",
+         "watermarkText":"Enter the current message count",
+         "required":true
+      },
+      {
+         "id":"problem_ExpectedMesssageCount",
+         "order":3,
+         "controlType":"textbox",
+         "displayLabel":"Enter the expected message count",
+         "watermarkText":"Enter the expected message count",
+         "required":true
+      },
+      {
+         "id":"problem_description",
+         "order":4,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Details",
+         "watermarkText":"Provide additional information about your issue",
+         "required":true,
+         "useAsAdditionalDetails":true,
+         "hints":[
+            {
+               "text":"Issue description."
+            }
+         ]
+      }
+   ]
 }
 ---
