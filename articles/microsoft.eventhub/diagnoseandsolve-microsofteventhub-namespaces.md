@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="b12b3aab-7a15-4285-ae68-8b86a66fdc12"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="16125"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.eventhub, namespaces
