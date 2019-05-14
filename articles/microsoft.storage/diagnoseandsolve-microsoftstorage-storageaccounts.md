@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="b4bb3415-646e-430f-a1fa-429159b82137"
 	selfHelpType="diagnoseandsolve"
-	productPesIds="15629,16459,16460"
+	productPesIds="15629"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.storage, storageaccounts
