@@ -23,6 +23,7 @@ Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azur
 ### Pre-requisite: check if an alert instance was created.
 
 [Action rules](https://aka.ms/action-rules-doc) allow you to suppress notifications for your alerts. It is possible that your alert notifications were suppressed through an action rule. You can verify this by doing the following steps:
+
 * Go to the Azure Portal and go to the [all alerts page](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances). Set the appropriate filters and figure out whether an alert actually triggered.
 * If there is an alert instance present, select it. If the notification for the alert was suppressed through an action rule, the information would be captured in the history section of the alert.
 * If there was an action rule suppressing your alert notifications, go to the [action rules page](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules#managing-your-action-rules) where you can disable the specific action rule.
