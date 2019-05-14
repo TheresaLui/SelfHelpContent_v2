@@ -21,9 +21,8 @@
 
 ## **Recommended Steps**
 
-1. To allow the NFS client, add the client IP address on your Data Box .
-2. Mount the NFS share on your Data Box. Type the following command on the Linux client :
-`sudo mount <Data Box device IP>:/<NFS share on Data Box device> <Path to the folder on local Linux computer>`
+1. To allow the NFS client, add the client IP address on your Data Box
+2. Mount the NFS share on your Data Box. Type the following command on the Linux client: `sudo mount <Data Box device IP>:/<NFS share on Data Box device> <Path to the folder on local Linux computer>`
 
 ## **Recommended Documents**
 
