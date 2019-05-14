@@ -85,7 +85,7 @@
       "useAsAdditionalDetails": true,
       "displayLabel": "Invoice ID related to the issue",
       "watermarkText": "Provide the Invoice ID related to the issue",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",
