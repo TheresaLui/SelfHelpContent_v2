@@ -72,6 +72,7 @@
     }
   },
   "displayLabel": "Create an Azure service health alert",
+  "testData": "658c8950-e79d-4704-a903-1df66ba90258,/subscriptions/658c8950-e79d-4704-a903-1df66ba90258",
   "additionalColumns": []
 }
 ---
