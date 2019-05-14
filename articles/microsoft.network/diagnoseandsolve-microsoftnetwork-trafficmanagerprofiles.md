@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="7e16e2e1-8669-47de-be0a-186b4c45dace"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15400"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, trafficmanagerprofiles
