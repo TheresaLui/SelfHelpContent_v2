@@ -3,13 +3,13 @@
 	description="Top common problems for microsoft.automation, automationaccounts"        
 	service="microsoft.automation"
 	resource="automationaccounts"
-	resourceTags=""
+	resourceTags="runbooks, jobs"
 	authors="adoylemsft,kasparks,csand-msft"
 	ms.author="kasparks"
 	displayOrder=""
 	articleId="1b973a7c-438c-41ad-b40c-f25d9517fa1e"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15607"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.automation, automationaccounts
