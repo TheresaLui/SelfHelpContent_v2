@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="c4b34c4b-afa9-43e8-bbdc-fd00e8bbd395"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15663"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.streamanalytics, streamingjobs
