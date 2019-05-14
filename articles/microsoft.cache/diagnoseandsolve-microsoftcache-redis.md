@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="a687b30a-68ca-40fd-b672-dde1417ba205"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="14783"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.cache, redis
