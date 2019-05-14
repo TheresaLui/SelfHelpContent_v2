@@ -21,8 +21,8 @@
 
 ## **Recommended Steps**
 
-To access the SMB shares for Data Box, type:
-`net use \\\\<IP address of the device\>\\<share name\> /u:\<user name for the share\>`
+To access the SMB shares for Data Box, type: <br>
+`net use \\<IP address of the device>\<share name> /u:<user name for the share>`
 
 Depending upon your data format, the share paths are as follows:
 
