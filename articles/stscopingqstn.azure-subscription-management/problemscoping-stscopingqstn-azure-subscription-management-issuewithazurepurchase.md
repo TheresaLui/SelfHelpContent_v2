@@ -40,7 +40,7 @@
       "useAsAdditionalDetails": true,
       "displayLabel": "Email address used during sign-up",
       "watermarkText": "Provide the Email address used during sign-up",
-      "required": true
+      "required": false
     },
     {
       "id": "browser_details1",
