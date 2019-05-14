@@ -3,7 +3,7 @@
 	description="Top common problems for microsoft.dbformysql, servers, databases"        
 	service="microsoft.dbformysql"
 	resource="servers"
-	resourceTags="databases"
+	resourceTags="databases, servers"
 	authors="jan-eng,jtoland,ankam"
 	ms.author="jtoland,ankam,janeng"
 	displayOrder=""
