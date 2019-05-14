@@ -23,7 +23,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which machine is experiencing the problem?",
 			"watermarkText": "Enter the name of the Windows Server or Windows Client",
-			"required": true
+			"required": false
 		},{
 			"id": "performance_issue_type",
 			"order": 2,
