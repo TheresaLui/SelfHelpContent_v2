@@ -14,6 +14,7 @@
 ---
 {
   "resourceRequired": true,
+  "subscriptionRequired": true,
   "title": "Unexpected Charges",
   "fileAttachmentHint": "",
   "formElements": [
