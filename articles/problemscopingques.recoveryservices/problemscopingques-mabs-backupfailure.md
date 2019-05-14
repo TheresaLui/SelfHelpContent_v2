@@ -112,7 +112,7 @@
                                             "text": "Hyper-V"
                                         },{
                                             "value": "VMWare",
-                                            "text": "VMWare"  
+                                            "text": "VMWare"
 					},{
                                             "value": "dont_know_answer",
                                             "text": "Other, don't know or not applicable"
@@ -125,7 +125,7 @@
                       "visibility": "issue_Type == Backups to the cloud are failing",
                       "controlType": "multiselectdropdown",
                       "infoBalloonText": "Check Azure Backup server <a href='https://aka.ms/AB-AA4dqdk'>Troubleshooting</a> article",
-                      "displayLabel": "Select the troubleshooting steps you have performed:",
+                      "displayLabel": "Select the troubleshooting steps that you have performed:",
                       "dropdownOptions": [{
                                           "value": "Azure Backup agent is latest",
                                           "text": "Azure Backup agent is latest"
