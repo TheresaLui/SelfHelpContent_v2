@@ -118,8 +118,8 @@
 						"value": "If antivirus is running, then exclusion rules are used",
 						"text": "If antivirus is running, then exclusion rules are used"
 					},{
-						"value": "proxy is enabled",
-						"text": "proxy is enabled"
+						"value": "Proxy is enabled",
+						"text": "Proxy is enabled"
 					},{
 						"value": "Unsupported drives are excluded from backup",
 						"text": "Unsupported drives are excluded from backup"
@@ -146,7 +146,7 @@
 				"order": 9,
 				"visibility": "issue_Type == Backups to the cloud are failing",
 				"controlType": "textbox",
-				"displayLabel": "Please provide the ResourceId:",
+				"displayLabel": "Provide the ResourceId:",
 				"infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
 				"watermarkText": "Paste ResourceId here",
 				"required": false
