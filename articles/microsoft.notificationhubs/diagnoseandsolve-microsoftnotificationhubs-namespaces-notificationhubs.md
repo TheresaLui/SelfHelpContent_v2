@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="b31b97e0-3316-463c-85fa-b6d29e2e8046"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15973"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.notificationhubs, namespaces, notificationhubs
