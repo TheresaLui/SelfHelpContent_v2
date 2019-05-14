@@ -15,7 +15,7 @@
 # Your virtual machine restarted due to an operating system fault
 
 <!--issueDescription-->
-At <!--$startTime--> startTime <!--/$startTime--> UTC, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName--> became unavailable due to an operating system fault. RDP and SSH connections to your virtual machine, or requests to any services running inside your virtual machine may have failed.
+At <!--$startTime--> startTime <!--/$startTime--> UTC, your virtual machine <!--$resourceName--> resourceName <!--/$resourceName--> became unavailable due to a guest operating system fault. RDP and SSH connections to your virtual machine, or requests to any services running inside your virtual machine may have failed.
 <!--/issueDescription-->
 
 To avoid data corruption operating system stops execution once it detects a serious error condition. Operating system might stop for many different reasons: a reference to a memory address that causes an access violation, an unexpected exception or trap, a faulting kernel mode driver and so on. Details about the cause of the error are written to the system log.
