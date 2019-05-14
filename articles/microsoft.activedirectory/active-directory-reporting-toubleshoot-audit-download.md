@@ -4,6 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="dhanyahk"
+    ms.author="curtand"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32615409"
@@ -21,4 +22,4 @@
 
 ## **Recommended documents**
 
-[Audit activities download](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/quickstart-download-audit-report)  
+- [Audit activities download](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-download-audit-report)  
