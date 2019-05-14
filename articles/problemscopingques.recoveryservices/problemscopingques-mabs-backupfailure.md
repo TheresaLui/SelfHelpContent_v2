@@ -170,7 +170,7 @@
                     "order": 10,
                     "visibility": "issue_Type == Backups to the cloud are failing",
                     "controlType": "textbox",
-		    "displayLabel": "Please provide the ResourceId:",
+		    "displayLabel": "Provide the ResourceId:",
                     "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
                     "watermarkText": "Paste ResourceId here",
                     "required": false
