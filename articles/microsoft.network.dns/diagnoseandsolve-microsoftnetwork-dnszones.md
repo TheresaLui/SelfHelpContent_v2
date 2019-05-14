@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="dcbe5c8c-9ce8-49f6-960b-6439f6a49727"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15804"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, dnszones
