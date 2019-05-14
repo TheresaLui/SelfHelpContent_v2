@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="850afacd-c28e-4814-9631-910d5e7989f0"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15842"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.servicefabric, clusters, servicefabric
