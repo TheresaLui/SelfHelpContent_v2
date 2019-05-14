@@ -23,11 +23,11 @@ We detected that the operation **<!--$OperationName-->Operation name<!--/$Operat
 
 Availability sets are configured to support only specified VM sizes according to the hardware capabilities of the cluster of underlying hosts. To add a VM to availability set, it must match one of the specified VM sizes.
 
-For an overview of availability sets, and to determine supported VM sizes for an availability set, see [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets).
+To determine supported VM sizes for an availability set, see [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets).
 
-If you need to resize a VM that is part of an availability set, you must first deallocate all VMs in that availability set before resizing the VM. For more information, see [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set). 
+If you need to resize a VM that is part of an availability set and the requested size is not available in the current cluster, you must first deallocate all VMs in that availability set before resizing the VM. For more information, see [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set). 
 
-
+For an overview of availability sets, see [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets).
 
 
 
