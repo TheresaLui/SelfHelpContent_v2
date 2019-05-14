@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="364d1541-34d6-48c7-9752-b89b001304e5"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15526"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, virtualnetworks
