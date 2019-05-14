@@ -5,7 +5,7 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32549156,32632949"
+	supportTopicIds="32632949"
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -61,7 +61,7 @@
           "text": "Mozilla Firefox"
         },
         {
-          "value": "Other",
+          "value": "dont_know_answer",
           "text": "Other"
         }
       ],
@@ -73,7 +73,7 @@
       "visibility": "browser_details1 == Other",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "error_description",
@@ -81,7 +81,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Error message (if any) encountered ",
       "watermarkText": "Provide the error message encountered",
-      "required": true
+      "required": false
     },
     {
       "id": "email_description",
@@ -89,7 +89,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Email notification received (if applicable) about subscription suspension",
       "watermarkText": "Provide the email notification received about subscription suspension",
-      "required": true
+      "required": false
     },
     {
       "id": "problem_description",

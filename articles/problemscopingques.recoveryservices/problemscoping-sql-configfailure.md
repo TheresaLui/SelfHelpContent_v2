@@ -24,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
@@ -32,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the machine?",
             "watermarkText": "ex. Windows Server 2012 R2",
-            "required": true
+            "required": false
         },
         {
             "id": "sql_version",
@@ -40,7 +40,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the SQL Server version and edition?",
             "watermarkText": "ex. SQL Server 2012 Standard",
-            "required": true
+            "required": false
         },
         {
             "id": "database_Name",
@@ -48,7 +48,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases whose configuration is failing",
             "watermarkText": "Enter database name(s) separated by comma",
-            "required": true
+            "required": false
         },
         {
             "id": "jobID_Name",
@@ -64,7 +64,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that you are seeing:",
             "watermarkText": "Copy and paste the error message details",
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
