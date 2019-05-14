@@ -59,7 +59,7 @@
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide your Subscription id",
-      "required": true
+      "required": false
     },
     {
       "id": "browser_details1",
@@ -101,7 +101,7 @@
       "visibility": "browser_details1 == dont_know_answer",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "additionaldetails",
@@ -109,7 +109,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Additional details or Error Message (if applicable)",
       "watermarkText": "Provide any error message or additional information about your issue",
-      "required": false
+      "required": true
     },
     {
       "id": "problem_description",
