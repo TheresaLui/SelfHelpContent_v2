@@ -13,7 +13,7 @@
 # Unexpected Charges
 ---
 {
-  "resourceRequired": false,
+  "resourceRequired": true,
   "title": "Unexpected Charges",
   "fileAttachmentHint": "",
   "formElements": [
