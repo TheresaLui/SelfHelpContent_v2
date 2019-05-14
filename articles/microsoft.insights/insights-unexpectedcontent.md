@@ -20,6 +20,7 @@ There are various kinds of alerts in Azure Monitor, and each has a different web
 
 ## **Recommended Steps**
 
+* If there was a sudden change in the webhook format, please check if the [common alert schema](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-common-schema#how-do-i-enable-the-common-alert-schema) was recently enabled (or disabled).
 * If you are using webhooks to [integrate with Teams or Slack](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups-logic-app), the endpoint expects the payload in a certain format which is different from what alerts provide
 * If you are using custom webhook payloads functionality of log alerts, webhook payload will be in the format you specified for the alert rule
 
@@ -28,5 +29,6 @@ There are various kinds of alerts in Azure Monitor, and each has a different web
 * [Payload format for Activity log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts-webhook)<br>
 * [Payload format for Log alerts for both Application Insights and Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-webhook)<br>
 * [Payload format for Metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#payload-schema)<br>
+* [Payload format for the Common Alert Schema](https://aka.ms/commonAlertSchemaDefinitions)<br>
 * [Payload format for Classic metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks)<br>
 
