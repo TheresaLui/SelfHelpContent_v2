@@ -4,8 +4,8 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="timbasham"
-    ms.author="tibasham"
+    authors="ram-kakani, timbasham, jasonbandrew"
+    ms.author="ramakk, tibasham, v-jasoan"
     displayOrder=""
     articleId="WindowsBootManager-0xC000014C-STATUS_REGISTRY_CORRUPT"
     diagnosticScenario="booterror"
@@ -15,7 +15,6 @@
     productPesIds="14749"
     cloudEnvironments="public"
 />
-
 # VM boot error
 <!--issueDescription-->
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **0xC000014C**. This issue occurs when one of the files that contains registry data is corrupt, the image of the file in memory is corrupt, or the file could not be recovered because the alternate copy or log was absent or corrupt. You can use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **0xC000014C**.<br>
@@ -38,12 +37,7 @@ To restore the connectivity to the VM, please follow the troubleshooting steps b
 
 6. Determine state of the SYSTEM hive:
 
-    a. If the hive fails to open with the following error, open a support case
-    
-    ```
-    Cannot Load C:\<path to hive>\SYSTEM: Error while loading the hive.
-    ```
-    
+    a. If the hive fails to open with the following error, open a support case use the following error: Cannot Load C:\<path to hive>\SYSTEM: Error while loading the hive.
     b. If the hive opens up with no issues then the hive may not have been closed properly. Proceed with the next step.
 
 7. Unload the SYSTEM hive
@@ -52,11 +46,7 @@ To restore the connectivity to the VM, please follow the troubleshooting steps b
     * The Windows partition contains a folder named "Windows," and this partition is larger than the others
     * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
-9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: `xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`. You will use this identifier in the next step:
-
-      ```
-      bcdedit /store [Boot partition]:\boot\bcd /enum
-      ```
+9. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: `xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`. You will use this identifier in the next step: bcdedit /store [Boot partition]:\boot\bcd /enum
 
 10. If you want to enable Azure Serial Console on this machine, then please also run these following extra flags:
 

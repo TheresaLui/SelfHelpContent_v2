@@ -23,7 +23,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Which machine is experiencing the problem?",
 			"watermarkText": "Enter the name of the Windows Server or Windows Client",
-			"required": true
+			"required": false
 		},{
 			"id": "performance_issue_type",
 			"order": 2,
@@ -42,7 +42,7 @@
 				}
 				],
 		 	"required": true
-	 },{
+ },{
 			"id": "backup_type",
 			"order": 3,
 			"controlType": "dropdown",
@@ -64,7 +64,7 @@
 			"id": "job_time",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "Since how long the is job running?",
+			"displayLabel": "Since how long the job is running?",
 			"watermarkText": "Ex. 18 hrs",
 			"required": false
 	},{
