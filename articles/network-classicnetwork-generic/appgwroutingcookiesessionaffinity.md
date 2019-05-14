@@ -1,19 +1,20 @@
 <properties
-	pageTitle="Configure Cookie Based Session Affinity"
-	description="Configure Cookie Based Session Affinity"
+	pageTitle="Cookie Based Session Affinity"
+	description="Cookie Based Session Affinity"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surmb"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32582832"
+	supportTopicIds="32640605"
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public"
-	articleId="64dbe6d9-1543-4d92-be68-9256c99ae2bc"
+	articleId="cookie-based-affinity"
 />
 
-# Configure Cookie Based Session Affinity
+# Cookie Based Session Affinity
+
 Application Gateway cookie based affinity enables the application gateway to direct subsequent traffic from a user session to the same server for processing. This is achieved by the client setting a cookie sent by the Application Gateway in subsequent requests in the same session.
 
 ## **Recommended Documents**

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configurationandsetup/configmultisitehosting"
-	description="configurationandsetup/configmultisitehosting"
+	pageTitle="Configure Multi-site Hosting"
+	description="Configure Multi-site Hosting"
 	service="microsoft.network"
 	resource="applicationgateways"
 	authors="radwiv"
@@ -13,9 +13,11 @@
 	articleId="3209a960-3d4f-4220-8eb1-a99848e6a5cc"
 />
 
-# configurationandsetup/configmultisitehosting
+# Configure Multi-site Hosting
 
-## **Recommended documents**
+Multiple site hosting enables you to configure more than one web application on the same Application Gateway and route requests to different backend pools according to the rules configured.
 
-Configure an application gateway for hosting multiple web applications using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-multisite-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-multisite-azureresourcemanager-powershell)<br>
-Application gateway [multiple site hosting](https://docs.microsoft.com/azure/application-gateway/application-gateway-multi-site-overview) overview
+## **Recommended Documents**
+
+* Create an Application Gateway to host multiple web applications using [Azure Portal](https://docs.microsoft.com/en-us/azure/application-gateway/create-multiple-sites-portal) or [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-multiple-sites-powershell)<br />
+* [Multiple site hosting](https://docs.microsoft.com/en-us/azure/application-gateway/multiple-site-overview) overview on Application Gateway

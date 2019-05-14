@@ -1,6 +1,6 @@
 <properties
-	pageTitle="connectivity/502errors"
-	description="connectivity/502errors"
+	pageTitle="Connectivity 502 Error"
+	description="Connectivity 502 Error"
 	service="microsoft.network"
 	resource="applicationgateways"
 	authors="radwiv"
@@ -13,7 +13,9 @@
 	articleId="cb9a55ba-84d0-430b-a741-f5b65a13b149"
 />
 
-# connectivity/502errors
+# Connectivity 502 Error
 
-## **Recommended documents**
-Troubleshoot [Bad Gateway Errors (502)](https://azure.microsoft.com/documentation/articles/application-gateway-troubleshooting-502/) in Application Gateway
+502 Bad Gateway error can happen due to various reasons. You can troubleshoot the issue using the guidance provided in the documentation below.
+
+## **Recommended Documents**
+Troubleshoot [Bad Gateway Errors (502)](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502) in Application Gateway

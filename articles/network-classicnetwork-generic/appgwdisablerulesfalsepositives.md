@@ -1,6 +1,6 @@
 <properties
-	pageTitle="waf/disablerules/falsepositives"
-	description="waf/disablerules/falsepositives"
+	pageTitle="WAF Disable Rules - False Positives"
+	description="WAF Disable Rules - False Positives"
 	service="microsoft.network"
 	resource="applicationgateways"
 	authors="radwiv"
@@ -13,8 +13,10 @@
 	articleId="96831d67-c084-4f55-a1d1-766bc43a93d2"
 />
 
-# waf/disablerules/falsepositives
+# WAF Disable Rules - False Positives
 
-## **Recommended documents**
+You can disable rule groups and rules in the WAF configuration to skip the request from being inspected by those rules.
 
-Customize web application firewall rules using [portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-portal) or [Azure CLI](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-cli)
+## **Recommended Documents**
+
+Customize Web Application Firewall rules using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-portal), [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-customize-waf-rules-powershell) or [Azure CLI](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-cli)
