@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="877bde65-b5de-4217-b595-c8a32711b7f0"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="16098"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.network, loadbalancers
