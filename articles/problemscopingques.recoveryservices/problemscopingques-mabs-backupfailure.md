@@ -2,19 +2,19 @@
          pageTitle="Scoping questions for Azure backup server Online backup is failing"
          description="Scoping questions for Azure backup server Online backup is failing"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553284"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="5784ce89-9b9c-4881-9caa-2a462fcbdc24"
+  	 articleId="5784ce89-9b9c-4881-9caa-2a462fcbdc24"
 />
 # Questions Azure backup server - Online backup is failing
 ---
 {
          "resourceRequired": true,
-		     "subscriptionReuired": true,
+	 "subscriptionRequired": true,
          "title": "Azure backup server Online backup is failing",
          "fileAttachmentHint": "",
          "formElements": [{
@@ -22,21 +22,21 @@
                           "visibility": "null",
                           "order": 1,
                           "controlType": "dropdown",
-                 	  	    "displayLabel": "Backups are failing to the disk or cloud?",
+                 	  "displayLabel": "Backups are failing to the disk or cloud?",
                           "watermarkText": "Select",
-						              "dropdownOptions":[{
-                                            "value": "Backups to the cloud are failing",
-                                            "text": "Backups to the cloud are failing"
-                                      },{
-                                            "value": "Backups to the disk are failing",
-                                            "text": "Backups to the disk are failing"
-                                      },{
-                                            "value": "dont_know_answer",
-                                            "text": "Other, don't know or not applicable"
-                                        }
-                                  ],
-                                   "required": true
-						    },{
+			  "dropdownOptions":[{
+					    "value": "Backups to the cloud are failing",
+					    "text": "Backups to the cloud are failing"
+				      },{
+					    "value": "Backups to the disk are failing",
+					    "text": "Backups to the disk are failing"
+				      },{
+					    "value": "dont_know_answer",
+					    "text": "Other, don't know or not applicable"
+					}
+			  ],
+			   "required": true
+		},{
                         "id": "os_version",
                         "order": 2,
                         "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
@@ -88,7 +88,7 @@
                       "displayLabel": "Provide the error message that you are seeing:",
                       "watermarkText": "Copy and paste error message text from the console instead of screenshot",
                       "required": false
-						  },{
+	     },{
                       "id": "workload_Type",
                       "visibility": "null",
                       "order": 7,
@@ -113,13 +113,13 @@
                                         },{
                                             "value": "VMWare",
                                             "text": "VMWare"  
-										                  	},{
+					},{
                                             "value": "dont_know_answer",
                                             "text": "Other, don't know or not applicable"
-											                  }
-			                            ],
-			                          "required": true
-						  },{
+					  }
+				    ],
+				  "required": true
+	   },{
                       "id": "Basic_troubleshooting_multiselect",
                       "order": 8,
                       "visibility": "issue_Type == Backups to the cloud are failing",
@@ -161,6 +161,7 @@
                     "order": 9,
                     "visibility": "issue_Type == Backups to the cloud are failing",
                     "controlType": "textbox",
+		    "displayLabel": "Provide the MachineId:",
                     "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
                     "watermarkText": "Paste MachineId here",
                     "required": false
@@ -169,6 +170,7 @@
                     "order": 10,
                     "visibility": "issue_Type == Backups to the cloud are failing",
                     "controlType": "textbox",
+		    "displayLabel": "Please provide the ResourceId:",
                     "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
                     "watermarkText": "Paste ResourceId here",
                     "required": false
@@ -188,7 +190,7 @@
                     "watermarkText": "Provide additional information about your issue",
                     "required": true,
                     "hints": []
-			      }
+	  }
     ]
 }
 ---
