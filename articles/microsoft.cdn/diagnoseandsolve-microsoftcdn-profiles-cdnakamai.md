@@ -1,9 +1,9 @@
 <properties
-	pageTitle="Top common problems for microsoft.cdn, profiles, cdnakamai"
-	description="Top common problems for microsoft.cdn, profiles, cdnakamai"        
+	pageTitle="Top common problems for microsoft.cdn, profiles, cdnakamai, cdnverizon"
+	description="Top common problems for microsoft.cdn, profiles, cdnakamai, cdnverizon"        
 	service="microsoft.cdn"
 	resource="profiles"
-	resourceTags="cdnakamai"
+	resourceTags="cdnakamai, cdnverizon"
 	authors="kasparks,huaiyizhu"
 	ms.author=""
 	displayOrder=""
@@ -12,7 +12,7 @@
 	productPesIds="15528"
 	cloudEnvironments="public"
 />
-# Top common problems for microsoft.cdn, profiles, cdnakamai
+# Top common problems for microsoft.cdn, profiles, cdnakamai and cdnverizon
 ---
 {
     "$schema": "SelfHelpContent",
