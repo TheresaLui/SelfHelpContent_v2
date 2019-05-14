@@ -9,7 +9,7 @@
 	displayOrder=""
 	articleId="d469a5f2-b578-4f43-a022-01379ff7d78a"
 	selfHelpType="diagnoseandsolve"
-	productPesIds=""
+	productPesIds="15659"
 	cloudEnvironments="public"
 />
 # Top common problems for microsoft.costmanagement, costmanagement
