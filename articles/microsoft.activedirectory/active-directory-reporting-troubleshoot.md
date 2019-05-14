@@ -27,7 +27,7 @@ If the issues you have sign-ins is generic, please file a support ticket.
 
 ## **Recommended documents**
 
-- [Azure AD Activity Logs Retention](https://docs.microsoft.com/e/azure/active-directory/reports-monitoring/reference-reports-data-retention)<br>
+- [Azure AD Activity Logs Retention](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention)<br>
 - [Azure AD Activity Logs Latency](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-latencies)  
 
 
