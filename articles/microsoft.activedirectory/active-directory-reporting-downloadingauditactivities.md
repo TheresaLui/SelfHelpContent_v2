@@ -16,10 +16,10 @@
 
 # Problem downloading audit activities
 
-## **Recommended steps**
+## **Recommended Steps**
 
-- If you don't see all the Audit for the date range you selected, you can download up to 250K rows (sorted by most recent) of sign-ins from Azure portal.
+- If you don't see all the audit for the date range you selected, you can download up to 250K rows (sorted by most recent) of sign-ins from Azure portal
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Audit activities download](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-download-audit-report)  
