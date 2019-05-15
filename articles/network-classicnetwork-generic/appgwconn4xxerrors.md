@@ -3,7 +3,7 @@
 	description="Connectivity 4xx Errors"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
 	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
@@ -26,5 +26,5 @@ You can troubleshoot the issue by directly accessing the server and check if it 
 
 ## **Recommended Documents**
 
-* [Diagnostics and Logging](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway<br />
-* Web Application Firewall [reporting and logs](https://docs.microsoft.com/en-us/azure/application-gateway/waf-overview#logging)
+* [Diagnostics and Logging](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway<br />
+* Web Application Firewall [reporting and logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging)
