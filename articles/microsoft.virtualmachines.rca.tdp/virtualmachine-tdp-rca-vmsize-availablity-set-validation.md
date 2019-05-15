@@ -29,7 +29,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 
 •	If you are limited to a specific SKU, you must create a new availability set based on the VM that matches your required SKU. Afterwards, you may need to deallocate the existing availability set.
 
-In addition, you can use Azure Availability Zones using VMs grouped in one or more physical locations within an Azure Region.<br>
+In addition, you can use Azure Availability Zones which operate using VMs grouped in one or more physical locations within an Azure Region.<br>
 
 ## Resources
 
