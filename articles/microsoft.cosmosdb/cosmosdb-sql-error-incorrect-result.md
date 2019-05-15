@@ -24,5 +24,5 @@ Please check if you are on the latest SDK version as they get bug fixes. Also, r
 * [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
-* [Python SDK](https://github.com/Azure/azure-documentdb-python/issues)
+* [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)
 * [FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
