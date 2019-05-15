@@ -22,7 +22,7 @@
             "controlType": "textbox",
             "displayLabel": "Source Storage Account",
             "watermarkText": "From StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "storage_account_to",
@@ -30,7 +30,7 @@
             "controlType": "textbox",
             "displayLabel": "Destination Storage Account",
             "watermarkText": "To StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "file_share_or_path",
@@ -45,7 +45,7 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
