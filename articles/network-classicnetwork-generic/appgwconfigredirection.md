@@ -3,7 +3,8 @@
 	description="Configure Redirection"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32639112"
@@ -14,9 +15,9 @@
 />
 
 # Configure Redirection
-You can use Application Gateway to redirect traffic. It has a generic redirection mechanism which allows for redirecting traffic received at one listener to another listener or to an external site.
+You can use Application Gateway to redirect traffic. It has a generic redirection mechanism which allows for redirecting traffic received at one listener to another listener or to an external site URL.
 
 
 ## **Recommended Documents**
-* Configure Redirection in Application Gateway using [Azure Portal](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-http-to-https-portal), [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-http-to-https-powershell) or [CLI](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-http-to-https-cli)<br />
-* [Redirection Overview](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-overview) in Application Gateway
+* Configure Redirection in Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-powershell) or [CLI](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-http-to-https-cli)<br />
+* [Redirection Overview](https://docs.microsoft.com/azure/application-gateway/redirect-overview) in Application Gateway
