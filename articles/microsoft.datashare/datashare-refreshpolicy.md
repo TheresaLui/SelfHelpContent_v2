@@ -16,7 +16,7 @@
 
 # Why is my data not being automatically refreshed?
 
-If you did not enable refresh policy, and try to enable it in the Sent Shares-> Share-> Setting screen, you not only need to enable the "Scheduled refresh" slider, but also need to click on the "Save" button right under Settings in order to save your changes.
+When a Data Consumer receives an invitation to a Data Share, they are offered the opportunity to subscribe to a scheduled refresh of this data. If they do not enable the scheduled refresh policy offered when accepting the invitation, data will not be automatically refreshed with incremental changes. Follow the below steps to resolve this issue:
 
 ## **Recommended Steps**
 

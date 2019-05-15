@@ -30,7 +30,14 @@ cloudEnvironments="public"
 			"searchTags": "snapshot, failed",
 			"supportTopicId": "",
 			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
-		},
+		}, {			         
+			"title": "Why is my synchronization setting not saved for my Data Share?",
+			"description": "I have no synchronization settings for my Data Share.",
+			"category": "Snapshot",
+			"searchTags": "snapshot, refresh",
+			"supportTopicId": "",
+			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
+		}
 	],
 	"troubleshootingTools": []
 }
