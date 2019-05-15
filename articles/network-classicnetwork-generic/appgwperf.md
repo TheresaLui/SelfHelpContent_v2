@@ -3,7 +3,8 @@
 	description="Application Gateway Performance"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32436962"
@@ -21,5 +22,5 @@ To read more about the V2 SKU, check the [documentation here](https://docs.micro
 
 ## **Recommended Documents**
 
-* Application Gateway [Performance FAQ](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-faq#performance)
-* Create an [Autoscaling and Zone Redundant Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-autoscale-ps)
+* Application Gateway [Performance FAQ](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq#performance)
+* Create an [Autoscaling and Zone Redundant Application Gateway](https://docs.microsoft.com/azure/application-gateway/tutorial-autoscale-ps)
