@@ -22,7 +22,7 @@
 - [What's new in Microsoft Azure Backup Server](https://aka.ms/AA4f1pt)<br>
 - [Pricing details for Azure Backup Server](https://azure.microsoft.com/pricing/details/backup/)<br>
 - [What workloads, I can protect with Azure Backup Server?](https://aka.ms/AA4f1pl)<br>
-- [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br><br>
+- [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
 - [Frequently asked questions about Azure Backup server](https://aka.ms/AB-AA4dqdv)<br>
 - [Issue]
 	
