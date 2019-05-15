@@ -16,7 +16,8 @@
 
 # Connectivity 502 Error
 
-502 Bad Gateway error can happen due to various reasons. 
+502 Bad Gateway error can happen due to various reasons. Most commonly, it could be one of the following.
+
 * Backend servers failing to respond to health probes
 * Backend servers timing out for requests sent from Application Gateway
 * Request being sent to an empty backend pool
