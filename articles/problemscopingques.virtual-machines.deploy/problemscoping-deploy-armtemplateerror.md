@@ -130,8 +130,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "No (Please upload your template below)",
+                    "text": "No (Please upload your template below)"
                 }
             ],
             "required": false
