@@ -29,11 +29,11 @@
 				}, {
 					"value": "SSD",
 					"text": "SSD"
-				} 
+				}
 			],
 			"required": false
 		}, {
-			"id": "serial_access",
+			"id": "slot_number",
 			"order": 2,
 			"controlType": "dropdown",
 			"displayLabel": "Select the slot that holds the failed disk",
@@ -78,7 +78,7 @@
 			],
 			"required": false
 		},{
-			"id": "disk_type",
+			"id": "unit_type",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Select the unit that holds the failed disk",
@@ -105,7 +105,7 @@
 			"displayLabel": "Details",
 			"watermarkText": "Provide additional information about your issue",
 			"required": true,
-			"useAsAdditionalDetails": false
+			"useAsAdditionalDetails": true
 		}
 	]
 }
