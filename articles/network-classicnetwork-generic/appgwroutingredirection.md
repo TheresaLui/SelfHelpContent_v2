@@ -3,7 +3,8 @@
 	description="HTTP Redirection"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32640608"
@@ -21,5 +22,5 @@ Also, redirection can occur due to backend application configuration. For exampl
 
 ## **Recommended Documents**
 
-* [Troubleshoot App Service redirection issues](https://docs.microsoft.com/en-us/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url) with Application Gateway
-* [HTTP Redirection](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-overview) overview on Application Gateway
+* [Troubleshoot App Service redirection issues](https://docs.microsoft.com/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url) with Application Gateway
+* [HTTP Redirection](https://docs.microsoft.com/azure/application-gateway/redirect-overview) overview on Application Gateway
