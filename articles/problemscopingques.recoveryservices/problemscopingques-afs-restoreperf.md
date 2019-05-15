@@ -63,8 +63,8 @@
 			"displayLabel": "Restoring a File Share that contains:",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
-					"value": "Large number of directories with large number of files",
-					"text": "Large number of directories with large number of files"
+					"value": "Large number of directories with few number of files",
+					"text": "Large number of directories with few number of files"
 				},{
 					"value": "Large number of directories with large number of files",
 					"text": "Large number of directories with large number of files"
