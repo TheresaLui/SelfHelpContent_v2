@@ -76,4 +76,4 @@ Refer [Switch to Pay by Invoice](https://docs.microsoft.com/azure/billing/billin
 ## **Recommended Documents**
 
 * [Update, change, or remove payment methods](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [Set up invoicing](https://azure.microsoft.com/pricing/invoicing/)
+* [Set up Invoicing](https://azure.microsoft.com/pricing/invoicing/)
