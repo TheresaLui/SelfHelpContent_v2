@@ -2,6 +2,7 @@
 	pageTitle="Storage Account creation issues"
 	description="Issues creating Storage Account scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602693"
 	productPesIds="15629"

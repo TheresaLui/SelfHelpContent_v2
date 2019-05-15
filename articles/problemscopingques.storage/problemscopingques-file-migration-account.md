@@ -2,6 +2,7 @@
 	pageTitle="Storage File migration between Storage Accounts"
 	description="Storage File migration between Storage Accounts scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602760"
 	productPesIds="16460"
@@ -52,7 +53,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]

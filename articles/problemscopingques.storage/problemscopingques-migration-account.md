@@ -2,6 +2,7 @@
 	pageTitle="Storage migration between Storage Accounts"
 	description="Storage migration between Storage Accounts scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602736"
 	productPesIds="16459"
