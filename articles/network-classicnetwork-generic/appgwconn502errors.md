@@ -26,4 +26,5 @@
 You can troubleshoot the issue using the guidance provided in the documentation below.
 
 ## **Recommended Documents**
-Troubleshoot [Bad Gateway Errors (502)](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502) in Application Gateway
+
+* Troubleshoot [Bad Gateway Errors (502)](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502) in Application Gateway
