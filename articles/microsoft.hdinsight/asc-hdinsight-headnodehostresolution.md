@@ -22,7 +22,7 @@ Nodes within your HDInsight cluster are experiencing a problem due to some nodes
 
 ## **Recommended Steps**
 
-* SSH onto the nodes, given from Support Enginner, within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
+* SSH onto the nodes, given from Support Engineer, within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
 * Open the hosts files vi /etc/hosts
 * Update the host files with the headnodehost pointing to the other headnode
 * Save and close the file
