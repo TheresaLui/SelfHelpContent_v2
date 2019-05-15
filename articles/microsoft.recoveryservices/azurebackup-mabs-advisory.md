@@ -33,10 +33,11 @@
 	- [Change Passphrase](https://aka.ms/AA52so0)<br>
 	- [Configure email notifications](https://aka.ms/AB-AA4dy2y)
 	
-- [Limitations] You cannot install Azure Backup server for following scenarios: ([more details](https://aka.ms/AA52so2)):<br>
+- [Limitations]
+	You cannot install Azure Backup server for following scenarios: ([more details](https://aka.ms/AA52so2)):
 
-	 - A computer running as a domain controller<br>
-	 - A computer on which the Application Server role is installed<br>
-	 - A computer that is a System Center Operations Manager management server<br>
-	 - A computer on which Exchange Server is running<br>
-	 - A computer that is a node of a cluster
+	 - Computer running as a domain controller<br>
+	 - Computer on which the Application Server role is installed<br>
+	 - Computer that is a System Center Operations Manager management server<br>
+	 - Computer on which Exchange Server is running<br>
+	 - Computer that is a node of a cluster
