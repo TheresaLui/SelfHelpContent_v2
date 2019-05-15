@@ -21,9 +21,9 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This occurrence was caused by an **Azure initiated memory-preserving update action**.
 <!--/issueDescription-->
 
-During this update, the VM unexpectedly rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during the reboot. This update is part of routine maintenance performed on the underlying hosts for this VM.<br> 
+During this update, the VM unexpectedly rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during the reboot.<br> 
 
-During these updates, the VM is frozen for up to 30 seconds and then resumed. Our engineers are alerted to investigate all factors that could have caused your VM to reboot and to apply fixes to affected nodes as soon as possible. No action is needed from you.<br>
+This update is part of Azure’s commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. Our engineers are alerted to investigate all factors that could have caused your VM to reboot and to apply fixes to affected nodes as soon as possible. No action is needed from you.<br>
 
 The update that failed to be installed we be included in the next scheduled update for this VM.<br>
 
