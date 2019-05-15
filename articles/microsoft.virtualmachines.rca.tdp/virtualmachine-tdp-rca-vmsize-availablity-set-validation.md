@@ -18,7 +18,7 @@
 # We ran diagnostics on your resource and found an issue 
 
 <!--issueDescription-->
-We detected that the operation **<!--$OperationName-->operationName<!--/$OperationName-->** on virtual machine **<!--$vmname-->myVirtualMachine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the requested VM size is not available in the current hardware cluster where the Azure Availability Set **<!--$avsetname-->myAvailabiltySet<!--/$avsetname-->** is created.<br>
+We detected that the operation **<!--$OperationName-->operationName<!--/$OperationName-->** on virtual machine **<!--$vmname-->myVirtualMachine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the requested VM size is not available in the current hardware cluster where the Azure Availability Set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** is created.<br>
 <!--/issueDescription-->
 
 An Azure Availability Set is created on a specific hardware cluster based upon the first VM using it. Each subsequent VM added must be compatible with the VM sizes supported in the hardware cluster. By having this constraint, high availability is maintained.<br>
@@ -29,7 +29,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 
 •	If you are limited to a specific SKU, you must create a new availability set based on the VM that matches your required SKU. Afterwards, you may need to deallocate the existing availability set.
 
-In addition, you can use Azure Availability Zones which provides high availabilty by having VMs grouped in one or more physical locations within an Azure Region.<br>
+In addition, you can use Azure Availability Zones which provides high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
 
 ## Resources
 
@@ -38,5 +38,5 @@ In addition, you can use Azure Availability Zones which provides high availabilt
 | Availability sets | [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) |
 | Manage availability sets for Windows VMs | [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) |
 | Manage availability sets for Linux VMs | [Manage the availability of Linux virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability) |
-| Availability Zones | [Azure Availability Zones](https://azure.microsoft.com/en-us/global-infrastructure/availability-zones/) |
+| Availability Zones | [Azure Availability Zones](https://azure.microsoft.com/global-infrastructure/availability-zones/) |
 | Availability Sets compared with Availability Zones | [Azure VMs : Availability Sets and Availability Zones](https://social.technet.microsoft.com/wiki/contents/articles/51828.azure-vms-availability-sets-and-availability-zones.aspx) |
