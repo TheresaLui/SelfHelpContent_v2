@@ -3,7 +3,8 @@
 	description="Configure End-to-End SSL"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582825"
@@ -19,5 +20,5 @@ End to end SSL allows you to securely transmit sensitive data to the backend enc
 
 ## **Recommended Documents**
 
-* [End to End SSL and SSL termination overview](https://docs.microsoft.com/en-us/azure/application-gateway/ssl-overview) on Application Gateway
-* [Configure End to End SSL](https://docs.microsoft.com/en-us/azure/application-gateway/end-to-end-ssl-portal) with Application Gateway using the Azure Portal
+* [End to End SSL and SSL termination overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview) on Application Gateway
+* [Configure End to End SSL](https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal) with Application Gateway using the Azure Portal
