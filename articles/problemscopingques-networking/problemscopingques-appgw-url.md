@@ -26,7 +26,7 @@
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "REQUIRED: Please provide a valid URL with either http or https prefix you are using to access the Application Gateway. It helps support to resolve the issue faster.",
+            "displayLabel": "Please provide the URL you are using to access the Application Gateway.",
             "watermarkText": "Example: http://www.contoso.com",
             "required": true,
 			"diagnosticInputRequiredClients": "Portal"
