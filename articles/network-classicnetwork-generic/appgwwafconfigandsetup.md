@@ -3,7 +3,8 @@
 	description="WAF Configuration and Setup"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565736"
@@ -18,6 +19,6 @@ Azure Application Gateway offers a web application firewall (WAF) that provides 
 
 ## **Recommended Documents**
 
-* Create an Application Gateway with Web Application Firewall using the [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-portal) or [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-restrict-web-traffic-powershell)<br />
+* Create an Application Gateway with Web Application Firewall using the [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-restrict-web-traffic-powershell)<br />
 * List of Web Application Firewall [CRS rule groups and rules offered](https://docs.microsoft.com/azure/application-gateway/application-gateway-crs-rulegroups-rules)<br>
-* [Web Application Firewall](https://docs.microsoft.com/en-us/azure/application-gateway/waf-overview) overview on Application Gateway
+* [Web Application Firewall](https://docs.microsoft.com/azure/application-gateway/waf-overview) overview on Application Gateway
