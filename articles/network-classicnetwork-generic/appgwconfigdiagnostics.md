@@ -25,4 +25,4 @@ In diagnostics, you have the following logs:
 
 ## **Recommended Documents**
 
-[Configure and analyze logs and metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics) using Application Gateway
+* [Configure and analyze logs and metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics) using Application Gateway
