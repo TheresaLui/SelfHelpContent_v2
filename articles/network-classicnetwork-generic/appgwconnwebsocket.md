@@ -3,7 +3,7 @@
 	description="Connectivity WebSocket"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
 	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
@@ -20,5 +20,5 @@ Application Gateway provides native support for WebSocket across all gateway siz
 
 ## **Recommended Documents**
 
-* [Diagnostics and Logging](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway
-* [WebSocket Support](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-websocket) in Application Gateway
+* [Diagnostics and Logging](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway
+* [WebSocket Support](https://docs.microsoft.com/azure/application-gateway/application-gateway-websocket) in Application Gateway
