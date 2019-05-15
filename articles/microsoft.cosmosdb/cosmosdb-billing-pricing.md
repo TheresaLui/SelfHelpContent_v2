@@ -6,14 +6,16 @@
 	authors="rnagpal"
 	ms.author="rnagpal"
 	selfHelpType="generic"
-	supportTopicIds="32636802"
+	supportTopicIds="32636791,32636806,32636826"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
-	articleId="e2418fdb-2274-4ee9-93d0-4ebf643a87f6"
+	articleId="cosmosdb-billing-pricing"
 />
 
 # Pricing in Azure Cosmos DB
+
+## **Recommended Steps**
 
 Azure Cosmos DB resources are charged based on the storage consumed(GB) and the throughput provisioned(RU/s) for a container. Each container with provisioned throughput is billed on an hourly basis for the throughput provisioned in increments of 100 RU/second.
 
