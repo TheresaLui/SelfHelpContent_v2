@@ -22,11 +22,11 @@
                           "visibility": "null",
                           "order": 1,
                           "controlType": "dropdown",
-                 	  "displayLabel": "Backups are failing to the disk or cloud?",
+                 	  "displayLabel": "Select the backup failure type",
                           "watermarkText": "Select",
 			  "dropdownOptions":[{
-					    "value": "Backups to the cloud are failing",
-					    "text": "Backups to the cloud are failing"
+					    "value": "Cloud backup is failing",
+					    "text": "Cloud backup is failing"
 				      },{
 					    "value": "Backups to the disk are failing",
 					    "text": "Backups to the disk are failing"
@@ -57,7 +57,7 @@
                         "order": 4,
                         "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
                         "controlType": "textbox",
-                        "infoBalloonText": "Check software version by selecting About button on the Help panel in MABS Console",
+                        "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
                         "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
                         "watermarkText": "ex. version 12.0.332.0.",
                         "required": false
@@ -86,7 +86,7 @@
                       "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
                       "controlType": "textbox",
                       "displayLabel": "Provide the error message that you are seeing:",
-                      "watermarkText": "Copy and paste error message text from the console instead of screenshot",
+                      "watermarkText": "Copy and paste error message that you see in console",
                       "required": false
 	     },{
                       "id": "workload_Type",
@@ -96,11 +96,11 @@
                       "displayLabel": "Which type of data source you are backing up?",
                       "watermarkText": "Select workload type",
                       "dropdownOptions":[{
-                                          "value": "SQL",
-                                          "text": "SQL"
+                                          "value": "File Server",
+                                          "text": "File Server"
                                         },{
-                                             "value": "File Server",
-                                             "text": "File Server"
+                                             "value": "SQL database",
+                                             "text": "SQL database"
                                         },{
                                             "value": "Exchange Server",
                                             "text": "Exchange Server"
@@ -142,8 +142,8 @@
                                           "value": "If antivirus is running, then exclusion rules are used",
                                           "text": "If antivirus is running, then exclusion rules are used"
                                         },{
-                                          "value": "proxy is enabled",
-                                          "text": "proxy is enabled"
+                                          "value": "Proxy is enabled",
+                                          "text": "Proxy is enabled"
                                         },{
                                           "value": "Unsupported drives are excluded from backup",
                                           "text": "Unsupported drives are excluded from backup"
