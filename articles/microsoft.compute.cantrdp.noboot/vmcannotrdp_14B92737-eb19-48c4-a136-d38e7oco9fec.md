@@ -2,7 +2,7 @@
     pageTitle="VM boot error"
     description="Virtual machine failed to boot because it found the OS to be unhealthy and the automatic system recovery tried to fix it."
     infoBubbleText="A boot error '?Error 0xC000000E is STATUS_NO_SUCH_DEVICE "A device which does not exist was specified' has been found for your virtual machine."
-    service="microsoft.compute"
+    service="microsoft.compute" 
     resource="virtualmachines"
     authors="jasonbandrew"
     ms.author="v-jasoan"
