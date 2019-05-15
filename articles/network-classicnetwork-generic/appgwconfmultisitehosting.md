@@ -3,7 +3,8 @@
 	description="Configure Multi-site Hosting"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582827"
@@ -19,5 +20,5 @@ Multiple site hosting enables you to configure more than one web application on 
 
 ## **Recommended Documents**
 
-* Create an Application Gateway to host multiple web applications using [Azure Portal](https://docs.microsoft.com/en-us/azure/application-gateway/create-multiple-sites-portal) or [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-multiple-sites-powershell)<br />
-* [Multiple site hosting](https://docs.microsoft.com/en-us/azure/application-gateway/multiple-site-overview) overview on Application Gateway
+* Create an Application Gateway to host multiple web applications using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/create-multiple-sites-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-multiple-sites-powershell)<br />
+* [Multiple site hosting](https://docs.microsoft.com/azure/application-gateway/multiple-site-overview) overview on Application Gateway
