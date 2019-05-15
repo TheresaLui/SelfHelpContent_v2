@@ -18,7 +18,7 @@
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> not all nodes are pointing to the same headnodehost
 
-The following nodes <!--$headnodehosts-->[headnodehosts]<!--/$headnodehosts--> within your HDInsight cluster is experiencing problems due to nodes not pointing to the same headnodehost. 
+Nodes within your HDInsight cluster is/are experiencing problems due to nodes not pointing to the same headnodehost. 
 
 ## **Recommended Steps**
 
