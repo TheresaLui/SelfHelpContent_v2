@@ -7,7 +7,7 @@
     ms.author="ramakoni"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32636476"
+    supportTopicIds="32636476,32636475"
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="public"
