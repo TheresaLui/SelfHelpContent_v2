@@ -23,9 +23,7 @@ We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** beca
 
 During this update, the VM unexpectedly rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during the reboot.<br> 
 
-This update is part of Azure’s commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. Our engineers are alerted to investigate all factors that could have caused your VM to reboot and to apply fixes to affected nodes as soon as possible. No action is needed from you.<br>
-
-The update that failed to be installed we be included in the next scheduled update for this VM.<br>
+This update is part of Azure’s commitment to improve the reliability, performance, and security of the host infrastructure for virtual machines. Our engineers are alerted to investigate all factors that could have caused your VM to reboot and to apply fixes to affected hosts as soon as possible. No action is needed from you.<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
 

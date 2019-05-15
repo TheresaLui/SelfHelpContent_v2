@@ -21,7 +21,7 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This  occurrence was caused by an **Azure initiated memory-preserving update action**.
 <!--/issueDescription-->
 
-The update process succeeded; but note that RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br> 
+The update process succeeded, but note that RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br> 
 
 This update is part of routine maintenance performed on the underlying hosts for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed. No action is needed from you.<br>
 
