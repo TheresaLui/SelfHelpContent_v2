@@ -21,7 +21,7 @@
 We detected that the operation **<!--$OperationName-->operationName<!--/$OperationName-->** on virtual machine **<!--$vmname-->myVirtualMachine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the requested VM size is not available in the current hardware cluster where the Azure Availability Set **<!--$avsetname-->myAvailabilitySet<!--/$avsetname-->** is created.<br>
 <!--/issueDescription-->
 
-An Azure Availability Set is created on a specific hardware cluster based upon the first VM using it. Each subsequent VM added must be compatible with the VM sizes supported in the hardware cluster. By having this constraint, high availability is maintained.<br>
+An Azure Availability Set is created on a specific hardware cluster based upon the first VM using it. Each subsequent VM added must be compatible with the VM sizes supported in that hardware cluster. By having this constraint, high availability is maintained.<br>
 
 We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibility with SKU options for the availability set:
 
@@ -29,7 +29,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 
 •	If you are limited to a specific SKU, you must create a new availability set based on the VM that matches your required SKU. Afterwards, you may need to deallocate the existing availability set.
 
-In addition, you can use Azure Availability Zones which provides high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
+In addition, you can consider Azure Availability Zones which provides high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
 
 ## Resources
 
