@@ -3,7 +3,7 @@
 	description="Connectivity Connection Timed out"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
 	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
@@ -22,5 +22,5 @@ Check the documentation mentioned below to get guidance on how to troubleshoot t
 
 ## **Recommended Documents**
 
-* NSG or UDR could be blocking access to the ports. Check the [documentation](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to understand the NSG requirements apart from allowing inbound access to the required ports.
-* If there is no listener configured on the requested frontend port, follow the [documentation here](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to configure one and start accepting traffic.
+* NSG or UDR could be blocking access to the ports. Check the [documentation](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to understand the NSG requirements apart from allowing inbound access to the required ports.
+* If there is no listener configured on the requested frontend port, follow the [documentation here](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet) to configure one and start accepting traffic.
