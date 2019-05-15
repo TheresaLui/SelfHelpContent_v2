@@ -25,7 +25,7 @@
             "controlType": "textbox",
              "displayLabel": "What is the OS version of the affected virtual machine?",
             "watermarkText": "Example: Windows Server 2016, Ubuntu 16.04 LTS server kernel 4.10.0-14-generic to 4.10.0-32-generic",
-            "required": true
+            "required": false
         },
         {
             "id": "machine_name",
@@ -41,7 +41,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the ID of failed Site Recovery job Activity:",
             "watermarkText": "Example. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
