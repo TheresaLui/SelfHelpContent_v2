@@ -3,7 +3,7 @@
 	description="Unknown Backend Health"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
 	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
@@ -27,5 +27,5 @@ Follow the guidelines in the documentation mentioned below to resolve this issue
 
 ## **Recommended Documents**
 
-* [Unknown Backend Health](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) in Application Gateway
-* [Verifying Backend Health](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) in Application Gateway
+* [Unknown Backend Health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) in Application Gateway
+* [Verifying Backend Health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) in Application Gateway
