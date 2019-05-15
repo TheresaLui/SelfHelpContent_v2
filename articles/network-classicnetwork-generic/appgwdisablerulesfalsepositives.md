@@ -20,4 +20,4 @@ You can disable rule groups and rules in the WAF configuration to skip the reque
 
 ## **Recommended Documents**
 
-Customize Web Application Firewall rules using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-powershell) or [Azure CLI](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-cli)
+* Customize Web Application Firewall rules using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-powershell), or [Azure CLI](https://docs.microsoft.com/azure/application-gateway/application-gateway-customize-waf-rules-cli)
