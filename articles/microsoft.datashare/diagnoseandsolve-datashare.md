@@ -37,6 +37,13 @@ cloudEnvironments="public"
 			"searchTags": "snapshot, refresh",
 			"supportTopicId": "",
 			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
+		} {			         
+			"title": "Why do I receive an error when creating a Data Share account during invitation acceptance?,
+			"description": "Error creating a Data Share account during invitation acceptance",
+			"category": "Data Share account",
+			"searchTags": "invitation, error",
+			"supportTopicId": "",
+			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
 		}
 	],
 	"troubleshootingTools": []
