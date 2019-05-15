@@ -3,7 +3,8 @@
 	description="Analyze Allowed/Blocked Traffic in WAF"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565735"
@@ -19,4 +20,4 @@ You can analyze and identify malicious requests which were detected or blocked b
 
 ## **Recommended Documents**
 
-Web Application Firewall [reporting and logs](https://docs.microsoft.com/en-us/azure/application-gateway/waf-overview#logging)
+Web Application Firewall [reporting and logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging)
