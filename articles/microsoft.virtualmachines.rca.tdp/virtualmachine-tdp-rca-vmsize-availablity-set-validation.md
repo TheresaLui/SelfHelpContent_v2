@@ -18,16 +18,21 @@
 # We ran diagnostics on your resource and found an issue 
 
 <!--issueDescription-->
-We detected that the operation **<!--$OperationName-->Operation name<!--/$OperationName-->** on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because it has an unsupported VM size for **<!--$avsetname-->Availability set name<!--/$avsetname-->** availability set.<br>
+We detected that the operation **<!--$OperationName-->operationName<!--/$OperationName-->** on virtual machine **<!--$vmname-->myVirtualMachine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the requested VM size is not available in the current hardware cluster where the Azure Availability Set **<!--$avsetname-->myAvailabiltySet<!--/$avsetname-->** is created.<br>
 <!--/issueDescription-->
 
-Availability sets are configured to support only specified VM sizes according to the hardware capabilities of the cluster of underlying hosts. To add a VM to availability set, it must match one of the specified VM sizes.
+An Azure Availability Set is created based upon the first VM applied to it and operates using a specific hardware cluster as determined by the Azure fabric. Each subsequent VM added to the availability set must be compatible with the VM sizes supported in the hardware cluster. By having this constraint, high availability is maintained.
 
-To determine supported VM sizes for an availability set, see [Check for available VM sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets#check-for-available-vm-sizes).
+We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibity with SKU options for the availablity set:
 
-If you need to resize a VM that is part of an availability set and the requested size is not available in the current cluster, you must first deallocate all VMs in that availability set before resizing the VM. For more information, see [Resize a Windows VM in an availability set](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm#resize-a-windows-vm-in-an-availability-set). 
+•	If you not limited to a specific SKU, you can query the available VM sizes for your current availability set and pick a suitable size from the results by using the the PowerShell `Get-AzVMSize` command and its parameters. See [Check for available VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets#check-for-available-vm-sizes) where you can run the command directly. 
 
-For an overview of availability sets, see [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets).
+•	If you are limited to a specific SKU, you must create a new availability set based on the VM that matches your required SKU. Afterwards, you may need to deallocate the existing availability set.
 
+## Resources
 
-
+| To learn about ... | See these articles |
+| --- | --- |
+| Availability sets | [Tutorial: Create and deploy highly available virtual machines with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) |
+| Manage availablity sets for Windows VMs | [Manage the availability of Windows virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) |
+| Manage availability sets for Linux VMs | [Manage the availability of Linux virtual machines](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/manage-availability) |
