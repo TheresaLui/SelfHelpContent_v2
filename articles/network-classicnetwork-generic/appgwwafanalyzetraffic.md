@@ -20,4 +20,4 @@ You can analyze and identify malicious requests which were detected or blocked b
 
 ## **Recommended Documents**
 
-Web Application Firewall [reporting and logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging)
+* Web Application Firewall [reporting and logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging)
