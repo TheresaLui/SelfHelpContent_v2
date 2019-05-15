@@ -40,7 +40,7 @@
       "controlType": "textbox",
       "displayLabel": "Reason for the Refund ",
       "watermarkText": "Provide the reason for the refund",
-      "required": true
+      "required": false
     },
   {
 			"id": "problem_description",

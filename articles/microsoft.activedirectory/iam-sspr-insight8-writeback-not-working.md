@@ -17,10 +17,11 @@
 />
 
 # Password Writeback is Not Working
-
+<!--/issueDescription-->
 We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> is not able to change or reset their password because password writeback is not currently working in your tenant.
+<!--/issueDescription-->
 
-## **Recommended Steps** 
+## **Recommended Steps**
 
 To check the status of password writeback in your tenant, do the following:
 
@@ -28,7 +29,7 @@ To check the status of password writeback in your tenant, do the following:
 2. From the *On-premises integration* page, view the status of password writeback
 
 To troubleshoot and fix this issue, follow the [password writeback troubleshooting guide](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-passwords-troubleshoot#troubleshoot-password-writeback).
- 
+
 ## **Recommended Documents**
 
 * Learn more about [password writeback](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-writeback)

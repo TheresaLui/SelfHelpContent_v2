@@ -31,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": false
         },
         {
             "id": "backup_type",
@@ -61,7 +61,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
-            "required": true
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -138,12 +138,12 @@
             "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Basic troubleshooting",
+            "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "hints": [
                 {
-                    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-types-of-drives-can-i-back-up-files-and-folders-from-br'>unsupported drives</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#what-file-and-folder-types-can-i-back-up-from-my-serverbr'>unsupported files.</a>"
+                    "text": "To ensure successful backup, refer to these prerequisites and dependencies:, <a href='http://aka.ms/azurebackup_agent'>latest Azure Backup agent</a>, <a href='https://aka.ms/AB-AA4dp51'>whitelist URLs on firewall</a>, <a href='https://aka.ms/AB-AA4dwtk'>antivirus prerequisites</a>, <a href='https://aka.ms/AB-mars-Unsupportedfiles'>unsupported drives</a>, and <a href='https://aka.ms/AB-mars-Unsupportedfiles'>unsupported files.</a>"
                 }
             ]
         }

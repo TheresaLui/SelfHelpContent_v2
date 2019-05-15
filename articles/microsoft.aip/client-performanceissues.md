@@ -28,7 +28,8 @@
     * At the beginning of the macro, add: `Application.EnableEvents = False`
 	* At the end of the macro, add: `Application.EnableEvents = True`
 
-7. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
+7. Try to upgrade to the latest .NET Framework 4.8 which contain performance improvements: [Download .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+8. If you are still experiencing the issue, collect Azure Information Protection client logs and attach the exported logs to this ticket
 
 ### Export Azure Information Protection logs
 

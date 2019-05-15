@@ -17,8 +17,9 @@
 />
 
 # Configuration Issue Preventing User Sign-In
-
+<!--issueDescription-->
 Your <!--$AppDisplayName-->AppDisplayName<!--/$AppDisplayName--> is not enabled for user sign-in. This will prevent any user from accessing this application.
+<!--issueDescription-->
 
 ## **Recommended Steps**
 
