@@ -54,6 +54,7 @@ You might be using a different email id and the subscriptions might be aligned t
 5. **Unable to make payment for a subscription due to error message "Payment is past due. There is a problem with your payment method" or "We're sorry, the information cannot be saved. Close the browser and try again"**<br>
 This could be because there is a pending payment on the card since the card was denied by your financial institution. Please make sure that the credit card has sufficient balance to make payment or use some other card for making payment or reach out to your financial institution to resolve the issue. Use the below pointers
 
+
 	1. You might have to check with the bank to see if the international transaction is enabled on the card<br>
 	2. If card has credit limit to settle the balance<br>
 	3. If recurring payment is enabled on the card<br>
