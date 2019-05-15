@@ -23,4 +23,4 @@
 - Known Limitation: The target VM's operating system version must be **greater than or equal to** source VM's operating system version for successful restore<br>
 - If you are trying to restore to alternate location/server, **use the same passphrase** that was initially used during backup <br>
 - How to restore files to: [**original location**](https://aka.ms/AB-AA4dwtj) (or) [**alternative location**](https://aka.ms/AA4f1qz)<br>
-- [Troubleshooting common restore issues](https://aka.ms/AB-MARS-Tshooting) <br>
+- [Troubleshooting common restore issues](https://aka.ms/AB-AA4dp4y) <br>
