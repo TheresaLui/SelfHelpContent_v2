@@ -3,7 +3,8 @@
 	description="Connectivity 502 Error"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32573483"
@@ -15,7 +16,13 @@
 
 # Connectivity 502 Error
 
-502 Bad Gateway error can happen due to various reasons. You can troubleshoot the issue using the guidance provided in the documentation below.
+502 Bad Gateway error can happen due to various reasons. 
+* Backend servers failing to respond to health probes
+* Backend servers timing out for requests sent from Application Gateway
+* Request being sent to an empty backend pool
+* A basic rule has been listed on top of the multi-site rules which catches all the requests and routes them to unintended backend pool
+
+You can troubleshoot the issue using the guidance provided in the documentation below.
 
 ## **Recommended Documents**
-Troubleshoot [Bad Gateway Errors (502)](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-troubleshooting-502) in Application Gateway
+Troubleshoot [Bad Gateway Errors (502)](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502) in Application Gateway
