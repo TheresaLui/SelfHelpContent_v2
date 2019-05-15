@@ -25,4 +25,4 @@ You can troubleshoot the issue by directly accessing the server and check if the
 
 ## **Recommended Documents**
 
-[Diagnostics and Logging](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway
+* [Diagnostics and Logging](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging) in Application Gateway
