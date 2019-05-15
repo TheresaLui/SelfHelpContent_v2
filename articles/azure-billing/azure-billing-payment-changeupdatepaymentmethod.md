@@ -37,6 +37,7 @@ In the Account Center, as an Account Administrator, you can add a new credit car
 
 ### **Troubleshoot Error Scenarios**
 
+
 1. **Unable to remove credit card from saved billing payment method**<br>
 By design you cannot remove the card from the Active subscription. For an old/existing payment instrument to be deleted successfully,  a new card needs to be added to the subscription or you have to [Cancel the subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription). This will delete the subscription permanently and will also remove the card.<br>
 **Note**: After a subscription has been disabled or canceled, there is a wait time of **90 days** before the subscription is permanently deleted. The payment method is kept on file during the retention period in case the subscription needs to be reactivated. After that period, the subscription is permanently deleted.
