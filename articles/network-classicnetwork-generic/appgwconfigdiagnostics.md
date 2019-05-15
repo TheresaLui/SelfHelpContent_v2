@@ -3,7 +3,8 @@
 	description="Configure Diagnostics and Metrics"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32640603"
@@ -24,4 +25,4 @@ In diagnostics, you have the following logs:
 
 ## **Recommended Documents**
 
-[Configure and analyze logs and metrics](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-diagnostics) using Application Gateway
+[Configure and analyze logs and metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics) using Application Gateway
