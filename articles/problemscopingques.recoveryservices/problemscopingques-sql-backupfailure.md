@@ -23,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine running SQL",
-            "required": true
+            "required": false
         },
         {
             "id": "os_version",
@@ -47,7 +47,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the name(s) of the databases whose backup is failing?",
             "watermarkText": "Enter database name(s) comma separated",
-            "required": true
+            "required": false
         },
         {
             "id": "backup_Type",
@@ -84,28 +84,16 @@
             "required": false
         },
         {
-            "id": "learn_more_text",
-            "order": 7,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a failed Backup Job Activity ID. From a new browser tab, you can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-        },
-        {
             "id": "error_code",
-            "order": 8,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Provide the error code that are you seeing:",
             "watermarkText": "Example: UserErrorSQLPODoesNotExist",
-            "required": true
-        },
-        {
-            "id": "prerequisites_links",
-            "order": 9,
-            "controlType": "infoblock",
-            "content": "Ensure you review these prerequisites and dependencies for successful configuration and backup:, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-operating-systems'>supported OS version</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#supported-sql-server-versions-and-editions'>supported SQL server versions and editions</a>, <a href='https://docs.microsoft.com/azure/backup/backup-azure-sql-database#prerequisites'>permission required on VM.</a>"
+            "required": false
         },
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 10,
+            "order": 8,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -134,20 +122,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
-            "id": "learn_more_text1",
-            "order": 12,
-            "controlType": "infoblock",
-            "content": "Please upload SQL Server logs located at %ProgramFiles%\\\\Microsoft SQL Server\\\\MSSQL11.MSSQLSERVER\\\\MSSQL\\\\Log. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left."
-        },
-        {
             "id": "problem_description",
-            "order": 13,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

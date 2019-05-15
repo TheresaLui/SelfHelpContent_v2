@@ -13,7 +13,6 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
     "streamNamespace": "AzureAdvisor.ServiceHealthAlert_Large",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
@@ -72,6 +71,7 @@
     }
   },
   "displayLabel": "Create an Azure service health alert",
+  "testData": "658c8950-e79d-4704-a903-1df66ba90258,/subscriptions/658c8950-e79d-4704-a903-1df66ba90258",
   "additionalColumns": []
 }
 ---
