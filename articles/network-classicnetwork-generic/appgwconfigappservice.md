@@ -3,7 +3,8 @@
 	description="Configure Application Gateway with App Service"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32640602"
@@ -20,6 +21,6 @@ This capability enables support for multi-tenant back ends such as Azure App ser
 
 ## **Recommended Documents**
 
-* Configure Application Gateway with App Service using [Azure Portal](https://docs.microsoft.com/en-us/azure/application-gateway/configure-web-app-portal) or [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/create-web-app)
-* [Application Gateway support for multi-tenant back ends such as App service](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-web-app-overview) overview
-* [Troubleshoot App Service redirection issues](https://docs.microsoft.com/en-us/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url) with Application Gateway
+* Configure Application Gateway with App Service using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/configure-web-app-portal) or [PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/create-web-app)
+* [Application Gateway support for multi-tenant back ends such as App service](https://docs.microsoft.com/azure/application-gateway/application-gateway-web-app-overview) overview
+* [Troubleshoot App Service redirection issues](https://docs.microsoft.com/azure/application-gateway/troubleshoot-app-service-redirection-app-service-url) with Application Gateway
