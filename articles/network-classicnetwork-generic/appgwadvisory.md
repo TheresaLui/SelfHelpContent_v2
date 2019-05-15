@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-Application gateway [FAQ](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq)<br>
-Application gateway [documentation](https://docs.microsoft.com/azure/application-gateway) including "How to" and "Troubleshooting" steps for common issues
+* Application gateway [FAQ](https://docs.microsoft.com/azure/application-gateway/application-gateway-faq)<br>
+* Application gateway [documentation](https://docs.microsoft.com/azure/application-gateway) including "How to" and "Troubleshooting" steps for common issues
