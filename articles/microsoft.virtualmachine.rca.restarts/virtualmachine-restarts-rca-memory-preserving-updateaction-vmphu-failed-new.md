@@ -14,7 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds="14749"
 	cloudEnvironments="public"
-/>s
+/>
 # Your resource had an issue during an update
 
 <!--issueDescription-->
