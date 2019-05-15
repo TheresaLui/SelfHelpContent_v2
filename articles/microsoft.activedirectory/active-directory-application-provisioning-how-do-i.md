@@ -18,7 +18,7 @@
 
 For information on how to configure and use the Azure AD user provisioning service, see the articles below.
 
-## **Recommended Material**
+## **Recommended Documents**
 
 * [Video: What is user provisioning in Azure Active Directory?](https://www.youtube.com/watch?v=_ZjARPpI6NI)
 * [Video: How to deploy provisioning in Azure Active Directory](https://www.youtube.com/watch?v=pKzyts6kfrw) 
