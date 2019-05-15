@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	articleId="8252960e-852d-405d-a41f-7e8fb70b364a"
+	articleId="b8e6ed39-d79d-41f7-b2b3-02455066e8e1"
 />
 
 # Why is my synchronization setting not saved for my Data Share?

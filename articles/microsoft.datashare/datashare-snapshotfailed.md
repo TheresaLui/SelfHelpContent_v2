@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	articleId="1d423bf5-f0a3-48fc-a6a1-314e04ea791f"
+	articleId="69347c92-8ff5-4543-ba34-ff6c8ba039bf"
 />
 
 # Why did snapshot fail?
