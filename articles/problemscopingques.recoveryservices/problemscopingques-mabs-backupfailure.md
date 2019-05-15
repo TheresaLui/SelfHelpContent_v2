@@ -22,14 +22,14 @@
                           "visibility": "null",
                           "order": 1,
                           "controlType": "dropdown",
-                 	  "displayLabel": "Select the backup failure type",
+                 	  "displayLabel": "Select the backup failure type:",
                           "watermarkText": "Select",
 			  "dropdownOptions":[{
 					    "value": "Cloud backup is failing",
 					    "text": "Cloud backup is failing"
 				      },{
-					    "value": "Backups to the disk are failing",
-					    "text": "Backups to the disk are failing"
+					    "value": "Disk backup is failing",
+					    "text": "Disk backup is failing"
 				      },{
 					    "value": "dont_know_answer",
 					    "text": "Other, don't know or not applicable"
@@ -39,7 +39,7 @@
 		},{
                         "id": "os_version",
                         "order": 2,
-                        "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
+                        "visibility": "issue_Type == Cloud backup is failing || issue_Type == Disk backup is failing",
                         "controlType": "textbox",
                         "displayLabel": "What is the OS version of the impacted Server?",
                         "watermarkText": "ex. Windows 2012 R2",
@@ -47,7 +47,7 @@
                 },{
                         "id": "machine_name",
                         "order": 3,
-                        "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
+                        "visibility": "issue_Type == Cloud backup is failing || issue_Type == Disk backup is failing",
                         "controlType": "textbox",
                         "displayLabel": "Which machine is experiencing the problem?",
                         "watermarkText": "Enter the name of the impacted machine",
@@ -55,7 +55,7 @@
                 },{
                         "id": "mab_version",
                         "order": 4,
-                        "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
+                        "visibility": "issue_Type == Cloud backup is failing || issue_Type == Disk backup is failing",
                         "controlType": "textbox",
                         "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
                         "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
@@ -64,7 +64,7 @@
                 },{
                         "id": "backup_type",
                         "order": 5,
-                        "visibility": "issue_Type == Backups to the cloud are failing",
+                        "visibility": "issue_Type == Cloud backup is failing",
                         "controlType": "dropdown",
                         "displayLabel": "Is this an initial/incremental backup failure?",
                         "watermarkText": "Select",
@@ -83,7 +83,7 @@
               },{
                       "id": "error_message",
                       "order": 6,
-                      "visibility": "issue_Type == Backups to the cloud are failing || issue_Type == Backups to the disk are failing",
+                      "visibility": "issue_Type == Cloud backup is failing || issue_Type == Disk backup is failing",
                       "controlType": "textbox",
                       "displayLabel": "Provide the error message that you are seeing:",
                       "watermarkText": "Copy and paste error message that you see in console",
@@ -122,7 +122,7 @@
 	   },{
                       "id": "Basic_troubleshooting_multiselect",
                       "order": 8,
-                      "visibility": "issue_Type == Backups to the cloud are failing",
+                      "visibility": "issue_Type == Cloud backup is failing",
                       "controlType": "multiselectdropdown",
                       "infoBalloonText": "Check Azure Backup server <a href='https://aka.ms/AB-AA4dqdk'>Troubleshooting</a> article",
                       "displayLabel": "Select the troubleshooting steps that you have performed:",
@@ -159,7 +159,7 @@
           },{
                     "id": "get_machineid",
                     "order": 9,
-                    "visibility": "issue_Type == Backups to the cloud are failing",
+                    "visibility": "issue_Type == Cloud backup is failing",
                     "controlType": "textbox",
 		    "displayLabel": "Provide the MachineId:",
                     "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
@@ -168,7 +168,7 @@
           },{
                     "id": "get_resourceId",
                     "order": 10,
-                    "visibility": "issue_Type == Backups to the cloud are failing",
+                    "visibility": "issue_Type == Cloud backup is failing",
                     "controlType": "textbox",
 		    "displayLabel": "Provide the ResourceId:",
                     "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
