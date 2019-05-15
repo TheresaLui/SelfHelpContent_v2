@@ -3,7 +3,8 @@
 	description="Cookie Based Session Affinity"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32640605"
@@ -20,4 +21,4 @@ Application Gateway cookie based affinity enables the application gateway to dir
 ## **Recommended Documents**
 
 * [Troubleshoot](https://support.microsoft.com/help/4033827/troubleshooting-azure-application-gateway-session-affinity-issues) Application Gateway session affinity issues <br />
-* [Cookie Based Session affinity](https://docs.microsoft.com/en-us/azure/application-gateway/configuration-overview#cookie-based-affinity) overview on Application Gateway
+* [Cookie Based Session affinity](https://docs.microsoft.com/azure/application-gateway/configuration-overview#cookie-based-affinity) overview on Application Gateway
