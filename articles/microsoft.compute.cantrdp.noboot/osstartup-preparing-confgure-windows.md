@@ -4,7 +4,7 @@
     infoBubbleText="A boot error has been found. See details on the right."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="v-jasoan"
+    authors="jasonbandrew"
     ms.author="v-jasoan"
     displayOrder=""
     articleId="OSStartUp-PREPARING_CONFIGURE_WINDOWS"
