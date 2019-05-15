@@ -14,4 +14,4 @@
 />
 
 # An Azure service issue impacted resources in your subscription
-Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. Please use the links below to view the latest information about the service issue in Azure Service Health and be sure to [create a Service Health alert](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-activity-log-service-notifications) to be automatically notified should an Azure event affect you.
+Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. Please use the links below to view the latest information about the service issue in Azure Service Health and be sure to [create a Service Health alert](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log-service-notifications) to be automatically notified should an Azure event affect you.
