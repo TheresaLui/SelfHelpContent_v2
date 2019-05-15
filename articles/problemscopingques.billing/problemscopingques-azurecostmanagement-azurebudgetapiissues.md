@@ -14,10 +14,10 @@
 # Billing and Payment Issues
 ---
 {
-	"resourceRequired": false,
+	"resourceRequired": true,
 	 "subscriptionRequired": true,
 	"title": "Azure Cost Management",
-	"fileAttachmentHint": "Please attach the HAR file and the screenshot of the error message",
+	"fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [
     {
       "id": "problem_start_time",
@@ -60,7 +60,7 @@
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide your Subscription id",
-      "required": true
+      "required": false
     },
     {
       "id": "browser_details1",
@@ -102,7 +102,7 @@
       "visibility": "browser_details1 == dont_know_answer",
       "controlType": "textbox",
       "displayLabel": "Please provide the Browser Information",
-      "required": true
+      "required": false
     },
     {
       "id": "additionaldetails",
@@ -110,7 +110,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "Additional details or Error Message (if applicable)",
       "watermarkText": "Provide any error message or additional information about your issue",
-      "required": false
+      "required": true
     },
     {
       "id": "problem_description",

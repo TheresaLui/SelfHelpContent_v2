@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="ApplicationGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="AppGwAuthenticationCertificateNotYetValidInsight2"
 diagnosticScenario="AppGwAuthenticationCertificateNotYetValidInsight"
@@ -18,5 +19,7 @@ cloudEnvironments="Public"
 <!--issueDescription-->
 We have identified that your Application Gateway, **'<!--$Gatewayname-->[GatewayName]<!--/$Gatewayname-->'**, has an authentication certificate, **'<!--$AuthCertificate-->[AuthCertName]<!--/$AuthCertificate-->'** that is not valid before date: **<!--$Timestamp-->[NotBefore]<!--/$Timestamp-->**.  This certificate cannot be used for authentication until that date is reached.
 <!--/issueDescription-->
+
 ## **Recommended Steps**
+
 To resolve this issue upload a new 'Authentication Certificate' in the https listener blade in the [Azure portal](https://portal.azure.com) or powershell, whichever you are more comfortable with. The step-by-step instructions are found [here](https://docs.microsoft.com/azure/application-gateway/renew-certificates).

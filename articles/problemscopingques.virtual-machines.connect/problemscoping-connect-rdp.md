@@ -13,6 +13,7 @@
 # Connect to a VM
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Failure to connect to the RDP port",
     "fileAttachmentHint": "",
@@ -105,8 +106,36 @@
             "required": false
         },
         {
-            "id": "connect_ifnew",
+            "id": "isadmin",
             "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Is this the built-in administrator account?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },{
+            "id": "name_useraccount",
+            "order": 7,
+            "visibility": "isadmin == No || isadmin == I do not know",
+            "controlType": "textbox",
+            "displayLabel": "What is the name of the user account trying to login?",
+            "required": false
+        },{
+            "id": "connect_ifnew",
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -128,7 +157,7 @@
         },
         {
             "id": "connect_from",
-            "order": 7,
+            "order": 9,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -151,7 +180,7 @@
         },
         {
             "id": "connect_howmigrated",
-            "order": 8,
+            "order": 10,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -178,7 +207,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 9,
+            "order": 11,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -197,7 +226,7 @@
         },
         {
             "id": "connect_config",
-            "order": 10,
+            "order": 12,
             "controlType": "dropdown",
             "displayLabel": "Please specify your configuration change prior to the issue starting",
             "watermarkText": "Choose an option",
@@ -231,7 +260,7 @@
         },
         {
             "id": "machinetype",
-            "order": 11,
+            "order": 13,
             "controlType": "dropdown",
             "displayLabel": "From which type of machine are you trying to RDP into?",
             "watermarkText": "Choose an option",
@@ -265,7 +294,7 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 14,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -273,7 +302,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 13,
+            "order": 15,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
