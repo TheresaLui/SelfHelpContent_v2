@@ -14,7 +14,13 @@
 	articleId="payment-issueswithbillingandpayment"
 />
 
-# issues with billing and payment
+# my issue is not listed here
+
+### **Request Azure invoice**
+
+* [Invoice over email](https://azure.microsoft.com/blog/azure-email-invoices/)
+* [Download from Azure Account Centre](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [Allowing additional users to access invoices](https://docs.microsoft.com/azure/billing/billing-manage-access)
 
 ### **Move resources to new resource group or subscription**
 
@@ -45,6 +51,39 @@ The payment may have failed to process if the credit card on file has expired or
 
 You might have your Azure subscription disabled because your credit is expired, you reached your spending limit, have an overdue bill, hit your credit card limit, or because the subscription was canceled by the Account Administrator. Follow the steps in the article below to get your subscription reactivated: [Why is my Azure subscription disabled and how do I reactivate it?](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable) <br>
 
+### **Troubleshoot payment error scenarios**
+
+1. **Unable to remove credit card from saved billing payment method**<br>
+By design you cannot remove the card from the Active subscription. For an old/existing payment instrument to be deleted successfully,  a new card needs to be added to the subscription or you have to [Cancel the subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription). This will delete the subscription permanently and will also remove the card.<br>
+**Note**: After a subscription has been disabled or canceled, there is a wait time of **90 days** before the subscription is permanently deleted. The payment method is kept on file during the retention period in case the subscription needs to be reactivated. After that period, the subscription is permanently deleted.
+If the credit or debit card needs to be removed before the 90-day retention period ends, [Reactivate your subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
+
+2. **Unable to delete old payment method after adding new payment method**<br>
+The new payment instrument might not be associated with the subscription. To help associate the payment instrument to the subscription refer [here](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card). Additionally, to troubleshoot issues with declined card refer [Troubleshoot a declined card issue](https://support.microsoft.com/help/4488948/troubleshoot-declined-card-at-azure-sign-up)
+
+3. **Unable to delete payment method due to error message "Cannot delete payment method"**<br>
+It could be due to an outstanding balance. Clear any outstanding balances before deleting the payment method.
+
+4. **Unable to see subscriptions under my account to update the payment method**<br>
+You might be using a different email id and the subscriptions might be aligned to another email id. Refer [No subscriptions found in Azure portal](https://docs.microsoft.com/azure/billing/billing-no-subscriptions-found) to troubleshoot this issue
+
+5. **Unable to make payment for a subscription due to error message "Payment is past due. There is a problem with your payment method" or "We're sorry, the information cannot be saved. Close the browser and try again"**<br>
+This could be because there is a pending payment on the card since the card was denied by your financial institution. Please make sure that the credit card has sufficient balance to make payment or use some other card for making payment or reach out to your financial institution to resolve the issue. Use the below pointers
+
+	* You might have to check with the bank to see if the international transaction is enabled on the card<br>
+	* If card has credit limit to settle the balance<br>
+	* If recurring payment is enabled on the card<br>
+	
+6. **Unable to change payment method due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**<br>
+Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing. Once on in-private session, please follow the steps [here](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to update or change the credit card information.You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work
+
+7. **Subscription still disabled after updating the payment method**<br>
+It could be due to outstanding balance. Clear any outstanding balances before [re-activating the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
+
+8. **Unable to change payment method due to an XML error response page**<br>
+You might get this message if you are using [Ibiza portal](https://portal.azure.com/) to add new CC. You would need to login to the [Azure Account portal](https://account.azure.com/Subscriptions) using Account Admin’s email address to add card details.
+
+
 ### **Unexpected charges**
 
 Learn more about how you can prevent unexpected charges with Azure billing and cost management [here](https://docs.microsoft.com/azure/billing/billing-getting-started). <br>
@@ -58,3 +97,5 @@ Learn more about how you can prevent unexpected charges with Azure billing and
 * [Azure portal or Account Center sign-up issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)
 * [Troubleshoot Sign-in Issues for Azure Subscription](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
 * [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
+* [Pay Azure subscription by invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
