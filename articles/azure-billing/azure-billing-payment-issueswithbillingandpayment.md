@@ -94,4 +94,4 @@ Learn more about how you can prevent unexpected charges with Azure billing and
 * [Troubleshoot Sign-in Issues for Azure Subscription](https://support.microsoft.com/help/4042961/troubleshoot-why-you-can-t-sign-in-to-manage-your-azure-subscription)
 * [Request/Download/View your Azure billing invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
-* [Pay Azure subscription by invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
+* [Pay Azure subscription by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
