@@ -19,5 +19,5 @@ You can use Application Gateway to redirect traffic. It has a generic redirectio
 
 
 ## **Recommended Documents**
-* Configure Redirection in Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-powershell) or [CLI](https://docs.microsoft.com/en-us/azure/application-gateway/redirect-http-to-https-cli)<br />
+* Configure Redirection in Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-powershell) or [CLI](https://docs.microsoft.com/azure/application-gateway/redirect-http-to-https-cli)<br />
 * [Redirection Overview](https://docs.microsoft.com/azure/application-gateway/redirect-overview) in Application Gateway
