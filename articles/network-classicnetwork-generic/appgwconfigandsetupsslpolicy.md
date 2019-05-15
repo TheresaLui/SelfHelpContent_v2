@@ -3,7 +3,8 @@
 	description="Configure SSL Policy"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582829"
@@ -20,5 +21,5 @@ You can select from a list of predefined policies that contain different configu
 
 ## **Recommended Documents**
 
-* [Configure predefined and custom SSL policy](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-configure-ssl-policy-powershell) using PowerShell
-* [SSL policy overview](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-ssl-policy-overview) on Application Gateway
+* [Configure predefined and custom SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-configure-ssl-policy-powershell) using PowerShell
+* [SSL policy overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview) on Application Gateway
