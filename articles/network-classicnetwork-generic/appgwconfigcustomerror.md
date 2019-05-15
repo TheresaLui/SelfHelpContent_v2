@@ -3,7 +3,8 @@
 	description="Configure Custom Error Page"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="surmb"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32639111"
@@ -20,4 +21,4 @@ Application Gateway allows you to create custom error pages instead of displayin
 
 ## **Recommended Documents**
 
-Configure Custom Error pages in Application Gateway using [Azure Portal and PowerShell](https://docs.microsoft.com/en-us/azure/application-gateway/custom-error)
+Configure Custom Error pages in Application Gateway using [Azure Portal and PowerShell](https://docs.microsoft.com/azure/application-gateway/custom-error)
