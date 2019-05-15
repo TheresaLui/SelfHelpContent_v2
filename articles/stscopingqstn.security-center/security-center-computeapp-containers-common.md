@@ -24,19 +24,17 @@ Azure Security Center now provides you with several new capabilities to help you
 
 1. Visibility to the containers hosted on IaaS Linux machines:
 
-   In Azure Security Center, a new tab of containers is now available and displays all virtual machines with Docker.
+    In Azure Security Center, a new tab of containers is now available and displays all virtual machines with Docker. When exploring the security issues of a virtual machine, Security Center now provides additional information related to the containers on the machine, such as Docker version and the number of images running on the host.
 
-   When exploring the security issues of a virtual machine, Security Center now provides additional information related to the containers on the machine, such as Docker version and the number of images running on the host.
+1. Security recommendations based on the CIS benchmark for Docker
 
-2. Security recommendations based on the CIS benchmark for Docker
+    Security Center scans your Docker configurations and gives you visibility into misconfigurations by providing a list of all failed rules that were assessed. Security Center gives you guidelines to help you resolve these issues quickly and save time. Security Center continuously assesses the Docker configurations and provides you with their latest state.
 
-   Security Center scans your Docker configurations and gives you visibility into misconfigurations by providing a list of all failed rules that were assessed. Security Center gives you guidelines to help you resolve these issues quickly and save time. Security Center continuously assesses the Docker configurations and provides you with their latest state.
+1. Real time container threat detection
 
-3. Real time container threat detection
+     Security Center now provides real-time threat detection for your containers on Linux machines with AuditD component.
 
-   Security Center now provides real-time threat detection for your containers on Linux machines with AuditD component.
-
-   The alerts identify several suspicious Docker activities, such as the creation of a privileged container on host, an indication of Secure Shell (SSH) server run inside a Docker container, or the usage of crypto miners. You can use this information to quickly remediate security issues and improve the security of your containers.
+     The alerts identify several suspicious Docker activities, such as the creation of a privileged container on host, an indication of Secure Shell (SSH) server run inside a Docker container, or the usage of crypto miners. You can use this information to quickly remediate security issues and improve the security of your containers.
 
 ## **Recommended Documents**
 
