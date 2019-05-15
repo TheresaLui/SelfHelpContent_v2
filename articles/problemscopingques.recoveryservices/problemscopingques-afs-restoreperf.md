@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure File Share restore performance issue"
          description="Scoping questions for Azure File Share restore performance issue"
-         authors="srinathv"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612215"
@@ -17,7 +17,7 @@
 	 "subscriptionRequired": true,
          "title": "Azure File Share restore performance issue",
          "fileAttachmentHint": "",
-	"formElements": [{
+	 "formElements": [{
 			"id": "storage_account_name",
 			"order": 1,
 			"controlType": "textbox",
@@ -71,7 +71,7 @@
 				},{
 					"value": "Small number of directories with few number of files",
 					"text": "Small number of directories with few number of files"
-				},{	
+				},{
 					"value": "Small number of directories with large number of files ",
 					"text": "Small number of directories with large number of files "
 				},{
