@@ -25,7 +25,7 @@ An Azure Availability Set is created based upon the first VM applied to it and o
 
 We apologize for any inconvenience in not being able to use your desired VM size, but have a couple of options depending on your flexibility with SKU options for the availability set:
 
-•	If you not limited to a specific SKU, you can query the available VM sizes for your current availability set and pick a suitable size from the results by using the PowerShell `Get-AzVMSize` command and its parameters. See [Check for available VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets#check-for-available-vm-sizes) where you can run the command directly. 
+•	If you not limited to a specific SKU, you can query the available VM sizes for your current availability set and pick a suitable size from the results by using the PowerShell [Get-AzVMSize](https://docs.microsoft.com/powershell/module/az.compute/get-azvmsize) command and its parameters. See [Check for available VM sizes](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets#check-for-available-vm-sizes) where you can run the command directly. 
 
 •	If you are limited to a specific SKU, you must create a new availability set based on the VM that matches your required SKU. Afterwards, you may need to deallocate the existing availability set.
 
