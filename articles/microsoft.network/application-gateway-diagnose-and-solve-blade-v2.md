@@ -12,88 +12,82 @@ resourceTags=""
 productPesIds="15922"
 cloudEnvironments="public"
 />
-# Diagnose and solve v2 sample article for application gateway
+# Diagnose and solve v2 article for application gateway
 ---
 {
   "$schema": "SelfHelpContent",
   "commonProblems": [
     {
-      "id": "connectivity_issues",
-      "title": "I'm encountering connectivity issues",
-      "description": "When trying to access the application gateway domain, I'm encountering connectivity issues ",
+      "id": "Im_encountering_Bad_Gateway_Error_(502)",
+      "title": "I'm encountering Bad Gateway Error (502)",
+      "description": "I'm encountering the following error: Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.",
       "category": "Connectivity",
-      "searchTags": "202, bad gateway, server, error, 400, 403, 404, client, redirect, err_too_many_redirects, connection, timed out, unknown",
-      "supportTopicId": "32436961",
-      "subProblems": [
-        {
-          "id": "Im_encountering_Bad_Gateway_Error_(502)",
-          "title": "I'm encountering Bad Gateway Error (502)",
-          "description": "When trying to access the application gateway domain, I'm encountering the following error: Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.",
-          "supportTopicId": "32573483",
-          "commonSolutionArticleId": "application-gateway-502-error",
-          "symptomId": ""
-        },
-        {
-          "id": "Im_encountering_4xx_client_error",
-          "title": "I'm encountering 4xx client error",
-          "description": "When trying to access the application gateway domain, I'm encountering one of the following 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
-          "supportTopicId": "32639113",
-          "commonSolutionArticleId": "application-gateway-4xx-error",
-          "symptomId": ""
-        },
-        {
-          "id": "Im_encountering_too_many_redirects",
-          "title": "I'm encountering too many redirects",
-          "description": "When trying to access the application gateway domain, I'm encountering one of the following errors: redirected you too many times, page isn’t redirecting properly, webpage has a redirect loop, etc. ",
-          "supportTopicId": "32639115",
-          "commonSolutionArticleId": "application-gateway-too-many-redirects-error",
-          "symptomId": ""
-        },
-        {
-          "id": "Im_encountering_connection_timed_out_error",
-          "title": "I'm encountering connection timed out error",
-          "description": "When trying to access the application gateway domain, I'm encountering Connection timed out error.",
-          "supportTopicId": "32639114",
-          "commonSolutionArticleId": "application-gateway-unknown-backend-health",
-          "symptomId": ""
-        },
-        {
-          "id": "Im_encountering_connection_timed_out_error",
-          "title": "I'm encountering connection timed out error",
-          "description": "When viewing the backend health, the backend health status is Unknown.",
-          "supportTopicId": "32639117",
-          "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
-          "symptomId": ""
-        }
-      ]
+      "searchTags": "502, bad gateway, server, error",	  
+      "supportTopicId": "32573483",
+      "commonSolutionArticleId": "application-gateway-502-error",
+      "symptomId": ""
+    },
+	{
+      "id": "Im_encountering_4xx_client_error",
+      "title": "I'm encountering 4xx client error",
+      "description": "I'm encountering one of the following 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
+      "category": "Connectivity",
+      "searchTags": "error, 400, 403, 404, client",	  
+      "supportTopicId": "32639113",
+      "commonSolutionArticleId": "application-gateway-4xx-error",
+      "symptomId": ""
     },
     {
-      "id": "configuration_issues",
-      "title": "I'm encountering issues in configuring the Application Gateway",
-      "description": "When trying to configure the application gateway domain, I'm encountering issues ",
+      "id": "Im_encountering_too_many_redirects",
+      "title": "I'm encountering too many redirects",
+      "description": "I'm encountering one of the following errors: redirected you too many times, page isn’t redirecting properly, webpage has a redirect loop, etc. ",
+      "category": "Connectivity",
+      "searchTags": "redirect, err_too_many_redirects",	  
+      "supportTopicId": "32639115",
+      "commonSolutionArticleId": "application-gateway-too-many-redirects-error",
+      "symptomId": ""
+    },
+    {
+      "id": "Im_encountering_connection_timed_out_error",
+      "title": "I'm encountering connection timed out error",
+      "description": "When trying to access the application gateway domain, I'm encountering Connection timed out error.",
+      "category": "Connectivity",
+      "searchTags": "connection, timed out",	  
+      "supportTopicId": "32639114",
+      "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
+      "symptomId": ""
+    },
+    {
+      "id": "Unknown_backend_health",
+      "title": "Unknown backend health",
+      "description": "When viewing the backend health, the backend health status is Unknown.",
+      "category": "Connectivity",
+      "searchTags": "unknown, backend",	  
+      "supportTopicId": "32639117",
+      "commonSolutionArticleId": "application-gateway-unknown-backend-health",
+      "symptomId": ""
+    },
+	{
+      "id": "SSL_termination",
+      "title": "SSL termination",
+      "description": "SSL termination is not working properly.",
       "category": "Configuration and Setup",
-      "searchTags": "SSL, HTTPS, encryption, end, whitelist, certificate",
-      "supportTopicId": "32436961",
-      "subProblems": [
-        {
-          "id": "SSL_termination",
-          "title": "SSL termination",
-          "description": "SSL termination is not working properly.",
-          "supportTopicId": "32582828",
-          "commonSolutionArticleId": "application-gateway-ssl-termination",
-          "symptomId": ""
-        },
-        {
-          "id": "End-to-end_SSL",
-          "title": "End-to-end SSL",
-          "description": "End-to-end SSL encryption is not working properly.",
-          "supportTopicId": "32582825",
-          "commonSolutionArticleId": "application-gateway-end-to-end-ssl",
-          "symptomId": ""
-        }
-      ]
+      "searchTags": "SSL, HTTPS, encryption, certificate",		  
+      "supportTopicId": "32582828",
+      "commonSolutionArticleId": "application-gateway-ssl-termination",
+      "symptomId": ""
     },
     {
+      "id": "End-to-end_SSL",
+      "title": "End-to-end SSL",
+      "description": "End-to-end SSL encryption is not working properly.",
+      "category": "Configuration and Setup",
+      "searchTags": "SSL, HTTPS, encryption, end, whitelist, certificate",	  
+      "supportTopicId": "32582825",
+      "commonSolutionArticleId": "application-gateway-end-to-end-ssl",
+      "symptomId": ""
+    },
+	{
       "id": "session_affinity",
       "title": "Session Affinity",
       "description": "I'm encountering session affinity issues while the traffic is directed from the Application Gateway to the backend.",
@@ -108,7 +102,7 @@ cloudEnvironments="public"
     {
       "id": "Troubleshoot_backend_connectivity_issues",
       "title": "Troubleshoot backend connectivity issues",
-      "description": "Use Connection Toubleshoot to check network performance and connectivity issues while connecting from the Application Gateway to your backend servers",
+      "description": "Troubleshoot network performance and connectivity issues while connecting from the Application Gateway to your backend servers",
       "category": "Connectivity",
       "searchTags": "backend",
       "type": "tool",
