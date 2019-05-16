@@ -37,7 +37,7 @@ To resolve this issue ensure the backup operation currently in progress is compl
 
 ## **Recommended Documents**
 
-If the scheduled backup operation is taking longer time conflicting with the next backup configuration, review:
+If the scheduled backup operation is taking longer time conflicting with the next backup configuration, review below articles:
 
 * [Best Practices](https://aka.ms/AB-AA4e56d)
 * [Backup Performance](https://aka.ms/AB-AA4ecqb)
