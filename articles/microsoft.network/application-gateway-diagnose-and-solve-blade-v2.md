@@ -12,7 +12,7 @@ resourceTags=""
 productPesIds="15922"
 cloudEnvironments="public"
 />
-# Diagnose and solve v2 sample article for application gateway
+# Diagnose and solve v2 article for application gateway
 ---
 {
   "$schema": "SelfHelpContent",
@@ -28,7 +28,7 @@ cloudEnvironments="public"
         {
           "id": "Im_encountering_Bad_Gateway_Error_(502)",
           "title": "I'm encountering Bad Gateway Error (502)",
-          "description": "When trying to access the application gateway domain, I'm encountering the following error: Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.",
+          "description": "I'm encountering the following error: Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.",
           "supportTopicId": "32573483",
           "commonSolutionArticleId": "application-gateway-502-error",
           "symptomId": ""
@@ -36,7 +36,7 @@ cloudEnvironments="public"
         {
           "id": "Im_encountering_4xx_client_error",
           "title": "I'm encountering 4xx client error",
-          "description": "When trying to access the application gateway domain, I'm encountering one of the following 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
+          "description": "I'm encountering one of the following 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
           "supportTopicId": "32639113",
           "commonSolutionArticleId": "application-gateway-4xx-error",
           "symptomId": ""
@@ -44,7 +44,7 @@ cloudEnvironments="public"
         {
           "id": "Im_encountering_too_many_redirects",
           "title": "I'm encountering too many redirects",
-          "description": "When trying to access the application gateway domain, I'm encountering one of the following errors: redirected you too many times, page isn’t redirecting properly, webpage has a redirect loop, etc. ",
+          "description": "I'm encountering one of the following errors: redirected you too many times, page isn’t redirecting properly, webpage has a redirect loop, etc. ",
           "supportTopicId": "32639115",
           "commonSolutionArticleId": "application-gateway-too-many-redirects-error",
           "symptomId": ""
@@ -54,12 +54,12 @@ cloudEnvironments="public"
           "title": "I'm encountering connection timed out error",
           "description": "When trying to access the application gateway domain, I'm encountering Connection timed out error.",
           "supportTopicId": "32639114",
-          "commonSolutionArticleId": "application-gateway-unknown-backend-health",
+          "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
           "symptomId": ""
         },
         {
-          "id": "Im_encountering_connection_timed_out_error",
-          "title": "I'm encountering connection timed out error",
+          "id": "Unknown_backend_health",
+          "title": "Unknown backend health",
           "description": "When viewing the backend health, the backend health status is Unknown.",
           "supportTopicId": "32639117",
           "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
