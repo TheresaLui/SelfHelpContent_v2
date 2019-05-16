@@ -31,7 +31,7 @@ We apologize for any inconvenience in not being able to use your desired VM size
 
 In addition, you can consider Azure Availability Zones which provides high availability by having VMs grouped in one or more physical locations within an Azure Region.<br>
 
-## Resources
+## **Recommended Documents**
 
 | To learn about ... | See these articles |
 | --- | --- |
