@@ -37,7 +37,7 @@
 					"required": true
 		},{
 			"id": "alert_scenario",
-			"visibility": "issue_Type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not getting backup alerts in Azure portal",
 			"order": 2,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check backup <a href='https://aka.ms/BKP-RSVAlert-Scenarios'>Alert scenarios </a> article",
@@ -62,7 +62,7 @@
 				"required": true
 		},{
 			"id": "backup_solutions",
-			"visibility": "issue_Type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not getting backup alerts in Azure portal",
 			"order": 3,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Note: Alerts from System Center Data Protection Manager (SC-DPM) and Microsoft Azure Backup Server (MABS) are NOT displayed backup alerts",
@@ -87,7 +87,7 @@
 				"required": true
 		},{
 			"id": "alert_type",
-			"visibility": "issue_Type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not getting backup alerts in Azure portal",
 			"order": 4,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "",
@@ -109,7 +109,7 @@
 				"required": true
 		},{
 			"id": "basic_troubleshooting_multiselect",
-			"visibility": "issue_Type == Not getting Notification for backup alerts",
+			"visibility": "issue_type == Not getting Notification for backup alerts",
 			"order": 5,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check <a href='https://aka.ms/Monitor-JobsAlert-RSV'>Backup Alerts</a> article",
