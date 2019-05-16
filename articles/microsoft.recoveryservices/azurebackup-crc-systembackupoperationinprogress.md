@@ -19,13 +19,11 @@
 # SystemBackupOperationInProgress
 
 <!--issueDescription-->
-## When a backup job is in progress, a new job should not be triggered or scheduled until the current job is complete
+## We have identified that your recent backup job failed because there is an existing backup job in progress. You cannot start a new backup job until the current job finishes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-We have identified that your recent backup job failed because there is an existing backup job in progress. You cannot start a new backup job until the current job finishes.
-
-Ensure the backup operation currently in progress is completed before triggering or scheduling other backup operations. To check the backup jobs status:
+To resolve this issue ensure the backup operation currently in progress is completed before triggering or scheduling other backup operations. To check the backup jobs status:
 
 1. Sign in to Azure portal and click **All services**. Type Recovery Services and click **Recovery Services vaults**. The list of recovery services vaults appears.
 2. From the list of recovery services vaults, select a vault in which the backup is configured
