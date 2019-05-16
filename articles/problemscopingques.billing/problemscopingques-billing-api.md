@@ -14,8 +14,7 @@
 # Billing API
 ---
 {
-  "resourceRequired": true,
-  "subscriptionRequired": true,
+  "resourceRequired": false,
   "title": "Billing API",
   "fileAttachmentHint": "",
   "formElements": [
