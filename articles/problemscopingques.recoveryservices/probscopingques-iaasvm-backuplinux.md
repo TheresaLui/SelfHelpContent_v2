@@ -2,6 +2,7 @@
          pageTitle="Scoping questions for Azure VM backup failure for Linux"
          description="Scoping questions for Azure VM backup failure for Linux"
          authors="srinathvasireddy"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553276"
          productPesIds="15207"
@@ -13,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Azure VM backup failure for Linux",
     "fileAttachmentHint": "",
     "diagnosticCard": {
@@ -27,7 +29,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": false
+            "required": false,
 	    "diagnosticInputRequiredClients": "Portal"
         },
         {
