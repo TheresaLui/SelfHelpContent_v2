@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	articleId="6d9713ad-1ea2-4476-8a02-44b96e755334"
+	articleId="8252960e-852d-405d-a41f-7e8fb70b364a"
 />
 
 # Why is my data not being automatically refreshed?

@@ -22,14 +22,14 @@ cloudEnvironments="public"
 			"category": "Snapshot",
 			"searchTags": "snapshot, copy, refresh",
 			"supportTopicId": "",
-			"commonSolutionArticleId": "6d9713ad-1ea2-4476-8a02-44b96e755334"
+			"commonSolutionArticleId": "8252960e-852d-405d-a41f-7e8fb70b364a"
 		}, {			         
 			"title": "Why did snapshot fail?",
 			"description": "I triggered snapshot, but it failed.",
 			"category": "Snapshot",
 			"searchTags": "snapshot, failed",
 			"supportTopicId": "",
-			"commonSolutionArticleId": "be646d3e-d5cb-41ba-84eb-328e2f2fa6ed"			
+			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
 		}, {			         
 			"title": "Why is my synchronization setting not saved for my Data Share?",
 			"description": "I have no synchronization settings for my Data Share.",
@@ -43,7 +43,7 @@ cloudEnvironments="public"
 			"category": "Data Share account",
 			"searchTags": "invitation, error",
 			"supportTopicId": "",
-			"commonSolutionArticleId": "8252960e-852d-405d-a41f-7e8fb70b364a"			
+			"commonSolutionArticleId": "6d9713ad-1ea2-4476-8a02-44b96e755334"			
 		}
 	],
 	"troubleshootingTools": []
