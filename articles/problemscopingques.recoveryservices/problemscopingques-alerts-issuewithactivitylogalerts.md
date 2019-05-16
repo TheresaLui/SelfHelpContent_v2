@@ -2,13 +2,13 @@
          pageTitle="Scoping questions for Issue with Activity Log alerts"
          description="Scoping questions for Issue with Activity Log alerts"
          authors="srinathvasireddy"
-		     ms.author="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632782"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
-		     articleId="3e888a24-bd39-4d22-9e30-82b4159728ad"
+     	 articleId="3e888a24-bd39-4d22-9e30-82b4159728ad"
 />
 # Questions for Issue with Activity Log alerts
 ---
@@ -26,16 +26,16 @@
                           "dropdownOptions": [{
                                     "value": "Not getting backup alerts in Azure portal",
                                     "text": "Not getting backup alerts in Azure portal"
-                                  },{
+			  },{
                                     "value": "Not getting Notification for alerts",
                                     "text": "Not getting Notification for alerts"
-                                  },{
+			  },{
                                     "value": "dont_know_answer",
                                     "text": "Other, don't know or not applicable"
                                   }
-                                  ],
-                                  "required": true
-						},{
+			  ],
+			  "required": true
+		},{
                         "id": "email_address_confirmation",
                         "order": 2,
                         "visibility": "issue_Type == Not getting Notification for alerts",
@@ -45,16 +45,16 @@
                         "dropdownOptions": [{
                                   "value": "Yes",
                                   "text": "Yes"
-                              },{
+		      },{
                                   "value": "No",
                                   "text": "No"
-                              },{
+		      },{
                                   "value": "dont_know_answer",
                                   "text": "Other, don't know or not applicable"
                               }
                              ],
                              "required": true
-					},{
+		},{
                       "id": "different_email_confirmation",
                       "order": 3,
                       "visibility": "issue_Type == Not getting Notification for alerts",
@@ -71,15 +71,15 @@
                                 "value": "dont_know_answer",
                                 "text": "Other, don't know or not applicable"
                             }
-                           ],	 
-                            "required": true
-					},{
+                          ],
+                       "required": true
+		},{
                       "id": "problem_start_time",
                       "order": 4,
                       "controlType": "datetimepicker",
                       "displayLabel": "When did the problem begin?",
                       "required": true
-					},{
+		},{
                       "id": "problem_description",
                       "order": 5,
                       "controlType": "multilinetextbox",
