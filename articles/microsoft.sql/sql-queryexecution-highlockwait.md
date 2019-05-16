@@ -20,7 +20,8 @@
 
 ## **Recommended Steps**
 
-Our internal service telemetry detected that {DatabaseName} is an instance of Azure SQL with high locking waits. This wait event is potentially contributing to performance issues.
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high locking waits. <br> 
+This wait event is potentially contributing to performance issues.
 
 ## **Recommended Documents**
 
