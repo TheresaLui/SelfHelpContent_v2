@@ -3,15 +3,15 @@
 	description="Why did snapshot fail?"
 	service="Microsoft.DataShare"
 	resource="accounts"
-	authors="mkadiri3"
-	ms.author="makadiri"
-	displayOrder="1"
+	authors="joannapea"
+	ms.author="joanpo"
+	displayOrder="3"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	articleId="69347c92-8ff5-4543-ba34-ff6c8ba039bf"
+	articleId="be646d3e-d5cb-41ba-84eb-328e2f2fa6ed"
 />
 
 # Why did snapshot fail?

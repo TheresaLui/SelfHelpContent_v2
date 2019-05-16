@@ -20,4 +20,5 @@ If you have not created a Data Share account in this subscription, the Data Shar
 
 ## **Recommended Steps**
 
-* Register a resource provider by following the instructions detailed here: Please see here for instruction for registering resource provider: https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services ​
+* Register a resource provider by following the instructions detailed here: Please see here for instruction for registering resource provider: 
+[Registering a resource provider](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services) ​
