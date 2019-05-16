@@ -30,7 +30,7 @@ You may experience an issue when you try to sign up for a new account in the Mi
 * Make sure that you don’t already have a Microsoft account that has the same information.
 
 ### **Unable to access services**
-Could be since the subscription is disabled due to outstanding charges. Please make sure to login as an admin to settle the payments before [re-activating the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
+Could be since the subscription is disabled due to outstanding charges. Please make sure to login as an admin to settle the payments before [reactivating the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
 
 ### **Azure Free Trial**
 The Azure Terms of Use agreement limits free trial activation only for a user that's new to Azure. If you have had any other type of Azure subscription, you can't activate a free trial. Consider signing up for a [Pay-As-You-Go subscription](https://azure.microsoft.com/offers/ms-azr-0003p/)
@@ -39,26 +39,27 @@ The Azure Terms of Use agreement limits free trial activation only for a user th
 
 	* Convert to [Pay-as-you-go](https://azure.microsoft.com/offers/ms-azr-0003p/) to continue to have access to the selected free services for the remaining 12- month duration of that offer. If you are not the admin, reach out to support and provide an approval email from the account admin<br>
 	* Convert to [Azure for students](https://azure.microsoft.com/offers/ms-azr-0170p/)<br>
+	
 * Unable to create/ upgrade to another support plan
 
 	* Make sure to sign in to Azure account center as account admin. If you already have a subscription add a payment method to re-activate it. Please make sure to wait for few hours for the process completion<br>
 	* The credit card linked to the current plan might have spending limit on or some issue. Please try linking to another card<br>
-	**Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan.
+	**Note**: Support plans are billed like separate subscriptions and have subscription ID’s associated with them for billing purposes. All subscriptions on an account will receive the benefits associated with that support plan
 
 * Unable to move one resource group to another
 
 	* Only an account admin or the service administrator for the subscription can perform this action. Refer [move resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources) to learn more
 		
-### **Azure for Students:**
+### **Azure for Students**
 
-* Azure for Students subscription disabled due to exhausting the spending limit
+* Azure for Students subscription disabled due to exhausting the spending limit<br>
 
 	* [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit.)<br>
 	* If you are getting an error please [add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card.) to your Azure Profile and convert the offer to Pay-As-You-Go<br>
 	
-* Unable to sign-up for Azure for student offer
+* Unable to sign-up for Azure for student offer<br>
 
-	* Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case its not added, please reach out to your local IT team to add the email in the org directory<br>
+	* Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory<br>
 	
 * Unable to sign-up for Azure for student offer due to error message **"You are not eligible for an Azure subscription"**
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below
@@ -68,7 +69,7 @@ This could be due to an unmanaged Active Directory tenant issue. Please follow t
 	* Complete the verification process using your Microsoft School Account address or activation code<br>
 	* Continue the activation of the Azure plan using the Microsoft Personal Account<br>
 
-### **Encountering browser issues:**
+### **Encountering browser issues**
 
 * Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing
 * You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work. Learn more: [Troubleshoot Sign-up Issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center)
