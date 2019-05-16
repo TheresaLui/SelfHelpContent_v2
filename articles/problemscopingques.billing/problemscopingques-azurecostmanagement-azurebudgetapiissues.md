@@ -14,8 +14,9 @@
 # Billing and Payment Issues
 ---
 {
-	"resourceRequired": false,
-	 "title": "Azure Cost Management",
+	"resourceRequired": true,
+	 "subscriptionRequired": true,
+	"title": "Azure Cost Management",
 	"fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [
     {
