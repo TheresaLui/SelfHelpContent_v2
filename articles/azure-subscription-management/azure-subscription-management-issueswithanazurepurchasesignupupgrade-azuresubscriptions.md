@@ -21,7 +21,7 @@
 * [Azure Marketplace](https://azuremarketplace.microsoft.com/) is the premier destination for all software needs, certified and optimized to run on Azure. Learn more: [Azure marketplace apps](https://azuremarketplace.microsoft.com/marketplace/apps)<br>
 
 
-### Unable to Sign-up/Purchase Azure
+### **Unable to Sign-up/Purchase Azure**
 
 You may experience an issue when you try to sign up for a new account in the Microsoft Azure portal or Azure account center. Before you troubleshoot the issue, first consider the following suggestions:
 
