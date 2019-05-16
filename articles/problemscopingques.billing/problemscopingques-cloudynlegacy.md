@@ -13,8 +13,7 @@
 # Cloudyn Legacy
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Cloudyn Legacy",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [
