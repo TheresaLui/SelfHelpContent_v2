@@ -35,17 +35,20 @@ To add someone as an administrator for an Azure subscription, assign them the [
   6. In the **Assign access to** box, select **Azure AD user, group, or application**
   7. In the **Select** box, type the email address of the user you want to add as Owner. Select the user, and then select **Save**.<br>
 
-The Account Administrator can change the Service Administrator for a subscription. There are two ways to change the Service Administrator. You can change in the Azure portal or Account Center. Refer [Classic administrator](https://docs.microsoft.com/azure/role-based-access-control/classic-administrators)<br>
+The Account Administrator can change the Service Administrator for a subscription. There are two ways to change the Service Administrator. You can change it in the Azure portal or Account Center. 
 
-Learn more:  [Add or change Azure Subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+* [Add or change Azure Subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+* [Classic administrator](https://docs.microsoft.com/azure/role-based-access-control/classic-administrators)
 
 ### **Add or change Co-administrator**
 
 Only an [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) can be added as a Co-administrator. Other users with roles such as [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) and [Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader) cannot be added as Co-administrators.<br>
-Refer [Add a co-administrator](https://docs.microsoft.com/azure/role-based-access-control/classic-administrators) for steps to add/remove a co-admin.<br>
-Learn more [How to Add/delete a new user](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory)<br>
+
+* [Add a co-administrator](https://docs.microsoft.com/azure/role-based-access-control/classic-administrators)
+* [How to Add/delete a new user](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory)<br>
 
 ### **Error Scenario**
+
 Encountering an error **“This type of subscription does not support classic administrators”** while adding an account as Co-Administrator on your Azure CSP Subscription?<br>
 
 * This is by design. You will not be able to add Co-Admins for a CSP Subscription, however you can add an account as an RBAC user. Refer [manage access](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) to learn more about permissions for an Azure CSP Subscription.
