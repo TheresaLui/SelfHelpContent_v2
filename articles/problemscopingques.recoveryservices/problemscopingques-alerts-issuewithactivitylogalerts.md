@@ -14,7 +14,7 @@
 ---
 {
          "resourceRequired": true,
-		     "subscriptionRequired": true,
+	 "subscriptionRequired": true,
          "title": "Issue with Activity Log alerts",
          "fileAttachmentHint": "Please attach the screenshot of Activity Log alert screen filtered with timespan",
          "formElements": [{
@@ -38,7 +38,7 @@
 		},{
                         "id": "email_address_confirmation",
                         "order": 2,
-                        "visibility": "issue_Type == Not getting Notification for alerts",
+                        "visibility": "issue_type == Not getting Notification for alerts",
                         "controlType": "dropdown",
                         "displayLabel": "Have you reverified the Email address configured for alert?",
                         "watermarkText": "Select",
@@ -57,7 +57,7 @@
 		},{
                       "id": "different_email_confirmation",
                       "order": 3,
-                      "visibility": "issue_Type == Not getting Notification for alerts",
+                      "visibility": "issue_type == Not getting Notification for alerts",
                       "controlType": "dropdown",
                       "displayLabel": "Have you tried to get notification on different Email address?",
                       "watermarkText": "Select",
