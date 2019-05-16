@@ -25,7 +25,7 @@ The update process succeeded, but note that RDP and SSH connections to the VM, o
 
 This update is part of routine maintenance performed on the underlying hosts for this VM. During these updates, the VM is frozen for up to 30 seconds and then resumed. No action is needed from you.<br>
 
-## Resources
+## **Recommended Documents**
 
 | To learn about ... | See the following ... |
 | --- | ---|
