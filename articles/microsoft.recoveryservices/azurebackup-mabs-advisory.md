@@ -25,13 +25,16 @@
 - [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
 - [Frequently asked questions about Azure Backup server](https://aka.ms/AB-AA4dqdv)<br>
 - [Issue]
+
 	- [Installing Azure Backup Server](https://aka.ms/AA52snx)<br>
 	- [Registration and Agent related](https://aka.ms/AA52yp6)<br>
 	- [Configuring protection group](https://aka.ms/AA52snz)<br>
 	- [Backup failed](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#backup)<br>
 	- [Change Passphrase](https://aka.ms/AA52so0)<br>
 	- [Configure email notifications](https://aka.ms/AB-AA4dy2y)
-- [Limitations]: You cannot install Azure Backup server for following scenarios ([more details](https://aka.ms/AA52so2)):
+	
+- [Limitations]: You cannot install Azure Backup server for following scenarios ([more details](https://aka.ms/AA52so2))
+
 	 - Computer running as a domain controller<br>
 	 - Computer on which the Application Server role is installed<br>
 	 - Computer that is a System Center Operations Manager management server<br>
