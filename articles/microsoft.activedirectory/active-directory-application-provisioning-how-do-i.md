@@ -20,6 +20,8 @@ For information on how to configure and use the Azure AD user provisioning servi
 
 ## **Recommended Documents**
 
+* [Video: What is user provisioning in Azure Active Directory?](https://www.youtube.com/watch?v=_ZjARPpI6NI)
+* [Video: How to deploy provisioning in Azure Active Directory](https://www.youtube.com/watch?v=pKzyts6kfrw) 
 * [How to: Automate user provisioning and deprovisioning to SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-does-automatic-provisioning-work)
 * [How to: Use the Azure portal to set up user provisioning to an application](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-do-i-set-up-automatic-provisioning-to-an-application)
 * [How to: Configure user provisioning for specific applications in the Azure AD gallery](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list)

@@ -20,6 +20,7 @@ Using the Azure Stack Admin portal, you can view each physical node's status, an
 
 ## **Recommended Steps**
 
+- Remediate[remediate wrong node status](https://github.com/troettinger/TomTools/blob/master/articles/azurestack-operator-nodestatus.md) wrong node status in the Azure Stack Admin Portal
 - [View the node status](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions#view-the-node-status) in the Azure Stack Admin Portal
 - Follow steps [perform Scale-unit actions](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions#scale-unit-node-actions) to start, stop, drain, resume, repair, or shutdown a node
 - If needed, [replace a scale unit node on an Azure Stack integrated system](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-node)

@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for Azure File Share restore performance issue"
          description="Scoping questions for Azure File Share restore performance issue"
-         authors="srinathv"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612215"
@@ -17,7 +17,7 @@
 	 "subscriptionRequired": true,
          "title": "Azure File Share restore performance issue",
          "fileAttachmentHint": "",
-	"formElements": [{
+	 "formElements": [{
 			"id": "storage_account_name",
 			"order": 1,
 			"controlType": "textbox",
@@ -35,7 +35,7 @@
 			"id": "restore_Type",
 			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "Which type of restore you are performing?",
+			"displayLabel": "Select the Recovery Destination type:",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Original Location",
@@ -60,15 +60,20 @@
 			"id": "Data_types",
 			"order": 5,
 			"controlType": "dropdown",
-			"infoBalloonText": "Note: Restore time is proportional to the number of files",
-			"displayLabel": "Which type of data is present in Azure File share?",
+			"displayLabel": "Restoring a File Share that contains:",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
-					"value": "Large number of small size files",
-					"text": "Large number of small size files"
+					"value": "Large number of directories with few number of files",
+					"text": "Large number of directories with few number of files"
 				},{
-					"value": "Small number of Large size file",
-					"text": "Small number of Large size files"
+					"value": "Large number of directories with large number of files",
+					"text": "Large number of directories with large number of files"
+				},{
+					"value": "Small number of directories with few number of files",
+					"text": "Small number of directories with few number of files"
+				},{
+					"value": "Small number of directories with large number of files ",
+					"text": "Small number of directories with large number of files "
 				},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
@@ -79,15 +84,15 @@
 			"id": "Data_hierarchy",
 			"order": 6,
 			"controlType": "dropdown",
-			"infoBalloonText": "Note: If there are more number of directories then restore is expected to be slower",
-			"displayLabel": "How is the directory to file ratio in Azure File share?",
+			"infoBalloonText": "Note: Restoring File Share with fewer directories is faster than File Share with large number of directories",
+			"displayLabel": "Describe the directory to file ratio:",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
-					"value": "More directories",
-					"text": "More directories"
+					"value": "Large number of directories with few number of files",
+					"text": "Large number of directories with few number of files"
 				},{
-					"value": "Less directories",
-					"text": "Less directories"
+					"value": "Large number of directories with large number of files",
+					"text": "Large number of directories with large number of files"
 				},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
@@ -98,7 +103,7 @@
 			"id": "Share_use_status",
 			"order": 7,
 			"controlType": "dropdown",
-			"infoBalloonText": "Note: If other applications are consuming File share IOPS then restore is expected to be slower",
+			"infoBalloonText": "Note: If other applications are consuming File Share IOPS then it could impact File Share restore performance",
 			"displayLabel": "Are other applications using the same File share?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
