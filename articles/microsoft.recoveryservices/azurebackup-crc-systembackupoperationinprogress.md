@@ -10,7 +10,7 @@
 	articleId="azurebackup-crc-systembackupoperationinprogress"
 	diagnosticScenario="azurebackup-crc-systembackupoperationinprogress"
 	selfHelpType="diagnostics"
-	supportTopicIds="32553276,32553277,32553285"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
