@@ -96,6 +96,10 @@
                 {
                     "value": "Re-registration",
                     "text": "Re-registration"
+                },
+		 {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
@@ -133,6 +137,10 @@
                 {
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
+                },
+		 {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
