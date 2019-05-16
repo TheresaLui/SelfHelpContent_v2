@@ -5,7 +5,7 @@
     service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew"
-    authorAlias="v-jasoan"
+    ms.author="v-jasoan"
     displayOrder=""
     articleId="OSStartUp-STARTING_WINDOWS"
     diagnosticScenario="booterror"
