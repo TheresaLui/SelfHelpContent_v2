@@ -15,9 +15,9 @@
 
 # About minimum RU in Cosmos DB
 
-## **How is minimum RU calculated**
+## **How is minimum RU calculated?**
 
-Cosmos DB ensures that containers maintain minimum amount of provisioned RUs based on the following factors:
+Cosmos DB ensures that containers maintain minimum number of provisioned RUs based on the following factors:
 
 * The maximum data size that you ever store in the container
 * The maximum throughput that you ever provision on the container
