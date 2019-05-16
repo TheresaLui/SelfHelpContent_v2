@@ -59,8 +59,8 @@ Only an account admin or the service administrator for the subscription can perf
 	
 * Unable to sign-up for Azure for student offer
 
-  Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory<br>
-	
+  * Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory<br>
+
 * Unable to sign-up for Azure for student offer due to error message **"You are not eligible for an Azure subscription"**
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below
 
