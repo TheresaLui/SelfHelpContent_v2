@@ -54,12 +54,12 @@ Only an account admin or the service administrator for the subscription can perf
 
 * Azure for Students subscription disabled due to exhausting the spending limits
 
-  * [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)<br>
-  * If you are getting an error please [add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go<br>
+	* [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)<br>
+	* If you are getting an error please [add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go<br>
 	
 * Unable to sign-up for Azure for student offer
 
-  * Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory<br>
+	* Make sure the email used for the sign-up is entitled for Azure for student and the email and is added as work or school or as Microsoft account. In case it's not added, please reach out to your local IT team to add the email in the org directory<br>
 
 * Unable to sign-up for Azure for student offer due to error message **"You are not eligible for an Azure subscription"**
 This could be due to an unmanaged Active Directory tenant issue. Please follow the steps below
