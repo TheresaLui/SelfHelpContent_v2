@@ -3,7 +3,7 @@
     description="Web Application Firewall (WAF)"
     service="microsoft.afd"
     resource="afd"
-    authors="v-miegge" 
+    authors="v-miegge"
     ms.author="v-miegge"
     displayOrder=""
     selfHelpType="generic"
@@ -20,23 +20,29 @@ Azure Front Door Service supports URL rewrite by allowing you to configure an op
 
 ## **Recommended Documents**
 
-    * Tutorial<br>
-        * [How to set up a geo-filtering WAF policy for your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-tutorial-geo-filtering)<br>
-    * Concepts<br>
-        * [What is geo-filtering on a domain for Azure Front Door?](https://docs.microsoft.com/azure/frontdoor/front-door-geo-filtering)<br>
-    * Concepts > WAF<br>
-        * Overview:  [What is Azure web application firewall for Azure Front Door? (Preview)](https://docs.microsoft.com/azure/frontdoor/waf-overview}<br>
-        * Custom rules: [Custom rules for web application firewall with Azure Front Door](https://docs.microsoft.com/azure/frontdoor/waf-front-door-custom-rules)<br>
-        * Policy settings: [Policy settings for web application firewall with Azure Front Door](https://docs.microsoft.com/azure/frontdoor/waf-front-door-policy-settings)<br>
-        * Monitoring and logging: [Azure web application firewall monitoring and logging](https://docs.microsoft.com/azure/frontdoor/waf-front-door-monitor)<br>
-    * How-to guides<br>
-        * Configure WAF<br>
-            * Configure WAF policy – Portal: [Create a WAF policy for Azure Front Door by using the Azure portal](https://docs.microsoft.com/azure/frontdoor/waf-front-door-create-portal)<br>
-            * Configure WAF policy – PowerShell: [Configure a web application firewall policy using Azure PowerShell](https://docs.microsoft.com/azure/frontdoor/waf-front-door-custom-rules-powershell)<br>
-            * Configure custom response code: [Configure a custom response for Azure web application firewall](https://docs.microsoft.com/azure/frontdoor/waf-front-door-configure-custom-response-code)<br>
-            * Configure IP restrictions: [Configure an IP restriction rule with web application firewall for Azure Front Door (Preview)](https://docs.microsoft.com/azure/frontdoor/waf-front-door-configure-ip-restriction)<br>
-            * Configure rate limit - PowerShell : [Configure a web application firewall rate limit rule using Azure PowerShell](https://docs.microsoft.com/azure/frontdoor/waf-front-door-rate-limit-powershell)<br>
-    * FAQ<br>
-        * WAF FAQ: [Frequently asked questions for Azure web application firewall](https://docs.microsoft.com/azure/frontdoor/waf-faq)
+### Tutorial
 
+* [How to set up a geo-filtering WAF policy for your Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-tutorial-geo-filtering)
 
+### Concepts
+
+* [What is geo-filtering on a domain for Azure Front Door?](https://docs.microsoft.com/azure/frontdoor/front-door-geo-filtering)
+
+### Concepts > WAF
+
+* Overview: [What is Azure web application firewall for Azure Front Door? (Preview)](https://docs.microsoft.com/azure/frontdoor/waf-overview)<br>
+* Custom rules: [Custom rules for web application firewall with Azure Front Door](https://docs.microsoft.com/azure/frontdoor/waf-front-door-custom-rules)<br>
+* Policy settings: [Policy settings for web application firewall with Azure Front Door](https://docs.microsoft.com/azure/frontdoor/waf-front-door-policy-settings)<br>
+* Monitoring and logging: [Azure web application firewall monitoring and logging](https://docs.microsoft.com/azure/frontdoor/waf-front-door-monitor)
+
+### How-to configure WAF guides
+
+* Configure WAF policy - Portal: [Create a WAF policy for Azure Front Door by using the Azure portal](https://docs.microsoft.com/azure/frontdoor/waf-front-door-create-portal)<br>
+ Configure WAF policy - PowerShell: [Configure a web application firewall policy using Azure PowerShell](https://docs.microsoft.com/azure/frontdoor/waf-front-door-custom-rules-powershell)<br>
+* Configure custom response code: [Configure a custom response for Azure web application firewall](https://docs.microsoft.com/azure/frontdoor/waf-front-door-configure-custom-response-code)<br>
+* Configure IP restrictions: [Configure an IP restriction rule with web application firewall for Azure Front Door (Preview)](https://docs.microsoft.com/azure/frontdoor/waf-front-door-configure-ip-restriction)<br>
+* Configure rate limit - PowerShell : [Configure a web application firewall rate limit rule using Azure PowerShell](https://docs.microsoft.com/azure/frontdoor/waf-front-door-rate-limit-powershell)
+
+### FAQ
+
+* WAF FAQ: [Frequently asked questions for Azure web application firewall](https://docs.microsoft.com/azure/frontdoor/waf-faq)
