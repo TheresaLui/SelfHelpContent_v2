@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32641054,32641053"
 	resourceTags=""
-	productPesIds="14749,15571,16454,16470,15797"
+	productPesIds="14749"
 	cloudEnvironments="public"
 	articleId="f1b2ce82-4f0e-4583-a943-2163a7870cb1"
 />
@@ -20,7 +20,9 @@
 
 ## **Recommended Documents**
 
-* [Azure Image Builder overview](https://https://docs.microsoft.com/azure/virtual-machines/windows/image-builder-overview)<br>
-* [How Azure Image Builder works](https://docs.microsoft.com/azure/virtual-machines/windows/image-builder-overview#how-it-works)<br>
-* [Created a Windows VM with Azure Image Builder](https://docs.microsoft.com/azure/virtual-machines/windows/image-builder)<br>
-* [Created a Linux VM with Azure Image Builder](https://docs.microsoft.com/azure/virtual-machines/Linux/image-builder)
+* [Azure Image Builder overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/image-builder-overview)<br>
+* [Create a Windows VM with Azure Image Builder](https://docs.microsoft.com/azure/virtual-machines/windows/image-builder)<br>
+* [Create a Windows image and distribute it to a Shared Image Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/image-builder-gallery)<br>
+* [Create a new image version from an existing image version](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/image-builder-gallery-update-image-version)<br>
+* [Create an Azure Image Builder template](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/image-builder-json?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)<br>
+* [Troubleshooting Azure VM Image Builder](https://github.com/danielsollondon/azvmimagebuilder/blob/master/troubleshootingaib.md)
