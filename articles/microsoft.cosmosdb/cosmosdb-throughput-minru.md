@@ -6,7 +6,7 @@
 	authors="kennthhz"
 	ms.author="haozhag, padmaa"
 	selfHelpType="generic"
-	supportTopicIds="32636761"
+	supportTopicIds="32636800"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
