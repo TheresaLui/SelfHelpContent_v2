@@ -18,11 +18,11 @@
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> not all nodes are pointing to the same headnodehost
 
-The following nodes <!--$headnodehosts-->[headnodehosts]<!--/$headnodehosts--> within your HDInsight cluster is experiencing problems due to nodes not pointing to the same headnodehost. 
+Nodes within your HDInsight cluster are experiencing a problem due to some nodes not pointing to the same headnodehost. 
 
 ## **Recommended Steps**
 
-* SSH onto the nodes listed above within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
+* SSH onto the nodes, given from Support Engineer, within the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
 * Open the hosts files vi /etc/hosts
 * Update the host files with the headnodehost pointing to the other headnode
 * Save and close the file

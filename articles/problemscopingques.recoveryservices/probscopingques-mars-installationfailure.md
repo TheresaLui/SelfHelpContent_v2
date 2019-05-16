@@ -14,6 +14,7 @@
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
     "formElements": [
@@ -31,7 +32,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
@@ -39,7 +40,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text from failed job details dialog in Microsoft Azure Backup agent",
-            "required": true
+            "required": false
         },
         {
             "id": "registration_type",
@@ -63,22 +64,9 @@
             ],
             "required": true
         },
-        {
-            "id": "infoblock_reregistration",
-            "order": 5,
-            "visiblity": "registration_type == re-registering",
-            "controlType": "infoblock",
-            "content": "Note: To re-register machine to the same vault, use the same passphrase that was used during initial registration."
-        },
-        {
-            "id": "prerequisites_links",
-            "order": 6,
-            "controlType": "infoblock",
-            "content": "To ensure successful installation and configuration, refer to these prerequisites and dependencies: <a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#which-operating-systems-does-azure-backup-support-br'>supported OS</a>, <a href='https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements'>whitelist URLs on firewall</a>, <a href='https://www.microsoft.com/download/details.aspx?id=53345'>.net framework version requirements</a>, and <a href='https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue#cause-another-process-or-antivirus-software-interfering-with-azure-backup'>antivirus prerequisites.</a>"
-        },
-        {
+     	{
             "id": "basic_troubleshooting_multiselect",
-            "order": 7,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -109,13 +97,17 @@
                 {
                     "value": "Ensure c:/windows/temp folder has less than 60,000 files",
                     "text": "Ensure c:/windows/temp folder has less than 60,000 files"
+                },
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -125,7 +117,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

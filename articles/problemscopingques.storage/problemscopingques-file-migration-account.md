@@ -2,6 +2,7 @@
 	pageTitle="Storage File migration between Storage Accounts"
 	description="Storage File migration between Storage Accounts scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602760"
 	productPesIds="16460"
@@ -22,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "Source Storage Account",
             "watermarkText": "From StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "storage_account_to",
@@ -30,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "Destination Storage Account",
             "watermarkText": "To StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "file_share_or_path",
@@ -45,14 +46,14 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
