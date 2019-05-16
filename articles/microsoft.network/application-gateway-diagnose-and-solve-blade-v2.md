@@ -112,7 +112,7 @@ cloudEnvironments="public"
         "parameters": [
           {
             "name": "id",
-            "sourceId": "$resourceId"
+            "value": "$resourceId"
           }
         ]
       }
