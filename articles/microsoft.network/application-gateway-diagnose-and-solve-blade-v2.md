@@ -112,29 +112,11 @@ cloudEnvironments="public"
         "parameters": [
           {
             "name": "id",
-            "value": "$resourceId"
+            "sourceId": "$resourceId"
           }
         ]
       }
-    },
-    {
-      "id": "View_backend_health",
-      "title": "View health of backend pool members",
-      "description": "Monitor the health of individual members of the back-end pools",
-      "category": "Connectivity",
-      "searchTags": "backend, health",
-      "type": "tool",
-      "bladeLink": {
-        "extensionName": "Microsoft_Azure_Network",
-        "bladeName": "ApplicationGatewayBackendHealthGridBlade",
-        "parameters": [
-          {
-            "name": "id",
-            "value": "$resourceId"
-          }
-        ]
-      }
-    }	
+    }
   ]
 }
 ---
