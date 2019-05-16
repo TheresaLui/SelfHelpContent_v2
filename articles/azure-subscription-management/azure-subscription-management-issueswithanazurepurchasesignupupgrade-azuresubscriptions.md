@@ -54,8 +54,8 @@ The Azure Terms of Use agreement limits free trial activation only for a user th
 
 * Azure for Students subscription disabled due to exhausting the spending limit<br>
 
-	* [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit.)<br>
-	* If you are getting an error please [add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card.) to your Azure Profile and convert the offer to Pay-As-You-Go<br>
+	* [Remove any spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)<br>
+	* If you are getting an error please [add/Update Credit Card](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card) to your Azure Profile and convert the offer to Pay-As-You-Go<br>
 	
 * Unable to sign-up for Azure for student offer<br>
 
