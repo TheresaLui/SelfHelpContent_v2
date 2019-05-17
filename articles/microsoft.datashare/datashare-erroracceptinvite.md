@@ -3,7 +3,7 @@
 	description="I get an error when creating a Data Share account when accepting the invitation"
 	service="Microsoft.DataShare"
 	resource="accounts"
-	ms.author="joannapea"
+	ms.author="joanpo"
 	authors="joannapea"
 	displayOrder="4"
 	selfHelpType="resource"
