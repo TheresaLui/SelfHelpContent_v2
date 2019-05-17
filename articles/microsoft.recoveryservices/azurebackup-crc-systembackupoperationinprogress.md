@@ -1,7 +1,7 @@
 <properties
 	pageTitle="SystemBackupOperationInProgress"
 	description="SystemBackupOperationInProgress"
-	infoBubbleText="VM is in Failed Provisioning State"
+	infoBubbleText=" Unable to initiate backup as another backup operation is currently in progress."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
