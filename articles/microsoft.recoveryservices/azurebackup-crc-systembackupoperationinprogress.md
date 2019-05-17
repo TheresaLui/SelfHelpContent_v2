@@ -1,11 +1,11 @@
 <properties
 	pageTitle="SystemBackupOperationInProgress"
 	description="SystemBackupOperationInProgress"
-	infoBubbleText=" Unable to initiate backup as another backup operation is currently in progress."
+	infoBubbleText="Unable to initiate backup as another backup operation is currently in progress."
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author:"srinathvasireddy"
+	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-systembackupoperationinprogress"
 	diagnosticScenario="azurebackup-crc-systembackupoperationinprogress"
