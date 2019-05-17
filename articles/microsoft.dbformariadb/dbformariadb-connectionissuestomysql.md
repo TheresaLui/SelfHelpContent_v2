@@ -7,7 +7,7 @@
     ms.author="andrela"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32640118,32640120,32640123,32640152"
+	supportTopicIds="32640118,32640123,32640152"
 	resourceTags="servers, databases"
 	productPesIds="16617"
 	cloudEnvironments="public"
