@@ -16,7 +16,7 @@
 
 # Web Application Firewall (WAF)
 
-Azure Front Door Service supports URL rewrite by allowing you to configure an optional Custom Forwarding Path to use when constructing the request to forward to the backend.
+Azure web application firewall (WAF) provides centralized protection for your web applications that are globally delivered using Azure Front Door. It is designed and operated to defend your web services against common exploits and vulnerabilities, and keep your service highly available for your users in addition to helping you meet compliance requirements.
 
 ## **Recommended Documents**
 
