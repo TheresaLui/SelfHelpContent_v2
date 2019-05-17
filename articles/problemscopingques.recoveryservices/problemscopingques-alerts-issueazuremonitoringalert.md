@@ -64,7 +64,7 @@
 			"dropdownOptions": [{
 						"value": "Yes, it's working",
 						"text": "Yes, it's working"
-				},{		
+				},{
 						"value": "Yes, it's not working",
 						"text": "Yes, it's not working"
 				},{
