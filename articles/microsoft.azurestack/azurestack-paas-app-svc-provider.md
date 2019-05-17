@@ -11,12 +11,14 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
-	articleId="38c5358c-c63b-4043-9126-4b0839179085"
+    articleId="38c5358c-c63b-4043-9126-4b0839179085"
 />
 
 # Azure Stack App Service Resource Provider
 
 Azure App Service on Azure Stack is a platform-as-a-service (PaaS) offering that enables your customers to create web, API, and Azure Functions applications for any platform or device. They can integrate your apps with on-premises applications and automate their business processes. Azure Stack cloud operators can run customer apps on fully managed virtual machines (VMs), with their choice of shared VM resources or dedicated VMs.
+
+**Please note:** Some tenant portal user experiences for App Services are affected by an incompatibility with the portal framework in Azure Stack 1903 Update; principally, the user interface for deployment slots, testing in production, and site extensions. To work around this issue, use the [Azure App Service PowerShell](https://docs.microsoft.com/azure/app-service/deploy-staging-slots#automate-with-powershell) module or the [Azure CLI](https://docs.microsoft.com/cli/azure/webapp/deployment/slot?view=azure-cli-latest). The portal experience will be restored in the upcoming release of Azure App Service on Azure Stack 1.6 (Update 6).
 
 ## **Recommended Steps**
 
