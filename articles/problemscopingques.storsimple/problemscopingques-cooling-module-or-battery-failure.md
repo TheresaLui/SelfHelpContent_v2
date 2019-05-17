@@ -29,7 +29,7 @@
 				}, {
 					"value": "PCM 1",
 					"text": "PCM 1"
-				} 
+				}
 			],
 			"required": false
 		}, {
