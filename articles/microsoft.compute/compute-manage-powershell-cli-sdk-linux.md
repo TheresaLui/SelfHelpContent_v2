@@ -6,7 +6,7 @@
     authors="timbasham"
     ms.author="tibasham"
     displayOrder="5"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640161,32640162"
     resourceTags="linux,redhat,ubuntu,suse"
     productPesIds="15571,16454,16470,15797"
