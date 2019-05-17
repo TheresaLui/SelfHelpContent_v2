@@ -31,5 +31,5 @@ You may experience slow copy speeds due to one of the following reasons.
 **Errors during Prepare to ship or Data copy**
 
 ## **Recommended Documents**
-* [Troubleshoot issues realated to data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
+* [Troubleshoot issues related to data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
 * [Troubleshoot issues related to Data Box Blob Storage](https://docs.microsoft.com/azure/databox/data-box-troubleshoot-rest)
