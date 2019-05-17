@@ -24,6 +24,12 @@
 
 **Note**: The billing country, once set, cannot be changed. In order to update the billing country, a new account can be created with a new email address and the required billing country.
 
+### **Get Azure Invoice**
+
+* [Invoice over email](https://azure.microsoft.com/blog/azure-email-invoices/)
+* [Download from Azure Account Centre](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+* [Allowing additional users to access invoices](https://docs.microsoft.com/azure/billing/billing-manage-access)
+
 ## **Recommended Documents**
 
 * [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
@@ -31,9 +37,6 @@
 * [How to request copy of Azure invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Understand detailed usage charges](https://docs.microsoft.com/azure/billing/billing-understand-your-bill#csv)
-* [Understand terms on your invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)
-* [Understand terms on your detailed usage](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 * [How to edit profile](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
 * [Manage (Reactivate/Cancel/Switch) subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
-* [How to Transfer ownership](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 * [Azure offer details](https://azure.microsoft.com/support/legal/offer-details/)

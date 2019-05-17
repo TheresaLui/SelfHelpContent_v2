@@ -18,7 +18,7 @@
 <!--issueDescription-->
 At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your HDInsight cluster:
 
-Zookeeper on your HDInsight cluster is currently not working. If you have stopped this service on your side, you can ignore this. If not, we are working to automatically restore this functionality for your cluster. 
+Zookeeper on your HDInsight cluster is currently not working. If you have stopped this service on your side, you can ignore this. 
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
