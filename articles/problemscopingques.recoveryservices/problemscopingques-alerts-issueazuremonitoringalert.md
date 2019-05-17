@@ -27,8 +27,8 @@
 						"value": "Unable to see backup alerts in Azure portal",
 						"text": "Unable to see backup alerts in Azure portal"
 					},{
-						"value": "Unable to receive email notification for alerts",
-						"text": "Unable to receive email notification for alerts"
+						"value": "Not receiving email notification for alerts",
+						"text": "Not receiving email notification for alerts"
 					},{
 						"value": "dont_know_answer",
 						"text": "Other, don't know or not applicable"
@@ -38,7 +38,7 @@
 	},{
 			"id": "email_address_confirmation",
 			"order": 2,
-			"visibility": "issue_type == Unable to receive email notification for alerts",
+			"visibility": "issue_type == Not receiving email notification for alerts",
 			"controlType": "dropdown",
 			"displayLabel": "Have you reverified the email address configured for alert?",
 			"watermarkText": "Select",
@@ -57,7 +57,7 @@
 	},{
 			"id": "different_email_confirmation",
 			"order": 3,
-			"visibility": "issue_type == Unable to receive email notification for alerts",
+			"visibility": "issue_type == Not receiving email notification for alerts",
 			"controlType": "dropdown",
 			"displayLabel": "Have you tried getting notification on different email address?",
 			"watermarkText": "Select",
