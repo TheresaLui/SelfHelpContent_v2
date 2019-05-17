@@ -24,11 +24,11 @@
 			"controlType": "dropdown",
 			"displayLabel": "Which type of issue your are facing?",
 			"dropdownOptions": [{
-						"value": "Not getting backup alerts in Azure portal",
-						"text": "Not getting backup alerts in Azure portal"
+						"value": "Unable to see backup alerts in Azure portal",
+						"text": "Unable to see backup alerts in Azure portal"
 					},{
-						"value": "Not getting Notification for backup alerts",
-						"text": "Not getting Notification for backup alerts"
+						"value": "Not receiving notification for backup alerts",
+						"text": "Not receiving notification for backup alerts"
 					},{
 						"value": "dont_know_answer",
 						"text": "Other, don't know or not applicable"
@@ -37,7 +37,7 @@
 					"required": true
 		},{
 			"id": "alert_scenario",
-			"visibility": "issue_type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not receiving notification for backup alerts",
 			"order": 2,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check backup <a href='https://aka.ms/BKP-RSVAlert-Scenarios'>Alert scenarios </a> article",
@@ -62,7 +62,7 @@
 				"required": true
 		},{
 			"id": "backup_solutions",
-			"visibility": "issue_type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not receiving notification for backup alerts",
 			"order": 3,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Note: Alerts from System Center Data Protection Manager (SC-DPM) and Microsoft Azure Backup Server (MABS) are NOT displayed backup alerts",
@@ -87,7 +87,7 @@
 				"required": true
 		},{
 			"id": "alert_type",
-			"visibility": "issue_type == Not getting backup alerts in Azure portal",
+			"visibility": "issue_type == Not receiving notification for backup alerts",
 			"order": 4,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "",
@@ -109,26 +109,32 @@
 				"required": true
 		},{
 			"id": "basic_troubleshooting_multiselect",
-			"visibility": "issue_type == Not getting Notification for backup alerts",
+			"visibility": "issue_type == Not receiving notification for backup alerts",
 			"order": 5,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check <a href='https://aka.ms/Monitor-JobsAlert-RSV'>Backup Alerts</a> article",
-			"displayLabel": "Select the troubleshooting steps you have performed:",
+			"displayLabel": "Select the troubleshooting steps that you have performed:",
 			"dropdownOptions": [{
-					"value": "Ensured the email address is correct from the configure notifications tab",
-					"text": "Ensured the email address is correct from the configure notifications tab"
+					"value": "Ensured the email address is correct from the Configure notifications tab",
+					"text": "Ensured the email address is correct from the Configure notifications tab"
 			},{
-					"value": "If frequency is set to Per Alert tried to toggle it to Hourly Digest to verify if its working",
-					"text": "If frequency is set to Per Alert tried to toggle it to Hourly Digest to verify if its working"
+					"value": "Tried changing frequency from Per Alert to Hourly Digest and it is working",
+					"text": "Tried changing frequency from Per Alert to Hourly Digest and it is working"
 			},{
-					"value": "If frequency is set to Hourly Digest tried to toggle it to Per Alert to verify if its working",
-					"text": "If frequency is set to Hourly Digest tried to toggle it to Per Alert to verify if its working"
+					"value": "Tried changing frequency from Per Alert to Hourly Digest but it didn't work",
+					"text": "Tried changing frequency from Per Alert to Hourly Digest but it didn't work"
 			},{
-					"value": "Tried to get notification on different email address but the issue persist",
-					"text": "Tried to get notification on different email address but the issue persist"
+					"value": "Tried changing frequency from Hourly Digest to Per Alert but it is working",
+					"text": "Tried changing frequency from Hourly Digest to Per Alert but it is working"
 			},{
-					"value": "Tried to get notification on different email address that is working",
-					"text": "Tried to get notification on different email address that is working"
+					"value": "Tried changing frequency from Hourly Digest to Per Alert but it didn't work",
+					"text": "Tried changing frequency from Hourly Digest to Per Alert but it didn't work"
+			},{
+					"value": "Tried configuring notification on different email address but it did't work",
+					"text": "Tried configuring notification on different email address but it did't work"
+			},{
+					"value": "Tried configuring notification on different email address and received email",
+					"text": "Tried configuring notification on different email address and received email"
 			},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
