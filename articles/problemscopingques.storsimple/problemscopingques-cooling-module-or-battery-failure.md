@@ -21,7 +21,7 @@
 			"id": "pcm_slot",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Select the PCM that has failed or degraded",
+			"displayLabel": "Select the failed or degraded PCM",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "PCM 0",
@@ -36,7 +36,7 @@
 			"id": "battery_slot",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Select the PCM in which the battery has failed or degraded",
+			"displayLabel": "Select the PCM in which the battery is failed or degraded",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "PCM 0",
