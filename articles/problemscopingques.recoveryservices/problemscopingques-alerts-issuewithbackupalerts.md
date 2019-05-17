@@ -37,11 +37,11 @@
 					"required": true
 		},{
 			"id": "alert_scenario",
-			"visibility": "issue_type == Not receiving notification for backup alerts",
+			"visibility": "issue_type == Unable to see backup alerts in Azure portal",
 			"order": 2,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check backup <a href='https://aka.ms/BKP-RSVAlert-Scenarios'>Alert scenarios </a> article",
-			"displayLabel": "For which alertable scenarios you are not getting alerts?",
+			"displayLabel": "For which alertable scenarios you are not seeing alerts?",
 			"dropdownOptions": [{
 						"value": "Backup/Restore failures",
 						"text": "Backup/Restore failures"
@@ -62,11 +62,11 @@
 				"required": true
 		},{
 			"id": "backup_solutions",
-			"visibility": "issue_type == Not receiving notification for backup alerts",
+			"visibility": "issue_type == Unable to see backup alerts in Azure portal",
 			"order": 3,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Note: Alerts from System Center Data Protection Manager (SC-DPM) and Microsoft Azure Backup Server (MABS) are NOT displayed backup alerts",
-			"displayLabel": "For which Azure Backup solution you are not getting alerts?",
+			"displayLabel": "For which Azure Backup solution you are not seeing alerts?",
 			"dropdownOptions": [{
 						"value": "Azure VM backups",
 						"text": "Azure VM backups"
@@ -91,7 +91,7 @@
 			"order": 4,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "",
-			"displayLabel": "Which type of alerts you are not getting?",
+			"displayLabel": "Which type of alerts you are not seeing?",
 			"dropdownOptions": [{
 						"value": "Critical",
 						"text": "Critical"
