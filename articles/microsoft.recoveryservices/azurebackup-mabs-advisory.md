@@ -3,11 +3,11 @@
 	description="Recommended documents for reading about Azure Backup Server installation, usage and other details"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="pvrk"
-	ms.author="pvrk"
+	authors="srinathvasireddy"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32553271"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
@@ -26,6 +26,7 @@
 - [Frequently asked questions about Azure Backup server](https://aka.ms/AB-AA4dqdv)<br>
 - [Issue]
 
+
 	- [Installing Azure Backup Server](https://aka.ms/AA52snx)<br>
 	- [Registration and Agent related](https://aka.ms/AA52yp6)<br>
 	- [Configuring protection group](https://aka.ms/AA52snz)<br>
@@ -34,6 +35,7 @@
 	- [Configure email notifications](https://aka.ms/AB-AA4dy2y)
 	
 - [Limitations]: You cannot install Azure Backup server for following scenarios ([more details](https://aka.ms/AA52so2))
+
 
 	 - Computer running as a domain controller<br>
 	 - Computer on which the Application Server role is installed<br>
