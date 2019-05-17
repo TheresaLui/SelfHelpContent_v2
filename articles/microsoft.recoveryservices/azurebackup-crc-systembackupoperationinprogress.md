@@ -16,7 +16,7 @@
 	cloudEnvironments="public"
 />
 
-# SystemBackupOperationInProgress
+# Error SystemBackupOperationInProgress
 
 <!--issueDescription-->
 ## We have identified that your recent backup job failed because there is an existing backup job in progress. You cannot start a new backup job until the current job finishes
