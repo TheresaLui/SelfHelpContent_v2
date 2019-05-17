@@ -15,7 +15,7 @@ resourceTags="windows"
 productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
 cloudEnvironments="Public"
 />
-# We ran connectivity diagnostics on your resource and found an issue.
+# We ran connectivity diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 Microsoft Azure has identified <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the destination is in the Virtual Network, peered Virtual Network, or local network address space.
