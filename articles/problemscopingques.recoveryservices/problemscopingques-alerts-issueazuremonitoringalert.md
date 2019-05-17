@@ -21,7 +21,7 @@
 			"id": "issue_type",
 			"order": 1,
 			"visibility": "null",
-			"controlType": "multiselectdropdown",
+			"controlType": "dropdown",
 			"displayLabel": "Which type of issue your are facing?",
 			"dropdownOptions": [{
 						"value": "Not getting backup alerts in Azure portal",
