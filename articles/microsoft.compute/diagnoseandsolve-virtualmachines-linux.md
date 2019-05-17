@@ -252,21 +252,21 @@ cloudEnvironments="public"
           "title": "Resizing virtual disks",
           "description": "Guidance on resizing virtual disks",
           "supportTopicId": "32632142",
-          "commonSolutionArticleId": "compute-virtualdiskmgmt-linux",
+          "commonSolutionArticleId": "compute-virtualdiskmgmt-resizedisk-linux",
           "symptomId": ""
         },
         {
           "title": "Attaching or detaching virtual disks",
           "description": "Guidance on attaching or detaching a virtual disk to/from VMs",
           "supportTopicId": "32632139",
-          "commonSolutionArticleId": "compute-virtualdiskmgmt-linux",
+          "commonSolutionArticleId": "compute-virtualdiskmgmt-attachdetach-linux",
           "symptomId": ""
         },
         {
           "title": "Creating or deleting virtual disks",
           "description": "Guidance on deleting virtual disks",
           "supportTopicId": "32632140",
-          "commonSolutionArticleId": "compute-virtualdiskmgmt-linux",
+          "commonSolutionArticleId": "compute-virtualdiskmgmt-attachdetach-linux",
           "symptomId": ""
         }
       ]
