@@ -39,7 +39,7 @@
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "00000000-0000-0000-0000-000000000000",
+      "actionId": "ce37f8f7-534d-4bac-8269-74157b587a90",
       "description": "Resize the virtual machine",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -50,7 +50,7 @@
       }
     },
     {
-      "actionId": "00000000-0000-0000-0000-000000000000",
+      "actionId": "d0fc5294-9e5a-4344-b78c-5ebc1339c399",
       "description": "View Usage Patterns",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Monitoring",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "actionId": "00000000-0000-0000-0000-000000000000",
+      "actionId": "1550a191-607c-4daf-ae42-8730bd77f75a",
       "description": "Shut down the virtual machine",
       "actionType": "ContextBlade",
       "extensionName": "Microsoft_Azure_CostManagement",
@@ -92,7 +92,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "00000000-0000-0000-0000-000000000000",
+      "actionId": "4d38931b-0449-4568-930e-bee998deff30",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
