@@ -4,7 +4,7 @@ pageTitle="Portal or dashboard not loading or throwing error"
 description="Portal or dashboard not loading or throwing error"
 service="microsoft.operationalinsights"
 resource="workspaces"
-articleId="Deflection-Portal_or_dashboard_not_loading_or_throwing_error"
+articleId="28d25b96-fca1-47f8-94e6-8bf406b283e4"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
@@ -14,7 +14,7 @@ selfHelpType="generic"
 supportTopicIds="32612433"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax", "Blackforest"
+cloudEnvironments="Public, Fairfax, Blackforest"
 />
 
 # Portal or dashboard not loading or throwing error
