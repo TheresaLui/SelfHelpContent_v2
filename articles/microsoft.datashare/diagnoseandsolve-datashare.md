@@ -30,7 +30,7 @@ cloudEnvironments="public"
 			"searchTags": "snapshot, failed",
 			"supportTopicId": "",
 			"commonSolutionArticleId": "1d423bf5-f0a3-48fc-a6a1-314e04ea791f"			
-		},
+		}
 	],
 	"troubleshootingTools": []
 }
