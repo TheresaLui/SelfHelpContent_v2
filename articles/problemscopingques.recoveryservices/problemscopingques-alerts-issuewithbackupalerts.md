@@ -65,7 +65,7 @@
 			"visibility": "issue_type == Unable to see backup alerts in Azure portal",
 			"order": 3,
 			"controlType": "multiselectdropdown",
-			"infoBalloonText": "Note: Alerts from System Center Data Protection Manager (SC-DPM) and Microsoft Azure Backup Server (MABS) are NOT displayed backup alerts",
+			"infoBalloonText": "Note: Alerts from System Center Data Protection Manager (SC-DPM) and Microsoft Azure Backup Server (MABS) are NOT display in backup alerts",
 			"displayLabel": "For which Azure Backup solution you are not seeing alerts?",
 			"dropdownOptions": [{
 						"value": "Azure VM backups",
@@ -118,23 +118,23 @@
 					"value": "Ensured the email address is correct from the Configure notifications tab",
 					"text": "Ensured the email address is correct from the Configure notifications tab"
 			},{
-					"value": "Tried changing frequency from Per Alert to Hourly Digest and it is working",
-					"text": "Tried changing frequency from Per Alert to Hourly Digest and it is working"
+					"value": "Getting notification if i change frequency from Per Alert to Hourly Digest",
+					"text": "Getting notification if i change frequency from Per Alert to Hourly Digest"
 			},{
-					"value": "Tried changing frequency from Per Alert to Hourly Digest but it didn't work",
-					"text": "Tried changing frequency from Per Alert to Hourly Digest but it didn't work"
+					"value": "Not getting notification even if i change frequency from Per Alert to Hourly Digest",
+					"text": "Not getting notification even if i change frequency from Per Alert to Hourly Digest"
 			},{
-					"value": "Tried changing frequency from Hourly Digest to Per Alert but it is working",
-					"text": "Tried changing frequency from Hourly Digest to Per Alert but it is working"
+					"value": "Getting notification if i change frequency from Hourly Digest to Per Alert",
+					"text": "Getting notification if i change frequency from Hourly Digest to Per Alert"
 			},{
-					"value": "Tried changing frequency from Hourly Digest to Per Alert but it didn't work",
-					"text": "Tried changing frequency from Hourly Digest to Per Alert but it didn't work"
+					"value": "Not getting notification even if i change frequency from Hourly Digest to Per Alert",
+					"text": "Not getting notification even if i change frequency from Hourly Digest to Per Alert"
 			},{
-					"value": "Tried configuring notification on different email address but it did't work",
-					"text": "Tried configuring notification on different email address but it did't work"
+					"value": "Getting notification on different email address",
+					"text": "Getting notification on different email address"
 			},{
-					"value": "Tried configuring notification on different email address and received email",
-					"text": "Tried configuring notification on different email address and received email"
+					"value": "Not getting notification even on different email address as well",
+					"text": "Not getting notification even on different email address as well"
 			},{
 					"value": "dont_know_answer",
 					"text": "Other, don't know or not applicable"
