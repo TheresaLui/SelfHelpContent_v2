@@ -60,6 +60,9 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
             "dropdownOptions": [{
+                    "value": "1905",
+                    "text": "1905"
+                },{
                     "value": "1904",
                     "text": "1904"
                 },{
