@@ -23,7 +23,7 @@
             "id": "solutionOrScript",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Are you using the <a href="https://docs.microsoft.com/azure/automation/automation-solution-vm-management">Start Stop Solution</a>, or a custom script?",
+            "displayLabel": "Are you using the Start Stop Solution, or a custom script?",
             "dropdownOptions": [
                 {
                     "value": "Solution",
