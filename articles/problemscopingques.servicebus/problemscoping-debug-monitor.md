@@ -18,7 +18,7 @@ schemaVersion="1"
 ---
 {
  "subscriptionRequired":true,
- "title":"Unexpected Service behavior or Errors",
+ "title":"Issues with Monitoring",
  "fileAttachmentHint":"",
  "formElements":[
 {
@@ -44,7 +44,7 @@ schemaVersion="1"
 },
 {
  "id":"problem_description",
- "order":3,
+ "order":4,
  "controlType":"multilinetextbox",
  "displayLabel":"Details",
  "watermarkText":"Provide additional information about your issue",
