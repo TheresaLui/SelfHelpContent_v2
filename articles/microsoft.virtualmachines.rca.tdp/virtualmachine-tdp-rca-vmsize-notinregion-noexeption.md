@@ -23,5 +23,12 @@ We detected that the deployment for virtual machine **<!--$vmname-->Virtual mach
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
 
-Please choose a different VM size. To determine which SKUs are available in a region, see [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors). To resolve SKU issues for a region according to a subscription, see [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).
+Please choose a new VM size. For guidance on resizing the VM, see these resrouces:
+
+| To learn about ... | See the following |
+| --- | --- |
+| Resizing VMs | [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) |
+| Determining which SKUs are available in a region | [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)|
+| Resolving SKU issues for a region according to a subscription | [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)|
+
 
