@@ -30,7 +30,7 @@
       "controlType": "textbox",
       "displayLabel": "Subscription ID",
       "watermarkText": "Provide the Subscription ID",
-      "required": true
+      "required": false
     },
     {
       "id": "azureservice_details",

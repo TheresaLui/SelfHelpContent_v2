@@ -58,7 +58,7 @@
 			"id": "changes_updates",
 			"order": 4,
 			"controlType": "dropdown",
-			"displayLabel": "Where there any changes/updates made on the server/network?",
+			"displayLabel": "Were there any changes/updates made on the server/network?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",

@@ -13,6 +13,7 @@
 # Config and Setup
 ---
 {
+                "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "Deploy VM Scale Sets",
                 "fileAttachmentHint": "",
@@ -23,7 +24,7 @@
                   "controlType": "multilinetextbox",
                   "displayLabel": "What is the error you are getting?",
                   "useAsAdditionalDetails": false,
-                  "required": true
+                  "required": false
                   },{
                     "id": "correlation_id",
                     "order": 2,

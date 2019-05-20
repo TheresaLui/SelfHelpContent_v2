@@ -17,14 +17,14 @@
  />
 
 # **Customer Prefixes Missing From VNet Gateway Adjacency Table**
+
 <!--/issueDescription-->
-**ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
 
-**MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
+* **ServiceKey:** '**<!--$ServiceKey--> [ServiceKey] <!--/$ServiceKey-->**'
+* **MSEE:** '**<!--$MSEE--> [MSEE] <!--/$MSEE-->**'
+* **VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
+* **VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
 
-**VRF Name:** '**<!--$VRF--> [VRF] <!--/$VRF-->**'
-
-**VnetID:** '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
 <!--/issueDescription-->
 
 ## **Recommended Steps**
