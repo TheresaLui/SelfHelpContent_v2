@@ -35,7 +35,7 @@ Minimum throughput of the container can be found from the Portal or can be retri
 
 The detailed description of how minimum RUs are calculated is based on the below formula:
 
-Tmin = Max (Tmax / Kt , Smax * Ks,  Cmax * Kc)
+Tmin = Max (Tmax / Kt , Smax * Ks,  Cmax * Kc, 400)
 
 Tmax = Maximum throughput ever provisioned on the container or database
 Smax = Maximum storage ever consumed on the container or database
