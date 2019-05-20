@@ -23,4 +23,4 @@ Azure Database for MySQL comes with a rich set of security features including se
 * [Firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules)<br>
 * [Configuring SSL](https://docs.microsoft.com/azure/mysql/concepts-ssl-connection-security)<br>
 * [VNet service endpoints](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-vnet)<br>
-* [Advanced Threat Protection](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-threat-protection)>
+* [Advanced Threat Protection](https://docs.microsoft.com/azure/mysql/concepts-data-access-and-security-threat-protection)
