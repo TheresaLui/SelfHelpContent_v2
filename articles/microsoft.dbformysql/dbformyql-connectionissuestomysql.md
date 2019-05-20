@@ -7,7 +7,7 @@
     ms.author="ankam,janeng"
 	displayOrder="6"
 	selfHelpType="resource"
-	supportTopicIds="32628383,32628388,32628391,32628408,32628393"
+	supportTopicIds="32640053,32640055,32640058,32640090"
 	resourceTags="servers, databases"
 	productPesIds="16221"
 	cloudEnvironments="public"
@@ -16,7 +16,7 @@
 
 # Connection issues to Azure Databases for MySQL
 
-Persistent connection issues to Azure Databases for MySQL can occur due to incorrect firewall configuration, incorrect connection string, and other causes. Work through the recommended steps to assure you are not hitting a misconfiguration problem.
+Persistent connection issues to Azure Databases for MySQL can occur due to incorrect firewall configuration, incorrect connection string, and other causes. Work through the recommended steps to ensure you are not hitting a misconfiguration problem.
 
 ## **Recommended Steps**
 
