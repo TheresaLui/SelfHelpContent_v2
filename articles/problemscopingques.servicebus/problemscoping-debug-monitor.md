@@ -37,7 +37,7 @@ schemaVersion="1"
 },
 {
  "id":"problem_alert",
- "order":2,
+ "order":3,
  "controlType":"multilinetextbox",
  "displayLabel":"Please include the type of alerts you are trying to setup?",
  "required":true
