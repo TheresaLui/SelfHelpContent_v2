@@ -18,12 +18,12 @@
 
 # We ran diagnostics on your resource and found high IO usage
 
- <!--/issueDescription-->
-Our internal service telemetry detected high IO usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. 
+ <!--issueDescription-->
+Our internal service telemetry detected high IO usage greater than 90% for more than 5 consecutive minutes on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
 
 This indicates possible application slowness, timeouts due to lack of IO resources to execute the requested workload during that specific period.
  <!--/issueDescription-->
- 
+
 ## **Recommended Documents**
 
 * [Consider batching to reduce IO consumption when doing large operations](https://docs.microsoft.com/azure/sql-database/sql-database-use-batching-to-improve-performance)

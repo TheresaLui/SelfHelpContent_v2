@@ -18,9 +18,9 @@
 
 # We ran diagnostics on your resource and found high degree of MAXDOP
 
-<!--/issueDescription-->
+<!--issueDescription-->
 
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high degree of MAXDOP. 
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high degree of MAXDOP.
 
 While using a higher degree of parallelism may increase throughput for individual queries, it can negatively impact concurrency in some workloads.
 
