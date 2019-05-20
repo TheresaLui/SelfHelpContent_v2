@@ -23,7 +23,7 @@ We detected that the deployment for virtual machine **<!--$vmname-->Virtual mach
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
 
-Please choose a new VM size. For guidance on resizing the VM, see these resrouces:
+Please choose a new VM size. For guidance on resizing the VM, see these resources:
 
 | To learn about ... | See the following |
 | --- | --- |
