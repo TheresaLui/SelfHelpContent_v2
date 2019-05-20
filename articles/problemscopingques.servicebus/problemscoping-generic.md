@@ -11,7 +11,7 @@ supportTopicIds="32633385,32637097"
 resourceTags=""
 productPesIds="13186"
 cloudEnvironments="public"
-articleId="sb-issue-not-listed"
+articleId="sb-other-issues"
 schemaVersion="1"
 />
 # Other Issues
@@ -26,7 +26,7 @@ schemaVersion="1"
  "order":1,
  "controlType":"datetimepicker",
  "displayLabel":"When did the problem begin?",
- "required":false
+ "required":true
 },
 {
  "id":"problem_errorMessageText",
