@@ -13,15 +13,15 @@
 	articleId="cosmosdb-throughput-minru"
 />
 
-# About minimum RU in Cosmos DB
+# About minimum RU in Azure Cosmos DB
 
 **How is minimum RU calculated?**
 
-Cosmos DB ensures that containers maintain minimum number of provisioned RUs based on the following factors:
+Azure Cosmos DB ensures that containers maintain minimum number of provisioned RUs based on the following factors:
 
-* The maximum data size that you ever store in the container
-* The maximum throughput that you ever provision on the container
-* The maximum number of Azure Cosmos containers that you ever create in a database with shared throughput.
+* The maximum storage size that you ever used for the container.
+* The maximum throughput that you ever provisioned for the container.
+* The maximum number of Azure Cosmos containers that you ever created in a database with shared throughput.
 
 Minimum throughput of the container can be found from the Portal or can be retrieved programmatically. Here is a sample .Net code to retrieve min throughput of the container 
 
