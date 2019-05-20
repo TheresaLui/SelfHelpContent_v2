@@ -15,9 +15,9 @@
     articleId="32639199"
 />
 
-# Data Box - Data copy and validation
+# Data Box - Data copy and validation issues
 
-Issue: Copy is slow
+## **Recommended Steps** 
 
 You may experience slow copy speeds due to one of the following reasons:
 
@@ -27,7 +27,7 @@ You may experience slow copy speeds due to one of the following reasons:
 
 To resolve this issue, review the [Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) documentation. 
 
-Issue: Errors during Prepare to ship or Data copy
+## **Recommended Documents**
 
 * [Troubleshoot issues related to data copy](https://docs.microsoft.com/azure/databox/data-box-troubleshoot)
 * [Troubleshoot issues related to Data Box Blob Storage](https://docs.microsoft.com/azure/databox/data-box-troubleshoot-rest)
