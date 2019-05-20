@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="diagnostics"
+    selfHelpType="resource"
     articleId="application-gateway-unknown-backend-health"
     diagnosticScenario="ApplicationGatewayUnknownBackendHealth"
     supportTopicIds="32639117"

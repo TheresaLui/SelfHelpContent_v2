@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    selfHelpType="diagnostics"
+    selfHelpType="resource"
     articleId="application-gateway-502-error"
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483"
