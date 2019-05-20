@@ -18,10 +18,11 @@
 
 # We ran diagnostics on your resource and found Increased Workload
 
-## **Recommended Steps**
+<!--/issueDescription-->
+Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**.
 
-Our internal service telemetry detected that over the past 24 hours there has been a significant increase (50% or more) in user requests on your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->**. <br>
 This user load increase is potentially contributing to performance issues or timeouts due to lack of resources to execute the requested workload during that specific period.
+ <!--/issueDescription-->
 
 ## **Recommended Documents**
 
