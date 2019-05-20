@@ -17,7 +17,7 @@
  <!--/issueDescription-->
 We ran the below diagnostic check to verify whether the cookie-based session affinity feature has been enabled or not on your resource:
 
-<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->
+<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource--><BR>
 
  **Diagnostic Checks Executed**
 
