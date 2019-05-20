@@ -15,7 +15,7 @@
 
 # About minimum RU in Cosmos DB
 
-## **How is minimum RU calculated?**
+**How is minimum RU calculated?**
 
 Cosmos DB ensures that containers maintain minimum number of provisioned RUs based on the following factors:
 
@@ -41,9 +41,9 @@ Tmax = Maximum throughput ever provisioned on the container or database
 Smax = Maximum storage ever consumed on the container or database
 Cmax = Maximum collection count ever created on a shared throughput database (For non-shared throughput, this is 0)
 
-Kt = Throughput Scale co-efficient = 60  
-Ks = Storage Scale co-efficient = 40 RU/GB. For collections created prior to Feb 2019, this value is 10 RU/GB.
-Kc = Collection(s) Scale co-efficient for shared throughput database = 100 RU/collection
+Kt = Throughput Scale coefficient = 60  
+Ks = Storage Scale coefficient = 40 RU/GB. For collections created prior to Feb 2019, this value is 10 RU/GB.
+Kc = Collection(s) Scale coefficient for shared throughput database = 100 RU/collection
 
 ## **Recommended documents**
 
