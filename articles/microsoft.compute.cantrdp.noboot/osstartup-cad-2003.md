@@ -1,14 +1,14 @@
 <properties
     pageTitle="VM boot error"
-    description="Virtual machine failed to boot because it couldn't finitialize Windows"
-    infoBubbleText="A boot error 'Administrator: ERROR HANDLER' has been found for your virtual machine. The operating system is corrupted and you'll need to restart your machine."
+    description="Virtual machine failed to boot because it found the OS to be unhealthy and the automatic system recovery tried to fix it."
+    infoBubbleText="A boot error 'An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart' has been found for your virtual machine."
     service="microsoft.compute"
     resource="virtualmachines"
     authors="jasonbandrew"
-    authorAlias="v-jasoan"
     ms.author="v-jasoan"
     displayOrder=""
-    articleId="OSStartUp-PROVISIONING_AGENT"
+    articleId="INACCESSIBLE BOOT DEVICE"
+    diagnosticScenario="booterror"
     selfHelpType="diagnostics"
     supportTopicIds="32411835"
     resourceTags="windows"
@@ -18,6 +18,7 @@
 
 # VM Boot Error
 <!--issueDescription-->
+
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
 
 Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
@@ -29,7 +30,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
 2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
 3. Verify the OS partition that holds the BCD store for the disk is marked as active:
 
-    1. Open an elevated command prompt and open `diskpart` 
+    1. Open an elevated command prompt and run `diskpart` 
     2. List the disks on the system with `list disk`, check for added disks, and use `sel disk 1` to select the new disk
     3. List all the partitions on the disk using `list partition` and select the partition to check with `sel <PARTITION ID>`. Typically, System Managed partitions are around 350Mb in size. 
     4. Check the status of the partition to verify that it's Active using `detail partition`
@@ -51,4 +52,4 @@ bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
 ```
 
-5. [Run Restore-AzureRMOriginalVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager). It will create a PowerShell script, Restore_.ps1, that you will run later to swap the problem VM's OS disk back to the problem VM.
+5. [Run Restore-AzureRMOriginalVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager). It will create a PowerShell script (Restore_.ps1) that you will run later to swap the problem VM's OS disk back to the problem VM.
