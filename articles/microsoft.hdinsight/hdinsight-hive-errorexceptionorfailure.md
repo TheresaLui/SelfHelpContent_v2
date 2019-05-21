@@ -18,5 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)
-* [How to find out which process is listening upon a port](https://debian-administration.org/article/184/How_to_find_out_which_process_is_listening_upon_a_port)
+[Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)<br>
+[How to find out which process is listening upon a port](https://debian-administration.org/article/184/How_to_find_out_which_process_is_listening_upon_a_port)<br>
+[Hive settings to resolve Out of Memory errors](https://azure.microsoft.com/blog/hive-memory-settings-resolve-out-of-memory-errors-using-azure-hdinsight/)<br>
