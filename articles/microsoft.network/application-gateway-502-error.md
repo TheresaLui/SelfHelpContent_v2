@@ -1,7 +1,6 @@
 <properties 
     pageTitle="I'm encountering Bad Gateway Error (502)"
-    description="Bad Gateway Error (502)"
-    infoBubbleText="Common solution article for instructions on how to troubleshoot Bad Gateway errors with Application Gateway."
+    description="Bad Gateway Error (502)"    
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
@@ -9,7 +8,8 @@
     displayOrder="20"
     selfHelpType="resource"
     articleId="application-gateway-502-error"
-    diagnosticScenario="ApplicationGateway502BadGatewayError"
+    resourceTags=""
+	productPesIds="15922"
     supportTopicIds="32573483"
     cloudEnvironments="public"
  />
