@@ -15,7 +15,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 />
-# We cannot deploy the selected size of your resource
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 We detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the VM size is not available in the region where you are trying to deploy it.<br>
