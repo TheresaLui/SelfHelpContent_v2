@@ -16,7 +16,7 @@
 
 # Why is my synchronization setting not saved for my Data Share?
 
-When creating a Data Share, if the Data Provider does not enable a synchronization schedule for the Data Consumer to subscribe to, the Data Consumers data will not be automatically refreshed. Follow the below steps to resolve this issue:
+When creating a Data Share, if the Data Provider does not enable a synchronization schedule for the Data Consumer to subscribe to, the Data Consumer's data will not be automatically refreshed. 
 
 ## **Recommended Steps**
 
