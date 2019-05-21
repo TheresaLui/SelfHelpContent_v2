@@ -7,7 +7,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="24"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-end-to-end-ssl"
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
     supportTopicIds="32582825"
