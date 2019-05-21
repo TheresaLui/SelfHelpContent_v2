@@ -185,8 +185,7 @@
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "required": false
         },
         {
             "id": "problem_description",
