@@ -10,7 +10,7 @@
 	supportTopicIds="32626098"
 	resourceTags=""
 	productPesIds="15725"
-	articleId="npm-loganalytics-troubleshoot-and-case-submission-opin"
+	articleId= "npm-loganalytics-troubleshoot-and-case-submission-opin"
 	cloudEnvironments="public,fairfax"
 />
 
@@ -20,9 +20,9 @@
 
 ### **Agent Issues**
 
-*  Agent not visibile in Nodes page - Check the Log Analytics workspace id and key entered for the agent during setup. [Use this link for reference]( https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
+*  Agent not visible in Nodes page - Check the Log Analytics workspace id and key entered for the agent during setup. [Use this link for reference]( https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-setup-wizard)<br>
 
-*  Agent not visibile in Nodes page - Check if the agent is up and running by following this step<br>
+*  Agent not visible in Nodes page - Check if the agent is up and running by following this step<br>
 Go to CMD prompt and run the command below. If agent is not found, that means it is not running. Look for Microsoft Monitoring Agent and start it. 
 
 ```
@@ -35,19 +35,19 @@ tasklist |findstr NPMDAgent .
 
 * Based on frequency set in the test, it take data about 30 mins to appear in the dashboard 
 
-* To check if NPM is receiving any data, run the below mentioned query in LogAnalytics for your workspace: <br> 
+* To check if NPM is receiving any data, run the below mentioned query in Log Analytics for your workspace: <br> 
 
 ```
 NetworkMonitoring | take 5
 ```
 
-* To check if Performance Monitor tests are recording data, run the below mentioned query in LogAnalytics for your workspace: <br> 
+* To check if Performance Monitor tests are recording data, run the below mentioned query in Log Analytics for your workspace: <br> 
 
 ``` 
 NetworkMonitoring | where SubType == "SubNetwork" | where SourceSubNetwork == "<<Your SubNetworkNetwork IP>>"
 ```
 
-* To check if Performance Monitor is receiving any data for a given network, run the below mentioned query in LogAnalytics for your workspace: <br> 
+* To check if Performance Monitor is receiving any data for a given network, run the below mentioned query in Log Analytics for your workspace: <br> 
 
 ``` 
 NetworkMonitoring
@@ -55,7 +55,7 @@ NetworkMonitoring
 | where SourceNetwork == "<<Your Network name>>"
 ```
 
-* To check if Service Connectivity Monitor tests are recording data, run the below mentioned query in LogAnalytics for your workspace: <br> 
+* To check if Service Connectivity Monitor tests are recording data, run the below mentioned query in Log Analytics for your workspace: <br> 
 
 ```
 NetworkMonitoring
@@ -63,7 +63,7 @@ NetworkMonitoring
 | take 5
 ```
 
-* To check if Express Route Monitor circuits are recording data, run the below mentioned query in LogAnalytics for your workspace: <br> 
+* To check if Express Route Monitor circuits are recording data, run the below mentioned query in Log Analytics for your workspace: <br> 
 
 ```
 NetworkMonitoring 
@@ -71,7 +71,7 @@ NetworkMonitoring
 | project CircuitName
 ```
 
-* To check if Express Route Monitor peerings are recording data, run the below mentioned query in LogAnalytics for your workspace: <br>  
+* To check if Express Route Monitor peerings are recording data, run the below mentioned query in Log Analytics for your workspace: <br>  
 
 ```
 NetworkMonitoring 
@@ -86,7 +86,7 @@ NetworkMonitoring
 *  NPM uses traceroute to determine hops in a network and shows them in the topology <br>
 Run tracert from the machine hosting the agent with admin permissions and check the hops . These hops should match the hops shown by NPM in the topology. Routers need to be accessible by traceroute. For on-premise hops/network devices , ensure ICMP_TTL_EXCEEDED is enabled.Azure does not expose its hops to traceroute, hence they will continue to show up as undefined.<br> 
 
-* Health and topology checks are repeated at different frequencies. Traceroute is calculated every 10 mins , whereas health status is updated every 3 mins for Performance Monitor and Express Route Monitor and at custom time set for  Service Connectivity Monitor. Hence there will be a differrence in the topology and health status. To know the closest topology state, use Log Analytics fields TimeProcessed field for health and TracerouteCompletedTime for topology.
+* Health and topology checks are repeated at different frequencies. Traceroute is calculated every 10 mins , whereas health status is updated every 3 mins for Performance Monitor and Express Route Monitor and at custom time set for  Service Connectivity Monitor. Hence there will be a difference in the topology and health status. To know the closest topology state, use Log Analytics fields TimeProcessed field for health and TracerouteCompletedTime for topology.
 
 ## **Recommended Documents**
 
