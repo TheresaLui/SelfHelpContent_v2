@@ -28,8 +28,8 @@ Please resize the VM to fix this issue. You can determine available sizes as des
 | To determine sizes by ... | Do the following |
 | --- | --- |
 | Azure Portal | Select the VM in the Azure Portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. Select **Resize**. |
-| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command.<br>`Get-AzComputeResourceSku | where {$_.Locations -icontains "centralus"}`|
-| Azure CLI | Use the [az vm list-sizes](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-sizes) command. Use the `--location` parameter to filter output to region you are using.|
+| PowerShell | Use the [Get-AzureRmVMSize](https://docs.microsoft.com/powershell/module/azurerm.compute/get-azurermvmsize) command. Use the `-Location` parameter to filter output for your region.|
+| Azure CLI | Use the [az vm list-sizes](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-sizes) command. Use the `--location` parameter to filter output for your region.|
 | REST | Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
 
 
