@@ -29,7 +29,7 @@ You can determine available sizes as described in the following table.
 | --- | --- |
 | Azure Portal | Select the VM in the Azure Portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
 | PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command. Filter for your region by enumerating `Locations` on the object, for example:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("westus")}` |
- Azure CLI | Use the [az vm list-sizes](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-sizes) command with the `--location` parameter to filter output for your region. Use the `--size` parameter to match the size name, for example:<br>`az vm list-skus --location southcentralus --size Standard_F --output table`|
+ Azure CLI | Use the [az vm list-sizes](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter output for your region. Use the `--size` parameter to match the size name, for example:<br>`az vm list-skus --location southcentralus --size Standard_F --output table`|
 | REST | Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
 
 
