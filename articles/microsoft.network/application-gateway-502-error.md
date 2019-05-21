@@ -7,7 +7,7 @@
     authors="abshamsft"
     ms.author="absha"
     displayOrder="20"
-	selfHelpType="resource"
+    selfHelpType="resource"
     articleId="application-gateway-502-error"
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483"
