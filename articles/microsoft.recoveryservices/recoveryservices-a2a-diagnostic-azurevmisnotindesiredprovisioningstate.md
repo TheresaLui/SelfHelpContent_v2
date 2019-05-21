@@ -18,10 +18,10 @@
 
 # Enable replication failed as virtual machine is not in desired state
 <!--issueDescription-->
-Failed to enable replication, as virtual machine is not in desired state.
+Failed to enable replication, because the virtual machine is not in desired state.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To enable replication on the VM, the provisioning state should be succeeded. To resolve this issue, make sure that the virtual machine provisioning state is Succeeded. Then retry the operation. For more information, see [VM's provisioning state is not valid (error code 150019)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#vms-provisioning-state-is-not-valid-error-code-150019).
+To enable replication on the virtual machine, the provisioning state should be succeeded. To resolve this issue, make sure that the virtual machine's provisioning state is Succeeded. Then retry the operation. For more information, see [virtual machine's provisioning state is not valid (error code 150019)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#vms-provisioning-state-is-not-valid-error-code-150019).
 
