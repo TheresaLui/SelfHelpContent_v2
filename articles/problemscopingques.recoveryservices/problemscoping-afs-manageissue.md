@@ -36,7 +36,7 @@
 			"order": 3,
 			"controlType": "multiselectdropdown",
 			"infoBalloonText": "Check <a href='https://aka.ms/AB-AFS-ManageAFS'>manage Azure File Share backups</a> article",
-			"displayLabel": "Which type of management issue you are facing?",
+			"displayLabel": "Which management task is experiencing the issue?",
 			"dropdownOptions": [{
 					"value": "Monitor jobs",
 					"text": "Monitor jobs"
@@ -44,11 +44,11 @@
 					"value": "Create a new policy",
 					"text": "Create a new policy"
 			},{
-					"value": "Stop protection on a file share",
-					"text": "Stop protection on a file share"
+					"value": "Stop protection on a File Share",
+					"text": "Stop protection on a File Share"
 			},{
-					"value": "Resume protection on a file share",
-					"text": "Resume protection on a file share"
+					"value": "Resume protection on a File Share",
+					"text": "Resume protection on a File Share"
 			},{
 					"value": "Delete backup data",
 					"text": "Delete backup data"

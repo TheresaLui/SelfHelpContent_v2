@@ -53,7 +53,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the Batch Node ID which has the problem",
             "watermarkText": "The Batch Node ID which has the problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",

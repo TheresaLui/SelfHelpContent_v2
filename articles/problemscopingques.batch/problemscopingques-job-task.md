@@ -33,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the task IDs which have the problem",
             "watermarkText": "The task IDs which have the problem",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",

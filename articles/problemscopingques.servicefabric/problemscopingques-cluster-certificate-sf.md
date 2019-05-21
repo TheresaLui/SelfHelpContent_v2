@@ -4,7 +4,7 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608932, 32608940, 32608942, 32608944, 32608943, 32608957"
+	supportTopicIds="32608932, 32608942, 32608944, 32608943, 32608957"
 	productPesIds="15842"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -61,6 +61,14 @@
                 "value": "Certificate thumbprint",
                 "text": "Certificate thumbprint"
             }],
+            "required": false
+        },
+        {
+            "id": "get_certificate_thumbprint",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide the thumbprints of the subjective certificate(s)",
+            "watermarkText": "If you are replacing an old certificate with a new one, please specify the thumbprint of both certificates.",
             "required": false
         }
 	]

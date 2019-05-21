@@ -21,12 +21,15 @@
 ## **Recommended Steps**
 
 <!--issueDescription-->
-Your tenant has no mobile device management (MDM) enrolled devices with Intune.
+Your tenant has no mobile device management (MDM) enrolled devices with Intune. If you want to enroll and manage your devices through Intune MDM, choose the desired platform for further instructions.
+
+If you are using a third party MDM or only App Protection features, no action may be needed.
 <!--/issueDescription-->
 
-If you want to enroll and manage your devices through Intune MDM, choose the desired platform below for further instructions. If you are using a third party MDM or only [App Protection](https://docs.microsoft.com/intune/app-protection-policies) features no action may be needed.
+## **Recommended Documents**
 
 * [Enroll your Android device in Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android)
 * [Enroll your iOS device in Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios)
 * [Enroll your macOS device in Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
 * [Enroll your Windows device in Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-windows)
+* [App Protection](https://docs.microsoft.com/intune/app-protection-policies)
