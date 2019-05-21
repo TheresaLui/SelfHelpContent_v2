@@ -91,12 +91,64 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "problem_description",
+            "id": "mount_error",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Windows mount error",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "error5",
+                    "text": "System error 5 has occurred. Access is denied."
+                },
+                {
+                    "value": "error53",
+                    "text": "System error 53 has occurred. The network path was not found."
+                },
+                {
+                    "value": "error64",
+                    "text": "System error 64 has occurred. The specified network name is no longer available."
+                },
+                {
+                    "value": "error67",
+                    "text": "System error 67 has occurred. The network name cannot be found."
+                },
+                {
+                    "value": "error86",
+                    "text": "System error 86 has occurred. The specified network password is not correct."
+                },
+                {
+                    "value": "error87",
+                    "text": "System error 87 has occurred. The parameter is incorrect."
+                },
+                {
+                    "value": "error1816",
+                    "text": "System error 1816 has occurred. Not enough quota is available to process this command."
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "error_other",
+            "order": 4,
+            "visibility": "mount_error == dont_know_answer",    
+            "controlType": "textbox",
+            "displayLabel": "Error message",
+            "watermarkText": "Error message received",
+            "required": false
+        }, 
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -104,7 +156,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
