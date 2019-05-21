@@ -24,5 +24,5 @@ We have identified that you recent backup operation has failed since it was canc
 
 ## **Recommended Steps**
 - Ensure if you are on the latest version of the Azure Backup Agent. To find out the version, on the Actions pane of the MARS console, select **About Microsoft Azure Recovery Services Agent**. You can download the latest version from [here](https://aka.ms/azurebackup_agent).
-- Ensure CBEngine process is running and in Services.msc the Microsoft Azure Recovery Services agent service is up and running.
+- Ensure CBEngine process is running and in services.msc the Microsoft Azure Recovery Services agent service is up and running.
 - If the server was restarted or the job was cancelled, then retry the operation.
