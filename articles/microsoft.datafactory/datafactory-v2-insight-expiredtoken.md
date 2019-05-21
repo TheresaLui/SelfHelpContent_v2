@@ -26,6 +26,8 @@ Your Data Factory resource <!--$FactoryName-->[FactoryName]<!--/$FactoryName--> 
 
 ## **Recommended Steps**
 
-Refer to the links below to renew your Databricks token.
+* Renew your Databricks token
+
+## **Recommended Documents**
 
 * [Microsoft Azure Databricks Authentication Documentation](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token)
