@@ -181,11 +181,12 @@
         {
             "id": "error_other",
             "order": 5,
-            "visibility": "mount_error == Don't know or not listed above",
+            "visibility": "mount_error == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_description",
