@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder=""
+    displayOrder="4"
 	selfHelpType="resource"
     articleId="application-gateway-end-to-end-ssl"
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"

@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder=""
+    displayOrder="1"
 	selfHelpType="resource"
     articleId="application-gateway-too-many-redirects-error"
     diagnosticScenario="ApplicationGatewayTooManyRedirectsError"

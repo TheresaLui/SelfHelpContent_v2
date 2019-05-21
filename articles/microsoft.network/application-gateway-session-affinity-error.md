@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder=""
+    displayOrder="3"
 	selfHelpType="resource"
     articleId="application-gateway-session-affinity"
     diagnosticScenario="ApplicationGatewaySessionAffinity"

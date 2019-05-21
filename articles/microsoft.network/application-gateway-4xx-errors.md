@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder=""
+    displayOrder="6"
 	selfHelpType="resource"
     articleId="application-gateway-4xx-error"
     diagnosticScenario="ApplicationGateway4xxClientError"

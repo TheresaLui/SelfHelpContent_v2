@@ -6,7 +6,7 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder=""
+    displayOrder="5"
 	selfHelpType="resource"
     articleId="application-gateway-connection-timed-out-error"
     diagnosticScenario="ApplicationGatewayConnectionTimedOutError"
