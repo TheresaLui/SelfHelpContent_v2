@@ -145,7 +145,7 @@
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
             "required": false
-        }, 
+        },
         {
             "id": "problem_description",
             "order": 5,
