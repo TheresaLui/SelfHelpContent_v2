@@ -17,11 +17,12 @@
 />
 
 # We ran diagnostics on your resource and found high locking waits
+ <!--/issueDescription-->
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high locking waits. 
 
-## **Recommended Steps**
-
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** is an instance with high locking waits. <br> 
 This wait event is potentially contributing to performance issues.
+
+ <!--/issueDescription-->
 
 ## **Recommended Documents**
 
