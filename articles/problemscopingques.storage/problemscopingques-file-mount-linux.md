@@ -181,7 +181,7 @@
         {
             "id": "error_other",
             "order": 5,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == Don't know or not listed above",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",
