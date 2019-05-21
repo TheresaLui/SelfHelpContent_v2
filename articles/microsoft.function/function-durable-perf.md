@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="a5e0dcc7-d166-47f3-8e36-da5b1457e561"
 />
 
 # Durable Functions/Performance

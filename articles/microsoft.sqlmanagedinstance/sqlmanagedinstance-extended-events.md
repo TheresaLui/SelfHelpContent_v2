@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="2ad144e4-5267-4fee-90a2-5167c6319fbf"
 />
 
 # Extended Events

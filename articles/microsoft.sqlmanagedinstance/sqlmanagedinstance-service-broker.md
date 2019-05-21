@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="0649e81c-79b1-4dba-81ef-ea675765d56e"
 />
 
 # Service Broker

@@ -49,6 +49,10 @@
                 {
                     "text": "Is an external user (guest/B2B user)",
                     "value": "externalUser"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

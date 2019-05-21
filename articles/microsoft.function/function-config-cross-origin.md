@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="fb31f05e-a881-4135-b57f-f495861c4edf"
 />
 
 # Configuring Function Apps/Configuring Cross-Origin Resource Sharing (CORS)

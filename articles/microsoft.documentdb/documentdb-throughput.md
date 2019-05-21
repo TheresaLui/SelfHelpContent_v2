@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="02a995db-f743-4a19-82ea-c297f0efea1f"
 />
 
 # Understanding Request units and Throughput in Azure Cosmos DB

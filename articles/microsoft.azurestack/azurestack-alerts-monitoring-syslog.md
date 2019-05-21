@@ -4,13 +4,14 @@
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
-    ms.author="alexsmit"
+    ms.author="alexsmit, mquian"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32629266"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="5b2386bf-2c63-409b-ba0e-a0cdcb23f2fa"
 />
 
 # Azure Stack Syslog Forwarding Integration
@@ -21,7 +22,8 @@ Starting with the [1809 Update](https://docs.microsoft.com/azure/azure-stack/azu
 
 1. [Integrate Azure Stack infrastructure with Syslog](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-security) with external security solutions already deployed in your datacenter<br>
 2. Configure [Syslog forwarding for network devices](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-physical-device-auditing#syslog-forwarding-for-network-devices) used by your Azure Stack environment
-3. Follow OEM-specific documentation for integration Baseboard Management (BMC), Hardware Lifecycle Host (HLH), and other physical components with Syslog
+3. Check connectivity to syslog server and port
+4. Follow OEM-specific documentation for integration Baseboard Management (BMC), Hardware Lifecycle Host (HLH), and other physical components with Syslog
 
 ## **Recommended Documents**
 

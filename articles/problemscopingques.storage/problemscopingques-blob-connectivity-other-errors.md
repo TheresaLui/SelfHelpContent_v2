@@ -5,8 +5,8 @@
 	ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity_otherErrors"
-	supportTopicIds="32602728"
-	productPesIds="16459"
+	supportTopicIds="32602728,32612605"
+	productPesIds="16459,16598"
 	cloudEnvironments="public"
 	schemaVersion="1"
 />
@@ -20,7 +20,7 @@
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
-			"displayLabel": "Start time of the latest occurrence",
+			"displayLabel": "Local start time of the latest occurrence",
 			"required": true
 		}, {
 			"id": "error_code_dropdown",
@@ -84,18 +84,39 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Storage server Request ID",
-			"watermarkText": "Request ID of failed operation",
+			"watermarkText": "Request ID of failed operation ending with 000000",
+			"textPropertyRegex":"^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
 			"required": false
-		}, {
-			"id": "blob_or_container",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "Container name or blob path",
-			"watermarkText": "'ContainerName' or 'ContainerName/../BlobName' if specific to a container or blob",
-			"required": false
+        }, {
+            "id": "blob_container",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Blob Container",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.Storage/storageAccounts/{resourcename}/blobServices/default/containers?api-version=2018-07-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "NoBlobContainer",
+                    "text": "Not specific to a blob container"
+                }
+            ],
+            "required": false
+        }, {
+            "id": "blob_path",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Blob path",
+            "watermarkText": "Blob name or path if specific to a blob",
+            "required": false
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Provide any additional details",
 			"required": true,

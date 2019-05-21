@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16160"
 	cloudEnvironments="public"
+	articleId="1a4408fc-b132-4d8c-8baa-0f0b78022843"
 />
 
 # configurationandsetup/networkwatcherextensionforwindows

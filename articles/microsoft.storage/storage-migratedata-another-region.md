@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15629,16459"
 	cloudEnvironments="public"
+	articleId="5d7b80ee-409f-4cce-82f8-fc2667277f52"
 />
 
 # Move Data to, from, or within Azure Storage

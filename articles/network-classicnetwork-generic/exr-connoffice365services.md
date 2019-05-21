@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="e428f83f-2175-43fb-b2c6-383f8d9df88d"
 />
 
 # Connectivity to Office 365 Services

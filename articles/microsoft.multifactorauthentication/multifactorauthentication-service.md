@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="14947"
 	cloudEnvironments="public"
+	articleId="83e7542f-fe86-427e-a8c3-ca4020f0d47a"
 />
 
 # service

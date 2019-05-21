@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="e178fdef-1d3e-4e3f-8550-93831d1fe06a"
+/>
 
 # Media Services Pricing
 

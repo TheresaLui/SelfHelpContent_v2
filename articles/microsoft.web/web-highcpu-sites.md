@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32583701"
 	resourceTags=""
-	productPesIds="14748,16170"
+	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="abbda638-0267-4223-b95b-f35e9a35dde1"
 />
 
 # availability, performance, and application issues/Availability, Performance, and Application Issues/Web app experiencing high CPU

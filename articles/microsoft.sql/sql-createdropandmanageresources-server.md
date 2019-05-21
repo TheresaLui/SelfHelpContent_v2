@@ -10,6 +10,7 @@
 	supportTopicIds="32630453"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="88708ffa-27c8-477a-a193-e2616160b6e1"
 />
 
 # create drop and manage resources/server

@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="294f0e31-d892-4c5f-8840-ebc822ccd64d"
 />
 # Development/SQL database programming
 

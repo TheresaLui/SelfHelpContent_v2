@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="332fc705-a89e-461c-b7f0-227bd20b3a58"
 />
 
 # I am unable to connect to virtual machines in the same VNet when using an UDR.

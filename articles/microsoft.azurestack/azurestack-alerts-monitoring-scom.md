@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="456410f8-bbc3-40ee-b02c-6bae79afe699"
 />
 
 # Azure Stack System Center Operations Manager (SCOM) connectivity

@@ -10,6 +10,7 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="11fcd55e-e56b-47be-946c-feaf4447b11d"
 />
 
 # My device appears offline in the portal.

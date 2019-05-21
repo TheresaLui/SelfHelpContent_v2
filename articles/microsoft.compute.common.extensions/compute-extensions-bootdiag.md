@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="f0b4963f-5a47-420c-84de-c15b35d4dc50"
 />
 
 # VM Diagnostic (boot diagnostics) extension issue

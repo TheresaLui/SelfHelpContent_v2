@@ -1,6 +1,6 @@
 <properties
-	pageTitle="general guidance or advisory/advisory (English and Japanese only)"
-	description="general guidance or advisory/advisory (English and Japanese only)"
+	pageTitle="Troubleshooting Azure SQL Database issues (English and Japanese)"
+	description="Troubleshooting Azure SQL Database issues (English and Japanese)"
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
@@ -10,9 +10,10 @@
 	supportTopicIds="32630404, 32630427, 32630428"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="de0e3d83-448a-48ed-8c98-15a1bed9933b"
 />
 
-# general guidance or advisory/advisory (English and Japanese only)
+# Troubleshooting Azure SQL Database issues (English and Japanese)
 
 ## **Recommended Documents**
 

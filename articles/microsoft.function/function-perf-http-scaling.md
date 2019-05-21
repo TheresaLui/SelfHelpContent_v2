@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="ffd485ff-828e-4d8b-842c-a5a5cc5e873f"
 />
 
 #  Performance/HTTP Functions Scaling

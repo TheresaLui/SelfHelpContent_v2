@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="e07d3422-22a3-4597-9e7b-3abc1e483f17"
 />
 
 # Server-side stored procedure, trigger, or UDF returns timeouts

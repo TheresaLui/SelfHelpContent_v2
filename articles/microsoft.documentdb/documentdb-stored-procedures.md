@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="0d57a184-547e-4c65-a42b-6cf378f33103"
 />
 
 # Introduction to server-side programming in Azure Cosmos DB

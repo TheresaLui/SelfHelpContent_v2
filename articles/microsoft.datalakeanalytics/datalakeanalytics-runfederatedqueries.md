@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="2558eecc-9655-4d31-9f4d-f0a44e0ce85e"
 />
 
 # How do I do a federated query from other sources such as SQL DB or SQL DW?

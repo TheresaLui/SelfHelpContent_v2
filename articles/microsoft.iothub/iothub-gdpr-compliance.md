@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="117fd7e5-da5f-4c40-809d-4a8c0435e455"
 />
 
 # IoT Hub GDPR and Compliance

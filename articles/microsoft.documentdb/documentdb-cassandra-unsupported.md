@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="f17fa2a4-e134-4cd3-883d-79ffcd4a21d2"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API

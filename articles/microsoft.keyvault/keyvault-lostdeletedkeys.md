@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="ac9233e4-9d2f-4aa4-87cd-68ef92f61952"
 />
 
 # Lost or Deleted Keys and Secrets in Key Vault

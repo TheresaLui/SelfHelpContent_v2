@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="c2f3fc4e-bb7a-4c88-9022-a0bed2ad01d6"
 />
 
 # Crashes or exceptions when using SQL Server service

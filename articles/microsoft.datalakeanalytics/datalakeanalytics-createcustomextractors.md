@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="00dcfdbb-dee6-40ce-a3b6-49705bba8a78"
 />
 
 # How do I create a custom extractor?

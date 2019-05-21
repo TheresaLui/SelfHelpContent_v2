@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="c6313be6-46d7-47f5-99b8-48b285d8d568"
 />
 
 # Configuring Function Apps/Configuring authentication

@@ -1,18 +1,21 @@
 <properties
-         pageTitle="Scoping questions for Azure VM backup or restore performance"
-         description="Scoping questions for Azure VM backup or restore performance"
-         authors="srinathvasireddy"
+         pageTitle="Scoping questions for Azure VM backup performance"
+         description="Scoping questions for Azure VM backup performance"
+         authors="srinathv"
+	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
+	 articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
 />
-# Questions Azure VM backup or restore performance
+# Questions Azure VM backup performance
 ---
 {
     "resourceRequired": true,
-    "title": "Azure VM backup or restore performance",
+    "subscriptionRequired": true,
+    "title": "Azure VM backup performance",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -21,7 +24,7 @@
             "controlType": "textbox",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "Issue_Type",
@@ -39,8 +42,8 @@
                     "text": "Slow backup during incremental backup"
                 },
                 {
-                    "value": "Slow restore",
-                    "text": "Slow restore"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -51,21 +54,36 @@
             "controlType": "textbox",
             "displayLabel": "Enter the long running job activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
-        {
-            "id": "learn_more_text",
-            "order": 4,
-            "controlType": "infoblock",
-            "content": "Microsoft can provide a solution to your problem faster if you can provide the long running Job Activity ID. From a new browser tab, You can find this from Recovery Services Vault > Monitoring and Report > Backup Jobs > Failed > Activity ID."
-        },
-        {
+	{
+	    "id": "Backup_Completeness",
+	    "order": 4,
+	    "controlType": "dropdown",
+	    "displayLabel": "Is the backup ever completed before?",
+	    "watermarkText": "Select",
+	    "dropdownoptions": [{
+				"Value":"Yes",
+				"Text": "Yes"
+		  	 },
+		 	 {
+				"Value":"No",
+				"Text": "No"
+			  },
+			  {
+			      "value": "dont_know_answer",
+			      "text": "Other, don't know or not applicable"
+			  }
+		 ],
+		  "required": false
+		},
+	{
             "id": "job_Running_Time",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Since how long the job is running?",
             "watermarkText": "Enter time in hours ex. 18hrs",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

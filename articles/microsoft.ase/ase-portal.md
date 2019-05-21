@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="9cd832b5-11a2-406d-a200-c6ea37444cfb"
 />
 
 # Portal Issues

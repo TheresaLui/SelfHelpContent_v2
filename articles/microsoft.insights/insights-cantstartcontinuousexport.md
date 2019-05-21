@@ -10,7 +10,8 @@
     supportTopicIds="32546622"
     productPesIds="15693"
     cloudEnvironments="public"
- />
+ 	articleId="74ce42b4-50d8-4700-8c66-421f8f2213d5"
+/>
 # I can't configure a new continuous export
 
 ## **Recommended Steps**

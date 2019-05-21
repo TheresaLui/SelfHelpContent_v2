@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="49c73335-4334-4a07-acde-c65e40a50331"
 />
 
 # Issue is Not Listed

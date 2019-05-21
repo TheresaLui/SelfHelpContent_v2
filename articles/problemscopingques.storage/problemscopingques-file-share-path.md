@@ -2,11 +2,13 @@
 	pageTitle="Storage File share or path"
 	description="Storage File share or path scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602758"
 	productPesIds="16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="9d8052f8-c738-48ca-940d-c4ddaf89ba30"
 />
 # Storage File share or path scoping question
 ---
@@ -28,14 +30,14 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="af7f5224-57f9-4687-91d6-a395f52a879d"
 />
 
 # Certificate Expired

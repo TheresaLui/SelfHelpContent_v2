@@ -13,58 +13,62 @@
 # Connect to a VM
 ---
 {
-                "resourceRequired": true,
-                "title": "I need guidance with serial console access",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "I need guidance with serial console access",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "connect_error",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you received?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "last_attempt_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "What was your last attempted time to access the serial console?",
+            "required": true
+        },
+        {
+            "id": "distrotype",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What is the Linux distribution of the VM?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                "id": "connect_error",
-                "order": 1,
-                "controlType": "multilinetextbox",
-                "displayLabel": "What is the error you received?",
-                "required": false,
-                "useAsAdditionalDetails": true
-                },{
-                "id": "last_attempt_time",
-                "order": 2,
-                "controlType": "datetimepicker",
-                "displayLabel": "What was your last attempted time to access the serial console?",
-                "required": true
-              },{
-                  "id": "distrotype",
-                  "order": 3,
-                  "controlType": "dropdown",
-                  "displayLabel": "What is the Linux distribution of the VM?",
-                  "watermarkText": "Choose an option",
-                  "dropdownOptions": [
-                      {
-                          "value": "Ubuntu",
-                          "text": "Ubuntu"
-                      },
-                      {
-                          "value": "Redhat",
-                          "text": "Redhat"
-                      },
-                      {
-                          "value": "Other",
-                          "text": "Other"
-                      }
-                  ],
-                  "required": false
-              },{
-                  "id": "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 5,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Ubuntu",
+                    "text": "Ubuntu"
+                },
+                {
+                    "value": "Redhat",
+                    "text": "Redhat"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ]
 }
 ---

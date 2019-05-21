@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="c8209426-b86c-4712-8575-6d2d592226fb"
 />
 # Enroll Devices - Windows Enrollment
 ---
@@ -41,6 +42,10 @@
                 {
                     "value": "Mobile Device Management for Office 365",
                     "text": "Mobile Device Management for Office 365"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

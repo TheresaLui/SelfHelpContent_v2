@@ -7,7 +7,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	displayOrder="5"
-	articleId=""
+	articleId="76fb1062-d878-4507-a0d9-8e5f959c6e1b"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32629470, 32629466"

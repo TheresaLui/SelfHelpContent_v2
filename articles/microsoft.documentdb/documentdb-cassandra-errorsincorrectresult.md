@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="0bf592a2-7a00-4c68-9669-1b57d3ea74c1"
 />
 
 # Azure Cosmos DB Cassandra API - Common errors

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="d31bec9f-d234-4597-9543-ea8f066ac570"
 />
 # Create a managed instance
 

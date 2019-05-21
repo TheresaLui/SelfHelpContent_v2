@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="dcc77a22-c4f2-4839-853a-c51a13462181"
 />
 
 # Linux Agent/OMS agent: Crashing

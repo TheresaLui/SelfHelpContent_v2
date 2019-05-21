@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="71a46147-c14b-4ccc-947c-7b5b016ac521"
 />
 
 # 4xx and 5xx errors

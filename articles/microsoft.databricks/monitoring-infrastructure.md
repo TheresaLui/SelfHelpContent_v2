@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
+	articleId="1f8cd371-4c28-42a4-bf5b-220002df39b3"
 />
 
 # Monitoring for Azure Databricks

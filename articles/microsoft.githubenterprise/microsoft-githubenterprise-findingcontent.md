@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16668"
 	cloudEnvironments="public"
+	articleId="8ab36c02-b3ab-4b8c-91c4-5d71e119995a"
 />
 
 # GitHub Finding Content Issues

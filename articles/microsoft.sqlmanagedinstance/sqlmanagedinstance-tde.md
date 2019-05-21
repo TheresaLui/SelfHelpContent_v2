@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="002dad84-e8a0-4cd6-884a-7b086a0c01e9"
 />
 
 # Transparent Data Encryption (TDE)

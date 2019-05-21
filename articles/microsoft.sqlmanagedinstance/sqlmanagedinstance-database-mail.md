@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="d036fb97-22f8-486c-b002-de3e5a9d5f0b"
 />
 
 # Database Mail

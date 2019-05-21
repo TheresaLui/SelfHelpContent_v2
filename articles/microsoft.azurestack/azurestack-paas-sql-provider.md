@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="aa54c0dd-c630-400d-addc-6f289e32e559"
 />
 
 # Azure Stack SQL Resource Provider

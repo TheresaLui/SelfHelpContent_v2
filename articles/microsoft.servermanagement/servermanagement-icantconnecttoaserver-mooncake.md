@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="4aaa959e-b04e-4c81-b59a-a8db24874395"
 />
 
 # I can’t connect to a server

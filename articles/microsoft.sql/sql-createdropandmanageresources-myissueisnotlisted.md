@@ -10,6 +10,7 @@
 	supportTopicIds="32630441"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="315df148-75ce-4643-8c53-80a9b631068a"
 />
 
 # create drop and manage resources/my issue is not listed

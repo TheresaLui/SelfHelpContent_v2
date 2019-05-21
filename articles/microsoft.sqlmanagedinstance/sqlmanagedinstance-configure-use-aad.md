@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="27702a2b-eaad-49eb-922a-e47a32505fc9"
 />
 # Configure or use Azure Active Directory authentication
 

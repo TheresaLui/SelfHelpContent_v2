@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
- />
+ 	articleId="0cb3e6b1-620e-4070-8791-8eed7ddedd0b"
+/>
 
 # What are the capabilities of Media Analytics?
 

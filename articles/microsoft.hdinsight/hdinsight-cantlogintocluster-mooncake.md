@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15078"
     cloudEnvironments="MoonCake"
+	articleId="c1545082-cbe1-44a4-902c-fc45f9216d8d"
 />
 
 # I can't log in to my cluster

@@ -32,6 +32,10 @@
                 {
                     "text": "No",
                     "value": "ADFSNotDeployed"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -66,6 +70,10 @@
                 {
                     "text": "Server 2008 R2",
                     "value": "version2008R2"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,
@@ -92,6 +100,10 @@
                 {
                     "text": "No",
                     "value": "SingleDomainFederation"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "dynamicDropdownOptions": null,

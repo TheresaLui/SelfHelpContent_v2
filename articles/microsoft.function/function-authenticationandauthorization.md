@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="5b92e5bc-2884-4bfc-a87b-bf29933cd0da"
 />
 
 # authentication and authorization

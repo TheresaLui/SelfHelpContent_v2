@@ -7,6 +7,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="51a25abe-4ddf-4b20-b2e2-db0ebab5c5b4"
 />
 # Custom DNS Issues
 ---

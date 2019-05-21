@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="c5e2b189-6be5-4f65-b75b-5597627d5e92"
 />
 
 # VMs behind Load Balancer (LB) not responding to requests

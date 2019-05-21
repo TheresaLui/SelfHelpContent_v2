@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="43b8afee-92cd-4311-bc57-748a7d0ccbb2"
 />
 
 # What are my Storage account scalability targets?

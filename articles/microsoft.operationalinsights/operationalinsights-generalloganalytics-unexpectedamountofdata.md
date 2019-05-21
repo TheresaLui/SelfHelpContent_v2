@@ -14,6 +14,7 @@ supportTopicIds="32612527"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	articleId="28a925f0-2bd9-4ba3-9bca-ee3c53e2b869"
 />
 
 # Unexpected amount of data ingested

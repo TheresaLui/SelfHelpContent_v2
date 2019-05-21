@@ -10,6 +10,7 @@
 	supportTopicIds="32630460"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="29f2e1ab-bae1-4060-a8b4-8d15e0091788"
 />
 
 # availability and connectivity/VNET service endpoints

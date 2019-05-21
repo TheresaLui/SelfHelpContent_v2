@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="ef9f6394-cd63-48b3-afaa-23f523fdc761"
 />
 
 # SQL Server Agent

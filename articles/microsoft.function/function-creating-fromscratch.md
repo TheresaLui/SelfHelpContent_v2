@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="2024b639-2a86-452c-a9fa-7143e01b4654"
 />
 
 # Creating functions from scratch

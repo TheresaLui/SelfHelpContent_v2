@@ -11,6 +11,7 @@
     resourceTags="servicefabric"
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="8b9a8c3c-5993-48aa-9c5f-d92c4b79d5db"
 />
 
 # Errors upgrading a service

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="9f113ff0-ec38-45f0-ae76-f7abcd265659"
 />
 # Restore a managed instance database
 

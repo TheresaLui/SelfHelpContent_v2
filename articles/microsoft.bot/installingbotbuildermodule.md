@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16152"
 	cloudEnvironments="public"
+	articleId="ebb956f7-8c4a-4246-9203-248be258f5fd"
 />
 
 # Installing Bot Builder Module

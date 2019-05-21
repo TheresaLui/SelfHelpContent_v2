@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="67228d28-9e42-46b5-a27a-d89c85cf8552"
 />
 
 #  Availability/Function App restarted

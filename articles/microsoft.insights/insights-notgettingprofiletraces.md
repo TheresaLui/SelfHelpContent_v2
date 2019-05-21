@@ -10,7 +10,8 @@
     productPesIds="15693"
     supportTopicIds="32602204"
     cloudEnvironments="public"
- />
+ 	articleId="05d43415-414c-4ea2-be1c-90cc41e48e22"
+/>
 # I am not getting profiler traces
 
 ## **Recommended Steps**

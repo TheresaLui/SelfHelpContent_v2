@@ -11,6 +11,7 @@
     resourceTags="windows,windowsSQL"
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="ea8323dd-e3ed-454c-9c78-158bd2c430b9"
 />
 
 # My VM restarted unexpectedly

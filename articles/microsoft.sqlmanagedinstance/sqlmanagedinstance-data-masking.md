@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="ad4bfab3-3e7e-4d07-b022-42f0cdd90f0d"
 />
 
 # Data Masking

@@ -11,6 +11,7 @@
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="7391ae21-6965-4075-a717-827f4613153a"
 />
 
 # I want to use my own SQL Server license in Azure VM

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="07984f0e-a641-4843-a804-e8015906371d"
 />
 
 # Quota validation issues

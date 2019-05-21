@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="7415f709-d479-416d-b5b8-1251b52f4be5"
 />
 
 # servicefabric-error

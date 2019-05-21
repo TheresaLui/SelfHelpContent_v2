@@ -2,11 +2,13 @@
 	pageTitle="Storage migration between Storage Accounts"
 	description="Storage migration between Storage Accounts scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602736"
 	productPesIds="16459"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="db69e7ff-4d73-423a-97ae-b30cee9f0d64"
 />
 # Storage migration between Storage Accounts
 ---
@@ -21,7 +23,7 @@
             "controlType": "textbox",
             "displayLabel": "Source Storage Account",
             "watermarkText": "From StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "storage_account_to",
@@ -29,7 +31,7 @@
             "controlType": "textbox",
             "displayLabel": "Destination Storage Account",
             "watermarkText": "To StorageAccountName",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
@@ -43,7 +45,7 @@
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]

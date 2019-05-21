@@ -12,6 +12,7 @@
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="8bbce42c-0cce-4266-a72e-3f24c184a576"
 />
 
 # Data Box Gateway has turned off

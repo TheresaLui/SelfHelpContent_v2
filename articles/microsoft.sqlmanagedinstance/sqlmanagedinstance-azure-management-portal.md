@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="053d7899-1f6b-4784-9baa-cefb18bd8b0c"
 />
 
 # Azure Management Portal

@@ -11,6 +11,7 @@
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="70d17a56-e4bb-43e0-97cd-b80ab05efae6"
 />
 
 # I can't create or add a VM

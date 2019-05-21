@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="24eaa3ea-0e2e-42df-a929-441543bd6558"
 />
 
 # Configure Web Application Firewall (WAF)

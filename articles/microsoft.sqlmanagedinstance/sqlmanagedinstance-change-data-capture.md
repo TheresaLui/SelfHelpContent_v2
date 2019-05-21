@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="7b84ea62-7b26-429d-85ae-bea8af1c03a5"
 />
 
 # Change Data Capture

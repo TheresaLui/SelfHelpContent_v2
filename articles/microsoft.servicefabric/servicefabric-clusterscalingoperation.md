@@ -11,9 +11,14 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="fa5e87fb-f80e-437b-b7f4-e4d13b835934"
 />
 
 # Cluster Scaling
+
+## Resolution to previous ImageBuilder process issue for Service Fabric Linux clusters
+
+As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issue with the ImageBuilder process has been resolved. This issue had required the addition of a custom script extension to the Azure Resource Manager template. This custom script extension can now be removed for clusters running Service Fabric runtime version 6.4.6444+. Please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/04/17/resolution-to-previous-imagebuilder-process-issue-for-service-fabric-linux-clusters/) for more information.
 
 ## **Recommended Documents**
 

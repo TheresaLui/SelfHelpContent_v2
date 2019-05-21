@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="363b77ba-c498-4b5e-84e1-aa417a79c539"
 />
 # Enroll Devices - Android enrollment
 ---
@@ -37,6 +38,10 @@
                 {
                     "value": "Mobile Device Management for Office 365",
                     "text": "Mobile Device Management for Office 365"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

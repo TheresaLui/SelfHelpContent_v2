@@ -10,6 +10,7 @@
 	supportTopicIds="32630412"
 	productPesIds="13491"
 	cloudEnvironments="public"
+	articleId="a4981f93-f5da-4990-8877-a0ec3abc3489"
 />
 
 # portal and client tools/azure portal

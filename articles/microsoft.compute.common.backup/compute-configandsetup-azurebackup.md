@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32565494"
 	resourceTags=""
-	productPesIds="15571,15797,16454,14749"
+	productPesIds="15571,15797,16454,14749,16470"
 	cloudEnvironments="public"
+	articleId="15c87a05-eb46-4369-bea4-8d2b3af57dce"
 />
 
 # Azure Backup - Configuration and Setup

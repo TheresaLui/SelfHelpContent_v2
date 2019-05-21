@@ -12,6 +12,7 @@
 	resourceTags="DataBoxEdge"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f01eccea-2e5f-4ecb-af6c-4e541fa92754"
 />
 
 # My device appears offline in the portal

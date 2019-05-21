@@ -2,11 +2,13 @@
 	pageTitle="Recover deleted Storage Account"
 	description="Recover deleted Storage Account scoping question"
 	authors="Passaree"
+    ms.author="passap"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602701"
 	productPesIds="15629"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="2165ec52-93b8-4bad-bf52-2b24b8f186cf"
 />
 # Recover deleted Storage Account
 ---
@@ -26,7 +28,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Name of the deleted Storage Account",
-            "watermarkText": "StorageAccountName",
+            "watermarkText": "accountname1;accountname2;accountname3",
             "required": true
         },
         {
@@ -60,14 +62,14 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Date and time that the account was deleted",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         },
         {

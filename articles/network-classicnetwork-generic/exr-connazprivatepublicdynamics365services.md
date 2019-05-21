@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Connectivity to Azure Private, Azure Public or Dynamics 365 Services"
-	description="Connectivity to Azure Private, Azure Public or Dynamics 365 Services"
+	pageTitle="Troubleshoot and resolve connectivity issues to Azure Private, Azure Public, or Dynamics 365 Services"
+	description="Troubleshoot and resolve connectivity issues to Azure Private, Azure Public, or Dynamics 365 Services"
 	service="microsoft.network"
 	resource="expressroutecircuits"
 	authors="radwiv"
@@ -11,9 +11,10 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="08f1b78e-236c-4715-a81f-1cf91eb1950c"
 />
 
-# Connectivity to Azure Private, Azure Public or Dynamics 365 Services
+# Troubleshoot and resolve connectivity issues to Azure Private, Azure Public, or Dynamics 365 Services
 
 ARP entries can help validate layer 2 configuration and help troubleshoot basic layer 2 connectivity issues.
 

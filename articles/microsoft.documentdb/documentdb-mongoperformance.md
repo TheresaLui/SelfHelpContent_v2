@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public"
+	articleId="34d109bd-28f4-4d4e-b160-6cecd738b6c9"
 />
 
 # Performance tips for Azure Cosmos DB MongoDB API

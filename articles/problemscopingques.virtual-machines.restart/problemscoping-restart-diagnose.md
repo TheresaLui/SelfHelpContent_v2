@@ -13,56 +13,59 @@
 # VM Restart
 ---
 {
-                "resourceRequired": true,
-                "title": "Help diagnose my VM restart issue",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "Help diagnose my VM restart issue",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "restart_error",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you received?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "machinetype",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Which machine version are you running?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                "id": "restart_error",
-                "order": 1,
-                "controlType": "multilinetextbox",
-                "displayLabel": "What is the error you received?",
-                "required": false,
-                "useAsAdditionalDetails": true
-                },{
-                      "id": "machinetype",
-                      "order": 2,
-                      "controlType": "dropdown",
-                      "displayLabel": "Which machine version are you running?",
-                      "watermarkText": "Choose an option",
-                      "dropdownOptions": [
-                          {
-                              "value": "Windows 7/Windows server 2008r2",
-                              "text": "Windows 7/Windows server 2008r2"
-                          },
-                          {
-                              "value": "Windows 8/Windows server 2012",
-                              "text": "Windows 8/Windows server 2012"
-                          },
-                          {
-                              "value": "Windows 8.1/Windows server 2012r2",
-                              "text": "Windows 8.1/Windows server 2012r2"
-                          },
-                          {
-                              "value": "Windows 10/Windows server 2016",
-                              "text": "Windows 10/Windows server 2016"
-                          }
-                      ],
-                      "required": false
-                  },{
-                  "id": "problem_description",
-                  "order": 3,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 4,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Windows 7/Windows server 2008r2",
+                    "text": "Windows 7/Windows server 2008r2"
+                },
+                {
+                    "value": "Windows 8/Windows server 2012",
+                    "text": "Windows 8/Windows server 2012"
+                },
+                {
+                    "value": "Windows 8.1/Windows server 2012r2",
+                    "text": "Windows 8.1/Windows server 2012r2"
+                },
+                {
+                    "value": "Windows 10/Windows server 2016",
+                    "text": "Windows 10/Windows server 2016"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ]
 }
 ---

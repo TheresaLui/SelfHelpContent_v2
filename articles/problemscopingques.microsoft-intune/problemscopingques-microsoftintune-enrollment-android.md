@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="d295eadf-ca63-4106-8564-5f643eced134"
 />
 # Intune Enrollment Android
 ---
@@ -43,6 +44,10 @@
                 {
                     "value": "Mobile Device Management for Office 365",
                     "text": "Mobile Device Management for Office 365"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

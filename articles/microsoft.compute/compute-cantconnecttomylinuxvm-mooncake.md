@@ -10,6 +10,7 @@
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="16342,16065,15797,16454,16470"
     cloudEnvironments="MoonCake"
+	articleId="148d28e7-e2ed-4c6d-9057-7a623e36c987"
 />
 
 # I can't connect to my Linux VM

@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public"
+	articleId="84de2e54-0b99-46e4-afb8-1ecf4e31679f"
 />
 
 # Azure Stack alerts

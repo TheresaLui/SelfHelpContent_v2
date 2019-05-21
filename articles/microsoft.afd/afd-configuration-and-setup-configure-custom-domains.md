@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="52189f67-d9f0-4d0f-99a5-830739c5bae7"
 />
 
 # Configure Custom Domains

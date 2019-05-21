@@ -12,6 +12,7 @@
 	resourceTags="DataBoxEdge,DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3201a5e5-95ac-4c18-a810-fa03d9c2ad64"
 />
 
 # I am getting heartbeat alert emails

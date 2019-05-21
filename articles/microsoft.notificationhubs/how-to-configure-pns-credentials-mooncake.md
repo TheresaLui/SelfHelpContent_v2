@@ -11,6 +11,7 @@
     productPesIds=""
     supportToicIds =""
     cloudEnvironments="MoonCake"
+	articleId="b8657f84-db5b-4ca7-b817-321111e9dba8"
 />
 
 # How do I configure PNS credentials?

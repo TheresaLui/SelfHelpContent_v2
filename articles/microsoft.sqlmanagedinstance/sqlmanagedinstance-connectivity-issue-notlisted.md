@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="c09b63ba-d4af-4230-9028-85d7881116da"
 />
 
 # Connectivity/Issue is not listed

@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** has reached the maximum request limit. Once the limit is reached, incoming requests are rejected until an ongoing request finishes. To resolve the issue, check if there are blocking queries. Blocking queries can use more requests than intended. You can also reduce MAXDOP for Premium instances or increase the database SLO for Standard instances. 
+Our internal service telemetry detected that your Azure SQL DB database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** in server **<!--$ServerName-->ServerName<!--/$ServerName-->** has reached the maximum request limit. Once the limit is reached, incoming requests are rejected until an ongoing request finishes. To resolve the issue, check if there are blocking queries. Blocking queries can use more requests than intended. You can also reduce MAXDOP for Premium instances or increase the database SLO for Standard instances.
 
 ## **Recommended Documents**
 

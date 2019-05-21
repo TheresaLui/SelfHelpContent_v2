@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="5c994644-095a-4bd2-b30e-8c7105018185"
 />
 
 # Creating Function Apps

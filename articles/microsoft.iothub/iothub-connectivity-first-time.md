@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="1e81a69b-2a16-4764-ba83-337ec03c3809"
 />
 
 # Issues connecting a device to IoT Hub for the first time

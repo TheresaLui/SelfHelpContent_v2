@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="13186"
     cloudEnvironments="MoonCake"
+	articleId="a12ed0eb-48a4-4283-93c5-9da75ff3f923"
 />
 
 # I am receiving a timeout exception

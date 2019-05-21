@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Issue or guidance with Logic Apps"
-	description="Issue or guidance with Logic Apps"
+	pageTitle="Diagnose and resolve issues with Azure with Logic Apps"
+	description="Diagnose and resolve issues with Azure with Logic Apps"
 	service=""
 	resource=""
 	authors="ScottAzure"
@@ -11,9 +11,10 @@
 	resourceTags=""
 	productPesIds="15791"
 	cloudEnvironments="public"
+	articleId="f7517214-4e34-48f3-9ce4-3f84fb92275e"
 />
 
-# Issue or guidance with Logic Apps
+# Diagnose and resolve issues with Azure with Logic Apps
 
 4 out of 5 customers resolved their Logic Apps issues using the documents below.<br>
 

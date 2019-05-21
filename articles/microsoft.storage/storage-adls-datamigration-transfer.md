@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16598"
 	cloudEnvironments="public"
+	articleId="34be1f97-28bb-476c-9dd7-4302579f930a"
 />
 
 # Migrate data to Azure Storage with Import/Export

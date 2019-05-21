@@ -19,13 +19,13 @@
 # UserErrorStandardSSDNotSupported
 
 <!--issueDescription-->
-We found that you are using Standrd SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently does not support Standard SSD disks for vaults that are not upgraded to Azure VM Backup stack v2. 
+We found that you are using Standard SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently supports Standard SSD disks only for vaults that are upgraded to [Instant Restore](https://aka.ms/AB-instant-Restore). 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Azure VM Backup Stack V2, see this [article](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2). <br>
-Make sure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2#considerations-before-upgrade) section.
+To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Instant Restore, see this [article](https://aka.ms/AB-instant-Restore). Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section.
 
 ## **Recommended Documents**
-Review the [benefits](https://docs.microsoft.com/azure/backup/backup-upgrade-to-vm-backup-stack-v2), including the ability to backup disks up to 4TB. 
+
+Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB

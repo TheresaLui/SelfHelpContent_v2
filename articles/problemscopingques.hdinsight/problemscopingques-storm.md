@@ -7,6 +7,7 @@
 	productPesIds="15078"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="d866d96f-5a50-4ce8-b0cb-0365b723b179"
 />
 # Kafka Issue
 ---

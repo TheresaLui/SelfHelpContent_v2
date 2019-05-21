@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="c6d4d389-4914-41ef-95ca-4fb4db038566"
 />
 
 # authentication and authorization/Managed Service Identity (MSI) Integration 

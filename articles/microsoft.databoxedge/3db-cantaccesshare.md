@@ -12,6 +12,7 @@
 	resourceTags="DataBoxEdge,DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="d49445ef-f2c7-47b3-b045-4948d6e57c72"
 />
 
 # I can’t access my shares

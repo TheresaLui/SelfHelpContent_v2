@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16533"
 	cloudEnvironments="public"
+	articleId="2aca238a-96c5-4d78-bec2-6e193757c4b4"
 />
 
 # Creation Issues\Portal Deployment

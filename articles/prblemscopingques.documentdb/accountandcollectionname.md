@@ -6,6 +6,7 @@
 	productPesIds="15585"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="7507fce5-61f0-40d1-8eef-8e6a0c80f941"
 />
 # CosmosDb Account and Collection Info
 ---

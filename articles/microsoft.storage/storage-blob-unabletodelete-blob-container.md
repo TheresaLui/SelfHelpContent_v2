@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public,MoonCake"
+	articleId="867e9c97-2a7b-43c4-9ae3-be0d5181e5d5"
 />
 
 # Unable to delete Blob or Container

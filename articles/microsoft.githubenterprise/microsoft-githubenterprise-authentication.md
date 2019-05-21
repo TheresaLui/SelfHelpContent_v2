@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16668"
 	cloudEnvironments="public"
+	articleId="97d18967-45a4-4862-a13e-1a77de4ca45c"
 />
 
 # GitHub Authentication Issues

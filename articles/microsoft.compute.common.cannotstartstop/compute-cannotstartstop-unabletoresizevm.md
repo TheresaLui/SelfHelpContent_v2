@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public"
+	articleId="583d8602-23bb-4671-8de0-6651b2fc34e1"
 />
 
 # I am unable to resize my VM

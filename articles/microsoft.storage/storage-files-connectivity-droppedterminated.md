@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="0fe3cd1e-3520-4156-8657-b26992ff7597"
 />
 
 # Troubleshooting Azure File: Dropped or Terminated Connections

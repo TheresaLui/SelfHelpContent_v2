@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="8499e1cb-dd26-43ef-beb2-969863ba8570"
 />
 
 # Configure Health Probes

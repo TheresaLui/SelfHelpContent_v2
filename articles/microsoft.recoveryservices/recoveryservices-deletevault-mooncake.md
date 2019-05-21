@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="5f701380-150c-410b-a192-966fc38a03c6"
 />
 
 # I want to delete a vault that stores backup data

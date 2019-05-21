@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public"
+	articleId="5ab2a7d5-492e-419f-9757-ee73ba21ee46"
 />
 
 # Adding/Creating functions from source control

@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="06fe115e-bcfd-4d33-b7fa-fc9660533e20"
 />
 
 # Authentication errors

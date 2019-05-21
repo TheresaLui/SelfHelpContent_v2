@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public"
+	articleId="501f3fad-2deb-47ab-acac-23cf1b701a2b"
 />
 
 # management/increasenetworkinglimits

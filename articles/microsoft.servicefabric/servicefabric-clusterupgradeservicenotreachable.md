@@ -11,9 +11,14 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public"
+	articleId="c04d7e62-3b60-4eb0-bac3-86067fedf102"
 />
 
 # Upgrade Service Not Reachable
+
+## Resolution to previous ImageBuilder process issue for Service Fabric Linux clusters
+
+As of Service Fabric runtime version 6.4.644 for Linux clusters, a previous issue with the ImageBuilder process has been resolved. This issue had required the addition of a custom script extension to the Azure Resource Manager template. This custom script extension can now be removed for clusters running Service Fabric runtime version 6.4.6444+. Please see this [post](https://blogs.msdn.microsoft.com/azureservicefabric/2019/04/17/resolution-to-previous-imagebuilder-process-issue-for-service-fabric-linux-clusters/) for more information.
 
 ## **Recommended Documents**
 

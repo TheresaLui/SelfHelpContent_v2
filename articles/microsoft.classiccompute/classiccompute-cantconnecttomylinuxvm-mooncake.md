@@ -11,6 +11,7 @@
     resourceTags="linux"
     productPesIds=""
     cloudEnvironments="MoonCake"
+	articleId="bb60fd9c-6e0c-409e-a3cd-d7a04cfb2339"
 />
 
 # I can't connect to my Linux VM

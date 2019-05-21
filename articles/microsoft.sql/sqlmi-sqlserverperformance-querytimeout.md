@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="public"
+	articleId="d8e9399b-4264-441e-97c2-7dde2c3baacb"
 />
 
 # query time out

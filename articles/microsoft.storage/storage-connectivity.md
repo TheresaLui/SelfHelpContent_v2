@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16461,16462"
 	cloudEnvironments="public,MoonCake"
+	articleId="7b04300f-4727-4a8a-8d61-1c1a84c04f69"
 />
 
 # Connectivity Error(s)

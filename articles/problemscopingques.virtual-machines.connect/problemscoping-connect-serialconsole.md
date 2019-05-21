@@ -13,54 +13,58 @@
 # Connect to a VM
 ---
 {
-                "resourceRequired": true,
-                "title": "I need guidance with serial console access",
-                "fileAttachmentHint": "",
-                "formElements": [
+    "resourceRequired": true,
+    "title": "I need guidance with serial console access",
+    "fileAttachmentHint": "",
+    "formElements": [
+        {
+            "id": "connect_error",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you received?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "last_attempt_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "What was your last attempted time to access the serial console?",
+            "required": true
+        },
+        {
+            "id": "machinetype",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What is the operating system of the VM?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                "id": "connect_error",
-                "order": 1,
-                "controlType": "multilinetextbox",
-                "displayLabel": "What is the error you received?",
-                "required": false,
-                "useAsAdditionalDetails": true
-                },{
-                "id": "last_attempt_time",
-                "order": 2,
-                "controlType": "datetimepicker",
-                "displayLabel": "What was your last attempted time to access the serial console?",
-                "required": true
-              },{
-                  "id": "machinetype",
-                  "order": 3,
-                  "controlType": "dropdown",
-                  "displayLabel": "What is the operating system of the VM?",
-                  "watermarkText": "Choose an option",
-                  "dropdownOptions": [
-                      {
-                          "value": "Windows 7/Windows 8/Windows 8.1/Windows 10",
-                          "text": "Windows 7/Windows 8/Windows 8.1/Windows 10"
-                      },
-                      {
-                          "value": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016",
-                          "text": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016"
-                      }
-                  ],
-                  "required": false
-              },{
-                  "id": "problem_description",
-                  "order": 4,
-                  "controlType": "multilinetextbox",
-                  "displayLabel": "Description",
-                  "useAsAdditionalDetails": false,
-                  "required": true
-                  },{
-                  "id": "problem_start_time",
-                  "order": 5,
-                  "controlType": "datetimepicker",
-                  "displayLabel": "When did the problem start?",
-                  "required": true
+                    "value": "Windows 7/Windows 8/Windows 8.1/Windows 10",
+                    "text": "Windows 7/Windows 8/Windows 8.1/Windows 10"
+                },
+                {
+                    "value": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016",
+                    "text": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016"
                 }
-                ]
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 5,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        }
+    ]
 }
 ---

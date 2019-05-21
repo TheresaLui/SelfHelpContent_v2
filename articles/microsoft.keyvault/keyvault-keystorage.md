@@ -10,6 +10,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="public"
+	articleId="921a9821-fa93-4e7f-9e05-98f4d99fc3cc"
 />
 
 # 4 Ways to Store Keys with Key Vault

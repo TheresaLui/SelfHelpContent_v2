@@ -11,6 +11,7 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
+	articleId="a5525ace-4ddd-499b-9723-a9280c09d706"
 />
 
 # General Guidance or Advisory

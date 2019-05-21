@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15480"
 	cloudEnvironments="public"
+	articleId="58d931e2-473f-4a8c-a93d-4422ac55ab21"
 />
 
 # Connectivity to Azure Private Services

@@ -7,6 +7,7 @@
 	supportTopicIds="32581608"
 	productPesIds="14748"
 	cloudEnvironments="public"
+	articleId="441bb1a9-fedb-4f91-a844-74b9d66a88ea"
 />
 
 # ASE creation

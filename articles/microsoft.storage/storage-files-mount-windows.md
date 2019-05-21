@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="070a9086-bd72-4849-b878-e48c17d6ec8f"
 />
 
 # Troubleshooting Azure File Mount Issues on Windows

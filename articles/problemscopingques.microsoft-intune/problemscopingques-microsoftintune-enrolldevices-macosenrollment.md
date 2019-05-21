@@ -7,6 +7,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	articleId="1a67afa3-5621-480b-88c2-de0c61afd187"
 />
 # Enroll Devices - MacOS Enrollment
 ---
@@ -41,6 +42,10 @@
                 {
                     "value": "Mobile Device Management for Office 365",
                     "text": "Mobile Device Management for Office 365"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true

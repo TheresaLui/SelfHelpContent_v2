@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="6a85270e-9f76-4a77-bdba-79c38d4a5461"
 />
 
 # Manage your IoT Hub pricing or scale

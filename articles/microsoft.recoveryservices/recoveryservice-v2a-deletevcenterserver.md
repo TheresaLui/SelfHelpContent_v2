@@ -10,6 +10,7 @@
 	resourceTags=""
 	productPesIds="16370"
 	cloudEnvironments="public"
+	articleId="aceb53df-9d39-4d85-83eb-7ad3075af1d2"
 />
 
 # Delete a vCenter server in Azure
