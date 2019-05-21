@@ -5,18 +5,18 @@
 	resource="servers"
 	authors="ajlam"
     ms.author="andrela"
-	displayOrder="6"
+	displayOrder="7"
 	selfHelpType="resource"
-	supportTopicIds="32640118,32640120,32640123,32640152"
+	supportTopicIds="32640118,32640123,32640152"
 	resourceTags="servers, databases"
 	productPesIds="16617"
 	cloudEnvironments="public"
-	articleId="mariadbconnectionissues"
+	articleId="mariadbconnectionissues1"
 />
 
 # Connection issues to Azure Databases for MariaDB
 
-Persistent connection issues to Azure Databases for MariaDB can occur due to incorrect firewall configuration, incorrect connection string, and other causes. Work through the recommended steps to assure you are not hitting a misconfiguration problem.
+Persistent connection issues to Azure Databases for MariaDB can occur due to incorrect firewall configuration, incorrect connection string, and other causes. Work through the recommended steps to ensure you are not hitting a misconfiguration problem.
 
 ## **Recommended Steps**
 

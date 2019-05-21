@@ -10,7 +10,7 @@
          schemaVersion="1"
          articleId="2b342a85-2011-4b4d-b7d0-43639892e013"
 />
-# Questions Azure VM Fail-over Failures
+# Questions Azure VM Fail-over Failures 
 ---
 {
      "subscriptionRequired": true,

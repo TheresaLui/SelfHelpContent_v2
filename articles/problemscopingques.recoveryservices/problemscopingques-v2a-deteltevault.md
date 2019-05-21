@@ -44,7 +44,6 @@
                     "value": "Tried force deleting the vault using powershell",
                     "text": "Tried to force delete the vault by using PowerShell"
                 },
-
 		{
 		    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"

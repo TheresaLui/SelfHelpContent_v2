@@ -17,13 +17,11 @@
 />
 # Database connectivity issue due to auditing enabled secured connections
 
-## We ran diagnostics on your resource and found an issue
-
 <!--issueDescription-->
-We noticed that you are connecting to an auditing enabled database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> using secured connection strings *(<!--$ServerName-->ServerName<!--/$ServerName-->.database.secure.windows.net)*. The secured connection strings were only used for databases with Table Auditing enabled, which is now deprecated. Connecting to database using the secure endpoints is unsupported, may cause connection errors/issues, and it is not a recommended option. We highly recommend you to use blob auditing which does not require any changes to your connection strings, and it is more efficient and less error prone.
-
-For more information please refer the recommended documents below.
+We noticed that you are connecting to an auditing-enabled database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> using secured connection strings (<!--$ServerName-->ServerName<!--/$ServerName-->.database.secure.windows.net).
 <!--/issueDescription-->
+
+The secured connection strings were only used for databases with Table Auditing enabled, which is now deprecated. Connecting to database using the secure endpoints is unsupported, may cause connection errors/issues, and it is not a recommended option. We highly recommend you to use blob auditing which does not require any changes to your connection strings, and it is more efficient and less error prone.
 
 ## **Recommended Documents**
 
