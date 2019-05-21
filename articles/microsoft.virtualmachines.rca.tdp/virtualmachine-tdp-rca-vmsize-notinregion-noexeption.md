@@ -18,7 +18,7 @@
 # We cannot deploy the selected size of your resource
 
 <!--issueDescription-->
-We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the VM size is not available in the <!--$deploymentRegion-->myRegion<!--/$deploymentRegion--> where you are trying to deploy it.<br>
+We detected that the deployment for virtual machine **<!--$vmname-->myVM<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because the VM size is not available in the region where you are trying to deploy it..<br>
 <!--/issueDescription-->
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
@@ -28,8 +28,8 @@ Please try to redeploy your VM and refer to one of the available sizes in the re
 | To determine sizes by ... | Do the following |
 | --- | --- |
 | Azure portal | Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
-| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for the desired region. For example:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("westus")}` |
- Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for your desired region. Use the `--size` parameter to match the size name, for example:<br>`az vm list-skus --location westus --size Standard_F --output table`|
+| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region, such as *westus*:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("westus")}` |
+ Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name, such as *westus* and *Standard_F*:<br>`az vm list-skus --location westus --size Standard_F --output table`|
 | REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
 
 You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
