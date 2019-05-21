@@ -30,7 +30,9 @@ Please try to redeploy your VM and refer to one of the available sizes in the re
 | Azure portal | Select the VM in the Azure portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. |
 | PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for the desired region. For example:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("westus")}` |
  Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for your desired region. Use the `--size` parameter to match the size name, for example:<br>`az vm list-skus --location westus --size Standard_F --output table`|
-| REST | Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
+| REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
+
+You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
 
 
 
