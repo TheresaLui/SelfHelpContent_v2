@@ -23,12 +23,14 @@ We detected that the deployment for virtual machine **<!--$vmname-->Virtual mach
 
 The VM size selected for this VM cannot be created in the specified region. This limitation is due to business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br>
 
-Please choose a new VM size. For guidance on resizing the VM, see these resources:
+Please resize the VM to fix this issue. You can determine available sizes as described in the following table.
 
-| To learn about ... | See the following |
+| To determine sizes by ... | Do the following |
 | --- | --- |
-| Resizing VMs | [Resize virtual machines](https://azure.microsoft.com/blog/resize-virtual-machines/) |
-| Determining which SKUs are available in a region | [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)|
-| Resolving SKU issues for a region according to a subscription | [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)|
+| Azure Portal | Select the VM in the Azure Portal. Under **Settings**, choose **Size**. On the **Size** blade, you can view available sizes and use filter options. Select **Resize**. |
+| PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command.<br>`Get-AzComputeResourceSku | where {$_.Locations -icontains "centralus"}`|
+| Azure CLI | Use the [az vm list-sizes](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-sizes) command. Use the `--location` parameter to filter output to region you are using.|
+| REST | Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|
+
 
 
